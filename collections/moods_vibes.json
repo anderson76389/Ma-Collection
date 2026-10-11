@@ -1,0 +1,1271 @@
+[
+  {
+    "id": "collection-3UOL2OFV",
+    "title": "Moods & Vibes",
+    "viewMode": "FOLLOW_LAYOUT",
+    "pinToTop": true,
+    "showAllTab": true,
+    "folders": [
+      {
+        "id": "folder-W52X6SMF",
+        "title": "Cozy & Comforting",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/cozy-and-comforting/v2/cozy-and-comforting-cover.png",
+        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/cozy-and-comforting/v2/cozy-and-comforting-logo.png",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/cozy-and-comforting/cozy-and-comforting-backdrop.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/cozy-and-comforting/v2/cozy-and-comforting-hover.gif",
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "id": "src-6P4FKCTO",
+            "title": "Live-Action Romantic Comedies",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "35,10749",
+              "withOriginalLanguage": "en",
+              "voteCountGte": 75,
+              "vote_count.gte": 75,
+              "withoutGenres": "16",
+              "without_genres": "16",
+              "withoutKeywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903",
+              "without_keywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903"
+            },
+            "genre": "Live-Action Romantic Comedies",
+            "name": "Live-Action Romantic Comedies"
+          },
+          {
+            "id": "src-7PMKMI95",
+            "title": "Heartwarming TV Comedies & Dramas",
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "35,18",
+              "withOriginalLanguage": "en",
+              "voteCountGte": 40,
+              "vote_count.gte": 40,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Heartwarming TV Comedies & Dramas",
+            "name": "Heartwarming TV Comedies & Dramas"
+          },
+          {
+            "id": "src-1HHL2R9R",
+            "title": "Cozy Romantic Stories",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "10749",
+              "withOriginalLanguage": "en",
+              "voteAverageGte": 7.2,
+              "voteCountGte": 100,
+              "vote_count.gte": 100,
+              "withoutGenres": "16",
+              "without_genres": "16",
+              "withoutKeywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903",
+              "without_keywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903"
+            },
+            "genre": "Romance",
+            "name": "Romance"
+          },
+          {
+            "id": "src-W9CGV995",
+            "title": "Acclaimed Feel-Good Classics",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "35,18",
+              "withOriginalLanguage": "en",
+              "voteAverageGte": 7.8,
+              "voteCountGte": 100,
+              "vote_count.gte": 100,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Acclaimed Feel-Good Classics",
+            "name": "Acclaimed Feel-Good Classics"
+          },
+          {
+            "id": "src-VY164913",
+            "title": "Cozy Animated Favorites",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "16,10751",
+              "withOriginalLanguage": "en",
+              "voteCountGte": 75,
+              "vote_count.gte": 75
+            },
+            "genre": "Cozy Animated Favorites",
+            "name": "Cozy Animated Favorites"
+          },
+          {
+            "id": "src-SWETRLWO",
+            "title": "Recent Cozy Releases",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withGenres": "35,10749",
+              "withOriginalLanguage": "en",
+              "releaseDateGte": "2023-01-01",
+              "voteCountGte": 10,
+              "vote_count.gte": 10,
+              "withoutGenres": "16",
+              "without_genres": "16",
+              "withoutKeywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903",
+              "without_keywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903"
+            },
+            "genre": "Recent Cozy Releases",
+            "name": "Recent Cozy Releases"
+          }
+        ]
+      },
+      {
+        "id": "folder-7TSDBZYI",
+        "title": "Mind-Bending",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/mind-bending/v2/mind-bending-cover.png",
+        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/mind-bending/v2/mind-bending-logo.png",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/mind-bending/mind-bending-backdrop.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/mind-bending/v2/mind-bending-hover.gif",
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "id": "src-4YH2H259",
+            "title": "Mind-Bending Sci-Fi Thrillers",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "878,53",
+              "withOriginalLanguage": "en",
+              "voteCountGte": 75,
+              "vote_count.gte": 75,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Mind-Bending Sci-Fi Thrillers",
+            "name": "Mind-Bending Sci-Fi Thrillers"
+          },
+          {
+            "id": "src-F9Z9BNM3",
+            "title": "Psychological Mystery Shows",
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "9648",
+              "withOriginalLanguage": "en",
+              "voteCountGte": 40,
+              "vote_count.gte": 40,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Mystery",
+            "name": "Mystery"
+          },
+          {
+            "id": "src-1EXUZLDM",
+            "title": "Twist Endings & Unpredictable",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "53,9648",
+              "withOriginalLanguage": "en",
+              "voteCountGte": 75,
+              "vote_count.gte": 75,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Twist Endings & Unpredictable",
+            "name": "Twist Endings & Unpredictable"
+          },
+          {
+            "id": "src-VL6W2CC3",
+            "title": "Time Loops & Alternate Realities",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withOriginalLanguage": "en",
+              "withKeywords": "10854|4565",
+              "voteCountGte": 75,
+              "vote_count.gte": 75,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Time Loops & Alternate Realities",
+            "name": "Time Loops & Alternate Realities"
+          },
+          {
+            "id": "src-HXAJ2S6G",
+            "title": "Top Rated Psychological Thrillers",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "53,18",
+              "withOriginalLanguage": "en",
+              "voteAverageGte": 7.8,
+              "vote_count.gte": 100,
+              "withoutGenres": "16",
+              "without_genres": "16",
+              "voteCountGte": 100
+            },
+            "genre": "Top Rated Psychological Thrillers",
+            "name": "Top Rated Psychological Thrillers"
+          },
+          {
+            "id": "src-BY382887",
+            "title": "Recent Mind-Bending Releases",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withGenres": "878",
+              "withOriginalLanguage": "en",
+              "releaseDateGte": "2023-01-01",
+              "voteCountGte": 10,
+              "vote_count.gte": 10,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Sci-Fi",
+            "name": "Sci-Fi"
+          }
+        ]
+      },
+      {
+        "id": "folder-S21P049B",
+        "title": "Adrenaline Rush",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/adrenaline-rush/v2/adrenaline-rush-cover.png",
+        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/adrenaline-rush/v2/adrenaline-rush-logo.png",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/adrenaline-rush/adrenaline-rush-backdrop.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/adrenaline-rush/v2/adrenaline-rush-hover.gif",
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "id": "src-QU4JNKGU",
+            "title": "High-Octane Action Blockbusters",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "28",
+              "withOriginalLanguage": "en",
+              "voteCountGte": 75,
+              "vote_count.gte": 75,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Action",
+            "name": "Action"
+          },
+          {
+            "id": "src-8FBLV2KZ",
+            "title": "Survival & Heist Movies",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withOriginalLanguage": "en",
+              "withKeywords": "10051|10349",
+              "voteCountGte": 75,
+              "vote_count.gte": 75,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Survival & Heist Movies",
+            "name": "Survival & Heist Movies"
+          },
+          {
+            "id": "src-KYIOCRHA",
+            "title": "Action & Thriller Series",
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "10759",
+              "withOriginalLanguage": "en",
+              "voteCountGte": 40,
+              "vote_count.gte": 40,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Action & Adventure",
+            "name": "Action & Adventure"
+          },
+          {
+            "id": "src-MFV6LSIE",
+            "title": "Martial Arts & Combat",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withOriginalLanguage": "en",
+              "withKeywords": "779|377418",
+              "voteCountGte": 75,
+              "vote_count.gte": 75,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Martial Arts & Combat",
+            "name": "Martial Arts & Combat"
+          },
+          {
+            "id": "src-RCV9T0NQ",
+            "title": "Top Rated Action Hits",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "28",
+              "withOriginalLanguage": "en",
+              "voteAverageGte": 7.5,
+              "vote_count.gte": 100,
+              "withoutGenres": "16",
+              "without_genres": "16",
+              "voteCountGte": 100
+            },
+            "genre": "Action",
+            "name": "Action"
+          },
+          {
+            "id": "src-9HASIH9P",
+            "title": "Recent High-Octane Releases",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withGenres": "28,53",
+              "withOriginalLanguage": "en",
+              "releaseDateGte": "2023-01-01",
+              "voteCountGte": 10,
+              "vote_count.gte": 10,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Recent High-Octane Releases",
+            "name": "Recent High-Octane Releases"
+          }
+        ]
+      },
+      {
+        "id": "folder-070BQVHR",
+        "title": "Epic & Sweeping",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/epic-and-sweeping/v2/epic-and-sweeping-cover.png",
+        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/epic-and-sweeping/v2/epic-and-sweeping-logo.png",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/epic-and-sweeping/epic-and-sweeping-backdrop.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/epic-and-sweeping/v2/epic-and-sweeping-hover.gif",
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "id": "src-KVRNZRDD",
+            "title": "Historical & War Epics",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "36,10752",
+              "withOriginalLanguage": "en",
+              "voteCountGte": 75,
+              "vote_count.gte": 75,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Historical & War Epics",
+            "name": "Historical & War Epics"
+          },
+          {
+            "id": "src-8DFVNN38",
+            "title": "Grand Fantasy Epics",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "14,12",
+              "withOriginalLanguage": "en",
+              "voteCountGte": 75,
+              "vote_count.gte": 75,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Grand Fantasy Epics",
+            "name": "Grand Fantasy Epics"
+          },
+          {
+            "id": "src-Z3GWKYOD",
+            "title": "Epic Scale TV Sagas",
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "10765,18",
+              "withOriginalLanguage": "en",
+              "voteCountGte": 40,
+              "vote_count.gte": 40,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Epic Scale TV Sagas",
+            "name": "Epic Scale TV Sagas"
+          },
+          {
+            "id": "src-BOTAT126",
+            "title": "Space Opera & Cosmic Journeys",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "878",
+              "withOriginalLanguage": "en",
+              "withKeywords": "161176",
+              "voteCountGte": 75,
+              "vote_count.gte": 75,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Sci-Fi",
+            "name": "Sci-Fi"
+          },
+          {
+            "id": "src-IVQ5AAYQ",
+            "title": "Top Rated Epic Masterpieces",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "12",
+              "withOriginalLanguage": "en",
+              "voteAverageGte": 7.6,
+              "vote_count.gte": 100,
+              "withoutGenres": "16",
+              "without_genres": "16",
+              "voteCountGte": 100
+            },
+            "genre": "Adventure",
+            "name": "Adventure"
+          },
+          {
+            "id": "src-DSSSI5EU",
+            "title": "Recent Epic Releases",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withGenres": "12",
+              "withOriginalLanguage": "en",
+              "releaseDateGte": "2023-01-01",
+              "voteCountGte": 10,
+              "vote_count.gte": 10,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Adventure",
+            "name": "Adventure"
+          }
+        ]
+      },
+      {
+        "id": "folder-7AXTM9QX",
+        "title": "Feel-Good",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/feel-good/v2/feel-good-cover.png",
+        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/feel-good/v2/feel-good-logo.png",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/feel-good/feel-good-backdrop.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/feel-good/v2/feel-good-hover.gif",
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "id": "src-5GTQ02N8",
+            "title": "Uplifting & Inspiring Movies",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "35,18",
+              "withOriginalLanguage": "en",
+              "voteCountGte": 75,
+              "vote_count.gte": 75,
+              "withoutGenres": "16,99",
+              "without_genres": "16,99"
+            },
+            "genre": "Uplifting & Inspiring Movies",
+            "name": "Uplifting & Inspiring Movies"
+          },
+          {
+            "id": "src-IJ3E8Q5B",
+            "title": "Joyful Comedy TV Series",
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "35",
+              "withOriginalLanguage": "en",
+              "voteCountGte": 40,
+              "vote_count.gte": 40,
+              "withoutGenres": "16,99",
+              "without_genres": "16,99"
+            },
+            "genre": "Comedy",
+            "name": "Comedy"
+          },
+          {
+            "id": "src-WQQHE1DV",
+            "title": "Inspiring True Stories",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "18",
+              "withOriginalLanguage": "en",
+              "withKeywords": "5565",
+              "voteCountGte": 75,
+              "vote_count.gte": 75,
+              "withoutGenres": "16,99",
+              "without_genres": "16,99"
+            },
+            "genre": "Drama",
+            "name": "Drama"
+          },
+          {
+            "id": "src-GKU33CH3",
+            "title": "Road Trips & Buddy Comedies",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "35",
+              "withOriginalLanguage": "en",
+              "withKeywords": "7312",
+              "voteCountGte": 75,
+              "vote_count.gte": 75,
+              "withoutGenres": "16,99",
+              "without_genres": "16,99"
+            },
+            "genre": "Comedy",
+            "name": "Comedy"
+          },
+          {
+            "id": "src-QRJGRGMQ",
+            "title": "Top Rated Feel-Good Classics",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "35",
+              "withOriginalLanguage": "en",
+              "voteAverageGte": 7.8,
+              "vote_count.gte": 100,
+              "withoutGenres": "16,99",
+              "without_genres": "16,99",
+              "voteCountGte": 100
+            },
+            "genre": "Comedy",
+            "name": "Comedy"
+          },
+          {
+            "id": "src-4XP6ZGV2",
+            "title": "Recent Feel-Good Releases",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withGenres": "35,10751",
+              "withOriginalLanguage": "en",
+              "releaseDateGte": "2023-01-01",
+              "voteCountGte": 10,
+              "vote_count.gte": 10,
+              "withoutGenres": "16,99",
+              "without_genres": "16,99"
+            },
+            "genre": "Recent Feel-Good Releases",
+            "name": "Recent Feel-Good Releases"
+          }
+        ]
+      },
+      {
+        "id": "folder-RSVZ5OM5",
+        "title": "Slow Burn",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/slow-burn/v2/slow-burn-cover.png",
+        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/slow-burn/v2/slow-burn-logo.png",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/slow-burn/slow-burn-backdrop.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/slow-burn/v2/slow-burn-hover.gif",
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "id": "src-55NN61A4",
+            "title": "Atmospheric Mystery Slow Burns",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "9648,18",
+              "withOriginalLanguage": "en",
+              "voteCountGte": 75,
+              "vote_count.gte": 75,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Atmospheric Mystery Slow Burns",
+            "name": "Atmospheric Mystery Slow Burns"
+          },
+          {
+            "id": "src-QZZBFEEG",
+            "title": "Haunting Slow Burn TV",
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "18,9648",
+              "withOriginalLanguage": "en",
+              "voteCountGte": 40,
+              "vote_count.gte": 40,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Haunting Slow Burn TV",
+            "name": "Haunting Slow Burn TV"
+          },
+          {
+            "id": "src-66JWMSP1",
+            "title": "Neo-Noir & Moody Crime",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withOriginalLanguage": "en",
+              "withKeywords": "207268",
+              "voteCountGte": 75,
+              "vote_count.gte": 75,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Neo-Noir & Moody Crime",
+            "name": "Neo-Noir & Moody Crime"
+          },
+          {
+            "id": "src-W9YLG9AJ",
+            "title": "Deep Character Dramas",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "18",
+              "withOriginalLanguage": "en",
+              "voteAverageGte": 7.6,
+              "voteCountGte": 100,
+              "vote_count.gte": 100,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Drama",
+            "name": "Drama"
+          },
+          {
+            "id": "src-P4OWK1G1",
+            "title": "Top Rated Atmospheric Masterpieces",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "18,9648",
+              "withOriginalLanguage": "en",
+              "voteAverageGte": 7.5,
+              "vote_count.gte": 100,
+              "withoutGenres": "16",
+              "without_genres": "16",
+              "voteCountGte": 100
+            },
+            "genre": "Top Rated Atmospheric Masterpieces",
+            "name": "Top Rated Atmospheric Masterpieces"
+          },
+          {
+            "id": "src-NZL25JA1",
+            "title": "Recent Slow Burn Releases",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withGenres": "18,9648",
+              "withOriginalLanguage": "en",
+              "releaseDateGte": "2023-01-01",
+              "voteCountGte": 10,
+              "vote_count.gte": 10,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Recent Slow Burn Releases",
+            "name": "Recent Slow Burn Releases"
+          }
+        ]
+      },
+      {
+        "id": "folder-SJGV86EH",
+        "title": "Tearjerkers",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/tearjerkers/v2/tearjerkers-cover.png",
+        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/tearjerkers/v2/tearjerkers-logo.png",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/tearjerkers/tearjerkers-backdrop.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/tearjerkers/v2/tearjerkers-hover.gif",
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "id": "src-QUCW4W6U",
+            "title": "Acclaimed Tearjerker Movies",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "18,10749",
+              "withOriginalLanguage": "en",
+              "voteCountGte": 75,
+              "vote_count.gte": 75,
+              "withoutGenres": "16",
+              "without_genres": "16",
+              "withoutKeywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903",
+              "without_keywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903"
+            },
+            "genre": "Acclaimed Tearjerker Movies",
+            "name": "Acclaimed Tearjerker Movies"
+          },
+          {
+            "id": "src-5L2R7UZ4",
+            "title": "Emotional TV Series",
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "18",
+              "withOriginalLanguage": "en",
+              "withKeywords": "156924|10614|9872",
+              "voteCountGte": 40,
+              "vote_count.gte": 40,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Drama",
+            "name": "Drama"
+          },
+          {
+            "id": "src-HO1ZQO1E",
+            "title": "Romantic Heartbreaks",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "10749,18",
+              "withOriginalLanguage": "en",
+              "voteAverageGte": 7.4,
+              "voteCountGte": 100,
+              "vote_count.gte": 100,
+              "withoutGenres": "16",
+              "without_genres": "16",
+              "withoutKeywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903",
+              "without_keywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903"
+            },
+            "genre": "Romantic Heartbreaks",
+            "name": "Romantic Heartbreaks"
+          },
+          {
+            "id": "src-KKS98W3F",
+            "title": "Family & Loss Stories",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "18",
+              "withOriginalLanguage": "en",
+              "withKeywords": "9872",
+              "voteCountGte": 75,
+              "vote_count.gte": 75,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Drama",
+            "name": "Drama"
+          },
+          {
+            "id": "src-1V4689HH",
+            "title": "Top Rated Emotional Masterpieces",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "18",
+              "withOriginalLanguage": "en",
+              "voteAverageGte": 8,
+              "vote_count.gte": 100,
+              "withoutGenres": "16",
+              "without_genres": "16",
+              "voteCountGte": 100
+            },
+            "genre": "Drama",
+            "name": "Drama"
+          },
+          {
+            "id": "src-F21B0X7D",
+            "title": "Recent Emotional Releases",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withGenres": "18,10749",
+              "withOriginalLanguage": "en",
+              "releaseDateGte": "2023-01-01",
+              "voteCountGte": 10,
+              "vote_count.gte": 10,
+              "withoutGenres": "16",
+              "without_genres": "16",
+              "withoutKeywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903",
+              "without_keywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903"
+            },
+            "genre": "Recent Emotional Releases",
+            "name": "Recent Emotional Releases"
+          }
+        ]
+      },
+      {
+        "id": "folder-VRAANHHD",
+        "title": "80s & 90s Vibes",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/80s-and-90s-vibes/v2/80s-and-90s-vibes-cover.png",
+        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/80s-and-90s-vibes/v2/80s-and-90s-vibes-logo.png",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/80s-and-90s-vibes/80s-and-90s-vibes-backdrop.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/80s-and-90s-vibes/v2/80s-and-90s-vibes-hover.gif",
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "id": "src-KSQGENSD",
+            "title": "Iconic 80s Blockbusters",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withOriginalLanguage": "en",
+              "releaseDateGte": "1980-01-01",
+              "releaseDateLte": "1989-12-31",
+              "voteCountGte": 300,
+              "vote_count.gte": 300,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Iconic 80s Blockbusters",
+            "name": "Iconic 80s Blockbusters"
+          },
+          {
+            "id": "src-RKIKVJGR",
+            "title": "Iconic 90s Blockbusters",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withOriginalLanguage": "en",
+              "releaseDateGte": "1990-01-01",
+              "releaseDateLte": "1999-12-31",
+              "voteCountGte": 300,
+              "vote_count.gte": 300,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Iconic 90s Blockbusters",
+            "name": "Iconic 90s Blockbusters"
+          },
+          {
+            "id": "src-TUN7GDGD",
+            "title": "80s & 90s Popcorn Action",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "28",
+              "withOriginalLanguage": "en",
+              "releaseDateGte": "1980-01-01",
+              "releaseDateLte": "1999-12-31",
+              "voteCountGte": 300,
+              "vote_count.gte": 300,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Action",
+            "name": "Action"
+          },
+          {
+            "id": "src-S6ASKVS7",
+            "title": "80s & 90s Classic Comedies",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "35",
+              "withOriginalLanguage": "en",
+              "releaseDateGte": "1980-01-01",
+              "releaseDateLte": "1999-12-31",
+              "voteCountGte": 300,
+              "vote_count.gte": 300,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Comedy",
+            "name": "Comedy"
+          },
+          {
+            "id": "src-T3AGNBH5",
+            "title": "Retro Sci-Fi & Mystery TV",
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "10765,9648",
+              "withOriginalLanguage": "en",
+              "releaseDateGte": "1980-01-01",
+              "releaseDateLte": "1999-12-31",
+              "voteCountGte": 300,
+              "vote_count.gte": 300,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Retro Sci-Fi & Mystery TV",
+            "name": "Retro Sci-Fi & Mystery TV"
+          },
+          {
+            "id": "src-6IVNGVWZ",
+            "title": "90s Cult & Indie Hits",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withOriginalLanguage": "en",
+              "withKeywords": "281237|11800|3131",
+              "releaseDateGte": "1990-01-01",
+              "releaseDateLte": "1999-12-31",
+              "voteCountGte": 200,
+              "vote_count.gte": 200,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "90s Cult & Indie Hits",
+            "name": "90s Cult & Indie Hits"
+          }
+        ]
+      },
+      {
+        "id": "folder-M50463BF",
+        "title": "Dark & Gritty",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/dark-and-gritty/v2/dark-and-gritty-cover.png",
+        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/dark-and-gritty/v2/dark-and-gritty-logo.png",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/dark-and-gritty/dark-and-gritty-backdrop.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/dark-and-gritty/v2/dark-and-gritty-hover.gif",
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "id": "src-X6CWD28F",
+            "title": "Gritty Crime & Underworld",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "80",
+              "withOriginalLanguage": "en",
+              "voteCountGte": 75,
+              "vote_count.gte": 75,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Crime",
+            "name": "Crime"
+          },
+          {
+            "id": "src-STEPKE4K",
+            "title": "Intense Dark TV Series",
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "80,18",
+              "withOriginalLanguage": "en",
+              "voteCountGte": 40,
+              "vote_count.gte": 40,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Intense Dark TV Series",
+            "name": "Intense Dark TV Series"
+          },
+          {
+            "id": "src-CM9VZX6E",
+            "title": "Anti-Hero & Revenge Stories",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withOriginalLanguage": "en",
+              "withKeywords": "9748",
+              "voteCountGte": 75,
+              "vote_count.gte": 75,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Anti-Hero & Revenge Stories",
+            "name": "Anti-Hero & Revenge Stories"
+          },
+          {
+            "id": "src-CDCNAEIY",
+            "title": "Dystopian & Post-Apocalyptic",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withOriginalLanguage": "en",
+              "withKeywords": "4565",
+              "voteCountGte": 75,
+              "vote_count.gte": 75,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Dystopian & Post-Apocalyptic",
+            "name": "Dystopian & Post-Apocalyptic"
+          },
+          {
+            "id": "src-7FN62KH6",
+            "title": "Top Rated Gritty Crime",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "80,53",
+              "withOriginalLanguage": "en",
+              "voteAverageGte": 7.8,
+              "vote_count.gte": 100,
+              "withoutGenres": "16",
+              "without_genres": "16",
+              "voteCountGte": 100
+            },
+            "genre": "Top Rated Gritty Crime",
+            "name": "Top Rated Gritty Crime"
+          },
+          {
+            "id": "src-S2F92D4C",
+            "title": "Recent Dark & Gritty Releases",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withGenres": "80,53",
+              "withOriginalLanguage": "en",
+              "releaseDateGte": "2023-01-01",
+              "voteCountGte": 10,
+              "vote_count.gte": 10,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Recent Dark & Gritty Releases",
+            "name": "Recent Dark & Gritty Releases"
+          }
+        ]
+      },
+      {
+        "id": "folder-79A8YOOM",
+        "title": "Spooky & Creepy",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/spooky-and-creepy/v2/spooky-and-creepy-cover.png",
+        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/spooky-and-creepy/v2/spooky-and-creepy-logo.png",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/spooky-and-creepy/spooky-and-creepy-backdrop.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/spooky-and-creepy/v2/spooky-and-creepy-hover.gif",
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "id": "src-NQ6OS8YJ",
+            "title": "Haunted Houses & Ghosts",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "27",
+              "withOriginalLanguage": "en",
+              "withKeywords": "3358|162846",
+              "voteCountGte": 75,
+              "vote_count.gte": 75,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Horror",
+            "name": "Horror"
+          },
+          {
+            "id": "src-K9AV05C2",
+            "title": "Creepy Paranormal TV Series",
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withOriginalLanguage": "en",
+              "withKeywords": "6152|33505|210458",
+              "voteCountGte": 40,
+              "vote_count.gte": 40,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Creepy Paranormal TV Series",
+            "name": "Creepy Paranormal TV Series"
+          },
+          {
+            "id": "src-J0D2M45U",
+            "title": "Psychological Horror & Dread",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "27",
+              "withOriginalLanguage": "en",
+              "withKeywords": "12565",
+              "voteCountGte": 75,
+              "vote_count.gte": 75,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Horror",
+            "name": "Horror"
+          },
+          {
+            "id": "src-1VPOJZYI",
+            "title": "Monsters & Creature Features",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "27",
+              "withOriginalLanguage": "en",
+              "withKeywords": "1299|161791",
+              "voteCountGte": 75,
+              "vote_count.gte": 75,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Horror",
+            "name": "Horror"
+          },
+          {
+            "id": "src-HGPQ8BOE",
+            "title": "Top Rated Horror Masterpieces",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "27",
+              "withOriginalLanguage": "en",
+              "voteAverageGte": 7.2,
+              "vote_count.gte": 100,
+              "withoutGenres": "16",
+              "without_genres": "16",
+              "voteCountGte": 100
+            },
+            "genre": "Horror",
+            "name": "Horror"
+          },
+          {
+            "id": "src-KOWWVYRA",
+            "title": "Recent Spooky Releases",
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withGenres": "27",
+              "withOriginalLanguage": "en",
+              "releaseDateGte": "2023-01-01",
+              "voteCountGte": 10,
+              "vote_count.gte": 10,
+              "withoutGenres": "16",
+              "without_genres": "16"
+            },
+            "genre": "Horror",
+            "name": "Horror"
+          }
+        ]
+      }
+    ],
+    "focusGlowEnabled": true
+  }
+]

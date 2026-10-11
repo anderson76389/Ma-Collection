@@ -1,0 +1,1787 @@
+[
+  {
+    "id": "collection-XB14SDA2",
+    "title": "Studios",
+    "folders": [
+      {
+        "id": "folder-ZDYYVMWR",
+        "title": "20th Century Studios",
+        "sources": [
+          {
+            "title": "Recent Movies",
+            "sortBy": "primary_release_date.desc",
+            "tmdbId": 127928,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-78BYPG9P",
+            "genre": "Recent Movies",
+            "name": "Recent Movies"
+          },
+          {
+            "title": "Popular Movies",
+            "sortBy": "original",
+            "tmdbId": 127928,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-R5R8UE57",
+            "genre": "Popular Movies",
+            "name": "Popular Movies"
+          },
+          {
+            "title": "Top Rated Movies",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 127928,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-M2U3PV7S",
+            "genre": "Top Rated Movies",
+            "name": "Top Rated Movies"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "titleLogoUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/127928-20th-century-studios/logos/white/127928_white_1.png",
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/a113a652.webp",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/127928-20th-century-studios/backdrops/t2_flat_1080p.jpg"
+      },
+      {
+        "id": "folder-4ZV8HZGY",
+        "title": "A24",
+        "sources": [
+          {
+            "title": "Recent Movies",
+            "sortBy": "primary_release_date.desc",
+            "tmdbId": 41077,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-6FU8VZ0W",
+            "genre": "Recent Movies",
+            "name": "Recent Movies"
+          },
+          {
+            "title": "Popular Movies",
+            "sortBy": "original",
+            "tmdbId": 41077,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-ZQXB5YKG",
+            "genre": "Popular Movies",
+            "name": "Popular Movies"
+          },
+          {
+            "title": "Top Rated Movies",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 41077,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-26I6BLU0",
+            "genre": "Top Rated Movies",
+            "name": "Top Rated Movies"
+          },
+          {
+            "title": "Recent Series",
+            "sortBy": "first_air_date.desc",
+            "tmdbId": 41077,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-0AWSPNQD",
+            "genre": "Recent Series",
+            "name": "Recent Series"
+          },
+          {
+            "title": "Popular Series",
+            "sortBy": "popularity.desc",
+            "tmdbId": 41077,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-E91A99QF",
+            "genre": "Popular Series",
+            "name": "Popular Series"
+          },
+          {
+            "title": "Top Rated Series",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 41077,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-H9FLXIWM",
+            "genre": "Top Rated Series",
+            "name": "Top Rated Series"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "titleLogoUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/41077-a24/logos/color/41077_color_1.png",
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/59095acb.webp",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/41077-a24/backdrops/t2_flat_1080p.jpg"
+      },
+      {
+        "id": "folder-BNC84SJ4",
+        "title": "Blumhouse Productions",
+        "sources": [
+          {
+            "title": "Recent Movies",
+            "sortBy": "primary_release_date.desc",
+            "tmdbId": 3172,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-EDCZ5OJ9",
+            "genre": "Recent Movies",
+            "name": "Recent Movies"
+          },
+          {
+            "title": "Popular Movies",
+            "sortBy": "original",
+            "tmdbId": 3172,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-3ICI6A23",
+            "genre": "Popular Movies",
+            "name": "Popular Movies"
+          },
+          {
+            "title": "Top Rated Movies",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 3172,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-R8NN7X7I",
+            "genre": "Top Rated Movies",
+            "name": "Top Rated Movies"
+          },
+          {
+            "title": "Recent Series",
+            "sortBy": "first_air_date.desc",
+            "tmdbId": 3172,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-Z6OZ4L18",
+            "genre": "Recent Series",
+            "name": "Recent Series"
+          },
+          {
+            "title": "Popular Series",
+            "sortBy": "popularity.desc",
+            "tmdbId": 3172,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-1KFLCBS3",
+            "genre": "Popular Series",
+            "name": "Popular Series"
+          },
+          {
+            "title": "Top Rated Series",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 3172,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-4EUHVBYC",
+            "genre": "Top Rated Series",
+            "name": "Top Rated Series"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "titleLogoUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/3172-blumhouse-productions/logos/white/3172_white_1.png",
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f85766ed.webp",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/3172-blumhouse-productions/backdrops/t2_flat_1080p.jpg"
+      },
+      {
+        "id": "folder-J66S9Y7E",
+        "title": "DC",
+        "sources": [
+          {
+            "title": "Recent Movies",
+            "sortBy": "primary_release_date.desc",
+            "tmdbId": 429,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-0ZK2OY2L",
+            "genre": "Recent Movies",
+            "name": "Recent Movies"
+          },
+          {
+            "title": "Popular Movies",
+            "sortBy": "original",
+            "tmdbId": 429,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-R278SRPR",
+            "genre": "Popular Movies",
+            "name": "Popular Movies"
+          },
+          {
+            "title": "Top Rated Movies",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 429,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-TLPVJS6O",
+            "genre": "Top Rated Movies",
+            "name": "Top Rated Movies"
+          },
+          {
+            "title": "Recent Series",
+            "sortBy": "first_air_date.desc",
+            "tmdbId": 429,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-DBK2QURA",
+            "genre": "Recent Series",
+            "name": "Recent Series"
+          },
+          {
+            "title": "Popular Series",
+            "sortBy": "popularity.desc",
+            "tmdbId": 429,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-S2X7IXN3",
+            "genre": "Popular Series",
+            "name": "Popular Series"
+          },
+          {
+            "title": "Top Rated Series",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 429,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-TLKUCIHJ",
+            "genre": "Top Rated Series",
+            "name": "Top Rated Series"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "titleLogoUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/429-dc/logos/color/429_color_1.png",
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/eb3ea02f.webp",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/429-dc/backdrops/t2_flat_1080p.jpg"
+      },
+      {
+        "id": "folder-9ZZK6A6C",
+        "title": "DreamWorks Pictures",
+        "sources": [
+          {
+            "title": "Recent Movies",
+            "sortBy": "primary_release_date.desc",
+            "tmdbId": 7,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-OJGFKB3T",
+            "genre": "Recent Movies",
+            "name": "Recent Movies"
+          },
+          {
+            "title": "Popular Movies",
+            "sortBy": "original",
+            "tmdbId": 7,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-D1VO8DQO",
+            "genre": "Popular Movies",
+            "name": "Popular Movies"
+          },
+          {
+            "title": "Top Rated Movies",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 7,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-KFITOYF3",
+            "genre": "Top Rated Movies",
+            "name": "Top Rated Movies"
+          },
+          {
+            "title": "Recent Series",
+            "sortBy": "first_air_date.desc",
+            "tmdbId": 7,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-MH74FLR0",
+            "genre": "Recent Series",
+            "name": "Recent Series"
+          },
+          {
+            "title": "Popular Series",
+            "sortBy": "popularity.desc",
+            "tmdbId": 7,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-W90C4ZK4",
+            "genre": "Popular Series",
+            "name": "Popular Series"
+          },
+          {
+            "title": "Top Rated Series",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 7,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-J6N1GH3S",
+            "genre": "Top Rated Series",
+            "name": "Top Rated Series"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "titleLogoUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/7-dreamworks-pictures/logos/white/7_white_1.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/studios/dreamworks-pictures/dreamworks-pictures-cover.png",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/7-dreamworks-pictures/backdrops/t2_flat_1080p.jpg"
+      },
+      {
+        "id": "folder-10146STUDIO",
+        "title": "Focus Features",
+        "sources": [
+          {
+            "title": "Recent Movies",
+            "sortBy": "primary_release_date.desc",
+            "tmdbId": 10146,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-SW6YWHCA",
+            "genre": "Recent Movies",
+            "name": "Recent Movies"
+          },
+          {
+            "title": "Popular Movies",
+            "sortBy": "original",
+            "tmdbId": 10146,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-8TP6LIT4",
+            "genre": "Popular Movies",
+            "name": "Popular Movies"
+          },
+          {
+            "title": "Top Rated Movies",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 10146,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-3EJ3GT63",
+            "genre": "Top Rated Movies",
+            "name": "Top Rated Movies"
+          },
+          {
+            "title": "Recent Series",
+            "sortBy": "first_air_date.desc",
+            "tmdbId": 10146,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-GSHM4KUU",
+            "genre": "Recent Series",
+            "name": "Recent Series"
+          },
+          {
+            "title": "Popular Series",
+            "sortBy": "popularity.desc",
+            "tmdbId": 10146,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-2SABFUT7",
+            "genre": "Popular Series",
+            "name": "Popular Series"
+          },
+          {
+            "title": "Top Rated Series",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 10146,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-AIQWHO2Z",
+            "genre": "Top Rated Series",
+            "name": "Top Rated Series"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/companies/10146-focus-features/logos/color/10146_color_1.png",
+        "coverImageUrl": "https://cdn2.nbcuni.com/NBCUniversal/styles/newsroom_stories_16_9_image_style/s3/2026-03/Untitled%20design%20%2810%29.jpg?VersionId=WLTG9zL_wpyJ62As0LwNmdNG4oF5JPAu&h=d1cb525d&itok=0JSMP23S",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/companies/10146-focus-features/backdrops/t2_flat_1080p.jpg",
+        "focusGifUrl": ""
+      },
+      {
+        "id": "folder-79DVGTP9",
+        "title": "Illumination",
+        "sources": [
+          {
+            "title": "Recent Movies",
+            "sortBy": "primary_release_date.desc",
+            "tmdbId": 6704,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-SKIV3EL5",
+            "genre": "Recent Movies",
+            "name": "Recent Movies"
+          },
+          {
+            "title": "Popular Movies",
+            "sortBy": "original",
+            "tmdbId": 6704,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-7YX4UJY0",
+            "genre": "Popular Movies",
+            "name": "Popular Movies"
+          },
+          {
+            "title": "Top Rated Movies",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 6704,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-TW9UBWXG",
+            "genre": "Top Rated Movies",
+            "name": "Top Rated Movies"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "titleLogoUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/6704-illumination/logos/white/6704_white_1.png",
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/07b05be8.webp",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/6704-illumination/backdrops/t2_flat_1080p.jpg"
+      },
+      {
+        "id": "folder-HIU1YFQA",
+        "title": "Lionsgate",
+        "sources": [
+          {
+            "title": "Recent Movies",
+            "sortBy": "primary_release_date.desc",
+            "tmdbId": 1632,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-EGWS3MQF",
+            "genre": "Recent Movies",
+            "name": "Recent Movies"
+          },
+          {
+            "title": "Popular Movies",
+            "sortBy": "original",
+            "tmdbId": 1632,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-8O472P3M",
+            "genre": "Popular Movies",
+            "name": "Popular Movies"
+          },
+          {
+            "title": "Top Rated Movies",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 1632,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-L7A147ZR",
+            "genre": "Top Rated Movies",
+            "name": "Top Rated Movies"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/1a3665ce.webp",
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f878e71e.webp",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/1632-lionsgate/backdrops/t2_flat_1080p.jpg"
+      },
+      {
+        "id": "folder-ZVTA71KC",
+        "title": "Lucasfilm Ltd.",
+        "sources": [
+          {
+            "title": "Recent Movies",
+            "sortBy": "primary_release_date.desc",
+            "tmdbId": 1,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-ND0NLMMK",
+            "genre": "Recent Movies",
+            "name": "Recent Movies"
+          },
+          {
+            "title": "Popular Movies",
+            "sortBy": "original",
+            "tmdbId": 1,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-5MD0BA2T",
+            "genre": "Popular Movies",
+            "name": "Popular Movies"
+          },
+          {
+            "title": "Top Rated Movies",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 1,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-7MFIGA0U",
+            "genre": "Top Rated Movies",
+            "name": "Top Rated Movies"
+          },
+          {
+            "title": "Recent Series",
+            "sortBy": "first_air_date.desc",
+            "tmdbId": 1,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-83AIC0LI",
+            "genre": "Recent Series",
+            "name": "Recent Series"
+          },
+          {
+            "title": "Popular Series",
+            "sortBy": "popularity.desc",
+            "tmdbId": 1,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-BASUU0S1",
+            "genre": "Popular Series",
+            "name": "Popular Series"
+          },
+          {
+            "title": "Top Rated Series",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 1,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-KNL8VNFG",
+            "genre": "Top Rated Series",
+            "name": "Top Rated Series"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/61c42f64.webp",
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/ff1124ea.webp",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/1-lucasfilm-ltd/backdrops/t2_flat_1080p.jpg"
+      },
+      {
+        "id": "folder-CYHIQOKR",
+        "title": "Marvel Studios",
+        "sources": [
+          {
+            "title": "Recent Movies",
+            "sortBy": "primary_release_date.desc",
+            "tmdbId": 420,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-DIAH9POB",
+            "genre": "Recent Movies",
+            "name": "Recent Movies"
+          },
+          {
+            "title": "Popular Movies",
+            "sortBy": "original",
+            "tmdbId": 420,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-RL0FECZ2",
+            "genre": "Popular Movies",
+            "name": "Popular Movies"
+          },
+          {
+            "title": "Top Rated Movies",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 420,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-L58PBIDT",
+            "genre": "Top Rated Movies",
+            "name": "Top Rated Movies"
+          },
+          {
+            "title": "Recent Series",
+            "sortBy": "first_air_date.desc",
+            "tmdbId": 420,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-WILNGM3A",
+            "genre": "Recent Series",
+            "name": "Recent Series"
+          },
+          {
+            "title": "Popular Series",
+            "sortBy": "popularity.desc",
+            "tmdbId": 420,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-AMWUVLMI",
+            "genre": "Popular Series",
+            "name": "Popular Series"
+          },
+          {
+            "title": "Top Rated Series",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 420,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-TIBNCKLE",
+            "genre": "Top Rated Series",
+            "name": "Top Rated Series"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "titleLogoUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/420-marvel-studios/logos/color/420_color_1.png",
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/67a54fdf.webp",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/420-marvel-studios/backdrops/t2_flat_1080p.jpg"
+      },
+      {
+        "id": "folder-V0MRWXHJ",
+        "title": "MGM",
+        "sources": [
+          {
+            "title": "Recent Movies",
+            "sortBy": "primary_release_date.desc",
+            "tmdbId": 21,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-4TWDGDMT",
+            "genre": "Recent Movies",
+            "name": "Recent Movies"
+          },
+          {
+            "title": "Popular Movies",
+            "sortBy": "original",
+            "tmdbId": 21,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-TJ6EKBFZ",
+            "genre": "Popular Movies",
+            "name": "Popular Movies"
+          },
+          {
+            "title": "Top Rated Movies",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 21,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-WN79GBEA",
+            "genre": "Top Rated Movies",
+            "name": "Top Rated Movies"
+          },
+          {
+            "title": "Recent Series",
+            "sortBy": "first_air_date.desc",
+            "tmdbId": 21,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-9ABHT7VP",
+            "genre": "Recent Series",
+            "name": "Recent Series"
+          },
+          {
+            "title": "Popular Series",
+            "sortBy": "popularity.desc",
+            "tmdbId": 21,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-B3HTXPRF",
+            "genre": "Popular Series",
+            "name": "Popular Series"
+          },
+          {
+            "title": "Top Rated Series",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 21,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-70D64TV3",
+            "genre": "Top Rated Series",
+            "name": "Top Rated Series"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "titleLogoUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/21-metro-goldwyn-mayer/logos/color/21_color_1.png",
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/434d7008.webp",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/21-metro-goldwyn-mayer/backdrops/t2_flat_1080p.jpg"
+      },
+      {
+        "id": "folder-5VIHLY7Y",
+        "title": "New Line Cinema",
+        "sources": [
+          {
+            "title": "Recent Movies",
+            "sortBy": "primary_release_date.desc",
+            "tmdbId": 12,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-PNANZMB5",
+            "genre": "Recent Movies",
+            "name": "Recent Movies"
+          },
+          {
+            "title": "Popular Movies",
+            "sortBy": "original",
+            "tmdbId": 12,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-PPF586IP",
+            "genre": "Popular Movies",
+            "name": "Popular Movies"
+          },
+          {
+            "title": "Top Rated Movies",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 12,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-WDV0A1EA",
+            "genre": "Top Rated Movies",
+            "name": "Top Rated Movies"
+          },
+          {
+            "title": "Recent Series",
+            "sortBy": "first_air_date.desc",
+            "tmdbId": 12,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-K5OIV9J5",
+            "genre": "Recent Series",
+            "name": "Recent Series"
+          },
+          {
+            "title": "Popular Series",
+            "sortBy": "popularity.desc",
+            "tmdbId": 12,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-5TKG1UNY",
+            "genre": "Popular Series",
+            "name": "Popular Series"
+          },
+          {
+            "title": "Top Rated Series",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 12,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-7EOJGC68",
+            "genre": "Top Rated Series",
+            "name": "Top Rated Series"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/8b14f5c3.webp",
+        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/new-line-cinema/new-line-cinema-cover.png",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/new-line-cinema/new-line-cinema-cover.png"
+      },
+      {
+        "id": "folder-A59XSVAT",
+        "title": "Paramount Pictures",
+        "sources": [
+          {
+            "title": "Recent Movies",
+            "sortBy": "primary_release_date.desc",
+            "tmdbId": 4,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-HEGLYLO3",
+            "genre": "Recent Movies",
+            "name": "Recent Movies"
+          },
+          {
+            "title": "Popular Movies",
+            "sortBy": "original",
+            "tmdbId": 4,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-GXEDG5KM",
+            "genre": "Popular Movies",
+            "name": "Popular Movies"
+          },
+          {
+            "title": "Top Rated Movies",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 4,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-9HSC1PRF",
+            "genre": "Top Rated Movies",
+            "name": "Top Rated Movies"
+          },
+          {
+            "title": "Recent Series",
+            "sortBy": "first_air_date.desc",
+            "tmdbId": 4,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-PRLSCN3J",
+            "genre": "Recent Series",
+            "name": "Recent Series"
+          },
+          {
+            "title": "Popular Series",
+            "sortBy": "popularity.desc",
+            "tmdbId": 4,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-CMUYIJTF",
+            "genre": "Popular Series",
+            "name": "Popular Series"
+          },
+          {
+            "title": "Top Rated Series",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 4,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-P503EUZV",
+            "genre": "Top Rated Series",
+            "name": "Top Rated Series"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/5b28dc9b.webp",
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f0b7cba7.webp",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/4-paramount-pictures/backdrops/t2_flat_1080p.jpg"
+      },
+      {
+        "id": "folder-2XGVUWET",
+        "title": "Pixar",
+        "sources": [
+          {
+            "title": "Recent Movies",
+            "sortBy": "primary_release_date.desc",
+            "tmdbId": 3,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-P4EH5Q43",
+            "genre": "Recent Movies",
+            "name": "Recent Movies"
+          },
+          {
+            "title": "Popular Movies",
+            "sortBy": "original",
+            "tmdbId": 3,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-MXSOFKZM",
+            "genre": "Popular Movies",
+            "name": "Popular Movies"
+          },
+          {
+            "title": "Top Rated Movies",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 3,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-UR4OQKEP",
+            "genre": "Top Rated Movies",
+            "name": "Top Rated Movies"
+          },
+          {
+            "title": "Recent Series",
+            "sortBy": "first_air_date.desc",
+            "tmdbId": 3,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-EP7GL5L9",
+            "genre": "Recent Series",
+            "name": "Recent Series"
+          },
+          {
+            "title": "Popular Series",
+            "sortBy": "popularity.desc",
+            "tmdbId": 3,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-ES5DSDJ0",
+            "genre": "Popular Series",
+            "name": "Popular Series"
+          },
+          {
+            "title": "Top Rated Series",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 3,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-8HAYP9NQ",
+            "genre": "Top Rated Series",
+            "name": "Top Rated Series"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/5467bf25.webp",
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/01ca52c7.webp",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/3-pixar/backdrops/t2_flat_1080p.jpg"
+      },
+      {
+        "id": "folder-127929STUDIO",
+        "title": "Searchlight Pictures",
+        "sources": [
+          {
+            "title": "Recent Movies",
+            "sortBy": "primary_release_date.desc",
+            "tmdbId": 127929,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-HHP29NEC",
+            "genre": "Recent Movies",
+            "name": "Recent Movies"
+          },
+          {
+            "title": "Popular Movies",
+            "sortBy": "original",
+            "tmdbId": 127929,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-5MUNUHMX",
+            "genre": "Popular Movies",
+            "name": "Popular Movies"
+          },
+          {
+            "title": "Top Rated Movies",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 127929,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-ACRFMHCD",
+            "genre": "Top Rated Movies",
+            "name": "Top Rated Movies"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/companies/127929-searchlight-pictures/logos/color/127929_color_1.png",
+        "coverImageUrl": "https://static.wikitide.net/avidwiki/thumb/f/f8/Searchlight_Pictures_logo.png/1067px-Searchlight_Pictures_logo.png",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/companies/127929-searchlight-pictures/backdrops/t2_flat_1080p.jpg"
+      },
+      {
+        "id": "folder-34STUDIO",
+        "title": "Sony Pictures",
+        "sources": [
+          {
+            "title": "Recent Movies",
+            "sortBy": "primary_release_date.desc",
+            "tmdbId": 5,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-G6NXP76N",
+            "genre": "Recent Movies",
+            "name": "Recent Movies"
+          },
+          {
+            "title": "Popular Movies",
+            "sortBy": "original",
+            "tmdbId": 5,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-PGY3XX29",
+            "genre": "Popular Movies",
+            "name": "Popular Movies"
+          },
+          {
+            "title": "Top Rated Movies",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 5,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-OE6RIEWA",
+            "genre": "Top Rated Movies",
+            "name": "Top Rated Movies"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/companies/34-sony-pictures/logos/white/34_white_1.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/refs/heads/main/collections/companies/34-sony-pictures/cards/dual_2d1d2d_231a3a_0e0914_0.3_0.5_0.7_0.5/card_34_color_1.png",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/companies/34-sony-pictures/backdrops/t2_flat_1080p.jpg"
+      },
+      {
+        "id": "folder-KIRXHA4A",
+        "title": "Studio Ghibli",
+        "sources": [
+          {
+            "title": "Recent Movies",
+            "sortBy": "primary_release_date.desc",
+            "tmdbId": 10342,
+            "filters": {
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-O6M10VHS",
+            "genre": "Recent Movies",
+            "name": "Recent Movies"
+          },
+          {
+            "title": "Popular Movies",
+            "sortBy": "original",
+            "tmdbId": 10342,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-W2RYIOOJ",
+            "genre": "Popular Movies",
+            "name": "Popular Movies"
+          },
+          {
+            "title": "Top Rated Movies",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 10342,
+            "filters": {
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-3CT9HCUI",
+            "genre": "Top Rated Movies",
+            "name": "Top Rated Movies"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "titleLogoUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/10342-studio-ghibli/logos/color/10342_color_1.png",
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/5072d59e.webp",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/10342-studio-ghibli/backdrops/t2_flat_1080p.jpg"
+      },
+      {
+        "id": "folder-IAL16XW3",
+        "title": "Universal Pictures",
+        "sources": [
+          {
+            "title": "Recent Movies",
+            "sortBy": "primary_release_date.desc",
+            "tmdbId": 33,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-T97D00GC",
+            "genre": "Recent Movies",
+            "name": "Recent Movies"
+          },
+          {
+            "title": "Popular Movies",
+            "sortBy": "original",
+            "tmdbId": 33,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-0ZDMMKWE",
+            "genre": "Popular Movies",
+            "name": "Popular Movies"
+          },
+          {
+            "title": "Top Rated Movies",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 33,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-0L8MSUOD",
+            "genre": "Top Rated Movies",
+            "name": "Top Rated Movies"
+          },
+          {
+            "title": "Recent Series",
+            "sortBy": "first_air_date.desc",
+            "tmdbId": 33,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-Q8DS5BO6",
+            "genre": "Recent Series",
+            "name": "Recent Series"
+          },
+          {
+            "title": "Popular Series",
+            "sortBy": "popularity.desc",
+            "tmdbId": 33,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-5P798VFS",
+            "genre": "Popular Series",
+            "name": "Popular Series"
+          },
+          {
+            "title": "Top Rated Series",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 33,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-KABSXHC3",
+            "genre": "Top Rated Series",
+            "name": "Top Rated Series"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "titleLogoUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/33-universal-pictures/logos/color/33_color_1.png",
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/50e0231c.webp",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/33-universal-pictures/backdrops/t2_flat_1080p.jpg"
+      },
+      {
+        "id": "folder-4OZG50Y4",
+        "title": "Walt Disney Studio",
+        "sources": [
+          {
+            "title": "Recent Movies",
+            "sortBy": "primary_release_date.desc",
+            "tmdbId": 6125,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-04A6XXA5",
+            "genre": "Recent Movies",
+            "name": "Recent Movies"
+          },
+          {
+            "title": "Popular Movies",
+            "sortBy": "original",
+            "tmdbId": 6125,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-1DVA69K3",
+            "genre": "Popular Movies",
+            "name": "Popular Movies"
+          },
+          {
+            "title": "Top Rated Movies",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 6125,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-YCW4OTTU",
+            "genre": "Top Rated Movies",
+            "name": "Top Rated Movies"
+          },
+          {
+            "title": "Recent Series",
+            "sortBy": "first_air_date.desc",
+            "tmdbId": 6125,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-MK9G15BO",
+            "genre": "Recent Series",
+            "name": "Recent Series"
+          },
+          {
+            "title": "Popular Series",
+            "sortBy": "popularity.desc",
+            "tmdbId": 6125,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-9EP7AK3R",
+            "genre": "Popular Series",
+            "name": "Popular Series"
+          },
+          {
+            "title": "Top Rated Series",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 6125,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-3DPPXW7M",
+            "genre": "Top Rated Series",
+            "name": "Top Rated Series"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "titleLogoUrl": "https://media.themoviedb.org/t/p/h100_filter(negate,000,666)/8bH86UPmMP8hlITzXV3XgV9eaAc.png",
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/399ea613.webp",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/c0f5a6ef.webp"
+      },
+      {
+        "id": "folder-2KA1KP6V",
+        "title": "Warner Bros. Entertainment",
+        "sources": [
+          {
+            "title": "Recent Movies",
+            "sortBy": "primary_release_date.desc",
+            "tmdbId": 174,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "voteCountGte": 10,
+              "vote_count.gte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-UH8IB5NW",
+            "genre": "Recent Movies",
+            "name": "Recent Movies"
+          },
+          {
+            "title": "Popular Movies",
+            "sortBy": "original",
+            "tmdbId": 174,
+            "filters": {
+              "withOriginalLanguage": "en"
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-105DKODD",
+            "genre": "Popular Movies",
+            "name": "Popular Movies"
+          },
+          {
+            "title": "Top Rated Movies",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 174,
+            "filters": {
+              "withOriginalLanguage": "en",
+              "vote_count.gte": 100,
+              "voteCountGte": 100
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COMPANY",
+            "id": "src-IAW0B8J3",
+            "genre": "Top Rated Movies",
+            "name": "Top Rated Movies"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/0fef5ba4.webp",
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/532da5e0.webp",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/91b18b9b.webp"
+      }
+    ],
+    "pinToTop": true,
+    "viewMode": "FOLLOW_LAYOUT",
+    "showAllTab": true,
+    "focusGlowEnabled": true
+  }
+]

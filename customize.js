@@ -1,0 +1,842 @@
+(function() {
+  const overlay = document.getElementById('customize-overlay');
+  if (!overlay) return;
+  const body = document.getElementById('customize-body');
+  
+  let currentStep = 1;
+  const TOTAL_STEPS = 5;
+  const STEP_NAMES = ['Region & Lang', 'Filters', 'Categories', 'Streaming', 'Networks'];
+  
+  const REGION_OPTIONS = [
+    { code: 'US', flag: '🇺🇸', label: 'United States' },
+    { code: 'GB', flag: '🇬🇧', label: 'United Kingdom' },
+    { code: 'CA', flag: '🇨🇦', label: 'Canada' },
+    { code: 'AU', flag: '🇦🇺', label: 'Australia' },
+    { code: 'NZ', flag: '🇳🇿', label: 'New Zealand' },
+    { code: 'IE', flag: '🇮🇪', label: 'Ireland' },
+    { code: 'DE', flag: '🇩🇪', label: 'Germany' },
+    { code: 'FR', flag: '🇫🇷', label: 'France' },
+    { code: 'ES', flag: '🇪🇸', label: 'Spain' },
+    { code: 'MX', flag: '🇲🇽', label: 'Mexico' },
+    { code: 'IT', flag: '🇮🇹', label: 'Italy' },
+    { code: 'NL', flag: '🇳🇱', label: 'Netherlands' },
+    { code: 'SE', flag: '🇸🇪', label: 'Sweden' },
+    { code: 'NO', flag: '🇳🇴', label: 'Norway' },
+    { code: 'DK', flag: '🇩🇰', label: 'Denmark' },
+    { code: 'FI', flag: '🇫🇮', label: 'Finland' },
+    { code: 'PL', flag: '🇵🇱', label: 'Poland' },
+    { code: 'PT', flag: '🇵🇹', label: 'Portugal' },
+    { code: 'BR', flag: '🇧🇷', label: 'Brazil' },
+    { code: 'TR', flag: '🇹🇷', label: 'Turkey' },
+    { code: 'IN', flag: '🇮🇳', label: 'India' }
+  ];
+
+  window.customizeState = {
+    locale: 'fr',
+    country: 'US',
+    countries: ['US'],
+    foreignNative: true,
+    excludeAnime: false,
+    excludeHorror: false,
+    excludeRomance: false,
+    excludeKids: false,
+    excludeReality: false,
+    selectedCategories: new Set(),
+    selectedStreaming: new Set(),
+    selectedNetworks: new Set(),
+    categoryOrder: [],
+    streamingOrder: [],
+    networkOrder: [],
+    streamingSort: 'popular',
+    voteScale: 1,
+    ratingBump: 0
+  };
+  window.kaptainCustomize = window.customizeState;
+
+  function initSelectAllDefaults(data) {
+    window.customizeState.selectedCategories = new Set();
+    window.customizeState.selectedStreaming = new Set();
+    window.customizeState.selectedNetworks = new Set();
+
+    data.forEach(cat => {
+      const title = cat.title || '';
+      if (title === 'Streaming Services') {
+        cat.folders?.forEach(f => {
+          if (f.title) window.customizeState.selectedStreaming.add(f.title);
+        });
+      } else if (title === 'Networks') {
+        cat.folders?.forEach(f => {
+          if (f.title) window.customizeState.selectedNetworks.add(f.title);
+        });
+      } else {
+        window.customizeState.selectedCategories.add(title);
+      }
+    });
+
+    // Exclusions start unchecked (everything allowed by default)
+    window.customizeState.excludeAnime = false;
+    window.customizeState.excludeHorror = false;
+    window.customizeState.excludeRomance = false;
+    window.customizeState.excludeKids = false;
+    window.customizeState.excludeReality = false;
+    window.customizeState.categoryOrder = [];
+    window.customizeState.streamingOrder = [];
+    window.customizeState.networkOrder = [];
+  }
+
+  function render() {
+    if (currentStep === 1) renderStep1();
+    else if (currentStep === 2) renderStep2();
+    else if (currentStep === 3) renderStep3();
+    else if (currentStep === 4) renderStep4();
+    else if (currentStep === 5) renderStep5();
+  }
+
+  function nextStep() {
+    if (currentStep < TOTAL_STEPS) {
+      currentStep++;
+      render();
+    } else {
+      finishCustomize();
+    }
+  }
+
+  function prevStep() {
+    if (currentStep > 1) {
+      currentStep--;
+      render();
+    }
+  }
+
+  function finishCustomize() {
+    overlay.hidden = true;
+    overlay.classList.remove('open');
+    overlay.classList.remove('active');
+    
+    if (window.hideTitleScreen) window.hideTitleScreen();
+    if (window.initializeSelections) window.initializeSelections();
+    
+    applyCustomizeStateToSelectedMap();
+    applyCustomizeOrderToDatabase();
+    
+    if (typeof isPreviewActive !== 'undefined' && isPreviewActive) {
+      if (window.renderSidebar) window.renderSidebar();
+      if (window.renderPreviewCollection) window.renderPreviewCollection();
+    } else {
+      if (window.jumpToCategory) window.jumpToCategory(window.currentCategoryIdx || 0);
+    }
+
+    // Optional handoff (e.g. Set Up & Send → Guided Customize → Send wizard)
+    const after = window.__kaptainAfterCustomize;
+    window.__kaptainAfterCustomize = null;
+    if (typeof after === 'function') {
+      setTimeout(() => after(), 80);
+    }
+  }
+
+  function applyCustomizeOrderToDatabase() {
+    const data = window.collectionData || window.database || window.NUVIO_DATABASE;
+    if (!data || !Array.isArray(data)) return;
+    const st = window.customizeState;
+
+    if (st.categoryOrder?.length) {
+      const byTitle = new Map(data.map((c) => [c.title, c]));
+      const ordered = [];
+      st.categoryOrder.forEach((t) => {
+        if (byTitle.has(t)) {
+          ordered.push(byTitle.get(t));
+          byTitle.delete(t);
+        }
+      });
+      byTitle.forEach((c) => ordered.push(c));
+      data.length = 0;
+      ordered.forEach((c) => data.push(c));
+      if (window.database && window.database !== data) {
+        window.database.length = 0;
+        data.forEach((c) => window.database.push(c));
+      }
+      if (window.NUVIO_DATABASE && window.NUVIO_DATABASE !== data) {
+        window.NUVIO_DATABASE.length = 0;
+        data.forEach((c) => window.NUVIO_DATABASE.push(c));
+      }
+    }
+
+    const streamCat = data.find((c) => c.title === 'Streaming Services');
+    if (streamCat?.folders && st.streamingOrder?.length) {
+      reorderFolders(streamCat.folders, st.streamingOrder);
+    }
+    const netCat = data.find((c) => c.title === 'Networks');
+    if (netCat?.folders && st.networkOrder?.length) {
+      reorderFolders(netCat.folders, st.networkOrder);
+    }
+  }
+
+  function reorderFolders(folders, orderTitles) {
+    const byTitle = new Map(folders.map((f) => [f.title, f]));
+    const ordered = [];
+    orderTitles.forEach((t) => {
+      if (byTitle.has(t)) {
+        ordered.push(byTitle.get(t));
+        byTitle.delete(t);
+      }
+    });
+    byTitle.forEach((f) => ordered.push(f));
+    folders.length = 0;
+    ordered.forEach((f) => folders.push(f));
+  }
+
+  /** HTML5 drag-and-drop reorder for Guided Customize selection grids. */
+  function enableDragReorder(gridEl, orderKey) {
+    if (!gridEl) return;
+    const cards = [...gridEl.querySelectorAll(':scope > label, :scope > .cust-drag-item')];
+    cards.forEach((card) => {
+      card.setAttribute('draggable', 'true');
+      card.classList.add('cust-drag-item');
+      card.addEventListener('dragstart', (e) => {
+        card.classList.add('is-dragging');
+        e.dataTransfer.effectAllowed = 'move';
+        e.dataTransfer.setData('text/plain', card.dataset.dragId || '');
+      });
+      card.addEventListener('dragend', () => {
+        card.classList.remove('is-dragging');
+        persistGridOrder(gridEl, orderKey);
+      });
+      card.addEventListener('dragover', (e) => {
+        e.preventDefault();
+        const dragging = gridEl.querySelector('.is-dragging');
+        if (!dragging || dragging === card) return;
+        const rect = card.getBoundingClientRect();
+        const before = (e.clientY - rect.top) < rect.height / 2;
+        gridEl.insertBefore(dragging, before ? card : card.nextSibling);
+      });
+    });
+    persistGridOrder(gridEl, orderKey);
+  }
+
+  function persistGridOrder(gridEl, orderKey) {
+    const titles = [...gridEl.querySelectorAll(':scope > label, :scope > .cust-drag-item')]
+      .map((el) => el.dataset.dragId || el.querySelector('input')?.value)
+      .filter(Boolean);
+    window.customizeState[orderKey] = titles;
+  }
+
+  function applyCustomizeStateToSelectedMap() {
+    const data = window.collectionData || window.database || window.NUVIO_DATABASE;
+    if (!data) return;
+    
+    data.forEach(cat => {
+      const catTitle = cat.title || '';
+      
+      if (catTitle === 'Streaming Services') {
+         cat.folders?.forEach(f => {
+            if (!window.customizeState.selectedStreaming.has(f.title)) {
+               deselectFolder(f);
+            }
+         });
+      } else if (catTitle === 'Networks') {
+         cat.folders?.forEach(f => {
+            if (!window.customizeState.selectedNetworks.has(f.title)) {
+               deselectFolder(f);
+            }
+         });
+      } else {
+        if (!window.customizeState.selectedCategories.has(catTitle)) {
+           deselectCategory(cat);
+        }
+      }
+    });
+
+    data.forEach(cat => {
+      const catTitle = cat.title || '';
+      if (window.customizeState.excludeAnime && catTitle === 'Anime') {
+         deselectCategory(cat);
+      }
+      if (window.customizeState.excludeKids && (catTitle === 'Kids & Family' || catTitle.includes('Kids'))) {
+         deselectCategory(cat);
+      }
+      
+      cat.folders?.forEach(f => {
+         const fTitle = f.title || '';
+         if (window.customizeState.excludeHorror && fTitle === 'Horror') {
+            deselectFolder(f);
+         }
+         if (window.customizeState.excludeRomance && fTitle === 'Romance') {
+            deselectFolder(f);
+         }
+      });
+      if (window.customizeState.excludeReality && catTitle === 'Reality TV') {
+         deselectCategory(cat);
+      }
+    });
+    
+    window.kaptainCustomize = window.customizeState;
+  }
+  
+  function deselectCategory(cat) {
+     cat.folders?.forEach(f => deselectFolder(f));
+  }
+  
+  function deselectFolder(f) {
+     const fKey = window.getFolderKey ? window.getFolderKey(f) : (f.title || '');
+     if (window.selectedMap && window.selectedMap[fKey]) {
+       for (let k in window.selectedMap[fKey]) {
+         window.selectedMap[fKey][k] = false;
+       }
+     }
+  }
+
+  function getStepWrapper(title, subtitle, contentHtml, extraHeaderHtml) {
+    let progressSegments = '';
+    for(let i=1; i<=TOTAL_STEPS; i++) {
+      const isDone = i < currentStep;
+      const isActive = i === currentStep;
+      progressSegments += `
+        <div class="cust-prog-seg ${isActive ? 'active' : ''} ${isDone ? 'done' : ''}" title="${STEP_NAMES[i-1]}">
+          <span class="cust-prog-bar"></span>
+        </div>
+      `;
+    }
+
+    return `
+      <div class="cust-step">
+        <div class="cust-prog-wrap">
+          <div class="cust-prog-track">${progressSegments}</div>
+          <div class="cust-prog-meta">
+            <span class="cust-prog-badge">Step ${currentStep} of ${TOTAL_STEPS}</span>
+            <span class="cust-prog-name">${STEP_NAMES[currentStep-1]}</span>
+          </div>
+        </div>
+        
+        <div class="cust-step-head">
+          <div class="cust-step-head-info">
+            <h3 class="cust-step-title">${title}</h3>
+            <p class="cust-step-sub">${subtitle}</p>
+          </div>
+          ${extraHeaderHtml || ''}
+        </div>
+        
+        <div class="cust-step-content">${contentHtml}</div>
+        
+        <div class="cust-step-footer">
+          <button type="button" class="cust-btn-back" id="cust-btn-prev" ${currentStep === 1 ? 'disabled' : ''}>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            <span>Back</span>
+          </button>
+          
+          <button type="button" class="cust-btn-next" id="cust-btn-next">
+            <span>${currentStep === TOTAL_STEPS ? 'Apply & Build Setup' : 'Continue'}</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+      </div>
+    `;
+  }
+
+  function bindNav() {
+    document.getElementById('cust-btn-prev')?.addEventListener('click', prevStep);
+    document.getElementById('cust-btn-next')?.addEventListener('click', nextStep);
+  }
+
+  function renderStep1() {
+    const html = `
+      <div class="cust-step-fields">
+        <div class="cust-field-card">
+          <div class="cust-field-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg>
+          </div>
+          <div class="cust-field-main">
+            <div class="cust-field-labels">
+              <label for="cust-country" class="cust-field-title">Your Region</label>
+              <p class="cust-field-hint">Prioritizes streaming catalogs and regional availability for your country</p>
+            </div>
+            <div class="cust-select-wrap">
+              <select id="cust-country" class="cust-select">
+                ${REGION_OPTIONS.map((opt) => {
+                  const selected = (window.customizeState.country === opt.code || (!window.customizeState.country && opt.code === 'US')) ? 'selected' : '';
+                  return `<option value="${opt.code}" ${selected}>${opt.flag} ${opt.label}</option>`;
+                }).join('')}
+              </select>
+              <svg class="cust-select-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="cust-field-card">
+          <div class="cust-field-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/></svg>
+          </div>
+          <div class="cust-field-main">
+            <div class="cust-field-labels">
+              <label for="cust-locale" class="cust-field-title">Interface & Catalog Language</label>
+              <p class="cust-field-hint">Translates folder names and discovery metadata where supported</p>
+            </div>
+            <div class="cust-select-wrap">
+              <select id="cust-locale" class="cust-select">
+                <option value="en" ${window.customizeState.locale === 'en' ? 'selected' : ''}>English</option>
+                <option value="es" ${window.customizeState.locale === 'es' ? 'selected' : ''}>Español</option>
+                <option value="fr" ${window.customizeState.locale === 'fr' ? 'selected' : ''}>Français</option>
+                <option value="de" ${window.customizeState.locale === 'de' ? 'selected' : ''}>Deutsch</option>
+                <option value="it" ${window.customizeState.locale === 'it' ? 'selected' : ''}>Italiano</option>
+                <option value="nl" ${window.customizeState.locale === 'nl' ? 'selected' : ''}>Nederlands</option>
+                <option value="fi" ${window.customizeState.locale === 'fi' ? 'selected' : ''}>Suomi</option>
+                <option value="pl" ${window.customizeState.locale === 'pl' ? 'selected' : ''}>Polski</option>
+                <option value="pt" ${window.customizeState.locale === 'pt' ? 'selected' : ''}>Português</option>
+                <option value="ru" ${window.customizeState.locale === 'ru' ? 'selected' : ''}>Русский</option>
+                <option value="tr" ${window.customizeState.locale === 'tr' ? 'selected' : ''}>Türkçe</option>
+                <option value="sv" ${window.customizeState.locale === 'sv' ? 'selected' : ''}>Svenska</option>
+                <option value="da" ${window.customizeState.locale === 'da' ? 'selected' : ''}>Dansk</option>
+                <option value="no" ${window.customizeState.locale === 'no' ? 'selected' : ''}>Norsk</option>
+                <option value="ar" ${window.customizeState.locale === 'ar' ? 'selected' : ''}>العربية</option>
+              </select>
+              <svg class="cust-select-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="cust-field-card cust-toggle-card">
+          <div class="cust-field-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <div class="cust-field-main cust-toggle-main">
+            <div class="cust-field-labels">
+              <span class="cust-field-title">Include Foreign-Language Content</span>
+              <p class="cust-field-hint">When off, main discovery rows only show content in your chosen language</p>
+            </div>
+            <label class="cust-switch" title="Toggle foreign content">
+              <input type="checkbox" id="cust-foreign" ${window.customizeState.foreignNative ? 'checked' : ''}>
+              <span class="cust-slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    `;
+    body.innerHTML = getStepWrapper('Region & Language', 'Set your local preferences and region priorities.', html);
+    bindNav();
+    
+    document.getElementById('cust-country').addEventListener('change', (e) => {
+      window.customizeState.country = e.target.value;
+      window.customizeState.countries = [e.target.value];
+    });
+    document.getElementById('cust-locale').addEventListener('change', (e) => window.customizeState.locale = e.target.value);
+    document.getElementById('cust-foreign').addEventListener('change', (e) => window.customizeState.foreignNative = e.target.checked);
+  }
+
+  const VOTE_SCALE_STEPS = [0.5, 1, 1.5, 2];
+  const VOTE_SCALE_LABELS = [
+    'More titles',
+    'Balanced',
+    'Well-known',
+    'Hits only',
+  ];
+  const RATING_BUMP_STEPS = [0, 0.5, 1.0];
+
+  function voteScaleIndex() {
+    const i = VOTE_SCALE_STEPS.indexOf(window.customizeState.voteScale);
+    return i >= 0 ? i : 1;
+  }
+  function voteScaleLabel() {
+    return VOTE_SCALE_LABELS[voteScaleIndex()];
+  }
+  function voteScaleHint() {
+    const hints = [
+      'Shows more titles, including quieter ones with fewer votes.',
+      'Keeps each row’s normal Studio filter (recommended for most people).',
+      'Raises the bar so rows lean toward titles more people have rated.',
+      'Strictest — mostly heavily rated, widely known titles.',
+    ];
+    return hints[voteScaleIndex()] || hints[1];
+  }
+  function ratingBumpIndex() {
+    const i = RATING_BUMP_STEPS.indexOf(window.customizeState.ratingBump);
+    return i >= 0 ? i : 0;
+  }
+  function ratingBumpLabel() {
+    const v = window.customizeState.ratingBump;
+    if (!v) return 'Off';
+    if (v === 0.5) return 'A little pickier';
+    return 'Much pickier';
+  }
+
+  function renderStep2() {
+    const html = `
+      <div class="cust-info-card">
+        <div class="cust-info-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+        </div>
+        <div class="cust-info-text">
+          <strong>Direct Search Remains Unlocked</strong>
+          <p>These filters only tailor your auto-populated home screen rows. You can still search for any title directly in Nuvio anytime.</p>
+        </div>
+      </div>
+
+      <div class="cust-filter-grid">
+        <label class="cust-filter-card">
+          <input type="checkbox" id="ex-anime" ${window.customizeState.excludeAnime ? 'checked' : ''}>
+          <div class="cust-filter-body">
+            <div class="cust-filter-emoji">🌸</div>
+            <div class="cust-filter-text">
+              <h4>No Anime</h4>
+              <p>Excludes Anime category & filters anime from discovery rows</p>
+            </div>
+          </div>
+          <div class="cust-filter-badge">
+            <span class="badge-off">Included</span>
+            <span class="badge-on">Excluded</span>
+          </div>
+        </label>
+
+        <label class="cust-filter-card">
+          <input type="checkbox" id="ex-horror" ${window.customizeState.excludeHorror ? 'checked' : ''}>
+          <div class="cust-filter-body">
+            <div class="cust-filter-emoji">👻</div>
+            <div class="cust-filter-text">
+              <h4>No Horror</h4>
+              <p>Excludes Horror folder & filters horror from discovery</p>
+            </div>
+          </div>
+          <div class="cust-filter-badge">
+            <span class="badge-off">Included</span>
+            <span class="badge-on">Excluded</span>
+          </div>
+        </label>
+
+        <label class="cust-filter-card">
+          <input type="checkbox" id="ex-romance" ${window.customizeState.excludeRomance ? 'checked' : ''}>
+          <div class="cust-filter-body">
+            <div class="cust-filter-emoji">💖</div>
+            <div class="cust-filter-text">
+              <h4>No Romance</h4>
+              <p>Excludes Romance folder & filters romance from discovery</p>
+            </div>
+          </div>
+          <div class="cust-filter-badge">
+            <span class="badge-off">Included</span>
+            <span class="badge-on">Excluded</span>
+          </div>
+        </label>
+
+        <label class="cust-filter-card">
+          <input type="checkbox" id="ex-kids" ${window.customizeState.excludeKids ? 'checked' : ''}>
+          <div class="cust-filter-body">
+            <div class="cust-filter-emoji">🧸</div>
+            <div class="cust-filter-text">
+              <h4>No Kids Content</h4>
+              <p>Excludes Kids & Family sections & filters family titles</p>
+            </div>
+          </div>
+          <div class="cust-filter-badge">
+            <span class="badge-off">Included</span>
+            <span class="badge-on">Excluded</span>
+          </div>
+        </label>
+
+        <label class="cust-filter-card">
+          <input type="checkbox" id="ex-reality" ${window.customizeState.excludeReality ? 'checked' : ''}>
+          <div class="cust-filter-body">
+            <div class="cust-filter-emoji">📺</div>
+            <div class="cust-filter-text">
+              <h4>No Reality TV</h4>
+              <p>Excludes Reality TV category & filters reality from discovery</p>
+            </div>
+          </div>
+          <div class="cust-filter-badge">
+            <span class="badge-off">Included</span>
+            <span class="badge-on">Excluded</span>
+          </div>
+        </label>
+      </div>
+
+      <div class="cust-slider-panel">
+        <div class="cust-slider-head">
+          <h4>How picky should the rows be?</h4>
+          <p>This only affects Discover-style rows that already have a “how many people rated this” floor. Your lists and Trakt shelves stay as-is. Drag right for safer, more popular picks; left for a wider net.</p>
+        </div>
+        <label class="cust-slider-row">
+          <span class="cust-slider-label">Familiarity</span>
+          <input type="range" id="cust-vote-scale" min="0" max="3" step="1" value="${voteScaleIndex()}">
+          <span class="cust-slider-value" id="cust-vote-scale-val">${voteScaleLabel()}</span>
+        </label>
+        <p class="cust-slider-example" id="cust-vote-scale-hint">${voteScaleHint()}</p>
+        <label class="cust-slider-row">
+          <span class="cust-slider-label">Score boost</span>
+          <input type="range" id="cust-rating-bump" min="0" max="2" step="1" value="${ratingBumpIndex()}">
+          <span class="cust-slider-value" id="cust-rating-bump-val">${ratingBumpLabel()}</span>
+        </label>
+        <p class="cust-slider-example">Optional. Only raises rows that already require a minimum star score (like Moods). Leave Off unless you want those shelves even choosier.</p>
+      </div>
+    `;
+    body.innerHTML = getStepWrapper('Negative Filters', 'Select any content types you want excluded from your folders.', html);
+    bindNav();
+    
+    ['anime','horror','romance','kids','reality'].forEach(key => {
+      const el = document.getElementById('ex-'+key);
+      if(el) {
+        el.addEventListener('change', (e) => {
+          if (key === 'anime') window.customizeState.excludeAnime = e.target.checked;
+          if (key === 'horror') window.customizeState.excludeHorror = e.target.checked;
+          if (key === 'romance') window.customizeState.excludeRomance = e.target.checked;
+          if (key === 'kids') window.customizeState.excludeKids = e.target.checked;
+          if (key === 'reality') window.customizeState.excludeReality = e.target.checked;
+        });
+      }
+    });
+
+    const voteEl = document.getElementById('cust-vote-scale');
+    const voteVal = document.getElementById('cust-vote-scale-val');
+    const voteHint = document.getElementById('cust-vote-scale-hint');
+    if (voteEl && voteVal) {
+      voteEl.addEventListener('input', (e) => {
+        window.customizeState.voteScale = VOTE_SCALE_STEPS[+e.target.value];
+        voteVal.textContent = voteScaleLabel();
+        if (voteHint) voteHint.textContent = voteScaleHint();
+      });
+    }
+    const bumpEl = document.getElementById('cust-rating-bump');
+    const bumpVal = document.getElementById('cust-rating-bump-val');
+    if (bumpEl && bumpVal) {
+      bumpEl.addEventListener('input', (e) => {
+        window.customizeState.ratingBump = RATING_BUMP_STEPS[+e.target.value];
+        bumpVal.textContent = ratingBumpLabel();
+      });
+    }
+  }
+
+  function getCategoryCover(cat) {
+    if (!cat || !cat.folders) return '';
+    for (let f of cat.folders) {
+      if (f.coverImageUrl) return f.coverImageUrl;
+      if (f.heroBackdropUrl) return f.heroBackdropUrl;
+    }
+    return '';
+  }
+
+  function renderStep3() {
+    const data = window.collectionData || window.database || window.NUVIO_DATABASE || [];
+    let catCardsHtml = '';
+    
+    data.forEach(cat => {
+      const title = cat.title || '';
+      if (title === 'Streaming Services' || title === 'Networks') return;
+      
+      const isChecked = window.customizeState.selectedCategories.has(title) ? 'checked' : '';
+      const coverUrl = getCategoryCover(cat);
+      const folderCount = cat.folders ? cat.folders.length : 0;
+      
+      catCardsHtml += `
+        <label class="cust-visual-card" data-drag-id="${title}">
+          <input type="checkbox" value="${title}" ${isChecked}>
+          <div class="cust-visual-card-bg" style="${coverUrl ? `background-image: url('${coverUrl}');` : ''}"></div>
+          <div class="cust-visual-card-overlay"></div>
+          <div class="cust-visual-card-content">
+            <span class="cust-visual-card-title">${title}</span>
+            <span class="cust-visual-card-count">${folderCount} folders</span>
+          </div>
+          <div class="cust-card-check-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+        </label>
+      `;
+    });
+    
+    const extraHeader = `
+      <div class="cust-quick-toggles">
+        <button type="button" class="cust-mini-btn" id="cat-select-all">Select All</button>
+        <button type="button" class="cust-mini-btn" id="cat-select-none">Deselect All</button>
+        <span class="cust-reorder-tip">Drag cards to change row order</span>
+      </div>
+    `;
+    const html = `<div class="cust-visual-grid" id="cat-grid">${catCardsHtml}</div>`;
+    body.innerHTML = getStepWrapper('Catalogs & Categories', 'Everything is selected by default. Uncheck any categories you don\'t want. Drag to reorder rows.', html, extraHeader);
+    bindNav();
+    
+    const inputs = document.querySelectorAll('#cat-grid input');
+    inputs.forEach(el => {
+      el.addEventListener('change', (e) => {
+        if (e.target.checked) window.customizeState.selectedCategories.add(e.target.value);
+        else window.customizeState.selectedCategories.delete(e.target.value);
+      });
+    });
+    
+    document.getElementById('cat-select-all')?.addEventListener('click', () => {
+      inputs.forEach(el => {
+        el.checked = true;
+        window.customizeState.selectedCategories.add(el.value);
+      });
+    });
+    document.getElementById('cat-select-none')?.addEventListener('click', () => {
+      inputs.forEach(el => {
+        el.checked = false;
+        window.customizeState.selectedCategories.delete(el.value);
+      });
+    });
+    enableDragReorder(document.getElementById('cat-grid'), 'categoryOrder');
+  }
+
+  function renderStep4() {
+    const data = window.collectionData || window.database || window.NUVIO_DATABASE || [];
+    let html = '';
+    const streamingCat = data.find(c => c.title === 'Streaming Services');
+    
+    if (streamingCat && streamingCat.folders) {
+       html = '<div class="cust-logo-grid" id="stream-grid">';
+       const folders = streamingCat.folders.slice();
+       const sortMode = window.customizeState.streamingSort || 'popular';
+       if (sortMode === 'az') {
+         folders.sort((a, b) => String(a.title || '').localeCompare(String(b.title || ''), undefined, { sensitivity: 'base' }));
+       } else if (typeof window.sortStreamingByPopular === 'function') {
+         window.sortStreamingByPopular(folders);
+       }
+       folders.forEach(f => {
+          const title = f.title || '';
+          const isChecked = window.customizeState.selectedStreaming.has(title) ? 'checked' : '';
+          const logoUrl = f.titleLogoUrl || f.coverImageUrl || '';
+          
+          html += `
+            <label class="cust-logo-card" data-drag-id="${title}">
+              <input type="checkbox" value="${title}" ${isChecked}>
+              <div class="cust-logo-content">
+                <div class="cust-logo-wrap">
+                  ${logoUrl ? `<img src="${logoUrl}" alt="${title}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block';"><span class="cust-logo-fallback" style="display:none;">${title}</span>` : `<span class="cust-logo-fallback">${title}</span>`}
+                </div>
+                ${logoUrl ? '' : `<span class="cust-logo-title">${title}</span>`}
+              </div>
+              <div class="cust-card-check-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+            </label>
+          `;
+       });
+       html += '</div>';
+    }
+    
+    const extraHeader = `
+      <div class="cust-quick-toggles">
+        <button type="button" class="cust-mini-btn ${window.customizeState.streamingSort === 'popular' ? 'is-active' : ''}" id="stream-sort-popular">Popular</button>
+        <button type="button" class="cust-mini-btn ${window.customizeState.streamingSort === 'az' ? 'is-active' : ''}" id="stream-sort-az">A–Z</button>
+        <button type="button" class="cust-mini-btn" id="stream-select-all">Select All</button>
+        <button type="button" class="cust-mini-btn" id="stream-select-none">Deselect All</button>
+        <span class="cust-reorder-tip">Drag to reorder</span>
+      </div>
+    `;
+    body.innerHTML = getStepWrapper('Streaming Services', 'All streaming platforms are included. Uncheck any services you don\'t use. Drag to put favorites first.', html, extraHeader);
+    bindNav();
+    
+    const inputs = document.querySelectorAll('#stream-grid input');
+    inputs.forEach(el => {
+      el.addEventListener('change', (e) => {
+        if (e.target.checked) window.customizeState.selectedStreaming.add(e.target.value);
+        else window.customizeState.selectedStreaming.delete(e.target.value);
+      });
+    });
+    
+    document.getElementById('stream-select-all')?.addEventListener('click', () => {
+      inputs.forEach(el => {
+        el.checked = true;
+        window.customizeState.selectedStreaming.add(el.value);
+      });
+    });
+    document.getElementById('stream-select-none')?.addEventListener('click', () => {
+      inputs.forEach(el => {
+        el.checked = false;
+        window.customizeState.selectedStreaming.delete(el.value);
+      });
+    });
+    document.getElementById('stream-sort-popular')?.addEventListener('click', () => {
+      window.customizeState.streamingSort = 'popular';
+      renderStep4();
+    });
+    document.getElementById('stream-sort-az')?.addEventListener('click', () => {
+      window.customizeState.streamingSort = 'az';
+      renderStep4();
+    });
+    enableDragReorder(document.getElementById('stream-grid'), 'streamingOrder');
+  }
+
+  function renderStep5() {
+    const data = window.collectionData || window.database || window.NUVIO_DATABASE || [];
+    let html = '';
+    const netCat = data.find(c => c.title === 'Networks');
+    
+    if (netCat && netCat.folders) {
+       html = '<div class="cust-logo-grid" id="net-grid">';
+       netCat.folders.forEach(f => {
+          const title = f.title || '';
+          const isChecked = window.customizeState.selectedNetworks.has(title) ? 'checked' : '';
+          const logoUrl = f.titleLogoUrl || f.coverImageUrl || '';
+          
+          html += `
+            <label class="cust-logo-card" data-drag-id="${title}">
+              <input type="checkbox" value="${title}" ${isChecked}>
+              <div class="cust-logo-content">
+                <div class="cust-logo-wrap">
+                  ${logoUrl ? `<img src="${logoUrl}" alt="${title}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block';"><span class="cust-logo-fallback" style="display:none;">${title}</span>` : `<span class="cust-logo-fallback">${title}</span>`}
+                </div>
+                ${logoUrl ? '' : `<span class="cust-logo-title">${title}</span>`}
+              </div>
+              <div class="cust-card-check-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+            </label>
+          `;
+       });
+       html += '</div>';
+    }
+    
+    const extraHeader = `
+      <div class="cust-quick-toggles">
+        <button type="button" class="cust-mini-btn" id="net-select-all">Select All</button>
+        <button type="button" class="cust-mini-btn" id="net-select-none">Deselect All</button>
+        <span class="cust-reorder-tip">Drag to reorder</span>
+      </div>
+    `;
+    body.innerHTML = getStepWrapper('TV Networks', 'All TV networks are included. Uncheck any networks you don\'t watch. Drag to reorder.', html, extraHeader);
+    bindNav();
+    
+    const inputs = document.querySelectorAll('#net-grid input');
+    inputs.forEach(el => {
+      el.addEventListener('change', (e) => {
+        if (e.target.checked) window.customizeState.selectedNetworks.add(e.target.value);
+        else window.customizeState.selectedNetworks.delete(e.target.value);
+      });
+    });
+    
+    document.getElementById('net-select-all')?.addEventListener('click', () => {
+      inputs.forEach(el => {
+        el.checked = true;
+        window.customizeState.selectedNetworks.add(el.value);
+      });
+    });
+    document.getElementById('net-select-none')?.addEventListener('click', () => {
+      inputs.forEach(el => {
+        el.checked = false;
+        window.customizeState.selectedNetworks.delete(el.value);
+      });
+    });
+    enableDragReorder(document.getElementById('net-grid'), 'networkOrder');
+  }
+
+  window.startCustomize = function() {
+    const data = window.collectionData || window.database || window.NUVIO_DATABASE;
+    if (!data || !data.length) {
+      console.warn('No collection data available yet');
+      return;
+    }
+    window.collectionData = data;
+    
+    // Default to everything selected so users only uncheck what they don't want
+    initSelectAllDefaults(data);
+    
+    overlay.hidden = false;
+    overlay.classList.add('open');
+    overlay.classList.add('active');
+    currentStep = 1;
+    render();
+  };
+
+  document.getElementById('customize-close')?.addEventListener('click', () => {
+    overlay.hidden = true;
+    overlay.classList.remove('open');
+    overlay.classList.remove('active');
+  });
+
+})();
