@@ -1,0 +1,5742 @@
+/**
+ * Kaptain's Mega Collection — Custom Collection Builder
+ * Client-side application logic
+ */
+
+// Application State
+let database = [];
+let selectedMap = {}; window.selectedMap = selectedMap;  // { folderKey: { sourceTitle: boolean } }
+window.database = database;
+window.selectedMap = selectedMap;
+let currentCategoryIdx = 0;
+let isGuideActive = false;
+let isPreviewActive = false;
+let currentSearch = '';
+let gridSize = 210;
+let activeDrawerFolder = null;
+
+// Bump this alongside the style.css?v=NN / app.js?v=NN cache-busters in index.html
+const KAPTAIN_VERSION = 'v0.92';
+const KAPTAIN_UPDATED = 'v0.92 • Sep 2026';
+
+// Newest entry first. Bump KAPTAIN_VERSION above whenever a new entry is added here —
+// the title-screen "what's new" banner compares a visitor's last-seen version against this list.
+const CHANGELOG = [
+  {
+    version: 'v23',
+    items: [
+      'AIO Streams setup is now a guided step-by-step flow, matching Native Mode',
+      'Sending to an existing profile now lets you fully reorder every row, not just top/bottom',
+      'Fixed old rows silently sticking around after you deselected them and re-sent',
+      'Added bulk genre selection (e.g. select "Horror" everywhere at once) in the Quick Editor',
+      'Fixed the Quick Editor "‹ Menu" button wiping your selections',
+      'Kept cinematic and Quick Editor selections/order in sync when switching between them',
+      'Fixed broken artwork for French, Indian, and Korean Cinema',
+      'Added a no-signin "Export for Bingecat" option',
+      'Dozens of smaller fixes and polish across the setup wizard',
+    ],
+  },
+];
+
+// Human-readable labels for TMDB sort_by API strings shown in source drawer badges
+const SORT_LABEL_MAP = {
+  'primary_release_date.desc': 'By Release Date ↓',
+  'primary_release_date.asc': 'By Release Date ↑',
+  'vote_average.desc': 'By Rating ↓',
+  'vote_average.asc': 'By Rating ↑',
+  'popularity.desc': 'By Popularity ↓',
+  'popularity.asc': 'By Popularity ↑',
+  'revenue.desc': 'By Revenue ↓',
+  'revenue.asc': 'By Revenue ↑',
+  'first_air_date.desc': 'By Air Date ↓',
+  'first_air_date.asc': 'By Air Date ↑',
+  'vote_count.desc': 'By Vote Count ↓',
+  'vote_count.asc': 'By Vote Count ↑',
+};
+function sortLabel(raw) {
+  if (!raw) return '';
+  return SORT_LABEL_MAP[raw.toLowerCase()] ?? raw;
+}
+
+// Nuvio TV/Mobile emulator (Preview) state
+let previewDevice = (() => { try { return localStorage.getItem('kaptain_preview_device') || 'tv'; } catch (e) { return 'tv'; } })();
+// Whether the mobile-only "more options" panel (device toggle / reorder /
+// editor view / layout / help) is expanded above the slim phone bottom bar.
+let previewMoreOpen = false;
+// Whether the mobile-only preview bar itself (Download / Send to Nuvio / ⋯,
+// plus whatever the ⋯ reveals) is expanded out of its collapsed FAB.
+let previewBarOpen = false;
+let featuredKey = null;            // folderKey shown in the preview hero
+let previewRows = [];              // array of arrays of focusable elements (focus engine)
+let previewPos = { r: 0, c: 0 };   // current focus position
+let activeCatIdx = 0;              // sidebar jump-nav highlight
+const categorySort = {};           // { catIdx: 'custom'|'az'|'za'|'selected' } — per-row sort preset
+let drawerSearch = '';             // filter text for the open drawer's source list
+
+const CARD_PLUS_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>';
+const CARD_MINUS_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg>';
+
+// Ordering State
+let reorderMode = false;   // when true, up/down arrows appear at every level
+
+
+// Keeps the persistent top-bar reorder indicator in sync with reorderMode,
+// regardless of which toggle (Browse or Preview) flipped it, and across
+// category switches / view re-renders.
+function updateReorderBanner() {
+  const banner = document.getElementById('reorder-banner');
+  if (banner) banner.hidden = !reorderMode;
+}
+
+// View Mode State (per-browser; never shared with other visitors)
+let selectedViewMode = localStorage.getItem('kaptain_view_mode') || 'FOLLOW_LAYOUT';
+let lastExportOptimize = false;  // decided per-export by the mobile-compat gate
+
+// Hover-GIF preference (per-browser). Affects the real exported/pushed
+// collection, not just the local preview — Nuvio itself renders focusGifUrl.
+let gifDisableStreaming = (() => { try { return localStorage.getItem('kaptain_gif_disable_streaming') === '1'; } catch (e) { return false; } })();
+let gifDisableOther = (() => { try { return localStorage.getItem('kaptain_gif_disable_other') === '1'; } catch (e) { return false; } })();
+function gifsAllowedForCategory(category) {
+  const isStreaming = category && category.title === 'Streaming Services';
+  return isStreaming ? !gifDisableStreaming : !gifDisableOther;
+}
+
+const KAPTAIN_THEMES = ['dark', 'light', 'high-contrast'];
+function currentTheme() {
+  return document.documentElement.getAttribute('data-theme') || 'dark';
+}
+function applyTheme(theme) {
+  const next = KAPTAIN_THEMES.includes(theme) ? theme : 'dark';
+  if (next === 'dark') document.documentElement.removeAttribute('data-theme');
+  else document.documentElement.setAttribute('data-theme', next);
+  try { localStorage.setItem('kaptain_theme', next); } catch (e) { /* ignore */ }
+  document.querySelectorAll('.theme-toggle-btn').forEach(btn => {
+    btn.dataset.theme = next;
+    btn.title = 'Theme: ' + (next === 'high-contrast' ? 'High contrast' : next.charAt(0).toUpperCase() + next.slice(1)) + ' — click to cycle';
+  });
+}
+function cycleTheme() {
+  const cur = currentTheme();
+  applyTheme(KAPTAIN_THEMES[(KAPTAIN_THEMES.indexOf(cur) + 1) % KAPTAIN_THEMES.length]);
+}
+function bindThemeToggles() {
+  const stored = (function () { try { return localStorage.getItem('kaptain_theme') || 'dark'; } catch (e) { return 'dark'; } })();
+  applyTheme(stored);
+  document.querySelectorAll('.theme-toggle-btn').forEach(btn => {
+    if (btn.dataset.bound) return;
+    btn.dataset.bound = '1';
+    btn.addEventListener('click', cycleTheme);
+  });
+}
+bindThemeToggles();
+
+// Walkthrough State
+let walkthroughActive = false;
+let walkthroughStep = 0;
+let preWalkthroughState = null;
+
+// Sidebar overlay helpers (module-scope so walkthrough can open it)
+function openSidebar() {
+  document.querySelector('.sidebar')?.classList.add('open');
+  document.getElementById('sidebar-backdrop')?.classList.add('open');
+  document.getElementById('sidebar-toggle')?.setAttribute('aria-expanded', 'true');
+}
+function closeSidebar() {
+  document.querySelector('.sidebar')?.classList.remove('open');
+  document.getElementById('sidebar-backdrop')?.classList.remove('open');
+  document.getElementById('sidebar-toggle')?.setAttribute('aria-expanded', 'false');
+}
+
+const WALKTHROUGH_STEPS = [
+  {
+    title: "Here's the Lay of the Land",
+    body: "What you're looking at is your actual Nuvio home screen. Pick your folders and it updates live: this is the real thing.",
+    target: null,
+    position: 'center',
+    nextLabel: 'Show Me Around'
+  },
+  {
+    title: 'Jump to a Section',
+    body: 'Each section in the list maps to a row on your home screen. Click one to jump to it. The toggle on the right grabs the whole section at once.',
+    target: '#category-scroller',
+    position: 'right',
+    nextLabel: 'Next'
+  },
+  {
+    title: 'Add & Remove Folders',
+    body: "Every folder shows up as a card. Green border means it's in your collection. Click the + to add one, − to remove it, or open the gear for finer control.",
+    target: '.nv-card',
+    position: 'right',
+    nextLabel: 'Next'
+  },
+  {
+    title: 'Pick Exact Sources',
+    body: "Click the gear on any card to open its source drawer, then toggle individual Trakt & TMDB lists on or off within that folder instead of all-or-nothing.",
+    target: null,
+    position: 'center',
+    nextLabel: 'Next'
+  },
+  {
+    title: 'TV or Phone',
+    body: "Flip between how your collection will look on a TV and on a phone. Use your arrow keys to move around just like a real remote, and the focused card becomes the hero up top.",
+    target: '.nv-device-toggle',
+    position: 'bottom',
+    nextLabel: 'Next'
+  },
+  {
+    title: 'Layout, Sort & Reorder',
+    body: "Switch how everything lays out inside Nuvio (Rows, Tabbed Grid, or Auto), and turn on Reorder to drag sections and folders into your own order. On a phone, tap the ⋯ button to find these.",
+    target: '.nv-preview-secondary',
+    position: 'bottom',
+    nextLabel: 'Next'
+  },
+  {
+    title: 'Send Straight to Nuvio',
+    body: "When you're happy, Send to Nuvio signs you in (or creates an account) and loads your collection instantly, synced to all your devices. Prefer to keep it to yourself? Download the file and import it manually.",
+    target: '#preview-send',
+    position: 'bottom',
+    nextLabel: 'Got It'
+  }
+];
+
+// ==========================================================================
+// 1. BOOTSTRAP
+// ==========================================================================
+
+// Public, no-auth hit counter (countapi.xyz died in 2024 — this is Miles
+// Hilliard's drop-in fork, same no-signup/no-key model, different URL shape:
+// one flat key instead of namespace+key, so the namespace is baked into the
+// key name). Fire-and-forget, never blocks or throws into the UI. No PII,
+// just an integer increment.
+const TELEMETRY_DOM_IDS = {
+  visits: ['visitor-count'],
+  deployments: ['collections-generated-count'],
+};
+
+window.KaptainTelemetry = {
+  async hit(key) {
+    try {
+      const res = await fetch(`https://countapi.mileshilliard.com/api/v1/hit/kaptain-collection_${key}`);
+      const data = await res.json();
+      this._render(key, data.value);
+      return data.value;
+    } catch (e) { return null; }
+  },
+  async get(key) {
+    try {
+      const res = await fetch(`https://countapi.mileshilliard.com/api/v1/get/kaptain-collection_${key}`);
+      const data = await res.json();
+      this._render(key, data.value);
+      return data.value;
+    } catch (e) { return null; }
+  },
+  _render(key, value) {
+    if (typeof value !== 'number') return;
+    // Still update hidden spans for any code that reads them
+    const ids = TELEMETRY_DOM_IDS[key] || [];
+    ids.forEach((id) => {
+      const el = document.getElementById(id);
+      if (el) el.textContent = value.toLocaleString();
+    });
+    // Rebuild the sentence display
+    this._renderSentence();
+  },
+  _renderSentence() {
+    const sentenceEl = document.getElementById('telemetry-sentence');
+    if (!sentenceEl) return;
+    const visitEl = document.getElementById('visitor-count');
+    const collEl = document.getElementById('collections-generated-count');
+    const visits = visitEl && visitEl.textContent && visitEl.textContent !== '—' ? visitEl.textContent : null;
+    const colls = collEl && collEl.textContent && collEl.textContent !== '—' ? collEl.textContent : null;
+    if (!visits && !colls) {
+      sentenceEl.innerHTML = 'Loading stats…';
+    } else if (visits && colls) {
+      sentenceEl.innerHTML = `<strong>${visits}</strong> people visited · <strong>${colls}</strong> collections built`;
+    } else if (visits) {
+      sentenceEl.innerHTML = `<strong>${visits}</strong> people have visited`;
+    } else {
+      sentenceEl.innerHTML = `<strong>${colls}</strong> collections built`;
+    }
+  },
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+  bootstrapKaptain().catch((err) => {
+    console.error('[Kaptain] bootstrap failed', err);
+    initializeDatabase();
+    bindGlobalEvents();
+  });
+});
+
+async function bootstrapKaptain() {
+  await maybeActivateTestChannelFromUrl();
+  initializeDatabase();
+  bindGlobalEvents();
+  updateBetaBanner();
+  window.KaptainTelemetry.hit('visits');
+  window.KaptainTelemetry.get('deployments');
+}
+
+// ==========================================================================
+// TEST CODE / BETA CHANNELS
+// Soft gate: invite codes unlock a side-loaded catalog (database.beta.js).
+// Not cryptographic — rotate codes when a beta ends.
+// ==========================================================================
+
+const TEST_CHANNEL_STORAGE_KEY = 'kaptain_test_channel';
+const BETA_BANNER_HIDE_KEY = 'kaptain_beta_banner_hidden';
+
+function getTestChannels() {
+  return window.KAPTAIN_TEST_CHANNELS || {};
+}
+
+/**
+ * True only while a test code is active. This is the gate for preview FEATURES,
+ * the way `databaseUrl` is the gate for preview CATALOG data - a test code should
+ * unlock both, and a visitor without one should get behaviour identical to what
+ * shipped before the feature landed.
+ *
+ * Security fixes are deliberately NOT gated on this - they apply to everyone.
+ */
+function isPreviewFeature() {
+  return !!window.KAPTAIN_TEST_CHANNEL;
+}
+window.KaptainPreview = isPreviewFeature;
+
+function getFriendChannels() {
+  const channels = getTestChannels();
+  return Object.keys(channels)
+    .map((k) => channels[k])
+    .filter((ch) => ch && ch.friendPack);
+}
+
+function showFriendsOfKaptainChooser() {
+  const existing = document.getElementById('friends-chooser-overlay');
+  if (existing) existing.remove();
+
+  const friends = getFriendChannels();
+  const cards = friends.length
+    ? friends.map((ch) => {
+        const name = (ch.friendPack && ch.friendPack.creatorName) || ch.label || ch.id;
+        const blurb = ch.blurb || '';
+        return `<button type="button" class="friends-chooser-card" data-friend-code="${escapeHtmlBeta(ch.id)}">
+          <span class="friends-chooser-name">${escapeHtmlBeta(name)}</span>
+          <span class="friends-chooser-blurb">${escapeHtmlBeta(blurb)}</span>
+        </button>`;
+      }).join('')
+    : '<p class="friends-chooser-empty">No friend collections are available yet.</p>';
+
+  const overlay = document.createElement('div');
+  overlay.id = 'friends-chooser-overlay';
+  overlay.className = 'popup-overlay friends-chooser-overlay';
+  overlay.innerHTML = `
+    <div class="popup-panel friends-chooser-panel" role="dialog" aria-modal="true" aria-labelledby="friends-chooser-title">
+      <h3 class="popup-title" id="friends-chooser-title">Friends of Kaptain</h3>
+      <p class="friends-chooser-intro">Browse collections from other creators with the same picker and Send to Nuvio flow. Their lists stay as they built them. This tool handles the setup.</p>
+      <div class="friends-chooser-list">${cards}</div>
+      <button type="button" class="bc-choice-cancel" id="friends-chooser-close">Back</button>
+    </div>`;
+  document.body.appendChild(overlay);
+  void overlay.offsetHeight;
+  overlay.classList.add('open');
+
+  const close = () => {
+    overlay.classList.remove('open');
+    setTimeout(() => overlay.remove(), 180);
+  };
+  overlay.querySelector('#friends-chooser-close')?.addEventListener('click', close);
+  overlay.addEventListener('click', (e) => { if (e.target === overlay) close(); });
+  overlay.querySelectorAll('[data-friend-code]').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      const code = btn.getAttribute('data-friend-code');
+      const channel = lookupTestChannel(code);
+      if (!channel) {
+        showToast?.('That friend collection isn’t available.', 'error');
+        return;
+      }
+      try {
+        btn.disabled = true;
+        setBetaBannerSessionHidden(false);
+        await activateTestChannel(channel, { reloadIfNeeded: true, showNotes: true });
+        close();
+      } catch (err) {
+        console.error(err);
+        showToast(err.message || 'Could not load friend collection.', 'error');
+        btn.disabled = false;
+      }
+    });
+  });
+  document.addEventListener('keydown', function onEsc(e) {
+    if (e.key === 'Escape') { close(); document.removeEventListener('keydown', onEsc); }
+  });
+}
+
+function isBetaBannerSessionHidden() {
+  try { return sessionStorage.getItem(BETA_BANNER_HIDE_KEY) === '1'; } catch (e) { return false; }
+}
+
+function setBetaBannerSessionHidden(hidden) {
+  try {
+    if (hidden) sessionStorage.setItem(BETA_BANNER_HIDE_KEY, '1');
+    else sessionStorage.removeItem(BETA_BANNER_HIDE_KEY);
+  } catch (e) {}
+}
+
+function getBetaBannerEl() {
+  return document.getElementById('title-screen-beta-indicator')
+    || document.getElementById('kaptain-beta-banner');
+}
+
+function syncBetaBannerHeight() {
+  const banner = getBetaBannerEl();
+  const visible = !!(banner && !banner.hidden && document.body.classList.contains('kaptain-beta-active'));
+  const h = visible ? Math.ceil(banner.getBoundingClientRect().height) : 0;
+  document.documentElement.style.setProperty('--kaptain-beta-banner-height', `${h}px`);
+}
+
+function normalizeTestCode(raw) {
+  return String(raw || '').trim().toUpperCase().replace(/\s+/g, '');
+}
+
+function lookupTestChannel(code) {
+  const key = normalizeTestCode(code);
+  if (!key) return null;
+  const channels = getTestChannels();
+  return channels[key] || null;
+}
+
+/** Beta is session-only — refresh returns to live. Clear any leftover key. */
+function clearStoredTestChannel() {
+  try { localStorage.removeItem(TEST_CHANNEL_STORAGE_KEY); } catch (e) {}
+}
+
+function loadScriptOnce(url) {
+  return new Promise((resolve, reject) => {
+    const existing = document.querySelector(`script[data-kaptain-channel-src="${url}"]`);
+    if (existing) {
+      resolve();
+      return;
+    }
+    const s = document.createElement('script');
+    s.src = url + (url.includes('?') ? '&' : '?') + 'v=' + (window.KAPTAIN_ASSET_VERSION || Date.now());
+    s.async = false;
+    s.dataset.kaptainChannelSrc = url;
+    s.onload = () => resolve();
+    s.onerror = () => reject(new Error('Could not load preview catalog: ' + url));
+    document.head.appendChild(s);
+  });
+}
+
+async function activateTestChannel(channel, { reloadIfNeeded = false, showNotes = false } = {}) {
+  if (!channel || !channel.databaseUrl) throw new Error('Unknown test channel');
+  await loadScriptOnce(channel.databaseUrl);
+  if (!window.NUVIO_DATABASE || !Array.isArray(window.NUVIO_DATABASE) || !window.NUVIO_DATABASE.length) {
+    throw new Error('Preview catalog failed to load');
+  }
+  window.KAPTAIN_TEST_CHANNEL = channel;
+  window.KAPTAIN_CATALOG_TEMPLATE_URL = channel.templateUrl || null;
+  clearStoredTestChannel();
+  updateBetaBanner();
+  applyFriendTitleBranding(channel);
+  if (reloadIfNeeded) {
+    initializeDatabase();
+  }
+  if (showNotes) {
+    if (channel.friendPack) {
+      await playFriendIntroHero(channel);
+    }
+    showBetaPatchNotes(channel);
+  }
+  return channel;
+}
+
+function applyFriendTitleBranding(channel) {
+  const logo = document.querySelector('.title-screen-logo');
+  const tag = document.querySelector('.title-screen-tagline');
+  if (!channel || !channel.friendPack) return;
+  const creator = channel.friendPack.creatorName || channel.label || 'Friend';
+  const collectionLabel = channel.label || `${creator} Collection`;
+  if (logo) logo.innerHTML = `Friends of Kaptain <span>${escapeHtml(collectionLabel)}</span>`;
+  if (tag) tag.textContent = channel.blurb || `${collectionLabel}, ready to browse and send to Nuvio.`;
+}
+
+/** Dark glass intro: Kaptain from the left, friend from the right, then notes. */
+function playFriendIntroHero(channel) {
+  return new Promise((resolve) => {
+    const existing = document.getElementById('friend-intro-overlay');
+    if (existing) existing.remove();
+
+    const creator = (channel.friendPack && channel.friendPack.creatorName) || channel.label || 'Friend';
+    const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    const overlay = document.createElement('div');
+    overlay.id = 'friend-intro-overlay';
+    overlay.className = 'friend-intro-overlay' + (reduceMotion ? ' friend-intro-reduced' : '');
+    overlay.setAttribute('role', 'presentation');
+    overlay.innerHTML = `
+      <div class="friend-intro-stage">
+        <div class="friend-intro-orb friend-intro-orb-a" aria-hidden="true"></div>
+        <div class="friend-intro-orb friend-intro-orb-b" aria-hidden="true"></div>
+        <div class="friend-intro-rays" aria-hidden="true"></div>
+        <div class="friend-intro-glass">
+          <p class="friend-intro-eyebrow">Friends of Kaptain</p>
+          <div class="friend-intro-names" aria-hidden="true">
+            <span class="friend-intro-name friend-intro-kaptain">Kaptain</span>
+            <span class="friend-intro-plus"><span class="friend-intro-plus-core">+</span></span>
+            <span class="friend-intro-name friend-intro-friend">${escapeHtmlBeta(creator)}</span>
+          </div>
+          <div class="friend-intro-underline" aria-hidden="true"></div>
+          <p class="friend-intro-sr">Kaptain + ${escapeHtmlBeta(creator)}</p>
+        </div>
+      </div>`;
+    document.body.appendChild(overlay);
+    void overlay.offsetHeight;
+    overlay.classList.add('friend-intro-play');
+
+    const finish = () => {
+      overlay.classList.add('friend-intro-out');
+      const done = () => {
+        overlay.remove();
+        resolve();
+      };
+      if (reduceMotion) {
+        done();
+        return;
+      }
+      window.setTimeout(done, 520);
+    };
+
+    // Slide-in (~1.15s) + meet glow hold (~0.95s), then fade into description.
+    const totalMs = reduceMotion ? 80 : 2300;
+    window.setTimeout(finish, totalMs);
+  });
+}
+
+function exitTestChannel() {
+  clearStoredTestChannel();
+  setBetaBannerSessionHidden(false);
+  window.KAPTAIN_TEST_CHANNEL = null;
+  window.KAPTAIN_CATALOG_TEMPLATE_URL = null;
+  const url = new URL(window.location.href);
+  url.searchParams.delete('test');
+  url.searchParams.delete('code');
+  url.searchParams.delete('beta');
+  window.location.href = url.pathname + url.search + url.hash;
+}
+
+async function maybeActivateTestChannelFromUrl() {
+  clearStoredTestChannel();
+  const params = new URLSearchParams(window.location.search);
+  let code = params.get('test') || params.get('code') || params.get('beta');
+  if (!code) return null;
+  // Migrate retired codes (MEGA87 → MEGA090)
+  if (normalizeTestCode(code) === 'MEGA87') code = 'MEGA090';
+  const channel = lookupTestChannel(code);
+  if (!channel) {
+    setTestCodeStatus('That code isn’t active. Check the post and try again.', true);
+    return null;
+  }
+  try {
+    await activateTestChannel(channel, { showNotes: true });
+    const url = new URL(window.location.href);
+    url.searchParams.delete('test');
+    url.searchParams.delete('code');
+    url.searchParams.delete('beta');
+    window.history.replaceState({}, '', url.pathname + url.search + url.hash);
+    return channel;
+  } catch (err) {
+    console.error(err);
+    setTestCodeStatus(err.message || 'Could not unlock preview.', true);
+    return null;
+  }
+}
+
+function setTestCodeStatus(msg, isError) {
+  const el = document.getElementById('title-test-code-status');
+  if (!el) return;
+  el.textContent = msg || '';
+  el.classList.toggle('is-error', !!isError);
+  el.classList.toggle('is-ok', !!msg && !isError);
+}
+
+function updateBetaBanner() {
+  const banner = getBetaBannerEl();
+  const text = document.getElementById('kaptain-beta-banner-text')
+    || banner?.querySelector('.kaptain-beta-banner-text, .title-beta-text');
+  const pill = document.getElementById('kaptain-beta-pill')
+    || banner?.querySelector('.kaptain-beta-pill, .kaptain-beta-badge');
+  const exitBtn = document.getElementById('kaptain-beta-exit');
+  const channel = window.KAPTAIN_TEST_CHANNEL;
+  if (!banner) return;
+  if (!channel) {
+    banner.hidden = true;
+    banner.style.display = 'none';
+    document.body.classList.remove('kaptain-beta-active');
+    document.body.classList.remove('kaptain-friend-active');
+    setBetaBannerSessionHidden(false);
+    syncBetaBannerHeight();
+    return;
+  }
+  const isFriend = !!(channel.friendPack);
+  const hideBanner = isBetaBannerSessionHidden();
+  banner.hidden = hideBanner;
+  banner.style.display = hideBanner ? 'none' : '';
+  document.body.classList.toggle('kaptain-beta-active', !hideBanner);
+  document.body.classList.toggle('kaptain-friend-active', isFriend && !hideBanner);
+  if (pill) {
+    const ver = channel.versionLabel || channel.label || channel.id;
+    pill.textContent = isFriend ? 'FRIENDS' : (ver ? `${ver} Preview` : 'Preview');
+  }
+  if (exitBtn) exitBtn.textContent = isFriend ? 'Exit Friends' : 'Exit beta';
+  if (text) {
+    const ver = channel.versionLabel || channel.label || channel.id;
+    const creator = (channel.friendPack && channel.friendPack.creatorName) || '';
+    // Keep the row short on phones so it never covers hamburger / account.
+    const narrow = window.matchMedia && window.matchMedia('(max-width: 600px)').matches;
+    if (isFriend) {
+      const collectionLabel = channel.label || (creator ? `${creator} Collection` : ver);
+      text.textContent = narrow
+        ? `${collectionLabel}: sending uses this pack`
+        : `${collectionLabel}: Friends of Kaptain. Sending to Nuvio uses this pack.`;
+      text.title = text.textContent;
+    } else {
+      text.textContent = narrow
+        ? `${ver} preview: sending uses this build`
+        : `${ver} preview: sending to Nuvio uses this build.`;
+      text.title = `${ver} preview: sending to Nuvio uses this build.`;
+    }
+  }
+  requestAnimationFrame(() => {
+    syncBetaBannerHeight();
+    requestAnimationFrame(syncBetaBannerHeight);
+  });
+}
+
+function hideBetaBannerForSession() {
+  if (!window.KAPTAIN_TEST_CHANNEL) return;
+  setBetaBannerSessionHidden(true);
+  updateBetaBanner();
+}
+
+function escapeHtmlBeta(s) {
+  return String(s || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+function showBetaPatchNotes(channel) {
+  const notes = channel && channel.patchNotes;
+  if (!notes) return;
+  const existing = document.getElementById('beta-notes-overlay');
+  if (existing) existing.remove();
+
+  const bullets = (notes.bullets || [])
+    .map((b) => `<li>${escapeHtmlBeta(b)}</li>`)
+    .join('');
+  const dmUrl = channel.redditFeedbackUrl
+    || 'https://www.reddit.com/message/compose/?to=KforKaptain&subject=Mega%20beta%20feedback';
+  const communityUrl = channel.redditCommunityUrl || 'https://www.reddit.com/r/Nuvio/';
+
+  const overlay = document.createElement('div');
+  overlay.id = 'beta-notes-overlay';
+  overlay.className = 'popup-overlay beta-notes-overlay';
+  overlay.innerHTML = `
+    <div class="popup-panel beta-notes-panel" role="dialog" aria-modal="true" aria-labelledby="beta-notes-title">
+      <div class="beta-notes-brand" aria-hidden="true">
+        <img class="beta-notes-logo" src="assets/kaptain-logo.png" alt="">
+      </div>
+      <h3 class="popup-title" id="beta-notes-title">${escapeHtmlBeta(notes.title || 'Beta patch notes')}</h3>
+      <p class="beta-notes-intro">${escapeHtmlBeta(notes.intro || '')}</p>
+      <ul class="beta-notes-list">${bullets}</ul>
+      <p class="beta-notes-feedback">${escapeHtmlBeta(notes.feedback || '')}</p>
+      <div class="beta-notes-contacts">
+        <a class="beta-notes-link" href="${escapeHtmlBeta(dmUrl)}" target="_blank" rel="noopener">Message u/KforKaptain</a>
+        <a class="beta-notes-link" href="${escapeHtmlBeta(communityUrl)}" target="_blank" rel="noopener">r/Nuvio</a>
+      </div>
+      <button type="button" class="bc-choice-cancel beta-notes-close" id="beta-notes-close">Got it</button>
+    </div>`;
+  document.body.appendChild(overlay);
+  void overlay.offsetHeight;
+  overlay.classList.add('open');
+
+  const close = () => {
+    overlay.classList.remove('open');
+    setTimeout(() => overlay.remove(), 180);
+  };
+  overlay.querySelector('#beta-notes-close')?.addEventListener('click', close);
+  overlay.addEventListener('click', (e) => { if (e.target === overlay) close(); });
+  document.addEventListener('keydown', function onEsc(e) {
+    if (e.key === 'Escape') { close(); document.removeEventListener('keydown', onEsc); }
+  });
+  overlay.querySelector('#beta-notes-close')?.focus();
+}
+
+function bindTestCodeUi() {
+  const toggle = document.getElementById('title-test-code-toggle');
+  const panel = document.getElementById('title-test-code-panel');
+  const input = document.getElementById('title-test-code-input');
+  const applyBtn = document.getElementById('title-test-code-apply');
+  const exitBtn = document.getElementById('kaptain-beta-exit');
+  const notesBtn = document.getElementById('kaptain-beta-notes');
+  const hideBtn = document.getElementById('kaptain-beta-hide');
+
+  // Never pre-fill the code field
+  if (input) input.value = '';
+
+  toggle?.addEventListener('click', () => {
+    const open = panel && !panel.hidden;
+    if (panel) panel.hidden = open;
+    toggle.setAttribute('aria-expanded', open ? 'false' : 'true');
+    if (!open) {
+      if (input) input.value = '';
+      input?.focus();
+    }
+  });
+
+  async function tryUnlock() {
+    const code = input?.value;
+    const channel = lookupTestChannel(code);
+    if (!channel) {
+      setTestCodeStatus('That code isn’t active. Check the post and try again.', true);
+      return;
+    }
+    setTestCodeStatus('Loading preview…', false);
+    try {
+      setBetaBannerSessionHidden(false);
+      await activateTestChannel(channel, { reloadIfNeeded: true, showNotes: true });
+      setTestCodeStatus(`Unlocked: ${channel.label || channel.id}`, false);
+      if (input) input.value = '';
+    } catch (err) {
+      setTestCodeStatus(err.message || 'Could not unlock preview.', true);
+    }
+  }
+
+  applyBtn?.addEventListener('click', () => { tryUnlock(); });
+  input?.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      tryUnlock();
+    }
+  });
+  exitBtn?.addEventListener('click', () => exitTestChannel());
+  notesBtn?.addEventListener('click', () => {
+    if (window.KAPTAIN_TEST_CHANNEL) showBetaPatchNotes(window.KAPTAIN_TEST_CHANNEL);
+  });
+  hideBtn?.addEventListener('click', () => hideBetaBannerForSession());
+  window.addEventListener('resize', () => {
+    if (window.KAPTAIN_TEST_CHANNEL) updateBetaBanner();
+    else syncBetaBannerHeight();
+  });
+}
+
+function initializeDatabase() {
+  if (window.NUVIO_DATABASE && Array.isArray(window.NUVIO_DATABASE)) {
+    database = window.NUVIO_DATABASE;
+    // Actualiser uniquement les selections annuelles, jamais les decennies historiques.
+    window.KaptainCatalogUtils?.updateRollingYearFilters(database);
+    // La base préconstruite a francisé par erreur la marque TV « History ».
+    // Cette correction ne touche qu'au titre affiché de ce dossier précis.
+    const networks = database.find(c => c.id === '27bda92a-f626-4093-a2ba-0a32dc09437a');
+    const historyChannel = networks?.folders?.find(f => f.id === 'folder-I7A4OFK0');
+    if (historyChannel && historyChannel.title === 'Histoire') historyChannel.title = 'History';
+    const basedOn = database.find(c => c.id === 'collection-BASEDON1');
+    const theatre = basedOn?.folders?.find(f => f.id === 'folder-BSPLAY01');
+    if (theatre) theatre.title = 'Pièces de théâtre';
+window.collectionData = database;
+  } else {
+    database = [];
+  }
+
+  // Initialize: everything selected by default (Full Mega Bundle)
+  initializeSelections();
+
+  // Render UI — the preview emulator is the main (and only) view now.
+  renderSidebar();
+  isPreviewActive = true;
+  isGuideActive = false;
+  switchCategory(-2);
+  updateControlCenterStats();
+
+  // Title screen is the first thing every visitor sees; it offers the
+  // walkthrough or a straight path in, so nothing auto-starts the tour anymore.
+  showTitleScreen();
+}
+
+function initializeSelections() {
+  selectedMap = {}; window.selectedMap = selectedMap;
+  database.forEach(category => {
+    if (!category.folders) return;
+    category.folders.forEach(folder => {
+      const folderKey = getFolderKey(folder);
+      selectedMap[folderKey] = {};
+      if (folder.sources) {
+        folder.sources.forEach(source => {
+          selectedMap[folderKey][getSourceKey(source)] = true;
+        });
+      }
+    });
+  });
+}
+
+function getFolderKey(folder) {
+  return folder.id || folder.title;
+}
+
+function getSourceKey(source) {
+  return source.title || source.catalogId || "Default Source";
+}
+
+// ==========================================================================
+// 1b. ORDERING HELPERS (sort + manual reorder)
+// ==========================================================================
+
+// Move the item at `fromIdx` one slot in `dir` (-1 up, +1 down). Returns the
+// item's new index (unchanged if it was already at the boundary).
+function moveItem(arr, fromIdx, dir) {
+  const toIdx = fromIdx + dir;
+  if (!Array.isArray(arr) || toIdx < 0 || toIdx >= arr.length) return fromIdx;
+  const [item] = arr.splice(fromIdx, 1);
+  arr.splice(toIdx, 0, item);
+  return toIdx;
+}
+
+// Stable A–Z ('az') / Z–A ('za') sort on `.title`. Mutates in place.
+function sortByTitle(arr, dir) {
+  if (!Array.isArray(arr)) return;
+  const factor = dir === 'za' ? -1 : 1;
+  arr.sort((a, b) =>
+    factor * String(a.title || '').localeCompare(String(b.title || ''), undefined, { sensitivity: 'base' })
+  );
+}
+
+// Majors first, then the rest A–Z. Used by Guided Customize, Quick Editor, and folder-sort.
+window.POPULAR_SERVICES_ORDER = [
+  'Netflix', 'Prime Video', 'Disney+', 'HBO Max', 'Apple TV+',
+  'Paramount+', 'Hulu', 'Peacock', 'Crunchyroll', 'Starz'
+];
+
+function sortStreamingByPopular(arr) {
+  if (!Array.isArray(arr)) return arr;
+  const rank = new Map(window.POPULAR_SERVICES_ORDER.map((t, i) => [t, i]));
+  arr.sort((a, b) => {
+    const ra = rank.has(a.title) ? rank.get(a.title) : 1000;
+    const rb = rank.has(b.title) ? rank.get(b.title) : 1000;
+    if (ra !== rb) return ra - rb;
+    return String(a.title || '').localeCompare(String(b.title || ''), undefined, { sensitivity: 'base' });
+  });
+  return arr;
+}
+window.sortStreamingByPopular = sortStreamingByPopular;
+
+// Small up/down arrow control. `disableUp`/`disableDown` grey out the ends.
+function reorderArrowsHtml(disableUp, disableDown) {
+  return `
+    <div class="reorder-arrows">
+      <button class="reorder-arrow" data-dir="-1" ${disableUp ? 'disabled' : ''} title="Move up" aria-label="Move up">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+      </button>
+      <button class="reorder-arrow" data-dir="1" ${disableDown ? 'disabled' : ''} title="Move down" aria-label="Move down">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+      </button>
+    </div>`;
+}
+
+// ==========================================================================
+// 2. SIDEBAR
+// ==========================================================================
+
+// Sidebar category grouping — purely a rendering-layer cluster, no change to
+// `database` itself. Keyed by the real collection ids (not titles, which can
+// change) so this survives Studio re-publishes as long as ids stay stable.
+// NOTE: groups must stay contiguous in `database`'s actual default order
+// (Discover, Streaming Services, Networks, Genres, Moods & Vibes, Film
+// Collections, Actors, Legendary Directors, Studios, By Decade, Anime,
+// Awards, International Cinema) or categoryGroupsAreContiguous() below will
+// correctly refuse to render them. An earlier draft grouped By Decade/Anime/
+// International Cinema with Genres/Moods, which isn't where they actually
+// sit in the array — 5 groups here instead of 4 to keep both halves honest.
+const CATEGORY_GROUPS = {
+  'collection-UGED6TEZ': 'Start Here',            // Discover
+  'collection-ERFS5GWK': 'Browse by Source',       // Streaming Services
+  '27bda92a-f626-4093-a2ba-0a32dc09437a': 'Browse by Source', // Networks
+  'collection-HFTCV0TA': 'Browse by Taste',        // Genres
+  'collection-3UOL2OFV': 'Browse by Taste',        // Moods & Vibes
+  'collection-BASEDON1': 'Browse by Taste',        // Based on
+  'collection-8EYK6R4X': 'Curated Picks',          // Film Collections
+  'collection-1IPJJWUO': 'Curated Picks',          // Actors
+  'collection-13LJW3A6': 'Curated Picks',          // Legendary Directors
+  'collection-XB14SDA2': 'Curated Picks',          // Studios
+  'collection-Y2HQBZ5I': 'Explore More',           // By Decade
+  'collection-b530d60c': 'Explore More',           // Anime
+  'collection-56d0517f': 'Explore More',           // Awards
+  'collection-R69FJM5K': 'Explore More',           // International Cinema
+};
+
+// Group headers are only trustworthy when every category belonging to a
+// group is still contiguous in the current order. A-Z/Z-A sorting or manual
+// drag-reordering can freely scramble that — rather than show a header that
+// lies about what's under it, this bails out to the old flat list. An
+// unrecognized category id (a future Studio-added section) does the same.
+function categoryGroupsAreContiguous(categories) {
+  const seenGroups = new Set();
+  let lastGroup = null;
+  for (const cat of categories) {
+    const group = CATEGORY_GROUPS[cat && cat.id];
+    if (!group) return false;
+    if (group !== lastGroup) {
+      if (seenGroups.has(group)) return false; // same group reappearing after a gap
+      seenGroups.add(group);
+      lastGroup = group;
+    }
+  }
+  return true;
+}
+
+function renderSidebar() {
+  const scroller = document.getElementById('category-scroller');
+  if (!scroller) return;
+
+  scroller.innerHTML = '';
+
+  // Collection-level sort toolbar
+  const toolbar = document.createElement('div');
+  toolbar.className = 'sidebar-sort-toolbar';
+  toolbar.innerHTML = `
+    <span class="sidebar-sort-label">Sections</span>
+    <select id="collection-sort" class="topbar-select sidebar-sort-select" title="Sort sections">
+      <option value="custom">Custom order</option>
+      <option value="az">A–Z</option>
+      <option value="za">Z–A</option>
+    </select>
+  `;
+  scroller.appendChild(toolbar);
+  const collSortSelect = toolbar.querySelector('#collection-sort');
+  collSortSelect.addEventListener('change', () => {
+    if (collSortSelect.value === 'az' || collSortSelect.value === 'za') {
+      const activeCat = database[currentCategoryIdx];
+      sortByTitle(database, collSortSelect.value);
+      // Keep the same section highlighted after a sort
+      if (activeCat) {
+        const newIdx = database.indexOf(activeCat);
+        if (newIdx >= 0) currentCategoryIdx = newIdx;
+      }
+      renderSidebar();
+      if (isPreviewActive) renderPreviewCollection();   // reorder the rows too
+    }
+  });
+
+  const showGroups = categoryGroupsAreContiguous(database);
+  let lastRenderedGroup = null;
+
+  database.forEach((category, idx) => {
+    if (showGroups) {
+      const group = CATEGORY_GROUPS[category.id];
+      if (group !== lastRenderedGroup) {
+        const groupLabel = document.createElement('div');
+        groupLabel.className = 'cat-nav-group-label';
+        groupLabel.textContent = group;
+        scroller.appendChild(groupLabel);
+        lastRenderedGroup = group;
+      }
+    }
+
+    const stats = getCategorySelectionStats(idx);
+    const catNavItem = document.createElement('button');
+    catNavItem.className = `cat-nav-item ${(!isGuideActive && idx === activeCatIdx) ? 'active' : ''}`;
+    catNavItem.title = category.title;
+
+    const emoji = getCategoryEmoji(category.title);
+
+    // Determine toggle state
+    let toggleClass = '';
+    let toggleIcon = '';
+    if (stats.selectedFolders === stats.totalFolders && stats.totalFolders > 0) {
+      toggleClass = 'checked';
+      toggleIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
+    } else if (stats.selectedFolders > 0) {
+      toggleClass = 'partial';
+      toggleIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><line x1="6" y1="12" x2="18" y2="12"></line></svg>`;
+    }
+
+    // Progress ring: fills proportionally to how much of the section is selected.
+    const ringC = 56.5;   // 2πr for r=9
+    const ringPct = stats.totalFolders ? stats.selectedFolders / stats.totalFolders : 0;
+    const ringOffset = ringC * (1 - ringPct);
+    const ringHtml = `
+      <svg class="cat-ring ${ringPct >= 1 ? 'full' : ''}" viewBox="0 0 24 24" aria-hidden="true">
+        <circle class="cat-ring-track" cx="12" cy="12" r="9"></circle>
+        <circle class="cat-ring-fill" cx="12" cy="12" r="9" style="stroke-dasharray:${ringC};stroke-dashoffset:${ringOffset};"></circle>
+      </svg>`;
+
+    const rightGroup = reorderMode
+      ? `<div class="cat-right-group">${reorderArrowsHtml(idx === 0, idx === database.length - 1)}</div>`
+      : `<div class="cat-right-group">
+           <span class="cat-badge" title="${stats.selectedFolders} of ${stats.totalFolders} folders selected">${ringHtml}${stats.selectedFolders}/${stats.totalFolders}</span>
+           <div class="cat-toggle ${toggleClass}" data-cat-idx="${idx}" title="Toggle all folders in this section">
+             ${toggleIcon}
+           </div>
+         </div>`;
+
+    catNavItem.innerHTML = `
+      <div class="cat-info-combo">
+        <span class="cat-emoji">${emoji}</span>
+        <span class="cat-name">${category.title}</span>
+      </div>
+      ${rightGroup}
+    `;
+
+    // Click category name → jump to that row in the preview
+    catNavItem.addEventListener('click', (e) => {
+      // Don't navigate if they clicked the toggle or a reorder arrow
+      if (e.target.closest('.cat-toggle') || e.target.closest('.reorder-arrows')) return;
+      jumpToCategory(idx);
+    });
+
+    if (reorderMode) {
+      catNavItem.querySelectorAll('.reorder-arrow').forEach((btn) => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          if (btn.disabled) return;
+          const dir = parseInt(btn.getAttribute('data-dir'), 10);
+          const newIdx = moveItem(database, idx, dir);
+          activeCatIdx = newIdx;             // keep the moved section highlighted
+          renderSidebar();
+          if (isPreviewActive) renderPreviewCollection();   // move the row to match
+          if (isSimpleEditorOpen()) renderSimpleCollection();
+          notifyAccountSave();
+        });
+      });
+    } else {
+      // Click toggle → bulk select/deselect
+      const toggleEl = catNavItem.querySelector('.cat-toggle');
+      toggleEl.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const allSelected = stats.selectedFolders === stats.totalFolders;
+        toggleCategorySelection(idx, !allSelected);
+      });
+    }
+
+    scroller.appendChild(catNavItem);
+  });
+
+}
+
+function getCategorySelectionStats(categoryIdx) {
+  const category = database[categoryIdx];
+  if (!category || !category.folders) return { totalFolders: 0, selectedFolders: 0, totalSources: 0, selectedSources: 0 };
+
+  let totalFolders = category.folders.length;
+  let selectedFolders = 0;
+  let totalSources = 0;
+  let selectedSources = 0;
+
+  category.folders.forEach(folder => {
+    const folderKey = getFolderKey(folder);
+    const sources = folder.sources || [];
+    totalSources += sources.length;
+
+    let folderHasActive = false;
+    sources.forEach(source => {
+      const sourceKey = getSourceKey(source);
+      if (selectedMap[folderKey] && selectedMap[folderKey][sourceKey]) {
+        selectedSources++;
+        folderHasActive = true;
+      }
+    });
+
+    if (folderHasActive) selectedFolders++;
+  });
+
+  return { totalFolders, selectedFolders, totalSources, selectedSources };
+}
+
+function toggleCategorySelection(categoryIdx, selectAll) {
+  const category = database[categoryIdx];
+  if (!category || !category.folders) return;
+
+  category.folders.forEach(folder => {
+    const folderKey = getFolderKey(folder);
+    if (!selectedMap[folderKey]) selectedMap[folderKey] = {};
+    if (folder.sources) {
+      folder.sources.forEach(source => {
+        selectedMap[folderKey][getSourceKey(source)] = selectAll;
+      });
+    }
+  });
+
+  renderSidebar();
+  if (isPreviewActive) {
+    // Refresh just this category's cards in place so the scroll position holds.
+    const row = document.getElementById('nv-cat-' + categoryIdx);
+    if (row) row.querySelectorAll('.nv-card').forEach(c => { if (c.__folder) refreshCardState(c, c.__folder); });
+  } else if (!isGuideActive && currentCategoryIdx === categoryIdx) {
+    renderFolderGrid();
+  }
+  updateControlCenterStats();
+  if (isSimpleEditorOpen()) renderSimpleCollection();
+  notifyAccountSave();
+}
+
+// ---- Bulk genre selection across the whole collection ----
+// Two different shapes carry genre in this data, and a genre toggle needs to
+// hit both:
+//   1. The "Genres" category has one whole FOLDER per genre ("Horror") — no
+//      per-source split, the folder itself is the unit. This category is
+//      also the canonical genre list — used below to tell a real genre like
+//      "Horror Movies" apart from a same-shaped but non-genre source like
+//      "New Movies" or "Top Rated Series".
+//   2. "Streaming Services" (Netflix, Apple TV+, etc.) folders contain
+//      per-genre SOURCES inside them ("Horror Movies", "Horror Series") —
+//      toggling a genre there must only touch those sources, not the whole
+//      service folder (which covers many genres at once).
+const GENRE_SOURCE_RE = /^(.+?) (Movies|Series)$/;
+
+function getCanonicalGenreNames() {
+  const genresCategory = database.find(c => c.title === 'Genres');
+  return new Set((genresCategory && genresCategory.folders || []).map(f => f.title));
+}
+
+function getAllGenres() {
+  const canonical = getCanonicalGenreNames();
+  const genres = new Set(canonical);
+  database.forEach(category => {
+    (category.folders || []).forEach(folder => {
+      (folder.sources || []).forEach(source => {
+        const m = GENRE_SOURCE_RE.exec(source.title || '');
+        if (m && canonical.has(m[1])) genres.add(m[1]);
+      });
+    });
+  });
+  return Array.from(genres).sort((a, b) => a.localeCompare(b));
+}
+
+// Returns { wholeFolders, sourcesByFolder } — wholeFolders are toggled
+// entirely; sourcesByFolder maps folder -> just the matching sources within it.
+function getGenreTargets(genre) {
+  const wholeFolders = [];
+  const sourcesByFolder = [];
+  database.forEach(category => {
+    (category.folders || []).forEach(folder => {
+      if (category.title === 'Genres' && folder.title === genre) {
+        wholeFolders.push(folder);
+        return;
+      }
+      const matches = (folder.sources || []).filter(source => {
+        const m = GENRE_SOURCE_RE.exec(source.title || '');
+        return m && m[1] === genre;
+      });
+      if (matches.length) sourcesByFolder.push({ folder, sources: matches });
+    });
+  });
+  return { wholeFolders, sourcesByFolder };
+}
+
+// true = everything matching is fully selected, false = fully off,
+// null = mixed — lets the UI show an indeterminate checkbox state.
+function getGenreSelectionState(genre) {
+  const { wholeFolders, sourcesByFolder } = getGenreTargets(genre);
+  let anyOn = false, anyOff = false;
+  wholeFolders.forEach(folder => {
+    const stats = getFolderSourceCountStats(folder);
+    if (stats.active > 0) anyOn = true;
+    if (stats.active < stats.total) anyOff = true;
+  });
+  sourcesByFolder.forEach(({ folder, sources }) => {
+    const folderKey = getFolderKey(folder);
+    sources.forEach(source => {
+      const on = !!(selectedMap[folderKey] && selectedMap[folderKey][getSourceKey(source)]);
+      if (on) anyOn = true; else anyOff = true;
+    });
+  });
+  if (anyOn && anyOff) return null;
+  return anyOn;
+}
+
+function applyGenreToggle(genre, on) {
+  const { wholeFolders, sourcesByFolder } = getGenreTargets(genre);
+  wholeFolders.forEach(folder => {
+    const folderKey = getFolderKey(folder);
+    if (!selectedMap[folderKey]) selectedMap[folderKey] = {};
+    (folder.sources || []).forEach(source => {
+      selectedMap[folderKey][getSourceKey(source)] = on;
+    });
+  });
+  sourcesByFolder.forEach(({ folder, sources }) => {
+    const folderKey = getFolderKey(folder);
+    if (!selectedMap[folderKey]) selectedMap[folderKey] = {};
+    sources.forEach(source => { selectedMap[folderKey][getSourceKey(source)] = on; });
+  });
+  renderSidebar();
+  if (isPreviewActive) renderPreviewCollection();
+  else if (!isGuideActive) renderFolderGrid();
+  updateControlCenterStats();
+  if (isSimpleEditorOpen()) renderSimpleCollection();
+  notifyAccountSave();
+}
+// kept on purpose — some people browse by genre, some by poster): 11
+// genre-bucket folders (many franchise sources each) and ~189 standalone
+// one-franchise folders. A franchise that's properly routed into its genre
+// bucket also still has its own standalone folder, so the same tmdbId can
+// appear in both places — this finds those exact duplicates so a user can
+// bulk-hide whichever side they don't want cluttering their selection.
+function getFilmCollectionDuplicates() {
+  const fc = database.find(c => c.title === 'Film Collections');
+  if (!fc) return { bucketDuplicates: [], standaloneDuplicates: [] };
+  const bucketFolders = [];
+  const standaloneByTmdbId = new Map();
+  (fc.folders || []).forEach(folder => {
+    if ((folder.sources || []).length > 1) {
+      bucketFolders.push(folder);
+    } else {
+      const src = (folder.sources || [])[0];
+      if (src && src.tmdbId != null) {
+        if (!standaloneByTmdbId.has(src.tmdbId)) standaloneByTmdbId.set(src.tmdbId, []);
+        standaloneByTmdbId.get(src.tmdbId).push(folder);
+      }
+    }
+  });
+  const bucketDuplicates = []; // { folder, source } pairs inside genre buckets
+  const standaloneDuplicates = []; // standalone folders that are also bucketed
+  const seenStandaloneKeys = new Set();
+  bucketFolders.forEach(folder => {
+    (folder.sources || []).forEach(source => {
+      if (source.tmdbId != null && standaloneByTmdbId.has(source.tmdbId)) {
+        bucketDuplicates.push({ folder, source });
+        standaloneByTmdbId.get(source.tmdbId).forEach(standaloneFolder => {
+          const key = getFolderKey(standaloneFolder);
+          if (!seenStandaloneKeys.has(key)) {
+            seenStandaloneKeys.add(key);
+            standaloneDuplicates.push(standaloneFolder);
+          }
+        });
+      }
+    });
+  });
+  return { bucketDuplicates, standaloneDuplicates };
+}
+
+function refreshAfterBulkSelectionChange() {
+  renderSidebar();
+  if (isPreviewActive) renderPreviewCollection();
+  else if (!isGuideActive) renderFolderGrid();
+  updateControlCenterStats();
+}
+
+function hideFilmCollectionBucketDuplicates() {
+  const { bucketDuplicates } = getFilmCollectionDuplicates();
+  bucketDuplicates.forEach(({ folder, source }) => {
+    const folderKey = getFolderKey(folder);
+    if (!selectedMap[folderKey]) selectedMap[folderKey] = {};
+    selectedMap[folderKey][getSourceKey(source)] = false;
+  });
+  refreshAfterBulkSelectionChange();
+}
+
+function hideFilmCollectionStandaloneDuplicates() {
+  const { standaloneDuplicates } = getFilmCollectionDuplicates();
+  standaloneDuplicates.forEach(folder => {
+    const folderKey = getFolderKey(folder);
+    if (!selectedMap[folderKey]) selectedMap[folderKey] = {};
+    (folder.sources || []).forEach(source => { selectedMap[folderKey][getSourceKey(source)] = false; });
+  });
+  refreshAfterBulkSelectionChange();
+}
+
+function getCategoryEmoji(title) {
+  const t = title.toLowerCase();
+  if (t.includes('trending') || t.includes('new')) return '⚡';
+  if (t.includes('streaming') || t.includes('services')) return '🎬';
+  if (t.includes('networks')) return '📺';
+  if (t.includes('genres')) return '🎭';
+  if (t.includes('film') || t.includes('collection')) return '📦';
+  if (t.includes('actor')) return '🌟';
+  if (t.includes('director')) return '🎥';
+  if (t.includes('studio')) return '🏰';
+  if (t.includes('decade') || t.includes('year')) return '📅';
+  if (t.includes('anime')) return '🔥';
+  if (t.includes('award')) return '🏆';
+  if (t.includes('mood')) return '🌈';
+  if (t.includes('based on')) return '📖';
+  return '📁';
+}
+
+// ==========================================================================
+// 3. CATEGORY SWITCH & TOP BAR
+// ==========================================================================
+
+function switchCategory(idx) {
+  currentCategoryIdx = idx;
+  currentSearch = '';
+  updateReorderBanner();
+  // Any view switch tears down the old preview; renderPreviewCollection restarts
+  // the carousel when we land back in preview mode.
+  stopHeroCarousel();
+
+  const searchField = document.getElementById('dashboard-search');
+  if (searchField) searchField.value = '';
+
+  renderSidebar();
+
+  const titleEl = document.getElementById('view-title');
+  const subtitleEl = document.getElementById('view-subtitle');
+  const topBar = document.querySelector('.top-bar');
+  const controlCenter = document.getElementById('control-center-bar');
+  const actionsGroup = document.getElementById('category-actions-group');
+  // Browse-only top-bar controls (search/view-mode/sort/reorder/zoom) are shown
+  // or hidden by a CSS class on the top bar — never inline display — so that
+  // responsive media queries can still collapse non-essential controls.
+  const setMode = (mode) => {
+    if (!topBar) return;
+    topBar.classList.toggle('mode-browse', mode === 'browse');
+    topBar.classList.toggle('mode-preview', mode === 'preview');
+    topBar.classList.toggle('mode-guide', mode === 'guide');
+  };
+
+  if (isPreviewActive) {
+    titleEl.textContent = '';
+    subtitleEl.textContent = '';
+    setMode('preview');
+    // The preview has its own slim Download / Send bar, so hide the editor's
+    // bottom control-center to avoid a duplicate action bar.
+    if (controlCenter) {
+      controlCenter.style.opacity = '0';
+      controlCenter.style.pointerEvents = 'none';
+      const panel = controlCenter.querySelector('.control-center-panel');
+      if (panel) panel.style.pointerEvents = 'none';
+    }
+    if (actionsGroup) actionsGroup.innerHTML = '';
+    renderPreviewCollection();
+  } else {
+    isPreviewActive = false;
+    const category = database[currentCategoryIdx];
+    if (category) {
+      const stats = getCategorySelectionStats(currentCategoryIdx);
+      titleEl.textContent = category.title;
+      subtitleEl.textContent = reorderMode
+        ? 'Reorder mode: use the ▲ ▼ arrows to move sections, folders & sources. Click Reorder again to finish.'
+        : `${stats.selectedFolders} of ${stats.totalFolders} folders selected`;
+
+      if (category.folders && category.folders.length > 0) {
+        setCinematicWallpaper(category.folders[0]);
+      }
+    }
+
+    setMode('browse');
+    if (controlCenter) {
+      controlCenter.style.opacity = '1';
+      controlCenter.style.pointerEvents = 'auto';
+      const panel = controlCenter.querySelector('.control-center-panel');
+      if (panel) panel.style.pointerEvents = '';
+    }
+
+    // Reflect whatever sort was last applied to this category (kept in sync
+    // with the Preview-mode row sort via the shared categorySort map).
+    const folderSort = document.getElementById('folder-sort');
+    if (folderSort) folderSort.value = categorySort[currentCategoryIdx] || 'custom';
+
+    // Render category action buttons
+    renderCategoryActions();
+    renderFolderGrid();
+  }
+}
+
+function renderCategoryActions() {
+  const group = document.getElementById('category-actions-group');
+  if (!group) return;
+
+  const stats = getCategorySelectionStats(currentCategoryIdx);
+
+  group.innerHTML = `
+    <button class="cat-action-btn ${stats.selectedFolders === stats.totalFolders ? 'active-all' : ''}" id="btn-cat-select-all" title="Select all folders in this category">All</button>
+    <button class="cat-action-btn" id="btn-cat-select-none" title="Deselect all folders in this category">None</button>
+  `;
+
+  document.getElementById('btn-cat-select-all').addEventListener('click', () => {
+    toggleCategorySelection(currentCategoryIdx, true);
+    renderCategoryActions();
+    // Update subtitle
+    const stats = getCategorySelectionStats(currentCategoryIdx);
+    const subtitleEl = document.getElementById('view-subtitle');
+    if (subtitleEl) subtitleEl.textContent = `${stats.selectedFolders} of ${stats.totalFolders} folders selected`;
+  });
+
+  document.getElementById('btn-cat-select-none').addEventListener('click', () => {
+    toggleCategorySelection(currentCategoryIdx, false);
+    renderCategoryActions();
+    const stats = getCategorySelectionStats(currentCategoryIdx);
+    const subtitleEl = document.getElementById('view-subtitle');
+    if (subtitleEl) subtitleEl.textContent = `${stats.selectedFolders} of ${stats.totalFolders} folders selected`;
+  });
+}
+
+// ==========================================================================
+// 4. FOLDER GRID RENDERER
+// ==========================================================================
+
+// Escape for safe HTML insertion (folder titles are controlled data, but the
+// search query is user input, so both go through this before highlighting).
+function buildFolderDescription(folder, category) {
+  const sources = folder.sources || [];
+  const providers = [...new Set(sources.map(providerDisplayName))];
+  const providerStr = providers.length >= 2
+    ? providers.slice(0, -1).join(', ') + ' and ' + providers[providers.length - 1]
+    : providers[0] || 'TMDB';
+  const hasMovies = sources.some(s => s.type === 'movie' || !s.type);
+  const hasSeries = sources.some(s => s.type === 'series');
+  const contentType = hasMovies && hasSeries ? 'movies and shows'
+    : hasSeries ? 'shows'
+    : 'movies';
+  const catName = (category && category.title) ? category.title.toLowerCase() : 'your collection';
+  return `${folder.title} draws from ${providerStr} and keeps your ${catName} section stocked with ${contentType}.`;
+}
+
+const ADDON_CATALOG_LABELS = {
+  'trakt.recommendations.movies': 'Trakt · Recommended',
+  'trakt.recommendations.shows': 'Trakt · Recommended',
+  'trakt.upnext': 'Trakt · Up Next',
+  'trakt.unwatched': 'Trakt · Unwatched',
+  'trakt.calendar': 'Trakt · Calendar',
+  'trakt.watchlist.movies': 'Trakt · Watchlist',
+  'trakt.watchlist.series': 'Trakt · Watchlist',
+  'mdblist.recommended.recommended': 'MDBList · Recommended',
+  'mdblist.recommended.trending': 'MDBList · Trending',
+  'mdblist.recommended.similar': 'MDBList · Similar Users',
+  'mdblist.recommended.rising': 'MDBList · Rising',
+  'mdblist.upnext': 'MDBList · Up Next',
+};
+
+// Bingecat's catalog ids are per-installation (not a fixed vocabulary like
+// Trakt's), so they can't be looked up in ADDON_CATALOG_LABELS above — detect
+// them by addonId prefix instead so they don't fall back to "Trakt-powered".
+function isBingecatAddonId(addonId) {
+  return typeof addonId === 'string' && addonId.indexOf('com.aicat.') === 0;
+}
+
+// The name of whatever *supplies* a source, phrased to sit inside a sentence.
+// Deliberately coarser than getProviderLabel() below: that one names the
+// individual catalog ("Trakt · Up Next"), which reads as noise once several
+// of them are joined into one description. Without this, `provider` was
+// uppercased raw and every addon-backed folder claimed to draw from "ADDON".
+function providerDisplayName(source) {
+  if (source.provider === 'addon') {
+    if (isBingecatAddonId(source.addonId)) return 'Bingecat AI';
+    const catalogId = String(source.catalogId || '');
+    if (catalogId.indexOf('mdblist.') === 0) return 'MDBList';
+    if (catalogId.indexOf('trakt.') === 0) return 'Trakt';
+    return 'your recommendation service';
+  }
+  const provider = String(source.provider || 'tmdb').toLowerCase();
+  if (provider === 'tmdb') return 'TMDB';
+  if (provider === 'trakt') return 'Trakt';
+  if (provider === 'mdblist') return 'MDBList';
+  return provider.toUpperCase();
+}
+
+function getSourceName(source) {
+  if (source.title) return source.title;
+  if (source.provider === 'addon') {
+    return ADDON_CATALOG_LABELS[source.catalogId] || (isBingecatAddonId(source.addonId) ? 'Bingecat AI' : 'Trakt-powered');
+  }
+  return 'Source';
+}
+
+function getProviderLabel(source) {
+  if (source.provider === 'addon') {
+    return ADDON_CATALOG_LABELS[source.catalogId] || (isBingecatAddonId(source.addonId) ? 'Bingecat AI' : 'Trakt-powered');
+  }
+  const provider = (source.provider || 'tmdb').toUpperCase();
+  const title = (source.title || '').toLowerCase();
+  let type = '';
+  if (title.includes('watchlist')) type = 'List';
+  else if (title.includes('recommend')) type = 'Picks';
+  else if (title.includes('popular')) type = 'Popular';
+  else if (title.includes('trending')) type = 'Trending';
+  else if (title.includes('top')) type = 'Top';
+  else if (title.includes('new') || title.includes('release')) type = 'New';
+  return type ? `${provider} · ${type}` : provider;
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+function escapeRegex(s) {
+  return String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+// Wrap the matched portion of a title in <mark> for search highlighting.
+function highlightMatch(title, query) {
+  const safe = escapeHtml(title);
+  const q = (query || '').trim();
+  if (!q) return safe;
+  const re = new RegExp('(' + escapeRegex(escapeHtml(q)) + ')', 'ig');
+  return safe.replace(re, '<mark>$1</mark>');
+}
+
+function renderFolderGrid() {
+  const canvas = document.getElementById('content-canvas');
+  if (!canvas || isGuideActive) return;
+  // While the Nuvio preview is open, edits made from inside it (inline curation,
+  // drawer source toggles) should refresh the emulator rather than swap in the
+  // editor grid that owns this same canvas.
+  if (isPreviewActive) { renderPreviewCollection(); return; }
+
+  canvas.innerHTML = `<div id="media-grid" class="media-grid"></div>`;
+  const grid = document.getElementById('media-grid');
+  grid.style.gridTemplateColumns = `repeat(auto-fill, minmax(${gridSize}px, 1fr))`;
+
+  const category = database[currentCategoryIdx];
+  if (!category || !category.folders || category.folders.length === 0) {
+    renderEmptyState(grid, "No folders available in this category.");
+    return;
+  }
+
+  const query = currentSearch.toLowerCase().trim();
+  const filteredFolders = category.folders.filter(folder => {
+    return query === '' || folder.title.toLowerCase().includes(query);
+  });
+
+  if (filteredFolders.length === 0) {
+    renderEmptyState(grid, `No results matching "${currentSearch}".`);
+    return;
+  }
+
+  // Reorder arrows are only safe when the full, unfiltered list is shown.
+  const showArrows = reorderMode && query === '';
+  if (showArrows) grid.classList.add('reordering');
+
+  filteredFolders.forEach((folder, filteredIdx) => {
+    const card = document.createElement('div');
+    const folderKey = getFolderKey(folder);
+    const sourceStats = getFolderSourceCountStats(folder);
+    const isSelected = sourceStats.active > 0;
+    const realIdx = category.folders.indexOf(folder);
+
+    // Spotlight: first card in categories with 6+ folders
+    const isSpotlight = filteredIdx === 0 && filteredFolders.length >= 6 && !showArrows;
+
+    card.className = `folder-card ${isSelected ? 'selected' : ''} ${showArrows ? 'reorder-active' : ''} ${isSpotlight ? 'is-spotlight' : ''}`;
+    card.dataset.folderKey = folderKey;
+
+    const shape = folder.tileShape || "LANDSCAPE";
+    card.classList.add(`aspect-${shape.toLowerCase()}`);
+
+    const baseImg = folder.coverImageUrl || '';
+    const hoverGif = folder.focusGifUrl || baseImg;
+
+    // Deliberately NOT gated on folder.hideTitle, unlike the hero and detail
+    // sheet. 481 of 565 folders set it and none carry a title logo without
+    // it, so honoring it here would strip the label off essentially every
+    // card in the grid at once — a much larger change than the duplicated
+    // hero title this was meant to fix, and one the owner should see first.
+    const logoOverlayHtml = folder.titleLogoUrl
+      ? `<div class="card-logo-overlay"><img src="${folder.titleLogoUrl}" alt="${folder.title}" class="card-logo-img"></div>`
+      : `<h4 class="card-text-title">${highlightMatch(folder.title, query)}</h4>`;
+
+    // Badge colour class based on source ratio
+    const badgeRatio = sourceStats.total > 0 ? sourceStats.active / sourceStats.total : 0;
+    const badgeClass = badgeRatio === 1 ? 'badge-full'
+      : badgeRatio === 0 ? 'badge-empty'
+      : badgeRatio < 0.5 ? 'badge-sparse'
+      : 'badge-half';
+
+    // "New" badge for trending/new category folders
+    const categoryId = (category.id || '').toLowerCase();
+    const folderId = (folder.id || '').toLowerCase();
+    const isNewFolder = categoryId.includes('trending') || categoryId.includes('new')
+      || folderId.includes('trending') || folderId.includes('new');
+    const newBadgeHtml = isNewFolder ? `<span class="new-badge">New</span>` : '';
+
+    const controlsHeader = showArrows
+      ? `<div class="card-controls-header">
+           ${reorderArrowsHtml(realIdx === 0, realIdx === category.folders.length - 1)}
+           <div class="card-source-count-badge ${badgeClass}" title="${sourceStats.active} of ${sourceStats.total} sources enabled">${sourceStats.active}/${sourceStats.total}</div>
+         </div>`
+      : `<div class="card-controls-header">
+           <div class="custom-checkbox-wrapper" title="${isSelected ? 'Remove from collection' : 'Add to collection'}">
+             <div class="checkbox-visual">
+               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                 <polyline points="20 6 9 17 4 12"></polyline>
+               </svg>
+             </div>
+           </div>
+           <div class="card-source-count-badge ${badgeClass}" title="${sourceStats.active} of ${sourceStats.total} sources enabled">${sourceStats.active}/${sourceStats.total}</div>
+           <button class="gear-button" title="Tune sources">
+             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;">
+               <line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/>
+               <line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/>
+               <line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/>
+               <line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/>
+             </svg>
+           </button>
+           ${newBadgeHtml}
+         </div>`;
+
+    card.innerHTML = `
+      <div class="card-artwork-wrapper">
+        <img src="${baseImg}" class="card-cover-img" alt="${folder.title}" loading="lazy">
+        ${(folder.focusGifUrl && gifsAllowedForCategory(category)) ? `<img src="${hoverGif}" class="card-gif-img" alt="${folder.title} preview" loading="lazy">` : ''}
+      </div>
+      <div class="card-overlay-gradient"></div>
+
+      ${controlsHeader}
+
+      ${logoOverlayHtml}
+    `;
+
+    // Hover → update backdrop
+    card.addEventListener('mouseenter', () => {
+      setCinematicWallpaper(folder);
+    });
+
+    if (showArrows) {
+      // Reorder mode: arrows move the folder; selection/drawer clicks are suppressed.
+      card.querySelectorAll('.reorder-arrow').forEach((btn) => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          if (btn.disabled) return;
+          const dir = parseInt(btn.getAttribute('data-dir'), 10);
+          moveItem(category.folders, realIdx, dir);
+          renderFolderGrid();
+          // renderFolderGrid replaces #content-canvas's whole innerHTML (it IS
+          // the scroll container), which snaps scroll to the top — keep the
+          // moved card in view instead of resetting on every click.
+          document.querySelector(`[data-folder-key="${CSS.escape(folderKey)}"]`)?.scrollIntoView({ block: 'nearest' });
+          if (isSimpleEditorOpen()) renderSimpleCollection();
+          notifyAccountSave();
+        });
+      });
+    } else {
+      // Checkbox → toggle folder (keyboard-focusable: Tab + Enter/Space)
+      const checkboxBtn = card.querySelector('.custom-checkbox-wrapper');
+      checkboxBtn.setAttribute('tabindex', '0');
+      checkboxBtn.setAttribute('role', 'checkbox');
+      checkboxBtn.setAttribute('aria-checked', String(isSelected));
+      checkboxBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        toggleWholeFolderSelection(folder, !isSelected);
+      });
+      checkboxBtn.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          e.stopPropagation();
+          toggleWholeFolderSelection(folder, !isSelected);
+        }
+      });
+
+      // Gear → open drawer
+      const gearBtn = card.querySelector('.gear-button');
+      gearBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        openSourceCustomizationDrawer(folder);
+      });
+
+      // Card body → open drawer (keyboard-focusable: Tab + Enter/Space)
+      card.setAttribute('tabindex', '0');
+      card.setAttribute('role', 'button');
+      card.setAttribute('aria-label', `${folder.title}: customize sources`);
+      card.addEventListener('click', () => {
+        openSourceCustomizationDrawer(folder);
+      });
+      card.addEventListener('keydown', (e) => {
+        if ((e.key === 'Enter' || e.key === ' ') && e.target === card) {
+          e.preventDefault();
+          openSourceCustomizationDrawer(folder);
+        }
+      });
+    }
+
+    grid.appendChild(card);
+  });
+}
+
+// Apply a sort preset to the current category's folders, then re-render.
+function applyFolderSort(mode) {
+  const category = database[currentCategoryIdx];
+  if (!category || !category.folders) return;
+  categorySort[currentCategoryIdx] = mode;
+  if (mode === 'az' || mode === 'za') {
+    sortByTitle(category.folders, mode);
+  } else if (mode === 'popular') {
+    sortStreamingByPopular(category.folders);
+  } else if (mode === 'selected') {
+    // Stable: selected folders (any active source) float to the top.
+    const decorated = category.folders.map((f, i) => ({ f, i, sel: getFolderSourceCountStats(f).active > 0 }));
+    decorated.sort((a, b) => (b.sel - a.sel) || (a.i - b.i));
+    category.folders = decorated.map((d) => d.f);
+  }
+  renderFolderGrid();
+}
+
+function renderEmptyState(container, descText) {
+  const isSearch = descText.includes('matching') || descText.includes('results');
+  container.innerHTML = `
+    <div class="no-results-box">
+      <svg class="no-results-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="transform:rotate(-15deg);opacity:0.4;">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        <line x1="8" y1="11" x2="14" y2="11"></line>
+      </svg>
+      <h4 class="no-results-title">${isSearch ? 'Nothing called that.' : 'No folders here.'}</h4>
+      <p class="no-results-desc">${isSearch ? 'Try a different name, or scroll; some folders have unexpected titles.' : descText}</p>
+    </div>
+  `;
+}
+
+function getFolderSourceCountStats(folder) {
+  const folderKey = getFolderKey(folder);
+  const sources = folder.sources || [];
+  let total = sources.length;
+  let active = 0;
+
+  if (selectedMap[folderKey]) {
+    sources.forEach(source => {
+      if (selectedMap[folderKey][getSourceKey(source)]) active++;
+    });
+  }
+  return { active, total };
+}
+
+function toggleWholeFolderSelection(folder, targetState) {
+  const folderKey = getFolderKey(folder);
+  if (!selectedMap[folderKey]) selectedMap[folderKey] = {};
+
+  if (folder.sources) {
+    folder.sources.forEach(source => {
+      selectedMap[folderKey][getSourceKey(source)] = targetState;
+    });
+  }
+
+  if (!targetState) showUndoToast(folder);
+
+  renderFolderGrid();
+  renderSidebar();
+  renderCategoryActions();
+  updateControlCenterStats();
+  if (isSimpleEditorOpen()) renderSimpleCollection();
+  notifyAccountSave();
+
+  // Update subtitle
+  const stats = getCategorySelectionStats(currentCategoryIdx);
+  const subtitleEl = document.getElementById('view-subtitle');
+  if (subtitleEl && !isGuideActive && !isPreviewActive) {
+    subtitleEl.textContent = `${stats.selectedFolders} of ${stats.totalFolders} folders selected`;
+  }
+}
+
+// ==========================================================================
+// 5b. PREVIEW COLLECTION VIEW
+// ==========================================================================
+
+function renderPreviewCollection() {
+  const canvas = document.getElementById('content-canvas');
+  if (!canvas) return;
+
+  canvas.innerHTML = '';
+  previewRows = [];
+
+  const all = getAllFolders();   // every folder, selected or not
+
+  const container = document.createElement('div');
+  container.className = `nv-emulator device-${previewDevice}`;
+
+  // ---- Control bar (lives outside the simulated device frame) ----
+  const bar = document.createElement('div');
+  bar.className = `nv-preview-bar${previewBarOpen ? ' open' : ''}`;
+  bar.innerHTML = `
+    <div class="nv-preview-content">
+    <div class="nv-preview-secondary${previewMoreOpen ? ' open' : ''}" id="nv-preview-secondary">
+      <div class="nv-device-toggle" role="tablist" aria-label="Preview device">
+        <button class="nv-device-opt ${previewDevice === 'tv' ? 'active' : ''}" data-device="tv" role="tab">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+          <span>TV</span>
+        </button>
+        <button class="nv-device-opt ${previewDevice === 'mobile' ? 'active' : ''}" data-device="mobile" role="tab">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2.5"></rect><line x1="12" y1="18" x2="12" y2="18"></line></svg>
+          <span>Phone</span>
+        </button>
+      </div>
+      <button class="nv-reorder-toggle ${reorderMode ? 'active' : ''}" id="preview-reorder" title="Reorder mode: show up/down arrows to move sections, folders & sources by hand">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
+        <span>Reorder</span>
+      </button>
+      <button class="nv-reorder-toggle" id="preview-editorview" title="Quick Editor: the full settings panel for folders, sources, and API keys, no wizard required">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><line x1="4" y1="6" x2="20" y2="6"></line><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="18" x2="20" y2="18"></line></svg>
+        <span>Quick Editor</span>
+      </button>
+      <div class="nv-viewmode-combo" title="How your folders lay out inside Nuvio, also written to your export. Tabbed Grid is the mobile-safe pick.">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px;color:var(--text-muted);"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+        <select id="preview-viewmode" class="topbar-select" aria-label="View mode">
+          <option value="FOLLOW_LAYOUT" selected>Follow Layout (Auto)</option>
+          <option value="ROWS">Rows</option>
+          <option value="TABBED_GRID">Tabbed Grid</option>
+        </select>
+      </div>
+      <button class="nv-help-btn" id="preview-help" data-tooltip="Keyboard shortcuts (press ?)" aria-label="Keyboard shortcuts">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+      </button>
+    </div>
+    <div class="nv-preview-actions">
+      <button class="nv-more-toggle${previewMoreOpen ? ' active' : ''}" id="preview-more" aria-label="More options" aria-expanded="${previewMoreOpen}" title="More options">
+        <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;"><circle cx="5" cy="12" r="2"></circle><circle cx="12" cy="12" r="2"></circle><circle cx="19" cy="12" r="2"></circle></svg>
+      </button>
+      <button class="btn-secondary nv-mini-btn" id="preview-download" title="Download your collection file">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width:13px;height:13px;"><polyline points="8 17 12 21 16 17"></polyline><line x1="12" y1="12" x2="12" y2="21"></line><path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29"></path></svg>
+        <span>Save File</span>
+      </button>
+      <button class="btn-secondary nv-mini-btn btn-bingecat" id="preview-bingecat" title="Export this selection for Bingecat's addon">
+        ${bingecatMarkHtml()}
+        <span>Bingecat</span>
+      </button>
+      <button class="btn-secondary nv-mini-btn" id="preview-selfhost" title="Export this selection for a self-hosted AIO Metadata instance">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;margin-right:6px;vertical-align:text-bottom;"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+        <span>Self-Host</span>
+      </button>
+      <button class="btn-primary nv-mini-btn" id="preview-send" title="Send your collection straight to Nuvio">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/><polyline points="8 11 12 7 16 11"/><line x1="12" y1="7" x2="12" y2="14"/></svg>
+        <span>Send to Nuvio</span>
+      </button>
+    </div>
+    </div>
+    <button class="mobile-fab${previewBarOpen ? ' active' : ''}" id="preview-fab" aria-label="Export & view options" aria-expanded="${previewBarOpen}" title="Export & view options">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path></svg>
+    </button>
+  `;
+  container.appendChild(bar);
+
+  // ---- Empty state (only when the catalog itself is empty) ----
+  if (all.length === 0) {
+    const empty = document.createElement('div');
+    empty.className = 'preview-empty';
+    empty.innerHTML = `
+      <h3>No folders available</h3>
+      <p>This collection doesn't have any folders to show.</p>
+    `;
+    container.appendChild(empty);
+    canvas.appendChild(container);
+    bindPreviewControls();
+    return;
+  }
+
+  // ---- Resolve the featured folder for the hero ----
+  // Keep the current pick if it's still valid; otherwise prefer the first
+  // folder that's in the collection, falling back to the very first folder.
+  let featured = featuredKey ? all.find(p => getFolderKey(p.folder) === featuredKey) : null;
+  if (!featured) {
+    featured = all.find(p => getFolderSourceCountStats(p.folder).active > 0) || all[0];
+  }
+  featuredKey = getFolderKey(featured.folder);
+
+  // ---- Simulated device frame ----
+  const frame = document.createElement('div');
+  frame.className = 'nv-frame';
+
+  const screen = document.createElement('div');
+  screen.className = 'nv-screen';
+  screen.appendChild(buildMobileStatusBar());
+
+  // Hero stays pinned at the top of the screen; only the rows scroll beneath it,
+  // so the backdrop + title logo remain visible while browsing.
+  screen.appendChild(buildNuvioHero());
+
+  const scroll = document.createElement('div');
+  scroll.className = 'nv-scroll';
+
+  // Gentle nudge when the collection is empty — every card below is dimmed and
+  // addable, so this is a hint banner rather than a blocking overlay.
+  if (getSelectedFolderCount() === 0) {
+    const hint = document.createElement('div');
+    hint.className = 'nv-empty-hint';
+    hint.innerHTML = `
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+      <div class="nv-empty-hint-text">
+        <strong>Your home screen starts here.</strong>
+        <span>Check a folder to add it. A few good ones beats the full list.</span>
+      </div>
+      <button class="nv-empty-hint-btn" id="nv-empty-browse">Start picking</button>
+    `;
+    scroll.appendChild(hint);
+  }
+
+  // One catalog row per category — every folder is shown; ones not in the
+  // collection appear dimmed with an Add toggle.
+  database.forEach((category, idx) => {
+    if (!category.folders || category.folders.length === 0) return;
+    const items = category.folders.map(folder => ({ folder, category, catIdx: idx }));
+    scroll.appendChild(buildCatalogRow(category.title, items, idx));
+  });
+
+  // Idle hero rotation pauses while the cursor is over the screen (hover drives
+  // the hero directly), and resumes once it leaves.
+  screen.addEventListener('mouseenter', pauseHeroCarousel);
+  screen.addEventListener('mouseleave', resumeHeroCarousel);
+  screen.addEventListener('wheel', (e) => {
+    if (!e.target.closest('.nv-scroll')) {
+      scroll.scrollTop += e.deltaY;
+    }
+  }, { passive: true });
+
+  screen.appendChild(scroll);
+  screen.appendChild(buildMobileTabBar());
+  frame.appendChild(screen);
+  container.appendChild(frame);
+  canvas.appendChild(container);
+
+  bindPreviewControls();
+  collectPreviewFocusRows();
+  setPreviewHero(featured.folder, featured.category);
+
+  // Start the ambient hero rotation from the featured folder's position.
+  const carouselFolders = getHeroCarouselFolders();
+  const featIdx = carouselFolders.findIndex(p => getFolderKey(p.folder) === featuredKey);
+  heroCarouselIdx = featIdx >= 0 ? featIdx : 0;
+  heroCarouselPaused = false;
+  startHeroCarousel();
+  document.getElementById('nv-empty-browse')?.addEventListener('click', openSidebar);
+}
+
+// Count of folders currently in the collection (at least one active source).
+function getSelectedFolderCount() {
+  let n = 0;
+  database.forEach(c => (c.folders || []).forEach(f => {
+    if (getFolderSourceCountStats(f).active > 0) n++;
+  }));
+  return n;
+}
+
+// ROWS → classic, TABBED_GRID → grid, FOLLOW_LAYOUT → modern (Nuvio home layouts)
+function previewLayoutFromViewMode() {
+  if (selectedViewMode === 'TABBED_GRID') return 'grid';
+  if (selectedViewMode === 'FOLLOW_LAYOUT') return 'modern';
+  return 'classic';
+}
+function previewLayoutLabel(layout) {
+  return layout === 'grid' ? 'Grid layout' : layout === 'modern' ? 'Modern layout' : 'Classic rows';
+}
+
+// Flat list of every selected folder with its category, in display order.
+function getAllSelectedFolders() {
+  const out = [];
+  database.forEach((category, catIdx) => {
+    getSelectedFoldersForPreview(category).forEach(folder => {
+      out.push({ folder, category, catIdx });
+    });
+  });
+  return out;
+}
+
+function getSelectedFoldersForPreview(category) {
+  if (!category.folders) return [];
+  return category.folders.filter(folder => {
+    const folderKey = getFolderKey(folder);
+    const sources = folder.sources || [];
+    return sources.some(source => {
+      return selectedMap[folderKey] && selectedMap[folderKey][getSourceKey(source)];
+    });
+  });
+}
+
+// ---- Hero carousel ------------------------------------------------------
+// The hero is built once, then re-populated live as the user hovers/arrows
+// across cards (so navigation drives the hero, no "featured" pinning needed).
+let previewHeroFolder = null;
+let previewHeroCategory = null;
+
+function buildNuvioHero() {
+  const hero = document.createElement('div');
+  hero.className = 'nv-hero nv-focus-row';
+  hero.innerHTML = `
+    <div class="nv-hero-bg" id="nv-hero-bg"></div>
+    <div class="nv-hero-scrim"></div>
+    <div class="nv-hero-content">
+      <span class="nv-hero-eyebrow" id="nv-hero-eyebrow"></span>
+      <img class="nv-hero-logo" id="nv-hero-logo" alt="">
+      <h2 class="nv-hero-title" id="nv-hero-title"></h2>
+      <p class="nv-hero-meta"><span class="nv-live-dot"></span><span id="nv-hero-meta"></span></p>
+      <div class="nv-hero-actions">
+        <button class="nv-hero-btn nv-hero-play nv-focusable" data-action="play">
+          <svg viewBox="0 0 24 24" fill="currentColor" style="width:16px;height:16px;"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+          Play
+        </button>
+        <button class="nv-hero-btn nv-hero-info nv-focusable" data-action="info">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" style="width:16px;height:16px;"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          More Info
+        </button>
+      </div>
+      <div class="nv-hero-dots" id="nv-hero-dots"></div>
+    </div>
+  `;
+  hero.querySelectorAll('.nv-hero-btn').forEach(btn => {
+    btn.addEventListener('click', () => { if (previewHeroFolder) openPreviewDetail(previewHeroFolder, previewHeroCategory); });
+    btn.addEventListener('mouseenter', () => focusPreviewElement(btn));
+  });
+  return hero;
+}
+
+// Point the hero at a folder. Called on mount and on every focus/hover change.
+function setPreviewHero(folder, category) {
+  if (!folder) return;
+  previewHeroFolder = folder;
+  previewHeroCategory = category;
+  const bg = document.getElementById('nv-hero-bg');
+  if (!bg) return;   // hero not mounted yet
+  const logo = document.getElementById('nv-hero-logo');
+  const title = document.getElementById('nv-hero-title');
+  const eyebrow = document.getElementById('nv-hero-eyebrow');
+  const meta = document.getElementById('nv-hero-meta');
+  const stats = getFolderSourceCountStats(folder);
+
+  bg.style.backgroundImage = `url('${folder.heroBackdropUrl || folder.coverImageUrl || ''}')`;
+  // Title logos belong to the hero only (never the cards). Sits top-left.
+  // hideTitle folders fall back to their cover art, which already carries the
+  // name — drawing the logo over it reads as a duplicated, faded watermark.
+  if (folder.hideTitle && !folder.heroBackdropUrl) {
+    logo.removeAttribute('src');
+    logo.style.display = 'none';
+    title.style.display = 'none';
+  } else if (folder.titleLogoUrl) {
+    logo.src = folder.titleLogoUrl;
+    logo.style.display = '';
+    title.style.display = 'none';
+  } else {
+    logo.removeAttribute('src');
+    logo.style.display = 'none';
+    title.textContent = folder.title;
+    title.style.display = '';
+  }
+  eyebrow.textContent = (previewHeroCategory && previewHeroCategory.title
+    ? previewHeroCategory.title
+    : "Kaptain's Collection").toUpperCase();
+  meta.textContent = `${stats.active}/${stats.total} sources`;
+}
+
+// ---- Ambient hero carousel ----------------------------------------------
+// When the user isn't interacting, the hero slowly rotates through the folders
+// that are currently in the collection so the screen never feels frozen. Any
+// hover/focus pauses it (the hero follows the cursor instead); leaving the
+// screen resumes it. Dots under the hero show position and allow jumping.
+let heroCarouselTimer = null;
+let heroCarouselPaused = false;
+let heroCarouselIdx = 0;
+const HERO_CAROUSEL_MAX = 6;
+const HERO_CAROUSEL_MS = 6000;
+
+function getHeroCarouselFolders() {
+  return getAllFolders()
+    .filter(p => getFolderSourceCountStats(p.folder).active > 0)
+    .slice(0, HERO_CAROUSEL_MAX);
+}
+
+function renderHeroDots() {
+  const dotsWrap = document.getElementById('nv-hero-dots');
+  if (!dotsWrap) return;
+  const slides = getHeroCarouselFolders();
+  if (slides.length < 2) { dotsWrap.innerHTML = ''; return; }
+  if (heroCarouselIdx >= slides.length) heroCarouselIdx = 0;
+  dotsWrap.innerHTML = slides.map((_, i) =>
+    `<button class="nv-hero-dot ${i === heroCarouselIdx ? 'active' : ''}" data-idx="${i}" aria-label="Show featured folder ${i + 1}"></button>`
+  ).join('');
+  dotsWrap.querySelectorAll('.nv-hero-dot').forEach(dot => {
+    dot.addEventListener('click', (e) => {
+      e.stopPropagation();
+      showHeroSlide(parseInt(dot.getAttribute('data-idx'), 10));
+      startHeroCarousel();   // reset the timer after a manual jump
+    });
+  });
+}
+
+function showHeroSlide(i) {
+  const slides = getHeroCarouselFolders();
+  if (!slides.length) return;
+  heroCarouselIdx = ((i % slides.length) + slides.length) % slides.length;
+  const slide = slides[heroCarouselIdx];
+  setPreviewHero(slide.folder, slide.category);
+  setCinematicWallpaper(slide.folder);
+  const dotsWrap = document.getElementById('nv-hero-dots');
+  if (dotsWrap) dotsWrap.querySelectorAll('.nv-hero-dot').forEach((d, di) =>
+    d.classList.toggle('active', di === heroCarouselIdx));
+}
+
+function startHeroCarousel() {
+  stopHeroCarousel();
+  renderHeroDots();
+  if (getHeroCarouselFolders().length < 2) return;   // nothing to rotate through
+  heroCarouselTimer = setInterval(() => {
+    if (heroCarouselPaused) return;
+    if (document.getElementById('preview-detail')) return;   // detail sheet is open
+    showHeroSlide(heroCarouselIdx + 1);
+  }, HERO_CAROUSEL_MS);
+}
+function stopHeroCarousel() {
+  if (heroCarouselTimer) { clearInterval(heroCarouselTimer); heroCarouselTimer = null; }
+}
+function pauseHeroCarousel() { heroCarouselPaused = true; }
+function resumeHeroCarousel() { heroCarouselPaused = false; }
+
+// ---- Catalog row --------------------------------------------------------
+// No category icon: emojis are only shown if they actually exist in the
+// collection config (i.e. baked into the title), never auto-generated.
+function buildCatalogRow(title, items, catIdx) {
+  const row = document.createElement('div');
+  row.className = 'nv-row nv-focus-row';
+  if (catIdx != null) row.id = 'nv-cat-' + catIdx;
+
+  // Quick-sort menu (hidden while reordering by hand)
+  const sortVal = categorySort[catIdx] || 'custom';
+  const sortMenu = reorderMode ? '' : `
+    <div class="nv-row-sort" title="Sort the folders in this row">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:12px;height:12px;color:var(--text-muted);"><line x1="4" y1="6" x2="20" y2="6"></line><line x1="4" y1="12" x2="14" y2="12"></line><line x1="4" y1="18" x2="9" y2="18"></line></svg>
+      <select class="topbar-select nv-row-sort-select" data-cat-idx="${catIdx}">
+        <option value="custom"${sortVal === 'custom' ? ' selected' : ''}>Custom</option>
+        <option value="popular"${sortVal === 'popular' ? ' selected' : ''}>Popular</option>
+        <option value="az"${sortVal === 'az' ? ' selected' : ''}>A–Z</option>
+        <option value="za"${sortVal === 'za' ? ' selected' : ''}>Z–A</option>
+        <option value="selected"${sortVal === 'selected' ? ' selected' : ''}>In collection first</option>
+      </select>
+    </div>`;
+
+  row.innerHTML = `
+    <div class="nv-row-header">
+      <span class="nv-row-title">${title}</span>
+      <span class="nv-row-count">${items.length}</span>
+      ${sortMenu}
+    </div>
+  `;
+
+  const select = row.querySelector('.nv-row-sort-select');
+  if (select) select.addEventListener('change', () => {
+    categorySort[catIdx] = select.value;
+    sortCategoryFolders(catIdx, select.value);
+    rebuildCategoryRow(catIdx);
+  });
+
+  const track = document.createElement('div');
+  track.className = 'nv-track';
+  items.forEach(item => track.appendChild(buildNuvioCard(item.folder, item.category, item.catIdx)));
+  row.appendChild(track);
+  return row;
+}
+
+// Sort one category's folders by a preset (reuses the editor's logic).
+function sortCategoryFolders(catIdx, mode) {
+  const category = database[catIdx];
+  if (!category || !category.folders) return;
+  if (mode === 'az' || mode === 'za') {
+    sortByTitle(category.folders, mode);
+  } else if (mode === 'popular') {
+    sortStreamingByPopular(category.folders);
+  } else if (mode === 'selected') {
+    const decorated = category.folders.map((f, i) => ({ f, i, sel: getFolderSourceCountStats(f).active > 0 }));
+    decorated.sort((a, b) => (b.sel - a.sel) || (a.i - b.i));
+    category.folders = decorated.map((d) => d.f);
+  }
+}
+
+// Rebuild a single category's row in place (keeps scroll; refreshes focus rows).
+function rebuildCategoryRow(catIdx) {
+  const oldRow = document.getElementById('nv-cat-' + catIdx);
+  if (!oldRow) return;
+  const category = database[catIdx];
+  const items = (category.folders || []).map(folder => ({ folder, category, catIdx }));
+  oldRow.replaceWith(buildCatalogRow(category.title, items, catIdx));
+  collectPreviewFocusRows();
+}
+
+// ---- Content card (Nuvio contentCard parity + inline curation) ----------
+function buildNuvioCard(folder, category, catIdx) {
+  const shape = (folder.tileShape || 'LANDSCAPE').toLowerCase();
+  const folderKey = getFolderKey(folder);
+  const isFeatured = folderKey === featuredKey;
+  const stats = getFolderSourceCountStats(folder);
+  const isOn = stats.active > 0;   // is this folder in the collection?
+
+  const card = document.createElement('div');
+  card.className = `nv-card nv-focusable shape-${shape}${isFeatured ? ' is-featured' : ''}${isOn ? '' : ' nv-off'}`;
+  card.tabIndex = -1;
+  card.dataset.folderKey = folderKey;
+  card.__folder = folder;       // used by the focus engine to drive the hero
+  card.__category = category;
+
+  const imgSrc = folder.coverImageUrl || '';
+  // Title logos never overlay the cards — they only appear in the hero.
+  // Fall back to a text title only when the card has no artwork at all.
+  const titleFallback = imgSrc ? '' : `<span class="nv-card-title">${folder.title}</span>`;
+  // Focus GIF: plays on hover OR keyboard focus, mirroring the editor cards.
+  // The src is attached lazily (on first hover/focus) so we don't fire off
+  // hundreds of GIF requests when the preview first opens.
+  const gifHtml = (folder.focusGifUrl && folder.focusGifEnabled !== false && gifsAllowedForCategory(category))
+    ? `<img class="nv-card-gif" data-gif="${folder.focusGifUrl}" alt="">`
+    : '';
+
+  // In reorder mode, swap the curation actions for up/down arrows.
+  const realIdx = category.folders ? category.folders.indexOf(folder) : -1;
+  const lastIdx = category.folders ? category.folders.length - 1 : 0;
+  const actionsHtml = reorderMode
+    ? `<div class="nv-card-actions nv-card-reorder">${reorderArrowsHtml(realIdx === 0, realIdx === lastIdx)}</div>`
+    : `<div class="nv-card-actions">
+      <button class="nv-card-act act-toggle" title="${isOn ? 'Remove from collection' : 'Add to collection'}" aria-label="Toggle in collection">
+        ${isOn ? CARD_MINUS_SVG : CARD_PLUS_SVG}
+      </button>
+      <button class="nv-card-act act-feature ${isFeatured ? 'on' : ''}" title="Set as featured (shows in hero)" aria-label="Set as featured">
+        <svg viewBox="0 0 24 24" fill="${isFeatured ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+      </button>
+      <button class="nv-card-act act-gear" title="Customize sources" aria-label="Customize">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+      </button>
+    </div>`;
+
+  card.innerHTML = `
+    <img class="nv-card-img" src="${imgSrc}" alt="${folder.title}" loading="lazy">
+    ${gifHtml}
+    <div class="nv-card-gradient"></div>
+    <span class="nv-card-meta" title="${isOn ? stats.active + ' active source' + (stats.active !== 1 ? 's' : '') : ''}">${isOn ? stats.active : ''}</span>
+    ${titleFallback}
+    ${actionsHtml}
+  `;
+
+  card.addEventListener('mouseenter', () => { attachCardGif(card); setCinematicWallpaper(folder); focusPreviewElement(card); });
+
+  if (reorderMode) {
+    card.querySelectorAll('.reorder-arrow').forEach((btn) => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (btn.disabled) return;
+        const dir = parseInt(btn.getAttribute('data-dir'), 10);
+        moveItem(category.folders, realIdx, dir);
+        rebuildCategoryRow(catIdx);
+        // rebuildCategoryRow swaps in a brand-new .nv-track, which resets its
+        // horizontal scroll to 0 — keep the moved card in view instead of
+        // snapping the row back to the start on every click.
+        document.querySelector(`[data-folder-key="${folderKey}"]`)?.scrollIntoView({ inline: 'nearest', block: 'nearest' });
+        if (isSimpleEditorOpen()) renderSimpleCollection();
+        notifyAccountSave();
+      });
+    });
+    return card;
+  }
+
+  card.addEventListener('click', (e) => {
+    if (e.target.closest('.nv-card-act')) return;
+    openPreviewDetail(folder, category);
+  });
+  card.querySelector('.act-toggle').addEventListener('click', (e) => {
+    e.stopPropagation();
+    const turnOn = !(getFolderSourceCountStats(folder).active > 0);
+    setFolderSelected(folder, turnOn);     // in-place — card stays put, no full re-render
+    refreshCardState(card, folder);
+    pulseCard(card, turnOn);
+    renderHeroDots();   // the carousel set changed — keep the dots in sync
+  });
+  card.querySelector('.act-feature').addEventListener('click', (e) => {
+    e.stopPropagation();
+    setPreviewFeatured(folder, category);
+  });
+  card.querySelector('.act-gear').addEventListener('click', (e) => {
+    e.stopPropagation();
+    currentCategoryIdx = catIdx;                 // so the drawer label/stats match
+    openSourceCustomizationDrawer(folder);
+  });
+  return card;
+}
+
+function setPreviewFeatured(folder, category) {
+  featuredKey = getFolderKey(folder);
+  // Update the featured ring + star in place (no full re-render → keep scroll).
+  document.querySelectorAll('.nv-card').forEach(c => {
+    const on = c.dataset.folderKey === featuredKey;
+    c.classList.toggle('is-featured', on);
+    const star = c.querySelector('.act-feature');
+    if (star) star.classList.toggle('on', on);
+  });
+  setPreviewHero(folder, category);
+}
+
+// Add/remove a whole folder from the collection without rebuilding the view.
+function setFolderSelected(folder, on) {
+  const key = getFolderKey(folder);
+  if (!selectedMap[key]) selectedMap[key] = {};
+  (folder.sources || []).forEach(s => { selectedMap[key][getSourceKey(s)] = on; });
+  if (!on) showUndoToast(folder);
+  onCollectionEdited({ cinematic: false }); // caller usually refreshes the card in place
+}
+
+// Quick confirmation pulse when a card is added to / removed from the collection.
+function pulseCard(card, added) {
+  if (!card) return;
+  card.classList.remove('card-added', 'card-removed');
+  void card.offsetWidth;   // force reflow so the animation restarts on rapid toggles
+  card.classList.add(added ? 'card-added' : 'card-removed');
+  setTimeout(() => card.classList.remove('card-added', 'card-removed'), 380);
+}
+
+// Sync a single card's visuals to the folder's current selection state.
+function refreshCardState(card, folder) {
+  const stats = getFolderSourceCountStats(folder);
+  const on = stats.active > 0;
+  card.classList.toggle('nv-off', !on);
+  const meta = card.querySelector('.nv-card-meta');
+  if (meta) {
+    meta.textContent = on ? stats.active : '';
+    meta.title = on ? `${stats.active} active source${stats.active !== 1 ? 's' : ''}` : '';
+  }
+  const tgl = card.querySelector('.act-toggle');
+  if (tgl) {
+    tgl.title = on ? 'Remove from collection' : 'Add to collection';
+    tgl.innerHTML = on ? CARD_MINUS_SVG : CARD_PLUS_SVG;
+  }
+}
+
+// Every folder in the catalog with its category, in display order.
+function getAllFolders() {
+  const out = [];
+  database.forEach((category, catIdx) => {
+    (category.folders || []).forEach(folder => out.push({ folder, category, catIdx }));
+  });
+  return out;
+}
+
+// Jump-nav: bring a category's row into view (switching back to preview first).
+function jumpToCategory(idx) {
+  activeCatIdx = idx;
+  if (!isPreviewActive || isGuideActive) {
+    isGuideActive = false; isPreviewActive = true;
+    switchCategory(-2);
+    requestAnimationFrame(() => scrollToCategoryRow(idx));
+  } else {
+    renderSidebar();
+    scrollToCategoryRow(idx);
+  }
+}
+function scrollToCategoryRow(idx) {
+  const row = document.getElementById('nv-cat-' + idx);
+  const scroller = document.querySelector('.nv-scroll');
+  if (row && scroller) {
+    const rr = row.getBoundingClientRect();
+    const sr = scroller.getBoundingClientRect();
+    scroller.scrollTop += rr.top - sr.top - 12;
+  }
+}
+
+// ---- Mobile chrome (hidden on TV via CSS) -------------------------------
+function buildMobileStatusBar() {
+  const bar = document.createElement('div');
+  bar.className = 'nv-statusbar';
+  bar.innerHTML = `
+    <span class="nv-clock">9:41</span>
+    <div class="nv-status-icons">
+      <svg viewBox="0 0 24 24" fill="currentColor" style="width:14px;height:14px;"><path d="M2 22h2V10H2v12zm5 0h2V4H7v18zm5 0h2V13h-2v9zm5 0h2V7h-2v15z"></path></svg>
+      <svg viewBox="0 0 24 24" fill="currentColor" style="width:15px;height:15px;"><path d="M12 4C7 4 2.7 6.5 1 9l11 13L23 9c-1.7-2.5-6-5-11-5z"></path></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:14px;"><rect x="2" y="7" width="18" height="10" rx="2"></rect><line x1="22" y1="11" x2="22" y2="13"></line><rect x="4" y="9" width="13" height="6" fill="currentColor" stroke="none"></rect></svg>
+    </div>
+  `;
+  return bar;
+}
+function buildMobileTabBar() {
+  const tabs = [
+    { n: 'Home', a: true, p: 'M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z' },
+    { n: 'Search', a: false, p: 'M21 21l-4.35-4.35M11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14z' },
+    { n: 'Library', a: false, p: 'M4 19.5A2.5 2.5 0 0 1 6.5 17H20M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5z' },
+    { n: 'Settings', a: false, p: 'M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6z M19.4 15a1.65 1.65 0 0 0 .33 1.82' }
+  ];
+  const bar = document.createElement('div');
+  bar.className = 'nv-tabbar';
+  bar.innerHTML = tabs.map(t => `
+    <div class="nv-tab ${t.a ? 'active' : ''}">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="${t.p}"></path></svg>
+      <span>${t.n}</span>
+    </div>
+  `).join('');
+  return bar;
+}
+
+// ---- Preview poster helpers ---------------------------------------------
+const LIVE_PREVIEW_TMDB_KEY = '97e867f60ed428b711be2eab1e107a9d';
+
+// camelCase filter key → TMDB API param name (mirrors scripts/refresh_previews.js)
+const LIVE_MOVIE_FILTER_MAP = {
+  year:                  'primary_release_year',
+  withGenres:            'with_genres',
+  withoutGenres:         'without_genres',
+  voteCountGte:          'vote_count.gte',
+  voteCountLte:          'vote_count.lte',
+  voteAverageGte:        'vote_average.gte',
+  voteAverageLte:        'vote_average.lte',
+  withOriginalLanguage:  'with_original_language',
+  withCast:              'with_cast',
+  withCrew:              'with_crew',
+  withPeople:            'with_people',
+  withCompanies:         'with_companies',
+  withKeywords:          'with_keywords',
+  withoutKeywords:       'without_keywords',
+  releaseDateGte:        'primary_release_date.gte',
+  releaseDateLte:        'primary_release_date.lte',
+  withReleaseType:       'with_release_type',
+  withRuntimeGte:        'with_runtime.gte',
+  withRuntimeLte:        'with_runtime.lte',
+};
+const LIVE_TV_FILTER_MAP = {
+  ...LIVE_MOVIE_FILTER_MAP,
+  year:           'first_air_date_year',
+  releaseDateGte: 'first_air_date.gte',
+  releaseDateLte: 'first_air_date.lte',
+  withNetworks:   'with_networks',
+};
+
+const livePreviewCache = {};
+
+async function fetchLiveTitles(folder, source) {
+  if (!source || (source.provider && source.provider.toLowerCase() !== 'tmdb')) return null;
+  const isTV = window.KaptainCatalogUtils?.isTelevisionSource(source)
+    ?? ['TV', 'TV_SHOW'].includes(String(source.mediaType || '').toUpperCase());
+  const isLandscape = (folder.tileShape || '').toUpperCase() === 'LANDSCAPE';
+  const type = (source.tmdbSourceType || '').toUpperCase();
+
+  let url;
+  try {
+    if (type === 'DISCOVER') {
+      const endpoint = isTV ? 'https://api.themoviedb.org/3/discover/tv' : 'https://api.themoviedb.org/3/discover/movie';
+      const filterMap = isTV ? LIVE_TV_FILTER_MAP : LIVE_MOVIE_FILTER_MAP;
+      const params = new URLSearchParams({ api_key: LIVE_PREVIEW_TMDB_KEY, page: '1', include_adult: 'false' });
+      if (source.sortBy) params.set('sort_by', source.sortBy);
+      for (const [key, val] of Object.entries(source.filters || {})) {
+        const tmdbKey = filterMap[key];
+        if (tmdbKey && val !== null && val !== undefined && val !== '') params.set(tmdbKey, String(val));
+      }
+      url = `${endpoint}?${params}`;
+    } else if (type === 'COMPANY') {
+      if (!source.tmdbId) return null;
+      const endpoint = isTV ? 'https://api.themoviedb.org/3/discover/tv' : 'https://api.themoviedb.org/3/discover/movie';
+      const params = new URLSearchParams({ api_key: LIVE_PREVIEW_TMDB_KEY, page: '1', with_companies: String(source.tmdbId) });
+      url = `${endpoint}?${params}`;
+    } else if (type === 'LIST') {
+      if (!source.tmdbId) return null;
+      url = `https://api.themoviedb.org/3/list/${source.tmdbId}?api_key=${LIVE_PREVIEW_TMDB_KEY}`;
+    } else if (type === 'COLLECTION') {
+      if (!source.tmdbId) return null;
+      url = `https://api.themoviedb.org/3/collection/${source.tmdbId}?api_key=${LIVE_PREVIEW_TMDB_KEY}`;
+    } else {
+      return null;
+    }
+
+    const res = await fetch(url);
+    if (!res.ok) return null;
+    const data = await res.json();
+    const results = data.results || data.items || data.parts || [];
+    const paths = results
+      .slice(0, 12)
+      .map(r => isLandscape ? r.backdrop_path : r.poster_path)
+      .filter(Boolean);
+    return paths.length ? paths : null;
+  } catch (err) {
+    return null;
+  }
+}
+
+function formatPreviewAge(isoStr) {
+  const diffMs = Date.now() - new Date(isoStr).getTime();
+  const diffH = Math.floor(diffMs / 3600000);
+  const diffD = Math.floor(diffMs / 86400000);
+  if (diffH < 1)  return 'just now';
+  if (diffH < 24) return `${diffH} hour${diffH > 1 ? 's' : ''} ago`;
+  if (diffD === 1) return 'yesterday';
+  if (diffD < 7)  return `${diffD} days ago`;
+  return new Date(isoStr).toLocaleDateString('en-US', { month: 'long', day: 'numeric' });
+}
+
+async function fillFauxTiles(folder, source, container) {
+  if (!source || !container) return false;
+  const key = `${folder.id}::${source.title}`;
+
+  let paths = (window.PREVIEW_POSTERS && window.PREVIEW_POSTERS[key]) || null;
+  if (!paths) {
+    if (key in livePreviewCache) {
+      paths = livePreviewCache[key];
+    } else {
+      paths = await fetchLiveTitles(folder, source);
+      livePreviewCache[key] = paths;
+    }
+  }
+  if (!paths || !paths.length) return false;
+  if (!document.body.contains(container)) return false;
+
+  const isLandscape = (folder.tileShape || '').toUpperCase() === 'LANDSCAPE';
+  const baseUrl = isLandscape ? 'https://image.tmdb.org/t/p/w780' : 'https://image.tmdb.org/t/p/w342';
+  const tiles = container.querySelectorAll('.nv-faux-tile');
+  paths.forEach((p, i) => {
+    if (!tiles[i] || !p) return;
+    const img = document.createElement('img');
+    img.alt = '';
+    img.addEventListener('load',  () => img.classList.add('loaded'));
+    img.addEventListener('error', () => img.remove());
+    img.src = baseUrl + p;
+    if (img.complete && img.naturalWidth) img.classList.add('loaded');
+    tiles[i].appendChild(img);
+  });
+  return true;
+}
+
+// ---- Detail sheet (Nuvio detail-screen feel) ----------------------------
+function openPreviewDetail(folder, category) {
+  closePreviewDetail();
+  const stats = getFolderSourceCountStats(folder);
+  const folderKey = getFolderKey(folder);
+  const backdrop = folder.heroBackdropUrl || folder.coverImageUrl || '';
+  const isIncluded = stats.active > 0;
+  const isFeatured = folderKey === featuredKey;
+
+  const sourceChips = (folder.sources || []).map(src => {
+    const on = selectedMap[folderKey] && selectedMap[folderKey][getSourceKey(src)];
+    const provider = src.provider ? src.provider.toLowerCase() : 'tmdb';
+    return `<span class="nv-chip ${on ? 'on' : 'off'}"><span class="nv-chip-dot provider-${provider}"></span>${escapeHtml(getSourceName(src))}</span>`;
+  }).join('') || '<span class="nv-detail-empty">No individual sources.</span>';
+
+  // Layout demo: the View Mode controls how the folder's own catalogs lay out
+  // once you open it — NOT how the home-screen cards look. Show that here.
+  const layout = previewLayoutFromViewMode();
+  const activeSrc = (folder.sources || []).filter(src => selectedMap[folderKey] && selectedMap[folderKey][getSourceKey(src)]);
+  const demoSources = (activeSrc.length ? activeSrc : (folder.sources || [])).slice(0, 4);
+  const tile = () => '<div class="nv-faux-tile"></div>';
+  let layoutDemo;
+  if (layout === 'grid') {
+    const tabs = (demoSources.length ? demoSources : [{ title: 'All' }])
+      .map((s, i) => `<span class="nv-faux-tab ${i === 0 ? 'on' : ''}">${s.title || 'List'}</span>`).join('');
+    layoutDemo = `<div class="nv-faux-tabs">${tabs}</div><div class="nv-faux-grid">${Array.from({ length: 12 }).map(tile).join('')}</div>`;
+  } else {
+    layoutDemo = (demoSources.length ? demoSources : [{ title: 'Catalog' }]).map(s => `
+      <div class="nv-faux-row">
+        <span class="nv-faux-row-label">${s.title || 'Catalog'}</span>
+        <div class="nv-faux-strip">${Array.from({ length: 8 }).map(tile).join('')}</div>
+      </div>`).join('');
+  }
+
+  // Same rule as the hero and the grid cards: when the art already says the
+  // name and there's no separate backdrop, don't draw it a second time.
+  const logoHtml = (folder.hideTitle && !folder.heroBackdropUrl)
+    ? ''
+    : folder.titleLogoUrl
+      ? `<img class="nv-detail-logo" src="${folder.titleLogoUrl}" alt="${folder.title}">`
+      : `<h2 class="nv-detail-title">${folder.title}</h2>`;
+
+  const generatedAt = window.PREVIEW_POSTERS && window.PREVIEW_POSTERS._generatedAt;
+  const hasAnyPosters = window.PREVIEW_POSTERS && demoSources.some(s => {
+    const k = `${folder.id}::${s.title}`;
+    return window.PREVIEW_POSTERS[k] && window.PREVIEW_POSTERS[k].length > 0;
+  });
+  const noteText = hasAnyPosters
+    ? `Real titles from your sources · Updated ${formatPreviewAge(generatedAt)}`
+    : (demoSources.length ? 'Loading titles from your sources…' : 'Placeholder layout. Your lists fill with live titles once the collection is in Nuvio.');
+
+  const overlay = document.createElement('div');
+  overlay.id = 'preview-detail';
+  overlay.className = 'nv-detail-overlay';
+  overlay.innerHTML = `
+    <div class="nv-detail-sheet" role="dialog" aria-label="${folder.title}">
+      <button class="nv-detail-close" aria-label="Close">&times;</button>
+      <div class="nv-detail-banner">
+        <div class="nv-detail-bg" style="background-image:url('${backdrop}')"></div>
+        <div class="nv-detail-scrim"></div>
+      </div>
+      <div class="nv-detail-scrollable">
+        ${logoHtml}
+        <p class="nv-detail-meta">${category.title} · ${stats.active}/${stats.total} sources active</p>
+        <p class="nv-detail-desc">${folder.description || buildFolderDescription(folder, category)}</p>
+        <p class="nv-detail-section-label">Sources feeding this folder · ${stats.active}/${stats.total}</p>
+        <div class="nv-detail-chips">${sourceChips}</div>
+        <div class="nv-detail-inside">
+          <p class="nv-detail-inside-head">Inside this folder · ${previewLayoutLabel(layout)} <span class="nv-inside-hint">(this folder's internal layout, set by your View Mode, not the home screen)</span></p>
+          <div class="nv-faux-stage layout-${layout}">${layoutDemo}</div>
+          <p class="nv-faux-note">${noteText}</p>
+        </div>
+        <div class="nv-detail-actions">
+          <button class="nv-hero-btn nv-hero-play" data-act="toggle">${isIncluded ? 'Remove from collection' : 'Add to collection'}</button>
+          <button class="nv-hero-btn nv-hero-info" data-act="feature">${isFeatured ? '★ Featured' : '☆ Set as featured'}</button>
+          <button class="nv-hero-btn nv-hero-info" data-act="sources">Customize sources</button>
+        </div>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+  setCinematicWallpaper(folder);
+
+  // Fill live preview tiles — pre-baked TMDB cache first, then a live TMDB fetch as fallback
+  if (demoSources.length) {
+    const noteEl = overlay.querySelector('.nv-faux-note');
+    const markLoaded = (ok) => {
+      if (hasAnyPosters || !noteEl) return;
+      noteEl.textContent = ok
+        ? 'Real titles from your sources'
+        : 'Placeholder layout. Your lists fill with live titles once the collection is in Nuvio.';
+    };
+    if (layout === 'grid') {
+      const gridEl = overlay.querySelector('.nv-faux-grid');
+      const tabEls = overlay.querySelectorAll('.nv-faux-tab');
+      tabEls.forEach((tabEl, i) => {
+        tabEl.style.cursor = 'pointer';
+        tabEl.addEventListener('click', () => {
+          tabEls.forEach(t => t.classList.remove('on'));
+          tabEl.classList.add('on');
+          if (gridEl) {
+            gridEl.innerHTML = Array.from({ length: 12 }).map(() => '<div class="nv-faux-tile"></div>').join('');
+            fillFauxTiles(folder, demoSources[i], gridEl).then(markLoaded);
+          }
+        });
+      });
+      fillFauxTiles(folder, demoSources[0], gridEl).then(markLoaded);
+    } else {
+      const strips = overlay.querySelectorAll('.nv-faux-strip');
+      Promise.all(demoSources.map((src, i) => strips[i] ? fillFauxTiles(folder, src, strips[i]) : Promise.resolve(false)))
+        .then(results => markLoaded(results.some(Boolean)));
+    }
+  }
+
+  const close = () => closePreviewDetail();
+  overlay.addEventListener('click', (e) => { if (e.target === overlay) close(); });
+  overlay.querySelector('.nv-detail-close').addEventListener('click', close);
+  overlay.querySelector('[data-act="toggle"]').addEventListener('click', () => {
+    setFolderSelected(folder, !isIncluded);
+    document.querySelectorAll(`.nv-card[data-folder-key="${CSS.escape(folderKey)}"]`).forEach(c => refreshCardState(c, folder));
+    close();
+  });
+  overlay.querySelector('[data-act="feature"]').addEventListener('click', () => {
+    close();
+    setPreviewFeatured(folder, category);
+  });
+  overlay.querySelector('[data-act="sources"]').addEventListener('click', () => {
+    const catIdx = database.indexOf(category);
+    if (catIdx >= 0) currentCategoryIdx = catIdx;
+    close();
+    openSourceCustomizationDrawer(folder);
+  });
+  requestAnimationFrame(() => overlay.classList.add('open'));
+}
+function closePreviewDetail() {
+  const overlay = document.getElementById('preview-detail');
+  if (overlay) overlay.remove();
+}
+
+// ---- TV focus engine ----------------------------------------------------
+function collectPreviewFocusRows() {
+  previewRows = [];
+  document.querySelectorAll('.nv-emulator .nv-focus-row').forEach(rowEl => {
+    const items = Array.from(rowEl.querySelectorAll('.nv-focusable'));
+    if (items.length) previewRows.push(items);
+  });
+  previewPos = { r: 0, c: 0 };
+  clearPreviewFocus();
+}
+function clearPreviewFocus() {
+  document.querySelectorAll('.nv-focusable.is-focused').forEach(el => el.classList.remove('is-focused'));
+}
+// Scroll only the row's track (horizontally) and the screen's scroll area
+// (vertically) — never the outer canvas — so arrow nav behaves predictably.
+function scrollFocusIntoView(el) {
+  const track = el.closest('.nv-track');
+  if (track) {
+    const er = el.getBoundingClientRect();
+    const tr = track.getBoundingClientRect();
+    const pad = 70;
+    if (er.left < tr.left + pad) track.scrollLeft += er.left - tr.left - pad;
+    else if (er.right > tr.right - pad) track.scrollLeft += er.right - tr.right + pad;
+  }
+  const scroller = el.closest('.nv-scroll');
+  const row = el.closest('.nv-focus-row');
+  if (scroller && row) {
+    const rr = row.getBoundingClientRect();
+    const sr = scroller.getBoundingClientRect();
+    const pad = 24;
+    if (rr.top < sr.top + pad) scroller.scrollTop += rr.top - sr.top - pad;
+    else if (rr.bottom > sr.bottom - pad) scroller.scrollTop += rr.bottom - sr.bottom + pad;
+  }
+}
+function focusPreviewElement(el) {
+  // Sync previewPos to a directly-hovered element so keyboard nav continues from here.
+  for (let r = 0; r < previewRows.length; r++) {
+    const c = previewRows[r].indexOf(el);
+    if (c >= 0) { setPreviewFocus(r, c, false); return; }
+  }
+}
+function setPreviewFocus(r, c, scroll = true) {
+  if (!previewRows.length) return;
+  r = Math.max(0, Math.min(r, previewRows.length - 1));
+  c = Math.max(0, Math.min(c, previewRows[r].length - 1));
+  previewPos = { r, c };
+  clearPreviewFocus();
+  const el = previewRows[r][c];
+  if (!el) return;
+  el.classList.add('is-focused');
+  if (scroll) scrollFocusIntoView(el);
+  // Focused/hovered card drives the hero (and the page backdrop), like the real app
+  const card = el.closest('.nv-card');
+  if (card && card.__folder) {
+    attachCardGif(card);
+    setCinematicWallpaper(card.__folder);
+    setPreviewHero(card.__folder, card.__category);
+  }
+}
+
+// Lazily load a card's focus GIF the first time it's hovered/focused.
+function attachCardGif(card) {
+  const gif = card && card.querySelector('.nv-card-gif[data-gif]');
+  if (gif) { gif.src = gif.getAttribute('data-gif'); gif.removeAttribute('data-gif'); }
+}
+function handlePreviewKeydown(e) {
+  if (!isPreviewActive) return;
+  // Don't hijack arrow keys when the user is interacting with a dropdown/field.
+  if (e.target && /^(SELECT|INPUT|TEXTAREA)$/.test(e.target.tagName)) return;
+  if (document.getElementById('preview-detail')) {
+    if (e.key === 'Escape') { e.preventDefault(); closePreviewDetail(); }
+    return;
+  }
+  const overlayOpen = document.querySelector('.drawer-overlay.open, .wizard-overlay.open, .compat-overlay.open');
+  if (overlayOpen) return;
+  if (!previewRows.length) return;
+  switch (e.key) {
+    case 'ArrowRight': e.preventDefault(); setPreviewFocus(previewPos.r, previewPos.c + 1); break;
+    case 'ArrowLeft':  e.preventDefault(); setPreviewFocus(previewPos.r, previewPos.c - 1); break;
+    case 'ArrowDown':  e.preventDefault(); setPreviewFocus(previewPos.r + 1, previewPos.c); break;
+    case 'ArrowUp':    e.preventDefault(); setPreviewFocus(previewPos.r - 1, previewPos.c); break;
+    case 'Enter': case ' ': {
+      const el = previewRows[previewPos.r] && previewRows[previewPos.r][previewPos.c];
+      if (el) { e.preventDefault(); el.click(); }
+      break;
+    }
+  }
+}
+
+// The mobile bottom bar collapses everything but Download/Send behind a
+// "more" toggle (see .nv-preview-secondary in style.css). These just flip
+// the DOM class directly — no need to re-render the whole preview.
+function openPreviewSecondary() {
+  previewMoreOpen = true;
+  document.getElementById('nv-preview-secondary')?.classList.add('open');
+  const btn = document.getElementById('preview-more');
+  if (btn) { btn.classList.add('active'); btn.setAttribute('aria-expanded', 'true'); }
+}
+function closePreviewSecondary() {
+  previewMoreOpen = false;
+  document.getElementById('nv-preview-secondary')?.classList.remove('open');
+  const btn = document.getElementById('preview-more');
+  if (btn) { btn.classList.remove('active'); btn.setAttribute('aria-expanded', 'false'); }
+}
+
+// The mobile preview bar itself collapses into a single FAB (#preview-fab).
+// Opening it just reveals .nv-preview-content (⋯ / Download / Send to
+// Nuvio); the ⋯ disclosure above still nests one level deeper inside that.
+function openPreviewBar() {
+  previewBarOpen = true;
+  document.querySelector('.nv-preview-bar')?.classList.add('open');
+  const btn = document.getElementById('preview-fab');
+  if (btn) { btn.classList.add('active'); btn.setAttribute('aria-expanded', 'true'); }
+}
+function closePreviewBar() {
+  previewBarOpen = false;
+  document.querySelector('.nv-preview-bar')?.classList.remove('open');
+  const btn = document.getElementById('preview-fab');
+  if (btn) { btn.classList.remove('active'); btn.setAttribute('aria-expanded', 'false'); }
+}
+
+function bindPreviewControls() {
+  document.getElementById('preview-fab')?.addEventListener('click', () => {
+    if (previewBarOpen) closePreviewBar(); else openPreviewBar();
+  });
+  document.getElementById('preview-more')?.addEventListener('click', () => {
+    if (previewMoreOpen) closePreviewSecondary(); else openPreviewSecondary();
+  });
+  const vm = document.getElementById('preview-viewmode');
+  if (vm) {
+    vm.value = selectedViewMode;
+    vm.addEventListener('change', () => {
+      selectedViewMode = vm.value;
+      try { localStorage.setItem('kaptain_view_mode', selectedViewMode); } catch (e) { /* ignore */ }
+      const editorSel = document.getElementById('viewmode-select');
+      if (editorSel) { editorSel.value = selectedViewMode; updateRowsWarning(editorSel); }
+    });
+  }
+  document.querySelectorAll('.nv-device-opt').forEach(btn => {
+    btn.addEventListener('click', () => {
+      previewDevice = btn.getAttribute('data-device');
+      try { localStorage.setItem('kaptain_preview_device', previewDevice); } catch (e) { /* ignore */ }
+      renderPreviewCollection();
+    });
+  });
+  const reorderBtn = document.getElementById('preview-reorder');
+  if (reorderBtn) reorderBtn.addEventListener('click', () => {
+    reorderMode = !reorderMode;
+    updateReorderBanner();
+    renderSidebar();                 // section arrows in the sidebar
+    if (activeDrawerFolder) renderDrawerSourcesList();  // source arrows in the open drawer
+    renderPreviewCollection();       // card arrows + hide/show row sort menus
+  });
+  document.getElementById('preview-editorview')?.addEventListener('click', openSimpleEditor);
+  document.getElementById('preview-help')?.addEventListener('click', () => toggleShortcutPanel(true));
+  const dl = document.getElementById('preview-download');
+  if (dl) dl.addEventListener('click', () => ensureMobileCompat(compileAndDownloadJSON, { checkTmdb: false }));
+  document.getElementById('preview-bingecat')?.addEventListener('click', exportForBingecat);
+  document.getElementById('preview-selfhost')?.addEventListener('click', exportForSelfHost);
+  const send = document.getElementById('preview-send');
+  if (send) send.addEventListener('click', () => {
+    if (window.NuvioWizard && typeof window.NuvioWizard.open === 'function') window.NuvioWizard.open();
+    else document.getElementById('btn-send-to-nuvio')?.click();
+  });
+}
+
+// ==========================================================================
+// 6. CINEMATIC WALLPAPER CROSSFADE
+// ==========================================================================
+
+function setCinematicWallpaper(folder) {
+  if (!folder) return;
+  const imgUrl = folder.heroBackdropUrl || folder.coverImageUrl || '';
+  if (!imgUrl) return;
+
+  const bg1 = document.getElementById('backdrop-layer-1');
+  const bg2 = document.getElementById('backdrop-layer-2');
+  if (!bg1 || !bg2) return;
+
+  const isLayer1Active = bg1.classList.contains('active');
+  const activeLayer = isLayer1Active ? bg1 : bg2;
+  const hiddenLayer = isLayer1Active ? bg2 : bg1;
+
+  hiddenLayer.style.backgroundImage = `url(${imgUrl})`;
+  hiddenLayer.classList.add('active');
+  activeLayer.classList.remove('active');
+}
+
+// ==========================================================================
+// 7. SOURCE CUSTOMIZATION DRAWER
+// ==========================================================================
+
+function openSourceCustomizationDrawer(folder) {
+  activeDrawerFolder = folder;
+
+  const overlay = document.getElementById('drawer-overlay');
+  const catLabel = document.getElementById('drawer-cat-label');
+  const titleLabel = document.getElementById('drawer-title');
+  const stack = document.getElementById('drawer-sources-stack');
+
+  if (!overlay || !stack) return;
+
+  const category = database[currentCategoryIdx];
+  if (category) catLabel.textContent = category.title;
+  titleLabel.textContent = folder.title;
+
+  // Dynamic context hint based on source selection state
+  const hintEl = document.getElementById('drawer-context-hint');
+  if (hintEl) {
+    const sources = folder.sources || [];
+    const folderKey = getFolderKey(folder);
+    const enabledCount = sources.filter(s => selectedMap[folderKey] && selectedMap[folderKey][getSourceKey(s)]).length;
+    const total = sources.length;
+    if (total === 0) {
+      hintEl.textContent = '';
+    } else if (enabledCount === 0) {
+      hintEl.textContent = "Nothing's on yet. Flip something on to feed this folder.";
+    } else if (enabledCount === total) {
+      hintEl.textContent = "Full send. Every feed for this folder is running.";
+    } else if (enabledCount === 1 && total >= 4) {
+      hintEl.textContent = "You're running lean, just one feed here.";
+    } else {
+      hintEl.textContent = `${enabledCount} of ${total} feeds are running.`;
+    }
+  }
+
+  drawerSearch = '';
+  const drawerSearchInput = document.getElementById('drawer-search-input');
+  if (drawerSearchInput) drawerSearchInput.value = '';
+  const drawerSearchWrap = document.getElementById('drawer-search-container');
+  if (drawerSearchWrap) drawerSearchWrap.classList.remove('has-value');
+
+  renderDrawerSourcesList();
+  overlay.classList.add('open');
+}
+
+function renderDrawerSourcesList() {
+  const stack = document.getElementById('drawer-sources-stack');
+  if (!stack || !activeDrawerFolder) return;
+
+  stack.innerHTML = '';
+  const folder = activeDrawerFolder;
+  const folderKey = getFolderKey(folder);
+  const sources = folder.sources || [];
+
+  if (sources.length === 0) {
+    stack.innerHTML = `<div style="color: var(--text-muted); font-size: 0.9rem; padding: 20px 0;">This folder has no individual sources to customize.</div>`;
+    return;
+  }
+
+  const query = drawerSearch.toLowerCase().trim();
+  const filteredSources = sources.filter((source) => query === '' || getSourceName(source).toLowerCase().includes(query));
+
+  if (filteredSources.length === 0) {
+    stack.innerHTML = `<div style="color: var(--text-muted); font-size: 0.9rem; padding: 20px 0;">No sources matching "${escapeHtml(drawerSearch)}".</div>`;
+    return;
+  }
+
+  // Reorder arrows are only safe to show against the full, unfiltered list.
+  const showArrows = reorderMode && query === '';
+
+  filteredSources.forEach((source) => {
+    const srcIdx = sources.indexOf(source);
+    const sourceKey = getSourceKey(source);
+    const isSelected = selectedMap[folderKey] && selectedMap[folderKey][sourceKey];
+
+    const row = document.createElement('div');
+    row.className = `source-row-item ${isSelected ? 'selected' : ''} ${showArrows ? 'reorder-active' : ''}`;
+
+    const mediaPill = source.mediaType ? source.mediaType : (source.type ? source.type.toUpperCase() : 'All');
+    const rawProvider = source.provider ? source.provider.toLowerCase() : 'tmdb';
+    const providerPill = rawProvider;
+    const providerLabel = getProviderLabel(source);
+
+    const leadControl = showArrows
+      ? reorderArrowsHtml(srcIdx === 0, srcIdx === sources.length - 1)
+      : `<div class="source-checkbox-container">
+           <div class="source-checkbox-visual">
+             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+               <polyline points="20 6 9 17 4 12"></polyline>
+             </svg>
+           </div>
+         </div>`;
+
+    row.innerHTML = `
+      ${leadControl}
+      <div class="source-info-combo">
+        <span class="source-row-title">${highlightMatch(getSourceName(source), query)}</span>
+        <div class="source-meta-tag-row">
+          <span class="source-meta-pill provider-${providerPill}" title="${providerLabel}">${providerLabel}</span>
+          <span class="source-meta-pill">${mediaPill}</span>
+          ${source.traktListId ? `<span class="source-meta-pill" style="font-size:0.65rem;color:var(--text-muted);">List: ${source.traktListId}</span>` : ''}
+          ${source.sortBy ? `<span class="source-meta-pill" style="font-size:0.65rem;color:var(--text-muted);" title="${source.sortBy}">${sortLabel(source.sortBy)}</span>` : ''}
+        </div>
+      </div>
+    `;
+
+    if (showArrows) {
+      row.querySelectorAll('.reorder-arrow').forEach((btn) => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          if (btn.disabled) return;
+          const dir = parseInt(btn.getAttribute('data-dir'), 10);
+          moveItem(sources, srcIdx, dir);
+          renderDrawerSourcesList();
+          if (isSimpleEditorOpen()) renderSimpleCollection();
+          notifyAccountSave();
+        });
+      });
+    } else {
+      row.addEventListener('click', () => {
+        if (!selectedMap[folderKey]) selectedMap[folderKey] = {};
+        selectedMap[folderKey][sourceKey] = !isSelected;
+        renderDrawerSourcesList();
+        renderFolderGrid();
+        renderSidebar();
+        renderCategoryActions();
+        updateControlCenterStats();
+        if (isSimpleEditorOpen()) renderSimpleCollection();
+        notifyAccountSave();
+
+        const stats = getCategorySelectionStats(currentCategoryIdx);
+        const subtitleEl = document.getElementById('view-subtitle');
+        if (subtitleEl && !isGuideActive && !isPreviewActive) {
+          subtitleEl.textContent = `${stats.selectedFolders} of ${stats.totalFolders} folders selected`;
+        }
+      });
+    }
+
+    stack.appendChild(row);
+  });
+}
+
+function closeDrawer() {
+  const overlay = document.getElementById('drawer-overlay');
+  if (overlay) overlay.classList.remove('open');
+  activeDrawerFolder = null;
+}
+
+// ==========================================================================
+// 8. CONTROL CENTER STATS
+// ==========================================================================
+
+function updateControlCenterStats() {
+  let selectedFolders = 0;
+  let totalFolders = 0;
+  let selectedSources = 0;
+  let totalSources = 0;
+
+  database.forEach(category => {
+    if (!category.folders) return;
+    category.folders.forEach(folder => {
+      totalFolders++;
+      const folderKey = getFolderKey(folder);
+      const sources = folder.sources || [];
+      totalSources += sources.length;
+
+      let folderHasActiveSource = false;
+      sources.forEach(source => {
+        if (selectedMap[folderKey] && selectedMap[folderKey][getSourceKey(source)]) {
+          selectedSources++;
+          folderHasActiveSource = true;
+        }
+      });
+
+      if (folderHasActiveSource) selectedFolders++;
+    });
+  });
+
+  const estBytes = (selectedFolders * 1350) + (selectedSources * 420) + 5120;
+  const estSizeKB = (estBytes / 1024).toFixed(1);
+
+  setStatValue(document.getElementById('selected-folders-count'), `${selectedFolders} of ${totalFolders}`, false);
+  setStatValue(document.getElementById('selected-sources-count'), `${selectedSources} of ${totalSources}`, false);
+  checkSyncState();
+  notifyAccountSave();
+}
+
+// Write a stat value, and give it a brief pulse only when it actually changed
+// (this runs on every render, so unconditional animation would never settle).
+function setStatValue(el, html, isHtml) {
+  if (!el) return;
+  const current = isHtml ? el.innerHTML : el.textContent;
+  if (current === html) return;
+  if (isHtml) el.innerHTML = html; else el.textContent = html;
+  el.classList.remove('stat-bumped');
+  void el.offsetWidth;
+  el.classList.add('stat-bumped');
+}
+
+// ==========================================================================
+// 9. EXPORT & DOWNLOAD
+// ==========================================================================
+
+function updateRowsWarning(selectEl) {
+  const existing = document.getElementById('rows-warn-badge');
+  if (selectEl.value === 'ROWS') {
+    if (!existing) {
+      const badge = document.createElement('span');
+      badge.id = 'rows-warn-badge';
+      badge.className = 'rows-warn-badge';
+      badge.textContent = '⚠ Doesn\'t work on Nuvio Mobile';
+      selectEl.parentNode.insertAdjacentElement('afterend', badge);
+    }
+  } else {
+    if (existing) existing.remove();
+  }
+}
+
+// The view mode written to every exported collection. When the user opted into
+// the mobile-optimize box, any incompatible mode is rewritten to TABBED_GRID.
+function computeExportViewMode(optimize) {
+  if (optimize && (selectedViewMode === 'ROWS' || selectedViewMode === 'FOLLOW_LAYOUT')) {
+    return 'TABBED_GRID';
+  }
+  return selectedViewMode;
+}
+
+// ---- Bingecat export -----------------------------------------------------
+// Bingecat takes our exported collection file and re-routes every list through
+// its own addon (cached results, ratings, artwork). The file itself is the
+// ordinary collection export, so this is a labelled entry point rather than a
+// separate format — which is why it belongs anywhere the collection can be
+// saved, not just on the title screen. Distinct from the Bingecat "For You"
+// integration in the wizard, which is a different feature entirely.
+const BINGECAT_LOGO_SRC = 'assets/bingecat-logo.png';
+const BINGECAT_IMPORT_ENDPOINT = String(
+  window.KAPTAIN_BINGECAT_IMPORT_ENDPOINT
+    || 'https://bingecat.com/integrations/kaptain/collections'
+).trim();
+
+// Handoff-only For You rewrite. Same four Bingecat recommendation slots the
+// Nuvio wizard already matches by name (wizard.js BINGECAT_FOLDER_DEFS). We
+// strip Trakt/MDBList/aio-metadata and ship stable placeholders so Bingecat
+// can resolve them to the importing account's real catalogs.
+const BINGECAT_PLACEHOLDER_ADDON_ID = 'bingecat';
+const BINGECAT_FOR_YOU_FOLDER_ID = 'folder-25429024';
+const BINGECAT_FOR_YOU_PLACEHOLDERS = [
+  { catalogId: 'bingecat.ai-recs', name: 'AI Recommendations' },
+  { catalogId: 'bingecat.because-watched', name: 'Because You Watched' },
+  { catalogId: 'bingecat.latest', name: 'Latest For You' },
+  { catalogId: 'bingecat.list', name: 'List For You' },
+];
+
+function buildBingecatForYouPlaceholderSources() {
+  const sources = [];
+  BINGECAT_FOR_YOU_PLACEHOLDERS.forEach((slot) => {
+    ['movie', 'series'].forEach((type) => {
+      sources.push({
+        type,
+        genre: slot.name,
+        name: slot.name,
+        addonId: BINGECAT_PLACEHOLDER_ADDON_ID,
+        provider: 'addon',
+        catalogId: slot.catalogId,
+      });
+    });
+  });
+  return sources;
+}
+
+// Bingecat Open-in path only — Nuvio Save File / Send keep Trakt For You.
+function prepareBingecatPayload(customConfig) {
+  const placeholders = buildBingecatForYouPlaceholderSources();
+  const catalogSources = placeholders.map((s) => ({
+    type: s.type,
+    addonId: s.addonId,
+    catalogId: s.catalogId,
+  }));
+
+  return customConfig.map((category) => {
+    if (!category || !Array.isArray(category.folders)) return category;
+    let touched = false;
+    const folders = category.folders.map((folder) => {
+      if (!folder) return folder;
+      const isForYou = folder.id === BINGECAT_FOR_YOU_FOLDER_ID
+        || folder.title === 'For You';
+      if (!isForYou) return folder;
+      touched = true;
+      return {
+        ...folder,
+        sources: placeholders.map((s) => ({ ...s })),
+        catalogSources: catalogSources.map((s) => ({ ...s })),
+      };
+    });
+    return touched ? { ...category, folders } : category;
+  });
+}
+
+// Renders as the real logo when the asset exists and silently degrades to a
+// glyph when it doesn't, so a missing file never shows a broken image.
+function bingecatMarkHtml(extraClass) {
+  return `<span class="bingecat-mark ${extraClass || ''}"><img src="${BINGECAT_LOGO_SRC}" alt="" onerror="this.parentNode.classList.add('no-logo');this.remove();"></span>`;
+}
+
+// Upload the current selection to BingeCat and continue through its login or
+// onboarding flow. The server returns an opaque handoff URL, so collection
+// contents never appear in the browser URL or a referrer.
+async function uploadForBingecat(customConfig = assembleFilteredDatabase()) {
+  if (!customConfig.length) {
+    showToast('Pick at least one folder before sending to BingeCat.', 'error');
+    return;
+  }
+  if (!BINGECAT_IMPORT_ENDPOINT) {
+    showToast('BingeCat import is not configured for this preview.', 'error');
+    return;
+  }
+  const payload = prepareBingecatPayload(customConfig);
+  try {
+    const response = await fetch(BINGECAT_IMPORT_ENDPOINT, {
+      method: 'POST',
+      mode: 'cors',
+      credentials: 'omit',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(payload),
+    });
+    let data = {};
+    try {
+      data = await response.json();
+    } catch (_error) {
+      data = {};
+    }
+    if (!response.ok || !data.success) {
+      throw new Error(String(data.error || 'BingeCat could not receive this collection.'));
+    }
+    const continueUrl = String(data.continue_url || '').trim();
+    if (!continueUrl) throw new Error('BingeCat did not return a continuation URL.');
+    showToast('Opening BingeCat import...', 'success');
+    window.location.assign(continueUrl);
+  } catch (error) {
+    showToast(error instanceof Error ? error.message : 'BingeCat import failed.', 'error');
+  }
+}
+
+// Keep the original title-screen export flow: it downloads a regular
+// collection file so users can curate it elsewhere or import it manually.
+function exportForBingecat() {
+  ensureMobileCompat(
+    () => compileAndDownloadJSON(false, true),
+    { checkTmdb: false },
+  );
+}
+
+async function exportForSelfHost() {
+  if (!window.NuvioWizard || typeof window.NuvioWizard.generateSelfHostExport !== 'function') {
+    showToast('AIO Streams setup is not ready yet.', 'error');
+    return;
+  }
+  
+  const popup = document.getElementById('popup-overlay');
+  if (popup) popup.classList.add('open');
+  const popupTitle = document.getElementById('popup-title');
+  if (popupTitle) popupTitle.textContent = 'Generating Self-Host Export...';
+
+  try {
+    const result = await window.NuvioWizard.generateSelfHostExport();
+    const stamp = new Date().toISOString().slice(0, 10);
+
+    const aioStr = typeof result === 'object' ? result.aioConfig : result;
+    const collectionStr = typeof result === 'object' ? result.nuvioCollection : null;
+
+    function triggerDownload(content, filename) {
+      const blob = new Blob([content], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+
+    // 1. Download AIO Metadata Config (for user's server)
+    triggerDownload(aioStr, `aiometadata_config_${stamp}.json`);
+
+    // 2. Download Nuvio Collection JSON (for importing into Nuvio)
+    if (collectionStr) {
+      setTimeout(() => {
+        triggerDownload(collectionStr, `nuvio_collection_selfhost_${stamp}.json`);
+      }, 300);
+    }
+    
+    if (popup) popup.classList.remove('open');
+    showToast('Downloaded AIO Server Config & Nuvio Collection JSON!', 'success');
+  } catch (err) {
+    if (popup) popup.classList.remove('open');
+    showToast('Error generating export: ' + err.message, 'error');
+    console.error(err);
+  }
+}
+
+// From the title screen nothing has been curated yet, so asking beats
+// assuming: sending the whole thing and trimming on Bingecat's side is a
+// perfectly normal workflow, but so is picking first.
+function showUpdateFaqModal() {
+  const existing = document.getElementById('faq-overlay');
+  if (existing) existing.remove();
+  const overlay = document.createElement('div');
+  overlay.id = 'faq-overlay';
+  overlay.className = 'popup-overlay faq-overlay';
+  overlay.innerHTML = `
+    <div class="popup-panel faq-panel" role="dialog" aria-modal="true" aria-labelledby="faq-title">
+      <h3 class="popup-title" id="faq-title">FAQ — Updates &amp; installs</h3>
+      <div class="faq-body">
+        <p><strong>How do I update an older install?</strong><br>
+        Open this tool → Set Up / Send to Nuvio → on each existing row choose <em>Add missing</em> (keeps your layout). Use <em>Replace</em> only when you want that row fully overwritten.</p>
+        <p><strong>Does the Nuvio Community Pack auto-update?</strong><br>
+        No. Re-open the pack or re-send from this tool when you want the latest.</p>
+        <p><strong>Movies empty / “Trakt list not found” on an old profile?</strong><br>
+        Movie lists moved from public Trakt lists to TMDB. Replace or re-send <em>Streaming Services</em>, <em>Actors</em>, and <em>Directors</em> (Add missing / Replace as needed).</p>
+        <p><strong>Bingecat — which button?</strong><br>
+        Use the in-tool <em>Bingecat</em> button (direct handoff). That path includes Streaming Services. The old “download JSON and upload elsewhere” flow is legacy.</p>
+        <p><strong>TMDB errors / empty Discover tabs?</strong><br>
+        Connect your TMDB API key in Nuvio Integrations, then refresh.</p>
+        <p><strong>Pack → Bingecat?</strong><br>
+        Remove or leave the old Pack rows on your profile, then send via the Bingecat button so you are not running two full copies.</p>
+        <p><strong>Hover GIFs draining battery?</strong><br>
+        Open Quick Editor → Settings and turn off hover GIFs. Cards fall back to the static PNG cover.</p>
+        <p><strong>Vote &amp; rating sliders in Guided Setup?</strong><br>
+        They scale each row’s own Studio floor — they do not stamp one number on every folder. Genre Top All Time stays much stricter than New Movies. Rating nudge only applies where a rating floor already exists (Moods). Lists and Trakt sources are not changed.</p>
+      </div>
+      <button type="button" class="bc-choice-cancel" id="faq-close">Close</button>
+    </div>`;
+  document.body.appendChild(overlay);
+  void overlay.offsetHeight;
+  overlay.classList.add('open');
+  const close = () => {
+    overlay.classList.remove('open');
+    setTimeout(() => overlay.remove(), 180);
+  };
+  overlay.querySelector('#faq-close')?.addEventListener('click', close);
+  overlay.addEventListener('click', (e) => { if (e.target === overlay) close(); });
+  document.addEventListener('keydown', function onEsc(e) {
+    if (e.key === 'Escape') { close(); document.removeEventListener('keydown', onEsc); }
+  });
+  overlay.querySelector('#faq-close')?.focus();
+}
+
+function showBingecatStartChoice() {
+  const overlay = document.createElement('div');
+  overlay.className = 'popup-overlay bc-choice-overlay';
+  overlay.innerHTML = `
+    <div class="popup-panel bc-choice-panel" role="dialog" aria-modal="true" aria-labelledby="bc-choice-title">
+      ${bingecatMarkHtml('bc-choice-mark bingecat-mark--full')}
+      <h3 class="popup-title" id="bc-choice-title">Export for Bingecat</h3>
+      <p class="bc-choice-note">Bingecat runs your lists through its own addon for cached results, ratings and artwork. What should it get?</p>
+      <button type="button" class="bc-choice-opt" id="bc-choice-full">
+        <span class="bc-choice-opt-title">Full Mega Collection</span>
+        <span class="bc-choice-opt-desc">Every folder we have. Download it now and curate inside Bingecat.</span>
+      </button>
+      <button type="button" class="bc-choice-opt" id="bc-choice-edit">
+        <span class="bc-choice-opt-title">Edit first</span>
+        <span class="bc-choice-opt-desc">Pick what you want here, then export to Bingecat when you're happy with it.</span>
+      </button>
+      <button type="button" class="bc-choice-cancel" id="bc-choice-cancel">Cancel</button>
+    </div>`;
+  document.body.appendChild(overlay);
+  void overlay.offsetHeight;
+  overlay.classList.add('open');
+  overlay.querySelector('#bc-choice-full').focus();
+
+  const dismiss = () => {
+    document.removeEventListener('keydown', onKey);
+    overlay.classList.remove('open');
+    setTimeout(() => overlay.remove(), 220);
+  };
+  const onKey = (e) => { if (e.key === 'Escape') dismiss(); };
+  document.addEventListener('keydown', onKey);
+  overlay.addEventListener('click', (e) => { if (e.target === overlay) dismiss(); });
+  overlay.querySelector('#bc-choice-cancel').addEventListener('click', dismiss);
+  overlay.querySelector('#bc-choice-full').addEventListener('click', () => {
+    dismiss();
+    // Drop the hero before the confirm/loader/toasts — those used to open
+    // under the title screen even after the choice dialog itself was raised.
+    hideTitleScreen();
+    initializeSelections();
+    renderSidebar();
+    if (isPreviewActive) renderPreviewCollection();
+    exportForBingecat();
+  });
+  overlay.querySelector('#bc-choice-edit').addEventListener('click', () => {
+    dismiss();
+    hideTitleScreen();
+    showToast('Pick what you want, then hit "Bingecat" in the bar below to export.', 'success');
+  });
+}
+
+function showSelfHostStartChoice() {
+  const overlay = document.createElement('div');
+  overlay.className = 'popup-overlay bc-choice-overlay';
+  overlay.innerHTML = `
+    <div class="popup-panel bc-choice-panel" role="dialog" aria-modal="true" aria-labelledby="sh-choice-title">
+      <div class="bc-choice-mark bingecat-mark--full" style="background:#4a4a4a; display:flex; align-items:center; justify-content:center; border-radius:50%; width:64px; height:64px; margin: 0 auto 16px;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:32px;height:32px;"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+      </div>
+      <h3 class="popup-title" id="sh-choice-title">Export for Self-Host</h3>
+      <p class="bc-choice-note">Export the collection as a single JSON config for your own AIO Metadata instance. What should be included?</p>
+      <button type="button" class="bc-choice-opt" id="sh-choice-full">
+        <span class="bc-choice-opt-title">Full Mega Collection</span>
+        <span class="bc-choice-opt-desc">Every folder we have. Download it now to configure your instance.</span>
+      </button>
+      <button type="button" class="bc-choice-opt" id="sh-choice-edit">
+        <span class="bc-choice-opt-title">Edit first</span>
+        <span class="bc-choice-opt-desc">Pick what you want here, then export to Self-Host when you're happy with it.</span>
+      </button>
+      <button type="button" class="bc-choice-cancel" id="sh-choice-cancel">Cancel</button>
+    </div>`;
+  document.body.appendChild(overlay);
+  void overlay.offsetHeight;
+  overlay.classList.add('open');
+  overlay.querySelector('#sh-choice-full').focus();
+
+  const dismiss = () => {
+    document.removeEventListener('keydown', onKey);
+    overlay.classList.remove('open');
+    setTimeout(() => overlay.remove(), 220);
+  };
+  const onKey = (e) => { if (e.key === 'Escape') dismiss(); };
+  document.addEventListener('keydown', onKey);
+  overlay.addEventListener('click', (e) => { if (e.target === overlay) dismiss(); });
+  overlay.querySelector('#sh-choice-cancel').addEventListener('click', dismiss);
+  overlay.querySelector('#sh-choice-full').addEventListener('click', () => {
+    dismiss();
+    hideTitleScreen();
+    initializeSelections();
+    renderSidebar();
+    if (isPreviewActive) renderPreviewCollection();
+    exportForSelfHost();
+  });
+  overlay.querySelector('#sh-choice-edit').addEventListener('click', () => {
+    dismiss();
+    hideTitleScreen();
+    showToast('Pick what you want, then hit "Self-Host" in the bar below to export.', 'success');
+  });
+}
+
+function formatFileSize(bytes) {
+  if (bytes < 1024) return `${bytes} B`;
+  if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(0)} KB`;
+  return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
+}
+
+// Shows what's about to land in the Downloads folder before it lands there.
+// Resolves "save" or "bingecat" for the selected action, and null when
+// canceled. The BingeCat action is only rendered for BingeCat-originated
+// exports; regular Save File exports keep the original two-button dialog.
+function confirmDownload({ filename, folders, sources, bytes, includeBingecat = false }) {
+  return new Promise((resolve) => {
+    const overlay = document.createElement('div');
+    overlay.className = 'popup-overlay dl-confirm-overlay';
+    overlay.innerHTML = `
+      <div class="popup-panel dl-confirm-panel" role="dialog" aria-modal="true" aria-labelledby="dl-confirm-title">
+        <h3 class="popup-title" id="dl-confirm-title">Save this collection file?</h3>
+        <div class="dl-confirm-file">
+          <span class="dl-confirm-icon" aria-hidden="true">📄</span>
+          <div class="dl-confirm-file-text">
+            <span class="dl-confirm-name">${escapeHtml(filename)}</span>
+            <span class="dl-confirm-meta">${folders} folder${folders === 1 ? '' : 's'} · ${sources} source${sources === 1 ? '' : 's'} · ${formatFileSize(bytes)}</span>
+          </div>
+        </div>
+        <p class="dl-confirm-note">${includeBingecat
+          ? 'Save it to your usual Downloads folder, or open this selection in BingeCat.'
+          : "It'll go to your usual Downloads folder. You import it into Nuvio yourself afterwards."}</p>
+        <div class="dl-confirm-actions">
+          <button type="button" class="dl-confirm-cancel" id="dl-confirm-cancel">Cancel</button>
+          <button type="button" class="dl-confirm-go" id="dl-confirm-go">Save file</button>
+          ${includeBingecat ? `<button type="button" class="dl-confirm-bingecat" id="dl-confirm-bingecat">
+            ${bingecatMarkHtml()}
+            <span>Open in BingeCat</span>
+          </button>` : ''}
+        </div>
+      </div>`;
+    document.body.appendChild(overlay);
+    // Force a reflow rather than waiting on requestAnimationFrame: rAF only
+    // fires while the tab is actually painting, so a backgrounded tab would
+    // append a permanently invisible dialog. Reading offsetHeight commits the
+    // pre-transition state synchronously, which is all the animation needs.
+    void overlay.offsetHeight;
+    overlay.classList.add('open');
+    // Only focusable once .open lifts visibility:hidden.
+    overlay.querySelector('#dl-confirm-go').focus();
+
+    const finish = (result) => {
+      document.removeEventListener('keydown', onKey);
+      overlay.classList.remove('open');
+      setTimeout(() => overlay.remove(), 220);
+      resolve(result);
+    };
+    const onKey = (e) => { if (e.key === 'Escape') finish(null); };
+    document.addEventListener('keydown', onKey);
+    overlay.addEventListener('click', (e) => { if (e.target === overlay) finish(null); });
+    overlay.querySelector('#dl-confirm-cancel').addEventListener('click', () => finish(null));
+    overlay.querySelector('#dl-confirm-go').addEventListener('click', () => finish('save'));
+    overlay.querySelector('#dl-confirm-bingecat')?.addEventListener('click', () => finish('bingecat'));
+  });
+}
+
+// `skipConfirm` is for the one place a second prompt would be hostile: the
+// wizard's "Download instead" fallback, offered *after* a push already failed.
+async function compileAndDownloadJSON(skipConfirm, includeBingecat = false) {
+  let customConfig = assembleFilteredDatabase();
+  customConfig = await applyLocaleToCollection(customConfig);
+  const json = JSON.stringify(customConfig, null, 2);
+  const stamp = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+  const filename = `nuvio_custom_collection_${stamp}.json`;
+
+  if (!skipConfirm) {
+    let folders = 0, sources = 0;
+    customConfig.forEach((cat) => (cat.folders || []).forEach((f) => {
+      folders += 1;
+      sources += (f.sources || []).length;
+    }));
+    const action = await confirmDownload({
+      filename, folders, sources, bytes: new Blob([json]).size, includeBingecat,
+    });
+    if (action === 'bingecat') {
+      await uploadForBingecat(customConfig);
+      return;
+    }
+    if (action !== 'save') return;
+  }
+
+  const popup = document.getElementById('popup-overlay');
+  if (popup) popup.classList.add('open');
+
+  setTimeout(() => {
+    const blob = new Blob([json], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = filename;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+
+    if (popup) popup.classList.remove('open');
+    showToast("Your custom collection file has been downloaded.", "success");
+    window.KaptainTelemetry.hit('deployments');
+  }, 900);
+}
+
+function applyLocaleDict(collections, localeDict) {
+  if (!localeDict || !collections) return collections;
+  // Ne touche pas aux identifiants, filtres ou illustrations.
+  // Supprime seulement les suffixes media dupliques APRES localisation.
+  const cleanLabel = (value) => String(value || '')
+    .replace(/\b(Films|Séries)\s*[-–—:]\s*\1\b/gi, '$1')
+    .replace(/\b(Films|Séries)\s*\(\s*\1\s*\)/gi, '$1')
+    .replace(/\b(Films|Séries)\s+\1\b/gi, '$1')
+    .trim();
+  const t = (s) => {
+    if (!s || typeof s !== 'string') return s;
+    const value = Object.prototype.hasOwnProperty.call(localeDict, s) ? localeDict[s] : s;
+    return cleanLabel(value);
+  };
+  collections.forEach(c => {
+    const isGenreCategory = c.id === 'collection-HFTCV0TA' || c.title === 'Genres';
+    const isNetworkCategory = c.id === '27bda92a-f626-4093-a2ba-0a32dc09437a' || c.title === 'Networks';
+    const isBasedOnCategory = c.id === 'collection-BASEDON1' || c.title === 'Based on';
+    if (c.title) c.title = t(c.title);
+    (c.folders || []).forEach(f => {
+      // « History » est un genre (« Histoire ») ET le nom officiel d'une chaîne.
+      // Contextualiser le titre visible sans modifier l'identifiant ou les filtres.
+      if (isGenreCategory && f.id === 'folder-LCRKWAHO') f.title = 'Histoire';
+      else if (isNetworkCategory && f.id === 'folder-I7A4OFK0') f.title = 'History';
+      // La catégorie « Basé sur » contient des adaptations de pièces de théâtre.
+      // Ne pas traduire globalement le bouton « Play » du lecteur vidéo.
+      else if (isBasedOnCategory && f.id === 'folder-BSPLAY01') f.title = 'Pièces de théâtre';
+      else if (f.title) f.title = t(f.title);
+      (f.sources || []).forEach(s => {
+        if (s.title) s.title = t(s.title);
+        if (s.name) s.name = t(s.name);
+        if (s.genre) s.genre = t(s.genre);
+      });
+      (f.catalogSources || []).forEach(s => {
+        if (s.title) s.title = t(s.title);
+        if (s.genre) s.genre = t(s.genre);
+      });
+    });
+  });
+  return collections;
+}
+
+async function applyLocaleToCollection(collections) {
+  const cust = window.kaptainCustomize;
+  if (!cust || !cust.locale || cust.locale === 'en') return collections;
+  try {
+    const res = await fetch('locales/' + cust.locale + '.json?v=' + Date.now());
+    if (!res.ok) return collections;
+    applyLocaleDict(collections, await res.json());
+  } catch (err) {
+    console.warn('Could not load locale ' + cust.locale, err);
+  }
+  return collections;
+}
+
+// `optimize` defaults to the flag decided by the most recent compat gate, so the
+// wizard's no-arg calls stay consistent with what the user chose.
+function assembleFilteredDatabase(optimize) {
+  const opt = (optimize === undefined) ? lastExportOptimize : optimize;
+  const exportViewMode = computeExportViewMode(opt);
+  const customConfig = [];
+
+  database.forEach(category => {
+    if (!category.folders) return;
+    const categoryClone = { ...category };
+    const filteredFolders = [];
+
+    category.folders.forEach(folder => {
+      const folderKey = getFolderKey(folder);
+      const sources = folder.sources || [];
+      const activeSources = [];
+
+      sources.forEach(source => {
+        if (selectedMap[folderKey] && selectedMap[folderKey][getSourceKey(source)]) {
+                    let clonedSource = { ...source };
+          
+          if (window.kaptainCustomize || window.kaptainExcludeAnime || window.kaptainExcludeBollywood) {
+            clonedSource.filters = { ...(clonedSource.filters || {}) };
+            
+            const cust = window.kaptainCustomize || {};
+            
+            // Negative Filters
+            if (cust.excludeAnime || window.kaptainExcludeAnime) {
+                clonedSource.filters.withoutGenres = clonedSource.filters.withoutGenres ? clonedSource.filters.withoutGenres + '|16' : '16';
+                clonedSource.filters.withoutKeywords = clonedSource.filters.withoutKeywords ? clonedSource.filters.withoutKeywords + '|210024' : '210024';
+            }
+            if (cust.excludeBollywood || window.kaptainExcludeBollywood) {
+                clonedSource.filters.withoutKeywords = clonedSource.filters.withoutKeywords ? clonedSource.filters.withoutKeywords + '|9715' : '9715';
+            }
+            if (cust.excludeHorror) {
+                clonedSource.filters.withoutGenres = clonedSource.filters.withoutGenres ? clonedSource.filters.withoutGenres + '|27' : '27';
+            }
+            if (cust.excludeRomance) {
+                clonedSource.filters.withoutGenres = clonedSource.filters.withoutGenres ? clonedSource.filters.withoutGenres + '|10749' : '10749';
+            }
+            if (cust.excludeKids) {
+                clonedSource.filters.withoutGenres = clonedSource.filters.withoutGenres ? clonedSource.filters.withoutGenres + '|10751' : '10751';
+            }
+            if (cust.excludeReality) {
+                clonedSource.filters.withoutGenres = clonedSource.filters.withoutGenres ? clonedSource.filters.withoutGenres + '|10764' : '10764';
+            }
+            
+            // Region and Language — only for TMDB / Discover catalog sources.
+            // Addon / For You / other providers keep their own region wiring.
+            const providerLower = String(clonedSource.provider || 'tmdb').toLowerCase();
+            const isAddon = providerLower === 'addon' || clonedSource.provider === 'addon';
+            const isForYouFolder = String(folder.title || '').trim().toLowerCase() === 'for you';
+            const isDiscover = String(clonedSource.tmdbSourceType || '').toUpperCase() === 'DISCOVER';
+            const isTmdbSource = providerLower === 'tmdb' || (!clonedSource.provider && !!clonedSource.tmdbSourceType);
+            const skipRegionLang = isAddon || isForYouFolder || (!isDiscover && !isTmdbSource);
+
+            if (!skipRegionLang) {
+              const f = clonedSource.filters;
+              const isStreamingDiscover = isDiscover && (
+                f.watch_region != null || f.watchRegion != null
+                || f.with_watch_providers != null || f.withWatchProviders != null
+              );
+              const regionCode = cust.country || (Array.isArray(cust.countries) && cust.countries[0]) || '';
+              // Certain streaming providers are strictly country-locked (e.g. Crave and Hayu to Canada CA).
+              // Never overwrite their watch_region with a foreign country code where the provider does not exist.
+              const isCountryLocked = ['crave', 'hayu'].includes(String(folder.title || '').trim().toLowerCase())
+                || ['230', '223'].includes(String(f.with_watch_providers || f.withWatchProviders || '').trim());
+              if (regionCode && isStreamingDiscover && !isCountryLocked) {
+                // TMDB watch_region sets the streaming storefront country availability
+                f.watch_region = regionCode;
+                f.watchRegion = regionCode;
+              }
+              if (cust.foreignNative === false && cust.locale) {
+                // If foreign language is off, force to user chosen language
+                f.withOriginalLanguage = cust.locale;
+                // Scale vote floor down so filtered rows still fill with titles
+                const curFloor = f.voteCountGte ?? f['vote_count.gte'];
+                const nFloor = Number(curFloor);
+                if (Number.isFinite(nFloor) && nFloor > 5) {
+                  const scaled = Math.max(5, Math.round(nFloor / 10));
+                  f.voteCountGte = scaled;
+                  f['vote_count.gte'] = scaled;
+                }
+              }
+            }
+
+            if (isDiscover) {
+              const scale = Number(cust.voteScale);
+              if (scale && scale !== 1) {
+                const cur = clonedSource.filters.voteCountGte ?? clonedSource.filters['vote_count.gte'];
+                const n = Number(cur);
+                if (Number.isFinite(n) && n > 0) {
+                  const next = Math.max(1, Math.round(n * scale));
+                  clonedSource.filters.voteCountGte = next;
+                  clonedSource.filters['vote_count.gte'] = next;
+                }
+              }
+              const bump = Number(cust.ratingBump);
+              if (bump) {
+                const cur = clonedSource.filters.voteAverageGte ?? clonedSource.filters['vote_average.gte'];
+                const n = Number(cur);
+                if (Number.isFinite(n) && n > 0) {
+                  const next = Math.min(8.5, Math.round((n + bump) * 10) / 10);
+                  clonedSource.filters.voteAverageGte = next;
+                  clonedSource.filters['vote_average.gte'] = next;
+                }
+              }
+            }
+          }
+          activeSources.push(clonedSource);
+        }
+      });
+
+      if (activeSources.length > 0) {
+        const folderClone = { ...folder };
+        folderClone.sources = activeSources;
+        if (!gifsAllowedForCategory(category)) delete folderClone.focusGifUrl;
+        filteredFolders.push(folderClone);
+      }
+    });
+
+    if (filteredFolders.length > 0) {
+      categoryClone.folders = filteredFolders;
+      categoryClone.viewMode = exportViewMode;
+      customConfig.push(categoryClone);
+    }
+  });
+
+  return customConfig;
+}
+
+// Gate any export/push behind the device & mobile-compatibility check.
+// Allows the user to select TV, Mobile, or Both, with Follow Layout as
+// the instant 1-click default for TV, and Tabbed Grid optional for Mobile.
+function ensureMobileCompat(actionFn, opts) {
+  if (typeof actionFn !== 'function') return;
+  const { checkRows = true, checkTmdb = true, actionLabel = 'Export Collection' } = opts || {};
+  const overlay = document.getElementById('compat-overlay');
+  if (!overlay) {
+    lastExportOptimize = false;
+    actionFn();
+    return;
+  }
+
+  let remembered = [];
+  try {
+    const raw = JSON.parse(localStorage.getItem('kaptain_last_devices') || '[]');
+    if (Array.isArray(raw)) remembered = raw;
+  } catch (e) {}
+
+  let currentDevice = 'tv';
+  if (remembered.includes('tv') && remembered.includes('mobile')) currentDevice = 'both';
+  else if (remembered.includes('mobile')) currentDevice = 'mobile';
+  else currentDevice = 'tv';
+
+  const titleEl = document.getElementById('compat-title');
+  const subEl = document.getElementById('compat-sub');
+  const rowsSection = document.getElementById('compat-rows-warning');
+  const tmdbSection = document.getElementById('compat-tmdb-warning');
+  const checkbox = document.getElementById('compat-optimize-check');
+  const checkText = document.getElementById('compat-check-text');
+  const continueBtn = document.getElementById('compat-continue');
+  const continueText = document.getElementById('compat-continue-text');
+  const cancelBtn = document.getElementById('compat-cancel');
+  const devTvBtn = document.getElementById('compat-dev-tv');
+  const devMobileBtn = document.getElementById('compat-dev-mobile');
+  const devBothBtn = document.getElementById('compat-dev-both');
+
+  function updateDeviceUI() {
+    [devTvBtn, devMobileBtn, devBothBtn].forEach(btn => {
+      if (btn) btn.classList.toggle('active', btn.getAttribute('data-device') === currentDevice);
+    });
+
+    const isMobileSelected = currentDevice === 'mobile' || currentDevice === 'both';
+    const needsTmdb = checkTmdb && isMobileSelected && !hasTmdbKey();
+
+    if (currentDevice === 'tv') {
+      if (subEl) subEl.textContent = 'TV uses Follow Layout by default for the genuine Nuvio home screen look.';
+      if (rowsSection) rowsSection.style.display = 'none';
+      if (tmdbSection) tmdbSection.style.display = 'none';
+      if (continueText) continueText.textContent = `${actionLabel} (Follow Layout) →`;
+    } else if (currentDevice === 'mobile') {
+      if (subEl) subEl.textContent = 'Nuvio Mobile handles carousel lists differently than TV screens.';
+      if (rowsSection) rowsSection.style.display = '';
+      if (checkText) checkText.textContent = 'Switch to Tabbed Grid (recommended for mobile)';
+      if (tmdbSection) tmdbSection.style.display = needsTmdb ? '' : 'none';
+      const opt = checkbox ? checkbox.checked : true;
+      if (continueText) continueText.textContent = opt ? `${actionLabel} (Tabbed Grid) →` : `${actionLabel} (Follow Layout) →`;
+    } else { // both
+      if (subEl) subEl.textContent = 'We can optimize the layout so it works smoothly across all your screens.';
+      if (rowsSection) rowsSection.style.display = '';
+      if (checkText) checkText.textContent = 'Switch to Tabbed Grid (safe for both TV & Phone)';
+      if (tmdbSection) tmdbSection.style.display = needsTmdb ? '' : 'none';
+      const opt = checkbox ? checkbox.checked : true;
+      if (continueText) continueText.textContent = opt ? `${actionLabel} (Tabbed Grid) →` : `${actionLabel} (Follow Layout) →`;
+    }
+  }
+
+  if (checkbox) {
+    checkbox.checked = true;
+    checkbox.onchange = updateDeviceUI;
+  }
+
+  const setDevice = (d) => {
+    currentDevice = d;
+    updateDeviceUI();
+  };
+
+  if (devTvBtn) devTvBtn.onclick = () => setDevice('tv');
+  if (devMobileBtn) devMobileBtn.onclick = () => setDevice('mobile');
+  if (devBothBtn) devBothBtn.onclick = () => setDevice('both');
+
+  const cleanup = () => {
+    overlay.classList.remove('open');
+    if (continueBtn) continueBtn.onclick = null;
+    if (cancelBtn) cancelBtn.onclick = null;
+    overlay.onclick = null;
+  };
+
+  const proceed = () => {
+    const isMobileSelected = currentDevice === 'mobile' || currentDevice === 'both';
+    const opt = isMobileSelected && checkbox && checkbox.checked;
+    lastExportOptimize = !!opt;
+    if (window.KaptainExport && window.KaptainExport.setLastExportOptimize) {
+      window.KaptainExport.setLastExportOptimize(lastExportOptimize);
+    }
+    const devArray = currentDevice === 'both' ? ['tv', 'mobile'] : [currentDevice];
+    try { localStorage.setItem('kaptain_last_devices', JSON.stringify(devArray)); } catch (e) {}
+    cleanup();
+    actionFn();
+  };
+
+  if (continueBtn) continueBtn.onclick = proceed;
+  if (cancelBtn) cancelBtn.onclick = () => { cleanup(); };
+  overlay.onclick = (e) => {
+    if (e.target === overlay) { cleanup(); }
+  };
+
+  updateDeviceUI();
+  overlay.classList.add('open');
+}
+
+// Exposed for wizard.js so "Send to Nuvio" routes through the same gate.
+
+// ==========================================================================
+// OPTIONAL ACCOUNT VAULT BRIDGE (no-op unless KaptainAccount is unlocked)
+// ==========================================================================
+
+function notifyAccountSave() {
+  try {
+    if (window.KaptainAccount && typeof window.KaptainAccount.scheduleSave === "function") {
+      window.KaptainAccount.scheduleSave();
+    }
+  } catch (e) { /* ignore */ }
+}
+
+function isSimpleEditorOpen() {
+  const ov = document.getElementById('simple-editor-overlay');
+  return !!(ov && ov.classList.contains('open'));
+}
+
+// Keep cinematic preview + Quick Editor + sidebar counts on the same live
+// selectedMap / database order. Either surface can edit; both must reflect it.
+function syncEditorViews(opts) {
+  const o = opts || {};
+  try { updateControlCenterStats(); } catch (e) { /* ignore */ }
+  try { renderSidebar(); } catch (e) { /* ignore */ }
+  if (o.cinematic !== false && isPreviewActive) {
+    try { renderPreviewCollection(); } catch (e) { /* ignore */ }
+  }
+  if (o.simple !== false && isSimpleEditorOpen()) {
+    try {
+      renderSimpleCollection();
+      if (o.settings) renderSimpleSettings();
+    } catch (e) { /* ignore */ }
+  }
+  if (o.account !== false) notifyAccountSave();
+}
+
+function onCollectionEdited(opts) {
+  syncEditorViews(opts || {});
+}
+
+function accountSnapshot() {
+  const categoryOrder = (database || []).map((c) => c && c.id).filter(Boolean);
+  const folderOrder = {};
+  const sourceOrder = {};
+  (database || []).forEach((cat) => {
+    if (!cat || !cat.id) return;
+    folderOrder[cat.id] = (cat.folders || []).map((f) => getFolderKey(f));
+    (cat.folders || []).forEach((f) => {
+      const fk = getFolderKey(f);
+      sourceOrder[fk] = (f.sources || []).map((s) => getSourceKey(s));
+    });
+  });
+
+  let wizPrefs = {};
+  let wizKeys = {};
+  try {
+    if (window.NuvioWizard && typeof window.NuvioWizard.peekVaultFields === "function") {
+      const peeked = window.NuvioWizard.peekVaultFields() || {};
+      wizPrefs = peeked.prefs || {};
+      wizKeys = peeked.keys || {};
+    }
+  } catch (e) { /* ignore */ }
+
+  return {
+    keys: {
+      torboxKey: seSettings.torboxKey || wizKeys.torboxKey || wizKeys.aioDebridKey || "",
+      tmdbKey: seSettings.tmdbKey || wizKeys.tmdbKey || wizKeys.aioTmdbKey || "",
+      mdblistKey: seSettings.mdblistKey || wizKeys.mdblistKey || "",
+      forYouMdblistKey: wizKeys.forYouMdblistKey || "",
+      nuvioEmail: wizKeys.nuvioEmail || wizPrefs.email || "",
+      nuvioPassword: wizKeys.nuvioPassword || "",
+      aioRpdbKey: wizKeys.aioRpdbKey || "",
+      aioDebridKey: wizKeys.aioDebridKey || wizKeys.torboxKey || seSettings.torboxKey || "",
+      aioDebridType: wizKeys.aioDebridType || "",
+      aioTmdbKey: wizKeys.aioTmdbKey || wizKeys.tmdbKey || seSettings.tmdbKey || "",
+      traktTokensByHost: wizKeys.traktTokensByHost || {},
+    },
+    collection: {
+      selectedMap: JSON.parse(JSON.stringify(selectedMap || {})),
+      categoryOrder,
+      folderOrder,
+      sourceOrder,
+      categorySort: Object.assign({}, categorySort),
+      gifDisableStreaming: !!gifDisableStreaming,
+      gifDisableOther: !!gifDisableOther,
+      viewMode: selectedViewMode || "FOLLOW_LAYOUT",
+    },
+    prefs: {
+      email: wizKeys.nuvioEmail || wizPrefs.email || "",
+      profileName: wizPrefs.profileName || seSettings.profileName || "",
+      setupMode: wizPrefs.setupMode || "",
+      avatarUrl: seSettings.avatarUrl || "",
+    },
+  };
+}
+
+function accountReorderByKeys(items, keyFn, wantedKeys) {
+  if (!Array.isArray(items) || !Array.isArray(wantedKeys) || !wantedKeys.length) return;
+  const map = new Map();
+  items.forEach((it) => map.set(keyFn(it), it));
+  const next = [];
+  const seen = new Set();
+  wantedKeys.forEach((k) => {
+    if (map.has(k) && !seen.has(k)) {
+      next.push(map.get(k));
+      seen.add(k);
+    }
+  });
+  items.forEach((it) => {
+    const k = keyFn(it);
+    if (!seen.has(k)) next.push(it);
+  });
+  items.length = 0;
+  next.forEach((it) => items.push(it));
+}
+
+function accountApply(payload) {
+  if (!payload || typeof payload !== "object") return;
+  const keys = payload.keys || {};
+  const coll = payload.collection || {};
+  const prefs = payload.prefs || {};
+
+  if (keys.torboxKey != null) seSettings.torboxKey = String(keys.torboxKey || "");
+  if (keys.tmdbKey != null) seSettings.tmdbKey = String(keys.tmdbKey || "");
+  if (keys.mdblistKey != null) seSettings.mdblistKey = String(keys.mdblistKey || "");
+  else if (keys.forYouMdblistKey != null) seSettings.mdblistKey = String(keys.forYouMdblistKey || "");
+  if (prefs.profileName) seSettings.profileName = String(prefs.profileName);
+  if (prefs.avatarUrl) seSettings.avatarUrl = String(prefs.avatarUrl);
+
+  if (coll.selectedMap && typeof coll.selectedMap === "object") {
+    selectedMap = JSON.parse(JSON.stringify(coll.selectedMap)); window.selectedMap = selectedMap;
+  }
+
+  if (Array.isArray(coll.categoryOrder) && coll.categoryOrder.length && Array.isArray(database)) {
+    accountReorderByKeys(database, (c) => c && c.id, coll.categoryOrder);
+  }
+  if (coll.folderOrder && typeof coll.folderOrder === "object") {
+    (database || []).forEach((cat) => {
+      if (!cat || !cat.id || !Array.isArray(cat.folders)) return;
+      const wanted = coll.folderOrder[cat.id];
+      if (wanted) accountReorderByKeys(cat.folders, getFolderKey, wanted);
+    });
+  }
+  if (coll.sourceOrder && typeof coll.sourceOrder === "object") {
+    (database || []).forEach((cat) => {
+      (cat.folders || []).forEach((f) => {
+        const fk = getFolderKey(f);
+        const wanted = coll.sourceOrder[fk];
+        if (wanted && Array.isArray(f.sources)) {
+          accountReorderByKeys(f.sources, getSourceKey, wanted);
+        }
+      });
+    });
+  }
+
+  if (coll.categorySort && typeof coll.categorySort === "object") {
+    Object.keys(categorySort).forEach((k) => delete categorySort[k]);
+    Object.assign(categorySort, coll.categorySort);
+  }
+
+  if (typeof coll.gifDisableStreaming === "boolean") {
+    gifDisableStreaming = coll.gifDisableStreaming;
+    try { localStorage.setItem("kaptain_gif_disable_streaming", gifDisableStreaming ? "1" : "0"); } catch (e) {}
+  }
+  if (typeof coll.gifDisableOther === "boolean") {
+    gifDisableOther = coll.gifDisableOther;
+    try { localStorage.setItem("kaptain_gif_disable_other", gifDisableOther ? "1" : "0"); } catch (e) {}
+  }
+  if (coll.viewMode) {
+    selectedViewMode = coll.viewMode;
+    try { localStorage.setItem("kaptain_view_mode", selectedViewMode); } catch (e) {}
+  }
+
+  try {
+    if (window.NuvioWizard && typeof window.NuvioWizard.applyVaultFields === "function") {
+      window.NuvioWizard.applyVaultFields({ keys, prefs });
+    }
+  } catch (e) { /* ignore */ }
+
+  try {
+    renderSidebar();
+    if (isPreviewActive) renderPreviewCollection();
+    updateControlCenterStats();
+    const seOpen = document.getElementById("simple-editor-overlay");
+    if (seOpen && seOpen.classList.contains("open")) {
+      renderSimpleCollection();
+      renderSimpleSettings();
+    }
+  } catch (e) {
+    console.warn("[KaptainAccount] apply refresh failed", e);
+  }
+}
+
+window.KaptainAccountBridge = {
+  snapshot: accountSnapshot,
+  apply: accountApply,
+};
+
+
+window.KaptainExport = {
+  ensureMobileCompat,
+  compileAndDownloadJSON,
+  assembleFilteredDatabase,
+  applyLocaleToCollection,
+  applyLocaleDict,
+  setLastExportOptimize: (val) => { lastExportOptimize = !!val; },
+  getLastExportOptimize: () => lastExportOptimize,
+};
+
+// ==========================================================================
+// 10. EVENT BINDINGS
+// ==========================================================================
+
+// ---- Keyboard shortcuts help --------------------------------------------
+function toggleShortcutPanel(force) {
+  const overlay = document.getElementById('shortcut-overlay');
+  if (!overlay) return;
+  const willOpen = (force === undefined) ? !overlay.classList.contains('open') : force;
+  overlay.classList.toggle('open', willOpen);
+}
+
+// ---- Support & Tips modal -----------------------------------------------
+function toggleSupportModal(force) {
+  const overlay = document.getElementById('support-overlay');
+  if (!overlay) return;
+  const willOpen = (force === undefined) ? !overlay.classList.contains('open') : force;
+  overlay.classList.toggle('open', willOpen);
+  if (willOpen) {
+    const gate = document.getElementById('sidebar-tip-kaptain-gate');
+    const tipBtn = document.getElementById('sidebar-tip-kaptain-btn');
+    if (gate) gate.style.display = 'none';
+    if (tipBtn) tipBtn.style.display = '';
+  }
+}
+
+function bindGlobalEvents() {
+  bindThemeToggles();
+  // Search filter (+ clear button visibility)
+  const searchInput = document.getElementById('dashboard-search');
+  const searchWrap = document.getElementById('search-container');
+  const searchClear = document.getElementById('search-clear');
+  const syncSearchClear = () => {
+    if (searchWrap) searchWrap.classList.toggle('has-value', !!(searchInput && searchInput.value));
+  };
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      currentSearch = e.target.value;
+      syncSearchClear();
+      renderFolderGrid();
+    });
+  }
+  if (searchClear) {
+    searchClear.addEventListener('click', () => {
+      if (searchInput) { searchInput.value = ''; searchInput.focus(); }
+      currentSearch = '';
+      syncSearchClear();
+      renderFolderGrid();
+    });
+  }
+
+  // Card size zoom slider
+  const zoomSlider = document.getElementById('grid-zoom');
+  if (zoomSlider) {
+    zoomSlider.addEventListener('input', (e) => {
+      gridSize = parseInt(e.target.value);
+      const grid = document.getElementById('media-grid');
+      if (grid) {
+        grid.style.gridTemplateColumns = `repeat(auto-fill, minmax(${gridSize}px, 1fr))`;
+      }
+    });
+  }
+
+  // Drawer close
+  const drawerOverlay = document.getElementById('drawer-overlay');
+  if (drawerOverlay) drawerOverlay.addEventListener('click', closeDrawer);
+  const drawerCloseBtn = document.getElementById('drawer-close');
+  if (drawerCloseBtn) drawerCloseBtn.addEventListener('click', closeDrawer);
+
+  // Drawer select-all / select-none (scoped to the open folder's sources)
+  const drawerRefreshAfterToggle = () => {
+    renderDrawerSourcesList();
+    renderFolderGrid();
+    renderSidebar();
+    renderCategoryActions();
+    updateControlCenterStats();
+  };
+  const drawerSelectAll = document.getElementById('drawer-select-all');
+  if (drawerSelectAll) {
+    drawerSelectAll.addEventListener('click', () => {
+      if (!activeDrawerFolder) return;
+      const folderKey = getFolderKey(activeDrawerFolder);
+      if (!selectedMap[folderKey]) selectedMap[folderKey] = {};
+      (activeDrawerFolder.sources || []).forEach((source) => {
+        selectedMap[folderKey][getSourceKey(source)] = true;
+      });
+      drawerRefreshAfterToggle();
+    });
+  }
+  const drawerSelectNone = document.getElementById('drawer-select-none');
+  if (drawerSelectNone) {
+    drawerSelectNone.addEventListener('click', () => {
+      if (!activeDrawerFolder) return;
+      const folderKey = getFolderKey(activeDrawerFolder);
+      if (!selectedMap[folderKey]) selectedMap[folderKey] = {};
+      (activeDrawerFolder.sources || []).forEach((source) => {
+        selectedMap[folderKey][getSourceKey(source)] = false;
+      });
+      drawerRefreshAfterToggle();
+    });
+  }
+
+  // Drawer source search filter (+ clear button visibility)
+  const drawerSearchInput = document.getElementById('drawer-search-input');
+  const drawerSearchWrap = document.getElementById('drawer-search-container');
+  const drawerSearchClear = document.getElementById('drawer-search-clear');
+  const syncDrawerSearchClear = () => {
+    if (drawerSearchWrap) drawerSearchWrap.classList.toggle('has-value', !!(drawerSearchInput && drawerSearchInput.value));
+  };
+  if (drawerSearchInput) {
+    drawerSearchInput.addEventListener('input', (e) => {
+      drawerSearch = e.target.value;
+      syncDrawerSearchClear();
+      renderDrawerSourcesList();
+    });
+  }
+  if (drawerSearchClear) {
+    drawerSearchClear.addEventListener('click', () => {
+      if (drawerSearchInput) { drawerSearchInput.value = ''; drawerSearchInput.focus(); }
+      drawerSearch = '';
+      syncDrawerSearchClear();
+      renderDrawerSourcesList();
+    });
+  }
+
+  // Download button (gated by the mobile-compatibility check)
+  const btnCompile = document.getElementById('btn-compile-download');
+  if (btnCompile) btnCompile.addEventListener('click', () => ensureMobileCompat(compileAndDownloadJSON, { checkTmdb: false }));
+  document.getElementById('btn-bingecat-export')?.addEventListener('click', exportForBingecat);
+  document.getElementById('btn-selfhost-export')?.addEventListener('click', exportForSelfHost);
+
+  // Mobile-only FAB — collapses the Browse bar (stats + Download + Send to
+  // Nuvio) behind one button on phones. The bar's own DOM is static (never
+  // rebuilt), so a plain class toggle is enough; no extra state variable.
+  const controlFab = document.getElementById('control-fab');
+  const controlBar = document.getElementById('control-center-bar');
+  if (controlFab && controlBar) {
+    controlFab.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const open = controlBar.classList.toggle('open');
+      controlFab.setAttribute('aria-expanded', String(open));
+    });
+    document.addEventListener('click', (e) => {
+      if (controlBar.classList.contains('open') && !controlBar.contains(e.target)) {
+        controlBar.classList.remove('open');
+        controlFab.setAttribute('aria-expanded', 'false');
+      }
+    });
+  }
+
+  // View Mode selector (per-browser; persisted)
+  const viewModeSelect = document.getElementById('viewmode-select');
+  if (viewModeSelect) {
+    viewModeSelect.value = selectedViewMode;
+    updateRowsWarning(viewModeSelect);
+    viewModeSelect.addEventListener('change', () => {
+      selectedViewMode = viewModeSelect.value;
+      try { localStorage.setItem('kaptain_view_mode', selectedViewMode); } catch (e) { /* ignore */ }
+      updateRowsWarning(viewModeSelect);
+    });
+  }
+
+  // Folder sort (operates on the current section)
+  const folderSort = document.getElementById('folder-sort');
+  if (folderSort) {
+    folderSort.addEventListener('change', () => applyFolderSort(folderSort.value));
+  }
+
+  // Source sort (drawer)
+  const drawerSort = document.getElementById('drawer-sort');
+  if (drawerSort) {
+    drawerSort.addEventListener('change', () => {
+      if (activeDrawerFolder && (drawerSort.value === 'az' || drawerSort.value === 'za')) {
+        sortByTitle(activeDrawerFolder.sources || [], drawerSort.value);
+        renderDrawerSourcesList();
+      }
+    });
+  }
+
+  // Reorder toggle
+  const btnReorder = document.getElementById('btn-reorder-toggle');
+  if (btnReorder) {
+    btnReorder.addEventListener('click', () => {
+      reorderMode = !reorderMode;
+      updateReorderBanner();
+      btnReorder.classList.toggle('active', reorderMode);
+      renderSidebar();
+      renderFolderGrid();
+      if (activeDrawerFolder) renderDrawerSourcesList();
+      const subtitleEl = document.getElementById('view-subtitle');
+      if (subtitleEl && !isGuideActive && !isPreviewActive) {
+        if (reorderMode) {
+          subtitleEl.textContent = 'Reorder mode: use the ▲ ▼ arrows to move sections, folders & sources. Click Reorder again to finish.';
+        } else {
+          const stats = getCategorySelectionStats(currentCategoryIdx);
+          subtitleEl.textContent = `${stats.selectedFolders} of ${stats.totalFolders} folders selected`;
+        }
+      }
+    });
+  }
+
+  // Mobile top-bar "more" dropdown (view mode / sort / reorder / zoom)
+  const topbarMoreToggle = document.getElementById('topbar-more-toggle');
+  const topbarMorePanel = document.getElementById('topbar-more-panel');
+  if (topbarMoreToggle && topbarMorePanel) {
+    topbarMoreToggle.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = topbarMorePanel.classList.toggle('open');
+      topbarMoreToggle.setAttribute('aria-expanded', String(isOpen));
+    });
+    document.addEventListener('click', (e) => {
+      if (!topbarMorePanel.classList.contains('open')) return;
+      if (e.target === topbarMoreToggle || topbarMoreToggle.contains(e.target)) return;
+      if (topbarMorePanel.contains(e.target)) return;
+      topbarMorePanel.classList.remove('open');
+      topbarMoreToggle.setAttribute('aria-expanded', 'false');
+    });
+  }
+
+  // Sidebar overlay toggle
+  const sidebarToggle = document.getElementById('sidebar-toggle');
+  if (sidebarToggle) sidebarToggle.addEventListener('click', () =>
+    document.querySelector('.sidebar').classList.contains('open') ? closeSidebar() : openSidebar()
+  );
+  document.getElementById('sidebar-backdrop')?.addEventListener('click', closeSidebar);
+  document.getElementById('category-scroller')?.addEventListener('click', () =>
+    setTimeout(closeSidebar, 120)
+  );
+
+  // Replay walkthrough button
+  const btnReplay = document.getElementById('btn-replay-tour');
+  if (btnReplay) {
+    btnReplay.addEventListener('click', () => {
+      startWalkthrough();
+    });
+  }
+
+  // Title screen actions
+  document.getElementById('title-changelog-dismiss')?.addEventListener('click', dismissChangelogBanner);
+  // The walkthrough and manual-build routes are real but rare — folded behind
+  // a disclosure so a first-timer weighs two choices, not four.
+  const moreToggle = document.getElementById('title-more-toggle');
+  const morePanel = document.getElementById('title-more-panel');
+  const titleOverlay = document.getElementById('title-screen-overlay');
+  const showcase = document.getElementById('title-portfolio-showcase');
+  const scrollIndicator = document.getElementById('title-scroll-indicator');
+
+  if (scrollIndicator && showcase) {
+    scrollIndicator.addEventListener('click', () => {
+      showcase.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  }
+
+  if (titleOverlay && showcase) {
+    const handleTitleScroll = () => {
+      if (titleOverlay.scrollTop > 30) {
+        showcase.classList.remove('is-peeking');
+      } else {
+        showcase.classList.add('is-peeking');
+      }
+    };
+    titleOverlay.addEventListener('scroll', handleTitleScroll, { passive: true });
+    showcase.addEventListener('mouseenter', () => {
+      showcase.classList.remove('is-peeking');
+    });
+    showcase.addEventListener('mouseleave', () => {
+      if (titleOverlay.scrollTop <= 30) {
+        showcase.classList.add('is-peeking');
+      }
+    });
+  }
+
+  // Keyboard support (Enter / Space) for portfolio cards
+  document.querySelectorAll('.portfolio-card').forEach((card) => {
+    card.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        card.click();
+      }
+    });
+  });
+
+  document.getElementById('title-screen-walkthrough')?.addEventListener('click', () => {
+    hideTitleScreen();
+    startWalkthrough();
+  });
+
+  document.getElementById('title-screen-customize')?.addEventListener('click', () => {
+    // Quick Editor card (checklist)
+    openSimpleEditor();
+  });
+
+  document.getElementById('title-screen-start')?.addEventListener('click', () => {
+    hideTitleScreen();
+    initializeSelections();
+    if (isPreviewActive) {
+        renderSidebar();
+        renderPreviewCollection();
+    } else {
+        jumpToCategory(currentCategoryIdx || 0);
+    }
+  });
+
+  document.getElementById('title-screen-bingecat')?.addEventListener('click', () => {
+    showBingecatStartChoice();
+  });
+
+  document.getElementById('title-screen-friends')?.addEventListener('click', () => {
+    showFriendsOfKaptainChooser();
+  });
+
+  document.getElementById('title-screen-selfhost')?.addEventListener('click', () => {
+    showSelfHostStartChoice();
+  });
+
+  document.getElementById('title-screen-faq')?.addEventListener('click', () => {
+    showUpdateFaqModal();
+  });
+
+  document.getElementById('title-screen-import-all')?.addEventListener('click', () => {
+    // Beginner path: Guided Customize first, then the normal Send-to-Nuvio wizard
+    hideTitleScreen();
+    initializeSelections();
+    renderSidebar();
+    if (isPreviewActive) renderPreviewCollection();
+    window.__kaptainAfterCustomize = () => {
+      window.NuvioWizard && window.NuvioWizard.open({ skipChoose: true });
+    };
+    if (window.startCustomize) window.startCustomize();
+  });
+
+  document.getElementById('title-screen-collection-only')?.addEventListener('click', () => {
+    ensureMobileCompat(() => {
+      hideTitleScreen();
+      initializeSelections();
+      renderSidebar();
+      if (isPreviewActive) renderPreviewCollection();
+      window.NuvioWizard && window.NuvioWizard.open({ skipChoose: true, flow: 'collection-only' });
+    }, { actionLabel: 'Continue to Account' });
+  });
+
+  bindTestCodeUi();
+  // Quick (KISS) editor entry + controls
+  bindSimpleEditorEvents();
+
+  // Walkthrough button handlers
+  const btnNext = document.getElementById('wt-btn-next');
+  const btnPrev = document.getElementById('wt-btn-prev');
+  const btnSkip = document.getElementById('wt-btn-skip');
+
+  if (btnNext) btnNext.addEventListener('click', walkthroughNext);
+  if (btnPrev) btnPrev.addEventListener('click', walkthroughPrev);
+  if (btnSkip) btnSkip.addEventListener('click', endWalkthrough);
+
+  // Keyboard shortcuts help panel
+  const shortcutOverlay = document.getElementById('shortcut-overlay');
+  if (shortcutOverlay) {
+    shortcutOverlay.addEventListener('click', (e) => { if (e.target === shortcutOverlay) toggleShortcutPanel(false); });
+    document.getElementById('shortcut-close')?.addEventListener('click', () => toggleShortcutPanel(false));
+  }
+
+  // Support & Tips modal
+  const supportOverlay = document.getElementById('support-overlay');
+  if (supportOverlay) {
+    supportOverlay.addEventListener('click', (e) => { if (e.target === supportOverlay) toggleSupportModal(false); });
+    document.getElementById('support-close')?.addEventListener('click', () => toggleSupportModal(false));
+  }
+  document.getElementById('btn-sidebar-support')?.addEventListener('click', () => toggleSupportModal(true));
+  document.getElementById('sidebar-tip-kaptain-btn')?.addEventListener('click', () => {
+    const gate = document.getElementById('sidebar-tip-kaptain-gate');
+    const tipBtn = document.getElementById('sidebar-tip-kaptain-btn');
+    if (gate) gate.style.display = 'block';
+    if (tipBtn) tipBtn.style.display = 'none';
+  });
+
+  // TV remote / arrow-key navigation inside the Nuvio preview
+  document.addEventListener('keydown', handlePreviewKeydown);
+
+  // "?" toggles the shortcuts help (ignored while typing in a field)
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== '?') return;
+    if (/^(INPUT|TEXTAREA|SELECT)$/.test((e.target && e.target.tagName) || '')) return;
+    e.preventDefault();
+    toggleShortcutPanel();
+  });
+
+  // ESC key to close the shortcuts panel, support modal, drawer, or end the walkthrough
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      const shortcuts = document.getElementById('shortcut-overlay');
+      if (shortcuts && shortcuts.classList.contains('open')) { toggleShortcutPanel(false); return; }
+      const support = document.getElementById('support-overlay');
+      if (support && support.classList.contains('open')) { toggleSupportModal(false); return; }
+      if (document.getElementById('preview-detail')) { closePreviewDetail(); return; }
+      if (walkthroughActive) {
+        endWalkthrough();
+      } else {
+        closeDrawer();
+      }
+    }
+  });
+}
+
+// ==========================================================================
+// 10b. CINEMATIC TITLE SCREEN
+// ==========================================================================
+
+function showTitleScreen() {
+  const overlay = document.getElementById('title-screen-overlay');
+  const versionEl = document.getElementById('title-screen-version');
+  if (versionEl) versionEl.textContent = KAPTAIN_UPDATED;
+  if (overlay) overlay.classList.add('active');
+  renderChangelogBanner();
+}
+
+function hideTitleScreen() {
+  document.getElementById('title-screen-overlay')?.classList.remove('active');
+}
+
+function getLastSeenVersion() {
+  try { return localStorage.getItem('kaptain_last_seen_version'); } catch (e) { return null; }
+}
+
+function setLastSeenVersion(version) {
+  try { localStorage.setItem('kaptain_last_seen_version', version); } catch (e) {}
+}
+
+function renderChangelogBanner() {
+  const banner = document.getElementById('title-screen-changelog');
+  if (banner) banner.style.display = 'none';
+  return;
+}
+
+function dismissChangelogBanner() {
+  setLastSeenVersion(KAPTAIN_VERSION);
+  const banner = document.getElementById('title-screen-changelog');
+  if (banner) banner.style.display = 'none';
+}
+
+// ==========================================================================
+// 10c. QUICK (KISS) EDITOR — dense, single-page manager + inline settings
+// ==========================================================================
+// Reuses the same `database` / `selectedMap` and read helpers as the cinematic
+// editor, but renders its own compact DOM and uses no-op-free selection mutators
+// (the cinematic toggles re-render the hidden grid, so we avoid them here).
+
+let seExpanded = new Set();            // folder keys currently expanded
+let seAddons = null;                   // [{name,url,note,checked}] addon checklist
+const seSettings = { profileName: '', avatarUrl: '', torboxKey: '', tmdbKey: '', mdblistKey: '' };
+// Basic hides the API-key and custom-manifest fields. This panel is the
+// "advanced" surface by design, but landing on six key fields is still the
+// wrong first impression for someone who only wanted to tick some scrapers.
+let seAdvanced = false;
+
+// TMDB key is only ever collected via the Quick Editor's settings field — the
+// mobile-compat export gate checks this to warn when mobile playback will break.
+// Reads the live input directly too, in case the field was edited but seGatherSettings()
+// (called on Send/addon-add) hasn't run yet.
+function hasTmdbKey() {
+  const live = document.getElementById('se-tmdb-key');
+  const val = (live ? live.value : seSettings.tmdbKey) || '';
+  return !!val.trim();
+}
+
+function seFindFolder(fkey, ci) {
+  return (database[ci] && database[ci].folders || []).find(f => getFolderKey(f) === fkey);
+}
+function seSetFolder(folder, on) {
+  const k = getFolderKey(folder);
+  if (!selectedMap[k]) selectedMap[k] = {};
+  (folder.sources || []).forEach(s => { selectedMap[k][getSourceKey(s)] = on; });
+  notifyAccountSave();
+}
+function seSetCategory(ci, on) {
+  (database[ci] && database[ci].folders || []).forEach(f => seSetFolder(f, on));
+}
+
+function openSimpleEditor() {
+  hideTitleScreen();
+  const ov = document.getElementById('simple-editor-overlay');
+  if (!ov) return;
+  // Always rebuild from the live shared selectedMap / database — never a
+  // stale snapshot. This is what keeps cinematic edits visible here.
+  ov.classList.add('open');
+  renderSimpleCollection();
+  renderSimpleSettings();
+  updateControlCenterStats();
+  notifyAccountSave();
+}
+// Also used by the Quick Editor's own back button. Must NOT route through the
+// title screen — its CTAs call initializeSelections() and would wipe curation.
+function backToCinematicEditor() {
+  document.getElementById('simple-editor-overlay')?.classList.remove('open');
+  hideTitleScreen();
+  isPreviewActive = true;
+  // Rebuild preview from the same selectedMap the Quick Editor just edited.
+  renderSidebar();
+  renderPreviewCollection();
+  updateControlCenterStats();
+  notifyAccountSave();
+}
+
+function seSearchQuery() {
+  return (document.getElementById('se-search')?.value || '').toLowerCase().trim();
+}
+
+let seStreamingSort = 'popular';
+
+function renderSimpleCollection() {
+  const host = document.getElementById('se-collection');
+  if (!host) return;
+  const q = seSearchQuery();
+  let html = '';
+  database.forEach((cat, ci) => {
+    let folders = (cat.folders || []).filter(f => !q || (f.title || '').toLowerCase().includes(q));
+    if (q && folders.length === 0) return;
+    const isStreaming = cat.title === 'Streaming Services';
+    if (isStreaming && !q) {
+      folders = folders.slice();
+      if (seStreamingSort === 'az') {
+        folders.sort((a, b) => String(a.title || '').localeCompare(String(b.title || ''), undefined, { sensitivity: 'base' }));
+      } else if (typeof sortStreamingByPopular === 'function') {
+        sortStreamingByPopular(folders);
+      }
+    }
+    const stats = getCategorySelectionStats(ci);
+    const sortBtns = isStreaming ? `
+        <button class="se-mini-btn ${seStreamingSort === 'popular' ? 'is-active' : ''}" data-streamsort="popular">Popular</button>
+        <button class="se-mini-btn ${seStreamingSort === 'az' ? 'is-active' : ''}" data-streamsort="az">A–Z</button>` : '';
+    html += `<div class="se-cat" data-ci="${ci}">
+      <div class="se-cat-head">
+        <span class="se-cat-name">${escapeHtml((cat.emoji ? cat.emoji + ' ' : '') + (cat.title || ''))}</span>
+        <span class="se-cat-count" id="se-catcount-${ci}">${stats.selectedFolders}/${stats.totalFolders}</span>
+        ${sortBtns}
+        <button class="se-mini-btn" data-catall="${ci}">All</button>
+        <button class="se-mini-btn" data-catnone="${ci}">None</button>
+      </div>
+      <div class="se-folders">${folders.map(f => seFolderRowHtml(f, ci)).join('')}</div>
+    </div>`;
+  });
+  host.innerHTML = html || '<div class="se-empty">No folders match your search.</div>';
+}
+
+function seFolderRowHtml(folder, ci) {
+  const key = getFolderKey(folder);
+  const st = getFolderSourceCountStats(folder);
+  const on = st.active > 0;
+  const expanded = seExpanded.has(key);
+  return `<div class="se-folder ${on ? 'on' : ''}" data-fkey="${escapeHtml(key)}" data-ci="${ci}">
+    <div class="se-folder-row">
+      <label class="se-folder-main">
+        <input type="checkbox" class="se-folder-check" ${on ? 'checked' : ''}>
+        <span class="se-folder-title">${escapeHtml(folder.title || 'Untitled')}</span>
+      </label>
+      <span class="se-folder-count">${st.active}/${st.total}</span>
+      <button class="se-folder-expand" title="Edit sources">${expanded ? '▾' : '▸'}</button>
+    </div>
+    <div class="se-sources" ${expanded ? '' : 'hidden'}>${expanded ? seSourcesHtml(folder) : ''}</div>
+  </div>`;
+}
+
+function seSourcesHtml(folder) {
+  const fkey = getFolderKey(folder);
+  return (folder.sources || []).map(src => {
+    const skey = getSourceKey(src);
+    const on = selectedMap[fkey] && selectedMap[fkey][skey];
+    return `<label class="se-source">
+      <input type="checkbox" class="se-source-check" data-skey="${escapeHtml(skey)}" ${on ? 'checked' : ''}>
+      <span class="se-source-title">${escapeHtml(getSourceName(src))}</span>
+      <span class="se-source-meta">${escapeHtml(src.provider === 'addon' ? getProviderLabel(src) : [src.provider, src.mediaType].filter(Boolean).join(' · '))}</span>
+    </label>`;
+  }).join('');
+}
+
+function seUpdateFolderRow(row, folder, ci) {
+  const st = getFolderSourceCountStats(folder);
+  row.classList.toggle('on', st.active > 0);
+  const cnt = row.querySelector('.se-folder-count');
+  if (cnt) cnt.textContent = `${st.active}/${st.total}`;
+  const chk = row.querySelector('.se-folder-check');
+  if (chk) chk.checked = st.active > 0;
+  const el = document.getElementById('se-catcount-' + ci);
+  if (el) { const s = getCategorySelectionStats(ci); el.textContent = `${s.selectedFolders}/${s.totalFolders}`; }
+}
+
+function seToggleSources(row) {
+  const fkey = row.dataset.fkey;
+  const folder = seFindFolder(fkey, +row.dataset.ci);
+  const box = row.querySelector('.se-sources');
+  const exp = row.querySelector('.se-folder-expand');
+  if (seExpanded.has(fkey)) {
+    seExpanded.delete(fkey); box.hidden = true; box.innerHTML = ''; exp.textContent = '▸';
+  } else {
+    seExpanded.add(fkey); box.innerHTML = seSourcesHtml(folder); box.hidden = false; exp.textContent = '▾';
+  }
+}
+
+// ----- settings panel -----
+function seEnsureAddons() {
+  if (!seAddons) {
+    const src = (window.NuvioWizard && window.NuvioWizard.SUGGESTED_ADDONS) || [];
+    seAddons = src.map(a => ({ name: a.name, url: a.url, note: a.note || '', checked: !!a.recommended }));
+  }
+  return seAddons;
+}
+function seGatherSettings() {
+  const g = id => document.getElementById(id);
+  if (g('se-profile-name')) seSettings.profileName = g('se-profile-name').value.trim();
+  if (g('se-avatar-url')) seSettings.avatarUrl = g('se-avatar-url').value.trim();
+  if (g('se-torbox-key')) seSettings.torboxKey = g('se-torbox-key').value.trim();
+  if (g('se-tmdb-key')) seSettings.tmdbKey = g('se-tmdb-key').value.trim();
+  if (g('se-mdblist-key')) seSettings.mdblistKey = g('se-mdblist-key').value.trim();
+  notifyAccountSave();
+}
+function seAddonRowHtml(a, i) {
+  return `<label class="se-addon">
+    <input type="checkbox" class="se-addon-check" data-i="${i}" ${a.checked ? 'checked' : ''}>
+    <span class="se-addon-name">${escapeHtml(a.name)}</span>
+    <button class="se-addon-rm" data-rm="${i}" title="Remove">&times;</button>
+  </label>`;
+}
+function renderSimpleSettings() {
+  const host = document.getElementById('se-settings');
+  if (!host) return;
+  const addons = seEnsureAddons();
+  const v = s => escapeHtml(s || '').replace(/"/g, '&quot;');
+  // Same definitions the wizard uses, so a term never means two things.
+  const tip = (key, label) => (window.NuvioWizard && window.NuvioWizard.glossaryTip)
+    ? window.NuvioWizard.glossaryTip(key, label)
+    : escapeHtml(label);
+  const adv = html => (seAdvanced ? html : '');
+  host.innerHTML = `
+    <p class="se-settings-intro">The full settings panel: edit folders, sources, and API keys directly. No wizard steps.</p>
+    <div class="se-mode-toggle" role="group" aria-label="Settings detail level">
+      <button type="button" class="se-mode-btn ${seAdvanced ? '' : 'active'}" id="se-mode-basic" aria-pressed="${!seAdvanced}">Basic</button>
+      <button type="button" class="se-mode-btn ${seAdvanced ? 'active' : ''}" id="se-mode-advanced" aria-pressed="${seAdvanced}">Advanced</button>
+    </div>
+    <h3 class="se-sec-title">Profile</h3>
+    <label class="se-field">Profile name
+      <input id="se-profile-name" class="se-input" value="${v(seSettings.profileName)}" placeholder="Kaptain's Collection">
+    </label>
+    <label class="se-field">Profile image URL <span class="se-hint">(public link)</span>
+      <input id="se-avatar-url" class="se-input" value="${v(seSettings.avatarUrl)}" placeholder="https://…/image.jpg">
+    </label>
+    <div class="se-avatar-wrap"><img id="se-avatar-preview" class="se-avatar-preview" alt=""></div>
+
+    <h3 class="se-sec-title">Scrapers <span class="se-sec-sub">— where streams come from</span></h3>
+    <p class="se-note" style="margin-bottom:10px;">${tip('scraper', 'Scrapers')} find playable links for whatever you open. Torrentio alone is plenty to start with.</p>
+    <div class="se-field">
+      <div id="se-addon-list" class="se-addon-list">${addons.map((a, i) => seAddonRowHtml(a, i)).join('')}</div>
+    </div>
+    ${adv(`
+    <div class="se-field se-advanced-block">
+      <span class="se-field-label">Add your own ${tip('addon', 'addon')}</span>
+      <p class="se-note" style="margin:2px 0 8px;">Paste the ${tip('manifest', 'manifest URL')} the addon's own site gives you — it ends in <code>manifest.json</code>.</p>
+      <div class="se-addon-add">
+        <input id="se-addon-name" class="se-input" placeholder="Name (e.g. Torrentio)">
+        <input id="se-addon-url" class="se-input" placeholder="https://…/manifest.json">
+        <button id="se-addon-add-btn" class="se-mini-btn">Add</button>
+      </div>
+    </div>`)}
+
+    <h3 class="se-sec-title">Recommendations <span class="se-sec-sub">— what fills "For You"</span></h3>
+    <p class="se-note">${tip('trakt', 'Trakt')} is connected inside the Nuvio app itself (it needs a sign-in there, not here).</p>
+    ${seAdvanced ? '' : '<p class="se-note">API keys for Torbox, TMDB and MDBList live under <strong>Advanced</strong> at the top.</p>'}
+    ${adv(`
+    <label class="se-field se-advanced-block">${tip('mdblist', 'MDBList')} API key <span class="se-hint">(optional)</span>
+      <span class="se-input-wrap">
+        <input id="se-mdblist-key" class="se-input" value="${v(seSettings.mdblistKey)}" placeholder="MDBList key" autocomplete="off">
+        <button type="button" class="se-key-test" id="se-mdblist-test">Test</button>
+      </span>
+    </label>`)}
+
+    ${adv(`
+    <h3 class="se-sec-title">Playback &amp; artwork</h3>
+    <label class="se-field se-advanced-block">${tip('torbox', 'Torbox')} API key
+      <span class="se-input-wrap">
+        <input id="se-torbox-key" class="se-input" value="${v(seSettings.torboxKey)}" placeholder="xxxxxxxx-xxxx-…" autocomplete="off" spellcheck="false">
+        <button type="button" class="se-key-test" id="se-torbox-test">Test</button>
+      </span>
+    </label>
+    <div class="se-key-status" id="se-torbox-status"></div>
+    <label class="se-field se-advanced-block">${tip('tmdb', 'TMDB')} API key <span class="se-hint">(optional)</span>
+      <span class="se-input-wrap">
+        <input id="se-tmdb-key" class="se-input" value="${v(seSettings.tmdbKey)}" placeholder="TMDB v4 key" autocomplete="off">
+        <button type="button" class="se-key-test" id="se-tmdb-test">Test</button>
+      </span>
+    </label>`)}
+
+    <h3 class="se-sec-title">Genres</h3>
+    <p class="se-note" style="margin-bottom:8px;">Toggle a genre on/off everywhere it appears — Streaming Services, Genres, Networks, all at once.</p>
+    <div class="se-genre-list">${getAllGenres().map(g => {
+      const st = getGenreSelectionState(g);
+      return `<label class="se-genre-row">
+        <input type="checkbox" class="se-genre-check" data-genre="${v(g)}" ${st ? 'checked' : ''} ${st === null ? 'data-indeterminate="1"' : ''}>
+        <span>${v(g)}</span>
+      </label>`;
+    }).join('')}</div>
+
+    <h3 class="se-sec-title">Hover Effects</h3>
+    <p class="se-note" style="margin-bottom:8px;">Turn off the animated hover/focus effect on folder cards, in Nuvio itself as well as here.</p>
+    <div class="se-genre-list">
+      <label class="se-genre-row">
+        <input type="checkbox" id="se-gif-disable-streaming" ${gifDisableStreaming ? 'checked' : ''}>
+        <span>Disable on Streaming Services</span>
+      </label>
+      <label class="se-genre-row">
+        <input type="checkbox" id="se-gif-disable-other" ${gifDisableOther ? 'checked' : ''}>
+        <span>Disable everywhere else</span>
+      </label>
+    </div>
+
+    <h3 class="se-sec-title">Film Collections Duplicates</h3>
+    <p class="se-note" style="margin-bottom:8px;">Some franchises appear both inside a genre folder (e.g. "War Collections") and as their own standalone folder. Pick a side to hide the duplicates in one click — this only changes your current selection, nothing is deleted.</p>
+    <div class="se-dedup-actions">
+      <button type="button" id="se-dedup-hide-buckets" class="se-mini-btn">Hide genre-bucket copies</button>
+      <button type="button" id="se-dedup-hide-standalone" class="se-mini-btn">Hide standalone copies</button>
+    </div>`;
+  wireSimpleSettings();
+  document.querySelectorAll('.se-genre-check[data-indeterminate]').forEach(cb => { cb.indeterminate = true; });
+}
+// Live "does this key actually work" check, matching the wizard's own Test
+// buttons so a key can't be silently accepted here and rejected there.
+function wireSeKeyTest(buttonId, fieldId, testFnName) {
+  const btn = document.getElementById(buttonId);
+  const field = document.getElementById(fieldId);
+  const testFn = window.NuvioWizard && window.NuvioWizard[testFnName];
+  if (!btn || !field || !testFn) return;
+  btn.addEventListener('click', async () => {
+    const key = field.value.trim();
+    if (!key) { showToast('Enter a key first.', 'error'); return; }
+    const original = btn.textContent;
+    btn.textContent = '…';
+    btn.disabled = true;
+    const result = await testFn(key);
+    btn.disabled = false;
+    btn.textContent = original;
+    if (result.unreachable) showToast('Could not reach the server to check that key. Try again in a moment.', 'error');
+    else if (result.ok) showToast('✓ That key works.', 'success');
+    else showToast('That key was rejected. Double-check it.', 'error');
+  });
+}
+
+function wireSimpleSettings() {
+  ['se-mode-basic', 'se-mode-advanced'].forEach((id) => {
+    const btn = document.getElementById(id);
+    if (!btn) return;
+    btn.addEventListener('click', () => {
+      const wantAdvanced = id === 'se-mode-advanced';
+      if (wantAdvanced === seAdvanced) return;
+      seGatherSettings();   // don't lose anything typed before the switch
+      seAdvanced = wantAdvanced;
+      renderSimpleSettings();
+    });
+  });
+  wireSeKeyTest('se-torbox-test', 'se-torbox-key', 'testTorboxKeyLive');
+  wireSeKeyTest('se-tmdb-test', 'se-tmdb-key', 'testTmdbKeyLive');
+  wireSeKeyTest('se-mdblist-test', 'se-mdblist-key', 'testMdblistKeyLive');
+  const tk = document.getElementById('se-torbox-key');
+  const stat = document.getElementById('se-torbox-status');
+  if (tk && stat) {
+    const upd = () => { stat.innerHTML = (window.NuvioWizard && window.NuvioWizard.torboxStatusHtml) ? window.NuvioWizard.torboxStatusHtml(tk.value) : ''; };
+    tk.addEventListener('input', upd); upd();
+  }
+  const av = document.getElementById('se-avatar-url');
+  const img = document.getElementById('se-avatar-preview');
+  if (av && img) {
+    const upd = () => { const u = av.value.trim(); if (u) { img.src = u; img.style.display = 'block'; } else { img.style.display = 'none'; } };
+    av.addEventListener('input', upd); upd();
+  }
+  const list = document.getElementById('se-addon-list');
+  if (list) {
+    list.addEventListener('change', e => {
+      if (e.target.classList.contains('se-addon-check')) { const i = +e.target.dataset.i; if (seAddons[i]) seAddons[i].checked = e.target.checked; }
+    });
+    list.addEventListener('click', e => {
+      const rm = e.target.closest('[data-rm]');
+      if (rm) { seGatherSettings(); seAddons.splice(+rm.dataset.rm, 1); renderSimpleSettings(); }
+    });
+  }
+  const addBtn = document.getElementById('se-addon-add-btn');
+  if (addBtn) addBtn.addEventListener('click', () => {
+    const n = document.getElementById('se-addon-name');
+    const u = document.getElementById('se-addon-url');
+    const url = (u && u.value || '').trim();
+    if (!url) { showToast('Enter the addon’s manifest link to add it.', 'error'); return; }
+    seGatherSettings();
+    seEnsureAddons().push({ name: (n && n.value || '').trim() || url, url, note: '', checked: true });
+    renderSimpleSettings();
+  });
+  document.querySelectorAll('.se-genre-check').forEach(cb => {
+    cb.addEventListener('change', () => {
+      applyGenreToggle(cb.dataset.genre, cb.checked);
+      renderSimpleSettings();
+      renderSimpleCollection();
+    });
+  });
+  const gifStreamingCb = document.getElementById('se-gif-disable-streaming');
+  if (gifStreamingCb) gifStreamingCb.addEventListener('change', () => {
+    gifDisableStreaming = gifStreamingCb.checked;
+    try { localStorage.setItem('kaptain_gif_disable_streaming', gifDisableStreaming ? '1' : '0'); } catch (e) {}
+    renderFolderGrid();
+    renderSimpleCollection();
+  });
+  const gifOtherCb = document.getElementById('se-gif-disable-other');
+  if (gifOtherCb) gifOtherCb.addEventListener('change', () => {
+    gifDisableOther = gifOtherCb.checked;
+    try { localStorage.setItem('kaptain_gif_disable_other', gifDisableOther ? '1' : '0'); } catch (e) {}
+    renderFolderGrid();
+    renderSimpleCollection();
+  });
+  const dedupBuckets = document.getElementById('se-dedup-hide-buckets');
+  if (dedupBuckets) dedupBuckets.addEventListener('click', () => {
+    const { bucketDuplicates } = getFilmCollectionDuplicates();
+    hideFilmCollectionBucketDuplicates();
+    renderSimpleCollection();
+    showToast(`Hid ${bucketDuplicates.length} genre-bucket ${bucketDuplicates.length === 1 ? 'copy' : 'copies'}.`, 'success');
+  });
+  const dedupStandalone = document.getElementById('se-dedup-hide-standalone');
+  if (dedupStandalone) dedupStandalone.addEventListener('click', () => {
+    const { standaloneDuplicates } = getFilmCollectionDuplicates();
+    hideFilmCollectionStandaloneDuplicates();
+    renderSimpleCollection();
+    showToast(`Hid ${standaloneDuplicates.length} standalone ${standaloneDuplicates.length === 1 ? 'copy' : 'copies'}.`, 'success');
+  });
+}
+
+function seSend() {
+  seGatherSettings();
+  let compiled = [];
+  try { compiled = assembleFilteredDatabase(); } catch (e) { /* ignore */ }
+  if (!compiled.length) { showToast('Pick at least one folder before sending.', 'error'); return; }
+
+  // Close the Quick Editor before opening wizard/compat overlays — they sit
+  // at lower z-indexes (200/250) than the Quick Editor overlay (900) and would
+  // otherwise appear hidden behind it.
+  document.getElementById('simple-editor-overlay')?.classList.remove('open');
+  hideTitleScreen();
+  isPreviewActive = true;
+  renderPreviewCollection();
+
+  const prefill = {
+    profileName: seSettings.profileName || undefined,
+    avatarUrl: seSettings.avatarUrl || undefined,
+    torboxKey: seSettings.torboxKey || undefined,
+    tmdbKey: seSettings.tmdbKey || undefined,
+    tmdbEnabled: !!seSettings.tmdbKey,
+    mdblistKey: seSettings.mdblistKey || undefined,
+    addons: seEnsureAddons(),
+  };
+  const launch = () => { if (window.NuvioWizard) window.NuvioWizard.open({ skipChoose: true, prefill }); };
+  if (window.KaptainExport && typeof window.KaptainExport.ensureMobileCompat === 'function') {
+    window.KaptainExport.ensureMobileCompat(launch);
+  } else { launch(); }
+}
+
+function bindSimpleEditorEvents() {
+  // Guided Customize card → startCustomize (was wrongly wired to Quick Editor)
+  document.getElementById('title-screen-simple')?.addEventListener('click', () => {
+    if (window.startCustomize) window.startCustomize();
+  });
+  document.getElementById('btn-shortcuts-hint')?.addEventListener('click', () => toggleShortcutPanel(true));
+  document.getElementById('se-back')?.addEventListener('click', backToCinematicEditor);
+  document.getElementById('se-cinematic')?.addEventListener('click', backToCinematicEditor);
+  document.getElementById('se-send')?.addEventListener('click', seSend);
+  document.getElementById('se-bingecat')?.addEventListener('click', () => {
+    seGatherSettings();   // keep anything typed in the settings panel
+    exportForBingecat();
+  });
+  document.getElementById('se-selfhost')?.addEventListener('click', () => {
+    seGatherSettings();
+    exportForSelfHost();
+  });
+  document.getElementById('se-search')?.addEventListener('input', renderSimpleCollection);
+  document.getElementById('se-all')?.addEventListener('click', () => { database.forEach((_, ci) => seSetCategory(ci, true)); renderSimpleCollection(); updateControlCenterStats(); renderSidebar(); });
+  document.getElementById('se-none')?.addEventListener('click', () => { database.forEach((_, ci) => seSetCategory(ci, false)); renderSimpleCollection(); updateControlCenterStats(); renderSidebar(); });
+
+  const host = document.getElementById('se-collection');
+  if (host) {
+    host.addEventListener('change', e => {
+      const row = e.target.closest('.se-folder');
+      if (!row) return;
+      const ci = +row.dataset.ci;
+      const folder = seFindFolder(row.dataset.fkey, ci);
+      if (!folder) return;
+      if (e.target.classList.contains('se-folder-check')) {
+        seSetFolder(folder, e.target.checked);
+        // refresh source checkboxes if expanded
+        if (seExpanded.has(row.dataset.fkey)) row.querySelector('.se-sources').innerHTML = seSourcesHtml(folder);
+        seUpdateFolderRow(row, folder, ci);
+        updateControlCenterStats();
+        renderSidebar();
+      } else if (e.target.classList.contains('se-source-check')) {
+        const fkey = getFolderKey(folder);
+        if (!selectedMap[fkey]) selectedMap[fkey] = {};
+        selectedMap[fkey][e.target.dataset.skey] = e.target.checked;
+        seUpdateFolderRow(row, folder, ci);
+        updateControlCenterStats();
+        renderSidebar();
+        notifyAccountSave();
+      }
+    });
+    host.addEventListener('click', e => {
+      const exp = e.target.closest('.se-folder-expand');
+      if (exp) { seToggleSources(exp.closest('.se-folder')); return; }
+      const streamSort = e.target.closest('[data-streamsort]');
+      if (streamSort) {
+        seStreamingSort = streamSort.dataset.streamsort;
+        renderSimpleCollection();
+        return;
+      }
+      const all = e.target.closest('[data-catall]');
+      if (all) { seSetCategory(+all.dataset.catall, true); renderSimpleCollection(); updateControlCenterStats(); renderSidebar(); return; }
+      const none = e.target.closest('[data-catnone]');
+      if (none) { seSetCategory(+none.dataset.catnone, false); renderSimpleCollection(); updateControlCenterStats(); renderSidebar(); return; }
+    });
+  }
+}
+
+// ==========================================================================
+// 11. GUIDED WALKTHROUGH ENGINE
+// ==========================================================================
+
+function startWalkthrough() {
+  // Capture view state before starting the walkthrough
+  preWalkthroughState = {
+    currentCategoryIdx: currentCategoryIdx,
+    isPreviewActive: isPreviewActive,
+    isGuideActive: isGuideActive
+  };
+  walkthroughActive = true;
+  walkthroughStep = 0;
+  showWalkthroughStep(0);
+}
+
+function showWalkthroughStep(index) {
+  const step = WALKTHROUGH_STEPS[index];
+  if (!step) return;
+
+  walkthroughStep = index;
+
+  // Walkthrough UX integration: automatically switch to the Preview view on the preview step
+  if (step.view === 'preview') {
+    isPreviewActive = true;
+    isGuideActive = false;
+    switchCategory(-2);
+  } else {
+    // If we are on other steps but the preview view was temporarily activated, restore the previous state
+    if (isPreviewActive && preWalkthroughState && !preWalkthroughState.isPreviewActive) {
+      isPreviewActive = preWalkthroughState.isPreviewActive;
+      isGuideActive = preWalkthroughState.isGuideActive;
+      currentCategoryIdx = preWalkthroughState.currentCategoryIdx;
+      switchCategory(currentCategoryIdx);
+    }
+  }
+
+  const overlay = document.getElementById('walkthrough-overlay');
+  const spotlight = document.getElementById('walkthrough-spotlight');
+  const tooltip = document.getElementById('walkthrough-tooltip');
+  const titleEl = document.getElementById('wt-title');
+  const bodyEl = document.getElementById('wt-body');
+  const dotsEl = document.getElementById('wt-dots');
+  const labelEl = document.getElementById('wt-step-label');
+  const miniCounter = document.getElementById('wt-mini-counter');
+  const btnNext = document.getElementById('wt-btn-next');
+  const btnPrev = document.getElementById('wt-btn-prev');
+  const btnSkip = document.getElementById('wt-btn-skip');
+
+  // Show overlay
+  overlay.classList.add('active');
+
+  // Fade out tooltip while repositioning
+  tooltip.classList.remove('visible');
+
+  // Resolve the target now (sidebar contents are always in the DOM, just
+  // translated off-screen when closed) so we can open/close the sidebar
+  // immediately and give its slide transition time to finish before any
+  // position is measured below.
+  const targetEl = step.target ? document.querySelector(step.target) : null;
+  const needsSidebar = !!(targetEl && targetEl.closest('.sidebar'));
+  if (needsSidebar) openSidebar(); else closeSidebar();
+
+  // On phones, the entire preview bar (⋯ / Download / Send to Nuvio, plus
+  // whatever ⋯ reveals) lives behind a FAB — expand it before checking the
+  // nested "more" panel below. No-op on desktop (always visible there).
+  const needsPreviewBar = !!(targetEl && targetEl.closest('.nv-preview-content'));
+  if (needsPreviewBar) openPreviewBar(); else closePreviewBar();
+
+  // On phones, the device toggle / reorder / layout / help controls live
+  // inside the collapsed "more" panel — expand it before measuring so the
+  // spotlight lands on a visible target. No-op on desktop (panel is always
+  // visible there regardless of the .open class).
+  const needsPreviewSecondary = !!(targetEl && targetEl.closest('#nv-preview-secondary'));
+  if (needsPreviewSecondary) openPreviewSecondary(); else closePreviewSecondary();
+
+  // The sidebar's slide transition is --transition-normal (300ms); give it
+  // room to finish so we never measure a target mid-animation.
+  const delay = needsSidebar ? 360 : 130;
+
+  setTimeout(() => {
+    // Update content
+    titleEl.textContent = step.title;
+    bodyEl.textContent = step.body;
+    btnNext.textContent = step.nextLabel || 'Next';
+
+    // Mini counter (replaces old "Step X of N" label)
+    if (miniCounter) {
+      miniCounter.textContent = index === 0 ? '' : `${index} · ${WALKTHROUGH_STEPS.length - 1}`;
+    }
+    if (labelEl) labelEl.textContent = '';
+
+    // Dots
+    dotsEl.innerHTML = WALKTHROUGH_STEPS.map((_, i) =>
+      `<span class="wt-dot ${i === index ? 'active' : i < index ? 'done' : ''}"></span>`
+    ).join('');
+
+    // Show/hide prev
+    btnPrev.style.display = index > 0 ? 'inline-flex' : 'none';
+
+    // Show/hide skip (not on last step)
+    btnSkip.style.display = index < WALKTHROUGH_STEPS.length - 1 ? 'inline-flex' : 'none';
+
+    if (!step.target || !targetEl) {
+      // Centered modal, no spotlight. Compute the centered position in JS
+      // (rather than a CSS `transform: translate(-50%,-50%)`) so it never
+      // fights the entrance fade's own transform when switching steps.
+      spotlight.classList.add('hidden');
+      tooltip.classList.add('wt-centered');
+      tooltip.style.top = '';
+      tooltip.style.left = '';
+      const tw = tooltip.offsetWidth;
+      const th = tooltip.offsetHeight;
+      tooltip.style.top = Math.max(20, (window.innerHeight - th) / 2) + 'px';
+      tooltip.style.left = Math.max(20, (window.innerWidth - tw) / 2) + 'px';
+    } else {
+      tooltip.classList.remove('wt-centered');
+
+      // Scroll target element into view so it is completely visible and not clipped by overflow containers
+      targetEl.scrollIntoView({ block: 'center', inline: 'center', behavior: 'auto' });
+
+      spotlight.classList.remove('hidden');
+      const rect = targetEl.getBoundingClientRect();
+      const pad = 14;
+
+      spotlight.style.top = (rect.top - pad) + 'px';
+      spotlight.style.left = (rect.left - pad) + 'px';
+      spotlight.style.width = (rect.width + pad * 2) + 'px';
+      spotlight.style.height = Math.min(rect.height + pad * 2, window.innerHeight * 0.7) + 'px';
+
+      // Position tooltip so it never overlaps the spotlighted box
+      positionWalkthroughTooltip(rect, step.position, pad);
+    }
+
+    // Fade tooltip in
+    requestAnimationFrame(() => {
+      tooltip.classList.add('visible');
+    });
+  }, delay);
+}
+
+function positionWalkthroughTooltip(targetRect, position, pad) {
+  const tooltip = document.getElementById('walkthrough-tooltip');
+  const gap = 24;
+  const margin = 20;
+
+  // Reset before measuring so the tooltip's own (responsive) size is current
+  tooltip.style.top = '';
+  tooltip.style.left = '';
+
+  const tw = tooltip.offsetWidth;
+  const th = tooltip.offsetHeight;
+  const vw = window.innerWidth;
+  const vh = window.innerHeight;
+
+  // The spotlight is padded outward from the raw target rect; that's the
+  // box the tooltip must stay clear of.
+  const box = {
+    top: targetRect.top - pad,
+    bottom: targetRect.bottom + pad,
+    left: targetRect.left - pad,
+    right: targetRect.right + pad
+  };
+
+  const spaceRight = vw - box.right;
+  const spaceLeft = box.left;
+  const spaceBelow = vh - box.bottom;
+  const spaceAbove = box.top;
+
+  // Flip to the opposite side when the requested side doesn't have room
+  let side = position;
+  if (side === 'right' && spaceRight < tw + gap && spaceLeft >= tw + gap) side = 'left';
+  if (side === 'left' && spaceLeft < tw + gap && spaceRight >= tw + gap) side = 'right';
+  if (side === 'bottom' && spaceBelow < th + gap && spaceAbove >= th + gap) side = 'top';
+  if (side === 'top' && spaceAbove < th + gap && spaceBelow >= th + gap) side = 'bottom';
+
+  let top, left;
+  switch (side) {
+    case 'right':
+      left = box.right + gap;
+      top = targetRect.top;
+      break;
+    case 'left':
+      left = box.left - gap - tw;
+      top = targetRect.top;
+      break;
+    case 'top':
+      top = box.top - gap - th;
+      left = targetRect.left;
+      break;
+    case 'bottom':
+    default:
+      top = box.bottom + gap;
+      left = targetRect.left;
+      break;
+  }
+
+  // Clamp to the viewport
+  left = Math.max(margin, Math.min(left, vw - tw - margin));
+  top = Math.max(margin, Math.min(top, vh - th - margin));
+
+  // If clamping pulled the tooltip back over the spotlighted box, nudge it
+  // clear on whichever axis still has room rather than let it overlap.
+  const overlaps = left < box.right && left + tw > box.left && top < box.bottom && top + th > box.top;
+  if (overlaps) {
+    if (side === 'left' || side === 'right') {
+      top = (box.bottom + gap + th <= vh - margin) ? box.bottom + gap : Math.max(margin, box.top - gap - th);
+    } else {
+      left = (box.right + gap + tw <= vw - margin) ? box.right + gap : Math.max(margin, box.left - gap - tw);
+    }
+  }
+
+  tooltip.style.top = top + 'px';
+  tooltip.style.left = left + 'px';
+}
+
+function walkthroughNext() {
+  if (walkthroughStep < WALKTHROUGH_STEPS.length - 1) {
+    showWalkthroughStep(walkthroughStep + 1);
+  } else {
+    endWalkthrough();
+  }
+}
+
+function walkthroughPrev() {
+  if (walkthroughStep > 0) {
+    showWalkthroughStep(walkthroughStep - 1);
+  }
+}
+
+function endWalkthrough() {
+  walkthroughActive = false;
+  closeSidebar();
+  closePreviewSecondary();
+  closePreviewBar();
+
+  const overlay = document.getElementById('walkthrough-overlay');
+  const tooltip = document.getElementById('walkthrough-tooltip');
+  const spotlight = document.getElementById('walkthrough-spotlight');
+
+  if (tooltip) tooltip.classList.remove('visible');
+
+  setTimeout(() => {
+    if (overlay) overlay.classList.remove('active');
+    if (spotlight) spotlight.classList.add('hidden');
+    if (tooltip) tooltip.classList.remove('wt-centered');
+  }, 500);
+
+  // Restore pre-walkthrough view if we were in the preview step
+  if (preWalkthroughState) {
+    isPreviewActive = preWalkthroughState.isPreviewActive;
+    isGuideActive = preWalkthroughState.isGuideActive;
+    currentCategoryIdx = preWalkthroughState.currentCategoryIdx;
+    switchCategory(currentCategoryIdx);
+    preWalkthroughState = null;
+
+    // Smoothly reset sidebar scroll position to top
+    const scroller = document.getElementById('category-scroller');
+    if (scroller) {
+      scroller.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+    }
+  }
+
+  // Mark as completed
+  localStorage.setItem('kaptain_tour_done', '1');
+
+  showToast("Pick your folders and customize away.", "success");
+
+  // One-time navigation hint (shown only after the very first tour completion)
+  if (!localStorage.getItem('kaptain_nav_hint_shown')) {
+    localStorage.setItem('kaptain_nav_hint_shown', '1');
+    setTimeout(() => showToast('Tip: use arrow keys or swipe to navigate sections.', 'success'), 3500);
+  }
+}
+
+function showUndoToast(folder) {
+  const container = document.getElementById('toast-container');
+  if (!container) return;
+
+  const toast = document.createElement('div');
+  toast.className = 'toast toast-undo';
+
+  const name = folder.title || 'Folder';
+  toast.innerHTML = `
+    <div class="toast-message">Removed <strong>${name}</strong></div>
+    <button class="toast-undo-btn">Undo</button>
+    <button class="toast-close">&times;</button>
+  `;
+
+  let dismissed = false;
+  const dismiss = () => {
+    if (dismissed) return;
+    dismissed = true;
+    toast.classList.remove('show');
+    setTimeout(() => toast.remove(), 350);
+  };
+
+  toast.querySelector('.toast-undo-btn').addEventListener('click', () => {
+    toggleWholeFolderSelection(folder, true);
+    dismiss();
+  });
+  toast.querySelector('.toast-close').addEventListener('click', dismiss);
+
+  container.appendChild(toast);
+  setTimeout(() => toast.classList.add('show'), 10);
+  setTimeout(dismiss, 5000);
+}
+
+function showToast(message, type = 'success') {
+  const container = document.getElementById('toast-container');
+  if (!container) return;
+
+  const toast = document.createElement('div');
+  toast.className = `toast toast-${type}`;
+
+  const iconSvg = type === 'success'
+    ? `<svg class="toast-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>`
+    : `<svg class="toast-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>`;
+
+  toast.innerHTML = `
+    ${iconSvg}
+    <div class="toast-message">${message}</div>
+    <button class="toast-close">&times;</button>
+  `;
+
+  toast.querySelector('.toast-close').addEventListener('click', () => {
+    toast.classList.remove('show');
+    setTimeout(() => toast.remove(), 350);
+  });
+
+  container.appendChild(toast);
+  setTimeout(() => toast.classList.add('show'), 10);
+
+  setTimeout(() => {
+    if (toast.parentNode) {
+      toast.classList.remove('show');
+      setTimeout(() => toast.remove(), 350);
+    }
+  }, 4500);
+}
+
+// ==========================================================================
+// FEATURE B: SYNC STATE INDICATOR
+// ==========================================================================
+
+function getSelectedFolderIds() {
+  return Object.keys(selectedMap).filter(key => {
+    const sources = selectedMap[key];
+    return sources && Object.values(sources).some(Boolean);
+  });
+}
+
+function checkSyncState() {
+  const dot = document.getElementById('sync-dot');
+  if (!dot) return;
+  const raw = localStorage.getItem('kaptain_last_push');
+  if (!raw) { dot.className = 'sync-dot'; dot.title = ''; return; }
+  try {
+    const saved = JSON.parse(raw);
+    const savedIds = (saved.folderIds || []).slice().sort().join('\n');
+    const currentIds = getSelectedFolderIds().slice().sort().join('\n');
+    if (savedIds === currentIds) {
+      dot.className = 'sync-dot synced';
+      const mins = Math.round((Date.now() - saved.timestamp) / 60000);
+      const timeStr = mins < 2 ? 'just now' : mins < 60 ? `${mins}m ago` : `${Math.round(mins / 60)}h ago`;
+      dot.title = `Nuvio is up to date · Pushed ${timeStr}`;
+    } else {
+      dot.className = 'sync-dot out-of-sync';
+      const current = new Set(getSelectedFolderIds());
+      const prev = new Set(saved.folderIds || []);
+      const added = [...current].filter(id => !prev.has(id)).length;
+      const removed = [...prev].filter(id => !current.has(id)).length;
+      const parts = [];
+      if (added) parts.push(`+${added} folder${added !== 1 ? 's' : ''}`);
+      if (removed) parts.push(`-${removed} folder${removed !== 1 ? 's' : ''}`);
+      dot.title = (parts.length ? parts.join(', ') + ' since last push.' : 'Selection changed.') + ' Click to update.';
+    }
+  } catch (e) {
+    dot.className = 'sync-dot'; dot.title = '';
+  }
+}
+
+function handleSendToNuvioClick() {
+  const dot = document.getElementById('sync-dot');
+  if (dot && dot.classList.contains('out-of-sync')) {
+    openQuickPushModal();
+  } else {
+    if (window.NuvioWizard && typeof window.NuvioWizard.open === 'function') {
+      window.NuvioWizard.open();
+    }
+  }
+}
+
+function openQuickPushModal() {
+  const overlay = document.getElementById('quick-push-overlay');
+  const desc = document.getElementById('quick-push-desc');
+  if (!overlay) return;
+
+  const raw = localStorage.getItem('kaptain_last_push');
+  if (desc && raw) {
+    try {
+      const saved = JSON.parse(raw);
+      const current = new Set(getSelectedFolderIds());
+      const prev = new Set(saved.folderIds || []);
+      const added = [...current].filter(id => !prev.has(id)).length;
+      const removed = [...prev].filter(id => !current.has(id)).length;
+      const parts = [];
+      if (added) parts.push(`${added} folder${added !== 1 ? 's' : ''} added`);
+      if (removed) parts.push(`${removed} folder${removed !== 1 ? 's' : ''} removed`);
+      desc.textContent = parts.length ? parts.join(', ') + ' since your last push.' : 'Your selection has changed since the last push.';
+    } catch (e) { desc.textContent = 'Your selection has changed since the last push.'; }
+  }
+
+  overlay.hidden = false;
+}
+
+function closeQuickPushModal() {
+  const overlay = document.getElementById('quick-push-overlay');
+  if (overlay) overlay.hidden = true;
+}
+
+function mergeCategoryUnionForQuickPush(existingCat, incomingCat) {
+  const sourceUnionKey = (s) => {
+    if (!s) return '';
+    if (s.provider === 'addon') return `addon|${s.addonId || ''}|${s.catalogId || ''}|${s.type || ''}`;
+    if (s.provider === 'tmdb') {
+      const g = (s.filters && s.filters.withGenres) || s.genre || '';
+      const tmdbId = s.tmdbId || s.tmdbSourceId || '';
+      const media = s.mediaType || s.type || '';
+      return `tmdb|${tmdbId}|${s.tmdbSourceType || ''}|${g}|${s.title || s.name || ''}|${media}`;
+    }
+    if (s.provider === 'trakt') return `trakt|${s.traktListId || ''}|${s.title || s.name || ''}|${s.mediaType || s.type || ''}`;
+    return `${s.provider || ''}|${s.catalogId || s.title || s.name || ''}|${s.type || s.mediaType || ''}`;
+  };
+
+  const merged = { ...existingCat };
+  const folderList = (existingCat.folders || []).filter(Boolean).map((f) => ({ ...f }));
+  const byFolderId = new Map(folderList.map((f) => [f.id, f]));
+  const norm = (t) => (t || '').trim().toLowerCase();
+  const byFolderTitle = new Map(folderList.map((f) => [norm(f.title), f]));
+
+  (incomingCat.folders || []).forEach((incFolder) => {
+    if (!incFolder || (!incFolder.id && !incFolder.title)) return;
+    const titleKey = norm(incFolder.title);
+    const existingFolder = (incFolder.id && byFolderId.get(incFolder.id)) || (titleKey && byFolderTitle.get(titleKey));
+    if (!existingFolder) {
+      folderList.push(incFolder);
+      if (incFolder.id) byFolderId.set(incFolder.id, incFolder);
+      if (titleKey) byFolderTitle.set(titleKey, incFolder);
+      return;
+    }
+    const existingKeys = new Set((existingFolder.sources || []).map(sourceUnionKey));
+    const missingSources = (incFolder.sources || []).filter((s) => !existingKeys.has(sourceUnionKey(s)));
+    if (missingSources.length) {
+      existingFolder.sources = [...(existingFolder.sources || []), ...missingSources];
+      const existingCatKeys = new Set((existingFolder.catalogSources || []).map(sourceUnionKey));
+      const missingCatSources = (incFolder.catalogSources || []).filter((s) => !existingCatKeys.has(sourceUnionKey(s)));
+      existingFolder.catalogSources = [...(existingFolder.catalogSources || []), ...missingCatSources];
+    }
+  });
+  merged.folders = folderList;
+  return merged;
+}
+
+function mergeCollectionsSafe(existingList, incomingList) {
+  const existing = Array.isArray(existingList) ? existingList : [];
+  const incoming = Array.isArray(incomingList) ? incomingList : [];
+  if (!existing.length) return incoming.map((c) => ({ ...c }));
+
+  const norm = (t) => (t || '').trim().toLowerCase();
+  const incomingIds = new Set(incoming.map((c) => c && c.id).filter(Boolean));
+  const incomingTitles = new Set(incoming.map((c) => c && norm(c.title)).filter(Boolean));
+
+  const allKnownDb = (typeof database !== 'undefined' && Array.isArray(database)) ? database : [];
+  const allKnownIds = new Set(allKnownDb.map((c) => c && c.id).filter(Boolean));
+  const allKnownTitles = new Set(allKnownDb.map((c) => c && norm(c.title)).filter(Boolean));
+
+  const result = [];
+  const handledExisting = new Set();
+  const handledIncoming = new Set();
+
+  // Step 1: Walk existing list to preserve original row order and custom rows
+  existing.forEach((existingCat) => {
+    if (!existingCat) return;
+    const catId = existingCat.id;
+    const catTitleNorm = norm(existingCat.title);
+
+    const incMatch = incoming.find((inc) => (catId && inc.id === catId) || (catTitleNorm && norm(inc.title) === catTitleNorm));
+    if (incMatch) {
+      result.push(mergeCategoryUnionForQuickPush(existingCat, incMatch));
+      handledExisting.add(existingCat);
+      handledIncoming.add(incMatch);
+    } else {
+      const isCustomCategory = !allKnownIds.has(catId) && !allKnownTitles.has(catTitleNorm);
+      if (isCustomCategory) {
+        // User custom category created in Nuvio — ALWAYS PRESERVE!
+        result.push({ ...existingCat });
+        handledExisting.add(existingCat);
+      }
+      // If it was a recognized category in Kaptain DB that the user deselected, leave it dropped
+    }
+  });
+
+  // Step 2: Append newly selected incoming categories not previously on the profile
+  incoming.forEach((incCat) => {
+    if (incCat && !handledIncoming.has(incCat)) {
+      result.push({ ...incCat });
+    }
+  });
+
+  return result;
+}
+
+async function performQuickPush() {
+  const btn = document.getElementById('quick-push-confirm');
+  if (btn) { btn.disabled = true; btn.textContent = 'Pushing…'; }
+
+  try {
+    const raw = localStorage.getItem('kaptain_last_push');
+    if (!raw) throw new Error('no_state');
+    const saved = JSON.parse(raw);
+    const { profileId } = saved;
+    // Token lives in sessionStorage, not localStorage - see the note in wizard.js.
+    // A new tab or a returning visitor has no token and is sent back through
+    // Send to Nuvio to sign in again.
+    let token = null;
+    try { token = sessionStorage.getItem('kaptain_push_token'); } catch (e) {}
+    if (!token || !profileId) throw new Error('no_auth');
+
+    let incoming = assembleFilteredDatabase();
+    incoming = await applyLocaleToCollection(incoming);
+    if (!incoming || !incoming.length) throw new Error('Nothing selected.');
+
+    // 1. Pull existing collections to protect user custom categories & folders
+    let existing = [];
+    try {
+      if (window.NuvioPush && typeof window.NuvioPush.pullCollections === 'function') {
+        existing = await window.NuvioPush.pullCollections(token, profileId);
+      }
+    } catch (pullErr) {
+      console.warn('Could not pull existing collections before quick push:', pullErr);
+    }
+
+    // 2. Safely merge without destroying custom categories or folders
+    const merged = mergeCollectionsSafe(existing, incoming);
+    (merged || []).forEach((cat) => {
+      if (!cat) return;
+      if (typeof cat.pinToTop !== 'boolean') cat.pinToTop = true;
+      cat.focusGlowEnabled = true;
+    });
+
+    await window.NuvioPush.pushCollections(token, profileId, merged);
+
+    localStorage.setItem('kaptain_last_push', JSON.stringify({
+      ...saved, timestamp: Date.now(), folderIds: getSelectedFolderIds(),
+    }));
+    checkSyncState();
+    closeQuickPushModal();
+    showToast('Nuvio updated.', 'success');
+  } catch (e) {
+    closeQuickPushModal();
+    const msg = (e && e.message) || '';
+    const isAuthErr = msg === 'no_auth' || msg === 'no_state' || /401|403|unauthorized|expired/i.test(msg);
+    showToast(isAuthErr ? 'Session expired. Running full Setup.' : `Couldn't reach Nuvio. Trying full Setup.`, 'error');
+    setTimeout(() => {
+      if (window.NuvioWizard && typeof window.NuvioWizard.open === 'function') window.NuvioWizard.open();
+    }, 600);
+  } finally {
+    if (btn) { btn.disabled = false; btn.textContent = 'Update Now'; }
+  }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const qpCancel = document.getElementById('quick-push-cancel');
+  const qpConfirm = document.getElementById('quick-push-confirm');
+  if (qpCancel) qpCancel.addEventListener('click', () => {
+    closeQuickPushModal();
+    if (window.NuvioWizard && typeof window.NuvioWizard.open === 'function') window.NuvioWizard.open();
+  });
+  if (qpConfirm) qpConfirm.addEventListener('click', performQuickPush);
+  const qpOverlay = document.getElementById('quick-push-overlay');
+  if (qpOverlay) qpOverlay.addEventListener('click', (e) => { if (e.target === qpOverlay) closeQuickPushModal(); });
+});
+
+// ==========================================================================
+// FEATURE C: COMMAND PALETTE
+// ==========================================================================
+
+let _commandPaletteOpen = false;
+let _commandHighlightIdx = 0;
+
+function _buildCommandRegistry() {
+  const reg = [];
+  database.forEach((cat, i) => {
+    reg.push({
+      label: `Go to ${cat.title}`,
+      keywords: [cat.title.toLowerCase(), 'go', 'jump'],
+      icon: cat.icon || '📁', group: 'Navigate',
+      action: () => { switchCategory(i); closeSidebar(); }
+    });
+  });
+  reg.push({ label: 'Select All in this section', keywords: ['select', 'all', 'check'], icon: '✓', group: 'Selection', action: () => { toggleCategorySelection(currentCategoryIdx, true); renderCategoryActions(); renderFolderGrid(); updateControlCenterStats(); } });
+  reg.push({ label: 'Select None in this section', keywords: ['none', 'uncheck', 'deselect', 'clear', 'remove'], icon: '○', group: 'Selection', action: () => { toggleCategorySelection(currentCategoryIdx, false); renderCategoryActions(); renderFolderGrid(); updateControlCenterStats(); } });
+  reg.push({ label: 'View: Rows', keywords: ['view', 'rows', 'layout', 'tv'], icon: '▬', group: 'View', action: () => { const s = document.getElementById('viewmode-select'); if (s) { s.value = 'ROWS'; s.dispatchEvent(new Event('change')); } } });
+  reg.push({ label: 'View: Tabbed Grid', keywords: ['view', 'tabbed', 'grid', 'mobile', 'phone'], icon: '▦', group: 'View', action: () => { const s = document.getElementById('viewmode-select'); if (s) { s.value = 'TABBED_GRID'; s.dispatchEvent(new Event('change')); } } });
+  reg.push({ label: 'View: Auto', keywords: ['view', 'auto'], icon: '⊞', group: 'View', action: () => { const s = document.getElementById('viewmode-select'); if (s) { s.value = 'FOLLOW_LAYOUT'; s.dispatchEvent(new Event('change')); } } });
+  reg.push({ label: 'Sort: Custom order', keywords: ['sort', 'custom'], icon: '↕', group: 'Sort', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'custom'; s.dispatchEvent(new Event('change')); } } });
+  reg.push({ label: 'Sort: Popular first', keywords: ['sort', 'popular', 'popularity'], icon: '★', group: 'Sort', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'popular'; s.dispatchEvent(new Event('change')); } } });
+  reg.push({ label: 'Sort: A–Z', keywords: ['sort', 'alphabetical', 'a-z', 'az'], icon: 'A', group: 'Sort', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'az'; s.dispatchEvent(new Event('change')); } } });
+  reg.push({ label: 'Sort: Selected first', keywords: ['sort', 'selected', 'checked', 'first'], icon: '★', group: 'Sort', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'selected'; s.dispatchEvent(new Event('change')); } } });
+  reg.push({ label: 'Send to Nuvio', keywords: ['send', 'push', 'nuvio', 'upload', 'stream'], icon: '📡', group: 'Actions', action: () => handleSendToNuvioClick() });
+  reg.push({ label: 'Save File', keywords: ['save', 'download', 'export', 'file'], icon: '💾', group: 'Actions', action: () => document.getElementById('btn-compile-download')?.click() });
+  reg.push({ label: 'Export for Bingecat', keywords: ['bingecat', 'export', 'addon', 'cat'], icon: '🐱', group: 'Actions', action: () => exportForBingecat() });
+  reg.push({ label: 'Start walkthrough', keywords: ['tour', 'walkthrough', 'guide', 'help', 'replay', 'walk'], icon: '?', group: 'Actions', action: () => document.getElementById('btn-replay-tour')?.click() });
+  return reg;
+}
+
+function _fuzzyScore(query, cmd) {
+  const q = query.toLowerCase().trim();
+  if (!q) return 1;
+  const label = cmd.label.toLowerCase();
+  const kws = (cmd.keywords || []).join(' ');
+  if (label.startsWith(q)) return 4;
+  if (label.includes(q)) return 3;
+  if (kws.includes(q)) return 2;
+  const words = q.split(/\s+/);
+  if (words.length > 1 && words.every(w => (label + ' ' + kws).includes(w))) return 1;
+  return 0;
+}
+
+function _renderCommandResults(query) {
+  const container = document.getElementById('command-results');
+  if (!container) return;
+  const registry = _buildCommandRegistry();
+  const results = registry
+    .map(cmd => ({ cmd, score: _fuzzyScore(query, cmd) }))
+    .filter(x => x.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 8)
+    .map(x => x.cmd);
+
+  if (!results.length) {
+    container.innerHTML = '<div style="padding:14px 18px;color:var(--text-dark);font-size:0.85rem;">No commands match that.</div>';
+    _commandHighlightIdx = 0;
+    return;
+  }
+
+  _commandHighlightIdx = 0;
+  let html = '', lastGroup = '';
+  results.forEach((cmd, i) => {
+    if (cmd.group !== lastGroup) {
+      html += `<div class="command-group-label">${cmd.group}</div>`;
+      lastGroup = cmd.group;
+    }
+    html += `<div class="command-result${i === 0 ? ' highlighted' : ''}" data-idx="${i}"><span class="command-result-icon">${cmd.icon || '·'}</span><span class="command-result-label">${cmd.label}</span></div>`;
+  });
+  container.innerHTML = html;
+  container.querySelectorAll('.command-result').forEach((el, i) => {
+    el.addEventListener('mouseenter', () => _setCommandHighlight(i));
+    el.addEventListener('click', () => { closeCommandPalette(); setTimeout(() => results[i].action(), 50); });
+  });
+
+  return results;
+}
+
+let _cmdResultsCache = null;
+function _setCommandHighlight(idx) {
+  const els = document.querySelectorAll('.command-result');
+  els.forEach((el, i) => el.classList.toggle('highlighted', i === idx));
+  _commandHighlightIdx = idx;
+}
+
+function openCommandPalette() {
+  if (_commandPaletteOpen) return;
+  _commandPaletteOpen = true;
+  const overlay = document.getElementById('command-palette-overlay');
+  const input = document.getElementById('command-input');
+  if (!overlay) return;
+  overlay.hidden = false;
+  if (input) { input.value = ''; input.focus(); }
+  _cmdResultsCache = _renderCommandResults('');
+}
+
+function closeCommandPalette() {
+  _commandPaletteOpen = false;
+  const overlay = document.getElementById('command-palette-overlay');
+  if (overlay) overlay.hidden = true;
+}
+
+function _isInputFocused() {
+  const el = document.activeElement;
+  return el && (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA' || el.tagName === 'SELECT' || el.isContentEditable);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('keydown', (e) => {
+    const cmdK = (e.metaKey || e.ctrlKey) && e.key === 'k';
+    const bareK = e.key === 'k' && !_isInputFocused() && !e.metaKey && !e.ctrlKey && !e.altKey;
+    if (cmdK || bareK) {
+      e.preventDefault();
+      _commandPaletteOpen ? closeCommandPalette() : openCommandPalette();
+      return;
+    }
+    if (!_commandPaletteOpen) return;
+    if (e.key === 'Escape') { closeCommandPalette(); return; }
+    const results = document.querySelectorAll('.command-result');
+    if (e.key === 'ArrowDown') { e.preventDefault(); _setCommandHighlight(Math.min(_commandHighlightIdx + 1, results.length - 1)); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); _setCommandHighlight(Math.max(_commandHighlightIdx - 1, 0)); }
+    else if (e.key === 'Enter') { e.preventDefault(); document.querySelector('.command-result.highlighted')?.click(); }
+  });
+
+  const cmdInput = document.getElementById('command-input');
+  if (cmdInput) cmdInput.addEventListener('input', () => { _cmdResultsCache = _renderCommandResults(cmdInput.value); });
+
+  const cmdOverlay = document.getElementById('command-palette-overlay');
+  if (cmdOverlay) cmdOverlay.addEventListener('click', (e) => { if (e.target === cmdOverlay) closeCommandPalette(); });
+});
+
+// ==========================================================================
+// FEATURE A: SMART START QUIZ
+// ==========================================================================
+
+const _quizAnswers = {};
+
+const _quizScorers = {
+  movies:    (f) => (f.sources || []).some(s => s.type === 'movie' || !s.type) ? 2 : 0,
+  series:    (f) => (f.sources || []).some(s => s.type === 'series') ? 2 : -1,
+  action:    (f, cat) => /action|thriller|heist|spy|crime|adventure/i.test(f.title + cat.title) ? 3 : 0,
+  comedy:    (f, cat) => /comedy|humor|sitcom/i.test(f.title + cat.title) ? 3 : 0,
+  drama:     (f, cat) => /drama/i.test(f.title + cat.title) ? 3 : 0,
+  scifi:     (f, cat) => /sci.fi|fantasy|marvel|dc|superhero/i.test(f.title + cat.title) ? 3 : 0,
+  horror:    (f, cat) => /horror|scary|fear|terror/i.test(f.title + cat.title) ? 3 : 0,
+  docs:      (f, cat) => /documentary|docuseries|true crime|nature/i.test(f.title + cat.title) ? 3 : 0,
+  reality:   (f, cat) => /reality|competition|game show|dating/i.test(f.title + cat.title) ? 3 : 0,
+  animation: (f, cat) => /animation|animated|pixar|cartoon/i.test(f.title + cat.title) ? 3 : 0,
+  anime:     (f, cat) => /anime/i.test(cat.title) ? 5 : /anime/i.test(f.title) ? 3 : 0,
+  international: (f, cat) => /international cinema/i.test(cat.title) ? 5 : 0,
+  awards:    (f, cat) => /award/i.test(cat.title) ? 5 : /oscar|emmy|cannes|golden globe/i.test(f.title) ? 3 : 0,
+  newreleases: (f) => /new|trending|popular/i.test(f.title) ? 2 : 0,
+};
+
+function _runSmartStart(answers) {
+  const scored = [];
+  database.forEach(cat => {
+    (cat.folders || []).forEach(folder => {
+      let score = 1;
+      const ct = answers.contentType;
+      if (ct === 'movies' || ct === 'series') score += _quizScorers[ct](folder);
+      (answers.genres || []).forEach(g => { if (_quizScorers[g]) score += _quizScorers[g](folder, cat); });
+      (answers.musthaves || []).forEach(m => { if (_quizScorers[m]) score += _quizScorers[m](folder, cat); });
+      if (/discover/i.test(cat.title)) score += 2;
+      scored.push({ folder, cat, score });
+    });
+  });
+
+  scored.sort((a, b) => b.score - a.score);
+  const top = scored.slice(0, 20);
+
+  database.forEach(cat => {
+    (cat.folders || []).forEach(folder => {
+      const key = getFolderKey(folder);
+      if (selectedMap[key]) Object.keys(selectedMap[key]).forEach(sk => { selectedMap[key][sk] = false; });
+    });
+  });
+  top.forEach(({ folder }) => {
+    const key = getFolderKey(folder);
+    if (!selectedMap[key]) selectedMap[key] = {};
+    (folder.sources || []).forEach(s => { selectedMap[key][getSourceKey(s)] = true; });
+  });
+
+  const device = answers.device;
+  const vmSelect = document.getElementById('viewmode-select');
+  if (vmSelect && device) {
+    if (device === 'tv') { vmSelect.value = 'ROWS'; vmSelect.dispatchEvent(new Event('change')); }
+    else if (device === 'phone') { vmSelect.value = 'TABBED_GRID'; vmSelect.dispatchEvent(new Event('change')); }
+  }
+
+  try { localStorage.setItem('kaptain_quiz_answers', JSON.stringify(answers)); } catch (_) {}
+  return top.length;
+}
+
+function initQuizScreen(num) {
+  const overlay = document.getElementById('quiz-overlay');
+  if (!overlay) return;
+  overlay.querySelectorAll('.quiz-step').forEach(el => {
+    el.classList.toggle('active', el.getAttribute('data-screen') === String(num));
+  });
+  const dots = overlay.querySelectorAll('.quiz-progress-dot');
+  dots.forEach((d, i) => d.classList.toggle('done', i < num - 1));
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const quizOverlay = document.getElementById('quiz-overlay');
+  if (!quizOverlay) return;
+
+  // Build progress dots
+  const progressEl = document.getElementById('quiz-progress');
+  if (progressEl) progressEl.innerHTML = [1, 2, 3, 4].map(() => '<div class="quiz-progress-dot"></div>').join('');
+
+  // Pill toggle
+  quizOverlay.addEventListener('click', (e) => {
+    const pill = e.target.closest('.quiz-pill');
+    if (!pill) return;
+    const grid = pill.closest('.quiz-pill-grid');
+    if (!grid) return;
+    if (grid.getAttribute('data-multi') !== 'true') {
+      grid.querySelectorAll('.quiz-pill').forEach(p => p.classList.remove('selected'));
+    }
+    pill.classList.toggle('selected');
+  });
+
+  // Next / finish
+  quizOverlay.addEventListener('click', (e) => {
+    const btn = e.target.closest('.quiz-next');
+    if (!btn) return;
+    const nextScreen = btn.getAttribute('data-next');
+    const activeStep = quizOverlay.querySelector('.quiz-step.active');
+    if (activeStep) {
+      const grid = activeStep.querySelector('.quiz-pill-grid');
+      if (grid) {
+        const key = grid.getAttribute('data-key');
+        const isMulti = grid.getAttribute('data-multi') === 'true';
+        const selected = [...grid.querySelectorAll('.quiz-pill.selected')].map(p => p.getAttribute('data-value'));
+        _quizAnswers[key] = isMulti ? selected : (selected[0] || null);
+      }
+    }
+    if (nextScreen === 'done') {
+      initQuizScreen('loading');
+      setTimeout(() => {
+        const count = _runSmartStart(_quizAnswers);
+        quizOverlay.hidden = true;
+        hideTitleScreen();
+        renderSidebar();
+        renderFolderGrid();
+        updateControlCenterStats();
+        if (count > 0) setTimeout(() => showToast(`Picked ${count} folders to get you started. Swap any out.`, 'success'), 400);
+      }, 1600);
+    } else {
+      initQuizScreen(parseInt(nextScreen));
+    }
+  });
+
+  // Skip / close
+  function skipQuiz() {
+    quizOverlay.hidden = true;
+    Object.keys(_quizAnswers).forEach(k => delete _quizAnswers[k]);
+    hideTitleScreen();
+  }
+  quizOverlay.addEventListener('click', (e) => {
+    if (e.target.closest('.quiz-skip')) skipQuiz();
+    else if (e.target === quizOverlay) skipQuiz();
+  });
+});

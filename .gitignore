@@ -1,0 +1,40 @@
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary secret scan script
+scan_secrets.py
+
+# Local-only docs and Impeccable design-tooling install (not versioned)
+CLAUDE.md
+PRODUCT.md
+.claude/settings.local.json
+.claude/skills/
+.github/hooks/
+.github/skills/
+.impeccable/
+
+# Local Account / Auto-Save overrides (may contain anon keys)
+account-config.local.js
+_patch_*.py
+
+# Scratch and migration backups
+scratch/
+locales_backup/
+sample_translations.txt
+*.pre-v1fixes
+*.bak-*
+# Dependencies installed locally; use npm install instead of committing node_modules
+/node_modules/
+
+# Temporary YouTube/video downloads recreated by server.py
+/temp_yt_downloads/
+
+# Local generated logs and caches
+*.log
