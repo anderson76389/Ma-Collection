@@ -11,7 +11,7 @@
     <img alt="Interface web" src="https://img.shields.io/badge/Interface-Web-0f766e?style=for-the-badge">
   </p>
   <p>
-    <a href="https://anderson76389.github.io/Ma-Collection/">🌐 Ouvrir l'interface</a> ·
+    <a href="https://anderson76389.github.io/Ma-Collection/">🌐 Interface (après activation de GitHub Pages)</a> ·
     <a href="collections/">📁 Explorer les collections</a> ·
     <a href="https://github.com/ImKaptain/Kaptain-Collection">🛠️ Projet d'origine</a>
   </p>
@@ -143,7 +143,7 @@ Non. Il dépend des API et de la disponibilité de Nuvio. L'export JSON permet d
 
 ## 🤝 Crédits et indépendance
 
-Ce dépôt est un **fork de [ImKaptain/Kaptain-Collection](https://github.com/ImKaptain/Kaptain-Collection)**. Le travail original de conception, les fonctionnalités historiques et les ressources associées reviennent à leurs auteurs respectifs.
+Ce dépôt est une **copie GitHub indépendante** issue d'une adaptation de [ImKaptain/Kaptain-Collection](https://github.com/ImKaptain/Kaptain-Collection). Il ne fait pas partie du réseau de forks GitHub du projet d'origine. Le travail initial de conception, les fonctionnalités historiques et les ressources associées restent attribués à leurs auteurs respectifs.
 
 Cette édition apporte notamment des **corrections et adaptations françaises**. Elle n'est **ni officielle ni affiliée à Nuvio**.
 
