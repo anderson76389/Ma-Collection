@@ -6,6 +6,7 @@
   const status = byId("kovelyx-export-status");
   const copy = byId("kovelyx-export-copy");
   const download = byId("kovelyx-export-download");
+  const direct = byId("kovelyx-export-direct");
   if (!overlay || !status || !copy || !download) return;
 
   // Respecte les contrôles de CollectionRepository.validateImportModel (Kovelyx).
@@ -78,6 +79,61 @@
     } finally { textarea.remove(); }
   }
 
+  // No data is uploaded to a third-party service. The JSON is posted directly
+  // to the IPv4 loopback bridge while Kovelyx is running. That bridge ALWAYS asks
+  // the user to confirm before replacing collections in the active profile.
+  async function send() {
+    if (!direct || direct.disabled) return;
+    open();
+    direct.disabled = true;
+    setStatus("Ouverture de Kovelyx et préparation de votre collection…");
+    try {
+      // Must run synchronously during the click gesture, before await.
+      // Windows registers this protocol per-user when Kovelyx is first started.
+      window.location.href = "kovelyx://import";
+      const json = await buildExport();
+      let accepted = false;
+      let lastError = null;
+      for (let attempt = 0; attempt < 48; attempt++) {
+        try {
+          const controller = new AbortController();
+          const timeout = setTimeout(() => controller.abort(), 1800);
+          let response;
+          try {
+            response = await fetch("http://127.0.0.1:38761/import", {
+              method: "POST",
+              mode: "cors",
+              headers: { "Content-Type": "application/json" },
+              body: json,
+              signal: controller.signal,
+              cache: "no-store",
+            });
+          } finally { clearTimeout(timeout); }
+          if (response.status === 202) {
+            accepted = true;
+            break;
+          }
+          if (response.status === 409) {
+            throw Error("Un import attend déjà une confirmation dans Kovelyx. Validez ou annulez-le avant de recommencer.");
+          }
+          throw Error("Kovelyx a refusé l'envoi (HTTP " + response.status + "). Vous pouvez utiliser « Copier le JSON ».");
+        } catch (error) {
+          if (error && /^Kovelyx a refusé|^Un import attend/.test(error.message || "")) throw error;
+          lastError = error;
+        }
+        await new Promise(resolve => setTimeout(resolve, 550));
+      }
+      if (!accepted) {
+        throw Error("Kovelyx ne répond pas. Ouvrez la nouvelle version de Kovelyx sur votre PC, puis réessayez. Si votre navigateur bloque la connexion locale, utilisez « Copier le JSON »." +
+          (lastError && lastError.name === "AbortError" ? " (connexion expirée)" : ""));
+      }
+      setStatus("Sélection envoyée à Kovelyx ! Confirmez l'import dans la fenêtre de l'application. Une sauvegarde locale sera créée avant le remplacement.");
+    } catch (error) {
+      setStatus(error.message || "Envoi direct impossible : utilisez « Copier le JSON ».", true);
+    } finally { direct.disabled = false; }
+  }
+  direct?.addEventListener("click", send);
+
   copy.addEventListener("click", async () => {
     copy.disabled = true;
     try {
@@ -108,5 +164,5 @@
   byId("kovelyx-export-close")?.addEventListener("click", close);
   overlay.addEventListener("click", event => { if (event.target === overlay) close(); });
   document.addEventListener("keydown", event => { if (event.key === "Escape" && !overlay.hidden) close(); });
-  window.MaCollectionKovelyx = Object.freeze({ open, buildExport, validateForKovelyx });
+  window.MaCollectionKovelyx = Object.freeze({ open, send, buildExport, validateForKovelyx });
 })();
