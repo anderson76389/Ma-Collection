@@ -84,12 +84,17 @@ async function categories() {
   }
   return entries;
 }
+// Le manifeste dynamique est aussi lu directement par Nuvio.
+// Les libellés de catégorie, de dossier et de sous-catégorie doivent donc
+// être traduits DANS le manifeste, pas seulement sur la page web.
+let frenchLabels = null;
+function fr(value) {
+  return frenchLabels && Object.prototype.hasOwnProperty.call(frenchLabels, value)
+    ? frenchLabels[value] : value;
+}
 function titleFor(e) {
-  const group = e.collection.title === "Networks" ? "Chaînes" :
-    e.collection.title === "Streaming Services" ? "Plateformes" :
-    e.collection.title === "Reality TV" ? "Télé-réalité" :
-    e.collection.title === "Anime" ? "Animés" : e.collection.title;
-  return group + " · " + e.folder.title + " · " + e.source.title;
+  const group = e.collection.title === "Streaming Services" ? "Plateformes" : fr(e.collection.title);
+  return group + " · " + fr(e.folder.title) + " · " + fr(e.source.title);
 }
 function manifest(catalogs, short = false) {
   return {
@@ -121,6 +126,9 @@ function snapshotId(e) { return [e.type, e.folder.title].join(":"); }
 function idsOf(data) { return (data.results || []).map(x => Number(x.id)).filter(x => Number.isSafeInteger(x) && x > 0); }
 
 async function main() {
+  frenchLabels = JSON.parse(await readFile(join(ROOT, "locales/fr.json"), "utf8"));
+  if (Object.keys(frenchLabels).length < 2300)
+    throw new Error("Catalogue de traductions françaises incomplet");
   const sources = await categories();
   const platforms = sources.filter(e => e.collection.id === CATEGORY_IDS.streaming);
   const chains = sources.filter(e => e.collection.id === CATEGORY_IDS.networks);
@@ -236,11 +244,11 @@ async function main() {
     try {
       const results = await discover("/discover/tv",p);
       const prefix = regionClaim ? "FR · " : "Diffusion TV · ";
-      if (publish(key,"series",prefix + folder.title + " · Épisodes diffusés cette semaine",
+      if (publish(key,"series",prefix + fr(folder.title) + " · Épisodes diffusés cette semaine",
         results, true)) episodeCount++;
       if (group === "streaming" && results.length) {
         const fresh = await recentSeasons(results, folder.title);
-        if (publish(key + "-seasons","series","FR · " + folder.title + " · Saisons sorties récemment",
+        if (publish(key + "-seasons","series","FR · " + fr(folder.title) + " · Saisons sorties récemment",
           fresh, true)) seasonCount++;
       }
     } catch(error) {
@@ -268,11 +276,11 @@ async function main() {
       const stableId = sourceKey(collection,folder,{title:"last-air"},0);
       try {
         const results = await discover("/discover/tv",q);
-        if (publish(stableId,"series",collection.title+" · "+folder.title+
+        if (publish(stableId,"series",fr(collection.title)+" · "+fr(folder.title)+
           " · Épisodes récents",results,true)) genreEpisodeCount++;
         if (results.length) {
           const seasons = await recentSeasons(results,folder.title);
-          if (publish(stableId+"-seasons","series",collection.title+" · "+folder.title+
+          if (publish(stableId+"-seasons","series",fr(collection.title)+" · "+fr(folder.title)+
             " · Nouvelles saisons",seasons,true)) genreSeasonCount++;
         }
       } catch(error) {
