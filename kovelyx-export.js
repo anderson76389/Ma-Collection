@@ -95,6 +95,7 @@
       if (!window.__MA_COLLECTION_QA_NO_PROTOCOL) window.location.href = "kovelyx://import";
       const json = await buildExport();
       const config = pendingSetup || window.MaCollectionImportStudio?.getSettings?.() || {};
+      pendingSetup = null; // Ne jamais réutiliser des clés d\u2019un import précédent.
       // Les clés ne sont transmises qu'au pont local privé, jamais dans le JSON exporté.
       const desktopSettings = {
         ...(config.tmdbKey ? {tmdbKey:config.tmdbKey} : {}),
@@ -184,8 +185,11 @@
     finally { download.disabled = false; }
   });
 
-  const showImportSetup = () => window.MaCollectionImportStudio
-    ? window.MaCollectionImportStudio.open("kovelyx", () => send()) : open();
+  const showImportSetup = () => {
+    pendingSetup = null;
+    if (window.MaCollectionImportStudio) window.MaCollectionImportStudio.open("kovelyx", () => send());
+    else open();
+  };
   byId("btn-export-kovelyx")?.addEventListener("click", showImportSetup);
   byId("se-export-kovelyx")?.addEventListener("click", showImportSetup);
   byId("kovelyx-export-close")?.addEventListener("click", close);
