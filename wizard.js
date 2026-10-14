@@ -1690,6 +1690,9 @@
                : (opts && opts.flow === 'collection-only') ? 'collection-only'
                : 'collection';
     state.errorMsg = '';
+    state._importCustomizerUsed = false;
+    state.aioPosterService = 'rpdb';
+    state.aioRpdbTheme = 't0-free-rpdb';
     state.allDebridKey = '';
     state.realDebridKey = '';
     state.preferredDebridProvider = 'alldebrid';
@@ -2104,6 +2107,10 @@
     // collection - a visitor who deselected it in the picker shouldn't be
     // asked to wire up a recommendation service they'll never see.
     el('wiz-pick-native').addEventListener('click', () => {
+      if (state._importCustomizerUsed && state.aioPosterService !== 'none') {
+        showToast('Les affiches personnalisées choisies nécessitent AIO Streams. Sélectionnez ce mode pour réellement les appliquer.', 'warning');
+        return;
+      }
       state.setupMode = 'native';
       if (hasForYouFolder()) go('for-you');
       else goToStreaming();

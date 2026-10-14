@@ -107,7 +107,7 @@
         '<p><strong>Extensions :</strong> '+cfg.addons.length+'</p>'+
         '<p class="wiz-note">'+(dest==="kovelyx"?
           "Kovelyx doit être à jour pour importer le paquet de réglages. L’application demandera confirmation avant toute modification.":
-          "L’assistant Nuvio poursuivra les étapes de compte, profil, Trakt, affiches, extensions et AIO Streams.")+'</p>';
+          "L’assistant Nuvio poursuivra avec le compte, le profil et Trakt. Pour appliquer RPDB, Bttr ou Top Posters, sélectionnez le mode AIO Streams plutôt que le mode Natif.")+'</p>';
     }
     box.innerHTML='<p class="wiz-note">Étape '+(step+1)+' sur 5 — '+labels[step]+' · '+(dest==="kovelyx"?"Kovelyx":"Nuvio")+'</p>'+
       '<div style="display:flex;gap:5px;margin:10px 0 18px">'+labels.map((_,i)=>'<span style="height:4px;flex:1;border-radius:4px;background:'+(i<=step?'var(--accent,#8b5cf6)':'#666')+'"></span>').join('')+'</div>'+
