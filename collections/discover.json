@@ -137,7 +137,8 @@
               "withGenres": "",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -156,7 +157,8 @@
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
-              "without_genres": "16,99"
+              "without_genres": "16,99",
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -175,7 +177,8 @@
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
-              "without_genres": "16,99"
+              "without_genres": "16,99",
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -192,7 +195,8 @@
               "withGenres": "16",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -211,7 +215,8 @@
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
-              "without_genres": "16,99"
+              "without_genres": "16,99",
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -230,7 +235,8 @@
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
-              "without_genres": "16,99"
+              "without_genres": "16,99",
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -247,7 +253,8 @@
               "withGenres": "99",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -266,7 +273,8 @@
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
-              "without_genres": "16,99"
+              "without_genres": "16,99",
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -283,7 +291,8 @@
               "withGenres": "10751",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -302,7 +311,8 @@
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
-              "without_genres": "16,99"
+              "without_genres": "16,99",
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -321,7 +331,8 @@
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
-              "without_genres": "16,99"
+              "without_genres": "16,99",
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -340,7 +351,8 @@
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
-              "without_genres": "16,99"
+              "without_genres": "16,99",
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -359,7 +371,8 @@
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
-              "without_genres": "16,99"
+              "without_genres": "16,99",
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -378,7 +391,8 @@
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
-              "without_genres": "16,99"
+              "without_genres": "16,99",
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -399,7 +413,8 @@
               "withoutKeywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903",
               "without_keywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903",
               "withoutGenres": "16,99",
-              "without_genres": "16,99"
+              "without_genres": "16,99",
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -418,7 +433,8 @@
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
-              "without_genres": "16,99"
+              "without_genres": "16,99",
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -439,7 +455,8 @@
               "withoutGenres": "16,99",
               "without_genres": "16,99",
               "withoutKeywords": "210024|222243",
-              "without_keywords": "210024|222243"
+              "without_keywords": "210024|222243",
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -458,7 +475,8 @@
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
-              "without_genres": "16,99"
+              "without_genres": "16,99",
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -477,7 +495,8 @@
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
-              "without_genres": "16,99"
+              "without_genres": "16,99",
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -510,7 +529,8 @@
               "withGenres": "",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -527,7 +547,8 @@
               "withGenres": "10759",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -544,7 +565,8 @@
               "withGenres": "16",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -561,7 +583,8 @@
               "withGenres": "35",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -578,7 +601,8 @@
               "withGenres": "80",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -595,7 +619,8 @@
               "withGenres": "99",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -612,7 +637,8 @@
               "withGenres": "18",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -629,7 +655,8 @@
               "withGenres": "10751",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -646,7 +673,8 @@
               "withGenres": "10762",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -663,7 +691,8 @@
               "withGenres": "9648",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -680,7 +709,8 @@
               "withGenres": "10763",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -697,7 +727,8 @@
               "withGenres": "10764",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -714,7 +745,8 @@
               "withGenres": "10765",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -731,7 +763,8 @@
               "withGenres": "10766",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -748,7 +781,8 @@
               "withGenres": "10767",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -765,7 +799,8 @@
               "withGenres": "10768",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -782,7 +817,8 @@
               "withGenres": "37",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             },
             "provider": "tmdb",
             "mediaType": "TV",

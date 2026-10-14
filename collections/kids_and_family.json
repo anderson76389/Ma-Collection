@@ -69,7 +69,7 @@
             "filters": {
               "withGenres": "10751",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-01-01",
+              "releaseDateGte": "2024-10-12",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -100,7 +100,7 @@
             "filters": {
               "withGenres": "10762",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2023-01-01",
+              "releaseDateGte": "2024-10-12",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -359,7 +359,7 @@
             "filters": {
               "withGenres": "10751",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2023-01-01",
+              "releaseDateGte": "2024-10-12",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -699,7 +699,7 @@
             "filters": {
               "withGenres": "10751",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2023-01-01",
+              "releaseDateGte": "2024-10-12",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },

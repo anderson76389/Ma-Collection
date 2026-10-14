@@ -35,7 +35,8 @@
               "with_keywords": "9672",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             }
           },
           {
@@ -52,7 +53,8 @@
               "with_keywords": "9672",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             }
           },
           {
@@ -155,7 +157,8 @@
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "99",
-              "without_genres": "99"
+              "without_genres": "99",
+              "releaseDateGte": "2024-10-12"
             }
           },
           {
@@ -172,7 +175,8 @@
               "with_keywords": "41645",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             }
           },
           {
@@ -279,7 +283,8 @@
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "99",
-              "without_genres": "99"
+              "without_genres": "99",
+              "releaseDateGte": "2024-10-12"
             }
           },
           {
@@ -296,7 +301,8 @@
               "with_keywords": "818",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             }
           },
           {
@@ -403,7 +409,8 @@
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "99",
-              "without_genres": "99"
+              "without_genres": "99",
+              "releaseDateGte": "2024-10-12"
             }
           },
           {
@@ -420,7 +427,8 @@
               "with_keywords": "9717|18712",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             }
           },
           {
@@ -527,7 +535,8 @@
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "99",
-              "without_genres": "99"
+              "without_genres": "99",
+              "releaseDateGte": "2024-10-12"
             }
           },
           {
@@ -544,7 +553,8 @@
               "with_keywords": "2035|2036|185343|179101|2037",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             }
           },
           {
@@ -651,7 +661,8 @@
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "99",
-              "without_genres": "99"
+              "without_genres": "99",
+              "releaseDateGte": "2024-10-12"
             }
           },
           {
@@ -668,7 +679,8 @@
               "with_keywords": "10181",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             }
           },
           {
@@ -777,7 +789,8 @@
               "withoutGenres": "99",
               "without_genres": "99",
               "withoutKeywords": "234890|340359",
-              "without_keywords": "234890|340359"
+              "without_keywords": "234890|340359",
+              "releaseDateGte": "2024-10-12"
             }
           },
           {
@@ -796,7 +809,8 @@
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutKeywords": "234890|340359",
-              "without_keywords": "234890|340359"
+              "without_keywords": "234890|340359",
+              "releaseDateGte": "2024-10-12"
             }
           },
           {
@@ -911,7 +925,8 @@
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "99",
-              "without_genres": "99"
+              "without_genres": "99",
+              "releaseDateGte": "2024-10-12"
             }
           },
           {
@@ -928,7 +943,8 @@
               "with_keywords": "10542",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             }
           },
           {
@@ -1035,7 +1051,8 @@
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "99",
-              "without_genres": "99"
+              "without_genres": "99",
+              "releaseDateGte": "2024-10-12"
             }
           },
           {
@@ -1052,7 +1069,8 @@
               "with_keywords": "269769",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             }
           },
           {
@@ -1159,7 +1177,8 @@
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "99",
-              "without_genres": "99"
+              "without_genres": "99",
+              "releaseDateGte": "2024-10-12"
             }
           },
           {
@@ -1176,7 +1195,8 @@
               "with_keywords": "156866",
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
-              "vote_count.gte": 10
+              "vote_count.gte": 10,
+              "releaseDateGte": "2024-10-12"
             }
           },
           {

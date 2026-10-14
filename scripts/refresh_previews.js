@@ -5,7 +5,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { isTelevisionSource, updateRollingYearFilters } = require('./catalog-utils.js');
+const { isTelevisionSource, updateRollingYearFilters, updateRollingWeekFilters } = require('./catalog-utils.js');
 
 const API_KEY = process.env.TMDB_API_KEY;
 if (!API_KEY) { console.error('TMDB_API_KEY env var is required'); process.exit(1); }
@@ -15,10 +15,14 @@ const dbMatch = dbSrc.match(/window\.NUVIO_DATABASE\s*=\s*(\[[\s\S]*?\]);\s*$/m)
 if (!dbMatch) { console.error('Could not parse database.js'); process.exit(1); }
 const database = JSON.parse(dbMatch[1]);
 updateRollingYearFilters(database);
+updateRollingWeekFilters(database);
 
 // camelCase filter key → TMDB API param name for movie discover
 const MOVIE_FILTER_MAP = {
   year:                  'primary_release_year',
+  withWatchProviders:    'with_watch_providers',
+  watchRegion:           'watch_region',
+  withNetworks:          'with_networks',
   withGenres:            'with_genres',
   withoutGenres:         'without_genres',
   voteCountGte:          'vote_count.gte',

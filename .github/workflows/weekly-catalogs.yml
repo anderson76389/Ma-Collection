@@ -1,0 +1,43 @@
+name: Actualisation hebdomadaire des catalogues dynamiques
+
+on:
+  schedule:
+    - cron: '17 5 * * 1' # Lundi 05:17 UTC ; dates normalisées au lundi
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ma-collection-weekly-catalogs
+  cancel-in-progress: false
+
+jobs:
+  update:
+    name: Recalculer les nouveautés, sans modifier les listes fixes
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Vérifier les protections et la stabilité
+        run: node --test tests/weekly-catalogs.test.cjs
+      - name: Contrôler les bases sans écriture
+        run: node scripts/refresh-weekly-catalogs.mjs --check
+      - name: Mettre à jour uniquement les dates ciblées
+        run: node scripts/refresh-weekly-catalogs.mjs --write
+      - name: Enregistrer uniquement en cas de changement
+        run: |
+          git config user.name 'ma-collection-weekly-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add collections/database.js collections/*.json
+          if git diff --cached --quiet; then
+            echo 'Aucune date à rafraîchir cette semaine.'
+          else
+            git commit -m 'Faire glisser les nouveautés au rythme des semaines [skip ci]'
+            git push
+          fi

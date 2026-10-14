@@ -157,6 +157,10 @@ Aucune licence explicite n'est actuellement déclarée dans ce dépôt : sa visi
 </div>
 
 
+## 🔄 Nouveautés et sélections dynamiques
+
+Les rangées **Nouveaux films, Nouvelles séries, sorties récentes et nouveaux animés** utilisent des fenêtres de dates glissantes, recalculées le lundi pour les plateformes, les chaînes, la télé-réalité et les autres catégories concernées. Les listes fixes, les années historiques et les médias restent préservés. [Fonctionnement et limites de la synchronisation Nuvio](docs/CATALOGUES_DYNAMIQUES.md).
+
 ## 📅 Top 10 Netflix France — actualisation hebdomadaire
 
 Une automatisation fondée sur les [classements hebdomadaires officiels Netflix](https://www.netflix.com/tudum/top10) est préparée pour archiver les Top 10 français. **Les listes historiques ne sont pas modifiées** ; l'affichage automatique dans Nuvio demande une configuration de deux listes TMDB personnelles. [Voir le guide de configuration et les sécurités](docs/NETFLIX_FR_AUTO.md).

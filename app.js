@@ -736,6 +736,8 @@ function initializeDatabase() {
     database = window.NUVIO_DATABASE;
     // Actualiser uniquement les selections annuelles, jamais les decennies historiques.
     window.MaCollectionCatalogUtils?.updateRollingYearFilters(database);
+      // Nouveautés, sorties récentes et séries des chaînes : fenêtres recalculées chaque semaine.
+      window.MaCollectionCatalogUtils?.updateRollingWeekFilters(database);
     // La base préconstruite a francisé par erreur la marque TV « History ».
     // Cette correction ne touche qu'au titre affiché de ce dossier précis.
     const networks = database.find(c => c.id === '27bda92a-f626-4093-a2ba-0a32dc09437a');
