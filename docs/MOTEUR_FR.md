@@ -40,7 +40,7 @@ Workflow : [catalog-engine-fr.yml](../.github/workflows/catalog-engine-fr.yml).
 
 - **Lundi 07 h 41 UTC** : mise à jour de toutes les catégories sélectionnées.
 - **Manuel** : bouton *Run workflow*.
-- **Après modification du moteur** : tests de syntaxe et tests hors ligne uniquement ; aucune publication de données pendant un push.
+- **Après modification du moteur** : tests de syntaxe et tests hors ligne, puis génération si la clé TMDB est configurée (aucun catalogue simulé n'est publié).
 - **Sans clé TMDB** : aucun nouveau fichier de catalogue, aucune simulation de fausses données.
 - **Si TMDB rencontre une panne grave ou si trop de sources échouent** : le processus refuse la publication, préservant le dernier jeu de catalogues validé.
 
@@ -77,4 +77,4 @@ Avec une clé, lancer le workflow GitHub ou localement :
 TMDB_API_KEY="VOTRE_CLE" node scripts/catalog-engine.mjs --build
 \`\`\`
 
-Les fichiers JSON générés ne contiennent aucune clé. Le moteur n'a pas de dépendance npm supplémentaire. Il utilise Node 22 et les APIs HTTPS officielles de TMDB.
+Les fichiers JSON générés ne contiennent aucune clé. Le moteur n'a pas de dépendance npm supplémentaire. Il utilise Node 22 et les APIs HTTPS officielles de TMDB. Un **test d'intégration hors ligne** reconstruit aussi l'addon entier dans un dossier temporaire avec des réponses simulées, sans jamais publier ces données : `node --test tests/catalog-engine-integration.test.mjs`.
