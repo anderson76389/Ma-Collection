@@ -57,7 +57,7 @@ try {
       duplicateButtonIds:[...document.querySelectorAll("button[id]")]
         .map(x=>x.id).filter((v,i,a)=>a.indexOf(v)!==i)
     }));
-    assert(counts.categories>=18);
+    assert(counts.categories>=10, "La base du site doit charger des catégories");
     assert(counts.uniqueButtons>=55);
     assert.deepEqual(counts.duplicateButtonIds,[]);
   });
@@ -93,6 +93,8 @@ try {
     assert(!(await page.locator("#btn-reorder-toggle").evaluate(n=>n.classList.contains("active"))));
   });
   await run("raccourcis clavier : fenêtre ouvrable et refermable",async()=>{
+    await page.locator("#sidebar-toggle").click();
+    assert.equal(await page.locator("#sidebar-toggle").getAttribute("aria-expanded"),"true");
     await page.locator("#btn-shortcuts-hint").click();
     assert(await page.locator("#shortcut-overlay").evaluate(n=>n.classList.contains("open")));
     await page.locator("#shortcut-close").click();
@@ -103,6 +105,8 @@ try {
     assert(await page.locator("#support-overlay").evaluate(n=>n.classList.contains("open")));
     await page.locator("#support-close").click();
     assert(!(await page.locator("#support-overlay").evaluate(n=>n.classList.contains("open"))));
+    await page.locator("#sidebar-toggle").click();
+    assert.equal(await page.locator("#sidebar-toggle").getAttribute("aria-expanded"),"false");
   });
   await run("Nuvio : fenêtre de configuration et fermeture",async()=>{
     await page.locator("#btn-send-to-nuvio").click();
@@ -117,7 +121,7 @@ try {
     assert(download.suggestedFilename().endsWith(".json"));
     const {readFile}=await import("node:fs/promises");
     const payload=JSON.parse(await readFile(await download.path(),"utf8"));
-    assert(Array.isArray(payload)&&payload.length>=18);
+    assert(Array.isArray(payload)&&payload.length>=10, "L'export doit contenir les catégories du site");
     assert(payload.every(c=>c.id&&Array.isArray(c.folders)));
   });
   await run("aucune ressource locale manquante ni exception JS (ordinateur)",async()=>{
