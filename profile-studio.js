@@ -723,7 +723,7 @@
 
     // Reset button
     el('ps-btn-reset')?.addEventListener('click', () => {
-      if (confirm('Reset all changes back to your profile original layout?')) {
+      if (confirm('Annuler toutes les modifications et restaurer la disposition initiale du profil ?')) {
         state.workingCollections = deepClone(state.originalCollections);
         state.addedFoldersHistory.clear();
         state.removedFoldersHistory.clear();
@@ -742,7 +742,7 @@
 
     // Add Category button
     el('ps-btn-add-cat')?.addEventListener('click', () => {
-      const name = prompt('Enter a name for the new row/category:');
+      const name = prompt('Saisissez un nom pour la nouvelle rangée ou catégorie :');
       if (name && name.trim()) {
         const newCat = {
           id: 'custom-' + Date.now().toString(36),
@@ -796,7 +796,7 @@
         if (cat) {
           cat.pinToTop = cat.pinToTop === false ? true : false;
           render();
-          showToast(cat.pinToTop ? 'Row pinned to top.' : 'Row unpinned.');
+          showToast(cat.pinToTop ? 'Row pinned to top.' : 'Rangée désépinglée.');
         }
       });
     });
@@ -807,11 +807,11 @@
         e.stopPropagation();
         const idx = parseInt(btn.getAttribute('data-cat-idx'), 10);
         const cat = state.workingCollections[idx];
-        if (cat && confirm(`Delete the category "${cat.title || 'Category'}" and all its folders?`)) {
+        if (cat && confirm(`Supprimer la catégorie « ${cat.title || 'Catégorie'} » et tous ses dossiers ?`)) {
           state.workingCollections.splice(idx, 1);
           state.expandedCategoryIndex = Math.max(0, idx - 1);
           render();
-          showToast('Category removed.');
+          showToast('Catégorie supprimée.');
         }
       });
     });
@@ -973,11 +973,11 @@
         const fIdx = parseInt(btn.getAttribute('data-f-idx'), 10);
         const folders = state.workingCollections[catIdx]?.folders;
         const target = folders && folders[fIdx];
-        if (target && confirm(`Remove "${target.title || target.name || 'this folder'}" from this row?`)) {
+        if (target && confirm(`Retirer « ${target.title || target.name || 'ce dossier'} » de cette rangée ?`)) {
           const removed = folders.splice(fIdx, 1)[0];
           state.removedFoldersHistory.add(removed.id || removed.title);
           render();
-          showToast(`Removed "${removed.title || 'Folder'}".`);
+          showToast(`« ${removed.title || 'Dossier'} » retiré.`);
         }
       });
     });

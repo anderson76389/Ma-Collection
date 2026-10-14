@@ -279,7 +279,7 @@
     }
     if (action === 'wipe') {
       setMenuOpen(false);
-      if (!confirm('Remove saved keys and picks from this browser? You can set autosave up again afterward.')) return;
+      if (!confirm('Supprimer les clés et les sélections enregistrées dans ce navigateur ? Vous pourrez réactiver la sauvegarde automatique ensuite.')) return;
       window.MaCollectionAccount.wipeLocalVault();
       toast('Saved data removed from this device.');
       refreshChrome();
