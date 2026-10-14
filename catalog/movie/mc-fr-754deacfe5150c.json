@@ -1,0 +1,182 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:977942",
+      "type": "movie",
+      "name": "The Uprising",
+      "poster": "https://image.tmdb.org/t/p/w500/ymUS8HTc7ctfdSYC6bmEokSKisa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/y0reRTsewsPh0ePtgvDeLIsb5Wk.jpg",
+      "description": "Lors de la révolte des paysans anglais de 1381, l'humble Wat Tyler s'élève à la tête de la résistance contre le jeune roi Richard II. À la tête d'une armée de citoyens ordinaires, il affronte les troupes de la Couronne dans une lutte pour la justice et la survie. Ses actions font de lui un symbole légendaire de la résistance.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1380417",
+      "type": "movie",
+      "name": "Par tous les moyens",
+      "poster": "https://image.tmdb.org/t/p/w500/f4hdIed8vh10O8TkQ1CkHS8MQ3G.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eAouIDoMDhLetm6CtmDKIGEaaCi.jpg",
+      "description": "L'histoire vraie d'un tueur à gages de la mafia qui a été engagé par le FBI de Hoover et qui s'est associé à un jeune agent spécial noir pour traquer les responsables des meurtres des leaders des droits civiques dans le Mississippi en 1966.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:192139",
+      "type": "movie",
+      "name": "The Brink of War",
+      "poster": "https://image.tmdb.org/t/p/w500/vCIQeQ2ynVqEjIvtbOXGnKtcgAX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/E812GNXYQqjJwN0cVPY3icHpaj.jpg",
+      "description": "La rencontre au sommet entre Ronald Reagan et le dirigeant soviétique Mikhaïl Gorbatchev en Islande, suite à la catastrophe de Tchernobyl.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1308767",
+      "type": "movie",
+      "name": "Young Washington",
+      "poster": "https://image.tmdb.org/t/p/w500/6CdoTKnRQHJkjRGxTefFGkPQplB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mj3RFamNUleZB94zMWgGnJkQCAH.jpg",
+      "description": "Biopic sur George Washington, l'un des Pères fondateurs des États-Unis par les Américains.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1318413",
+      "type": "movie",
+      "name": "Pressure",
+      "poster": "https://image.tmdb.org/t/p/w500/3Dp1V6QHzrlSYlTlGZwHx7uPrR7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/apfyLCPVFttB8oXcsLJ7q0NSFLx.jpg",
+      "description": "Dans les 72 heures précédant le jour J, alors que le destin du monde libre est en jeu, le général Dwight D. Eisenhower et le capitaine James Stagg sont confrontés à un choix impossible : lancer la plus vaste et la plus périlleuse invasion maritime de l'histoire, ou risquer de perdre la guerre.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:898704",
+      "type": "movie",
+      "name": "Desert Warrior",
+      "poster": "https://image.tmdb.org/t/p/w500/waxnw1NpzTPY5JkqWvu0muSopRJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ohlNSR8MsHk5e6fcAxqAJmcz4Sm.jpg",
+      "description": "Quand une jeune princesse refuse d'être soumise au redoutable empereur Kisra, une bataille éclate de telle sorte qu'elle change la région de l'ancienne Arabie Saoudite à jamais.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1207162",
+      "type": "movie",
+      "name": "Rise of the Conqueror",
+      "poster": "https://image.tmdb.org/t/p/w500/9cRE0DsM6CNIiY9Ah3cd8oc3n1Y.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9gWrxuOJeArUbvnqrZALSjhPv9Y.jpg",
+      "description": "Au XIVe siècle, alors que la Route de la Soie s'effondre et que des factions rivales déchirent le pays, Tamerlan, guerrier intrépide, sort de l'exil. Dépouillé de tout, il se bat pour unifier les royaumes divisés, utilisant la stratégie et sa volonté de fer pour forger un empire à partir du chaos. Invaincu au combat et largement considéré comme l’un des plus grands chefs militaires et tacticiens de l’histoire, sans parler de l’un des plus brutaux, Tamerlan fonda l’Empire timouride, qui régnait sur l’Afghanistan, l’Iran et l’Asie centrale actuels",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1341137",
+      "type": "movie",
+      "name": "La Grande Révélation",
+      "poster": "https://image.tmdb.org/t/p/w500/bvZ8GzOwDsWmIq1Ti8rT0qf62Fm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iQodpfb5trczzmqxAgnsUYPw2rv.jpg",
+      "description": "Amérique du Nord, 18ème siècle. Alors que les colonies sont au bord de l’effondrement, une amitié improbable se tisse entre le charismatique révérend George Whitefield et Benjamin Franklin. Leur relation privilégiée et l’évolution de la foi de ce dernier vont alors changer l’histoire à tout jamais.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1316092",
+      "type": "movie",
+      "name": "“Hurlevent”",
+      "poster": "https://image.tmdb.org/t/p/w500/yEa8UQA71rjKhCq04mATDNOIT2B.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nHKscpZcAPkh97OsJJjyE5yaVE0.jpg",
+      "description": "Sur les landes balayées par le vent du Yorkshire, la passion dévorante entre Catherine Earnshaw et Heathcliff se transforme en une obsession destructrice, bouleversant leurs vies et celles de leur entourage.​",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1078581",
+      "type": "movie",
+      "name": "Giant",
+      "poster": "https://image.tmdb.org/t/p/w500/RHgGB3VweOIWOvoheOl5OZykQO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/53Ey8CIdc9jeS7fB4TCyxQTCjm6.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1401281",
+      "type": "movie",
+      "name": "Le Testament d'Ann Lee",
+      "poster": "https://image.tmdb.org/t/p/w500/kVa32BHWeXU52ov8obUUTbt7Ltm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jZNR5onRZijwyGr5iWbs3J9QcYr.jpg",
+      "description": "Au XVIIIe siècle, à Manchester, Ann Lee devient la mère spirituelle des Shakers, un mouvement religieux prônant la chasteté et l'égalité entre les sexes, et dont les prières s'expriment par la danse. Persécutée en Angleterre, la jeune femme charismatique part s'établir avec ses disciples dans le Nouveau Monde, quelques années avant la révolution américaine.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1292123",
+      "type": "movie",
+      "name": "Teresa",
+      "poster": "https://image.tmdb.org/t/p/w500/86fOYyj4Iq7XuasdOJXmhw1yMnq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/b9KYKTIpKbvB5RPbtpwaJu5iek7.jpg",
+      "description": "Calcutta, 1948. Teresa s’apprête à quitter le couvent pour fonder l’ordre des Missionnaires de la Charité. En sept jours décisifs, entre foi, compassion et doute, elle forge la décision qui marquera à jamais son destin - et celui de milliers de vies.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1322692",
+      "type": "movie",
+      "name": "Saipan",
+      "poster": "https://image.tmdb.org/t/p/w500/5Af6vLWQk8gj5099GhgpgY0jCiu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/66goUG18qJdtbnJ7R4HIsibUMKI.jpg",
+      "description": "Avant la Coupe du Monde de la FIFA 2002, le capitaine irlandais Roy Keane quitte l'équipe à leur camp d'entraînement à Saipan après une dispute houleuse avec le sélectionneur Mick McCarthy.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1159539",
+      "type": "movie",
+      "name": "Peter Hujar's Day",
+      "poster": "https://image.tmdb.org/t/p/w500/awq1O9RRi6JW74fDmGXJJGD5le8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ickUXG5jIuBmjgiLIjseX8nlm6M.jpg",
+      "description": "En décembre 1974, l’écrivaine Linda Rosenkrantz et le photographe Peter Hujar enregistrent une conversation dans l’appartement new-yorkais de cette dernière, alors qu’elle travaille sur un projet de livre qui consiste à demander à des artistes de raconter leur journée de la veille. Leur échange révèle un aperçu de la scène artistique new-yorkaise et des luttes personnelles qui ont jalonné la vie de l’artiste. Célèbre pour son intransigeance, Hujar est considéré comme l’un des personnages les plus importants de la scène culturelle de New York dans les années 1970 et 1980.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1214931",
+      "type": "movie",
+      "name": "Nuremberg",
+      "poster": "https://image.tmdb.org/t/p/w500/6iYLH0TjqCyEkCYadpLUMHr9S8J.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bf5TG9RODkPXmtJSgf8Iymof1wl.jpg",
+      "description": "Washington, 1945. Hitler s'est suicidé, l'Allemagne a capitulé et les Alliés détiennent 22 officiers nazis, dont Hermann Göring, plus haut gradé du Troisième Reich. Contrairement à ses collègues, qui préconisent leur exécution, Robert H. Jackson, juge à la Cour suprême des États-Unis, obtient que ceux-ci soient traduits devant une cour internationale. Un an avant l'ouverture du procès à Nuremberg, Jackson confie à un psychiatre de l'armée américaine, Douglas Kelley, le mandat d'évaluer les accusés. Secondé par son traducteur, Kelley se met à la tâche, en privilégiant le cas du Reichsmarschall Göring, un pervers narcissique, qui s'engage avec lui dans un jeu du chat et de la souris.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1432596",
+      "type": "movie",
+      "name": "Palestine 36",
+      "poster": "https://image.tmdb.org/t/p/w500/7MfS2Q7kHIdGeRe17Z26q5N9MPm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/e5LTUuIumJCgeoAApfCXhKUZ1UH.jpg",
+      "description": "Palestine, 1936. La grande révolte arabe, destinée à faire émerger un État indépendant, se prépare alors que le territoire est sous mandat britannique.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1287322",
+      "type": "movie",
+      "name": "Christy",
+      "poster": "https://image.tmdb.org/t/p/w500/e3x0tJ1EfSBsBFGEv2WCKfII4cv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lD8AzRc21Y19IstxSuNEpifoLKo.jpg",
+      "description": "Inspiré d'une histoire vraie, Christy retrace l'ascension tumultueuse de la boxeuse Christy Martin, qui est passée de l'anonymat à la célébrité. La légendaire ténacité de Christy sur le ring masque des combats plus intimes avec sa famille, son identité et une relation instable qui pourrait bien devenir une question de vie ou de mort.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1299655",
+      "type": "movie",
+      "name": "Blue Moon",
+      "poster": "https://image.tmdb.org/t/p/w500/a0Inm46kc3sMZBTCQgW1P7kjuk5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/28PLbMHktbX8TnuEWSiTrRbI4p8.jpg",
+      "description": "Lors de la soirée du 31 mars 1943, le célèbre parolier Lorenz Hart broie du noir au bar Sardi, pendant que son ex-collaborateur Richard Rodgers célèbre la première de sa comédie musicale à succès Oklahoma !",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1443940",
+      "type": "movie",
+      "name": "Truth & Treason",
+      "poster": "https://image.tmdb.org/t/p/w500/ArDLn658OjT3dMThIi4GDQJRuY3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/98PhUeOMK33Oyekw53tSGsfPZ7H.jpg",
+      "description": "Helmuth Hübener, un adolescent allemand de 17 ans membre des Jeunesses Hitlériennes révolté par les crimes nazis, participe à la résistance, avec ses amis Rudulf Wobbe et Karl-Heinz Schnibbe, en entrant en campagne contre Adolf Hitler. Ils sont connus pour les slogans \"Hitler est un meurtrier\", \"Hitler est le seul coupable\".",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1159939",
+      "type": "movie",
+      "name": "The Partisan",
+      "poster": "https://image.tmdb.org/t/p/w500/a6AMhzCY0vlnO9KSbawvGg7c2y.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uKYonNS8B67oYgjGIMKMCgYOnER.jpg",
+      "releaseInfo": "2025"
+    }
+  ]
+}

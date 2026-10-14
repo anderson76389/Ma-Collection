@@ -1,0 +1,173 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:321953",
+      "type": "series",
+      "name": "Nation's Dumbest",
+      "poster": "https://image.tmdb.org/t/p/w500/oP47JcqMrab8gbRqWfDiMes1urS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/segDdCcMSuA9IJBlyCx8nYbJ0e4.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:319179",
+      "type": "series",
+      "name": "Bear Grylls is Running Wild",
+      "poster": "https://image.tmdb.org/t/p/w500/cLciWBfPqurxlQDp48Y9wAQbMPL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1Ngz4tD5jy5SXgqHQmBOA0AFrdO.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:291100",
+      "type": "series",
+      "name": "The Faithful: Women of the Bible",
+      "poster": "https://image.tmdb.org/t/p/w500/6wookNIDx4IEQmpu0920qFDuRyI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iuMXOkHsXM4IbXNg5s5FTdkMu8F.jpg",
+      "description": "Mise à l'honneur de cinq figures féminines majeures du Livre de la Genèse de l'Ancien Testament, dont les destins ont façonné des religions comme le judaïsme, le christianisme et l'islam…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:291339",
+      "type": "series",
+      "name": "Memory of a Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/sXpDNwci75WH21CAptGgWduBrXD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/llrSuUkFiR6EjDnh79dq8HEeziF.jpg",
+      "description": "Angelo Ledda mène une double vie : tueur à gages redoutable à New York et vendeur de photocopieurs et père de famille paisible à Cooperstown, dans le nord de l'État de New York. Toutes deux sont menacées lorsqu'on lui diagnostique la maladie d'Alzheimer, une maladie qui lui a déjà coûté son frère aîné.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:297024",
+      "type": "series",
+      "name": "Fear Factor: House of Fear",
+      "poster": "https://image.tmdb.org/t/p/w500/t9U95eNaip1vnmzfgj6kSiyVtAR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3rfOHUwNCzUv9cDgTayny0dwUhK.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:291084",
+      "type": "series",
+      "name": "Médecin malgré tout",
+      "poster": "https://image.tmdb.org/t/p/w500/gRf2g2iR8j2uMlClrNTaiHbrZ6c.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fRi1Qf51rtFzrYM3gvl9ihGjT5Q.jpg",
+      "description": "Martin Best est un chirurgien brillant qui quitte abruptement sa carrière prestigieuse à Boston pour devenir médecin généraliste dans un charmant village de pêcheurs de la côte Est où il passait ses étés étant enfant. Malheureusement, les manières brusques et limite impolies de Martin au chevet des patients déplaisent aux habitants excentriques et exigeants du village, et il s'aliène rapidement la population, même s'il est leur seul recours.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:297025",
+      "type": "series",
+      "name": "Next Level Baker",
+      "poster": "https://image.tmdb.org/t/p/w500/AeR0JF0FGNKAs7UorVLl4Msel2T.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zssSmaV1VF0l7GHiVCsRctMK50v.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:298469",
+      "type": "series",
+      "name": "99 à Battre (États-Unis)",
+      "poster": "https://image.tmdb.org/t/p/w500/32wgp1TirfeV0wjQ7Fn0JuZzGKm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3zpScPAgn0Z9ddfxKwvkRasKyf0.jpg",
+      "description": "100 candidats s'affrontent dans une série d'épreuves aussi originales qu'amusantes. À chaque manche, le dernier est éliminé. Une seule règle : ne jamais terminer dernier. Le dernier candidat encore en lice remporte le grand prix de 1 000 000 $.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:297005",
+      "type": "series",
+      "name": "Celebrity Weakest Link",
+      "poster": "https://image.tmdb.org/t/p/w500/gPVFVBNyXAfGRqu6mmiSqops4jC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/euzlgl95XocL76FO9Q1MoUtxYLy.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:296157",
+      "type": "series",
+      "name": "LEGO Masters Jr.",
+      "poster": "https://image.tmdb.org/t/p/w500/zxTsC532t62XHHrF3bjh5pkKeKm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aYVBmmMbYdCvpCSQsI9tn2rr4hs.jpg",
+      "description": "Des enfants s’associent à des célébrités comme Ravi Patel et Jordin Sparks pour réaliser d'incroyables créations LEGO. Leurs constructions sont ensuite évaluées par des experts alors qu’ils s’affrontent pour remporter 50 000 dollars, un trophée et le titre de LEGO Masters Jr.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:294343",
+      "type": "series",
+      "name": "The Fixer",
+      "poster": "https://image.tmdb.org/t/p/w500/pc42j3eQPp7sNsb4uXQYJZnm0sp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3W9wD1xVPJ3jfjATp3lfUK9dxbH.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:294440",
+      "type": "series",
+      "name": "The 1% Club",
+      "poster": "https://image.tmdb.org/t/p/w500/aqX5FVJgrcODrcFePbolDare2jY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vqbAr3yLRGjckizbVb1Xs6pCN5N.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:289827",
+      "type": "series",
+      "name": "The Snake",
+      "poster": "https://image.tmdb.org/t/p/w500/zwxjOvkHYciHxDrgI5sWT30f1Ar.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/g2CTy0rvAyx1boGVxmEls76u8F.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:288712",
+      "type": "series",
+      "name": "Gordon Ramsay : Mission Extrême",
+      "poster": "https://image.tmdb.org/t/p/w500/bX2FFF2ax5ntSVRyDMgso53TIuO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6sCvEGrqJWBEYuK0uNvAKCouAYv.jpg",
+      "description": "Gordon Ramsay mène l'enquête sous couverture pour examiner les pratiques des restaurants en matière de manipulation des aliments.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:289400",
+      "type": "series",
+      "name": "America's Most Wanted: Missing Persons",
+      "poster": "https://image.tmdb.org/t/p/w500/zqA0eFSfznZA7I1lskTv3CDny0O.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/90zopQb0eD1zmj8QPwUY3JFkukp.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:278639",
+      "type": "series",
+      "name": "Extracted",
+      "poster": "https://image.tmdb.org/t/p/w500/u1ueclY9XgEn4nDBCfNhXVei7Ur.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yz7miKQT0HNeLpoK4DpmIUbeufn.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:255055",
+      "type": "series",
+      "name": "Dr Amy",
+      "poster": "https://image.tmdb.org/t/p/w500/dBan7DetLa2qAbNYDRP0YdA35O2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iTt37Rl8AidvU5aQf5M4odroCuF.jpg",
+      "description": "Après une lésion cérébrale qui efface les huit dernières années de sa vie, la Dre Amy Larsen doit apprendre à évoluer dans un monde devenu étranger. Elle n’a aucun souvenir des patients qu’elle a soignés, des collègues qu’elle a côtoyés, de l’âme sœur dont elle a divorcé, de l’homme qu’elle aime aujourd’hui ni de la tragédie qui l’a poussée à s’éloigner de tous ceux qui l’entouraient. Pour s’en sortir, elle ne peut compter que sur sa fille de 17 ans, avec qui elle est en froid et dont elle se souvient encore comme d’une enfant de 9 ans, ainsi que sur quelques amis dévoués. Tout en faisant face à cette nouvelle réalité, Amy tente de poursuivre sa carrière de médecin malgré la perte de près d’une décennie de connaissances et d’expérience.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:254318",
+      "type": "series",
+      "name": "Going Dutch",
+      "poster": "https://image.tmdb.org/t/p/w500/jq0sB0UMVjRnAfYDQ9Wd1i4vt1L.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/f54eY7A3fqOUZFMJqPXOqzSqcrI.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:241549",
+      "type": "series",
+      "name": "Murder in a Small Town",
+      "poster": "https://image.tmdb.org/t/p/w500/9oE2YKjY9mo7LVEUVm8NuaKFiEw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5puZfo53LmwAkqOGObg59X3qmC7.jpg",
+      "description": "Karl Alberg est un détective qui s'installe dans une paisible ville côtière pour apaiser un psychisme mis à mal par le travail de la police des grandes villes, mais ce doux paradis a plus que sa part de secrets, et Karl devra faire appel à toutes les compétences dont il a besoin. a fait de lui un détective de classe mondiale pour résoudre les meurtres qui, même dans ce cadre apparemment idyllique, continuent de s'échouer sur ses côtes.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:227854",
+      "type": "series",
+      "name": "Rescue : HI-Surf",
+      "poster": "https://image.tmdb.org/t/p/w500/sSJzFmxU2kG3qU9fLkEJFiQQHPS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/klq1iR68MIsGPv1vUxFlouYuvZ0.jpg",
+      "description": "Le quotidien mouvementé de sauveteurs qui patrouillent sur la Côte Nord d’O’ahu, le littoral le plus célèbre et le plus dangereux au monde. Ces héros dévoués en quête d’adrénaline sauvent tous les jours des vies dans les eaux agitées et souvent mortelles d'Hawaï.",
+      "releaseInfo": "2024"
+    }
+  ]
+}

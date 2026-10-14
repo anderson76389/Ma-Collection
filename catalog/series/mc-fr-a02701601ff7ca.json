@@ -1,0 +1,178 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:4656",
+      "type": "series",
+      "name": "WWE Raw",
+      "poster": "https://image.tmdb.org/t/p/w500/fstEe6RsyNyPUnMwNcL20iNl0nE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ykWWT8FAChBffNxcDzoJMCK9LBb.jpg",
+      "description": "Chaque semaine, les supertars de Raw s'affrontent dans le ring mais également en dehors. Combats acharnés, prises impressionnantes, les catcheurs sont prêts à tout pour remporter la victoire. Depuis le 1000e épisode du show, diffusé le 23 juillet 2012, WWE Raw passe à un format de trois heures au lieu de deux, format auparavant réservé aux épisodes spéciaux.",
+      "releaseInfo": "1993"
+    },
+    {
+      "id": "tmdb:2912",
+      "type": "series",
+      "name": "Jeopardy!",
+      "poster": "https://image.tmdb.org/t/p/w500/11rWvQOEZBouD7wet0sWHwu7NDs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/55tcKzl0gZ0lR1q7TrVJm0h9lkT.jpg",
+      "releaseInfo": "1984"
+    },
+    {
+      "id": "tmdb:1508",
+      "type": "series",
+      "name": "Dancing with the Stars",
+      "poster": "https://image.tmdb.org/t/p/w500/iisHVZ6we56PE4BcV1csB46SbiG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r4ceAy8m4w9gheLWEgEgQnbYK85.jpg",
+      "description": "\"Dancing with the Stars\" est la version américaine de l'émission britannique \"Strictly Come Dancing\". Une des plus grandes franchises au niveau mondial, car la série a été reprise par de nombreux autres pays avec leur propre version. L'émission est présentée par Tom Bergeron et se compose d'une célébrité jumelée à un professionnel de la danse. Chaque couple exécute des danses prédéterminées et rivalise avec d'autres équipes. A chaque émission, l'équipe qui a le moins de point est éliminée jusqu'à ce qu'il ne reste que le duo champion.",
+      "releaseInfo": "2005"
+    },
+    {
+      "id": "tmdb:37678",
+      "type": "series",
+      "name": "The Voice (États-Unis)",
+      "poster": "https://image.tmdb.org/t/p/w500/7ah1WExcMkzbq7sARCTmcC23tBr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/x8pSFa3BXyVpkjHyn7YxmLyhjoh.jpg",
+      "description": "Les meilleurs chanteurs du pays s’affrontent dans un grand concours de chant, dont le gagnant est couronné « The Voice ». Le programme repose sur un format innovant en quatre étapes : les auditions à l’aveugle, les battles, les épreuves éliminatoires et, les prestations en direct.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:14658",
+      "type": "series",
+      "name": "Survivor",
+      "poster": "https://image.tmdb.org/t/p/w500/Ap0qf8VxF9DW4NXLYvMmpg3WkdF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1oaj0RL4cM0WuUQJUuarpVWrhb0.jpg",
+      "description": "Une aventure dans laquelle un groupe de personnes ont échoué sur une ile isolée. Le dernier survivant de cette aventure repartira chez lui avec la somme d'1 millions de dollars.",
+      "releaseInfo": "2000"
+    },
+    {
+      "id": "tmdb:31991",
+      "type": "series",
+      "name": "WWE NXT",
+      "poster": "https://image.tmdb.org/t/p/w500/9nLBX5Bf7PW4FAaWJLXpFFdeTlV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/YaQ8YhHYpLkH3e7FRwBkcGoJhS.jpg",
+      "description": "WWE NXT est une émission et une académie de catch de la World Wrestling Entertainment (WWE), devenue depuis le 20 juin 2012, la troisième division de la WWE avec Raw et SmackDown. Cette nouvelle division met en avant des nouveaux catcheurs, d'abord sélectionnés dans l'ancien club-école de la WWE, la Florida Championship Wrestling, puis sur la scène indépendante internationale.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:1549",
+      "type": "series",
+      "name": "WWE SmackDown",
+      "poster": "https://image.tmdb.org/t/p/w500/oOiGZPiQUaIfajBSZMqC9pGUqsy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mWIyoSdVQxdr1bA423tObJwJSR.jpg",
+      "description": "WWE SmackDown (appelé aussi WWE SmackDown Live) est une émission de télévision de catch et de divertissement sportif produite par la WWE. Depuis la création de la WWE Brand Extension en 2002, SmackDown était une division distincte de la WWE avec son propre roster (voir aussi WWE draft), et était l'équivalent de WWE Raw (et ECW de 2006 à 2010) jusqu'à ce que la Brand Extension soit supprimée par la WWE en 2011.",
+      "releaseInfo": "1999"
+    },
+    {
+      "id": "tmdb:46707",
+      "type": "series",
+      "name": "WWE Main Event",
+      "poster": "https://image.tmdb.org/t/p/w500/yVZdqmVMI09F7GzFvDJCc36oBkT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lswRmm6czR4QTnwXRtacMfyxgJ0.jpg",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:92661",
+      "type": "series",
+      "name": "25 Words or Less",
+      "poster": "https://image.tmdb.org/t/p/w500/gwu2aVl89amkSfBL5TqhvazYQAE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zi7hR8mfpApWoj3N3poBsJW9uxL.jpg",
+      "releaseInfo": "2018"
+    },
+    {
+      "id": "tmdb:2051",
+      "type": "series",
+      "name": "The Price Is Right",
+      "poster": "https://image.tmdb.org/t/p/w500/7MSqORrf1RZsmLUTQ2XoEJEtzt5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/p0umYdTa7csDT9SkZX8DD52Sy4a.jpg",
+      "releaseInfo": "1972"
+    },
+    {
+      "id": "tmdb:2370",
+      "type": "series",
+      "name": "Hell's Kitchen",
+      "poster": "https://image.tmdb.org/t/p/w500/shOVFku8daIGRpgjTdMZBxUAvsV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kitfuCa2TqX6oY5HvdFRjMMaLwc.jpg",
+      "description": "Hell's Kitchen (en français la cuisine de l'enfer ou cuisine infernale) est une compétition américaine  de cuisine télévisée réelle basée sur la série britannique du même nom diffusée sur Fox. Elle est présentée par Gordon Ramsay. Deux équipes de chefs concourent pour un poste de chef dans un restaurant…",
+      "releaseInfo": "2005"
+    },
+    {
+      "id": "tmdb:30957",
+      "type": "series",
+      "name": "The Amazing Race",
+      "poster": "https://image.tmdb.org/t/p/w500/x1jq0atcQg6UkaZpco0kFL6QHuM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mSkisNewxu55Ivar5EubhcIuoqn.jpg",
+      "description": "Cette compétition de réalité voit les équipes se lancer dans une randonnée autour du monde vers des destinations incroyables où elles doivent s'affronter dans une série de défis, certains mentaux et d'autres physiques. Ce n'est que lorsque les tâches sont terminées qu'ils apprendront leur prochain emplacement. Les équipes les plus en retard seront progressivement éliminées au fur et à mesure que le concours progresse, la première équipe à arriver à la destination finale remportant la course et le prix de 1 million de dollars.",
+      "releaseInfo": "2001"
+    },
+    {
+      "id": "tmdb:34634",
+      "type": "series",
+      "name": "Alaska : La ruée vers l'or",
+      "poster": "https://image.tmdb.org/t/p/w500/wzsQetFAT5pIMF98MWwE7sq9Hf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ReSSC77upQRIZgvaJaPQPCbWaK.jpg",
+      "description": "Des passionnés sont prêts à tout, et surtout à mener une sérieuse compétition, afin d'arriver à extraire et amasser la plus grande quantité d'or possible, au coeur de sites miniers parmi les plus riches en Amérique.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:3670",
+      "type": "series",
+      "name": "COPS",
+      "poster": "https://image.tmdb.org/t/p/w500/xtEQVy408xsVw5ZX6Yu35pwJ1Ja.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7xQR6ixywZofrEHKfI1z6CWKFsC.jpg",
+      "description": "COPS est une émission de télévision de type reality show américaine diffusée sur le réseau Fox depuis le 11 mars 1989 qui suit le travail quotidien de policiers des États-Unis, les montrant le plus souvent à la poursuite de certains délinquants.  Le 6 mai 2013, la série a été annulée par Fox, mais est transférée sur Spike TV à partir de l'automne 2013.\n\nLa série est surtout célèbre pour son générique d'ouverture, la chanson Bad Boys par Inner Circle, reprise par les personnages principaux du film du même nom.",
+      "releaseInfo": "1989"
+    },
+    {
+      "id": "tmdb:89180",
+      "type": "series",
+      "name": "Dimension 20",
+      "poster": "https://image.tmdb.org/t/p/w500/8xZXCenM9n5HYyrgr5FcP2oHwdx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cf9U6K4cTdZK6tu5lSiSQiXHLRB.jpg",
+      "releaseInfo": "2018"
+    },
+    {
+      "id": "tmdb:65300",
+      "type": "series",
+      "name": "Les Real Housewives de Potomac",
+      "poster": "https://image.tmdb.org/t/p/w500/lgSkHpr6LXxsh2YXiBrDZHn5wUR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8PkQKCE8rTFTUmGrP47FgaXLTNQ.jpg",
+      "description": "Juste en amont du fleuve depuis la capitale de notre pays se trouve un joyau caché : Potomac, Maryland. Ses collines vallonnées, ses manoirs fermés, ses écoles préparatoires sophistiquées et ses country clubs exclusifs servent tous à garder la région sur invitation uniquement. Dans toute cette communauté se trouvent une poignée de familles afro-américaines riches et anciennes qui ont historiquement brisé les barrières raciales pour offrir une vie privilégiée à leurs enfants. Dans une ville où l'entrée n'est accordée qu'en fonction de la classe, du pedigree et de la lignée, jusqu'où les dames iront-elles pour s'assurer leur place au sommet de ce cercle prestigieux ?",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:2778",
+      "type": "series",
+      "name": "Wheel of Fortune",
+      "poster": "https://image.tmdb.org/t/p/w500/4S36URhKU4sBL1gC2B5UxmTlZMl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A6Sp44grqCnvKs5Plhy3oQncUrq.jpg",
+      "description": "Ce jeu télévisé voit les concurrents résoudre des énigmes de mots, similaires à celles utilisées dans Hangman, pour gagner de l'argent et des prix déterminés en faisant tourner une roue de carnaval géante.",
+      "releaseInfo": "1983"
+    },
+    {
+      "id": "tmdb:1711",
+      "type": "series",
+      "name": "Strictly Come Dancing",
+      "poster": "https://image.tmdb.org/t/p/w500/b9Ki18BAlZqtU28THIgUkSfnq8T.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/d1MtRbMampXOZ7il2dDF6fDTTNU.jpg",
+      "releaseInfo": "2004"
+    },
+    {
+      "id": "tmdb:4086",
+      "type": "series",
+      "name": "Burgers and Co avec Guy FIERI",
+      "poster": "https://image.tmdb.org/t/p/w500/fPpDR6kw8bA0iZ8a0dUbexVVzn3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tKtxE1KzqKDg3HIXNnlr7VpuWzd.jpg",
+      "description": "Les « diners » et les « drive-ins » vintage étant de plus en plus tendance chez les gourmets, Guy Fieri sillonne les États-Unis à la recherche des meilleurs burgers, barbecues et fritures du pays, souvent plébiscités par les locaux. Dans chaque resto, Fieri discute avec le personnel et les clients et leur demande leur avis sur la nourriture. Guy Fieri sillonne les États-Unis à la recherche des meilleurs burgers, barbecues et fritures, souvent plébiscités par les locaux.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tmdb:30703",
+      "type": "series",
+      "name": "Shark Tank",
+      "poster": "https://image.tmdb.org/t/p/w500/wztqq3SWfdzcuxvl9oA2HwOXasO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lxekzMqu4I1dWG7bK4IaurD5PbM.jpg",
+      "description": "Des entrepreneurs ambitieux présentent leurs concepts d'affaires révolutionnaires...",
+      "releaseInfo": "2009"
+    }
+  ]
+}

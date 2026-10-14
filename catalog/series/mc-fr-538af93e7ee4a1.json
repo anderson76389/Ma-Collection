@@ -1,0 +1,170 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:312587",
+      "type": "series",
+      "name": "Engineering from Above",
+      "poster": "https://image.tmdb.org/t/p/w500/jqRVGWzG1n1dZv82zjXum7hDCWI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/whH9zZIxMeBwI8xR9MzVigcRuva.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:303652",
+      "type": "series",
+      "name": "Modern Marvels: WWII",
+      "poster": "https://image.tmdb.org/t/p/w500/ktzrFqTYS7rb8EK1MyWo01h2Yt9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hUdBWFK6L5hizJyJ29MZODXbykd.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:319385",
+      "type": "series",
+      "name": "History's Greatest Machines with Dolph Lundgren",
+      "poster": "https://image.tmdb.org/t/p/w500/eKuqTyxbfg2WeKN4V7mdFs9WVYl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bfwtYagNlvS9SOurY5oAhzEHeaJ.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:324041",
+      "type": "series",
+      "name": "The Rise and Fall of the Roman Empire",
+      "poster": "https://image.tmdb.org/t/p/w500/xk3yAHJZFWgJide1R2pwZTyPSni.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4vJdeY2OdvmjCnudVYl7GHeeoow.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:318181",
+      "type": "series",
+      "name": "History's Greatest Warriors",
+      "poster": "https://image.tmdb.org/t/p/w500/8D8ovJ0tPCjpBR4PVd0VmMoLSvW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dl3VRMWonBpLUdfY2QqbFbwsQs4.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:313744",
+      "type": "series",
+      "name": "History's Greatest Picks with Mike Wolfe",
+      "poster": "https://image.tmdb.org/t/p/w500/3IpZWBKa4mJmxZ3GAsJ3OJczyoC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1ubpsaZyU7e0q5n3aWfYTQ8ANAU.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:312354",
+      "type": "series",
+      "name": "History's Deadliest with Ving Rhames",
+      "poster": "https://image.tmdb.org/t/p/w500/wKIMbwibjGUOVEtMxkKajl3uyB1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nf9kB509WGp4oL9JNG0z5cj4d1F.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:292985",
+      "type": "series",
+      "name": "Hazardous History with Henry Winkler",
+      "poster": "https://image.tmdb.org/t/p/w500/p4Yxi41CIiwZz24p6qlVBOpeGku.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mBOsxQYAnEx9m3G7wXk7ghVhLqZ.jpg",
+      "description": "Des terrains de jeux dangereux aux produits défectueux, chaque épisode retrace une succession effrénée d'histoires parmi les plus passionnantes, les plus téméraires et les moins surveillées de l'histoire des États-Unis.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:201389",
+      "type": "series",
+      "name": "Sitting Bull",
+      "poster": "https://image.tmdb.org/t/p/w500/uazMU0KHTAYZhCxIqGRyAO1CFNG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/otlMYhZhPWyVsgJsxHFVdMfehFe.jpg",
+      "description": "Découvrez la vie incroyable du légendaire chef Hunkpapa Lakota. Guerrier féroce, père aimant et homme saint, l'histoire de Sitting Bull offre une nouvelle perspective sur les États-Unis, alors que la nation évoluait rapidement autour de cette figure légendaire.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:227520",
+      "type": "series",
+      "name": "Kevin Costner's The West",
+      "poster": "https://image.tmdb.org/t/p/w500/bOQgliYRKC8tnQJUjqIY9uZRZoV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/njlmpkH0fErBI9a9XwjjWElzibW.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:287291",
+      "type": "series",
+      "name": "Secrets Declassified with David Duchovny",
+      "poster": "https://image.tmdb.org/t/p/w500/6NjOcMCbzSqCCFhqrkoejMjONmz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8lHWzdHDwgK9aNepQEH8LBjc3YI.jpg",
+      "description": "Des opérations secrètes aux expériences étranges, en passant par les dissimulations mortelles et les gadgets malveillants, David Duchovny lève le voile sur tous les secrets gouvernementaux de l'histoire moderne que nous avons toujours soupçonnés, mais auxquels nous n'avons jamais obtenu de réponses.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:287752",
+      "type": "series",
+      "name": "The Death Coast",
+      "poster": "https://image.tmdb.org/t/p/w500/hEBEtOVctEILuVw11RIcXLpV1r0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dfwiZuLU2igCdRoqpjHsWjr2r1l.jpg",
+      "description": "La Côte de la Mort, zone maritime déchaînée de l'Atlantique Nord, a englouti plus de six mille navires au fil des siècles. Nombreux sont les marins qui ont bravé ces eaux – certains pour le commerce, d'autres pour la guerre, et d'autres encore pour le pillage. L'or et les objets inestimables de leurs épaves gisent désormais éparpillés sur les fonds marins, mais toute opération de récupération y est interdite depuis une dizaine d'années. Après une longue bataille, le chasseur d'épaves Jeff Mackinnon a obtenu l'exclusivité des droits de plongée. Lui et son équipe n'ont que douze semaines pour explorer les épaves avant que les eaux tumultueuses de la Côte de la Mort ne rendent toute plongée impossible.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:283089",
+      "type": "series",
+      "name": "Thomas Jefferson",
+      "poster": "https://image.tmdb.org/t/p/w500/1IkJuknUgfmXDkmpOu7nIX9VYeG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/viUeGNunUYKlmwPdU4dikGxxZjr.jpg",
+      "description": "En 1843, Thomas Jefferson voit le jour au sein d'une des familles les plus importantes appartenant à la plus puissante des 13 colonies britanniques installées en Amérique du Nord.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:283631",
+      "type": "series",
+      "name": "Hunting History with Steven Rinella",
+      "poster": "https://image.tmdb.org/t/p/w500/iIU4VgVT8cadgXicwgkhja0I8mI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tBbKyeNTQa38kIErMr9t6hfyQXT.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:282022",
+      "type": "series",
+      "name": "History's Most Shocking",
+      "poster": "https://image.tmdb.org/t/p/w500/4EykGfUzxOSFFJcfjBmPlpS3Hnq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uP7wGTMU79uGae1CGK3P9rpw1vp.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:236168",
+      "type": "series",
+      "name": "Tales From Oak Island",
+      "poster": "https://image.tmdb.org/t/p/w500/ewqanxccGZnqvtuA3rb5mxwhGXE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9fKXiF7KsIVyVAwjlwexkwWif05.jpg",
+      "description": "Plongez plus profondément que jamais dans les histoires extraordinaires de persévérance acharnée et d'esprit inébranlable « toujours en avant » des nombreux chercheurs qui ont consacré leur vie à percer les nombreux secrets de ce lieu riche en trésors. Il explore également les dangers considérables et parfois mortels qui entourent Oak Island, tous peut-être causés par une malédiction légendaire.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:273483",
+      "type": "series",
+      "name": "Ancient Aliens: Origins",
+      "poster": "https://image.tmdb.org/t/p/w500/pgVZ6FSple8ufNr31WIkC3cfarc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lCAELzDne51KugErelT7gqsciw0.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:260871",
+      "type": "series",
+      "name": "American Godfathers: The Five Families",
+      "poster": "https://image.tmdb.org/t/p/w500/kzcU4HIl9wjAhxemXw9HTRaBDCn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xWdsrSxyitffCad4z54gAnEkTqN.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:258130",
+      "type": "series",
+      "name": "The Proof Is Out There: Alien Edition",
+      "poster": "https://image.tmdb.org/t/p/w500/7oC1ojnIPdqwJ75NTkI6sTx82Q7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/v3y8mkr8181jFu8LoSDNRMZPmrA.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:248931",
+      "type": "series",
+      "name": "The Icons That Built America",
+      "poster": "https://image.tmdb.org/t/p/w500/bwQ5B8EKdC5Rml7K1Qy5vYP0Bsg.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rCfGp4gsjtDXsVa6IBZq30qxFom.jpg",
+      "releaseInfo": "2024"
+    }
+  ]
+}

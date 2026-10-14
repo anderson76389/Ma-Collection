@@ -1,0 +1,107 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:261647",
+      "type": "series",
+      "name": "Princesse Sofia : Apprentie magicienne",
+      "poster": "https://image.tmdb.org/t/p/w500/3DcMKYKcJxO3q3AS38Fw75CTPcj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wGeYd7lVxOzZsbJV7iipK8298hT.jpg",
+      "description": "La princesse Sofia d'Enchancia fait sa rentrée à l'Ecole Royale de Magie de Charmswell. Entourée de ses amis, les princesses Layla et Camila, le prince Zane et Pepper la mini-licorne, Sofia s'apprête à devenir la princesse la plus magique de Tous les Royaumes. Un monde enchanté l'attend, ainsi que de nouvelles aventures passionnantes avec ses amis, sa famille royale et ses fidèles animaux.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:228671",
+      "type": "series",
+      "name": "Magicampers",
+      "poster": "https://image.tmdb.org/t/p/w500/pjfxzfJSNVwXUHyFBaCN3iC00Wj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6glZXqH8NgUU8JstpzgWuHRXZk0.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:257724",
+      "type": "series",
+      "name": "Hey A.J.!",
+      "background": "https://image.tmdb.org/t/p/w780/e7lAmzEjBlHQAotmsTeiOmSJLjz.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:274388",
+      "type": "series",
+      "name": "Iron Man et ses amis incroyables",
+      "poster": "https://image.tmdb.org/t/p/w500/3NlFaIdOkBg2VC3Imi1kbeeGynw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tHWW3xDD49UZuoirqzUQT046dWi.jpg",
+      "description": "Suivez les aventures (et mésaventures) de Tony Stark, Riri Williams et Amadeus Cho, trois meilleurs amis et super génies, qui travaillent ensemble pour résoudre des problèmes, petits et grands, et protéger leur ville.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:232869",
+      "type": "series",
+      "name": "La Maison de Mickey+",
+      "poster": "https://image.tmdb.org/t/p/w500/8jOZjiktLVJxeNuha3MQc5MfhUb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ahedBn0bqv3XZdMufCF9zmOcP9j.jpg",
+      "description": "Mickey et ses amis accueillent tout le monde pour plus de nouvelles aventures remplies de chansons, de rires, d'entre-aide et de nouvelles surprises amusantes !",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:228721",
+      "type": "series",
+      "name": "RoboGobo",
+      "poster": "https://image.tmdb.org/t/p/w500/nI9JsdCI14oH9w3CqQg58E8UMQv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/a6ixPC7QmBLRp21VsYBi2dxwGra.jpg",
+      "description": "Après avoir reçu des combinaisons robotiques superpuissantes de l'enfant inventeur Dax, cinq animaux, Booster, Allie, Hopper, Shelly et Wingo, ont pour mission de sauver d'autres animaux en difficulté.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:279158",
+      "type": "series",
+      "name": "Mickey and Minnie's Christmas Carols",
+      "poster": "https://image.tmdb.org/t/p/w500/sN3mK9Yuv29e9CYGnDKBMA9heWv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fTMOMO1NNndzoqpCZFtWMmKtjan.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:273266",
+      "type": "series",
+      "name": "Mickey's Spooky Stories",
+      "poster": "https://image.tmdb.org/t/p/w500/61lEIt68ysrMMP28WCdCO0t457N.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kwrJwEobAvFMyPhrdheQCIvVxMh.jpg",
+      "description": "Mickey et la bande partagent des histoires d'Halloween autour du feu de camp.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:201480",
+      "type": "series",
+      "name": "Vive la Maternelle!",
+      "poster": "https://image.tmdb.org/t/p/w500/rjqsZ8ktNPpkXKpauRpefRvZVZn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tWqtXWvbMhHBKGtZWDBiJ2Vavc5.jpg",
+      "description": "Berti, 5 ans, est confrontée à toutes les expériences stimulantes et émotionnelles qui accompagnent sa toute première rentrée à l'école, accompagnée de ses nouveaux amis.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:228669",
+      "type": "series",
+      "name": "Ariel",
+      "poster": "https://image.tmdb.org/t/p/w500/dFwBCA3jMOz1OYSmIRvKBWWL6y.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uLDHCg5pxc9gniPmJXLYc5Ee5Ka.jpg",
+      "description": "Suivez Ariel, 8 ans, alors qu'elle et ses amis se lancent dans des aventures sous-marines amusantes et pleines d'action dans leur royaume de conte de fées inspiré des Caraïbes et au-delà.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:246913",
+      "type": "series",
+      "name": "Morphle and the Magic Pets",
+      "poster": "https://image.tmdb.org/t/p/w500/aw0yy0E9UNrm7lyWEQAuNCq3u2o.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6nIEtouESBlYgICuXBA4UniOI02.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:234560",
+      "type": "series",
+      "name": "Les contes de Noël de Mickey",
+      "poster": "https://image.tmdb.org/t/p/w500/iDYAn21aqiNwMSu99ORi1R1zC26.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/khsGl7O4k95hoO48clmB5ykhzg6.jpg",
+      "description": "Reprenant là où l'aventure de Mickey sauve Noël s'était arrêtée, Les contes de Noël de Mickey nous permettent de retrouver Mickey, Minnie et leurs amis, ainsi que le Père Noël, la Mère Noël et les bébés rennes Jingle et Jolly, pour encore plus d'émotions. Ces courts métrages suivent Mickey  et ses amis dans les aventures classiques des fêtes de fin d'année : Dingo apprend à faire un bonhomme de neige, le petit groupe tente de faire un voeu en plaçant une étoile au sommet du sapin de Noël de la place de la ville, les amis veulent surprendre le Père Noël, et bien plus encore.",
+      "releaseInfo": "2023"
+    }
+  ]
+}

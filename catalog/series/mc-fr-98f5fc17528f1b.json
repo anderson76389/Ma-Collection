@@ -1,0 +1,166 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:307176",
+      "type": "series",
+      "name": "Dustfall",
+      "poster": "https://image.tmdb.org/t/p/w500/a7LdXshL4vuCA3LWB2gNNckBIpO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/q7VXA2jZ88Dvp7TPbqNVWwR94ik.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:325785",
+      "type": "series",
+      "name": "Treasure & Dirt",
+      "poster": "https://image.tmdb.org/t/p/w500/v8hb74CKH7R2fUNXqpRiME2UZBQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8R9cO2QIdU9OFnWhXZAHqhTbEGu.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:324089",
+      "type": "series",
+      "name": "Rolf Harris: Primetime Predator",
+      "poster": "https://image.tmdb.org/t/p/w500/ezsIKj94YztMbfa1QCWiBS6beol.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/waKJixixy956kdcb5J2IvxAWafk.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:324909",
+      "type": "series",
+      "name": "Race Around the World",
+      "poster": "https://image.tmdb.org/t/p/w500/bQs9I3SHx4hYySasg1S3syP3fb7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yUSn1v5iL2VyArS2PYXFoIdNf67.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:324451",
+      "type": "series",
+      "name": "Ground Up",
+      "poster": "https://image.tmdb.org/t/p/w500/qPPrG51GOd4aLf3V1O6R8i01f0l.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pgQlczhgf0tci3bPVeYQYVz7I6M.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:321032",
+      "type": "series",
+      "name": "Urzila",
+      "poster": "https://image.tmdb.org/t/p/w500/j2qkxHG9sQniP2A2d0rq21IT33s.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xoNbLBdQ5NgxxmLooE6GPNrCyha.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:317670",
+      "type": "series",
+      "name": "Bad Company",
+      "poster": "https://image.tmdb.org/t/p/w500/waDbF2eh1kJA6EfEeHca9VDAA1a.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uAjckulla28qq8EP9HTiRVBLkYt.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:307823",
+      "type": "series",
+      "name": "Dog Park",
+      "poster": "https://image.tmdb.org/t/p/w500/pzrbb3gTWj8Qtuxz4tmpkJOrn6B.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/35ygKwRX00JANG4bFTeQUWDNIsf.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:309287",
+      "type": "series",
+      "name": "Goolagong",
+      "poster": "https://image.tmdb.org/t/p/w500/o7OoJty6ac5BcJHzhpQed9GJ3ej.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1OldkLawuzJTGEzRMG9KoCOJT18.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:304482",
+      "type": "series",
+      "name": "Portrait Artist of the Year",
+      "poster": "https://image.tmdb.org/t/p/w500/ZyUwJ1Y3Nz1rcjFW8j3TrWnWKI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/k624xUZq8vEpiQpGCtAf03OFrWC.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:297869",
+      "type": "series",
+      "name": "The Family Next Door",
+      "poster": "https://image.tmdb.org/t/p/w500/8vqOuaeMnLqiIUhcPqrnT7O6Rt2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nRLqpOUg4VnzZX2ozYjfjUQkaeT.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:296275",
+      "type": "series",
+      "name": "Griff's Great American South",
+      "poster": "https://image.tmdb.org/t/p/w500/e218I8r1cU4fXWxuqNILQQX50Wt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rUeAmX0qkXoA9Uf3gbUdd2RFT0B.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:295826",
+      "type": "series",
+      "name": "Dr Ann's Secret Lives",
+      "poster": "https://image.tmdb.org/t/p/w500/nyI5FE3xpGsdCbRhhIhYtve38v0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3ykoWmvRrrMaDFgMhputLCUHdBW.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:290411",
+      "type": "series",
+      "name": "Kimberley, le Grand Ouest sauvage australien",
+      "poster": "https://image.tmdb.org/t/p/w500/xRPE0rB33HawUNKiixtRcdApTkK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A2HNPfozM2bMU6zQRVYzixaTICV.jpg",
+      "description": "Le Kimberley est la perle de l’Ouest sauvage australien. Dans cette région tropicale, les wallabys se confrontent aux crocodiles marins, véritables dinosaures des temps modernes. Entre moussons et périodes de sécheresse, suivre l’écosystème d’une des dernières régions tropicales préservées d’Australie, sur une année, se révèle ne pas être de tout repos !",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:289174",
+      "type": "series",
+      "name": "Claire Hooper's House of Games",
+      "poster": "https://image.tmdb.org/t/p/w500/g6XwHf1N6JmtTnJiUrnLZ217KX2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/neqroNmTPvcEuGQ84JJ1FYMKNqP.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:282653",
+      "type": "series",
+      "name": "Optics",
+      "poster": "https://image.tmdb.org/t/p/w500/34hTdB8vCer3LF2O8CZU5jnHAuD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/98TVpiAg0ez4ZpK7mXu4dUBzFGY.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:281393",
+      "type": "series",
+      "name": "Miriam Margolyes Discovers New Zealand",
+      "poster": "https://image.tmdb.org/t/p/w500/4q2V3RT2ro0vi2VPoiUdw6luiOn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uWzHt5sUQ7f5m1cf2wQ1snWZuvG.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:281338",
+      "type": "series",
+      "name": "Dr Karl's How Things Work",
+      "poster": "https://image.tmdb.org/t/p/w500/o3Zrat3FjL8SZxkqv6KkV6tZOG0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3zQDQYUFIN7Oi70o8wphqaMnz6Q.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:273348",
+      "type": "series",
+      "name": "Plum",
+      "poster": "https://image.tmdb.org/t/p/w500/61TMbI9ThtZb4iW3DiXWA2Hqgzn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zLSYWbqY7Wmd2B1EU75EM8qNv0w.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:244978",
+      "type": "series",
+      "name": "Enquêtes au paradis",
+      "poster": "https://image.tmdb.org/t/p/w500/usL0PT2qZ2FPCeRY5PzvZr10g0k.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5vcVf5hDtnKQVmHj9RSIaVwwvlx.jpg",
+      "description": "Mackenzie Clarke, une policière expatriée à Londres, est contrainte de retourner vivre temporairement à Dolphin Cove en Australie, la ville de son enfance. Lorsqu'un meurtre est commis, Mack ne peut s'empêcher de mettre à profit ses talents d'enquêtrice. Ce retour au bercail ravive son lot de souvenirs plus ou moins agréables et engendre des retrouvailles un peu compliquées, notamment avec son ex-fiancé Glenn, qu’elle a quitté le jour de leur mariage, et avec son ex-belle-mère et ex-patronne, qui dirige le poste de police de la ville. Cet endroit paradisiaque sur la côte de Nouvelles-Galles du Sud est le théâtre de meurtres complexes, que Mack va tâcher de résoudre à l’aide de sa nouvelle équipe : le lieutenant Colin Cartwright, un Anglais expatrié en Australie, l’agent Felix Wilkinson, et Reggie Rocco, une ancienne prof reconvertie en bénévole auprès de la police.",
+      "releaseInfo": "2024"
+    }
+  ]
+}

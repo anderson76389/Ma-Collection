@@ -1,0 +1,180 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:333101",
+      "type": "series",
+      "name": "Treasure Island",
+      "poster": "https://image.tmdb.org/t/p/w500/xZQ5ABJF1iLjGq9xR4MthpgQEFF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cv102XnL9r7M9jFr0hsMeqzpAWW.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:288673",
+      "type": "series",
+      "name": "Carrie",
+      "poster": "https://image.tmdb.org/t/p/w500/dkDeQSeJGSfEBFavomS3LUci2VO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9yCJtipMeDe8uAdSJKvw8BnYfRz.jpg",
+      "description": "Après la mort soudaine et prématurée de son père, Carrie est propulsée dans l'univers impitoyable d'un lycée public et doit faire face à un scandale de harcèlement viral qui secoue sa communauté, à la pression incessante et à la cruauté des réseaux sociaux tandis qu'en parallèle, un mystérieux pouvoir de télékinésie s'éveille en elle.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:284558",
+      "type": "series",
+      "name": "Kill Jackie",
+      "poster": "https://image.tmdb.org/t/p/w500/3tjZspkqquE24iK1rc0nvnJwdEZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/twc2YYBXTjdv52TShVumB1voT3Q.jpg",
+      "description": "Jackie Price, ancienne trafiquante de cocaïne, mène depuis vingt ans une vie luxueuse mais ennuyeuse. Lorsqu'une décision anodine déclenche une série d'événements inattendus, elle apprend que les Sept Démons, une équipe d'assassins d'élite, a été engagée pour la tuer. Jackie se lance alors dans une course-poursuite effrénée à travers l'Europe pour les traquer avant qu'ils ne la trouvent.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:258165",
+      "type": "series",
+      "name": "À l'est d'Éden",
+      "poster": "https://image.tmdb.org/t/p/w500/ygwE4kbLxKApQoC26Q0DiJQnkMl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/70RZX7kNjA0Qjn6HigB1oMvFJ8R.jpg",
+      "description": "Au début du 20e siècle, une femme d'une indépendance farouche provoque une rupture entre deux frères, lançant une saga qui va s'étendre sur deux générations.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:319851",
+      "type": "series",
+      "name": "The Blame",
+      "poster": "https://image.tmdb.org/t/p/w500/5ZeHhMqi7tDTgKvfUdy9rs7VKUt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/s5LxNwZbxxAXzycv3EOCe1NeslO.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:318312",
+      "type": "series",
+      "name": "Tommy & Tuppence",
+      "poster": "https://image.tmdb.org/t/p/w500/yotuQ5vEjtLdT3YeYVpmsg8UD6k.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z0ZyUAp7owmiAliyjjQSGNKhXog.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:258230",
+      "type": "series",
+      "name": "Portée disparue",
+      "poster": "https://image.tmdb.org/t/p/w500/zXMkaqWinyCbkMSNwhi7htRV0e9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kgaQnDdDaPqvGN7i8LLz1aWJdjP.jpg",
+      "description": "Lorsque Ian Ridley, opérateur des services d'urgence, reçoit un appel affolé d’une adolescente qu’il pense être sa fille disparue, il ne recule devant rien pour la retrouver.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:301626",
+      "type": "series",
+      "name": "Le Conte de deux cités",
+      "poster": "https://image.tmdb.org/t/p/w500/ht3OVVRBTrTeVtUVQiKSekjIFVH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1erQOjm3PZP6PNVRIuxdNmesCBu.jpg",
+      "description": "Londres, 1782. Alors que la guerre fait rage entre la France et la Grande-Bretagne, la jeune Lucie Manette voit sa vie bouleversée par un message tout droit venu de Paris : son père, présumé mort depuis près de 20 ans, serait peut-être encore vivant. Le messager, un émigré français idéaliste, Charles Darnay, est arrêté et accusé de trahison. Lucie fait appel à un jeune avocat aussi brillant qu’imprévisible, Sydney Carton, pour libérer Darnay dans l'espoir qu'il l’aide à retrouver son père.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:309798",
+      "type": "series",
+      "name": "Ma brillante carrière",
+      "poster": "https://image.tmdb.org/t/p/w500/quZMr2DHNfsx6YjOuABxGfnt2ko.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5ErhLuuVrxlNa2JiRzXfo0U10uZ.jpg",
+      "description": "Sybylla est une jeune femme résolument moderne qui a pour ambition de devenir écrivaine, alors que sa famille est déterminée à la marier. Animée d'une joie de vivre irrépressible, elle bouscule toutes les conventions de l'Australie de 1900 à la recherche d'une histoire qui lui permettra de s'émanciper par l'écriture. Pour elle, le choix entre l'aventure et le mariage paraît simple… jusqu’à ce qu'elle tombe amoureuse. Sybylla se mariera-t-elle ou risquera-t-elle tout pour vivre de sa plume ?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:291350",
+      "type": "series",
+      "name": "Anna Pigeon",
+      "poster": "https://image.tmdb.org/t/p/w500/iLhi3wqsLOdHB61vySJRm7y09XS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/w6F8pr3bYBlr9LRCM4sIgfto5g3.jpg",
+      "description": "Anna Pigeon, autrefois citadine, a trouvé refuge dans la nature après une tragédie personnelle qui a bouleversé sa vie. Devenue garde forestière, elle sillonne les parcs nationaux des États-Unis, où elle tente d’apaiser ses démons intérieurs en se consacrant à la résolution de crimes souvent aussi sauvages que les paysages qui les entourent. Rien ne l’arrête, pas même les terrains les plus hostiles ou les vérités les plus dérangeantes.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:298168",
+      "type": "series",
+      "name": "The Shards",
+      "poster": "https://image.tmdb.org/t/p/w500/wP0GdqwVu2g1y3q1KzBXuSrdTvX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AhzF2bkYYybcCT4PnqpoagRGBWJ.jpg",
+      "description": "Dans le Los Angeles des années 80, un groupe de lycéens privilégiés d'un lycée huppé explore son identité, sa sexualité, la jalousie et l'obsession, et découvre les dangers qui se cachent sous la surface de l'adolescence américaine.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:278624",
+      "type": "series",
+      "name": "Lucky",
+      "poster": "https://image.tmdb.org/t/p/w500/mZD2tsOsW8FTqgS40hOqWic4KkU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mKrhRPB7rMvy0bIU1l1NYhgh1eI.jpg",
+      "description": "Quand un coup de plusieurs millions tourne mal, Lucky, escroc virtuose, prend la fuite pour échapper au FBI et à un trafiquant sans pitié. Elle doit lutter pour sa survie, et pour quitter le métier.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:298939",
+      "type": "series",
+      "name": "The Dark",
+      "poster": "https://image.tmdb.org/t/p/w500/mcrx2gcVd5mVVOQrdEWXayFbvVB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ym3eW2NwcOqa1tBdSmckk8Oy3kG.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:283304",
+      "type": "series",
+      "name": "La Petite Maison dans la prairie",
+      "poster": "https://image.tmdb.org/t/p/w500/y8sgnrz9xXIIAfOcXasjtPTXNw8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fBieUo3SdItUrXZE16YxbpjwXIe.jpg",
+      "description": "La famille Ingalls se construit une nouvelle vie dans l'Ouest américain, où les joies de la nature se mêlent à la lutte pour survivre.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:283151",
+      "type": "series",
+      "name": "The Five Star Weekend",
+      "poster": "https://image.tmdb.org/t/p/w500/l9z65nDVteL88PmwDqyiTFmxCtF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lq2aJdPlyOo11aBwojmLvGjlJS1.jpg",
+      "description": "Hollis Shaw, une influenceuse culinaire, connue pour ses recettes délicieuses, son goût irréprochable et son attitude chaleureuse, doit affronter une terrible épreuve",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:278178",
+      "type": "series",
+      "name": "Sur tes traces",
+      "poster": "https://image.tmdb.org/t/p/w500/bqljPIvFYDGUcgyGmtYBegqJMRh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yOna5ZGXrvWO2HdOCKcahx2sCDN.jpg",
+      "description": "Un père de famille innocent est condamné à perpétuité pour le meurtre de son propre fils. Lorsqu'il reçoit la preuve que son fils est peut-être encore en vie, celui-ci est plus que jamais déterminé à s'évader de prison pour découvrir la vérité.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:260592",
+      "type": "series",
+      "name": "Au fil des années",
+      "poster": "https://image.tmdb.org/t/p/w500/ahCjPfWA26qluZPOQItTsLwFvVV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/to5eI3AWbT4spz1K58mIK5HQRbD.jpg",
+      "description": "Au Fil des années de Carley Fortune est une romance teintée de nostalgie sur les premières amours et les choix qui nous marquent pour la vie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:323411",
+      "type": "series",
+      "name": "The Vampire Lestat",
+      "poster": "https://image.tmdb.org/t/p/w500/gZcmNUcDDR1nR7lmroOJTCrhrhK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iw1knpC8Jg5davMn2MPxNVxBF8N.jpg",
+      "description": "Le Vampire Lestat part en tournée tout en étant hanté par les « muses » de son passé. À mesure que la popularité du groupe augmente, l'influence de Lestat sur les vampires et les humains augmente également, laissant les autres affronter le pouvoir de Lestat face à la Grande Conversion.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:277439",
+      "type": "series",
+      "name": "Cape Fear - Les Nerfs à vif",
+      "poster": "https://image.tmdb.org/t/p/w500/2BuGd8rDimZgJGkU0Gn34gjAYmY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/maOzDEEudq82nN9lRTumrGo9MvJ.jpg",
+      "description": "Une tempête approche pour un couple heureux d’avocats quand un tueur tristement célèbre resurgit de leur passé à sa sortie de prison.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:273240",
+      "type": "series",
+      "name": "Off Campus",
+      "poster": "https://image.tmdb.org/t/p/w500/9tyqp3lIuYyDyqQJDTGssvijIAu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3ANXZWhhcqPAh0q6nRZ979TIwxC.jpg",
+      "description": "La romance improbable entre Hannah Wells, étudiante en musique ironique qui déteste le hockey, et Garrett Graham, centre vedette et séducteur de l'université Briar, alors qu'ils concluent un accord pour s'entraider. Mais leur accord se déroulera-t-il comme prévu ?",
+      "releaseInfo": "2026"
+    }
+  ]
+}

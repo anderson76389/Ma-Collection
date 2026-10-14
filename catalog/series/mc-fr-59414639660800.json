@@ -1,0 +1,60 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:330542",
+      "type": "series",
+      "name": "Hit Point",
+      "poster": "https://image.tmdb.org/t/p/w500/mt5R8D6DVnchastooMyzK4wvgPy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9ULEAggHneg6RsYz9cekVOebjhA.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:321007",
+      "type": "series",
+      "name": "The Way Out",
+      "poster": "https://image.tmdb.org/t/p/w500/5Wkod4Bg4mFsGLVjIR8jD6RDoN8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rudxBFP7330WMSe2d7isASLi9BI.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:306910",
+      "type": "series",
+      "name": "Clash of the Comics",
+      "poster": "https://image.tmdb.org/t/p/w500/ehCtJQTVuP7zj8bJYGrDd8WJ4Rd.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yJ1iz3HkSknIKWJaLruB7d6z1ea.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:262870",
+      "type": "series",
+      "name": "Guy Martin: Proper Jobs",
+      "poster": "https://image.tmdb.org/t/p/w500/kw7YfrkmGYbM3ZGJyhYMjes5eTY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uFHwU84QwcYZ89v7kMC9DUhPdNv.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:261715",
+      "type": "series",
+      "name": "Will & Ralf Should Know Better",
+      "poster": "https://image.tmdb.org/t/p/w500/51k0VJc8QgEVusV2VaRJqdN3LzY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sJqMaVHbNG8Zm2GrFBZST72iUS6.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:262869",
+      "type": "series",
+      "name": "Jamali Maddix: Follow the Leader",
+      "poster": "https://image.tmdb.org/t/p/w500/5fbxvoVYDGtVoWdQJgCTUWJvwTI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hyLJcq4k8puP8J6sBuTxa6Z1ZNH.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:258565",
+      "type": "series",
+      "name": "Battle In The Box",
+      "poster": "https://image.tmdb.org/t/p/w500/qPDtryoDgFWeQ7RI8289bPwVJUL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A240NsMrcLIFwMlvqQBv2Ehuyu0.jpg",
+      "releaseInfo": "2024"
+    }
+  ]
+}

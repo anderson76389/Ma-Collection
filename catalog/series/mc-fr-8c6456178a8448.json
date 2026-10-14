@@ -1,0 +1,63 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:34634",
+      "type": "series",
+      "name": "Alaska : La ruée vers l'or",
+      "poster": "https://image.tmdb.org/t/p/w500/wzsQetFAT5pIMF98MWwE7sq9Hf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ReSSC77upQRIZgvaJaPQPCbWaK.jpg",
+      "description": "Des passionnés sont prêts à tout, et surtout à mener une sérieuse compétition, afin d'arriver à extraire et amasser la plus grande quantité d'or possible, au coeur de sites miniers parmi les plus riches en Amérique.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:17937",
+      "type": "series",
+      "name": "Ghost Adventures",
+      "poster": "https://image.tmdb.org/t/p/w500/xLJZuDxdeUqRFHFlqs0mIk9faMR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/u64huzTnF3jEYUXJ4BDlpHy2L3K.jpg",
+      "description": "L'enquêteur paranormal Zak Bagans et son équipe, Nick Groff, Aaron Goodwin, Billy Tolley et Jay Wasley, recherchent des lieux hantés au niveau national et international. Au cours de leur enquête, Zak et son équipe se familiarisent avec la région, interrogent les habitants sur les lieux hantés et rencontrent les mauvais esprits qui hanteraient ces lieux.",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:46268",
+      "type": "series",
+      "name": "Alcool de contrebande",
+      "poster": "https://image.tmdb.org/t/p/w500/gByx9wYjhQ02RnImgHGsaV8htqN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jH8BWwd1kIfY3N614o9idhW8rOJ.jpg",
+      "description": "\"Alcool de contrebande\" suit le quotidien de bouilleurs d'alcool hors-la-loi qui doivent répondre à une forte demande des clients, tout en évitant l’attention des autorités.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:258731",
+      "type": "series",
+      "name": "Catastrophes naturelles : Survivre au pire",
+      "poster": "https://image.tmdb.org/t/p/w500/8dFicG5dMXI1PvzcH03SzSE3ukS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lo0iRpDmiEGgysKReMebnTrX0tm.jpg",
+      "description": "Cette série révèle les récentes catastrophes naturelles telles qu'elles se sont produites en temps réel à travers des images capturées par des témoins oculaires qui se sont retrouvés au mauvais endroit au bon moment et qui ont hardiment brandi leurs téléphones portables pour capturer l'œil de la tempête.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:227144",
+      "type": "series",
+      "name": "Contraband: Seized at the Border",
+      "poster": "https://image.tmdb.org/t/p/w500/hlCLRojglopcOtPKY1621oFH0kB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hhGw73wWW8CPW5UWE0L0RMT8RrJ.jpg",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:335032",
+      "type": "series",
+      "name": "Secret Life of a Vegas Casino",
+      "poster": "https://image.tmdb.org/t/p/w500/xyfxV0s0mBRs1NsgYJ3cBlmyLSo.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:311938",
+      "type": "series",
+      "name": "120 Hours Behind Bars",
+      "poster": "https://image.tmdb.org/t/p/w500/megsN596o4oxtJTIMKvHLB8HVty.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ytPawSashRcfe4fhATSOKOadyrM.jpg",
+      "releaseInfo": "2026"
+    }
+  ]
+}

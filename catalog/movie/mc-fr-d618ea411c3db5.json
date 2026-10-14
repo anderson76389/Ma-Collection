@@ -1,0 +1,58 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1363974",
+      "type": "movie",
+      "name": "Moi, quand je me réincarne en Slime, le Film - Les larmes de la mer azur",
+      "poster": "https://image.tmdb.org/t/p/w500/dehfe3C6pD0C2kxWTA4g6XN0nOr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/l2Gk8eFrPHn6ltT9PtfmdyvqFsG.jpg",
+      "description": "Suite à la célébration de la fondation de la Fédération de Jura Tempest, Elmesia, la souveraine de la nation elfe de Sarion, invite Rimuru et d'autres hauts responsables à passer des vacances sur une île de son royaume. Rimuru et les autres profitent de leur séjour, mais avec l'apparition d'une mystérieuse jeune fille nommée Yura et l'ombre d'un nouveau danger, il semblerait que les vacances de ce cher Slime soient de courte durée.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:959646",
+      "type": "movie",
+      "name": "Zombie Land Saga: Yumeginga Paradise",
+      "poster": "https://image.tmdb.org/t/p/w500/wmsBwd3dtd9i1Pl6nDZyd0WlTeO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zVBaDSCDFCebkjqghnh4B4ZZ4fo.jpg",
+      "description": "Désignées ambassadrices pour la Saga Expo, les Franchouchou doivent faire face à une invasion extraterrestre.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1534811",
+      "type": "movie",
+      "name": "The Roots of To Your Eternity",
+      "poster": "https://image.tmdb.org/t/p/w500/mYZLTfm3BfTe19sZdVTGlVz0CU4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qCaYem4hhg6c8dAeCIZsHz3BHjJ.jpg",
+      "description": "Plongez dans le fascinant parcours créatif de la série très appréciée To Your Eternity grâce aux témoignages exclusifs des créateurs du manga et de l'anime, notamment Oima Yoshitoki, Kiyoko Sayama et bien d'autres. Narré par Kenjiro Tsuda, ce documentaire présente des images illustrant l'arc narratif passé afin de préparer la nouvelle aventure dans l'arc contemporain et au-delà.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1359607",
+      "type": "movie",
+      "name": "Miss Kobayashi's Dragon Maid : Une dragonne en manque d’amour",
+      "poster": "https://image.tmdb.org/t/p/w500/udnoedTfNkI01LEZYmU50HJKy2R.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nBKrBDxNx10SuAKPLRtBXoRku5y.jpg",
+      "description": "La vie paisible de Miss Kobayashi, Tohru, Kanna et Iruru vole en éclats le jour où le père de Kanna, Kamun Kamui, le leader des Forces du Chaos, veut la forcer à retourner dans le monde des Dragons afin de réparer une erreur passée. Alors qu'une guerre se prépare entre le Chaos et l'Harmonie, Kanna doit trouver un moyen d'unifier les deux mondes.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1148706",
+      "type": "movie",
+      "name": "Me and Roboco : The Movie",
+      "poster": "https://image.tmdb.org/t/p/w500/54hWqGljwZZBz0U8NmXjFbyuxCk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iijh3NAw74nQGgtgqPiCjQ93f0X.jpg",
+      "description": "Alors que Roboco s'amuse à montrer ses imitations de genoux caractéristiques dans un terrain vague voisin, Bondo remarque quelque chose et se retourne. Non seulement il sent qu'un événement inhabituel est sur le point de se produire, mais il voit également Roboco comme si elle l'enveloppait, lui et les autres... !?",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1310672",
+      "type": "movie",
+      "name": "Fuuto PI: The Portrait of Kamen Rider Skull",
+      "poster": "https://image.tmdb.org/t/p/w500/fZ5Rl7b8ZeFuVjXpsybswT8kbBg.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AwgmO9qXGTp9q1jyzWhgOTBDgrN.jpg",
+      "description": "Qu'est-il arrivé à Shotaro, Philip et Sokichi Narumi la nuit de la naissance de « Kamen Rider W » ? Basé sur l'arc Begins Night de la série live-action Kamen Rider W avec de nouvelles scènes qui ont étendu ces événements non vus dans la série originale, c'est une expérience puissante que seul un anime peut offrir.",
+      "releaseInfo": "2024"
+    }
+  ]
+}

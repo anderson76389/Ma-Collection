@@ -1,0 +1,63 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:2912",
+      "type": "series",
+      "name": "Jeopardy!",
+      "poster": "https://image.tmdb.org/t/p/w500/11rWvQOEZBouD7wet0sWHwu7NDs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/55tcKzl0gZ0lR1q7TrVJm0h9lkT.jpg",
+      "releaseInfo": "1984"
+    },
+    {
+      "id": "tmdb:92661",
+      "type": "series",
+      "name": "25 Words or Less",
+      "poster": "https://image.tmdb.org/t/p/w500/gwu2aVl89amkSfBL5TqhvazYQAE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zi7hR8mfpApWoj3N3poBsJW9uxL.jpg",
+      "releaseInfo": "2018"
+    },
+    {
+      "id": "tmdb:2051",
+      "type": "series",
+      "name": "The Price Is Right",
+      "poster": "https://image.tmdb.org/t/p/w500/7MSqORrf1RZsmLUTQ2XoEJEtzt5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/p0umYdTa7csDT9SkZX8DD52Sy4a.jpg",
+      "releaseInfo": "1972"
+    },
+    {
+      "id": "tmdb:2778",
+      "type": "series",
+      "name": "Wheel of Fortune",
+      "poster": "https://image.tmdb.org/t/p/w500/4S36URhKU4sBL1gC2B5UxmTlZMl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A6Sp44grqCnvKs5Plhy3oQncUrq.jpg",
+      "description": "Ce jeu télévisé voit les concurrents résoudre des énigmes de mots, similaires à celles utilisées dans Hangman, pour gagner de l'argent et des prix déterminés en faisant tourner une roue de carnaval géante.",
+      "releaseInfo": "1983"
+    },
+    {
+      "id": "tmdb:1790",
+      "type": "series",
+      "name": "Family Feud",
+      "poster": "https://image.tmdb.org/t/p/w500/2eY3KyYvvjg2jn2ifTGkwdipCAC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zhLrML5jLVIlln5QFZdYHgtmFXr.jpg",
+      "releaseInfo": "1999"
+    },
+    {
+      "id": "tmdb:92611",
+      "type": "series",
+      "name": "RuPaul's Drag Race UK",
+      "poster": "https://image.tmdb.org/t/p/w500/rGKdb9afwZSPSAZ2jN2SMf9tthQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7fsT1NnmNbden0mptoVinBNp4ih.jpg",
+      "description": "RuPaul a fait le voyage à travers l'étang à la recherche d'une reine avec le plus de charisme, d'unicité, de nerf et de talent de tout le pays.",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:215943",
+      "type": "series",
+      "name": "Les Traîtres (États-Unis)",
+      "poster": "https://image.tmdb.org/t/p/w500/xWK9tLH2UGgzuAI6P3cHeTKopfj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sCn3qAUCbDOcPJcNvjdq7z06Eg2.jpg",
+      "description": "Présentée par Alan Cumming, cette émission de téléréalité réunit des personnalités du monde du divertissement dans un château situé au cœur des Highlands écossais pour un jeu de stratégie inspiré d'une enquête criminelle. Les candidats participent à une série d'épreuves afin de constituer une cagnotte pouvant atteindre 250 000 dollars, tandis que des « traîtres », secrètement désignés parmi les « loyaux », éliminent progressivement les autres participants dans l'espoir de remporter l'intégralité des gains.",
+      "releaseInfo": "2023"
+    }
+  ]
+}

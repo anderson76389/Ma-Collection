@@ -1,0 +1,75 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:317375",
+      "type": "series",
+      "name": "Locker Diaries: Phineas And Ferb",
+      "poster": "https://image.tmdb.org/t/p/w500/wsPQubRseakeFAxh7DfN1V55FbI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/p9E1KCihnTvkCqFBcprWZ6A2FnC.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:275722",
+      "type": "series",
+      "name": "Vampirina : l'ado vampire",
+      "poster": "https://image.tmdb.org/t/p/w500/7TwsVRLD1rKnlIpn8pAQQo5YeY2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uoxufQOHw6qv49bjTQgT0SzrEVY.jpg",
+      "description": "Vee quitte la Transylvanie pour un internat, pour poursuivre ses rêves de musique. Alors qu'elle cache son identité de vampire, des obstacles inattendus menacent de la renvoyer dans l'ombre.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:275724",
+      "type": "series",
+      "name": "Electric Bloom",
+      "poster": "https://image.tmdb.org/t/p/w500/2QZAkwZZ1SI72YD2IygwVMDSP4k.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yJNopTE4y4kOvdC0uPCdxLaGB6j.jpg",
+      "description": "Les trois membres du groupe de pop ultracélèbre « Electric Bloom » racontent l'histoire de leur groupe et leur amitié, depuis le jour de leur rencontre au lycée. La brillante Posey, la rebelle Jade et l'excentrique Tulip entament un voyage pour le plus grand groupe du monde et les meilleures amies de l'univers.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:228672",
+      "type": "series",
+      "name": "StuGo",
+      "poster": "https://image.tmdb.org/t/p/w500/9wFxvTx9ge2Ge8AAnrztTQ9oKXZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fyIrxMiPe9egL4xWDGxGILsD4tR.jpg",
+      "description": "Six collégiens surdoués sont invités sur une île mystérieuse des Caraïbes pour ce qu'ils croient être un prestigieux camp d'été . Cependant, ils découvrent rapidement que ce camp est une ruse orchestrée par le Dr Lullah, un savant fou vivant sur l'île. Incapables de partir pendant trois mois, ils doivent affronter la faune et la flore dangereuses de l'île, en grande partie créées par Lullah.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:245026",
+      "type": "series",
+      "name": "Waverly Place : Les nouveaux sorciers",
+      "poster": "https://image.tmdb.org/t/p/w500/8hyRM3e5k5mIilYw9RexdTl6dXT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/TxicZcsiP9VHYXMYHm4IEHnwv9.jpg",
+      "description": "Justin Russo, devenu adulte, a choisi de mener une existence de mortel ordinaire auprès de sa femme, Giada, et de leurs enfants, Roman et Milo. Mais quand Alex, la sœur de Justin, débarque avec la jeune Billie pour lui demander de l’aide, notre héros comprend qu’il va devoir se remettre à la magie pour servir de mentor à l’apprentie sorcière… tout en jonglant avec ses responsabilités quotidiennes.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:204136",
+      "type": "series",
+      "name": "Zombies: The Re-Animated Series",
+      "poster": "https://image.tmdb.org/t/p/w500/abrmBYBDMufgaN8h41f1Ezy7k4F.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ef8ZQYtgK3t6ojRIAUuPc1YsUu4.jpg",
+      "description": "Chaque jour est une suprise au lycée Seabrook, que l'on soit pom-pom girl, zombie, loup-garou ou même vampire ! La série nous invite dans la vie quotidienne de Zed, Addison, Eliza, Willa et de toute l'équipe de Seabrook.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:204139",
+      "type": "series",
+      "name": "Primos",
+      "poster": "https://image.tmdb.org/t/p/w500/3jiIJgCUT2btYJLASV11t9vxPn6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/k26HStggCmPVdccTSfYkKXb2vEp.jpg",
+      "description": "Tater  Ramírez-Humphrey est une petite fille excentrique de 10 ans qui a de grands rêves et un petit truc en plus qu'elle ignore. Quand ses 12 cousins lui rendent visite pour l'été, ils vont l'aider à découvrir ce qu'il en est.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:228669",
+      "type": "series",
+      "name": "Ariel",
+      "poster": "https://image.tmdb.org/t/p/w500/dFwBCA3jMOz1OYSmIRvKBWWL6y.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uLDHCg5pxc9gniPmJXLYc5Ee5Ka.jpg",
+      "description": "Suivez Ariel, 8 ans, alors qu'elle et ses amis se lancent dans des aventures sous-marines amusantes et pleines d'action dans leur royaume de conte de fées inspiré des Caraïbes et au-delà.",
+      "releaseInfo": "2024"
+    }
+  ]
+}

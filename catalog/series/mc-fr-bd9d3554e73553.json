@@ -1,0 +1,39 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:21755",
+      "type": "series",
+      "name": "Pawn Stars, les rois des enchères",
+      "poster": "https://image.tmdb.org/t/p/w500/3YxmQmoSbv9bXHYWIEDztstZguC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zzZzApaNDa2IxQUWo8x3Rbgs7iW.jpg",
+      "description": "L'émission met en scène la vie de la boutique de prêt sur gage Gold & Silver Pawn Shop à Las Vegas. Trois générations travaillent ensemble dans le magasin : Rick Harrison est propriétaire de la boutique avec son père Richard Benjamin Harrison dit « Le Vieux », et exploite le magasin avec son fils Corey Harrison dit « Big Hoss ». L'émission met aussi à l'honneur Austin Russell dit « Chumlee (en) », ami d'enfance de Corey et employé du magasin2. Des particuliers apportent des objets plus ou moins anciens qu'ils souhaitent le plus souvent vendre. Ces objets font l'objet d'une expertise (historique, état etc.) et une négociation s'engage pour en fixer le prix. Si la transaction aboutit, le paiement s'effectue en espèces. Entre ces scènes, l'émission montre les chamailleries au sein de l'équipe.",
+      "releaseInfo": "2009"
+    },
+    {
+      "id": "tmdb:60381",
+      "type": "series",
+      "name": "Seuls face à l'Alaska",
+      "poster": "https://image.tmdb.org/t/p/w500/9mMzOFzRTzVwPk1I277t3b4QHYF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gG1gpdr3Kc0MKgJGp3RQ1O6mofg.jpg",
+      "description": "Cette série met en scène des personnages américains hauts en couleurs vivant de la nature en milieu montagnard particulièrement hostile.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:227521",
+      "type": "series",
+      "name": "The UnBelievable with Dan Aykroyd",
+      "poster": "https://image.tmdb.org/t/p/w500/wCdcmyYICMZ4oceqiNraSztTJn6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AfIZmPmhqO1AX1ZopEDoCaNAVGO.jpg",
+      "description": "Chaque épisode ouvre les portes d’un cabinet de curiosités pour dévoiler les histoires les plus étranges – mais vraies – de l’histoire de l’humanité, mises en scène grâce à des reconstitutions dynamiques, des graphismes captivants et des images d’archives saisissantes. De la grande inondation de mélasse de Boston à cet homme qui a survécu à la foudre non pas une fois, ni deux, mais SEPT fois, ces récits qui semblent invraisemblables ont tous réellement eu lieu, et notre équipe d’experts se plonge dans les archives historiques pour vous expliquer comment et pourquoi.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:236416",
+      "type": "series",
+      "name": "The UnXplained Special Presentation",
+      "poster": "https://image.tmdb.org/t/p/w500/8IpSSy2edEBWRTppUJ6rF6KgxDl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A3Vs4LjkCts9iC7mi218edu8q2D.jpg",
+      "releaseInfo": "2023"
+    }
+  ]
+}

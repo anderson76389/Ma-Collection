@@ -1,0 +1,31 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1877",
+      "type": "series",
+      "name": "Phinéas et Ferb",
+      "poster": "https://image.tmdb.org/t/p/w500/wgEDwsPxEeYk3hLWKsTgs1KJhS6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5MWFjQ3NuNtNeOE9FdrVLeNMNPs.jpg",
+      "description": "Phineas et Ferb sont des demi-frères passant leurs vacances d'été à martyriser leur soeur, à s'imaginer des aventures extraordinaires dans leur jardin... sans se douter que leur ornithorynque de compagnie est un agent secret !",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tmdb:127706",
+      "type": "series",
+      "name": "Kiff",
+      "poster": "https://image.tmdb.org/t/p/w500/h7xhJ1uWu7FurJ3W5iKzrfiPF3K.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bfeOXOhilwMYcO0ruvFXruBsv4H.jpg",
+      "description": "L'histoire de Kiff, un écureuil optimiste aux bonnes intentions qui mènent bien souvent au désastre, et de son meilleur ami Barry, un gentil et doux lapin. Dans des montagnes grouillantes de vie où les animaux et les créatures magiques vivent en harmonie, le duo prend la ville d'assaut avec ses aventures sans fin et sa joie de vivre.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:275722",
+      "type": "series",
+      "name": "Vampirina : l'ado vampire",
+      "poster": "https://image.tmdb.org/t/p/w500/7TwsVRLD1rKnlIpn8pAQQo5YeY2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uoxufQOHw6qv49bjTQgT0SzrEVY.jpg",
+      "description": "Vee quitte la Transylvanie pour un internat, pour poursuivre ses rêves de musique. Alors qu'elle cache son identité de vampire, des obstacles inattendus menacent de la renvoyer dans l'ombre.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

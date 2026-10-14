@@ -1,0 +1,81 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:286940",
+      "type": "series",
+      "name": "Le Ticket d'or de Willy Wonka",
+      "poster": "https://image.tmdb.org/t/p/w500/5padVOGD7QxyFLlTAWdCFY2FQf1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3BXEJ0qtVPHj1PL0M78xhYOiBkq.jpg",
+      "description": "L'usine de chocolat de Willy Wonka ouvre ses portes à 12 duos afin de passer plusieurs épreuves dans l'espoir de remporter une forte somme d'argent.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:291431",
+      "type": "series",
+      "name": "The Celebrity Traitors",
+      "poster": "https://image.tmdb.org/t/p/w500/uziPOqxQotCE9g0wBgDvHCOvRhP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/76BNYD6gBrZPWH4axZH8rEpeyLW.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:289980",
+      "type": "series",
+      "name": "Destination X",
+      "poster": "https://image.tmdb.org/t/p/w500/srKrtD3BWCYDar3IEZlXbQh5YEl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2mPpsMo3g49QKs1FhEmrhKqUp2f.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:249522",
+      "type": "series",
+      "name": "Beast Games",
+      "poster": "https://image.tmdb.org/t/p/w500/4nQ9NvZ0iOcMrdcLvIFyrSSXEr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/p1rQJ5bljPSk3LoCo5UKRkpsiSd.jpg",
+      "description": "Un millier de concurrents vont s'affronter dans des épreuves physiques et mentales à couper le souffle, pour tenter de gagner la somme de 5 millions de dollars. Chaque semaine, les participants devront faire preuve de force et d'esprit pour rester dans la course et remporter le premier prix.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:252006",
+      "type": "series",
+      "name": "Êtes-vous plus intelligent qu'une célébrité ?",
+      "poster": "https://image.tmdb.org/t/p/w500/hXJIGHgN1t8lP3pgKItvs1hZWMj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gF3WF68K0lJAkegHgeCGextQ0KI.jpg",
+      "description": "Des candidats vont tenter de gagner jusqu'à 100 000 dollars en répondant à des questions sur ce qu'ils ont appris à l'école primaire. Ils seront aidés par une classe remplie de célébrités, dont Nikki Glaser, Nicole Byer, Lala Kent, Ryan Fitzpatrick. Vont-ils réussir les cinq niveaux pour pouvoir tenter le gros lot ? Ou vont-ils échouer en cours de route ? Il est temps de le découvrir !",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:243408",
+      "type": "series",
+      "name": "Deal or No Deal Island",
+      "poster": "https://image.tmdb.org/t/p/w500/9bYsgKinAdSwgwQrg9Q3RCVPBRn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hX18KjDzYJCc7B9bTR6BHzE4AB1.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:19882",
+      "type": "series",
+      "name": "Gladiators : Royaume-Uni",
+      "poster": "https://image.tmdb.org/t/p/w500/c18KyaStjDl2Z7kqg5sDN8DnCsE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/10jsLzrrImNv73a06GZOUUXKuOG.jpg",
+      "description": "Une nouvelle génération de surhommes affronte des adversaires courageux dans l'épreuve ultime mettant à l'épreuve leur vitesse et leur force. C'est de l'action à gogo, avec Bradley et Barney Walsh aux commandes.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:231730",
+      "type": "series",
+      "name": "The Floor",
+      "poster": "https://image.tmdb.org/t/p/w500/p2jQNn7fhl9PpjaowmxmdDwTYIl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cHznGpISn6Uxy9EyLel5eX7WrXG.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:234455",
+      "type": "series",
+      "name": "007 : En Route pour le million",
+      "poster": "https://image.tmdb.org/t/p/w500/9TFN6HaeCutQU2xL8j9f0nvNsW1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bLo5aeLF6epHU5fUKtHeBVn0DmC.jpg",
+      "description": "Neuf duos de gens ordinaires doivent relever des défis inspirés par James Bond et tenter de remporter 1 000 000 £. Le Contrôleur est le maître à penser du jeu. Il observe les duos à la recherche de dix questions qu'il a cachées aux quatre coins du monde.",
+      "releaseInfo": "2023"
+    }
+  ]
+}

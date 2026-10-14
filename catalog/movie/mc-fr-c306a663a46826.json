@@ -1,0 +1,85 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1442908",
+      "type": "movie",
+      "name": "Les Chanteurs",
+      "poster": "https://image.tmdb.org/t/p/w500/a6wheh1243vceZ7Dqb0knYmKqaj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oTWgvLnMjjsVNdVTZjf5CEnihhw.jpg",
+      "description": "Dans ce court-métrage nommé aux Oscars, une compétition de chant improvisée dans un bar de quartier transforme une nuit de solitude en un moment d'harmonie et de partage.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1193501",
+      "type": "movie",
+      "name": "Le Sifflet",
+      "poster": "https://image.tmdb.org/t/p/w500/d3U7rzj3ReOjpxNBd2n09WAxSLH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/finq0JnC6tIMkKczzyxLJjgWFfT.jpg",
+      "description": "Un groupe d'élèves inadaptés découvre par hasard un objet maudit, un ancien Sifflet de la Mort aztèque. Ils découvrent qu'en soufflant dans le sifflet, le son terrifiant qu'il émet fera venir leurs morts futures pour les traquer.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1551003",
+      "type": "movie",
+      "name": "R.L. Stine's Pumpkinhead",
+      "poster": "https://image.tmdb.org/t/p/w500/gRJFFA9lK9pLikEIMcetgkmOGTj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lplhIdFpgi0KQJszI9pRgnj1feO.jpg",
+      "description": "Lorsque son frère disparaît et que tout le monde oublie qu'il a jamais existé, Sam doit élucider ce mystère avant que Finn ne disparaisse à jamais.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1197137",
+      "type": "movie",
+      "name": "Black Phone 2",
+      "poster": "https://image.tmdb.org/t/p/w500/dIdsLxoG5bsxpuYIt6GMUQ3pNB9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6zKjoOOb3OZnZuiHtQZn4Kd69Gq.jpg",
+      "description": "Depuis son enlèvement, Finney, aujourd'hui âgé de 17 ans, lutte pour reprendre le cours d'une vie normale, alors que rien ni personne ne saurait arrêter Gwen, sa sœur de 15 ans. Cependant, celle-ci commence à recevoir des appels du sinistre téléphone noir dans ses rêves, où elle voit sans cesse trois garçons se faire pourchasser dans un camp de montagne appelé Alpine Lake. Déterminée à mettre fin à ces cauchemars et à en percer le mystère, Gwen persuade son frère de se rendre sur place.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:891584",
+      "type": "movie",
+      "name": "Le Son des souvenirs",
+      "poster": "https://image.tmdb.org/t/p/w500/fljAPAsvXioFeSU9wuYCk4z4cbE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/e13Io18jl6p5UiS5Cxhug9ptTPU.jpg",
+      "description": "Pendant la Première Guerre mondiale, deux jeunes hommes, Lionel et David, entreprennent d'enregistrer les vies, les voix et la musique de leurs compatriotes américains...",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:842924",
+      "type": "movie",
+      "name": "Life of Chuck",
+      "poster": "https://image.tmdb.org/t/p/w500/gSJzgltK1mx2m6SNQhStbXiqu7l.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1SgD8XMa6dDSBKbPU4TDe2cmfGK.jpg",
+      "description": "Basé sur la nouvelle de Stephen King, qui raconte trois chapitres de la vie d'un homme ordinaire nommé Charles Krantz en commençant par sa mort d'une tumeur cérébrale à 39 ans et en terminant par son enfance dans une maison prétendument hantée.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1212742",
+      "type": "movie",
+      "name": "The Rule of Jenny Pen",
+      "poster": "https://image.tmdb.org/t/p/w500/hnRypLHkqd0qBLL1qT9KNy0XFl0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eftVUg9R1lys3wT8kHJqMaK64m7.jpg",
+      "description": "Victime d'un accident vasculaire cérébral, le juge Stefan Mortensen se retrouve dans une résidence pour personnes âgées où il reçoit des soins de réadaptation. Partiellement paralysé, il entame une lutte impitoyable contre Dave Crealy, un bénéficiaire qui profite de sa meilleure forme physique pour maltraiter et offusquer les autres patients.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:324544",
+      "type": "movie",
+      "name": "Dans les contrées perdues",
+      "poster": "https://image.tmdb.org/t/p/w500/wKO67hBgdbdEhZWWnL5xmHw3wAN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oI5uHu7lrQ0mBBH1c8OHCAkCq4x.jpg",
+      "description": "Une reine pactise avec la puissante et redoutée sorcière Gray Alys afin qu’elle lui rapporte un trésor capable de lui conférer un pouvoir immense. Alys et son guide, le vagabond Boyce, doivent s’aventurer dans les dangereuses Contrées Perdues. Là, ils devront déjouer et combattre hommes et démons pour honorer leur part du contrat…",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1124620",
+      "type": "movie",
+      "name": "The Monkey",
+      "poster": "https://image.tmdb.org/t/p/w500/3Ps2oG3dGtQxtn3Q6bCktex1jSf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cjZ7No0DX2L3ielLSoUOMYPw7C.jpg",
+      "description": "Lorsque les jumeaux Bill et Hal trouvent le vieux jouet de singe de leur père, une série de morts effroyables commence. Les deux frères décident de jeter le jouet et de poursuivre leur vie, tout en s'éloignant l'un de l'autre.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

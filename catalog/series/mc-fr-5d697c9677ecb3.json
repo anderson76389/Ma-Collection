@@ -1,0 +1,184 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:331616",
+      "type": "series",
+      "name": "La Mort de la femme du pasteur",
+      "poster": "https://image.tmdb.org/t/p/w500/o8H6HmQNt2qx5bIfmvuI6VJn13A.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gXX5VDz1jh0Adqo8a8QPHJthiEl.jpg",
+      "description": "Qu'est-il arrivé à Mica Miller ? Cette série documentaire revient sur sa vie prometteuse, son mariage toxique et les circonstances mystérieuses qui ont entouré sa mort.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:330320",
+      "type": "series",
+      "name": "Conversations with a Killer: The Charles Manson Tapes",
+      "poster": "https://image.tmdb.org/t/p/w500/8yyWUZjItJEO5dpKyCE8IghET9i.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cQ3lyswcCNGxBnyrwHbEBOqGsXE.jpg",
+      "description": "Retraçant l'ascension de Charles Manson en tant que gourou de secte, les meurtres de 1969 et son procès, à l'aide d'enregistrements carcéraux inédits, d'entretiens et d'images d'archives.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:325188",
+      "type": "series",
+      "name": "Les Voisins de l'enfer",
+      "poster": "https://image.tmdb.org/t/p/w500/cC8OQ7PyMy8Caz6z97QvW3CQbbL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/68DV2CjqHpH8PsO76Ssrv4T47os.jpg",
+      "description": "Cette série documentaire intense relate des histoires vraies de voisins ayant basculé dans la délinquance, allant d'escroqueries odieuses à des actes insensés de représailles violentes.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:318262",
+      "type": "series",
+      "name": "Et pour le pire ?",
+      "poster": "https://image.tmdb.org/t/p/w500/rVN1TATgKDyXj9pejkrIYy6lJXm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A1DSMj6VQcvvJmNNBTSSLqQ5bzF.jpg",
+      "description": "D'une idylle fulgurante à un sombre aveu, ce documentaire sur un crime réel révèle comment une romance dans les Highlands écossais a mené à une périlleuse opération d'infiltration.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:316295",
+      "type": "series",
+      "name": "Le Prédateur de Séville",
+      "poster": "https://image.tmdb.org/t/p/w500/aGgI3aulBfSHZZAiPxXjnpvdvOG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eMoQ0fBysYIWx4HROKowEDk4iZ4.jpg",
+      "description": "Une agression sexuelle commise par un guide touristique espagnol suscite une avalanche de plaintes similaires de la part d'étudiantes américaines. Voici leur quête de justice.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:255251",
+      "type": "series",
+      "name": "Sean Combs : L'heure des comptes",
+      "poster": "https://image.tmdb.org/t/p/w500/py50U7d1XaWcr7tCsXC2LoM68dM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5L9YS9mpYs0WfuSKYpLd9GUBFc9.jpg",
+      "description": "Cette série documentaire décrypte les accusations choquantes qui visent Sean « Diddy » Combs et son empire Bad Boy, couvrant plusieurs années de sa vie et de sa carrière.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:302679",
+      "type": "series",
+      "name": "Qui a payé le Tueur ?",
+      "poster": "https://image.tmdb.org/t/p/w500/n4Co9iJjG9YOM4qdN8FZuTEcMbj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/apBeqJE69J0zueyZz7wfs3AFUD6.jpg",
+      "description": "Dans des affaires de meurtres, la question n'est pas de savoir qui a pressé la détente, mais qui a tiré les ficelles pour que ce meurtre soit commis.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:301147",
+      "type": "series",
+      "name": "Les meurtres du vendredi 13",
+      "poster": "https://image.tmdb.org/t/p/w500/nKiGQ9UOgUw8sw7sPO0dQogg6l8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qRKOqMxyAkaEJ4h1MYoiQ9DaY4r.jpg",
+      "description": "Ce documentaire explore de véritables meurtres survenus à cette date tristement célèbre ou aux alentours, révélant comment le vendredi 13 se transforme de superstition en une véritable histoire d'horreur.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:277831",
+      "type": "series",
+      "name": "The Yogurt Shop Murders",
+      "poster": "https://image.tmdb.org/t/p/w500/r25wcu2RZcWzq6GtR8MPD7i25OS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/46jbcYRNrVHfWITLTTlbjOdP6nI.jpg",
+      "description": "Cette série en quatre parties explore le meurtre tragique de quatre adolescentes dans un magasin de yaourts le 6 décembre 1991 à Austin, au Texas.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:294611",
+      "type": "series",
+      "name": "Le Fils de Sam : Autoportrait d'un tueur",
+      "poster": "https://image.tmdb.org/t/p/w500/lA5AGje0Mw2kWXhpFlwc7EhPwCc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yhY39CpkRZIDLQFYMd4K0JdTg55.jpg",
+      "description": "Mélangeant des interviews d'aujourd'hui et des enregistrements inédits, cette série criminelle examine l'empreinte du tueur en série David Berkowitz sur le New York des années 70.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:294726",
+      "type": "series",
+      "name": "Amy Bradley, la passagère disparue",
+      "poster": "https://image.tmdb.org/t/p/w500/5XInPY7B08iqF5nTuvx1hyERSZE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bx26v6trU13B2VfzSMfpMJe7OGb.jpg",
+      "description": "En 1998, une femme de 23 ans disparaît lors d'une croisière dans les Caraïbes. Cette série documentaire suit l'enquête et la lutte acharnée de sa famille pour obtenir des réponses.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:294219",
+      "type": "series",
+      "name": "Ami ou Assassin ?",
+      "poster": "https://image.tmdb.org/t/p/w500/ihtZZ9TGptqXdtv0L7rK2ofIzF2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rkWdrO1eZlITg0rYdt1S8XApkFr.jpg",
+      "description": "Le meurtre de l'un des leurs bouleverse à jamais des groupes d'amis. La perte tragique d'un membre de leur cercle intime — et leur terrifiante proximité avec le meurtrier — les hantent tandis qu'ils découvrent des secrets et se confrontent à une vérité douloureuse.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:293691",
+      "type": "series",
+      "name": "Une nuit dans l'Idaho : Massacre à l'université",
+      "poster": "https://image.tmdb.org/t/p/w500/b4D6AVcZoE45c6JAKmdpicU0zCc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rJpRytNyCwXZz2kzMp2U3TEb5Wa.jpg",
+      "description": "Le 13 novembre 2022, au milieu de la nuit, quatre étudiants ont été brutalement assassinés dans une maison située hors de leur campus, dans la paisible ville universitaire de Moscow, dans l'Idaho. À travers des entretiens exclusifs et intimes avec les proches des victimes, Une nuit dans l'Idaho : Massacre à l'université se penche sur les rebondissements de cette tragédie et ses conséquences.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:293130",
+      "type": "series",
+      "name": "Les Mille Morts de Nora Dalmasso",
+      "poster": "https://image.tmdb.org/t/p/w500/7mSoPrk2T08yCS4d8cWMyR5ptM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gyOlQ01A0CoSF8a5WTdBW6dMpCc.jpg",
+      "description": "Qui a tué Nora Dalmasso ? Dans cette série sur un crime réel, des membres de sa famille et de la presse se livrent sur son meurtre et sur la tempête médiatique qui a suivi.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:291926",
+      "type": "series",
+      "name": "The Mortician",
+      "poster": "https://image.tmdb.org/t/p/w500/vhJ3FFCtL5I3FKJmJ75WL5xdQgy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2qe5IhZFWccV5r6lo6pB2R0fPUo.jpg",
+      "description": "La terrible histoire d'une morgue familiale de Los Angeles qui s'est livrée pendant des années à des pratiques moralement douteuses et inhumaines.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:289486",
+      "type": "series",
+      "name": "Cold Case : Les meurtres au Tylenol",
+      "poster": "https://image.tmdb.org/t/p/w500/fQafOeX3lWo9AaW97JLJdBYxPHr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AixpLrWdahG1wNnNwyXUNSKum5Z.jpg",
+      "description": "Dans cette série inspirée de faits réels, des enquêteurs et familles de victimes racontent le mystère non résolu du Tylenol contaminé au cyanure responsable d'au moins sept morts.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:289123",
+      "type": "series",
+      "name": "Fred et Rose West : Un cauchemar britannique",
+      "poster": "https://image.tmdb.org/t/p/w500/hy0fYD6IaHBnGK1SNReUF0S0fCS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kXf0oLGrdKiAhoRJaABAAJiD5hy.jpg",
+      "description": "Des interrogatoires récemment trouvés et des témoignages de personnes concernées retracent l'histoire de Fred et Rose West, deux des tueurs les plus prolifiques du Royaume-Uni.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:286840",
+      "type": "series",
+      "name": "Le Casse de l'impossible",
+      "poster": "https://image.tmdb.org/t/p/w500/duQjtZie97SNV7xHXCa7guroI7d.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5nWLwHIX9nAgsreSY6MaAc39gm.jpg",
+      "description": "L'histoire sur un crime où la réalité dépasse la fiction au sujet de la tentative de vol d'une pierre précieuse, racontée par les gangsters eux-mêmes et la police à leurs trousses.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:285084",
+      "type": "series",
+      "name": "Disparues : Le tueur de Long Island",
+      "poster": "https://image.tmdb.org/t/p/w500/wKWAcHYcw9UCYtCBupnw53PTBg3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xM1ZNOa7NshPXcCPmy2R1Ui66Th.jpg",
+      "description": "La mystérieuse disparition de Shannan Gilbert en 2010 provoque une réaction en chaîne macabre dans cette série sur les meurtres qui ont eu lieu à Gilgo Beach. Une série sous haute tension sur des crimes réels retrace la traque du tueur de Long Island vue par ses victimes, leurs proches et la police.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:286269",
+      "type": "series",
+      "name": "Les démons d'Hollywood",
+      "poster": "https://image.tmdb.org/t/p/w500/5fN8BDNTzT0NVnxLt7M2MP8BjXf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yINZUBxBvXThLgv5rIzjvKWx1iD.jpg",
+      "description": "Six documentaires sur les scandales les plus sombres d'Hollywood avec des témoignages d'initiés, de collaborateurs de projets et de survivants qui ont enduré des abus et des luttes déchirantes",
+      "releaseInfo": "2025"
+    }
+  ]
+}

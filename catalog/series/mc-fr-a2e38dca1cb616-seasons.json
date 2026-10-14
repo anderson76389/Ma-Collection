@@ -1,0 +1,29 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:2394",
+      "type": "series",
+      "name": "This Old House",
+      "poster": "https://image.tmdb.org/t/p/w500/eKLaK1pivbX2z9aLev8IG2I9WG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zBTKswHgCoQ58SUreY1qh94fhFE.jpg",
+      "description": "Émission originale de rénovation domiciliaire de la télévision, après une rénovation complète de la maison sur plusieurs épisodes.",
+      "releaseInfo": "1979"
+    },
+    {
+      "id": "tmdb:6480",
+      "type": "series",
+      "name": "House Hunters",
+      "poster": "https://image.tmdb.org/t/p/w500/2WGhHei4SbocBacJ078mwzxOpLk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ao8nyHyawWnuwRXdAnGUXBsjHRm.jpg",
+      "releaseInfo": "1999"
+    },
+    {
+      "id": "tmdb:330805",
+      "type": "series",
+      "name": "George Clarke's Amazing Spaces: First Home",
+      "poster": "https://image.tmdb.org/t/p/w500/tcpNcRDc4vJdT6Yyems4hQPOz5G.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kfcJ3IgzLw5ATu5UMggmh0HqBcJ.jpg",
+      "releaseInfo": "2026"
+    }
+  ]
+}

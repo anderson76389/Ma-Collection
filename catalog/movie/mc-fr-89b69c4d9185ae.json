@@ -1,0 +1,175 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1422041",
+      "type": "movie",
+      "name": "La bola negra",
+      "poster": "https://image.tmdb.org/t/p/w500/ttsFxxHKwCHrtAGJt58rpNqHdFw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg",
+      "description": "Espagne 1932, 1937, 2017. Trois hommes. Trois époques. Un même fil invisible de désir, de douleur et d'héritage. LA BOLA NEGRA traverse le temps pour révéler ce qui les unit.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1558568",
+      "type": "movie",
+      "name": "L'Esprit d'équipe",
+      "poster": "https://image.tmdb.org/t/p/w500/xA2MZbFzIf0AvEXKml2FwiRkgtu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/24JmHBUaZVmZRoEMjzejLL3sJc5.jpg",
+      "description": "L'Esprit d'équipe relate l'histoire de Tío Mochales, une entreprise qui, il y a quelques années, régnait en souveraine incontestée du fromage espagnol. Aujourd'hui, ce n'est plus qu'une société un peu poussiéreuse qui tente de sauver les apparences. La dernière grande idée des dirigeants ? L'organisation d'une retraite rurale dans le village qui a vu naître la marque, afin de stimuler l'esprit d'équipe. Mais ce qui devait être une escapade pour renouer avec les \"valeurs traditionnelles\" devient un piège lorsque les participants découvrent que des licenciements sont à venir – et en grand nombre. Cette soi-disant parenthèse motivante se transforme alors rapidement en un vaste champ de bataille sur fond de flatteries, de trahisons et de fuites. Une comédie noire sur des bureaux délabrés, des cadres sans scrupules et des employés qui n'ont plus la patience nécessaire pour l'absurdité moderne des séminaires de team building.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1440098",
+      "type": "movie",
+      "name": "Attirés malgré nous",
+      "poster": "https://image.tmdb.org/t/p/w500/fWCEAgqwVgSqelrDS48F843ZHx7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/i65y7cMae36K0giN0GRaMjAHUru.jpg",
+      "description": "Marfil, fille d'un homme d'affaires espagnol, voit sa vie new-yorkaise basculer lorsqu'elle est enlevée puis mystérieusement relâchée. Son père engage un garde du corps, Sebastian Moore, et, contraints de passer tout leur temps ensemble, une attirance inévitable naît entre eux, dans un monde où les apparences sont trompeuses. Adapté du roman de Mercedes Ron, autrice de la saga À Contre-sens.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1744876",
+      "type": "movie",
+      "name": "Fito Páez: El mundo cabe en una canción",
+      "poster": "https://image.tmdb.org/t/p/w500/vG6rXAyLSu5MqIZG5jTjP6tpdbl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tThekN7w7Kyo41FGrrKYfC0ViVE.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1471168",
+      "type": "movie",
+      "name": "Barreda",
+      "poster": "https://image.tmdb.org/t/p/w500/a25CyXmPJx6SrVFA9yirJTL9iAH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4pXBWLKMew7Xmtq3OgMQxTHp060.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1187326",
+      "type": "movie",
+      "name": "‎Tad L'explorateur et la Lampe Magique",
+      "poster": "https://image.tmdb.org/t/p/w500/qCfO9njHx6TFOGXb4PdvLxRttLM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zbpimMxf6Ms96v3Zypuv8WltMSO.jpg",
+      "description": "Tad et Sara sont désormais les heureux parents d'Oli, une adorable et intrépide petite fille de deux ans. Le bonheur de la petite famille fait un peu de l'ombre à Momie, qui a l'impression de passer au second plan. Alors qu'en vacances à Londres, la bande met la main sur la lampe merveilleuse des Mille et Une Nuits, Momie formule un vœu inattendu : voyager dans le temps pour retourner à l'époque de sa jeunesse où tout le monde l'adorait.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1621552",
+      "type": "movie",
+      "name": "La captura",
+      "poster": "https://image.tmdb.org/t/p/w500/iwCeOpuBtuTP1kLosqgniey5OvX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/c4U96GrPRfnNrS01mBtqnocvlLJ.jpg",
+      "description": "Deux agents mexicains doivent survivre aux dernières heures de leur service après avoir froissé un chef de cartel dans ce drame policier inspiré de faits réels.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:772506",
+      "type": "movie",
+      "name": "Amor es amor",
+      "poster": "https://image.tmdb.org/t/p/w500/5ae4v1W4hyAclTJw97aIAmr6OAE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8fN4YSYUOAlYmUcqzGCuztaXms6.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1616131",
+      "type": "movie",
+      "name": "Un Enfant a Moi",
+      "poster": "https://image.tmdb.org/t/p/w500/AqFRon8p9ffsxD55tp6gKi24cMc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jJ3SrQoGsCa6xMfbfgB19OazGwX.jpg",
+      "description": "Désespérée d'avoir un enfant et accablée par les attentes de sa famille et de la société, une femme simule une grossesse et se retrouve mêlée à un crime.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1659155",
+      "type": "movie",
+      "name": "Leur vérité",
+      "poster": "https://image.tmdb.org/t/p/w500/4lbvwb2OGsfv3SNjLSDPZP4hNMY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2kQ71k6dq7DVNYuYY9ylNvRFKTv.jpg",
+      "description": "Ruth, 30 ans, en froid avec sa famille depuis des années, rentre chez elle après la mort suspecte de sa mère. Elle y retrouve son père, Martín (Jose Coronado), devenu grincheux, agressif et obsédé par une théorie du complot inquiétante depuis sa retraite. Leur relation est si tendue, et le comportement de son père est si instable, que Ruth en vient à soupçonner Martín d'être responsable de la mort de sa mère. Partage-t-elle le même toit qu'un meurtrier ?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1428226",
+      "type": "movie",
+      "name": "Hasta el Fin del Mundo",
+      "poster": "https://image.tmdb.org/t/p/w500/kwuQPxbJPfjU0TKXcVpdzJ0RvJ5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hmoNULa9OEIM5pCzXr1XnuTVgUT.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1721914",
+      "type": "movie",
+      "name": "Ni contigo ni sin mí",
+      "poster": "https://image.tmdb.org/t/p/w500/91rYGclLgeLQmEaMr81GmReJzUY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wxviAXjGNdIUOSlse4KvqbmwTmv.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1722713",
+      "type": "movie",
+      "name": "Miguel Ángel Blanco: Las 48 horas que lo cambiaron todo",
+      "poster": "https://image.tmdb.org/t/p/w500/7MCnV8wb1tODOrM8NmWAuPWm40Y.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6QdbhPXNVFJ3cVCCFscOulC3Bpa.jpg",
+      "description": "Ce documentaire explore comment l'enlèvement de Miguel Ángel Blanco en 1997 a transformé la peur en résistance collective et a façonné la lutte de l'Espagne contre le terrorisme de l'ETA.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1437703",
+      "type": "movie",
+      "name": "Moscas",
+      "poster": "https://image.tmdb.org/t/p/w500/zBwSaw3sEwqH9vSijiPbUdbHNQz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dlVvlYfvpD05KYbKFxEUvskvWWd.jpg",
+      "description": "Olga vit isolée dans un grand immeuble.\r Contrainte de louer une chambre, elle accueille un homme qui installe secrètement son fils de neuf ans. Cette cohabitation clandestine bouscule son quotidien rigide et réveille des émotions enfouies.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1274706",
+      "type": "movie",
+      "name": "L'Inconnue du port",
+      "poster": "https://image.tmdb.org/t/p/w500/vpcvFncVoRA48mtPXu94kdwRI0C.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2fgcRuaseQ9RIiTAUDbLtymnj2z.jpg",
+      "description": "Quand une femme retrouvée dans un conteneur se révèle amnésique, deux enquêteurs cherchent à découvrir son identité au plus vite, et à comprendre qui veut sa mort.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1497463",
+      "type": "movie",
+      "name": "Todo lo que nunca fuimos",
+      "poster": "https://image.tmdb.org/t/p/w500/zqxIT48mWFsC4NSjGEHAcp1pjEo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/liVDJBzSplrboMCykKydhaaR215.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1517123",
+      "type": "movie",
+      "name": "En el camino",
+      "poster": "https://image.tmdb.org/t/p/w500/7tBqPnIbdw9r5C8thiUGQokIbTF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hcPbtkReett3egrOnQRII2PqqvK.jpg",
+      "description": "Veneno, un jeune vagabond rebelle, fréquente les restaurants de bord de route où il couche avec des chauffeurs routiers. Ayant un besoin urgent d’un chauffeur, il rencontre Muñeco, un chauffeur très viril au caractère dur et réservé. Il convainc Muñeco de l’emmener dans le nord du Mexique, et pénètre alors au cœur de l’univers hyper-masculin du transport routier longue distance. Alors que leur intimité s’approfondit sur la route, les fantômes du passé les rattrapent à chaque relais routier, et le danger se rapproche.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1447879",
+      "type": "movie",
+      "name": "Mallorca confidencial",
+      "poster": "https://image.tmdb.org/t/p/w500/v2kPpCxw4Dr2CLsOt6Yco1mS4LY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3oLQ7vyfhvqANR51bnukJZG80TD.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1580803",
+      "type": "movie",
+      "name": "Susana y Elvira: Sin plan B",
+      "poster": "https://image.tmdb.org/t/p/w500/amqNq4a3cugpf48nfpZFJwnFzbb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sSwxsbLD5jpGadBi0pPMzm7rTNS.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1632812",
+      "type": "movie",
+      "name": "Nada entre los dos",
+      "poster": "https://image.tmdb.org/t/p/w500/6GZt6CfXJQgOFBA7ArLbOQYvXI8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mwfmOOWbchS1cY68zr5aFr21Hhx.jpg",
+      "releaseInfo": "2026"
+    }
+  ]
+}

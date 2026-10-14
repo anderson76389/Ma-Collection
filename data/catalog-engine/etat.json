@@ -1,0 +1,312 @@
+{
+  "schema": 1,
+  "semaine_utc": "2026-10-12",
+  "region": "FR",
+  "totaux": {
+    "sources_auditees": 377,
+    "sources_interrogees": 358,
+    "catalogues_publies": 460,
+    "catalogues_essentiels": 211,
+    "episodes": 68,
+    "saisons": 9,
+    "episodes_animes_et_telerrealite": 11,
+    "saisons_animes_et_telerrealite": 11,
+    "catalogues_services_fr_supplementaires": 15,
+    "tops_netflix_officiels": 0,
+    "erreurs": 0,
+    "fournisseurs_fr_films": 104,
+    "fournisseurs_fr_series": 87,
+    "appels_api": 572
+  },
+  "limitations": [
+    "TMDB/JustWatch : disponibilité déclarée, potentiellement différée.",
+    "Un nouveau titre dans l'échantillon ne prouve pas une mise en ligne récente.",
+    "Top 10 officiels et listes historiques inchangés.",
+    "Les chaînes indiquent des diffusions TV internationales, pas le replay français.",
+    "Les identifiants tmdb: demandent un fournisseur de métadonnées compatible dans Nuvio."
+  ],
+  "plateformes_sans_source_fr": [
+    {
+      "platforme": "Hulu",
+      "source": "New Movies",
+      "raison": "Aucun fournisseur confirmé pour la France"
+    },
+    {
+      "platforme": "Hulu",
+      "source": "New Series",
+      "raison": "Aucun fournisseur confirmé pour la France"
+    },
+    {
+      "platforme": "AMC+",
+      "source": "New Movies",
+      "raison": "Aucun fournisseur confirmé pour la France"
+    },
+    {
+      "platforme": "AMC+",
+      "source": "New Series",
+      "raison": "Aucun fournisseur confirmé pour la France"
+    },
+    {
+      "platforme": "Crave",
+      "source": "New Movies",
+      "raison": "Aucun fournisseur confirmé pour la France"
+    },
+    {
+      "platforme": "Crave",
+      "source": "New Series",
+      "raison": "Aucun fournisseur confirmé pour la France"
+    },
+    {
+      "platforme": "Criterion",
+      "source": "New Movies",
+      "raison": "Aucun fournisseur confirmé pour la France"
+    },
+    {
+      "platforme": "Discovery+",
+      "source": "New Movies",
+      "raison": "Aucun fournisseur confirmé pour la France"
+    },
+    {
+      "platforme": "Discovery+",
+      "source": "New Series",
+      "raison": "Aucun fournisseur confirmé pour la France"
+    },
+    {
+      "platforme": "MGM+",
+      "source": "New Movies",
+      "raison": "Aucun fournisseur confirmé pour la France"
+    },
+    {
+      "platforme": "MGM+",
+      "source": "New Series",
+      "raison": "Aucun fournisseur confirmé pour la France"
+    },
+    {
+      "platforme": "Peacock",
+      "source": "New Movies",
+      "raison": "Aucun fournisseur confirmé pour la France"
+    },
+    {
+      "platforme": "Peacock",
+      "source": "New Series",
+      "raison": "Aucun fournisseur confirmé pour la France"
+    },
+    {
+      "platforme": "Shudder",
+      "source": "New Movies",
+      "raison": "Aucun fournisseur confirmé pour la France"
+    },
+    {
+      "platforme": "Shudder",
+      "source": "New Series",
+      "raison": "Aucun fournisseur confirmé pour la France"
+    },
+    {
+      "platforme": "Starz",
+      "source": "New Movies",
+      "raison": "Aucun fournisseur confirmé pour la France"
+    },
+    {
+      "platforme": "Starz",
+      "source": "New Series",
+      "raison": "Aucun fournisseur confirmé pour la France"
+    },
+    {
+      "platforme": "Tubi TV",
+      "source": "New Movies",
+      "raison": "Aucun fournisseur confirmé pour la France"
+    },
+    {
+      "platforme": "Tubi TV",
+      "source": "New Series",
+      "raison": "Aucun fournisseur confirmé pour la France"
+    }
+  ],
+  "comparaisons_echantillons": [
+    {
+      "plateforme": "Netflix",
+      "type": "movie",
+      "taille_echantillon": 40,
+      "premiere_mesure": true,
+      "ajouts_reperes": 0,
+      "retraits_reperes": 0
+    },
+    {
+      "plateforme": "Netflix",
+      "type": "series",
+      "taille_echantillon": 40,
+      "premiere_mesure": true,
+      "ajouts_reperes": 0,
+      "retraits_reperes": 0
+    },
+    {
+      "plateforme": "Apple TV+",
+      "type": "movie",
+      "taille_echantillon": 40,
+      "premiere_mesure": true,
+      "ajouts_reperes": 0,
+      "retraits_reperes": 0
+    },
+    {
+      "plateforme": "Apple TV+",
+      "type": "series",
+      "taille_echantillon": 40,
+      "premiere_mesure": true,
+      "ajouts_reperes": 0,
+      "retraits_reperes": 0
+    },
+    {
+      "plateforme": "Prime Video",
+      "type": "movie",
+      "taille_echantillon": 40,
+      "premiere_mesure": true,
+      "ajouts_reperes": 0,
+      "retraits_reperes": 0
+    },
+    {
+      "plateforme": "Prime Video",
+      "type": "series",
+      "taille_echantillon": 40,
+      "premiere_mesure": true,
+      "ajouts_reperes": 0,
+      "retraits_reperes": 0
+    },
+    {
+      "plateforme": "Crunchyroll",
+      "type": "movie",
+      "taille_echantillon": 40,
+      "premiere_mesure": true,
+      "ajouts_reperes": 0,
+      "retraits_reperes": 0
+    },
+    {
+      "plateforme": "Crunchyroll",
+      "type": "series",
+      "taille_echantillon": 40,
+      "premiere_mesure": true,
+      "ajouts_reperes": 0,
+      "retraits_reperes": 0
+    },
+    {
+      "plateforme": "Curiosity Stream",
+      "type": "movie",
+      "taille_echantillon": 40,
+      "premiere_mesure": true,
+      "ajouts_reperes": 0,
+      "retraits_reperes": 0
+    },
+    {
+      "plateforme": "Curiosity Stream",
+      "type": "series",
+      "taille_echantillon": 40,
+      "premiere_mesure": true,
+      "ajouts_reperes": 0,
+      "retraits_reperes": 0
+    },
+    {
+      "plateforme": "Disney+",
+      "type": "movie",
+      "taille_echantillon": 40,
+      "premiere_mesure": true,
+      "ajouts_reperes": 0,
+      "retraits_reperes": 0
+    },
+    {
+      "plateforme": "Disney+",
+      "type": "series",
+      "taille_echantillon": 40,
+      "premiere_mesure": true,
+      "ajouts_reperes": 0,
+      "retraits_reperes": 0
+    },
+    {
+      "plateforme": "Hayu",
+      "type": "series",
+      "taille_echantillon": 40,
+      "premiere_mesure": true,
+      "ajouts_reperes": 0,
+      "retraits_reperes": 0
+    },
+    {
+      "plateforme": "HBO Max",
+      "type": "movie",
+      "taille_echantillon": 40,
+      "premiere_mesure": true,
+      "ajouts_reperes": 0,
+      "retraits_reperes": 0
+    },
+    {
+      "plateforme": "HBO Max",
+      "type": "series",
+      "taille_echantillon": 40,
+      "premiere_mesure": true,
+      "ajouts_reperes": 0,
+      "retraits_reperes": 0
+    },
+    {
+      "plateforme": "Magellan",
+      "type": "movie",
+      "taille_echantillon": 40,
+      "premiere_mesure": true,
+      "ajouts_reperes": 0,
+      "retraits_reperes": 0
+    },
+    {
+      "plateforme": "Magellan",
+      "type": "series",
+      "taille_echantillon": 40,
+      "premiere_mesure": true,
+      "ajouts_reperes": 0,
+      "retraits_reperes": 0
+    },
+    {
+      "plateforme": "Mubi",
+      "type": "movie",
+      "taille_echantillon": 40,
+      "premiere_mesure": true,
+      "ajouts_reperes": 0,
+      "retraits_reperes": 0
+    },
+    {
+      "plateforme": "Mubi",
+      "type": "series",
+      "taille_echantillon": 3,
+      "premiere_mesure": true,
+      "ajouts_reperes": 0,
+      "retraits_reperes": 0
+    },
+    {
+      "plateforme": "Paramount+",
+      "type": "movie",
+      "taille_echantillon": 40,
+      "premiere_mesure": true,
+      "ajouts_reperes": 0,
+      "retraits_reperes": 0
+    },
+    {
+      "plateforme": "Paramount+",
+      "type": "series",
+      "taille_echantillon": 40,
+      "premiere_mesure": true,
+      "ajouts_reperes": 0,
+      "retraits_reperes": 0
+    },
+    {
+      "plateforme": "Pluto TV",
+      "type": "movie",
+      "taille_echantillon": 40,
+      "premiere_mesure": true,
+      "ajouts_reperes": 0,
+      "retraits_reperes": 0
+    },
+    {
+      "plateforme": "Pluto TV",
+      "type": "series",
+      "taille_echantillon": 40,
+      "premiere_mesure": true,
+      "ajouts_reperes": 0,
+      "retraits_reperes": 0
+    }
+  ],
+  "erreurs": []
+}

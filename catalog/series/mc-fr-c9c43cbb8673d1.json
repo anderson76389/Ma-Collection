@@ -1,0 +1,156 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:213375",
+      "type": "series",
+      "name": "VisionQuest",
+      "poster": "https://image.tmdb.org/t/p/w500/bWPktguPGslrdM79SNQt4OWYyJS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uoXXbN2PrOxH6UKyP7kYwmGpAAP.jpg",
+      "description": "Une nouvelle version de Vision ayant échappé à ceux qui cherchaient à faire de lui une arme, vit dans la clandestinité. En quête d’un nouveau sens à sa vie, il consulte les IA intégrées à son programme, notamment Friday, Edith, Jarvis et le tristement célèbre Ultron. Son existence discrète prend fin lorsque sa tête est mise à prix, le contraignant à prendre la fuite avec Thomas Shepherd, un garçon mystérieux qui pourrait bien être la réincarnation du fils de Vision. Tout en échappant à ses poursuivants, Vision doit se confronter à sa propre nature, résister à l’influence d’Ultron et percer le mystère qui entoure son jeune compagnon s’il veut survivre.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:318918",
+      "type": "series",
+      "name": "LEGO One Piece",
+      "poster": "https://image.tmdb.org/t/p/w500/hTUHZ337JzqPvRXBQ3lu0GBkOvz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qA8U2ABepV5E2BcNIBcgUaFy4fM.jpg",
+      "description": "Les Chapeaux de paille lèvent l'ancre dans ce programme LEGO en deux parties ! Rejoignez Luffy, Nami, Usopp et l'équipage dans leur périple épique, réinventé brique par brique.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:95350",
+      "type": "series",
+      "name": "Lanterns",
+      "poster": "https://image.tmdb.org/t/p/w500/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6gqezQJ2mkm4jreWwLyOZy2Vf6i.jpg",
+      "description": "Deux flics intergalactiques, la nouvelle recrue John Stewart et le légendaire Hal Jordan, sont confrontés à un sombre mystère sur Terre alors qu’ils enquêtent sur un meurtre au fin fond de l’Amérique.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:220102",
+      "type": "series",
+      "name": "Spider-Noir",
+      "poster": "https://image.tmdb.org/t/p/w500/tCup7Z7ax4FQJUciHGHKXUqC8GT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/reAZlLG6YMkBuxPT1XKuCH97TM1.jpg",
+      "description": "Ben Reilly, détective privé, est engagé pour enquêter sur ce qui semble être de banales affaires... jusqu'à ce que des gangsters, des monstres et une mystérieuse femme fatale tissent une toile qui va le confronter à son ancienne vie de seul et unique super-héros de New York : L'Araignée.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:198178",
+      "type": "series",
+      "name": "Wonder Man",
+      "poster": "https://image.tmdb.org/t/p/w500/5uHI0TCde9YDGY7Fm54L3mBNILK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ldz9THIHaV4orMsUrPT1nlQF51T.jpg",
+      "description": "Jeune acteur ambitieux, Simon Williams peine à faire décoller sa carrière à Hollywood. En croisant par hasard Trevor Slattery, un autre acteur dont les heures de gloire sont bien loin, Simon découvre que le légendaire réalisateur Von Kovak va tourner le remake du film de superhéros “Wonder Man”. Ces deux acteurs, chacun à un tournant différent de sa carrière, vont tout faire pour décrocher des rôles dans ce film qui pourrait changer leur vie, tout en faisant découvrir aux téléspectateurs les coulisses de l’industrie du spectacle.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:273160",
+      "type": "series",
+      "name": "The Beauty",
+      "poster": "https://image.tmdb.org/t/p/w500/d2KSymSoJMxGpTgPGtYuKfaTD95.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cX6dzeKsBTTXHoG3uQUuhQbqyvq.jpg",
+      "description": "Drew Foster et Kara Vaughn enquêtent sur une MST qui provoque des effets esthétiques mais s'avère mortelle. Ils tentent d'échapper à des fonctionnaires corrompus et à un mercenaire qui les traquent dans le cadre d'une conspiration.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:305165",
+      "type": "series",
+      "name": "LEGO Marvel Avengers : Strange Tails",
+      "poster": "https://image.tmdb.org/t/p/w500/AkjaZgQWiXlLbgMR2ofT0b57VFh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3FaimokK7FaufDYGIGnOG6uyp3f.jpg",
+      "description": "Hawkeye et les Avengers doivent sauver le monde d'une influenceuse prête à provoquer un cataclysme !",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:225361",
+      "type": "series",
+      "name": "BAT-FAM",
+      "poster": "https://image.tmdb.org/t/p/w500/8C34YTylNBt4DWM1a9oAAXqmTSr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yZJ6ecQCRsXg3rx7hJbwYPHuzD3.jpg",
+      "description": "Dans cette comédie d'action animée de 22 minutes, Damian et Bruce Wayne, avec leur famille soudée de marginaux, surfent sur les défis de la vie quotidienne, tout en protégeant les rues de Gotham.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:227114",
+      "type": "series",
+      "name": "Butterfly",
+      "poster": "https://image.tmdb.org/t/p/w500/skZPAjqfy2tmBmqz324ezYIQXaC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kPOm8uBC7ajkjCWC0NM2lRbhRLs.jpg",
+      "description": "David Jung, un mystérieux ancien agent des services secrets américains vit caché en Corée du Sud. Un jour, il voit sa vie voler en éclats lorsque les conséquences d'une décision de son passé reviennent le hanter, et qu'il se retrouve traqué par Rebecca, une jeune assassin dangereuse, et Caddis, la sinistre organisation d'espionnage pour laquelle elle travaille.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:241388",
+      "type": "series",
+      "name": "Eyes of Wakanda",
+      "poster": "https://image.tmdb.org/t/p/w500/yuOfb1MgnaGPa4guzV0n1IFYVGN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cWO5NDkKqpOuwxu4vFc4PtL8aNF.jpg",
+      "description": "À travers l'histoire du Wakanda, des braves guerriers ont été obligé de traverser le monde afin de retrouver de dangereux artefacts de vibranium. Voici leur histoire.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:114471",
+      "type": "series",
+      "name": "Ironheart",
+      "poster": "https://image.tmdb.org/t/p/w500/dtpiECNwAeLnGJSU3HTWhcQGHk1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vno2LrEQr3lTOk3U1G1ihZsy64b.jpg",
+      "description": "Lorsque Riri Williams, une jeune inventrice de génie déterminée à marquer le monde de son empreinte, revient dans sa ville natale de Chicago. Son projet, construire des Iron armures, est unique et brillant, mais alors qu'elle poursuit ses ambitions, elle se retrouve confrontée au mystérieux et charmant Parker Robbins, alias « The Hood ».",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:254013",
+      "type": "series",
+      "name": "Revival",
+      "poster": "https://image.tmdb.org/t/p/w500/xf2u02mLodDN2ujMSfLFDkPVFac.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8sr3u0ozv4X5eQ5frMG6Y8g5gRJ.jpg",
+      "description": "Un jour miraculeux, dans une petite ville rurale du Wisconsin, les morts sortent soudain de leurs tombes. Mais ce n’est pas une histoire de zombies : les revenants sont exactement comme avant, en chair, en os… et apparemment bien vivants. Quand Dana Cypress, flic locale et mère célibataire, se retrouve plongée au cœur d’un meurtre aussi violent qu’inexplicable, elle doit démêler les fils d’une affaire qui plonge la ville dans la peur et la paranoïa. Car désormais, qu’on soit mort ou vivant, tout le monde est suspect.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:255779",
+      "type": "series",
+      "name": "Bet",
+      "poster": "https://image.tmdb.org/t/p/w500/e3ENTAEDEO949khpVkJWgcWnwGG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vx4UhH0RKQOG5etc2qVikStLFqG.jpg",
+      "description": "Dans une école privée où les jeux d'argent décident du statut social des lycéens, une nouvelle élève douée au passé mystérieux change la donne… et mise sur la vengeance.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:205796",
+      "type": "series",
+      "name": "Iyanu",
+      "poster": "https://image.tmdb.org/t/p/w500/tiiEuCEaxE5FfkB3Dt42BWhodak.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/md26ku87r97Vypjz2t7WowLyZpA.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:202555",
+      "type": "series",
+      "name": "Daredevil : Born Again",
+      "poster": "https://image.tmdb.org/t/p/w500/7UMmvMvhSw1jBgdz0NzLo9pa93g.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qrTAc0ZtQ859Qu5O8cixJzNJpQs.jpg",
+      "description": "Matt Murdock, un avocat aveugle aux capacités accrues, se bat pour la justice dans son dynamique cabinet d'avocats, tandis que l'ancien chef de la mafia Wilson Fisk poursuit ses propres projets politiques à New York. Lorsque leurs anciennes identités se révèlent, les deux hommes se retrouvent sur une inévitable trajectoire de collision.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:138503",
+      "type": "series",
+      "name": "Votre fidèle serviteur Spider-Man",
+      "poster": "https://image.tmdb.org/t/p/w500/kOG8tnJBCyKGsP5QLx0KC1WHDFz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kkT2B2gmynoh9kZMo1gromLNeqy.jpg",
+      "description": "Peter Parker est en passe de devenir un héros, mais le chemin pour y parvenir n'a rien d'ordinaire.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:219543",
+      "type": "series",
+      "name": "Creature Commandos",
+      "poster": "https://image.tmdb.org/t/p/w500/bB3G6Ug1jfsOUptb0RJsqrgMVta.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/y8T8BhptuHFPR0hCGcUSMyUfUfm.jpg",
+      "description": "Une équipe secrète de monstres incarcérés est le dernier recours pour les missions jugées trop dangereuses pour les humains.",
+      "releaseInfo": "2024"
+    }
+  ]
+}

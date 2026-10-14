@@ -1,0 +1,22 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:99353",
+      "type": "series",
+      "name": "Love Is Blind",
+      "poster": "https://image.tmdb.org/t/p/w500/8XhV6ke8ltRYoG4SYmibF2bGwrC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5sZyCtojLzqYAsz0qH9QMllu55I.jpg",
+      "description": "Dans cette expérience sociale présentée par Nick et Vanessa Lachey, des hommes et des femmes célibataires en quête d'amour se fiancent avant de se rencontrer en personne.",
+      "releaseInfo": "2020"
+    },
+    {
+      "id": "tmdb:94785",
+      "type": "series",
+      "name": "Ready to Love",
+      "poster": "https://image.tmdb.org/t/p/w500/khjhqepEG8XUSkzn4FGHWbcrS5k.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dixqQc79A77D65i8Wz7c9oeLzLD.jpg",
+      "description": "Une série de rencontres explorant les interactions de rencontres réelles d'hommes et de femmes noirs sexy, prospères et adultes dans la trentaine et la quarantaine qui recherchent chacun un amour durable et une relation authentique. Une tournure unique sur une émission de rencontres typique, Ready to Love met en lumière les observations et les expériences des hommes dans la recherche du véritable amour à Atlanta.",
+      "releaseInfo": "2018"
+    }
+  ]
+}

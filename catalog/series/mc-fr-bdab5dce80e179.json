@@ -1,0 +1,173 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:220150",
+      "type": "series",
+      "name": "Pokémon : Les horizons",
+      "poster": "https://image.tmdb.org/t/p/w500/wuegnXaSNR8VSoATc5bXQjyoUIj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/d0axpGojOqDag5lDa0eNSEtw11l.jpg",
+      "description": "Suivez Liko et Rhod dans leur découverte des mystères qui les entourent, et rencontrez Friede, Capitaine Pikachu, Amethio ainsi que d’autres personnages lors de leurs aventures passionnantes !",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:96386",
+      "type": "series",
+      "name": "乃木坂工事中",
+      "poster": "https://image.tmdb.org/t/p/w500/wjfGdo9BoKeakiSxdKdiPZxv1jA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wyJb8zU523NSYKY6RJsb6q5CywM.jpg",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:73223",
+      "type": "series",
+      "name": "Black Clover",
+      "poster": "https://image.tmdb.org/t/p/w500/zObHoFAX6P7DirR2dybN3cVC1Ms.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qu9epTZh29fGUkY7ZYc9PVsv0Ig.jpg",
+      "description": "Dans un monde régi par la magie, Yuno et Asta ont grandi ensemble avec un seul but en tête : devenir le prochain Empereur-Mage du royaume de Clover. Mais si le premier est naturellement doué, le deuxième, quant à lui, ne sait pas manipuler la magie. C'est ainsi que lors de la cérémonie d'attribution de leur grimoire, Yuno reçoit le légendaire grimoire au trèfle à quatre feuilles tandis qu'Asta, lui, repart bredouille. Or, plus tard, un ancien et mystérieux ouvrage noir décoré d'un trèfle à cinq feuilles surgit devant lui ! Un grimoire d’anti-magie…",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:60761",
+      "type": "series",
+      "name": "Ace of Diamond",
+      "poster": "https://image.tmdb.org/t/p/w500/1OQsld0DmtCNKIoExKE5zjxX3cP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wq5ZykCAFrboIpz36O8pbrJG2dF.jpg",
+      "description": "L'équipe de baseball du collège Takagi termine sa saison sans une seule victoire. Son lanceur, Eijun Sawamura, a à coeur de prendre sa revanche avec ses coéquipiers, une fois au lycée.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tmdb:226688",
+      "type": "series",
+      "name": "BEYBLADE X",
+      "poster": "https://image.tmdb.org/t/p/w500/66wkm14IWdrY5LaKZDAbkD2T9Jt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qAq9RBeHZoTMDFqQZ2o4cE5CJIQ.jpg",
+      "description": "Robin Kazami, blader débutant, s'associe à l'influenceuse Multi Nana-iro et à l'ancien champion Jaxon Cross pour former ce trio improbable, prêt à gravir les échelons du classement The X et à remporter le titre de champion blader !",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:99748",
+      "type": "series",
+      "name": "日向坂で会いましょう",
+      "poster": "https://image.tmdb.org/t/p/w500/10JBHKcQkhO9upveCfrClhMEbeF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uSr2zmE9sMDiiLurYgpsPQcpQCS.jpg",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:313346",
+      "type": "series",
+      "name": "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life",
+      "poster": "https://image.tmdb.org/t/p/w500/d2twigOlajyMBmqjZY0z0XCBwGC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/msusxF6ZPGnQmTGXU9iC4UJOohs.jpg",
+      "description": "Rein l'Enchanteur est un mage capable d'améliorer les armes et les armures. Mais lorsqu'il se fait renvoyer de sa guilde pour la simple raison qu'il a déjà enchanté tout ce qu'elle possède, il décide de reprendre tous les sorts qu’il a transmis à ses ex-compagnons et les affecte à son propre équipement. En chemin, Rein rassemble une bande de parias comme lui et, ensemble, ils explorent le monde.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:56559",
+      "type": "series",
+      "name": "Yamishibai - Histoire de fantômes japonais",
+      "poster": "https://image.tmdb.org/t/p/w500/yxntqVbdREPzIKQm3q3upgzGeqg.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gtwdI7qHNrrLe5R7nWnoDgrbEbV.jpg",
+      "description": "Cette série d'horreur est basée sur le folklore, les mythes japonais et les légendes urbaines. Elle est mise en scène à la manière du kamishibai, une façon dont les conteurs traditionnels japonais illustraient leur récit à l'aide d'un théâtre de papier. Nous suivons ici un vieil homme qui raconte aux jeunes enfants des histoires souvent terrifiantes…",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tmdb:221725",
+      "type": "series",
+      "name": "ちびゴジラの逆襲",
+      "poster": "https://image.tmdb.org/t/p/w500/be7uDWl2vWMX5OeAA8S6FNCT5Ei.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hOhHzMu6R1sVs80gLfaMSJ8jGgg.jpg",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:207553",
+      "type": "series",
+      "name": "そこ曲がったら、櫻坂？",
+      "poster": "https://image.tmdb.org/t/p/w500/7S5jOnC05iezRKSaevmSYitkaKN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/k2R3VPIcmxBkGZR4b2ECmwCNtzP.jpg",
+      "releaseInfo": "2020"
+    },
+    {
+      "id": "tmdb:205493",
+      "type": "series",
+      "name": "The Prince of Tennis II: U-17 World Cup",
+      "poster": "https://image.tmdb.org/t/p/w500/etVlxcNUsJLE4qhJON3VwZSzwFW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/x3kTIGpx66VUTlUsPASyfjAlp98.jpg",
+      "description": "Lorsque le prodige du tennis, Ryoma Echizen, est expulsé du camp d'entraînement de l'élite des moins de 17 ans du Japon pour avoir enfreint les règles, il est désemparé. Mais la chance lui sourit quand il apprend qu’il peut tenter sa chance dans l'équipe américaine. Faire ses preuves face à leurs vétérans endurcis ne sera pas facile et, s'il est accepté, il devra jouer contre ses anciens amis. Pourra-t-il aider ses nouveaux équipiers à se frayer un chemin vers la victoire ?",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:202396",
+      "type": "series",
+      "name": "Evening Drink Style",
+      "poster": "https://image.tmdb.org/t/p/w500/nNS1j8CEeHMcbmCpBwnEcWjFOrY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kw27dh1b0jtqLTsMrMoLAxm8Tsf.jpg",
+      "description": "Izawa Miyuki est une agente immobilière aussi consciencieuse qu’efficace. Si ses collègues la considèrent comme une employée modèle, ils ignorent qu’une fois sa journée terminée, elle s’adonne à son rituel favori : déguster un bon repas accompagné d’un verre soigneusement choisi.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:276288",
+      "type": "series",
+      "name": "HOTEL INHUMANS",
+      "poster": "https://image.tmdb.org/t/p/w500/6ZHkFKJekNYADTByu3QI7vJaUbC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1Ik6i72QjVRNQ3N475uxiFxRrv9.jpg",
+      "description": "Les meilleurs hôtels doivent répondre à un certain standing, notamment une cuisine raffinée, un confort irréprochable et des divertissements variés. Bien sûr, ils doivent aussi disposer des dernières armes de pointe, offrir de fausses identités et faciliter l’élimination de preuves. Dans cet hôtel aux frontières de la mort se trouvent deux concierges, Ikuro Hoshi et Sara Haizaki. Ils sont toujours aux petits soins pour leurs clients assassins.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:196267",
+      "type": "series",
+      "name": "ポケモンとどこいく！？",
+      "poster": "https://image.tmdb.org/t/p/w500/v21T8T1xmoXjfywqwZg4v3UMSWY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bnrqbZ3YNphDO748D8P8TKqCLEj.jpg",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:337277",
+      "type": "series",
+      "name": "魔法少女育成計画restart",
+      "poster": "https://image.tmdb.org/t/p/w500/s7WJ5gQSLwk5vVxwhzJDx94mMf6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/a5ibYt8Ri2w74TR99lbP2aHyFMY.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:308977",
+      "type": "series",
+      "name": "Sergent Keroro",
+      "poster": "https://image.tmdb.org/t/p/w500/9ifgbxI7iCw6BhNx1IihJzoYb7c.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mQlOb7VMaJjt8iU8tEABIZ6Rp4d.jpg",
+      "description": "Le sergent Keroro est une grenouille extraterrestre, chef d’un peloton de guerriers envoyés pour conquérir la Terre. Mais lorsque ces envahisseurs amphibiens ont découvert que les humains aimaient disséquer leurs camarades, ils sont repartis aussitôt et Keroro a été abandonné. Ce soldat autrefois si fier a dû s'adapter à la vie au Japon, mais il n'a pas renoncé à rassembler ses troupes.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:308216",
+      "type": "series",
+      "name": "ウルトラマンテオ",
+      "poster": "https://image.tmdb.org/t/p/w500/hopGvshpcVNJLok4PEiwmigbkav.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r1AdjOSOUBZiy9GWABVvvZHNOGY.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:312123",
+      "type": "series",
+      "name": "おねがいアイプリ",
+      "poster": "https://image.tmdb.org/t/p/w500/jLmoLyNogj8EoZoX263391UYHS.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:111353",
+      "type": "series",
+      "name": "出没！アド街ック天国",
+      "poster": "https://image.tmdb.org/t/p/w500/mVngZvBI6Z3Zw5HauBXmxFzwuKz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pzPzQrxjv2nGUlJayvW8dFe2x83.jpg",
+      "releaseInfo": "1995"
+    },
+    {
+      "id": "tmdb:332635",
+      "type": "series",
+      "name": "赤灯えれじい",
+      "poster": "https://image.tmdb.org/t/p/w500/aPmUvJi2OJNJy632zohALjB2gui.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hcbJIOv31UPuHlJjcVN5RwP9ZXZ.jpg",
+      "releaseInfo": "2026"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:323185",
+      "type": "series",
+      "name": "The Killer Among Us",
+      "poster": "https://image.tmdb.org/t/p/w500/yXrVHyKxHw2Z8L3NuknOB7CdTYo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zkEquVhqotpPPwaAL0KXSTxeAmA.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:303715",
+      "type": "series",
+      "name": "Killer Grannies",
+      "poster": "https://image.tmdb.org/t/p/w500/jOJC7RP0MMx6ZfDKwimH87W7sKA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hDCblIiT4olCMcGlIGV0zrwGPaM.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:300719",
+      "type": "series",
+      "name": "The Death Investigator with Barbara Butcher",
+      "poster": "https://image.tmdb.org/t/p/w500/mb66AHKemKoWPXnmbuC3cDoIo3K.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zmAYc1MHwVctT9PRHfnYPcCGo50.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:298756",
+      "type": "series",
+      "name": "Death Row Confidential: Secrets of a Serial Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/mXWZaQQRaN3NS1VDEVRtEIUvzw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yDSk6umQhAshVOflwG2s1UxmNjh.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:290760",
+      "type": "series",
+      "name": "Unknown Serial Killers of America",
+      "poster": "https://image.tmdb.org/t/p/w500/zwpNf6VZIg4IQvKtWBuRG8y24Ut.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/c5wwZBC2untOgt2M7z3yCRZ7t4s.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:277704",
+      "type": "series",
+      "name": "La dame des dunes - Meurtre à Cap Code",
+      "poster": "https://image.tmdb.org/t/p/w500/bDLi3RA443l2vCj1FMP13wftEAm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/l5s5PtFQMCNIgdIU8RgyhnsorpZ.jpg",
+      "description": "En 1974, le corps d'une femme était retrouvé dans les dunes de Provincetown, dans le Massachusetts. Pendant 50 ans, son identité et celle de son meurtrier sont restées inconnues, mais l'acharnement d'un enquêteur a permis de lever le voile sur l'identité de la victime et de démasquer son meurtrier.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:273442",
+      "type": "series",
+      "name": "A Plan to Kill",
+      "poster": "https://image.tmdb.org/t/p/w500/6yaneGhEixPvUsXRLEw4PcRUIt9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qDApotezWvkTivZF5M23hu8kAkL.jpg",
+      "description": "Une série documentaire qui explore l'histoire de tueurs sadiques et méticuleux planifiant les meurtres de leurs victimes pendant des semaines, des mois, voire des années. Chaque épisode, indépendant des autres, prend vie grâce à une série d'entretiens de première main avec les enquêteurs et les proches de la victime. Pendant une heure, nous suivrons les détectives au fil d'une enquête complexe.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:273939",
+      "type": "series",
+      "name": "Philly Homicide",
+      "poster": "https://image.tmdb.org/t/p/w500/8bHGOWB6gHFgSJXzOsUz73O5stQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/TN0wYj1EXeL6lSOE6aNrTkrWBD.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:272703",
+      "type": "series",
+      "name": "Serial Killer Capital - Los Angeles",
+      "poster": "https://image.tmdb.org/t/p/w500/cAPmPJLr6KHtrHQNxORolU7Thmq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9PW6ir8couLhAJwkVAIN6nQrrW2.jpg",
+      "description": "Serial Killer Capital : Los Angeles explore le règne du Southside Slayer et la vérité terrifiante : le Southside Slayer n'était pas un seul homme, mais quatre tueurs en série distincts opérant simultanément, de 1984 à 2007, et au même endroit.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:262080",
+      "type": "series",
+      "name": "La fille sur la brique de lait",
+      "poster": "https://image.tmdb.org/t/p/w500/eOWSA1bFkbmfrs1wy8EspzWiul4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uPtx338eutj62MKdemAQsxc8zQY.jpg",
+      "description": "En décembre 1984, Jonelle Matthews, 12 ans, a disparu à Greeley, dans le Colorado. Afin de faciliter les recherches, sa photo a été imprimée sur des boîtes de lait en carton.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:255823",
+      "type": "series",
+      "name": "Deadly Waters with Captain Lee",
+      "poster": "https://image.tmdb.org/t/p/w500/AKfI8LvKe1jT3qF07G6cCg2mHT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kYW2OhBkr0YygQkul9kF8sVVDRs.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:254006",
+      "type": "series",
+      "name": "Sins of the South",
+      "poster": "https://image.tmdb.org/t/p/w500/rlYiZ1ZmWh91gqjd9y3z8StJLlw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uukY7vGDRPVO5u201BW5rXFH4gy.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:247092",
+      "type": "series",
+      "name": "Kill or Be Killed",
+      "poster": "https://image.tmdb.org/t/p/w500/9k8Jr67SMLlGyUcqZCuyy6CPGL7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/a0XHDSttmQldXVX8YEoMFXLZJdG.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:244001",
+      "type": "series",
+      "name": "Sin City Murders",
+      "poster": "https://image.tmdb.org/t/p/w500/koCiXvNWlFaKsNx0boYY0xB4h5T.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pA1IFxrMKlBUaxH5nc8R5yebHvh.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:245525",
+      "type": "series",
+      "name": "Selena & Yolanda: The Secrets Between Them",
+      "poster": "https://image.tmdb.org/t/p/w500/ymVQUyDsCj76oyVU1a1vIXjDjKE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tkFw5RJurOF59p8kfjBibB43Awc.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:240419",
+      "type": "series",
+      "name": "Fatal Family Feuds",
+      "poster": "https://image.tmdb.org/t/p/w500/7tWyYCTUipH9KkEeW7v4OZES6Pk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kpMYpK0xqASVcX2D0Es5YL6ITml.jpg",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:240340",
+      "type": "series",
+      "name": "Le massacre de Pike County",
+      "poster": "https://image.tmdb.org/t/p/w500/al9AuLks9yJ8IAAoW404zvgFiqH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pguOilqt4AO1zvvAP0VCZ00WFe9.jpg",
+      "description": "Au cours de la nuit du 21 au 22 avril 2016, dans l'Ohio, huit personnes appartenant à la même famille sont abattues. Les enquêteurs ne disposent ni d'ADN ni de témoin.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:239961",
+      "type": "series",
+      "name": "Prosecuting Evil with Kelly Siegler",
+      "poster": "https://image.tmdb.org/t/p/w500/6Ynm3olj7K06IodwabFMgK6BtCN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eo9OwD0QOmVV94qiwM5cyCZ3ODr.jpg",
+      "releaseInfo": "2023"
+    }
+  ]
+}

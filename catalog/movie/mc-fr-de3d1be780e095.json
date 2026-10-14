@@ -1,0 +1,184 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1458857",
+      "type": "movie",
+      "name": "À vie",
+      "poster": "https://image.tmdb.org/t/p/w500/c3O1ApzLnQ1jUXA60kXDraiPPIv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nDScZ6YR2nfNCeK5bmJ1ujb355b.jpg",
+      "description": "Quand Anika, une jeune mère célibataire qui se bat pour préserver l'unité de sa famille, commence à échanger des lettres avec un détenu, Carousel, une relation improbable se noue à distance et prend bientôt une tournure inattendue. Naît alors une puissante histoire d'amour et de rédemption, portée par l'espoir de pouvoir un jour échapper au poids du passé. Car même les relations les plus inconcevables peuvent changer des vies et offrir une seconde chance d'être heureux.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1032863",
+      "type": "movie",
+      "name": "The Love Hypothesis",
+      "poster": "https://image.tmdb.org/t/p/w500/6hfjkMZIsAOVdNC4NAAmCYthC7r.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/o7Oy9Gbx1CCyaweL8xUhtMW4Puq.jpg",
+      "description": "Tiré du best-seller cité par le New York Times, The Love Hypothesis suit Olive (Lili Reinhart), une doctorante qui embrasse sur un coup de tête Adam Carlsen (Tom Bateman), le professeur le plus intimidant de son département à la fac. Leur besoin mutuel d'une fausse relation se transforme en une expérience de chimie capable, contre toute attente, de résoudre l'équation de l'amour.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1302904",
+      "type": "movie",
+      "name": "Les Ensorceleuses 2",
+      "poster": "https://image.tmdb.org/t/p/w500/qU6bErj56ebypPwA7zaiTfKzemA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oIglj0Jy9duG4LnrRUpH8n001Pk.jpg",
+      "description": "Une famille de sorcières multigénérationnelle, maudite à être sans amour pendant des siècles, tente de briser le sort en affrontant de sombres secrets et en se sacrifiant les uns pour les autres.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1516698",
+      "type": "movie",
+      "name": "The Last Sunrise",
+      "poster": "https://image.tmdb.org/t/p/w500/myJdCnJEsFsMmjKhKopQ32lkcP3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zFCWfU2ViMIm38G1W8UsnSpqmWn.jpg",
+      "description": "L'histoire de Ry, une étudiante atteinte d'une maladie chronique qui passe l'été à Majorque avec sa mère. Alors qu'elle tombe amoureuse de Julián et commence à profiter du moment présent, l'aggravation de son état de santé et des secrets de famille menacent de tout gâcher avant la fin de l'été.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1433367",
+      "type": "movie",
+      "name": "Juste pour une Nuit",
+      "poster": "https://image.tmdb.org/t/p/w500/9ix7kr4DTKSmnBmvugvkRQJb1KO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3afHil7EVm655wO2NS6RHxuyicE.jpg",
+      "description": "Quand Owen, qui vient de se faire larguer, rencontre Allie, qui croit encore au grand amour, l'étincelle est immédiate. Cependant, une série de maladresses et de mésaventures séparent les deux seuls célibataires de la ville qui espèrent plus qu'une aventure. À force de courir et se croiser sans jamais se trouver, ils pourraient bien réaliser que ce qu'ils cherchent est plus près qu'ils ne l'imaginaient.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1240889",
+      "type": "movie",
+      "name": "Teenage Sex and Death at Camp Miasma",
+      "poster": "https://image.tmdb.org/t/p/w500/a5JvHUONtF8RyLL6M5nTlqqMJVE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/d1n2ySWSanU34eEsluRjfrjRq52.jpg",
+      "description": "Un cinéaste queer est embauché pour diriger un nouvel épisode d'une franchise Slasher de longue date. Le réalisateur se fixe sur la perspective de lancer la «dernière fille» du film original, et les deux femmes entrent dans une frénésie de manie psychosexuelle.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1468683",
+      "type": "movie",
+      "name": "Heartstopper Forever",
+      "poster": "https://image.tmdb.org/t/p/w500/r4lVJVO1BeBb11cBcXBdbHc9e9k.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wG6yUcgv4xaj64KX7SSPEwBGXW0.jpg",
+      "description": "C'est la rentrée pour la bande de Truham-Higgs. Alors que la relation entre Nick et Charlie évolue, l'heure est venue de penser à ce qui les attend après le lycée.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:950028",
+      "type": "movie",
+      "name": "L'Invitation",
+      "poster": "https://image.tmdb.org/t/p/w500/vpMsWT25ITYeYLiUb2HFU9rfzy4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg",
+      "description": "Le mariage de Joe et Angela ne tient plus qu’à un fil. Lorsqu’ils invitent leurs énigmatiques voisins à souper, la soirée prend une tournure inattendue. Est-ce que ce sera l’étincelle qui ravivera la flamme de leur couple, ou le feu qui le réduira en cendres?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:614945",
+      "type": "movie",
+      "name": "Si tu m'écoutes",
+      "poster": "https://image.tmdb.org/t/p/w500/gqnv5448y3R5KAelvhapSKtiU5z.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2WU6Y6aonzD6uAaCmNnEFlesxxJ.jpg",
+      "description": "Les confessions hilarantes qu'une jeune femme croit envoyer par message vocal à sa sœur décédée finissent sur le répondeur d'un inconnu, qui tombe sous le charme à distance.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1397485",
+      "type": "movie",
+      "name": "Girls Like Girls",
+      "poster": "https://image.tmdb.org/t/p/w500/gbP30EOIwUW0HZY9BwQMTRrk8uX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hSdK33Mjsdfb8TpoUTI3A3OE3RO.jpg",
+      "description": "Coley, une jeune fille de 17 ans originaire de la campagne de l'Oregon, explore son intimité après le décès de sa mère. Rencontrer Sonya éveille de nouveaux sentiments, mais les doutes sur elle-même les empêchent de se connecter.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1564614",
+      "type": "movie",
+      "name": "Leviticus",
+      "poster": "https://image.tmdb.org/t/p/w500/l4wKajF6yWUcCiZaZ7qzMPlBmU2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7y8zWGEjs7tresw4Hzkkf4TdkcL.jpg",
+      "description": "Deux adolescents maudits par les étoiles doivent échapper à une entité violente qui prend la forme de la personne qu’ils désirent le plus — l’un l’autre.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1477317",
+      "type": "movie",
+      "name": "À contre-sens 2 : Londres",
+      "poster": "https://image.tmdb.org/t/p/w500/gWVO8FmD9onEYYsZU1LMJgRNTbm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wQOhbCP6H8bO5ddlXDZT207orew.jpg",
+      "description": "L'amour entre Nick et Noah est soumis à rude épreuve quand Noah part à l'université d'Oxford tandis que Nick reste à Londres pour travailler dans l'entreprise de son père. Loin l'un de l'autre, ils sont confrontés à des pressions croissantes. La jalousie, l'ambition et d'autres forces cherchent à les séparer. Ils risqueront tout pour prouver que leur relation peut survivre envers et contre tout.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1329471",
+      "type": "movie",
+      "name": "Carolina Caroline",
+      "poster": "https://image.tmdb.org/t/p/w500/9Jkylw7Y5NQyi7C8IwXLBvVSrH2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5dE3rixgMUTXOQLuO3zya4zSFav.jpg",
+      "description": "Dans sa petite ville tranquille du Texas, Caroline rencontre Oliver, un escroc charismatique, et se laisse rapidement envoûter par lui et ses combines. Ensemble, ils prennent la fuite et, au cours de leur périple fougueux et romantique à travers le Sud, ils sèment la pagaille, le crime et la passion sur leur passage, à la recherche de la mère de Caroline, dont elle est séparée. Mais lorsque de petits larcins se transforment en braquages ​​de plus en plus audacieux, le duo devient un « Bonnie et Clyde » des temps modernes et doit user de tous les stratagèmes pour échapper à la police.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1358005",
+      "type": "movie",
+      "name": "Office Romance",
+      "poster": "https://image.tmdb.org/t/p/w500/lHHZ0EiJZeFcNu1vjSxMdoCCMrU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1N5yz1IDw6Ci8le1YgeM6xtBijA.jpg",
+      "description": "Jackie, présidente-directrice générale d'Air Cruz, dirige son entreprise d'une main de fer, notamment en appliquant une politique stricte interdisant toute relation entre collègues. Lorsqu'une nouvelle avocate séduisante vient travailler pour elle, cette politique est mise à rude épreuve.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1339588",
+      "type": "movie",
+      "name": "À la recherche d'Emily",
+      "poster": "https://image.tmdb.org/t/p/w500/egPElljJxenQYhWxm3Fx0e3o4hR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7Ja28gO6OwncmCA94q2qPyeRrsA.jpg",
+      "description": "Alors que la fille de ses rêves lui a donné un faux numéro, un musicien fou amoureux s'allie à une étudiante en psychologie en difficulté pour la retrouver. Ensemble, ils vont semer le chaos sur un campus et déclencher une crise qui mettra à l'épreuve leurs principes et leurs ambitions.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1455079",
+      "type": "movie",
+      "name": "Toi, Moi et la Toscane",
+      "poster": "https://image.tmdb.org/t/p/w500/bhtutm5FfZNB8opuO9ttF7ueekn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2TWIlmhE06ghspeQLEX1VmnEBiE.jpg",
+      "description": "L'histoire se déroule en Italie et raconte l'aventure d'une jeune cuisinière qui se retrouve prise dans une histoire enflammée après avoir décidé sur un coup de tête de dormir dans la villa toscane d'un homme qu'elle vient de rencontrer pour une nuit.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1325734",
+      "type": "movie",
+      "name": "The Drama",
+      "poster": "https://image.tmdb.org/t/p/w500/37r0FZuv9OAQgMApDoJ8gvd5LWs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1oKLEA9JOhvaBwLpqjROisvWMy7.jpg",
+      "description": "Un couple comblé voit son bonheur mis à l’épreuve lorsqu’un rebondissement inattendu vient tout bouleverser à une semaine de son mariage.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1367642",
+      "type": "movie",
+      "name": "Reminders of Him",
+      "poster": "https://image.tmdb.org/t/p/w500/od9yzZ6cc3ZGSvJI2mTxcsyI48M.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5rxEnsgriw8z065q51lrvPKYmCL.jpg",
+      "description": "Après une sortie parfaite avec son petit ami, Kenna commet une erreur irréparable qui la conduit en prison pour sept ans. Espérant reconstruire sa vie après sa libération, elle tente de retrouver sa fille, mais ses grands-parents, qui en ont la garde, refusent de la laisser la voir. Elle trouve bientôt une compassion inattendue auprès du propriétaire d'un bar local, et leur romance secrète donne à Kenna l'espoir d'une seconde chance.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1515615",
+      "type": "movie",
+      "name": "More Than a Kiss",
+      "poster": "https://image.tmdb.org/t/p/w500/qmLFYcm6MFp02IIF5Qn6FuoPnKd.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7yuHdP85F2ZxhKbSoPgCBT9uJT3.jpg",
+      "description": "Sean, élève brillant visant le MIT, accepte d'aider Flora, une adolescente populaire mais peu investie dans ses études, à améliorer ses résultats scolaires. Ce qui commence comme un simple accord se transforme peu à peu en une histoire d'amour qui remet en question leurs projets et leurs certitudes.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1429605",
+      "type": "movie",
+      "name": "F- la Saint-Valentin",
+      "poster": "https://image.tmdb.org/t/p/w500/56v1Ipm54DdEEuo9SIxaIpdcLEP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rQXIm9oICpHCBpuHSJ3SwthBQYc.jpg",
+      "description": "Gina déteste son anniversaire qui tombe le jour de la Saint-Valentin et part en Grèce pour éviter la demande en mariage de son petit ami. Avec l'aide de Johnny et de sa sœur Mickey, deux vacanciers, elle élabore un plan pour retarder la demande en mariage, tout en remettant en question sa relation.",
+      "releaseInfo": "2026"
+    }
+  ]
+}

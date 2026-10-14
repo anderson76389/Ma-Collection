@@ -1,0 +1,30 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:214132",
+      "type": "series",
+      "name": "Clients en colère",
+      "poster": "https://image.tmdb.org/t/p/w500/jV0sn6wjb4sTORZA5ykPwmWx1Vt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zL2IFr9H3o4H2YSN4r7pn5lRRLE.jpg",
+      "description": "Le documentaire met en lumière les conflits qui surviennent lorsque des clients mécontents se heurtent à des employés faisant de leur mieux pour répondre à leurs besoins. Des échanges enflammés au drive-in du fast-food aux bagarres pour la prévention des pertes, cette série prouve une fois pour toutes que \"le client a toujours raison\" est l'exception plutôt que la règle.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:205373",
+      "type": "series",
+      "name": "Conducteurs en colère",
+      "poster": "https://image.tmdb.org/t/p/w500/fWHE5JhhnMZ1bIosXimlhrZnQKF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2FscUqDVmosRc21b3jzQFv2KyUw.jpg",
+      "description": "Les routes peuvent être un véritable champ de bataille. Les incidents liés à la violence routière ayant augmenté de 500 % en 10 ans, la « rage au volant » est un phénomène bien connu de tous. « Road Wars » plonge au cœur des routes américaines, examinant les comportements humains excessifs, les conditions météorologiques extrêmes, les accidents les plus fous et quelques exemples bienvenus d'actes de bienveillance.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:324454",
+      "type": "series",
+      "name": "Late Night Law",
+      "poster": "https://image.tmdb.org/t/p/w500/c0zbnGeRiTAnvIXeSkMfvNLKVpX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nNZcmKcDtR3pexbFIc8jhqoAyHh.jpg",
+      "releaseInfo": "2026"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:2734",
+      "type": "series",
+      "name": "New York Unité Spéciale",
+      "poster": "https://image.tmdb.org/t/p/w500/95flTYCxEPNFSdZVrHy9nMIeLbw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xhK9YCxNwnE0OB1SWvCY39heHQI.jpg",
+      "description": "Les inspecteurs qui font partie de la division des Crimes sexuels (SVU) du service de police de la ville de New York (NYPD) enquêtent sur des crimes de nature sexuelle. Alors que les autres émissions de la franchise de \"La loi et l'ordre\" se sont largement concentrées sur les cas de meurtres, les inspecteurs de la division des Crimes sexuels (SVU) ont souvent affaire à des crimes, tel le viol, auquel la victime survit et elle aide les autorités lors de l'enquête.",
+      "releaseInfo": "1999"
+    },
+    {
+      "id": "tmdb:4614",
+      "type": "series",
+      "name": "NCIS : Enquêtes Spéciales",
+      "poster": "https://image.tmdb.org/t/p/w500/salC1Yhi3QW8DW5iIJGFQOzPWVQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/c1aBrG5s5xFa6Tbnihu2Hhj4t2q.jpg",
+      "description": "L'agent spécial Leroy Jethro Gibbs, de la Section criminelle de la Gendarmerie maritime, dirige un groupe de personnes aux personnalités colorées qui enquête sur les crimes. Ceux-ci vont du meurtre et de l'espionnage au terrorisme, et sont reliés de manière assurée au personnel du corps de la Marine. L'équipe est composée d'Anthony DiNozzo, un ex-inspecteur plein d'esprit spécialisé en homicides, d'Abby Sciuto, l'excentrique spécialiste d'enquête en technique de laboratoire, de Timothy McGee, brillant lorsqu'inquiet, et de Ziva David, ex-officier de liaison du Mossad. Le Dr Donald \"Ducky\" Mallard contribue à la résolution de cas grâce à sa grande expérience dans le domaine de la médecine légale.",
+      "releaseInfo": "2003"
+    },
+    {
+      "id": "tmdb:1413",
+      "type": "series",
+      "name": "American Horror Story",
+      "poster": "https://image.tmdb.org/t/p/w500/o6n7edVeJJFLPwd2pQdbiZ0b8wW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5G4Bnc4Q0YUK1bwLEUYmIsmm2Ib.jpg",
+      "description": "À chaque saison, son histoire. American Horror Story nous embarque dans des récits à la fois poignants et cauchemardesques, mêlant la peur, le gore et le politiquement correct. De quoi vous confronter à vos plus grandes frayeurs !",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:65334",
+      "type": "series",
+      "name": "Miraculous, les aventures de Ladybug et Chat Noir",
+      "poster": "https://image.tmdb.org/t/p/w500/585lHpUQ75NvprAuSpAvJaNJya5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lH22EnM0ofC7GsVGU8dAA2RXV1c.jpg",
+      "description": "Paris, aujourd'hui. Marinette et Adrien sont deux collégiens comme les autres, à la différence près qu’ils ont été choisis pour sauver Paris ! Leur mission : capturer les Akumas du mystérieux Papillon qui transforment les parisiens en super vilains. Grâce à leur kwami, nos deux collégiens se métamorphosent en superhéros : Ladybug, et Chat Noir.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:1877",
+      "type": "series",
+      "name": "Phinéas et Ferb",
+      "poster": "https://image.tmdb.org/t/p/w500/wgEDwsPxEeYk3hLWKsTgs1KJhS6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5MWFjQ3NuNtNeOE9FdrVLeNMNPs.jpg",
+      "description": "Phineas et Ferb sont des demi-frères passant leurs vacances d'été à martyriser leur soeur, à s'imaginer des aventures extraordinaires dans leur jardin... sans se douter que leur ornithorynque de compagnie est un agent secret !",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tmdb:2710",
+      "type": "series",
+      "name": "Philadelphia",
+      "poster": "https://image.tmdb.org/t/p/w500/oBBffT1yfQ2zvflMIANI7ra7DNb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/265v8OtLO4h8XgJu5eDRpJdf9e0.jpg",
+      "description": "Un groupe de cinq égoïstes bons à rien sont copropriétaires d'un bar irlandais délabré. Souvent impliqués dans les problèmes, ils ne font rien d'autre à part comploter et se délecter de la misère des autres.",
+      "releaseInfo": "2005"
+    },
+    {
+      "id": "tmdb:211288",
+      "type": "series",
+      "name": "Tracker",
+      "poster": "https://image.tmdb.org/t/p/w500/dqKW7caILPY4JEXIxZek4YcgvbG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5C5cMYUlmX6BU5YxBqhp7ZpSd3Q.jpg",
+      "description": "Colter Shaw est un loup solitaire, qui parcourt le pays à bord de son camping-car, utilisant ses talents de pisteur pour aider les particuliers et les forces de l'ordre à résoudre toutes sortes de crimes ou à retrouver les personnes disparues.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:125935",
+      "type": "series",
+      "name": "Abbott Elementary",
+      "poster": "https://image.tmdb.org/t/p/w500/nBe1e3JJEZ6veGrVXNF0fRoLu56.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/asDINJT3b7tEa76uWI1rZ5TWdJF.jpg",
+      "description": "Dans cette comédie en milieu de travail, un groupe d'enseignants dévoués et passionnés - et un directeur légèrement sourd - sont réunis dans une école publique de Philadelphie où, malgré les obstacles qui leur sont opposés, ils sont déterminés à aider leurs élèves à réussir dans la vie. Bien que ces incroyables fonctionnaires soient en infériorité numérique et sous-financés, ils aiment ce qu'ils font - même s'ils n'aiment pas l'attitude moins que stellaire du district scolaire envers l'éducation des enfants.",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:105009",
+      "type": "series",
+      "name": "Tokyo Revengers",
+      "poster": "https://image.tmdb.org/t/p/w500/kzDHRAkFjeed0lJpjE1eKJDcowS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jnThpphOHQRiTedCtz1yyshfkHw.jpg",
+      "description": "Takemichi Hanagaki n'a pas vraiment réussi sa vie. Il fait des petits boulots sans intérêt et lorsqu'il apprend que la seule petite amie qu'il ait jamais eu au collège, Hinata Tachibana, a été tuée par l'impitoyable gang Tokyo Manji-kai, il est anéanti. Le lendemain, toujours sous le choc, il est poussé sur les rails de la gare lors d'un mouvement de foule. Mais Takemichi ne meurt pas et quand il se réveille, il est revenu douze ans en arrière. Il va ainsi retrouver ses meilleures années, mais aussi tenter de sauver celle qui l'aime et prendre sa revanche sur la vie…",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:226688",
+      "type": "series",
+      "name": "BEYBLADE X",
+      "poster": "https://image.tmdb.org/t/p/w500/66wkm14IWdrY5LaKZDAbkD2T9Jt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qAq9RBeHZoTMDFqQZ2o4cE5CJIQ.jpg",
+      "description": "Robin Kazami, blader débutant, s'associe à l'influenceuse Multi Nana-iro et à l'ancien champion Jaxon Cross pour former ce trio improbable, prêt à gravir les échelons du classement The X et à remporter le titre de champion blader !",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:216467",
+      "type": "series",
+      "name": "Mission: Yozakura Family",
+      "poster": "https://image.tmdb.org/t/p/w500/glBNKxn7UfZ2bwXfvwGgsbs9yIT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xlMVEbNl7ZBGFyhX2WEhQ8Kifm4.jpg",
+      "description": "Taiyô Asano est un lycéen à la timidité maladive. La seule personne avec qui il arrive à parler normalement est son amie d'enfance Mutsumi Yozakura. Mais cette dernière est la fille d'une famille d'espions qui oeuvre depuis plusieurs générations, et son grand frère, qui lui voue une affection excessive, a décidé d'éliminer Taiyô !",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:295778",
+      "type": "series",
+      "name": "Scrubs",
+      "poster": "https://image.tmdb.org/t/p/w500/l1EzNg0WMaoAu7oPa2oMXLizc4W.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qkxgja3V0eSjQYX8oLKidRVJ2Md.jpg",
+      "description": "J.D. et Turk travaillent ensemble pour la première fois depuis longtemps. La médecine a changé, les internes ont changé, mais leur amitié a résisté à l'épreuve du temps. Les personnages, anciens et nouveaux, naviguent dans les eaux du Sacred Heart avec humour, émotion et quelques surprises en cours de route.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:154521",
+      "type": "series",
+      "name": "Les Kardashian",
+      "poster": "https://image.tmdb.org/t/p/w500/ybAUSnGl7rNPx7PWRnhPeeUEXgB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oUHVXnV7x5Lr3jxEQTedkFvXv2b.jpg",
+      "description": "La famille que vous connaissez et aimez est ici avec une toute nouvelle série, donnant un accès complet à leur vie.  Kris, Kourtney, Kim, Khloé, Kendall et Kylie ramènent les caméras pour révéler la vérité derrière les gros titres.  Des pressions intenses de la gestion d'entreprises d'un milliard de dollars aux joies hilarantes de la récréation et des abandons scolaires, cette série amène les téléspectateurs dans le giron avec une histoire d'une honnêteté fascinante sur l'amour et la vie sous les projecteurs.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:127706",
+      "type": "series",
+      "name": "Kiff",
+      "poster": "https://image.tmdb.org/t/p/w500/h7xhJ1uWu7FurJ3W5iKzrfiPF3K.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bfeOXOhilwMYcO0ruvFXruBsv4H.jpg",
+      "description": "L'histoire de Kiff, un écureuil optimiste aux bonnes intentions qui mènent bien souvent au désastre, et de son meilleur ami Barry, un gentil et doux lapin. Dans des montagnes grouillantes de vie où les animaux et les créatures magiques vivent en harmonie, le duo prend la ville d'assaut avec ses aventures sans fin et sa joie de vivre.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:302074",
+      "type": "series",
+      "name": "R.J. Decker",
+      "poster": "https://image.tmdb.org/t/p/w500/iNOXveSqB5tUTmGKxp5flQuQ72f.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uahJs4jteV8pfVXPlBgBzjmoqFa.jpg",
+      "description": "RJ Decker, photographe de presse et ancien détenu tombé en disgrâce, se lance en tant que détective privé dans le milieu criminel haut en couleur du sud de la Floride. Il s'attaque à des affaires aussi étranges que bizarres, avec l'aide de son ex journaliste, de sa femme, inspectrice de police, et d'une mystérieuse nouvelle bienfaitrice, une femme de son passé qui pourrait bien être sa plus grande alliée… ou son aller simple pour la prison.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:205272",
+      "type": "series",
+      "name": "Reasonable Doubt",
+      "poster": "https://image.tmdb.org/t/p/w500/v9p9VbljJdJ9GjLqp3l5YpWJ8HO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5Nu95w2oWsbmDeAjG2NJF4x33Ud.jpg",
+      "description": "Vous trouverez peut-être que Jax Stewart possède une éthique douteuse et interprète parfois la loi de façon détournée… jusqu'à ce que vous ayez des ennuis. Alors, vous la verrez pour ce qu'elle est : la plus brillante et intrépide avocate de Los Angeles, qui défie le système judiciaire à la moindre occasion.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:114656",
+      "type": "series",
+      "name": "Celebrity Wheel of Fortune",
+      "poster": "https://image.tmdb.org/t/p/w500/pWKyup7doWk9AIeW6q9EXUmr61h.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vKk3womxcGLqOZLiGZ2aXA2PtOV.jpg",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:275722",
+      "type": "series",
+      "name": "Vampirina : l'ado vampire",
+      "poster": "https://image.tmdb.org/t/p/w500/7TwsVRLD1rKnlIpn8pAQQo5YeY2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uoxufQOHw6qv49bjTQgT0SzrEVY.jpg",
+      "description": "Vee quitte la Transylvanie pour un internat, pour poursuivre ses rêves de musique. Alors qu'elle cache son identité de vampire, des obstacles inattendus menacent de la renvoyer dans l'ombre.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:273247",
+      "type": "series",
+      "name": "The Lowdown",
+      "poster": "https://image.tmdb.org/t/p/w500/jgfHT7oLJtBDlRABiTTEp2AEret.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xz9YhlTE5gdr1mrQkY01vDvQF59.jpg",
+      "description": "L’obsession pour la vérité du journaliste amateur Lee Raybon, qui s’autoproclame “historien de la vérité” de Tulsa, lui attire des ennuis. Loin d’être un idéaliste, Lee est prêt à tout pour exposer la corruption et les secrets de sa ville, quitte à se mettre en danger. Lorsque son dernier article sur la puissante famille Washberg est suivi du suicide suspect de Dale Washberg, Lee sait qu’il a mis le doigt sur quelque chose de gros. Dale a laissé des indices, suppliant qu’on enquête sur sa mort. Lee s’y met et découvre que Betty Jo, la veuve éplorée, semble plus intéressée par son beau-frère que par son défunt mari. Et des forces puissantes semblent vouloir l’empêcher d’en savoir plus.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:72482",
+      "type": "series",
+      "name": "La Route de l'enfer : Norvège",
+      "poster": "https://image.tmdb.org/t/p/w500/eD7qY5Ul8YoM33E2qReMEFVgqwM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wOEbMvVfcvMGevu3snwSSL2J8qv.jpg",
+      "description": "Ça se produit chaque année. Le rude hiver norvégien transforme les routes de montagne en pistes de bobsleigh et dévie des milliers de camions de 50 tonnes de la route. 'La route de l'enfer : Norvège' suit les équipes de remorquage norvégiennes qui secourent ces camions et remorques sur les montagnes glacées et les remettent en piste.",
+      "releaseInfo": "2015"
+    }
+  ]
+}

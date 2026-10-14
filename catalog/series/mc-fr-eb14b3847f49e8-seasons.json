@@ -1,0 +1,58 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:97546",
+      "type": "series",
+      "name": "Ted Lasso",
+      "poster": "https://image.tmdb.org/t/p/w500/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nE94ejEbzNCU48bW1oju0dqBONz.jpg",
+      "description": "Ted Lasso, entraîneur de football américain, débarque à Londres pour coacher une équipe de football... pas américain. Face à une équipe et une ville dubitatives, arrivera-t-il à leur faire adopter la méthode Ted Lasso ?",
+      "releaseInfo": "2020"
+    },
+    {
+      "id": "tmdb:95480",
+      "type": "series",
+      "name": "Slow Horses",
+      "poster": "https://image.tmdb.org/t/p/w500/uAU6AFatRCIwthPRJ16Tcf7pSXy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gPQppUnLx9vqPDLz3WwZ2HJsNbt.jpg",
+      "description": "Une équipe d’agents secrets britanniques mis au placard par le MI5 suite aux erreurs qu’ils ont commises en mission. Placés sous les ordres d’un chef aussi brillant qu’irascible, le célèbre Jackson Lamb, ils naviguent dans le monde de l’espionnage, où règnent les faux-semblants, pour défendre la Grande-Bretagne contre les forces ennemies.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:196322",
+      "type": "series",
+      "name": "Dark Matter",
+      "poster": "https://image.tmdb.org/t/p/w500/guUVzb8Xe04uw95KOfQGb4yldZN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wFEAy4xRes1eeclsu7Z73Vzz7ET.jpg",
+      "description": "Un physicien, professeur et père de famille qui, alors qu’il rentre chez lui un soir à pied dans les rues de Chicago, est projeté dans une version alternative de sa propre vie. L’émerveillement se transforme rapidement en cauchemar quand il essaie de retourner à sa réalité perdue dans le paysage hallucinant des vies qu’il aurait pu vivre. Dans ce labyrinthe de réalités, il s’embarque dans un voyage éprouvant pour retrouver sa véritable famille et la sauver de l’ennemi le plus terrifiant et invincible : lui-même.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:258230",
+      "type": "series",
+      "name": "Portée disparue",
+      "poster": "https://image.tmdb.org/t/p/w500/zXMkaqWinyCbkMSNwhi7htRV0e9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kgaQnDdDaPqvGN7i8LLz1aWJdjP.jpg",
+      "description": "Lorsque Ian Ridley, opérateur des services d'urgence, reçoit un appel affolé d’une adolescente qu’il pense être sa fille disparue, il ne recule devant rien pour la retrouver.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:250203",
+      "type": "series",
+      "name": "Brothers",
+      "poster": "https://image.tmdb.org/t/p/w500/yewGBOuVmcZnMQ60xGGjUhobOsJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aLE7R8QZPpTiWZS48PS22i2OWbl.jpg",
+      "description": "Matthew McConaughey et Woody Harrelson sont meilleurs amis depuis toujours, mais leur lien pourrait devenir encore plus étroit après la découverte d’un secret de famille troublant.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:291361",
+      "type": "series",
+      "name": "Sur le fil : à la poursuite des Étoiles Michelin",
+      "poster": "https://image.tmdb.org/t/p/w500/keBwuOM2Ucm78oJhipVvvNmLcx1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pY5HhYqt71HCpEkuP7ucgvPjJNQ.jpg",
+      "description": "Les meilleurs chefs du monde convoitent la plus haute distinction : une Étoile Michelin. Ces inspecteurs n'avaient jamais dévoilé leurs méthodes.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

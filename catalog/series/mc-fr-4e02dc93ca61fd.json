@@ -1,0 +1,40 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1413",
+      "type": "series",
+      "name": "American Horror Story",
+      "poster": "https://image.tmdb.org/t/p/w500/o6n7edVeJJFLPwd2pQdbiZ0b8wW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5G4Bnc4Q0YUK1bwLEUYmIsmm2Ib.jpg",
+      "description": "À chaque saison, son histoire. American Horror Story nous embarque dans des récits à la fois poignants et cauchemardesques, mêlant la peur, le gore et le politiquement correct. De quoi vous confronter à vos plus grandes frayeurs !",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:2710",
+      "type": "series",
+      "name": "Philadelphia",
+      "poster": "https://image.tmdb.org/t/p/w500/oBBffT1yfQ2zvflMIANI7ra7DNb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/265v8OtLO4h8XgJu5eDRpJdf9e0.jpg",
+      "description": "Un groupe de cinq égoïstes bons à rien sont copropriétaires d'un bar irlandais délabré. Souvent impliqués dans les problèmes, ils ne font rien d'autre à part comploter et se délecter de la misère des autres.",
+      "releaseInfo": "2005"
+    },
+    {
+      "id": "tmdb:304842",
+      "type": "series",
+      "name": "The Drop : une saga Snowfall",
+      "poster": "https://image.tmdb.org/t/p/w500/s9eengN2v9ZTwPfFC0LRMoJULk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ycLQYTgWfBq53fIkws0qIQOp62g.jpg",
+      "description": "\"The Drop: A Snowfall Saga\" retrouve Wanda Bell et Leon Simmons de \"Snowfall\" en pleine réinvention dans le Los Angeles des années 90. Alors que les ravages du crack s'estompent, un nouveau jeu émerge : l'essor du rap de la côte Ouest. Convaincue que la musique peut changer la culture américaine, Wanda rassemble une bande de génies hétéroclites pour réaliser leurs rêves. Pour y arriver, elle doit naviguer entre le monde de la musique et les codes de la rue, entraînant ses cousins Lamar et James Kinsey et courtisant Artillery, un rappeur local au sang chaud déjà dans le viseur de la police. Son stage chez l'ex-dealer devenu patron de label Darryl \"DG\" Grant lui ouvre des portes, mais creuse les tensions avec Leon. Ce dernier a juré de quitter la rue pour de bon et cherche la rédemption via son cabinet d'aide juridique gratuit. Ambition, loyauté et survie s'entrechoquent : chacun est prêt à tout risquer pour bâtir un avenir.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:273247",
+      "type": "series",
+      "name": "The Lowdown",
+      "poster": "https://image.tmdb.org/t/p/w500/jgfHT7oLJtBDlRABiTTEp2AEret.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xz9YhlTE5gdr1mrQkY01vDvQF59.jpg",
+      "description": "L’obsession pour la vérité du journaliste amateur Lee Raybon, qui s’autoproclame “historien de la vérité” de Tulsa, lui attire des ennuis. Loin d’être un idéaliste, Lee est prêt à tout pour exposer la corruption et les secrets de sa ville, quitte à se mettre en danger. Lorsque son dernier article sur la puissante famille Washberg est suivi du suicide suspect de Dale Washberg, Lee sait qu’il a mis le doigt sur quelque chose de gros. Dale a laissé des indices, suppliant qu’on enquête sur sa mort. Lee s’y met et découvre que Betty Jo, la veuve éplorée, semble plus intéressée par son beau-frère que par son défunt mari. Et des forces puissantes semblent vouloir l’empêcher d’en savoir plus.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

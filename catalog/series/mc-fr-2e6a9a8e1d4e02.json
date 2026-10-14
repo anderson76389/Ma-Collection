@@ -1,0 +1,21 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:250220",
+      "type": "series",
+      "name": "The Miniature Wife",
+      "poster": "https://image.tmdb.org/t/p/w500/ah763FJpttOTCcfxIK3dxXCoJvk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gQTjztsHxB7swHm6Dy2h8blukEi.jpg",
+      "description": "Un accident technologique pousse un couple marié à remettre en question l'équilibre de pouvoir dans leur relation. Ce qui commence comme une remise en question tourne vite à l'affrontement alors que chacun tente de reprendre le contrôle sur leur mariage.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:289567",
+      "type": "series",
+      "name": "DMV",
+      "poster": "https://image.tmdb.org/t/p/w500/nLCpxH7BhFwP50lF0VFpxeeFjmM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4QXGZXHZlHhGJpoGLe8rBOPmX1D.jpg",
+      "releaseInfo": "2025"
+    }
+  ]
+}

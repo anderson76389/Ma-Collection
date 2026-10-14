@@ -1,0 +1,80 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:298505",
+      "type": "series",
+      "name": "Sorcières Academy",
+      "poster": "https://image.tmdb.org/t/p/w500/a3WtN94ghHX7pV44g2za35ApYDm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mGFtH5pUXDd4hSXUfl8HnHlRWJV.jpg",
+      "description": "Au cœur envoûtant de La Nouvelle-Orléans, suivez trois jeunes sorcières et leurs homologues masculins — des sorciers au charme dangereux — au sein d'un internat de magie d'élite où le pouvoir est une monnaie d'échange, les secrets peuvent être mortels et l'attirance, un risque majeur. Pris entre des guerres surnaturelles ancestrales et des amours interdites, le clan doit décider jusqu'où il est prêt à aller pour protéger sa ville... et se protéger lui-même.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:330654",
+      "type": "series",
+      "name": "Somebody Knows Something",
+      "poster": "https://image.tmdb.org/t/p/w500/uXwgUY4RFT06kuyrObtOJxqVh1D.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mt0gIlPemRLu4H4qn0WATxVoJ5Z.jpg",
+      "description": "Suivez Kara Chamberlain, influenceuse spécialisée dans les affaires criminelles, dans ses enquêtes sur des meurtres non résolus et des disparitions qui ont déconcerté les forces de l'ordre et hanté les internautes pendant des décennies.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:296303",
+      "type": "series",
+      "name": "Love Thy Nader",
+      "poster": "https://image.tmdb.org/t/p/w500/stvoNQP067DC4cdB9ZGHec777sW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/m6MTGeXORT7I3CMfrHj3WxruKqN.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:294019",
+      "type": "series",
+      "name": "La vraie vie des Kidfluencers",
+      "poster": "https://image.tmdb.org/t/p/w500/g9RJyu1vcBTmKRcYOyc6xw22085.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/m2uVG8F7DfMSmVqrUilI1sOJ9xx.jpg",
+      "description": "« Born to Be Viral: The Real Lives of Kidfluencers » retrace l’évolution saisissante de la toute première génération d’enfants dont l’enfance entière a été exposée en ligne par leurs parents, souvent à des millions de spectateurs, ce qui a généré plusieurs millions de dollars de revenus pour certaines familles.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:283252",
+      "type": "series",
+      "name": "Sectes : fuir l'emprise",
+      "poster": "https://image.tmdb.org/t/p/w500/bu5gsRil7sEz7gPIaKRwVEapTgI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iqLHnEsT7fFWywqtPmxQ14TYP6u.jpg",
+      "description": "Découvrez ces sectes insidieuses de notre époque, à travers le regard unique de membres qui ont subi des traumatismes indicibles et les enquêtes choquantes menées sur ces groupes oppressifs.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:236018",
+      "type": "series",
+      "name": "Sasha Reid and the Midnight Order",
+      "poster": "https://image.tmdb.org/t/p/w500/dVKqa4uFGPMMNFf9kluSkc8fbeA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6AkChffzT8mHJAKzzSxCRR6PQ91.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:254659",
+      "type": "series",
+      "name": "Royal Rules of Ohio",
+      "poster": "https://image.tmdb.org/t/p/w500/AuXEjXhHBGdm9bt3Ly68SsGGbBJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5sn6LBbtWicbA15ilZAoL4suBCg.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:243405",
+      "type": "series",
+      "name": "Grand Cayman: Secrets in Paradise",
+      "poster": "https://image.tmdb.org/t/p/w500/l5E1iuzhf8Qm1SRpkcH3Gbwmscr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ocOBdbz7EiTclw8jE7Oz8UH9u70.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:243428",
+      "type": "series",
+      "name": "Chrissy & Dave Dine Out",
+      "poster": "https://image.tmdb.org/t/p/w500/hZteIjGcU4sXJ2ON7VEmdRII8AD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nvSNAcr2rf17GvdcJVth2HD5WJQ.jpg",
+      "releaseInfo": "2024"
+    }
+  ]
+}

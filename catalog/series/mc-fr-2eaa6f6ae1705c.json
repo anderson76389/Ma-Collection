@@ -1,0 +1,22 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:295532",
+      "type": "series",
+      "name": "Dear England",
+      "poster": "https://image.tmdb.org/t/p/w500/6fBBppLc0Eoldfi3Pwrp5ObtWGf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vXtuye0TbQ97E3q4B1qPrTxiOvq.jpg",
+      "description": "Alors que l’équipe de foot d’Angleterre traverse l’une des périodes les plus sombres de son histoire, Gareth Southgate prend les commandes avec la volonté de faire oublier son triste record de pire équipe au monde aux tirs au but. Ancien joueur marqué par ses propres échecs, Southgate sait qu’il doit affronter les fantômes du passé pour briser une longue série d’échecs. Dans une nation qui a accumulé les désillusions, il tente l’impossible : réconcilier l’Angleterre avec la victoire.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:246992",
+      "type": "series",
+      "name": "Sirens",
+      "poster": "https://image.tmdb.org/t/p/w500/mezbwX9gFWTXl0XiicS5ZMcdXVx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nFOufr0IvCtMLyTleHOrtyj0htv.jpg",
+      "description": "Inquiète de voir sa sœur sous la coupe de sa patronne milliardaire, une femme un peu paumée cherche à comprendre ce qu'il se passe dans une luxueuse propriété de front de mer.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

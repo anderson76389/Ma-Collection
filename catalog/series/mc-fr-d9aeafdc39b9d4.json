@@ -1,0 +1,31 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:295840",
+      "type": "series",
+      "name": "Flaming Dodgeball Girl Danko",
+      "poster": "https://image.tmdb.org/t/p/w500/sZvF473smAN0XktDRj50J8nwtaB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xjDKg2sVGJ8gjmp7dIIqWL2iM8I.jpg",
+      "description": "Il s'agit de la suite de Honoo no Toukyuuji Dodge Danpei.\n\nElle met en scène la fille de Danpei Ichigeki, aussi passionnée que lui pour le dodgeball (version sportive de la balle aux prisonniers).",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:217247",
+      "type": "series",
+      "name": "Turkey! Time to Strike",
+      "poster": "https://image.tmdb.org/t/p/w500/a7UXd4jRd2VCEKQLAnvXrB8wSj0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/15zWeNo3BZ9VF4MIrfyJQO0d8DM.jpg",
+      "description": "Mai Otonashi est une étudiante de deuxième année et la capitaine du club de bowling du lycée Ikkokukan. Chaque fois qu'elle réussit un Turkey, c’est-à-dire trois strikes consécutifs, elle enchaîne avec un split imbattable : le Snake Eyes. Avec ses amies Rina, Sayuri, Nozomi et Nanase, elle se bat, tombe et se relève à la recherche de la victoire durant les derniers jours de l'été.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:237529",
+      "type": "series",
+      "name": "Medalist",
+      "poster": "https://image.tmdb.org/t/p/w500/7DXsDnyOTTlqcj1fKrNQz8Ftxco.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lUZ6ThctsCMee63Cu02F1F6rgC1.jpg",
+      "description": "Tsukasa Akeuraji, un patineur frustré, rencontre une fillette, Inori Yuitsuka, qui aspire à devenir patineuse artistique. Il commence à l'entraîner et fait éclore son talent, faisant de lui un entraîneur brillant. Ensemble, ils vont tout faire pour qu'elle soit médaillée un jour !",
+      "releaseInfo": "2025"
+    }
+  ]
+}

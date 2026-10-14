@@ -1,0 +1,40 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:270572",
+      "type": "series",
+      "name": "Sa majesté des mouches",
+      "poster": "https://image.tmdb.org/t/p/w500/uUE4zRhAhgCXCSQTOWrJXrK4RcZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yRqFvu6rIytqZlzY0pBVvZG3W0S.jpg",
+      "description": "Des garçons échoués sur une île tropicale se retrouvent entièrement livrés à eux‑mêmes, sans la moindre présence adulte. D'abord décidés à instaurer des règles et à préserver un semblant de civilisation, ils se répartissent les rôles et organisent la vie du groupe. Mais très vite, les tensions, la violence et la soif de pouvoir s'installent.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:246984",
+      "type": "series",
+      "name": "Être Parent",
+      "poster": "https://image.tmdb.org/t/p/w500/o9fvGhqyGRN3Jt9XxodGQJG7kHZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jSR36f1YBdXuOYr81RNRZB7ygC1.jpg",
+      "description": "Un parcours unique, plein de risques et de récompenses. David Attenborough raconte des histoires de dévouement, d'ingéniosité et de sacrifice alors que les animaux se lancent dans un défi épique : devenir parents.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:215866",
+      "type": "series",
+      "name": "À l'aube de l'Amérique",
+      "poster": "https://image.tmdb.org/t/p/w500/bLDizkPrfCn8CQNW9MMhltgCMXv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1FxG2lmDYsCM1svJf7H79HNNwu2.jpg",
+      "description": "Fuyant leur passé, une mère et son fils font de nouvelles rencontres et affrontent les étendues hostiles du Far West américain, où règnent liberté et cruauté.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:274921",
+      "type": "series",
+      "name": "Tsunami 2004 : La Vague Mortelle",
+      "poster": "https://image.tmdb.org/t/p/w500/nuj0gTXH8KD5Y1w5lID1s1Dnvsz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3cpLEu22RtBX2KSxhggVnOMkgcJ.jpg",
+      "description": "La véritable histoire du meurtrier tsunami de 2004, en suivant la vague minute par minute grâce à des archives vidéos et des témoignages inédits des survivants.",
+      "releaseInfo": "2024"
+    }
+  ]
+}

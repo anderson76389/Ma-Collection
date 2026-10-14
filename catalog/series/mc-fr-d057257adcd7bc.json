@@ -1,0 +1,22 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:290295",
+      "type": "series",
+      "name": "Mating Season",
+      "poster": "https://image.tmdb.org/t/p/w500/5Pn7R2TtLka8OjsgtxAq4H2apjJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zaDTnGcq3F5LocdmHJLP3Mf0kII.jpg",
+      "description": "Cette délirante série d'animation comique pour adultes, sortie de l'esprit tordu des créateurs de \"Big Mouth\", parle de cœur, de sexe et de relations amoureuses… chez les animaux.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:241361",
+      "type": "series",
+      "name": "Too Much",
+      "poster": "https://image.tmdb.org/t/p/w500/rCLrhHqN26gS4eNrM27hY8XJXOt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hBjWLnOO8rwHmFbpA88QR0tAG5e.jpg",
+      "description": "Une New-Yorkaise au cœur brisé déménage à Londres dans l'espoir de vivre une grande histoire d'amour... mais elle craque pour un musicien indé tout sauf romantique.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

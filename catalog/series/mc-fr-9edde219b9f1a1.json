@@ -1,0 +1,182 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:239618",
+      "type": "series",
+      "name": "American Hostage",
+      "poster": "https://image.tmdb.org/t/p/w500/q3oa6rW9ZU9a6IcpJRynzzLDGBH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/t708JUdkHAoZF83f4RjqcIGrJ99.jpg",
+      "description": "Dans les années 1970, un preneur d'otages exige d'être interviewé dans l'émission d'actualité de Fred Heckman, journaliste radio très apprécié.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:299939",
+      "type": "series",
+      "name": "Monstre : L'Histoire de Lizzie Borden",
+      "poster": "https://image.tmdb.org/t/p/w500/ruw68QldiWzOjUdKX9hUFT1pjv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gaew60NXUxok3Vmls7gkAT7lYW0.jpg",
+      "description": "Prisonnière d'une cruelle famille victorienne, Lizzie Borden massacre ses parents à la hache dans un crime sanglant qui choque toute une nation.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:301283",
+      "type": "series",
+      "name": "Believe Me",
+      "poster": "https://image.tmdb.org/t/p/w500/g8qiv2FzpjAlQ8bWrucVDlpbKSG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kYWdbB7SQdc4ER63fuG9sftY3wD.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:262280",
+      "type": "series",
+      "name": "Legends",
+      "poster": "https://image.tmdb.org/t/p/w500/t4zldz96sQyb94Zu7a3n2PCVK3X.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4CtOMphAmfHJ6cztlAYjkdStkHP.jpg",
+      "description": "Grande-Bretagne, années 90 : des fonctionnaires plongent dans la clandestinité pour démanteler des gangs de trafiquants de drogue.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:316295",
+      "type": "series",
+      "name": "Le Prédateur de Séville",
+      "poster": "https://image.tmdb.org/t/p/w500/aGgI3aulBfSHZZAiPxXjnpvdvOG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eMoQ0fBysYIWx4HROKowEDk4iZ4.jpg",
+      "description": "Une agression sexuelle commise par un guide touristique espagnol suscite une avalanche de plaintes similaires de la part d'étudiantes américaines. Voici leur quête de justice.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:298425",
+      "type": "series",
+      "name": "The Lady : A Royal Murder Scandal",
+      "poster": "https://image.tmdb.org/t/p/w500/lMveq4zyLX4dAZgO0xXMf4vYqf6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/y1Xg6NPRD8QFbgOVer16ynjGYUp.jpg",
+      "description": "Jane Andrews, habilleuse royale, partie de rien, a gravi les échelons jusqu'aux cercles du palais avant qu'une condamnation pour meurtre ne mette fin à son conte de fées. Le procès très médiatisé a suscité un véritable engouement. Elle a été libérée de prison en 2019.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:306502",
+      "type": "series",
+      "name": "Prisonnière 951",
+      "poster": "https://image.tmdb.org/t/p/w500/teYl2CpSYPrhMSdhCij7TllQKoy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/itkGMXWTCrBRCosv41KPWv8lZcb.jpg",
+      "description": "En 2016, Nazanin Zaghari-Ratcliffe est arrachée à sa fille de 22 mois et emprisonnée à tort en Iran. À Londres, son mari Richard refuse de se taire et lance une campagne mondiale pour sa libération. Propulsée sous les projecteurs par des circonstances extraordinaires, cette histoire vraie est un vibrant témoignage de courage et de résilience face à l’injustice.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:257534",
+      "type": "series",
+      "name": "Devil in Disguise: John Wayne Gacy",
+      "poster": "https://image.tmdb.org/t/p/w500/ppWo7Nij9IbgHia13PxT6tqfNhC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kG2mHHu136bviY53DDpnsyVNKuA.jpg",
+      "description": "De 1972 à 1978, trente-trois jeunes hommes ont été enlevés, assassinés, puis enterrés dans le vide sanitaire sous la maison de leur meurtrier. Et pendant des années, personne ne s’en est douté. Pourquoi ? Parce qu’il était charmant et drôle. Il avait un bon travail et était considéré comme un leader dans sa communauté. Il faisait même du bénévolat pour divertir des enfants malades… déguisé en clown.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:286801",
+      "type": "series",
+      "name": "Monstre : L'Histoire d'Ed Gein",
+      "poster": "https://image.tmdb.org/t/p/w500/50OLdQo3n2aoUyTnjOUXzYW5Kx4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cm2oUAPiTE1ERoYYOzzgloQw4YZ.jpg",
+      "description": "Tueur en série. Profanateur de tombes. Psychopathe. Dans les champs gelés de la campagne du Wisconsin des années 50, un reclus amical et discret nommé Eddie Gein vit paisiblement dans une ferme en ruine, abritant une véritable maison des horreurs, si macabre qu'elle allait redéfinir le cauchemar américain. Animés par l'isolement, la psychose et une obsession dévorante pour sa mère, Gein et ses crimes pervers ont donné naissance à un nouveau type de monstre, destiné à hanter Hollywood pendant des décennies. De Psychose à Massacre à la tronçonneuse en passant par Le Silence des agneaux, le sinistre héritage de Gein inspire ainsi la création de nombreux monstres fictifs, et suscite une fascination culturelle pour les criminels déviants. Ed Gein n'a pas seulement influencé un genre, il est devenu le prototype de l'horreur moderne.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:287167",
+      "type": "series",
+      "name": "The Hack",
+      "poster": "https://image.tmdb.org/t/p/w500/eucYkxvmlIVQlkFLYtxRkEotxfZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/y4VazXT4ZqhDmmaRFS87ddPw19H.jpg",
+      "description": "Se déroulant entre 2002 et 2012, ce drame entremêle habilement deux histoires vraies : la révélation des écoutes téléphoniques illégales pratiquées par le journal News of the World et, en parallèle, l'enquête sur le meurtre non élucidé du détective privé Daniel Morgan.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:299095",
+      "type": "series",
+      "name": "I Fought the Law",
+      "poster": "https://image.tmdb.org/t/p/w500/4GYFm59BY10qBoU73Qzs3woeUp1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cwszYLXipVnU0NqOttHLb5TzqZA.jpg",
+      "description": "Ann Ming est désemparée lorsque sa fille Julie, âgée de 22 ans, disparaît. La police suggère que Julie a dû s'enfuir à Londres pour retrouver son mari dont elle est séparée, mais Ann sait que Julie n'aurait jamais abandonné Kevin, son fils de 5 ans.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:248416",
+      "type": "series",
+      "name": "The Twisted Tale of Amanda Knox",
+      "poster": "https://image.tmdb.org/t/p/w500/sMAZK6CDb8T07qO8ay2WbDGNY3F.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iLzaLdkva7wUV9HMyykaHFUFHKA.jpg",
+      "description": "Amanda Knox : une étudiante américaine débarque en Italie pour ses études et se retrouve accusée de meurtre à tort quelques semaines plus tard. Suivez son combat acharné pour prouver son innocence, retrouver sa liberté et comprendre pourquoi les autorités et le monde entier l’ont condamnée si rapidement.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:196890",
+      "type": "series",
+      "name": "Chief of War",
+      "poster": "https://image.tmdb.org/t/p/w500/hMCcvWVnsnlhaBaHV4g4nDpcdB4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2c3PCbxVgWen5HrYsaukUmfu4J9.jpg",
+      "description": "Comme les quatre royaumes d'Hawaiʻi sont déchirés par la guerre, le féroce guerrier Kaʻiana se lance dans une mission monumentale pour unir son peuple, alors qu'une sombre menace se rapproche.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:215995",
+      "type": "series",
+      "name": "Smoke",
+      "poster": "https://image.tmdb.org/t/p/w500/k8Jgv0SvrLRG0Tj5HSC61gWUOha.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4F7IE2OEcHsWZwIu1OvXDyiRD84.jpg",
+      "description": "Quand un enquêteur incendie doit faire équipe avec une lieutenante, leur traque de deux pyromanes se transforme en jeu du chat et de la souris.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:261668",
+      "type": "series",
+      "name": "Outrageous",
+      "poster": "https://image.tmdb.org/t/p/w500/eRIzK09lEfYFkmAEE1sUjFlnyoB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/e06eTngmKXqkeeu7Rv6O5Nsxkdq.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:248226",
+      "type": "series",
+      "name": "L'Attentat du vol Pan Am 103",
+      "poster": "https://image.tmdb.org/t/p/w500/nTESciVxNZlE0XwEDDRY9QHm5hm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5ZgPQjEsJqCwRtx6vsBBISxn389.jpg",
+      "description": "Le 21 décembre 1988, le vol Pan Am 103 explose au-dessus de la petite ville écossaise de Lockerbie, faisant 270 morts. S'ensuit la plus vaste enquête criminelle de l'histoire de la police écossaise, sur l'attentat terroriste le plus meurtrier jamais commis sur le sol britannique. À travers les témoignages de ceux qui l'ont vécu, voici l'histoire vraie de la collaboration entre la police écossaise et les forces de l'ordre américaines, et du combat des familles pour obtenir justice.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:229236",
+      "type": "series",
+      "name": "Mauvais suspect",
+      "poster": "https://image.tmdb.org/t/p/w500/3FzyabqFVbGjpoxlrTE0hAhjiZO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/u41RabPPKrUPb3xEZryShF4Ts45.jpg",
+      "description": "Londres, juillet 2005, la police traque une cellule terroriste. Lors d'une opération de surveillance, une série d'événements exceptionnels mène à l'identification erronée d'un suspect, un jeune brésilien, puis à son meurtre. Tandis que ses proches se débattent avec les fausses informations qu'on leur fournit, ils reçoivent le soutien d'une source inattendue. Par ailleurs, la police de Londres doit se confronter à la vérité sur ces tirs mortels.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:207411",
+      "type": "series",
+      "name": "Good American Family",
+      "poster": "https://image.tmdb.org/t/p/w500/7KUSPrM65y2AE9t3FOd0LAuvBCW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jkyjkLuKxKa2PXaTcPDfrBUHxi8.jpg",
+      "description": "Raconté depuis les multiples points de vue des personnages afin d'explorer les questions de perspectives, de préjudices et de traumatisme, ce drame captivant s'inspire de l'histoire troublante d'un couple du Midwest qui adopte une fillette atteinte d'une forme rare de nanisme.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:232342",
+      "type": "series",
+      "name": "Toxic Town",
+      "poster": "https://image.tmdb.org/t/p/w500/d5n1BQpcDe2GBIXJ2y39qxnEsyp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pp4jnkOneeb4FFcni9VUCyo18sZ.jpg",
+      "description": "Dans la ville anglaise de Corby, les mères de dizaines de bébés nés avec des malformations mènent un combat pour traduire les responsables en justice.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:241501",
+      "type": "series",
+      "name": "Apple Cider Vinegar",
+      "poster": "https://image.tmdb.org/t/p/w500/kGU5KfZiNiXjFsxw1g8wds27rrU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/c2r31iNC052gj1noKDntFEh1VHX.jpg",
+      "description": "Deux jeunes femmes défendent l'idée que des remèdes bien-être peuvent guérir des maladies mortelles, trompant le monde... l'une à son insu et l'autre en toute connaissance de cause.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

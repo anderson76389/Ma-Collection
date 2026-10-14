@@ -1,0 +1,30 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1661926",
+      "type": "movie",
+      "name": "Les Éléphants dans la brume",
+      "poster": "https://image.tmdb.org/t/p/w500/fp3zTVnbK8jFbXYYUQdkRKty2ns.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hvVIS83R92hstmUzqA3WVofyUQ1.jpg",
+      "description": "Dans un village népalais niché au cœur d’une forêt peuplée d’éléphants sauvages vit une communauté kinnar aussi vénérée que crainte pour ses pouvoirs de bénédiction et de malédiction. Pirati, l'une des mères de la communauté, rêve de s’échapper avec l’homme qu’elle aime. Mais lorsqu’une de ses filles disparaît, elle se doit mener l'enquête et choisir entre son désir de liberté et ses responsabilités envers sa communauté.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1478852",
+      "type": "movie",
+      "name": "ऊनको स्वीटर",
+      "poster": "https://image.tmdb.org/t/p/w500/nEISAxBTAOuOlLegt3SfuJ07rfc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zmNzpXyKGPrJlS2e6FmGqeGtzlo.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1234593",
+      "type": "movie",
+      "name": "Shambhala, le Royaume des cieux",
+      "poster": "https://image.tmdb.org/t/p/w500/dysxLTVwfdWey5EBYfbItKtTKXX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aZ8HkgNpcFElM5TKMwBySsX90WF.jpg",
+      "description": "Dans un village de l’Himalaya tibétain où la polyandrie est une tradition, Pema se marie avec une fratrie dont Tashi est l’aîné. Alors qu’il part à Lhassa pour ravitailler la communauté, Pema est soupçonnée d’avoir une relation extraconjugale. Déterminée à prouver sa fidélité, elle décide de retrouver Tashi et son voyage se mue en découverte de soi.",
+      "releaseInfo": "2024"
+    }
+  ]
+}

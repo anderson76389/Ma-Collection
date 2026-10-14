@@ -1,0 +1,174 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1148365",
+      "type": "movie",
+      "name": "Matchbox – Le film",
+      "poster": "https://image.tmdb.org/t/p/w500/vSgnJDw404JUokiy5NDZgXOi01E.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/roawIpy5sigBB7LsU4AJDw70jPo.jpg",
+      "description": "Des amis d'enfance reprennent contact et les retrouvailles prennent une tournure inattendue quand ils découvrent un dangereux complot international et doivent sauver le monde.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1137844",
+      "type": "movie",
+      "name": "Mayday",
+      "poster": "https://image.tmdb.org/t/p/w500/eHELFF4BBxmEk5JyhV017Xcgvwy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/g7Ccid5kuD7A8hXWlsQiNfwOxaD.jpg",
+      "description": "Un pilote de la Navy envoyé en mission secrète durant la guerre froide se retrouve piégé en territoire ennemi. Son seul espoir de survie est de s'allier à un ex-agent du KGB excentrique.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1698575",
+      "type": "movie",
+      "name": "Snoopy présente : Rien ne vaut son chez-soi",
+      "poster": "https://image.tmdb.org/t/p/w500/1a24XPNCpOpGMvOlfUaqaF56m1n.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kpq5o3WbnTos5fQwtyfyOHwSMdm.jpg",
+      "description": "La niche adorée de Snoopy disparaît. En essayant de la retrouver, il découvre ce qui constitue vraiment un foyer.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1361774",
+      "type": "movie",
+      "name": "Les Fous du pickleball",
+      "poster": "https://image.tmdb.org/t/p/w500/1tmQlYIvc8XGstEM45pyBqYRSnt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z1Z1vW3bu27UUXD70vyqAcCeXU1.jpg",
+      "description": "Dusty Boyd, alias \"Le Marteau\", un joueur de tennis pro en déroute, a besoin de gagner. Pour sauver un country club en difficulté et gagner le respect de son père, il rompt un serment sacré et commet l’impensable : il joue au pickleball.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1662414",
+      "type": "movie",
+      "name": "Vol de nuit pour Los Angeles",
+      "poster": "https://image.tmdb.org/t/p/w500/szQPIA23wit2FvTsxIjxmHqdhVE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ldUVeDfA5ID2vchHGejrEltoBSN.jpg",
+      "description": "En plein âge d'or de l'aviation, un jeune amateur d'avions et sa mère embarquent pour un périple à travers le pays jusqu'à Hollywood. Ce vol deviendra le voyage d'une vie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1049471",
+      "type": "movie",
+      "name": "Chantage",
+      "poster": "https://image.tmdb.org/t/p/w500/9Oj1EJPQzzjc7IqiwGFgesQgYzK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/avwIERZtWiWa34qShf5biDzAVaF.jpg",
+      "description": "Reef Hawk, star hollywoodienne depuis l'âge de six ans, ne va pas bien. Quand il apprend qu'on tente de l'extorquer avec une mystérieuse vidéo, il se lance dans une tournée d'excuses pour faire amende honorable, affronter ses démons et éviter de se faire cancel.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1566269",
+      "type": "movie",
+      "name": "La première neige de Fraggle Rock",
+      "poster": "https://image.tmdb.org/t/p/w500/xBbw7RIQhohmMxt9GKZdYm09TSD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/h5hCdU9KvcCbBihSNfn3vtML7tV.jpg",
+      "description": "Alors que les fêtes réservent leurs surprises et aventures inattendus, les Fraggles apprennent à apprécier chaque jour pour son caractère unique et magique, tel un flocon de neige.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1363123",
+      "type": "movie",
+      "name": "The Family Plan 2",
+      "poster": "https://image.tmdb.org/t/p/w500/qlwplmgaj36GElSofHrykqXtebL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hXc9jZuIfJ3lCrKJsZVwJM4anRf.jpg",
+      "description": "Maintenant que sa vie de tueur à gages appartient au passé, Dan rêve de fêter Noël avec ses enfants. Mais lorsqu'il apprend que sa fille a d'autres projets, il décide d'emmener sa famille en voyage à Londres, où ils seront confrontés à un ennemi inattendu.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1319965",
+      "type": "movie",
+      "name": "All of You",
+      "poster": "https://image.tmdb.org/t/p/w500/upDrcB20OUcCaOLSPZYuICYVltL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yGsEsHlc81Q1i9Z3yoVv394PrlG.jpg",
+      "description": "Laura et Simon sont meilleurs amis depuis l'université. Au fil des années, ils ont réalisé que leur lien était plus que platonique. Peuvent-ils, et doivent-ils, tout risquer pour explorer un amour qui existe depuis toujours ?",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1236470",
+      "type": "movie",
+      "name": "The Lost Bus - Au cœur des flammes",
+      "poster": "https://image.tmdb.org/t/p/w500/cSU3FCDrgezl0JbBw2ryWwC1BWD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wofTDrrNvySkjrv2v34jqpPZAP6.jpg",
+      "description": "Depuis son retour à Paradise, rien ne sourit à Kevin McKay. Son chien est mourant, ses finances sont au plus bas, la communication avec son fils est rompue et sa patronne ne lui laisse aucun répit. Alors qu’un incendie de forêt commence à dévaster la région, il se porte volontaire pour aller secourir en autobus des écoliers piégés par les flammes. Lui et leur enseignante Mary Ludwig vont risquer leur vie pour les escorter hors du brasier, alors même qu’ils ignorent l’un et l’autre si leur propre famille est en sécurité.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1484453",
+      "type": "movie",
+      "name": "Snoopy présente : un été en musique",
+      "poster": "https://image.tmdb.org/t/p/w500/uKCT0O0PLDw4Xe12IGTvJfYdtiL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1Bavnm3tr5zJMAhBKKmGHVjbPZN.jpg",
+      "description": "Charlie Brown et sa bande rejoignent le camp de vacances en rires et en chansons. C'est une première pour Sally, qui ne partage pas leur enthousiasme. Lorsque le camp menace de fermer, ils s'allient pour que d'autres enfants puissent y créer de précieux souvenirs.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1242434",
+      "type": "movie",
+      "name": "Highest 2 Lowest",
+      "poster": "https://image.tmdb.org/t/p/w500/pkdGVqhvvPZhPeMGdPywdHg3QXk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/saErQCTkKbqiggCJbSltBMDD4oy.jpg",
+      "description": "Soumis à une demande de rançon et confronté à un terrible dilemme moral, un puissant magnat de l'industrie musicale doit se battre pour sa famille et son héritage.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1097311",
+      "type": "movie",
+      "name": "Echo Valley",
+      "poster": "https://image.tmdb.org/t/p/w500/gR2JQZ1oc5KTFEVz3luwDdJztrU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aQ5nvQGT6mM6TliOM5iSgrKVF4C.jpg",
+      "description": "Kate est une mère qui tente de faire la paix avec sa fille troublée, Claire. Mais la situation prend une tournure encore plus dramatique lorsque Claire se présente chez elle, en état de panique et couverte du sang de quelqu’un d’autre. Tandis que Kate reconstitue avec effroi ce qui s’est véritablement passé, elle découvre jusqu’où une mère peut aller pour sauver son enfant.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1465476",
+      "type": "movie",
+      "name": "Lulu est une rhinocéros",
+      "poster": "https://image.tmdb.org/t/p/w500/fXzxZeXFZglAjNR8lkx6k6ZFCDJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ak7IHiAEJIuiEsklXNd05cCbAr3.jpg",
+      "description": "Souhaitant répandre la gentillesse, la pétillante Lulu se lance dans l'aventure de sa vie et trouvera en chemin de nouveaux amis, du courage et des chansons pleines d'entrain !",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1098006",
+      "type": "movie",
+      "name": "Fountain of Youth",
+      "poster": "https://image.tmdb.org/t/p/w500/lU8UHihpQVVzyynfNaVsNjCxDXM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/arGs8D4RfUfsk7vMiMjDi6Mtabv.jpg",
+      "description": "Un chasseur de trésors chevronné rassemble une équipe pour une aventure qui bouleversera sa vie. Mais pour déjouer les pièges qui se dresseront sur sa route, il aura besoin de quelqu'un d'encore plus intelligent que lui : sa sœur dont il s'est éloigné.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:950396",
+      "type": "movie",
+      "name": "The Gorge",
+      "poster": "https://image.tmdb.org/t/p/w500/1Np511QIqSs0s3iDpWXPbuY4o5o.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9nhjGaFLKtddDPtPaX5EmKqsWdH.jpg",
+      "description": "Deux agents hautement entraînés se rapprochent malgré la distance lorsqu'ils sont envoyés garder deux côtés opposés d'une mystérieuse gorge. Quand un mal surgit des profondeurs, ils doivent faire équipe pour survivre à ce qui est tapi sous la surface.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1423632",
+      "type": "movie",
+      "name": "A Charlie Brown Christmas",
+      "poster": "https://image.tmdb.org/t/p/w500/wbxlTiuzz3akzjVKU3QfN7Y4kn9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3qwyNSouBps6PRdSNxLo1aUH35y.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1403003",
+      "type": "movie",
+      "name": "Carpool Karaoke spécial Noël",
+      "poster": "https://image.tmdb.org/t/p/w500/yGObbhXMALZNO43ZaZb6wcHjFnd.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kxjCUTu2NixT3e7KW9mdvsQ9jRr.jpg",
+      "description": "James Corden laisse les clés à Zane Lowe pour ce road trip international des fêtes. Direction le pays des merveilles de l’hiver des divas de la pop quand Zane est d’humeur festive avec Dua Lipa au Japon, Chappell Roan chez elle dans le Missouri, et Lady Gaga à Los Angeles.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:896151",
+      "type": "movie",
+      "name": "Blitz",
+      "poster": "https://image.tmdb.org/t/p/w500/e9tyjbF2rugENtBolTtEhHOXgzD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qRSMoh9EMlQ9uywMpLulWBkIma9.jpg",
+      "description": "À Londres, pendant la Seconde Guerre mondiale, un jeune garçon de neuf ans prénommé George est évacué vers la campagne par sa mère, Rita, pour échapper aux bombardements. Déterminé à retrouver sa famille, il entreprend un voyage épique et périlleux pour rentrer chez lui, tandis que sa mère est à sa recherche.",
+      "releaseInfo": "2024"
+    }
+  ]
+}

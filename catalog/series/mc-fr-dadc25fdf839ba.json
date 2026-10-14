@@ -1,0 +1,165 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:331164",
+      "type": "series",
+      "name": "Bobby Flay’s The Line",
+      "poster": "https://image.tmdb.org/t/p/w500/hdWaAbmQn970EY8J85aBACDhn0h.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4qKpFJzGCVTtnNg2J6o4BxAHKK0.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:329340",
+      "type": "series",
+      "name": "Kitchen Undercover",
+      "poster": "https://image.tmdb.org/t/p/w500/9Suwt5EPAW5Oe5kELEHbLIbR7ca.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3ytqf0ZwMaacNM1GvzOF6mKym2t.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:325937",
+      "type": "series",
+      "name": "Restaurant Impossible: Last Call",
+      "poster": "https://image.tmdb.org/t/p/w500/rAkFJcr2xD361SHDYMadGQS3hU7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6Hpag6wAwCR15viqnJVGIwfnOGL.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:327919",
+      "type": "series",
+      "name": "Kitchen Chaos",
+      "poster": "https://image.tmdb.org/t/p/w500/g3JIgMr7KPJfJ6497Xm1RS8fK7O.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bQR4p70ZOi9MqVqmC0ZdZiQDqLV.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:322785",
+      "type": "series",
+      "name": "Le tournoi des 100 chefs",
+      "poster": "https://image.tmdb.org/t/p/w500/n1AMcuCgGgXSokKOmYJ5cv1k8n6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zjF3gLeQIUFaHKpVyofdvOSKkyY.jpg",
+      "description": "100 cuisiniers amateurs s'affrontent dans des épreuves variées pour essayer d'empocher 100 000 dollars et le titre de meilleur chef des États-Unis !",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:322784",
+      "type": "series",
+      "name": "Food Network's Top 10",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:321392",
+      "type": "series",
+      "name": "Chopped: Castaways",
+      "poster": "https://image.tmdb.org/t/p/w500/fCP8r4xO5QBeAEaJLM6HeIT5gip.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4yOhHZV1bbD3r5csuaQzQHX9o4B.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:313756",
+      "type": "series",
+      "name": "Flavortown Food Fight",
+      "poster": "https://image.tmdb.org/t/p/w500/2MZvgAD4ee85CjMLa8VOLMTsso0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tRMGuCXsTF3j174Q8NwdmBwGiRZ.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:305016",
+      "type": "series",
+      "name": "Tournament of Champions: All-Star Christmas",
+      "poster": "https://image.tmdb.org/t/p/w500/qshuv46xb7nfMDJRY2RB0BRT4tQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zvcDNLArN1LUGg9ip7vH5WAwki5.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:297080",
+      "type": "series",
+      "name": "Chef Grudge Match",
+      "poster": "https://image.tmdb.org/t/p/w500/zEyxK6k4ln8JcFjJTRKP8YKsP5i.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/23vVRyJQN8SRUytgpcvdJRFLLbT.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:294034",
+      "type": "series",
+      "name": "Super Mega Cakes",
+      "poster": "https://image.tmdb.org/t/p/w500/9mz5jMNOCzJ5YHrSSLJx3aFRtDW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jl3AB12iZ61wJT0XYZjWCtDWycq.jpg",
+      "description": "Le maître pâtissier Duff Goldman affronte six équipes des meilleurs pâtissiers du monde, le tout en même temps, pendant quatre jours bien remplis. L’équipe gagnante de chaque bataille gagne 10 000 $ et une chance de remporter le grand prix, 40 000 $ supplémentaires.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:289189",
+      "type": "series",
+      "name": "Cutthroat Kitchen: Knives Out",
+      "poster": "https://image.tmdb.org/t/p/w500/6ZQBWKrDBiqVyTmUfciZWbBhx2s.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/spRZk4XAVHEvyi2qQSeg4DUdNxz.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:284889",
+      "type": "series",
+      "name": "House of Knives",
+      "poster": "https://image.tmdb.org/t/p/w500/14MbMgsRvemQypRoLmrRsuBFyuu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7h0fkCXKRJu5J4DtqnVLELvqsQz.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:254514",
+      "type": "series",
+      "name": "Harry Potter : Les Sorciers de la pâtisserie",
+      "poster": "https://image.tmdb.org/t/p/w500/wz5mPvGj9L93bA4Rvmau9fh1GNS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9mDlwBdCu501924dXnzz2Gtc8XI.jpg",
+      "description": "Des chefs pâtissiers s'affrontent sur le thème de Harry Potter pour remporter la toute première Coupe des Sorciers de la Pâtisserie.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:271131",
+      "type": "series",
+      "name": "Last Bite Hotel",
+      "poster": "https://image.tmdb.org/t/p/w500/hxsvg4vl6qmKbnKEaB7OyASw0Az.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pS2uYaBlo5IpuzRbHXvf3ubUDAh.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:250590",
+      "type": "series",
+      "name": "Selena + Restaurant",
+      "poster": "https://image.tmdb.org/t/p/w500/jhfeLMnjGQY7CDp1QEoLFz3aINT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/boACAJVmCNBuktewI9IScR78hUf.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:248021",
+      "type": "series",
+      "name": "24 in 24: Last Chef Standing",
+      "poster": "https://image.tmdb.org/t/p/w500/oD4fH66d8fn6hRQmklJjThTc8wj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wSZvueXsd3NW5n88VaIvsT90ZDi.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:247990",
+      "type": "series",
+      "name": "Wildcard Kitchen",
+      "poster": "https://image.tmdb.org/t/p/w500/sRpz6J8klZRjGsLO7OJQ14ALv89.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7uIBFrVY2lVRnBgSse6suREyg4a.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:236298",
+      "type": "series",
+      "name": "Selena + Chef: Home for the Holidays",
+      "poster": "https://image.tmdb.org/t/p/w500/xlxfOdtYHIhM9QVFT31bvmwitkb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oSTfSYChSRTVu6PmNvyKb0yXUPw.jpg",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:239921",
+      "type": "series",
+      "name": "The Elf on the Shelf: Sweet Showdown",
+      "poster": "https://image.tmdb.org/t/p/w500/6PCtLqO7nGcIwLAr4TPMglgOHpO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zqVkSMakGmXMP69FuZssnjSqDEG.jpg",
+      "releaseInfo": "2023"
+    }
+  ]
+}

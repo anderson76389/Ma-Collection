@@ -1,0 +1,173 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:335032",
+      "type": "series",
+      "name": "Secret Life of a Vegas Casino",
+      "poster": "https://image.tmdb.org/t/p/w500/xyfxV0s0mBRs1NsgYJ3cBlmyLSo.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:317265",
+      "type": "series",
+      "name": "Conspiracies & Coverups",
+      "poster": "https://image.tmdb.org/t/p/w500/267R91mdS8Sb3XBgdpr033REWKW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/otmrP3wuZd9YD5LGRuDpd7v5qWZ.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:314551",
+      "type": "series",
+      "name": "Orange County Choppers Original",
+      "poster": "https://image.tmdb.org/t/p/w500/6Di5E4xogj8WyC9Bphe5ggE7dWn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sEQ25YLNmCr9cYMHmKXuMYw8ePg.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:311938",
+      "type": "series",
+      "name": "120 Hours Behind Bars",
+      "poster": "https://image.tmdb.org/t/p/w500/megsN596o4oxtJTIMKvHLB8HVty.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ytPawSashRcfe4fhATSOKOadyrM.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:287622",
+      "type": "series",
+      "name": "Red Bull Soapbox Race",
+      "poster": "https://image.tmdb.org/t/p/w500/4I5K2zfhBu2JJOdei0ZpqbT746c.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pcmmM2o3xEQcQNlGXi9Bf6O52ts.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:286060",
+      "type": "series",
+      "name": "Constables on Patrol",
+      "poster": "https://image.tmdb.org/t/p/w500/fXVeNeYtG3nFVoGTVShZ3v8nQUQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/e0cJndbZrQ1qCFurJlVzg31CjMU.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:285267",
+      "type": "series",
+      "name": "Sales trésors !",
+      "poster": "https://image.tmdb.org/t/p/w500/jyJ7lRbh4QD6EOL2ARRZr5y3OAT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/u1U7VbjTYjFrcLb8P3JH0QydOTf.jpg",
+      "description": "Matt Paxton, roi des trésors cachés, fouille des maisons oubliées et encombrées afin d'y dégoter des objets rares qui pourraient lui rapporter gros.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:282217",
+      "type": "series",
+      "name": "Les As du harpon",
+      "poster": "https://image.tmdb.org/t/p/w500/vcgldl1NwfNYwKqRBycQsRBjZEi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/v4hr2pfeKI1ZfM7nu8xXvYjivDO.jpg",
+      "description": "Chaque été, à Cape Cod, des familles de pêcheurs multigénérationnelles se livrent à une course contre la montre - et entre elles - pour capturer le très précieux thon rouge de l'Atlantique à l'aide de harpons électrifiés de trois mètres de long. Le temps est compté, car les harponneurs n'ont que quatre semaines pour capturer autant de poissons que possible avant que la limite globale ne soit atteinte. Avec des poissons valant jusqu'à 10 000 dollars chacun, l'enjeu est de taille pour ces pêcheurs experts qui doivent joindre les deux bouts pour leur famille et battre la concurrence pour ramener ces poissons de prix à la maison.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:275223",
+      "type": "series",
+      "name": "Les derniers bûcherons",
+      "poster": "https://image.tmdb.org/t/p/w500/3kK2rhAZBdRAkFlKoTLpeajptNr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wx4V7CcCKap3O74BzqCs2weL8SK.jpg",
+      "description": "Jared Douglas et son équipe de bûcherons risquent leur vie pour abattre des arbres parmi les plus isolés et les plus recherchés de la planète.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:275106",
+      "type": "series",
+      "name": "Josh Gates et les mystères de l'histoire",
+      "poster": "https://image.tmdb.org/t/p/w500/3s7DheMzgrgyQS588RqNuM442CG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rCNtZsZGYLkIMsxys6ox1VgufGg.jpg",
+      "description": "L'aventurier Josh Gates voyage à travers l'histoire à la recherche de nouvelles preuves et réponses aux mystères les plus captivants et inexpliqués du monde.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:274942",
+      "type": "series",
+      "name": "Contraband: Seized at the Airport",
+      "poster": "https://image.tmdb.org/t/p/w500/pj1bWQqaUfB8KsHQWbbGZ1haEgE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8O51oCq24CmBOuMS5dAjmmALsqU.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:272717",
+      "type": "series",
+      "name": "Lost Monster Files",
+      "poster": "https://image.tmdb.org/t/p/w500/pUppgH04XSDt5rEI9MsJVH2ED0d.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wcIsU2Vbg4xoPoPA5Dt1X9RRuLR.jpg",
+      "description": "Lost Monster Files présente une équipe d'experts qui ont obtenu un accès exclusif aux recherches détaillées de Sanderson et qui les utiliseront pour enquêter à nouveau sur les cas les plus importants qu'il n'a pas encore résolus. L'équipe se concentrera sur les observations actuelles telles que l'abominable homme des neiges et le Chupacabra afin de déterminer si la science et la technologie modernes peuvent les rapprocher des réponses concernant ces créatures mystérieuses.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:272087",
+      "type": "series",
+      "name": "Destinations Maudites avec Zak Bagans",
+      "poster": "https://image.tmdb.org/t/p/w500/7jo6bCZdV70Q2Ja8KU7FI0H4vrx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vNUdWkoznH0D9duVkf3rUTxNjfO.jpg",
+      "description": "Zak Bagans vous emmène aux quatre coins du monde découvrir des lieux terrifiants et hantés qui ont bouleversé locaux et spécialistes du paranormal.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:258983",
+      "type": "series",
+      "name": "Contraband: Seized at Sea",
+      "poster": "https://image.tmdb.org/t/p/w500/lj7F5vCk8dOnC1Yj4xHX9iUDMAo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qcf6pplsXnwc2hfJ0QaFD4t9PYL.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:258731",
+      "type": "series",
+      "name": "Catastrophes naturelles : Survivre au pire",
+      "poster": "https://image.tmdb.org/t/p/w500/8dFicG5dMXI1PvzcH03SzSE3ukS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lo0iRpDmiEGgysKReMebnTrX0tm.jpg",
+      "description": "Cette série révèle les récentes catastrophes naturelles telles qu'elles se sont produites en temps réel à travers des images capturées par des témoins oculaires qui se sont retrouvés au mauvais endroit au bon moment et qui ont hardiment brandi leurs téléphones portables pour capturer l'œil de la tempête.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:255689",
+      "type": "series",
+      "name": "Rencontres extraterrestres : mythe ou réalité ?",
+      "poster": "https://image.tmdb.org/t/p/w500/4xKU6bq3LHeP9vegscRmEq5A4FF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fap4QnRHXreBfk3XLka01m1MQXK.jpg",
+      "description": "Cette série de documentaires emmène les téléspectateurs à l'intérieur d'un bar local à Roswell, NM, où de vraies personnes cherchent des réponses à propos de leurs étranges et inexplicables rencontres avec des OVNI.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:257527",
+      "type": "series",
+      "name": "Las Vegas : fourrière d'enfer",
+      "poster": "https://image.tmdb.org/t/p/w500/xp9oZE9SMKsVeWoa26SGqsF5lIN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/72771HSUsK1mDZQblV1XvY2G14F.jpg",
+      "description": "Lorsque les gens jouent et garent leur voiture illégalement, les dépanneurs de Vegas interviennent. Cela donne lieu à des bagarres, des propositions farfelues et des personnages loufoques qui font tout ce qu'ils peuvent pour récupérer leur véhicule. Deux sociétés de dépannage rivales s'affrontent pour maintenir le Strip de Vegas en mouvement.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:255968",
+      "type": "series",
+      "name": "Six Schizophrenic Brothers",
+      "poster": "https://image.tmdb.org/t/p/w500/vkpp2YD2uA4HBERVt0bRFuDJex0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/k0gYlSDpVnWet3hxS95B6echiuS.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:252287",
+      "type": "series",
+      "name": "Expédition Amazonie : voyage en enfer",
+      "poster": "https://image.tmdb.org/t/p/w500/uMEtI3zjgXBvU0rG3h0nyUWBd5U.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/i3CzneogOYG4JyNg63yl8zoEZVH.jpg",
+      "description": "Mickey Grosman, ancien expert en démolition des forces spéciales, a emmené un groupe d'aventuriers amateurs dans un voyage presque impossible à travers l'Amérique du Sud. Présenté comme un trek de charité pour la sensibilisation au cancer, les participants doivent prendre part à une expédition de 5 000 miles à travers le continent, en passant par les parties les plus sauvages de la jungle amazonienne. Un seul prétend être allé jusqu'au bout... Mickey Grosman.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:251265",
+      "type": "series",
+      "name": "Mud Madness",
+      "poster": "https://image.tmdb.org/t/p/w500/mj7jEKKksgBg4xb4XR1WaEAm11i.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7A1FbfcMbsyKevIepPWGGES1ssK.jpg",
+      "releaseInfo": "2024"
+    }
+  ]
+}

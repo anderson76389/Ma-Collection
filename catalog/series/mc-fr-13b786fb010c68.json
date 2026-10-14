@@ -1,0 +1,94 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:246461",
+      "type": "series",
+      "name": "Sherlock & Daughter",
+      "poster": "https://image.tmdb.org/t/p/w500/ifh5NNMzUEqErsHmeKjjGblbOav.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yyOMIYaHB1xDSULKvT0djOwP4qc.jpg",
+      "description": "Sherlock Holmes est confronté à une affaire sinistre et risque la vie de ses amis. L'Américaine Amelia se joint à eux, à la recherche de son père après le meurtre de sa mère. Malgré leurs différences, ils résolvent une conspiration et l'affaire de sa mère.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:248752",
+      "type": "series",
+      "name": "Enquêtes à Eden Vale",
+      "poster": "https://image.tmdb.org/t/p/w500/chnuU8ofzwLxlhXLJn8XooaUiJp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/biL1i895i3F6O8LD66JU6SjJgur.jpg",
+      "description": "Un drôle de duo de détectives, frère et sœur, au sein d'une petite police du nord-ouest du Pacifique, doit faire face à des habitants hauts en couleur, à un sérieux manque de ressources et à une dynamique très compliquée entre eux, et avec le chef de la police, Big Hank, qui s'avère être leur père.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:261604",
+      "type": "series",
+      "name": "The Wranglers",
+      "poster": "https://image.tmdb.org/t/p/w500/1KtQC753puVjqbnv7ORtvG8U0wY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tfz4t4jXBryDhR8EukVv5kta4Ub.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:261108",
+      "type": "series",
+      "name": "Scrabble",
+      "poster": "https://image.tmdb.org/t/p/w500/rPyOMo2sAgntdUdnRY4hnfvgMIa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bKwYqjPolMhtbc0eMFbYoy0VNJy.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:261107",
+      "type": "series",
+      "name": "Trivial Pursuit",
+      "poster": "https://image.tmdb.org/t/p/w500/vk2U7azARLXzKHzoJdwnYkojwZl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sublgjkcTHyPz5o3yGLVbcEOz6Y.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:254443",
+      "type": "series",
+      "name": "Billy Corgan's Adventures in Carnyland",
+      "poster": "https://image.tmdb.org/t/p/w500/wkkwCtlZcRxhSbQx2fegkfrHzIW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ySAgQIpfoiW3dwjekKELGVTvIds.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:254104",
+      "type": "series",
+      "name": "Police 24/7",
+      "poster": "https://image.tmdb.org/t/p/w500/jmXhy24SP6x5swnGSPbCuEQPYIG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AlxGts16nBUiF1Y6lBJFlSt0H03.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:252198",
+      "type": "series",
+      "name": "Patti Stanger: The Matchmaker",
+      "poster": "https://image.tmdb.org/t/p/w500/ApmakZoWrTrsftg7m1xMtpbaiHP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nCbu3LIv1tcaE2WQdLsi2wIcjPd.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:225743",
+      "type": "series",
+      "name": "Lovers and Liars",
+      "poster": "https://image.tmdb.org/t/p/w500/iwW4s4XBID1cmNUjvbIMvnDHiYt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dHpaOsNQWFVQdYHbN0U6IuxBJp2.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:235565",
+      "type": "series",
+      "name": "Crime Nation",
+      "poster": "https://image.tmdb.org/t/p/w500/ejvQR0KSwLOnFrYyD785iStYrY7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tirCOlZhRUp19WGB7CzOWLreyhQ.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:288843",
+      "type": "series",
+      "name": "Totally Funny Animals",
+      "poster": "https://image.tmdb.org/t/p/w500/iGx0FNByGj3dw0bobjqstHGWov9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hUkdecollMNgWtcgGhIpp5RB3nA.jpg",
+      "releaseInfo": "2024"
+    }
+  ]
+}

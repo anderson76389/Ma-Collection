@@ -1,0 +1,182 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1291366",
+      "type": "movie",
+      "name": "The Deputy",
+      "poster": "https://image.tmdb.org/t/p/w500/qL654LNOfBu49e12jnnQIv6mny.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3WBGquZOd4iNl288BmWzkp0Fbdy.jpg",
+      "description": "L’histoire suit Toby Sawyer, un adjoint du shérif à temps partiel dans le Mississippi rural, qui est réveillé en pleine nuit par le chef Krueger pour garder un corps jusqu’à l’arrivée du médecin légiste. Lorsqu’une heure plus tard le cadavre disparaît mystérieusement, Toby se lance dans une recherche effrénée...",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1476746",
+      "type": "movie",
+      "name": "The Florist",
+      "poster": "https://image.tmdb.org/t/p/w500/4tnRvIiWMzVA2Tw9c7INLo4sfo0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jpH1VRw74w0vvPTY0ryKEtMIXc.jpg",
+      "description": "Un horticulteur discret, qui mène en secret une double vie de tueur implacable, voit son identité menacée lorsqu’il se lie d’une amitié inattendue avec un témoin ayant découvert un vaste réseau de corruption policière.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1607127",
+      "type": "movie",
+      "name": "One Last Shot",
+      "poster": "https://image.tmdb.org/t/p/w500/3DpDxNTAOKdZsSxOMXCm1U8W9kk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8giIQcHpxgsPVP6c7aQtHl3txuh.jpg",
+      "description": "Jake Harris, un Navy SEAL chevronné, reprend du service lorsque le monde est menacé par Elliot Carter, l'un de ses anciens compagnons d'armes devenu terroriste. Alors que les chefs d'état-major interarmées sont retenus en otage dans un bunker nucléaire, il reste peu de temps avant que Carter ne s'empare de codes nucléaires et plonge le monde dans le chaos. Pour l'arrêter, Harris n'a d'autre choix que de conduire son équipe en territoire ennemi. Face à une armée de mercenaires impitoyables et à des pièges mortels, il va également devoir affronter les démons de son passé.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1643135",
+      "type": "movie",
+      "name": "Run Hide Fight: Infidels",
+      "poster": "https://image.tmdb.org/t/p/w500/gkVq1Pd46NF7AP5XQZfRHjQfCXX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5LINHN9KrzfYZxogKlTCcvR1Gki.jpg",
+      "description": "Après que des terroristes islamistes ont pris d'assaut un campement pro-palestinien installé sur le campus d'une université dans le but d'imposer la charia aux étudiants et d'exécuter les dissidents qu'ils considèrent comme des « infidèles », un groupe d'étudiants, un agent de sécurité et un ancien membre de la Delta Force s'allient pour riposter.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1228834",
+      "type": "movie",
+      "name": "The Fix",
+      "poster": "https://image.tmdb.org/t/p/w500/yopXjun3ICFfJci2ukcEzceZjUs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yT8EkAvEkJDFeAxK7s7HlIPELRT.jpg",
+      "description": "Tucker dirige une unité d'anciens opérateurs de la CIA en disgrâce à Téhéran.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1386315",
+      "type": "movie",
+      "name": "The Runner",
+      "poster": "https://image.tmdb.org/t/p/w500/m2FaGlQUKMMFE6nUMwFTcIWbnEi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jzBWExXacS33rMQ2zLBrqIVweyG.jpg",
+      "description": "Maia Marten, une brillante avocate londonienne, voit sa vie basculer quand un appel durant son jogging lui annonce que son fils a été enlevé. Pour le récupérer, elle ne doit pas cesser de courir et suivre les ordres, aussi cruels soient-ils, sans se fier à personne. Chaque seconde est une épreuve qui repousse les limites d'une mère prête à tout pour sauver son enfant.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1284046",
+      "type": "movie",
+      "name": "Onslaught",
+      "poster": "https://image.tmdb.org/t/p/w500/92SC3guG88KQmZ8GQBKNIxz5OrB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
+      "description": "Lorsqu’une escouade de supersoldats génétiquement modifiés s’évade dans le désert, une redoutable tireuse d’élite de l’armée doit livrer une guerre sans merci pour sauver sa fille.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1482547",
+      "type": "movie",
+      "name": "Zip Wire",
+      "poster": "https://image.tmdb.org/t/p/w500/cO7J0XSVKPlAjUCMWC7DVBn1Py2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sbkkAtymJaH5UzExiK974uPzCY4.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:813418",
+      "type": "movie",
+      "name": "Hot Spot",
+      "poster": "https://image.tmdb.org/t/p/w500/42egzT6e4CIEdrEo4Xc31DKyGjA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mATo9RWAc7IWGVbetpmmKJqWDiJ.jpg",
+      "description": "Dans une société gouvernée par une IA sensible, un détective privé enquêtant sur un meurtre tombe sur un groupe rebelle capable d'ébranler le chef numérique.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1288445",
+      "type": "movie",
+      "name": "Mutiny",
+      "poster": "https://image.tmdb.org/t/p/w500/rfRLWbxLZPq2eboKPsBvh1NgNwM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/e2QAGrEmbpmZpMymDRkDisJkvg9.jpg",
+      "description": "Cole Reed, ancien agent des forces spéciales reconverti en chef de sécurité, est accusé à tort du meurtre de son patron. Remontant le fil de la machination dont il est victime, il se retrouve piégé à bord d’un porte-conteneurs dont l’équipage est composé de mercenaires. En haute mer, Reed ne pourra compter sur aucune aide…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1323244",
+      "type": "movie",
+      "name": "Rage of Stars",
+      "poster": "https://image.tmdb.org/t/p/w500/oLld47ZT1I3iecM3OWhIphohQUJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z7lZgL5tzefTfhyRtouThFhsuUS.jpg",
+      "description": "L'histoire d'une femme membre des forces spéciales internationales, qui a une prémonition de la fin imminente de l'humanité.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1458215",
+      "type": "movie",
+      "name": "The Gentleman Thief",
+      "poster": "https://image.tmdb.org/t/p/w500/oMutDMODnbCZf46w0dK4wncQmDB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aayQcCebqLmkTZdILp9JVcFiIRL.jpg",
+      "description": "Sorti de sa retraite, le maître voleur Mason Goddard doit dérober un tableau d'une valeur inestimable et déjouer le piège mortel tendu par un baron du crime impitoyable.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:87513",
+      "type": "movie",
+      "name": "Motor City",
+      "poster": "https://image.tmdb.org/t/p/w500/rKws4iqKhrzWHVLHnwtMnCpEHhF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/l7asYmqOad01F2u0oCMM8nQjoEP.jpg",
+      "description": "À Détroit dans les années 1970, John Miller sort de prison. Il décide alors de se venger et de récupérer la femme qu'il aime, Sophia.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1472951",
+      "type": "movie",
+      "name": "Infiltrate",
+      "poster": "https://image.tmdb.org/t/p/w500/8Cw8GF9wG63kF8pRRXwOx2kXGt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cEvyR19pmQ2s3DE8mdyL0m2Lv2N.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1705729",
+      "type": "movie",
+      "name": "Man of War",
+      "poster": "https://image.tmdb.org/t/p/w500/vt0RqHlqfUzeiBEVQvp43yY2076.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kMrkqfjuPR4FlfaScrNNYuOEGHa.jpg",
+      "description": "Lorsqu'une travailleuse humanitaire disparaît dans les premières heures de la guerre en Ukraine, une ancienne membre des Navy SEAL et de la CIA traverse ce pays dévasté pour ramener chez elle des mercenaires, des lignes de bataille mouvantes et des fantômes qu'il pensait avoir laissés derrière lui.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1413976",
+      "type": "movie",
+      "name": "Citizen Vigilante",
+      "poster": "https://image.tmdb.org/t/p/w500/6LmJD3Wohe0g4U62wgi7RyJqfE4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zUninC7dOHfzwcgCqQMLQjlMtiy.jpg",
+      "description": "Frustré par l'absence de justice publique, Sanders décide de prendre les choses en main en devenant un justicier. Il se met alors en tête de punir à la fois les criminels et les fonctionnaires corrompus. À mesure que ses actions de justicier s'intensifient, sa notoriété grandit : il gagne le soutien du public, qui le considère comme un héros, mais attire également l'attention d'Henry, un responsable d'Interpol, qui le perçoit comme une menace pour la société.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1279493",
+      "type": "movie",
+      "name": "The Get Out",
+      "poster": "https://image.tmdb.org/t/p/w500/zlkeH0s7dDxcnuPcHBqAyXFUxqN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mDVnHFcxxUJC9TQFVeKh1TJNBzh.jpg",
+      "description": "Après avoir été mystérieusement plumé par deux amants hors-la-loi et complètement fous, un propriétaire de boîte de nuit vieillissant mais impitoyable doit trouver un moyen d'échapper aux cartels pour lesquels sa petite amie et lui blanchissaient de l'argent.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1380291",
+      "type": "movie",
+      "name": "Jack Ryan de Tom Clancy : Guerre Fantôme",
+      "poster": "https://image.tmdb.org/t/p/w500/zR4RAnv4s6zpXhiqepdonAw4oF3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dd31qJxOarrHyGZwYsCzOjobQzP.jpg",
+      "description": "Jack Ryan doit malgré lui replonger dans le monde de l'espionnage quand une opération secrète met au jour une conspiration mortelle. Tandis que chaque seconde compte, il est rejoint par Mike November et James Greer de la CIA, ainsi que par Emma Marlowe, agent chevronné du MI6. Ils affrontent une unité clandestine dans une lutte à haut risque et aux implications personnelles.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1088434",
+      "type": "movie",
+      "name": "Hellfire",
+      "poster": "https://image.tmdb.org/t/p/w500/tQti9QTf13MfzNpXguijgNh7ojE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1gLFGrxHqQebqLWpISmoFR6XWtJ.jpg",
+      "description": "Un mystérieux vagabond, ancien Béret vert, arrive dans une petite ville frontalière du Sud et découvre une communauté forcée de distribuer de la drogue pour un syndicat criminel sans pitié. Et ça, il est sur le point de le changer.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1122573",
+      "type": "movie",
+      "name": "Les Spécialistes",
+      "poster": "https://image.tmdb.org/t/p/w500/sF1EGQWrUghvtD3VpqgsBACHr9u.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qcIKxhqGMIj8uujsSoSMZWr8QqU.jpg",
+      "description": "Rachel, recouvreuse de dettes de haut vol, exerce un métier dangereux. C'est pourquoi elle s'entoure des meilleurs, Sid et Bronco, pour l'accompagner et la protéger dans ses négociations. Mais même pour ces spécialistes, récupérer le milliard de dollars de leur prochain contrat pourrait être mission impossible. Sauf qu'impossible ne fait pas partie de leur vocabulaire…",
+      "releaseInfo": "2026"
+    }
+  ]
+}

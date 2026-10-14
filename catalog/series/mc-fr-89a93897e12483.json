@@ -1,0 +1,38 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:240263",
+      "type": "series",
+      "name": "The Good Stuff with Mary Berg",
+      "poster": "https://image.tmdb.org/t/p/w500/qBFo5RoXyugjoSlhxmtsXfv9L1I.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/52DxQEtqPFD6LW3miVzGZa8axyX.jpg",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:234613",
+      "type": "series",
+      "name": "Les Traîtres (Canada)",
+      "poster": "https://image.tmdb.org/t/p/w500/6mrgzGZIZuAN6tx1lPxL0iWtx56.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sexNBB5fScor0mpzJaiHfe0olSD.jpg",
+      "description": "Vingt inconnus arrivent dans un manoir pour participer à un jeu de rôle policier.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:310890",
+      "type": "series",
+      "name": "Slo Pitch",
+      "poster": "https://image.tmdb.org/t/p/w500/cvo5GOJzfow81Xa4mjYseTxfvxD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kzlREDOnR1ZPSe1AM6Ew0PWI4x5.jpg",
+      "description": "Une personne déterminée guide son équipe de balle lente LGBTQ+ à travers les hauts et les bas dans la poursuite de leurs rêves.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:64958",
+      "type": "series",
+      "name": "MasterChef Canada",
+      "poster": "https://image.tmdb.org/t/p/w500/bQqv15gu9eKto8HjooaS2bw6hIf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5o2mu6NSKjpXYifzXsSEfF3ngKp.jpg",
+      "releaseInfo": "2014"
+    }
+  ]
+}

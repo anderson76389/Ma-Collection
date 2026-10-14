@@ -1,0 +1,49 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1148365",
+      "type": "movie",
+      "name": "Matchbox – Le film",
+      "poster": "https://image.tmdb.org/t/p/w500/vSgnJDw404JUokiy5NDZgXOi01E.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/roawIpy5sigBB7LsU4AJDw70jPo.jpg",
+      "description": "Des amis d'enfance reprennent contact et les retrouvailles prennent une tournure inattendue quand ils découvrent un dangereux complot international et doivent sauver le monde.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1185806",
+      "type": "movie",
+      "name": "La Pat’ Patrouille : Le film mission Dino",
+      "poster": "https://image.tmdb.org/t/p/w500/iprKhXVhUuGo3LbPurtB7Zcq6ph.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6TSxLmwT7j1ugtKi8NyMmdzWAGj.jpg",
+      "description": "Lorsqu’une mystérieuse tempête surprend leur navire, la Pat’ Patrouille s’échoue sur une île tropicale encore inexplorée… et peuplée de dinosaures ! Ils y rencontrent Rex, un chiot courageux installé sur l’île depuis des années et devenu un véritable expert des dinosaures. Mais leur ennemi de toujours, M. Hellinger, arrive lui aussi sur l’île avec un projet dangereux : exploiter ses richesses naturelles en creusant des mines. Ses actions imprudentes déclenchent bientôt l’éruption d’un gigantesque volcan endormi. La Pat’ Patrouille se retrouve alors entraînée dans une série de missions de sauvetage spectaculaires, plus impressionnantes que tout ce qu’elle a connu jusqu’ici. Elle devra arrêter M. Hellinger et sauver l’île avant qu’il ne soit trop tard.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:454639",
+      "type": "movie",
+      "name": "Les Maîtres de l'univers",
+      "poster": "https://image.tmdb.org/t/p/w500/tJxeLnt5K3LHfJdaAZY6bttM0Sv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5MUMB3aPEPEQPCIAaygXFUTWE9Y.jpg",
+      "description": "Quinze ans après avoir recherché l'Épée du Pouvoir, Adam est catapulté sur sa planète natale Eternia, sur laquelle Skeletor règne désormais. Avec Teela et Duncan à ses côtés, il doit libérer son vrai pouvoir, embrasser son destin en tant que Musclor, et lutter pour sauver son monde et les gens qu'il aime.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1698856",
+      "type": "movie",
+      "name": "Master of the Universe",
+      "poster": "https://image.tmdb.org/t/p/w500/a77OcLmarwiBJakOPPC36m58t4L.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uOQtyMV2G9yJvc0s14zmLoRC5H9.jpg",
+      "description": "Un jeune homme doit faire appel à ses pouvoirs inexploités pour lutter contre un extraterrestre maléfique et son armée, qui ne reculeront devant rien pour conquérir la Terre, puis l'univers.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1549292",
+      "type": "movie",
+      "name": "LEGO La Reine des Neiges : La revanche des oiseaux",
+      "poster": "https://image.tmdb.org/t/p/w500/6LjiXXepZPvnQmrgV1pUh4kRFw1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gbAcTyVtPfzCBs58xs6NYKHiPCp.jpg",
+      "description": "Après les événements de « La Reine des neiges », Anna et Elsa veulent prendre un nouveau départ à Arendelle et rendre le château un peu plus confortable. Alors qu'elles luttent pour se libérer des contraintes de la tradition, le duc de Weselton qui s'est entouré d'une nuée de macareux menaçants, a d'autres projets pour leur belle demeure.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:70672",
+      "type": "series",
+      "name": "Knowing Brothers",
+      "poster": "https://image.tmdb.org/t/p/w500/zak7mqMxJGnnWplSdbjDtV7bg2Y.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/a8a8z4aJr40zYgRMfmSESppX2eO.jpg",
+      "description": "Durant l'émission l'invité(e) fait un questionnaire sur lui et pose les questions une par une et les présentateurs doivent avoir le plus de bonnes réponses. S'ils se trompent, ils sont punis. Le concept de l'émission est que les présentateurs soient dans un lycée et que chaque invité soit un « nouvel » élève transféré.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:73036",
+      "type": "series",
+      "name": "냉장고를 부탁해",
+      "poster": "https://image.tmdb.org/t/p/w500/q0ZjzXScH2bZgqIWlT2xAQOPAH8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uBp9d5J58yzjafKiWsz7cdctmIY.jpg",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tmdb:130103",
+      "type": "series",
+      "name": "날아올라라 나비",
+      "poster": "https://image.tmdb.org/t/p/w500/dJZzKvTje5z5Ov8NmZeMSy69cOc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1rjJf57TSfAU3Y3fzgxMwtRxnI5.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:325114",
+      "type": "series",
+      "name": "연애전쟁",
+      "poster": "https://image.tmdb.org/t/p/w500/s8cQ3omLNwPIVWPyHpEBBsS9YJd.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rzFWrUMPl5JEZYXcnTLmd2uv2sF.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:310351",
+      "type": "series",
+      "name": "강연배틀쇼 사기꾼들",
+      "poster": "https://image.tmdb.org/t/p/w500/8bEJUWgTSZpUiQxPrsvfCMzgMA6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/746B7e9lozS5WGUCg2kYIHTMUDm.jpg",
+      "releaseInfo": "2026"
+    }
+  ]
+}

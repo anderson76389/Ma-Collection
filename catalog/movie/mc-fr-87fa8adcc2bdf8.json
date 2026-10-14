@@ -1,0 +1,179 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1268609",
+      "type": "movie",
+      "name": "Pavane",
+      "poster": "https://image.tmdb.org/t/p/w500/22RlxpIT4u4psfIx9tmtbPvgAbm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/atWzbjlDkfbkh4mdY3uuiF9vr3r.jpg",
+      "description": "Trois personnes solitaires qui travaillent dans le même grand magasin trouvent du réconfort en compagnie les unes des autres tout en explorant les liens et la nature de l'amour.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1411577",
+      "type": "movie",
+      "name": "넘버원",
+      "poster": "https://image.tmdb.org/t/p/w500/qg0MKxZtg5CROXqfXBGVZmaxGbK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/or89P4LOBh450EygOzUffbJ9M07.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1268127",
+      "type": "movie",
+      "name": "Humint",
+      "poster": "https://image.tmdb.org/t/p/w500/f7sCSLEPRfV2fWQ0RYOtHhnHXuG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5KFThZkdBEQkp9gPWWWNb5CI5yD.jpg",
+      "description": "Zo In-sung et Park Jeong-min incarnent deux agents ennemis de Corée du Sud et du Nord qui risquent leur vie et leur loyauté pour se dévouer à une même cause : une informatrice.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1321179",
+      "type": "movie",
+      "name": "The King's Warden",
+      "poster": "https://image.tmdb.org/t/p/w500/kkJB3SeUJp7Y0IXXLkv5QZHJGkH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1s1r4OOdnU8VX2inALVTA2q94uY.jpg",
+      "description": "Un jeune roi est détrôné et exilé dans un petit village situé dans une vallée de montagne, en compagnie de sa dame d'honneur. Il y fait la connaissance des villageois, dont le chef du village.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1401542",
+      "type": "movie",
+      "name": "Project Y",
+      "poster": "https://image.tmdb.org/t/p/w500/s4z1ek0vRtIa5ZOcK4EpdU6qen9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8yzfrJQRt90oBjSnKoziXl0A42l.jpg",
+      "description": "Piégés dans les rues les plus dangereuses de Gangnam, Mi-sun et Do-kyung misent tout sur un dernier pari désespéré, qui leur permettra peut-être de découvrir une cachette remplie d'argent sale et d'or qui leur offrira enfin la liberté.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1264805",
+      "type": "movie",
+      "name": "Once we were us",
+      "poster": "https://image.tmdb.org/t/p/w500/3ajXIRwoTGvnlLWVPgZPrHgXIW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2xtajuwR5EGFQm4pXuykWoEu4u0.jpg",
+      "description": "Séoul, 2008. Dans un bus en direction de leur ville natale, le destin réunit Eun-ho et Jeong-won, déclenchant une amitié improbable. Tout en luttant contre une vie urbaine trépidante et fatiguée, ils se retrouvent à partager de nobles rêves et un amour qui semble extraordinaire. Mais les dures réalités de la vie finissent par les amener à se séparer. Plus d'une décennie après leur séparation, les deux se retrouvent de manière inattendue sur un vol de retour vers la Corée, où ils réfléchissent au temps perdu.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1466115",
+      "type": "movie",
+      "name": "Even If This Love Disappears Tonight",
+      "poster": "https://image.tmdb.org/t/p/w500/bMA6E5cu1QUMehjBZOjWjqQjhey.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iL5eGI9ctHdUOV4yG6dyGKctSEX.jpg",
+      "description": "Une lycéenne se réveille chaque matin sans aucun souvenir du jour précédent. Elle sort avec un camarade timide, mais l'amour peut-il s'épanouir dans cet éternel recommencement ?",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1290183",
+      "type": "movie",
+      "name": "퍼스트 라이드",
+      "poster": "https://image.tmdb.org/t/p/w500/3KyiJ6yvw4thfSoBxntSb3ZNrg1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vi9uWG7rHEXw8eDXl3lOgy5lUNC.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1317512",
+      "type": "movie",
+      "name": "The World of Love",
+      "poster": "https://image.tmdb.org/t/p/w500/tLGaVKh2rBfkBmhW6qXep4njrlO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rYYUi8m3YdPxDRbjs3xU5ct3Rzi.jpg",
+      "description": "Joo-in est une lycéenne espiègle et appréciée de tous. Un jour, un camarade de classe lance une pétition que tous les élèves signent, sauf elle. Son monde, en apparence paisible et insouciant, dissimule un passé douloureux auquel Joo-in est alors contrainte de faire face. Mais loin de se laisser enfermer, elle choisit d’avancer et de se réinventer.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:982843",
+      "type": "movie",
+      "name": "Submersion",
+      "poster": "https://image.tmdb.org/t/p/w500/7eO8JlexvT8uyqBVdsPcbk3CE7a.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/218MafWtM9XpPRuNdh0uhrNezi5.jpg",
+      "description": "Alors que l'Apocalypse menace la Terre, une lutte à la vie à la mort dans un appartement submergé par les eaux devient rapidement le seul espoir de subsister pour l'humanité.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1151766",
+      "type": "movie",
+      "name": "Murder Report",
+      "poster": "https://image.tmdb.org/t/p/w500/rcmJRflS4aFJg8Ockk7YePQWlzc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/71AwUbnqsXrPHJBwHpfGEEawSqK.jpg",
+      "description": "Un tueur en série, Yeong Hoon, qui a assassiné 11 personnes, offre une interview spéciale à Seon Joo, une journaliste chevronnée qui cherche désespérément un scoop.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1355666",
+      "type": "movie",
+      "name": "Le Méli-mélo des sentiments",
+      "poster": "https://image.tmdb.org/t/p/w500/bw1YxfHwRROODGSQqMrWNm2N7pT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oBcvmHD7lbaX8RZ7NXvO05fIJef.jpg",
+      "description": "Une ado amoureuse se met en tête de faire craquer le beau gosse de l'école en lissant ses cheveux bouclés. Mais l'arrivée d'un nouvel élève vient tout chambouler.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1306816",
+      "type": "movie",
+      "name": "좀비딸",
+      "poster": "https://image.tmdb.org/t/p/w500/aASLRiO8p9xLIvG9EHXSyZ71sPl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gT7MXlPs7ohpdefR5cdgdPx1zsf.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1269208",
+      "type": "movie",
+      "name": "84 m²",
+      "poster": "https://image.tmdb.org/t/p/w500/hcyWZZ6cfrxLmdFsA5NMsg0gAgS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hyxKzbKnVWWJelyO2fagFFTHu96.jpg",
+      "description": "Un homme qui a tout investi dans un nouvel appartement découvre que ses quatre murs renferment des bruits dérangeants, des voisins hostiles et des secrets troublants.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1000520",
+      "type": "movie",
+      "name": "태양의 노래",
+      "poster": "https://image.tmdb.org/t/p/w500/vnIPXGpnoIsJOCt2TCB9p4cBCJ0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/42Ey9q1qrr68exw6QeCQrzFHyyB.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1418849",
+      "type": "movie",
+      "name": "Ce que cette nature te dit",
+      "poster": "https://image.tmdb.org/t/p/w500/8h6XsLGgfGhY0R9PEj9TVvpq9QL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fZ6cXVESqUp2mq9NkYykrjz3EEG.jpg",
+      "description": "La rencontre inattendue d’un jeune homme avec la famille de sa petite amie. Au cours d’une journée et d’une nuit dans leur belle maison au jardin arboré, la vraie nature de chacun se dévoile.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:607845",
+      "type": "movie",
+      "name": "바이러스",
+      "poster": "https://image.tmdb.org/t/p/w500/rbWdnNmnSr46Z5Wk2zYG0AWICO7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zwFD32lmTDFLfwjCH4RvotH6LaP.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1247002",
+      "type": "movie",
+      "name": "L'ombre, la femme et le couteau",
+      "poster": "https://image.tmdb.org/t/p/w500/4AZVZJojg1w6EPMHRzMUddtmCJq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fepnF3W4VP3s8ui8nDtrlsFVYwO.jpg",
+      "description": "Hornclaw est une tueuse légendaire âgée d'une soixantaine d'années, spécialisée dans le contrôle des maladies, c'est à dire l'élimination des parasites humains, depuis plus de quarante ans. Peut-être parce qu'elle vieillit, elle éprouve une étrange compassion pour le médecin qui l'a soignée. Un jour, un jeune tueur nommé Bullfight se présente à elle. Une étrange relation se noue entre eux...",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1137179",
+      "type": "movie",
+      "name": "Yadang: The Snitch",
+      "poster": "https://image.tmdb.org/t/p/w500/k4yTwFqvQDApqaoFdgubsbYcuno.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9pdoEzieGdUTlRWTAO7QP8q1tIo.jpg",
+      "description": "Des informateurs professionnels appelés “ yadang ” fournissent des informations secrètes sur le monde de la drogue aux procureurs et à la police. Après une saisie de drogue au cours d'une fête à laquelle assistent des personnalités, un yadang chevronné doit se battre pour survivre.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:760497",
+      "type": "movie",
+      "name": "The Match",
+      "poster": "https://image.tmdb.org/t/p/w500/x1xHVv5rdvvCjF5wmGhtbHrlUgo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tVCg0HYPLFVYljiQXJCWTY43LJR.jpg",
+      "description": "Ayant perdu face à son ancien protégé et ami, un champion de go légendaire décide de récupérer son titre lors d'un duel où les adversaires rivalisent de ruse et d'esprit.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

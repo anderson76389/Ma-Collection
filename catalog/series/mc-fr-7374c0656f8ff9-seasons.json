@@ -1,0 +1,67 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:2734",
+      "type": "series",
+      "name": "New York Unité Spéciale",
+      "poster": "https://image.tmdb.org/t/p/w500/95flTYCxEPNFSdZVrHy9nMIeLbw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xhK9YCxNwnE0OB1SWvCY39heHQI.jpg",
+      "description": "Les inspecteurs qui font partie de la division des Crimes sexuels (SVU) du service de police de la ville de New York (NYPD) enquêtent sur des crimes de nature sexuelle. Alors que les autres émissions de la franchise de \"La loi et l'ordre\" se sont largement concentrées sur les cas de meurtres, les inspecteurs de la division des Crimes sexuels (SVU) ont souvent affaire à des crimes, tel le viol, auquel la victime survit et elle aide les autorités lors de l'enquête.",
+      "releaseInfo": "1999"
+    },
+    {
+      "id": "tmdb:4614",
+      "type": "series",
+      "name": "NCIS : Enquêtes Spéciales",
+      "poster": "https://image.tmdb.org/t/p/w500/salC1Yhi3QW8DW5iIJGFQOzPWVQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/c1aBrG5s5xFa6Tbnihu2Hhj4t2q.jpg",
+      "description": "L'agent spécial Leroy Jethro Gibbs, de la Section criminelle de la Gendarmerie maritime, dirige un groupe de personnes aux personnalités colorées qui enquête sur les crimes. Ceux-ci vont du meurtre et de l'espionnage au terrorisme, et sont reliés de manière assurée au personnel du corps de la Marine. L'équipe est composée d'Anthony DiNozzo, un ex-inspecteur plein d'esprit spécialisé en homicides, d'Abby Sciuto, l'excentrique spécialiste d'enquête en technique de laboratoire, de Timothy McGee, brillant lorsqu'inquiet, et de Ziva David, ex-officier de liaison du Mossad. Le Dr Donald \"Ducky\" Mallard contribue à la résolution de cas grâce à sa grande expérience dans le domaine de la médecine légale.",
+      "releaseInfo": "2003"
+    },
+    {
+      "id": "tmdb:1413",
+      "type": "series",
+      "name": "American Horror Story",
+      "poster": "https://image.tmdb.org/t/p/w500/o6n7edVeJJFLPwd2pQdbiZ0b8wW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5G4Bnc4Q0YUK1bwLEUYmIsmm2Ib.jpg",
+      "description": "À chaque saison, son histoire. American Horror Story nous embarque dans des récits à la fois poignants et cauchemardesques, mêlant la peur, le gore et le politiquement correct. De quoi vous confronter à vos plus grandes frayeurs !",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:1877",
+      "type": "series",
+      "name": "Phinéas et Ferb",
+      "poster": "https://image.tmdb.org/t/p/w500/wgEDwsPxEeYk3hLWKsTgs1KJhS6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5MWFjQ3NuNtNeOE9FdrVLeNMNPs.jpg",
+      "description": "Phineas et Ferb sont des demi-frères passant leurs vacances d'été à martyriser leur soeur, à s'imaginer des aventures extraordinaires dans leur jardin... sans se douter que leur ornithorynque de compagnie est un agent secret !",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tmdb:2710",
+      "type": "series",
+      "name": "Philadelphia",
+      "poster": "https://image.tmdb.org/t/p/w500/oBBffT1yfQ2zvflMIANI7ra7DNb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/265v8OtLO4h8XgJu5eDRpJdf9e0.jpg",
+      "description": "Un groupe de cinq égoïstes bons à rien sont copropriétaires d'un bar irlandais délabré. Souvent impliqués dans les problèmes, ils ne font rien d'autre à part comploter et se délecter de la misère des autres.",
+      "releaseInfo": "2005"
+    },
+    {
+      "id": "tmdb:211288",
+      "type": "series",
+      "name": "Tracker",
+      "poster": "https://image.tmdb.org/t/p/w500/dqKW7caILPY4JEXIxZek4YcgvbG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5C5cMYUlmX6BU5YxBqhp7ZpSd3Q.jpg",
+      "description": "Colter Shaw est un loup solitaire, qui parcourt le pays à bord de son camping-car, utilisant ses talents de pisteur pour aider les particuliers et les forces de l'ordre à résoudre toutes sortes de crimes ou à retrouver les personnes disparues.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:125935",
+      "type": "series",
+      "name": "Abbott Elementary",
+      "poster": "https://image.tmdb.org/t/p/w500/nBe1e3JJEZ6veGrVXNF0fRoLu56.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/asDINJT3b7tEa76uWI1rZ5TWdJF.jpg",
+      "description": "Dans cette comédie en milieu de travail, un groupe d'enseignants dévoués et passionnés - et un directeur légèrement sourd - sont réunis dans une école publique de Philadelphie où, malgré les obstacles qui leur sont opposés, ils sont déterminés à aider leurs élèves à réussir dans la vie. Bien que ces incroyables fonctionnaires soient en infériorité numérique et sous-financés, ils aiment ce qu'ils font - même s'ils n'aiment pas l'attitude moins que stellaire du district scolaire envers l'éducation des enfants.",
+      "releaseInfo": "2021"
+    }
+  ]
+}

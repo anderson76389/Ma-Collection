@@ -1,0 +1,68 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:323449",
+      "type": "series",
+      "name": "Love Island: The Debrief",
+      "poster": "https://image.tmdb.org/t/p/w500/edcr0RbwpOKniC1CAAo2EzUtp7d.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fFYUqzIsXOMsn7EbiEFDj7sY6WU.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:313865",
+      "type": "series",
+      "name": "The Heat",
+      "poster": "https://image.tmdb.org/t/p/w500/lTD9hmY7Pcz60h3G76ub42UjTP0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dA9n3w3bO8eBB8uS2lLKu4jCrcA.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:294123",
+      "type": "series",
+      "name": "Transaction",
+      "poster": "https://image.tmdb.org/t/p/w500/xOqnJc3IeIIBQicYaj7L310thtJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z0DPZ25SIU6Yus460913ona8kt4.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:275715",
+      "type": "series",
+      "name": "I'm a Celebrity... Unpacked",
+      "poster": "https://image.tmdb.org/t/p/w500/zKpqvyDzIQZNl31WcP7sNocubac.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uNSfDU18aGkJTaWuJGQ1bI0hFvq.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:259270",
+      "type": "series",
+      "name": "Piglets",
+      "poster": "https://image.tmdb.org/t/p/w500/zMdiHRB0nvOsaGnWu8cY406WLZH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qgNyokjCL7ZHNjNxXk6UbhDOQ99.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:247654",
+      "type": "series",
+      "name": "Celebrity Big Brother: Late and Live",
+      "poster": "https://image.tmdb.org/t/p/w500/1IqsGbb4DxfxeXvgmn6ywqIwk7f.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uWtvdTPQiwZ9BcCNZYOWKx3qTHq.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:245412",
+      "type": "series",
+      "name": "G'wed",
+      "poster": "https://image.tmdb.org/t/p/w500/9hB4MZi1pVunt8yfkhkbAPAzVS3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/h1WCkklwGuj6bMYAveHUK0ntTy9.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:243754",
+      "type": "series",
+      "name": "Love Island: All Stars",
+      "poster": "https://image.tmdb.org/t/p/w500/eMQYbtPpoGUcRJtYus7jJcvXKY5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/k6wUi9v3EzNaP07Ff2DtfNO5z2e.jpg",
+      "releaseInfo": "2024"
+    }
+  ]
+}

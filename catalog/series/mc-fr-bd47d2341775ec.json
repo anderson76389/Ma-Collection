@@ -1,0 +1,86 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:291",
+      "type": "series",
+      "name": "Coronation Street",
+      "poster": "https://image.tmdb.org/t/p/w500/5x1HXqYqPyYw7oc7Isu1lvVmwRP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5APjn4LnV5wWk5DXq7ZewT6zzP1.jpg",
+      "releaseInfo": "1960"
+    },
+    {
+      "id": "tmdb:2527",
+      "type": "series",
+      "name": "Emmerdale",
+      "poster": "https://image.tmdb.org/t/p/w500/4elMyMe6W782VxXr5R1BmWDoqSg.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kkyrixKwSU6fHCUOD9QJj6XKYmi.jpg",
+      "description": "La vie de plusieurs familles dans les Yorkshire Dales tourne autour d'une ferme et du village voisin. Avec des meurtres, des aventures, des mensonges, des tromperies, des rires et des larmes, tout est là dans le village.",
+      "releaseInfo": "1972"
+    },
+    {
+      "id": "tmdb:5266",
+      "type": "series",
+      "name": "University Challenge",
+      "poster": "https://image.tmdb.org/t/p/w500/cqczsSUFFOlAYQ2QOsrDo9tkhWi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9YROW0JA85k9IyHuaHhFcqzr0Jp.jpg",
+      "releaseInfo": "1962"
+    },
+    {
+      "id": "tmdb:55497",
+      "type": "series",
+      "name": "The Martin Lewis Money Show",
+      "poster": "https://image.tmdb.org/t/p/w500/vPXJHPAYaxuwSuMC1KbHqAN3cCX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AvF220hOUohXd6Qfkmv1Lbte0bG.jpg",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:39614",
+      "type": "series",
+      "name": "The Voice (Royaume-Uni)",
+      "poster": "https://image.tmdb.org/t/p/w500/dLfTwqgw948vgD1NbBVeyonhKN4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wpjPWl3t6H4M9gmSxNz91tichkU.jpg",
+      "description": "Il s’agit d’une émission de télé-réalité consacrée à un concours de chant, réunissant des talents authentiques aux voix remarquables. Seuls les meilleurs candidats franchissent l'étape des auditions à l’aveugle, où les décisions des quatre coachs de renom reposent uniquement sur ce qu’ils entendent, sans aucun autre critère.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:2441",
+      "type": "series",
+      "name": "Tonight",
+      "poster": "https://image.tmdb.org/t/p/w500/fuQF9F1AKQfIiLoheLhtD8OvKjB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ftSFCPImcUqafkgvt07Z03XKTbH.jpg",
+      "releaseInfo": "1999"
+    },
+    {
+      "id": "tmdb:129105",
+      "type": "series",
+      "name": "Cooking with the Stars",
+      "poster": "https://image.tmdb.org/t/p/w500/9ZzZZQW0PGjzZvDmm00tdHakyuC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5KB1kXKAmAv0CIlyO8fErQEoT8x.jpg",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:247379",
+      "type": "series",
+      "name": "Prue Leith's Cotswold Kitchen",
+      "poster": "https://image.tmdb.org/t/p/w500/7Hp67LLXxtUQhbKQ2k0JsVjXJRY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pAMR0u6WHN3JIA3EQspXSDCnBHI.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:10660",
+      "type": "series",
+      "name": "The Box",
+      "poster": "https://image.tmdb.org/t/p/w500/m0UhkGntknE7cSOPvJH2x1YQmBO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/b4t98QvbW3B4sMaxiQ3rkkpAfvV.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:321278",
+      "type": "series",
+      "name": "Clodagh: Cooking at Home",
+      "poster": "https://image.tmdb.org/t/p/w500/jRnO8Im6jo9EF1OuKENcGTVAeK3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cyVBKf4OCZZLZFNpt9IFoOSv1uq.jpg",
+      "releaseInfo": "2026"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1260643",
+      "type": "movie",
+      "name": "Paul McCartney déploie ses ailes",
+      "poster": "https://image.tmdb.org/t/p/w500/6wHOJ6pAkj0RWCZx8U4dqsrlQpa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mA03GgESjKMCUAiCywyx6I7kSZx.jpg",
+      "description": "« Paul McCartney déploie ses ailes » dresse le portrait intime du parcours de Paul McCartney après les Beatles, au moment où il fonde Wings avec son épouse, Linda. Sous la direction du réalisateur oscarisé Morgan Neville, le film explore la renaissance artistique de McCartney à travers des images d'archives rares, révélant ses défis et ses réussites dans sa quête d'une nouvelle identité musicale.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1571485",
+      "type": "movie",
+      "name": "David Bowie : Dernier acte",
+      "poster": "https://image.tmdb.org/t/p/w500/qPgnyo94NaOXHC83mbREGJ35Hnj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oKSQXMdWm6jle1UpxzWFqCHYNOC.jpg",
+      "description": "Les années 1990 furent une période tumultueuse pour Bowie. Jadis considéré comme le caméléon de la pop, il se retrouva en désaccord avec une industrie en pleine mutation : les critiques étaient acerbes et sa popularité semblait décliner, Bowie lui-même craignant de ne plus exercer la même fascination. Pourtant, de cette tourmente créative naquit une renaissance audacieuse. Refusant de se reposer sur ses lauriers, Bowie alla de l’avant : conquérant la Pyramid Stage de Glastonbury Festival, renouant avec ses racines dans la banlieue sud de Londres, anticipant l’ère d’Internet et produisant finalement Blackstar, son ultime chef-d’œuvre. Ce film, riche en interviews rares de ceux qui ont connu et travaillé avec Bowie, ainsi que de fans célèbres et de personnalités inspirées par son art, dévoilera le génie stratégique de sa renaissance artistique et l’extraordinaire créativité inépuisable qui a marqué sa dernière décennie.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1508191",
+      "type": "movie",
+      "name": "Ozzy: No Escape from Now",
+      "poster": "https://image.tmdb.org/t/p/w500/7xlmn0xpEYiqGN7bINAbEUjNqbr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qUTXVONhIelFdBXvSJW6rPWv9LN.jpg",
+      "description": "Ozzy Osbourne est confronté à son identité et à sa mortalité après que son monde s'est arrêté. Confronté à des problèmes de santé et à la maladie de Parkinson, il se demande s'il peut encore se produire alors que la musique reste la pierre angulaire de sa vie.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1430149",
+      "type": "movie",
+      "name": "We Want the Funk !",
+      "poster": "https://image.tmdb.org/t/p/w500/Z1I3zt8Vq1f9l1sq9q4epLfydP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6QfmYA8VvB8I0CXriOwiBmuUFGD.jpg",
+      "description": "L'histoire du funk, de ses racines africaines et jazz aux premiers titres de James Brown et du collectif Parliament-Funkadelic. En tant que genre urbain, le funk reflète l'esprit du mouvement des droits civiques. Son essor fulgurant dans les années 1970 était étroitement lié aux tensions politiques qui agitaient alors les villes américaines.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

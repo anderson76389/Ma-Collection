@@ -1,0 +1,29 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:10184",
+      "type": "series",
+      "name": "Snapped: les femmes tueuses",
+      "poster": "https://image.tmdb.org/t/p/w500/pEwmso9DnAiZosk5EApBm7x89Ii.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2JnYs1mNl63cfwPPqlnwZwsF74r.jpg",
+      "description": "Les affaires fascinantes de femmes en apparence ordinaires, épouses, petites amies, qui se retrouvent accusées de meurtre. Sont-elles réellement passées à l'acte ? Et si oui, pour quels mobiles ?",
+      "releaseInfo": "2004"
+    },
+    {
+      "id": "tmdb:239961",
+      "type": "series",
+      "name": "Prosecuting Evil with Kelly Siegler",
+      "poster": "https://image.tmdb.org/t/p/w500/6Ynm3olj7K06IodwabFMgK6BtCN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eo9OwD0QOmVV94qiwM5cyCZ3ODr.jpg",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:290760",
+      "type": "series",
+      "name": "Unknown Serial Killers of America",
+      "poster": "https://image.tmdb.org/t/p/w500/zwpNf6VZIg4IQvKtWBuRG8y24Ut.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/c5wwZBC2untOgt2M7z3yCRZ7t4s.jpg",
+      "releaseInfo": "2025"
+    }
+  ]
+}

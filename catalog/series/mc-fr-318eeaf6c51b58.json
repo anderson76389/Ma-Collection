@@ -1,0 +1,22 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:62",
+      "type": "series",
+      "name": "The Challenge",
+      "poster": "https://image.tmdb.org/t/p/w500/A8pSOaknOrNCPRssEyRYsHCRLZ3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kaolHDM9XOnvTTZi9FBLhPS35s3.jpg",
+      "description": "Chaque défi oppose de nombreux membres de la distribution des saisons précédentes d'émissions de téléréalité les uns contre les autres, en les divisant en deux équipes distinctes selon différents critères, tels que le sexe, sur lequel ils sont apparus pour la première fois, qu'ils soient ou non des vétérans ou des recrues de l'émission, etc. Les deux équipes s'affrontent dans de nombreuses missions afin de gagner des prix et d'avancer dans le jeu global.",
+      "releaseInfo": "1998"
+    },
+    {
+      "id": "tmdb:201426",
+      "type": "series",
+      "name": "Caught in the Act: Unfaithful",
+      "poster": "https://image.tmdb.org/t/p/w500/m8K8UoWXWJpF6jvcu733d1g8VUs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nFJzeGUn5YzLTbiqfld20sdcsL9.jpg",
+      "description": "Les victimes d'infidélité font exploser les tricheurs dans leur vie et obtiennent justice pour leur cœur brisé, avec un peu d'aide de Tami Roman, Kevin Carr et Brianne Joseph.",
+      "releaseInfo": "2022"
+    }
+  ]
+}

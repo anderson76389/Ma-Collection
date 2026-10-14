@@ -1,0 +1,40 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:232018",
+      "type": "series",
+      "name": "Has Fallen",
+      "poster": "https://image.tmdb.org/t/p/w500/aFIGvsWknUfDIdjrkJNknyNuZZL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3yoTM5JtkxnPZvVzQOrL0c2ILVM.jpg",
+      "description": "Lors d'une réception, des terroristes prennent d'assaut l'ambassade britannique à Paris. Parmi les invités, le ministre de la Défense Philippe Bardin, qui semble être la vraie cible de Jacob Pearce, un ancien légionnaire à la tête de l'attaque.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:111412",
+      "type": "series",
+      "name": "Un bon moment",
+      "poster": "https://image.tmdb.org/t/p/w500/6nkjrMNx4x5xVbOyBwacfrFf1NM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vkEywcBMux7nekCH9YY3aXokVlY.jpg",
+      "description": "Kyan Khojandi et Bruno Muschio (Navo) reçoivent différents invités chaque semaine afin de passer un bon moment.",
+      "releaseInfo": "2020"
+    },
+    {
+      "id": "tmdb:336882",
+      "type": "series",
+      "name": "Fifi et sa bande - C'était pas gagné",
+      "poster": "https://image.tmdb.org/t/p/w500/2XCFort7DmJBSJUBxQIQsDGqoF0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2M63KyyXC2AgTB4GbPuPgC6ZD4r.jpg",
+      "description": "En l'espace de trente ans, Fifi et sa bande de copains qui bricolaient des sketchs amateurs sur des VHS sont devenus l'une des équipes créatives les plus populaires du cinéma français avec plus de 30 millions d'entrées cumulées. La mère de Philippe Lacheau dévoile et commente les archives familiales qui révèlent le parcours de son fils et de la Bande à Fifi.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:255649",
+      "type": "series",
+      "name": "Détective Mathoux",
+      "poster": "https://image.tmdb.org/t/p/w500/hXrw5CfZeATdbhgRRMBWr6yNgaK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ydmnSHKZfhLJsIb50qzVFLjMvyN.jpg",
+      "description": "La carrière d'un footballeur est riche de moments de sports.\n\nElle est aussi, parfois, jalonnée \"d'affaires\" avec leurs coachs, leurs partenaires, les supporters ... c'est là qu'intervient le Détective Mathoux !!",
+      "releaseInfo": "2024"
+    }
+  ]
+}

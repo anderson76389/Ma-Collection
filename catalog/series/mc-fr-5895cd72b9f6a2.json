@@ -1,0 +1,182 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:332657",
+      "type": "series",
+      "name": "Route 187",
+      "poster": "https://image.tmdb.org/t/p/w500/yfP9A3IaKE00U1ap1y7wAoZRzeC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/Agx8RmlBBDJrlH9MyUOd5JYYZPS.jpg",
+      "description": "Route 187 est un drame poignant qui cherche à donner un sens au chaos. Chaque épisode, inspiré de faits divers réels, explore de nouvelles tragédies, la complexité de ses personnages et la frontière ténue entre le bien et le mal.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:330912",
+      "type": "series",
+      "name": "The Varnell Hill Show",
+      "poster": "https://image.tmdb.org/t/p/w500/nZbQHs1WCf2H8NJ8hzR0n5LoeT6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tE5EU20M9fHufcLXw2I8lM1hTMu.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:330540",
+      "type": "series",
+      "name": "Dalliance",
+      "poster": "https://image.tmdb.org/t/p/w500/hAEVrvoykYI7K38qVfILHvg4aUE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8Ye9jv4Ibo5xK6GgWihsec8M94A.jpg",
+      "description": "Un groupe d'amis âgés d'une soixantaine d'années découvre qu'il n'est jamais trop tard pour la passion - ni pour la trahison -, alors que des couples implosent, que de nouvelles relations naissent et que de vieilles blessures refont surface.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:299167",
+      "type": "series",
+      "name": "Dutton Ranch",
+      "poster": "https://image.tmdb.org/t/p/w500/kaWNHypRh9OFSJzEgj8prvMkA5h.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ewlmL0nxo2lLqBj69upgp2gjHpV.jpg",
+      "description": "Rip Wheeler et Beth Dutton misent tout sur une nouvelle vie dans le sud du Texas, mais leur rêve de se construire un avenir loin des fantômes de Yellowstone se heurte à de nouvelles réalités et à un ranch rival prêt à tout pour protéger son empire.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:262388",
+      "type": "series",
+      "name": "M.I.A.",
+      "poster": "https://image.tmdb.org/t/p/w500/9EJOS3Px9ASawruHCKVeYGlAsol.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wqjhAWmqHrIIn4PdchGCuEgPksw.jpg",
+      "description": "Dans les Floride Keys, Etta rêve de vivre dans le royaume scintillant et subtropical de Miami. Lorsqu'une tragédie frappe l'affaire familiale, elle est entraînée dans les bas-fonds de Miami, où elle découvre ce dont elle est réellement capable.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:290856",
+      "type": "series",
+      "name": "Marshals: A Yellowstone Story",
+      "poster": "https://image.tmdb.org/t/p/w500/jPOKjzCG8tgUigtWyA4ME9fNeia.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yGJGwt7DdIWTUXuahLfhcH1gi7G.jpg",
+      "description": "Le ranch du Yellowstone derrière lui, Kayce Dutton rejoint une unité des U.S. Marhals. Cowboy et ancien Navy SEAL, il apporte la justice dans le Montana. Lui et ses coéquipiers sont le dernier rempart de la région dans la guerre contre la violence.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:223530",
+      "type": "series",
+      "name": "Star Trek: Starfleet Academy",
+      "poster": "https://image.tmdb.org/t/p/w500/wAxeapp1AUd16UoBc7u8rHZ9emP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rXtSdCGmG07zjAg5h7GR1v52ogX.jpg",
+      "description": "Sous le regard attentif et exigeant de leurs instructeurs, un groupe de jeunes cadets découvre ce qu'il faut pour devenir officiers de Starfleet, tout en naviguant entre amitiés, rivalités, premiers amours et un nouvel ennemi.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:296523",
+      "type": "series",
+      "name": "Girl Taken",
+      "poster": "https://image.tmdb.org/t/p/w500/upUOfPAMhjWDPu8R31r9YvYDfum.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jznHHAp0pg68icC3b23bRAC8CoO.jpg",
+      "description": "À 17 ans, Lily est enlevée par son professeur, un homme en qui elle a toute confiance. Cinq ans plus tard, elle s'échappe et dévoile des années de sévices dans une cave secrète, forçant sa famille à affronter le traumatisme pour se reconstruire.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:275557",
+      "type": "series",
+      "name": "Wild Cherry",
+      "poster": "https://image.tmdb.org/t/p/w500/oxn4ylDZSnQq83H0jXAmueBFV8A.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/c54arxwmTXMv4bPJo3RxbASW2s2.jpg",
+      "description": "Deux adolescentes choyées. Deux mères très différentes. La vie de luxe est facile… jusqu’à ce qu’un scandale choquant révèle des secrets destructeurs et la face cachée du glamour.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:253750",
+      "type": "series",
+      "name": "Crutch",
+      "poster": "https://image.tmdb.org/t/p/w500/9tDDG9mLfhJmqOyvolWneeF6Y1g.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5lFJVwFA2jtO1ygLoDLGPiT7UhI.jpg",
+      "description": "François “Frank” Crutchfield, surnommé Crutch, vit à Harlem et espère une retraite paisible. Mais son quotidien est bouleversé quand son fils, adepte d’un style de vie sophistiqué, et sa fille, au tempérament libre, reviennent vivre sous son toit. Entre générations, caractères et habitudes de quartier, la cohabitation s’annonce mouvementée.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:301808",
+      "type": "series",
+      "name": "Louves",
+      "poster": "https://image.tmdb.org/t/p/w500/dFwBqm3vkNX1NygtA0m14lWIe4J.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3wGsf7sfDGXrTV6lbjhpYUaSbYB.jpg",
+      "description": "De Tokyo à Paris, en passant par les championnats du monde, les championnats d’Europe et les Grands Chelems, “Louves” suit le quotidien d’un groupe hors norme. Quatre cent quarante heures de rushes ont été tournées, offrant une plongée rare dans la vie des judokates : entre entraînements acharnés, compétitions décisives et moments d’intimité lors des stages.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:247732",
+      "type": "series",
+      "name": "NCIS : Tony & Ziva",
+      "poster": "https://image.tmdb.org/t/p/w500/zNIANQsAs2kbxbzbTTe5dTBzhKe.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ub0xUWZUBoAwy1eBG1uwi9ikaVg.jpg",
+      "description": "Quelques années après leur départ du NCIS, Tony DiNozzo est à la tête de sa propre société de sécurité tandis que Ziva David dirige une école de langues. Séparés, ils vivent désormais à Paris pour élever leur fille Tali et essaient tant bien que mal de se reconstruire. Cet élan va être interrompu par une cyberattaque touchant l’entreprise de Tony et mettant en péril leur vie et celle de leur fille. Une course effrénée s’engage alors à travers l’Europe pour retrouver cet ennemi invisible.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:271823",
+      "type": "series",
+      "name": "Playing Gracie Darling",
+      "poster": "https://image.tmdb.org/t/p/w500/7UWdkbSUd1d1GB28IyIKDbftzhM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/suCtNSA0U8Gtb7JxMJ6IfhHJUwa.jpg",
+      "description": "La disparition d'une adolescente, Gracie Darling, au cours d'une séance de spiritisme, il y a 27 ans, demeure un mystère. De nos jours, des enfants d'une petite ville jouent à un jeu apparemment innocent inspiré de la tragédie, mais lorsqu'une autre fille disparaît, le mystère troublant refait surface. Joni, devenue psychologue pour enfants, retourne dans sa ville natale pour affronter les fantômes de son passé et découvrir la vérité derrière la disparition de sa meilleure amie. En faisant équipe avec le sergent local Jay, Joni doit affronter ses peurs les plus profondes, tandis que la sœur de Gracie, Ruth, revit le traumatisme, lorsque sa propre fille disparaît à son tour dans des circonstances étrangement similaires.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:296658",
+      "type": "series",
+      "name": "The Moors Murders: A Search for Justice",
+      "poster": "https://image.tmdb.org/t/p/w500/lDsMTpo0cfkKLNaN9Tgqeoh3Fl6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cTkwJRTK6ouaYUsumfu2vYtwwT3.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:294876",
+      "type": "series",
+      "name": "Hip Hop Was Born Here",
+      "poster": "https://image.tmdb.org/t/p/w500/aStCmjI0JEflLbPgVTcrelGOltx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qx3Sr8j1rFsedhCbsnxDahUf75F.jpg",
+      "description": "Suivez LL Cool J à travers l'histoire du Hip-Hop, en revenant sur les titres, artistes et influences culturelles qui ont façonné le genre en phénomène mondial.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:259909",
+      "type": "series",
+      "name": "Dexter: Resurrection",
+      "poster": "https://image.tmdb.org/t/p/w500/teZOzBZhugzh7UfW6xuPp4wJ5oU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vcpj6rRDS93ImHCLPY8bwBuFGjR.jpg",
+      "description": "Après avoir survécu à ses blessures, Dexter se retrouve à New York. Il tente de renouer une relation avec son fils mais des meurtres rituels ensanglantent Big Apple.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:292462",
+      "type": "series",
+      "name": "Tyler Perry's Divorced Sistas",
+      "poster": "https://image.tmdb.org/t/p/w500/sRvxRFx4INJNqgmpMbijQTWwUWX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/42kBhsVAasbFWDavwQgZujiBHKy.jpg",
+      "description": "Rasheda, Geneva, Naomi, Tiffany et Bridgette, cinq amies proches, naviguent au quotidien entre les défis liés aux relations amoureuses, au mariage et... au divorce. Alors qu'elles s'appuient les unes sur les autres pour traverser leurs chagrins et guérir, leur plus grande épreuve vient de leur propre entourage.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:282197",
+      "type": "series",
+      "name": "Parallel Me",
+      "poster": "https://image.tmdb.org/t/p/w500/m8KhWl1kKvxj5iWLEThGZBhbmgU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sVHfei5Xthj3DZd51yNU9QK4QBR.jpg",
+      "description": "Les talents d’hyper-flexibilité de Toni Falk l’aident dans sa carrière, mais la laissent seule et perdue, incapable de nouer des relations saines. Après qu’un amant occasionnel lui a déclaré son amour, Toni est frappée par une malédiction qui la transporte dans différentes versions de sa vie. Maintenant, elle doit d’une manière ou d’une autre trouver un moyen de rentrer chez elle, où que ce soit.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:247718",
+      "type": "series",
+      "name": "MobLand",
+      "poster": "https://image.tmdb.org/t/p/w500/fs1GCzfveWH8A8xG7UunUYNmQPP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/h0OC7ouop8YLwbAVfS3UUE2Lw4T.jpg",
+      "description": "Deux familles du crime s'affrontent dans une lutte à mort qui menace de faire tomber des empires. Pris entre deux feux, Harry Da Souza, un « fixer », connaît mieux que personne la valeur de la loyauté quand des forces opposées entrent en collision.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:243217",
+      "type": "series",
+      "name": "Happy Face",
+      "poster": "https://image.tmdb.org/t/p/w500/sGHZrYxOU2U2JLrmYO12qGl1VK4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jpo9nZOayoh7IHIIXa6jRT6WP9L.jpg",
+      "description": "À 15 ans, Melissa apprend que son père est le tueur en série \"Happy Face\". Des années plus tard, elle enquête pour savoir si un innocent est condamné à tort.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

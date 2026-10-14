@@ -1,0 +1,184 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1755291",
+      "type": "movie",
+      "name": "NAZA",
+      "poster": "https://image.tmdb.org/t/p/w500/yJ0FMDiMfdVHWCRqxt9WzAJ0C5S.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7EzH0dlEN9OZWWBXBWwT5PbMNUz.jpg",
+      "description": "Filmé la nuit depuis les toits de Tel Aviv, ce documentaire se centre sur les victimes civiles des opérations militaires israéliennes à Gaza.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1723460",
+      "type": "movie",
+      "name": "Amour et Machinations",
+      "poster": "https://image.tmdb.org/t/p/w500/jTbpTfNfHYIKmnciYRgzvcveuNe.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/c3hLMqh2QqJd7m1ar6rxw9eio35.jpg",
+      "description": "Une série de courriels menaçants dégénère en un complot de vengeance impliquant un marshal américain récemment marié et son ex-petite amie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1715492",
+      "type": "movie",
+      "name": "La dérive : Cauchemar en mer",
+      "poster": "https://image.tmdb.org/t/p/w500/jvJVqtGhibpWGR7iPoqs5kvjz8H.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/n6TYhOl8NYSoIl8q6dI16IZiodB.jpg",
+      "description": "Des images inédites et des témoignages de survivants retracent le naufrage en 2012 d'un paquebot de croisière de luxe et le désastre qui s'ensuivit, dans ce documentaire immersif.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1612018",
+      "type": "movie",
+      "name": "Jackass: le meilleur pour la fin",
+      "poster": "https://image.tmdb.org/t/p/w500/xd7tpoTpkOUIMf0Xd6DcCWqNrNQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dUbP1HNdI0aCq1zgRJw28PWSqmk.jpg",
+      "description": "Suit l'équipe de Jackass alors qu'elle effectue sa dernière série de cascades et de farces dangereuses, marquant la fin de la franchise.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1699155",
+      "type": "movie",
+      "name": "Maternal Instinct : L'énigme Taylor Parker",
+      "poster": "https://image.tmdb.org/t/p/w500/dOWWCLSwXS1MBtGEFeItbloiUEN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oGD1dZvojZssnd9Ua6RUalEEHQu.jpg",
+      "description": "La police arrête une femme qui affirme qu'elle vient d'accoucher. Mais ni le bébé ni le sang ne sont les siens. Les mensonges se succèdent dans ce documentaire sur un crime réel.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1662317",
+      "type": "movie",
+      "name": "L'Accident",
+      "poster": "https://image.tmdb.org/t/p/w500/cCJTvf7xZpqoEXF9PFf9t5jttxl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2iqLoDsatVBwAvHTEzI71p3qBe9.jpg",
+      "description": "Une ado au volant percute un bâtiment, tuant son petit copain et l'ami de ce dernier. Ce documentaire montre que ce qui semblait un tragique accident est en réalité un meurtre.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1642859",
+      "type": "movie",
+      "name": "Iron Maiden: Burning Ambition",
+      "poster": "https://image.tmdb.org/t/p/w500/psJU0sOk56dm3wmcPCuJE7bNaFG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/52t7nT1f117FW6gdG32DrQKxpU1.jpg",
+      "description": "Couvrant cinq décennies, Iron Maiden: Burning Ambition retrace leur ascension emblématique pour devenir l'un des plus grands groupes de l'histoire de la musique.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1515899",
+      "type": "movie",
+      "name": "Billie Eilish - Hit Me Hard and Soft : The Tour (3D)",
+      "poster": "https://image.tmdb.org/t/p/w500/8DTastKqiYno03GHdkOxLpm2het.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fvz0Psn68l0lXyAmeXxY8D9RRhI.jpg",
+      "description": "Réalisé pendant sa tournée mondiale jouée à guichets fermés, BILLIE EILISH – HIT ME HARD AND SOFT TOUR (3D) propose une nouvelle expérience de concert innovante sur grand écran, avec l’une des artistes les plus célèbres et les plus talentueuses de sa génération. Présenté en 3D immersive, le film est réalisé par James Cameron et Billie Eilish, tous deux lauréats d’un Oscar.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1623125",
+      "type": "movie",
+      "name": "Une histoire de gorilles avec David Attenborough",
+      "poster": "https://image.tmdb.org/t/p/w500/f1kgYXsz5d1odQyy7phhYaPQI0c.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r80zWzxQn5pMAPgDHd4CiKIGOyU.jpg",
+      "description": "Le naturaliste Sir David Attenborough raconte l'histoire d'un groupe de gorilles, depuis sa première rencontre avec eux dans les années 70 jusqu'à aujourd'hui.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1637319",
+      "type": "movie",
+      "name": "Hannah Montana : Spécial 20 ans !",
+      "poster": "https://image.tmdb.org/t/p/w500/hfxvdEBTt3YsV5h7MNzjfMXTWpd.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/w9NnNrq1aOu9hXhhUyMhQMts1oM.jpg",
+      "description": "Ce programme anniversaire des 20 ans de Hannah Montana est une lettre d’amour aux fans, empreinte d’une profonde nostalgie. Miley Cyrus y revisite ses moments les plus marquants dans une interview exclusive menée par Alex Cooper. Les spectateurs découvrent aussi des archives des coulisses, des visages familiers, des invités surprises et une performance musicale spéciale de Miley.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1629369",
+      "type": "movie",
+      "name": "L'Ascension brisée de Moriah Wilson",
+      "poster": "https://image.tmdb.org/t/p/w500/zoa2XatA43nKhF1kx8nVcVyH1M0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xQFxoGYtwMBAq89DPa9gUcLlOdA.jpg",
+      "description": "Ce documentaire examine en détail la vie rayonnante de la cycliste Moriah Wilson et les efforts déployés par l'individu coupable de son meurtre choquant pour échapper à la justice.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1633264",
+      "type": "movie",
+      "name": "Louis Theroux : Plongée dans la manosphère",
+      "poster": "https://image.tmdb.org/t/p/w500/ouOvRvsgF37yEx3D6ZLWyuxZFjE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cmpiLnDIdxQNFZLZZFRj1rSo7fW.jpg",
+      "description": "Disposant d'un accès privilégié, le documentariste plébiscité enquête sans filtre sur un réseau ultra-masculiniste en pleine expansion et ses influenceurs controversés.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1451867",
+      "type": "movie",
+      "name": "Ghost Elephants",
+      "poster": "https://image.tmdb.org/t/p/w500/jaxGFuZBFe8VLmsWf0cyDwAy78m.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qEqvcwXH5skWfed1rgZq45FL36G.jpg",
+      "description": "Sur les hauts plateaux angolais enveloppés de brume, trois maîtres pisteurs KhoiSan se lancent dans une quête spirituelle pour redécouvrir les légendaires « éléphants fantômes » de Lisima, des créatures que l'on croyait perdues à jamais, mais dont on se souvient grâce à la transe, aux rituels et à la mémoire ancestrale.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1445363",
+      "type": "movie",
+      "name": "EPiC: Elvis Presley in Concert",
+      "poster": "https://image.tmdb.org/t/p/w500/2K2NH5dforjT9kLcUC0eeBpdZkC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ttOBvac1oW0OCCfFzZlXh3NeKyl.jpg",
+      "description": "Des images, longtemps égarées, de la résidence légendaire d'Elvis Presley à Las Vegas dans les années 1970, associées à des images rares en 16mm d'Elvis en tournée et en 8mm provenant des archives de Graceland, ainsi qu'à des enregistrements d'Elvis racontant « sa version de l'histoire », redécouverts lors des recherches menées par Baz Luhrmann pour son film « Elvis », commercialisé en 2022.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1620991",
+      "type": "movie",
+      "name": "Lucy Letby, au cœur de l'enquête",
+      "poster": "https://image.tmdb.org/t/p/w500/qhNThwc72GqihJhXaP29Af5hJ2A.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qhSfXdkrIzwYsyQ3Z9ehFmO3zjy.jpg",
+      "description": "Images inédites et témoignages d'initiés révèlent l'affaire poignante et controversée de Lucy Letby, infirmière en néonatologie condamnée pour avoir causé la mort de nourrissons.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1413097",
+      "type": "movie",
+      "name": "Melania",
+      "poster": "https://image.tmdb.org/t/p/w500/ba6Silct0Y4pyvrSv0Tj0Urmx9f.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xUwp42fEd3TQDxNVObFB8WVijTY.jpg",
+      "description": "MELANIA offre un accès inédit aux 20 jours menant à l'investiture présidentielle de 2025 à travers les yeux de la Première dame. Grâce à des images exclusives de réunions, de conversations privées et autres évènements, découvrez l'univers de Melania Trump alors qu'elle orchestre les préparatifs de l'investiture, les défis de la transition présidentielle et le retour des Trump dans la capitale.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1596291",
+      "type": "movie",
+      "name": "La Reine des échecs",
+      "poster": "https://image.tmdb.org/t/p/w500/ag5TZNcK3vHdCCpZIY8syjwzgfr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/y5haKgSz1hCDatwIOMuqZ1CFKPW.jpg",
+      "description": "Dans ce documentaire, la prodige des échecs Judit Polgár combat le scepticisme, le sexisme et le champion Garry Kasparov pour revendiquer sa place au sommet.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1595481",
+      "type": "movie",
+      "name": "Kidnapped: Elizabeth Smart",
+      "poster": "https://image.tmdb.org/t/p/w500/8yuMPfz154d0PqX5PFXmgCCuTGd.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/n2WschLfgBrF2Dj0SkdCL94q2jC.jpg",
+      "description": "Dans ce documentaire, Elizabeth Smart raconte, à travers ses propres mots et des images inédites, son terrifiant enlèvement à 14 ans au domicile familial, dans l'Utah.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1610413",
+      "type": "movie",
+      "name": "La Dernière Aventure : Le making-of de Stranger Things 5",
+      "poster": "https://image.tmdb.org/t/p/w500/i2jDYfBmEl7ww2yhmJwz35atfvj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/edGuDPKY6qHBg9hYvmnvLjcFoy4.jpg",
+      "description": "Découvrez les années d'efforts et de créativité qui se cachent derrière le dernier volet de la série phénomène des frères Duffer qui a marqué toute une génération.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1591516",
+      "type": "movie",
+      "name": "Mauvaise influenceuse : L'histoire de Jodi Hildebrandt",
+      "poster": "https://image.tmdb.org/t/p/w500/xCawp08whOaJS434IDlBytX7sSm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5lZXIkRpOJICbWYJgImdbZ1vWx6.jpg",
+      "description": "Découvrez l'affaire de la thérapeute de l'Utah, Jodi Hildebrandt, dont l'arrestation pour maltraitance d'enfants, en compagnie de la youtubeuse spécialisée dans l'éducation des enfants Ruby Franke, a révélé une histoire de manipulation sordide.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

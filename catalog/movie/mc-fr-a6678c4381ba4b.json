@@ -1,0 +1,184 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1596303",
+      "type": "movie",
+      "name": "The Last First : le K2 en hiver",
+      "poster": "https://image.tmdb.org/t/p/w500/zrOs0WKhESe6J4UErG32ZjOOh1A.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wtzSwtnQ4RsRbV5cc114Nb1q3b0.jpg",
+      "description": "Une course mémorable pour être le premier à atteindre le sommet du K2 en hiver vire au drame, révélant qu'ambition, ego et quête de gloire sont aussi dangereux que la montagne.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1758536",
+      "type": "movie",
+      "name": "Le Veuf : Jusqu'à ce que la mort...",
+      "poster": "https://image.tmdb.org/t/p/w500/1Yv7Kg5DEW1k6PCV4PEoDuv87sH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kejOti7YfpTr88Y4fWnd3UVDr8e.jpg",
+      "description": "Dans ce documentaire, un journaliste et un enquêteur dévoilent la vérité sur un tueur dont le charme masquait une série de mariages ratés et de décès suspects.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1388805",
+      "type": "movie",
+      "name": "Linkin Park Unshatter",
+      "poster": "https://image.tmdb.org/t/p/w500/IJm4pjhXoE3xYHlEvHw8wIQVY8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uL1HCc4wmcFcSr1zS3kXX3CNUeE.jpg",
+      "description": "Après une pause de sept ans, marquée par la perte tragique de leur cher compagnon de groupe, les membres restants de LINKIN PARK cherchent à retrouver leur chemin. Leur histoire commune, leur amitié indéfectible, ainsi que l’arrivée de deux nouveaux membres insufflent une nouvelle énergie créative qui les entraîne dans un voyage de réinvention artistique. Suivant le groupe depuis ses sessions studio intimistes de 2022 jusqu’à la sortie explosive de leur album le 15 novembre 2024 et leur concert à São Paulo, le film mêle images d’archives inédites, performances électrisantes issues de concerts à guichets fermés et témoignages sincères des membres du groupe et de leurs fans. Un récit brut et authentique sur ce que signifie recommencer, se réinventer et avancer.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1755291",
+      "type": "movie",
+      "name": "NAZA",
+      "poster": "https://image.tmdb.org/t/p/w500/yJ0FMDiMfdVHWCRqxt9WzAJ0C5S.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7EzH0dlEN9OZWWBXBWwT5PbMNUz.jpg",
+      "description": "Filmé la nuit depuis les toits de Tel Aviv, ce documentaire se centre sur les victimes civiles des opérations militaires israéliennes à Gaza.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1762506",
+      "type": "movie",
+      "name": "Frères d'Armes : l'héritage",
+      "poster": "https://image.tmdb.org/t/p/w500/n29MsV1m2OCbDp6PLeHxziOVOLG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mMLVXM8UOKSxVSxnXcmuBPMiHsC.jpg",
+      "description": "À l'occasion du 25e anniversaire de la série Band of Brothers, récompensée par un Emmy®, cette émission spéciale revient sur l'impact de cette série.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1447853",
+      "type": "movie",
+      "name": "Oasis: Don't Look Back in Anger",
+      "poster": "https://image.tmdb.org/t/p/w500/5XoHhKZ1IROW6f5UlRpADHnTL2l.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7Ud7QIJo21odjCaev6V4md9sK16.jpg",
+      "description": "DON’T LOOK BACK IN ANGER retrace les retrouvailles des frères Liam et Noel Gallagher et la tournée triomphale à guichets fermés qui s’en est suivie. Oasis Live '25 a marqué l'un des retours rock les plus attendus de notre époque. Le film documentaire offre un regard intimiste sur le plus grand événement musical de 2025, capturant tout autant l'expérience et les émotions du groupe que celles de ses fans partout à travers le monde.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1739206",
+      "type": "movie",
+      "name": "L'Envers du sport : Mister T, l'icône tous risques",
+      "poster": "https://image.tmdb.org/t/p/w500/xHLK9OqYHkVyvLqsz6HsKKEnoZU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tCxXRtEn4nQVtxQzaH32ZUjoX3C.jpg",
+      "description": "Icône des années 80, Mr. T a marqué toute une époque. Dans ce documentaire, il révèle lui-même l'histoire derrière la crête, les chaînes et sa réplique culte.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1752159",
+      "type": "movie",
+      "name": "Turning Point : Génération 11 septembre",
+      "poster": "https://image.tmdb.org/t/p/w500/4LbwNKDDRysSYvMlqTsy0uph8zq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z2Uf0yntMjY0XG87YfoqeHjIUGD.jpg",
+      "description": "Bâti autour de témoignages sur les attentats et leurs retombées, ce documentaire percutant explore, 25 ans plus tard, comment le 11 septembre a façonné toute une génération.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1739202",
+      "type": "movie",
+      "name": "L'Envers du sport : Raygun, Breaking Badly",
+      "poster": "https://image.tmdb.org/t/p/w500/pgZoTGXmkQXoO7F8wgBmlyy6zxy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iBik58vWTbO3s9GgUW86v7fYqfZ.jpg",
+      "description": "Lorsque la performance de Raygun aux Jeux olympiques de Paris 2024 est devenue virale du jour au lendemain, une avalanche de mèmes, de fausses informations et de théories du complot a suivi, tous remettant en question la manière dont elle avait réussi à atteindre la scène olympique.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1739186",
+      "type": "movie",
+      "name": "L'Envers du sport : Le témoignage de Vince Young",
+      "poster": "https://image.tmdb.org/t/p/w500/kNcfuoLIVZmjiG0G5AvuVNF2siP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eVOuDbCLElehZr1U5aZtK1yAU3f.jpg",
+      "description": "Vince Young évoque dans ce documentaire sa victoire mythique au Rose Bowl 2006, un grand moment de l'histoire du football américain universitaire, et la rançon de la gloire en NFL.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1626188",
+      "type": "movie",
+      "name": "Novak Djoković : Le loup en hiver",
+      "poster": "https://image.tmdb.org/t/p/w500/AwqWDUbbO2WH8yQetXjxMlgwsn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1upwdMUTDkEI5vm22d4D09cFWkU.jpg",
+      "description": "Il a remporté tous les titres possibles en tennis, y compris une médaille d'or olympique. Alors pourquoi Novak Djokovic continue-t-il à jouer ? Le documentaire Le Loup en hiver suit le plus grand joueur de tennis de tous les temps lors de son retour à l'Open d'Australie en 2025, capturant son obsession, sa préparation et cette flamme qui ne s'éteint pas, alors qu'il n'a plus rien à prouver.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1688804",
+      "type": "movie",
+      "name": "Freefall : Boeing au banc des accusés",
+      "poster": "https://image.tmdb.org/t/p/w500/oadqt3V5c8j5ZIbYkdfQLcWzI4C.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dYOH6BTxKmf1LTnQPZR3XxRvLrc.jpg",
+      "description": "Après le décès très médiatisé du lanceur d'alerte de Boeing, John Barnett, l'enquête se poursuit sur le géant de l'aviation autrefois emblématique, révélant de nouvelles révélations surprenantes et des témoignages d'initiés dans le sillage d'une crise d'entreprise qui s'aggrave.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1728056",
+      "type": "movie",
+      "name": "Big Chicken : Le complot de la malbouffe",
+      "poster": "https://image.tmdb.org/t/p/w500/aL0TjsSap6NQMOWzFbS6RNOjFUj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/d4p2sqbxC2AYkuyxT7tRBSsP4IM.jpg",
+      "description": "L'humoriste Mo Gilligan s'alimente de poulet frit pendant 28 jours en parcourant le Royaume-Uni et les États-Unis pour révéler l'impact de cet engouement et de son industrie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1732097",
+      "type": "movie",
+      "name": "Euphoria: A Look Back",
+      "poster": "https://image.tmdb.org/t/p/w500/1us6iYG7P600BgSdwjb6mFYCP97.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fQiNGtgo9gEpyOIxX29FtUHpcaD.jpg",
+      "description": "L'équipe et les acteurs de la série Euphoria de HBO reviennent en exclusivité sur les origines, l'évolution et les influences de cette série acclamée par la critique.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1723460",
+      "type": "movie",
+      "name": "Amour et Machinations",
+      "poster": "https://image.tmdb.org/t/p/w500/jTbpTfNfHYIKmnciYRgzvcveuNe.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/c3hLMqh2QqJd7m1ar6rxw9eio35.jpg",
+      "description": "Une série de courriels menaçants dégénère en un complot de vengeance impliquant un marshal américain récemment marié et son ex-petite amie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1731494",
+      "type": "movie",
+      "name": "The Odyssey - Making Of",
+      "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fXUxAL8w724dI9yT5UbwJuk29K9.jpg",
+      "description": "Plongez dans les coulisses de *L'Odyssée*, l'épopée d'action légendaire de Christopher Nolan. Ce documentaire exceptionnel explore le défi monumental que représentait l'adaptation pour le grand écran de la saga fondatrice d'Homère, en retraçant un tournage principal éprouvant de 91 jours à travers six pays. De l'utilisation révolutionnaire d'une technologie de tournage IMAX inédite à la coordination colossale de plus de 5 300 costumes créés sur mesure, découvrez comment une distribution prestigieuse — emmenée par Matt Damon, Tom Holland et Anne Hathaway — a donné vie à l'univers périlleux et intemporel des dieux et monstres de la Grèce antique.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1715492",
+      "type": "movie",
+      "name": "La dérive : Cauchemar en mer",
+      "poster": "https://image.tmdb.org/t/p/w500/jvJVqtGhibpWGR7iPoqs5kvjz8H.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/n6TYhOl8NYSoIl8q6dI16IZiodB.jpg",
+      "description": "Des images inédites et des témoignages de survivants retracent le naufrage en 2012 d'un paquebot de croisière de luxe et le désastre qui s'ensuivit, dans ce documentaire immersif.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1612018",
+      "type": "movie",
+      "name": "Jackass: le meilleur pour la fin",
+      "poster": "https://image.tmdb.org/t/p/w500/xd7tpoTpkOUIMf0Xd6DcCWqNrNQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dUbP1HNdI0aCq1zgRJw28PWSqmk.jpg",
+      "description": "Suit l'équipe de Jackass alors qu'elle effectue sa dernière série de cascades et de farces dangereuses, marquant la fin de la franchise.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1695225",
+      "type": "movie",
+      "name": "Travis Barker: Louder Than Fear",
+      "poster": "https://image.tmdb.org/t/p/w500/nFjdTYHi7tRjijf3utArceQFtRi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7SL4tcgbCo0BRsjbFwWuh3g1J7j.jpg",
+      "description": "Après avoir survécu à un crash d'avion dévastateur qui a failli lui coûter la vie, le légendaire et électrisant batteur Travis Barker se lance dans un voyage brut et rédempteur dans ce portrait intime de l'homme derrière les tatouages ​​qui a transformé la douleur en force.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1699155",
+      "type": "movie",
+      "name": "Maternal Instinct : L'énigme Taylor Parker",
+      "poster": "https://image.tmdb.org/t/p/w500/dOWWCLSwXS1MBtGEFeItbloiUEN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oGD1dZvojZssnd9Ua6RUalEEHQu.jpg",
+      "description": "La police arrête une femme qui affirme qu'elle vient d'accoucher. Mais ni le bébé ni le sang ne sont les siens. Les mensonges se succèdent dans ce documentaire sur un crime réel.",
+      "releaseInfo": "2026"
+    }
+  ]
+}

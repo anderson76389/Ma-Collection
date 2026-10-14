@@ -1,0 +1,63 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:4086",
+      "type": "series",
+      "name": "Burgers and Co avec Guy FIERI",
+      "poster": "https://image.tmdb.org/t/p/w500/fPpDR6kw8bA0iZ8a0dUbexVVzn3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tKtxE1KzqKDg3HIXNnlr7VpuWzd.jpg",
+      "description": "Les « diners » et les « drive-ins » vintage étant de plus en plus tendance chez les gourmets, Guy Fieri sillonne les États-Unis à la recherche des meilleurs burgers, barbecues et fritures du pays, souvent plébiscités par les locaux. Dans chaque resto, Fieri discute avec le personnel et les clients et leur demande leur avis sur la nourriture. Guy Fieri sillonne les États-Unis à la recherche des meilleurs burgers, barbecues et fritures, souvent plébiscités par les locaux.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tmdb:55323",
+      "type": "series",
+      "name": "Halloween Wars",
+      "poster": "https://image.tmdb.org/t/p/w500/wU1IWy50MwdjA035IUZJdLiZIKk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rULazJmHCDsRYL2xU46ldmM0ZcK.jpg",
+      "description": "Les présentoirs élaborés d'Halloween sont créés par cinq équipes composées de sculpteurs de citrouilles, de fabricants de bonbons et de créateurs de gâteaux, qui concourent pour un grand prix de 50 000 $.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:196912",
+      "type": "series",
+      "name": "Be My Guest with Ina Garten",
+      "poster": "https://image.tmdb.org/t/p/w500/A39Qu42jGRzAKJj24oyMUjwwCaK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dNV2WdTDGBmQj3EI7M1ufpmtdA7.jpg",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:74676",
+      "type": "series",
+      "name": "Halloween Baking Championship",
+      "poster": "https://image.tmdb.org/t/p/w500/tAVW4mcMTBEqFOaA3VRs5QHAbFy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uA6HxWmm0Or3QZJKw69OFOcnuHG.jpg",
+      "description": "Halloween Baking Championship est une émission de compétition de cuisine américaine. C'est un programme saisonnier qui ne dure que quelques semaines et vise à couronner le meilleur pâtissier, auteur de desserts effrayants pendant la période d'Halloween. Durant chaque épisode de deux rounds, un pâtissier est éliminé sauf dans le dernier épisode de la saison. Dans la finale, les quatre derniers concurrents s'affrontent dans un dernier round. Le gagnant remporte le prix de 25 000 $.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:211201",
+      "type": "series",
+      "name": "Bobby's Triple Threat",
+      "poster": "https://image.tmdb.org/t/p/w500/nRvF9GPYBA6tGRLxKH4HUENfaN1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jY2qk7DTcjURh5Z182zn8yRc5GF.jpg",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:331164",
+      "type": "series",
+      "name": "Bobby Flay’s The Line",
+      "poster": "https://image.tmdb.org/t/p/w500/hdWaAbmQn970EY8J85aBACDhn0h.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4qKpFJzGCVTtnNg2J6o4BxAHKK0.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:334759",
+      "type": "series",
+      "name": "Sweet Deceit",
+      "poster": "https://image.tmdb.org/t/p/w500/vMiMuswOQS3ufdzfjKH8Df7tvc8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/160WLvcboP94lwnnOd2fN5T9Nrq.jpg",
+      "releaseInfo": "2026"
+    }
+  ]
+}

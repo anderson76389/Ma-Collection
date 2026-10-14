@@ -1,0 +1,184 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1492640",
+      "type": "movie",
+      "name": "UNABOMBER",
+      "poster": "https://image.tmdb.org/t/p/w500/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
+      "description": "Ted Kaczynski, un jeune prodige qui intègre Harvard à 16 ans avant de basculer dans le terrorisme. Soumis à des expériences psychologiques discutables menées par le docteur Henry Murray, le passé tourmenté de Kaczynski refait surface des décennies plus tard, lorsque la traque d'Unabomber menée par l'agente du FBI Joanne Miller met en lumière les conséquences terrifiantes de l'ambition et de l'isolement.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1380417",
+      "type": "movie",
+      "name": "Par tous les moyens",
+      "poster": "https://image.tmdb.org/t/p/w500/f4hdIed8vh10O8TkQ1CkHS8MQ3G.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eAouIDoMDhLetm6CtmDKIGEaaCi.jpg",
+      "description": "L'histoire vraie d'un tueur à gages de la mafia qui a été engagé par le FBI de Hoover et qui s'est associé à un jeune agent spécial noir pour traquer les responsables des meurtres des leaders des droits civiques dans le Mississippi en 1966.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1480574",
+      "type": "movie",
+      "name": "Just Play Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/e0WaDBrrBAMcq2stAXCR7rXEsiw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tieojVpH6eW44JQOQEWnf8t4khG.jpg",
+      "description": "Lorsque Jack Wolfe est acculé par le FBI, il prévoit de simuler sa propre mort et de toucher les 30 millions de dollars de son assurance-vie avec la complicité de sa femme “endeuillée”, Nora, tout en faisant accuser son amant, Chad, de son meurtre. Mais Nora a son propre plan : tuer Jack pour de bon, faire accuser Chad et garder la fortune pour elle seule.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:860508",
+      "type": "movie",
+      "name": "The Whisper Man",
+      "poster": "https://image.tmdb.org/t/p/w500/pSsX2LnGzyfHR9RioDEiLrPy5wa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uauoVKKCkNA9iWjgJCL8TdSfLf5.jpg",
+      "description": "Lorsque son jeune fils disparaît, un veuf se tourne vers son père avec qui il est brouillé, un policier à la retraite qui a autrefois arrêté le tueur en série lié à l'affaire.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:813418",
+      "type": "movie",
+      "name": "Hot Spot",
+      "poster": "https://image.tmdb.org/t/p/w500/42egzT6e4CIEdrEo4Xc31DKyGjA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mATo9RWAc7IWGVbetpmmKJqWDiJ.jpg",
+      "description": "Dans une société gouvernée par une IA sensible, un détective privé enquêtant sur un meurtre tombe sur un groupe rebelle capable d'ébranler le chef numérique.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:445466",
+      "type": "movie",
+      "name": "Idiots",
+      "poster": "https://image.tmdb.org/t/p/w500/6QmP5yGbyosxFbqoM30DDXXXLkg.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lneqlgbg3XUjNaeGYk8arhgzczo.jpg",
+      "description": "Deux paumés qui s’improvisent chauffeurs privés doivent conduire un riche adolescent jusqu’à un centre de désintoxication. Lorsque leur passager fait dérailler les plans, le périple se transforme en une virée explosive où se mêlent drogues, danger et crime.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1226699",
+      "type": "movie",
+      "name": "The Wrong Girls",
+      "poster": "https://image.tmdb.org/t/p/w500/gqNqOBWuwG2oR4vcn3wQTPLsyiw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/opubkXrPWbXKXIv8hBsiamTmKoM.jpg",
+      "description": "Frankie et Molly, deux meilleures amies vivent au jour le jour, lorsque leur vie bascule dans le chaos à la suite d'une erreur d'identité.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1124142",
+      "type": "movie",
+      "name": "Oklahoma Honey",
+      "poster": "https://image.tmdb.org/t/p/w500/6YCH9yUVO9Fh23WIOORl6JmCpOo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nBSlvQrDX60rmngwcxMeMq33I9m.jpg",
+      "description": "Au cœur des terres reculées de l’Oklahoma rural, Amziah King, personnage charismatique au talent musical hors du commun, veille sur une bande de marginaux passionnés de bluegrass tout en supervisant la plus importante exploitation apicole de la région. Lorsque sa fille adoptive, dont il était éloigné depuis des années, réapparaît soudainement, Amziah y voit l’occasion de renouer les liens et de bâtir avec elle une entreprise familiale. Mais le monde du miel est sans pitié, et les rivaux d’Amziah menacent de détruire tout ce qu’il a construit.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:675871",
+      "type": "movie",
+      "name": "Super Troopers 3",
+      "poster": "https://image.tmdb.org/t/p/w500/VVU42nqsEmUtFpH1d9MHj5BIpF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mqO2Q8BeCuESJUVZgwyWRDa9Ux9.jpg",
+      "description": "Dans le Vermont, près de la frontière canadienne, cinq officiers de police, Thorny, Farva, Mac, Foster et Rabbit, tentent tant bien que mal de faire respecter l'ordre.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1458215",
+      "type": "movie",
+      "name": "The Gentleman Thief",
+      "poster": "https://image.tmdb.org/t/p/w500/oMutDMODnbCZf46w0dK4wncQmDB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aayQcCebqLmkTZdILp9JVcFiIRL.jpg",
+      "description": "Sorti de sa retraite, le maître voleur Mason Goddard doit dérober un tableau d'une valeur inestimable et déjouer le piège mortel tendu par un baron du crime impitoyable.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1514682",
+      "type": "movie",
+      "name": "Above & Below",
+      "poster": "https://image.tmdb.org/t/p/w500/7bOuu1SRALGwsG2fLCTvRkCmQBj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lSd6nEnlaeQkswLLUgHC5gyuXyU.jpg",
+      "description": "Un groupe d’amis partent pour connaître des vacances inoubliables. Ce qui commence comme une aventure faite de fêtes et de plongées vire rapidement au cauchemar lorsqu’ils sont attaqués par des criminels en pleine mer.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:87513",
+      "type": "movie",
+      "name": "Motor City",
+      "poster": "https://image.tmdb.org/t/p/w500/rKws4iqKhrzWHVLHnwtMnCpEHhF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/l7asYmqOad01F2u0oCMM8nQjoEP.jpg",
+      "description": "À Détroit dans les années 1970, John Miller sort de prison. Il décide alors de se venger et de récupérer la femme qu'il aime, Sophia.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:949838",
+      "type": "movie",
+      "name": "72 heures",
+      "poster": "https://image.tmdb.org/t/p/w500/oRCQDEb8wqBIQIs12BBtimPL1Bw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hL5EIk48251OXlbIbRJq3yaBHk8.jpg",
+      "description": "Un quadragénaire en perte de vitesse espère sauver sa carrière dans la publicité en rejoignant un groupe de vingtenaires pour un enterrement de vie de garçon déjanté de trois jours, après avoir été ajouté par erreur à leur conversation par SMS.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1725116",
+      "type": "movie",
+      "name": "Simpsley",
+      "poster": "https://image.tmdb.org/t/p/w500/xzmJsuoYQzi3jhijL9zIoFvOmzL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2vl4nyxi1zVtiqYqJkbP8yTMOQV.jpg",
+      "description": "Lorsque Marge Bouvier, une escroc sans le sou, est envoyée en Italie pour convaincre le riche et naïf Seymour Skinner de rentrer au pays, elle est tentée par les signes extérieurs de richesse. Mais un grain de sable vient enrayer la machine : Homer Simpsley, l'invité collant et idiot de Skinner. Mensonges, luxure et lires italiennes sont au rendez-vous.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1202033",
+      "type": "movie",
+      "name": "Enola Holmes 3",
+      "poster": "https://image.tmdb.org/t/p/w500/ncHImt9szlNQaNM2iY3vcgSdDp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jLuGZc84MvPYCQomQg9DI72mstt.jpg",
+      "description": "La détective Enola Holmes poursuit ses aventures à Malte, où son projet de mariage se complique quand elle doit résoudre une périlleuse affaire liée à la disparition de Sherlock.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1413976",
+      "type": "movie",
+      "name": "Citizen Vigilante",
+      "poster": "https://image.tmdb.org/t/p/w500/6LmJD3Wohe0g4U62wgi7RyJqfE4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zUninC7dOHfzwcgCqQMLQjlMtiy.jpg",
+      "description": "Frustré par l'absence de justice publique, Sanders décide de prendre les choses en main en devenant un justicier. Il se met alors en tête de punir à la fois les criminels et les fonctionnaires corrompus. À mesure que ses actions de justicier s'intensifient, sa notoriété grandit : il gagne le soutien du public, qui le considère comme un héros, mais attire également l'attention d'Henry, un responsable d'Interpol, qui le perçoit comme une menace pour la société.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1020047",
+      "type": "movie",
+      "name": "In the Hand of Dante",
+      "poster": "https://image.tmdb.org/t/p/w500/lvp4pBAWL7unhoyt32rlCm2YfXF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tJJ737CJujLXw1GlUYd7K4AH3eB.jpg",
+      "description": "Nick Tosches, un écrivain, apprend qu'un manuscrit de La Divine Comédie de Dante, volé au Vatican, est réapparu à New York. Incapable de passer à côté de cette opportunité, Nick décide de tenter d'authentifier ce manuscrit et de mener l'enquête sur ses origines, son parcours et celui de son auteur.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1699155",
+      "type": "movie",
+      "name": "Maternal Instinct : L'énigme Taylor Parker",
+      "poster": "https://image.tmdb.org/t/p/w500/dOWWCLSwXS1MBtGEFeItbloiUEN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oGD1dZvojZssnd9Ua6RUalEEHQu.jpg",
+      "description": "La police arrête une femme qui affirme qu'elle vient d'accoucher. Mais ni le bébé ni le sang ne sont les siens. Les mensonges se succèdent dans ce documentaire sur un crime réel.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1329471",
+      "type": "movie",
+      "name": "Carolina Caroline",
+      "poster": "https://image.tmdb.org/t/p/w500/9Jkylw7Y5NQyi7C8IwXLBvVSrH2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5dE3rixgMUTXOQLuO3zya4zSFav.jpg",
+      "description": "Dans sa petite ville tranquille du Texas, Caroline rencontre Oliver, un escroc charismatique, et se laisse rapidement envoûter par lui et ses combines. Ensemble, ils prennent la fuite et, au cours de leur périple fougueux et romantique à travers le Sud, ils sèment la pagaille, le crime et la passion sur leur passage, à la recherche de la mère de Caroline, dont elle est séparée. Mais lorsque de petits larcins se transforment en braquages ​​de plus en plus audacieux, le duo devient un « Bonnie et Clyde » des temps modernes et doit user de tous les stratagèmes pour échapper à la police.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1693002",
+      "type": "movie",
+      "name": "Le Meurtre de Rachel Nickell",
+      "poster": "https://image.tmdb.org/t/p/w500/ibTNWrpUGsSuv7PbVRIgr97jDVs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yKeYZOmBMQUMKpMlJJF8q4riYpl.jpg",
+      "description": "À Londres, une jeune mère est tuée en plein jour à Wimbledon Common devant son bambin. Ce documentaire revient sur l'affaire criminelle qui s'est étendue sur plusieurs années.",
+      "releaseInfo": "2026"
+    }
+  ]
+}

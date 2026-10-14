@@ -1,0 +1,58 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:283304",
+      "type": "series",
+      "name": "La Petite Maison dans la prairie",
+      "poster": "https://image.tmdb.org/t/p/w500/y8sgnrz9xXIIAfOcXasjtPTXNw8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fBieUo3SdItUrXZE16YxbpjwXIe.jpg",
+      "description": "La famille Ingalls se construit une nouvelle vie dans l'Ouest américain, où les joies de la nature se mêlent à la lutte pour survivre.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:299167",
+      "type": "series",
+      "name": "Dutton Ranch",
+      "poster": "https://image.tmdb.org/t/p/w500/kaWNHypRh9OFSJzEgj8prvMkA5h.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ewlmL0nxo2lLqBj69upgp2gjHpV.jpg",
+      "description": "Rip Wheeler et Beth Dutton misent tout sur une nouvelle vie dans le sud du Texas, mais leur rêve de se construire un avenir loin des fantômes de Yellowstone se heurte à de nouvelles réalités et à un ranch rival prêt à tout pour protéger son empire.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:223300",
+      "type": "series",
+      "name": "The Abandons",
+      "poster": "https://image.tmdb.org/t/p/w500/z6O7Mju7Ew4KtJGckV4Wo0Us2ma.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dHCr5HgldBavJPzAYFYmM0rEdQo.jpg",
+      "description": "Territoire de Washington, 1854. Les matriarches de deux familles que tout oppose, l'une fortunée et privilégiée, liée par le sang, et l'autre constituée d'orphelins et de marginaux unis par l'amour et la nécessité, voient leurs destins rassemblés par les crimes, un terrible secret, un amour maudit et un gisement d'argent. Une collision qui fait écho à la lutte entre riches et pauvres dans un coin d'Amérique hors de portée de la justice.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:240993",
+      "type": "series",
+      "name": "Nouvelle vie à Ransom Canyon",
+      "poster": "https://image.tmdb.org/t/p/w500/x7JcVoDkt1fGT8is1fPPWErd2Ds.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/29P64FqDp0UVa9oJsIl49PHn5tH.jpg",
+      "description": "Les passions sont vives dans cette petite ville du Texas, où trois dynasties de ranchers se battent pour leurs terres, leur héritage et leurs proches.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:215866",
+      "type": "series",
+      "name": "À l'aube de l'Amérique",
+      "poster": "https://image.tmdb.org/t/p/w500/bLDizkPrfCn8CQNW9MMhltgCMXv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1FxG2lmDYsCM1svJf7H79HNNwu2.jpg",
+      "description": "Fuyant leur passé, une mère et son fils font de nouvelles rencontres et affrontent les étendues hostiles du Far West américain, où règnent liberté et cruauté.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:243396",
+      "type": "series",
+      "name": "Territory",
+      "poster": "https://image.tmdb.org/t/p/w500/e0zoktDFma7CSp9SuOldt2UFkjx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dfRvmXp4sdMd052ZV9jYZkuLpc2.jpg",
+      "description": "Lorsque la plus grande ferme d'élevage au monde se retrouve sans successeur, un conflit de générations menace de déchirer la famille Lawson. Sentant que cette dynastie autrefois florissante est en déclin, les factions rivales les plus puissantes de l'outback australien (barons de l'élevage, gangsters du désert, anciens du monde indigène et mineurs milliardaires) commencent à fourbir leurs armes.",
+      "releaseInfo": "2024"
+    }
+  ]
+}

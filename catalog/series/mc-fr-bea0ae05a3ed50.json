@@ -1,0 +1,58 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:95350",
+      "type": "series",
+      "name": "Lanterns",
+      "poster": "https://image.tmdb.org/t/p/w500/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6gqezQJ2mkm4jreWwLyOZy2Vf6i.jpg",
+      "description": "Deux flics intergalactiques, la nouvelle recrue John Stewart et le légendaire Hal Jordan, sont confrontés à un sombre mystère sur Terre alors qu’ils enquêtent sur un meurtre au fin fond de l’Amérique.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:220102",
+      "type": "series",
+      "name": "Spider-Noir",
+      "poster": "https://image.tmdb.org/t/p/w500/tCup7Z7ax4FQJUciHGHKXUqC8GT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/reAZlLG6YMkBuxPT1XKuCH97TM1.jpg",
+      "description": "Ben Reilly, détective privé, est engagé pour enquêter sur ce qui semble être de banales affaires... jusqu'à ce que des gangsters, des monstres et une mystérieuse femme fatale tissent une toile qui va le confronter à son ancienne vie de seul et unique super-héros de New York : L'Araignée.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:274388",
+      "type": "series",
+      "name": "Iron Man et ses amis incroyables",
+      "poster": "https://image.tmdb.org/t/p/w500/3NlFaIdOkBg2VC3Imi1kbeeGynw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tHWW3xDD49UZuoirqzUQT046dWi.jpg",
+      "description": "Suivez les aventures (et mésaventures) de Tony Stark, Riri Williams et Amadeus Cho, trois meilleurs amis et super génies, qui travaillent ensemble pour résoudre des problèmes, petits et grands, et protéger leur ville.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:202555",
+      "type": "series",
+      "name": "Daredevil : Born Again",
+      "poster": "https://image.tmdb.org/t/p/w500/7UMmvMvhSw1jBgdz0NzLo9pa93g.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qrTAc0ZtQ859Qu5O8cixJzNJpQs.jpg",
+      "description": "Matt Murdock, un avocat aveugle aux capacités accrues, se bat pour la justice dans son dynamique cabinet d'avocats, tandis que l'ancien chef de la mafia Wilson Fisk poursuit ses propres projets politiques à New York. Lorsque leurs anciennes identités se révèlent, les deux hommes se retrouvent sur une inévitable trajectoire de collision.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:138503",
+      "type": "series",
+      "name": "Votre fidèle serviteur Spider-Man",
+      "poster": "https://image.tmdb.org/t/p/w500/kOG8tnJBCyKGsP5QLx0KC1WHDFz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kkT2B2gmynoh9kZMo1gromLNeqy.jpg",
+      "description": "Peter Parker est en passe de devenir un héros, mais le chemin pour y parvenir n'a rien d'ordinaire.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:254653",
+      "type": "series",
+      "name": "Les Thunderman : Incognito",
+      "poster": "https://image.tmdb.org/t/p/w500/8c3cJAB8fQHScpGvKH55U3Lb0yQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yEmGiYvCyJ32xuPZbmytTjXzF4S.jpg",
+      "description": "Envoyés incognitos dans la ville de Secret Shores, Phoebe et Max font face à une nouvelle menace. Ils décident d'emmener avec eux Chloé, leur petite sœur, afin de l'aider à améliorer ses pouvoirs et l'entraîner durant cette mission.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

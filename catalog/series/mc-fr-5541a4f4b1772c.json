@@ -1,0 +1,57 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:312423",
+      "type": "series",
+      "name": "Top Model USA : Le revers du rêve",
+      "poster": "https://image.tmdb.org/t/p/w500/lxlsvsgvEYlf2wrSV9qUipHRAuk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fRiAJB6VxyG0QcjSXW4BoHIGsnu.jpg",
+      "description": "Tyra Banks et les membres de \"Top Model USA\" reviennent sur l'héritage complexe de l'émission de téléréalité dans une série documentaire révélatrice.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:289980",
+      "type": "series",
+      "name": "Destination X",
+      "poster": "https://image.tmdb.org/t/p/w500/srKrtD3BWCYDar3IEZlXbQh5YEl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2mPpsMo3g49QKs1FhEmrhKqUp2f.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:285205",
+      "type": "series",
+      "name": "Million Dollar Secret",
+      "poster": "https://image.tmdb.org/t/p/w500/y0lAZqgaUXOTcsn6hPjiaJSJTnj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9EiKPxxL90mXxHsUAIi7V20oa2s.jpg",
+      "description": "Dans cette compétition acharnée, un millionnaire sous couverture doit tout faire pour garder son secret et éviter l'élimination s'il veut remporter le jeu et l'argent.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:262469",
+      "type": "series",
+      "name": "Dating Naked : Draguer nu",
+      "poster": "https://image.tmdb.org/t/p/w500/tWHl9QaUaz4sKEUk1qCaGqQDARq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nC5gyHQB5zrWOkKMquBueGW7gb5.jpg",
+      "description": "Dix célibataires à la recherche de l'amour défient les apparences et prennent part à une expérience de rencontre audacieuse dans le plus simple appareil. Déshabillés, ils commencent à faire connaissance, mais leurs liens seront mis à rude épreuve.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:241168",
+      "type": "series",
+      "name": "The Trust : La méfiance est de mise",
+      "poster": "https://image.tmdb.org/t/p/w500/5bEgvnGXO0fG4Arl6aZd73e6mdU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nB39qy7oGAIEN8dQkwO1PN4WC4g.jpg",
+      "description": "Dans cette émission de téléréalité, des candidats qui ne se connaissent pas doivent se partager 250 000 dollars. Entre équité et cupidité, ils vont devoir faire un choix.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:204082",
+      "type": "series",
+      "name": "Squid Game : Le défi",
+      "poster": "https://image.tmdb.org/t/p/w500/6q1po1VWsV2NRwZnS6SYG2teyHr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qgYK2c5Yl6h0K7s0ClLa3lIcKuV.jpg",
+      "description": "Dans cette compétition de téléréalité inspirée de \"Squid Game\", 456 joueurs mettent leurs aptitudes à l'épreuve pour remporter 4,56 millions de dollars qui pourraient changer leur vie.",
+      "releaseInfo": "2023"
+    }
+  ]
+}

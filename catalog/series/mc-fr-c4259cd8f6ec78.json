@@ -1,0 +1,65 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:319047",
+      "type": "series",
+      "name": "Shared Planet",
+      "poster": "https://image.tmdb.org/t/p/w500/46acemEtsBENJIDETi2KxzGIbf6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5B7PBmsB7XkqziUfctFYjavVYWZ.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:249023",
+      "type": "series",
+      "name": "Chronique Arctique",
+      "poster": "https://image.tmdb.org/t/p/w500/lEuGc0MiFFZo5ldtcQzaHZb4VaF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sDxHU2H98qa7DSpQ0mylVNlRj7X.jpg",
+      "description": "Une jeune femme inuite veut prendre un nouveau départ après un mariage qu'elle a quitté de façon inattendue... et très publique. Mais les choses s'annoncent compliquées dans une petite ville de l'Arctique où tout se sait.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:255351",
+      "type": "series",
+      "name": "Saint-Pierre",
+      "poster": "https://image.tmdb.org/t/p/w500/u8RSQ3aPtbxu6QrrljkS9R79a8x.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pvXOB54QLsGhZwF4o9rmlDgAD5V.jpg",
+      "description": "Après que l'inspecteur Donny « Fitz » Fitzpatrick de la Royal Newfoundland Constabulary ait approfondi les activités néfastes d'un homme politique local, il est exilé pour travailler à Saint-Pierre et Miquelon (le territoire français niché dans l'océan Atlantique, au large de Terre-Neuve). L'arrivée de Fitz perturbe la vie de la chef adjointe Geneviève « Arch » Archambault, une parisienne transplantée qui se trouve à Saint-Pierre pour ses propres raisons intrigantes.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:245782",
+      "type": "series",
+      "name": "Le Monde secret du son avec David Attenborough",
+      "poster": "https://image.tmdb.org/t/p/w500/gKuE966jFD7CiIIy5aaTkrNLmuY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/71o0D7vgNGxQgkuDBKuCmjwRK8x.jpg",
+      "description": "David Attenborough explore les façons extraordinaires dont les animaux entendent et produisent des sons, ainsi que le rôle crucial que joue le son dans la vie des animaux du monde entier - de la naissance à la survie à l'âge adulte et pour la recherche d'un partenaire.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:240936",
+      "type": "series",
+      "name": "Allegiance",
+      "poster": "https://image.tmdb.org/t/p/w500/1lNNxOTDoGkwhDU7UsPWrc2RNyg.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jUeSz7rVb8vqbrPVz2n8mG4s3ol.jpg",
+      "description": "Sabrina Sohal est la nouvelle coqueluche de la police. Elle doit faire face aux limites du système judiciaire alors qu'elle se bat pour disculper son père politicien, accusé à tort, et pour servir sa ville natale multiculturelle aux côtés d'un officier formateur chevronné qui voit son potentiel mais n'est pas toujours d'accord avec ses méthodes avant-gardistes. C'est l'histoire d'une jeune femme prise entre son allégeance à son drapeau, à son insigne et à sa famille. C'est une histoire d'identité et d'appartenance, de police et de politique, et de recherche de la vérité au cœur d'un système judiciaire défectueux.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:240932",
+      "type": "series",
+      "name": "Wild Cards",
+      "poster": "https://image.tmdb.org/t/p/w500/lIhkV9LNwViVD2bylPTFQvDD21e.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iKQm68NeKhrQMV7sbP2Ivmtm1Uk.jpg",
+      "description": "Le détective rétrogradé Ellis et l'habile escroc Max saisissent tous les deux une seconde chance de rédemption en travaillant ensemble pour résoudre des crimes.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:234725",
+      "type": "series",
+      "name": "One More Time",
+      "poster": "https://image.tmdb.org/t/p/w500/by1yIucc504YqO0FNUsv3Ix6uys.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zCyoeST8tvOLAcVPu7ruxxNZknv.jpg",
+      "releaseInfo": "2024"
+    }
+  ]
+}

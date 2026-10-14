@@ -1,0 +1,173 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:964849",
+      "type": "movie",
+      "name": "Nightborn",
+      "poster": "https://image.tmdb.org/t/p/w500/cF1g9qtuRyATaZ75O6zRop2zmfZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jVeYae744cR2ogx9ShQ3qXOcRiZ.jpg",
+      "description": "Rêvant de construire une vie de famille paisible, Saga et son mari Jon s’installent dans la maison où elle a passé une grande partie de son enfance, au cœur de la forêt finlandaise. Mais dès la naissance de leur enfant, et malgré un entourage qui se veut rassurant, Saga perçoit chez son bébé quelque chose d’inexplicable et d’inquiétant…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1016024",
+      "type": "movie",
+      "name": "Kalevala: Kullervon tarina",
+      "poster": "https://image.tmdb.org/t/p/w500/eUMtmxTnBuo8RUxtKeQILFX8P33.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kIQtEiPdyAIoypGNHxJrYSA6r5w.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1448231",
+      "type": "movie",
+      "name": "Teräsleidit – kuin viimeistä päivää",
+      "poster": "https://image.tmdb.org/t/p/w500/mdNAUxEEk0LuRrB57I2MkbG2FPw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jC4eSQYLhEB7Wjp2LUR3qb3kfbO.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:798580",
+      "type": "movie",
+      "name": "The Creeps : L’attaque des bonshommes de neige tueurs",
+      "poster": "https://image.tmdb.org/t/p/w500/3HxtiiNsNkYG16bTWw5ST2WxCJu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A7I7Hy7CJtK7QlL6Y2I0UnnYo6J.jpg",
+      "description": "Zach et Joe, deux adolescents de l’Oregon, s’apprêtent à fêter l’anniversaire de Zach lors du Monsterfest, dans une station de ski du nord de la Finlande. Ils prennent en stop Jaakko, un Finlandais marginal qui ne souhaite qu’une seule chose : se faire des amis. Mais lorsque des bonhommes de neige meurtriers sont réveillés par des scientifiques s’invitent à la fête, Zach et ses amis parviennent à fuir — mais les traces sanglantes laissées dans la neige se rapprochent dangereusement.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1286995",
+      "type": "movie",
+      "name": "Tonttu",
+      "poster": "https://image.tmdb.org/t/p/w500/zEevTwf2LeYEbTO7J2gT65Beq7G.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AtQRdi1ZwUb1T1fFOkXI16dqNFr.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1223601",
+      "type": "movie",
+      "name": "Sisu : Le Chemin de la vengeance",
+      "poster": "https://image.tmdb.org/t/p/w500/5zShXWMi5f4Cb883DnQbrpPZYIN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/10MiMMNzWeE53cHhSlfroPiO8vi.jpg",
+      "description": "1946. Aatami Korpi retourne là où sa famille a été massacrée pendant la guerre. Il y démonte la maison familiale et la charge sur un camion, déterminé à la reconstruire en lieu sûr. Lorsque les Soviétiques apprennent son retour, l'assassin de sa famille met tout en œuvre pour en finir et tuer l'ancien soldat légendaire. Mais Aatami n’est pas surnommé « l'homme qui refuse de mourir » pour rien…",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1445189",
+      "type": "movie",
+      "name": "Cancel",
+      "poster": "https://image.tmdb.org/t/p/w500/8urrmVjXjclsnKOCFbHL5i1wI8t.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3YS93IENVdtAPrgHQauWic1nVnb.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1167765",
+      "type": "movie",
+      "name": "Pompiers d'Europe sur le front des incendies",
+      "poster": "https://image.tmdb.org/t/p/w500/fsOTSOxKhr8U1wwKNzJZWC4rbCP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bEMGwxnfQNRfu7kd7HBqAsHz3pd.jpg",
+      "description": "Pour se préparer aux mégafeux auxquels ils risquent d’être confrontés dans leur pays, cinquante pompiers finlandais partent se former auprès d'une unité d'élite portugaise. Récit d'une coopération européenne devenue essentielle à l'heure du réchauffement climatique.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1304527",
+      "type": "movie",
+      "name": "La lumière ne meurt jamais",
+      "poster": "https://image.tmdb.org/t/p/w500/156VDqBQzLynl7Q3bmRiE4gji4z.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/v2CY4qMFkI3ac0PDFUMRVfvfoHB.jpg",
+      "description": "Pauli, célèbre flûtiste classique, retourne dans sa petite ville natale pour se remettre d’une dépression. Il renoue avec une ancienne camarade de classe, qui lui propose de rejoindre un groupe de musique joyeusement anticonformiste. Comment Pauli, de nature plutôt perfectionniste, va-t-il se laisser embarquer dans cette aventure musicale aussi inattendue qu’expérimentale ?",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1223589",
+      "type": "movie",
+      "name": "Elämä on juhla",
+      "poster": "https://image.tmdb.org/t/p/w500/wlLihT3HLUUz8VFQM84Oblwii3F.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/w4YYvD82MylrFuCgkfz7NVwFkDK.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:680770",
+      "type": "movie",
+      "name": "Le Monde de Wishy",
+      "poster": "https://image.tmdb.org/t/p/w500/7bNPm9Zzu0bdw6ai10ebIZstIJx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hyQPfCbALQmi0FQc2vLFyfENpHM.jpg",
+      "description": "Quand Thomas rencontre Wishy, une petite boule de poils venue d'un univers magique, sa vie bascule. Dans ce royaume merveilleux peuplé de créatures fantastiques, il peut remarcher, et même voler ! Soudain, lorsque le portail entre les mondes libère un monstre, Thomas et son nouvel ami doivent partir à l'aventure pour sauver leurs deux univers.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1337771",
+      "type": "movie",
+      "name": "Orenda",
+      "poster": "https://image.tmdb.org/t/p/w500/b7acvqJEUfKPgXGTD3EYbMJcSq7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6XTbDmUJc9RsOgvAk0bA4J5ke2K.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1204016",
+      "type": "movie",
+      "name": "100 litraa sahtia",
+      "poster": "https://image.tmdb.org/t/p/w500/rv5mLxxC1CRWJC3hDxzPx2Hetb8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1dJ5lFzy8KifKXjkLshnbahPXpB.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1141489",
+      "type": "movie",
+      "name": "Valitut",
+      "poster": "https://image.tmdb.org/t/p/w500/ug6nbWXZKZJFAHghrLg8WFQyPfU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1EgrimJdCTseHLx7Uz73MrnXOep.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1362608",
+      "type": "movie",
+      "name": "Au fin fond de la petite Sibérie",
+      "poster": "https://image.tmdb.org/t/p/w500/bFsVfW4ETieobjVV9H3cgmltkcx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2jllAxMf7dTMt1fw9A1slsaj6Fv.jpg",
+      "description": "La foi d'un pasteur finlandais est mise à rude épreuve lorsqu'une météorite s'écrase sur sa petite ville, semant le chaos et attisant des intentions criminelles.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1377676",
+      "type": "movie",
+      "name": "Kenraaliharjoitus",
+      "poster": "https://image.tmdb.org/t/p/w500/7M46DjIVGv0vsuOFEsMAWxL6frK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7vwjoYwewqsmBAcF8sTRil7O0gy.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1143351",
+      "type": "movie",
+      "name": "Uhma",
+      "poster": "https://image.tmdb.org/t/p/w500/1vXNN23tZMJ6TdJU4uMUNwMdaEW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/f0L3Q43M2f9w3bviTvHD8JmEDGh.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1411805",
+      "type": "movie",
+      "name": "L'effet Helsinki : 1975, l'acte final et la fin du rideau de fer",
+      "poster": "https://image.tmdb.org/t/p/w500/wddt6jh2f5KW4VArlSjEz5Gtg1c.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aPqVFaqSdO2MHxtynQLIinTDEJ8.jpg",
+      "description": "Signé le 1er aout 1975 à Helsinki, l'acte final de la conférence sur la sécurité et la coopération en Europe amorce la fin de la guerre froide. Retour sur un sommet majeur.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1262759",
+      "type": "movie",
+      "name": "Häjyt 2",
+      "poster": "https://image.tmdb.org/t/p/w500/vREdhRvzVSJdvkEfc8zovV6tP9r.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tKmECmntWyiPthFxNr3RRUYInza.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:563470",
+      "type": "movie",
+      "name": "Jamais seul",
+      "poster": "https://image.tmdb.org/t/p/w500/kSGsN8tW67C2D043z3OQb7YwSFo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aGoPoY9BEmXu4yxO09XXBEAyzBR.jpg",
+      "description": "Lors de la Seconde Guerre mondiale en Finlande, Abraham Stiller, un notable de confession juive, échoue à sauver les membres de sa communauté de la déportation. Inspiré de faits réels, un éclairage poignant sur un épisode méconnu de la période.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

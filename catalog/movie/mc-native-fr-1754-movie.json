@@ -1,0 +1,182 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1584779",
+      "type": "movie",
+      "name": "Mon père, un meurtrier ?",
+      "poster": "https://image.tmdb.org/t/p/w500/4aBN0YZ6Jfb09fRSxyObfdSe2Ot.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8UkpeQ7fwKyX2PVmnnaAJm7Vv9J.jpg",
+      "description": "Quand Amy, la présidente d'une importante association caritative, perd son père, elle est choquée de découvrir qu'il possédait un espace dans un garde-meuble avec un secret mortel à l'intérieur : le corps d'une femme. Son père était-il un meurtriers ? Qui était cette femme ?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1729010",
+      "type": "movie",
+      "name": "Le pacte des innocentes",
+      "poster": "https://image.tmdb.org/t/p/w500/7SS3Hspxj19h0e3pRrbgv6Vqj2s.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/Y30JqkSUjaCXDRfXqFy1hPSBFb.jpg",
+      "description": "Ellie, Jessica, Kendall et Lily sont quatre lycéennes inséparables. Lorsque la mère d'Ellie annonce leur déménagement, la jeune fille prévoit de s'enfuir avec son petit ami Caleb après une fête. Mais la soirée tourne mal lorsqu'elle apprend que Caleb l'aurait trompée. Quelques heures plus tard, Ellie disparaît sans laisser de trace. Tandis que des photos compromettantes de Jessica circulent dans le lycée, les soupçons se multiplient. Déterminée à retrouver sa fille, Tina, la mère d'Ellie, mène l'enquête avec le lieutenant Patel. Très vite, secrets, jalousies et trahisons menacent de faire éclater le groupe d'amies.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1611384",
+      "type": "movie",
+      "name": "Pasteur et prédateur",
+      "poster": "https://image.tmdb.org/t/p/w500/nzQQsZBy0H86TTl6OMh9yJH9reL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kFmnD6deQs8ONAwooh7A11RMJGr.jpg",
+      "description": "Venue chercher l'inspiration dans une petite ville paisible, Nicole, une jeune styliste, voit son été virer au cauchemar après la mort mystérieuse de sa cousine. Ses soupçons se tournent rapidement vers le pasteur local, un homme aussi charismatique qu'influent. Nicole en est convaincue : derrière cette façade de citoyen irréprochable, il cache un secret mortel.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1782745",
+      "type": "movie",
+      "name": "Restless",
+      "poster": "https://image.tmdb.org/t/p/w500/iVcD9F3ZQBZBBsVq6hDE4iYO4yi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qXJ9GzTQrB4piZqUJtBUdZ7WbbP.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1762164",
+      "type": "movie",
+      "name": "Mon sucre d'amour",
+      "poster": "https://image.tmdb.org/t/p/w500/htrGMQJ59jl6gDQ4SPHiWWRNhAx.jpg",
+      "description": "Joakim et ses deux potes se retrouvent pour une soirée pyjama entre mecs. Mais le crush de Joakim arrive à l’improviste…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1744151",
+      "type": "movie",
+      "name": "Trois femmes et un secret",
+      "poster": "https://image.tmdb.org/t/p/w500/zo6NjsW43vh0hdrrN92kKMwaWbn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/o4e82ZB7XwZJvdLOUUgMzmevkvT.jpg",
+      "description": "Loréna, Jacquie et Célia passent une soirée entre amies lorsque Craig, l'ex de Jacquie, débarque et les agresse. En tentant de se défendre, Loréna le frappe à la tête et le tue accidentellement. Les trois amies doivent alors se débarrasser du corps, car Jacquie refuse d'aller à la police : elle craint que Troy, le frère de Craig, ne cherche à se venger.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1323244",
+      "type": "movie",
+      "name": "Rage of Stars",
+      "poster": "https://image.tmdb.org/t/p/w500/oLld47ZT1I3iecM3OWhIphohQUJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z7lZgL5tzefTfhyRtouThFhsuUS.jpg",
+      "description": "L'histoire d'une femme membre des forces spéciales internationales, qui a une prémonition de la fin imminente de l'humanité.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1720983",
+      "type": "movie",
+      "name": "Mariés à une polygame",
+      "poster": "https://image.tmdb.org/t/p/w500/gn1IWkxdZw2DhYslsvQTgkPQv4c.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/e2xOc2UYI63EZTqcop6v3vFqb9r.jpg",
+      "description": "Natalie rend visite à son frère Marcus dans un ranch isolé pour lui annoncer la mort de leur père. Elle découvre que Marcus vit dans une relation polyandre avec Larissa et ses deux autres maris, Jack et Nico. Lorsque Jack est retrouvé mort dans ce qui semble être un accident, Natalie commence à soupçonner Nico et découvre peu à peu une série de mensonges et de manipulations. Personne ne la croit, et elle devient la prochaine cible...",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1727577",
+      "type": "movie",
+      "name": "La recette des vacances parfaites",
+      "poster": "https://image.tmdb.org/t/p/w500/azL8xUAXTnW700ffzchkKmUCvp8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9wTQzxrVtiAJh1SMOhtK5A7UExD.jpg",
+      "description": "Monica se rend au camp Evergreen avec ses enfants pour participer à un concours de cuisine. Elle se retrouve vite déstabilisée par Adam, son charmant rival. Au fil des épreuves, tous deux découvrent qu'ils ont plus en commun qu'ils ne le pensaient. Tandis qu'Adam doit accepter d'aimer à nouveau, Monica apprend peu à peu à lâcher prise. Ensemble, ils pourraient bien trouver la recette d'un nouveau départ.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1660295",
+      "type": "movie",
+      "name": "Danse macabre",
+      "poster": "https://image.tmdb.org/t/p/w500/mC3NKKYyhvZbXboglYYJmXwZVGb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3pze5HHdcPNCtDHOUoeQzcvVnpq.jpg",
+      "description": "Une armée funeste surgie des ténèbres sonne les trompettes de la guerre. La musique de Chostakovitch nous entraîne dans un déferlement de violence, de batailles et de destructions, incarnation des guerres passées, en cours et à venir. Plus de 80 personnes dans 4 studios d'animation ont été mobilisés pour fabriquer ces 5 minutes d'animation à la peinture à l’huile, rotoscopie, 2D et 3D",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1711513",
+      "type": "movie",
+      "name": "Marina Vlady, une actrice dans la Guerre froide",
+      "poster": "https://image.tmdb.org/t/p/w500/6MSF9JXtuD8dohkIdXLF0wkb2Au.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8ZaLnqF5iDeJy2pUeWwOon8QnsM.jpg",
+      "description": "Pour les stars du grand écran, il ne reste souvent que le mythe, à la Edgar Morin ; mais de près, la vie d’une actrice est davantage liée au destin, et dans le cas de Marina Vlady, ce destin est inclassable, avec plus de quatre-vingts films classiques et bien d’autres restés inédits. C’est à travers la France, l’Italie et surtout la Russie que ce documentaire, riche en images d’archives rares, nous emmène retracer le parcours d’une femme libre, faisant de ce film non seulement un documentaire, mais aussi un film politique.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1535072",
+      "type": "movie",
+      "name": "Out of the Blue",
+      "poster": "https://image.tmdb.org/t/p/w500/gshyIGFd5Fzo0cNTVIJy7AOCdmN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rb0Lxe5fUi3dr4YWV3Ga0TpSyBT.jpg",
+      "description": "Dans un hôtel isolé, deux amies se retrouvent au coeur du tournage d'une campagne suspecte sur les réseaux sociaux...",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1698152",
+      "type": "movie",
+      "name": "La face cachée de mon fils",
+      "poster": "https://image.tmdb.org/t/p/w500/zPtPDabOSCC5EcYfO83N0DNAm0G.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6S1UvFjk0HURLp2mwzQAK63wkgL.jpg",
+      "description": "Kathy a fui son mari violent avec son fils Noah, lorsqu'il était enfant. Quelques années plus tard, alors qu'ils ont enfin une vie stable et heureuse, Noah se retrouve accusé du meurtre de son meilleur ami, Ethan. Il a beau clamer son innocence, il est le suspect numéro un et même sa mère commence à douter de lui.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1468471",
+      "type": "movie",
+      "name": "Fiançailles au Machu Picchu",
+      "poster": "https://image.tmdb.org/t/p/w500/ySrjf2ExY0qlKfl3HjmsOgMSTFN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oNSZmOdLEZ1Ipw736WMmBOkEJK7.jpg",
+      "description": "Katie aide à organiser la demande en mariage de son frère au sommet du Machu Picchu. Lorsque la proposition est gâchée par le chef Carlos, Katie sollicite son aide pour trouver l'endroit le plus romantique du Pérou.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1694164",
+      "type": "movie",
+      "name": "Le professeur toxique de mon fils",
+      "poster": "https://image.tmdb.org/t/p/w500/xBImJpDHty1ywGbUdTyEc8qdztn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/u9pAygFe3cfeh3O2yMGm3X41rgl.jpg",
+      "description": "Emma et Ethan sont meilleurs amis et étudiants en psychologie. Ils admirent tous les deux le grand professeur Jackson qu'Andrea, la mère d'Ethan, a hâte de rencontrer. Mais l'opinion d'Andrea va être tout autre que celle des deux jeunes gens. Et lorsqu'Emma trouve la mort au domicile de Jackson, Andrea se met à avoir de sérieux soupçons à son sujet. Elle tente alors d'alerter à la fois la police et son fils, mais l'aura de Jackson est telle que, malgré les actes d'intimidation dont elle devient la victime, elle peine à se faire entendre. Qu'importe, elle n'abandonnera pas. D'autant moins qu'Ethan semble aspiré dans le vortex maléfique de Jackson.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1118593",
+      "type": "movie",
+      "name": "Une Fugue",
+      "poster": "https://image.tmdb.org/t/p/w500/bGKXUlRzjvCwFu8CHVoAy0a0amR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4aY8eaimNsQSqjDabwcSan04x7n.jpg",
+      "description": "Une nuit d’été, dans une maison rouge aux volets bleus, bordée par la forêt. On entend le murmure de la rivière depuis la chambre où la petite sœur, âgée de quatre ans, réveille son frère, âgé de dix ans. Car elle en a décidé ainsi : ce soir, ils iront se baigner. Par la fenêtre ouverte, les deux enfants se glissent dans l’obscurité. Ils se faufilent entre les fleurs, les ronces, les arbres… Et enfin, l’eau, le reflet des étoiles, leurs deux corps au repos. Mais au loin, l’orage gronde. Il faut déjà rentrer. Frère et Sœur marchent main dans la main. Soudain, Frère disparaît. Sœur se lance à sa poursuite, s'essouffle, tourne en rond, se désespère. Est-ce un jeu de cache-cache? Une ruse de la forêt? Ou est-ce sa mémoire qui, des années plus tard, lui joue un tour cruel?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1665464",
+      "type": "movie",
+      "name": "Le déni de ma fille",
+      "poster": "https://image.tmdb.org/t/p/w500/bPzzOvbar1Oj8PjBL6pjjo8Wtov.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/35yMXTzfy5Mo6TBX5x3rrntk6rC.jpg",
+      "description": "À la stupéfaction de ses parents, Carly Greenwood, 17 ans, accouche après un déni de grossesse. Pour préserver leur image, et la campagne municipale de Don, candidat à la mairie de Brookside, la famille fait passer Luna pour un bébé adopté, espérant ainsi obtenir le soutien de l'influent pasteur David. Carly refuse de dire la vérité, même à son ex-petit ami Marcus, malgré la pression de sa mère, Suzanne. Mais la rumeur enfle et finit par éclater. On découvre que le véritable père de l'enfant est Brayton, le fils du pasteur. Lorsque Luna est enlevée, tout bascule...",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1680417",
+      "type": "movie",
+      "name": "Les murs ont des secrets",
+      "poster": "https://image.tmdb.org/t/p/w500/vRkE2B68FNJLsconGYXHOwIbWTU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fSjnw0xMhxuxGus7FSs9iqqNuoA.jpg",
+      "description": "Après une enfance difficile, Daisy a enfin trouvé un équilibre. Avec son mari, Chris, elle rénove et revend des maisons et elle attend un enfant. Par ailleurs, elle a auprès d'elle sa meilleure amie, Louise. Mais un soir, Chris fait une chute mortelle depuis la fenêtre de la maison qu'il rénovait. Le choc provoque la naissance difficile du petit James et les problèmes s'enchaînent pour Daisy qui va même se voir soupçonnée du meurtre. Car oui, Chris a été assassiné...",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1495473",
+      "type": "movie",
+      "name": "Le danger est à ma porte",
+      "poster": "https://image.tmdb.org/t/p/w500/g93BaJnW9LNZVv90XXbvhZW0W5z.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tqw8P7glEkOLYaDj029tU1P3Qb3.jpg",
+      "description": "Sarah accepte à contrecœur de se rendre à un speed dating où elle matche avec Jack, veuf comme elle, qui s'avère être son nouveau voisin d'en face. Mais un meurtre vient aussitôt obscurcir leur idylle naissante et Sarah ne tarde pas à soupçonner Jack lui-même. Elle décide de mener discrètement l'enquête et de se confier à Luna, sa meilleure amie, qui finira par révéler sa face cachée : celle d'une meurtrière sans scrupules et sans remors.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1653524",
+      "type": "movie",
+      "name": "Le Garçon de la piscine",
+      "poster": "https://image.tmdb.org/t/p/w500/heuxC7OhpbMFUqCrXL3OmFTmjz8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/n379LxxDIfiwkcONqGVau16DhEs.jpg",
+      "description": "Nicole est une mère de famille qui vient de traverser un divorce douloureux. Pendant ses vacances avec son fils Casey, elle fait la connaissance des Shroder, parents d'un petit garçon de 7 ans. Mais très vite, elle est prise d'une certitude : le petit Jacob ne serait-il pas un enfant disparu il y a quelques années ? Avec l'aide de son ami policier, elle va tout faire pour découvrir le secret de ce couple mystérieux et la véritable identité de Jacob.",
+      "releaseInfo": "2026"
+    }
+  ]
+}

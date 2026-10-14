@@ -1,0 +1,49 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:2734",
+      "type": "series",
+      "name": "New York Unité Spéciale",
+      "poster": "https://image.tmdb.org/t/p/w500/95flTYCxEPNFSdZVrHy9nMIeLbw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xhK9YCxNwnE0OB1SWvCY39heHQI.jpg",
+      "description": "Les inspecteurs qui font partie de la division des Crimes sexuels (SVU) du service de police de la ville de New York (NYPD) enquêtent sur des crimes de nature sexuelle. Alors que les autres émissions de la franchise de \"La loi et l'ordre\" se sont largement concentrées sur les cas de meurtres, les inspecteurs de la division des Crimes sexuels (SVU) ont souvent affaire à des crimes, tel le viol, auquel la victime survit et elle aide les autorités lors de l'enquête.",
+      "releaseInfo": "1999"
+    },
+    {
+      "id": "tmdb:58841",
+      "type": "series",
+      "name": "Chicago Police Department",
+      "poster": "https://image.tmdb.org/t/p/w500/sfBiloE6J9rFEnpvckdeHZ06SSl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/18KSsDgcGQds7yOMC6MVRTbVJwt.jpg",
+      "description": "Des officiers en uniforme qui patrouillent et combattent le crime dans la rue, aux membres de l'unité des renseignements affectés à des affaires majeures (crime organisé, trafic de drogue, homicides...), toutes les recrues du poste de police du district 21 de Chicago risquent quotidiennement leurs vies. Ces énormes responsabilités dépassent souvent le simple cadre professionnel et entâchent la sphère privée de ces hommes et de ces femmes d'exception.\n\nSpin-off de Chicago Fire centré sur une brigade de police de la ville.",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tmdb:65701",
+      "type": "series",
+      "name": "Good Mythical Morning",
+      "poster": "https://image.tmdb.org/t/p/w500/jMpBQr2aNOFAI6wsC47zsOG6qOh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hvFCS0dMeC3ffiF4uYTKzUAkvYL.jpg",
+      "description": "Good Mythical Morning est une série YouTube de comédie, de discussion et de variétés américaine créée par Rhett McLaughlin et Link Neal. L'émission a été diffusée pour la première fois sur YouTube le 9 janvier 2012. De nombreuses célébrités et personnalités d'Internet, dont Daniel Radcliffe, Felix Kjellberg, Hank Green, Kobe Bryant et Linkin Park ont participé au show. L'émission se concentre sur Rhett et Link alors qu'ils racontent des histoires, chantent des chansons, relèvent des défis, etc...",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:285322",
+      "type": "series",
+      "name": "Below",
+      "poster": "https://image.tmdb.org/t/p/w500/fG6ODXfXVJbIrFxzQv9BhnTomPc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
+      "description": "Lorsqu'une mystérieuse créature marine sème la terreur dans un petit village de Terre-Neuve, un pêcheur endurci et sa famille luttent pour protéger leur communauté très soudée.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:289423",
+      "type": "series",
+      "name": "Recharge mon Coeur",
+      "poster": "https://image.tmdb.org/t/p/w500/p5UJ0xS2NVmqtUfy9i0DMIJ1Lf3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rN9xHDp83kZ3cOr82JR1b4rFIFk.jpg",
+      "description": "Un héritier d’entreprise doté d’un cœur artificiel rencontre une femme littéralement électrique. Ils concluent un marché qui fait battre son cœur, et pas seulement au sens propre.",
+      "releaseInfo": "2026"
+    }
+  ]
+}

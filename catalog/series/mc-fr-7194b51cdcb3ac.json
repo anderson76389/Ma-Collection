@@ -1,0 +1,58 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:252105",
+      "type": "series",
+      "name": "Golden Axe",
+      "poster": "https://image.tmdb.org/t/p/w500/toEwR5VTFzHmxW1pX1HjtTXH6QH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zOcEo3oQf9KDPPxZueNhReN6TBr.jpg",
+      "description": "Trois célèbres guerriers tentent de sauver le royaume de Yuria des attaques d'un géant maléfique. Leur noble quête est perturbée par un aventurier débutant et maladroit.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:229544",
+      "type": "series",
+      "name": "Among Us",
+      "poster": "https://image.tmdb.org/t/p/w500/ourBbG4B1dAjfFUCzuUYEZpR101.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zoa11EvyuasC3j7PmH1QGftrSvf.jpg",
+      "description": "Des membres de votre équipage ont été remplacés par un métamorphe extraterrestre déterminé à semer la confusion, à saboter le vaisseau et à tuer tout le monde. Éliminez l'imposteur ou devenez la victime de ses plans meurtriers.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:127366",
+      "type": "series",
+      "name": "Splinter Cell: Deathwatch",
+      "poster": "https://image.tmdb.org/t/p/w500/38XJlQAYMcPjgqVhBO8VjkufSEx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/e5Q92kKUdRbKBHnNkqQB845bwCY.jpg",
+      "description": "Dans l'univers nébuleux de l'espionnage, Sam Fisher est une rumeur et une légende. Appelé à reprendre du service, il doit aider une nouvelle recrue à démêler un complot mondial.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:235930",
+      "type": "series",
+      "name": "Devil May Cry",
+      "poster": "https://image.tmdb.org/t/p/w500/gzh0zQbStRRZNPwi8c8ZMFXhHjR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zPO7RC0T1kA79cH3zBXPVNUL1Ge.jpg",
+      "description": "Dans cette bataille épique, la frontière entre le bien et le mal est diablement floue. Mais un envoûtant chasseur de démons pourrait bien devenir le meilleur espoir de l'humanité.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:261579",
+      "type": "series",
+      "name": "Secret Level",
+      "poster": "https://image.tmdb.org/t/p/w500/Aiw4DI7juj12lYqcOqZB9rjNJsw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5AvZxT1BtPyP9ua1SjcUyWUMIiz.jpg",
+      "description": "Secret Level est une nouvelle série anthologique d'animation pour adultes proposant des histoires originales situées dans les univers de certains des jeux vidéo les plus appréciés au monde. Issue des créateurs de LOVE, DEATH + ROBOTS, la série compte 15 épisodes qui rendent hommage aux jeux vidéo et aux joueurs.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:256116",
+      "type": "series",
+      "name": "Like a Dragon : Yakuza",
+      "poster": "https://image.tmdb.org/t/p/w500/4uFt0lyo2UrMkTKCXH2VgxWz2jE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/39DH8VaGI5E0gsu8uLJfPKNGvvk.jpg",
+      "description": "Dans cette histoire qui se déroule dans la ville fictive de Kamurocho, deux époques se croisent : 1995 et 2005. En 1995, quatre amis désireux d'échapper aux contraintes de leurs vies à l'orphelinat plongent dans le monde des yakuzas de Kamurocho. En 2005, leur amitié s'est détériorée et les tensions entre le clan Tojo et l'alliance Omi sont à leur comble.",
+      "releaseInfo": "2024"
+    }
+  ]
+}

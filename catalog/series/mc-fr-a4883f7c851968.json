@@ -1,0 +1,66 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:328337",
+      "type": "series",
+      "name": "Bluey Compilations",
+      "poster": "https://image.tmdb.org/t/p/w500/gt5MDinPvpqLcMf6EjYLyUxyXfI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9odRU37ksPlXjRzVpQUAbgvSob5.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:292323",
+      "type": "series",
+      "name": "The Chosen Adventures",
+      "poster": "https://image.tmdb.org/t/p/w500/ma3l76nAJYaORESgyEKugbehaiT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/b9Y6UlfCXZZysN9j8DlPOV5t6q.jpg",
+      "description": "Abby, 9 ans, et son ami Joshua rencontrent Jésus à Capharnaüm, vers l'an 30 de notre ère. Abby est pleine de questions et cherche des réponses. Leur rencontre avec Jésus pourrait tout changer.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:274388",
+      "type": "series",
+      "name": "Iron Man et ses amis incroyables",
+      "poster": "https://image.tmdb.org/t/p/w500/3NlFaIdOkBg2VC3Imi1kbeeGynw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tHWW3xDD49UZuoirqzUQT046dWi.jpg",
+      "description": "Suivez les aventures (et mésaventures) de Tony Stark, Riri Williams et Amadeus Cho, trois meilleurs amis et super génies, qui travaillent ensemble pour résoudre des problèmes, petits et grands, et protéger leur ville.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:232869",
+      "type": "series",
+      "name": "La Maison de Mickey+",
+      "poster": "https://image.tmdb.org/t/p/w500/8jOZjiktLVJxeNuha3MQc5MfhUb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ahedBn0bqv3XZdMufCF9zmOcP9j.jpg",
+      "description": "Mickey et ses amis accueillent tout le monde pour plus de nouvelles aventures remplies de chansons, de rires, d'entre-aide et de nouvelles surprises amusantes !",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:285836",
+      "type": "series",
+      "name": "Blippi découvre les métiers",
+      "poster": "https://image.tmdb.org/t/p/w500/lUWLMuSRkzTs71N1OWrvdlps0U5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iKt2Gezw6LGG5myKMH1JgLHbk4Z.jpg",
+      "description": "Blippi et Meekah partent à la découverte de toutes sortes de métiers. Pour conduire un monster truck ou bien faire des pizzas, ils vont devoir se retrousser les manches !",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:231727",
+      "type": "series",
+      "name": "Le Roi Loup",
+      "poster": "https://image.tmdb.org/t/p/w500/AutGmhjJM69hFnhCsHriLlUTafw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fs4roTMxY3rMKECOMveWpUBQ1XY.jpg",
+      "description": "Dans cette série d'aventure épique fantastique, un adolescent modeste découvre qu'il est issu d'une longue lignée de Loups-garous... et l'héritier légitime du trône.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:254653",
+      "type": "series",
+      "name": "Les Thunderman : Incognito",
+      "poster": "https://image.tmdb.org/t/p/w500/8c3cJAB8fQHScpGvKH55U3Lb0yQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yEmGiYvCyJ32xuPZbmytTjXzF4S.jpg",
+      "description": "Envoyés incognitos dans la ville de Secret Shores, Phoebe et Max font face à une nouvelle menace. Ils décident d'emmener avec eux Chloé, leur petite sœur, afin de l'aider à améliorer ses pouvoirs et l'entraîner durant cette mission.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:250203",
+      "type": "series",
+      "name": "Brothers",
+      "poster": "https://image.tmdb.org/t/p/w500/yewGBOuVmcZnMQ60xGGjUhobOsJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aLE7R8QZPpTiWZS48PS22i2OWbl.jpg",
+      "description": "Matthew McConaughey et Woody Harrelson sont meilleurs amis depuis toujours, mais leur lien pourrait devenir encore plus étroit après la découverte d’un secret de famille troublant.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:258230",
+      "type": "series",
+      "name": "Portée disparue",
+      "poster": "https://image.tmdb.org/t/p/w500/zXMkaqWinyCbkMSNwhi7htRV0e9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kgaQnDdDaPqvGN7i8LLz1aWJdjP.jpg",
+      "description": "Lorsque Ian Ridley, opérateur des services d'urgence, reçoit un appel affolé d’une adolescente qu’il pense être sa fille disparue, il ne recule devant rien pour la retrouver.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:294722",
+      "type": "series",
+      "name": "The Dynasty: UConn Huskies",
+      "poster": "https://image.tmdb.org/t/p/w500/dxwI41yqfG36ts74917wMyTSQSw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6dBzbLqznXgpe5z9ZIqqD0mxwac.jpg",
+      "description": "Plongez dans le programme de basket universitaire le plus prolifique de l’histoire en suivant Geno Auriemma et ses joueuses dans leur quête de 12 titres. Rebecca Lobo, Diana Taurasi, Paige Bueckers et d’autres révèlent ce qu’il faut pour survivre à UConn et bâtir une dynastie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:278624",
+      "type": "series",
+      "name": "Lucky",
+      "poster": "https://image.tmdb.org/t/p/w500/mZD2tsOsW8FTqgS40hOqWic4KkU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mKrhRPB7rMvy0bIU1l1NYhgh1eI.jpg",
+      "description": "Quand un coup de plusieurs millions tourne mal, Lucky, escroc virtuose, prend la fuite pour échapper au FBI et à un trafiquant sans pitié. Elle doit lutter pour sa survie, et pour quitter le métier.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:277439",
+      "type": "series",
+      "name": "Cape Fear - Les Nerfs à vif",
+      "poster": "https://image.tmdb.org/t/p/w500/2BuGd8rDimZgJGkU0Gn34gjAYmY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/maOzDEEudq82nN9lRTumrGo9MvJ.jpg",
+      "description": "Une tempête approche pour un couple heureux d’avocats quand un tueur tristement célèbre resurgit de leur passé à sa sortie de prison.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:252107",
+      "type": "series",
+      "name": "Star City",
+      "poster": "https://image.tmdb.org/t/p/w500/h9ven3crLuEtIrPQJyiF1LvvxFS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rhJAGhOvkR8270bdXSSCzQSPY1a.jpg",
+      "description": "Dans une réalité alternative dans laquelle l'Union soviétique est la première nation à mettre un pied sur la lune, la course à l'espace est retracée de derrière le rideau de fer, montrant la vie des cosmonautes, des ingénieurs et des officiers du renseignement du programme spatial soviétique, ainsi que les risques que chacun d'eux a pris pour propulser l'humanité vers une nouvelle ère.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:285404",
+      "type": "series",
+      "name": "Plaisir maximum garanti",
+      "poster": "https://image.tmdb.org/t/p/w500/hFKOglPtEpknH7HZPwadBboDPci.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9mZlvYlGA4jblCvAvOpinrgn6hr.jpg",
+      "description": "Un maman récemment divorcée tombe dans une dangereuse spirale de chantage, meurtre et football pour les jeunes.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:270476",
+      "type": "series",
+      "name": "Widow's Bay",
+      "poster": "https://image.tmdb.org/t/p/w500/99f8XKkUXC2pKGqNzbUgA9Ui1zA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yx0sfeYOoXol2fjT22SXo9YyviI.jpg",
+      "description": "Le maire d'une ville de Nouvelle-Angleterre souhaite en faire une destination touristique, malgré les avertissements sur le fait qu'elle est maudite.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:314916",
+      "type": "series",
+      "name": "Unconditional",
+      "poster": "https://image.tmdb.org/t/p/w500/2t7WpN80NkBulkZzpkEdjZy7slX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aVvPFnpv0djtEG6KtS3dMdSCwee.jpg",
+      "description": "Des vacances mère-fille tournent au désastre quand Gali est arrêtée pour possession de stupéfiants. Sa mère, Orna, refuse ces accusations et risque le tout pour sa liberté, mais elle se retrouve prise au piège dans les secrets de Gali.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:245318",
+      "type": "series",
+      "name": "Margo a des problèmes d'argent",
+      "poster": "https://image.tmdb.org/t/p/w500/vnxkopX2BRNlUbE5xtb6S62eSN6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r1lGjwTRF0RGYFHzvt3SupArmRy.jpg",
+      "description": "Fille d'une ancienne serveuse chez Hooters et d'un ex-catcheur pro, Margo, écrivaine en herbe, vient d'arrêter ses études. Face à l'arrivée d'un bébé et d'une pile de factures grandissante qu'elle ne peut payer, Margo doit trouver une solution pour s'en sortir.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:108181",
+      "type": "series",
+      "name": "Imperfect Women",
+      "poster": "https://image.tmdb.org/t/p/w500/u6G8q2eg3n4bZEBS4yaiTahqegG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1RejXo8s6ot7ZbrgR8J16DVaaTi.jpg",
+      "description": "Alors qu’un meurtre fait voler en éclats la vie de trois amies, leur lien tissé depuis des décennies est mis à rude épreuve quand une enquête révèle des vérités choquantes.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:315800",
+      "type": "series",
+      "name": "Twisted Yoga",
+      "poster": "https://image.tmdb.org/t/p/w500/mv13MDBH06N444E21kz2l6N3Xxk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7z2cmuREaHOFaDtzTgDNy1wbkc2.jpg",
+      "description": "Alors qu'ils recherchaient bien-être et sens de la communauté, d'anciens membres d'une école de yoga tantrique expriment leur crainte d'avoir rejoint une secte et sont en quête de justice pour maltraitance et manipulation présumées de la part d'un gourou autoproclamé.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:257992",
+      "type": "series",
+      "name": "Traqués",
+      "poster": "https://image.tmdb.org/t/p/w500/joypYnl91D4H75Y265PbHZuYdbu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oitb5QFxxhjYzb0KK4zoooO0LSX.jpg",
+      "description": "Franck et ses amis passent leurs weekends à chasser ensemble. Ils se retrouvent un jour face à un groupe de chasseurs qui les prend pour cible sans raisons apparentes. L’un d’entre eux est touché. Franck et ses amis répliquent puis réussissent à s’échapper de justesse. Ils décident de garder l'incident secret, et Franck tente de reprendre une vie normale aux côtés de sa femme Krystel. Mais très vite, le groupe se sent observé, et pire, traqué par ces hommes qui semblent prêts à tout pour se venger...",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:312693",
+      "type": "series",
+      "name": "Small Prophets",
+      "poster": "https://image.tmdb.org/t/p/w500/vkp6w1iq72JrFQnpFkWPLWWMZGa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5fThMa3y5H4V7mHtiIEJgtYKPz9.jpg",
+      "description": "Depuis la mystérieuse disparition de sa compagne il y a sept ans, la vie de Michael est en pause. Mais une recette trouvée dans un vieux grimoire pourrait bien lui apporter des réponses.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:230936",
+      "type": "series",
+      "name": "Naturellement sauvages",
+      "poster": "https://image.tmdb.org/t/p/w500/ykPSKBhXvLL4ootzHTH70J6k8II.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/89WJ9Nih8F3cuS9gY7TtPns9AUG.jpg",
+      "description": "Premiers pas et premières parties de chasse pour six petits animaux uniques qui, en apprenant à survivre, pourraient bien assurer l'avenir de leur espèce dans la nature.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:225171",
+      "type": "series",
+      "name": "Pluribus",
+      "poster": "https://image.tmdb.org/t/p/w500/8502I2bOEMQpJGB0h489YButCYp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ulm1ex4JFYJByyaPyqTr47MFyEQ.jpg",
+      "description": "Alors que le bonheur menace la Terre, tous les espoirs reposent sur le plus malheureux des humains.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:252000",
+      "type": "series",
+      "name": "Down Cemetery Road",
+      "poster": "https://image.tmdb.org/t/p/w500/uI1jhghuwrwBBxbOpzjZBiTr3Ke.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6ZrfmfAtOy19UzXorO0t7RdRSJw.jpg",
+      "description": "Lorsqu’une enfant disparaît après l’explosion d’une maison, une voisine inquiète et une détective privée font équipe pour la retrouver. À mesure que les masques tombent et qu’un complot militaire se dessine, c’est un véritable chaos qui s’abat sur la paisible banlieue d’Oxford.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:292130",
+      "type": "series",
+      "name": "Mr. Scorsese",
+      "poster": "https://image.tmdb.org/t/p/w500/PYcT6mf3cYHI35uNG8ztVdyh9p.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yvToMgv3CHs7T4yQe9EPsMgEXG3.jpg",
+      "description": "Découvrez les nombreuses vies de Martin Scorsese grâce à un accès exclusif et libre à ses archives privées et à de longs entretiens avec sa famille, ses amis, ses collaborateurs légendaires et le réalisateur visionnaire en personne.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:291361",
+      "type": "series",
+      "name": "Sur le fil : à la poursuite des Étoiles Michelin",
+      "poster": "https://image.tmdb.org/t/p/w500/keBwuOM2Ucm78oJhipVvvNmLcx1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pY5HhYqt71HCpEkuP7ucgvPjJNQ.jpg",
+      "description": "Les meilleurs chefs du monde convoitent la plus haute distinction : une Étoile Michelin. Ces inspecteurs n'avaient jamais dévoilé leurs méthodes.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:221079",
+      "type": "series",
+      "name": "The Last Frontier",
+      "poster": "https://image.tmdb.org/t/p/w500/ojnK03veSJcI304OaBUVLSb3OGi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pzxIAuKHqQqCFOxh2ALmHUgXkOD.jpg",
+      "description": "Quand un avion de transport de prisonniers s’écrase près d'une ville dans les étendues sauvages de l’Alaska, le marshal de la région lance une chasse à l'homme contre une dizaine de détenus violents et le cerveau qui se cache derrière le crash.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

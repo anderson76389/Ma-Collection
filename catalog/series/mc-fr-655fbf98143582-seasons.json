@@ -1,0 +1,22 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:320909",
+      "type": "series",
+      "name": "Les Noces des Lucioles",
+      "poster": "https://image.tmdb.org/t/p/w500/1RXEvHmis1oKTAWtKOrzJqenpb6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3zmB6PLnjf7rNNC2lnvinQtlJMx.jpg",
+      "description": "Durant l'ère Meiji, Satoko Kirigaya n’a qu’un seul souhait : se marier pour l'honneur de sa famille et ce, même si ses jours sont comptés. Mais alors qu'un assassin tente de la tuer, elle lui offre de l’épouser ! Une proposition que Shinpei Goto accepte, mais qui pourrait bien se retourner contre elle…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:324326",
+      "type": "series",
+      "name": "Les 7 Chevaliers du Royaume des Marronniers",
+      "poster": "https://image.tmdb.org/t/p/w500/kbmXfi28xI7m0M5oWfJS5fwiCqo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/59oBbiLeG3jeDOUmx6zF6Qfmea3.jpg",
+      "description": "Au cœur d'un continent composé de huit royaumes se trouve le royaume des Marronniers. Son général, Baribara, a sept fils, chacun doté d'un don et occupant le poste de chevalier commandant. Unis par le noble espoir de sauver une princesse un jour, les frères partent en bons samaritains vers les sept royaumes voisins. Quelles rencontres et quelles épreuves les attendent dans ces contrées inconnues ?",
+      "releaseInfo": "2026"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:130103",
+      "type": "series",
+      "name": "날아올라라 나비",
+      "poster": "https://image.tmdb.org/t/p/w500/dJZzKvTje5z5Ov8NmZeMSy69cOc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1rjJf57TSfAU3Y3fzgxMwtRxnI5.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:300727",
+      "type": "series",
+      "name": "Syndic de choc",
+      "poster": "https://image.tmdb.org/t/p/w500/wR7y2h0ccbaTnU5KpUjKIesflng.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/stJcZWrpfT2DjY0K261Q2FpxUkS.jpg",
+      "description": "Un ancien gangster se présente à la présidence de l'association des résidents d'un immeuble afin de mettre la main sur l'argent caché de la copropriété. Cependant, il découvre involontairement la corruption qui règne au sein du complexe. Au fil de ses investigations, il devient peu à peu un héros local.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:299365",
+      "type": "series",
+      "name": "Reborn Rookie",
+      "poster": "https://image.tmdb.org/t/p/w500/ryoklqf5Xi76b1Cqb0h4I7zL6qa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nxOsQE8UrifZpQ9hcZ7xjMHEbmn.jpg",
+      "description": "Après avoir été trahi par ses enfants, le président d'un puissant conglomérat se réveille dans le corps d'un jeune footballeur ; il met alors à profit son génie des affaires et son physique athlétique pour se venger de sa famille.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:289424",
+      "type": "series",
+      "name": "De notre mieux",
+      "poster": "https://image.tmdb.org/t/p/w500/pdxOM4FIGRykIv6KxF648fG9bor.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4ZXZi107TbfBJFGT4cnqbavQIoc.jpg",
+      "description": "Un réalisateur, qui cherche en vain à percer depuis 20 ans, touche le fond… jusqu'au jour où il rencontre une productrice débordée qui l'aide à retrouver l'estime de soi.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:276472",
+      "type": "series",
+      "name": "Comme tu brilles",
+      "poster": "https://image.tmdb.org/t/p/w500/pn0c1aRfPHdGdOHA6jQbNqrhI3B.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gtxt1avGOgu3nhYGqWQWFPHSpKc.jpg",
+      "description": "Amoureux à l’adolescence, deux jeunes adultes qui se sont perdus de vue se retrouvent dix ans plus tard et affrontent peine de cœur, évolution personnelle et nouveaux défis.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:287344",
+      "type": "series",
+      "name": "The Practical Guide to Love",
+      "poster": "https://image.tmdb.org/t/p/w500/sjtNrrBWiWVdJeZKQMSTAgtX6oa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zqrqsShNcOJAExYrpnTSrCSK6RG.jpg",
+      "description": "Une femme déterminée à enfin ouvrir son cœur participe à un rendez-vous arrangé avec deux hommes très différents. À travers le chaos et le charme de cette expérience, elle finit par comprendre ce que l'amour signifie réellement pour elle.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:275989",
+      "type": "series",
+      "name": "러브 미",
+      "poster": "https://image.tmdb.org/t/p/w500/u7VVrYOuOdRLDhlC1fBxxOjkt2T.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6VYRfXF9XjdQyJlYjsJ4LQOcssZ.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:281005",
+      "type": "series",
+      "name": "Un jour, peut-être",
+      "poster": "https://image.tmdb.org/t/p/w500/6pJXJLIhT3PLkiCzJVdFCRQdWry.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/duXUA6kzqCa56MNfUqoJQa6c6Gg.jpg",
+      "description": "Dans la vingtaine, Lee Kyeong-do et Seo-Ji-woo se séparent après une relation passionnelle. Dix ans plus tard, ils se retrouvent, l'un comme journaliste sur un scandale d'infidélité, l'autre comme épouse de l'homme impliqué. La candeur de la jeunesse s'est certes estompée, mais leur amour ne s'est jamais éteint. Kyeong-do tient à prouver, à elle et à lui-même, que son amour demeure inchangé.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:275592",
+      "type": "series",
+      "name": "La Vie rêvée de M. Kim",
+      "poster": "https://image.tmdb.org/t/p/w500/jm60rnmUc9T0ScYILIn75DENPew.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vvAjZNopfu6DuCVEmAkO3KuA1ET.jpg",
+      "description": "Autrefois manager épanoui, un homme d'âge mûr se lance dans un voyage introspectif après un échec. Parviendra-t-il à retrouver le chemin du bonheur ?",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:271889",
+      "type": "series",
+      "name": "A Hundred Memories",
+      "poster": "https://image.tmdb.org/t/p/w500/os7TvyWMSdlNQ2ItGY3YrtZkNCS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/k46AmUVAj6BCIBu074uLuvi1w70.jpg",
+      "description": "Une histoire d'amour déchirante, celle d'un homme destiné à être le destin de deux femmes guides de bus dans les années 1980, et une comédie dramatique sur de jeunes gens brillants promis à un avenir exceptionnel.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:262237",
+      "type": "series",
+      "name": "My Youth",
+      "poster": "https://image.tmdb.org/t/p/w500/aVPQuQGpVWoyFm9wklgMBzGeoBJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/a32io4EZZx9LfOYbOsPo9hgvD5x.jpg",
+      "description": "L'histoire de Sun Woo-hae et Sung Je-yun, qui se retrouvent après 15 ans, luttant et vivant intensément dans leurs étapes respectives.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:281004",
+      "type": "series",
+      "name": "La Voie du droit",
+      "poster": "https://image.tmdb.org/t/p/w500/y9SDvLKABqz0FWymCz6IGhpYoFs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9MEzfTNfnTvCLHXfRu7a5TSJCsx.jpg",
+      "description": "Une jeune avocate dotée d'un sens aigu de la justice rejoint un cabinet de premier plan pour tracer sa voie dans un monde complexe sous la houlette d'un mentor froid et exigeant.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:211224",
+      "type": "series",
+      "name": "착한 사나이",
+      "poster": "https://image.tmdb.org/t/p/w500/gXCb42Q07aIsBQTctOUeAXCa8SU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dNkHc3JWBJmCIADYIxYt07eTnvi.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:231280",
+      "type": "series",
+      "name": "Good Boy",
+      "poster": "https://image.tmdb.org/t/p/w500/bJECyHfQCLPJsuGE3a60TNd04yF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8l1BN0IIjHmRyW0oDfUfs3F6F4N.jpg",
+      "description": "La police recrute d'anciens sportifs de haut niveau. Autrefois acclamés comme héros, ces champions internationaux doivent affronter la dure réalité. Malgré les difficultés matérielles, les tragédies inattendues et le mépris de leurs collègues policiers, ils luttent désormais au sein d'une force spéciale contre la grande criminalité avec le courage qui les animait au temps de leur gloire.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:254389",
+      "type": "series",
+      "name": "Mon amour au paradis",
+      "poster": "https://image.tmdb.org/t/p/w500/v9CJ1UWnRQkRdC77tHdHIDCzFEm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1SC2gbJA5zZ2x3YGMtlqbr3bIzk.jpg",
+      "description": "Après avoir traversé les vicissitudes de la vie, un couple d'amoureux séparé par la mort se retrouve au paradis. Petit problème : il est trentenaire et elle a 80 ans.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:255298",
+      "type": "series",
+      "name": "The Art of Negotiation",
+      "poster": "https://image.tmdb.org/t/p/w500/4w1mlqBIv2CF7ISoivLQjG8a7tx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5K4e5pVYRSohHi5n5hnkPxxOrUG.jpg",
+      "description": "Trois ans après sa disparition, Yun Ju No, le négociateur légendaire des opérations fusion-acquisition, est rappelé en urgence pour une mission impossible : sauver le groupe Sanin d'une dette abyssale de plusieurs milliards de wons. Sous la direction du président Song Jae Sik, Ju No réunit une équipe de choc pour sauver l'entreprise mais il se heurte à Ha Tae Su, directeur financier et rival ambitieux qui est prêt à tout pour conserver son influence.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:283973",
+      "type": "series",
+      "name": "아는 외고",
+      "poster": "https://image.tmdb.org/t/p/w500/cr3220WpLODAbJGYLcKaaqu5bFU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/54bGVUSGn4HhulOzDsdWfcN8fBe.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:226649",
+      "type": "series",
+      "name": "옥씨부인전",
+      "poster": "https://image.tmdb.org/t/p/w500/g5vriJY8b7JLna3qYv2ksWFRR4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5QGKzs3uE1mOBAiPGXMzHipVMpv.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:274603",
+      "type": "series",
+      "name": "프로젝트7",
+      "poster": "https://image.tmdb.org/t/p/w500/lkaL22ci02qtX45Z9aOvqxx41MQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2bIRIPbM7vO190cgXCCtELFp32J.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:255086",
+      "type": "series",
+      "name": "Les Vertus de la vente",
+      "poster": "https://image.tmdb.org/t/p/w500/4fncJSnUqbkMurayrXHNmOw2YTC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nZEXidgnZXNUHerBK5hRw4cxtTQ.jpg",
+      "description": "À la recherche d'un but, d'une opportunité et d'une indépendance, quatre femmes vivant en milieu rural créent une entreprise de produits pour adultes en 1992 et s'embarquent pour un voyage à la découverte d'elles-mêmes.",
+      "releaseInfo": "2024"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1293162",
+      "type": "movie",
+      "name": "Thieves Highway",
+      "poster": "https://image.tmdb.org/t/p/w500/78B66xBCgmnh88d10B85uFjC88V.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vxOUVzvezd6BsLHPgK9c1T2kR2W.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1200320",
+      "type": "movie",
+      "name": "Killing Faith",
+      "poster": "https://image.tmdb.org/t/p/w500/lzqqjVZsQu8NZOeAYZffP5FKnRy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dC15RaDX4mmPB0omILrjTKMGy6W.jpg",
+      "description": "En 1859, une esclave récemment affranchie croit que sa mystérieuse fille née blanche est possédée parce que tout ce qu'elle touche meurt et va convaincre un médecin veuf de les emmener en voyage à la recherche d'un guérisseur lointain.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:934456",
+      "type": "movie",
+      "name": "Americana",
+      "poster": "https://image.tmdb.org/t/p/w500/83Gis9pOKCvAdaKXCNChey4IZyL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ice3dNrgJZmyFXs4InhjAJMIGMS.jpg",
+      "description": "Dans un village du Dakota du Sud, un receleur d’objets précieux et ses acolytes assassinent un collectionneur et lui dérobent une tunique autochtone ancestrale aux pouvoirs magiques, qu’ils comptent revendre au marché noir. Les rumeurs entourant la valeur inestimable de l’objet attisent aussitôt les convoitises des résidents. Une serveuse timide et son soupirant excentrique y voient l’occasion de fonder un foyer, un chef autochtone souhaite restituer l’artéfact sacré au peuple Lakota, tandis qu'une jeune mère en cavale espère se reconstruire et offrir un meilleur avenir à son fils. Qui finira par s'emparer du butin ?",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:648878",
+      "type": "movie",
+      "name": "Eddington",
+      "poster": "https://image.tmdb.org/t/p/w500/8yA7esHh0L3vOl60Qyf4mfBTmMh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/znr3SYHph3FtTLpcFTeuMAAJ5mP.jpg",
+      "description": "En mai 2020, un affrontement entre le shérif et le maire de la petite ville d’Eddington au Nouveau-Mexique met le feu aux poudres, entraînant les voisins à se retourner les uns contre les autres.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1195518",
+      "type": "movie",
+      "name": "La Dernière chevauchée",
+      "poster": "https://image.tmdb.org/t/p/w500/j1AtfNtJ739ub5FBidj3LGwGSN1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hyc9gq0Oq5THKak7tB7oqC2Rd6z.jpg",
+      "description": "Montana, années 1870. Avant son exécution, Isaac Broadway confie à son fils Henry, une tâche périlleuse : assassiner l'homme qui l'a piégé pour un crime qu'il n'a pas commis. Bien décidé à tenir sa promesse, Henry se rend dans la ville de Trinity, où il se retrouve pris en étau entre Gabriel Dove, le nouveau shérif de la ville, et un personnage mystérieux du nom de St. Christopher.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:883954",
+      "type": "movie",
+      "name": "Amoché",
+      "poster": "https://image.tmdb.org/t/p/w500/fblzkkAVK4ITls6UJwynG7TtmiO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/x1MiX7zp3vBUKONBfvW3v5cnHK2.jpg",
+      "description": "True Brandywine est un adepte vieillissant du rodéo à cheval qui s'accroche tant bien que mal à sa carrière en déclin. Pris dans une tempête de neige inattendue, True va devoir lutter à la fois contre ses blessures, la maladie et un froid glacial. Et, pour espérer survivre, il n'aura d'autre choix que de faire face aux circonstances qui l'ont mené à cette situation précaire.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1126915",
+      "type": "movie",
+      "name": "Tornado",
+      "poster": "https://image.tmdb.org/t/p/w500/6y2QXF1tNVEpELPXS6XQEySlnI7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nrguj6MAEjyncue0Oeu2xGvtxBO.jpg",
+      "description": "Dans les années 1790, Fujin, un marionnettiste japonais, sa fille Tornado, experte en maniement du sabre, et leur troupe de théâtre parcourent la campagne écossaise. Lorsque leur chemin croise celui d'un gang mené par le redoutable Sugarman, un affrontement éclate autour d'une grande quantité d'or volé...",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1443894",
+      "type": "movie",
+      "name": "Forgive Us All",
+      "poster": "https://image.tmdb.org/t/p/w500/bT7sMDsvWNeIGgZ6ZsisNdBcHdq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/l3qnMiVwuWxBikOpBcYpUHKUBdN.jpg",
+      "description": "Un virus a transformé les humains en cannibales violents. Une femme réfugiée dans un chalet de montagne doit décider d'aider un étranger fuyant l'organisation totalitaire G.M.A. qui arrive. La seule issue est de traverser la forêt infestée de cannibales.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1293286",
+      "type": "movie",
+      "name": "Gunslingers",
+      "poster": "https://image.tmdb.org/t/p/w500/s5w3Qjn4DMSWXYQTbbdCbbPoyH2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zksO4lVnRKRoaSYzh2EDn2Z3Pel.jpg",
+      "description": "Lorsque l'homme le plus recherché d'Amérique refait surface dans une petite ville du Kentucky, son passé violent – ​​et une foule sanguinaire en quête de vengeance et d'une rançon royale – ne tardent pas à suivre. Tandis que des frères s'affrontent et que les balles déchirent la ville, ce tireur d'élite rapide comme l'éclair fait payer à ses ennemis le prix fort de leur cupidité.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1414048",
+      "type": "movie",
+      "name": "Day of Reckoning",
+      "poster": "https://image.tmdb.org/t/p/w500/cVSjSQryFUERYSdOmdgJ2m0eBte.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gIm5sjPSm973yKf6sbvd5lOkg3X.jpg",
+      "description": "Le shérif John Dorsey est sur le point de perdre sa femme et son poste de shérif. À contrecœur, il s’associe au marshal Butch Hayden avec qui il prend en otage la hors-la-loi Emily Rouse. Un bras de fer s’ensuit, et Emily tourne le groupe l’un contre l’autre, mais à l’approche de son mari et de sa bande, Emily et John se rendent compte qu’ils auront besoin l’un de l’autre s’ils veulent survivre.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:324544",
+      "type": "movie",
+      "name": "Dans les contrées perdues",
+      "poster": "https://image.tmdb.org/t/p/w500/wKO67hBgdbdEhZWWnL5xmHw3wAN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oI5uHu7lrQ0mBBH1c8OHCAkCq4x.jpg",
+      "description": "Une reine pactise avec la puissante et redoutée sorcière Gray Alys afin qu’elle lui rapporte un trésor capable de lui conférer un pouvoir immense. Alys et son guide, le vagabond Boyce, doivent s’aventurer dans les dangereuses Contrées Perdues. Là, ils devront déjouer et combattre hommes et démons pour honorer leur part du contrat…",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:710258",
+      "type": "movie",
+      "name": "Rust",
+      "poster": "https://image.tmdb.org/t/p/w500/tbJ3RkA2s6X5qrBzrYHYTxvDBui.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aB32C9FLuZXEATtFHvlbhARTDbi.jpg",
+      "description": "En 1880, dans le territoire du Wyoming, un jeune garçon est condamné à mort après avoir accidentellement tué un éleveur local. Son grand-père et hors-la-loi notoire, Harland Rust, le fait évader de prison et l’emmène en fuite vers le Mexique alors qu’ils sont poursuivi par les U.S. Marshals et les chasseurs de primes.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:1411773",
+      "type": "movie",
+      "name": "The Last Stand of Ellen Cole",
+      "poster": "https://image.tmdb.org/t/p/w500/oq1pGVQ2t3Cy4v7sA4LRhNjtZuJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rRIz3KweJDjnJ4GtCZJT3JPEYgL.jpg",
+      "description": "Lorsqu'un entrepreneur sans scrupules recourt à des moyens extrêmes pour expulser une locataire au caractère bien trempé qui fait obstacle à son nouveau projet, il oublie que cette vieille dame d'apparence inoffensive est une tueuse de profession et qu'elle est prête à tout pour protéger la maison qu'elle chérit tant.",
+      "releaseInfo": "2024"
+    }
+  ]
+}

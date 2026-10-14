@@ -1,0 +1,169 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:330430",
+      "type": "series",
+      "name": "Love After Lockup: Relationship Rehab",
+      "poster": "https://image.tmdb.org/t/p/w500/lvydGQD9vHgfMlOEltux0baOAKR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hcPMPvdavwC7z6vfUquVyOHfphm.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:335032",
+      "type": "series",
+      "name": "Secret Life of a Vegas Casino",
+      "poster": "https://image.tmdb.org/t/p/w500/xyfxV0s0mBRs1NsgYJ3cBlmyLSo.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:333016",
+      "type": "series",
+      "name": "Outside",
+      "poster": "https://image.tmdb.org/t/p/w500/rO739swp9hyYmtouNi9kNGhWtiu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jO7ytK2xq1witeQ5DgU1p7fy0Q0.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:335571",
+      "type": "series",
+      "name": "The Real Rooneys",
+      "poster": "https://image.tmdb.org/t/p/w500/yIu8AuGmtUKQRdKGGCq6SgLYvl2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uUMK43Cj0ZvwwD67TiIn8JIiBmp.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:332118",
+      "type": "series",
+      "name": "Team Moms: Baseball",
+      "poster": "https://image.tmdb.org/t/p/w500/4uVnnhJ6z0bNN6c1UzcCp1zGIe7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xXAYs3cDMFHUOgB7eVT5LhwV3Z1.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:286940",
+      "type": "series",
+      "name": "Le Ticket d'or de Willy Wonka",
+      "poster": "https://image.tmdb.org/t/p/w500/5padVOGD7QxyFLlTAWdCFY2FQf1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3BXEJ0qtVPHj1PL0M78xhYOiBkq.jpg",
+      "description": "L'usine de chocolat de Willy Wonka ouvre ses portes à 12 duos afin de passer plusieurs épreuves dans l'espoir de remporter une forte somme d'argent.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:333854",
+      "type": "series",
+      "name": "The Great British Bake Off: Second Helpings",
+      "poster": "https://image.tmdb.org/t/p/w500/hyZs4jmChlcytHjZVavndyyxDHN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hnvOSPiAmvX9e4QhsfhevyULVMT.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:335638",
+      "type": "series",
+      "name": "Kathay Kathay Jibon Podcast",
+      "poster": "https://image.tmdb.org/t/p/w500/g4spZKRP0hFmJdeOqw5z5ALwtjm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uuYTQq7AyhHMMIBU3MJxJhuAiXE.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:333193",
+      "type": "series",
+      "name": "The Great Celebrity Pottery Throw Down",
+      "poster": "https://image.tmdb.org/t/p/w500/mQyuWlgXhsTWUys3gwX9hFFVMvn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/l04dQlJlpwHZQ8wl7RBESNkt07d.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:315479",
+      "type": "series",
+      "name": "Apocalypse",
+      "poster": "https://image.tmdb.org/t/p/w500/eyceU82Lzx7Wjf4nXIfaQ5bbukJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ptmwiqCFALGf5vLAtLOKi5yZxCM.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:331164",
+      "type": "series",
+      "name": "Bobby Flay’s The Line",
+      "poster": "https://image.tmdb.org/t/p/w500/hdWaAbmQn970EY8J85aBACDhn0h.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4qKpFJzGCVTtnNg2J6o4BxAHKK0.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:333408",
+      "type": "series",
+      "name": "The Kevin Langue Show",
+      "poster": "https://image.tmdb.org/t/p/w500/6CCQfFSnboP9ZqIugqtbYL4VQ7t.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/v1PyRxJF5URp0FPIzqHWpAX0lMH.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:10660",
+      "type": "series",
+      "name": "The Box",
+      "poster": "https://image.tmdb.org/t/p/w500/m0UhkGntknE7cSOPvJH2x1YQmBO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/b4t98QvbW3B4sMaxiQ3rkkpAfvV.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:330371",
+      "type": "series",
+      "name": "Earle Meets World",
+      "poster": "https://image.tmdb.org/t/p/w500/wbU6JeOVw30CRXNFwu8AuCdhXW0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hh7gTtE7QRAoNFma84N8dHNN3UB.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:329471",
+      "type": "series",
+      "name": "The Grand Tour",
+      "poster": "https://image.tmdb.org/t/p/w500/kq6XB6xmD86txW4UR32tT2JUiN9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/40Dx3P1mllQq1jhgN3K8dlti6CS.jpg",
+      "description": "Et c'est reparti pour The Grand Tour ! La plus grande émission automobile au monde reprend la route avec de nouveaux présentateurs, Thomas Holland, James Engelsman et Francis Bourgeois, tout en conservant sa formule en dehors des clous mêlant aventures à travers le monde, véhicules incroyables, cascades épiques et opinions tranchées.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:330438",
+      "type": "series",
+      "name": "The Girls avec Khloé Kardashian",
+      "poster": "https://image.tmdb.org/t/p/w500/8P12ytuz41DKCBSpjX3Ntev177Z.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3wbETP2ujDBQ1GdajfVwTDJTKoe.jpg",
+      "description": "Découvrez le cercle intime de Khloé Kardashian et suivez ses meilleures amies qui jonglent entre maternité, carrière, amours et développement personnel.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:330943",
+      "type": "series",
+      "name": "Race Against the Tide",
+      "poster": "https://image.tmdb.org/t/p/w500/oVgiWUfOrnC1FErXU6RXeDztS4j.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/riXQ0CzYoVzbqWpSNG0Ieqw1akM.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:294141",
+      "type": "series",
+      "name": "The Chosen face à la nature avec Bear Grylls",
+      "poster": "https://image.tmdb.org/t/p/w500/3B8EZvb340YdsES35tiVfp0fNzy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tabVLK28I4xM6F8I2xUJERUVvQC.jpg",
+      "description": "Bear a longtemps survécu à des expéditions périlleuses avec le Christ à ses côtés. Aujourd'hui, il emmène les stars de The Chosen affronter l'inconnu.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:330063",
+      "type": "series",
+      "name": "How to Catch a Dirtbag",
+      "poster": "https://image.tmdb.org/t/p/w500/f91uJYVcshArVdIyg5Xfo7s08Je.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mKbiwaJtvwA9iNeXvigvu60G4bB.jpg",
+      "description": "Michael McWhorter, alias Tizzy Ent, traque les personnes qui pensent pouvoir commettre des actes horribles en public sans en subir les conséquences.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:327817",
+      "type": "series",
+      "name": "Let's Marry Harry",
+      "poster": "https://image.tmdb.org/t/p/w500/oV3Kr8qV9ta1RYqtk35ajYmrFax.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/t0gc5evPWIAO7j5st6u8GGADG7x.jpg",
+      "description": "Pour épouser Jowsey, il n'y a pas que lui qu'il faudra séduire. Les futures prétendantes devront aussi faire bonne impression auprès de ses amis, alors Jowsey confie les rênes de sa vie amoureuse à ses trois plus proches confidents, Amanda Kloots, Georgia Hassarati et Sonny Henty. Le trio interviendra pour prendre les décisions difficiles et le guider dans son parcours, de célibataire endurci à partenaire de vie.",
+      "releaseInfo": "2026"
+    }
+  ]
+}

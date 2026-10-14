@@ -1,0 +1,37 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:300594",
+      "type": "series",
+      "name": "Is It Cake? Halloween",
+      "poster": "https://image.tmdb.org/t/p/w500/7CJCFVmWfza0ix3VZO9N37mEeGm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/h9NNQwVio2OoxtmhE1RgZMrnR0E.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:275144",
+      "type": "series",
+      "name": "On en mangerait… ou pas : Spécial fêtes",
+      "poster": "https://image.tmdb.org/t/p/w500/nD5HHPBN46Xeg6htjKRV4FZQE2o.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/961OPA1TxyLY3KA5i846K19F0wF.jpg",
+      "description": "Dans cette version festive du concours de pâtisserie, d'anciens candidats reviennent créer de délicieuses répliques de patins à glace, de figurines Casse-Noisette et autres rennes.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:250590",
+      "type": "series",
+      "name": "Selena + Restaurant",
+      "poster": "https://image.tmdb.org/t/p/w500/jhfeLMnjGQY7CDp1QEoLFz3aINT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/boACAJVmCNBuktewI9IScR78hUf.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:236298",
+      "type": "series",
+      "name": "Selena + Chef: Home for the Holidays",
+      "poster": "https://image.tmdb.org/t/p/w500/xlxfOdtYHIhM9QVFT31bvmwitkb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oSTfSYChSRTVu6PmNvyKb0yXUPw.jpg",
+      "releaseInfo": "2023"
+    }
+  ]
+}

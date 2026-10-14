@@ -1,0 +1,168 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:966",
+      "type": "series",
+      "name": "Hollyoaks, l'amour mode d'emploi",
+      "poster": "https://image.tmdb.org/t/p/w500/5sbMgcbpzZn8aKETeanrKDANzdM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AfH4RQ8q3eTTaX2caFfzt81rLt8.jpg",
+      "description": "Bienvenue à Hollyoaks, village fictif de la banlieue de Chester en Angleterre ! La série \"Hollyoaks, l'amour mode d'emploi\" se déroule dans une université où un groupe d'amis vit pleinement leur vingt ans avec leurs histoires d'amour, leurs études, leur carrière, aborde sans complexe les problèmes d'aujourd'hui.",
+      "releaseInfo": "1995"
+    },
+    {
+      "id": "tmdb:63404",
+      "type": "series",
+      "name": "Taskmaster",
+      "poster": "https://image.tmdb.org/t/p/w500/oHLZyN7G7EpXCHxYdpMcuUNCUgS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4HK7iRrroCh71cbNFBF4HEJakGG.jpg",
+      "description": "Greg Davies est le Taskmaster, et avec l'aide de son assistant toujours fidèle Alex Horne, ils entreprendront de tester les ruses, l'esprit, la sagesse et les compétences de cinq comédiens hyper-compétitifs. Qui sera couronné champion Taskmaster dans ce tout nouveau jeu télévisé ?",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:87012",
+      "type": "series",
+      "name": "The Great British Bake Off",
+      "poster": "https://image.tmdb.org/t/p/w500/zZBzkM3XXZHOauKlHSv3Vg6e4iZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jRuc6rFAEY6tEV5wc9kopEGJfuo.jpg",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:1831",
+      "type": "series",
+      "name": "Grand Designs",
+      "poster": "https://image.tmdb.org/t/p/w500/4UiJCgR77N7cd8eJ4tolxhs8fGX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vMH57KXBgkASnpEJOv4fyzJKrQj.jpg",
+      "description": "D'ambitieux propriétaires décident de mettre la main à la pâte pour construire la maison de leurs rêves, tout en faisant face aux obstacles et aux contraintes de budget.",
+      "releaseInfo": "1999"
+    },
+    {
+      "id": "tmdb:60780",
+      "type": "series",
+      "name": "Four in a Bed",
+      "poster": "https://image.tmdb.org/t/p/w500/nFzW9V9rjKQcsunNrjw1yPc2zT8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/C0A0Ar8QTnST03sy816MxdUt3K.jpg",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:4151",
+      "type": "series",
+      "name": "Location, Location, Location",
+      "poster": "https://image.tmdb.org/t/p/w500/hvGugwL2mu3rpbFy001pe0ZBuk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xoDk6bTNklSgQvWcV7CuTFfuyYj.jpg",
+      "releaseInfo": "2000"
+    },
+    {
+      "id": "tmdb:334151",
+      "type": "series",
+      "name": "Pierre",
+      "poster": "https://image.tmdb.org/t/p/w500/lj7oMz6fvrGPRuJ2pv5S4Io60kZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dZUAdtSFcIC5g1V385nfl68H2Mz.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:55808",
+      "type": "series",
+      "name": "Gogglebox",
+      "poster": "https://image.tmdb.org/t/p/w500/5e5FL6dXaBHaqZpWo2IL0uM1vpJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mmRm55pCBRUmWGscuLncdfcVmGm.jpg",
+      "description": "Gogglebox est une série de téléréalité britannique. Le programme présente un certain nombre de familles et de groupes d'amis de différents endroits du Royaume-Uni qui réagissent aux programmes de télévision depuis leur propre domicile. De nombreuses versions de ce programme existent : avec des enfants, avec des célébrités, ou encore avec des 16/24 ans alors qu'ils regardent du contenu en ligne !",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tmdb:333854",
+      "type": "series",
+      "name": "The Great British Bake Off: Second Helpings",
+      "poster": "https://image.tmdb.org/t/p/w500/hyZs4jmChlcytHjZVavndyyxDHN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hnvOSPiAmvX9e4QhsfhevyULVMT.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:222876",
+      "type": "series",
+      "name": "Tempting Fortune",
+      "poster": "https://image.tmdb.org/t/p/w500/yhnpqfTJxjSktkVltzqC88KftOz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ktgr4eSQpKCVeP2ExoiVDZsWwgV.jpg",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:333193",
+      "type": "series",
+      "name": "The Great Celebrity Pottery Throw Down",
+      "poster": "https://image.tmdb.org/t/p/w500/mQyuWlgXhsTWUys3gwX9hFFVMvn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/l04dQlJlpwHZQ8wl7RBESNkt07d.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:335591",
+      "type": "series",
+      "name": "Break Clause",
+      "poster": "https://image.tmdb.org/t/p/w500/9vJyc56PWSciXKWGZuhISmG1QxR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6HjObsGJJvZYkm39RMSkHlJbD6G.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:73776",
+      "type": "series",
+      "name": "999: On the Front Line",
+      "poster": "https://image.tmdb.org/t/p/w500/9RGruNDJMI4bIyfJXKurPOXPtWQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gwZKSutUAuCmPNEMgAwfA3yOUDg.jpg",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:315479",
+      "type": "series",
+      "name": "Apocalypse",
+      "poster": "https://image.tmdb.org/t/p/w500/eyceU82Lzx7Wjf4nXIfaQ5bbukJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ptmwiqCFALGf5vLAtLOKi5yZxCM.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:330939",
+      "type": "series",
+      "name": "Live from the Lycett Arms",
+      "poster": "https://image.tmdb.org/t/p/w500/aOWrGndp3qZUrJrvkg41o9x2Jp6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4Z83A5pVt9WjcnoYuyBQr4xXTzK.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:335103",
+      "type": "series",
+      "name": "Martin Compston: Living Las Vegas",
+      "poster": "https://image.tmdb.org/t/p/w500/rnhUjFYrUcS9hTVgZSwKYZ5Mjja.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pNnSJLXafKBiaEu1GyRvDkv0iJv.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:207068",
+      "type": "series",
+      "name": "Help! We Bought A Village",
+      "poster": "https://image.tmdb.org/t/p/w500/8AX4iS6pdMux9CEzLQBNXqlRWAN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3q9MmO2JZARpL8eqjaghT6uXNmR.jpg",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:335717",
+      "type": "series",
+      "name": "Jamie's 20 Minute Meals",
+      "poster": "https://image.tmdb.org/t/p/w500/yJb2QmrcMPxK7GkddmtTG1do86U.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7FYDcUvHp1BbLUEU21PREKyh2uB.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:330805",
+      "type": "series",
+      "name": "George Clarke's Amazing Spaces: First Home",
+      "poster": "https://image.tmdb.org/t/p/w500/tcpNcRDc4vJdT6Yyems4hQPOz5G.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kfcJ3IgzLw5ATu5UMggmh0HqBcJ.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:334435",
+      "type": "series",
+      "name": "Geordie Coppers",
+      "poster": "https://image.tmdb.org/t/p/w500/4jnWjBHNfEU6B6hfK9Qly2WLc7M.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pSqOoGNPQt9F37uTTH6izwJHmxa.jpg",
+      "releaseInfo": "2026"
+    }
+  ]
+}

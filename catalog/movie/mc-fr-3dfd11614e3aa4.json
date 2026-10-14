@@ -1,0 +1,112 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1380316",
+      "type": "movie",
+      "name": "Elle est dieu, dieu est-elle ?",
+      "poster": "https://image.tmdb.org/t/p/w500/97r9aSMjho8vY1HLQKfm5nn3hVz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6AS9zVu3rUs7dj4N2ZNnKjI8YZ1.jpg",
+      "description": "La vie de jumelles défigurées, Racine et Anaia, est perturbée lorsque la mère qu'elles croyaient morte depuis longtemps les convoque à son chevet et leur révèle que leur père est responsable de son état et des cicatrices des jeunes filles.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1450527",
+      "type": "movie",
+      "name": "Forbidden Fruits",
+      "poster": "https://image.tmdb.org/t/p/w500/nSlKzxvXWOeDC9qZiwkhGuTAKkq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jAOpZDgy4eMY6o6oGdUiXk4SqvE.jpg",
+      "description": "Apple, une employée de Free Eden, dirige secrètement un culte de sorcières dans le sous-sol du centre commercial après les heures de travail - avec ses collègues Cherry et Fig.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:843342",
+      "type": "movie",
+      "name": "Hamlet",
+      "poster": "https://image.tmdb.org/t/p/w500/7cBh6fWchOJY961A8F1rT98HDdA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/o94QPGgvZW3gysIfsbhQmysmAYo.jpg",
+      "description": "Hamlet est hanté par le fantôme de son père. Passant de l'élite londonienne au métro de la ville, des temples hindous aux villes de tentes pour sans-abri, il va jusqu'à la violence pour venger le meurtre de son père.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1306400",
+      "type": "movie",
+      "name": "Merrily We Roll Along",
+      "poster": "https://image.tmdb.org/t/p/w500/8h3uNPMdQKr7ffwAjU0aURFqIK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tD9gHDBMUQaw07LKppyNnAWaK1y.jpg",
+      "description": "La relation mouvementée entre le compositeur Franklin Shepard et ses amis de toujours, Mary et Charley. Considéré comme un classique culte avant son temps, le film met en vedette certaines des chansons les plus marquantes et personnelles de Stephen Sondheim.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:967941",
+      "type": "movie",
+      "name": "Wicked : Partie II",
+      "poster": "https://image.tmdb.org/t/p/w500/A16dlyaV3FCYGYIsYhQJr0tIjo5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cGbPBHKSFO7hSIjxkb3KOaGdOep.jpg",
+      "description": "Depuis qu'elle s'est opposée au Magicien d'Oz, Elphaba est surnommée la Méchante sorcière de l'Ouest par la population du Pays d'Oz qui pense qu'elle est maléfique. De son côté, Glinda est devenu la figure populaire du régime du Magicien et est surnommée la Bonne Glinda, tandis que Fiyero devient le capitaine de la garde du Magicien, bien qu'il doute encore de la culpabilité d'Elphaba.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:997113",
+      "type": "movie",
+      "name": "Hedda",
+      "poster": "https://image.tmdb.org/t/p/w500/ecflk7AZf0ij205yDswjlvdxlCO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cKZcDKawR79igCgDMSXlpkn8hLR.jpg",
+      "description": "Hedda est déchirée entre la douleur d'un amour passé et l'étouffement silencieux de sa vie actuelle. Lors d'une nuit chargée, des désirs refoulés et des tensions cachées éclatent, entraînant Hedda et son entourage dans une spirale de manipulation, de passion et de trahison.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1214684",
+      "type": "movie",
+      "name": "Kiss of the Spider Woman",
+      "poster": "https://image.tmdb.org/t/p/w500/7AvSiMAiatDn21weq6nq1e4NB03.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/722lo8EBC3S2LKcBVg3fpl4HWmK.jpg",
+      "description": "Dans une prison argentine en 1983, sous la dictature militaire, Luis Molina, un coiffeur gay, purge une peine de huit ans de prison pour avoir prétendument corrompu un mineur. Pour échapper aux horreurs de son emprisonnement, Molina imagine des films mettant en vedette une actrice classique du cinéma, Ingrid Luna, notamment le rôle de la femme araignée, qui tue sa proie d'un baiser. La vie de Molina bascule lorsqu'un marxiste, Valentin Arregui Paz, est amené dans sa cellule, et que les deux forment un lien improbable.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:556574",
+      "type": "movie",
+      "name": "Hamilton",
+      "poster": "https://image.tmdb.org/t/p/w500/itaIGLdCu0e28XQOEf7V3chd904.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uWVkEo9PWHu9algZsiLPi6sRU64.jpg",
+      "description": "Captation de la célèbre comédie musicale de Broadway récompensée par 11 Tony, Grammy et Olivier Awards, et par un prix Pulitzer. Hamilton raconte l'histoire d'Alexander Hamilton, l'un des Pères fondateurs de la nation américaine.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1327872",
+      "type": "movie",
+      "name": "La Reine des Neiges : La comédie musicale de Broadway",
+      "poster": "https://image.tmdb.org/t/p/w500/fxFeYqEwHvjxLtsNl6qOKN12Axi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wN47m8DMp8byXfMBQl4rdfu4xvx.jpg",
+      "description": "Lorsque les pouvoirs cachés de la reine Elsa plongent Arendelle dans un hiver éternel, sa sœur Anna part à sa recherche pour sauver le royaume. Alors que la tempête fait rage, les deux sœurs apprendront que seul un geste d'amour sincère peut dégeler un cœur de glace. C'est l'histoire que vous connaissez et appréciez comme vous ne l'avez jamais vue auparavant. \"La Reine des Neiges : La comédie musicale de Broadway\" est une production impressionnante qui transpose sur scène la magie, la musique et le spectacle du film à succès, avec des surprises palpitantes et des effets spéciaux étonnants. Douze nouvelles chansons écrites spécialement pour la comédie musicale côtoient les classiques tels que « Il faut fêter le renouveau », « Je voudrais un bonhomme de neige » et « Libérée, délivrée ».",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1103857",
+      "type": "movie",
+      "name": "Juliet & Romeo",
+      "poster": "https://image.tmdb.org/t/p/w500/4spOdjLgRAbIYO7mu22DQ2iInz7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5vkYsIN0BpDlATvHCjufG5SimkU.jpg",
+      "description": "Situé en 1301, à la fin de l'époque médiévale, nos amants croisés les plus célèbres bouleversent l'histoire sur laquelle Shakespeare a basé sa propre histoire, en révélant la vérité sur l'avenir même de l'Empire. Mais le plus grand rebondissement dans ce conte le plus aimé est de laisser la poésie du pentamètre iambique dans le passé, pour la musique pop originale qui fait vibrer ces thèmes omniprésents jusqu'au cœur de nos personnages de la manière la plus surprenante, et peut-être la plus puissante qui ait jamais été vue ou entendue auparavant... La plus grande histoire d'amour de tous les temps, sur la plus grande musique de notre temps.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:804406",
+      "type": "movie",
+      "name": "The Piano Lesson",
+      "poster": "https://image.tmdb.org/t/p/w500/zEnKur0VdoXaXEn7irmB7AgtFau.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ytorq8y3v9g1P4sXDFv2tbNg7Ms.jpg",
+      "description": "1936, Pittsburgh. Au lendemain de la Grande Dépression, les Charles vivent tous chez Doaker Charles, propriétaire des lieux. La maison abrite un piano, transmis de génération en génération, qui illustre l’histoire familiale grâce aux inscriptions qu’y a laissées leur ancêtre, esclave à son époque...",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:402431",
+      "type": "movie",
+      "name": "Wicked",
+      "poster": "https://image.tmdb.org/t/p/w500/kQkgPhj6sCuoMWzPKWQVOWUXzib.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/w22GVYotTIVC1dUd58mRhwPqiS.jpg",
+      "description": "Elphaba, une jeune femme incomprise à cause de sa peau verte inhabituelle, doit encore découvrir son véritable pouvoir. Glinda, une jeune femme populaire, dorée par le privilège et l'ambition, doit encore découvrir son véritable cœur. Les deux se rencontrent en tant qu'étudiantes à l'Université de Shiz dans le fantastique Pays d'Oz et forgent une amitié improbable, mais profonde.",
+      "releaseInfo": "2024"
+    }
+  ]
+}

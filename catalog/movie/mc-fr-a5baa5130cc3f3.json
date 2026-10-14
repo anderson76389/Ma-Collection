@@ -1,0 +1,128 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1667685",
+      "type": "movie",
+      "name": "Phí Phông: Quỷ Máu Rừng Thiêng",
+      "poster": "https://image.tmdb.org/t/p/w500/1c5XWuA9ETEUZcMAF1ngk0kBNEh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dgBVAby8uWwTClrUmbsda9r9rQA.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1569555",
+      "type": "movie",
+      "name": "Truy Tìm Long Diên Hương",
+      "poster": "https://image.tmdb.org/t/p/w500/7fHlcEovyJY1YhTd8FaJXj1mUk8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ociHIRRo2HNgRG2et4nDyNyTrM5.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1215106",
+      "type": "movie",
+      "name": "หมู่บ้านโคกะโหลก",
+      "poster": "https://image.tmdb.org/t/p/w500/A2CMiv91GAnEeeVb0RDcsSgJYt4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4IB1h88hurwGtX9cdxXmgNImNtW.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1479953",
+      "type": "movie",
+      "name": "Tử chiến trên không",
+      "poster": "https://image.tmdb.org/t/p/w500/elhC01GA3etoh6X9zj5QwZq20Js.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vs5E55pBnmXLGi2IPPL5H8GvPaM.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1468704",
+      "type": "movie",
+      "name": "Mưa đỏ",
+      "poster": "https://image.tmdb.org/t/p/w500/vNRmw768UP9asGVcbGVJCb25Dct.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rvmNoVUeig8zEviY9EuY4rNZttj.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1448353",
+      "type": "movie",
+      "name": "Inspecteur Kien : L’horreur Sans Tête",
+      "poster": "https://image.tmdb.org/t/p/w500/zHMrhNFgmvLE3rYBQYwFXuUBQMX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rmhmfqVVUWV4xjoC0uBnelARFmT.jpg",
+      "description": "L'inspecteur Kien enquête sur un corps décapité découvert dans un village rural vietnamien sous la dynastie Nguyen. Alors que des phénomènes surnaturels se manifestent, il est confronté à des rebondissements glaçants dans ce mystère du XIXe siècle.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1376879",
+      "type": "movie",
+      "name": "Địa đạo: Mặt trời trong bóng tối",
+      "poster": "https://image.tmdb.org/t/p/w500/qLv0HfTCGGnLgoTOoEWlXvjuwpA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AeIB61nouCdGJr8FAGjPK7Zyd3u.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1396079",
+      "type": "movie",
+      "name": "Nhà Gia Tiên",
+      "poster": "https://image.tmdb.org/t/p/w500/yHdDgzEnFslwfwz2Hzc498lIhFx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9I1vkFmEGqJiod3lbWFSj47HDo8.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:846586",
+      "type": "movie",
+      "name": "Viêt and Nam",
+      "poster": "https://image.tmdb.org/t/p/w500/4QsfJOD891UOd2lY9VC327EpC0I.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5b3azqxrk2T2o14rK8shAFmXcox.jpg",
+      "description": "Nam et Viêt s’aiment. Tous les deux travaillent à la mine de charbon, à 1000 mètres dans les profondeurs de la terre. Alors que Nam rêve d’une vie meilleure, un mystérieux chaman lui promet de retrouver la dépouille de son père, soldat disparu lors de la guerre du Vietnam. Avec sa mère, et l’aide de Viêt, il se lance dans cette quête, pour retrouver les fantômes du passé.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:1072306",
+      "type": "movie",
+      "name": "Claws",
+      "poster": "https://image.tmdb.org/t/p/w500/7tUEaTCUT8AkIcQRvJUrsRJz0zt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rsihvre52NMMBsCEZI2DbFatsbo.jpg",
+      "description": "CLAWS emmène le public dans un pique-nique sauvage entre amis dans la forêt. Cependant, la fête se transforme rapidement en une lutte pour la survie entre eux et une bête dangereuse identifiée. Elle est féroce, rapide et sait toujours où « vous » êtes.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:1247240",
+      "type": "movie",
+      "name": "Đào, Phở và Piano",
+      "poster": "https://image.tmdb.org/t/p/w500/jWYfucBwXG3ePh97bM5ReT1q65X.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wSjBvmoPrBNU65ifOWorsa5N1oo.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:1210973",
+      "type": "movie",
+      "name": "Mai",
+      "poster": "https://image.tmdb.org/t/p/w500/2nF8xD200rcDawuCg5ObxxqA2fC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zZ6nRdNQNxRnZ1LQ2ttPBZl9AXV.jpg",
+      "description": "Mai se lie d'amitié avec un homme mais son passé la rattrape...",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:1222274",
+      "type": "movie",
+      "name": "Quỷ Cẩu",
+      "poster": "https://image.tmdb.org/t/p/w500/8edHroMFaa30NlucSrlSf8j3w6W.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/q55E2yzQbiTzTPtulphlBskzX5k.jpg",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:1099580",
+      "type": "movie",
+      "name": "Người Vợ Cuối Cùng",
+      "poster": "https://image.tmdb.org/t/p/w500/dRgYeBp48TwCU84d6BR7A3VwfUi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/55jXWq2Z3g1L0fTRHLJ36UPspmm.jpg",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:1124863",
+      "type": "movie",
+      "name": "Đất Rừng Phương Nam",
+      "poster": "https://image.tmdb.org/t/p/w500/apFcKjQlxzFj2MY9d0rxdyT0ykv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wysrMWOVdVHvewD1zDLRULcFKBA.jpg",
+      "releaseInfo": "2023"
+    }
+  ]
+}

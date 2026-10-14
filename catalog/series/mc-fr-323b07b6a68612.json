@@ -1,0 +1,176 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:286940",
+      "type": "series",
+      "name": "Le Ticket d'or de Willy Wonka",
+      "poster": "https://image.tmdb.org/t/p/w500/5padVOGD7QxyFLlTAWdCFY2FQf1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3BXEJ0qtVPHj1PL0M78xhYOiBkq.jpg",
+      "description": "L'usine de chocolat de Willy Wonka ouvre ses portes à 12 duos afin de passer plusieurs épreuves dans l'espoir de remporter une forte somme d'argent.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:329471",
+      "type": "series",
+      "name": "The Grand Tour",
+      "poster": "https://image.tmdb.org/t/p/w500/kq6XB6xmD86txW4UR32tT2JUiN9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/40Dx3P1mllQq1jhgN3K8dlti6CS.jpg",
+      "description": "Et c'est reparti pour The Grand Tour ! La plus grande émission automobile au monde reprend la route avec de nouveaux présentateurs, Thomas Holland, James Engelsman et Francis Bourgeois, tout en conservant sa formule en dehors des clous mêlant aventures à travers le monde, véhicules incroyables, cascades épiques et opinions tranchées.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:322803",
+      "type": "series",
+      "name": "Outlast : La jungle",
+      "poster": "https://image.tmdb.org/t/p/w500/mkhpV2EgA3S4xFyl7KPOpxORa04.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vOQUiJ8sokhHTUzaH8VO0fDsEXk.jpg",
+      "description": "Sur une île tropicale, 16 candidats doivent affronter la nature et déjouer les pièges de leurs adversaires sans rompre l'unité de leur camp, pour remporter un million de dollars.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:321267",
+      "type": "series",
+      "name": "The Grand-ish Tour",
+      "poster": "https://image.tmdb.org/t/p/w500/cPvIgIgysI3S067aA670pMYAjI4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iOLxzG9TlBUyiDyNWrKtAD9gd5u.jpg",
+      "description": "Réunis dans la maison de retraite où ils vivent désormais, Jeremy Clarkson, Richard Hammond et James May présentent trois émissions spéciales qui reviennent sur leurs moments préférés de « The Grand Tour ». Ou du moins ceux dont ils se souviennent. Leurs souvenirs, de plus en plus flous, s'étendent de la Californie à la Mongolie en passant par l'Italie et partout ailleurs, et comprennent des moments cultes de galère mêlant boue, eau et au moins deux blessures réelles.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:316920",
+      "type": "series",
+      "name": "Le Jardin de Zach",
+      "poster": "https://image.tmdb.org/t/p/w500/73dpQI4dVkq5ajPOn0muqSPBKYD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gIeD6FGxdwmfqDjTGYaAqPE0xO5.jpg",
+      "description": "Zach Galifianakis explore le monde du jardinage en cultivant la curiosité des enfants et en sondant des experts excentriques. Un hommage ludique et décalé à la terre nourricière.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:312423",
+      "type": "series",
+      "name": "Top Model USA : Le revers du rêve",
+      "poster": "https://image.tmdb.org/t/p/w500/lxlsvsgvEYlf2wrSV9qUipHRAuk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fRiAJB6VxyG0QcjSXW4BoHIGsnu.jpg",
+      "description": "Tyra Banks et les membres de \"Top Model USA\" reviennent sur l'héritage complexe de l'émission de téléréalité dans une série documentaire révélatrice.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:303742",
+      "type": "series",
+      "name": "Tiffany Haddish Goes Off",
+      "poster": "https://image.tmdb.org/t/p/w500/wHXvwTkVrBp2AMC1AF183gd33Ce.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wKNNjCwiCqsdNO5pYG7kSKhnUZT.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:300594",
+      "type": "series",
+      "name": "Is It Cake? Halloween",
+      "poster": "https://image.tmdb.org/t/p/w500/7CJCFVmWfza0ix3VZO9N37mEeGm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/h9NNQwVio2OoxtmhE1RgZMrnR0E.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:291431",
+      "type": "series",
+      "name": "The Celebrity Traitors",
+      "poster": "https://image.tmdb.org/t/p/w500/uziPOqxQotCE9g0wBgDvHCOvRhP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/76BNYD6gBrZPWH4axZH8rEpeyLW.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:298714",
+      "type": "series",
+      "name": "The Traitors Ireland",
+      "poster": "https://image.tmdb.org/t/p/w500/lZaxSsvI0GQwIfFqJDd0IRiXenb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9NLoNEtM15Ea9qRjKGcO7nAnrUm.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:293088",
+      "type": "series",
+      "name": "Love Island: Beyond the Villa",
+      "poster": "https://image.tmdb.org/t/p/w500/zUa9fIdDBk2udqcZcez4qQGqc37.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kj8wxrWQh48Gi4PuNRWCHnjXxUv.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:261887",
+      "type": "series",
+      "name": "Building the Band",
+      "poster": "https://image.tmdb.org/t/p/w500/uNX52MJTHL8oi8vmrK8d3TElhRg.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/omBP9apbOEv9E2MNc4cjju9La9x.jpg",
+      "description": "Dans cette téléréalité inédite, des talents d'exception se disputent une place au sein du prochain groupe phare de la scène musicale... sans jamais se voir.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:293313",
+      "type": "series",
+      "name": "Nelly & Ashanti: We Belong Together",
+      "poster": "https://image.tmdb.org/t/p/w500/mu0EJ27Wecrcw0AJUoiZr2aXxaA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nfJn8jKigx5WVYRRyUqBGPCDjt8.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:289980",
+      "type": "series",
+      "name": "Destination X",
+      "poster": "https://image.tmdb.org/t/p/w500/srKrtD3BWCYDar3IEZlXbQh5YEl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2mPpsMo3g49QKs1FhEmrhKqUp2f.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:288712",
+      "type": "series",
+      "name": "Gordon Ramsay : Mission Extrême",
+      "poster": "https://image.tmdb.org/t/p/w500/bX2FFF2ax5ntSVRyDMgso53TIuO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6sCvEGrqJWBEYuK0uNvAKCouAYv.jpg",
+      "description": "Gordon Ramsay mène l'enquête sous couverture pour examiner les pratiques des restaurants en matière de manipulation des aliments.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:287366",
+      "type": "series",
+      "name": "Battle Camp",
+      "poster": "https://image.tmdb.org/t/p/w500/wuSaLjPrTagk892fEywXHA6i8Xu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gx94TGPbZFtbtnAh6dRGFDR5qYL.jpg",
+      "description": "Dans cette émission d'aventure, des stars de la téléréalité Netflix relèvent des défis éprouvants et manigancent pour échapper à l'élimination et remporter 250 000 dollars.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:286439",
+      "type": "series",
+      "name": "Le pas très Grand Tour",
+      "poster": "https://image.tmdb.org/t/p/w500/aKAz1l3x6hYCu2UqBVqiDRhc6Gt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kWjKMtfzxpmfXzhtJVlpBFOGK5s.jpg",
+      "description": "Richard et James reviennent sur de grands moments de The Grand Tour, célébrant les gloires du moteur à combustion interne, notamment la sainte trinité des hypercars, les muscle cars de Detroit, un sprint urbain dans une Bugatti, le char d'assaut le plus fou du monde et une course entre le passé, le présent et le futur.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:282628",
+      "type": "series",
+      "name": "The Clubhouse : Un an avec les Red Sox",
+      "poster": "https://image.tmdb.org/t/p/w500/yp3QEWjwkTQzNImHbnQ8jPY7heV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jfrh6Xj71lA2Aib2LNI5F6XDC45.jpg",
+      "description": "Cette série documentaire immersive vous emmène dans les coulisses des Boston Red Sox, au plus près des joueurs, lors d'une saison 2024 pleine de rebondissements.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:285205",
+      "type": "series",
+      "name": "Million Dollar Secret",
+      "poster": "https://image.tmdb.org/t/p/w500/y0lAZqgaUXOTcsn6hPjiaJSJTnj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9EiKPxxL90mXxHsUAIi7V20oa2s.jpg",
+      "description": "Dans cette compétition acharnée, un millionnaire sous couverture doit tout faire pour garder son secret et éviter l'élimination s'il veut remporter le jeu et l'argent.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:262819",
+      "type": "series",
+      "name": "LOL: Last One Laughing UK",
+      "poster": "https://image.tmdb.org/t/p/w500/ehddE5xt4kqpSLk5c374h94zfVd.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xobPhgGbUqheY20aecNmtlooJb9.jpg",
+      "releaseInfo": "2025"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:262262",
+      "type": "series",
+      "name": "Sous le marais salé",
+      "poster": "https://image.tmdb.org/t/p/w500/LKxD2fz5fQCJlOutslb7cyXBwb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eV31zFSUF534xmpBEkHINkmsSnG.jpg",
+      "description": "Morfa Halen est une petite ville galloise très soudée, nichée dans une position précaire entre des montagnes imposantes et une mer qui gagne du terrain et menace son existence même. Alors qu’une tempête d’une ampleur sans précédent commence à se former au large, Jackie Ellis, ancienne inspectrice devenue enseignante, découvre le corps de son élève de 8 ans, Cefin, qui semble s’être noyé. Cette découverte provoque une onde de choc dans la communauté, ravivant le spectre d’une affaire classée sans suite qui avait bouleversé la ville trois ans auparavant : la disparition de Nessa, la nièce de Jackie, qui lui avait coûté sa carrière.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:246864",
+      "type": "series",
+      "name": "Amadeus",
+      "poster": "https://image.tmdb.org/t/p/w500/sS8Q0Qf5GzTI1OcswDN5Vvvmm97.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r1DUI1JmjfiuOmYvE5LnHX6atGN.jpg",
+      "description": "A la fin du XVIIIe siècle, à Vienne, Amadeus Mozart, 25 ans, n'est plus un enfant et entend tracer son propre chemin. A la recherche d'un travail, le jeune homme croise le chemin du compositeur de la Cour Antonio Salieri et de Constanze Weber, une danseuse qui deviendra son épouse...",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:279990",
+      "type": "series",
+      "name": "Romesh: Can't Knock the Hustle",
+      "poster": "https://image.tmdb.org/t/p/w500/vAmPPUeYvkm8ni6OvlKumhXh4Oe.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fhwjc61kvd6NoxTbPeqPOZp7xnO.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:292039",
+      "type": "series",
+      "name": "Délires culinaires avec Big Zuu et AJ Tracey",
+      "poster": "https://image.tmdb.org/t/p/w500/sThIoKNJ49LsMEE4U869qP1YspY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ixXmMaQ3rjRSvkxAffa13RS2r9D.jpg",
+      "description": "Dans une nouvelle aventure culinaire, Big Zuu fait équipe avec son cousin rappeur AJ Tracey pour un voyage autour du monde super cher – et super savoureux.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:252630",
+      "type": "series",
+      "name": "Joe Lycett’s United States of Birmingham",
+      "poster": "https://image.tmdb.org/t/p/w500/2uwoGFsnSePRy2oe273PUDifPLd.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5CWtPDwmUMprYvJRz4NR4nRVp7U.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:278097",
+      "type": "series",
+      "name": "A League Of Their Own: The Rally",
+      "poster": "https://image.tmdb.org/t/p/w500/frmMuFuF2wuC1vcr51STlUqapsb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4SXwEaz2hVoFSCmG1oFrok3ogZE.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:241274",
+      "type": "series",
+      "name": "Small Town, Big Story",
+      "poster": "https://image.tmdb.org/t/p/w500/kvfi3cXy9zOJDtg30E5hqwKnvUl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wQ7HMQ2Yfxecw7AVrpMOrr5ZPPf.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:241268",
+      "type": "series",
+      "name": "Mr Bigstuff",
+      "poster": "https://image.tmdb.org/t/p/w500/nOoOiQbIIdSbUpj6wvs7E85ZyVT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iuC2gTGiluH76xS95RhTghjqac6.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:255005",
+      "type": "series",
+      "name": "A League of Their Own: Mexican Road Trip",
+      "poster": "https://image.tmdb.org/t/p/w500/n7LCfeJ9DVJBI9Z3hui9hufiSwa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gM3WsALPbGq00BPSmpMGvZVynMF.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:244996",
+      "type": "series",
+      "name": "Rob Beckett's Smart TV",
+      "poster": "https://image.tmdb.org/t/p/w500/2DKSudwvLexiVv5u9yevduMxGpQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vH7khnJrm5NwwVEPWBDvOD2GtVS.jpg",
+      "releaseInfo": "2024"
+    }
+  ]
+}

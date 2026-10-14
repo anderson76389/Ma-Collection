@@ -1,0 +1,31 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:2224",
+      "type": "series",
+      "name": "Le Daily Show",
+      "poster": "https://image.tmdb.org/t/p/w500/np5l5SGS990ZV6FcP9CCRPq3hSe.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qLMfcvdCcCGD2BNLH8b6ZCBuO7D.jpg",
+      "description": "Trevor Noah et l'équipe de la plus fausse information au monde abordent les plus grandes histoires de l'actualité, de la politique et de la culture pop.",
+      "releaseInfo": "1996"
+    },
+    {
+      "id": "tmdb:2190",
+      "type": "series",
+      "name": "South Park",
+      "poster": "https://image.tmdb.org/t/p/w500/fgRCZiN3igJqtIAXrBm9S7BwLVp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3UviYOlhn8EgXMBuiT6MnUuo1w9.jpg",
+      "description": "La petite ville de South Park dans le Colorado est le théâtre des aventures de Cartman, Stan, Kyle et Kenny, quatre enfants au langage quelque peu... décalé !",
+      "releaseInfo": "1997"
+    },
+    {
+      "id": "tmdb:203489",
+      "type": "series",
+      "name": "Mike Judge's Beavis and Butt-Head",
+      "poster": "https://image.tmdb.org/t/p/w500/75am8jsmRHHcpIPkm4RyrMn851A.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rAUxCUyroOvjbTYZDXaRLJRoVHr.jpg",
+      "description": "Deux adolescents fans de musique heavy-metal font parfois des choses idiotes parce qu'ils s'ennuient. Pour eux, tout est \"cool\" ou \"nul\".",
+      "releaseInfo": "2022"
+    }
+  ]
+}

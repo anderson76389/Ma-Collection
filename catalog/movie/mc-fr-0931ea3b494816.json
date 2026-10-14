@@ -1,0 +1,183 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1400837",
+      "type": "movie",
+      "name": "Malfaisante",
+      "poster": "https://image.tmdb.org/t/p/w500/wAofwsldMDNAIzGSEfMJMoUn1KB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg",
+      "description": "Une famille est la cible d'une entité qu'elle appelle « l'autre maman ».",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1283515",
+      "type": "movie",
+      "name": "Verity",
+      "poster": "https://image.tmdb.org/t/p/w500/zLCjFOyjvKqYdkQYYAyTtfJ5mpk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3BoHXmGAfC2qO4wnCpMYV0BzpHD.jpg",
+      "description": "Lorsqu’un accident affecte les capacités de l’autrice de bestsellers, Verity Crawford, à achever son œuvre, une écrivaine solitaire, Lowen Ashleigh, qui peine à joindre les deux bouts est engagée pour lui prêter sa plume. En résidence dans la propriété reculée de la romancière, elle fait la découverte d’un manuscrit autobiographique glaçant et peine à démêler ce qui relève de la fiction ou de la réalité…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1291366",
+      "type": "movie",
+      "name": "The Deputy",
+      "poster": "https://image.tmdb.org/t/p/w500/qL654LNOfBu49e12jnnQIv6mny.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3WBGquZOd4iNl288BmWzkp0Fbdy.jpg",
+      "description": "L’histoire suit Toby Sawyer, un adjoint du shérif à temps partiel dans le Mississippi rural, qui est réveillé en pleine nuit par le chef Krueger pour garder un corps jusqu’à l’arrivée du médecin légiste. Lorsqu’une heure plus tard le cadavre disparaît mystérieusement, Toby se lance dans une recherche effrénée...",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1503762",
+      "type": "movie",
+      "name": "Raison et Sentiments",
+      "poster": "https://image.tmdb.org/t/p/w500/9XNEI2AYgQIIqXper5kOdGTnyf5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nkINWVL8x1KwdpO0dUbYhS3Y1iP.jpg",
+      "description": "Spoliées de l'héritage familial de Norland Park au profit de leur demi-frère John, Mme Dashwood et ses trois filles sont contraintes de s'installer au modeste Barton Cottage. Ce départ déchire l'aînée, Elinor, une jeune femme prudente et rationnelle, contrainte de quitter Edward Ferrars, le beau-frère de John dont elle s'est éprise.  Sur place, sa sœur Marianne, impulsive et passionnée, s'éprend follement du séduisant John Willoughby. Elle ignore ainsi le dévouement du colonel Brandon, pourtant sincèrement épris d'elle, ce qui inquiète grandement sa sœur.  Tout oppose le pragmatisme d'Elinor et le romantisme débridé de Marianne face aux règles de la société et aux aléas sentiments. Pourtant, malgré leurs querelles et les épreuves imposées par l'amour, leur complicité fraternelle reste inébranlable et demeure leur meilleur atout pour surmonter les tempêtes et espérer bâtir un avenir heureux.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1032863",
+      "type": "movie",
+      "name": "The Love Hypothesis",
+      "poster": "https://image.tmdb.org/t/p/w500/6hfjkMZIsAOVdNC4NAAmCYthC7r.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/o7Oy9Gbx1CCyaweL8xUhtMW4Puq.jpg",
+      "description": "Tiré du best-seller cité par le New York Times, The Love Hypothesis suit Olive (Lili Reinhart), une doctorante qui embrasse sur un coup de tête Adam Carlsen (Tom Bateman), le professeur le plus intimidant de son département à la fac. Leur besoin mutuel d'une fausse relation se transforme en une expérience de chimie capable, contre toute attente, de résoudre l'équation de l'amour.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1198654",
+      "type": "movie",
+      "name": "Bad Apples",
+      "poster": "https://image.tmdb.org/t/p/w500/sDgb5jVuZ6ZOh4YjtSMMnbovkCi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ch1g1X6TfezRwbmiBiYRpALTQjN.jpg",
+      "description": "Maria est institutrice. Elle remet en cause son choix de carrière à cause d'un élève turbulent. Elle finit par kidnapper et séquestrer ce dernier chez elle.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1302904",
+      "type": "movie",
+      "name": "Les Ensorceleuses 2",
+      "poster": "https://image.tmdb.org/t/p/w500/qU6bErj56ebypPwA7zaiTfKzemA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oIglj0Jy9duG4LnrRUpH8n001Pk.jpg",
+      "description": "Une famille de sorcières multigénérationnelle, maudite à être sans amour pendant des siècles, tente de briser le sort en affrontant de sombres secrets et en se sacrifiant les uns pour les autres.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:860508",
+      "type": "movie",
+      "name": "The Whisper Man",
+      "poster": "https://image.tmdb.org/t/p/w500/pSsX2LnGzyfHR9RioDEiLrPy5wa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uauoVKKCkNA9iWjgJCL8TdSfLf5.jpg",
+      "description": "Lorsque son jeune fils disparaît, un veuf se tourne vers son père avec qui il est brouillé, un policier à la retraite qui a autrefois arrêté le tueur en série lié à l'affaire.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1516698",
+      "type": "movie",
+      "name": "The Last Sunrise",
+      "poster": "https://image.tmdb.org/t/p/w500/myJdCnJEsFsMmjKhKopQ32lkcP3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zFCWfU2ViMIm38G1W8UsnSpqmWn.jpg",
+      "description": "L'histoire de Ry, une étudiante atteinte d'une maladie chronique qui passe l'été à Majorque avec sa mère. Alors qu'elle tombe amoureuse de Julián et commence à profiter du moment présent, l'aggravation de son état de santé et des secrets de famille menacent de tout gâcher avant la fin de l'été.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1384216",
+      "type": "movie",
+      "name": "The Dog Stars",
+      "poster": "https://image.tmdb.org/t/p/w500/w7c49Qgp3TAUC4hlo0mtgRpLOGG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/quAHqi4zBrB5fIfHvgrqiG4xzAC.jpg",
+      "description": "Dans un futur proche où une pandémie sans nom a décimé la société américaine, Hig, un pilote vit sur une base aérienne abandonnée du Colorado avec son chien et un ex-marine. Lorsqu'une transmission aléatoire passe par la radio de son Cessna 1956, la voix fait naître au plus profond du pilote l'espoir qu'une vie meilleure existe en dehors de leur périmètre étroitement contrôlé...",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1308767",
+      "type": "movie",
+      "name": "Young Washington",
+      "poster": "https://image.tmdb.org/t/p/w500/6CdoTKnRQHJkjRGxTefFGkPQplB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mj3RFamNUleZB94zMWgGnJkQCAH.jpg",
+      "description": "Biopic sur George Washington, l'un des Pères fondateurs des États-Unis par les Américains.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1202033",
+      "type": "movie",
+      "name": "Enola Holmes 3",
+      "poster": "https://image.tmdb.org/t/p/w500/ncHImt9szlNQaNM2iY3vcgSdDp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jLuGZc84MvPYCQomQg9DI72mstt.jpg",
+      "description": "La détective Enola Holmes poursuit ses aventures à Malte, où son projet de mariage se complique quand elle doit résoudre une périlleuse affaire liée à la disparition de Sherlock.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1397485",
+      "type": "movie",
+      "name": "Girls Like Girls",
+      "poster": "https://image.tmdb.org/t/p/w500/gbP30EOIwUW0HZY9BwQMTRrk8uX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hSdK33Mjsdfb8TpoUTI3A3OE3RO.jpg",
+      "description": "Coley, une jeune fille de 17 ans originaire de la campagne de l'Oregon, explore son intimité après le décès de sa mère. Rencontrer Sonya éveille de nouveaux sentiments, mais les doutes sur elle-même les empêchent de se connecter.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1279493",
+      "type": "movie",
+      "name": "The Get Out",
+      "poster": "https://image.tmdb.org/t/p/w500/zlkeH0s7dDxcnuPcHBqAyXFUxqN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mDVnHFcxxUJC9TQFVeKh1TJNBzh.jpg",
+      "description": "Après avoir été mystérieusement plumé par deux amants hors-la-loi et complètement fous, un propriétaire de boîte de nuit vieillissant mais impitoyable doit trouver un moyen d'échapper aux cartels pour lesquels sa petite amie et lui blanchissaient de l'argent.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1477317",
+      "type": "movie",
+      "name": "À contre-sens 2 : Londres",
+      "poster": "https://image.tmdb.org/t/p/w500/gWVO8FmD9onEYYsZU1LMJgRNTbm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wQOhbCP6H8bO5ddlXDZT207orew.jpg",
+      "description": "L'amour entre Nick et Noah est soumis à rude épreuve quand Noah part à l'université d'Oxford tandis que Nick reste à Londres pour travailler dans l'entreprise de son père. Loin l'un de l'autre, ils sont confrontés à des pressions croissantes. La jalousie, l'ambition et d'autres forces cherchent à les séparer. Ils risqueront tout pour prouver que leur relation peut survivre envers et contre tout.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1020047",
+      "type": "movie",
+      "name": "In the Hand of Dante",
+      "poster": "https://image.tmdb.org/t/p/w500/lvp4pBAWL7unhoyt32rlCm2YfXF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tJJ737CJujLXw1GlUYd7K4AH3eB.jpg",
+      "description": "Nick Tosches, un écrivain, apprend qu'un manuscrit de La Divine Comédie de Dante, volé au Vatican, est réapparu à New York. Incapable de passer à côté de cette opportunité, Nick décide de tenter d'authentifier ce manuscrit et de mener l'enquête sur ses origines, son parcours et celui de son auteur.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1380291",
+      "type": "movie",
+      "name": "Jack Ryan de Tom Clancy : Guerre Fantôme",
+      "poster": "https://image.tmdb.org/t/p/w500/zR4RAnv4s6zpXhiqepdonAw4oF3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dd31qJxOarrHyGZwYsCzOjobQzP.jpg",
+      "description": "Jack Ryan doit malgré lui replonger dans le monde de l'espionnage quand une opération secrète met au jour une conspiration mortelle. Tandis que chaque seconde compte, il est rejoint par Mike November et James Greer de la CIA, ainsi que par Emma Marlowe, agent chevronné du MI6. Ils affrontent une unité clandestine dans une lutte à haut risque et aux implications personnelles.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1242876",
+      "type": "movie",
+      "name": "500 Miles",
+      "poster": "https://image.tmdb.org/t/p/w500/FhRosui9MSdxdyD3h0skOFhqED.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/smTYZM6iSRwB9BJXFkOTQ0rG1VM.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1301421",
+      "type": "movie",
+      "name": "Les Moutons détectives",
+      "poster": "https://image.tmdb.org/t/p/w500/5GjWHaN6XW9RbeUqqYbzfKSThqX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/a8uQvrplTkhGJQog6GZ6CqF8An6.jpg",
+      "description": "Lorsque son fermier bien-aimé est retrouvé mort dans des circonstances mystérieuses, un troupeau de moutons conclut qu'il devra résoudre le meurtre lui-même. Cette quête l'oblige à quitter son pâturage pour la première fois et à se confronter à une réalité brutale : le monde des humains est bien plus complexe qu'il y paraît dans les livres.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:539745",
+      "type": "movie",
+      "name": "La Ferme des animaux",
+      "poster": "https://image.tmdb.org/t/p/w500/6pzI1DIlxwAFffw9OZcG6cr031U.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rg1E0Ya6YYiGPcg5p1ZIkDd8u3F.jpg",
+      "description": "Un groupe d'animaux se rebellent contre leurs maîtres humains et prennent le contrôle de la ferme. Leur révolte terminée, ils sont confrontés à de nouveaux défis sous le règne d'un cochon rusé nommé Napoléon. Cette situation les oblige à trouver le courage de s'opposer à Napoléon.",
+      "releaseInfo": "2026"
+    }
+  ]
+}

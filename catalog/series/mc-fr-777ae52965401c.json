@@ -1,0 +1,183 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:300480",
+      "type": "series",
+      "name": "Ricky Gervais Alley Cats",
+      "poster": "https://image.tmdb.org/t/p/w500/1oLW17ZzkZTeGN8apmtS5MGtVPw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/auLT0EPtqtt5MwryoC2MoAG595F.jpg",
+      "description": "Dans cette comédie d'animation impertinente de Ricky Gervais, des chats sauvages sèment le chaos dans les rues et enchaînent les mésaventures rocambolesques.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:296756",
+      "type": "series",
+      "name": "President Curtis",
+      "poster": "https://image.tmdb.org/t/p/w500/noWGHRAllKVUlxTQ5T10gQL4BBL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yoTP91XZZjSvE2gZgGvwNxVW96w.jpg",
+      "description": "Suivez le commandant en chef et son équipe excentrique alors qu'ils s'attaquent à des crises dont Rick Sanchez ne se soucierait jamais : de la diplomatie interdimensionnelle aux enquêtes sur le paranormal en passant par les phénomènes inexpliqués.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:287620",
+      "type": "series",
+      "name": "Stuart fails to save the Universe",
+      "poster": "https://image.tmdb.org/t/p/w500/tHGxFjaIVCUDsgxYTm1ePVDHySS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nW7oUFiJrIWwll4mZ8tYays7XRm.jpg",
+      "description": "Le propriétaire de la boutique de comics, Stuart Bloom, est chargé de rétablir la réalité après avoir accidentellement brisé un appareil conçu par Sheldon et Leonard, provoquant ainsi une apocalypse du multivers.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:292108",
+      "type": "series",
+      "name": "Ann Droid",
+      "poster": "https://image.tmdb.org/t/p/w500/rgg7vCZ9HIdT4vYGxOvg84L7ngF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/deUtNgB5zf7uyAzH7BbkRHF2S80.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:254528",
+      "type": "series",
+      "name": "The Hawk",
+      "poster": "https://image.tmdb.org/t/p/w500/sqe6Xs0UxpaSnJ7zUwzcixSC1OT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fBVNJL85Q60njpKPD6YaLi6tEsX.jpg",
+      "description": "Lonnie Hawkins alias \"The Hawk\", légende du golf en fin de carrière, se lance à la conquête d'un ultime titre majeur, entraînant tous ses proches sur un parcours très chaotique.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:241882",
+      "type": "series",
+      "name": "Ride or Die",
+      "poster": "https://image.tmdb.org/t/p/w500/hWGnBQ4k9Fj3dqvWnBsSYQy5tFx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jwCXxvbLno5GrGDA9KvQ22uLziM.jpg",
+      "description": "Debbie et Judith, deux meilleures amies, sont forcées de fuir quand Debbie découvre que Judith n'est pas expert-comptable judiciaire, mais tueuse à gages internationale ! Avec un mystérieux individu à leurs trousses et alors que le mari de Debbie trempe dans une affaire de corruption, c'est une course contre la montre à travers l'Europe qui les attend pour découvrir la vérité et rester en vie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:254420",
+      "type": "series",
+      "name": "Elle",
+      "poster": "https://image.tmdb.org/t/p/w500/cpdy7BM2vvGTriPHSKl3K7jBR4C.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/truh4rtTUdRVYGeT0n17dxvdv41.jpg",
+      "description": "Avant qu'Elle Woods ne se retrouve comme un poisson hors de l'eau à Harvard, nous la découvrons en 1995, nageant dans les eaux tumultueuses du lycée où elle est confrontée à des amitiés compliquées, un amour interdit et des choix vestimentaires discutables. Ce récit inattendu de son adolescence nous montre les expériences qui ont fait d'elle la jeune femme emblématique que le public aime tant.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:295780",
+      "type": "series",
+      "name": "Life, Larry and the Pursuit of Unhappiness: An Almost History of America",
+      "poster": "https://image.tmdb.org/t/p/w500/cOOLHsRdNymdPlfEXRRxcJDCY9b.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6Fbrrf2jaYJ8s3nnnuhhvvDjTZN.jpg",
+      "description": "Le président et Mme Obama voulaient rendre hommage au 250e anniversaire des États-Unis mais c'est alors que Larry David a appelé.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:229544",
+      "type": "series",
+      "name": "Among Us",
+      "poster": "https://image.tmdb.org/t/p/w500/ourBbG4B1dAjfFUCzuUYEZpR101.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zoa11EvyuasC3j7PmH1QGftrSvf.jpg",
+      "description": "Des membres de votre équipage ont été remplacés par un métamorphe extraterrestre déterminé à semer la confusion, à saboter le vaisseau et à tuer tout le monde. Éliminez l'imposteur ou devenez la victime de ses plans meurtriers.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:284725",
+      "type": "series",
+      "name": "Not Suitable for Work",
+      "poster": "https://image.tmdb.org/t/p/w500/gauhh2Gj0YaZKFR0XLrnRRKpjJE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nApVs1jPXXXBc7Ge2PnaFpBfCVW.jpg",
+      "description": "Cinq jeunes d'une vingtaine d'années obsédés par le travail se démènent pour réussir professionnellement et, s'ils en ont le temps, de trouver leur bonheur dans le quartier le plus glamour de Manhattan, Murray Hill.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:290295",
+      "type": "series",
+      "name": "Mating Season",
+      "poster": "https://image.tmdb.org/t/p/w500/5Pn7R2TtLka8OjsgtxAq4H2apjJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zaDTnGcq3F5LocdmHJLP3Mf0kII.jpg",
+      "description": "Cette délirante série d'animation comique pour adultes, sortie de l'esprit tordu des créateurs de \"Big Mouth\", parle de cœur, de sexe et de relations amoureuses… chez les animaux.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:285404",
+      "type": "series",
+      "name": "Plaisir maximum garanti",
+      "poster": "https://image.tmdb.org/t/p/w500/hFKOglPtEpknH7HZPwadBboDPci.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9mZlvYlGA4jblCvAvOpinrgn6hr.jpg",
+      "description": "Un maman récemment divorcée tombe dans une dangereuse spirale de chantage, meurtre et football pour les jeunes.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:256695",
+      "type": "series",
+      "name": "Regular Show : Les cassettes oubliées",
+      "poster": "https://image.tmdb.org/t/p/w500/gZuwOtqQRPvLOhLV21qfaC3tIxS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/Zk5UmvJ634LhA56R18h8RfipFG.jpg",
+      "description": "Mordecai, un geai bleu, et Rigby, un raton laveur, deux amis paresseux, travaillent dans un parc municipal. Mais, quoi qu'ils entreprennent, leurs tâches quotidiennes finissent invariablement par basculer dans un chaos totalement surréaliste, au grand désespoir de leur patron et de leurs collègues...",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:270476",
+      "type": "series",
+      "name": "Widow's Bay",
+      "poster": "https://image.tmdb.org/t/p/w500/99f8XKkUXC2pKGqNzbUgA9Ui1zA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yx0sfeYOoXol2fjT22SXo9YyviI.jpg",
+      "description": "Le maire d'une ville de Nouvelle-Angleterre souhaite en faire une destination touristique, malgré les avertissements sur le fait qu'elle est maudite.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:245318",
+      "type": "series",
+      "name": "Margo a des problèmes d'argent",
+      "poster": "https://image.tmdb.org/t/p/w500/vnxkopX2BRNlUbE5xtb6S62eSN6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r1lGjwTRF0RGYFHzvt3SupArmRy.jpg",
+      "description": "Fille d'une ancienne serveuse chez Hooters et d'un ex-catcheur pro, Margo, écrivaine en herbe, vient d'arrêter ses études. Face à l'arrivée d'un bébé et d'une pile de factures grandissante qu'elle ne peut payer, Margo doit trouver une solution pour s'en sortir.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:279471",
+      "type": "series",
+      "name": "Malcolm : Rien n’a changé",
+      "poster": "https://image.tmdb.org/t/p/w500/2AjzqV565NWhiyjsorSu7s9bLsD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uekZzyLReK777QKO9xKwiPOelCQ.jpg",
+      "description": "Vingt ans plus tard, Malcolm et sa famille n'ont toujours rien appris.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:291506",
+      "type": "series",
+      "name": "Big Mistakes",
+      "poster": "https://image.tmdb.org/t/p/w500/qeCmU79haciBBOBmOy7dJtbz95Y.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oGORe3yzIPBueHVHroSmsaMVKDi.jpg",
+      "description": "Contraints à la suite d'un chantage d'œuvrer pour des individus très dangereux, un frère et une sœur complètement bras cassés deviennent le duo le plus loufoque du crime organisé.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:250220",
+      "type": "series",
+      "name": "The Miniature Wife",
+      "poster": "https://image.tmdb.org/t/p/w500/ah763FJpttOTCcfxIK3dxXCoJvk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gQTjztsHxB7swHm6Dy2h8blukEi.jpg",
+      "description": "Un accident technologique pousse un couple marié à remettre en question l'équilibre de pouvoir dans leur relation. Ce qui commence comme une remise en question tourne vite à l'affrontement alors que chacun tente de reprendre le contrôle sur leur mariage.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:257519",
+      "type": "series",
+      "name": "Coupez !",
+      "poster": "https://image.tmdb.org/t/p/w500/sXheST2GHQge5S20iisnXlbROea.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vk7AdYfhmCuWsRrTPMg7Yif8AAt.jpg",
+      "description": "Shah Latif, un acteur en galère qui joue sa dernière carte lors de l'audition de sa vie. En quatre jours mouvementés, sa famille, son ex et le monde entier se mêlent de son destin : est-il vraiment l'homme de la situation ? Un compte à rebours hilarant où sa vie part totalement en vrille.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:312697",
+      "type": "series",
+      "name": "Fonction Juré présente : Le Séminaire d'Entreprise",
+      "poster": "https://image.tmdb.org/t/p/w500/zN6avY56dmn4YX17at8ncHMkAHC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1zjKBLSiJlQN2RXPvsdRz24iCHd.jpg",
+      "description": "Anthony, un véritable assistant intérimaire, est embauché par Mamie Rock'n'Roll (une entreprise fictive) pour son séminaire annuel, le dernier avant le départ du PDG Doug, à la retraite. Alors qu'un investisseur en capital courtise l'entreprise en vue de son rachat, Dougie Jr., le fils de Doug, peine à faire ses preuves en tant que chef.",
+      "releaseInfo": "2026"
+    }
+  ]
+}

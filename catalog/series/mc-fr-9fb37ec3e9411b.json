@@ -1,0 +1,37 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:320315",
+      "type": "series",
+      "name": "Guardián de mi vida",
+      "poster": "https://image.tmdb.org/t/p/w500/ppdrvfUyukqtFkl1HY7x6qHd7st.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gbOfqkrDx2yd6w5U3tVySnfmygk.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:300258",
+      "type": "series",
+      "name": "Los hilos del pasado",
+      "poster": "https://image.tmdb.org/t/p/w500/fzjzqVKnSPcYprVHFbh8zECC8BV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mnfkbzWLERbmM89plThKpbltZIo.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:291949",
+      "type": "series",
+      "name": "Velvet New-York: Le nouvel empire",
+      "poster": "https://image.tmdb.org/t/p/w500/eBndCk0Wl3zcdXOL77C6O76pU0o.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/735JavDhnhFCA0HweUkXbysCJuE.jpg",
+      "description": "La talentueuse créatrice Ana Velázquez arrive chez Velvet et tombe amoureuse d'Alberto Márquez, héritier de l'entreprise, mais leur amour devra surmonter de nombreuses intrigues, dont un mariage de convenance.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:248361",
+      "type": "series",
+      "name": "Beyond the Gates",
+      "poster": "https://image.tmdb.org/t/p/w500/ah7Flh6FSq8WWxMkzRlazSFp2AX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qkwz8uBrGgESbw8J6ujmtwSVs2w.jpg",
+      "releaseInfo": "2025"
+    }
+  ]
+}

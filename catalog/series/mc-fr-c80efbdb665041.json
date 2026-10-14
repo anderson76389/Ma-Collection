@@ -1,0 +1,20 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:237243",
+      "type": "series",
+      "name": "Big Brother",
+      "poster": "https://image.tmdb.org/t/p/w500/eWnxE8wNT2rC0YrSg3uEY5chCCf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mEY2exPOsSoZ5xhAtxAY2Cqc3f6.jpg",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:332909",
+      "type": "series",
+      "name": "Big Brother: The Group Chat",
+      "poster": "https://image.tmdb.org/t/p/w500/anVMVxAmz04CsATyqlpL5LVvrYW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/g2CCA3sf0nDk3QNtJ8wGNuolcNm.jpg",
+      "releaseInfo": "2026"
+    }
+  ]
+}

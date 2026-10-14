@@ -1,0 +1,50 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:300719",
+      "type": "series",
+      "name": "The Death Investigator with Barbara Butcher",
+      "poster": "https://image.tmdb.org/t/p/w500/mb66AHKemKoWPXnmbuC3cDoIo3K.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zmAYc1MHwVctT9PRHfnYPcCGo50.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:298756",
+      "type": "series",
+      "name": "Death Row Confidential: Secrets of a Serial Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/mXWZaQQRaN3NS1VDEVRtEIUvzw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yDSk6umQhAshVOflwG2s1UxmNjh.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:290760",
+      "type": "series",
+      "name": "Unknown Serial Killers of America",
+      "poster": "https://image.tmdb.org/t/p/w500/zwpNf6VZIg4IQvKtWBuRG8y24Ut.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/c5wwZBC2untOgt2M7z3yCRZ7t4s.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:289153",
+      "type": "series",
+      "name": "The Bardsley Bunch",
+      "poster": "https://image.tmdb.org/t/p/w500/6pvr8uwEU0tUR1DkYOZU0zOc9Wf.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:284380",
+      "type": "series",
+      "name": "Southern Charm After Show",
+      "poster": "https://image.tmdb.org/t/p/w500/ndidXe3dYNMDALKvgW4YHQf2NM3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vpsUvTUZ3gMamnNy9LyvkEeOe8d.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:275547",
+      "type": "series",
+      "name": "Beyond Chelsea",
+      "poster": "https://image.tmdb.org/t/p/w500/2Tr1w3PteofKeHpvvJb2AgbOJ5P.jpg",
+      "releaseInfo": "2024"
+    }
+  ]
+}

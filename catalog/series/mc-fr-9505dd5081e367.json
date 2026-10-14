@@ -1,0 +1,34 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:297524",
+      "type": "series",
+      "name": "Japan’s Master of Restoration",
+      "poster": "https://image.tmdb.org/t/p/w500/leqsQaeOZPSfFKswbjLHVXBhSoT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/klTGbciBj4bZeFBrrROttCnMeW7.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:276404",
+      "type": "series",
+      "name": "The Secret Genius of Plants",
+      "poster": "https://image.tmdb.org/t/p/w500/sYer4eepNKoYYTZ79GkVvp9yxhB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zL35K8po7vJwIEoVjsPuh5If4B4.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:246149",
+      "type": "series",
+      "name": "The Truth About AI",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:238486",
+      "type": "series",
+      "name": "Tales of the Tardis",
+      "poster": "https://image.tmdb.org/t/p/w500/iKprsshwJR0TESrfJoxJ5SAgvPn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eMtglVCZuXX8hO7b9k9n7ihqJbA.jpg",
+      "releaseInfo": "2023"
+    }
+  ]
+}

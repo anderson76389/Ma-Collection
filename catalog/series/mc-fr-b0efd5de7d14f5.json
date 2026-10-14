@@ -1,0 +1,62 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:293607",
+      "type": "series",
+      "name": "100 jours en espionne",
+      "poster": "https://image.tmdb.org/t/p/w500/wf7l8ZfGGkOKcQGF3Htt5DDhBxD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3SvKCITqMtjgPIhFBjRc4yTAc4H.jpg",
+      "description": "En quête de liberté, la meilleure pickpocket de Séoul infiltre le gouvernement colonial japonais pour lui dérober des secrets, mais tombe amoureuse du fils de sa cible.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:258932",
+      "type": "series",
+      "name": "언니네 산지직송",
+      "poster": "https://image.tmdb.org/t/p/w500/kWQCQdx0ADS9FjnUo8STcR4pBH0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iwq0vYkmB8j7WgnfKZQE1na0zTF.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:200880",
+      "type": "series",
+      "name": "벌거벗은 한국사",
+      "poster": "https://image.tmdb.org/t/p/w500/vls10R8QVuoO8QcyJZNr5MzhPir.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fgFXqapvv6wnJ3LeQsricJMgHSg.jpg",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:284358",
+      "type": "series",
+      "name": "식스센스: 시티투어",
+      "poster": "https://image.tmdb.org/t/p/w500/ytABly0xgjR46X0qOzv3pvXHsr3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1ZUKRUKkUjttxaxF9zCpeYKnxxo.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:292569",
+      "type": "series",
+      "name": "남겨서 뭐하게",
+      "poster": "https://image.tmdb.org/t/p/w500/3eLm5S0tvsHL4zu5Ep9YsicEff7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6w2QhmVMdl7QlblVfAl3lmiITAU.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:334553",
+      "type": "series",
+      "name": "식스센스: B사이드",
+      "poster": "https://image.tmdb.org/t/p/w500/mGCQQlLobyKPianz2gU0vtVcnvT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9oiHk75ouFejI5G3gBHq4oYZWBc.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:327830",
+      "type": "series",
+      "name": "Space Rice Cake Shop",
+      "poster": "https://image.tmdb.org/t/p/w500/fj6x2sGpndSZVvoPfA8KzRT4xt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/v1DTZRkobEWloLKQ70xUA2sExTJ.jpg",
+      "description": "Des galettes de riz à la cuisine ! Grâce au stratagème de Torong, les frères Jilak deviennent employés à temps partiel à la boutique « Space Rice Cake ». Une véritable aventure de travail forcé en cuisine !",
+      "releaseInfo": "2026"
+    }
+  ]
+}

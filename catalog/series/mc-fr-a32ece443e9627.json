@@ -1,0 +1,49 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:60761",
+      "type": "series",
+      "name": "Ace of Diamond",
+      "poster": "https://image.tmdb.org/t/p/w500/1OQsld0DmtCNKIoExKE5zjxX3cP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wq5ZykCAFrboIpz36O8pbrJG2dF.jpg",
+      "description": "L'équipe de baseball du collège Takagi termine sa saison sans une seule victoire. Son lanceur, Eijun Sawamura, a à coeur de prendre sa revanche avec ses coéquipiers, une fois au lycée.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tmdb:226688",
+      "type": "series",
+      "name": "BEYBLADE X",
+      "poster": "https://image.tmdb.org/t/p/w500/66wkm14IWdrY5LaKZDAbkD2T9Jt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qAq9RBeHZoTMDFqQZ2o4cE5CJIQ.jpg",
+      "description": "Robin Kazami, blader débutant, s'associe à l'influenceuse Multi Nana-iro et à l'ancien champion Jaxon Cross pour former ce trio improbable, prêt à gravir les échelons du classement The X et à remporter le titre de champion blader !",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:207347",
+      "type": "series",
+      "name": "Blue Box",
+      "poster": "https://image.tmdb.org/t/p/w500/shXf4cTKUbMpx5AVBKi4V0dMwY3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8p39Ud6ZKMixBQ7R4frg2o3idzc.jpg",
+      "description": "Le joueur de badminton Taiki a toujours admiré de loin la star du basket Chinatsu. Jusqu'à un beau jour de printemps, où la vie les rapproche de façon inattendue.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:126437",
+      "type": "series",
+      "name": "Ao Ashi",
+      "poster": "https://image.tmdb.org/t/p/w500/zoQf7ZycPDtrxRWTLMlw7DMqgPI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4ixh7PNNWd1VaohzKD7pcP33SiN.jpg",
+      "description": "Ashito Aoi vit dans la préfecture d’Ehime, dans le sud du Japon. Il est le meilleur joueur d'un club de football ordinaire. Le jour où ils perdent le tournoi intercollèges, Ashito croise la route d’un homme qui l’a observé. C’est Tatsuya Fukuda, l'entraîneur des jeunes de la J-League du Tokyo City Esperion FC. À la recherche de talents pour constituer la meilleure équipe du monde, il propose à Ashito de le rejoindre à Tokyo.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:205493",
+      "type": "series",
+      "name": "The Prince of Tennis II: U-17 World Cup",
+      "poster": "https://image.tmdb.org/t/p/w500/etVlxcNUsJLE4qhJON3VwZSzwFW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/x3kTIGpx66VUTlUsPASyfjAlp98.jpg",
+      "description": "Lorsque le prodige du tennis, Ryoma Echizen, est expulsé du camp d'entraînement de l'élite des moins de 17 ans du Japon pour avoir enfreint les règles, il est désemparé. Mais la chance lui sourit quand il apprend qu’il peut tenter sa chance dans l'équipe américaine. Faire ses preuves face à leurs vétérans endurcis ne sera pas facile et, s'il est accepté, il devra jouer contre ses anciens amis. Pourra-t-il aider ses nouveaux équipiers à se frayer un chemin vers la victoire ?",
+      "releaseInfo": "2022"
+    }
+  ]
+}

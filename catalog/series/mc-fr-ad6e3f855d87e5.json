@@ -1,0 +1,175 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:337700",
+      "type": "series",
+      "name": "The Serial Killer Connection",
+      "poster": "https://image.tmdb.org/t/p/w500/2QVTk55dw9tMUHDlG4027cOTNOv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6GYk6Fw9Biyfk39D70Y4oz2LgHL.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:329524",
+      "type": "series",
+      "name": "Unmasking a Monster: Aileen Wuornos",
+      "poster": "https://image.tmdb.org/t/p/w500/fkl2huQPv3lc9vE82wAA5uhbBoD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jizs2LLqX8zkVT34I1VCmtrEPAK.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:330968",
+      "type": "series",
+      "name": "O. J. Simpson : le comeback scandaleux",
+      "poster": "https://image.tmdb.org/t/p/w500/Tww74Ml1hgjrDBRWkOkNA4EM31.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bn2PXePvd3OSymbbueSoWTiFcK3.jpg",
+      "description": "Cette série en 4 épisodes retrace la naissance improbable et la chute spectaculaire de Juiced, une émission en caméra cachée de O. J. Simpson.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:328821",
+      "type": "series",
+      "name": "Game Day Murders",
+      "poster": "https://image.tmdb.org/t/p/w500/tVKbdTDI5SsGGD7zqQ7ofIjrrMg.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/h25aWYIywkYpjfVG9wNDTjT0kzv.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:324043",
+      "type": "series",
+      "name": "Femmes en surpoids : du Pearadise à l'enfer",
+      "poster": "https://image.tmdb.org/t/p/w500/M4T0ColVoLCGnxdyNsSEBOuMji.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/a4I08bxeepepOewrhZ4lAZSdoAl.jpg",
+      "description": "Des femmes de grande taille témoignent et accusent le propriétaire de « Pearadise », Stefan Wilhelmy, de coercition et d'agressions sexuelles.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:321598",
+      "type": "series",
+      "name": "Benjaman Kyle : l'énigme aux cent visages",
+      "poster": "https://image.tmdb.org/t/p/w500/oVYZZpAz7CC4DJF8b0xJKkY5WaE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qrpL5eSoubDrDGo12NK3SvDuJpI.jpg",
+      "description": "Retrouvé en sang derrière un Burger King en 2004, « Benjaman Kyle » dit ne se souvenir de rien. Mais cette amnésie rétrograde est-elle bien réelle ?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:317875",
+      "type": "series",
+      "name": "Boys band : la descente aux enfers",
+      "poster": "https://image.tmdb.org/t/p/w500/o0Y0sNDP7bP3GoT3Z1S7HnZNxwt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wfFwC0x577iPBcJwIykj9cCIXAY.jpg",
+      "description": "Découvrez la face cachée du phénomène des boys bands. Derrière la gloire de ces idoles des jeunes se cachent des affaires bien moins glorieuses...",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:315837",
+      "type": "series",
+      "name": "Evil Lives Here: My Child the Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/yRVjMeuY7E5lTtUPU9P7TNKA6mp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/s7wJIVXtQXxZeg8yJNmJI65scJC.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:315737",
+      "type": "series",
+      "name": "Hunt for the Missing: Chicago",
+      "poster": "https://image.tmdb.org/t/p/w500/etFR2NxKEOAfNRQ1xqBfPtKuVFi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jlWUk6XVOO2HT6bo7J2GwhPDos6.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:313410",
+      "type": "series",
+      "name": "Les disparues de l'Alaska",
+      "poster": "https://image.tmdb.org/t/p/w500/ov6RcxMKTqsoaowKLKUwdsTbMA8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4r2Gkuz7KiiGP6zoYqV10XCx5GG.jpg",
+      "description": "La police de l'Alaska piétine dans son enquête sur les meurtres de femmes autochtones. Le vol d'un portable va permettre l'arrestation du coupable.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:309732",
+      "type": "series",
+      "name": "Killer Confessions: Case Files of a Texas Ranger",
+      "poster": "https://image.tmdb.org/t/p/w500/aurSOkkKxD7QXs2uGc6aO7N5qu1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/f3hGHscY81LcyTwKQEovMcbjdhQ.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:309810",
+      "type": "series",
+      "name": "De la Secte à l'Infanticide: L'histoire d'Andrea Yates",
+      "poster": "https://image.tmdb.org/t/p/w500/7gXu2sz5PA9jbF33Xb0n3jF1dXf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AtO53WXUldJcIfBGvaziYLa39RA.jpg",
+      "description": "Dans cette série, découvrez comment Andrea Yates en est arrivée à noyer ses 5 enfants.  Un prédicateur insaisissable pourrait l'avoir influencée.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:304115",
+      "type": "series",
+      "name": "The Rocky Mountain Mortician Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/nfs9nimnBWupjk7YjxQtImq4TYM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lW3dVg0y7IsD9pkjAZSpUGVxcdX.jpg",
+      "description": "Explorez le meurtre de Byron Griffy, un entrepreneur de pompes funèbres respecté, retrouvé mort dans son ranch isolé, abattu comme lors d'une exécution.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:302679",
+      "type": "series",
+      "name": "Qui a payé le Tueur ?",
+      "poster": "https://image.tmdb.org/t/p/w500/n4Co9iJjG9YOM4qdN8FZuTEcMbj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/apBeqJE69J0zueyZz7wfs3AFUD6.jpg",
+      "description": "Dans des affaires de meurtres, la question n'est pas de savoir qui a pressé la détente, mais qui a tiré les ficelles pour que ce meurtre soit commis.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:301147",
+      "type": "series",
+      "name": "Les meurtres du vendredi 13",
+      "poster": "https://image.tmdb.org/t/p/w500/nKiGQ9UOgUw8sw7sPO0dQogg6l8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qRKOqMxyAkaEJ4h1MYoiQ9DaY4r.jpg",
+      "description": "Ce documentaire explore de véritables meurtres survenus à cette date tristement célèbre ou aux alentours, révélant comment le vendredi 13 se transforme de superstition en une véritable histoire d'horreur.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:299090",
+      "type": "series",
+      "name": "The Tech Bro Murders",
+      "poster": "https://image.tmdb.org/t/p/w500/h7ehsWCIsx318qVFGP2s3VkzoGJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5HSqIvNb7WGArNrAS9mLM9N2WKu.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:296962",
+      "type": "series",
+      "name": "Ruby et Jodi : péchés et influence",
+      "poster": "https://image.tmdb.org/t/p/w500/3abeuQ8B7ZxhWXtKlAGi4zGcSM9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qJGldzhiTpq0NZdWsee4pXP8lag.jpg",
+      "description": "Ce docu-série en plusieurs épisodes revient sur les délits commis par Jodi Hildebrandt et Ruby Franke, des vloggeuses soutenues par l'Église mormone.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:296219",
+      "type": "series",
+      "name": "911: Did the Killer Call?",
+      "poster": "https://image.tmdb.org/t/p/w500/udWs6ermyg8Cxba2fpNrNTNYyaK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/e7SHsekFWjI57IsXKvbG6METSPp.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:294219",
+      "type": "series",
+      "name": "Ami ou Assassin ?",
+      "poster": "https://image.tmdb.org/t/p/w500/ihtZZ9TGptqXdtv0L7rK2ofIzF2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rkWdrO1eZlITg0rYdt1S8XApkFr.jpg",
+      "description": "Le meurtre de l'un des leurs bouleverse à jamais des groupes d'amis. La perte tragique d'un membre de leur cercle intime — et leur terrifiante proximité avec le meurtrier — les hantent tandis qu'ils découvrent des secrets et se confrontent à une vérité douloureuse.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:292175",
+      "type": "series",
+      "name": "Fatal Destination",
+      "poster": "https://image.tmdb.org/t/p/w500/v2JhIST4PR3QzF1ePEpPX06xC45.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/92Y0EIIQyE0kfnAuTxpGBOzvoBb.jpg",
+      "releaseInfo": "2025"
+    }
+  ]
+}

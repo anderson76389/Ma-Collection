@@ -1,0 +1,27 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:262486",
+      "type": "series",
+      "name": "High Value Target: The Hunt for Saddam",
+      "poster": "https://image.tmdb.org/t/p/w500/aItPJsNvH6xaHAWVWbYifPljVri.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1rFdsNlP7kuftVNSbQs6r0H2ufH.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:226749",
+      "type": "series",
+      "name": "The Librarians : L’héritage de Flynn Carson",
+      "poster": "https://image.tmdb.org/t/p/w500/kn7ihkOjqfQkKPruB2hz3StTuJt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7vonjNjQ272lz0rJYM31K8V7b2m.jpg",
+      "description": "Vikram, un bibliothécaire venant du passé qui a voyagé dans le temps, se retrouve coincé à notre époque. En se rendant dans son château, transformé entre-temps en musée, il libère par inadvertance de la magie à travers tout le continent. Une nouvelle équipe de bibliothécaires lui est dès lors confiée pour l'aider à réparer les dégâts causés…",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:261129",
+      "type": "series",
+      "name": "TNT Overdrive",
+      "releaseInfo": "2024"
+    }
+  ]
+}

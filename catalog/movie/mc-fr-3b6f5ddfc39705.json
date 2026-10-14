@@ -1,0 +1,170 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1523145",
+      "type": "movie",
+      "name": "Your Heart Will Be Broken",
+      "poster": "https://image.tmdb.org/t/p/w500/iGpMm603GUKH2SiXB2S5m4sZ17t.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fRjy6zDeNjfzmjpKz8mElA9Aa6l.jpg",
+      "description": "Polina, une lycéenne, est sauvée du harcèlement dans son nouveau lycée et conclut un pacte avec Bars, le principal harceleur : il doit faire semblant d'être son petit ami et la protéger, et elle doit obéir à tout ce qu'il lui dit. Au fil de ce jeu, le couple développe de véritables sentiments, mais sa famille et ses camarades de classe ont de bonnes raisons de vouloir séparer les amoureux.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1472573",
+      "type": "movie",
+      "name": "Здесь был Юра",
+      "poster": "https://image.tmdb.org/t/p/w500/5u2A7QC6h4B3vguRNtf1b4D1kBW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2QVnhOYUwJLm7Mwv1nMIOATFV5o.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1248723",
+      "type": "movie",
+      "name": "Буратино",
+      "poster": "https://image.tmdb.org/t/p/w500/3BC0TuGiLG7zt9pHxN115HPuS4O.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r3oPwy5HILetFqKlTI6BElFoAWf.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1533843",
+      "type": "movie",
+      "name": "Невероятные приключения Шурика",
+      "poster": "https://image.tmdb.org/t/p/w500/5hNyun6NFvSnBTAOhxpdu9a2s8h.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xGmPJbhF5PD5t9pi1XqYJPXql0Y.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1260854",
+      "type": "movie",
+      "name": "Волчок",
+      "poster": "https://image.tmdb.org/t/p/w500/xKkKrAZM3L123tBoY47vDgghE6Z.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aH9J1Z3WvxD5LbOBVS1tJ93HCR4.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1470424",
+      "type": "movie",
+      "name": "Голосовой помощник",
+      "poster": "https://image.tmdb.org/t/p/w500/AsvgohgYkRxYNWt5ovOth6x57Vm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1W58j6ZOt1saJU4LsNOqpDdhVBW.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1489187",
+      "type": "movie",
+      "name": "Сводишь с ума",
+      "poster": "https://image.tmdb.org/t/p/w500/s42X4sEKtQJfLu3tps2vPMjgjrh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6QKDBQRFHe6aG7QflvG5NQV1zr3.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:586387",
+      "type": "movie",
+      "name": "Август",
+      "poster": "https://image.tmdb.org/t/p/w500/cMEiss9JWOHvS1LHaSEJDn22zqW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vjl5qXuiD0AsB2mzOBIwj5OMVxs.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:650033",
+      "type": "movie",
+      "name": "Free Fall",
+      "poster": "https://image.tmdb.org/t/p/w500/x4IwkaXpFLtIIj5ACNEmZkqWFhP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kXxriYfAWtMJNHGHVYr09c37L07.jpg",
+      "description": "Dans un futur proche, l'humanité prospère dans l'espace sur la gigantesque station Delta. Après une tempête de protons, Maxim, réparateur, se retrouve isolé dans l'espace, avec une combinaison endommagée et sans communication. Anna, une opératrice, le contacte soudainement pour le guider. Mais alors que Maxim lutte pour survivre, il découvre qu'Anna n'est peut-être pas ce qu'elle semble être.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1407932",
+      "type": "movie",
+      "name": "Туда",
+      "poster": "https://image.tmdb.org/t/p/w500/pS7pP78k0jNuAijYS5kWGpJEFnI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8nDAsT4WT7vsOwlDW1rwD1CZhvH.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1258151",
+      "type": "movie",
+      "name": "Kraken : L'Œil des abysses",
+      "poster": "https://image.tmdb.org/t/p/w500/tdhqzr7nZQWzQwX6Mue3T4dGpRV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xWYGs7o0lExX7XzdwyCFLZJ5C1L.jpg",
+      "description": "Lorsqu’un sous-marin soviétique disparaît mystérieusement au nord du Groenland, l’état-major décide d’envoyer un nouvel équipage mené par le commandant Limonov à la recherche du submersible. Mais à mesure que la mission s’enfonce dans les eaux hostiles de l’Arctique, l’équipage comprend que la disparition du sous-marin les dépasse… Dans ces eaux menaçantes, aucune puissance militaire n’est prête à affronter ce qui sommeille sous l’océan.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1327683",
+      "type": "movie",
+      "name": "Батя 2: Дед",
+      "poster": "https://image.tmdb.org/t/p/w500/nJXVFPNVnWKqPWBzbAgO8UZaLdk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9NrMvX4nC5Mu0huvOFZRo4TpFwu.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1382056",
+      "type": "movie",
+      "name": "Царевна-лягушка",
+      "poster": "https://image.tmdb.org/t/p/w500/hkKIXuBmJUXiCyNI22Y4CY89Ntp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3E73IimAzFLCYpDYJMsSwo7kqTk.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1260853",
+      "type": "movie",
+      "name": "Роднина",
+      "poster": "https://image.tmdb.org/t/p/w500/dBsXuFQdS2n2asxRDLTjwDk6EMc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/j3JgvFcB4kyF7FfAFzQeHE16FpC.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1168197",
+      "type": "movie",
+      "name": "L'été va se terminer",
+      "poster": "https://image.tmdb.org/t/p/w500/9aym3b81zPB51xMPQJ5hoMsKsUD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aT9UmSgCic0Dmj7NQlx9uYR6xMJ.jpg",
+      "description": "En chemin, les saisons passent, les relations entre les deux acteurs principaux - le débutant Makar Khlebnikov et la déjà star Youri Borissov - évoluent sur le tournage autant que dans l'histoire des deux frères en cavale, la caméra s'adapte discrètement aux nombreux personnages croisés (et non l'inverse, beaucoup sont des non-professionnels et les auteurs tiennent à cette authenticité documentaire), la nature yakoute dicte sa loi et ce qui aurait pu devenir un plaisant \"eastern\" à la \"Butch Cassidy et le Kid\" tourne au cruel thriller.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1211726",
+      "type": "movie",
+      "name": "La Soie rouge",
+      "poster": "https://image.tmdb.org/t/p/w500/g45NVaq0o72UcKWzZxZ0EUnylH9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xxKihlvCkmG6j4v2a4gWGPBnzjr.jpg",
+      "description": "1927. À bord du Transsibérien, des documents secrets sont transportés à travers toute la Russie. Ils décideront de l’avenir de l’URSS et de la Chine. Derrière l’apparence de simples voyageurs se cachent des espions étrangers et des tueurs prêts à tout pour s’en emparer. Un jeune soldat de l’Armée rouge et un ancien agent du tsar doivent unir leurs forces pour démasquer leur ennemi commun.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1008445",
+      "type": "movie",
+      "name": "Le Prophète : l’Histoire d’Alexandre Pouchkine",
+      "poster": "https://image.tmdb.org/t/p/w500/u1c7hlPdCFMUOe77Ttee3UVLjRD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mdFrkufYmXcoohvFxvoALidSqJ1.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:584855",
+      "type": "movie",
+      "name": "Злой город",
+      "poster": "https://image.tmdb.org/t/p/w500/da4KST59isnHHwVYZGrzWxoJuNZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fOcAU0Jzw4sx4aUTopRavJrLHeF.jpg",
+      "description": "Au XIIIe siècle, Batu Khan a passé deux mois à essayer de prendre la ville de Kozelsk. Il a perdu de nombreux hommes et engins de siège au cours du processus. Quand il l'a finalement prise, il a tué tous les accusés, y compris des femmes et des enfants, et a ordonné que le nom de Kozelsk soit oublié. Il l'a appelée Fierce Town.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:732707",
+      "type": "movie",
+      "name": "Василий",
+      "poster": "https://image.tmdb.org/t/p/w500/ie0dje7Vni37ks5F2WVqInfVafO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zZPyIEGRQaHvwAQ3PVhM4Dq0epf.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:658224",
+      "type": "movie",
+      "name": "Волшебник Изумрудного города. Дорога из жёлтого кирпича",
+      "poster": "https://image.tmdb.org/t/p/w500/hA1ARNbkPScth2S21xP7Akw9EJo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1t3YfNmAZeWIFEctgh43pL10gdQ.jpg",
+      "releaseInfo": "2025"
+    }
+  ]
+}

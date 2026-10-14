@@ -1,0 +1,38 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:262469",
+      "type": "series",
+      "name": "Dating Naked : Draguer nu",
+      "poster": "https://image.tmdb.org/t/p/w500/tWHl9QaUaz4sKEUk1qCaGqQDARq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nC5gyHQB5zrWOkKMquBueGW7gb5.jpg",
+      "description": "Dix célibataires à la recherche de l'amour défient les apparences et prennent part à une expérience de rencontre audacieuse dans le plus simple appareil. Déshabillés, ils commencent à faire connaissance, mais leurs liens seront mis à rude épreuve.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:237316",
+      "type": "series",
+      "name": "Love Is Blind : Royaume-Uni",
+      "poster": "https://image.tmdb.org/t/p/w500/o53Kf7pcC2e6hojIA8PHhDHyLqe.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zXqjSkvpOtkr4qeHSnDBEVoqDV5.jpg",
+      "description": "Emma et Matt Willis présentent cette expérience sociale où des célibataires britanniques en quête d'amour se fiancent avant même de se rencontrer. Mais qui dira \"oui\" ?",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:243754",
+      "type": "series",
+      "name": "Love Island: All Stars",
+      "poster": "https://image.tmdb.org/t/p/w500/eMQYbtPpoGUcRJtYus7jJcvXKY5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/k6wUi9v3EzNaP07Ff2DtfNO5z2e.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:233816",
+      "type": "series",
+      "name": "Love Island Games",
+      "poster": "https://image.tmdb.org/t/p/w500/1ACzNV3c4alBW7rUyo51n8uGoJw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oz8oFmJdgoE7SUND68ihwORHscu.jpg",
+      "releaseInfo": "2023"
+    }
+  ]
+}

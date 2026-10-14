@@ -1,0 +1,29 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:315911",
+      "type": "series",
+      "name": "Dirty Rotten Scandals",
+      "poster": "https://image.tmdb.org/t/p/w500/2gnBodlr5baESwygXtbRFtvQksN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dBFfBS8pnSCmKngyFwAlAAEMiJj.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:293603",
+      "type": "series",
+      "name": "Chirurgie à tout prix : Retour au Naturel ?",
+      "poster": "https://image.tmdb.org/t/p/w500/9JAyAgbTA6SIwtIDd3BOk9KMEVG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sQzUoErjjEG4h7kvtoOdjLWJs9m.jpg",
+      "description": "E! Cette télé-réalité sur la chirurgie plastique a un goût différent… parce que pour la toute première fois, nous la faisons à l’envers.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:253912",
+      "type": "series",
+      "name": "OMG Fashun",
+      "poster": "https://image.tmdb.org/t/p/w500/mAr0YmTlzVnC0DEMASCClMtP5hS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2YOLuChRa4qYa9WqO8mkaUhPd1X.jpg",
+      "releaseInfo": "2024"
+    }
+  ]
+}

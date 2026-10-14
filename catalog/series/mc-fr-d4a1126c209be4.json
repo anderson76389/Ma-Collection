@@ -1,0 +1,28 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:317268",
+      "type": "series",
+      "name": "Foul Play with Anthony Davis",
+      "poster": "https://image.tmdb.org/t/p/w500/z1XtnOjJAlRgYrc0HLYmeFBVbPD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qoAj2jHrnJdWZHi9ICh4D0zsDop.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:242731",
+      "type": "series",
+      "name": "The Joe Schmo Show",
+      "poster": "https://image.tmdb.org/t/p/w500/nLAzrjwllDm2uU0J0VhF7YzLfCj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lFXppBaUSZKG73KiC90SVh8DBGC.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:241067",
+      "type": "series",
+      "name": "Stupid Pet Tricks",
+      "poster": "https://image.tmdb.org/t/p/w500/x4vaiDiy5DWYPjWXpuIFSUlqtyQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/usCyASIjBP8n2V0M5s7JrLjOGxQ.jpg",
+      "releaseInfo": "2024"
+    }
+  ]
+}

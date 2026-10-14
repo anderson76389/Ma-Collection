@@ -1,0 +1,52 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:293496",
+      "type": "series",
+      "name": "The Furry Detectives: Unmasking a Monster",
+      "poster": "https://image.tmdb.org/t/p/w500/aY9BknZjRZJE1V9p88ofuJomiSB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qwh0goMPDOy2H614XXT2iNhOrOx.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:293155",
+      "type": "series",
+      "name": "Butchers of L.A.",
+      "poster": "https://image.tmdb.org/t/p/w500/uAmatmFd4eksxHWuHa76J56Z6GU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7qXflAk5pxb24jEwnhkCsfCGIq3.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:292460",
+      "type": "series",
+      "name": "The Killer Clown: Murder on the Doorstep",
+      "poster": "https://image.tmdb.org/t/p/w500/i4tQGesz8otMcxnTtbCABJfFO9U.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fu2wdj87LghQua4Fo6nfjTN8vBO.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:261508",
+      "type": "series",
+      "name": "The Tailor of Sin City",
+      "poster": "https://image.tmdb.org/t/p/w500/5YVS9eBNhhX2N2ZtwFAJ0rxaaGq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mjRm4kP0oIxmAzFlRgDLLn4ZY3r.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:246462",
+      "type": "series",
+      "name": "True Crime Story: Smugshot",
+      "poster": "https://image.tmdb.org/t/p/w500/8nhKta7JN02g5GRZ8RtZcXzCbMt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aW026xND39HJHXFxZwlJMbnjnn6.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:239650",
+      "type": "series",
+      "name": "Off Script with The Hollywood Reporter",
+      "poster": "https://image.tmdb.org/t/p/w500/2yWslXH87dJgNg1UFuQrcuzyE4n.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iBhiTFSE5QCw5tkqdILrURbTFn3.jpg",
+      "releaseInfo": "2023"
+    }
+  ]
+}

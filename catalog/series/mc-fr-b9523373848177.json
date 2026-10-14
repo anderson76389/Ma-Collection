@@ -1,0 +1,182 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:318918",
+      "type": "series",
+      "name": "LEGO One Piece",
+      "poster": "https://image.tmdb.org/t/p/w500/hTUHZ337JzqPvRXBQ3lu0GBkOvz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qA8U2ABepV5E2BcNIBcgUaFy4fM.jpg",
+      "description": "Les Chapeaux de paille lèvent l'ancre dans ce programme LEGO en deux parties ! Rejoignez Luffy, Nami, Usopp et l'équipage dans leur périple épique, réinventé brique par brique.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:305357",
+      "type": "series",
+      "name": "A Different World",
+      "poster": "https://image.tmdb.org/t/p/w500/mmE4RNbsPOwwRo5rnVRd1IXzgcZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1lVbKPOVjTV02FtLqiPk9F9z1Fh.jpg",
+      "description": "Deborah Wayne entame sa première année à Hillman — l'université historiquement noire (HBCU) fréquentée par ses parents — et découvre qu'il est difficile d'échapper à leur ombre. Elle entreprend de bâtir son propre héritage, tout en vivant les meilleurs moments de sa vie, aux côtés d'une nouvelle génération d'étudiants brillants et prometteurs.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:250203",
+      "type": "series",
+      "name": "Brothers",
+      "poster": "https://image.tmdb.org/t/p/w500/yewGBOuVmcZnMQ60xGGjUhobOsJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aLE7R8QZPpTiWZS48PS22i2OWbl.jpg",
+      "description": "Matthew McConaughey et Woody Harrelson sont meilleurs amis depuis toujours, mais leur lien pourrait devenir encore plus étroit après la découverte d’un secret de famille troublant.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:285418",
+      "type": "series",
+      "name": "Youth",
+      "poster": "https://image.tmdb.org/t/p/w500/2YD9VOcTn5J8vfESJ7hrhfxPyf5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7pwybpJ2VSqqWgxZHTYqzRz01qH.jpg",
+      "description": "Alex a une carrière, une famille et une riche expérience de la vie, mais elle doit aussi faire face aux réalités de la cinquantaine, s'occuper de ses parents vieillissants, élever un fils adolescent en difficulté et essayer de déterminer s'il y a encore de la place pour la romance et l'excitation dans sa propre vie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:314478",
+      "type": "series",
+      "name": "Dang!",
+      "poster": "https://image.tmdb.org/t/p/w500/wSDM4tIC5praLH9GxZisiIBIkz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xcjvlbVkVvGodPdfv3c6NzknMIB.jpg",
+      "description": "Suivez les aventures d'un frère et d'une sœur dont la vie new-yorkaise, à la fois amusante et chaotique, est bouleversée lorsque leur pire cauchemar devient réalité : leur sœur aînée, brillante et ambitieuse, débarque et veut passer du temps avec eux.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:300480",
+      "type": "series",
+      "name": "Ricky Gervais Alley Cats",
+      "poster": "https://image.tmdb.org/t/p/w500/1oLW17ZzkZTeGN8apmtS5MGtVPw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/auLT0EPtqtt5MwryoC2MoAG595F.jpg",
+      "description": "Dans cette comédie d'animation impertinente de Ricky Gervais, des chats sauvages sèment le chaos dans les rues et enchaînent les mésaventures rocambolesques.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:296756",
+      "type": "series",
+      "name": "President Curtis",
+      "poster": "https://image.tmdb.org/t/p/w500/noWGHRAllKVUlxTQ5T10gQL4BBL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yoTP91XZZjSvE2gZgGvwNxVW96w.jpg",
+      "description": "Suivez le commandant en chef et son équipe excentrique alors qu'ils s'attaquent à des crises dont Rick Sanchez ne se soucierait jamais : de la diplomatie interdimensionnelle aux enquêtes sur le paranormal en passant par les phénomènes inexpliqués.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:287620",
+      "type": "series",
+      "name": "Stuart fails to save the Universe",
+      "poster": "https://image.tmdb.org/t/p/w500/tHGxFjaIVCUDsgxYTm1ePVDHySS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nW7oUFiJrIWwll4mZ8tYays7XRm.jpg",
+      "description": "Le propriétaire de la boutique de comics, Stuart Bloom, est chargé de rétablir la réalité après avoir accidentellement brisé un appareil conçu par Sheldon et Leonard, provoquant ainsi une apocalypse du multivers.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:292108",
+      "type": "series",
+      "name": "Ann Droid",
+      "poster": "https://image.tmdb.org/t/p/w500/rgg7vCZ9HIdT4vYGxOvg84L7ngF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/deUtNgB5zf7uyAzH7BbkRHF2S80.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:254528",
+      "type": "series",
+      "name": "The Hawk",
+      "poster": "https://image.tmdb.org/t/p/w500/sqe6Xs0UxpaSnJ7zUwzcixSC1OT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fBVNJL85Q60njpKPD6YaLi6tEsX.jpg",
+      "description": "Lonnie Hawkins alias \"The Hawk\", légende du golf en fin de carrière, se lance à la conquête d'un ultime titre majeur, entraînant tous ses proches sur un parcours très chaotique.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:241882",
+      "type": "series",
+      "name": "Ride or Die",
+      "poster": "https://image.tmdb.org/t/p/w500/hWGnBQ4k9Fj3dqvWnBsSYQy5tFx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jwCXxvbLno5GrGDA9KvQ22uLziM.jpg",
+      "description": "Debbie et Judith, deux meilleures amies, sont forcées de fuir quand Debbie découvre que Judith n'est pas expert-comptable judiciaire, mais tueuse à gages internationale ! Avec un mystérieux individu à leurs trousses et alors que le mari de Debbie trempe dans une affaire de corruption, c'est une course contre la montre à travers l'Europe qui les attend pour découvrir la vérité et rester en vie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:328337",
+      "type": "series",
+      "name": "Bluey Compilations",
+      "poster": "https://image.tmdb.org/t/p/w500/gt5MDinPvpqLcMf6EjYLyUxyXfI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9odRU37ksPlXjRzVpQUAbgvSob5.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:254420",
+      "type": "series",
+      "name": "Elle",
+      "poster": "https://image.tmdb.org/t/p/w500/cpdy7BM2vvGTriPHSKl3K7jBR4C.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/truh4rtTUdRVYGeT0n17dxvdv41.jpg",
+      "description": "Avant qu'Elle Woods ne se retrouve comme un poisson hors de l'eau à Harvard, nous la découvrons en 1995, nageant dans les eaux tumultueuses du lycée où elle est confrontée à des amitiés compliquées, un amour interdit et des choix vestimentaires discutables. Ce récit inattendu de son adolescence nous montre les expériences qui ont fait d'elle la jeune femme emblématique que le public aime tant.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:295780",
+      "type": "series",
+      "name": "Life, Larry and the Pursuit of Unhappiness: An Almost History of America",
+      "poster": "https://image.tmdb.org/t/p/w500/cOOLHsRdNymdPlfEXRRxcJDCY9b.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6Fbrrf2jaYJ8s3nnnuhhvvDjTZN.jpg",
+      "description": "Le président et Mme Obama voulaient rendre hommage au 250e anniversaire des États-Unis mais c'est alors que Larry David a appelé.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:204137",
+      "type": "series",
+      "name": "The Doomies",
+      "poster": "https://image.tmdb.org/t/p/w500/zTUuiutD2Kj8lwd552uX8dzxA24.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dT7ARI93vfbP1Tf8fuVfDFMyQqE.jpg",
+      "description": "Quand Bobby et sa meilleure amie Romy ouvrent par accident un portail maléfique, ils transforment leur tranquille petite ville côtière en destination de choix pour de terrifiantes créatures démoniaques. Les deux amis rencontrent « L’Elue », et combattent toutes sortes de démons - intérieurs ou bien réels - dans cette épopée mêlant humour et horreur, pleine de sensations fortes, de frissons et d’émotions pour ces deux adolescents ordinaires embarqués dans une aventure extraordinaire.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:318203",
+      "type": "series",
+      "name": "Alice et Steve",
+      "poster": "https://image.tmdb.org/t/p/w500/90StjTgxw3TS3GxPn1VYmQmclqt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1mN5cydNUFqd7MHfOwhcHZzLnvT.jpg",
+      "description": "Alice est dévastée quand son meilleur ami Steve fréquente sa fille de 26 ans, Izzy. Elle va perdre son meilleur ami et sa fille d'un coup. Elle décide d'utiliser tous les outils dont elle dispose pour mettre fin à leur relation: des menaces, en passant par la supplication, en allant jusqu'au sabotage de carrière. Malheureusement pour elle, Steve est plus que prêt à l'attaque, et ce qui semblait être une amitié parfaite devient un combat sans fin. Finalement, le mari d'Alice, Daniel, perd patience. Cette situation a fait ressortir les mauvais côtés d'Alice qui lui font peur. Steve sait qu'Izzy est la meilleure chose qui puisse lui arriver et veut tenter sa chance. Mais Alice n'est pas de cet avis.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:229544",
+      "type": "series",
+      "name": "Among Us",
+      "poster": "https://image.tmdb.org/t/p/w500/ourBbG4B1dAjfFUCzuUYEZpR101.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zoa11EvyuasC3j7PmH1QGftrSvf.jpg",
+      "description": "Des membres de votre équipage ont été remplacés par un métamorphe extraterrestre déterminé à semer la confusion, à saboter le vaisseau et à tuer tout le monde. Éliminez l'imposteur ou devenez la victime de ses plans meurtriers.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:284725",
+      "type": "series",
+      "name": "Not Suitable for Work",
+      "poster": "https://image.tmdb.org/t/p/w500/gauhh2Gj0YaZKFR0XLrnRRKpjJE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nApVs1jPXXXBc7Ge2PnaFpBfCVW.jpg",
+      "description": "Cinq jeunes d'une vingtaine d'années obsédés par le travail se démènent pour réussir professionnellement et, s'ils en ont le temps, de trouver leur bonheur dans le quartier le plus glamour de Manhattan, Murray Hill.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:290295",
+      "type": "series",
+      "name": "Mating Season",
+      "poster": "https://image.tmdb.org/t/p/w500/5Pn7R2TtLka8OjsgtxAq4H2apjJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zaDTnGcq3F5LocdmHJLP3Mf0kII.jpg",
+      "description": "Cette délirante série d'animation comique pour adultes, sortie de l'esprit tordu des créateurs de \"Big Mouth\", parle de cœur, de sexe et de relations amoureuses… chez les animaux.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:285404",
+      "type": "series",
+      "name": "Plaisir maximum garanti",
+      "poster": "https://image.tmdb.org/t/p/w500/hFKOglPtEpknH7HZPwadBboDPci.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9mZlvYlGA4jblCvAvOpinrgn6hr.jpg",
+      "description": "Un maman récemment divorcée tombe dans une dangereuse spirale de chantage, meurtre et football pour les jeunes.",
+      "releaseInfo": "2026"
+    }
+  ]
+}

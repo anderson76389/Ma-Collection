@@ -1,0 +1,28 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:8425",
+      "type": "series",
+      "name": "Only Connect",
+      "poster": "https://image.tmdb.org/t/p/w500/mCS6E8Ca5RYthdYpz1j72Tr5AKD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jYK5uwwFNkoAHxW7THVrYdVEYBQ.jpg",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:36695",
+      "type": "series",
+      "name": "Storyville",
+      "poster": "https://image.tmdb.org/t/p/w500/zLOvaj0zL70g2rxctAnLO3kMw0W.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xrr0YK9pXO5MhsPUK1kVSLAIOqK.jpg",
+      "releaseInfo": "1997"
+    },
+    {
+      "id": "tmdb:112631",
+      "type": "series",
+      "name": "BBC Young Musician",
+      "poster": "https://image.tmdb.org/t/p/w500/p5sORTtD2EfAvUAdyd1AyfNi09w.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cPB23WbP5ucNkuzLuMcLDTuiwNo.jpg",
+      "releaseInfo": "1978"
+    }
+  ]
+}

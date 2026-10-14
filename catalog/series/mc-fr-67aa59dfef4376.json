@@ -1,0 +1,180 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:2734",
+      "type": "series",
+      "name": "New York Unité Spéciale",
+      "poster": "https://image.tmdb.org/t/p/w500/95flTYCxEPNFSdZVrHy9nMIeLbw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xhK9YCxNwnE0OB1SWvCY39heHQI.jpg",
+      "description": "Les inspecteurs qui font partie de la division des Crimes sexuels (SVU) du service de police de la ville de New York (NYPD) enquêtent sur des crimes de nature sexuelle. Alors que les autres émissions de la franchise de \"La loi et l'ordre\" se sont largement concentrées sur les cas de meurtres, les inspecteurs de la division des Crimes sexuels (SVU) ont souvent affaire à des crimes, tel le viol, auquel la victime survit et elle aide les autorités lors de l'enquête.",
+      "releaseInfo": "1999"
+    },
+    {
+      "id": "tmdb:549",
+      "type": "series",
+      "name": "New York Police Judiciaire",
+      "poster": "https://image.tmdb.org/t/p/w500/7ZFSCSIuW8wzXJL1JezrKcLzV4x.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tc7canPSAn2X14hYi6Rl3gZm1o4.jpg",
+      "description": "À New York, détectives et assistants du procureur tentent de résoudre les affaires les plus délicates. Les uns sur le terrain, les autres devant les tribunaux.",
+      "releaseInfo": "1990"
+    },
+    {
+      "id": "tmdb:4614",
+      "type": "series",
+      "name": "NCIS : Enquêtes Spéciales",
+      "poster": "https://image.tmdb.org/t/p/w500/salC1Yhi3QW8DW5iIJGFQOzPWVQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/c1aBrG5s5xFa6Tbnihu2Hhj4t2q.jpg",
+      "description": "L'agent spécial Leroy Jethro Gibbs, de la Section criminelle de la Gendarmerie maritime, dirige un groupe de personnes aux personnalités colorées qui enquête sur les crimes. Ceux-ci vont du meurtre et de l'espionnage au terrorisme, et sont reliés de manière assurée au personnel du corps de la Marine. L'équipe est composée d'Anthony DiNozzo, un ex-inspecteur plein d'esprit spécialisé en homicides, d'Abby Sciuto, l'excentrique spécialiste d'enquête en technique de laboratoire, de Timothy McGee, brillant lorsqu'inquiet, et de Ziva David, ex-officier de liaison du Mossad. Le Dr Donald \"Ducky\" Mallard contribue à la résolution de cas grâce à sa grande expérience dans le domaine de la médecine légale.",
+      "releaseInfo": "2003"
+    },
+    {
+      "id": "tmdb:288673",
+      "type": "series",
+      "name": "Carrie",
+      "poster": "https://image.tmdb.org/t/p/w500/dkDeQSeJGSfEBFavomS3LUci2VO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9yCJtipMeDe8uAdSJKvw8BnYfRz.jpg",
+      "description": "Après la mort soudaine et prématurée de son père, Carrie est propulsée dans l'univers impitoyable d'un lycée public et doit faire face à un scandale de harcèlement viral qui secoue sa communauté, à la pression incessante et à la cruauté des réseaux sociaux tandis qu'en parallèle, un mystérieux pouvoir de télékinésie s'éveille en elle.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:44006",
+      "type": "series",
+      "name": "Chicago Fire",
+      "poster": "https://image.tmdb.org/t/p/w500/h4CBBtjbGBhgpulhoQvoEaOG8yf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/otaBZzLIqrKdXcovbAvVONJCnb4.jpg",
+      "description": "Un aperçu captivant de la vie de héros du quotidien engagés dans l'une des professions les plus nobles des États-Unis. Pour les pompiers, les secouristes et les ambulanciers de la caserne 51 de Chicago, aucun métier n'est plus stressant ni plus dangereux, mais en même temps aussi gratifiant et exaltant. Ces hommes et ces femmes courageux font partie de cette élite qui se jette tête la première dans le danger alors que tout le monde s'enfuit dans la direction opposée, et dont les actions font la différence entre la vie et la mort.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:58841",
+      "type": "series",
+      "name": "Chicago Police Department",
+      "poster": "https://image.tmdb.org/t/p/w500/sfBiloE6J9rFEnpvckdeHZ06SSl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/18KSsDgcGQds7yOMC6MVRTbVJwt.jpg",
+      "description": "Des officiers en uniforme qui patrouillent et combattent le crime dans la rue, aux membres de l'unité des renseignements affectés à des affaires majeures (crime organisé, trafic de drogue, homicides...), toutes les recrues du poste de police du district 21 de Chicago risquent quotidiennement leurs vies. Ces énormes responsabilités dépassent souvent le simple cadre professionnel et entâchent la sphère privée de ces hommes et de ces femmes d'exception.\n\nSpin-off de Chicago Fire centré sur une brigade de police de la ville.",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tmdb:81329",
+      "type": "series",
+      "name": "Un si grand soleil",
+      "poster": "https://image.tmdb.org/t/p/w500/m1z5FCcnKWBl2dEt8J81RmQnqmr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aizbHLcKVWvJ7jxkflJzTu5Z8GE.jpg",
+      "description": "Claire revient à Montpellier après 17 ans d’absence, pour faire découvrir sa ville natale à son fils Théo. Mais dès son arrivée, rien ne se passe comme prévu. Seulement quelques heures plus tard, elle est en garde à vue, accusée du meurtre d’un ami d’enfance. Pour se disculper, Claire n’aura d’autre choix que de percer tous les secrets du passé, notamment celui de la mort de sa sœur Angèle.",
+      "releaseInfo": "2018"
+    },
+    {
+      "id": "tmdb:62650",
+      "type": "series",
+      "name": "Chicago Med",
+      "poster": "https://image.tmdb.org/t/p/w500/s55mHZ5q68IUtRsQdy2oC3nPpG7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fFgVoJuSBewZWlzgaoUWGm8MvD4.jpg",
+      "description": "Le quotidien mouvementé du personnel d'un des plus importants hôpitaux de Chicago. Leur mission : sauver des vies, en se confrontant aux cas médicaux les plus critiques. Seuls leur courage et leur compassion leur permet au quotidien de faire face aux challenges parfois insurmontables de la médecine, ainsi qu'aux dilemmes éthiques propres à leur noble discipline.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:314939",
+      "type": "series",
+      "name": "Un autre amour que le tien",
+      "poster": "https://image.tmdb.org/t/p/w500/lu3tuzFl4c6rx1WcoLOGZlkTjaw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/moUjiEzpJVNZc7hyNRBbLPt0CPX.jpg",
+      "description": "Une romance réaliste et touchante sur un couple qui, après dix ans de vie commune, voit sa relation confortable bouleversée par des sentiments inattendus.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:2808",
+      "type": "series",
+      "name": "Totally Spies !",
+      "poster": "https://image.tmdb.org/t/p/w500/zvEit6c2zC2PosXROb85jZwb0gx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gbmN2y9Dqm6XKEev1kd8GkGLLn.jpg",
+      "description": "Cette série raconte les aventures de trois amies adolescentes : Alex, Clover et Sam. Étudiantes dans la vie de tous les jours, elles sont en réalité agents secrets ; c'est-à-dire des espionnes professionnelles qui travaillent pour le WOOHP, une organisation secrète de protection de l'humanité. Lorsque leur patron Jerry a besoin de leurs services, il les envoie en mission, après leur avoir fait revêtir des combinaisons intégrales moulantes en latex coloré (jaune pour Alex, rouge pour Clover et verte pour Sam) et fourni des gadgets, qui les aideront à mener à bien leurs enquêtes.",
+      "releaseInfo": "2002"
+    },
+    {
+      "id": "tmdb:253811",
+      "type": "series",
+      "name": "TOUGEN ANKI",
+      "poster": "https://image.tmdb.org/t/p/w500/dp1qrCtUVpF5yXVXlvefyy4RwXJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/k7h9p81H6X6TGV70TgOp4TmjXco.jpg",
+      "description": "Les lignées « Oni » et « Momotaro » ont été transmises de génération en génération chez certains humains. Il y a longtemps, les ogres étaient conscients de leur nature féroce et vivaient reclus. Cependant, leur paix a été brisée par des envahisseurs menés par Momotaro. Pendant des milliers d'années, ces deux factions ont formé respectivement l'« Organisation Momotaro » et l'« Organisation Oni », et sont en guerre depuis lors. La protagoniste, Shiki Ichinose, apprend soudain qu'elle est de la lignée des Oni à la suite d'une attaque inattendue de Momotaro. Cette révélation met Shiki sur la voie de la découverte du destin dans son sang - la rencontre avec le démon qui réside en lui. - L'histoire d'une nouvelle génération de héros et de démons sombres commence ici !",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:289892",
+      "type": "series",
+      "name": "Helluva Boss",
+      "poster": "https://image.tmdb.org/t/p/w500/bcrp2ovxirKH81XSMYQZ7eEunzX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/20OP4f0xDbPttORm9OyIbNu3cNN.jpg",
+      "description": "En enfer, l'imp Blitzø (le « o » est muet) dirige une entreprise d'assassins qui cible le monde des vivants, à l'aide d'un grimoire emprunté à un prince des enfers. Avec ses employés Moxxie, Millie et Loona, ils tentent de survivre les uns aux autres tout en maintenant leur entreprise à flot.",
+      "releaseInfo": "2020"
+    },
+    {
+      "id": "tmdb:324326",
+      "type": "series",
+      "name": "Les 7 Chevaliers du Royaume des Marronniers",
+      "poster": "https://image.tmdb.org/t/p/w500/kbmXfi28xI7m0M5oWfJS5fwiCqo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/59oBbiLeG3jeDOUmx6zF6Qfmea3.jpg",
+      "description": "Au cœur d'un continent composé de huit royaumes se trouve le royaume des Marronniers. Son général, Baribara, a sept fils, chacun doté d'un don et occupant le poste de chevalier commandant. Unis par le noble espoir de sauver une princesse un jour, les frères partent en bons samaritains vers les sept royaumes voisins. Quelles rencontres et quelles épreuves les attendent dans ces contrées inconnues ?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:134667",
+      "type": "series",
+      "name": "Moi quand je me réincarne en épée",
+      "poster": "https://image.tmdb.org/t/p/w500/Avn1pnxeDznpJStZFq4jOxPM4Ek.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fo5qwDAVqY7j2jmL350WKjk6kmi.jpg",
+      "description": "Bien qu’elle soit une jeune fille-chat fougueuse, Fran, orpheline, mène une vie de labeur depuis qu’elle a été réduite en esclavage. Pensant que ses derniers jours sont arrivés à la suite d’une attaque d’un monstre, son chemin croise alors celui d’une mystérieuse épée qui lui permet d’abattre son adversaire. Il s’avère que celle-ci était auparavant un jeune homme qui, à la suite d’un tragique accident de voiture, s’est réincarné dans un nouveau monde. Liés désormais par un pacte, nos deux héros sont fin prêts à se frayer un chemin vers la liberté et à vivre une vie d’aventure !",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:38965",
+      "type": "series",
+      "name": "Angelo la Débrouille",
+      "poster": "https://image.tmdb.org/t/p/w500/93wxtwtx9d68hNiIrBzyJrwC9QK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tAIJSeKxBeJn8Hfr1HKPmuCrpl6.jpg",
+      "description": "Angelo la débrouille, un petit garçon plutôt futé d’à peine 10 ans, aime autant s’interroger sur le sens de la vie que jouer à des jeux avec ses meilleurs amis, Lola et Victor.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:222176",
+      "type": "series",
+      "name": "Cat's Eyes",
+      "poster": "https://image.tmdb.org/t/p/w500/sLrUScBosE83TSwCoeM8jBylZid.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rbYaYW9HgtuRvmnPmPbD5DRhHZb.jpg",
+      "description": "En 2023, Alexia, Tam et Sylia se retrouvent après des années de séparation. En même temps, un tableau ayant appartenu à leur père, disparu il y a plus de dix ans dans un mystérieux incendie dans sa galerie d'art, refait surface lors d'une prestigieuse exposition à la Tour Eiffel. Déterminées à découvrir la vérité, elles prennent tous les risques pour récupérer les tableaux...",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:154011",
+      "type": "series",
+      "name": "SOKO Linz",
+      "poster": "https://image.tmdb.org/t/p/w500/dFDggOqW3lhH85gspnN3FRzLfRQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jdDXCmvb3nulSpihZIlkc2u7fps.jpg",
+      "description": "À Linz, dans la capitale de la Haute-Autriche, une nouvelle équipe enquête sur les affaires criminelles qui se déroulent dans la ville baroque, menée par l'intrépide inspecteur en chef Johanna Joe Haizinger.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:319722",
+      "type": "series",
+      "name": "Honor Thy Mother",
+      "poster": "https://image.tmdb.org/t/p/w500/rAdn0E8u53QQZrBbgKEwyO2mhCs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/45QKBrrIO5WcYhdF8SKtJiu7Ig7.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:280416",
+      "type": "series",
+      "name": "Los Tinelli",
+      "poster": "https://image.tmdb.org/t/p/w500/dLJ5yKt2puHx04HECs5iQ0baVC3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rLaTDIkZTceQ6Hr6Qg3FKovBX1A.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:337332",
+      "type": "series",
+      "name": "Fauchées",
+      "description": "Un héritage, deux cousines, huit péripéties ! Pour rembourser leurs dettes, Suzanne et Mona vendent les objets de leur grand-mère. Entre acheteurs loufoques, arnaques et souvenirs, chaque vente se transforme en aventure...",
+      "releaseInfo": "2026"
+    }
+  ]
+}

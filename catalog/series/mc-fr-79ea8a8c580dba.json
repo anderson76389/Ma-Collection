@@ -1,0 +1,47 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:291431",
+      "type": "series",
+      "name": "The Celebrity Traitors",
+      "poster": "https://image.tmdb.org/t/p/w500/uziPOqxQotCE9g0wBgDvHCOvRhP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/76BNYD6gBrZPWH4axZH8rEpeyLW.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:285205",
+      "type": "series",
+      "name": "Million Dollar Secret",
+      "poster": "https://image.tmdb.org/t/p/w500/y0lAZqgaUXOTcsn6hPjiaJSJTnj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9EiKPxxL90mXxHsUAIi7V20oa2s.jpg",
+      "description": "Dans cette compétition acharnée, un millionnaire sous couverture doit tout faire pour garder son secret et éviter l'élimination s'il veut remporter le jeu et l'argent.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:262819",
+      "type": "series",
+      "name": "LOL: Last One Laughing UK",
+      "poster": "https://image.tmdb.org/t/p/w500/ehddE5xt4kqpSLk5c374h94zfVd.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xobPhgGbUqheY20aecNmtlooJb9.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:249522",
+      "type": "series",
+      "name": "Beast Games",
+      "poster": "https://image.tmdb.org/t/p/w500/4nQ9NvZ0iOcMrdcLvIFyrSSXEr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/p1rQJ5bljPSk3LoCo5UKRkpsiSd.jpg",
+      "description": "Un millier de concurrents vont s'affronter dans des épreuves physiques et mentales à couper le souffle, pour tenter de gagner la somme de 5 millions de dollars. Chaque semaine, les participants devront faire preuve de force et d'esprit pour rester dans la course et remporter le premier prix.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:254514",
+      "type": "series",
+      "name": "Harry Potter : Les Sorciers de la pâtisserie",
+      "poster": "https://image.tmdb.org/t/p/w500/wz5mPvGj9L93bA4Rvmau9fh1GNS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9mDlwBdCu501924dXnzz2Gtc8XI.jpg",
+      "description": "Des chefs pâtissiers s'affrontent sur le thème de Harry Potter pour remporter la toute première Coupe des Sorciers de la Pâtisserie.",
+      "releaseInfo": "2024"
+    }
+  ]
+}

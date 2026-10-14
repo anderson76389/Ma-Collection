@@ -1,0 +1,31 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:248394",
+      "type": "series",
+      "name": "Pour toujours",
+      "poster": "https://image.tmdb.org/t/p/w500/twlp0YMmuKmn4cKAInAL3zde59W.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lhbT6Kmv8yi4QJzyshTRCdoNhfV.jpg",
+      "description": "Après s'être perdus de vue, ils se retrouvent à l'adolescence et tombent amoureux, découvrant les joies et les peines d'une première histoire qui va changer leur vie pour toujours.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:244623",
+      "type": "series",
+      "name": "La Meneuse",
+      "poster": "https://image.tmdb.org/t/p/w500/cGA4RQGuaO9Vz1B67XA2zB1ST9J.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xY3RLTXgV0IHmyPAE97p3ePWY1R.jpg",
+      "description": "Une fêtarde repentie doit faire ses preuves dans le monde des affaires quand elle se retrouve à la tête de l'équipe professionnelle de basket dont sa famille est propriétaire.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:114500",
+      "type": "series",
+      "name": "Gagné ou Perdu",
+      "poster": "https://image.tmdb.org/t/p/w500/9P4O7j44cRMy0PMSuJi9hBEeDlk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/l3RyxkgMEm6E4D1uZDwQfi0P9TK.jpg",
+      "description": "À l'approche d'un match important, huit personnages voient leur vie hors du terrain bouleversée.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:260521",
+      "type": "series",
+      "name": "Made in Bondi",
+      "poster": "https://image.tmdb.org/t/p/w500/qvTnrTLf0H8OqrKGPcSTaKAHXHR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7PoXbTz5WuH7yx0E7hcSFxuHw3o.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:252217",
+      "type": "series",
+      "name": "Love Triangle",
+      "poster": "https://image.tmdb.org/t/p/w500/c8B1ylnb53MyfuZrIsOPJ6q0Y0H.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ijYG1rUMTKvO0EHtotJwiYCsTO8.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:250252",
+      "type": "series",
+      "name": "The Underdog: Josh Must Win",
+      "poster": "https://image.tmdb.org/t/p/w500/s0Kbds27ZvJiYs7dTmUrLJAwkIT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/81xITNjklbCaU2Pim5SmLvwO7Pb.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:241400",
+      "type": "series",
+      "name": "Made in Chelsea: Sydney",
+      "poster": "https://image.tmdb.org/t/p/w500/keI28pFTOGEg8bJvBP6zATkMb8Z.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yepngHpmqTNuwSTNGbVINiOgpNA.jpg",
+      "releaseInfo": "2023"
+    }
+  ]
+}

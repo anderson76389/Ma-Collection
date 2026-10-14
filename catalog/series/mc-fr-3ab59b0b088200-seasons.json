@@ -1,0 +1,58 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:298852",
+      "type": "series",
+      "name": "WAR",
+      "poster": "https://image.tmdb.org/t/p/w500/pTHgCWSuv8m5bBFsL1EXu0zftg7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nLCHzeiUEupR8LDarMgCcPUuF77.jpg",
+      "description": "Cathcarts & Sons et Taylor & Byrne s’affrontent dans ce qui s’annonce comme le divorce du siècle : celui du magnat de la tech Morgan Henderson et de la superstar du cinéma Carla Duval. Une affaire retentissante qui pousse les deux cabinets à franchir toutes les limites pour remporter la victoire",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:34634",
+      "type": "series",
+      "name": "Alaska : La ruée vers l'or",
+      "poster": "https://image.tmdb.org/t/p/w500/wzsQetFAT5pIMF98MWwE7sq9Hf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ReSSC77upQRIZgvaJaPQPCbWaK.jpg",
+      "description": "Des passionnés sont prêts à tout, et surtout à mener une sérieuse compétition, afin d'arriver à extraire et amasser la plus grande quantité d'or possible, au coeur de sites miniers parmi les plus riches en Amérique.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:243875",
+      "type": "series",
+      "name": "Georgie & Mandy's First Marriage",
+      "poster": "https://image.tmdb.org/t/p/w500/vonR5GlaCJpSqIQMUcBm6VQYYuu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mftiCiSsw4DFdlbfjN3cpkmMe0c.jpg",
+      "description": "Cette suite de Young Sheldon suit Georgie et Mandy alors qu'ils élèvent leur jeune famille au Texas.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:2808",
+      "type": "series",
+      "name": "Totally Spies !",
+      "poster": "https://image.tmdb.org/t/p/w500/zvEit6c2zC2PosXROb85jZwb0gx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gbmN2y9Dqm6XKEev1kd8GkGLLn.jpg",
+      "description": "Cette série raconte les aventures de trois amies adolescentes : Alex, Clover et Sam. Étudiantes dans la vie de tous les jours, elles sont en réalité agents secrets ; c'est-à-dire des espionnes professionnelles qui travaillent pour le WOOHP, une organisation secrète de protection de l'humanité. Lorsque leur patron Jerry a besoin de leurs services, il les envoie en mission, après leur avoir fait revêtir des combinaisons intégrales moulantes en latex coloré (jaune pour Alex, rouge pour Clover et verte pour Sam) et fourni des gadgets, qui les aideront à mener à bien leurs enquêtes.",
+      "releaseInfo": "2002"
+    },
+    {
+      "id": "tmdb:17937",
+      "type": "series",
+      "name": "Ghost Adventures",
+      "poster": "https://image.tmdb.org/t/p/w500/xLJZuDxdeUqRFHFlqs0mIk9faMR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/u64huzTnF3jEYUXJ4BDlpHy2L3K.jpg",
+      "description": "L'enquêteur paranormal Zak Bagans et son équipe, Nick Groff, Aaron Goodwin, Billy Tolley et Jay Wasley, recherchent des lieux hantés au niveau national et international. Au cours de leur enquête, Zak et son équipe se familiarisent avec la région, interrogent les habitants sur les lieux hantés et rencontrent les mauvais esprits qui hanteraient ces lieux.",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:207484",
+      "type": "series",
+      "name": "Outlander: Blood of My Blood",
+      "poster": "https://image.tmdb.org/t/p/w500/ktE9cVsaB7GjggashRcd5aBlXd5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lCnOoI8eYo6sTbnoSI2qwt2ZzVb.jpg",
+      "description": "Ses champs de bataille déchirés par la guerre de 14-18 aux Highlands de l'Écosse du XVIIIe siècle, ce préquel revient sur l’histoire d’amour des parents de Jamie Fraser, Ellen MacKenzie et Brian Fraser, et ceux de Claire, Julia Moriston et Henry Beauchamp, explorant jusqu'où une personne peut aller par amour à une époque où les mariages ont un rôle stratégique, souvent à des fins politiques ou financières.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

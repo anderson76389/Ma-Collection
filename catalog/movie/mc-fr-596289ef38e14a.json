@@ -1,0 +1,184 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1236045",
+      "type": "movie",
+      "name": "Animals",
+      "poster": "https://image.tmdb.org/t/p/w500/33MhDOKB0S5VwuaD9lZyV0v0st0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tzoarEu7TsG959upiELyYPm5kO9.jpg",
+      "description": "Quand leur fils est enlevé, un candidat à la mairie de Los Angeles et sa femme s'efforcent de réunir l'argent de la rançon et font des choix qui pourraient bouleverser leur vie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1281331",
+      "type": "movie",
+      "name": "The Social Reckoning",
+      "poster": "https://image.tmdb.org/t/p/w500/tF1P9HZEBJQ8w1KyBlS3zMS2Ogp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wXTaGcqX3jvdXSKCJAkl5jZyrKp.jpg",
+      "description": "L'histoire s'inspire de \"The Facebook Files\" du Wall Street Journal, une série d'articles publiés en octobre 2021 par Jeff Horowitz, qui ont révélé les rouages internes ainsi que les nombreux dommages causés par le plus grand réseau social au monde.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1458857",
+      "type": "movie",
+      "name": "À vie",
+      "poster": "https://image.tmdb.org/t/p/w500/c3O1ApzLnQ1jUXA60kXDraiPPIv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nDScZ6YR2nfNCeK5bmJ1ujb355b.jpg",
+      "description": "Quand Anika, une jeune mère célibataire qui se bat pour préserver l'unité de sa famille, commence à échanger des lettres avec un détenu, Carousel, une relation improbable se noue à distance et prend bientôt une tournure inattendue. Naît alors une puissante histoire d'amour et de rédemption, portée par l'espoir de pouvoir un jour échapper au poids du passé. Car même les relations les plus inconcevables peuvent changer des vies et offrir une seconde chance d'être heureux.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1248832",
+      "type": "movie",
+      "name": "Digger",
+      "poster": "https://image.tmdb.org/t/p/w500/gPCCGMQCrrMNM3mR3vqIdbdJxJ5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/b7t3r39Oll5qPxBKzLZ8eHMBD7l.jpg",
+      "description": "L’homme le plus puissant du monde se lance dans une mission frénétique pour prouver qu’il est le sauveur de l’humanité avant que le désastre qu’il a déclenché ne détruise tout.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1492640",
+      "type": "movie",
+      "name": "UNABOMBER",
+      "poster": "https://image.tmdb.org/t/p/w500/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
+      "description": "Ted Kaczynski, un jeune prodige qui intègre Harvard à 16 ans avant de basculer dans le terrorisme. Soumis à des expériences psychologiques discutables menées par le docteur Henry Murray, le passé tourmenté de Kaczynski refait surface des décennies plus tard, lorsque la traque d'Unabomber menée par l'agente du FBI Joanne Miller met en lumière les conséquences terrifiantes de l'ambition et de l'isolement.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1375441",
+      "type": "movie",
+      "name": "Primetime",
+      "poster": "https://image.tmdb.org/t/p/w500/rhF8JALH8wrxKtXSCAB7a09tWsc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
+      "description": "Chris Hansen présente l'émission policière « To Catch a Predator ». Diffusée sur NBC Dateline, cette émission tente de filmer des pédophiles présumés avec l'aide des forces de l'ordre et d'une équipe d'appâts se faisant passer pour des mineurs sur Internet. En 2006, Hansen est sur le point de révolutionner le monde de la télévision.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:977942",
+      "type": "movie",
+      "name": "The Uprising",
+      "poster": "https://image.tmdb.org/t/p/w500/ymUS8HTc7ctfdSYC6bmEokSKisa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/y0reRTsewsPh0ePtgvDeLIsb5Wk.jpg",
+      "description": "Lors de la révolte des paysans anglais de 1381, l'humble Wat Tyler s'élève à la tête de la résistance contre le jeune roi Richard II. À la tête d'une armée de citoyens ordinaires, il affronte les troupes de la Couronne dans une lutte pour la justice et la survie. Ses actions font de lui un symbole légendaire de la résistance.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:860508",
+      "type": "movie",
+      "name": "The Whisper Man",
+      "poster": "https://image.tmdb.org/t/p/w500/pSsX2LnGzyfHR9RioDEiLrPy5wa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uauoVKKCkNA9iWjgJCL8TdSfLf5.jpg",
+      "description": "Lorsque son jeune fils disparaît, un veuf se tourne vers son père avec qui il est brouillé, un policier à la retraite qui a autrefois arrêté le tueur en série lié à l'affaire.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1516698",
+      "type": "movie",
+      "name": "The Last Sunrise",
+      "poster": "https://image.tmdb.org/t/p/w500/myJdCnJEsFsMmjKhKopQ32lkcP3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zFCWfU2ViMIm38G1W8UsnSpqmWn.jpg",
+      "description": "L'histoire de Ry, une étudiante atteinte d'une maladie chronique qui passe l'été à Majorque avec sa mère. Alors qu'elle tombe amoureuse de Julián et commence à profiter du moment présent, l'aggravation de son état de santé et des secrets de famille menacent de tout gâcher avant la fin de l'été.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1504358",
+      "type": "movie",
+      "name": "Don't Say Good Luck",
+      "poster": "https://image.tmdb.org/t/p/w500/dgTKahWonzVLeN8Lm22WR2S7D0A.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yzdMGn8IRHSGuV8AIzw19wkRU2W.jpg",
+      "description": "Alors qu'elle s'apprête à briller dans le rôle principal de la comédie musicale de son lycée, Sophie Birenbaum se retrouve soudain confrontée à de graves problèmes familiaux.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1493400",
+      "type": "movie",
+      "name": "Camp Rock 3",
+      "poster": "https://image.tmdb.org/t/p/w500/9oKGprrXuvXb4wsIyzoQV9czgn3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vJb3fniB8E0JnSMr1tDyIsb6gPi.jpg",
+      "description": "Le groupe Connect 3 perd sa première partie pour une tournée de concerts très attendue. Le groupe retourne alors à son cher Camp Rock pour y dénicher la prochaine grande révélation musicale. Alors que les campeurs rivalisent pour avoir la chance d’ouvrir pour leur groupe préféré, les tensions montent, les amitiés sont mises à l’épreuve, et des alliances, des révélations et des romances inattendues se forment.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1124142",
+      "type": "movie",
+      "name": "Oklahoma Honey",
+      "poster": "https://image.tmdb.org/t/p/w500/6YCH9yUVO9Fh23WIOORl6JmCpOo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nBSlvQrDX60rmngwcxMeMq33I9m.jpg",
+      "description": "Au cœur des terres reculées de l’Oklahoma rural, Amziah King, personnage charismatique au talent musical hors du commun, veille sur une bande de marginaux passionnés de bluegrass tout en supervisant la plus importante exploitation apicole de la région. Lorsque sa fille adoptive, dont il était éloigné depuis des années, réapparaît soudainement, Amziah y voit l’occasion de renouer les liens et de bâtir avec elle une entreprise familiale. Mais le monde du miel est sans pitié, et les rivaux d’Amziah menacent de détruire tout ce qu’il a construit.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1329016",
+      "type": "movie",
+      "name": "Tony",
+      "poster": "https://image.tmdb.org/t/p/w500/zsisvReIrSIUPS3JXawt1ib9JDS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uQvz6NdyhoWE6dMurFn0BriLIv9.jpg",
+      "description": "À l'âge de 19 ans, Anthony Bourdain se rend à Provincetown et se retrouve plongé dans l'univers chaotique des coulisses d'un restaurant, marquant ainsi le début d'un été qui va bouleverser le cours de sa vie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1468683",
+      "type": "movie",
+      "name": "Heartstopper Forever",
+      "poster": "https://image.tmdb.org/t/p/w500/r4lVJVO1BeBb11cBcXBdbHc9e9k.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wG6yUcgv4xaj64KX7SSPEwBGXW0.jpg",
+      "description": "C'est la rentrée pour la bande de Truham-Higgs. Alors que la relation entre Nick et Charlie évolue, l'heure est venue de penser à ce qui les attend après le lycée.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1308767",
+      "type": "movie",
+      "name": "Young Washington",
+      "poster": "https://image.tmdb.org/t/p/w500/6CdoTKnRQHJkjRGxTefFGkPQplB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mj3RFamNUleZB94zMWgGnJkQCAH.jpg",
+      "description": "Biopic sur George Washington, l'un des Pères fondateurs des États-Unis par les Américains.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:950028",
+      "type": "movie",
+      "name": "L'Invitation",
+      "poster": "https://image.tmdb.org/t/p/w500/vpMsWT25ITYeYLiUb2HFU9rfzy4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg",
+      "description": "Le mariage de Joe et Angela ne tient plus qu’à un fil. Lorsqu’ils invitent leurs énigmatiques voisins à souper, la soirée prend une tournure inattendue. Est-ce que ce sera l’étincelle qui ravivera la flamme de leur couple, ou le feu qui le réduira en cendres?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1560520",
+      "type": "movie",
+      "name": "Batman Knightfall - Partie 1",
+      "poster": "https://image.tmdb.org/t/p/w500/8hsSCYpO5XFSAVnn70YehKslgFt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/caBIySpwuFi2i7ynvHIlnxJLOdN.jpg",
+      "description": "L'asile d'Arkham a été détruit et ses détenus se déchaînent sur Gotham City. Alors que Batman se lance dans une course contre la montre pour appréhender certains de ses pires ennemis, il est poussé au bout de ses limites physiques et mentales et se retrouve confronté à une nouvelle menace : l'homme appelé Bane !",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:614945",
+      "type": "movie",
+      "name": "Si tu m'écoutes",
+      "poster": "https://image.tmdb.org/t/p/w500/gqnv5448y3R5KAelvhapSKtiU5z.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2WU6Y6aonzD6uAaCmNnEFlesxxJ.jpg",
+      "description": "Les confessions hilarantes qu'une jeune femme croit envoyer par message vocal à sa sœur décédée finissent sur le répondeur d'un inconnu, qui tombe sous le charme à distance.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1397485",
+      "type": "movie",
+      "name": "Girls Like Girls",
+      "poster": "https://image.tmdb.org/t/p/w500/gbP30EOIwUW0HZY9BwQMTRrk8uX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hSdK33Mjsdfb8TpoUTI3A3OE3RO.jpg",
+      "description": "Coley, une jeune fille de 17 ans originaire de la campagne de l'Oregon, explore son intimité après le décès de sa mère. Rencontrer Sonya éveille de nouveaux sentiments, mais les doutes sur elle-même les empêchent de se connecter.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1284465",
+      "type": "movie",
+      "name": "On l'appelait Robin des Bois",
+      "poster": "https://image.tmdb.org/t/p/w500/7MEcMhm889D8zIDINnBKOYNiSg1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lh3BDkmWJh998n4fQcHYcVi7dpm.jpg",
+      "description": "Hanté par son passé après une vie de crimes et de violence, Robin des Bois est laissé pour mort à l’issue d’un combat qu’il pensait être le dernier. Recueilli par une femme mystérieuse, il se voit offrir une ultime chance de rédemption…",
+      "releaseInfo": "2026"
+    }
+  ]
+}

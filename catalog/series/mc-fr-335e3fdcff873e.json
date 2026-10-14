@@ -1,0 +1,54 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:98410",
+      "type": "series",
+      "name": "Sœurs de poids",
+      "poster": "https://image.tmdb.org/t/p/w500/e6TkxFK6wxirZDRy8DHsFW63uAL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pwqOrFWZBo2h9YNeorLh4dydRYM.jpg",
+      "description": "450 kg à elles-deux, les sœurs Slaton tentent de perdre assez de poids pour être éligibles à une chirurgie bariatrique et réaliser leur rêve.",
+      "releaseInfo": "2020"
+    },
+    {
+      "id": "tmdb:90046",
+      "type": "series",
+      "name": "90 Day Fiancé: The Other Way",
+      "poster": "https://image.tmdb.org/t/p/w500/jw4KDjNmpBnMd7fEjbz9qTUmKJS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9jmxvWOt5xTjrJ03FNmViZCuZ5f.jpg",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:291934",
+      "type": "series",
+      "name": "Colocs de poids",
+      "poster": "https://image.tmdb.org/t/p/w500/mQmLAmmFmnXemv9a8kOwp6HV6ZG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6j2Bz7MnhdIkg99okKvdxcFkCHu.jpg",
+      "description": "Nesha et Jaz, des colocataires XXL, affrontent la vie, l'amour et la perte de poids avec humour et avec le cœur. Mais les obstacles sont nombreux.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:290564",
+      "type": "series",
+      "name": "90 Day: Hunt for Love",
+      "poster": "https://image.tmdb.org/t/p/w500/8NvtsEjPYme4d2PpPA5f8QIXsWc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/u33XkP4bARiOCW72AvrQU2MT6ls.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:292465",
+      "type": "series",
+      "name": "90 Day: Hunt For Love Between the Sheets",
+      "poster": "https://image.tmdb.org/t/p/w500/eibuSUmzPPBTOiE6aclFBcRgMjs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kT8BEzHOMhus0lFDi0UrWUJLw93.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:332589",
+      "type": "series",
+      "name": "ER: Caught On Camera",
+      "poster": "https://image.tmdb.org/t/p/w500/aCLyL84oYYCGSju3a8vwH62RZPj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eRwpdLkiqisZoMsq2kDobMfc9IH.jpg",
+      "releaseInfo": "2026"
+    }
+  ]
+}

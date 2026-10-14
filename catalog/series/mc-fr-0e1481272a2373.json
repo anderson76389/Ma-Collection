@@ -1,0 +1,181 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:275102",
+      "type": "series",
+      "name": "The Scandal",
+      "poster": "https://image.tmdb.org/t/p/w500/8ra17h8Z3NX14qdWaOKn0scURJR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uc1p1PEbEMpdIHqnU9TESNC6Jhp.jpg",
+      "description": "Durant la période Joseon, une proposition secrète éveille les désirs d'une aristocrate talentueuse, d'un séducteur notoire et d'une jeune femme naïve prise au piège d'un jeu cruel.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:305644",
+      "type": "series",
+      "name": "Quatre mains, deux sonates",
+      "poster": "https://image.tmdb.org/t/p/w500/nzghhjtKVX1n7DIMhTuQrHqeXdQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fYL4I6cezb06BHhQlrNjNhy7jhf.jpg",
+      "description": "Kang Bi-o, prodige du piano au lycée, excelle constamment en études et en virtuosité pianistique. Considéré comme une future icône de la musique classique, promis à un brillant avenir dans les plus grands concours internationaux, sa carrière bascule lorsqu'il rencontre un rival inattendu : Choi Jeong-yo. Pianiste au talent inné, Jeong-yo a renoncé à son don exceptionnel suite à une enfance difficile. Son admission soudaine au lycée des arts de Corée le met face à Bi-o, le pianiste même qui a ravivé sa passion pour le piano. Jeong-yo est alors contraint de se confronter à ce don qu'il avait autrefois abandonné, et une amitié se noue entre eux.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:321984",
+      "type": "series",
+      "name": "하절기",
+      "poster": "https://image.tmdb.org/t/p/w500/5b1cq90S2ZuwQvXUS5bBynspojq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bBtRXEEXVT8aVqpa2tr4dm7wvWP.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:290193",
+      "type": "series",
+      "name": "Comme un rat",
+      "poster": "https://image.tmdb.org/t/p/w500/7J2jPfh45mOyXTiycPpfoiYQAfv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3bHz9dYSZ5XDxY0zDaBpYgUOhE2.jpg",
+      "description": "Un écrivain reclus découvre à son réveil que son identité a été volée. Il doit alors s'allier avec un usurier impitoyable pour traquer le Rat, l'inconnu qui a saccagé sa vie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:291496",
+      "type": "series",
+      "name": "Our Sticky Love",
+      "poster": "https://image.tmdb.org/t/p/w500/ny8zYj40mWGTgKJi1a8hjNFUj9n.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mp2AFsWsuyxCzenJh3DTKw7z4jG.jpg",
+      "description": "Une ambitieuse procureure perd la mémoire et emménage avec un entraîneur de boxe qui prétend être son petit ami... Cette étrange situation laissera-t-elle place à l'amour ?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:296140",
+      "type": "series",
+      "name": "My Bias, My Boss",
+      "poster": "https://image.tmdb.org/t/p/w500/b5jBoSQ7CW1zDJURuctD30mATuO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eBD46F44qKGPZiRLffO4q3JF8Hc.jpg",
+      "description": "Une fan inconditionnelle décroche un poste dans une entreprise de mode, pour découvrir peu après que celle-ci a été cofondée par son idole absolue. Bien décidée à rester professionnelle, elle dissimule son identité de fan, mais se laisse rapidement déstabiliser par le PDG de l’entreprise, un véritable bourreau de travail. Alors que des sentiments amoureux secrets et non réciproques ainsi que des difficultés personnelles soigneusement cachées viennent compliquer les relations entre les trois protagonistes, elle se retrouve tiraillée entre son obsession de toujours et une nouvelle relation aussi inattendue que troublante.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:294095",
+      "type": "series",
+      "name": "A Bona Fide Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/snVma1wanEn9p4hWgQxZ211vQdG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/j9AqsMJxuq7NEYJX4Q1vSfKb5CG.jpg",
+      "description": "Une mère de famille apparemment ordinaire mène secrètement une double vie : elle est en réalité une tireuse d’élite légendaire qui rend justice là où la loi échoue. Après trois années de retraite, elle reprend du service et doit désormais jongler entre la protection de sa famille et l’élimination de dangereux criminels, tandis qu’un journaliste déterminé et un détective tenace se rapprochent dangereusement de son identité secrète.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:298610",
+      "type": "series",
+      "name": "Spooky in Love",
+      "poster": "https://image.tmdb.org/t/p/w500/sFFVXWLH2zmNFuk8NPLt0YBsJ3K.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/p9tpGftvG18M5y5wsBmPrQpVBsd.jpg",
+      "description": "Découvrant qu'un simple contact fait d'eux un duo étrangement efficace, une héritière capable de voir les fantômes et un procureur coopèrent pour élucider des meurtres non résolus.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:279323",
+      "type": "series",
+      "name": "Le Palais de l'est",
+      "poster": "https://image.tmdb.org/t/p/w500/h7KGDi71fnpRwvJsif9UtZo2lZH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8PHBAdPyfIwS5W6cfKLhItEb875.jpg",
+      "description": "Sur ordre du roi, un visiteur du monde des esprits et une dame de la cour à l'écoute des morts entrent dans le Palais de l'est. Perceront-ils ses sombres secrets ?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:301412",
+      "type": "series",
+      "name": "Dream to You",
+      "poster": "https://image.tmdb.org/t/p/w500/6Xo53LDGp8QYc8gqEFyoAvnwciX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5AhL7NKa8UC6QOyzKiDohUM9VYT.jpg",
+      "description": "Rêvant de devenir cinéaste, une lycéenne passionnée délaisse toutes ses obligations pour réaliser des courts-métrages, inspirant ainsi un camarade de classe studieux mais dépourvu de passion. Leur profonde complicité finit par se transformer en histoire d’amour, mais ils sont brutalement séparés lorsque le jeune homme est contraint de partir vivre à l’étranger. Des années plus tard, alors qu’ils ont tous deux atteint la trentaine, leurs vies se sont complètement inversées : elle est devenue une journaliste de télévision désabusée et en difficulté, tandis que lui s’est imposé comme un réalisateur primé. Lorsqu’une rencontre fortuite les réunit soudainement, il décide de l’aider à retrouver l’étincelle qu’elle a perdue. Mais elle nourrit toujours un profond ressentiment envers lui, à cause de sa disparition soudaine des années auparavant.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:300727",
+      "type": "series",
+      "name": "Syndic de choc",
+      "poster": "https://image.tmdb.org/t/p/w500/wR7y2h0ccbaTnU5KpUjKIesflng.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/stJcZWrpfT2DjY0K261Q2FpxUkS.jpg",
+      "description": "Un ancien gangster se présente à la présidence de l'association des résidents d'un immeuble afin de mettre la main sur l'argent caché de la copropriété. Cependant, il découvre involontairement la corruption qui règne au sein du complexe. Au fil de ses investigations, il devient peu à peu un héros local.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:300954",
+      "type": "series",
+      "name": "The Husband",
+      "poster": "https://image.tmdb.org/t/p/w500/tC7y1Ut98xH8Ovs1KhxRPMkwEmN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lfTUwBiSyCVcvBPAMzSOYGUgr2c.jpg",
+      "description": "Le mariage de Taeju et Seyun est au bord du gouffre. Quand Taeju, ivre, fait une remarque de trop, sa femme est enlevée et tout bascule. Devenu le principal suspect dans l'affaire, Taeju doit non seulement échapper à la police, mais aussi secourir seul sa femme. Pour la sauver, il va tout risquer.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:296206",
+      "type": "series",
+      "name": "Agent Kim Reactivated",
+      "poster": "https://image.tmdb.org/t/p/w500/eKJNWq4akdrviR9qEF6xPhzKQU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/g1LJLlmWP74zv9yXKEXm7g9p10O.jpg",
+      "description": "Quand sa fille disparaît, un père en apparence sans histoire retrouve ses qualités d'agent secret pour la retrouver — et s'attire des ennuis.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:286360",
+      "type": "series",
+      "name": "Le Garçon du dernier rang",
+      "poster": "https://image.tmdb.org/t/p/w500/sdRa9afHM4ULqZiJ6e29zKSbz0e.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oBJ6dZ6A1tY1O94RmWnJkkQVbLz.jpg",
+      "description": "Un professeur de littérature coréenne à l'université est rongé depuis sa jeunesse de ne pas avoir réussi une carrière d'écrivain. Il va être surpris par les talents d'écriture d'un étudiant en ingénierie qui assiste à ses cours. Son intérêt pour le jeune homme va raviver sa passion pour l'écriture, mais aussi développer une obsession pour l'œuvre de ce dernier.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:322055",
+      "type": "series",
+      "name": "검사실의 제안",
+      "poster": "https://image.tmdb.org/t/p/w500/fxEfx2Tt98l4oW2KI0GU3Q0qgnB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/feISh3qoREwIPWbSaLqqumbmh7m.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:289763",
+      "type": "series",
+      "name": "À demain au bureau !",
+      "poster": "https://image.tmdb.org/t/p/w500/pUeTFsH00wy4MwRLDMERc4Tjm9N.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zftF4KDGuhAGIA50bywcCXPjz5f.jpg",
+      "description": "Cha Ji-yoon, employée de bureau depuis sept ans, est malheureuse au travail et en amour. Et voilà qu'elle croise le chemin de Kang Si-woo, un patron au cynisme redoutable. Contre toute attente, elle retrouve son sourire en découvrant la gentillesse qui se cache derrière ses mots abrupts. Au fil du quotidien, ils apprennent à se soutenir jusqu'à devenir indispensables l'un à l'autre.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:321559",
+      "type": "series",
+      "name": "거짓말이 사는 집",
+      "poster": "https://image.tmdb.org/t/p/w500/8GaDUt2mY7L2fZeawEbhjxO1Vc2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xiCfjMXdxVXxizYSgDNH84BZcbt.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:276161",
+      "type": "series",
+      "name": "Que ça vous serve de leçon !",
+      "poster": "https://image.tmdb.org/t/p/w500/6FN0FAhkMeGmU3xAn4D1FmMJvtZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vyG93jhmPL7tBIhRtCLa5mdBKob.jpg",
+      "description": "Quand il n'y a plus de respect à l'école, des inspecteurs d'un certain type viennent mettre de l'ordre en rappelant sans détour les principes de vie absents des manuels scolaires.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:287009",
+      "type": "series",
+      "name": "Doctor on the Edge",
+      "poster": "https://image.tmdb.org/t/p/w500/gBMouxOXSMyV7FIroOh9pfaB2JA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7KpvkMnbRsyrAlnrZpbnEWC42AE.jpg",
+      "description": "Do Jiui, chirurgien plasticien, est promis à un brillant avenir, lorsqu'une affectation comme médecin de santé publique sur l'île isolée de Pyeondongdo vient bouleverser sa vie. Pour Jiui, cet endroit perdu au milieu de l'océan est plus qu'un simple exil. Hanté par un traumatisme, la mer est pour lui une source de terreur, une prison à ciel ouvert. Entre les habitants indiscrets et les insectes qui l'assaillent de toutes parts, la vie sur l'île est un véritable enfer pour ce citadin. C'est là qu'il rencontre l'infirmière mystérieuse, Yuk Hari. Derrière un doux sourire lourd de secrets, elle semble toujours là lorsque la phobie de Jiui refait surface. Alors que leurs chemins ne cessent de se croiser, Jiui parviendra-t-il à surmonter ses peurs et à quitter l'île ?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:299365",
+      "type": "series",
+      "name": "Reborn Rookie",
+      "poster": "https://image.tmdb.org/t/p/w500/ryoklqf5Xi76b1Cqb0h4I7zL6qa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nxOsQE8UrifZpQ9hcZ7xjMHEbmn.jpg",
+      "description": "Après avoir été trahi par ses enfants, le président d'un puissant conglomérat se réveille dans le corps d'un jeune footballeur ; il met alors à profit son génie des affaires et son physique athlétique pour se venger de sa famille.",
+      "releaseInfo": "2026"
+    }
+  ]
+}

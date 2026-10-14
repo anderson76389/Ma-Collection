@@ -1,0 +1,20 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:320315",
+      "type": "series",
+      "name": "Guardián de mi vida",
+      "poster": "https://image.tmdb.org/t/p/w500/ppdrvfUyukqtFkl1HY7x6qHd7st.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gbOfqkrDx2yd6w5U3tVySnfmygk.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:300258",
+      "type": "series",
+      "name": "Los hilos del pasado",
+      "poster": "https://image.tmdb.org/t/p/w500/fzjzqVKnSPcYprVHFbh8zECC8BV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mnfkbzWLERbmM89plThKpbltZIo.jpg",
+      "releaseInfo": "2025"
+    }
+  ]
+}

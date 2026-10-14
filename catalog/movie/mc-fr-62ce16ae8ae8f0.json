@@ -1,0 +1,174 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1599191",
+      "type": "movie",
+      "name": "仙逆剧场版：弑仙之战",
+      "poster": "https://image.tmdb.org/t/p/w500/cpgLuRAT8SW7YiZaBYUGZ43GiLL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rJT7ARv4G2sr1uTZnBEUSigg1hf.jpg",
+      "description": "L'intrigue plonge le protagoniste Wang Lin au cœur d'une crise majeure au sein du Royaume Céleste du Tonnerre en pleine destruction. Piégé et traqué sans relâche par des cultivateurs de haut niveau, il se retrouve confronté à un ennemi redoutable, le terrifiant Ancêtre de Sang. Refusant de se soumettre à un destin tragique face à cette puissance écrasante, le jeune cultivateur décide de lancer une contre-attaque désespérée.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1591675",
+      "type": "movie",
+      "name": "ルックバック",
+      "poster": "https://image.tmdb.org/t/p/w500/6eXDHPwPDTZTgf4wuGIP49bxxJV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ceOdqFmZy5kKImbGThuDHuifGpm.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1391021",
+      "type": "movie",
+      "name": "欢迎来龙餐馆",
+      "poster": "https://image.tmdb.org/t/p/w500/2OJX7udqqpk5c82pXXdL2hnny0D.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zr7om0GOLOcLo7SXMmNEG5rz6de.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1679730",
+      "type": "movie",
+      "name": "L'Héroïne au ruban",
+      "poster": "https://image.tmdb.org/t/p/w500/bJpeZXtrS2ZrOUKfwQ81s9a0GSo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8SEb8rEZ9DYqBT7U3FI5nBOS1lV.jpg",
+      "description": "Quand le terrible Nergal détruit son royaume, la princesse Sapphire renaît sous les traits de l'Héroïne au ruban et lutte pour éviter à son nouveau pays le même sort sinistre.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1748007",
+      "type": "movie",
+      "name": "牛来",
+      "poster": "https://image.tmdb.org/t/p/w500/eum2kcqFr665SgnFulgO7b2lRwW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zByhNXeL7JpyNgLETSZipb8NKxr.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1586876",
+      "type": "movie",
+      "name": "映画ちいかわ 人魚の島のひみつ",
+      "poster": "https://image.tmdb.org/t/p/w500/e8CPLRiIMes9RGxaW5GnGP2XPDg.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rVOll8XOde5BuIF4tGO1q0pfngQ.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1541125",
+      "type": "movie",
+      "name": "年会不能停！2",
+      "poster": "https://image.tmdb.org/t/p/w500/pD4ItmNxCXcXjAX4KNQLQCMHDjb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/x8FmUv8INF7E5fkP2Jm9KLfk87Q.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1628071",
+      "type": "movie",
+      "name": "Ip Man : Kung Fu Legend",
+      "poster": "https://image.tmdb.org/t/p/w500/qU4xOstFQo3mZNfoKEWehA6t8Un.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6HBbzW5D7StUBRi0yO6ZEq9rNB5.jpg",
+      "description": "Les jeunes années du maître des arts martiaux, Wing Chun.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1058424",
+      "type": "movie",
+      "name": "Hope",
+      "poster": "https://image.tmdb.org/t/p/w500/tGdFDoA9qyt0t6Qr9MFnOl8Z2Jz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ujUwzNV8ZkOzZonvhhHsc9KOKDf.jpg",
+      "description": "Alors que les secours sont mobilisés ailleurs et que toute communication est interrompue, les habitants de Hope doivent faire face seuls à une menace grandissante. Tandis que certains tentent de protéger le village, d’autres s’aventurent dans la montagne… mais deviennent à leur tour des proies. L’ignorance et la peur déclenchent une spirale incontrôlable aux conséquences dévastatrices.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1491920",
+      "type": "movie",
+      "name": "Kung Fu Soccer",
+      "poster": "https://image.tmdb.org/t/p/w500/5skHR1T8URubqb30fk14njyPcy4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yj6bku4UhatfkcV22Q4DY1ynj04.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1633056",
+      "type": "movie",
+      "name": "八仙！",
+      "poster": "https://image.tmdb.org/t/p/w500/ds5F1KKB1co55NXqS5rpioWA4z1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lMK3FnMfQ9O3DiC7hi4J2XBzNf.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1659389",
+      "type": "movie",
+      "name": "One Piece : Heroines",
+      "poster": "https://image.tmdb.org/t/p/w500/hbRXvcckbdKMhCea1JalPnSQQge.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hUkFUI5wKYAihLOks7RVU0TfzUS.jpg",
+      "description": "Des chaussures défectueuses empêchent Nami d'arrêter un vol. Furieuse, elle se rend à la boutique de son achat pour se les faire rembourser. Cependant, le directeur artistique de la griffe offre de lui fabriquer une paire flambant neuve à une condition : qu'elle accepte de les porter à son prochain défilé de mode.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1353926",
+      "type": "movie",
+      "name": "特立独行",
+      "poster": "https://image.tmdb.org/t/p/w500/dWtKXfN97AMW5n3S6QoUVUMCU2S.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kTp2i00tjARpsI6wTkU4Q8ArGaX.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1383154",
+      "type": "movie",
+      "name": "눈동자",
+      "poster": "https://image.tmdb.org/t/p/w500/jOD0Z78Jo0njtJu1hlC27LEs78F.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/75S750SAsppSiQc0S3EuSH0K77O.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1620313",
+      "type": "movie",
+      "name": "Le Château d’Arioka",
+      "poster": "https://image.tmdb.org/t/p/w500/q0CWp4udY4AxuxlmebuIRNT3lyW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pPThPhqsh5bKwJoZDlWd67qCHcc.jpg",
+      "description": "Dans le Japon féodal, le seigneur Murashige se retranche dans son château et y fait prisonnier son ennemi, le stratège Kanbei, qu’il décide d’épargner. Au fil des saisons, des crimes inexpliqués viennent troubler l’ordre des lieux; Murashige mène l’enquête, mais se heurte chaque fois à une pièce manquante que seul Kanbei, depuis sa cellule, semble capable de déchiffrer. Entre méfiance et emprise, leur relation se transforme, tandis que de nouveaux meurtres surviennent et que Murashige perd peu à peu le contrôle de ce qui se joue dans son propre château…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1476614",
+      "type": "movie",
+      "name": "Soudain",
+      "poster": "https://image.tmdb.org/t/p/w500/bfWVYzLQnykGlDfnnduqLtofRAJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/40CATdVXthW3rHFM8JkoCz7uh88.jpg",
+      "description": "Directrice d'un établissement pour personnes âgées, Marie-Lou tente d'y instaurer une philosophie de soins innovante basée sur l'écoute et la dignité des résidents, malgré la réticence d’une partie de ses équipes. Sa rencontre avec Mari, une metteuse en scène japonaise qui se bat contre un cancer, va bouleverser sa trajectoire. En nouant une amitié profonde, les deux femmes engagent ensemble un combat pour “rendre possible l’impossible”.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1305672",
+      "type": "movie",
+      "name": "抓特务",
+      "poster": "https://image.tmdb.org/t/p/w500/ozQe6oNmGHvwk2zdCQilMikUTBZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8Jjl0CUOt2T6Wf2hYcii4pd0SDR.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1451344",
+      "type": "movie",
+      "name": "Mes hommes d'action",
+      "poster": "https://image.tmdb.org/t/p/w500/A01Ca3GfoUZ192ebgHHj6MYOG35.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/doasZ6ROBhD0xIRsvAFdTeZsKhp.jpg",
+      "description": "Un policier fait équipe avec le nouveau mari de son ex-femme pour traquer ses ravisseurs. Ces drôles d'alliés passeront-ils outre leurs différends le temps d'un sauvetage déjanté ?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1280738",
+      "type": "movie",
+      "name": "The Furious",
+      "poster": "https://image.tmdb.org/t/p/w500/6AOetubScykxJGRxNeNkMt1ra44.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/i0eR9O1FnCgBm1cH8WwqxGbAXMS.jpg",
+      "description": "Après l’enlèvement de sa fille par un réseau criminel et face à l’inaction de la police, Wang Wei se lance dans une traque implacable pour la retrouver. Son seul allié, Navin, est un journaliste tenace dont la femme a mystérieusement disparu. Unis par un même désir de vengeance, ces deux hommes que tout oppose affrontent les ravisseurs dans un face-à-face explosif mêlant arts martiaux et justice sans merci.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1396749",
+      "type": "movie",
+      "name": "Wild Sing",
+      "poster": "https://image.tmdb.org/t/p/w500/s4IUDzLZJb4CosgEXcmouY32Jfg.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wuqlB1rgHlGKf33rMu3QpRzb15o.jpg",
+      "description": "Vingt ans après un scandale qui l'a fait imploser, un célèbre trio de K-pop des années 2000 se reforme pour un concert unique… à condition de surmonter les ennuis qui s'accumulent.",
+      "releaseInfo": "2026"
+    }
+  ]
+}

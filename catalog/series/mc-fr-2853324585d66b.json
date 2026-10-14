@@ -1,0 +1,31 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:4656",
+      "type": "series",
+      "name": "WWE Raw",
+      "poster": "https://image.tmdb.org/t/p/w500/fstEe6RsyNyPUnMwNcL20iNl0nE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ykWWT8FAChBffNxcDzoJMCK9LBb.jpg",
+      "description": "Chaque semaine, les supertars de Raw s'affrontent dans le ring mais également en dehors. Combats acharnés, prises impressionnantes, les catcheurs sont prêts à tout pour remporter la victoire. Depuis le 1000e épisode du show, diffusé le 23 juillet 2012, WWE Raw passe à un format de trois heures au lieu de deux, format auparavant réservé aux épisodes spéciaux.",
+      "releaseInfo": "1993"
+    },
+    {
+      "id": "tmdb:31991",
+      "type": "series",
+      "name": "WWE NXT",
+      "poster": "https://image.tmdb.org/t/p/w500/9nLBX5Bf7PW4FAaWJLXpFFdeTlV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/YaQ8YhHYpLkH3e7FRwBkcGoJhS.jpg",
+      "description": "WWE NXT est une émission et une académie de catch de la World Wrestling Entertainment (WWE), devenue depuis le 20 juin 2012, la troisième division de la WWE avec Raw et SmackDown. Cette nouvelle division met en avant des nouveaux catcheurs, d'abord sélectionnés dans l'ancien club-école de la WWE, la Florida Championship Wrestling, puis sur la scène indépendante internationale.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:1549",
+      "type": "series",
+      "name": "WWE SmackDown",
+      "poster": "https://image.tmdb.org/t/p/w500/oOiGZPiQUaIfajBSZMqC9pGUqsy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mWIyoSdVQxdr1bA423tObJwJSR.jpg",
+      "description": "WWE SmackDown (appelé aussi WWE SmackDown Live) est une émission de télévision de catch et de divertissement sportif produite par la WWE. Depuis la création de la WWE Brand Extension en 2002, SmackDown était une division distincte de la WWE avec son propre roster (voir aussi WWE draft), et était l'équivalent de WWE Raw (et ECW de 2006 à 2010) jusqu'à ce que la Brand Extension soit supprimée par la WWE en 2011.",
+      "releaseInfo": "1999"
+    }
+  ]
+}

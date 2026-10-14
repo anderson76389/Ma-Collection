@@ -1,0 +1,55 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:2370",
+      "type": "series",
+      "name": "Hell's Kitchen",
+      "poster": "https://image.tmdb.org/t/p/w500/shOVFku8daIGRpgjTdMZBxUAvsV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kitfuCa2TqX6oY5HvdFRjMMaLwc.jpg",
+      "description": "Hell's Kitchen (en français la cuisine de l'enfer ou cuisine infernale) est une compétition américaine  de cuisine télévisée réelle basée sur la série britannique du même nom diffusée sur Fox. Elle est présentée par Gordon Ramsay. Deux équipes de chefs concourent pour un poste de chef dans un restaurant…",
+      "releaseInfo": "2005"
+    },
+    {
+      "id": "tmdb:30745",
+      "type": "series",
+      "name": "Ça va chauffer ! Australie",
+      "poster": "https://image.tmdb.org/t/p/w500/tzbSNgNrquLhXpR0M0jihkEFM0m.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3VsO6TVUYN6aeUmrNIXqhuX902t.jpg",
+      "description": "Des chefs cuisiniers amateurs d’Australie transforment leur maison en restaurant l’espace d’un soir dans l’espoir d’impressionner les juges avec les meilleurs plats cuisinés maison.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:300594",
+      "type": "series",
+      "name": "Is It Cake? Halloween",
+      "poster": "https://image.tmdb.org/t/p/w500/7CJCFVmWfza0ix3VZO9N37mEeGm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/h9NNQwVio2OoxtmhE1RgZMrnR0E.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:74676",
+      "type": "series",
+      "name": "Halloween Baking Championship",
+      "poster": "https://image.tmdb.org/t/p/w500/tAVW4mcMTBEqFOaA3VRs5QHAbFy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uA6HxWmm0Or3QZJKw69OFOcnuHG.jpg",
+      "description": "Halloween Baking Championship est une émission de compétition de cuisine américaine. C'est un programme saisonnier qui ne dure que quelques semaines et vise à couronner le meilleur pâtissier, auteur de desserts effrayants pendant la période d'Halloween. Durant chaque épisode de deux rounds, un pâtissier est éliminé sauf dans le dernier épisode de la saison. Dans la finale, les quatre derniers concurrents s'affrontent dans un dernier round. Le gagnant remporte le prix de 25 000 $.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:211201",
+      "type": "series",
+      "name": "Bobby's Triple Threat",
+      "poster": "https://image.tmdb.org/t/p/w500/nRvF9GPYBA6tGRLxKH4HUENfaN1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jY2qk7DTcjURh5Z182zn8yRc5GF.jpg",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:58779",
+      "type": "series",
+      "name": "The Great Australian Bake Off",
+      "poster": "https://image.tmdb.org/t/p/w500/vUMuFzfu2S8juv7ogTqjuanTv2O.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AvnQTAPrwxjhNvQuSfuJPl4Os9U.jpg",
+      "releaseInfo": "2013"
+    }
+  ]
+}

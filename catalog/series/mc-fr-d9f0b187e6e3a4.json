@@ -1,0 +1,184 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:285322",
+      "type": "series",
+      "name": "Below",
+      "poster": "https://image.tmdb.org/t/p/w500/fG6ODXfXVJbIrFxzQv9BhnTomPc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
+      "description": "Lorsqu'une mystérieuse créature marine sème la terreur dans un petit village de Terre-Neuve, un pêcheur endurci et sa famille luttent pour protéger leur communauté très soudée.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:288673",
+      "type": "series",
+      "name": "Carrie",
+      "poster": "https://image.tmdb.org/t/p/w500/dkDeQSeJGSfEBFavomS3LUci2VO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9yCJtipMeDe8uAdSJKvw8BnYfRz.jpg",
+      "description": "Après la mort soudaine et prématurée de son père, Carrie est propulsée dans l'univers impitoyable d'un lycée public et doit faire face à un scandale de harcèlement viral qui secoue sa communauté, à la pression incessante et à la cruauté des réseaux sociaux tandis qu'en parallèle, un mystérieux pouvoir de télékinésie s'éveille en elle.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:298505",
+      "type": "series",
+      "name": "Sorcières Academy",
+      "poster": "https://image.tmdb.org/t/p/w500/a3WtN94ghHX7pV44g2za35ApYDm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mGFtH5pUXDd4hSXUfl8HnHlRWJV.jpg",
+      "description": "Au cœur envoûtant de La Nouvelle-Orléans, suivez trois jeunes sorcières et leurs homologues masculins — des sorciers au charme dangereux — au sein d'un internat de magie d'élite où le pouvoir est une monnaie d'échange, les secrets peuvent être mortels et l'attirance, un risque majeur. Pris entre des guerres surnaturelles ancestrales et des amours interdites, le clan doit décider jusqu'où il est prêt à aller pour protéger sa ville... et se protéger lui-même.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:258165",
+      "type": "series",
+      "name": "À l'est d'Éden",
+      "poster": "https://image.tmdb.org/t/p/w500/ygwE4kbLxKApQoC26Q0DiJQnkMl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/70RZX7kNjA0Qjn6HigB1oMvFJ8R.jpg",
+      "description": "Au début du 20e siècle, une femme d'une indépendance farouche provoque une rupture entre deux frères, lançant une saga qui va s'étendre sur deux générations.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:299939",
+      "type": "series",
+      "name": "Monstre : L'Histoire de Lizzie Borden",
+      "poster": "https://image.tmdb.org/t/p/w500/ruw68QldiWzOjUdKX9hUFT1pjv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gaew60NXUxok3Vmls7gkAT7lYW0.jpg",
+      "description": "Prisonnière d'une cruelle famille victorienne, Lizzie Borden massacre ses parents à la hache dans un crime sanglant qui choque toute une nation.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:273207",
+      "type": "series",
+      "name": "Neagley",
+      "poster": "https://image.tmdb.org/t/p/w500/wltznBj9nVDqlvBWZq37P5zp7ib.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uYOYLFQ4q7asuhdiKXCqGaeAQUH.jpg",
+      "description": "Frances Neagley est une détective privée à Chicago et une ancienne collègue de Jack Reacher au sein de la 110e Unité d'enquêtes spéciales de l'armée. Lorsqu'elle apprend qu'un ami cher de son passé a été tué dans un accident suspect, elle se lance à corps perdu dans une quête de justice.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:300507",
+      "type": "series",
+      "name": "Mal barrée",
+      "poster": "https://image.tmdb.org/t/p/w500/za0iB5FeqXdGWFxaVYlZ2DU2Pvu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lmtTtOjsIBxwKD7LsAD5eeyhq1g.jpg",
+      "description": "Après un scandale familial, Teagan Tao s'installe dans une petite ville et rejoint l'équipe d'aviron masculine d'une école d'élite, où rivalités et attirances s'entremêlent.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:258230",
+      "type": "series",
+      "name": "Portée disparue",
+      "poster": "https://image.tmdb.org/t/p/w500/zXMkaqWinyCbkMSNwhi7htRV0e9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kgaQnDdDaPqvGN7i8LLz1aWJdjP.jpg",
+      "description": "Lorsque Ian Ridley, opérateur des services d'urgence, reçoit un appel affolé d’une adolescente qu’il pense être sa fille disparue, il ne recule devant rien pour la retrouver.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:304842",
+      "type": "series",
+      "name": "The Drop : une saga Snowfall",
+      "poster": "https://image.tmdb.org/t/p/w500/s9eengN2v9ZTwPfFC0LRMoJULk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ycLQYTgWfBq53fIkws0qIQOp62g.jpg",
+      "description": "\"The Drop: A Snowfall Saga\" retrouve Wanda Bell et Leon Simmons de \"Snowfall\" en pleine réinvention dans le Los Angeles des années 90. Alors que les ravages du crack s'estompent, un nouveau jeu émerge : l'essor du rap de la côte Ouest. Convaincue que la musique peut changer la culture américaine, Wanda rassemble une bande de génies hétéroclites pour réaliser leurs rêves. Pour y arriver, elle doit naviguer entre le monde de la musique et les codes de la rue, entraînant ses cousins Lamar et James Kinsey et courtisant Artillery, un rappeur local au sang chaud déjà dans le viseur de la police. Son stage chez l'ex-dealer devenu patron de label Darryl \"DG\" Grant lui ouvre des portes, mais creuse les tensions avec Leon. Ce dernier a juré de quitter la rue pour de bon et cherche la rédemption via son cabinet d'aide juridique gratuit. Ambition, loyauté et survie s'entrechoquent : chacun est prêt à tout risquer pour bâtir un avenir.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:95350",
+      "type": "series",
+      "name": "Lanterns",
+      "poster": "https://image.tmdb.org/t/p/w500/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6gqezQJ2mkm4jreWwLyOZy2Vf6i.jpg",
+      "description": "Deux flics intergalactiques, la nouvelle recrue John Stewart et le légendaire Hal Jordan, sont confrontés à un sombre mystère sur Terre alors qu’ils enquêtent sur un meurtre au fin fond de l’Amérique.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:309798",
+      "type": "series",
+      "name": "Ma brillante carrière",
+      "poster": "https://image.tmdb.org/t/p/w500/quZMr2DHNfsx6YjOuABxGfnt2ko.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5ErhLuuVrxlNa2JiRzXfo0U10uZ.jpg",
+      "description": "Sybylla est une jeune femme résolument moderne qui a pour ambition de devenir écrivaine, alors que sa famille est déterminée à la marier. Animée d'une joie de vivre irrépressible, elle bouscule toutes les conventions de l'Australie de 1900 à la recherche d'une histoire qui lui permettra de s'émanciper par l'écriture. Pour elle, le choix entre l'aventure et le mariage paraît simple… jusqu’à ce qu'elle tombe amoureuse. Sybylla se mariera-t-elle ou risquera-t-elle tout pour vivre de sa plume ?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:298168",
+      "type": "series",
+      "name": "The Shards",
+      "poster": "https://image.tmdb.org/t/p/w500/wP0GdqwVu2g1y3q1KzBXuSrdTvX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AhzF2bkYYybcCT4PnqpoagRGBWJ.jpg",
+      "description": "Dans le Los Angeles des années 80, un groupe de lycéens privilégiés d'un lycée huppé explore son identité, sa sexualité, la jalousie et l'obsession, et découvre les dangers qui se cachent sous la surface de l'adolescence américaine.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:283297",
+      "type": "series",
+      "name": "Sterling Point",
+      "poster": "https://image.tmdb.org/t/p/w500/mhqEXKwIv5wIlG1eih5OQB25vi8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nOWU1NSYQEOXRXcdfZbtJshwRGK.jpg",
+      "description": "Annie Jacobson, 17 ans, découvre qu'elle a hérité d'une île isolée au Canada de la part d'un grand-père qu'elle n'a jamais eu le droit de rencontrer. Quand Annie décide qu'elle veut en savoir plus, elle se retrouve plongée dans un monde de secrets, se forge une amitié inattendue et affronte une histoire familiale complexe qu'elle n'aurait jamais dû découvrir.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:287238",
+      "type": "series",
+      "name": "Furious",
+      "poster": "https://image.tmdb.org/t/p/w500/dUbeseppeo1XBwTLks8qXyS0fiT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iAOPgUlh7inOebFrUFHAjnFRCGS.jpg",
+      "description": "Alice Black, agent du FBI, est à la poursuite d'une mystérieuse tueuse en série, d'un esprit calculateur. Chacune suit son propre chemin vers la justice, et à mesure que leurs vies commencent à s'entremêler, la frontière entre le bien et le mal s'estompe peu à peu.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:277640",
+      "type": "series",
+      "name": "Pompéi : Tom Hiddleston remonte le temps",
+      "poster": "https://image.tmdb.org/t/p/w500/jeH0LZnA5QAKnxzSkpUDqoOvFEJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pSFJys8tIv7mll6Fv1LqMbrWxLt.jpg",
+      "description": "Tom Hiddleston revient sur les dernières heures de la ville dans une nouvelle série documentaire. La star de Loki Tom Hiddleston et le producteur délégué Kevin R. Wright sont réunis dans cette série documentaire inédite qui fusionne images reconstitiuées et investigations et qui transportera les spectateurs dans les dernières heures de l’ancienne cité Romaine peu avant l’éruption historique du Vésuve.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:278624",
+      "type": "series",
+      "name": "Lucky",
+      "poster": "https://image.tmdb.org/t/p/w500/mZD2tsOsW8FTqgS40hOqWic4KkU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mKrhRPB7rMvy0bIU1l1NYhgh1eI.jpg",
+      "description": "Quand un coup de plusieurs millions tourne mal, Lucky, escroc virtuose, prend la fuite pour échapper au FBI et à un trafiquant sans pitié. Elle doit lutter pour sa survie, et pour quitter le métier.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:286709",
+      "type": "series",
+      "name": "The Westies",
+      "poster": "https://image.tmdb.org/t/p/w500/6nNxw6SsbEtSpktVEGdoYDqPH7C.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tT2MwxaST3Fx1Dg4u9v82sDrIu.jpg",
+      "description": "Au début des années 1980, la construction du centre d'exposition Jacob Javitz, sur le territoire des Westies, un gang irlandais particulièrement redouté de Hell’s Kitchen, laisse entrevoir une manne financière. Bien qu’en nette infériorité numérique face aux cinq puissantes familles de la mafia italienne, leur brutalité et leur ruse leur ont permis de se tailler une part du butin, dans un équilibre aussi fragile que temporaire. Mais les tensions internes, entre une jeune génération plus audacieuse et des dirigeants attachés aux vieilles méthodes, menacent d’enflammer la poudrière et de plonger les Westies au cœur d’une enquête du FBI qui ne cesse de gagner en intensité.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:283304",
+      "type": "series",
+      "name": "La Petite Maison dans la prairie",
+      "poster": "https://image.tmdb.org/t/p/w500/y8sgnrz9xXIIAfOcXasjtPTXNw8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fBieUo3SdItUrXZE16YxbpjwXIe.jpg",
+      "description": "La famille Ingalls se construit une nouvelle vie dans l'Ouest américain, où les joies de la nature se mêlent à la lutte pour survivre.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:254420",
+      "type": "series",
+      "name": "Elle",
+      "poster": "https://image.tmdb.org/t/p/w500/cpdy7BM2vvGTriPHSKl3K7jBR4C.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/truh4rtTUdRVYGeT0n17dxvdv41.jpg",
+      "description": "Avant qu'Elle Woods ne se retrouve comme un poisson hors de l'eau à Harvard, nous la découvrons en 1995, nageant dans les eaux tumultueuses du lycée où elle est confrontée à des amitiés compliquées, un amour interdit et des choix vestimentaires discutables. Ce récit inattendu de son adolescence nous montre les expériences qui ont fait d'elle la jeune femme emblématique que le public aime tant.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:278178",
+      "type": "series",
+      "name": "Sur tes traces",
+      "poster": "https://image.tmdb.org/t/p/w500/bqljPIvFYDGUcgyGmtYBegqJMRh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yOna5ZGXrvWO2HdOCKcahx2sCDN.jpg",
+      "description": "Un père de famille innocent est condamné à perpétuité pour le meurtre de son propre fils. Lorsqu'il reçoit la preuve que son fils est peut-être encore en vie, celui-ci est plus que jamais déterminé à s'évader de prison pour découvrir la vérité.",
+      "releaseInfo": "2026"
+    }
+  ]
+}

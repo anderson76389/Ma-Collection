@@ -1,0 +1,167 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:328264",
+      "type": "series",
+      "name": "Michael Palin in the Philippines",
+      "poster": "https://image.tmdb.org/t/p/w500/A6eIRYWt0g8iVvq5eNOh7w7erd2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ydlAsSoDqpwuNIwdAJibQKvMgGD.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:334268",
+      "type": "series",
+      "name": "Forever Home",
+      "poster": "https://image.tmdb.org/t/p/w500/xWzyUs5Jh6BkUStQznWQTLMwaiq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ypYsKfZa5AsvDZrdh6v6Jxe5i4G.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:328804",
+      "type": "series",
+      "name": "Benidorm Is Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/qVI1gpy04j8BN8Gqr5jAsZBmwM3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8ay81eoT2kax44xY89REtxxgUwI.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:326448",
+      "type": "series",
+      "name": "Alexander Armstrong Across America",
+      "poster": "https://image.tmdb.org/t/p/w500/2xj6fSyId0Hlm7wmugn0XRdtky2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zGrp9r54EmfJAJ1kHVaJ5xEkkm6.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:324288",
+      "type": "series",
+      "name": "The Fortune",
+      "poster": "https://image.tmdb.org/t/p/w500/et1W2kn43yEniVSQY0IEB4eB1UX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/srlbEGpNG8zmLap89i7q985TJqt.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:321315",
+      "type": "series",
+      "name": "Major Crimes Unit",
+      "poster": "https://image.tmdb.org/t/p/w500/33x5tDTyUWM4kvqn7D9NaI2AhNq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uRUioWgXuTQMw19dE0Cw6ThUC1R.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:246828",
+      "type": "series",
+      "name": "Trading Places",
+      "poster": "https://image.tmdb.org/t/p/w500/syJ7CKM27f8PGbofWUE0VpdN9gf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7gZqch81zTmU1hQq2KsxCUhpEDT.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:321152",
+      "type": "series",
+      "name": "Number One Fan",
+      "poster": "https://image.tmdb.org/t/p/w500/uhFSX44LJBoc2exwRWUq7q1mZLd.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8TPezCdW5hA2zHdocx9w9afbkED.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:319491",
+      "type": "series",
+      "name": "Egypt With Dan Snow",
+      "poster": "https://image.tmdb.org/t/p/w500/g31ZjOJGMVPNsR7mq6rJgSH0k98.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zGFufI2kwYVfaROklqPzgVa6cO1.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:301370",
+      "type": "series",
+      "name": "Missed Call",
+      "poster": "https://image.tmdb.org/t/p/w500/1JnmMXeaBD4zSAa5Qn6NFA09cBU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wwpvXlYw4MsXl80cqWTA6SyTLjo.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:317782",
+      "type": "series",
+      "name": "China with Ben Fogle",
+      "poster": "https://image.tmdb.org/t/p/w500/lHEDUM0jfb2TijZBIzI94QxNTfV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z4W6kd77cjtng5dRNL0CAaSmyZW.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:307975",
+      "type": "series",
+      "name": "The Imposter",
+      "poster": "https://image.tmdb.org/t/p/w500/ttGUEHHZaX4k16fYMksJ4WprBjM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bENE3TCATnQsFINOskY3sTZ5lSu.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:307852",
+      "type": "series",
+      "name": "Twisted Sisters: Madness and Manslaughter",
+      "poster": "https://image.tmdb.org/t/p/w500/7m6FqWbw7xed11Jcp5Dyjdk9E9B.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/x5W7m4KDVE1gsAU3Ut1x9evEfHU.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:296520",
+      "type": "series",
+      "name": "Cooper & Fry",
+      "poster": "https://image.tmdb.org/t/p/w500/2ZgjxGNRfWZnZhf96L5oCA9D8tW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kgWPwLlDW6Ay8f4jvwybZKA0L9A.jpg",
+      "description": "Située dans le mystérieux Peak District, la série suit les aventures de deux jeunes détectives que tout oppose : Ben Cooper, un affable local, et Diane Fry, une nouvelle venue réservée. Contraints de collaborer pour enquêter sur une série de morts mystérieuses, ils devront apprendre à travailler ensemble pour résoudre le problème. Alors que leurs vies personnelles s'entremêlent, une amitié singulière se tisse… Mais le chemin ne sera pas toujours facile.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:305605",
+      "type": "series",
+      "name": "Play for Today",
+      "poster": "https://image.tmdb.org/t/p/w500/tDlFADSlbAiIshWZfdkb1g7QNUk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aA7Tlwoi41TUiMiOLyNKgyuJi7H.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:286255",
+      "type": "series",
+      "name": "The Forsytes",
+      "poster": "https://image.tmdb.org/t/p/w500/vpLmjeJJMIJfxCSNEDfedIV4Q8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gPP88D6A4QDnMXESHBZUILG20yQ.jpg",
+      "description": "Le désir, l’ambition et la trahison traversent les générations chez les Forsyte, une famille aisée de courtiers en bourse, dont les membres, pris entre la tradition et la loyauté familiale, s’opposent souvent à leur propre quête de bonheur. Au fil des années, les tensions grandissent entre ceux qui sacrifient leurs sentiments pour préserver l’ordre établi et ceux qui osent poursuivre l’amour, quitte à briser les liens du sang et les conventions sociales.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:300826",
+      "type": "series",
+      "name": "Michael Palin in Venezuela",
+      "poster": "https://image.tmdb.org/t/p/w500/3bsPNKCLWRjzvAZwCpVESg5hGmC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eSpaDavWE5QMa2q6kBz5cJc1i6t.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:300827",
+      "type": "series",
+      "name": "Traffic Cops: Pursuit Squad One",
+      "poster": "https://image.tmdb.org/t/p/w500/ggh1vAwYfu3bG1htqC4aDar868B.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r0W1aD1xEpIWTDPq2PhUt3dmYC7.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:300351",
+      "type": "series",
+      "name": "The Rumour",
+      "poster": "https://image.tmdb.org/t/p/w500/4JeMr89guc4A0SxWA4q7qyvV8W5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vO0qT45UFxanyuzi52DX8LFXoGA.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:299916",
+      "type": "series",
+      "name": "Meurtres en Méditerranée",
+      "poster": "https://image.tmdb.org/t/p/w500/nHw9q9J9Kakvp3pSexel05u70vc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aVL8RX7F7F5tQlBlJaW6rFWI723.jpg",
+      "description": "Un duo improbable de combattantes du crime composé de deux sœurs très différentes. Shirley, une agricultrice néo-zélandaise à la recherche de son père, se rend à Athènes et rencontre sa demi-sœur et détective, Helen. Shirley commence bientôt à aider Helen à résoudre des crimes grâce à sa sagesse et à son esprit de brousse, tandis qu'elles tentent de retrouver leur père disparu.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

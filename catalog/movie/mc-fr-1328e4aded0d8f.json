@@ -1,0 +1,182 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1742441",
+      "type": "movie",
+      "name": "V/H/S/Mixtape",
+      "poster": "https://image.tmdb.org/t/p/w500/uS8yoiA6NfsuYeOTbVfpem8Ib9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mpB4pgtUcc7rCLxvlknzCbAQQEE.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1504358",
+      "type": "movie",
+      "name": "Don't Say Good Luck",
+      "poster": "https://image.tmdb.org/t/p/w500/dgTKahWonzVLeN8Lm22WR2S7D0A.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yzdMGn8IRHSGuV8AIzw19wkRU2W.jpg",
+      "description": "Alors qu'elle s'apprête à briller dans le rôle principal de la comédie musicale de son lycée, Sophie Birenbaum se retrouve soudain confrontée à de graves problèmes familiaux.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1493400",
+      "type": "movie",
+      "name": "Camp Rock 3",
+      "poster": "https://image.tmdb.org/t/p/w500/9oKGprrXuvXb4wsIyzoQV9czgn3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vJb3fniB8E0JnSMr1tDyIsb6gPi.jpg",
+      "description": "Le groupe Connect 3 perd sa première partie pour une tournée de concerts très attendue. Le groupe retourne alors à son cher Camp Rock pour y dénicher la prochaine grande révélation musicale. Alors que les campeurs rivalisent pour avoir la chance d’ouvrir pour leur groupe préféré, les tensions montent, les amitiés sont mises à l’épreuve, et des alliances, des révélations et des romances inattendues se forment.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1432474",
+      "type": "movie",
+      "name": "Nimrods : A Green Day Comedy",
+      "poster": "https://image.tmdb.org/t/p/w500/4h2WtFCLZPXbydbpi248uqOT9yz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nwkfCcHIqzo5H4rsG4ug5AVdGZM.jpg",
+      "description": "Tommy, un lycéen qui reçoit un appel l'invitant, avec son groupe, à assurer la première partie de Green Day lors du concert du Nouvel An. Ce qu'il ignore, c'est qu'il s'agit d'un canular minutieusement orchestré par son grand frère, Wayne. Convaincu que sa vie est sur le point de basculer, Tommy dérobe la voiture de Wayne et embarque son groupe dans un périple de Kansas City à Los Angeles, déterminé à arriver à temps en seulement trois jours.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:880067",
+      "type": "movie",
+      "name": "Strung",
+      "poster": "https://image.tmdb.org/t/p/w500/uJWQA0YL6pblLUixAYnfjmYaUjN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3yQV8aUxMYeSCVF6R5Q6xcaMZsl.jpg",
+      "description": "Une violoniste talentueuse accepte un prestigieux poste de professeure de musique pour la fille surdouée d'une famille influente et mystérieuse. Alors qu'elle se retrouve de plus en plus impliquée dans ce monde opulent, des secrets inquiétants commencent à ressurgir, la forçant à remettre en question sa sécurité, ses rêves et sa santé mentale.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1284016",
+      "type": "movie",
+      "name": "Power Ballad",
+      "poster": "https://image.tmdb.org/t/p/w500/sGgX2K0SJqw90Ju8TONdhDVwlzT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/euUEDjof7fVX2t3nYFvLLN9ADK2.jpg",
+      "description": "Rick, un chanteur de mariage délavé, et Danny, une vedette de boys band en perte de vitesse, se lient autour de la musique et d'une session musicale de fin de soirée. Lorsque Danny transforme la chanson de Rick en succès, Rick se propose de récupérer la reconnaissance qu'il croit mériter.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1693346",
+      "type": "movie",
+      "name": "Apple Music Live : Lady Gaga MAYHEM Requiem",
+      "poster": "https://image.tmdb.org/t/p/w500/5qJgfeZRcz6EOi6zUb9tpSlmDni.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yYXGiAPB2eh6bpyGRPZAPq0mPK5.jpg",
+      "description": "L’opéra du MAYHEM Ball de Lady Gaga a été détruit, place au MAYHEM Requiem, une célébration et une réinvention de son sixième album.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:936075",
+      "type": "movie",
+      "name": "Michael",
+      "poster": "https://image.tmdb.org/t/p/w500/2sDgNilJGVFpl1x4DMzYHjk0L0f.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ufSwlnECLoUbBjPrFqEQcWBzHwc.jpg",
+      "description": "Michael dresse le portrait cinématographique de la vie et de l’héritage de l’un des artistes les plus influents de notre époque.  Le film raconte l’histoire de Michael Jackson au-delà de la musique, depuis la découverte d’un talent hors du commun en tant que leader des Jackson Five, jusqu’à l’artiste visionnaire dont l’ambition créative a alimenté une quête incessante pour devenir le plus grand artiste au monde.  Mettant en lumière sa vie hors scène et ses performances les plus emblématiques de ses débuts en solo, le film offre au public une place au premier rang pour découvrir Michael Jackson comme jamais auparavant.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1102883",
+      "type": "movie",
+      "name": "Mother Mary",
+      "poster": "https://image.tmdb.org/t/p/w500/uaCJhncUYYXFlG253BEPAzog3hl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9eynUDRhChIsgSYLK82aC4zIQ2M.jpg",
+      "description": "Une célèbre chanteuse pop, en pleine tournée, interrompt ses concerts suite à une crise existentielle. Elle se retire à la campagne et noue une relation complexe avec une créatrice de mode renommée, qui travaille justement sur une robe. Les deux femmes se rapprochent.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1644807",
+      "type": "movie",
+      "name": "Harry Styles. One Night in Manchester.",
+      "poster": "https://image.tmdb.org/t/p/w500/AigpusxLychNPHCdB8jRVTEQ1kS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nuTRkIhsq6JXsNS4J8vb8Yvnlxg.jpg",
+      "description": "Lors d'un concert exceptionnel donné à Manchester, enregistré le soir du 6 mars, Harry Styles interprétera pour la toute première fois son nouvel album, « Kiss All The Time. Disco, Occasionally. ».",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:972232",
+      "type": "movie",
+      "name": "K-Pops!",
+      "poster": "https://image.tmdb.org/t/p/w500/72KQHN1xUO6gWHLRRPyJcCQXlve.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rroo5ANTOLr1JY1JArmpJNQfsEV.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1405769",
+      "type": "movie",
+      "name": "La Voix du Pardon 2",
+      "poster": "https://image.tmdb.org/t/p/w500/xu1B6kE637p3QWdp53YEZoAYIT7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qHBnPZA3J6hSl9a3Q1JAQzDeo2L.jpg",
+      "description": "Après le succès retentissant de \"I Can Only Imagine,\" Bart Millard, membre de MercyMe, vit un rêve : des salles combles, une communauté d'admirateurs dévoués et une carrière florissante. Mais son monde bascule sous le poids de défis dévastateurs, dont un diagnostic bouleversant pour son jeune fils, Sam.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1442908",
+      "type": "movie",
+      "name": "Les Chanteurs",
+      "poster": "https://image.tmdb.org/t/p/w500/a6wheh1243vceZ7Dqb0knYmKqaj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oTWgvLnMjjsVNdVTZjf5CEnihhw.jpg",
+      "description": "Dans ce court-métrage nommé aux Oscars, une compétition de chant improvisée dans un bar de quartier transforme une nuit de solitude en un moment d'harmonie et de partage.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1548113",
+      "type": "movie",
+      "name": "The Muppet Show",
+      "poster": "https://image.tmdb.org/t/p/w500/h8SxbXRZPukAcwASmHOl5CFUslA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qz7B5uDspnkoz068wLbLnleotwV.jpg",
+      "description": "C'est le Muppet Show ! Kermit, Miss Piggy et la troupe adorée des Muppets sont de retour pour un événement spécial inédit. Musique, comédie et une bonne dose de chaos sont au rendez-vous quand ils remontent sur la scène du théâtre original des Muppets avec leur invitée très spéciale, Sabrina Carpenter",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1422562",
+      "type": "movie",
+      "name": "The Moment",
+      "poster": "https://image.tmdb.org/t/p/w500/A0yuyel8MvAxnxtfVOtdSuuMOA5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lQUsfSUcai6ZOHQHgobSlF0IDUV.jpg",
+      "description": "Une vedette montante de la pop affronte les complexités de la célébrité et la pression de l'industrie alors qu'elle se prépare pour sa première grande tournée.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1450257",
+      "type": "movie",
+      "name": "Clika",
+      "poster": "https://image.tmdb.org/t/p/w500/gvuisLBieWpaBM8USKPrUbBx18W.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/juj498fB0FRZHRKrirHL61gMqUs.jpg",
+      "description": "Chito, un musicien en devenir, est déterminé à percer. Quand une vidéo de lui devient virale, il saisit sa chance pour se faire une place dans la nouvelle vague de musique mexicano-américaine. Mais il se retrouve vite pris dans un jeu dangereux. Une histoire d'ambition, de tradition et de découverte de soi, où il doit affronter les choix faits pour atteindre son rêve.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1401281",
+      "type": "movie",
+      "name": "Le Testament d'Ann Lee",
+      "poster": "https://image.tmdb.org/t/p/w500/kVa32BHWeXU52ov8obUUTbt7Ltm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jZNR5onRZijwyGr5iWbs3J9QcYr.jpg",
+      "description": "Au XVIIIe siècle, à Manchester, Ann Lee devient la mère spirituelle des Shakers, un mouvement religieux prônant la chasteté et l'égalité entre les sexes, et dont les prières s'expriment par la danse. Persécutée en Angleterre, la jeune femme charismatique part s'établir avec ses disciples dans le Nouveau Monde, quelques années avant la révolution américaine.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1371185",
+      "type": "movie",
+      "name": "Sur un air de blues",
+      "poster": "https://image.tmdb.org/t/p/w500/a37MBzhCanExpBxq1wzGRilRt49.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8dlna8rRcf5gDCRzEsjtHizpj1X.jpg",
+      "description": "Milwaukee, Ohio, 1989. Mike, imitateur d'Elvis, fait la connaissance de Claire, une chanteuse de clubs abonnée au répertoire de Patsy Cline. Le coup de foudre réciproque amène cet alcoolique sobre et cette mère célibataire à former un groupe dédié au répertoire de Neil Diamond baptisé Lightning & Thunder. De kermesses locales en festivals, le duo est remarqué par Eddie Vedder, le leader du groupe Pearl Jam, qui l'invite à assurer la première partie de son spectacle à Milwaukee. Le triomphe qui s'ensuit est assombri par un terrible accident, qui coûte à Claire une de ses jambes, et plonge ces amoureux fous dans leur première crise de couple, sous l'œil impuissant de leurs enfants respectifs.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1562010",
+      "type": "movie",
+      "name": "Taylor Swift | The Eras Tour | The Final Show",
+      "poster": "https://image.tmdb.org/t/p/w500/c11km7kLK2F30fTNHP5Si9m8foG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/w4aTYTHpm97iTN1UGIC9kFZIuc7.jpg",
+      "description": "\"Taylor Swift | Le Eras Tour | The Final Show\" est le film du concert intégral, incluant \"THE TORTURED POETS DEPARTMENT\", tourné à Vancouver, en Colombie-Britannique, lors du dernier concert de la tournée historique.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1566269",
+      "type": "movie",
+      "name": "La première neige de Fraggle Rock",
+      "poster": "https://image.tmdb.org/t/p/w500/xBbw7RIQhohmMxt9GKZdYm09TSD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/h5hCdU9KvcCbBihSNfn3vtML7tV.jpg",
+      "description": "Alors que les fêtes réservent leurs surprises et aventures inattendus, les Fraggles apprennent à apprécier chaque jour pour son caractère unique et magique, tel un flocon de neige.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

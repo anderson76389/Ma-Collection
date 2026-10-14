@@ -1,0 +1,66 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:286170",
+      "type": "series",
+      "name": "Wylde Pak",
+      "poster": "https://image.tmdb.org/t/p/w500/jnrR6NqTxyNHARpth1glmA37vAo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dfB0hPku5IRvwAoTKQef1zs1JHZ.jpg",
+      "description": "Lily et Jack sont des demi-frère et sœur qui se retrouvent ensemble pour un été et doivent apprendre à gérer leur nouvelle dynamique familiale tout en aidant la famille Wylde Pak dans son entreprise chaotique de toilettage pour animaux.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:257720",
+      "type": "series",
+      "name": "La Ligue des Supers Lapins",
+      "poster": "https://image.tmdb.org/t/p/w500/giZgqdjJ5UZ44s7TkttUcVv00Dh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zmPgMueIUN5yqPbl5ISc6aAU20q.jpg",
+      "description": "Découvrez comment des lapins totalement normaux sont devenus de super lapins. / Quand Lord Fielamer et son dragon Soufflacide sont libérés, les lapins doivent les empêcher d'acidifier Grande Ville.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:254653",
+      "type": "series",
+      "name": "Les Thunderman : Incognito",
+      "poster": "https://image.tmdb.org/t/p/w500/8c3cJAB8fQHScpGvKH55U3Lb0yQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yEmGiYvCyJ32xuPZbmytTjXzF4S.jpg",
+      "description": "Envoyés incognitos dans la ville de Secret Shores, Phoebe et Max font face à une nouvelle menace. Ils décident d'emmener avec eux Chloé, leur petite sœur, afin de l'aider à améliorer ses pouvoirs et l'entraîner durant cette mission.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:224024",
+      "type": "series",
+      "name": "Max & les mi-chevaliers",
+      "poster": "https://image.tmdb.org/t/p/w500/3G8j4q2K5NDVQP3akEvHp9YqvQt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9QlPvdElQENr9XfYpoF6VL2AFPW.jpg",
+      "description": "La courageuse Max mène les Mi-Chevaliers dans des aventures épiques, rythmées par de toutes nouvelles chansons originales. Après que le roi Geyniard ait volé le trône et imposé un régime injuste au royaume de Bourg-Sacré, Max doit venir à la rescousse des habitants pour renverser l'ennemi avide de pouvoir. Avec ses amis et son oncle Potrick, Max ne reculera devant aucune difficulté",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:247246",
+      "type": "series",
+      "name": "Mes parrains sont magiques : Un nouveau souhait",
+      "poster": "https://image.tmdb.org/t/p/w500/ePgVXUAo1z8Bs2iLewcZ5ZH2wBR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/voeuYrKelMCQBqR2xWxyHgB0fS5.jpg",
+      "description": "Après avoir déménagé dans la ville de Dimmadelphie avec ses parents, Hazel découvre que ses voisins sont des parrains magiques sous couverture !",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:204024",
+      "type": "series",
+      "name": "Pierre, Feuille, Ciseaux",
+      "poster": "https://image.tmdb.org/t/p/w500/p8H3M91e9r2ljRrWgDd60gtPxLW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mJX8hrrtzp05VtO0JSXLkljUTI2.jpg",
+      "description": "Pierre, Feuille et Ciseaux, 3 amis inséparables et pourtant querelleurs, partagent leur quotidien et leurs petites misères qui prennent vite des proportions énormes.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:216770",
+      "type": "series",
+      "name": "Zokie of Planet Ruby",
+      "poster": "https://image.tmdb.org/t/p/w500/uQ46JoGF4pxIaLZtZeXmOphM14N.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iyDO1guBiIaTI4FsoXpVeQvPIqH.jpg",
+      "releaseInfo": "2023"
+    }
+  ]
+}

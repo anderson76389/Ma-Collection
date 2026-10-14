@@ -1,0 +1,177 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1664003",
+      "type": "movie",
+      "name": "Stavros Halkias: Uncle Stav",
+      "poster": "https://image.tmdb.org/t/p/w500/lVdlQbkpnETCZXN76UwQzMiJH6m.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aZY17mncsi7zM8IcvucdxgnbM1C.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1662958",
+      "type": "movie",
+      "name": "Louis C.K.: Ridiculous",
+      "poster": "https://image.tmdb.org/t/p/w500/7HDsSxJ4Vve54cNmpk7Qtmai77n.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ohQTIteoHPNeLd3WRlVXbCBeaN6.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1675032",
+      "type": "movie",
+      "name": "Josh Johnson: Symphony",
+      "poster": "https://image.tmdb.org/t/p/w500/ycJcUb7vvUV4vtHOPAX0zgXxDeV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/itfBdke18CbHvz7UkQHhi2hO9Q1.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1660612",
+      "type": "movie",
+      "name": "Wanda Sykes: Legacy",
+      "poster": "https://image.tmdb.org/t/p/w500/nHE1A7YA51xegolfczZShIsO4dc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ehn5kALlpjJtApSOdjAeEWqgXfw.jpg",
+      "description": "De retour dans son ancienne université, Wanda Sykes se moque de tout avec drôlerie, mais sans pitié : de l'état du monde au gant de toilette… un choc culturel unique en son genre.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1658982",
+      "type": "movie",
+      "name": "The Roast of Kevin Hart",
+      "poster": "https://image.tmdb.org/t/p/w500/wRPgZUWMZ8fFszfduEPdKa4Mmwm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bDwOkqwRFDoGxUzyIe6KUSmye5e.jpg",
+      "description": "Kevin Hart passe sur le gril et se fait tailler en pièces par le chef des hostilités Shane Gillis et une brochette de stars lors d’une soirée d’humour sans pitié.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1567151",
+      "type": "movie",
+      "name": "Nikki Glaser: Good Girl",
+      "poster": "https://image.tmdb.org/t/p/w500/aKPxBMJo1o3NNDetVDkvExbRlMC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/25iLBMo40R9J6hi5UcXNjXgagjY.jpg",
+      "description": "Considérée comme l'une des voix les plus intrépides de l'humour, Nikki Glaser livre un spectacle d'une honnêteté brutale. Elle y aborde la vieillesse, la beauté et la célébrité, et se demande ce que signifie rester au goût du jour, désirable et authentique dans une culture qui ne détourne jamais le regard.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1666433",
+      "type": "movie",
+      "name": "Trevor Noah: Joy in The Trenches",
+      "poster": "https://image.tmdb.org/t/p/w500/nGbo6kZLHwcyBJOgr5b36OvBPPe.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vSTlbow1yx2L85EEUhFiJOMo4LY.jpg",
+      "description": "D'un buzz inattendu sur les réseaux sociaux à un uppercut lâché par sa thérapeute, Trevor Noah transforme le chaos en comédie dans ce stand-up hilarant et incisif.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1665224",
+      "type": "movie",
+      "name": "Sheng Wang: Purple",
+      "poster": "https://image.tmdb.org/t/p/w500/6BKDUcNi9blIZDXRaHZAL7OkwP1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6qywp22WDIY6sAzD6WpOgf4osml.jpg",
+      "description": "Sheng Wang évoque avec humour les soutiens-gorge à croquer, le courage d'affronter les fantômes chez soi et les fruits rouges hors de prix engloutis par les enfants de ses amis.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1660968",
+      "type": "movie",
+      "name": "Aaron Chen: Funny Garden",
+      "poster": "https://image.tmdb.org/t/p/w500/gNKrgtuYPR3XeZtdzbDOaZXxGd8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2GlpDWCq0iGEgbfrKv7deLAxpCa.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1617908",
+      "type": "movie",
+      "name": "Taylor Tomlinson: Prodigal Daughter",
+      "poster": "https://image.tmdb.org/t/p/w500/5n85A8bspgGBhIZ2HnNfbbr6GRe.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8imHEnB6kTNgK1TYPC3Rsnv7xke.jpg",
+      "description": "Taylor Tomlinson emmène ses fans à l'église pour des confessions hilarantes sur ses relations amoureuses à 30 ans, son assistant idéal et les raisons pour lesquelles elle refuse d'utiliser l'IA.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1628484",
+      "type": "movie",
+      "name": "Katt Williams: The Last Report",
+      "poster": "https://image.tmdb.org/t/p/w500/n9UBtHFf1zYk6Vq93MFYdbZVAj4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ioLTv6BTRT7ShLHcDx8Q5TOXwgk.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1599078",
+      "type": "movie",
+      "name": "Marcello Hernández: American Boy",
+      "poster": "https://image.tmdb.org/t/p/w500/qPTc7XVWYHldMn7UmYvGXWXv4I9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/b2qSURjTrHTJRKYEJ0gIKOACZdC.jpg",
+      "description": "Habitué du Saturday Night Live, Marcello Hernández évoque dans son premier spectacle Netflix ses racines latino, des curieux défis de danse en famille aux leçons de vie de sa mère.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1312150",
+      "type": "movie",
+      "name": "Ricky Gervais: Mortality",
+      "poster": "https://image.tmdb.org/t/p/w500/u54OhdSaaLBh02Y4Nf5cETkh8Ku.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ggzUa7gPXs7mnLhJEcwP9r10Z9e.jpg",
+      "description": "Ricky Gervais évoque sans pincettes la vie, la mort et l'état du monde dans un stand-up qui n'esquive aucun sujet, pas même sa propre mortalité.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1588965",
+      "type": "movie",
+      "name": "Tom Segura: Teacher",
+      "poster": "https://image.tmdb.org/t/p/w500/jny234URpLAYsnFKxfqadyQ0swz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rf77DGsOpm0Xi5h3nTAtwjmZYjp.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1601195",
+      "type": "movie",
+      "name": "Dave Chappelle: The Unstoppable...",
+      "poster": "https://image.tmdb.org/t/p/w500/534y0Pt72VEAUTV3THKpMxzCoB3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/smbIQ9Fzx9LaWtTDm8x7GAaDvCe.jpg",
+      "description": "Face à un monde qui part en vrille, l'humoriste de légende Dave Chappelle dit les choses telles qu'elles sont et ose les punchlines choc dans ce stand-up sans filtre.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1529419",
+      "type": "movie",
+      "name": "Kumail Nanjiani: Night Thoughts",
+      "poster": "https://image.tmdb.org/t/p/w500/qOvbKZHzBFQrmjmK9D0Lg7sz8co.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1wruGeuequY1PumBfEgCEifpGb5.jpg",
+      "description": "Près de dix ans plus tard, Kumail Nanjiani revient sur la scène de ses débuts à Chicago. Dans ce nouveau spectacle, il parle d'anxiété, des dangers d'acheter de la drogue avant sa légalisation et, surtout, de médicaments pour chat.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1567893",
+      "type": "movie",
+      "name": "Sarah Squirm: Live + in the Flesh",
+      "poster": "https://image.tmdb.org/t/p/w500/73wbpsAR1OK0faQCNXYHA37rAld.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/37vus3DvFELdQOz7w5poPylDMFU.jpg",
+      "description": "L'alter ego maléfique de Sarah Sherman, SARAH SQUIRM, fait son apparition à l'écran avec son premier spectacle de stand-up.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1581729",
+      "type": "movie",
+      "name": "Matt Rife: Unwrapped - A Christmas Crowd Work Special",
+      "poster": "https://image.tmdb.org/t/p/w500/dMmT1IWPEJSSLaklHZi7XyrTVyM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6lMnIh1QMtrPeQmt6Os8Xo84DVr.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1581099",
+      "type": "movie",
+      "name": "Kevin Hart: Acting My Age",
+      "poster": "https://image.tmdb.org/t/p/w500/89HPieER8jX9sGKKzhagGIGkMxi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/24UcTCeD1zjZgk5uLF72i5p1kl7.jpg",
+      "description": "Plus âgé, plus sage, toujours aussi drôle. Kevin Hart se confie sur les tribulations de la quarantaine, des pilules revigorantes aux dangers des blessures inattendues.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1564232",
+      "type": "movie",
+      "name": "Sebastian Maniscalco: It Ain't Right",
+      "poster": "https://image.tmdb.org/t/p/w500/AmbvVjDFXR9ATykIA4jXe9rtkL6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3GoZeiFgbG17rDdF1ZXevYLbbz3.jpg",
+      "description": "Tourné en direct du légendaire United Center de Chicago, Sebastian Maniscalco met le paquet dans \"It Ain't Right\". Au programme : le chaos familial, la vieillesse et les petites choses qui nous rendent dingues, le tout servi avec son humour mordant inimitable.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:284833",
+      "type": "series",
+      "name": "Avatar : Les Sept Refuges",
+      "poster": "https://image.tmdb.org/t/p/w500/yfUFI7fIDcdA01Ej5Rwfv2OEH8O.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/t2KFGH07Al4XuIZLHRlF1Hj9IJB.jpg",
+      "description": "Après une catastrophe planétaire, une jeune maîtresse de la terre découvre qu'elle est l'Avatar succédant à Korra. Désormais considérée comme un présage de fin du monde, elle se lance dans une course contre-la-montre pour sauver les Sept Refuges.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:300480",
+      "type": "series",
+      "name": "Ricky Gervais Alley Cats",
+      "poster": "https://image.tmdb.org/t/p/w500/1oLW17ZzkZTeGN8apmtS5MGtVPw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/auLT0EPtqtt5MwryoC2MoAG595F.jpg",
+      "description": "Dans cette comédie d'animation impertinente de Ricky Gervais, des chats sauvages sèment le chaos dans les rues et enchaînent les mésaventures rocambolesques.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:296756",
+      "type": "series",
+      "name": "President Curtis",
+      "poster": "https://image.tmdb.org/t/p/w500/noWGHRAllKVUlxTQ5T10gQL4BBL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yoTP91XZZjSvE2gZgGvwNxVW96w.jpg",
+      "description": "Suivez le commandant en chef et son équipe excentrique alors qu'ils s'attaquent à des crises dont Rick Sanchez ne se soucierait jamais : de la diplomatie interdimensionnelle aux enquêtes sur le paranormal en passant par les phénomènes inexpliqués.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:229544",
+      "type": "series",
+      "name": "Among Us",
+      "poster": "https://image.tmdb.org/t/p/w500/ourBbG4B1dAjfFUCzuUYEZpR101.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zoa11EvyuasC3j7PmH1QGftrSvf.jpg",
+      "description": "Des membres de votre équipage ont été remplacés par un métamorphe extraterrestre déterminé à semer la confusion, à saboter le vaisseau et à tuer tout le monde. Éliminez l'imposteur ou devenez la victime de ses plans meurtriers.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:290295",
+      "type": "series",
+      "name": "Mating Season",
+      "poster": "https://image.tmdb.org/t/p/w500/5Pn7R2TtLka8OjsgtxAq4H2apjJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zaDTnGcq3F5LocdmHJLP3Mf0kII.jpg",
+      "description": "Cette délirante série d'animation comique pour adultes, sortie de l'esprit tordu des créateurs de \"Big Mouth\", parle de cœur, de sexe et de relations amoureuses… chez les animaux.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:256695",
+      "type": "series",
+      "name": "Regular Show : Les cassettes oubliées",
+      "poster": "https://image.tmdb.org/t/p/w500/gZuwOtqQRPvLOhLV21qfaC3tIxS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/Zk5UmvJ634LhA56R18h8RfipFG.jpg",
+      "description": "Mordecai, un geai bleu, et Rigby, un raton laveur, deux amis paresseux, travaillent dans un parc municipal. Mais, quoi qu'ils entreprennent, leurs tâches quotidiennes finissent invariablement par basculer dans un chaos totalement surréaliste, au grand désespoir de leur patron et de leurs collègues...",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:224263",
+      "type": "series",
+      "name": "Stranger Things : Chroniques de 1985",
+      "poster": "https://image.tmdb.org/t/p/w500/5vr72cfj5cE8kftq1PWRCv2o3hh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ulBGaxq9GmJexyEOi4Xci74g6Vt.jpg",
+      "description": "Hawkins, hiver 1985. Nous voilà de retour dans une ville qui regorge de secrets, où nos héros adorés affrontent de nouveaux mystères... et une nouvelle vague de phénomènes étranges.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:289219",
+      "type": "series",
+      "name": "Star Wars : Maul - Seigneur de l'ombre",
+      "poster": "https://image.tmdb.org/t/p/w500/Av4nP5DgAjRpPWOe81SoE0oc8D0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cvvj1RXGmmAZ1FZr6CrUu8LgQm5.jpg",
+      "description": "Après la Guerre des Clones, Maul projette de reconstruire son organisation criminelle sur une planète épargnée par l'Empire. Il croise la route d'un jeune Padawan désabusé, qui pourrait devenir l'apprenti qu'il cherche, et une aide précieuse dans sa quête de vengeance.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:259819",
+      "type": "series",
+      "name": "Rooster Fighter",
+      "poster": "https://image.tmdb.org/t/p/w500/iCtbr0sIdaKZjhQH3Wr7hW6A1IU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nTDL4UmMLDBCeMtYh8F1LZtgmLV.jpg",
+      "description": "D'étranges créatures attaquent, mais Keiji les affronte en poussant son cri de guerre : Kokekokko !",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:219080",
+      "type": "series",
+      "name": "The Mighty Nein",
+      "poster": "https://image.tmdb.org/t/p/w500/q2P52yvWJXH2eTKTyxKjmhp9Pri.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7K7wbQIpkzif4fMhDHsCweXFS42.jpg",
+      "description": "Un groupe de parias, de criminels et de marginaux se retrouve par hasard à devoir sauver le continent lorsqu'une mystérieuse relique magique capable de remodeler la réalité tombe entre de mauvaises mains.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:302540",
+      "type": "series",
+      "name": "Les Bad Guys cassent la baraque",
+      "poster": "https://image.tmdb.org/t/p/w500/wGqA40va0r9OY3GJWPVl45PZPY5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pXdkJvhBcPf8oEj831ASMkLPXKT.jpg",
+      "description": "Comment les Bad Guys sont-ils devenus des bandits de haut vol ? Toutes les réponses se trouvent dans cette série hilarante, située avant les films à succès.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:304530",
+      "type": "series",
+      "name": "Fortnite x Les Simpson",
+      "poster": "https://image.tmdb.org/t/p/w500/3xAOMTETL4algyp7jyXsHTNrFfd.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z0HHrV0t1NsnrHJK6dbkJbIu2Nb.jpg",
+      "description": "Les univers de Springfield et de Fortnite convergent. Le chaos s’installe alors qu’Homer entreprend de transformer le monde en maniant une puissante énergie extraterrestre.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:127366",
+      "type": "series",
+      "name": "Splinter Cell: Deathwatch",
+      "poster": "https://image.tmdb.org/t/p/w500/38XJlQAYMcPjgqVhBO8VjkufSEx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/e5Q92kKUdRbKBHnNkqQB845bwCY.jpg",
+      "description": "Dans l'univers nébuleux de l'espionnage, Sam Fisher est une rumeur et une légende. Appelé à reprendre du service, il doit aider une nouvelle recrue à démêler un complot mondial.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:302696",
+      "type": "series",
+      "name": "KPop Demon Hunters Lyric Videos",
+      "poster": "https://image.tmdb.org/t/p/w500/dTqYRhRzKayrCcDVqIS3bXOiRR5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qyj4vs8223qaaWRoa5V37NMKTYt.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:291904",
+      "type": "series",
+      "name": "Le Monde merveilleusement bizarre de Gumball",
+      "poster": "https://image.tmdb.org/t/p/w500/hAwR0TolHvxWbDeaDRKDumhsJ6A.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xkhniKa1PGj78h3T9xDuV9jG8ZB.jpg",
+      "description": "Qu'il combatte un empire de la malbouffe, affronte une intelligence artificielle douée de sentiments ou essaie d'empêcher Joe la Banane de porter des pantalons, Gumball entraîne Darwin, Anaïs et le reste des habitants d’Elmore dans ses aventures.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:138505",
+      "type": "series",
+      "name": "Marvel Zombies",
+      "poster": "https://image.tmdb.org/t/p/w500/9CbKyXIbDKBSKKs7BOFnMiJxWal.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lxQMxqao3vs2ehxESrkQU6acU86.jpg",
+      "description": "Alors que les Avengers se sont fait décimer par la peste zombie, un groupe de survivants désespérés trouve la clé qui pourrait mettre un terme à l’invasion de morts-vivants, et se retrouve à parcourir des paysages dystopiques en risquant leur vie et leur intégrité physique pour sauver le monde.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:255752",
+      "type": "series",
+      "name": "Haunted Hotel",
+      "poster": "https://image.tmdb.org/t/p/w500/4arTlVw8oceZDOhGv9GFrgGztUq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lqsufP0yMhQ04SZx3ZlXTay4whw.jpg",
+      "description": "Une mère célibataire reprend l'hôtel qu'elle a hérité de son frère décédé, et doit vivre avec son fantôme bienveillant... et des clients exigeants qui ne quitteront jamais les lieux.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:262375",
+      "type": "series",
+      "name": "Long Story Short",
+      "poster": "https://image.tmdb.org/t/p/w500/22nh2kTuFpitrqTxxixhWjxEqFa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eqZjZGHa1mZYBPHUHOX2LSzzCsS.jpg",
+      "description": "Le créateur de \"BoJack Horseman\" signe cette comédie d'animation qui suit la vie d'une famille sur plusieurs années, de l'enfance à l'âge adulte et inversement.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:241388",
+      "type": "series",
+      "name": "Eyes of Wakanda",
+      "poster": "https://image.tmdb.org/t/p/w500/yuOfb1MgnaGPa4guzV0n1IFYVGN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cWO5NDkKqpOuwxu4vFc4PtL8aNF.jpg",
+      "description": "À travers l'histoire du Wakanda, des braves guerriers ont été obligé de traverser le monde afin de retrouver de dangereux artefacts de vibranium. Voici leur histoire.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:288055",
+      "type": "series",
+      "name": "Star Wars: Tales of the Underworld",
+      "poster": "https://image.tmdb.org/t/p/w500/cmcuhWYITb5HkSHO64VarQaNQ07.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pBeromoLUKlw7TNjus5glQnJTD9.jpg",
+      "description": "Deux hors-la-loi sillonnent les bas-fonds périlleux de la galaxie tout en forgeant leur destin.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:310890",
+      "type": "series",
+      "name": "Slo Pitch",
+      "poster": "https://image.tmdb.org/t/p/w500/cvo5GOJzfow81Xa4mjYseTxfvxD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kzlREDOnR1ZPSe1AM6Ew0PWI4x5.jpg",
+      "description": "Une personne déterminée guide son équipe de balle lente LGBTQ+ à travers les hauts et les bas dans la poursuite de leurs rêves.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:307349",
+      "type": "series",
+      "name": "Vanished History",
+      "poster": "https://image.tmdb.org/t/p/w500/zvHqUPeIOoZcohyhGHuYMwCmkaK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pno2c2oXJkQwhRttRSBBdHjS6Xi.jpg",
+      "description": "Cette série s’intéresse à des civilisations et à des cultures disparues. Des preuves archéologiques et des recherches historiques servent à reconstituer leur histoire.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:242535",
+      "type": "series",
+      "name": "Sight Unseen",
+      "poster": "https://image.tmdb.org/t/p/w500/cEgsKHyRTXqA0NFjKuv8l01YWGZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/a0HF5kVgqpCRmh8Z9M39SYNfUgo.jpg",
+      "description": "Tess Avery, inspectrice de la criminelle diagnostiquée aveugle, fait équipe avec Sunny Patel, un téléguide, pour résoudre des crimes. Grâce à la technologie et à la confiance, elles s'attaquent à des affaires tout en remettant en question les notions de capacité et de limites.",
+      "releaseInfo": "2024"
+    }
+  ]
+}

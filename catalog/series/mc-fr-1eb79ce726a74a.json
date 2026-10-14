@@ -1,0 +1,20 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:246188",
+      "type": "series",
+      "name": "In the Kitchen with Harry Hamlin",
+      "poster": "https://image.tmdb.org/t/p/w500/lynPMEEo6KI0yhWdBFLd7nQ8DJC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uWpuxrpf9MldyCJnI7sU4cud9Bw.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:239650",
+      "type": "series",
+      "name": "Off Script with The Hollywood Reporter",
+      "poster": "https://image.tmdb.org/t/p/w500/2yWslXH87dJgNg1UFuQrcuzyE4n.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iBhiTFSE5QCw5tkqdILrURbTFn3.jpg",
+      "releaseInfo": "2023"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:323411",
+      "type": "series",
+      "name": "The Vampire Lestat",
+      "poster": "https://image.tmdb.org/t/p/w500/gZcmNUcDDR1nR7lmroOJTCrhrhK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iw1knpC8Jg5davMn2MPxNVxBF8N.jpg",
+      "description": "Le Vampire Lestat part en tournée tout en étant hanté par les « muses » de son passé. À mesure que la popularité du groupe augmente, l'influence de Lestat sur les vampires et les humains augmente également, laissant les autres affronter le pouvoir de Lestat face à la Grande Conversion.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:258036",
+      "type": "series",
+      "name": "The Audacity",
+      "poster": "https://image.tmdb.org/t/p/w500/ea6hHjW8yWjROSYwynpWsYc4mYZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4X86dOxMsrZudL0PdsMv30NGBWZ.jpg",
+      "description": "Une psychologue, qui suit des titans de la haute technologie au sein de la Silicon Valley, est en désaccord avec un PDG autoproclamé \"inventeur du futur\", en raison d'un scandale déclenché par l’exploitation de données personnelles.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:288595",
+      "type": "series",
+      "name": "Rise of the 49ers",
+      "poster": "https://image.tmdb.org/t/p/w500/vp1SsOSfcvVMjPX0dwu0eyfygz7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eMvePnQ1KHbzQf0eHPCV8MheeOT.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:256624",
+      "type": "series",
+      "name": "Talamasca: The Secret Order",
+      "poster": "https://image.tmdb.org/t/p/w500/qmmHl3EiFKuDLTVYHGwlV9UhtNw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8M0rS9KsWACnua82zmlVOjUGKXD.jpg",
+      "description": "L'Ordre de Talamasca est une société secrète chargée de traquer et contenir les sorcières, vampires, loups-garous et autres créatures surnaturelles disséminées à travers le monde. Guy Anatole découvre l'existence de cette mystérieuse organisation qui le surveille depuis son enfance et se retrouve propulsé dans un univers dangereux, plein de secrets et d'êtres immortels. Pour préserver le fragile équilibre avec le monde des mortels, Guy doit apprendre à accepter et maîtriser sa part d'ombre...",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:206916",
+      "type": "series",
+      "name": "Orphan Black: Echoes",
+      "poster": "https://image.tmdb.org/t/p/w500/2CoMQHs3pvvc10hVaA9DeJ2ejpG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uz9xYdqbECij0vAUWqCcKVKVLzm.jpg",
+      "description": "Un groupe de femmes se rencontrent par un incroyable concours de circonstances. Elles embarquent alors pour un voyage palpitant, cherchant à percer le mystère de leur identité et découvrant une déchirante histoire d'amour et de trahison. Ritter interprète le rôle de Lucy, une femme aux origines mystérieuses qui tente de désespérément trouver sa place dans la société.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:194741",
+      "type": "series",
+      "name": "Parish",
+      "poster": "https://image.tmdb.org/t/p/w500/iV1YDLXuJHwhxF85zwaTxXyrzN6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ksryUSn2iuvZjtgDlQ0uhcVQYbR.jpg",
+      "description": "Après avoir renoncé à ses activités criminelles, un chef d'entreprise en deuil accepte un dernier coup pour payer ses dettes et se retrouve aux prises avec un gang.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:206586",
+      "type": "series",
+      "name": "The Walking Dead : The Ones Who Live",
+      "poster": "https://image.tmdb.org/t/p/w500/74aOc0caMTY0ILo7TezHernNXL2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5PCKxpFcCTDFT3b1olJGPaAIM9e.jpg",
+      "description": "Séparés par la distance et par les fantômes de ceux qu'ils étaient avant, Rick et Michonne tentent de se retrouver dans un autre monde régi par la guerre contre les morts.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:209479",
+      "type": "series",
+      "name": "Mister Spade",
+      "poster": "https://image.tmdb.org/t/p/w500/rHOOL8QELutxA1gogXq4mMi250Z.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eKwFd5jJfBZ0el9kpLp0VVvCfy6.jpg",
+      "description": "Dans le Sud de la France, le détective américain Sam Spade sort de sa retraite pour éclaircir les crimes de six religieuses : un vieil ennemi refait-il surface ?",
+      "releaseInfo": "2024"
+    }
+  ]
+}

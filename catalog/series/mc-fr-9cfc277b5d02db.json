@@ -1,0 +1,88 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:323041",
+      "type": "series",
+      "name": "Little Singles",
+      "poster": "https://image.tmdb.org/t/p/w500/eTR7IIKuVTs7GpoGmL9zIxRRXXm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lr5UEe8uYh0yxQ6894jRlJgrg8S.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:319855",
+      "type": "series",
+      "name": "Un jour dans mon corps",
+      "poster": "https://image.tmdb.org/t/p/w500/h7WYaSRLF7DVlsU3mkbpbrHXlJn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xCIILTz1FL5ac4kQjwtCsdssWjh.jpg",
+      "description": "Dans cette série, la caméra est tendue à des personnes souffrant de maladies très rares qui laissent même les meilleurs médecins en quête de réponses.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:308359",
+      "type": "series",
+      "name": "Suddenly Amish",
+      "poster": "https://image.tmdb.org/t/p/w500/2oKurmdjblWDq7gIompMHVHqjHw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/midERzvfQKdYs6fO4lMtTmPLGrx.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:308098",
+      "type": "series",
+      "name": "The Cult of the Real Housewife",
+      "poster": "https://image.tmdb.org/t/p/w500/xa3gp2ivjjXK31Y9Zj9tgXihalU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wbehhA8O3Ui71OV6LF18YbCvoBD.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:290258",
+      "type": "series",
+      "name": "Virgins",
+      "poster": "https://image.tmdb.org/t/p/w500/E1PwuEqzzdJr2aWjKXIPOWFj2X.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/y5VgAdsWdJ2SLpztN9eeflFXHtG.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:291934",
+      "type": "series",
+      "name": "Colocs de poids",
+      "poster": "https://image.tmdb.org/t/p/w500/mQmLAmmFmnXemv9a8kOwp6HV6ZG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6j2Bz7MnhdIkg99okKvdxcFkCHu.jpg",
+      "description": "Nesha et Jaz, des colocataires XXL, affrontent la vie, l'amour et la perte de poids avec humour et avec le cœur. Mais les obstacles sont nombreux.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:290564",
+      "type": "series",
+      "name": "90 Day: Hunt for Love",
+      "poster": "https://image.tmdb.org/t/p/w500/8NvtsEjPYme4d2PpPA5f8QIXsWc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/u33XkP4bARiOCW72AvrQU2MT6ls.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:284235",
+      "type": "series",
+      "name": "Les Baldwin",
+      "poster": "https://image.tmdb.org/t/p/w500/zt77Tl0Bg5yFbMEIHP8z5lcg0EE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eJikuy1K9eXLYVZFyM7B7NQs1qM.jpg",
+      "description": "Les coulisses de la vie d'Alec et Hilaria Baldwin, et de leurs sept enfants, avec les hauts et les bas de la vie de famille et les épreuves d'élever une famille nombreuse sous les yeux du public.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:279644",
+      "type": "series",
+      "name": "Baylen Out Loud",
+      "poster": "https://image.tmdb.org/t/p/w500/aAMITid8hFFytKmdeh3eSNbCJDA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vGjgCOv9Ac2UvohcqfcqFJ8TKT3.jpg",
+      "description": "Suivez le parcours de Baylen Dupree, une jeune femme atteinte du syndrome de la Tourette. Malgré ses difficultés quotidiennes, Baylen, sa famille et son petit ami de longue date n'ont pas peur de rire et d'accepter le chaos qui rend leur vie quotidienne unique.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:258217",
+      "type": "series",
+      "name": "Forbidden Love",
+      "poster": "https://image.tmdb.org/t/p/w500/qBMorb99qDeGC5Rppkr55AMXH6t.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/v8sObsdCmZx0DaCJm5V3BIrgapz.jpg",
+      "releaseInfo": "2024"
+    }
+  ]
+}

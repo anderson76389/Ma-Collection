@@ -1,0 +1,44 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:302606",
+      "type": "series",
+      "name": "Everything on the Menu with Braun Strowman",
+      "poster": "https://image.tmdb.org/t/p/w500/1xww1X1MW3HubUtZnGSB901ZWeA.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:256711",
+      "type": "series",
+      "name": "The Rainmaker",
+      "poster": "https://image.tmdb.org/t/p/w500/blbbFyOjgtlzs3uDzIjgM0tVULY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8ZJYKoCmRCdaMDArewEwg3Uy8Bg.jpg",
+      "description": "Fraîchement sorti de l'école de droit, Rudy Baylor est confronté au lion des salles d'audience Leo Drummond ainsi qu'à sa petite amie de l'école de droit, Sarah. Rudy, accompagné de son patron, Bruiser, et de l'assistante juridique échevelée de cette dernière, Deck, découvre deux conspirations liées à la mort mystérieuse du fils de leur client.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:270506",
+      "type": "series",
+      "name": "Scare Tactics",
+      "poster": "https://image.tmdb.org/t/p/w500/yCDKNBBmqAAdgOfDx8rNvCEHk9X.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1wnyHlm8RXjCmp1CMF2BlfEBGIO.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:247172",
+      "type": "series",
+      "name": "The McBee Dynasty: Real American Cowboys",
+      "poster": "https://image.tmdb.org/t/p/w500/q4R46GvPCrpFdj5Q1NS3oFAyuTU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mLDXmz1wknpbIlslX5b5I9CyUIL.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:245634",
+      "type": "series",
+      "name": "Timber Titans",
+      "poster": "https://image.tmdb.org/t/p/w500/r1R3PHi3bbuwQL2wNwANFKfB8pR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xaEFXndyH9jq4sSb9P0TtbYrV2a.jpg",
+      "releaseInfo": "2024"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1616674",
+      "type": "movie",
+      "name": "Me Before Me",
+      "poster": "https://image.tmdb.org/t/p/w500/xmwPr0YOFS6vC3aydnE85gxp36t.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1QiFfqaAhZi4HMlJNMvJVXOovc6.jpg",
+      "description": "Un jeune étudiant, aux prises avec la pression, la panique et un père exigeant, utilise un projet scolaire pour découvrir que la vérité et non les trophées  pourrait enfin le libérer.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1421155",
+      "type": "movie",
+      "name": "Ikatan Darah",
+      "poster": "https://image.tmdb.org/t/p/w500/lF9amilOGIudUIq6NgDnz2YrPPa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/j5L5e211nYRd8DiLNDXbeGUsx7D.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1393326",
+      "type": "movie",
+      "name": "Ghost in the Cell",
+      "poster": "https://image.tmdb.org/t/p/w500/gF6Ijrq5bixh4qemCuroRwXtbBc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tK3QdOOrX4qEkmSlvrmc8cK7iOU.jpg",
+      "description": "Un détenu arrive dans une prison indonésienne, hantée par une entité surnaturelle qui tue ceux dont l’aura est la plus sombre. Alors que les prisonniers s’efforcent d’accomplir de bonnes actions pour survivre, ils réalisent que l’unité est leur seule chance de ne pas être éliminés un par un.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1602705",
+      "type": "movie",
+      "name": "Lettre à ma jeunesse",
+      "poster": "https://image.tmdb.org/t/p/w500/xxwgHtSCcUeo21jwui1i2KYKhr9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3RaVf9MWpB74kK8AtPJ7DJmfZNA.jpg",
+      "description": "Dans un orphelinat, un adolescent rebelle et un responsable discret nouent un lien improbable tout en essayant d'accepter leurs passés douloureux.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1559575",
+      "type": "movie",
+      "name": "Kafir: Gerbang Sukma",
+      "poster": "https://image.tmdb.org/t/p/w500/vmggNXdqYLql6rUYR96r0YjnL6U.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r3EO5gWWbfeKdq64Qwaerj8WNcE.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1497348",
+      "type": "movie",
+      "name": "Alas Roban",
+      "poster": "https://image.tmdb.org/t/p/w500/dtJmnGZYuA2Ngnj3iv0T9EqCHBH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ix6cbu5pHhba97mzYlQHjf81ofy.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1287571",
+      "type": "movie",
+      "name": "Agak Laen: Menyala Pantiku!",
+      "poster": "https://image.tmdb.org/t/p/w500/2Jzfr9XdJ7o3TWecHUMOWoFGUXg.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AvYsEYnj8h0495UhBYEXqK7hkFo.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1420270",
+      "type": "movie",
+      "name": "Keadilan",
+      "poster": "https://image.tmdb.org/t/p/w500/aE7WNfgSN19aSp9amWYfqm8bpOp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9IAJbkT8dGfE32xzPlRs4iIczLB.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1378756",
+      "type": "movie",
+      "name": "Pangku",
+      "poster": "https://image.tmdb.org/t/p/w500/szipx4jA3hHxqMSIinDxeRqil0e.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/i5J2sqOKvLS3lLVXoQv8xlpUEeQ.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1475372",
+      "type": "movie",
+      "name": "Shutter",
+      "poster": "https://image.tmdb.org/t/p/w500/hAHLBarcR52dxJKd95PVo4iT9Na.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ey31jdHYSf30Es3VLYTjZJEWGde.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1306525",
+      "type": "movie",
+      "name": "The Elixir",
+      "poster": "https://image.tmdb.org/t/p/w500/qD8RChlG2mqvIwGFxq7xNR4sa8s.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cNmGq1bfUDhrZEHvJ77zwiWfoNA.jpg",
+      "description": "Lorsqu'un élixir crée une horde de morts-vivants, une famille en proie à la discorde doit se serrer les coudes et lutter pour survivre à la destruction de son village.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1374462",
+      "type": "movie",
+      "name": "Dia Bukan Ibu",
+      "poster": "https://image.tmdb.org/t/p/w500/52N5rBuHGGUR7MDfMoEb1PH9Ddo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lDXfA44dV324HBYaxcsbPKDR2mO.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1393071",
+      "type": "movie",
+      "name": "Tinggal Meninggal",
+      "poster": "https://image.tmdb.org/t/p/w500/9kM6ZlFQpfQDUBwefMAYTX2CiS7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hzYlLWrKE5nMY40JW6VMF7ywOoq.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1285728",
+      "type": "movie",
+      "name": "A Normal Woman",
+      "poster": "https://image.tmdb.org/t/p/w500/3XNtKiE4jzYi5A9Q3DRTiQsoXID.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/u406tzmoD60CmCqGbSRLE2bifmT.jpg",
+      "description": "Quand une maladie rare vient bouleverser sa vie, une jeune femme aisée doit en percer le mystère... avant de se perdre pour de bon.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1385536",
+      "type": "movie",
+      "name": "Sore: Istri Dari Masa Depan",
+      "poster": "https://image.tmdb.org/t/p/w500/u4pNXPmBuYeTtksakUCZgJ1zpSB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sTNzZZdIm7csFdgnvP20XmSJRTx.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1367947",
+      "type": "movie",
+      "name": "Gowok: Kamasutra Jawa",
+      "poster": "https://image.tmdb.org/t/p/w500/k5nijiJPCn7cFF4KMEkHXnUIgEg.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mOXU0BMEQGyxuje25CtlyCHbQ4U.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1463298",
+      "type": "movie",
+      "name": "Dendam Malam Kelam",
+      "poster": "https://image.tmdb.org/t/p/w500/eichIZLd7e9AgYltckEwWgrFQcq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/p1V67T5vf7HD91BVe4K9TUZHtl4.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1391149",
+      "type": "movie",
+      "name": "Waktu Maghrib 2",
+      "poster": "https://image.tmdb.org/t/p/w500/iD0iWNrqlfffm81BKP5IGzrMofq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mmvRoSRZ0D6g4gvmJPQUgP9fd9G.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1280089",
+      "type": "movie",
+      "name": "The Siege at Thorn High",
+      "poster": "https://image.tmdb.org/t/p/w500/tx2toda5HijndqRZXDuoGkSud8L.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dcpXPUVEqiuYclsnael3bJjos4B.jpg",
+      "description": "Sur son lit de mort, sa sœur a fait promettre à Edwin de retrouver son fils, qu’elle avait abandonné des années auparavant. Sa quête le conduit à devenir professeur remplaçant au lycée Duri, à Jakarta, un établissement pour jeunes délinquants. Il doit alors affronter les élèves les plus violents de l’établissement pour retrouver son neveu. Lorsqu’il finit par retrouver le garçon, une émeute éclate dans toute la ville, et Edwin se retrouve piégé dans l’école, encerclé par les élèves cruels qui veulent sa peau.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1389137",
+      "type": "movie",
+      "name": "Komang",
+      "poster": "https://image.tmdb.org/t/p/w500/2RWweAPdSSFzsCtxvjydldneUM6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/o7kF3veRvsHB61WmD6BGj21P1UC.jpg",
+      "releaseInfo": "2025"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1465063",
+      "type": "movie",
+      "name": "L'Île des Souvenirs",
+      "poster": "https://image.tmdb.org/t/p/w500/A12dkvb10IgoQxHxU5TXOc6WR4k.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
+      "description": "Jo et Raissa se retrouvent échouées sur le monde fantastique de l'île oubliée de Nakali. Elles découvrent que le seul moyen de rentrer chez elles pourrait bien leur coûter toute une vie de souvenirs et d'émotions.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1729723",
+      "type": "movie",
+      "name": "Les Simpson Yellow Mirror",
+      "poster": "https://image.tmdb.org/t/p/w500/sJMs3P5bQx0OgKrihT5TzTK70Qp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rFjlsx5IygrHmBqr0KsVolAHhy7.jpg",
+      "description": "Les Simpson luttent pour trouver leur voie à travers deux contes sombres, étranges et insolites. Une lampe défectueuse révèle une vérité bouleversante sur ce qu'Homer croyait être la réalité. Et une tablette dotée d'une intelligence artificielle se lie d'amitié avec Maggie afin de manipuler son esprit.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1698575",
+      "type": "movie",
+      "name": "Snoopy présente : Rien ne vaut son chez-soi",
+      "poster": "https://image.tmdb.org/t/p/w500/1a24XPNCpOpGMvOlfUaqaF56m1n.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kpq5o3WbnTos5fQwtyfyOHwSMdm.jpg",
+      "description": "La niche adorée de Snoopy disparaît. En essayant de la retrouver, il découvre ce qui constitue vraiment un foyer.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:980431",
+      "type": "movie",
+      "name": "‎Avatar Aang, le dernier maître de l'air",
+      "poster": "https://image.tmdb.org/t/p/w500/sJDjdYGDFdx9uftetPPjH7Jwing.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ezbrL1dMymKQZw7mDEWa2ZTzN7d.jpg",
+      "description": "Avatar Aang, le dernier Maître de l'Air, apprend l'existence d'un pouvoir ancestral qui pourrait sauver sa culture. Avec ses amis, il se lance dans une quête mondiale pour le trouver avant qu'il ne tombe entre de mauvaises mains.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1185806",
+      "type": "movie",
+      "name": "La Pat’ Patrouille : Le film mission Dino",
+      "poster": "https://image.tmdb.org/t/p/w500/iprKhXVhUuGo3LbPurtB7Zcq6ph.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6TSxLmwT7j1ugtKi8NyMmdzWAGj.jpg",
+      "description": "Lorsqu’une mystérieuse tempête surprend leur navire, la Pat’ Patrouille s’échoue sur une île tropicale encore inexplorée… et peuplée de dinosaures ! Ils y rencontrent Rex, un chiot courageux installé sur l’île depuis des années et devenu un véritable expert des dinosaures. Mais leur ennemi de toujours, M. Hellinger, arrive lui aussi sur l’île avec un projet dangereux : exploiter ses richesses naturelles en creusant des mines. Ses actions imprudentes déclenchent bientôt l’éruption d’un gigantesque volcan endormi. La Pat’ Patrouille se retrouve alors entraînée dans une série de missions de sauvetage spectaculaires, plus impressionnantes que tout ce qu’elle a connu jusqu’ici. Elle devra arrêter M. Hellinger et sauver l’île avant qu’il ne soit trop tard.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1725116",
+      "type": "movie",
+      "name": "Simpsley",
+      "poster": "https://image.tmdb.org/t/p/w500/xzmJsuoYQzi3jhijL9zIoFvOmzL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2vl4nyxi1zVtiqYqJkbP8yTMOQV.jpg",
+      "description": "Lorsque Marge Bouvier, une escroc sans le sou, est envoyée en Italie pour convaincre le riche et naïf Seymour Skinner de rentrer au pays, elle est tentée par les signes extérieurs de richesse. Mais un grain de sable vient enrayer la machine : Homer Simpsley, l'invité collant et idiot de Skinner. Mensonges, luxure et lires italiennes sont au rendez-vous.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1315772",
+      "type": "movie",
+      "name": "‎Des Minions et des Monstres",
+      "poster": "https://image.tmdb.org/t/p/w500/vuxZITXEqsBHBUhc1TKEU8mxvc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg",
+      "description": "Une histoire aussi rocambolesque qu’absurde, mais bien sûr totalement véridique, qui raconte comment les Minions, partis à la conquête d’Hollywood, sont devenus des stars de cinéma, pour finalement tout perdre en libérant au passage une bande de monstres déchaînés, avant de s’unir pour tenter de sauver la planète de ce nouveau désastre à leur actif.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1560520",
+      "type": "movie",
+      "name": "Batman Knightfall - Partie 1",
+      "poster": "https://image.tmdb.org/t/p/w500/8hsSCYpO5XFSAVnn70YehKslgFt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/caBIySpwuFi2i7ynvHIlnxJLOdN.jpg",
+      "description": "L'asile d'Arkham a été détruit et ses détenus se déchaînent sur Gotham City. Alors que Batman se lance dans une course contre la montre pour appréhender certains de ses pires ennemis, il est poussé au bout de ses limites physiques et mentales et se retrouve confronté à une nouvelle menace : l'homme appelé Bane !",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1716513",
+      "type": "movie",
+      "name": "Les Simpson : Extreme Makeover : Homer Edition",
+      "poster": "https://image.tmdb.org/t/p/w500/vim76mMXig00YRxN2iGYJASoGkP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4bW2662ZiJhJmK4IseCReVzgZ3C.jpg",
+      "description": "La soirée en amoureux d'Homer et Marge tourne au cauchemar lorsque Marge apprend qu'Homer a laissé les enfants sans surveillance, avec pour seule « baby-sitter » la caméra de la sonnette. Frustrée par son mari imparfait, Marge, un peu éméchée, se met à imaginer une trilogie de fantasmes mettant en scène un Homer bien différent.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1084244",
+      "type": "movie",
+      "name": "Toy Story 5",
+      "poster": "https://image.tmdb.org/t/p/w500/5eqxQzAxennEKBAg147LUX4gVlS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qjTqY5coNiz6sVtPng40IzltsoN.jpg",
+      "description": "Buzz, Woody, Jessie et le reste de la bande verront leur travail remis en question lorsqu'ils découvriront que ce qui obsède les enfants d'aujourd'hui s’appelle... l'électronique !",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1007757",
+      "type": "movie",
+      "name": "Aventures croisées",
+      "poster": "https://image.tmdb.org/t/p/w500/gz64ZUKg4C4g1yfGD0o5opcBOKy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zMwhWailP1WY7sb6AoE6b8ugoy.jpg",
+      "description": "Un petit animal des bois et un oiseau majestueux, ennemis jurés de la Vallée, qui échangent soudainement leurs corps et doivent faire équipe, en se mettant dans la peau  de l'autre, pour survivre à la plus folle aventure de leur vie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:539745",
+      "type": "movie",
+      "name": "La Ferme des animaux",
+      "poster": "https://image.tmdb.org/t/p/w500/6pzI1DIlxwAFffw9OZcG6cr031U.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rg1E0Ya6YYiGPcg5p1ZIkDd8u3F.jpg",
+      "description": "Un groupe d'animaux se rebellent contre leurs maîtres humains et prennent le contrôle de la ferme. Leur révolte terminée, ils sont confrontés à de nouveaux défis sous le règne d'un cochon rusé nommé Napoléon. Cette situation les oblige à trouver le courage de s'opposer à Napoléon.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1226863",
+      "type": "movie",
+      "name": "Super Mario Galaxy, le film",
+      "poster": "https://image.tmdb.org/t/p/w500/aSQktALDmbunDbwkuZbZFMEWVFr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg",
+      "description": "Mario et Luigi gèrent les tracas du royaume Champignon, se lient d'amitié avec Yoshi, tentent de réhabiliter mini-Bowser et se préparent pour l'anniversaire de Peach. Mais quand un appel à l'aide arrive de l'autre bout de la galaxie, l'équipe part découvrir des mondes nouveaux, des menaces inattendues et des personnages emblématiques, comme Rosalina et Bowser Jr.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1327819",
+      "type": "movie",
+      "name": "Jumpers",
+      "poster": "https://image.tmdb.org/t/p/w500/gme8X6Y0b1wutuW6kB039i9NwCr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/u53UYu5XG2hNgWGvs3xGhAVzypl.jpg",
+      "description": "Mabel, une amoureuse des animaux, utilise une nouvelle technologie pour \"transférer\" sa conscience dans un robot-castor réaliste et communiquer directement avec les animaux. Alors qu'elle découvre des mystères du monde animal dépassant tout ce qu'elle aurait pu imaginer, Mabel se lie d'amitié avec Roi Georges, un charismatique castor, et doit rallier tout le règne animal pour faire face à une menace humaine majeure et imminente : le maire Jerry Generazzo, un beau parleur.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1297311",
+      "type": "movie",
+      "name": "Quantum Supremacy",
+      "poster": "https://image.tmdb.org/t/p/w500/oU9td2mvEu04rLGlynziVmNo16b.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zEsFCfW7c8x2X7q3uLbZYoGka7O.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1297842",
+      "type": "movie",
+      "name": "GOAT : Rêver plus haut",
+      "poster": "https://image.tmdb.org/t/p/w500/9wwbYnU3HfAYqdjbFMhy2a8HYvr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tq3h43fZy0H80vzf47MAY7R9Mxo.jpg",
+      "description": "Will est un petit bouc avec de grands rêves. Lorsqu'il décroche une chance inespérée de rejoindre la ligue professionnelle de \"roarball\", un sport ultra-intense réservé aux bêtes les plus rapides et féroces, il entend bien saisir l’opportunité. Problème : ses nouveaux coéquipiers ne sont pas vraiment ravis d'avoir un \"petit\" dans l'équipe. Mais Will est prêt à tout pour changer les règles du jeu.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:991494",
+      "type": "movie",
+      "name": "Bob l'éponge, le film : Un pour tous, tous pirates !",
+      "poster": "https://image.tmdb.org/t/p/w500/oCakNGooFW6WCQnVISBUuSRkaYw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pMxO1beNNFYMDM7RcDyKW5Wheuz.jpg",
+      "description": "Bob l'éponge et ses amis de Bikini Bottom larguent les amarres pour leur plus grande aventure sur grand écran. Bien décidé à prouver à M. Krabs qu'il est désormais un grand garçon, Bob se lance sur les traces du légendaire Hollandais Volant, un redoutable pirate fantôme. Cap sur une épopée déjantée, entre fous rires, frissons et péripéties sous-marines, jusque dans les abysses les plus mystérieux de l'océan, là où aucune éponge n'a jamais osé plonger !",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1167307",
+      "type": "movie",
+      "name": "David",
+      "poster": "https://image.tmdb.org/t/p/w500/xAGzSQBN1tTGjuaB1njwnkN9Etf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mZ6J2g6HCV2gj3iuCdSxcyBXq9c.jpg",
+      "description": "Des chants du cœur de sa mère aux murmures d'un Dieu fidèle, l'histoire de David commence dans une dévotion silencieuse. Lorsque le géant Goliath se lève pour terroriser une nation, un jeune berger armé uniquement d'une fronde, de quelques pierres et d'une foi inébranlable s'avance. Poursuivi par le pouvoir et animé par un but précis, son parcours met à l'épreuve les limites de la loyauté, de l'amour et du courage, et culmine dans une bataille qui ne vise pas seulement la couronne, mais aussi l'âme d'un royaume.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1588237",
+      "type": "movie",
+      "name": "Chapitre perdu : La vengeance de Yuki",
+      "poster": "https://image.tmdb.org/t/p/w500/x14YpgJ9Z77vufopLaPGDFSftcM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9KZ0c6sPo8ssTvco409XR8PtYgm.jpg",
+      "description": "Quentin Tarantino a rêvé d'un chapitre légendaire intitulé « La vengeance de Yuki » pour son film Kill Bill. Hélas, cette vision n'a jamais été portée sur grand écran. Plus de 20 ans plus tard, Tarantino et Epic s'unissent pour donner vie à cette histoire dans Fortnite.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1084242",
+      "type": "movie",
+      "name": "Zootopie 2",
+      "poster": "https://image.tmdb.org/t/p/w500/hBI7Wrps6tDjhEzBxJgoPLhbmT1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
+      "description": "Judy Hopps et Nick Wilde explorent à nouveau Zootopie, entre mystères, rires et rencontres inattendues. À travers chaque rue et chaque instant, ils découvrent que l’amitié et la curiosité transforment le quotidien en moments magiques.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

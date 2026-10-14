@@ -1,0 +1,74 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:37678",
+      "type": "series",
+      "name": "The Voice (États-Unis)",
+      "poster": "https://image.tmdb.org/t/p/w500/7ah1WExcMkzbq7sARCTmcC23tBr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/x8pSFa3BXyVpkjHyn7YxmLyhjoh.jpg",
+      "description": "Les meilleurs chanteurs du pays s’affrontent dans un grand concours de chant, dont le gagnant est couronné « The Voice ». Le programme repose sur un format innovant en quatre étapes : les auditions à l’aveugle, les battles, les épreuves éliminatoires et, les prestations en direct.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:14658",
+      "type": "series",
+      "name": "Survivor",
+      "poster": "https://image.tmdb.org/t/p/w500/Ap0qf8VxF9DW4NXLYvMmpg3WkdF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1oaj0RL4cM0WuUQJUuarpVWrhb0.jpg",
+      "description": "Une aventure dans laquelle un groupe de personnes ont échoué sur une ile isolée. Le dernier survivant de cette aventure repartira chez lui avec la somme d'1 millions de dollars.",
+      "releaseInfo": "2000"
+    },
+    {
+      "id": "tmdb:30957",
+      "type": "series",
+      "name": "The Amazing Race",
+      "poster": "https://image.tmdb.org/t/p/w500/x1jq0atcQg6UkaZpco0kFL6QHuM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mSkisNewxu55Ivar5EubhcIuoqn.jpg",
+      "description": "Cette compétition de réalité voit les équipes se lancer dans une randonnée autour du monde vers des destinations incroyables où elles doivent s'affronter dans une série de défis, certains mentaux et d'autres physiques. Ce n'est que lorsque les tâches sont terminées qu'ils apprendront leur prochain emplacement. Les équipes les plus en retard seront progressivement éliminées au fur et à mesure que le concours progresse, la première équipe à arriver à la destination finale remportant la course et le prix de 1 million de dollars.",
+      "releaseInfo": "2001"
+    },
+    {
+      "id": "tmdb:62",
+      "type": "series",
+      "name": "The Challenge",
+      "poster": "https://image.tmdb.org/t/p/w500/A8pSOaknOrNCPRssEyRYsHCRLZ3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kaolHDM9XOnvTTZi9FBLhPS35s3.jpg",
+      "description": "Chaque défi oppose de nombreux membres de la distribution des saisons précédentes d'émissions de téléréalité les uns contre les autres, en les divisant en deux équipes distinctes selon différents critères, tels que le sexe, sur lequel ils sont apparus pour la première fois, qu'ils soient ou non des vétérans ou des recrues de l'émission, etc. Les deux équipes s'affrontent dans de nombreuses missions afin de gagner des prix et d'avancer dans le jeu global.",
+      "releaseInfo": "1998"
+    },
+    {
+      "id": "tmdb:92611",
+      "type": "series",
+      "name": "RuPaul's Drag Race UK",
+      "poster": "https://image.tmdb.org/t/p/w500/rGKdb9afwZSPSAZ2jN2SMf9tthQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7fsT1NnmNbden0mptoVinBNp4ih.jpg",
+      "description": "RuPaul a fait le voyage à travers l'étang à la recherche d'une reine avec le plus de charisme, d'unicité, de nerf et de talent de tout le pays.",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:215943",
+      "type": "series",
+      "name": "Les Traîtres (États-Unis)",
+      "poster": "https://image.tmdb.org/t/p/w500/xWK9tLH2UGgzuAI6P3cHeTKopfj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sCn3qAUCbDOcPJcNvjdq7z06Eg2.jpg",
+      "description": "Présentée par Alan Cumming, cette émission de téléréalité réunit des personnalités du monde du divertissement dans un château situé au cœur des Highlands écossais pour un jeu de stratégie inspiré d'une enquête criminelle. Les candidats participent à une série d'épreuves afin de constituer une cagnotte pouvant atteindre 250 000 dollars, tandis que des « traîtres », secrètement désignés parmi les « loyaux », éliminent progressivement les autres participants dans l'espoir de remporter l'intégralité des gains.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:87012",
+      "type": "series",
+      "name": "The Great British Bake Off",
+      "poster": "https://image.tmdb.org/t/p/w500/zZBzkM3XXZHOauKlHSv3Vg6e4iZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jRuc6rFAEY6tEV5wc9kopEGJfuo.jpg",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:237243",
+      "type": "series",
+      "name": "Big Brother",
+      "poster": "https://image.tmdb.org/t/p/w500/eWnxE8wNT2rC0YrSg3uEY5chCCf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mEY2exPOsSoZ5xhAtxAY2Cqc3f6.jpg",
+      "releaseInfo": "2023"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:297332",
+      "type": "series",
+      "name": "The Chrisleys: Back to Reality",
+      "poster": "https://image.tmdb.org/t/p/w500/5lhzXbhAENNytMzsyl5rRLK6WSB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ntiRv71LfIga2gLaqLceLIZuV5I.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:297184",
+      "type": "series",
+      "name": "A Sorority Mom's Guide to Rush!",
+      "poster": "https://image.tmdb.org/t/p/w500/3B3IuLSO0EgPbgp8R0klV7GM3Ii.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7xusQT95dg0DNbmJU53GXZW9iq0.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:288471",
+      "type": "series",
+      "name": "Dr. Pimple Popper: Breaking Out",
+      "poster": "https://image.tmdb.org/t/p/w500/9lkantJMGICPZ7AYOGROFqkeIB7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wOg4MnPFDNOP60HPxFSE7q7JVFg.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:281514",
+      "type": "series",
+      "name": "The 6000 lb Diaries with Dr. Now",
+      "poster": "https://image.tmdb.org/t/p/w500/yF7MxLDCIuF9vJVjbwUwgNqeC0g.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eQE3ebwUYYH1CLjDYZTzWD9ihq7.jpg",
+      "description": "Suivez des individus souffrant d'obésité morbide alors qu'ils luttent pour la chance de vivre la vie qu'ils ont toujours voulue, tant pour eux-mêmes que pour leurs proches. Atteignant un poids combiné de plus de 6 000 livres et à un point de rupture extrême, ces personnes se tournent vers le Dr Now, une autorité en matière de perte de poids, et son équipe de spécialistes, pour subir une chirurgie bariatrique qui changera leur vie et acquérir les outils nécessaires pour gérer l'alimentation émotionnelle. À travers des caméras-journal intimes et des confessions, chaque épisode met en lumière le parcours complet d'une personne alors qu'elle partage ses pensées les plus intimes, ses luttes émotionnelles et physiques, et son cheminement ultime pour reprendre le contrôle de sa vie.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:257647",
+      "type": "series",
+      "name": "Outrageous Love With Nene Leakes",
+      "poster": "https://image.tmdb.org/t/p/w500/vodoa4TPZns2BNPg2aVQa1YRh0T.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1tFtFoogPt6uGm3TfYk9L9aaROA.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:256075",
+      "type": "series",
+      "name": "Gypsy Rose: Life After Lock Up",
+      "poster": "https://image.tmdb.org/t/p/w500/e6pxsAHCml8toowvtfYXOjIa8hl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fm9sIOkTqyCBRBB2tbGmOHU8e3b.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:255960",
+      "type": "series",
+      "name": "The Life & Murder of Nicole Brown Simpson",
+      "poster": "https://image.tmdb.org/t/p/w500/7dMWD1AQFUnHebkgZN6sJTVqm6i.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bRmWLUxUovhZ7WyczuwvHWMF9AB.jpg",
+      "description": "Cette série documentaire permet à la voix et au récit de Nicole Brown Simpson d’être entendus au sujet du crime dont elle a été victime et du célèbre procès qui a suivi. Le projet fait appel à 50 participants, dont les personnes qui connaissaient le mieux Nicole, ses amis et sa famille, pour jeter un nouvel éclairage sur sa vie et sa mort tragique.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:246159",
+      "type": "series",
+      "name": "Where Is Wendy Williams?",
+      "poster": "https://image.tmdb.org/t/p/w500/el20OGq2jiphEI3Dh0eHr0Cqn3T.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/h2wtL7gu0LbiDp4yFyIhlam5Joh.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:245993",
+      "type": "series",
+      "name": "I Wasn’t Expecting a Baby!",
+      "poster": "https://image.tmdb.org/t/p/w500/pHJtach5Ew1R405s9y3FdvMAX3G.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eWr8usp3KmorOiiI7XyvIlahTyv.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:240166",
+      "type": "series",
+      "name": "The Prison Confessions of Gypsy Rose Blanchard",
+      "poster": "https://image.tmdb.org/t/p/w500/A1z1S3jje7lUUpBNJ511giwLZ95.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nu2w2XVwB5H4cZO8MSIsAGjtKHz.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:237292",
+      "type": "series",
+      "name": "Les secrets de la famille Murdaugh",
+      "poster": "https://image.tmdb.org/t/p/w500/wgPhzM0kiLBgIP49P2Hy8MKVtVN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eoQaZVKpk5v1xECuTKJGWq8fxGs.jpg",
+      "description": "Richard Alexander Murdaugh, plus connu sous le nom d'Alex Murdaugh, est à la tête du cabinet d'avocats dirigé par sa famille depuis plusieurs générations. Très respecté, mais également craint pour l'influence et la puissance de sa famille, Alex fait tout pour maintenir son cadre de vie privilégié et entretenir les siens...",
+      "releaseInfo": "2023"
+    }
+  ]
+}

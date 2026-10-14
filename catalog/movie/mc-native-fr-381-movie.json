@@ -1,0 +1,180 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1776129",
+      "type": "movie",
+      "name": "Gloria",
+      "poster": "https://image.tmdb.org/t/p/w500/30rONXlNTT1K9u5NbKkFCOeEXvh.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1470480",
+      "type": "movie",
+      "name": "Dieu est timide",
+      "poster": "https://image.tmdb.org/t/p/w500/9TcNiAZoVHVtvUhlAHJ1kObsqaB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mHH06LwSeYt0bqSLswZTXgoUOem.jpg",
+      "description": "Lors d'un voyage en train, Ariel et Paul s'amusent à dessiner leurs plus grandes peurs lorsque Gilda, une étrange passagère, s'invite dans leurs confidences. Son expérience de la peur ne semble néanmoins pas aussi innocente que leurs dessins.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1739978",
+      "type": "movie",
+      "name": "Zidane, nouvelle vie",
+      "poster": "https://image.tmdb.org/t/p/w500/A5eV6aluvbWaK0if00tsFBAHFTK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tFfT4VB2auVkOUf3IkQEFdwAG2e.jpg",
+      "description": "Nouvelle Vie, un documentaire exclusif qui explore la transition fascinante de l'icône du football Zinedine Zidane de joueur légendaire à entraîneur respecté. Ce film rare offre un regard intime sur la nouvelle étape de la carrière de Zidane après sa retraite, ses réflexions personnelles et ses premiers pas en tant que manager.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1739632",
+      "type": "movie",
+      "name": "Jurassic Sharks",
+      "poster": "https://image.tmdb.org/t/p/w500/azOwL1nSPA6XSavuoQILaV27Ip4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2Omx1s2uhl7cDOFbIROrdGwFDdH.jpg",
+      "description": "Ce documentaire emmène les téléspectateurs au cœur des eaux préhistoriques à la découverte des ancêtres des requins actuels. Grâce à l'animation, l'épisode met en lumière certaines des créatures marines préhistoriques les plus redoutables, comme le Dunkleosteus, le requin-scie (Helicoprion) et le requin à dents de ciseaux (Edestus).",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1731494",
+      "type": "movie",
+      "name": "The Odyssey - Making Of",
+      "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fXUxAL8w724dI9yT5UbwJuk29K9.jpg",
+      "description": "Plongez dans les coulisses de *L'Odyssée*, l'épopée d'action légendaire de Christopher Nolan. Ce documentaire exceptionnel explore le défi monumental que représentait l'adaptation pour le grand écran de la saga fondatrice d'Homère, en retraçant un tournage principal éprouvant de 91 jours à travers six pays. De l'utilisation révolutionnaire d'une technologie de tournage IMAX inédite à la coordination colossale de plus de 5 300 costumes créés sur mesure, découvrez comment une distribution prestigieuse — emmenée par Matt Damon, Tom Holland et Anne Hathaway — a donné vie à l'univers périlleux et intemporel des dieux et monstres de la Grèce antique.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1764849",
+      "type": "movie",
+      "name": "La Mémoire des Poissons",
+      "poster": "https://image.tmdb.org/t/p/w500/stobl5Umudxj62iKHOd7vb3yj6y.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uekVI1Hxm0KDTWaAF0iQ6KleQQH.jpg",
+      "description": "Quand Mila lui avoue qu’elle voit quelqu’un d’autre, le monde d’Adam vacille.  Il dérive alors à travers ses souvenirs et ses fantasmes, cherchant à retenir un amour qu’il n’avait jamais su regarder, et qui maintenant lui échappe.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1716208",
+      "type": "movie",
+      "name": "C'est pas grave d'aimer l'Argentine",
+      "poster": "https://image.tmdb.org/t/p/w500/mvKgwIdk3l1f3VqlI7ywVXY7NEU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6klEloHoC84rc2DWPGNnTZzy0j.jpg",
+      "description": "À la veille de la Coupe du monde 2026, Hervé Mathoux s'est rendu en Argentine pour comprendre la rivalité singulière qui s'est dessinée entre la France et l'Argentine.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1748089",
+      "type": "movie",
+      "name": "Champs célestes",
+      "poster": "https://image.tmdb.org/t/p/w500/iZiqyKyO2puMBbKej6EQjgdUNjq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ArKHOpI7d5tI6z5g3Wu8ziySQ2.jpg",
+      "description": "Une petite ferme en permaculture tenue par un couple de jeunes quarantenaires. Les limaces viennent d’envahir le champ. La vente du tracteur pour éponger leurs dettes est un coup dur pour le père qui, à bout, décide de remettre en cause toute la philosophie de la ferme et de partir acheter de l’anti-limaces chimique...",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1463188",
+      "type": "movie",
+      "name": "Boy George & Culture Club",
+      "poster": "https://image.tmdb.org/t/p/w500/dH32lHEdcEeKfperjPbx8U7SqyL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gm6bt0ag8Yzm0X0HY0qMhNcxcSN.jpg",
+      "description": "Dans le contexte de la Grande-Bretagne des années 1980, quatre jeunes hommes – Boy George, Roy Hay, Mikey Craig et Jon Moss – ont formé un groupe multiracial, ethniquement diversifié et sexuellement libéré, avec un style et un son qui ont remis en question le statu quo à l'époque des Nouveaux Romantiques et de la Grande-Bretagne de Margaret Thatcher.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1707407",
+      "type": "movie",
+      "name": "Back 2 Back - Paris dans la légende",
+      "poster": "https://image.tmdb.org/t/p/w500/rIA7VMg9bDSQkxN8H1YThfVzWZY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kdaa8SW16Bk8JzJCROa19VROP0W.jpg",
+      "description": "Ce soir-là, au bout du suspense et de 120 minutes indécises, le Paris-SG de Luis Enrique est entré dans la légende. Une deuxième victoire consécutive en finale de Ligue des Champions qui propulse le club parisien dans une autre dimension. De la Puskas Arena au Parc des Princes, en passant par la Géorgie sur les traces de Kvaratskhelia, l’Espagne dans la ville d’Enrique, le Portugal chez João Neves, le Brésil avec l’ancien attaquant de Paris Lucas Moura, les rues de Budapest en compagnie de la famille Zaïre-Emery… les caméras de Canal+ vous font revivre l’histoire de ce « Back 2 back » de façon inédite !",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1705489",
+      "type": "movie",
+      "name": "Le pacte des Louves",
+      "poster": "https://image.tmdb.org/t/p/w500/zEcX134wPnJJOWnChxrf3e4EpKy.jpg",
+      "description": "Elles sont agent de sécurité à la RATP, chargée de communication dans une ONG ou encore professeure d’E.P.S. le jour… Mais aussi joueuses de rugby en première division le soir et le week-end ! Bobigny, en Seine-Saint-Denis, n’est pas un nom qui sonne « rugby ». Et pourtant… Sa section féminine évolue au plus haut niveau national depuis 2009.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1701805",
+      "type": "movie",
+      "name": "Arsenal, la quête",
+      "poster": "https://image.tmdb.org/t/p/w500/mZCxtQoPdsQwPg3LlrjzygJwYFJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/P3y2j91qAwDYldi6Es4TUXJvVP.jpg",
+      "description": "Vingt-deux ans après le titre légendaire des Invincibles en 2004, les Gunners de Mikel Arteta se retrouvent en ce printemps 2026 en position de décrocher la Premier League. « Arsenal, la quête » retrace le sprint final d’un club mythique, vice-champion d’Angleterre les trois années passées, confronté à son histoire au moment où elle exige les plus grands sacrifices pour briser la malédiction du « perdant magnifique ».",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1686112",
+      "type": "movie",
+      "name": "IA, au cœur du cinéma",
+      "poster": "https://image.tmdb.org/t/p/w500/1TnB4BUs0YXpwuCjSQ61LgWV30z.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tZr9c3A4aNbXtUYhBj0tsKwXZwi.jpg",
+      "description": "Le cinéma a toujours raconté des histoires d'intelligence artificielle, qu'il s'agisse de machines capables de penser comme des humains ou de sociétés contrôlées par des algorithmes. Aujourd'hui, ces fictions deviennent réalité et bouleversent en profondeur l'industrie. À travers les témoignages de réalisateurs, acteurs et techniciens, se dessine une industrie tiraillée entre fascination et inquiétude.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1127384",
+      "type": "movie",
+      "name": "Deep Water",
+      "poster": "https://image.tmdb.org/t/p/w500/MYnja0ditOENAOWB8R7dW19wO9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/szKv713FcUXx6hcfdY369vtkmzr.jpg",
+      "description": "Alors qu'il survole les Îles Mariannes, en mer des Philippines, le vol 140 de la compagnie Northeastern Airlines, qui devait relier Los Angeles à Shanghai avec 257 passagers à bord, connait une avarie dramatique quand un incendie se déclare dans la soute. Après un amerrissage d'urgence, les rescapés découvrent qu'ils dérivent dans des eaux infestées de requins...",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1747657",
+      "type": "movie",
+      "name": "Aucun signe de faiblesse",
+      "poster": "https://image.tmdb.org/t/p/w500/tHfsU9sKuD3vRpUvPeEkweR5ekQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lPv5N3AyVS6UMnFreOQtkwwPZwP.jpg",
+      "description": "Des sous-sols des Mureaux, en banlieue parisienne, aux rings de Monaco, l'entraîneur Abadila Hallab guide le destin de jeunes boxeurs en quête de reconnaissance mondiale grâce à son enseignement. Alors qu'il est évincé du club dans un climat social hostile aux populations immigrées, il poursuit sa mission en entraînant ceux qu'il appelle ses « soldats ». Son engagement indéfectible envers ses « gamins » reflète un combat plus intime et personnel : la quête, tout au long de sa vie, de l'admiration de son père.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1670792",
+      "type": "movie",
+      "name": "Fanny Ruwet : On disait qu'on faisait la fête",
+      "poster": "https://image.tmdb.org/t/p/w500/zqXBkKHzu3rw4agKtKmcnOQDvSN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wFF2dEpNKtVvnKXWQwiRgziDDl5.jpg",
+      "description": "Fidèle à son style sans tabou et désabusé, Fanny Ruwet dit qu'on fait la fête pour mieux aborder des tonnes de petites questions que l'on se pose tous les jours sans forcément avoir les réponses. Dans ce show, elle aborde ainsi en toile de fond les interrogations des vies d'adultes souvent passées sous silence.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1649993",
+      "type": "movie",
+      "name": "Oreka, au-delà du possible",
+      "poster": "https://image.tmdb.org/t/p/w500/oOxad3oZFTE84SCz59E6U3mrVjq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/j6zWFuUNr5ocmgmLhwWgA6nEl3s.jpg",
+      "description": "Depuis son accident jusqu’aux podiums de grandes compétitions handisportives, Michel García a suivi pendant plus de dix ans l’ascension de l’athlète Maxime Cabanne. Une histoire d’amitié, de sport et de résilience couronnée par un défi : une expédition polaire dans le grand nord.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1529360",
+      "type": "movie",
+      "name": "We Were Here",
+      "poster": "https://image.tmdb.org/t/p/w500/2bZSQPV4El4IU3OilRbNfpN7tjo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rUplGm5HaxUl5ObZGJc6tyZSk44.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1658459",
+      "type": "movie",
+      "name": "La voix de Madame Aude",
+      "poster": "https://image.tmdb.org/t/p/w500/wMBVsNMs7xOLzTL2gxT4oKb67yQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/h4CqPxhf68bcoqsj8R9CNcwqVtl.jpg",
+      "description": "Il existe, depuis près de 40 ans, un lien unique entre les habitants de l’île de la Réunion et une voix de radio. Cette voix rauque arpente tous les jours les villages isolés du Piton des Neiges, sillonne les côtes sauvages de Saint-Joseph, se faufile sur les marchés de Saint-Denis. Ils sont plus de 200 000 auditeurs à l’écouter, tous considèrent cette voix comme une amie, c’est à elle qu’ils vont raconter en priorité le combat de leurs vies ordinaires.  Cette voix, c’est celle de Madame Aude. Madame Aude est animatrice radio. Elle a 87 ans et ne laisse personne indifférent.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1471224",
+      "type": "movie",
+      "name": "Le Crime du 3e étage",
+      "poster": "https://image.tmdb.org/t/p/w500/5FHAlQPHFyJEIN1UOxsADog1KUy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jJciPkyc8EcjKkZ9lGgp14VHnp.jpg",
+      "description": "Colette, professeure de cinéma spécialisée dans l’œuvre de Hitchcock, soupçonne son nouveau voisin d’en face d’avoir tué sa femme. Réalité ou déformation professionnelle ? Son mari, François, écrivain de romans historico-policiers un peu désuets, est d’abord sceptique face à l’obsession de Colette pour ce prétendu crime. Il se laisse cependant embarquer dans cette enquête rocambolesque, et, à mesure que les indices s’accumulent et que le mystère s’épaissit, ce couple ordinaire se transforme en duo de détectives hors pair. Alors, y a-t-il vraiment eu un crime au 3 e étage ?",
+      "releaseInfo": "2026"
+    }
+  ]
+}

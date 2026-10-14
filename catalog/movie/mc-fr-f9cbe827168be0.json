@@ -1,0 +1,183 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1281331",
+      "type": "movie",
+      "name": "The Social Reckoning",
+      "poster": "https://image.tmdb.org/t/p/w500/tF1P9HZEBJQ8w1KyBlS3zMS2Ogp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wXTaGcqX3jvdXSKCJAkl5jZyrKp.jpg",
+      "description": "L'histoire s'inspire de \"The Facebook Files\" du Wall Street Journal, une série d'articles publiés en octobre 2021 par Jeff Horowitz, qui ont révélé les rouages internes ainsi que les nombreux dommages causés par le plus grand réseau social au monde.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1492640",
+      "type": "movie",
+      "name": "UNABOMBER",
+      "poster": "https://image.tmdb.org/t/p/w500/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
+      "description": "Ted Kaczynski, un jeune prodige qui intègre Harvard à 16 ans avant de basculer dans le terrorisme. Soumis à des expériences psychologiques discutables menées par le docteur Henry Murray, le passé tourmenté de Kaczynski refait surface des décennies plus tard, lorsque la traque d'Unabomber menée par l'agente du FBI Joanne Miller met en lumière les conséquences terrifiantes de l'ambition et de l'isolement.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1375441",
+      "type": "movie",
+      "name": "Primetime",
+      "poster": "https://image.tmdb.org/t/p/w500/rhF8JALH8wrxKtXSCAB7a09tWsc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
+      "description": "Chris Hansen présente l'émission policière « To Catch a Predator ». Diffusée sur NBC Dateline, cette émission tente de filmer des pédophiles présumés avec l'aide des forces de l'ordre et d'une équipe d'appâts se faisant passer pour des mineurs sur Internet. En 2006, Hansen est sur le point de révolutionner le monde de la télévision.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:977942",
+      "type": "movie",
+      "name": "The Uprising",
+      "poster": "https://image.tmdb.org/t/p/w500/ymUS8HTc7ctfdSYC6bmEokSKisa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/y0reRTsewsPh0ePtgvDeLIsb5Wk.jpg",
+      "description": "Lors de la révolte des paysans anglais de 1381, l'humble Wat Tyler s'élève à la tête de la résistance contre le jeune roi Richard II. À la tête d'une armée de citoyens ordinaires, il affronte les troupes de la Couronne dans une lutte pour la justice et la survie. Ses actions font de lui un symbole légendaire de la résistance.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1380417",
+      "type": "movie",
+      "name": "Par tous les moyens",
+      "poster": "https://image.tmdb.org/t/p/w500/f4hdIed8vh10O8TkQ1CkHS8MQ3G.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eAouIDoMDhLetm6CtmDKIGEaaCi.jpg",
+      "description": "L'histoire vraie d'un tueur à gages de la mafia qui a été engagé par le FBI de Hoover et qui s'est associé à un jeune agent spécial noir pour traquer les responsables des meurtres des leaders des droits civiques dans le Mississippi en 1966.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1594914",
+      "type": "movie",
+      "name": "Lucky Strike",
+      "poster": "https://image.tmdb.org/t/p/w500/kzRAd7mj39ZY3FGNrDdZjqx56tn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uujYvxE9s6KY4SbBZ0ZFN3oBJhW.jpg",
+      "description": "Un soldat américain (Scott Eastwood) mène son unité pour bloquer une contre-offensive nazie. Coincés derrière les lignes ennemies, ses hommes sont tués dans une attaque, le laissant seul survivant. Blessé et confronté au froid glacial, il doit rejoindre à pied un point de ralliement. Avec sa radio comme seul lien, il lutte pour survivre aux éléments et aux ennemis qui le guettent à chaque détour.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1684246",
+      "type": "movie",
+      "name": "L'Envers du sport, Royaume-Uni : Vinnie Jones",
+      "poster": "https://image.tmdb.org/t/p/w500/adVJYlVhaCGEgTMH9JLvH7Hi42B.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/29NF9iyZw2dztiKgV8r4dvHuTSx.jpg",
+      "description": "De son image de bad boy du ballon rond à sa victoire en Coupe d'Angleterre, découvrez l'ascension, la chute, le retour improbable… et les nombreux cartons rouges de Vinnie Jones.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1662317",
+      "type": "movie",
+      "name": "L'Accident",
+      "poster": "https://image.tmdb.org/t/p/w500/cCJTvf7xZpqoEXF9PFf9t5jttxl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2iqLoDsatVBwAvHTEzI71p3qBe9.jpg",
+      "description": "Une ado au volant percute un bâtiment, tuant son petit copain et l'ami de ce dernier. Ce documentaire montre que ce qui semblait un tragique accident est en réalité un meurtre.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1620034",
+      "type": "movie",
+      "name": "Martin Short : Une vie XXL",
+      "poster": "https://image.tmdb.org/t/p/w500/5u8r3iMUVeVejv8G2PrRvlTbogC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vate7k6MyLQDeFYkHqCrLhRes6m.jpg",
+      "description": "Dans ce documentaire, Martin Short évoque une vie nourrie par la joie à travers des séquences cultes, des interviews et des vidéos inédites où apparaissent de nombreuses stars.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:936075",
+      "type": "movie",
+      "name": "Michael",
+      "poster": "https://image.tmdb.org/t/p/w500/2sDgNilJGVFpl1x4DMzYHjk0L0f.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ufSwlnECLoUbBjPrFqEQcWBzHwc.jpg",
+      "description": "Michael dresse le portrait cinématographique de la vie et de l’héritage de l’un des artistes les plus influents de notre époque.  Le film raconte l’histoire de Michael Jackson au-delà de la musique, depuis la découverte d’un talent hors du commun en tant que leader des Jackson Five, jusqu’à l’artiste visionnaire dont l’ambition créative a alimenté une quête incessante pour devenir le plus grand artiste au monde.  Mettant en lumière sa vie hors scène et ses performances les plus emblématiques de ses débuts en solo, le film offre au public une place au premier rang pour découvrir Michael Jackson comme jamais auparavant.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1641966",
+      "type": "movie",
+      "name": "L'Envers du sport : Coups de feu à Hawthorne Hill",
+      "poster": "https://image.tmdb.org/t/p/w500/kUhNOJZgOkOUiLO4qwt43Z6d5fv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6KMv3pPMkPlHoDdy461x3qep6GX.jpg",
+      "description": "Une dispute houleuse entre un entraîneur équestre et son élève dégénère en terrible acte de violence dans ce documentaire à rebondissements sur un crime réel.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1641962",
+      "type": "movie",
+      "name": "L'Envers du sport : Échec et clash",
+      "poster": "https://image.tmdb.org/t/p/w500/lSl3fWUhRXDtYLKvvnmB8fFBphA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8SEs6yUgrE5shU8tqXuR2MQIdlc.jpg",
+      "description": "Comment une partie entre deux grands maîtres d'échecs a-t-elle pu déboucher sur un scandale de sex-toy anal ? Ce documentaire revient sur une affaire surréaliste.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1341137",
+      "type": "movie",
+      "name": "La Grande Révélation",
+      "poster": "https://image.tmdb.org/t/p/w500/bvZ8GzOwDsWmIq1Ti8rT0qf62Fm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iQodpfb5trczzmqxAgnsUYPw2rv.jpg",
+      "description": "Amérique du Nord, 18ème siècle. Alors que les colonies sont au bord de l’effondrement, une amitié improbable se tisse entre le charismatique révérend George Whitefield et Benjamin Franklin. Leur relation privilégiée et l’évolution de la foi de ce dernier vont alors changer l’histoire à tout jamais.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1624961",
+      "type": "movie",
+      "name": "No Ordinary Heist",
+      "poster": "https://image.tmdb.org/t/p/w500/eA2uQxSMqyljAtt920084tDrw6G.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9fyXrAPfVlN4W5nH7MFiHy9SD1y.jpg",
+      "description": "Deux employés de banque sont contraints d'orchestrer un vol de 26,5 millions de livres sterling (33,8 millions de dollars) pour sauver leur famille.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1244517",
+      "type": "movie",
+      "name": "Tow",
+      "poster": "https://image.tmdb.org/t/p/w500/k5c2RDpTEXgS0oEblFlxe0uJbcS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cRhOM5UDUpBV7EdpdXxkstpli86.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1439660",
+      "type": "movie",
+      "name": "Fukushima, un cauchemar nucléaire",
+      "poster": "https://image.tmdb.org/t/p/w500/lmcJpVfdXHgmgTOB0uohY6kDxSw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/olz73f1yVWu5JlLDi8lI98Yekvl.jpg",
+      "description": "Les ingénieurs, techniciens, soldats et pompiers qui sont entrés dans les réacteurs de Fukushima pour stabiliser le combustible nucléaire en fusion le 11 mars 2011 racontent.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1405769",
+      "type": "movie",
+      "name": "La Voix du Pardon 2",
+      "poster": "https://image.tmdb.org/t/p/w500/xu1B6kE637p3QWdp53YEZoAYIT7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qHBnPZA3J6hSl9a3Q1JAQzDeo2L.jpg",
+      "description": "Après le succès retentissant de \"I Can Only Imagine,\" Bart Millard, membre de MercyMe, vit un rêve : des salles combles, une communauté d'admirateurs dévoués et une carrière florissante. Mais son monde bascule sous le poids de défis dévastateurs, dont un diagnostic bouleversant pour son jeune fils, Sam.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1249508",
+      "type": "movie",
+      "name": "Grizzly Night",
+      "poster": "https://image.tmdb.org/t/p/w500/bOoh4kdif2jKf6pq2R9WhGZBfMk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/i275mAQP4KhPtYUpMUgBGMmK4WN.jpg",
+      "description": "Inspiré de faits réels. Le 12 août 1967, dans le parc national de Glacier au Montana, l'impensable se produit : la même nuit, à 15 km d'intervalle, surviennent non pas une, mais deux attaques mortelles de grizzli.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1263012",
+      "type": "movie",
+      "name": "La Corde au cou",
+      "poster": "https://image.tmdb.org/t/p/w500/g7Y94KrUd0pDGRVVZQMh4n9FnYp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ulw8SrKbDeDrsSVNKPb5211AseI.jpg",
+      "description": "Indianapolis, 1977. Ruiné par une faillite immobilière, Tony Kiritsis prend en otage Richard Hall, le courtier qu’il tient responsable de tous ses malheurs. L'entrepreneur lie autour du cou de sa victime un fil métallique attaché à un fusil de chasse, lequel fera feu si la police tente d'intervenir. L’incident attire l’attention des médias, puis la faveur de l'opinion publique américaine, alors que le kidnappeur exige une énorme somme d’argent et une excuse publique du grand patron de la Meridian Mortgage Company. Alors que la prise d’otage se transforme en un gigantesque cirque médiatique, Kiritsis perd lentement mais sûrement le contrôle de la situation.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1371185",
+      "type": "movie",
+      "name": "Sur un air de blues",
+      "poster": "https://image.tmdb.org/t/p/w500/a37MBzhCanExpBxq1wzGRilRt49.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8dlna8rRcf5gDCRzEsjtHizpj1X.jpg",
+      "description": "Milwaukee, Ohio, 1989. Mike, imitateur d'Elvis, fait la connaissance de Claire, une chanteuse de clubs abonnée au répertoire de Patsy Cline. Le coup de foudre réciproque amène cet alcoolique sobre et cette mère célibataire à former un groupe dédié au répertoire de Neil Diamond baptisé Lightning & Thunder. De kermesses locales en festivals, le duo est remarqué par Eddie Vedder, le leader du groupe Pearl Jam, qui l'invite à assurer la première partie de son spectacle à Milwaukee. Le triomphe qui s'ensuit est assombri par un terrible accident, qui coûte à Claire une de ses jambes, et plonge ces amoureux fous dans leur première crise de couple, sous l'œil impuissant de leurs enfants respectifs.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

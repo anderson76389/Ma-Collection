@@ -1,0 +1,184 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:2734",
+      "type": "series",
+      "name": "New York Unité Spéciale",
+      "poster": "https://image.tmdb.org/t/p/w500/95flTYCxEPNFSdZVrHy9nMIeLbw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xhK9YCxNwnE0OB1SWvCY39heHQI.jpg",
+      "description": "Les inspecteurs qui font partie de la division des Crimes sexuels (SVU) du service de police de la ville de New York (NYPD) enquêtent sur des crimes de nature sexuelle. Alors que les autres émissions de la franchise de \"La loi et l'ordre\" se sont largement concentrées sur les cas de meurtres, les inspecteurs de la division des Crimes sexuels (SVU) ont souvent affaire à des crimes, tel le viol, auquel la victime survit et elle aide les autorités lors de l'enquête.",
+      "releaseInfo": "1999"
+    },
+    {
+      "id": "tmdb:4656",
+      "type": "series",
+      "name": "WWE Raw",
+      "poster": "https://image.tmdb.org/t/p/w500/fstEe6RsyNyPUnMwNcL20iNl0nE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ykWWT8FAChBffNxcDzoJMCK9LBb.jpg",
+      "description": "Chaque semaine, les supertars de Raw s'affrontent dans le ring mais également en dehors. Combats acharnés, prises impressionnantes, les catcheurs sont prêts à tout pour remporter la victoire. Depuis le 1000e épisode du show, diffusé le 23 juillet 2012, WWE Raw passe à un format de trois heures au lieu de deux, format auparavant réservé aux épisodes spéciaux.",
+      "releaseInfo": "1993"
+    },
+    {
+      "id": "tmdb:58841",
+      "type": "series",
+      "name": "Chicago Police Department",
+      "poster": "https://image.tmdb.org/t/p/w500/sfBiloE6J9rFEnpvckdeHZ06SSl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/18KSsDgcGQds7yOMC6MVRTbVJwt.jpg",
+      "description": "Des officiers en uniforme qui patrouillent et combattent le crime dans la rue, aux membres de l'unité des renseignements affectés à des affaires majeures (crime organisé, trafic de drogue, homicides...), toutes les recrues du poste de police du district 21 de Chicago risquent quotidiennement leurs vies. Ces énormes responsabilités dépassent souvent le simple cadre professionnel et entâchent la sphère privée de ces hommes et de ces femmes d'exception.\n\nSpin-off de Chicago Fire centré sur une brigade de police de la ville.",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tmdb:65701",
+      "type": "series",
+      "name": "Good Mythical Morning",
+      "poster": "https://image.tmdb.org/t/p/w500/jMpBQr2aNOFAI6wsC47zsOG6qOh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hvFCS0dMeC3ffiF4uYTKzUAkvYL.jpg",
+      "description": "Good Mythical Morning est une série YouTube de comédie, de discussion et de variétés américaine créée par Rhett McLaughlin et Link Neal. L'émission a été diffusée pour la première fois sur YouTube le 9 janvier 2012. De nombreuses célébrités et personnalités d'Internet, dont Daniel Radcliffe, Felix Kjellberg, Hank Green, Kobe Bryant et Linkin Park ont participé au show. L'émission se concentre sur Rhett et Link alors qu'ils racontent des histoires, chantent des chansons, relèvent des défis, etc...",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:285322",
+      "type": "series",
+      "name": "Below",
+      "poster": "https://image.tmdb.org/t/p/w500/fG6ODXfXVJbIrFxzQv9BhnTomPc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
+      "description": "Lorsqu'une mystérieuse créature marine sème la terreur dans un petit village de Terre-Neuve, un pêcheur endurci et sa famille luttent pour protéger leur communauté très soudée.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:65334",
+      "type": "series",
+      "name": "Miraculous, les aventures de Ladybug et Chat Noir",
+      "poster": "https://image.tmdb.org/t/p/w500/585lHpUQ75NvprAuSpAvJaNJya5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lH22EnM0ofC7GsVGU8dAA2RXV1c.jpg",
+      "description": "Paris, aujourd'hui. Marinette et Adrien sont deux collégiens comme les autres, à la différence près qu’ils ont été choisis pour sauver Paris ! Leur mission : capturer les Akumas du mystérieux Papillon qui transforment les parisiens en super vilains. Grâce à leur kwami, nos deux collégiens se métamorphosent en superhéros : Ladybug, et Chat Noir.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:289423",
+      "type": "series",
+      "name": "Recharge mon Coeur",
+      "poster": "https://image.tmdb.org/t/p/w500/p5UJ0xS2NVmqtUfy9i0DMIJ1Lf3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rN9xHDp83kZ3cOr82JR1b4rFIFk.jpg",
+      "description": "Un héritier d’entreprise doté d’un cœur artificiel rencontre une femme littéralement électrique. Ils concluent un marché qui fait battre son cœur, et pas seulement au sens propre.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:220542",
+      "type": "series",
+      "name": "Les Carnets de l'apothicaire",
+      "poster": "https://image.tmdb.org/t/p/w500/47pSay5Ao7SFeyQBZVkW5ifyhAZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gffVOVZ2Y9cmVIZ26Gt9ByMGCYH.jpg",
+      "description": "Formée dès son plus jeune âge par son père apothicaire, Mao Mao est un jour vendue comme servante au palais de l'empereur. Prisonnière dans les arcanes du pouvoir, elle attire l’attention de Jinshi, un séduisant haut fonctionnaire qui la promeut lorsqu’il découvre son talent pour confectionner des potions. Désormais goûteuse, Mao Mao met ses connaissances au service des gens du palais pour les soigner, mais aussi pour déjouer les mystères et les complots qui se trament…",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:293610",
+      "type": "series",
+      "name": "Doctor X : Mafia en blouse blanche",
+      "poster": "https://image.tmdb.org/t/p/w500/xYFTiwC7Tl0xOUFiVFUPWXHTHnr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mDYIV71RL3mkaW8IfSGNthuVB7l.jpg",
+      "description": "Kye Su-Jeong, une brillante chirurgienne, est affectée à l'hôpital universitaire de Guseo pour pourvoir un poste vacant en chirurgie. Elle y fait ses preuves grâce à son talent et met en lumière les absurdités du milieu médical. Elle se lie d'amitié avec Bu Seung-Kwon, le directeur de l'hôpital, et l'interne Park Tae-Kyeong",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:45790",
+      "type": "series",
+      "name": "JoJo's Bizarre Adventure",
+      "poster": "https://image.tmdb.org/t/p/w500/2Sc0veFPh9CcHMtNqMyiQqIW9ZF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5mUYDoFjDlPmDvnUWSknhYjGBBh.jpg",
+      "description": "Angleterre, 1981. Afin d'honorer ancienne dette, Lord George Joestar adopte Dio Brando, le fils de son sauveur Dario. Mais sous l'apparence du fils modèle, Dio souhaite s'emparer de la fortune des Joestar et humilier le fils du lord, Jonathan Joestar surnommé Jojo. Une rivalité nait entre eux et explose à cause d'un masque aztèque aux capacités mystérieuses. Dio s'en empare et devient un vampire, que seul la maîtrise du hamon permettra à Jonathan d'espérer le vaincre. Voici le point de départ du destin entremêlé de la famille Joestar et de Dio. Chaque illustre membre l'affrontera, lui ou des adversaires qui lui sont liés grâce au hamon, puis aux stands, la matérialisation de leur esprit combatif doté de force et de capacités insoupçonnées. Parmi eux, Joseph l'aventurier arrogant, Jotaro et son stand invincible Star Platinium, Josuke l'ami au grand cœur, Giorno le fils de Dio et gangster à la chevelure dorée et Jolyne, la fille à la volonté de fer.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:31991",
+      "type": "series",
+      "name": "WWE NXT",
+      "poster": "https://image.tmdb.org/t/p/w500/9nLBX5Bf7PW4FAaWJLXpFFdeTlV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/YaQ8YhHYpLkH3e7FRwBkcGoJhS.jpg",
+      "description": "WWE NXT est une émission et une académie de catch de la World Wrestling Entertainment (WWE), devenue depuis le 20 juin 2012, la troisième division de la WWE avec Raw et SmackDown. Cette nouvelle division met en avant des nouveaux catcheurs, d'abord sélectionnés dans l'ancien club-école de la WWE, la Florida Championship Wrestling, puis sur la scène indépendante internationale.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:1549",
+      "type": "series",
+      "name": "WWE SmackDown",
+      "poster": "https://image.tmdb.org/t/p/w500/oOiGZPiQUaIfajBSZMqC9pGUqsy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mWIyoSdVQxdr1bA423tObJwJSR.jpg",
+      "description": "WWE SmackDown (appelé aussi WWE SmackDown Live) est une émission de télévision de catch et de divertissement sportif produite par la WWE. Depuis la création de la WWE Brand Extension en 2002, SmackDown était une division distincte de la WWE avec son propre roster (voir aussi WWE draft), et était l'équivalent de WWE Raw (et ECW de 2006 à 2010) jusqu'à ce que la Brand Extension soit supprimée par la WWE en 2011.",
+      "releaseInfo": "1999"
+    },
+    {
+      "id": "tmdb:14929",
+      "type": "series",
+      "name": "Heartland",
+      "poster": "https://image.tmdb.org/t/p/w500/uc2gtWczT58BiAUJWFz9P5aZmNF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/11nGiX6hLdexBD4TVUAAVzSIAQy.jpg",
+      "description": "En dépit des dettes qui s'accumulent et de la banque qui menace de saisir, les Fleming se battent pour permettre à leur ranch de continuer à tourner.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tmdb:259140",
+      "type": "series",
+      "name": "Ranma1/2",
+      "poster": "https://image.tmdb.org/t/p/w500/paz1BKuMqwOW7FGMe5xqcTEstgx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xvD9urN8lUtWw5fm4a87Rl3dCZn.jpg",
+      "description": "Akane Tendo fait la connaissance de son nouveau fiancé, Ranma Saotomé, prodige des arts martiaux qui possède une particularité : il se transforme en fille au contact de l'eau froide.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:202297",
+      "type": "series",
+      "name": "Fire Country : Pompiers sur Appel",
+      "poster": "https://image.tmdb.org/t/p/w500/2qhBMwFtQIUQId8nhaywVqKTPLw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r6jUY6q3ObYOeFFWxM7jemS7IWE.jpg",
+      "description": "En quête de rédemption et d'une peine de prison raccourcie, le jeune condamné Bode Donovan rejoint un programme de lutte contre les incendies qui le ramène dans sa petite ville natale du nord de la Californie, où lui et d'autres détenus travaillent aux côtés de pompiers d'élite pour éteindre d'énormes incendies dans la région.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:226688",
+      "type": "series",
+      "name": "BEYBLADE X",
+      "poster": "https://image.tmdb.org/t/p/w500/66wkm14IWdrY5LaKZDAbkD2T9Jt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qAq9RBeHZoTMDFqQZ2o4cE5CJIQ.jpg",
+      "description": "Robin Kazami, blader débutant, s'associe à l'influenceuse Multi Nana-iro et à l'ancien champion Jaxon Cross pour former ce trio improbable, prêt à gravir les échelons du classement The X et à remporter le titre de champion blader !",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:207347",
+      "type": "series",
+      "name": "Blue Box",
+      "poster": "https://image.tmdb.org/t/p/w500/shXf4cTKUbMpx5AVBKi4V0dMwY3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8p39Ud6ZKMixBQ7R4frg2o3idzc.jpg",
+      "description": "Le joueur de badminton Taiki a toujours admiré de loin la star du basket Chinatsu. Jusqu'à un beau jour de printemps, où la vie les rapproche de façon inattendue.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:2808",
+      "type": "series",
+      "name": "Totally Spies !",
+      "poster": "https://image.tmdb.org/t/p/w500/zvEit6c2zC2PosXROb85jZwb0gx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gbmN2y9Dqm6XKEev1kd8GkGLLn.jpg",
+      "description": "Cette série raconte les aventures de trois amies adolescentes : Alex, Clover et Sam. Étudiantes dans la vie de tous les jours, elles sont en réalité agents secrets ; c'est-à-dire des espionnes professionnelles qui travaillent pour le WOOHP, une organisation secrète de protection de l'humanité. Lorsque leur patron Jerry a besoin de leurs services, il les envoie en mission, après leur avoir fait revêtir des combinaisons intégrales moulantes en latex coloré (jaune pour Alex, rouge pour Clover et verte pour Sam) et fourni des gadgets, qui les aideront à mener à bien leurs enquêtes.",
+      "releaseInfo": "2002"
+    },
+    {
+      "id": "tmdb:46080",
+      "type": "series",
+      "name": "Masha et Michka",
+      "poster": "https://image.tmdb.org/t/p/w500/ruQSBtzk5d6mQHLoiBvOQEr728R.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mZmxNM7XMMT1QroznAQWmRf7duP.jpg",
+      "description": "Masha est une petite fille qui n'arrive pas facilement à se poser tant son énergie est grande. Sa curiosité et sa créativité provoquent des situations comiques, même si parfois cela crée des problèmes aux autres. L'ours, Michka, est un ami au coeur tendre qui voit son monde tranquille bouleversé dès que Masha entre en action…",
+      "releaseInfo": "2009"
+    },
+    {
+      "id": "tmdb:283428",
+      "type": "series",
+      "name": "The Ramparts of Ice",
+      "poster": "https://image.tmdb.org/t/p/w500/spPKOGhjNrOZuCUoTOzg0Q05Mum.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ht6WUmez8cFbwlrFmGdjbYyn3RG.jpg",
+      "description": "Hantée par des souvenirs envahissants, Koyuki Hikawa préfère rester dans sa bulle jusqu'au jour où trois camarades de lycée décident de l'aider à s'ouvrir aux autres.",
+      "releaseInfo": "2026"
+    }
+  ]
+}

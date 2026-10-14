@@ -1,0 +1,174 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1627624",
+      "type": "movie",
+      "name": "Τελευταία Κλήση",
+      "poster": "https://image.tmdb.org/t/p/w500/cLgbupB4xCyBnGeiDOfYXepM632.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/al0jSjK6p44ayWX8z4K3YS3dbjF.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1382513",
+      "type": "movie",
+      "name": "Cocotte",
+      "poster": "https://image.tmdb.org/t/p/w500/5EZ8GvrxXG3Y8pQBUIP8XFiL6Ux.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ii2Ox8CZeZ4yifffFLsR9Rp0kfR.jpg",
+      "description": "À grand pouvoir, grandes responsabilités - mais si l’héroïne était une poule ? Échappée d’un élevage industriel, elle trouve refuge dans la cour d’un restaurant en ruine. Là, elle découvre l’amour, défie la loi du bec et se bat pour protéger ses œufs. Sa quête, tendre et ironique, résonne avec les combats silencieux et petits arrangements de la vie humaine.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1593115",
+      "type": "movie",
+      "name": "Καποδίστριας",
+      "poster": "https://image.tmdb.org/t/p/w500/lE763fUdlyIwtHu6NWXAEF9pOHM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xtEjwbuALzw1Ci3lHgL3d7JrQy5.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1324836",
+      "type": "movie",
+      "name": "Σπασμένη φλέβα",
+      "poster": "https://image.tmdb.org/t/p/w500/8Enz3QAtc16acH3ikSzkZs8QzsS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/maABc0QnSH2VwHCajfx1VFcpeNX.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1550933",
+      "type": "movie",
+      "name": "Πολύ κοριτσίστικο όνομα το Πάττυ",
+      "poster": "https://image.tmdb.org/t/p/w500/rjUSGA6lJwnmBp4CMQpQKsCSIbF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qU0nj1U1jKG3mKMthjKrrYOztr3.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1214028",
+      "type": "movie",
+      "name": "Charlie et les Kangourous",
+      "poster": "https://image.tmdb.org/t/p/w500/dljamTLg1aRwcO8kTPWwJUgsrco.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eRCQlvPGmrm6wciksedf1RDNhwM.jpg",
+      "description": "L'ancien présentateur météo de la télévision Chris Masterman, se retrouve bloqué dans une ville de l'Outback australien à la suite d'un accident de voiture. Il se lie d'amitié avec une fillette indigène de 11 ans, Charlie.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1103747",
+      "type": "movie",
+      "name": "Nos jours sauvages",
+      "poster": "https://image.tmdb.org/t/p/w500/v46oLi10hKYibEyu50TvlHt6vSD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lcrlOCZiD5ESHa6SiZmVGZZTds9.jpg",
+      "description": "En rupture avec sa famille, Chloé, 20 ans, est recueillie par un groupe de jeunes marginaux. A bord de leur van, ils sillonnent la Grèce post-crise, venant en aide aux plus démunis, moyennant des combines pas toujours légales. A leur contact, Chloé expérimente une nouvelle vie, plus libre, plus intense, où tout peut s'arrêter demain.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1471255",
+      "type": "movie",
+      "name": "I’m Glad You’re Dead Now",
+      "poster": "https://image.tmdb.org/t/p/w500/id6YDOrtIe5K4xIyYpViRuGXCdH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ruWrxICCOyi2MfOgPmGJmqrka1D.jpg",
+      "description": "Deux frères retournent sur l’île de leur enfance où des secrets enfouis et des tensions pesantes les obligent à affronter un passé sombre qui les lie.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1249755",
+      "type": "movie",
+      "name": "Kyuka - Avant la fin de l'été",
+      "poster": "https://image.tmdb.org/t/p/w500/lx2C66HEfvBHILeCMIe6XofZxQT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8io72suATNtCAoP3dqnsre4uPPB.jpg",
+      "description": "L'été. Une famille de trois personnes, un père célibataire, Babis, et ses jumeaux, Konstantinos et Elsa, se rendent sur l'île de Poros sur le bateau familial pour leurs vacances. Alors qu'ils se baignent, prennent des bains de soleil et se font de nouveaux amis, Konstantinos et Elsa rencontrent, à leur insu, leur mère biologique, Anna, qui les a abandonnés lorsqu'ils étaient bébés. Cette rencontre va réveiller de vieux sentiments de rancœur. Un voyage doux-amer vers l'âge adulte.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1214052",
+      "type": "movie",
+      "name": "Vers un pays inconnu",
+      "poster": "https://image.tmdb.org/t/p/w500/oYzYA5Ld38gsM6jnubLmcoPxTIl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/49CjA88b278yvTswsJs1jUJTAbx.jpg",
+      "description": "Chatila et Reda sont deux cousins palestiniens réfugiés à Athènes. Ensemble, ils multiplient les combines pour rassembler une importante somme qui leur permettra d'acquérir de faux passeports, sésame vers l’Allemagne où ils rêvent de pouvoir enfin construire leur vie. Mais cette quête les pousse à franchir leurs limites, laissant derrière eux une part d’eux-mêmes dans l’espoir d’un avenir meilleur.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1329088",
+      "type": "movie",
+      "name": "Stelios",
+      "poster": "https://image.tmdb.org/t/p/w500/vDNGQ2M7O0psz7rLIVSuMhlpqry.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8c1NJLBziLfj9kQuXGpyAEGncMh.jpg",
+      "description": "L'histoire émouvante d'un enfant issu d'une famille de réfugiés pontiques qui, malgré les difficultés, a su survivre et réussir grâce à son immense talent et à sa grande résilience face aux épreuves sociales et personnelles. Musique, amour, famille, amitié, pêche, créativité, vie nocturne, passion pour la musique, et conflits intenses : autant d'éléments qui composent la mosaïque de sa vie. Ce film rend hommage au légendaire chanteur Stélios Kazantzidis, dont la voix a touché le cœur de tous les Grecs à travers le monde. Un film pour ceux qui l'ont aimé et pour ceux qui souhaitent découvrir son talent.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:1320818",
+      "type": "movie",
+      "name": "Κρέας",
+      "poster": "https://image.tmdb.org/t/p/w500/8qm7VrgoiaQEc82SVAkr2DGRYzR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yTqLieG57YyNgCqBPmDoLmSUE8X.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:1255295",
+      "type": "movie",
+      "name": "Buzzheart",
+      "poster": "https://image.tmdb.org/t/p/w500/p8ZfhIrLWeUpLfKsVY0Zac6XMTL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gRr8JPMyK5fBURVMBnkqM9aWu2z.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:1306893",
+      "type": "movie",
+      "name": "Νυχτερινός Εκφωνητής",
+      "poster": "https://image.tmdb.org/t/p/w500/pGZRlGNw06psQtonIt632WqyEzr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rEduz5XRAajU6J17uadhusuyUxX.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:1162057",
+      "type": "movie",
+      "name": "Medium",
+      "poster": "https://image.tmdb.org/t/p/w500/n9an8iqcWuLNNeRqhgHzZ1cGR2T.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3HZQLdAaBMZ6cfyG9EYghZpEiWB.jpg",
+      "description": "L'adolescente Eleftheria, une étrangère dans un pays étrange, rencontre un mystérieux voisin, Angelos, qui l'invite dans son monde d'adulte. En parcourant les rues de la ville brûlante sur son vélo, elle découvrira l'éveil du désir sexuel.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:859935",
+      "type": "movie",
+      "name": "Minore",
+      "poster": "https://image.tmdb.org/t/p/w500/w95whXyEQLg6y3bkypCUOzXRae1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eBVkadv9wALDMWu2RLS9WqKEXzy.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:977966",
+      "type": "movie",
+      "name": "L'Echapée",
+      "poster": "https://image.tmdb.org/t/p/w500/mRxbfELVa1NAl5XAdv8hF0xP5ie.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5kvxM8l6DkMKQB23hMqLGMsYzkK.jpg",
+      "description": "Une libérienne, Jacqueline, s'échappe de justesse de son pays déchiré par la guerre pour rejoindre une île grecque. Elle offre des massages aux touristes en échange d'un ou deux euros afin de se nourrir. Elle rencontre un guide touristique, tous deux se rapprochent.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:889821",
+      "type": "movie",
+      "name": "Animal",
+      "poster": "https://image.tmdb.org/t/p/w500/cBnA5YZNEN4SZOXdYDjeKuDfbiF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/42Ww1gJyaULIVWnUnUDMOmXnqKu.jpg",
+      "description": "Sous le soleil brûlant d’une île grecque, les animateurs d’un hôtel all-inclusive menés par la charismatique Kalia se préparent pour la saison. Décors en carton-pâte, costumes pailletés et spectacles de danse envahissent la scène. À mesure que l’été avance, la pression augmente, les nuits s’enchaînent, et les démons de Kalia se réveillent. Lorsque les projecteurs s’allument, the show must go on… mais cela a-t-il toujours un sens pour elle ?",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:1210881",
+      "type": "movie",
+      "name": "Κουραμπιέδες από Χιόνι",
+      "poster": "https://image.tmdb.org/t/p/w500/qhjonkT8IER4rwKgjatF5EH0XOA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jJl4bpqED5B8MPCjSl9isD84b7J.jpg",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:1196489",
+      "type": "movie",
+      "name": "Φόνισσα",
+      "poster": "https://image.tmdb.org/t/p/w500/q6GLHZCGFr5v6RErM4C7O8v4v6C.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cZgURfEy9F6jruidM1mJefIDgLf.jpg",
+      "releaseInfo": "2023"
+    }
+  ]
+}

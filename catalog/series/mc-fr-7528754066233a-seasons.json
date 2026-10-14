@@ -1,0 +1,49 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:62650",
+      "type": "series",
+      "name": "Chicago Med",
+      "poster": "https://image.tmdb.org/t/p/w500/s55mHZ5q68IUtRsQdy2oC3nPpG7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fFgVoJuSBewZWlzgaoUWGm8MvD4.jpg",
+      "description": "Le quotidien mouvementé du personnel d'un des plus importants hôpitaux de Chicago. Leur mission : sauver des vies, en se confrontant aux cas médicaux les plus critiques. Seuls leur courage et leur compassion leur permet au quotidien de faire face aux challenges parfois insurmontables de la médecine, ainsi qu'aux dilemmes éthiques propres à leur noble discipline.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:65300",
+      "type": "series",
+      "name": "Les Real Housewives de Potomac",
+      "poster": "https://image.tmdb.org/t/p/w500/lgSkHpr6LXxsh2YXiBrDZHn5wUR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8PkQKCE8rTFTUmGrP47FgaXLTNQ.jpg",
+      "description": "Juste en amont du fleuve depuis la capitale de notre pays se trouve un joyau caché : Potomac, Maryland. Ses collines vallonnées, ses manoirs fermés, ses écoles préparatoires sophistiquées et ses country clubs exclusifs servent tous à garder la région sur invitation uniquement. Dans toute cette communauté se trouvent une poignée de familles afro-américaines riches et anciennes qui ont historiquement brisé les barrières raciales pour offrir une vie privilégiée à leurs enfants. Dans une ville où l'entrée n'est accordée qu'en fonction de la classe, du pedigree et de la lignée, jusqu'où les dames iront-elles pour s'assurer leur place au sommet de ce cercle prestigieux ?",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:14808",
+      "type": "series",
+      "name": "Les Real Housewives de New York",
+      "poster": "https://image.tmdb.org/t/p/w500/g7OcPXtvblZ9j5PlArQh93mJwhw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kQ7i9d8c7egG0natUkycngBV6hJ.jpg",
+      "description": "Présenté comme un docu-soap, « Les real housewives de New York » suit la vie quotidienne de 6 femmes au foyer et épouses américaines résidant à New York, dans les arrondissements de Manhattan et Brooklyn : Carole, auteure d'un best-seller et journaliste primée. Aviva, auteure et mère au foyer. Heather, ancienne styliste de stars de la musique et créatrice de mode. Kristen, mannequin et mère au foyer. Ramona, entrepreneure et mère de famille. Sonja, ancien mannequin devenue femme d'affaires...",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:50042",
+      "type": "series",
+      "name": "Below Deck : La vie à bord",
+      "poster": "https://image.tmdb.org/t/p/w500/xMkYEWMGB7F7YfzJ24DPXoDj8vo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yL3g0vf5938of5GHQrfClzuLC15.jpg",
+      "description": "Le jeune équipage d'un yacht de croisière de luxe navigue sur des eaux troublées par l'amour, les exigences des passagers et bien d'autres remous dramatiques.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tmdb:110381",
+      "type": "series",
+      "name": "Les Real Housewives de Salt Lake City",
+      "poster": "https://image.tmdb.org/t/p/w500/57DhzlJaKkkx2RlbH7Epb8P8YFJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/atyPW8lAPcahHbiaPVE5iPtNHkq.jpg",
+      "description": "Alimenté par des entreprises et des marques de plusieurs millions de dollars, un cercle social caché de femmes qui réussissent a créé leur propre paradis dans les majestueuses montagnes de l'Utah.",
+      "releaseInfo": "2020"
+    }
+  ]
+}

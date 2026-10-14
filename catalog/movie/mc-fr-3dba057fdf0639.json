@@ -1,0 +1,178 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1600502",
+      "type": "movie",
+      "name": "PAAZ",
+      "poster": "https://image.tmdb.org/t/p/w500/jcUdSzPfI006lKYmolzcsy6g8B0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4dm4ypUDJstQZ96owHX3pmkjN6n.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1601083",
+      "type": "movie",
+      "name": "Hond & ik",
+      "poster": "https://image.tmdb.org/t/p/w500/NSOTvdgDweCXuiIyVXPbzArjMw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/duqqXguVFjNK8oZBWsGMXD47LJI.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1179684",
+      "type": "movie",
+      "name": "Amsterdamned II",
+      "poster": "https://image.tmdb.org/t/p/w500/4QjVgN5Wdexo6wfIZh0pRXQefTZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qV3NFmHbLiYYNBiPaG2v2iZWGM.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1464323",
+      "type": "movie",
+      "name": "Rietland",
+      "poster": "https://image.tmdb.org/t/p/w500/v3RovFhsdDZsKcBRkzqqfDue4IJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bEimEeWa8aj9bulpmbCql2tsMbM.jpg",
+      "description": "Lorsqu’il découvre le corps sans vie d’une jeune fille sur ses terres, Johan, fermier solitaire, est submergé par un étrange sentiment. Alors qu’il s’occupe de sa petite-fille, il se lance à la recherche de la vérité, déterminé à faire la lumière sur ce drame. Mais le mal se cache parfois derrière les apparences les plus ordinaires...",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1438764",
+      "type": "movie",
+      "name": "Straf",
+      "poster": "https://image.tmdb.org/t/p/w500/iQo8qQx7nZ6x9xf4dPfGH3dSUAE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1FvQxipdYSvLLBeKDQWemSi6CPx.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1457705",
+      "type": "movie",
+      "name": "Our Girls",
+      "poster": "https://image.tmdb.org/t/p/w500/qCNwxpgq4DQowStdlLcu1jBurw0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oSG5OOrS5nmuwwyjscduRZnSVTF.jpg",
+      "description": "Une escapade paisible dans les Alpes autrichiennes vire au chaos lorsque les liens autrefois solides entre deux couples de longue date commencent à se fissurer.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1100800",
+      "type": "movie",
+      "name": "L'Aéronaute",
+      "poster": "https://image.tmdb.org/t/p/w500/9faXjOxMe9aaDPijmlU7PhD8kfG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/do1gRHPQJISOVEglcTToRgcBtOq.jpg",
+      "description": "La vie de Gaby est bouleversée lorsqu'un pilote de montgolfière arrogant s'écrase sur son poulailler rempli de poules d'élevage. La collision met à jour un conflit familial qui s'envenime et oblige Gaby à affronter le pilote de montgolfière mais aussi son propre passé problématique. Sera-t-elle capable de se racheter et d'offrir un avenir meilleur, à elle et à son fils de sept ans ?",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1459725",
+      "type": "movie",
+      "name": "Abattoir",
+      "poster": "https://image.tmdb.org/t/p/w500/xei58fJ3m43XVPNmUySU0aXGERN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/deN5HEStH5gnoO4tYBL7fKWnUGf.jpg",
+      "description": "Lorsque l'activiste animaliste Mirthe, accompagnée de son groupe de militants, sabote une porcherie, la famille d'agriculteurs riposte, ce qui entraîne une situation sanglante et incontrôlable, faisant des victimes des deux côtés.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1374534",
+      "type": "movie",
+      "name": "Almost Cops",
+      "poster": "https://image.tmdb.org/t/p/w500/upzsNh9Ue3DmFlGnUlxwXtnEpQc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qtSY2SAL5QApuCUD0sXqyzgHYnl.jpg",
+      "description": "Lorsqu'un agent de quartier un peu trop zélé est obligé de faire équipe avec un ex-inspecteur casse-cou, le chaos déferle dans les rues de Rotterdam.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:587357",
+      "type": "movie",
+      "name": "Miss Moxy",
+      "poster": "https://image.tmdb.org/t/p/w500/8YFuRsNOgDHB4hg5pdlDJJ3eM0q.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ol2xAdFJa9Lvf70HtaBIiapMC7x.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1371202",
+      "type": "movie",
+      "name": "iHostage",
+      "poster": "https://image.tmdb.org/t/p/w500/biT8jY2681hlSuyN2a6wuf7kJ5D.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4mM7m9L3XlPLq4vNNy3P8yDSXNM.jpg",
+      "description": "Lorsqu'un homme armé fait irruption dans un Apple Store au cœur d'Amsterdam, la police se trouve dans une situation délicate pour résoudre la crise.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1439127",
+      "type": "movie",
+      "name": "Red Flags",
+      "poster": "https://image.tmdb.org/t/p/w500/5j55j8u6LdYJJZtCjRGOH6ltIpt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/X3o3JHpShkhMRBaL5LaubLYpDD.jpg",
+      "description": "Une jeune femme nommée Sam qui jette son dévolu sur le mystérieux Fender. En le voyant, elle comprend immédiatement qu'il pourrait lui causer des ennuis, mais il est trop charmant pour la laisser partir. Sam sent son attirance, mais réalise aussi que quelque chose cloche. Alors que la vérité sur Fender se dévoile peu à peu, Sam doit choisir entre suivre son cœur ou sa raison.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1178556",
+      "type": "movie",
+      "name": "Ik ben geen robot",
+      "poster": "https://image.tmdb.org/t/p/w500/ul5WvjfonZ8dL14toWkauCE2Jp6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qKWFFoRVeuzqn27DZoQ3x5rNSN9.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1316070",
+      "type": "movie",
+      "name": "Patsers",
+      "poster": "https://image.tmdb.org/t/p/w500/hiobhAEHfTxwgTmyAkarPGalpZe.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yijEAXwKqQJbK07VIKBAyQ5injW.jpg",
+      "description": "Cinq ans après les évènements de Gangsta, Adamo est encore plus profondément impliqué dans le trafic de cocaïne qui gangrène de plus en plus la ville d’Anvers. Ses amis d’enfance sont rangés et refusent tout contact avec lui. Jana, la nouvelle boss du cartel de drogues KALI lui colle au train. La chute est proche pour Adamo. Mais lorsque l’un de leurs proches meurt lors d’un affrontement entre cartels, les quatre gangstas se réunissent pour poursuivre un seul but : prendre leur revanche.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1276945",
+      "type": "movie",
+      "name": "Le Mauvais Camp 2",
+      "poster": "https://image.tmdb.org/t/p/w500/gVg1lyRgZhKY09txbiDfhmH7xqJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A28EE0vgHrB0OdoxWWMfgfyEoYn.jpg",
+      "description": "Après avoir perdu son empire de la drogue, Ferry Bouman vit relativement tranquille, loin du monde de la pègre du Brabant... jusqu'à ce que son passé le rattrape.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:1232449",
+      "type": "movie",
+      "name": "Young Hearts",
+      "poster": "https://image.tmdb.org/t/p/w500/cysosXjTtATeY9XfqZ8tLz38XG4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3HaqAPZ0C8n6Hd5T86U53yJlBAN.jpg",
+      "description": "Elias, 14 ans, vit dans un petit village de Flandre. Lorsque Alexander, son nouveau voisin du même âge venant de Bruxelles, emménage en face de chez lui, Elias réalise qu’il est en train de tomber amoureux pour la première fois. Il devra alors faire face au chaos intérieur provoqué par ses sentiments naissants afin de vivre pleinement son histoire avec Alexander et de la révéler à tous.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:1187308",
+      "type": "movie",
+      "name": "Julie se tait",
+      "poster": "https://image.tmdb.org/t/p/w500/guE84GFpIeERXqT73K05gnfJ0cQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yXwJzc6beR82pg6R3BMaurH4lwq.jpg",
+      "description": "Julie, une star montante du tennis évoluant dans un club prestigieux, consacre toute sa vie à son sport. Lorsque l'entraîneur qui pourrait la propulser vers les sommets est suspendu soudainement et qu'une enquête est ouverte, tous les joueurs du club sont encouragés à partager leur histoire. Mais Julie décide de garder le silence.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:1248893",
+      "type": "movie",
+      "name": "Break-Up Club",
+      "poster": "https://image.tmdb.org/t/p/w500/5HcWRiLqDAPpeNC5KbiUOw4YwIY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eZ9cDoozzDg4ssjjFgmxrWgKb4.jpg",
+      "description": "Vous souhaitez mettre un terme à votre couple, mais vous n’avez tout simplement pas le courage de le faire vous-même ? La solution existe ! Dylan, un jeune célibataire à qui tout réussi, dirige le BREAK-UP CLUB. Sa société permet de « larguer votre conjoint à votre place » et le concept cartonne ! Tout va bien jusqu’au jour où Dylan est embauché pour se débarrasser de Zoë...",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:1106194",
+      "type": "movie",
+      "name": "A Beautiful Imperfection",
+      "poster": "https://image.tmdb.org/t/p/w500/9iHnoiriinpmYHPqprPrnHozU1L.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/q42pb6zBVgge7t8o6poZu0p5IHu.jpg",
+      "description": "L'histoire passionnée de la vie et de des amours de Lucia, une courtisane voilée de renom qui fait exception à la règle.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:1075365",
+      "type": "movie",
+      "name": "Le Jour où j'ai rencontré ma mère",
+      "poster": "https://image.tmdb.org/t/p/w500/oLKS22vQjS6o0vv9w5P7KkJtbOH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wIF94ffZuo37DZfjkYHWK5J022n.jpg",
+      "description": "Lu, onze ans, rêve de sa mère dans le lit de son foyer d’accueil. Celle-ci, dit-elle, est une célèbre cascadeuse hollywoodienne. Mais lorsqu’elle vient enfin lui rendre visite, Lu se retrouve malgré elle embarquée dans un road trip endiablé direction la Pologne. Elle se rend vite compte qu’avec Karina, sa mère, c’est tout ou rien. La réalité va rapidement les rattraper et les obliger à décider de ce qu’elles sont prêtes à faire pour rester ensemble…",
+      "releaseInfo": "2024"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1327872",
+      "type": "movie",
+      "name": "La Reine des Neiges : La comédie musicale de Broadway",
+      "poster": "https://image.tmdb.org/t/p/w500/fxFeYqEwHvjxLtsNl6qOKN12Axi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wN47m8DMp8byXfMBQl4rdfu4xvx.jpg",
+      "description": "Lorsque les pouvoirs cachés de la reine Elsa plongent Arendelle dans un hiver éternel, sa sœur Anna part à sa recherche pour sauver le royaume. Alors que la tempête fait rage, les deux sœurs apprendront que seul un geste d'amour sincère peut dégeler un cœur de glace. C'est l'histoire que vous connaissez et appréciez comme vous ne l'avez jamais vue auparavant. \"La Reine des Neiges : La comédie musicale de Broadway\" est une production impressionnante qui transpose sur scène la magie, la musique et le spectacle du film à succès, avec des surprises palpitantes et des effets spéciaux étonnants. Douze nouvelles chansons écrites spécialement pour la comédie musicale côtoient les classiques tels que « Il faut fêter le renouveau », « Je voudrais un bonhomme de neige » et « Libérée, délivrée ».",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:447273",
+      "type": "movie",
+      "name": "Blanche Neige",
+      "poster": "https://image.tmdb.org/t/p/w500/kpkd46yxRcg4jVIXaIWkBgHwgKm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tyfO9jHgkhypUFizRVYD0bytPjP.jpg",
+      "description": "Furieuse d'entendre son miroir magique déclarer que sa belle-fille Blanche-Neige la surpasse en beauté, la reine maléfique donne ordre à son chasseur de la tuer, à la faveur d'une cueillette de pommes dans la forêt près du château. Mais ce dernier, attendri par la bonté naturelle de la jeune princesse, la laisse s’enfuir. Guidée par les animaux de la forêt, celle-ci trouve refuge chez sept nains, qui triment dur dans une mine de diamants. Aux côtés de ceux-ci et de Jonathan, un rebelle à la tête d'une bande de voleurs fidèles au défunt roi, Blanche-Neige mène la révolte contre sa puissante belle-mère.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1275261",
+      "type": "movie",
+      "name": "Mina, mission rebelle",
+      "poster": "https://image.tmdb.org/t/p/w500/kUAP8vw4Bklp9Z01H9K0k6iRihk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5QSQKR2cuPaQDfG5dWOXKnLmX2Y.jpg",
+      "description": "Dans cette version moderne d'un conte de fées classique, une princesse têtue est volée par un sorcier maléfique, et son fiancé érudit doit utiliser son intelligence dans une quête épique pour la retrouver tandis qu'elle défie hardiment ses ravisseurs et prépare une évasion audacieuse.",
+      "releaseInfo": "2024"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:330664",
+      "type": "series",
+      "name": "Eons: Life and Death on Pangea",
+      "poster": "https://image.tmdb.org/t/p/w500/2nF7vXGrc5vn3nY706ywdbsPCc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fLMGCUUhPuA0zZkrMg6iJpWZcQa.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:318429",
+      "type": "series",
+      "name": "Henry David Thoreau",
+      "poster": "https://image.tmdb.org/t/p/w500/aiBd2gOcqXTGDFDz4mc5OPjhFEp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/k5xpxo0s6PjJA948JIahv2Zc3AD.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:331374",
+      "type": "series",
+      "name": "Martha Graham Dance Company: We Are Our Time",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:307536",
+      "type": "series",
+      "name": "Black and Jewish America: An Interwoven History",
+      "poster": "https://image.tmdb.org/t/p/w500/xUIPbsHEgZnHN8rDfHwPbrxaINk.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:258023",
+      "type": "series",
+      "name": "La guerre d’indépendance américaine : toute l’histoire",
+      "poster": "https://image.tmdb.org/t/p/w500/A2Zii9gvKje6WHKpH2fsStjp1ue.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/37Fn6Qf0JTLfbE719FvilHCyZK4.jpg",
+      "description": "De sa genèse, en 1754, à sa conclusion, en 1783, la nouvelle et magistrale fresque historique de Ken Burns explore en profondeur le moment fondateur des États-Unis. Ce récit choral et multidimensionnel éclaire aussi le présent divisé d'une jeune nation de 250 ans.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:326057",
+      "type": "series",
+      "name": "Kissinger",
+      "poster": "https://image.tmdb.org/t/p/w500/l6DvuaUMVSM5y5kyagQ2IGGYcpj.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:271051",
+      "type": "series",
+      "name": "Maigret",
+      "poster": "https://image.tmdb.org/t/p/w500/myQGcaQv25MibpD9urqjYrSSzPv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9uigyTXv7OZKeyEm0ZNMxTc6IW.jpg",
+      "description": "Etoile montante de la police judiciaire implacable dans ses enquêtes, Maigret a une capacité surprenante à se mettre dans la peau des criminels et une connaissance inégalée de Paris et de ses habitants.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:300612",
+      "type": "series",
+      "name": "Sacred Planet with Gulnaz Khan",
+      "poster": "https://image.tmdb.org/t/p/w500/yUR0cAlGN9GNirgt9CepWnyQOjd.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/od9vqYpdzOZXJWFatf9K6mIVy4w.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:288601",
+      "type": "series",
+      "name": "Katavi : Le paradis déchu",
+      "poster": "https://image.tmdb.org/t/p/w500/1JUg5dIkNsX8simU60qVEcnaqrh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ezHxuu49NbJHIJaKlVo9DaMlDwy.jpg",
+      "description": "Le parc national de Katavi, qui s’étend dans l’ouest de la Tanzanie, au cœur du grand rift africain, est un lieu d'abondance méconnu et un refuge pour les animaux. Mais cette année, le paradis est en danger : les plaines s'assèchent et la bienfaisante rivière Katuma se tarit. Buffles, hippopotames, crocodiles et lionceaux voient leur paisible cohabitation compromise et leurs conditions de vie menacées.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:255451",
+      "type": "series",
+      "name": "Léonard de Vinci",
+      "poster": "https://image.tmdb.org/t/p/w500/omr3gOumHqrIILUcDoEzl8H2VsU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3Bv91Fr75x2jex4ANLW8WZO8b3Y.jpg",
+      "description": "Ce documentaire en deux parties de quatre heures plonge dans le monde d'un titan de l'art du XVe siècle et dévoile son parcours tout en mettant en lumière l'impact durable de ses travaux sur les générations futures.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:227018",
+      "type": "series",
+      "name": "VOCES American Historia: The Untold History of Latinos",
+      "poster": "https://image.tmdb.org/t/p/w500/pWZvn7NPNlS1LLrTKbHOVn0ZEar.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r8CXwGbujrOPfGnx8kVPz061apD.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:328624",
+      "type": "series",
+      "name": "Doodles and Digits: How It's Math",
+      "poster": "https://image.tmdb.org/t/p/w500/3jJTMNxTXSjrc0chIezv9DBrIlV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9N0QqVPOmYXbsVla1S9PJOsT81.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:238375",
+      "type": "series",
+      "name": "A Brief History of the Future",
+      "poster": "https://image.tmdb.org/t/p/w500/8YJ3nXd84kA0JwfMMPediYF540b.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bvTa2J8rrK59hM3Tg3Mbn187Mhl.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:250058",
+      "type": "series",
+      "name": "The Invisible Shield",
+      "poster": "https://image.tmdb.org/t/p/w500/3EOyZLjxL22RBj2sokZj44QOv1L.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/l07EWtxCGBNiBj2sCptmV9PGAZs.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:248546",
+      "type": "series",
+      "name": "Dante: Inferno to Paradise",
+      "poster": "https://image.tmdb.org/t/p/w500/fjUgJmGZPyIEaOxhLJyb0xvFuoG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hQCJqA0BpEvSMU4Zfg7MpzbVN45.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:27336",
+      "type": "series",
+      "name": "Gospel",
+      "poster": "https://image.tmdb.org/t/p/w500/peC6xePTHo1CjvuZwPGKHrqK67a.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aaHkPj5ja7roncM1DbIjxkiOcwX.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:219756",
+      "type": "series",
+      "name": "Bison : une histoire de l'Amérique",
+      "poster": "https://image.tmdb.org/t/p/w500/ppefeVA1iyBjl8W8Io1r6WpLtp8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eCdKxeDbnlwtpFYaNmQr0epvPHF.jpg",
+      "description": "Comment le bison, principale ressource des Amérindiens, fut exterminé au XIXe siècle puis sauvé de l'extinction au XXe. Cette nouvelle fresque historique de Ken Burns (\"Vietnam\") retrace en filigrane la dépossession des peuples autochtones.",
+      "releaseInfo": "2023"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:231727",
+      "type": "series",
+      "name": "Le Roi Loup",
+      "poster": "https://image.tmdb.org/t/p/w500/AutGmhjJM69hFnhCsHriLlUTafw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fs4roTMxY3rMKECOMveWpUBQ1XY.jpg",
+      "description": "Dans cette série d'aventure épique fantastique, un adolescent modeste découvre qu'il est issu d'une longue lignée de Loups-garous... et l'héritier légitime du trône.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:254653",
+      "type": "series",
+      "name": "Les Thunderman : Incognito",
+      "poster": "https://image.tmdb.org/t/p/w500/8c3cJAB8fQHScpGvKH55U3Lb0yQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yEmGiYvCyJ32xuPZbmytTjXzF4S.jpg",
+      "description": "Envoyés incognitos dans la ville de Secret Shores, Phoebe et Max font face à une nouvelle menace. Ils décident d'emmener avec eux Chloé, leur petite sœur, afin de l'aider à améliorer ses pouvoirs et l'entraîner durant cette mission.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

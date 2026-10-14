@@ -1,0 +1,182 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1767073",
+      "type": "movie",
+      "name": "The Nice Ones",
+      "poster": "https://image.tmdb.org/t/p/w500/akMSRVUZRBZlR9nzbEhRPoQ4xSu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zQmaXGt8MYNRZaV2YVqkFbCoTWq.jpg",
+      "description": "Lorsque Kate rejoint les amis de son petit ami dans un lieu de retraite isolé à la campagne, de vieilles blessures refont surface alors que d’étranges lumières apparaissent dans le ciel. À mesure que le malaise s’installe, les membres du groupe commencent à changer : ils deviennent d’un calme déconcertant, aimables et « gentils ». Considérée comme instable, Kate lutte pour convaincre les autres que quelque chose ne va pas avant que la force qui est à l’origine de tout cela ne se propage.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1302904",
+      "type": "movie",
+      "name": "Les Ensorceleuses 2",
+      "poster": "https://image.tmdb.org/t/p/w500/qU6bErj56ebypPwA7zaiTfKzemA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oIglj0Jy9duG4LnrRUpH8n001Pk.jpg",
+      "description": "Une famille de sorcières multigénérationnelle, maudite à être sans amour pendant des siècles, tente de briser le sort en affrontant de sombres secrets et en se sacrifiant les uns pour les autres.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:843352",
+      "type": "movie",
+      "name": "Legend of the White Dragon",
+      "poster": "https://image.tmdb.org/t/p/w500/yygzww0GACtCMmwhtPG1P01qSx5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iBfpVJCn2nKSkuWjv1Wp4GTiqoG.jpg",
+      "description": "Dans un futur apocalyptique, une ville a été décimée. Des grandes batailles ont été menées et des héros ont été blâmés, dépouillés de leurs titres et chassés.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1514026",
+      "type": "movie",
+      "name": "Buddy",
+      "poster": "https://image.tmdb.org/t/p/w500/lfdInOrdyTGXOuFBOLefamy6AgI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ytoLEl5yDaxB8AtZ52uKWjaQ9ql.jpg",
+      "description": "Des enfants piégés dans une émission de télévision en apparence joyeuse doivent trouver un moyen d'échapper à l'emprise sinistre de Buddy, la peluche adorée mais malveillante qui anime l'émission.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:813418",
+      "type": "movie",
+      "name": "Hot Spot",
+      "poster": "https://image.tmdb.org/t/p/w500/42egzT6e4CIEdrEo4Xc31DKyGjA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mATo9RWAc7IWGVbetpmmKJqWDiJ.jpg",
+      "description": "Dans une société gouvernée par une IA sensible, un détective privé enquêtant sur un meurtre tombe sur un groupe rebelle capable d'ébranler le chef numérique.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1232569",
+      "type": "movie",
+      "name": "Pinocchio : Déchaîné",
+      "poster": "https://image.tmdb.org/t/p/w500/oru4SubtHlaGXEv9xtMPELYkGZf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xenXu6gt6iTJBNH80CNr7kg5q2z.jpg",
+      "description": "Geppetto présente à son petit-fils, James, une mystérieuse marionnette dotée d'une âme nommée Pinocchio. Ignorant la nature naïve et imprévisible de celle-ci, James fait découvrir le monde extérieur à son nouvel ami. Sous la guidance de Cricket, Pinocchio se lance alors dans une quête sanglante pour éradiquer tout ce qu'il considère comme mauvais et devenir un véritable petit garçon.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1318621",
+      "type": "movie",
+      "name": "Descendants : La Malédiction du Pays des Merveilles",
+      "poster": "https://image.tmdb.org/t/p/w500/y29AadGlANHW1GXbeXV8c0QHa0c.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qlfqDJ9Piv5ufzYA8j2319mwKZU.jpg",
+      "description": "Maintenant que la Reine de cœur est devenue gentille et que Cendrillon est en sécurité, tout semble parfait pour Red et Chloe. Mais elles ignorent qu'en changeant le passé, elles ont créé un nouveau méchant : le Chapelier fou. Quand ce dernier capture la Reine de cœur, Red et Chloe doivent faire équipe avec Pink, la nouvelle sœur de Red, Luis, le fils de Luisa Madrigal, et Max, le fils du Chapelier fou, pour la sauver et secourir le Pays des Merveilles.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1368337",
+      "type": "movie",
+      "name": "L'Odyssée",
+      "poster": "https://image.tmdb.org/t/p/w500/kP8jJIkmX0vWEYiqQ9c5zU0dvcn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/twiVn9oFXOVR0uoYgawyEBlnFu8.jpg",
+      "description": "Vingt ans après son départ pour la guerre de Troie, le roi Ulysse rentre enfin à Ithaque, mais son voyage est parsemé d'aventures et d'épreuves.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1108427",
+      "type": "movie",
+      "name": "Vaiana, la légende du bout du monde",
+      "poster": "https://image.tmdb.org/t/p/w500/fN4YJFr6d1Zx2fNBlzGLyShO6sc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/c6BPbkO5Npt1OdwttAxCFo06wtH.jpg",
+      "description": "Répondant à l'appel de l'océan, Vaiana s'aventure pour la première fois par-delà le récif de son île de Motunui. Accompagnée du célèbre demi-dieu Maui, elle embarque pour un voyage inoubliable destiné à permettre à son peuple de retrouver sa prospérité.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1698863",
+      "type": "movie",
+      "name": "The Odyssey",
+      "poster": "https://image.tmdb.org/t/p/w500/b0z3ViIC5AkbJoqxmTpqyjgmoJs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mPy1xSASQ9NYWJdAGx2C2sOsnNw.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:454639",
+      "type": "movie",
+      "name": "Les Maîtres de l'univers",
+      "poster": "https://image.tmdb.org/t/p/w500/tJxeLnt5K3LHfJdaAZY6bttM0Sv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5MUMB3aPEPEQPCIAaygXFUTWE9Y.jpg",
+      "description": "Quinze ans après avoir recherché l'Épée du Pouvoir, Adam est catapulté sur sa planète natale Eternia, sur laquelle Skeletor règne désormais. Avec Teela et Duncan à ses côtés, il doit libérer son vrai pouvoir, embrasser son destin en tant que Musclor, et lutter pour sauver son monde et les gens qu'il aime.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1698856",
+      "type": "movie",
+      "name": "Master of the Universe",
+      "poster": "https://image.tmdb.org/t/p/w500/a77OcLmarwiBJakOPPC36m58t4L.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uOQtyMV2G9yJvc0s14zmLoRC5H9.jpg",
+      "description": "Un jeune homme doit faire appel à ses pouvoirs inexploités pour lutter contre un extraterrestre maléfique et son armée, qui ne reculeront devant rien pour conquérir la Terre, puis l'univers.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1368881",
+      "type": "movie",
+      "name": "Ladies First",
+      "poster": "https://image.tmdb.org/t/p/w500/wkI57tUgF4azrXy4QURO0diuDxD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z1hekwU7a7FUP6XvqDwJjxAbrXJ.jpg",
+      "description": "Un dragueur arrogant et charismatique qui enchaîne les liaisons voit sa vie d'homme riche et puissant chamboulée quand il se réveille dans un monde parallèle dominé par les femmes.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:931285",
+      "type": "movie",
+      "name": "Mortal Kombat II",
+      "poster": "https://image.tmdb.org/t/p/w500/yPkeeBEJdQO85AGCwi2XEIfMOxa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4EAAwpylq313qrDqpCxulUrXBNF.jpg",
+      "description": "Les champions en arts martiaux de l'Earthrealm, secondés par le héros de films d'action Johnny Cage, s'affrontent dans un tournoi ultime. Leur but : renverser Shao Kahn, un tyran qui menace l'existence même de leur monde. L'arrivée fracassante de Kitana, princesse d'Outworld aux loyautés troubles, vient brouiller davantage les lignes séparant ennemis et alliés. Tandis que de nouvelles alliances se forment, les combattants découvrent que les règles du tournoi ont changé. Entre affrontements spectaculaires et révélations mystiques, ils devront repousser leurs limites.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1399525",
+      "type": "movie",
+      "name": "Rose of Nevada",
+      "poster": "https://image.tmdb.org/t/p/w500/1x34FPfKP8uYO7LlzopbHpJFGAh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8nchwqjrC1YGT8aNNsHtGz87VTT.jpg",
+      "description": "Dans un village de pêcheurs, un bateau apparaît mystérieusement dans le vieux port. La Rose de Nevada, perdue en mer avec tous ses hommes il y a 30 ans, est de retour. Pour les quelques personnes qui s'en souviennent, c'est un signe. La Rose of Nevada doit reprendre la mer, peut-être qu'alors la chance du village dévasté tournera. Nick accepte un emploi à bord du bateau pour tenter de subvenir aux besoins de sa famille. À ses côtés, Liam, nouvellement arrivé, se joint à l'équipage, afin d'échapper à son passé. Ils prennent la mer et, après un voyage réussi, rentrent au port. Mais quelque chose ne va pas. Ils ont remonté le temps et les villageois les accueillent comme s'ils étaient l'équipage d'origine.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1140521",
+      "type": "movie",
+      "name": "The Magic Faraway Tree",
+      "poster": "https://image.tmdb.org/t/p/w500/r0E0vpqQ1eJLs6d7F1m9EJpT1xS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3o7t1gF0wbXAtELCkIcYyPXoIxA.jpg",
+      "description": "Une famille de la grande ville déménage à la campagne où les enfants découvrent un arbre magique peuplé d’habitants excentriques. Ils sont transportés dans des contrées fantastiques, où leurs aventures leur permettent de renouer leurs liens familiaux.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1493859",
+      "type": "movie",
+      "name": "Mission Pizza",
+      "poster": "https://image.tmdb.org/t/p/w500/1xNCKksGotlqxGoBWaB22mi7LVK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/75UkXLlLedidOGo0VogF0A0NPfC.jpg",
+      "description": "Des étudiants descendent récupérer une pizza à l'entrée de leur résidence. Seul problème : ils sont dans un état second après avoir pris une drogue artisanale, et descendre deux étages se transforme en une quête aussi hallucinante que transformatrice.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1159831",
+      "type": "movie",
+      "name": "The Bride!",
+      "poster": "https://image.tmdb.org/t/p/w500/6TQDTJtHxkz1Ln7oJsw60hPWEw4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uXgWbwxmCW6XZ3ylRThk9Sqhwwq.jpg",
+      "description": "Un Frankenstein esseulé se rend dans le Chicago des années 30 afin de convaincre la brillante scientifique Dr Euphronious de lui concevoir une compagne. Les deux ressuscitent une jeune femme assassinée et La fiancée voit le jour. Et ce qui suit dépasse toutes leurs attentes : Meurtre ! Possession ! Un mouvement culturel déchaîné et radical ! Et des amants rebelles dans une romance sauvage et explosive !",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1339173",
+      "type": "movie",
+      "name": "Honey Bunch",
+      "poster": "https://image.tmdb.org/t/p/w500/aZs18sPGIypQ8Zi5OqwBCsemvFC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9L5Ekpoy4zT6o00qKUmZTeTkaVf.jpg",
+      "description": "Diana se réveille d'un coma avec des souvenirs partiels de sa vie passée. Elle obtient un traitement expérimental mais à mesure que son protocole s'intensifie, son mariage est mis à l'épreuve...",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1212461",
+      "type": "movie",
+      "name": "Obex",
+      "poster": "https://image.tmdb.org/t/p/w500/989voQxc9qAJKuBaoBHngqnpLsD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/77aCeoWOA5toCWk67lTAzrfW92Y.jpg",
+      "releaseInfo": "2026"
+    }
+  ]
+}

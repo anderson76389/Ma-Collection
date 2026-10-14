@@ -1,0 +1,67 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1361774",
+      "type": "movie",
+      "name": "Les Fous du pickleball",
+      "poster": "https://image.tmdb.org/t/p/w500/1tmQlYIvc8XGstEM45pyBqYRSnt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z1Z1vW3bu27UUXD70vyqAcCeXU1.jpg",
+      "description": "Dusty Boyd, alias \"Le Marteau\", un joueur de tennis pro en déroute, a besoin de gagner. Pour sauver un country club en difficulté et gagner le respect de son père, il rompt un serment sacré et commet l’impensable : il joue au pickleball.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1317288",
+      "type": "movie",
+      "name": "Marty Supreme",
+      "poster": "https://image.tmdb.org/t/p/w500/hjrvtc7UCrnsypfnLJuxx9ODKCi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6h7w8R4BA7vubEmEEW5vYEjuoz6.jpg",
+      "description": "Marty Mauser, 23 ans, aspire à devenir le meilleur athlète sur la scène mondiale du tennis de table. Le sport est sous-représenté aux États-Unis, ce qui rend difficile le financement de ses compétitions à l'étranger. Il est toutefois prêt à tout pour arriver à ses fins, y compris nouer des liens avec une ancienne actrice et son riche mari entrepreneur. Son entêtement pose un problème pour les personnes de son entourage, qui font souvent les frais de ses choix cavaliers.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:760329",
+      "type": "movie",
+      "name": "Smashing Machine",
+      "poster": "https://image.tmdb.org/t/p/w500/pUaavx7aSBnJEaF0lDFusIinivw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hTCr9dDf0EcBGZSUaY0YCeBjBr5.jpg",
+      "description": "En 1997, Mark Kerr, champion poids lourd de combats d'arts martiaux mixtes, connaît une première défaite lors d'un tournoi au Japon. Poursuivant sa carrière avec une confiance ébranlée, le colosse développe une dépendance aux opioïdes, qui complique son existence déjà tumultueuse auprès de sa femme Dawn, dans leur maison en Arizona.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1135303",
+      "type": "movie",
+      "name": "The Senior",
+      "poster": "https://image.tmdb.org/t/p/w500/sv3kE86knrukjpGTtLLfg246JFx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hfrWfc7wLeex6vPuhaDR4lweZx2.jpg",
+      "description": "Il y a 37 ans, Mike Flynt a été renvoyé de son équipe de football universitaire pour une altercation avec un autre coéquipier. Aujourd'hui âgé de 59 ans, Mike continue de porter ce fardeau. Quand il apprend qu'il lui reste une année d'admissibilité pour entrer en fac, il décide de retourner à l'école pour obtenir son diplôme et tenter de rejoindre l'équipe pour racheter sa faute passée. Basé sur une histoire vraie.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:911430",
+      "type": "movie",
+      "name": "F1® Le Film",
+      "poster": "https://image.tmdb.org/t/p/w500/up0kyZZlLX24dE9SzDuTjXe6HFl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lkDYN0whyE82mcM20rwtwjbniKF.jpg",
+      "description": "Sonny Hayes était le prodige de la F1 des années 90 jusqu’à son terrible accident. Trente ans plus tard, devenu un pilote indépendant, il est contacté par Ruben Cervantes, patron d’une écurie en faillite qui le convainc de revenir pour sauver l’équipe et prouver qu’il est toujours le meilleur. Aux côtés de Joshua Pearce, diamant brut prêt à devenir le numéro 1, Sonny réalise vite qu'en F1, son coéquipier est aussi son plus grand rival, que le danger est partout et qu'il risque de tout perdre.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1144932",
+      "type": "movie",
+      "name": "Queen of the Ring",
+      "poster": "https://image.tmdb.org/t/p/w500/8wNiRqFq95mrj064dOS8o4Ml8V4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z4nGKYC1aj2qy5fEKYiZQsdrEPB.jpg",
+      "description": "États-Unis, années 1930. Mildred Burke travaille comme serveuse et élève seule son enfant. Inspirée par les modèles que représentent Eleanor Roosevelt et Amelia Earhart, elle rêve, elle aussi, de marquer l'histoire. Un soir, alors qu’elle assiste pour la première fois à un match de catch à Kansas City, elle a une illumination : sa destinée est de combattre sur le ring. Bien que ce sport soit alors largement interdit aux femmes, elle convainc le célèbre Billy Wolfe de l’entraîner. Leur relation professionnelle devient rapidement amoureuse. Par sa nature tumultueuse toutefois, celle-ci fragilise sa carrière.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1226777",
+      "type": "movie",
+      "name": "Eephus, le dernier tour de piste",
+      "poster": "https://image.tmdb.org/t/p/w500/mkT7XO42iu7YWr2q3BJSmgngtd3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gDkePcszTeHCiYzaWdv59zkCk4H.jpg",
+      "description": "Alors qu'un projet de construction menace leur terrain de baseball adoré, deux équipes amatrices d'une petite ville de la Nouvelle-Angleterre s'affrontent pour la dernière fois. Face à cet avenir incertain les tensions et les rires s'exacerbent, annonçant la fin d'une ère de camaraderie.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

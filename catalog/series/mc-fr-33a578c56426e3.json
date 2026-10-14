@@ -1,0 +1,81 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:12786",
+      "type": "series",
+      "name": "Les Enquêtes de Murdoch",
+      "poster": "https://image.tmdb.org/t/p/w500/vCSA0IWWsGHgEkfKwXyFRbil7cO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hYmHyUlJMQgeazELoHnORrEQ0vE.jpg",
+      "description": "Toronto 1892. William Murdoch est un jeune et brillant inspecteur qui résout des enquêtes criminelles à l'aide de techniques scientifiques d'avant garde, de l'analyse des empreintes au premier détecteur de mensonges. Son approche originale suscite les moqueries de ses collègues policiers et le scepticisme de son supérieur, mais William Murdoch est souvent le seul à trouver la piste du criminel. Sa meilleure alliée est Julia Ogden, ravissante médecin pathologiste, à l'esprit vif, qui n'a de cesse de se battre contre les préjugés de la société. ",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:14929",
+      "type": "series",
+      "name": "Heartland",
+      "poster": "https://image.tmdb.org/t/p/w500/uc2gtWczT58BiAUJWFz9P5aZmNF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/11nGiX6hLdexBD4TVUAAVzSIAQy.jpg",
+      "description": "En dépit des dettes qui s'accumulent et de la banque qui menace de saisir, les Fleming se battent pour permettre à leur ranch de continuer à tourner.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tmdb:70",
+      "type": "series",
+      "name": "This Hour Has 22 Minutes",
+      "poster": "https://image.tmdb.org/t/p/w500/shWjVJtL7NBLcGiylwWwXLm9nlR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2z85pmHUqfkktqDuqaxksGSW8S8.jpg",
+      "releaseInfo": "1993"
+    },
+    {
+      "id": "tmdb:38206",
+      "type": "series",
+      "name": "Dragons' Den",
+      "poster": "https://image.tmdb.org/t/p/w500/6zSIPB9rxjSQuXBOWQVW5JoWCXa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qT2HigmOpIUkVzTMyJFIWVQM9kx.jpg",
+      "releaseInfo": "2006"
+    },
+    {
+      "id": "tmdb:154827",
+      "type": "series",
+      "name": "La famille Critch",
+      "poster": "https://image.tmdb.org/t/p/w500/32oEWkagup2q4UX3zLmc8xZS3Q3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4WmsP0iPf4Rttjq9oDJJ4nUUw3t.jpg",
+      "description": "La famille Critch raconte les aventures désopilantes et pourtant véridiques du jeune Mark, 11 ans, à Saint-Jean, dans la province de Terre-Neuve-et-Labrador. La série jette un regard authentique sur la vie d’un enfant trop vieux pour son âge, qui utilise l’humour et l’autodérision pour nouer des amitiés et tisser des liens avec le petit nombre de personnes qui gravitent dans son univers limité.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:97867",
+      "type": "series",
+      "name": "Family Feud Canada",
+      "poster": "https://image.tmdb.org/t/p/w500/ohlgnAbNTZYZ0PhsM57HPTJ0pg7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vK8tSeOh7WTkPqLu3kK34U8zmiE.jpg",
+      "description": "Il s'agit de la version canadienne du jeu TV \"Une famille en or\", originaire des Etats-Unis sous le nom de Family Feud. Deux familles composées de cinq membres s'affrontent en donnant leur opinion, sur des questions posées à 100 Canadiens. Le but est de se rapprocher le plus de l'opinion des Canadiens sondés, afin d'amasser un maximum de points pour accéder à la finale et gagner le gros lot !",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:75817",
+      "type": "series",
+      "name": "The Great Canadian Baking Show",
+      "poster": "https://image.tmdb.org/t/p/w500/x6A8MzTrd7x2LVv90zFHUZTOHrv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2YPyaKoBFrxqR8g6f4J5TOvHJaE.jpg",
+      "description": "Version canadienne de la compétition de pâtisserie britannique à succès. 10 boulangers amateurs de partout au Canada s'affrontent dans une série de défis culinaires thématiques.",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:277410",
+      "type": "series",
+      "name": "Dino Ranch: Island Explorers",
+      "poster": "https://image.tmdb.org/t/p/w500/knkr9RwA33jIskhS6PuwSZJCp0s.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8w8oWpatj0MSlNdWNTXEu99JDGJ.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:327287",
+      "type": "series",
+      "name": "Doula: A True Crime",
+      "poster": "https://image.tmdb.org/t/p/w500/iXazgzljqIwHn9l2fSt5cr5HHUl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9hLz8ySJjFCbNmi2eiqFQTbWLDW.jpg",
+      "releaseInfo": "2026"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:318955",
+      "type": "series",
+      "name": "In the City",
+      "poster": "https://image.tmdb.org/t/p/w500/1ePzDU02Xyl7rOchP7arSYMF7fO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pX4jSv0EsKNLI0asnKIuXyseW3o.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:290883",
+      "type": "series",
+      "name": "The Real Housewives of Rhode Island",
+      "poster": "https://image.tmdb.org/t/p/w500/rzpLwY4aNJZMXp9iw0uyGdogJxW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rJW1oH0uXWqUeDGI6ERFyCAqfM6.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:290884",
+      "type": "series",
+      "name": "The Valley: Persian Style",
+      "poster": "https://image.tmdb.org/t/p/w500/jXhwuDWEVih3xPo4kAJStpcmFKp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kKwNMBUu8NUeguAR2MpilbsLBkz.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:303528",
+      "type": "series",
+      "name": "Surviving Mormonism with Heather Gay",
+      "poster": "https://image.tmdb.org/t/p/w500/3z0E6npYNHnqqRSGL8TtmyELSjs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uGR9hzpkdgSdqKiwI3Vgvtyo9dO.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:302228",
+      "type": "series",
+      "name": "Las Culturistas Culture Awards",
+      "poster": "https://image.tmdb.org/t/p/w500/j3kkimOb0eJ7ZMGkzUSXnxdsTSE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r8FyBt70y9MRLC5nXYGtnCMLtDw.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:293469",
+      "type": "series",
+      "name": "Kings Court",
+      "poster": "https://image.tmdb.org/t/p/w500/syFT74eAQ2y8FHlkbFPogySdzXl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2CpJ4zWO2r9kDn4MBgwaphaIj6g.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:288453",
+      "type": "series",
+      "name": "Next Gen NYC",
+      "poster": "https://image.tmdb.org/t/p/w500/quiTd4vvJMAOSq5oncG31Q4cmo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hLa1alBNswGaTk3lu5s4qGxqLb2.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:287462",
+      "type": "series",
+      "name": "Love Hotel",
+      "poster": "https://image.tmdb.org/t/p/w500/adnUb9EEOcIwhPin6ysYDof6RNz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4TgF1kSGMJr8ssix5TEjKUNTJZj.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:285643",
+      "type": "series",
+      "name": "Denise Richards and Her Wild Things",
+      "poster": "https://image.tmdb.org/t/p/w500/ukf6bum3vcGalwVhoDZRKrAa8H0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jCXxl3zauvUdcs2cGQsVfYOHG4d.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:271918",
+      "type": "series",
+      "name": "Sold on SLC",
+      "poster": "https://image.tmdb.org/t/p/w500/1VjxR8CIaiNu97C1MtONzALVWu0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3777V8mwcnjWNA0kO79yhul3vjf.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:247758",
+      "type": "series",
+      "name": "The Valley",
+      "poster": "https://image.tmdb.org/t/p/w500/iHlns2igeXlt2Gmz3cubTUOIQfa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nGBWSonchWojfZMV1eLOYoaq2R3.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:247172",
+      "type": "series",
+      "name": "The McBee Dynasty: Real American Cowboys",
+      "poster": "https://image.tmdb.org/t/p/w500/q4R46GvPCrpFdj5Q1NS3oFAyuTU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mLDXmz1wknpbIlslX5b5I9CyUIL.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:245189",
+      "type": "series",
+      "name": "Erika Jayne: Bet It All on Blonde",
+      "poster": "https://image.tmdb.org/t/p/w500/pAGlKtC6ZLnqvsyyRX3dUIXZtes.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qTCTMyDreGrTzPCj43Gyh5xft3n.jpg",
+      "releaseInfo": "2024"
+    }
+  ]
+}

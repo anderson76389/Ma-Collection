@@ -1,0 +1,22 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:204135",
+      "type": "series",
+      "name": "Dragon Striker",
+      "poster": "https://image.tmdb.org/t/p/w500/5aELUnMSAIcJf4CAmcgIWcKmO8c.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hoLPJjPfYdEWJXG1y7OCgOeipaF.jpg",
+      "description": "Dans un monde où sport et magie se mêlent, le jeune fermier Key découvre son talent surpuissant : il pourrait être le légendaire Dragon Striker. Il rejoint la gardienne Ssyelle et sa nouvelle équipe pour défier les champions de l'école. Alors que Key peine à maîtriser le dragon qui est en lui et que Ssyelle se bat pour souder son équipe, ils découvrent de sombres secrets du passé et un mal ancestral.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:301715",
+      "type": "series",
+      "name": "Armorsaurs",
+      "poster": "https://image.tmdb.org/t/p/w500/hYevUT2EfhMaSayHenGRaiBU5i2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hNXEnTA4a0WeqhoahaBhJRB2G06.jpg",
+      "description": "Les dinosaures sont de retour, et cinq adolescents sont les seuls à pouvoir créer un lien avec eux. C'est à ces héros de revêtir leurs armures et de piloter leurs dinosaures pour combattre le mal et sauver le monde.",
+      "releaseInfo": "2025"
+    }
+  ]
+}

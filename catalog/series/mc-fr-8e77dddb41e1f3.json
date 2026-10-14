@@ -1,0 +1,103 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:284833",
+      "type": "series",
+      "name": "Avatar : Les Sept Refuges",
+      "poster": "https://image.tmdb.org/t/p/w500/yfUFI7fIDcdA01Ej5Rwfv2OEH8O.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/t2KFGH07Al4XuIZLHRlF1Hj9IJB.jpg",
+      "description": "Après une catastrophe planétaire, une jeune maîtresse de la terre découvre qu'elle est l'Avatar succédant à Korra. Désormais considérée comme un présage de fin du monde, elle se lance dans une course contre-la-montre pour sauver les Sept Refuges.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:309798",
+      "type": "series",
+      "name": "Ma brillante carrière",
+      "poster": "https://image.tmdb.org/t/p/w500/quZMr2DHNfsx6YjOuABxGfnt2ko.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5ErhLuuVrxlNa2JiRzXfo0U10uZ.jpg",
+      "description": "Sybylla est une jeune femme résolument moderne qui a pour ambition de devenir écrivaine, alors que sa famille est déterminée à la marier. Animée d'une joie de vivre irrépressible, elle bouscule toutes les conventions de l'Australie de 1900 à la recherche d'une histoire qui lui permettra de s'émanciper par l'écriture. Pour elle, le choix entre l'aventure et le mariage paraît simple… jusqu’à ce qu'elle tombe amoureuse. Sybylla se mariera-t-elle ou risquera-t-elle tout pour vivre de sa plume ?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:283304",
+      "type": "series",
+      "name": "La Petite Maison dans la prairie",
+      "poster": "https://image.tmdb.org/t/p/w500/y8sgnrz9xXIIAfOcXasjtPTXNw8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fBieUo3SdItUrXZE16YxbpjwXIe.jpg",
+      "description": "La famille Ingalls se construit une nouvelle vie dans l'Ouest américain, où les joies de la nature se mêlent à la lutte pour survivre.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:279601",
+      "type": "series",
+      "name": "Seul face au bébé",
+      "poster": "https://image.tmdb.org/t/p/w500/8kaXSFcKDatRdJSXgXFMufH051.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lSffVt0etoSLyl2hsTREdJ1CnQ1.jpg",
+      "description": "À l'approche de Noël, un père gaffeur jongle entre son job de gardien d'un appartement de luxe et une tâche inattendue : s'occuper d'un bébé perdu.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:302540",
+      "type": "series",
+      "name": "Les Bad Guys cassent la baraque",
+      "poster": "https://image.tmdb.org/t/p/w500/wGqA40va0r9OY3GJWPVl45PZPY5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pXdkJvhBcPf8oEj831ASMkLPXKT.jpg",
+      "description": "Comment les Bad Guys sont-ils devenus des bandits de haut vol ? Toutes les réponses se trouvent dans cette série hilarante, située avant les films à succès.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:291904",
+      "type": "series",
+      "name": "Le Monde merveilleusement bizarre de Gumball",
+      "poster": "https://image.tmdb.org/t/p/w500/hAwR0TolHvxWbDeaDRKDumhsJ6A.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xkhniKa1PGj78h3T9xDuV9jG8ZB.jpg",
+      "description": "Qu'il combatte un empire de la malbouffe, affronte une intelligence artificielle douée de sentiments ou essaie d'empêcher Joe la Banane de porter des pantalons, Gumball entraîne Darwin, Anaïs et le reste des habitants d’Elmore dans ses aventures.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:248833",
+      "type": "series",
+      "name": "The Runarounds",
+      "poster": "https://image.tmdb.org/t/p/w500/kdO6m9uuX7xKaGj25T3cf782sPL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oyr8vPGD66eNqruV3LjoI72UNxl.jpg",
+      "description": "Un groupe de finissants du secondaire qui forment un groupe dans l'espoir d'échapper à l'avenir monotone qui s'offre à eux. Alors qu'ils poursuivent le succès et leur rêve presque impossible au cours d'un été, ils tombent amoureux et rencontrent des problèmes en chemin.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:114500",
+      "type": "series",
+      "name": "Gagné ou Perdu",
+      "poster": "https://image.tmdb.org/t/p/w500/9P4O7j44cRMy0PMSuJi9hBEeDlk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/l3RyxkgMEm6E4D1uZDwQfi0P9TK.jpg",
+      "description": "À l'approche d'un match important, huit personnages voient leur vie hors du terrain bouleversée.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:255868",
+      "type": "series",
+      "name": "Rêves Productions",
+      "poster": "https://image.tmdb.org/t/p/w500/xqHqPFvcxhGnCR1vOUIBYdrBjIt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6sHfXN6sCzCcIJa3wwXPIJqFtuI.jpg",
+      "description": "Riley grandit et ses souvenirs méritent parfois un traitement de faveur. Le quartier cérébral envoie ces souvenirs à Rêves Productions, où la célèbre réalisatrice Paula Persimmon doit faire face à un véritable cauchemar : réaliser le prochain rêve à succès de Riley aux côtés de Xeni, un réalisateur de rêveries prétentieuses, qui cherche tant bien que mal à entrer dans la cour des grands en matière de rêves.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:202879",
+      "type": "series",
+      "name": "Star Wars : Skeleton Crew",
+      "poster": "https://image.tmdb.org/t/p/w500/xb0uYH1FMotvyARwpY6Zj8VyTf9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fciU7RVyfcdsTeksTnBXGPmkKg2.jpg",
+      "description": "L'histoire de quatre enfants à la recherche de leur planète d'origine. Perdus dans la galaxie, leurs aventures les mènent à la rencontre d'étranges créatures, et d'endroits mystérieux et dangereux.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:245026",
+      "type": "series",
+      "name": "Waverly Place : Les nouveaux sorciers",
+      "poster": "https://image.tmdb.org/t/p/w500/8hyRM3e5k5mIilYw9RexdTl6dXT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/TxicZcsiP9VHYXMYHm4IEHnwv9.jpg",
+      "description": "Justin Russo, devenu adulte, a choisi de mener une existence de mortel ordinaire auprès de sa femme, Giada, et de leurs enfants, Roman et Milo. Mais quand Alex, la sœur de Justin, débarque avec la jeune Billie pour lui demander de l’aide, notre héros comprend qu’il va devoir se remettre à la magie pour servir de mentor à l’apprentie sorcière… tout en jonglant avec ses responsabilités quotidiennes.",
+      "releaseInfo": "2024"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1767073",
+      "type": "movie",
+      "name": "The Nice Ones",
+      "poster": "https://image.tmdb.org/t/p/w500/akMSRVUZRBZlR9nzbEhRPoQ4xSu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zQmaXGt8MYNRZaV2YVqkFbCoTWq.jpg",
+      "description": "Lorsque Kate rejoint les amis de son petit ami dans un lieu de retraite isolé à la campagne, de vieilles blessures refont surface alors que d’étranges lumières apparaissent dans le ciel. À mesure que le malaise s’installe, les membres du groupe commencent à changer : ils deviennent d’un calme déconcertant, aimables et « gentils ». Considérée comme instable, Kate lutte pour convaincre les autres que quelque chose ne va pas avant que la force qui est à l’origine de tout cela ne se propage.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1423191",
+      "type": "movie",
+      "name": "Resident Evil",
+      "poster": "https://image.tmdb.org/t/p/w500/pICoWjcKSet6sA3yzxOkP8ChwYI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
+      "description": "Bryan, un coursier médical, est en train d'effectuer une livraison lorsqu'une épidémie soudaine se déclare, le forçant à lutter pour sa survie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1751701",
+      "type": "movie",
+      "name": "After Impact",
+      "poster": "https://image.tmdb.org/t/p/w500/yzDuAQCY2n6zzOlBkn6JzhLhY3k.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/k22XyPbce7zvzzf5OnT4uaY8ZD1.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1506560",
+      "type": "movie",
+      "name": "Le Choc des Thunderman",
+      "poster": "https://image.tmdb.org/t/p/w500/ko3VYnCg7P8wHVKIThB5GQi3IEn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hDwl0YMxwGhNe7u8wgHHk2Hyw3W.jpg",
+      "description": "Chloé développe un nouveau pouvoir aussi inattendu qu'incontrôlable, poussant la Ligue des Héros à exiger qu'elle soit envoyée dans un internat pour super-héros afin d'apprendre à le maîtriser. Face à cette perspective, sa famille est divisée.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1384216",
+      "type": "movie",
+      "name": "The Dog Stars",
+      "poster": "https://image.tmdb.org/t/p/w500/w7c49Qgp3TAUC4hlo0mtgRpLOGG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/quAHqi4zBrB5fIfHvgrqiG4xzAC.jpg",
+      "description": "Dans un futur proche où une pandémie sans nom a décimé la société américaine, Hig, un pilote vit sur une base aérienne abandonnée du Colorado avec son chien et un ex-marine. Lorsqu'une transmission aléatoire passe par la radio de son Cessna 1956, la voix fait naître au plus profond du pilote l'espoir qu'une vie meilleure existe en dehors de leur périmètre étroitement contrôlé...",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:813418",
+      "type": "movie",
+      "name": "Hot Spot",
+      "poster": "https://image.tmdb.org/t/p/w500/42egzT6e4CIEdrEo4Xc31DKyGjA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mATo9RWAc7IWGVbetpmmKJqWDiJ.jpg",
+      "description": "Dans une société gouvernée par une IA sensible, un détective privé enquêtant sur un meurtre tombe sur un groupe rebelle capable d'ébranler le chef numérique.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1226699",
+      "type": "movie",
+      "name": "The Wrong Girls",
+      "poster": "https://image.tmdb.org/t/p/w500/gqNqOBWuwG2oR4vcn3wQTPLsyiw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/opubkXrPWbXKXIv8hBsiamTmKoM.jpg",
+      "description": "Frankie et Molly, deux meilleures amies vivent au jour le jour, lorsque leur vie bascule dans le chaos à la suite d'une erreur d'identité.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1101383",
+      "type": "movie",
+      "name": "La Fin d'Oak Street",
+      "poster": "https://image.tmdb.org/t/p/w500/yZINaQysj32K2DS2EW4Iy1bK4Bm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg",
+      "description": "Lorsqu’un mystérieux événement cosmique arrache Oak Street à sa paisible banlieue et la transporte vers un lieu inconnu, la famille Platt, désorientée dans ce nouvel environnement hostile, comprend vite qu’il leur faudra rester unis pour survivre.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1323244",
+      "type": "movie",
+      "name": "Rage of Stars",
+      "poster": "https://image.tmdb.org/t/p/w500/oLld47ZT1I3iecM3OWhIphohQUJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z7lZgL5tzefTfhyRtouThFhsuUS.jpg",
+      "description": "L'histoire d'une femme membre des forces spéciales internationales, qui a une prémonition de la fin imminente de l'humanité.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1284041",
+      "type": "movie",
+      "name": "Le Dernier Refuge",
+      "poster": "https://image.tmdb.org/t/p/w500/loDdQQZm3mPG9FFQpD2bdC0I2wy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1RhfevWmWCVHtEqxWBEjPOC5KG1.jpg",
+      "description": "Des forces inexplicables enferment une famille de quatre personnes à l'intérieur de leur maison indéfiniment. Alors que les luxes modernes et les nécessités vitales commencent à manquer, la famille doit apprendre à être ingénieuse pour survivre et déjouer celui - ou ce qui - les maintient prisonniers…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1307118",
+      "type": "movie",
+      "name": "Soulm8te",
+      "poster": "https://image.tmdb.org/t/p/w500/nIkAHDzo9kbG3kDmDckqywo6CE9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7t6f6VxA2ZXbbZSVctgt7bZG2DI.jpg",
+      "description": "Un homme acquiert un androïde à intelligence artificielle pour faire face à la perte de sa femme. En essayant de créer un partenaire vraiment sensible, il transforme un \"lovebot\" inoffensif en une compagne dangereuse.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:969681",
+      "type": "movie",
+      "name": "Spider-Man : Brand New Day",
+      "poster": "https://image.tmdb.org/t/p/w500/6OEtkkzoyusZDm2uMJojlWZSLR9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4tjxYg2AbOzzG9G1YuiT2NzYhlH.jpg",
+      "description": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttant contre le crime dans un New York qui ne le reconnaît plus, il se consacre entièrement à la protection de la ville - un Spider-Man à plein temps - mais à mesure que les responsabilités s'intensifient, la pression provoque une transformation physique surprenante qui menace son existence, tandis qu'une étrange nouvelle vague de crimes donne naissance à l'une des menaces les plus redoutables qu'il ait jamais affrontées.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1381202",
+      "type": "movie",
+      "name": "The Outer Threat",
+      "poster": "https://image.tmdb.org/t/p/w500/owVv7O82WAcKkhkEIF3QcMk2YYy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ouEdGbvYnhAnHJYLYDkISs3X9yJ.jpg",
+      "description": "Après avoir fait une découverte troublante, un astrophysicien et sa famille sont traqués à travers la campagne par un mystérieux inconnu. Une fois conscients de la réalité de la situation, ils se voient contraints de prendre une décision qui changera l’avenir de l’humanité.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1469342",
+      "type": "movie",
+      "name": "Her Private Hell",
+      "poster": "https://image.tmdb.org/t/p/w500/xFVviOiV7UFYaXucUJdlLw30gyt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hS4FcOM5y71FurkBQgDLTBxmWZh.jpg",
+      "description": "Tandis qu'une étrange brume engloutit une métropole futuriste et libère une présence mortelle insaisissable, une jeune femme troublée part à la recherche de son père. Au cours de cette quête, son destin croise celui d'un GI américain engagé dans un voyage désespéré pour arracher sa fille de l'enfer.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1081003",
+      "type": "movie",
+      "name": "Supergirl",
+      "poster": "https://image.tmdb.org/t/p/w500/1rtTSqlITti6l6NLouxVO0xFqto.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/heZQmyNvkH236ha2M3JckdUQQqb.jpg",
+      "description": "Lorsqu’un ennemi inattendu et impitoyable surgit, Kara Zor-El est forcée, malgré elle, de faire équipe avec un compagnon improbable. Ensemble, ils se lancent dans une épopée cosmique où la vengeance et la justice sont en jeu, et où Kara doit affronter ses origines pour trouver sa propre voie en tant qu’héroïne.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1275779",
+      "type": "movie",
+      "name": "Disclosure Day",
+      "poster": "https://image.tmdb.org/t/p/w500/8GRMeKaDFnuzXBzqGiDMzCFDnwQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1e0KDRYKRPHiVNj8yQKYuU2jVyQ.jpg",
+      "description": "Si vous découvriez que nous ne sommes pas seuls, si quelqu'un vous le montrait, vous le prouvait, cela vous effraierait-il ?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1083884",
+      "type": "movie",
+      "name": "Signal One",
+      "poster": "https://image.tmdb.org/t/p/w500/bi7Aeaozl51cd5K6vAn8tI1lOW0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3gN540zmAiJW1v6mFoNiciamxc2.jpg",
+      "description": "Un informaticien est invité par un milliardaire du secteur des technologies à rejoindre son centre privé situé sur une île des Caraïbes afin d’étudier la matière extraterrestre présente sur Terre. Lorsqu’ils établissent le contact avec un monde au-delà du nôtre, le chaos s’installe et nous nous demandons : viennent-ils en paix ?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:454639",
+      "type": "movie",
+      "name": "Les Maîtres de l'univers",
+      "poster": "https://image.tmdb.org/t/p/w500/tJxeLnt5K3LHfJdaAZY6bttM0Sv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5MUMB3aPEPEQPCIAaygXFUTWE9Y.jpg",
+      "description": "Quinze ans après avoir recherché l'Épée du Pouvoir, Adam est catapulté sur sa planète natale Eternia, sur laquelle Skeletor règne désormais. Avec Teela et Duncan à ses côtés, il doit libérer son vrai pouvoir, embrasser son destin en tant que Musclor, et lutter pour sauver son monde et les gens qu'il aime.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1083381",
+      "type": "movie",
+      "name": "Backrooms",
+      "poster": "https://image.tmdb.org/t/p/w500/thQQ3BBBhGDtWm3UTtabhyDJd8U.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dqmMWNWfLnExDRpMtIMqI97GQFR.jpg",
+      "description": "Une étrange porte apparaît dans le sous-sol d'un magasin de meubles.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1698856",
+      "type": "movie",
+      "name": "Master of the Universe",
+      "poster": "https://image.tmdb.org/t/p/w500/a77OcLmarwiBJakOPPC36m58t4L.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uOQtyMV2G9yJvc0s14zmLoRC5H9.jpg",
+      "description": "Un jeune homme doit faire appel à ses pouvoirs inexploités pour lutter contre un extraterrestre maléfique et son armée, qui ne reculeront devant rien pour conquérir la Terre, puis l'univers.",
+      "releaseInfo": "2026"
+    }
+  ]
+}

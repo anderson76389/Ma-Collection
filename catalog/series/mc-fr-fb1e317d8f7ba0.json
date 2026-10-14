@@ -1,0 +1,174 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:288673",
+      "type": "series",
+      "name": "Carrie",
+      "poster": "https://image.tmdb.org/t/p/w500/dkDeQSeJGSfEBFavomS3LUci2VO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9yCJtipMeDe8uAdSJKvw8BnYfRz.jpg",
+      "description": "Après la mort soudaine et prématurée de son père, Carrie est propulsée dans l'univers impitoyable d'un lycée public et doit faire face à un scandale de harcèlement viral qui secoue sa communauté, à la pression incessante et à la cruauté des réseaux sociaux tandis qu'en parallèle, un mystérieux pouvoir de télékinésie s'éveille en elle.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:337332",
+      "type": "series",
+      "name": "Fauchées",
+      "description": "Un héritage, deux cousines, huit péripéties ! Pour rembourser leurs dettes, Suzanne et Mona vendent les objets de leur grand-mère. Entre acheteurs loufoques, arnaques et souvenirs, chaque vente se transforme en aventure...",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:335227",
+      "type": "series",
+      "name": "Je préfère la mort",
+      "poster": "https://image.tmdb.org/t/p/w500/wkHurnx3NZ9kDaUzVIZNKTUditz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/339M5JkUc4DeXBGoK2lp9QZ3Y5e.jpg",
+      "description": "Archie est un marginal qui habite dans la paisible ville provinciale de Mendoza. Lors d'une nuit glaciale, il se fait mordre par un zombie et, après avoir envisagé de mettre fin à ses jours, il décide de comprendre ce qui arrive à son corps. Avec l'aide de sa seule amie et de son crush de toujours, Archie part à la recherche d'un remède avant de se transformer en monstre et de tuer tout le monde.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:300925",
+      "type": "series",
+      "name": "Paul, la série",
+      "poster": "https://image.tmdb.org/t/p/w500/u2SKO0CdlpVytRvvoIj16X6vrb1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6rltPS3KE5yvjW2a90nlhKYXg0b.jpg",
+      "description": "À presque 30 ans, Paul Mirabel vient de vendre à Amazon l’enregistrement de son spectacle ET un documentaire sur sa vie. Problème : Il a passé plus de temps sur sa PlayStation qu’à écrire son nouveau spectacle et n’a aucune image d’archives, bref il a menti. Jusqu’où ce coup de bluff le mènera t il ? Et ajouter à cela un amour de jeunesse qui refait surface, parce qu’un problème n’arrive jamais seul…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:330302",
+      "type": "series",
+      "name": "Catedrales",
+      "poster": "https://image.tmdb.org/t/p/w500/7LQKFR1iOlIZkbDLbhcLOBWfmXk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lXfOj4JcnyW0KdfMLrLTLegju5I.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:273207",
+      "type": "series",
+      "name": "Neagley",
+      "poster": "https://image.tmdb.org/t/p/w500/wltznBj9nVDqlvBWZq37P5zp7ib.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uYOYLFQ4q7asuhdiKXCqGaeAQUH.jpg",
+      "description": "Frances Neagley est une détective privée à Chicago et une ancienne collègue de Jack Reacher au sein de la 110e Unité d'enquêtes spéciales de l'armée. Lorsqu'elle apprend qu'un ami cher de son passé a été tué dans un accident suspect, elle se lance à corps perdu dans une quête de justice.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:314939",
+      "type": "series",
+      "name": "Un autre amour que le tien",
+      "poster": "https://image.tmdb.org/t/p/w500/lu3tuzFl4c6rx1WcoLOGZlkTjaw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/moUjiEzpJVNZc7hyNRBbLPt0CPX.jpg",
+      "description": "Une romance réaliste et touchante sur un couple qui, après dix ans de vie commune, voit sa relation confortable bouleversée par des sentiments inattendus.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:323980",
+      "type": "series",
+      "name": "Operation Deception",
+      "poster": "https://image.tmdb.org/t/p/w500/b0Uz1KyKvsqBxFVdJ7HNPAquyXX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iO7ck5oXIY9qQyHyXH53FCqrIzs.jpg",
+      "description": "Suit une opération secrète controversée qui a envoyé Alain Olivier, un étudiant forestier québécois toxicomane, dans le couloir de la mort en Thaïlande en 1989.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:319722",
+      "type": "series",
+      "name": "Honor Thy Mother",
+      "poster": "https://image.tmdb.org/t/p/w500/rAdn0E8u53QQZrBbgKEwyO2mhCs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/45QKBrrIO5WcYhdF8SKtJiu7Ig7.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:260249",
+      "type": "series",
+      "name": "El juicio",
+      "poster": "https://image.tmdb.org/t/p/w500/8tim2R1DnlLz5piMosrTc3JWuGo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bLcF9mcinphgFlXEfk7RkCSfqCv.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:249863",
+      "type": "series",
+      "name": "The Revolutionaries",
+      "poster": "https://image.tmdb.org/t/p/w500/5fLyYAxXWP4BxZCBN79NV1eiT4d.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uImwvxPG2klY0VyybGPt5zRJVMc.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:316970",
+      "type": "series",
+      "name": "Jagamae Sangeetham",
+      "poster": "https://image.tmdb.org/t/p/w500/aEfuAAgMpePYJc99wFe19dMVst4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/b8pcIMqEAhLZ9EkYjqIPloGRrTT.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:283297",
+      "type": "series",
+      "name": "Sterling Point",
+      "poster": "https://image.tmdb.org/t/p/w500/mhqEXKwIv5wIlG1eih5OQB25vi8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nOWU1NSYQEOXRXcdfZbtJshwRGK.jpg",
+      "description": "Annie Jacobson, 17 ans, découvre qu'elle a hérité d'une île isolée au Canada de la part d'un grand-père qu'elle n'a jamais eu le droit de rencontrer. Quand Annie décide qu'elle veut en savoir plus, elle se retrouve plongée dans un monde de secrets, se forge une amitié inattendue et affronte une histoire familiale complexe qu'elle n'aurait jamais dû découvrir.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:328402",
+      "type": "series",
+      "name": "आदर्श बाल विद्यालय",
+      "poster": "https://image.tmdb.org/t/p/w500/1XbcSqURUvhgu2nnoQRZ7cXmTsJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ollKqYShmjhBOKsV60pmPP9ara3.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:329693",
+      "type": "series",
+      "name": "Sono qui per Caos",
+      "poster": "https://image.tmdb.org/t/p/w500/6Zw31Bo0TDc65vROvsQbgitKhhx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qiew8R6Y0wrFsXzsoFRo6VofGd2.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:323976",
+      "type": "series",
+      "name": "Young Farts Trailer Parts : La série",
+      "poster": "https://image.tmdb.org/t/p/w500/nd9XjTwKJ1JuPqf7ZsGsbUZptiN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sk7A4RtNa33rVQ96YjdGDShbpv5.jpg",
+      "description": "Découvrez les frères Jagger et Dawson dans cette hilarante téléréalité. À la tête d'une entreprise florissante de pièces pour VR, ils redonnent vie et cachet à des épaves entre projets délirants, cascades déjantées et coups de folie pleins de bon cœur. Nos gars en roue libre enchaînent les idées saugrenues, toujours motivés par l'amour de leur famille et de l'empire qu'ils tentent de bâtir.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:322571",
+      "type": "series",
+      "name": "Hanzaisha : Le Criminel",
+      "poster": "https://image.tmdb.org/t/p/w500/rHkfKORpqnyLZpQCUSCSsVI7IFd.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dTHFG1EOnZNv7EqwcuAUCJ5LoNG.jpg",
+      "description": "Une attaque au couteau, l'entreprise Titus Alimentation et une mystérieuse maladie infantile. Ces trois-là ont autant en commun que l'inspecteur Soma, le journaliste Yarimizu et le rescapé Shuji. Pourtant, ces trois hommes vont s'embarquer dans une quête périlleuse de la vérité. Ce qu'ils découvrent s'avère plus odieux que tout ce qu'ils auraient pu imaginer : mais qui est le véritable criminel ?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:241882",
+      "type": "series",
+      "name": "Ride or Die",
+      "poster": "https://image.tmdb.org/t/p/w500/hWGnBQ4k9Fj3dqvWnBsSYQy5tFx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jwCXxvbLno5GrGDA9KvQ22uLziM.jpg",
+      "description": "Debbie et Judith, deux meilleures amies, sont forcées de fuir quand Debbie découvre que Judith n'est pas expert-comptable judiciaire, mais tueuse à gages internationale ! Avec un mystérieux individu à leurs trousses et alors que le mari de Debbie trempe dans une affaire de corruption, c'est une course contre la montre à travers l'Europe qui les attend pour découvrir la vérité et rester en vie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:325622",
+      "type": "series",
+      "name": "Murder 101",
+      "poster": "https://image.tmdb.org/t/p/w500/cy7sdlwtaiZYkpykbnzBtb4IoHs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/j3Unn0ynJIWrsmWMcPA4mBIk3Qf.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:283151",
+      "type": "series",
+      "name": "The Five Star Weekend",
+      "poster": "https://image.tmdb.org/t/p/w500/l9z65nDVteL88PmwDqyiTFmxCtF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lq2aJdPlyOo11aBwojmLvGjlJS1.jpg",
+      "description": "Hollis Shaw, une influenceuse culinaire, connue pour ses recettes délicieuses, son goût irréprochable et son attitude chaleureuse, doit affronter une terrible épreuve",
+      "releaseInfo": "2026"
+    }
+  ]
+}

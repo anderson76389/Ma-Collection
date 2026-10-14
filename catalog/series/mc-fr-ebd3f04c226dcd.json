@@ -1,0 +1,168 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:321532",
+      "type": "series",
+      "name": "Winter",
+      "poster": "https://image.tmdb.org/t/p/w500/r6Uf6RXvvnAgQphfpRuw47XJnhe.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fnogO4CrrkMX5YEr6iCN0eTUq2C.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:10660",
+      "type": "series",
+      "name": "The Box",
+      "poster": "https://image.tmdb.org/t/p/w500/m0UhkGntknE7cSOPvJH2x1YQmBO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/b4t98QvbW3B4sMaxiQ3rkkpAfvV.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:332586",
+      "type": "series",
+      "name": "The Joy of Pets",
+      "poster": "https://image.tmdb.org/t/p/w500/zWaskg2I8lxLSDI1s5fFVkNRADU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aiJm9ygaJMwpyyw8Mf8rcbJG5U3.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:329573",
+      "type": "series",
+      "name": "Force of Nature",
+      "poster": "https://image.tmdb.org/t/p/w500/mRohoA0uMivHx3sfgRZVmW8J4tA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lnxeiT2ibarU4tWRXU7RW1bgwzz.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:329283",
+      "type": "series",
+      "name": "Inside the Langham: Britain's First Grand Hotel",
+      "poster": "https://image.tmdb.org/t/p/w500/eI8e5nvpaWL49OFTIzTwZ6nRfCq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uIgcnehWtZvxrnSpCriOPV4wrtJ.jpg",
+      "description": "Entrez dans les coulisses du Langham Hotel, au cœur de Londres, où chefs, ingénieurs et hôteliers relèvent des défis de taille : organiser des événements prestigieux, mener des rénovations de luxe et surmonter des défis culinaires. Cet hôtel historique de renommée mondiale se bat pour se démarquer sur le marché très concurrentiel de l'hôtellerie cinq étoiles.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:326954",
+      "type": "series",
+      "name": "The Chase Around The World",
+      "poster": "https://image.tmdb.org/t/p/w500/3Fg8x0WBFq8X0PpxbxBtBPDcPIE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ltKpVDaa14Wb7JvxSY4iPLQaJAO.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:298939",
+      "type": "series",
+      "name": "The Dark",
+      "poster": "https://image.tmdb.org/t/p/w500/mcrx2gcVd5mVVOQrdEWXayFbvVB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ym3eW2NwcOqa1tBdSmckk8Oy3kG.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:320566",
+      "type": "series",
+      "name": "The Vardys",
+      "poster": "https://image.tmdb.org/t/p/w500/6QMJcwNwTwUMidIGe6ZJAQSMGOK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rtxoDUVk8uc4YKKisSXmpDaVyjL.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:323128",
+      "type": "series",
+      "name": "Nobody's Fool",
+      "poster": "https://image.tmdb.org/t/p/w500/jlZePbkIF9g2G3F2RZgMQ2JJdBu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zI9jr9wQVdF86z7GbH0kdS4qnSm.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:301283",
+      "type": "series",
+      "name": "Believe Me",
+      "poster": "https://image.tmdb.org/t/p/w500/g8qiv2FzpjAlQ8bWrucVDlpbKSG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kYWdbB7SQdc4ER63fuG9sftY3wD.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:287450",
+      "type": "series",
+      "name": "Secret Service",
+      "poster": "https://image.tmdb.org/t/p/w500/f7tksyddK3VvismfoWCwpXPqz0x.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z5vJszVCv3feLAlsoPjIuMZjQ46.jpg",
+      "description": "Une officier supérieure des services de renseignement britanniques se rebelle pour démasquer une taupe russe infiltrée aux plus hauts échelons du gouvernement britannique.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:319848",
+      "type": "series",
+      "name": "The Neighbourhood",
+      "poster": "https://image.tmdb.org/t/p/w500/pYyP4pvucPR9DZ8mTcRHaHHBStG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cHSmHEeNBUjttJirMRPdoLlM38g.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:315994",
+      "type": "series",
+      "name": "Celebrity Sabotage",
+      "poster": "https://image.tmdb.org/t/p/w500/2m2imqr6tLFo7PqWERNqFvwjNfb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yhUk9dAk0sqhRqNciRjZCgBB53o.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:306603",
+      "type": "series",
+      "name": "Gone",
+      "poster": "https://image.tmdb.org/t/p/w500/qnxKB5HlkAZZcyIiITIV7dAUX7u.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/c43frTJmf5SkVT7AZ2RTnxNqDRF.jpg",
+      "description": "Michael Polly, directeur local, devient le principal suspect de la disparition de sa femme Sarah lorsqu'il rencontre la courageuse détective Annie Cassidy dans un jeu compulsif du chat et de la souris.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:298425",
+      "type": "series",
+      "name": "The Lady : A Royal Murder Scandal",
+      "poster": "https://image.tmdb.org/t/p/w500/lMveq4zyLX4dAZgO0xXMf4vYqf6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/y1Xg6NPRD8QFbgOVer16ynjGYUp.jpg",
+      "description": "Jane Andrews, habilleuse royale, partie de rien, a gravi les échelons jusqu'aux cercles du palais avant qu'une condamnation pour meurtre ne mette fin à son conte de fées. Le procès très médiatisé a suscité un véritable engouement. Elle a été libérée de prison en 2019.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:313692",
+      "type": "series",
+      "name": "The Summit",
+      "poster": "https://image.tmdb.org/t/p/w500/phg9CzkvuYGHGZYG6y6CHSZOOv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lC1SOQ73UjSDXEgRgAZJFWuupG2.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:271935",
+      "type": "series",
+      "name": "Betrayal",
+      "poster": "https://image.tmdb.org/t/p/w500/3Niu8rDeZCWQ8R70UK6Yv4bJCCk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oaRXcSmlLUJrtbad5wn0IXtVA9.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:308065",
+      "type": "series",
+      "name": "The Floor (UK)",
+      "poster": "https://image.tmdb.org/t/p/w500/85gYHecdjaF7bMMYjjZ6Z87DlBH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/t0fAL3yT9fmayMiAL4l720NKJZB.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:310037",
+      "type": "series",
+      "name": "Time is Money",
+      "poster": "https://image.tmdb.org/t/p/w500/5O73CfvLnaaKYLdK12YS0LEw7W8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oVUhpvbl2Mesv6LDoJp74cXeFT3.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:285919",
+      "type": "series",
+      "name": "Accidental Tourist",
+      "poster": "https://image.tmdb.org/t/p/w500/4qSsXKvQXLgw7nXCv1JTaIO9BR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mlbdvFoXsRmoDvKGLbJG6XwxT5h.jpg",
+      "releaseInfo": "2025"
+    }
+  ]
+}

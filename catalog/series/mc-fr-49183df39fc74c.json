@@ -1,0 +1,48 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:157194",
+      "type": "series",
+      "name": "Pole to Pole avec Will Smith",
+      "poster": "https://image.tmdb.org/t/p/w500/hJjBRMOKvA0BZanm5pHgO0t04qj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dF5w4FpM62F4wygVUJMiDhAGwX8.jpg",
+      "description": "Will Smith part à l'aventure du pôle Sud au pôle Nord.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:301991",
+      "type": "series",
+      "name": "Kingdom",
+      "poster": "https://image.tmdb.org/t/p/w500/s596vM9OIz1k6tvid7s3LxfaNfu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8yzl3OCiASqbvimgpdepao43IqX.jpg",
+      "description": "Au cœur de la Zambie, léopards, hyènes, lycaons et lions se disputent un territoire dans un paradis appelé Nsefu. Une histoire de pouvoir et de survie filmée pendant 5 ans dans un lieu spectaculaire, où les destins de 4 familles rivales sont inextricablement liés. Alors que l'ascension spectaculaire de Storm, la reine des chiens sauvages, sème le chaos dans le royaume, la lutte pour la domination entre la troupe de lions de Rita et le clan des hyènes de Tenta contraste avec leur douceur en tant que mères ; tandis que la léoparde solitaire Olimba tente d'élever ses petits au milieu de cette agitation. Qui pourra régner sur ce précieux royaume ?",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:295261",
+      "type": "series",
+      "name": "Human",
+      "poster": "https://image.tmdb.org/t/p/w500/mUbJv4IMynM14IMCYKb20ImqATl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zWo2VWNZoYZIQXmwgWCM0zjURVV.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:276501",
+      "type": "series",
+      "name": "La Vie secrète des animaux",
+      "poster": "https://image.tmdb.org/t/p/w500/rk6IoPLAlaAfvneugJ8qEsmGEJm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8uSALUeWbRN2CjZXNhW65RQf2nG.jpg",
+      "description": "Découvrez comment les animaux redoublent d'intelligence et de créativité pour affronter les plus grands défis, en commençant par quitter le nid jusqu'à trouver un partenaire.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:213611",
+      "type": "series",
+      "name": "Nos océans",
+      "poster": "https://image.tmdb.org/t/p/w500/iuDIDuvc7TT0BIMI6i2XDFKoA6q.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/79uppyAh8ZvQrm5DSdRsi9gQj9V.jpg",
+      "description": "Découvrez les histoires qui se cachent sous la surface des cinq océans de notre planète, dans cette série documentaire époustouflante.",
+      "releaseInfo": "2024"
+    }
+  ]
+}

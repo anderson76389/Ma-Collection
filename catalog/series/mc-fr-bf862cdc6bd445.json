@@ -1,0 +1,22 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:94686",
+      "type": "series",
+      "name": "Sistas",
+      "poster": "https://image.tmdb.org/t/p/w500/9UtwdSXDkDMvqAdMJsbB8JLlBEH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ehLvLgBKq5mK5qYBNMmhLtg8dO9.jpg",
+      "description": "Le quotidien de quatre amies afro-américaines célibataires. Entre leurs vies professionnelles respectives et les rendez-vous galants, elles tentent de résoudre la question : pourquoi ne parviennent-elles pas à se caser ?",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:108544",
+      "type": "series",
+      "name": "Assisted Living",
+      "poster": "https://image.tmdb.org/t/p/w500/dMad7QUBMg3RqVLnRFIlBuP5Esk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3zAzYjSUMYjdeY5gBTe7HTP0sMt.jpg",
+      "description": "Après avoir perdu son emploi, Jeremy, père de deux adolescents, décide de s'installer en Géorgie pour aider Vinny, son grand-père un peu dingue. Celui-ci vient de faire l'acquisition d'une maison terriblement délabrée pour héberger les personnes âgées. Contre tout attente, deux investisseurs sont prêts à les aider dans cette folle entreprise...",
+      "releaseInfo": "2020"
+    }
+  ]
+}

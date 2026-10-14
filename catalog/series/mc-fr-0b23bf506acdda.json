@@ -1,0 +1,22 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:966",
+      "type": "series",
+      "name": "Hollyoaks, l'amour mode d'emploi",
+      "poster": "https://image.tmdb.org/t/p/w500/5sbMgcbpzZn8aKETeanrKDANzdM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AfH4RQ8q3eTTaX2caFfzt81rLt8.jpg",
+      "description": "Bienvenue à Hollyoaks, village fictif de la banlieue de Chester en Angleterre ! La série \"Hollyoaks, l'amour mode d'emploi\" se déroule dans une université où un groupe d'amis vit pleinement leur vingt ans avec leurs histoires d'amour, leurs études, leur carrière, aborde sans complexe les problèmes d'aujourd'hui.",
+      "releaseInfo": "1995"
+    },
+    {
+      "id": "tmdb:39148",
+      "type": "series",
+      "name": "Made in Chelsea",
+      "poster": "https://image.tmdb.org/t/p/w500/99xPXLPqKHcNRYq3fCU7GkHQyQI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4Xx7wdmv8sWAPyTCST2OkWokaT0.jpg",
+      "description": "Cette série de téléréalité suit les vies et les amours d'un groupe de jeunes de la haute société qui vivent dans l'un des quartiers les plus huppés de Londres.",
+      "releaseInfo": "2011"
+    }
+  ]
+}
