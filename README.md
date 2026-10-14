@@ -33,9 +33,11 @@ Vous pouvez sélectionner vos contenus préférés, réorganiser votre accueil e
 
 **Nuvio** : choisissez **Nuvio** dans le sélecteur de destination pour conserver la configuration guidée et l'envoi direct vers votre compte.
 
-**Kovelyx PC** : sélectionnez les dossiers, cliquez sur **Importer la collection**, choisissez **Kovelyx**, puis **Copier le JSON**. Dans Kovelyx, ouvrez **Collections → Importer** (icône presse-papiers), collez le JSON, puis validez. L'option « Télécharger JSON » permet de garder une sauvegarde.
+**Kovelyx PC** : avec une version de Kovelyx qui prend en charge l'import local, sélectionnez les dossiers, cliquez sur **Importer la collection**, puis **Kovelyx — Importer directement**. Le site transmet votre sélection **uniquement à Kovelyx sur votre propre PC** ; confirmez l'import dans l'application. Ouvrez Kovelyx au moins une fois après son installation pour activer le lien `kovelyx://`. Si le navigateur demande l'autorisation d'ouvrir Kovelyx, acceptez-la uniquement depuis le site officiel Ma-Collection.
 
-**Important :** l'import actuel de Kovelyx remplace les collections présentes dans le profil. Sauvegardez-les avant l'import avec l'icône « Copier » de Kovelyx. Les extensions sources doivent être configurées dans Kovelyx. Aucun serveur de comptes Kovelyx officiel n'étant configuré, l'envoi direct n'est pas proposé : vos identifiants Nuvio ne sont pas utilisés.
+**Solutions de secours** : « Copier le JSON » (dans Kovelyx : **Collections → Importer**, collez puis confirmez) ou « Télécharger JSON ». Les versions antérieures de Kovelyx ne disposent pas du canal direct.
+
+**Important :** l'import Kovelyx remplace les collections présentes dans le **profil actif**, seulement après confirmation. Pour l'import direct, Kovelyx sauvegarde le JSON précédent dans son stockage local avant de le remplacer. Les extensions sources doivent être configurées dans Kovelyx. Le transfert utilise seulement l'adresse locale `127.0.0.1` ; il ne passe pas par le serveur Nuvio et ne demande pas de compte. Si la connexion locale est bloquée ou que Kovelyx n'est pas installé/ouvert, utilisez la copie JSON.
 
 ## 🚀 Fonctionnalités
 
@@ -48,7 +50,7 @@ Vous pouvez sélectionner vos contenus préférés, réorganiser votre accueil e
 | 🧭 | **Configuration guidée** | Un assistant facilite les étapes de sélection et de préparation. |
 | ⚡ | **Éditeur rapide** | Modifiez votre sélection sans reprendre toute la configuration. |
 | 📦 | **Export JSON** | Téléchargez un fichier de configuration réutilisable. |
-| 🔗 | **Choisir l'application** | Importez dans Kovelyx via JSON ou envoyez directement votre sélection à Nuvio avec votre compte. |
+| 🔗 | **Choisir l'application** | Importez directement dans Kovelyx PC via transfert local (ou JSON), ou envoyez la sélection vers votre compte Nuvio. |
 | 👤 | **Gestion des profils** | Accédez aux outils d'organisation des profils existants. |
 
 ## 🗂️ Explorez les catégories
