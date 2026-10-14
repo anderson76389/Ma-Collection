@@ -117,7 +117,7 @@
     if (state.bttrAge) modifiers+="a";
     const format=modifiers?"poster-"+modifiers:"poster";
     const params=[];
-    if (state.bttrLanguage!=="en") params.push("lang=fr");
+    if (state.bttrLanguage!=="en") params.push("lang="+encodeURIComponent(state.bttrLanguage));
     if (state.bttrSource!=="Average") params.push("rs="+encodeURIComponent(state.bttrSource));
     return "https://btttr.cc/"+format+"/imdb/poster-default/tt0137523.jpg"+(params.length?"?"+params.join("&"):"");
   }
