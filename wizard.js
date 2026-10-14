@@ -2827,14 +2827,10 @@
           showToast(build.warningMsg, 'info');
         }
 
-        // Push AIO Streams transparently to Stremio via Nuvio! Poster settings are
-        // already baked into every AIO Metadata instance, so no separate addon needed.
+        // Ne jamais afficher une installation réussie si Nuvio a refusé
+        // l'extension : l'erreur remonte au parcours de configuration.
         const addonsToInstall = [{ name: 'AIO Streams', url: build.aioStreamsUrl }];
-        try {
-            await window.NuvioPush.installAddons(state.token, state.targetProfileId, addonsToInstall);
-        } catch(e) {
-            console.error("Failed to push addons", e);
-        }
+        await window.NuvioPush.installAddons(state.token, state.targetProfileId, addonsToInstall);
 
         // Also setup Torbox natively in Nuvio so the UI registers it properly
         if (debridType === 'torbox' && debridKey) {
