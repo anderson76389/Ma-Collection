@@ -8,6 +8,7 @@ on:
     paths:
       - .github/workflows/export-fr.yml
       - scripts/build-fr-export.mjs
+      - catalog-labels-fr.js
       - locales/fr.json
       - collections/*.json
       - collections/database.js
@@ -34,6 +35,7 @@ jobs:
         run: |
           node scripts/audit-fr-catalogs.mjs
           node --check scripts/build-fr-export.mjs
+          node --check catalog-labels-fr.js
       - name: Générer le JSON intégral Nuvio en français
         run: |
           node scripts/build-fr-export.mjs --write
