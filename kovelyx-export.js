@@ -90,7 +90,7 @@
     try {
       // Must run synchronously during the click gesture, before await.
       // Windows registers this protocol per-user when Kovelyx is first started.
-      window.location.href = "kovelyx://import";
+      if (!window.__MA_COLLECTION_QA_NO_PROTOCOL) window.location.href = "kovelyx://import";
       const json = await buildExport();
       let accepted = false;
       let lastError = null;
