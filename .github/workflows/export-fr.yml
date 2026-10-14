@@ -9,6 +9,7 @@ on:
       - .github/workflows/export-fr.yml
       - scripts/build-fr-export.mjs
       - locales/fr.json
+      - collections/*.json
       - collections/database.js
 
 permissions:
