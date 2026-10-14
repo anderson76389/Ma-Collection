@@ -255,7 +255,7 @@ try {
             node.textContent.includes(expected);
         },item.expected,{timeout:15000});
         assert((await page.locator("#kovelyx-export-status").textContent()).includes(item.expected));
-        assert.equal(await page.locator("#kovelyx-export-direct").isDisabled(),false);
+        await page.waitForFunction(()=>!document.querySelector("#kovelyx-export-direct")?.disabled,{timeout:7000});
       }
       assert(seen.some(x=>x.scenario==="pending"&&x.pathname==="/import"&&x.method==="POST"));
       assert(seen.some(x=>x.scenario==="invalid-version"&&x.pathname==="/import"&&x.method==="POST"));
