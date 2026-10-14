@@ -157,7 +157,7 @@ try {
     assert((await page.locator("#ma-import-body").textContent()).includes("Récapitulatif"));
     await page.locator("#ma-import-next").click();
     assert.equal(await page.locator("#kovelyx-export-overlay").evaluate(n=>n.hidden),false);
-    await page.waitForFunction(()=>document.querySelector("#kovelyx-export-status")?.textContent.includes("Sélection envoyée"),{timeout:15000});
+    await page.waitForFunction(()=>document.querySelector("#kovelyx-export-status")?.textContent.includes("paramètres envoyés"),{timeout:15000});
     assert.equal(directImports.length,1,"Un unique transfert local doit être envoyé");
     assert.equal(directImports[0].format,"ma-collection-bundle-v1");
     assert(directImports[0].collections.every(c=>c.id&&c.title&&Array.isArray(c.folders)));
@@ -269,7 +269,7 @@ try {
     assert.equal(result.fallback.provider,"realdebrid");
     assert.equal(result.absent,null);
     assert.equal(await page.locator("#se-torbox-key").count(),0);
-    assert.equal(await page.locator("#se-alldebrid-key").count(),1);
+    assert.equal(await page.locator("#se-alldebrid-key").count(),0);
   });
   await run("Extensions : vrai manifest, faux JSON, HTML et HTTP 404",async()=>{
     await page.route("https://qa-addons.invalid/**",async route=>{
