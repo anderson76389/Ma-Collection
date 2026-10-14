@@ -149,6 +149,53 @@ try {
     assert.equal(await page.locator("#kovelyx-export-overlay").evaluate(n=>n.hidden),true);
     assert.equal(await page.locator("#btn-send-to-nuvio").count(),1);
   });
+  await run("Clés API : clics Test TMDB, MDBList et TorBox (réponses simulées)",async()=>{
+    const requests=[];
+    const routes=[
+      {match:"https://api.themoviedb.org/3/authentication?api_key=*",id:"tmdb"},
+      {match:"https://api.mdblist.com/user?apikey=*",id:"mdblist"},
+      {match:"https://api.torbox.app/v1/api/user/me",id:"torbox"}
+    ];
+    for(const r of routes)await page.route(r.match,async route=>{
+      const req=route.request();
+      const url=new URL(req.url());
+      const candidate=r.id==="tmdb" ? url.searchParams.get("api_key")
+        : r.id==="mdblist" ? url.searchParams.get("apikey")
+        : (req.headers().authorization || "").replace(/^Bearer\s+/i,"");
+      const good=candidate==="qa-valid-"+r.id;
+      requests.push({id:r.id,key:candidate,method:req.method()});
+      await route.fulfill({status:good?200:401,contentType:"application/json",
+        headers:{"access-control-allow-origin":"*"},
+        body:JSON.stringify(good?{success:true,name:"Compte de test"}:{success:false,error:"invalid credential"})});
+    });
+    await page.evaluate(()=>openSimpleEditor());
+    if((await page.locator("#se-mode-advanced").getAttribute("aria-pressed"))!=="true"){
+      await page.locator("#se-mode-advanced").click();
+    }
+    const cases=[
+      {id:"tmdb",field:"#se-tmdb-key",button:"#se-tmdb-test",fn:"testTmdbKeyLive"},
+      {id:"mdblist",field:"#se-mdblist-key",button:"#se-mdblist-test",fn:"testMdblistKeyLive"},
+      {id:"torbox",field:"#se-torbox-key",button:"#se-torbox-test",fn:"testTorboxKeyLive"}
+    ];
+    assert((await page.locator("#se-tmdb-key").getAttribute("placeholder")).includes("v3"));
+    for(const item of cases){
+      const count=await page.locator("#toast-container .toast").count();
+      await page.locator(item.field).fill("qa-valid-"+item.id);
+      await page.locator(item.button).click();
+      await page.waitForFunction(before=>document.querySelectorAll("#toast-container .toast").length>before,count,{timeout:10000});
+      assert.equal(await page.locator("#toast-container .toast-message").last().textContent(),"✓ That key works.");
+      const invalid=await page.evaluate(async ({fn,id})=>window.NuvioWizard[fn]("qa-invalid-"+id),item);
+      assert.equal(invalid.ok,false, item.id+" doit refuser une mauvaise clé");
+      assert.equal(invalid.unreachable,undefined);
+    }
+    for(const item of cases){
+      const received=requests.filter(x=>x.id===item.id);
+      assert.deepEqual(received.map(x=>x.key),["qa-valid-"+item.id,"qa-invalid-"+item.id]);
+      assert(received.every(x=>x.method==="GET"));
+    }
+    await page.evaluate(()=>backToCinematicEditor());
+    for(const r of routes) await page.unroute(r.match);
+  });
   await run("FR : sous-catégories sans parenthèses ni doublons, titres naturels",async()=>{
     const result=await page.evaluate(()=>{
       const rows=[{id:"qa",title:"Test",folders:[{id:"f",title:"Nouvelles séries",
