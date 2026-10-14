@@ -37,3 +37,4 @@ jobs:
           python3 -m http.server 8877 --bind 127.0.0.1 >/tmp/qa-http.log 2>&1 &
           sleep 3
           node .github/scripts/qa-nuvio-fr.mjs
+          node .github/scripts/qa-controls.mjs
