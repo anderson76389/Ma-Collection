@@ -4,7 +4,7 @@
   "use strict";
   const byId = id => document.getElementById(id);
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-  const STEPS = ["Catalogues", "Affiches", "Métadonnées", "Affiches notées", "Débridage", "Extensions", "Confirmation"];
+  const STEPS = ["Catalogues", "Métadonnées", "Affiches notées", "Débridage", "Extensions", "Confirmation"];
   const state = {
     destination: "kovelyx", step: 0, selectedFolder: "", onFinish: null,
     artwork: {}, tmdbKey: "", mdblistKey: "", traktToken: "",
@@ -33,7 +33,7 @@
     .mc-import-head h2{margin:0 0 5px;font-size:1.5rem;color:var(--text-primary,#f7f7ff)}
     .mc-import-head p{margin:0 0 12px;color:var(--text-muted,#9ca3af);font-size:.91rem}
     .mc-import-close{background:transparent;border:1px solid #7776;border-radius:10px;color:inherit;cursor:pointer;font-size:1.4rem;padding:2px 11px}
-    .mc-import-progress{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px;margin:10px 0 18px}
+    .mc-import-progress{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:5px;margin:10px 0 18px}
     .mc-import-progress span{height:5px;background:#aaa3;border-radius:8px}
     .mc-import-progress span.active{background:#a78bfa}
     .mc-import-card{background:rgba(120,120,150,.08);border:1px solid rgba(150,150,180,.21);padding:14px;border-radius:13px;margin:12px 0}
@@ -134,7 +134,7 @@
       (testable ? `<div><button type="button" class="mc-import-action secondary" data-keytest="${id}">Tester la clé</button> <span class="mc-import-note" id="mc-keytest-${id}" role="status"></span></div>` : "");
   }
   function stepHtml() {
-    const rows = folders(), currentFolder = rows.find(f => f.key === state.selectedFolder) || rows[0];
+    const rows = folders();
     if (state.step === 0) return `
       <div class="mc-import-card"><strong>${selected.length} catégories • ${rows.length} dossiers sélectionnés</strong>
       <p>Les sélections et filtres déjà faits dans Ma-Collection sont conservés. Vous pouvez encore modifier les catalogues avant l'import.</p></div>
@@ -146,26 +146,7 @@
          </select></label></div></div>` : "" }
       <button type="button" class="mc-import-action secondary" id="mc-edit-collections">✏️ Modifier les catégories et les sous-catégories</button>
       <p class="mc-import-note">Cette action ouvre la personnalisation guidée existante, puis vous ramène à cette préparation d'import.</p>`;
-    if (state.step === 1) {
-      const custom = currentFolder ? (state.artwork[currentFolder.key] || {}) : {};
-      return `<p class="mc-import-note">Choisissez un dossier et remplacez uniquement les images que vous souhaitez. Toutes les autres images et tous les GIF restent inchangés.</p>
-        <div class="mc-import-form">
-        <label>Dossier
-        <select id="mc-pick-folder">${rows.map(r => `<option value="${esc(r.key)}" ${currentFolder?.key===r.key?"selected":""}>${esc(r.categoryTitle)} / ${esc(r.title)}</option>`).join("")}</select></label>
-        ${currentFolder ? `<div class="mc-import-art-layout">
-          <img id="mc-art-preview" class="mc-import-image" alt="Aperçu de l'affiche" src="${esc(custom.coverImageUrl || currentFolder.folder.coverImageUrl || "")}">
-          <div class="mc-import-form" style="flex:1;min-width:0">
-            <label>Affiche du dossier<input type="url" id="mc-art-cover" placeholder="https://…/affiche.jpg" value="${esc(custom.coverImageUrl||"")}"></label>
-            <label>Logo du dossier<input type="url" id="mc-art-logo" placeholder="https://…/logo.png" value="${esc(custom.titleLogoUrl||"")}"></label>
-            <label>Image de fond<input type="url" id="mc-art-backdrop" placeholder="https://…/fond.jpg" value="${esc(custom.heroBackdropUrl||"")}"></label>
-            <label>Format du visuel<select id="mc-art-shape">
-              ${[["","Conserver l'original"],["poster","Affiche verticale"],["landscape","Paysage"],["square","Carré"]].map(([v,n])=>`<option value="${v}" ${(custom.tileShape||"")===v?"selected":""}>${n}</option>`).join("")}
-            </select></label>
-            <button type="button" class="mc-import-action secondary" id="mc-art-reset">Restaurer les images d'origine du dossier</button>
-          </div></div>` : "<p>Aucun dossier sélectionné.</p>"}
-        </div>`;
-    }
-    if (state.step === 2) return `
+    if (state.step === 1) return `
       <p class="mc-import-note">Ces clés sont facultatives et restent dans cet onglet. Pour Kovelyx, TMDB et MDBList peuvent être transférés via le nouveau pont local après votre confirmation. Trakt nécessite une autorisation propre à chaque service.</p>
       <div class="mc-import-form">
         <label>Langue des résumés TMDB<select data-key="tmdbLanguage">
@@ -177,18 +158,11 @@
         ${field("trakt","Jeton Trakt AIO Metadata (facultatif)","traktToken","Jeton d'une instance AIO Metadata")}
       </div>
       <p class="mc-import-note">Les jetons Trakt sont liés à l'instance AIO Metadata qui les a délivrés. La connexion Trakt dans l'application se fait séparément via OAuth.</p>`;
-    if (state.step === 3) return `<p class="mc-import-note">RPDB : Kovelyx PC applique également le thème choisi aux affiches natives après votre confirmation. Pour Nuvio et pour les fournisseurs Bttr/Top Posters, la prise en charge dépend de la configuration AIO Metadata / AIO Streams.</p>
+    if (state.step === 2) return `<p class="mc-import-note">Choisissez les affiches d'origine (par défaut) ou personnalisez les affiches avec Bttr Posters. Vos affiches, logos et GIF de dossiers restent inchangés.</p>
       <div class="mc-import-form">
-        <label>Fournisseur d'affiches notées<select id="mc-poster-provider" data-key="posterProvider">
-          ${[["none","Ne rien changer"],["rpdb","RPDB"],["bttr","Bttr Posters"],["top","Top Posters"]].map(([v,n])=>`<option value="${v}" ${state.posterProvider===v?"selected":""}>${n}</option>`).join("")}
+        <label>Affiches des œuvres<select id="mc-poster-provider" data-key="posterProvider">
+          ${[["none","Par défaut (affiches d'origine)"],["bttr","Bttr Posters"]].map(([v,n])=>`<option value="${v}" ${state.posterProvider===v?"selected":""}>${n}</option>`).join("")}
         </select></label>
-        <div id="mc-poster-rpdb" ${state.posterProvider==="rpdb"?"":"hidden"}>
-          <label>Thème RPDB<select id="mc-rpdb-theme" data-key="rpdbTheme">
-            ${[["t0-free-rpdb","Gratuit : barre sombre"],["t0-free-rpdb-blocks","Gratuit : blocs"],["t0-free-rpdb-rounded-blocks","Gratuit : blocs arrondis"],["custom","Clé RPDB premium"]].map(([v,n])=>`<option value="${v}" ${state.rpdbTheme===v?"selected":""}>${n}</option>`).join("")}
-          </select></label>
-          <div id="mc-rpdb-key-wrap" ${state.rpdbTheme==="custom"?"":"hidden"}>${field("rpdb","Clé RPDB premium","rpdbKey","Clé RPDB")}</div>
-        </div>
-        <div id="mc-poster-top" ${state.posterProvider==="top"?"":"hidden"}>${field("top","Clé Top Posters","topPosterKey","Clé Top Posters")}</div>
         <div id="mc-poster-bttr" ${state.posterProvider==="bttr"?"":"hidden"}>
           <label class="mc-inline"><input type="checkbox" data-check="bttrQuality" ${state.bttrQuality?"checked":""}> Qualité 4K / Dolby Vision</label>
           <label class="mc-inline"><input type="checkbox" data-check="bttrGenre" ${state.bttrGenre?"checked":""}> Genre</label>
@@ -206,7 +180,7 @@
           <img id="mc-bttr-preview" class="mc-import-image" src="${esc(bttrPreviewUrl())}" alt="Aperçu BetterPosters" referrerpolicy="no-referrer">
           <p id="mc-bttr-status" class="mc-import-note">Test avec un film connu. Si l'image ne charge pas, le fournisseur Bttr est peut-être indisponible ; Kovelyx conservera son affiche d'origine lorsqu'un chargement échoue.</p>
         </div></div>` : "" }`;
-    if (state.step === 4) return `<p class="mc-import-note">AllDebrid en priorité et Real-Debrid en secours, selon les possibilités de vos extensions. Les clés ne sont jamais intégrées au JSON public des catalogues.</p>
+    if (state.step === 3) return `<p class="mc-import-note">AllDebrid en priorité et Real-Debrid en secours, selon les possibilités de vos extensions. Les clés ne sont jamais intégrées au JSON public des catalogues.</p>
       <div class="mc-import-form">
         ${field("ad","Clé API AllDebrid (prioritaire)","allDebridKey","Clé AllDebrid")}
         ${field("rd","Clé API Real-Debrid (secondaire)","realDebridKey","Clé Real-Debrid")}
@@ -215,15 +189,14 @@
           <option value="realdebrid" ${state.preferredDebridProvider==="realdebrid"?"selected":""}>Real-Debrid d'abord</option>
         </select></label>
       </div><p class="mc-import-note">Kovelyx PC peut enregistrer Real-Debrid via son intégration native ; AllDebrid s'utilise via une extension compatible (Torrentio, etc.) et doit être configuré dans cette extension. Pour Nuvio, l'assistant de connexion poursuit la configuration de ces extensions.</p>`;
-    if (state.step === 5) return `<div class="mc-import-card"><strong>Extensions configurées</strong>
+    if (state.step === 4) return `<div class="mc-import-card"><strong>Extensions configurées</strong>
         <p>Collez uniquement les URL HTTPS complètes de vos extensions déjà configurées : Torrentio, Comet, MediaFusion ou autres. Une URL générique ne contient pas nécessairement vos réglages.</p></div>
         <div class="mc-import-form"><label>Manifests personnels (un par ligne)
         <textarea id="mc-addon-manifests" data-key="addonManifests" rows="5" spellcheck="false" autocomplete="off" placeholder="https://votre-instance.exemple/config/manifest.json">${esc(state.addonManifests)}</textarea></label></div>
         <p class="mc-import-note">Kovelyx proposera d’installer les extensions dans le profil actif, après confirmation. Un manifest inaccessible doit être corrigé manuellement. Nuvio poursuivra la configuration dans son assistant.</p>`;
-    if (state.step === 6 && state.destination === "kovelyx") {
-      const count = Object.keys(state.artwork).length;
+    if (state.step === 5 && state.destination === "kovelyx") {
       return `<div class="mc-import-card"><strong>Destination Kovelyx PC</strong>
-        <p>${selected.length} catégories • ${rows.length} dossiers • ${count} affiche(s) personnalisée(s).</p>
+        <p>${selected.length} catégories • ${rows.length} dossiers.</p>
         <p>Les réglages seront transmis uniquement à votre application locale ; aucun mot de passe de compte n'est demandé par le site.</p></div>
         <div class="mc-import-form">
           <label>Comment souhaitez-vous importer ?
@@ -242,13 +215,11 @@
           <p class="mc-import-note">Le remplacement n'est exécuté qu'après confirmation explicite dans Kovelyx. Une sauvegarde JSON du profil ciblé sera créée.</p>
         </div>`;
     }
-    const nArtwork = Object.keys(state.artwork).length;
     return `<div class="mc-import-card"><strong>Vérification avant import</strong>
       <p>Destination : <strong>${state.destination==="kovelyx"?"Kovelyx PC":"Nuvio"}</strong></p>
       <p>Catalogues : ${selected.length} catégories / ${rows.length} dossiers</p>
-      <p>Affiches personnalisées : ${nArtwork} dossier(s)</p>
       <p>TMDB : ${state.tmdbKey?"clé saisie":"non renseignée"} • MDBList : ${state.mdblistKey?"clé saisie":"non renseignée"}</p>
-      <p>Affiches notées : ${esc(state.posterProvider==="none"?"désactivées":state.posterProvider.toUpperCase())}</p>
+      <p>Affiches des œuvres : ${esc(state.posterProvider==="bttr"?"Bttr Posters":"Par défaut")}</p>
       <p>AllDebrid : ${state.allDebridKey?"clé saisie":"non renseignée"} • Real-Debrid : ${state.realDebridKey?"clé saisie":"non renseignée"}</p>
       <p>Extensions : ${state.addonManifests.split(/\r?\n/).filter(x=>x.trim()).length}</p></div>
       <p class="mc-import-note">${state.destination==="kovelyx"?
@@ -258,7 +229,7 @@
   function bind() {
     const keyControls = current().querySelectorAll("[data-key]");
     keyControls.forEach(input => {
-      const update = () => { state[input.dataset.key] = input.value; if (["posterProvider","rpdbTheme"].includes(input.dataset.key)) draw(); else if (["bttrSource","bttrLanguage"].includes(input.dataset.key)) updateBttrPreview(); };
+      const update = () => { state[input.dataset.key] = input.value; if (input.dataset.key === "posterProvider") draw(); else if (["bttrSource","bttrLanguage"].includes(input.dataset.key)) updateBttrPreview(); };
       input.addEventListener("change", update);
       if (input.tagName === "INPUT" || input.tagName === "TEXTAREA") input.addEventListener("input", update);
     });
@@ -291,24 +262,7 @@
       window.__maCollectionAfterCustomize = () => open(state.destination, state.onFinish, false);
       window.startCustomize();
     });
-    byId("mc-pick-folder")?.addEventListener("change", e => { state.selectedFolder = e.target.value; draw(); });
-    const rows = folders();
-    const item = rows.find(r => r.key === state.selectedFolder) || rows[0];
-    if (item) {
-      const mapping = [["mc-art-cover","coverImageUrl"],["mc-art-logo","titleLogoUrl"],["mc-art-backdrop","heroBackdropUrl"],["mc-art-shape","tileShape"]];
-      mapping.forEach(([id,key]) => byId(id)?.addEventListener("change", e => {
-        try {
-          const custom = { ...(state.artwork[item.key] || {}) };
-          custom[key] = key==="tileShape" ? e.target.value : validUrl(e.target.value.trim());
-          if (!Object.values(custom).some(Boolean)) delete state.artwork[item.key];
-          else state.artwork[item.key] = custom;
-          const preview = byId("mc-art-preview");
-          if (preview && key==="coverImageUrl") preview.src = custom.coverImageUrl || item.folder.coverImageUrl || "";
-          byId("mc-import-error").textContent = "";
-        } catch (error) { byId("mc-import-error").textContent=error.message; e.target.focus(); }
-      }));
-      byId("mc-art-reset")?.addEventListener("click", () => { delete state.artwork[item.key]; draw(); });
-    }
+
   }
   function draw() {
     selected = getSelected();
@@ -325,14 +279,7 @@
     byId("mc-import-close").onclick=close;
     byId("mc-import-back").onclick=() => { if (state.step) { state.step--; draw(); } else close(); };
     byId("mc-import-next").onclick=() => {
-      if (state.step===1) {
-        for (const obj of Object.values(state.artwork)) {
-          for (const key of ["coverImageUrl","titleLogoUrl","heroBackdropUrl"]) {
-            if (obj[key]) try { validUrl(obj[key]); } catch(e) { byId("mc-import-error").textContent=e.message; return; }
-          }
-        }
-      }
-      if (state.step===5) {
+      if (state.step===4) {
         const urls = state.addonManifests.split(/\r?\n/).map(s=>s.trim()).filter(Boolean);
         if (urls.length > 15 || urls.some(value => {
           try { const url=new URL(value); return url.protocol!=="https:" || !!url.username || !!url.password ||
