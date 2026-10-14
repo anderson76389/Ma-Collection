@@ -6196,19 +6196,7 @@
     
     const nuvioCollections = JSON.parse(JSON.stringify(collections));
     
-    // Check if we need to translate titles
-    let localeDict = null;
-    const cust = window.maCollectionCustomize;
-    if (cust && cust.locale && cust.locale !== 'en') {
-      try {
-        const res = await fetch('locales/' + cust.locale + '.json?v=' + Date.now());
-        if (res.ok) {
-           localeDict = await res.json();
-        }
-      } catch (err) {
-        console.warn('Could not load locale ' + cust.locale, err);
-      }
-    }
+    // Les libellés seront tous francisés une fois les sources AIO générées.
 
     nuvioCollections.forEach((c) => {
       const colTitleEn = c.title;
@@ -6266,9 +6254,12 @@
       });
     });
 
-    if (localeDict && window.MaCollectionExport && window.MaCollectionExport.applyLocaleDict) {
-      window.MaCollectionExport.applyLocaleDict(nuvioCollections, localeDict);
+    // Obligatoire même sans passer par la personnalisation guidée.
+    // Les IDs de catalogue et de fournisseur AIO restent inchangés.
+    if (!window.MaCollectionExport?.applyLocaleToCollection) {
+      throw new Error('Traduction française indisponible pour l’export Self-Host');
     }
+    await window.MaCollectionExport.applyLocaleToCollection(nuvioCollections);
 
     return {
       aioConfig: JSON.stringify(aioConfig, null, 2),
