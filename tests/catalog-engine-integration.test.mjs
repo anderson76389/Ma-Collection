@@ -15,6 +15,8 @@ test("le moteur construit tous les catalogues sans internet, sans toucher aux li
   try {
     await mkdir(target,{recursive:true});
     await mkdir(join(temporary,"collections"),{recursive:true});
+    await mkdir(join(temporary,"locales"),{recursive:true});
+    await copyFile(resolve("locales/fr.json"),join(temporary,"locales/fr.json"));
     for(const file of ["catalog-engine.mjs","catalog-engine-core.mjs","catalog-utils.js"])
       await copyFile(resolve("scripts",file),join(target,file));
     for(const file of (await readdir("collections")).filter(x=>x.endsWith(".json")))
@@ -34,6 +36,11 @@ test("le moteur construit tous les catalogues sans internet, sans toucher aux li
     const report=JSON.parse(await readFile(join(temporary,"data/catalog-engine/etat.json"),"utf8"));
     const snap=JSON.parse(await readFile(join(temporary,"data/catalog-engine/snapshots.json"),"utf8"));
     assert.ok(complete.catalogs.length>=350, "Catégories intégrales manquantes");
+    assert(complete.catalogs.some(x=>x.name.includes("Nouveaux films") ||
+      x.name.includes("Nouvelles séries")),
+      "L'addon exposé à Nuvio doit avoir ses sous-catégories françaises");
+    assert(complete.catalogs.every(x=>!/(?:New Movies|New Series|Recent Series|Popular Movies)/.test(x.name)),
+      "Le manifeste expose des intitulés anglais");
     assert.ok(essential.catalogs.length>=85, "Plateformes, chaînes ou téléréalités absentes");
     assert.ok(report.totaux.saisons>0,"Nouvelles saisons non détectées");
     assert.ok(report.totaux.episodes>0,"Épisodes non détectés");
