@@ -5094,8 +5094,10 @@
       // everywhere else in this file (getPreviewMovie, aioConfig.apiKeys.tmdb,
       // the AIO Streams config payload's tmdbApiKey). A v4 Read Access Token would need
       // Authorization: Bearer instead, but that's not what this app consumes.
-      const res = await fetch(`https://api.themoviedb.org/3/authentication?api_key=${encodeURIComponent(key)}`);
-      return { ok: res.ok };
+      const res = await fetch(`https://api.themoviedb.org/3/movie/550?api_key=${encodeURIComponent(key)}`);
+      if (!res.ok) return { ok: false };
+      const data = await res.json();
+      return { ok: data?.id === 550 };
     } catch (e) {
       return { ok: false, unreachable: true };
     }
@@ -5105,7 +5107,7 @@
   // key is bad, since we can't tell those apart from the browser.
   async function testMdblistKeyLive(key) {
     try {
-      const res = await fetch(`https://api.mdblist.com/user?apikey=${encodeURIComponent(key)}`);
+      const res = await fetch(`https://api.mdblist.com/lists/user/?apikey=${encodeURIComponent(key)}`);
       return { ok: res.ok };
     } catch (e) {
       return { ok: false, unreachable: true };
