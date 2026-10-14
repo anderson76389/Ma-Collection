@@ -17,8 +17,8 @@ window.MA_COLLECTION_TEST_CHANNELS = {
     blurb: 'Preview of Mega Collection v0.92 before it goes live.',
     databaseUrl: 'collections/database.mega092.js',
     templateUrl: 'Kaptain_Catalog_Template.mega092.json',
-    redditFeedbackUrl: 'https://www.reddit.com/message/compose/?to=KforKaptain&subject=Mega%20v0.92%20beta%20feedback',
-    redditCommunityUrl: 'https://www.reddit.com/r/Nuvio/',
+    redditFeedbackUrl: 'https://github.com/anderson76389/Ma-Collection/issues/new',
+    redditCommunityUrl: 'https://github.com/anderson76389/Ma-Collection/discussions',
   },
 
   // v0.91 preview: Studio Draft 78 — Spotlights, Based on, experimental art, P0/P1 fixes
@@ -29,12 +29,12 @@ window.MA_COLLECTION_TEST_CHANNELS = {
     blurb: 'Preview of Mega Collection v0.91 before it goes live.',
     databaseUrl: 'collections/database.mega091.js',
     templateUrl: 'Kaptain_Catalog_Template.mega091.json',
-    redditFeedbackUrl: 'https://www.reddit.com/message/compose/?to=KforKaptain&subject=Mega%20v0.91%20beta%20feedback',
-    redditCommunityUrl: 'https://www.reddit.com/r/Nuvio/',
+    redditFeedbackUrl: 'https://github.com/anderson76389/Ma-Collection/issues/new',
+    redditCommunityUrl: 'https://github.com/anderson76389/Ma-Collection/discussions',
     patchNotes: {
       title: "What's new in v0.91 (beta)",
       intro:
-        "You're on a preview build of Mega Collection v0.91. Live visitors still see the public default until this ships. Try it in the picker. If you Send to Nuvio, you're pushing this beta catalog to your profile.",
+        "You're on a preview build of Mega Collection v0.91. Live visitors still see the public default until this ships. Try it in the picker. If you Importer dans Kovelyx, you're pushing this beta catalog to your profile.",
       bullets: [
         'New Spotlights row (8 rotating archetypes) and Based on shelves',
         'Experimental artwork on Spotlights, Discover, Genres, and more',
@@ -56,12 +56,12 @@ window.MA_COLLECTION_TEST_CHANNELS = {
     blurb: 'Preview of Mega Collection v0.90 before it goes live.',
     databaseUrl: 'collections/database.beta.js',
     templateUrl: 'Kaptain_Catalog_Template.beta.json',
-    redditFeedbackUrl: 'https://www.reddit.com/message/compose/?to=KforKaptain&subject=Mega%20v0.90%20beta%20feedback',
-    redditCommunityUrl: 'https://www.reddit.com/r/Nuvio/',
+    redditFeedbackUrl: 'https://github.com/anderson76389/Ma-Collection/issues/new',
+    redditCommunityUrl: 'https://github.com/anderson76389/Ma-Collection/discussions',
     patchNotes: {
       title: "What's new in v0.90 (beta)",
       intro:
-        "You're on a preview build of Mega Collection v0.90. Live visitors still see v0.87 until this ships. Try it in the picker. If you Send to Nuvio, you're pushing this beta catalog to your profile.",
+        "You're on a preview build of Mega Collection v0.90. Live visitors still see v0.87 until this ships. Try it in the picker. If you Importer dans Kovelyx, you're pushing this beta catalog to your profile.",
       bullets: [
         'Streaming Services rebuilt on native TMDB Discover (Top 10s stay as lists)',
         'Smarter vote floors by list type: Popular, New, Top Rated, AVOD vs premium',
@@ -80,7 +80,7 @@ window.MA_COLLECTION_TEST_CHANNELS = {
     id: 'KaoxtV1',
     label: 'Kaoxt Collection',
     versionLabel: 'Friends · Kaoxt',
-    blurb: "Kaoxt's collection, ready to browse and send to Nuvio.",
+    blurb: "Kaoxt's collection, ready to browse and import into Kovelyx.",
     databaseUrl: 'collections/database.kaoxt.js',
     templateUrl: null,
     friendPack: {
@@ -89,15 +89,15 @@ window.MA_COLLECTION_TEST_CHANNELS = {
       aioCatalogsUrl: 'collections/kaoxt-aio-catalogs.json',
       aioBaseConfigUrl: 'collections/kaoxt-aio-base-config.json',
     },
-    redditFeedbackUrl: 'https://www.reddit.com/message/compose/?to=KforKaptain&subject=Friends%20of%20Kaptain%20-%20Kaoxt%20feedback',
-    redditCommunityUrl: 'https://www.reddit.com/r/Nuvio/',
+    redditFeedbackUrl: 'https://github.com/anderson76389/Ma-Collection/issues/new',
+    redditCommunityUrl: 'https://github.com/anderson76389/Ma-Collection/discussions',
     patchNotes: {
       title: 'Kaoxt Collection',
       intro:
-        "You're in Kaoxt's collection, using Kaptain's picker. The lists run on AIO Metadata (MDBList). When you Send to Nuvio, this tool installs those catalogs for whatever you picked. Kaptain's Collection stays as it was until you tap Exit Friends.",
+        "You're in Kaoxt's collection, using Kaptain's picker. The lists run on AIO Metadata (MDBList). When you Importer dans Kovelyx, this tool installs those catalogs for whatever you picked. Kaptain's Collection stays as it was until you tap Exit Friends.",
       bullets: [
         "Browse and edit Kaoxt's folders the same way you do in Kaptain's Collection",
-        'Send to Nuvio installs Kaoxt\'s AIO Metadata catalogs for your selection',
+        'Importer dans Kovelyx installs Kaoxt\'s AIO Metadata catalogs for your selection',
         'You need an MDBList API key (free at mdblist.com) for the lists to load',
         'Kaoxt\'s "For You" folder uses Bingecat. Paste your own Bingecat manifest if you keep that folder',
       ],
