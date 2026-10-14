@@ -141,7 +141,7 @@
         ${field("trakt","Jeton Trakt AIO Metadata (facultatif)","traktToken","Jeton d'une instance AIO Metadata")}
       </div>
       <p class="mc-import-note">Les jetons Trakt sont liés à l'instance AIO Metadata qui les a délivrés. La connexion Trakt dans l'application se fait séparément via OAuth.</p>`;
-    if (state.step === 3) return `<p class="mc-import-note">Pour les affiches avec notes : ces paramètres s'appliquent à une configuration AIO Metadata / AIO Streams compatible. Ils ne modifient pas automatiquement les affiches TMDB natives de Kovelyx ou Nuvio.</p>
+    if (state.step === 3) return `<p class="mc-import-note">RPDB : Kovelyx PC applique également le thème choisi aux affiches natives après votre confirmation. Pour Nuvio et pour les fournisseurs Bttr/Top Posters, la prise en charge dépend de la configuration AIO Metadata / AIO Streams.</p>
       <div class="mc-import-form">
         <label>Fournisseur d'affiches notées<select id="mc-poster-provider" data-key="posterProvider">
           ${[["none","Ne rien changer"],["rpdb","RPDB"],["bttr","Bttr Posters"],["top","Top Posters"]].map(([v,n])=>`<option value="${v}" ${state.posterProvider===v?"selected":""}>${n}</option>`).join("")}
