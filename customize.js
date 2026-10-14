@@ -465,7 +465,7 @@
         </div>
         <div class="cust-info-text">
           <strong>Direct Search Remains Unlocked</strong>
-          <p>These filters only tailor your auto-populated home screen rows. You can still search for any title directly in Nuvio anytime.</p>
+          <p>These filters only tailor your auto-populated home screen rows. You can still search for any title directement dans Kovelyx.</p>
         </div>
       </div>
 
