@@ -577,7 +577,7 @@ function showBetaPatchNotes(channel) {
     .map((b) => `<li>${escapeHtmlBeta(b)}</li>`)
     .join('');
   const dmUrl = channel.redditFeedbackUrl
-    || 'https://www.reddit.com/message/compose/?to=KforKaptain&subject=Mega%20beta%20feedback';
+    || 'https://github.com/anderson76389/Ma-Collection/issues/new';
   const communityUrl = channel.redditCommunityUrl || '';
 
   const overlay = document.createElement('div');
@@ -593,7 +593,7 @@ function showBetaPatchNotes(channel) {
       <ul class="beta-notes-list">${bullets}</ul>
       <p class="beta-notes-feedback">${escapeHtmlBeta(notes.feedback || '')}</p>
       <div class="beta-notes-contacts">
-        <a class="beta-notes-link" href="${escapeHtmlBeta(dmUrl)}" target="_blank" rel="noopener">Message u/KforKaptain</a>
+        <a class="beta-notes-link" href="${escapeHtmlBeta(dmUrl)}" target="_blank" rel="noopener">Signaler un problème</a>
         <a class="beta-notes-link" href="${escapeHtmlBeta(communityUrl)}" target="_blank" rel="noopener">Communauté</a>
       </div>
       <button type="button" class="bc-choice-cancel beta-notes-close" id="beta-notes-close">Got it</button>
