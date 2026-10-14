@@ -76,7 +76,8 @@ const clean=s=>typeof s==="string"
   ? s.replace(/\b(Films|Séries)\s*[-–—:]\s*\1\b/gi,"$1")
     .replace(/\b(Films|Séries)\s*\(\s*\1\s*\)/gi,"$1")
     .replace(/\b(Films|Séries)\s+\1\b/gi,"$1").trim():s;
-const tr=s=>clean(translated(s));
+const tr=s=>clean(typeof translated(s)==="string" ? translated(s)
+  .replace(/&(?:amp;)?/g," Et ").replace(/ {2,}/g," ") : translated(s));
 const stats={categories:0,dossiers:0,sources:0,catalogSources:0,champs_traduits:0,
   intitulés_introuvables:[],langue:"fr",source:"collections individuelles (20 catégories)"};
 function label(obj,key,forced=null){
