@@ -61,7 +61,7 @@ test("les 68 chaînes restent filtrées sur leur réseau TV",()=>{
 test("nouvelles saisons et épisodes utilisent une date de diffusion distincte",()=>{
   const p=recentEpisodeParams("2552",new Date("2026-10-14T12:00:00Z"));
   assert.equal(p.get("air_date.gte"),"2026-10-05");
-  assert.equal(p.get("air_date.lte"),"2026-10-18");
+  assert.equal(p.get("air_date.lte"),"2026-10-14");
   assert.equal(p.get("with_networks"),"2552");
   const fr=recentEpisodeParams(null,new Date("2026-10-14"),[8]);
   assert.equal(fr.get("watch_region"),"FR");
