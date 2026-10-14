@@ -295,7 +295,7 @@ try {
       await page.locator(item.button).click();
       await page.waitForFunction(before=>document.querySelectorAll("#toast-container .toast").length>before,count,{timeout:10000});
       assert.equal(await page.locator("#toast-container .toast-message").last().textContent(),"✓ That key works.");
-      const invalid=await page.evaluate(async ({fn,id})=>window.NuvioWizard[fn]("qa-invalid-"+id),item);
+      const invalid=await page.evaluate(async ({fn,id})=>window.MaCollectionServices[fn]("qa-invalid-"+id),item);
       assert.equal(invalid.ok,false, item.id+" doit refuser une mauvaise clé");
       assert.equal(invalid.unreachable,undefined);
     }
@@ -346,7 +346,7 @@ try {
       return route.fulfill({...common,status:404,body:"Not found"});
     });
     const checks=await page.evaluate(async()=>{
-      const test=window.NuvioWizard.checkManifestAlive; // utilitaire local indépendant
+      const test=window.MaCollectionServices.checkManifestAlive; // utilitaire local indépendant
       const root="https://qa-addons.invalid";
       return Promise.all(["ok","html","json","missing"].map(async p=>({p,...await test(root+"/"+p+"/manifest.json")})));
     });
