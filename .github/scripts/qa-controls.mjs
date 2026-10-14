@@ -16,6 +16,8 @@ async function run(label, fn) {
 const origin="http://127.0.0.1:8877/";
 async function buildPage({width,height}) {
   const page=await browser.newPage({viewport:{width,height},acceptDownloads:true});
+  // Limiter les attentes pour distinguer rapidement bouton inactif et lenteur du navigateur.
+  page.setDefaultTimeout(7000);
   const jsErrors=[],localErrors=[];
   page.on("pageerror",e=>jsErrors.push(e.message));
   page.on("response",res=>{
