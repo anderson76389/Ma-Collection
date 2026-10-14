@@ -208,6 +208,66 @@ try {
     assert.equal(await page.locator("#kovelyx-export-overlay").evaluate(n=>n.hidden),true);
     assert.equal(await page.locator("#btn-send-to-nuvio").count(),1);
   });
+  await run("Kovelyx : diagnostics fiables si pont absent, import déjà en attente ou version incompatible",async()=>{
+    // Pas d'API réelle : exercer les clics et la gestion des erreurs avec
+    // des réponses HTTP représentatives du pont local de Kovelyx.
+    await page.evaluate(()=>{window.__MA_COLLECTION_QA_NO_PROTOCOL=true;});
+    await page.locator("#btn-export-kovelyx").click();
+    assert.equal(await page.locator("#mc-import-studio").evaluate(n=>n.hidden),false);
+    for(let step=0;step<6;step++) await page.locator("#mc-import-next").click();
+    assert.equal(await page.locator("#kovelyx-export-overlay").evaluate(n=>n.hidden),false);
+
+    let scenario="health-unavailable";
+    const seen=[];
+    const headers={
+      "access-control-allow-origin":"http://127.0.0.1:8877",
+      "access-control-allow-methods":"GET, POST, OPTIONS",
+      "access-control-allow-headers":"Content-Type",
+      "access-control-allow-private-network":"true"
+    };
+    const pattern="http://127.0.0.1:38761/*";
+    await page.route(pattern,async route=>{
+      const req=route.request();
+      const pathname=new URL(req.url()).pathname;
+      seen.push({scenario,method:req.method(),pathname});
+      if(scenario==="bridge-offline" && pathname==="/health" && req.method()==="GET")
+        return route.abort("failed");
+      if(req.method()==="OPTIONS")
+        return route.fulfill({status:204,headers,body:""});
+      if(pathname==="/health")
+        return route.fulfill({status:scenario==="health-unavailable"?503:200,headers,
+          body:scenario==="health-unavailable"?"Indisponible":"Kovelyx prêt"});
+      return route.fulfill({status:scenario==="pending"?409:422,headers,body:"Refusé"});
+    });
+    try {
+      const cases=[
+        {value:"health-unavailable",expected:"pont local Kovelyx n'est pas prêt"},
+        {value:"bridge-offline",expected:"Impossible de joindre Kovelyx PC"},
+        {value:"pending",expected:"Un import attend déjà confirmation"},
+        {value:"invalid-version",expected:"Votre version de Kovelyx ne reconnaît pas"}
+      ];
+      for(const item of cases){
+        scenario=item.value;
+        await page.locator("#kovelyx-export-direct").click();
+        await page.waitForFunction(expected=>{
+          const node=document.querySelector("#kovelyx-export-status");
+          return node?.getAttribute("data-state")==="error" &&
+            node.textContent.includes(expected);
+        },item.expected,{timeout:15000});
+        assert((await page.locator("#kovelyx-export-status").textContent()).includes(item.expected));
+        assert.equal(await page.locator("#kovelyx-export-direct").isDisabled(),false);
+      }
+      assert(seen.some(x=>x.scenario==="pending"&&x.pathname==="/import"&&x.method==="POST"));
+      assert(seen.some(x=>x.scenario==="invalid-version"&&x.pathname==="/import"&&x.method==="POST"));
+      assert(!seen.some(x=>x.scenario==="health-unavailable"&&x.pathname==="/import"),
+        "Un serveur non prêt ne doit pas recevoir la collection");
+      assert(!seen.some(x=>x.scenario==="bridge-offline"&&x.pathname==="/import"),
+        "Le pont hors ligne ne doit pas recevoir la collection");
+    } finally {
+      await page.unroute(pattern);
+      await page.locator("#kovelyx-export-close").click();
+    }
+  });
   await run("Clés API : clics Test TMDB, MDBList, AllDebrid et Real-Debrid (réponses simulées)",async()=>{
     const requests=[];
     const routes=[
