@@ -105,7 +105,9 @@
     addonManifests:state.addonManifests.split(/\r?\n/).map(s=>s.trim()).filter(Boolean),
   });
   function field(id,label,key,placeholder,type="password") {
-    return `<label for="mc-${id}">${label}<input id="mc-${id}" data-key="${key}" type="${type}" autocomplete="off" spellcheck="false" placeholder="${esc(placeholder)}" value="${esc(state[key])}"></label>`;
+    const testable = ["tmdb","mdblist","ad","rd"].includes(id);
+    return `<label for="mc-${id}">${label}<input id="mc-${id}" data-key="${key}" type="${type}" autocomplete="off" spellcheck="false" placeholder="${esc(placeholder)}" value="${esc(state[key])}"></label>` +
+      (testable ? `<div><button type="button" class="mc-import-action secondary" data-keytest="${id}">Tester la clé</button> <span class="mc-import-note" id="mc-keytest-${id}" role="status"></span></div>` : "");
   }
   function stepHtml() {
     const rows = folders(), currentFolder = rows.find(f => f.key === state.selectedFolder) || rows[0];
@@ -199,6 +201,26 @@
       if (input.tagName === "INPUT" || input.tagName === "TEXTAREA") input.addEventListener("input", update);
     });
     current().querySelectorAll("[data-check]").forEach(input => input.addEventListener("change", () => { state[input.dataset.check] = input.checked; }));
+    const testerNames = {
+      tmdb:"testTmdbKeyLive", mdblist:"testMdblistKeyLive",
+      ad:"testAllDebridKeyLive", rd:"testRealDebridKeyLive"
+    };
+    current().querySelectorAll("[data-keytest]").forEach(button => button.addEventListener("click", async () => {
+      const id = button.dataset.keytest, value = byId("mc-"+id)?.value.trim();
+      const label = byId("mc-keytest-"+id);
+      const fn = window.NuvioWizard?.[testerNames[id]];
+      if (!label) return;
+      if (!value) { label.textContent = "Renseignez une clé."; return; }
+      if (typeof fn !== "function") { label.textContent = "Vérification indisponible."; return; }
+      button.disabled=true;
+      label.textContent="Vérification…";
+      try {
+        const result = await fn(value);
+        label.textContent=result.ok ? "✓ Clé acceptée par le service." :
+          result.unreachable ? "Serveur injoignable : résultat indéterminé." : "Clé refusée par le service.";
+      } catch (_) { label.textContent="Service injoignable : résultat indéterminé."; }
+      finally { button.disabled=false; }
+    }));
     byId("mc-edit-collections")?.addEventListener("click", () => {
       close();
       if (typeof window.startCustomize !== "function") return;
