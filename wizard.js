@@ -1747,8 +1747,11 @@
     state.friendAioInstanceCount = 0;
     // Préconfiguration facultative provenant de l'assistant partagé Nuvio/Kovelyx.
     // L'assistant Nuvio continue normalement (choix de profil, extensions, etc.).
+    const pendingImportSetup = window.__maCollectionPendingImportSettings;
+    window.__maCollectionPendingImportSettings = null;
     state.importSetup = opts && opts.importSetup && typeof opts.importSetup === 'object'
-      ? { ...opts.importSetup } : null;
+      ? { ...opts.importSetup }
+      : pendingImportSetup && typeof pendingImportSetup === 'object' ? { ...pendingImportSetup } : null;
     // Pre-filled settings from the Quick editor → applied in one shot, no
     // interactive streaming step.
     state.prefill = (opts && opts.prefill && typeof opts.prefill === 'object') ? opts.prefill : null;
