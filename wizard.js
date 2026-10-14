@@ -3420,7 +3420,9 @@
       'https://aiostreams.fortheweak.cloud'
     ];
 
-    const CORS_PROXY = 'https://nuvio-cors-proxy.goodintentionssmp.workers.dev/';
+    const CORS_PROXY = String(window.MA_COLLECTION_CORS_PROXY || "").trim();
+    // Aucun proxy d'une autre application n'est imposé : accès direct ou
+    // proxy auto-hébergé configuré volontairement par l'utilisateur.
 
     state.pushingLabel = 'Building your AIO Streams backend...';
     render();
@@ -3430,7 +3432,7 @@
     let lastCreateError = null;
     for (const host of aiostreamsHosts) {
       try {
-        const proxiedUrl = `${CORS_PROXY}${host}/api/v1/user`;
+        const proxiedUrl = CORS_PROXY ? `${CORS_PROXY}${host}/api/v1/user` : `${host}/api/v1/user`;
         const res = await fetch(proxiedUrl, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -3814,19 +3816,6 @@
         <ul class="wiz-summary">${items.join('')}</ul>
         <div class="wiz-note wiz-nextsteps">${nextSteps}</div>
         ${aioSelfServiceNote}
-
-        <div class="wiz-donation-block">
-            <p class="wiz-donation-lede">Enjoying it? Share your setup on <a href="https://www.reddit.com/r/Nuvio/" target="_blank" rel="noopener" class="wiz-link">r/Nuvio</a>, or DM <a href="https://www.reddit.com/user/KforKaptain/" target="_blank" rel="noopener" class="wiz-link">u/KforKaptain</a> with bugs, ideas, or content to add.</p>
-            <p class="wiz-donation-sub">If this saved you some setup time, tips are always appreciated, never expected.</p>
-            <div class="wiz-donation-actions">
-                <a href="https://nuvio.tv/support" target="_blank" rel="noopener" class="wiz-secondary wiz-donation-btn">☕ Support Nuvio</a>
-                <button type="button" id="wiz-tip-ma-collection-btn" class="wiz-secondary wiz-donation-btn">☕ Tip Kaptain</button>
-            </div>
-            <div id="wiz-tip-ma-collection-confirm" class="wiz-tip-confirm" style="display:none;">
-                <p style="margin:0 0 8px 0;">Have you donated to the Nuvio devs yet? None of this works without them.</p>
-                <a href="https://ko-fi.com/kaptaincollection" target="_blank" rel="noopener" class="wiz-link">Yes, continue to Kaptain's tip page →</a>
-            </div>
-        </div>
 
         <button class="wiz-primary" id="wiz-done-close" style="margin-top:20px;"><span>Done</span></button>
       </div>`;
