@@ -3475,7 +3475,7 @@ function applyLocaleDict(collections, localeDict) {
   const t = (s) => {
     if (!s || typeof s !== 'string') return s;
     const value = Object.prototype.hasOwnProperty.call(localeDict, s) ? localeDict[s] : s;
-    return cleanLabel(value);
+    return cleanLabel(value.replace(/&(?:amp;)?/g, ' Et ').replace(/ {2,}/g, ' '));
   };
   collections.forEach(c => {
     const isGenreCategory = c.id === 'collection-HFTCV0TA' || c.title === 'Genres';
