@@ -144,6 +144,7 @@ try {
     await page.locator("#destination-kovelyx").click();
     assert.equal(await page.locator("#destination-overlay").evaluate(n=>n.hidden),true);
     assert.equal(await page.locator("#mc-import-studio").evaluate(n=>n.hidden),false);
+    await page.locator("#mc-import-studio [data-key=importMode]").first().selectOption("account");
     await page.locator("#mc-import-next").click(); // Catalogues → affiches
     await page.locator("#mc-art-cover").fill("https://example.org/personnalise.jpg");
     await page.locator("#mc-art-cover").dispatchEvent("change");
@@ -157,6 +158,7 @@ try {
     await page.locator("#mc-import-next").click(); // Débridage → extensions
     await page.locator("#mc-addon-manifests").fill("https://example.org/manifest.json");
     await page.locator("#mc-import-next").click(); // Extensions → confirmation
+    await page.locator("#mc-import-action").selectOption("merge");
     await page.locator("#mc-import-next").click(); // Confirmation → dialogue Kovelyx
     assert.equal(await page.locator("#kovelyx-export-overlay").evaluate(n=>n.hidden),false);
     await page.locator("#kovelyx-export-direct").click();
@@ -167,6 +169,9 @@ try {
     assert.equal(incoming.settings.mdblistKey,"qa-kovelyx-mdblist");
     assert.equal(incoming.settings.realDebridKey,"qa-kovelyx-realdebrid");
     assert.equal(incoming.settings.posterProvider,"rpdb");
+    assert.equal(incoming.settings.tmdbLanguage,"fr");
+    assert.equal(incoming.settings.importMode,"account");
+    assert.equal(incoming.settings.importAction,"merge");
     assert.deepEqual(incoming.settings.addonManifests,["https://example.org/manifest.json"]);
     assert(incoming.collections.every(c=>c.id&&c.title&&Array.isArray(c.folders)));
     assert(incoming.collections.some(c=>(c.folders||[]).some(f=>f.coverImageUrl==="https://example.org/personnalise.jpg")));
