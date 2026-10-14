@@ -127,7 +127,7 @@
       "plateforme": "Netflix",
       "type": "movie",
       "taille_echantillon": 40,
-      "premiere_mesure": true,
+      "premiere_mesure": false,
       "ajouts_reperes": 0,
       "retraits_reperes": 0
     },
@@ -135,7 +135,7 @@
       "plateforme": "Netflix",
       "type": "series",
       "taille_echantillon": 40,
-      "premiere_mesure": true,
+      "premiere_mesure": false,
       "ajouts_reperes": 0,
       "retraits_reperes": 0
     },
@@ -143,7 +143,7 @@
       "plateforme": "Apple TV+",
       "type": "movie",
       "taille_echantillon": 40,
-      "premiere_mesure": true,
+      "premiere_mesure": false,
       "ajouts_reperes": 0,
       "retraits_reperes": 0
     },
@@ -151,7 +151,7 @@
       "plateforme": "Apple TV+",
       "type": "series",
       "taille_echantillon": 40,
-      "premiere_mesure": true,
+      "premiere_mesure": false,
       "ajouts_reperes": 0,
       "retraits_reperes": 0
     },
@@ -159,7 +159,7 @@
       "plateforme": "Prime Video",
       "type": "movie",
       "taille_echantillon": 40,
-      "premiere_mesure": true,
+      "premiere_mesure": false,
       "ajouts_reperes": 0,
       "retraits_reperes": 0
     },
@@ -167,7 +167,7 @@
       "plateforme": "Prime Video",
       "type": "series",
       "taille_echantillon": 40,
-      "premiere_mesure": true,
+      "premiere_mesure": false,
       "ajouts_reperes": 0,
       "retraits_reperes": 0
     },
@@ -175,7 +175,7 @@
       "plateforme": "Crunchyroll",
       "type": "movie",
       "taille_echantillon": 40,
-      "premiere_mesure": true,
+      "premiere_mesure": false,
       "ajouts_reperes": 0,
       "retraits_reperes": 0
     },
@@ -183,7 +183,7 @@
       "plateforme": "Crunchyroll",
       "type": "series",
       "taille_echantillon": 40,
-      "premiere_mesure": true,
+      "premiere_mesure": false,
       "ajouts_reperes": 0,
       "retraits_reperes": 0
     },
@@ -191,7 +191,7 @@
       "plateforme": "Curiosity Stream",
       "type": "movie",
       "taille_echantillon": 40,
-      "premiere_mesure": true,
+      "premiere_mesure": false,
       "ajouts_reperes": 0,
       "retraits_reperes": 0
     },
@@ -199,7 +199,7 @@
       "plateforme": "Curiosity Stream",
       "type": "series",
       "taille_echantillon": 40,
-      "premiere_mesure": true,
+      "premiere_mesure": false,
       "ajouts_reperes": 0,
       "retraits_reperes": 0
     },
@@ -207,7 +207,7 @@
       "plateforme": "Disney+",
       "type": "movie",
       "taille_echantillon": 40,
-      "premiere_mesure": true,
+      "premiere_mesure": false,
       "ajouts_reperes": 0,
       "retraits_reperes": 0
     },
@@ -215,7 +215,7 @@
       "plateforme": "Disney+",
       "type": "series",
       "taille_echantillon": 40,
-      "premiere_mesure": true,
+      "premiere_mesure": false,
       "ajouts_reperes": 0,
       "retraits_reperes": 0
     },
@@ -223,7 +223,7 @@
       "plateforme": "Hayu",
       "type": "series",
       "taille_echantillon": 40,
-      "premiere_mesure": true,
+      "premiere_mesure": false,
       "ajouts_reperes": 0,
       "retraits_reperes": 0
     },
@@ -231,7 +231,7 @@
       "plateforme": "HBO Max",
       "type": "movie",
       "taille_echantillon": 40,
-      "premiere_mesure": true,
+      "premiere_mesure": false,
       "ajouts_reperes": 0,
       "retraits_reperes": 0
     },
@@ -239,7 +239,7 @@
       "plateforme": "HBO Max",
       "type": "series",
       "taille_echantillon": 40,
-      "premiere_mesure": true,
+      "premiere_mesure": false,
       "ajouts_reperes": 0,
       "retraits_reperes": 0
     },
@@ -247,7 +247,7 @@
       "plateforme": "Magellan",
       "type": "movie",
       "taille_echantillon": 40,
-      "premiere_mesure": true,
+      "premiere_mesure": false,
       "ajouts_reperes": 0,
       "retraits_reperes": 0
     },
@@ -255,7 +255,7 @@
       "plateforme": "Magellan",
       "type": "series",
       "taille_echantillon": 40,
-      "premiere_mesure": true,
+      "premiere_mesure": false,
       "ajouts_reperes": 0,
       "retraits_reperes": 0
     },
@@ -263,7 +263,7 @@
       "plateforme": "Mubi",
       "type": "movie",
       "taille_echantillon": 40,
-      "premiere_mesure": true,
+      "premiere_mesure": false,
       "ajouts_reperes": 0,
       "retraits_reperes": 0
     },
@@ -271,7 +271,7 @@
       "plateforme": "Mubi",
       "type": "series",
       "taille_echantillon": 3,
-      "premiere_mesure": true,
+      "premiere_mesure": false,
       "ajouts_reperes": 0,
       "retraits_reperes": 0
     },
@@ -279,7 +279,7 @@
       "plateforme": "Paramount+",
       "type": "movie",
       "taille_echantillon": 40,
-      "premiere_mesure": true,
+      "premiere_mesure": false,
       "ajouts_reperes": 0,
       "retraits_reperes": 0
     },
@@ -287,7 +287,7 @@
       "plateforme": "Paramount+",
       "type": "series",
       "taille_echantillon": 40,
-      "premiere_mesure": true,
+      "premiere_mesure": false,
       "ajouts_reperes": 0,
       "retraits_reperes": 0
     },
@@ -295,7 +295,7 @@
       "plateforme": "Pluto TV",
       "type": "movie",
       "taille_echantillon": 40,
-      "premiere_mesure": true,
+      "premiere_mesure": false,
       "ajouts_reperes": 0,
       "retraits_reperes": 0
     },
@@ -303,7 +303,7 @@
       "plateforme": "Pluto TV",
       "type": "series",
       "taille_echantillon": 40,
-      "premiere_mesure": true,
+      "premiere_mesure": false,
       "ajouts_reperes": 0,
       "retraits_reperes": 0
     }
