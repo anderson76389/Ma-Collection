@@ -26,15 +26,19 @@ jobs:
           node-version: '22'
       - name: Vérifier les protections et la stabilité
         run: node --test tests/weekly-catalogs.test.cjs
+      - name: Tester la couverture de toutes les catégories
+        run: node --test tests/dynamic-audit.test.mjs
       - name: Contrôler les bases sans écriture
         run: node scripts/refresh-weekly-catalogs.mjs --check
       - name: Mettre à jour uniquement les dates ciblées
         run: node scripts/refresh-weekly-catalogs.mjs --write
+      - name: Vérifier toutes les sources et publier le rapport hebdomadaire
+        run: node scripts/audit-dynamic-catalogs.mjs --write --strict
       - name: Enregistrer uniquement en cas de changement
         run: |
           git config user.name 'ma-collection-weekly-bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add collections/database.js collections/*.json
+          git add collections/database.js collections/*.json data/catalogues-dynamiques-status.json
           if git diff --cached --quiet; then
             echo 'Aucune date à rafraîchir cette semaine.'
           else
