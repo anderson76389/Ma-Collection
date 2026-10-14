@@ -41,6 +41,7 @@ test("le moteur construit tous les catalogues sans internet, sans toucher aux li
       "L'addon exposé à Nuvio doit avoir ses sous-catégories françaises");
     assert(complete.catalogs.every(x=>!/(?:New Movies|New Series|Recent Series|Popular Movies)/.test(x.name)),
       "Le manifeste expose des intitulés anglais");
+    assert(complete.catalogs.every(x=>!x.name.includes("&")), "Un catalogue régénéré contient encore &");
     assert.ok(essential.catalogs.length>=85, "Plateformes, chaînes ou téléréalités absentes");
     assert.ok(report.totaux.saisons>0,"Nouvelles saisons non détectées");
     assert.ok(report.totaux.episodes>0,"Épisodes non détectés");
