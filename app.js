@@ -3655,12 +3655,12 @@ function ensureMobileCompat(actionFn, opts) {
     const needsTmdb = checkTmdb && isMobileSelected && !hasTmdbKey();
 
     if (currentDevice === 'tv') {
-      if (subEl) subEl.textContent = 'L'aperçu TV utilise la disposition automatique par défaut.';
+      if (subEl) subEl.textContent = "L’aperçu TV utilise la disposition automatique par défaut.";
       if (rowsSection) rowsSection.style.display = 'none';
       if (tmdbSection) tmdbSection.style.display = 'none';
       if (continueText) continueText.textContent = `${actionLabel} (Follow Layout) →`;
     } else if (currentDevice === 'mobile') {
-      if (subEl) subEl.textContent = 'L'aperçu mobile présente les listes différemment de l'aperçu TV.';
+      if (subEl) subEl.textContent = "L’aperçu mobile présente les listes différemment de l’aperçu TV.";
       if (rowsSection) rowsSection.style.display = '';
       if (checkText) checkText.textContent = 'Switch to Tabbed Grid (recommended for mobile)';
       if (tmdbSection) tmdbSection.style.display = needsTmdb ? '' : 'none';
