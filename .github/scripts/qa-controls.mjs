@@ -108,22 +108,14 @@ try {
     await page.locator("#sidebar-toggle").click();
     assert.equal(await page.locator("#sidebar-toggle").getAttribute("aria-expanded"),"false");
   });
-  await run("Nuvio : fenêtre de configuration et fermeture",async()=>{
-    await page.locator("#btn-send-to-nuvio").click();
-    assert.equal(await page.locator("#destination-overlay").evaluate(n=>n.hidden),false);
-    await page.locator("#destination-nuvio").click();
-    assert.equal(await page.locator("#mc-import-studio").evaluate(n=>n.hidden),false);
-    await page.locator("#mc-import-next").click(); // Catalogues → métadonnées
-    assert.equal(await page.locator("#mc-art-cover").count(),0,"L’éditeur d'images de dossiers doit être absent");
-    await page.locator("#mc-tmdb").fill("qa-key-tmdb");
-    await page.locator("#mc-mdblist").fill("qa-key-mdblist");
-    for(let step=0;step<5;step++)await page.locator("#mc-import-next").click();
-    await page.waitForFunction(()=>document.querySelector("#wizard-overlay")?.classList.contains("open"),{timeout:15000});
-    const prefilled=await page.evaluate(()=>window.NuvioWizard.peekVaultFields().keys);
-    assert.equal(prefilled.tmdbKey,"qa-key-tmdb");
-    assert.equal(prefilled.mdblistKey,"qa-key-mdblist");
-    await page.evaluate(()=>window.NuvioWizard.close());
-    assert(!(await page.locator("#wizard-overlay").evaluate(n=>n.classList.contains("open"))));
+  await run("aucun compteur externe ni parcours vers un compte tiers",async()=>{
+    assert.equal(await page.locator("#telemetry-icon").count(),0);
+    assert.equal(await page.locator("#visitor-count").count(),0);
+    assert.equal(await page.locator("#destination-nuvio").count(),0);
+    assert.equal(await page.locator("#title-screen-profile-studio").count(),0);
+    assert.equal(await page.locator("#btn-import-kovelyx").count(),1);
+    const source=await page.locator("html").evaluate(n=>n.outerHTML);
+    assert(!source.includes("api.nuvio.tv"),"Un ancien serveur externe ne doit pas figurer dans la page");
   });
   await run("Kovelyx : envoi local direct, export JSON et fermeture",async()=>{
     const directImports=[];
@@ -141,9 +133,7 @@ try {
       directImports.push(JSON.parse(request.postData()));
       await route.fulfill({status:202,headers,body:"Import en attente de confirmation"});
     });
-    await page.locator("#btn-send-to-nuvio").click();
-    await page.locator("#destination-kovelyx").click();
-    assert.equal(await page.locator("#destination-overlay").evaluate(n=>n.hidden),true);
+    await page.locator("#btn-import-kovelyx").click();
     assert.equal(await page.locator("#mc-import-studio").evaluate(n=>n.hidden),false);
     await page.locator("#mc-import-studio [data-key=importMode]").first().selectOption("account");
     await page.locator("#mc-import-next").click(); // Catalogues → clés
@@ -206,7 +196,7 @@ try {
     assert.deepEqual(JSON.parse(await readFile(await dl.path(),"utf8")),payload);
     await page.locator("#kovelyx-export-close").click();
     assert.equal(await page.locator("#kovelyx-export-overlay").evaluate(n=>n.hidden),true);
-    assert.equal(await page.locator("#btn-send-to-nuvio").count(),1);
+    assert.equal(await page.locator("#btn-import-kovelyx").count(),1);
   });
   await run("Kovelyx : diagnostics fiables si pont absent, import déjà en attente ou version incompatible",async()=>{
     // Pas d'API réelle : exercer les clics et la gestion des erreurs avec
@@ -356,7 +346,7 @@ try {
       return route.fulfill({...common,status:404,body:"Not found"});
     });
     const checks=await page.evaluate(async()=>{
-      const test=window.NuvioWizard.checkManifestAlive;
+      const test=window.NuvioWizard.checkManifestAlive; // utilitaire local indépendant
       const root="https://qa-addons.invalid";
       return Promise.all(["ok","html","json","missing"].map(async p=>({p,...await test(root+"/"+p+"/manifest.json")})));
     });
