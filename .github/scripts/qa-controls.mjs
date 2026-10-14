@@ -124,6 +124,24 @@ try {
     assert(Array.isArray(payload)&&payload.length>=10, "L'export doit contenir les catégories du site");
     assert(payload.every(c=>c.id&&Array.isArray(c.folders)));
   });
+  await run("aucune esperluette dans un libellé ajouté après le chargement",async()=>{
+    await page.evaluate(()=>{
+      const span=document.createElement("span");
+      span.id="qa-text-et-late";
+      span.textContent="Test & vérification";
+      document.body.append(span);
+      const btn=document.createElement("button");
+      btn.id="qa-title-et-late";
+      btn.setAttribute("title","Rangées & Options");
+      document.body.append(btn);
+      // Tester aussi un changement d'attribut après l'insertion.
+      btn.setAttribute("title","Profil & Catégories");
+    });
+    await page.waitForFunction(()=>
+      document.querySelector("#qa-text-et-late")?.textContent==="Test Et vérification" &&
+      document.querySelector("#qa-title-et-late")?.title==="Profil Et Catégories",
+      {timeout:12000});
+  });
   await run("aucune ressource locale manquante ni exception JS (ordinateur)",async()=>{
     assert.deepEqual(desktop.jsErrors,[]);
     assert.deepEqual(desktop.localErrors,[]);
