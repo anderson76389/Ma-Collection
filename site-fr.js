@@ -1,7 +1,7 @@
 /* Traduction du texte d'interface. Aucun média, lien ou identifiant n'est modifié. */
 (() => {
   "use strict";
-  const dictionaries = ["locales/fr.json?v=16", "locales/site-fr.json?v=16"];
+  const dictionaries = ["locales/fr.json?v=17", "locales/site-fr.json?v=17"];
   const blocked = "script,style,noscript,code,pre,textarea,[contenteditable],[contenteditable='true'],img,picture,video,audio,source,track,canvas,svg,object,embed,iframe,[data-no-translate]";
   const textAttributes = ["placeholder", "title", "aria-label", "data-tip"];
   const dict = Object.create(null);
@@ -22,7 +22,7 @@
   function ampersandToEt(value) {
     // Seulement les textes affichés : jamais les URL, attributs src/href,
     // expressions JS, identifiants techniques ou illustrations.
-    return String(value).replace(/&(?:amp;)?/g, " Et ").replace(/[ \\t]{2,}/g, " ").trim();
+    return String(value).replace(/&(?:amp;)?/g, " Et ").replace(/ {2,}/g, " ").trim();
   }
   function translate(value) {
     const source = String(value || "").trim();
