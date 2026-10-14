@@ -21,7 +21,9 @@
     close();
     if (el("simple-editor-overlay")?.classList.contains("open") &&
         typeof window.seGatherSettings === "function") window.seGatherSettings();
-    window.MaCollectionKovelyx?.open();
+    // Direct local import. The legacy JSON copy/download options remain available
+    // in the export dialog if the application is not installed or reachable.
+    window.MaCollectionKovelyx?.send();
   });
   el("destination-cancel")?.addEventListener("click", close);
   overlay.addEventListener("click", event => { if (event.target === overlay) close(); });

@@ -116,11 +116,29 @@ try {
     await page.evaluate(()=>window.NuvioWizard.close());
     assert(!(await page.locator("#wizard-overlay").evaluate(n=>n.classList.contains("open"))));
   });
-  await run("Kovelyx : choix puis export JSON et fermeture",async()=>{
+  await run("Kovelyx : envoi local direct, export JSON et fermeture",async()=>{
+    const directImports=[];
+    await page.evaluate(()=>{ window.__MA_COLLECTION_QA_NO_PROTOCOL=true; });
+    await page.route("http://127.0.0.1:38761/import",async route=>{
+      const request=route.request();
+      const headers={
+        "access-control-allow-origin":"http://127.0.0.1:8877",
+        "access-control-allow-methods":"POST, OPTIONS",
+        "access-control-allow-headers":"Content-Type",
+        "access-control-allow-private-network":"true"
+      };
+      if(request.method()==="OPTIONS")return route.fulfill({status:204,headers,body:""});
+      directImports.push(JSON.parse(request.postData()));
+      await route.fulfill({status:202,headers,body:"Import en attente de confirmation"});
+    });
     await page.locator("#btn-send-to-nuvio").click();
     await page.locator("#destination-kovelyx").click();
     assert.equal(await page.locator("#destination-overlay").evaluate(n=>n.hidden),true);
     assert.equal(await page.locator("#kovelyx-export-overlay").evaluate(n=>n.hidden),false);
+    await page.waitForFunction(()=>document.querySelector("#kovelyx-export-status")?.textContent.includes("Sélection envoyée"),{timeout:15000});
+    assert.equal(directImports.length,1,"Un unique transfert local doit être envoyé");
+    assert(directImports[0].every(c=>c.id&&c.title&&Array.isArray(c.folders)));
+    await page.unroute("http://127.0.0.1:38761/import");
     await page.locator("#kovelyx-export-close").click();
     assert.equal(await page.locator("#btn-export-kovelyx").count(),1);
     await page.locator("#btn-export-kovelyx").click();
