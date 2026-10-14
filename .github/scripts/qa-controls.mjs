@@ -124,7 +124,7 @@ try {
     const event=page.waitForEvent("download",{timeout:20000});
     await page.locator("#kovelyx-export-download").click();
     const dl=await event;
-    assert(/^kovelyx_collection_fr_\\d{4}-\\d\\d-\\d\\d\\.json$/.test(dl.suggestedFilename()));
+    assert(/^kovelyx_collection_fr_\d{4}-\d\d-\d\d\.json$/.test(dl.suggestedFilename()));
     const {readFile}=await import("node:fs/promises");
     assert.deepEqual(JSON.parse(await readFile(await dl.path(),"utf8")),payload);
     await page.locator("#kovelyx-export-close").click();
