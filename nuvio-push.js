@@ -280,10 +280,24 @@
     },
 
     // Full REPLACE of the given profile's collections.
+    // Dernière barrière anti-export anglais : TOUT parcours (assistant,
+    // éditeur, envoi rapide, fusion de profils) passe par cette méthode.
+    // Ne modifie pas les objets du profil dans la mémoire du navigateur.
     async pushCollections(token, profileId, collections) {
+      const payload = Array.isArray(collections)
+        ? (typeof structuredClone === 'function'
+            ? structuredClone(collections)
+            : JSON.parse(JSON.stringify(collections)))
+        : [];
+      if (window.MaCollectionExport &&
+          typeof window.MaCollectionExport.applyLocaleToCollection === 'function') {
+        await window.MaCollectionExport.applyLocaleToCollection(payload);
+      } else {
+        throw new Error('Impossible de traduire les collections avant envoi Nuvio');
+      }
       return rpc('/rest/v1/rpc/sync_push_collections', token, {
         p_profile_id: profileId,
-        p_collections_json: Array.isArray(collections) ? collections : [],
+        p_collections_json: payload,
       });
     },
 
