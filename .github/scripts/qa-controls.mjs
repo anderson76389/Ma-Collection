@@ -121,6 +121,17 @@ try {
     const payload=JSON.parse(await page.evaluate(()=>window.MaCollectionKovelyx.buildExport()));
     assert(payload.length>=10);
     assert(payload.every(c=>c.id&&c.title&&Array.isArray(c.folders)));
+    // Tester un véritable clic et le contenu transmis à l'API Clipboard.
+    await page.evaluate(()=>{
+      window.__kovelyxClipboardTest=null;
+      Object.defineProperty(navigator,"clipboard",{configurable:true,value:{
+        writeText:async text=>{window.__kovelyxClipboardTest=text;}
+      }});
+    });
+    await page.locator("#kovelyx-export-copy").click();
+    await page.waitForFunction(()=>typeof window.__kovelyxClipboardTest==="string",{timeout:12000});
+    assert.deepEqual(JSON.parse(await page.evaluate(()=>window.__kovelyxClipboardTest)),payload);
+    assert.equal(await page.locator("#kovelyx-export-status").getAttribute("data-state"),"success");
     const event=page.waitForEvent("download",{timeout:20000});
     await page.locator("#kovelyx-export-download").click();
     const dl=await event;
