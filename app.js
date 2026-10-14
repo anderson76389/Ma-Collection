@@ -203,63 +203,6 @@ const WALKTHROUGH_STEPS = [
 // 1. BOOTSTRAP
 // ==========================================================================
 
-// Public, no-auth hit counter (countapi.xyz died in 2024 — this is Miles
-// Hilliard's drop-in fork, same no-signup/no-key model, different URL shape:
-// one flat key instead of namespace+key, so the namespace is baked into the
-// key name). Fire-and-forget, never blocks or throws into the UI. No PII,
-// just an integer increment.
-const TELEMETRY_DOM_IDS = {
-  visits: ['visitor-count'],
-  deployments: ['collections-generated-count'],
-};
-
-window.MaCollectionTelemetry = {
-  async hit(key) {
-    try {
-      const res = await fetch(`https://countapi.mileshilliard.com/api/v1/hit/ma-collection_${key}`);
-      const data = await res.json();
-      this._render(key, data.value);
-      return data.value;
-    } catch (e) { return null; }
-  },
-  async get(key) {
-    try {
-      const res = await fetch(`https://countapi.mileshilliard.com/api/v1/get/ma-collection_${key}`);
-      const data = await res.json();
-      this._render(key, data.value);
-      return data.value;
-    } catch (e) { return null; }
-  },
-  _render(key, value) {
-    if (typeof value !== 'number') return;
-    // Still update hidden spans for any code that reads them
-    const ids = TELEMETRY_DOM_IDS[key] || [];
-    ids.forEach((id) => {
-      const el = document.getElementById(id);
-      if (el) el.textContent = value.toLocaleString();
-    });
-    // Rebuild the sentence display
-    this._renderSentence();
-  },
-  _renderSentence() {
-    const sentenceEl = document.getElementById('telemetry-sentence');
-    if (!sentenceEl) return;
-    const visitEl = document.getElementById('visitor-count');
-    const collEl = document.getElementById('collections-generated-count');
-    const visits = visitEl && visitEl.textContent && visitEl.textContent !== '—' ? visitEl.textContent : null;
-    const colls = collEl && collEl.textContent && collEl.textContent !== '—' ? collEl.textContent : null;
-    if (!visits && !colls) {
-      sentenceEl.innerHTML = 'Loading stats…';
-    } else if (visits && colls) {
-      sentenceEl.innerHTML = `<strong>${visits}</strong> people visited · <strong>${colls}</strong> collections built`;
-    } else if (visits) {
-      sentenceEl.innerHTML = `<strong>${visits}</strong> people have visited`;
-    } else {
-      sentenceEl.innerHTML = `<strong>${colls}</strong> collections built`;
-    }
-  },
-};
-
 document.addEventListener('DOMContentLoaded', () => {
   bootstrapMaCollection().catch((err) => {
     console.error('[Kaptain] bootstrap failed', err);
@@ -273,8 +216,6 @@ async function bootstrapMaCollection() {
   initializeDatabase();
   bindGlobalEvents();
   updateBetaBanner();
-  window.MaCollectionTelemetry.hit('visits');
-  window.MaCollectionTelemetry.get('deployments');
 }
 
 // ==========================================================================
@@ -3456,7 +3397,6 @@ async function compileAndDownloadJSON(skipConfirm, includeBingecat = false) {
 
     if (popup) popup.classList.remove('open');
     showToast("Your custom collection file has been downloaded.", "success");
-    window.MaCollectionTelemetry.hit('deployments');
   }, 900);
 }
 
