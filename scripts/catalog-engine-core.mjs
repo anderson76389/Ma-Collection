@@ -113,8 +113,9 @@ export function discoverParams(collection, source, {date, streamingProviders} = 
 export function recentEpisodeParams(network, date, providerIds = null) {
   const start = mondayUtc(date);
   start.setUTCDate(start.getUTCDate() - 7);
-  const end = mondayUtc(date);
-  end.setUTCDate(end.getUTCDate() + 6);
+  const end = new Date(date);
+  if (!Number.isFinite(end.getTime())) throw new Error("Date de diffusion invalide");
+  end.setUTCHours(0,0,0,0);
   const p = new URLSearchParams({
     language: "fr-FR", include_adult: "false", page: "1",
     sort_by: "popularity.desc",
