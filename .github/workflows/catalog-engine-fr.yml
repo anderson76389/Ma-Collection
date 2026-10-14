@@ -1,0 +1,67 @@
+name: Moteur FR Ma-Collection
+on:
+  schedule:
+    - cron: '41 7 * * 1'
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/catalog-engine-fr.yml
+      - scripts/catalog-engine.mjs
+      - scripts/catalog-engine-core.mjs
+      - tests/catalog-engine.test.mjs
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ma-collection-catalog-engine-fr
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Tester le moteur hors ligne
+        run: |
+          node --check scripts/catalog-engine-core.mjs
+          node --check scripts/catalog-engine.mjs
+          node --test tests/catalog-engine.test.mjs
+          node scripts/catalog-engine.mjs --check
+      - name: Vérifier les accès à TMDB
+        if: github.event_name != 'push'
+        id: keycheck
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: |
+          if [ -z "$TMDB_API_KEY" ]; then
+            echo "::warning::Ajouter le secret TMDB_API_KEY dans Settings > Secrets and variables > Actions pour activer les catalogues."
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Générer les catalogues FR
+        if: github.event_name != 'push' && steps.keycheck.outputs.enabled == 'true'
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: node scripts/catalog-engine.mjs --build
+      - name: Publier les nouveautés après validation
+        if: github.event_name != 'push' && steps.keycheck.outputs.enabled == 'true'
+        run: |
+          git config user.name 'ma-collection-catalog-engine'
+          git config user.email 'actions@users.noreply.github.com'
+          git add -- manifest.json manifest-complet.json catalog/ data/catalog-engine/
+          if git diff --cached --quiet; then
+            echo 'Aucun nouveau catalogue à publier.'
+          else
+            git commit -m 'Actualiser les catalogues FR [skip ci]'
+            git pull --rebase
+            git push
+          fi
