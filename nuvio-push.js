@@ -388,7 +388,7 @@
       return added;
     },
 
-    // ---- Per-profile settings blob (where debrid/Torbox keys live) ----
+    // ---- Per-profile settings blob (where profile integrations live) ----
 
     // Returns the settings_json object for a profile/platform, or null if unset.
     async pullSettingsBlob(token, profileId, platform) {

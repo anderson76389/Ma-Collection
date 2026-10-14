@@ -29,7 +29,7 @@
     if(cfg.removeTrash)for(const value of ["cam","scr","threed"])if(!excluded.includes(value))excluded.push(value);
     const parts=["sort="+encodeURIComponent(cfg.sortBy||"qualitysize")];
     if(excluded.length)parts.push("qualityfilter="+excluded.join(","));
-    if(Number(cfg.maxSize)>0)parts.push("sizefilter="+Number(cfg.maxSize)+"GB");
+    if(Number(cfg.maxSize)>0)parts.push("sizefilter="+Number(cfg.maxSize));
     parts.push("debridoptions=nodownloadlinks,nocatalog");
     parts.push(svc.id+"="+encodeURIComponent(svc.key));
     return {provider:svc.id,name:"Torrentio — "+svc.name,url:"https://torrentio.strem.fun/"+parts.join("|")+"/manifest.json"};

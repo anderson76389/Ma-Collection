@@ -216,6 +216,31 @@ try {
     await page.evaluate(()=>backToCinematicEditor());
     for(const r of routes) await page.unroute(r.match);
   });
+  await run("AllDebrid prioritaire et Real-Debrid en repli : manifests vérifiés",async()=>{
+    const result=await page.evaluate(()=>{
+      const mod=window.MaCollectionDebrid;
+      const keys={allDebridKey:"qa-only-alldebrid",realDebridKey:"qa-only-realdebrid"};
+      const cfg={sortBy:"seeders",resolutions:["r2160p","r1080p"],removeTrash:true};
+      return {
+        priority:mod.select(keys).id,
+        first:mod.torrentioManifest(cfg,keys),
+        second:mod.torrentioManifest(cfg,keys,"realdebrid"),
+        fallback:mod.torrentioManifest(cfg,{realDebridKey:keys.realDebridKey}),
+        absent:mod.torrentioManifest(cfg,{})
+      };
+    });
+    assert.equal(result.priority,"alldebrid");
+    assert.equal(result.first.provider,"alldebrid");
+    assert(result.first.url.startsWith("https://torrentio.strem.fun/"));
+    assert(result.first.url.includes("alldebrid=qa-only-alldebrid"));
+    assert(!result.first.url.includes("realdebrid=qa-only-realdebrid"));
+    assert.equal(result.second.provider,"realdebrid");
+    assert(result.second.url.includes("realdebrid=qa-only-realdebrid"));
+    assert.equal(result.fallback.provider,"realdebrid");
+    assert.equal(result.absent,null);
+    assert.equal(await page.locator("#se-torbox-key").count(),0);
+    assert.equal(await page.locator("#se-alldebrid-key").count(),0);
+  });
   await run("Extensions : vrai manifest, faux JSON, HTML et HTTP 404",async()=>{
     await page.route("https://qa-addons.invalid/**",async route=>{
       const suffix=new URL(route.request().url()).pathname;
