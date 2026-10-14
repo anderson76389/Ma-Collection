@@ -4,14 +4,14 @@
   "use strict";
   const byId = id => document.getElementById(id);
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-  const STEPS = ["Catalogues", "Affiches", "Métadonnées", "Affiches notées", "Débridage", "Confirmation"];
+  const STEPS = ["Catalogues", "Affiches", "Métadonnées", "Affiches notées", "Débridage", "Extensions", "Confirmation"];
   const state = {
     destination: "kovelyx", step: 0, selectedFolder: "", onFinish: null,
     artwork: {}, tmdbKey: "", mdblistKey: "", traktToken: "",
     posterProvider: "none", rpdbTheme: "t0-free-rpdb", rpdbKey: "", topPosterKey: "",
     bttrQuality: false, bttrGenre: true, bttrRating: true, bttrAge: false,
     bttrSource: "Average", bttrLanguage: "fr",
-    allDebridKey: "", realDebridKey: "", preferredDebridProvider: "alldebrid",
+    allDebridKey: "", realDebridKey: "", preferredDebridProvider: "alldebrid", addonManifests: "",
   };
   let selected = [];
   const node = document.createElement("div");
@@ -39,6 +39,7 @@
     .mc-import-card p{margin:6px 0;color:var(--text-muted,#b6b5c4);font-size:.91rem;line-height:1.55}
     .mc-import-form{display:grid;gap:13px}
     .mc-import-form label{display:grid;gap:5px;font-weight:600;font-size:.91rem}
+    .mc-import-form textarea{box-sizing:border-box;width:100%;min-width:0;padding:12px;border-radius:9px;border:1px solid #aaa5;color:var(--text-primary,#fff);background:var(--bg-secondary,#20202e);font:inherit;resize:vertical}
     .mc-import-form input,.mc-import-form select{box-sizing:border-box;width:100%;min-width:0;padding:12px;border-radius:9px;border:1px solid #aaa5;color:var(--text-primary,#fff);background:var(--bg-secondary,#20202e);font:inherit}
     .mc-import-form input:focus,.mc-import-form select:focus{outline:2px solid #a78bfa;outline-offset:1px}
     .mc-import-form input[type=checkbox]{width:auto}
@@ -101,6 +102,7 @@
     bttrAge:state.bttrAge, bttrSource:state.bttrSource, bttrLanguage:state.bttrLanguage,
     allDebridKey:state.allDebridKey.trim(), realDebridKey:state.realDebridKey.trim(),
     preferredDebridProvider:state.preferredDebridProvider,
+    addonManifests:state.addonManifests.split(/\r?\n/).map(s=>s.trim()).filter(Boolean),
   });
   function field(id,label,key,placeholder,type="password") {
     return `<label for="mc-${id}">${label}<input id="mc-${id}" data-key="${key}" type="${type}" autocomplete="off" spellcheck="false" placeholder="${esc(placeholder)}" value="${esc(state[key])}"></label>`;
@@ -171,6 +173,11 @@
           <option value="realdebrid" ${state.preferredDebridProvider==="realdebrid"?"selected":""}>Real-Debrid d'abord</option>
         </select></label>
       </div><p class="mc-import-note">Kovelyx PC peut enregistrer Real-Debrid via son intégration native ; AllDebrid s'utilise via une extension compatible (Torrentio, etc.) et doit être configuré dans cette extension. Pour Nuvio, l'assistant de connexion poursuit la configuration de ces extensions.</p>`;
+    if (state.step === 5) return `<div class="mc-import-card"><strong>Extensions configurées</strong>
+        <p>Collez uniquement les URL HTTPS complètes de vos extensions déjà configurées : Torrentio, Comet, MediaFusion ou autres. Une URL générique ne contient pas nécessairement vos réglages.</p></div>
+        <div class="mc-import-form"><label>Manifests personnels (un par ligne)
+        <textarea id="mc-addon-manifests" data-key="addonManifests" rows="5" spellcheck="false" autocomplete="off" placeholder="https://votre-instance.exemple/config/manifest.json">${esc(state.addonManifests)}</textarea></label></div>
+        <p class="mc-import-note">Kovelyx proposera d’installer les extensions dans le profil actif, après confirmation. Un manifest inaccessible doit être corrigé manuellement. Nuvio poursuivra la configuration dans son assistant.</p>`;
     const nArtwork = Object.keys(state.artwork).length;
     return `<div class="mc-import-card"><strong>Vérification avant import</strong>
       <p>Destination : <strong>${state.destination==="kovelyx"?"Kovelyx PC":"Nuvio"}</strong></p>
@@ -178,7 +185,8 @@
       <p>Affiches personnalisées : ${nArtwork} dossier(s)</p>
       <p>TMDB : ${state.tmdbKey?"clé saisie":"non renseignée"} • MDBList : ${state.mdblistKey?"clé saisie":"non renseignée"}</p>
       <p>Affiches notées : ${esc(state.posterProvider==="none"?"désactivées":state.posterProvider.toUpperCase())}</p>
-      <p>AllDebrid : ${state.allDebridKey?"clé saisie":"non renseignée"} • Real-Debrid : ${state.realDebridKey?"clé saisie":"non renseignée"}</p></div>
+      <p>AllDebrid : ${state.allDebridKey?"clé saisie":"non renseignée"} • Real-Debrid : ${state.realDebridKey?"clé saisie":"non renseignée"}</p>
+      <p>Extensions : ${state.addonManifests.split(/\r?\n/).filter(x=>x.trim()).length}</p></div>
       <p class="mc-import-note">${state.destination==="kovelyx"?
         "L'étape suivante transmet les catalogues à Kovelyx PC, puis exige votre confirmation dans l'application. Les clés compatibles ne s'installent qu'avec la nouvelle version de Kovelyx ; le téléchargement JSON n'inclut aucune clé.":
         "L'étape suivante ouvre l'assistant Nuvio : connexion, choix du profil, placement des rangées, configuration des extensions et confirmation."}</p>`;
@@ -188,7 +196,7 @@
     keyControls.forEach(input => {
       const update = () => { state[input.dataset.key] = input.value; if (["posterProvider","rpdbTheme"].includes(input.dataset.key)) draw(); };
       input.addEventListener("change", update);
-      if (input.tagName === "INPUT") input.addEventListener("input", update);
+      if (input.tagName === "INPUT" || input.tagName === "TEXTAREA") input.addEventListener("input", update);
     });
     current().querySelectorAll("[data-check]").forEach(input => input.addEventListener("change", () => { state[input.dataset.check] = input.checked; }));
     byId("mc-edit-collections")?.addEventListener("click", () => {
@@ -236,6 +244,17 @@
           for (const key of ["coverImageUrl","titleLogoUrl","heroBackdropUrl"]) {
             if (obj[key]) try { validUrl(obj[key]); } catch(e) { byId("mc-import-error").textContent=e.message; return; }
           }
+        }
+      }
+      if (state.step===5) {
+        const urls = state.addonManifests.split(/\r?\n/).map(s=>s.trim()).filter(Boolean);
+        if (urls.length > 15 || urls.some(value => {
+          try { const url=new URL(value); return url.protocol!=="https:" || !!url.username || !!url.password ||
+            !url.pathname.endsWith("/manifest.json") || value.length>2048; }
+          catch (_) { return true; }
+        })) {
+          byId("mc-import-error").textContent="15 extensions maximum : utilisez des URL HTTPS personnelles se terminant par /manifest.json.";
+          return;
         }
       }
       if (state.step<STEPS.length-1) { state.step++; draw(); return; }
