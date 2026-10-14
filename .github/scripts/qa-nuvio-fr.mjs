@@ -3,7 +3,7 @@ import { createRequire } from 'node:module';
 import { readFileSync } from 'node:fs';
 import { chromium } from 'playwright';
 const require = createRequire(import.meta.url);
-const { isTelevisionSource, updateRollingYearFilters } = require('../../scripts/catalog-utils.js');
+const { isTelevisionSource, updateRollingYearFilters, updateRollingWeekFilters } = require('../../scripts/catalog-utils.js');
 
 const siteTranslations = JSON.parse(readFileSync('locales/site-fr.json', 'utf8'));
 const collectionTranslations = JSON.parse(readFileSync('locales/fr.json', 'utf8'));
@@ -84,8 +84,10 @@ assert.equal(updateRollingYearFilters(historicalCopy, 2028), 0);
 assert.deepEqual(historicalCopy,historicalFixture);
 const trendingFixture = JSON.parse(readFileSync('collections/trending_new.json','utf8'));
 const trendingCopy = structuredClone(trendingFixture);
-assert(updateRollingYearFilters(trendingCopy, 2027) > 0,'Nouveautés annuelles non actualisées');
-assert.equal(updateRollingYearFilters(trendingCopy, 2027),0);
+assert(updateRollingWeekFilters(trendingCopy, new Date('2027-01-06T12:00:00Z')) >= 30,
+  'Nouveautés hebdomadaires non actualisées');
+assert.equal(updateRollingWeekFilters(trendingCopy, new Date('2027-01-06T16:00:00Z')), 0,
+  'Actualisation hebdomadaire non idempotente');
 assert(readFileSync('index.html','utf8').indexOf('scripts/catalog-utils.js') <
   readFileSync('index.html','utf8').indexOf('app.js'), 'Utilitaires chargés après app.js');
 
