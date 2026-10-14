@@ -3482,6 +3482,7 @@ function applyLocaleDict(collections, localeDict) {
     const isNetworkCategory = c.id === '27bda92a-f626-4093-a2ba-0a32dc09437a' || c.title === 'Networks';
     const isBasedOnCategory = c.id === 'collection-BASEDON1' || c.title === 'Based on';
     if (c.title) c.title = t(c.title);
+    if (c.name) c.name = t(c.name);
     (c.folders || []).forEach(f => {
       // « History » est un genre (« Histoire ») ET le nom officiel d'une chaîne.
       // Contextualiser le titre visible sans modifier l'identifiant ou les filtres.
@@ -3491,6 +3492,7 @@ function applyLocaleDict(collections, localeDict) {
       // Ne pas traduire globalement le bouton « Play » du lecteur vidéo.
       else if (isBasedOnCategory && f.id === 'folder-BSPLAY01') f.title = 'Pièces de théâtre';
       else if (f.title) f.title = t(f.title);
+      if (f.name) f.name = t(f.name);
       (f.sources || []).forEach(s => {
         if (s.title) s.title = t(s.title);
         if (s.name) s.name = t(s.name);
@@ -3498,6 +3500,7 @@ function applyLocaleDict(collections, localeDict) {
       });
       (f.catalogSources || []).forEach(s => {
         if (s.title) s.title = t(s.title);
+        if (s.name) s.name = t(s.name);
         if (s.genre) s.genre = t(s.genre);
       });
     });
@@ -3505,17 +3508,32 @@ function applyLocaleDict(collections, localeDict) {
   return collections;
 }
 
-async function applyLocaleToCollection(collections) {
-  const cust = window.maCollectionCustomize;
-  if (!cust || !cust.locale || cust.locale === 'en') return collections;
-  try {
-    const res = await fetch('locales/' + cust.locale + '.json?v=' + Date.now());
-    if (!res.ok) return collections;
-    applyLocaleDict(collections, await res.json());
-  } catch (err) {
-    console.warn('Could not load locale ' + cust.locale, err);
+// La version française est l'unique langue d'export vers Nuvio.
+// Une préférence UI persistée dans le navigateur ne doit plus faire sauter
+// la traduction des sous-catégories au moment du push ou du téléchargement.
+let frenchCatalogLocalePromise = null;
+async function getFrenchCatalogLocale() {
+  if (!frenchCatalogLocalePromise) {
+    frenchCatalogLocalePromise = fetch('locales/fr.json?v=15', { cache: 'no-cache' })
+      .then(async (res) => {
+        if (!res.ok) throw new Error('Dictionnaire des catalogues français inaccessible (HTTP ' + res.status + ')');
+        const dict = await res.json();
+        if (!dict || typeof dict !== 'object' || Object.keys(dict).length < 2300) {
+          throw new Error('Dictionnaire des catalogues français incomplet');
+        }
+        return dict;
+      }).catch(err => {
+        frenchCatalogLocalePromise = null; // permettra une nouvelle tentative
+        throw err; // jamais d'envoi silencieux en anglais
+      });
   }
-  return collections;
+  return frenchCatalogLocalePromise;
+}
+
+async function applyLocaleToCollection(collections) {
+  if (!Array.isArray(collections)) return collections;
+  const localeDict = await getFrenchCatalogLocale();
+  return applyLocaleDict(collections, localeDict);
 }
 
 // `optimize` defaults to the flag decided by the most recent compat gate, so the
