@@ -19,21 +19,21 @@
   const SETTINGS_PLATFORMS = ['tv', 'mobile'];
 
   // Starter-guide addon suggestions (numb3rs-based, NO AI addons). Plain scraper
-  // manifests with no API key — they resolve through Torbox Instant. Editable in
+  // manifests configurés avec AllDebrid ou Real-Debrid. Modifiables dans
   // the UI: the user can toggle, remove, or add their own.
   const SUGGESTED_ADDONS = [
     { name: 'Torrentio', url: 'https://torrentio.strem.fun/manifest.json', recommended: true,
-      note: 'Works with Torbox Instant, no key needed.' },
+      note: 'Le manifest doit être configuré avec votre clé.' },
     { name: 'Comet', url: 'https://cometfortheweebs.midnightignite.me/manifest.json', recommended: false,
-      note: 'Works with Torbox Instant, no key needed.' },
+      note: 'Nécessite un manifest personnalisé.' },
     { name: 'MediaFusion', url: 'https://mediafusion.elfhosted.com/manifest.json', recommended: false,
-      note: 'A third scraper for extra coverage. Works with Torbox Instant, no key needed.' },
+      note: 'Troisième moteur : nécessite un manifest personnalisé avec débridage.' },
   ];
 
   // ---- Scraper addon manifest URL builders ----
   // Torrentio's URL format uses pipe-separated params in the path (not query string).
   // Comet encodes a JSON config object as base64 in its path.
-  // Both work without an API key when TorBox is set as a Nuvio Connected Service.
+  // Les clés de débridage sont configurées dans les extensions.
 
   const COMET_INSTANCES = [
     { value: 'https://cometfortheweebs.midnightignite.me', label: 'Midnightignite (recommended)' },
@@ -372,7 +372,6 @@
     { id: 'lightgdrive', label: 'Light GDrive (Simplified)' },
     { id: 'minimalisticgdrive', label: 'Minimalist (Ultra Compact)' },
     { id: 'torrentio', label: 'Torrentio Classic (Raw Filename)' },
-    { id: 'torbox', label: 'Torbox Style (Labeled Fields)' },
   ];
 
   const FORMATTER_PREVIEW_EXAMPLES = {
@@ -400,10 +399,8 @@
       name: "[P2P] Torrentio 2160p\nDV",
       description: "The.Shawshank.Redemption.1994.UHD.BluRay.2160p.DTS-HD.MA.5.1.DV.HEVC.HYBRID.REMUX-FraMeSToR.mkv\n💾54.33 GiB 👤75 ⚙️TorrentGalaxy"
     },
-    torbox: {
-      name: "[P2P] Torrentio (2160p)",
-      description: "Quality: BluRay REMUX\nName: The.Shawshank.Redemption.1994.UHD.BluRay.2160p.DTS-HD.MA.5.1.DV.HEVC.HYBRID.REMUX-FraMeSToR.mkv\nSize: 58.34 GB | Source: TorrentGalaxy \nLanguages: "
-    }
+  };
+
   };
 
   // Some formatter preview strings (Tamtaro especially) include deliberate
@@ -676,7 +673,7 @@
   // the push. Many manifest servers don't send CORS headers for browser fetches,
   // so a thrown/opaque error here doesn't prove the addon is dead — only a real
   // non-2xx HTTP response does. ok:false = confirmed bad (hard block). ok:null =
-  // couldn't verify (soft warn, same double-tap-to-override UX as the Torbox key).
+  // couldn't verify (soft warn, same double-tap-to-override UX as an unreachable addon).
   async function checkManifestAlive(url) {
     try {
       const res = await fetch(url, { method: 'GET', signal: AbortSignal.timeout(5000) });
@@ -1657,7 +1654,7 @@
       const fields = ['setupMode', 'email', 'profileName', 'aioScraperTypes'];
       const toSave = {};
       fields.forEach(f => { if (state[f] !== undefined) toSave[f] = state[f]; });
-      // Drop any previously saved Torbox/TMDB/debrid/Trakt/RPDB keys from this slot.
+      // Drop any previously saved integration keys from this slot.
       localStorage.setItem('ma_collection_wizard_inputs', JSON.stringify(toSave));
     } catch(e) {}
     try {
@@ -3768,11 +3765,8 @@
     if (state.addonsAdded && state.addonsAdded.length) {
       ok(`Scrapers installed: ${escapeHtml(state.addonsAdded.join(', '))}`);
     }
-    if (state.torboxApplied) {
-      ok('Torbox streaming switched on');
-    } else if (state.streamingApplied) {
-      todo('Torbox not set. Add a debrid key in Nuvio before streams will play.');
-    }
+    if (state.debridApplied)ok('Débridage configuré dans une extension : AllDebrid / Real-Debrid');
+    else if(state.streamingApplied)todo('Installez une extension configurée pour utiliser AllDebrid ou Real-Debrid.');
     if (state.tmdbApplied) ok('TMDB integration on');
     if (state.mdblistApplied) ok('MDBList key saved');
     if (state.traktApplied) ok('Trakt connected');
@@ -3786,11 +3780,11 @@
     }
     if (state.avatarApplied) ok('Profile image set');
 
-    const readyToStream = state.torboxApplied;
-    const hasMobile = state.devices.includes('mobile');
-    const nextSteps = readyToStream
-      ? `<strong>On your TV:</strong> open Nuvio → switch to the "${name}" profile → press play. That's it.${hasMobile ? `<br><br><strong>On mobile:</strong> open the Nuvio app → Settings → Connected Services → Torbox to finish connecting Torbox (takes ~30 seconds).` : ''}`
-      : `<strong>On your TV:</strong> open Nuvio and switch to the "${name}" profile. To play streams you'll still need a Torbox (or other debrid) key in Nuvio's settings.`;
+    const readyToStream=state.debridApplied;
+    const hasMobile=state.devices.includes('mobile');
+    const nextSteps=readyToStream
+      ? '<strong>Lecture :</strong> ouvrez Nuvio et choisissez le flux fourni par votre extension configurée.'
+      : '<strong>Lecture :</strong> une clé seule ne suffit pas. Installez Torrentio ou AIO Streams configuré avec votre fournisseur.';
 
     const aioSelfServiceNote = (state.setupMode === 'aio' && state.aioStreamsUuid && state.aioStreamsHost) ? `
       <div class="wiz-donation-block">
@@ -4626,21 +4620,31 @@
     state.pushingLabel = 'Setting up your streaming & integrations...';
     go('pushing');
     const pid = state.targetProfileId;
-    const hasSettings = p.torboxKey || p.tmdbKey || p.tmdbEnabled || p.mdblistKey || p.trakt;
+    const hasSettings = p.tmdbKey || p.tmdbEnabled || p.mdblistKey || p.trakt;
     if (hasSettings) {
       await window.NuvioPush.applyProfileSettings(state.token, pid, SETTINGS_PLATFORMS, {
-        torboxKey: p.torboxKey, tmdbEnabled: p.tmdbEnabled, tmdbKey: p.tmdbKey,
+        tmdbEnabled: p.tmdbEnabled, tmdbKey: p.tmdbKey,
         mdblistKey: p.mdblistKey, trakt: p.trakt,
       });
-      state.torboxApplied = !!p.torboxKey;
       state.tmdbApplied = !!(p.tmdbKey || p.tmdbEnabled);
       state.mdblistApplied = !!p.mdblistKey;
       state.traktApplied = !!p.trakt;
     }
-    const picked = (p.addons || []).filter((a) => a && a.checked && a.url);
-    if (picked.length) {
-      await window.NuvioPush.installAddons(state.token, pid, picked.map((a) => ({ name: a.name, url: a.url })));
-      state.addonsAdded = picked.map((a) => a.name);
+    const keys={allDebridKey:p.allDebridKey||state.allDebridKey,realDebridKey:p.realDebridKey||state.realDebridKey};
+    const picked=(p.addons||[]).filter(a=>a&&a.checked&&a.url);
+    const addonList=[];
+    for(const a of picked){
+      if(a.name==='Torrentio'&&a.url==='https://torrentio.strem.fun/manifest.json'){
+        const built=window.MaCollectionDebrid.torrentioManifest(defaultScraperConfig(),keys,'alldebrid');
+        if(built)addonList.push({name:built.name,url:built.url});
+      }else if(a.name!=='Comet'&&a.name!=='MediaFusion'){
+        addonList.push({name:a.name,url:a.url});
+      }
+    }
+    if(addonList.length){
+      await window.NuvioPush.installAddons(state.token,pid,addonList);
+      state.addonsAdded=addonList.map(a=>a.name);
+      state.debridApplied=!!window.MaCollectionDebrid.select(keys);
     }
     if (p.avatarUrl && String(p.avatarUrl).trim()) {
       await window.NuvioPush.setProfileAvatar(state.token, pid, p.avatarUrl);
@@ -4651,7 +4655,7 @@
   }
 
   // ====================================================================
-  // STREAMING SETUP (Torbox + addons) — three guided sub-steps
+  // STREAMING SETUP (AllDebrid / Real-Debrid via extensions)
   // ====================================================================
   function ensureAddonChoices() {
     if (!state.addonChoices) {
@@ -4672,7 +4676,7 @@
     panel.innerHTML = `
       ${header('Set Up Streaming', '', true, 'streaming')}
       <div class="wiz-body wiz-streaming-prompt">
-        <p class="wiz-prompt-heading">Do you want to set up Torbox Instant or streaming addons?</p>
+        <p class="wiz-prompt-heading">Configurer AllDebrid (prioritaire), Real-Debrid ou vos extensions ?</p>
         <p class="wiz-note">This is what makes content actually play. It's completely optional; you can always set it up later in Nuvio's settings.</p>
         <div class="wiz-btn-row">
           <button class="wiz-secondary" id="wiz-stream-skip"><span>Skip for now</span></button>
@@ -4747,7 +4751,7 @@
       panel.innerHTML = `
         ${header('Stream Sources', 'How much do you want to fiddle with this?', true, 'streaming')}
         <div class="wiz-body">
-          <p class="wiz-note">${glossaryTip('scraper', 'Scrapers')} are what find something to actually play. They work with ${glossaryTip('torbox', 'Torbox')} out of the box — no extra keys.</p>
+          <p class="wiz-note">${glossaryTip('scraper', 'Scrapers')} are what find something to actually play. Torrentio sera configuré avec votre clé AllDebrid ou Real-Debrid.</p>
           ${SCRAPER_PRESET_CARDS.map((p) => `
             <button class="wiz-option" data-scraper-preset="${escapeAttr(p.id)}">
               <span class="wiz-option-icon${p.accent ? ' accent' : ''}">${p.icon}</span>
@@ -4756,7 +4760,7 @@
                 <span class="wiz-option-desc">${escapeHtml(p.desc)}</span>
               </span>
             </button>`).join('')}
-          <!-- onAddonsApply() warns here (e.g. scrapers picked with no Torbox
+          <!-- onAddonsApply() warns here (e.g. scrapers picked with no key
                key); without this container that warning is swallowed and the
                card click looks like it did nothing. -->
           <div class="wiz-error" id="wiz-error" style="display:none; margin-top:12px;"></div>
@@ -4789,7 +4793,7 @@
             <input type="checkbox" class="wiz-addon-check" id="wiz-scraper-torrentio" ${cfg.torrentio ? 'checked' : ''}>
             <span class="wiz-addon-text">
               <span class="wiz-addon-name">Torrentio</span>
-              <span class="wiz-addon-note">Finds the most streams. Works with Torbox Instant, no extra key needed.</span>
+              <span class="wiz-addon-note">Torrentio sera configuré avec votre clé AllDebrid ou Real-Debrid.</span>
             </span>
           </label>
           <label class="wiz-addon-row">
@@ -4810,7 +4814,7 @@
             <input type="checkbox" class="wiz-addon-check" id="wiz-scraper-mediafusion" ${cfg.mediafusion ? 'checked' : ''}>
             <span class="wiz-addon-text">
               <span class="wiz-addon-name">MediaFusion</span>
-              <span class="wiz-addon-note">A third scraper for extra coverage. Works with Torbox Instant, no extra key needed.</span>
+              <span class="wiz-addon-note">Pour MediaFusion, utilisez le manifest configuré sur son propre site.</span>
             </span>
           </label>
           <label class="wiz-label" style="margin-top:14px;">Quality preset
