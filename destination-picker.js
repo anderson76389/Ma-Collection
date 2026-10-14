@@ -19,6 +19,8 @@
       proceed({});
     }
   }
+  // Le bouton principal passe par le même assistant sécurisé que les autres accès.
+  document.getElementById("btn-import-kovelyx")?.addEventListener("click", open);
   window.MaCollectionDestination = Object.freeze({
     open,
     close() { window.MaCollectionImportStudio?.close(); }
