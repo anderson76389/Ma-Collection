@@ -100,11 +100,11 @@ try {
     await page.locator("#shortcut-close").click();
     assert(!(await page.locator("#shortcut-overlay").evaluate(n=>n.classList.contains("open"))));
   });
-  await run("aide / support : fenêtre ouvrable et refermable",async()=>{
-    await page.locator("#btn-sidebar-support").click();
-    assert(await page.locator("#support-overlay").evaluate(n=>n.classList.contains("open")));
-    await page.locator("#support-close").click();
-    assert(!(await page.locator("#support-overlay").evaluate(n=>n.classList.contains("open"))));
+  await run("boutons inutiles supprimés, contrôles de navigation conservés",async()=>{
+    assert.equal(await page.locator("#btn-sidebar-support").count(),0);
+    assert.equal(await page.locator(".sidebar-footer a[href*='ImKaptain/nuvio-assets']").count(),0);
+    assert.equal(await page.locator("#btn-shortcuts-hint").count(),1);
+    assert.equal(await page.locator("#btn-replay-tour").count(),1);
     await page.locator("#sidebar-toggle").click();
     assert.equal(await page.locator("#sidebar-toggle").getAttribute("aria-expanded"),"false");
   });
