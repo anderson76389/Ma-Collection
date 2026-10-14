@@ -51,7 +51,7 @@ Si le pont local est inaccessible, **Copier le JSON** ou **Télécharger JSON** 
 | 🧭 | **Configuration guidée** | Un assistant facilite les étapes de sélection et de préparation. |
 | ⚡ | **Éditeur rapide** | Modifiez votre sélection sans reprendre toute la configuration. |
 | 📦 | **Export JSON** | Téléchargez un fichier de configuration réutilisable. |
-| 🔗 | **Choisir l'application** | Importez directement dans Kovelyx PC via transfert local (ou JSON), ou envoyez la sélection vers votre profil Kovelyx. |
+| 🔗 | **Import Kovelyx** | Transfert local vers l’application ou export JSON manuel. |
 | 👤 | **Gestion des profils** | Accédez aux outils d'organisation des profils existants. |
 
 ## 🗂️ Explorez les catégories
@@ -74,9 +74,9 @@ Les collections proviennent des fichiers du projet : leur présence ou leur disp
 2. **Choisissez votre méthode** : assistant de configuration ou éditeur rapide.
 3. **Sélectionnez les catégories et sources** que vous souhaitez retrouver dans Kovelyx.
 4. **Ajustez l'ordre des rangées** et utilisez l'aperçu TV ou mobile.
-5. **Téléchargez votre JSON** ou utilisez l'option **d'envoi direct vers Kovelyx** si vous souhaitez connecter votre compte.
+5. **Importez directement dans Kovelyx PC** (sans compte en mode local) ou téléchargez votre JSON.
 
-**Vous n'avez pas besoin de vous connecter à Kovelyx pour préparer votre sélection et télécharger le fichier JSON.** La connexion est réservée aux fonctions qui accèdent à votre compte.
+**Aucune connexion n'est nécessaire pour créer, télécharger ou importer dans un profil local.**
 
 ## 💻 Lancer le site en local
 
@@ -153,7 +153,7 @@ Les noms officiels, marques et titres propres conservent leur graphie. Les label
 
 Ce dépôt est une **copie GitHub indépendante** issue d'une adaptation de [ImKaptain/Kaptain-Collection](https://github.com/ImKaptain/Kaptain-Collection). Il ne fait pas partie du réseau de forks GitHub du projet d'origine. Le travail initial de conception, les fonctionnalités historiques et les ressources associées restent attribués à leurs auteurs respectifs.
 
-Cette édition apporte notamment des **corrections et adaptations françaises**. Elle n'est **ni officielle ni affiliée à Kovelyx**.
+Cette édition indépendante est développée pour Kovelyx. Le code historique et ses auteurs sont crédités ici, sans liaison technique obligatoire avec un serveur de l'ancien projet.
 
 Aucune licence explicite n'est actuellement déclarée dans ce dépôt : sa visibilité publique ne vaut pas automatiquement autorisation de réutiliser ou redistribuer tous ses éléments.
 
