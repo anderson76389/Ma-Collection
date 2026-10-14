@@ -9,7 +9,7 @@ on:
       - .github/workflows/export-fr.yml
       - scripts/build-fr-export.mjs
       - locales/fr.json
-      - collections/nuvio_mega_collection.json
+      - collections/database.js
 
 permissions:
   contents: write
