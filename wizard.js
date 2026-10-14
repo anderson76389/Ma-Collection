@@ -6177,16 +6177,14 @@
 
     return {
       aioConfig: JSON.stringify(aioConfig, null, 2),
-      nuvioCollection: JSON.stringify(nuvioCollections, null, 2),
+      collection: JSON.stringify(nuvioCollections, null, 2),
     };
   }
 
   // Expose shared bits so the Quick editor can reuse them instead of duplicating.
-  window.NuvioWizard = {
+  window.MaCollectionServices = {
     peekVaultFields,
     applyVaultFields,
-    open,
-    close,
     generateSelfHostExport,
     SUGGESTED_ADDONS,
     checkManifestAlive,
