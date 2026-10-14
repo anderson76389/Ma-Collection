@@ -97,7 +97,12 @@
       const desktopSettings = {
         ...(config.tmdbKey ? {tmdbKey:config.tmdbKey} : {}),
         ...(config.mdblistKey ? {mdblistKey:config.mdblistKey} : {}),
-        ...(config.realDebridKey ? {realDebridKey:config.realDebridKey} : {})
+        ...(config.realDebridKey ? {realDebridKey:config.realDebridKey} : {}),
+        ...(config.posterProvider === "rpdb" ? {
+          posterProvider:"rpdb",
+          rpdbTheme:config.rpdbTheme || "t0-free-rpdb",
+          ...(config.rpdbTheme === "custom" && config.rpdbKey ? {rpdbKey:config.rpdbKey} : {})
+        } : {})
       };
       const hasSettings = Object.keys(desktopSettings).length > 0;
       const payload = hasSettings ? JSON.stringify({collections:JSON.parse(json),settings:desktopSettings}) : json;
