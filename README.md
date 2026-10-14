@@ -157,6 +157,16 @@ Aucune licence explicite n'est actuellement déclarée dans ce dépôt : sa visi
 </div>
 
 
+## 🇫🇷 Importation Nuvio entièrement en français
+
+**[Télécharger la collection complète française (JSON)](export/nuvio-collection-fr.json)** · [Lien direct hébergé sur GitHub Pages](https://anderson76389.github.io/Ma-Collection/export/nuvio-collection-fr.json)
+
+Tous les **titres de catégories, dossiers et sous-catégories** sont localisés dans les champs utilisés par Nuvio (`title`, `name`, `genre`), y compris pour un export sans personnalisation et un envoi direct au profil. Les **noms officiels de chaînes, marques, noms propres**, IDs TMDB/Trakt, filtres, images, GIF et vidéos restent inchangés.
+
+L'export automatique couvre les **20 fichiers de collections** ; il fusionne les sections partageant réellement les mêmes identifiants Nuvio pour éviter les doublons. Lors du dernier contrôle, cela représentait **18 catégories Nuvio distinctes, 756 dossiers et 3 648 sources uniques**. Un audit empêche la publication si des traductions manquent. Le fichier est régénéré chaque semaine.
+
+**Important :** si vous aviez déjà importé une collection anglaise dans Nuvio, elle ne se traduit **pas rétroactivement**. Il faut **réimporter ce JSON** ou **réenvoyer la collection depuis le site vers le profil Nuvio concerné** ; les anciens catalogues présents dans le profil ne sont pas modifiés automatiquement.
+
 ## 🔄 Nouveautés et sélections dynamiques
 
 Les rangées **Nouveaux films, Nouvelles séries, sorties récentes et nouveaux animés** utilisent des fenêtres de dates glissantes, recalculées chaque lundi. Un audit des catalogues individuels confirme **377 sources hebdomadaires** couvrant les **22 plateformes**, **68 chaînes**, **6 dossiers de télé-réalité**, ainsi que les genres, films, séries, animés, documentaires et autres nouveautés. **1 708 sources TMDB Discover supplémentaires** récupèrent leurs classements en direct. Les années historiques, récompenses, listes de tiers, affiches et GIF restent préservés. Les classements tiers ne sont pas garantis hebdomadaires et les nouvelles bornes de dates d'une configuration déjà importée dans Nuvio peuvent nécessiter une réimportation. [Détail, contrôle et limites](docs/CATALOGUES_DYNAMIQUES.md).
