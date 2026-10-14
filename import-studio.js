@@ -1,4 +1,4 @@
-/* Assistant commun d'import Ma-Collection : Nuvio + Kovelyx.
+/* Assistant local pour Kovelyx PC, sans serveur externe de comptes.
    Les clés restent en mémoire dans cet onglet. Aucune clé dans les exports JSON de catalogues. */
 (() => {
   "use strict";
@@ -138,7 +138,7 @@
     if (state.step === 0) return `
       <div class="mc-import-card"><strong>${selected.length} catégories • ${rows.length} dossiers sélectionnés</strong>
       <p>Les sélections et filtres déjà faits dans Ma-Collection sont conservés. Vous pouvez encore modifier les catalogues avant l'import.</p></div>
-      ${state.destination==="kovelyx" ? `<div class="mc-import-card"><strong>1. Choisir votre mode de connexion</strong>
+      ${true ? `<div class="mc-import-card"><strong>1. Choisir votre mode de connexion</strong>
          <p>Vous pouvez utiliser Kovelyx avec ou sans compte. La connexion à un compte se fait dans Kovelyx PC, avec un serveur de comptes que vous avez configuré. Si aucun serveur n'est disponible, choisissez Sans connexion.</p>
          <div class="mc-import-form"><label>Mode d'importation<select data-key="importMode">
            <option value="local" ${state.importMode==="local"?"selected":""}>Sans connexion — importer dans le profil local actif</option>
@@ -155,7 +155,6 @@
         </select></label>
         ${field("tmdb","Clé API TMDB","tmdbKey","Clé personnelle TMDB")}
         ${field("mdblist","Clé API MDBList","mdblistKey","Clé personnelle MDBList")}
-        ${field("trakt","Jeton Trakt AIO Metadata (facultatif)","traktToken","Jeton d'une instance AIO Metadata")}
       </div>
       <p class="mc-import-note">Les jetons Trakt sont liés à l'instance AIO Metadata qui les a délivrés. La connexion Trakt dans l'application se fait séparément via OAuth.</p>`;
     if (state.step === 2) return `<p class="mc-import-note">Choisissez les affiches d'origine (par défaut) ou personnalisez les affiches avec Bttr Posters. Vos affiches, logos et GIF de dossiers restent inchangés.</p>
@@ -188,13 +187,13 @@
           <option value="alldebrid" ${state.preferredDebridProvider==="alldebrid"?"selected":""}>AllDebrid d'abord</option>
           <option value="realdebrid" ${state.preferredDebridProvider==="realdebrid"?"selected":""}>Real-Debrid d'abord</option>
         </select></label>
-      </div><p class="mc-import-note">Kovelyx PC peut enregistrer Real-Debrid via son intégration native ; AllDebrid s'utilise via une extension compatible (Torrentio, etc.) et doit être configuré dans cette extension. Pour Nuvio, l'assistant de connexion poursuit la configuration de ces extensions.</p>`;
+      </div><p class="mc-import-note">Kovelyx PC peut enregistrer Real-Debrid via son intégration native ; AllDebrid s'utilise via une extension compatible (Torrentio, etc.) et doit être configuré dans cette extension. Les extensions restent configurables directement dans Kovelyx.</p>`;
     if (state.step === 4) return `<div class="mc-import-card"><strong>Extensions configurées</strong>
         <p>Collez uniquement les URL HTTPS complètes de vos extensions déjà configurées : Torrentio, Comet, MediaFusion ou autres. Une URL générique ne contient pas nécessairement vos réglages.</p></div>
         <div class="mc-import-form"><label>Manifests personnels (un par ligne)
         <textarea id="mc-addon-manifests" data-key="addonManifests" rows="5" spellcheck="false" autocomplete="off" placeholder="https://votre-instance.exemple/config/manifest.json">${esc(state.addonManifests)}</textarea></label></div>
-        <p class="mc-import-note">Kovelyx proposera d’installer les extensions dans le profil actif, après confirmation. Un manifest inaccessible doit être corrigé manuellement. Nuvio poursuivra la configuration dans son assistant.</p>`;
-    if (state.step === 5 && state.destination === "kovelyx") {
+        <p class="mc-import-note">Kovelyx proposera d’installer les extensions dans le profil actif, après confirmation. Un manifest inaccessible doit être corrigé manuellement. Leur configuration peut être finalisée dans Kovelyx.</p>`;
+    if (state.step === 5) {
       return `<div class="mc-import-card"><strong>Destination Kovelyx PC</strong>
         <p>${selected.length} catégories • ${rows.length} dossiers.</p>
         <p>Les réglages seront transmis uniquement à votre application locale ; aucun mot de passe de compte n'est demandé par le site.</p></div>
@@ -216,15 +215,15 @@
         </div>`;
     }
     return `<div class="mc-import-card"><strong>Vérification avant import</strong>
-      <p>Destination : <strong>${state.destination==="kovelyx"?"Kovelyx PC":"Nuvio"}</strong></p>
+      <p>Destination : <strong>${"Kovelyx PC"}</strong></p>
       <p>Catalogues : ${selected.length} catégories / ${rows.length} dossiers</p>
       <p>TMDB : ${state.tmdbKey?"clé saisie":"non renseignée"} • MDBList : ${state.mdblistKey?"clé saisie":"non renseignée"}</p>
       <p>Affiches des œuvres : ${esc(state.posterProvider==="bttr"?"Bttr Posters":"Par défaut")}</p>
       <p>AllDebrid : ${state.allDebridKey?"clé saisie":"non renseignée"} • Real-Debrid : ${state.realDebridKey?"clé saisie":"non renseignée"}</p>
       <p>Extensions : ${state.addonManifests.split(/\r?\n/).filter(x=>x.trim()).length}</p></div>
-      <p class="mc-import-note">${state.destination==="kovelyx"?
+      <p class="mc-import-note">${true?
         "L'étape suivante transmet les catalogues à Kovelyx PC, puis exige votre confirmation dans l'application. Les clés compatibles ne s'installent qu'avec la nouvelle version de Kovelyx ; le téléchargement JSON n'inclut aucune clé.":
-        "L'étape suivante ouvre l'assistant Nuvio : connexion, choix du profil, placement des rangées, configuration des extensions et confirmation."}</p>`;
+        "Import local dans Kovelyx."}</p>`;
   }
   function bind() {
     const keyControls = current().querySelectorAll("[data-key]");
@@ -241,7 +240,7 @@
     current().querySelectorAll("[data-keytest]").forEach(button => button.addEventListener("click", async () => {
       const id = button.dataset.keytest, value = byId("mc-"+id)?.value.trim();
       const label = byId("mc-keytest-"+id);
-      const fn = window.NuvioWizard?.[testerNames[id]];
+      const fn = window.NuvioWizard?.[testerNames[id]]; // Validateur local réutilisé : aucun compte Nuvio
       if (!label) return;
       if (!value) { label.textContent = "Renseignez une clé."; return; }
       if (typeof fn !== "function") { label.textContent = "Vérification indisponible."; return; }
@@ -267,14 +266,14 @@
   function draw() {
     selected = getSelected();
     const panel = current();
-    panel.innerHTML = `<div class="mc-import-head"><div><h2 id="mc-import-title">${state.destination==="kovelyx"?"🟣 Kovelyx":"📺 Nuvio"} — Personnaliser</h2>
+    panel.innerHTML = `<div class="mc-import-head"><div><h2 id="mc-import-title">${"🟣 Kovelyx"} — Personnaliser</h2>
       <p>Étape ${state.step+1} sur ${STEPS.length} · ${STEPS[state.step]}</p></div><button type="button" class="mc-import-close" id="mc-import-close" aria-label="Fermer">×</button></div>
       <div class="mc-import-progress" aria-label="Progression">${STEPS.map((_,i)=>`<span class="${i<=state.step?"active":""}"></span>`).join("")}</div>
       ${stepHtml()}
       <p id="mc-import-error" class="mc-import-error" role="alert"></p>
       <div class="mc-import-actions">
         <button class="secondary" id="mc-import-back" type="button">${state.step?"← Retour":"Annuler"}</button>
-        <button class="primary" id="mc-import-next" type="button">${state.step===STEPS.length-1?"Continuer vers "+(state.destination==="kovelyx"?"Kovelyx":"Nuvio")+" →":"Continuer →"}</button>
+        <button class="primary" id="mc-import-next" type="button">${state.step===STEPS.length-1?"Continuer vers "+("Kovelyx")+" →":"Continuer →"}</button>
       </div>`;
     byId("mc-import-close").onclick=close;
     byId("mc-import-back").onclick=() => { if (state.step) { state.step--; draw(); } else close(); };
@@ -299,7 +298,7 @@
     bind();
   }
   function open(destination, onFinish, reset=true) {
-    state.destination = destination==="nuvio"?"nuvio":"kovelyx";
+    state.destination = "kovelyx";
     state.onFinish = onFinish;
     if (reset) state.step = 0;
     node.hidden = false;
