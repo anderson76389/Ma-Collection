@@ -1,0 +1,184 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:284833",
+      "type": "series",
+      "name": "Avatar : Les Sept Refuges",
+      "poster": "https://image.tmdb.org/t/p/w500/yfUFI7fIDcdA01Ej5Rwfv2OEH8O.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/t2KFGH07Al4XuIZLHRlF1Hj9IJB.jpg",
+      "description": "Après une catastrophe planétaire, une jeune maîtresse de la terre découvre qu'elle est l'Avatar succédant à Korra. Désormais considérée comme un présage de fin du monde, elle se lance dans une course contre-la-montre pour sauver les Sept Refuges.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:241882",
+      "type": "series",
+      "name": "Ride or Die",
+      "poster": "https://image.tmdb.org/t/p/w500/hWGnBQ4k9Fj3dqvWnBsSYQy5tFx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jwCXxvbLno5GrGDA9KvQ22uLziM.jpg",
+      "description": "Debbie et Judith, deux meilleures amies, sont forcées de fuir quand Debbie découvre que Judith n'est pas expert-comptable judiciaire, mais tueuse à gages internationale ! Avec un mystérieux individu à leurs trousses et alors que le mari de Debbie trempe dans une affaire de corruption, c'est une course contre la montre à travers l'Europe qui les attend pour découvrir la vérité et rester en vie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:285807",
+      "type": "series",
+      "name": "Nemesis",
+      "poster": "https://image.tmdb.org/t/p/w500/zP8t9uqNhK7ovr5JCZZRKkzWKeo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pxnJeLSBdUikUOrWdNgrK1HQy2u.jpg",
+      "description": "Deux hommes situés de part et d'autre de la loi, et illustre la réaction provoquée par la rencontre entre une force incontrôlable (un criminel averti) et un objet inamovible (un brillant inspecteur de police). Cette série, qui ambitionne au départ de renverser le genre du braquage, avec ses enjeux risqués, sa dynamique familiale complexe et son action explosive, incite en réalité à explorer ce qui anime, maintient en vie et ce qui conduit l'espèce humaine… à sa perte.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:256695",
+      "type": "series",
+      "name": "Regular Show : Les cassettes oubliées",
+      "poster": "https://image.tmdb.org/t/p/w500/gZuwOtqQRPvLOhLV21qfaC3tIxS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/Zk5UmvJ634LhA56R18h8RfipFG.jpg",
+      "description": "Mordecai, un geai bleu, et Rigby, un raton laveur, deux amis paresseux, travaillent dans un parc municipal. Mais, quoi qu'ils entreprennent, leurs tâches quotidiennes finissent invariablement par basculer dans un chaos totalement surréaliste, au grand désespoir de leur patron et de leurs collègues...",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:262280",
+      "type": "series",
+      "name": "Legends",
+      "poster": "https://image.tmdb.org/t/p/w500/t4zldz96sQyb94Zu7a3n2PCVK3X.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4CtOMphAmfHJ6cztlAYjkdStkHP.jpg",
+      "description": "Grande-Bretagne, années 90 : des fonctionnaires plongent dans la clandestinité pour démanteler des gangs de trafiquants de drogue.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:311858",
+      "type": "series",
+      "name": "Prisoner",
+      "poster": "https://image.tmdb.org/t/p/w500/c7Oi35ZMhfWskXyjJsCXL9VtWAy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uozEhY3g882QqgNg5AjR2cXAVRC.jpg",
+      "description": "Lorsqu'un convoi pénitentiaire est pris d’assaut sur une route isolée, Amber Todd, agente chargée du transfert, se retrouve prise au piège avec Tibor Stone - ancien tueur d’élite devenu témoin clé contre Pegasus, le réseau criminel qu’il a autrefois servi. Pourchassés par ce puissant conglomérat du crime et par des autorités corrompues, Amber et Tibor, deux inconnus que tout oppose, sont forcés de fuir ensemble…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:223386",
+      "type": "series",
+      "name": "Man on Fire",
+      "poster": "https://image.tmdb.org/t/p/w500/lHDs3T91HmlR28JhTh5R14Vxaap.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dMCfHJRnAZfKoPTjYyZk2QCL8au.jpg",
+      "description": "Hanté par son passé et traqué par ses ennemis, un vétéran des forces spéciales se bat pour garder une adolescente en vie dans les rues dangereuses de Rio de Janeiro.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:224263",
+      "type": "series",
+      "name": "Stranger Things : Chroniques de 1985",
+      "poster": "https://image.tmdb.org/t/p/w500/5vr72cfj5cE8kftq1PWRCv2o3hh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ulBGaxq9GmJexyEOi4Xci74g6Vt.jpg",
+      "description": "Hawkins, hiver 1985. Nous voilà de retour dans une ville qui regorge de secrets, où nos héros adorés affrontent de nouveaux mystères... et une nouvelle vague de phénomènes étranges.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:289219",
+      "type": "series",
+      "name": "Star Wars : Maul - Seigneur de l'ombre",
+      "poster": "https://image.tmdb.org/t/p/w500/Av4nP5DgAjRpPWOe81SoE0oc8D0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cvvj1RXGmmAZ1FZr6CrUu8LgQm5.jpg",
+      "description": "Après la Guerre des Clones, Maul projette de reconstruire son organisation criminelle sur une planète épargnée par l'Empire. Il croise la route d'un jeune Padawan désabusé, qui pourrait devenir l'apprenti qu'il cherche, et une aide précieuse dans sa quête de vengeance.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:259819",
+      "type": "series",
+      "name": "Rooster Fighter",
+      "poster": "https://image.tmdb.org/t/p/w500/iCtbr0sIdaKZjhQH3Wr7hW6A1IU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nTDL4UmMLDBCeMtYh8F1LZtgmLV.jpg",
+      "description": "D'étranges créatures attaquent, mais Keiji les affronte en poussant son cri de guerre : Kokekokko !",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:255661",
+      "type": "series",
+      "name": "Young Sherlock",
+      "poster": "https://image.tmdb.org/t/p/w500/ji4oDZbzc693TEVcSnMnnfxDCK4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8mmDLb108DoFZlE8sfc64TRqLvm.jpg",
+      "description": "À 19 ans, Sherlock Holmes est sans expérience, quand il se retrouve embarqué par le mystère autour d'un meurtre survenu à l’Université d’Oxford. Plongeant dans sa toute première affaire avec un manque certain de discipline, le jeune homme tente de démêler une conspiration qui pourrait changer sa vie à jamais.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:290856",
+      "type": "series",
+      "name": "Marshals: A Yellowstone Story",
+      "poster": "https://image.tmdb.org/t/p/w500/jPOKjzCG8tgUigtWyA4ME9fNeia.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yGJGwt7DdIWTUXuahLfhcH1gi7G.jpg",
+      "description": "Le ranch du Yellowstone derrière lui, Kayce Dutton rejoint une unité des U.S. Marhals. Cowboy et ancien Navy SEAL, il apporte la justice dans le Montana. Lui et ses coéquipiers sont le dernier rempart de la région dans la guerre contre la violence.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:270572",
+      "type": "series",
+      "name": "Sa majesté des mouches",
+      "poster": "https://image.tmdb.org/t/p/w500/uUE4zRhAhgCXCSQTOWrJXrK4RcZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yRqFvu6rIytqZlzY0pBVvZG3W0S.jpg",
+      "description": "Des garçons échoués sur une île tropicale se retrouvent entièrement livrés à eux‑mêmes, sans la moindre présence adulte. D'abord décidés à instaurer des règles et à préserver un semblant de civilisation, ils se répartissent les rôles et organisent la vie du groupe. Mais très vite, les tensions, la violence et la soif de pouvoir s'installent.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:235685",
+      "type": "series",
+      "name": "The Pendragon Cycle: Rise of the Merlin",
+      "poster": "https://image.tmdb.org/t/p/w500/wXfTsO7pqAqo94f0AHaas9rjBNh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lDmFwAaHL1kXnAfZeUTieAdUTko.jpg",
+      "description": "Merlin, fils immortel du barde Taliesin et de la princesse atlante Charis, est au cœur de son enfance tragique, de sa descente aux enfers et de sa disparition mystérieuse, donnant naissance à la légende qui l'entoure. Se déroulant avant la naissance du roi Arthur, l'histoire raconte la réapparition de Merlin, que l'on croyait mort ou un mythe, dans la Bretagne post-romaine, afin d'unir les royaumes divisés et menacés par les envahisseurs saxons.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:224372",
+      "type": "series",
+      "name": "A Knight of the Seven Kingdoms",
+      "poster": "https://image.tmdb.org/t/p/w500/iremK1ulD6WPOvT9ShQDlZuEtL0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
+      "description": "Du monde de Westeros nous vient une histoire improbable centrée sur les aventures d'un duo inattendu : le chevalier Ser Duncan et son écuyer l'Œuf.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:223530",
+      "type": "series",
+      "name": "Star Trek: Starfleet Academy",
+      "poster": "https://image.tmdb.org/t/p/w500/wAxeapp1AUd16UoBc7u8rHZ9emP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rXtSdCGmG07zjAg5h7GR1v52ogX.jpg",
+      "description": "Sous le regard attentif et exigeant de leurs instructeurs, un groupe de jeunes cadets découvre ce qu'il faut pour devenir officiers de Starfleet, tout en naviguant entre amitiés, rivalités, premiers amours et un nouvel ennemi.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:246412",
+      "type": "series",
+      "name": "The Copenhagen Test",
+      "poster": "https://image.tmdb.org/t/p/w500/8H2rtReyIAjfhOh4bZPr4wXjraH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mRVPTh5JpzvXNtgNXppKROOdrzd.jpg",
+      "description": "Lorsqu'un analyste découvre que sa vue et son ouïe sont piratées, il se retrouve entraîné dans un univers contrôlé, conçu par son agence pour faire sortir ses ennemis de l'ombre.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:240459",
+      "type": "series",
+      "name": "Spartacus: House of Ashur",
+      "poster": "https://image.tmdb.org/t/p/w500/vNByuzy60v31nmUVPMA8oAtneUK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/c78kbj781ddvmSn5mgLWFQbC7di.jpg",
+      "description": "Ayant survécu à la rébellion de Spartacus, l'ambitieux et manipulateur Ashur se retrouve à la tête du ludus autrefois dirigé par Batiatus. Il doit dompter une nouvelle génération de gladiateurs et faire face aux intrigues de la politique romaine.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:271855",
+      "type": "series",
+      "name": "Sandokan",
+      "poster": "https://image.tmdb.org/t/p/w500/xHQDSDYFWbHuN71s23Yy9lwN70j.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1AA5xIVt1PTrbLxCCBxRyvjdpqO.jpg",
+      "description": "Dans la jungle luxuriante de Bornéo, Sandokan, pirate intrépide, vit pour la liberté. Sa rencontre avec Marianne, fille du consul britannique, fait naître un amour impossible. Traqués par Lord Brooke, ils luttent contre la tyrannie. Pour sauver son peuple, Sandokan doit devenir le légendaire Tigre de Malaisie.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:219080",
+      "type": "series",
+      "name": "The Mighty Nein",
+      "poster": "https://image.tmdb.org/t/p/w500/q2P52yvWJXH2eTKTyxKjmhp9Pri.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7K7wbQIpkzif4fMhDHsCweXFS42.jpg",
+      "description": "Un groupe de parias, de criminels et de marginaux se retrouve par hasard à devoir sauver le continent lorsqu'une mystérieuse relique magique capable de remodeler la réalité tombe entre de mauvaises mains.",
+      "releaseInfo": "2025"
+    }
+  ]
+}
