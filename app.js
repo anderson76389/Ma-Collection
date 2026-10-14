@@ -3664,6 +3664,9 @@ function assembleFilteredDatabase(optimize) {
     }
   });
 
+  if (window.MaCollectionImportStudio?.decorateCollections) {
+    return window.MaCollectionImportStudio.decorateCollections(customConfig);
+  }
   return customConfig;
 }
 
