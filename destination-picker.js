@@ -29,7 +29,7 @@
         window.MaCollectionKovelyx?.open();
       }
     };
-    if(window.MaCollectionImportSetup?.open)window.MaCollectionImportSetup.open(target,proceed);
+    if(window.MaCollectionImportStudio?.open)window.MaCollectionImportStudio.open(target,proceed);
     else proceed({});
   }
   el("destination-nuvio")?.addEventListener("click",()=>start("nuvio"));
