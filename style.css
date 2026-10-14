@@ -7632,6 +7632,9 @@ kbd {
 #customize-overlay.open {
   opacity: 1;
   visibility: visible;
+  /* La personnalisation doit passer DEVANT le bouton Compte fixe,
+     sinon sa croix est impossible à cliquer sur certains mobiles. */
+  z-index: calc(var(--z-above-title, 21000) + 4);
 }
 
 .cust-panel {
