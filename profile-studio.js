@@ -13,8 +13,8 @@
 (function () {
   'use strict';
 
-  const STORAGE_TOKEN_KEY = 'kaptain_push_token';
-  const STORAGE_EMAIL_KEY = 'kaptain_push_email';
+  const STORAGE_TOKEN_KEY = 'ma_collection_push_token';
+  const STORAGE_EMAIL_KEY = 'ma_collection_push_email';
   const BACKUP_PREFIX = 'nuvio_profile_backup_';
 
   // Internal state

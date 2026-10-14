@@ -1,6 +1,6 @@
 /**
  * Kaptain Account Vault — optional encrypted auto-save for API keys +
- * collection edit state. Feature-flagged via window.KAPTAIN_ACCOUNT.
+ * collection edit state. Feature-flagged via window.MA_COLLECTION_ACCOUNT.
  *
  * Security: secrets are AES-GCM encrypted client-side with a key derived from
  * the user's vault passphrase (PBKDF2). The passphrase never leaves the device.
@@ -11,9 +11,9 @@
 
   const PAYLOAD_VERSION = 1;
   const PBKDF2_ITERS = 310000;
-  const LOCAL_CIPHER_KEY = 'kaptain_vault_cipher_v1';
-  const SESSION_META_KEY = 'kaptain_vault_session_v1';
-  const FORCE_UI_KEY = 'kaptain_account_force';
+  const LOCAL_CIPHER_KEY = 'ma_collection_vault_cipher_v1';
+  const SESSION_META_KEY = 'ma_collection_vault_session_v1';
+  const FORCE_UI_KEY = 'ma_collection_account_force';
 
   let cryptoKey = null;          // CryptoKey in memory while unlocked
   let sessionSaltB64 = null;
@@ -22,7 +22,7 @@
   let lastPayload = null;
 
   function cfg() {
-    return window.KAPTAIN_ACCOUNT || { enabled: false };
+    return window.MA_COLLECTION_ACCOUNT || { enabled: false };
   }
 
   /** ?account=1 turns the feature on for this browser; ?account=0 turns it off. */
@@ -159,14 +159,14 @@
 
   function persistAuthSession() {
     try {
-      if (authSession) sessionStorage.setItem('kaptain_account_auth', JSON.stringify(authSession));
-      else sessionStorage.removeItem('kaptain_account_auth');
+      if (authSession) sessionStorage.setItem('ma_collection_account_auth', JSON.stringify(authSession));
+      else sessionStorage.removeItem('ma_collection_account_auth');
     } catch (e) { /* ignore */ }
   }
 
   function restoreAuthSession() {
     try {
-      const raw = sessionStorage.getItem('kaptain_account_auth');
+      const raw = sessionStorage.getItem('ma_collection_account_auth');
       if (raw) authSession = JSON.parse(raw);
     } catch (e) { authSession = null; }
   }
@@ -277,7 +277,7 @@
   // ---- Snapshot / apply via bridge --------------------------------------
 
   function collectPayload() {
-    const bridge = window.KaptainAccountBridge;
+    const bridge = window.MaCollectionAccountBridge;
     const fromApp = (bridge && typeof bridge.snapshot === 'function') ? bridge.snapshot() : {};
     return {
       v: PAYLOAD_VERSION,
@@ -290,7 +290,7 @@
 
   async function applyPayload(payload) {
     lastPayload = payload;
-    const bridge = window.KaptainAccountBridge;
+    const bridge = window.MaCollectionAccountBridge;
     if (bridge && typeof bridge.apply === 'function') {
       await bridge.apply(payload);
     }
@@ -326,7 +326,7 @@
     writeLocalEnvelope(envelope);
     if (authSession && cloudConfigured()) {
       try { await cloudPushEnvelope(envelope); } catch (e) {
-        console.warn('[KaptainAccount] cloud save failed (local vault ok):', e);
+        console.warn('[MaCollectionAccount] cloud save failed (local vault ok):', e);
       }
     }
     return payload;
@@ -345,7 +345,7 @@
     writeLocalEnvelope(envelope);
     if (authSession && cloudConfigured()) {
       try { await cloudPushEnvelope(envelope); } catch (e) {
-        console.warn('[KaptainAccount] cloud save failed:', e);
+        console.warn('[MaCollectionAccount] cloud save failed:', e);
       }
     }
     return true;
@@ -355,7 +355,7 @@
     if (!isEnabled() || !isUnlocked()) return;
     clearTimeout(saveTimer);
     saveTimer = setTimeout(() => {
-      persistNow().catch((e) => console.warn('[KaptainAccount] save failed:', e));
+      persistNow().catch((e) => console.warn('[MaCollectionAccount] save failed:', e));
     }, 800);
   }
 
@@ -381,7 +381,7 @@
   applyUrlAccountFlag();
   restoreAuthSession();
 
-  window.KaptainAccount = {
+  window.MaCollectionAccount = {
     isEnabled,
     featureActive: isEnabled,
     status,

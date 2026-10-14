@@ -233,7 +233,7 @@ page.on('response', response => {
 
 try {
   await page.goto('http://127.0.0.1:8877/', { waitUntil: 'domcontentloaded', timeout: 60000 });
-  await page.waitForFunction(() => !!window.KaptainExport?.assembleFilteredDatabase && document.documentElement.lang === 'fr', { timeout: 60000 });
+  await page.waitForFunction(() => !!window.MaCollectionExport?.assembleFilteredDatabase && document.documentElement.lang === 'fr', { timeout: 60000 });
   await page.waitForFunction(() => document.body.textContent.includes('Configurer et envoyer à Nuvio'), { timeout: 60000 });
   // Intercepter les appels TMDB : aucune requête externe n'est nécessaire pour ce test.
   const previewRequests = [];
@@ -251,7 +251,7 @@ try {
       tv:await fetchLiveTitles(folder,{...base,mediaType:'TV'}),
       tvShow:await fetchLiveTitles(folder,{...base,mediaType:'TV_SHOW'}),
       film:await fetchLiveTitles(folder,{...base,mediaType:'MOVIE'}),
-      annual:window.KaptainCatalogUtils?.updateRollingYearFilters(
+      annual:window.MaCollectionCatalogUtils?.updateRollingYearFilters(
         structuredClone(window.NUVIO_DATABASE),2027)
     };
   });
@@ -315,7 +315,7 @@ try {
     if (!network || !genre) return { exists: false };
     const copy = structuredClone([network, genre]);
     const origin = structuredClone(copy);
-    await window.KaptainExport.applyLocaleToCollection(copy);
+    await window.MaCollectionExport.applyLocaleToCollection(copy);
     const originalNet = origin[0].folders, translatedNet=copy[0].folders;
     const namesUnchanged = originalNet.every((f,i) => f.title === translatedNet[i].title);
     const originalHistory = originalNet.find(f => f.id === 'folder-I7A4OFK0')?.title;
@@ -390,7 +390,7 @@ try {
     if (originals.some(x=>!x)) return {exists:false};
     const translation = await fetch('locales/fr.json').then(r=>r.json());
     const data = structuredClone(originals);
-    await window.KaptainExport.applyLocaleToCollection(data);
+    await window.MaCollectionExport.applyLocaleToCollection(data);
     const sourceCount = x => x.folders.reduce((n,f)=>n+(f.sources||[]).length,0);
     const translatedTitles = (data,origin) => {
       const errors=[];
@@ -463,7 +463,7 @@ try {
     const original=['collection-1IPJJWUO','collection-13LJW3A6'].map(id=>db.find(c=>c.id===id));
     if(original.some(c=>!c))return{exists:false};
     const clones=structuredClone(original),translations=await fetch('locales/fr.json').then(r=>r.json());
-    await window.KaptainExport.applyLocaleToCollection(clones);
+    await window.MaCollectionExport.applyLocaleToCollection(clones);
     const flatSources=c=>c.folders.flatMap(f=>f.sources||[]);
     const errs=[];
     for(let i=0;i<2;i++){
@@ -519,7 +519,7 @@ try {
     if(original.some(x=>!x))return {exists:false};
     const clone=structuredClone(original);
     const dictionary=await fetch('locales/fr.json').then(r=>r.json());
-    await window.KaptainExport.applyLocaleToCollection(clone);
+    await window.MaCollectionExport.applyLocaleToCollection(clone);
     const wrong=[];
     let checked=0;
     for(let i=0;i<original.length;i++){
@@ -576,7 +576,7 @@ try {
     const origin=ids.map(id=>db.find(c=>c.id===id));
     if(origin.some(x=>!x))return{exists:false};
     const copy=structuredClone(origin),dict=await fetch('locales/fr.json').then(r=>r.json());
-    await window.KaptainExport.applyLocaleToCollection(copy);
+    await window.MaCollectionExport.applyLocaleToCollection(copy);
     const expectedSources=[114,42,36],expectedFolders=[19,7,6];
     const errors=[],statistics=[];
     for(let i=0;i<origin.length;i++){
@@ -625,10 +625,10 @@ try {
   const rendered = await page.evaluate(async () => {
     const asset = await fetch('assets/kaptain-logo.png');
     const french = document.body.textContent.includes('Configurer et envoyer à Nuvio');
-    const initial = window.KaptainExport.assembleFilteredDatabase();
+    const initial = window.MaCollectionExport.assembleFilteredDatabase();
     const raw = initial.length ? initial : (window.database || window.NUVIO_DATABASE || []);
     const cloned = structuredClone(raw);
-    await window.KaptainExport.applyLocaleToCollection(cloned);
+    await window.MaCollectionExport.applyLocaleToCollection(cloned);
     const withoutDisplay = v => Array.isArray(v) ? v.map(withoutDisplay)
       : v && typeof v === 'object'
         ? Object.fromEntries(Object.entries(v).filter(([k]) => !['title','name','genre'].includes(k)).map(([k,x]) => [k, withoutDisplay(x)]))
@@ -661,7 +661,7 @@ try {
   const streamingResult = await page.evaluate(async () => {
     const origin = await fetch('collections/streaming_services.json').then(r => r.json());
     const translated = structuredClone(origin);
-    await window.KaptainExport.applyLocaleToCollection(translated);
+    await window.MaCollectionExport.applyLocaleToCollection(translated);
     const dict = await fetch('locales/fr.json').then(r => r.json());
     const originalSources = origin.flatMap(c => c.folders.flatMap(f => f.sources || []));
     const localizedSources = translated.flatMap(c => c.folders.flatMap(f => f.sources || []));
@@ -703,7 +703,7 @@ try {
 
   // Tester le vrai téléchargement JSON sans compte.
   const pendingDownload = page.waitForEvent('download', { timeout: 20000 });
-  await page.evaluate(() => window.KaptainExport.compileAndDownloadJSON(true));
+  await page.evaluate(() => window.MaCollectionExport.compileAndDownloadJSON(true));
   const download = await pendingDownload;
   assert(download.suggestedFilename().endsWith('.json'), 'Extension export non JSON');
   const exported = JSON.parse(readFileSync(await download.path(), 'utf8'));

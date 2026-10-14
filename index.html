@@ -11,10 +11,11 @@
   <link rel="icon" type="image/svg+xml" href="assets/kovelyx-logo.svg">
   
   <link rel="stylesheet" href="style.css?v=93.2">
+  <script src="scripts/migrate-storage.js?v=1"></script>
   <script>
     (function () {
       try {
-        var t = localStorage.getItem('kaptain_theme');
+        var t = localStorage.getItem('ma_collection_theme');
         if (t === 'light' || t === 'high-contrast') document.documentElement.setAttribute('data-theme', t);
       } catch (e) { /* ignore */ }
     })();
@@ -23,14 +24,14 @@
 <body>
 
   <!-- Preview strip: only visible after a test code is unlocked -->
-  <div id="title-screen-beta-indicator" class="kaptain-beta-banner title-beta-indicator" hidden>
-    <div class="kaptain-beta-banner-inner">
-      <span id="kaptain-beta-pill" class="kaptain-beta-pill">Preview</span>
-      <span id="kaptain-beta-banner-text" class="kaptain-beta-banner-text">You are testing an unreleased preview.</span>
-      <div class="kaptain-beta-actions">
-        <button type="button" id="kaptain-beta-notes" class="kaptain-beta-notes">Notes</button>
-        <button type="button" id="kaptain-beta-exit" class="kaptain-beta-exit">Exit beta</button>
-        <button type="button" id="kaptain-beta-hide" class="kaptain-beta-hide" aria-label="Hide beta banner" title="Hide banner (stay on preview)">×</button>
+  <div id="title-screen-beta-indicator" class="ma-collection-beta-banner title-beta-indicator" hidden>
+    <div class="ma-collection-beta-banner-inner">
+      <span id="ma-collection-beta-pill" class="ma-collection-beta-pill">Preview</span>
+      <span id="ma-collection-beta-banner-text" class="ma-collection-beta-banner-text">You are testing an unreleased preview.</span>
+      <div class="ma-collection-beta-actions">
+        <button type="button" id="ma-collection-beta-notes" class="ma-collection-beta-notes">Notes</button>
+        <button type="button" id="ma-collection-beta-exit" class="ma-collection-beta-exit">Exit beta</button>
+        <button type="button" id="ma-collection-beta-hide" class="ma-collection-beta-hide" aria-label="Hide beta banner" title="Hide banner (stay on preview)">×</button>
       </div>
     </div>
   </div>
@@ -708,12 +709,12 @@
           <a href="https://nuvio.tv/support" target="_blank" rel="noopener" class="btn-primary support-modal-btn support-nuvio-btn">
             <span>☕ Support Nuvio</span>
           </a>
-          <button type="button" id="sidebar-tip-kaptain-btn" class="btn-secondary support-modal-btn">
+          <button type="button" id="sidebar-tip-ma-collection-btn" class="btn-secondary support-modal-btn">
             <span>☕ Tip Kaptain</span>
           </button>
         </div>
 
-        <div id="sidebar-tip-kaptain-gate" class="support-gate-box" style="display:none;">
+        <div id="sidebar-tip-ma-collection-gate" class="support-gate-box" style="display:none;">
           <p class="support-gate-prompt">Have you donated to the Nuvio devs yet? None of this works without them.</p>
           <a href="https://ko-fi.com/kaptaincollection" target="_blank" rel="noopener" class="support-gate-link">Yes, continue to Kaptain's tip page →</a>
         </div>
@@ -952,24 +953,24 @@
   </div>
 
   <script src="collections/database.js?v=1790559393863"></script>
-  <script src="collections/test-channels.js?v=1790556693838"></script>
+  <script src="collections/test-channels.js?v=93.0"></script>
   <script src="collections/preview_posters.js?v=1790556693838"></script>
   <script>
-    window.KAPTAIN_BINGECAT_IMPORT_ENDPOINT = 'https://bingecat.com/integrations/kaptain/collections';
+    window.MA_COLLECTION_BINGECAT_IMPORT_ENDPOINT = 'https://bingecat.com/integrations/kaptain/collections';
   </script>
-  <script src="account-config.js?v=1"></script>
+  <script src="account-config.js?v=93.0"></script>
   <!-- For local cloud testing, copy account-config.local.example.js to account-config.local.js and uncomment:
   <script src="account-config.local.js"></script>
   -->
-  <script src="account-vault.js?v=92.2"></script>
-  <script src="customize.js?v=92.2"></script>
-  <script src="scripts/catalog-utils.js?v=1"></script>
+  <script src="account-vault.js?v=93.0"></script>
+  <script src="customize.js?v=93.0"></script>
+  <script src="scripts/catalog-utils.js?v=93.0"></script>
   <script src="app.js?v=92.6"></script>
   <script src="nuvio-push.js?v=92.2"></script>
-  <script>window.KAPTAIN_ASSET_VERSION = 92.4;</script>
-  <script src="wizard.js?v=1790558968565.4"></script>
-  <script src="account-ui.js?v=92.2"></script>
-  <script src="profile-studio.js?v=92.2"></script>
+  <script>window.MA_COLLECTION_ASSET_VERSION = 92.4;</script>
+  <script src="wizard.js?v=93.0"></script>
+  <script src="account-ui.js?v=93.0"></script>
+  <script src="profile-studio.js?v=93.0"></script>
   <script src="site-fr.js?v=9"></script>
 </body>
 </html>

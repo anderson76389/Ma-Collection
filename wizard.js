@@ -8,10 +8,10 @@
  *      without sharing any login.
  *
  * Relies on globals from app.js (assembleFilteredDatabase, compileAndDownloadJSON,
- * showToast, window.KaptainExport) and window.NuvioPush from nuvio-push.js.
+ * showToast, window.MaCollectionExport) and window.NuvioPush from nuvio-push.js.
  */
 (function () {
-  const DEFAULT_PROFILE_NAME = "Kaptain's Collection";
+  const DEFAULT_PROFILE_NAME = "Ma-Collection";
 
   // Nuvio stores settings per device type; the user's TV is what we target.
   // Nuvio stores settings per device type. Write to both confirmed buckets so
@@ -462,7 +462,7 @@
 
   async function getPreviewMovie(tmdbKey) {
     const today = new Date().toISOString().slice(0, 10);
-    const cacheKey = 'kaptain_preview_movie_' + today;
+    const cacheKey = 'ma_collection_preview_movie_' + today;
     if (previewMovieCache && previewMovieCache.date === today) return previewMovieCache.movie;
     try {
       const stored = JSON.parse(localStorage.getItem(cacheKey) || 'null');
@@ -485,7 +485,7 @@
     try {
       localStorage.setItem(cacheKey, JSON.stringify(movie));
       Object.keys(localStorage).forEach((k) => {
-        if (k.startsWith('kaptain_preview_movie_') && k !== cacheKey) localStorage.removeItem(k);
+        if (k.startsWith('ma_collection_preview_movie_') && k !== cacheKey) localStorage.removeItem(k);
       });
     } catch (e) { /* non-fatal — just won't persist across reloads */ }
     previewMovieCache = { date: today, movie };
@@ -816,13 +816,13 @@
 
   // ----- FRIENDS OF KAPTAIN (creator packs: AIO Metadata catalogs as-is) -----
   function getActiveFriendPack() {
-    const ch = window.KAPTAIN_TEST_CHANNEL;
+    const ch = window.MA_COLLECTION_TEST_CHANNEL;
     return (ch && ch.friendPack) ? ch.friendPack : null;
   }
 
   function friendAssetUrl(rel) {
     if (!rel) return '';
-    const v = window.KAPTAIN_ASSET_VERSION || Date.now();
+    const v = window.MA_COLLECTION_ASSET_VERSION || Date.now();
     return rel + (rel.includes('?') ? '&' : '?') + 'v=' + v;
   }
 
@@ -1191,8 +1191,8 @@
 
       const collections = assembleFilteredDatabase(shouldOptimizeExport());
       applyForYouSources(collections);
-      if (window.KaptainExport && window.KaptainExport.applyLocaleToCollection) {
-        await window.KaptainExport.applyLocaleToCollection(collections);
+      if (window.MaCollectionExport && window.MaCollectionExport.applyLocaleToCollection) {
+        await window.MaCollectionExport.applyLocaleToCollection(collections);
       }
       ensureCollectionDefaults(collections);
       await window.NuvioPush.pushCollections(state.token, state.targetProfileId, collections);
@@ -1536,8 +1536,8 @@
 
   function scheduleAccountVaultSave() {
     try {
-      if (window.KaptainAccount && typeof window.KaptainAccount.scheduleSave === 'function') {
-        window.KaptainAccount.scheduleSave();
+      if (window.MaCollectionAccount && typeof window.MaCollectionAccount.scheduleSave === 'function') {
+        window.MaCollectionAccount.scheduleSave();
       }
     } catch (e) { /* ignore */ }
   }
@@ -1673,11 +1673,11 @@
       const toSave = {};
       fields.forEach(f => { if (state[f] !== undefined) toSave[f] = state[f]; });
       // Drop any previously saved Torbox/TMDB/debrid/Trakt/RPDB keys from this slot.
-      localStorage.setItem('kaptain_wizard_inputs', JSON.stringify(toSave));
+      localStorage.setItem('ma_collection_wizard_inputs', JSON.stringify(toSave));
     } catch(e) {}
     try {
-      if (window.KaptainAccount && typeof window.KaptainAccount.scheduleSave === 'function') {
-        window.KaptainAccount.scheduleSave();
+      if (window.MaCollectionAccount && typeof window.MaCollectionAccount.scheduleSave === 'function') {
+        window.MaCollectionAccount.scheduleSave();
       }
     } catch (e) {}
   }
@@ -1686,22 +1686,22 @@
   // wizard defaults back to it instead of always offering "create new".
   function getRememberedDevices() {
     try {
-      const raw = JSON.parse(localStorage.getItem('kaptain_last_devices') || '[]');
+      const raw = JSON.parse(localStorage.getItem('ma_collection_last_devices') || '[]');
       return Array.isArray(raw) ? raw.filter((d) => d === 'tv' || d === 'mobile') : [];
     } catch (e) { return []; }
   }
 
   function getRememberedProfileId(email) {
     try {
-      const map = JSON.parse(localStorage.getItem('kaptain_last_profile_by_email') || '{}');
+      const map = JSON.parse(localStorage.getItem('ma_collection_last_profile_by_email') || '{}');
       return map[email] != null ? Number(map[email]) : null;
     } catch (e) { return null; }
   }
   function rememberProfileId(email, profileId) {
     try {
-      const map = JSON.parse(localStorage.getItem('kaptain_last_profile_by_email') || '{}');
+      const map = JSON.parse(localStorage.getItem('ma_collection_last_profile_by_email') || '{}');
       map[email] = profileId;
-      localStorage.setItem('kaptain_last_profile_by_email', JSON.stringify(map));
+      localStorage.setItem('ma_collection_last_profile_by_email', JSON.stringify(map));
     } catch (e) {}
   }
 
@@ -1740,8 +1740,8 @@
     state.nativeForYouStep = 'choose';
     state.nativeAioInstance = 'auto';
     state.tmdbKey = '';
-    state._devicesAutoSwitch = (window.KaptainExport && typeof window.KaptainExport.getLastExportOptimize === 'function')
-      ? window.KaptainExport.getLastExportOptimize()
+    state._devicesAutoSwitch = (window.MaCollectionExport && typeof window.MaCollectionExport.getLastExportOptimize === 'function')
+      ? window.MaCollectionExport.getLastExportOptimize()
       : false;
     state._streamManifestWarnedUrls = null;
     state.forYouProviders = { trakt: true, bingecat: false, mdblist: false };
@@ -1768,12 +1768,12 @@
     // interactive streaming step.
     state.prefill = (opts && opts.prefill && typeof opts.prefill === 'object') ? opts.prefill : null;
     try {
-      if (window.KaptainAccount && window.KaptainAccount.status && window.KaptainAccount.status().unlocked) {
-        const saved = (typeof window.KaptainAccount.getUnlockedPayload === 'function')
-          ? window.KaptainAccount.getUnlockedPayload()
+      if (window.MaCollectionAccount && window.MaCollectionAccount.status && window.MaCollectionAccount.status().unlocked) {
+        const saved = (typeof window.MaCollectionAccount.getUnlockedPayload === 'function')
+          ? window.MaCollectionAccount.getUnlockedPayload()
           : null;
         if (saved) applyVaultFields(saved);
-        else applyVaultFields((window.KaptainAccountBridge && window.KaptainAccountBridge.snapshot()) || {});
+        else applyVaultFields((window.MaCollectionAccountBridge && window.MaCollectionAccountBridge.snapshot()) || {});
       }
     } catch (e) {}
     if (state.prefill && state.prefill.profileName) state.profileName = String(state.prefill.profileName).trim() || DEFAULT_PROFILE_NAME;
@@ -2790,7 +2790,7 @@
       // Trakt public lists. AIO Metadata needs a Trakt token on every instance
       // that hosts them — without it, almost every series tab comes back empty
       // while TMDB LIST movie tabs still work.
-      const selected = window.KaptainExport?.assembleFilteredDatabase?.() || [];
+      const selected = window.MaCollectionExport?.assembleFilteredDatabase?.() || [];
       const needsTrakt = selected.some((c) =>
         (c.folders || []).some((f) =>
           (f.sources || []).some((s) => s.provider === 'trakt' && s.traktListId)
@@ -3004,7 +3004,7 @@
     // poison: every lookup below misses, every source drops off AIO routing, and
     // the run ends with one lonely "For You" instance and mangled sorting.
     // Studio may ship a bare array or `{ catalogs: [...] }` — normalize both.
-    const templateRes = await fetch((window.KAPTAIN_CATALOG_TEMPLATE_URL || 'Kaptain_Catalog_Template.json') + '?v=' + (window.KAPTAIN_ASSET_VERSION || Date.now()));
+    const templateRes = await fetch((window.MA_COLLECTION_CATALOG_TEMPLATE_URL || 'Kaptain_Catalog_Template.json') + '?v=' + (window.MA_COLLECTION_ASSET_VERSION || Date.now()));
     let aioTemplate = [];
     if (templateRes.ok) {
       aioTemplate = normalizeAioCatalogTemplate(await templateRes.json());
@@ -3028,7 +3028,7 @@
     // Read the visitor's selection once and reuse the same reference for both
     // gathering catalogs below and the final repoint pass further down, so
     // both passes are guaranteed to agree on exactly the same sources.
-    const collections = window.KaptainExport.assembleFilteredDatabase();
+    const collections = window.MaCollectionExport.assembleFilteredDatabase();
 
     // Merge whichever "For You" provider(s) are checked into the folder's
     // sources right now, before anything below reads "For You" off
@@ -3633,8 +3633,8 @@
         // only Bingecat and nothing else needed repointing — without this
         // OR-clause that case would never get pushed at all.
         if (patched || isForYouProviderOn('bingecat')) {
-          if (window.KaptainExport && window.KaptainExport.applyLocaleToCollection) {
-            await window.KaptainExport.applyLocaleToCollection(collections);
+          if (window.MaCollectionExport && window.MaCollectionExport.applyLocaleToCollection) {
+            await window.MaCollectionExport.applyLocaleToCollection(collections);
           }
           ensureCollectionDefaults(collections);
           await window.NuvioPush.pushCollections(state.token, state.targetProfileId, collections);
@@ -3801,7 +3801,7 @@
   function renderDone(panel) {
     if (!state._telemetryFired) {
       state._telemetryFired = true;
-      if (window.KaptainTelemetry) window.KaptainTelemetry.hit('deployments');
+      if (window.MaCollectionTelemetry) window.MaCollectionTelemetry.hit('deployments');
     }
     // Save push state for sync dot indicator
     try {
@@ -3810,8 +3810,8 @@
       // never goes in localStorage - this is a public GitHub Pages origin and that
       // store persists indefinitely. sessionStorage dies with the tab; Quick Push
       // stays frictionless for the rest of this session and re-prompts after that.
-      try { sessionStorage.setItem('kaptain_push_token', state.token || ''); } catch (e) {}
-      localStorage.setItem('kaptain_last_push', JSON.stringify({
+      try { sessionStorage.setItem('ma_collection_push_token', state.token || ''); } catch (e) {}
+      localStorage.setItem('ma_collection_last_push', JSON.stringify({
         timestamp: Date.now(),
         profileId: state.targetProfileId,
         folderIds: folderIds,
@@ -3873,9 +3873,9 @@
             <p class="wiz-donation-sub">If this saved you some setup time, tips are always appreciated, never expected.</p>
             <div class="wiz-donation-actions">
                 <a href="https://nuvio.tv/support" target="_blank" rel="noopener" class="wiz-secondary wiz-donation-btn">☕ Support Nuvio</a>
-                <button type="button" id="wiz-tip-kaptain-btn" class="wiz-secondary wiz-donation-btn">☕ Tip Kaptain</button>
+                <button type="button" id="wiz-tip-ma-collection-btn" class="wiz-secondary wiz-donation-btn">☕ Tip Kaptain</button>
             </div>
-            <div id="wiz-tip-kaptain-confirm" class="wiz-tip-confirm" style="display:none;">
+            <div id="wiz-tip-ma-collection-confirm" class="wiz-tip-confirm" style="display:none;">
                 <p style="margin:0 0 8px 0;">Have you donated to the Nuvio devs yet? None of this works without them.</p>
                 <a href="https://ko-fi.com/kaptaincollection" target="_blank" rel="noopener" class="wiz-link">Yes, continue to Kaptain's tip page →</a>
             </div>
@@ -3885,9 +3885,9 @@
       </div>`;
     el('wiz-close').addEventListener('click', close);
     el('wiz-done-close').addEventListener('click', close);
-    const tipBtn = el('wiz-tip-kaptain-btn');
+    const tipBtn = el('wiz-tip-ma-collection-btn');
     if (tipBtn) tipBtn.addEventListener('click', () => {
-      const confirmBox = el('wiz-tip-kaptain-confirm');
+      const confirmBox = el('wiz-tip-ma-collection-confirm');
       if (confirmBox) confirmBox.style.display = 'block';
       tipBtn.style.display = 'none';
     });
@@ -4522,8 +4522,8 @@
     state.pushingLabel = 'Loading your collection...';
     go('pushing');
     let incoming = assembleFilteredDatabase(shouldOptimizeExport());
-    if (window.KaptainExport && window.KaptainExport.applyLocaleToCollection) {
-      incoming = await window.KaptainExport.applyLocaleToCollection(incoming);
+    if (window.MaCollectionExport && window.MaCollectionExport.applyLocaleToCollection) {
+      incoming = await window.MaCollectionExport.applyLocaleToCollection(incoming);
     }
     if (!incoming || incoming.length === 0) {
       throw new Error('No folders are selected, so there is nothing to send.');
@@ -4642,8 +4642,8 @@
     state.pushingLabel = 'Loading your collection...';
     go('pushing');
     let collections = assembleFilteredDatabase(shouldOptimizeExport());
-    if (window.KaptainExport && window.KaptainExport.applyLocaleToCollection) {
-      collections = await window.KaptainExport.applyLocaleToCollection(collections);
+    if (window.MaCollectionExport && window.MaCollectionExport.applyLocaleToCollection) {
+      collections = await window.MaCollectionExport.applyLocaleToCollection(collections);
     }
     if (!collections || collections.length === 0) {
       throw new Error('No folders are selected, so there is nothing to send.');
@@ -5203,7 +5203,7 @@
 
   function hasForYouFolder() {
     try {
-      const compiled = window.KaptainExport.assembleFilteredDatabase();
+      const compiled = window.MaCollectionExport.assembleFilteredDatabase();
       return compiled.some(function(cat) {
         return (cat.folders || []).some(function(f) { return f.id === 'folder-25429024'; });
       });
@@ -5218,7 +5218,7 @@
   function renderDevices(panel) {
     const tvChecked = state.devices.includes('tv');
     const mobileChecked = state.devices.includes('mobile');
-    const viewMode = (localStorage.getItem('kaptain_view_mode') || 'FOLLOW_LAYOUT').toUpperCase();
+    const viewMode = (localStorage.getItem('ma_collection_view_mode') || 'FOLLOW_LAYOUT').toUpperCase();
     const hasRowsIssue = viewMode === 'ROWS' || viewMode === 'FOLLOW_LAYOUT';
 
     panel.innerHTML = `
@@ -5271,17 +5271,17 @@
 
     el('wiz-devices-next').addEventListener('click', () => {
       if (state.devices.length === 0) return showInlineError('Pick at least one device to continue.');
-      try { localStorage.setItem('kaptain_last_devices', JSON.stringify(state.devices)); } catch (e) {}
+      try { localStorage.setItem('ma_collection_last_devices', JSON.stringify(state.devices)); } catch (e) {}
       const autoSwitch = el('wiz-rows-auto-switch');
       const isMobile = state.devices.includes('mobile');
       state._devicesAutoSwitch = !!(isMobile && autoSwitch && autoSwitch.checked);
       if (state._devicesAutoSwitch && hasRowsIssue) {
-        if (window.KaptainExport && window.KaptainExport.setLastExportOptimize) {
-          window.KaptainExport.setLastExportOptimize(true);
+        if (window.MaCollectionExport && window.MaCollectionExport.setLastExportOptimize) {
+          window.MaCollectionExport.setLastExportOptimize(true);
         }
       } else {
-        if (window.KaptainExport && window.KaptainExport.setLastExportOptimize) {
-          window.KaptainExport.setLastExportOptimize(false);
+        if (window.MaCollectionExport && window.MaCollectionExport.setLastExportOptimize) {
+          window.MaCollectionExport.setLastExportOptimize(false);
         }
       }
       go('account');
@@ -5515,8 +5515,8 @@
         state._friendBingecatCatalogs || []
       );
 
-      if (window.KaptainExport && window.KaptainExport.applyLocaleToCollection) {
-        await window.KaptainExport.applyLocaleToCollection(collections);
+      if (window.MaCollectionExport && window.MaCollectionExport.applyLocaleToCollection) {
+        await window.MaCollectionExport.applyLocaleToCollection(collections);
       }
       ensureCollectionDefaults(collections);
       state.pushingLabel = 'Updating your collection…';
@@ -6146,7 +6146,7 @@
   });
 
   async function generateSelfHostExport() {
-    const templateRes = await fetch((window.KAPTAIN_CATALOG_TEMPLATE_URL || 'Kaptain_Catalog_Template.json') + '?v=' + (window.KAPTAIN_ASSET_VERSION || Date.now()));
+    const templateRes = await fetch((window.MA_COLLECTION_CATALOG_TEMPLATE_URL || 'Kaptain_Catalog_Template.json') + '?v=' + (window.MA_COLLECTION_ASSET_VERSION || Date.now()));
     let aioTemplate = [];
     if (templateRes.ok) {
       aioTemplate = normalizeAioCatalogTemplate(await templateRes.json());
@@ -6154,7 +6154,7 @@
     if (!aioTemplate.length) throw new Error('Could not load the catalog template. Please refresh and try again.');
     const templateIndex = aioBuildTemplateIndex(aioTemplate);
 
-    const collections = window.KaptainExport.assembleFilteredDatabase();
+    const collections = window.MaCollectionExport.assembleFilteredDatabase();
     applyForYouSources(collections);
 
     const traktCatalogs = [];
@@ -6198,7 +6198,7 @@
     
     // Check if we need to translate titles
     let localeDict = null;
-    const cust = window.kaptainCustomize;
+    const cust = window.maCollectionCustomize;
     if (cust && cust.locale && cust.locale !== 'en') {
       try {
         const res = await fetch('locales/' + cust.locale + '.json?v=' + Date.now());
@@ -6266,8 +6266,8 @@
       });
     });
 
-    if (localeDict && window.KaptainExport && window.KaptainExport.applyLocaleDict) {
-      window.KaptainExport.applyLocaleDict(nuvioCollections, localeDict);
+    if (localeDict && window.MaCollectionExport && window.MaCollectionExport.applyLocaleDict) {
+      window.MaCollectionExport.applyLocaleDict(nuvioCollections, localeDict);
     }
 
     return {

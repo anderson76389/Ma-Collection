@@ -1,6 +1,6 @@
 /**
  * Optional Save UI: account icon on every screen, simple menu, keys setup.
- * Hidden unless KaptainAccount.isEnabled().
+ * Hidden unless MaCollectionAccount.isEnabled().
  */
 (function () {
   'use strict';
@@ -9,11 +9,11 @@
 
   function toast(msg, kind) {
     if (typeof window.showToast === 'function') window.showToast(msg, kind || 'success');
-    else console.log('[KaptainAccount]', msg);
+    else console.log('[MaCollectionAccount]', msg);
   }
 
   function st() {
-    return (window.KaptainAccount && window.KaptainAccount.status()) || {
+    return (window.MaCollectionAccount && window.MaCollectionAccount.status()) || {
       enabled: false, unlocked: false, hasLocalVault: false
     };
   }
@@ -27,7 +27,7 @@
   }
 
   function refreshChrome() {
-    const acct = window.KaptainAccount;
+    const acct = window.MaCollectionAccount;
     const chrome = $('account-chrome');
     const enabled = !!(acct && acct.isEnabled());
     if (chrome) chrome.hidden = !enabled;
@@ -147,8 +147,8 @@
     let keys = {};
     let prefs = {};
     try {
-      const snap = window.KaptainAccountBridge && window.KaptainAccountBridge.snapshot
-        ? window.KaptainAccountBridge.snapshot()
+      const snap = window.MaCollectionAccountBridge && window.MaCollectionAccountBridge.snapshot
+        ? window.MaCollectionAccountBridge.snapshot()
         : null;
       keys = (snap && snap.keys) || {};
       prefs = (snap && snap.prefs) || {};
@@ -184,8 +184,8 @@
   async function applyKeysAndSave() {
     const keys = readKeysForm();
     const prefs = { email: keys.nuvioEmail || '' };
-    if (window.KaptainAccountBridge && typeof window.KaptainAccountBridge.apply === 'function') {
-      await window.KaptainAccountBridge.apply({ keys: keys, collection: {}, prefs: prefs });
+    if (window.MaCollectionAccountBridge && typeof window.MaCollectionAccountBridge.apply === 'function') {
+      await window.MaCollectionAccountBridge.apply({ keys: keys, collection: {}, prefs: prefs });
     } else if (window.NuvioWizard && typeof window.NuvioWizard.applyVaultFields === 'function') {
       window.NuvioWizard.applyVaultFields({ keys: keys, prefs: prefs });
     }
@@ -204,7 +204,7 @@
       }
     } catch (e) { /* ignore */ }
 
-    const ok = await window.KaptainAccount.persistNow();
+    const ok = await window.MaCollectionAccount.persistNow();
     if (!ok) throw new Error('Unlock Save first, then try again.');
     return true;
   }
@@ -214,7 +214,7 @@
     const confirm = ($('account-pass-confirm') || {}).value || '';
     if (pass !== confirm) return showError('Those passwords do not match.');
     try {
-      await window.KaptainAccount.createVault(pass);
+      await window.MaCollectionAccount.createVault(pass);
       toast('Autosave is on. Changes will be remembered on this device.');
       closeModal();
       refreshChrome();
@@ -227,7 +227,7 @@
   async function onUnlock() {
     const pass = ($('account-pass-unlock') || {}).value || '';
     try {
-      await window.KaptainAccount.unlockWithPassphrase(pass);
+      await window.MaCollectionAccount.unlockWithPassphrase(pass);
       toast('Restored. Autosave is on again for this session.');
       closeModal();
       refreshChrome();
@@ -244,7 +244,7 @@
       return;
     }
     try {
-      const ok = await window.KaptainAccount.persistNow();
+      const ok = await window.MaCollectionAccount.persistNow();
       toast(ok ? 'Saved.' : 'Enter your save password first.');
       refreshChrome();
     } catch (e) {
@@ -272,7 +272,7 @@
     }
     if (action === 'lock') {
       setMenuOpen(false);
-      window.KaptainAccount.lock();
+      window.MaCollectionAccount.lock();
       toast('Locked. Enter your save password again when you come back.');
       refreshChrome();
       return;
@@ -280,7 +280,7 @@
     if (action === 'wipe') {
       setMenuOpen(false);
       if (!confirm('Remove saved keys and picks from this browser? You can set autosave up again afterward.')) return;
-      window.KaptainAccount.wipeLocalVault();
+      window.MaCollectionAccount.wipeLocalVault();
       toast('Saved data removed from this device.');
       refreshChrome();
     }
@@ -318,7 +318,7 @@
   }
 
   function wire() {
-    if (!window.KaptainAccount || !window.KaptainAccount.isEnabled()) {
+    if (!window.MaCollectionAccount || !window.MaCollectionAccount.isEnabled()) {
       refreshChrome();
       return;
     }
@@ -392,7 +392,7 @@
     wire();
   }
 
-  window.KaptainAccountUi = {
+  window.MaCollectionAccountUi = {
     openModal,
     closeModal,
     refreshChrome,

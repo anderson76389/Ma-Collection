@@ -50,5 +50,5 @@
 
   const api = { isTelevisionSource, updateRollingYearFilters };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
-  if (root) root.KaptainCatalogUtils = api;
+  if (root) root.MaCollectionCatalogUtils = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);

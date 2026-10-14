@@ -51,7 +51,7 @@
     voteScale: 1,
     ratingBump: 0
   };
-  window.kaptainCustomize = window.customizeState;
+  window.maCollectionCustomize = window.customizeState;
 
   function initSelectAllDefaults(data) {
     window.customizeState.selectedCategories = new Set();
@@ -127,8 +127,8 @@
     }
 
     // Optional handoff (e.g. Set Up & Send → Guided Customize → Send wizard)
-    const after = window.__kaptainAfterCustomize;
-    window.__kaptainAfterCustomize = null;
+    const after = window.__maCollectionAfterCustomize;
+    window.__maCollectionAfterCustomize = null;
     if (typeof after === 'function') {
       setTimeout(() => after(), 80);
     }
@@ -269,7 +269,7 @@
       }
     });
     
-    window.kaptainCustomize = window.customizeState;
+    window.maCollectionCustomize = window.customizeState;
   }
   
   function deselectCategory(cat) {

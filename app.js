@@ -16,10 +16,10 @@ let gridSize = 210;
 let activeDrawerFolder = null;
 
 // Bump this alongside the style.css?v=NN / app.js?v=NN cache-busters in index.html
-const KAPTAIN_VERSION = 'v0.92';
-const KAPTAIN_UPDATED = 'v0.92 • Sep 2026';
+const MA_COLLECTION_VERSION = 'v0.92';
+const MA_COLLECTION_UPDATED = 'v0.92 • Sep 2026';
 
-// Newest entry first. Bump KAPTAIN_VERSION above whenever a new entry is added here —
+// Newest entry first. Bump MA_COLLECTION_VERSION above whenever a new entry is added here —
 // the title-screen "what's new" banner compares a visitor's last-seen version against this list.
 const CHANGELOG = [
   {
@@ -59,7 +59,7 @@ function sortLabel(raw) {
 }
 
 // Nuvio TV/Mobile emulator (Preview) state
-let previewDevice = (() => { try { return localStorage.getItem('kaptain_preview_device') || 'tv'; } catch (e) { return 'tv'; } })();
+let previewDevice = (() => { try { return localStorage.getItem('ma_collection_preview_device') || 'tv'; } catch (e) { return 'tv'; } })();
 // Whether the mobile-only "more options" panel (device toggle / reorder /
 // editor view / layout / help) is expanded above the slim phone bottom bar.
 let previewMoreOpen = false;
@@ -89,27 +89,27 @@ function updateReorderBanner() {
 }
 
 // View Mode State (per-browser; never shared with other visitors)
-let selectedViewMode = localStorage.getItem('kaptain_view_mode') || 'FOLLOW_LAYOUT';
+let selectedViewMode = localStorage.getItem('ma_collection_view_mode') || 'FOLLOW_LAYOUT';
 let lastExportOptimize = false;  // decided per-export by the mobile-compat gate
 
 // Hover-GIF preference (per-browser). Affects the real exported/pushed
 // collection, not just the local preview — Nuvio itself renders focusGifUrl.
-let gifDisableStreaming = (() => { try { return localStorage.getItem('kaptain_gif_disable_streaming') === '1'; } catch (e) { return false; } })();
-let gifDisableOther = (() => { try { return localStorage.getItem('kaptain_gif_disable_other') === '1'; } catch (e) { return false; } })();
+let gifDisableStreaming = (() => { try { return localStorage.getItem('ma_collection_gif_disable_streaming') === '1'; } catch (e) { return false; } })();
+let gifDisableOther = (() => { try { return localStorage.getItem('ma_collection_gif_disable_other') === '1'; } catch (e) { return false; } })();
 function gifsAllowedForCategory(category) {
   const isStreaming = category && category.title === 'Streaming Services';
   return isStreaming ? !gifDisableStreaming : !gifDisableOther;
 }
 
-const KAPTAIN_THEMES = ['dark', 'light', 'high-contrast'];
+const MA_COLLECTION_THEMES = ['dark', 'light', 'high-contrast'];
 function currentTheme() {
   return document.documentElement.getAttribute('data-theme') || 'dark';
 }
 function applyTheme(theme) {
-  const next = KAPTAIN_THEMES.includes(theme) ? theme : 'dark';
+  const next = MA_COLLECTION_THEMES.includes(theme) ? theme : 'dark';
   if (next === 'dark') document.documentElement.removeAttribute('data-theme');
   else document.documentElement.setAttribute('data-theme', next);
-  try { localStorage.setItem('kaptain_theme', next); } catch (e) { /* ignore */ }
+  try { localStorage.setItem('ma_collection_theme', next); } catch (e) { /* ignore */ }
   document.querySelectorAll('.theme-toggle-btn').forEach(btn => {
     btn.dataset.theme = next;
     btn.title = 'Theme: ' + (next === 'high-contrast' ? 'High contrast' : next.charAt(0).toUpperCase() + next.slice(1)) + ' — click to cycle';
@@ -117,10 +117,10 @@ function applyTheme(theme) {
 }
 function cycleTheme() {
   const cur = currentTheme();
-  applyTheme(KAPTAIN_THEMES[(KAPTAIN_THEMES.indexOf(cur) + 1) % KAPTAIN_THEMES.length]);
+  applyTheme(MA_COLLECTION_THEMES[(MA_COLLECTION_THEMES.indexOf(cur) + 1) % MA_COLLECTION_THEMES.length]);
 }
 function bindThemeToggles() {
-  const stored = (function () { try { return localStorage.getItem('kaptain_theme') || 'dark'; } catch (e) { return 'dark'; } })();
+  const stored = (function () { try { return localStorage.getItem('ma_collection_theme') || 'dark'; } catch (e) { return 'dark'; } })();
   applyTheme(stored);
   document.querySelectorAll('.theme-toggle-btn').forEach(btn => {
     if (btn.dataset.bound) return;
@@ -213,10 +213,10 @@ const TELEMETRY_DOM_IDS = {
   deployments: ['collections-generated-count'],
 };
 
-window.KaptainTelemetry = {
+window.MaCollectionTelemetry = {
   async hit(key) {
     try {
-      const res = await fetch(`https://countapi.mileshilliard.com/api/v1/hit/kaptain-collection_${key}`);
+      const res = await fetch(`https://countapi.mileshilliard.com/api/v1/hit/ma-collection_${key}`);
       const data = await res.json();
       this._render(key, data.value);
       return data.value;
@@ -224,7 +224,7 @@ window.KaptainTelemetry = {
   },
   async get(key) {
     try {
-      const res = await fetch(`https://countapi.mileshilliard.com/api/v1/get/kaptain-collection_${key}`);
+      const res = await fetch(`https://countapi.mileshilliard.com/api/v1/get/ma-collection_${key}`);
       const data = await res.json();
       this._render(key, data.value);
       return data.value;
@@ -261,20 +261,20 @@ window.KaptainTelemetry = {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-  bootstrapKaptain().catch((err) => {
+  bootstrapMaCollection().catch((err) => {
     console.error('[Kaptain] bootstrap failed', err);
     initializeDatabase();
     bindGlobalEvents();
   });
 });
 
-async function bootstrapKaptain() {
+async function bootstrapMaCollection() {
   await maybeActivateTestChannelFromUrl();
   initializeDatabase();
   bindGlobalEvents();
   updateBetaBanner();
-  window.KaptainTelemetry.hit('visits');
-  window.KaptainTelemetry.get('deployments');
+  window.MaCollectionTelemetry.hit('visits');
+  window.MaCollectionTelemetry.get('deployments');
 }
 
 // ==========================================================================
@@ -283,11 +283,11 @@ async function bootstrapKaptain() {
 // Not cryptographic — rotate codes when a beta ends.
 // ==========================================================================
 
-const TEST_CHANNEL_STORAGE_KEY = 'kaptain_test_channel';
-const BETA_BANNER_HIDE_KEY = 'kaptain_beta_banner_hidden';
+const TEST_CHANNEL_STORAGE_KEY = 'ma_collection_test_channel';
+const BETA_BANNER_HIDE_KEY = 'ma_collection_beta_banner_hidden';
 
 function getTestChannels() {
-  return window.KAPTAIN_TEST_CHANNELS || {};
+  return window.MA_COLLECTION_TEST_CHANNELS || {};
 }
 
 /**
@@ -299,9 +299,9 @@ function getTestChannels() {
  * Security fixes are deliberately NOT gated on this - they apply to everyone.
  */
 function isPreviewFeature() {
-  return !!window.KAPTAIN_TEST_CHANNEL;
+  return !!window.MA_COLLECTION_TEST_CHANNEL;
 }
-window.KaptainPreview = isPreviewFeature;
+window.MaCollectionPreview = isPreviewFeature;
 
 function getFriendChannels() {
   const channels = getTestChannels();
@@ -310,7 +310,7 @@ function getFriendChannels() {
     .filter((ch) => ch && ch.friendPack);
 }
 
-function showFriendsOfKaptainChooser() {
+function showFriendsOfMaCollectionChooser() {
   const existing = document.getElementById('friends-chooser-overlay');
   if (existing) existing.remove();
 
@@ -384,14 +384,14 @@ function setBetaBannerSessionHidden(hidden) {
 
 function getBetaBannerEl() {
   return document.getElementById('title-screen-beta-indicator')
-    || document.getElementById('kaptain-beta-banner');
+    || document.getElementById('ma-collection-beta-banner');
 }
 
 function syncBetaBannerHeight() {
   const banner = getBetaBannerEl();
-  const visible = !!(banner && !banner.hidden && document.body.classList.contains('kaptain-beta-active'));
+  const visible = !!(banner && !banner.hidden && document.body.classList.contains('ma-collection-beta-active'));
   const h = visible ? Math.ceil(banner.getBoundingClientRect().height) : 0;
-  document.documentElement.style.setProperty('--kaptain-beta-banner-height', `${h}px`);
+  document.documentElement.style.setProperty('--ma-collection-beta-banner-height', `${h}px`);
 }
 
 function normalizeTestCode(raw) {
@@ -412,15 +412,15 @@ function clearStoredTestChannel() {
 
 function loadScriptOnce(url) {
   return new Promise((resolve, reject) => {
-    const existing = document.querySelector(`script[data-kaptain-channel-src="${url}"]`);
+    const existing = document.querySelector(`script[data-ma-collection-channel-src="${url}"]`);
     if (existing) {
       resolve();
       return;
     }
     const s = document.createElement('script');
-    s.src = url + (url.includes('?') ? '&' : '?') + 'v=' + (window.KAPTAIN_ASSET_VERSION || Date.now());
+    s.src = url + (url.includes('?') ? '&' : '?') + 'v=' + (window.MA_COLLECTION_ASSET_VERSION || Date.now());
     s.async = false;
-    s.dataset.kaptainChannelSrc = url;
+    s.dataset.maCollectionChannelSrc = url;
     s.onload = () => resolve();
     s.onerror = () => reject(new Error('Could not load preview catalog: ' + url));
     document.head.appendChild(s);
@@ -433,8 +433,8 @@ async function activateTestChannel(channel, { reloadIfNeeded = false, showNotes 
   if (!window.NUVIO_DATABASE || !Array.isArray(window.NUVIO_DATABASE) || !window.NUVIO_DATABASE.length) {
     throw new Error('Preview catalog failed to load');
   }
-  window.KAPTAIN_TEST_CHANNEL = channel;
-  window.KAPTAIN_CATALOG_TEMPLATE_URL = channel.templateUrl || null;
+  window.MA_COLLECTION_TEST_CHANNEL = channel;
+  window.MA_COLLECTION_CATALOG_TEMPLATE_URL = channel.templateUrl || null;
   clearStoredTestChannel();
   updateBetaBanner();
   applyFriendTitleBranding(channel);
@@ -481,7 +481,7 @@ function playFriendIntroHero(channel) {
         <div class="friend-intro-glass">
           <p class="friend-intro-eyebrow">Friends of Kaptain</p>
           <div class="friend-intro-names" aria-hidden="true">
-            <span class="friend-intro-name friend-intro-kaptain">Kaptain</span>
+            <span class="friend-intro-name friend-intro-ma-collection">Kaptain</span>
             <span class="friend-intro-plus"><span class="friend-intro-plus-core">+</span></span>
             <span class="friend-intro-name friend-intro-friend">${escapeHtmlBeta(creator)}</span>
           </div>
@@ -515,8 +515,8 @@ function playFriendIntroHero(channel) {
 function exitTestChannel() {
   clearStoredTestChannel();
   setBetaBannerSessionHidden(false);
-  window.KAPTAIN_TEST_CHANNEL = null;
-  window.KAPTAIN_CATALOG_TEMPLATE_URL = null;
+  window.MA_COLLECTION_TEST_CHANNEL = null;
+  window.MA_COLLECTION_CATALOG_TEMPLATE_URL = null;
   const url = new URL(window.location.href);
   url.searchParams.delete('test');
   url.searchParams.delete('code');
@@ -561,18 +561,18 @@ function setTestCodeStatus(msg, isError) {
 
 function updateBetaBanner() {
   const banner = getBetaBannerEl();
-  const text = document.getElementById('kaptain-beta-banner-text')
-    || banner?.querySelector('.kaptain-beta-banner-text, .title-beta-text');
-  const pill = document.getElementById('kaptain-beta-pill')
-    || banner?.querySelector('.kaptain-beta-pill, .kaptain-beta-badge');
-  const exitBtn = document.getElementById('kaptain-beta-exit');
-  const channel = window.KAPTAIN_TEST_CHANNEL;
+  const text = document.getElementById('ma-collection-beta-banner-text')
+    || banner?.querySelector('.ma-collection-beta-banner-text, .title-beta-text');
+  const pill = document.getElementById('ma-collection-beta-pill')
+    || banner?.querySelector('.ma-collection-beta-pill, .ma-collection-beta-badge');
+  const exitBtn = document.getElementById('ma-collection-beta-exit');
+  const channel = window.MA_COLLECTION_TEST_CHANNEL;
   if (!banner) return;
   if (!channel) {
     banner.hidden = true;
     banner.style.display = 'none';
-    document.body.classList.remove('kaptain-beta-active');
-    document.body.classList.remove('kaptain-friend-active');
+    document.body.classList.remove('ma-collection-beta-active');
+    document.body.classList.remove('ma-collection-friend-active');
     setBetaBannerSessionHidden(false);
     syncBetaBannerHeight();
     return;
@@ -581,8 +581,8 @@ function updateBetaBanner() {
   const hideBanner = isBetaBannerSessionHidden();
   banner.hidden = hideBanner;
   banner.style.display = hideBanner ? 'none' : '';
-  document.body.classList.toggle('kaptain-beta-active', !hideBanner);
-  document.body.classList.toggle('kaptain-friend-active', isFriend && !hideBanner);
+  document.body.classList.toggle('ma-collection-beta-active', !hideBanner);
+  document.body.classList.toggle('ma-collection-friend-active', isFriend && !hideBanner);
   if (pill) {
     const ver = channel.versionLabel || channel.label || channel.id;
     pill.textContent = isFriend ? 'FRIENDS' : (ver ? `${ver} Preview` : 'Preview');
@@ -613,7 +613,7 @@ function updateBetaBanner() {
 }
 
 function hideBetaBannerForSession() {
-  if (!window.KAPTAIN_TEST_CHANNEL) return;
+  if (!window.MA_COLLECTION_TEST_CHANNEL) return;
   setBetaBannerSessionHidden(true);
   updateBetaBanner();
 }
@@ -678,9 +678,9 @@ function bindTestCodeUi() {
   const panel = document.getElementById('title-test-code-panel');
   const input = document.getElementById('title-test-code-input');
   const applyBtn = document.getElementById('title-test-code-apply');
-  const exitBtn = document.getElementById('kaptain-beta-exit');
-  const notesBtn = document.getElementById('kaptain-beta-notes');
-  const hideBtn = document.getElementById('kaptain-beta-hide');
+  const exitBtn = document.getElementById('ma-collection-beta-exit');
+  const notesBtn = document.getElementById('ma-collection-beta-notes');
+  const hideBtn = document.getElementById('ma-collection-beta-hide');
 
   // Never pre-fill the code field
   if (input) input.value = '';
@@ -722,11 +722,11 @@ function bindTestCodeUi() {
   });
   exitBtn?.addEventListener('click', () => exitTestChannel());
   notesBtn?.addEventListener('click', () => {
-    if (window.KAPTAIN_TEST_CHANNEL) showBetaPatchNotes(window.KAPTAIN_TEST_CHANNEL);
+    if (window.MA_COLLECTION_TEST_CHANNEL) showBetaPatchNotes(window.MA_COLLECTION_TEST_CHANNEL);
   });
   hideBtn?.addEventListener('click', () => hideBetaBannerForSession());
   window.addEventListener('resize', () => {
-    if (window.KAPTAIN_TEST_CHANNEL) updateBetaBanner();
+    if (window.MA_COLLECTION_TEST_CHANNEL) updateBetaBanner();
     else syncBetaBannerHeight();
   });
 }
@@ -735,7 +735,7 @@ function initializeDatabase() {
   if (window.NUVIO_DATABASE && Array.isArray(window.NUVIO_DATABASE)) {
     database = window.NUVIO_DATABASE;
     // Actualiser uniquement les selections annuelles, jamais les decennies historiques.
-    window.KaptainCatalogUtils?.updateRollingYearFilters(database);
+    window.MaCollectionCatalogUtils?.updateRollingYearFilters(database);
     // La base préconstruite a francisé par erreur la marque TV « History ».
     // Cette correction ne touche qu'au titre affiché de ce dossier précis.
     const networks = database.find(c => c.id === '27bda92a-f626-4093-a2ba-0a32dc09437a');
@@ -2386,7 +2386,7 @@ const livePreviewCache = {};
 
 async function fetchLiveTitles(folder, source) {
   if (!source || (source.provider && source.provider.toLowerCase() !== 'tmdb')) return null;
-  const isTV = window.KaptainCatalogUtils?.isTelevisionSource(source)
+  const isTV = window.MaCollectionCatalogUtils?.isTelevisionSource(source)
     ?? ['TV', 'TV_SHOW'].includes(String(source.mediaType || '').toUpperCase());
   const isLandscape = (folder.tileShape || '').toUpperCase() === 'LANDSCAPE';
   const type = (source.tmdbSourceType || '').toUpperCase();
@@ -2747,7 +2747,7 @@ function bindPreviewControls() {
     vm.value = selectedViewMode;
     vm.addEventListener('change', () => {
       selectedViewMode = vm.value;
-      try { localStorage.setItem('kaptain_view_mode', selectedViewMode); } catch (e) { /* ignore */ }
+      try { localStorage.setItem('ma_collection_view_mode', selectedViewMode); } catch (e) { /* ignore */ }
       const editorSel = document.getElementById('viewmode-select');
       if (editorSel) { editorSel.value = selectedViewMode; updateRowsWarning(editorSel); }
     });
@@ -2755,7 +2755,7 @@ function bindPreviewControls() {
   document.querySelectorAll('.nv-device-opt').forEach(btn => {
     btn.addEventListener('click', () => {
       previewDevice = btn.getAttribute('data-device');
-      try { localStorage.setItem('kaptain_preview_device', previewDevice); } catch (e) { /* ignore */ }
+      try { localStorage.setItem('ma_collection_preview_device', previewDevice); } catch (e) { /* ignore */ }
       renderPreviewCollection();
     });
   });
@@ -3041,7 +3041,7 @@ function computeExportViewMode(optimize) {
 // integration in the wizard, which is a different feature entirely.
 const BINGECAT_LOGO_SRC = 'assets/bingecat-logo.png';
 const BINGECAT_IMPORT_ENDPOINT = String(
-  window.KAPTAIN_BINGECAT_IMPORT_ENDPOINT
+  window.MA_COLLECTION_BINGECAT_IMPORT_ENDPOINT
     || 'https://bingecat.com/integrations/kaptain/collections'
 ).trim();
 
@@ -3457,7 +3457,7 @@ async function compileAndDownloadJSON(skipConfirm, includeBingecat = false) {
 
     if (popup) popup.classList.remove('open');
     showToast("Your custom collection file has been downloaded.", "success");
-    window.KaptainTelemetry.hit('deployments');
+    window.MaCollectionTelemetry.hit('deployments');
   }, 900);
 }
 
@@ -3504,7 +3504,7 @@ function applyLocaleDict(collections, localeDict) {
 }
 
 async function applyLocaleToCollection(collections) {
-  const cust = window.kaptainCustomize;
+  const cust = window.maCollectionCustomize;
   if (!cust || !cust.locale || cust.locale === 'en') return collections;
   try {
     const res = await fetch('locales/' + cust.locale + '.json?v=' + Date.now());
@@ -3537,17 +3537,17 @@ function assembleFilteredDatabase(optimize) {
         if (selectedMap[folderKey] && selectedMap[folderKey][getSourceKey(source)]) {
                     let clonedSource = { ...source };
           
-          if (window.kaptainCustomize || window.kaptainExcludeAnime || window.kaptainExcludeBollywood) {
+          if (window.maCollectionCustomize || window.maCollectionExcludeAnime || window.maCollectionExcludeBollywood) {
             clonedSource.filters = { ...(clonedSource.filters || {}) };
             
-            const cust = window.kaptainCustomize || {};
+            const cust = window.maCollectionCustomize || {};
             
             // Negative Filters
-            if (cust.excludeAnime || window.kaptainExcludeAnime) {
+            if (cust.excludeAnime || window.maCollectionExcludeAnime) {
                 clonedSource.filters.withoutGenres = clonedSource.filters.withoutGenres ? clonedSource.filters.withoutGenres + '|16' : '16';
                 clonedSource.filters.withoutKeywords = clonedSource.filters.withoutKeywords ? clonedSource.filters.withoutKeywords + '|210024' : '210024';
             }
-            if (cust.excludeBollywood || window.kaptainExcludeBollywood) {
+            if (cust.excludeBollywood || window.maCollectionExcludeBollywood) {
                 clonedSource.filters.withoutKeywords = clonedSource.filters.withoutKeywords ? clonedSource.filters.withoutKeywords + '|9715' : '9715';
             }
             if (cust.excludeHorror) {
@@ -3662,7 +3662,7 @@ function ensureMobileCompat(actionFn, opts) {
 
   let remembered = [];
   try {
-    const raw = JSON.parse(localStorage.getItem('kaptain_last_devices') || '[]');
+    const raw = JSON.parse(localStorage.getItem('ma_collection_last_devices') || '[]');
     if (Array.isArray(raw)) remembered = raw;
   } catch (e) {}
 
@@ -3739,11 +3739,11 @@ function ensureMobileCompat(actionFn, opts) {
     const isMobileSelected = currentDevice === 'mobile' || currentDevice === 'both';
     const opt = isMobileSelected && checkbox && checkbox.checked;
     lastExportOptimize = !!opt;
-    if (window.KaptainExport && window.KaptainExport.setLastExportOptimize) {
-      window.KaptainExport.setLastExportOptimize(lastExportOptimize);
+    if (window.MaCollectionExport && window.MaCollectionExport.setLastExportOptimize) {
+      window.MaCollectionExport.setLastExportOptimize(lastExportOptimize);
     }
     const devArray = currentDevice === 'both' ? ['tv', 'mobile'] : [currentDevice];
-    try { localStorage.setItem('kaptain_last_devices', JSON.stringify(devArray)); } catch (e) {}
+    try { localStorage.setItem('ma_collection_last_devices', JSON.stringify(devArray)); } catch (e) {}
     cleanup();
     actionFn();
   };
@@ -3761,13 +3761,13 @@ function ensureMobileCompat(actionFn, opts) {
 // Exposed for wizard.js so "Send to Nuvio" routes through the same gate.
 
 // ==========================================================================
-// OPTIONAL ACCOUNT VAULT BRIDGE (no-op unless KaptainAccount is unlocked)
+// OPTIONAL ACCOUNT VAULT BRIDGE (no-op unless MaCollectionAccount is unlocked)
 // ==========================================================================
 
 function notifyAccountSave() {
   try {
-    if (window.KaptainAccount && typeof window.KaptainAccount.scheduleSave === "function") {
-      window.KaptainAccount.scheduleSave();
+    if (window.MaCollectionAccount && typeof window.MaCollectionAccount.scheduleSave === "function") {
+      window.MaCollectionAccount.scheduleSave();
     }
   } catch (e) { /* ignore */ }
 }
@@ -3921,15 +3921,15 @@ function accountApply(payload) {
 
   if (typeof coll.gifDisableStreaming === "boolean") {
     gifDisableStreaming = coll.gifDisableStreaming;
-    try { localStorage.setItem("kaptain_gif_disable_streaming", gifDisableStreaming ? "1" : "0"); } catch (e) {}
+    try { localStorage.setItem("ma_collection_gif_disable_streaming", gifDisableStreaming ? "1" : "0"); } catch (e) {}
   }
   if (typeof coll.gifDisableOther === "boolean") {
     gifDisableOther = coll.gifDisableOther;
-    try { localStorage.setItem("kaptain_gif_disable_other", gifDisableOther ? "1" : "0"); } catch (e) {}
+    try { localStorage.setItem("ma_collection_gif_disable_other", gifDisableOther ? "1" : "0"); } catch (e) {}
   }
   if (coll.viewMode) {
     selectedViewMode = coll.viewMode;
-    try { localStorage.setItem("kaptain_view_mode", selectedViewMode); } catch (e) {}
+    try { localStorage.setItem("ma_collection_view_mode", selectedViewMode); } catch (e) {}
   }
 
   try {
@@ -3948,17 +3948,17 @@ function accountApply(payload) {
       renderSimpleSettings();
     }
   } catch (e) {
-    console.warn("[KaptainAccount] apply refresh failed", e);
+    console.warn("[MaCollectionAccount] apply refresh failed", e);
   }
 }
 
-window.KaptainAccountBridge = {
+window.MaCollectionAccountBridge = {
   snapshot: accountSnapshot,
   apply: accountApply,
 };
 
 
-window.KaptainExport = {
+window.MaCollectionExport = {
   ensureMobileCompat,
   compileAndDownloadJSON,
   assembleFilteredDatabase,
@@ -3987,8 +3987,8 @@ function toggleSupportModal(force) {
   const willOpen = (force === undefined) ? !overlay.classList.contains('open') : force;
   overlay.classList.toggle('open', willOpen);
   if (willOpen) {
-    const gate = document.getElementById('sidebar-tip-kaptain-gate');
-    const tipBtn = document.getElementById('sidebar-tip-kaptain-btn');
+    const gate = document.getElementById('sidebar-tip-ma-collection-gate');
+    const tipBtn = document.getElementById('sidebar-tip-ma-collection-btn');
     if (gate) gate.style.display = 'none';
     if (tipBtn) tipBtn.style.display = '';
   }
@@ -4125,7 +4125,7 @@ function bindGlobalEvents() {
     updateRowsWarning(viewModeSelect);
     viewModeSelect.addEventListener('change', () => {
       selectedViewMode = viewModeSelect.value;
-      try { localStorage.setItem('kaptain_view_mode', selectedViewMode); } catch (e) { /* ignore */ }
+      try { localStorage.setItem('ma_collection_view_mode', selectedViewMode); } catch (e) { /* ignore */ }
       updateRowsWarning(viewModeSelect);
     });
   }
@@ -4276,7 +4276,7 @@ function bindGlobalEvents() {
   });
 
   document.getElementById('title-screen-friends')?.addEventListener('click', () => {
-    showFriendsOfKaptainChooser();
+    showFriendsOfMaCollectionChooser();
   });
 
   document.getElementById('title-screen-selfhost')?.addEventListener('click', () => {
@@ -4293,7 +4293,7 @@ function bindGlobalEvents() {
     initializeSelections();
     renderSidebar();
     if (isPreviewActive) renderPreviewCollection();
-    window.__kaptainAfterCustomize = () => {
+    window.__maCollectionAfterCustomize = () => {
       window.NuvioWizard && window.NuvioWizard.open({ skipChoose: true });
     };
     if (window.startCustomize) window.startCustomize();
@@ -4336,9 +4336,9 @@ function bindGlobalEvents() {
     document.getElementById('support-close')?.addEventListener('click', () => toggleSupportModal(false));
   }
   document.getElementById('btn-sidebar-support')?.addEventListener('click', () => toggleSupportModal(true));
-  document.getElementById('sidebar-tip-kaptain-btn')?.addEventListener('click', () => {
-    const gate = document.getElementById('sidebar-tip-kaptain-gate');
-    const tipBtn = document.getElementById('sidebar-tip-kaptain-btn');
+  document.getElementById('sidebar-tip-ma-collection-btn')?.addEventListener('click', () => {
+    const gate = document.getElementById('sidebar-tip-ma-collection-gate');
+    const tipBtn = document.getElementById('sidebar-tip-ma-collection-btn');
     if (gate) gate.style.display = 'block';
     if (tipBtn) tipBtn.style.display = 'none';
   });
@@ -4378,7 +4378,7 @@ function bindGlobalEvents() {
 function showTitleScreen() {
   const overlay = document.getElementById('title-screen-overlay');
   const versionEl = document.getElementById('title-screen-version');
-  if (versionEl) versionEl.textContent = KAPTAIN_UPDATED;
+  if (versionEl) versionEl.textContent = MA_COLLECTION_UPDATED;
   if (overlay) overlay.classList.add('active');
   renderChangelogBanner();
 }
@@ -4388,11 +4388,11 @@ function hideTitleScreen() {
 }
 
 function getLastSeenVersion() {
-  try { return localStorage.getItem('kaptain_last_seen_version'); } catch (e) { return null; }
+  try { return localStorage.getItem('ma_collection_last_seen_version'); } catch (e) { return null; }
 }
 
 function setLastSeenVersion(version) {
-  try { localStorage.setItem('kaptain_last_seen_version', version); } catch (e) {}
+  try { localStorage.setItem('ma_collection_last_seen_version', version); } catch (e) {}
 }
 
 function renderChangelogBanner() {
@@ -4402,7 +4402,7 @@ function renderChangelogBanner() {
 }
 
 function dismissChangelogBanner() {
-  setLastSeenVersion(KAPTAIN_VERSION);
+  setLastSeenVersion(MA_COLLECTION_VERSION);
   const banner = document.getElementById('title-screen-changelog');
   if (banner) banner.style.display = 'none';
 }
@@ -4768,14 +4768,14 @@ function wireSimpleSettings() {
   const gifStreamingCb = document.getElementById('se-gif-disable-streaming');
   if (gifStreamingCb) gifStreamingCb.addEventListener('change', () => {
     gifDisableStreaming = gifStreamingCb.checked;
-    try { localStorage.setItem('kaptain_gif_disable_streaming', gifDisableStreaming ? '1' : '0'); } catch (e) {}
+    try { localStorage.setItem('ma_collection_gif_disable_streaming', gifDisableStreaming ? '1' : '0'); } catch (e) {}
     renderFolderGrid();
     renderSimpleCollection();
   });
   const gifOtherCb = document.getElementById('se-gif-disable-other');
   if (gifOtherCb) gifOtherCb.addEventListener('change', () => {
     gifDisableOther = gifOtherCb.checked;
-    try { localStorage.setItem('kaptain_gif_disable_other', gifDisableOther ? '1' : '0'); } catch (e) {}
+    try { localStorage.setItem('ma_collection_gif_disable_other', gifDisableOther ? '1' : '0'); } catch (e) {}
     renderFolderGrid();
     renderSimpleCollection();
   });
@@ -4819,8 +4819,8 @@ function seSend() {
     addons: seEnsureAddons(),
   };
   const launch = () => { if (window.NuvioWizard) window.NuvioWizard.open({ skipChoose: true, prefill }); };
-  if (window.KaptainExport && typeof window.KaptainExport.ensureMobileCompat === 'function') {
-    window.KaptainExport.ensureMobileCompat(launch);
+  if (window.MaCollectionExport && typeof window.MaCollectionExport.ensureMobileCompat === 'function') {
+    window.MaCollectionExport.ensureMobileCompat(launch);
   } else { launch(); }
 }
 
@@ -5151,13 +5151,13 @@ function endWalkthrough() {
   }
 
   // Mark as completed
-  localStorage.setItem('kaptain_tour_done', '1');
+  localStorage.setItem('ma_collection_tour_done', '1');
 
   showToast("Pick your folders and customize away.", "success");
 
   // One-time navigation hint (shown only after the very first tour completion)
-  if (!localStorage.getItem('kaptain_nav_hint_shown')) {
-    localStorage.setItem('kaptain_nav_hint_shown', '1');
+  if (!localStorage.getItem('ma_collection_nav_hint_shown')) {
+    localStorage.setItem('ma_collection_nav_hint_shown', '1');
     setTimeout(() => showToast('Tip: use arrow keys or swipe to navigate sections.', 'success'), 3500);
   }
 }
@@ -5242,7 +5242,7 @@ function getSelectedFolderIds() {
 function checkSyncState() {
   const dot = document.getElementById('sync-dot');
   if (!dot) return;
-  const raw = localStorage.getItem('kaptain_last_push');
+  const raw = localStorage.getItem('ma_collection_last_push');
   if (!raw) { dot.className = 'sync-dot'; dot.title = ''; return; }
   try {
     const saved = JSON.parse(raw);
@@ -5285,7 +5285,7 @@ function openQuickPushModal() {
   const desc = document.getElementById('quick-push-desc');
   if (!overlay) return;
 
-  const raw = localStorage.getItem('kaptain_last_push');
+  const raw = localStorage.getItem('ma_collection_last_push');
   if (desc && raw) {
     try {
       const saved = JSON.parse(raw);
@@ -5405,7 +5405,7 @@ async function performQuickPush() {
   if (btn) { btn.disabled = true; btn.textContent = 'Pushing…'; }
 
   try {
-    const raw = localStorage.getItem('kaptain_last_push');
+    const raw = localStorage.getItem('ma_collection_last_push');
     if (!raw) throw new Error('no_state');
     const saved = JSON.parse(raw);
     const { profileId } = saved;
@@ -5413,7 +5413,7 @@ async function performQuickPush() {
     // A new tab or a returning visitor has no token and is sent back through
     // Send to Nuvio to sign in again.
     let token = null;
-    try { token = sessionStorage.getItem('kaptain_push_token'); } catch (e) {}
+    try { token = sessionStorage.getItem('ma_collection_push_token'); } catch (e) {}
     if (!token || !profileId) throw new Error('no_auth');
 
     let incoming = assembleFilteredDatabase();
@@ -5440,7 +5440,7 @@ async function performQuickPush() {
 
     await window.NuvioPush.pushCollections(token, profileId, merged);
 
-    localStorage.setItem('kaptain_last_push', JSON.stringify({
+    localStorage.setItem('ma_collection_last_push', JSON.stringify({
       ...saved, timestamp: Date.now(), folderIds: getSelectedFolderIds(),
     }));
     checkSyncState();
@@ -5664,7 +5664,7 @@ function _runSmartStart(answers) {
     else if (device === 'phone') { vmSelect.value = 'TABBED_GRID'; vmSelect.dispatchEvent(new Event('change')); }
   }
 
-  try { localStorage.setItem('kaptain_quiz_answers', JSON.stringify(answers)); } catch (_) {}
+  try { localStorage.setItem('ma_collection_quiz_answers', JSON.stringify(answers)); } catch (_) {}
   return top.length;
 }
 

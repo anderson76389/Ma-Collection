@@ -8,7 +8,7 @@
  * Never put service-role keys here. Anon key only, from a SEPARATE
  * Supabase project (not Nuvio's api.nuvio.tv).
  */
-window.KAPTAIN_ACCOUNT = Object.assign({
+window.MA_COLLECTION_ACCOUNT = Object.assign({
   enabled: true,
   // When enabled without supabaseUrl/anonKey, local encrypted vault still works
   // (passphrase-protected localStorage). Cloud sync needs the fields below.
@@ -16,4 +16,4 @@ window.KAPTAIN_ACCOUNT = Object.assign({
   supabaseAnonKey: '',
   // Optional force: ?account=1 / ?account=0 (see account-vault.js).
   showUiWhenDisabled: false,
-}, window.KAPTAIN_ACCOUNT || {});
+}, window.MA_COLLECTION_ACCOUNT || {});

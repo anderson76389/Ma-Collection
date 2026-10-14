@@ -8,7 +8,7 @@
  * Friend packs (friendPack: {...}) load another creator's collection as-is and
  * teach Native Mode to provision their AIO Metadata catalog pack on push.
  */
-window.KAPTAIN_TEST_CHANNELS = {
+window.MA_COLLECTION_TEST_CHANNELS = {
   // v0.92 preview: latest Studio draft — title logos, International flags, Discover Top lockups
   MEGA092: {
     id: 'MEGA092',
