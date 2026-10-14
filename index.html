@@ -761,11 +761,11 @@
       <h3 class="quick-push-title" id="destination-heading">Où importer votre collection ?</h3>
       <p class="quick-push-desc">Choisissez l'application. Vos catégories et sous-catégories restent en français.</p>
       <div class="quick-push-actions" style="display:flex;flex-direction:column;align-items:stretch;gap:12px">
-        <button id="destination-kovelyx" type="button" class="quick-push-btn-primary" style="text-align:left">🟣 Kovelyx — Copier et importer le JSON</button>
+        <button id="destination-kovelyx" type="button" class="quick-push-btn-primary" style="text-align:left">🟣 Kovelyx — Importer directement dans l'application</button>
         <button id="destination-nuvio" type="button" class="quick-push-btn-secondary" style="text-align:left">📺 Nuvio — Envoyer vers mon compte</button>
         <button id="destination-cancel" type="button" class="quick-push-btn-secondary">Annuler</button>
       </div>
-      <p class="quick-push-desc" style="margin:15px 0 0">Kovelyx : import local depuis le presse-papiers. Nuvio : connexion au compte pour l'envoi direct.</p>
+      <p class="quick-push-desc" style="margin:15px 0 0">Kovelyx : envoi local avec confirmation dans l'application. Nuvio : connexion au compte pour l'envoi direct.</p>
     </div>
   </div>
 
@@ -774,14 +774,15 @@
     <div class="quick-push-panel" style="max-width:480px;max-height:90vh;overflow:auto">
       <div class="quick-push-icon">📋</div>
       <h3 id="kovelyx-export-title" class="quick-push-title">Exporter vers Kovelyx PC</h3>
-      <p class="quick-push-desc">Cliquez sur « Copier le JSON ». Dans Kovelyx, ouvrez <strong>Collections</strong>, cliquez sur l'icône <strong>Importer</strong>, collez la collection et confirmez.</p>
-      <p class="quick-push-desc"><strong>Attention :</strong> l'import remplace les collections du profil Kovelyx. Sauvegardez-les auparavant avec l'icône de copie dans Kovelyx.</p>
+      <p class="quick-push-desc">Cliquez sur <strong>Importer directement</strong> pour envoyer votre sélection à Kovelyx PC. L'application s'ouvrira si elle est installée ; confirmez ensuite l'import dans Kovelyx. Ouvrez Kovelyx au moins une fois après son installation pour activer le lien direct.</p>
+      <p class="quick-push-desc"><strong>Attention :</strong> l'import remplace les collections du profil Kovelyx actif. L'application crée une sauvegarde locale avant le remplacement. La copie ou le téléchargement JSON restent disponibles si l'envoi direct ne fonctionne pas.</p>
       <p class="quick-push-desc">Les extensions utilisées par les catalogues doivent également être installées et configurées dans Kovelyx.</p>
       <p id="kovelyx-export-status" class="quick-push-desc" role="status" aria-live="polite"></p>
       <div class="quick-push-actions" style="display:flex;flex-wrap:wrap;justify-content:center;gap:8px">
         <button type="button" id="kovelyx-export-close" class="quick-push-btn-secondary">Fermer</button>
         <button type="button" id="kovelyx-export-download" class="quick-push-btn-secondary">Télécharger JSON</button>
-        <button type="button" id="kovelyx-export-copy" class="quick-push-btn-primary">Copier le JSON</button>
+        <button type="button" id="kovelyx-export-copy" class="quick-push-btn-secondary">Copier le JSON</button>
+        <button type="button" id="kovelyx-export-direct" class="quick-push-btn-primary">Importer directement dans Kovelyx</button>
       </div>
     </div>
   </div>
@@ -1000,13 +1001,13 @@
   <script src="scripts/catalog-utils.js?v=94.0"></script>
   <script src="catalog-labels-fr.js?v=1"></script>
   <script src="app.js?v=95.3"></script>
-  <script src="kovelyx-export.js?v=1"></script>
+  <script src="kovelyx-export.js?v=2"></script>
   <script src="nuvio-push.js?v=92.3"></script>
   <script>window.MA_COLLECTION_ASSET_VERSION = 92.4;</script>
   <script src="wizard.js?v=93.2"></script>
   <script src="account-ui.js?v=93.1"></script>
   <script src="profile-studio.js?v=93.1"></script>
   <script src="site-fr.js?v=28"></script>
-  <script src="destination-picker.js?v=1"></script>
+  <script src="destination-picker.js?v=2"></script>
 </body>
 </html>
