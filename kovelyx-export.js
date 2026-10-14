@@ -1,4 +1,4 @@
-/* Ma-Collection : import JSON local dans Kovelyx PC, sans comptes Nuvio. */
+/* Ma-Collection : import JSON indépendant vers Kovelyx PC. */
 (() => {
   "use strict";
   const byId = id => document.getElementById(id);
