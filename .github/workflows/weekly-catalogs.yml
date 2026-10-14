@@ -4,6 +4,16 @@ on:
   schedule:
     - cron: '17 5 * * 1' # Lundi 05:17 UTC ; dates normalisées au lundi
   workflow_dispatch: {}
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/weekly-catalogs.yml
+      - scripts/catalog-utils.js
+      - scripts/refresh-weekly-catalogs.mjs
+      - scripts/audit-dynamic-catalogs.mjs
+      - tests/weekly-catalogs.test.cjs
+      - tests/dynamic-audit.test.mjs
 
 permissions:
   contents: write
