@@ -88,7 +88,7 @@
 
   function start() {
     document.documentElement.lang = "fr";
-    const pageTitle = "Kaptain's Mega Collection : personnalisez votre collection Nuvio";
+    const pageTitle = "Ma-Collection : personnalisez votre collection Nuvio";
     if (document.title.includes("Build Your Custom Nuvio Setup")) document.title = pageTitle;
     Promise.allSettled(dictionaries.map(path =>
       fetch(path).then(response => {

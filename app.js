@@ -645,7 +645,7 @@ function showBetaPatchNotes(channel) {
   overlay.innerHTML = `
     <div class="popup-panel beta-notes-panel" role="dialog" aria-modal="true" aria-labelledby="beta-notes-title">
       <div class="beta-notes-brand" aria-hidden="true">
-        <img class="beta-notes-logo" src="assets/kaptain-logo.png" alt="">
+        <img class="beta-notes-logo" src="assets/ma-collection.webp" alt="">
       </div>
       <h3 class="popup-title" id="beta-notes-title">${escapeHtmlBeta(notes.title || 'Beta patch notes')}</h3>
       <p class="beta-notes-intro">${escapeHtmlBeta(notes.intro || '')}</p>
@@ -2006,7 +2006,7 @@ function setPreviewHero(folder, category) {
   }
   eyebrow.textContent = (previewHeroCategory && previewHeroCategory.title
     ? previewHeroCategory.title
-    : "Kaptain's Collection").toUpperCase();
+    : "Ma-Collection").toUpperCase();
   meta.textContent = `${stats.active}/${stats.total} sources`;
 }
 
@@ -4607,7 +4607,7 @@ function renderSimpleSettings() {
     </div>
     <h3 class="se-sec-title">Profile</h3>
     <label class="se-field">Profile name
-      <input id="se-profile-name" class="se-input" value="${v(seSettings.profileName)}" placeholder="Kaptain's Collection">
+      <input id="se-profile-name" class="se-input" value="${v(seSettings.profileName)}" placeholder="Ma-Collection">
     </label>
     <label class="se-field">Profile image URL <span class="se-hint">(public link)</span>
       <input id="se-avatar-url" class="se-input" value="${v(seSettings.avatarUrl)}" placeholder="https://…/image.jpg">
