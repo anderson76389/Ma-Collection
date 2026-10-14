@@ -5313,6 +5313,12 @@ function handleSendToNuvioClick() {
 }
 
 function startNuvioImport() {
+  // New per-import API keys/poster choices must go through the full wizard,
+  // not the quick sync path which only sends existing collection rows.
+  if (window.__maCollectionPendingImportSettings) {
+    window.NuvioWizard?.open({ skipChoose: true });
+    return;
+  }
   const dot = document.getElementById('sync-dot');
   if (dot && dot.classList.contains('out-of-sync')) {
     openQuickPushModal();
