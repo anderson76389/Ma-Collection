@@ -6,28 +6,40 @@
  * node scripts/build-fr-export.mjs --write : régénérer export/nuvio-collection-fr.json
  * node scripts/build-fr-export.mjs --check : valider la dernière génération
  */
-import { readFile, mkdir, writeFile } from "node:fs/promises";
+import { readFile, readdir, mkdir, writeFile } from "node:fs/promises";
 import { resolve, join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 const root=resolve(dirname(fileURLToPath(import.meta.url)),"..");
-// Utiliser la base réellement affichée par le site, et non la variante
-// "mega" qui ne contient que 18 catégories dans ce dépôt.
-const input=join(root,"collections/database.js");
+// Les fichiers individuels sont la source exhaustive des 20 catégories.
+// La base web compacte n'en conserve que 16, la variante "mega" 18.
+const sourceFolder=join(root,"collections");
 const target=join(root,"export/nuvio-collection-fr.json");
 const mode=process.argv.includes("--write")?"write":process.argv.includes("--check")?"check":null;
 if(!mode|| (process.argv.includes("--write") && process.argv.includes("--check")))
   throw new Error("Utilisation : --write OU --check");
-const [original,translations]=await Promise.all([
-  readFile(input,"utf8"),readFile(join(root,"locales/fr.json"),"utf8")
-]);
-const match=original.match(/^window\.NUVIO_DATABASE\s*=\s*(\[[\s\S]*\]);\s*$/);
-if(!match)throw new Error("Format de collections/database.js inattendu");
-const before=JSON.parse(match[1]);
-const dict=JSON.parse(translations);
-if(!Array.isArray(before) || before.length<19 || Object.keys(dict).length<2300)
-  throw new Error("Collection ou dictionnaire français incomplet : catégories="+
-    (Array.isArray(before)?before.length:"invalide")+
-    ", dictionnaire="+Object.keys(dict).length);
+const dict=JSON.parse(await readFile(join(root,"locales/fr.json"),"utf8"));
+if(Object.keys(dict).length<2300)throw new Error("Dictionnaire français incomplet");
+// Conserver l'ordre de la base du site pour les catégories qui y figurent.
+const webDb=await readFile(join(sourceFolder,"database.js"),"utf8");
+const webMatch=webDb.match(/^window\.NUVIO_DATABASE\s*=\s*(\[[\s\S]*\]);\s*$/);
+if(!webMatch)throw new Error("Base du site invalide");
+const webOrder=new Map(JSON.parse(webMatch[1]).map((c,i)=>[c.id,i]));
+const ignored=new Set(["metadata.json","nuvio_mega_collection.json",
+  "kaoxt-aio-base-config.json","kaoxt-aio-catalogs.json"]);
+const files=(await readdir(sourceFolder)).filter(x=>x.endsWith(".json")&&!ignored.has(x)).sort();
+const byId=new Map();
+for(const file of files) {
+  const list=JSON.parse(await readFile(join(sourceFolder,file),"utf8"));
+  if(!Array.isArray(list)||!list.every(x=>x&&Array.isArray(x.folders)))continue;
+  for(const collection of list){
+    if(byId.has(collection.id))throw new Error("Catégorie en double : "+collection.id);
+    byId.set(collection.id,collection);
+  }
+}
+const before=[...byId.values()].sort((a,b)=>(webOrder.get(a.id)??1000)-
+  (webOrder.get(b.id)??1000)||a.title.localeCompare(b.title,"fr"));
+if(before.length<20||before.some(c=>!c.id))
+  throw new Error("Export incomplet : "+before.length+" catégories au lieu de 20");
 const data=structuredClone(before);
 const translated=(s)=>typeof s==="string"&&Object.prototype.hasOwnProperty.call(dict,s)
   ? dict[s] : s;
@@ -37,7 +49,7 @@ const clean=s=>typeof s==="string"
     .replace(/\b(Films|Séries)\s+\1\b/gi,"$1").trim():s;
 const tr=s=>clean(translated(s));
 const stats={categories:0,dossiers:0,sources:0,catalogSources:0,champs_traduits:0,
-  intitulés_introuvables:[],langue:"fr",source:"database.js"};
+  intitulés_introuvables:[],langue:"fr",source:"collections individuelles (20 catégories)"};
 function label(obj,key,forced=null){
   if(!obj||typeof obj[key]!=="string"||!obj[key].trim())return;
   const prev=obj[key],next=forced ?? tr(prev);
