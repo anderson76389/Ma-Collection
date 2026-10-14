@@ -1,0 +1,51 @@
+name: Export Nuvio 100 pour cent français
+on:
+  schedule:
+    - cron: '13 9 * * 1'
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/export-fr.yml
+      - scripts/build-fr-export.mjs
+      - locales/fr.json
+      - collections/nuvio_mega_collection.json
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ma-collection-export-fr
+  cancel-in-progress: false
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Vérifier l'inventaire des traductions
+        run: |
+          node scripts/audit-fr-catalogs.mjs
+          node --check scripts/build-fr-export.mjs
+      - name: Générer le JSON intégral Nuvio en français
+        run: |
+          node scripts/build-fr-export.mjs --write
+          node scripts/build-fr-export.mjs --check
+      - name: Publier uniquement le JSON dérivé
+        run: |
+          git config user.name 'ma-collection-export-fr'
+          git config user.email 'actions@users.noreply.github.com'
+          git add export/nuvio-collection-fr.json
+          if git diff --cached --quiet; then
+            echo 'Le JSON français est déjà à jour.'
+          else
+            git commit -m 'Actualiser le JSON Nuvio complet en français [skip ci]'
+            git pull --rebase
+            git push
+          fi
