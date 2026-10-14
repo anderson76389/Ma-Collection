@@ -703,6 +703,11 @@ try {
     return labels.length === 55 && labels.every(n => n.textContent === dict[n.dataset.original]);
   }, collectionTranslations, { timeout: 15000 });
 
+  // La traduction ne doit pas dépendre de l'option de langue choisie
+  // précédemment par le navigateur. Le nouveau dépôt est 100 % FR côté Nuvio.
+  await page.evaluate(() => {
+    if (window.maCollectionCustomize) window.maCollectionCustomize.locale = 'en';
+  });
   // Tester le vrai téléchargement JSON sans compte.
   const pendingDownload = page.waitForEvent('download', { timeout: 20000 });
   await page.evaluate(() => window.MaCollectionExport.compileAndDownloadJSON(true));
@@ -710,6 +715,15 @@ try {
   assert(download.suggestedFilename().endsWith('.json'), 'Extension export non JSON');
   const exported = JSON.parse(readFileSync(await download.path(), 'utf8'));
   assert(Array.isArray(exported) && exported.length === rendered.categoryCount, 'Export Nuvio incomplet');
+  const netflixExport = exported.flatMap(c => c.folders || []).find(f => f.title === 'Netflix');
+  assert(netflixExport, 'Netflix absent du JSON envoyé à Nuvio');
+  assert((netflixExport.sources || []).some(x => x.title === 'Nouveaux films' && x.name === 'Nouveaux films'),
+    'Le JSON conserve des sous-catégories anglaises lorsque la langue précédente est EN');
+  assert((netflixExport.sources || []).some(x => x.title === 'Top 10 des films' && x.genre === 'Top 10 des films'),
+    'La traduction ne couvre pas tous les champs de sous-catégorie');
+  await page.evaluate(() => {
+    if (window.maCollectionCustomize) window.maCollectionCustomize.locale = 'fr';
+  });
   assert(exported.flatMap(c => c.folders || []).some(f => (f.sources || []).some(s => s.title === 'Nouveaux films')), 'Titres français manquants dans le JSON exporté');
   assert(exported.every(c => c.id && Array.isArray(c.folders)), 'Structure Nuvio incorrecte');
 
@@ -738,6 +752,37 @@ try {
   assert(seen.length === 1, 'Le bouton d’envoi Nuvio ne produit pas une requête RPC');
   assert(seen[0].p_profile_id === 9999, 'Identifiant de profil Nuvio incorrect');
   assert(Array.isArray(seen[0].p_collections_json) && seen[0].p_collections_json.length === 1, 'Collection Nuvio mal sérialisée');
+
+  // Vérifier directement le dernier point de passage : même une collection
+  // encore anglaise transmise à pushCollections doit arriver FR dans la RPC.
+  const rawEnglish = [{
+    id: 'qa-french-category', title: 'Streaming Services',
+    folders: [{
+      id: 'qa-french-folder', title: 'Netflix',
+      sources: [{ id: 'qa-french-source', title: 'New Movies', name: 'New Movies',
+        genre: 'New Movies', provider: 'tmdb', mediaType: 'MOVIE',
+        filters: { withWatchProviders: '8', watchRegion: 'FR' } }],
+      catalogSources: [{ title: 'Popular Movies', name: 'Popular Movies', genre: 'Popular Movies',
+        addonId: 'test.addon', catalogId: 'non-localize-id' }]
+    }]
+  }];
+  await page.evaluate(async original => {
+    if (window.maCollectionCustomize) window.maCollectionCustomize.locale = 'en';
+    await window.NuvioPush.pushCollections('qa-only-fake-token', 9999, original);
+    if (window.maCollectionCustomize) window.maCollectionCustomize.locale = 'fr';
+  }, rawEnglish);
+  assert.equal(rawEnglish[0].folders[0].sources[0].title, 'New Movies',
+    'pushCollections a modifié le tableau source');
+  assert.equal(seen.length, 2, 'Le second test Nuvio ne passe pas par la RPC');
+  const actual = seen[1].p_collections_json[0];
+  assert.equal(actual.title, 'Plateformes de streaming');
+  assert.equal(actual.folders[0].sources[0].title, 'Nouveaux films');
+  assert.equal(actual.folders[0].sources[0].name, 'Nouveaux films');
+  assert.equal(actual.folders[0].sources[0].genre, 'Nouveaux films');
+  assert.equal(actual.folders[0].catalogSources[0].title, 'Films populaires');
+  assert.equal(actual.folders[0].catalogSources[0].name, 'Films populaires');
+  assert.equal(actual.folders[0].catalogSources[0].catalogId, 'non-localize-id');
+  assert.equal(actual.folders[0].sources[0].filters.withWatchProviders, '8');
 
   await page.setViewportSize({ width: 390, height: 844 });
   assert(await page.evaluate(() => document.documentElement.lang === 'fr'), 'Français absent sur mobile');
