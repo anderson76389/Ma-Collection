@@ -1745,6 +1745,10 @@
     state.friendAioInstance = 'auto';
     state.friendPackApplied = false;
     state.friendAioInstanceCount = 0;
+    // Préconfiguration facultative provenant de l'assistant partagé Nuvio/Kovelyx.
+    // L'assistant Nuvio continue normalement (choix de profil, extensions, etc.).
+    state.importSetup = opts && opts.importSetup && typeof opts.importSetup === 'object'
+      ? { ...opts.importSetup } : null;
     // Pre-filled settings from the Quick editor → applied in one shot, no
     // interactive streaming step.
     state.prefill = (opts && opts.prefill && typeof opts.prefill === 'object') ? opts.prefill : null;
@@ -1758,6 +1762,30 @@
       }
     } catch (e) {}
     if (state.prefill && state.prefill.profileName) state.profileName = String(state.prefill.profileName).trim() || DEFAULT_PROFILE_NAME;
+    if (state.importSetup) {
+      const setup = state.importSetup;
+      const copyIf = (target, source = target) => {
+        if (typeof setup[source] === 'string' && setup[source].trim()) state[target] = setup[source].trim();
+      };
+      copyIf('tmdbKey'); copyIf('mdblistKey'); copyIf('allDebridKey'); copyIf('realDebridKey');
+      copyIf('aioRpdbKey', 'rpdbKey'); copyIf('aioTopPosterKey', 'topPosterKey');
+      copyIf('forYouMdblistKey', 'mdblistKey');
+      if (setup.traktToken) state.aioTraktToken = String(setup.traktToken).trim();
+      if (['alldebrid','realdebrid'].includes(setup.preferredDebridProvider))
+        state.preferredDebridProvider = setup.preferredDebridProvider;
+      if (['none','rpdb','bttr','top'].includes(setup.posterProvider))
+        state.aioPosterService = setup.posterProvider;
+      if (['custom','t0-free-rpdb','t0-free-rpdb-blocks','t0-free-rpdb-rounded-blocks'].includes(setup.rpdbTheme))
+        state.aioRpdbTheme = setup.rpdbTheme;
+      for (const key of ['bttrQuality','bttrGenre','bttrRating','bttrAge']) {
+        if (typeof setup[key] === 'boolean') state[key] = setup[key];
+      }
+      if (['Average','TM','IM','RT','TR'].includes(setup.bttrSource)) state.bttrSource = setup.bttrSource;
+      if (typeof setup.bttrLanguage === 'string') state.bttrLanguage = setup.bttrLanguage;
+      state.aioTmdbKey = state.tmdbKey || state.aioTmdbKey;
+      state.aioDebridType = state.preferredDebridProvider;
+      state.aioDebridKey = state.aioDebridType === 'realdebrid' ? state.realDebridKey : state.allDebridKey;
+    }
     // Routing: collection-only → straight to account (no device or streaming steps).
     // starter → straight to account (streaming-only, no collection or device question).
     // collection + skipChoose → devices step first (asks TV/Mobile before account).
@@ -4597,6 +4625,22 @@
       try {
         await window.NuvioPush.applyProfileSettings(state.token, state.targetProfileId, SETTINGS_PLATFORMS, { autoplayTrailers: true });
       } catch (e) { /* non-fatal — profile/collection are already saved */ }
+    }
+    if (state.importSetup && (state.importSetup.tmdbKey || state.importSetup.mdblistKey)) {
+      // Enregistrement effectif des clés de métadonnées dans le profil Nuvio.
+      const config = {};
+      if (state.importSetup.tmdbKey) {
+        config.tmdbEnabled = true;
+        config.tmdbKey = String(state.importSetup.tmdbKey).trim();
+      }
+      if (state.importSetup.mdblistKey) {
+        config.mdblistKey = String(state.importSetup.mdblistKey).trim();
+      }
+      if (Object.keys(config).length) {
+        await window.NuvioPush.applyProfileSettings(state.token, state.targetProfileId, SETTINGS_PLATFORMS, config);
+        state.tmdbApplied = !!config.tmdbKey;
+        state.mdblistApplied = !!config.mdblistKey;
+      }
     }
     if (state.prefill) return applyPrefillAndFinish();
     // Friends of Kaptain: skip Mega Native/AIO Streams fork — provision the
