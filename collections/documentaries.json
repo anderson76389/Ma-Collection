@@ -8,7 +8,7 @@
     "folders": [
       {
         "id": "folder-3EO6D18E",
-        "title": "True Crime & Serial Killers",
+        "title": "True Crime Et Serial Killers",
         "tileShape": "LANDSCAPE",
         "sources": [
           {
@@ -47,7 +47,7 @@
           },
           {
             "id": "src-ARFD9TGF",
-            "title": "Serial Killers & Unsolved Cases",
+            "title": "Serial Killers Et Unsolved Cases",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -64,7 +64,7 @@
           },
           {
             "id": "src-QZME5WLQ",
-            "title": "Heists, Cons & Robberies",
+            "title": "Heists, Cons Et Robberies",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -124,12 +124,12 @@
       },
       {
         "id": "folder-KQU791FW",
-        "title": "Nature, Wildlife & Earth",
+        "title": "Nature, Wildlife Et Earth",
         "tileShape": "LANDSCAPE",
         "sources": [
           {
             "id": "src-EDQB4CWF",
-            "title": "Popular Nature & Wildlife Series",
+            "title": "Popular Nature Et Wildlife Series",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -163,7 +163,7 @@
           },
           {
             "id": "src-6VYZGSN0",
-            "title": "Deep Ocean & Marine Life",
+            "title": "Deep Ocean Et Marine Life",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -180,7 +180,7 @@
           },
           {
             "id": "src-A94D1JLO",
-            "title": "Wild Animals & Wilderness",
+            "title": "Wild Animals Et Wilderness",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -197,7 +197,7 @@
           },
           {
             "id": "src-EIL86665",
-            "title": "Top Rated Earth & Environment",
+            "title": "Top Rated Earth Et Environment",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -240,7 +240,7 @@
       },
       {
         "id": "folder-GLXQEJD5",
-        "title": "Sports & Athletic Stories",
+        "title": "Sports Et Athletic Stories",
         "tileShape": "LANDSCAPE",
         "sources": [
           {
@@ -279,7 +279,7 @@
           },
           {
             "id": "src-P1ILEP84",
-            "title": "Motorsport & Racing",
+            "title": "Motorsport Et Racing",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -296,7 +296,7 @@
           },
           {
             "id": "src-F4APYJKA",
-            "title": "Combat Sports, Boxing & MMA",
+            "title": "Combat Sports, Boxing Et MMA",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -356,7 +356,7 @@
       },
       {
         "id": "folder-E7NOL7FT",
-        "title": "Music & Concert Documentaries",
+        "title": "Music Et Concert Documentaries",
         "tileShape": "LANDSCAPE",
         "sources": [
           {
@@ -378,7 +378,7 @@
           },
           {
             "id": "src-DLXM5D3H",
-            "title": "Acclaimed Music & Band Docs",
+            "title": "Acclaimed Music Et Band Docs",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -412,7 +412,7 @@
           },
           {
             "id": "src-WVU17092",
-            "title": "Rock & Hip-Hop Spotlights",
+            "title": "Rock Et Hip-Hop Spotlights",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -472,7 +472,7 @@
       },
       {
         "id": "folder-0WSZMM2X",
-        "title": "History, War & Civilizations",
+        "title": "History, War Et Civilizations",
         "tileShape": "LANDSCAPE",
         "sources": [
           {
@@ -511,7 +511,7 @@
           },
           {
             "id": "src-FRM801V5",
-            "title": "WWII & World Conflict",
+            "title": "WWII Et World Conflict",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -528,7 +528,7 @@
           },
           {
             "id": "src-BWZUH1HT",
-            "title": "Ancient Empires & Civilizations",
+            "title": "Ancient Empires Et Civilizations",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -545,7 +545,7 @@
           },
           {
             "id": "src-PENOK4LX",
-            "title": "Top Rated Military & War Series",
+            "title": "Top Rated Military Et War Series",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -588,12 +588,12 @@
       },
       {
         "id": "folder-H9YXHQC8",
-        "title": "Science, Tech & Cosmos",
+        "title": "Science, Tech Et Cosmos",
         "tileShape": "LANDSCAPE",
         "sources": [
           {
             "id": "src-EEW1GU7Q",
-            "title": "Popular Science & Space Docuseries",
+            "title": "Popular Science Et Space Docuseries",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -610,7 +610,7 @@
           },
           {
             "id": "src-UCBSGL7Y",
-            "title": "Acclaimed Cosmos & Universe Films",
+            "title": "Acclaimed Cosmos Et Universe Films",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -627,7 +627,7 @@
           },
           {
             "id": "src-RM3YYF9B",
-            "title": "Technology, AI & Cyber",
+            "title": "Technology, AI Et Cyber",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -644,7 +644,7 @@
           },
           {
             "id": "src-5DLKPV2O",
-            "title": "Medical, Brain & Health",
+            "title": "Medical, Brain Et Health",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -661,7 +661,7 @@
           },
           {
             "id": "src-ZG3LEB22",
-            "title": "Top Rated Space & Physics Series",
+            "title": "Top Rated Space Et Physics Series",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -704,7 +704,7 @@
       },
       {
         "id": "folder-VO70XOOU",
-        "title": "Investigative & Scandals",
+        "title": "Investigative Et Scandals",
         "tileShape": "LANDSCAPE",
         "sources": [
           {
@@ -726,7 +726,7 @@
           },
           {
             "id": "src-JXBTA28I",
-            "title": "Corporate & Financial Scandals",
+            "title": "Corporate Et Financial Scandals",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -743,7 +743,7 @@
           },
           {
             "id": "src-IBNSVMOA",
-            "title": "Political Scandals & Journalism",
+            "title": "Political Scandals Et Journalism",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -760,7 +760,7 @@
           },
           {
             "id": "src-3UDCJTIV",
-            "title": "Cults, Scams & Fraud",
+            "title": "Cults, Scams Et Fraud",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",

@@ -540,7 +540,7 @@
             "name": "All"
           },
           {
-            "title": "New Action & Adventure Series",
+            "title": "New Action Et Adventure Series",
             "sortBy": "first_air_date.desc",
             "tmdbId": null,
             "filters": {
@@ -554,8 +554,8 @@
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
             "id": "src-4YD9KFYM",
-            "genre": "Action & Adventure",
-            "name": "Action & Adventure"
+            "genre": "Action Et Adventure",
+            "name": "Action Et Adventure"
           },
           {
             "title": "New Animation Series",
@@ -738,7 +738,7 @@
             "name": "Reality"
           },
           {
-            "title": "New Sci-Fi & Fantasy Series",
+            "title": "New Sci-Fi Et Fantasy Series",
             "sortBy": "first_air_date.desc",
             "tmdbId": null,
             "filters": {
@@ -752,8 +752,8 @@
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
             "id": "src-0UPKW03R",
-            "genre": "Sci-Fi & Fantasy",
-            "name": "Sci-Fi & Fantasy"
+            "genre": "Sci-Fi Et Fantasy",
+            "name": "Sci-Fi Et Fantasy"
           },
           {
             "title": "New Soap Series",
@@ -792,7 +792,7 @@
             "name": "Talk"
           },
           {
-            "title": "New War & Politics Series",
+            "title": "New War Et Politics Series",
             "sortBy": "first_air_date.desc",
             "tmdbId": null,
             "filters": {
@@ -806,8 +806,8 @@
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
             "id": "src-FBUPQP9C",
-            "genre": "War & Politics",
-            "name": "War & Politics"
+            "genre": "War Et Politics",
+            "name": "War Et Politics"
           },
           {
             "title": "New Western Series",
@@ -1234,7 +1234,7 @@
             "name": "All"
           },
           {
-            "title": "Trending Action & Adventure Series",
+            "title": "Trending Action Et Adventure Series",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -1247,8 +1247,8 @@
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
             "id": "src-ZSF2ROLX",
-            "genre": "Action & Adventure",
-            "name": "Action & Adventure"
+            "genre": "Action Et Adventure",
+            "name": "Action Et Adventure"
           },
           {
             "title": "Trending Animation Series",
@@ -1421,7 +1421,7 @@
             "name": "Reality"
           },
           {
-            "title": "Trending Sci-Fi & Fantasy Series",
+            "title": "Trending Sci-Fi Et Fantasy Series",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -1434,8 +1434,8 @@
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
             "id": "src-6WZ12JQ1",
-            "genre": "Sci-Fi & Fantasy",
-            "name": "Sci-Fi & Fantasy"
+            "genre": "Sci-Fi Et Fantasy",
+            "name": "Sci-Fi Et Fantasy"
           },
           {
             "title": "Trending Soap Series",
@@ -1472,7 +1472,7 @@
             "name": "Talk"
           },
           {
-            "title": "Trending War & Politics Series",
+            "title": "Trending War Et Politics Series",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -1485,8 +1485,8 @@
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
             "id": "src-YXCPX494",
-            "genre": "War & Politics",
-            "name": "War & Politics"
+            "genre": "War Et Politics",
+            "name": "War Et Politics"
           },
           {
             "title": "Trending Western Series",

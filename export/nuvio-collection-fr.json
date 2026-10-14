@@ -18335,7 +18335,7 @@
     "folders": [
       {
         "id": "folder-PB23HCW4",
-        "title": "A&E",
+        "title": "A Et E",
         "sources": [
           {
             "title": "Séries populaires",
@@ -29787,7 +29787,7 @@
             "name": "Collection L'Inspecteur Harry"
           },
           {
-            "title": "Collection Fast & Furious",
+            "title": "Collection Fast Et Furious",
             "sortBy": "original",
             "tmdbId": 9485,
             "filters": {},
@@ -29795,8 +29795,8 @@
             "mediaType": "MOVIE",
             "tmdbSourceType": "COLLECTION",
             "id": "src-D0UTU3BO",
-            "genre": "Collection Fast & Furious",
-            "name": "Collection Fast & Furious"
+            "genre": "Collection Fast Et Furious",
+            "name": "Collection Fast Et Furious"
           },
           {
             "title": "Collection James Bond",
@@ -30063,7 +30063,7 @@
             "name": "Collection Avengers"
           },
           {
-            "title": "Collection Hitman & Bodyguard",
+            "title": "Collection Hitman Et Bodyguard",
             "sortBy": "original",
             "tmdbId": 608101,
             "filters": {},
@@ -30071,8 +30071,8 @@
             "mediaType": "MOVIE",
             "tmdbSourceType": "COLLECTION",
             "id": "src-8B42C34T",
-            "genre": "Collection Hitman & Bodyguard",
-            "name": "Collection Hitman & Bodyguard"
+            "genre": "Collection Hitman Et Bodyguard",
+            "name": "Collection Hitman Et Bodyguard"
           },
           {
             "title": "Collection The Raid",
@@ -30725,7 +30725,7 @@
             "name": "Collection Kick-Ass"
           },
           {
-            "title": "Collection Dumb & Dumber",
+            "title": "Collection Dumb Et Dumber",
             "sortBy": "original",
             "tmdbId": 96665,
             "filters": {},
@@ -30733,8 +30733,8 @@
             "mediaType": "MOVIE",
             "tmdbSourceType": "COLLECTION",
             "id": "src-BF8058BE",
-            "genre": "Collection Dumb & Dumber",
-            "name": "Collection Dumb & Dumber"
+            "genre": "Collection Dumb Et Dumber",
+            "name": "Collection Dumb Et Dumber"
           },
           {
             "title": "Collection Y a-t-il un flic… ?",
@@ -30761,7 +30761,7 @@
             "name": "Collection Police Academy"
           },
           {
-            "title": "Collection Harold & Kumar",
+            "title": "Collection Harold Et Kumar",
             "sortBy": "original",
             "tmdbId": 30663,
             "filters": {},
@@ -30769,11 +30769,11 @@
             "mediaType": "MOVIE",
             "tmdbSourceType": "COLLECTION",
             "id": "src-F3449FAB",
-            "genre": "Collection Harold & Kumar",
-            "name": "Collection Harold & Kumar"
+            "genre": "Collection Harold Et Kumar",
+            "name": "Collection Harold Et Kumar"
           },
           {
-            "title": "Collection Bill & Ted",
+            "title": "Collection Bill Et Ted",
             "sortBy": "original",
             "tmdbId": 91746,
             "filters": {},
@@ -30781,8 +30781,8 @@
             "mediaType": "MOVIE",
             "tmdbSourceType": "COLLECTION",
             "id": "src-EDA00CF3",
-            "genre": "Collection Bill & Ted",
-            "name": "Collection Bill & Ted"
+            "genre": "Collection Bill Et Ted",
+            "name": "Collection Bill Et Ted"
           },
           {
             "title": "Collection Look Who's Talking",
@@ -32898,7 +32898,7 @@
             "name": "Collection Superman (classiques)"
           },
           {
-            "title": "Collection Bill & Ted",
+            "title": "Collection Bill Et Ted",
             "sortBy": "original",
             "tmdbId": 91746,
             "filters": {},
@@ -32906,8 +32906,8 @@
             "mediaType": "MOVIE",
             "tmdbSourceType": "COLLECTION",
             "id": "src-45058485",
-            "genre": "Collection Bill & Ted",
-            "name": "Collection Bill & Ted"
+            "genre": "Collection Bill Et Ted",
+            "name": "Collection Bill Et Ted"
           }
         ],
         "hideTitle": true,
@@ -33743,10 +33743,10 @@
       },
       {
         "id": "folder-170B1B57",
-        "title": "Collection Bill & Ted",
+        "title": "Collection Bill Et Ted",
         "sources": [
           {
-            "title": "Collection Bill & Ted",
+            "title": "Collection Bill Et Ted",
             "sortBy": "original",
             "tmdbId": 91746,
             "filters": {},
@@ -33754,8 +33754,8 @@
             "mediaType": "MOVIE",
             "tmdbSourceType": "COLLECTION",
             "id": "src-74AAECC9",
-            "genre": "Collection Bill & Ted",
-            "name": "Collection Bill & Ted"
+            "genre": "Collection Bill Et Ted",
+            "name": "Collection Bill Et Ted"
           }
         ],
         "hideTitle": true,
@@ -34371,10 +34371,10 @@
       },
       {
         "id": "folder-8C0F231B",
-        "title": "Collection Dumb & Dumber",
+        "title": "Collection Dumb Et Dumber",
         "sources": [
           {
-            "title": "Collection Dumb & Dumber",
+            "title": "Collection Dumb Et Dumber",
             "sortBy": "original",
             "tmdbId": 96665,
             "filters": {},
@@ -34382,8 +34382,8 @@
             "mediaType": "MOVIE",
             "tmdbSourceType": "COLLECTION",
             "id": "src-46BF7A47",
-            "genre": "Collection Dumb & Dumber",
-            "name": "Collection Dumb & Dumber"
+            "genre": "Collection Dumb Et Dumber",
+            "name": "Collection Dumb Et Dumber"
           }
         ],
         "hideTitle": true,
@@ -34924,10 +34924,10 @@
       },
       {
         "id": "folder-C7534995",
-        "title": "Collection Harold & Kumar",
+        "title": "Collection Harold Et Kumar",
         "sources": [
           {
-            "title": "Collection Harold & Kumar",
+            "title": "Collection Harold Et Kumar",
             "sortBy": "original",
             "tmdbId": 30663,
             "filters": {},
@@ -34935,8 +34935,8 @@
             "mediaType": "MOVIE",
             "tmdbSourceType": "COLLECTION",
             "id": "src-1DA55884",
-            "genre": "Collection Harold & Kumar",
-            "name": "Collection Harold & Kumar"
+            "genre": "Collection Harold Et Kumar",
+            "name": "Collection Harold Et Kumar"
           }
         ],
         "hideTitle": true,
@@ -38005,7 +38005,7 @@
         "title": "The Fast and the Furious",
         "sources": [
           {
-            "title": "Collection Fast & Furious",
+            "title": "Collection Fast Et Furious",
             "sortBy": "original",
             "tmdbId": 9485,
             "filters": {},
@@ -38013,8 +38013,8 @@
             "mediaType": "MOVIE",
             "tmdbSourceType": "COLLECTION",
             "id": "src-1KK9SF3S",
-            "genre": "Collection Fast & Furious",
-            "name": "Collection Fast & Furious"
+            "genre": "Collection Fast Et Furious",
+            "name": "Collection Fast Et Furious"
           }
         ],
         "hideTitle": true,
@@ -38127,7 +38127,7 @@
         "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/63ff2633.webp"
       },
       {
-        "title": "Collection Hitman & Bodyguard",
+        "title": "Collection Hitman Et Bodyguard",
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
@@ -38136,7 +38136,7 @@
         "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/The_Hitman_s_Bodyguard_Collection/The_Hitman_s_Bodyguard_Collection_Backdrop.jpg",
         "sources": [
           {
-            "title": "Collection Hitman & Bodyguard",
+            "title": "Collection Hitman Et Bodyguard",
             "sortBy": "original",
             "tmdbId": 608101,
             "filters": {},
@@ -38144,8 +38144,8 @@
             "mediaType": "MOVIE",
             "tmdbSourceType": "COLLECTION",
             "id": "src-OX9SIKVI",
-            "genre": "Collection Hitman & Bodyguard",
-            "name": "Collection Hitman & Bodyguard"
+            "genre": "Collection Hitman Et Bodyguard",
+            "name": "Collection Hitman Et Bodyguard"
           }
         ],
         "id": "folder-2GGVV5KS",

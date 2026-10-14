@@ -62,7 +62,7 @@
           },
           {
             "id": "src-5PXXRBYJ",
-            "title": "Docusoaps & Social Experiments",
+            "title": "Docusoaps Et Social Experiments",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -117,13 +117,13 @@
         "id": "folder-WZOQKARY"
       },
       {
-        "title": "High-Stakes Competition & Survival",
+        "title": "High-Stakes Competition Et Survival",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "sources": [
           {
             "id": "src-SH9AKKRO",
-            "title": "Island Survival & Outlast",
+            "title": "Island Survival Et Outlast",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -140,7 +140,7 @@
           },
           {
             "id": "src-LIH5ILPR",
-            "title": "Extreme Jobs & Real Danger",
+            "title": "Extreme Jobs Et Real Danger",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -151,12 +151,12 @@
               "voteCountGte": 5,
               "vote_count.gte": 5
             },
-            "genre": "Extreme Jobs & Real Danger",
-            "name": "Extreme Jobs & Real Danger"
+            "genre": "Extreme Jobs Et Real Danger",
+            "name": "Extreme Jobs Et Real Danger"
           },
           {
             "id": "src-833W2GQQ",
-            "title": "Strategy & House Lock-Ins",
+            "title": "Strategy Et House Lock-Ins",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -173,7 +173,7 @@
           },
           {
             "id": "src-2O9OA9ZH",
-            "title": "Global Race & Travel Challenges",
+            "title": "Global Race Et Travel Challenges",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -190,7 +190,7 @@
           },
           {
             "id": "src-7PCVI48V",
-            "title": "MTV Competition & Chaos",
+            "title": "MTV Competition Et Chaos",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -201,8 +201,8 @@
               "voteCountGte": 5,
               "vote_count.gte": 5
             },
-            "genre": "MTV Competition & Chaos",
-            "name": "MTV Competition & Chaos"
+            "genre": "MTV Competition Et Chaos",
+            "name": "MTV Competition Et Chaos"
           },
           {
             "id": "src-41G3TM4Y",
@@ -231,13 +231,13 @@
         "id": "folder-LEL50ZXT"
       },
       {
-        "title": "Juicy Drama, Dating & Relationship",
+        "title": "Juicy Drama, Dating Et Relationship",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "sources": [
           {
             "id": "src-797KLG18",
-            "title": "Blind Dating & Social Experiments",
+            "title": "Blind Dating Et Social Experiments",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -288,7 +288,7 @@
           },
           {
             "id": "src-AIDH1ZIS",
-            "title": "High-Society & City Drama",
+            "title": "High-Society Et City Drama",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -299,12 +299,12 @@
               "voteCountGte": 5,
               "vote_count.gte": 5
             },
-            "genre": "High-Society & City Drama",
-            "name": "High-Society & City Drama"
+            "genre": "High-Society Et City Drama",
+            "name": "High-Society Et City Drama"
           },
           {
             "id": "src-E07CACJL",
-            "title": "Family & Relationship Docusoaps",
+            "title": "Family Et Relationship Docusoaps",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -315,8 +315,8 @@
               "voteCountGte": 5,
               "vote_count.gte": 5
             },
-            "genre": "Family & Relationship Docusoaps",
-            "name": "Family & Relationship Docusoaps"
+            "genre": "Family Et Relationship Docusoaps",
+            "name": "Family Et Relationship Docusoaps"
           },
           {
             "id": "src-QJPHNNOJ",
@@ -345,7 +345,7 @@
         "id": "folder-KW5T2ZOD"
       },
       {
-        "title": "Culinary Battles & Cooking Shows",
+        "title": "Culinary Battles Et Cooking Shows",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "sources": [
@@ -418,7 +418,7 @@
           },
           {
             "id": "src-MBBUSDQV",
-            "title": "Food & Travel Adventures",
+            "title": "Food Et Travel Adventures",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -460,7 +460,7 @@
         "id": "folder-JNY5J1DM"
       },
       {
-        "title": "Real Estate, Home & Lifestyle Makeovers",
+        "title": "Real Estate, Home Et Lifestyle Makeovers",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "sources": [
@@ -483,7 +483,7 @@
           },
           {
             "id": "src-CBCM0M4L",
-            "title": "Home Renovation & Transformation",
+            "title": "Home Renovation Et Transformation",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -516,7 +516,7 @@
           },
           {
             "id": "src-LCV78D3M",
-            "title": "Makeovers & Style Transformations",
+            "title": "Makeovers Et Style Transformations",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -533,7 +533,7 @@
           },
           {
             "id": "src-NNFE61VV",
-            "title": "Car Restoration & Garage Builds",
+            "title": "Car Restoration Et Garage Builds",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -550,7 +550,7 @@
           },
           {
             "id": "src-0ZU5K77T",
-            "title": "New Lifestyle & Home Releases",
+            "title": "New Lifestyle Et Home Releases",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -575,7 +575,7 @@
         "id": "folder-PO82L89F"
       },
       {
-        "title": "Game Shows, Talent & Trivia",
+        "title": "Game Shows, Talent Et Trivia",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "sources": [
@@ -598,7 +598,7 @@
           },
           {
             "id": "src-5YDSIM86",
-            "title": "Singing & Talent Competitions",
+            "title": "Singing Et Talent Competitions",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -615,7 +615,7 @@
           },
           {
             "id": "src-AR2E2OHL",
-            "title": "Top Rated Quiz & Trivia",
+            "title": "Top Rated Quiz Et Trivia",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -650,7 +650,7 @@
           },
           {
             "id": "src-LKB323AH",
-            "title": "Comedy Panel & Late Night",
+            "title": "Comedy Panel Et Late Night",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -661,8 +661,8 @@
               "voteCountGte": 5,
               "vote_count.gte": 5
             },
-            "genre": "Comedy Panel & Late Night",
-            "name": "Comedy Panel & Late Night"
+            "genre": "Comedy Panel Et Late Night",
+            "name": "Comedy Panel Et Late Night"
           },
           {
             "id": "src-RMQLWQG3",

@@ -224,7 +224,7 @@
           },
           {
             "id": "src-JIPWEYHW",
-            "title": "Aardman & Claymation Gems",
+            "title": "Aardman Et Claymation Gems",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -318,7 +318,7 @@
           },
           {
             "id": "src-UFPZCVL4",
-            "title": "Animal & Creature Adventures",
+            "title": "Animal Et Creature Adventures",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -375,7 +375,7 @@
         "id": "folder-3DCDF32B"
       },
       {
-        "title": "Saturday Morning & Nostalgic Cartoons",
+        "title": "Saturday Morning Et Nostalgic Cartoons",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "sources": [
@@ -492,7 +492,7 @@
         "id": "folder-N8CJYFAA"
       },
       {
-        "title": "Preschool, Toddlers & Little Kids",
+        "title": "Preschool, Toddlers Et Little Kids",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "sources": [
@@ -515,7 +515,7 @@
           },
           {
             "id": "src-RLRG90PB",
-            "title": "Nick Jr. & Little-Kid Favorites",
+            "title": "Nick Jr. Et Little-Kid Favorites",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -580,7 +580,7 @@
           },
           {
             "id": "src-SKMEXOKZ",
-            "title": "Storybook & Talking-Animal Movies",
+            "title": "Storybook Et Talking-Animal Movies",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -592,8 +592,8 @@
               "voteCountGte": 50,
               "vote_count.gte": 50
             },
-            "genre": "Storybook & Talking-Animal Movies",
-            "name": "Storybook & Talking-Animal Movies"
+            "genre": "Storybook Et Talking-Animal Movies",
+            "name": "Storybook Et Talking-Animal Movies"
           }
         ],
         "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/kids-and-family/preschool-toddlers-and-little-kids/v2/preschool-toddlers-and-little-kids-cover.png",
@@ -604,7 +604,7 @@
         "id": "folder-IK22D8R8"
       },
       {
-        "title": "Disney Channel & Family TV Series",
+        "title": "Disney Channel Et Family TV Series",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "sources": [
@@ -626,7 +626,7 @@
           },
           {
             "id": "src-SE7LIXNO",
-            "title": "Disney XD Action & Comedy",
+            "title": "Disney XD Action Et Comedy",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -637,8 +637,8 @@
               "voteCountGte": 35,
               "vote_count.gte": 35
             },
-            "genre": "Disney XD Action & Comedy",
-            "name": "Disney XD Action & Comedy"
+            "genre": "Disney XD Action Et Comedy",
+            "name": "Disney XD Action Et Comedy"
           },
           {
             "id": "src-O87YDYEL",
@@ -675,7 +675,7 @@
           },
           {
             "id": "src-43P3NIGC",
-            "title": "Teen Fantasy & Mystery",
+            "title": "Teen Fantasy Et Mystery",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -686,8 +686,8 @@
               "voteCountGte": 35,
               "vote_count.gte": 35
             },
-            "genre": "Teen Fantasy & Mystery",
-            "name": "Teen Fantasy & Mystery"
+            "genre": "Teen Fantasy Et Mystery",
+            "name": "Teen Fantasy Et Mystery"
           },
           {
             "id": "src-U6MPA6FB",

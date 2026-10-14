@@ -363,7 +363,7 @@
         "title": "New Series",
         "sources": [
           {
-            "title": "New Action & Adventure Series",
+            "title": "New Action Et Adventure Series",
             "sortBy": "primary_release_date.desc",
             "tmdbId": null,
             "filters": {
@@ -517,7 +517,7 @@
             "tmdbSourceType": "DISCOVER"
           },
           {
-            "title": "New Sci-Fi & Fantasy Series",
+            "title": "New Sci-Fi Et Fantasy Series",
             "sortBy": "primary_release_date.desc",
             "tmdbId": null,
             "filters": {
@@ -559,7 +559,7 @@
             "tmdbSourceType": "DISCOVER"
           },
           {
-            "title": "New War & Politics Series",
+            "title": "New War Et Politics Series",
             "sortBy": "primary_release_date.desc",
             "tmdbId": null,
             "filters": {
@@ -848,7 +848,7 @@
         "title": "Trending TV",
         "sources": [
           {
-            "title": "Trending Action & Adventure Series",
+            "title": "Trending Action Et Adventure Series",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -991,7 +991,7 @@
             "tmdbSourceType": "DISCOVER"
           },
           {
-            "title": "Trending Sci-Fi & Fantasy Series",
+            "title": "Trending Sci-Fi Et Fantasy Series",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -1030,7 +1030,7 @@
             "tmdbSourceType": "DISCOVER"
           },
           {
-            "title": "Trending War & Politics Series",
+            "title": "Trending War Et Politics Series",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {

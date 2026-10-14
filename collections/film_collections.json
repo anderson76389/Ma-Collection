@@ -1018,7 +1018,7 @@
             "name": "Police Academy Collection"
           },
           {
-            "title": "Harold & Kumar Collection",
+            "title": "Harold Et Kumar Collection",
             "sortBy": "original",
             "tmdbId": 30663,
             "filters": {},
@@ -1026,11 +1026,11 @@
             "mediaType": "MOVIE",
             "tmdbSourceType": "COLLECTION",
             "id": "src-F3449FAB",
-            "genre": "Harold & Kumar Collection",
-            "name": "Harold & Kumar Collection"
+            "genre": "Harold Et Kumar Collection",
+            "name": "Harold Et Kumar Collection"
           },
           {
-            "title": "Bill & Ted Collection",
+            "title": "Bill Et Ted Collection",
             "sortBy": "original",
             "tmdbId": 91746,
             "filters": {},
@@ -1038,8 +1038,8 @@
             "mediaType": "MOVIE",
             "tmdbSourceType": "COLLECTION",
             "id": "src-EDA00CF3",
-            "genre": "Bill & Ted Collection",
-            "name": "Bill & Ted Collection"
+            "genre": "Bill Et Ted Collection",
+            "name": "Bill Et Ted Collection"
           },
           {
             "title": "Look Who's Talking Collection",
@@ -1321,7 +1321,7 @@
       },
       {
         "id": "folder-B362DBAF",
-        "title": "Family & Animation Collections",
+        "title": "Family Et Animation Collections",
         "sources": [
           {
             "title": "Alvin and the Chipmunks Collection",
@@ -3155,7 +3155,7 @@
             "name": "Superman Classic Collection"
           },
           {
-            "title": "Bill & Ted Collection",
+            "title": "Bill Et Ted Collection",
             "sortBy": "original",
             "tmdbId": 91746,
             "filters": {},
@@ -3163,8 +3163,8 @@
             "mediaType": "MOVIE",
             "tmdbSourceType": "COLLECTION",
             "id": "src-45058485",
-            "genre": "Bill & Ted Collection",
-            "name": "Bill & Ted Collection"
+            "genre": "Bill Et Ted Collection",
+            "name": "Bill Et Ted Collection"
           }
         ],
         "hideTitle": true,
@@ -4000,10 +4000,10 @@
       },
       {
         "id": "folder-170B1B57",
-        "title": "Bill & Ted Collection",
+        "title": "Bill Et Ted Collection",
         "sources": [
           {
-            "title": "Bill & Ted Collection",
+            "title": "Bill Et Ted Collection",
             "sortBy": "original",
             "tmdbId": 91746,
             "filters": {},
@@ -4011,8 +4011,8 @@
             "mediaType": "MOVIE",
             "tmdbSourceType": "COLLECTION",
             "id": "src-74AAECC9",
-            "genre": "Bill & Ted Collection",
-            "name": "Bill & Ted Collection"
+            "genre": "Bill Et Ted Collection",
+            "name": "Bill Et Ted Collection"
           }
         ],
         "hideTitle": true,
@@ -5181,10 +5181,10 @@
       },
       {
         "id": "folder-C7534995",
-        "title": "Harold & Kumar Collection",
+        "title": "Harold Et Kumar Collection",
         "sources": [
           {
-            "title": "Harold & Kumar Collection",
+            "title": "Harold Et Kumar Collection",
             "sortBy": "original",
             "tmdbId": 30663,
             "filters": {},
@@ -5192,8 +5192,8 @@
             "mediaType": "MOVIE",
             "tmdbSourceType": "COLLECTION",
             "id": "src-1DA55884",
-            "genre": "Harold & Kumar Collection",
-            "name": "Harold & Kumar Collection"
+            "genre": "Harold Et Kumar Collection",
+            "name": "Harold Et Kumar Collection"
           }
         ],
         "hideTitle": true,

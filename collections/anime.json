@@ -141,7 +141,7 @@
       },
       {
         "id": "folder-QCEU9Z9A",
-        "title": "Shonen & Action Anime",
+        "title": "Shonen Et Action Anime",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/shonen-and-action-anime/shonen-and-action-anime-cover.png",
@@ -192,7 +192,7 @@
           },
           {
             "id": "src-KGSMK69S",
-            "title": "Dark Fantasy & Supernatural",
+            "title": "Dark Fantasy Et Supernatural",
             "mediaType": "TV",
             "provider": "tmdb",
             "tmdbSourceType": "DISCOVER",
@@ -209,12 +209,12 @@
               "with_genres": "16",
               "with_original_language": "ja"
             },
-            "genre": "Dark Fantasy & Supernatural",
-            "name": "Dark Fantasy & Supernatural"
+            "genre": "Dark Fantasy Et Supernatural",
+            "name": "Dark Fantasy Et Supernatural"
           },
           {
             "id": "src-RC146QDA",
-            "title": "Martial Arts & Swordplay",
+            "title": "Martial Arts Et Swordplay",
             "mediaType": "TV",
             "provider": "tmdb",
             "tmdbSourceType": "DISCOVER",
@@ -231,12 +231,12 @@
               "with_genres": "16",
               "with_original_language": "ja"
             },
-            "genre": "Martial Arts & Swordplay",
-            "name": "Martial Arts & Swordplay"
+            "genre": "Martial Arts Et Swordplay",
+            "name": "Martial Arts Et Swordplay"
           },
           {
             "id": "src-0CQCGOJS",
-            "title": "Mecha & Cyberpunk",
+            "title": "Mecha Et Cyberpunk",
             "mediaType": "TV",
             "provider": "tmdb",
             "tmdbSourceType": "DISCOVER",
@@ -253,8 +253,8 @@
               "with_genres": "16",
               "with_original_language": "ja"
             },
-            "genre": "Mecha & Cyberpunk",
-            "name": "Mecha & Cyberpunk"
+            "genre": "Mecha Et Cyberpunk",
+            "name": "Mecha Et Cyberpunk"
           },
           {
             "id": "src-CUNGHB3X",
@@ -372,7 +372,7 @@
           },
           {
             "id": "src-13FD7F9C",
-            "title": "Madhouse & Production I.G",
+            "title": "Madhouse Et Production I.G",
             "mediaType": "TV",
             "provider": "tmdb",
             "tmdbSourceType": "DISCOVER",
@@ -387,12 +387,12 @@
               "with_original_language": "ja",
               "with_companies": "3464|529"
             },
-            "genre": "Madhouse & Production I.G",
-            "name": "Madhouse & Production I.G"
+            "genre": "Madhouse Et Production I.G",
+            "name": "Madhouse Et Production I.G"
           },
           {
             "id": "src-D9U7VKID",
-            "title": "Bones, WIT & Trigger",
+            "title": "Bones, WIT Et Trigger",
             "mediaType": "TV",
             "provider": "tmdb",
             "tmdbSourceType": "DISCOVER",
@@ -407,14 +407,14 @@
               "with_original_language": "ja",
               "with_companies": "2849|31058|50908"
             },
-            "genre": "Bones, WIT & Trigger",
-            "name": "Bones, WIT & Trigger"
+            "genre": "Bones, WIT Et Trigger",
+            "name": "Bones, WIT Et Trigger"
           }
         ]
       },
       {
         "id": "folder-JQ8I3SCI",
-        "title": "Isekai & Fantasy Sagas",
+        "title": "Isekai Et Fantasy Sagas",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/isekai-and-fantasy-sagas/isekai-and-fantasy-sagas-cover.png",
@@ -491,7 +491,7 @@
           },
           {
             "id": "src-5H1S302K",
-            "title": "Epic Magic & Fantasy Sagas",
+            "title": "Epic Magic Et Fantasy Sagas",
             "mediaType": "TV",
             "provider": "tmdb",
             "tmdbSourceType": "DISCOVER",
@@ -508,8 +508,8 @@
               "with_genres": "16,10765",
               "with_original_language": "ja"
             },
-            "genre": "Epic Magic & Fantasy Sagas",
-            "name": "Epic Magic & Fantasy Sagas"
+            "genre": "Epic Magic Et Fantasy Sagas",
+            "name": "Epic Magic Et Fantasy Sagas"
           },
           {
             "id": "src-1RB32ZTB",
@@ -558,7 +558,7 @@
       },
       {
         "id": "folder-FML2DNZO",
-        "title": "Slice of Life & Romance",
+        "title": "Slice of Life Et Romance",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/slice-of-life-and-romance/slice-of-life-and-romance-cover.png",
@@ -635,7 +635,7 @@
           },
           {
             "id": "src-BU2GQ7OO",
-            "title": "Cozy & Relaxing Favorites",
+            "title": "Cozy Et Relaxing Favorites",
             "mediaType": "TV",
             "provider": "tmdb",
             "tmdbSourceType": "DISCOVER",
@@ -652,8 +652,8 @@
               "with_genres": "16,35",
               "with_original_language": "ja"
             },
-            "genre": "Cozy & Relaxing Favorites",
-            "name": "Cozy & Relaxing Favorites"
+            "genre": "Cozy Et Relaxing Favorites",
+            "name": "Cozy Et Relaxing Favorites"
           },
           {
             "id": "src-K1S5MCMN",
@@ -704,7 +704,7 @@
       },
       {
         "id": "folder-CDMZH7S0",
-        "title": "Sports & Competition Anime",
+        "title": "Sports Et Competition Anime",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/sports-and-competition-anime/sports-and-competition-anime-cover.png",
@@ -781,7 +781,7 @@
           },
           {
             "id": "src-CQ8NKK03",
-            "title": "Team Sports & Rivalries",
+            "title": "Team Sports Et Rivalries",
             "mediaType": "TV",
             "provider": "tmdb",
             "tmdbSourceType": "DISCOVER",
@@ -798,12 +798,12 @@
               "with_genres": "16",
               "with_original_language": "ja"
             },
-            "genre": "Team Sports & Rivalries",
-            "name": "Team Sports & Rivalries"
+            "genre": "Team Sports Et Rivalries",
+            "name": "Team Sports Et Rivalries"
           },
           {
             "id": "src-H546HMAK",
-            "title": "Mind Games & High Stakes",
+            "title": "Mind Games Et High Stakes",
             "mediaType": "TV",
             "provider": "tmdb",
             "tmdbSourceType": "DISCOVER",
@@ -818,8 +818,8 @@
               "with_genres": "16,9648",
               "with_original_language": "ja"
             },
-            "genre": "Mind Games & High Stakes",
-            "name": "Mind Games & High Stakes"
+            "genre": "Mind Games Et High Stakes",
+            "name": "Mind Games Et High Stakes"
           },
           {
             "id": "src-HXSCF9Y7",

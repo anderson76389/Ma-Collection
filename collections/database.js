@@ -18335,7 +18335,7 @@ window.NUVIO_DATABASE = [
     "folders": [
       {
         "id": "folder-PB23HCW4",
-        "title": "A&E",
+        "title": "A Et E",
         "sources": [
           {
             "title": "Populaires Séries",
@@ -23074,8 +23074,8 @@ window.NUVIO_DATABASE = [
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
             "id": "src-YLKOHL2B",
-            "genre": "Action & Adventure",
-            "name": "Action & Adventure"
+            "genre": "Action Et Adventure",
+            "name": "Action Et Adventure"
           },
           {
             "title": "Populaires Films",
@@ -23110,8 +23110,8 @@ window.NUVIO_DATABASE = [
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
             "id": "src-5XI18T7K",
-            "genre": "Action & Adventure",
-            "name": "Action & Adventure"
+            "genre": "Action Et Adventure",
+            "name": "Action Et Adventure"
           },
           {
             "title": "Top All Time Films",
@@ -23146,8 +23146,8 @@ window.NUVIO_DATABASE = [
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
             "id": "src-JT1D7XBD",
-            "genre": "Action & Adventure",
-            "name": "Action & Adventure"
+            "genre": "Action Et Adventure",
+            "name": "Action Et Adventure"
           },
           {
             "title": "Top of the Year Films",
@@ -23188,8 +23188,8 @@ window.NUVIO_DATABASE = [
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
             "id": "src-GQHAYRZA",
-            "genre": "Action & Adventure",
-            "name": "Action & Adventure"
+            "genre": "Action Et Adventure",
+            "name": "Action Et Adventure"
           }
         ],
         "hideTitle": true,
@@ -23242,8 +23242,8 @@ window.NUVIO_DATABASE = [
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
             "id": "src-KXG341SN",
-            "genre": "Action & Adventure",
-            "name": "Action & Adventure"
+            "genre": "Action Et Adventure",
+            "name": "Action Et Adventure"
           },
           {
             "title": "Populaires Films",
@@ -23278,8 +23278,8 @@ window.NUVIO_DATABASE = [
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
             "id": "src-IXPPLRY9",
-            "genre": "Action & Adventure",
-            "name": "Action & Adventure"
+            "genre": "Action Et Adventure",
+            "name": "Action Et Adventure"
           },
           {
             "title": "Top All Time Films",
@@ -23314,8 +23314,8 @@ window.NUVIO_DATABASE = [
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
             "id": "src-OXO1JZ1G",
-            "genre": "Action & Adventure",
-            "name": "Action & Adventure"
+            "genre": "Action Et Adventure",
+            "name": "Action Et Adventure"
           },
           {
             "title": "Top of the Year Films",
@@ -23356,8 +23356,8 @@ window.NUVIO_DATABASE = [
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
             "id": "src-G452PU42",
-            "genre": "Action & Adventure",
-            "name": "Action & Adventure"
+            "genre": "Action Et Adventure",
+            "name": "Action Et Adventure"
           }
         ],
         "hideTitle": true,
@@ -24554,8 +24554,8 @@ window.NUVIO_DATABASE = [
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
             "id": "src-HIQ75FTX",
-            "genre": "Sci-Fi & Fantasy",
-            "name": "Sci-Fi & Fantasy"
+            "genre": "Sci-Fi Et Fantasy",
+            "name": "Sci-Fi Et Fantasy"
           },
           {
             "title": "Populaires Films",
@@ -24590,8 +24590,8 @@ window.NUVIO_DATABASE = [
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
             "id": "src-OQUNBBDP",
-            "genre": "Sci-Fi & Fantasy",
-            "name": "Sci-Fi & Fantasy"
+            "genre": "Sci-Fi Et Fantasy",
+            "name": "Sci-Fi Et Fantasy"
           },
           {
             "title": "Top All Time Films",
@@ -24626,8 +24626,8 @@ window.NUVIO_DATABASE = [
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
             "id": "src-AM6CI1KG",
-            "genre": "Sci-Fi & Fantasy",
-            "name": "Sci-Fi & Fantasy"
+            "genre": "Sci-Fi Et Fantasy",
+            "name": "Sci-Fi Et Fantasy"
           },
           {
             "title": "Top of the Year Films",
@@ -24668,8 +24668,8 @@ window.NUVIO_DATABASE = [
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
             "id": "src-NPOWETVC",
-            "genre": "Sci-Fi & Fantasy",
-            "name": "Sci-Fi & Fantasy"
+            "genre": "Sci-Fi Et Fantasy",
+            "name": "Sci-Fi Et Fantasy"
           }
         ],
         "hideTitle": true,
@@ -26085,8 +26085,8 @@ window.NUVIO_DATABASE = [
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
             "id": "src-AL8QXRN0",
-            "genre": "Sci-Fi & Fantasy",
-            "name": "Sci-Fi & Fantasy"
+            "genre": "Sci-Fi Et Fantasy",
+            "name": "Sci-Fi Et Fantasy"
           },
           {
             "title": "Populaires Films",
@@ -26121,8 +26121,8 @@ window.NUVIO_DATABASE = [
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
             "id": "src-07FTVBTB",
-            "genre": "Sci-Fi & Fantasy",
-            "name": "Sci-Fi & Fantasy"
+            "genre": "Sci-Fi Et Fantasy",
+            "name": "Sci-Fi Et Fantasy"
           },
           {
             "title": "Top All Time Films",
@@ -26157,8 +26157,8 @@ window.NUVIO_DATABASE = [
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
             "id": "src-F02RGAOP",
-            "genre": "Sci-Fi & Fantasy",
-            "name": "Sci-Fi & Fantasy"
+            "genre": "Sci-Fi Et Fantasy",
+            "name": "Sci-Fi Et Fantasy"
           },
           {
             "title": "Top of the Year Films",
@@ -26199,8 +26199,8 @@ window.NUVIO_DATABASE = [
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
             "id": "src-3FFWY8CQ",
-            "genre": "Sci-Fi & Fantasy",
-            "name": "Sci-Fi & Fantasy"
+            "genre": "Sci-Fi Et Fantasy",
+            "name": "Sci-Fi Et Fantasy"
           }
         ],
         "hideTitle": true,
@@ -26893,8 +26893,8 @@ window.NUVIO_DATABASE = [
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
             "id": "src-D7GTQAP0",
-            "genre": "War & Politics",
-            "name": "War & Politics"
+            "genre": "War Et Politics",
+            "name": "War Et Politics"
           },
           {
             "title": "Populaires Films",
@@ -26929,8 +26929,8 @@ window.NUVIO_DATABASE = [
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
             "id": "src-A0J0H9UN",
-            "genre": "War & Politics",
-            "name": "War & Politics"
+            "genre": "War Et Politics",
+            "name": "War Et Politics"
           },
           {
             "title": "Top All Time Films",
@@ -26965,8 +26965,8 @@ window.NUVIO_DATABASE = [
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
             "id": "src-1COV0BVX",
-            "genre": "War & Politics",
-            "name": "War & Politics"
+            "genre": "War Et Politics",
+            "name": "War Et Politics"
           },
           {
             "title": "Top of the Year Films",
@@ -27007,8 +27007,8 @@ window.NUVIO_DATABASE = [
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
             "id": "src-K0LET1LA",
-            "genre": "War & Politics",
-            "name": "War & Politics"
+            "genre": "War Et Politics",
+            "name": "War Et Politics"
           }
         ],
         "hideTitle": true,
@@ -27199,14 +27199,14 @@ window.NUVIO_DATABASE = [
   },
   {
     "id": "collection-3UOL2OFV",
-    "title": "Ambiances & Émotions",
+    "title": "Ambiances Et Émotions",
     "viewMode": "FOLLOW_LAYOUT",
     "pinToTop": true,
     "showAllTab": true,
     "folders": [
       {
         "id": "folder-W52X6SMF",
-        "title": "Douillet & Réconfortant",
+        "title": "Douillet Et Réconfortant",
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
         "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/cozy-and-comforting/v2/cozy-and-comforting-cover.png",
@@ -27237,7 +27237,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-7PMKMI95",
-            "title": "Heartwarming TV Comedies & Dramas",
+            "title": "Heartwarming TV Comedies Et Dramas",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -27250,8 +27250,8 @@ window.NUVIO_DATABASE = [
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Heartwarming TV Comedies & Dramas",
-            "name": "Heartwarming TV Comedies & Dramas"
+            "genre": "Heartwarming TV Comedies Et Dramas",
+            "name": "Heartwarming TV Comedies Et Dramas"
           },
           {
             "id": "src-1HHL2R9R",
@@ -27334,7 +27334,7 @@ window.NUVIO_DATABASE = [
       },
       {
         "id": "folder-7TSDBZYI",
-        "title": "Casse-tête & Mystère",
+        "title": "Casse-tête Et Mystère",
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
         "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/mind-bending/v2/mind-bending-cover.png",
@@ -27381,7 +27381,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-1EXUZLDM",
-            "title": "Twist Endings & Unpredictable",
+            "title": "Twist Endings Et Unpredictable",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -27394,12 +27394,12 @@ window.NUVIO_DATABASE = [
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Twist Endings & Unpredictable",
-            "name": "Twist Endings & Unpredictable"
+            "genre": "Twist Endings Et Unpredictable",
+            "name": "Twist Endings Et Unpredictable"
           },
           {
             "id": "src-VL6W2CC3",
-            "title": "Time Loops & Alternate Realities",
+            "title": "Time Loops Et Alternate Realities",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -27412,8 +27412,8 @@ window.NUVIO_DATABASE = [
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Time Loops & Alternate Realities",
-            "name": "Time Loops & Alternate Realities"
+            "genre": "Time Loops Et Alternate Realities",
+            "name": "Time Loops Et Alternate Realities"
           },
           {
             "id": "src-HXAJ2S6G",
@@ -27486,7 +27486,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-8FBLV2KZ",
-            "title": "Survival & Heist Films",
+            "title": "Survival Et Heist Films",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -27499,12 +27499,12 @@ window.NUVIO_DATABASE = [
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Survival & Heist Movies",
-            "name": "Survival & Heist Films"
+            "genre": "Survival Et Heist Movies",
+            "name": "Survival Et Heist Films"
           },
           {
             "id": "src-KYIOCRHA",
-            "title": "Action & Thriller Séries",
+            "title": "Action Et Thriller Séries",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -27517,12 +27517,12 @@ window.NUVIO_DATABASE = [
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Action & Adventure",
-            "name": "Action & Adventure"
+            "genre": "Action Et Adventure",
+            "name": "Action Et Adventure"
           },
           {
             "id": "src-MFV6LSIE",
-            "title": "Martial Arts & Combat",
+            "title": "Martial Arts Et Combat",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -27535,8 +27535,8 @@ window.NUVIO_DATABASE = [
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Martial Arts & Combat",
-            "name": "Martial Arts & Combat"
+            "genre": "Martial Arts Et Combat",
+            "name": "Martial Arts Et Combat"
           },
           {
             "id": "src-RCV9T0NQ",
@@ -27580,7 +27580,7 @@ window.NUVIO_DATABASE = [
       },
       {
         "id": "folder-070BQVHR",
-        "title": "Épique & Grandiose",
+        "title": "Épique Et Grandiose",
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
         "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/epic-and-sweeping/v2/epic-and-sweeping-cover.png",
@@ -27591,7 +27591,7 @@ window.NUVIO_DATABASE = [
         "sources": [
           {
             "id": "src-KVRNZRDD",
-            "title": "Historical & War Epics",
+            "title": "Historical Et War Epics",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -27604,8 +27604,8 @@ window.NUVIO_DATABASE = [
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Historical & War Epics",
-            "name": "Historical & War Epics"
+            "genre": "Historical Et War Epics",
+            "name": "Historical Et War Epics"
           },
           {
             "id": "src-8DFVNN38",
@@ -27645,7 +27645,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-BOTAT126",
-            "title": "Space Opera & Cosmic Journeys",
+            "title": "Space Opera Et Cosmic Journeys",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -27715,7 +27715,7 @@ window.NUVIO_DATABASE = [
         "sources": [
           {
             "id": "src-5GTQ02N8",
-            "title": "Uplifting & Inspiring Films",
+            "title": "Uplifting Et Inspiring Films",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -27728,8 +27728,8 @@ window.NUVIO_DATABASE = [
               "withoutGenres": "16,99",
               "without_genres": "16,99"
             },
-            "genre": "Uplifting & Inspiring Movies",
-            "name": "Uplifting & Inspiring Films"
+            "genre": "Uplifting Et Inspiring Movies",
+            "name": "Uplifting Et Inspiring Films"
           },
           {
             "id": "src-IJ3E8Q5B",
@@ -27770,7 +27770,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-GKU33CH3",
-            "title": "Road Trips & Buddy Comedies",
+            "title": "Road Trips Et Buddy Comedies",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -27876,7 +27876,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-66JWMSP1",
-            "title": "Neo-Noir & Moody Crime",
+            "title": "Neo-Noir Et Moody Crime",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -27889,8 +27889,8 @@ window.NUVIO_DATABASE = [
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Neo-Noir & Moody Crime",
-            "name": "Neo-Noir & Moody Crime"
+            "genre": "Neo-Noir Et Moody Crime",
+            "name": "Neo-Noir Et Moody Crime"
           },
           {
             "id": "src-W9YLG9AJ",
@@ -28024,7 +28024,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-KKS98W3F",
-            "title": "Family & Loss Stories",
+            "title": "Family Et Loss Stories",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -28085,7 +28085,7 @@ window.NUVIO_DATABASE = [
       },
       {
         "id": "folder-VRAANHHD",
-        "title": "80s & 90s Vibes",
+        "title": "80s Et 90s Vibes",
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
         "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/80s-and-90s-vibes/v2/80s-and-90s-vibes-cover.png",
@@ -28134,7 +28134,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-TUN7GDGD",
-            "title": "80s & 90s Popcorn Action",
+            "title": "80s Et 90s Popcorn Action",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -28154,7 +28154,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-S6ASKVS7",
-            "title": "80s & 90s Classic Comedies",
+            "title": "80s Et 90s Classic Comedies",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -28174,7 +28174,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-T3AGNBH5",
-            "title": "Retro Sci-Fi & Mystery TV",
+            "title": "Retro Sci-Fi Et Mystery TV",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -28189,12 +28189,12 @@ window.NUVIO_DATABASE = [
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Retro Sci-Fi & Mystery TV",
-            "name": "Retro Sci-Fi & Mystery TV"
+            "genre": "Retro Sci-Fi Et Mystery TV",
+            "name": "Retro Sci-Fi Et Mystery TV"
           },
           {
             "id": "src-6IVNGVWZ",
-            "title": "90s Cult & Indie Hits",
+            "title": "90s Cult Et Indie Hits",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -28209,14 +28209,14 @@ window.NUVIO_DATABASE = [
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "90s Cult & Indie Hits",
-            "name": "90s Cult & Indie Hits"
+            "genre": "90s Cult Et Indie Hits",
+            "name": "90s Cult Et Indie Hits"
           }
         ]
       },
       {
         "id": "folder-M50463BF",
-        "title": "Sombre & Brut",
+        "title": "Sombre Et Brut",
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
         "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/dark-and-gritty/v2/dark-and-gritty-cover.png",
@@ -28227,7 +28227,7 @@ window.NUVIO_DATABASE = [
         "sources": [
           {
             "id": "src-X6CWD28F",
-            "title": "Gritty Crime & Underworld",
+            "title": "Gritty Crime Et Underworld",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -28263,7 +28263,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-CM9VZX6E",
-            "title": "Anti-Hero & Revenge Stories",
+            "title": "Anti-Hero Et Revenge Stories",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -28276,12 +28276,12 @@ window.NUVIO_DATABASE = [
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Anti-Hero & Revenge Stories",
-            "name": "Anti-Hero & Revenge Stories"
+            "genre": "Anti-Hero Et Revenge Stories",
+            "name": "Anti-Hero Et Revenge Stories"
           },
           {
             "id": "src-CDCNAEIY",
-            "title": "Dystopian & Post-Apocalyptic",
+            "title": "Dystopian Et Post-Apocalyptic",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -28294,8 +28294,8 @@ window.NUVIO_DATABASE = [
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Dystopian & Post-Apocalyptic",
-            "name": "Dystopian & Post-Apocalyptic"
+            "genre": "Dystopian Et Post-Apocalyptic",
+            "name": "Dystopian Et Post-Apocalyptic"
           },
           {
             "id": "src-7FN62KH6",
@@ -28318,7 +28318,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-S2F92D4C",
-            "title": "Recent Dark & Gritty Releases",
+            "title": "Recent Dark Et Gritty Releases",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -28332,14 +28332,14 @@ window.NUVIO_DATABASE = [
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Recent Dark & Gritty Releases",
-            "name": "Recent Dark & Gritty Releases"
+            "genre": "Recent Dark Et Gritty Releases",
+            "name": "Recent Dark Et Gritty Releases"
           }
         ]
       },
       {
         "id": "folder-79A8YOOM",
-        "title": "Spooky & Creepy",
+        "title": "Spooky Et Creepy",
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
         "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/spooky-and-creepy/v2/spooky-and-creepy-cover.png",
@@ -28350,7 +28350,7 @@ window.NUVIO_DATABASE = [
         "sources": [
           {
             "id": "src-NQ6OS8YJ",
-            "title": "Haunted Houses & Ghosts",
+            "title": "Haunted Houses Et Ghosts",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -28387,7 +28387,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-J0D2M45U",
-            "title": "Psychological Horror & Dread",
+            "title": "Psychological Horror Et Dread",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -28406,7 +28406,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-1VPOJZYI",
-            "title": "Monsters & Creature Features",
+            "title": "Monsters Et Creature Features",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -29744,7 +29744,7 @@ window.NUVIO_DATABASE = [
   },
   {
     "id": "collection-8EYK6R4X",
-    "title": "Sagas & Collections",
+    "title": "Sagas Et Collections",
     "folders": [
       {
         "id": "folder-3B76E2AD",
@@ -30761,7 +30761,7 @@ window.NUVIO_DATABASE = [
             "name": "Police Academy Collection"
           },
           {
-            "title": "Harold & Kumar Collection",
+            "title": "Harold Et Kumar Collection",
             "sortBy": "original",
             "tmdbId": 30663,
             "filters": {},
@@ -30769,11 +30769,11 @@ window.NUVIO_DATABASE = [
             "mediaType": "MOVIE",
             "tmdbSourceType": "COLLECTION",
             "id": "src-F3449FAB",
-            "genre": "Harold & Kumar Collection",
-            "name": "Harold & Kumar Collection"
+            "genre": "Harold Et Kumar Collection",
+            "name": "Harold Et Kumar Collection"
           },
           {
-            "title": "Bill & Ted Collection",
+            "title": "Bill Et Ted Collection",
             "sortBy": "original",
             "tmdbId": 91746,
             "filters": {},
@@ -30781,8 +30781,8 @@ window.NUVIO_DATABASE = [
             "mediaType": "MOVIE",
             "tmdbSourceType": "COLLECTION",
             "id": "src-EDA00CF3",
-            "genre": "Bill & Ted Collection",
-            "name": "Bill & Ted Collection"
+            "genre": "Bill Et Ted Collection",
+            "name": "Bill Et Ted Collection"
           },
           {
             "title": "Look Who's Talking Collection",
@@ -31064,7 +31064,7 @@ window.NUVIO_DATABASE = [
       },
       {
         "id": "folder-B362DBAF",
-        "title": "Family & Animation Collections",
+        "title": "Family Et Animation Collections",
         "sources": [
           {
             "title": "Alvin and the Chipmunks Collection",
@@ -32898,7 +32898,7 @@ window.NUVIO_DATABASE = [
             "name": "Superman Classic Collection"
           },
           {
-            "title": "Bill & Ted Collection",
+            "title": "Bill Et Ted Collection",
             "sortBy": "original",
             "tmdbId": 91746,
             "filters": {},
@@ -32906,8 +32906,8 @@ window.NUVIO_DATABASE = [
             "mediaType": "MOVIE",
             "tmdbSourceType": "COLLECTION",
             "id": "src-45058485",
-            "genre": "Bill & Ted Collection",
-            "name": "Bill & Ted Collection"
+            "genre": "Bill Et Ted Collection",
+            "name": "Bill Et Ted Collection"
           }
         ],
         "hideTitle": true,
@@ -33743,10 +33743,10 @@ window.NUVIO_DATABASE = [
       },
       {
         "id": "folder-170B1B57",
-        "title": "Bill & Ted Collection",
+        "title": "Bill Et Ted Collection",
         "sources": [
           {
-            "title": "Bill & Ted Collection",
+            "title": "Bill Et Ted Collection",
             "sortBy": "original",
             "tmdbId": 91746,
             "filters": {},
@@ -33754,8 +33754,8 @@ window.NUVIO_DATABASE = [
             "mediaType": "MOVIE",
             "tmdbSourceType": "COLLECTION",
             "id": "src-74AAECC9",
-            "genre": "Bill & Ted Collection",
-            "name": "Bill & Ted Collection"
+            "genre": "Bill Et Ted Collection",
+            "name": "Bill Et Ted Collection"
           }
         ],
         "hideTitle": true,
@@ -34924,10 +34924,10 @@ window.NUVIO_DATABASE = [
       },
       {
         "id": "folder-C7534995",
-        "title": "Harold & Kumar Collection",
+        "title": "Harold Et Kumar Collection",
         "sources": [
           {
-            "title": "Harold & Kumar Collection",
+            "title": "Harold Et Kumar Collection",
             "sortBy": "original",
             "tmdbId": 30663,
             "filters": {},
@@ -34935,8 +34935,8 @@ window.NUVIO_DATABASE = [
             "mediaType": "MOVIE",
             "tmdbSourceType": "COLLECTION",
             "id": "src-1DA55884",
-            "genre": "Harold & Kumar Collection",
-            "name": "Harold & Kumar Collection"
+            "genre": "Harold Et Kumar Collection",
+            "name": "Harold Et Kumar Collection"
           }
         ],
         "hideTitle": true,
@@ -58117,7 +58117,7 @@ window.NUVIO_DATABASE = [
       },
       {
         "id": "folder-QCEU9Z9A",
-        "title": "Shonen & Action Anime",
+        "title": "Shonen Et Action Anime",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/shonen-and-action-anime/shonen-and-action-anime-cover.png",
@@ -58168,7 +58168,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-KGSMK69S",
-            "title": "Dark Fantasy & Supernatural",
+            "title": "Dark Fantasy Et Supernatural",
             "mediaType": "TV",
             "provider": "tmdb",
             "tmdbSourceType": "DISCOVER",
@@ -58185,12 +58185,12 @@ window.NUVIO_DATABASE = [
               "with_genres": "16",
               "with_original_language": "ja"
             },
-            "genre": "Dark Fantasy & Supernatural",
-            "name": "Dark Fantasy & Supernatural"
+            "genre": "Dark Fantasy Et Supernatural",
+            "name": "Dark Fantasy Et Supernatural"
           },
           {
             "id": "src-RC146QDA",
-            "title": "Martial Arts & Swordplay",
+            "title": "Martial Arts Et Swordplay",
             "mediaType": "TV",
             "provider": "tmdb",
             "tmdbSourceType": "DISCOVER",
@@ -58207,12 +58207,12 @@ window.NUVIO_DATABASE = [
               "with_genres": "16",
               "with_original_language": "ja"
             },
-            "genre": "Martial Arts & Swordplay",
-            "name": "Martial Arts & Swordplay"
+            "genre": "Martial Arts Et Swordplay",
+            "name": "Martial Arts Et Swordplay"
           },
           {
             "id": "src-0CQCGOJS",
-            "title": "Mecha & Cyberpunk",
+            "title": "Mecha Et Cyberpunk",
             "mediaType": "TV",
             "provider": "tmdb",
             "tmdbSourceType": "DISCOVER",
@@ -58229,8 +58229,8 @@ window.NUVIO_DATABASE = [
               "with_genres": "16",
               "with_original_language": "ja"
             },
-            "genre": "Mecha & Cyberpunk",
-            "name": "Mecha & Cyberpunk"
+            "genre": "Mecha Et Cyberpunk",
+            "name": "Mecha Et Cyberpunk"
           },
           {
             "id": "src-CUNGHB3X",
@@ -58348,7 +58348,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-13FD7F9C",
-            "title": "Madhouse & Production I.G",
+            "title": "Madhouse Et Production I.G",
             "mediaType": "TV",
             "provider": "tmdb",
             "tmdbSourceType": "DISCOVER",
@@ -58363,12 +58363,12 @@ window.NUVIO_DATABASE = [
               "with_original_language": "ja",
               "with_companies": "3464|529"
             },
-            "genre": "Madhouse & Production I.G",
-            "name": "Madhouse & Production I.G"
+            "genre": "Madhouse Et Production I.G",
+            "name": "Madhouse Et Production I.G"
           },
           {
             "id": "src-D9U7VKID",
-            "title": "Bones, WIT & Trigger",
+            "title": "Bones, WIT Et Trigger",
             "mediaType": "TV",
             "provider": "tmdb",
             "tmdbSourceType": "DISCOVER",
@@ -58383,14 +58383,14 @@ window.NUVIO_DATABASE = [
               "with_original_language": "ja",
               "with_companies": "2849|31058|50908"
             },
-            "genre": "Bones, WIT & Trigger",
-            "name": "Bones, WIT & Trigger"
+            "genre": "Bones, WIT Et Trigger",
+            "name": "Bones, WIT Et Trigger"
           }
         ]
       },
       {
         "id": "folder-JQ8I3SCI",
-        "title": "Isekai & Fantasy Sagas",
+        "title": "Isekai Et Fantasy Sagas",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/isekai-and-fantasy-sagas/isekai-and-fantasy-sagas-cover.png",
@@ -58467,7 +58467,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-5H1S302K",
-            "title": "Epic Magic & Fantasy Sagas",
+            "title": "Epic Magic Et Fantasy Sagas",
             "mediaType": "TV",
             "provider": "tmdb",
             "tmdbSourceType": "DISCOVER",
@@ -58484,8 +58484,8 @@ window.NUVIO_DATABASE = [
               "with_genres": "16,10765",
               "with_original_language": "ja"
             },
-            "genre": "Epic Magic & Fantasy Sagas",
-            "name": "Epic Magic & Fantasy Sagas"
+            "genre": "Epic Magic Et Fantasy Sagas",
+            "name": "Epic Magic Et Fantasy Sagas"
           },
           {
             "id": "src-1RB32ZTB",
@@ -58534,7 +58534,7 @@ window.NUVIO_DATABASE = [
       },
       {
         "id": "folder-FML2DNZO",
-        "title": "Slice of Life & Romance",
+        "title": "Slice of Life Et Romance",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/slice-of-life-and-romance/slice-of-life-and-romance-cover.png",
@@ -58611,7 +58611,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-BU2GQ7OO",
-            "title": "Cozy & Relaxing Favorites",
+            "title": "Cozy Et Relaxing Favorites",
             "mediaType": "TV",
             "provider": "tmdb",
             "tmdbSourceType": "DISCOVER",
@@ -58628,8 +58628,8 @@ window.NUVIO_DATABASE = [
               "with_genres": "16,35",
               "with_original_language": "ja"
             },
-            "genre": "Cozy & Relaxing Favorites",
-            "name": "Cozy & Relaxing Favorites"
+            "genre": "Cozy Et Relaxing Favorites",
+            "name": "Cozy Et Relaxing Favorites"
           },
           {
             "id": "src-K1S5MCMN",
@@ -58680,7 +58680,7 @@ window.NUVIO_DATABASE = [
       },
       {
         "id": "folder-CDMZH7S0",
-        "title": "Sports & Competition Anime",
+        "title": "Sports Et Competition Anime",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/sports-and-competition-anime/sports-and-competition-anime-cover.png",
@@ -58757,7 +58757,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-CQ8NKK03",
-            "title": "Team Sports & Rivalries",
+            "title": "Team Sports Et Rivalries",
             "mediaType": "TV",
             "provider": "tmdb",
             "tmdbSourceType": "DISCOVER",
@@ -58774,12 +58774,12 @@ window.NUVIO_DATABASE = [
               "with_genres": "16",
               "with_original_language": "ja"
             },
-            "genre": "Team Sports & Rivalries",
-            "name": "Team Sports & Rivalries"
+            "genre": "Team Sports Et Rivalries",
+            "name": "Team Sports Et Rivalries"
           },
           {
             "id": "src-H546HMAK",
-            "title": "Mind Games & High Stakes",
+            "title": "Mind Games Et High Stakes",
             "mediaType": "TV",
             "provider": "tmdb",
             "tmdbSourceType": "DISCOVER",
@@ -58794,8 +58794,8 @@ window.NUVIO_DATABASE = [
               "with_genres": "16,9648",
               "with_original_language": "ja"
             },
-            "genre": "Mind Games & High Stakes",
-            "name": "Mind Games & High Stakes"
+            "genre": "Mind Games Et High Stakes",
+            "name": "Mind Games Et High Stakes"
           },
           {
             "id": "src-HXSCF9Y7",
@@ -59508,7 +59508,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-TH8DL1E9",
-            "title": "Les mieux notés & Acclaimed French Films",
+            "title": "Les mieux notés Et Acclaimed French Films",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -59519,12 +59519,12 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 250,
               "withOriginalLanguage": "fr"
             },
-            "genre": "Top Rated & Acclaimed French Movies",
-            "name": "Les mieux notés & Acclaimed French Films"
+            "genre": "Top Rated Et Acclaimed French Movies",
+            "name": "Les mieux notés Et Acclaimed French Films"
           },
           {
             "id": "src-VJ527BOD",
-            "title": "Recent & New French Releases",
+            "title": "Recent Et New French Releases",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -59536,12 +59536,12 @@ window.NUVIO_DATABASE = [
               "withOriginCountry": "FR",
               "withOriginalLanguage": "fr"
             },
-            "genre": "Recent & New French Releases",
-            "name": "Recent & New French Releases"
+            "genre": "Recent Et New French Releases",
+            "name": "Recent Et New French Releases"
           },
           {
             "id": "src-U77KLGVR",
-            "title": "Populaires French Séries & Dramas",
+            "title": "Populaires French Séries Et Dramas",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -59552,12 +59552,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 25,
               "withOriginalLanguage": "fr"
             },
-            "genre": "Popular French TV Series & Dramas",
-            "name": "Populaires French Séries & Dramas"
+            "genre": "Popular French TV Series Et Dramas",
+            "name": "Populaires French Séries Et Dramas"
           },
           {
             "id": "src-6YCPOA2G",
-            "title": "French Action, Crime & Thrillers",
+            "title": "French Action, Crime Et Thrillers",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -59569,12 +59569,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "fr"
             },
-            "genre": "French Action, Crime & Thrillers",
-            "name": "French Action, Crime & Thrillers"
+            "genre": "French Action, Crime Et Thrillers",
+            "name": "French Action, Crime Et Thrillers"
           },
           {
             "id": "src-7D29KNOK",
-            "title": "French Drama, Romance & Comedy Hits",
+            "title": "French Drama, Romance Et Comedy Hits",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -59586,8 +59586,8 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "fr"
             },
-            "genre": "French Drama, Romance & Comedy Hits",
-            "name": "French Drama, Romance & Comedy Hits"
+            "genre": "French Drama, Romance Et Comedy Hits",
+            "name": "French Drama, Romance Et Comedy Hits"
           }
         ],
         "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/french-cinema/french-cinema-backdrop.jpg",
@@ -59620,7 +59620,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-R0VIXMRJ",
-            "title": "Les mieux notés & Acclaimed British Films",
+            "title": "Les mieux notés Et Acclaimed British Films",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -59631,12 +59631,12 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 500,
               "withOriginalLanguage": "en"
             },
-            "genre": "Top Rated & Acclaimed British Movies",
-            "name": "Les mieux notés & Acclaimed British Films"
+            "genre": "Top Rated Et Acclaimed British Movies",
+            "name": "Les mieux notés Et Acclaimed British Films"
           },
           {
             "id": "src-VNQ00ARN",
-            "title": "Recent & New British Releases",
+            "title": "Recent Et New British Releases",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -59648,12 +59648,12 @@ window.NUVIO_DATABASE = [
               "withOriginCountry": "GB",
               "withOriginalLanguage": "en"
             },
-            "genre": "Recent & New British Releases",
-            "name": "Recent & New British Releases"
+            "genre": "Recent Et New British Releases",
+            "name": "Recent Et New British Releases"
           },
           {
             "id": "src-EGNWNSAG",
-            "title": "Populaires British Séries & Dramas",
+            "title": "Populaires British Séries Et Dramas",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -59664,12 +59664,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 25,
               "withOriginalLanguage": "en"
             },
-            "genre": "Popular British TV Series & Dramas",
-            "name": "Populaires British Séries & Dramas"
+            "genre": "Popular British TV Series Et Dramas",
+            "name": "Populaires British Séries Et Dramas"
           },
           {
             "id": "src-L64PRTF3",
-            "title": "British Action, Crime & Thrillers",
+            "title": "British Action, Crime Et Thrillers",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -59681,12 +59681,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "en"
             },
-            "genre": "British Action, Crime & Thrillers",
-            "name": "British Action, Crime & Thrillers"
+            "genre": "British Action, Crime Et Thrillers",
+            "name": "British Action, Crime Et Thrillers"
           },
           {
             "id": "src-MGSMAQVQ",
-            "title": "British Drama, Romance & Comedy Hits",
+            "title": "British Drama, Romance Et Comedy Hits",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -59698,8 +59698,8 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "en"
             },
-            "genre": "British Drama, Romance & Comedy Hits",
-            "name": "British Drama, Romance & Comedy Hits"
+            "genre": "British Drama, Romance Et Comedy Hits",
+            "name": "British Drama, Romance Et Comedy Hits"
           }
         ],
         "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/british-cinema/british-cinema-backdrop.jpg",
@@ -59736,7 +59736,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-HF0MS4MW",
-            "title": "Les mieux notés & Acclaimed Latin American Films",
+            "title": "Les mieux notés Et Acclaimed Latin American Films",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -59747,12 +59747,12 @@ window.NUVIO_DATABASE = [
               "withOriginCountry": "MX|GT|HN|SV|NI|CR|PA|CU|DO|PR|CO|VE|EC|PE|BO|PY|UY|AR|CL|BR",
               "voteCountGte": 250
             },
-            "genre": "Top Rated & Acclaimed Latin American Movies",
-            "name": "Les mieux notés & Acclaimed Latin American Films"
+            "genre": "Top Rated Et Acclaimed Latin American Movies",
+            "name": "Les mieux notés Et Acclaimed Latin American Films"
           },
           {
             "id": "src-EAOMSK9A",
-            "title": "Recent & New Latin American Releases",
+            "title": "Recent Et New Latin American Releases",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -59764,12 +59764,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withOriginCountry": "MX|GT|HN|SV|NI|CR|PA|CU|DO|PR|CO|VE|EC|PE|BO|PY|UY|AR|CL|BR"
             },
-            "genre": "Recent & New Latin American Releases",
-            "name": "Recent & New Latin American Releases"
+            "genre": "Recent Et New Latin American Releases",
+            "name": "Recent Et New Latin American Releases"
           },
           {
             "id": "src-OXG5MF6L",
-            "title": "Populaires Latin American Séries & Dramas",
+            "title": "Populaires Latin American Séries Et Dramas",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -59780,12 +59780,12 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 25,
               "vote_count.gte": 25
             },
-            "genre": "Popular Latin American TV Series & Dramas",
-            "name": "Populaires Latin American Séries & Dramas"
+            "genre": "Popular Latin American TV Series Et Dramas",
+            "name": "Populaires Latin American Séries Et Dramas"
           },
           {
             "id": "src-MR93AKGN",
-            "title": "Latin American Action, Crime & Thrillers",
+            "title": "Latin American Action, Crime Et Thrillers",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -59797,12 +59797,12 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 50,
               "vote_count.gte": 50
             },
-            "genre": "Latin American Action, Crime & Thrillers",
-            "name": "Latin American Action, Crime & Thrillers"
+            "genre": "Latin American Action, Crime Et Thrillers",
+            "name": "Latin American Action, Crime Et Thrillers"
           },
           {
             "id": "src-4S2451XT",
-            "title": "Latin American Drama, Romance & Comedy Hits",
+            "title": "Latin American Drama, Romance Et Comedy Hits",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -59814,8 +59814,8 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 50,
               "vote_count.gte": 50
             },
-            "genre": "Latin American Drama, Romance & Comedy Hits",
-            "name": "Latin American Drama, Romance & Comedy Hits"
+            "genre": "Latin American Drama, Romance Et Comedy Hits",
+            "name": "Latin American Drama, Romance Et Comedy Hits"
           }
         ]
       },
@@ -59844,7 +59844,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-TE0XBNSC",
-            "title": "Les mieux notés & Acclaimed Australian Films",
+            "title": "Les mieux notés Et Acclaimed Australian Films",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -59855,12 +59855,12 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 500,
               "withOriginalLanguage": "en"
             },
-            "genre": "Top Rated & Acclaimed Australian Movies",
-            "name": "Les mieux notés & Acclaimed Australian Films"
+            "genre": "Top Rated Et Acclaimed Australian Movies",
+            "name": "Les mieux notés Et Acclaimed Australian Films"
           },
           {
             "id": "src-3KTKWIP9",
-            "title": "Recent & New Australian Releases",
+            "title": "Recent Et New Australian Releases",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -59872,12 +59872,12 @@ window.NUVIO_DATABASE = [
               "withOriginCountry": "AU",
               "withOriginalLanguage": "en"
             },
-            "genre": "Recent & New Australian Releases",
-            "name": "Recent & New Australian Releases"
+            "genre": "Recent Et New Australian Releases",
+            "name": "Recent Et New Australian Releases"
           },
           {
             "id": "src-5FGS5IJJ",
-            "title": "Populaires Australian Séries & Dramas",
+            "title": "Populaires Australian Séries Et Dramas",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -59888,12 +59888,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 25,
               "withOriginalLanguage": "en"
             },
-            "genre": "Popular Australian TV Series & Dramas",
-            "name": "Populaires Australian Séries & Dramas"
+            "genre": "Popular Australian TV Series Et Dramas",
+            "name": "Populaires Australian Séries Et Dramas"
           },
           {
             "id": "src-XW1UYKWB",
-            "title": "Australian Action, Crime & Thrillers",
+            "title": "Australian Action, Crime Et Thrillers",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -59905,12 +59905,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "en"
             },
-            "genre": "Australian Action, Crime & Thrillers",
-            "name": "Australian Action, Crime & Thrillers"
+            "genre": "Australian Action, Crime Et Thrillers",
+            "name": "Australian Action, Crime Et Thrillers"
           },
           {
             "id": "src-2SDG96FQ",
-            "title": "Australian Drama, Romance & Comedy Hits",
+            "title": "Australian Drama, Romance Et Comedy Hits",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -59922,8 +59922,8 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "en"
             },
-            "genre": "Australian Drama, Romance & Comedy Hits",
-            "name": "Australian Drama, Romance & Comedy Hits"
+            "genre": "Australian Drama, Romance Et Comedy Hits",
+            "name": "Australian Drama, Romance Et Comedy Hits"
           }
         ],
         "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/australian-cinema/australian-cinema-backdrop.jpg",
@@ -59960,7 +59960,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-KJ7Z23OB",
-            "title": "Les mieux notés & Acclaimed Belgian Films",
+            "title": "Les mieux notés Et Acclaimed Belgian Films",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -59971,12 +59971,12 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 250,
               "withOriginalLanguage": "fr|nl"
             },
-            "genre": "Top Rated & Acclaimed Belgian Movies",
-            "name": "Les mieux notés & Acclaimed Belgian Films"
+            "genre": "Top Rated Et Acclaimed Belgian Movies",
+            "name": "Les mieux notés Et Acclaimed Belgian Films"
           },
           {
             "id": "src-TWW4MHBW",
-            "title": "Recent & New Belgian Releases",
+            "title": "Recent Et New Belgian Releases",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -59988,12 +59988,12 @@ window.NUVIO_DATABASE = [
               "withOriginCountry": "BE",
               "withOriginalLanguage": "fr|nl"
             },
-            "genre": "Recent & New Belgian Releases",
-            "name": "Recent & New Belgian Releases"
+            "genre": "Recent Et New Belgian Releases",
+            "name": "Recent Et New Belgian Releases"
           },
           {
             "id": "src-0I92LBLT",
-            "title": "Populaires Belgian Séries & Dramas",
+            "title": "Populaires Belgian Séries Et Dramas",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -60004,12 +60004,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 25,
               "withOriginalLanguage": "fr|nl"
             },
-            "genre": "Popular Belgian TV Series & Dramas",
-            "name": "Populaires Belgian Séries & Dramas"
+            "genre": "Popular Belgian TV Series Et Dramas",
+            "name": "Populaires Belgian Séries Et Dramas"
           },
           {
             "id": "src-H20JVIXY",
-            "title": "Belgian Action, Crime & Thrillers",
+            "title": "Belgian Action, Crime Et Thrillers",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60021,12 +60021,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "fr|nl"
             },
-            "genre": "Belgian Action, Crime & Thrillers",
-            "name": "Belgian Action, Crime & Thrillers"
+            "genre": "Belgian Action, Crime Et Thrillers",
+            "name": "Belgian Action, Crime Et Thrillers"
           },
           {
             "id": "src-KT2HQDZB",
-            "title": "Belgian Drama, Romance & Comedy Hits",
+            "title": "Belgian Drama, Romance Et Comedy Hits",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60038,8 +60038,8 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "fr|nl"
             },
-            "genre": "Belgian Drama, Romance & Comedy Hits",
-            "name": "Belgian Drama, Romance & Comedy Hits"
+            "genre": "Belgian Drama, Romance Et Comedy Hits",
+            "name": "Belgian Drama, Romance Et Comedy Hits"
           }
         ]
       },
@@ -60072,7 +60072,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-U48R7N9V",
-            "title": "Les mieux notés & Acclaimed Canadian Films",
+            "title": "Les mieux notés Et Acclaimed Canadian Films",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60083,12 +60083,12 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 500,
               "withOriginalLanguage": "en|fr"
             },
-            "genre": "Top Rated & Acclaimed Canadian Movies",
-            "name": "Les mieux notés & Acclaimed Canadian Films"
+            "genre": "Top Rated Et Acclaimed Canadian Movies",
+            "name": "Les mieux notés Et Acclaimed Canadian Films"
           },
           {
             "id": "src-3RD6ZDWU",
-            "title": "Recent & New Canadian Releases",
+            "title": "Recent Et New Canadian Releases",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60100,12 +60100,12 @@ window.NUVIO_DATABASE = [
               "withOriginCountry": "CA",
               "withOriginalLanguage": "en|fr"
             },
-            "genre": "Recent & New Canadian Releases",
-            "name": "Recent & New Canadian Releases"
+            "genre": "Recent Et New Canadian Releases",
+            "name": "Recent Et New Canadian Releases"
           },
           {
             "id": "src-JTHG4923",
-            "title": "Populaires Canadian Séries & Dramas",
+            "title": "Populaires Canadian Séries Et Dramas",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -60116,12 +60116,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 25,
               "withOriginalLanguage": "en|fr"
             },
-            "genre": "Popular Canadian TV Series & Dramas",
-            "name": "Populaires Canadian Séries & Dramas"
+            "genre": "Popular Canadian TV Series Et Dramas",
+            "name": "Populaires Canadian Séries Et Dramas"
           },
           {
             "id": "src-ZXCRBY9I",
-            "title": "Canadian Action, Crime & Thrillers",
+            "title": "Canadian Action, Crime Et Thrillers",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60133,12 +60133,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "en|fr"
             },
-            "genre": "Canadian Action, Crime & Thrillers",
-            "name": "Canadian Action, Crime & Thrillers"
+            "genre": "Canadian Action, Crime Et Thrillers",
+            "name": "Canadian Action, Crime Et Thrillers"
           },
           {
             "id": "src-H6LLHX4I",
-            "title": "Canadian Drama, Romance & Comedy Hits",
+            "title": "Canadian Drama, Romance Et Comedy Hits",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60150,8 +60150,8 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "en|fr"
             },
-            "genre": "Canadian Drama, Romance & Comedy Hits",
-            "name": "Canadian Drama, Romance & Comedy Hits"
+            "genre": "Canadian Drama, Romance Et Comedy Hits",
+            "name": "Canadian Drama, Romance Et Comedy Hits"
           }
         ]
       },
@@ -60180,7 +60180,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-ERJKEALD",
-            "title": "Les mieux notés & Acclaimed Chinese Films",
+            "title": "Les mieux notés Et Acclaimed Chinese Films",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60191,12 +60191,12 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 250,
               "withOriginalLanguage": "zh"
             },
-            "genre": "Top Rated & Acclaimed Chinese Movies",
-            "name": "Les mieux notés & Acclaimed Chinese Films"
+            "genre": "Top Rated Et Acclaimed Chinese Movies",
+            "name": "Les mieux notés Et Acclaimed Chinese Films"
           },
           {
             "id": "src-9TQYRNT0",
-            "title": "Recent & New Chinese Releases",
+            "title": "Recent Et New Chinese Releases",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60208,12 +60208,12 @@ window.NUVIO_DATABASE = [
               "withOriginCountry": "CN",
               "withOriginalLanguage": "zh"
             },
-            "genre": "Recent & New Chinese Releases",
-            "name": "Recent & New Chinese Releases"
+            "genre": "Recent Et New Chinese Releases",
+            "name": "Recent Et New Chinese Releases"
           },
           {
             "id": "src-IB452M9L",
-            "title": "Populaires Chinese Séries & Dramas",
+            "title": "Populaires Chinese Séries Et Dramas",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -60224,12 +60224,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 25,
               "withOriginalLanguage": "zh"
             },
-            "genre": "Popular Chinese TV Series & Dramas",
-            "name": "Populaires Chinese Séries & Dramas"
+            "genre": "Popular Chinese TV Series Et Dramas",
+            "name": "Populaires Chinese Séries Et Dramas"
           },
           {
             "id": "src-FM6FUXA7",
-            "title": "Chinese Action, Crime & Thrillers",
+            "title": "Chinese Action, Crime Et Thrillers",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60241,12 +60241,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "zh"
             },
-            "genre": "Chinese Action, Crime & Thrillers",
-            "name": "Chinese Action, Crime & Thrillers"
+            "genre": "Chinese Action, Crime Et Thrillers",
+            "name": "Chinese Action, Crime Et Thrillers"
           },
           {
             "id": "src-5IF492UQ",
-            "title": "Chinese Drama, Romance & Comedy Hits",
+            "title": "Chinese Drama, Romance Et Comedy Hits",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60258,8 +60258,8 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "zh"
             },
-            "genre": "Chinese Drama, Romance & Comedy Hits",
-            "name": "Chinese Drama, Romance & Comedy Hits"
+            "genre": "Chinese Drama, Romance Et Comedy Hits",
+            "name": "Chinese Drama, Romance Et Comedy Hits"
           }
         ],
         "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/chinese-cinema/chinese-cinema-backdrop.jpg",
@@ -60292,7 +60292,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-U3OQ17EH",
-            "title": "Les mieux notés & Acclaimed Danish Films",
+            "title": "Les mieux notés Et Acclaimed Danish Films",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60303,12 +60303,12 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 250,
               "withOriginalLanguage": "da"
             },
-            "genre": "Top Rated & Acclaimed Danish Movies",
-            "name": "Les mieux notés & Acclaimed Danish Films"
+            "genre": "Top Rated Et Acclaimed Danish Movies",
+            "name": "Les mieux notés Et Acclaimed Danish Films"
           },
           {
             "id": "src-K0NWUQCY",
-            "title": "Recent & New Danish Releases",
+            "title": "Recent Et New Danish Releases",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60320,12 +60320,12 @@ window.NUVIO_DATABASE = [
               "withOriginCountry": "DK",
               "withOriginalLanguage": "da"
             },
-            "genre": "Recent & New Danish Releases",
-            "name": "Recent & New Danish Releases"
+            "genre": "Recent Et New Danish Releases",
+            "name": "Recent Et New Danish Releases"
           },
           {
             "id": "src-OG1NMRBV",
-            "title": "Populaires Danish Séries & Dramas",
+            "title": "Populaires Danish Séries Et Dramas",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -60336,12 +60336,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 25,
               "withOriginalLanguage": "da"
             },
-            "genre": "Popular Danish TV Series & Dramas",
-            "name": "Populaires Danish Séries & Dramas"
+            "genre": "Popular Danish TV Series Et Dramas",
+            "name": "Populaires Danish Séries Et Dramas"
           },
           {
             "id": "src-561A10AB",
-            "title": "Danish Action, Crime & Thrillers",
+            "title": "Danish Action, Crime Et Thrillers",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60353,12 +60353,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "da"
             },
-            "genre": "Danish Action, Crime & Thrillers",
-            "name": "Danish Action, Crime & Thrillers"
+            "genre": "Danish Action, Crime Et Thrillers",
+            "name": "Danish Action, Crime Et Thrillers"
           },
           {
             "id": "src-4SY0VM8T",
-            "title": "Danish Drama, Romance & Comedy Hits",
+            "title": "Danish Drama, Romance Et Comedy Hits",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60370,8 +60370,8 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "da"
             },
-            "genre": "Danish Drama, Romance & Comedy Hits",
-            "name": "Danish Drama, Romance & Comedy Hits"
+            "genre": "Danish Drama, Romance Et Comedy Hits",
+            "name": "Danish Drama, Romance Et Comedy Hits"
           }
         ],
         "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/danish-cinema/danish-cinema-backdrop.jpg",
@@ -60408,7 +60408,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-YG5TNC6C",
-            "title": "Les mieux notés & Acclaimed Dutch Films",
+            "title": "Les mieux notés Et Acclaimed Dutch Films",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60419,12 +60419,12 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 250,
               "withOriginalLanguage": "nl"
             },
-            "genre": "Top Rated & Acclaimed Dutch Movies",
-            "name": "Les mieux notés & Acclaimed Dutch Films"
+            "genre": "Top Rated Et Acclaimed Dutch Movies",
+            "name": "Les mieux notés Et Acclaimed Dutch Films"
           },
           {
             "id": "src-PTF8CDUM",
-            "title": "Recent & New Dutch Releases",
+            "title": "Recent Et New Dutch Releases",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60436,12 +60436,12 @@ window.NUVIO_DATABASE = [
               "withOriginCountry": "NL",
               "withOriginalLanguage": "nl"
             },
-            "genre": "Recent & New Dutch Releases",
-            "name": "Recent & New Dutch Releases"
+            "genre": "Recent Et New Dutch Releases",
+            "name": "Recent Et New Dutch Releases"
           },
           {
             "id": "src-NXM1RKT7",
-            "title": "Populaires Dutch Séries & Dramas",
+            "title": "Populaires Dutch Séries Et Dramas",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -60452,12 +60452,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withOriginalLanguage": "nl"
             },
-            "genre": "Popular Dutch TV Series & Dramas",
-            "name": "Populaires Dutch Séries & Dramas"
+            "genre": "Popular Dutch TV Series Et Dramas",
+            "name": "Populaires Dutch Séries Et Dramas"
           },
           {
             "id": "src-XU11KEXH",
-            "title": "Dutch Action, Crime & Thrillers",
+            "title": "Dutch Action, Crime Et Thrillers",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60469,12 +60469,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "nl"
             },
-            "genre": "Dutch Action, Crime & Thrillers",
-            "name": "Dutch Action, Crime & Thrillers"
+            "genre": "Dutch Action, Crime Et Thrillers",
+            "name": "Dutch Action, Crime Et Thrillers"
           },
           {
             "id": "src-TAI9MESH",
-            "title": "Dutch Drama, Romance & Comedy Hits",
+            "title": "Dutch Drama, Romance Et Comedy Hits",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60486,8 +60486,8 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "nl"
             },
-            "genre": "Dutch Drama, Romance & Comedy Hits",
-            "name": "Dutch Drama, Romance & Comedy Hits"
+            "genre": "Dutch Drama, Romance Et Comedy Hits",
+            "name": "Dutch Drama, Romance Et Comedy Hits"
           }
         ]
       },
@@ -60516,7 +60516,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-1PTQUG6Y",
-            "title": "Les mieux notés & Acclaimed German Films",
+            "title": "Les mieux notés Et Acclaimed German Films",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60527,12 +60527,12 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 250,
               "withOriginalLanguage": "de"
             },
-            "genre": "Top Rated & Acclaimed German Movies",
-            "name": "Les mieux notés & Acclaimed German Films"
+            "genre": "Top Rated Et Acclaimed German Movies",
+            "name": "Les mieux notés Et Acclaimed German Films"
           },
           {
             "id": "src-EHPEA7H0",
-            "title": "Recent & New German Releases",
+            "title": "Recent Et New German Releases",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60544,12 +60544,12 @@ window.NUVIO_DATABASE = [
               "withOriginCountry": "DE",
               "withOriginalLanguage": "de"
             },
-            "genre": "Recent & New German Releases",
-            "name": "Recent & New German Releases"
+            "genre": "Recent Et New German Releases",
+            "name": "Recent Et New German Releases"
           },
           {
             "id": "src-8P7Y4OXH",
-            "title": "Populaires German Séries & Dramas",
+            "title": "Populaires German Séries Et Dramas",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -60560,12 +60560,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 25,
               "withOriginalLanguage": "de"
             },
-            "genre": "Popular German TV Series & Dramas",
-            "name": "Populaires German Séries & Dramas"
+            "genre": "Popular German TV Series Et Dramas",
+            "name": "Populaires German Séries Et Dramas"
           },
           {
             "id": "src-F7CTP47I",
-            "title": "German Action, Crime & Thrillers",
+            "title": "German Action, Crime Et Thrillers",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60577,12 +60577,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "de"
             },
-            "genre": "German Action, Crime & Thrillers",
-            "name": "German Action, Crime & Thrillers"
+            "genre": "German Action, Crime Et Thrillers",
+            "name": "German Action, Crime Et Thrillers"
           },
           {
             "id": "src-LWVVWKLQ",
-            "title": "German Drama, Romance & Comedy Hits",
+            "title": "German Drama, Romance Et Comedy Hits",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60594,8 +60594,8 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "de"
             },
-            "genre": "German Drama, Romance & Comedy Hits",
-            "name": "German Drama, Romance & Comedy Hits"
+            "genre": "German Drama, Romance Et Comedy Hits",
+            "name": "German Drama, Romance Et Comedy Hits"
           }
         ],
         "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/german-cinema/german-cinema-backdrop.jpg",
@@ -60632,7 +60632,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-ZVQ4FEWD",
-            "title": "Les mieux notés & Acclaimed Hong Kong Films",
+            "title": "Les mieux notés Et Acclaimed Hong Kong Films",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60643,12 +60643,12 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 250,
               "withOriginalLanguage": "cn|zh|yue"
             },
-            "genre": "Top Rated & Acclaimed Hong Kong Movies",
-            "name": "Les mieux notés & Acclaimed Hong Kong Films"
+            "genre": "Top Rated Et Acclaimed Hong Kong Movies",
+            "name": "Les mieux notés Et Acclaimed Hong Kong Films"
           },
           {
             "id": "src-9IK4MJWJ",
-            "title": "Recent & New Hong Kong Releases",
+            "title": "Recent Et New Hong Kong Releases",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60660,12 +60660,12 @@ window.NUVIO_DATABASE = [
               "withOriginCountry": "HK",
               "withOriginalLanguage": "cn|zh|yue"
             },
-            "genre": "Recent & New Hong Kong Releases",
-            "name": "Recent & New Hong Kong Releases"
+            "genre": "Recent Et New Hong Kong Releases",
+            "name": "Recent Et New Hong Kong Releases"
           },
           {
             "id": "src-UZC3QQEU",
-            "title": "Populaires Hong Kong Séries & Dramas",
+            "title": "Populaires Hong Kong Séries Et Dramas",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -60676,12 +60676,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withOriginalLanguage": "cn|zh|yue"
             },
-            "genre": "Popular Hong Kong TV Series & Dramas",
-            "name": "Populaires Hong Kong Séries & Dramas"
+            "genre": "Popular Hong Kong TV Series Et Dramas",
+            "name": "Populaires Hong Kong Séries Et Dramas"
           },
           {
             "id": "src-FERUB5W4",
-            "title": "Hong Kong Action, Crime & Thrillers",
+            "title": "Hong Kong Action, Crime Et Thrillers",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60693,12 +60693,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "cn|zh|yue"
             },
-            "genre": "Hong Kong Action, Crime & Thrillers",
-            "name": "Hong Kong Action, Crime & Thrillers"
+            "genre": "Hong Kong Action, Crime Et Thrillers",
+            "name": "Hong Kong Action, Crime Et Thrillers"
           },
           {
             "id": "src-H8FZ59BN",
-            "title": "Hong Kong Drama, Romance & Comedy Hits",
+            "title": "Hong Kong Drama, Romance Et Comedy Hits",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60710,8 +60710,8 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "cn|zh|yue"
             },
-            "genre": "Hong Kong Drama, Romance & Comedy Hits",
-            "name": "Hong Kong Drama, Romance & Comedy Hits"
+            "genre": "Hong Kong Drama, Romance Et Comedy Hits",
+            "name": "Hong Kong Drama, Romance Et Comedy Hits"
           }
         ]
       },
@@ -60740,7 +60740,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-LNULR6AV",
-            "title": "Les mieux notés & Acclaimed Indian Films",
+            "title": "Les mieux notés Et Acclaimed Indian Films",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60751,12 +60751,12 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 250,
               "withOriginalLanguage": "hi|ta|te|ml|bn|mr|kn|pa"
             },
-            "genre": "Top Rated & Acclaimed Indian Movies",
-            "name": "Les mieux notés & Acclaimed Indian Films"
+            "genre": "Top Rated Et Acclaimed Indian Movies",
+            "name": "Les mieux notés Et Acclaimed Indian Films"
           },
           {
             "id": "src-SUAL7X0D",
-            "title": "Recent & New Indian Releases",
+            "title": "Recent Et New Indian Releases",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60768,12 +60768,12 @@ window.NUVIO_DATABASE = [
               "withOriginCountry": "IN",
               "withOriginalLanguage": "hi|ta|te|ml|bn|mr|kn|pa"
             },
-            "genre": "Recent & New Indian Releases",
-            "name": "Recent & New Indian Releases"
+            "genre": "Recent Et New Indian Releases",
+            "name": "Recent Et New Indian Releases"
           },
           {
             "id": "src-U7EKX4EF",
-            "title": "Populaires Indian Séries & Dramas",
+            "title": "Populaires Indian Séries Et Dramas",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -60784,12 +60784,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 25,
               "withOriginalLanguage": "hi|ta|te|ml|bn|mr|kn|pa"
             },
-            "genre": "Popular Indian TV Series & Dramas",
-            "name": "Populaires Indian Séries & Dramas"
+            "genre": "Popular Indian TV Series Et Dramas",
+            "name": "Populaires Indian Séries Et Dramas"
           },
           {
             "id": "src-03PK66G3",
-            "title": "Indian Action, Crime & Thrillers",
+            "title": "Indian Action, Crime Et Thrillers",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60801,12 +60801,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "hi|ta|te|ml|bn|mr|kn|pa"
             },
-            "genre": "Indian Action, Crime & Thrillers",
-            "name": "Indian Action, Crime & Thrillers"
+            "genre": "Indian Action, Crime Et Thrillers",
+            "name": "Indian Action, Crime Et Thrillers"
           },
           {
             "id": "src-0SOPE47F",
-            "title": "Indian Drama, Romance & Comedy Hits",
+            "title": "Indian Drama, Romance Et Comedy Hits",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60818,8 +60818,8 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "hi|ta|te|ml|bn|mr|kn|pa"
             },
-            "genre": "Indian Drama, Romance & Comedy Hits",
-            "name": "Indian Drama, Romance & Comedy Hits"
+            "genre": "Indian Drama, Romance Et Comedy Hits",
+            "name": "Indian Drama, Romance Et Comedy Hits"
           }
         ],
         "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/indian-cinema/indian-cinema-backdrop.jpg",
@@ -60856,7 +60856,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-B7NQ6OME",
-            "title": "Les mieux notés & Acclaimed Irish Films",
+            "title": "Les mieux notés Et Acclaimed Irish Films",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60867,12 +60867,12 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 500,
               "withOriginalLanguage": "en|ga"
             },
-            "genre": "Top Rated & Acclaimed Irish Movies",
-            "name": "Les mieux notés & Acclaimed Irish Films"
+            "genre": "Top Rated Et Acclaimed Irish Movies",
+            "name": "Les mieux notés Et Acclaimed Irish Films"
           },
           {
             "id": "src-W05O6FV9",
-            "title": "Recent & New Irish Releases",
+            "title": "Recent Et New Irish Releases",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60884,12 +60884,12 @@ window.NUVIO_DATABASE = [
               "withOriginCountry": "IE",
               "withOriginalLanguage": "en|ga"
             },
-            "genre": "Recent & New Irish Releases",
-            "name": "Recent & New Irish Releases"
+            "genre": "Recent Et New Irish Releases",
+            "name": "Recent Et New Irish Releases"
           },
           {
             "id": "src-MOWSMVN9",
-            "title": "Populaires Irish Séries & Dramas",
+            "title": "Populaires Irish Séries Et Dramas",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -60900,12 +60900,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 25,
               "withOriginalLanguage": "en|ga"
             },
-            "genre": "Popular Irish TV Series & Dramas",
-            "name": "Populaires Irish Séries & Dramas"
+            "genre": "Popular Irish TV Series Et Dramas",
+            "name": "Populaires Irish Séries Et Dramas"
           },
           {
             "id": "src-AQDJ3COI",
-            "title": "Irish Action, Crime & Thrillers",
+            "title": "Irish Action, Crime Et Thrillers",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60917,12 +60917,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "en|ga"
             },
-            "genre": "Irish Action, Crime & Thrillers",
-            "name": "Irish Action, Crime & Thrillers"
+            "genre": "Irish Action, Crime Et Thrillers",
+            "name": "Irish Action, Crime Et Thrillers"
           },
           {
             "id": "src-QECYG4PI",
-            "title": "Irish Drama, Romance & Comedy Hits",
+            "title": "Irish Drama, Romance Et Comedy Hits",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60934,8 +60934,8 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "en|ga"
             },
-            "genre": "Irish Drama, Romance & Comedy Hits",
-            "name": "Irish Drama, Romance & Comedy Hits"
+            "genre": "Irish Drama, Romance Et Comedy Hits",
+            "name": "Irish Drama, Romance Et Comedy Hits"
           }
         ]
       },
@@ -60964,7 +60964,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-LB56CPT1",
-            "title": "Les mieux notés & Acclaimed Italian Films",
+            "title": "Les mieux notés Et Acclaimed Italian Films",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60975,12 +60975,12 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 250,
               "withOriginalLanguage": "it"
             },
-            "genre": "Top Rated & Acclaimed Italian Movies",
-            "name": "Les mieux notés & Acclaimed Italian Films"
+            "genre": "Top Rated Et Acclaimed Italian Movies",
+            "name": "Les mieux notés Et Acclaimed Italian Films"
           },
           {
             "id": "src-UKDJ5CBB",
-            "title": "Recent & New Italian Releases",
+            "title": "Recent Et New Italian Releases",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -60992,12 +60992,12 @@ window.NUVIO_DATABASE = [
               "withOriginCountry": "IT",
               "withOriginalLanguage": "it"
             },
-            "genre": "Recent & New Italian Releases",
-            "name": "Recent & New Italian Releases"
+            "genre": "Recent Et New Italian Releases",
+            "name": "Recent Et New Italian Releases"
           },
           {
             "id": "src-UJDPRYFC",
-            "title": "Populaires Italian Séries & Dramas",
+            "title": "Populaires Italian Séries Et Dramas",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -61008,12 +61008,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 25,
               "withOriginalLanguage": "it"
             },
-            "genre": "Popular Italian TV Series & Dramas",
-            "name": "Populaires Italian Séries & Dramas"
+            "genre": "Popular Italian TV Series Et Dramas",
+            "name": "Populaires Italian Séries Et Dramas"
           },
           {
             "id": "src-UAJPETZ8",
-            "title": "Italian Action, Crime & Thrillers",
+            "title": "Italian Action, Crime Et Thrillers",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61025,12 +61025,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "it"
             },
-            "genre": "Italian Action, Crime & Thrillers",
-            "name": "Italian Action, Crime & Thrillers"
+            "genre": "Italian Action, Crime Et Thrillers",
+            "name": "Italian Action, Crime Et Thrillers"
           },
           {
             "id": "src-L8BF2ZFS",
-            "title": "Italian Drama, Romance & Comedy Hits",
+            "title": "Italian Drama, Romance Et Comedy Hits",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61042,8 +61042,8 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "it"
             },
-            "genre": "Italian Drama, Romance & Comedy Hits",
-            "name": "Italian Drama, Romance & Comedy Hits"
+            "genre": "Italian Drama, Romance Et Comedy Hits",
+            "name": "Italian Drama, Romance Et Comedy Hits"
           }
         ],
         "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/italian-cinema/italian-cinema-backdrop.jpg",
@@ -61076,7 +61076,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-0W7JRJCS",
-            "title": "Les mieux notés & Acclaimed Japanese Films",
+            "title": "Les mieux notés Et Acclaimed Japanese Films",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61087,12 +61087,12 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 250,
               "withOriginalLanguage": "ja"
             },
-            "genre": "Top Rated & Acclaimed Japanese Movies",
-            "name": "Les mieux notés & Acclaimed Japanese Films"
+            "genre": "Top Rated Et Acclaimed Japanese Movies",
+            "name": "Les mieux notés Et Acclaimed Japanese Films"
           },
           {
             "id": "src-EZARK2G1",
-            "title": "Recent & New Japanese Releases",
+            "title": "Recent Et New Japanese Releases",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61104,12 +61104,12 @@ window.NUVIO_DATABASE = [
               "withOriginCountry": "JP",
               "withOriginalLanguage": "ja"
             },
-            "genre": "Recent & New Japanese Releases",
-            "name": "Recent & New Japanese Releases"
+            "genre": "Recent Et New Japanese Releases",
+            "name": "Recent Et New Japanese Releases"
           },
           {
             "id": "src-NMZQ31A7",
-            "title": "Populaires Japanese Séries & Dramas",
+            "title": "Populaires Japanese Séries Et Dramas",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -61120,12 +61120,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 25,
               "withOriginalLanguage": "ja"
             },
-            "genre": "Popular Japanese TV Series & Dramas",
-            "name": "Populaires Japanese Séries & Dramas"
+            "genre": "Popular Japanese TV Series Et Dramas",
+            "name": "Populaires Japanese Séries Et Dramas"
           },
           {
             "id": "src-8RMXM0XR",
-            "title": "Japanese Action, Crime & Thrillers",
+            "title": "Japanese Action, Crime Et Thrillers",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61137,12 +61137,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "ja"
             },
-            "genre": "Japanese Action, Crime & Thrillers",
-            "name": "Japanese Action, Crime & Thrillers"
+            "genre": "Japanese Action, Crime Et Thrillers",
+            "name": "Japanese Action, Crime Et Thrillers"
           },
           {
             "id": "src-EPCAGTEK",
-            "title": "Japanese Drama, Romance & Comedy Hits",
+            "title": "Japanese Drama, Romance Et Comedy Hits",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61154,8 +61154,8 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "ja"
             },
-            "genre": "Japanese Drama, Romance & Comedy Hits",
-            "name": "Japanese Drama, Romance & Comedy Hits"
+            "genre": "Japanese Drama, Romance Et Comedy Hits",
+            "name": "Japanese Drama, Romance Et Comedy Hits"
           }
         ],
         "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/japanese-cinema/japanese-cinema-backdrop.jpg",
@@ -61188,7 +61188,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-XDZT6LFC",
-            "title": "Les mieux notés & Acclaimed Mexican Films",
+            "title": "Les mieux notés Et Acclaimed Mexican Films",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61199,12 +61199,12 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 250,
               "withOriginalLanguage": "es"
             },
-            "genre": "Top Rated & Acclaimed Mexican Movies",
-            "name": "Les mieux notés & Acclaimed Mexican Films"
+            "genre": "Top Rated Et Acclaimed Mexican Movies",
+            "name": "Les mieux notés Et Acclaimed Mexican Films"
           },
           {
             "id": "src-BNN4VV0T",
-            "title": "Recent & New Mexican Releases",
+            "title": "Recent Et New Mexican Releases",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61216,12 +61216,12 @@ window.NUVIO_DATABASE = [
               "withOriginCountry": "MX",
               "withOriginalLanguage": "es"
             },
-            "genre": "Recent & New Mexican Releases",
-            "name": "Recent & New Mexican Releases"
+            "genre": "Recent Et New Mexican Releases",
+            "name": "Recent Et New Mexican Releases"
           },
           {
             "id": "src-2PR3RKTM",
-            "title": "Populaires Mexican Séries & Dramas",
+            "title": "Populaires Mexican Séries Et Dramas",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -61232,12 +61232,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 25,
               "withOriginalLanguage": "es"
             },
-            "genre": "Popular Mexican TV Series & Dramas",
-            "name": "Populaires Mexican Séries & Dramas"
+            "genre": "Popular Mexican TV Series Et Dramas",
+            "name": "Populaires Mexican Séries Et Dramas"
           },
           {
             "id": "src-YOI4LJMI",
-            "title": "Mexican Action, Crime & Thrillers",
+            "title": "Mexican Action, Crime Et Thrillers",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61249,12 +61249,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "es"
             },
-            "genre": "Mexican Action, Crime & Thrillers",
-            "name": "Mexican Action, Crime & Thrillers"
+            "genre": "Mexican Action, Crime Et Thrillers",
+            "name": "Mexican Action, Crime Et Thrillers"
           },
           {
             "id": "src-D1ZBPY25",
-            "title": "Mexican Drama, Romance & Comedy Hits",
+            "title": "Mexican Drama, Romance Et Comedy Hits",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61266,8 +61266,8 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "es"
             },
-            "genre": "Mexican Drama, Romance & Comedy Hits",
-            "name": "Mexican Drama, Romance & Comedy Hits"
+            "genre": "Mexican Drama, Romance Et Comedy Hits",
+            "name": "Mexican Drama, Romance Et Comedy Hits"
           }
         ],
         "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/mexican-cinema/mexican-cinema-backdrop.jpg",
@@ -61300,7 +61300,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-YAAMH630",
-            "title": "Les mieux notés & Acclaimed Nigerian Films",
+            "title": "Les mieux notés Et Acclaimed Nigerian Films",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61311,12 +61311,12 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 10,
               "withOriginalLanguage": "en|yo|ha|ig"
             },
-            "genre": "Top Rated & Acclaimed Nigerian Movies",
-            "name": "Les mieux notés & Acclaimed Nigerian Films"
+            "genre": "Top Rated Et Acclaimed Nigerian Movies",
+            "name": "Les mieux notés Et Acclaimed Nigerian Films"
           },
           {
             "id": "src-BH1Y0EAH",
-            "title": "Recent & New Nigerian Releases",
+            "title": "Recent Et New Nigerian Releases",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61328,12 +61328,12 @@ window.NUVIO_DATABASE = [
               "withOriginCountry": "NG",
               "withOriginalLanguage": "en|yo|ha|ig"
             },
-            "genre": "Recent & New Nigerian Releases",
-            "name": "Recent & New Nigerian Releases"
+            "genre": "Recent Et New Nigerian Releases",
+            "name": "Recent Et New Nigerian Releases"
           },
           {
             "id": "src-CRRB6YZO",
-            "title": "Populaires Nigerian Séries & Dramas",
+            "title": "Populaires Nigerian Séries Et Dramas",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -61344,12 +61344,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 5,
               "withOriginalLanguage": "en|yo|ha|ig"
             },
-            "genre": "Popular Nigerian TV Series & Dramas",
-            "name": "Populaires Nigerian Séries & Dramas"
+            "genre": "Popular Nigerian TV Series Et Dramas",
+            "name": "Populaires Nigerian Séries Et Dramas"
           },
           {
             "id": "src-MBS2XZ2D",
-            "title": "Nigerian Action, Crime & Thrillers",
+            "title": "Nigerian Action, Crime Et Thrillers",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61361,12 +61361,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 5,
               "withOriginalLanguage": "en|yo|ha|ig"
             },
-            "genre": "Nigerian Action, Crime & Thrillers",
-            "name": "Nigerian Action, Crime & Thrillers"
+            "genre": "Nigerian Action, Crime Et Thrillers",
+            "name": "Nigerian Action, Crime Et Thrillers"
           },
           {
             "id": "src-C09JKXWM",
-            "title": "Nigerian Drama, Romance & Comedy Hits",
+            "title": "Nigerian Drama, Romance Et Comedy Hits",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61378,8 +61378,8 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withOriginalLanguage": "en|yo|ha|ig"
             },
-            "genre": "Nigerian Drama, Romance & Comedy Hits",
-            "name": "Nigerian Drama, Romance & Comedy Hits"
+            "genre": "Nigerian Drama, Romance Et Comedy Hits",
+            "name": "Nigerian Drama, Romance Et Comedy Hits"
           }
         ],
         "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/nigerian-cinema/nigerian-cinema-backdrop.jpg",
@@ -61416,7 +61416,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-W6UN0X2D",
-            "title": "Les mieux notés & Acclaimed South African Films",
+            "title": "Les mieux notés Et Acclaimed South African Films",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61427,12 +61427,12 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 100,
               "withOriginalLanguage": "en|af|zu|xh"
             },
-            "genre": "Top Rated & Acclaimed South African Movies",
-            "name": "Les mieux notés & Acclaimed South African Films"
+            "genre": "Top Rated Et Acclaimed South African Movies",
+            "name": "Les mieux notés Et Acclaimed South African Films"
           },
           {
             "id": "src-42I5TNV8",
-            "title": "Recent & New South African Releases",
+            "title": "Recent Et New South African Releases",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61444,12 +61444,12 @@ window.NUVIO_DATABASE = [
               "withOriginCountry": "ZA",
               "withOriginalLanguage": "en|af|zu|xh"
             },
-            "genre": "Recent & New South African Releases",
-            "name": "Recent & New South African Releases"
+            "genre": "Recent Et New South African Releases",
+            "name": "Recent Et New South African Releases"
           },
           {
             "id": "src-90H3AVQ9",
-            "title": "Populaires South African Séries & Dramas",
+            "title": "Populaires South African Séries Et Dramas",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -61460,12 +61460,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withOriginalLanguage": "en|af|zu|xh"
             },
-            "genre": "Popular South African TV Series & Dramas",
-            "name": "Populaires South African Séries & Dramas"
+            "genre": "Popular South African TV Series Et Dramas",
+            "name": "Populaires South African Séries Et Dramas"
           },
           {
             "id": "src-JIK3MFHV",
-            "title": "South African Action, Crime & Thrillers",
+            "title": "South African Action, Crime Et Thrillers",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61477,12 +61477,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "en|af|zu|xh"
             },
-            "genre": "South African Action, Crime & Thrillers",
-            "name": "South African Action, Crime & Thrillers"
+            "genre": "South African Action, Crime Et Thrillers",
+            "name": "South African Action, Crime Et Thrillers"
           },
           {
             "id": "src-X35G8N3V",
-            "title": "South African Drama, Romance & Comedy Hits",
+            "title": "South African Drama, Romance Et Comedy Hits",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61494,8 +61494,8 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "en|af|zu|xh"
             },
-            "genre": "South African Drama, Romance & Comedy Hits",
-            "name": "South African Drama, Romance & Comedy Hits"
+            "genre": "South African Drama, Romance Et Comedy Hits",
+            "name": "South African Drama, Romance Et Comedy Hits"
           }
         ]
       },
@@ -61524,7 +61524,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-LVQ78WNK",
-            "title": "Les mieux notés & Acclaimed Spanish Films",
+            "title": "Les mieux notés Et Acclaimed Spanish Films",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61535,12 +61535,12 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 250,
               "withOriginalLanguage": "es"
             },
-            "genre": "Top Rated & Acclaimed Spanish Movies",
-            "name": "Les mieux notés & Acclaimed Spanish Films"
+            "genre": "Top Rated Et Acclaimed Spanish Movies",
+            "name": "Les mieux notés Et Acclaimed Spanish Films"
           },
           {
             "id": "src-6P04DJRC",
-            "title": "Recent & New Spanish Releases",
+            "title": "Recent Et New Spanish Releases",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61552,12 +61552,12 @@ window.NUVIO_DATABASE = [
               "withOriginCountry": "ES",
               "withOriginalLanguage": "es"
             },
-            "genre": "Recent & New Spanish Releases",
-            "name": "Recent & New Spanish Releases"
+            "genre": "Recent Et New Spanish Releases",
+            "name": "Recent Et New Spanish Releases"
           },
           {
             "id": "src-CUSUPF4Q",
-            "title": "Populaires Spanish Séries & Dramas",
+            "title": "Populaires Spanish Séries Et Dramas",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -61568,12 +61568,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 25,
               "withOriginalLanguage": "es"
             },
-            "genre": "Popular Spanish TV Series & Dramas",
-            "name": "Populaires Spanish Séries & Dramas"
+            "genre": "Popular Spanish TV Series Et Dramas",
+            "name": "Populaires Spanish Séries Et Dramas"
           },
           {
             "id": "src-HKVZHATW",
-            "title": "Spanish Action, Crime & Thrillers",
+            "title": "Spanish Action, Crime Et Thrillers",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61585,12 +61585,12 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "es"
             },
-            "genre": "Spanish Action, Crime & Thrillers",
-            "name": "Spanish Action, Crime & Thrillers"
+            "genre": "Spanish Action, Crime Et Thrillers",
+            "name": "Spanish Action, Crime Et Thrillers"
           },
           {
             "id": "src-7QAYJAY2",
-            "title": "Spanish Drama, Romance & Comedy Hits",
+            "title": "Spanish Drama, Romance Et Comedy Hits",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61602,8 +61602,8 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 50,
               "withOriginalLanguage": "es"
             },
-            "genre": "Spanish Drama, Romance & Comedy Hits",
-            "name": "Spanish Drama, Romance & Comedy Hits"
+            "genre": "Spanish Drama, Romance Et Comedy Hits",
+            "name": "Spanish Drama, Romance Et Comedy Hits"
           }
         ],
         "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/spanish-cinema/spanish-cinema-backdrop.jpg",
@@ -61626,7 +61626,7 @@ window.NUVIO_DATABASE = [
     "folders": [
       {
         "id": "folder-3EO6D18E",
-        "title": "True Crime & Serial Killers",
+        "title": "True Crime Et Serial Killers",
         "tileShape": "LANDSCAPE",
         "sources": [
           {
@@ -61665,7 +61665,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-ARFD9TGF",
-            "title": "Serial Killers & Unsolved Cases",
+            "title": "Serial Killers Et Unsolved Cases",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61682,7 +61682,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-QZME5WLQ",
-            "title": "Heists, Cons & Robberies",
+            "title": "Heists, Cons Et Robberies",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61742,12 +61742,12 @@ window.NUVIO_DATABASE = [
       },
       {
         "id": "folder-KQU791FW",
-        "title": "Nature, Wildlife & Earth",
+        "title": "Nature, Wildlife Et Earth",
         "tileShape": "LANDSCAPE",
         "sources": [
           {
             "id": "src-EDQB4CWF",
-            "title": "Populaires Nature & Wildlife Séries",
+            "title": "Populaires Nature Et Wildlife Séries",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -61781,7 +61781,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-6VYZGSN0",
-            "title": "Deep Ocean & Marine Life",
+            "title": "Deep Ocean Et Marine Life",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61798,7 +61798,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-A94D1JLO",
-            "title": "Wild Animals & Wilderness",
+            "title": "Wild Animals Et Wilderness",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61815,7 +61815,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-EIL86665",
-            "title": "Les mieux notés Earth & Environment",
+            "title": "Les mieux notés Earth Et Environment",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -61858,7 +61858,7 @@ window.NUVIO_DATABASE = [
       },
       {
         "id": "folder-GLXQEJD5",
-        "title": "Sports & Athletic Stories",
+        "title": "Sports Et Athletic Stories",
         "tileShape": "LANDSCAPE",
         "sources": [
           {
@@ -61897,7 +61897,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-P1ILEP84",
-            "title": "Motorsport & Racing",
+            "title": "Motorsport Et Racing",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61914,7 +61914,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-F4APYJKA",
-            "title": "Combat Sports, Boxing & MMA",
+            "title": "Combat Sports, Boxing Et MMA",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -61974,7 +61974,7 @@ window.NUVIO_DATABASE = [
       },
       {
         "id": "folder-E7NOL7FT",
-        "title": "Music & Concert Documentaires",
+        "title": "Music Et Concert Documentaires",
         "tileShape": "LANDSCAPE",
         "sources": [
           {
@@ -61996,7 +61996,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-DLXM5D3H",
-            "title": "Acclaimed Music & Band Docs",
+            "title": "Acclaimed Music Et Band Docs",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -62030,7 +62030,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-WVU17092",
-            "title": "Rock & Hip-Hop Spotlights",
+            "title": "Rock Et Hip-Hop Spotlights",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -62090,7 +62090,7 @@ window.NUVIO_DATABASE = [
       },
       {
         "id": "folder-0WSZMM2X",
-        "title": "History, War & Civilizations",
+        "title": "History, War Et Civilizations",
         "tileShape": "LANDSCAPE",
         "sources": [
           {
@@ -62129,7 +62129,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-FRM801V5",
-            "title": "WWII & World Conflict",
+            "title": "WWII Et World Conflict",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -62146,7 +62146,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-BWZUH1HT",
-            "title": "Ancient Empires & Civilizations",
+            "title": "Ancient Empires Et Civilizations",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -62163,7 +62163,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-PENOK4LX",
-            "title": "Les mieux notés Military & War Séries",
+            "title": "Les mieux notés Military Et War Séries",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -62206,12 +62206,12 @@ window.NUVIO_DATABASE = [
       },
       {
         "id": "folder-H9YXHQC8",
-        "title": "Science, Tech & Cosmos",
+        "title": "Science, Tech Et Cosmos",
         "tileShape": "LANDSCAPE",
         "sources": [
           {
             "id": "src-EEW1GU7Q",
-            "title": "Populaires Science & Space Docuseries",
+            "title": "Populaires Science Et Space Docuseries",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -62228,7 +62228,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-UCBSGL7Y",
-            "title": "Acclaimed Cosmos & Universe Films",
+            "title": "Acclaimed Cosmos Et Universe Films",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -62245,7 +62245,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-RM3YYF9B",
-            "title": "Technology, AI & Cyber",
+            "title": "Technology, AI Et Cyber",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -62262,7 +62262,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-5DLKPV2O",
-            "title": "Medical, Brain & Health",
+            "title": "Medical, Brain Et Health",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -62279,7 +62279,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-ZG3LEB22",
-            "title": "Les mieux notés Space & Physics Séries",
+            "title": "Les mieux notés Space Et Physics Séries",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -62322,7 +62322,7 @@ window.NUVIO_DATABASE = [
       },
       {
         "id": "folder-VO70XOOU",
-        "title": "Investigative & Scandals",
+        "title": "Investigative Et Scandals",
         "tileShape": "LANDSCAPE",
         "sources": [
           {
@@ -62344,7 +62344,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-JXBTA28I",
-            "title": "Corporate & Financial Scandals",
+            "title": "Corporate Et Financial Scandals",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -62361,7 +62361,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-IBNSVMOA",
-            "title": "Political Scandals & Journalism",
+            "title": "Political Scandals Et Journalism",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -62378,7 +62378,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-3UDCJTIV",
-            "title": "Cults, Scams & Fraud",
+            "title": "Cults, Scams Et Fraud",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -62664,7 +62664,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-JIPWEYHW",
-            "title": "Aardman & Claymation Gems",
+            "title": "Aardman Et Claymation Gems",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -62758,7 +62758,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-UFPZCVL4",
-            "title": "Animal & Creature Adventures",
+            "title": "Animal Et Creature Adventures",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -62815,7 +62815,7 @@ window.NUVIO_DATABASE = [
         "id": "folder-3DCDF32B"
       },
       {
-        "title": "Saturday Morning & Nostalgic Cartoons",
+        "title": "Saturday Morning Et Nostalgic Cartoons",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "sources": [
@@ -62932,7 +62932,7 @@ window.NUVIO_DATABASE = [
         "id": "folder-N8CJYFAA"
       },
       {
-        "title": "Preschool, Toddlers & Little Kids",
+        "title": "Preschool, Toddlers Et Little Kids",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "sources": [
@@ -62955,7 +62955,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-RLRG90PB",
-            "title": "Nick Jr. & Little-Kid Favorites",
+            "title": "Nick Jr. Et Little-Kid Favorites",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -63020,7 +63020,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-SKMEXOKZ",
-            "title": "Storybook & Talking-Animal Films",
+            "title": "Storybook Et Talking-Animal Films",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -63032,8 +63032,8 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 50,
               "vote_count.gte": 50
             },
-            "genre": "Storybook & Talking-Animal Movies",
-            "name": "Storybook & Talking-Animal Films"
+            "genre": "Storybook Et Talking-Animal Movies",
+            "name": "Storybook Et Talking-Animal Films"
           }
         ],
         "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/kids-and-family/preschool-toddlers-and-little-kids/v2/preschool-toddlers-and-little-kids-cover.png",
@@ -63044,7 +63044,7 @@ window.NUVIO_DATABASE = [
         "id": "folder-IK22D8R8"
       },
       {
-        "title": "Disney Channel & Family Séries",
+        "title": "Disney Channel Et Family Séries",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "sources": [
@@ -63066,7 +63066,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-SE7LIXNO",
-            "title": "Disney XD Action & Comedy",
+            "title": "Disney XD Action Et Comedy",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -63077,8 +63077,8 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 35,
               "vote_count.gte": 35
             },
-            "genre": "Disney XD Action & Comedy",
-            "name": "Disney XD Action & Comedy"
+            "genre": "Disney XD Action Et Comedy",
+            "name": "Disney XD Action Et Comedy"
           },
           {
             "id": "src-O87YDYEL",
@@ -63115,7 +63115,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-43P3NIGC",
-            "title": "Teen Fantasy & Mystery",
+            "title": "Teen Fantasy Et Mystery",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -63126,8 +63126,8 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 35,
               "vote_count.gte": 35
             },
-            "genre": "Teen Fantasy & Mystery",
-            "name": "Teen Fantasy & Mystery"
+            "genre": "Teen Fantasy Et Mystery",
+            "name": "Teen Fantasy Et Mystery"
           },
           {
             "id": "src-U6MPA6FB",
@@ -63220,7 +63220,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-5PXXRBYJ",
-            "title": "Docusoaps & Social Experiments",
+            "title": "Docusoaps Et Social Experiments",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -63275,13 +63275,13 @@ window.NUVIO_DATABASE = [
         "id": "folder-WZOQKARY"
       },
       {
-        "title": "High-Stakes Competition & Survival",
+        "title": "High-Stakes Competition Et Survival",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "sources": [
           {
             "id": "src-SH9AKKRO",
-            "title": "Island Survival & Outlast",
+            "title": "Island Survival Et Outlast",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -63298,7 +63298,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-LIH5ILPR",
-            "title": "Extreme Jobs & Real Danger",
+            "title": "Extreme Jobs Et Real Danger",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -63309,12 +63309,12 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 5,
               "vote_count.gte": 5
             },
-            "genre": "Extreme Jobs & Real Danger",
-            "name": "Extreme Jobs & Real Danger"
+            "genre": "Extreme Jobs Et Real Danger",
+            "name": "Extreme Jobs Et Real Danger"
           },
           {
             "id": "src-833W2GQQ",
-            "title": "Strategy & House Lock-Ins",
+            "title": "Strategy Et House Lock-Ins",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -63331,7 +63331,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-2O9OA9ZH",
-            "title": "Global Race & Travel Challenges",
+            "title": "Global Race Et Travel Challenges",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -63348,7 +63348,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-7PCVI48V",
-            "title": "MTV Competition & Chaos",
+            "title": "MTV Competition Et Chaos",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -63359,8 +63359,8 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 5,
               "vote_count.gte": 5
             },
-            "genre": "MTV Competition & Chaos",
-            "name": "MTV Competition & Chaos"
+            "genre": "MTV Competition Et Chaos",
+            "name": "MTV Competition Et Chaos"
           },
           {
             "id": "src-41G3TM4Y",
@@ -63389,13 +63389,13 @@ window.NUVIO_DATABASE = [
         "id": "folder-LEL50ZXT"
       },
       {
-        "title": "Juicy Drama, Dating & Relationship",
+        "title": "Juicy Drama, Dating Et Relationship",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "sources": [
           {
             "id": "src-797KLG18",
-            "title": "Blind Dating & Social Experiments",
+            "title": "Blind Dating Et Social Experiments",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -63446,7 +63446,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-AIDH1ZIS",
-            "title": "High-Society & City Drama",
+            "title": "High-Society Et City Drama",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -63457,12 +63457,12 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 5,
               "vote_count.gte": 5
             },
-            "genre": "High-Society & City Drama",
-            "name": "High-Society & City Drama"
+            "genre": "High-Society Et City Drama",
+            "name": "High-Society Et City Drama"
           },
           {
             "id": "src-E07CACJL",
-            "title": "Family & Relationship Docusoaps",
+            "title": "Family Et Relationship Docusoaps",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -63473,8 +63473,8 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 5,
               "vote_count.gte": 5
             },
-            "genre": "Family & Relationship Docusoaps",
-            "name": "Family & Relationship Docusoaps"
+            "genre": "Family Et Relationship Docusoaps",
+            "name": "Family Et Relationship Docusoaps"
           },
           {
             "id": "src-QJPHNNOJ",
@@ -63503,7 +63503,7 @@ window.NUVIO_DATABASE = [
         "id": "folder-KW5T2ZOD"
       },
       {
-        "title": "Culinary Battles & Cooking Shows",
+        "title": "Culinary Battles Et Cooking Shows",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "sources": [
@@ -63576,7 +63576,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-MBBUSDQV",
-            "title": "Food & Travel Adventures",
+            "title": "Food Et Travel Adventures",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -63618,7 +63618,7 @@ window.NUVIO_DATABASE = [
         "id": "folder-JNY5J1DM"
       },
       {
-        "title": "Real Estate, Home & Lifestyle Makeovers",
+        "title": "Real Estate, Home Et Lifestyle Makeovers",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "sources": [
@@ -63641,7 +63641,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-CBCM0M4L",
-            "title": "Home Renovation & Transformation",
+            "title": "Home Renovation Et Transformation",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -63674,7 +63674,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-LCV78D3M",
-            "title": "Makeovers & Style Transformations",
+            "title": "Makeovers Et Style Transformations",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -63691,7 +63691,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-NNFE61VV",
-            "title": "Car Restoration & Garage Builds",
+            "title": "Car Restoration Et Garage Builds",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -63708,7 +63708,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-0ZU5K77T",
-            "title": "New Lifestyle & Home Releases",
+            "title": "New Lifestyle Et Home Releases",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -63733,7 +63733,7 @@ window.NUVIO_DATABASE = [
         "id": "folder-PO82L89F"
       },
       {
-        "title": "Game Shows, Talent & Trivia",
+        "title": "Game Shows, Talent Et Trivia",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "sources": [
@@ -63756,7 +63756,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-5YDSIM86",
-            "title": "Singing & Talent Competitions",
+            "title": "Singing Et Talent Competitions",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -63773,7 +63773,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-AR2E2OHL",
-            "title": "Les mieux notés Quiz & Trivia",
+            "title": "Les mieux notés Quiz Et Trivia",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -63808,7 +63808,7 @@ window.NUVIO_DATABASE = [
           },
           {
             "id": "src-LKB323AH",
-            "title": "Comedy Panel & Late Night",
+            "title": "Comedy Panel Et Late Night",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -63819,8 +63819,8 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 5,
               "vote_count.gte": 5
             },
-            "genre": "Comedy Panel & Late Night",
-            "name": "Comedy Panel & Late Night"
+            "genre": "Comedy Panel Et Late Night",
+            "name": "Comedy Panel Et Late Night"
           },
           {
             "id": "src-RMQLWQG3",

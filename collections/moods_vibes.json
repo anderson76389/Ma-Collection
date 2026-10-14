@@ -1,14 +1,14 @@
 [
   {
     "id": "collection-3UOL2OFV",
-    "title": "Moods & Vibes",
+    "title": "Moods Et Vibes",
     "viewMode": "FOLLOW_LAYOUT",
     "pinToTop": true,
     "showAllTab": true,
     "folders": [
       {
         "id": "folder-W52X6SMF",
-        "title": "Cozy & Comforting",
+        "title": "Cozy Et Comforting",
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
         "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/cozy-and-comforting/v2/cozy-and-comforting-cover.png",
@@ -39,7 +39,7 @@
           },
           {
             "id": "src-7PMKMI95",
-            "title": "Heartwarming TV Comedies & Dramas",
+            "title": "Heartwarming TV Comedies Et Dramas",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -52,8 +52,8 @@
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Heartwarming TV Comedies & Dramas",
-            "name": "Heartwarming TV Comedies & Dramas"
+            "genre": "Heartwarming TV Comedies Et Dramas",
+            "name": "Heartwarming TV Comedies Et Dramas"
           },
           {
             "id": "src-1HHL2R9R",
@@ -183,7 +183,7 @@
           },
           {
             "id": "src-1EXUZLDM",
-            "title": "Twist Endings & Unpredictable",
+            "title": "Twist Endings Et Unpredictable",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -196,12 +196,12 @@
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Twist Endings & Unpredictable",
-            "name": "Twist Endings & Unpredictable"
+            "genre": "Twist Endings Et Unpredictable",
+            "name": "Twist Endings Et Unpredictable"
           },
           {
             "id": "src-VL6W2CC3",
-            "title": "Time Loops & Alternate Realities",
+            "title": "Time Loops Et Alternate Realities",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -214,8 +214,8 @@
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Time Loops & Alternate Realities",
-            "name": "Time Loops & Alternate Realities"
+            "genre": "Time Loops Et Alternate Realities",
+            "name": "Time Loops Et Alternate Realities"
           },
           {
             "id": "src-HXAJ2S6G",
@@ -288,7 +288,7 @@
           },
           {
             "id": "src-8FBLV2KZ",
-            "title": "Survival & Heist Movies",
+            "title": "Survival Et Heist Movies",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -301,12 +301,12 @@
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Survival & Heist Movies",
-            "name": "Survival & Heist Movies"
+            "genre": "Survival Et Heist Movies",
+            "name": "Survival Et Heist Movies"
           },
           {
             "id": "src-KYIOCRHA",
-            "title": "Action & Thriller Series",
+            "title": "Action Et Thriller Series",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -319,12 +319,12 @@
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Action & Adventure",
-            "name": "Action & Adventure"
+            "genre": "Action Et Adventure",
+            "name": "Action Et Adventure"
           },
           {
             "id": "src-MFV6LSIE",
-            "title": "Martial Arts & Combat",
+            "title": "Martial Arts Et Combat",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -337,8 +337,8 @@
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Martial Arts & Combat",
-            "name": "Martial Arts & Combat"
+            "genre": "Martial Arts Et Combat",
+            "name": "Martial Arts Et Combat"
           },
           {
             "id": "src-RCV9T0NQ",
@@ -382,7 +382,7 @@
       },
       {
         "id": "folder-070BQVHR",
-        "title": "Epic & Sweeping",
+        "title": "Epic Et Sweeping",
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
         "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/epic-and-sweeping/v2/epic-and-sweeping-cover.png",
@@ -393,7 +393,7 @@
         "sources": [
           {
             "id": "src-KVRNZRDD",
-            "title": "Historical & War Epics",
+            "title": "Historical Et War Epics",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -406,8 +406,8 @@
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Historical & War Epics",
-            "name": "Historical & War Epics"
+            "genre": "Historical Et War Epics",
+            "name": "Historical Et War Epics"
           },
           {
             "id": "src-8DFVNN38",
@@ -447,7 +447,7 @@
           },
           {
             "id": "src-BOTAT126",
-            "title": "Space Opera & Cosmic Journeys",
+            "title": "Space Opera Et Cosmic Journeys",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -517,7 +517,7 @@
         "sources": [
           {
             "id": "src-5GTQ02N8",
-            "title": "Uplifting & Inspiring Movies",
+            "title": "Uplifting Et Inspiring Movies",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -530,8 +530,8 @@
               "withoutGenres": "16,99",
               "without_genres": "16,99"
             },
-            "genre": "Uplifting & Inspiring Movies",
-            "name": "Uplifting & Inspiring Movies"
+            "genre": "Uplifting Et Inspiring Movies",
+            "name": "Uplifting Et Inspiring Movies"
           },
           {
             "id": "src-IJ3E8Q5B",
@@ -572,7 +572,7 @@
           },
           {
             "id": "src-GKU33CH3",
-            "title": "Road Trips & Buddy Comedies",
+            "title": "Road Trips Et Buddy Comedies",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -678,7 +678,7 @@
           },
           {
             "id": "src-66JWMSP1",
-            "title": "Neo-Noir & Moody Crime",
+            "title": "Neo-Noir Et Moody Crime",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -691,8 +691,8 @@
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Neo-Noir & Moody Crime",
-            "name": "Neo-Noir & Moody Crime"
+            "genre": "Neo-Noir Et Moody Crime",
+            "name": "Neo-Noir Et Moody Crime"
           },
           {
             "id": "src-W9YLG9AJ",
@@ -826,7 +826,7 @@
           },
           {
             "id": "src-KKS98W3F",
-            "title": "Family & Loss Stories",
+            "title": "Family Et Loss Stories",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -887,7 +887,7 @@
       },
       {
         "id": "folder-VRAANHHD",
-        "title": "80s & 90s Vibes",
+        "title": "80s Et 90s Vibes",
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
         "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/80s-and-90s-vibes/v2/80s-and-90s-vibes-cover.png",
@@ -936,7 +936,7 @@
           },
           {
             "id": "src-TUN7GDGD",
-            "title": "80s & 90s Popcorn Action",
+            "title": "80s Et 90s Popcorn Action",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -956,7 +956,7 @@
           },
           {
             "id": "src-S6ASKVS7",
-            "title": "80s & 90s Classic Comedies",
+            "title": "80s Et 90s Classic Comedies",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -976,7 +976,7 @@
           },
           {
             "id": "src-T3AGNBH5",
-            "title": "Retro Sci-Fi & Mystery TV",
+            "title": "Retro Sci-Fi Et Mystery TV",
             "provider": "tmdb",
             "mediaType": "TV",
             "tmdbSourceType": "DISCOVER",
@@ -991,12 +991,12 @@
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Retro Sci-Fi & Mystery TV",
-            "name": "Retro Sci-Fi & Mystery TV"
+            "genre": "Retro Sci-Fi Et Mystery TV",
+            "name": "Retro Sci-Fi Et Mystery TV"
           },
           {
             "id": "src-6IVNGVWZ",
-            "title": "90s Cult & Indie Hits",
+            "title": "90s Cult Et Indie Hits",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -1011,14 +1011,14 @@
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "90s Cult & Indie Hits",
-            "name": "90s Cult & Indie Hits"
+            "genre": "90s Cult Et Indie Hits",
+            "name": "90s Cult Et Indie Hits"
           }
         ]
       },
       {
         "id": "folder-M50463BF",
-        "title": "Dark & Gritty",
+        "title": "Dark Et Gritty",
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
         "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/dark-and-gritty/v2/dark-and-gritty-cover.png",
@@ -1029,7 +1029,7 @@
         "sources": [
           {
             "id": "src-X6CWD28F",
-            "title": "Gritty Crime & Underworld",
+            "title": "Gritty Crime Et Underworld",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -1065,7 +1065,7 @@
           },
           {
             "id": "src-CM9VZX6E",
-            "title": "Anti-Hero & Revenge Stories",
+            "title": "Anti-Hero Et Revenge Stories",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -1078,12 +1078,12 @@
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Anti-Hero & Revenge Stories",
-            "name": "Anti-Hero & Revenge Stories"
+            "genre": "Anti-Hero Et Revenge Stories",
+            "name": "Anti-Hero Et Revenge Stories"
           },
           {
             "id": "src-CDCNAEIY",
-            "title": "Dystopian & Post-Apocalyptic",
+            "title": "Dystopian Et Post-Apocalyptic",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -1096,8 +1096,8 @@
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Dystopian & Post-Apocalyptic",
-            "name": "Dystopian & Post-Apocalyptic"
+            "genre": "Dystopian Et Post-Apocalyptic",
+            "name": "Dystopian Et Post-Apocalyptic"
           },
           {
             "id": "src-7FN62KH6",
@@ -1120,7 +1120,7 @@
           },
           {
             "id": "src-S2F92D4C",
-            "title": "Recent Dark & Gritty Releases",
+            "title": "Recent Dark Et Gritty Releases",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -1134,14 +1134,14 @@
               "withoutGenres": "16",
               "without_genres": "16"
             },
-            "genre": "Recent Dark & Gritty Releases",
-            "name": "Recent Dark & Gritty Releases"
+            "genre": "Recent Dark Et Gritty Releases",
+            "name": "Recent Dark Et Gritty Releases"
           }
         ]
       },
       {
         "id": "folder-79A8YOOM",
-        "title": "Spooky & Creepy",
+        "title": "Spooky Et Creepy",
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
         "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/spooky-and-creepy/v2/spooky-and-creepy-cover.png",
@@ -1152,7 +1152,7 @@
         "sources": [
           {
             "id": "src-NQ6OS8YJ",
-            "title": "Haunted Houses & Ghosts",
+            "title": "Haunted Houses Et Ghosts",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -1189,7 +1189,7 @@
           },
           {
             "id": "src-J0D2M45U",
-            "title": "Psychological Horror & Dread",
+            "title": "Psychological Horror Et Dread",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
@@ -1208,7 +1208,7 @@
           },
           {
             "id": "src-1VPOJZYI",
-            "title": "Monsters & Creature Features",
+            "title": "Monsters Et Creature Features",
             "provider": "tmdb",
             "mediaType": "MOVIE",
             "tmdbSourceType": "DISCOVER",
