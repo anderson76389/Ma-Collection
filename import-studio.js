@@ -12,6 +12,7 @@
     bttrQuality: false, bttrGenre: true, bttrRating: true, bttrAge: false,
     bttrSource: "Average", bttrLanguage: "fr",
     allDebridKey: "", realDebridKey: "", preferredDebridProvider: "alldebrid", addonManifests: "",
+    tmdbLanguage: "fr", importMode: "local", importAction: "replace",
   };
   let selected = [];
   const node = document.createElement("div");
@@ -32,7 +33,7 @@
     .mc-import-head h2{margin:0 0 5px;font-size:1.5rem;color:var(--text-primary,#f7f7ff)}
     .mc-import-head p{margin:0 0 12px;color:var(--text-muted,#9ca3af);font-size:.91rem}
     .mc-import-close{background:transparent;border:1px solid #7776;border-radius:10px;color:inherit;cursor:pointer;font-size:1.4rem;padding:2px 11px}
-    .mc-import-progress{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:5px;margin:10px 0 18px}
+    .mc-import-progress{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px;margin:10px 0 18px}
     .mc-import-progress span{height:5px;background:#aaa3;border-radius:8px}
     .mc-import-progress span.active{background:#a78bfa}
     .mc-import-card{background:rgba(120,120,150,.08);border:1px solid rgba(150,150,180,.21);padding:14px;border-radius:13px;margin:12px 0}
@@ -96,6 +97,9 @@
   }
   const settings = () => ({
     tmdbKey:state.tmdbKey.trim(), mdblistKey:state.mdblistKey.trim(),
+    tmdbLanguage:state.tmdbLanguage==="en"?"en":"fr",
+    importMode:state.importMode==="account"?"account":"local",
+    importAction:state.importAction==="merge"?"merge":"replace",
     traktToken:state.traktToken.trim(), posterProvider:state.posterProvider,
     rpdbTheme:state.rpdbTheme, rpdbKey:state.rpdbKey.trim(), topPosterKey:state.topPosterKey.trim(),
     bttrQuality:state.bttrQuality, bttrGenre:state.bttrGenre, bttrRating:state.bttrRating,
@@ -138,6 +142,10 @@
     if (state.step === 2) return `
       <p class="mc-import-note">Ces clés sont facultatives et restent dans cet onglet. Pour Kovelyx, TMDB et MDBList peuvent être transférés via le nouveau pont local après votre confirmation. Trakt nécessite une autorisation propre à chaque service.</p>
       <div class="mc-import-form">
+        <label>Langue des résumés TMDB<select data-key="tmdbLanguage">
+          <option value="fr" ${state.tmdbLanguage==="fr"?"selected":""}>Français (par défaut)</option>
+          <option value="en" ${state.tmdbLanguage==="en"?"selected":""}>Anglais</option>
+        </select></label>
         ${field("tmdb","Clé API TMDB","tmdbKey","Clé personnelle TMDB")}
         ${field("mdblist","Clé API MDBList","mdblistKey","Clé personnelle MDBList")}
         ${field("trakt","Jeton Trakt AIO Metadata (facultatif)","traktToken","Jeton d'une instance AIO Metadata")}
@@ -180,6 +188,28 @@
         <div class="mc-import-form"><label>Manifests personnels (un par ligne)
         <textarea id="mc-addon-manifests" data-key="addonManifests" rows="5" spellcheck="false" autocomplete="off" placeholder="https://votre-instance.exemple/config/manifest.json">${esc(state.addonManifests)}</textarea></label></div>
         <p class="mc-import-note">Kovelyx proposera d’installer les extensions dans le profil actif, après confirmation. Un manifest inaccessible doit être corrigé manuellement. Nuvio poursuivra la configuration dans son assistant.</p>`;
+    if (state.step === 6 && state.destination === "kovelyx") {
+      const count = Object.keys(state.artwork).length;
+      return `<div class="mc-import-card"><strong>Destination Kovelyx PC</strong>
+        <p>${selected.length} catégories • ${rows.length} dossiers • ${count} affiche(s) personnalisée(s).</p>
+        <p>Les réglages seront transmis uniquement à votre application locale ; aucun mot de passe de compte n'est demandé par le site.</p></div>
+        <div class="mc-import-form">
+          <label>Comment souhaitez-vous importer ?
+            <select id="mc-import-mode" data-key="importMode">
+              <option value="local" ${state.importMode==="local"?"selected":""}>Sans compte — profil local actif</option>
+              <option value="account" ${state.importMode==="account"?"selected":""}>Avec mon compte Kovelyx — choisir un profil synchronisé</option>
+            </select>
+          </label>
+          <p class="mc-import-note">Avec compte : identifiez-vous directement dans Kovelyx, jamais sur ce site. Kovelyx affichera les profils accessibles avant toute modification.</p>
+          <label>Que faire des collections existantes ?
+            <select id="mc-import-action" data-key="importAction">
+              <option value="replace" ${state.importAction==="replace"?"selected":""}>Remplacer toute l'ancienne collection (sauvegarde avant)</option>
+              <option value="merge" ${state.importAction==="merge"?"selected":""}>Conserver l'existant et ajouter les nouvelles catégories/dossiers</option>
+            </select>
+          </label>
+          <p class="mc-import-note">Le remplacement n'est exécuté qu'après confirmation explicite dans Kovelyx. Une sauvegarde JSON du profil ciblé sera créée.</p>
+        </div>`;
+    }
     const nArtwork = Object.keys(state.artwork).length;
     return `<div class="mc-import-card"><strong>Vérification avant import</strong>
       <p>Destination : <strong>${state.destination==="kovelyx"?"Kovelyx PC":"Nuvio"}</strong></p>
