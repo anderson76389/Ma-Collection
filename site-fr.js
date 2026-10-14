@@ -1,7 +1,7 @@
 /* Traduction du texte d'interface. Aucun média, lien ou identifiant n'est modifié. */
 (() => {
   "use strict";
-  const dictionaries = ["locales/fr.json?v=17", "locales/site-fr.json?v=17"];
+  const dictionaries = ["locales/fr.json?v=18", "locales/site-fr.json?v=18"];
   const blocked = "script,style,noscript,code,pre,textarea,[contenteditable],[contenteditable='true'],img,picture,video,audio,source,track,canvas,svg,object,embed,iframe,[data-no-translate]";
   const textAttributes = ["placeholder", "title", "aria-label", "data-tip"];
   const dict = Object.create(null);
@@ -117,7 +117,7 @@
       let scheduled = false;
       const observer = new MutationObserver(records => {
         for (const record of records) {
-          if (record.type === "characterData") {
+          if (record.type === "characterData" || record.type === "attributes") {
             pending.add(record.target);
           } else {
             for (const node of record.addedNodes) pending.add(node);
@@ -134,7 +134,8 @@
           }
         });
       });
-      observer.observe(document.body, { childList: true, subtree: true, characterData: true });
+      observer.observe(document.body, { childList: true, subtree: true, characterData: true,
+        attributes: true, attributeFilter: textAttributes });
     });
   }
 
