@@ -149,28 +149,32 @@ try {
     assert.equal(await page.locator("#kovelyx-export-overlay").evaluate(n=>n.hidden),true);
     assert.equal(await page.locator("#btn-send-to-nuvio").count(),1);
   });
-  await run("FR : aucun type de média répété et parenthèses conservées",async()=>{
+  await run("FR : sous-catégories sans parenthèses ni doublons, titres naturels",async()=>{
     const result=await page.evaluate(()=>{
-      const rows=[{id:"qa",title:"Test",folders:[{id:"f",title:"Nouvelles séries (Séries)",
-        sources:[{title:"Nouveaux films (Films)",name:"Nouveaux animés (Animés)",genre:"Séries (Films)"},
-                 {title:"Films - Films",name:"Séries Séries",genre:"Films (Films) (Films)"}]}]}];
+      const rows=[{id:"qa",title:"Test",folders:[{id:"f",title:"Nouvelles séries",
+        sources:[{title:"Action Films (Films)",name:"Nouveaux animés (Animés)",genre:"Séries (Films)"},
+                 {title:"Films - Films",name:"Séries Séries",genre:"Films (Films) (Films)"},
+                 {title:"Films Action",name:"Action Séries",genre:"Prix du jury (1946–2025)"}]}]}];
       return window.MaCollectionExport.applyLocaleDict(rows,{});
     });
     const folder=result[0].folders[0];
-    assert.equal(folder.title,"Nouvelles (Séries)");
-    assert.equal(folder.sources[0].title,"Nouveaux (Films)");
-    assert.equal(folder.sources[0].name,"Nouveaux (Animés)");
-    assert.equal(folder.sources[0].genre,"Séries (Films)");
+    assert.equal(folder.title,"Nouvelles séries");
+    assert.equal(folder.sources[0].title,"Films d'action");
+    assert.equal(folder.sources[0].name,"Nouveaux animés");
+    assert.equal(folder.sources[0].genre,"Séries");
     assert.equal(folder.sources[1].title,"Films");
     assert.equal(folder.sources[1].name,"Séries");
-    assert.equal(folder.sources[1].genre,"(Films)");
+    assert.equal(folder.sources[1].genre,"Films");
+    assert.equal(folder.sources[2].title,"Films d'action");
+    assert.equal(folder.sources[2].name,"Séries d'action");
+    assert.equal(folder.sources[2].genre,"Prix du jury — 1946–2025");
     await page.evaluate(()=>{
       const e=document.createElement("span");
-      e.id="qa-fr-parentheses";
-      e.textContent="Nouvelles séries (Séries)";
+      e.id="qa-fr-no-parentheses";
+      e.textContent="Action Films (Films)";
       document.body.appendChild(e);
     });
-    await page.waitForFunction(()=>document.querySelector("#qa-fr-parentheses")?.textContent==="Nouvelles (Séries)",{timeout:12000});
+    await page.waitForFunction(()=>document.querySelector("#qa-fr-no-parentheses")?.textContent==="Films d'action",{timeout:12000});
   });
   await run("export JSON : fichier valide et sources conservées",async()=>{
     const wait=page.waitForEvent("download",{timeout:20000});
