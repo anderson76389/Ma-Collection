@@ -1794,9 +1794,9 @@ function renderPreviewCollection() {
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;margin-right:6px;vertical-align:text-bottom;"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
         <span>Self-Host</span>
       </button>
-      <button class="btn-primary nv-mini-btn" id="preview-send" title="Send your collection straight to Nuvio">
+      <button class="btn-primary nv-mini-btn" id="preview-send" title="Choisir Kovelyx ou Nuvio">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/><polyline points="8 11 12 7 16 11"/><line x1="12" y1="7" x2="12" y2="14"/></svg>
-        <span>Send to Nuvio</span>
+        <span>Importer la collection</span>
       </button>
     </div>
     </div>
@@ -2776,10 +2776,7 @@ function bindPreviewControls() {
   document.getElementById('preview-bingecat')?.addEventListener('click', exportForBingecat);
   document.getElementById('preview-selfhost')?.addEventListener('click', exportForSelfHost);
   const send = document.getElementById('preview-send');
-  if (send) send.addEventListener('click', () => {
-    if (window.NuvioWizard && typeof window.NuvioWizard.open === 'function') window.NuvioWizard.open();
-    else document.getElementById('btn-send-to-nuvio')?.click();
-  });
+  if (send) send.addEventListener('click', () => handleSendToNuvioClick());
 }
 
 // ==========================================================================
@@ -4319,7 +4316,9 @@ function bindGlobalEvents() {
     renderSidebar();
     if (isPreviewActive) renderPreviewCollection();
     window.__maCollectionAfterCustomize = () => {
-      window.NuvioWizard && window.NuvioWizard.open({ skipChoose: true });
+      const nuvio = () => window.NuvioWizard?.open({ skipChoose: true });
+      if (window.MaCollectionDestination) window.MaCollectionDestination.open({ onNuvio: nuvio });
+      else nuvio();
     };
     if (window.startCustomize) window.startCustomize();
   });
@@ -4330,7 +4329,9 @@ function bindGlobalEvents() {
       initializeSelections();
       renderSidebar();
       if (isPreviewActive) renderPreviewCollection();
-      window.NuvioWizard && window.NuvioWizard.open({ skipChoose: true, flow: 'collection-only' });
+      const nuvio = () => window.NuvioWizard?.open({ skipChoose: true, flow: 'collection-only' });
+      if (window.MaCollectionDestination) window.MaCollectionDestination.open({ onNuvio: nuvio });
+      else nuvio();
     }, { actionLabel: 'Continue to Account' });
   });
 
@@ -4857,7 +4858,10 @@ function bindSimpleEditorEvents() {
   document.getElementById('btn-shortcuts-hint')?.addEventListener('click', () => toggleShortcutPanel(true));
   document.getElementById('se-back')?.addEventListener('click', backToCinematicEditor);
   document.getElementById('se-cinematic')?.addEventListener('click', backToCinematicEditor);
-  document.getElementById('se-send')?.addEventListener('click', seSend);
+  document.getElementById('se-send')?.addEventListener('click', () => {
+    if (window.MaCollectionDestination) window.MaCollectionDestination.open({ onNuvio: seSend });
+    else seSend();
+  });
   document.getElementById('se-bingecat')?.addEventListener('click', () => {
     seGatherSettings();   // keep anything typed in the settings panel
     exportForBingecat();
@@ -5295,6 +5299,14 @@ function checkSyncState() {
 }
 
 function handleSendToNuvioClick() {
+  if (window.MaCollectionDestination) {
+    window.MaCollectionDestination.open({ onNuvio: startNuvioImport });
+    return;
+  }
+  startNuvioImport();
+}
+
+function startNuvioImport() {
   const dot = document.getElementById('sync-dot');
   if (dot && dot.classList.contains('out-of-sync')) {
     openQuickPushModal();
@@ -5522,7 +5534,7 @@ function _buildCommandRegistry() {
   reg.push({ label: 'Sort: Popular first', keywords: ['sort', 'popular', 'popularity'], icon: '★', group: 'Sort', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'popular'; s.dispatchEvent(new Event('change')); } } });
   reg.push({ label: 'Sort: A–Z', keywords: ['sort', 'alphabetical', 'a-z', 'az'], icon: 'A', group: 'Sort', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'az'; s.dispatchEvent(new Event('change')); } } });
   reg.push({ label: 'Sort: Selected first', keywords: ['sort', 'selected', 'checked', 'first'], icon: '★', group: 'Sort', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'selected'; s.dispatchEvent(new Event('change')); } } });
-  reg.push({ label: 'Send to Nuvio', keywords: ['send', 'push', 'nuvio', 'upload', 'stream'], icon: '📡', group: 'Actions', action: () => handleSendToNuvioClick() });
+  reg.push({ label: 'Choisir Kovelyx ou Nuvio', keywords: ['send', 'push', 'kovelyx', 'nuvio', 'importer', 'envoi'], icon: '📡', group: 'Actions', action: () => handleSendToNuvioClick() });
   reg.push({ label: 'Save File', keywords: ['save', 'download', 'export', 'file'], icon: '💾', group: 'Actions', action: () => document.getElementById('btn-compile-download')?.click() });
   reg.push({ label: 'Export for Bingecat', keywords: ['bingecat', 'export', 'addon', 'cat'], icon: '🐱', group: 'Actions', action: () => exportForBingecat() });
   reg.push({ label: 'Start walkthrough', keywords: ['tour', 'walkthrough', 'guide', 'help', 'replay', 'walk'], icon: '?', group: 'Actions', action: () => document.getElementById('btn-replay-tour')?.click() });

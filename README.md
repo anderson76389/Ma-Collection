@@ -2,12 +2,12 @@
 <div align="center">
   <img src="assets/kovelyx-logo.svg" alt="Logo Kovelyx" width="110">
   <h1>🎬 Ma-Collection</h1>
-  <h3>Collection française pour Nuvio</h3>
-  <p><strong>Créez un accueil Nuvio qui vous ressemble.</strong><br>
+  <h3>Collection française pour Kovelyx et Nuvio</h3>
+  <p><strong>Créez un accueil qui vous ressemble.</strong><br>
   Parcourez les catalogues, choisissez vos catégories, organisez vos rangées et exportez votre collection depuis une interface en français.</p>
   <p>
     <img alt="Langue : français" src="https://img.shields.io/badge/Langue-Fran%C3%A7ais-2563eb?style=for-the-badge">
-    <img alt="Compatible avec Nuvio" src="https://img.shields.io/badge/Compatible-Nuvio-7c3aed?style=for-the-badge">
+    <img alt="Compatible avec Kovelyx et Nuvio" src="https://img.shields.io/badge/Compatible-Kovelyx%20%2B%20Nuvio-7c3aed?style=for-the-badge">
     <img alt="Interface web" src="https://img.shields.io/badge/Interface-Web-0f766e?style=for-the-badge">
   </p>
   <p>
@@ -23,17 +23,17 @@
 
 **Ma-Collection — Édition française** est une version adaptée du créateur de collections développé à l’origine par **[ImKaptain](https://github.com/ImKaptain/Kaptain-Collection)**.
 
-Son objectif : rendre la **personnalisation des catalogues et de l'écran d'accueil de Nuvio** plus accessible, sans modifier manuellement des fichiers JSON de plusieurs milliers de lignes.
+Son objectif : rendre la **personnalisation des catalogues et de l'écran d'accueil** plus accessible, sans modifier manuellement des fichiers JSON de plusieurs milliers de lignes.
 
-Vous pouvez sélectionner vos contenus préférés, réorganiser votre accueil et préparer une configuration à importer dans Nuvio. Les intitulés de l'interface, des catégories et des sous-catégories bénéficient d'une traduction française dédiée.
+Vous pouvez sélectionner vos contenus préférés, réorganiser votre accueil et préparer une configuration à importer dans Kovelyx ou Nuvio. Les intitulés de l'interface, des catégories et des sous-catégories bénéficient d'une traduction française dédiée.
 
 > **À savoir :** cet outil sert à **organiser et configurer des catalogues**. Il n'héberge pas de films ou de séries et ne fournit pas, à lui seul, de service de lecture vidéo.
 
 ## 🟣 Compatibilité Nuvio et Kovelyx
 
-**Nuvio** : la configuration guidée et l'envoi direct vers le compte Nuvio restent inchangés.
+**Nuvio** : choisissez **Nuvio** dans le sélecteur de destination pour conserver la configuration guidée et l'envoi direct vers votre compte.
 
-**Kovelyx PC** : sélectionnez les dossiers dans Ma-Collection, cliquez sur **📋 Kovelyx**, puis sur **Copier le JSON**. Dans Kovelyx, ouvrez **Collections → Importer** (icône presse-papiers), collez le JSON, puis validez. L'option « Télécharger JSON » permet de garder une sauvegarde.
+**Kovelyx PC** : sélectionnez les dossiers, cliquez sur **Importer la collection**, choisissez **Kovelyx**, puis **Copier le JSON**. Dans Kovelyx, ouvrez **Collections → Importer** (icône presse-papiers), collez le JSON, puis validez. L'option « Télécharger JSON » permet de garder une sauvegarde.
 
 **Important :** l'import actuel de Kovelyx remplace les collections présentes dans le profil. Sauvegardez-les avant l'import avec l'icône « Copier » de Kovelyx. Les extensions sources doivent être configurées dans Kovelyx. Aucun serveur de comptes Kovelyx officiel n'étant configuré, l'envoi direct n'est pas proposé : vos identifiants Nuvio ne sont pas utilisés.
 
@@ -48,7 +48,7 @@ Vous pouvez sélectionner vos contenus préférés, réorganiser votre accueil e
 | 🧭 | **Configuration guidée** | Un assistant facilite les étapes de sélection et de préparation. |
 | ⚡ | **Éditeur rapide** | Modifiez votre sélection sans reprendre toute la configuration. |
 | 📦 | **Export JSON** | Téléchargez un fichier de configuration réutilisable. |
-| 🔗 | **Envoi vers Nuvio** | Envoyez votre sélection depuis le navigateur avec votre compte Nuvio, lorsque le service est accessible. |
+| 🔗 | **Choisir l'application** | Importez dans Kovelyx via JSON ou envoyez directement votre sélection à Nuvio avec votre compte. |
 | 👤 | **Gestion des profils** | Accédez aux outils d'organisation des profils existants. |
 
 ## 🗂️ Explorez les catégories
@@ -160,7 +160,7 @@ Aucune licence explicite n'est actuellement déclarée dans ce dépôt : sa visi
 ---
 
 <div align="center">
-  <p><strong>🎬 Votre collection. Vos catégories. Votre accueil Nuvio.</strong></p>
+  <p><strong>🎬 Votre collection. Vos catégories. Votre accueil.</strong></p>
   <p><a href="#haut">Retour en haut ↑</a></p>
 </div>
 

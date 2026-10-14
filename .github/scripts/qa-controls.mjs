@@ -27,7 +27,7 @@ async function buildPage({width,height}) {
   await page.goto(origin,{waitUntil:"domcontentloaded",timeout:60000});
   await page.waitForFunction(()=>Boolean(window.MaCollectionExport?.assembleFilteredDatabase &&
       document.documentElement.lang === "fr" &&
-      document.body.textContent.includes("Configurer et envoyer à Nuvio")),{timeout:60000});
+      document.body.textContent.includes("Configurer ma collection")),{timeout:60000});
   return {page,jsErrors,localErrors};
 }
 async function toBrowse(page) {
@@ -110,11 +110,18 @@ try {
   });
   await run("Nuvio : fenêtre de configuration et fermeture",async()=>{
     await page.locator("#btn-send-to-nuvio").click();
+    assert.equal(await page.locator("#destination-overlay").evaluate(n=>n.hidden),false);
+    await page.locator("#destination-nuvio").click();
     await page.waitForFunction(()=>document.querySelector("#wizard-overlay")?.classList.contains("open"),{timeout:15000});
     await page.evaluate(()=>window.NuvioWizard.close());
     assert(!(await page.locator("#wizard-overlay").evaluate(n=>n.classList.contains("open"))));
   });
-  await run("Kovelyx : bouton, modèle JSON, téléchargement et fermeture",async()=>{
+  await run("Kovelyx : choix puis export JSON et fermeture",async()=>{
+    await page.locator("#btn-send-to-nuvio").click();
+    await page.locator("#destination-kovelyx").click();
+    assert.equal(await page.locator("#destination-overlay").evaluate(n=>n.hidden),true);
+    assert.equal(await page.locator("#kovelyx-export-overlay").evaluate(n=>n.hidden),false);
+    await page.locator("#kovelyx-export-close").click();
     assert.equal(await page.locator("#btn-export-kovelyx").count(),1);
     await page.locator("#btn-export-kovelyx").click();
     assert.equal(await page.locator("#kovelyx-export-overlay").evaluate(n=>n.hidden),false);

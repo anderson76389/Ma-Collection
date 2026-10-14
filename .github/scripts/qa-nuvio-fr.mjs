@@ -236,7 +236,7 @@ page.on('response', response => {
 try {
   await page.goto('http://127.0.0.1:8877/', { waitUntil: 'domcontentloaded', timeout: 60000 });
   await page.waitForFunction(() => !!window.MaCollectionExport?.assembleFilteredDatabase && document.documentElement.lang === 'fr', { timeout: 60000 });
-  await page.waitForFunction(() => document.body.textContent.includes('Configurer et envoyer à Nuvio'), { timeout: 60000 });
+  await page.waitForFunction(() => document.body.textContent.includes('Configurer ma collection'), { timeout: 60000 });
   // Intercepter les appels TMDB : aucune requête externe n'est nécessaire pour ce test.
   const previewRequests = [];
   await page.route('https://api.themoviedb.org/3/discover/**', async route => {
@@ -626,7 +626,7 @@ try {
   },collectionTranslations,{timeout:20000});
   const rendered = await page.evaluate(async () => {
     const asset = await fetch('assets/kaptain-logo.png');
-    const french = document.body.textContent.includes('Configurer et envoyer à Nuvio');
+    const french = document.body.textContent.includes('Configurer ma collection');
     const initial = window.MaCollectionExport.assembleFilteredDatabase();
     const raw = initial.length ? initial : (window.database || window.NUVIO_DATABASE || []);
     const cloned = structuredClone(raw);

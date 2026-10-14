@@ -1,7 +1,7 @@
 /* Traduction du texte d'interface. Aucun média, lien ou identifiant n'est modifié. */
 (() => {
   "use strict";
-  const dictionaries = ["locales/fr.json?v=19", "locales/site-fr.json?v=24"];
+  const dictionaries = ["locales/fr.json?v=19", "locales/site-fr.json?v=26"];
   const blocked = "script,style,noscript,code,pre,textarea,[contenteditable],[contenteditable='true'],img,picture,video,audio,source,track,canvas,svg,object,embed,iframe,[data-no-translate]";
   const textAttributes = ["placeholder", "title", "aria-label", "data-tip"];
   const dict = Object.create(null);
@@ -121,7 +121,7 @@
 
   function start() {
     document.documentElement.lang = "fr";
-    const pageTitle = "Ma-Collection : personnalisez votre collection Nuvio";
+    const pageTitle = "Ma-Collection : catalogues pour Kovelyx et Nuvio";
     if (document.title.includes("Build Your Custom Nuvio Setup")) document.title = pageTitle;
     Promise.allSettled(dictionaries.map(path =>
       fetch(path).then(response => {

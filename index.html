@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>Ma-Collection — Créateur de catalogues Nuvio</title>
+  <title>Ma-Collection — Catalogues pour Kovelyx et Nuvio</title>
 
-  <meta name="description" content="Ma-Collection : personnalisez vos catalogues de films et séries pour Nuvio avec une interface française. Export JSON et organisation des rangées.">
-  <meta name="keywords" content="Ma-Collection, Nuvio, catalogues films et séries, collections françaises, configuration JSON">
+  <meta name="description" content="Ma-Collection : organisez vos films et séries, personnalisez vos catégories en français et importez vos sélections dans Kovelyx ou Nuvio.">
+  <meta name="keywords" content="Ma-Collection, Kovelyx, Nuvio, catalogues français, collections de films et séries, configuration JSON">
   <meta name="author" content="Ma-Collection">
   <link rel="icon" type="image/svg+xml" href="assets/kovelyx-logo.svg">
   
@@ -56,7 +56,7 @@
       <section class="title-hero-stage">
         <span class="title-screen-eyebrow">Welcome to</span>
         <h1 class="title-screen-logo">Ma-<span>Collection</span></h1>
-        <p class="title-screen-tagline">Nuvio's largest native collection made easy. Customize how you want your home screen to look, then send it over without ever leaving the site.</p>
+        <p class="title-screen-tagline">La collection qui vous ressemble. Explorez, personnalisez et retrouvez vos catalogues français dans Kovelyx ou Nuvio.</p>
         
         <div id="title-screen-changelog" class="title-changelog" style="display:none;">
           <button id="title-changelog-dismiss" class="title-changelog-dismiss" aria-label="Dismiss what's new">×</button>
@@ -65,17 +65,17 @@
         </div>
         
         <div class="title-screen-hero-layout">
-          <button id="title-screen-import-all" class="title-hero-primary-btn title-cta-primary" title="New to Nuvio: full guided setup with region, genres, and streaming picks">
+          <button id="title-screen-import-all" class="title-hero-primary-btn title-cta-primary" title="Personnalisez la collection et choisissez ensuite Kovelyx ou Nuvio">
             <span class="hero-btn-icon">⚡</span>
-            <span class="hero-btn-text">Set Up &amp; Send to Nuvio</span>
+            <span class="hero-btn-text">Configurer ma collection</span>
             <span class="hero-btn-arrow">→</span>
           </button>
           
           <div class="title-hero-sub-row">
-            <button id="title-screen-profile-studio" class="title-hero-sub-btn title-hero-sub-studio" title="Existing Nuvio users: log in to organize TV rows and add folders to your profile">
+            <button id="title-screen-profile-studio" class="title-hero-sub-btn title-hero-sub-studio" title="Gestion avancée des rangées des profils Nuvio">
               <span class="sub-btn-text">Profile Studio</span>
             </button>
-            <button id="title-screen-collection-only" class="title-hero-sub-btn title-hero-sub-quick" title="Fastest option: send the default collection to Nuvio as-is">
+            <button id="title-screen-collection-only" class="title-hero-sub-btn title-hero-sub-quick" title="Préparer une collection rapide, puis choisir Kovelyx ou Nuvio">
               <span class="sub-btn-text">Quick Send</span>
             </button>
           </div>
@@ -177,7 +177,7 @@
                 </div>
                 <div class="port-card-content">
                   <h4 class="port-card-title">Profile Studio</h4>
-                  <p class="port-card-desc">Already have a Nuvio profile? Log in to reorder its categories and cherry-pick folders from Kaptain's collection.</p>
+                  <p class="port-card-desc">Connectez-vous à votre profil pour organiser les rangées et sélectionner vos dossiers. Ce studio concerne les comptes Nuvio.</p>
                   <div class="port-steps-preview">
                     <span>Reorder</span> &bull; <span>Cherry-Pick</span> &bull; <span>Save</span>
                   </div>
@@ -198,7 +198,7 @@
                 </div>
                 <div class="port-card-content">
                   <h4 class="port-card-title">Guided Customize</h4>
-                  <p class="port-card-desc">New to Nuvio? Step-by-step setup to pick your region, streaming addons, and preferred genres in minutes.</p>
+                  <p class="port-card-desc">Choisissez votre région, vos plateformes et vos genres grâce à une configuration guidée en français.</p>
                   <div class="port-steps-preview">
                     <span>Region</span> &bull; <span>Exclusions</span> &bull; <span>Categories</span> &bull; <span>Streaming</span>
                   </div>
@@ -266,7 +266,7 @@
                 </div>
                 <div class="port-card-content">
                   <h4 class="port-card-title">Bingecat Addon</h4>
-                  <p class="port-card-desc">Accelerate Nuvio load times with high-speed CDN caching and automatic metadata sync.</p>
+                  <p class="port-card-desc">Accélérez le chargement des métadonnées grâce à la mise en cache et à la synchronisation.</p>
                 </div>
                 <div class="port-card-action">
                   <span class="port-link amber-link">Configure Bingecat <span class="arrow" aria-hidden="true">&rarr;</span></span>
@@ -350,7 +350,7 @@
           <span>Bingecat</span>
         </button>
         <button id="se-export-kovelyx" type="button" class="se-mini-btn" title="Copier la collection pour Kovelyx PC">📋 Kovelyx</button>
-        <button id="se-send" class="se-send-btn">Send to Nuvio</button>
+        <button id="se-send" class="se-send-btn">Choisir la destination</button>
       </div>
     </div>
     <div class="se-body">
@@ -421,9 +421,9 @@
           <span>GitHub / Resources</span>
         </a>
         <div class="sidebar-footer-divider"></div>
-        <button type="button" id="btn-sidebar-support" class="sidebar-footer-btn sidebar-footer-btn-kofi" title="Support Nuvio &amp; Kaptain">
+        <button type="button" id="btn-sidebar-support" class="sidebar-footer-btn sidebar-footer-btn-kofi" title="Soutien et informations">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-          <span>Support &amp; Tips</span>
+          <span>Soutien et informations</span>
         </button>
       </div>
     </aside>
@@ -462,7 +462,7 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px;"><circle cx="12" cy="6" r="1.5"></circle><circle cx="12" cy="12" r="1.5"></circle><circle cx="12" cy="18" r="1.5"></circle></svg>
           </button>
           <div id="topbar-more-panel" class="topbar-more-panel">
-            <div id="viewmode-container" class="topbar-control-combo browse-only" title="How collections display in Nuvio">
+            <div id="viewmode-container" class="topbar-control-combo browse-only" title="Mode d'affichage des collections">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:var(--text-muted);">
                 <rect x="3" y="3" width="7" height="7"></rect>
                 <rect x="14" y="3" width="7" height="7"></rect>
@@ -545,9 +545,9 @@
             <button id="btn-open-profile-studio" class="btn-secondary btn-profile-studio" title="Organize your TV profile rows and cherry-pick folders">
               <span>🎛️ Profile Studio</span>
             </button>
-            <button id="btn-send-to-nuvio" class="btn-primary" title="Send your collection straight to your Nuvio account" style="position:relative;">
+            <button id="btn-send-to-nuvio" class="btn-primary" title="Choisir Kovelyx ou Nuvio pour importer la sélection" style="position:relative;">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:15px;height:15px;"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/><polyline points="8 11 12 7 16 11"/><line x1="12" y1="7" x2="12" y2="14"/></svg>
-              <span>Send to Nuvio</span>
+              <span>Importer la collection</span>
               <span class="sync-dot" id="sync-dot"></span>
             </button>
           </div>
@@ -618,7 +618,7 @@
           <polyline points="17 2 12 7 7 2"></polyline>
         </svg>
       </div>
-      <h3 class="compat-title" id="compat-title">What devices do you use Nuvio on?</h3>
+      <h3 class="compat-title" id="compat-title">Sur quels appareils utiliserez-vous la collection ?</h3>
       <p class="compat-sub" id="compat-sub">Choose your device so we set up the best layout for your screen.</p>
 
       <div class="compat-device-grid" id="compat-device-grid">
@@ -648,7 +648,7 @@
       </div>
 
       <div id="compat-tmdb-warning" style="display:none;">
-        <p class="compat-body">You haven't added a <strong>TMDB API key</strong>. Without one, posters and metadata <strong>won't load properly on Nuvio Mobile</strong>, though TV works fine either way. <a href="https://www.themoviedb.org/settings/api" target="_blank" rel="noopener" class="compat-link">Get a free TMDB API key →</a></p>
+        <p class="compat-body">Vous n'avez pas ajouté de <strong>clé API TMDB</strong>. Certaines affiches et métadonnées peuvent manquer sur mobile sans cette clé. <a href="https://www.themoviedb.org/settings/api" target="_blank" rel="noopener" class="compat-link">Get a free TMDB API key →</a></p>
       </div>
 
       <div class="compat-actions">
@@ -705,7 +705,7 @@
       </header>
       <div class="support-modal-body">
         <p class="support-modal-lede">Enjoying the collection? Tips are always appreciated, never expected.</p>
-        <p class="support-modal-sub">Our first priority is making sure the official Nuvio platform thrives — none of this works without the Nuvio team.</p>
+        <p class="support-modal-sub">Ma-Collection est un projet indépendant, compatible avec Kovelyx et Nuvio. Vous pouvez soutenir librement les projets que vous utilisez.</p>
         
         <div class="support-modal-actions">
           <a href="https://nuvio.tv/support" target="_blank" rel="noopener" class="btn-primary support-modal-btn support-nuvio-btn">
@@ -717,7 +717,7 @@
         </div>
 
         <div id="sidebar-tip-ma-collection-gate" class="support-gate-box" style="display:none;">
-          <p class="support-gate-prompt">Have you donated to the Nuvio devs yet? None of this works without them.</p>
+          <p class="support-gate-prompt">Soutenir les créateurs reste facultatif.</p>
           <a href="https://ko-fi.com/kaptaincollection" target="_blank" rel="noopener" class="support-gate-link">Yes, continue to Kaptain's tip page →</a>
         </div>
       </div>
@@ -754,6 +754,21 @@
     <img id="aio-lightbox-img" class="aio-lightbox-img" alt="Reference screenshot">
   </div>
 
+  <!-- Choix de destination, avant connexion à un compte. -->
+  <div id="destination-overlay" class="quick-push-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="destination-heading">
+    <div class="quick-push-panel" style="max-width:520px;max-height:90vh;overflow:auto">
+      <div class="quick-push-icon">🎬</div>
+      <h3 class="quick-push-title" id="destination-heading">Où importer votre collection ?</h3>
+      <p class="quick-push-desc">Choisissez l'application. Vos catégories et sous-catégories restent en français.</p>
+      <div class="quick-push-actions" style="display:flex;flex-direction:column;align-items:stretch;gap:12px">
+        <button id="destination-kovelyx" type="button" class="quick-push-btn-primary" style="text-align:left">🟣 Kovelyx — Copier et importer le JSON</button>
+        <button id="destination-nuvio" type="button" class="quick-push-btn-secondary" style="text-align:left">📺 Nuvio — Envoyer vers mon compte</button>
+        <button id="destination-cancel" type="button" class="quick-push-btn-secondary">Annuler</button>
+      </div>
+      <p class="quick-push-desc" style="margin:15px 0 0">Kovelyx : import local depuis le presse-papiers. Nuvio : connexion au compte pour l'envoi direct.</p>
+    </div>
+  </div>
+
   <!-- Export local Kovelyx : le compte Nuvio n'est jamais sollicité. -->
   <div id="kovelyx-export-overlay" class="quick-push-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="kovelyx-export-title">
     <div class="quick-push-panel" style="max-width:480px;max-height:90vh;overflow:auto">
@@ -774,7 +789,7 @@
   <div id="quick-push-overlay" class="quick-push-overlay" hidden>
     <div class="quick-push-panel">
       <div class="quick-push-icon">📡</div>
-      <p class="quick-push-title">Push update to Nuvio?</p>
+      <p class="quick-push-title">Mettre à jour votre collection Nuvio ?</p>
       <p class="quick-push-desc" id="quick-push-desc">Your selection has changed since the last push.</p>
       <div class="quick-push-actions">
         <button id="quick-push-cancel" class="quick-push-btn-secondary">Full Setup</button>
@@ -805,7 +820,7 @@
           </div>
           <div class="cust-header-text">
             <h2 class="cust-title">Customize <span>Collection</span></h2>
-            <p class="cust-subtitle">Tailor your Nuvio home screen to your exact tastes</p>
+            <p class="cust-subtitle">Personnalisez l'accueil à votre goût</p>
           </div>
         </div>
         <button class="cust-close-btn" id="customize-close" aria-label="Close modal">
@@ -919,7 +934,7 @@
       </div>
 
       <div id="account-view-keys" hidden>
-        <p class="account-lead">Enter the tokens you use with Nuvio once. When Save is unlocked, they fill in automatically later.</p>
+        <p class="account-lead">Enregistrez vos clés facultatives pour accélérer la configuration des services compatibles.</p>
         <label class="account-label">Torbox API key
           <span class="account-tip" tabindex="0" data-tip="Lets Nuvio pull streams through your Torbox account. Get it from your Torbox settings.">?</span>
           <input type="password" id="account-key-torbox" class="account-input" autocomplete="off" spellcheck="false">
@@ -983,13 +998,14 @@
   <script src="account-vault.js?v=93.0"></script>
   <script src="customize.js?v=93.0"></script>
   <script src="scripts/catalog-utils.js?v=94.0"></script>
-  <script src="app.js?v=94.0"></script>
+  <script src="app.js?v=95.0"></script>
   <script src="kovelyx-export.js?v=1"></script>
   <script src="nuvio-push.js?v=92.2"></script>
   <script>window.MA_COLLECTION_ASSET_VERSION = 92.4;</script>
   <script src="wizard.js?v=93.0"></script>
   <script src="account-ui.js?v=93.1"></script>
   <script src="profile-studio.js?v=93.1"></script>
-  <script src="site-fr.js?v=23"></script>
+  <script src="site-fr.js?v=26"></script>
+  <script src="destination-picker.js?v=1"></script>
 </body>
 </html>
