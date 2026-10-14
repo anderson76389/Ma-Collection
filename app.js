@@ -3492,7 +3492,12 @@ function applyLocaleDict(collections, localeDict) {
       // Ne pas traduire globalement le bouton « Play » du lecteur vidéo.
       else if (isBasedOnCategory && f.id === 'folder-BSPLAY01') f.title = 'Pièces de théâtre';
       else if (f.title) f.title = t(f.title);
-      if (f.name) f.name = t(f.name);
+      if (f.name) {
+        if (isNetworkCategory && f.id === 'folder-I7A4OFK0') f.name = 'History';
+        else if (isGenreCategory && f.id === 'folder-LCRKWAHO') f.name = 'Histoire';
+        else if (isBasedOnCategory && f.id === 'folder-BSPLAY01') f.name = 'Pièces de théâtre';
+        else f.name = t(f.name);
+      }
       (f.sources || []).forEach(s => {
         if (s.title) s.title = t(s.title);
         if (s.name) s.name = t(s.name);
