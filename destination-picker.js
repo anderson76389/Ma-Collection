@@ -15,7 +15,8 @@
   el("destination-nuvio")?.addEventListener("click", () => {
     const action = pendingNuvio;
     close();
-    if (action) action();
+    if(window.MaCollectionImportWizard) window.MaCollectionImportWizard.open({destination:"nuvio",onNuvio:action});
+    else if (action) action();
   });
   el("destination-kovelyx")?.addEventListener("click", () => {
     close();
@@ -23,7 +24,8 @@
         typeof window.seGatherSettings === "function") window.seGatherSettings();
     // Direct local import. The legacy JSON copy/download options remain available
     // in the export dialog if the application is not installed or reachable.
-    window.MaCollectionKovelyx?.send();
+    if (window.MaCollectionImportWizard) window.MaCollectionImportWizard.open({destination:"kovelyx"});
+    else window.MaCollectionKovelyx?.open();
   });
   el("destination-cancel")?.addEventListener("click", close);
   overlay.addEventListener("click", event => { if (event.target === overlay) close(); });
