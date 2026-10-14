@@ -41,7 +41,7 @@ async function apiRequest(endpoint, query = new URLSearchParams()) {
   let err;
   for (let attempt = 0; attempt < 4; attempt++) {
     // Cadence prudente, commune à toutes les requêtes du job.
-    await pause(Math.max(0, lastCall + 260 - Date.now()));
+    await pause(Math.max(0, lastCall + (process.env.MA_COLLECTION_ENGINE_TEST === "1" ? 0 : 260) - Date.now()));
     lastCall = Date.now();
     calls++;
     try {
