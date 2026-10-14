@@ -92,6 +92,16 @@
       // Windows registers this protocol per-user when Kovelyx is first started.
       if (!window.__MA_COLLECTION_QA_NO_PROTOCOL) window.location.href = "kovelyx://import";
       const json = await buildExport();
+      const config = window.MaCollectionImportStudio?.getSettings?.() || {};
+      // Les clés ne sont transmises qu'au pont local privé, jamais dans le JSON exporté.
+      const desktopSettings = {
+        ...(config.tmdbKey ? {tmdbKey:config.tmdbKey} : {}),
+        ...(config.mdblistKey ? {mdblistKey:config.mdblistKey} : {}),
+        ...(config.realDebridKey ? {realDebridKey:config.realDebridKey} : {})
+      };
+      const hasSettings = Object.keys(desktopSettings).length > 0;
+      const payload = hasSettings ? JSON.stringify({collections:JSON.parse(json),settings:desktopSettings}) : json;
+      let olderBridge = false;
       let accepted = false;
       let lastError = null;
       for (let attempt = 0; attempt < 48; attempt++) {
@@ -104,7 +114,7 @@
               method: "POST",
               mode: "cors",
               headers: { "Content-Type": "application/json" },
-              body: json,
+              body: olderBridge ? json : payload,
               signal: controller.signal,
               cache: "no-store",
             });
@@ -115,6 +125,10 @@
           }
           if (response.status === 409) {
             throw Error("Un import attend déjà une confirmation dans Kovelyx. Validez ou annulez-le avant de recommencer.");
+          }
+          if (hasSettings && !olderBridge && response.status === 422) {
+            olderBridge = true; // Kovelyx antérieur à l'import des clés.
+            continue;
           }
           throw Error("Kovelyx a refusé l'envoi (HTTP " + response.status + "). Vous pouvez utiliser « Copier le JSON ».");
         } catch (error) {
@@ -127,7 +141,9 @@
         throw Error("Kovelyx ne répond pas. Ouvrez la nouvelle version de Kovelyx sur votre PC, puis réessayez. Si votre navigateur bloque la connexion locale, utilisez « Copier le JSON »." +
           (lastError && lastError.name === "AbortError" ? " (connexion expirée)" : ""));
       }
-      setStatus("Sélection envoyée à Kovelyx ! Confirmez l'import dans la fenêtre de l'application. Une sauvegarde locale sera créée avant le remplacement.");
+      setStatus("Sélection envoyée à Kovelyx ! Confirmez l'import dans l'application. Une sauvegarde locale sera créée." +
+        (olderBridge ? " Cette ancienne version ne prend pas les clés : ajoutez-les dans les paramètres Kovelyx." :
+         hasSettings ? " Les clés compatibles seront appliquées après votre confirmation." : ""));
     } catch (error) {
       setStatus(error.message || "Envoi direct impossible : utilisez « Copier le JSON ».", true);
     } finally { direct.disabled = false; }
@@ -159,8 +175,10 @@
     finally { download.disabled = false; }
   });
 
-  byId("btn-export-kovelyx")?.addEventListener("click", open);
-  byId("se-export-kovelyx")?.addEventListener("click", open);
+  const showImportSetup = () => window.MaCollectionImportStudio
+    ? window.MaCollectionImportStudio.open("kovelyx", () => send()) : open();
+  byId("btn-export-kovelyx")?.addEventListener("click", showImportSetup);
+  byId("se-export-kovelyx")?.addEventListener("click", showImportSetup);
   byId("kovelyx-export-close")?.addEventListener("click", close);
   overlay.addEventListener("click", event => { if (event.target === overlay) close(); });
   document.addEventListener("keydown", event => { if (event.key === "Escape" && !overlay.hidden) close(); });
