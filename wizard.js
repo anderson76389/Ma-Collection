@@ -1771,6 +1771,12 @@
         if (typeof setup[source] === 'string' && setup[source].trim()) state[target] = setup[source].trim();
       };
       copyIf('tmdbKey'); copyIf('mdblistKey'); copyIf('allDebridKey'); copyIf('realDebridKey');
+      if (Array.isArray(setup.addonManifests)) {
+        state.addonChoices = setup.addonManifests
+          .filter(url => typeof url === 'string' && /^https:\/\//i.test(url) && url.length <= 2048)
+          .slice(0, 15)
+          .map((url, index) => ({ name: 'Extension personnalisée ' + (index + 1), url, checked: true }));
+      }
       copyIf('aioRpdbKey', 'rpdbKey'); copyIf('aioTopPosterKey', 'topPosterKey');
       copyIf('forYouMdblistKey', 'mdblistKey');
       if (setup.traktToken) state.aioTraktToken = String(setup.traktToken).trim();
