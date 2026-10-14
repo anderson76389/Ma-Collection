@@ -269,7 +269,7 @@ try {
     assert.equal(result.fallback.provider,"realdebrid");
     assert.equal(result.absent,null);
     assert.equal(await page.locator("#se-torbox-key").count(),0);
-    assert.equal(await page.locator("#se-alldebrid-key").count(),0);
+    assert.equal(await page.locator("#se-alldebrid-key").count(),1);
   });
   await run("Extensions : vrai manifest, faux JSON, HTML et HTTP 404",async()=>{
     await page.route("https://qa-addons.invalid/**",async route=>{
