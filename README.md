@@ -157,6 +157,10 @@ Aucune licence explicite n'est actuellement déclarée dans ce dépôt : sa visi
 </div>
 
 
+## ✍️ Harmonisation des intitulés français
+
+Tous les titres visibles de la collection sont normalisés : l'esperluette `&` devient **`Et`** dans les catégories, sous-catégories, rangées, descriptions et exports. Les noms reconnus par les traductions françaises continuent à être traduits intégralement : les anciennes formes servent uniquement de clés de compatibilité. Le contrôleur `node scripts/normalize-ampersands.mjs --check` prévient toute régression. Cette transformation **ne touche jamais** aux URLs, requêtes, identifiants TMDB/Trakt, filtres, images, GIF ou vidéos.
+
 ## 🇫🇷 Importation Nuvio entièrement en français
 
 **[Télécharger la collection complète française (JSON)](export/nuvio-collection-fr.json)** · [Lien direct hébergé sur GitHub Pages](https://anderson76389.github.io/Ma-Collection/export/nuvio-collection-fr.json)
