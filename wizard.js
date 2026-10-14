@@ -401,8 +401,6 @@
     },
   };
 
-  };
-
   // Some formatter preview strings (Tamtaro especially) include deliberate
   // leading/trailing padding meant for a wider card layout in Nuvio itself —
   // in our compact preview box it just reads as odd indentation, so trim
