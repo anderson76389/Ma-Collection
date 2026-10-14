@@ -1,43 +1,41 @@
-/* Destination commune : configuration complète avant Nuvio et Kovelyx. */
+/* Sélection de destination puis configuration complète, sans double écran guidé. */
 (() => {
   "use strict";
-  const el = id => document.getElementById(id);
-  const overlay = el("destination-overlay");
-  if (!overlay) return;
-  let pendingNuvio = null;
-  function close() { overlay.hidden = true; pendingNuvio = null; }
-  function open(options = {}) {
-    pendingNuvio = typeof options.onNuvio === "function" ? options.onNuvio :
-      () => window.NuvioWizard?.open(options.nuvioOptions || {});
-    overlay.hidden = false;
+  const el=id=>document.getElementById(id);
+  const overlay=el("destination-overlay");
+  if(!overlay)return;
+  let pendingNuvio=null;
+  function close(){overlay.hidden=true;pendingNuvio=null;}
+  function open(options={}){
+    pendingNuvio=typeof options.onNuvio==="function"
+      ?options.onNuvio
+      :()=>window.NuvioWizard?.open(options.nuvioOptions||{});
+    overlay.hidden=false;
     el("destination-kovelyx")?.focus();
   }
-  function applyQuickEditor() {
-    if (el("simple-editor-overlay")?.classList.contains("open") &&
-        typeof window.seGatherSettings === "function") window.seGatherSettings();
+  function start(target) {
+    const onNuvio=pendingNuvio;
+    close();
+    if(el("simple-editor-overlay")?.classList.contains("open") &&
+      typeof window.seGatherSettings==="function")window.seGatherSettings();
+    const proceed=settings=>{
+      if(target==="nuvio"){
+        // Read once by NuvioWizard.open, after its defaults and encrypted vault.
+        window.__maCollectionPendingImportSettings=settings;
+        if(onNuvio)onNuvio();
+        else window.NuvioWizard?.open({skipChoose:true});
+      } else {
+        window.MaCollectionKovelyx?.configure(settings);
+        window.MaCollectionKovelyx?.open();
+      }
+    };
+    if(window.MaCollectionImportSetup?.open)window.MaCollectionImportSetup.open(target,proceed);
+    else proceed({});
   }
-  el("destination-nuvio")?.addEventListener("click", () => {
-    const fallback = pendingNuvio;
-    close();
-    applyQuickEditor();
-    if (window.MaCollectionImportStudio) {
-      window.MaCollectionImportStudio.open("nuvio", config => {
-        if (window.NuvioWizard?.open) window.NuvioWizard.open({importSetup:config});
-        else fallback?.();
-      });
-    } else fallback?.();
-  });
-  el("destination-kovelyx")?.addEventListener("click", () => {
-    close();
-    applyQuickEditor();
-    if (window.MaCollectionImportStudio) {
-      window.MaCollectionImportStudio.open("kovelyx", () => window.MaCollectionKovelyx?.send());
-    } else window.MaCollectionKovelyx?.open();
-  });
-  el("destination-cancel")?.addEventListener("click", close);
-  overlay.addEventListener("click", event => { if (event.target === overlay) close(); });
-  document.addEventListener("keydown", event => {
-    if (event.key === "Escape" && !overlay.hidden) close();
-  });
-  window.MaCollectionDestination = Object.freeze({open,close});
+  el("destination-nuvio")?.addEventListener("click",()=>start("nuvio"));
+  el("destination-kovelyx")?.addEventListener("click",()=>start("kovelyx"));
+  el("destination-cancel")?.addEventListener("click",close);
+  overlay.addEventListener("click",e=>{if(e.target===overlay)close();});
+  document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!overlay.hidden)close();});
+  window.MaCollectionDestination=Object.freeze({open,close});
 })();
