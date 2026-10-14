@@ -22,6 +22,8 @@ function verify(label, where, sourceType="name") {
     const output=fr[label];
     if(typeof output!=="string" || !output.trim())
       errors.push(where+": traduction vide pour "+label);
+    if(sourceType==="source" && /[()]/.test(output) && label!=="ABC TV (AU)")
+      errors.push(where+": parenthèses conservées dans la sous-catégorie : "+label+" → "+output);
     if(sourceType==="source" && /(?:\bMovies\b|\bSeries\b|\bTop Rated\b|\bRecent\b|\bWinners\b)/i.test(output))
       errors.push(where+": mélange anglais/français : "+label+" → "+output);
     stats.sourceFieldsVerified++;
@@ -58,8 +60,7 @@ for(const file of paths) {
     }
   }
 }
-// Exiger des traductions idiomatiques et éviter la suppression des précisions
-// (Films), (Séries) et (Animés), y compris dans les prochaines mises à jour.
+// Vérifier le français naturel et l'absence de parenthèses des sous-catégories.
 for(const [source,expected] of Object.entries({
   "The Powerhouse":"Le studio incontournable",
   "The Prestige Darling":"Le cinéma de prestige",
