@@ -10493,3 +10493,12 @@ kbd {
     grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   }
 }
+
+/* Mobile : laisser le bouton « Autres options d'affichage » cliquable.
+   Le bouton flottant Compte était superposé à cette commande en haut à droite. */
+@media (max-width: 600px) {
+  .account-chrome,
+  body.ma-collection-beta-active .account-chrome {
+    top: calc(76px + var(--ma-collection-beta-banner-height, 0px));
+  }
+}
