@@ -2954,7 +2954,7 @@ function updateRowsWarning(selectEl) {
       const badge = document.createElement('span');
       badge.id = 'rows-warn-badge';
       badge.className = 'rows-warn-badge';
-      badge.textContent = '⚠ Doesn\'t work on Nuvio Mobile';
+      badge.textContent = '⚠ Non disponible dans l’aperçu mobile';
       selectEl.parentNode.insertAdjacentElement('afterend', badge);
     }
   } else {
