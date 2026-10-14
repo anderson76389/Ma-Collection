@@ -3463,20 +3463,14 @@ async function compileAndDownloadJSON(skipConfirm, includeBingecat = false) {
 function applyLocaleDict(collections, localeDict) {
   if (!localeDict || !collections) return collections;
   // Ne touche pas aux identifiants, filtres ou illustrations.
-  // Supprime seulement les suffixes media dupliques APRES localisation.
-  const cleanLabel = (value) => String(value || '')
-    .replace(/\b(Films|Séries|Animés)\s*[-–—:]\s*\1\b/gi, '$1')
-    // Garder (Films), (Séries), (Animés) : seul le mot répété disparaît.
-    .replace(/\b(Films|Séries|Animés)\s*\(\s*(Films|Séries|Animés)\s*\)/gi,
-      (match, word, type) => word.toLocaleLowerCase('fr') === type.toLocaleLowerCase('fr')
-        ? '(' + type + ')' : match)
-    .replace(/\b(Films|Séries|Animés)\s+\1\b/gi, '$1')
-    .replace(/\(\s*(Films|Séries|Animés)\s*\)\s*\(\s*\1\s*\)/gi, '($1)')
-    .trim();
-  const t = (s) => {
+  const formatSource = value => window.MaCollectionFrenchLabels
+    ? window.MaCollectionFrenchLabels.naturalizeTitle(value)
+    : String(value || "").trim();
+  const t = (s, isSource = false) => {
     if (!s || typeof s !== 'string') return s;
-    const value = Object.prototype.hasOwnProperty.call(localeDict, s) ? localeDict[s] : s;
-    return cleanLabel(value.replace(/&(?:amp;)?/g, ' Et ').replace(/ {2,}/g, ' '));
+    const translated = Object.prototype.hasOwnProperty.call(localeDict, s) ? localeDict[s] : s;
+    const clean = translated.replace(/&(?:amp;)?/g, ' Et ').replace(/ {2,}/g, ' ').trim();
+    return isSource ? formatSource(clean) : clean;
   };
   collections.forEach(c => {
     const isGenreCategory = c.id === 'collection-HFTCV0TA' || c.title === 'Genres';
@@ -3500,14 +3494,14 @@ function applyLocaleDict(collections, localeDict) {
         else f.name = t(f.name);
       }
       (f.sources || []).forEach(s => {
-        if (s.title) s.title = t(s.title);
-        if (s.name) s.name = t(s.name);
-        if (s.genre) s.genre = t(s.genre);
+        if (s.title) s.title = t(s.title, true);
+        if (s.name) s.name = t(s.name, true);
+        if (s.genre) s.genre = t(s.genre, true);
       });
       (f.catalogSources || []).forEach(s => {
-        if (s.title) s.title = t(s.title);
-        if (s.name) s.name = t(s.name);
-        if (s.genre) s.genre = t(s.genre);
+        if (s.title) s.title = t(s.title, true);
+        if (s.name) s.name = t(s.name, true);
+        if (s.genre) s.genre = t(s.genre, true);
       });
     });
   });
