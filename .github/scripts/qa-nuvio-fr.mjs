@@ -783,6 +783,27 @@ try {
   assert.equal(actual.folders[0].catalogSources[0].name, 'Films populaires');
   assert.equal(actual.folders[0].catalogSources[0].catalogId, 'non-localize-id');
   assert.equal(actual.folders[0].sources[0].filters.withWatchProviders, '8');
+  // Les anciennes configurations ou titres ajoutés à la main peuvent encore
+  // avoir une esperluette : seules les chaînes visibles sont normalisées.
+  const ampSample=[{id:'qa-test-et',title:'Moods & Vibes',folders:[{
+    id:'qa-f-et',title:'Tests & Options',sources:[{
+      id:'qa-s-et',title:'Action & Thriller Series',name:'Action & Thriller Series',
+      genre:'Action & Thriller Series',provider:'tmdb',
+      filters:{watchRegion:'FR'},mediaType:'TV'
+    }]
+  }]}];
+  await page.evaluate(async sample => {
+    await window.NuvioPush.pushCollections('qa-only-fake-token', 9999, sample);
+  }, ampSample);
+  assert.equal(seen.length,3,'La requête supplémentaire de test ne passe pas par Nuvio');
+  const eta=seen[2].p_collections_json[0];
+  assert.equal(eta.title,'Ambiances et émotions');
+  assert.equal(eta.folders[0].title,'Tests Et Options');
+  assert.equal(eta.folders[0].sources[0].title,"Séries d'action et à suspense");
+  assert.equal(eta.folders[0].sources[0].filters.watchRegion,'FR');
+  assert.equal(ampSample[0].folders[0].title,'Tests & Options',
+    'Le formulaire original a été modifié avant la requête');
+
 
   await page.setViewportSize({ width: 390, height: 844 });
   assert(await page.evaluate(() => document.documentElement.lang === 'fr'), 'Français absent sur mobile');
