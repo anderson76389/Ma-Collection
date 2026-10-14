@@ -240,7 +240,7 @@
     current().querySelectorAll("[data-keytest]").forEach(button => button.addEventListener("click", async () => {
       const id = button.dataset.keytest, value = byId("mc-"+id)?.value.trim();
       const label = byId("mc-keytest-"+id);
-      const fn = window.NuvioWizard?.[testerNames[id]]; // Validateur local réutilisé : aucun compte Nuvio
+      const fn = window.MaCollectionServices?.[testerNames[id]]; // Validation directe auprès des fournisseurs API
       if (!label) return;
       if (!value) { label.textContent = "Renseignez une clé."; return; }
       if (typeof fn !== "function") { label.textContent = "Vérification indisponible."; return; }
