@@ -102,7 +102,9 @@
           posterProvider:"rpdb",
           rpdbTheme:config.rpdbTheme || "t0-free-rpdb",
           ...(config.rpdbTheme === "custom" && config.rpdbKey ? {rpdbKey:config.rpdbKey} : {})
-        } : {})
+        } : {}),
+        ...(Array.isArray(config.addonManifests) && config.addonManifests.length
+          ? { addonManifests:config.addonManifests } : {})
       };
       const hasSettings = Object.keys(desktopSettings).length > 0;
       const payload = hasSettings ? JSON.stringify({collections:JSON.parse(json),settings:desktopSettings}) : json;
