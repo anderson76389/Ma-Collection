@@ -77,7 +77,7 @@ async function categories() {
         for (const [index, source] of (folder.sources || []).entries()) {
           if (isRollingSource(collection, source))
             entries.push({ collection, folder, source, index,
-              id: sourceKey(collection, folder, source, index), type: isTv(source) ? "series" : "movie" });
+              id: sourceKey({id:collection.id + "/" + file}, folder, source, index), type: isTv(source) ? "series" : "movie" });
         }
       }
     }
@@ -306,6 +306,10 @@ async function main() {
 
   // L'édition essentielle affiche en priorité les chaînes, plateformes et animés.
   // L'édition intégrale expose toutes les nouveautés des sous-catégories.
+  // Empêcher deux sous-catégories de partager un même identifiant dans l'addon.
+  const catalogKeys = catalogs.map(c => c.type + ":" + c.id);
+  if (new Set(catalogKeys).size !== catalogKeys.length)
+    throw new Error("Collision d'identifiants de catalogues, publication refusée");
   outputs.set("manifest.json", manifest(essentials,true));
   outputs.set("manifest-complet.json", manifest(catalogs,false));
   outputs.set("data/catalog-engine/snapshots.json", snapshots);
