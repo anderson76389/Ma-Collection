@@ -4676,7 +4676,7 @@ function renderSimpleSettings() {
     <div class="se-key-status" id="se-torbox-status"></div>
     <label class="se-field se-advanced-block">${tip('tmdb', 'TMDB')} API key <span class="se-hint">(optional)</span>
       <span class="se-input-wrap">
-        <input id="se-tmdb-key" class="se-input" value="${v(seSettings.tmdbKey)}" placeholder="TMDB v4 key" autocomplete="off">
+        <input id="se-tmdb-key" class="se-input" value="${v(seSettings.tmdbKey)}" placeholder="Clé API TMDB v3 (pas le jeton v4)" autocomplete="off">
         <button type="button" class="se-key-test" id="se-tmdb-test">Test</button>
       </span>
     </label>`)}
