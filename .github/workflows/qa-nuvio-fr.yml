@@ -1,4 +1,4 @@
-name: Validation site FR et compatibilité Nuvio
+name: Validation Ma-Collection indépendante - FR et Kovelyx
 on:
   push:
     branches:
@@ -39,7 +39,7 @@ jobs:
           for f in catalog-labels-fr.js app.js wizard.js customize.js nuvio-push.js account-ui.js account-vault.js profile-studio.js site-fr.js import-studio.js destination-picker.js kovelyx-export.js collections/test-channels.js; do
             node --check "$f"
           done
-      - name: Charger le site local et simuler Nuvio
+      - name: Valider le site et l'import Kovelyx sans compte externe
         run: |
           python3 -m http.server 8877 --bind 127.0.0.1 >/tmp/qa-http.log 2>&1 &
           sleep 3
