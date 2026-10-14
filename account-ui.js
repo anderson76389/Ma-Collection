@@ -184,8 +184,8 @@
     const prefs = {};
     if (window.MaCollectionAccountBridge && typeof window.MaCollectionAccountBridge.apply === 'function') {
       await window.MaCollectionAccountBridge.apply({ keys: keys, collection: {}, prefs: prefs });
-    } else if (window.NuvioWizard && typeof window.NuvioWizard.applyVaultFields === 'function') {
-      window.NuvioWizard.applyVaultFields({ keys: keys, prefs: prefs });
+    } else if (window.MaCollectionServices && typeof window.MaCollectionServices.applyVaultFields === 'function') {
+      window.MaCollectionServices.applyVaultFields({ keys: keys, prefs: prefs });
     }
     // Keep Quick Editor fields in sync when present
     try {
