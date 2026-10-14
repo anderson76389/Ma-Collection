@@ -349,6 +349,7 @@
           <span class="bingecat-mark"><img src="assets/bingecat-logo.png" alt="" onerror="this.parentNode.classList.add('no-logo');this.remove();"></span>
           <span>Bingecat</span>
         </button>
+        <button id="se-export-kovelyx" type="button" class="se-mini-btn" title="Copier la collection pour Kovelyx PC">📋 Kovelyx</button>
         <button id="se-send" class="se-send-btn">Send to Nuvio</button>
       </div>
     </div>
@@ -533,6 +534,7 @@
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width:14px;height:14px;"><polyline points="8 17 12 21 16 17"></polyline><line x1="12" y1="12" x2="12" y2="21"></line><path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29"></path></svg>
               <span>Save File</span>
             </button>
+            <button id="btn-export-kovelyx" type="button" class="btn-secondary" title="Exporter la sélection pour Kovelyx PC"><span>📋 Kovelyx</span></button>
             <button id="btn-bingecat-export" class="btn-secondary btn-bingecat" title="Export this selection for Bingecat's addon">
               <span class="bingecat-mark"><img src="assets/bingecat-logo.png" alt="" onerror="this.parentNode.classList.add('no-logo');this.remove();"></span>
               <span>Bingecat</span>
@@ -752,6 +754,22 @@
     <img id="aio-lightbox-img" class="aio-lightbox-img" alt="Reference screenshot">
   </div>
 
+  <!-- Export local Kovelyx : le compte Nuvio n'est jamais sollicité. -->
+  <div id="kovelyx-export-overlay" class="quick-push-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="kovelyx-export-title">
+    <div class="quick-push-panel" style="max-width:480px;max-height:90vh;overflow:auto">
+      <div class="quick-push-icon">📋</div>
+      <h3 id="kovelyx-export-title" class="quick-push-title">Exporter vers Kovelyx PC</h3>
+      <p class="quick-push-desc">Cliquez sur « Copier le JSON ». Dans Kovelyx, ouvrez <strong>Collections</strong>, cliquez sur l'icône <strong>Importer</strong>, collez la collection et confirmez.</p>
+      <p class="quick-push-desc"><strong>Attention :</strong> l'import remplace les collections du profil Kovelyx. Sauvegardez-les auparavant avec l'icône de copie dans Kovelyx.</p>
+      <p class="quick-push-desc">Les extensions utilisées par les catalogues doivent également être installées et configurées dans Kovelyx.</p>
+      <p id="kovelyx-export-status" class="quick-push-desc" role="status" aria-live="polite"></p>
+      <div class="quick-push-actions" style="display:flex;flex-wrap:wrap;justify-content:center;gap:8px">
+        <button type="button" id="kovelyx-export-close" class="quick-push-btn-secondary">Fermer</button>
+        <button type="button" id="kovelyx-export-download" class="quick-push-btn-secondary">Télécharger JSON</button>
+        <button type="button" id="kovelyx-export-copy" class="quick-push-btn-primary">Copier le JSON</button>
+      </div>
+    </div>
+  </div>
   <!-- FEATURE B: QUICK PUSH MODAL -->
   <div id="quick-push-overlay" class="quick-push-overlay" hidden>
     <div class="quick-push-panel">
@@ -966,6 +984,7 @@
   <script src="customize.js?v=93.0"></script>
   <script src="scripts/catalog-utils.js?v=94.0"></script>
   <script src="app.js?v=94.0"></script>
+  <script src="kovelyx-export.js?v=1"></script>
   <script src="nuvio-push.js?v=92.2"></script>
   <script>window.MA_COLLECTION_ASSET_VERSION = 92.4;</script>
   <script src="wizard.js?v=93.0"></script>

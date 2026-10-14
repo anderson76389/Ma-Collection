@@ -114,6 +114,23 @@ try {
     await page.evaluate(()=>window.NuvioWizard.close());
     assert(!(await page.locator("#wizard-overlay").evaluate(n=>n.classList.contains("open"))));
   });
+  await run("Kovelyx : bouton, modèle JSON, téléchargement et fermeture",async()=>{
+    assert.equal(await page.locator("#btn-export-kovelyx").count(),1);
+    await page.locator("#btn-export-kovelyx").click();
+    assert.equal(await page.locator("#kovelyx-export-overlay").evaluate(n=>n.hidden),false);
+    const payload=JSON.parse(await page.evaluate(()=>window.MaCollectionKovelyx.buildExport()));
+    assert(payload.length>=10);
+    assert(payload.every(c=>c.id&&c.title&&Array.isArray(c.folders)));
+    const event=page.waitForEvent("download",{timeout:20000});
+    await page.locator("#kovelyx-export-download").click();
+    const dl=await event;
+    assert(/^kovelyx_collection_fr_\\d{4}-\\d\\d-\\d\\d\\.json$/.test(dl.suggestedFilename()));
+    const {readFile}=await import("node:fs/promises");
+    assert.deepEqual(JSON.parse(await readFile(await dl.path(),"utf8")),payload);
+    await page.locator("#kovelyx-export-close").click();
+    assert.equal(await page.locator("#kovelyx-export-overlay").evaluate(n=>n.hidden),true);
+    assert.equal(await page.locator("#btn-send-to-nuvio").count(),1);
+  });
   await run("export JSON : fichier valide et sources conservées",async()=>{
     const wait=page.waitForEvent("download",{timeout:20000});
     await page.evaluate(()=>window.MaCollectionExport.compileAndDownloadJSON(true));

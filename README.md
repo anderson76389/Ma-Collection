@@ -29,6 +29,14 @@ Vous pouvez sélectionner vos contenus préférés, réorganiser votre accueil e
 
 > **À savoir :** cet outil sert à **organiser et configurer des catalogues**. Il n'héberge pas de films ou de séries et ne fournit pas, à lui seul, de service de lecture vidéo.
 
+## 🟣 Compatibilité Nuvio et Kovelyx
+
+**Nuvio** : la configuration guidée et l'envoi direct vers le compte Nuvio restent inchangés.
+
+**Kovelyx PC** : sélectionnez les dossiers dans Ma-Collection, cliquez sur **📋 Kovelyx**, puis sur **Copier le JSON**. Dans Kovelyx, ouvrez **Collections → Importer** (icône presse-papiers), collez le JSON, puis validez. L'option « Télécharger JSON » permet de garder une sauvegarde.
+
+**Important :** l'import actuel de Kovelyx remplace les collections présentes dans le profil. Sauvegardez-les avant l'import avec l'icône « Copier » de Kovelyx. Les extensions sources doivent être configurées dans Kovelyx. Aucun serveur de comptes Kovelyx officiel n'étant configuré, l'envoi direct n'est pas proposé : vos identifiants Nuvio ne sont pas utilisés.
+
 ## 🚀 Fonctionnalités
 
 | | Fonction | Description |
