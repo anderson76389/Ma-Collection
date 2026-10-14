@@ -495,7 +495,7 @@
     if (!img) return;
     const movie = previewMovieCache && previewMovieCache.movie;
     if (!movie) return; // getPreviewMovie() will call this again once it resolves
-    const service = state.aioPosterService || 'rpdb';
+    const service = state.aioPosterService || 'none';
     let url = null;
     if (service === 'rpdb' && movie.imdbId) {
       const theme = state.aioRpdbTheme === 'custom' ? (state.aioRpdbKey || 't0-free-rpdb') : (state.aioRpdbTheme || 't0-free-rpdb');
@@ -1486,7 +1486,7 @@
     scraperConfig: null,       // lazy-initialized scraper settings (preset + overrides)
     tmdbKey: '',
     aioTmdbKey: '',
-    aioPosterService: 'rpdb',
+    aioPosterService: 'none',
     aioRpdbTheme: 't0-free-rpdb',
     aioTraktWarned: false,     // shown the "no Trakt token pasted in" heads-up yet
     _traktAuthHost: null,      // Native mode only: host "1. Authorize Trakt" actually resolved to, reused by confirmForYouSetup so the token's host always matches where it was minted
@@ -1782,7 +1782,7 @@
       if (setup.traktToken) state.aioTraktToken = String(setup.traktToken).trim();
       if (['alldebrid','realdebrid'].includes(setup.preferredDebridProvider))
         state.preferredDebridProvider = setup.preferredDebridProvider;
-      if (['rpdb','bttr','top'].includes(setup.posterProvider))
+      if (['none','bttr'].includes(setup.posterProvider))
         state.aioPosterService = setup.posterProvider;
       if (['custom','t0-free-rpdb','t0-free-rpdb-blocks','t0-free-rpdb-rounded-blocks'].includes(setup.rpdbTheme))
         state.aioRpdbTheme = setup.rpdbTheme;
@@ -2356,16 +2356,15 @@
 
   function renderAioPoster(panel) {
     panel.innerHTML = `
-      ${header('AIO Streams Setup', 'Optional: choose a poster provider to show ratings directly on posters.', true, 'aio-poster')}
+      ${header('Configuration AIO Streams', 'Choisissez les affiches d’origine ou Bttr Posters.', true, 'aio-poster')}
       <div class="wiz-body">
         <div class="wiz-section">
-          <h4 style="margin:0 0 10px 0; font-size:1.05rem;">Ratings & ${glossaryTip('rpdb', 'Poster Provider')}</h4>
-          <p class="wiz-note" style="margin-bottom:12px;">A poster provider overlays star ratings directly on your posters, so you can judge something at a glance without opening it. RPDB's free tier is picked by default below - happy to leave it, or just tap Continue if you don't care about this.</p>
-          <div class="wiz-label" style="margin-bottom:12px;">Poster Provider</div>
+          <h4 style="margin:0 0 10px 0; font-size:1.05rem;">Affiches des œuvres</h4>
+          <p class="wiz-note" style="margin-bottom:12px;">Par défaut conserve les affiches d’origine. Bttr permet d’ajouter des notes, genres et informations de qualité aux affiches.</p>
+          <div class="wiz-label" style="margin-bottom:12px;">Fournisseur d’affiches</div>
           <div class="wiz-pill-group" style="margin-bottom: 16px; display: flex; gap: 10px;">
-            <button type="button" class="wiz-pill ${state.aioPosterService === 'rpdb' ? 'active' : ''}" data-value="rpdb">RPDB</button>
+            <button type="button" class="wiz-pill ${state.aioPosterService === 'none' ? 'active' : ''}" data-value="none">Par défaut</button>
             <button type="button" class="wiz-pill ${state.aioPosterService === 'bttr' ? 'active' : ''}" data-value="bttr">Bttr Posters</button>
-            <button type="button" class="wiz-pill ${state.aioPosterService === 'top' ? 'active' : ''}" data-value="top">Top Posters</button>
           </div>
           <input type="hidden" id="wiz-aio-poster-service" value="${escapeAttr(state.aioPosterService || 'none')}">
 
@@ -2378,20 +2377,6 @@
             </div>
 
             <div class="wiz-poster-studio-settings">
-              <div id="wiz-aio-rpdb-options" style="display: ${(state.aioPosterService || 'rpdb') === 'rpdb' ? 'block' : 'none'};">
-                <label class="wiz-label" style="margin-bottom:0;">RPDB Theme / API Key (<a href="https://patreon.com/rpdb" target="_blank" style="color:var(--accent);">Support RPDB</a>)
-                  <select id="wiz-aio-rpdb-theme" class="wiz-input" style="margin-bottom:12px;">
-                    <option value="t0-free-rpdb" ${(state.aioRpdbTheme || 't0-free-rpdb') === 't0-free-rpdb' ? 'selected' : ''}>Free: Dark Bar</option>
-                    <option value="t0-free-rpdb-blocks" ${state.aioRpdbTheme === 't0-free-rpdb-blocks' ? 'selected' : ''}>Free: Blocks</option>
-                    <option value="t0-free-rpdb-rounded-blocks" ${state.aioRpdbTheme === 't0-free-rpdb-rounded-blocks' ? 'selected' : ''}>Free: Rounded Blocks</option>
-                    <option value="custom" ${state.aioRpdbTheme === 'custom' ? 'selected' : ''}>Custom Premium Key...</option>
-                  </select>
-                </label>
-                <label class="wiz-label" id="wiz-aio-rpdb-custom-wrap" style="margin-bottom:0; display: ${state.aioRpdbTheme === 'custom' ? 'block' : 'none'};">Premium API Key
-                  <input type="text" id="wiz-aio-rpdb-key" class="wiz-input" placeholder="Enter RPDB API Key..." value="${escapeAttr(state.aioRpdbKey || '')}" autocomplete="off">
-                </label>
-              </div>
-
               <div id="wiz-aio-bttr-options" style="display: ${state.aioPosterService === 'bttr' ? 'block' : 'none'};">
                 <div class="wiz-opt-row">
                   <div class="wiz-opt-text"><span class="wiz-opt-title">Quality Tags</span><span class="wiz-opt-sub">4K, Dolby Vision, Atmos</span></div>
@@ -2445,11 +2430,6 @@
                 </div>
               </div>
 
-              <div id="wiz-aio-top-options" style="display: ${state.aioPosterService === 'top' ? 'block' : 'none'};">
-                <label class="wiz-label" style="margin-bottom:0;">Top Posters API Key
-                  <input type="text" id="wiz-aio-top-key" class="wiz-input" placeholder="Enter Top Posters Key..." value="${escapeAttr(state.aioTopPosterKey || '')}" autocomplete="off">
-                </label>
-              </div>
             </div>
           </div>
         </div>
