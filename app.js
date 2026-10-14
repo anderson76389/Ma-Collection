@@ -150,7 +150,7 @@ function closeSidebar() {
 const WALKTHROUGH_STEPS = [
   {
     title: "Here's the Lay of the Land",
-    body: "What you're looking at is your actual Nuvio home screen. Pick your folders and it updates live: this is the real thing.",
+    body: "Voici un aperçu de votre collection. Choisissez vos dossiers : la présentation évolue en direct.",
     target: null,
     position: 'center',
     nextLabel: 'Show Me Around'
@@ -185,14 +185,14 @@ const WALKTHROUGH_STEPS = [
   },
   {
     title: 'Layout, Sort & Reorder',
-    body: "Switch how everything lays out inside Nuvio (Rows, Tabbed Grid, or Auto), and turn on Reorder to drag sections and folders into your own order. On a phone, tap the ⋯ button to find these.",
+    body: "Changez la disposition des catalogues et réorganisez vos dossiers à votre convenance.",
     target: '.nv-preview-secondary',
     position: 'bottom',
     nextLabel: 'Next'
   },
   {
-    title: 'Send Straight to Nuvio',
-    body: "When you're happy, Send to Nuvio signs you in (or creates an account) and loads your collection instantly, synced to all your devices. Prefer to keep it to yourself? Download the file and import it manually.",
+    title: 'Importer dans Kovelyx',
+    body: "Quand votre sélection vous convient, importez-la dans Kovelyx PC ou téléchargez le fichier JSON pour le conserver.",
     target: '#preview-send',
     position: 'bottom',
     nextLabel: 'Got It'
@@ -273,7 +273,7 @@ function showFriendsOfMaCollectionChooser() {
   overlay.innerHTML = `
     <div class="popup-panel friends-chooser-panel" role="dialog" aria-modal="true" aria-labelledby="friends-chooser-title">
       <h3 class="popup-title" id="friends-chooser-title">Friends of Kaptain</h3>
-      <p class="friends-chooser-intro">Browse collections from other creators with the same picker and Send to Nuvio flow. Their lists stay as they built them. This tool handles the setup.</p>
+      <p class="friends-chooser-intro">Parcourez les collections d'autres créateurs avec les mêmes options d'import dans Kovelyx. Their lists stay as they built them. This tool handles the setup.</p>
       <div class="friends-chooser-list">${cards}</div>
       <button type="button" class="bc-choice-cancel" id="friends-chooser-close">Back</button>
     </div>`;
@@ -398,7 +398,7 @@ function applyFriendTitleBranding(channel) {
   const creator = channel.friendPack.creatorName || channel.label || 'Friend';
   const collectionLabel = channel.label || `${creator} Collection`;
   if (logo) logo.innerHTML = `Friends of Kaptain <span>${escapeHtml(collectionLabel)}</span>`;
-  if (tag) tag.textContent = channel.blurb || `${collectionLabel}, ready to browse and send to Nuvio.`;
+  if (tag) tag.textContent = channel.blurb || `${collectionLabel}, prête à être parcourue et importée dans Kovelyx.`;
 }
 
 /** Dark glass intro: Kaptain from the left, friend from the right, then notes. */
@@ -538,13 +538,13 @@ function updateBetaBanner() {
       const collectionLabel = channel.label || (creator ? `${creator} Collection` : ver);
       text.textContent = narrow
         ? `${collectionLabel}: sending uses this pack`
-        : `${collectionLabel}: Friends of Kaptain. Sending to Nuvio uses this pack.`;
+        : `${collectionLabel}: Friends of Kaptain. Ce lot peut être importé dans Kovelyx.`;
       text.title = text.textContent;
     } else {
       text.textContent = narrow
         ? `${ver} preview: sending uses this build`
-        : `${ver} preview: sending to Nuvio uses this build.`;
-      text.title = `${ver} preview: sending to Nuvio uses this build.`;
+        : `${ver} preview: vous utilisez cette version de prévisualisation.`;
+      text.title = `${ver} preview: vous utilisez cette version de prévisualisation.`;
     }
   }
   requestAnimationFrame(() => {
@@ -578,7 +578,7 @@ function showBetaPatchNotes(channel) {
     .join('');
   const dmUrl = channel.redditFeedbackUrl
     || 'https://www.reddit.com/message/compose/?to=KforKaptain&subject=Mega%20beta%20feedback';
-  const communityUrl = channel.redditCommunityUrl || 'https://www.reddit.com/r/Nuvio/';
+  const communityUrl = channel.redditCommunityUrl || '';
 
   const overlay = document.createElement('div');
   overlay.id = 'beta-notes-overlay';
@@ -594,7 +594,7 @@ function showBetaPatchNotes(channel) {
       <p class="beta-notes-feedback">${escapeHtmlBeta(notes.feedback || '')}</p>
       <div class="beta-notes-contacts">
         <a class="beta-notes-link" href="${escapeHtmlBeta(dmUrl)}" target="_blank" rel="noopener">Message u/KforKaptain</a>
-        <a class="beta-notes-link" href="${escapeHtmlBeta(communityUrl)}" target="_blank" rel="noopener">r/Nuvio</a>
+        <a class="beta-notes-link" href="${escapeHtmlBeta(communityUrl)}" target="_blank" rel="noopener">Communauté</a>
       </div>
       <button type="button" class="bc-choice-cancel beta-notes-close" id="beta-notes-close">Got it</button>
     </div>`;
@@ -1707,7 +1707,7 @@ function renderPreviewCollection() {
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><line x1="4" y1="6" x2="20" y2="6"></line><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="18" x2="20" y2="18"></line></svg>
         <span>Quick Editor</span>
       </button>
-      <div class="nv-viewmode-combo" title="How your folders lay out inside Nuvio, also written to your export. Tabbed Grid is the mobile-safe pick.">
+      <div class="nv-viewmode-combo" title="La disposition des dossiers dans votre collection et son export. Tabbed Grid is the mobile-safe pick.">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px;color:var(--text-muted);"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
         <select id="preview-viewmode" class="topbar-select" aria-label="View mode">
           <option value="FOLLOW_LAYOUT" selected>Follow Layout (Auto)</option>
@@ -1735,7 +1735,7 @@ function renderPreviewCollection() {
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;margin-right:6px;vertical-align:text-bottom;"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
         <span>Self-Host</span>
       </button>
-      <button class="btn-primary nv-mini-btn" id="preview-send" title="Choisir Kovelyx ou Nuvio">
+      <button class="btn-primary nv-mini-btn" id="preview-send" title="Importer dans Kovelyx">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/><polyline points="8 11 12 7 16 11"/><line x1="12" y1="7" x2="12" y2="14"/></svg>
         <span>Importer la collection</span>
       </button>
@@ -2467,7 +2467,7 @@ function openPreviewDetail(folder, category) {
   });
   const noteText = hasAnyPosters
     ? `Real titles from your sources · Updated ${formatPreviewAge(generatedAt)}`
-    : (demoSources.length ? 'Loading titles from your sources…' : 'Placeholder layout. Your lists fill with live titles once the collection is in Nuvio.');
+    : (demoSources.length ? 'Loading titles from your sources…' : 'Aperçu : les listes se rempliront avec vos sources configurées dans Kovelyx.');
 
   const overlay = document.createElement('div');
   overlay.id = 'preview-detail';
@@ -2508,7 +2508,7 @@ function openPreviewDetail(folder, category) {
       if (hasAnyPosters || !noteEl) return;
       noteEl.textContent = ok
         ? 'Real titles from your sources'
-        : 'Placeholder layout. Your lists fill with live titles once the collection is in Nuvio.';
+        : 'Aperçu : les listes se rempliront avec vos sources configurées dans Kovelyx.';
     };
     if (layout === 'grid') {
       const gridEl = overlay.querySelector('.nv-faux-grid');
@@ -2717,7 +2717,7 @@ function bindPreviewControls() {
   document.getElementById('preview-bingecat')?.addEventListener('click', exportForBingecat);
   document.getElementById('preview-selfhost')?.addEventListener('click', exportForSelfHost);
   const send = document.getElementById('preview-send');
-  if (send) send.addEventListener('click', () => handleSendToNuvioClick());
+  if (send) send.addEventListener('click', () => handleImportToKovelyxClick());
 }
 
 // ==========================================================================
@@ -2928,7 +2928,6 @@ function updateControlCenterStats() {
 
   setStatValue(document.getElementById('selected-folders-count'), `${selectedFolders} of ${totalFolders}`, false);
   setStatValue(document.getElementById('selected-sources-count'), `${selectedSources} of ${totalSources}`, false);
-  checkSyncState();
   notifyAccountSave();
 }
 
@@ -3116,7 +3115,7 @@ async function exportForSelfHost() {
     const stamp = new Date().toISOString().slice(0, 10);
 
     const aioStr = typeof result === 'object' ? result.aioConfig : result;
-    const collectionStr = typeof result === 'object' ? result.nuvioCollection : null;
+    const collectionStr = typeof result === 'object' ? result.nuvioCollection : null; // nom de champ interne historique
 
     function triggerDownload(content, filename) {
       const blob = new Blob([content], { type: 'application/json' });
@@ -3136,12 +3135,12 @@ async function exportForSelfHost() {
     // 2. Download Nuvio Collection JSON (for importing into Nuvio)
     if (collectionStr) {
       setTimeout(() => {
-        triggerDownload(collectionStr, `nuvio_collection_selfhost_${stamp}.json`);
+        triggerDownload(collectionStr, `ma_collection_selfhost_${stamp}.json`);
       }, 300);
     }
     
     if (popup) popup.classList.remove('open');
-    showToast('Downloaded AIO Server Config & Nuvio Collection JSON!', 'success');
+    showToast('Configuration AIO et collection locale téléchargées !', 'success');
   } catch (err) {
     if (popup) popup.classList.remove('open');
     showToast('Error generating export: ' + err.message, 'error');
@@ -3163,15 +3162,15 @@ function showUpdateFaqModal() {
       <h3 class="popup-title" id="faq-title">FAQ — Updates &amp; installs</h3>
       <div class="faq-body">
         <p><strong>How do I update an older install?</strong><br>
-        Open this tool → Set Up / Send to Nuvio → on each existing row choose <em>Add missing</em> (keeps your layout). Use <em>Replace</em> only when you want that row fully overwritten.</p>
-        <p><strong>Does the Nuvio Community Pack auto-update?</strong><br>
+        Open this tool → Configurer / Importer dans Kovelyx → on each existing row choose <em>Add missing</em> (keeps your layout). Use <em>Replace</em> only when you want that row fully overwritten.</p>
+        <p><strong>Les catalogues se mettent-ils à jour ?</strong><br>
         No. Re-open the pack or re-send from this tool when you want the latest.</p>
         <p><strong>Movies empty / “Trakt list not found” on an old profile?</strong><br>
         Movie lists moved from public Trakt lists to TMDB. Replace or re-send <em>Streaming Services</em>, <em>Actors</em>, and <em>Directors</em> (Add missing / Replace as needed).</p>
         <p><strong>Bingecat — which button?</strong><br>
         Use the in-tool <em>Bingecat</em> button (direct handoff). That path includes Streaming Services. The old “download JSON and upload elsewhere” flow is legacy.</p>
         <p><strong>TMDB errors / empty Discover tabs?</strong><br>
-        Connect your TMDB API key in Nuvio Integrations, then refresh.</p>
+        Configurez votre clé TMDB dans Kovelyx, puis actualisez.</p>
         <p><strong>Pack → Bingecat?</strong><br>
         Remove or leave the old Pack rows on your profile, then send via the Bingecat button so you are not running two full copies.</p>
         <p><strong>Hover GIFs draining battery?</strong><br>
@@ -3320,7 +3319,7 @@ function confirmDownload({ filename, folders, sources, bytes, includeBingecat = 
         </div>
         <p class="dl-confirm-note">${includeBingecat
           ? 'Save it to your usual Downloads folder, or open this selection in BingeCat.'
-          : "It'll go to your usual Downloads folder. You import it into Nuvio yourself afterwards."}</p>
+          : "Le fichier sera téléchargé : importez-le ensuite dans Kovelyx."}</p>
         <div class="dl-confirm-actions">
           <button type="button" class="dl-confirm-cancel" id="dl-confirm-cancel">Cancel</button>
           <button type="button" class="dl-confirm-go" id="dl-confirm-go">Save file</button>
@@ -3362,7 +3361,7 @@ async function compileAndDownloadJSON(skipConfirm, includeBingecat = false) {
   customConfig = await applyLocaleToCollection(customConfig);
   const json = JSON.stringify(customConfig, null, 2);
   const stamp = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
-  const filename = `nuvio_custom_collection_${stamp}.json`;
+  const filename = `ma_collection_personnalisee_${stamp}.json`;
 
   if (!skipConfirm) {
     let folders = 0, sources = 0;
@@ -3656,12 +3655,12 @@ function ensureMobileCompat(actionFn, opts) {
     const needsTmdb = checkTmdb && isMobileSelected && !hasTmdbKey();
 
     if (currentDevice === 'tv') {
-      if (subEl) subEl.textContent = 'TV uses Follow Layout by default for the genuine Nuvio home screen look.';
+      if (subEl) subEl.textContent = 'L'aperçu TV utilise la disposition automatique par défaut.';
       if (rowsSection) rowsSection.style.display = 'none';
       if (tmdbSection) tmdbSection.style.display = 'none';
       if (continueText) continueText.textContent = `${actionLabel} (Follow Layout) →`;
     } else if (currentDevice === 'mobile') {
-      if (subEl) subEl.textContent = 'Nuvio Mobile handles carousel lists differently than TV screens.';
+      if (subEl) subEl.textContent = 'L'aperçu mobile présente les listes différemment de l'aperçu TV.';
       if (rowsSection) rowsSection.style.display = '';
       if (checkText) checkText.textContent = 'Switch to Tabbed Grid (recommended for mobile)';
       if (tmdbSection) tmdbSection.style.display = needsTmdb ? '' : 'none';
@@ -3792,8 +3791,8 @@ function accountSnapshot() {
       tmdbKey: seSettings.tmdbKey || wizKeys.tmdbKey || wizKeys.aioTmdbKey || "",
       mdblistKey: seSettings.mdblistKey || wizKeys.mdblistKey || "",
       forYouMdblistKey: wizKeys.forYouMdblistKey || "",
-      nuvioEmail: wizKeys.nuvioEmail || wizPrefs.email || "",
-      nuvioPassword: wizKeys.nuvioPassword || "",
+      
+      
       aioRpdbKey: wizKeys.aioRpdbKey || "",
       aioDebridKey: wizKeys.aioDebridKey || "",
       aioDebridType: wizKeys.aioDebridType || "",
@@ -3811,7 +3810,7 @@ function accountSnapshot() {
       viewMode: selectedViewMode || "FOLLOW_LAYOUT",
     },
     prefs: {
-      email: wizKeys.nuvioEmail || wizPrefs.email || "",
+      email: "",
       profileName: wizPrefs.profileName || seSettings.profileName || "",
       setupMode: wizPrefs.setupMode || "",
       avatarUrl: seSettings.avatarUrl || "",
@@ -4259,9 +4258,7 @@ function bindGlobalEvents() {
     renderSidebar();
     if (isPreviewActive) renderPreviewCollection();
     window.__maCollectionAfterCustomize = () => {
-      const nuvio = () => window.NuvioWizard?.open({ skipChoose: true });
-      if (window.MaCollectionDestination) window.MaCollectionDestination.open({ onNuvio: nuvio });
-      else nuvio();
+      handleImportToKovelyxClick();
     };
     if (window.startCustomize) window.startCustomize();
   });
@@ -4272,9 +4269,7 @@ function bindGlobalEvents() {
       initializeSelections();
       renderSidebar();
       if (isPreviewActive) renderPreviewCollection();
-      const nuvio = () => window.NuvioWizard?.open({ skipChoose: true, flow: 'collection-only' });
-      if (window.MaCollectionDestination) window.MaCollectionDestination.open({ onNuvio: nuvio });
-      else nuvio();
+      handleImportToKovelyxClick();
     }, { actionLabel: 'Continue to Account' });
   });
 
@@ -4601,7 +4596,7 @@ function renderSimpleSettings() {
     </div>`)}
 
     <h3 class="se-sec-title">Recommendations <span class="se-sec-sub">— what fills "For You"</span></h3>
-    <p class="se-note">${tip('trakt', 'Trakt')} is connected inside the Nuvio app itself (it needs a sign-in there, not here).</p>
+    <p class="se-note">${tip('trakt', 'Trakt')} se connecte depuis Kovelyx (autorisation distincte de ce site).</p>
     ${seAdvanced ? '' : '<p class="se-note">API keys for AllDebrid, Real-Debrid, TMDB and MDBList live under <strong>Advanced</strong> at the top.</p>'}
     ${adv(`
     <label class="se-field se-advanced-block">${tip('mdblist', 'MDBList')} API key <span class="se-hint">(optional)</span>
@@ -4625,7 +4620,7 @@ function renderSimpleSettings() {
         <button type="button" class="se-key-test" id="se-realdebrid-test">Tester</button>
       </span>
     </label>
-    <p class="se-note">Ces clés configurent les extensions de lecture (Torrentio / AIO Streams). AllDebrid n'est pas un service natif de Nuvio TV.</p>
+    <p class="se-note">Ces clés configurent les extensions de lecture (Torrentio / AIO Streams). AllDebrid s'utilise par une extension compatible configurée dans Kovelyx.</p>
     <label class="se-field se-advanced-block">${tip('tmdb', 'TMDB')} API key <span class="se-hint">(optional)</span>
       <span class="se-input-wrap">
         <input id="se-tmdb-key" class="se-input" value="${v(seSettings.tmdbKey)}" placeholder="Clé API TMDB v3 (pas le jeton v4)" autocomplete="off">
@@ -4644,7 +4639,7 @@ function renderSimpleSettings() {
     }).join('')}</div>
 
     <h3 class="se-sec-title">Hover Effects</h3>
-    <p class="se-note" style="margin-bottom:8px;">Turn off the animated hover/focus effect on folder cards, in Nuvio itself as well as here.</p>
+    <p class="se-note" style="margin-bottom:8px;">Turn off the animated hover/focus effect on folder cards, dans vos aperçus et vos exports.</p>
     <div class="se-genre-list">
       <label class="se-genre-row">
         <input type="checkbox" id="se-gif-disable-streaming" ${gifDisableStreaming ? 'checked' : ''}>
@@ -4766,36 +4761,6 @@ function wireSimpleSettings() {
   });
 }
 
-function seSend() {
-  seGatherSettings();
-  let compiled = [];
-  try { compiled = assembleFilteredDatabase(); } catch (e) { /* ignore */ }
-  if (!compiled.length) { showToast('Pick at least one folder before sending.', 'error'); return; }
-
-  // Close the Quick Editor before opening wizard/compat overlays — they sit
-  // at lower z-indexes (200/250) than the Quick Editor overlay (900) and would
-  // otherwise appear hidden behind it.
-  document.getElementById('simple-editor-overlay')?.classList.remove('open');
-  hideTitleScreen();
-  isPreviewActive = true;
-  renderPreviewCollection();
-
-  const prefill = {
-    profileName: seSettings.profileName || undefined,
-    avatarUrl: seSettings.avatarUrl || undefined,
-    allDebridKey: seSettings.allDebridKey || undefined,
-    realDebridKey: seSettings.realDebridKey || undefined,
-    tmdbKey: seSettings.tmdbKey || undefined,
-    tmdbEnabled: !!seSettings.tmdbKey,
-    mdblistKey: seSettings.mdblistKey || undefined,
-    addons: seEnsureAddons(),
-  };
-  const launch = () => { if (window.NuvioWizard) window.NuvioWizard.open({ skipChoose: true, prefill }); };
-  if (window.MaCollectionExport && typeof window.MaCollectionExport.ensureMobileCompat === 'function') {
-    window.MaCollectionExport.ensureMobileCompat(launch);
-  } else { launch(); }
-}
-
 function bindSimpleEditorEvents() {
   // Guided Customize card → startCustomize (was wrongly wired to Quick Editor)
   document.getElementById('title-screen-simple')?.addEventListener('click', () => {
@@ -4805,8 +4770,8 @@ function bindSimpleEditorEvents() {
   document.getElementById('se-back')?.addEventListener('click', backToCinematicEditor);
   document.getElementById('se-cinematic')?.addEventListener('click', backToCinematicEditor);
   document.getElementById('se-send')?.addEventListener('click', () => {
-    if (window.MaCollectionDestination) window.MaCollectionDestination.open({ onNuvio: seSend });
-    else seSend();
+    seGatherSettings();
+    handleImportToKovelyxClick();
   });
   document.getElementById('se-bingecat')?.addEventListener('click', () => {
     seGatherSettings();   // keep anything typed in the settings panel
@@ -5214,251 +5179,13 @@ function getSelectedFolderIds() {
   });
 }
 
-function checkSyncState() {
-  const dot = document.getElementById('sync-dot');
-  if (!dot) return;
-  const raw = localStorage.getItem('ma_collection_last_push');
-  if (!raw) { dot.className = 'sync-dot'; dot.title = ''; return; }
-  try {
-    const saved = JSON.parse(raw);
-    const savedIds = (saved.folderIds || []).slice().sort().join('\n');
-    const currentIds = getSelectedFolderIds().slice().sort().join('\n');
-    if (savedIds === currentIds) {
-      dot.className = 'sync-dot synced';
-      const mins = Math.round((Date.now() - saved.timestamp) / 60000);
-      const timeStr = mins < 2 ? 'just now' : mins < 60 ? `${mins}m ago` : `${Math.round(mins / 60)}h ago`;
-      dot.title = `Nuvio is up to date · Pushed ${timeStr}`;
-    } else {
-      dot.className = 'sync-dot out-of-sync';
-      const current = new Set(getSelectedFolderIds());
-      const prev = new Set(saved.folderIds || []);
-      const added = [...current].filter(id => !prev.has(id)).length;
-      const removed = [...prev].filter(id => !current.has(id)).length;
-      const parts = [];
-      if (added) parts.push(`+${added} folder${added !== 1 ? 's' : ''}`);
-      if (removed) parts.push(`-${removed} folder${removed !== 1 ? 's' : ''}`);
-      dot.title = (parts.length ? parts.join(', ') + ' since last push.' : 'Selection changed.') + ' Click to update.';
-    }
-  } catch (e) {
-    dot.className = 'sync-dot'; dot.title = '';
-  }
+// L'importation est désormais indépendante : elle passe uniquement par le pont
+// local de Kovelyx et demande confirmation dans l'application.
+function handleImportToKovelyxClick() {
+  if (window.MaCollectionDestination?.open) window.MaCollectionDestination.open();
+  else if (window.MaCollectionKovelyx?.open) window.MaCollectionKovelyx.open();
+  else showToast("L'import Kovelyx est indisponible. Téléchargez le JSON.", "error");
 }
-
-function handleSendToNuvioClick() {
-  if (window.MaCollectionDestination) {
-    window.MaCollectionDestination.open({ onNuvio: startNuvioImport });
-    return;
-  }
-  startNuvioImport();
-}
-
-function startNuvioImport() {
-  // New per-import API keys/poster choices must go through the full wizard,
-  // not the quick sync path which only sends existing collection rows.
-  if (window.__maCollectionPendingImportSettings) {
-    window.NuvioWizard?.open({ skipChoose: true });
-    return;
-  }
-  const dot = document.getElementById('sync-dot');
-  if (dot && dot.classList.contains('out-of-sync')) {
-    openQuickPushModal();
-  } else {
-    if (window.NuvioWizard && typeof window.NuvioWizard.open === 'function') {
-      window.NuvioWizard.open();
-    }
-  }
-}
-
-function openQuickPushModal() {
-  const overlay = document.getElementById('quick-push-overlay');
-  const desc = document.getElementById('quick-push-desc');
-  if (!overlay) return;
-
-  const raw = localStorage.getItem('ma_collection_last_push');
-  if (desc && raw) {
-    try {
-      const saved = JSON.parse(raw);
-      const current = new Set(getSelectedFolderIds());
-      const prev = new Set(saved.folderIds || []);
-      const added = [...current].filter(id => !prev.has(id)).length;
-      const removed = [...prev].filter(id => !current.has(id)).length;
-      const parts = [];
-      if (added) parts.push(`${added} folder${added !== 1 ? 's' : ''} added`);
-      if (removed) parts.push(`${removed} folder${removed !== 1 ? 's' : ''} removed`);
-      desc.textContent = parts.length ? parts.join(', ') + ' since your last push.' : 'Your selection has changed since the last push.';
-    } catch (e) { desc.textContent = 'Your selection has changed since the last push.'; }
-  }
-
-  overlay.hidden = false;
-}
-
-function closeQuickPushModal() {
-  const overlay = document.getElementById('quick-push-overlay');
-  if (overlay) overlay.hidden = true;
-}
-
-function mergeCategoryUnionForQuickPush(existingCat, incomingCat) {
-  const sourceUnionKey = (s) => {
-    if (!s) return '';
-    if (s.provider === 'addon') return `addon|${s.addonId || ''}|${s.catalogId || ''}|${s.type || ''}`;
-    if (s.provider === 'tmdb') {
-      const g = (s.filters && s.filters.withGenres) || s.genre || '';
-      const tmdbId = s.tmdbId || s.tmdbSourceId || '';
-      const media = s.mediaType || s.type || '';
-      return `tmdb|${tmdbId}|${s.tmdbSourceType || ''}|${g}|${s.title || s.name || ''}|${media}`;
-    }
-    if (s.provider === 'trakt') return `trakt|${s.traktListId || ''}|${s.title || s.name || ''}|${s.mediaType || s.type || ''}`;
-    return `${s.provider || ''}|${s.catalogId || s.title || s.name || ''}|${s.type || s.mediaType || ''}`;
-  };
-
-  const merged = { ...existingCat };
-  const folderList = (existingCat.folders || []).filter(Boolean).map((f) => ({ ...f }));
-  const byFolderId = new Map(folderList.map((f) => [f.id, f]));
-  const norm = (t) => (t || '').trim().toLowerCase();
-  const byFolderTitle = new Map(folderList.map((f) => [norm(f.title), f]));
-
-  (incomingCat.folders || []).forEach((incFolder) => {
-    if (!incFolder || (!incFolder.id && !incFolder.title)) return;
-    const titleKey = norm(incFolder.title);
-    const existingFolder = (incFolder.id && byFolderId.get(incFolder.id)) || (titleKey && byFolderTitle.get(titleKey));
-    if (!existingFolder) {
-      folderList.push(incFolder);
-      if (incFolder.id) byFolderId.set(incFolder.id, incFolder);
-      if (titleKey) byFolderTitle.set(titleKey, incFolder);
-      return;
-    }
-    const existingKeys = new Set((existingFolder.sources || []).map(sourceUnionKey));
-    const missingSources = (incFolder.sources || []).filter((s) => !existingKeys.has(sourceUnionKey(s)));
-    if (missingSources.length) {
-      existingFolder.sources = [...(existingFolder.sources || []), ...missingSources];
-      const existingCatKeys = new Set((existingFolder.catalogSources || []).map(sourceUnionKey));
-      const missingCatSources = (incFolder.catalogSources || []).filter((s) => !existingCatKeys.has(sourceUnionKey(s)));
-      existingFolder.catalogSources = [...(existingFolder.catalogSources || []), ...missingCatSources];
-    }
-  });
-  merged.folders = folderList;
-  return merged;
-}
-
-function mergeCollectionsSafe(existingList, incomingList) {
-  const existing = Array.isArray(existingList) ? existingList : [];
-  const incoming = Array.isArray(incomingList) ? incomingList : [];
-  if (!existing.length) return incoming.map((c) => ({ ...c }));
-
-  const norm = (t) => (t || '').trim().toLowerCase();
-  const incomingIds = new Set(incoming.map((c) => c && c.id).filter(Boolean));
-  const incomingTitles = new Set(incoming.map((c) => c && norm(c.title)).filter(Boolean));
-
-  const allKnownDb = (typeof database !== 'undefined' && Array.isArray(database)) ? database : [];
-  const allKnownIds = new Set(allKnownDb.map((c) => c && c.id).filter(Boolean));
-  const allKnownTitles = new Set(allKnownDb.map((c) => c && norm(c.title)).filter(Boolean));
-
-  const result = [];
-  const handledExisting = new Set();
-  const handledIncoming = new Set();
-
-  // Step 1: Walk existing list to preserve original row order and custom rows
-  existing.forEach((existingCat) => {
-    if (!existingCat) return;
-    const catId = existingCat.id;
-    const catTitleNorm = norm(existingCat.title);
-
-    const incMatch = incoming.find((inc) => (catId && inc.id === catId) || (catTitleNorm && norm(inc.title) === catTitleNorm));
-    if (incMatch) {
-      result.push(mergeCategoryUnionForQuickPush(existingCat, incMatch));
-      handledExisting.add(existingCat);
-      handledIncoming.add(incMatch);
-    } else {
-      const isCustomCategory = !allKnownIds.has(catId) && !allKnownTitles.has(catTitleNorm);
-      if (isCustomCategory) {
-        // User custom category created in Nuvio — ALWAYS PRESERVE!
-        result.push({ ...existingCat });
-        handledExisting.add(existingCat);
-      }
-      // If it was a recognized category in Kaptain DB that the user deselected, leave it dropped
-    }
-  });
-
-  // Step 2: Append newly selected incoming categories not previously on the profile
-  incoming.forEach((incCat) => {
-    if (incCat && !handledIncoming.has(incCat)) {
-      result.push({ ...incCat });
-    }
-  });
-
-  return result;
-}
-
-async function performQuickPush() {
-  const btn = document.getElementById('quick-push-confirm');
-  if (btn) { btn.disabled = true; btn.textContent = 'Pushing…'; }
-
-  try {
-    const raw = localStorage.getItem('ma_collection_last_push');
-    if (!raw) throw new Error('no_state');
-    const saved = JSON.parse(raw);
-    const { profileId } = saved;
-    // Token lives in sessionStorage, not localStorage - see the note in wizard.js.
-    // A new tab or a returning visitor has no token and is sent back through
-    // Send to Nuvio to sign in again.
-    let token = null;
-    try { token = sessionStorage.getItem('ma_collection_push_token'); } catch (e) {}
-    if (!token || !profileId) throw new Error('no_auth');
-
-    let incoming = assembleFilteredDatabase();
-    incoming = await applyLocaleToCollection(incoming);
-    if (!incoming || !incoming.length) throw new Error('Nothing selected.');
-
-    // 1. Pull existing collections to protect user custom categories & folders
-    let existing = [];
-    try {
-      if (window.NuvioPush && typeof window.NuvioPush.pullCollections === 'function') {
-        existing = await window.NuvioPush.pullCollections(token, profileId);
-      }
-    } catch (pullErr) {
-      console.warn('Could not pull existing collections before quick push:', pullErr);
-    }
-
-    // 2. Safely merge without destroying custom categories or folders
-    const merged = mergeCollectionsSafe(existing, incoming);
-    (merged || []).forEach((cat) => {
-      if (!cat) return;
-      if (typeof cat.pinToTop !== 'boolean') cat.pinToTop = true;
-      cat.focusGlowEnabled = true;
-    });
-
-    await window.NuvioPush.pushCollections(token, profileId, merged);
-
-    localStorage.setItem('ma_collection_last_push', JSON.stringify({
-      ...saved, timestamp: Date.now(), folderIds: getSelectedFolderIds(),
-    }));
-    checkSyncState();
-    closeQuickPushModal();
-    showToast('Nuvio updated.', 'success');
-  } catch (e) {
-    closeQuickPushModal();
-    const msg = (e && e.message) || '';
-    const isAuthErr = msg === 'no_auth' || msg === 'no_state' || /401|403|unauthorized|expired/i.test(msg);
-    showToast(isAuthErr ? 'Session expired. Running full Setup.' : `Couldn't reach Nuvio. Trying full Setup.`, 'error');
-    setTimeout(() => {
-      if (window.NuvioWizard && typeof window.NuvioWizard.open === 'function') window.NuvioWizard.open();
-    }, 600);
-  } finally {
-    if (btn) { btn.disabled = false; btn.textContent = 'Update Now'; }
-  }
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-  const qpCancel = document.getElementById('quick-push-cancel');
-  const qpConfirm = document.getElementById('quick-push-confirm');
-  if (qpCancel) qpCancel.addEventListener('click', () => {
-    closeQuickPushModal();
-    if (window.NuvioWizard && typeof window.NuvioWizard.open === 'function') window.NuvioWizard.open();
-  });
-  if (qpConfirm) qpConfirm.addEventListener('click', performQuickPush);
-  const qpOverlay = document.getElementById('quick-push-overlay');
-  if (qpOverlay) qpOverlay.addEventListener('click', (e) => { if (e.target === qpOverlay) closeQuickPushModal(); });
-});
 
 // ==========================================================================
 // FEATURE C: COMMAND PALETTE
@@ -5486,7 +5213,7 @@ function _buildCommandRegistry() {
   reg.push({ label: 'Sort: Popular first', keywords: ['sort', 'popular', 'popularity'], icon: '★', group: 'Sort', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'popular'; s.dispatchEvent(new Event('change')); } } });
   reg.push({ label: 'Sort: A–Z', keywords: ['sort', 'alphabetical', 'a-z', 'az'], icon: 'A', group: 'Sort', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'az'; s.dispatchEvent(new Event('change')); } } });
   reg.push({ label: 'Sort: Selected first', keywords: ['sort', 'selected', 'checked', 'first'], icon: '★', group: 'Sort', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'selected'; s.dispatchEvent(new Event('change')); } } });
-  reg.push({ label: 'Choisir Kovelyx ou Nuvio', keywords: ['send', 'push', 'kovelyx', 'nuvio', 'importer', 'envoi'], icon: '📡', group: 'Actions', action: () => handleSendToNuvioClick() });
+  reg.push({ label: 'Importer dans Kovelyx', keywords: ['kovelyx', 'importer', 'envoi'], icon: '📡', group: 'Actions', action: () => handleImportToKovelyxClick() });
   reg.push({ label: 'Save File', keywords: ['save', 'download', 'export', 'file'], icon: '💾', group: 'Actions', action: () => document.getElementById('btn-compile-download')?.click() });
   reg.push({ label: 'Export for Bingecat', keywords: ['bingecat', 'export', 'addon', 'cat'], icon: '🐱', group: 'Actions', action: () => exportForBingecat() });
   reg.push({ label: 'Start walkthrough', keywords: ['tour', 'walkthrough', 'guide', 'help', 'replay', 'walk'], icon: '?', group: 'Actions', action: () => document.getElementById('btn-replay-tour')?.click() });
