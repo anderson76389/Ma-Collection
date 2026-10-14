@@ -88,11 +88,9 @@
     if (!direct || direct.disabled) return;
     open();
     direct.disabled = true;
-    setStatus("Ouverture de Kovelyx et préparation de votre collection…");
+    setStatus("Préparation de votre collection et connexion à Kovelyx PC…");
     try {
-      // Must run synchronously during the click gesture, before await.
-      // Windows registers this protocol per-user when Kovelyx is first started.
-      if (!window.__MA_COLLECTION_QA_NO_PROTOCOL) window.location.href = "kovelyx://import";
+      // Le pont local fonctionne indépendamment de l’association Windows kovelyx://.
       const json = await buildExport();
       const config = pendingSetup || window.MaCollectionImportStudio?.getSettings?.() || {};
       pendingSetup = null; // Ne jamais réutiliser des clés d\u2019un import précédent.
@@ -101,6 +99,8 @@
         ...(config.tmdbKey ? {tmdbKey:config.tmdbKey} : {}),
         ...(config.mdblistKey ? {mdblistKey:config.mdblistKey} : {}),
         ...(config.realDebridKey ? {realDebridKey:config.realDebridKey} : {}),
+        tmdbLanguage: config.tmdbLanguage === "en" ? "en" : "fr",
+        importMode: config.importMode === "account" ? "account" : "local",
         ...(config.posterProvider === "rpdb" ? {
           posterProvider:"rpdb",
           rpdbTheme:config.rpdbTheme || "t0-free-rpdb",
@@ -114,7 +114,7 @@
       let olderBridge = false;
       let accepted = false;
       let lastError = null;
-      for (let attempt = 0; attempt < 48; attempt++) {
+      for (let attempt = 0; attempt < 10; attempt++) {
         try {
           const controller = new AbortController();
           const timeout = setTimeout(() => controller.abort(), 1800);
@@ -124,7 +124,7 @@
               method: "POST",
               mode: "cors",
               headers: { "Content-Type": "application/json" },
-              body: olderBridge ? json : payload,
+              body: payload,
               signal: controller.signal,
               cache: "no-store",
             });
@@ -137,18 +137,17 @@
             throw Error("Un import attend déjà une confirmation dans Kovelyx. Validez ou annulez-le avant de recommencer.");
           }
           if (hasSettings && !olderBridge && response.status === 422) {
-            olderBridge = true; // Kovelyx antérieur à l'import des clés.
-            continue;
+            throw Error("Version de Kovelyx trop ancienne pour cet import. Mettez l’application à jour : aucune collection n’a été remplacée.");
           }
           throw Error("Kovelyx a refusé l'envoi (HTTP " + response.status + "). Vous pouvez utiliser « Copier le JSON ».");
         } catch (error) {
-          if (error && /^Kovelyx a refusé|^Un import attend/.test(error.message || "")) throw error;
+          if (error && /^(Kovelyx a refusé|Un import attend|Version de Kovelyx trop ancienne)/.test(error.message || "")) throw error;
           lastError = error;
         }
-        await new Promise(resolve => setTimeout(resolve, 550));
+        if (attempt < 9) await new Promise(resolve => setTimeout(resolve, 400));
       }
       if (!accepted) {
-        throw Error("Kovelyx ne répond pas. Ouvrez la nouvelle version de Kovelyx sur votre PC, puis réessayez. Si votre navigateur bloque la connexion locale, utilisez « Copier le JSON »." +
+        throw Error("Kovelyx ne répond pas. Ouvrez Kovelyx PC et, en mode compte, connectez-vous dans l’application. Revenez ensuite cliquer sur « Importer directement ». Aucun protocole Windows n’est nécessaire." +
           (lastError && lastError.name === "AbortError" ? " (connexion expirée)" : ""));
       }
       setStatus("Sélection envoyée à Kovelyx ! Confirmez l'import dans l'application. Une sauvegarde locale sera créée." +
