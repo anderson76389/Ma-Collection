@@ -70255,10 +70255,10 @@
       },
       {
         "id": "folder-c2fa6b78",
-        "title": "Films tendance",
+        "title": "Films du moment",
         "sources": [
           {
-            "title": "Films tendance",
+            "title": "Films du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70275,7 +70275,7 @@
             "name": "Tous"
           },
           {
-            "title": "Films d'action tendance",
+            "title": "Films d'action du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70294,7 +70294,7 @@
             "name": "Action"
           },
           {
-            "title": "Films d'aventure tendance",
+            "title": "Films d'aventure du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70349,7 +70349,7 @@
             "name": "Comédie"
           },
           {
-            "title": "Films policiers tendance",
+            "title": "Films policiers du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70385,7 +70385,7 @@
             "name": "Documentaire"
           },
           {
-            "title": "Films dramatiques tendance",
+            "title": "Films dramatiques du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70404,7 +70404,7 @@
             "name": "Drame"
           },
           {
-            "title": "Films familiaux tendance",
+            "title": "Films familiaux du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70440,7 +70440,7 @@
             "name": "Fantastique"
           },
           {
-            "title": "Films historiques tendance",
+            "title": "Films historiques du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70459,7 +70459,7 @@
             "name": "History"
           },
           {
-            "title": "Films d'horreur tendance",
+            "title": "Films d'horreur du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70478,7 +70478,7 @@
             "name": "Horreur"
           },
           {
-            "title": "Films musicaux tendance",
+            "title": "Films musicaux du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70497,7 +70497,7 @@
             "name": "Musique"
           },
           {
-            "title": "Films policiers tendance",
+            "title": "Films policiers du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70516,7 +70516,7 @@
             "name": "Mystère"
           },
           {
-            "title": "Films romantiques tendance",
+            "title": "Films romantiques du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70537,7 +70537,7 @@
             "name": "Romance"
           },
           {
-            "title": "Films de science-fiction tendance",
+            "title": "Films de science-fiction du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70556,7 +70556,7 @@
             "name": "Science-fiction"
           },
           {
-            "title": "Films à suspense tendance",
+            "title": "Films à suspense du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70577,7 +70577,7 @@
             "name": "Thriller"
           },
           {
-            "title": "Films de guerre tendance",
+            "title": "Films de guerre du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70596,7 +70596,7 @@
             "name": "Guerre"
           },
           {
-            "title": "Films occidentaux tendance",
+            "title": "Films occidentaux du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70615,7 +70615,7 @@
             "name": "Western"
           },
           {
-            "title": "Films d'action tendance",
+            "title": "Films d'action du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70628,7 +70628,7 @@
             "tmdbSourceType": "DISCOVER"
           },
           {
-            "title": "Films d'aventure tendance",
+            "title": "Films d'aventure du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70667,7 +70667,7 @@
             "tmdbSourceType": "DISCOVER"
           },
           {
-            "title": "Films policiers tendance",
+            "title": "Films policiers du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70693,7 +70693,7 @@
             "tmdbSourceType": "DISCOVER"
           },
           {
-            "title": "Films dramatiques tendance",
+            "title": "Films dramatiques du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70706,7 +70706,7 @@
             "tmdbSourceType": "DISCOVER"
           },
           {
-            "title": "Films familiaux tendance",
+            "title": "Films familiaux du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70732,7 +70732,7 @@
             "tmdbSourceType": "DISCOVER"
           },
           {
-            "title": "Films historiques tendance",
+            "title": "Films historiques du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70745,7 +70745,7 @@
             "tmdbSourceType": "DISCOVER"
           },
           {
-            "title": "Films d'horreur tendance",
+            "title": "Films d'horreur du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70758,7 +70758,7 @@
             "tmdbSourceType": "DISCOVER"
           },
           {
-            "title": "Films musicaux tendance",
+            "title": "Films musicaux du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70771,7 +70771,7 @@
             "tmdbSourceType": "DISCOVER"
           },
           {
-            "title": "Films policiers tendance",
+            "title": "Films policiers du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70784,7 +70784,7 @@
             "tmdbSourceType": "DISCOVER"
           },
           {
-            "title": "Films romantiques tendance",
+            "title": "Films romantiques du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70797,7 +70797,7 @@
             "tmdbSourceType": "DISCOVER"
           },
           {
-            "title": "Films de science-fiction tendance",
+            "title": "Films de science-fiction du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70810,7 +70810,7 @@
             "tmdbSourceType": "DISCOVER"
           },
           {
-            "title": "Films à suspense tendance",
+            "title": "Films à suspense du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70823,7 +70823,7 @@
             "tmdbSourceType": "DISCOVER"
           },
           {
-            "title": "Films de guerre tendance",
+            "title": "Films de guerre du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70836,7 +70836,7 @@
             "tmdbSourceType": "DISCOVER"
           },
           {
-            "title": "Films occidentaux tendance",
+            "title": "Films occidentaux du moment",
             "sortBy": "popularity.desc",
             "tmdbId": null,
             "filters": {
@@ -70862,7 +70862,7 @@
       },
       {
         "id": "folder-4a9b21f7",
-        "title": "Télévision tendance",
+        "title": "Séries du moment",
         "sources": [
           {
             "title": "Séries du moment",
@@ -72177,7 +72177,7 @@
       },
       {
         "id": "folder-SPOTPOWE",
-        "title": "La centrale électrique",
+        "title": "Le studio incontournable",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "focusGlowEnabled": true,
@@ -72189,8 +72189,8 @@
         "catalogSources": [],
         "sources": [
           {
-            "title": "La centrale électrique : A24",
-            "name": "La centrale électrique",
+            "title": "Le studio incontournable : A24",
+            "name": "Le studio incontournable",
             "genre": "Tous",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -72229,7 +72229,7 @@
       },
       {
         "id": "folder-SPOTPULS",
-        "title": "Le pouls culturel",
+        "title": "Au cœur de la culture",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "focusGlowEnabled": true,
@@ -72241,8 +72241,8 @@
         "catalogSources": [],
         "sources": [
           {
-            "title": "Le pouls culturel : les superproductions estivales",
-            "name": "Le pouls culturel",
+            "title": "Au cœur de la culture : les grands succès de l'été",
+            "name": "Au cœur de la culture",
             "genre": "Tous",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -72255,7 +72255,7 @@
       },
       {
         "id": "folder-SPOTPRES",
-        "title": "Le Prestige Chéri",
+        "title": "Le cinéma de prestige",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "focusGlowEnabled": true,
@@ -72267,8 +72267,8 @@
         "catalogSources": [],
         "sources": [
           {
-            "title": "Le Chéri Prestige : Cinéma Prestige",
-            "name": "Le Prestige Chéri",
+            "title": "Cinéma de prestige : les incontournables",
+            "name": "Le cinéma de prestige",
             "genre": "Tous",
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -72307,7 +72307,7 @@
       },
       {
         "id": "folder-SPOTRETR",
-        "title": "Rembobinage rétro",
+        "title": "Nostalgie rétro",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "focusGlowEnabled": true,
@@ -72319,8 +72319,8 @@
         "catalogSources": [],
         "sources": [
           {
-            "title": "Retro Rewind : nostalgie de la science-fiction des années 80",
-            "name": "Rembobinage rétro",
+            "title": "Nostalgie rétro : la science-fiction des années 1980",
+            "name": "Nostalgie rétro",
             "genre": "Tous",
             "provider": "tmdb",
             "mediaType": "MOVIE",
