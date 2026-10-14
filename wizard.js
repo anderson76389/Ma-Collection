@@ -662,12 +662,6 @@
 
   let aioTutorialIndex = 0;
 
-  // Torbox API keys are UUIDs. We can't ping Torbox from a static page (their
-  // API blocks cross-site browser calls), so this is a shape check — it catches
-  // typos / partial pastes, and the write itself is verified against Nuvio.
-  const TORBOX_KEY_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
-  function isTorboxKeyShape(k) { return TORBOX_KEY_RE.test(String(k || '').trim()); }
-
   // Many addon sites hand out a "stremio://" one-click-install link (their
   // "copy install URL" button) rather than a plain fetchable "https://" one -
   // both point at the exact same manifest, "stremio://" is just a URI scheme
@@ -1472,13 +1466,14 @@
     placementOrder: null,      // final row order (existing + incoming category ids), user-arranged
     placementMode: 'merge',    // 'merge' | 'overwrite' — how to write to an existing profile
     targetProfileId: null,     // profile the streaming setup writes to
-    torboxKey: '',
+    allDebridKey: '',
+    realDebridKey: '',
+    preferredDebridProvider: 'alldebrid',
     aioManifestUrl: '',        // manifest URL the visitor pastes back from AIO Metadata
     addonChoices: null,        // [{ name, url, checked }] — built lazily from SUGGESTED_ADDONS
     streamingApplied: false,   // whether the user ran the streaming setup
-    torboxApplied: false,      // whether a Torbox key was actually written
+    debridApplied: false,      // uniquement si l'extension a été installée
     streamWarned: false,       // shown the "scrapers without a key" heads-up yet
-    torboxShapeWarned: false,  // shown the "key looks wrong" heads-up yet
     prefill: null,             // settings handed in from the Quick editor (one-shot)
     resultProfileName: '',
     // For the finish summary:
@@ -1491,7 +1486,7 @@
     avatarApplied: false,
     errorMsg: '',
     devices: [],               // ['tv'] | ['mobile'] | ['tv','mobile']
-    streamingSubStep: null,    // 'prompt' | 'torbox' | 'addons'
+    streamingSubStep: null,    // 'prompt' | 'debrid' | 'addons'
     streamingShowAddons: false,
     scraperConfig: null,       // lazy-initialized scraper settings (preset + overrides)
     tmdbKey: '',
@@ -1600,46 +1595,23 @@
 
   
   function peekVaultFields() {
-    const debridIsTorbox = !state.aioDebridType || state.aioDebridType === 'torbox';
-    const tmdb = state.tmdbKey || state.aioTmdbKey || '';
-    const torbox = state.torboxKey || (debridIsTorbox ? (state.aioDebridKey || '') : '') || '';
-    const debrid = state.aioDebridKey || (debridIsTorbox ? torbox : '') || '';
-    return {
-      keys: {
-        torboxKey: torbox,
-        tmdbKey: tmdb,
-        mdblistKey: state.mdblistKey || '',
-        forYouMdblistKey: state.forYouMdblistKey || '',
-        nuvioEmail: state.email || '',
-        nuvioPassword: state.password || '',
-        aioRpdbKey: state.aioRpdbKey || '',
-        aioDebridKey: debrid,
-        aioDebridType: state.aioDebridType || '',
-        aioTmdbKey: state.aioTmdbKey || tmdb,
-        traktTokensByHost: Object.assign({}, state.traktTokensByHost || {}),
-        // Keep last-used flat token for older vaults / current session convenience
-        aioTraktToken: state.aioTraktToken || '',
-        _traktAuthHost: state._traktAuthHost || '',
-      },
-      prefs: {
-        email: state.email || '',
-        profileName: state.profileName || '',
-        setupMode: state.setupMode || '',
-      },
-    };
+    const tmdb=state.tmdbKey||state.aioTmdbKey||'';
+    return {keys:{
+      allDebridKey:state.allDebridKey||'',realDebridKey:state.realDebridKey||'',
+      preferredDebridProvider:state.preferredDebridProvider||'alldebrid',
+      tmdbKey:tmdb,mdblistKey:state.mdblistKey||'',forYouMdblistKey:state.forYouMdblistKey||'',
+      nuvioEmail:state.email||'',nuvioPassword:state.password||'',aioRpdbKey:state.aioRpdbKey||'',
+      aioDebridKey:state.aioDebridKey||'',aioDebridType:state.aioDebridType||'alldebrid',
+      aioTmdbKey:state.aioTmdbKey||tmdb,traktTokensByHost:Object.assign({},state.traktTokensByHost||{}),
+      aioTraktToken:state.aioTraktToken||'',_traktAuthHost:state._traktAuthHost||''
+    },prefs:{email:state.email||'',profileName:state.profileName||'',setupMode:state.setupMode||''}};
   }
-
-  // Native Torbox/TMDB screens and AIO Streams screens use different state
-  // fields historically. Autosave stores one shared value — keep both sides
-  // filled so either wizard path autofills.
   function syncSharedWizardKeys() {
-    if (state.tmdbKey && !state.aioTmdbKey) state.aioTmdbKey = state.tmdbKey;
-    if (state.aioTmdbKey && !state.tmdbKey) state.tmdbKey = state.aioTmdbKey;
-    const debridIsTorbox = !state.aioDebridType || state.aioDebridType === 'torbox';
-    if (debridIsTorbox) {
-      if (state.torboxKey && !state.aioDebridKey) state.aioDebridKey = state.torboxKey;
-      if (state.aioDebridKey && !state.torboxKey) state.torboxKey = state.aioDebridKey;
-    }
+    if(state.tmdbKey&&!state.aioTmdbKey)state.aioTmdbKey=state.tmdbKey;
+    if(state.aioTmdbKey&&!state.tmdbKey)state.tmdbKey=state.aioTmdbKey;
+    if(!['alldebrid','realdebrid'].includes(state.aioDebridType))state.aioDebridType='alldebrid';
+    const field=state.aioDebridType==='realdebrid'?'realDebridKey':'allDebridKey';
+    if(state[field]&&!state.aioDebridKey)state.aioDebridKey=state[field];
   }
 
   function applyVaultFields(data) {
@@ -1649,14 +1621,18 @@
     const setIf = (field, val) => {
       if (val != null && String(val).length) state[field] = String(val);
     };
-    setIf('torboxKey', keys.torboxKey);
+    setIf('allDebridKey', keys.allDebridKey);
+    setIf('realDebridKey', keys.realDebridKey);
+    if(keys.preferredDebridProvider==='realdebrid')state.preferredDebridProvider='realdebrid';
     setIf('tmdbKey', keys.tmdbKey || keys.aioTmdbKey);
     setIf('aioTmdbKey', keys.aioTmdbKey || keys.tmdbKey);
     setIf('mdblistKey', keys.mdblistKey);
     setIf('forYouMdblistKey', keys.forYouMdblistKey);
     setIf('aioRpdbKey', keys.aioRpdbKey);
-    setIf('aioDebridType', keys.aioDebridType);
-    setIf('aioDebridKey', keys.aioDebridKey || keys.torboxKey);
+    if(keys.aioDebridType==='alldebrid'||keys.aioDebridType==='realdebrid'){
+      state.aioDebridType=keys.aioDebridType;
+      setIf('aioDebridKey',keys.aioDebridKey);
+    }
     // Nuvio login for auto-import (optional; encrypted vault only)
     if (keys.nuvioEmail != null && String(keys.nuvioEmail).length) state.email = String(keys.nuvioEmail);
     else setIf('email', prefs.email);
@@ -1719,7 +1695,9 @@
                : (opts && opts.flow === 'collection-only') ? 'collection-only'
                : 'collection';
     state.errorMsg = '';
-    state.torboxKey = '';
+    state.allDebridKey = '';
+    state.realDebridKey = '';
+    state.preferredDebridProvider = 'alldebrid';
     state.aioDebridKey = '';
     state.aioTmdbKey = '';
     state.aioManifestUrl = '';
@@ -1727,9 +1705,8 @@
     state._lastAioUrlWarned = null;
     state.addonChoices = null;
     state.streamingApplied = false;
-    state.torboxApplied = false;
+    state.debridApplied = false;
     state.streamWarned = false;
-    state.torboxShapeWarned = false;
     state.aioTraktWarned = false;
     state.targetProfileId = null;
     state.accountAction = '';
@@ -1897,7 +1874,8 @@
   // terms in one sentence doesn't turn into a row of badges.
   const GLOSSARY = {
     trakt: 'Trakt tracks what you watch and builds personalized recommendation lists. Free account at trakt.tv.',
-    torbox: 'Torbox is a paid "debrid" service that fetches and streams files instantly instead of torrenting.',
+    alldebrid: 'AllDebrid est le fournisseur prioritaire de débridage via une extension.',
+    realdebrid: 'Real-Debrid est le deuxième fournisseur possible via une extension.',
     debrid: 'A debrid service downloads/streams files on fast servers so you never wait on a torrent.',
     rpdb: 'RPDB (Ratings Poster Database) overlays star ratings directly on movie/show posters.',
     aiometadata: 'AIO Metadata is a community service that builds your personalized "For You" catalog from Trakt.',
@@ -1914,11 +1892,11 @@
   };
   // Reading order for the help drawer: the words you meet first, first — not
   // alphabetical, which would open on "AIO Metadata".
-  const GLOSSARY_ORDER = ['addon', 'catalog', 'manifest', 'scraper', 'debrid', 'torbox',
+  const GLOSSARY_ORDER = ['addon', 'catalog', 'manifest', 'scraper', 'debrid', 'alldebrid', 'realdebrid',
     'trakt', 'mdblist', 'bingecat', 'tmdb', 'rpdb', 'syncribullet', 'native', 'aiometadata', 'aiostreams'];
   const GLOSSARY_TITLES = {
     addon: 'Addon', catalog: 'Catalog', manifest: 'Manifest URL', scraper: 'Scraper',
-    debrid: 'Debrid', torbox: 'Torbox', trakt: 'Trakt', mdblist: 'MDBList',
+    debrid: 'Debrid', alldebrid: 'AllDebrid', realdebrid: 'Real-Debrid', trakt: 'Trakt', mdblist: 'MDBList',
     bingecat: 'Bingecat AI', tmdb: 'TMDB', rpdb: 'RPDB', syncribullet: 'Syncribullet',
     native: 'Native Mode', aiometadata: 'AIO Metadata', aiostreams: 'AIO Streams',
   };
@@ -2095,7 +2073,7 @@
           <span class="wiz-mode-expander-caret" id="wiz-mode-expander-caret">▾</span>
         </button>
         <div class="wiz-mode-expander-body" id="wiz-mode-expander-body" style="display:none;">
-          <p><strong>Native Mode</strong> — ${glossaryTip('trakt', 'Trakt')} is natively integrated and ${glossaryTip('torbox', 'Torbox')} is configured for streaming; ${glossaryTip('aiometadata', 'AIO Metadata')} is only used for "For You" lists. Faster, easier, and nothing third-party to maintain or go stale on you. Note: this wizard's Trakt step only powers "For You" — to enable Trakt scrobbling/watch history in Nuvio itself, connect it separately in Nuvio's own Settings → Integrations.</p>
+          <p><strong>Native Mode</strong> — ${glossaryTip('trakt', 'Trakt')} is natively integrated et ${glossaryTip('alldebrid', 'AllDebrid')} ou ${glossaryTip('realdebrid', 'Real-Debrid')} sont utilisés via les extensions configurées ; ${glossaryTip('aiometadata', 'AIO Metadata')} is only used for "For You" lists. Faster, easier, and nothing third-party to maintain or go stale on you. Note: this wizard's Trakt step only powers "For You" — to enable Trakt scrobbling/watch history in Nuvio itself, connect it separately in Nuvio's own Settings → Integrations.</p>
           <p><strong>AIO Streams Mode</strong> — routes ${glossaryTip('debrid', 'Debrid')} services, ${glossaryTip('rpdb', 'RPDB')} (Ratings Posters), and distributed ${glossaryTip('aiometadata', 'AIO Metadata')} instances through a unified ${glossaryTip('aiostreams', 'AIO Streams')} backend. Pick this for ratings-poster integration, additional scrapers beyond Torrentio, broader metadata sources, and more control over how everything is configured.</p>
         </div>
       </div>`;
@@ -6224,14 +6202,13 @@
     close,
     generateSelfHostExport,
     SUGGESTED_ADDONS,
-    isTorboxKeyShape,
-    torboxStatusHtml,
     checkManifestAlive,
     // Shared with app.js so the Quick Editor explains the same jargon the
     // same way the wizard does, from one definition list.
     GLOSSARY,
     glossaryTip,
-    testTorboxKeyLive,
+    testAllDebridKeyLive,
+    testRealDebridKeyLive,
     testTmdbKeyLive,
     testMdblistKeyLive,
   };
