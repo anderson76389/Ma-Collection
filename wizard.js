@@ -687,6 +687,15 @@
     try {
       const res = await fetch(url, { method: 'GET', signal: AbortSignal.timeout(5000) });
       if (!res.ok) return { ok: false, reason: `That manifest URL returned HTTP ${res.status}. Double-check the link.` };
+      // Un serveur peut répondre HTTP 200 avec du HTML (page de connexion,
+      // accueil, erreur). Seul un véritable manifest Stremio est valide.
+      let manifest;
+      try { manifest = await res.json(); }
+      catch (_) { return { ok: false, reason: 'Le lien ne renvoie pas un manifest JSON valide.' }; }
+      if (!manifest || typeof manifest.id !== 'string' || !manifest.id.trim() ||
+          (!Array.isArray(manifest.resources) && !Array.isArray(manifest.catalogs))) {
+        return { ok: false, reason: 'Ce JSON ne semble pas être un manifest d’extension Stremio.' };
+      }
       return { ok: true };
     } catch (e) {
       return { ok: null, reason: `Couldn't verify that manifest link (could just be a CORS-blocked or slow server). Tap "Add Addon" again to add it anyway.` };
