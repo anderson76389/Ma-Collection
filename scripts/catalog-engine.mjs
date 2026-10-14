@@ -164,7 +164,7 @@ async function main() {
     const metas = prepareMetas(results, type);
     if (!metas.length) return false;
     outputs.set("catalog/" + type + "/" + id + ".json", { metas });
-    const descriptor = entry(type, id, label);
+    const descriptor = entry(type, id, label.replace(/&(?:amp;)?/g, " Et ").replace(/ {2,}/g, " "));
     catalogs.push(descriptor);
     if (isEssential) essentials.push(descriptor);
     return true;
