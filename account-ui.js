@@ -158,8 +158,6 @@
       'account-key-realdebrid': keys.realDebridKey || '',
       'account-key-tmdb': keys.tmdbKey || '',
       'account-key-mdblist': keys.mdblistKey || keys.forYouMdblistKey || '',
-      'account-key-nuvio-email': keys.nuvioEmail || prefs.email || '',
-      'account-key-nuvio-password': keys.nuvioPassword || '',
       'account-key-rpdb': keys.aioRpdbKey || '',
       'account-key-debrid': keys.aioDebridKey || '',
     };
@@ -176,8 +174,6 @@
       tmdbKey: (($('account-key-tmdb') || {}).value || '').trim(),
       mdblistKey: (($('account-key-mdblist') || {}).value || '').trim(),
       forYouMdblistKey: (($('account-key-mdblist') || {}).value || '').trim(),
-      nuvioEmail: (($('account-key-nuvio-email') || {}).value || '').trim(),
-      nuvioPassword: (($('account-key-nuvio-password') || {}).value || ''),
       aioRpdbKey: (($('account-key-rpdb') || {}).value || '').trim(),
       aioDebridKey: (($('account-key-debrid') || {}).value || '').trim(),
     };
@@ -185,7 +181,7 @@
 
   async function applyKeysAndSave() {
     const keys = readKeysForm();
-    const prefs = { email: keys.nuvioEmail || '' };
+    const prefs = {};
     if (window.MaCollectionAccountBridge && typeof window.MaCollectionAccountBridge.apply === 'function') {
       await window.MaCollectionAccountBridge.apply({ keys: keys, collection: {}, prefs: prefs });
     } else if (window.NuvioWizard && typeof window.NuvioWizard.applyVaultFields === 'function') {
