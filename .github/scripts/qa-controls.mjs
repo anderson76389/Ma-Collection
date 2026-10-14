@@ -113,8 +113,15 @@ try {
     assert.equal(await page.locator("#destination-overlay").evaluate(n=>n.hidden),false);
     await page.locator("#destination-nuvio").click();
     assert.equal(await page.locator("#mc-import-studio").evaluate(n=>n.hidden),false);
-    for(let step=0;step<7;step++)await page.locator("#mc-import-next").click();
+    await page.locator("#mc-import-next").click(); // Catalogues → affiches
+    await page.locator("#mc-import-next").click(); // Affiches → métadonnées
+    await page.locator("#mc-tmdb").fill("qa-key-tmdb");
+    await page.locator("#mc-mdblist").fill("qa-key-mdblist");
+    for(let step=0;step<5;step++)await page.locator("#mc-import-next").click();
     await page.waitForFunction(()=>document.querySelector("#wizard-overlay")?.classList.contains("open"),{timeout:15000});
+    const prefilled=await page.evaluate(()=>window.NuvioWizard.peekVaultFields().keys);
+    assert.equal(prefilled.tmdbKey,"qa-key-tmdb");
+    assert.equal(prefilled.mdblistKey,"qa-key-mdblist");
     await page.evaluate(()=>window.NuvioWizard.close());
     assert(!(await page.locator("#wizard-overlay").evaluate(n=>n.classList.contains("open"))));
   });
@@ -137,12 +144,32 @@ try {
     await page.locator("#destination-kovelyx").click();
     assert.equal(await page.locator("#destination-overlay").evaluate(n=>n.hidden),true);
     assert.equal(await page.locator("#mc-import-studio").evaluate(n=>n.hidden),false);
-    for(let step=0;step<7;step++)await page.locator("#mc-import-next").click();
+    await page.locator("#mc-import-next").click(); // Catalogues → affiches
+    await page.locator("#mc-art-cover").fill("https://example.org/personnalise.jpg");
+    await page.locator("#mc-art-cover").dispatchEvent("change");
+    await page.locator("#mc-import-next").click(); // Affiches → clés
+    await page.locator("#mc-tmdb").fill("qa-kovelyx-tmdb");
+    await page.locator("#mc-mdblist").fill("qa-kovelyx-mdblist");
+    await page.locator("#mc-import-next").click(); // Clés → affiches notées
+    await page.locator("#mc-poster-provider").selectOption("rpdb");
+    await page.locator("#mc-import-next").click(); // Affiches notées → débridage
+    await page.locator("#mc-rd").fill("qa-kovelyx-realdebrid");
+    await page.locator("#mc-import-next").click(); // Débridage → extensions
+    await page.locator("#mc-addon-manifests").fill("https://example.org/manifest.json");
+    await page.locator("#mc-import-next").click(); // Extensions → confirmation
+    await page.locator("#mc-import-next").click(); // Confirmation → dialogue Kovelyx
     assert.equal(await page.locator("#kovelyx-export-overlay").evaluate(n=>n.hidden),false);
     await page.locator("#kovelyx-export-direct").click();
     await page.waitForFunction(()=>document.querySelector("#kovelyx-export-status")?.textContent.includes("Sélection envoyée"),{timeout:15000});
     assert.equal(directImports.length,1,"Un unique transfert local doit être envoyé");
-    assert(directImports[0].every(c=>c.id&&c.title&&Array.isArray(c.folders)));
+    const incoming=directImports[0];
+    assert.equal(incoming.settings.tmdbKey,"qa-kovelyx-tmdb");
+    assert.equal(incoming.settings.mdblistKey,"qa-kovelyx-mdblist");
+    assert.equal(incoming.settings.realDebridKey,"qa-kovelyx-realdebrid");
+    assert.equal(incoming.settings.posterProvider,"rpdb");
+    assert.deepEqual(incoming.settings.addonManifests,["https://example.org/manifest.json"]);
+    assert(incoming.collections.every(c=>c.id&&c.title&&Array.isArray(c.folders)));
+    assert(incoming.collections.some(c=>(c.folders||[]).some(f=>f.coverImageUrl==="https://example.org/personnalise.jpg")));
     await page.unroute("http://127.0.0.1:38761/import");
     await page.locator("#kovelyx-export-close").click();
     assert.equal(await page.locator("#btn-export-kovelyx").count(),1);
@@ -153,6 +180,8 @@ try {
     const payload=JSON.parse(await page.evaluate(()=>window.MaCollectionKovelyx.buildExport()));
     assert(payload.length>=10);
     assert(payload.every(c=>c.id&&c.title&&Array.isArray(c.folders)));
+    assert(!JSON.stringify(payload).includes("qa-kovelyx-tmdb"));
+    assert(!JSON.stringify(payload).includes("qa-kovelyx-realdebrid"));
     // Tester un véritable clic et le contenu transmis à l'API Clipboard.
     await page.evaluate(()=>{
       window.__kovelyxClipboardTest=null;
