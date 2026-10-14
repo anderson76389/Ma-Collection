@@ -113,7 +113,7 @@ try {
     assert.equal(await page.locator("#destination-overlay").evaluate(n=>n.hidden),false);
     await page.locator("#destination-nuvio").click();
     assert.equal(await page.locator("#mc-import-studio").evaluate(n=>n.hidden),false);
-    for(let step=0;step<6;step++)await page.locator("#mc-import-next").click();
+    for(let step=0;step<7;step++)await page.locator("#mc-import-next").click();
     await page.waitForFunction(()=>document.querySelector("#wizard-overlay")?.classList.contains("open"),{timeout:15000});
     await page.evaluate(()=>window.NuvioWizard.close());
     assert(!(await page.locator("#wizard-overlay").evaluate(n=>n.classList.contains("open"))));
@@ -137,8 +137,9 @@ try {
     await page.locator("#destination-kovelyx").click();
     assert.equal(await page.locator("#destination-overlay").evaluate(n=>n.hidden),true);
     assert.equal(await page.locator("#mc-import-studio").evaluate(n=>n.hidden),false);
-    for(let step=0;step<6;step++)await page.locator("#mc-import-next").click();
+    for(let step=0;step<7;step++)await page.locator("#mc-import-next").click();
     assert.equal(await page.locator("#kovelyx-export-overlay").evaluate(n=>n.hidden),false);
+    await page.locator("#kovelyx-export-direct").click();
     await page.waitForFunction(()=>document.querySelector("#kovelyx-export-status")?.textContent.includes("Sélection envoyée"),{timeout:15000});
     assert.equal(directImports.length,1,"Un unique transfert local doit être envoyé");
     assert(directImports[0].every(c=>c.id&&c.title&&Array.isArray(c.folders)));
@@ -147,7 +148,7 @@ try {
     assert.equal(await page.locator("#btn-export-kovelyx").count(),1);
     await page.locator("#btn-export-kovelyx").click();
     assert.equal(await page.locator("#mc-import-studio").evaluate(n=>n.hidden),false);
-    for(let step=0;step<6;step++)await page.locator("#mc-import-next").click();
+    for(let step=0;step<7;step++)await page.locator("#mc-import-next").click();
     assert.equal(await page.locator("#kovelyx-export-overlay").evaluate(n=>n.hidden),false);
     const payload=JSON.parse(await page.evaluate(()=>window.MaCollectionKovelyx.buildExport()));
     assert(payload.length>=10);
