@@ -1,7 +1,7 @@
 /* Traduction du texte d'interface. Aucun média, lien ou identifiant n'est modifié. */
 (() => {
   "use strict";
-  const dictionaries = ["locales/fr.json?v=20", "locales/site-fr.json?v=26"];
+  const dictionaries = ["locales/fr.json?v=22", "locales/site-fr.json?v=26"];
   const blocked = "script,style,noscript,code,pre,textarea,[contenteditable],[contenteditable='true'],img,picture,video,audio,source,track,canvas,svg,object,embed,iframe,[data-no-translate]";
   const textAttributes = ["placeholder", "title", "aria-label", "data-tip"];
   const dict = Object.create(null);
@@ -11,15 +11,14 @@
     return !parent || Boolean(parent.closest(blocked));
   }
 
-  // Ne supprimer que les répétitions réelles, sans retirer les types de médias utiles.
+  // Les textes d'interface restent inchangés ; les titres de médias sont
+  // harmonisés même si un composant les ajoute dynamiquement après chargement.
   function removeDuplicateLabel(value) {
-    return value
-      .replace(/\b(Films|Séries|Animés)\s*[-–—:]\s*\1\b/gi, "$1")
-      .replace(/\b(Films|Séries|Animés)\s*\(\s*(Films|Séries|Animés)\s*\)/gi,
-        (match, word, type) => word.toLocaleLowerCase("fr") === type.toLocaleLowerCase("fr")
-          ? "(" + type + ")" : match)
-      .replace(/\b(Films|Séries|Animés)\s+\1\b/gi, "$1")
-      .replace(/\(\s*(Films|Séries|Animés)\s*\)\s*\(\s*\1\s*\)/gi, "($1)");
+    if (!window.MaCollectionFrenchLabels) return value;
+    const hasMediaParenthesis=/\(\s*(?:Films?|Séries?|Animés?|Animes?|Movies?|Series)\s*\)/i.test(value);
+    const mediaGenre=/^(?:(?:Action|Drama|Comedy|Horror|Sci-Fi|Animation|Romance|Thriller|Aventure|Adventure)\s+(?:Films?|Movies?|Séries?|Series)|(?:Films?|Movies?|Séries?|Series)\s+(?:Action|Drama|Comedy|Horror|Sci-Fi|Animation|Romance|Thriller|Aventure|Adventure))$/i.test(value);
+    return hasMediaParenthesis||mediaGenre
+      ? window.MaCollectionFrenchLabels.naturalizeTitle(value) : value;
   }
 
   function ampersandToEt(value) {
