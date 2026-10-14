@@ -1690,6 +1690,9 @@
                : (opts && opts.flow === 'collection-only') ? 'collection-only'
                : 'collection';
     state.errorMsg = '';
+    state._importCustomizerUsed = false;
+    state.aioPosterService = 'rpdb';
+    state.aioRpdbTheme = 't0-free-rpdb';
     state.allDebridKey = '';
     state.realDebridKey = '';
     state.preferredDebridProvider = 'alldebrid';
@@ -1758,6 +1761,32 @@
       }
     } catch (e) {}
     if (state.prefill && state.prefill.profileName) state.profileName = String(state.prefill.profileName).trim() || DEFAULT_PROFILE_NAME;
+
+    if(pendingImportSetup){
+      const x=pendingImportSetup;
+      pendingImportSetup=null;
+      state.tmdbKey=x.tmdbKey||state.tmdbKey;
+      state.aioTmdbKey=state.tmdbKey;
+      state.mdblistKey=x.mdblistKey||state.mdblistKey;
+      state.allDebridKey=x.debrid?.allDebridKey||"";
+      state.realDebridKey=x.debrid?.realDebridKey||"";
+      state.preferredDebridProvider=x.debrid?.preferred||"alldebrid";
+      state.aioDebridType=state.preferredDebridProvider;
+      state.aioDebridKey=state.aioDebridType==="realdebrid"?state.realDebridKey:state.allDebridKey;
+      const p=x.poster||{};
+      if(["none","rpdb","bttr","top"].includes(p.provider))state.aioPosterService=p.provider;
+      if(p.theme)state.aioRpdbTheme=p.theme;
+      if(p.rpdbKey)state.aioRpdbKey=p.rpdbKey;
+      if(p.topKey)state.aioTopPosterKey=p.topKey;
+      state.bttrQuality=p.bttrQuality!==false;
+      state.bttrGenre=p.bttrGenre!==false;
+      state.bttrRating=p.bttrRating!==false;
+      state.bttrLanguage=p.language||"fr";
+      const userAddons=(x.addons||[]).filter(a=>a?.url&&!String(a.name||"").startsWith("Torrentio —"));
+      if(userAddons.length)state.addonChoices=userAddons.map(a=>({name:a.name,url:a.url,checked:true,verified:false}));
+      if(x.aioStreams)state.setupMode="aio";
+      state._importCustomizerUsed=true;
+    }
     // Routing: collection-only → straight to account (no device or streaming steps).
     // starter → straight to account (streaming-only, no collection or device question).
     // collection + skipChoose → devices step first (asks TV/Mobile before account).
@@ -2078,6 +2107,10 @@
     // collection - a visitor who deselected it in the picker shouldn't be
     // asked to wire up a recommendation service they'll never see.
     el('wiz-pick-native').addEventListener('click', () => {
+      if (state._importCustomizerUsed && state.aioPosterService !== 'none') {
+        showToast('Les affiches personnalisées choisies nécessitent AIO Streams. Sélectionnez ce mode pour réellement les appliquer.', 'warning');
+        return;
+      }
       state.setupMode = 'native';
       if (hasForYouFolder()) go('for-you');
       else goToStreaming();
@@ -6149,7 +6182,16 @@
   }
 
   // Expose shared bits so the Quick editor can reuse them instead of duplicating.
+
+  // Préférences venues du parcours commun, à injecter APRÈS la
+  // réinitialisation normale effectuée par open(). Ne jamais les persister
+  // en clair sur le site.
+  let pendingImportSetup = null;
+  function applyImportSetup(settings) {
+    if(settings && settings.version===1)pendingImportSetup=structuredClone(settings);
+  }
   window.NuvioWizard = {
+    applyImportSetup,
     peekVaultFields,
     applyVaultFields,
     open,
