@@ -24,8 +24,8 @@ async function buildPage({width,height}) {
   });
   await page.goto(origin,{waitUntil:"domcontentloaded",timeout:60000});
   await page.waitForFunction(()=>Boolean(window.MaCollectionExport?.assembleFilteredDatabase &&
-      Array.isArray(window.database) && window.database.length>0 &&
-      window.NuvioWizard?.open && window.startCustomize),{timeout:60000});
+      document.documentElement.lang === "fr" &&
+      document.body.textContent.includes("Configurer et envoyer à Nuvio")),{timeout:60000});
   return {page,jsErrors,localErrors};
 }
 async function toBrowse(page) {
@@ -47,7 +47,7 @@ try {
     assert((await page.locator("#title-screen-overlay").count())===1);
     assert((await page.locator("#title-screen-import-all").count())===1);
     const counts=await page.evaluate(()=>({
-      categories:window.database?.length,
+      categories:typeof database!=="undefined" ? database.length : (window.NUVIO_DATABASE?.length || 0),
       uniqueButtons:[...document.querySelectorAll("button[id]")].length,
       duplicateButtonIds:[...document.querySelectorAll("button[id]")]
         .map(x=>x.id).filter((v,i,a)=>a.indexOf(v)!==i)
