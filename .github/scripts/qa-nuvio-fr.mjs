@@ -805,6 +805,45 @@ try {
     'Le formulaire original a été modifié avant la requête');
 
 
+
+  // Intégrations Nuvio : contrôle de la forme des paramètres envoyés puis
+  // relus. Ces requêtes sont toutes simulées ; aucune clé personnelle envoyée.
+  await page.unroute('https://api.nuvio.tv/**');
+  const deviceSettings = new Map();
+  const settingsRequests = [];
+  await page.route('https://api.nuvio.tv/**',async route=>{
+    const req=route.request();
+    const rpc=req.url().split('/').at(-1);
+    const body=JSON.parse(req.postData()||'{}');
+    const device=body.p_platform||'tv';
+    let answer=[];
+    if(rpc==='sync_pull_profile_settings_blob'){
+      if(deviceSettings.has(device)) answer=[{settings_json:deviceSettings.get(device)}];
+    }else if(rpc==='sync_push_profile_settings_blob'){
+      deviceSettings.set(device,body.p_settings_json);
+      settingsRequests.push({device,settings:body.p_settings_json});
+    }else{
+      return route.fulfill({status:400,contentType:'application/json',
+        headers:{'access-control-allow-origin':'*'},body:JSON.stringify({error:'Unexpected mocked RPC '+rpc})});
+    }
+    await route.fulfill({status:200,contentType:'application/json',
+      headers:{'access-control-allow-origin':'*','access-control-allow-headers':'*'},body:JSON.stringify(answer)});
+  });
+  await page.evaluate(async()=>window.NuvioPush.applyProfileSettings(
+    'qa-only-fake-token',9999,['tv','mobile'],
+    {torboxKey:'qa-torbox',tmdbKey:'qa-tmdb',mdblistKey:'qa-mdblist'}));
+  assert.equal(settingsRequests.length,2,'Il faut écrire les paramètres sur les deux plateformes');
+  for(const request of settingsRequests){
+    const feat=request.settings.features;
+    assert.equal(feat.debrid_settings.debrid_torbox_api_key.value,'qa-torbox');
+    assert.equal(feat.debrid_settings.debrid_enabled.value,true);
+    assert.equal(feat.debrid_settings.debrid_cloud_library_enabled.value,true);
+    assert.equal(feat.debrid_settings.debrid_preferred_resolver_provider_id.value,'torbox');
+    assert.equal(feat.tmdb_settings.tmdb_api_key.value,'qa-tmdb');
+    assert.equal(feat.mdblist_settings.mdblist_api_key.value,'qa-mdblist');
+    assert(!('torbox_api_key' in feat.debrid_settings),'Ancien nom de clé Torbox interdit');
+  }
+  console.log('QA_API_SETTINGS=forme conforme à Nuvio, deux plateformes, relecture simulée');
   await page.setViewportSize({ width: 390, height: 844 });
   assert(await page.evaluate(() => document.documentElement.lang === 'fr'), 'Français absent sur mobile');
   assert(!scriptErrors.length, 'Erreurs JavaScript : ' + scriptErrors.join('; '));
