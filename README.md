@@ -161,6 +161,14 @@ Aucune licence explicite n'est actuellement déclarée dans ce dépôt : sa visi
 
 Les rangées **Nouveaux films, Nouvelles séries, sorties récentes et nouveaux animés** utilisent des fenêtres de dates glissantes, recalculées chaque lundi. Un audit des catalogues individuels confirme **377 sources hebdomadaires** couvrant les **22 plateformes**, **68 chaînes**, **6 dossiers de télé-réalité**, ainsi que les genres, films, séries, animés, documentaires et autres nouveautés. **1 708 sources TMDB Discover supplémentaires** récupèrent leurs classements en direct. Les années historiques, récompenses, listes de tiers, affiches et GIF restent préservés. Les classements tiers ne sont pas garantis hebdomadaires et les nouvelles bornes de dates d'une configuration déjà importée dans Nuvio peuvent nécessiter une réimportation. [Détail, contrôle et limites](docs/CATALOGUES_DYNAMIQUES.md).
 
+## 🇫🇷 Moteur de catalogues FR indépendant
+
+Un **moteur hebdomadaire complémentaire** prépare des catalogues en France à partir de TMDB : plateformes disponibles dans la région FR, chaînes, télé-réalité, animés, sorties récentes, épisodes et saisons. Il surveille également un **échantillon** de disponibilités pour signaler des changements possibles et intègre les **Top 10 Netflix France officiels uniquement lorsqu'ils sont validés**.
+
+**Activation nécessaire :** ajouter votre secret GitHub Actions `TMDB_API_KEY`, puis lancer le workflow `Moteur FR Ma-Collection`. La génération publiera alors des fichiers JSON Stremio distincts des collections historiques ; elle ne réécrit aucune liste fixe, aucun média ni aucun profil Nuvio. La compatibilité avec votre version de Nuvio doit être testée après installation de l'addon.
+
+**[Documentation complète, activation et limites du moteur France](docs/MOTEUR_FR.md)**
+
 ## 📅 Top 10 Netflix France — actualisation hebdomadaire
 
 Une automatisation fondée sur les [classements hebdomadaires officiels Netflix](https://www.netflix.com/tudum/top10) est préparée pour archiver les Top 10 français. **Les listes historiques ne sont pas modifiées** ; l'affichage automatique dans Nuvio demande une configuration de deux listes TMDB personnelles. [Voir le guide de configuration et les sécurités](docs/NETFLIX_FR_AUTO.md).
