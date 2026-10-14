@@ -64,7 +64,7 @@ for(const file of localePaths){
   }
   const encoded=JSON.stringify(obj,null,2)+"\n";
   const original=await readFile(path,"utf8");
-  if(write&&stat.labels>beforeLabels&&encoded!==original){await writeFile(path,encoded,"utf8");stat.files++;}
+  if(write&&encoded!==original){await writeFile(path,encoded,"utf8");stat.files++;}
   if(!write&&JSON.stringify(obj)!==JSON.stringify(JSON.parse(original)))
     stat.unresolved.push(file+" : dictionnaire non normalisé");
 }
@@ -94,7 +94,7 @@ for(const file of [...files.map(name=>"collections/"+name),
   if(write)normalize(obj,file);
   else checkDisplay(obj,file);
   const encoded=(prefix?prefix:"")+JSON.stringify(obj,null,2)+(suffix?suffix:"\n");
-  if(write&&encoded!==original){await writeFile(path,encoded,"utf8");stat.files++;}
+  if(write&&stat.labels>beforeLabels&&encoded!==original){await writeFile(path,encoded,"utf8");stat.files++;}
 }
 if(stat.unsafe.length)throw new Error("Chaînes URL inattendues : "+stat.unsafe.join(", "));
 console.log("NORMALISATION_ET="+JSON.stringify(stat));
