@@ -58,6 +58,21 @@ for(const file of paths) {
     }
   }
 }
+// Exiger des traductions idiomatiques et éviter la suppression des précisions
+// (Films), (Séries) et (Animés), y compris dans les prochaines mises à jour.
+for(const [source,expected] of Object.entries({
+  "The Powerhouse":"Le studio incontournable",
+  "The Prestige Darling":"Le cinéma de prestige",
+  "Trending Movies":"Films du moment",
+  "Trending TV":"Séries du moment",
+})){
+  if(fr[source]!==expected)errors.push("Traduction maladroite : "+source+" → "+fr[source]);
+}
+for(const [source,output] of Object.entries(fr)){
+  if(/\b(Films|Séries|Animés)\s*\(\s*\1\s*\)/i.test(output)){
+    errors.push("Type de média répété : "+source+" → "+output);
+  }
+}
 console.log("AUDIT_FR="+JSON.stringify({...stats,noms_officiels_non_traduits:[...new Set(untouchedNames)].sort(),errors:errors.slice(0,60)},null,2));
 if(stats.sources<3700||stats.folders<700||stats.categories<19||stats.sourceFieldsVerified<6000)
   errors.push("Inventaire des catalogues incomplet");
