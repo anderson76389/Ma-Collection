@@ -10,6 +10,8 @@ on:
       - scripts/catalog-engine.mjs
       - scripts/catalog-engine-core.mjs
       - tests/catalog-engine.test.mjs
+      - tests/catalog-engine-integration.test.mjs
+      - tests/mock-tmdb.mjs
 
 permissions:
   contents: write
@@ -34,6 +36,7 @@ jobs:
           node --check scripts/catalog-engine-core.mjs
           node --check scripts/catalog-engine.mjs
           node --test tests/catalog-engine.test.mjs
+          node --test tests/catalog-engine-integration.test.mjs
           node scripts/catalog-engine.mjs --check
       - name: Vérifier les accès à TMDB
         id: keycheck
