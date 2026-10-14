@@ -250,6 +250,108 @@ async function main() {
 
   // Photos de catalogue comparées sur 2 pages par type : relevé partiel,
   // jamais présenté comme inventaire exhaustif ni comme classement officiel.
+  // Télé-réalité et animés : une série ancienne ayant un nouvel épisode ne doit
+  // pas disparaître uniquement parce que sa première diffusion est ancienne.
+  let genreEpisodeCount = 0, genreSeasonCount = 0;
+  for (const file of ["anime.json", "reality_tv.json"]) {
+    const groups = JSON.parse(await readFile(join(ROOT,"collections",file),"utf8"));
+    for (const collection of groups) for (const folder of collection.folders) {
+      const ref = (folder.sources || []).find(src => isRollingSource(collection,src) && isTv(src));
+      if (!ref) continue;
+      const filters = ref.filters || {};
+      const q = recentEpisodeParams(null,NOW);
+      for (const [local,apiName] of [
+        ["withGenres","with_genres"],["withKeywords","with_keywords"],
+        ["withoutKeywords","without_keywords"],
+        ["withOriginalLanguage","with_original_language"]
+      ]) if (filters[local]) q.set(apiName,String(filters[local]));
+      const stableId = sourceKey(collection,folder,{title:"last-air"},0);
+      try {
+        const results = await discover("/discover/tv",q);
+        if (publish(stableId,"series",collection.title+" · "+folder.title+
+          " · Épisodes récents",results,true)) genreEpisodeCount++;
+        if (results.length) {
+          const seasons = await recentSeasons(results,folder.title);
+          if (publish(stableId+"-seasons","series",collection.title+" · "+folder.title+
+            " · Nouvelles saisons",seasons,true)) genreSeasonCount++;
+        }
+      } catch(error) {
+        errors.push({catalogue:folder.title+" / saison",erreur:String(error.message).slice(0,120)});
+      }
+    }
+  }
+
+  // Fournisseurs français supplémentaires (TF1+, france.tv, M6+, ARTE, Canal+...)
+  // Découverts dans la liste TMDB plutôt que déclarés avec de faux IDs.
+  // Aucune catégorie historique n'est altérée.
+  const frenchBrand = /^(?:tf1|france.?tv|m6\+?|arte|canal\s*\+|ocs|molotov)/i;
+  const frenchProviders = new Map();
+  for (const [type,providerData] of [["movie",movieResponse],["series",tvResponse]]) {
+    for (const info of providerData.results || []) {
+      if (!frenchBrand.test(String(info.provider_name || ""))) continue;
+      if (!available[type].has(info.provider_id)) continue;
+      const record = frenchProviders.get(info.provider_id) || {name:info.provider_name,types:new Set()};
+      record.types.add(type);
+      frenchProviders.set(info.provider_id,record);
+    }
+  }
+  let frenchCatalogs = 0;
+  const twoYears=new Date(NOW);
+  twoYears.setUTCDate(twoYears.getUTCDate()-730);
+  for (const [providerId,info] of frenchProviders) {
+    for (const type of info.types) {
+      const tv = type==="series";
+      const q=new URLSearchParams({
+        language:"fr-FR",include_adult:"false",page:"1",
+        sort_by:tv?"first_air_date.desc":"primary_release_date.desc",
+        watch_region:REGION,with_watch_providers:String(providerId),
+        with_watch_monetization_types:"flatrate|free|ads"
+      });
+      q.set(tv?"first_air_date.gte":"primary_release_date.gte",twoYears.toISOString().slice(0,10));
+      try {
+        const results=await discover("/discover/"+(tv?"tv":"movie"),q);
+        if(publish("mc-native-fr-"+providerId+"-"+type,type,
+          "FR · "+info.name+" · "+(tv?"Séries récentes":"Films récents"),results,true)) frenchCatalogs++;
+      }catch(error){
+        errors.push({catalogue:"FR "+info.name,erreur:String(error.message).slice(0,120)});
+      }
+    }
+  }
+
+  // Classement officiel Netflix France : uniquement si une archive datée
+  // avec des IDs TMDB sûrs existe déjà (workflow Netflix distinct).
+  let netflixOfficial = 0;
+  try {
+    const archive = JSON.parse(await readFile(join(ROOT,"data/netflix-fr-top10.json"),"utf8"));
+    const age = Date.parse(WEEK+"T00:00:00Z")-Date.parse(archive.week+"T00:00:00Z");
+    if(Number.isFinite(age) && age>=0 && age<=21*86400000) {
+      for(const [section,type,endpoint] of [
+        ["films","movie","movie"],["series","series","tv"]
+      ]) {
+        const data=archive[section];
+        if(!Array.isArray(data) || data.length!==10 ||
+          !data.every(x=>Number.isSafeInteger(x.tmdb_id)&&x.tmdb_id>0))continue;
+        const posters=[];
+        for(const item of data) {
+          try {
+            const details=await apiRequest("/"+endpoint+"/"+item.tmdb_id,
+              new URLSearchParams({language:"fr-FR"}));
+            posters.push({...details,id:item.tmdb_id});
+          } catch(error) {
+            errors.push({catalogue:"Top 10 Netflix",erreur:String(error.message).slice(0,120)});
+          }
+        }
+        if(posters.length!==10)continue;
+        if(publish("mc-netflix-fr-officiel-"+section,type,
+          "Netflix France · Top 10 OFFICIEL "+(type==="movie"?"films":"séries"),
+          posters,true))netflixOfficial++;
+      }
+    }
+  } catch(error) {
+    if(error.code!=="ENOENT")
+      errors.push({catalogue:"Archive Netflix",erreur:String(error.message).slice(0,120)});
+  }
+
   const snapshots = {schema:1,region:REGION,week:WEEK,platforms:{}};
   const changes = [];
   for (const folder of platformFolders) {
@@ -317,7 +419,11 @@ async function main() {
     schema:1, semaine_utc:WEEK, region:REGION,
     totaux:{sources_auditees:sources.length,sources_interrogees:processed,
       catalogues_publies:catalogs.length,catalogues_essentiels:essentials.length,
-      episodes:episodeCount,saisons:seasonCount,erreurs:errors.length,
+      episodes:episodeCount,saisons:seasonCount,
+      episodes_animes_et_telerrealite:genreEpisodeCount,
+      saisons_animes_et_telerrealite:genreSeasonCount,
+      catalogues_services_fr_supplementaires:frenchCatalogs,
+      tops_netflix_officiels:netflixOfficial,erreurs:errors.length,
       fournisseurs_fr_films:available.movie.size,
       fournisseurs_fr_series:available.series.size,appels_api:calls},
     limitations: [
