@@ -118,6 +118,12 @@
     if (state.step === 0) return `
       <div class="mc-import-card"><strong>${selected.length} catégories • ${rows.length} dossiers sélectionnés</strong>
       <p>Les sélections et filtres déjà faits dans Ma-Collection sont conservés. Vous pouvez encore modifier les catalogues avant l'import.</p></div>
+      ${state.destination==="kovelyx" ? `<div class="mc-import-card"><strong>1. Choisir votre mode de connexion</strong>
+         <p>Vous pouvez utiliser Kovelyx avec ou sans compte. La connexion à un compte se fait dans Kovelyx PC pour protéger votre mot de passe.</p>
+         <div class="mc-import-form"><label>Mode d'importation<select data-key="importMode">
+           <option value="local" ${state.importMode==="local"?"selected":""}>Sans connexion — importer dans le profil local actif</option>
+           <option value="account" ${state.importMode==="account"?"selected":""}>Avec mon compte — charger mes profils synchronisés</option>
+         </select></label></div></div>` : "" }
       <button type="button" class="mc-import-action secondary" id="mc-edit-collections">✏️ Modifier les catégories et les sous-catégories</button>
       <p class="mc-import-note">Cette action ouvre la personnalisation guidée existante, puis vous ramène à cette préparation d'import.</p>`;
     if (state.step === 1) {
