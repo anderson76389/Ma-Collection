@@ -46,9 +46,10 @@ test("toutes les plateformes, chaînes et sous-catégories de télé-réalité o
 test("plus de 350 sources récentes bougent d'une semaine, les listes et médias restent figés", async () => {
   const data = await loadIndividualCategories();
   const original = structuredClone(data);
-  const changes = updateRollingWeekFilters(data, new Date("2026-10-21T12:00:00Z"));
+  updateRollingWeekFilters(data, new Date("2026-10-21T12:00:00Z"));
+  const changes = updateRollingWeekFilters(data, new Date("2026-10-28T12:00:00Z"));
   assert.ok(changes >= 350, "Couverture temporelle insuffisante : " + changes);
-  assert.equal(updateRollingWeekFilters(data, new Date("2026-10-21T15:00:00Z")), 0);
+  assert.equal(updateRollingWeekFilters(data, new Date("2026-10-28T15:00:00Z")), 0);
   for (let ci = 0; ci < data.length; ci++) {
     const now = data[ci], before = original[ci];
     assert.equal(now.id, before.id);
