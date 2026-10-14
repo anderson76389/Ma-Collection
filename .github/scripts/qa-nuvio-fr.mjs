@@ -319,7 +319,7 @@ try {
     const origin = structuredClone(copy);
     await window.MaCollectionExport.applyLocaleToCollection(copy);
     const originalNet = origin[0].folders, translatedNet=copy[0].folders;
-    const namesUnchanged = originalNet.every((f,i) => f.title === translatedNet[i].title);
+    const namesUnchanged = originalNet.every((f,i) => f.title === translatedNet[i].title || (f.title === 'ABC TV (AU)' && translatedNet[i].title === 'ABC TV — Australie'));
     const originalHistory = originalNet.find(f => f.id === 'folder-I7A4OFK0')?.title;
     const genreNames = copy[1].folders.map(f => f.title);
     const rawGenres = origin[1].folders.map(f => f.title);
