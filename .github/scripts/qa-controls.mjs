@@ -34,8 +34,11 @@ async function toBrowse(page) {
   await page.locator("#customize-close").click({timeout:15000});
   await page.waitForFunction(()=>!document.querySelector("#customize-overlay")?.classList.contains("open"),{timeout:10000});
   await page.evaluate(()=>{
-    if(typeof window.jumpToCategory!=="function")throw new Error("Navigation catégories indisponible");
-    window.jumpToCategory(1);
+    // L'accueil dirige vers l'aperçu. Pour exercer les contrôles propres
+    // à l'éditeur, basculer vers le même état que le bouton d'édition.
+    isPreviewActive = false;
+    isGuideActive = false;
+    switchCategory(0);
   });
   await page.waitForFunction(()=>document.querySelector(".top-bar")?.classList.contains("mode-browse"),{timeout:15000});
 }
