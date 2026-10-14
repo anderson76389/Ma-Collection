@@ -765,7 +765,7 @@
         <button id="destination-nuvio" type="button" class="quick-push-btn-secondary" style="text-align:left">📺 Nuvio — Envoyer vers mon compte</button>
         <button id="destination-cancel" type="button" class="quick-push-btn-secondary">Annuler</button>
       </div>
-      <p class="quick-push-desc" style="margin:15px 0 0">Kovelyx : envoi local avec confirmation dans l'application. Nuvio : connexion au compte pour l'envoi direct.</p>
+      <p class="quick-push-desc" style="margin:15px 0 0">Kovelyx : avec ou sans compte, puis choix du profil et confirmation dans l’application. Nuvio : connexion et sélection du profil depuis son assistant.</p>
     </div>
   </div>
 
@@ -774,7 +774,7 @@
     <div class="quick-push-panel" style="max-width:480px;max-height:90vh;overflow:auto">
       <div class="quick-push-icon">📋</div>
       <h3 id="kovelyx-export-title" class="quick-push-title">Exporter vers Kovelyx PC</h3>
-      <p class="quick-push-desc">Cliquez sur <strong>Importer directement</strong> pour envoyer votre sélection à Kovelyx PC. L'application s'ouvrira si elle est installée ; confirmez ensuite l'import dans Kovelyx. Ouvrez Kovelyx au moins une fois après son installation pour activer le lien direct.</p>
+      <p class="quick-push-desc">Cliquez sur <strong>Importer directement</strong> pour envoyer votre sélection à Kovelyx PC. Ouvrez d’abord Kovelyx PC. L’import se fait directement par la connexion locale, sans lien Windows kovelyx://, puis Kovelyx vous demande de confirmer le compte, le profil et le remplacement ou l’ajout.</p>
       <p class="quick-push-desc"><strong>Attention :</strong> l'import remplace les collections du profil Kovelyx actif. L'application crée une sauvegarde locale avant le remplacement. La copie ou le téléchargement JSON restent disponibles si l'envoi direct ne fonctionne pas.</p>
       <p class="quick-push-desc">Les extensions utilisées par les catalogues doivent également être installées et configurées dans Kovelyx.</p>
       <p id="kovelyx-export-status" class="quick-push-desc" role="status" aria-live="polite"></p>
@@ -1004,14 +1004,14 @@
   <script src="catalog-labels-fr.js?v=1"></script>
   <script src="debrid-services.js?v=2"></script>
   <script src="app.js?v=98.0"></script>
-  <script src="kovelyx-export.js?v=4"></script>
+  <script src="kovelyx-export.js?v=6"></script>
   <script src="nuvio-push.js?v=93.0"></script>
   <script>window.MA_COLLECTION_ASSET_VERSION = 92.4;</script>
   <script src="wizard.js?v=97.0"></script>
   <script src="account-ui.js?v=94.0"></script>
   <script src="profile-studio.js?v=93.1"></script>
   <script src="site-fr.js?v=29"></script>
-  <script src="import-studio.js?v=4"></script>
+  <script src="import-studio.js?v=6"></script>
   <script src="destination-picker.js?v=5"></script>
 </body>
 </html>
