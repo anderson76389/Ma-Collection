@@ -2885,7 +2885,7 @@
     el('wiz-aio-torbox-skip').addEventListener('click', () => afterStreaming());
     el('wiz-aio-torbox-yes').addEventListener('click', () => {
       // Reuses Native Mode's own Torbox + scraper-addons flow verbatim.
-      state.streamingSubStep = 'torbox';
+      state.streamingSubStep = 'debrid';
       go('streaming');
     });
   }
@@ -4729,7 +4729,7 @@
 
   function renderStreaming(panel) {
     const sub = state.streamingSubStep || 'prompt';
-    if (sub === 'torbox') return renderStreamingTorbox(panel);
+    if (sub === 'debrid') return renderStreamingDebrid(panel);
     if (sub === 'addons') return renderStreamingAddons(panel);
     if (sub === 'custom-addons') return renderStreamingCustomAddons(panel);
     return renderStreamingPrompt(panel);
@@ -4755,72 +4755,52 @@
       else go(hasForYouFolder() ? 'for-you' : 'mode');
     });
     el('wiz-stream-skip').addEventListener('click', () => { state.streamingApplied = false; afterStreaming(); });
-    el('wiz-stream-yes').addEventListener('click', () => { state.streamingSubStep = 'torbox'; render(); });
+    el('wiz-stream-yes').addEventListener('click', () => { state.streamingSubStep = 'debrid'; render(); });
   }
 
-  function renderStreamingTorbox(panel) {
-    syncSharedWizardKeys();
-    const showTmdb = state.devices.includes('mobile');
-    panel.innerHTML = `
-      ${header('Torbox Instant', 'Connect Torbox and streams play instantly, no per-source keys needed.', true, 'streaming')}
+  function renderStreamingDebrid(panel) {
+    const showTmdb=state.devices.includes('mobile');
+    panel.innerHTML=`
+      ${header('Services de débridage', 'AllDebrid en premier, Real-Debrid en second — via des extensions configurées.', true, 'streaming')}
       <div class="wiz-body">
-        <label class="wiz-label">Torbox API key <span class="wiz-hint">(optional)</span>
-          <span class="wiz-input-wrap">
-            <input type="text" id="wiz-torbox-key" class="wiz-input" placeholder="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx" value="${escapeAttr(state.torboxKey)}" autocomplete="off" spellcheck="false">
-            <button type="button" class="wiz-input-toggle" id="wiz-torbox-test">Test</button>
-          </span>
+        <label class="wiz-label">1. AllDebrid — prioritaire
+          <span class="wiz-input-wrap"><input type="password" id="wiz-alldebrid-key" class="wiz-input" placeholder="Clé API AllDebrid" value="${escapeAttr(state.allDebridKey||'')}" autocomplete="off">
+          <button type="button" class="wiz-input-toggle" id="wiz-alldebrid-test">Tester</button></span>
         </label>
-        <div class="wiz-key-status" id="wiz-key-status">${torboxStatusHtml(state.torboxKey)}</div>
-        ${state.devices.includes('mobile') ? `<div class="wiz-note">📱 <strong>On mobile:</strong> Torbox connects differently. After setup open the Nuvio app → Settings → Connected Services → Torbox. You'll get a short code to enter at <strong>tor.box/link</strong>.</div>` : ''}
-        <div class="wiz-torbox-promo">
-          <div class="wiz-torbox-promo-copy">
-            <span class="wiz-torbox-promo-title">Don't have Torbox yet?</span>
-            <span class="wiz-torbox-promo-text">Sign up with my link for a discount. It helps keep this project running.</span>
-          </div>
-          <a href="https://torbox.app/subscription?referral=691a76aa-4d6e-40c0-8625-ffe4e4189ae4" target="_blank" rel="noopener" class="wiz-torbox-promo-btn"><span>Get Torbox</span><span class="wiz-torbox-promo-arrow">→</span></a>
-          <a href="https://torbox.app/subscription" target="_blank" rel="noopener" class="wiz-torbox-promo-skip">or sign up without a referral code</a>
-        </div>
-        ${showTmdb ? `
-        <label class="wiz-label">TMDB API key <span class="wiz-hint">(optional, needed for Nuvio Mobile)</span>
-          <span class="wiz-input-wrap">
-            <input type="text" id="wiz-tmdb-key" class="wiz-input" placeholder="Paste your TMDB API key..." value="${escapeAttr(state.tmdbKey)}" autocomplete="off" spellcheck="false">
-            <button type="button" class="wiz-input-toggle" id="wiz-tmdb-test">Test</button>
-          </span>
+        <label class="wiz-label">2. Real-Debrid — alternative
+          <span class="wiz-input-wrap"><input type="password" id="wiz-realdebrid-key" class="wiz-input" placeholder="Clé API Real-Debrid" value="${escapeAttr(state.realDebridKey||'')}" autocomplete="off">
+          <button type="button" class="wiz-input-toggle" id="wiz-realdebrid-test">Tester</button></span>
         </label>
-        <div class="wiz-key-status" id="wiz-tmdb-key-status"></div>
-        <div class="wiz-note">Without a TMDB key, posters and metadata won't load on Nuvio Mobile. TV works fine without it. <a href="https://www.themoviedb.org/settings/api" target="_blank" rel="noopener" class="wiz-link">Get a free TMDB key →</a></div>
-        ` : ''}
-        <div class="wiz-btn-row">
-          <button class="wiz-secondary" id="wiz-torbox-back"><span>← Back</span></button>
-          <button class="wiz-primary" id="wiz-torbox-next"><span>Continue →</span></button>
-        </div>
+        <label class="wiz-label">Fournisseur privilégié pour Torrentio
+          <select class="wiz-input" id="wiz-debrid-priority">
+            <option value="alldebrid" ${state.preferredDebridProvider!=='realdebrid'?'selected':''}>1. AllDebrid</option>
+            <option value="realdebrid" ${state.preferredDebridProvider==='realdebrid'?'selected':''}>2. Real-Debrid</option>
+          </select>
+        </label>
+        <p class="wiz-note">La version TV de Nuvio ne prend pas AllDebrid en charge nativement. La clé est utilisée pour configurer Torrentio. Vous pouvez ajouter un manifest Comet ou MediaFusion déjà configuré.</p>
+        ${showTmdb?`<label class="wiz-label">Clé API TMDB (facultative)
+          <span class="wiz-input-wrap"><input type="password" id="wiz-tmdb-key" class="wiz-input" value="${escapeAttr(state.tmdbKey||'')}">
+          <button type="button" class="wiz-input-toggle" id="wiz-tmdb-test">Tester</button></span></label>`:''}
+        <div class="wiz-btn-row"><button class="wiz-secondary" id="wiz-debrid-back">← Retour</button>
+        <button class="wiz-primary" id="wiz-debrid-next">Continuer →</button></div>
       </div>`;
     el('wiz-close').addEventListener('click', close);
-    el('wiz-back').addEventListener('click', () => { state.streamingSubStep = 'prompt'; render(); });
-    const keyInput = el('wiz-torbox-key');
-    if (keyInput) keyInput.addEventListener('input', () => {
-      state.torboxKey = keyInput.value.trim();
-      state.torboxShapeWarned = false;
-      const status = el('wiz-key-status');
-      if (status) status.innerHTML = torboxStatusHtml(state.torboxKey);
-    });
-    const tmdbInput = el('wiz-tmdb-key');
-    if (tmdbInput) tmdbInput.addEventListener('input', () => { state.tmdbKey = tmdbInput.value.trim(); });
-    wireKeyTestButton('wiz-torbox-test', 'wiz-torbox-key', testTorboxKeyLive);
-    wireKeyTestButton('wiz-tmdb-test', 'wiz-tmdb-key', testTmdbKeyLive);
-    el('wiz-torbox-back').addEventListener('click', () => { state.streamingSubStep = 'prompt'; render(); });
-    el('wiz-torbox-next').addEventListener('click', () => {
-      const keyEl = el('wiz-torbox-key');
-      if (keyEl) state.torboxKey = keyEl.value.trim();
-      const tmdbEl = el('wiz-tmdb-key');
-      if (tmdbEl) state.tmdbKey = tmdbEl.value.trim();
-      if (state.torboxKey && !isTorboxKeyShape(state.torboxKey) && !state.torboxShapeWarned) {
-        state.torboxShapeWarned = true;
-        showToast('That Torbox key looks like a typo. Double-check it before finishing.', 'warning');
-      }
-      state.streamingSubStep = 'addons';
-      state.streamingShowAddons = false;
-      render();
+    const back=()=>{state.streamingSubStep='prompt';render();};
+    el('wiz-back').addEventListener('click',back);
+    el('wiz-debrid-back').addEventListener('click',back);
+    for(const [id,field] of [['wiz-alldebrid-key','allDebridKey'],['wiz-realdebrid-key','realDebridKey']]){
+      el(id).addEventListener('input',e=>{state[field]=e.target.value.trim();saveInputs();});
+    }
+    el('wiz-debrid-priority').addEventListener('change',e=>{state.preferredDebridProvider=e.target.value;saveInputs();});
+    wireKeyTestButton('wiz-alldebrid-test','wiz-alldebrid-key',testAllDebridKeyLive);
+    wireKeyTestButton('wiz-realdebrid-test','wiz-realdebrid-key',testRealDebridKeyLive);
+    if(showTmdb)wireKeyTestButton('wiz-tmdb-test','wiz-tmdb-key',testTmdbKeyLive);
+    el('wiz-debrid-next').addEventListener('click',()=>{
+      state.allDebridKey=el('wiz-alldebrid-key').value.trim();
+      state.realDebridKey=el('wiz-realdebrid-key').value.trim();
+      state.preferredDebridProvider=el('wiz-debrid-priority').value;
+      if(el('wiz-tmdb-key'))state.tmdbKey=el('wiz-tmdb-key').value.trim();
+      state.streamingSubStep='addons';state.streamingShowAddons=false;render();
     });
   }
 
@@ -4850,7 +4830,7 @@
           <button type="button" class="wiz-quiet-link" id="wiz-addons-skip">Skip this — I'll sort out streaming in Nuvio myself</button>
         </div>`;
       el('wiz-close').addEventListener('click', close);
-      el('wiz-back').addEventListener('click', () => { state.streamingSubStep = 'torbox'; render(); });
+      el('wiz-back').addEventListener('click', () => { state.streamingSubStep = 'debrid'; render(); });
       el('wiz-addons-skip').addEventListener('click', () => onAddonsApply(false));
       panel.querySelectorAll('[data-scraper-preset]').forEach((btn) => {
         btn.addEventListener('click', () => {
@@ -5078,15 +5058,11 @@
 
   // Live key checks — actually calls the provider's API rather than just
   // checking the key's shape. Used by the "Test" buttons next to key fields.
-  async function testTorboxKeyLive(key) {
-    try {
-      const res = await fetch('https://api.torbox.app/v1/api/user/me', {
-        headers: { Authorization: `Bearer ${key}` },
-      });
-      return { ok: res.ok };
-    } catch (e) {
-      return { ok: false, unreachable: true };
-    }
+  async function testAllDebridKeyLive(key) {
+    return window.MaCollectionDebrid.checkKey('alldebrid',key);
+  }
+  async function testRealDebridKeyLive(key) {
+    return window.MaCollectionDebrid.checkKey('realdebrid',key);
   }
   async function testTmdbKeyLive(key) {
     try {
@@ -5132,80 +5108,46 @@
     });
   }
 
-  // Instant format feedback under the Torbox field.
-  function torboxStatusHtml(key) {
-    const k = String(key || '').trim();
-    if (!k) return '';
-    if (isTorboxKeyShape(k)) return `<span class="wiz-key-ok">${ICON.check} Looks like a valid Torbox key</span>`;
-    return `<span class="wiz-key-bad">That doesn't look like a Torbox key. It should look like <code>xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</code></span>`;
-  }
-
-  // Push Torbox key + TMDB key + (optionally) addon list, then route onward.
+  // Les clés servent aux extensions, pas à un fournisseur natif fictif.
   async function onAddonsApply(withAddons) {
-    const choices = ensureAddonChoices();
-    if (withAddons) {
-      // Count managed scrapers that are checked (for Torbox warning)
-      const scraperCfg = state.scraperConfig || defaultScraperConfig();
-      const managedCount = (scraperCfg.torrentio ? 1 : 0) + (scraperCfg.comet ? 1 : 0) + (scraperCfg.mediafusion ? 1 : 0);
-
-      const picked = choices.filter((a) => a.checked && a.url);
-      const unverified = picked.filter((a) => !a.verified);
-      if (unverified.length) {
-        if (!state._streamManifestWarnedUrls) state._streamManifestWarnedUrls = new Set();
-        for (const addon of unverified) {
-          const check = await checkManifestAlive(addon.url);
-          if (check.ok === false) return showInlineError(`${addon.name || addon.url}: ${check.reason}`);
-          if (check.ok === null && !state._streamManifestWarnedUrls.has(addon.url)) {
-            state._streamManifestWarnedUrls.add(addon.url);
-            return showInlineError(`${addon.name || addon.url}: ${check.reason}`);
-          }
-          addon.verified = true;
-        }
-      }
-      if (!state.torboxKey && (managedCount + picked.length > 0) && !state.streamWarned) {
-        state.streamWarned = true;
-        // Reached from the preset cards as well as the full panel now, so the
-        // copy can't name one specific button.
-        return showInlineError("Heads up: without a Torbox key these scrapers usually can't play anything. Choose again to continue without it.");
+    const choices=ensureAddonChoices();
+    if(withAddons){
+      for(const addon of choices.filter(a=>a.checked&&a.url&&!a.verified)){
+        const checked=await checkManifestAlive(addon.url);
+        if(checked.ok===false)return showInlineError(checked.reason);
+        if(checked.ok===null&&!addon.warned){addon.warned=true;return showInlineError(checked.reason);}
+        addon.verified=true;
       }
     }
-    try {
-      state.pushingLabel = withAddons ? 'Setting up your streaming & integrations...' : 'Setting up your streaming...';
-      go('pushing');
-      const pid = state.targetProfileId;
-      state.torboxApplied = false;
-      if (state.torboxKey) {
-        await window.NuvioPush.setupTorbox(state.token, pid, state.torboxKey, SETTINGS_PLATFORMS);
-        state.torboxApplied = true;
+    const cfg=state.scraperConfig||defaultScraperConfig();
+    const preferred=window.MaCollectionDebrid.select(state,state.preferredDebridProvider||'alldebrid');
+    if(withAddons&&cfg.torrentio&&!preferred&&!choices.some(a=>a.checked))
+      return showInlineError('Ajoutez une clé AllDebrid ou Real-Debrid, ou collez un manifest déjà configuré.');
+    try{
+      state.pushingLabel='Installation des extensions configurées…';go('pushing');
+      const pid=state.targetProfileId;
+      state.debridApplied=false;
+      if(state.tmdbKey){
+        await window.NuvioPush.applyProfileSettings(state.token,pid,SETTINGS_PLATFORMS,{tmdbKey:state.tmdbKey});
+        state.tmdbApplied=true;
       }
-      if (state.tmdbKey) {
-        await window.NuvioPush.applyProfileSettings(state.token, pid, SETTINGS_PLATFORMS, { tmdbKey: state.tmdbKey });
-        state.tmdbApplied = true;
-      }
-      if (withAddons) {
-        // Build parameterized manifest URLs for managed scrapers
-        const scraperCfg = state.scraperConfig || defaultScraperConfig();
-        const managedAddons = [];
-        if (scraperCfg.torrentio) managedAddons.push({ name: 'Torrentio', url: buildTorrentioManifestUrl(scraperCfg) });
-        if (scraperCfg.comet) managedAddons.push({ name: 'Comet', url: buildCometManifestUrl(scraperCfg.cometInstance, scraperCfg) });
-        // MediaFusion installs with its default (unconfigured) settings — its
-        // manifest URL doesn't support the same client-side config-encoding
-        // Torrentio/Comet use, so the Quality Preset above doesn't apply to it.
-        if (scraperCfg.mediafusion) managedAddons.push({ name: 'MediaFusion', url: 'https://mediafusion.elfhosted.com/manifest.json' });
-
-        const picked = choices.filter((a) => a.checked && a.url);
-        const toInstall = [...managedAddons, ...picked.map((a) => ({ name: a.name, url: a.url }))];
-        if (toInstall.length) {
-          await window.NuvioPush.installAddons(state.token, pid, toInstall);
-          state.addonsAdded = toInstall.map((a) => a.name);
+      if(withAddons){
+        const addons=[];
+        if(cfg.torrentio&&preferred){
+          const built=window.MaCollectionDebrid.torrentioManifest(cfg,state,state.preferredDebridProvider);
+          addons.push({name:built.name,url:built.url});
         }
+        addons.push(...choices.filter(a=>a.checked&&a.url).map(a=>({name:a.name,url:a.url})));
+        if(addons.length){
+          await window.NuvioPush.installAddons(state.token,pid,addons);
+          state.addonsAdded=addons.map(a=>a.name);
+          state.debridApplied=!!preferred;
+        }
+        if(cfg.comet||cfg.mediafusion)
+          showToast('Pour Comet et MediaFusion, ajoutez leur propre manifest configuré avec votre compte.','info');
       }
-      state.streamingApplied = true;
-      afterStreaming();
-    } catch (err) {
-      state.errorMsg = (err && err.message) || String(err);
-      go('error');
-    }
+      state.streamingApplied=true;afterStreaming();
+    }catch(err){state.errorMsg=(err&&err.message)||String(err);go('error');}
   }
 
   function hasForYouFolder() {
