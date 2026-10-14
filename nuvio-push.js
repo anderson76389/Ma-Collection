@@ -40,8 +40,8 @@
   // real Nuvio app, then correct these). They live here so there's one place to
   // fix after discovery.
   const SETTINGS_KEYS = {
-    tmdbApiKey: 'tmdb_api_key',       // TODO(discovery): confirm under features.tmdb_settings
-    mdblistApiKey: 'mdblist_api_key', // TODO(discovery): confirm under features.mdblist_settings
+    tmdbApiKey: 'tmdb_api_key',       // Confirmed in TmdbSettingsStorage
+    mdblistApiKey: 'mdblist_api_key', // Confirmed in MdbListSettingsStorage
   };
 
   function toProfileIndex(value) {
@@ -430,12 +430,12 @@
           apply: (f) => {
             const d = isPlainObject(f.debrid_settings) ? f.debrid_settings : {};
             d.debrid_enabled = B(true);
-            d.torbox_api_key = S(key);
-            d.cloud_library_enabled = B(true);
-            d.preferred_resolver_provider_id = S('torbox');
+            d.debrid_torbox_api_key = S(key);
+            d.debrid_cloud_library_enabled = B(true);
+            d.debrid_preferred_resolver_provider_id = S('torbox');
             f.debrid_settings = d;
           },
-          verify: (f) => f.debrid_settings && f.debrid_settings.torbox_api_key && f.debrid_settings.torbox_api_key.value === key,
+          verify: (f) => f.debrid_settings && f.debrid_settings.debrid_torbox_api_key && f.debrid_settings.debrid_torbox_api_key.value === key,
         });
       }
       if (has(o.tmdbKey)) {
