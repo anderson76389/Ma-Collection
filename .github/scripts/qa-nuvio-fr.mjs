@@ -831,17 +831,13 @@ try {
   });
   await page.evaluate(async()=>window.NuvioPush.applyProfileSettings(
     'qa-only-fake-token',9999,['tv','mobile'],
-    {torboxKey:'qa-torbox',tmdbKey:'qa-tmdb',mdblistKey:'qa-mdblist'}));
+    {tmdbKey:'qa-tmdb',mdblistKey:'qa-mdblist'}));
   assert.equal(settingsRequests.length,2,'Il faut écrire les paramètres sur les deux plateformes');
   for(const request of settingsRequests){
     const feat=request.settings.features;
-    assert.equal(feat.debrid_settings.debrid_torbox_api_key.value,'qa-torbox');
-    assert.equal(feat.debrid_settings.debrid_enabled.value,true);
-    assert.equal(feat.debrid_settings.debrid_cloud_library_enabled.value,true);
-    assert.equal(feat.debrid_settings.debrid_preferred_resolver_provider_id.value,'torbox');
+    assert(!feat.debrid_settings || !feat.debrid_settings.debrid_alldebrid_api_key, 'Ne jamais créer un faux paramètre natif AllDebrid');
     assert.equal(feat.tmdb_settings.tmdb_api_key.value,'qa-tmdb');
     assert.equal(feat.mdblist_settings.mdblist_api_key.value,'qa-mdblist');
-    assert(!('torbox_api_key' in feat.debrid_settings),'Ancien nom de clé Torbox interdit');
   }
   console.log('QA_API_SETTINGS=forme conforme à Nuvio, deux plateformes, relecture simulée');
   await page.setViewportSize({ width: 390, height: 844 });

@@ -167,12 +167,13 @@ try {
     assert.equal(await page.locator("#kovelyx-export-overlay").evaluate(n=>n.hidden),true);
     assert.equal(await page.locator("#btn-send-to-nuvio").count(),1);
   });
-  await run("Clés API : clics Test TMDB, MDBList et TorBox (réponses simulées)",async()=>{
+  await run("Clés API : clics Test TMDB, MDBList, AllDebrid et Real-Debrid (réponses simulées)",async()=>{
     const requests=[];
     const routes=[
       {match:"https://api.themoviedb.org/3/movie/550?api_key=*",id:"tmdb"},
       {match:"https://api.mdblist.com/lists/user/?apikey=*",id:"mdblist"},
-      {match:"https://api.torbox.app/v1/api/user/me",id:"torbox"}
+      {match:"https://api.alldebrid.com/v4/user",id:"alldebrid"},
+      {match:"https://api.real-debrid.com/rest/1.0/user",id:"realdebrid"}
     ];
     for(const r of routes)await page.route(r.match,async route=>{
       const req=route.request();
@@ -184,7 +185,7 @@ try {
       requests.push({id:r.id,key:candidate,method:req.method()});
       await route.fulfill({status:good?200:401,contentType:"application/json",
         headers:{"access-control-allow-origin":"*"},
-        body:JSON.stringify(good?(r.id==="tmdb"?{id:550,title:"Fiche TMDB de test"}:{success:true,name:"Compte de test"}):{success:false,error:"invalid credential"})});
+        body:JSON.stringify(good?(r.id==="tmdb"?{id:550,title:"Fiche TMDB de test"}:r.id==="alldebrid"?{status:"success",data:{user:{username:"test"}}}:r.id==="realdebrid"?{username:"test",id:1}:{success:true,name:"Compte de test"}):{success:false,error:"invalid credential"})});
     });
     await page.evaluate(()=>openSimpleEditor());
     if((await page.locator("#se-mode-advanced").getAttribute("aria-pressed"))!=="true"){
@@ -193,7 +194,8 @@ try {
     const cases=[
       {id:"tmdb",field:"#se-tmdb-key",button:"#se-tmdb-test",fn:"testTmdbKeyLive"},
       {id:"mdblist",field:"#se-mdblist-key",button:"#se-mdblist-test",fn:"testMdblistKeyLive"},
-      {id:"torbox",field:"#se-torbox-key",button:"#se-torbox-test",fn:"testTorboxKeyLive"}
+      {id:"alldebrid",field:"#se-alldebrid-key",button:"#se-alldebrid-test",fn:"testAllDebridKeyLive"},
+      {id:"realdebrid",field:"#se-realdebrid-key",button:"#se-realdebrid-test",fn:"testRealDebridKeyLive"}
     ];
     assert((await page.locator("#se-tmdb-key").getAttribute("placeholder")).includes("v3"));
     for(const item of cases){
@@ -213,6 +215,31 @@ try {
     }
     await page.evaluate(()=>backToCinematicEditor());
     for(const r of routes) await page.unroute(r.match);
+  });
+  await run("AllDebrid prioritaire et Real-Debrid en repli : manifests vérifiés",async()=>{
+    const result=await page.evaluate(()=>{
+      const mod=window.MaCollectionDebrid;
+      const keys={allDebridKey:"qa-only-alldebrid",realDebridKey:"qa-only-realdebrid"};
+      const cfg={sortBy:"seeders",resolutions:["r2160p","r1080p"],removeTrash:true};
+      return {
+        priority:mod.select(keys).id,
+        first:mod.torrentioManifest(cfg,keys),
+        second:mod.torrentioManifest(cfg,keys,"realdebrid"),
+        fallback:mod.torrentioManifest(cfg,{realDebridKey:keys.realDebridKey}),
+        absent:mod.torrentioManifest(cfg,{})
+      };
+    });
+    assert.equal(result.priority,"alldebrid");
+    assert.equal(result.first.provider,"alldebrid");
+    assert(result.first.url.startsWith("https://torrentio.strem.fun/"));
+    assert(result.first.url.includes("alldebrid=qa-only-alldebrid"));
+    assert(!result.first.url.includes("realdebrid=qa-only-realdebrid"));
+    assert.equal(result.second.provider,"realdebrid");
+    assert(result.second.url.includes("realdebrid=qa-only-realdebrid"));
+    assert.equal(result.fallback.provider,"realdebrid");
+    assert.equal(result.absent,null);
+    assert.equal(await page.locator("#se-torbox-key").count(),0);
+    assert.equal(await page.locator("#se-alldebrid-key").count(),1);
   });
   await run("Extensions : vrai manifest, faux JSON, HTML et HTTP 404",async()=>{
     await page.route("https://qa-addons.invalid/**",async route=>{

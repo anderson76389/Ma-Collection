@@ -3844,14 +3844,15 @@ function accountSnapshot() {
 
   return {
     keys: {
-      torboxKey: seSettings.torboxKey || wizKeys.torboxKey || wizKeys.aioDebridKey || "",
+      allDebridKey: seSettings.allDebridKey || wizKeys.allDebridKey || "",
+      realDebridKey: seSettings.realDebridKey || wizKeys.realDebridKey || "",
       tmdbKey: seSettings.tmdbKey || wizKeys.tmdbKey || wizKeys.aioTmdbKey || "",
       mdblistKey: seSettings.mdblistKey || wizKeys.mdblistKey || "",
       forYouMdblistKey: wizKeys.forYouMdblistKey || "",
       nuvioEmail: wizKeys.nuvioEmail || wizPrefs.email || "",
       nuvioPassword: wizKeys.nuvioPassword || "",
       aioRpdbKey: wizKeys.aioRpdbKey || "",
-      aioDebridKey: wizKeys.aioDebridKey || wizKeys.torboxKey || seSettings.torboxKey || "",
+      aioDebridKey: wizKeys.aioDebridKey || "",
       aioDebridType: wizKeys.aioDebridType || "",
       aioTmdbKey: wizKeys.aioTmdbKey || wizKeys.tmdbKey || seSettings.tmdbKey || "",
       traktTokensByHost: wizKeys.traktTokensByHost || {},
@@ -3901,7 +3902,8 @@ function accountApply(payload) {
   const coll = payload.collection || {};
   const prefs = payload.prefs || {};
 
-  if (keys.torboxKey != null) seSettings.torboxKey = String(keys.torboxKey || "");
+  if (keys.allDebridKey != null) seSettings.allDebridKey = String(keys.allDebridKey || "");
+  if (keys.realDebridKey != null) seSettings.realDebridKey = String(keys.realDebridKey || "");
   if (keys.tmdbKey != null) seSettings.tmdbKey = String(keys.tmdbKey || "");
   if (keys.mdblistKey != null) seSettings.mdblistKey = String(keys.mdblistKey || "");
   else if (keys.forYouMdblistKey != null) seSettings.mdblistKey = String(keys.forYouMdblistKey || "");
@@ -4440,7 +4442,7 @@ function dismissChangelogBanner() {
 
 let seExpanded = new Set();            // folder keys currently expanded
 let seAddons = null;                   // [{name,url,note,checked}] addon checklist
-const seSettings = { profileName: '', avatarUrl: '', torboxKey: '', tmdbKey: '', mdblistKey: '' };
+const seSettings = { profileName: '', avatarUrl: '', allDebridKey: '', realDebridKey: '', tmdbKey: '', mdblistKey: '' };
 // Basic hides the API-key and custom-manifest fields. This panel is the
 // "advanced" surface by design, but landing on six key fields is still the
 // wrong first impression for someone who only wanted to tick some scrapers.
@@ -4601,7 +4603,8 @@ function seGatherSettings() {
   const g = id => document.getElementById(id);
   if (g('se-profile-name')) seSettings.profileName = g('se-profile-name').value.trim();
   if (g('se-avatar-url')) seSettings.avatarUrl = g('se-avatar-url').value.trim();
-  if (g('se-torbox-key')) seSettings.torboxKey = g('se-torbox-key').value.trim();
+  if (g('se-alldebrid-key')) seSettings.allDebridKey = g('se-alldebrid-key').value.trim();
+  if (g('se-realdebrid-key')) seSettings.realDebridKey = g('se-realdebrid-key').value.trim();
   if (g('se-tmdb-key')) seSettings.tmdbKey = g('se-tmdb-key').value.trim();
   if (g('se-mdblist-key')) seSettings.mdblistKey = g('se-mdblist-key').value.trim();
   notifyAccountSave();
@@ -4656,7 +4659,7 @@ function renderSimpleSettings() {
 
     <h3 class="se-sec-title">Recommendations <span class="se-sec-sub">— what fills "For You"</span></h3>
     <p class="se-note">${tip('trakt', 'Trakt')} is connected inside the Nuvio app itself (it needs a sign-in there, not here).</p>
-    ${seAdvanced ? '' : '<p class="se-note">API keys for Torbox, TMDB and MDBList live under <strong>Advanced</strong> at the top.</p>'}
+    ${seAdvanced ? '' : '<p class="se-note">API keys for AllDebrid, Real-Debrid, TMDB and MDBList live under <strong>Advanced</strong> at the top.</p>'}
     ${adv(`
     <label class="se-field se-advanced-block">${tip('mdblist', 'MDBList')} API key <span class="se-hint">(optional)</span>
       <span class="se-input-wrap">
@@ -4667,13 +4670,19 @@ function renderSimpleSettings() {
 
     ${adv(`
     <h3 class="se-sec-title">Playback &amp; artwork</h3>
-    <label class="se-field se-advanced-block">${tip('torbox', 'Torbox')} API key
+    <label class="se-field se-advanced-block"><strong>1. AllDebrid</strong> — clé API (prioritaire)
       <span class="se-input-wrap">
-        <input id="se-torbox-key" class="se-input" value="${v(seSettings.torboxKey)}" placeholder="xxxxxxxx-xxxx-…" autocomplete="off" spellcheck="false">
-        <button type="button" class="se-key-test" id="se-torbox-test">Test</button>
+        <input type="password" id="se-alldebrid-key" class="se-input" value="${v(seSettings.allDebridKey)}" placeholder="Clé API AllDebrid" autocomplete="off" spellcheck="false">
+        <button type="button" class="se-key-test" id="se-alldebrid-test">Tester</button>
       </span>
     </label>
-    <div class="se-key-status" id="se-torbox-status"></div>
+    <label class="se-field se-advanced-block"><strong>2. Real-Debrid</strong> — clé API (alternative)
+      <span class="se-input-wrap">
+        <input type="password" id="se-realdebrid-key" class="se-input" value="${v(seSettings.realDebridKey)}" placeholder="Clé API Real-Debrid" autocomplete="off" spellcheck="false">
+        <button type="button" class="se-key-test" id="se-realdebrid-test">Tester</button>
+      </span>
+    </label>
+    <p class="se-note">Ces clés configurent les extensions de lecture (Torrentio / AIO Streams). AllDebrid n'est pas un service natif de Nuvio TV.</p>
     <label class="se-field se-advanced-block">${tip('tmdb', 'TMDB')} API key <span class="se-hint">(optional)</span>
       <span class="se-input-wrap">
         <input id="se-tmdb-key" class="se-input" value="${v(seSettings.tmdbKey)}" placeholder="Clé API TMDB v3 (pas le jeton v4)" autocomplete="off">
@@ -4747,15 +4756,10 @@ function wireSimpleSettings() {
       renderSimpleSettings();
     });
   });
-  wireSeKeyTest('se-torbox-test', 'se-torbox-key', 'testTorboxKeyLive');
+  wireSeKeyTest('se-alldebrid-test', 'se-alldebrid-key', 'testAllDebridKeyLive');
+  wireSeKeyTest('se-realdebrid-test', 'se-realdebrid-key', 'testRealDebridKeyLive');
   wireSeKeyTest('se-tmdb-test', 'se-tmdb-key', 'testTmdbKeyLive');
   wireSeKeyTest('se-mdblist-test', 'se-mdblist-key', 'testMdblistKeyLive');
-  const tk = document.getElementById('se-torbox-key');
-  const stat = document.getElementById('se-torbox-status');
-  if (tk && stat) {
-    const upd = () => { stat.innerHTML = (window.NuvioWizard && window.NuvioWizard.torboxStatusHtml) ? window.NuvioWizard.torboxStatusHtml(tk.value) : ''; };
-    tk.addEventListener('input', upd); upd();
-  }
   const av = document.getElementById('se-avatar-url');
   const img = document.getElementById('se-avatar-preview');
   if (av && img) {
@@ -4836,7 +4840,8 @@ function seSend() {
   const prefill = {
     profileName: seSettings.profileName || undefined,
     avatarUrl: seSettings.avatarUrl || undefined,
-    torboxKey: seSettings.torboxKey || undefined,
+    allDebridKey: seSettings.allDebridKey || undefined,
+    realDebridKey: seSettings.realDebridKey || undefined,
     tmdbKey: seSettings.tmdbKey || undefined,
     tmdbEnabled: !!seSettings.tmdbKey,
     mdblistKey: seSettings.mdblistKey || undefined,

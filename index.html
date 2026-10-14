@@ -936,9 +936,11 @@
 
       <div id="account-view-keys" hidden>
         <p class="account-lead">Enregistrez vos clés facultatives pour accélérer la configuration des services compatibles.</p>
-        <label class="account-label">Torbox API key
-          <span class="account-tip" tabindex="0" data-tip="Lets Nuvio pull streams through your Torbox account. Get it from your Torbox settings.">?</span>
-          <input type="password" id="account-key-torbox" class="account-input" autocomplete="off" spellcheck="false">
+        <label class="account-label">AllDebrid — clé API (prioritaire)
+          <input type="password" id="account-key-alldebrid" class="account-input" autocomplete="off" spellcheck="false">
+        </label>
+        <label class="account-label">Real-Debrid — clé API (second choix)
+          <input type="password" id="account-key-realdebrid" class="account-input" autocomplete="off" spellcheck="false">
         </label>
         <label class="account-label">TMDB API key
           <span class="account-tip" tabindex="0" data-tip="Powers movie and show info and artwork. Free key from themoviedb.org.">?</span>
@@ -960,7 +962,7 @@
           <span class="account-tip" tabindex="0" data-tip="Optional ratings posters addon key, if you use RPDB.">?</span>
           <input type="password" id="account-key-rpdb" class="account-input" autocomplete="off" spellcheck="false">
         </label>
-        <label class="account-label">Debrid key <span class="account-optional">(AIO Streams, if different from Torbox)</span>
+        <label class="account-label">Debrid key <span class="account-optional">(AIO Streams, si différente des clés ci-dessus)</span>
           <input type="password" id="account-key-debrid" class="account-input" autocomplete="off" spellcheck="false">
         </label>
         <p class="account-note">Trakt tokens are saved automatically during the wizard, tied to whichever AIO Metadata host you authorize on (for example Midnight). They are not entered here.</p>
@@ -1000,6 +1002,7 @@
   <script src="customize.js?v=93.0"></script>
   <script src="scripts/catalog-utils.js?v=94.0"></script>
   <script src="catalog-labels-fr.js?v=1"></script>
+  <script src="debrid-services.js?v=1"></script>
   <script src="app.js?v=95.3"></script>
   <script src="kovelyx-export.js?v=2"></script>
   <script src="nuvio-push.js?v=92.3"></script>
