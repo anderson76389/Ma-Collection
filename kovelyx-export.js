@@ -99,6 +99,7 @@
         ...(config.tmdbKey ? {tmdbKey:config.tmdbKey} : {}),
         ...(config.mdblistKey ? {mdblistKey:config.mdblistKey} : {}),
         ...(config.realDebridKey ? {realDebridKey:config.realDebridKey} : {}),
+        posterProvider: config.posterProvider === "bttr" ? "bttr" : "none",
         tmdbLanguage: config.tmdbLanguage === "en" ? "en" : "fr",
         importMode: config.importMode === "account" ? "account" : "local",
         importAction: config.importAction === "merge" ? "merge" : "replace",
@@ -109,61 +110,60 @@
           bttrSource: config.bttrSource || "Average",
           bttrLanguage: config.bttrLanguage || "fr"
         } : {}),
-        ...(config.posterProvider === "top" && config.topPosterKey ? {
-          posterProvider: "top", topPosterKey: config.topPosterKey
-        } : {}),
-        ...(config.posterProvider === "rpdb" ? {
-          posterProvider:"rpdb",
-          rpdbTheme:config.rpdbTheme || "t0-free-rpdb",
-          ...(config.rpdbTheme === "custom" && config.rpdbKey ? {rpdbKey:config.rpdbKey} : {})
-        } : {}),
         ...(Array.isArray(config.addonManifests) && config.addonManifests.length
           ? { addonManifests:config.addonManifests } : {})
       };
       const hasSettings = Object.keys(desktopSettings).length > 0;
       const payload = hasSettings ? JSON.stringify({collections:JSON.parse(json),settings:desktopSettings}) : json;
-      let olderBridge = false;
+      const endpoint = "http://127.0.0.1:38761";
+      const request = async (url, options, milliseconds) => {
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), milliseconds);
+        try { return await fetch(url, { ...options, mode:"cors", cache:"no-store", signal:controller.signal }); }
+        finally { clearTimeout(timeout); }
+      };
+      // La sonde distingue un service Kovelyx absent d'un vrai refus d'import.
+      let health;
+      try {
+        health = await request(endpoint + "/health", { method:"GET" }, 6000);
+      } catch (error) {
+        throw Error("Impossible de joindre Kovelyx PC. Vérifiez que l'application est ouverte, puis testez http://127.0.0.1:38761/health dans ce navigateur : la page doit afficher « Kovelyx prêt ». Si elle s'affiche, vérifiez le VPN, le pare-feu et les protections du navigateur. (" +
+          (error?.name === "AbortError" ? "délai dépassé" : "connexion bloquée") + ")");
+      }
+      if (!health.ok || !(await health.text()).includes("Kovelyx prêt")) {
+        throw Error("Le pont local Kovelyx n'est pas prêt (HTTP " + health.status + "). Redémarrez Kovelyx PC et réessayez.");
+      }
+      if (new TextEncoder().encode(payload).byteLength > 16*1024*1024) {
+        throw Error("Votre sélection dépasse les 16 Mo acceptés par Kovelyx. Réduisez le nombre de catalogues.");
+      }
       let accepted = false;
       let lastError = null;
-      for (let attempt = 0; attempt < 10; attempt++) {
+      for (let attempt = 0; attempt < 2; attempt++) {
         try {
-          const controller = new AbortController();
-          const timeout = setTimeout(() => controller.abort(), 1800);
-          let response;
-          try {
-            response = await fetch("http://127.0.0.1:38761/import", {
-              method: "POST",
-              mode: "cors",
-              headers: { "Content-Type": "application/json" },
-              body: payload,
-              signal: controller.signal,
-              cache: "no-store",
-            });
-          } finally { clearTimeout(timeout); }
-          if (response.status === 202) {
-            accepted = true;
-            break;
-          }
+          const response = await request(endpoint + "/import", {
+            method:"POST", headers:{"Content-Type":"application/json"}, body:payload,
+          }, 12000);
+          if (response.status === 202) { accepted = true; break; }
           if (response.status === 409) {
-            throw Error("Un import attend déjà une confirmation dans Kovelyx. Validez ou annulez-le avant de recommencer.");
+            throw Error("Un import attend déjà confirmation dans Kovelyx. Acceptez-le ou annulez-le dans l'application.");
           }
-          if (hasSettings && !olderBridge && response.status === 422) {
-            throw Error("Version de Kovelyx trop ancienne pour cet import. Mettez l’application à jour : aucune collection n’a été remplacée.");
+          if (response.status === 422) {
+            throw Error("Votre version de Kovelyx ne reconnaît pas cette configuration. Installez une version Windows récente ; les données existantes sont conservées.");
           }
-          throw Error("Kovelyx a refusé l'envoi (HTTP " + response.status + "). Vous pouvez utiliser « Copier le JSON ».");
+          if (response.status === 413) throw Error("La collection est trop volumineuse pour le transfert local.");
+          if (response.status === 403) throw Error("Kovelyx refuse l'origine du site. Utilisez l'adresse officielle Ma-Collection sur GitHub Pages.");
+          throw Error("Kovelyx a refusé l'import (HTTP " + response.status + "). Aucune collection n'a été remplacée.");
         } catch (error) {
-          if (error && /^(Kovelyx a refusé|Un import attend|Version de Kovelyx trop ancienne)/.test(error.message || "")) throw error;
+          if (/^(Un import attend|Votre version de Kovelyx|La collection est trop|Kovelyx refuse|Kovelyx a refusé)/.test(error?.message || "")) throw error;
           lastError = error;
         }
-        if (attempt < 9) await new Promise(resolve => setTimeout(resolve, 400));
+        if (attempt === 0) await new Promise(resolve => setTimeout(resolve, 700));
       }
       if (!accepted) {
-        throw Error("Kovelyx ne répond pas. Ouvrez Kovelyx PC et, en mode compte, connectez-vous dans l’application. Revenez ensuite cliquer sur « Importer directement ». Aucun protocole Windows n’est nécessaire." +
-          (lastError && lastError.name === "AbortError" ? " (connexion expirée)" : ""));
+        throw Error("Le service Kovelyx répond, mais le transfert JSON ne s'est pas terminé. Vérifiez si une confirmation d'import est déjà ouverte dans Kovelyx. Vous pouvez aussi « Copier le JSON ». (" +
+          (lastError?.name === "AbortError" ? "transfert expiré" : "connexion interrompue") + ")");
       }
-      setStatus("Sélection envoyée à Kovelyx ! Confirmez l'import dans l'application. Une sauvegarde locale sera créée." +
-        (olderBridge ? " Cette ancienne version ne prend pas les clés : ajoutez-les dans les paramètres Kovelyx." :
-         hasSettings ? " Les clés compatibles seront appliquées après votre confirmation." : ""));
+      setStatus("Sélection envoyée à Kovelyx ! Choisissez votre profil et confirmez l'import dans l'application. Une sauvegarde sera créée avant toute modification.");
     } catch (error) {
       setStatus(error.message || "Envoi direct impossible : utilisez « Copier le JSON ».", true);
     } finally { direct.disabled = false; }
