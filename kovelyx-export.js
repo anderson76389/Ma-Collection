@@ -8,6 +8,8 @@
   const download = byId("kovelyx-export-download");
   const direct = byId("kovelyx-export-direct");
   if (!overlay || !status || !copy || !download) return;
+  let pendingSetup = null;
+  function configure(v) { pendingSetup = v && typeof v === "object" ? {...v} : null; }
 
   // Respecte les contrôles de CollectionRepository.validateImportModel (Kovelyx).
   function validateForKovelyx(data) {
@@ -92,7 +94,7 @@
       // Windows registers this protocol per-user when Kovelyx is first started.
       if (!window.__MA_COLLECTION_QA_NO_PROTOCOL) window.location.href = "kovelyx://import";
       const json = await buildExport();
-      const config = window.MaCollectionImportStudio?.getSettings?.() || {};
+      const config = pendingSetup || window.MaCollectionImportStudio?.getSettings?.() || {};
       // Les clés ne sont transmises qu'au pont local privé, jamais dans le JSON exporté.
       const desktopSettings = {
         ...(config.tmdbKey ? {tmdbKey:config.tmdbKey} : {}),
@@ -189,5 +191,5 @@
   byId("kovelyx-export-close")?.addEventListener("click", close);
   overlay.addEventListener("click", event => { if (event.target === overlay) close(); });
   document.addEventListener("keydown", event => { if (event.key === "Escape" && !overlay.hidden) close(); });
-  window.MaCollectionKovelyx = Object.freeze({ open, send, buildExport, validateForKovelyx });
+  window.MaCollectionKovelyx = Object.freeze({ open, configure, send, buildExport, validateForKovelyx });
 })();
