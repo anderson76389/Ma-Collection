@@ -1,0 +1,45 @@
+name: Actualiser les Top 10 Netflix France
+
+on:
+  schedule:
+    - cron: '25 18 * * 3' # Mercredi 18:25 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: netflix-fr-weekly
+  cancel-in-progress: false
+
+jobs:
+  netflix-fr:
+    name: Télécharger et vérifier les classements France
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Tests hors ligne
+        run: node --test tests/netflix-fr.test.mjs
+      - name: Source officielle Netflix France
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          TMDB_V4_USER_ACCESS_TOKEN: ${{ secrets.TMDB_V4_USER_ACCESS_TOKEN }}
+          NETFLIX_FR_MOVIES_LIST_ID: ${{ secrets.NETFLIX_FR_MOVIES_LIST_ID }}
+          NETFLIX_FR_SERIES_LIST_ID: ${{ secrets.NETFLIX_FR_SERIES_LIST_ID }}
+          NETFLIX_FR_SYNC_ENABLED: ${{ vars.NETFLIX_FR_SYNC_ENABLED || 'false' }}
+        run: node scripts/netflix-fr-top10.mjs
+      - name: Conserver uniquement les données validées
+        run: |
+          git config user.name 'ma-collection-netflix-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add data/netflix-fr-top10.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Actualiser le Top 10 Netflix France [skip ci]'
+            git push
+          else
+            echo 'Aucune évolution des classements Netflix France.'
+          fi
