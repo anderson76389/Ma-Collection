@@ -205,7 +205,7 @@
         <div class="mc-import-art-layout" style="margin-top:12px">
           <img id="mc-bttr-preview" class="mc-import-image" src="${esc(bttrPreviewUrl())}" alt="Aperçu BetterPosters" referrerpolicy="no-referrer">
           <p id="mc-bttr-status" class="mc-import-note">Test avec un film connu. Si l'image ne charge pas, le fournisseur Bttr est peut-être indisponible ; Kovelyx conservera son affiche d'origine lorsqu'un chargement échoue.</p>
-        </div></div>` : "" }
+        </div></div>` : "" }`;
     if (state.step === 4) return `<p class="mc-import-note">AllDebrid en priorité et Real-Debrid en secours, selon les possibilités de vos extensions. Les clés ne sont jamais intégrées au JSON public des catalogues.</p>
       <div class="mc-import-form">
         ${field("ad","Clé API AllDebrid (prioritaire)","allDebridKey","Clé AllDebrid")}
