@@ -72,21 +72,20 @@ console.log("Fusion saine des doublons Nuvio : "+inputCategories+" sections → 
 const data=structuredClone(before);
 const translated=(s)=>typeof s==="string"&&Object.prototype.hasOwnProperty.call(dict,s)
   ? dict[s] : s;
-const clean=s=>typeof s==="string"
-  ? s.replace(/\b(Films|Séries|Animés)\s*[-–—:]\s*\1\b/gi,"$1")
-    .replace(/\b(Films|Séries|Animés)\s*\(\s*(Films|Séries|Animés)\s*\)/gi,
-      (m,word,type)=>word.toLocaleLowerCase("fr")===type.toLocaleLowerCase("fr")
-        ?"("+type+")":m)
-    .replace(/\b(Films|Séries|Animés)\s+\1\b/gi,"$1")
-    .replace(/\(\s*(Films|Séries|Animés)\s*\)\s*\(\s*\1\s*\)/gi,"($1)")
-    .trim():s;
-const tr=s=>clean(typeof translated(s)==="string" ? translated(s)
-  .replace(/&(?:amp;)?/g," Et ").replace(/ {2,}/g," ") : translated(s));
+// La même logique que pour l'export Kovelyx et le site.
+const { createRequire } = await import("node:module");
+const { naturalizeTitle } = createRequire(import.meta.url)("../catalog-labels-fr.js");
+const tr=(source, isSubcategory=false)=>{
+  const value=translated(source);
+  if(typeof value!=="string")return value;
+  const french=value.replace(/&(?:amp;)?/g," Et ").replace(/ {2,}/g," ").trim();
+  return isSubcategory ? naturalizeTitle(french) : french;
+};
 const stats={categories:0,dossiers:0,sources:0,catalogSources:0,champs_traduits:0,
   intitulés_introuvables:[],langue:"fr",source:"collections individuelles (20 catégories)"};
-function label(obj,key,forced=null){
+function label(obj,key,forced=null,isSubcategory=false){
   if(!obj||typeof obj[key]!=="string"||!obj[key].trim())return;
-  const prev=obj[key],next=forced ?? tr(prev);
+  const prev=obj[key],next=forced ?? tr(prev,isSubcategory);
   if(next!==prev)stats.champs_traduits++;
   obj[key]=next;
 }
@@ -113,7 +112,7 @@ for(const c of data){
             !/^https?:/.test(s[prop]) && !stats.intitulés_introuvables.includes(s[prop])){
             stats.intitulés_introuvables.push(s[prop]);
           }
-          label(s,prop);
+          label(s,prop,null,true);
         }
       }
     }
