@@ -113,8 +113,8 @@ try {
     assert.equal(await page.locator("#destination-overlay").evaluate(n=>n.hidden),false);
     await page.locator("#destination-nuvio").click();
     assert.equal(await page.locator("#mc-import-studio").evaluate(n=>n.hidden),false);
-    await page.locator("#mc-import-next").click(); // Catalogues → affiches
-    await page.locator("#mc-import-next").click(); // Affiches → métadonnées
+    await page.locator("#mc-import-next").click(); // Catalogues → métadonnées
+    assert.equal(await page.locator("#mc-art-cover").count(),0,"L’éditeur d'images de dossiers doit être absent");
     await page.locator("#mc-tmdb").fill("qa-key-tmdb");
     await page.locator("#mc-mdblist").fill("qa-key-mdblist");
     for(let step=0;step<5;step++)await page.locator("#mc-import-next").click();
@@ -128,7 +128,7 @@ try {
   await run("Kovelyx : envoi local direct, export JSON et fermeture",async()=>{
     const directImports=[];
     await page.evaluate(()=>{ window.__MA_COLLECTION_QA_NO_PROTOCOL=true; });
-    await page.route("http://127.0.0.1:38761/import",async route=>{
+    await page.route("http://127.0.0.1:38761/*",async route=>{
       const request=route.request();
       const headers={
         "access-control-allow-origin":"http://127.0.0.1:8877",
@@ -137,6 +137,7 @@ try {
         "access-control-allow-private-network":"true"
       };
       if(request.method()==="OPTIONS")return route.fulfill({status:204,headers,body:""});
+      if(new URL(request.url()).pathname==="/health")return route.fulfill({status:200,headers,body:"Kovelyx prêt"});
       directImports.push(JSON.parse(request.postData()));
       await route.fulfill({status:202,headers,body:"Import en attente de confirmation"});
     });
@@ -145,14 +146,12 @@ try {
     assert.equal(await page.locator("#destination-overlay").evaluate(n=>n.hidden),true);
     assert.equal(await page.locator("#mc-import-studio").evaluate(n=>n.hidden),false);
     await page.locator("#mc-import-studio [data-key=importMode]").first().selectOption("account");
-    await page.locator("#mc-import-next").click(); // Catalogues → affiches
-    await page.locator("#mc-art-cover").fill("https://example.org/personnalise.jpg");
-    await page.locator("#mc-art-cover").dispatchEvent("change");
-    await page.locator("#mc-import-next").click(); // Affiches → clés
+    await page.locator("#mc-import-next").click(); // Catalogues → clés
     await page.locator("#mc-tmdb").fill("qa-kovelyx-tmdb");
     await page.locator("#mc-mdblist").fill("qa-kovelyx-mdblist");
     await page.locator("#mc-import-next").click(); // Clés → affiches notées
-    await page.locator("#mc-poster-provider").selectOption("rpdb");
+    assert.deepEqual(await page.locator("#mc-poster-provider option").evaluateAll(ns=>ns.map(x=>x.value)),["none","bttr"]);
+    await page.locator("#mc-poster-provider").selectOption("bttr");
     await page.locator("#mc-import-next").click(); // Affiches notées → débridage
     await page.locator("#mc-rd").fill("qa-kovelyx-realdebrid");
     await page.locator("#mc-import-next").click(); // Débridage → extensions
@@ -168,19 +167,20 @@ try {
     assert.equal(incoming.settings.tmdbKey,"qa-kovelyx-tmdb");
     assert.equal(incoming.settings.mdblistKey,"qa-kovelyx-mdblist");
     assert.equal(incoming.settings.realDebridKey,"qa-kovelyx-realdebrid");
-    assert.equal(incoming.settings.posterProvider,"rpdb");
+    assert.equal(incoming.settings.posterProvider,"bttr");
+    assert.equal(incoming.settings.bttrLanguage,"fr");
     assert.equal(incoming.settings.tmdbLanguage,"fr");
     assert.equal(incoming.settings.importMode,"account");
     assert.equal(incoming.settings.importAction,"merge");
     assert.deepEqual(incoming.settings.addonManifests,["https://example.org/manifest.json"]);
     assert(incoming.collections.every(c=>c.id&&c.title&&Array.isArray(c.folders)));
-    assert(incoming.collections.some(c=>(c.folders||[]).some(f=>f.coverImageUrl==="https://example.org/personnalise.jpg")));
-    await page.unroute("http://127.0.0.1:38761/import");
+    assert(incoming.collections.some(c=>(c.folders||[]).length),"Conserver les dossiers existants");
+    await page.unroute("http://127.0.0.1:38761/*");
     await page.locator("#kovelyx-export-close").click();
     assert.equal(await page.locator("#btn-export-kovelyx").count(),1);
     await page.locator("#btn-export-kovelyx").click();
     assert.equal(await page.locator("#mc-import-studio").evaluate(n=>n.hidden),false);
-    for(let step=0;step<7;step++)await page.locator("#mc-import-next").click();
+    for(let step=0;step<6;step++)await page.locator("#mc-import-next").click();
     assert.equal(await page.locator("#kovelyx-export-overlay").evaluate(n=>n.hidden),false);
     const payload=JSON.parse(await page.evaluate(()=>window.MaCollectionKovelyx.buildExport()));
     assert(payload.length>=10);
