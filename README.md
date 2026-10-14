@@ -159,7 +159,7 @@ Aucune licence explicite n'est actuellement déclarée dans ce dépôt : sa visi
 
 ## 🔄 Nouveautés et sélections dynamiques
 
-Les rangées **Nouveaux films, Nouvelles séries, sorties récentes et nouveaux animés** utilisent des fenêtres de dates glissantes, recalculées le lundi pour les plateformes, les chaînes, la télé-réalité et les autres catégories concernées. Les listes fixes, les années historiques et les médias restent préservés. [Fonctionnement et limites de la synchronisation Nuvio](docs/CATALOGUES_DYNAMIQUES.md).
+Les rangées **Nouveaux films, Nouvelles séries, sorties récentes et nouveaux animés** utilisent des fenêtres de dates glissantes, recalculées chaque lundi. Un audit des catalogues individuels confirme **377 sources hebdomadaires** couvrant les **22 plateformes**, **68 chaînes**, **6 dossiers de télé-réalité**, ainsi que les genres, films, séries, animés, documentaires et autres nouveautés. **1 708 sources TMDB Discover supplémentaires** récupèrent leurs classements en direct. Les années historiques, récompenses, listes de tiers, affiches et GIF restent préservés. Les classements tiers ne sont pas garantis hebdomadaires et les nouvelles bornes de dates d'une configuration déjà importée dans Nuvio peuvent nécessiter une réimportation. [Détail, contrôle et limites](docs/CATALOGUES_DYNAMIQUES.md).
 
 ## 📅 Top 10 Netflix France — actualisation hebdomadaire
 
