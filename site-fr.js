@@ -1,7 +1,7 @@
 /* Traduction du texte d'interface. Aucun média, lien ou identifiant n'est modifié. */
 (() => {
   "use strict";
-  const dictionaries = ["locales/fr.json?v=22", "locales/site-fr.json?v=27"];
+  const dictionaries = ["locales/fr.json?v=22", "locales/site-fr.json?v=28"];
   const blocked = "script,style,noscript,code,pre,textarea,[contenteditable],[contenteditable='true'],img,picture,video,audio,source,track,canvas,svg,object,embed,iframe,[data-no-translate]";
   const textAttributes = ["placeholder", "title", "aria-label", "data-tip"];
   const dict = Object.create(null);
@@ -65,10 +65,7 @@
     if (m) return m[1] + (Number(m[1]) === 1 ? " dossier sélectionné sur " : " dossiers sélectionnés sur ") + m[2];
     m = /^(\d+)\s+of\s+(\d+)\s+sources?\s+enabled$/i.exec(source);
     if (m) return m[1] + (Number(m[1]) === 1 ? " source activée sur " : " sources activées sur ") + m[2];
-    m = /^(\d+)\s+collections?\s+built$/i.exec(source);
-    if (m) return m[1] + (Number(m[1]) === 1 ? " collection créée" : " collections créées");
-    m = /^(\d+)\s+people\s+(?:have\s+)?visited$/i.exec(source);
-    if (m) return m[1] + (Number(m[1]) === 1 ? " visite" : " visites");
+
     m = /^Step\s+(\d+)\s+(?:of|\/)\s+(\d+)$/i.exec(source);
     if (m) return "Étape " + m[1] + " sur " + m[2];
     m = /^Save Layout to "(.+)"$/i.exec(source);
