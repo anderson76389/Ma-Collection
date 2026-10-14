@@ -1,0 +1,48 @@
+name: Validation Ma-Collection indépendante - FR et Kovelyx
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch: {}
+permissions:
+  contents: read
+
+concurrency:
+  group: qa-ma-collection-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Vérifier l'inventaire des médias sans téléchargement
+        run: |
+          python3 -m py_compile scripts/media_migration.py
+          python3 scripts/media_migration.py self-test
+          node scripts/audit-fr-catalogs.mjs
+          node scripts/normalize-ampersands.mjs --check
+      - name: Interdire les régressions de dépendance vers les anciens comptes et statistiques
+        run: node .github/scripts/qa-independance.mjs
+      - name: Installer le navigateur de test
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Vérifier syntaxe de l'application
+        run: |
+          for f in catalog-labels-fr.js app.js wizard.js customize.js account-config.js account-ui.js account-vault.js site-fr.js import-studio.js destination-picker.js kovelyx-export.js debrid-services.js collections/test-channels.js; do
+            node --check "$f"
+          done
+      - name: Valider le site et l'import Kovelyx sans compte externe
+        run: |
+          python3 -m http.server 8877 --bind 127.0.0.1 >/tmp/qa-http.log 2>&1 &
+          sleep 3
+          node .github/scripts/qa-collection-fr.mjs
+          node .github/scripts/qa-controls.mjs
