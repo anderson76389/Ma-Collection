@@ -1782,7 +1782,7 @@
       if (setup.traktToken) state.aioTraktToken = String(setup.traktToken).trim();
       if (['alldebrid','realdebrid'].includes(setup.preferredDebridProvider))
         state.preferredDebridProvider = setup.preferredDebridProvider;
-      if (['none','rpdb','bttr','top'].includes(setup.posterProvider))
+      if (['rpdb','bttr','top'].includes(setup.posterProvider))
         state.aioPosterService = setup.posterProvider;
       if (['custom','t0-free-rpdb','t0-free-rpdb-blocks','t0-free-rpdb-rounded-blocks'].includes(setup.rpdbTheme))
         state.aioRpdbTheme = setup.rpdbTheme;
