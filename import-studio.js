@@ -108,6 +108,26 @@
     preferredDebridProvider:state.preferredDebridProvider,
     addonManifests:state.addonManifests.split(/\r?\n/).map(s=>s.trim()).filter(Boolean),
   });
+  // Le même format de lien BetterPosters est utilisé dans Kovelyx PC.
+  function bttrPreviewUrl() {
+    let modifiers="";
+    if (!state.bttrGenre && !state.bttrRating) modifiers+="n";
+    else { if (!state.bttrGenre) modifiers+="r"; if (!state.bttrRating) modifiers+="g"; }
+    if (state.bttrQuality) modifiers+="q";
+    if (state.bttrAge) modifiers+="a";
+    const format=modifiers?"poster-"+modifiers:"poster";
+    const params=[];
+    if (state.bttrLanguage!=="en") params.push("lang=fr");
+    if (state.bttrSource!=="Average") params.push("rs="+encodeURIComponent(state.bttrSource));
+    return "https://btttr.cc/"+format+"/imdb/poster-default/tt0137523.jpg"+(params.length?"?"+params.join("&"):"");
+  }
+  function updateBttrPreview() {
+    const image=byId("mc-bttr-preview");
+    if (!image || state.posterProvider!=="bttr") return;
+    image.src=bttrPreviewUrl();
+    const caption=byId("mc-bttr-status");
+    if (caption) caption.textContent="Chargement de l’aperçu Bttr…";
+  }
   function field(id,label,key,placeholder,type="password") {
     const testable = ["tmdb","mdblist","ad","rd"].includes(id);
     return `<label for="mc-${id}">${label}<input id="mc-${id}" data-key="${key}" type="${type}" autocomplete="off" spellcheck="false" placeholder="${esc(placeholder)}" value="${esc(state[key])}"></label>` +
@@ -179,7 +199,13 @@
           <label>Langue<select data-key="bttrLanguage">${[["fr","Français"],["en","Anglais"],["es","Espagnol"],["de","Allemand"]].map(([v,n])=>`<option value="${v}" ${state.bttrLanguage===v?"selected":""}>${n}</option>`).join("")}</select></label>
           </div>
         </div>
-      </div>`;
+      </div>
+      ${state.posterProvider==="bttr" ? `<div class="mc-import-card">
+        <strong>Aperçu Bttr en direct</strong>
+        <div class="mc-import-art-layout" style="margin-top:12px">
+          <img id="mc-bttr-preview" class="mc-import-image" src="${esc(bttrPreviewUrl())}" alt="Aperçu BetterPosters" referrerpolicy="no-referrer">
+          <p id="mc-bttr-status" class="mc-import-note">Test avec un film connu. Si l'image ne charge pas, le fournisseur Bttr est peut-être indisponible ; Kovelyx conservera son affiche d'origine lorsqu'un chargement échoue.</p>
+        </div></div>` : "" }
     if (state.step === 4) return `<p class="mc-import-note">AllDebrid en priorité et Real-Debrid en secours, selon les possibilités de vos extensions. Les clés ne sont jamais intégrées au JSON public des catalogues.</p>
       <div class="mc-import-form">
         ${field("ad","Clé API AllDebrid (prioritaire)","allDebridKey","Clé AllDebrid")}
@@ -232,11 +258,11 @@
   function bind() {
     const keyControls = current().querySelectorAll("[data-key]");
     keyControls.forEach(input => {
-      const update = () => { state[input.dataset.key] = input.value; if (["posterProvider","rpdbTheme"].includes(input.dataset.key)) draw(); };
+      const update = () => { state[input.dataset.key] = input.value; if (["posterProvider","rpdbTheme"].includes(input.dataset.key)) draw(); else if (["bttrSource","bttrLanguage"].includes(input.dataset.key)) updateBttrPreview(); };
       input.addEventListener("change", update);
       if (input.tagName === "INPUT" || input.tagName === "TEXTAREA") input.addEventListener("input", update);
     });
-    current().querySelectorAll("[data-check]").forEach(input => input.addEventListener("change", () => { state[input.dataset.check] = input.checked; }));
+    current().querySelectorAll("[data-check]").forEach(input => input.addEventListener("change", () => { state[input.dataset.check] = input.checked; updateBttrPreview(); }));
     const testerNames = {
       tmdb:"testTmdbKeyLive", mdblist:"testMdblistKeyLive",
       ad:"testAllDebridKeyLive", rd:"testRealDebridKeyLive"
@@ -257,6 +283,8 @@
       } catch (_) { label.textContent="Service injoignable : résultat indéterminé."; }
       finally { button.disabled=false; }
     }));
+    byId("mc-bttr-preview")?.addEventListener("load", () => { const label=byId("mc-bttr-status"); if(label) label.textContent="Aperçu reçu depuis BetterPosters."; });
+    byId("mc-bttr-preview")?.addEventListener("error", () => { const label=byId("mc-bttr-status"); if(label) label.textContent="Impossible de charger l’aperçu Bttr. Vérifiez la disponibilité du fournisseur. L’import des catalogues reste possible."; });
     byId("mc-edit-collections")?.addEventListener("click", () => {
       close();
       if (typeof window.startCustomize !== "function") return;
