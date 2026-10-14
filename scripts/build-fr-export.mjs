@@ -21,7 +21,9 @@ const [original,translations]=await Promise.all([
 const before=JSON.parse(original);
 const dict=JSON.parse(translations);
 if(!Array.isArray(before) || before.length<19 || Object.keys(dict).length<2300)
-  throw new Error("Collection ou dictionnaire français incomplet");
+  throw new Error("Collection ou dictionnaire français incomplet : catégories="+
+    (Array.isArray(before)?before.length:"invalide")+
+    ", dictionnaire="+Object.keys(dict).length);
 const data=structuredClone(before);
 const translated=(s)=>typeof s==="string"&&Object.prototype.hasOwnProperty.call(dict,s)
   ? dict[s] : s;
