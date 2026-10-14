@@ -10,7 +10,9 @@ import { readFile, mkdir, writeFile } from "node:fs/promises";
 import { resolve, join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 const root=resolve(dirname(fileURLToPath(import.meta.url)),"..");
-const input=join(root,"collections/nuvio_mega_collection.json");
+// Utiliser la base réellement affichée par le site, et non la variante
+// "mega" qui ne contient que 18 catégories dans ce dépôt.
+const input=join(root,"collections/database.js");
 const target=join(root,"export/nuvio-collection-fr.json");
 const mode=process.argv.includes("--write")?"write":process.argv.includes("--check")?"check":null;
 if(!mode|| (process.argv.includes("--write") && process.argv.includes("--check")))
@@ -18,7 +20,9 @@ if(!mode|| (process.argv.includes("--write") && process.argv.includes("--check")
 const [original,translations]=await Promise.all([
   readFile(input,"utf8"),readFile(join(root,"locales/fr.json"),"utf8")
 ]);
-const before=JSON.parse(original);
+const match=original.match(/^window\.NUVIO_DATABASE\s*=\s*(\[[\s\S]*\]);\s*$/);
+if(!match)throw new Error("Format de collections/database.js inattendu");
+const before=JSON.parse(match[1]);
 const dict=JSON.parse(translations);
 if(!Array.isArray(before) || before.length<19 || Object.keys(dict).length<2300)
   throw new Error("Collection ou dictionnaire français incomplet : catégories="+
@@ -33,7 +37,7 @@ const clean=s=>typeof s==="string"
     .replace(/\b(Films|Séries)\s+\1\b/gi,"$1").trim():s;
 const tr=s=>clean(translated(s));
 const stats={categories:0,dossiers:0,sources:0,catalogSources:0,champs_traduits:0,
-  intitulés_introuvables:[],langue:"fr",source:"nuvio_mega_collection.json"};
+  intitulés_introuvables:[],langue:"fr",source:"database.js"};
 function label(obj,key,forced=null){
   if(!obj||typeof obj[key]!=="string"||!obj[key].trim())return;
   const prev=obj[key],next=forced ?? tr(prev);
