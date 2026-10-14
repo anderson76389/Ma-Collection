@@ -3465,9 +3465,13 @@ function applyLocaleDict(collections, localeDict) {
   // Ne touche pas aux identifiants, filtres ou illustrations.
   // Supprime seulement les suffixes media dupliques APRES localisation.
   const cleanLabel = (value) => String(value || '')
-    .replace(/\b(Films|Séries)\s*[-–—:]\s*\1\b/gi, '$1')
-    .replace(/\b(Films|Séries)\s*\(\s*\1\s*\)/gi, '$1')
-    .replace(/\b(Films|Séries)\s+\1\b/gi, '$1')
+    .replace(/\b(Films|Séries|Animés)\s*[-–—:]\s*\1\b/gi, '$1')
+    // Garder (Films), (Séries), (Animés) : seul le mot répété disparaît.
+    .replace(/\b(Films|Séries|Animés)\s*\(\s*(Films|Séries|Animés)\s*\)/gi,
+      (match, word, type) => word.toLocaleLowerCase('fr') === type.toLocaleLowerCase('fr')
+        ? '(' + type + ')' : match)
+    .replace(/\b(Films|Séries|Animés)\s+\1\b/gi, '$1')
+    .replace(/\(\s*(Films|Séries|Animés)\s*\)\s*\(\s*\1\s*\)/gi, '($1)')
     .trim();
   const t = (s) => {
     if (!s || typeof s !== 'string') return s;

@@ -73,9 +73,13 @@ const data=structuredClone(before);
 const translated=(s)=>typeof s==="string"&&Object.prototype.hasOwnProperty.call(dict,s)
   ? dict[s] : s;
 const clean=s=>typeof s==="string"
-  ? s.replace(/\b(Films|Séries)\s*[-–—:]\s*\1\b/gi,"$1")
-    .replace(/\b(Films|Séries)\s*\(\s*\1\s*\)/gi,"$1")
-    .replace(/\b(Films|Séries)\s+\1\b/gi,"$1").trim():s;
+  ? s.replace(/\b(Films|Séries|Animés)\s*[-–—:]\s*\1\b/gi,"$1")
+    .replace(/\b(Films|Séries|Animés)\s*\(\s*(Films|Séries|Animés)\s*\)/gi,
+      (m,word,type)=>word.toLocaleLowerCase("fr")===type.toLocaleLowerCase("fr")
+        ?"("+type+")":m)
+    .replace(/\b(Films|Séries|Animés)\s+\1\b/gi,"$1")
+    .replace(/\(\s*(Films|Séries|Animés)\s*\)\s*\(\s*\1\s*\)/gi,"($1)")
+    .trim():s;
 const tr=s=>clean(typeof translated(s)==="string" ? translated(s)
   .replace(/&(?:amp;)?/g," Et ").replace(/ {2,}/g," ") : translated(s));
 const stats={categories:0,dossiers:0,sources:0,catalogSources:0,champs_traduits:0,

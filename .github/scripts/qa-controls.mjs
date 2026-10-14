@@ -149,6 +149,29 @@ try {
     assert.equal(await page.locator("#kovelyx-export-overlay").evaluate(n=>n.hidden),true);
     assert.equal(await page.locator("#btn-send-to-nuvio").count(),1);
   });
+  await run("FR : aucun type de média répété et parenthèses conservées",async()=>{
+    const result=await page.evaluate(()=>{
+      const rows=[{id:"qa",title:"Test",folders:[{id:"f",title:"Nouvelles séries (Séries)",
+        sources:[{title:"Nouveaux films (Films)",name:"Nouveaux animés (Animés)",genre:"Séries (Films)"},
+                 {title:"Films - Films",name:"Séries Séries",genre:"Films (Films) (Films)"}]}]}];
+      return window.MaCollectionExport.applyLocaleDict(rows,{});
+    });
+    const folder=result[0].folders[0];
+    assert.equal(folder.title,"Nouvelles (Séries)");
+    assert.equal(folder.sources[0].title,"Nouveaux (Films)");
+    assert.equal(folder.sources[0].name,"Nouveaux (Animés)");
+    assert.equal(folder.sources[0].genre,"Séries (Films)");
+    assert.equal(folder.sources[1].title,"Films");
+    assert.equal(folder.sources[1].name,"Séries");
+    assert.equal(folder.sources[1].genre,"(Films)");
+    await page.evaluate(()=>{
+      const e=document.createElement("span");
+      e.id="qa-fr-parentheses";
+      e.textContent="Nouvelles séries (Séries)";
+      document.body.appendChild(e);
+    });
+    await page.waitForFunction(()=>document.querySelector("#qa-fr-parentheses")?.textContent==="Nouvelles (Séries)",{timeout:12000});
+  });
   await run("export JSON : fichier valide et sources conservées",async()=>{
     const wait=page.waitForEvent("download",{timeout:20000});
     await page.evaluate(()=>window.MaCollectionExport.compileAndDownloadJSON(true));

@@ -1,7 +1,7 @@
 /* Traduction du texte d'interface. Aucun média, lien ou identifiant n'est modifié. */
 (() => {
   "use strict";
-  const dictionaries = ["locales/fr.json?v=19", "locales/site-fr.json?v=26"];
+  const dictionaries = ["locales/fr.json?v=20", "locales/site-fr.json?v=26"];
   const blocked = "script,style,noscript,code,pre,textarea,[contenteditable],[contenteditable='true'],img,picture,video,audio,source,track,canvas,svg,object,embed,iframe,[data-no-translate]";
   const textAttributes = ["placeholder", "title", "aria-label", "data-tip"];
   const dict = Object.create(null);
@@ -14,9 +14,12 @@
   // Ne supprimer que les répétitions réelles, sans retirer les types de médias utiles.
   function removeDuplicateLabel(value) {
     return value
-      .replace(/\b(Films|Séries)\s*[-–—:]\s*\1\b/gi, "$1")
-      .replace(/\b(Films|Séries)\s*\(\s*\1\s*\)/gi, "$1")
-      .replace(/\b(Films|Séries)\s+\1\b/gi, "$1");
+      .replace(/\b(Films|Séries|Animés)\s*[-–—:]\s*\1\b/gi, "$1")
+      .replace(/\b(Films|Séries|Animés)\s*\(\s*(Films|Séries|Animés)\s*\)/gi,
+        (match, word, type) => word.toLocaleLowerCase("fr") === type.toLocaleLowerCase("fr")
+          ? "(" + type + ")" : match)
+      .replace(/\b(Films|Séries|Animés)\s+\1\b/gi, "$1")
+      .replace(/\(\s*(Films|Séries|Animés)\s*\)\s*\(\s*\1\s*\)/gi, "($1)");
   }
 
   function ampersandToEt(value) {
@@ -71,9 +74,9 @@
     if (m) return "Étape " + m[1] + " sur " + m[2];
     m = /^Save Layout to "(.+)"$/i.exec(source);
     if (m) return 'Enregistrer la disposition dans « ' + m[1] + ' »';
-    if (/\b(Films|Séries)\s*[-–—:]\s*\1\b/i.test(source)) {
-      return removeDuplicateLabel(source);
-    }
+    // Répétitions introduites après le chargement du site.
+    const deduplicated = removeDuplicateLabel(source);
+    if (deduplicated !== source) return deduplicated;
     return null;
   }
 
