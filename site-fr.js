@@ -1,7 +1,7 @@
 /* Traduction du texte d'interface. Aucun média, lien ou identifiant n'est modifié. */
 (() => {
   "use strict";
-  const dictionaries = ["locales/fr.json?v=19", "locales/site-fr.json?v=19"];
+  const dictionaries = ["locales/fr.json?v=19", "locales/site-fr.json?v=20"];
   const blocked = "script,style,noscript,code,pre,textarea,[contenteditable],[contenteditable='true'],img,picture,video,audio,source,track,canvas,svg,object,embed,iframe,[data-no-translate]";
   const textAttributes = ["placeholder", "title", "aria-label", "data-tip"];
   const dict = Object.create(null);
@@ -36,6 +36,28 @@
       return removeDuplicateLabel(ampersandToEt(alias));
     }
 
+    // Titres dynamiques du Studio de profils et des assistants :
+    // les chiffres, noms de profils et IDs restent inchangés.
+    let dyn = /^(\d+)\s+categories?\s*[·•]\s*(\d+)\s+folders?$/i.exec(source);
+    if (dyn) return dyn[1] + " catégories · " + dyn[2] + " dossiers";
+    dyn = /^(\d+)\s+rows?\s*[·•]\s*(\d+)\s+folders?$/i.exec(source);
+    if (dyn) return dyn[1] + " rangées · " + dyn[2] + " dossiers";
+    dyn = /^(\d+)\s+folders? available\s*[·•]\s*Click to add$/i.exec(source);
+    if (dyn) return dyn[1] + " dossiers disponibles · Cliquer pour ajouter";
+    dyn = /^📁\s*View\s+(\d+)\s+folders?$/i.exec(source);
+    if (dyn) return "📁 Afficher " + dyn[1] + " dossiers";
+    dyn = /^([+−-])\s*(\d+)\s+(added|removed)$/i.exec(source);
+    if (dyn) return dyn[1] + " " + dyn[2] + (dyn[3].toLowerCase() === "added" ? " ajoutés" : " retirés");
+    dyn = /^(Added|Removed)\s*\((\d+)\)$/i.exec(source);
+    if (dyn) return (dyn[1].toLowerCase() === "added" ? "Ajoutés" : "Retirés") + " (" + dyn[2] + ")";
+    dyn = /^Save Layout to ["“](.+)["”]\??$/i.exec(source);
+    if (dyn) return "Enregistrer la disposition dans « " + dyn[1] + " » ?";
+    dyn = /^No sources matching ["“](.+)["”]\.$/i.exec(source);
+    if (dyn) return "Aucune source ne correspond à « " + dyn[1] + " ».";
+    dyn = /^Sources feeding this folder\s*[·•]\s*(\d+)\/(\d+)$/i.exec(source);
+    if (dyn) return "Sources de ce dossier · " + dyn[1] + "/" + dyn[2];
+    dyn = /^List:\s*(.+)$/i.exec(source);
+    if (dyn) return "Liste : " + dyn[1];
     // Messages comptant des éléments : ces nombres ne sont pas des identifiants.
     let m = /^(\d+)\s+of\s+(\d+)\s+folders?\s+selected$/i.exec(source);
     if (m) return m[1] + (Number(m[1]) === 1 ? " dossier sélectionné sur " : " dossiers sélectionnés sur ") + m[2];
