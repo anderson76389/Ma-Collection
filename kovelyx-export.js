@@ -101,6 +101,17 @@
         ...(config.realDebridKey ? {realDebridKey:config.realDebridKey} : {}),
         tmdbLanguage: config.tmdbLanguage === "en" ? "en" : "fr",
         importMode: config.importMode === "account" ? "account" : "local",
+        importAction: config.importAction === "merge" ? "merge" : "replace",
+        ...(config.posterProvider === "bttr" ? {
+          posterProvider: "bttr",
+          bttrQuality: !!config.bttrQuality, bttrGenre: !!config.bttrGenre,
+          bttrRating: !!config.bttrRating, bttrAge: !!config.bttrAge,
+          bttrSource: config.bttrSource || "Average",
+          bttrLanguage: config.bttrLanguage || "fr"
+        } : {}),
+        ...(config.posterProvider === "top" && config.topPosterKey ? {
+          posterProvider: "top", topPosterKey: config.topPosterKey
+        } : {}),
         ...(config.posterProvider === "rpdb" ? {
           posterProvider:"rpdb",
           rpdbTheme:config.rpdbTheme || "t0-free-rpdb",
