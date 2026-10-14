@@ -2112,7 +2112,6 @@
     if (sub === 'debrid') return renderAioDebrid(panel);
     if (sub === 'scraper') return renderAioScraper(panel);
     if (sub === 'format') return renderAioFormat(panel);
-    if (sub === 'torbox-offer') return renderAioTorboxOffer(panel);
     return renderAioForYou(panel);
   }
 
@@ -2448,7 +2447,7 @@
               <input type="radio" name="wiz-stream-mode" value="full" ${!isMetadataOnly ? 'checked' : ''} style="display:none;">
               <span class="wiz-device-text">
                 <span class="wiz-device-label">Full Streaming Setup (Recommended)</span>
-                <span class="wiz-device-desc">Connect your Debrid service (Torbox, Real-Debrid, etc.) and configure fast scrapers like Torrentio & Comet.</span>
+                <span class="wiz-device-desc">Choisissez AllDebrid (prioritaire) ou Real-Debrid, puis configurez les extensions de lecture.</span>
               </span>
             </label>
             <label class="wiz-device-check-row${isMetadataOnly ? ' checked' : ''}" id="wiz-choice-meta" style="cursor:pointer;">
@@ -2510,27 +2509,18 @@
           <p class="wiz-note" style="margin-bottom:10px;">Select your Debrid service and provide the API key for high-speed streaming.</p>
           <label class="wiz-label">Debrid Provider
             <select id="wiz-aio-debrid-type" class="wiz-input" style="margin-bottom:12px;">
-              <option value="torbox" ${(state.aioDebridType || 'torbox') === 'torbox' ? 'selected' : ''}>Torbox</option>
-              <option value="realdebrid" ${state.aioDebridType === 'realdebrid' ? 'selected' : ''}>Real-Debrid</option>
-              <option value="alldebrid" ${state.aioDebridType === 'alldebrid' ? 'selected' : ''}>AllDebrid</option>
-              <option value="premiumize" ${state.aioDebridType === 'premiumize' ? 'selected' : ''}>Premiumize</option>
+              <option value="alldebrid" ${(state.aioDebridType || 'alldebrid') === 'alldebrid' ? 'selected' : ''}>1. AllDebrid</option>
+              <option value="realdebrid" ${state.aioDebridType === 'realdebrid' ? 'selected' : ''}>2. Real-Debrid</option>
             </select>
           </label>
           <label class="wiz-label" style="margin-bottom:0;">Debrid API Key <span class="wiz-hint">(optional)</span>
             <span class="wiz-input-wrap">
-              <input type="password" id="wiz-aio-debrid-key" class="wiz-input" placeholder="Enter API Key..." value="${escapeAttr(state.aioDebridKey || state.torboxKey || '')}" autocomplete="off" spellcheck="false">
+              <input type="password" id="wiz-aio-debrid-key" class="wiz-input" placeholder="Enter API Key..." value="${escapeAttr(state.aioDebridKey || (state.aioDebridType === 'realdebrid' ? state.realDebridKey : state.allDebridKey) || '')}" autocomplete="off" spellcheck="false">
               <button type="button" class="wiz-input-toggle" id="wiz-aio-debrid-toggle">Show</button>
             </span>
           </label>
           <div class="wiz-note" style="margin-top:10px;">Don't use a debrid service? Leave this blank — your scrapers will fall back to direct/uncached results instead of cached debrid links.</div>
-          <div class="wiz-torbox-promo" id="wiz-aio-torbox-promo" style="margin-top:14px; ${(state.aioDebridType || 'torbox') === 'torbox' ? '' : 'display:none;'}">
-            <div class="wiz-torbox-promo-copy">
-              <span class="wiz-torbox-promo-title">Don't have Torbox yet?</span>
-              <span class="wiz-torbox-promo-text">Sign up with my link for a discount. It helps keep this project running.</span>
-            </div>
-            <a href="https://torbox.app/subscription?referral=691a76aa-4d6e-40c0-8625-ffe4e4189ae4" target="_blank" rel="noopener" class="wiz-torbox-promo-btn"><span>Get Torbox</span><span class="wiz-torbox-promo-arrow">→</span></a>
-            <a href="https://torbox.app/subscription" target="_blank" rel="noopener" class="wiz-torbox-promo-skip">or sign up without a referral code</a>
-          </div>
+          <p class="wiz-note">Priorité : AllDebrid. Real-Debrid peut être ajouté comme deuxième fournisseur.</p>
         </div>
         <div class="wiz-error" id="wiz-aio-error" style="display:none; margin-top:15px;"></div>
         <div class="wiz-btn-row" style="margin-top:16px;">
@@ -2747,7 +2737,7 @@
       // delegated overlay input/change listener as the user typed across the
       // previous steps — no need to re-read the DOM here.
       const debridKey = state.aioDebridKey || '';
-      const debridType = state.aioDebridType || 'torbox';
+      const debridType = state.aioDebridType || 'alldebrid';
       const scraperTypes = (state.aioScraperTypes || ['torrentio']).filter(s => s !== 'none');
       const traktToken = state.aioTraktToken || '';
       const tmdbKey = state.aioTmdbKey || '';
@@ -2810,15 +2800,7 @@
         const addonsToInstall = [{ name: 'AIO Streams', url: build.aioStreamsUrl }];
         await window.NuvioPush.installAddons(state.token, state.targetProfileId, addonsToInstall);
 
-        // Also setup Torbox natively in Nuvio so the UI registers it properly
-        if (debridType === 'torbox' && debridKey) {
-          try {
-            await window.NuvioPush.setupTorbox(state.token, state.targetProfileId, debridKey, SETTINGS_PLATFORMS);
-            state.torboxApplied = true;
-          } catch (e) {
-            console.error("Failed to link Torbox natively:", e);
-          }
-        }
+        state.debridApplied=!!(state.allDebridKey||state.realDebridKey||debridKey);
 
         // The TMDB key is injected into every AIO Metadata instance above, but
         // any folder that isn't routed through AIO Metadata still resolves
@@ -2832,39 +2814,11 @@
           }
         }
 
-        // Offer native Torbox Instant as a backup path alongside AIO Streams,
-        // unless we already just natively linked Torbox above as the chosen
-        // debrid provider (no point offering to set up what's already set up).
-        if (debridType === 'torbox') {
-          afterStreaming();
-        } else {
-          state.aioSubStep = 'torbox-offer';
-          go('aio-setup'); // state.step is currently 'pushing' — hop back so the dispatcher routes here
-        }
+        afterStreaming();
       } catch (err) {
         state.errorMsg = (err && err.message) || String(err);
         go('error');
       }
-    });
-  }
-
-  function renderAioTorboxOffer(panel) {
-    panel.innerHTML = `
-      ${header('One More Thing', '', false)}
-      <div class="wiz-body wiz-streaming-prompt">
-        <p class="wiz-prompt-heading">Also set up Torbox Instant as a native backup?</p>
-        <p class="wiz-note">AIO Streams already handles your streaming. Linking Torbox Instant directly in Nuvio too adds a faster native fallback with its own scrapers (Torrentio, Comet, MediaFusion) if AIO Streams ever has trouble.</p>
-        <div class="wiz-btn-row">
-          <button class="wiz-secondary" id="wiz-aio-torbox-skip"><span>No, I'm done</span></button>
-          <button class="wiz-primary" id="wiz-aio-torbox-yes"><span>Yes, set it up</span></button>
-        </div>
-      </div>`;
-    el('wiz-close').addEventListener('click', close);
-    el('wiz-aio-torbox-skip').addEventListener('click', () => afterStreaming());
-    el('wiz-aio-torbox-yes').addEventListener('click', () => {
-      // Reuses Native Mode's own Torbox + scraper-addons flow verbatim.
-      state.streamingSubStep = 'debrid';
-      go('streaming');
     });
   }
 
@@ -3419,9 +3373,10 @@
 
     const aioStreamsConfig = {
       addonName: 'Nuvio Build - AIO Streams',
-      services: hasDebrid ? [
-        { id: debridType, enabled: true, credentials: { apiKey: debridKey } }
-      ] : [],
+      services: [
+        ...(state.allDebridKey || (debridType === 'alldebrid' && debridKey) ? [{ id: 'alldebrid', enabled: true, credentials: { apiKey: state.allDebridKey || debridKey } }] : []),
+        ...(state.realDebridKey || (debridType === 'realdebrid' && debridKey) ? [{ id: 'realdebrid', enabled: true, credentials: { apiKey: state.realDebridKey || debridKey } }] : []),
+      ],
       posterService: 'none',
       usePosterServiceForMeta: false,
       usePosterRedirectApi: false,
@@ -5555,7 +5510,7 @@
     el('wiz-close').addEventListener('click', close);
     wireForYouProviderToggle(panel);
     // "Skip for now" means skip *For You*, not skip the rest of setup - both
-    // paths still have to land on the Torbox/scraper screens or the visitor
+    // paths still have to land on the debrid/scraper screens or the visitor
     // ends up on "You're live" with no debrid key and no scrapers at all.
     el('wiz-foryou-skip').addEventListener('click', () => goToStreaming());
     el('wiz-foryou-choose-continue').addEventListener('click', () => {
@@ -5980,15 +5935,18 @@
         }
         else if (id === 'wiz-aio-rpdb-key') { state.aioRpdbKey = e.target.value.trim(); refreshPosterPreview(); }
         else if (id === 'wiz-aio-debrid-type') {
-          state.aioDebridType = e.target.value;
-          const promo = el('wiz-aio-torbox-promo');
-          if (promo) promo.style.display = state.aioDebridType === 'torbox' ? '' : 'none';
+          const previous=state.aioDebridType||'alldebrid';
+          if(previous==='alldebrid')state.allDebridKey=state.aioDebridKey||state.allDebridKey;
+          if(previous==='realdebrid')state.realDebridKey=state.aioDebridKey||state.realDebridKey;
+          state.aioDebridType=e.target.value==='realdebrid'?'realdebrid':'alldebrid';
+          state.aioDebridKey=state.aioDebridType==='realdebrid'?state.realDebridKey:state.allDebridKey;
+          const keyEl=el('wiz-aio-debrid-key');
+          if(keyEl)keyEl.value=state.aioDebridKey||'';
         }
         else if (id === 'wiz-aio-debrid-key') {
-          state.aioDebridKey = e.target.value.trim();
-          if (!state.aioDebridType || state.aioDebridType === 'torbox') {
-            state.torboxKey = state.aioDebridKey;
-          }
+          state.aioDebridKey=e.target.value.trim();
+          if(state.aioDebridType==='realdebrid')state.realDebridKey=state.aioDebridKey;
+          else state.allDebridKey=state.aioDebridKey;
         }
         else if (id.indexOf('wiz-aio-scraper-') === 0 && e.target.dataset.scraper) {
           const type = e.target.dataset.scraper;
@@ -6029,12 +5987,6 @@
         else if (id === 'wiz-aio-top-key') { state.aioTopPosterKey = e.target.value.trim(); refreshPosterPreview(); }
         else if (id === 'wiz-email') state.email = e.target.value;
         else if (id === 'wiz-profile-name') state.profileName = e.target.value;
-        else if (id === 'wiz-torbox-key') {
-          state.torboxKey = e.target.value.trim();
-          if (!state.aioDebridType || state.aioDebridType === 'torbox') {
-            state.aioDebridKey = state.torboxKey;
-          }
-        }
         else if (id === 'wiz-tmdb-key') {
           state.tmdbKey = e.target.value.trim();
           state.aioTmdbKey = state.tmdbKey;
