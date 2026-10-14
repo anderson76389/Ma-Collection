@@ -36,7 +36,7 @@ jobs:
           npx playwright install --with-deps chromium
       - name: Vérifier syntaxe de l'application
         run: |
-          for f in catalog-labels-fr.js app.js wizard.js customize.js nuvio-push.js account-ui.js account-vault.js profile-studio.js site-fr.js destination-picker.js kovelyx-export.js collections/test-channels.js; do
+          for f in catalog-labels-fr.js app.js wizard.js customize.js nuvio-push.js account-ui.js account-vault.js profile-studio.js site-fr.js import-studio.js destination-picker.js kovelyx-export.js collections/test-channels.js; do
             node --check "$f"
           done
       - name: Charger le site local et simuler Nuvio
