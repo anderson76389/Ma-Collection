@@ -413,7 +413,7 @@
     // provided fields are touched; everything else in the blob survives. A freshly
     // created profile is seeded asynchronously server-side and can clobber an
     // early write, so we read back and retry until it sticks.
-    // opts: { torboxKey, tmdbEnabled, tmdbKey, mdblistKey, trakt }
+    // opts: { tmdbEnabled, tmdbKey, mdblistKey, trakt } ; le débridage est configuré dans les extensions.
     async applyProfileSettings(token, profileId, platform, opts) {
       const o = opts || {};
       // Settings are stored per device type ("tv", "mobile", …). Accept one or
@@ -424,20 +424,6 @@
       const has = (v) => v != null && String(v).trim() !== '';
       const appliers = [];
 
-      if (has(o.torboxKey)) {
-        const key = String(o.torboxKey).trim();
-        appliers.push({
-          apply: (f) => {
-            const d = isPlainObject(f.debrid_settings) ? f.debrid_settings : {};
-            d.debrid_enabled = B(true);
-            d.debrid_torbox_api_key = S(key);
-            d.debrid_cloud_library_enabled = B(true);
-            d.debrid_preferred_resolver_provider_id = S('torbox');
-            f.debrid_settings = d;
-          },
-          verify: (f) => f.debrid_settings && f.debrid_settings.debrid_torbox_api_key && f.debrid_settings.debrid_torbox_api_key.value === key,
-        });
-      }
       if (has(o.tmdbKey)) {
         const key = String(o.tmdbKey).trim();
         appliers.push({
@@ -523,11 +509,6 @@
           }
         }
       }
-    },
-
-    // Back-compat thin wrapper — turns on Torbox as the debrid resolver.
-    async setupTorbox(token, profileId, apiKey, platform) {
-      return this.applyProfileSettings(token, profileId, platform, { torboxKey: apiKey });
     },
 
     // Sets a profile's avatar from a public image URL (no file upload). Updates

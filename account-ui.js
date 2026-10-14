@@ -154,7 +154,8 @@
       prefs = (snap && snap.prefs) || {};
     } catch (e) { keys = {}; prefs = {}; }
     const map = {
-      'account-key-torbox': keys.torboxKey || '',
+      'account-key-alldebrid': keys.allDebridKey || '',
+      'account-key-realdebrid': keys.realDebridKey || '',
       'account-key-tmdb': keys.tmdbKey || '',
       'account-key-mdblist': keys.mdblistKey || keys.forYouMdblistKey || '',
       'account-key-nuvio-email': keys.nuvioEmail || prefs.email || '',
@@ -170,7 +171,8 @@
 
   function readKeysForm() {
     return {
-      torboxKey: (($('account-key-torbox') || {}).value || '').trim(),
+      allDebridKey: (($('account-key-alldebrid') || {}).value || '').trim(),
+      realDebridKey: (($('account-key-realdebrid') || {}).value || '').trim(),
       tmdbKey: (($('account-key-tmdb') || {}).value || '').trim(),
       mdblistKey: (($('account-key-mdblist') || {}).value || '').trim(),
       forYouMdblistKey: (($('account-key-mdblist') || {}).value || '').trim(),
@@ -193,7 +195,8 @@
     try {
       if (typeof window !== 'undefined') {
         const seMap = [
-          ['se-torbox-key', keys.torboxKey],
+          ['se-alldebrid-key', keys.allDebridKey],
+          ['se-realdebrid-key', keys.realDebridKey],
           ['se-tmdb-key', keys.tmdbKey],
           ['se-mdblist-key', keys.mdblistKey],
         ];
