@@ -21,8 +21,12 @@
       return name?"https://api.ratingposterdb.com/"+encodeURIComponent(name)+"/imdb/poster-default/{imdb_id}.jpg":"";
     }
     if(state.poster==="top")return state.topKey.trim()?"https://api.top-posters.com/"+encodeURIComponent(state.topKey.trim())+"/imdb/poster/{imdb_id}.jpg":"";
-    const flags=[state.bttrQuality?"quality":"",state.bttrGenre?"genre":"",state.bttrRating?"rating":""].filter(Boolean);
-    return "https://btttr.cc/poster"+(flags.length?"-"+flags.join("-"):"")+"/imdb/poster-default/{imdb_id}.jpg";
+    let suffix="";
+    if(!state.bttrGenre&&!state.bttrRating)suffix+="n";
+    else {if(!state.bttrGenre)suffix+="r";if(!state.bttrRating)suffix+="g";}
+    if(state.bttrQuality)suffix+="q";
+    return "https://btttr.cc/poster"+(suffix?"-"+suffix:"")+"/imdb/poster-default/{imdb_id}.jpg"+
+      (state.bttrLanguage!=="en"?"?lang="+encodeURIComponent(state.bttrLanguage):"");
   }
   function setup(){
     const db=window.MaCollectionDebrid;
