@@ -152,8 +152,8 @@ try {
   await run("Clés API : clics Test TMDB, MDBList et TorBox (réponses simulées)",async()=>{
     const requests=[];
     const routes=[
-      {match:"https://api.themoviedb.org/3/authentication?api_key=*",id:"tmdb"},
-      {match:"https://api.mdblist.com/user?apikey=*",id:"mdblist"},
+      {match:"https://api.themoviedb.org/3/movie/550?api_key=*",id:"tmdb"},
+      {match:"https://api.mdblist.com/lists/user/?apikey=*",id:"mdblist"},
       {match:"https://api.torbox.app/v1/api/user/me",id:"torbox"}
     ];
     for(const r of routes)await page.route(r.match,async route=>{
@@ -166,7 +166,7 @@ try {
       requests.push({id:r.id,key:candidate,method:req.method()});
       await route.fulfill({status:good?200:401,contentType:"application/json",
         headers:{"access-control-allow-origin":"*"},
-        body:JSON.stringify(good?{success:true,name:"Compte de test"}:{success:false,error:"invalid credential"})});
+        body:JSON.stringify(good?(r.id==="tmdb"?{id:550,title:"Fiche TMDB de test"}:{success:true,name:"Compte de test"}):{success:false,error:"invalid credential"})});
     });
     await page.evaluate(()=>openSimpleEditor());
     if((await page.locator("#se-mode-advanced").getAttribute("aria-pressed"))!=="true"){
