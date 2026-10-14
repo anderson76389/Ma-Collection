@@ -645,7 +645,7 @@ function showBetaPatchNotes(channel) {
   overlay.innerHTML = `
     <div class="popup-panel beta-notes-panel" role="dialog" aria-modal="true" aria-labelledby="beta-notes-title">
       <div class="beta-notes-brand" aria-hidden="true">
-        <img class="beta-notes-logo" src="assets/ma-collection.webp" alt="">
+        <img class="beta-notes-logo" src="assets/kovelyx-logo.svg" alt="">
       </div>
       <h3 class="popup-title" id="beta-notes-title">${escapeHtmlBeta(notes.title || 'Beta patch notes')}</h3>
       <p class="beta-notes-intro">${escapeHtmlBeta(notes.intro || '')}</p>

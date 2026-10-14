@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="title desc">
+  <title id="title">Kovelyx</title>
+  <desc id="desc">Monogramme K en rubans violet et lavande, avec un triangle de lecture central.</desc>
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#17142B"/><stop offset=".56" stop-color="#0D0C1B"/><stop offset="1" stop-color="#090913"/></linearGradient>
+    <linearGradient id="stem" x1="0" y1="0" x2="0.9" y2="1"><stop stop-color="#F8DFFF"/><stop offset=".36" stop-color="#B56AFF"/><stop offset="1" stop-color="#6043F4"/></linearGradient>
+    <linearGradient id="top" x1="0.1" y1="0" x2="1" y2="0.9"><stop stop-color="#DFA7FF"/><stop offset=".43" stop-color="#B24BF8"/><stop offset="1" stop-color="#7947FA"/></linearGradient>
+    <linearGradient id="bottom" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#966AFF"/><stop offset=".58" stop-color="#693BEF"/><stop offset="1" stop-color="#4537BF"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#9E59F9" stop-opacity=".21"/><stop offset="1" stop-color="#9E59F9" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#back)"/>
+  <circle cx="303" cy="244" r="219" fill="url(#halo)"/>
+  <rect x="2" y="2" width="508" height="508" rx="114" fill="none" stroke="#D8AEFF" stroke-opacity=".15" stroke-width="4"/>
+  <path d="M138 97C117 97 104 112 104 135V371C104 392 117 409 139 416L189 431V126C189 111 172 101 155 98L138 97Z" fill="url(#stem)"/>
+  <path d="M188 232L339 109C356 95 376 95 391 108L411 125C430 142 429 164 410 180L242 308L188 283V232Z" fill="url(#top)"/>
+  <path d="M187 244L411 344C434 355 439 379 418 397L399 414C382 429 366 430 345 418L188 334V244Z" fill="url(#bottom)"/>
+  <path d="M187 218L270 264L188 322L187 218Z" fill="#F7D1FF"/>
+  <path d="M192 239L241 266L192 302Z" fill="#6E39EC"/>
+  <path d="M139 101C121 102 111 116 111 135V373C111 389 119 401 136 407L151 412V110L139 101Z" fill="#FFF" fill-opacity=".11"/>
+</svg>
