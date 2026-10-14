@@ -3100,7 +3100,7 @@ function exportForBingecat() {
 }
 
 async function exportForSelfHost() {
-  if (!window.NuvioWizard || typeof window.NuvioWizard.generateSelfHostExport !== 'function') {
+  if (!window.MaCollectionServices || typeof window.MaCollectionServices.generateSelfHostExport !== 'function') {
     showToast('AIO Streams setup is not ready yet.', 'error');
     return;
   }
@@ -3111,11 +3111,11 @@ async function exportForSelfHost() {
   if (popupTitle) popupTitle.textContent = 'Generating Self-Host Export...';
 
   try {
-    const result = await window.NuvioWizard.generateSelfHostExport();
+    const result = await window.MaCollectionServices.generateSelfHostExport();
     const stamp = new Date().toISOString().slice(0, 10);
 
     const aioStr = typeof result === 'object' ? result.aioConfig : result;
-    const collectionStr = typeof result === 'object' ? result.nuvioCollection : null; // nom de champ interne historique
+    const collectionStr = typeof result === 'object' ? result.collection : null;
 
     function triggerDownload(content, filename) {
       const blob = new Blob([content], { type: 'application/json' });
@@ -3777,8 +3777,8 @@ function accountSnapshot() {
   let wizPrefs = {};
   let wizKeys = {};
   try {
-    if (window.NuvioWizard && typeof window.NuvioWizard.peekVaultFields === "function") {
-      const peeked = window.NuvioWizard.peekVaultFields() || {};
+    if (window.MaCollectionServices && typeof window.MaCollectionServices.peekVaultFields === "function") {
+      const peeked = window.MaCollectionServices.peekVaultFields() || {};
       wizPrefs = peeked.prefs || {};
       wizKeys = peeked.keys || {};
     }
@@ -3897,8 +3897,8 @@ function accountApply(payload) {
   }
 
   try {
-    if (window.NuvioWizard && typeof window.NuvioWizard.applyVaultFields === "function") {
-      window.NuvioWizard.applyVaultFields({ keys, prefs });
+    if (window.MaCollectionServices && typeof window.MaCollectionServices.applyVaultFields === "function") {
+      window.MaCollectionServices.applyVaultFields({ keys, prefs });
     }
   } catch (e) { /* ignore */ }
 
@@ -4532,7 +4532,7 @@ function seToggleSources(row) {
 // ----- settings panel -----
 function seEnsureAddons() {
   if (!seAddons) {
-    const src = (window.NuvioWizard && window.NuvioWizard.SUGGESTED_ADDONS) || [];
+    const src = (window.MaCollectionServices && window.MaCollectionServices.SUGGESTED_ADDONS) || [];
     seAddons = src.map(a => ({ name: a.name, url: a.url, note: a.note || '', checked: !!a.recommended }));
   }
   return seAddons;
@@ -4560,8 +4560,8 @@ function renderSimpleSettings() {
   const addons = seEnsureAddons();
   const v = s => escapeHtml(s || '').replace(/"/g, '&quot;');
   // Same definitions the wizard uses, so a term never means two things.
-  const tip = (key, label) => (window.NuvioWizard && window.NuvioWizard.glossaryTip)
-    ? window.NuvioWizard.glossaryTip(key, label)
+  const tip = (key, label) => (window.MaCollectionServices && window.MaCollectionServices.glossaryTip)
+    ? window.MaCollectionServices.glossaryTip(key, label)
     : escapeHtml(label);
   const adv = html => (seAdvanced ? html : '');
   host.innerHTML = `
@@ -4665,7 +4665,7 @@ function renderSimpleSettings() {
 function wireSeKeyTest(buttonId, fieldId, testFnName) {
   const btn = document.getElementById(buttonId);
   const field = document.getElementById(fieldId);
-  const testFn = window.NuvioWizard && window.NuvioWizard[testFnName];
+  const testFn = window.MaCollectionServices && window.MaCollectionServices[testFnName];
   if (!btn || !field || !testFn) return;
   btn.addEventListener('click', async () => {
     const key = field.value.trim();
