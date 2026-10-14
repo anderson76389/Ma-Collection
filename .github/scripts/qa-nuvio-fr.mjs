@@ -10,10 +10,10 @@ const collectionTranslations = JSON.parse(readFileSync('locales/fr.json', 'utf8'
 assert(Object.keys(siteTranslations).length >= 800, 'Translations interface absentes');
 assert(Object.keys(collectionTranslations).length >= 1800, 'Traductions des catalogues absentes');
 const expectedLabels = {
-  'Emerald Fennell (Best Of)': 'Emerald Fennell (films incontournables)',
+  'Emerald Fennell (Best Of)': 'Films incontournables : Emerald Fennell',
   'Illumination Blockbusters': 'Blockbusters du studio Illumination',
   'Atmospheric Mystery Slow Burns': 'Mystères à tension progressive',
-  'Best Film Editing-Editing Winners 1934-2025': 'Prix du meilleur montage (1934–2025)',
+  'Best Film Editing-Editing Winners 1934-2025': 'Prix du meilleur montage — 1934–2025',
   '00s Movies': 'Films et séries des années 2000',
   '50s Movies': 'Films et séries des années 1950',
   'Networks': 'Chaînes',
@@ -159,9 +159,9 @@ for(const name of [...actorNames,...directorNames]) assert.equal(collectionTrans
 for(const s of [...actorSources,...directorSources]) assert(s.id && collectionTranslations[s.title], 'Sous-catégorie acteur/réalisateur sans traduction : '+s.title);
 for(const f of directorsFixture.folders) {
   assert.equal(f.sources.length,2,'Nombre de sous-catégories réalisateur inattendu : '+f.title);
-  assert.equal(collectionTranslations[f.title+' (Best Of)'],f.title+' (films incontournables)');
-  assert.equal(collectionTranslations[f.title+' (Recent)'],f.title+' (films récents)');
-  assert.equal(collectionTranslations[f.title+' (Le meilleur de)'],f.title+' (films incontournables)');
+  assert.equal(collectionTranslations[f.title+' (Best Of)'],'Films incontournables : '+f.title);
+  assert.equal(collectionTranslations[f.title+' (Recent)'],'Films récents : '+f.title);
+  assert.equal(collectionTranslations[f.title+' (Le meilleur de)'],'Films incontournables : '+f.title);
 }
 assert.equal(collectionTranslations['Actors'],'Acteurs');
 assert.equal(collectionTranslations['Legendary Directors'],'Réalisateurs légendaires');
@@ -191,7 +191,7 @@ assert.equal(collectionTranslations['Awards'],'Récompenses');
 assert.equal(collectionTranslations['Bones, WIT & Trigger'],'Bones, WIT Studio et Trigger');
 assert.equal(collectionTranslations['Popular 90s Movies'],'Films populaires des années 1990');
 assert.equal(collectionTranslations['Most Popular of the Year 2020'],'Films les plus populaires de 2020');
-assert.equal(collectionTranslations['Grand Prix Winners 1967-2025'],'Grand Prix : lauréats (1967–2025)');
+assert.equal(collectionTranslations['Grand Prix Winners 1967-2025'],'Grand Prix : lauréats — 1967–2025');
 
 // Audit intégral des catalogues originaux (pas de modification des données).
 const internationalFixture=JSON.parse(readFileSync('collections/international_cinema.json','utf8'))[0];
