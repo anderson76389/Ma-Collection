@@ -1,7 +1,7 @@
 /* Traduction du texte d'interface. Aucun média, lien ou identifiant n'est modifié. */
 (() => {
   "use strict";
-  const dictionaries = ["locales/fr.json?v=9", "locales/site-fr.json?v=3"];
+  const dictionaries = ["locales/fr.json?v=16", "locales/site-fr.json?v=16"];
   const blocked = "script,style,noscript,code,pre,textarea,[contenteditable],[contenteditable='true'],img,picture,video,audio,source,track,canvas,svg,object,embed,iframe,[data-no-translate]";
   const textAttributes = ["placeholder", "title", "aria-label", "data-tip"];
   const dict = Object.create(null);
@@ -19,11 +19,22 @@
       .replace(/\b(Films|Séries)\s+\1\b/gi, "$1");
   }
 
+  function ampersandToEt(value) {
+    // Seulement les textes affichés : jamais les URL, attributs src/href,
+    // expressions JS, identifiants techniques ou illustrations.
+    return String(value).replace(/&(?:amp;)?/g, " Et ").replace(/[ \\t]{2,}/g, " ").trim();
+  }
   function translate(value) {
     const source = String(value || "").trim();
     if (!source) return null;
     const exact = Object.prototype.hasOwnProperty.call(dict, source) ? dict[source] : null;
-    if (typeof exact === "string") return removeDuplicateLabel(exact);
+    if (typeof exact === "string") return removeDuplicateLabel(ampersandToEt(exact));
+    const normalizedSource = ampersandToEt(source);
+    if (normalizedSource !== source) {
+      const alias = Object.prototype.hasOwnProperty.call(dict, normalizedSource)
+        ? dict[normalizedSource] : normalizedSource;
+      return removeDuplicateLabel(ampersandToEt(alias));
+    }
 
     // Messages comptant des éléments : ces nombres ne sont pas des identifiants.
     let m = /^(\d+)\s+of\s+(\d+)\s+folders?\s+selected$/i.exec(source);
