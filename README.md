@@ -6,9 +6,9 @@
 
 **Créez et personnalisez vos catalogues Nuvio, en français.**
 
-[![Français](https://img.shields.io/badge/Langue-Français-6455ba?style=flat-square)](#)
-[![Nuvio](https://img.shields.io/badge/Compatible-Nuvio-6455ba?style=flat-square)](#)
-[![Web](https://img.shields.io/badge/Interface-Web-292937?style=flat-square)](#)
+![Français](https://img.shields.io/badge/Langue-Français-6455ba?style=flat-square)
+![Nuvio](https://img.shields.io/badge/Compatible-Nuvio-6455ba?style=flat-square)
+![Web](https://img.shields.io/badge/Interface-Web-292937?style=flat-square)
 
 **[🌐 Ouvrir le configurateur](https://anderson76389.github.io/Ma-Collection/)** · **[📂 Voir les catalogues](collections/)**
 
