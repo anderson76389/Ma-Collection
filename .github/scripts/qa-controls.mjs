@@ -196,6 +196,30 @@ try {
     await page.evaluate(()=>backToCinematicEditor());
     for(const r of routes) await page.unroute(r.match);
   });
+  await run("Extensions : vrai manifest, faux JSON, HTML et HTTP 404",async()=>{
+    await page.route("https://qa-addons.invalid/**",async route=>{
+      const suffix=new URL(route.request().url()).pathname;
+      const common={headers:{"access-control-allow-origin":"*"}};
+      if(suffix.includes("/ok/"))
+        return route.fulfill({...common,status:200,contentType:"application/json",
+          body:JSON.stringify({id:"qa.stremio",version:"1.0.0",name:"QA Extension",resources:["stream"],types:["movie"]})});
+      if(suffix.includes("/html/"))
+        return route.fulfill({...common,status:200,contentType:"text/html",body:"<html>Not a manifest</html>"});
+      if(suffix.includes("/json/"))
+        return route.fulfill({...common,status:200,contentType:"application/json",body:JSON.stringify({message:"No addon here"})});
+      return route.fulfill({...common,status:404,body:"Not found"});
+    });
+    const checks=await page.evaluate(async()=>{
+      const test=window.NuvioWizard.checkManifestAlive;
+      const root="https://qa-addons.invalid";
+      return Promise.all(["ok","html","json","missing"].map(async p=>({p,...await test(root+"/"+p+"/manifest.json")})));
+    });
+    assert.equal(checks[0].ok,true,"Manifest d'extension valide refusé");
+    assert.equal(checks[1].ok,false,"Une page HTML ne doit pas passer");
+    assert.equal(checks[2].ok,false,"Un JSON sans id d'extension ne doit pas passer");
+    assert.equal(checks[3].ok,false,"HTTP 404 ne doit pas passer");
+    await page.unroute("https://qa-addons.invalid/**");
+  });
   await run("FR : sous-catégories sans parenthèses ni doublons, titres naturels",async()=>{
     const result=await page.evaluate(()=>{
       const rows=[{id:"qa",title:"Test",folders:[{id:"f",title:"Nouvelles séries",
