@@ -28,18 +28,47 @@ const ignored=new Set(["metadata.json","nuvio_mega_collection.json",
   "kaoxt-aio-base-config.json","kaoxt-aio-catalogs.json"]);
 const files=(await readdir(sourceFolder)).filter(x=>x.endsWith(".json")&&!ignored.has(x)).sort();
 const byId=new Map();
+let inputCategories=0, deduplicatedFolders=0, deduplicatedSources=0;
 for(const file of files) {
   const list=JSON.parse(await readFile(join(sourceFolder,file),"utf8"));
   if(!Array.isArray(list)||!list.every(x=>x&&Array.isArray(x.folders)))continue;
   for(const collection of list){
-    if(byId.has(collection.id))throw new Error("Catégorie en double : "+collection.id);
-    byId.set(collection.id,collection);
+    inputCategories++;
+    // Trois collections originales (Découvrir / Tendances / Pour vous)
+    // partagent un même ID Nuvio. Les fusionner sous cet ID plutôt que
+    // fabriquer de nouveaux identifiants, ce qui casserait les profils.
+    if(!byId.has(collection.id)) {
+      byId.set(collection.id,collection);
+      continue;
+    }
+    const target=byId.get(collection.id);
+    for(const f of collection.folders) {
+      const existing=(target.folders||[]).find(x=>
+        (f.id&&x.id===f.id) || x.title===f.title);
+      if(!existing) {target.folders.push(f);continue;}
+      deduplicatedFolders++;
+      for(const key of ["sources","catalogSources"]){
+        if(!Array.isArray(existing[key]))existing[key]=[];
+        const used=new Set(existing[key].map(x=>
+          x.id || x.catalogId || [x.provider,x.title,x.mediaType].join("|")));
+        for(const src of f[key]||[]){
+          const id=src.id || src.catalogId ||
+            [src.provider,src.title,src.mediaType].join("|");
+          if(used.has(id)){deduplicatedSources++;continue;}
+          existing[key].push(src);used.add(id);
+        }
+      }
+    }
   }
 }
 const before=[...byId.values()].sort((a,b)=>(webOrder.get(a.id)??1000)-
   (webOrder.get(b.id)??1000)||a.title.localeCompare(b.title,"fr"));
-if(before.length<20||before.some(c=>!c.id))
-  throw new Error("Export incomplet : "+before.length+" catégories au lieu de 20");
+if(inputCategories<20||before.length<18||before.some(c=>!c.id))
+  throw new Error("Export incomplet : "+before.length+
+    " IDs de catégorie distincts pour "+inputCategories+" sections originales");
+console.log("Fusion saine des doublons Nuvio : "+inputCategories+" sections → "+
+  before.length+" IDs uniques, "+deduplicatedFolders+" dossiers et "+
+  deduplicatedSources+" sources identiques regroupés.");
 const data=structuredClone(before);
 const translated=(s)=>typeof s==="string"&&Object.prototype.hasOwnProperty.call(dict,s)
   ? dict[s] : s;
@@ -95,7 +124,7 @@ function withoutLabels(value){
 }
 if(JSON.stringify(withoutLabels(data))!==JSON.stringify(withoutLabels(before)))
   throw new Error("Un champ technique, une image, une liste ou un identifiant a été modifié");
-if(stats.sources<3700||stats.dossiers<700||stats.champs_traduits<2500)
+if(stats.sources<3500||stats.dossiers<700||stats.champs_traduits<2500)
   throw new Error("Traduction partielle : "+JSON.stringify(stats));
 const encoded=JSON.stringify(data,null,2)+"\n";
 if(mode==="write"){
