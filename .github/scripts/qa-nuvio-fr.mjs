@@ -727,119 +727,14 @@ try {
   assert(exported.flatMap(c => c.folders || []).some(f => (f.sources || []).some(s => s.title === 'Nouveaux films')), 'Titres français manquants dans le JSON exporté');
   assert(exported.every(c => c.id && Array.isArray(c.folders)), 'Structure Nuvio incorrecte');
 
-  // Vérification de l'assistant, sans aucune authentification.
-  await page.evaluate(() => window.NuvioWizard.open());
-  await page.waitForFunction(() => document.querySelector('#wizard-overlay')?.classList.contains('open')
-    && document.querySelector('#wizard-panel')?.textContent.includes('Importer votre collection dans Nuvio'), { timeout: 15000 });
-  await page.evaluate(() => window.NuvioWizard.close());
-  const payload = rendered.payload;
-
-  // Simulation hors ligne d'un envoi RPC Nuvio : aucun compte ni profil réel n'est touché.
-  const seen = [];
-  await page.route('https://api.nuvio.tv/**', async route => {
-    const req = route.request();
-    if (req.url().includes('sync_push_collections')) {
-      seen.push(JSON.parse(req.postData() || '{}'));
-    }
-    await route.fulfill({
-      status: 200,
-      contentType: 'application/json',
-      headers: { 'access-control-allow-origin':'*', 'access-control-allow-headers':'*' },
-      body: '[]'
-    });
-  });
-  await page.evaluate(async value => window.NuvioPush.pushCollections('qa-only-fake-token', 9999, value), payload);
-  assert(seen.length === 1, 'Le bouton d’envoi Nuvio ne produit pas une requête RPC');
-  assert(seen[0].p_profile_id === 9999, 'Identifiant de profil Nuvio incorrect');
-  assert(Array.isArray(seen[0].p_collections_json) && seen[0].p_collections_json.length === 1, 'Collection Nuvio mal sérialisée');
-
-  // Vérifier directement le dernier point de passage : même une collection
-  // encore anglaise transmise à pushCollections doit arriver FR dans la RPC.
-  const rawEnglish = [{
-    id: 'qa-french-category', title: 'Streaming Services',
-    folders: [{
-      id: 'qa-french-folder', title: 'Netflix',
-      sources: [{ id: 'qa-french-source', title: 'New Movies', name: 'New Movies',
-        genre: 'New Movies', provider: 'tmdb', mediaType: 'MOVIE',
-        filters: { withWatchProviders: '8', watchRegion: 'FR' } }],
-      catalogSources: [{ title: 'Popular Movies', name: 'Popular Movies', genre: 'Popular Movies',
-        addonId: 'test.addon', catalogId: 'non-localize-id' }]
-    }]
-  }];
-  await page.evaluate(async original => {
-    if (window.maCollectionCustomize) window.maCollectionCustomize.locale = 'en';
-    await window.NuvioPush.pushCollections('qa-only-fake-token', 9999, original);
-    if (window.maCollectionCustomize) window.maCollectionCustomize.locale = 'fr';
-  }, rawEnglish);
-  assert.equal(rawEnglish[0].folders[0].sources[0].title, 'New Movies',
-    'pushCollections a modifié le tableau source');
-  assert.equal(seen.length, 2, 'Le second test Nuvio ne passe pas par la RPC');
-  const actual = seen[1].p_collections_json[0];
-  assert.equal(actual.title, 'Plateformes de streaming');
-  assert.equal(actual.folders[0].sources[0].title, 'Nouveaux films');
-  assert.equal(actual.folders[0].sources[0].name, 'Nouveaux films');
-  assert.equal(actual.folders[0].sources[0].genre, 'Nouveaux films');
-  assert.equal(actual.folders[0].catalogSources[0].title, 'Films populaires');
-  assert.equal(actual.folders[0].catalogSources[0].name, 'Films populaires');
-  assert.equal(actual.folders[0].catalogSources[0].catalogId, 'non-localize-id');
-  assert.equal(actual.folders[0].sources[0].filters.withWatchProviders, '8');
-  // Les anciennes configurations ou titres ajoutés à la main peuvent encore
-  // avoir une esperluette : seules les chaînes visibles sont normalisées.
-  const ampSample=[{id:'qa-test-et',title:'Moods & Vibes',folders:[{
-    id:'qa-f-et',title:'Tests & Options',sources:[{
-      id:'qa-s-et',title:'Action & Thriller Series',name:'Action & Thriller Series',
-      genre:'Action & Thriller Series',provider:'tmdb',
-      filters:{watchRegion:'FR'},mediaType:'TV'
-    }]
-  }]}];
-  await page.evaluate(async sample => {
-    await window.NuvioPush.pushCollections('qa-only-fake-token', 9999, sample);
-  }, ampSample);
-  assert.equal(seen.length,3,'La requête supplémentaire de test ne passe pas par Nuvio');
-  const eta=seen[2].p_collections_json[0];
-  assert.equal(eta.title,'Ambiances et émotions');
-  assert.equal(eta.folders[0].title,'Tests Et Options');
-  assert.equal(eta.folders[0].sources[0].title,"Séries d'action et à suspense");
-  assert.equal(eta.folders[0].sources[0].filters.watchRegion,'FR');
-  assert.equal(ampSample[0].folders[0].title,'Tests & Options',
-    'Le formulaire original a été modifié avant la requête');
-
-
-
-  // Intégrations Nuvio : contrôle de la forme des paramètres envoyés puis
-  // relus. Ces requêtes sont toutes simulées ; aucune clé personnelle envoyée.
-  await page.unroute('https://api.nuvio.tv/**');
-  const deviceSettings = new Map();
-  const settingsRequests = [];
-  await page.route('https://api.nuvio.tv/**',async route=>{
-    const req=route.request();
-    const rpc=req.url().split('/').at(-1);
-    const body=JSON.parse(req.postData()||'{}');
-    const device=body.p_platform||'tv';
-    let answer=[];
-    if(rpc==='sync_pull_profile_settings_blob'){
-      if(deviceSettings.has(device)) answer=[{settings_json:deviceSettings.get(device)}];
-    }else if(rpc==='sync_push_profile_settings_blob'){
-      deviceSettings.set(device,body.p_settings_json);
-      settingsRequests.push({device,settings:body.p_settings_json});
-    }else{
-      return route.fulfill({status:400,contentType:'application/json',
-        headers:{'access-control-allow-origin':'*'},body:JSON.stringify({error:'Unexpected mocked RPC '+rpc})});
-    }
-    await route.fulfill({status:200,contentType:'application/json',
-      headers:{'access-control-allow-origin':'*','access-control-allow-headers':'*'},body:JSON.stringify(answer)});
-  });
-  await page.evaluate(async()=>window.NuvioPush.applyProfileSettings(
-    'qa-only-fake-token',9999,['tv','mobile'],
-    {tmdbKey:'qa-tmdb',mdblistKey:'qa-mdblist'}));
-  assert.equal(settingsRequests.length,2,'Il faut écrire les paramètres sur les deux plateformes');
-  for(const request of settingsRequests){
-    const feat=request.settings.features;
-    assert(!feat.debrid_settings || !feat.debrid_settings.debrid_alldebrid_api_key, 'Ne jamais créer un faux paramètre natif AllDebrid');
-    assert.equal(feat.tmdb_settings.tmdb_api_key.value,'qa-tmdb');
-    assert.equal(feat.mdblist_settings.mdblist_api_key.value,'qa-mdblist');
-  }
-  console.log('QA_API_SETTINGS=forme conforme à Nuvio, deux plateformes, relecture simulée');
+  // Les catalogues sont exportés localement et aucune API d'un autre
+  // lecteur multimédia ne doit être chargée par la page Kovelyx.
+  assert.equal(await page.evaluate(() => typeof window.NuvioPush), 'undefined',
+    'Le site ne doit plus charger l’ancien moteur RPC distant');
+  assert.equal(await page.locator('#telemetry-icon').count(),0,
+    'Le compteur externe doit rester supprimé');
+  assert.equal(await page.locator('#btn-import-kovelyx').count(),1,
+    'Le point d’entrée Kovelyx doit exister');
   await page.setViewportSize({ width: 390, height: 844 });
   assert(await page.evaluate(() => document.documentElement.lang === 'fr'), 'Français absent sur mobile');
   assert(!scriptErrors.length, 'Erreurs JavaScript : ' + scriptErrors.join('; '));
@@ -857,7 +752,7 @@ try {
     actorsValidated:personCollections.actorFolders, directorsValidated:personCollections.directorFolders, actorDirectorSubcategoriesValidated:personCollections.actorSources+personCollections.directorSources, personNamesPreserved:personCollections.namesUnchanged,
     decadeFoldersValidated:decadeAnimeAwardsValidation.folderCounts[0], animeFoldersValidated:decadeAnimeAwardsValidation.folderCounts[1], awardsFoldersValidated:decadeAnimeAwardsValidation.folderCounts[2], decadeAnimeAwardsSubcategoriesValidated:decadeAnimeAwardsValidation.checked,
     internationalDocsRealityCatalogSourcesValidated:461, internationalVisibleFolders:internationalDocsRealityValidation.statistics[0].folders, internationalVisibleSources:internationalDocsRealityValidation.statistics[0].sources, documentariesSourcesValidated:internationalDocsRealityValidation.statistics[1].sources, realitySourcesValidated:internationalDocsRealityValidation.statistics[2].sources,
-    dynamicTranslation: true, wizardInFrench: true, actualJsonDownloadValidated: true, mockedNuvioRpc: true, mobileViewport: true,
+    dynamicTranslation: true, actualJsonDownloadValidated: true, kovelyxOnlyRuntime: true, mobileViewport: true,
     javascriptErrors: scriptErrors, missingLocalResources: failedLocal
   }, null, 2));
 } finally {
