@@ -63,9 +63,13 @@ export function providersFor(folder, movieIds, tvIds) {
       else pools.movie.add(id);
     }
   }
+  // Une plateforme (ex. Apple TV+) peut définir un fournisseur uniquement
+  // sur les films et filtrer les séries par réseau : réutiliser le même ID
+  // fournisseur si TMDB confirme explicitement sa présence en France pour la TV.
+  const all = new Set([...pools.movie, ...pools.series]);
   return {
-    movie: [...pools.movie].filter(id => movieIds.has(id)),
-    series: [...pools.series].filter(id => tvIds.has(id))
+    movie: [...all].filter(id => movieIds.has(id)),
+    series: [...all].filter(id => tvIds.has(id))
   };
 }
 
