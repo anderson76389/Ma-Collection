@@ -123,8 +123,8 @@
 
   function start() {
     document.documentElement.lang = "fr";
-    const pageTitle = "Ma-Collection : catalogues pour Kovelyx et Nuvio";
-    if (document.title.includes("Build Your Custom Nuvio Setup")) document.title = pageTitle;
+    const pageTitle = "Ma-Collection : catalogues français pour Kovelyx";
+    if (document.title.includes("Build Your Custom Setup")) document.title = pageTitle;
     Promise.allSettled(dictionaries.map(path =>
       fetch(path).then(response => {
         if (!response.ok) throw new Error("Dictionnaire indisponible : " + path);
