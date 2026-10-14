@@ -64,7 +64,7 @@ for(const file of localePaths){
   }
   const encoded=JSON.stringify(obj,null,2)+"\n";
   const original=await readFile(path,"utf8");
-  if(write&&encoded!==original){await writeFile(path,encoded,"utf8");stat.files++;}
+  if(write&&stat.labels>beforeLabels&&encoded!==original){await writeFile(path,encoded,"utf8");stat.files++;}
   if(!write&&JSON.stringify(obj)!==JSON.stringify(JSON.parse(original)))
     stat.unresolved.push(file+" : dictionnaire non normalisé");
 }
@@ -89,7 +89,8 @@ for(const file of [...files.map(name=>"collections/"+name),
     if(file.startsWith("collections/"))continue;
     throw new Error("JSON invalide : "+file+" : "+e.message);
   }
-  if(file.startsWith("collections/")&&!Array.isArray(obj)&&file!=="collections/metadata.json")continue;
+  if(file==="collections/metadata.json" || (file.startsWith("collections/")&&!Array.isArray(obj)))continue;
+  const beforeLabels=stat.labels;
   if(write)normalize(obj,file);
   else checkDisplay(obj,file);
   const encoded=(prefix?prefix:"")+JSON.stringify(obj,null,2)+(suffix?suffix:"\n");
