@@ -23,15 +23,20 @@
     const publicKey = String(key || "").trim();
     if (!publicKey || publicKey.length > 4096 || /\s/.test(publicKey) ||
         publicKey.startsWith("sb_secret_")) {
-      throw new Error("Une clé publishable/anon publique est requise. N'utilisez jamais une clé secrète !");
+      throw new Error("Seule la clé publique (anon / publishable) est autorisée.");
     }
-    // Un JWT service_role ne doit jamais être envoyé dans du JavaScript public.
-    if (publicKey.includes(".")) {
+    if (!publicKey.startsWith("sb_publishable_")) {
+      const parts = publicKey.split(".");
+      if (parts.length !== 3) throw new Error("Utilisez une clé sb_publishable_ ou une ancienne clé JWT anon publique.");
+      let claims;
       try {
-        const json = JSON.parse(atob(publicKey.split(".")[1].replace(/-/g,"+").replace(/_/g,"/")));
-        if (json.role === "service_role") throw new Error("Une clé service_role n'est jamais autorisée sur ce site.");
+        const value = parts[1].replace(/-/g,"+").replace(/_/g,"/");
+        claims = JSON.parse(atob(value.padEnd(Math.ceil(value.length / 4) * 4, "=")));
       } catch (e) {
-        if (/service_role/.test(e.message || "")) throw e;
+        throw new Error("Clé JWT publique invalide.");
+      }
+      if (claims?.role !== "anon") {
+        throw new Error("Clé refusée : une clé JWT service_role/authenticated est interdite dans le navigateur.");
       }
     }
     return { supabaseUrl: u.origin, supabaseAnonKey: publicKey };
