@@ -181,7 +181,7 @@ try {
       ["mc-mdblist","https://mdblist.com/preferences/"]
     ];
     for(const [field,url] of pair){
-      const anchor=page.locator('#'+field).locator("xpath=following-sibling::div//a").first();
+      const anchor=page.locator("label[for=\""+field+"\"] + .mc-key-actions a").first();
       assert.equal(await anchor.getAttribute("href"),url);
       assert.equal(await anchor.getAttribute("target"),"_blank");
       assert((await anchor.getAttribute("rel")).includes("noopener"));
@@ -192,7 +192,7 @@ try {
       ["ad","https://alldebrid.com/apikeys/"],
       ["rd","https://real-debrid.com/apitoken"]
     ]){
-      const a=page.locator("#mc-"+id).locator("xpath=following-sibling::div//a").first();
+      const a=page.locator("label[for=\"mc-"+id+"\"] + .mc-key-actions a").first();
       assert.equal(await a.getAttribute("href"),url);
     }
     await page.locator("#mc-import-close").click();
