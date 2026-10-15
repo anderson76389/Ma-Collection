@@ -4603,6 +4603,7 @@ function renderSimpleSettings() {
       <span class="se-input-wrap">
         <input id="se-mdblist-key" class="se-input" value="${v(seSettings.mdblistKey)}" placeholder="MDBList key" autocomplete="off">
         <button type="button" class="se-key-test" id="se-mdblist-test">Test</button>
+        <a class="se-api-link" href="https://mdblist.com/preferences/" target="_blank" rel="noopener noreferrer">Obtenir ma clé ↗</a>
       </span>
     </label>`)}
 
@@ -4612,12 +4613,14 @@ function renderSimpleSettings() {
       <span class="se-input-wrap">
         <input type="password" id="se-alldebrid-key" class="se-input" value="${v(seSettings.allDebridKey)}" placeholder="Clé API AllDebrid" autocomplete="off" spellcheck="false">
         <button type="button" class="se-key-test" id="se-alldebrid-test">Tester</button>
+        <a class="se-api-link" href="https://alldebrid.com/apikeys/" target="_blank" rel="noopener noreferrer">Obtenir ma clé ↗</a>
       </span>
     </label>
     <label class="se-field se-advanced-block"><strong>2. Real-Debrid</strong> — clé API (alternative)
       <span class="se-input-wrap">
         <input type="password" id="se-realdebrid-key" class="se-input" value="${v(seSettings.realDebridKey)}" placeholder="Clé API Real-Debrid" autocomplete="off" spellcheck="false">
         <button type="button" class="se-key-test" id="se-realdebrid-test">Tester</button>
+        <a class="se-api-link" href="https://real-debrid.com/apitoken" target="_blank" rel="noopener noreferrer">Obtenir ma clé ↗</a>
       </span>
     </label>
     <p class="se-note">Ces clés configurent les extensions de lecture (Torrentio / AIO Streams). AllDebrid s'utilise par une extension compatible configurée dans Kovelyx.</p>
@@ -4625,6 +4628,7 @@ function renderSimpleSettings() {
       <span class="se-input-wrap">
         <input id="se-tmdb-key" class="se-input" value="${v(seSettings.tmdbKey)}" placeholder="Clé API TMDB v3 (pas le jeton v4)" autocomplete="off">
         <button type="button" class="se-key-test" id="se-tmdb-test">Test</button>
+        <a class="se-api-link" href="https://www.themoviedb.org/settings/api" target="_blank" rel="noopener noreferrer">Obtenir ma clé ↗</a>
       </span>
     </label>`)}
 
