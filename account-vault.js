@@ -399,6 +399,22 @@
     }, 800);
   }
 
+  async function cloudLogout() {
+    const token = authSession?.access_token;
+    const server = authSession?.server;
+    signOutCloud(); // Toujours effacer immédiatement le jeton côté navigateur.
+    if (!token || !server) return;
+    try {
+      const res = await fetch(server + "/auth/v1/logout", {
+        method:"POST",mode:"cors",cache:"no-store",
+        headers:{ ...cloudHeaders(token) }
+      });
+      if (!res.ok) throw new Error("HTTP " + res.status);
+    } catch (error) {
+      console.warn("[Kovelyx] Session locale déconnectée ; révocation réseau non confirmée :", error);
+      // La session locale est supprimée même si le serveur est hors-ligne.
+    }
+  }
   function signOutCloud() {
     lastSyncError = null;
     authSession = null;
@@ -435,6 +451,7 @@
     cloudConfigured,
     cloudSignup,
     cloudLogin,
+    cloudLogout,
     signOutCloud,
     collectPayload,
     getUnlockedPayload,
