@@ -470,10 +470,10 @@
     });
     $('account-cloud-signup')?.addEventListener('click', () => runCloudAuth('signup'));
     $('account-cloud-login')?.addEventListener('click', () => runCloudAuth('login'));
-    $('account-cloud-logout')?.addEventListener('click', () => {
-      window.MaCollectionAccount.signOutCloud();
+    $('account-cloud-logout')?.addEventListener('click', async () => {
+      await window.MaCollectionAccount.cloudLogout();
       refreshCloudForm();
-      cloudStatus("Déconnecté sur le site. Pour fermer aussi la session Windows, déconnectez-vous dans Kovelyx.");
+      cloudStatus("Déconnecté du site. Déconnectez-vous aussi dans l'application Kovelyx si nécessaire.");
     });
     $('account-btn-create')?.addEventListener('click', onCreate);
     $('account-btn-unlock')?.addEventListener('click', onUnlock);
