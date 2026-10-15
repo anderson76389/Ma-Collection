@@ -1268,13 +1268,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://64.media.tumblr.com/9f93a9fc2e02fb466eb02a7d2247cb6e/a5b604d3737fc559-49/s500x750/403804744183922f6091d48139021fc3da22f786.gifv",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/64.media.tumblr.com/d599011a75789ff2cdf903ff.gifv",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/networks/213-netflix/logos/color/213_color_1.png?raw=true",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/49571953.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/fe6b456bf642c03cb2975285.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/3c73feb0011e6876be8cc3f0.webp",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/networks/213-netflix/backdrops/t2_flat_1080p.jpg?raw=true"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/7ea8c3595b9f77c358aa07a2.jpg"
       },
       {
         "id": "folder-IQTF27K8",
@@ -2316,13 +2316,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://64.media.tumblr.com/d717319220a7d26bdaa88e72f6f76889/d9a7a808f588d8f4-63/s500x750/959b0ca57f53153b2ca9adaf414859e45e3734e6.gifv",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/64.media.tumblr.com/7ecd4237971955a9401779bb.gifv",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/networks/2552-apple-tv/logos/color/2552_color_1.png?raw=true",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/4d8f0a8f.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/def005f48576e0a1f2e7299b.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/fded28e64c78f430d24fa049.webp",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/networks/2552-apple-tv/backdrops/t2_flat_1080p.jpg?raw=true"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/24262d1af76bb8cb00e73efb.jpg"
       },
       {
         "id": "folder-LN9SPMQN",
@@ -3560,13 +3560,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://64.media.tumblr.com/3a7015de27b570e421a0182a66d0a69b/0ec3a7379449b39d-2d/s1280x1920/962f0dcfa0a2458bd6bf923ff47776f2404bf43a.gifv",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/64.media.tumblr.com/1921c266c497ee190ac729bb.gifv",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/networks/453-hulu/logos/color/453_color_1.png?raw=true",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/3a4d1b46.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/7eafc08f691897cebb63c648.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/2c5c5db99a27b34965c8f732.webp",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/providers/15-hulu/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f02b845a51ba5527d36ca8aa.jpg"
       },
       {
         "id": "folder-AT8KYHZO",
@@ -4807,13 +4807,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://64.media.tumblr.com/5c5ed8bf948c5b3ca63a11544b94c720/55dbe5d6db4b66a5-bf/s500x750/d6686beaab57aa152f1b92a4562f757a1c522a2f.gifv",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/64.media.tumblr.com/45255e4ed35e7ede829caf6f.gifv",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f9b1d40a.webp",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/5c86c888.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/302e320f61374e528772d6b7.webp",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/2d1b3040dc10f95b09064fa1.webp",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/providers/9-amazon-prime-video/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e1b50858f693e29a5517671c.jpg"
       },
       {
         "id": "folder-526STREAM",
@@ -5978,13 +5978,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/amcplus/amcplus-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ec2a072260f625100e02afa5.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/providers/526-amc/logos/color/4661_amc_1.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/amcplus/amcplus-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/270add6635b471fdcd695575.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/47cb56509c956514caf362b4.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/providers/526-amc/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/cdc52ed351cf5bcfab480839.jpg"
       },
       {
         "id": "folder-CRV8230X",
@@ -5992,11 +5992,11 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/crave/crave-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b23d7f03689cd9b774cf5c5c.gif",
         "heroVideoUrl": "",
         "titleLogoUrl": "",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/crave/crave-cover.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/crave/crave-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c802dd89076fa21203669f52.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5d450b9dd2cfcde3320ef424.jpg",
         "catalogSources": [],
         "focusGifEnabled": true,
         "sources": [
@@ -6701,13 +6701,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/criterion-channel/criterion-channel-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/13896e5b18d1988c9a8c3682.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/providers/258-criterion-channel/logos/white/258_white_1.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/criterion-channel/criterion-channel-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b0af85f07818bd16ca480e27.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/002563e21f9ce44b1934f90c.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/providers/258-criterion-channel/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/24411f8924048ed9e514b8ad.jpg"
       },
       {
         "id": "cf7a3d79-0cc9-42c5-b460-d2e3b838ecfc",
@@ -7111,13 +7111,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://cdn.dribbble.com/userupload/42119533/file/original-3c24d9649543096949cc4262451501b7.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/cdn.dribbble.com/4fbc810676f4d11ae6862bd2.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Crunchyroll_logo_2024.png/960px-Crunchyroll_logo_2024.png?_=20240720022613",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/129a4038.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/upload.wikimedia.org/87c7229f42c147f4e27c223e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/53cf2865f60feaca1501d8d8.webp",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/providers/283-crunchyroll/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/52a22730bc0c758d143a7e5c.jpg"
       },
       {
         "id": "7c17bdd2-83d8-4ae9-9323-f25fd94c08de",
@@ -7421,13 +7421,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/curiosity-stream/curiosity-stream-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/cfc67ad329d83e1cd43ee58e.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/CuriosityStream.svg/960px-CuriosityStream.svg.png?_=20200418093832",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/curiosity-stream/curiosity-stream-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/upload.wikimedia.org/aa3e12a19bd00f1da309a5ac.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9d09ac5bcdac43e865045e4e.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/dce3256c.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/6f62d5b78e8a30f8e1ac440b.webp"
       },
       {
         "id": "folder-5H64D1DG",
@@ -7783,11 +7783,11 @@ window.NUVIO_DATABASE = [
         "coverEmoji": "",
         "focusGifUrl": "https://max-streams.gleeze.com/images/Discovery.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/4676e4ff.webp",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/dbed63f2.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/f9017eec8b05217ba9541e1b.webp",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/6ce6ef24187e0a045af236ab.webp",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/8815e841.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/fd339fbe039f875b5fd59795.webp"
       },
       {
         "id": "folder-8ZBZOMW9",
@@ -8971,13 +8971,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://64.media.tumblr.com/ca6dc6d4e8a260c0c5f40c47c7334e57/eb71329b4dc482d5-50/s500x750/e9e82c5bca839be289f3d87863141ebf6d7fca28.gifv",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/64.media.tumblr.com/750c39e0bfcc0e76f7fb1cb6.gifv",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/networks/2739-disney/logos/color/2739_color_4.png?raw=true",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/b8c0d25b.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/4cd8ade7e2bb9726546f6b6d.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/47b17012387e0d4544660530.webp",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/providers/337-disney-plus/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c46421b27cd3949a624f763c.jpg"
       },
       {
         "id": "folder-HYU80029",
@@ -8985,11 +8985,11 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/hayu/hayu-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/816a51d419f1600103fa669a.gif",
         "heroVideoUrl": "",
         "titleLogoUrl": "",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/hayu/hayu-cover.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/hayu/hayu-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/26cdb738b0a98e6c12081f12.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/96a360b56326f0780f676c35.jpg",
         "catalogSources": [],
         "focusGifEnabled": true,
         "sources": [
@@ -10270,13 +10270,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://64.media.tumblr.com/cca7a86d443a0bc88536a2ad6ce72aec/b495f88d5c1df470-a2/s640x960/4cb9b614191d17d02c946b4ca59548cd333c06fd.gifv",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/64.media.tumblr.com/b271c954f8e27f468beb6c34.gifv",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/6e4c10d3.webp",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/b59babf1.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/29121f5806c88e2ad611b822.webp",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/cf5b211383468a4e9b0ba5f5.webp",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/providers/1899-hbo-max/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d882b90d7aa7d87c1d25d051.jpg"
       },
       {
         "id": "folder-MGL80551",
@@ -10284,11 +10284,11 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/magellan/magellan-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a0f8f940d5b3b6e2e8b5acbe.gif",
         "heroVideoUrl": "",
         "titleLogoUrl": "",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/magellan/magellan-cover.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/magellan/magellan-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3746a97587290091a627a53a.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c033064b09bf6e595f320e0e.jpg",
         "catalogSources": [],
         "focusGifEnabled": true,
         "sources": [
@@ -11457,13 +11457,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://64.media.tumblr.com/9f43b185411e18d71444c9a5a5a79632/5d68ae94e9917470-70/s500x750/0871e87c17045759735ef64c26703c71b585bfb0.gifv",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/64.media.tumblr.com/67d2fa5023a9fb8f6fc1df0f.gifv",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/networks/6219-mgm/logos/color/6219_color_1.png?raw=true",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d490e713.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/cbe28ed5e70c56300c771dfa.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/cb7ff63a98ab7fd56348726b.webp",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/providers/34-mgm-plus/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b839d3c15d4c00d4a1fbd1d8.jpg"
       },
       {
         "id": "1f10af82-da2e-446d-8cac-0658bf587667",
@@ -12008,13 +12008,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/mubi/mubi-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/589d18ff3834e9f481346e90.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/refs/heads/main/collections/companies/204957-mubi/logos/white/204957_white_2.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/7c4bd708.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b15e924b2a94142ec31c2f80.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/ab824783f2ddba314980989e.webp",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/refs/heads/main/collections/companies/204957-mubi/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1ce33143f26c45803e4ee256.jpg"
       },
       {
         "id": "folder-ILJM8PD0",
@@ -13206,13 +13206,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/refs/heads/main/art/streaming-services/paramount-plus/paramount-plus-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2b36359238c1976ca9319ddd.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/networks/4330-paramount/logos/color/4330_color_2.png?raw=true",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/refs/heads/main/art/streaming-services/paramount-plus/paramount-plus-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/f517922af7f7eca2330d3532.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ef70d09503286a4d08a3e099.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/providers/2303-paramount-plus-premium/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a62ff2f2edd652f9adac830c.jpg"
       },
       {
         "id": "folder-9YQK1ZF1",
@@ -14322,13 +14322,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://64.media.tumblr.com/a378bf124ed7d00c8d7430cb8a9ae0cc/9e0da9dbc32641f6-b2/s1280x1920/e8c0ba2f6aadae5b6f532a177926528e94b04d68.gifv",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/64.media.tumblr.com/d58f983300ba05b030c18669.gifv",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/networks/3353-peacock/logos/color/3353_color_1.png?raw=true",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/970b675f.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/26d1b086486946c97667c272.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/fafebbb63d49e1990752e4a2.webp",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/providers/386-peacock-premium/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fc3ac9b10e55e52508777ad7.jpg"
       },
       {
         "id": "folder-300STREAM",
@@ -15543,13 +15543,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/pluto-tv/pluto-tv-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/73bb98f69075885e74919202.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Pluto_TV_logo_2024.svg/500px-Pluto_TV_logo_2024.svg.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/pluto-tv/pluto-tv-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/upload.wikimedia.org/7310b0e1f53478cb816c0893.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/014aaebec6a6b45022e16256.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/providers/300-pluto-tv/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d8e0f2ddb1e3af295b4f982f.jpg"
       },
       {
         "id": "folder-OKRSGYYC",
@@ -15977,13 +15977,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/luckynumb3rs/stremio-perfect-setup/refs/heads/main/collections/streaming/focused/shudder.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fddf9fb0f042072adf6c8c76.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/companies/142877-shudder/logos/color/142877_color_1.png?raw=true",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/99e24ce1.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/1b2864bee23892d2a3c285f5.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/a8d3697060d4ed623c715101.webp",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/providers/99-shudder/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6954c29db7f57ccf3572a37a.jpg"
       },
       {
         "id": "folder-9B3VK7AU",
@@ -17065,13 +17065,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://64.media.tumblr.com/81fe52878aad139bc7b4ff5db7efc766/1e7a62d9e4b13b7a-a2/s500x750/740d23b1e14a96d02282d62190ee61e2a30aed4d.gifv",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/64.media.tumblr.com/f4bf2ae43e8582d3837d0bec.gifv",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/262762fd.webp",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/9e92f9b6.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/f20bf5df22deb2a15f1af094.webp",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/2792b62447a444441813afbb.webp",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/providers/43-starz/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/04bda8919d05b9605d6013d0.jpg"
       },
       {
         "id": "folder-73STREAM",
@@ -18314,13 +18314,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/tubi/tubi-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/00c843ac30e93c2f6a885d09.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/companies/153734-tubi/logos/color/153734_color_1.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/tubi/tubi-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/27676e986b702cd893f6f6ab.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2b0d0bf214cd75aa5f176516.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/companies/153734-tubi/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/eda679f477f983dbce3bb325.jpg"
       }
     ],
     "pinToTop": true,
@@ -18394,12 +18394,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/a-e/a-e-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/a-e/a-e-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a434a2e3362b7db3c363cbcb.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0e1636bf266b5ff0cc137409.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/a-e/a-e-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/a-e/a-e-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1c33a4849f600c1bdb0d0286.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/97ce761075be7663700ea0e1.png",
         "focusGlowEnabled": true
       },
       {
@@ -18463,12 +18463,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/abc/abc-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/abc/abc-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3e72871f0670e955ac0261f5.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d6862380d368a3b12f825eb5.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/abc/abc-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/abc/abc-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/114fecd0d630151aecb29b25.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7e4a9fa2330a74e8ab5af429.png",
         "focusGlowEnabled": true
       },
       {
@@ -18532,12 +18532,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/abc-au/abc-au-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/abc-au/abc-au-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6d27f8d1ed27e1525bf4352e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/781d8c2fcccd3ef9dd8d539a.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/abc-au/abc-au-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/abc-au/abc-au-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0fde363c7d6e795b80a5ce39.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0aa77c6096764564208488dd.png",
         "focusGlowEnabled": true
       },
       {
@@ -18601,12 +18601,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/adult-swim/adult-swim-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/adult-swim/adult-swim-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/305ff84bb8773e59f1e6122c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/eb07c3c8db2f1a6110d39758.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/adult-swim/adult-swim-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/adult-swim/adult-swim-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c532bc10a3ff691d3880293f.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/559e19ef356f1fa3bf1de67f.png",
         "focusGlowEnabled": true
       },
       {
@@ -18670,12 +18670,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/amc/amc-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/amc/amc-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/aa708c446d92df9a755407e3.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8af6ff8d89b925e492e41d57.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/amc/amc-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/amc/amc-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fae08b00006924372f0fd42b.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b036ca10ff9c205b1dc4a22e.png",
         "focusGlowEnabled": true
       },
       {
@@ -18739,12 +18739,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/animal-planet/animal-planet-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/animal-planet/animal-planet-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fd5648b9976966cdb4b8f9cf.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/14fb13ab0999c31ef4ce7ba6.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/animal-planet/animal-planet-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/animal-planet/animal-planet-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/446c6969c8fe462b05b111af.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6cd0df6636ca2bf4a07a29e2.png",
         "focusGlowEnabled": true
       },
       {
@@ -18808,12 +18808,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/bbc-four/bbc-four-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/bbc-four/bbc-four-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6330d8e4f86be910faf109e2.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d368f69cd0ee7021503cc95f.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/bbc-four/bbc-four-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/bbc-four/bbc-four-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c684e01e71a592a48a71b629.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/37cdc8576415aafc77810a74.png",
         "focusGlowEnabled": true
       },
       {
@@ -18877,12 +18877,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/bbc-one/bbc-one-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/bbc-one/bbc-one-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/93b0b162dba7311ef09a511a.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/abbb0b3717f2373f2cbfb080.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/bbc-one/bbc-one-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/bbc-one/bbc-one-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7c31ea5a929e695114f5e3e6.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fd6da4d90409ff9a94edee9e.png",
         "focusGlowEnabled": true
       },
       {
@@ -18946,12 +18946,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/bbc-three/bbc-three-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/bbc-three/bbc-three-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/44185fb4b899077ef6f5a854.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3b21a71129996beb690c90a3.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/bbc-three/bbc-three-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/bbc-three/bbc-three-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6d89f8226b8f8b79b2e7016b.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6335d2e4e62c63f49f54d109.png",
         "focusGlowEnabled": true
       },
       {
@@ -19015,12 +19015,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/bbc-two/bbc-two-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/bbc-two/bbc-two-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b67278a2527b787d21cbeb6a.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7b9ec8d7cc85a3c63a74d7ea.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/bbc-two/bbc-two-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/bbc-two/bbc-two-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bdfea16416e1baa01ba48676.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1d02d02338db75a5af75ba29.png",
         "focusGlowEnabled": true
       },
       {
@@ -19084,12 +19084,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/bet/bet-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/bet/bet-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2dcd9014da5e0221595d709c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5f52fa6a28c19876614703f6.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/bet/bet-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/bet/bet-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fd7e73038352f08895a24cae.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2001fb471537873968da3ab7.png",
         "focusGlowEnabled": true
       },
       {
@@ -19153,12 +19153,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/bravo/bravo-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/bravo/bravo-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ace7d5f7928409598211c5f3.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4940cdfb1af397b82d31013a.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/bravo/bravo-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/bravo/bravo-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8a78cf5be0a76e2303902ad5.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d44831e9a98933a3287e5766.png",
         "focusGlowEnabled": true
       },
       {
@@ -19222,12 +19222,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/canal-plus/canal-plus-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/canal-plus/canal-plus-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1db59cd0982bc49127588344.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/96424f7e51063b31e922207e.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/canal-plus/canal-plus-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/canal-plus/canal-plus-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/67f76cee13f8e2cbc970e4b5.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a5ca7e1f7e6186190c5b172a.png",
         "focusGlowEnabled": true
       },
       {
@@ -19291,12 +19291,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/cartoon-network/cartoon-network-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/cartoon-network/cartoon-network-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/380fcf9f51f955ca0de40fe8.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e8690258da169ca610c8e75a.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/cartoon-network/cartoon-network-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/cartoon-network/cartoon-network-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ee384251f309cdf914e3c133.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/aec82f6d9aa9c201acb6839d.png",
         "focusGlowEnabled": true
       },
       {
@@ -19360,12 +19360,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/cbc/cbc-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/cbc/cbc-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4e749902ded37cb433f0c88a.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/56d188a0c191722fd190869b.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/cbc/cbc-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/cbc/cbc-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c953cd44f067235f0372dfb4.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6c3f57801736e4483f1bc401.png",
         "focusGlowEnabled": true
       },
       {
@@ -19429,12 +19429,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/cbs/cbs-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/cbs/cbs-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/45872aac79f38d116c6893ad.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c43d8f64bf232207bc8f78eb.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/cbs/cbs-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/cbs/cbs-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e11aaaa5cb19c92eecdbf290.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9eb66897422a1ab8bdc123ba.png",
         "focusGlowEnabled": true
       },
       {
@@ -19498,12 +19498,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/channel-4/channel-4-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/channel-4/channel-4-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/355e2cc38ceb10acc4fb8242.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8001627bf83e81b4ae7e5400.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/channel-4/channel-4-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/channel-4/channel-4-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/68fd2d7a89f43e915318aa6d.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9ba9cc4a0fe95fd06226b2b2.png",
         "focusGlowEnabled": true
       },
       {
@@ -19567,12 +19567,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/channel-5/channel-5-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/channel-5/channel-5-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7fa85fc17266f462bbf0b30b.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/eb43691021ec4215e35f86e4.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/channel-5/channel-5-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/channel-5/channel-5-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/97a9db6239599977de8ccb47.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4e99a19e63392e9cfa905a1b.png",
         "focusGlowEnabled": true
       },
       {
@@ -19636,12 +19636,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/cinemax/cinemax-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/cinemax/cinemax-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a6e46600d15a1182fda568f0.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/06839d760b5afa9b276bae01.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/cinemax/cinemax-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/cinemax/cinemax-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c5e10497d0351c40356e41ae.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/98e253797bff6c4776f7b002.png",
         "focusGlowEnabled": true
       },
       {
@@ -19705,12 +19705,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/comedy-central/comedy-central-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/comedy-central/comedy-central-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/96297a638c6c6d8b7c4d4a2f.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1eceefa58a35f40a461b4cc7.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/comedy-central/comedy-central-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/comedy-central/comedy-central-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5637b6d28f07a882bf2c9668.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e60fd02ab5239b19e5df4f01.png",
         "focusGlowEnabled": true
       },
       {
@@ -19774,12 +19774,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/ctv/ctv-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/ctv/ctv-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c6d79d638fe341789e65b1db.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/47d233ce7cda66fb83ccb1dd.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/ctv/ctv-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/ctv/ctv-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4d1374c92950f103d05b0ba9.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5acf75c17decf815c5cf3a13.png",
         "focusGlowEnabled": true
       },
       {
@@ -19843,12 +19843,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/dave/dave-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/dave/dave-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b1bdebc687a2040c3999cd24.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d12e3ed1edeec9a9692e4223.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/dave/dave-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/dave/dave-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f98dbc9af4e57cdd5b89ec56.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c507d47e9334e912bea04404.png",
         "focusGlowEnabled": true
       },
       {
@@ -19912,12 +19912,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/discovery/discovery-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/discovery/discovery-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c08a80ce6876a68fb913c42c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d0225906d834641a7b0e5fab.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/discovery/discovery-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/discovery/discovery-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c4adfa73c84069dfe96374bf.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4459257ab911f369e0be231b.png",
         "focusGlowEnabled": true
       },
       {
@@ -19981,12 +19981,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/disney-channel/disney-channel-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/disney-channel/disney-channel-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3e62093f76c57337adb577d5.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5caa794fe724afa66dca7a92.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/disney-channel/disney-channel-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/disney-channel/disney-channel-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fa2fb7831c5b5300ec8003b1.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9e1c9fb3acf10634092ed0cc.png",
         "focusGlowEnabled": true
       },
       {
@@ -20050,12 +20050,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/disney-junior/disney-junior-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/disney-junior/disney-junior-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/35fb0501389563e99c20abb5.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4ae08f7255f809805a119db6.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/disney-junior/disney-junior-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/disney-junior/disney-junior-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b4f88a8e49324a237a974cef.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8e665168f4ed0700f8b0a8a3.png",
         "focusGlowEnabled": true
       },
       {
@@ -20119,12 +20119,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/disney-xd/disney-xd-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/disney-xd/disney-xd-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f8e539810e02b752bcd6d4a6.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5859ec5322736003e525bc81.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/disney-xd/disney-xd-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/disney-xd/disney-xd-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1760bffcf49bf6283f0c8edc.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2793b559dc944e1ef38ebadb.png",
         "focusGlowEnabled": true
       },
       {
@@ -20188,12 +20188,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/e/e-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/e/e-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1ca28dd337abc4e004667fe5.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e7c5dba1d84a3d47aaa0b149.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/e/e-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/e/e-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/94312fbeef6c705971f1621c.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/328e01c6e08257c0c1936e67.png",
         "focusGlowEnabled": true
       },
       {
@@ -20257,12 +20257,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/e4/e4-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/e4/e4-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/daf70fc9e8f516312d2ec951.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/08c6d73b4958b682613e5b01.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/e4/e4-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/e4/e4-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8d534bef260796d673cdf1e1.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/018ae54a6fbca43259137d68.png",
         "focusGlowEnabled": true
       },
       {
@@ -20326,12 +20326,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/food-network/food-network-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/food-network/food-network-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bd95c899d625dfe5ac356a21.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/10dbee8b309663db223d4555.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/food-network/food-network-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/food-network/food-network-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/cccc60e31fd7c0fba25ff7a0.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/081237e87ea762a4cc5f0cfd.png",
         "focusGlowEnabled": true
       },
       {
@@ -20395,12 +20395,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/fox/fox-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/fox/fox-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c951ed45c168a63d625d1baa.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b4886fcd9c3bfac3c38f8a58.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/fox/fox-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/fox/fox-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/41c9715b2521f1f27f51949c.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/318be08d861784f50e1f3ad0.png",
         "focusGlowEnabled": true
       },
       {
@@ -20464,12 +20464,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/freeform/freeform-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/freeform/freeform-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/38074ba9492070871089286d.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8fbd6698e80c68107d77baac.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/freeform/freeform-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/freeform/freeform-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4bd0d29f93a5dc575aae88e0.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b9562b22b90715b5318d2441.png",
         "focusGlowEnabled": true
       },
       {
@@ -20533,12 +20533,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/fx/fx-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/fx/fx-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/542324d8c05a0c03553e7bbc.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0eb57f36eeb80fa3abee61be.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/fx/fx-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/fx/fx-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a2996981ca247412ba13dc43.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8e5d4b4a298d2cd6ae811f46.png",
         "focusGlowEnabled": true
       },
       {
@@ -20602,12 +20602,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/hallmark-channel/hallmark-channel-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/hallmark-channel/hallmark-channel-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0c16133575a1db80623a0144.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d13e833e254ec3b2fb116e20.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/hallmark-channel/hallmark-channel-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/hallmark-channel/hallmark-channel-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ddd2329cccb757e2f0cf4317.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3f95d0a4a8a22b16a657449e.png",
         "focusGlowEnabled": true
       },
       {
@@ -20671,12 +20671,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/hbo/hbo-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/hbo/hbo-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/21926271fc447dc29cf06e9b.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e819b470d7d971fbd5ae4623.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/hbo/hbo-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/hbo/hbo-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8be0f0c64000d3016b811326.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4eb40493ca6bd621f5f446be.png",
         "focusGlowEnabled": true
       },
       {
@@ -20740,12 +20740,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/hgtv/hgtv-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/hgtv/hgtv-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/af1f45e750520cd6e5d311f9.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a96a8f7ab5a68aee504b1997.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/hgtv/hgtv-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/hgtv/hgtv-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d05b3d8122ac0bc266410dec.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6549f10675574e1064f837a8.png",
         "focusGlowEnabled": true
       },
       {
@@ -20809,12 +20809,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/history/history-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/history/history-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d14a189193d8d5fb509d5b57.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e150339686b8205ce99c758b.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/history/history-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/history/history-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/38b1e00fba59dbb1a00d851c.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/237e40a553966b686468736f.png",
         "focusGlowEnabled": true
       },
       {
@@ -20878,12 +20878,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/ifc/ifc-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/ifc/ifc-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/19e450ad6e6bc438c95333d5.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a3863a456da1e3a914f314e1.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/ifc/ifc-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/ifc/ifc-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6604100dbc0b00f373ea7231.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/88010fa7da325a371051ad6d.png",
         "focusGlowEnabled": true
       },
       {
@@ -20947,12 +20947,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/investigation-discovery/investigation-discovery-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/investigation-discovery/investigation-discovery-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b3bbc0b4ec5fe533dc047570.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f2869c1412e9658b0fbe4b6e.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/investigation-discovery/investigation-discovery-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/investigation-discovery/investigation-discovery-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f3c35a60f87bd15f6dda7bfe.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b01d255e31b684fe5c26b333.png",
         "focusGlowEnabled": true
       },
       {
@@ -21016,12 +21016,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/itv/itv-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/itv/itv-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/79d1c460127e35a6244a3e88.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d305518c3f1f32e013973cdc.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/itv/itv-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/itv/itv-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6fce4d7b08e55def9f9c17d7.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2801547ba09e10569a5c9db7.png",
         "focusGlowEnabled": true
       },
       {
@@ -21085,12 +21085,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/itv2/itv2-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/itv2/itv2-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e1c9e5058e44e3ffc74df703.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f0a31269b4d72ffbcd66e37b.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/itv2/itv2-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/itv2/itv2-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a44d3a448ed0ffd456e0e2e3.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b555708b2e3607e7b32d27c8.png",
         "focusGlowEnabled": true
       },
       {
@@ -21154,12 +21154,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/jtbc/jtbc-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/jtbc/jtbc-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/767ac8c5c4eb94c0a2638b63.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bddedb5db330b75880fd9942.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/jtbc/jtbc-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/jtbc/jtbc-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ca8a8452d5ba7389de731082.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a1961aeafd213c5e7e08c49c.png",
         "focusGlowEnabled": true
       },
       {
@@ -21223,12 +21223,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/lifetime/lifetime-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/lifetime/lifetime-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4e541a8b0254366ec414a37d.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4bb24ae65c3e9d2e0f23d75f.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/lifetime/lifetime-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/lifetime/lifetime-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e4b2d1463e1d68f2b3f97fff.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0a12c3b33ea6b0d0a373e6d4.png",
         "focusGlowEnabled": true
       },
       {
@@ -21292,12 +21292,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/mtv/mtv-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/mtv/mtv-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/000d71df34bc3a413a506a2f.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/84c800bc1073197de5728264.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/mtv/mtv-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/mtv/mtv-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/861f6a5b868890451a0dfda9.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d5a833144a8c86af63befc64.png",
         "focusGlowEnabled": true
       },
       {
@@ -21361,12 +21361,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/national-geographic/national-geographic-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/national-geographic/national-geographic-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/20eb267e99a3b7b4747bb41e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b2528f1f692466f4f7dbfe8d.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/national-geographic/national-geographic-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/national-geographic/national-geographic-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/242f99145b5f42c612bba5f7.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6d9922a81df1b4ab52f9a24e.png",
         "focusGlowEnabled": true
       },
       {
@@ -21430,12 +21430,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/nbc/nbc-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/nbc/nbc-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0c5ea3729752c1d5a0647921.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/30c074fbd57bb3ea82cb0b93.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/nbc/nbc-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/nbc/nbc-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bd918b33b2f056becebffc9e.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/889b12f9b4febe0287ff0e49.png",
         "focusGlowEnabled": true
       },
       {
@@ -21499,12 +21499,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/nickelodeon/nickelodeon-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/nickelodeon/nickelodeon-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c0cd14623c6df8988d5e3628.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ce360ec755393d010bde94e6.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/nickelodeon/nickelodeon-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/nickelodeon/nickelodeon-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e23ea1209d7e87434caedd94.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/96ff34cc8e95cdf5c099755c.png",
         "focusGlowEnabled": true
       },
       {
@@ -21568,12 +21568,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/own/own-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/own/own-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f2effd4e23996309f7fc7208.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5cf3a3e3f9be77e6887e5863.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/own/own-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/own/own-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/38b3c216e6adb296a288bbf9.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/805ec7c0a81fa57453cfe27a.png",
         "focusGlowEnabled": true
       },
       {
@@ -21637,12 +21637,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/oxygen/oxygen-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/oxygen/oxygen-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0fc4f2cb819879ca7da1182c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7de83c7cbb84d37576664843.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/oxygen/oxygen-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/oxygen/oxygen-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f57c6689e98a53a54b42645e.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/80be57961a20ceafd4a0a3f5.png",
         "focusGlowEnabled": true
       },
       {
@@ -21706,12 +21706,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/paramount-network/paramount-network-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/paramount-network/paramount-network-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a8387f274dda764f041963c9.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3d8b16e34629644b08464450.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/paramount-network/paramount-network-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/paramount-network/paramount-network-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1d5b49698add2e989e3d5da2.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5a782240e610b1620292d8ba.png",
         "focusGlowEnabled": true
       },
       {
@@ -21775,12 +21775,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/pbs/pbs-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/pbs/pbs-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/70f108e6b674ac8c94362357.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/496936aeb9562ba0dbf3a585.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/pbs/pbs-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/pbs/pbs-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/63cbfbe9f153d25ae6ec29fa.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7f4ddbc7833d39d928a216b9.png",
         "focusGlowEnabled": true
       },
       {
@@ -21844,12 +21844,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/showtime/showtime-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/showtime/showtime-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3ea9aea194fbc28c9dab9606.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e256d19e8b77bee39d1b3d03.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/showtime/showtime-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/showtime/showtime-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3f0f398e51a30c3fcf3d79d4.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/50ab99bcf1de472f4b8baf5b.png",
         "focusGlowEnabled": true
       },
       {
@@ -21913,12 +21913,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/sky-atlantic/sky-atlantic-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/sky-atlantic/sky-atlantic-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ae9d4348183dff8d0117c714.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/09c8d5aca737f1f9d54d9b74.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/sky-atlantic/sky-atlantic-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/sky-atlantic/sky-atlantic-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b3c7d00a7a0b5b6612c752a7.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/50ba45509c347fb07c6e4f25.png",
         "focusGlowEnabled": true
       },
       {
@@ -21982,12 +21982,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/sky-max/sky-max-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/sky-max/sky-max-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5958866356680903c14fe120.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/31dec946f40228f741dcbde7.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/sky-max/sky-max-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/sky-max/sky-max-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4713b039983d6f6513ea0181.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b22f3258f66e9fc8dd0e3e66.png",
         "focusGlowEnabled": true
       },
       {
@@ -22051,12 +22051,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/starz/starz-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/starz/starz-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3d8247a9b2a751575e0a6cfc.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0598076a9ff75d42aabf905b.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/starz/starz-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/starz/starz-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/cbdc400feb7091e52197e609.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0c4736cb6c37548273e39474.png",
         "focusGlowEnabled": true
       },
       {
@@ -22120,12 +22120,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/sundance-tv/sundance-tv-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/sundance-tv/sundance-tv-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6894035d6ce810869105b7e2.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b51617036a8327ebd45229e4.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/sundance-tv/sundance-tv-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/sundance-tv/sundance-tv-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6154df47d39e27d5835807de.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/28df224d0222b601e3143b23.png",
         "focusGlowEnabled": true
       },
       {
@@ -22189,12 +22189,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/syfy/syfy-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/syfy/syfy-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1e38bd7bcc19fb67d878cb89.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/920c5dbf0b67860eb886beab.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/syfy/syfy-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/syfy/syfy-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/24cfd747064cc9ec93302c52.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/07e77e6af77f2e2918ff47b8.png",
         "focusGlowEnabled": true
       },
       {
@@ -22258,12 +22258,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tbs/tbs-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tbs/tbs-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/839b305fe17c42a10f587739.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/254df47e3f3a5f55ea0335d4.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tbs/tbs-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tbs/tbs-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0a85d6ae87ede3aa21966545.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1be90b2e4c27162351b0b8e5.png",
         "focusGlowEnabled": true
       },
       {
@@ -22327,12 +22327,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/the-cw/the-cw-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/the-cw/the-cw-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4d7e0aeab7ca51c9be3c38f4.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6c2e797c3cea4f09fe2c1047.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/the-cw/the-cw-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/the-cw/the-cw-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3dc5c820e9c0ca6c14c9d987.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e4f312ed87a82d8727028e9d.png",
         "focusGlowEnabled": true
       },
       {
@@ -22396,12 +22396,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tlc/tlc-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tlc/tlc-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/be4839cc332234cef8ea8d84.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9dc6eb7def0afa9f545b2369.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tlc/tlc-hover.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tlc/tlc-backdrop.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/10739411b4aed87a952dff64.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/257c5ffad0da26af022db35a.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -22465,12 +22465,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tnt/tnt-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tnt/tnt-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ca5161e59e29594cc29bf216.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3263ea1b45d0b3c2a0a01c0c.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tnt/tnt-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tnt/tnt-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/208252f143c13b113a9b3c5b.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/738c4eebe5653e9cd561a259.png",
         "focusGlowEnabled": true
       },
       {
@@ -22534,12 +22534,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tokyo-mx/tokyo-mx-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tokyo-mx/tokyo-mx-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a4a136af3c7fd5e640b9d3a0.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/22dcb4827bd8cf270ec13703.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tokyo-mx/tokyo-mx-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tokyo-mx/tokyo-mx-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/11f018a68faad6681cff95fb.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/79523f111d92432dfd649e1f.png",
         "focusGlowEnabled": true
       },
       {
@@ -22603,12 +22603,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/travel-channel/travel-channel-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/travel-channel/travel-channel-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9848dd9ad59da67d5e5304a4.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/36dabb286185a2032ed5dbf4.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/travel-channel/travel-channel-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/travel-channel/travel-channel-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fbfb2b76d7a09f7a4db1626a.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3672d00369162152059b8660.png",
         "focusGlowEnabled": true
       },
       {
@@ -22672,12 +22672,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/trutv/trutv-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/trutv/trutv-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/08bcbe8c6a43d2795881ee7d.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2a271a39b2c9fb69880c7cb0.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/trutv/trutv-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/trutv/trutv-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6ea5a3062bc2153a813e6513.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/559e99fcd8f1d24f2df4d1ec.png",
         "focusGlowEnabled": true
       },
       {
@@ -22741,12 +22741,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tv-land/tv-land-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tv-land/tv-land-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f4c445c2185fe33d8e43318a.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/177f1cc05cb961b8f354b90f.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tv-land/tv-land-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tv-land/tv-land-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/78aab0fefc28e3c9cc9aa628.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3321be206c16d93f2ec60df2.png",
         "focusGlowEnabled": true
       },
       {
@@ -22810,12 +22810,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tv-tokyo/tv-tokyo-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tv-tokyo/tv-tokyo-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6a371abd6727c5aae920349a.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/91f37ab58214bff4fcb22d63.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tv-tokyo/tv-tokyo-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tv-tokyo/tv-tokyo-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/765fededffb0187d4c51e3e6.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/90e1598dedba7ff2158333ae.png",
         "focusGlowEnabled": true
       },
       {
@@ -22879,12 +22879,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tvn/tvn-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tvn/tvn-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b3dced30ecd9152088aaf1f6.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ab7cddc7e8ae7e6d362f1e95.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tvn/tvn-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/tvn/tvn-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/70a6f8a976ff94bcc0f82cd1.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/304df3301a9f50c40e926993.png",
         "focusGlowEnabled": true
       },
       {
@@ -22948,12 +22948,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/usa-network/usa-network-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/usa-network/usa-network-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1028c0569a0240164ee2f7d7.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/92c3e81a43df80db0b4c5d10.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/usa-network/usa-network-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/usa-network/usa-network-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/35a08353d0ad5e9a27745434.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/28d3e5257fa85ba4de5ebba2.png",
         "focusGlowEnabled": true
       },
       {
@@ -23017,12 +23017,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/vh1/vh1-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/vh1/vh1-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7cd6ce585e38c4bf716b1e2a.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e688a92ccf08fabff8bec777.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/vh1/vh1-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/networks/v2/cinematic-ghost/vh1/vh1-hover.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fd99f5eca3e52ea73b874e74.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/639c73d16d824c32d184073f.png",
         "focusGlowEnabled": true
       }
     ],
@@ -23195,13 +23195,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/action/v2/action-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/764f46a0e9990907cd9dfc05.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/action.png?raw=true",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/action/v2/action-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/55d5968121c62963442dd4d0.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/49c081d8c4f20a8283620b12.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/action/action-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/65440baa4cce4c282e07cc21.jpg"
       },
       {
         "id": "folder-CSJVDVSC",
@@ -23363,13 +23363,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/adventure/v2/adventure-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6a9017177004e202c3f334c0.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/ADVENTURE_TitleLogo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/adventure/v2/adventure-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a878f8ef02d3c2c0819ca29f.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c3d844f7c18deb6f57d81e0c.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/adventure/adventure-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/151c5a363bfd500461d238d6.jpg"
       },
       {
         "id": "folder-K8CIZ3LO",
@@ -23523,13 +23523,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/animation/v2/animation-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e019806fc567c2418a586c29.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/animation.png?raw=true",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/animation/v2/animation-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/69003ce8f835ffb30e14c557.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/33c782170f89a60d82905fff.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/animation/animation-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/43eb4a622f10ab6775a27f2d.jpg"
       },
       {
         "id": "folder-AP4ISXTE",
@@ -23683,13 +23683,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/anime/v2/anime-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/78879e04bb79dce891caaa24.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/anime.png?raw=true",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/anime/v2/anime-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/deb0609f04514b96c55909fb.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/37dd08c515790b3e85bd30cf.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/anime/anime-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/cabecbbec14bbd9c28d0eb24.jpg"
       },
       {
         "id": "folder-IWC8T1WM",
@@ -23851,13 +23851,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/comedy/v2/comedy-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d2bb2cd1c0882ffc4fd1104e.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/comedy.png?raw=true",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/comedy/v2/comedy-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/66b01c97dfbcee82297eb423.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d68bb9d71e9cc87af6b5f5eb.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/comedy/comedy-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c887e87d4f4c5859606975da.jpg"
       },
       {
         "id": "folder-DTEQHREL",
@@ -24019,13 +24019,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/crime/v2/crime-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4ee4cf299ec8d84953eb01d4.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/crime.png?raw=true",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/crime/v2/crime-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/704dabf0d9d79e07d6969d9f.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3ca047520930cca9e6a4087f.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/crime/crime-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/20554e5b729ff31f26b9fc8b.jpg"
       },
       {
         "id": "folder-6DUG1MQF",
@@ -24179,13 +24179,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/documentary/v2/documentary-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1c116fd3ce99a7d062b893a0.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/documentary.png?raw=true",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/documentary/v2/documentary-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/f85fd9b6ebf5c83082cbc5b7.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/07cce994fd9c9309944e63c4.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/documentary/documentary-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/57ee4018f228bde761d58a3c.jpg"
       },
       {
         "id": "folder-8Z2DZVUO",
@@ -24347,13 +24347,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/drama/v2/drama-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/83ae3772bc3c55bbf3125b14.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/drama.png?raw=true",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/drama/v2/drama-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/7f43b045c4cf27bd4a83df94.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/544d17af2289e1bfc607b1b3.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/drama/drama-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/992a4fab9696df5392ac11d0.jpg"
       },
       {
         "id": "folder-FWKG65UR",
@@ -24507,13 +24507,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/family/v2/family-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b8acd05d642066e60c75e0ee.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/family.png?raw=true",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/family/v2/family-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/eae80a0b579ba770a66c1507.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7638bdf6b721fb1d6e92040a.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/family/family-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8da0826099f8fa221624be6d.jpg"
       },
       {
         "id": "folder-ZYDJZBEV",
@@ -24675,13 +24675,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/fantasy/v2/fantasy-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5a16991f0305f67a7e33e031.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/fantasy.png?raw=true",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/fantasy/v2/fantasy-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/4925d10e5605f0480478babf.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d79f56bac3a8002f5a44d8ee.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/fantasy/fantasy-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f5c9d0957c2019b0a5ce0c08.jpg"
       },
       {
         "id": "folder-LCRKWAHO",
@@ -24855,13 +24855,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/history/v2/history-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/56696920077aca2ac850b860.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/history.png?raw=true",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/history/v2/history-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/40b9588aee78cfa1d6d676fc.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/908dfeaa0c89e970abb9b394.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/history/history-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4a2cc222b24a3e744309f545.jpg"
       },
       {
         "id": "folder-W7VQ4ZGQ",
@@ -25023,22 +25023,22 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/horror/v2/horror-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6a3afb43a2857a61d437a7ae.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/horror.png?raw=true",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/horror/v2/horror-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/36339466fa668fd470d3a942.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5a231a15fd8786008fa00134.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/horror/horror-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f431abcbdb175dc79b9db12c.jpg"
       },
       {
         "id": "folder-KDRAMA01",
         "title": "K-Drama",
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/k-drama/v2/k-drama-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/k-drama/v2/k-drama-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/k-drama/k-drama-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/k-drama/v2/k-drama-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/316f8d66ea137607accb2686.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b53fa7364053a71727b9f7dd.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/eb71d339c52803d3b962f8d1.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b48b50619462d94185a30d0c.gif",
         "focusGifEnabled": true,
         "hideTitle": true,
         "pinToTop": true,
@@ -25316,13 +25316,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/martial-arts/v2/martial-arts-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/50ba2834fdcfdf927c03f7f4.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Martial_Arts_TitleLogo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/martial-arts/v2/martial-arts-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a56624c57301fdb4be1c5340.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8a6b119d539d6c17d01f5943.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/martial-arts/martial-arts-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1d7fc39045b6ade46daeb8b9.jpg"
       },
       {
         "id": "folder-5CTPRQ44",
@@ -25502,13 +25502,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/music-musical/v2/music-musical-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ff6ba98f006adef7da71f25a.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Music___Musical_TitleLogo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/music-musical/v2/music-musical-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b00a83e4a1bd6be1c32ebf15.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fffe9d9eec02cc44f66d1da8.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/music-musical/music-musical-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/972dc9eec1903b8c089ae4b1.jpg"
       },
       {
         "id": "folder-KVW3FYE5",
@@ -25670,13 +25670,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/mystery/v2/mystery-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/cbb83fd54b3533b625d7bf26.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/mystery.png?raw=true",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/mystery/v2/mystery-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/9e4bda23811a7d8589770fc6.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e0826ba0932e8ca7b99e3c55.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/mystery/mystery-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5a9fabec474c967a345f0e54.jpg"
       },
       {
         "id": "folder-GXG1NG9E",
@@ -25854,13 +25854,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/romance/v2/romance-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/db3a22e7e1ee975dd28a5fa4.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/romance.png?raw=true",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/romance/v2/romance-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/b88620e1cdfeb8481228b596.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/61051d345403db3cfd6992de.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/romance/romance-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bd28b5ce40bfcf7d6c2be64a.jpg"
       },
       {
         "id": "folder-d1d8a13d",
@@ -26038,13 +26038,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/romantic-comedy/v2/romantic-comedy-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fccb51dadc8a85286431e732.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Romantic_Comedy_TitleLogo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/romantic-comedy/v2/romantic-comedy-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8686c672eed0505e4d334fb8.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d4c2f83e3d81de852074cac0.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/romantic-comedy/romantic-comedy-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7ebdef60f03f520de4b9339c.jpg"
       },
       {
         "id": "folder-edbb0941",
@@ -26206,13 +26206,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/science-fiction/v2/science-fiction-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/af9f0779634b4ecee2c4eda6.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Science_Fiction_TitleLogo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/science-fiction/v2/science-fiction-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b45b5cca9c8b7b8f0732e2f7.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b333db419b19d8e83eacd73b.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/science-fiction/science-fiction-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/83b9d7ef7c9ef9abbefdde89.jpg"
       },
       {
         "id": "folder-VLDG4GZP",
@@ -26354,13 +26354,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/sports/v2/sports-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/15b761419664b20ffd9f9fd4.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Sports_TitleLogo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/sports/v2/sports-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/063275a332a2f0cb4c92734f.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/017ebef5870c540a113b091f.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/sports/sports-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/49b74f08587a6b80dd68aa41.jpg"
       },
       {
         "id": "folder-8B3PEI1Y",
@@ -26502,13 +26502,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/stand-up-comedy/v2/stand-up-comedy-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bb0232d54a8e9cbd18b07c5d.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Stand_Up_Comedy_TitleLogo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/stand-up-comedy/v2/stand-up-comedy-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c0ff884e12b908eb595b08d1.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fb9b8682fb41f32746aa9ce5.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/stand-up-comedy/stand-up-comedy-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/87f7e583754cbec9efaada36.jpg"
       },
       {
         "id": "folder-Y0JJD3MR",
@@ -26670,13 +26670,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/superhero/v2/superhero-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ab489d3c20c6026816f40c58.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Superhero_TitleLogo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/superhero/v2/superhero-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/147e8a3d46894b67cb4cef85.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2e3d08c38a972aa4b8c4000a.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/superhero/superhero-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d6f561c3aa61e9079644009d.jpg"
       },
       {
         "id": "folder-X9YZCXBH",
@@ -26846,13 +26846,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/thriller/v2/thriller-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5e05322ff1fc8b025bf1736a.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/thriller.png?raw=true",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/thriller/v2/thriller-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/4f4f27e8a7820d1afcda391d.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d20cc0b211a7f6291c218a5c.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/thriller/thriller-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3c123af7c5c9cc02e41084e4.jpg"
       },
       {
         "id": "folder-SY0BJAAJ",
@@ -27014,13 +27014,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/war/v2/war-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/196b5c44ba7fdc9f6029fbf8.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/War_TitleLogo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/war/v2/war-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/90b7668ecdc1976ffbcaeca2.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0b09702b256e9a97653ee60b.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/war/war-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/facaa6ca96580e531bfe22a5.jpg"
       },
       {
         "id": "folder-VHE2JOX2",
@@ -27028,13 +27028,13 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/western/v2/western-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fd6f86a272f8d85558263e96.gif",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://github.com/ImKaptain/nuvio-assets/blob/main/TitleLogos/Western_TitleLogo.png?raw=true",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/western/v2/western-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/3fc79fe2aebffc31a8170ea5.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7744134e235e3ace5bc21615.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/western/western-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1f525135dce7bdf394dc1026.jpg",
         "sources": [
           {
             "title": "Nouveaux films",
@@ -27209,10 +27209,10 @@ window.NUVIO_DATABASE = [
         "title": "Douillet Et Réconfortant",
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/cozy-and-comforting/v2/cozy-and-comforting-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/cozy-and-comforting/v2/cozy-and-comforting-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/cozy-and-comforting/cozy-and-comforting-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/cozy-and-comforting/v2/cozy-and-comforting-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a76463a3fd68e69caf6b6005.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7d51e28c60603710677a89bd.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/89d6b6afd2af91f8371b850f.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f04050d35715a9ebd9495bfd.gif",
         "focusGifEnabled": true,
         "sources": [
           {
@@ -27337,10 +27337,10 @@ window.NUVIO_DATABASE = [
         "title": "Casse-tête Et Mystère",
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/mind-bending/v2/mind-bending-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/mind-bending/v2/mind-bending-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/mind-bending/mind-bending-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/mind-bending/v2/mind-bending-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/72c64402af1179c0a1704803.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/be105daad74ebb23c6f8bec9.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6c43c5a8f3bf7ab7b57bc222.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/541a0b028f4dd7f0652080bd.gif",
         "focusGifEnabled": true,
         "sources": [
           {
@@ -27460,10 +27460,10 @@ window.NUVIO_DATABASE = [
         "title": "Montée d'Adrénaline",
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/adrenaline-rush/v2/adrenaline-rush-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/adrenaline-rush/v2/adrenaline-rush-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/adrenaline-rush/adrenaline-rush-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/adrenaline-rush/v2/adrenaline-rush-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c59d992ea068060404415134.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ca6b2117b48ef1df9232ef13.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d977e24151c96fabe1a7bf8c.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2050fee2cae04861d41c5cf0.gif",
         "focusGifEnabled": true,
         "sources": [
           {
@@ -27583,10 +27583,10 @@ window.NUVIO_DATABASE = [
         "title": "Épique Et Grandiose",
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/epic-and-sweeping/v2/epic-and-sweeping-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/epic-and-sweeping/v2/epic-and-sweeping-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/epic-and-sweeping/epic-and-sweeping-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/epic-and-sweeping/v2/epic-and-sweeping-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c0a8826022b373dd41002c59.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/37be43fdc7d412aa69d4dc33.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3a47b6fd96855c29cc6c92bc.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c24e8a04d6430602710ca6e0.gif",
         "focusGifEnabled": true,
         "sources": [
           {
@@ -27707,10 +27707,10 @@ window.NUVIO_DATABASE = [
         "title": "Feel-Good",
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/feel-good/v2/feel-good-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/feel-good/v2/feel-good-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/feel-good/feel-good-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/feel-good/v2/feel-good-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bc48cee0a315fc6bd138d817.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d9a415df0f49971018e18595.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0bf29cfedc8f5297fcc84e9c.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a784c4443dcc0b7bf6efba8b.gif",
         "focusGifEnabled": true,
         "sources": [
           {
@@ -27832,10 +27832,10 @@ window.NUVIO_DATABASE = [
         "title": "Slow Burn",
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/slow-burn/v2/slow-burn-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/slow-burn/v2/slow-burn-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/slow-burn/slow-burn-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/slow-burn/v2/slow-burn-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/faffb75e31c3dd75c0330d68.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/374a1cbb96fa3f8b04e84301.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/877767854fc258a801f46d4a.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/507b3e6e5141e5796f1ce48a.gif",
         "focusGifEnabled": true,
         "sources": [
           {
@@ -27956,10 +27956,10 @@ window.NUVIO_DATABASE = [
         "title": "Tearjerkers",
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/tearjerkers/v2/tearjerkers-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/tearjerkers/v2/tearjerkers-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/tearjerkers/tearjerkers-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/tearjerkers/v2/tearjerkers-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8fc9918b27910699145b8290.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c1f94668569add5b3deec383.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/707161c91091ffdf6f2b6710.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fd45ab3af6e0b829e4d2a0d2.gif",
         "focusGifEnabled": true,
         "sources": [
           {
@@ -28088,10 +28088,10 @@ window.NUVIO_DATABASE = [
         "title": "80s Et 90s Vibes",
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/80s-and-90s-vibes/v2/80s-and-90s-vibes-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/80s-and-90s-vibes/v2/80s-and-90s-vibes-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/80s-and-90s-vibes/80s-and-90s-vibes-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/80s-and-90s-vibes/v2/80s-and-90s-vibes-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/97d92ff827836475f40f2308.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/79557fa84683f8349dac4d4f.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/da4cfc522f1e5fd0bb0e8737.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b52cafbd1bea48aad727c7aa.gif",
         "focusGifEnabled": true,
         "sources": [
           {
@@ -28219,10 +28219,10 @@ window.NUVIO_DATABASE = [
         "title": "Sombre Et Brut",
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/dark-and-gritty/v2/dark-and-gritty-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/dark-and-gritty/v2/dark-and-gritty-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/dark-and-gritty/dark-and-gritty-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/dark-and-gritty/v2/dark-and-gritty-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/17e0eef7b129e7940b8f39fa.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3d8ca1c357805e1ae6869fe4.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/aa9e319e622a693462edc680.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0949061730367cacd964429c.gif",
         "focusGifEnabled": true,
         "sources": [
           {
@@ -28342,10 +28342,10 @@ window.NUVIO_DATABASE = [
         "title": "Spooky Et Creepy",
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/spooky-and-creepy/v2/spooky-and-creepy-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/spooky-and-creepy/v2/spooky-and-creepy-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/spooky-and-creepy/spooky-and-creepy-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/spooky-and-creepy/v2/spooky-and-creepy-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f467cb7cf8562d916f9019a0.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0d1e1b40f3ea4c68f626571d.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/49ce0550db9b54a3adf853ee.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fe402b1f95778a266d3b78ac.gif",
         "focusGifEnabled": true,
         "sources": [
           {
@@ -28480,11 +28480,11 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/true-story/v2/true-story-hover.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/306118db3b53d14518483e71.jpg",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/true-story/v2/true-story-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/true-story/v2/true-story-cover.jpg",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/true-story/v2/true-story-hover.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/09ce99ae926013eea6a84540.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c5dbb622536a54cd39630621.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/306118db3b53d14518483e71.jpg",
         "catalogSources": [],
         "focusGifEnabled": true,
         "sources": [
@@ -28600,11 +28600,11 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/video-games/v2/video-games-hover.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f5408817cc865abe728a5918.jpg",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/video-games/v2/video-games-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/video-games/v2/video-games-cover.jpg",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/video-games/v2/video-games-hover.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d57e6be5249feb45eb703d8f.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/76205ac8514f945956e07816.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f5408817cc865abe728a5918.jpg",
         "catalogSources": [],
         "focusGifEnabled": true,
         "sources": [
@@ -28726,11 +28726,11 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/books/v2/books-hover.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/07e3e9451ac26098442a74b9.jpg",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/books/v2/books-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/books/v2/books-cover.jpg",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/books/v2/books-hover.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d7678c9ac3e1c40840a5109a.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/967f765f6bc71694e701f2cc.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/07e3e9451ac26098442a74b9.jpg",
         "catalogSources": [],
         "focusGifEnabled": true,
         "sources": [
@@ -28852,11 +28852,11 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/comics/v2/comics-hover.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/349136fbe7acf9a8c917535a.jpg",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/comics/v2/comics-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/comics/v2/comics-cover.jpg",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/comics/v2/comics-hover.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1df120a36efc84044e5810ad.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/462e6e090d981601a957a341.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/349136fbe7acf9a8c917535a.jpg",
         "catalogSources": [],
         "focusGifEnabled": true,
         "sources": [
@@ -28978,11 +28978,11 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/mythology/v2/mythology-hover.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fc19a31e74ecd2f3c9bda2cb.jpg",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/mythology/v2/mythology-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/mythology/v2/mythology-cover.jpg",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/mythology/v2/mythology-hover.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b18358dd86f827877840a95c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f3013ff58fbeddd15d652372.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fc19a31e74ecd2f3c9bda2cb.jpg",
         "catalogSources": [],
         "focusGifEnabled": true,
         "sources": [
@@ -29104,11 +29104,11 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/play/v2/play-hover.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9362979e404338071e212564.jpg",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/play/v2/play-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/play/v2/play-cover.jpg",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/play/v2/play-hover.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2aecef284e87405d3ae947a0.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c5efd6156e4862fa69f64e0f.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9362979e404338071e212564.jpg",
         "catalogSources": [],
         "focusGifEnabled": true,
         "sources": [
@@ -29230,11 +29230,11 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/fairy-tale/v2/fairy-tale-hover.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c6f8bc40f8413f4ef5478485.jpg",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/fairy-tale/v2/fairy-tale-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/fairy-tale/v2/fairy-tale-cover.jpg",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/fairy-tale/v2/fairy-tale-hover.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/870761a49a3903f98617bef1.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6f4fa80c090474cbdd52c132.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c6f8bc40f8413f4ef5478485.jpg",
         "catalogSources": [],
         "focusGifEnabled": true,
         "sources": [
@@ -29368,11 +29368,11 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/toy/v2/toy-hover.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/defea791d2b7ed26da00bcb8.jpg",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/toy/v2/toy-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/toy/v2/toy-cover.jpg",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/toy/v2/toy-hover.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0e58bbda7e30c8fd614e6e5c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b3923e8ab488cdfb2c7da18a.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/defea791d2b7ed26da00bcb8.jpg",
         "catalogSources": [],
         "focusGifEnabled": true,
         "sources": [
@@ -29494,11 +29494,11 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/tv-show/v2/tv-show-hover.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ceeda795424cd5bb8938efeb.jpg",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/tv-show/v2/tv-show-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/tv-show/v2/tv-show-cover.jpg",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/tv-show/v2/tv-show-hover.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/453fd6310415ed4185b1c0fe.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/394418b915d2f3413a624dd4.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ceeda795424cd5bb8938efeb.jpg",
         "catalogSources": [],
         "focusGifEnabled": true,
         "sources": [
@@ -29620,11 +29620,11 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/short-story/v2/short-story-hover.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2e97c6662b4e34b62eb14bcf.jpg",
         "heroVideoUrl": "",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/short-story/v2/short-story-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/short-story/v2/short-story-cover.jpg",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/based-on/short-story/v2/short-story-hover.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/560da37c108a2595192776d0.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8514906cc9147eb0a9445e67.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2e97c6662b4e34b62eb14bcf.jpg",
         "catalogSources": [],
         "focusGifEnabled": true,
         "sources": [
@@ -30377,12 +30377,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/refs/heads/main/TitleLogos/ACTION_TitleLogo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/film-collections/action/v2/action-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/film-collections/action/v2/action-hover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/34af6958cb1283ce93b3b444.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/094984bd457defff6d87ae3a.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f939431333a0eb8e1303b198.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/4530e395.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/96f8d46c3e3769f393cbc9c2.webp"
       },
       {
         "id": "folder-1EA77FFE",
@@ -30799,12 +30799,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Comedy_Collections_TitleLogo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/film-collections/comedy/v2/comedy-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/film-collections/comedy/v2/comedy-hover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fc8c71c02b32b081bc394b7d.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4b77840d921868bae0323645.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f49faf0defe64c14e30eed44.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d69035b2.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/4799ffa8ac49c18263c1c919.webp"
       },
       {
         "id": "folder-651D1072",
@@ -30921,12 +30921,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Crime_Collections_TitleLogo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/film-collections/crime/v2/crime-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/film-collections/crime/v2/crime-hover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7dc42d0cf097c6f63d7c03d3.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bd632899f22b2b14039cde16.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e2e4361dab18257b3b5f3dcc.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/6f6be586.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/5c02d76e50d812febf0e73db.webp"
       },
       {
         "id": "folder-283B7C4F",
@@ -31055,12 +31055,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Drama_Collections_TitleLogo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/film-collections/drama/v2/drama-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/film-collections/drama/v2/drama-hover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6d12d7806fa2ad3f35c2056b.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/977a482ae1953760bd5b3fa7.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/50f949fd82c795a931cf17aa.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/006dc836.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/6f9b9c6ef260a591c7b80f68.webp"
       },
       {
         "id": "folder-B362DBAF",
@@ -31585,12 +31585,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/refs/heads/main/TitleLogos/FAMILY_TitleLogo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/film-collections/family/v2/family-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/film-collections/family/v2/family-hover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d4c328706bd9c794e707ce69.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3b829bf62bf93295f3f89133.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4d978f6f3aea05a746a5a889.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/b5e8b6f1.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/55749fd3c098983be44c6cba.webp"
       },
       {
         "id": "folder-95E9AAB8",
@@ -31887,12 +31887,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Fantasy_Collections_TitleLogo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/film-collections/fantasy/v2/fantasy-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/film-collections/fantasy/v2/fantasy-hover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bf7704d9c91e1210be5400d2.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fb90b9334b77cbd2feb80889.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e165cf60ae80d0f860b9864c.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/91f61fb2.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/96ddb544b385f28fd6f1c115.webp"
       },
       {
         "id": "folder-EFF8894F",
@@ -32381,12 +32381,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Horror_Collections_TitleLogo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/film-collections/horror/v2/horror-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/film-collections/horror/v2/horror-hover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5a613cfb18da7ab6d665ceac.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/df74a05e72b9c91d6453c00b.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/dd281b34e5272bf077d30d16.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/221d8b86.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/e5bb740779047d90357ebaf7.webp"
       },
       {
         "id": "folder-C2A6842E",
@@ -32455,12 +32455,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/MYSTERY_TitleLogo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/film-collections/mystery/v2/mystery-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/film-collections/mystery/v2/mystery-hover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2c569106456e16063ec458a7.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8df82c3aa39939645fd5635d.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4600b9d32438a39cead1b117.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/e3367480.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/f739825a59e28a4cbaadc352.webp"
       },
       {
         "id": "folder-28BBC0D4",
@@ -32912,12 +32912,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Sci-Fi_Collections_TitleLogo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/film-collections/sci-fi/v2/sci-fi-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/film-collections/sci-fi/v2/sci-fi-hover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0608f54a0e394ea7f4384550.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9107fbd923ca6f608ddee694.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a7e42109ed1717f6abb7bf7c.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/307c71f5.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/d23b3bfdef8baecb64c38c8b.webp"
       },
       {
         "id": "folder-8D387FC0",
@@ -33118,12 +33118,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://github.com/ImKaptain/nuvio-assets/blob/main/TitleLogos/THRILLER_TitleLogo.png?raw=true",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/film-collections/thriller/v2/thriller-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/film-collections/thriller/v2/thriller-hover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/6175feb95097701381801e11.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/58fc483c357b6a22ef8d9faf.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a9abb3d5c3bc98985ccf19ea.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/c0217498.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/b6c16ad1b93577e0f46b61f6.webp"
       },
       {
         "id": "folder-C8E270BF",
@@ -33204,21 +33204,21 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/refs/heads/main/TitleLogos/War_Collections_TitleLogo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/film-collections/war/v2/war-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/film-collections/war/v2/war-hover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4e4433cd26bc1f0bb982ee68.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/91a3c8ec730a643bd04c9e80.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f997b08a6d5025f5e20f1354.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d16890ef.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/2cdf93553c421e929ab9cb29.webp"
       },
       {
         "title": "28 Days/Weeks/Years Later Collection",
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/28_Days_Weeks_Years_Later_Collection/28_Days_Weeks_Years_Later_Collection_Base.jpg",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/28_Days_Weeks_Years_Later_Collection_TitleLogo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/28_Days_Weeks_Years_Later_Collection/28_Days_Weeks_Years_Later_Collection_Backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/182b050be4a1e1e3119897b5.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f7385833706dc0d9fcb30cfb.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/64c7b6c9d316565e83fe5cb3.jpg",
         "sources": [
           {
             "title": "28 Days/Weeks/Years Later Collection",
@@ -33255,11 +33255,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/5imuR4m3p8BOHgzhuGKDb5vXdvN.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/3689fda1.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/86079fd85146d013b3e2c61c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/3ca17f3487158a6dea99ef27.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/9e3e50fe.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/19f37335fabf389609686436.webp"
       },
       {
         "id": "folder-XSN1INN6",
@@ -33280,11 +33280,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/lQLam7R8VgaRoZzyarMJmLoVrFb.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d56c8626.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/aee71882c9b046cbce439b15.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/90206165b2aaee021ee7e292.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/9b5dc7e4.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/b79443d63cbdeaea0150319f.webp"
       },
       {
         "id": "folder-IOF3LR1A",
@@ -33305,11 +33305,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/p3I5t39NzMehPrLzsDwrTHtgQ32.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/38ad4f29.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/fd9a661cddcca92cc03241c9.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/43ae30adc44f30066001c579.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d24af4df.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/e4aab90692b886e0f6474f48.webp"
       },
       {
         "id": "folder-F41E9238",
@@ -33330,11 +33330,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/nYWnPUdktgzxSXufNVE1JTH746m.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/fDyauH6Yc8IA5gtfq3IWHDwOve8.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/efca2fe111f4f5de0f57ba2c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/a617800ea59c816c59f26398.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/kUHyN9PzQ59e2n3CwqMG99yxBvh.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/b1b88eedbb0a94fbeb0e684d.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -33356,11 +33356,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/riI33EA1vYQ1szTtMe0NR7TwV1p.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/2c74418f.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/1462857cefb80851a964c8ae.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/992df3faf8a5d423f02ef820.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/fcd3c5f4.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/b6e06effe67876336ad8a0c1.webp"
       },
       {
         "id": "folder-66907F25",
@@ -33381,11 +33381,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/1ZHrIfM0PV1eoof7KuKShVP6rac.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/onE2OosgiHdjYXPoAD62sf0XsVa.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/4f8db46e2b97d151c769cf10.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/8b34d0d77222325f1525acc4.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/8ptWAyvPmLRHyJyfrVOVFUFMHUW.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/712c1628f3b6df7fa26f35ef.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -33407,11 +33407,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/8KwICHNTFRl5Y2zif64wGrPUsQn.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/4f63afe9.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/183409d81fa3fbc4b78afb01.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/5fc9b1028be15e59986580a9.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/1b675b4f.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/6e1a35c6a6a3e3552d55e741.webp"
       },
       {
         "id": "folder-5HY3HTRO",
@@ -33432,11 +33432,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/A305pCg18aRnLhaR0RyRoDZf9fr.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/344b063b.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/9d16a397bead5e0737ced108.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/72133b33432f2f88d70fac23.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/ab2ea2b6.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/986c667929f5d071e1854c43.webp"
       },
       {
         "id": "folder-3SBEVDLE",
@@ -33457,20 +33457,20 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/4SaZvtkhrySAUfkxc5ZNMx0hZl6.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/14c1ab90.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/fc5b3b22b5d8b663255e3c10.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/05baec67867e793f9a9b8ab1.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/15526f32.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/ebfd13d0167e7b421fe34fb2.webp"
       },
       {
         "title": "Annabelle Collection",
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Annabelle_Collection/Annabelle_Collection_Base.jpg",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Annabelle_Collection_TitleLogo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Annabelle_Collection/Annabelle_Collection_Backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0e08ef5eceab43775254cd91.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ffce77c8aa8cf2c1d7cce545.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ae7067dec48eabb92e043361.jpg",
         "sources": [
           {
             "title": "Annabelle Collection",
@@ -33507,20 +33507,20 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/1AT8rDpmnORbn5ioS4QXeaLXlbr.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/26dc4800.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/c5300df5a3743672c2bdadcf.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/2abd1ac0e4261143b1ff573b.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/b0428c6b.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/b900600a1d248a3350be9b5f.webp"
       },
       {
         "title": "Avatar Collection",
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Avatar_Collection/Avatar_Collection_Base.jpg",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Avatar_Collection_TitleLogo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Avatar_Collection/Avatar_Collection_Backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/127ab0b9aac8a0fa14a6a631.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/50bcafe257bdca7c1e978566.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/67a50ec4850eb12ab4fd9c6e.jpg",
         "sources": [
           {
             "title": "Avatar Collection",
@@ -33557,11 +33557,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/jyhwiYJ05nhIkgx9UDVpUCrQ8Hm.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/b2663518.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/ef5db04067962882339010b6.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/7036436bf8fe286dbcdd68fb.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/a99f18a9.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/d772405ca07a11d979f78e31.webp"
       },
       {
         "id": "folder-MOHS9H0N",
@@ -33582,11 +33582,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/12tlRLp0fD2GMbIcYSxkL41JzNE.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/6ffc69f0.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/d19d1876bd1ae6ac9f3d588e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/a0dde0e77e6b1c46427a2b89.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d024dd8b.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/743a04f2ffb2cb67e7e539bd.webp"
       },
       {
         "id": "folder-545318AB",
@@ -33607,11 +33607,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/tPHE4hZt2mqwg9jOtfe0y9QDDvl.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/szxEKB9nFTkdaNyJHkxuZ1yWpax.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/7c765762ea4afb242f9d77ef.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/9e603cabd73eed7d131c98d1.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/lODqdHFBB4PIDEPM4Dj5ebNTXhH.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/745c24ced82841ab783ba14e.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -33633,11 +33633,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/wW1ZNNd1wrGErQ5bWmyxZymytDy.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/31SwN5tZuJNsWTLx6DNNyQSAXdx.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/e1570d67de3380019fdcd321.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/48973038d2da19f48b4a3b5c.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/4UHZWw5lV3ZoadTjXuVOakdH32L.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/a538a3e92b2e523dd4cb8153.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -33659,11 +33659,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/8d0uAA4vbiBxuwUDtYlleCVCckZ.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/bSeNKX5JtMQOhC3arCHznIham2k.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/d7dd35af0cf40998b354a9ca.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/3606bb52e4d9cb1a3591bf92.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/bXCm94g4TXKmACRj02ZlvmKp09m.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/205e5e1c45faeda659ff3e0a.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -33685,11 +33685,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/qjQ2Yj6hg5NI7n3kr3dWbrKECX1.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d70047f6.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/0ab52e56fa969393b38de424.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/94c9f98a347cdcc66297f224.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/8c2e4f14.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/2adad241634350150ecccb4c.webp"
       },
       {
         "id": "folder-U5TZUOB0",
@@ -33710,11 +33710,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/eQvRMPGpmxD75KoblGmDVFErh0q.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/9ff1c712.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/e7098bbe65a3e1de6ef8710b.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/5d2b58f0a9a3349c52b2ceaa.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/4bff543c.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/17c29e68a573b7c813cc248a.webp"
       },
       {
         "id": "folder-7BX3LL9D",
@@ -33735,11 +33735,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/3gufeHC4kxiiU0yRjefYKtpKDjj.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/17bf57fc.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/914925485d99011fcbc1e942.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/424a95333d3a9fc16ef97f02.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/119804c2.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/bdca64c218488b5a9af357ee.webp"
       },
       {
         "id": "folder-170B1B57",
@@ -33760,11 +33760,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/jGLYbBImHuZ3IFmILxJOt4Z3AHM.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/ffCa2h3qW55YthUbz6gsGnkaCes.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/d8ed2157f388404a3da538b0.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/41da6e166d25e3c270222e7e.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/A1CILmMtHpMobKvVSPWNAHd8Tey.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/fe0dc05777c924b27b95bce1.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -33786,11 +33786,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/tAo7IYPj4jW36z02JtuFP5BUdT7.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/790dff03.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/08b022953f21169ad43ca9a7.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/7ec03c3aecd9a3f085ad44cb.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/916397d3.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/22ce63ccffbe8525114efa1b.webp"
       },
       {
         "id": "folder-LF8A431B",
@@ -33811,11 +33811,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/9X5SIveaQ3zRdjfNoUbnGrKAfET.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/eaef5071.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/835346847a84a26396049661.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/4d7bb9353bf714a8f11c9376.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/3af63719.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/4f73ef516f8c931fe0301b8a.webp"
       },
       {
         "id": "folder-F7ED3T81",
@@ -33836,11 +33836,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/pJaqFpeW9kaoowXPXxIeOeWA7JS.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/b8be3443.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/b985d9c51f66cabda76a1143.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/807c4140eb69d6129da741da.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/1cfcfad9.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/b90e47ad1c0293ae9bc878a3.webp"
       },
       {
         "id": "folder-90A40480",
@@ -33861,11 +33861,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/leVevmL2RfDBaJDpLs9vevt106V.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/46f10451.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/e04910531edec3a5fe90b142.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/7ea79ac6b024ab1ae4f12611.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/1a5c111e.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/7b6e7c76bbfc499647c86535.webp"
       },
       {
         "id": "folder-7BEF8127",
@@ -33886,11 +33886,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/2XexWAaYXVWVWP80LbWTr8KPJHK.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/4X8k67rccwSldxjFPxxP7x3LjJv.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/db44e4fcaad3dacbdaeca2ef.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/07aded81c5965c70159602e0.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/87UMdcpugFmgVz2VgEopExuckMc.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/7204518da97e36efeb1d457e.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -33912,11 +33912,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/xSDu2zGuG0Ji2sEAZZNmyhQtaiU.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/9c7fef1c.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/0966bbf5b079042d1dc58899.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/503f41a01eaeaf851c4a7522.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/3260bc86.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/473f6ccc03ef1c7c72f41ede.webp"
       },
       {
         "id": "folder-5GS484XX",
@@ -33937,20 +33937,20 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/glzBU0pT2w3OqounvlXy27ZtAQH.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/ff20cbec.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/9fb3107b1ea051ba30facdd4.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/04e867c1a7282fbe140cdd84.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/19fea322.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/b15911da82ab2aabdd9b94d1.webp"
       },
       {
         "title": "Clash of the Titans Collection",
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Clash_of_the_Titans_Collection/Clash_of_the_Titans_Collection_Base.jpg",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Clash_of_the_Titans_Collection_TitleLogo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Clash_of_the_Titans_Collection/Clash_of_the_Titans_Collection_Backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/586e4b1413b8910188be823f.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f541287e1b2832dc8cf9c121.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/762475af6873f23df02bf2a6.jpg",
         "sources": [
           {
             "title": "Clash of the Titans Collection",
@@ -33987,20 +33987,20 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/5xMZC3hyLICnJ03VMXnvwJOH8qv.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/b4cf0df9.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/8991a0c673f7ad7b62917a63.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/0c59a8578165a266bd990c25.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/47ecb5a6.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/2cf40bc1e113d8b9e49f32cd.webp"
       },
       {
         "title": "Cloudy with a Chance of Meatballs Collection",
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Cloudy_with_a_Chance_of_Meatballs_Collection/Cloudy_with_a_Chance_of_Meatballs_Collection_Base.jpg",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Cloudy_with_a_Chance_of_Meatballs_Collection_TitleLogo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Cloudy_with_a_Chance_of_Meatballs_Collection/Cloudy_with_a_Chance_of_Meatballs_Collection_Backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/83e49346ff55ef1f78dc14a8.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ca0de32cb7294b8f705cb3ac.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/37f7c5ff652a1a60782d0434.jpg",
         "sources": [
           {
             "title": "Cloudy with a Chance of Meatballs Collection",
@@ -34023,8 +34023,8 @@ window.NUVIO_DATABASE = [
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Cloverfield_collection/Cloverfield_collection_Base.jpg",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Cloverfield_collection_TitleLogo.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/550c2a0e1f4dc08b71d1e97a.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3552f342fa2063c2a1da4f3b.png",
         "heroBackdropUrl": "",
         "sources": [
           {
@@ -34061,11 +34061,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/3UUCqeEvakXfTDWlE6otfawwA0A.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/3AIxu9kaaIyeX49pITFBFitQvus.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/b5f88068fffddfb7efa0abda.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/8439b0b7dd1a412abf0f3ebe.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/rJw7mflYzuHXBdRYEJyjAXDru5t.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/450d872e9bb185545f76d2c4.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -34087,11 +34087,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/Al4f6NqlAZV50JXFJbfMNOZLiZP.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/00b20809.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/db71eff35d1628c77164d371.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/a592d6fb1368dbc879ac661c.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/4f50b205.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/ff1a65a8b7ed8c1e9c6b4497.webp"
       },
       {
         "id": "folder-YGDARF72",
@@ -34112,11 +34112,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/uncIl9cDy1DvU90ZIRcL2J2FSnT.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/dd4903d0.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/17c41203e3cde40eedc82399.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/e3b49978327d5294501aa00a.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/7824db4a.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/239d72fe8fe38e9116abb660.webp"
       },
       {
         "id": "folder-31D5B2FE",
@@ -34137,11 +34137,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/ldZS60ZjXg6hrtNY0nwsVZP4dJT.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/7uB1oljT3id97xFWJlhZhJGeapg.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/82127eeff33128b689be3f4f.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/b8a0f795ea64db3c7d7590bb.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/AlNcktkWPPKxZgtnmyHC486tzmK.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/dd16f6dc65290b03ac39c7ba.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -34163,11 +34163,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/xhPL1PDIweY7WTHC4fwGYgtGzvU.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/792bd6ca.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/6fa43bbca1e13271fab53f7d.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/83c0d3182d4d34aeb75eec6e.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/7cb9fcdf.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/8b78ebd5640b4025de151dc3.webp"
       },
       {
         "id": "folder-VUHKCDPM",
@@ -34188,11 +34188,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/hrAeReyKsy89ue9bMWKuTJ57GGz.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/aa875555.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/ee4ffdacad2abf9a39d0e756.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/0c23bc565527aa918346c936.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/ea2fc058.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/e7755d8a704e28b74cdd893b.webp"
       },
       {
         "id": "folder-753F7B69",
@@ -34213,11 +34213,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/b2lIinHBvLCJvHBTdWowwRRhRCj.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d109acb6.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/1657ceaf69338cfc468e42d7.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/b14be0e9b7a3c18c9bf92c3c.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/65e9b09c.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/68c0b34d5c4191586de62155.webp"
       },
       {
         "id": "folder-DPKGQKLD",
@@ -34238,11 +34238,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/rvIPOWt87wJMn0WEXf5t8bWjccd.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/dc54a920.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/405f1984587223de7dd5800c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/11b66e6ac2a5bce78c27bb80.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/dbbf0ee5.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/bce75389d060e4ffaf2fcad2.webp"
       },
       {
         "id": "folder-BL7KM01U",
@@ -34263,11 +34263,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/elYpRiF6dJbnkB5yMvoWolidLvj.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/9e972baa.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/37b407bcf66f0c9414850fab.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/a7b956b36c42c72958355ffd.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/6121c92f.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/63323d8d5c80a69cb1f2d572.webp"
       },
       {
         "id": "folder-CNOAB9BW",
@@ -34288,11 +34288,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/h8WPXV1AOMa1tTvnAwSspXkZgIz.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/905f56ef.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/9683542d14b270bed3fd2845.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/f4c8b272509fcfe989f19143.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/279e3170.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/0f7b514cc11a909cea902f57.webp"
       },
       {
         "id": "folder-53QK358F",
@@ -34313,11 +34313,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/g0dM9AJlCXmNttrE6DtEkc1BQDq.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/ab324ad1.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/129bace4cf96c76ab1db731b.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/e223428bac404916df8508bc.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f4dd4179.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/82969cb7951d9ec55046bb81.webp"
       },
       {
         "id": "folder-4F6AB496",
@@ -34338,11 +34338,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/bqnvbz9AwiBc4Dot2I9efmBk9qf.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/c5d59c00.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/fead231ce61e1dc4a963441d.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/61793540d34e1144adf53ec6.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/0fd9f818.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/0dc951beb2dd127de31ebceb.webp"
       },
       {
         "id": "folder-DAC5B4AF",
@@ -34363,11 +34363,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/788SiNoJIVrb1rl8Zzqx2jSkZRM.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/99abe534.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/98cda63c3eb1522d28b6cf4a.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/30d8ac7cc164b38bc7556136.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/905b45c5.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/3fee768d0abdd0148982da6b.webp"
       },
       {
         "id": "folder-8C0F231B",
@@ -34388,11 +34388,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/rDNGAgJ4TpaAXGJimZyoQrKOHfV.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/wKvLzAIHnOl1sc93osfb6uawX7z.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/29674da51bcf7f2ec3f6368e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/69ae17cd9db893d9767849cf.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/saUnj5K6buVafDfLfTozDH2eqdC.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/9354420f8c1178735fad26e7.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -34414,20 +34414,20 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/woifx7xduIyJYq8ktCiN36zt9Xu.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/526d7d80.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/a5314882e70f82c1e6f24c6c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/8006c35818619fed9bbce774.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/9b240d1d.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/123848168cfb6deba68285bc.webp"
       },
       {
         "title": "Eastrail 177 Trilogy",
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Eastrail_177_Trilogy/Eastrail_177_Trilogy_Base.jpg",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Eastrail_177_Trilogy_TitleLogo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Eastrail_177_Trilogy/Eastrail_177_Trilogy_Backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2d64e2c709020ae1d46f2afa.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8711fb08bf66a1bfd7492ca7.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b6ecd841955ff7b794660241.jpg",
         "sources": [
           {
             "title": "Eastrail 177 Trilogy",
@@ -34464,11 +34464,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/pNOxxg9Od4s9IrVTH5kCTFwhzl1.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/c1b5bd49.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/63b8dcd6cc947d6054acdca5.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/e51c1f4c8b03893fe0d46a56.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/684543b2.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/fc3bdfcf232e0349b5be9c03.webp"
       },
       {
         "id": "folder-B49FDAE1",
@@ -34489,11 +34489,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/odfo8ENoFag4giSVpEBXPZhcTNi.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/yzYPg7GiB8oZOpT6QTWRVPGaGdC.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/f21f1a1b0add1f6111a69bb9.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/a29b857579d8c8da84191347.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/zQao2h92RYNmhqCvmiReIHcz3Xp.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/fe57a0f244575240a5bf41d7.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -34515,11 +34515,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/hJn0nzjZoUzuGtkXdHbLy5YjjsJ.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/7476342e.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/657485d642893535800f5d59.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/4cfb2ba98a63e8ad0084a0ea.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/41d2016e.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/f4e79551a664d9fb3622b429.webp"
       },
       {
         "id": "folder-6CDB9C65",
@@ -34540,11 +34540,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/Esk9kUFPEOHpqNLDtAiFeA7wHz.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/bb2ca404.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/a573915659853e9700977be4.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/feca64e164033260b2922fbe.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/eea144b0.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/e57b48ecc8885cf6598c7132.webp"
       },
       {
         "id": "folder-YKAUXIGO",
@@ -34565,11 +34565,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/2FAF9G9AhNMuEyKxvYT6fYWkwoe.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/df6ec619.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/03a6ca4aaba8aa3354d8ff53.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/a49cf2aaa8353af087c7d2e8.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/19477cd3.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/68867131d90e96cd37acc6c0.webp"
       },
       {
         "id": "folder-6A318DF1",
@@ -34590,11 +34590,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/jWC7V4ILCoGNviwfqsjOeo0eEgq.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/npMSYY9x9zy5iWZSffkUO78fVeg.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/60718291986c9213e628a637.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/cbc29683c58bd51b15833fdb.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/gxBbFVb2SUWtHTJQXjwAtEPTWcA.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/fe7e9be74473a9d0f9dd743e.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -34616,11 +34616,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/oXIpV1oAPjx5az5laFsCPmcCZfS.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/aa84780f.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/73a6816f38484efeb9fd7981.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/b92704a06ad68b8b9b596c21.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/9dd5c848.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/0016134c22335f0a38fff5f5.webp"
       },
       {
         "id": "folder-63CBE301",
@@ -34641,11 +34641,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/6L3P6O82lWaGOHAmqGJcmvYEMIO.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/8cb13575.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/9b2368db643ba8a358105b07.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/54399ca71997a895c2ec0deb.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f4f39a69.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/5d691c82a7fed9646e1b509b.webp"
       },
       {
         "id": "folder-7QJEQRSP",
@@ -34666,11 +34666,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/v68y0huX0liNadVHrlcPwZTlyzN.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/7b075ae1.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/c198cdf036af510d4ec020d7.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/21861e2a093f2364ddf71f92.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/8704d342.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/ce47b9497bf483ee1d2a22a3.webp"
       },
       {
         "id": "folder-Q9GZNU7Y",
@@ -34691,11 +34691,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/gRweHvOoM7hKg3q8iExsXzAhsBv.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/fdaf249c.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/3705f243456a82cf60a5a406.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/464f3da4845542b776cfe592.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/34ebee16.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/66e52d55d543b38eae959bcf.webp"
       },
       {
         "id": "folder-O03VNAH2",
@@ -34716,20 +34716,20 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/qpNcaeHxpvTJ8bQpjdQcvfEf6Ff.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/a9fd14b0.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/c376e3359e53dd905d47eea9.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/c198002e00882a8cd74356cb.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/7aa4606f.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/d077e8a34112847256b1d36d.webp"
       },
       {
         "title": "G.I. Joe (Live-Action) Collection",
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/G_I__Joe__Live-Action__Collection/G_I__Joe__Live-Action__Collection_Base.jpg",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/G_I__Joe__Live-Action__Collection_TitleLogo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/G_I__Joe__Live-Action__Collection/G_I__Joe__Live-Action__Collection_Backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/47f1f4a6c28edfe09b446124.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0f57ba8ad67614d0d988298d.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4f51b65a87acc172ad2a75ff.jpg",
         "sources": [
           {
             "title": "G.I. Joe (Live-Action) Collection",
@@ -34766,11 +34766,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/zZaNFDIURV51vMsNYGKc7Uguymj.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/3fac65be.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/2dd9085c48ac7741c95a74f9.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/d6494a5db9663eb0617712ff.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/aa56d929.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/7305884e9ad0d8beea021742.webp"
       },
       {
         "id": "folder-F89C1185",
@@ -34791,11 +34791,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/rfcdpFwwfuPqnj3YQFcyCHupCUc.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d991629c.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/3c5496aea43dc4a194113621.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/34c4c784bd2ce02601911b2a.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/484a73fe.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/ba557827764463381fca7e11.webp"
       },
       {
         "id": "folder-MYN6219P",
@@ -34816,20 +34816,20 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/ej1cVX5So3rgaLsWwKqoowtPpzh.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/b7a013be.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/a5416111ed4cffb6a7e5700e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/482201d2acfc613981916c23.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/b7665988.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/61e7db036227530d3711d9f7.webp"
       },
       {
         "title": "Grown Ups Collection",
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Grown_Ups_Collection/Grown_Ups_Collection_Base.jpg",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Grown_Ups_Collection_TitleLogo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Grown_Ups_Collection/Grown_Ups_Collection_Backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1bee66f2dcf2702ec01af150.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/11de7f53349e5979f2f26cbf.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3fba9f16d5ade886884a7a52.jpg",
         "sources": [
           {
             "title": "Grown Ups Collection",
@@ -34866,11 +34866,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/fsauViA7Rj5riPzF3HkVT1uVThY.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/47eec346.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/81b0455c9b74d646e0c97af8.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/e5b83a9655c7147f827d39ea.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/5df0c98e.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/287c0080ae05603c0147bdb4.webp"
       },
       {
         "id": "folder-WID9KLHT",
@@ -34891,11 +34891,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/8diaqIjnZbpQupgtsv9Dun1HmLq.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/23069ebe.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/e255f93c4bd2ee5118005602.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/2943dfb826dce7cd6a1b7241.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/2e655d54.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/888c7bbeca630598c11dfd8d.webp"
       },
       {
         "id": "folder-93EDA2FC",
@@ -34916,11 +34916,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/6dR8wDGToUpEfPg9GVynSrOSemz.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/5fdc64d1.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/58042b463a67a950e13ecb34.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/f09ef4fd4d3ce3f56547c984.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/8e8aed09.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/04b5152af72b155b15471cca.webp"
       },
       {
         "id": "folder-C7534995",
@@ -34941,11 +34941,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/5uNLcFEI6lgi4bqtH2IJLc9s5fU.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/9OBP4MQBAXnBZ1uXLZykIWRGnBb.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/1f2ff59852dcaef834ac4915.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/7dd10526be5b6ed5d5e5cfcd.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/b70mFgsSn2hl3CvC0nRx0SHUEX0.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/21c67f00306b8ea428444364.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -34967,11 +34967,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/n7Pj4doQ1yfElCiGTGFTvzoQkpf.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/7649ef92.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/b0ddea3685e09b86b9f51959.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/e008f753ad08d1d713166733.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/aafbdd54.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/4951a0aa0c3361eeaf419f2f.webp"
       },
       {
         "id": "folder-01D6F102",
@@ -34992,11 +34992,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/mJcGlFY4bwqJ1oHmsBIgnv4bvLk.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/kSHvhQ6RpmNgEfYEUqmPHEZbwxz.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/a9534442e2202cedf07fbb98.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/0e05f9340a9905966dc95bab.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/kLGF2qFYVuETxMtHZJgaSGmXK1c.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/b7f73a5af381c011f3ca1de1.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -35018,11 +35018,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/4Et15vXHzqeYj24w3XMxkE4qkZc.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/7zzD8uQ5fyC4slZF1ATMS6gtyHS.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/d7bdea7ae8a196b74fa95521.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/b4d6e6f57116efbbc7b70fe0.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/qpFCHvjPCEGDW6RPBCdV9iq1yI4.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/9722ebde27e47387357715db.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -35044,20 +35044,20 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/5kFmta0bbPzP57ANlfS0PtkHOao.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/7b6a757c.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/c8064bef3f8f4b4fc8beb522.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/a745c25e512eba4ae4648f42.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/14a21ebc.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/154685c53e2e5f0a55414360.webp"
       },
       {
         "title": "Highlander Collection",
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Highlander_Collection/Highlander_Collection_Base.jpg",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Highlander_Collection_TitleLogo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Highlander_Collection/Highlander_Collection_Backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/44976b3ddae0879d89e1dc55.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/752ea70350dda02c01b65ea6.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3c39508e38f617c6d042bf8d.jpg",
         "sources": [
           {
             "title": "Highlander Collection",
@@ -35094,20 +35094,20 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/iBtfiGQXX1p52i2jzsYixKxZEyF.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/741800f0.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/e3782a6c8706c73f6787d93e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/789dc69efe4501879e0ac507.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d0e1c736.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/faa7c6f2380c643b538d7b90.webp"
       },
       {
         "title": "Horrible Bosses Collection",
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Horrible_Bosses_Collection/Horrible_Bosses_Collection_Base.jpg",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Horrible_Bosses_Collection_TitleLogo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Horrible_Bosses_Collection/Horrible_Bosses_Collection_Backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4ca499354bdfba98c202e904.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f121ef600663acaaabc5fae2.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/253f614f18d591a03c0e1b46.jpg",
         "sources": [
           {
             "title": "Horrible Bosses Collection",
@@ -35144,11 +35144,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/o5iC23EDHFBU3N9Pc9L5x5ZV1b5.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d12a44e3.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/0af09436fd90a04c132207e9.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/ec7b0faa334c27555e753737.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/192c75a2.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/85ed7f81ae15198749b67f33.webp"
       },
       {
         "id": "folder-GRP514U5",
@@ -35169,11 +35169,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/fVx8L4UnxrgRjiyJFPfDt9XU6Nt.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f5d559ca.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/849e28f81de2301208cba177.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/f48f0f8fd95958b61328edf8.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/8f17cc6a.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/1a4360eb5708c6bbe2fa0812.webp"
       },
       {
         "id": "folder-GRLYVJ19",
@@ -35194,11 +35194,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/c8KkElskVt690h6H1Xhi05SC9I9.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/781fa072.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/3c7fba8fc87bca70772ae5a3.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/84f4eddd6cb7497cea9abfdb.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/0a2c8559.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/b4374b7b110e092397d75dba.webp"
       },
       {
         "id": "folder-GVH4W51M",
@@ -35219,20 +35219,20 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/yCZMIJaNriW79rR8NL4Kiq1mvWr.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/a913f937.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/a4ff8c059345ef9585c02eb1.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/8f0c102a132bafe7bfbd4be9.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/aeb488a2.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/243c6c454052980f4cafe288.webp"
       },
       {
         "title": "Inside Out Collection",
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Inside_Out_Collection/Inside_Out_Collection_Base.jpg",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Inside_Out_Collection_TitleLogo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Inside_Out_Collection/Inside_Out_Collection_Backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a13b4dae8f45328ff97b6b4d.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3a7972e60f88537985d17377.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a03f7c08ea5e364567a09875.jpg",
         "sources": [
           {
             "title": "Inside Out Collection",
@@ -35269,11 +35269,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/6y11lYvQ9wMcnFTRklLRQyq2GKW.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/3062357d.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/5d6c06ab11dd947c889b8a22.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/165e99b821fcf436f83c1d74.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/403dd5ba.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/2d92e1bfcf62eef35ae29459.webp"
       },
       {
         "id": "folder-BD340B72",
@@ -35294,11 +35294,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/zJTKOKXCc0NIqs0QIlMwtOka0i8.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/d5025iuay2UTeviFdu5zKKurfg4.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/830bd209e865bdc316d1c916.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/4251bd5985098c48dd7b4d7d.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/rVdFzHgzvUcp0lJPGG3Cewy9hgs.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/b952b9bca3043fe80fb88cf5.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -35320,20 +35320,20 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/fZbk05loJ4K4ce9Dl5GlpFhmZ6g.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/1556754d.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/7f25cd8741a398a5615ceec0.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/be756276a391016f078d083e.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/9a22fdd1.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/b2a92c93762600a30ff324b8.webp"
       },
       {
         "title": "Jack Reacher Collection",
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Jack_Reacher_Collection/Jack_Reacher_Collection_Base.jpg",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Jack_Reacher_Collection_TitleLogo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Jack_Reacher_Collection/Jack_Reacher_Collection_Backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9bf867403045f7f917d3bc0f.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e7b0bba081a0f2152e48325d.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a1704f37a849f8757f3bc2dc.jpg",
         "sources": [
           {
             "title": "Jack Reacher Collection",
@@ -35370,11 +35370,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/dixRLiHxOMJTfHfIhUzdyTDQJby.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/b44d3a28.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/02f2bdf54d1d19ce01f71cce.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/955d3bd3fc3fe64de6e49964.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d3d2db8d.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/1810ad5d3b720c54d78683cf.webp"
       },
       {
         "id": "folder-0D60F3D4",
@@ -35395,11 +35395,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/iykBbaWmZQAkn3UEUwnnxVbnz7E.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/81e22603.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/9cc96d761f48536d2f7d169c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/c68d1511bb5afc356a76c889.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d16890ef.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/2cdf93553c421e929ab9cb29.webp"
       },
       {
         "id": "folder-EX4SNDUJ",
@@ -35420,20 +35420,20 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/ldEdyu47fbiVl4vwdYMuPYYp4po.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/2939d81b.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/4f8b6e1d4ee1ae1b96b806a1.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/b2c1e595fd32b2dca4cc9885.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/2e1db531.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/2faaa9b0c27cd78553cdd0fe.webp"
       },
       {
         "title": "Jeepers Creepers Collection",
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Jeepers_Creepers_Collection/Jeepers_Creepers_Collection_Base.jpg",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Jeepers_Creepers_Collection_TitleLogo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Jeepers_Creepers_Collection/Jeepers_Creepers_Collection_Backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bc2abe9ae8e97d53b01950cb.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f191138a69c61204aca16eb5.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0dbae0d32c50aefdda01843f.jpg",
         "sources": [
           {
             "title": "Jeepers Creepers Collection",
@@ -35470,11 +35470,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/eVXvH6j4qM8ZEqZfw5bZ6JGQxqZ.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/a579c22b.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/1b4ffc095bda636aa6b1c2bc.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/1e42f967aa690daf06df06c3.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/a2a06c19.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/05e74ef6d0124a2751a8f1ea.webp"
       },
       {
         "id": "folder-550AEEF9",
@@ -35495,11 +35495,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/5ECG0W3tVvbGH4G2Wsgmlu45KtD.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/4ICdnU5ieFquD2kIs9Mwt4NGZcR.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/f5daf12b993e27a8d8e502bc.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/84b234a5d0105199a37fa872.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/pMHHhMKu2iQichL6Eym4ApCvIEB.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/7ac99e332a6d8b943c6c9c60.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -35521,11 +35521,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/fLql26sxSt0lwVdKUujzPWBL3H6.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d1bbf235.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/61ec425beca986e3be38199f.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/0466b03bd3be07361ae64d0c.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/c6b51ac3.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/bbd64a62990180cfba8e62b1.webp"
       },
       {
         "id": "folder-H4BR906B",
@@ -35546,11 +35546,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/yDmni0jAsYYx207ixtEhCLoHtRq.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f6e8adb6.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/056e0f843f5f8a9ae54782e1.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/366fe65996197c98a2a49676.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/3fd1a8a4.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/be8e2cc6da5e90339d073f20.webp"
       },
       {
         "id": "folder-V70WWC3W",
@@ -35571,11 +35571,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/ec4wy0iZFkHTxw04HyX4r06DwrH.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/8f7531dd.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/1d8cb6e2120675f563c4ad55.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/9155acb32879d22e4f6bcf4f.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/c1482071.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/26206708dfa1f83489594ab9.webp"
       },
       {
         "id": "folder-1187D75D",
@@ -35596,11 +35596,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/pDLmFlKLIZD2LvJdDknOPU5ts4q.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/gKjplfZZWmRMPoBdmJeTHCcGYxV.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/e29d026fba8f43b08b2ef072.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/f7cdc77128d2fa3fc613a3b2.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/fYMsCXEMguNlSORJIHydfBgOnty.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/2b000939b75e246b7a04c881.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -35622,11 +35622,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/8TYeXDkdgYMq7vmgbpmeBRmpWFr.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f6b1cb78.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/3dad9fff990e25c6470876ba.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/3d0610d2a1131dbce1271630.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/78dde437.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/4954ad8e7862c018b83c6936.webp"
       },
       {
         "id": "folder-O0ZGRFZ7",
@@ -35647,11 +35647,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/iBSqLtHA9ZerSVviA0GFFdFKeg2.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/4d59deea.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/7a4a3b3430871fd175e8d28a.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/7e290b17f81b517f0af9c94e.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/24d34bee.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/293d83141d3e7df8a2b539f0.webp"
       },
       {
         "id": "folder-679D11BD",
@@ -35672,11 +35672,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/aYKRKkxwkHTP3sGHp8E5tnNHhvy.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/0fa76102.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/18b1ad1ae56f41a0d9745cf3.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/84f3966e7cccd2bd322e21f9.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/567f3f02.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/b5230ab16433846f9d000c1e.webp"
       },
       {
         "id": "folder-X2VO0H0D",
@@ -35697,11 +35697,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/gkpcd4k3IrkqIAqRBNLLjBHGYyr.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/af023ee1.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/fc4faea390fce74b91fe98a0.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/041951ee588c5d0189f5279d.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/730dc93b.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/11c4eed5a25c8f1216168964.webp"
       },
       {
         "id": "folder-5RJTENQ3",
@@ -35722,11 +35722,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/lInBEH0FwPhdJGumYd12Ve4jqNV.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/00955ea1.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/7d60fe94ec5555106f8f707e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/80ef64e0a6c224d44ae37646.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/1dc7f19f.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/c26417368f23088f542bcb10.webp"
       },
       {
         "id": "folder-CQNUP6E3",
@@ -35747,11 +35747,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/tEXzLFN5twL1N8ciwp7a3nhYu7M.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/ea698ab8.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/c319f1df04320aa3ba03ea20.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/974b9fef546b880fd407bf4d.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/4bff26da.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/e53141a0564b6b99211aec93.webp"
       },
       {
         "id": "folder-BD2E1EF7",
@@ -35772,11 +35772,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/jv6vibPkGv05SBISrnB70lIIS1r.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/ez7hA34uLtOuGIwZvwhlpr53tXh.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/4444765e377c86c698f98d3c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/9aac76e315d5348cfbeff3c5.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/2jEwMXBICqARNmhFFFDu1IvmJCK.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/5b04700b2365790a79ef003f.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -35798,11 +35798,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/olE1HfkoW6UW9ffLKSb7ZhAHRbF.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/ba07868f.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/286b64870901c612f9eb0ac2.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/2631564fb25d2d5eba927956.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/862734d3.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/7af7227764812cb1b38e158f.webp"
       },
       {
         "id": "folder-XZYOGHCP",
@@ -35823,11 +35823,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/4WxLPaAiWA2bCEW76XRwt09hmBJ.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/687577b6.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/8f6ca719cadd97991bcc4ca7.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/ca4dcf3e4518932ea2b20ad5.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/19d50398.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/f8c08e9a698710e2a056e8bb.webp"
       },
       {
         "id": "folder-8D9BC163",
@@ -35848,11 +35848,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/99v62uPvDBtK2JOdwbz1xDz5T3B.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d08d2fc0.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/22bc49923f27bba5548cc191.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/1b29b98da1bf4ddd157e723f.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/e140a9b7.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/6547724c28e8018711ffd0e5.webp"
       },
       {
         "id": "folder-BA4C8329",
@@ -35873,11 +35873,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/nDUqbD2wr3mVwBiri4qhv6vzbMd.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/605a022d.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/a4c9aa788388680dae294e4e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/2c82012a855f4cac97759868.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/2ea1d44b.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/f06af1cebbecf38a7448268b.webp"
       },
       {
         "id": "folder-UWX1LLAD",
@@ -35898,11 +35898,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/qBtAryVKg11iEOmxeb31fxIHuvN.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/9dabd5c7.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/c50ea443912d90fbcc65b589.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/227582fda9c2204912924f35.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d28a1f41.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/14e9ac4b9bd6cb4b6798ebee.webp"
       },
       {
         "id": "folder-J42YTYW9",
@@ -35923,11 +35923,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/RXa3icdrXfV7lSPmhbIyI8VQWN.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d105299d.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/5641cd0559af2ed890ee038a.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/a3a12909a92015125ab91086.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/5a36a40b.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/f7036eaf6ce47d67fcd8ff72.webp"
       },
       {
         "id": "folder-P0P1OKQT",
@@ -35948,20 +35948,20 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/mTevhilEOa7dqILrE9YQnNhkIQ7.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/ed15bf82.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/af157a1da6b5040e43f3380f.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/4777aecc98c2a1731b5212fd.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/93cf0ee7.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/ecbd5e8a25abe1ba2dc7f08c.webp"
       },
       {
         "title": "Minions Collection",
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Minions_Collection/Minions_Collection_Base.jpg",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Minions_Collection_TitleLogo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Minions_Collection/Minions_Collection_Backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/aaa368a96021a075e9cd8a6e.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/03b35b4fd02a8a0e53767ea4.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b75081aa349a36678fd9ada8.jpg",
         "sources": [
           {
             "title": "Minions Collection",
@@ -35998,11 +35998,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/8tVB5kzZe0y3CjxEt0LGATOrLHZ.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/18f9387e.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/caec9aab0acc9b3a3516fda8.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/fde523e656e6404030f0561f.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/16d84c2e.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/3be11798f9a8da066a3503a2.webp"
       },
       {
         "id": "folder-KPX2Q2WZ",
@@ -36023,11 +36023,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/d4Nk4FAlEoHLNEny88SQ7Jk9ZsZ.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/3f691530.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/03c943bc35200514e252c0ab.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/9f7e91fd1eebd7cf38828ba9.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/cd66e634.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/87c5fbda6594bbe37e30828b.webp"
       },
       {
         "id": "folder-SHRQQWUC",
@@ -36048,11 +36048,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/grDBSGzGzDDvKezYNQWB65MkJXu.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/3cd34e57.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/f6c4472502d4ecbf58bf95e9.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/a214917091df9b1af6d75a45.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/33ba1641.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/b1d8c695b77e2cd2f42f8ecb.webp"
       },
       {
         "id": "folder-84272982",
@@ -36073,11 +36073,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/dGJ0LrXp9Leo02YdRpI825Rm6VL.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/r64fYlBu8HoaUAI5WGivEFJWaiK.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/93c51f3647e3e8ade05693ec.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/e57535a9fc7fde3113211bbd.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/bCgW3MoAyabfEaq70v9a43P9CCF.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/ac84c993c178880729939cdf.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -36099,11 +36099,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/b6F2VAnvzh7tmJp0EjQVBI3W4KM.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/6Kjizag3KnUNDaBkN9LZKfnlBxY.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/3a09f7b01e785076c0f2b043.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/4185d79afaf085ed2644adc0.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/1KkIBhX5MTwVoNJzD0JMv059Ck0.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/2ae2bbd47377f35b7640f26b.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -36125,11 +36125,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/qIpMIw7hCehxi6s8F9ZgeVJK7AF.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/8a2d5903.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/2fd263d40bf9239910ab1ff5.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/cfbecdcb871912b5179c3d65.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d6f477b7.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/59f88f25d312e70e4ef28bf4.webp"
       },
       {
         "id": "folder-5E5254D6",
@@ -36150,11 +36150,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/e5r2MkEJoFT6d1jiY0nxcaOVACo.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/17f18526.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/cb7755793b6aa2e928832094.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/913534d7158013ad5a23d2d4.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f9464e34.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/ba38905456eb18bd081147e5.webp"
       },
       {
         "id": "folder-50AOAZHB",
@@ -36175,11 +36175,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/cS90NJrklhLO21D6VjWpMV4528h.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d8c849ca.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/20ee71b9bbf69e4c21a10031.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/67611b2983a8f9ba8e077f4f.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d4652fc9.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/fe8bd48546841e9a49122333.webp"
       },
       {
         "id": "folder-2F3OCZAQ",
@@ -36200,11 +36200,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/zmX977yilVr7j4ll5Sozjy9Ixfi.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/51432bbe.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/34e96d0e4ea3b14f60893248.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/f115cbc827ca3665cc9281c2.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/bba782dd.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/b06d83a8848bd2339e5d281c.webp"
       },
       {
         "id": "folder-QHTS44BL",
@@ -36225,11 +36225,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/todcvBgNXRjqDwStr4IesruVFlF.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/b7522cb4.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/5fc6e6f0c5d5fb0c8528186d.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/3fa2c9e034e6dc85b412053a.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/35710a6f.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/cbde9b0a85d4f88b738f508c.webp"
       },
       {
         "id": "folder-32QHZQMQ",
@@ -36250,11 +36250,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/vYCqfw4HaoMaqfdvpkoLvSnZM5Q.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f7892a33.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/9e6905f690aed9d15f0b149c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/778d7a236e60ecf94365a9f1.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/3f5d4354.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/5d68a0e85982d55221bac173.webp"
       },
       {
         "id": "folder-4QQ72TWF",
@@ -36275,11 +36275,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/p8OAQOQWdTjuGsBJCleal3n6Bfk.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/794262fb.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/4aacb62447653639a4612710.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/07bfe9d68bfcc2f8bef631bb.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/2ea9d82e.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/187e1cbe7037b8c6401fa217.webp"
       },
       {
         "id": "folder-07272920",
@@ -36300,11 +36300,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/s9usFGBXjd9vYvZ3TtfW2tLHSbK.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/c94a0c30.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/ac4639f8e679800a035c3a76.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/d87a5b26b271cfebb84ef5a3.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/515fdc62.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/00c315df3c6371d0bb975bff.webp"
       },
       {
         "id": "folder-C65D5F8E",
@@ -36325,11 +36325,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/pgnuaPdI6g3oIhcIlkz6VqVjvgc.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/sGH6ONsSV6FbMnA0uDCoRdTd2Uz.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/2e0b111704524eb785405332.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/de5dcde8f7f5489439d1f4ec.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/efW6fm1jT5FFBADU2Itj4AGqDE7.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/6c85fa80295acd2b9f47771a.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -36351,11 +36351,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/79z4mrf0Y2uwMnijznBqHhL9KnM.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/95YK2eM6IabzKdLoRnNeGSPJW1x.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/2010cb541922b0754b0f28c2.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/5dfa05b684fdd4fcb2e17f1b.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/cnaLzqjxlqGMIp7AGCizfVXUhSn.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/2bf16b9ce8f22564fc0368a3.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -36377,11 +36377,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/vEJKowxLkU1DpGXfhRRNkzbVGix.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/c1e081d8.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/cf72408b93b7bd0296a5adfd.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/b4c89377dfdc5986c6a6d6c6.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/5ab9bb51.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/346ab1e7b5d76656faf27065.webp"
       },
       {
         "id": "folder-710COXTP",
@@ -36402,11 +36402,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/chshHenTRPd7cSzlzBD0CpqYGTh.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/1fb92b94.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/23889b2a6ee389d0bf1e369d.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/cbb167862c87726db9845294.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/0aaf05c5.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/8e428f15b4f3df4b28cd1ae6.webp"
       },
       {
         "id": "folder-R96DZK69",
@@ -36427,11 +36427,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/3XLAnXoZJsve130dGauLPG6EJv3.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/295bd9af.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/0385a96a77a8510bd7959671.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/c6aed7fcdbd5c699d0da31f2.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/738f03a6.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/75141173696e4c80d98c6043.webp"
       },
       {
         "id": "folder-WRDHWZ5K",
@@ -36452,11 +36452,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/bPjSRjigOlEnz1r6H92raaqwhJx.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/c1a5f914.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/8d4462b7ad699a4f1cb056f7.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/1214b71ae5da7c6858b5aead.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d321771a.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/44f842d8efd4fec86844e176.webp"
       },
       {
         "id": "folder-02D0DACC",
@@ -36477,11 +36477,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/A0UQAJy1zfJibYmcVP1ostSwnNE.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/4xsUaOAnOHvGfTUL4HHziRE7Aaq.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/3266226544ce3806cb938d5f.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/73a9f07fa8512c482289bb21.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/iYqhzS4ToJbcx3lbpy33MbDVsE9.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/915403513a55015b6d49dd7a.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -36503,11 +36503,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/o0s0xqUcaWWv0Kh3QYmfxSQjmPD.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/563825d1.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/643ffc02c6380151e8e30780.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/a3d7fe131a8c325384a24300.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/e27fdc73.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/92153337f7454f4417a98540.webp"
       },
       {
         "id": "folder-S02SZLJA",
@@ -36528,11 +36528,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/naHFNN28BalEdkW3kCBYIcJSKPi.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/84ed6b50.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/f6cc464b32d82dce3ccb200c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/5145023e0e83db5c0b9f258a.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/0ba37fad.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/cdb00d5bf3a4e2d194c88fe5.webp"
       },
       {
         "id": "folder-5WWDM0GW",
@@ -36553,20 +36553,20 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/5Jn7FPpVjA8ZxkAmqWMvrZvQJ5b.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/a4d9d3e6.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/f6d88095936569ba9b5a5f1c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/896cc7f392d821a33f5d7597.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/e90b07a1.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/9940819cad2743a756a9d42f.webp"
       },
       {
         "title": "Planet of the Apes (Reboot) Collection",
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Planet_of_the_Apes__Reboot__Collection/Planet_of_the_Apes__Reboot__Collection_Base.jpg",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Planet_of_the_Apes__Reboot__Collection_TitleLogo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Planet_of_the_Apes__Reboot__Collection/Planet_of_the_Apes__Reboot__Collection_Backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/aab3efd3e10b2f899602f40a.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3cb86e0485b6fb3360583013.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/99d39cefd524496aca14570b.jpg",
         "sources": [
           {
             "title": "Planet of the Apes (Reboot) Collection",
@@ -36603,11 +36603,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/a6x0AJax5uSjQ4pNhS23yO83gAE.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/b0c7b7eb.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/d0a858c87eab50e4d34bc4f4.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/10cad5442f44aa12d9d556ab.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/feeb0dd0.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/729626416228d48784252eda.webp"
       },
       {
         "id": "folder-2A875AEE",
@@ -36628,11 +36628,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/9RH1UPAcHNlyW4h4rACuhifkj65.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/q6npkfLX1jryO4a3GI63WJW9TrT.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/c06e781715971b6763c16098.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/c5f5923657a9653110e368d9.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/dEkJGGXnUlH6xEOjE4NYpgf378H.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/212a9c6cc6f127e47afda5ba.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -36654,11 +36654,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/AbHBpWSenhpsDGh73UKk7AUPtNn.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/jPE94wJTfz5LlQpmzGkyFHT2SLA.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/ebaf6447f2429aff410a710d.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/e2b7c53c2f82e4ccdc983433.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/5atzWKFCCwn4TMVkO1kLVI7rDkX.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/f2a993846a8fdcaea6d962df.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -36680,11 +36680,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/SQYWzhqELvXJPAqu0YL3I6nODd.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/93361710.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/a1c4a7a02660e40756bd95eb.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/7b87665af5ef90b53c2101dc.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/35a14e41.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/f9150bdf6ea23e80c9d6fe8e.webp"
       },
       {
         "id": "folder-26RPSH1H",
@@ -36705,11 +36705,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/wnGqljuqb2KBNJQ0GCEoUjcAnTU.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/bcf0d4e0.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/47e79ea5e940e902dd12422e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/9a4d00a4620999e3e2f398aa.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/7955e41c.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/0356243431afe89ce25d1f79.webp"
       },
       {
         "id": "folder-B6B1A3F5",
@@ -36730,11 +36730,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/3TLppfrmhnuldfXozpCmUIK6iXV.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/2cFhmOImIv5VPbc2ieLRPCFacAh.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/ccddb011c102ae11cbae4d76.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/9422292ff456833559d55d9e.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/qawcCCyJNcdOpDRuXo5aJJycecY.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/1300f4466e92445803009c40.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -36756,11 +36756,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/6TtEi8Jt0dqlEsFofnImnWug1tW.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/300dea0f.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/1e113348710453c60d7d332c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/e9ca83bf90bb742ed88cbefe.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/4d2b1f54.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/454b7c02fde3d1fa99cffe56.webp"
       },
       {
         "id": "folder-06KXSSPW",
@@ -36781,20 +36781,20 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/ibZOzGw5IdnMW5O4TCIDybiSIB5.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/c81d6b06.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/65ec9cfef3a0165ef9ca85ae.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/6cdb306334bdf8492afaa9b4.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/ad90e5c0.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/601e5d9def22cf8bd572861a.webp"
       },
       {
         "title": "Ride Along Collection",
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Ride_Along_Collection/Ride_Along_Collection_Base.jpg",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Ride_Along_Collection_TitleLogo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Ride_Along_Collection/Ride_Along_Collection_Backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8879033060367df25fb7fd0b.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/372a2c77304a371e4f3c9b7d.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1facd1c90b4e49819005a20a.jpg",
         "sources": [
           {
             "title": "Ride Along Collection",
@@ -36831,11 +36831,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/97nRAZiyiV86Ecr0e7iwCXcLwUu.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/bcc7e1cb.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/f0b9742b10f934aceea44a8f.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/ff48b2c86568bd0e7f304757.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f40b9aa7.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/09e276f9e474c9a4bece0bcc.webp"
       },
       {
         "id": "folder-PPEIXVD0",
@@ -36856,11 +36856,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/9URvLewLXyjnmaGXpiAwzUVt7kk.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/fc7ef774.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/a282e47b8ae6ce4798e94f81.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/7991e68606b989311b063d7f.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/fce21f8e.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/13bfc3a30ed3de3406fa7f48.webp"
       },
       {
         "id": "folder-R1ZY7195",
@@ -36881,11 +36881,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/qBqW8TT2dnY0bYq1rZtOW7c27HG.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/2a82defa.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/9c155d62237bf05d675dcb8a.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/3a2f4b76b43ff57feb233984.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/bb8d6d8a.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/d85bab22ab4113f03b33e81b.webp"
       },
       {
         "id": "folder-YKZOU9YB",
@@ -36906,11 +36906,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/c7upcLai75mwKvzSdzdaD7K4Cqw.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/60eea627.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/c449b83581b4edd1b18d1de1.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/72688a475e5c22eb270505d9.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/3470ddbc.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/a4dcfbb9ef9115b99f50640f.webp"
       },
       {
         "id": "folder-CPO9DWK5",
@@ -36931,11 +36931,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/e88hNPJWxslmv5WEeOfFFikJo5v.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/6b958d6a.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/2f9c3df844e38a255a44721d.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/7f131b3be39576be10b73061.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d4873ae5.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/fd358ecca338040b403c05d4.webp"
       },
       {
         "id": "folder-G5WF3ZRF",
@@ -36956,11 +36956,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/ApGPeuWjHsonS1SlG8ppmmwPL7N.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/df5fcf3a.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/51fd61b191fb2446631e51c4.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/dcc1dbd95f3a503341612949.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d2686ea8.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/2820d0c336c8c32ad950f774.webp"
       },
       {
         "id": "folder-OXLYM1Z0",
@@ -36981,11 +36981,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/tB5KgbNm7Qk7Wesm9ZbQ4nZz9px.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/fec1439c.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/4bc83bd2ee0a9d339a088cad.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/2977e850e111b17d5dfbbc39.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/52e24fd9.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/6fffa7fdf0b141c95c500c20.webp"
       },
       {
         "id": "folder-1DDSBN8C",
@@ -37006,11 +37006,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Scream_TitleLogo.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/ccf7d4df.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/389060a8f32090337d8b74be.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/068d99343233be3945d0daab.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/603b620e.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/f48cb41f42d6853fde3f8479.webp"
       },
       {
         "id": "folder-565F8621",
@@ -37031,11 +37031,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/tQN8WMhBJVbWZ5vaX6u1obNTC0C.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/9cjIFDiofkzLXsQ6EimpaKMLDwE.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/033e2da91124e06a74d26407.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/a71ccbd6a0eff3217c0879b8.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/dvFvX16cpsj2Us6Lvb03Oq4eEZI.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/4ea040ee968e17fbd6f204ba.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -37057,11 +37057,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/kZeHzQhlYhX8JThSQyTjb4j1eh6.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/511c48c8.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/a38d55400f8657bba46d269c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/554cfbd7261a1687e80c925d.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/7adffe35.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/c6ffea1bd4e8c8331c1b0c58.webp"
       },
       {
         "id": "folder-VIEZ2QKM",
@@ -37082,11 +37082,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/aHdDXMXOAgejOVoupZBULvcfcQG.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/5460f3a5.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/816aa4242cf900060b09cb84.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/d794615da7ee8955b114fc00.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/36f60447.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/57285363edfb6db9d1ec0c02.webp"
       },
       {
         "id": "folder-KZKZCR0D",
@@ -37107,11 +37107,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/995VQDIxH5nKRLt5qXqmMdPj0kz.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/8edc704b.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/ea0cf9436cfd6c9ef1721a11.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/f4a3db735047acc1fbed31e4.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/4cd652cf.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/7499cb8e7c9c49b980a747a9.webp"
       },
       {
         "id": "folder-6CB17807",
@@ -37132,11 +37132,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/osbvEX80sdOAZIUFxRtkXAi2Wat.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/A9uzYRu74D33lvLoTbeTxEmk09Z.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/f18994dae4a093e035c4efc3.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/2b84e204f6130b1eebacdf45.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/jWF319ozJUsXY6x8y4XghLoX8cD.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/8627d1b1559e52a8f78e268d.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -37158,11 +37158,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/l1cl4X7oXiZLqLP7kENvQu8yAQ8.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/c84a8b86.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/3fac3176575fc8c9724d565a.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/3a05d46298bb2e4b0635a0ce.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/20d11b82.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/fe1f42f252c5aae58a4ca244.webp"
       },
       {
         "id": "folder-0589401B",
@@ -37183,11 +37183,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/zfDb6nJeri4lbmJVIv2lMcHNTCq.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/dFu8WHg97g6D4hY2nDqBsmfBZI7.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/749bfeffad8ce68bf7b1fff1.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/db7ff95fec18264d28b026f4.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/4JASyGk5suaz4xwMp6irzg334k6.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/5c3964cf4a973eaf8426ab21.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -37209,11 +37209,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/stOUdTJvf0a77uTI8lTQ3ZYhsNX.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/0265d5f0.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/27949f2c7090dd8946d1b8dc.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/f251446386133652209dd761.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/257ddace.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/21cf14316482e286e349d8cc.webp"
       },
       {
         "id": "folder-81751D14",
@@ -37234,11 +37234,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/wadu7RMtcmsrrzSX66WoVQjTsrU.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/o0eZDtoeMSxQbT3hjPtF0qSDJU0.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/be58ed03eff4e53e0cf920af.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/66df48d64747076c1f1e73b1.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/waNV7lQsnMzjQKelCgvF3T927LL.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/a2382c2d98b92dbae79d32a7.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -37260,11 +37260,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/kNPXwReF35JpWBqGw8HadykznPT.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/657027ce.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/4037e4349d73967eeaaee962.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/9315a832234ee1f4ecf3d864.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/ac76d214.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/4363cde82dfcc03220a13aa0.webp"
       },
       {
         "id": "folder-1RKKSJG8",
@@ -37285,11 +37285,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/xrM5rEtoW0Hd0QXmy5b4WBGZuHd.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/3e68413a.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/59845a5e3eb45638d4852dc6.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/932b05f81a28ce7cebd1833b.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/e0bb12fc.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/90c07190d424c63840846ef6.webp"
       },
       {
         "id": "folder-D137967F",
@@ -37310,11 +37310,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/zBqJ0HCFgJz1dpNvh29K1wyobU3.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/yqpS8N5w7VYo3gmFtHsGwHTV4Td.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/2fd8f46a8df83b7cb5af68e1.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/836b1b7543d8d9163d08fee8.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/oxjNAfQJ1OrySttZSeLayky6T9k.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/ec8aef86564dd072d1011c7b.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -37336,11 +37336,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/7uaXgLu3hkkS7ci0l0tc9SPHfER.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/c1568cd1.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/a8af61bb72d2bb27ee52bd51.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/0d5af7d9077dc3f8faaf719d.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/2e475f1f.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/62bd9c06cd708ba0d305f7fd.webp"
       },
       {
         "id": "folder-B4D2E50F",
@@ -37361,11 +37361,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/gMIfiEYgYnEzeQpMGLtYiukDvHI.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/sddV6vaUC6x37icJS3opIXTXB07.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/c8a45f66fdfa1e797e2ee28f.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/8ce0df2f2f1e239e754a71c8.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/r7MMQenUURHhAVHFymtOb8AX4Bm.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/870d7afa51b50fa245b7c120.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -37387,11 +37387,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/jMzI8QO7irWNVqzhKLUfeAYpCWg.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/vNrbrsHOpXS3whk9DLuBNcjJy1s.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/47d34e2b465be7c506d22a05.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/9e387a32559ac5365b454147.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/qM8q2gWAeQF0XUpZ4XZc4CMX87a.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/706d0b31487e544ca16115aa.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -37413,11 +37413,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/vswPivs3yuUsk5aW6DbnyeNQ4GX.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/2f0dac1f.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/625d2dddebafba34ff335d38.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/18adf92451c2e7bd636ea695.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/496631a2.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/a17549208a3f2dca1c888616.webp"
       },
       {
         "id": "folder-HNO881F6",
@@ -37438,11 +37438,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/6s76YNDStAWQIlfv3Y5RmVcy8EY.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/678a458a.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/6dee43bfc63ef9599b74099a.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/0e1762e893c85b302378c9ae.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/c5d115c6.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/12149cdea75e14fcea941823.webp"
       },
       {
         "id": "folder-24ACF7AD",
@@ -37463,11 +37463,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/jaTikg9RTC5Uw1GZk18UekCEoJ1.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/6fafb3ef.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/3527e3416b33f49964df1aff.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/e515d94b4d26f56ef8cae9f3.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/96208341.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/224beed6e5802f139344443c.webp"
       },
       {
         "id": "folder-40C5BBFC",
@@ -37488,11 +37488,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/oRXlsX6MoZBydSoMRfW3AKRd3lJ.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/k1d3n4TJAGTF90x93QhL9jKUaXv.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/505a670ac1e06061a5b886f9.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/1846b3d99fb9db9baadb9bbd.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/la0EhOrgVAiY8sf3ILz3wgoaNXH.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/0d53cdd86783b3e615300231.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -37500,9 +37500,9 @@ window.NUVIO_DATABASE = [
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Taken_Collection/Taken_Collection_Base.jpg",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Taken_Collection_TitleLogo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Taken_Collection/Taken_Collection_Backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d3a461ac4cb21d736dcff8cd.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/82b37dd64548351d84a25af0.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/82325ed696cee6b83b303052.jpg",
         "sources": [
           {
             "title": "Taken Collection",
@@ -37525,9 +37525,9 @@ window.NUVIO_DATABASE = [
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Ted_Collection/Ted_Collection_Base.jpg",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Ted_Collection_TitleLogo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Ted_Collection/Ted_Collection_Backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/82ac80c8579616007410930b.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/40118e06257bcc73ecfdeafb.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f47293dabfd07c7e5a92ddec.jpg",
         "sources": [
           {
             "title": "Ted Collection",
@@ -37564,11 +37564,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/yUnE5BPY8UECTOioYexHng19PWR.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/i3DywIl37k83YXWreQGIcWNF7kL.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/6b644d2a2586b993f24cdd3a.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/45e19d85b60c1263fed107fd.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/uzCsSNd3ImvH7Q6DIHAYrG0Q11Q.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/eb97bed993e33f5d97060a03.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -37576,9 +37576,9 @@ window.NUVIO_DATABASE = [
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Texas_Chainsaw_Massacre_Collection/Texas_Chainsaw_Massacre_Collection_Base.jpg",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Texas_Chainsaw_Massacre_Collection_TitleLogo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Texas_Chainsaw_Massacre_Collection/Texas_Chainsaw_Massacre_Collection_Backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f4c20725a6b90bb513b4f308.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9e6f774da23ba301264427e7.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/176cd5febd78612919645721.jpg",
         "sources": [
           {
             "title": "Texas Chainsaw Massacre Collection",
@@ -37615,11 +37615,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/rAzye8dwApe0sGoUFisrvMHgG3Y.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/0d1a0e02.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/2e7ad1f657a1298f056a45de.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/bef80046b7028229bd855644.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/012696b6.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/c6b513dc2e62ebfa3d61367c.webp"
       },
       {
         "id": "folder-1F3CA0F4",
@@ -37640,11 +37640,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/jwKMGhkBjvNsi1LT7gIih6cbR2J.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/A93FwzqAQWSpDwgVnmxi6ZCQLw3.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/dff45696630846baf4a06562.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/220c68fcca5af3a45ea819da.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/gBiIgmPOks4sEBpZABmyG0djczE.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/1fb368bff905b063657d2958.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -37652,9 +37652,9 @@ window.NUVIO_DATABASE = [
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/The_Avengers_Collection/The_Avengers_Collection_Base.jpg",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/The_Avengers_Collection_TitleLogo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/The_Avengers_Collection/The_Avengers_Collection_Backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0c9d34471667d4ae82f05d30.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b4f5ebaa441b26a0bd61b5e9.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ca17836ebd8963a2f5a7cbe9.jpg",
         "sources": [
           {
             "title": "The Avengers Collection",
@@ -37691,11 +37691,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/s0ZtQGTep8vRo0zhRevsxEQJhKY.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/bBS1CfspKXq5RBok85hYvtW9ZwE.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/73aaef087e1a3ab6dafe8915.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/ed6a232bf4c31e48b713d5f6.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/cgnAVaq85tsCFr4IbNPACIuGCwP.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/ce4e3e093253a9e0e12bef33.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -37717,11 +37717,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/7BHdDm9BL48P8lt2vNd8smU9r34.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f31ac656.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/dee0e2a4cf37e03120bec499.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/cbc502368821c8e6ee6e700b.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/435fcade.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/e1e7b7b368fd3880d72bf745.webp"
       },
       {
         "id": "folder-I68P6JDB",
@@ -37742,11 +37742,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/4ClQ9oVQzTIaOp0twxhXrrIGWap.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/ab40d744.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/e72362041a4f882e824a5912.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/d9789ccc805b116bbb87ab5c.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d59c74ee.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/7d030c5ed66bc2304e30649d.webp"
       },
       {
         "id": "folder-N6S918EV",
@@ -37767,11 +37767,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/cjSEGVvYryWuHA5jjdGy4WSaTWF.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f28b60be.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/f9fc2f9f6e40dfb26ac7413b.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/b17f571dce235eccd47dfffd.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/fd22a57a.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/aad7d02eb126d151af0af18e.webp"
       },
       {
         "id": "folder-MGWC6ZT3",
@@ -37792,11 +37792,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/3NiYgbqQVPfTKwG4HWPusfAIPav.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/0f380e0e.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/e0857d60766893aebb32aae3.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/033c9a26cb613f15de70dadc.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/c35cc636.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/dbf67bb7a4f2107cfd4dd8e4.webp"
       },
       {
         "id": "folder-5E9D25FA",
@@ -37817,11 +37817,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/potVKeeWBMr0SRgJLGKugjz6Kfg.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/rhnDPEcwLrX1bkEnADQr8rPirBT.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/6bb8ed8bf9d2addef9e46e5d.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/f0d5fda73741be8d7be5157b.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/n5jED8ITkX9VgFCZXsznhk9ERbA.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/30e32827c1325304ac06719e.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -37843,11 +37843,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/5qjvxFhRZtvm4mcV90X9QNYLZVj.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/1cb88558.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/67068d4ff4da3a633f5eaaac.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/36a052bea920cadaae3deeb2.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/70e8b167.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/6c840fc4a5346cad9d35174f.webp"
       },
       {
         "id": "folder-ED9B6BAB",
@@ -37868,11 +37868,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/rXtKnRQ4yIAkIB865trriuQZyAA.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/q191luIxQuKTnB2OixSiM87r7QE.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/55e17a3a632854790be7933a.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/c49c1a6e30b54a316704bea0.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/xxJs7xqY0vMuNlznQboBzq8RlZm.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/d69036d1fb92721b4f4fc06b.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -37894,11 +37894,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/nO5Uix3Qr4WjOyU1BMPv0okyNWm.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/7948192d.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/b1fb209aee32802dbc397606.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/5b78bd3c4c9802ec9402559b.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/72a9818c.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/b25abfb977635b3f05bea048.webp"
       },
       {
         "id": "folder-C7969F90",
@@ -37919,11 +37919,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/t6wzEPT3MmJzCQlKRRHWJQweGv6.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/11713b5c.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/a79a359d60fada3f414d8b38.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/f8e1b1669638d2396598e280.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/96e27aa6.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/b24ac4dca914b61380d90aa0.webp"
       },
       {
         "id": "folder-66JC9K0O",
@@ -37944,11 +37944,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/v82pEQYViRKgjNjvlILLfHIlE3d.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d91b26b5.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/bc6518f0982572f299ca26d4.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/f864da1cf0b11577eaeaa783.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/17825bc3.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/aeedcbc9dce97f1e7754ec0d.webp"
       },
       {
         "id": "folder-BV10CREW",
@@ -37969,11 +37969,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/fZQ6n1VcrOAGxRVLkfhP41CjBQ2.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/36f9b405.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/584f674cc11e632960b39b96.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/bf074c2d6df3bc926ee02ed1.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/b4d6b111.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/52b7a788184c56fa94f4366c.webp"
       },
       {
         "id": "folder-W3RIXIH9",
@@ -37994,11 +37994,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/liM31KX1YltzpcdPBLdCtlEdOan.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/027dbd9e.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/0cc15fb270e7608f6e7cfecb.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/7c76fa43e7efd9f4e103ed2e.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/41960fc2.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/15ec882ff6423ee662da1d25.webp"
       },
       {
         "id": "folder-P6NJJ7M5",
@@ -38019,11 +38019,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/bwJyzbmiVoNMkAcGOdwLHph5cZ8.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/5e5db9d7.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/08a2243bca780464930b82bf.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/58f8f9e4faaaf18ab458b8c7.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/faca4363.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/ea2f27506b4ed37e03b51411.webp"
       },
       {
         "id": "folder-322296C6",
@@ -38044,11 +38044,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/pQCEO2Bi32QKvBgMlGx4ZXAG3W4.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/3qqkcJAnmyGPTFrAXEjwZbRGtmE.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/5763da957cc11932aee326f2.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/62ccb92cdbdb88b217d0e47c.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/1MMTGpmm0E9yXRTNyW0YebAs66S.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/7a4c80c3e5f645ed71cab850.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -38070,11 +38070,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/kysDTCloxUPJ1BILI4f8gs74fcr.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/a547f450.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/74011af4b42d5fa20afca1f1.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/097ca5649d348a4cf1e148b8.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/a07466a7.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/35f10934b802ef61135599cd.webp"
       },
       {
         "id": "folder-6K2840HJ",
@@ -38095,11 +38095,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/owrruKYWb6uduylzGTC6U67I7gA.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f4806772.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/e287817e4d0441253bf01e20.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/2ab561b4b2c595893180d749.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/83764583.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/4c549692ef8821f5e3cf1124.webp"
       },
       {
         "id": "folder-9FZBX98B",
@@ -38120,20 +38120,20 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/At3rJSMEQw59mIIIAa2r6eJBtFR.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/6148088a.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/c582d281860e336cc11c2653.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/5da186c176401e684d6cdf4e.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/63ff2633.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/0b38011859b01e5c313bfd6c.webp"
       },
       {
         "title": "The Hitman's Bodyguard Collection",
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/The_Hitman_s_Bodyguard_Collection/The_Hitman_s_Bodyguard_Collection_Base.jpg",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/The_Hitman_s_Bodyguard_Collection_TitleLogo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/The_Hitman_s_Bodyguard_Collection/The_Hitman_s_Bodyguard_Collection_Backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fea75a7538aee48034219a01.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/88e6e07a58172bb19a824b5f.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8b64df26b8f1c9334cb1e7d5.jpg",
         "sources": [
           {
             "title": "The Hitman's Bodyguard Collection",
@@ -38170,11 +38170,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/h5DwmLJAw9xr9Sx33G0ckg7yjTB.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/4f4fc8b4.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/0beecb83a78019efc4584536.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/2343a2ccb4d8b5b59869dfda.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/63eaa0be.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/5d539fdc4b5ca6926b0fa405.webp"
       },
       {
         "id": "folder-GO9EJ7WK",
@@ -38195,11 +38195,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/kQzZ9i5e2uHJ1ayT72Q4qetdnf2.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f1ada021.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/506f96ea97d8e39647ad6a2c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/4f6eef1267362d9ae27d145c.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/33baa193.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/dbc2d3b729bee8c739a67415.webp"
       },
       {
         "id": "folder-4DSFHELZ",
@@ -38220,11 +38220,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/3HPRaJU7yuBsG13wFrW3Znxo5R0.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/83f3a2da.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/3756ee218ffe72aea58aa36b.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/8a0abcb035b0b030519f8044.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/3bbbd8ee.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/d53e31bdfe07a7603737dc99.webp"
       },
       {
         "id": "folder-C54E7AC3",
@@ -38245,11 +38245,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/i5LC9btXPhUMPgghC9FgV7f7HI3.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/d7EOckuJ5EXmiAxb3RDAqdVjPhL.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/bf7eb7c044be34eca7da9b3e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/a40ab1772d91d6abdb4c92e1.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/plXRyDY6H9RolPVkVvWpPyjWnkX.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/4d8730ba7d40a59acd9a25d5.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -38271,11 +38271,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/nWbcex1tw1CWkCNJLdjeJMKAOd.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/01958ba9.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/4147a8bdce723103a80241a6.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/cba2c84c50ccaadef1e30318.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f283e4c3.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/2fdbf1c094177141628b4645.webp"
       },
       {
         "id": "folder-764AB5EC",
@@ -38296,11 +38296,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/2iLiYEJL9xjrj2mzUxh0kO1Bh4x.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/n1bjdBVThBezxR6nEf2dy43sTtV.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/5c15f93cc0c83f3f3b65572c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/2ea6c15588aba9cd53b097d9.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/zDkQ0BPPhsmepLGZJx0aXVAuKG6.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/223b40ac1ba03c4fb45a2695.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -38322,11 +38322,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/2kTDt0uOb4xQzvw1h8ZRufoXNCX.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/e9158bb6.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/6091cb32fd0bc203c7894d0c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/b020c5b69fcb247524b58984.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/184c7881.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/e1066b99e314a7fb01215eff.webp"
       },
       {
         "id": "folder-5C598ACF",
@@ -38347,11 +38347,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/8kw87NeN3wsQGAriluulMCOTcix.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/oG1heUs503GV6xBnFhgyYTGWm05.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/5be33017775e5a920d6c3ee7.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/06d7a9f7c430e2d3c63cf98b.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/A9IEaj9cPAwEgFnTmteB70oxgJY.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/e2ffc70bb2c280e094bf6fe2.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -38373,11 +38373,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/uO0HjHFY0azplPTkxDo9AmK3U77.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/pYZPkQaoPGT2md3j90C4aqt7EHl.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/fa921692518cb2aeb1ba3dfd.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/59f3c882820b8275863813f6.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/gt7ccJrOgeOTWggy1PubLhWxX9g.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/1a551b99c225df15423f74a6.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -38399,11 +38399,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/dMAXhf7jVsc8Qsx26wsoOmoQh3r.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/a52436af.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/bcfb07f90c4f338b7b84ed55.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/8ef6588eecd0ca54b4714412.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/ec520a47.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/303eefe67922c645215c1aa1.webp"
       },
       {
         "id": "folder-MULC2HR6",
@@ -38424,11 +38424,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/kA8phmxG7h4BIN061fiutckq9Ho.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/6dcc40bb.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/75c2ba40eee0b3d7241519e1.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/66292c1d649df5ce3c920dd4.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/810c5335.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/f8f53998166bd5bf21fa36b5.webp"
       },
       {
         "id": "folder-Y9M2V713",
@@ -38449,11 +38449,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/mBzSW4vQJOkRbN9L1siz3VvZTzT.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/c6b1f8dc.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/4d61c21ed16964a1377f7c94.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/43bb671bc18634748ef2fa5f.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/ddc85c0a.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/0e7d33697be1cd6bc20df41a.webp"
       },
       {
         "id": "folder-B1AA1DFB",
@@ -38474,11 +38474,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/xjzbSDGtnxnr2E1eXWTEcmVbuZR.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/rbacYOwij2bEIvO0gKUF2funWKp.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/da6347d9cb3de75512858acd.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/d571c6a942cbe90308b16620.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/rNoyJmjdhgn30bVbvd8n3DJMocB.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/65f57529eeb47809ed0a029f.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -38500,11 +38500,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/kGAFHJvB6l9BWaXRUPIXf5XbuRV.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/74358baf.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/26602b3715c82decbb84330e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/ab5062320e88955fc94977d8.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/de2f6d96.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/591b5a0e40107ce89d0f6468.webp"
       },
       {
         "id": "folder-9PD8N0IA",
@@ -38525,11 +38525,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/3UGycN6SP7PPmB5ZWIf9bphm2UM.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/42fbdc73.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/067000766d07961176c16248.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/63931239e4202e51ccf8e07e.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/1f203b05.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/3af15ba29c8d136c2bed1639.webp"
       },
       {
         "id": "folder-8AECD2FF",
@@ -38550,11 +38550,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/zDGV2nA4UBVZK9PV4Sb0Dcwlxbk.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/EGvFjjzHSKo3Fkw7VaS4pjpw9b.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/a267bc19ca8398986f0bbf10.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/667953b43bc07ae9093dd9dd.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/patl2k4AK0S6wVo1DwOp4nmvNLm.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/93a22819f8425c2402c20881.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -38562,9 +38562,9 @@ window.NUVIO_DATABASE = [
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/The_Nun_Collection/The_Nun_Collection_Base.jpg",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/The_Nun_Collection_TitleLogo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/The_Nun_Collection/The_Nun_Collection_Backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9998df144fda0e7abfc4c638.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4fcbbbeb417b8dd0e91830f4.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/afce309447fb502e0a3893a2.jpg",
         "sources": [
           {
             "title": "The Nun Collection",
@@ -38601,11 +38601,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/nqAKOZgmcRAEcYax0wLSwepIESP.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/c90d869d.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/08cd951723d77f361e37a86b.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/3a657fa00fa03fd53faacebc.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f9f73a7c.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/863ee7d8c726494a09cfaaa8.webp"
       },
       {
         "id": "folder-CDEB2EBB",
@@ -38626,11 +38626,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/kWmmYSxDwKfgfrsVIVYlkI3KQRw.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/gRRe7HgwpeJ2UmedbStyDKC586U.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/11be992e801f77b6c645add8.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/a912ad96fa2220272069a04e.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/eVHH8peqVMN9VcEZvn9yTG6SDed.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/02a88c598aeafbdce48f28b9.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -38652,11 +38652,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/xOJpuZVTQ7tUiBtsXhGO7c4VWWa.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/xYbMC6vo4rMIX8hkTUZva86r0i5.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/434bbe33fa012bf8e090c1b9.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/7c9e79c7d9fa93625f898f6c.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/tuE4QPHLHaMUkAW4Yggig5U92rl.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/343ff0a66ec4797210fdf802.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -38678,20 +38678,20 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/ieaAnErB0n0KJqOo6teJ6S2KBYb.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/ab5648ce.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/b701fd6905225839d9033c8c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/53629e53712b65efc552246d.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/5cb2e5dc.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/2e68eae6341b4f84f5f37ee0.webp"
       },
       {
         "title": "The Raid Collection",
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/The_Raid_Collection/The_Raid_Collection_Base.jpg",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/The_Raid_Collection_TitleLogo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/The_Raid_Collection/The_Raid_Collection_Backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f4df22538c9fa076a66277ce.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/013c6288a3604ffa23f2592c.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/392638311116a22f26fd1b37.jpg",
         "sources": [
           {
             "title": "The Raid Collection",
@@ -38728,11 +38728,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/jleHGQ2zlJ5Z0cZiPYtoItSDsLn.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/c998383a.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/95008f5102a9e2d0568446f0.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/b91597b83a03cf1f78502298.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/95e0b83c.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/78839de42b96b9b07f65cca1.webp"
       },
       {
         "id": "folder-ADDORPVE",
@@ -38753,11 +38753,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/kE9xNBnIcbsUqCXyYwlkBj9wkfi.svg",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/7175f50b.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/adfdd6d411fd6349bb2bcca2.svg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/fee5fd3b863467a26020eca1.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/7052f081.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/f53e68618b4bb6d3dff0eb6b.webp"
       },
       {
         "id": "folder-O995DQEI",
@@ -38778,11 +38778,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/rKa9Nx344BrH7TCwGIArSbf0zqT.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/8bcbf4ec.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/ef7c4d41e87e206b8851b34e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/787adfe6d5c57d98a2f6ab94.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/ea81e39e.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/1a0cf5273c65d35d0825ad52.webp"
       },
       {
         "id": "folder-PD54TO8F",
@@ -38803,11 +38803,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/jU5GX2LcB2olrcyKcvURpRkkjY8.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/edca54de.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/cababf2047d451b0b0d52c83.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/41f107c03d2696376e8796f2.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/c0df25f5.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/94922e6e8a65f9e8cbca9584.webp"
       },
       {
         "id": "folder-294EE0I6",
@@ -38828,11 +38828,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/yYHBM5RxdmXoWivayS6CcRWJBnM.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/599a9d56.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/1bd6eb792c4c2026f5124e49.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/de77698d75e85d16d6b650a5.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f0fdb49a.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/12a8232cb76c829298adcc20.webp"
       },
       {
         "id": "folder-EB28323E",
@@ -38853,11 +38853,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/qAw2nvEPXhKcyIpmya1qG60bxxi.png",
-        "coverImageUrl": "https://image.tmdb.org/t/p/original/sgaP4WtVlKzz8FIcjbkevOycJiq.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/96e48b77513999722a1ba870.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/5e0c3d24dacddbc6cc804a2b.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/dY55rtfQMOMGHJXGDNfSEyuHPGG.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/d1110dae677f7278622cde35.jpg",
         "focusGlowEnabled": true
       },
       {
@@ -38879,11 +38879,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/xNgCQCtuho9cezrE925hjMtio4G.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/143f4860.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/6ccc1586d02c2aa68392e9ad.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/ea26170f09ed2a2750a4cfb2.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/dc3810a5.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/499b84e7627e7a06457c58a4.webp"
       },
       {
         "id": "folder-IN4KJMF0",
@@ -38904,11 +38904,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/eX8LcW1zdjxvWNB5ZsZuhPO7NtP.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/fc258a59.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/c40c651bd0822ec979a9a722.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/98875d0be3e5759ab5bde306.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/251293e9.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/5aba53fe2fd5d7661b893fad.webp"
       },
       {
         "id": "folder-9M9NM1WZ",
@@ -38929,11 +38929,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/sRdt54X9wXUvCEwG4CdVyxFcC8y.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/e46ec78e.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/23006321004d4fbe065060f4.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/5e8ca0fdb58b2df433434eb9.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/7fe9b071.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/98bfbfaec85fe6c964f1c72e.webp"
       },
       {
         "id": "folder-JJNT63VF",
@@ -38954,11 +38954,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/rEecMWoZd3Y6MXnQZ8rQtGvpWiB.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/3cf415a8.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/559ab9c51900403d2726de18.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/6675d1470685b83af97c2e23.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/03660c63.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/cd36041da8cbc1189d684a7a.webp"
       },
       {
         "id": "folder-ZFWBJF8T",
@@ -38979,11 +38979,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/2wzRY00R18LBet4Lx0DQMPzgKBv.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f9e1726a.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/e29649ed95398df463cb43f4.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/f3807fe3e9032fbf5f97e824.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/671e7e98.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/ef012201969afb8e53da5e6e.webp"
       },
       {
         "id": "folder-3QPTH7L9",
@@ -39004,11 +39004,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/f5eYWc3ccGPCiFCxrabvb87t04s.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/19742b41.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/c0e7f29003bbf7a48bd5c4a9.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/258429d78087360980711537.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/faca45bc.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/605e1ea2a64df1eabcebafe7.webp"
       },
       {
         "id": "folder-Y0FCHI45",
@@ -39029,11 +39029,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/bSMahrmG57j3UUnVb9gRUxcTapP.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/0d236814.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/411ecb5caf5fbbad7c165975.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/f09a9fd7b2a38875b2c17d74.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/c778086d.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/4741e026e4c75b1f805a18c3.webp"
       },
       {
         "id": "folder-UQNB7996",
@@ -39054,11 +39054,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/4q5p4R7vJZ64y1GCu4JUMXNImk8.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/3b3f45f0.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/6c58e840938d7ed175fbdb3f.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/3625a5035727da42f8345b7b.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/094f41ba.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/7e321f661d6d422215d1aaa5.webp"
       },
       {
         "id": "folder-EG0POZBG",
@@ -39079,11 +39079,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/znlyIvAYMQPEpVQdCOBoY5YfY8F.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/412f6c2f.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/eadb44da010df78e62f5e233.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/79bd013ab27749e155f43ee7.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/4bdc1e22.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/535a9273e9ed4931faaf35de.webp"
       },
       {
         "id": "folder-Z57JAOND",
@@ -39104,11 +39104,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/7MJtrxiALfZ46QnJZSC8Aap7CFW.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/fd662458.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/db2e7027e8c181381aec33f7.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/da2d3cff5006fbf59473c884.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/2f3e2455.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/42f3a3422880ee4723e75257.webp"
       },
       {
         "id": "folder-QGUYYRM4",
@@ -39129,11 +39129,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/qkDbPsV76eU9ldQsHhjmEzjeeox.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/726b165f.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/37e604c03403a8663af9959b.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/4e7de2d5961ceeafc2fb0f6a.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/eaf04528.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/6552b256c484b2e4fb01a39c.webp"
       },
       {
         "id": "folder-ERODGFUC",
@@ -39154,20 +39154,20 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/yxdjojw1VqDupCc25lXaclIcDZ0.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/c38a8e3a.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/c09e2cbc171b812ea259a642.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/15c8ad2a22acb3cc8d552fea.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/5f8e37cd.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/74ff6fc86c9dabb63247b76c.webp"
       },
       {
         "title": "Zombieland Collection",
         "tileShape": "POSTER",
         "hideTitle": true,
         "focusGifEnabled": false,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Zombieland_Collection/Zombieland_Collection_Base.jpg",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Zombieland_Collection_TitleLogo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Zombieland_Collection/Zombieland_Collection_Backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9b7f9b2b6360a51620741946.jpg",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8ce4cb261bb294b2c0310889.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c64553858c7aed995525fa7f.jpg",
         "sources": [
           {
             "title": "Zombieland Collection",
@@ -39204,11 +39204,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://image.tmdb.org/t/p/original/kgMxsJm4fdiFCzzKElood8WXb7c.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/dfd7c503.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/image.tmdb.org/19c705b9229f3441b5685959.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/64d715c22258780f9588be05.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/ebc0a008.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/62eb8f6986315910fed18484.webp"
       }
     ],
     "pinToTop": true,
@@ -39269,12 +39269,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/adam-sandler/v2/adam-sandler-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/adam-sandler/adam-sandler-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/adam-sandler/v2/adam-sandler-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bce5a04b1e8c7af1a2d4c31e.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9f77e09da9ea08cc38a20384.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fd38dc171c22645df9ff1ee6.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/adam-sandler/adam-sandler-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5ff65a7013d0500995158f43.jpg"
       },
       {
         "id": "folder-ZJ8TOJOV",
@@ -39310,11 +39310,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/al-pacino/v2/al-pacino-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/al-pacino/v2/al-pacino-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/al-pacino/al-pacino-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/eab2e5102a74205b8c16595c.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4a7bbabb0409acce464f355e.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/79dec42ab03562c3a9f2ac7a.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/al-pacino/al-pacino-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3d9a43abdf7298901c3609e7.png"
       },
       {
         "id": "folder-30HU5XKY",
@@ -39350,23 +39350,23 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/amy-adams/v2/amy-adams-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/amy-adams/v2/amy-adams-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/amy-adams/amy-adams-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/cf608464beb97afb7c4b1311.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1d2225f77d60ec9abb1c7672.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ee9c9e8e3d8a94a4a49065a5.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/amy-adams/amy-adams-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d6d29fade53d1f030f665ea6.png"
       },
       {
         "id": "folder-DA5P6E85",
         "title": "Ana de Armas",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/ana-de-armas/v2/ana-de-armas-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/ana-de-armas/ana-de-armas-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/ana-de-armas/v2/ana-de-armas-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/59b436bcdd5f97b22766991a.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/809a4a29f54be9c5d8ab941f.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2736530faf9f70753bf18dd2.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/ana-de-armas/ana-de-armas-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/83a0476431ea35a21d44dfa9.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -39454,12 +39454,12 @@ window.NUVIO_DATABASE = [
         "title": "Angela Bassett",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/angela-bassett/v2/angela-bassett-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/angela-bassett/angela-bassett-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/angela-bassett/v2/angela-bassett-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/53876109a6796d20a23e42fc.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/542db0579aa3ce88762786f4.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b0aa61d2f6927e22d77c56d6.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/angela-bassett/angela-bassett-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/40db9d6218f25089d19bfd4f.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -39591,12 +39591,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/angelina-jolie/v2/angelina-jolie-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/angelina-jolie/angelina-jolie-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/angelina-jolie/v2/angelina-jolie-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8b852012c5169b15a13b3710.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9653aa3d73a85acbba5a7e04.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1296ff918c071b5e19abfe72.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/angelina-jolie/angelina-jolie-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6fdc56c2b8c0a92bf68afe2e.jpg"
       },
       {
         "id": "folder-NOGR7OHV",
@@ -39647,12 +39647,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/anne-hathaway/v2/anne-hathaway-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/anne-hathaway/anne-hathaway-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/anne-hathaway/v2/anne-hathaway-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1ddb19999a73d03f7b89be17.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/daa05ac922e072e9ffe5b646.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f1d85b02f4b2eca887d3cf3d.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/anne-hathaway/anne-hathaway-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d5b3f567cc2156c20691bd64.jpg"
       },
       {
         "id": "folder-MULF8GWG",
@@ -39688,23 +39688,23 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/anthony-hopkins/v2/anthony-hopkins-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/anthony-hopkins/v2/anthony-hopkins-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/anthony-hopkins/anthony-hopkins-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/74eddd14e9529b7b1d629bec.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/af2939d8a73cedf8102a2495.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/35242ca28b1ec23acb4bdb6e.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/anthony-hopkins/anthony-hopkins-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/46147d858ccc85028d9311c0.png"
       },
       {
         "id": "folder-RQ6SLROZ",
         "title": "Anya Taylor-Joy",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/anya-taylor-joy/v2/anya-taylor-joy-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/anya-taylor-joy/anya-taylor-joy-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/anya-taylor-joy/v2/anya-taylor-joy-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7982f6fe3ba398be9a89415d.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/134d77e770a27a07a3d62fb5.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0be8e7a0ffcf829898fd1587.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/anya-taylor-joy/anya-taylor-joy-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4da42821879b1027a90967cd.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -39836,12 +39836,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/arnold-schwarzenegger/v2/arnold-schwarzenegger-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/arnold-schwarzenegger/arnold-schwarzenegger-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/arnold-schwarzenegger/v2/arnold-schwarzenegger-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/964cdee3e6a3a077b2f1b42c.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b5395ed8bd204d8d5bcbfe01.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0bbb3f6a3c623dbc1ef0c1ab.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/arnold-schwarzenegger/arnold-schwarzenegger-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/84ffac970f084d4c8dfbb0fb.jpg"
       },
       {
         "id": "folder-FF65376C",
@@ -39892,12 +39892,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/audrey-hepburn/audrey-hepburn-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/audrey-hepburn/v2/audrey-hepburn-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bd40df7d0a405a730a64020c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/42238fde80895d0e11d82394.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/audrey-hepburn/audrey-hepburn-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/audrey-hepburn/v2/audrey-hepburn-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/be2ee24ce39c2d9286034159.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5c7ac0ee5bf98c09a95bc90f.gif",
         "focusGlowEnabled": true
       },
       {
@@ -39905,12 +39905,12 @@ window.NUVIO_DATABASE = [
         "title": "Austin Butler",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/austin-butler/v2/austin-butler-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/austin-butler/austin-butler-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/austin-butler/v2/austin-butler-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5555052d932f48b9184ca3b3.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4ae18993ebb74a12c4cb0690.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3d74d24afd27239cf7bd3c3f.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/austin-butler/austin-butler-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f7a0b43465dc96fa65b4cb34.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -39998,12 +39998,12 @@ window.NUVIO_DATABASE = [
         "title": "Barry Keoghan",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/barry-keoghan/v2/barry-keoghan-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/barry-keoghan/barry-keoghan-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/barry-keoghan/v2/barry-keoghan-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bc0669e9856b2cf619325126.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/aae3c1b79f74c14583a13cf8.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/26ce5d6a91829f1cf65bedbe.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/barry-keoghan/barry-keoghan-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fdd5a8fa04d1ea4589d3feac.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -40135,12 +40135,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/ben-stiller/v2/ben-stiller-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/ben-stiller/ben-stiller-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/ben-stiller/v2/ben-stiller-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/dc7b7da8001f62e40e5f9823.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d7c380248e97058a43c7f986.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fa5ef7d30cb2f8b804d86e37.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/ben-stiller/ben-stiller-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/233164b1d0bc19d9908e4548.jpg"
       },
       {
         "id": "folder-MFLI0FMD",
@@ -40228,12 +40228,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/benedict-cumberbatch/v2/benedict-cumberbatch-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/benedict-cumberbatch/benedict-cumberbatch-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/benedict-cumberbatch/v2/benedict-cumberbatch-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/498cefd99151f888ae2de6f0.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5beab65f6352f3e44e7b6c96.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8b293ff8d7ac2dc850850ab7.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/benedict-cumberbatch/benedict-cumberbatch-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e2ecfe8d1b0bb20af3ff757a.jpg"
       },
       {
         "id": "folder-Z7DBVRV0",
@@ -40321,12 +40321,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/bill-murray/v2/bill-murray-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/bill-murray/bill-murray-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/bill-murray/v2/bill-murray-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5af5c05a727094d07fd5373f.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e6565ed1fecb2cf1bebad17f.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/438b72c9df8d701ab233d891.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/bill-murray/bill-murray-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d4042775637f1b12a344d8fc.jpg"
       },
       {
         "id": "folder-PXIZD054",
@@ -40377,12 +40377,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/brad-pitt/v2/brad-pitt-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/brad-pitt/brad-pitt-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/brad-pitt/v2/brad-pitt-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7654b8e394ed4707a66f3395.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6106630f2721db169dc142c9.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6b709580f25d2f072ccdd33a.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/brad-pitt/brad-pitt-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/cf674015690b4d9e93349715.jpg"
       },
       {
         "id": "folder-ICAWUP7G",
@@ -40418,11 +40418,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/bruce-willis/v2/bruce-willis-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/bruce-willis/v2/bruce-willis-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/bruce-willis/bruce-willis-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/956076548509a04a7ed75fbd.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/82ccf9c0ed740886a033fd85.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/898aa9e875ef259c032ea68c.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/bruce-willis/bruce-willis-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c653cedd47fb631f6f0309d3.png"
       },
       {
         "id": "folder-17030512",
@@ -40510,12 +40510,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/cameron-diaz/cameron-diaz-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/cameron-diaz/v2/cameron-diaz-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/929c0d12062492a892bf5200.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b0d47fc9699678b4ef254494.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/cameron-diaz/cameron-diaz-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/cameron-diaz/v2/cameron-diaz-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/710f6a3b085bd47f9d6f076c.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4b7579ff86201db0f55447da.gif",
         "focusGlowEnabled": true
       },
       {
@@ -40552,11 +40552,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/cate-blanchett/v2/cate-blanchett-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/cate-blanchett/v2/cate-blanchett-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/cate-blanchett/cate-blanchett-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b863f737ec8635b04c24916c.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3ef31865967f13477066dbce.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4a81c76a1b325ec33d740f1b.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/cate-blanchett/cate-blanchett-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1c26cd8f7b0ba945f2959572.png"
       },
       {
         "id": "folder-TQ46STUW",
@@ -40607,12 +40607,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/channing-tatum/v2/channing-tatum-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/channing-tatum/channing-tatum-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/channing-tatum/v2/channing-tatum-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8ece6f381ee908c8b13d4b12.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4f94f4bbebbd7e6a85a5c0a7.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d59266e2c807853eb3569561.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/channing-tatum/channing-tatum-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/66ebc4c264202b8f78e58954.jpg"
       },
       {
         "id": "folder-MJBGYP6B",
@@ -40648,11 +40648,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/charlize-theron/v2/charlize-theron-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/charlize-theron/v2/charlize-theron-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/charlize-theron/charlize-theron-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/700dd2e7df30ae5dbdeae986.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/225a32a86dc67d5c2e69153d.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c2ca8bd377f29bb18e5ec0f2.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/charlize-theron/charlize-theron-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8b10140853d6b5d865b9d41d.png"
       },
       {
         "id": "folder-9A8F4DE2",
@@ -40740,12 +40740,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/chris-evans/chris-evans-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/chris-evans/v2/chris-evans-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ff8cba26a44ec791ad8986d7.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/33506b139d0437dd84d11328.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/chris-evans/chris-evans-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/chris-evans/v2/chris-evans-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bef4e7f76a46ed0af8bdb439.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/956c1c42c0dcbb5cbe74e2c0.gif",
         "focusGlowEnabled": true
       },
       {
@@ -40834,12 +40834,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/chris-hemsworth/chris-hemsworth-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/chris-hemsworth/v2/chris-hemsworth-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e822443d22e6b917dd3dd796.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/61422e567ca3bfcfe9f948d6.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/chris-hemsworth/chris-hemsworth-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/chris-hemsworth/v2/chris-hemsworth-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ac4809e948b91d88bfd3575c.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e770507ec7a00ff92132b16a.gif",
         "focusGlowEnabled": true
       },
       {
@@ -40847,12 +40847,12 @@ window.NUVIO_DATABASE = [
         "title": "Chris Pratt",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/chris-pratt/v2/chris-pratt-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/chris-pratt/chris-pratt-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/chris-pratt/v2/chris-pratt-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1488cbcdc13e65653e780b58.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/729179874baf5fd0bebd1f1d.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7d422f0bd2b92a738042cb4d.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/chris-pratt/chris-pratt-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0e0cfb0a34fb210308c99fd9.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -40984,12 +40984,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/christian-bale/v2/christian-bale-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/christian-bale/christian-bale-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/christian-bale/v2/christian-bale-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/90556fa4f7296b2afd7a4c4f.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6e288ba6ecf05d70b43df162.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/010cf804d01fa414fb717d9c.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/christian-bale/christian-bale-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1193883ff28f343e9adac438.jpg"
       },
       {
         "id": "folder-U2UQO2BJ",
@@ -41025,11 +41025,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/christoph-waltz/v2/christoph-waltz-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/christoph-waltz/v2/christoph-waltz-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/christoph-waltz/christoph-waltz-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/aac13ddc4746e1bed62eb65d.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/56aaa7914824707daca3b71b.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/eda55893e087a7ca2eebfccf.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/christoph-waltz/christoph-waltz-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7814c89f2d1f391432188c3c.png"
       },
       {
         "id": "folder-UUYB9RPU",
@@ -41080,24 +41080,24 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/chuck-norris/v2/chuck-norris-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/chuck-norris/chuck-norris-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/chuck-norris/v2/chuck-norris-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e4af5430a0e3733ed91504db.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/05c77a3dc715f7615f6e2327.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f809fbfe46b9597d763a9328.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/chuck-norris/chuck-norris-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/875dca6394282e55e138e7b5.jpg"
       },
       {
         "id": "folder-T43JW6XT",
         "title": "Cillian Murphy",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/cillian-murphy/v2/cillian-murphy-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/cillian-murphy/cillian-murphy-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/cillian-murphy/v2/cillian-murphy-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6233087d2618b4c2aec6019d.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/21ff60d2c11e2f813d66b6a2.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/917c1c3d464dcb527b0aa6cc.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/cillian-murphy/cillian-murphy-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1c2010b0ab1acec228ba1fda.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -41229,12 +41229,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/clint-eastwood/v2/clint-eastwood-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/clint-eastwood/clint-eastwood-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/clint-eastwood/v2/clint-eastwood-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/18fb2f6fc5526c7085ff3c03.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3910cf3f3149539a6ebd90f6.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/267c6f80e37305941983a7a3.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/clint-eastwood/clint-eastwood-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b0689928c62d05ed31acf0ec.jpg"
       },
       {
         "id": "folder-1892A8C2",
@@ -41322,12 +41322,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/colin-farrell/colin-farrell-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/colin-farrell/v2/colin-farrell-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a8fd3100b892fb4d67cf8e90.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c731015fa559f9a5d67c7d09.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/colin-farrell/colin-farrell-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/colin-farrell/v2/colin-farrell-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a5424dea27f664b99a719ba8.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a8d9db5b57ce4f33e4289454.gif",
         "focusGlowEnabled": true
       },
       {
@@ -41379,12 +41379,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/daniel-craig/v2/daniel-craig-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/daniel-craig/daniel-craig-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/daniel-craig/v2/daniel-craig-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d8930eb519b6185d9c9f41ca.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/04ac9aa680517c786498ebae.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5f1f1642f4ec673effe9b473.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/daniel-craig/daniel-craig-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/64f318e0dd406a8e3d401225.jpg"
       },
       {
         "id": "folder-F33DBED8",
@@ -41472,12 +41472,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/daniel-day-lewis/daniel-day-lewis-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/daniel-day-lewis/v2/daniel-day-lewis-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8ce5a46eb0e7c31e3fb01857.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/08057840911252a11884fe42.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/daniel-day-lewis/daniel-day-lewis-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/daniel-day-lewis/v2/daniel-day-lewis-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/28f73e5b1991fb93a1742b2e.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/942e79c124c40a28d1ce2b76.gif",
         "focusGlowEnabled": true
       },
       {
@@ -41485,12 +41485,12 @@ window.NUVIO_DATABASE = [
         "title": "Daniel Kaluuya",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/daniel-kaluuya/v2/daniel-kaluuya-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/daniel-kaluuya/daniel-kaluuya-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/daniel-kaluuya/v2/daniel-kaluuya-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f2186ee5c46de9fe246b1a8b.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/23d3a3bd00dc7220e39f97b5.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/14fa5578c24a6a94ca67683e.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/daniel-kaluuya/daniel-kaluuya-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a3674ce62d7f94394470c6e6.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -41578,12 +41578,12 @@ window.NUVIO_DATABASE = [
         "title": "Daniel Radcliffe",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/daniel-radcliffe/v2/daniel-radcliffe-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/daniel-radcliffe/daniel-radcliffe-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/daniel-radcliffe/v2/daniel-radcliffe-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7c1b19197003bff5f545e2d6.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/db8e48bd34272de1be90dca6.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c4035ebf96c5eac234285402.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/daniel-radcliffe/daniel-radcliffe-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ba02d8b78a44ddae2d3efcfc.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -41715,24 +41715,24 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/denzel-washington/v2/denzel-washington-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/denzel-washington/denzel-washington-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/denzel-washington/v2/denzel-washington-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/29ba0a6ddea6fe66ddc568bd.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/18da68637b102707db9359a3.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3c8acba35c9f6bf35a84574b.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/denzel-washington/denzel-washington-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/593a01583eaf49a5e9d8bbfb.jpg"
       },
       {
         "id": "folder-CYVFGY96",
         "title": "Dev Patel",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/dev-patel/v2/dev-patel-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/dev-patel/dev-patel-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/dev-patel/v2/dev-patel-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c4aa3cb89ba49615b140535d.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fb361e868ab0ad0ad1092574.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ff4e8f082948718eb66eef0b.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/dev-patel/dev-patel-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b75a07c6e9e57ebc4ca5cfd4.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -41849,11 +41849,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/donnie-yen/v2/donnie-yen-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/donnie-yen/v2/donnie-yen-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/donnie-yen/donnie-yen-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/85540ffbaadeb042b10fe79e.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/da3e8d0cdddf35ae0307473a.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8626f286855c8feeeb585b4b.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/donnie-yen/donnie-yen-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/db1de4f5309d21bfd485a825.png"
       },
       {
         "id": "folder-D5244D8A",
@@ -41941,12 +41941,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/drew-barrymore/drew-barrymore-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/drew-barrymore/v2/drew-barrymore-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e9cfa9b268ed1282794df710.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0b7481c419be9b8713c05d99.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/drew-barrymore/drew-barrymore-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/drew-barrymore/v2/drew-barrymore-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7d729569a6e6d2d078c0989e.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c9072c8885761c59f24e0e7f.gif",
         "focusGlowEnabled": true
       },
       {
@@ -41998,24 +41998,24 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/dwayne-johnson/v2/dwayne-johnson-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/dwayne-johnson/dwayne-johnson-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/dwayne-johnson/v2/dwayne-johnson-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/887e648e4f024589d9f7f2bf.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8d7242d37d34e68ef49c7cb2.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/cdc12646713cf361b515ee9d.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/dwayne-johnson/dwayne-johnson-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3cc6077e037e83aaacdb24fd.jpg"
       },
       {
         "id": "folder-Z6S54LGD",
         "title": "Eddie Murphy",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/eddie-murphy/v2/eddie-murphy-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/eddie-murphy/eddie-murphy-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/eddie-murphy/v2/eddie-murphy-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/de292f43747c491dc1ee8010.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/dfa69ba0dc86aed1df02481a.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/46722449009b7920635bd902.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/eddie-murphy/eddie-murphy-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a32a1f9b2c72e1f17f9c1cbb.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -42103,12 +42103,12 @@ window.NUVIO_DATABASE = [
         "title": "Emily Blunt",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/emily-blunt/v2/emily-blunt-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/emily-blunt/emily-blunt-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/emily-blunt/v2/emily-blunt-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/84308d45b5e95b3d649a4dff.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ca54f8f4165d9ef96fd9e108.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ba96c6c436afeee73bd85953.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/emily-blunt/emily-blunt-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ba63c0025098786b6d1f9a7a.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -42240,12 +42240,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/emma-stone/v2/emma-stone-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/emma-stone/emma-stone-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/emma-stone/v2/emma-stone-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/db7a50f7d79b40b5546d645b.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bcb1498a7131eef05e745f47.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9bff802e35ce47bd6f50fefe.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/emma-stone/emma-stone-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9d161f73cd6ce164d5b713d8.jpg"
       },
       {
         "id": "folder-3DB991C5",
@@ -42296,12 +42296,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/emma-watson/emma-watson-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/emma-watson/v2/emma-watson-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f7f8da76ad215db0778d8405.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/468aaaf1a231ce0daeb7fadb.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/emma-watson/emma-watson-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/emma-watson/v2/emma-watson-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4e47fcb1c507a3710695060e.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4de02068272e46b59bea7643.gif",
         "focusGlowEnabled": true
       },
       {
@@ -42390,24 +42390,24 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/florence-pugh/v2/florence-pugh-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/florence-pugh/florence-pugh-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/florence-pugh/v2/florence-pugh-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/70cec2021b8619bb7b2fa3e0.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/098a8bc04ea839d4b8be36c9.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6ab2e358107ff6830390d760.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/florence-pugh/florence-pugh-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c87f4832f32734c642210667.jpg"
       },
       {
         "id": "folder-4WZSK2HQ",
         "title": "Forest Whitaker",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/forest-whitaker/v2/forest-whitaker-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/forest-whitaker/forest-whitaker-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/forest-whitaker/v2/forest-whitaker-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e7ff78d3f9063f1b3c2cfa48.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/882d24468947593d8973b7c6.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/65353664c23c1721bb1e648a.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/forest-whitaker/forest-whitaker-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/dd58e57e60251fe2a4180e5e.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -42524,11 +42524,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/gary-oldman/v2/gary-oldman-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/gary-oldman/v2/gary-oldman-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/gary-oldman/gary-oldman-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/46a9e16ed56bcad11d362b5d.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ecf1744a54cbedafc06899ec.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2fe96fc7f145e72a3291b35a.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/gary-oldman/gary-oldman-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ff43f64ee12a18de93d9bf71.png"
       },
       {
         "id": "folder-ACWQ14XR",
@@ -42564,11 +42564,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/gene-hackman/v2/gene-hackman-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/gene-hackman/v2/gene-hackman-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/gene-hackman/gene-hackman-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/905224d8314058dfbebcf3fd.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1d58456ccb38c7ae1538fa94.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5b629b6f97bd479cf9e6c58d.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/gene-hackman/gene-hackman-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/69925340d8684cf87de917f2.png"
       },
       {
         "id": "folder-4XRKGC82",
@@ -42656,24 +42656,24 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/george-clooney/v2/george-clooney-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/george-clooney/george-clooney-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/george-clooney/v2/george-clooney-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0c1e137ba0df4627eb59875e.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1aee230174ccbfe69c398553.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bef7836b2bf83c59c2528648.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/george-clooney/george-clooney-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7c72d3adecf92bcb2aa68486.jpg"
       },
       {
         "id": "folder-TZ8ZFGCN",
         "title": "Glen Powell",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/glen-powell/v2/glen-powell-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/glen-powell/glen-powell-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/glen-powell/v2/glen-powell-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/67a35dc1d99ddb4aac68559e.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d86e16a0fe56ef79e9344130.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bfd32c2ac432368711fa0a23.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/glen-powell/glen-powell-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/756da0acaefc812b961db3e2.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -42761,12 +42761,12 @@ window.NUVIO_DATABASE = [
         "title": "Halle Berry",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/halle-berry/v2/halle-berry-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/halle-berry/halle-berry-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/halle-berry/v2/halle-berry-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b3e84fa09f967f372349ba3d.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/faaffdfa4c4d0731982e3929.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/efbf662cb487ab0abe0e23d3.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/halle-berry/halle-berry-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5ca1b55e8ad7c379f4094e3f.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -42883,11 +42883,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/harrison-ford/v2/harrison-ford-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/harrison-ford/v2/harrison-ford-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/harrison-ford/harrison-ford-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4ad1717f94f0ab0bd9af29d9.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/33d70d730004800b10b571f2.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e006b871a627472cb449bbab.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/harrison-ford/harrison-ford-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/532326de73ada275a9e60af0.png"
       },
       {
         "id": "folder-BC09D96C",
@@ -42975,12 +42975,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/heath-ledger/heath-ledger-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/heath-ledger/v2/heath-ledger-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d5e92a2d071a86db822baef2.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4a70226c8f174734380df8b1.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/heath-ledger/heath-ledger-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/heath-ledger/v2/heath-ledger-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e74503e4c71127822c35df71.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9b474f9b62837f65072046fc.gif",
         "focusGlowEnabled": true
       },
       {
@@ -43069,12 +43069,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/hiroyuki-sanada/hiroyuki-sanada-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/hiroyuki-sanada/v2/hiroyuki-sanada-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/04dd5255044a33c5e5ddfbaf.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e6ac2ca4b2727356a7d8a421.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/hiroyuki-sanada/hiroyuki-sanada-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/hiroyuki-sanada/v2/hiroyuki-sanada-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ac4abb7630a94a08626a5d23.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/73a8c6fb1744ad4ea7a01a81.gif",
         "focusGlowEnabled": true
       },
       {
@@ -43082,12 +43082,12 @@ window.NUVIO_DATABASE = [
         "title": "Hugh Jackman",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/hugh-jackman/v2/hugh-jackman-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/hugh-jackman/hugh-jackman-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/hugh-jackman/v2/hugh-jackman-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/37cdec9a46bdda61db8d0f0b.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d18ac5a3975541bb94dc86a8.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/623e201935b23c0e879ac86b.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/hugh-jackman/hugh-jackman-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e18a6a51e71f8beff86d2ff3.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -43219,12 +43219,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/humphrey-bogart/humphrey-bogart-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/humphrey-bogart/v2/humphrey-bogart-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7ce3573635dcff3ed7d9e3e9.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/446bc40a4b3f45458fad305c.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/humphrey-bogart/humphrey-bogart-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/humphrey-bogart/v2/humphrey-bogart-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9b1d81aba1338934f0b5a7d9.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4ff8c2ba8ccb49b1db30e2ba.gif",
         "focusGlowEnabled": true
       },
       {
@@ -43232,12 +43232,12 @@ window.NUVIO_DATABASE = [
         "title": "Idris Elba",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/idris-elba/v2/idris-elba-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/idris-elba/idris-elba-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/idris-elba/v2/idris-elba-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e3258d635b750ad8c186c83e.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d84ba29421280b0e30e4b32d.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6466b47763ba8a0ede7bce87.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/idris-elba/idris-elba-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e82fba2a82c712d9f5e305e2.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -43406,12 +43406,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jack-black/v2/jack-black-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jack-black/jack-black-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jack-black/v2/jack-black-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/32992e0ab0bd88d66d8cc856.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c23c54ecb3722009cab13ccb.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b7411d4a2d70620e61859560.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jack-black/jack-black-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9a04d95648c17aeafa462e4a.jpg"
       },
       {
         "id": "folder-VGJ9G5GV",
@@ -43447,11 +43447,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jack-nicholson/v2/jack-nicholson-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jack-nicholson/v2/jack-nicholson-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jack-nicholson/jack-nicholson-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/793d4f204b180ea07567f55c.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b01883abd5f9dd8d8e353f49.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c9184ac7ac1eef824ce63f1c.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jack-nicholson/jack-nicholson-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b7eb20d687ec422f21177014.png"
       },
       {
         "id": "folder-Z59AJUYO",
@@ -43502,12 +43502,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jackie-chan/v2/jackie-chan-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jackie-chan/jackie-chan-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jackie-chan/v2/jackie-chan-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/cb5b0ad7b1b03f6a25af01a2.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d817eb829e026fe6676115d1.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0f6710c473e0f45e4ba79dcd.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jackie-chan/jackie-chan-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fc115cfad99bdd4de66a9979.jpg"
       },
       {
         "id": "folder-4FJLTWYG",
@@ -43558,24 +43558,24 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jake-gyllenhaal/v2/jake-gyllenhaal-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jake-gyllenhaal/jake-gyllenhaal-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jake-gyllenhaal/v2/jake-gyllenhaal-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6812b327f214f74065e5ab6a.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ec9b8a622c44c5d5fea2d05b.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9509856049753f384cf2a2bf.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jake-gyllenhaal/jake-gyllenhaal-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/245eade801d26dec85328333.jpg"
       },
       {
         "id": "folder-5ZGQ2B3S",
         "title": "Jamie Foxx",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jamie-foxx/v2/jamie-foxx-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jamie-foxx/jamie-foxx-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jamie-foxx/v2/jamie-foxx-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b8343d4ee02c2e298773deee.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f45c44dfdd4fe07017d37e32.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f936a217a862e422d9b0cfaf.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jamie-foxx/jamie-foxx-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/227e9ba61467a64a2f7909f8.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -43707,12 +43707,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jason-statham/v2/jason-statham-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jason-statham/jason-statham-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jason-statham/v2/jason-statham-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5ea9fbf72b0ca3be6637e4aa.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/877c86992aa44cecc11edc67.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c83ce7efa932ada7b1d5aa90.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jason-statham/jason-statham-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e64232a3a4329cad14bd5cad.jpg"
       },
       {
         "id": "folder-SYGPEDMV",
@@ -43748,11 +43748,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/javier-bardem/v2/javier-bardem-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/javier-bardem/v2/javier-bardem-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/javier-bardem/javier-bardem-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d0fb4b4de39d6fe5e08103a4.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d8f3f5c9e85554e8c750dc4e.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c578276d14b22529df339195.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/javier-bardem/javier-bardem-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b33f31b30c396263735eb3dc.png"
       },
       {
         "id": "folder-3WC8I4GA",
@@ -43788,23 +43788,23 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jean-claude-van-damme/v2/jean-claude-van-damme-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jean-claude-van-damme/v2/jean-claude-van-damme-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jean-claude-van-damme/jean-claude-van-damme-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a70b80846e5be7740b5e9a16.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6e41e90658f4a650f20ecf9e.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c3d70d59d49a6c1fe9c6c9f2.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jean-claude-van-damme/jean-claude-van-damme-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/26c8c698452260f66004489f.png"
       },
       {
         "id": "folder-ZASSCSIC",
         "title": "Jeffrey Wright",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jeffrey-wright/v2/jeffrey-wright-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jeffrey-wright/jeffrey-wright-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jeffrey-wright/v2/jeffrey-wright-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/57f8ea29cf3e97d8f601913c.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b25b38eb18a86fc4cfd6f9f7.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f4251c2b7dc87bfa30526fba.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jeffrey-wright/jeffrey-wright-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/08c6b24a75a04e3a15faca2c.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -43973,12 +43973,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jenna-ortega/v2/jenna-ortega-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jenna-ortega/jenna-ortega-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jenna-ortega/v2/jenna-ortega-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/30c70110848fe7013a7389ea.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/dfdc1a22131c68b7d8c19fda.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/dbc8443b0a224358fd8b4394.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jenna-ortega/jenna-ortega-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7b497f33d82226be5862aa3d.jpg"
       },
       {
         "id": "folder-Z5XYMZS1",
@@ -44066,12 +44066,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jennifer-aniston/v2/jennifer-aniston-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jennifer-aniston/jennifer-aniston-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jennifer-aniston/v2/jennifer-aniston-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bb44d327bcbed3b11bd34eb2.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/16ac360f98c76411b9f1438e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/639aa858f67996f425a9505a.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jennifer-aniston/jennifer-aniston-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e22a4320674780dfbd0ca6f5.jpg"
       },
       {
         "id": "folder-VWMVWLSM",
@@ -44122,12 +44122,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jennifer-lawrence/v2/jennifer-lawrence-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jennifer-lawrence/jennifer-lawrence-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jennifer-lawrence/v2/jennifer-lawrence-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0e83885994a756a6927da292.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e242719442453c32ab965615.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fbb066959fddf31c68b35270.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jennifer-lawrence/jennifer-lawrence-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/817251975c620c4a568eba15.jpg"
       },
       {
         "id": "folder-7ECAF658",
@@ -44215,12 +44215,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jennifer-lopez/jennifer-lopez-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jennifer-lopez/v2/jennifer-lopez-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/89c38ce19ec3ab67e774ba57.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d035fa49b84d89f6dc43b014.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jennifer-lopez/jennifer-lopez-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jennifer-lopez/v2/jennifer-lopez-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/99e70e07b5f2bf75b0a6beba.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7146f4cb9b3d89f560ecb725.gif",
         "focusGlowEnabled": true
       },
       {
@@ -44228,12 +44228,12 @@ window.NUVIO_DATABASE = [
         "title": "Jeremy Allen White",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jeremy-allen-white/v2/jeremy-allen-white-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jeremy-allen-white/jeremy-allen-white-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jeremy-allen-white/v2/jeremy-allen-white-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/75b4013942995685b114d247.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/055a0b1e603e55be8a357ad8.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bf2c136a583b7e641e264226.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jeremy-allen-white/jeremy-allen-white-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/13fa72d19a7377e69438c489.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -44350,11 +44350,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jessica-chastain/v2/jessica-chastain-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jessica-chastain/v2/jessica-chastain-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jessica-chastain/jessica-chastain-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8ce7bc1fbc42e1812962d7f4.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b47ba187a94d4280effca789.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/650f8565f85238a57e9d0bd7.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jessica-chastain/jessica-chastain-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ef3d3d248e51f50834a7620d.png"
       },
       {
         "id": "folder-1RF88RWO",
@@ -44390,11 +44390,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jet-li/v2/jet-li-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jet-li/v2/jet-li-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jet-li/jet-li-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0a9ba494270e4b84d23156d0.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/80cc0b5e6ff948d9f50bfc4e.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fd7f7f194a181e855ba0f174.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jet-li/jet-li-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/63e15927af7b8a87ab8c0d75.png"
       },
       {
         "id": "folder-Q1HEIV6U",
@@ -44445,12 +44445,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jim-carrey/v2/jim-carrey-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jim-carrey/jim-carrey-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jim-carrey/v2/jim-carrey-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/73bc60ec915ef1a3f3d8cc98.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b50f3692ce4a13bc823ffa3c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7d1366cd14fba6ec076dec8e.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jim-carrey/jim-carrey-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/890a1ab0bb755a9cf43c084e.jpg"
       },
       {
         "id": "folder-78BD022F",
@@ -44538,12 +44538,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/joaquin-phoenix/joaquin-phoenix-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/joaquin-phoenix/v2/joaquin-phoenix-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f72cce5a9639c7d41de0b367.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8a60bd1cd6ad9e5393dea21d.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/joaquin-phoenix/joaquin-phoenix-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/joaquin-phoenix/v2/joaquin-phoenix-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/314e37c9a63a8f68de0d63ce.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/861d9deb98acc93e4a1f486b.gif",
         "focusGlowEnabled": true
       },
       {
@@ -44551,12 +44551,12 @@ window.NUVIO_DATABASE = [
         "title": "John David Washington",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/john-david-washington/v2/john-david-washington-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/john-david-washington/john-david-washington-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/john-david-washington/v2/john-david-washington-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/22b51ba2bc28e934c1b237af.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d14a289d017f460cf7bcd58e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f789284089a79e5e8d2fd529.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/john-david-washington/john-david-washington-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8729b315f0bb0f2786fbdfc7.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -44725,12 +44725,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/john-travolta/john-travolta-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/john-travolta/v2/john-travolta-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3441d6067f93acae847cfcc0.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b4c39de321f5cef92da9f5ca.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/john-travolta/john-travolta-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/john-travolta/v2/john-travolta-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4d0061ef54f86d495018b619.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b1cc9f6e05f6abed907d7d1e.gif",
         "focusGlowEnabled": true
       },
       {
@@ -44782,12 +44782,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/johnny-depp/v2/johnny-depp-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/johnny-depp/johnny-depp-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/johnny-depp/v2/johnny-depp-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/775967df010cf713c55f84e4.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c4e2b6c4296c9deee0d2d1e6.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/021087e86c5975cb0e4622b9.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/johnny-depp/johnny-depp-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/75250acdcfe7f21e71d5d66a.jpg"
       },
       {
         "id": "folder-M16Q1W2H",
@@ -44838,12 +44838,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jonah-hill/v2/jonah-hill-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jonah-hill/jonah-hill-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jonah-hill/v2/jonah-hill-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5ac80de51a88ed8b9072a2d0.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9a6740fccb815c405a4bbc5c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6f0f5b93478745a859aee712.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/jonah-hill/jonah-hill-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6ff835bbbac1a274d131d0bf.jpg"
       },
       {
         "id": "folder-2IAN1H6H",
@@ -44894,12 +44894,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/julia-roberts/v2/julia-roberts-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/julia-roberts/julia-roberts-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/julia-roberts/v2/julia-roberts-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/da017ea9893bad3940a27cdf.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ca51f0444fc6c7ae8b31340f.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2cdda190b16627bb642e2133.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/julia-roberts/julia-roberts-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/29b74ecd49b5c76fc3468ec0.jpg"
       },
       {
         "id": "folder-MR9WMHUR",
@@ -44935,11 +44935,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/kate-winslet/v2/kate-winslet-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/kate-winslet/v2/kate-winslet-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/kate-winslet/kate-winslet-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/56319352078f51663d1a2f25.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ccafc1ec167b5224a3a0477e.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/caed28f35a5fe9f775288e08.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/kate-winslet/kate-winslet-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7a6b0ba43a14a84c12a7452a.png"
       },
       {
         "id": "folder-1GMOXRXX",
@@ -45027,24 +45027,24 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/katherine-heigl/v2/katherine-heigl-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/katherine-heigl/katherine-heigl-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/katherine-heigl/v2/katherine-heigl-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5a818fafb79933f60bf4079c.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1ab4808393966885ed6105a0.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5bf20a30cd009420c71cb4fc.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/katherine-heigl/katherine-heigl-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9bcffecd261b1f882845ec47.jpg"
       },
       {
         "id": "folder-D37JKRU8",
         "title": "Keanu Reeves",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/keanu-reeves/v2/keanu-reeves-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/keanu-reeves/keanu-reeves-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/keanu-reeves/v2/keanu-reeves-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bc9048b6bd69cf4fd6d52e68.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bdeefc837939e8489e7e165f.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/cb6c8b8ff44297b68303f199.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/keanu-reeves/keanu-reeves-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b6cbf4785d62b0a5e6821f77.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -45213,12 +45213,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/keira-knightley/keira-knightley-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/keira-knightley/v2/keira-knightley-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9fd80e8ad66f4aeee4ad3041.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/61936668a28ca01c5b022c37.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/keira-knightley/keira-knightley-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/keira-knightley/v2/keira-knightley-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f287cad7bcf57cb40c053ded.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5b2034acd7313601924efb00.gif",
         "focusGlowEnabled": true
       },
       {
@@ -45307,12 +45307,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/kevin-costner/kevin-costner-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/kevin-costner/v2/kevin-costner-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3df74c4dda8ff091c839027f.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/49cbd2a98436c8e2a1734811.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/kevin-costner/kevin-costner-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/kevin-costner/v2/kevin-costner-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3f21624a66dfb5898501a719.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b487133acfc10a4fc57be484.gif",
         "focusGlowEnabled": true
       },
       {
@@ -45401,12 +45401,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/kurt-russell/kurt-russell-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/kurt-russell/v2/kurt-russell-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/689c1c28750fb6c6f3f4690e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c4a7dc0e202ceab9527b853b.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/kurt-russell/kurt-russell-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/kurt-russell/v2/kurt-russell-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1d1edd1c02b9d53372ffb226.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7417586a49edc76763a04ef7.gif",
         "focusGlowEnabled": true
       },
       {
@@ -45414,12 +45414,12 @@ window.NUVIO_DATABASE = [
         "title": "Laurence Fishburne",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/laurence-fishburne/v2/laurence-fishburne-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/laurence-fishburne/laurence-fishburne-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/laurence-fishburne/v2/laurence-fishburne-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/810b51ab8fe629faa1c59b32.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7af8133abbb13ed9a120de8d.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/298ccdb267a8a35de4d9eb33.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/laurence-fishburne/laurence-fishburne-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/131e7c1d8e2845311c62e41d.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -45551,12 +45551,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/leonardo-dicaprio/v2/leonardo-dicaprio-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/leonardo-dicaprio/leonardo-dicaprio-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/leonardo-dicaprio/v2/leonardo-dicaprio-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/59a776e7a77a395b1932d3bb.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/afa2c9741829b882aa3854af.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/848560353f4d56e4bf58cee2.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/leonardo-dicaprio/leonardo-dicaprio-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0a5bd90c5c832002e287604c.jpg"
       },
       {
         "id": "folder-0B23AC48",
@@ -45644,12 +45644,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/liam-neeson/liam-neeson-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/liam-neeson/v2/liam-neeson-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4b0f21d8fe73597939ca4f56.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/617db59f8868172fceda9723.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/liam-neeson/liam-neeson-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/liam-neeson/v2/liam-neeson-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6b43b2a10798961c4aed2e00.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fc5529357239457ca5671e2f.gif",
         "focusGlowEnabled": true
       },
       {
@@ -45701,24 +45701,24 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/lily-collins/v2/lily-collins-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/lily-collins/lily-collins-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/lily-collins/v2/lily-collins-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bf1c16284f1b3d26fe075098.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7c8d773391f08d94971a3dd2.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/30f4a252b9aa5941e0a0534c.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/lily-collins/lily-collins-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4d11019b9f02859a475d8fef.jpg"
       },
       {
         "id": "folder-I62XOTHC",
         "title": "Lupita Nyong'o",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/lupita-nyong-o/v2/lupita-nyong-o-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/lupita-nyong-o/lupita-nyong-o-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/lupita-nyong-o/v2/lupita-nyong-o-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/400a4de4966f5522d99b92dd.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6e7448db0270f1be1fa94241.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4c1a80d333661db78db92ec9.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/lupita-nyong-o/lupita-nyong-o-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/74e62e9dfdaefad197a9548c.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -45835,23 +45835,23 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/mads-mikkelsen/v2/mads-mikkelsen-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/mads-mikkelsen/v2/mads-mikkelsen-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/mads-mikkelsen/mads-mikkelsen-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f641b979bb3d5d1c58c086a6.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fbebc32ea04502a8357cf8e5.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7f566e8dfd02582b26c379f3.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/mads-mikkelsen/mads-mikkelsen-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d434a578908841d6a17217a7.png"
       },
       {
         "id": "folder-RYNCM2WO",
         "title": "Mahershala Ali",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/mahershala-ali/v2/mahershala-ali-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/mahershala-ali/mahershala-ali-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/mahershala-ali/v2/mahershala-ali-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/df8cac32e0076c0408484b59.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/50e6ee28e6ae8fb869eeb303.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0f39934c426bce563863bcc2.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/mahershala-ali/mahershala-ali-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8d2ac1e150d12d1e90bb53c5.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -46020,12 +46020,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/margot-robbie/margot-robbie-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/margot-robbie/v2/margot-robbie-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/868ca78b5280074e94993c85.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3a2732b10518a722f3a40afe.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/margot-robbie/margot-robbie-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/margot-robbie/v2/margot-robbie-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9245c002f1719e474ea90650.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/427c6c37f1444f0528eaaff7.gif",
         "focusGlowEnabled": true
       },
       {
@@ -46077,12 +46077,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/mark-wahlberg/mark-wahlberg-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/mark-wahlberg/v2/mark-wahlberg-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0782dc0f25b68c8ad1083742.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ffd31cc507c3f6c377bc87a4.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/mark-wahlberg/mark-wahlberg-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/mark-wahlberg/v2/mark-wahlberg-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e1e09ea448486b6078dd4d69.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6f1f2b71483e7933f7609b1e.gif",
         "focusGlowEnabled": true
       },
       {
@@ -46119,11 +46119,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/marlon-brando/v2/marlon-brando-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/marlon-brando/v2/marlon-brando-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/marlon-brando/marlon-brando-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a1082c8d20b7104980053734.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/00b0fdfb204d803f06b96ac6.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7dd42e354dc57e10ea27d67f.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/marlon-brando/marlon-brando-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c9d9d33658d6513741f69fc8.png"
       },
       {
         "id": "folder-TYX4G5P3",
@@ -46174,12 +46174,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/matt-damon/v2/matt-damon-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/matt-damon/matt-damon-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/matt-damon/v2/matt-damon-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ddd48b9ae2d78610e603ae03.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/eed47e29b60087976aa783aa.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/129ae2c155a37d4abd1361dd.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/matt-damon/matt-damon-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1ca1434caec971c0b701077d.jpg"
       },
       {
         "id": "folder-TR8NRI88",
@@ -46230,12 +46230,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/matthew-mcconaughey/v2/matthew-mcconaughey-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/matthew-mcconaughey/matthew-mcconaughey-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/matthew-mcconaughey/v2/matthew-mcconaughey-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/efacba1f2aa74daf64149818.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/70384f677db6b5a64d07e089.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/88dd904e8ba1a3f7c0b7f7f5.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/matthew-mcconaughey/matthew-mcconaughey-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d235220cb6a7a5f8d400d320.jpg"
       },
       {
         "id": "folder-1L09X3YR",
@@ -46323,12 +46323,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/melissa-mccarthy/v2/melissa-mccarthy-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/melissa-mccarthy/melissa-mccarthy-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/melissa-mccarthy/v2/melissa-mccarthy-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/70f950cb407cfea2c5c2a751.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/50248fbf1fc1f068d9de9a37.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/dafcc0b8e7910ebeeb63e47d.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/melissa-mccarthy/melissa-mccarthy-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1c4264a156af6298f3105ee6.jpg"
       },
       {
         "id": "folder-6WUONCAR",
@@ -46416,24 +46416,24 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/meryl-streep/v2/meryl-streep-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/meryl-streep/meryl-streep-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/meryl-streep/v2/meryl-streep-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e7592ef4343e1c9daf3dd3bf.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e436dffe30bb17b5b115238a.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fd473e57049fcff1d8c7591c.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/meryl-streep/meryl-streep-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/73602fe1d5aebd0c2aef3332.jpg"
       },
       {
         "id": "folder-Q5MTSVE1",
         "title": "Michael B. Jordan",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/michael-b-jordan/v2/michael-b-jordan-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/michael-b-jordan/michael-b-jordan-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/michael-b-jordan/v2/michael-b-jordan-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/116019b2ebbf4e32a615681a.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/27d96147c7b0483001106d0c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b52829b69082866644acf78f.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/michael-b-jordan/michael-b-jordan-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/147c780ae986460f266c4d6b.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -46602,12 +46602,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/michael-fassbender/michael-fassbender-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/michael-fassbender/v2/michael-fassbender-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e3bd9ec87444eac693940779.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c55ba4ef447073162aa4f71c.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/michael-fassbender/michael-fassbender-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/michael-fassbender/v2/michael-fassbender-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6ea44bbe2ad2376c3c622f5c.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d1a4618f5ca1cb1a9a7daff4.gif",
         "focusGlowEnabled": true
       },
       {
@@ -46659,24 +46659,24 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/michael-herbig/v2/michael-herbig-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/michael-herbig/michael-herbig-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/michael-herbig/v2/michael-herbig-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1d9be4ca04be33248752ad22.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5fbc9976bd384f923e33d1e8.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5f46077ce254d4c026d60481.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/michael-herbig/michael-herbig-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7b052fc8aa000cb95d22c588.jpg"
       },
       {
         "id": "folder-121Y6Z25",
         "title": "Michelle Yeoh",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/michelle-yeoh/v2/michelle-yeoh-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/michelle-yeoh/michelle-yeoh-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/michelle-yeoh/v2/michelle-yeoh-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/12359726c2d9825ca1aa3e50.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8db1bca133a0c772ba86d5ea.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7e3ad164413d89feb4b5972e.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/michelle-yeoh/michelle-yeoh-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/90843bb09cf7e706c30a0721.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -46808,12 +46808,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/mila-kunis/v2/mila-kunis-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/mila-kunis/mila-kunis-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/mila-kunis/v2/mila-kunis-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/73a1fdd8b4af5644feabc7ec.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c2d2f18bcf221011589ecce5.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ad6b724f3da5aea32856c59a.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/mila-kunis/mila-kunis-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c8aff17c230648b299ce5562.jpg"
       },
       {
         "id": "folder-I3VIBXVB",
@@ -46864,12 +46864,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/millie-bobby-brown/v2/millie-bobby-brown-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/millie-bobby-brown/millie-bobby-brown-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/millie-bobby-brown/v2/millie-bobby-brown-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/17ed5fd45beb7c72280ecba8.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/31f80053c108db2c99fa34a0.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1ab49ece6d36c47b4c5858ba.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/millie-bobby-brown/millie-bobby-brown-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/02127121f2c45de3f4a4fa94.jpg"
       },
       {
         "id": "folder-JNCCEB8T",
@@ -46920,24 +46920,24 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/morgan-freeman/v2/morgan-freeman-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/morgan-freeman/morgan-freeman-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/morgan-freeman/v2/morgan-freeman-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/330ef95f6adcb8b09e78700f.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/29157f7f16a57637b4808ad3.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2362e0075880ea3b1962a8a6.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/morgan-freeman/morgan-freeman-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0a5082f64190a2d3ac0233f0.jpg"
       },
       {
         "id": "folder-6BKY6W3C",
         "title": "Natalie Portman",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/natalie-portman/v2/natalie-portman-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/natalie-portman/natalie-portman-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/natalie-portman/v2/natalie-portman-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/26029945d578af34017d1e29.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9819437d077e562f12cdf4d4.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/598239936fabf5c869dbe5d4.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/natalie-portman/natalie-portman-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0771a2918279f6a1cfb1e40b.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -47069,12 +47069,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/nicolas-cage/v2/nicolas-cage-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/nicolas-cage/nicolas-cage-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/nicolas-cage/v2/nicolas-cage-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d293d76d46205f4ac2ec3f98.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b9c337af9054ad15e3690147.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e3f6afd376864589bff4a84d.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/nicolas-cage/nicolas-cage-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bbda9ee0f021c26f66db3541.jpg"
       },
       {
         "id": "folder-3V7BIKDZ",
@@ -47162,24 +47162,24 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/nicole-kidman/v2/nicole-kidman-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/nicole-kidman/nicole-kidman-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/nicole-kidman/v2/nicole-kidman-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1f23f4a7cb9c7359a7563e28.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/983ce0a5d53fe7ab281249b7.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0b76cabbd1290dde3b87b387.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/nicole-kidman/nicole-kidman-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c82a80d0ec15f0daf2a5f36e.jpg"
       },
       {
         "id": "folder-BU4IT2EK",
         "title": "Octavia Spencer",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/octavia-spencer/v2/octavia-spencer-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/octavia-spencer/octavia-spencer-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/octavia-spencer/v2/octavia-spencer-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/348b438c4c8da20db681abb5.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4ba00d6ccfef3f3a219e41bd.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/99246b966d14c632dfe9fc52.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/octavia-spencer/octavia-spencer-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/935f0803f866c72898afaefd.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -47267,12 +47267,12 @@ window.NUVIO_DATABASE = [
         "title": "Oscar Isaac",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/oscar-isaac/v2/oscar-isaac-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/oscar-isaac/oscar-isaac-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/oscar-isaac/v2/oscar-isaac-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/21fa886c62be18689b1fd6ec.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a1c48552ebc0346ed5fa7e64.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/061ca39004ca5363588f4deb.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/oscar-isaac/oscar-isaac-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/78320228b2b7250b43033d34.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -47404,24 +47404,24 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/owen-wilson/v2/owen-wilson-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/owen-wilson/owen-wilson-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/owen-wilson/v2/owen-wilson-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c8d2b97e2a675ddf20e27b16.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/55b479d9ae230e019ea4c032.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/81cb9106f935fcca31f33325.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/owen-wilson/owen-wilson-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3c571c5520a22e1a7a6359f6.jpg"
       },
       {
         "id": "folder-E71626SP",
         "title": "Paul Mescal",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/paul-mescal/v2/paul-mescal-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/paul-mescal/paul-mescal-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/paul-mescal/v2/paul-mescal-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7b58db335ff80204741e0539.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5f44d2872a547c22573322fc.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/00eb8e3d9d2244e045bb9b01.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/paul-mescal/paul-mescal-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c4a2bf14b081a577b02330c4.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -47553,12 +47553,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/paul-newman/paul-newman-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/paul-newman/v2/paul-newman-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d78214ee219a2b61a347abe1.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/65ceb50768d48338a4cd9215.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/paul-newman/paul-newman-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/paul-newman/v2/paul-newman-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e9b714233af982a48c3239db.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f6c3f21c7a0c79c80fa29e2a.gif",
         "focusGlowEnabled": true
       },
       {
@@ -47566,12 +47566,12 @@ window.NUVIO_DATABASE = [
         "title": "Paul Rudd",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/paul-rudd/v2/paul-rudd-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/paul-rudd/paul-rudd-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/paul-rudd/v2/paul-rudd-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/29eecc6d95553497eadcf3fd.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/271bae44d0b22e122e3165f7.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e4071998b69de1a3aeb42f42.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/paul-rudd/paul-rudd-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8ced56901864f918380c1179.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -47659,12 +47659,12 @@ window.NUVIO_DATABASE = [
         "title": "Pedro Pascal",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/pedro-pascal/v2/pedro-pascal-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/pedro-pascal/pedro-pascal-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/pedro-pascal/v2/pedro-pascal-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7835f1b01543b590d266a078.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/16a6dde2f1a6525883f15469.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2b8a7e6e957db274866bba30.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/pedro-pascal/pedro-pascal-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/080621f6186ad58ca051c31e.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -47752,12 +47752,12 @@ window.NUVIO_DATABASE = [
         "title": "Penélope Cruz",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/penelope-cruz/v2/penelope-cruz-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/penelope-cruz/penelope-cruz-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/penelope-cruz/v2/penelope-cruz-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/60540cfb7e2a07f8db7730b3.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/dda2bb10ceab13b17d1b651a.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f80772aa4c67175971cdc926.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/penelope-cruz/penelope-cruz-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/42f79a3783d4c63c82fa180b.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -47926,12 +47926,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/rachel-mcadams/rachel-mcadams-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/rachel-mcadams/v2/rachel-mcadams-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/db0f0ec76b485377b85b540d.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/832f4dcb8c4c6e61ca4192c4.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/rachel-mcadams/rachel-mcadams-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/rachel-mcadams/v2/rachel-mcadams-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d2847901dec2e7765d07a5b0.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0f685b3b7ec852aed4a8fc1d.gif",
         "focusGlowEnabled": true
       },
       {
@@ -47983,12 +47983,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/reese-witherspoon/v2/reese-witherspoon-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/reese-witherspoon/reese-witherspoon-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/reese-witherspoon/v2/reese-witherspoon-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1c37f8196c52fb72b88a56cc.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f942fd6fe35ca6f53134a703.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c0c3791ee33458538c3e2e81.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/reese-witherspoon/reese-witherspoon-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/21d49184294b70c83976bc96.jpg"
       },
       {
         "id": "folder-NBIFUAKW",
@@ -48024,11 +48024,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/robert-de-niro/v2/robert-de-niro-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/robert-de-niro/v2/robert-de-niro-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/robert-de-niro/robert-de-niro-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8e575efd329b6878eb8d7121.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2ac8c320a14b4ea51d6b6e88.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/940d5af75774f511795de0f9.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/robert-de-niro/robert-de-niro-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5e3c1baef2d3cc26c2969ebc.png"
       },
       {
         "id": "folder-TWR66N19",
@@ -48079,12 +48079,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/robert-downey-jr/v2/robert-downey-jr-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/robert-downey-jr/robert-downey-jr-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/robert-downey-jr/v2/robert-downey-jr-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e7f170f2ea699c70cfc968af.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/86c75974566fb0699f722b84.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8940a4585ba1274af1ee1df1.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/robert-downey-jr/robert-downey-jr-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/461f4c9c19084517fb34ba6b.jpg"
       },
       {
         "id": "folder-FJZ84GA3",
@@ -48135,24 +48135,24 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/robin-williams/v2/robin-williams-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/robin-williams/robin-williams-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/robin-williams/v2/robin-williams-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/dfb4ddf88acde24a0d7eed9c.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4596b73f8fe0defa57813cec.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c94c3d45a0d6984a80021512.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/robin-williams/robin-williams-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e1cf0ffc4734c0ffe9fc8082.jpg"
       },
       {
         "id": "folder-NRAGDACW",
         "title": "Ryan Gosling",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/ryan-gosling/v2/ryan-gosling-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/ryan-gosling/ryan-gosling-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/ryan-gosling/v2/ryan-gosling-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0f4c0e2d7b9a2fa7853c39f1.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/34800a653a0aa91abc054d26.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/45636aafe101da1b5da4492e.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/ryan-gosling/ryan-gosling-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4e1064a2a3db082fb1c647f6.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -48284,24 +48284,24 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/ryan-reynolds/v2/ryan-reynolds-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/ryan-reynolds/ryan-reynolds-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/ryan-reynolds/v2/ryan-reynolds-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5d418c020cdea19a72a5aee2.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/55c07d39f88a9e5f0a0aee39.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f7676405b64583a42dcf9ae4.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/ryan-reynolds/ryan-reynolds-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0e5d4dd7d04530a6c2dee46f.jpg"
       },
       {
         "id": "folder-YOR5PVAB",
         "title": "Sadie Sink",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/sadie-sink/v2/sadie-sink-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/sadie-sink/sadie-sink-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/sadie-sink/v2/sadie-sink-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b753d0b21c628e3286cf6222.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4fd36dd1cce91fdcd17ee763.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f634b64178183297696ccc46.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/sadie-sink/sadie-sink-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5d66dac2d46d895981a423a7.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -48389,12 +48389,12 @@ window.NUVIO_DATABASE = [
         "title": "Salma Hayek Pinault",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/salma-hayek-pinault/v2/salma-hayek-pinault-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/salma-hayek-pinault/salma-hayek-pinault-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/salma-hayek-pinault/v2/salma-hayek-pinault-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/70eee10f9fbfdc19c33a161e.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/053a4f3c512fc8d59667ea87.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3b6b4d2b42350bb64bd6dcc3.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/salma-hayek-pinault/salma-hayek-pinault-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7ff67638473abf7650fe45f9.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -48563,12 +48563,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/samuel-l-jackson/v2/samuel-l-jackson-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/samuel-l-jackson/samuel-l-jackson-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/samuel-l-jackson/v2/samuel-l-jackson-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a35489f5d4e7b653933535ca.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c7cfac4e7ff9c4dcaf77c4a9.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e47a9bcdafda0e24c5869f52.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/samuel-l-jackson/samuel-l-jackson-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/def01866f00192c3ab358117.jpg"
       },
       {
         "id": "folder-H1P5FUH1",
@@ -48619,24 +48619,24 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/sandra-bullock/v2/sandra-bullock-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/sandra-bullock/sandra-bullock-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/sandra-bullock/v2/sandra-bullock-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9f3575f3cffd2706ecce87a1.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/36f29ccef7127befc8124e30.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7a15cae11ff34d0af8af6e6e.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/sandra-bullock/sandra-bullock-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/00d3b57ba82f545ce89481be.jpg"
       },
       {
         "id": "folder-LI1PDADR",
         "title": "Scarlett Johansson",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/scarlett-johansson/v2/scarlett-johansson-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/scarlett-johansson/scarlett-johansson-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/scarlett-johansson/v2/scarlett-johansson-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3712c499c6c49f3749a4e198.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d7dfa3aac1cff4a7b98e2264.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2e7a965fcaed7f4929dc28db.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/scarlett-johansson/scarlett-johansson-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3ef6fd2d07f9d9a28c70780d.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -48716,11 +48716,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/seth-rogen/v2/seth-rogen-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/seth-rogen/v2/seth-rogen-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/seth-rogen/seth-rogen-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/022fe2952c55ae382c284195.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8bee485aafe38193fc95fdce.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/357b57c4b9a5e618454a078a.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/seth-rogen/seth-rogen-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/208ad87ae3cf4be401c9132f.png"
       },
       {
         "id": "folder-88DB9F0E",
@@ -48808,12 +48808,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/sigourney-weaver/sigourney-weaver-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/sigourney-weaver/v2/sigourney-weaver-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f364af16f3bc9d318da5350c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b27f821d9dba8106aa494620.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/sigourney-weaver/sigourney-weaver-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/sigourney-weaver/v2/sigourney-weaver-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/41fa2a6065b07db6902eb22c.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/337c02aa7ebe259515b7c313.gif",
         "focusGlowEnabled": true
       },
       {
@@ -48902,12 +48902,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/song-kang-ho/song-kang-ho-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/song-kang-ho/v2/song-kang-ho-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/59e1ddd2fba5351f6fed1f84.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/36dc8b79db14858ff809086c.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/song-kang-ho/song-kang-ho-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/song-kang-ho/v2/song-kang-ho-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1749151bd55d4bdad0695093.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d7cb6a668a521639c71088f6.gif",
         "focusGlowEnabled": true
       },
       {
@@ -48996,12 +48996,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/steve-carell/v2/steve-carell-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/steve-carell/steve-carell-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/steve-carell/v2/steve-carell-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3b2cd4dc9a60fa23a6f80126.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c202fe679cc9d8937678b2ff.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/832b677d372d4ef6caf8e056.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/steve-carell/steve-carell-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e151750b08eac7f72b432ffe.jpg"
       },
       {
         "id": "folder-2AFAKOUX",
@@ -49037,11 +49037,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/steve-martin/v2/steve-martin-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/steve-martin/v2/steve-martin-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/steve-martin/steve-martin-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/98a1cd2dba223cbca2b0d142.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c42e36922e1935f3a0c14adf.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/963c55e031dfef8ff497ca46.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/steve-martin/steve-martin-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/856f361c526b0a688aab4363.png"
       },
       {
         "id": "folder-QQ7P8T6J",
@@ -49129,12 +49129,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/sydney-sweeney/v2/sydney-sweeney-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/sydney-sweeney/sydney-sweeney-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/sydney-sweeney/v2/sydney-sweeney-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8c101aaa7d9f71d714dba0b8.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7d3bc3a4348fa1dbebc8629c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5b68406bcc3ab7fda0956423.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/sydney-sweeney/sydney-sweeney-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8cc5ddd412c4a37b5ec589fe.jpg"
       },
       {
         "id": "folder-C3Z55FSW",
@@ -49185,24 +49185,24 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/sylvester-stallone/v2/sylvester-stallone-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/sylvester-stallone/sylvester-stallone-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/sylvester-stallone/v2/sylvester-stallone-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/385a9bd1bff82950ffd1dcad.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/70b060c9ae86b18d180a2970.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/625f65bc3d04a3c8fba8f4db.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/sylvester-stallone/sylvester-stallone-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d6aedee128895c32b695a526.jpg"
       },
       {
         "id": "folder-5DNUVAKW",
         "title": "Tessa Thompson",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/tessa-thompson/v2/tessa-thompson-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/tessa-thompson/tessa-thompson-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/tessa-thompson/v2/tessa-thompson-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9d89eff58fa8e688ae6ba3b7.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f0c8cfcb6e4274cff2a3bf8e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/82ed84b265a4e7887ec68a31.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/tessa-thompson/tessa-thompson-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0401b39a0143039887197be8.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -49334,12 +49334,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/timothee-chalamet/v2/timothee-chalamet-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/timothee-chalamet/timothee-chalamet-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/timothee-chalamet/v2/timothee-chalamet-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/81a7984bd49b65d5330a116e.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/46397cd801f9992efac65cb0.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c1c30967c8be00256d488f59.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/timothee-chalamet/timothee-chalamet-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f30a919cad37f408847341a3.jpg"
       },
       {
         "id": "folder-ZISLC5VJ",
@@ -49390,24 +49390,24 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/tom-cruise/v2/tom-cruise-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/tom-cruise/tom-cruise-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/tom-cruise/v2/tom-cruise-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7afe7e3177147a0efce2d2c9.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8158a108df1403e7e14455bd.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c078ba727196464c329db39d.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/tom-cruise/tom-cruise-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/931f3332b1b07dba89e32d7c.jpg"
       },
       {
         "id": "folder-4K51G24E",
         "title": "Tom Hanks",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/tom-hanks/v2/tom-hanks-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/tom-hanks/tom-hanks-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/tom-hanks/v2/tom-hanks-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a7d98abe947e6d364c8ab2fa.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ce24d4969d5d8130e4ad2b39.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c871fe22931ff4825bdb0de4.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/tom-hanks/tom-hanks-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7737a17481cd5b0e4b757127.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -49495,12 +49495,12 @@ window.NUVIO_DATABASE = [
         "title": "Tom Hardy",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/tom-hardy/v2/tom-hardy-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/tom-hardy/tom-hardy-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/tom-hardy/v2/tom-hardy-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0fe404a7bd73c9756955c25f.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e0634c68e9926b5d2be950ef.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/edcb323c96ff8f3e69a31043.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/tom-hardy/tom-hardy-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/cdcf31f49e2b7ce344a4bb1f.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -49632,24 +49632,24 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/tom-holland/v2/tom-holland-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/tom-holland/tom-holland-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/tom-holland/v2/tom-holland-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b32816e90939fb2f3d5ce49c.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/39eea196758645625c78ab3b.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2e76f5c6397442f5424edf44.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/tom-holland/tom-holland-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3d64905ab63794751a7dfd63.jpg"
       },
       {
         "id": "folder-D018AV8U",
         "title": "Vin Diesel",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/vin-diesel/v2/vin-diesel-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/vin-diesel/vin-diesel-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/vin-diesel/v2/vin-diesel-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4b4f4acc9c8702d1bbd3a09f.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/00546acee327d9e987f20e1b.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d262bbfb6eb83abf5ee8c3b7.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/vin-diesel/vin-diesel-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ea2f6d2f9bcf931aee6fc7fe.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -49766,11 +49766,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/viola-davis/v2/viola-davis-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/viola-davis/v2/viola-davis-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/viola-davis/viola-davis-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c087c703900f3d8d7836941d.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8bd4561a9ee2241a2a1f4fff.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/072050dee3cefea4594f3dd0.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/viola-davis/viola-davis-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ac4e93d9d9d40fadea4db885.png"
       },
       {
         "id": "folder-RQXU2K5A",
@@ -49806,23 +49806,23 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/will-ferrell/v2/will-ferrell-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/will-ferrell/v2/will-ferrell-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/will-ferrell/will-ferrell-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/20ef5bc5580e3bce35c2457c.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a8431aa7c955451fd8af224f.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/64128caae07e8c885cf15d25.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/will-ferrell/will-ferrell-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ebffe43d643247ee61151dd3.png"
       },
       {
         "id": "folder-59J071DM",
         "title": "Will Smith",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/will-smith/v2/will-smith-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/will-smith/will-smith-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/will-smith/v2/will-smith-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b91d903d85ca8f6420f5c336.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e62485176b87522843a3c7ce.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fc565fe3be14e31ce4fbd782.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/will-smith/will-smith-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/346394d0de0c9ab5f92c2c94.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -49939,11 +49939,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/willem-dafoe/v2/willem-dafoe-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/willem-dafoe/v2/willem-dafoe-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/willem-dafoe/willem-dafoe-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d8efc892e6b4500dcfb19caa.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ed05893bf2e3dc797fbecea5.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/06e1b54da2fc19de1162dd73.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/willem-dafoe/willem-dafoe-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bc21698240e7eb6807f72096.png"
       },
       {
         "id": "folder-8B78EAF9",
@@ -50031,12 +50031,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/woody-harrelson/woody-harrelson-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/woody-harrelson/v2/woody-harrelson-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2557dbe0300889dd5df5493e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2b0056b3917d7fa9f63fe66b.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/woody-harrelson/woody-harrelson-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/woody-harrelson/v2/woody-harrelson-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a648c66c493debadcf123cc9.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8ad485f745828fde3657024c.gif",
         "focusGlowEnabled": true
       },
       {
@@ -50125,12 +50125,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/zac-efron/zac-efron-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/zac-efron/v2/zac-efron-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8922cc8b5eac3180ba5bab6e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1ed78a18073515b5f7b802e9.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/zac-efron/zac-efron-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/zac-efron/v2/zac-efron-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d5db521f28684b7d114915d2.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/956d85465c5ffbca0fbf1001.gif",
         "focusGlowEnabled": true
       },
       {
@@ -50182,24 +50182,24 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/zendaya/v2/zendaya-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/zendaya/zendaya-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/zendaya/v2/zendaya-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5146999115205a61ffac1f7e.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e15206869a7af9d737826b1d.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/21b220006cc896f800afc2ba.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/zendaya/zendaya-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/273d69fb51df1e03e9593148.jpg"
       },
       {
         "id": "folder-HMXS9XCV",
         "title": "Zoe Saldaña",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/zoe-saldana/v2/zoe-saldana-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/zoe-saldana/zoe-saldana-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/zoe-saldana/v2/zoe-saldana-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bb208dc15f96400fcf3277b1.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/92450a6ac162f63d983be660.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/64a2e7067e18a90863e4c7e6.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/actors/zoe-saldana/zoe-saldana-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/31671a51e850beefc91dfbfe.jpg",
         "sources": [
           {
             "title": "Populaires Films",
@@ -50297,12 +50297,12 @@ window.NUVIO_DATABASE = [
         "title": "Akira Kurosawa",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/akira-kurosawa/v2/akira-kurosawa-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/akira-kurosawa/akira-kurosawa-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/akira-kurosawa/v2/akira-kurosawa-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b71517a43a5f355d59dac23a.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6b4254e97753ca5e34bc78f7.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/67ca9a847092824ed8a88f61.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/akira-kurosawa/akira-kurosawa-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c7abbc9c7dc90258c950670f.jpg",
         "sources": [
           {
             "title": "Akira Kurosawa (Le meilleur de)",
@@ -50373,23 +50373,23 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/alejandro-gonzalez-inarritu/v2/alejandro-gonzalez-inarritu-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/alejandro-gonzalez-inarritu/v2/alejandro-gonzalez-inarritu-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/alejandro-gonzalez-inarritu/alejandro-gonzalez-inarritu-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b10f7d7c8718bf3c558da74e.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/06bb38ebf5d8e1d93b356a2e.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/39c6399bfa0b973f2bf68315.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/alejandro-gonzalez-inarritu/alejandro-gonzalez-inarritu-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8fe489457892787f8d644103.png"
       },
       {
         "id": "folder-OCM9TEN5",
         "title": "Alex Garland",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/alex-garland/v2/alex-garland-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/alex-garland/alex-garland-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/alex-garland/v2/alex-garland-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8619db69a89031511daa58aa.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bb933072eff3d73850ca81cd.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3155cc50012e40ff0bcc81ce.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/alex-garland/alex-garland-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fe52667138a250489899b3f7.jpg",
         "sources": [
           {
             "title": "Alex Garland (Le meilleur de)",
@@ -50460,11 +50460,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/alfonso-cuaron/v2/alfonso-cuaron-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/alfonso-cuaron/v2/alfonso-cuaron-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/alfonso-cuaron/alfonso-cuaron-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c8dfbcbc7a0e2ce7fd37695e.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9cb2b5f8c94264f4aaa47c95.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/097ad915fee04dec2bfc41db.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/alfonso-cuaron/alfonso-cuaron-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f426f2f7c531ba6e1681f1a9.png"
       },
       {
         "id": "folder-2FUNKZ46",
@@ -50503,12 +50503,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/alfred-hitchcock/v2/alfred-hitchcock-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/alfred-hitchcock/alfred-hitchcock-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/alfred-hitchcock/v2/alfred-hitchcock-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/972e289de8dbf781b8dd7e2e.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/eb2a17f26daf49609b0d6a85.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3f4b6f4a93befc2a6dbef483.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/alfred-hitchcock/alfred-hitchcock-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0b0293550477d72469e21b45.jpg"
       },
       {
         "id": "folder-0EB440E2",
@@ -50547,12 +50547,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/antoine-fuqua/antoine-fuqua-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/antoine-fuqua/v2/antoine-fuqua-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c7b9b8406f2059d0fc51d14b.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/04601c35a6203043d9e697a7.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/antoine-fuqua/antoine-fuqua-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/antoine-fuqua/v2/antoine-fuqua-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5b248e5bbfffb79b909bc732.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c7dfba67cbf79b77de4e1e8a.gif",
         "focusGlowEnabled": true
       },
       {
@@ -50560,12 +50560,12 @@ window.NUVIO_DATABASE = [
         "title": "Ari Aster",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/ari-aster/v2/ari-aster-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/ari-aster/ari-aster-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/ari-aster/v2/ari-aster-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f6c050b196e0a7b3014c40f3.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4d2c5ceab0ea3d1852aca41f.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7b014c596b3219b096e6c1c2.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/ari-aster/ari-aster-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b43327b8da5cedfa71271c3d.jpg",
         "sources": [
           {
             "title": "Ari Aster (Le meilleur de)",
@@ -50636,12 +50636,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/billy-wilder/billy-wilder-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/billy-wilder/v2/billy-wilder-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c9763d05ff77a39618c6e41e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0cb11980a46d408c2df18172.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/billy-wilder/billy-wilder-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/billy-wilder/v2/billy-wilder-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/84953a16bec1a1d3d3e2c877.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4a4e860a07bdf7c8fb2f09e1.gif",
         "focusGlowEnabled": true
       },
       {
@@ -50649,12 +50649,12 @@ window.NUVIO_DATABASE = [
         "title": "Bong Joon Ho",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/bong-joon-ho/v2/bong-joon-ho-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/bong-joon-ho/bong-joon-ho-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/bong-joon-ho/v2/bong-joon-ho-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/711bfe969286c436fb53eadd.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d05aa3771f46bfc370e1e5c5.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6f66665cebe2717a3fc86986.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/bong-joon-ho/bong-joon-ho-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c8404f4400af3139194fc522.jpg",
         "sources": [
           {
             "title": "Bong Joon Ho (Le meilleur de)",
@@ -50725,12 +50725,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/brian-de-palma/v2/brian-de-palma-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/brian-de-palma/brian-de-palma-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/brian-de-palma/v2/brian-de-palma-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a6b7fee2ea443fa34c544a56.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0a9cf82b248487ad302186db.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ecc214fa1eb6f79f1e86cc77.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/brian-de-palma/brian-de-palma-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e979a678764e3557148a71b5.jpg"
       },
       {
         "id": "folder-8E049C04",
@@ -50769,12 +50769,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/chad-stahelski/chad-stahelski-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/chad-stahelski/v2/chad-stahelski-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5651cdc3a88212edb74a4171.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9d19745a3a44977e303323e3.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/chad-stahelski/chad-stahelski-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/chad-stahelski/v2/chad-stahelski-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b62da22f4c3483214c6fb7c9.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c525a0a316a311f89cc26cf8.gif",
         "focusGlowEnabled": true
       },
       {
@@ -50814,12 +50814,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/christopher-nolan/v2/christopher-nolan-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/christopher-nolan/christopher-nolan-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/christopher-nolan/v2/christopher-nolan-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d904181274560a71d71bd814.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6d4b39eaffb0b2a558b9548e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fd45842360ad07f65f3f6620.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/christopher-nolan/christopher-nolan-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2ac204f25d8c06ad545da2aa.jpg"
       },
       {
         "id": "folder-C459436E",
@@ -50858,12 +50858,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/clint-eastwood/clint-eastwood-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/clint-eastwood/v2/clint-eastwood-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d101d91e1834470729cc6fd0.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9c0abea3983c08882112f81c.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/clint-eastwood/clint-eastwood-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/clint-eastwood/v2/clint-eastwood-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a37356e61e1536af1fbe4c37.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bed6af1c653a424be5e8276d.gif",
         "focusGlowEnabled": true
       },
       {
@@ -50871,12 +50871,12 @@ window.NUVIO_DATABASE = [
         "title": "Damien Chazelle",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/damien-chazelle/v2/damien-chazelle-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/damien-chazelle/damien-chazelle-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/damien-chazelle/v2/damien-chazelle-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/17d567c17c31ca3e072278f1.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7124b77e479f929bb628946c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/287aa7009598318056f55b18.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/damien-chazelle/damien-chazelle-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ed1b5e08af7e74d47a85ec23.jpg",
         "sources": [
           {
             "title": "Damien Chazelle (Le meilleur de)",
@@ -50915,12 +50915,12 @@ window.NUVIO_DATABASE = [
         "title": "Daniel Scheinert",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/daniel-scheinert/v2/daniel-scheinert-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/daniel-scheinert/daniel-scheinert-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/daniel-scheinert/v2/daniel-scheinert-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/cd0175807d5466db06a1ddae.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/93676f54f8e17d69dd3f5508.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/15db88594b28fdbea14d1abc.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/daniel-scheinert/daniel-scheinert-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/cc6c66d995f803a1a82027be.jpg",
         "sources": [
           {
             "title": "Daniel Scheinert (Le meilleur de)",
@@ -50959,12 +50959,12 @@ window.NUVIO_DATABASE = [
         "title": "Danny Boyle",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/danny-boyle/v2/danny-boyle-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/danny-boyle/danny-boyle-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/danny-boyle/v2/danny-boyle-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5907bed82367c9d18dfaf922.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ee0a1d789d867cd51eda8dcb.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3e4a6292c89337b07258e466.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/danny-boyle/danny-boyle-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bd2402247ea45daa5dce2369.jpg",
         "sources": [
           {
             "title": "Danny Boyle (Le meilleur de)",
@@ -51035,11 +51035,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/darren-aronofsky/v2/darren-aronofsky-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/darren-aronofsky/v2/darren-aronofsky-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/darren-aronofsky/darren-aronofsky-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/75a90c3990de8d790c4db59f.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0724233137f3bae96be5a754.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a0136752b05ff741c26e929e.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/darren-aronofsky/darren-aronofsky-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2e871d6dc40804457f17a9a5.png"
       },
       {
         "id": "folder-6D2C8505",
@@ -51078,12 +51078,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/david-cronenberg/david-cronenberg-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/david-cronenberg/v2/david-cronenberg-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2cc359af946de7cc6734be67.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/371c16c8c80341494a67f9b7.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/david-cronenberg/david-cronenberg-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/david-cronenberg/v2/david-cronenberg-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e8048091ae7b5aaf72f39f48.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/db275bb302dc47ec9fa1ee37.gif",
         "focusGlowEnabled": true
       },
       {
@@ -51123,12 +51123,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/david-fincher/v2/david-fincher-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/david-fincher/david-fincher-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/david-fincher/v2/david-fincher-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fd2859f1c2608086a27608bc.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/73ebe3327537ab737cb2045f.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8b54b324016320646862f0ed.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/david-fincher/david-fincher-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3444e1f4b66b400d664b4346.jpg"
       },
       {
         "id": "folder-BXQCPCBV",
@@ -51167,12 +51167,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/david-lynch/v2/david-lynch-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/david-lynch/david-lynch-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/david-lynch/v2/david-lynch-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/19e4ae9741524a399f87d6d4.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8ce2a6f834c544702594cc34.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c36e7927d00815aac4d7d549.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/david-lynch/david-lynch-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/dc406d70ae684925bb1ae243.jpg"
       },
       {
         "id": "folder-I4NYCWWV",
@@ -51211,24 +51211,24 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/denis-villeneuve/v2/denis-villeneuve-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/denis-villeneuve/denis-villeneuve-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/denis-villeneuve/v2/denis-villeneuve-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/05ebcefe9877daa2fcb7aad5.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6390ccea8f96d68bb3f2afc5.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/59b7d29204c71c8ab234e17a.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/denis-villeneuve/denis-villeneuve-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d9970f73e8062d4291a25633.jpg"
       },
       {
         "id": "folder-0RN654SH",
         "title": "Edgar Wright",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/edgar-wright/v2/edgar-wright-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/edgar-wright/edgar-wright-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/edgar-wright/v2/edgar-wright-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7a9178ba77d1f274afc79355.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/88326a6ef44b42c73548fb81.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b79d81d4efe201d5b5236d72.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/edgar-wright/edgar-wright-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/67772da5802adac8640ab2af.jpg",
         "sources": [
           {
             "title": "Edgar Wright (Le meilleur de)",
@@ -51267,12 +51267,12 @@ window.NUVIO_DATABASE = [
         "title": "Emerald Fennell",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/emerald-fennell/v2/emerald-fennell-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/emerald-fennell/emerald-fennell-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/emerald-fennell/v2/emerald-fennell-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/470e7aebe7d18e2131e5d376.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0aca02fd8365db12af85f6ca.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a330784af92574dc7689ee38.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/emerald-fennell/emerald-fennell-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c84a5e546d72b2b2a0f87e2a.jpg",
         "sources": [
           {
             "title": "Emerald Fennell (Le meilleur de)",
@@ -51343,24 +51343,24 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/francis-ford-coppola/v2/francis-ford-coppola-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/francis-ford-coppola/francis-ford-coppola-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/francis-ford-coppola/v2/francis-ford-coppola-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4f10ee24b4ec68926a69294d.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9d8ece92bdc955b83e394d54.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/902abb5eba765ec651f76fdd.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/francis-ford-coppola/francis-ford-coppola-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f0bba90e50721c72a839e185.jpg"
       },
       {
         "id": "folder-P3TT53P3",
         "title": "George Lucas",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/george-lucas/v2/george-lucas-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/george-lucas/george-lucas-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/george-lucas/v2/george-lucas-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/64af9e200790110ace7c70e3.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f1a19ac49573f83d1d08399d.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9bb81f849c1e8063e6d7cf13.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/george-lucas/george-lucas-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1f9ccd3f802ef20d6ccc3d0f.jpg",
         "sources": [
           {
             "title": "George Lucas (Le meilleur de)",
@@ -51431,12 +51431,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/george-miller/george-miller-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/george-miller/v2/george-miller-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0e1320e4e26c1f287534486e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6701d4e4ed33c520729ab8f7.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/george-miller/george-miller-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/george-miller/v2/george-miller-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/31a13e9e5c79799ef185343e.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/191f8e26d4b277a4bb7e4e6e.gif",
         "focusGlowEnabled": true
       },
       {
@@ -51476,12 +51476,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/gore-verbinski/gore-verbinski-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/gore-verbinski/v2/gore-verbinski-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7f28dff0c2de8f50c217cad8.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/00e7fe218beffc8b929ae0dc.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/gore-verbinski/gore-verbinski-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/gore-verbinski/v2/gore-verbinski-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d92bf50859542ec299cee001.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/790b6f9806e324c8ec240b00.gif",
         "focusGlowEnabled": true
       },
       {
@@ -51521,12 +51521,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/greta-gerwig/v2/greta-gerwig-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/greta-gerwig/greta-gerwig-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/greta-gerwig/v2/greta-gerwig-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/56d5bd241c31ec310a676c4f.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f41be05eb6780d83038798c9.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c2800bac0ff30821e4e20214.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/greta-gerwig/greta-gerwig-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a4b4a192d7605e7537fce24c.jpg"
       },
       {
         "id": "folder-Z6H0DPEH",
@@ -51565,24 +51565,24 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/guillermo-del-toro/v2/guillermo-del-toro-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/guillermo-del-toro/guillermo-del-toro-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/guillermo-del-toro/v2/guillermo-del-toro-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e8e472e4b509d88e1081f4e4.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/cffe1bae7f35f72a83064deb.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0966964c85e1086d5e427cb0.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/guillermo-del-toro/guillermo-del-toro-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d2856d25d043a60047b4edc0.jpg"
       },
       {
         "id": "folder-VZAELEDR",
         "title": "Guy Ritchie",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/guy-ritchie/v2/guy-ritchie-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/guy-ritchie/guy-ritchie-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/guy-ritchie/v2/guy-ritchie-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f069f800366bbeb6a12fbb92.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e112c8e6eec7e48cf791acc6.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/16a379abdc9735b286ff1cb2.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/guy-ritchie/guy-ritchie-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4a569201b07e00d0b9331f29.jpg",
         "sources": [
           {
             "title": "Guy Ritchie (Le meilleur de)",
@@ -51621,12 +51621,12 @@ window.NUVIO_DATABASE = [
         "title": "Hayao Miyazaki",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/hayao-miyazaki/v2/hayao-miyazaki-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/hayao-miyazaki/hayao-miyazaki-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/hayao-miyazaki/v2/hayao-miyazaki-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8e1abd2b12f6c055a557e2a5.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e1447a3b93a99764b773f09c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b7c6e505e27efbcef399b859.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/hayao-miyazaki/hayao-miyazaki-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2e0700e01489aaa31dc35c3c.jpg",
         "sources": [
           {
             "title": "Hayao Miyazaki (Le meilleur de)",
@@ -51697,12 +51697,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/james-cameron/v2/james-cameron-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/james-cameron/james-cameron-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/james-cameron/v2/james-cameron-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ba65dc6cafce559c65a9bbb1.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/302de26c0ba88680a88f58fe.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/037fed5b6c28170eaf778003.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/james-cameron/james-cameron-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/389a253b8528eb5e9f0b37c5.jpg"
       },
       {
         "id": "folder-83CD920E",
@@ -51741,12 +51741,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/james-gunn/james-gunn-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/james-gunn/v2/james-gunn-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/48837097940f49d87812fd8b.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6102e3bc485acc622f94a9b4.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/james-gunn/james-gunn-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/james-gunn/v2/james-gunn-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5bb1bac58a561a49780c1a48.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a4ae6521cae2bc5b19d4e372.gif",
         "focusGlowEnabled": true
       },
       {
@@ -51754,12 +51754,12 @@ window.NUVIO_DATABASE = [
         "title": "James Wan",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/james-wan/v2/james-wan-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/james-wan/james-wan-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/james-wan/v2/james-wan-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5e4affdb2b5702d2b04fdb45.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/50ba742572870b7b69ed788e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/46cda79c568e5f6366e617f3.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/james-wan/james-wan-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5ac2f5db887b00b97358d3e1.jpg",
         "sources": [
           {
             "title": "James Wan (Le meilleur de)",
@@ -51798,12 +51798,12 @@ window.NUVIO_DATABASE = [
         "title": "Joel Coen",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/joel-coen/v2/joel-coen-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/joel-coen/joel-coen-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/joel-coen/v2/joel-coen-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3d6f5ca0fe914f3d3b73f9cb.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7f62a2068e2229abb26e14b7.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e5d073f405fd596f1bef47a0.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/joel-coen/joel-coen-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c4617a2ece9f61ef826b16f0.jpg",
         "sources": [
           {
             "title": "Joel Coen (Le meilleur de)",
@@ -51874,12 +51874,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/john-carpenter/v2/john-carpenter-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/john-carpenter/john-carpenter-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/john-carpenter/v2/john-carpenter-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0aa2e8f993b4927eb0364711.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1f97cb7ea662829591f7294c.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ee235d75783032294a3e2dce.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/john-carpenter/john-carpenter-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e4fa3a8c46e2a8d97c3de0fa.jpg"
       },
       {
         "id": "folder-FAAF485C",
@@ -51918,12 +51918,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/john-hughes/john-hughes-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/john-hughes/v2/john-hughes-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4cafabf3a568ff9fc7d36611.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4d43174d1cd9bede9dcf428c.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/john-hughes/john-hughes-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/john-hughes/v2/john-hughes-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6c86404e5d168519471dc5ea.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/35c23d07413f06856e51b1ba.gif",
         "focusGlowEnabled": true
       },
       {
@@ -51963,12 +51963,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/jonathan-demme/jonathan-demme-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/jonathan-demme/v2/jonathan-demme-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bfce37178dba689c1e0f6d50.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6c66f75c16185a6c1df9c271.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/jonathan-demme/jonathan-demme-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/jonathan-demme/v2/jonathan-demme-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b409f5c9e844b60801367632.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/01f53f48da9bc2eb13fef08a.gif",
         "focusGlowEnabled": true
       },
       {
@@ -51976,12 +51976,12 @@ window.NUVIO_DATABASE = [
         "title": "Jordan Peele",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/jordan-peele/v2/jordan-peele-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/jordan-peele/jordan-peele-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/jordan-peele/v2/jordan-peele-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4e30112c77de22dd6d451037.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/07d272d586c0c247ab634352.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/27583fb9ff39501f2c12c4d0.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/jordan-peele/jordan-peele-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/296fa1e88373387689dd6adf.jpg",
         "sources": [
           {
             "title": "Jordan Peele (Le meilleur de)",
@@ -52020,12 +52020,12 @@ window.NUVIO_DATABASE = [
         "title": "Kathryn Bigelow",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/kathryn-bigelow/v2/kathryn-bigelow-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/kathryn-bigelow/kathryn-bigelow-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/kathryn-bigelow/v2/kathryn-bigelow-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ee3dbdc6e64e735bea94c838.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d711499992072728359026f6.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/04e093afba0f356fd3dc8695.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/kathryn-bigelow/kathryn-bigelow-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5cf9fa2bd69fefe29788d091.jpg",
         "sources": [
           {
             "title": "Kathryn Bigelow (Le meilleur de)",
@@ -52096,12 +52096,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/luc-besson/luc-besson-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/luc-besson/v2/luc-besson-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/250a4e85220f4e4d2bd86ba9.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c73a20034a43f7893c75f1b4.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/luc-besson/luc-besson-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/luc-besson/v2/luc-besson-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/799b739811b12eb412d8c076.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4384d4f42bfcc391fdf5bd15.gif",
         "focusGlowEnabled": true
       },
       {
@@ -52141,12 +52141,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/martin-mcdonagh/martin-mcdonagh-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/martin-mcdonagh/v2/martin-mcdonagh-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0a0d4c82cf07c2e36ac257cb.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7b695a624f0d1618e97a092f.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/martin-mcdonagh/martin-mcdonagh-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/martin-mcdonagh/v2/martin-mcdonagh-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/eb43be837244cc4df6364236.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bae3b81b55aeabaaa09cde9d.gif",
         "focusGlowEnabled": true
       },
       {
@@ -52186,24 +52186,24 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/martin-scorsese/v2/martin-scorsese-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/martin-scorsese/martin-scorsese-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/martin-scorsese/v2/martin-scorsese-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/56e2ada99b88908e26a1d865.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f77c4bd5834848db4096cccf.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/cf4206e8e88de65b6df32243.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/martin-scorsese/martin-scorsese-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/700ba214a49efe0fe792e362.jpg"
       },
       {
         "id": "folder-1VPO8OYE",
         "title": "Mel Brooks",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/mel-brooks/v2/mel-brooks-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/mel-brooks/mel-brooks-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/mel-brooks/v2/mel-brooks-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fc782d5e6e3fd687d6ff2879.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/68a432cabcbb8e9b326a4bb8.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4d550c9298185e02885b202e.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/mel-brooks/mel-brooks-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d681bbd6df9a444bc2d3c199.jpg",
         "sources": [
           {
             "title": "Mel Brooks (Le meilleur de)",
@@ -52242,12 +52242,12 @@ window.NUVIO_DATABASE = [
         "title": "Michael Mann",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/michael-mann/v2/michael-mann-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/michael-mann/michael-mann-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/michael-mann/v2/michael-mann-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7b8c420981db1637d5764b5d.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8c2b8431479a442f55c9c5a7.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d5ede997840bf5b4f8698546.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/michael-mann/michael-mann-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b46bdadc756b69d1676e5239.jpg",
         "sources": [
           {
             "title": "Michael Mann (Le meilleur de)",
@@ -52286,12 +52286,12 @@ window.NUVIO_DATABASE = [
         "title": "Mike Flanagan",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/mike-flanagan/v2/mike-flanagan-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/mike-flanagan/mike-flanagan-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/mike-flanagan/v2/mike-flanagan-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d4c8e4fd4a9664d456ff8c83.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8351f2d67bcbf66bc0a0eb1e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2b4fa782e7329cf4b17173c7.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/mike-flanagan/mike-flanagan-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ef19b0e4cf1e0c283ad2c73d.jpg",
         "sources": [
           {
             "title": "Mike Flanagan (Le meilleur de)",
@@ -52362,11 +52362,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/oliver-stone/v2/oliver-stone-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/oliver-stone/v2/oliver-stone-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/oliver-stone/oliver-stone-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7d5942b4329ee82f1958f08d.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c9db7ad323312dcd7ec80fbc.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bfe7c463b17c635c15eee1e4.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/oliver-stone/oliver-stone-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d29e49022674ed41723789de.png"
       },
       {
         "id": "folder-DYBV6L81",
@@ -52405,11 +52405,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/park-chan-wook/v2/park-chan-wook-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/park-chan-wook/v2/park-chan-wook-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/park-chan-wook/park-chan-wook-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/38a39b1d12a859f6df64df56.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f3a9d7d72ad2a08ec987264a.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/69265ce4d6ab58af1a0d98ca.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/park-chan-wook/park-chan-wook-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b5ec709a2410583827c29340.png"
       },
       {
         "id": "folder-3YVWC7AA",
@@ -52448,12 +52448,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/paul-thomas-anderson/v2/paul-thomas-anderson-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/paul-thomas-anderson/paul-thomas-anderson-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/paul-thomas-anderson/v2/paul-thomas-anderson-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/18be158261dcc76d5860f77d.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a981bd8f812fc2652fe6651d.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/aeb3edf272529b0848635470.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/paul-thomas-anderson/paul-thomas-anderson-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e7bdb44d2c3f64a6314df2f5.jpg"
       },
       {
         "id": "folder-B0322692",
@@ -52492,12 +52492,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/paul-verhoeven/paul-verhoeven-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/paul-verhoeven/v2/paul-verhoeven-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/de961a225ce0da7b5bff5700.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7f24058c692350b67fdc2ae7.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/paul-verhoeven/paul-verhoeven-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/paul-verhoeven/v2/paul-verhoeven-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a677b6133ff9b8eaccfde263.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fcc4ed7a3fbfc711c4e66fdf.gif",
         "focusGlowEnabled": true
       },
       {
@@ -52537,11 +52537,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/pedro-almodovar/v2/pedro-almodovar-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/pedro-almodovar/v2/pedro-almodovar-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/pedro-almodovar/pedro-almodovar-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1f378d61a23e2dc6ef4850bf.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9711ee42e03c42c796403726.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/69141bfd3a7a8110d55fa199.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/pedro-almodovar/pedro-almodovar-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fb87a43b5c38b50a17047608.png"
       },
       {
         "id": "folder-VUV0NGE4",
@@ -52580,12 +52580,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/peter-jackson/v2/peter-jackson-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/peter-jackson/peter-jackson-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/peter-jackson/v2/peter-jackson-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/61f32dfa675f1c990c08af59.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/79d16b5b3f27a24273c61187.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1ca5d267e35654f20e4b1663.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/peter-jackson/peter-jackson-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d3565b67dd9abf6ca0175e1c.jpg"
       },
       {
         "id": "folder-KGVNOYUN",
@@ -52624,12 +52624,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/quentin-tarantino/v2/quentin-tarantino-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/quentin-tarantino/quentin-tarantino-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/quentin-tarantino/v2/quentin-tarantino-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f49b3259d3bfd1d6f27e7a21.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/574b4c1699d0cf907ec23851.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1ef5c94f209b02dfdab841d7.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/quentin-tarantino/quentin-tarantino-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7aef1d5d54af12038815cc1d.jpg"
       },
       {
         "id": "folder-Y82E1SHR",
@@ -52668,11 +52668,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/richard-linklater/v2/richard-linklater-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/richard-linklater/v2/richard-linklater-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/richard-linklater/richard-linklater-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/95b972d3526f6497bc451ea9.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c722a020d546a14dfab49bb9.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/893fc327ef02012a1f8afc31.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/richard-linklater/richard-linklater-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b211fe632abce80998601f73.png"
       },
       {
         "id": "folder-2MVP44YL",
@@ -52711,12 +52711,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/ridley-scott/v2/ridley-scott-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/ridley-scott/ridley-scott-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/ridley-scott/v2/ridley-scott-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c3a93f9edc70b3f38e67e9b7.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/05710c7e1c0454e719f214cd.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3c14015fae94f529e81ca186.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/ridley-scott/ridley-scott-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/23eff37b600155475f496dcc.jpg"
       },
       {
         "id": "folder-HT9FI8PA",
@@ -52755,23 +52755,23 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/rob-reiner/v2/rob-reiner-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/rob-reiner/v2/rob-reiner-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/rob-reiner/rob-reiner-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1a7a23e83fae3974bfa3f6e7.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/db9d1d8ef9c8712a3e058131.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/97279fc66eb0fd92207284fd.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/rob-reiner/rob-reiner-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fbb476c7407cd0a4f53299ff.png"
       },
       {
         "id": "folder-S72PK4W0",
         "title": "Robert Eggers",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/robert-eggers/v2/robert-eggers-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/robert-eggers/robert-eggers-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/robert-eggers/v2/robert-eggers-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0b0552873c619189ba1212c0.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3a643a788c296381b19b7905.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b1996ac3a1f19e390e8b1e69.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/robert-eggers/robert-eggers-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c3e7d742e4cc3085705a446a.jpg",
         "sources": [
           {
             "title": "Robert Eggers (Le meilleur de)",
@@ -52810,12 +52810,12 @@ window.NUVIO_DATABASE = [
         "title": "Robert Zemeckis",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/robert-zemeckis/v2/robert-zemeckis-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/robert-zemeckis/robert-zemeckis-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/robert-zemeckis/v2/robert-zemeckis-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a7430dc866718ac588fb4fd4.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/96c73874fd60208853576aef.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/599e669a7f5e35f7fb71549b.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/robert-zemeckis/robert-zemeckis-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f197892f8b3fecdb4f5b4bd2.jpg",
         "sources": [
           {
             "title": "Robert Zemeckis (Le meilleur de)",
@@ -52854,12 +52854,12 @@ window.NUVIO_DATABASE = [
         "title": "Roland Emmerich",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/roland-emmerich/v2/roland-emmerich-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/roland-emmerich/roland-emmerich-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/roland-emmerich/v2/roland-emmerich-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/05221777e0f6d9dc801b69bf.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/31ece12c5f3f5cd6d33a7bf5.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/227ef23a51e7667885f7477d.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/roland-emmerich/roland-emmerich-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6eefad07c72b96b21b60907c.jpg",
         "sources": [
           {
             "title": "Roland Emmerich (Le meilleur de)",
@@ -52930,12 +52930,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/ron-howard/ron-howard-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/ron-howard/v2/ron-howard-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d80dc7b7abe72e72988c7585.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d204e81c43e0cfc85daf4512.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/ron-howard/ron-howard-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/ron-howard/v2/ron-howard-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/87d69b1c88044e9c48f6ea2e.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e0be66d0475b778e8eceef55.gif",
         "focusGlowEnabled": true
       },
       {
@@ -52943,12 +52943,12 @@ window.NUVIO_DATABASE = [
         "title": "Ryan Coogler",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/ryan-coogler/v2/ryan-coogler-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/ryan-coogler/ryan-coogler-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/ryan-coogler/v2/ryan-coogler-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/834d95bfa6033ab8da895137.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e3c7af8a109225f71b25c595.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/784964b13b5e91bf9438ab58.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/ryan-coogler/ryan-coogler-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/59c00b796082efb137f7bc10.jpg",
         "sources": [
           {
             "title": "Ryan Coogler (Le meilleur de)",
@@ -52987,12 +52987,12 @@ window.NUVIO_DATABASE = [
         "title": "Sam Esmail",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/sam-esmail/v2/sam-esmail-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/sam-esmail/sam-esmail-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/sam-esmail/v2/sam-esmail-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/39a73c6f8a6e099bde2e56ad.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fde3717e1e2dbeee4e2d2a0d.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b6234a627041fefe93d8f488.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/sam-esmail/sam-esmail-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/dc5d11f969ad8f27eb33baba.jpg",
         "sources": [
           {
             "title": "Sam Esmail (Le meilleur de)",
@@ -53063,23 +53063,23 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/sam-mendes/v2/sam-mendes-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/sam-mendes/v2/sam-mendes-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/sam-mendes/sam-mendes-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ec7e721c54bfc9394b73fd71.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5a72cc162f71687b3bdf344a.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d5990951a4b49a23797f95e0.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/sam-mendes/sam-mendes-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/86e11cdecc99374bf1c17a54.png"
       },
       {
         "id": "folder-SV2DU8QN",
         "title": "Sam Raimi",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/sam-raimi/v2/sam-raimi-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/sam-raimi/sam-raimi-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/sam-raimi/v2/sam-raimi-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8c091b00ae7d105492ed045d.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ff2fd50155a547601519a38b.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a759f20fe29d6e13780edc13.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/sam-raimi/sam-raimi-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0515d26cad089d934380bf3b.jpg",
         "sources": [
           {
             "title": "Sam Raimi (Le meilleur de)",
@@ -53150,12 +53150,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/satoshi-kon/satoshi-kon-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/satoshi-kon/v2/satoshi-kon-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/32e85e1a115bf8d53de1d6c1.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/afe07f67051adbd00fe03aed.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/satoshi-kon/satoshi-kon-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/satoshi-kon/v2/satoshi-kon-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/db89cfc50e5bf9fdd25ccaa0.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d5d1dd3cd2aba9e6f0492646.gif",
         "focusGlowEnabled": true
       },
       {
@@ -53195,11 +53195,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/sergio-leone/v2/sergio-leone-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/sergio-leone/v2/sergio-leone-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/sergio-leone/sergio-leone-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/37b0e69c35e6e1a6154defee.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1c32c35eab5bc4b482c6133e.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2fb99c04ca43c4383397ceff.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/sergio-leone/sergio-leone-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/31f894df1b21924ae0455dcf.png"
       },
       {
         "id": "folder-C0AAB442",
@@ -53238,12 +53238,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/sidney-lumet/sidney-lumet-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/sidney-lumet/v2/sidney-lumet-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0a3c17e56ddde389558276d5.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/89806869e6a4ae0aeae94de4.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/sidney-lumet/sidney-lumet-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/sidney-lumet/v2/sidney-lumet-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5bbac3a1a98e6ad7776b9db5.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/23057df09152b155f619bafc.gif",
         "focusGlowEnabled": true
       },
       {
@@ -53283,12 +53283,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/spike-jonze/spike-jonze-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/spike-jonze/v2/spike-jonze-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8bf134a6eab3cfb9fc0d6178.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/da24263ba596b9c4eaac7c28.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/spike-jonze/spike-jonze-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/spike-jonze/v2/spike-jonze-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/54689e083d623e57b5327d68.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6af6c7f6b76fcc007e23d0c5.gif",
         "focusGlowEnabled": true
       },
       {
@@ -53328,12 +53328,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/spike-lee/v2/spike-lee-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/spike-lee/spike-lee-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/spike-lee/v2/spike-lee-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/032bac4624ea3283147f0d58.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b785829300fc2c3cf0454cf3.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/28ef693eb2ceb8d65829eaf3.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/spike-lee/spike-lee-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4d0df26a7b4d3747e28a748a.jpg"
       },
       {
         "id": "folder-VQDLSF2L",
@@ -53372,12 +53372,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/stanley-kubrick/v2/stanley-kubrick-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/stanley-kubrick/stanley-kubrick-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/stanley-kubrick/v2/stanley-kubrick-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3ca7f14f3cdfb09fa90cbf5b.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6d74279ecdab5e60d0bc211d.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f9a23057fef4a9a4803289c7.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/stanley-kubrick/stanley-kubrick-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2e45bd6e210baabca3682b99.jpg"
       },
       {
         "id": "folder-WSTB29HB",
@@ -53416,11 +53416,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/steven-soderbergh/v2/steven-soderbergh-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/steven-soderbergh/v2/steven-soderbergh-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/steven-soderbergh/steven-soderbergh-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d702daac711cb703520f60e7.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f16953ad30fcd8e36ab7f957.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/86a6291c4af7eae25c57ca51.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/steven-soderbergh/steven-soderbergh-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9fb156f605db8ef19b58b9cb.png"
       },
       {
         "id": "folder-BBLOJJ1V",
@@ -53459,12 +53459,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/steven-spielberg/v2/steven-spielberg-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/steven-spielberg/steven-spielberg-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/steven-spielberg/v2/steven-spielberg-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d2e6f41989103e8fe9b61949.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/917212c09ecf97c1df36a382.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9aa178742b584e5d00a64e34.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/steven-spielberg/steven-spielberg-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/25725cc66e173d96d126552a.jpg"
       },
       {
         "id": "folder-29EC143B",
@@ -53503,12 +53503,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/taika-waititi/taika-waititi-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/taika-waititi/v2/taika-waititi-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/48699ee88868175808ebb995.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d023ceedad8b163a0a117b45.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/taika-waititi/taika-waititi-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/taika-waititi/v2/taika-waititi-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/69aadd3ee91323180824cbff.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2aa1c387c9b4b9debf04aac2.gif",
         "focusGlowEnabled": true
       },
       {
@@ -53548,12 +53548,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/terry-gilliam/terry-gilliam-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/terry-gilliam/v2/terry-gilliam-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/90618356731c87b7299cfa78.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5383921d7d63991312313ed0.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/terry-gilliam/terry-gilliam-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/terry-gilliam/v2/terry-gilliam-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a7836556d9ba3ff5c319369a.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0c9fd9eaab72f6f8afe415b5.gif",
         "focusGlowEnabled": true
       },
       {
@@ -53593,12 +53593,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/the-wachowskis/the-wachowskis-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/the-wachowskis/v2/the-wachowskis-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8ded5dffffff1d1d8adc0ce6.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4249b3f94376d0a5c910af72.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/the-wachowskis/the-wachowskis-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/the-wachowskis/v2/the-wachowskis-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4830c38dc22827a1091942c8.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1ca7f43e325211d0f0088151.gif",
         "focusGlowEnabled": true
       },
       {
@@ -53606,12 +53606,12 @@ window.NUVIO_DATABASE = [
         "title": "Tim Burton",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/tim-burton/v2/tim-burton-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/tim-burton/tim-burton-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/tim-burton/v2/tim-burton-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/af9b50a59b03042aecef59b2.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/46ba9feffa97fc199f7c747e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/cfa391aef8896eea1cb3ac41.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/tim-burton/tim-burton-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d65e861bf43bf4bfee12864c.jpg",
         "sources": [
           {
             "title": "Tim Burton (Le meilleur de)",
@@ -53682,11 +53682,11 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/todd-phillips/v2/todd-phillips-cover.png",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/todd-phillips/v2/todd-phillips-hover.gif",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/todd-phillips/todd-phillips-backdrop.jpg",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/171757319abcb7aae48a611a.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/27bab6a9f849a098a4faa5a7.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7e778747cce311a6151e41af.jpg",
         "focusGifEnabled": true,
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/todd-phillips/todd-phillips-logo.png"
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1799c8322d930ca9ce7f972c.png"
       },
       {
         "id": "folder-3767634B",
@@ -53725,12 +53725,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/tony-scott/tony-scott-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/tony-scott/v2/tony-scott-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7adfd5fb89f6c372d03598ab.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0f64e185e6b5f97de8ece2ab.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/tony-scott/tony-scott-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/tony-scott/v2/tony-scott-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/cbb8221d2cc1b657cd8a9fcc.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/61bd257defb28fab22f5da3a.gif",
         "focusGlowEnabled": true
       },
       {
@@ -53738,12 +53738,12 @@ window.NUVIO_DATABASE = [
         "title": "Vince Gilligan",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/vince-gilligan/v2/vince-gilligan-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/vince-gilligan/vince-gilligan-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/vince-gilligan/v2/vince-gilligan-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/aef2758d7af7de35ce9de882.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5e059d44508264e05d908a3e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/43f93784df91d98f2d9689cb.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/vince-gilligan/vince-gilligan-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8ef668a25e606e458492c0cd.jpg",
         "sources": [
           {
             "title": "Vince Gilligan (Le meilleur de)",
@@ -53814,24 +53814,24 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/wes-anderson/v2/wes-anderson-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/wes-anderson/wes-anderson-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/wes-anderson/v2/wes-anderson-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/25e3f9737bd3665f42209807.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f3f29322e8aa56bcc1ac5266.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bae0d7fe87f159cef28b767a.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/wes-anderson/wes-anderson-backdrop.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f980f060b0e4a1e51947c11e.jpg"
       },
       {
         "id": "folder-3ARDD5TS",
         "title": "Wes Craven",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/wes-craven/v2/wes-craven-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/wes-craven/wes-craven-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/wes-craven/v2/wes-craven-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c1843df99351971ac19cd48a.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f168badb057a9addba22b20e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e364a73f69e50fd293fe2111.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/wes-craven/wes-craven-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/eb36957c7cdfdc0244e2892f.jpg",
         "sources": [
           {
             "title": "Wes Craven (Le meilleur de)",
@@ -53902,12 +53902,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/wong-kar-wai/wong-kar-wai-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/wong-kar-wai/v2/wong-kar-wai-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9652afeb0f2c27c1701a5c59.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/877b0f529c18a774075829d9.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/wong-kar-wai/wong-kar-wai-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/wong-kar-wai/v2/wong-kar-wai-hover.gif",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b9981f7223fbf0960ec59371.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8af5a1c2054f8d1910c90045.gif",
         "focusGlowEnabled": true
       },
       {
@@ -53915,12 +53915,12 @@ window.NUVIO_DATABASE = [
         "title": "Yorgos Lanthimos",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/yorgos-lanthimos/v2/yorgos-lanthimos-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/yorgos-lanthimos/yorgos-lanthimos-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/yorgos-lanthimos/v2/yorgos-lanthimos-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/33d3fe57b7d4fd7240544f00.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d4a334e3b6347770c849d664.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0c8acf2a03d956cb0036b6f6.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/yorgos-lanthimos/yorgos-lanthimos-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/74a7e8cf8d80a513356042ed.jpg",
         "sources": [
           {
             "title": "Yorgos Lanthimos (Le meilleur de)",
@@ -53959,12 +53959,12 @@ window.NUVIO_DATABASE = [
         "title": "Zack Snyder",
         "hideTitle": true,
         "tileShape": "POSTER",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/zack-snyder/v2/zack-snyder-hover.gif",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/zack-snyder/zack-snyder-logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/zack-snyder/v2/zack-snyder-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b77be2e4d6af6b4dc418307a.gif",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/85161697ef0722dad69c50ca.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5ab29ef2774934d615b7c75d.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/directors/zack-snyder/zack-snyder-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2284cdf4021d920b3085f5b9.jpg",
         "sources": [
           {
             "title": "Zack Snyder (Le meilleur de)",
@@ -54061,11 +54061,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "titleLogoUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/127928-20th-century-studios/logos/white/127928_white_1.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/a113a652.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/cf142ba3239cea92eb5e211e.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/079f80b283371b4fe0cdaf30.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/127928-20th-century-studios/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9a283098b04bcce4e22499ae.jpg"
       },
       {
         "id": "folder-4ZV8HZGY",
@@ -54166,11 +54166,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "titleLogoUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/41077-a24/logos/color/41077_color_1.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/59095acb.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a7e5d931dd22f769f73acea1.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/cd7daa6df8691a2e306c6441.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/41077-a24/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/07662ec124d841434131b868.jpg"
       },
       {
         "id": "folder-BNC84SJ4",
@@ -54271,11 +54271,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "titleLogoUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/3172-blumhouse-productions/logos/white/3172_white_1.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f85766ed.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0b2147f88b3642d4b8417b07.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/ebf6cc783bb7740230a14d31.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/3172-blumhouse-productions/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f0ba5f09e747102c8bc98d9d.jpg"
       },
       {
         "id": "folder-J66S9Y7E",
@@ -54376,11 +54376,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "titleLogoUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/429-dc/logos/color/429_color_1.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/eb3ea02f.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4fbefbe3e6069072aa780335.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/217d20998b7367754647fb6d.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/429-dc/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f306e1f64c3050a2b49385af.jpg"
       },
       {
         "id": "folder-9ZZK6A6C",
@@ -54481,11 +54481,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "titleLogoUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/7-dreamworks-pictures/logos/white/7_white_1.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/studios/dreamworks-pictures/dreamworks-pictures-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/046ddf58f59ac787f6167336.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/646487dc360a665a0302f916.png",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/7-dreamworks-pictures/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b4c74b94dc659ad99bcaa0f3.jpg"
       },
       {
         "id": "folder-10146STUDIO",
@@ -54586,11 +54586,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/companies/10146-focus-features/logos/color/10146_color_1.png",
-        "coverImageUrl": "https://cdn2.nbcuni.com/NBCUniversal/styles/newsroom_stories_16_9_image_style/s3/2026-03/Untitled%20design%20%2810%29.jpg?VersionId=WLTG9zL_wpyJ62As0LwNmdNG4oF5JPAu&h=d1cb525d&itok=0JSMP23S",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/39b78cc4a621b2e221ecf823.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/cdn2.nbcuni.com/ab5feb4f5708015af5f7edb5.jpg",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/companies/10146-focus-features/backdrops/t2_flat_1080p.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4c6950943897da202317f78a.jpg",
         "focusGifUrl": ""
       },
       {
@@ -54646,11 +54646,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "titleLogoUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/6704-illumination/logos/white/6704_white_1.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/07b05be8.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ce9316d3025a210f365f74c4.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/b872f821cd301d5e29efb043.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/6704-illumination/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1883152e2d388b842e870757.jpg"
       },
       {
         "id": "folder-HIU1YFQA",
@@ -54705,11 +54705,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/1a3665ce.webp",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f878e71e.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/19439f915270d77d3c44b100.webp",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/0c939a8a644cb8ed17e5e9b3.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/1632-lionsgate/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c86c2427b2fb7ecb8b0294cf.jpg"
       },
       {
         "id": "folder-ZVTA71KC",
@@ -54810,11 +54810,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/61c42f64.webp",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/ff1124ea.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/530e50adddd169381fc895b3.webp",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/b764ab423297eccfe6d7787d.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/1-lucasfilm-ltd/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/39836fc945d8d9cff07e7a6a.jpg"
       },
       {
         "id": "folder-CYHIQOKR",
@@ -54915,11 +54915,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "titleLogoUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/420-marvel-studios/logos/color/420_color_1.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/67a54fdf.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4ea3c367432c60c8ab9e7814.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/4c91f2399310528b6f8b206c.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/420-marvel-studios/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4eaf6f5d1082d2583600e4f9.jpg"
       },
       {
         "id": "folder-V0MRWXHJ",
@@ -55020,11 +55020,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "titleLogoUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/21-metro-goldwyn-mayer/logos/color/21_color_1.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/434d7008.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fe819433d42ae860567e0d8b.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/e588d8ec3d014f6b4d22c16b.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/21-metro-goldwyn-mayer/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2b06d2399b78c408a9add197.jpg"
       },
       {
         "id": "folder-5VIHLY7Y",
@@ -55125,11 +55125,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/8b14f5c3.webp",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/new-line-cinema/new-line-cinema-cover.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/042997d94288dc26e2df43d4.webp",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b5b639a31aa1e1e7f97ee678.png",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/new-line-cinema/new-line-cinema-cover.png"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b5b639a31aa1e1e7f97ee678.png"
       },
       {
         "id": "folder-A59XSVAT",
@@ -55230,11 +55230,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/5b28dc9b.webp",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f0b7cba7.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/e72d06d2ce97ed30c2ac0156.webp",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/778cbe04c26b4e50ae63924a.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/4-paramount-pictures/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/cc7b22df0840219e94bdd007.jpg"
       },
       {
         "id": "folder-2XGVUWET",
@@ -55335,11 +55335,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/5467bf25.webp",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/01ca52c7.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/85cf25fbbc822318879f69a4.webp",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/643f628428b27e89ea02f04c.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/3-pixar/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2bdaaf89024562dc16057301.jpg"
       },
       {
         "id": "folder-127929STUDIO",
@@ -55394,11 +55394,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/companies/127929-searchlight-pictures/logos/color/127929_color_1.png",
-        "coverImageUrl": "https://static.wikitide.net/avidwiki/thumb/f/f8/Searchlight_Pictures_logo.png/1067px-Searchlight_Pictures_logo.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c6815dc72e2388606832a6e9.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/static.wikitide.net/f19cbc48c43c2e6b9006850a.png",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/companies/127929-searchlight-pictures/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a2096d2402ed3399e5d48715.jpg"
       },
       {
         "id": "folder-34STUDIO",
@@ -55453,11 +55453,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/companies/34-sony-pictures/logos/white/34_white_1.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/refs/heads/main/collections/companies/34-sony-pictures/cards/dual_2d1d2d_231a3a_0e0914_0.3_0.5_0.7_0.5/card_34_color_1.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f036ba25d7567e2e188296a5.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d1d2e8537ebd666b53dafadd.png",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/companies/34-sony-pictures/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/564de2a66774b156a28d9eca.jpg"
       },
       {
         "id": "folder-KIRXHA4A",
@@ -55508,11 +55508,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "titleLogoUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/10342-studio-ghibli/logos/color/10342_color_1.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/5072d59e.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/65b0879fc84dcee68ef75d6d.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/7916a7ae35a8ca3a03e48a1d.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/10342-studio-ghibli/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/664579504fa5239da6aaaeee.jpg"
       },
       {
         "id": "folder-IAL16XW3",
@@ -55613,11 +55613,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "titleLogoUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/33-universal-pictures/logos/color/33_color_1.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/50e0231c.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/084d16d877f57fa81f411538.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/0ab03f71f81b9161eb84ba74.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/33-universal-pictures/backdrops/t2_flat_1080p.jpg"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/88837dcf3dbea05f4ce85900.jpg"
       },
       {
         "id": "folder-4OZG50Y4",
@@ -55718,11 +55718,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "titleLogoUrl": "https://media.themoviedb.org/t/p/h100_filter(negate,000,666)/8bH86UPmMP8hlITzXV3XgV9eaAc.png",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/399ea613.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/media.themoviedb.org/3d780fe4d6a4157f6751e86b.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/3e26f6e85023be5f147ee18b.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/c0f5a6ef.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/96e018cc3f9a4f3646fd7008.webp"
       },
       {
         "id": "folder-2KA1KP6V",
@@ -55777,11 +55777,11 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/0fef5ba4.webp",
-        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/532da5e0.webp",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/6b0da3d45b772e3251643036.webp",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/e5117608a8270a0c0a00ad5c.webp",
         "catalogSources": [],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/91b18b9b.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/82e8721f0eea4fe3030b26ad.webp"
       }
     ],
     "pinToTop": true,
@@ -56058,12 +56058,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/2020s-movies/v2/2020s-movies-hover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Misc/2020s%20Movies/2020s%20Movies_Logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/2020s-movies/v2/2020s-movies-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/60914e5f055462cef7b90391.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e5e70f088a4b0f61078c87b0.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a2948048301330a4e871b885.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/5380d085.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/01e9e810f65ab7824462b9e7.webp"
       },
       {
         "id": "folder-RTDIH0YV",
@@ -56330,12 +56330,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/10s-movies/v2/10s-movies-hover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Misc/10s%20Movies/10s%20Movies_Logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/10s-movies/v2/10s-movies-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e8e7107edd735d235db1e4f2.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bf01264f527cd32d2dfd5c4f.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/cc57580747f15970d8144397.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/b9998ca6.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/b85fe968d1c7d158e4173fe2.webp"
       },
       {
         "id": "folder-NEK4LQ1T",
@@ -56602,12 +56602,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/00s-movies/v2/00s-movies-hover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Misc/00s%20Movies/00s%20Movies_Logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/00s-movies/v2/00s-movies-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ad450462e39dc43d2a912990.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0921210c3f6355f8ca9ab8fd.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/05b13eb72e89983b05d298bc.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/5284176b.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/848887df02566a98d2dd34d7.webp"
       },
       {
         "id": "folder-VMYWM6ZK",
@@ -56874,12 +56874,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/90s-movies/v2/90s-movies-hover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Misc/90s%20Movies/90s%20Movies_Logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/90s-movies/v2/90s-movies-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/051ed822bacc5fcdd1a35604.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/34e248fa236f87ac08c3484d.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d547dd874b5ce2516dd3ba9c.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/716e420c.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/0f275022ff56c5a8c21d26e1.webp"
       },
       {
         "id": "folder-8CFPI44Q",
@@ -57146,12 +57146,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/80s-movies/v2/80s-movies-hover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Misc/80s%20Movies/80s%20Movies_Logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/80s-movies/v2/80s-movies-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/cb2cf62859d97f826c90b79c.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ae029afb4b2802ad97f8a7aa.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d57fffd0c21c762080e75286.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/5a84d318.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/b3217a65d44512219fb2bcbd.webp"
       },
       {
         "id": "folder-FXPDJY5T",
@@ -57418,12 +57418,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/70s-movies/v2/70s-movies-hover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Misc/70s%20Movies/70s%20Movies_Logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/70s-movies/v2/70s-movies-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/252cd7f7b5091e6619a61270.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6002dce3ecd230d0c912c7a8.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3f95100c1df8f69c61510b3e.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/afa4019c.webp"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/75bd33aa794dadb22f8edafd.webp"
       },
       {
         "id": "folder-NEW60SMO",
@@ -57690,12 +57690,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/60s-movies/v2/60s-movies-hover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Misc/60s%20Movies/60s%20Movies_Logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/60s-movies/v2/60s-movies-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1423bcbf4aa5a3322e09e671.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0eeffb79af0195e6687260dd.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ea67ed8babd7793acff1d3a1.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/decades/backdrop/1960s.jpg?raw=true"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/154c767face4cf73e1cf5368.jpg"
       },
       {
         "id": "folder-NEW50SMO",
@@ -57962,12 +57962,12 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/50s-movies/v2/50s-movies-hover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Misc/50s%20Movies/50s%20Movies_Logo.png",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/50s-movies/v2/50s-movies-cover.png",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a585c1bc1ac6b38a7817bfa1.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/99c34c1dda4a1c82137e86c0.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d166b52679bc3b5412d93168.png",
         "catalogSources": [],
         "focusGifEnabled": true,
-        "heroBackdropUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/decades/backdrop/1950s.jpg?raw=true"
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/github.com/8dd962c54dfedabcd109ab58.jpg"
       }
     ],
     "pinToTop": true,
@@ -57984,10 +57984,10 @@ window.NUVIO_DATABASE = [
         "title": "Discover Anime",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/discover-anime/discover-anime-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/discover-anime/discover-anime-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/discover-anime/discover-anime-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/discover-anime/discover-anime-hover.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4c94ffe586e70522f252a278.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e1cc45ec00dc4372fb30c135.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/220848149f60b7ec81cfa518.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f755691bb5e0bb48a9613979.png",
         "focusGifEnabled": true,
         "sources": [
           {
@@ -58120,10 +58120,10 @@ window.NUVIO_DATABASE = [
         "title": "Shonen Et Action Anime",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/shonen-and-action-anime/shonen-and-action-anime-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/shonen-and-action-anime/shonen-and-action-anime-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/shonen-and-action-anime/shonen-and-action-anime-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/shonen-and-action-anime/shonen-and-action-anime-hover.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2fee67ea1c5545c0cb8dd875.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/13b7c436646e535cbeb2bfcb.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/545a16519244fdb7a047550a.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c71b84ef869412b3f470d1c6.png",
         "focusGifEnabled": true,
         "sources": [
           {
@@ -58260,10 +58260,10 @@ window.NUVIO_DATABASE = [
         "title": "Studio Spotlight",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/studio-spotlight/studio-spotlight-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/studio-spotlight/studio-spotlight-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/studio-spotlight/studio-spotlight-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/studio-spotlight/studio-spotlight-hover.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/51e5d90ba0e2002911f8dadb.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/50b8b5a52ec79daed68f8d9f.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/406a4353be96a67e7b97cb7b.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7f41d4ca2100c998156f8954.png",
         "focusGifEnabled": true,
         "sources": [
           {
@@ -58393,10 +58393,10 @@ window.NUVIO_DATABASE = [
         "title": "Isekai Et Fantasy Sagas",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/isekai-and-fantasy-sagas/isekai-and-fantasy-sagas-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/isekai-and-fantasy-sagas/isekai-and-fantasy-sagas-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/isekai-and-fantasy-sagas/isekai-and-fantasy-sagas-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/isekai-and-fantasy-sagas/isekai-and-fantasy-sagas-hover.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/86c585bf58cf648a35f8bae3.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/54e60c1bfca7c5bcf32cf56e.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/86fbd52b20beb50633416066.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/183841b35cf2a3ad8fc3a2d6.png",
         "focusGifEnabled": true,
         "sources": [
           {
@@ -58537,10 +58537,10 @@ window.NUVIO_DATABASE = [
         "title": "Slice of Life Et Romance",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/slice-of-life-and-romance/slice-of-life-and-romance-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/slice-of-life-and-romance/slice-of-life-and-romance-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/slice-of-life-and-romance/slice-of-life-and-romance-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/slice-of-life-and-romance/slice-of-life-and-romance-hover.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9e20ce1eecc57c0a713aa287.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ab0516b374dc217ad283f196.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/29d2dfe5def06d2ebd8387df.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b1fe40f2a5ee06772b89cc3b.png",
         "focusGifEnabled": true,
         "sources": [
           {
@@ -58683,10 +58683,10 @@ window.NUVIO_DATABASE = [
         "title": "Sports Et Competition Anime",
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/sports-and-competition-anime/sports-and-competition-anime-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/sports-and-competition-anime/sports-and-competition-anime-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/sports-and-competition-anime/sports-and-competition-anime-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/sports-and-competition-anime/sports-and-competition-anime-hover.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/177f8aec4137d7af34633a18.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5efac51dad681967cebfff5b.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f49ebfae1b71421af462049b.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2b811b198a3ddec7eefd5fb8.png",
         "focusGifEnabled": true,
         "sources": [
           {
@@ -59081,8 +59081,8 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/awards/academy-awards/academy-awards-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/awards/academy-awards/academy-awards-logo.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7fd0d4e23a0d38edc3517708.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/582f3cffa34ca5d5b0c2698b.png",
         "catalogSources": [],
         "focusGifEnabled": false
       },
@@ -59181,8 +59181,8 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/awards/festival-de-cannes/festival-de-cannes-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/awards/festival-de-cannes/festival-de-cannes-logo.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a18c220e12fa5462bea371e1.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7c51036766d162df05bf7617.png",
         "catalogSources": [],
         "focusGifEnabled": false
       },
@@ -59468,8 +59468,8 @@ window.NUVIO_DATABASE = [
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/awards/golden-globes/golden-globes-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/awards/golden-globes/golden-globes-logo.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f6bbee5ddcbe4e64477fd026.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/efcd5bd34315f2f427faf6aa.png",
         "catalogSources": [],
         "focusGifEnabled": false
       }
@@ -59487,8 +59487,8 @@ window.NUVIO_DATABASE = [
         "id": "folder-NNKGX3M1",
         "title": "French Cinéma",
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/french-cinema/french-cinema-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/french-cinema/french-cinema-logo.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3c96aff81da322e8372ab38a.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/946215d70df7a74f724f5519.png",
         "sources": [
           {
             "id": "src-DPCRD3B2",
@@ -59590,17 +59590,17 @@ window.NUVIO_DATABASE = [
             "name": "French Drama, Romance Et Comedy Hits"
           }
         ],
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/french-cinema/french-cinema-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/400c44eb3ec4b4345a8c279f.jpg",
         "hideTitle": true,
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/french-cinema/french-cinema-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d1e556c32fd73b61e1a05cf9.gif",
         "focusGifEnabled": true
       },
       {
         "id": "folder-BICUTNJY",
         "title": "British Cinéma",
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/british-cinema/british-cinema-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/british-cinema/british-cinema-logo.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5522b0d18dc365fd95b96e87.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f35206d53c2e84c2450efde7.png",
         "sources": [
           {
             "id": "src-J31XATNJ",
@@ -59702,19 +59702,19 @@ window.NUVIO_DATABASE = [
             "name": "British Drama, Romance Et Comedy Hits"
           }
         ],
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/british-cinema/british-cinema-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/18b80e05dd520c9beeea85c7.jpg",
         "hideTitle": true,
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/british-cinema/british-cinema-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4a73fd9c31684118b43e0a46.gif",
         "focusGifEnabled": true
       },
       {
         "id": "folder-DAKK95AS",
         "title": "US Cinéma",
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/latin-american-cinema/v2/latin-american-cinema-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/latin-american-cinema/v2/latin-american-cinema-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/latin-american-cinema/latin-american-cinema-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/latin-american-cinema/v2/latin-american-cinema-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/96613866586b6e3d7f5595c5.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7c110005d33fc4759ce23c2d.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b69cdb596160d0d6d900f697.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/205602ee160648713995d598.gif",
         "focusGifEnabled": true,
         "hideTitle": true,
         "sources": [
@@ -59823,8 +59823,8 @@ window.NUVIO_DATABASE = [
         "id": "folder-TRWE0E34",
         "title": "Australian Cinéma",
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/australian-cinema/australian-cinema-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/australian-cinema/australian-cinema-logo.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2ada0e31806b697ce6d8f0bc.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2bdc9d0cbf2117de6f408509.png",
         "sources": [
           {
             "id": "src-DFMIMYW2",
@@ -59926,19 +59926,19 @@ window.NUVIO_DATABASE = [
             "name": "Australian Drama, Romance Et Comedy Hits"
           }
         ],
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/australian-cinema/australian-cinema-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/212304086e73683ede116626.jpg",
         "hideTitle": true,
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/australian-cinema/australian-cinema-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6a5cd7b1becba188b1275f35.gif",
         "focusGifEnabled": true
       },
       {
         "id": "folder-2YV5HI8I",
         "title": "Belgian Cinéma",
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/belgian-cinema/belgian-cinema-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/belgian-cinema/belgian-cinema-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/belgian-cinema/belgian-cinema-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/belgian-cinema/belgian-cinema-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/32cdfef3d70dbe087a782cf8.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bb9269b76ad8596528284a6e.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2b827e872cfd27a053684cf4.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/991f853103751aa351145e76.gif",
         "focusGifEnabled": true,
         "hideTitle": true,
         "sources": [
@@ -60047,10 +60047,10 @@ window.NUVIO_DATABASE = [
         "id": "folder-WCOQJ028",
         "title": "Canadian Cinéma",
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/canadian-cinema/canadian-cinema-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/canadian-cinema/canadian-cinema-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/canadian-cinema/canadian-cinema-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/canadian-cinema/canadian-cinema-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/34cbe5cf72fad2937de9a60f.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bffcaa4f377841adc333a95f.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/29e24da5069e4ae03d0bc8d7.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bbcd5bb57b59eb3e8c595683.gif",
         "focusGifEnabled": true,
         "hideTitle": true,
         "sources": [
@@ -60159,8 +60159,8 @@ window.NUVIO_DATABASE = [
         "id": "folder-LHFRZV64",
         "title": "Chinese Cinéma",
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/chinese-cinema/chinese-cinema-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/chinese-cinema/chinese-cinema-logo.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/94d0749d6400844db5820184.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f8f46de13da1e6ce155c99b2.png",
         "sources": [
           {
             "id": "src-OZ658EK0",
@@ -60262,17 +60262,17 @@ window.NUVIO_DATABASE = [
             "name": "Chinese Drama, Romance Et Comedy Hits"
           }
         ],
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/chinese-cinema/chinese-cinema-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/73a3e284f6ef96d84bd8801e.jpg",
         "hideTitle": true,
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/chinese-cinema/chinese-cinema-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/92a63530bd06cbb9fad2437f.gif",
         "focusGifEnabled": true
       },
       {
         "id": "folder-XJ6HNL6G",
         "title": "Danish Cinéma",
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/danish-cinema/danish-cinema-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/danish-cinema/danish-cinema-logo.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e4091e87b05b29634f577c1d.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8ec780d7e0320f822f30820d.png",
         "sources": [
           {
             "id": "src-J4727QXF",
@@ -60374,19 +60374,19 @@ window.NUVIO_DATABASE = [
             "name": "Danish Drama, Romance Et Comedy Hits"
           }
         ],
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/danish-cinema/danish-cinema-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b9df8c3f44a717a7780a6362.jpg",
         "hideTitle": true,
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/danish-cinema/danish-cinema-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/9e3f047603c4e87bebf984ee.gif",
         "focusGifEnabled": true
       },
       {
         "id": "folder-V9HNQAV1",
         "title": "Dutch Cinéma",
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/dutch-cinema/dutch-cinema-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/dutch-cinema/dutch-cinema-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/dutch-cinema/dutch-cinema-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/dutch-cinema/dutch-cinema-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e039e81f630e9f3317598e2e.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/43c7ced79be58000ca7c6385.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/02417526c867cb9ca82e25dd.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c94ba5dc4031784e1eb49717.gif",
         "focusGifEnabled": true,
         "hideTitle": true,
         "sources": [
@@ -60495,8 +60495,8 @@ window.NUVIO_DATABASE = [
         "id": "folder-V2DRW1HY",
         "title": "German Cinéma",
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/german-cinema/german-cinema-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/german-cinema/german-cinema-logo.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d7a25541ffad5f6576bc95ba.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/79f712ff3a5cea2b6cefe90b.png",
         "sources": [
           {
             "id": "src-TNGBA0SQ",
@@ -60598,19 +60598,19 @@ window.NUVIO_DATABASE = [
             "name": "German Drama, Romance Et Comedy Hits"
           }
         ],
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/german-cinema/german-cinema-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/cf11b23e64dc884551a534d1.jpg",
         "hideTitle": true,
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/german-cinema/german-cinema-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e27af05491352d3dfe387e38.gif",
         "focusGifEnabled": true
       },
       {
         "id": "folder-369A49J9",
         "title": "Hong Kong Cinéma",
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/hong-kong-cinema/hong-kong-cinema-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/hong-kong-cinema/hong-kong-cinema-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/hong-kong-cinema/hong-kong-cinema-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/hong-kong-cinema/hong-kong-cinema-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ed2794996d20eede5d67fd74.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/da0cb39ee8568d79397a4652.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2657bdfa99e62df109cef5e1.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/09c8b492c250dc7229d2190a.gif",
         "focusGifEnabled": true,
         "hideTitle": true,
         "sources": [
@@ -60719,8 +60719,8 @@ window.NUVIO_DATABASE = [
         "id": "folder-NXN7P4SZ",
         "title": "Indian Cinéma",
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/indian-cinema/indian-cinema-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/indian-cinema/indian-cinema-logo.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/8bbc6d4d3063776ea6d17540.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/51b9b78358d29bc073d0fb36.png",
         "sources": [
           {
             "id": "src-7BQIQSE6",
@@ -60822,19 +60822,19 @@ window.NUVIO_DATABASE = [
             "name": "Indian Drama, Romance Et Comedy Hits"
           }
         ],
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/indian-cinema/indian-cinema-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ba28e8006d6413b5e2cd4dc2.jpg",
         "hideTitle": true,
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/indian-cinema/indian-cinema-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4826868c0b0cdd083a431ff0.gif",
         "focusGifEnabled": true
       },
       {
         "id": "folder-9EYEPU66",
         "title": "Irish Cinéma",
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/irish-cinema/irish-cinema-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/irish-cinema/irish-cinema-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/irish-cinema/irish-cinema-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/irish-cinema/irish-cinema-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5703a07df9dc7b2b401482de.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2f6cc170992c7246360d3b96.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/255a19e107186ac3f113ce89.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1e3cb1ec5efd2430993b1e8c.gif",
         "focusGifEnabled": true,
         "hideTitle": true,
         "sources": [
@@ -60943,8 +60943,8 @@ window.NUVIO_DATABASE = [
         "id": "folder-2LNN2T93",
         "title": "Italian Cinéma",
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/italian-cinema/italian-cinema-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/italian-cinema/italian-cinema-logo.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f8e9cde5bbc6a1909f6f76be.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/24a868d5cdaa5cab29ad8bf2.png",
         "sources": [
           {
             "id": "src-JT6GBSMJ",
@@ -61046,17 +61046,17 @@ window.NUVIO_DATABASE = [
             "name": "Italian Drama, Romance Et Comedy Hits"
           }
         ],
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/italian-cinema/italian-cinema-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ddacec7e997125516f6ce2de.jpg",
         "hideTitle": true,
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/italian-cinema/italian-cinema-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0cc5d1e61973d75e49a3adc3.gif",
         "focusGifEnabled": true
       },
       {
         "id": "folder-JLYZGV7Z",
         "title": "Japanese Cinéma",
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/japanese-cinema/japanese-cinema-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/japanese-cinema/japanese-cinema-logo.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/92302b26b6de28f8579d5306.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/197347085b03efb819259b1e.png",
         "sources": [
           {
             "id": "src-P9NZFXG2",
@@ -61158,17 +61158,17 @@ window.NUVIO_DATABASE = [
             "name": "Japanese Drama, Romance Et Comedy Hits"
           }
         ],
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/japanese-cinema/japanese-cinema-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ce0772333d7468067ab145fd.jpg",
         "hideTitle": true,
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/japanese-cinema/japanese-cinema-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/41f86a6c79e257491c0ba100.gif",
         "focusGifEnabled": true
       },
       {
         "id": "folder-F4SMGZBV",
         "title": "Mexican Cinéma",
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/mexican-cinema/mexican-cinema-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/mexican-cinema/mexican-cinema-logo.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/14547c7de0d7ee6ab7dd5ab6.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e32abb970acdd1c8b5d5fcd8.png",
         "sources": [
           {
             "id": "src-ZLZNYKA7",
@@ -61270,17 +61270,17 @@ window.NUVIO_DATABASE = [
             "name": "Mexican Drama, Romance Et Comedy Hits"
           }
         ],
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/mexican-cinema/mexican-cinema-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e83ff8b84078fddf69b9e73d.jpg",
         "hideTitle": true,
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/mexican-cinema/mexican-cinema-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d8417049f4b4593a9c7a1abf.gif",
         "focusGifEnabled": true
       },
       {
         "id": "folder-0J1SF1P8",
         "title": "Nigerian Cinéma",
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/nigerian-cinema/nigerian-cinema-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/nigerian-cinema/nigerian-cinema-logo.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/00abddebf666bef60418c3ed.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/db7475ad67180a63b24c0b41.png",
         "sources": [
           {
             "id": "src-QVD0RLN1",
@@ -61382,19 +61382,19 @@ window.NUVIO_DATABASE = [
             "name": "Nigerian Drama, Romance Et Comedy Hits"
           }
         ],
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/nigerian-cinema/nigerian-cinema-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/550f80c88cf522d5ef39289c.jpg",
         "hideTitle": true,
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/nigerian-cinema/nigerian-cinema-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0e60a6295f165f2377cfd74f.gif",
         "focusGifEnabled": true
       },
       {
         "id": "folder-8XVOQGAJ",
         "title": "South African Cinéma",
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/south-african-cinema/south-african-cinema-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/south-african-cinema/south-african-cinema-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/south-african-cinema/south-african-cinema-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/south-african-cinema/south-african-cinema-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/509cb1cc3b3b66990e094bea.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b748ce39eb5caa661b71ff17.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0b23bc0b0372c3bab87fa93e.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0ff3870a89ac058a7c2cfef8.gif",
         "focusGifEnabled": true,
         "hideTitle": true,
         "sources": [
@@ -61503,8 +61503,8 @@ window.NUVIO_DATABASE = [
         "id": "folder-HCVIGJF9",
         "title": "Spanish Cinéma",
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/spanish-cinema/spanish-cinema-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/spanish-cinema/spanish-cinema-logo.png",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3e4c2de4429b7fe7bc350791.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7ca5ec8bca15d619e36d12b2.png",
         "sources": [
           {
             "id": "src-9WBKMHEE",
@@ -61606,9 +61606,9 @@ window.NUVIO_DATABASE = [
             "name": "Spanish Drama, Romance Et Comedy Hits"
           }
         ],
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/spanish-cinema/spanish-cinema-backdrop.jpg",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/be81ed48fcbefc6dbdc2254a.jpg",
         "hideTitle": true,
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/international/spanish-cinema/spanish-cinema-hover.gif",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/314d9317749d8897f8e99ca3.gif",
         "focusGifEnabled": true
       }
     ],
@@ -61734,10 +61734,10 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/true-crime-and-serial-killers/v2/true-crime-and-serial-killers-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/true-crime-and-serial-killers/v2/true-crime-and-serial-killers-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/true-crime-and-serial-killers/v2/true-crime-and-serial-killers-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/true-crime-and-serial-killers/v2/true-crime-and-serial-killers-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/89391c8a48c83a733aead5d3.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a1cebbaf77fc883d94073e4a.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2f3e278726beb06f8c278e8b.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fe5e8083dfb77f3315f1da2c.gif",
         "focusGifEnabled": true
       },
       {
@@ -61850,10 +61850,10 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/nature-wildlife-and-earth/v2/nature-wildlife-and-earth-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/nature-wildlife-and-earth/v2/nature-wildlife-and-earth-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/nature-wildlife-and-earth/nature-wildlife-and-earth-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/nature-wildlife-and-earth/v2/nature-wildlife-and-earth-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d6722fe421901761147257f0.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/753a596acc154ebef56d9ae3.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/cf220653de1950ed76426e1f.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/16d28c9c848f01b3d91dbc50.gif",
         "focusGifEnabled": true
       },
       {
@@ -61966,10 +61966,10 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/sports-and-athletic-stories/v2/sports-and-athletic-stories-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/sports-and-athletic-stories/v2/sports-and-athletic-stories-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/sports-and-athletic-stories/sports-and-athletic-stories-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/sports-and-athletic-stories/v2/sports-and-athletic-stories-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d5179e1389f2d95a076e952d.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6c0db64b9b1aa4c8afb47096.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/90be41017727c1e803ad5117.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c0d89335757b92272abec298.gif",
         "focusGifEnabled": true
       },
       {
@@ -62082,10 +62082,10 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/music-and-concert-documentaries/v2/music-and-concert-documentaries-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/music-and-concert-documentaries/v2/music-and-concert-documentaries-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/music-and-concert-documentaries/music-and-concert-documentaries-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/music-and-concert-documentaries/v2/music-and-concert-documentaries-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/c889551d6cb85096f578e170.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6e3f5dbc3c498d83c13d084f.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f13afde3b1d3ac92d0fd79df.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1aa679dea82c4f1af1bb1d1f.gif",
         "focusGifEnabled": true
       },
       {
@@ -62198,10 +62198,10 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/history-war-and-civilizations/v2/history-war-and-civilizations-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/history-war-and-civilizations/v2/history-war-and-civilizations-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/history-war-and-civilizations/history-war-and-civilizations-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/history-war-and-civilizations/v2/history-war-and-civilizations-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/22e04cf6a507829372cb81f3.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e2e9222130f55e4d25a78a9a.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/009d3e7fe012c8399a497c04.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/19c1d7858bfda9fcd58d9bee.gif",
         "focusGifEnabled": true
       },
       {
@@ -62314,10 +62314,10 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/science-tech-and-cosmos/v2/science-tech-and-cosmos-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/science-tech-and-cosmos/v2/science-tech-and-cosmos-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/science-tech-and-cosmos/science-tech-and-cosmos-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/science-tech-and-cosmos/v2/science-tech-and-cosmos-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/dd9e3508943772d8572a811a.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a8c97c44b5d09160199b7269.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/645e9708053f16a78565e6ec.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a6dc8ce765cbfe0888d9b8b5.gif",
         "focusGifEnabled": true
       },
       {
@@ -62430,10 +62430,10 @@ window.NUVIO_DATABASE = [
           }
         ],
         "hideTitle": true,
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/investigative-and-scandals/v2/investigative-and-scandals-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/investigative-and-scandals/v2/investigative-and-scandals-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/investigative-and-scandals/investigative-and-scandals-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/documentaries/investigative-and-scandals/v2/investigative-and-scandals-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/16f5edc767d757db43dcc154.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5b1a201cf977f8b8e16b071c.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/197d06a5389bb3e44ece5857.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/a3a3957056bcf4ac46f637d9.gif",
         "focusGifEnabled": true
       }
     ],
@@ -62548,10 +62548,10 @@ window.NUVIO_DATABASE = [
             "name": "Kids"
           }
         ],
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/kids-and-family/discover-family/v2/discover-family-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/kids-and-family/discover-family/v2/discover-family-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/kids-and-family/discover-family/discover-family-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/kids-and-family/discover-family/v2/discover-family-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e528f60b2f1d94c8395f3aa1.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2eaeee6f8b3b63658252bdf1.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2a21a5c1cf68c98fe15ca236.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5a38926d490055b6f1f0fa87.gif",
         "focusGifEnabled": true,
         "id": "folder-9RSYJL73"
       },
@@ -62696,10 +62696,10 @@ window.NUVIO_DATABASE = [
             "name": "Stop-Motion Treasures"
           }
         ],
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/kids-and-family/animated-studio-spotlight/v2/animated-studio-spotlight-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/kids-and-family/animated-studio-spotlight/v2/animated-studio-spotlight-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/kids-and-family/animated-studio-spotlight/animated-studio-spotlight-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/kids-and-family/animated-studio-spotlight/v2/animated-studio-spotlight-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d6b08b54615f7a1c9f917802.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/53fb3f5967a38f559a14d01f.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/54d436630a78ace970e2210b.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0970250c7c0c5c31d353b846.gif",
         "focusGifEnabled": true,
         "id": "folder-9L1UCO4Y"
       },
@@ -62807,10 +62807,10 @@ window.NUVIO_DATABASE = [
             "name": "Family"
           }
         ],
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/kids-and-family/family-movie-night/v2/family-movie-night-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/kids-and-family/family-movie-night/v2/family-movie-night-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/kids-and-family/family-movie-night/family-movie-night-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/kids-and-family/family-movie-night/v2/family-movie-night-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/46156aefe55b777aa2d369a3.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/11d2d5650b1df188c9df5304.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0eb7f95620eafe7c9c3c0aad.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/f133dea240e3be90072a7cd4.gif",
         "focusGifEnabled": true,
         "id": "folder-3DCDF32B"
       },
@@ -62924,10 +62924,10 @@ window.NUVIO_DATABASE = [
             "name": "Superhero Animated Séries"
           }
         ],
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/kids-and-family/saturday-morning-and-nostalgic-cartoons/v2/saturday-morning-and-nostalgic-cartoons-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/kids-and-family/saturday-morning-and-nostalgic-cartoons/v2/saturday-morning-and-nostalgic-cartoons-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/kids-and-family/saturday-morning-and-nostalgic-cartoons/saturday-morning-and-nostalgic-cartoons-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/kids-and-family/saturday-morning-and-nostalgic-cartoons/v2/saturday-morning-and-nostalgic-cartoons-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/06fe9c768373e6b353527c4b.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/2c2906aa4d8c442e734d5b9f.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0ba432a434ecd4b39b9b0ef9.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/bfab3833a213b13d37d2f916.gif",
         "focusGifEnabled": true,
         "id": "folder-N8CJYFAA"
       },
@@ -63036,10 +63036,10 @@ window.NUVIO_DATABASE = [
             "name": "Storybook Et Talking-Animal Films"
           }
         ],
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/kids-and-family/preschool-toddlers-and-little-kids/v2/preschool-toddlers-and-little-kids-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/kids-and-family/preschool-toddlers-and-little-kids/v2/preschool-toddlers-and-little-kids-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/kids-and-family/preschool-toddlers-and-little-kids/preschool-toddlers-and-little-kids-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/kids-and-family/preschool-toddlers-and-little-kids/v2/preschool-toddlers-and-little-kids-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/dff4ce3dde95529646944f8d.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d6c0971db0d7bcad1cc7575c.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/99a5546eb29d86b3d4e3455b.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/06d66b34c1dd0cb0af2c5dcd.gif",
         "focusGifEnabled": true,
         "id": "folder-IK22D8R8"
       },
@@ -63147,10 +63147,10 @@ window.NUVIO_DATABASE = [
             "name": "Family"
           }
         ],
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/kids-and-family/disney-channel-and-family-tv-series/v2/disney-channel-and-family-tv-series-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/kids-and-family/disney-channel-and-family-tv-series/v2/disney-channel-and-family-tv-series-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/kids-and-family/disney-channel-and-family-tv-series/disney-channel-and-family-tv-series-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/kids-and-family/disney-channel-and-family-tv-series/v2/disney-channel-and-family-tv-series-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fe09ee147586fc2a7afaf8ac.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/209aa624ac1c4f7d4a3c8c06.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0bd7e4c6ae9ba82e9ae78324.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0185271a3170bf081f405939.gif",
         "focusGifEnabled": true,
         "id": "folder-9EGSPU2W"
       }
@@ -63267,10 +63267,10 @@ window.NUVIO_DATABASE = [
             "name": "Reality"
           }
         ],
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/reality-tv/discover-reality-tv/v2/discover-reality-tv-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/reality-tv/discover-reality-tv/v2/discover-reality-tv-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/reality-tv/discover-reality-tv/discover-reality-tv-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/reality-tv/discover-reality-tv/v2/discover-reality-tv-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6ba79c80f53b99cd2a28e4d9.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6a62c7b1cc76050eb190e7ae.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3220a6eb4343dfe13be0d022.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/51977195bf613d511fbe5d41.gif",
         "focusGifEnabled": true,
         "id": "folder-WZOQKARY"
       },
@@ -63381,10 +63381,10 @@ window.NUVIO_DATABASE = [
             "name": "Reality"
           }
         ],
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/reality-tv/high-stakes-competition-and-survival/v2/high-stakes-competition-and-survival-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/reality-tv/high-stakes-competition-and-survival/v2/high-stakes-competition-and-survival-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/reality-tv/high-stakes-competition-and-survival/high-stakes-competition-and-survival-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/reality-tv/high-stakes-competition-and-survival/v2/high-stakes-competition-and-survival-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3642c2ae8b6267e27c16fd25.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/ece1ded3896a401bd08d0c5d.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/95f2c7c74403c0e984cbc42e.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/fb28304d62860f7e1bb7e233.gif",
         "focusGifEnabled": true,
         "id": "folder-LEL50ZXT"
       },
@@ -63495,10 +63495,10 @@ window.NUVIO_DATABASE = [
             "name": "Reality"
           }
         ],
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/reality-tv/juicy-drama-dating-and-relationship/v2/juicy-drama-dating-and-relationship-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/reality-tv/juicy-drama-dating-and-relationship/v2/juicy-drama-dating-and-relationship-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/reality-tv/juicy-drama-dating-and-relationship/juicy-drama-dating-and-relationship-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/reality-tv/juicy-drama-dating-and-relationship/v2/juicy-drama-dating-and-relationship-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7a2ab2fb84a4f57fcfd9ece0.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/b9a42813d89f29662e47368e.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/62521a2aa3efb69e1239e7d2.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/4bc48f108b9271f4efea6eda.gif",
         "focusGifEnabled": true,
         "id": "folder-KW5T2ZOD"
       },
@@ -63610,10 +63610,10 @@ window.NUVIO_DATABASE = [
             "name": "Reality"
           }
         ],
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/reality-tv/culinary-battles-and-cooking-shows/v2/culinary-battles-and-cooking-shows-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/reality-tv/culinary-battles-and-cooking-shows/v2/culinary-battles-and-cooking-shows-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/reality-tv/culinary-battles-and-cooking-shows/culinary-battles-and-cooking-shows-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/reality-tv/culinary-battles-and-cooking-shows/v2/culinary-battles-and-cooking-shows-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/16c80370fc6022b3136cffa6.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d026b04879864a5968f2694a.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/3f8ca19d1d6a68df0940ec43.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/5b2f231bab1405ca36455a5f.gif",
         "focusGifEnabled": true,
         "id": "folder-JNY5J1DM"
       },
@@ -63725,10 +63725,10 @@ window.NUVIO_DATABASE = [
             "name": "Reality"
           }
         ],
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/reality-tv/real-estate-home-and-lifestyle-makeovers/v2/real-estate-home-and-lifestyle-makeovers-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/reality-tv/real-estate-home-and-lifestyle-makeovers/v2/real-estate-home-and-lifestyle-makeovers-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/reality-tv/real-estate-home-and-lifestyle-makeovers/real-estate-home-and-lifestyle-makeovers-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/reality-tv/real-estate-home-and-lifestyle-makeovers/v2/real-estate-home-and-lifestyle-makeovers-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/220a8f3ded6eb92e14b9c9db.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/d4ce0dbf4382b76d31cee698.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/6e4b45517402dc6d0b4c0756.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/7813c6d9f254d5c2f4823b07.gif",
         "focusGifEnabled": true,
         "id": "folder-PO82L89F"
       },
@@ -63841,10 +63841,10 @@ window.NUVIO_DATABASE = [
             "name": "Reality"
           }
         ],
-        "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/reality-tv/game-shows-talent-and-trivia/v2/game-shows-talent-and-trivia-cover.png",
-        "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/reality-tv/game-shows-talent-and-trivia/v2/game-shows-talent-and-trivia-logo.png",
-        "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/reality-tv/game-shows-talent-and-trivia/game-shows-talent-and-trivia-backdrop.jpg",
-        "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/reality-tv/game-shows-talent-and-trivia/v2/game-shows-talent-and-trivia-hover.gif",
+        "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/1f81ee3b026f5ef860184c0a.png",
+        "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/0ba22d842bf8d62e8a5d8183.png",
+        "heroBackdropUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/57bd7c1a7fb28c6cddd67493.jpg",
+        "focusGifUrl": "https://ma-art.mailpromahe.workers.dev/media/raw.githubusercontent.com/e3c9405e6c2070b459b8e6ef.gif",
         "focusGifEnabled": true,
         "id": "folder-OJDG0AL6"
       }
