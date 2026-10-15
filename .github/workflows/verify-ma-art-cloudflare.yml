@@ -1,0 +1,26 @@
+name: Verifier les liens Ma-Art Cloudflare (avant publication)
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'collections/**'
+      - 'scripts/verify_ma_art_cloudflare.py'
+      - '.github/workflows/verify-ma-art-cloudflare.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Vérifier les JSON et TOUTES les URL des images Cloudflare
+        run: python scripts/verify_ma_art_cloudflare.py
