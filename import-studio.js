@@ -50,6 +50,10 @@
     .mc-import-art-layout{display:flex;gap:15px;align-items:flex-start}
     .mc-import-actions{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-top:22px;border-top:1px solid #aaa3;padding-top:15px}
     .mc-import-actions button,.mc-import-action{padding:11px 16px;border-radius:10px;cursor:pointer;font-weight:600}
+    .mc-key-actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    .mc-key-link{color:var(--accent-light,#b8a2ff);font-size:.88rem;text-decoration:underline;text-underline-offset:3px;font-weight:600}
+    .mc-key-link:hover,.mc-key-link:focus-visible{color:#d9ceff}
+    .mc-key-link:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:3px}
     .mc-import-actions .primary,.mc-import-action.primary{background:#8052ce;color:white;border:1px solid #9a72d7}
     .mc-import-actions .secondary,.mc-import-action.secondary{background:transparent;color:inherit;border:1px solid #aaa5}
     .mc-import-note{font-size:.85rem;color:var(--text-muted,#aeb0bd);line-height:1.5}
@@ -128,10 +132,21 @@
     const caption=byId("mc-bttr-status");
     if (caption) caption.textContent="Chargement de l’aperçu Bttr…";
   }
+  // Pages officielles de création des clés, ouvertes sans transmettre de secret.
+  const apiKeyPages = Object.freeze({
+    tmdb: "https://www.themoviedb.org/settings/api",
+    mdblist: "https://mdblist.com/preferences/",
+    ad: "https://alldebrid.com/apikeys/",
+    rd: "https://real-debrid.com/apitoken"
+  });
   function field(id,label,key,placeholder,type="password") {
-    const testable = ["tmdb","mdblist","ad","rd"].includes(id);
-    return `<label for="mc-${id}">${label}<input id="mc-${id}" data-key="${key}" type="${type}" autocomplete="off" spellcheck="false" placeholder="${esc(placeholder)}" value="${esc(state[key])}"></label>` +
-      (testable ? `<div><button type="button" class="mc-import-action secondary" data-keytest="${id}">Tester la clé</button> <span class="mc-import-note" id="mc-keytest-${id}" role="status"></span></div>` : "");
+    const testable = Object.prototype.hasOwnProperty.call(apiKeyPages,id);
+    const controls = testable
+      ? `<div class="mc-key-actions"><button type="button" class="mc-import-action secondary" data-keytest="${id}">Tester la clé</button>
+           <a class="mc-key-link" href="${apiKeyPages[id]}" target="_blank" rel="noopener noreferrer" aria-label="Obtenir une clé API ${esc(label)} (nouvel onglet)">Obtenir ma clé ↗</a>
+           <span class="mc-import-note" id="mc-keytest-${id}" role="status" aria-live="polite"></span></div>`
+      : "";
+    return `<label for="mc-${id}">${label}<input id="mc-${id}" data-key="${key}" type="${type}" autocomplete="off" spellcheck="false" placeholder="${esc(placeholder)}" value="${esc(state[key])}"></label>` + controls;
   }
   function stepHtml() {
     const rows = folders();
