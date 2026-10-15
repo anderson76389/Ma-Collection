@@ -34,4 +34,28 @@ for (const match of withoutComments.matchAll(/<script\s+[^>]*src="([^"]+)"/g)) {
 for (const src of ["style.css", "assets/kovelyx-logo.svg", "locales/fr.json", "locales/site-fr.json"]) {
   assert(existsSync(resolve(root,src)), "Ressource essentielle manquante : " + src);
 }
+// Ne jamais perdre les liens API ou activer une inscription factice.
+const importStudio = read("import-studio.js");
+const accountConfig = read("account-config.js");
+const accountUi = read("account-ui.js");
+const accountVault = read("account-vault.js");
+for (const url of [
+  "https://www.themoviedb.org/settings/api",
+  "https://mdblist.com/preferences/",
+  "https://alldebrid.com/apikeys/",
+  "https://real-debrid.com/apitoken",
+]) {
+  assert(importStudio.includes(url), "Lien API officiel manquant : " + url);
+  assert(app.includes(url), "Lien API avancé manquant : " + url);
+}
+assert(withoutComments.includes('id="account-view-cloud"'),"Page de compte web manquante");
+assert(withoutComments.includes('id="account-cloud-signup"'),"Bouton d'inscription manquant");
+assert(withoutComments.includes('id="account-cloud-login"'),"Bouton de connexion manquant");
+assert(accountUi.includes("cloudConfigured()"),"Inscription non conditionnée par un serveur réel");
+assert(accountConfig.includes('sb_secret_'),"Les clés de serveur secrètes ne sont pas filtrées");
+assert(accountVault.includes("/auth/v1/signup") && accountVault.includes("/auth/v1/token"),
+  "L'inscription et la connexion doivent utiliser le backend configuré");
+assert(accountVault.includes("ma_collection_vaults"),"Coffre cloud protégé introuvable");
+assert(existsSync(resolve(root,"docs/sql/ma_collection_vaults.sql")),"Politique RLS du coffre absente");
+
 console.log("QA_INDEPENDANCE_OK : import Kovelyx local et export JSON sans suivi ni compte tiers");
