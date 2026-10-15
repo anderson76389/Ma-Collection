@@ -290,6 +290,9 @@
     </button>
     <div id="account-menu" class="account-menu" role="menu" hidden>
       <p id="account-menu-status" class="account-menu-status"></p>
+      <button type="button" class="account-menu-item" data-account-action="cloud" role="menuitem">
+        <span>Compte Kovelyx · Inscription / connexion</span>
+      </button>
       <button type="button" class="account-menu-item" data-account-action="setup" role="menuitem" hidden>
         Set up autosave
       </button>
@@ -809,6 +812,42 @@
       <h2 id="account-title" class="account-title">Save your setup</h2>
       <p id="account-error" class="account-error" hidden></p>
 
+      <!-- L'identité en ligne est celle du serveur configuré dans Kovelyx PC.
+           Sans backend central, aucune inscription n'est simulée. -->
+      <div id="account-view-cloud" hidden>
+        <p class="account-lead">Utilisez le <strong>même e-mail et le même mot de passe</strong> sur Ma-Collection et dans Kovelyx PC. Il faut connecter les deux à un même serveur de comptes compatible Supabase. Le mode sans compte reste disponible.</p>
+        <p id="account-cloud-status" class="account-note" role="status" aria-live="polite"></p>
+        <div class="account-callout">
+          <strong>Serveur de comptes Kovelyx</strong>
+          <p>Renseignez le serveur et la clé publique configurés dans les paramètres serveur de Kovelyx. Si vous n'avez pas encore de serveur, l'inscription ne peut pas être activée sur un simple site GitHub Pages.</p>
+          <label class="account-label">Adresse HTTPS du serveur
+            <input id="account-cloud-url" class="account-input" inputmode="url" type="url" autocomplete="off" spellcheck="false" placeholder="https://votre-projet.supabase.co">
+          </label>
+          <label class="account-label">Clé publique / anon (jamais une clé secrète)
+            <input id="account-cloud-key" class="account-input" type="text" autocomplete="off" spellcheck="false" placeholder="sb_publishable_… ou clé anon publique">
+          </label>
+          <div class="account-actions">
+            <button type="button" id="account-cloud-server-save" class="account-btn account-btn-primary">Configurer ce serveur</button>
+            <button type="button" id="account-cloud-server-clear" class="account-btn account-btn-ghost">Déconnecter le serveur</button>
+          </div>
+        </div>
+        <div id="account-cloud-auth">
+          <label class="account-label">Adresse e-mail du compte Kovelyx
+            <input id="account-cloud-email" class="account-input" type="email" autocomplete="username email" spellcheck="false" maxlength="254">
+          </label>
+          <label class="account-label">Mot de passe du compte
+            <input id="account-cloud-password" class="account-input" type="password" autocomplete="current-password" minlength="8">
+          </label>
+          <div class="account-actions">
+            <button type="button" id="account-cloud-signup" class="account-btn account-btn-primary">Créer mon compte</button>
+            <button type="button" id="account-cloud-login" class="account-btn account-btn-ghost">Se connecter</button>
+            <button type="button" id="account-cloud-logout" class="account-btn account-btn-ghost" hidden>Se déconnecter</button>
+          </div>
+        </div>
+        <p class="account-note">Les identifiants ne sont jamais enregistrés dans les catalogues JSON. Pour sauvegarder des clés privées, utilisez séparément la sauvegarde chiffrée ; les profils et collections sont synchronisés par votre serveur Kovelyx, pas par ce formulaire.</p>
+        <p class="account-note"><a href="https://github.com/anderson76389/Ma-Collection/blob/main/docs/COMPTE_KOVELYX.md" target="_blank" rel="noopener noreferrer">Guide : mettre en place un compte commun ↗</a></p>
+      </div>
+
       <div id="account-view-create">
         <p class="account-lead">This turns on autosave for this browser. After you set a save password, your API keys and collection picks are stored here automatically when you change them. Completely optional.</p>
         <div class="account-callout">
@@ -894,22 +933,22 @@
   <script>
     window.MA_COLLECTION_BINGECAT_IMPORT_ENDPOINT = 'https://bingecat.com/integrations/kaptain/collections';
   </script>
-  <script src="account-config.js?v=93.0"></script>
+  <script src="account-config.js?v=94.0"></script>
   <!-- For local cloud testing, copy account-config.local.example.js to account-config.local.js and uncomment:
   <script src="account-config.local.js"></script>
   -->
-  <script src="account-vault.js?v=93.0"></script>
+  <script src="account-vault.js?v=94.0"></script>
   <script src="customize.js?v=93.0"></script>
   <script src="scripts/catalog-utils.js?v=94.0"></script>
   <script src="catalog-labels-fr.js?v=1"></script>
   <script src="debrid-services.js?v=2"></script>
-  <script src="app.js?v=100.0"></script>
+  <script src="app.js?v=101.0"></script>
   <script src="kovelyx-export.js?v=10"></script>
   <script>window.MA_COLLECTION_ASSET_VERSION = 92.4;</script>
   <script src="wizard.js?v=99.0"></script>
-  <script src="account-ui.js?v=95.0"></script>
+  <script src="account-ui.js?v=96.0"></script>
   <script src="site-fr.js?v=31"></script>
-  <script src="import-studio.js?v=11"></script>
+  <script src="import-studio.js?v=12"></script>
   <script src="destination-picker.js?v=7"></script>
 </body>
 </html>
