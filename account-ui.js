@@ -39,12 +39,12 @@
     const s = st();
     const statusEl = $('account-menu-status');
     if (statusEl) {
-      if (s.unlocked) {
-        statusEl.textContent = 'Autosave is on. Edits are saved on this device as you go.';
-      } else if (s.hasLocalVault) {
-        statusEl.textContent = 'Autosave is set up. Enter your save password once to restore keys and picks.';
+      if (s.cloudSignedIn) {
+        statusEl.textContent = "Compte Kovelyx connecté : " + (s.cloudEmail || "utilisateur");
+      } else if (!s.cloudConfigured) {
+        statusEl.textContent = "Mode local disponible. Configurez un serveur pour créer un compte synchronisé.";
       } else {
-        statusEl.textContent = 'Optional autosave: remember API keys and collection picks on this browser.';
+        statusEl.textContent = "Compte Kovelyx : créez un compte ou connectez-vous.";
       }
     }
 
@@ -58,6 +58,7 @@
         lock: s.unlocked,
         wipe: s.hasLocalVault,
         privacy: true,
+        cloud: true,
       };
       menu.querySelectorAll('[data-account-action]').forEach((el) => {
         const a = el.getAttribute('data-account-action');
@@ -89,13 +90,14 @@
 
   function showView(name) {
     const titles = {
-      create: 'Set up autosave',
+      cloud: 'Compte Kovelyx',
+      create: 'Configurer la sauvegarde locale',
       unlock: 'Restore your setup',
       keys: 'API keys & tokens',
       privacy: 'How your keys stay private',
     };
     setTitle(titles[name] || 'Save');
-    ['create', 'unlock', 'keys', 'privacy'].forEach((v) => {
+    ['cloud', 'create', 'unlock', 'keys', 'privacy'].forEach((v) => {
       const panel = $('account-view-' + v);
       if (panel) panel.hidden = v !== name;
     });
@@ -118,13 +120,10 @@
     ov.setAttribute('aria-hidden', 'false');
     const s = st();
     let next = view;
-    if (!next) {
-      if (s.unlocked) next = 'keys';
-      else if (s.hasLocalVault) next = 'unlock';
-      else next = 'create';
-    }
+    if (!next) next = 'cloud';
     showView(next);
     if (next === 'keys') fillKeysForm();
+    if (next === 'cloud') refreshCloudForm();
   }
 
   function closeModal() {
@@ -143,6 +142,90 @@
     err.hidden = !msg;
   }
 
+
+  function cloudStatus(message, error=false) {
+    const statusEl = $('account-cloud-status');
+    if (statusEl) {
+      statusEl.textContent = message;
+      statusEl.style.color = error ? "#fca5a5" : "";
+    }
+  }
+  function refreshCloudForm() {
+    const backend = window.MaCollectionBackendConfig;
+    const account = window.MaCollectionAccount;
+    const cfg = backend?.current() || {url:"",key:""};
+    const status = account?.status() || {};
+    if ($('account-cloud-url')) $('account-cloud-url').value = cfg.url;
+    if ($('account-cloud-key')) $('account-cloud-key').value = cfg.key;
+    const ready = !!status.cloudConfigured;
+    const signed = !!status.cloudSignedIn;
+    const signup = $('account-cloud-signup');
+    const login = $('account-cloud-login');
+    if (signup) { signup.disabled = !ready || signed; signup.hidden = signed; }
+    if (login) { login.disabled = !ready || signed; login.hidden = signed; }
+    if ($('account-cloud-logout')) $('account-cloud-logout').hidden = !signed;
+    if ($('account-cloud-email')) {
+      $('account-cloud-email').disabled = signed;
+      if (status.cloudEmail) $('account-cloud-email').value = status.cloudEmail;
+    }
+    if ($('account-cloud-password')) {
+      $('account-cloud-password').disabled = signed;
+      $('account-cloud-password').value = "";
+    }
+    cloudStatus(signed
+      ? "Connecté à votre serveur Kovelyx : " + (status.cloudEmail || "compte actif") +
+        ". Le compte est utilisable dans Kovelyx si l'application utilise le même serveur."
+      : ready ? "Serveur configuré : inscription et connexion disponibles."
+      : "Aucun serveur configuré : l'inscription en ligne n'est pas encore disponible. Vous pouvez toujours utiliser Ma-Collection sans compte.");
+    refreshChrome();
+  }
+  function setAuthButtonsBusy(busy) {
+    for (const id of ['account-cloud-signup','account-cloud-login','account-cloud-server-save']) {
+      const el = $(id);
+      if (el) el.disabled = busy;
+    }
+  }
+  async function configureCloud() {
+    const backend = window.MaCollectionBackendConfig;
+    try {
+      if (!backend) throw new Error("La configuration de serveur est indisponible.");
+      // Le compte courant appartient au serveur précédent : ne pas le réutiliser.
+      window.MaCollectionAccount.signOutCloud();
+      backend.save($('account-cloud-url').value, $('account-cloud-key').value);
+      refreshCloudForm();
+      cloudStatus("Serveur sauvegardé sur ce navigateur. Utilisez le même serveur dans Kovelyx PC ; il reste à vérifier la connexion.");
+    } catch (e) {
+      cloudStatus(e.message || "Configuration refusée.",true);
+    }
+  }
+  async function runCloudAuth(action) {
+    const account = window.MaCollectionAccount;
+    const email = ($('account-cloud-email')?.value || "").trim();
+    const passwordField = $('account-cloud-password');
+    const pass = passwordField?.value || "";
+    if (!account?.cloudConfigured()) return cloudStatus("Configurez d'abord le serveur Kovelyx.",true);
+    if (!email || !/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(email)) return cloudStatus("Renseignez une adresse e-mail valide.",true);
+    if (!pass || (action === "signup" && pass.length < 8)) return cloudStatus("Pour l'inscription, choisissez au moins huit caractères.",true);
+    setAuthButtonsBusy(true);
+    cloudStatus(action === "signup" ? "Inscription en cours…" : "Connexion en cours…");
+    try {
+      const result = action === "signup"
+        ? await account.cloudSignup(email,pass)
+        : await account.cloudLogin(email,pass);
+      if (passwordField) passwordField.value = "";
+      refreshCloudForm();
+      cloudStatus(action === "signup"
+        ? result.message
+        : "Connecté ! Retrouvez ce compte dans Kovelyx PC en utilisant le même serveur et les mêmes identifiants.");
+      toast(action === "signup" ? "Inscription envoyée." : "Compte Kovelyx connecté.");
+    } catch (e) {
+      if (passwordField) passwordField.value = "";
+      cloudStatus("Opération impossible : " + (e.message || "serveur indisponible"),true);
+    } finally {
+      setAuthButtonsBusy(false);
+      refreshChrome();
+    }
+  }
   function fillKeysForm() {
     let keys = {};
     let prefs = {};
@@ -252,6 +335,7 @@
   }
 
   function handleAction(action) {
+    if (action === 'cloud') { setMenuOpen(false); return openModal('cloud'); }
     if (action === 'save') return saveProgress();
     if (action === 'setup') {
       setMenuOpen(false);
@@ -369,6 +453,20 @@
       b.addEventListener('click', closeModal);
     });
 
+    $('account-cloud-server-save')?.addEventListener('click', configureCloud);
+    $('account-cloud-server-clear')?.addEventListener('click', () => {
+      window.MaCollectionAccount.signOutCloud();
+      window.MaCollectionBackendConfig?.clear();
+      refreshCloudForm();
+      cloudStatus("Serveur dissocié de ce navigateur. Vos sauvegardes locales n'ont pas été effacées.");
+    });
+    $('account-cloud-signup')?.addEventListener('click', () => runCloudAuth('signup'));
+    $('account-cloud-login')?.addEventListener('click', () => runCloudAuth('login'));
+    $('account-cloud-logout')?.addEventListener('click', () => {
+      window.MaCollectionAccount.signOutCloud();
+      refreshCloudForm();
+      cloudStatus("Déconnecté sur le site. Pour fermer aussi la session Windows, déconnectez-vous dans Kovelyx.");
+    });
     $('account-btn-create')?.addEventListener('click', onCreate);
     $('account-btn-unlock')?.addEventListener('click', onUnlock);
     $('account-goto-create')?.addEventListener('click', () => showView('create'));
