@@ -40,7 +40,9 @@
     const statusEl = $('account-menu-status');
     if (statusEl) {
       if (s.cloudSignedIn) {
-        statusEl.textContent = "Compte Kovelyx connecté : " + (s.cloudEmail || "utilisateur");
+        statusEl.textContent = s.lastSyncError
+          ? "Compte connecté, mais sauvegarde cloud en échec : " + s.lastSyncError
+          : "Compte Kovelyx connecté : " + (s.cloudEmail || "utilisateur");
       } else if (!s.cloudConfigured) {
         statusEl.textContent = "Mode local disponible. Configurez un serveur pour créer un compte synchronisé.";
       } else {
@@ -297,7 +299,10 @@
     if (pass !== confirm) return showError('Those passwords do not match.');
     try {
       await window.MaCollectionAccount.createVault(pass);
-      toast('Autosave is on. Changes will be remembered on this device.');
+      const cloudError=window.MaCollectionAccount.status().lastSyncError;
+      toast(cloudError
+        ? "Coffre local enregistré ; sauvegarde en ligne indisponible : " + cloudError
+        : "Sauvegarde locale activée.",cloudError?"error":"success");
       closeModal();
       refreshChrome();
       openModal('keys');
@@ -327,7 +332,10 @@
     }
     try {
       const ok = await window.MaCollectionAccount.persistNow();
-      toast(ok ? 'Saved.' : 'Enter your save password first.');
+      const syncError=window.MaCollectionAccount.status().lastSyncError;
+      toast(ok
+        ? syncError ? 'Sauvegarde locale effectuée ; synchronisation distante indisponible : ' + syncError : 'Sauvegarde effectuée.'
+        : 'Déverrouillez la sauvegarde avec votre phrase secrète.', syncError ? 'error' : 'success');
       refreshChrome();
     } catch (e) {
       toast(e.message || 'Save failed.', 'error');
@@ -474,7 +482,10 @@
     $('account-btn-keys-save')?.addEventListener('click', async () => {
       try {
         await applyKeysAndSave();
-        toast('Keys saved.');
+        const cloudError=window.MaCollectionAccount.status().lastSyncError;
+        toast(cloudError
+          ? "Clés chiffrées enregistrées localement, mais pas synchronisées : "+cloudError
+          : "Clés enregistrées.", cloudError?"error":"success");
         closeModal();
         refreshChrome();
       } catch (e) {
