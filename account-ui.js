@@ -204,7 +204,7 @@
     const passwordField = $('account-cloud-password');
     const pass = passwordField?.value || "";
     if (!account?.cloudConfigured()) return cloudStatus("Configurez d'abord le serveur Kovelyx.",true);
-    if (!email || !/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(email)) return cloudStatus("Renseignez une adresse e-mail valide.",true);
+    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return cloudStatus("Renseignez une adresse e-mail valide.",true);
     if (!pass || (action === "signup" && pass.length < 8)) return cloudStatus("Pour l'inscription, choisissez au moins huit caractères.",true);
     setAuthButtonsBusy(true);
     cloudStatus(action === "signup" ? "Inscription en cours…" : "Connexion en cours…");
