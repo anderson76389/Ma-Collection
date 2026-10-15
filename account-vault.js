@@ -244,21 +244,10 @@
       body: JSON.stringify(body),
     });
     if (!res.ok) {
-      // Fallback: PATCH if row exists (some projects lack upsert preference)
-      const patch = await fetch(
-        c.supabaseUrl + '/rest/v1/ma_collection_vaults?user_id=eq.' + encodeURIComponent(authSession.user_id),
-        {
-          method: 'PATCH',
-          headers: cloudHeaders(authSession.access_token),
-          body: JSON.stringify({
-            ciphertext: envelope.ciphertext,
-            salt: envelope.salt,
-            iv: envelope.iv,
-            updated_at: body.updated_at,
-          }),
-        }
-      );
-      if (!patch.ok) throw new Error('Cloud save failed (' + res.status + '/' + patch.status + ')');
+      // Une réponse PATCH 204 ne garantit pas qu'une ligne ait été mise à jour.
+      // L'upsert requiert la table et les politiques RLS fournies dans docs/sql/.
+      throw new Error("La sauvegarde distante a échoué (HTTP " + res.status +
+        "). Vérifiez la table ma_collection_vaults et les autorisations RLS.");
     }
   }
 
@@ -342,7 +331,13 @@
   async function unlockWithPassphrase(passphrase) {
     let envelope = null;
     if (authSession && cloudConfigured()) {
-      try { envelope = await cloudPullEnvelope(); } catch (e) { /* fall through to local */ }
+      try {
+        envelope = await cloudPullEnvelope();
+        lastSyncError = null;
+      } catch (e) {
+        lastSyncError = e.message || "Téléchargement des données impossible";
+        // La sauvegarde locale reste accessible, sans prétendre être synchronisée.
+      }
     }
     if (!envelope) envelope = readLocalEnvelope();
     if (!envelope) throw new Error('No saved data found on this device. Turn on Save first.');
