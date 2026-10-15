@@ -1,10 +1,10 @@
 /**
- * Kaptain Account Vault — optional encrypted auto-save for API keys +
+ * Ma-Collection Vault — optional encrypted auto-save for API keys +
  * collection edit state. Feature-flagged via window.MA_COLLECTION_ACCOUNT.
  *
  * Security: secrets are AES-GCM encrypted client-side with a key derived from
  * the user's vault passphrase (PBKDF2). The passphrase never leaves the device.
- * Cloud sync (optional) stores ciphertext only in a SEPARATE Supabase project.
+ * Cloud sync (optional) stores ciphertext only on the SAME backend as Kovelyx.
  */
 (function () {
   'use strict';
@@ -20,6 +20,7 @@
   let saveTimer = null;
   let authSession = null;        // { access_token, user_id, email } when cloud signed in
   let lastPayload = null;
+  let lastSyncError = null;
 
   function cfg() {
     return window.MA_COLLECTION_ACCOUNT || { enabled: false };
@@ -126,56 +127,96 @@
     return h;
   }
 
-  async function cloudSignup(email, password) {
-    const c = cfg();
-    const res = await fetch(c.supabaseUrl + '/auth/v1/signup', {
-      method: 'POST',
-      headers: cloudHeaders(),
-      body: JSON.stringify({ email, password }),
-    });
-    const data = await res.json().catch(() => ({}));
-    if (!res.ok) throw new Error(data.msg || data.error_description || data.error || ('Signup failed (' + res.status + ')'));
-    if (!data.access_token) {
-      return { needsConfirm: true, message: 'Check your email to confirm the account, then sign in.' };
-    }
-    authSession = { access_token: data.access_token, user_id: data.user && data.user.id, email };
-    persistAuthSession();
-    return { needsConfirm: false };
+  function assertCloudConfigured() {
+    if (!cloudConfigured()) throw new Error("Configurez d'abord votre serveur de comptes Kovelyx.");
   }
-
-  async function cloudLogin(email, password) {
+  async function cloudSignup(email, password) {
+    assertCloudConfigured();
     const c = cfg();
-    const res = await fetch(c.supabaseUrl + '/auth/v1/token?grant_type=password', {
-      method: 'POST',
-      headers: cloudHeaders(),
-      body: JSON.stringify({ email, password }),
+    const res = await fetch(c.supabaseUrl + "/auth/v1/signup", {
+      method:"POST", mode:"cors", cache:"no-store",
+      headers:cloudHeaders(),
+      body:JSON.stringify({ email, password }),
     });
     const data = await res.json().catch(() => ({}));
-    if (!res.ok) throw new Error(data.error_description || data.msg || data.error || ('Sign-in failed (' + res.status + ')'));
-    authSession = { access_token: data.access_token, user_id: data.user && data.user.id, email };
+    if (!res.ok) throw new Error(data.error_description || data.msg || data.error || ("Inscription refusée (" + res.status + ")"));
+    if (!data.access_token) return {
+      needsConfirm: true,
+      message: "Compte demandé. Confirmez l’e-mail reçu, puis connectez-vous ici et dans Kovelyx."
+    };
+    storeSession(data, email);
+    return { needsConfirm: false, message: "Compte créé : connectez-vous aussi dans Kovelyx avec ces identifiants." };
+  }
+  function storeSession(data, email) {
+    if (!data.access_token || !data.user?.id) throw new Error("Session d'authentification incomplète.");
+    authSession = {
+      access_token: data.access_token,
+      refresh_token: data.refresh_token || "",
+      expires_at: Math.floor(Date.now() / 1000) + Math.max(0, Number(data.expires_in) || 3600),
+      user_id: data.user.id, email: data.user.email || email,
+      server: cfg().supabaseUrl,
+    };
     persistAuthSession();
     return authSession;
   }
-
+  async function cloudLogin(email, password) {
+    assertCloudConfigured();
+    const c = cfg();
+    const res = await fetch(c.supabaseUrl + "/auth/v1/token?grant_type=password", {
+      method:"POST", mode:"cors", cache:"no-store", headers:cloudHeaders(),
+      body:JSON.stringify({ email, password }),
+    });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok) throw new Error(data.error_description || data.msg || data.error || ("Connexion refusée (" + res.status + ")"));
+    return storeSession(data, email);
+  }
   function persistAuthSession() {
     try {
-      if (authSession) sessionStorage.setItem('ma_collection_account_auth', JSON.stringify(authSession));
-      else sessionStorage.removeItem('ma_collection_account_auth');
-    } catch (e) { /* ignore */ }
+      if (authSession) sessionStorage.setItem("ma_collection_account_auth", JSON.stringify(authSession));
+      else sessionStorage.removeItem("ma_collection_account_auth");
+    } catch (e) { /* session limitée à cet onglet */ }
   }
-
   function restoreAuthSession() {
     try {
-      const raw = sessionStorage.getItem('ma_collection_account_auth');
-      if (raw) authSession = JSON.parse(raw);
+      const raw = sessionStorage.getItem("ma_collection_account_auth");
+      const candidate = raw && JSON.parse(raw);
+      if (candidate?.server === cfg().supabaseUrl && candidate?.user_id && candidate?.access_token) {
+        authSession = candidate;
+      } else {
+        authSession = null;
+        persistAuthSession();
+      }
     } catch (e) { authSession = null; }
+  }
+  async function freshSession() {
+    assertCloudConfigured();
+    if (!authSession || authSession.server !== cfg().supabaseUrl) {
+      signOutCloud();
+      throw new Error("Connectez-vous à votre compte Kovelyx.");
+    }
+    if (!authSession.expires_at || authSession.expires_at > Date.now()/1000 + 90) return authSession;
+    if (!authSession.refresh_token) {
+      signOutCloud();
+      throw new Error("Session expirée, reconnectez-vous.");
+    }
+    const res = await fetch(cfg().supabaseUrl + "/auth/v1/token?grant_type=refresh_token", {
+      method:"POST", mode:"cors", cache:"no-store", headers:cloudHeaders(),
+      body:JSON.stringify({ refresh_token:authSession.refresh_token }),
+    });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok) {
+      signOutCloud();
+      throw new Error("Votre session a expiré. Veuillez vous reconnecter.");
+    }
+    return storeSession(data,authSession.email);
   }
 
   async function cloudPullEnvelope() {
     if (!authSession || !cloudConfigured()) return null;
+    await freshSession();
     const c = cfg();
     const res = await fetch(
-      c.supabaseUrl + '/rest/v1/kaptain_vaults?select=ciphertext,salt,iv&user_id=eq.' + encodeURIComponent(authSession.user_id),
+      c.supabaseUrl + '/rest/v1/ma_collection_vaults?select=ciphertext,salt,iv&user_id=eq.' + encodeURIComponent(authSession.user_id),
       { headers: cloudHeaders(authSession.access_token) }
     );
     if (!res.ok) throw new Error('Cloud pull failed (' + res.status + ')');
@@ -186,6 +227,7 @@
 
   async function cloudPushEnvelope(envelope) {
     if (!authSession || !cloudConfigured()) return;
+    await freshSession();
     const c = cfg();
     const body = {
       user_id: authSession.user_id,
@@ -194,7 +236,7 @@
       iv: envelope.iv,
       updated_at: new Date().toISOString(),
     };
-    const res = await fetch(c.supabaseUrl + '/rest/v1/kaptain_vaults', {
+    const res = await fetch(c.supabaseUrl + '/rest/v1/ma_collection_vaults', {
       method: 'POST',
       headers: Object.assign({}, cloudHeaders(authSession.access_token), {
         Prefer: 'resolution=merge-duplicates,return=minimal',
@@ -204,7 +246,7 @@
     if (!res.ok) {
       // Fallback: PATCH if row exists (some projects lack upsert preference)
       const patch = await fetch(
-        c.supabaseUrl + '/rest/v1/kaptain_vaults?user_id=eq.' + encodeURIComponent(authSession.user_id),
+        c.supabaseUrl + '/rest/v1/ma_collection_vaults?user_id=eq.' + encodeURIComponent(authSession.user_id),
         {
           method: 'PATCH',
           headers: cloudHeaders(authSession.access_token),
@@ -269,6 +311,7 @@
       cloudConfigured: cloudConfigured(),
       cloudSignedIn: !!(authSession && authSession.access_token),
       cloudEmail: authSession && authSession.email || null,
+      lastSyncError,
       unlocked: isUnlocked(),
       hasLocalVault: !!readLocalEnvelope(),
     };
@@ -325,8 +368,9 @@
     const envelope = { ciphertext: enc.ciphertext, salt: enc.salt, iv: enc.iv };
     writeLocalEnvelope(envelope);
     if (authSession && cloudConfigured()) {
-      try { await cloudPushEnvelope(envelope); } catch (e) {
-        console.warn('[MaCollectionAccount] cloud save failed (local vault ok):', e);
+      try { await cloudPushEnvelope(envelope); lastSyncError = null; } catch (e) {
+        lastSyncError = e.message || "Synchronisation impossible";
+        console.warn("[MaCollectionAccount] Enregistrement distant non effectué :", e);
       }
     }
     return payload;
@@ -344,8 +388,9 @@
     const envelope = { ciphertext: enc.ciphertext, salt: enc.salt, iv: enc.iv };
     writeLocalEnvelope(envelope);
     if (authSession && cloudConfigured()) {
-      try { await cloudPushEnvelope(envelope); } catch (e) {
-        console.warn('[MaCollectionAccount] cloud save failed:', e);
+      try { await cloudPushEnvelope(envelope); lastSyncError = null; } catch (e) {
+        lastSyncError = e.message || "Synchronisation impossible";
+        console.warn("[MaCollectionAccount] Enregistrement distant non effectué :", e);
       }
     }
     return true;
@@ -360,6 +405,7 @@
   }
 
   function signOutCloud() {
+    lastSyncError = null;
     authSession = null;
     persistAuthSession();
   }
