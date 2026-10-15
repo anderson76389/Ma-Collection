@@ -117,6 +117,86 @@ try {
     const source=await page.locator("html").evaluate(n=>n.outerHTML);
     assert(!source.includes("api.nuvio.tv"),"Un ancien serveur externe ne doit pas figurer dans la page");
   });
+  await run("compte Kovelyx : aucun compte fictif sans serveur, inscription et connexion simulées",async()=>{
+    await page.evaluate(()=>window.MaCollectionAccountUi.openModal("cloud"));
+    assert.equal(await page.locator("#account-view-cloud").evaluate(n=>n.hidden),false);
+    assert.equal(await page.locator("#account-cloud-signup").isDisabled(),true,
+      "L'inscription doit rester désactivée sans serveur");
+    await page.locator("#account-cloud-url").fill("https://qa-kovelyx.supabase.co");
+    await page.locator("#account-cloud-key").fill("sb_publishable_qa");
+    await page.locator("#account-cloud-server-save").click();
+    assert.equal(await page.locator("#account-cloud-signup").isDisabled(),false);
+    const authRequests=[];
+    await page.route("https://qa-kovelyx.supabase.co/auth/v1/**",async route=>{
+      const req=route.request();
+      authRequests.push(req.url());
+      const signup=req.url().includes("/signup");
+      const user={id:"00000000-0000-4000-8000-000000000123",email:"qa@example.org"};
+      await route.fulfill({
+        status:200,contentType:"application/json",
+        headers:{"access-control-allow-origin":"*","access-control-allow-headers":"*"},
+        body:JSON.stringify(signup?{user}:{
+          user,access_token:"qa-access-token",refresh_token:"qa-refresh-token",
+          expires_in:3600,token_type:"bearer"
+        })
+      });
+    });
+    try {
+      await page.locator("#account-cloud-email").fill("qa@example.org");
+      await page.locator("#account-cloud-password").fill("motdepasse-de-test-123");
+      await page.locator("#account-cloud-signup").click();
+      await page.waitForFunction(()=>document.querySelector("#account-cloud-status")?.textContent.includes("Confirmez l’e-mail"),{timeout:10000});
+      assert.equal(await page.evaluate(()=>window.MaCollectionAccount.status().cloudSignedIn),false);
+      await page.locator("#account-cloud-password").fill("motdepasse-de-test-123");
+      await page.locator("#account-cloud-login").click();
+      await page.waitForFunction(()=>window.MaCollectionAccount.status().cloudSignedIn===true,{timeout:10000});
+      assert.equal(await page.locator("#account-cloud-logout").isHidden(),false);
+      const state=await page.evaluate(()=>({
+        email:window.MaCollectionAccount.status().cloudEmail,
+        passwordValue:document.querySelector("#account-cloud-password").value,
+        backend:window.MaCollectionBackendConfig.current().url
+      }));
+      assert.equal(state.email,"qa@example.org");
+      assert.equal(state.passwordValue,"");
+      assert.equal(state.backend,"https://qa-kovelyx.supabase.co");
+      assert(authRequests.some(u=>u.includes("/signup")));
+      assert(authRequests.some(u=>u.includes("grant_type=password")));
+      await page.locator("#account-cloud-logout").click();
+      assert.equal(await page.evaluate(()=>window.MaCollectionAccount.status().cloudSignedIn),false);
+    } finally {
+      await page.unroute("https://qa-kovelyx.supabase.co/auth/v1/**");
+      await page.evaluate(()=>{
+        window.MaCollectionAccount.signOutCloud();
+        window.MaCollectionBackendConfig.clear();
+        window.MaCollectionAccountUi.closeModal();
+      });
+    }
+  });
+  await run("clés API : liens officiels à côté de chaque bouton Test",async()=>{
+    await page.locator("#btn-import-kovelyx").click();
+    assert.equal(await page.locator("#mc-import-studio").evaluate(n=>n.hidden),false);
+    await page.locator("#mc-import-next").click();
+    const pair=[
+      ["mc-tmdb","https://www.themoviedb.org/settings/api"],
+      ["mc-mdblist","https://mdblist.com/preferences/"]
+    ];
+    for(const [field,url] of pair){
+      const anchor=page.locator('#'+field).locator("xpath=following-sibling::div//a").first();
+      assert.equal(await anchor.getAttribute("href"),url);
+      assert.equal(await anchor.getAttribute("target"),"_blank");
+      assert((await anchor.getAttribute("rel")).includes("noopener"));
+    }
+    await page.locator("#mc-import-next").click();
+    await page.locator("#mc-import-next").click();
+    for(const [id,url] of [
+      ["ad","https://alldebrid.com/apikeys/"],
+      ["rd","https://real-debrid.com/apitoken"]
+    ]){
+      const a=page.locator("#mc-"+id).locator("xpath=following-sibling::div//a").first();
+      assert.equal(await a.getAttribute("href"),url);
+    }
+    await page.locator("#mc-import-close").click();
+  });
   await run("Kovelyx : envoi local direct, export JSON et fermeture",async()=>{
     const directImports=[];
     await page.evaluate(()=>{ window.__MA_COLLECTION_QA_NO_PROTOCOL=true; });
