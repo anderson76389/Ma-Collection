@@ -28,6 +28,20 @@ Vous pouvez sélectionner vos contenus préférés, réorganiser votre accueil e
 
 > **À savoir :** cet outil sert à **organiser et configurer des catalogues**. Il n'héberge pas de films ou de séries et ne fournit pas, à lui seul, de service de lecture vidéo.
 
+## 👤 Compte unique Kovelyx ↔ Ma-Collection (serveur à configurer)
+
+La page web intègre un formulaire **Créer mon compte / Se connecter / Se déconnecter** compatible avec l'authentification de Kovelyx PC. L'inscription ne crée pas de compte fictif : les données sont envoyées à **votre serveur Supabase-compatible**, configuré dans les deux applications.
+
+**Aucun serveur public de comptes Kovelyx n'est fourni par défaut.** Vous devez d'abord déployer/configurer un serveur de comptes commun, puis saisir sa **clé publique publishable/anon** dans le site et dans Kovelyx. Sans ce serveur, le site et l'application restent pleinement utilisables en mode local et par export/import JSON.
+
+Le site possède également un **coffre chiffré optionnel** pour les sélections et les clés API. Un compte partagé n'implique pas la synchronisation automatique des profils si votre serveur n'a pas les tables et services nécessaires.
+
+📖 **[Guide complet pour connecter les comptes du site et de Kovelyx](docs/COMPTE_KOVELYX.md)** · **[Politiques RLS du coffre chiffré](docs/sql/ma_collection_vaults.sql)**
+
+## 🔑 Clés API : liens directs
+
+Dans l'étape « Métadonnées » et « Débridage » de l'assistant, et dans les paramètres avancés, les boutons **Tester** sont accompagnés de **Obtenir ma clé ↗** pointant vers les pages officielles TMDB, MDBList, AllDebrid et Real-Debrid. Les clés ne sont jamais envoyées dans ces liens.
+
 ## 🟣 Connexion directe à Kovelyx
 
 Ma-Collection est un éditeur de catalogues autonome, hébergé sur votre GitHub Pages. **Vous n'avez besoin d'aucun compte ni serveur tiers pour construire, traduire ou télécharger vos collections**.
