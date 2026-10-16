@@ -52,7 +52,7 @@ for (const name of names) {
         } else {
           findings.push(file + " / " + folder.title + " / " + field + " : média tiers non autorisé dans l'audit : " + url);
         }
-        if (/imkaptain\.github\.io|raw\.githubusercontent\.com\/imkaptain\/|github\.com\/imkaptain\//i.test(url)) {
+        if (!url.startsWith(own) && /imkaptain\.github\.io|raw\.githubusercontent\.com\/imkaptain\/|github\.com\/imkaptain\//i.test(url)) {
           findings.push("Ancien hébergement Kaptain actif : " + key);
         }
       }
