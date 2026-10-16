@@ -18,6 +18,8 @@
 
 ---
 
+> **Indépendance vérifiée (16 octobre 2026) :** les catalogues sont hébergés dans ce dépôt, et la migration des images principales vers Ma-Art Cloudflare a été testée. Des sources tierces (23 références de médias historiques, listes TMDB/Trakt, addons) restent à qualifier. Aucun résultat ne garantit une indépendance Internet absolue. Consultez le **[rapport d'audit d'indépendance](docs/INDEPENDANCE.md)** pour les éléments validés et les limites restantes.
+
 ## ✨ Le projet
 
 **Ma-Collection** est un éditeur indépendant pour vos collections multimédias. Les données et l’interface sont conservées dans ce dépôt ; le projet inclut du code historique adapté et crédité en fin de document.

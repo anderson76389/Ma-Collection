@@ -21,6 +21,6 @@ Objectif : conserver Ma-Collection et Ma-Art fonctionnels si ImKaptain supprime 
 
 ## Tests de non-régression
 
-Lancer à la racine : \`node scripts/audit-independance.mjs\` et \`node .github/scripts/qa-independance.mjs\`. Le workflow **Validation Ma-Collection indépendante - FR et Kovelyx** les exécute également sur chaque demande de modification.
+Lancer à la racine : `node scripts/audit-independance.mjs` et `node .github/scripts/qa-independance.mjs`. Le workflow **Validation Ma-Collection indépendante - FR et Kovelyx** les exécute également sur chaque demande de modification.
 
 **Statut : autonomie matérielle importante vis-à-vis de Kaptain, mais indépendance fonctionnelle totale non certifiée.**
