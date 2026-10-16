@@ -52,7 +52,7 @@ test('seuls les IDs TMDB LIST changent ; catégories, images, Trakt restent iden
         assert.equal(fa.heroBackdropUrl,fb.heroBackdropUrl);
         for(let k=0;k<(fa.sources||[]).length;k++){
           const sa=fa.sources[k],sb=fb.sources[k];
-          if(sa.provider==='tmdb'&&sa.tmdbSourceType==='LIST')assert.equal(sb.tmdbId,sa.tmdbId+90000000);
+          if(sa.provider==='tmdb'&&sa.tmdbSourceType==='LIST')assert.equal(sb.tmdbId,Number(sa.tmdbId)+90000000);
           else assert.deepEqual(sb,sa);
         }
       }
