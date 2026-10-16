@@ -1,0 +1,134 @@
+name: TMDB - Copier les listes vers mon compte
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - scripts/tmdb-own-lists.mjs
+      - scripts/tmdb-authorize.mjs
+      - tests/tmdb-own-lists.test.mjs
+      - .github/workflows/tmdb-own-lists.yml
+  push:
+    branches: [main]
+    paths:
+      - scripts/tmdb-own-lists.mjs
+      - scripts/tmdb-authorize.mjs
+      - tests/tmdb-own-lists.test.mjs
+      - .github/workflows/tmdb-own-lists.yml
+  schedule:
+    - cron: '13 3 * * *'
+  workflow_dispatch:
+    inputs:
+      operation:
+        type: choice
+        description: 'Analyser / copier un lot / preparer une PR de publication'
+        options: [plan, copy, publish]
+        default: plan
+        required: true
+      scope:
+        type: choice
+        description: 'Les listes Acteurs et Realisateurs en premier ou la totalite'
+        options: [all, people]
+        default: all
+        required: true
+      max_lists:
+        type: number
+        description: 'Nombre de nouvelles listes a copier ce lancement (1-10)'
+        default: 3
+        required: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: ma-collection-tmdb-own-lists
+  cancel-in-progress: false
+
+jobs:
+  test:
+    name: Valider hors ligne sans token ni modification
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: |
+          node --check scripts/tmdb-own-lists.mjs
+          node --check scripts/tmdb-authorize.mjs
+          node --test tests/tmdb-own-lists.test.mjs
+          node scripts/tmdb-own-lists.mjs --plan --scope=all > /tmp/plan.json
+
+  migration:
+    name: Copie controlee sur le compte TMDB
+    needs: test
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      TMDB_V4_USER_ACCESS_TOKEN: ${{ secrets.TMDB_V4_USER_ACCESS_TOKEN }}
+      OPERATION: ${{ github.event_name == 'schedule' && 'copy' || inputs.operation }}
+      SCOPE: ${{ github.event_name == 'schedule' && 'all' || inputs.scope }}
+      LIMIT: ${{ github.event_name == 'schedule' && '3' || inputs.max_lists }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Refuser toute creation sans secret utilisateur
+        if: env.OPERATION != 'plan'
+        shell: bash
+        run: |
+          if [[ -z "$TMDB_V4_USER_ACCESS_TOKEN" ]]; then
+            echo "::error::Ajoute TMDB_V4_USER_ACCESS_TOKEN dans Settings > Secrets and variables > Actions. Aucun compte ou liste modifie."
+            exit 2
+          fi
+      - name: Inventaire sans appel reseau
+        if: env.OPERATION == 'plan'
+        run: node scripts/tmdb-own-lists.mjs --plan --scope="$SCOPE"
+      - name: Copier et verifier sans modifier les catalogues publics
+        if: env.OPERATION == 'copy'
+        run: node scripts/tmdb-own-lists.mjs --copy --scope="$SCOPE" --limit="$LIMIT"
+      - name: Sauver la progression meme si TMDB bloque temporairement une creation
+        if: always() && env.OPERATION == 'copy'
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ ! -f data/tmdb-own-lists/mapping.json ]]; then
+            echo "Pas encore de progression a enregistrer."
+            exit 0
+          fi
+          git config user.name 'ma-collection-tmdb-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add data/tmdb-own-lists/mapping.json
+          if git diff --cached --quiet; then
+            echo "Progression deja sauvegardee."
+          else
+            git commit -m "Sauvegarder la progression de copie des listes TMDB [skip ci]"
+            git pull --rebase
+            git push
+          fi
+      - name: Creer une branche de publication sans toucher au site
+        if: env.OPERATION == 'publish'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'ma-collection-tmdb-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git switch -c "migration/listes-tmdb-personnelles-${GITHUB_RUN_ID}"
+          node scripts/tmdb-own-lists.mjs --publish --scope="$SCOPE"
+          git add collections/*.json
+          if git diff --cached --quiet; then
+            echo "Aucune nouvelle liste a migrer."
+            exit 0
+          fi
+          git commit -m "Basculer vers les listes TMDB personnelles verifiees"
+          git push --set-upstream origin HEAD
+          gh pr create --base main --head "migration/listes-tmdb-personnelles-${GITHUB_RUN_ID}" \
+            --title "Migration vers mes listes TMDB verifiees" \
+            --body "Les copies sont creees sur le compte TMDB autorise, leurs contenus et ordre ont ete compares, et seuls les identifiants TMDB LIST des collections sont remplaces. Revue et tests necessaires avant fusion."
