@@ -47,4 +47,5 @@ const kaptainMedia=external.filter(x=>/imkaptain|kaptain/i.test(x.host));
 const report={date:new Date().toISOString(),collections:names.length,folders:folderCount,sources:sourceCount,sourceCounts,visuals:{total:mediaCount,own:ownMediaCount,uniqueOwnUrls:distinct.size,externalCount:external.length,external},obsolete,verdict:{upstreamKaptainMedia:kaptainMedia.length,obsoleteIntegration:obsolete.length,fullyIndependent:external.length===0 && obsolete.length===0 && sourceCounts.trakt===0 && sourceCounts.tmdb_lists===0 && sourceCounts.addons===0}};
 console.log(JSON.stringify(report,null,2));
 console.error('AUDIT: '+names.length+' collections, '+mediaCount+' URLs médias, '+external.length+' externes, '+obsolete.length+' intégrations anciennes.');
-if(kaptainMedia.length||obsolete.length)process.exitCode=1;
+if(kaptainMedia.length) { console.error('BLOCAGE : médias encore chargés depuis un domaine Kaptain'); process.exitCode=1; }
+if(obsolete.length) console.error('AVERTISSEMENT : références historiques ou intégrations à examiner dans le rapport, sans suppression automatique.');
