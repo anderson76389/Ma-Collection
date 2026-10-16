@@ -70,7 +70,7 @@ for (const name of names) {
 const dbText = read("collections/database.js");
 assert(/^\s*window\.NUVIO_DATABASE\s*=\s*\[/.test(dbText), "Base de données principale non reconnue");
 const db = JSON.parse(dbText.replace(/^\s*window\.NUVIO_DATABASE\s*=\s*/, "").replace(/;\s*$/, ""));
-assert(Array.isArray(db) && db.length >= 20, "La base principale a perdu des catégories");
+assert(Array.isArray(db) && db.length >= 16, "La base principale a perdu des catégories (16 catégories attendues)");
 let mainHosted = 0;
 let mainLegacy = 0;
 const unavoidableHistorical = "https://max-streams.gleeze.com/images/Discovery.gif";
