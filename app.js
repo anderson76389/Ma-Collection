@@ -1,5 +1,5 @@
 /**
- * Kaptain's Mega Collection — Custom Collection Builder
+ * Ma-Collection — Custom Collection Builder
  * Client-side application logic
  */
 
@@ -205,7 +205,7 @@ const WALKTHROUGH_STEPS = [
 
 document.addEventListener('DOMContentLoaded', () => {
   bootstrapMaCollection().catch((err) => {
-    console.error('[Kaptain] bootstrap failed', err);
+    console.error('[Ma-Collection] bootstrap failed', err);
     initializeDatabase();
     bindGlobalEvents();
   });
@@ -272,10 +272,10 @@ function showFriendsOfMaCollectionChooser() {
   overlay.className = 'popup-overlay friends-chooser-overlay';
   overlay.innerHTML = `
     <div class="popup-panel friends-chooser-panel" role="dialog" aria-modal="true" aria-labelledby="friends-chooser-title">
-      <h3 class="popup-title" id="friends-chooser-title">Friends of Kaptain</h3>
-      <p class="friends-chooser-intro">Parcourez les collections d'autres créateurs avec les mêmes options d'import dans Kovelyx. Their lists stay as they built them. This tool handles the setup.</p>
+      <h3 class="popup-title" id="friends-chooser-title">Collections partenaires</h3>
+      <p class="friends-chooser-intro">Parcourez les collections d'autres créateurs avec les mêmes options d'import dans Kovelyx. Leurs listes sont conservées à l'identique et cet outil prépare leur configuration.</p>
       <div class="friends-chooser-list">${cards}</div>
-      <button type="button" class="bc-choice-cancel" id="friends-chooser-close">Back</button>
+      <button type="button" class="bc-choice-cancel" id="friends-chooser-close">Retour</button>
     </div>`;
   document.body.appendChild(overlay);
   void overlay.offsetHeight;
@@ -397,11 +397,11 @@ function applyFriendTitleBranding(channel) {
   if (!channel || !channel.friendPack) return;
   const creator = channel.friendPack.creatorName || channel.label || 'Friend';
   const collectionLabel = channel.label || `${creator} Collection`;
-  if (logo) logo.innerHTML = `Friends of Kaptain <span>${escapeHtml(collectionLabel)}</span>`;
+  if (logo) logo.innerHTML = `Collections partenaires <span>${escapeHtml(collectionLabel)}</span>`;
   if (tag) tag.textContent = channel.blurb || `${collectionLabel}, prête à être parcourue et importée dans Kovelyx.`;
 }
 
-/** Dark glass intro: Kaptain from the left, friend from the right, then notes. */
+/** Intro Ma-Collection et créateur partenaire, puis informations. */
 function playFriendIntroHero(channel) {
   return new Promise((resolve) => {
     const existing = document.getElementById('friend-intro-overlay');
@@ -420,14 +420,14 @@ function playFriendIntroHero(channel) {
         <div class="friend-intro-orb friend-intro-orb-b" aria-hidden="true"></div>
         <div class="friend-intro-rays" aria-hidden="true"></div>
         <div class="friend-intro-glass">
-          <p class="friend-intro-eyebrow">Friends of Kaptain</p>
+          <p class="friend-intro-eyebrow">Collections partenaires</p>
           <div class="friend-intro-names" aria-hidden="true">
-            <span class="friend-intro-name friend-intro-ma-collection">Kaptain</span>
+            <span class="friend-intro-name friend-intro-ma-collection">Ma-Collection</span>
             <span class="friend-intro-plus"><span class="friend-intro-plus-core">+</span></span>
             <span class="friend-intro-name friend-intro-friend">${escapeHtmlBeta(creator)}</span>
           </div>
           <div class="friend-intro-underline" aria-hidden="true"></div>
-          <p class="friend-intro-sr">Kaptain + ${escapeHtmlBeta(creator)}</p>
+          <p class="friend-intro-sr">Ma-Collection et ${escapeHtmlBeta(creator)}</p>
         </div>
       </div>`;
     document.body.appendChild(overlay);
@@ -538,7 +538,7 @@ function updateBetaBanner() {
       const collectionLabel = channel.label || (creator ? `${creator} Collection` : ver);
       text.textContent = narrow
         ? `${collectionLabel}: sending uses this pack`
-        : `${collectionLabel}: Friends of Kaptain. Ce lot peut être importé dans Kovelyx.`;
+        : `${collectionLabel}: Collections partenaires. Ce lot peut être importé dans Kovelyx.`;
       text.title = text.textContent;
     } else {
       text.textContent = narrow
@@ -2981,7 +2981,7 @@ function computeExportViewMode(optimize) {
 const BINGECAT_LOGO_SRC = 'assets/bingecat-logo.png';
 const BINGECAT_IMPORT_ENDPOINT = String(
   window.MA_COLLECTION_BINGECAT_IMPORT_ENDPOINT
-    || 'https://bingecat.com/integrations/kaptain/collections'
+    || ''
 ).trim();
 
 // Handoff-only For You rewrite. Same four Bingecat recommendation slots the
@@ -3014,7 +3014,7 @@ function buildBingecatForYouPlaceholderSources() {
   return sources;
 }
 
-// Bingecat Open-in path only — Nuvio Save File / Send keep Trakt For You.
+// Import Bingecat facultatif : les exports locaux restent autonomes.
 function prepareBingecatPayload(customConfig) {
   const placeholders = buildBingecatForYouPlaceholderSources();
   const catalogSources = placeholders.map((s) => ({
@@ -3057,7 +3057,7 @@ async function uploadForBingecat(customConfig = assembleFilteredDatabase()) {
     return;
   }
   if (!BINGECAT_IMPORT_ENDPOINT) {
-    showToast('BingeCat import is not configured for this preview.', 'error');
+    showToast('Import direct Bingecat non configuré : exportez le JSON pour un import manuel.', 'error');
     return;
   }
   const payload = prepareBingecatPayload(customConfig);

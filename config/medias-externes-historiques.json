@@ -1,0 +1,144 @@
+{
+  "schema": 1,
+  "explanation": "Exceptions historiques non hébergées dans Ma-Art : ne pas introduire de nouveaux liens tiers et ne pas modifier les visuels sans vérification des droits.",
+  "references": [
+    {
+      "file": "collections/discover.json",
+      "folderId": "folder-IHPHVHSB",
+      "field": "heroBackdropUrl",
+      "url": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/refs/heads/main/collections/curated/top-rated/backdrops/t2_flat_1080p.jpg"
+    },
+    {
+      "file": "collections/discover.json",
+      "folderId": "folder-XUX2DKEX",
+      "field": "heroBackdropUrl",
+      "url": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/refs/heads/main/collections/curated/top-rated/backdrops/t2_flat_1080p.jpg"
+    },
+    {
+      "file": "collections/for_you_trending_new.json",
+      "folderId": "6c49e433-e0ae-4ad3-9610-b19c0988a58b",
+      "field": "coverImageUrl",
+      "url": "https://i.ibb.co/ccprGWNw/For-you-Base.png"
+    },
+    {
+      "file": "collections/for_you_trending_new.json",
+      "folderId": "6c49e433-e0ae-4ad3-9610-b19c0988a58b",
+      "field": "focusGifUrl",
+      "url": "https://i.ibb.co/Jw7mYdzT/For-you-Hover.png"
+    },
+    {
+      "file": "collections/for_you_trending_new.json",
+      "folderId": "folder-4a9b21f7",
+      "field": "coverImageUrl",
+      "url": "https://i.ibb.co/JFQ07xpm/Trending-Series-Base.png"
+    },
+    {
+      "file": "collections/for_you_trending_new.json",
+      "folderId": "folder-4a9b21f7",
+      "field": "focusGifUrl",
+      "url": "https://i.ibb.co/cKMsL4gt/Trending-Series-Hover.png"
+    },
+    {
+      "file": "collections/for_you_trending_new.json",
+      "folderId": "folder-9D1C5A0D",
+      "field": "coverImageUrl",
+      "url": "https://i.ibb.co/RGWLbN1j/New-Movies-Base.png"
+    },
+    {
+      "file": "collections/for_you_trending_new.json",
+      "folderId": "folder-9D1C5A0D",
+      "field": "focusGifUrl",
+      "url": "https://i.ibb.co/0pDkBjh5/New-Movies-Hover.png"
+    },
+    {
+      "file": "collections/for_you_trending_new.json",
+      "folderId": "folder-c2fa6b78",
+      "field": "coverImageUrl",
+      "url": "https://i.ibb.co/bMXtwmrB/Trending-Movies-Base.png"
+    },
+    {
+      "file": "collections/for_you_trending_new.json",
+      "folderId": "folder-c2fa6b78",
+      "field": "focusGifUrl",
+      "url": "https://i.ibb.co/VYKdQKRd/Trending-Movies-Hover.png"
+    },
+    {
+      "file": "collections/for_you_trending_new.json",
+      "folderId": "folder-F5BC0453",
+      "field": "coverImageUrl",
+      "url": "https://i.ibb.co/fjPLCdm/New-Series-Base.png"
+    },
+    {
+      "file": "collections/for_you_trending_new.json",
+      "folderId": "folder-F5BC0453",
+      "field": "focusGifUrl",
+      "url": "https://i.ibb.co/4w5dBfyg/New-Series-Hover.png"
+    },
+    {
+      "file": "collections/streaming_services.json",
+      "folderId": "folder-5H64D1DG",
+      "field": "focusGifUrl",
+      "url": "https://max-streams.gleeze.com/images/Discovery.gif"
+    },
+    {
+      "file": "collections/trending_new.json",
+      "folderId": "folder-4a9b21f7",
+      "field": "coverImageUrl",
+      "url": "https://i.ibb.co/JFQ07xpm/Trending-Series-Base.png"
+    },
+    {
+      "file": "collections/trending_new.json",
+      "folderId": "folder-4a9b21f7",
+      "field": "focusGifUrl",
+      "url": "https://i.ibb.co/cKMsL4gt/Trending-Series-Hover.png"
+    },
+    {
+      "file": "collections/trending_new.json",
+      "folderId": "folder-9D1C5A0D",
+      "field": "coverImageUrl",
+      "url": "https://i.ibb.co/RGWLbN1j/New-Movies-Base.png"
+    },
+    {
+      "file": "collections/trending_new.json",
+      "folderId": "folder-9D1C5A0D",
+      "field": "focusGifUrl",
+      "url": "https://i.ibb.co/0pDkBjh5/New-Movies-Hover.png"
+    },
+    {
+      "file": "collections/trending_new.json",
+      "folderId": "folder-c2fa6b78",
+      "field": "coverImageUrl",
+      "url": "https://i.ibb.co/bMXtwmrB/Trending-Movies-Base.png"
+    },
+    {
+      "file": "collections/trending_new.json",
+      "folderId": "folder-c2fa6b78",
+      "field": "focusGifUrl",
+      "url": "https://i.ibb.co/VYKdQKRd/Trending-Movies-Hover.png"
+    },
+    {
+      "file": "collections/trending_new.json",
+      "folderId": "folder-F5BC0453",
+      "field": "coverImageUrl",
+      "url": "https://i.ibb.co/fjPLCdm/New-Series-Base.png"
+    },
+    {
+      "file": "collections/trending_new.json",
+      "folderId": "folder-F5BC0453",
+      "field": "focusGifUrl",
+      "url": "https://i.ibb.co/4w5dBfyg/New-Series-Hover.png"
+    },
+    {
+      "file": "collections/trending_new.json",
+      "folderId": "folder-IHPHVHSB",
+      "field": "heroBackdropUrl",
+      "url": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/refs/heads/main/collections/curated/top-rated/backdrops/t2_flat_1080p.jpg"
+    },
+    {
+      "file": "collections/trending_new.json",
+      "folderId": "folder-XUX2DKEX",
+      "field": "heroBackdropUrl",
+      "url": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/refs/heads/main/collections/curated/top-rated/backdrops/t2_flat_1080p.jpg"
+    }
+  ]
+}
