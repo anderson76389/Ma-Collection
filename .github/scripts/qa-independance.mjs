@@ -58,4 +58,7 @@ assert(accountVault.includes("/auth/v1/signup") && accountVault.includes("/auth/
 assert(accountVault.includes("ma_collection_vaults"),"Coffre cloud protégé introuvable");
 assert(existsSync(resolve(root,"docs/sql/ma_collection_vaults.sql")),"Politique RLS du coffre absente");
 
+assert(!/integrations\/kaptain\/collections/i.test(app + withoutComments),
+  "Import encore lié à l'ancienne intégration Kaptain");
+assert(!/Friends of Kaptain/i.test(app), "Ancien branding visible de Kaptain");
 console.log("QA_INDEPENDANCE_OK : import Kovelyx local et export JSON sans suivi ni compte tiers");

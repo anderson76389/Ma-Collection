@@ -49,6 +49,19 @@ def load(path, text):
     return json.loads(text)
 
 replaced = []
+repaired = []
+all_own_urls = set()
+
+def collect_own(node, field=None):
+    if isinstance(node, dict):
+        for k, v in node.items():
+            collect_own(v, k)
+    elif isinstance(node, list):
+        for v in node:
+            collect_own(v, field)
+    elif field in FIELDS and isinstance(node, str) and node.startswith(BASE + "/"):
+        all_own_urls.add(node)
+
 def compare(old, new, location="", field=None):
     if old == new:
         return
@@ -65,6 +78,10 @@ def compare(old, new, location="", field=None):
             compare(a, b, location + f"[{i}]", field)
         return
     if field in FIELDS and isinstance(old, str) and isinstance(new, str):
+        broken = "https://i.ibb.co/0pDkBjh5/New-Movies-Hover.png" * 2
+        if old == broken and new == broken[:len(broken) // 2]:
+            repaired.append(location)
+            return
         if expected_url(old) != new:
             raise ValueError("Mauvaise correspondance URL : " + location)
         replaced.append(new)
@@ -94,10 +111,11 @@ def main():
         old = load(path, read_previous(path))
         new = load(path, (ROOT/path).read_text(encoding="utf8"))
         compare(old, new, path)
-    urls = sorted(set(replaced))
-    print(f"Validation JSON OK : {len(paths)} fichiers, {len(replaced)} liens remplacés, {len(urls)} URL distinctes.", flush=True)
-    if len(replaced) < 2500:
-        raise ValueError("Trop peu de liens convertis, migration peut-être incomplète")
+        collect_own(new)
+    urls = sorted(all_own_urls)
+    print(f"Validation JSON OK : {len(paths)} fichiers, {len(replaced)} liens remplacés, {len(repaired)} URL réparées, {len(urls)} URL Cloudflare distinctes.", flush=True)
+    if len(urls) < 2700:
+        raise ValueError("Moins de 2700 liens Cloudflare : migration peut-être incomplète")
     errors = []
     with ThreadPoolExecutor(max_workers=12) as pool:
         futures = {pool.submit(probe, u):u for u in urls}

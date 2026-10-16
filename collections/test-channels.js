@@ -1,5 +1,5 @@
 /**
- * Soft-gated test channels for Kaptain Collection (GitHub Pages).
+ * Canaux de prévisualisation Ma-Collection (GitHub Pages).
  * Codes are invite-style, not cryptographic secrets. Anyone who finds the
  * beta file URL can load it. Rotate codes when a beta closes.
  *
@@ -74,7 +74,7 @@ window.MA_COLLECTION_TEST_CHANNELS = {
     },
   },
 
-  // Friends of Kaptain - Kaoxt's MDBList / AIO Metadata collection (as-is)
+  // Collection partenaire Kaoxt — MDBList / AIO Metadata, conservée à l'identique
   // Key must be uppercase: lookupTestChannel normalizes input with toUpperCase().
   KAOXTV1: {
     id: 'KaoxtV1',
@@ -94,15 +94,15 @@ window.MA_COLLECTION_TEST_CHANNELS = {
     patchNotes: {
       title: 'Kaoxt Collection',
       intro:
-        "You're in Kaoxt's collection, using Kaptain's picker. The lists run on AIO Metadata (MDBList). When you Importer dans Kovelyx, this tool installs those catalogs for whatever you picked. Kaptain's Collection stays as it was until you tap Exit Friends.",
+        "You're in Kaoxt's collection, using Ma-Collection's picker. The lists run on AIO Metadata (MDBList). When you Importer dans Kovelyx, this tool installs those catalogs for whatever you picked. Ma-Collection stays as it was until you tap Exit Friends.",
       bullets: [
-        "Browse and edit Kaoxt's folders the same way you do in Kaptain's Collection",
+        "Browse and edit Kaoxt's folders the same way you do in Ma-Collection",
         'Importer dans Kovelyx installs Kaoxt\'s AIO Metadata catalogs for your selection',
         'You need an MDBList API key (free at mdblist.com) for the lists to load',
         'Kaoxt\'s "For You" folder uses Bingecat. Paste your own Bingecat manifest if you keep that folder',
       ],
       feedback:
-        'Questions or bugs with this Friends preview? Message Kaptain on Reddit. Collection content feedback goes to Kaoxt.',
+        'Questions or bugs with this Friends preview? Ouvrez une issue sur le GitHub Ma-Collection. Collection content feedback goes to Kaoxt.',
     },
   },
 };
