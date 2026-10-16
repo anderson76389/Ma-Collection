@@ -13,39 +13,33 @@ L'outil ne déclare **jamais une copie comme réussie** avant d'avoir relu la li
 
 La copie est un **instantané** des listes originales à la date de migration : elle ne garantit pas que leur propriétaire aurait ultérieurement ajouté les mêmes œuvres. Les mises à jour futures depuis une source propre constituent une étape distincte.
 
-## 1. Autoriser ton compte TMDB (une seule fois)
+## 1. Connexion TMDB sur Windows (méthode simple, sans Git ni Node.js)
 
-Tu as besoin :
-- d'un compte gratuit sur https://www.themoviedb.org/ ;
-- de son **API Read Access Token**, accessible après création/activation de l'accès API depuis https://www.themoviedb.org/settings/api ;
-- de Node.js 22 ou plus récent ;
-- de GitHub CLI, connecté à **ton** GitHub.
+**Pas besoin d'installer Git, Node.js ou GitHub CLI sur le PC.** Ouvre PowerShell puis copie ces trois lignes :
 
-Sur Windows, dans PowerShell :
+```powershell
+$p = Join-Path $env:TEMP 'connexion-tmdb-windows.ps1'
+Invoke-WebRequest -UseBasicParsing -Uri 'https://raw.githubusercontent.com/anderson76389/Ma-Collection/main/scripts/connexion-tmdb-windows.ps1' -OutFile $p
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File $p
+```
 
-    winget install --id GitHub.cli -e
-    gh auth login
+Lis le script avant de l'exécuter si tu le souhaites : [scripts/connexion-tmdb-windows.ps1](../scripts/connexion-tmdb-windows.ps1). Le contournement de la politique d'exécution est **limité au processus PowerShell qui lance ce script**, pas à l'ensemble de Windows.
 
-Si Node.js n'est pas présent, installer Node.js LTS et rouvrir PowerShell.
+Le script :
+1. ouvre la page officielle [Paramètres API de TMDB](https://www.themoviedb.org/settings/api) ;
+2. demande **l'API Read Access Token** (saisie masquée dans PowerShell, différente de la clé API v3) ;
+3. ouvre la page officielle TMDB pour autoriser ton compte ;
+4. copie temporairement le jeton utilisateur autorisé dans le presse-papiers Windows ;
+5. ouvre [les secrets GitHub du dépôt](https://github.com/anderson76389/Ma-Collection/settings/secrets/actions/new). Crée un secret **TMDB_V4_USER_ACCESS_TOKEN**, colle le jeton dans sa valeur et enregistre ;
+6. efface le presse-papiers après confirmation. Le jeton ne doit jamais être envoyé dans le chat, un fichier public ou une issue GitHub.
 
-Clone puis ouvre ce dépôt (ou mets à jour ta copie existante) :
+Si la procédure ne fonctionne pas, relance PowerShell avec `$p` (déjà téléchargé), puis envoie **uniquement le texte de l'erreur**, sans jeton :
 
-    git clone https://github.com/anderson76389/Ma-Collection.git
-    cd Ma-Collection
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File $p
+```
 
-Entre ton **API Read Access Token** uniquement dans PowerShell quand il est demandé (ne l'envoie jamais dans une conversation ou une Issue) :
-
-    $env:TMDB_V4_READ_TOKEN = Read-Host "API Read Access Token TMDB"
-    node scripts/tmdb-authorize.mjs
-    Remove-Item Env:TMDB_V4_READ_TOKEN
-
-Le script affichera le lien officiel TMDB te permettant d'autoriser ton compte. Une fois approuvé dans le navigateur, reviens dans PowerShell et appuie sur Entrée. Le script utilise GitHub CLI pour enregistrer automatiquement le jeton d'utilisateur dans **Settings > Secrets and variables > Actions**, sous le nom :
-
-    TMDB_V4_USER_ACCESS_TOKEN
-
-Le jeton de ton compte n'est jamais commité ni affiché dans les logs GitHub Actions.
-
-**Important** : ne confonds pas ton API Read Access Token (application) avec le jeton utilisateur autorisé (écriture). TMDB exige ce deuxième jeton pour créer des listes sur ton compte.
+La procédure Git/Node/GitHub CLI `scripts/tmdb-authorize.mjs` reste disponible comme **alternative** aux utilisateurs qui ont déjà ces outils, mais n'est plus nécessaire sous Windows.
 
 ## 2. Vérifier le plan sans aucune modification
 
