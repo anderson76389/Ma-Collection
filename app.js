@@ -3057,7 +3057,8 @@ async function uploadForBingecat(customConfig = assembleFilteredDatabase()) {
     return;
   }
   if (!BINGECAT_IMPORT_ENDPOINT) {
-    showToast('Import direct Bingecat non configuré : exportez le JSON pour un import manuel.', 'error');
+    showToast('Import direct Bingecat non configuré : préparation du fichier JSON à importer manuellement.', 'info');
+    exportForBingecat();
     return;
   }
   const payload = prepareBingecatPayload(customConfig);

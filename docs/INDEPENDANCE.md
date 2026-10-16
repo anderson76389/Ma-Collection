@@ -19,8 +19,12 @@ Objectif : conserver Ma-Collection et Ma-Art fonctionnels si ImKaptain supprime 
 - Le test Cloudflare du 15 octobre contrôle le code HTTP et le type MIME des images, **pas leur hash SHA-256 après publication**. Vérifier l'intégrité de la diffusion réelle et la présence des facturations/produits dans le tableau de bord Cloudflare.
 - Sauvegarder hors GitHub les dépôts, les fichiers et les paramètres/secrets (sans exposer de jetons), pour éviter une dépendance unique à GitHub.
 
+### Fichiers historiques non actifs
+
+Les anciennes archives `Kaptain_Nuvio_Native_*.json` peuvent encore conserver des adresses d'images Kaptain. Elles sont conservées pour référence et compatibilité, **mais ne sont pas la base chargée au démarrage** (`collections/database.js`) ni la sortie courante de l'éditeur. N'utilisez pas ces anciens exports comme preuve d'indépendance ; leur éventuelle migration doit être validée séparément.
+
 ## Tests de non-régression
 
-Lancer à la racine : \`node scripts/audit-independance.mjs\` et \`node .github/scripts/qa-independance.mjs\`. Le workflow **Validation Ma-Collection indépendante - FR et Kovelyx** les exécute également sur chaque demande de modification.
+Lancer à la racine : `node scripts/audit-independance.mjs` et `node .github/scripts/qa-independance.mjs`. Le workflow **Validation Ma-Collection indépendante - FR et Kovelyx** les exécute également sur chaque demande de modification.
 
 **Statut : autonomie matérielle importante vis-à-vis de Kaptain, mais indépendance fonctionnelle totale non certifiée.**
