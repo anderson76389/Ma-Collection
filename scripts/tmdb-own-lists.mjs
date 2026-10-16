@@ -262,4 +262,5 @@ async function main() {
     await writeFile(join(ROOT,'collections',file+'.json'),JSON.stringify(data,null,2)+'\n','utf8');
   console.log('PRÊT POUR PR : '+changes+' références remplacées dans '+changedFiles.length+' fichiers. Pas de publication automatique.');
 }
-main().catch(e=>{console.error('ERREUR MIGRATION : '+e.message);process.exitCode=1;});
+if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url))
+  main().catch(e=>{console.error('ERREUR MIGRATION : '+e.message);process.exitCode=1;});
