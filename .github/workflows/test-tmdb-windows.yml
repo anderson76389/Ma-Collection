@@ -1,0 +1,33 @@
+name: Tester la connexion TMDB Windows
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - scripts/connexion-tmdb-windows.ps1
+      - .github/workflows/test-tmdb-windows.yml
+  push:
+    branches: [main]
+    paths:
+      - scripts/connexion-tmdb-windows.ps1
+      - .github/workflows/test-tmdb-windows.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verifier le script sous Windows PowerShell
+        shell: powershell
+        run: |
+          $ErrorActionPreference = 'Stop'
+          powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/connexion-tmdb-windows.ps1 -Check
+          if ($LASTEXITCODE -ne 0) { throw "Echec de compatibilite Windows (code $LASTEXITCODE)" }
+      - name: Verifier que les collections n ont pas change
+        shell: powershell
+        run: |
+          $changes = git status --porcelain -- collections
+          if ($changes) { throw "Le test Windows ne doit pas modifier les collections" }
+          Write-Host "Aucune modification des collections."
