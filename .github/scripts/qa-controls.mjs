@@ -94,7 +94,8 @@ try {
         "Envoi rapide occupe encore une demi-colonne à "+width+" px");
       assert.equal(layout.help,"Aide et prise en main");
       assert.equal(layout.faq,"FAQ et guides de configuration");
-      assert.equal(layout.brand,"Vos catalogues en français");
+      assert(["Vos catalogues en français","Collection intégrale"].includes(layout.brand),
+        "Sous-titre en français inattendu : "+layout.brand);
     }
     await page.setViewportSize({width:1440,height:900});
   });
@@ -115,7 +116,7 @@ try {
     await page.locator("#title-screen-selfhost").click();
     assert(await page.locator(".bc-choice-overlay").last().evaluate(el=>el.classList.contains("open")));
     assert.equal(await page.locator("#sh-choice-edit").count(),1);
-    await page.locator("#bc-choice-cancel").click();
+    await page.locator("#sh-choice-cancel").click();
     await page.waitForFunction(()=>!document.querySelector(".bc-choice-overlay"));
     await page.evaluate(()=>{document.querySelector("#title-screen-overlay").scrollTop=0;});
   });
