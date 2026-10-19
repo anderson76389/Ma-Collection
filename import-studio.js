@@ -153,7 +153,7 @@
     if (state.step === 0) return `
       <div class="mc-import-card"><strong>${selected.length} catégories • ${rows.length} dossiers sélectionnés</strong>
       <p>Les sélections et filtres déjà faits dans Ma-Collection sont conservés. Vous pouvez encore modifier les catalogues avant l'import.</p></div>
-      ${true ? `<div class="mc-import-card"><strong>1. Choisir votre mode de connexion</strong>
+      ${state.destination === "kovelyx" ? `<div class="mc-import-card"><strong>1. Choisir votre mode de connexion</strong>
          <p>Vous pouvez utiliser Kovelyx avec ou sans compte. La connexion à un compte se fait dans Kovelyx PC, avec un serveur de comptes que vous avez configuré. Si aucun serveur n'est disponible, choisissez Sans connexion.</p>
          <div class="mc-import-form"><label>Mode d'importation<select data-key="importMode">
            <option value="local" ${state.importMode==="local"?"selected":""}>Sans connexion — importer dans le profil local actif</option>
@@ -162,7 +162,7 @@
       <button type="button" class="mc-import-action secondary" id="mc-edit-collections">✏️ Modifier les catégories et les sous-catégories</button>
       <p class="mc-import-note">Cette action ouvre la personnalisation guidée existante, puis vous ramène à cette préparation d'import.</p>`;
     if (state.step === 1) return `
-      <p class="mc-import-note">Ces clés sont facultatives et restent dans cet onglet. Pour Kovelyx, TMDB et MDBList peuvent être transférés via le nouveau pont local après votre confirmation. Trakt nécessite une autorisation propre à chaque service.</p>
+      <p class="mc-import-note">${state.destination==="nuvio"?"Ces clés ne sont pas intégrées au JSON Nuvio. Saisissez-les directement dans les paramètres de Nuvio après l’import ; seules les affiches personnalisées des catalogues sont exportées.":"Ces clés sont facultatives et restent dans cet onglet. Pour Kovelyx, TMDB et MDBList peuvent être transférés via le nouveau pont local après votre confirmation. Trakt nécessite une autorisation propre à chaque service."}</p>
       <div class="mc-import-form">
         <label>Langue des résumés TMDB<select data-key="tmdbLanguage">
           <option value="fr" ${state.tmdbLanguage==="fr"?"selected":""}>Français (par défaut)</option>
@@ -281,14 +281,14 @@
   function draw() {
     selected = getSelected();
     const panel = current();
-    panel.innerHTML = `<div class="mc-import-head"><div><h2 id="mc-import-title">${"🟣 Kovelyx"} — Personnaliser</h2>
+    panel.innerHTML = `<div class="mc-import-head"><div><h2 id="mc-import-title">${state.destination==="nuvio"?"🔵 Nuvio":"🟣 Kovelyx"} — Personnaliser</h2>
       <p>Étape ${state.step+1} sur ${STEPS.length} · ${STEPS[state.step]}</p></div><button type="button" class="mc-import-close" id="mc-import-close" aria-label="Fermer">×</button></div>
       <div class="mc-import-progress" aria-label="Progression">${STEPS.map((_,i)=>`<span class="${i<=state.step?"active":""}"></span>`).join("")}</div>
       ${stepHtml()}
       <p id="mc-import-error" class="mc-import-error" role="alert"></p>
       <div class="mc-import-actions">
         <button class="secondary" id="mc-import-back" type="button">${state.step?"← Retour":"Annuler"}</button>
-        <button class="primary" id="mc-import-next" type="button">${state.step===STEPS.length-1?"Continuer vers "+("Kovelyx")+" →":"Continuer →"}</button>
+        <button class="primary" id="mc-import-next" type="button">${state.step===STEPS.length-1?"Continuer vers "+(state.destination==="nuvio"?"Nuvio":"Kovelyx")+" →":"Continuer →"}</button>
       </div>`;
     byId("mc-import-close").onclick=close;
     byId("mc-import-back").onclick=() => { if (state.step) { state.step--; draw(); } else close(); };
@@ -313,7 +313,7 @@
     bind();
   }
   function open(destination, onFinish, reset=true) {
-    state.destination = "kovelyx";
+    state.destination = destination==="nuvio" ? "nuvio" : "kovelyx";
     state.onFinish = onFinish;
     if (reset) state.step = 0;
     node.hidden = false;

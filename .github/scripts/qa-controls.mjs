@@ -174,6 +174,7 @@ try {
   });
   await run("clés API : liens officiels à côté de chaque bouton Test",async()=>{
     await page.locator("#btn-import-kovelyx").click();
+    await page.locator("#mc-choice-kovelyx").click();
     assert.equal(await page.locator("#mc-import-studio").evaluate(n=>n.hidden),false);
     await page.locator("#mc-import-next").click();
     const pair=[
@@ -214,6 +215,7 @@ try {
       await route.fulfill({status:202,headers,body:"Import en attente de confirmation"});
     });
     await page.locator("#btn-import-kovelyx").click();
+    await page.locator("#mc-choice-kovelyx").click();
     assert.equal(await page.locator("#mc-import-studio").evaluate(n=>n.hidden),false);
     await page.locator("#mc-import-studio [data-key=importMode]").first().selectOption("account");
     await page.locator("#mc-import-next").click(); // Catalogues → clés
@@ -472,6 +474,32 @@ try {
     const payload=JSON.parse(await readFile(await download.path(),"utf8"));
     assert(Array.isArray(payload)&&payload.length>=10, "L'export doit contenir les catégories du site");
     assert(payload.every(c=>c.id&&Array.isArray(c.folders)));
+  });
+  await run("choix Nuvio : copie et téléchargement réels sans transmettre de clé API",async()=>{
+    await page.locator("#btn-import-kovelyx").click();
+    assert.equal(await page.locator("#mc-destinations").evaluate(n=>n.hidden),false);
+    assert.equal(await page.locator("#mc-choice-nuvio").count(),1);
+    await page.locator("#mc-choice-nuvio").click();
+    assert.equal(await page.locator("#mc-import-studio").evaluate(n=>n.hidden),false);
+    assert((await page.locator("#mc-import-title").textContent()).includes("Nuvio"));
+    // Le formulaire spécifique au compte Kovelyx ne doit pas apparaître sur Nuvio.
+    assert.equal(await page.locator("#mc-import-studio [data-key=importMode]").count(),0);
+    for(let step=0;step<6;step++)await page.locator("#mc-import-next").click();
+    assert.equal(await page.locator("#mc-nuvio-export").evaluate(n=>n.hidden),false);
+    const payload=JSON.parse(await page.evaluate(()=>window.MaCollectionDestination.buildNuvioJSON()));
+    assert(payload.length>=10);
+    assert(payload.some(c=>Array.isArray(c.folders) && c.folders.length));
+    const json=JSON.stringify(payload);
+    assert(!json.includes("qa-kovelyx-tmdb"));
+    assert(!json.includes("qa-kovelyx-realdebrid"));
+    const downloadEvent=page.waitForEvent("download",{timeout:20000});
+    await page.locator("#mc-nuvio-download").click();
+    const file=await downloadEvent;
+    assert(/^ma_collection_nuvio_fr_\d{4}-\d\d-\d\d\.json$/.test(file.suggestedFilename()));
+    const {readFile}=await import("node:fs/promises");
+    assert.deepEqual(JSON.parse(await readFile(await file.path(),"utf8")),payload);
+    await page.locator("#mc-nuvio-close").click();
+    assert.equal(await page.locator("#mc-nuvio-export").evaluate(n=>n.hidden),true);
   });
   await run("aucune esperluette dans un libellé ajouté après le chargement",async()=>{
     await page.evaluate(()=>{
