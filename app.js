@@ -3239,7 +3239,7 @@ function showBingecatStartChoice() {
   overlay.querySelector('#bc-choice-edit').addEventListener('click', () => {
     dismiss();
     hideTitleScreen();
-    showToast('Pick what you want, then hit "Bingecat" in the bar below to export.', 'success');
+    showToast('Sélectionnez vos dossiers, puis utilisez le bouton Bingecat en bas pour les exporter.', 'success');
   });
 }
 
@@ -3288,7 +3288,7 @@ function showSelfHostStartChoice() {
   overlay.querySelector('#sh-choice-edit').addEventListener('click', () => {
     dismiss();
     hideTitleScreen();
-    showToast('Pick what you want, then hit "Self-Host" in the bar below to export.', 'success');
+    showToast('Sélectionnez vos dossiers, puis utilisez le bouton Auto-hébergement en bas pour les exporter.', 'success');
   });
 }
 
