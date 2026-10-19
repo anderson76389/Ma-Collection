@@ -2,7 +2,7 @@
 <div align="center">
   <img src="assets/kovelyx-logo.svg" alt="Logo Kovelyx" width="110">
   <h1>🎬 Ma-Collection</h1>
-  <h3>Catalogues français pour Kovelyx PC</h3>
+  <h3>Catalogues français pour Kovelyx et Nuvio</h3>
   <p><strong>Créez un accueil qui vous ressemble.</strong><br>
   Parcourez les catalogues, choisissez vos catégories, organisez vos rangées et exportez votre collection depuis une interface en français.</p>
   <p>
@@ -55,6 +55,15 @@ Une connexion à votre **propre serveur de comptes Kovelyx** reste facultative p
 Si le pont local est inaccessible, **Copier le JSON** ou **Télécharger JSON** permet de poursuivre manuellement. Le fichier JSON exporté ne contient pas vos clés privées et les anciennes collections sont sauvegardées par l'application avant un remplacement confirmé.
 
 **Indépendance :** le site n'utilise aucun service d'authentification ou d'import d'une autre application multimédia. Les sources de catalogues (TMDB, Trakt, MDBList, extensions) et les hébergeurs d'affiches restent des services tiers optionnels, distincts du fonctionnement du site.
+
+## 🔵 Choisir Nuvio ou Kovelyx
+
+Le bouton **Importer la collection** propose désormais **deux destinations** après la sélection des catégories et sous-catégories :
+
+- **Kovelyx PC** : même assistant de personnalisation, puis transfert direct à l'application Windows ouverte via son pont local ; l'import attend votre confirmation dans Kovelyx. Le copier/télécharger JSON reste possible.
+- **Nuvio** : même sélection et personnalisation des affiches de dossiers, puis **Copier le JSON** ou **Télécharger le JSON**. L'importation se fait manuellement dans la rubrique **Collections → Importer** de l'application, ou sur [nuvio.tv](https://nuvio.tv/) via **Compte → Collections** si disponible.
+
+**Important :** l'option Nuvio n'est pas un import direct automatique et n'utilise pas votre compte Nuvio. Les clés API, extensions et débrideurs renseignés dans l'assistant ne sont pas intégrés aux JSON exportés ; configurez-les dans l'application destinataire. Les tests du site vérifient le choix, le contenu JSON et le téléchargement, mais ne valident pas la synchronisation sur un compte Nuvio réel.
 
 ## 🚀 Fonctionnalités
 
@@ -135,7 +144,7 @@ Vérifiez toujours les URL des extensions que vous ajoutez et ne publiez jamais 
 | [index.html](index.html) | Interface web |
 | [app.js](app.js) | Édition et gestion locale des collections |
 | [import-studio.js](import-studio.js) | Personnalisation avant import |
-| [destination-picker.js](destination-picker.js) | Ouverture de la configuration Kovelyx |
+| [destination-picker.js](destination-picker.js) | Choix Nuvio / Kovelyx et export JSON Nuvio |
 | [kovelyx-export.js](kovelyx-export.js) | Transfert local et secours JSON |
 | [debrid-services.js](debrid-services.js) | Validation et configuration des services de débridage |
 | [collections/](collections/) | Catalogues et sélections |
