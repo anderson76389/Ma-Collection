@@ -13,7 +13,11 @@ const styles = read("style.css");
 const withoutComments = html.replace(/<!--[^]*?-->/g,"");
 
 // Aucun bouton, compteur, support ni connexion à l'ancien service de comptes.
-assert(!/nuvio/i.test(withoutComments), "Ancienne mention visible dans index.html");
+// Nuvio est maintenant un choix d'export JSON manuel autorisé par l'utilisateur.
+const expectedNuvioTitle = 'title="Choisir Nuvio ou Kovelyx pour importer la sélection"';
+assert(withoutComments.includes(expectedNuvioTitle), "Le choix Nuvio / Kovelyx doit rester visible");
+assert(!/nuvio/i.test(withoutComments.replace(expectedNuvioTitle,"")),
+  "Ancien branding ou intégration Nuvio détecté hors du choix d'export explicite");
 assert(!/telemetry-icon|visitor-count|collections-generated-count/i.test(withoutComments), "Compteur toujours visible");
 assert(!/countapi\.mileshilliard\.com|MaCollectionTelemetry/.test(app), "Compteur distant encore chargé");
 assert(!/NuvioPush|api\.nuvio\.tv/.test(app + destination + local + withoutComments),
