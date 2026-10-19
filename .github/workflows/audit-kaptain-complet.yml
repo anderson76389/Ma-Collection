@@ -1,0 +1,27 @@
+name: Audit autonome Kaptain - fichiers et liens
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/audit-kaptain-complet.yml
+      - scripts/audit-kaptain-complet.mjs
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Auditer toutes les sources et archives sans modifier le dépôt
+        run: |
+          node --check scripts/audit-kaptain-complet.mjs
+          node scripts/audit-kaptain-complet.mjs
+      - name: Contrôler les collections réelles et médias référencés
+        run: node scripts/audit-independance.mjs
