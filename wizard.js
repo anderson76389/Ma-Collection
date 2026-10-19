@@ -4697,7 +4697,7 @@
       ${header('Set Up Streaming', '', true, 'streaming')}
       <div class="wiz-body wiz-streaming-prompt">
         <p class="wiz-prompt-heading">Configurer AllDebrid (prioritaire), Real-Debrid ou vos extensions ?</p>
-        <p class="wiz-note">This is what makes content actually play. It's completely optional; you can always set it up later in Nuvio's settings.</p>
+        <p class="wiz-note">Ces services permettent de récupérer des sources de lecture. Leur configuration est facultative et peut être effectuée plus tard dans les paramètres de votre application.</p>
         <div class="wiz-btn-row">
           <button class="wiz-secondary" id="wiz-stream-skip"><span>Skip for now</span></button>
           <button class="wiz-primary" id="wiz-stream-yes"><span>Yes, let's do it →</span></button>
