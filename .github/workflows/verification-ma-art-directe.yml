@@ -1,0 +1,52 @@
+name: Vérification directe Ma-Art Cloudflare - liens actuels
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/verification-ma-art-directe.yml
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Vérifier les images réellement référencées (sans modification)
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Tester les URL du site actuel sans comparer d'anciennes dates
+        shell: bash
+        run: |
+          python - <<'PY'
+          from concurrent.futures import ThreadPoolExecutor, as_completed
+          import sys
+          sys.path.insert(0, 'scripts')
+          from verify_ma_art_cloudflare import COLLECTIONS, ROOT, load, collect_own, all_own_urls, probe
+          paths = [f"collections/{name}.json" for name in COLLECTIONS] + ["collections/database.js"]
+          for path in paths:
+              data = load(path, (ROOT / path).read_text(encoding="utf-8"))
+              collect_own(data)
+          urls = sorted(all_own_urls)
+          print(f"Contrôle HTTPS / MIME : {len(urls)} URL Cloudflare distinctes dans {len(paths)} fichiers.", flush=True)
+          if len(urls) < 2700:
+              raise SystemExit("Inventaire Cloudflare incomplet : moins de 2 700 liens")
+          errors = []
+          with ThreadPoolExecutor(max_workers=12) as pool:
+              futures = {pool.submit(probe, url): url for url in urls}
+              for i, future in enumerate(as_completed(futures), 1):
+                  issue = future.result()
+                  if issue:
+                      errors.append(issue)
+                  if i % 250 == 0 or i == len(urls):
+                      print(f"Contrôle : {i}/{len(urls)}, erreurs : {len(errors)}", flush=True)
+          for url, reason in errors[:25]:
+              print("URL EN ERREUR :", url, reason, flush=True)
+          if errors:
+              raise SystemExit(f"{len(errors)} URL n'ont pas passé le contrôle HTTP/MIME.")
+          print(f"SUCCÈS : {len(urls)} liens actifs testés (HTTP 200 + image/vidéo). Aucune écriture, aucune clé API.", flush=True)
+          PY
