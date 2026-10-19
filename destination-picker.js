@@ -44,7 +44,8 @@
       <button type="button" id="mc-nuvio-close" aria-label="Fermer">×</button>
     </div>
     <p>Le fichier contient vos catégories, sous-catégories, sources et affiches personnalisées.</p>
-    <p class="mc-destinations-caption">Nuvio doit proposer l'import JSON sur votre version. L'installation dans le compte et les clés API se configurent dans Nuvio : elles ne sont pas envoyées ni incluses dans ce fichier.</p>
+    <p class="mc-destinations-caption">Import manuel : dans Nuvio, ouvrez la rubrique Collections puis Importer, et collez le JSON ou chargez le fichier selon votre version. Sur le site, utilisez <a href="https://nuvio.tv/" target="_blank" rel="noopener noreferrer">nuvio.tv ↗</a> → Compte → Collections. L'import et la synchronisation éventuelle sont gérés par Nuvio, pas par Ma-Collection.</p>
+    <p class="mc-destinations-caption">Les clés API saisies dans l'assistant ne figurent pas dans le fichier exporté. Vous devrez les configurer dans Nuvio et ses extensions.</p>
     <div class="mc-nuvio-actions">
       <button type="button" id="mc-nuvio-copy" class="mc-nuvio-primary">Copier le JSON</button>
       <button type="button" id="mc-nuvio-download" class="mc-nuvio-primary">Télécharger le JSON</button>
