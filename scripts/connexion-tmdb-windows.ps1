@@ -95,6 +95,7 @@ try {
 
     $approveUrl = 'https://www.themoviedb.org/auth/access?request_token=' + [Uri]::EscapeDataString($requestToken)
     Say ''
+    Warn 'IMPORTANT : sur la page TMDB, autorise l acces en LECTURE ET ECRITURE pour creer tes listes. Si tu choisis lecture seule, GitHub echouera avec TMDB 401/36.'
     Write-Host '3) Autorise l acces dans ton navigateur (expiration : 15 minutes) :'
     Write-Host $approveUrl
     Open-Page $approveUrl
