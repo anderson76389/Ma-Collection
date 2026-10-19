@@ -3160,26 +3160,24 @@ function showUpdateFaqModal() {
   overlay.className = 'popup-overlay faq-overlay';
   overlay.innerHTML = `
     <div class="popup-panel faq-panel" role="dialog" aria-modal="true" aria-labelledby="faq-title">
-      <h3 class="popup-title" id="faq-title">FAQ — Updates &amp; installs</h3>
+      <h3 class="popup-title" id="faq-title">FAQ — Catalogues, importations et mises à jour</h3>
       <div class="faq-body">
-        <p><strong>How do I update an older install?</strong><br>
-        Open this tool → Configurer / Importer dans Kovelyx → on each existing row choose <em>Add missing</em> (keeps your layout). Use <em>Replace</em> only when you want that row fully overwritten.</p>
-        <p><strong>Les catalogues se mettent-ils à jour ?</strong><br>
-        No. Re-open the pack or re-send from this tool when you want the latest.</p>
-        <p><strong>Movies empty / “Trakt list not found” on an old profile?</strong><br>
-        Movie lists moved from public Trakt lists to TMDB. Replace or re-send <em>Streaming Services</em>, <em>Actors</em>, and <em>Directors</em> (Add missing / Replace as needed).</p>
-        <p><strong>Bingecat — which button?</strong><br>
-        Use the in-tool <em>Bingecat</em> button (direct handoff). That path includes Streaming Services. The old “download JSON and upload elsewhere” flow is legacy.</p>
-        <p><strong>TMDB errors / empty Discover tabs?</strong><br>
-        Configurez votre clé TMDB dans Kovelyx, puis actualisez.</p>
-        <p><strong>Pack → Bingecat?</strong><br>
-        Remove or leave the old Pack rows on your profile, then send via the Bingecat button so you are not running two full copies.</p>
-        <p><strong>Hover GIFs draining battery?</strong><br>
-        Open Quick Editor → Settings and turn off hover GIFs. Cards fall back to the static PNG cover.</p>
-        <p><strong>Vote &amp; rating sliders in Guided Setup?</strong><br>
-        They scale each row’s own Studio floor — they do not stamp one number on every folder. Genre Top All Time stays much stricter than New Movies. Rating nudge only applies where a rating floor already exists (Moods). Lists and Trakt sources are not changed.</p>
+        <p><strong>Comment actualiser les catalogues déjà importés ?</strong>
+        Les catalogues dynamiques de Ma-Collection sont mis à jour sur le dépôt par des automatisations. Pour récupérer les changements dans votre application, exportez ou importez à nouveau votre sélection. L'actualisation sur GitHub ne modifie pas automatiquement votre installation.</p>
+        <p><strong>Comment conserver mes anciennes collections ?</strong>
+        Dans Kovelyx, choisissez « Fusionner » pour conserver les catégories existantes et ajouter les nouvelles, ou « Remplacer » pour renouveler la collection après vérification et sauvegarde. Confirmez toujours l'opération dans l'application.</p>
+        <p><strong>Quelle différence entre Kovelyx et Nuvio ?</strong>
+        Kovelyx PC accepte l'envoi direct par pont local après confirmation. Pour Nuvio, téléchargez ou copiez le JSON, puis utilisez sa fonction d'importation. Les identifiants et clés API ne sont pas inclus dans les fichiers exportés.</p>
+        <p><strong>Une catégorie est vide ou TMDB affiche une erreur ?</strong>
+        Vérifiez la connexion, la clé TMDB si elle est nécessaire et la disponibilité de la source. Certaines listes et extensions externes peuvent être indisponibles indépendamment de Ma-Collection.</p>
+        <p><strong>Comment utiliser Bingecat ?</strong>
+        Utilisez le bouton « Bingecat » de cet outil pour exporter la sélection adaptée, puis suivez les instructions de l'extension. Vérifiez que son service est disponible avant de compter sur la récupération des métadonnées.</p>
+        <p><strong>Comment réduire les animations des affiches ?</strong>
+        Ouvrez l'Éditeur rapide et désactivez les GIF au survol dans les paramètres correspondants ; les images fixes prennent le relais lorsque cette option le permet.</p>
+        <p><strong>À quoi servent les filtres de notes dans la personnalisation guidée ?</strong>
+        Ils adaptent les critères des sources compatibles. Les listes TMDB ou Trakt fixes ne sont pas toutes modifiées par ces réglages.</p>
       </div>
-      <button type="button" class="bc-choice-cancel" id="faq-close">Close</button>
+      <button type="button" class="bc-choice-cancel" id="faq-close">Fermer</button>
     </div>`;
   document.body.appendChild(overlay);
   void overlay.offsetHeight;
