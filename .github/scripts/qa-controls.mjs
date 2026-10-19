@@ -119,6 +119,26 @@ try {
     await page.waitForFunction(()=>!document.querySelector(".bc-choice-overlay"));
     await page.evaluate(()=>{document.querySelector("#title-screen-overlay").scrollTop=0;});
   });
+  await run("cartes de l'accueil : visite, assistant, éditeur rapide et cinématique",async()=>{
+    const actions=[
+      ["#title-screen-walkthrough","#walkthrough-overlay.active"],
+      ["#title-screen-simple","#customize-overlay.open"],
+      ["#title-screen-customize","#simple-editor-overlay.open"],
+      ["#title-screen-start",".app-screen"]
+    ];
+    for(const [card,expected] of actions){
+      const session=await buildPage({width:1280,height:800});
+      try{
+        await session.page.locator(card).click();
+        await session.page.waitForFunction(({selector,isCinematic})=>{
+          if(isCinematic) return !document.querySelector("#title-screen-overlay")?.classList.contains("active")
+            && !!document.querySelector(".app-screen .main-viewer");
+          return !!document.querySelector(selector);
+        },{selector:expected,isCinematic:card==="#title-screen-start"},{timeout:15000});
+        assert.deepEqual(session.jsErrors,[],"Erreur JS après clic sur "+card);
+      }finally{await session.page.close();}
+    }
+  });
   await run("bouton thème de l'accueil : changement réel",async()=>{
     const theme=()=>page.evaluate(()=>document.documentElement.getAttribute("data-theme"));
     const original=await theme();
