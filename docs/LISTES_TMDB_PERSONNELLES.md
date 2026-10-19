@@ -41,6 +41,35 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File $p
 
 La procédure Git/Node/GitHub CLI `scripts/tmdb-authorize.mjs` reste disponible comme **alternative** aux utilisateurs qui ont déjà ces outils, mais n'est plus nécessaire sous Windows.
 
+## Diagnostic réel du 19 octobre 2026 : jeton lecture seule
+
+Les exécutions automatiques du **17 et 18 octobre** échouaient car le secret était absent. Celle du **19 octobre** confirme que le secret GitHub est maintenant présent, mais la requête à TMDB échoue avec **HTTP 401, code 36 : “This token hasn't been granted write permission by the user.”**
+
+Cela signifie que le jeton enregistré ne dispose pas de l'autorisation d'écriture. Il faut **refaire l'autorisation TMDB**, en acceptant explicitement les permissions **lecture et écriture** sur la page officielle, puis **remplacer** le secret `TMDB_V4_USER_ACCESS_TOKEN` (dans GitHub, supprimer l'ancienne valeur ou utiliser « Update »).
+
+Sur Windows, relance l'assistant actuel :
+
+```powershell
+$p = Join-Path $env:TEMP 'connexion-tmdb-windows.ps1'
+Invoke-WebRequest -UseBasicParsing -Uri 'https://raw.githubusercontent.com/anderson76389/Ma-Collection/main/scripts/connexion-tmdb-windows.ps1' -OutFile $p
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File $p
+```
+
+Vérifie attentivement la page de consentement TMDB : une simple connexion ne suffit pas. **N'envoie aucun token dans une conversation.** Si TMDB ne propose pas l'écriture, arrêter la procédure et signaler précisément le libellé de la page plutôt que de supposer une permission obtenue.
+
+Après validation, utilise Actions → **TMDB - Copier les listes vers mon compte** → `operation=copy`, `scope=people`, `max_lists=1`. Confirme dans les logs que la première copie a réellement été créée et vérifiée.
+
+Tant que `data/tmdb-own-lists/mapping.json` n'existe pas sur main, **aucune migration n'est enregistrée** : il ne faut pas interpréter les tests hors réseau réussis comme la réussite des copies.
+
+## Choix de destination Nuvio ou Kovelyx
+
+Depuis le bouton **Importer la collection**, un sélecteur propose :
+
+- **Kovelyx** : le même assistant de personnalisation et le pont local déjà fonctionnels, avec confirmation dans l'application.
+- **Nuvio** : l'assistant de personnalisation, puis copie ou téléchargement d'un **JSON de catalogues en français**. Ce parcours n'appelle pas de serveur de compte Nuvio : l'import et les secrets/API se configurent dans Nuvio.
+
+La configuration d'addons et de clés n'est **pas ajoutée au fichier JSON Nuvio**. Il faut appliquer ces réglages dans Nuvio. Vérifier que la version de Nuvio utilisée dispose bien d'un import JSON compatible. Cela évite d'afficher une fausse réussite de synchronisation.
+
 ## 2. Vérifier le plan sans aucune modification
 
 Dans le dépôt, sous **Actions**, ouvre « TMDB - Copier les listes vers mon compte » puis **Run workflow** :
