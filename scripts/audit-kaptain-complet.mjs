@@ -44,7 +44,7 @@ for(const p of textFiles){
     try{url=new URL(raw)}catch{continue;}
     urlCount.set(url.hostname,(urlCount.get(url.hostname)||0)+1);
     if(!original(raw))continue;
-    const occurrence={file:p,line:body.slice(0,match.index).split("\n").length,host:url.hostname};
+    const occurrence={file:p,host:url.hostname};
     if(archives(p))upstreamArchive.push(occurrence);
     else if(meta(p))upstreamDocs.push(occurrence);
     else upstreamActive.push(occurrence);
