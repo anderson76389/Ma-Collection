@@ -484,8 +484,14 @@ try {
     assert((await page.locator("#mc-import-title").textContent()).includes("Nuvio"));
     // Le formulaire spécifique au compte Kovelyx ne doit pas apparaître sur Nuvio.
     assert.equal(await page.locator("#mc-import-studio [data-key=importMode]").count(),0);
-    for(let step=0;step<6;step++)await page.locator("#mc-import-next").click();
+    for(let step=0;step<5;step++)await page.locator("#mc-import-next").click();
+    const nuvioFinal=await page.locator("#mc-import-inner").innerText();
+    assert(nuvioFinal.includes("Destination Nuvio — export JSON manuel"));
+    assert(!nuvioFinal.includes("Destination Kovelyx PC"));
+    assert.equal(await page.locator("#mc-import-studio [data-key=importAction]").count(),0);
+    await page.locator("#mc-import-next").click();
     assert.equal(await page.locator("#mc-nuvio-export").evaluate(n=>n.hidden),false);
+    assert.equal(await page.locator('#mc-nuvio-export a[href="https://nuvio.tv/"]').getAttribute("rel"),"noopener noreferrer");
     const payload=JSON.parse(await page.evaluate(()=>window.MaCollectionDestination.buildNuvioJSON()));
     assert(payload.length>=10);
     assert(payload.some(c=>Array.isArray(c.folders) && c.folders.length));
