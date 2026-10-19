@@ -92,6 +92,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1407548",
+      "type": "movie",
+      "name": "Illusione",
+      "poster": "https://image.tmdb.org/t/p/w500/rxDFV66LmAtvz61JeFwdUJGG7dv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lM1g1QORjaPcYE0zqrWxIXUgLOK.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1663996",
       "type": "movie",
       "name": "L'amore sta bene su tutto",
@@ -156,14 +164,6 @@
       "name": "Il Dio dell'Amore",
       "poster": "https://image.tmdb.org/t/p/w500/apORJxfG3gASkOWmjuQn1yRQNY3.jpg",
       "background": "https://image.tmdb.org/t/p/w780/6y7Eacm37GgO7KC2ysPSyNNU341.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1397373",
-      "type": "movie",
-      "name": "Cena di classe",
-      "poster": "https://image.tmdb.org/t/p/w500/tq62SABP6986u7fYJ39vnexjgFU.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rY46avgfnWIbBwdmGSmbHuVA8z2.jpg",
       "releaseInfo": "2026"
     }
   ]

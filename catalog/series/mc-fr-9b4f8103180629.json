@@ -10,6 +10,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:320909",
+      "type": "series",
+      "name": "Les Noces des Lucioles",
+      "poster": "https://image.tmdb.org/t/p/w500/1RXEvHmis1oKTAWtKOrzJqenpb6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3zmB6PLnjf7rNNC2lnvinQtlJMx.jpg",
+      "description": "Durant l'ère Meiji, Satoko Kirigaya n’a qu’un seul souhait : se marier pour l'honneur de sa famille et ce, même si ses jours sont comptés. Mais alors qu'un assassin tente de la tuer, elle lui offre de l’épouser ! Une proposition que Shinpei Goto accepte, mais qui pourrait bien se retourner contre elle…",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:289324",
       "type": "series",
       "name": "Star Wars : Visions Présente - Le Neuvième Jedi",
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/A45lOrx7PJRjWrwlTAg09cUosQJ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/5GF3fifAe3uElhci6TI09VHBMHA.jpg",
       "description": "Hinako Konohana est la jeune fille parfaite : gracieuse, élégante et irréprochable… du moins, c’est ce que tout le monde croit. En fait, elle est tellement bonne à rien qu'elle est incapable de faire les choses les plus élémentaires ! Quand l'étudiant Itsuki Tomonari devient son assistant personnel, il se retrouve à s'occuper d'elle sans relâche pour préserver son image...",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:300267",
-      "type": "series",
-      "name": "The World's Strongest Rearguard",
-      "poster": "https://image.tmdb.org/t/p/w500/qHRIsZS6eikYpQBZGY5fqT7HlHQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/93G5xLkTan3fdkUzQVvCcf8IAMx.jpg",
-      "description": "Arihito Atobe est mort dans un accident de bus, mais il se réveille dans un autre monde, entouré de ses anciennes collègues de travail. Dans sa vie précédente, il était un assistant exploité et dévoué à son travail. À présent, il découvre qu'il est capable de jouer un rôle clé dans l'arrière-garde en apportant son soutien dans l'attaque, la défense ou les soins.",
       "releaseInfo": "2026"
     }
   ]

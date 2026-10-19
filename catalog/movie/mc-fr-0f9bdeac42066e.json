@@ -1,12 +1,39 @@
 {
   "metas": [
     {
+      "id": "tmdb:1255833",
+      "type": "movie",
+      "name": "Englouti",
+      "poster": "https://image.tmdb.org/t/p/w500/qLt9F35AdGKDXPSJtqH5DERoigI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg",
+      "description": "Un plongeur sous-marin est à la recherche des restes de son père décédé, qui s'est fait avaler par un cachalot. Il ne lui reste plus qu'une heure avant que l'oxygène ne vienne à lui manquer.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1288069",
+      "type": "movie",
+      "name": "Tenzing : à la conquête de l’Everest",
+      "poster": "https://image.tmdb.org/t/p/w500/hKA6G4Dj0Uonghi6AUwmpIvCFo0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6GXqVvL20Y0MpyVP30WoI2NPK69.jpg",
+      "description": "Un homme déterminé se lance dans une aventure périlleuse - et brave des obstacles apparemment insurmontables - pour réaliser son rêve d'être le premier à atteindre le sommet de l'Everest.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1236045",
       "type": "movie",
       "name": "Animals",
       "poster": "https://image.tmdb.org/t/p/w500/33MhDOKB0S5VwuaD9lZyV0v0st0.jpg",
       "background": "https://image.tmdb.org/t/p/w780/tzoarEu7TsG959upiELyYPm5kO9.jpg",
       "description": "Quand leur fils est enlevé, un candidat à la mairie de Los Angeles et sa femme s'efforcent de réunir l'argent de la rançon et font des choix qui pourraient bouleverser leur vie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1381078",
+      "type": "movie",
+      "name": "L'Amour de ta vie",
+      "poster": "https://image.tmdb.org/t/p/w500/1zrnRcJ8JOTXYp0Qizad1rnuIA0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mqYqKvrKTgMvK50VtEDZlYFsnHz.jpg",
+      "description": "Maya dont la rencontre fortuite avec Charlie donne naissance à une histoire d'amour passionnée et à la vie dont elle n'osait pas rêver. Lorsque tout bascule, Maya doit déterminer qui elle est, ce qu'elle veut et comment réapprendre à aimer.",
       "releaseInfo": "2026"
     },
     {
@@ -51,7 +78,7 @@
       "name": "Raison et Sentiments",
       "poster": "https://image.tmdb.org/t/p/w500/9XNEI2AYgQIIqXper5kOdGTnyf5.jpg",
       "background": "https://image.tmdb.org/t/p/w780/nkINWVL8x1KwdpO0dUbYhS3Y1iP.jpg",
-      "description": "Spoliées de l'héritage familial de Norland Park au profit de leur demi-frère John, Mme Dashwood et ses trois filles sont contraintes de s'installer au modeste Barton Cottage. Ce départ déchire l'aînée, Elinor, une jeune femme prudente et rationnelle, contrainte de quitter Edward Ferrars, le beau-frère de John dont elle s'est éprise.  Sur place, sa sœur Marianne, impulsive et passionnée, s'éprend follement du séduisant John Willoughby. Elle ignore ainsi le dévouement du colonel Brandon, pourtant sincèrement épris d'elle, ce qui inquiète grandement sa sœur.  Tout oppose le pragmatisme d'Elinor et le romantisme débridé de Marianne face aux règles de la société et aux aléas sentiments. Pourtant, malgré leurs querelles et les épreuves imposées par l'amour, leur complicité fraternelle reste inébranlable et demeure leur meilleur atout pour surmonter les tempêtes et espérer bâtir un avenir heureux.",
+      "description": "Une irrésistible nouvelle version du roman culte de Jane Austin, Raison et Sentiments, qui suit deux sœurs à travers leurs amours, leurs chagrins et le lien qui les unit d'une façon magistrale et profondément proche de nous.",
       "releaseInfo": "2026"
     },
     {
@@ -59,8 +86,17 @@
       "type": "movie",
       "name": "Primetime",
       "poster": "https://image.tmdb.org/t/p/w500/rhF8JALH8wrxKtXSCAB7a09tWsc.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1tJz8e1G21nEuzHlX771MNBRJvM.jpg",
       "description": "Chris Hansen présente l'émission policière « To Catch a Predator ». Diffusée sur NBC Dateline, cette émission tente de filmer des pédophiles présumés avec l'aide des forces de l'ordre et d'une équipe d'appâts se faisant passer pour des mineurs sur Internet. En 2006, Hansen est sur le point de révolutionner le monde de la télévision.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1433583",
+      "type": "movie",
+      "name": "Les Contrebandiers",
+      "poster": "https://image.tmdb.org/t/p/w500/hjM3hITDk5XvWu4cMn7dj7IpwY8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zLeq2fbHU6UdA7mhsYnIULORTgq.jpg",
+      "description": "Oregon, 1933. Après la mort de sa femme, Samuel Murphy est arraché à sa fille et envoyé dans un camp de travail impitoyable. Lorsqu’un surveillant sans scrupule lui promet la liberté contre une périlleuse mission de contrebande d’or, Murphy saisit sa seule chance de rentrer chez lui. Il s’embarque alors dans une expédition de tous les dangers, au cœur d’une nature hostile, où les trahisons se multiplient. Jusqu’où Murphy sera-t-il prêt à aller pour revoir sa fille ?",
       "releaseInfo": "2026"
     },
     {
@@ -87,6 +123,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/8mmQWqkvZrvxqr21WhV7Pk0WIHl.jpg",
       "background": "https://image.tmdb.org/t/p/w780/lJYniNRM2i9wXnfWVHOB4PxygFZ.jpg",
       "description": "Réunis à l'étranger pour le mariage de la fille de Marcus et Angela, les couples attisent des tensions anciennes et nouvelles en se demandant : « Pourquoi on s'est mariés, déjà ? »",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1554956",
+      "type": "movie",
+      "name": "The Incomer",
+      "poster": "https://image.tmdb.org/t/p/w500/nGnI5tT7qstkld94S8m4c68noZt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tcm829PtxDSomGOEXxzO7c0sK3p.jpg",
+      "description": "Sur une île écossaise, les frères et sœurs Isla et Sandy chassent les oiseaux et communiquent avec des êtres mythiques tout en repoussant les intrus. Leur vie bascule à l’arrivée de Daniel, un fonctionnaire maladroit venu pour les reloger.",
       "releaseInfo": "2026"
     },
     {
@@ -117,65 +162,21 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1384216",
+      "type": "movie",
+      "name": "The Dog Stars",
+      "poster": "https://image.tmdb.org/t/p/w500/w7c49Qgp3TAUC4hlo0mtgRpLOGG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/quAHqi4zBrB5fIfHvgrqiG4xzAC.jpg",
+      "description": "Dans un futur proche où une pandémie sans nom a décimé la société américaine, Hig, un pilote vit sur une base aérienne abandonnée du Colorado avec son chien et un ex-marine. Lorsqu'une transmission aléatoire passe par la radio de son Cessna 1956, la voix fait naître au plus profond du pilote l'espoir qu'une vie meilleure existe en dehors de leur périmètre étroitement contrôlé...",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1504358",
       "type": "movie",
       "name": "Don't Say Good Luck",
       "poster": "https://image.tmdb.org/t/p/w500/dgTKahWonzVLeN8Lm22WR2S7D0A.jpg",
       "background": "https://image.tmdb.org/t/p/w780/yzdMGn8IRHSGuV8AIzw19wkRU2W.jpg",
       "description": "Alors qu'elle s'apprête à briller dans le rôle principal de la comédie musicale de son lycée, Sophie Birenbaum se retrouve soudain confrontée à de graves problèmes familiaux.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1493400",
-      "type": "movie",
-      "name": "Camp Rock 3",
-      "poster": "https://image.tmdb.org/t/p/w500/9oKGprrXuvXb4wsIyzoQV9czgn3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vJb3fniB8E0JnSMr1tDyIsb6gPi.jpg",
-      "description": "Le groupe Connect 3 perd sa première partie pour une tournée de concerts très attendue. Le groupe retourne alors à son cher Camp Rock pour y dénicher la prochaine grande révélation musicale. Alors que les campeurs rivalisent pour avoir la chance d’ouvrir pour leur groupe préféré, les tensions montent, les amitiés sont mises à l’épreuve, et des alliances, des révélations et des romances inattendues se forment.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1124142",
-      "type": "movie",
-      "name": "Oklahoma Honey",
-      "poster": "https://image.tmdb.org/t/p/w500/6YCH9yUVO9Fh23WIOORl6JmCpOo.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nBSlvQrDX60rmngwcxMeMq33I9m.jpg",
-      "description": "Au cœur des terres reculées de l’Oklahoma rural, Amziah King, personnage charismatique au talent musical hors du commun, veille sur une bande de marginaux passionnés de bluegrass tout en supervisant la plus importante exploitation apicole de la région. Lorsque sa fille adoptive, dont il était éloigné depuis des années, réapparaît soudainement, Amziah y voit l’occasion de renouer les liens et de bâtir avec elle une entreprise familiale. Mais le monde du miel est sans pitié, et les rivaux d’Amziah menacent de détruire tout ce qu’il a construit.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:192139",
-      "type": "movie",
-      "name": "The Brink of War",
-      "poster": "https://image.tmdb.org/t/p/w500/vCIQeQ2ynVqEjIvtbOXGnKtcgAX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/E812GNXYQqjJwN0cVPY3icHpaj.jpg",
-      "description": "La rencontre au sommet entre Ronald Reagan et le dirigeant soviétique Mikhaïl Gorbatchev en Islande, suite à la catastrophe de Tchernobyl.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1329016",
-      "type": "movie",
-      "name": "Tony",
-      "poster": "https://image.tmdb.org/t/p/w500/zsisvReIrSIUPS3JXawt1ib9JDS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uQvz6NdyhoWE6dMurFn0BriLIv9.jpg",
-      "description": "À l'âge de 19 ans, Anthony Bourdain se rend à Provincetown et se retrouve plongé dans l'univers chaotique des coulisses d'un restaurant, marquant ainsi le début d'un été qui va bouleverser le cours de sa vie.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1468683",
-      "type": "movie",
-      "name": "Heartstopper Forever",
-      "poster": "https://image.tmdb.org/t/p/w500/r4lVJVO1BeBb11cBcXBdbHc9e9k.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wG6yUcgv4xaj64KX7SSPEwBGXW0.jpg",
-      "description": "C'est la rentrée pour la bande de Truham-Higgs. Alors que la relation entre Nick et Charlie évolue, l'heure est venue de penser à ce qui les attend après le lycée.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1404304",
-      "type": "movie",
-      "name": "The Isolate Thief",
-      "poster": "https://image.tmdb.org/t/p/w500/gmmCh2BvTKp0YGT2FYG0eOQJELi.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mwqxKmbW6ssqa5CKHrgocqbkL0C.jpg",
       "releaseInfo": "2026"
     }
   ]

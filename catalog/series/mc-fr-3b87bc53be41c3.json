@@ -9,6 +9,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:335591",
+      "type": "series",
+      "name": "Break Clause",
+      "poster": "https://image.tmdb.org/t/p/w500/9vJyc56PWSciXKWGZuhISmG1QxR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6HjObsGJJvZYkm39RMSkHlJbD6G.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:329357",
       "type": "series",
       "name": "The Space Race in Colour",
@@ -70,6 +78,14 @@
       "name": "Elvis, the Colonel and the Mob",
       "poster": "https://image.tmdb.org/t/p/w500/5sQQfMuMasKwasMbOleYN4Nm7V1.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zhuZZOfC9bM67DLEJBiJJQ92P85.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:330127",
+      "type": "series",
+      "name": "Bettany Hughes' Lost Worlds: Dawn of Civilisations",
+      "poster": "https://image.tmdb.org/t/p/w500/s7Vh3fzIlzA590aJ2xvnS5tymw5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9ChlVQcF0Cn2hQKuJYDq3vuYhpB.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -143,22 +159,6 @@
       "name": "Martin and Roman’s Irish Road Trip",
       "poster": "https://image.tmdb.org/t/p/w500/2Zkiw1gg0nqbAu5KryrbY2WYLm8.jpg",
       "background": "https://image.tmdb.org/t/p/w780/8RgeOge6Y8sQELMpAts3TZUlpSx.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:319331",
-      "type": "series",
-      "name": "Suez: 24 Hours That Broke the British Empire",
-      "poster": "https://image.tmdb.org/t/p/w500/otu8lBdSzAFVrnwLAtnXJjmvXPl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cHxX0xp5gN3ii6vODgyJ7hPyW0z.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:313437",
-      "type": "series",
-      "name": "Chernobyl: Days That Shocked the World",
-      "poster": "https://image.tmdb.org/t/p/w500/l5BAzYISvzwxSEmBfZzCuWdXAoO.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xL0mjOqxqDLLJZLBC7c53k8qEuJ.jpg",
       "releaseInfo": "2026"
     }
   ]

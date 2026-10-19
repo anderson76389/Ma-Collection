@@ -9,6 +9,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1469164",
+      "type": "movie",
+      "name": "Casa Grande",
+      "poster": "https://image.tmdb.org/t/p/w500/mE9E4nsGM91Cf4b1s6nOOdUAE9P.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/acIqwzNeL6CB74Sk7ybwwQflW3H.jpg",
+      "description": "Une fille prodigue retrouve sa famille à la ferme alors que celle-ci traverse une période difficile : son père, gravement malade, doit faire face à un diagnostic sans issue et à la pression croissante de ses concurrents. De vieilles blessures refont surface alors qu’ils tentent de faire face à ce qui les attend.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1601243",
       "type": "movie",
       "name": "Oscar Shaw",
@@ -23,6 +32,15 @@
       "name": "Thieves Highway",
       "poster": "https://image.tmdb.org/t/p/w500/78B66xBCgmnh88d10B85uFjC88V.jpg",
       "background": "https://image.tmdb.org/t/p/w780/vxOUVzvezd6BsLHPgK9c1T2kR2W.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1241983",
+      "type": "movie",
+      "name": "Train Dreams",
+      "poster": "https://image.tmdb.org/t/p/w500/aQfob5TRbPCIwThSSyUlwXLwoXy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/u5NWHVhZ6HWc1fXnqn82cMar5St.jpg",
+      "description": "Entre histoire d'amour et deuil, un bûcheron vit un paisible état de grâce dans le monde en pleine mutation du début du 20e siècle en Amérique.",
       "releaseInfo": "2025"
     },
     {
@@ -116,30 +134,12 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:324544",
-      "type": "movie",
-      "name": "Dans les contrées perdues",
-      "poster": "https://image.tmdb.org/t/p/w500/wKO67hBgdbdEhZWWnL5xmHw3wAN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/oI5uHu7lrQ0mBBH1c8OHCAkCq4x.jpg",
-      "description": "Une reine pactise avec la puissante et redoutée sorcière Gray Alys afin qu’elle lui rapporte un trésor capable de lui conférer un pouvoir immense. Alys et son guide, le vagabond Boyce, doivent s’aventurer dans les dangereuses Contrées Perdues. Là, ils devront déjouer et combattre hommes et démons pour honorer leur part du contrat…",
-      "releaseInfo": "2025"
-    },
-    {
       "id": "tmdb:710258",
       "type": "movie",
       "name": "Rust",
       "poster": "https://image.tmdb.org/t/p/w500/tbJ3RkA2s6X5qrBzrYHYTxvDBui.jpg",
       "background": "https://image.tmdb.org/t/p/w780/aB32C9FLuZXEATtFHvlbhARTDbi.jpg",
       "description": "En 1880, dans le territoire du Wyoming, un jeune garçon est condamné à mort après avoir accidentellement tué un éleveur local. Son grand-père et hors-la-loi notoire, Harland Rust, le fait évader de prison et l’emmène en fuite vers le Mexique alors qu’ils sont poursuivi par les U.S. Marshals et les chasseurs de primes.",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:1411773",
-      "type": "movie",
-      "name": "The Last Stand of Ellen Cole",
-      "poster": "https://image.tmdb.org/t/p/w500/oq1pGVQ2t3Cy4v7sA4LRhNjtZuJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rRIz3KweJDjnJ4GtCZJT3JPEYgL.jpg",
-      "description": "Lorsqu'un entrepreneur sans scrupules recourt à des moyens extrêmes pour expulser une locataire au caractère bien trempé qui fait obstacle à son nouveau projet, il oublie que cette vieille dame d'apparence inoffensive est une tueuse de profession et qu'elle est prête à tout pour protéger la maison qu'elle chérit tant.",
       "releaseInfo": "2024"
     }
   ]

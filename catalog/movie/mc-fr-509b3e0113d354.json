@@ -36,15 +36,6 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1384216",
-      "type": "movie",
-      "name": "The Dog Stars",
-      "poster": "https://image.tmdb.org/t/p/w500/w7c49Qgp3TAUC4hlo0mtgRpLOGG.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/quAHqi4zBrB5fIfHvgrqiG4xzAC.jpg",
-      "description": "Dans un futur proche où une pandémie sans nom a décimé la société américaine, Hig, un pilote vit sur une base aérienne abandonnée du Colorado avec son chien et un ex-marine. Lorsqu'une transmission aléatoire passe par la radio de son Cessna 1956, la voix fait naître au plus profond du pilote l'espoir qu'une vie meilleure existe en dehors de leur périmètre étroitement contrôlé...",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:813418",
       "type": "movie",
       "name": "Hot Spot",
@@ -103,7 +94,7 @@
       "type": "movie",
       "name": "Spider-Man : Brand New Day",
       "poster": "https://image.tmdb.org/t/p/w500/6OEtkkzoyusZDm2uMJojlWZSLR9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4tjxYg2AbOzzG9G1YuiT2NzYhlH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r08LxMJCbf1SiJIWeyH9aJmdqwC.jpg",
       "description": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttant contre le crime dans un New York qui ne le reconnaît plus, il se consacre entièrement à la protection de la ville - un Spider-Man à plein temps - mais à mesure que les responsabilités s'intensifient, la pression provoque une transformation physique surprenante qui menace son existence, tandis qu'une étrange nouvelle vague de crimes donne naissance à l'une des menaces les plus redoutables qu'il ait jamais affrontées.",
       "releaseInfo": "2026"
     },
@@ -177,6 +168,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/a77OcLmarwiBJakOPPC36m58t4L.jpg",
       "background": "https://image.tmdb.org/t/p/w780/uOQtyMV2G9yJvc0s14zmLoRC5H9.jpg",
       "description": "Un jeune homme doit faire appel à ses pouvoirs inexploités pour lutter contre un extraterrestre maléfique et son armée, qui ne reculeront devant rien pour conquérir la Terre, puis l'univers.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1227877",
+      "type": "movie",
+      "name": "I Love Boosters",
+      "poster": "https://image.tmdb.org/t/p/w500/uUOBgpLTKPRrhXTfngbmGIkzVgc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fBZ9cWUI1yB9Fcs2eoYZ4mmMUmI.jpg",
+      "description": "Une équipe de boosters (c’est-à-dire des voleurs à l’étalage professionnels) décident de s’en prendre à une papesse de la mode impitoyable.",
       "releaseInfo": "2026"
     }
   ]

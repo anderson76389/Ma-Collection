@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1750432",
+      "type": "movie",
+      "name": "Spidey et les Avengers : Halloween en équipe !",
+      "poster": "https://image.tmdb.org/t/p/w500/hPucpn2pmszkcqRVHmrlUYK0PtG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aIiCdNCo889J2QaaOd8TXaGXoO2.jpg",
+      "description": "Les projets d'Halloween de Spidey et des Avengers sont chamboulés par la mystérieuse Hallows' Eve. Elle s'amuse à jouer des tours aux enfants partis à la chasse aux bonbons et compte bien gâcher la fête pour toujours.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1477104",
       "type": "movie",
       "name": "Shaun le Mouton : La Bêêête d'Halloween",
@@ -93,7 +102,7 @@
     {
       "id": "tmdb:1315772",
       "type": "movie",
-      "name": "‎Des Minions et des Monstres",
+      "name": "Des Minions et des Monstres",
       "poster": "https://image.tmdb.org/t/p/w500/vuxZITXEqsBHBUhc1TKEU8mxvc.jpg",
       "background": "https://image.tmdb.org/t/p/w780/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg",
       "description": "Une histoire aussi rocambolesque qu’absurde, mais bien sûr totalement véridique, qui raconte comment les Minions, partis à la conquête d’Hollywood, sont devenus des stars de cinéma, pour finalement tout perdre en libérant au passage une bande de monstres déchaînés, avant de s’unir pour tenter de sauver la planète de ce nouveau désastre à leur actif.",
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/aSQktALDmbunDbwkuZbZFMEWVFr.jpg",
       "background": "https://image.tmdb.org/t/p/w780/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg",
       "description": "Mario et Luigi gèrent les tracas du royaume Champignon, se lient d'amitié avec Yoshi, tentent de réhabiliter mini-Bowser et se préparent pour l'anniversaire de Peach. Mais quand un appel à l'aide arrive de l'autre bout de la galaxie, l'équipe part découvrir des mondes nouveaux, des menaces inattendues et des personnages emblématiques, comme Rosalina et Bowser Jr.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1140521",
-      "type": "movie",
-      "name": "The Magic Faraway Tree",
-      "poster": "https://image.tmdb.org/t/p/w500/r0E0vpqQ1eJLs6d7F1m9EJpT1xS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3o7t1gF0wbXAtELCkIcYyPXoIxA.jpg",
-      "description": "Une famille de la grande ville déménage à la campagne où les enfants découvrent un arbre magique peuplé d’habitants excentriques. Ils sont transportés dans des contrées fantastiques, où leurs aventures leur permettent de renouer leurs liens familiaux.",
       "releaseInfo": "2026"
     }
   ]

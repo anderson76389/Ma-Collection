@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:105009",
+      "type": "series",
+      "name": "Tokyo Revengers",
+      "poster": "https://image.tmdb.org/t/p/w500/kzDHRAkFjeed0lJpjE1eKJDcowS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zYIFOocMfsKAEysBjhZ8akfXFdB.jpg",
+      "description": "Takemichi Hanagaki n'a pas vraiment réussi sa vie. Il fait des petits boulots sans intérêt et lorsqu'il apprend que la seule petite amie qu'il ait jamais eu au collège, Hinata Tachibana, a été tuée par l'impitoyable gang Tokyo Manji-kai, il est anéanti. Le lendemain, toujours sous le choc, il est poussé sur les rails de la gare lors d'un mouvement de foule. Mais Takemichi ne meurt pas et quand il se réveille, il est revenu douze ans en arrière. Il va ainsi retrouver ses meilleures années, mais aussi tenter de sauver celle qui l'aime et prendre sa revanche sur la vie…",
+      "releaseInfo": "2021"
+    },
+    {
       "id": "tmdb:259140",
       "type": "series",
       "name": "Ranma1/2",
@@ -8,15 +17,6 @@
       "background": "https://image.tmdb.org/t/p/w780/xvD9urN8lUtWw5fm4a87Rl3dCZn.jpg",
       "description": "Akane Tendo fait la connaissance de son nouveau fiancé, Ranma Saotomé, prodige des arts martiaux qui possède une particularité : il se transforme en fille au contact de l'eau froide.",
       "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:105009",
-      "type": "series",
-      "name": "Tokyo Revengers",
-      "poster": "https://image.tmdb.org/t/p/w500/kzDHRAkFjeed0lJpjE1eKJDcowS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jnThpphOHQRiTedCtz1yyshfkHw.jpg",
-      "description": "Takemichi Hanagaki n'a pas vraiment réussi sa vie. Il fait des petits boulots sans intérêt et lorsqu'il apprend que la seule petite amie qu'il ait jamais eu au collège, Hinata Tachibana, a été tuée par l'impitoyable gang Tokyo Manji-kai, il est anéanti. Le lendemain, toujours sous le choc, il est poussé sur les rails de la gare lors d'un mouvement de foule. Mais Takemichi ne meurt pas et quand il se réveille, il est revenu douze ans en arrière. Il va ainsi retrouver ses meilleures années, mais aussi tenter de sauver celle qui l'aime et prendre sa revanche sur la vie…",
-      "releaseInfo": "2021"
     },
     {
       "id": "tmdb:207347",
@@ -114,6 +114,7 @@
       "name": "彼方から",
       "poster": "https://image.tmdb.org/t/p/w500/rHI61poyqC6GF0HRurV6Hq12K81.jpg",
       "background": "https://image.tmdb.org/t/p/w780/inwM4LXqXYYauU1eJkfJ6uDkV11.jpg",
+      "description": "Noriko est une lycéenne comme les autres, jusqu’à ce qu’une explosion l’entraîne dans un monde de magie où personne ne parle sa langue. Complètement perdue, Noriko est secourue par Izark, un épéiste mis au ban de la société, déterminé à tuer « l’Éveil » : un personnage prophétisé qui contrôlerait le Démon du Ciel. Alors qu’Izark et Noriko se rapprochent, il se rend compte qu’elle pourrait bien être celle qu’il traque.",
       "releaseInfo": "2026"
     }
   ]

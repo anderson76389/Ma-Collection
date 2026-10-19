@@ -1,12 +1,21 @@
 {
   "metas": [
     {
-      "id": "tmdb:1783064",
+      "id": "tmdb:1642600",
       "type": "movie",
-      "name": "La cuisine du Sud-Ouest se confie",
-      "poster": "https://image.tmdb.org/t/p/w500/daVSw9XSNB1dj7XE7fmEdRxNQt1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nVDZ6IQKskvxwixeo8KxuzSTo7b.jpg",
-      "description": "Dans le Sud-Ouest, la gastronomie rime avec art de vivre. Ce vaste territoire situé entre les Pyrénées et l'océan Atlantique offre une multitude de produits : confits, foie gras ou magrets du Périgord, huitres du bassin d'Arcachon, saumon sauvage des Landes, garbure du Béarn, pruneaux d'Agen, cannelés bordelais. Cette cuisine conviviale s'invite sur toutes les tables, surtout au moment des fêtes de fin d'année.",
+      "name": "Harceleurs",
+      "poster": "https://image.tmdb.org/t/p/w500/yHE9nlvMq8f7YzSrYTi1CDAtMrT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dOxiqjaYzhnYw06zAQGvTxeqyP3.jpg",
+      "description": "Camille est professeure dans un collège d'une ville pavillonnaire, son fils Mathias est en 3e dans le même établissement. Des faits de harcèlement lui sont signalés et, avant qu'elle n'ait le temps d'en comprendre l'ampleur et d'agir, l'élève harcelé fait une tentative de suicide et tombe dans le coma. Les parents, les autres élèves, tout le monde est sous le choc. En attendant le verdict autour du sort de la victime, les efforts se concentrent sur la recherche du coupable, et tout tend à croire que c'est le fils de Camille. Qui est vraiment son fils, que cache-t-il ? Comment gérer la situation ? Et surtout pourquoi n'a-t-elle rien vu ? Camille se retrouve prise en étau entre son rôle de professeure et de mère...",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1785219",
+      "type": "movie",
+      "name": "Route 66, une légende américaine",
+      "poster": "https://image.tmdb.org/t/p/w500/Avnhwbud3Fsh8Hua864tKH38iBv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zXw9pEM4az2CiVkcrJw26QfVUiE.jpg",
+      "description": "Cent ans après sa naissance, la Route 66 continue de hanter nos imaginaires. Steinbeck, Nat King Cole, Easy Rider ou Bruce Springsteen ont fait de cet itinéraire mythique une scène où l’Amérique raconte ses promesses de liberté, mais aussi l’envers d’un décor fantasmé…",
       "releaseInfo": "2026"
     },
     {
@@ -16,6 +25,24 @@
       "poster": "https://image.tmdb.org/t/p/w500/eze74kjUq8XC9JEao7adS7imim0.jpg",
       "background": "https://image.tmdb.org/t/p/w780/9t5nP6Plv7uDvVBovo08GvxcMNt.jpg",
       "description": "Le 13 juillet 2026, la Maîtrise de Radio France a offert un concert en plein air sur l'esplanade du Champ-de-Mars, au pied de la tour Eiffel illuminée, accompagnée des pianistes Thomas Tacquet et Julien Joubert et de la violoncelliste franco-brésilienne Dom La Nena. Fondée il y a 80 ans, la Maîtrise de Radio France, dirigée par Sofi Jeannin, est le choeur d'enfants le plus célèbre du pays. C'est une école de chant et de musique qui forme environ 160 enfants et adolescents venus de toute la France à Paris et aussi à Bondy, en Seine-Saint-Denis. La Maîtrise de Radio France, avec son répertoire varié, a su, lors de cette soirée d'été, captiver le public et offrir un spectacle inoubliable. Captation le 13 juillet 2026 au pied de la Tour Eiffel à Paris 7ème.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1662627",
+      "type": "movie",
+      "name": "On aboie en silence",
+      "poster": "https://image.tmdb.org/t/p/w500/xonXMZ6vK4kIpsRUcy615xHfet8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ua4XrCA5xaqVKmCaj8Pi5kJzUHq.jpg",
+      "description": "À 17 ans, Jérémy rêve de devenir cinéaste et partage une relation fusionnelle avec son grand frère Théo, rappeur en pleine ascension. Mais l’apparition de troubles psychotiques fait vaciller l’équilibre familial. Entre déni, crises et tentatives de création commune, les deux frères luttent pour préserver leur lien. Jérémy doit accepter la maladie, vivre avec et finalement renoncer à une vie qu’il imaginait.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1783833",
+      "type": "movie",
+      "name": "Renaud, 50 ans de chansons",
+      "poster": "https://image.tmdb.org/t/p/w500/jwpwjhpkTnJdsCmePpMDms9wV0R.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1qlqHniFPucTSDtujZMqZtxiHP9.jpg",
+      "description": "Pour célébrer cinquante ans de chansons, Renaud retrace, sur la scène du Zénith de Paris, les plus grands moments de sa carrière accompagné de grands noms de la chanson française lors d'un concert exceptionnel. Entouré de 23 artistes invités, tels qu'Axelle Red, Alain Souchon, Francis Cabrel ou Olivia Ruiz, il revisite les plus grands titres de son répertoire, entre duos, reprises et moments inédits. De génération en génération, chacun vient rendre hommage à l'une des figures majeures de la chanson française, pour une rétrospective riche en émotions, en souvenirs et en surprises. Captation les 15 et 16 mai 2026 au Zénith de Paris 19ème.",
       "releaseInfo": "2026"
     },
     {
@@ -117,6 +144,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1732501",
+      "type": "movie",
+      "name": "Le concert des nuits d'été de Schönbrunn 2026",
+      "poster": "https://image.tmdb.org/t/p/w500/A3vF9HnYFCGHVLqHSeOzqWWQ4bs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fa0G5kjuhZIl3X8l46RZawXKhQP.jpg",
+      "description": "Lorenzo Viotti fait ses débuts au pupitre de cet événement, comme le baryton-basse gallois Sir Bryn Terfel, qui collabore étroitement avec l'orchestre depuis plusieurs décennies. Le concert d'une nuit d'été est chaque année un éblouissement visuel autant que l'occasion d'entendre le meilleur de la musique classique, symphonique et lyrique, grâce à la participation de solistes et chefs d'orchestre réputés. Cette année, Lorenzo Viotti a fait ses débuts au pupitre de cet événement, tout comme le baryton-basse gallois Sir Bryn Terfel, qui collabore étroitement avec l'orchestre depuis plusieurs décennies, tant à l'opéra qu'en concert.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1733176",
       "type": "movie",
       "name": "Le match France-Italie : histoire d'une rivalité",
@@ -141,40 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/ylBXKcO5T0CJQ6jf5hhRtNFL4vQ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/imboxWwhfExpm9F7htvDDum3yyX.jpg",
       "description": "La journaliste et mère de deux enfants Sidonie Bonnec part en immersion dans un métier essentiel, exercé sur quatre continents, en France, au Sénégal, au Guatemala et au Népal, pour comprendre ce que la naissance révèle de nos sociétés. D’un pays à l’autre, les contextes varient radicalement : hôpitaux saturés, villages isolés, traditions ancestrales ou systèmes de santé en construction. Les moyens changent, les pratiques aussi. Mais une même réalité demeure : les mêmes peurs, les mêmes urgences, les mêmes émotions au moment d’accueillir la vie. Ce documentaire inédit suit celles qui prennent soin de ce moment décisif : des héroïnes du quotidien, souvent invisibles mais indispensables. À travers un récit incarné, Sidonie Bonnec donne à voir un métier au cœur de l’intime et du vital.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1713721",
-      "type": "movie",
-      "name": "1939-1940 : une étrange défaite",
-      "poster": "https://image.tmdb.org/t/p/w500/qlsjMVbBixsa8Gw0zI32Q7wR6K7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/poQ7NWI4wue9M3PuCi219G7ZtD5.jpg",
-      "description": "À la fin de l’été 1939, à leur retour de vacances, les Français apprennent qu’Adolf Hitler a attaqué la Pologne. Le 3 septembre, la France entre en guerre, vingt ans après l’hécatombe de 14-18. Certes, la France est réputée être la première puissance militaire mondiale, et elle dispose d’un immense empire et d’un puissant allié, le Royaume Uni, mais chacun est saisi de vertige. Pourtant, les combats ne débuteront qu’en mai 1940. Ce documentaire d’Antoine Vitkine raconte, à hauteur d’homme, comment les Français ont vécu ces mois parmi les plus décisifs et les plus sombres de l’Histoire de France. De l’entrée en guerre, le 3 septembre 1939, à la défaite en juin 1940, au moyen d’archives exceptionnelles, en couleur, il raconte comment les Français ont fait face à l’Allemagne nazie. Qu’ont-ils éprouvé, pensé, voulu, espéré ? Pourquoi ont-ils perdu en quelques semaines une guerre qu’ils pensaient avoir les moyens de gagner et qu’ils avaient préparé tout au long des mois précédents ?",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1717719",
-      "type": "movie",
-      "name": "La Caverne du Pont-Neuf",
-      "description": "Le documentaire retrace la création et l’installation de l’œuvre de JR, La Caverne du Pont-Neuf",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1715551",
-      "type": "movie",
-      "name": "Le camping, un siècle de bonheur français",
-      "poster": "https://image.tmdb.org/t/p/w500/yqIGAex9bOpAWJelGPm6LaZGj5p.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rEn4SFw1SbcLaqVEBavDJOzjcMl.jpg",
-      "description": "Pour ses passionnés, le camping apparaît comme un espace de liberté, de convivialité et de brassage social, où se fabriquent les souvenirs d'enfance, les amitiés de toujours et un certain bonheur français. A la mer, à la campagne ou à la montagne, en famille, en colonies de vacances ou entre copains, il est vécu comme un retour à la nature et en rupture avec le quotidien. Son succès ne se dément pas. Le camping est même devenu un pilier du tourisme national. La France est aujourd'hui championne d'Europe : elle compte 7000 campings classés et 30 millions de campeurs chaque année . Ce documentaire explore les origines inattendues du camping - d'abord loisir aristocratique venu d'Angleterre et des États-Unis, avant de devenir, avec les congés payés de 1936, le symbole des vacances populaires.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1711945",
-      "type": "movie",
-      "name": "Premières notes",
-      "poster": "https://image.tmdb.org/t/p/w500/7GQMNZmxKGVSZ5FWakJ8ZMvcgJt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rPaKXJ6UR6fWQKVvQ69hEJ1yLuE.jpg",
-      "description": "Cette enquête scientifique et archéologique propose un surprenant voyage dans le passé à la recherche des premiers musiciens de l'Histoire. Bien avant d'être un art et un divertissement, la musique fut une arme, l'alliée de la guerre et du pouvoir mais aussi un langage sacré pour parler aux dieux et certainement, à l'aube de l'humanité, la bande sonore de rites ancestraux. En redonnant vie à des instruments de musique millénaires, en déchiffrant certaines des plus anciennes compositions musicales datant de l'Antiquité, ou en explorant la résonance des grottes du paléolithique et l'intrigante sonorité de pierres et de stalactites, des archéologues, chercheurs et musicologues dévoilent les échos du passé et permettent d'entendre les premières notes de l'humanité.",
       "releaseInfo": "2026"
     }
   ]

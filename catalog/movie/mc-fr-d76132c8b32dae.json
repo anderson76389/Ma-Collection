@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1758536",
+      "type": "movie",
+      "name": "Le Veuf : Jusqu'à ce que la mort...",
+      "poster": "https://image.tmdb.org/t/p/w500/1Yv7Kg5DEW1k6PCV4PEoDuv87sH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kejOti7YfpTr88Y4fWnd3UVDr8e.jpg",
+      "description": "Dans ce documentaire, un journaliste et un enquêteur dévoilent la vérité sur un tueur dont le charme masquait une série de mariages ratés et de décès suspects.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1755291",
       "type": "movie",
       "name": "NAZA",
@@ -58,7 +67,7 @@
       "id": "tmdb:1715492",
       "type": "movie",
       "name": "La dérive : Cauchemar en mer",
-      "poster": "https://image.tmdb.org/t/p/w500/jvJVqtGhibpWGR7iPoqs5kvjz8H.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/1TzK8R7T4BGBLs871qoNX8VnqgZ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/n6TYhOl8NYSoIl8q6dI16IZiodB.jpg",
       "description": "Des images inédites et des témoignages de survivants retracent le naufrage en 2012 d'un paquebot de croisière de luxe et le désastre qui s'ensuivit, dans ce documentaire immersif.",
       "releaseInfo": "2026"
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/f1kgYXsz5d1odQyy7phhYaPQI0c.jpg",
       "background": "https://image.tmdb.org/t/p/w780/r80zWzxQn5pMAPgDHd4CiKIGOyU.jpg",
       "description": "Le naturaliste Sir David Attenborough raconte l'histoire d'un groupe de gorilles, depuis sa première rencontre avec eux dans les années 70 jusqu'à aujourd'hui.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1641965",
-      "type": "movie",
-      "name": "L'Envers du sport : Qui a peur des Jail Blazers ?",
-      "poster": "https://image.tmdb.org/t/p/w500/vmp45llJTRr6JLaIamt3RlfxgTH.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gyYTuYSwiqGNaqNomscb6oSZ8Mt.jpg",
-      "description": "Joueurs instables. Poursuites criminelles. Une des journaux. Ce documentaire sans concession revient sur l'implosion spectaculaire de la talentueuse équipe de Portland en NBA.",
       "releaseInfo": "2026"
     }
   ]

@@ -5,7 +5,7 @@
       "type": "movie",
       "name": "Matchbox – Le film",
       "poster": "https://image.tmdb.org/t/p/w500/vSgnJDw404JUokiy5NDZgXOi01E.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/roawIpy5sigBB7LsU4AJDw70jPo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg",
       "description": "Des amis d'enfance reprennent contact et les retrouvailles prennent une tournure inattendue quand ils découvrent un dangereux complot international et doivent sauver le monde.",
       "releaseInfo": "2026"
     },
@@ -46,6 +46,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1477104",
+      "type": "movie",
+      "name": "Shaun le Mouton : La Bêêête d'Halloween",
+      "poster": "https://image.tmdb.org/t/p/w500/poG8LaprHjz2Ka0c6zCvDrVjEUq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
+      "description": "À Halloween, les habitants de la ferme de Mossy Bottom se réjouissent des festivités, jusqu’à ce que le Fermier maladroit saccage les citrouilles bien-aimées du troupeau. Lorsque Shaun se transforme en scientifique fou pour résoudre le problème, les choses dérapent : le Fermier disparaît et une bête sauvage rôde dans les bois.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1465063",
       "type": "movie",
       "name": "L'Île des Souvenirs",
@@ -58,9 +67,9 @@
       "id": "tmdb:1198654",
       "type": "movie",
       "name": "Bad Apples",
-      "poster": "https://image.tmdb.org/t/p/w500/sDgb5jVuZ6ZOh4YjtSMMnbovkCi.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ch1g1X6TfezRwbmiBiYRpALTQjN.jpg",
-      "description": "Maria est institutrice. Elle remet en cause son choix de carrière à cause d'un élève turbulent. Elle finit par kidnapper et séquestrer ce dernier chez elle.",
+      "poster": "https://image.tmdb.org/t/p/w500/ajTzOrqqHl65ZBQfrW1ytzrn9Gl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A5sGEzVMjvbgh5ZniaHBXAxppKQ.jpg",
+      "description": "Une enseignante enferme par inadvertance son élève le plus indiscipliné chez elle. Tentant d'arranger les choses, elle hésite lorsque sa classe commence à s'épanouir en l'absence de l'enfant, lui posant un dilemme impossible.",
       "releaseInfo": "2026"
     },
     {
@@ -88,6 +97,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/6DQkNOhW7p9PwxWTDuZy8tnXozK.jpg",
       "background": "https://image.tmdb.org/t/p/w780/npXZNWjOEYrqdMDPQ11SGBrXqAG.jpg",
       "description": "Un ancien soldat se retrouve engagé dans une course contre la montre lorsqu’une livraison médicale essentielle fait de lui et de son partenaire improbable la cible d’un cartel impitoyable. La mission se transforme rapidement en une chasse à l’homme meurtrière, où chaque détour, chaque retard et chaque balle les rapprochent de l’échec. Traqués de toutes parts, ils doivent survivre à cette poursuite et livrer leur cargaison à temps pour sauver la vie d’une petite fille.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1554956",
+      "type": "movie",
+      "name": "The Incomer",
+      "poster": "https://image.tmdb.org/t/p/w500/nGnI5tT7qstkld94S8m4c68noZt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tcm829PtxDSomGOEXxzO7c0sK3p.jpg",
+      "description": "Sur une île écossaise, les frères et sœurs Isla et Sandy chassent les oiseaux et communiquent avec des êtres mythiques tout en repoussant les intrus. Leur vie bascule à l’arrivée de Daniel, un fonctionnaire maladroit venu pour les reloger.",
       "releaseInfo": "2026"
     },
     {
@@ -136,15 +154,6 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:445466",
-      "type": "movie",
-      "name": "Idiots",
-      "poster": "https://image.tmdb.org/t/p/w500/6QmP5yGbyosxFbqoM30DDXXXLkg.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lneqlgbg3XUjNaeGYk8arhgzczo.jpg",
-      "description": "Deux paumés qui s’improvisent chauffeurs privés doivent conduire un riche adolescent jusqu’à un centre de désintoxication. Lorsque leur passager fait dérailler les plans, le périple se transforme en une virée explosive où se mêlent drogues, danger et crime.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:1204680",
       "type": "movie",
       "name": "Coyote vs. Acme",
@@ -154,30 +163,21 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:445466",
+      "type": "movie",
+      "name": "Idiots",
+      "poster": "https://image.tmdb.org/t/p/w500/6QmP5yGbyosxFbqoM30DDXXXLkg.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lneqlgbg3XUjNaeGYk8arhgzczo.jpg",
+      "description": "Deux paumés qui s’improvisent chauffeurs privés doivent conduire un riche adolescent jusqu’à un centre de désintoxication. Lorsque leur passager fait dérailler les plans, le périple se transforme en une virée explosive où se mêlent drogues, danger et crime.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1226699",
       "type": "movie",
       "name": "The Wrong Girls",
       "poster": "https://image.tmdb.org/t/p/w500/gqNqOBWuwG2oR4vcn3wQTPLsyiw.jpg",
       "background": "https://image.tmdb.org/t/p/w780/opubkXrPWbXKXIv8hBsiamTmKoM.jpg",
       "description": "Frankie et Molly, deux meilleures amies vivent au jour le jour, lorsque leur vie bascule dans le chaos à la suite d'une erreur d'identité.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1504358",
-      "type": "movie",
-      "name": "Don't Say Good Luck",
-      "poster": "https://image.tmdb.org/t/p/w500/dgTKahWonzVLeN8Lm22WR2S7D0A.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yzdMGn8IRHSGuV8AIzw19wkRU2W.jpg",
-      "description": "Alors qu'elle s'apprête à briller dans le rôle principal de la comédie musicale de son lycée, Sophie Birenbaum se retrouve soudain confrontée à de graves problèmes familiaux.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1493400",
-      "type": "movie",
-      "name": "Camp Rock 3",
-      "poster": "https://image.tmdb.org/t/p/w500/9oKGprrXuvXb4wsIyzoQV9czgn3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vJb3fniB8E0JnSMr1tDyIsb6gPi.jpg",
-      "description": "Le groupe Connect 3 perd sa première partie pour une tournée de concerts très attendue. Le groupe retourne alors à son cher Camp Rock pour y dénicher la prochaine grande révélation musicale. Alors que les campeurs rivalisent pour avoir la chance d’ouvrir pour leur groupe préféré, les tensions montent, les amitiés sont mises à l’épreuve, et des alliances, des révélations et des romances inattendues se forment.",
       "releaseInfo": "2026"
     }
   ]

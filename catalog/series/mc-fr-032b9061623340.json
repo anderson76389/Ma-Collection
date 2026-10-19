@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:213375",
+      "type": "series",
+      "name": "VisionQuest",
+      "poster": "https://image.tmdb.org/t/p/w500/bWPktguPGslrdM79SNQt4OWYyJS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uoXXbN2PrOxH6UKyP7kYwmGpAAP.jpg",
+      "description": "Une nouvelle version de Vision ayant échappé à ceux qui cherchaient à faire de lui une arme, vit dans la clandestinité. En quête d’un nouveau sens à sa vie, il consulte les IA intégrées à son programme, notamment Friday, Edith, Jarvis et le tristement célèbre Ultron. Son existence discrète prend fin lorsque sa tête est mise à prix, le contraignant à prendre la fuite avec Thomas Shepherd, un garçon mystérieux qui pourrait bien être la réincarnation du fils de Vision. Tout en échappant à ses poursuivants, Vision doit se confronter à sa propre nature, résister à l’influence d’Ultron et percer le mystère qui entoure son jeune compagnon s’il veut survivre.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:284833",
       "type": "series",
       "name": "Avatar : Les Sept Refuges",
@@ -25,6 +34,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/a3WtN94ghHX7pV44g2za35ApYDm.jpg",
       "background": "https://image.tmdb.org/t/p/w780/mGFtH5pUXDd4hSXUfl8HnHlRWJV.jpg",
       "description": "Au cœur envoûtant de La Nouvelle-Orléans, suivez trois jeunes sorcières et leurs homologues masculins — des sorciers au charme dangereux — au sein d'un internat de magie d'élite où le pouvoir est une monnaie d'échange, les secrets peuvent être mortels et l'attirance, un risque majeur. Pris entre des guerres surnaturelles ancestrales et des amours interdites, le clan doit décider jusqu'où il est prêt à aller pour protéger sa ville... et se protéger lui-même.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:252105",
+      "type": "series",
+      "name": "Golden Axe",
+      "poster": "https://image.tmdb.org/t/p/w500/toEwR5VTFzHmxW1pX1HjtTXH6QH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zOcEo3oQf9KDPPxZueNhReN6TBr.jpg",
+      "description": "Trois célèbres guerriers tentent de sauver le royaume de Yuria des attaques d'un géant maléfique. Leur noble quête est perturbée par un aventurier débutant et maladroit.",
       "releaseInfo": "2026"
     },
     {
@@ -160,24 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/wXfTsO7pqAqo94f0AHaas9rjBNh.jpg",
       "background": "https://image.tmdb.org/t/p/w780/lDmFwAaHL1kXnAfZeUTieAdUTko.jpg",
       "description": "Merlin, fils immortel du barde Taliesin et de la princesse atlante Charis, est au cœur de son enfance tragique, de sa descente aux enfers et de sa disparition mystérieuse, donnant naissance à la légende qui l'entoure. Se déroulant avant la naissance du roi Arthur, l'histoire raconte la réapparition de Merlin, que l'on croyait mort ou un mythe, dans la Bretagne post-romaine, afin d'unir les royaumes divisés et menacés par les envahisseurs saxons.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:273160",
-      "type": "series",
-      "name": "The Beauty",
-      "poster": "https://image.tmdb.org/t/p/w500/d2KSymSoJMxGpTgPGtYuKfaTD95.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cX6dzeKsBTTXHoG3uQUuhQbqyvq.jpg",
-      "description": "Drew Foster et Kara Vaughn enquêtent sur une MST qui provoque des effets esthétiques mais s'avère mortelle. Ils tentent d'échapper à des fonctionnaires corrompus et à un mercenaire qui les traquent dans le cadre d'une conspiration.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:224372",
-      "type": "series",
-      "name": "A Knight of the Seven Kingdoms",
-      "poster": "https://image.tmdb.org/t/p/w500/iremK1ulD6WPOvT9ShQDlZuEtL0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-      "description": "Du monde de Westeros nous vient une histoire improbable centrée sur les aventures d'un duo inattendu : le chevalier Ser Duncan et son écuyer l'Œuf.",
       "releaseInfo": "2026"
     }
   ]

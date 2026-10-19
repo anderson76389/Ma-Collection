@@ -28,6 +28,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1444249",
+      "type": "movie",
+      "name": "Quitte ou double",
+      "poster": "https://image.tmdb.org/t/p/w500/lrC0BxeDHpJn6MnYM5y71Ofunz5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r6pDlw34R6gm66f4EP7CUPlB9nd.jpg",
+      "description": "Cinq individus sont invités à une partie de poker à la mise élevée, mais au fur et à mesure, ils découvrent que le but du jeu n'est pas de gagner, mais de survivre.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:999136",
       "type": "movie",
       "name": "Do Not Enter",
@@ -166,14 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/mqRUgC48o2PvHX9XiO4dUwKPG0R.jpg",
       "background": "https://image.tmdb.org/t/p/w780/aJgTPBIkB5rovcF9FjUMl05W10D.jpg",
       "description": "À la suite d’un scandale, une starlette d’Hollywood se retire dans un chalet isolé. Mais elle n’est pas seule. Trahie par l’homme en qui elle avait le plus confiance, elle se retrouve piégée dans un jeu brutal de survie. Elle peut se cacher, mais pas s’enfuir.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1209775",
-      "type": "movie",
-      "name": "Maremoto",
-      "poster": "https://image.tmdb.org/t/p/w500/o1nIBGbprFG8XVSFs7uEJQOoaCv.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/n1k0HPBa2rqY8ckJ7qc2aYT011C.jpg",
       "releaseInfo": "2025"
     }
   ]

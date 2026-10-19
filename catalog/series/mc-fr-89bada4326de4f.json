@@ -10,6 +10,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:258165",
+      "type": "series",
+      "name": "À l'est d'Éden",
+      "poster": "https://image.tmdb.org/t/p/w500/ygwE4kbLxKApQoC26Q0DiJQnkMl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/70RZX7kNjA0Qjn6HigB1oMvFJ8R.jpg",
+      "description": "Au début du 20e siècle, une femme d'une indépendance farouche provoque une rupture entre deux frères, lançant une saga qui va s'étendre sur deux générations.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:299939",
       "type": "series",
       "name": "Monstre : L'Histoire de Lizzie Borden",
@@ -52,6 +61,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/iLhi3wqsLOdHB61vySJRm7y09XS.jpg",
       "background": "https://image.tmdb.org/t/p/w780/w6F8pr3bYBlr9LRCM4sIgfto5g3.jpg",
       "description": "Anna Pigeon, autrefois citadine, a trouvé refuge dans la nature après une tragédie personnelle qui a bouleversé sa vie. Devenue garde forestière, elle sillonne les parcs nationaux des États-Unis, où elle tente d’apaiser ses démons intérieurs en se consacrant à la résolution de crimes souvent aussi sauvages que les paysages qui les entourent. Rien ne l’arrête, pas même les terrains les plus hostiles ou les vérités les plus dérangeantes.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:8840",
+      "type": "series",
+      "name": "Fightland",
+      "poster": "https://image.tmdb.org/t/p/w500/wUqUxv3ZhF1spAx4HLxhP1NUK8G.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/a0gOfhPiVGjS55HX9aIXInMVXc5.jpg",
+      "description": "Produite par Curtis Jackson aka. \"50 Cent\", cette série dramatique policière vous plonge dans l'univers impitoyable et sans concession de la boxe britannique. L'histoire suit un champion de boxe déchu, ancien détenu, qui revient à Londres pour se venger de la famille mafieuse qu'il tient pour responsable de sa trahison. Starz a commandé huit épisodes. Le tournage vient de commencer à Londres.",
       "releaseInfo": "2026"
     },
     {
@@ -160,24 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/t4zldz96sQyb94Zu7a3n2PCVK3X.jpg",
       "background": "https://image.tmdb.org/t/p/w780/4CtOMphAmfHJ6cztlAYjkdStkHP.jpg",
       "description": "Grande-Bretagne, années 90 : des fonctionnaires plongent dans la clandestinité pour démanteler des gangs de trafiquants de drogue.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:311858",
-      "type": "series",
-      "name": "Prisoner",
-      "poster": "https://image.tmdb.org/t/p/w500/c7Oi35ZMhfWskXyjJsCXL9VtWAy.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uozEhY3g882QqgNg5AjR2cXAVRC.jpg",
-      "description": "Lorsqu'un convoi pénitentiaire est pris d’assaut sur une route isolée, Amber Todd, agente chargée du transfert, se retrouve prise au piège avec Tibor Stone - ancien tueur d’élite devenu témoin clé contre Pegasus, le réseau criminel qu’il a autrefois servi. Pourchassés par ce puissant conglomérat du crime et par des autorités corrompues, Amber et Tibor, deux inconnus que tout oppose, sont forcés de fuir ensemble…",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:223386",
-      "type": "series",
-      "name": "Man on Fire",
-      "poster": "https://image.tmdb.org/t/p/w500/lHDs3T91HmlR28JhTh5R14Vxaap.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dMCfHJRnAZfKoPTjYyZk2QCL8au.jpg",
-      "description": "Hanté par son passé et traqué par ses ennemis, un vétéran des forces spéciales se bat pour garder une adolescente en vie dans les rues dangereuses de Rio de Janeiro.",
       "releaseInfo": "2026"
     }
   ]

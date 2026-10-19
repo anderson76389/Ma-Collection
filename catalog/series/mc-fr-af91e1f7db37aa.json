@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:213562",
+      "type": "series",
+      "name": "Crystal Lake",
+      "poster": "https://image.tmdb.org/t/p/w500/v1XEjgqIlHvbjbEG6YSZVGTVUg0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wxiBsKFEOOFK8eQStWOykNORlXY.jpg",
+      "description": "Afin de pouvoir élever son jeune fils Jason, atteint d'une paralysie faciale périphérique depuis sa naissance, Pamela Voorhees abandonne sa carrière de chanteuse et emménage dans la petite ville de Crystal Lake où elle commence à travailler comme cuisinière dans le camp de vacances local.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:288673",
       "type": "series",
       "name": "Carrie",
@@ -132,15 +141,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/nh4vd3KIVt2PTavs5Nj1gurnMjs.jpg",
       "background": "https://image.tmdb.org/t/p/w780/5Srx9kUx439wPTsw8a5n8uRMlbb.jpg",
       "description": "Un redoutable tueur en série possède toute une collection de cassettes vidéo dans lesquelles il amène ses futures victimes à le filmer - sous de faux prétextes - toute la journée. Chaque épisode expose une nouvelle victime et l'un de ses enregistrements.",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:254008",
-      "type": "series",
-      "name": "Tales from the Void",
-      "poster": "https://image.tmdb.org/t/p/w500/nZQ7c3Ngy1p4CBATE2GMEUnT4ie.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dmhf9Eoxg7GfXe8ugO7RCu1bROX.jpg",
-      "description": "Une série d'anthologies d'horreur épisodiques basée sur les histoires les plus virales et les plus obsédantes de la communauté r/NoSleep.",
       "releaseInfo": "2024"
     }
   ]

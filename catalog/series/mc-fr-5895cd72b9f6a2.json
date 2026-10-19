@@ -54,6 +54,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:308767",
+      "type": "series",
+      "name": "Handsome Devil: Charming Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/eMYeeDy7xj22JnatwxVT8wHTujI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/efnSVhQpy5f13J7FroqKPLLDW77.jpg",
+      "description": "Handsome Devil : Charming Killer retrace comment Wade Wilson, un meurtrier de Floride, est devenu une véritable idole sur les réseaux sociaux, à travers le récit de ses crimes, de son procès et de l’évolution de sa communauté de fans",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:223530",
       "type": "series",
       "name": "Star Trek: Starfleet Academy",
@@ -67,7 +76,7 @@
       "type": "series",
       "name": "Girl Taken",
       "poster": "https://image.tmdb.org/t/p/w500/upUOfPAMhjWDPu8R31r9YvYDfum.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jznHHAp0pg68icC3b23bRAC8CoO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pPA3PDOZgq55QXTSj5FlFC6KTpJ.jpg",
       "description": "À 17 ans, Lily est enlevée par son professeur, un homme en qui elle a toute confiance. Cinq ans plus tard, elle s'échappe et dévoile des années de sévices dans une cave secrète, forçant sa famille à affronter le traumatisme pour se reconstruire.",
       "releaseInfo": "2026"
     },
@@ -146,7 +155,7 @@
       "id": "tmdb:292462",
       "type": "series",
       "name": "Tyler Perry's Divorced Sistas",
-      "poster": "https://image.tmdb.org/t/p/w500/sRvxRFx4INJNqgmpMbijQTWwUWX.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/dBowsOrmRk3RXGyDpYGdVPbdcX0.jpg",
       "background": "https://image.tmdb.org/t/p/w780/42kBhsVAasbFWDavwQgZujiBHKy.jpg",
       "description": "Rasheda, Geneva, Naomi, Tiffany et Bridgette, cinq amies proches, naviguent au quotidien entre les défis liés aux relations amoureuses, au mariage et... au divorce. Alors qu'elles s'appuient les unes sur les autres pour traverser leurs chagrins et guérir, leur plus grande épreuve vient de leur propre entourage.",
       "releaseInfo": "2025"
@@ -167,15 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/fs1GCzfveWH8A8xG7UunUYNmQPP.jpg",
       "background": "https://image.tmdb.org/t/p/w780/h0OC7ouop8YLwbAVfS3UUE2Lw4T.jpg",
       "description": "Deux familles du crime s'affrontent dans une lutte à mort qui menace de faire tomber des empires. Pris entre deux feux, Harry Da Souza, un « fixer », connaît mieux que personne la valeur de la loyauté quand des forces opposées entrent en collision.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:243217",
-      "type": "series",
-      "name": "Happy Face",
-      "poster": "https://image.tmdb.org/t/p/w500/sGHZrYxOU2U2JLrmYO12qGl1VK4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jpo9nZOayoh7IHIIXa6jRT6WP9L.jpg",
-      "description": "À 15 ans, Melissa apprend que son père est le tueur en série \"Happy Face\". Des années plus tard, elle enquête pour savoir si un innocent est condamné à tort.",
       "releaseInfo": "2025"
     }
   ]

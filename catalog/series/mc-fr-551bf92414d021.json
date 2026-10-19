@@ -1,6 +1,24 @@
 {
   "metas": [
     {
+      "id": "tmdb:456",
+      "type": "series",
+      "name": "Les Simpson",
+      "poster": "https://image.tmdb.org/t/p/w500/py1CAYqgpKKtLBdtctLIXfDYDjW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg",
+      "description": "Située à Springfield, ville américaine moyenne, la série se concentre sur les singeries et les aventures quotidiennes de la famille Simpson : Homer, Marge, Bart, Lisa et Maggie, ainsi que des milliers d'autres personnages.",
+      "releaseInfo": "1989"
+    },
+    {
+      "id": "tmdb:75219",
+      "type": "series",
+      "name": "9-1-1",
+      "poster": "https://image.tmdb.org/t/p/w500/6njUqsd3By2mJsdZm1P0moPLzs3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5QJtEzMR7NxRxBBEdB7JfM1l7Oj.jpg",
+      "description": "Du service d'appels d'urgences 911 aux pompiers, secouristes ou policiers, tous ces intervenants sont constamment sous pression, confrontés quotidiennement à des situations stupéfiantes, effrayantes, et parfois même choquantes. S'ils ont pour mission de voler au secours des personnes en danger, ces héros de l'ombre doivent aussi trouver le temps de résoudre les problèmes de leurs propres vies…",
+      "releaseInfo": "2018"
+    },
+    {
       "id": "tmdb:1549",
       "type": "series",
       "name": "WWE SmackDown",
@@ -46,12 +64,30 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:214162",
+      "type": "series",
+      "name": "Animal Control",
+      "poster": "https://image.tmdb.org/t/p/w500/h2dXm0CXMkycA9LrZbXMUD8SuTL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xpUndYidC1kECwQ2JJZR3bdL2Et.jpg",
+      "description": "Le quotidien d'un groupe d'employés de la SPA dont la vie est compliquée par le fait que les relations avec les animaux sont simples, mais pas celles avec les humains !",
+      "releaseInfo": "2023"
+    },
+    {
       "id": "tmdb:114603",
       "type": "series",
       "name": "Name That Tune",
       "poster": "https://image.tmdb.org/t/p/w500/eB0p59u9M7ESzmh6gtVHuVFziPQ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/7uly9uOevv0Lbm91J13Z7jK9lXw.jpg",
       "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:202224",
+      "type": "series",
+      "name": "Grimsburg",
+      "poster": "https://image.tmdb.org/t/p/w500/j5UcgY1u00HTizz0Rf2WpVojK7N.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qwTpjLYkIvRQ2LnYrNoelxySTdP.jpg",
+      "description": "Marvin Flute, qui pourrait être le plus grand détective de tous les temps, a un mystère qu'il ne peut toujours pas percer : sa famille, il suivra toutes les pistes qu'il a pour se racheter avec l'ex-femme qu'il n'a jamais cessé d'aimer.",
+      "releaseInfo": "2024"
     },
     {
       "id": "tmdb:216562",
@@ -62,20 +98,29 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:297005",
-      "type": "series",
-      "name": "Celebrity Weakest Link",
-      "poster": "https://image.tmdb.org/t/p/w500/gPVFVBNyXAfGRqu6mmiSqops4jC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/euzlgl95XocL76FO9Q1MoUtxYLy.jpg",
-      "releaseInfo": "2025"
-    },
-    {
       "id": "tmdb:231730",
       "type": "series",
       "name": "The Floor",
       "poster": "https://image.tmdb.org/t/p/w500/p2jQNn7fhl9PpjaowmxmdDwTYIl.jpg",
       "background": "https://image.tmdb.org/t/p/w780/cHznGpISn6Uxy9EyLel5eX7WrXG.jpg",
       "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:214087",
+      "type": "series",
+      "name": "Universal Basic Guys",
+      "poster": "https://image.tmdb.org/t/p/w500/i2TomZ3p2UoHnTRslxDebRu0blL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6RPSHN0AGd0fMPS3YxJUjQh3TqI.jpg",
+      "description": "Deux frères, Mark et Hank Hoagies, perdent leur emploi à cause de l'automatisation. Ils reçoivent alors trois mille dollars par mois dans le cadre d'un nouveau programme de revenu de base, et utilisent leur temps libre et l’argent donné pour se trouver un but, dans un monde où l'on n'a plus besoin d'eux.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:297005",
+      "type": "series",
+      "name": "Celebrity Weakest Link",
+      "poster": "https://image.tmdb.org/t/p/w500/gPVFVBNyXAfGRqu6mmiSqops4jC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/euzlgl95XocL76FO9Q1MoUtxYLy.jpg",
+      "releaseInfo": "2025"
     },
     {
       "id": "tmdb:298469",

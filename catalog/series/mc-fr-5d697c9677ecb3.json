@@ -46,6 +46,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:308767",
+      "type": "series",
+      "name": "Handsome Devil: Charming Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/eMYeeDy7xj22JnatwxVT8wHTujI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/efnSVhQpy5f13J7FroqKPLLDW77.jpg",
+      "description": "Handsome Devil : Charming Killer retrace comment Wade Wilson, un meurtrier de Floride, est devenu une véritable idole sur les réseaux sociaux, à travers le récit de ses crimes, de son procès et de l’évolution de sa communauté de fans",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:255251",
       "type": "series",
       "name": "Sean Combs : L'heure des comptes",
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/wKWAcHYcw9UCYtCBupnw53PTBg3.jpg",
       "background": "https://image.tmdb.org/t/p/w780/xM1ZNOa7NshPXcCPmy2R1Ui66Th.jpg",
       "description": "La mystérieuse disparition de Shannan Gilbert en 2010 provoque une réaction en chaîne macabre dans cette série sur les meurtres qui ont eu lieu à Gilgo Beach. Une série sous haute tension sur des crimes réels retrace la traque du tueur de Long Island vue par ses victimes, leurs proches et la police.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:286269",
-      "type": "series",
-      "name": "Les démons d'Hollywood",
-      "poster": "https://image.tmdb.org/t/p/w500/5fN8BDNTzT0NVnxLt7M2MP8BjXf.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yINZUBxBvXThLgv5rIzjvKWx1iD.jpg",
-      "description": "Six documentaires sur les scandales les plus sombres d'Hollywood avec des témoignages d'initiés, de collaborateurs de projets et de survivants qui ont enduré des abus et des luttes déchirantes",
       "releaseInfo": "2025"
     }
   ]

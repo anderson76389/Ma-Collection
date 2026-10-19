@@ -19,6 +19,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:337086",
+      "type": "series",
+      "name": "La Team, l'émission de pop culture",
+      "poster": "https://image.tmdb.org/t/p/w500/riLGNxneDSteUnltewjuAAtfTm9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kFhYqWzEmP3l6dSIw55HAkZNm8v.jpg",
+      "description": "Nouvelle formule, nouveau terrain de jeu pour \"La Team, l'émission pop culture\" portée par Julien Tellouck qui affirme son ambition : réunir les différentes cultures pop (gaming, e-sport, manga, tech et web), le tout dans un format conçu pour le direct et pensé pour vivre aussi sur les plateformes sociales.\n\nPlus interactif, plus ouvert et toujours tourné vers le divertissement, « La Team » donne rendez-vous au public le mercredi à partir de 17:30 sur YouTube(slash_ftv) et Twitch(slash_ftv).\n\nChaque émission sera ensuite disponible dès le lendemain en replay sur YouTube et france.tv\n\nRediffusion sur France 4 chaque samedi en troisième partie de soirée.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:304977",
       "type": "series",
       "name": "Les Évaporés",
@@ -166,15 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/jYcbFgcwHDaQIblUquwpXtj7rnI.jpg",
       "background": "https://image.tmdb.org/t/p/w780/eU3MZiGr0LrM2eNMfhxbFP0LRtX.jpg",
       "description": "Alors que les patrons des plus grandes entreprises européennes lancent dans les Alpes un Forum prétendant lutter contre le réchauffement climatique et sauver un glacier, le groupe Phoenix passe à l'action : aux quatre coins du continent, ces six jeunes activistes kidnappent simultanément les enfants des dirigeants. Leur objectif : dénoncer leur greenwashing et les forcer à tenir leurs promesses avant qu'il ne soit trop tard.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:322160",
-      "type": "series",
-      "name": "Taki Tanuki",
-      "poster": "https://image.tmdb.org/t/p/w500/igOgd9vEl3xTAZcdAE1Wpw6j8Nl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4hntRz099PHAORsopEpzlAVfnzE.jpg",
-      "description": "Taki est une adorable petite tanuki qui vit dans la forêt avec sa petite soeur, ses parents et son grand-père. Taki apprend l’art de la transformation, un pouvoir magique hérité de sa famille qu'elle adore utiliser pour s’amuser et surtout pour se faciliter la vie au quotidien !",
       "releaseInfo": "2026"
     }
   ]

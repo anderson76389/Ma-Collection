@@ -9,6 +9,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:337188",
+      "type": "series",
+      "name": "Sam and Colby: Paranormal Investigators",
+      "poster": "https://image.tmdb.org/t/p/w500/htpwxP4F3Zi3eHRHugWCz1KkKIO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bp2ILAUzQGkrOJ63jZ5GTCJhtdh.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:335032",
       "type": "series",
       "name": "Secret Life of a Vegas Casino",
@@ -26,9 +34,10 @@
     {
       "id": "tmdb:335571",
       "type": "series",
-      "name": "The Real Rooneys",
+      "name": "Les vrais Rooney",
       "poster": "https://image.tmdb.org/t/p/w500/yIu8AuGmtUKQRdKGGCq6SgLYvl2.jpg",
       "background": "https://image.tmdb.org/t/p/w780/uUMK43Cj0ZvwwD67TiIn8JIiBmp.jpg",
+      "description": "Un aperçu du monde des Rooney alors que la légende du football Wayne jongle entre ses devoirs de père et Coleen, l'épouse de l'ancien capitaine de l'Angleterre, équilibre sa maternité avec ses ambitions commerciales.",
       "releaseInfo": "2026"
     },
     {
@@ -54,6 +63,14 @@
       "name": "The Great British Bake Off: Second Helpings",
       "poster": "https://image.tmdb.org/t/p/w500/hyZs4jmChlcytHjZVavndyyxDHN.jpg",
       "background": "https://image.tmdb.org/t/p/w780/hnvOSPiAmvX9e4QhsfhevyULVMT.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:336504",
+      "type": "series",
+      "name": "Donncha's Away Games",
+      "poster": "https://image.tmdb.org/t/p/w500/59x4ldIjTIw9xQ7woVGorqtMGLh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qUXPIxbH1TxyPI0ZO7QCHqiSTH9.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -145,24 +162,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/3B8EZvb340YdsES35tiVfp0fNzy.jpg",
       "background": "https://image.tmdb.org/t/p/w780/tabVLK28I4xM6F8I2xUJERUVvQC.jpg",
       "description": "Bear a longtemps survécu à des expéditions périlleuses avec le Christ à ses côtés. Aujourd'hui, il emmène les stars de The Chosen affronter l'inconnu.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:330063",
-      "type": "series",
-      "name": "How to Catch a Dirtbag",
-      "poster": "https://image.tmdb.org/t/p/w500/f91uJYVcshArVdIyg5Xfo7s08Je.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mKbiwaJtvwA9iNeXvigvu60G4bB.jpg",
-      "description": "Michael McWhorter, alias Tizzy Ent, traque les personnes qui pensent pouvoir commettre des actes horribles en public sans en subir les conséquences.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:327817",
-      "type": "series",
-      "name": "Let's Marry Harry",
-      "poster": "https://image.tmdb.org/t/p/w500/oV3Kr8qV9ta1RYqtk35ajYmrFax.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/t0gc5evPWIAO7j5st6u8GGADG7x.jpg",
-      "description": "Pour épouser Jowsey, il n'y a pas que lui qu'il faudra séduire. Les futures prétendantes devront aussi faire bonne impression auprès de ses amis, alors Jowsey confie les rênes de sa vie amoureuse à ses trois plus proches confidents, Amanda Kloots, Georgia Hassarati et Sonny Henty. Le trio interviendra pour prendre les décisions difficiles et le guider dans son parcours, de célibataire endurci à partenaire de vie.",
       "releaseInfo": "2026"
     }
   ]

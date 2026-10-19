@@ -1,30 +1,12 @@
 {
   "metas": [
     {
-      "id": "tmdb:4419",
+      "id": "tmdb:213562",
       "type": "series",
-      "name": "Real Time with Bill Maher",
-      "poster": "https://image.tmdb.org/t/p/w500/pbpoLLp4kvnYVfnEGiEhagpJuVZ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/njEGYHyq58q94ZPJlSGs6bGrepv.jpg",
-      "description": "Chaque semaine, Bill Maher s'entoure d'un panel d'invités qui comprend des politiciens, des acteurs, des comédiens, des musiciens et autres, pour discuter de ce qui se passe dans le monde.",
-      "releaseInfo": "2003"
-    },
-    {
-      "id": "tmdb:60694",
-      "type": "series",
-      "name": "Last Week Tonight with John Oliver",
-      "poster": "https://image.tmdb.org/t/p/w500/fuuEjEr69uvRtGaQw70JfvdrUwb.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/q31EEBycbOyX7GGJP4GTPI5WJRO.jpg",
-      "description": "L'ancien animateur et correspondant du Daily Show, John Oliver, apporte sa personnalité à cette émission hebdomadaire de satire sur l'actualité.",
-      "releaseInfo": "2014"
-    },
-    {
-      "id": "tmdb:298852",
-      "type": "series",
-      "name": "WAR",
-      "poster": "https://image.tmdb.org/t/p/w500/pTHgCWSuv8m5bBFsL1EXu0zftg7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nLCHzeiUEupR8LDarMgCcPUuF77.jpg",
-      "description": "Cathcarts & Sons et Taylor & Byrne s’affrontent dans ce qui s’annonce comme le divorce du siècle : celui du magnat de la tech Morgan Henderson et de la superstar du cinéma Carla Duval. Une affaire retentissante qui pousse les deux cabinets à franchir toutes les limites pour remporter la victoire",
+      "name": "Crystal Lake",
+      "poster": "https://image.tmdb.org/t/p/w500/v1XEjgqIlHvbjbEG6YSZVGTVUg0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wxiBsKFEOOFK8eQStWOykNORlXY.jpg",
+      "description": "Afin de pouvoir élever son jeune fils Jason, atteint d'une paralysie faciale périphérique depuis sa naissance, Pamela Voorhees abandonne sa carrière de chanteuse et emménage dans la petite ville de Crystal Lake où elle commence à travailler comme cuisinière dans le camp de vacances local.",
       "releaseInfo": "2026"
     },
     {
@@ -37,13 +19,13 @@
       "releaseInfo": "2010"
     },
     {
-      "id": "tmdb:243875",
+      "id": "tmdb:298852",
       "type": "series",
-      "name": "Georgie & Mandy's First Marriage",
-      "poster": "https://image.tmdb.org/t/p/w500/vonR5GlaCJpSqIQMUcBm6VQYYuu.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mftiCiSsw4DFdlbfjN3cpkmMe0c.jpg",
-      "description": "Cette suite de Young Sheldon suit Georgie et Mandy alors qu'ils élèvent leur jeune famille au Texas.",
-      "releaseInfo": "2024"
+      "name": "WAR",
+      "poster": "https://image.tmdb.org/t/p/w500/pTHgCWSuv8m5bBFsL1EXu0zftg7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/muPKymUvvBqjLCyGSacxKgjrhxN.jpg",
+      "description": "Cathcarts & Sons et Taylor & Byrne s’affrontent dans ce qui s’annonce comme le divorce du siècle : celui du magnat de la tech Morgan Henderson et de la superstar du cinéma Carla Duval. Une affaire retentissante qui pousse les deux cabinets à franchir toutes les limites pour remporter la victoire",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:2808",
@@ -55,13 +37,13 @@
       "releaseInfo": "2002"
     },
     {
-      "id": "tmdb:17937",
+      "id": "tmdb:243875",
       "type": "series",
-      "name": "Ghost Adventures",
-      "poster": "https://image.tmdb.org/t/p/w500/xLJZuDxdeUqRFHFlqs0mIk9faMR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/u64huzTnF3jEYUXJ4BDlpHy2L3K.jpg",
-      "description": "L'enquêteur paranormal Zak Bagans et son équipe, Nick Groff, Aaron Goodwin, Billy Tolley et Jay Wasley, recherchent des lieux hantés au niveau national et international. Au cours de leur enquête, Zak et son équipe se familiarisent avec la région, interrogent les habitants sur les lieux hantés et rencontrent les mauvais esprits qui hanteraient ces lieux.",
-      "releaseInfo": "2008"
+      "name": "Georgie & Mandy's First Marriage",
+      "poster": "https://image.tmdb.org/t/p/w500/vonR5GlaCJpSqIQMUcBm6VQYYuu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mftiCiSsw4DFdlbfjN3cpkmMe0c.jpg",
+      "description": "Cette suite de Young Sheldon suit Georgie et Mandy alors qu'ils élèvent leur jeune famille au Texas.",
+      "releaseInfo": "2024"
     },
     {
       "id": "tmdb:207484",
@@ -73,13 +55,13 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:231801",
+      "id": "tmdb:17937",
       "type": "series",
-      "name": "GET JIRO",
-      "poster": "https://image.tmdb.org/t/p/w500/li3TH09EF6JyHPVoTvub4nPOfwU.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xe6wbOPKuSMOze4rl48NFWy8PNe.jpg",
-      "description": "Sino : Le futur. Los Angeles est sous la coupe de chefs cuisiniers d'élite. Jiro, un maître sushi mêlé à un conflit culinaire sanglant dans l'impitoyable milieu de la restauration cherche à se venger grâce à ses talents de chef.",
-      "releaseInfo": "2026"
+      "name": "Ghost Adventures",
+      "poster": "https://image.tmdb.org/t/p/w500/xLJZuDxdeUqRFHFlqs0mIk9faMR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/u64huzTnF3jEYUXJ4BDlpHy2L3K.jpg",
+      "description": "L'enquêteur paranormal Zak Bagans et son équipe, Nick Groff, Aaron Goodwin, Billy Tolley et Jay Wasley, recherchent des lieux hantés au niveau national et international. Au cours de leur enquête, Zak et son équipe se familiarisent avec la région, interrogent les habitants sur les lieux hantés et rencontrent les mauvais esprits qui hanteraient ces lieux.",
+      "releaseInfo": "2008"
     },
     {
       "id": "tmdb:256695",
@@ -88,15 +70,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/gZuwOtqQRPvLOhLV21qfaC3tIxS.jpg",
       "background": "https://image.tmdb.org/t/p/w780/Zk5UmvJ634LhA56R18h8RfipFG.jpg",
       "description": "Mordecai, un geai bleu, et Rigby, un raton laveur, deux amis paresseux, travaillent dans un parc municipal. Mais, quoi qu'ils entreprennent, leurs tâches quotidiennes finissent invariablement par basculer dans un chaos totalement surréaliste, au grand désespoir de leur patron et de leurs collègues...",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:285418",
-      "type": "series",
-      "name": "Youth",
-      "poster": "https://image.tmdb.org/t/p/w500/2YD9VOcTn5J8vfESJ7hrhfxPyf5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7pwybpJ2VSqqWgxZHTYqzRz01qH.jpg",
-      "description": "Alex a une carrière, une famille et une riche expérience de la vie, mais elle doit aussi faire face aux réalités de la cinquantaine, s'occuper de ses parents vieillissants, élever un fils adolescent en difficulté et essayer de déterminer s'il y a encore de la place pour la romance et l'excitation dans sa propre vie.",
       "releaseInfo": "2026"
     },
     {
@@ -109,13 +82,31 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:279185",
+      "id": "tmdb:285418",
       "type": "series",
-      "name": "Tourments",
-      "poster": "https://image.tmdb.org/t/p/w500/eUSh6sJmv7k30kBELK0mNIEEvFa.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uqlqU7IOOrJBLSdxe3VQlO6OXy0.jpg",
-      "description": "Une journaliste en disgrâce retourne dans sa ville natale et entreprend d'enquêter sur la disparition non résolue d'un ami d'enfance.",
+      "name": "Youth",
+      "poster": "https://image.tmdb.org/t/p/w500/2YD9VOcTn5J8vfESJ7hrhfxPyf5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7pwybpJ2VSqqWgxZHTYqzRz01qH.jpg",
+      "description": "Alex a une carrière, une famille et une riche expérience de la vie, mais elle doit aussi faire face aux réalités de la cinquantaine, s'occuper de ses parents vieillissants, élever un fils adolescent en difficulté et essayer de déterminer s'il y a encore de la place pour la romance et l'excitation dans sa propre vie.",
       "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:231801",
+      "type": "series",
+      "name": "GET JIRO",
+      "poster": "https://image.tmdb.org/t/p/w500/li3TH09EF6JyHPVoTvub4nPOfwU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xe6wbOPKuSMOze4rl48NFWy8PNe.jpg",
+      "description": "Sino : Le futur. Los Angeles est sous la coupe de chefs cuisiniers d'élite. Jiro, un maître sushi mêlé à un conflit culinaire sanglant dans l'impitoyable milieu de la restauration cherche à se venger grâce à ses talents de chef.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:34045",
+      "type": "series",
+      "name": "Soeurs épouses",
+      "poster": "https://image.tmdb.org/t/p/w500/lnSXPiP9nYx23AbaekTCdTBq722.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bpD0l55NTyHzIGX0QdTdogTk1ro.jpg",
+      "description": "Série documentaire suivant le quotidien d'une famille polygame de l'Utah, aux États-Unis.",
+      "releaseInfo": "2010"
     },
     {
       "id": "tmdb:239618",
@@ -127,9 +118,18 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:279185",
+      "type": "series",
+      "name": "Tourments",
+      "poster": "https://image.tmdb.org/t/p/w500/eUSh6sJmv7k30kBELK0mNIEEvFa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uqlqU7IOOrJBLSdxe3VQlO6OXy0.jpg",
+      "description": "Une journaliste en disgrâce retourne dans sa ville natale et entreprend d'enquêter sur la disparition non résolue d'un ami d'enfance.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:331033",
       "type": "series",
-      "name": "Colisión",
+      "name": "Collision",
       "poster": "https://image.tmdb.org/t/p/w500/4loiHfZZx027yP0CtErtCPbkTc1.jpg",
       "background": "https://image.tmdb.org/t/p/w780/oaRWutbj0UiJej6xIYB3p8wwP9V.jpg",
       "releaseInfo": "2026"
@@ -138,8 +138,8 @@
       "id": "tmdb:288385",
       "type": "series",
       "name": "Paolo",
-      "poster": "https://image.tmdb.org/t/p/w500/4EGhg689jbAO865qWs8AznalyWl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2kZsDfhTAAEAwcIsCbbgxOFqWN3.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/5arYNSnKiCWxdwdrzjvP5vokPkV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mjje2ajzDEpT3wDgc28RtjIq3WD.jpg",
       "description": "La vie ordinaire de Paolo bascule lorsqu’il recroise la route de Téophane, un ancien camarade d’école, qui brigue aujourd’hui la mairie de sa ville et qui a semble-t-il tout pour lui. Ce qui commence par une simple admiration et une volonté de soutenir la campagne se transforme en une obsession dévorante….",
       "releaseInfo": "2026"
     },
@@ -171,13 +171,12 @@
       "releaseInfo": "2011"
     },
     {
-      "id": "tmdb:98410",
+      "id": "tmdb:90046",
       "type": "series",
-      "name": "Sœurs de poids",
-      "poster": "https://image.tmdb.org/t/p/w500/e6TkxFK6wxirZDRy8DHsFW63uAL.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pwqOrFWZBo2h9YNeorLh4dydRYM.jpg",
-      "description": "450 kg à elles-deux, les sœurs Slaton tentent de perdre assez de poids pour être éligibles à une chirurgie bariatrique et réaliser leur rêve.",
-      "releaseInfo": "2020"
+      "name": "90 Day Fiancé: The Other Way",
+      "poster": "https://image.tmdb.org/t/p/w500/jw4KDjNmpBnMd7fEjbz9qTUmKJS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9jmxvWOt5xTjrJ03FNmViZCuZ5f.jpg",
+      "releaseInfo": "2019"
     }
   ]
 }

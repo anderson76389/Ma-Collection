@@ -1,11 +1,29 @@
 {
   "metas": [
     {
+      "id": "tmdb:1561726",
+      "type": "movie",
+      "name": "Masterplan",
+      "poster": "https://image.tmdb.org/t/p/w500/a13BTR3jJWr2ARoLvTC3f5gQhfw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dgUDj84BWtW6EZzee8BkgKnjDhh.jpg",
+      "description": "Quand un voleur légendaire jette son dévolu sur La Joconde, il recrute deux jeunes inconnus pour l'aider (Chiara, une experte italienne du cybercrime et Jay, un spécialiste français des explosifs) avant de leur révéler qu'il est leur père. Au milieu de retrouvailles chaotiques, cette nouvelle famille devra apprendre à collaborer et éviter de s'entretuer si elle veut réussir le casse du siècle.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1153576",
+      "type": "movie",
+      "name": "Street Fighter",
+      "poster": "https://image.tmdb.org/t/p/w500/k53HHxQ4rQG0dME6nsofii3QNS7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5H5YphHsQmkQhrw13Wv1whCZKtN.jpg",
+      "description": "En 1993, Ryu et Ken Masters, deux Street Fighters autrefois inséparables, sont replongés dans l’arène lorsque la mystérieuse Chun-Li les recrute pour le prochain World Warrior Tournament : un affrontement brutal où se mêlent poings, destin et fureur. Mais derrière cette battle royale se cache une conspiration mortelle qui les oblige à s’affronter, tout en faisant face aux démons de leur passé… Et s’ils échouent, c’est GAME OVER.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1148365",
       "type": "movie",
       "name": "Matchbox – Le film",
       "poster": "https://image.tmdb.org/t/p/w500/vSgnJDw404JUokiy5NDZgXOi01E.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/roawIpy5sigBB7LsU4AJDw70jPo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg",
       "description": "Des amis d'enfance reprennent contact et les retrouvailles prennent une tournure inattendue quand ils découvrent un dangereux complot international et doivent sauver le monde.",
       "releaseInfo": "2026"
     },
@@ -14,7 +32,7 @@
       "type": "movie",
       "name": "One Last Shot",
       "poster": "https://image.tmdb.org/t/p/w500/3DpDxNTAOKdZsSxOMXCm1U8W9kk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8giIQcHpxgsPVP6c7aQtHl3txuh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7AArZYRp6zGtbvSbbqoHn9xFp0L.jpg",
       "description": "Jake Harris, un Navy SEAL chevronné, reprend du service lorsque le monde est menacé par Elliot Carter, l'un de ses anciens compagnons d'armes devenu terroriste. Alors que les chefs d'état-major interarmées sont retenus en otage dans un bunker nucléaire, il reste peu de temps avant que Carter ne s'empare de codes nucléaires et plonge le monde dans le chaos. Pour l'arrêter, Harris n'a d'autre choix que de conduire son équipe en territoire ennemi. Face à une armée de mercenaires impitoyables et à des pièges mortels, il va également devoir affronter les démons de son passé.",
       "releaseInfo": "2026"
     },
@@ -22,9 +40,9 @@
       "id": "tmdb:1228834",
       "type": "movie",
       "name": "The Fix",
-      "poster": "https://image.tmdb.org/t/p/w500/yopXjun3ICFfJci2ukcEzceZjUs.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yT8EkAvEkJDFeAxK7s7HlIPELRT.jpg",
-      "description": "Tucker dirige une unité d'anciens opérateurs de la CIA en disgrâce à Téhéran.",
+      "poster": "https://image.tmdb.org/t/p/w500/jlP8XDjZN89GrpM3je5Uf8Grqx8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dJTWIecL2vxsCRl5G0lRhPsfrhc.jpg",
+      "description": "Après une mission désastreuse en Afghanistan, des agents de la CIA affectés par les combats tentent de se racheter en menant une opération de sauvetage risquée au cœur de Téhéran.",
       "releaseInfo": "2026"
     },
     {
@@ -77,7 +95,7 @@
       "type": "movie",
       "name": "Onslaught",
       "poster": "https://image.tmdb.org/t/p/w500/92SC3guG88KQmZ8GQBKNIxz5OrB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/clePZhqOSzNyjfuFBpOrziLEFzb.jpg",
       "description": "Lorsqu’une escouade de supersoldats génétiquement modifiés s’évade dans le désert, une redoutable tireuse d’élite de l’armée doit livrer une guerre sans merci pour sauver sa fille.",
       "releaseInfo": "2026"
     },
@@ -93,7 +111,7 @@
       "id": "tmdb:843352",
       "type": "movie",
       "name": "Legend of the White Dragon",
-      "poster": "https://image.tmdb.org/t/p/w500/yygzww0GACtCMmwhtPG1P01qSx5.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/k0L5ZQP4PjdNziVGvcOeaihXyCc.jpg",
       "background": "https://image.tmdb.org/t/p/w780/iBfpVJCn2nKSkuWjv1Wp4GTiqoG.jpg",
       "description": "Dans un futur apocalyptique, une ville a été décimée. Des grandes batailles ont été menées et des héros ont été blâmés, dépouillés de leurs titres et chassés.",
       "releaseInfo": "2026"
@@ -121,7 +139,7 @@
       "type": "movie",
       "name": "Spider-Man : Brand New Day",
       "poster": "https://image.tmdb.org/t/p/w500/6OEtkkzoyusZDm2uMJojlWZSLR9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4tjxYg2AbOzzG9G1YuiT2NzYhlH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r08LxMJCbf1SiJIWeyH9aJmdqwC.jpg",
       "description": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttant contre le crime dans un New York qui ne le reconnaît plus, il se consacre entièrement à la protection de la ville - un Spider-Man à plein temps - mais à mesure que les responsabilités s'intensifient, la pression provoque une transformation physique surprenante qui menace son existence, tandis qu'une étrange nouvelle vague de crimes donne naissance à l'une des menaces les plus redoutables qu'il ait jamais affrontées.",
       "releaseInfo": "2026"
     },
@@ -148,7 +166,7 @@
       "type": "movie",
       "name": "L'Odyssée",
       "poster": "https://image.tmdb.org/t/p/w500/kP8jJIkmX0vWEYiqQ9c5zU0dvcn.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/twiVn9oFXOVR0uoYgawyEBlnFu8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nVBzWBqHTB3XD0iqWiJLfKLo5fq.jpg",
       "description": "Vingt ans après son départ pour la guerre de Troie, le roi Ulysse rentre enfin à Ithaque, mais son voyage est parsemé d'aventures et d'épreuves.",
       "releaseInfo": "2026"
     },
@@ -158,24 +176,6 @@
       "name": "The Odyssey",
       "poster": "https://image.tmdb.org/t/p/w500/b0z3ViIC5AkbJoqxmTpqyjgmoJs.jpg",
       "background": "https://image.tmdb.org/t/p/w780/mPy1xSASQ9NYWJdAGx2C2sOsnNw.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1594914",
-      "type": "movie",
-      "name": "Lucky Strike",
-      "poster": "https://image.tmdb.org/t/p/w500/kzRAd7mj39ZY3FGNrDdZjqx56tn.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uujYvxE9s6KY4SbBZ0ZFN3oBJhW.jpg",
-      "description": "Un soldat américain (Scott Eastwood) mène son unité pour bloquer une contre-offensive nazie. Coincés derrière les lignes ennemies, ses hommes sont tués dans une attaque, le laissant seul survivant. Blessé et confronté au froid glacial, il doit rejoindre à pied un point de ralliement. Avec sa radio comme seul lien, il lutte pour survivre aux éléments et aux ennemis qui le guettent à chaque détour.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1612018",
-      "type": "movie",
-      "name": "Jackass: le meilleur pour la fin",
-      "poster": "https://image.tmdb.org/t/p/w500/xd7tpoTpkOUIMf0Xd6DcCWqNrNQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dUbP1HNdI0aCq1zgRJw28PWSqmk.jpg",
-      "description": "Suit l'équipe de Jackass alors qu'elle effectue sa dernière série de cascades et de farces dangereuses, marquant la fin de la franchise.",
       "releaseInfo": "2026"
     }
   ]

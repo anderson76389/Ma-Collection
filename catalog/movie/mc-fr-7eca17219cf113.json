@@ -1,21 +1,21 @@
 {
   "metas": [
     {
+      "id": "tmdb:1487317",
+      "type": "movie",
+      "name": "On va s'arrêter là",
+      "poster": "https://image.tmdb.org/t/p/w500/vaok2Dm7suKG2gEY2cKBXL4OMYf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fv9BAXOrPJXEhycgWF3Qb8aczqe.jpg",
+      "description": "L'histoire d'un psychanalyste pragmatique qui déçu par l'approche traditionnelle de la psychologie, repousse les limites de l'éthique avec ses patients. Cette démarche semble fonctionner, jusqu'au jour où un écrivain en panne d'inspiration frappe à la porte de son cabinet.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1422041",
       "type": "movie",
       "name": "La bola negra",
       "poster": "https://image.tmdb.org/t/p/w500/ttsFxxHKwCHrtAGJt58rpNqHdFw.jpg",
       "background": "https://image.tmdb.org/t/p/w780/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg",
       "description": "Espagne 1932, 1937, 2017. Trois hommes. Trois époques. Un même fil invisible de désir, de douleur et d'héritage. LA BOLA NEGRA traverse le temps pour révéler ce qui les unit.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1433583",
-      "type": "movie",
-      "name": "Les Contrebandiers",
-      "poster": "https://image.tmdb.org/t/p/w500/hjM3hITDk5XvWu4cMn7dj7IpwY8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zLeq2fbHU6UdA7mhsYnIULORTgq.jpg",
-      "description": "Oregon, 1933. Après la mort de sa femme, Samuel Murphy est arraché à sa fille et envoyé dans un camp de travail impitoyable. Lorsqu’un surveillant sans scrupule lui promet la liberté contre une périlleuse mission de contrebande d’or, Murphy saisit sa seule chance de rentrer chez lui. Il s’embarque alors dans une expédition de tous les dangers, au cœur d’une nature hostile, où les trahisons se multiplient. Jusqu’où Murphy sera-t-il prêt à aller pour revoir sa fille ?",
       "releaseInfo": "2026"
     },
     {
@@ -63,7 +63,7 @@
     {
       "id": "tmdb:1187326",
       "type": "movie",
-      "name": "‎Tad L'explorateur et la Lampe Magique",
+      "name": "‎Tad l'explorateur et la Lampe magique",
       "poster": "https://image.tmdb.org/t/p/w500/qCfO9njHx6TFOGXb4PdvLxRttLM.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zbpimMxf6Ms96v3Zypuv8WltMSO.jpg",
       "description": "Tad et Sara sont désormais les heureux parents d'Oli, une adorable et intrépide petite fille de deux ans. Le bonheur de la petite famille fait un peu de l'ombre à Momie, qui a l'impression de passer au second plan. Alors qu'en vacances à Londres, la bande met la main sur la lampe merveilleuse des Mille et Une Nuits, Momie formule un vœu inattendu : voyager dans le temps pour retourner à l'époque de sa jeunesse où tout le monde l'adorait.",
@@ -73,7 +73,7 @@
       "id": "tmdb:1621552",
       "type": "movie",
       "name": "La captura",
-      "poster": "https://image.tmdb.org/t/p/w500/iwCeOpuBtuTP1kLosqgniey5OvX.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/my8euQR37XeJ8lfLz3XgBR03R45.jpg",
       "background": "https://image.tmdb.org/t/p/w780/c4U96GrPRfnNrS01mBtqnocvlLJ.jpg",
       "description": "Deux agents mexicains doivent survivre aux dernières heures de leur service après avoir froissé un chef de cartel dans ce drame policier inspiré de faits réels.",
       "releaseInfo": "2026"
@@ -105,12 +105,28 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1700680",
+      "type": "movie",
+      "name": "Loco México Mágico",
+      "poster": "https://image.tmdb.org/t/p/w500/eCUYoQP0tB5mfwVUT3NidnoQCI3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8gg1n99c3LC0SEq99FLIDDXVSa.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1659155",
       "type": "movie",
       "name": "Leur vérité",
       "poster": "https://image.tmdb.org/t/p/w500/4lbvwb2OGsfv3SNjLSDPZP4hNMY.jpg",
       "background": "https://image.tmdb.org/t/p/w780/2kQ71k6dq7DVNYuYY9ylNvRFKTv.jpg",
       "description": "Ruth, 30 ans, en froid avec sa famille depuis des années, rentre chez elle après la mort suspecte de sa mère. Elle y retrouve son père, Martín (Jose Coronado), devenu grincheux, agressif et obsédé par une théorie du complot inquiétante depuis sa retraite. Leur relation est si tendue, et le comportement de son père est si instable, que Ruth en vient à soupçonner Martín d'être responsable de la mort de sa mère. Partage-t-elle le même toit qu'un meurtrier ?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1498036",
+      "type": "movie",
+      "name": "Tres de más",
+      "poster": "https://image.tmdb.org/t/p/w500/9Y6zDmHgXadnyZ7ZRJWa3WI2nhx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bERXJB7QSf3T8hlwN8RCzWToTAM.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -148,30 +164,11 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1437703",
+      "id": "tmdb:1632981",
       "type": "movie",
-      "name": "Moscas",
-      "poster": "https://image.tmdb.org/t/p/w500/zBwSaw3sEwqH9vSijiPbUdbHNQz.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dlVvlYfvpD05KYbKFxEUvskvWWd.jpg",
-      "description": "Olga vit isolée dans un grand immeuble.\r Contrainte de louer une chambre, elle accueille un homme qui installe secrètement son fils de neuf ans. Cette cohabitation clandestine bouscule son quotidien rigide et réveille des émotions enfouies.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1418582",
-      "type": "movie",
-      "name": "Quinze Jours",
-      "poster": "https://image.tmdb.org/t/p/w500/3F1SkTYPzPBwcv33V3ryeNK8ZlE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bwsGEeiEnKqsZ9vm3G82as8xUu7.jpg",
-      "description": "Les projets de vacances d'un adolescent peu sûr de lui sont chamboulés par un visiteur inattendu : son voisin et amour secret d'école, qui va passer deux semaines à dormir chez lui. Les journées qui promettaient calme, tranquillité et marathons de séries épiques finissent par apporter un tourbillon d'émotions et de problèmes non résolus.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1274706",
-      "type": "movie",
-      "name": "L'Inconnue du port",
-      "poster": "https://image.tmdb.org/t/p/w500/vpcvFncVoRA48mtPXu94kdwRI0C.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2fgcRuaseQ9RIiTAUDbLtymnj2z.jpg",
-      "description": "Quand une femme retrouvée dans un conteneur se révèle amnésique, deux enquêteurs cherchent à découvrir son identité au plus vite, et à comprendre qui veut sa mort.",
+      "name": "Haciendo amigos",
+      "poster": "https://image.tmdb.org/t/p/w500/aOEKqiRldd6pvNNopdDUsMfnlmJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rR0PEHlQU7pZEKxV1E9JYk7copr.jpg",
       "releaseInfo": "2026"
     }
   ]

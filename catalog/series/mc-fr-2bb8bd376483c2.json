@@ -82,6 +82,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:313298",
+      "type": "series",
+      "name": "Les Dinosaures",
+      "poster": "https://image.tmdb.org/t/p/w500/8HmHtc8jRKCe83Uj1q7l216Bftz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8X2R9uLys3SmkRuQAmSI96xxJAF.jpg",
+      "description": "Du premier dinosaure au tout dernier, cette série documentaire épique étudie les 165 millions d'années qu'ils ont passées sur Terre et les forces qui ont forgé leur évolution.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:219080",
       "type": "series",
       "name": "The Mighty Nein",
@@ -168,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/yuOfb1MgnaGPa4guzV0n1IFYVGN.jpg",
       "background": "https://image.tmdb.org/t/p/w780/cWO5NDkKqpOuwxu4vFc4PtL8aNF.jpg",
       "description": "À travers l'histoire du Wakanda, des braves guerriers ont été obligé de traverser le monde afin de retrouver de dangereux artefacts de vibranium. Voici leur histoire.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:288055",
-      "type": "series",
-      "name": "Star Wars: Tales of the Underworld",
-      "poster": "https://image.tmdb.org/t/p/w500/cmcuhWYITb5HkSHO64VarQaNQ07.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pBeromoLUKlw7TNjus5glQnJTD9.jpg",
-      "description": "Deux hors-la-loi sillonnent les bas-fonds périlleux de la galaxie tout en forgeant leur destin.",
       "releaseInfo": "2025"
     }
   ]

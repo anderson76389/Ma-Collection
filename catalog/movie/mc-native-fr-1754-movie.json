@@ -98,6 +98,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1692196",
+      "type": "movie",
+      "name": "Un été sur le bitume",
+      "poster": "https://image.tmdb.org/t/p/w500/A47wCptAf4GRsDNaQ6Sf8CNu0Ug.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7GJufEKJT5CdjGJJZ6or9pnXnZ2.jpg",
+      "description": "À l'aube de ses 30 ans, Valeska, livreuse à vélo aux amours libres, voit son père débarquer chez elle au moment où elle se découvre enceinte. Une tragi-comédie lumineuse sur la famille, emmenée par un attachant tandem.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1535072",
       "type": "movie",
       "name": "Out of the Blue",
@@ -120,7 +129,7 @@
       "type": "movie",
       "name": "Fiançailles au Machu Picchu",
       "poster": "https://image.tmdb.org/t/p/w500/ySrjf2ExY0qlKfl3HjmsOgMSTFN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/oNSZmOdLEZ1Ipw736WMmBOkEJK7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2fn9FphCwiuDpJqI4Ivws12b8gN.jpg",
       "description": "Katie aide à organiser la demande en mariage de son frère au sommet du Machu Picchu. Lorsque la proposition est gâchée par le chef Carlos, Katie sollicite son aide pour trouver l'endroit le plus romantique du Pérou.",
       "releaseInfo": "2026"
     },
@@ -167,15 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/g93BaJnW9LNZVv90XXbvhZW0W5z.jpg",
       "background": "https://image.tmdb.org/t/p/w780/tqw8P7glEkOLYaDj029tU1P3Qb3.jpg",
       "description": "Sarah accepte à contrecœur de se rendre à un speed dating où elle matche avec Jack, veuf comme elle, qui s'avère être son nouveau voisin d'en face. Mais un meurtre vient aussitôt obscurcir leur idylle naissante et Sarah ne tarde pas à soupçonner Jack lui-même. Elle décide de mener discrètement l'enquête et de se confier à Luna, sa meilleure amie, qui finira par révéler sa face cachée : celle d'une meurtrière sans scrupules et sans remors.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1653524",
-      "type": "movie",
-      "name": "Le Garçon de la piscine",
-      "poster": "https://image.tmdb.org/t/p/w500/heuxC7OhpbMFUqCrXL3OmFTmjz8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/n379LxxDIfiwkcONqGVau16DhEs.jpg",
-      "description": "Nicole est une mère de famille qui vient de traverser un divorce douloureux. Pendant ses vacances avec son fils Casey, elle fait la connaissance des Shroder, parents d'un petit garçon de 7 ans. Mais très vite, elle est prise d'une certitude : le petit Jacob ne serait-il pas un enfant disparu il y a quelques années ? Avec l'aide de son ami policier, elle va tout faire pour découvrir le secret de ce couple mystérieux et la véritable identité de Jacob.",
       "releaseInfo": "2026"
     }
   ]

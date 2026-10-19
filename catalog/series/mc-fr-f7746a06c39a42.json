@@ -10,6 +10,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:258165",
+      "type": "series",
+      "name": "À l'est d'Éden",
+      "poster": "https://image.tmdb.org/t/p/w500/ygwE4kbLxKApQoC26Q0DiJQnkMl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/70RZX7kNjA0Qjn6HigB1oMvFJ8R.jpg",
+      "description": "Au début du 20e siècle, une femme d'une indépendance farouche provoque une rupture entre deux frères, lançant une saga qui va s'étendre sur deux générations.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:292742",
       "type": "series",
       "name": "S.W.A.T. Exiles",
@@ -78,6 +87,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/zXMkaqWinyCbkMSNwhi7htRV0e9.jpg",
       "background": "https://image.tmdb.org/t/p/w780/kgaQnDdDaPqvGN7i8LLz1aWJdjP.jpg",
       "description": "Lorsque Ian Ridley, opérateur des services d'urgence, reçoit un appel affolé d’une adolescente qu’il pense être sa fille disparue, il ne recule devant rien pour la retrouver.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:283319",
+      "type": "series",
+      "name": "Marble Hall Murders",
+      "poster": "https://image.tmdb.org/t/p/w500/3WfgRJBIaOTsiu2bQO23xWb08ro.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8Jdrk3wwMCs1RN7GimMZQrBdgHh.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -158,23 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/cC8OQ7PyMy8Caz6z97QvW3CQbbL.jpg",
       "background": "https://image.tmdb.org/t/p/w780/68DV2CjqHpH8PsO76Ssrv4T47os.jpg",
       "description": "Cette série documentaire intense relate des histoires vraies de voisins ayant basculé dans la délinquance, allant d'escroqueries odieuses à des actes insensés de représailles violentes.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:301284",
-      "type": "series",
-      "name": "The Killings at Parrish Station",
-      "poster": "https://image.tmdb.org/t/p/w500/bhoBX6IddH5ESUKVeZpxKgJBvGH.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vf3hKPv3HKcaqIo3VsxM6ztT31L.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:278178",
-      "type": "series",
-      "name": "Sur tes traces",
-      "poster": "https://image.tmdb.org/t/p/w500/bqljPIvFYDGUcgyGmtYBegqJMRh.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yOna5ZGXrvWO2HdOCKcahx2sCDN.jpg",
-      "description": "Un père de famille innocent est condamné à perpétuité pour le meurtre de son propre fils. Lorsqu'il reçoit la preuve que son fils est peut-être encore en vie, celui-ci est plus que jamais déterminé à s'évader de prison pour découvrir la vérité.",
       "releaseInfo": "2026"
     }
   ]

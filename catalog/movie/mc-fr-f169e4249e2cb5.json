@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1755291",
+      "type": "movie",
+      "name": "NAZA",
+      "poster": "https://image.tmdb.org/t/p/w500/yJ0FMDiMfdVHWCRqxt9WzAJ0C5S.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7EzH0dlEN9OZWWBXBWwT5PbMNUz.jpg",
+      "description": "Filmé la nuit depuis les toits de Tel Aviv, ce documentaire se centre sur les victimes civiles des opérations militaires israéliennes à Gaza.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1705729",
       "type": "movie",
       "name": "Man of War",
@@ -165,15 +174,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/3tZWfZ3n46MGKqUeVgyK0zEIXMV.jpg",
       "background": "https://image.tmdb.org/t/p/w780/yBMGM7x8lPXUlmTNfCLZvHbpJmk.jpg",
       "description": "Lorsque des étudiantes sont prises en otage en Afghanistan, Jake, une combattante des forces spéciales américaines, rejoint un commando composé uniquement de femmes pour les libérer. Le plan : gagner la confiance des terroristes en se faisant passer pour les membres d’une organisation humanitaire. Mais les fantômes du passé de Jake la trahissent et mettent en péril le succès de cette mission sans retour.",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:1061699",
-      "type": "movie",
-      "name": "Messagères de guerre",
-      "poster": "https://image.tmdb.org/t/p/w500/slf5lamezBD2yv4ugXtgUPKbYbW.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4FnbeuCnsN3MT6omPrivl2ttJ8o.jpg",
-      "description": "L'histoire du seul et unique bataillon exclusivement composé d'Afro-Américaines, déployé à l'étranger pendant la Seconde Guerre mondiale. Confrontées à la discrimination et au sexisme, sans parler de leurs conditions de travail éprouvantes, ces femmes ont servi leur pays avec honneur et distinction. Investies d'une mission extraordinaire et unies dans leur détermination, ces héroïnes de l'ombre ont distribué de l'espoir et fait voler des barrières en éclat.",
       "releaseInfo": "2024"
     }
   ]

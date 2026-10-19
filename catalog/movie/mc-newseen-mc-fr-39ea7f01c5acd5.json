@@ -1,0 +1,67 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:588367",
+      "type": "movie",
+      "name": "The Humans",
+      "poster": "https://image.tmdb.org/t/p/w500/eNQHlreE4ldpIkR605VYmrnhpaf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xVZijHBpoQCuH1RjLDmDHjwrCzM.jpg",
+      "description": "Une famille est mise face à une situation imprévue et chacun réagit différemment dans ce contexte difficile.",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:465914",
+      "type": "movie",
+      "name": "Si Beale Street pouvait parler",
+      "poster": "https://image.tmdb.org/t/p/w500/m7v60wgJbZkIgYpsYLjUuhdi2Ne.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9QKt21sUUrcNmlCkLKDFUaTodCh.jpg",
+      "description": "Harlem, dans les années 70. Tish et Fonny s'aiment depuis toujours et envisagent de se marier. Alors qu'ils s'apprêtent à avoir un enfant, le jeune homme, victime d'une erreur judiciaire, est arrêté et incarcéré. Avec l'aide de sa famille, Tish s'engage dans un combat acharné pour prouver l'innocence de Fonny et le faire libérer…",
+      "releaseInfo": "2018"
+    },
+    {
+      "id": "tmdb:10774",
+      "type": "movie",
+      "name": "Network : Main basse sur la télévision",
+      "poster": "https://image.tmdb.org/t/p/w500/qjB8aH0j2HExeMtXS4xtZeXDqEP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/m4Iyzh9YVOh0ra7UwdMoJcrjxkx.jpg",
+      "description": "Au milieu des années 70, les informations à la télévision changent. Le journalisme perd en effet pied face au pouvoir de l'argent et le besoin croissant de divertissement. Une rédaction se bat alors pour maintenir son audience sans se compromettre.",
+      "releaseInfo": "1976"
+    },
+    {
+      "id": "tmdb:3902",
+      "type": "movie",
+      "name": "I'm Not There",
+      "poster": "https://image.tmdb.org/t/p/w500/bucgvB7gQqcl1m71efHkenfIMTj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hXGZv8TAFP52jxIZLdIDCVmPJBQ.jpg",
+      "description": "Un voyage à travers les âges de la vie de Bob Dylan. Six acteurs incarnent Dylan tel un kaléïdoscope de personnages changeants : poète, prophète, hors-la-loi, imposteur, comédien, martyr et \"Born Again\". Ils participent tous à l'esquisse d'un portrait de cette icône américaine définitivement insaisissable.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tmdb:71",
+      "type": "movie",
+      "name": "Billy Elliot",
+      "poster": "https://image.tmdb.org/t/p/w500/zUntiKHa8AZHO7YKW0ZfjOLWYbj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/urzflyf41uySpgciGHdQzpcaMOY.jpg",
+      "description": "Dans un petit village minier du Nord‐Est de l’Angleterre, Billy, 11 ans, découvre avec stupeur qu’un cours de danse partage désormais les mêmes locaux que son club de boxe. D’abord effaré, il devient peu à peu fasciné par la magie de la gestuelle du ballet, activité pourtant trop peu virile au regard de son père et de son frère Tony, mineurs en grève. Billy abandonne les gants de cuir pour assister discrètement aux leçons de danse professées par Mme Wilkinson. Repérant immédiatement un talent potentiel, elle retrouve une nouvelle énergie devant les espoirs que constitue Billy. Les frustrations larvées explosent au grand jour quand son père et son frère découvrent que Billy a dépensé l’argent consacré au cours de boxe pour des cours de danse. Partagé entre une famille en situation de crise et un professeur de ballet têtu, le jeune garçon embarque alors dans un voyage à la découverte de lui‐même.",
+      "releaseInfo": "2000"
+    },
+    {
+      "id": "tmdb:912480",
+      "type": "movie",
+      "name": "Les Chambres rouges",
+      "poster": "https://image.tmdb.org/t/p/w500/kHq7tae8NlNqiBlo0UGV3hsQO5s.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/83g3gkDw6oc2mxkyB8DSoXQZJHl.jpg",
+      "description": "Kelly-Anne se réveille chaque matin aux portes du palais de justice pour s’assurer une place au procès hyper-médiatisé de Ludovic Chevalier, un tueur en série duquel elle est obsédée. Au fil des jours, la jeune femme tissera des liens avec une autre groupie, ce qui l’extirpera momentanément de sa solitude étouffante. Mais à force de côtoyer les parents des victimes dans un procès qui s’enlise, Kelly-Anne a de plus en plus de difficulté à maintenir son équilibre psychologique et à assumer sa fixation maladive pour le bourreau. Elle tentera alors par tous les moyens de mettre la main sur l’ultime pièce du puzzle : la vidéo manquante du meurtre d’une des victimes avec qui elle a une inquiétante ressemblance.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:901563",
+      "type": "movie",
+      "name": "Close",
+      "poster": "https://image.tmdb.org/t/p/w500/h9AAQbozDUc0hYJspmYZfAeCfM2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/saESlYSTAGjr8gkyjoGb7omH0hf.jpg",
+      "description": "Léo et Rémi, 13 ans, sont amis depuis toujours. Jusqu'à ce qu'un événement impensable les sépare. Léo se rapproche alors de Sophie, la mère de Rémi, pour essayer de comprendre…",
+      "releaseInfo": "2022"
+    }
+  ]
+}

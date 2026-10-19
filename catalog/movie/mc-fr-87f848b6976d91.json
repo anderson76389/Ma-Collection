@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1381078",
+      "type": "movie",
+      "name": "L'Amour de ta vie",
+      "poster": "https://image.tmdb.org/t/p/w500/1zrnRcJ8JOTXYp0Qizad1rnuIA0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mqYqKvrKTgMvK50VtEDZlYFsnHz.jpg",
+      "description": "Maya dont la rencontre fortuite avec Charlie donne naissance à une histoire d'amour passionnée et à la vie dont elle n'osait pas rêver. Lorsque tout bascule, Maya doit déterminer qui elle est, ce qu'elle veut et comment réapprendre à aimer.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1458857",
       "type": "movie",
       "name": "À vie",
@@ -15,7 +24,7 @@
       "name": "Raison et Sentiments",
       "poster": "https://image.tmdb.org/t/p/w500/9XNEI2AYgQIIqXper5kOdGTnyf5.jpg",
       "background": "https://image.tmdb.org/t/p/w780/nkINWVL8x1KwdpO0dUbYhS3Y1iP.jpg",
-      "description": "Spoliées de l'héritage familial de Norland Park au profit de leur demi-frère John, Mme Dashwood et ses trois filles sont contraintes de s'installer au modeste Barton Cottage. Ce départ déchire l'aînée, Elinor, une jeune femme prudente et rationnelle, contrainte de quitter Edward Ferrars, le beau-frère de John dont elle s'est éprise.  Sur place, sa sœur Marianne, impulsive et passionnée, s'éprend follement du séduisant John Willoughby. Elle ignore ainsi le dévouement du colonel Brandon, pourtant sincèrement épris d'elle, ce qui inquiète grandement sa sœur.  Tout oppose le pragmatisme d'Elinor et le romantisme débridé de Marianne face aux règles de la société et aux aléas sentiments. Pourtant, malgré leurs querelles et les épreuves imposées par l'amour, leur complicité fraternelle reste inébranlable et demeure leur meilleur atout pour surmonter les tempêtes et espérer bâtir un avenir heureux.",
+      "description": "Une irrésistible nouvelle version du roman culte de Jane Austin, Raison et Sentiments, qui suit deux sœurs à travers leurs amours, leurs chagrins et le lien qui les unit d'une façon magistrale et profondément proche de nous.",
       "releaseInfo": "2026"
     },
     {
@@ -166,14 +175,6 @@
       "name": "Missing the Boat",
       "poster": "https://image.tmdb.org/t/p/w500/8ZZgSTNMAnXB7TzZeO9mmf0xI5V.jpg",
       "background": "https://image.tmdb.org/t/p/w780/oP4z2GBCc6T5GodPBx9py7BQjV.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1326036",
-      "type": "movie",
-      "name": "Addition",
-      "poster": "https://image.tmdb.org/t/p/w500/vGhd37yFzGBX7NLmKxv8LPvRo9c.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hzgLTLQHGjoyGg5aM65IXBPpVa.jpg",
       "releaseInfo": "2026"
     }
   ]

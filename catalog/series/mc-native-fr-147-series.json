@@ -10,6 +10,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:331443",
+      "type": "series",
+      "name": "Quel est l'âge de votre cerveau ?",
+      "poster": "https://image.tmdb.org/t/p/w500/6fsLzh6eX5wmnyAHFi3sEESaVtp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5Mb2q5ggm1eGtbXr8S0KWmptene.jpg",
+      "description": "Dans ce quiz familial, 100 candidats et 4 célébrités relèvent le défi : répondre à 40 questions ludiques et scientifiques pour calculer leur âge cérébral.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:331212",
       "type": "series",
       "name": "Clara de O Outro Lado do Paraíso",
@@ -161,21 +170,12 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:271938",
+      "id": "tmdb:301715",
       "type": "series",
-      "name": "Riot Women",
-      "poster": "https://image.tmdb.org/t/p/w500/6fy35XZoMEBBjw8Nl1fgPpfVe5e.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xN7mu9YB74dyB4z4vyROkffDuVo.jpg",
-      "description": "Cinq femmes d'un certain âge se réunissent pour créer un groupe de punk-rock afin de participer à un concours de talents. Mais en écrivant leur première chanson, elles découvrent qu'elles ont beaucoup à dire, et c'est leur façon de le dire. Alors qu'elles jonglent avec des emplois exigeants, des enfants adultes, des parents compliqués, des maris qui ont foutu le camp, des rendez-vous et des relations désastreuses, le groupe devient un catalyseur de changement dans leur vie, et cela les pousse à tout remettre en question.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:304897",
-      "type": "series",
-      "name": "100% Immo, Le mag",
-      "poster": "https://image.tmdb.org/t/p/w500/lzKnB55scuE9FUJ6YPhlNdt5E3o.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pbCaeiFt5NJMMqsDVG4f96g6SZo.jpg",
-      "description": "Une équipe de spécialistes de l’immobilier vous dit tout sur les tendances et l'actualité du secteur immobilier, à Paris et en régions. Avec des conseils, des astuces, de l'info, vous aurez enfin toutes les réponses à vos questions !",
+      "name": "Armorsaurs",
+      "poster": "https://image.tmdb.org/t/p/w500/hYevUT2EfhMaSayHenGRaiBU5i2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hNXEnTA4a0WeqhoahaBhJRB2G06.jpg",
+      "description": "Les dinosaures sont de retour, et cinq adolescents sont les seuls à pouvoir créer un lien avec eux. C'est à ces héros de revêtir leurs armures et de piloter leurs dinosaures pour combattre le mal et sauver le monde.",
       "releaseInfo": "2025"
     }
   ]

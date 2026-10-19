@@ -10,30 +10,13 @@
       "releaseInfo": "1999"
     },
     {
-      "id": "tmdb:59941",
-      "type": "series",
-      "name": "Le Tonight Show",
-      "poster": "https://image.tmdb.org/t/p/w500/1g9k0mSogSkkC7aRZlrTvGYMudE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/i4OYRb5V13BrOnTPJGdyXWg4r0J.jpg",
-      "description": "Mêlant humour et talk-show, Jimmy Fallon reçoit des personnalités de la musique, du cinéma, ou encore du sport, pour un entretien.",
-      "releaseInfo": "2014"
-    },
-    {
       "id": "tmdb:549",
       "type": "series",
       "name": "New York Police Judiciaire",
       "poster": "https://image.tmdb.org/t/p/w500/7ZFSCSIuW8wzXJL1JezrKcLzV4x.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tc7canPSAn2X14hYi6Rl3gZm1o4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hrfP9BQ4mOMZOa8nHbFJLSDHBLz.jpg",
       "description": "À New York, détectives et assistants du procureur tentent de résoudre les affaires les plus délicates. Les uns sur le terrain, les autres devant les tribunaux.",
       "releaseInfo": "1990"
-    },
-    {
-      "id": "tmdb:61818",
-      "type": "series",
-      "name": "Late Night with Seth Meyers",
-      "poster": "https://image.tmdb.org/t/p/w500/u0ttHM5ZQCvnfL0lkueEgS4h2nI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dfX2UaHVE5c7kLBFbgmEZJuy4Ev.jpg",
-      "releaseInfo": "2014"
     },
     {
       "id": "tmdb:44006",
@@ -43,15 +26,6 @@
       "background": "https://image.tmdb.org/t/p/w780/otaBZzLIqrKdXcovbAvVONJCnb4.jpg",
       "description": "Un aperçu captivant de la vie de héros du quotidien engagés dans l'une des professions les plus nobles des États-Unis. Pour les pompiers, les secouristes et les ambulanciers de la caserne 51 de Chicago, aucun métier n'est plus stressant ni plus dangereux, mais en même temps aussi gratifiant et exaltant. Ces hommes et ces femmes courageux font partie de cette élite qui se jette tête la première dans le danger alors que tout le monde s'enfuit dans la direction opposée, et dont les actions font la différence entre la vie et la mort.",
       "releaseInfo": "2012"
-    },
-    {
-      "id": "tmdb:1667",
-      "type": "series",
-      "name": "Saturday Night Live",
-      "poster": "https://image.tmdb.org/t/p/w500/s1cZBqbMwAF3w8S3Yo0j5nr2Yuo.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/sSAX59Kf01lBRkBW4UcIL4kIoIm.jpg",
-      "description": "Saturday Night Live est une émission de divertissement retransmise en direct depuis le Studio 8H du GE Building au Rockefeller Center de New York. Diffusé le samedi soir sur la chaîne NBC, le programme se compose de sketches, de parodies et de performances musicales. Il s'agit de l'un des programmes phares de la télévision américaine, qui a permis l'émergence de nombreuses stars de la comédie lors des trente dernières années.",
-      "releaseInfo": "1975"
     },
     {
       "id": "tmdb:58841",
@@ -98,15 +72,6 @@
       "releaseInfo": "1992"
     },
     {
-      "id": "tmdb:215943",
-      "type": "series",
-      "name": "Les Traîtres (États-Unis)",
-      "poster": "https://image.tmdb.org/t/p/w500/xWK9tLH2UGgzuAI6P3cHeTKopfj.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/sCn3qAUCbDOcPJcNvjdq7z06Eg2.jpg",
-      "description": "Présentée par Alan Cumming, cette émission de téléréalité réunit des personnalités du monde du divertissement dans un château situé au cœur des Highlands écossais pour un jeu de stratégie inspiré d'une enquête criminelle. Les candidats participent à une série d'épreuves afin de constituer une cagnotte pouvant atteindre 250 000 dollars, tandis que des « traîtres », secrètement désignés parmi les « loyaux », éliminent progressivement les autres participants dans l'espoir de remporter l'intégralité des gains.",
-      "releaseInfo": "2023"
-    },
-    {
       "id": "tmdb:881",
       "type": "series",
       "name": "Des jours et des vies",
@@ -116,6 +81,15 @@
       "releaseInfo": "1965"
     },
     {
+      "id": "tmdb:215943",
+      "type": "series",
+      "name": "Les Traîtres (États-Unis)",
+      "poster": "https://image.tmdb.org/t/p/w500/xWK9tLH2UGgzuAI6P3cHeTKopfj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sCn3qAUCbDOcPJcNvjdq7z06Eg2.jpg",
+      "description": "Présentée par Alan Cumming, cette émission de téléréalité réunit des personnalités du monde du divertissement dans un château situé au cœur des Highlands écossais pour un jeu de stratégie inspiré d'une enquête criminelle. Les candidats participent à une série d'épreuves afin de constituer une cagnotte pouvant atteindre 250 000 dollars, tandis que des « traîtres », secrètement désignés parmi les « loyaux », éliminent progressivement les autres participants dans l'espoir de remporter l'intégralité des gains.",
+      "releaseInfo": "2023"
+    },
+    {
       "id": "tmdb:321958",
       "type": "series",
       "name": "Line of Fire",
@@ -123,14 +97,6 @@
       "background": "https://image.tmdb.org/t/p/w780/8U4dW5E24Eqs06OJko5ChjcufHb.jpg",
       "description": "Une famille d’agents des forces de l’ordre met de côté ses divergences personnelles et dépasse les frontières de ses fonctions respectives pour mener à bien des enquêtes pour le compte du FBI, des US Marshals, des services secrets et du ministère de la Justice. Lorsqu’une affaire qui semblait simple se transforme en un complot meurtrier, ils doivent mettre à profit l’expertise acquise au fil d’une vie passée à protéger des civils et des personnalités politiques pour se protéger les uns les autres et traduire le meurtrier en justice… même si cela implique de trahir le code d’honneur auquel ils ont prêté serment.",
       "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:259599",
-      "type": "series",
-      "name": "Late Night with Seth Meyers: Corrections",
-      "poster": "https://image.tmdb.org/t/p/w500/tgBrlWdajFI1gKafu9ZjoEbMdG.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/AlB8nnbP2Q2EOvyMeTI5xYhRhkL.jpg",
-      "releaseInfo": "2021"
     }
   ]
 }

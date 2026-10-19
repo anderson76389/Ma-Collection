@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1288069",
+      "type": "movie",
+      "name": "Tenzing : à la conquête de l’Everest",
+      "poster": "https://image.tmdb.org/t/p/w500/hKA6G4Dj0Uonghi6AUwmpIvCFo0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6GXqVvL20Y0MpyVP30WoI2NPK69.jpg",
+      "description": "Un homme déterminé se lance dans une aventure périlleuse - et brave des obstacles apparemment insurmontables - pour réaliser son rêve d'être le premier à atteindre le sommet de l'Everest.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:977942",
       "type": "movie",
       "name": "The Uprising",
@@ -77,7 +86,7 @@
       "type": "movie",
       "name": "Nuremberg",
       "poster": "https://image.tmdb.org/t/p/w500/6iYLH0TjqCyEkCYadpLUMHr9S8J.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bf5TG9RODkPXmtJSgf8Iymof1wl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mxKVTRDApGP2vtsruji4cNGXioD.jpg",
       "description": "Washington, 1945. Hitler s'est suicidé, l'Allemagne a capitulé et les Alliés détiennent 22 officiers nazis, dont Hermann Göring, plus haut gradé du Troisième Reich. Contrairement à ses collègues, qui préconisent leur exécution, Robert H. Jackson, juge à la Cour suprême des États-Unis, obtient que ceux-ci soient traduits devant une cour internationale. Un an avant l'ouverture du procès à Nuremberg, Jackson confie à un psychiatre de l'armée américaine, Douglas Kelley, le mandat d'évaluer les accusés. Secondé par son traducteur, Kelley se met à la tâche, en privilégiant le cas du Reichsmarschall Göring, un pervers narcissique, qui s'engage avec lui dans un jeu du chat et de la souris.",
       "releaseInfo": "2025"
     },
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/etJwfiUR0gtQwH8shhwjRr5bARQ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zQm5ogvBCQJpktZZohRJZsWrC01.jpg",
       "description": "1984 ; Michael Larson, chauffeur de camion de glaces au chômage dans l'Ohio, débarque dans le jeu télévisé « Press Your Luck » avec un secret : la clé pour gagner des sommes infinies. Mais sa série de victoires est menacée lorsque les dirigeants de la salle de contrôle commencent à découvrir ses véritables motivations.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1013601",
-      "type": "movie",
-      "name": "The Alto Knights",
-      "poster": "https://image.tmdb.org/t/p/w500/zvTOD3cRH0iVMsHNOPncFByFU0q.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/iveeHEGtkq0dBJZtOcoK650sZ6x.jpg",
-      "description": "Dans les années 1950, Vito Genovese et Frank Costello sont deux chefs de la mafia italo-américaine de New York, dont la rivalité atteint son paroxysme en 1957 quand le premier ordonne d'assassiner le second. Cependant, Vincent Gigante ne parvient qu'à blesser Costello. Ce dernier préfère se retirer de ses activités. Vito Genovese va alors prendre le contrôle de la famille Luciano qui deviendra la famille Genovese.",
       "releaseInfo": "2025"
     }
   ]

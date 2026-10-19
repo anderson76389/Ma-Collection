@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1477104",
+      "type": "movie",
+      "name": "Shaun le Mouton : La Bêêête d'Halloween",
+      "poster": "https://image.tmdb.org/t/p/w500/poG8LaprHjz2Ka0c6zCvDrVjEUq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
+      "description": "À Halloween, les habitants de la ferme de Mossy Bottom se réjouissent des festivités, jusqu’à ce que le Fermier maladroit saccage les citrouilles bien-aimées du troupeau. Lorsque Shaun se transforme en scientifique fou pour résoudre le problème, les choses dérapent : le Fermier disparaît et une bête sauvage rôde dans les bois.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1465063",
       "type": "movie",
       "name": "L'Île des Souvenirs",
@@ -66,7 +75,7 @@
     {
       "id": "tmdb:1315772",
       "type": "movie",
-      "name": "‎Des Minions et des Monstres",
+      "name": "Des Minions et des Monstres",
       "poster": "https://image.tmdb.org/t/p/w500/vuxZITXEqsBHBUhc1TKEU8mxvc.jpg",
       "background": "https://image.tmdb.org/t/p/w780/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg",
       "description": "Une histoire aussi rocambolesque qu’absurde, mais bien sûr totalement véridique, qui raconte comment les Minions, partis à la conquête d’Hollywood, sont devenus des stars de cinéma, pour finalement tout perdre en libérant au passage une bande de monstres déchaînés, avant de s’unir pour tenter de sauver la planète de ce nouveau désastre à leur actif.",
@@ -157,7 +166,7 @@
       "type": "movie",
       "name": "GOAT : Rêver plus haut",
       "poster": "https://image.tmdb.org/t/p/w500/9wwbYnU3HfAYqdjbFMhy2a8HYvr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tq3h43fZy0H80vzf47MAY7R9Mxo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vcM0CWnMGdOo6ty1iyt7zE1jtd6.jpg",
       "description": "Will est un petit bouc avec de grands rêves. Lorsqu'il décroche une chance inespérée de rejoindre la ligue professionnelle de \"roarball\", un sport ultra-intense réservé aux bêtes les plus rapides et féroces, il entend bien saisir l’opportunité. Problème : ses nouveaux coéquipiers ne sont pas vraiment ravis d'avoir un \"petit\" dans l'équipe. Mais Will est prêt à tout pour changer les règles du jeu.",
       "releaseInfo": "2026"
     },
@@ -168,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/8tMZOnlFUa6zxlEF84QfghXnjuD.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zihczzQLrtNufyLoofytqQi6yep.jpg",
       "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1497017",
-      "type": "movie",
-      "name": "L'éléphant",
-      "poster": "https://image.tmdb.org/t/p/w500/hesk0yJrkojyuZcyZ4KRxMtAQNK.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/q6ySp6g5PC84Q7oBVPslKcrl4up.jpg",
-      "description": "Conçu en trois parties par quatre figures majeures de l'animation, Adult Swim's The Elephant raconte un voyage profondément humain vers la découverte de soi, à travers différents univers.",
-      "releaseInfo": "2025"
     }
   ]
 }

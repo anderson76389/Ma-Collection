@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1288069",
+      "type": "movie",
+      "name": "Tenzing : à la conquête de l’Everest",
+      "poster": "https://image.tmdb.org/t/p/w500/hKA6G4Dj0Uonghi6AUwmpIvCFo0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6GXqVvL20Y0MpyVP30WoI2NPK69.jpg",
+      "description": "Un homme déterminé se lance dans une aventure périlleuse - et brave des obstacles apparemment insurmontables - pour réaliser son rêve d'être le premier à atteindre le sommet de l'Everest.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1281331",
       "type": "movie",
       "name": "The Social Reckoning",
@@ -23,7 +32,7 @@
       "type": "movie",
       "name": "Primetime",
       "poster": "https://image.tmdb.org/t/p/w500/rhF8JALH8wrxKtXSCAB7a09tWsc.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1tJz8e1G21nEuzHlX771MNBRJvM.jpg",
       "description": "Chris Hansen présente l'émission policière « To Catch a Predator ». Diffusée sur NBC Dateline, cette émission tente de filmer des pédophiles présumés avec l'aide des forces de l'ordre et d'une équipe d'appâts se faisant passer pour des mineurs sur Internet. En 2006, Hansen est sur le point de révolutionner le monde de la télévision.",
       "releaseInfo": "2026"
     },
@@ -169,15 +178,6 @@
       "background": "https://image.tmdb.org/t/p/w780/ulw8SrKbDeDrsSVNKPb5211AseI.jpg",
       "description": "Indianapolis, 1977. Ruiné par une faillite immobilière, Tony Kiritsis prend en otage Richard Hall, le courtier qu’il tient responsable de tous ses malheurs. L'entrepreneur lie autour du cou de sa victime un fil métallique attaché à un fusil de chasse, lequel fera feu si la police tente d'intervenir. L’incident attire l’attention des médias, puis la faveur de l'opinion publique américaine, alors que le kidnappeur exige une énorme somme d’argent et une excuse publique du grand patron de la Meridian Mortgage Company. Alors que la prise d’otage se transforme en un gigantesque cirque médiatique, Kiritsis perd lentement mais sûrement le contrôle de la situation.",
       "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1371185",
-      "type": "movie",
-      "name": "Sur un air de blues",
-      "poster": "https://image.tmdb.org/t/p/w500/a37MBzhCanExpBxq1wzGRilRt49.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8dlna8rRcf5gDCRzEsjtHizpj1X.jpg",
-      "description": "Milwaukee, Ohio, 1989. Mike, imitateur d'Elvis, fait la connaissance de Claire, une chanteuse de clubs abonnée au répertoire de Patsy Cline. Le coup de foudre réciproque amène cet alcoolique sobre et cette mère célibataire à former un groupe dédié au répertoire de Neil Diamond baptisé Lightning & Thunder. De kermesses locales en festivals, le duo est remarqué par Eddie Vedder, le leader du groupe Pearl Jam, qui l'invite à assurer la première partie de son spectacle à Milwaukee. Le triomphe qui s'ensuit est assombri par un terrible accident, qui coûte à Claire une de ses jambes, et plonge ces amoureux fous dans leur première crise de couple, sous l'œil impuissant de leurs enfants respectifs.",
-      "releaseInfo": "2025"
     }
   ]
 }

@@ -63,20 +63,20 @@
       "releaseInfo": "2017"
     },
     {
-      "id": "tmdb:237243",
-      "type": "series",
-      "name": "Big Brother",
-      "poster": "https://image.tmdb.org/t/p/w500/eWnxE8wNT2rC0YrSg3uEY5chCCf.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mEY2exPOsSoZ5xhAtxAY2Cqc3f6.jpg",
-      "releaseInfo": "2023"
-    },
-    {
       "id": "tmdb:234613",
       "type": "series",
       "name": "Les Traîtres (Canada)",
       "poster": "https://image.tmdb.org/t/p/w500/6mrgzGZIZuAN6tx1lPxL0iWtx56.jpg",
       "background": "https://image.tmdb.org/t/p/w780/sexNBB5fScor0mpzJaiHfe0olSD.jpg",
       "description": "Vingt inconnus arrivent dans un manoir pour participer à un jeu de rôle policier.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:237243",
+      "type": "series",
+      "name": "Big Brother",
+      "poster": "https://image.tmdb.org/t/p/w500/eWnxE8wNT2rC0YrSg3uEY5chCCf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mEY2exPOsSoZ5xhAtxAY2Cqc3f6.jpg",
       "releaseInfo": "2023"
     },
     {
@@ -93,7 +93,7 @@
       "type": "series",
       "name": "King of Drag",
       "poster": "https://image.tmdb.org/t/p/w500/qwVLaxySsEiJCdrFMRrQa5Y79am.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/k1o532lt98jgFRtTVBXenLBrQHt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aVfK8WDvH7kKWewBAGDsR8ucdrG.jpg",
       "releaseInfo": "2025"
     },
     {

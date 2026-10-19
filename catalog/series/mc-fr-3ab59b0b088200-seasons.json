@@ -1,12 +1,12 @@
 {
   "metas": [
     {
-      "id": "tmdb:298852",
+      "id": "tmdb:213562",
       "type": "series",
-      "name": "WAR",
-      "poster": "https://image.tmdb.org/t/p/w500/pTHgCWSuv8m5bBFsL1EXu0zftg7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nLCHzeiUEupR8LDarMgCcPUuF77.jpg",
-      "description": "Cathcarts & Sons et Taylor & Byrne s’affrontent dans ce qui s’annonce comme le divorce du siècle : celui du magnat de la tech Morgan Henderson et de la superstar du cinéma Carla Duval. Une affaire retentissante qui pousse les deux cabinets à franchir toutes les limites pour remporter la victoire",
+      "name": "Crystal Lake",
+      "poster": "https://image.tmdb.org/t/p/w500/v1XEjgqIlHvbjbEG6YSZVGTVUg0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wxiBsKFEOOFK8eQStWOykNORlXY.jpg",
+      "description": "Afin de pouvoir élever son jeune fils Jason, atteint d'une paralysie faciale périphérique depuis sa naissance, Pamela Voorhees abandonne sa carrière de chanteuse et emménage dans la petite ville de Crystal Lake où elle commence à travailler comme cuisinière dans le camp de vacances local.",
       "releaseInfo": "2026"
     },
     {
@@ -19,13 +19,13 @@
       "releaseInfo": "2010"
     },
     {
-      "id": "tmdb:243875",
+      "id": "tmdb:298852",
       "type": "series",
-      "name": "Georgie & Mandy's First Marriage",
-      "poster": "https://image.tmdb.org/t/p/w500/vonR5GlaCJpSqIQMUcBm6VQYYuu.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mftiCiSsw4DFdlbfjN3cpkmMe0c.jpg",
-      "description": "Cette suite de Young Sheldon suit Georgie et Mandy alors qu'ils élèvent leur jeune famille au Texas.",
-      "releaseInfo": "2024"
+      "name": "WAR",
+      "poster": "https://image.tmdb.org/t/p/w500/pTHgCWSuv8m5bBFsL1EXu0zftg7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/muPKymUvvBqjLCyGSacxKgjrhxN.jpg",
+      "description": "Cathcarts & Sons et Taylor & Byrne s’affrontent dans ce qui s’annonce comme le divorce du siècle : celui du magnat de la tech Morgan Henderson et de la superstar du cinéma Carla Duval. Une affaire retentissante qui pousse les deux cabinets à franchir toutes les limites pour remporter la victoire",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:2808",
@@ -37,13 +37,13 @@
       "releaseInfo": "2002"
     },
     {
-      "id": "tmdb:17937",
+      "id": "tmdb:243875",
       "type": "series",
-      "name": "Ghost Adventures",
-      "poster": "https://image.tmdb.org/t/p/w500/xLJZuDxdeUqRFHFlqs0mIk9faMR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/u64huzTnF3jEYUXJ4BDlpHy2L3K.jpg",
-      "description": "L'enquêteur paranormal Zak Bagans et son équipe, Nick Groff, Aaron Goodwin, Billy Tolley et Jay Wasley, recherchent des lieux hantés au niveau national et international. Au cours de leur enquête, Zak et son équipe se familiarisent avec la région, interrogent les habitants sur les lieux hantés et rencontrent les mauvais esprits qui hanteraient ces lieux.",
-      "releaseInfo": "2008"
+      "name": "Georgie & Mandy's First Marriage",
+      "poster": "https://image.tmdb.org/t/p/w500/vonR5GlaCJpSqIQMUcBm6VQYYuu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mftiCiSsw4DFdlbfjN3cpkmMe0c.jpg",
+      "description": "Cette suite de Young Sheldon suit Georgie et Mandy alors qu'ils élèvent leur jeune famille au Texas.",
+      "releaseInfo": "2024"
     },
     {
       "id": "tmdb:207484",
@@ -53,6 +53,15 @@
       "background": "https://image.tmdb.org/t/p/w780/lCnOoI8eYo6sTbnoSI2qwt2ZzVb.jpg",
       "description": "Ses champs de bataille déchirés par la guerre de 14-18 aux Highlands de l'Écosse du XVIIIe siècle, ce préquel revient sur l’histoire d’amour des parents de Jamie Fraser, Ellen MacKenzie et Brian Fraser, et ceux de Claire, Julia Moriston et Henry Beauchamp, explorant jusqu'où une personne peut aller par amour à une époque où les mariages ont un rôle stratégique, souvent à des fins politiques ou financières.",
       "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:17937",
+      "type": "series",
+      "name": "Ghost Adventures",
+      "poster": "https://image.tmdb.org/t/p/w500/xLJZuDxdeUqRFHFlqs0mIk9faMR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/u64huzTnF3jEYUXJ4BDlpHy2L3K.jpg",
+      "description": "L'enquêteur paranormal Zak Bagans et son équipe, Nick Groff, Aaron Goodwin, Billy Tolley et Jay Wasley, recherchent des lieux hantés au niveau national et international. Au cours de leur enquête, Zak et son équipe se familiarisent avec la région, interrogent les habitants sur les lieux hantés et rencontrent les mauvais esprits qui hanteraient ces lieux.",
+      "releaseInfo": "2008"
     }
   ]
 }

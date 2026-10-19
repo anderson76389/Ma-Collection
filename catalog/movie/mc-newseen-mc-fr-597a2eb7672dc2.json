@@ -1,0 +1,139 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:466272",
+      "type": "movie",
+      "name": "Once Upon a Time... in Hollywood",
+      "poster": "https://image.tmdb.org/t/p/w500/gG5J1KW2Gzj0Sz7al1mGkhXLSoB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kKTPv9LKKs5L3oO1y5FNObxAPWI.jpg",
+      "description": "En 1969, Rick Dalton – star déclinante d'une série télévisée de western – et Cliff Booth – sa doublure de toujours – assistent à la métamorphose artistique d'un Hollywood qu'ils ne reconnaissent plus du tout en essayant de relancer leurs carrières.",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:62",
+      "type": "movie",
+      "name": "2001 : L'Odyssée de l'espace",
+      "poster": "https://image.tmdb.org/t/p/w500/uwd79G32FPIL5B9UkRgSZvS0gbe.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/w5IDXtifKntw0ajv2co7jFlTQDM.jpg",
+      "description": "Aux temps préhistoriques, une petite tribu d’hommes‐singes installée au milieu de rochers arides lutte difficilement pour la vie. Un matin, ils trouvent devant eux une mystérieuse dalle noire monolithique. L’un des singes touche la pierre et apprend alors à se servir d’un os de quadrupède pour tuer ses ennemis. Quatre millions d’années plus tard, en 2001, un savant de l’espace, le Dr Heywood Floyd, débarque sur la lune pour examiner une dalle noire semblable à celle des singes, qui était enterrée sous la surface de l’astre. Selon les premières observations, l’objet émettrait un signal mystérieux…",
+      "releaseInfo": "1968"
+    },
+    {
+      "id": "tmdb:4488",
+      "type": "movie",
+      "name": "Vendredi 13",
+      "poster": "https://image.tmdb.org/t/p/w500/buFpnvGDjGtmucc0DkodQsPwMjZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/edVRp9npNwQwJtD05KyZlzp1J2p.jpg",
+      "description": "En 1957, un jeune garçon, prénommé Jason (Jackie en VF), meurt noyé au camp de Crystal Lake. L'année suivante, les deux responsables du camp sont tués. Crystal Lake ferme. Mais en 1980, Steve Christy décide de le rouvrir un vendredi 13, jour anniversaire des décès survenus vingt-trois ans auparavant. Lors de la préparation du camp pour son ouverture, les moniteurs du centre disparaissent les uns après les autres pendant la nuit…",
+      "releaseInfo": "1980"
+    },
+    {
+      "id": "tmdb:475557",
+      "type": "movie",
+      "name": "Joker",
+      "poster": "https://image.tmdb.org/t/p/w500/tWjJ3ILjsbTwKgXxEv48QAbYZ19.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rlay2M5QYvi6igbGcFjq8jxeusY.jpg",
+      "description": "Dans les années 1980, à Gotham City, Arthur Fleck, un humoriste de stand‐up raté, bascule dans la folie et devient le Joker.",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:68718",
+      "type": "movie",
+      "name": "Django Unchained",
+      "poster": "https://image.tmdb.org/t/p/w500/vRXUnWrXUgXRoX0BaEcuNMfyeQt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2oZklIzUbvZXXzIFzv7Hi68d6xf.jpg",
+      "description": "Dans le sud des États‐Unis, deux ans avant la guerre de Sécession, le Dr King Schultz, un chasseur de primes allemand, fait l’acquisition de Django, un esclave qui peut l’aider à traquer les frères Brittle, les meurtriers qu’il recherche. Schultz promet à Django de lui rendre sa liberté lorsqu’il aura capturé les Brittle – morts ou vifs. Alors que les deux hommes pistent les dangereux criminels, Django n’oublie pas que son seul but est de retrouver Broomhilda, sa femme, dont il fut séparé à cause du commerce des esclaves… Lorsque Django et Schultz arrivent dans l’immense plantation du puissant Calvin Candie, ils éveillent les soupçons de Stephen, un esclave qui sert Candie et a toute sa confiance. Le moindre de leurs mouvements est désormais épié par une dangereuse organisation de plus en plus proche… Si Django et Schultz veulent espérer s’enfuir avec Broomhilda, ils vont devoir choisir entre l’indépendance et la solidarité, entre le sacrifice et la survie…",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:580489",
+      "type": "movie",
+      "name": "Venom : Let There Be Carnage",
+      "poster": "https://image.tmdb.org/t/p/w500/9j21DXo7Gwtfxj81iC20AbOqumt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
+      "description": "Environ un an après avoir affronté Riot, Eddie Brock « cohabite » toujours avec le symbiote Venom. Alors qu’il tente de relancer sa carrière de journaliste d'investigation, Eddie se rend en prison pour interviewer le tueur en série Cletus Kasady. Il ignore que ce dernier est lui aussi l'hôte d'un symbiote, Carnage.",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:436969",
+      "type": "movie",
+      "name": "The Suicide Squad",
+      "poster": "https://image.tmdb.org/t/p/w500/3c8y65VwyFp3pcNtOsrdOoWm8Um.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jlGmlFOcfo8n5tURmhC7YVd4Iyy.jpg",
+      "description": "Bienvenue en enfer - aka Belle Reve, la prison dotée du taux de mortalité le plus élevé des États-Unis d'Amérique. Là où sont détenus les pires super-vilains, qui feront tout pour en sortir - y compris rejoindre la super secrète et la super louche Task Force X. La mission mortelle du jour ? Assemblez une belle collection d'escrocs, et notamment Bloodsport, Peacemaker, Captain Boomerang, Ratcatcher 2, Savant, King Shark, Blackguard, Javelin et la psychopathe préférée de tous : Harley Quinn. Armez-les lourdement et jetez-les (littéralement) sur l'île lointaine et bourrée d'ennemis de Corto Maltese. Traversant une jungle qui grouille d'adversaires et de guerilleros à chaque tournant, l'Escouade est lancée dans une mission de recherche et de destruction, avec le seul Colonel Rick Flag pour les encadrer sur le terrain et la technologie du gouvernement dans leurs oreilles, afin qu'Amanda Waller puisse suivre le moindre de leurs mouvements.",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:398818",
+      "type": "movie",
+      "name": "Call Me by Your Name",
+      "poster": "https://image.tmdb.org/t/p/w500/mLXvHMUiob0fgT4G6RazE6X7SY0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4Xh2a1WeTp6b8Ksvug0pAMbX3dT.jpg",
+      "description": "Été 1983. Elio Perlman, 17 ans, passe ses vacances dans la villa du XVIIe siècle que possède sa famille en Italie, à jouer de la musique classique, à lire et à flirter avec son amie Marzia. Son père, éminent professeur, et sa mère, traductrice, lui ont donné une excellente éducation. Un jour, Oliver, un séduisant Américain qui prépare son doctorat, vient travailler auprès du père d'Elio. Elio et Oliver vont bientôt découvrir l'éveil du désir...",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:2034",
+      "type": "movie",
+      "name": "Training Day",
+      "poster": "https://image.tmdb.org/t/p/w500/pDctIlugIuDZivzihCAEs7Ofymx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nuO8o9ltxhI7AZQxePavEZ4TyHa.jpg",
+      "description": "Jake Hoyt est une nouvelle recrue de la police de Los Angeles. Décidé à devenir inspecteur, il sollicite une mise à l'essai de 24 heures auprès du sergent chef Alonzo Harris, un vétéran de la lutte antidrogue qui opère depuis douze ans dans les quartiers les plus chauds de la ville. D'emblée, Harris fait monter la pression, considérant Jake comme un gamin, raillant sa candeur et son inexpérience. Commencent alors une longue et périlleuse tournée à travers les bas-quartiers, les premiers contacts rudes avec les dealers et les informateurs, la découverte d'un monde trouble où Harris se meut en grand seigneur. Peu à peu, Jake apprend à connaître le policier : son cynisme et son jusqu'au-boutisme fanatique, qui les entraîneront dans des situations de plus en plus dangereuses.",
+      "releaseInfo": "2001"
+    },
+    {
+      "id": "tmdb:1422",
+      "type": "movie",
+      "name": "Les Infiltrés",
+      "poster": "https://image.tmdb.org/t/p/w500/xHeuF5zzlx1YxkULiz0mx1TMBJ7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6WRrGYalXXveItfpnipYdayFkQB.jpg",
+      "description": "À Boston, une lutte sans merci oppose la police à la pègre irlandaise. Pour mettre fin au règne du parrain Frank Costello, la police infiltre son gang avec « un bleu » issu des bas quartiers, Billy Costigan. Tandis que Billy s’efforce de gagner la confiance du malfrat vieillissant, Colin Sullivan entre dans la police au sein de l’Unité des Enquêtes Spéciales, chargée d’éliminer Costello. Mais Colin fonctionne en « sous‑marin » et informe Costello des opérations qui se trament contre lui. Risquant à tout moment d’être démasqués, Billy et Colin sont contraints de mener une double vie qui leur fait perdre leurs repères et leur identité. Traquenards et contre‑offensives s’enchaînent jusqu’au jour où chaque camp réalise qu’il héberge une taupe. Une course contre la montre s’engage entre les deux hommes avec un seul objectif : découvrir l’identité de l’autre sous peine d’y laisser sa peau…",
+      "releaseInfo": "2006"
+    },
+    {
+      "id": "tmdb:121",
+      "type": "movie",
+      "name": "Le Seigneur des anneaux : Les Deux Tours",
+      "poster": "https://image.tmdb.org/t/p/w500/qVHBqQYLDRs7ESjP9q6o9iPHLWj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6G73mNyooWAEQTpckPSnFxFoNmc.jpg",
+      "description": "La Communauté est dissoute, mais la quête pour détruire l'Anneau Unique se poursuit. Accompagné par son fidèle Sam et guidé par l'étrange Gollum, Frodon cherche un moyen d'entrer en Mordor. Alors que l'armée de Saroumane se met en marche, les autres compagnons de la Communauté se préparent à la bataille. La Guerre de l'Anneau a commencé !",
+      "releaseInfo": "2002"
+    },
+    {
+      "id": "tmdb:16869",
+      "type": "movie",
+      "name": "Inglourious Basterds",
+      "poster": "https://image.tmdb.org/t/p/w500/lPKwFzX4TiWLA4Mo5Bnf8aIIrJm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hwNtEmmugU5Yd7hpfprNWI0DGIn.jpg",
+      "description": "Dans la France occupée de 1940, un groupe de soldats juifs américains, les bâtards, mène des actions punitives particulièrement sanglantes contre les nazis du Troisième Reich. Leur chemin rencontre celui de Shosanna Dreyfus, une jeune juive réfugiée à Paris exploitante d'une salle de cinéma qui entend elle aussi assouvir sa propre vengeance envers les nazis.",
+      "releaseInfo": "2009"
+    },
+    {
+      "id": "tmdb:652",
+      "type": "movie",
+      "name": "Troie",
+      "poster": "https://image.tmdb.org/t/p/w500/pkKBYrihVm5kuBgOH04KagSids0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ZPcC5hJh21QiW0jmhMQhZeSoGu.jpg",
+      "description": "Dans la Grèce antique, l'enlèvement d'Hélène, reine de Sparte, par Pâris, prince de Troie, est une insulte que le roi Ménélas ne peut supporter. L'honneur familial étant en jeu, Agamemnon, frère de Ménélas et puissant roi de Mycènes, réunit toutes les armées grecques afin de faire sortir Hélène de Troie. Mais en réalité, la sauvegarde de l'honneur familial n'est qu'un prétexte pris par Agamemnon pour cacher sa terrible avidité. Celui-ci cherche en fait à contrôler Troie et à agrandir son vaste empire. Aucune armée n'a jamais réussi à pénétrer dans la cité fortifiée, sur laquelle veillent le roi Priam et le prince Hector. L'issue de la guerre de Troie dépendra notamment d'un homme, Achille, connu comme le plus grand guerrier de son époque. Arrogant, rebelle, et réputé invincible, celui-ci n'a d'attache pour rien ni personne si ce n'est sa propre gloire…",
+      "releaseInfo": "2004"
+    },
+    {
+      "id": "tmdb:423108",
+      "type": "movie",
+      "name": "Conjuring : Sous l'emprise du Diable",
+      "poster": "https://image.tmdb.org/t/p/w500/k0JaMRifwHCk9b1T12koZKqXnnS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/p26c040MErns7DJYhisa1CpVB5i.jpg",
+      "description": "Une histoire de meurtre bouleverse Ed et Lorraine Warren. L'âme d'un jeune garçon est menacée et pour la première fois aux États-Unis, un accusé de meurtre plaide la possession démoniaque comme défense.",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:364",
+      "type": "movie",
+      "name": "Batman : Le Défi",
+      "poster": "https://image.tmdb.org/t/p/w500/aExqFVyVwqKClvnMxy6ujaFOHM7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7x4SNxO5HWArighxxFeet5sn3il.jpg",
+      "description": "Abandonné à la naissance à cause de sa difformité, le surdoué et richissime héritier Oswald Cobblepot grandit dans les égouts de Gotham City parmi une troupe de saltimbanques et se fait appeler « Le Pingouin ». Des années plus tard, il s'associe à l'homme d'affaires Max Shreck pour corrompre les habitants de Gotham et devenir maire. Le justicier masqué Batman, alias Bruce Wayne, tente de les arrêter. Entretemps, Selina Kyle, timide secrétaire effacée travaillant pour Shreck, découvre la preuve des intentions peu louables de son patron. Ce dernier tente de l'assassiner. Selina jure d'obtenir vengeance…",
+      "releaseInfo": "1992"
+    }
+  ]
+}

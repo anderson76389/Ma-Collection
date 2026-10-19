@@ -1,0 +1,94 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:248287",
+      "type": "series",
+      "name": "STEVE Martin : un documentaire en 2 parties",
+      "poster": "https://image.tmdb.org/t/p/w500/rCJ2XN6Ummg4UNppOy2tmLGfKZ8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6xNZM4falw86qINarl7XsDn8Ojt.jpg",
+      "description": "Steve Martin est l'une des personnalités les plus appréciées et énigmatiques du monde du spectacle. À travers son histoire extraordinaire vue sous les angles du passé et du présent, vous découvrirez comment les débuts de Martin l'ont conduit, étonnamment, à la vie épanouissante qu'il mène aujourd'hui.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:127641",
+      "type": "series",
+      "name": "Surface",
+      "poster": "https://image.tmdb.org/t/p/w500/xz7FwMYd8GOiZbFAJ54pcEhNCxK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wg4OsmDDA1VxUc4oqiWCPct6IKs.jpg",
+      "description": "Un grave traumatisme crânien a fait perdre la mémoire à Sophie. Dans sa quête pour retrouver les pièces du puzzle - avec l'aide de son mari et de ses amis - Sophie commence à se poser des questions sur la vie un peu trop parfaite qu'elle menait auparavant.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:117303",
+      "type": "series",
+      "name": "Lessons in Chemistry",
+      "poster": "https://image.tmdb.org/t/p/w500/2WlMsIe7e42S9PbnlWCRfVyb66P.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sPE6RlcIdK7i5Z991cQQkoO2R6t.jpg",
+      "description": "Dans les années 1950, Elizabeth Zott rêve de devenir scientifique. Elle est remise en question par une société qui considère que les femmes n'appartiennent qu'à la sphère domestique. Elle accepte un emploi dans une émission de cuisine télévisée et entreprend d'enseigner bien plus que des recettes à une nation de femmes au foyer négligées.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:217658",
+      "type": "series",
+      "name": "L'Île des formes",
+      "poster": "https://image.tmdb.org/t/p/w500/zmQukeDUVcGdT8gSvCOX4Mwy3L.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mBQLw9TkOWERNmAlKlkOAo3ehdA.jpg",
+      "description": "Sur une charmante petite île, Carré, Triangle et Cercle partagent des aventures et tissent des liens d'amitié, tout en apprenant à vivre avec les différences de chacun.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:120549",
+      "type": "series",
+      "name": "La voix du lac",
+      "poster": "https://image.tmdb.org/t/p/w500/xMRR0djVXzojzNHKjQp59DW7sjj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iYQlpBH9RHmoDVcvGsvNpG3Ikx5.jpg",
+      "description": "Lorsque la disparition d’une jeune fille frappe la ville de Baltimore au moment de Thanksgiving en 1966, les vies de deux femmes convergent vers une collision fatale. Maddie Schwartz est une femme au foyer juive qui cherche à se débarrasser d’un passé secret et à se réinventer en tant que journaliste d’investigation, et Cleo Sherwood est une mère de famille qui navigue dans les bas-fonds politiques de la ville noire de Baltimore tout en luttant pour subvenir aux besoins de sa famille. Leurs vies disparates semblent d’abord parallèles, mais lorsque Maddie devient obsédée par la mort mystérieuse de Cleo, un gouffre s’ouvre et met en danger toutes les personnes qui les entourent.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:204358",
+      "type": "series",
+      "name": "Strange Planet",
+      "poster": "https://image.tmdb.org/t/p/w500/3LTRzzLyTdCWdUgtiOzPSB8JuCJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nPGOwVnAULxHov0i0sror9GM4Ph.jpg",
+      "description": "Bienvenue sur une planète étrange, non sans ressemblances avec la nôtre, où fusent des réflexions aussi hilrantes que poignantes sur la vie, l'amour et l'amitié, formulées de manière très spéciale.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:241554",
+      "type": "series",
+      "name": "Murderbot – Journal d’un AssaSynth",
+      "poster": "https://image.tmdb.org/t/p/w500/52sxkAm0WfPIsdHVjLdKt3j1zPu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/if4r7bXrDH50GhNwCo3Bz8F2LOg.jpg",
+      "description": "Dans un futur high-tech, un androïde de sécurité émancipé se dote secrètement d'un libre arbitre. Il garde le secret et rejoint à contrecœur une mission pour protéger des scientifiques sur une planète hostile… alors qu'il n'aspire qu'à passer des heures devant des feuilletons.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:213338",
+      "type": "series",
+      "name": "The Buccaneers",
+      "poster": "https://image.tmdb.org/t/p/w500/AnbIiOeQeczniSypJNZvolft3Ud.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xwFeuZJxr1R7pV9uTbCTL8tPJyc.jpg",
+      "description": "Une bande d’Américaines fêtardes débarque sur la scène guindée de Londres dans les années 1870, provoquant un clash culturel anglo-saxon. Envoyées pour assurer leur mariage et leur statut, le cœur de ces jeunes filles aspire à quelque chose de bien différent.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:316832",
+      "type": "series",
+      "name": "Mon frère le Minotaure",
+      "poster": "https://image.tmdb.org/t/p/w500/2hLC2rTqB3Qao85lRINWmt4d6RB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iWFrb4RtT7EknjtoRarAFi7ysUt.jpg",
+      "description": "Un minotaure élevé par des humains rêve de son passé, il se lance alors dans une quête extraordinaire, avec l'aide de son frère et de ses amis, pour comprendre qui il est vraiment.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:104002",
+      "type": "series",
+      "name": "Fraggle Rock : l’aventure continue",
+      "poster": "https://image.tmdb.org/t/p/w500/43pbeuRxVhV5ELLCxRd5xIFHdrG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/d4Nb1ZUI4A5cRZKvuio75pBv5Cx.jpg",
+      "description": "Rejoignez Gobo, Maggie, Wembley, Béa, Boubeur et de nouveaux amis fraggle dans des aventures drôles et épiques où l'enchantement naît de la passion et de l'amour pour notre monde interconnecté.",
+      "releaseInfo": "2022"
+    }
+  ]
+}

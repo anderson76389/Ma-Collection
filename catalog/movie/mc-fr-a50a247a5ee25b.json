@@ -19,15 +19,6 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:880067",
-      "type": "movie",
-      "name": "Strung",
-      "poster": "https://image.tmdb.org/t/p/w500/uJWQA0YL6pblLUixAYnfjmYaUjN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3yQV8aUxMYeSCVF6R5Q6xcaMZsl.jpg",
-      "description": "Une violoniste talentueuse accepte un prestigieux poste de professeure de musique pour la fille surdouée d'une famille influente et mystérieuse. Alors qu'elle se retrouve de plus en plus impliquée dans ce monde opulent, des secrets inquiétants commencent à ressurgir, la forçant à remettre en question sa sécurité, ses rêves et sa santé mentale.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:1284016",
       "type": "movie",
       "name": "Power Ballad",
@@ -178,6 +169,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/7AvSiMAiatDn21weq6nq1e4NB03.jpg",
       "background": "https://image.tmdb.org/t/p/w780/722lo8EBC3S2LKcBVg3fpl4HWmK.jpg",
       "description": "Dans une prison argentine en 1983, sous la dictature militaire, Luis Molina, un coiffeur gay, purge une peine de huit ans de prison pour avoir prétendument corrompu un mineur. Pour échapper aux horreurs de son emprisonnement, Molina imagine des films mettant en vedette une actrice classique du cinéma, Ingrid Luna, notamment le rôle de la femme araignée, qui tue sa proie d'un baiser. La vie de Molina bascule lorsqu'un marxiste, Valentin Arregui Paz, est amené dans sa cellule, et que les deux forment un lien improbable.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1371189",
+      "type": "movie",
+      "name": "Ruth et Boaz",
+      "poster": "https://image.tmdb.org/t/p/w500/mtMJEIHjeHcLtvP0tFPAptk1Var.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/m2e8GUES92IaXRCLxWElJnlZ34w.jpg",
+      "description": "Ruth Moably, artiste hip-hop montante d'Atlanta, renonce à une vie glamour pour prendre un nouveau départ dans le Tennessee rural et s'occuper de Naomi, sa mère de substitution… et rencontre l'homme de ses rêves.",
       "releaseInfo": "2025"
     }
   ]

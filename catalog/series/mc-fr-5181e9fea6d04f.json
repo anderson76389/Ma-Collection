@@ -71,6 +71,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:318449",
+      "type": "series",
+      "name": "U.S. Against the World: Four Years with the Men's National Soccer Team",
+      "poster": "https://image.tmdb.org/t/p/w500/jd2gGLAbNQdal9lKxY3pAItkBYU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A1ROUQ607IvADhvO8y9yw1rvzdc.jpg",
+      "description": "Cette série documentaire suit l'équipe nationale américaine pendant les quatre années précédant la Coupe du monde 2026 en Amérique du Nord.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:316527",
       "type": "series",
       "name": "The Dark Wizard",
@@ -165,15 +174,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/rsc88AZaxgk8dEGK3l0FIQu8lJQ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/2fOKVDoc2O3eZmBZesWPuE5kgPN.jpg",
       "description": "Des événements étranges se déroulent dans la ville de Derry dans les années 1960 liés à Pennywise le clown, un personnage mystérieux qui hante Derry.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:271267",
-      "type": "series",
-      "name": "The Chair Company",
-      "poster": "https://image.tmdb.org/t/p/w500/2VktdoGvR0Pv6qj9P7vDsTIfw1l.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jq9biQdGSL0GIUyDaLLl7x8rgzm.jpg",
-      "description": "Après un incident embarrassant au travail, un homme se retrouve à enquêter sur une conspiration de grande envergure.",
       "releaseInfo": "2025"
     }
   ]

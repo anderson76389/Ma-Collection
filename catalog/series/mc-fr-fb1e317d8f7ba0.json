@@ -1,6 +1,32 @@
 {
   "metas": [
     {
+      "id": "tmdb:336973",
+      "type": "series",
+      "name": "Hometown Giants",
+      "poster": "https://image.tmdb.org/t/p/w500/3aFyknHefFWZmV4tDUGgGYExHIG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4FNexVx1UJTBEqanRHQnaQkk3bB.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:298550",
+      "type": "series",
+      "name": "Friends Sex and Games",
+      "poster": "https://image.tmdb.org/t/p/w500/zijeb3WqqTIYJm3mmp1sb0uNGUj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/geSUajSeWBu14vLk0NyuR1OnrX7.jpg",
+      "description": "Quatre couples. Un jeu sexy. Le premier amour d'Anna est de retour. Lors d'une soirée de retrouvailles, le groupe ose le jeu des clés : qui en pioche une passe la nuit avec son propriétaire. Sans conditions. Sans sentiments. Confiance, jalousie, désirs inavoués, moments hilarants et sexe torride. Le jeu va au-delà de ce que chacun imaginait, avec cette question : qu'est-ce qui me rend heureux ?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:338193",
+      "type": "series",
+      "name": "Les Fous du bus",
+      "poster": "https://image.tmdb.org/t/p/w500/9sDRfcrd6usRKn5kSTUgEjClxaE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iZbc8a8OTjBpVauPImJ8clROiS9.jpg",
+      "description": "Les Fous du Bus, c'est un road trip complètement fou à travers la France, mené par Ahmed Sylla aux côtés de six humoristes parmi les plus prometteurs de leur génération : Blandine Lehout, Emy BNG, Sofia Belabbes, Édouard Deloignon, Julien Santini et Umut Koker. Habitués des comedy clubs et des scènes parisiennes, ils vont cette fois devoir sortir de leur zone de confort.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:288673",
       "type": "series",
       "name": "Carrie",
@@ -32,6 +58,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/u2SKO0CdlpVytRvvoIj16X6vrb1.jpg",
       "background": "https://image.tmdb.org/t/p/w780/6rltPS3KE5yvjW2a90nlhKYXg0b.jpg",
       "description": "À presque 30 ans, Paul Mirabel vient de vendre à Amazon l’enregistrement de son spectacle ET un documentaire sur sa vie. Problème : Il a passé plus de temps sur sa PlayStation qu’à écrire son nouveau spectacle et n’a aucune image d’archives, bref il a menti. Jusqu’où ce coup de bluff le mènera t il ? Et ajouter à cela un amour de jeunesse qui refait surface, parce qu’un problème n’arrive jamais seul…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:337513",
+      "type": "series",
+      "name": "Welcome Home Los Angeles",
+      "poster": "https://image.tmdb.org/t/p/w500/zWuQ8Ukbo1I7zKcVeuHeQ9ZoogG.jpg",
+      "description": "Welcome Home est une série documentaire policière captivante en 12 épisodes qui mêle de manière complexe les histoires d'hommes et de femmes incarcérés, explorant leur parcours du crime à la rédemption.",
       "releaseInfo": "2026"
     },
     {
@@ -133,41 +167,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/nd9XjTwKJ1JuPqf7ZsGsbUZptiN.jpg",
       "background": "https://image.tmdb.org/t/p/w780/sk7A4RtNa33rVQ96YjdGDShbpv5.jpg",
       "description": "Découvrez les frères Jagger et Dawson dans cette hilarante téléréalité. À la tête d'une entreprise florissante de pièces pour VR, ils redonnent vie et cachet à des épaves entre projets délirants, cascades déjantées et coups de folie pleins de bon cœur. Nos gars en roue libre enchaînent les idées saugrenues, toujours motivés par l'amour de leur famille et de l'empire qu'ils tentent de bâtir.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:322571",
-      "type": "series",
-      "name": "Hanzaisha : Le Criminel",
-      "poster": "https://image.tmdb.org/t/p/w500/rHkfKORpqnyLZpQCUSCSsVI7IFd.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dTHFG1EOnZNv7EqwcuAUCJ5LoNG.jpg",
-      "description": "Une attaque au couteau, l'entreprise Titus Alimentation et une mystérieuse maladie infantile. Ces trois-là ont autant en commun que l'inspecteur Soma, le journaliste Yarimizu et le rescapé Shuji. Pourtant, ces trois hommes vont s'embarquer dans une quête périlleuse de la vérité. Ce qu'ils découvrent s'avère plus odieux que tout ce qu'ils auraient pu imaginer : mais qui est le véritable criminel ?",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:241882",
-      "type": "series",
-      "name": "Ride or Die",
-      "poster": "https://image.tmdb.org/t/p/w500/hWGnBQ4k9Fj3dqvWnBsSYQy5tFx.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jwCXxvbLno5GrGDA9KvQ22uLziM.jpg",
-      "description": "Debbie et Judith, deux meilleures amies, sont forcées de fuir quand Debbie découvre que Judith n'est pas expert-comptable judiciaire, mais tueuse à gages internationale ! Avec un mystérieux individu à leurs trousses et alors que le mari de Debbie trempe dans une affaire de corruption, c'est une course contre la montre à travers l'Europe qui les attend pour découvrir la vérité et rester en vie.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:325622",
-      "type": "series",
-      "name": "Murder 101",
-      "poster": "https://image.tmdb.org/t/p/w500/cy7sdlwtaiZYkpykbnzBtb4IoHs.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/j3Unn0ynJIWrsmWMcPA4mBIk3Qf.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:283151",
-      "type": "series",
-      "name": "The Five Star Weekend",
-      "poster": "https://image.tmdb.org/t/p/w500/l9z65nDVteL88PmwDqyiTFmxCtF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lq2aJdPlyOo11aBwojmLvGjlJS1.jpg",
-      "description": "Hollis Shaw, une influenceuse culinaire, connue pour ses recettes délicieuses, son goût irréprochable et son attitude chaleureuse, doit affronter une terrible épreuve",
       "releaseInfo": "2026"
     }
   ]

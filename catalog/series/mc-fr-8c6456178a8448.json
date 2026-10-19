@@ -28,15 +28,6 @@
       "releaseInfo": "2011"
     },
     {
-      "id": "tmdb:258731",
-      "type": "series",
-      "name": "Catastrophes naturelles : Survivre au pire",
-      "poster": "https://image.tmdb.org/t/p/w500/8dFicG5dMXI1PvzcH03SzSE3ukS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lo0iRpDmiEGgysKReMebnTrX0tm.jpg",
-      "description": "Cette série révèle les récentes catastrophes naturelles telles qu'elles se sont produites en temps réel à travers des images capturées par des témoins oculaires qui se sont retrouvés au mauvais endroit au bon moment et qui ont hardiment brandi leurs téléphones portables pour capturer l'œil de la tempête.",
-      "releaseInfo": "2024"
-    },
-    {
       "id": "tmdb:227144",
       "type": "series",
       "name": "Contraband: Seized at the Border",
@@ -45,18 +36,18 @@
       "releaseInfo": "2023"
     },
     {
+      "id": "tmdb:111633",
+      "type": "series",
+      "name": "Secrets in the Ice",
+      "poster": "https://image.tmdb.org/t/p/w500/fL4i7hI0NqdOMlCkYpG2WZmMMnP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bGQ6PDbomri6pFz7g1oKHpqIm9t.jpg",
+      "releaseInfo": "2020"
+    },
+    {
       "id": "tmdb:335032",
       "type": "series",
       "name": "Secret Life of a Vegas Casino",
       "poster": "https://image.tmdb.org/t/p/w500/xyfxV0s0mBRs1NsgYJ3cBlmyLSo.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:311938",
-      "type": "series",
-      "name": "120 Hours Behind Bars",
-      "poster": "https://image.tmdb.org/t/p/w500/megsN596o4oxtJTIMKvHLB8HVty.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ytPawSashRcfe4fhATSOKOadyrM.jpg",
       "releaseInfo": "2026"
     }
   ]

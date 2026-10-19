@@ -22,7 +22,7 @@
       "id": "tmdb:1715492",
       "type": "movie",
       "name": "La dérive : Cauchemar en mer",
-      "poster": "https://image.tmdb.org/t/p/w500/jvJVqtGhibpWGR7iPoqs5kvjz8H.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/1TzK8R7T4BGBLs871qoNX8VnqgZ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/n6TYhOl8NYSoIl8q6dI16IZiodB.jpg",
       "description": "Des images inédites et des témoignages de survivants retracent le naufrage en 2012 d'un paquebot de croisière de luxe et le désastre qui s'ensuivit, dans ce documentaire immersif.",
       "releaseInfo": "2026"
@@ -79,6 +79,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/f1kgYXsz5d1odQyy7phhYaPQI0c.jpg",
       "background": "https://image.tmdb.org/t/p/w780/r80zWzxQn5pMAPgDHd4CiKIGOyU.jpg",
       "description": "Le naturaliste Sir David Attenborough raconte l'histoire d'un groupe de gorilles, depuis sa première rencontre avec eux dans les années 70 jusqu'à aujourd'hui.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1462146",
+      "type": "movie",
+      "name": "S4: The Bob Lazar Story",
+      "poster": "https://image.tmdb.org/t/p/w500/sQB50PgwLfftaRdNB36eJxtH3AZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/377Bqi11cmWEQeOAs7GOkCEfazk.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -170,15 +178,6 @@
       "background": "https://image.tmdb.org/t/p/w780/edGuDPKY6qHBg9hYvmnvLjcFoy4.jpg",
       "description": "Découvrez les années d'efforts et de créativité qui se cachent derrière le dernier volet de la série phénomène des frères Duffer qui a marqué toute une génération.",
       "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1591516",
-      "type": "movie",
-      "name": "Mauvaise influenceuse : L'histoire de Jodi Hildebrandt",
-      "poster": "https://image.tmdb.org/t/p/w500/xCawp08whOaJS434IDlBytX7sSm.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5lZXIkRpOJICbWYJgImdbZ1vWx6.jpg",
-      "description": "Découvrez l'affaire de la thérapeute de l'Utah, Jodi Hildebrandt, dont l'arrestation pour maltraitance d'enfants, en compagnie de la youtubeuse spécialisée dans l'éducation des enfants Ruby Franke, a révélé une histoire de manipulation sordide.",
-      "releaseInfo": "2025"
     }
   ]
 }

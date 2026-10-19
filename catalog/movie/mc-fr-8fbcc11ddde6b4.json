@@ -51,6 +51,15 @@
       "releaseInfo": "2025"
     },
     {
+      "id": "tmdb:1241983",
+      "type": "movie",
+      "name": "Train Dreams",
+      "poster": "https://image.tmdb.org/t/p/w500/aQfob5TRbPCIwThSSyUlwXLwoXy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/u5NWHVhZ6HWc1fXnqn82cMar5St.jpg",
+      "description": "Entre histoire d'amour et deuil, un bûcheron vit un paisible état de grâce dans le monde en pleine mutation du début du 20e siècle en Amérique.",
+      "releaseInfo": "2025"
+    },
+    {
       "id": "tmdb:1200320",
       "type": "movie",
       "name": "Killing Faith",
@@ -155,15 +164,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/cVSjSQryFUERYSdOmdgJ2m0eBte.jpg",
       "background": "https://image.tmdb.org/t/p/w780/gIm5sjPSm973yKf6sbvd5lOkg3X.jpg",
       "description": "Le shérif John Dorsey est sur le point de perdre sa femme et son poste de shérif. À contrecœur, il s’associe au marshal Butch Hayden avec qui il prend en otage la hors-la-loi Emily Rouse. Un bras de fer s’ensuit, et Emily tourne le groupe l’un contre l’autre, mais à l’approche de son mari et de sa bande, Emily et John se rendent compte qu’ils auront besoin l’un de l’autre s’ils veulent survivre.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:324544",
-      "type": "movie",
-      "name": "Dans les contrées perdues",
-      "poster": "https://image.tmdb.org/t/p/w500/wKO67hBgdbdEhZWWnL5xmHw3wAN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/oI5uHu7lrQ0mBBH1c8OHCAkCq4x.jpg",
-      "description": "Une reine pactise avec la puissante et redoutée sorcière Gray Alys afin qu’elle lui rapporte un trésor capable de lui conférer un pouvoir immense. Alys et son guide, le vagabond Boyce, doivent s’aventurer dans les dangereuses Contrées Perdues. Là, ils devront déjouer et combattre hommes et démons pour honorer leur part du contrat…",
       "releaseInfo": "2025"
     },
     {

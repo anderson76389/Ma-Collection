@@ -1,6 +1,24 @@
 {
   "metas": [
     {
+      "id": "tmdb:337911",
+      "type": "series",
+      "name": "La nuit sombre du football mexicain",
+      "poster": "https://image.tmdb.org/t/p/w500/t0pGitCoIMbo9KVtSoSoBuIqyy1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7JfkmNgRd8POgIUV7Qi9hfs9wRY.jpg",
+      "description": "Ce documentaire revient sur les événements du 5 mars 2022, lors du match entre Querétaro et Atlas, en reconstituant le déroulement des faits et en examinant leurs conséquences, les récits contradictoires entourant l'affaire et les questions qui, quatre ans plus tard, restent sans réponse.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:213562",
+      "type": "series",
+      "name": "Crystal Lake",
+      "poster": "https://image.tmdb.org/t/p/w500/v1XEjgqIlHvbjbEG6YSZVGTVUg0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wxiBsKFEOOFK8eQStWOykNORlXY.jpg",
+      "description": "Afin de pouvoir élever son jeune fils Jason, atteint d'une paralysie faciale périphérique depuis sa naissance, Pamela Voorhees abandonne sa carrière de chanteuse et emménage dans la petite ville de Crystal Lake où elle commence à travailler comme cuisinière dans le camp de vacances local.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:336418",
       "type": "series",
       "name": "Meurtre au cimetière",
@@ -14,7 +32,7 @@
       "type": "series",
       "name": "WAR",
       "poster": "https://image.tmdb.org/t/p/w500/pTHgCWSuv8m5bBFsL1EXu0zftg7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nLCHzeiUEupR8LDarMgCcPUuF77.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/muPKymUvvBqjLCyGSacxKgjrhxN.jpg",
       "description": "Cathcarts & Sons et Taylor & Byrne s’affrontent dans ce qui s’annonce comme le divorce du siècle : celui du magnat de la tech Morgan Henderson et de la superstar du cinéma Carla Duval. Une affaire retentissante qui pousse les deux cabinets à franchir toutes les limites pour remporter la victoire",
       "releaseInfo": "2026"
     },
@@ -58,8 +76,8 @@
       "id": "tmdb:288385",
       "type": "series",
       "name": "Paolo",
-      "poster": "https://image.tmdb.org/t/p/w500/4EGhg689jbAO865qWs8AznalyWl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2kZsDfhTAAEAwcIsCbbgxOFqWN3.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/5arYNSnKiCWxdwdrzjvP5vokPkV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mjje2ajzDEpT3wDgc28RtjIq3WD.jpg",
       "description": "La vie ordinaire de Paolo bascule lorsqu’il recroise la route de Téophane, un ancien camarade d’école, qui brigue aujourd’hui la mairie de sa ville et qui a semble-t-il tout pour lui. Ce qui commence par une simple admiration et une volonté de soutenir la campagne se transforme en une obsession dévorante….",
       "releaseInfo": "2026"
     },
@@ -110,7 +128,7 @@
     {
       "id": "tmdb:331033",
       "type": "series",
-      "name": "Colisión",
+      "name": "Collision",
       "poster": "https://image.tmdb.org/t/p/w500/4loiHfZZx027yP0CtErtCPbkTc1.jpg",
       "background": "https://image.tmdb.org/t/p/w780/oaRWutbj0UiJej6xIYB3p8wwP9V.jpg",
       "releaseInfo": "2026"
@@ -158,24 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/wS36jVLrflvhvvCyuoZOXMVtDkc.jpg",
       "background": "https://image.tmdb.org/t/p/w780/dqpULBcBjsTLbawXKQy2DKjoRwe.jpg",
       "description": "Un documentaire en deux parties qui raconte comment une mère de cinq enfants a été vendue à des inconnus par son propre compagnon.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:331039",
-      "type": "series",
-      "name": "A Monster Uncovered",
-      "poster": "https://image.tmdb.org/t/p/w500/iSOxjxkh4d9pplaHbVofceMVAGo.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hfK8lXgs41UOUwvjGsYXlnPb1hp.jpg",
-      "description": "Après avoir été contactés par le trafiquant d'armes Peter Frederiksen, deux journalistes découvrent une série de crimes commis à l'échelle mondiale.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:311731",
-      "type": "series",
-      "name": "Monsters of God",
-      "poster": "https://image.tmdb.org/t/p/w500/jmwdx7qsfiXUZP2C22DkGpcjd1o.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gQUA5I6dOC17soO3BLagbztB6v2.jpg",
-      "description": "Une série en cinq épisodes qui explore en profondeur l'univers de la contrebande de reptiles.",
       "releaseInfo": "2026"
     }
   ]

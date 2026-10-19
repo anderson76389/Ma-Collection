@@ -9,6 +9,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1724083",
+      "type": "movie",
+      "name": "Giorgio Moroder & Donna Summer : I Feel Love",
+      "poster": "https://image.tmdb.org/t/p/w500/eEyntGRDfYKJmgRh8bsLYRu7c6n.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uCfUbnfksy7OJc9e9HovcbHH5ix.jpg",
+      "description": "Retour sur la rencontre à Munich qui allait propulser Donna Summer au firmament du disco, et donner naissance, entre autres tubes planétaires, à l'extraordinaire « I Feel Love ».",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1692196",
       "type": "movie",
       "name": "Un été sur le bitume",
@@ -20,7 +29,7 @@
     {
       "id": "tmdb:1510335",
       "type": "movie",
-      "name": "Un Balcon à Limoges",
+      "name": "Un balcon à Limoges",
       "poster": "https://image.tmdb.org/t/p/w500/4Iyg95kSzBZMfNA8brn7Ga6mFYS.jpg",
       "background": "https://image.tmdb.org/t/p/w780/bXrX36bWUnEtHUBIWOin8ouA31u.jpg",
       "description": "Gladys, la cinquantaine, vit à l’écart de la société, sans logement, sans carte Vitale, sans banque. Rien ne compte pour elle, même pas le sexe, l’alcool et la danse qu’elle pratique pourtant avec une frénésie joyeuse. Un matin, elle rencontre par hasard une amie de lycée, Eugénie, qui va tenter de l’aider contre sa volonté…",
@@ -157,15 +166,6 @@
       "name": "Sauver les meubles",
       "poster": "https://image.tmdb.org/t/p/w500/stoCVcd6OjrRIYkznI8lwgjByRt.jpg",
       "description": "Yann, poète performeur et excentrique, espère agir sur le monde et les moulins de l’injustice armé de son mégaphone. Après une saisie mobilière, il débarque chez sa fille pour le week-end. À 60 ans passés, Yann réalise que Dune n’a plus vraiment de place dans sa vie pour continuer à gérer ce père encombrant.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1553451",
-      "type": "movie",
-      "name": "Les Burgers sanglants",
-      "poster": "https://image.tmdb.org/t/p/w500/pSFOV1LboahAzOfQKmo13rWybqk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fzRi30sVjBaEUeSSt4xLMGotxDa.jpg",
-      "description": "Un an après, Lou et Malik sont de retour de leur périple en foodtruck pour servir les invités d’un mariage sur le thème de l’horreur organisé par Ophélie – devenue wedding planner. C’est le soir d’Halloween et la communauté Twitch va devoir les aider à créer la meilleure comédie d’épouvante possible, en décidant en direct de la suite du scénario, parmi des centaines  d’arcs narratifs proposés par les auteurs Camille Duvelleroy, Claire de Saint-Pierre et Franck Yaya.",
       "releaseInfo": "2025"
     }
   ]

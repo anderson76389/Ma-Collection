@@ -4,18 +4,9 @@
       "id": "tmdb:1642600",
       "type": "movie",
       "name": "Harceleurs",
-      "poster": "https://image.tmdb.org/t/p/w500/aMmjy6BlGf9C7RdX5Z4s4DpZ4zC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/igqhHr1NDopZAajbed1KRxLQX16.jpg",
-      "description": "Camille, professeure de français, tente de jongler entre ses responsabilités familiales et professionnelles quand un drame frappe son collège : Dao, l’ami d’enfance de son fils, est hospitalisé après une chute mystérieuse. Alors que la rumeur d’un harcèlement enfle, Camille se heurte au silence des élèves et s’enfonce dans une enquête officieuse. Elle découvre que Dao a fait une tentative de suicide à la suite de la diffusion d’une vidéo humiliante. Qui a filmé ? Et surtout, est-ce que cette vidéo n’est que l’élément visible d’un harcèlement continu depuis des mois ? Peu à peu, les soupçons convergent vers Mathias, son propre fils. Entre instinct maternel et devoir moral, Camille prend une décision lourde de conséquences : protéger son enfant, quitte à effacer des preuves. Mais la vérité finit par éclater, bouleversant irrémédiablement leur lien et son regard sur Mathias...",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1676129",
-      "type": "movie",
-      "name": "Au sein des autres",
-      "poster": "https://image.tmdb.org/t/p/w500/vMUg5C5hPAlvJip0XZGiaa3FOso.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/t8uallFaiC92HcL4mvcx8RJwCP6.jpg",
-      "description": "Nour est avocate, quadra battante, une vie bien construite. Fabrice est désinvolte, la trentaine, taiseux, une vie sans prise. Ils ne se seraient jamais rencontrés, jusqu'au jour où tous les deux apprennent qu'ils ont un cancer du sein. Dans la salle de chimiothérapie d'un hôpital de Lille, quelque chose d'inattendu va naître entre eux. Une histoire d'amitié, née là où ils pensaient tout perdre.",
+      "poster": "https://image.tmdb.org/t/p/w500/yHE9nlvMq8f7YzSrYTi1CDAtMrT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dOxiqjaYzhnYw06zAQGvTxeqyP3.jpg",
+      "description": "Camille est professeure dans un collège d'une ville pavillonnaire, son fils Mathias est en 3e dans le même établissement. Des faits de harcèlement lui sont signalés et, avant qu'elle n'ait le temps d'en comprendre l'ampleur et d'agir, l'élève harcelé fait une tentative de suicide et tombe dans le coma. Les parents, les autres élèves, tout le monde est sous le choc. En attendant le verdict autour du sort de la victime, les efforts se concentrent sur la recherche du coupable, et tout tend à croire que c'est le fils de Camille. Qui est vraiment son fils, que cache-t-il ? Comment gérer la situation ? Et surtout pourquoi n'a-t-elle rien vu ? Camille se retrouve prise en étau entre son rôle de professeure et de mère...",
       "releaseInfo": "2026"
     },
     {
@@ -87,15 +78,6 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1680417",
-      "type": "movie",
-      "name": "Les murs ont des secrets",
-      "poster": "https://image.tmdb.org/t/p/w500/vRkE2B68FNJLsconGYXHOwIbWTU.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fSjnw0xMhxuxGus7FSs9iqqNuoA.jpg",
-      "description": "Après une enfance difficile, Daisy a enfin trouvé un équilibre. Avec son mari, Chris, elle rénove et revend des maisons et elle attend un enfant. Par ailleurs, elle a auprès d'elle sa meilleure amie, Louise. Mais un soir, Chris fait une chute mortelle depuis la fenêtre de la maison qu'il rénovait. Le choc provoque la naissance difficile du petit James et les problèmes s'enchaînent pour Daisy qui va même se voir soupçonnée du meurtre. Car oui, Chris a été assassiné...",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:1656061",
       "type": "movie",
       "name": "Immortal Combat",
@@ -111,15 +93,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/7VRWYqA7UcmrBE67KizvTqDyNL2.jpg",
       "background": "https://image.tmdb.org/t/p/w780/AsnZYgCKfB4OXvzoJrw4Ld7mp89.jpg",
       "description": "L’ouverture d'un nouveau buffet à volonté dans la petite ville de Westridge coïncide avec l'apparition d'un immense gouffre au cœur du comté. Tandis que les habitants disparaissent un à un, une série de publicités locales devient notre seule fenêtre sur l’émergence d'une force sinistre et incontrôlable.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1702434",
-      "type": "movie",
-      "name": "Lost Ranger",
-      "poster": "https://image.tmdb.org/t/p/w500/31nlDKDzbSPwQvjvJIc18UpR60K.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9UNlXizcrgGzl3DK2N03g4OVCn0.jpg",
-      "description": "Neil, garde forestier, et sa femme Abby font très difficilement face à la disparition de leur fils alors qu'une inquiétante épidémie commence à ravager la région et ses habitants.",
       "releaseInfo": "2026"
     },
     {
@@ -170,6 +143,31 @@
       "type": "movie",
       "name": "Un monde meilleur",
       "description": "Un bébé sur le point de naître se met soudainement à parler depuis le ventre de sa mère. Il refuse de venir au monde en raison de l’état dans lequel se trouve celui-ci. Une discussion s’engage alors entre lui, ses parents et un médecin obstétricien pour tenter de le persuader de venir à la vie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1665638",
+      "type": "movie",
+      "name": "Les Homards",
+      "poster": "https://image.tmdb.org/t/p/w500/4Aztj0zNbQOXyZn4KyaSG3nk58G.jpg",
+      "description": "Entouré de ses meilleurs amis pour enterrer sa vie de garçon dans la maison de vacances familiale, Sami croise une amie d’enfance qui l’accuse d’avoir d’abusé d’elle quelques années plus tôt. Tout au long du weekend, Sami navigue à travers sa conscience, parfois mal avisé, parfois bousculé par ses amis. Pour reconnaitre la vérité, il va devoir briser et abandonner sa carapace.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1630914",
+      "type": "movie",
+      "name": "Hospitality",
+      "poster": "https://image.tmdb.org/t/p/w500/hWXzBMBj34b1GUUWTM2R6ETKk3P.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hT0fffZZIfIx3ItFvLEUyQMoHmE.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1440304",
+      "type": "movie",
+      "name": "Mauvaise Pioche",
+      "poster": "https://image.tmdb.org/t/p/w500/wRPxSccJw6wckkBUOzM5CHd871w.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dQ6WE975drdAQWKGWYx6nphNtoI.jpg",
+      "description": "​Arrêté par erreur et confondu avec l’homme le plus recherché de France, Serge Martin, paisible retraité, devient la cible des médias. Pris dans un tourbillon sans fin, il va tout tenter pour prouver son innocence et retrouver sa vie... si c’est encore possible !",
       "releaseInfo": "2026"
     }
   ]

@@ -36,15 +36,6 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:880067",
-      "type": "movie",
-      "name": "Strung",
-      "poster": "https://image.tmdb.org/t/p/w500/uJWQA0YL6pblLUixAYnfjmYaUjN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3yQV8aUxMYeSCVF6R5Q6xcaMZsl.jpg",
-      "description": "Une violoniste talentueuse accepte un prestigieux poste de professeure de musique pour la fille surdouée d'une famille influente et mystérieuse. Alors qu'elle se retrouve de plus en plus impliquée dans ce monde opulent, des secrets inquiétants commencent à ressurgir, la forçant à remettre en question sa sécurité, ses rêves et sa santé mentale.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:1284016",
       "type": "movie",
       "name": "Power Ballad",
@@ -176,6 +167,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/xBbw7RIQhohmMxt9GKZdYm09TSD.jpg",
       "background": "https://image.tmdb.org/t/p/w780/h5hCdU9KvcCbBihSNfn3vtML7tV.jpg",
       "description": "Alors que les fêtes réservent leurs surprises et aventures inattendus, les Fraggles apprennent à apprécier chaque jour pour son caractère unique et magique, tel un flocon de neige.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1306400",
+      "type": "movie",
+      "name": "Merrily We Roll Along",
+      "poster": "https://image.tmdb.org/t/p/w500/8h3uNPMdQKr7ffwAjU0aURFqIK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tD9gHDBMUQaw07LKppyNnAWaK1y.jpg",
+      "description": "La relation mouvementée entre le compositeur Franklin Shepard et ses amis de toujours, Mary et Charley. Considéré comme un classique culte avant son temps, le film met en vedette certaines des chansons les plus marquantes et personnelles de Stephen Sondheim.",
       "releaseInfo": "2025"
     }
   ]

@@ -1,10 +1,27 @@
 {
   "metas": [
     {
+      "id": "tmdb:338239",
+      "type": "series",
+      "name": "Bad Blood",
+      "releaseInfo": "2027"
+    },
+    {
       "id": "tmdb:328035",
       "type": "series",
       "name": "Migali",
+      "poster": "https://image.tmdb.org/t/p/w500/18KD6ura5RSEJcIDmK7hSH9iAhc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/srYrk8BZzq2DwWjPHV7Umu19nq5.jpg",
       "description": "Un jour, Migali deviendra reine ! Même si ce rêve peut sembler un brin… tarantulant, elle devra d’abord faire ses preuves à l’Académie Royale, comme tous les autres élèves issus de familles royales. Avec son talent unique pour tisser des toiles, sa joie de vivre contagieuse et son goût prononcé pour les bêtises et les fous rires, cette petite princesse araignée règne déjà sur un royaume bien à elle : celui du désordre joyeux et des éclats de rire !",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:336880",
+      "type": "series",
+      "name": "USA, la révolution conservatrice",
+      "poster": "https://image.tmdb.org/t/p/w500/9r5pY9OtuRv3GWrcR9M4NIftsZe.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pyXgQdk0oTiqWLJqhufzTQ9soeu.jpg",
+      "description": "Comment, entre 1960 et 1980, une frange conservatrice ultraminoritaire s'est imposée au sein du Parti républicain avant de conquérir le pouvoir aux États-Unis. Une exploration passionnante, tout en archives, de la face cachée d'une époque plus souvent identifiée aux luttes progressistes.",
       "releaseInfo": "2026"
     },
     {
@@ -156,24 +173,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/o7ni9KP4TvkThNgHSec836D4wSW.jpg",
       "background": "https://image.tmdb.org/t/p/w780/mrLB8iNFR8Oa3TJTFxrD4OfMq8e.jpg",
       "description": "À 43 ans, Alex, journaliste fêtard et insouciant, voit sa vie basculer le jour où il apprend que Manon, sa fille de 17 ans qu’il n’a jamais élevée, est victime de harcèlement scolaire. Bien qu’allergique aux règles et incapable de se plier à l’autorité, il décide de voler au secours de sa fille en s’infiltrant dans son lycée dans la peau d’un prof d’histoire…",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:315045",
-      "type": "series",
-      "name": "Giorgia Meloni et le clan des Goélands",
-      "poster": "https://image.tmdb.org/t/p/w500/82pvgZ7w6yFHtdUeQWWxRUC5uww.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zU0vCuWTsmSdCK0HEfEVyiorrv5.jpg",
-      "description": "Comment la néofasciste Giorgia Meloni a-t-elle finalement accédé au pouvoir en 2022 ? De son engagement auprès de jeunes héritiers de Mussolini à la politique sécuritaire qu’elle a mise en place, ce documentaire en deux parties retrace l’étonnante ascension d’une outsider devenue le modèle des extrêmes droites européennes.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:314357",
-      "type": "series",
-      "name": "Terrorisme d'ultradroite",
-      "poster": "https://image.tmdb.org/t/p/w500/nL9kyqiAPBprrRg3zXB60HHg2K7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kIg6plFoqJ7cRKBIBM95NmgAEUO.jpg",
-      "description": "En Europe et aux États-Unis, les attentats contre les minorités et les institutions démocratiques se multiplient. Longtemps ignorée, cette menace représente aujourd'hui un danger imminent. Comment le darknet et les réseaux sociaux accélèrent-ils la radicalisation, et pourquoi les auteurs d’actions violentes sont majoritairement des jeunes connectés ? Un documentaire sur la menace sous-estimée du terrorisme d'extrême droite à l’échelle mondiale.",
       "releaseInfo": "2026"
     }
   ]

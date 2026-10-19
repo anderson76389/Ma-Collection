@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:333101",
+      "type": "series",
+      "name": "Treasure Island",
+      "poster": "https://image.tmdb.org/t/p/w500/xZQ5ABJF1iLjGq9xR4MthpgQEFF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cv102XnL9r7M9jFr0hsMeqzpAWW.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:284833",
       "type": "series",
       "name": "Avatar : Les Sept Refuges",
@@ -169,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/xHQDSDYFWbHuN71s23Yy9lwN70j.jpg",
       "background": "https://image.tmdb.org/t/p/w780/1AA5xIVt1PTrbLxCCBxRyvjdpqO.jpg",
       "description": "Dans la jungle luxuriante de Bornéo, Sandokan, pirate intrépide, vit pour la liberté. Sa rencontre avec Marianne, fille du consul britannique, fait naître un amour impossible. Traqués par Lord Brooke, ils luttent contre la tyrannie. Pour sauver son peuple, Sandokan doit devenir le légendaire Tigre de Malaisie.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:219080",
-      "type": "series",
-      "name": "The Mighty Nein",
-      "poster": "https://image.tmdb.org/t/p/w500/q2P52yvWJXH2eTKTyxKjmhp9Pri.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7K7wbQIpkzif4fMhDHsCweXFS42.jpg",
-      "description": "Un groupe de parias, de criminels et de marginaux se retrouve par hasard à devoir sauver le continent lorsqu'une mystérieuse relique magique capable de remodeler la réalité tombe entre de mauvaises mains.",
       "releaseInfo": "2025"
     }
   ]

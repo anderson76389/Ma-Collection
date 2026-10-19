@@ -1,0 +1,35 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:125501",
+      "type": "series",
+      "name": "Steven Raichlen's Project Fire",
+      "poster": "https://image.tmdb.org/t/p/w500/sBVmV5RUtbcCmaARzHHYA8bSQYI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/21Iv8tMDOvJYACMdfCqXDlc8Gyr.jpg",
+      "releaseInfo": "2018"
+    },
+    {
+      "id": "tmdb:100270",
+      "type": "series",
+      "name": "Ancient Oceans",
+      "poster": "https://image.tmdb.org/t/p/w500/qmpO6tb646nnwW0PGIvTc5b4u3D.jpg",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:71719",
+      "type": "series",
+      "name": "Internet - La grande révolution",
+      "poster": "https://image.tmdb.org/t/p/w500/8c6h7lgdAj3XVyeXmVKeOOXX0OX.jpg",
+      "description": "En 36 ans d’existence, Internet a profondément transformé nos vies, révolutionnant les communications, la culture, le monde du travail et les relations sociales. Nous l’utilisons constamment et en sommes fortement dépendants – mais au fond, peu d’entre nous comprennent vraiment son fonctionnement. Comment cette infrastructure essentielle a t-elle été créée ? Ne sous-estimons nous pas son influence sur notre civilisation ? En quoi représente-t-elle une menace pour notre sécurité et notre vie privée ? Cette série documentaire explore l’histoire et l’influence d’Internet : son fonctionnement, son évolution, les technologies qui en découlent et ses applications pour les prochaines décennies. Aux cotés de pionniers de l’Internet, de futurologues et d’écrivains de science-fiction, la série explore l’évolution de nos interactions sociales, et comment cette remarquable invention va continuer à changer notre monde.",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:129158",
+      "type": "series",
+      "name": "The Untold Story",
+      "poster": "https://image.tmdb.org/t/p/w500/oMVDmCAty75UAJxW8GmI1nhE7Aj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sBs3gvB80WeeWKJQjikEZbEVsxD.jpg",
+      "releaseInfo": "2019"
+    }
+  ]
+}

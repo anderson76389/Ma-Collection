@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:213562",
+      "type": "series",
+      "name": "Crystal Lake",
+      "poster": "https://image.tmdb.org/t/p/w500/v1XEjgqIlHvbjbEG6YSZVGTVUg0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wxiBsKFEOOFK8eQStWOykNORlXY.jpg",
+      "description": "Afin de pouvoir élever son jeune fils Jason, atteint d'une paralysie faciale périphérique depuis sa naissance, Pamela Voorhees abandonne sa carrière de chanteuse et emménage dans la petite ville de Crystal Lake où elle commence à travailler comme cuisinière dans le camp de vacances local.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:285322",
       "type": "series",
       "name": "Below",
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/iNOXveSqB5tUTmGKxp5flQuQ72f.jpg",
       "background": "https://image.tmdb.org/t/p/w780/uahJs4jteV8pfVXPlBgBzjmoqFa.jpg",
       "description": "RJ Decker, photographe de presse et ancien détenu tombé en disgrâce, se lance en tant que détective privé dans le milieu criminel haut en couleur du sud de la Floride. Il s'attaque à des affaires aussi étranges que bizarres, avec l'aide de son ex journaliste, de sa femme, inspectrice de police, et d'une mystérieuse nouvelle bienfaitrice, une femme de son passé qui pourrait bien être sa plus grande alliée… ou son aller simple pour la prison.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:206828",
-      "type": "series",
-      "name": "DTF St. Louis",
-      "poster": "https://image.tmdb.org/t/p/w500/zYuNNfX1knlqapzNgOrpG6BkVea.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7aWCYXHvnc9m71iTDmLF4DW4cr4.jpg",
-      "description": "Dans cette série à l'humour noir, un triangle amoureux entre trois adultes en proie au mal-être de la quarantaine conduit à la mort de l'un d'eux.",
       "releaseInfo": "2026"
     }
   ]

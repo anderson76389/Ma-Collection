@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1153576",
+      "type": "movie",
+      "name": "Street Fighter",
+      "poster": "https://image.tmdb.org/t/p/w500/k53HHxQ4rQG0dME6nsofii3QNS7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5H5YphHsQmkQhrw13Wv1whCZKtN.jpg",
+      "description": "En 1993, Ryu et Ken Masters, deux Street Fighters autrefois inséparables, sont replongés dans l’arène lorsque la mystérieuse Chun-Li les recrute pour le prochain World Warrior Tournament : un affrontement brutal où se mêlent poings, destin et fureur. Mais derrière cette battle royale se cache une conspiration mortelle qui les oblige à s’affronter, tout en faisant face aux démons de leur passé… Et s’ils échouent, c’est GAME OVER.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1465063",
       "type": "movie",
       "name": "L'Île des Souvenirs",
@@ -22,7 +31,7 @@
       "id": "tmdb:843352",
       "type": "movie",
       "name": "Legend of the White Dragon",
-      "poster": "https://image.tmdb.org/t/p/w500/yygzww0GACtCMmwhtPG1P01qSx5.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/k0L5ZQP4PjdNziVGvcOeaihXyCc.jpg",
       "background": "https://image.tmdb.org/t/p/w780/iBfpVJCn2nKSkuWjv1Wp4GTiqoG.jpg",
       "description": "Dans un futur apocalyptique, une ville a été décimée. Des grandes batailles ont été menées et des héros ont été blâmés, dépouillés de leurs titres et chassés.",
       "releaseInfo": "2026"
@@ -68,7 +77,7 @@
       "type": "movie",
       "name": "Pinocchio : Déchaîné",
       "poster": "https://image.tmdb.org/t/p/w500/oru4SubtHlaGXEv9xtMPELYkGZf.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xenXu6gt6iTJBNH80CNr7kg5q2z.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7RsPdXLDNugDIlwXPVeeprNfMx.jpg",
       "description": "Geppetto présente à son petit-fils, James, une mystérieuse marionnette dotée d'une âme nommée Pinocchio. Ignorant la nature naïve et imprévisible de celle-ci, James fait découvrir le monde extérieur à son nouvel ami. Sous la guidance de Cricket, Pinocchio se lance alors dans une quête sanglante pour éradiquer tout ce qu'il considère comme mauvais et devenir un véritable petit garçon.",
       "releaseInfo": "2026"
     },
@@ -86,7 +95,7 @@
       "type": "movie",
       "name": "L'Odyssée",
       "poster": "https://image.tmdb.org/t/p/w500/kP8jJIkmX0vWEYiqQ9c5zU0dvcn.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/twiVn9oFXOVR0uoYgawyEBlnFu8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nVBzWBqHTB3XD0iqWiJLfKLo5fq.jpg",
       "description": "Vingt ans après son départ pour la guerre de Troie, le roi Ulysse rentre enfin à Ithaque, mais son voyage est parsemé d'aventures et d'épreuves.",
       "releaseInfo": "2026"
     },
@@ -110,7 +119,7 @@
     {
       "id": "tmdb:1315772",
       "type": "movie",
-      "name": "‎Des Minions et des Monstres",
+      "name": "Des Minions et des Monstres",
       "poster": "https://image.tmdb.org/t/p/w500/vuxZITXEqsBHBUhc1TKEU8mxvc.jpg",
       "background": "https://image.tmdb.org/t/p/w780/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg",
       "description": "Une histoire aussi rocambolesque qu’absurde, mais bien sûr totalement véridique, qui raconte comment les Minions, partis à la conquête d’Hollywood, sont devenus des stars de cinéma, pour finalement tout perdre en libérant au passage une bande de monstres déchaînés, avant de s’unir pour tenter de sauver la planète de ce nouveau désastre à leur actif.",
@@ -159,15 +168,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/gz64ZUKg4C4g1yfGD0o5opcBOKy.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zMwhWailP1WY7sb6AoE6b8ugoy.jpg",
       "description": "Un petit animal des bois et un oiseau majestueux, ennemis jurés de la Vallée, qui échangent soudainement leurs corps et doivent faire équipe, en se mettant dans la peau  de l'autre, pour survivre à la plus folle aventure de leur vie.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1399525",
-      "type": "movie",
-      "name": "Rose of Nevada",
-      "poster": "https://image.tmdb.org/t/p/w500/1x34FPfKP8uYO7LlzopbHpJFGAh.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8nchwqjrC1YGT8aNNsHtGz87VTT.jpg",
-      "description": "Dans un village de pêcheurs, un bateau apparaît mystérieusement dans le vieux port. La Rose de Nevada, perdue en mer avec tous ses hommes il y a 30 ans, est de retour. Pour les quelques personnes qui s'en souviennent, c'est un signe. La Rose of Nevada doit reprendre la mer, peut-être qu'alors la chance du village dévasté tournera. Nick accepte un emploi à bord du bateau pour tenter de subvenir aux besoins de sa famille. À ses côtés, Liam, nouvellement arrivé, se joint à l'équipage, afin d'échapper à son passé. Ils prennent la mer et, après un voyage réussi, rentrent au port. Mais quelque chose ne va pas. Ils ont remonté le temps et les villageois les accueillent comme s'ils étaient l'équipage d'origine.",
       "releaseInfo": "2026"
     },
     {

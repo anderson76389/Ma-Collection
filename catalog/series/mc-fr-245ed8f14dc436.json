@@ -10,6 +10,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:252105",
+      "type": "series",
+      "name": "Golden Axe",
+      "poster": "https://image.tmdb.org/t/p/w500/toEwR5VTFzHmxW1pX1HjtTXH6QH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zOcEo3oQf9KDPPxZueNhReN6TBr.jpg",
+      "description": "Trois célèbres guerriers tentent de sauver le royaume de Yuria des attaques d'un géant maléfique. Leur noble quête est perturbée par un aventurier débutant et maladroit.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:300480",
       "type": "series",
       "name": "Ricky Gervais Alley Cats",
@@ -100,6 +109,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:313298",
+      "type": "series",
+      "name": "Les Dinosaures",
+      "poster": "https://image.tmdb.org/t/p/w500/8HmHtc8jRKCe83Uj1q7l216Bftz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8X2R9uLys3SmkRuQAmSI96xxJAF.jpg",
+      "description": "Du premier dinosaure au tout dernier, cette série documentaire épique étudie les 165 millions d'années qu'ils ont passées sur Terre et les forces qui ont forgé leur évolution.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:219080",
       "type": "series",
       "name": "The Mighty Nein",
@@ -159,24 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/9CbKyXIbDKBSKKs7BOFnMiJxWal.jpg",
       "background": "https://image.tmdb.org/t/p/w780/lxQMxqao3vs2ehxESrkQU6acU86.jpg",
       "description": "Alors que les Avengers se sont fait décimer par la peste zombie, un groupe de survivants désespérés trouve la clé qui pourrait mettre un terme à l’invasion de morts-vivants, et se retrouve à parcourir des paysages dystopiques en risquant leur vie et leur intégrité physique pour sauver le monde.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:255752",
-      "type": "series",
-      "name": "Haunted Hotel",
-      "poster": "https://image.tmdb.org/t/p/w500/4arTlVw8oceZDOhGv9GFrgGztUq.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lqsufP0yMhQ04SZx3ZlXTay4whw.jpg",
-      "description": "Une mère célibataire reprend l'hôtel qu'elle a hérité de son frère décédé, et doit vivre avec son fantôme bienveillant... et des clients exigeants qui ne quitteront jamais les lieux.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:262375",
-      "type": "series",
-      "name": "Long Story Short",
-      "poster": "https://image.tmdb.org/t/p/w500/22nh2kTuFpitrqTxxixhWjxEqFa.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/eqZjZGHa1mZYBPHUHOX2LSzzCsS.jpg",
-      "description": "Le créateur de \"BoJack Horseman\" signe cette comédie d'animation qui suit la vie d'une famille sur plusieurs années, de l'enfance à l'âge adulte et inversement.",
       "releaseInfo": "2025"
     }
   ]

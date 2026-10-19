@@ -1,11 +1,20 @@
 {
   "metas": [
     {
+      "id": "tmdb:1750432",
+      "type": "movie",
+      "name": "Spidey et les Avengers : Halloween en équipe !",
+      "poster": "https://image.tmdb.org/t/p/w500/hPucpn2pmszkcqRVHmrlUYK0PtG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aIiCdNCo889J2QaaOd8TXaGXoO2.jpg",
+      "description": "Les projets d'Halloween de Spidey et des Avengers sont chamboulés par la mystérieuse Hallows' Eve. Elle s'amuse à jouer des tours aux enfants partis à la chasse aux bonbons et compte bien gâcher la fête pour toujours.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:969681",
       "type": "movie",
       "name": "Spider-Man : Brand New Day",
       "poster": "https://image.tmdb.org/t/p/w500/6OEtkkzoyusZDm2uMJojlWZSLR9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4tjxYg2AbOzzG9G1YuiT2NzYhlH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r08LxMJCbf1SiJIWeyH9aJmdqwC.jpg",
       "description": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttant contre le crime dans un New York qui ne le reconnaît plus, il se consacre entièrement à la protection de la ville - un Spider-Man à plein temps - mais à mesure que les responsabilités s'intensifient, la pression provoque une transformation physique surprenante qui menace son existence, tandis qu'une étrange nouvelle vague de crimes donne naissance à l'une des menaces les plus redoutables qu'il ait jamais affrontées.",
       "releaseInfo": "2026"
     },
@@ -167,15 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/w95CBK77vAIM5YU6h717WyWopZb.jpg",
       "background": "https://image.tmdb.org/t/p/w780/dGGjuaUR253aAZ2Zhto2Y9TR9l6.jpg",
       "description": "Les anciens héros semblent être des cibles. Le Comédien a été assassiné, le Dr Manhattan exilé sur Mars, Ozymandias a failli être tué et Rorschach a été arrêté. Suspicieux, Le Hibou, Sally Jupiter réapparaissent pour mener l'enquête. En proie à leur éthique personnelle, à leurs démons intérieurs et face à une société se dressant contre eux, ils se lancent dans une course contre la montre pour dévoiler un complot hyper complexe qui risque de déclencher une guerre nucléaire à l'échelle mondiale.",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:940139",
-      "type": "movie",
-      "name": "Here : Les plus belles années de notre vie",
-      "poster": "https://image.tmdb.org/t/p/w500/wTXX5vnmS0S8rf9ROgJfvJxd1oq.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zrms2WPltCxTPoiNFNPtTih6NMf.jpg",
-      "description": "L’histoire de familles dont les peines, les joies et les moments de doutes se font écho à travers les générations.",
       "releaseInfo": "2024"
     }
   ]

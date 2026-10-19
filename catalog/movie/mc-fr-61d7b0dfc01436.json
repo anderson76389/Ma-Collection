@@ -30,7 +30,7 @@
       "type": "movie",
       "name": "One Piece : Heroines",
       "poster": "https://image.tmdb.org/t/p/w500/hbRXvcckbdKMhCea1JalPnSQQge.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hUkFUI5wKYAihLOks7RVU0TfzUS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dQCBqCkoXz2PCqApTNXZ007QwNb.jpg",
       "description": "Des chaussures défectueuses empêchent Nami d'arrêter un vol. Furieuse, elle se rend à la boutique de son achat pour se les faire rembourser. Cependant, le directeur artistique de la griffe offre de lui fabriquer une paire flambant neuve à une condition : qu'elle accepte de les porter à son prochain défilé de mode.",
       "releaseInfo": "2026"
     },
@@ -50,6 +50,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/bfWVYzLQnykGlDfnnduqLtofRAJ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/40CATdVXthW3rHFM8JkoCz7uh88.jpg",
       "description": "Directrice d'un établissement pour personnes âgées, Marie-Lou tente d'y instaurer une philosophie de soins innovante basée sur l'écoute et la dignité des résidents, malgré la réticence d’une partie de ses équipes. Sa rencontre avec Mari, une metteuse en scène japonaise qui se bat contre un cancer, va bouleverser sa trajectoire. En nouant une amitié profonde, les deux femmes engagent ensemble un combat pour “rendre possible l’impossible”.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1593380",
+      "type": "movie",
+      "name": "Ninja Wars - Black Fox vs Shogun's Ninja",
+      "poster": "https://image.tmdb.org/t/p/w500/1lkVoZZiZ6LIKCEeCojblCf8eYP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6MqW1z9Mna9U66tzyx3dieVqtXL.jpg",
+      "description": "Rikka Isurugi (Chihiro Yamamoto), cheffe du clan Kitsune, mène l'enquête sur le « Lotus Blanc », une secte mystérieuse soupçonnée de comploter une rébellion contre le shogunat. Au cours de sa mission, elle rencontre Okyo (Kanon Miyahara), une ninja Fuma envoyée par le shogun. Leurs chemins se croisent alors qu'elles font face à un redoutable ennemi commun : le clan des ninjas Iga, dirigé par Hattori Hanzo (Kane Kosugi), qui nourrit une profonde vengeance contre la famille Tokugawa. Un conflit à trois entre le clan des Renards, les ninjas Fuma et les ninjas Iga est sur le point de commencer.",
       "releaseInfo": "2026"
     },
     {
@@ -166,15 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/tsICvuboVKXKUfDu5m2h3kqXNP0.jpg",
       "background": "https://image.tmdb.org/t/p/w780/6aa0MMYI0cnrAw2ra3E5CmfHfUV.jpg",
       "description": "Victime d'intimidation parce qu'il voulait devenir une idole, Kenji trouve sa place dans un cabaret et l'aide d'un médecin pionnier, et fait son apparition sur scène sous sa véritable identité, Ai Haruna.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1598785",
-      "type": "movie",
-      "name": "Milky☆Subway : L'Express galactique – Le film",
-      "poster": "https://image.tmdb.org/t/p/w500/p2wClSPUcs0NidsNBueaTBmGkJd.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wG2VyZvBjXwuZUvqK00UcUNIpCG.jpg",
-      "description": "Six délinquants sont chargés de nettoyer un train dans le cadre d'un programme de travaux d'intérêt général. Mais lorsque le train démarre brusquement, c'est le chaos.",
       "releaseInfo": "2026"
     }
   ]

@@ -63,11 +63,12 @@
       "releaseInfo": "2017"
     },
     {
-      "id": "tmdb:237243",
+      "id": "tmdb:234613",
       "type": "series",
-      "name": "Big Brother",
-      "poster": "https://image.tmdb.org/t/p/w500/eWnxE8wNT2rC0YrSg3uEY5chCCf.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mEY2exPOsSoZ5xhAtxAY2Cqc3f6.jpg",
+      "name": "Les Traîtres (Canada)",
+      "poster": "https://image.tmdb.org/t/p/w500/6mrgzGZIZuAN6tx1lPxL0iWtx56.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sexNBB5fScor0mpzJaiHfe0olSD.jpg",
+      "description": "Vingt inconnus arrivent dans un manoir pour participer à un jeu de rôle policier.",
       "releaseInfo": "2023"
     }
   ]

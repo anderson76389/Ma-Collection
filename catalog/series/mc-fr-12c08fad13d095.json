@@ -63,6 +63,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:261647",
+      "type": "series",
+      "name": "Princesse Sofia : Apprentie magicienne",
+      "poster": "https://image.tmdb.org/t/p/w500/3DcMKYKcJxO3q3AS38Fw75CTPcj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wGeYd7lVxOzZsbJV7iipK8298hT.jpg",
+      "description": "La princesse Sofia d'Enchancia fait sa rentrée à l'Ecole Royale de Magie de Charmswell. Entourée de ses amis, les princesses Layla et Camila, le prince Zane et Pepper la mini-licorne, Sofia s'apprête à devenir la princesse la plus magique de Tous les Royaumes. Un monde enchanté l'attend, ainsi que de nouvelles aventures passionnantes avec ses amis, sa famille royale et ses fidèles animaux.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:279601",
       "type": "series",
       "name": "Seul face au bébé",
@@ -167,15 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/lUWLMuSRkzTs71N1OWrvdlps0U5.jpg",
       "background": "https://image.tmdb.org/t/p/w780/iKt2Gezw6LGG5myKMH1JgLHbk4Z.jpg",
       "description": "Blippi et Meekah partent à la découverte de toutes sortes de métiers. Pour conduire un monster truck ou bien faire des pizzas, ils vont devoir se retrousser les manches !",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:114500",
-      "type": "series",
-      "name": "Gagné ou Perdu",
-      "poster": "https://image.tmdb.org/t/p/w500/9P4O7j44cRMy0PMSuJi9hBEeDlk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/l3RyxkgMEm6E4D1uZDwQfi0P9TK.jpg",
-      "description": "À l'approche d'un match important, huit personnages voient leur vie hors du terrain bouleversée.",
       "releaseInfo": "2025"
     }
   ]

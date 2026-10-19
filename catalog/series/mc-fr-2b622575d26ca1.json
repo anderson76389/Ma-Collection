@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:68073",
+      "type": "series",
+      "name": "Bienvenue chez les Loud",
+      "poster": "https://image.tmdb.org/t/p/w500/rCMCfA1wxgsnBXyHxPEPRFdWMkX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jQmYRTt29hTNFGdNdwFVazOrDpO.jpg",
+      "description": "Dans la ville fictive de Royal Woods, dans le Michigan, vivent Lincoln Loud et ses 10 sœurs. La vie du jeune garçon de 11 ans est de loin trépidante. Il sait que pour survivre avec 5 grandes sœurs (Lori, Leni, Luna, Luan, et Lynn) et 5 petites sœurs (Lucy, les jumelles Lana et Lola ainsi que Lisa, et enfin Lily, le bébé), il faut faire preuve de détachement, de confiance en soi, d'optimisme et qu'il faut toujours avoir un plan!",
+      "releaseInfo": "2016"
+    },
+    {
       "id": "tmdb:126824",
       "type": "series",
       "name": "Patrick Super Star",
@@ -26,6 +35,15 @@
       "background": "https://image.tmdb.org/t/p/w780/9QlPvdElQENr9XfYpoF6VL2AFPW.jpg",
       "description": "La courageuse Max mène les Mi-Chevaliers dans des aventures épiques, rythmées par de toutes nouvelles chansons originales. Après que le roi Geyniard ait volé le trône et imposé un régime injuste au royaume de Bourg-Sacré, Max doit venir à la rescousse des habitants pour renverser l'ennemi avide de pouvoir. Avec ses amis et son oncle Potrick, Max ne reculera devant aucune difficulté",
       "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:214875",
+      "type": "series",
+      "name": "Ruben & cie",
+      "poster": "https://image.tmdb.org/t/p/w500/trcqt0g3NczUiIsxgYcRvE6QbBi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5SWWe369D4Fjs2RDVhMagNJLlps.jpg",
+      "description": "Les aventures de Ruben et de ses amis ont lieu dans une petite ville en plein essor, Bricoville. De nouveaux habitants arrivent tous les jours. Ils peuvent compter sur Ruben et sa famille de constructeurs !",
+      "releaseInfo": "2023"
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
   "metas": [
     {
-      "id": "tmdb:3562",
+      "id": "tmdb:10029",
       "type": "series",
-      "name": "NOVA",
-      "poster": "https://image.tmdb.org/t/p/w500/giUBXYnDAaJgNqA6iE3BMVE2EHp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6tIHF6spOHL5rQ5HoQ3EVyL5uag.jpg",
-      "releaseInfo": "1974"
+      "name": "Great Performances",
+      "poster": "https://image.tmdb.org/t/p/w500/1RD6s6KEbX36Cb99pAoWmU8gkwh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/agKG106qEyccmflyi3zwHywuOtR.jpg",
+      "releaseInfo": "1971"
     },
     {
       "id": "tmdb:4384",
@@ -15,6 +15,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/9RLrBcrOK9Vm3VN9V9aqztiIIdJ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/4Nbq8ARdNjZsurfuPjnCBRRXKnA.jpg",
       "releaseInfo": "1983"
+    },
+    {
+      "id": "tmdb:3562",
+      "type": "series",
+      "name": "NOVA",
+      "poster": "https://image.tmdb.org/t/p/w500/giUBXYnDAaJgNqA6iE3BMVE2EHp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6tIHF6spOHL5rQ5HoQ3EVyL5uag.jpg",
+      "releaseInfo": "1974"
     },
     {
       "id": "tmdb:14951",
@@ -35,20 +43,12 @@
       "releaseInfo": "1979"
     },
     {
-      "id": "tmdb:10478",
+      "id": "tmdb:80715",
       "type": "series",
-      "name": "Washington Week with The Atlantic",
-      "poster": "https://image.tmdb.org/t/p/w500/3EHbi6w6wvYIiCUxg7Hu51g29Ph.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lJU78z3ov1Ar3IaC2pltivWNS1k.jpg",
-      "releaseInfo": "1967"
-    },
-    {
-      "id": "tmdb:15069",
-      "type": "series",
-      "name": "American Masters",
-      "poster": "https://image.tmdb.org/t/p/w500/orhckEZ9DR4uqsMwHDwKFtQ2jNw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jZGxKCxDbepPaARnSu74Df9UE5Y.jpg",
-      "releaseInfo": "1986"
+      "name": "Firing Line with Margaret Hoover",
+      "poster": "https://image.tmdb.org/t/p/w500/mlQw5tYmmwJlKWbcrp6En5FKCKp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qtrGIULBsMXXtXP8pyDIKAgIfIh.jpg",
+      "releaseInfo": "2018"
     },
     {
       "id": "tmdb:10472",
@@ -60,12 +60,12 @@
       "releaseInfo": "1975"
     },
     {
-      "id": "tmdb:80715",
+      "id": "tmdb:10478",
       "type": "series",
-      "name": "Firing Line with Margaret Hoover",
-      "poster": "https://image.tmdb.org/t/p/w500/mlQw5tYmmwJlKWbcrp6En5FKCKp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qtrGIULBsMXXtXP8pyDIKAgIfIh.jpg",
-      "releaseInfo": "2018"
+      "name": "Washington Week with The Atlantic",
+      "poster": "https://image.tmdb.org/t/p/w500/3EHbi6w6wvYIiCUxg7Hu51g29Ph.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lJU78z3ov1Ar3IaC2pltivWNS1k.jpg",
+      "releaseInfo": "1967"
     },
     {
       "id": "tmdb:4591",
@@ -74,22 +74,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/g7SsdjJ2RJUu9WpRcg7iNedCqVh.jpg",
       "background": "https://image.tmdb.org/t/p/w780/dXSZzDVE6bQ6Y8fwDRijYYaOrob.jpg",
       "releaseInfo": "2001"
-    },
-    {
-      "id": "tmdb:33739",
-      "type": "series",
-      "name": "Antiques Roadshow",
-      "poster": "https://image.tmdb.org/t/p/w500/8x5uqmnZoHJtKcOccQInSOEMo7S.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/teMEUmOn5ZU5BC3Ws2nRbFEuZvI.jpg",
-      "releaseInfo": "1997"
-    },
-    {
-      "id": "tmdb:5467",
-      "type": "series",
-      "name": "MotorWeek",
-      "poster": "https://image.tmdb.org/t/p/w500/hxuiYfIcH1VYTsPxEzBqMEBlfBm.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/t0t0TrDohzJt87BJipfgOsUKsYK.jpg",
-      "releaseInfo": "1981"
     },
     {
       "id": "tmdb:23545",
@@ -108,6 +92,14 @@
       "releaseInfo": "2000"
     },
     {
+      "id": "tmdb:33739",
+      "type": "series",
+      "name": "Antiques Roadshow",
+      "poster": "https://image.tmdb.org/t/p/w500/8x5uqmnZoHJtKcOccQInSOEMo7S.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/teMEUmOn5ZU5BC3Ws2nRbFEuZvI.jpg",
+      "releaseInfo": "1997"
+    },
+    {
       "id": "tmdb:93645",
       "type": "series",
       "name": "Christopher Kimball's Milk Street Television",
@@ -124,6 +116,23 @@
       "releaseInfo": "2008"
     },
     {
+      "id": "tmdb:5467",
+      "type": "series",
+      "name": "MotorWeek",
+      "poster": "https://image.tmdb.org/t/p/w500/hxuiYfIcH1VYTsPxEzBqMEBlfBm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/t0t0TrDohzJt87BJipfgOsUKsYK.jpg",
+      "releaseInfo": "1981"
+    },
+    {
+      "id": "tmdb:271051",
+      "type": "series",
+      "name": "Maigret",
+      "poster": "https://image.tmdb.org/t/p/w500/myQGcaQv25MibpD9urqjYrSSzPv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9uigyTXv7OZKeyEm0ZNMxTc6IW.jpg",
+      "description": "Etoile montante de la police judiciaire implacable dans ses enquêtes, Maigret a une capacité surprenante à se mettre dans la peau des criminels et une connaissance inégalée de Paris et de ses habitants.",
+      "releaseInfo": "2025"
+    },
+    {
       "id": "tmdb:335418",
       "type": "series",
       "name": "Super Why's Comic Book Adventures",
@@ -132,12 +141,12 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:126993",
+      "id": "tmdb:29492",
       "type": "series",
-      "name": "The Daytripper",
-      "poster": "https://image.tmdb.org/t/p/w500/xazStdQ3B14P2A9cIgQeuLk0yUD.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fLoIhDN9knU3x4tTkaRfX16A2a9.jpg",
-      "releaseInfo": "2009"
+      "name": "Great Performances at the Met",
+      "poster": "https://image.tmdb.org/t/p/w500/6BwNWgfbAskXWvnvJA0KcYedZW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sIE5oj3LhgG8b0SKNkuZ1WmDdLO.jpg",
+      "releaseInfo": "2007"
     },
     {
       "id": "tmdb:52129",
@@ -148,20 +157,12 @@
       "releaseInfo": "2008"
     },
     {
-      "id": "tmdb:279736",
+      "id": "tmdb:126993",
       "type": "series",
-      "name": "Bucks County, USA",
-      "poster": "https://image.tmdb.org/t/p/w500/AuKdMDs93zkiOlQt3RAxfmRQn3X.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9PPH1ObgGucSQIfKLIt7ribrH22.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:328361",
-      "type": "series",
-      "name": "NOVA: Evolution",
-      "poster": "https://image.tmdb.org/t/p/w500/gOL6OZA40CwnektLt4QQCTk9Xi3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dY6UOagjgFSfWSuci3B7F4fO4BZ.jpg",
-      "releaseInfo": "2026"
+      "name": "The Daytripper",
+      "poster": "https://image.tmdb.org/t/p/w500/xazStdQ3B14P2A9cIgQeuLk0yUD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fLoIhDN9knU3x4tTkaRfX16A2a9.jpg",
+      "releaseInfo": "2009"
     }
   ]
 }

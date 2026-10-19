@@ -10,15 +10,6 @@
       "releaseInfo": "1999"
     },
     {
-      "id": "tmdb:58841",
-      "type": "series",
-      "name": "Chicago Police Department",
-      "poster": "https://image.tmdb.org/t/p/w500/sfBiloE6J9rFEnpvckdeHZ06SSl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/18KSsDgcGQds7yOMC6MVRTbVJwt.jpg",
-      "description": "Des officiers en uniforme qui patrouillent et combattent le crime dans la rue, aux membres de l'unité des renseignements affectés à des affaires majeures (crime organisé, trafic de drogue, homicides...), toutes les recrues du poste de police du district 21 de Chicago risquent quotidiennement leurs vies. Ces énormes responsabilités dépassent souvent le simple cadre professionnel et entâchent la sphère privée de ces hommes et de ces femmes d'exception.\n\nSpin-off de Chicago Fire centré sur une brigade de police de la ville.",
-      "releaseInfo": "2014"
-    },
-    {
       "id": "tmdb:65701",
       "type": "series",
       "name": "Good Mythical Morning",
@@ -28,22 +19,22 @@
       "releaseInfo": "2012"
     },
     {
-      "id": "tmdb:285322",
+      "id": "tmdb:58841",
       "type": "series",
-      "name": "Below",
-      "poster": "https://image.tmdb.org/t/p/w500/fG6ODXfXVJbIrFxzQv9BhnTomPc.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
-      "description": "Lorsqu'une mystérieuse créature marine sème la terreur dans un petit village de Terre-Neuve, un pêcheur endurci et sa famille luttent pour protéger leur communauté très soudée.",
-      "releaseInfo": "2026"
+      "name": "Chicago Police Department",
+      "poster": "https://image.tmdb.org/t/p/w500/sfBiloE6J9rFEnpvckdeHZ06SSl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/18KSsDgcGQds7yOMC6MVRTbVJwt.jpg",
+      "description": "Des officiers en uniforme qui patrouillent et combattent le crime dans la rue, aux membres de l'unité des renseignements affectés à des affaires majeures (crime organisé, trafic de drogue, homicides...), toutes les recrues du poste de police du district 21 de Chicago risquent quotidiennement leurs vies. Ces énormes responsabilités dépassent souvent le simple cadre professionnel et entâchent la sphère privée de ces hommes et de ces femmes d'exception.\n\nSpin-off de Chicago Fire centré sur une brigade de police de la ville.",
+      "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:289423",
+      "id": "tmdb:203857",
       "type": "series",
-      "name": "Recharge mon Coeur",
-      "poster": "https://image.tmdb.org/t/p/w500/p5UJ0xS2NVmqtUfy9i0DMIJ1Lf3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rN9xHDp83kZ3cOr82JR1b4rFIFk.jpg",
-      "description": "Un héritier d’entreprise doté d’un cœur artificiel rencontre une femme littéralement électrique. Ils concluent un marché qui fait battre son cœur, et pas seulement au sens propre.",
-      "releaseInfo": "2026"
+      "name": "La Diplomate",
+      "poster": "https://image.tmdb.org/t/p/w500/A89qFEWq31vLhzl9DhJjmVLuPHY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hzznrBI07C2chXivlLYvEmQESP7.jpg",
+      "description": "Pendant une crise internationale, une diplomate américaine jongle entre son poste d'ambassadrice au Royaume-Uni et son mariage sous tension avec une star de la politique.",
+      "releaseInfo": "2023"
     }
   ]
 }

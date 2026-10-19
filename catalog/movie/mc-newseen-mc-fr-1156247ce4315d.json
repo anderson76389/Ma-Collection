@@ -1,0 +1,121 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1288069",
+      "type": "movie",
+      "name": "Tenzing : à la conquête de l’Everest",
+      "poster": "https://image.tmdb.org/t/p/w500/hKA6G4Dj0Uonghi6AUwmpIvCFo0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6GXqVvL20Y0MpyVP30WoI2NPK69.jpg",
+      "description": "Un homme déterminé se lance dans une aventure périlleuse - et brave des obstacles apparemment insurmontables - pour réaliser son rêve d'être le premier à atteindre le sommet de l'Everest.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:836919",
+      "type": "movie",
+      "name": "Qui es-tu, Charlie Brown ?",
+      "poster": "https://image.tmdb.org/t/p/w500/c6u5J4sf4b2I3exx8rCPVsoSnHG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3CQ4coB7LbAraB0upz6YWmY8rKR.jpg",
+      "description": "Lupita Nyong’o prête sa voix à un documentaire sur Snoopy et son créateur, Charles M. Schulz. Des fans célèbres reviennent sur l’influence de la bande dessinée, tandis qu’une nouvelle histoire montre Charlie Brown dans une quête singulière.",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:654754",
+      "type": "movie",
+      "name": "Billie Eilish: The World's a Little Blurry",
+      "poster": "https://image.tmdb.org/t/p/w500/hugZXltopWlmtGvbphRiv1nYpx8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8ys6VgwZCIQ7nN4Nv4z7GPPuFMv.jpg",
+      "description": "Un aperçu intimiste de l’univers de Billie Eilish. Le réalisateur primé R.J. Cutler suit son parcours sur scène, en tournée et à la maison alors que l’écriture et l’enregistrement de son premier album sont sur le point de changer sa vie.",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:1049471",
+      "type": "movie",
+      "name": "Chantage",
+      "poster": "https://image.tmdb.org/t/p/w500/9Oj1EJPQzzjc7IqiwGFgesQgYzK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/avwIERZtWiWa34qShf5biDzAVaF.jpg",
+      "description": "Reef Hawk, star hollywoodienne depuis l'âge de six ans, ne va pas bien. Quand il apprend qu'on tente de l'extorquer avec une mystérieuse vidéo, il se lance dans une tournée d'excuses pour faire amende honorable, affronter ses démons et éviter de se faire cancel.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1058699",
+      "type": "movie",
+      "name": "STILL - La Vie de Michael J. Fox",
+      "poster": "https://image.tmdb.org/t/p/w500/g0YvbkBR2HVG0BgIGlmWwnfFC2X.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wQiXDEzfU8pydakr5yZ01bhlN30.jpg",
+      "description": "Un enfant d’une base militaire canadienne devient la star chérie de la pop culture internationale des années 1980, avant de voir sa vie bouleversée par un diagnostic incroyable. Que se passe-t-il quand un incurable optimiste est confronté à une maladie incurable ?",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:597922",
+      "type": "movie",
+      "name": "The Greatest Beer Run Ever",
+      "poster": "https://image.tmdb.org/t/p/w500/n9ccVv5WZfBRtbHPdVK6bS0D56S.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7bjaAcbrJDVvdF2Uew6rGp9Tp05.jpg",
+      "description": "Pour remonter le moral à ses amis partis combattre au Vietnam, Chickie a une folle idée : leur apporter lui-même des bières américaines. Ce voyage transformera sa vie et chamboulera ses certitudes.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:961722",
+      "type": "movie",
+      "name": "Sidney Poitier : son héritage",
+      "poster": "https://image.tmdb.org/t/p/w500/5YT7qVlPm9xWT0xP6PQY7ObY5C5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/orEVSaVSRNElwjB7GZI3vsOKMS9.jpg",
+      "description": "Réalisé par Oprah Winfrey, ce documentaire révélateur rend hommage au légendaire Sidney Poitier, acteur, cinéaste et militant des droits civiques. Découvrez des entretiens avec Denzel Washington, Spike Lee, Barbra Streisand, et bien d'autres.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:1400288",
+      "type": "movie",
+      "name": "Deaf President Now : un mouvement étudiant",
+      "poster": "https://image.tmdb.org/t/p/w500/3xHKWGKfaavvjVpF6ww9QpvQoXS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9Lu2qxOVGAoT4ptEQrBGpFxaP5O.jpg",
+      "description": "Découvrez l'histoire du plus grand mouvement de défense des droits civiques, dont la plupart des gens n'ont jamais entendu parler. En 1988, pendant une semaine tumultueuse, dans la seule université au monde destinée aux Sourds, quatre étudiants mènent une révolution et changent le cours de l'histoire.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1058617",
+      "type": "movie",
+      "name": "Fancy Dance",
+      "poster": "https://image.tmdb.org/t/p/w500/pU8GFm1o3lgzlh12D5p3OgkCigk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2oTqxCe7EGMqMpJx5we2xcBT6Lx.jpg",
+      "description": "Après la disparition de sa sœur, Jax et sa nièce, Roki, doivent se serrer les coudes. Bien déterminées à préserver ce qu’il reste de leur famille, Jax et Roki bravent la loi et prennent la route en direction d’Oklahoma City pour le grand pow-wow des tribus.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:975490",
+      "type": "movie",
+      "name": "Snoopy présente : L’école selon Lucy",
+      "poster": "https://image.tmdb.org/t/p/w500/z9Mg1YLE2vPJBvXTB3dOl1YK3TB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/67eYc8TlD7GMlmWkQjKU9kFjB9c.jpg",
+      "description": "La bande des Peanuts appréhende de changer d'établissement scolaire, alors Lucy crée sa propre école. Elle découvre vite que l'enseignement est plus difficile qu'elle ne l'imaginait, et que le changement peut avoir du bon.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:1465476",
+      "type": "movie",
+      "name": "Lulu est une rhinocéros",
+      "poster": "https://image.tmdb.org/t/p/w500/fXzxZeXFZglAjNR8lkx6k6ZFCDJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ak7IHiAEJIuiEsklXNd05cCbAr3.jpg",
+      "description": "Souhaitant répandre la gentillesse, la pétillante Lulu se lance dans l'aventure de sa vie et trouvera en chemin de nouveaux amis, du courage et des chansons pleines d'entrain !",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:13353",
+      "type": "movie",
+      "name": "C’est la grosse citrouille, Charlie Brown",
+      "poster": "https://image.tmdb.org/t/p/w500/6KC6LoifwcGr4Hi5nTEfSS87Yyx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/k7F9aj6Vmz8rJ9lcm2mIgUiWDWV.jpg",
+      "description": "Costumes, bonbons et citrouilles, voilà comment célébrer Halloween ! Rejoignez les Peanuts pour une nouvelle aventure : alors que Charlie Brown se prépare pour la fête, Snoopy affronte le Baron rouge, et Linus attend la grosse citrouille.",
+      "releaseInfo": "1966"
+    },
+    {
+      "id": "tmdb:896151",
+      "type": "movie",
+      "name": "Blitz",
+      "poster": "https://image.tmdb.org/t/p/w500/e9tyjbF2rugENtBolTtEhHOXgzD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qRSMoh9EMlQ9uywMpLulWBkIma9.jpg",
+      "description": "À Londres, pendant la Seconde Guerre mondiale, un jeune garçon de neuf ans prénommé George est évacué vers la campagne par sa mère, Rita, pour échapper aux bombardements. Déterminé à retrouver sa famille, il entreprend un voyage épique et périlleux pour rentrer chez lui, tandis que sa mère est à sa recherche.",
+      "releaseInfo": "2024"
+    }
+  ]
+}

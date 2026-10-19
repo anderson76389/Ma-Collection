@@ -145,6 +145,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1122573",
+      "type": "movie",
+      "name": "Les Spécialistes",
+      "poster": "https://image.tmdb.org/t/p/w500/sF1EGQWrUghvtD3VpqgsBACHr9u.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qcIKxhqGMIj8uujsSoSMZWr8QqU.jpg",
+      "description": "Rachel, recouvreuse de dettes de haut vol, exerce un métier dangereux. C'est pourquoi elle s'entoure des meilleurs, Sid et Bronco, pour l'accompagner et la protéger dans ses négociations. Mais même pour ces spécialistes, récupérer le milliard de dollars de leur prochain contrat pourrait être mission impossible. Sauf qu'impossible ne fait pas partie de leur vocabulaire…",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1439930",
       "type": "movie",
       "name": "The Punisher : One Last Kill",
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/t13MdGCKRZvkmrFW2A7Vih3QjwD.jpg",
       "background": "https://image.tmdb.org/t/p/w780/1YU6Hy3x7fUh7dfOzSfjifTp20g.jpg",
       "description": "Bienvenue à Normal dans le Minnesota. Population : 1890 âmes. Dans ce village isolé, l’ancien enquêteur Ulysses est nommé au poste de sheriff intérimaire. Ce qui était en apparence une communauté sans histoires se révèle être en réalité une fourmilière de secrets et de violence après qu’un hold-up a complètement dérapé. Ulysses découvre rapidement que rien ni personne n’est ce qu’il semble être en apparence. Derrière la façade amicale de Normal se cache un dangereux réseau de corruption et d’alliances secrètes où il se retrouve empêtré.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:855435",
-      "type": "movie",
-      "name": "Faces of Death",
-      "poster": "https://image.tmdb.org/t/p/w500/vPVY3S57lEooBLJCg6KGdMHkUxm.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qdyeQg2gWj1L8cDlwU3tI4s0Hub.jpg",
-      "description": "Une modératrice d'un site similaire à YouTube trie des contenus inappropriés pour la plateforme. Elle découvre un groupe qui semble reconstituer les meurtres du film original. Mais à l'ère du numérique et de la désinformation en ligne, ces meurtres sont-ils réels ou des deepfakes ?",
       "releaseInfo": "2026"
     }
   ]

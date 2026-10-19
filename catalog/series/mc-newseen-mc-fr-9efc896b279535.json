@@ -1,0 +1,49 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:90",
+      "type": "series",
+      "name": "Mayday : Dangers dans le ciel",
+      "poster": "https://image.tmdb.org/t/p/w500/sWwsiXi0V4spWdVkzje3143Bxjy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vqm22ecqtzy5Olr74mkUV5lWa9g.jpg",
+      "description": "Cette série revient sur les grandes catastrophes aériennes. Ces films, mélange de reconstitutions et de témoignages, nous plongent dans une atmosphère angoissante et un suspense haletant. Interventions des survivants et des parents de victimes, explications d’experts, étude de la boîte noire de l'avion, rapports des autorités… Un important travail d'enquête a été mené afin de tenter de comprendre les raisons de ces crashes.",
+      "releaseInfo": "2003"
+    },
+    {
+      "id": "tmdb:34891",
+      "type": "series",
+      "name": "Jake et les Pirates du Pays imaginaire",
+      "poster": "https://image.tmdb.org/t/p/w500/uet64gptwR7iDGc0laIRmYNtNH0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vV1EQ1zLuZ5yPL7LaBqPayVsggC.jpg",
+      "description": "Jake, Izzy et Le Frisé sont de jeunes pirates accompagnés de leur perroquet, Skully. Ils vivent au Pays imaginaire et doivent affronter les manigances du Capitaine Crochet qui tente de voler des trésors répandus presque partout dans le Pays Imaginaire avec l'aide de sa bande de pirates : Sharky et Bones (avec notamment Monsieur Mouche).",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:95",
+      "type": "series",
+      "name": "Buffy contre les vampires",
+      "poster": "https://image.tmdb.org/t/p/w500/aMevCP31StJiJYOtMPWSdZ9J5Ni.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lBmlLro9ZfY815ZXE5NKhYNxPRQ.jpg",
+      "description": "A chaque génération il y a une élue. Seule elle devra affronter les vampires, les démons et les forces de l'ombre. Concilier scolarité difficile et affrontements nocturnes, ce n'est pas facile. Et c'est pourtant le quotidien de Buffy, une adolescente comme les autres avec ses problèmes affectifs et scolaires, mais qui la nuit part à la chasse aux vampires !",
+      "releaseInfo": "1997"
+    },
+    {
+      "id": "tmdb:615",
+      "type": "series",
+      "name": "Futurama",
+      "poster": "https://image.tmdb.org/t/p/w500/eM8bbTn8C8vUwwS6upzzm7gX31u.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4xKG4S1IyLIglHbCYGJDsptgQNh.jpg",
+      "description": "Accidentellement cryogénisé le 31 décembre 1999 alors qu'il livrait une pizza, Fry se réveille 1.000 ans plus tard à New York. À l'aube de l'an 3000, le monde a bien changé, peuplé de robots et d'extraterrestres. Le jeune homme retrouve l'un de ses descendants qui l'engage lui et ses nouveaux amis, Leela et Bender, au Planet Express, une entreprise de livraison. Ensemble, ils vont devoir faire face à de périlleuses et délirantes missions dans un monde des plus surprenants.",
+      "releaseInfo": "1999"
+    },
+    {
+      "id": "tmdb:1403",
+      "type": "series",
+      "name": "Marvel : Les Agents du S.H.I.E.L.D.",
+      "poster": "https://image.tmdb.org/t/p/w500/j6pen1MBLKbBoXrzrHSxfsd0lrC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg",
+      "description": "Suite aux évènements survenus dans THE AVENGERS, l'agent Phil Coulson retourne au sein de l'organisation mondiale du maintien de l'ordre, le S.H.I.E.L.D., pour y mettre sur pied une petite équipe d'agents extrêmement bien entraînés afin de s'attaquer aux affaires non encore classées ayant un trait aux phénomènes nouveaux, étranges et inconnus. Constistuée du très intègre agent Grant Ward, expert en combat et renseignements, de l'agent Melinda May, pilote émérite et experte en arts martiaux et des très brillants, si ce n'est un peu étranges socialement, agents scientifiques Leo Fitz et Jemma Simmons, l'équipe sera épaulée par Skye, nouvelle recrue civile, hacker et fan de super-héros.",
+      "releaseInfo": "2013"
+    }
+  ]
+}

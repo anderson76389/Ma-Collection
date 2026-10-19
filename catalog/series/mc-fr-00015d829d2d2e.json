@@ -28,14 +28,6 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:337700",
-      "type": "series",
-      "name": "The Serial Killer Connection",
-      "poster": "https://image.tmdb.org/t/p/w500/2QVTk55dw9tMUHDlG4027cOTNOv.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6GYk6Fw9Biyfk39D70Y4oz2LgHL.jpg",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:231034",
       "type": "series",
       "name": "Un mort au sous-sol",
@@ -43,6 +35,14 @@
       "background": "https://image.tmdb.org/t/p/w780/m4XRxZu4c0ImDwpRB2vPtsMdypd.jpg",
       "description": "Découvrez des enquêtes pour meurtres qui ont toutes un point commun : chacun des cadavres a été retrouvé au sous-sol d’une habitation. Descendons ensemble.",
       "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:337700",
+      "type": "series",
+      "name": "The Serial Killer Connection",
+      "poster": "https://image.tmdb.org/t/p/w500/2QVTk55dw9tMUHDlG4027cOTNOv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6GYk6Fw9Biyfk39D70Y4oz2LgHL.jpg",
+      "releaseInfo": "2026"
     }
   ]
 }

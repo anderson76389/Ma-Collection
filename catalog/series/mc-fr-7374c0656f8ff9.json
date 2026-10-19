@@ -10,6 +10,15 @@
       "releaseInfo": "1999"
     },
     {
+      "id": "tmdb:456",
+      "type": "series",
+      "name": "Les Simpson",
+      "poster": "https://image.tmdb.org/t/p/w500/py1CAYqgpKKtLBdtctLIXfDYDjW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg",
+      "description": "Située à Springfield, ville américaine moyenne, la série se concentre sur les singeries et les aventures quotidiennes de la famille Simpson : Homer, Marge, Bart, Lisa et Maggie, ainsi que des milliers d'autres personnages.",
+      "releaseInfo": "1989"
+    },
+    {
       "id": "tmdb:4614",
       "type": "series",
       "name": "NCIS : Enquêtes Spéciales",
@@ -17,6 +26,15 @@
       "background": "https://image.tmdb.org/t/p/w780/c1aBrG5s5xFa6Tbnihu2Hhj4t2q.jpg",
       "description": "L'agent spécial Leroy Jethro Gibbs, de la Section criminelle de la Gendarmerie maritime, dirige un groupe de personnes aux personnalités colorées qui enquête sur les crimes. Ceux-ci vont du meurtre et de l'espionnage au terrorisme, et sont reliés de manière assurée au personnel du corps de la Marine. L'équipe est composée d'Anthony DiNozzo, un ex-inspecteur plein d'esprit spécialisé en homicides, d'Abby Sciuto, l'excentrique spécialiste d'enquête en technique de laboratoire, de Timothy McGee, brillant lorsqu'inquiet, et de Ziva David, ex-officier de liaison du Mossad. Le Dr Donald \"Ducky\" Mallard contribue à la résolution de cas grâce à sa grande expérience dans le domaine de la médecine légale.",
       "releaseInfo": "2003"
+    },
+    {
+      "id": "tmdb:1416",
+      "type": "series",
+      "name": "Grey's Anatomy",
+      "poster": "https://image.tmdb.org/t/p/w500/meLc14IucQOzlqRn3ERCWjt5BEC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A4NwkQXTXElE5iAsne5RpvS8R2Z.jpg",
+      "description": "Meredith Grey, fille d'un chirurgien très réputé, commence son internat de première année en médecine chirurgicale dans un hôpital de Seattle. La jeune femme s'efforce de maintenir de bonnes relations avec ses camarades internes, mais dans ce métier difficile la compétition fait rage.",
+      "releaseInfo": "2005"
     },
     {
       "id": "tmdb:1413",
@@ -28,22 +46,13 @@
       "releaseInfo": "2011"
     },
     {
-      "id": "tmdb:65334",
+      "id": "tmdb:75219",
       "type": "series",
-      "name": "Miraculous, les aventures de Ladybug et Chat Noir",
-      "poster": "https://image.tmdb.org/t/p/w500/585lHpUQ75NvprAuSpAvJaNJya5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lH22EnM0ofC7GsVGU8dAA2RXV1c.jpg",
-      "description": "Paris, aujourd'hui. Marinette et Adrien sont deux collégiens comme les autres, à la différence près qu’ils ont été choisis pour sauver Paris ! Leur mission : capturer les Akumas du mystérieux Papillon qui transforment les parisiens en super vilains. Grâce à leur kwami, nos deux collégiens se métamorphosent en superhéros : Ladybug, et Chat Noir.",
-      "releaseInfo": "2015"
-    },
-    {
-      "id": "tmdb:1877",
-      "type": "series",
-      "name": "Phinéas et Ferb",
-      "poster": "https://image.tmdb.org/t/p/w500/wgEDwsPxEeYk3hLWKsTgs1KJhS6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5MWFjQ3NuNtNeOE9FdrVLeNMNPs.jpg",
-      "description": "Phineas et Ferb sont des demi-frères passant leurs vacances d'été à martyriser leur soeur, à s'imaginer des aventures extraordinaires dans leur jardin... sans se douter que leur ornithorynque de compagnie est un agent secret !",
-      "releaseInfo": "2007"
+      "name": "9-1-1",
+      "poster": "https://image.tmdb.org/t/p/w500/6njUqsd3By2mJsdZm1P0moPLzs3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5QJtEzMR7NxRxBBEdB7JfM1l7Oj.jpg",
+      "description": "Du service d'appels d'urgences 911 aux pompiers, secouristes ou policiers, tous ces intervenants sont constamment sous pression, confrontés quotidiennement à des situations stupéfiantes, effrayantes, et parfois même choquantes. S'ils ont pour mission de voler au secours des personnes en danger, ces héros de l'ombre doivent aussi trouver le temps de résoudre les problèmes de leurs propres vies…",
+      "releaseInfo": "2018"
     },
     {
       "id": "tmdb:2710",
@@ -67,8 +76,8 @@
       "id": "tmdb:125935",
       "type": "series",
       "name": "Abbott Elementary",
-      "poster": "https://image.tmdb.org/t/p/w500/nBe1e3JJEZ6veGrVXNF0fRoLu56.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/asDINJT3b7tEa76uWI1rZ5TWdJF.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/zk2aNVIHoapdWKOcaYp7PhX9SxD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/s3owzvmihtDrunVxB2DyGjn9iJt.jpg",
       "description": "Dans cette comédie en milieu de travail, un groupe d'enseignants dévoués et passionnés - et un directeur légèrement sourd - sont réunis dans une école publique de Philadelphie où, malgré les obstacles qui leur sont opposés, ils sont déterminés à aider leurs élèves à réussir dans la vie. Bien que ces incroyables fonctionnaires soient en infériorité numérique et sous-financés, ils aiment ce qu'ils font - même s'ils n'aiment pas l'attitude moins que stellaire du district scolaire envers l'éducation des enfants.",
       "releaseInfo": "2021"
     },
@@ -77,18 +86,9 @@
       "type": "series",
       "name": "Tokyo Revengers",
       "poster": "https://image.tmdb.org/t/p/w500/kzDHRAkFjeed0lJpjE1eKJDcowS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jnThpphOHQRiTedCtz1yyshfkHw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zYIFOocMfsKAEysBjhZ8akfXFdB.jpg",
       "description": "Takemichi Hanagaki n'a pas vraiment réussi sa vie. Il fait des petits boulots sans intérêt et lorsqu'il apprend que la seule petite amie qu'il ait jamais eu au collège, Hinata Tachibana, a été tuée par l'impitoyable gang Tokyo Manji-kai, il est anéanti. Le lendemain, toujours sous le choc, il est poussé sur les rails de la gare lors d'un mouvement de foule. Mais Takemichi ne meurt pas et quand il se réveille, il est revenu douze ans en arrière. Il va ainsi retrouver ses meilleures années, mais aussi tenter de sauver celle qui l'aime et prendre sa revanche sur la vie…",
       "releaseInfo": "2021"
-    },
-    {
-      "id": "tmdb:226688",
-      "type": "series",
-      "name": "BEYBLADE X",
-      "poster": "https://image.tmdb.org/t/p/w500/66wkm14IWdrY5LaKZDAbkD2T9Jt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qAq9RBeHZoTMDFqQZ2o4cE5CJIQ.jpg",
-      "description": "Robin Kazami, blader débutant, s'associe à l'influenceuse Multi Nana-iro et à l'ancien champion Jaxon Cross pour former ce trio improbable, prêt à gravir les échelons du classement The X et à remporter le titre de champion blader !",
-      "releaseInfo": "2023"
     },
     {
       "id": "tmdb:216467",
@@ -118,15 +118,6 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:127706",
-      "type": "series",
-      "name": "Kiff",
-      "poster": "https://image.tmdb.org/t/p/w500/h7xhJ1uWu7FurJ3W5iKzrfiPF3K.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bfeOXOhilwMYcO0ruvFXruBsv4H.jpg",
-      "description": "L'histoire de Kiff, un écureuil optimiste aux bonnes intentions qui mènent bien souvent au désastre, et de son meilleur ami Barry, un gentil et doux lapin. Dans des montagnes grouillantes de vie où les animaux et les créatures magiques vivent en harmonie, le duo prend la ville d'assaut avec ses aventures sans fin et sa joie de vivre.",
-      "releaseInfo": "2023"
-    },
-    {
       "id": "tmdb:302074",
       "type": "series",
       "name": "R.J. Decker",
@@ -145,23 +136,6 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:114656",
-      "type": "series",
-      "name": "Celebrity Wheel of Fortune",
-      "poster": "https://image.tmdb.org/t/p/w500/pWKyup7doWk9AIeW6q9EXUmr61h.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vKk3womxcGLqOZLiGZ2aXA2PtOV.jpg",
-      "releaseInfo": "2021"
-    },
-    {
-      "id": "tmdb:275722",
-      "type": "series",
-      "name": "Vampirina : l'ado vampire",
-      "poster": "https://image.tmdb.org/t/p/w500/7TwsVRLD1rKnlIpn8pAQQo5YeY2.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uoxufQOHw6qv49bjTQgT0SzrEVY.jpg",
-      "description": "Vee quitte la Transylvanie pour un internat, pour poursuivre ses rêves de musique. Alors qu'elle cache son identité de vampire, des obstacles inattendus menacent de la renvoyer dans l'ombre.",
-      "releaseInfo": "2025"
-    },
-    {
       "id": "tmdb:273247",
       "type": "series",
       "name": "The Lowdown",
@@ -171,6 +145,23 @@
       "releaseInfo": "2025"
     },
     {
+      "id": "tmdb:284838",
+      "type": "series",
+      "name": "9-1-1: Nashville",
+      "poster": "https://image.tmdb.org/t/p/w500/63JFLM8L8H1Jlp62kZGPvSKc50j.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ubqZEVCDp86myrZwJpyNwocLrce.jpg",
+      "description": "A Nashville, capitale de l'État du Tennessee et coeur de la musique country, pompiers, secouristes et policiers unissent leurs forces pour gérer des urgences parfois spectaculaires, tout en affrontant les défis de leur propre vie.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:114656",
+      "type": "series",
+      "name": "Celebrity Wheel of Fortune",
+      "poster": "https://image.tmdb.org/t/p/w500/pWKyup7doWk9AIeW6q9EXUmr61h.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vKk3womxcGLqOZLiGZ2aXA2PtOV.jpg",
+      "releaseInfo": "2021"
+    },
+    {
       "id": "tmdb:72482",
       "type": "series",
       "name": "La Route de l'enfer : Norvège",
@@ -178,6 +169,15 @@
       "background": "https://image.tmdb.org/t/p/w780/wOEbMvVfcvMGevu3snwSSL2J8qv.jpg",
       "description": "Ça se produit chaque année. Le rude hiver norvégien transforme les routes de montagne en pistes de bobsleigh et dévie des milliers de camions de 50 tonnes de la route. 'La route de l'enfer : Norvège' suit les équipes de remorquage norvégiennes qui secourent ces camions et remorques sur les montagnes glacées et les remettent en piste.",
       "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:90439",
+      "type": "series",
+      "name": "La dernière bataille d'Hitler",
+      "poster": "https://image.tmdb.org/t/p/w500/hUuFv1Hl8hfahQjKDve1LBKyhHS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dO6cCpjcYd4HVBwMZT6cbT0Flfo.jpg",
+      "description": "En mars 1945, les armées alliées s'alignent le long du Rhin, prêtes à envahir l'Allemagne nazie, les généraux jouent des coudes pour traverser les premiers.",
+      "releaseInfo": "2018"
     }
   ]
 }

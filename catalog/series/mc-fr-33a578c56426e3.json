@@ -19,14 +19,6 @@
       "releaseInfo": "2007"
     },
     {
-      "id": "tmdb:70",
-      "type": "series",
-      "name": "This Hour Has 22 Minutes",
-      "poster": "https://image.tmdb.org/t/p/w500/shWjVJtL7NBLcGiylwWwXLm9nlR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2z85pmHUqfkktqDuqaxksGSW8S8.jpg",
-      "releaseInfo": "1993"
-    },
-    {
       "id": "tmdb:38206",
       "type": "series",
       "name": "Dragons' Den",
@@ -44,15 +36,6 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:97867",
-      "type": "series",
-      "name": "Family Feud Canada",
-      "poster": "https://image.tmdb.org/t/p/w500/ohlgnAbNTZYZ0PhsM57HPTJ0pg7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vK8tSeOh7WTkPqLu3kK34U8zmiE.jpg",
-      "description": "Il s'agit de la version canadienne du jeu TV \"Une famille en or\", originaire des Etats-Unis sous le nom de Family Feud. Deux familles composées de cinq membres s'affrontent en donnant leur opinion, sur des questions posées à 100 Canadiens. Le but est de se rapprocher le plus de l'opinion des Canadiens sondés, afin d'amasser un maximum de points pour accéder à la finale et gagner le gros lot !",
-      "releaseInfo": "2019"
-    },
-    {
       "id": "tmdb:75817",
       "type": "series",
       "name": "The Great Canadian Baking Show",
@@ -60,14 +43,6 @@
       "background": "https://image.tmdb.org/t/p/w780/2YPyaKoBFrxqR8g6f4J5TOvHJaE.jpg",
       "description": "Version canadienne de la compétition de pâtisserie britannique à succès. 10 boulangers amateurs de partout au Canada s'affrontent dans une série de défis culinaires thématiques.",
       "releaseInfo": "2017"
-    },
-    {
-      "id": "tmdb:277410",
-      "type": "series",
-      "name": "Dino Ranch: Island Explorers",
-      "poster": "https://image.tmdb.org/t/p/w500/knkr9RwA33jIskhS6PuwSZJCp0s.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8w8oWpatj0MSlNdWNTXEu99JDGJ.jpg",
-      "releaseInfo": "2025"
     },
     {
       "id": "tmdb:327287",

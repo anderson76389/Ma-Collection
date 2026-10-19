@@ -1,6 +1,93 @@
 {
   "metas": [
     {
+      "id": "tmdb:1400940",
+      "type": "movie",
+      "name": "Clayface",
+      "poster": "https://image.tmdb.org/t/p/w500/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kVtOcoUJ68chBD2tmERkdWz7lK5.jpg",
+      "description": "L'ascension fulgurante de Matt Hagen, de gamin des rues de Gotham à star hollywoodienne, est brutalement interrompue lorsqu'un baron du crime le laisse atrocement défiguré. Abandonné de tous et n'ayant plus rien à perdre, Matt se tourne vers un traitement expérimental qui lui rend miraculeusement son apparence... mais altère profondément sa perception de la réalité. Il sombre alors dans une spirale destructrice, consumé par un irrépressible désir de vengeance.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1765072",
+      "type": "movie",
+      "name": "You Can See Everything",
+      "poster": "https://image.tmdb.org/t/p/w500/7nG1AFxnrh5KtgH3jA4uIsWmX95.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nhIL3O4W9h5V5JbNQm7yjoDk3So.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1620918",
+      "type": "movie",
+      "name": "Norm: The Tale of Norm Macdonald",
+      "poster": "https://image.tmdb.org/t/p/w500/sQw3m4hl1xyoT9zr7shnNCHDKI3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/d3Uscbjxikw0Vgk9ACFUpqFXplA.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1561726",
+      "type": "movie",
+      "name": "Masterplan",
+      "poster": "https://image.tmdb.org/t/p/w500/a13BTR3jJWr2ARoLvTC3f5gQhfw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dgUDj84BWtW6EZzee8BkgKnjDhh.jpg",
+      "description": "Quand un voleur légendaire jette son dévolu sur La Joconde, il recrute deux jeunes inconnus pour l'aider (Chiara, une experte italienne du cybercrime et Jay, un spécialiste français des explosifs) avant de leur révéler qu'il est leur père. Au milieu de retrouvailles chaotiques, cette nouvelle famille devra apprendre à collaborer et éviter de s'entretuer si elle veut réussir le casse du siècle.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1452110",
+      "type": "movie",
+      "name": "Clean Hands",
+      "poster": "https://image.tmdb.org/t/p/w500/szIEtkFLOMsPX6AVQSfzalNEEDd.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/py3XG3mFkdVMcw7VwfZ4HaXZIIU.jpg",
+      "description": "L'histoire vraie de Kevin Simmers, ancien policier anti-drogue devenu défenseur de la désintoxication, et de sa fille Brooke. Le film explore la crise américaine de la drogue et « la fine ligne bleue » à travers les regards opposés d'un policier et d'une toxicomane, qui étaient également père et fille.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1255833",
+      "type": "movie",
+      "name": "Englouti",
+      "poster": "https://image.tmdb.org/t/p/w500/qLt9F35AdGKDXPSJtqH5DERoigI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg",
+      "description": "Un plongeur sous-marin est à la recherche des restes de son père décédé, qui s'est fait avaler par un cachalot. Il ne lui reste plus qu'une heure avant que l'oxygène ne vienne à lui manquer.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1783629",
+      "type": "movie",
+      "name": "Michael Che: Shot in Minnesota",
+      "poster": "https://image.tmdb.org/t/p/w500/1DbNbV9zWT29yAUr45qSbCGCtFz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ax5fGBSTqYEeYkgPmvYK47xdKHj.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1282159",
+      "type": "movie",
+      "name": "Let's Have Kids!",
+      "poster": "https://image.tmdb.org/t/p/w500/cY78RP8wjO7Kct4dFiYOYLg2Rxw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A42JE6WJDMsICN3NU6XkUyYEF5F.jpg",
+      "description": "Les amies d'enfance Emma et Phoebe ont le pacte de tomber enceintes en même temps, persuadées de pouvoir affronter la maternité ensemble. Mais quand leur plan plonge dans le chaos, ce qui devait les rapprocher menace de les séparer. Alors que leurs vies s'éloignent, elles doivent lutter pour protéger l'amitié qui les a fait traverser toutes les épreuves.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1153576",
+      "type": "movie",
+      "name": "Street Fighter",
+      "poster": "https://image.tmdb.org/t/p/w500/k53HHxQ4rQG0dME6nsofii3QNS7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5H5YphHsQmkQhrw13Wv1whCZKtN.jpg",
+      "description": "En 1993, Ryu et Ken Masters, deux Street Fighters autrefois inséparables, sont replongés dans l’arène lorsque la mystérieuse Chun-Li les recrute pour le prochain World Warrior Tournament : un affrontement brutal où se mêlent poings, destin et fureur. Mais derrière cette battle royale se cache une conspiration mortelle qui les oblige à s’affronter, tout en faisant face aux démons de leur passé… Et s’ils échouent, c’est GAME OVER.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1790935",
+      "type": "movie",
+      "name": "Instadocs: L'IA s'emballe",
+      "poster": "https://image.tmdb.org/t/p/w500/ybMAd7Tkd3T7XlCv4Ps54r1yC1M.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9EfbnudTOAoiPVOEWL0vwhdbdBq.jpg",
+      "description": "L'IA a-t-elle commis un crime grave? La série enquête sur le piratage de Hugging Face et explique en quoi cette cyberattaque pourrait être un signal d'alarme pour l'humanité.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1545690",
       "type": "movie",
       "name": "WWE Money in the Bank 2026",
@@ -18,6 +105,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1288069",
+      "type": "movie",
+      "name": "Tenzing : à la conquête de l’Everest",
+      "poster": "https://image.tmdb.org/t/p/w500/hKA6G4Dj0Uonghi6AUwmpIvCFo0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6GXqVvL20Y0MpyVP30WoI2NPK69.jpg",
+      "description": "Un homme déterminé se lance dans une aventure périlleuse - et brave des obstacles apparemment insurmontables - pour réaliser son rêve d'être le premier à atteindre le sommet de l'Everest.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1236045",
       "type": "movie",
       "name": "Animals",
@@ -27,12 +123,30 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1185344",
+      "type": "movie",
+      "name": "The Beast",
+      "poster": "https://image.tmdb.org/t/p/w500/ocg5JfJP19fodcv5uQUApkmZMdI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/v5Wb9NoE0s1mGmC5wVeQR1OK22V.jpg",
+      "description": "Lorsqu'une milice coordonne un coup d'État contre les États-Unis, le président découvre l'étendue des capacités offensives de la Bête, la limousine présidentielle.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1400837",
       "type": "movie",
       "name": "Malfaisante",
       "poster": "https://image.tmdb.org/t/p/w500/wAofwsldMDNAIzGSEfMJMoUn1KB.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg",
       "description": "Une famille est la cible d'une entité qu'elle appelle « l'autre maman ».",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1381078",
+      "type": "movie",
+      "name": "L'Amour de ta vie",
+      "poster": "https://image.tmdb.org/t/p/w500/1zrnRcJ8JOTXYp0Qizad1rnuIA0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mqYqKvrKTgMvK50VtEDZlYFsnHz.jpg",
+      "description": "Maya dont la rencontre fortuite avec Charlie donne naissance à une histoire d'amour passionnée et à la vie dont elle n'osait pas rêver. Lorsque tout bascule, Maya doit déterminer qui elle est, ce qu'elle veut et comment réapprendre à aimer.",
       "releaseInfo": "2026"
     },
     {
@@ -57,121 +171,8 @@
       "type": "movie",
       "name": "Matchbox – Le film",
       "poster": "https://image.tmdb.org/t/p/w500/vSgnJDw404JUokiy5NDZgXOi01E.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/roawIpy5sigBB7LsU4AJDw70jPo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg",
       "description": "Des amis d'enfance reprennent contact et les retrouvailles prennent une tournure inattendue quand ils découvrent un dangereux complot international et doivent sauver le monde.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1610703",
-      "type": "movie",
-      "name": "Infirmary",
-      "poster": "https://image.tmdb.org/t/p/w500/n9MospSE1BoXx2gNJdR6gnWbEzd.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qkxk9URcK33HK54YSXFPQO8aqJH.jpg",
-      "description": "Un gardien a disparu lors de sa première nuit dans un ancien hôpital psychiatrique en 2023. Les images de sa caméra montrent des incidents inexplicables qui continuent de déconcerter les enquêteurs.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1596303",
-      "type": "movie",
-      "name": "The Last First : le K2 en hiver",
-      "poster": "https://image.tmdb.org/t/p/w500/zrOs0WKhESe6J4UErG32ZjOOh1A.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wtzSwtnQ4RsRbV5cc114Nb1q3b0.jpg",
-      "description": "Une course mémorable pour être le premier à atteindre le sommet du K2 en hiver vire au drame, révélant qu'ambition, ego et quête de gloire sont aussi dangereux que la montagne.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1528830",
-      "type": "movie",
-      "name": "Extra Geography",
-      "poster": "https://image.tmdb.org/t/p/w500/yhHRpLhtaFXGYMsE5LuaRvZYs77.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ptLT3O7XmXOLplR8T0e9ykGcw8l.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1458857",
-      "type": "movie",
-      "name": "À vie",
-      "poster": "https://image.tmdb.org/t/p/w500/c3O1ApzLnQ1jUXA60kXDraiPPIv.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nDScZ6YR2nfNCeK5bmJ1ujb355b.jpg",
-      "description": "Quand Anika, une jeune mère célibataire qui se bat pour préserver l'unité de sa famille, commence à échanger des lettres avec un détenu, Carousel, une relation improbable se noue à distance et prend bientôt une tournure inattendue. Naît alors une puissante histoire d'amour et de rédemption, portée par l'espoir de pouvoir un jour échapper au poids du passé. Car même les relations les plus inconcevables peuvent changer des vies et offrir une seconde chance d'être heureux.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1320039",
-      "type": "movie",
-      "name": "Stranglehold",
-      "poster": "https://image.tmdb.org/t/p/w500/eTWcOmwSqC8Xr5o5VKFj7BFHKSI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dBziuJUx0tteX1eSzKj05twjDJi.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1244523",
-      "type": "movie",
-      "name": "Beware Boiúna",
-      "poster": "https://image.tmdb.org/t/p/w500/uW5YMPxJUzT9bkafrCKHXjPTCoQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9nU0FKNefmhbgi2xXlvZchZsqwm.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1758536",
-      "type": "movie",
-      "name": "Le Veuf : Jusqu'à ce que la mort...",
-      "poster": "https://image.tmdb.org/t/p/w500/1Yv7Kg5DEW1k6PCV4PEoDuv87sH.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kejOti7YfpTr88Y4fWnd3UVDr8e.jpg",
-      "description": "Dans ce documentaire, un journaliste et un enquêteur dévoilent la vérité sur un tueur dont le charme masquait une série de mariages ratés et de décès suspects.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1437195",
-      "type": "movie",
-      "name": "Diffusion en direct de l'enfer",
-      "poster": "https://image.tmdb.org/t/p/w500/mY3iQP4LH71TMmtXEg65nAxvYZI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/eJ4vMJJlnxnKqdJCBDXvNmE0LVp.jpg",
-      "description": "Kevin Hart collabore avec les créateurs de contenu numérique Kai Cenat et Druski pour une diffusion en direct historique dans sa maison « intelligente », mais les choses dégénèrent dans l'humour et un meurtre se produit devant les caméras, piégeant le trio et leurs invités célèbres dans une comédie d'horreur attirant des millions d'internautes.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1388805",
-      "type": "movie",
-      "name": "Linkin Park Unshatter",
-      "poster": "https://image.tmdb.org/t/p/w500/IJm4pjhXoE3xYHlEvHw8wIQVY8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uL1HCc4wmcFcSr1zS3kXX3CNUeE.jpg",
-      "description": "Après une pause de sept ans, marquée par la perte tragique de leur cher compagnon de groupe, les membres restants de LINKIN PARK cherchent à retrouver leur chemin. Leur histoire commune, leur amitié indéfectible, ainsi que l’arrivée de deux nouveaux membres insufflent une nouvelle énergie créative qui les entraîne dans un voyage de réinvention artistique. Suivant le groupe depuis ses sessions studio intimistes de 2022 jusqu’à la sortie explosive de leur album le 15 novembre 2024 et leur concert à São Paulo, le film mêle images d’archives inédites, performances électrisantes issues de concerts à guichets fermés et témoignages sincères des membres du groupe et de leurs fans. Un récit brut et authentique sur ce que signifie recommencer, se réinventer et avancer.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1283515",
-      "type": "movie",
-      "name": "Verity",
-      "poster": "https://image.tmdb.org/t/p/w500/zLCjFOyjvKqYdkQYYAyTtfJ5mpk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3BoHXmGAfC2qO4wnCpMYV0BzpHD.jpg",
-      "description": "Lorsqu’un accident affecte les capacités de l’autrice de bestsellers, Verity Crawford, à achever son œuvre, une écrivaine solitaire, Lowen Ashleigh, qui peine à joindre les deux bouts est engagée pour lui prêter sa plume. En résidence dans la propriété reculée de la romancière, elle fait la découverte d’un manuscrit autobiographique glaçant et peine à démêler ce qui relève de la fiction ou de la réalité…",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1767073",
-      "type": "movie",
-      "name": "The Nice Ones",
-      "poster": "https://image.tmdb.org/t/p/w500/akMSRVUZRBZlR9nzbEhRPoQ4xSu.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zQmaXGt8MYNRZaV2YVqkFbCoTWq.jpg",
-      "description": "Lorsque Kate rejoint les amis de son petit ami dans un lieu de retraite isolé à la campagne, de vieilles blessures refont surface alors que d’étranges lumières apparaissent dans le ciel. À mesure que le malaise s’installe, les membres du groupe commencent à changer : ils deviennent d’un calme déconcertant, aimables et « gentils ». Considérée comme instable, Kate lutte pour convaincre les autres que quelque chose ne va pas avant que la force qui est à l’origine de tout cela ne se propage.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1646945",
-      "type": "movie",
-      "name": "The Swan: Behind the Mirror",
-      "poster": "https://image.tmdb.org/t/p/w500/hCALD2uCetzUjj40k8TUMnsA397.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cxAOlicoljfeXzuNKKpElM4Bovc.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1248832",
-      "type": "movie",
-      "name": "Digger",
-      "poster": "https://image.tmdb.org/t/p/w500/gPCCGMQCrrMNM3mR3vqIdbdJxJ5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/b7t3r39Oll5qPxBKzLZ8eHMBD7l.jpg",
-      "description": "L’homme le plus puissant du monde se lance dans une mission frénétique pour prouver qu’il est le sauveur de l’humanité avant que le désastre qu’il a déclenché ne détruise tout.",
       "releaseInfo": "2026"
     }
   ]

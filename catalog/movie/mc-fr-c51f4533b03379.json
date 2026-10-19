@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:1234139",
+      "type": "movie",
+      "name": "ஜெயிலர் 2",
+      "poster": "https://image.tmdb.org/t/p/w500/upwdEyhhYZ7pT2hD535fr2MGfpx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zpHTOdRl7GEPqFsDGqsN6Hi9Ylt.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1578079",
       "type": "movie",
       "name": "டோரதி",
@@ -12,7 +20,7 @@
       "id": "tmdb:1465943",
       "type": "movie",
       "name": "மண்டாடி",
-      "poster": "https://image.tmdb.org/t/p/w500/xRIsVUcCBRVGh2pt9VgzRIw2tK5.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/jLVMvJAmnVRo2lzbqtGiecLzPLy.jpg",
       "background": "https://image.tmdb.org/t/p/w780/dJ4sqrmX2KviF8HBKlLrDedUhnh.jpg",
       "releaseInfo": "2026"
     },
@@ -21,7 +29,7 @@
       "type": "movie",
       "name": "சர்தார் 2",
       "poster": "https://image.tmdb.org/t/p/w500/cfHUMXmEDHmY7NYEUVsfvcqBVrD.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/i39M5xz57fEkPLtuiAXqWwMNMyN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zNghOXSvoex2wHx88skt5wGEzPd.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -153,14 +161,6 @@
       "name": "லவ் இன்சூரன்ஸ் கம்பெனி",
       "poster": "https://image.tmdb.org/t/p/w500/1IIUWMKzNVvI6YJX8BKE6EJ9bVd.jpg",
       "background": "https://image.tmdb.org/t/p/w780/woos7rldBAKG99HmcbNZNpMjwNk.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1504848",
-      "type": "movie",
-      "name": "லீடர்",
-      "poster": "https://image.tmdb.org/t/p/w500/eitNeP5lMT67piVVA8h31lb5keN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/sa3TBhb5S4ppfDcUuiAq2MYKra2.jpg",
       "releaseInfo": "2026"
     }
   ]

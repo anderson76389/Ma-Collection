@@ -10,6 +10,15 @@
       "releaseInfo": "2015"
     },
     {
+      "id": "tmdb:50042",
+      "type": "series",
+      "name": "Below Deck : La vie à bord",
+      "poster": "https://image.tmdb.org/t/p/w500/xMkYEWMGB7F7YfzJ24DPXoDj8vo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yL3g0vf5938of5GHQrfClzuLC15.jpg",
+      "description": "Le jeune équipage d'un yacht de croisière de luxe navigue sur des eaux troublées par l'amour, les exigences des passagers et bien d'autres remous dramatiques.",
+      "releaseInfo": "2013"
+    },
+    {
       "id": "tmdb:65300",
       "type": "series",
       "name": "Les Real Housewives de Potomac",
@@ -17,15 +26,6 @@
       "background": "https://image.tmdb.org/t/p/w780/8PkQKCE8rTFTUmGrP47FgaXLTNQ.jpg",
       "description": "Juste en amont du fleuve depuis la capitale de notre pays se trouve un joyau caché : Potomac, Maryland. Ses collines vallonnées, ses manoirs fermés, ses écoles préparatoires sophistiquées et ses country clubs exclusifs servent tous à garder la région sur invitation uniquement. Dans toute cette communauté se trouvent une poignée de familles afro-américaines riches et anciennes qui ont historiquement brisé les barrières raciales pour offrir une vie privilégiée à leurs enfants. Dans une ville où l'entrée n'est accordée qu'en fonction de la classe, du pedigree et de la lignée, jusqu'où les dames iront-elles pour s'assurer leur place au sommet de ce cercle prestigieux ?",
       "releaseInfo": "2016"
-    },
-    {
-      "id": "tmdb:10184",
-      "type": "series",
-      "name": "Snapped: les femmes tueuses",
-      "poster": "https://image.tmdb.org/t/p/w500/pEwmso9DnAiZosk5EApBm7x89Ii.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2JnYs1mNl63cfwPPqlnwZwsF74r.jpg",
-      "description": "Les affaires fascinantes de femmes en apparence ordinaires, épouses, petites amies, qui se retrouvent accusées de meurtre. Sont-elles réellement passées à l'acte ? Et si oui, pour quels mobiles ?",
-      "releaseInfo": "2004"
     },
     {
       "id": "tmdb:10222",
@@ -46,24 +46,6 @@
       "releaseInfo": "2008"
     },
     {
-      "id": "tmdb:50042",
-      "type": "series",
-      "name": "Below Deck : La vie à bord",
-      "poster": "https://image.tmdb.org/t/p/w500/xMkYEWMGB7F7YfzJ24DPXoDj8vo.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yL3g0vf5938of5GHQrfClzuLC15.jpg",
-      "description": "Le jeune équipage d'un yacht de croisière de luxe navigue sur des eaux troublées par l'amour, les exigences des passagers et bien d'autres remous dramatiques.",
-      "releaseInfo": "2013"
-    },
-    {
-      "id": "tmdb:66902",
-      "type": "series",
-      "name": "Below Deck : Méditerranée",
-      "poster": "https://image.tmdb.org/t/p/w500/u88QjNj1xyGwnZMtSZjA9jDNNro.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/icSS65Og4tnXpfNSAA3Q8Mvlot1.jpg",
-      "description": "Suivez les membres de l'équipage qui vivent et travaillent à bord d'un méga-yacht de 150 pieds alors qu'il entreprend une saison de charter en Méditerranée. Fournir un service inégalé à des clients fortunés et intransigeants est d'autant plus difficile que l'équipe doit faire face à toutes sortes de situations, depuis les triangles amoureux jusqu'au fait de voir des membres de l'équipage franchir de manière choquante les limites avec les clients.",
-      "releaseInfo": "2016"
-    },
-    {
       "id": "tmdb:110381",
       "type": "series",
       "name": "Les Real Housewives de Salt Lake City",
@@ -78,14 +60,6 @@
       "name": "The Real Housewives of London",
       "poster": "https://image.tmdb.org/t/p/w500/38prd9zV2sH6SXp3E8qNZ4LT0g9.jpg",
       "background": "https://image.tmdb.org/t/p/w780/1OcUNsJZ5uUHzL1MVZlDVUTAxH4.jpg",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:290760",
-      "type": "series",
-      "name": "Unknown Serial Killers of America",
-      "poster": "https://image.tmdb.org/t/p/w500/zwpNf6VZIg4IQvKtWBuRG8y24Ut.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/c5wwZBC2untOgt2M7z3yCRZ7t4s.jpg",
       "releaseInfo": "2025"
     },
     {

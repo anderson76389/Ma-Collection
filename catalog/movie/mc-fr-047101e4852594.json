@@ -19,6 +19,31 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1773759",
+      "type": "movie",
+      "name": "Seriously Single Too",
+      "poster": "https://image.tmdb.org/t/p/w500/ocSY3cX4g6hxy4EkQWXPjrrdzCI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vVVTDymwLVogjz4JxoNv1BAfYCH.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1512493",
+      "type": "movie",
+      "name": "LEGO Friends: Heartlake the Musical",
+      "poster": "https://image.tmdb.org/t/p/w500/6PMMEU8eHSN0TlPG6koC8EEvavx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AabTg6wBsygQYoyOqpbe6miWovJ.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1623256",
+      "type": "movie",
+      "name": "The Storm",
+      "poster": "https://image.tmdb.org/t/p/w500/kjAsuaDcNsemYTQ8tUorpVE1FJb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zN5mRDu6jOYt5EJGYGjhWgOGwor.jpg",
+      "description": "Pour ses 45 ans, Filip convie ses proches à dîner dans la somptueuse ferme qu'il vient d'acheter avec sa femme dans le nord de la Suède. Ce qu'ils ignorent, c'est qu'une violente tempête approche, et que tous vont se retrouver pris au piège. Peu à peu, les masques tombent et la tension monte. Alors que la panique s'installe et que la gravité de la situation devient évidente, les murs se resserrent, les secrets se dévoilent… et des sentiments inattendus émergent.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1545690",
       "type": "movie",
       "name": "WWE Money in the Bank 2026",
@@ -54,10 +79,12 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1789554",
+      "id": "tmdb:1487317",
       "type": "movie",
-      "name": "Mojo Brookzz: I Know You Lying",
-      "poster": "https://image.tmdb.org/t/p/w500/qw9mwyKEWeRIWudfaMK1gvVcGP2.jpg",
+      "name": "On va s'arrêter là",
+      "poster": "https://image.tmdb.org/t/p/w500/vaok2Dm7suKG2gEY2cKBXL4OMYf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fv9BAXOrPJXEhycgWF3Qb8aczqe.jpg",
+      "description": "L'histoire d'un psychanalyste pragmatique qui déçu par l'approche traditionnelle de la psychologie, repousse les limites de l'éthique avec ses patients. Cette démarche semble fonctionner, jusqu'au jour où un écrivain en panne d'inspiration frappe à la porte de son cabinet.",
       "releaseInfo": "2026"
     },
     {
@@ -140,37 +167,11 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1770859",
+      "id": "tmdb:1686999",
       "type": "movie",
-      "name": "Jo Koy: Blue in the Face",
-      "poster": "https://image.tmdb.org/t/p/w500/ex8xdDlmo0HWv716Ml5DDMwTkAt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/Ag6J86izoe6b6mGD8HDI0TFK8hj.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1558568",
-      "type": "movie",
-      "name": "L'Esprit d'équipe",
-      "poster": "https://image.tmdb.org/t/p/w500/xA2MZbFzIf0AvEXKml2FwiRkgtu.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/24JmHBUaZVmZRoEMjzejLL3sJc5.jpg",
-      "description": "L'Esprit d'équipe relate l'histoire de Tío Mochales, une entreprise qui, il y a quelques années, régnait en souveraine incontestée du fromage espagnol. Aujourd'hui, ce n'est plus qu'une société un peu poussiéreuse qui tente de sauver les apparences. La dernière grande idée des dirigeants ? L'organisation d'une retraite rurale dans le village qui a vu naître la marque, afin de stimuler l'esprit d'équipe. Mais ce qui devait être une escapade pour renouer avec les \"valeurs traditionnelles\" devient un piège lorsque les participants découvrent que des licenciements sont à venir – et en grand nombre. Cette soi-disant parenthèse motivante se transforme alors rapidement en un vaste champ de bataille sur fond de flatteries, de trahisons et de fuites. Une comédie noire sur des bureaux délabrés, des cadres sans scrupules et des employés qui n'ont plus la patience nécessaire pour l'absurdité moderne des séminaires de team building.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1408158",
-      "type": "movie",
-      "name": "ఎపిక్ - ఫస్ట్ సెమెస్టర్",
-      "poster": "https://image.tmdb.org/t/p/w500/e2pAKBnaIEmvjM2BFF3pMUKFsdH.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5V1EhtFaeGfn8lRozOKDaCKGQWf.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1522689",
-      "type": "movie",
-      "name": "Pourquoi je me suis marié, déjà ?",
-      "poster": "https://image.tmdb.org/t/p/w500/8mmQWqkvZrvxqr21WhV7Pk0WIHl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lJYniNRM2i9wXnfWVHOB4PxygFZ.jpg",
-      "description": "Réunis à l'étranger pour le mariage de la fille de Marcus et Angela, les couples attisent des tensions anciennes et nouvelles en se demandant : « Pourquoi on s'est mariés, déjà ? »",
+      "name": "என்ன விலை",
+      "poster": "https://image.tmdb.org/t/p/w500/NkklX4xp3BlLmlMT0LXehkStJZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/80DEQikGK5bSlbyBbNWV9ieVy6g.jpg",
       "releaseInfo": "2026"
     }
   ]

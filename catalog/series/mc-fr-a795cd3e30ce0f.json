@@ -4,8 +4,70 @@
       "id": "tmdb:307478",
       "type": "series",
       "name": "라이어",
-      "poster": "https://image.tmdb.org/t/p/w500/lrFE7DdRXu6ofhCm9dLNzsyLg92.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/up1YBgPq6lC0ut2JvjguNwLiXw4.jpg",
       "background": "https://image.tmdb.org/t/p/w780/hglYTJIswg5p3YA3V85B2dhvnNj.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:320754",
+      "type": "series",
+      "name": "Les Affaires organisées",
+      "poster": "https://image.tmdb.org/t/p/w500/5UCLCdz8CMTnrKrERAWUkhZhySQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rMvfkMMITQXIMm44epyRaGwMaNw.jpg",
+      "description": "Lorsqu'une carte légendaire tombe entre les mains d'un célèbre escroc, il décide de monter une dernière arnaque avant d'arrêter pour de bon.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:300146",
+      "type": "series",
+      "name": "Sous le masque",
+      "poster": "https://image.tmdb.org/t/p/w500/nKhiK99WZohc3fJsTXJLf4SrSEY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/YndvGwqwroUDVltBWmnOuTvJke.jpg",
+      "description": "Wei Rao, jeune femme noble, est obligée de se marier avec le prince Lu Zuo, alors que celui-ci est dans le coma et proche de la mort. Elle force alors Ah Chou, une jeune fille ordinaire dont la seule caractéristique est sa ressemblance frappante avec Wei Rao, à prendre sa place au mariage. Mais Lu Zuo se réveille précisément le jour des noces... Ah Chou doit maintenant faire face à Wei Rao, qui veut récupérer sa place, à Lu Zuo, qui la prend pour cette vipère de Wei Rao, mais aussi à toute la demeure du prince qui est pleine de pièges et de complots.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:286183",
+      "type": "series",
+      "name": "Hollywood Arts",
+      "poster": "https://image.tmdb.org/t/p/w500/xsL1ig6Tyi0j9AZPt23yZprslGS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2wjP481Z3G6NlXoUFutN5vcnqzC.jpg",
+      "description": "Les cours ont repris à Hollywood Arts ! L'icône autoproclamée Trina Vega revient pour guider des adolescents talentueux vers la gloire, entre ambition et chaos hilarant.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:335536",
+      "type": "series",
+      "name": "TYSON",
+      "poster": "https://image.tmdb.org/t/p/w500/mdtpJEWW1j5Ns7bIcbw1UeIdvhp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qFNAWAHCXWtS4EMlLxTAetTpZAR.jpg",
+      "description": "Découvrez la vie explosive de Mike Tyson, l'une des figures les plus redoutées et fascinantes de l'histoire du sport.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:283371",
+      "type": "series",
+      "name": "Le piège",
+      "poster": "https://image.tmdb.org/t/p/w500/isBtrgjGVCd2GUMhDMcpf2SuBtB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/69XNjGvcopgPz9Hte0ny1Swk2vW.jpg",
+      "description": "L'autrice Lisa Konrad n'est pas sortie de chez elle depuis 10 ans, lorsque sa sœur a été tuée. Quand elle croit voir le meurtrier à la télé, elle échafaude un plan risqué.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:311955",
+      "type": "series",
+      "name": "俺たちの箱根駅伝",
+      "poster": "https://image.tmdb.org/t/p/w500/1cA5ysVK1C4W5KRtxxNkW2zTBqF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iWeUBHcVZANmKptWXAwm7BG2q5K.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:293607",
+      "type": "series",
+      "name": "100 jours en espionne",
+      "poster": "https://image.tmdb.org/t/p/w500/wf7l8ZfGGkOKcQGF3Htt5DDhBxD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3SvKCITqMtjgPIhFBjRc4yTAc4H.jpg",
+      "description": "En quête de liberté, la meilleure pickpocket de Séoul infiltre le gouvernement colonial japonais pour lui dérober des secrets, mais tombe amoureuse du fils de sa cible.",
       "releaseInfo": "2026"
     },
     {
@@ -111,68 +173,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/mmE4RNbsPOwwRo5rnVRd1IXzgcZ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/1lVbKPOVjTV02FtLqiPk9F9z1Fh.jpg",
       "description": "Deborah Wayne entame sa première année à Hillman — l'université historiquement noire (HBCU) fréquentée par ses parents — et découvre qu'il est difficile d'échapper à leur ombre. Elle entreprend de bâtir son propre héritage, tout en vivant les meilleurs moments de sa vie, aux côtés d'une nouvelle génération d'étudiants brillants et prometteurs.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:285147",
-      "type": "series",
-      "name": "Shaque : Tous suspects",
-      "poster": "https://image.tmdb.org/t/p/w500/xddc9KBcqffXjLEYLX8cZzRwYkS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uBk4ho8aHGnAG5zNX182mGMeAeZ.jpg",
-      "description": "Neuf ans après l'enlèvement de son bébé, la quête acharnée d'une mère met au jour des secrets autour d'elle et la pousse à s'interroger sur la réalité qu'elle perçoit.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:308963",
-      "type": "series",
-      "name": "Habeas Corpus",
-      "poster": "https://image.tmdb.org/t/p/w500/pMkQ9LyDJIkMjyfnJ7TNJbKSEEv.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ssglI1XmPx5ks84jq1uGDwVZqD5.jpg",
-      "description": "Dans cette série judiciaire pleine de suspense, une prof de droit et ses étudiants sont prêts à tout pour disculper un homme condamné et mettre au jour les incohérences du dossier.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:312557",
-      "type": "series",
-      "name": "Academie Minerva",
-      "poster": "https://image.tmdb.org/t/p/w500/cTTXRklz5tJWX6wrN3XrjHo34H1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zynoUI9kwDQKkGW5KqvxQp8Kj1Q.jpg",
-      "description": "Au lycée militaire Minerva, des adolescents doivent composer avec la discipline, la rivalité et la pression familiale, tandis qu'un jeune cadet cherche des réponses concernant son ami disparu.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:312585",
-      "type": "series",
-      "name": "อีกาสมาคม",
-      "poster": "https://image.tmdb.org/t/p/w500/rpHklRp61rh4pextyflANtYy35r.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wPJYkh76gSEECGsN4KTKKLFBkPj.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:275102",
-      "type": "series",
-      "name": "The Scandal",
-      "poster": "https://image.tmdb.org/t/p/w500/8ra17h8Z3NX14qdWaOKn0scURJR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uc1p1PEbEMpdIHqnU9TESNC6Jhp.jpg",
-      "description": "Durant la période Joseon, une proposition secrète éveille les désirs d'une aristocrate talentueuse, d'un séducteur notoire et d'une jeune femme naïve prise au piège d'un jeu cruel.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:335292",
-      "type": "series",
-      "name": "Rescapé : La Série",
-      "poster": "https://image.tmdb.org/t/p/w500/uvwbWBqk4mZibIsqKjqakRGHAKP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2D1GEWbL6DX1RxYXRPXM1ezceyY.jpg",
-      "description": "Dans les quartiers nord de Marseille, Soso évolue au cœur du trafic de drogue, entre liens d’amitié, rivalités et trahisons. Inspirée de la jeunesse de Soso Maness, qui y tient le rôle principal, la série raconte les choix et les épreuves qui marquent son parcours.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:320760",
-      "type": "series",
-      "name": "Je te Connais",
-      "poster": "https://image.tmdb.org/t/p/w500/tgBRNtynz81e0DE4bWo8XwTbCw9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/RUkgsqD4YbEKKq77eFgJjeH89n.jpg",
-      "description": "Tiraillée entre son rôle de mère et sa carrière artistique, Funda est soulagée d'obtenir de l'aide. Mais sa mystérieuse nouvelle nounou pourrait bien cacher quelque chose.",
       "releaseInfo": "2026"
     }
   ]

@@ -10,6 +10,14 @@
       "releaseInfo": "1998"
     },
     {
+      "id": "tmdb:8426",
+      "type": "series",
+      "name": "MTV Roadies",
+      "poster": "https://image.tmdb.org/t/p/w500/rxuX0kszEyVJLDVIZLiZHOcM65y.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2kEe8kiXc0cJUdmwIjnhXwxIEPL.jpg",
+      "releaseInfo": "2003"
+    },
+    {
       "id": "tmdb:201426",
       "type": "series",
       "name": "Caught in the Act: Unfaithful",

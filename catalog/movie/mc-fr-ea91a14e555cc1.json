@@ -19,6 +19,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1433583",
+      "type": "movie",
+      "name": "Les Contrebandiers",
+      "poster": "https://image.tmdb.org/t/p/w500/hjM3hITDk5XvWu4cMn7dj7IpwY8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zLeq2fbHU6UdA7mhsYnIULORTgq.jpg",
+      "description": "Oregon, 1933. Après la mort de sa femme, Samuel Murphy est arraché à sa fille et envoyé dans un camp de travail impitoyable. Lorsqu’un surveillant sans scrupule lui promet la liberté contre une périlleuse mission de contrebande d’or, Murphy saisit sa seule chance de rentrer chez lui. Il s’embarque alors dans une expédition de tous les dangers, au cœur d’une nature hostile, où les trahisons se multiplient. Jusqu’où Murphy sera-t-il prêt à aller pour revoir sa fille ?",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1530121",
       "type": "movie",
       "name": "The Girl in the River",
@@ -152,30 +161,21 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1122573",
+      "type": "movie",
+      "name": "Les Spécialistes",
+      "poster": "https://image.tmdb.org/t/p/w500/sF1EGQWrUghvtD3VpqgsBACHr9u.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qcIKxhqGMIj8uujsSoSMZWr8QqU.jpg",
+      "description": "Rachel, recouvreuse de dettes de haut vol, exerce un métier dangereux. C'est pourquoi elle s'entoure des meilleurs, Sid et Bronco, pour l'accompagner et la protéger dans ses négociations. Mais même pour ces spécialistes, récupérer le milliard de dollars de leur prochain contrat pourrait être mission impossible. Sauf qu'impossible ne fait pas partie de leur vocabulaire…",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1356963",
       "type": "movie",
       "name": "Little Lorraine",
       "poster": "https://image.tmdb.org/t/p/w500/nszmSg2Uv1cIezPjsNyVFvtIYX4.jpg",
       "background": "https://image.tmdb.org/t/p/w780/utpd4H566GFpw6hjufRxEuoSIIg.jpg",
       "description": "Little Lorraine, village côtier de l'Atlantique Nord peuplé de 60 habitants, se retrouve au coeur d'un trafic international de cocaïne mené au nez de plusieurs gouvernements. La drogue est distribuée dans des cercueils par un réseau de salons funéraires.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1659087",
-      "type": "movie",
-      "name": "180",
-      "poster": "https://image.tmdb.org/t/p/w500/9ISjrhA38HpSSGtfiCk8lpziC3K.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/iQSXJs6RbTumcwxMjCedDoK99rx.jpg",
-      "description": "Lorsqu'une altercation entre conducteurs laisse son fils entre la vie et la mort, un père sombre dans une spirale destructrice nourrie par le désespoir et la vengeance.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1242332",
-      "type": "movie",
-      "name": "Normal",
-      "poster": "https://image.tmdb.org/t/p/w500/t13MdGCKRZvkmrFW2A7Vih3QjwD.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1YU6Hy3x7fUh7dfOzSfjifTp20g.jpg",
-      "description": "Bienvenue à Normal dans le Minnesota. Population : 1890 âmes. Dans ce village isolé, l’ancien enquêteur Ulysses est nommé au poste de sheriff intérimaire. Ce qui était en apparence une communauté sans histoires se révèle être en réalité une fourmilière de secrets et de violence après qu’un hold-up a complètement dérapé. Ulysses découvre rapidement que rien ni personne n’est ce qu’il semble être en apparence. Derrière la façade amicale de Normal se cache un dangereux réseau de corruption et d’alliances secrètes où il se retrouve empêtré.",
       "releaseInfo": "2026"
     }
   ]

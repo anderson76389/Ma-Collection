@@ -1,6 +1,24 @@
 {
   "metas": [
     {
+      "id": "tmdb:213562",
+      "type": "series",
+      "name": "Crystal Lake",
+      "poster": "https://image.tmdb.org/t/p/w500/v1XEjgqIlHvbjbEG6YSZVGTVUg0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wxiBsKFEOOFK8eQStWOykNORlXY.jpg",
+      "description": "Afin de pouvoir élever son jeune fils Jason, atteint d'une paralysie faciale périphérique depuis sa naissance, Pamela Voorhees abandonne sa carrière de chanteuse et emménage dans la petite ville de Crystal Lake où elle commence à travailler comme cuisinière dans le camp de vacances local.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:213375",
+      "type": "series",
+      "name": "VisionQuest",
+      "poster": "https://image.tmdb.org/t/p/w500/bWPktguPGslrdM79SNQt4OWYyJS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uoXXbN2PrOxH6UKyP7kYwmGpAAP.jpg",
+      "description": "Une nouvelle version de Vision ayant échappé à ceux qui cherchaient à faire de lui une arme, vit dans la clandestinité. En quête d’un nouveau sens à sa vie, il consulte les IA intégrées à son programme, notamment Friday, Edith, Jarvis et le tristement célèbre Ultron. Son existence discrète prend fin lorsque sa tête est mise à prix, le contraignant à prendre la fuite avec Thomas Shepherd, un garçon mystérieux qui pourrait bien être la réincarnation du fils de Vision. Tout en échappant à ses poursuivants, Vision doit se confronter à sa propre nature, résister à l’influence d’Ultron et percer le mystère qui entoure son jeune compagnon s’il veut survivre.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:285322",
       "type": "series",
       "name": "Below",
@@ -93,7 +111,7 @@
     {
       "id": "tmdb:304842",
       "type": "series",
-      "name": "The Drop : une saga Snowfall",
+      "name": "The Drop : Une Saga Snowfall",
       "poster": "https://image.tmdb.org/t/p/w500/s9eengN2v9ZTwPfFC0LRMoJULk.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ycLQYTgWfBq53fIkws0qIQOp62g.jpg",
       "description": "\"The Drop: A Snowfall Saga\" retrouve Wanda Bell et Leon Simmons de \"Snowfall\" en pleine réinvention dans le Los Angeles des années 90. Alors que les ravages du crack s'estompent, un nouveau jeu émerge : l'essor du rap de la côte Ouest. Convaincue que la musique peut changer la culture américaine, Wanda rassemble une bande de génies hétéroclites pour réaliser leurs rêves. Pour y arriver, elle doit naviguer entre le monde de la musique et les codes de la rue, entraînant ses cousins Lamar et James Kinsey et courtisant Artillery, un rappeur local au sang chaud déjà dans le viseur de la police. Son stage chez l'ex-dealer devenu patron de label Darryl \"DG\" Grant lui ouvre des portes, mais creuse les tensions avec Leon. Ce dernier a juré de quitter la rue pour de bon et cherche la rédemption via son cabinet d'aide juridique gratuit. Ambition, loyauté et survie s'entrechoquent : chacun est prêt à tout risquer pour bâtir un avenir.",
@@ -145,39 +163,21 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:8840",
+      "type": "series",
+      "name": "Fightland",
+      "poster": "https://image.tmdb.org/t/p/w500/wUqUxv3ZhF1spAx4HLxhP1NUK8G.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/a0gOfhPiVGjS55HX9aIXInMVXc5.jpg",
+      "description": "Produite par Curtis Jackson aka. \"50 Cent\", cette série dramatique policière vous plonge dans l'univers impitoyable et sans concession de la boxe britannique. L'histoire suit un champion de boxe déchu, ancien détenu, qui revient à Londres pour se venger de la famille mafieuse qu'il tient pour responsable de sa trahison. Starz a commandé huit épisodes. Le tournage vient de commencer à Londres.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:287238",
       "type": "series",
       "name": "Furious",
       "poster": "https://image.tmdb.org/t/p/w500/dUbeseppeo1XBwTLks8qXyS0fiT.jpg",
       "background": "https://image.tmdb.org/t/p/w780/iAOPgUlh7inOebFrUFHAjnFRCGS.jpg",
       "description": "Alice Black, agent du FBI, est à la poursuite d'une mystérieuse tueuse en série, d'un esprit calculateur. Chacune suit son propre chemin vers la justice, et à mesure que leurs vies commencent à s'entremêler, la frontière entre le bien et le mal s'estompe peu à peu.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:277640",
-      "type": "series",
-      "name": "Pompéi : Tom Hiddleston remonte le temps",
-      "poster": "https://image.tmdb.org/t/p/w500/jeH0LZnA5QAKnxzSkpUDqoOvFEJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pSFJys8tIv7mll6Fv1LqMbrWxLt.jpg",
-      "description": "Tom Hiddleston revient sur les dernières heures de la ville dans une nouvelle série documentaire. La star de Loki Tom Hiddleston et le producteur délégué Kevin R. Wright sont réunis dans cette série documentaire inédite qui fusionne images reconstitiuées et investigations et qui transportera les spectateurs dans les dernières heures de l’ancienne cité Romaine peu avant l’éruption historique du Vésuve.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:278624",
-      "type": "series",
-      "name": "Lucky",
-      "poster": "https://image.tmdb.org/t/p/w500/mZD2tsOsW8FTqgS40hOqWic4KkU.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mKrhRPB7rMvy0bIU1l1NYhgh1eI.jpg",
-      "description": "Quand un coup de plusieurs millions tourne mal, Lucky, escroc virtuose, prend la fuite pour échapper au FBI et à un trafiquant sans pitié. Elle doit lutter pour sa survie, et pour quitter le métier.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:286709",
-      "type": "series",
-      "name": "The Westies",
-      "poster": "https://image.tmdb.org/t/p/w500/6nNxw6SsbEtSpktVEGdoYDqPH7C.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tT2MwxaST3Fx1Dg4u9v82sDrIu.jpg",
-      "description": "Au début des années 1980, la construction du centre d'exposition Jacob Javitz, sur le territoire des Westies, un gang irlandais particulièrement redouté de Hell’s Kitchen, laisse entrevoir une manne financière. Bien qu’en nette infériorité numérique face aux cinq puissantes familles de la mafia italienne, leur brutalité et leur ruse leur ont permis de se tailler une part du butin, dans un équilibre aussi fragile que temporaire. Mais les tensions internes, entre une jeune génération plus audacieuse et des dirigeants attachés aux vieilles méthodes, menacent d’enflammer la poudrière et de plonger les Westies au cœur d’une enquête du FBI qui ne cesse de gagner en intensité.",
       "releaseInfo": "2026"
     }
   ]

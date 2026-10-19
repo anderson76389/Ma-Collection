@@ -1,0 +1,22 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:103516",
+      "type": "series",
+      "name": "Star Trek: Strange New Worlds",
+      "poster": "https://image.tmdb.org/t/p/w500/tv3W5DNDzeQaHFFrrqDZ4joCQcN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fZJs6xgU9dqIg9phIXjZAZOInzy.jpg",
+      "description": "Suivez Christopher Pike, Spock et le numéro un dans la décennie qui a précédé l'arrivée du capitaine Kirk à bord de l'Enterprise alors qu'ils explorent de nouveaux mondes autour de la galaxie.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:126824",
+      "type": "series",
+      "name": "Patrick Super Star",
+      "poster": "https://image.tmdb.org/t/p/w500/oyCsf5f93qrb4qD7jw1W6wGt3Ks.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kP7pCxfml6erWC9aB72ALtNawJq.jpg",
+      "description": "Patrick anime sa propre émissions dans sa maison familiale, avec le soutien de toute sa famille.",
+      "releaseInfo": "2021"
+    }
+  ]
+}

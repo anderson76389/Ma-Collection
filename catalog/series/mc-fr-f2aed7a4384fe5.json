@@ -1,6 +1,24 @@
 {
   "metas": [
     {
+      "id": "tmdb:312359",
+      "type": "series",
+      "name": "Dragon Ball Super : Beerus",
+      "poster": "https://image.tmdb.org/t/p/w500/sGuCmIy8kEmx3FWZyMj654rF6g8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg",
+      "description": "Des années après la défaite de Majin Buu, la paix est revenue sur Terre. Mais lorsque Beerus, le Dieu de la Destruction, se réveille, cette tranquillité vole en éclats. Attiré sur Terre par des rumeurs concernant le Saiyan qui a vaincu Freezer, Beerus cherche à défier Goku en déployant une puissance capable de détruire des planètes entières. Goku et ses alliés doivent désormais affronter Beerus dans un combat qui fera trembler l'univers.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:45790",
+      "type": "series",
+      "name": "JoJo's Bizarre Adventure",
+      "poster": "https://image.tmdb.org/t/p/w500/2Sc0veFPh9CcHMtNqMyiQqIW9ZF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/l2gc2dPRUPe3bAfYCRTjc6uAMmB.jpg",
+      "description": "Angleterre, 1981. Afin d'honorer ancienne dette, Lord George Joestar adopte Dio Brando, le fils de son sauveur Dario. Mais sous l'apparence du fils modèle, Dio souhaite s'emparer de la fortune des Joestar et humilier le fils du lord, Jonathan Joestar surnommé Jojo. Une rivalité nait entre eux et explose à cause d'un masque aztèque aux capacités mystérieuses. Dio s'en empare et devient un vampire, que seul la maîtrise du hamon permettra à Jonathan d'espérer le vaincre. Voici le point de départ du destin entremêlé de la famille Joestar et de Dio. Chaque illustre membre l'affrontera, lui ou des adversaires qui lui sont liés grâce au hamon, puis aux stands, la matérialisation de leur esprit combatif doté de force et de capacités insoupçonnées. Parmi eux, Joseph l'aventurier arrogant, Jotaro et son stand invincible Star Platinium, Josuke l'ami au grand cœur, Giorno le fils de Dio et gangster à la chevelure dorée et Jolyne, la fille à la volonté de fer.",
+      "releaseInfo": "2012"
+    },
+    {
       "id": "tmdb:220542",
       "type": "series",
       "name": "Les Carnets de l'apothicaire",
@@ -10,13 +28,13 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:45790",
+      "id": "tmdb:60761",
       "type": "series",
-      "name": "JoJo's Bizarre Adventure",
-      "poster": "https://image.tmdb.org/t/p/w500/2Sc0veFPh9CcHMtNqMyiQqIW9ZF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5mUYDoFjDlPmDvnUWSknhYjGBBh.jpg",
-      "description": "Angleterre, 1981. Afin d'honorer ancienne dette, Lord George Joestar adopte Dio Brando, le fils de son sauveur Dario. Mais sous l'apparence du fils modèle, Dio souhaite s'emparer de la fortune des Joestar et humilier le fils du lord, Jonathan Joestar surnommé Jojo. Une rivalité nait entre eux et explose à cause d'un masque aztèque aux capacités mystérieuses. Dio s'en empare et devient un vampire, que seul la maîtrise du hamon permettra à Jonathan d'espérer le vaincre. Voici le point de départ du destin entremêlé de la famille Joestar et de Dio. Chaque illustre membre l'affrontera, lui ou des adversaires qui lui sont liés grâce au hamon, puis aux stands, la matérialisation de leur esprit combatif doté de force et de capacités insoupçonnées. Parmi eux, Joseph l'aventurier arrogant, Jotaro et son stand invincible Star Platinium, Josuke l'ami au grand cœur, Giorno le fils de Dio et gangster à la chevelure dorée et Jolyne, la fille à la volonté de fer.",
-      "releaseInfo": "2012"
+      "name": "Ace of Diamond",
+      "poster": "https://image.tmdb.org/t/p/w500/1OQsld0DmtCNKIoExKE5zjxX3cP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wq5ZykCAFrboIpz36O8pbrJG2dF.jpg",
+      "description": "L'équipe de baseball du collège Takagi termine sa saison sans une seule victoire. Son lanceur, Eijun Sawamura, a à coeur de prendre sa revanche avec ses coéquipiers, une fois au lycée.",
+      "releaseInfo": "2013"
     },
     {
       "id": "tmdb:223911",
@@ -28,13 +46,13 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:312359",
+      "id": "tmdb:105009",
       "type": "series",
-      "name": "Dragon Ball Super : Beerus",
-      "poster": "https://image.tmdb.org/t/p/w500/sGuCmIy8kEmx3FWZyMj654rF6g8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg",
-      "description": "Des années après la défaite de Majin Buu, la paix est revenue sur Terre. Mais lorsque Beerus, le Dieu de la Destruction, se réveille, cette tranquillité vole en éclats. Attiré sur Terre par des rumeurs concernant le Saiyan qui a vaincu Freezer, Beerus cherche à défier Goku en déployant une puissance capable de détruire des planètes entières. Goku et ses alliés doivent désormais affronter Beerus dans un combat qui fera trembler l'univers.",
-      "releaseInfo": "2026"
+      "name": "Tokyo Revengers",
+      "poster": "https://image.tmdb.org/t/p/w500/kzDHRAkFjeed0lJpjE1eKJDcowS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zYIFOocMfsKAEysBjhZ8akfXFdB.jpg",
+      "description": "Takemichi Hanagaki n'a pas vraiment réussi sa vie. Il fait des petits boulots sans intérêt et lorsqu'il apprend que la seule petite amie qu'il ait jamais eu au collège, Hinata Tachibana, a été tuée par l'impitoyable gang Tokyo Manji-kai, il est anéanti. Le lendemain, toujours sous le choc, il est poussé sur les rails de la gare lors d'un mouvement de foule. Mais Takemichi ne meurt pas et quand il se réveille, il est revenu douze ans en arrière. Il va ainsi retrouver ses meilleures années, mais aussi tenter de sauver celle qui l'aime et prendre sa revanche sur la vie…",
+      "releaseInfo": "2021"
     },
     {
       "id": "tmdb:123542",
@@ -44,24 +62,6 @@
       "background": "https://image.tmdb.org/t/p/w780/w3agwUSMpJ4X9t1jGrDtqqRPjDQ.jpg",
       "description": "Dans leur petit magasin de photo, deux hommes utilisent un étrange pouvoir pour mener des enquêtes. Lu Guang et Cheng Xiaoshi entrent dans les souvenirs de leurs clients à travers leurs photos. Plongés dans le passé, ils tiennent l'avenir entre leurs mains. Mais les choses ne se passent pas toujours comme ils le souhaitent…",
       "releaseInfo": "2021"
-    },
-    {
-      "id": "tmdb:105009",
-      "type": "series",
-      "name": "Tokyo Revengers",
-      "poster": "https://image.tmdb.org/t/p/w500/kzDHRAkFjeed0lJpjE1eKJDcowS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jnThpphOHQRiTedCtz1yyshfkHw.jpg",
-      "description": "Takemichi Hanagaki n'a pas vraiment réussi sa vie. Il fait des petits boulots sans intérêt et lorsqu'il apprend que la seule petite amie qu'il ait jamais eu au collège, Hinata Tachibana, a été tuée par l'impitoyable gang Tokyo Manji-kai, il est anéanti. Le lendemain, toujours sous le choc, il est poussé sur les rails de la gare lors d'un mouvement de foule. Mais Takemichi ne meurt pas et quand il se réveille, il est revenu douze ans en arrière. Il va ainsi retrouver ses meilleures années, mais aussi tenter de sauver celle qui l'aime et prendre sa revanche sur la vie…",
-      "releaseInfo": "2021"
-    },
-    {
-      "id": "tmdb:60761",
-      "type": "series",
-      "name": "Ace of Diamond",
-      "poster": "https://image.tmdb.org/t/p/w500/1OQsld0DmtCNKIoExKE5zjxX3cP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wq5ZykCAFrboIpz36O8pbrJG2dF.jpg",
-      "description": "L'équipe de baseball du collège Takagi termine sa saison sans une seule victoire. Son lanceur, Eijun Sawamura, a à coeur de prendre sa revanche avec ses coéquipiers, une fois au lycée.",
-      "releaseInfo": "2013"
     },
     {
       "id": "tmdb:101172",
@@ -82,12 +82,12 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:270603",
+      "id": "tmdb:320909",
       "type": "series",
-      "name": "The Exiled Heavy Knight Knows How to Game the System",
-      "poster": "https://image.tmdb.org/t/p/w500/flcyEjfwHECnqgXMGNZsajLg1rv.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rQmzx7qyoK5YiXJHnv0jdgVlKyl.jpg",
-      "description": "Issu d’une prestigieuse famille de maîtres épéistes, Elymas Edvaughn est renié et banni lorsqu’il s’affirme en tant que “Chevalier Lourd”, une classe inférieure et complètement dénigrée. En réalité, le monde d’Elymas est similaire à celui d’un jeu qu’il maîtrisait dans une autre vie. Et il sait parfaitement que les Chevaliers Lourds sont en fait les plus puissants…",
+      "name": "Les Noces des Lucioles",
+      "poster": "https://image.tmdb.org/t/p/w500/1RXEvHmis1oKTAWtKOrzJqenpb6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3zmB6PLnjf7rNNC2lnvinQtlJMx.jpg",
+      "description": "Durant l'ère Meiji, Satoko Kirigaya n’a qu’un seul souhait : se marier pour l'honneur de sa famille et ce, même si ses jours sont comptés. Mais alors qu'un assassin tente de la tuer, elle lui offre de l’épouser ! Une proposition que Shinpei Goto accepte, mais qui pourrait bien se retourner contre elle…",
       "releaseInfo": "2026"
     },
     {
@@ -100,12 +100,12 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:313346",
+      "id": "tmdb:270603",
       "type": "series",
-      "name": "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life",
-      "poster": "https://image.tmdb.org/t/p/w500/d2twigOlajyMBmqjZY0z0XCBwGC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/msusxF6ZPGnQmTGXU9iC4UJOohs.jpg",
-      "description": "Rein l'Enchanteur est un mage capable d'améliorer les armes et les armures. Mais lorsqu'il se fait renvoyer de sa guilde pour la simple raison qu'il a déjà enchanté tout ce qu'elle possède, il décide de reprendre tous les sorts qu’il a transmis à ses ex-compagnons et les affecte à son propre équipement. En chemin, Rein rassemble une bande de parias comme lui et, ensemble, ils explorent le monde.",
+      "name": "The Exiled Heavy Knight Knows How to Game the System",
+      "poster": "https://image.tmdb.org/t/p/w500/flcyEjfwHECnqgXMGNZsajLg1rv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rQmzx7qyoK5YiXJHnv0jdgVlKyl.jpg",
+      "description": "Issu d’une prestigieuse famille de maîtres épéistes, Elymas Edvaughn est renié et banni lorsqu’il s’affirme en tant que “Chevalier Lourd”, une classe inférieure et complètement dénigrée. En réalité, le monde d’Elymas est similaire à celui d’un jeu qu’il maîtrisait dans une autre vie. Et il sait parfaitement que les Chevaliers Lourds sont en fait les plus puissants…",
       "releaseInfo": "2026"
     },
     {
@@ -118,15 +118,6 @@
       "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:333622",
-      "type": "series",
-      "name": "Magic Repo Man: Dumped by My Party, I'll Cash In with a Cute Support Fairy to Become the Strongest!",
-      "poster": "https://image.tmdb.org/t/p/w500/nPGwleNxxvvSV0iFtMt1c40pgJy.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4ncuq4Qo0NrSZBnxM3PABeROyVT.jpg",
-      "description": "Lent fait partie du groupe « Skypiercers ». Grâce à son don unique, il peut prêter une importante quantité de magie à ses partenaires. Cependant, il est viré du jour au lendemain du groupe par ses compagnons, tous devenus puissants grâce à son talent, ne le jugeant désormais plus utile au groupe.\n\nFurieux, Lent est bien décidé à récupérer jusqu'à la dernière goutte de magie qu'il a prêté à ses anciens compagnons, avec les intérêts, grâce au pouvoir caché de son don.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:56559",
       "type": "series",
       "name": "Yamishibai - Histoire de fantômes japonais",
@@ -136,21 +127,39 @@
       "releaseInfo": "2013"
     },
     {
-      "id": "tmdb:335194",
+      "id": "tmdb:313346",
       "type": "series",
-      "name": "Magical Explorer",
-      "poster": "https://image.tmdb.org/t/p/w500/b9LtxUfUrhsuq8lYvlhXq2I5gAw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/oxS6i62MRfIeXFKN2F3uEipKwt7.jpg",
-      "description": "Réincarné dans son jeu « bishojo » préféré, Kousuke se retrouve affublé du pire rôle qui soit : celui d’un acolyte insignifiant. Mais fort de sa connaissance du jeu et de la plus grande réserve de mana de ce monde, il pourrait bien finir par surpasser le héros ! Kousuke doit désormais réécrire son destin et se frayer un chemin à coups d’épée vers les fins heureuses des héroïnes !",
+      "name": "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life",
+      "poster": "https://image.tmdb.org/t/p/w500/d2twigOlajyMBmqjZY0z0XCBwGC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/msusxF6ZPGnQmTGXU9iC4UJOohs.jpg",
+      "description": "Rein l'Enchanteur est un mage capable d'améliorer les armes et les armures. Mais lorsqu'il se fait renvoyer de sa guilde pour la simple raison qu'il a déjà enchanté tout ce qu'elle possède, il décide de reprendre tous les sorts qu’il a transmis à ses ex-compagnons et les affecte à son propre équipement. En chemin, Rein rassemble une bande de parias comme lui et, ensemble, ils explorent le monde.",
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:324502",
+      "id": "tmdb:295420",
       "type": "series",
-      "name": "Overgeared",
-      "poster": "https://image.tmdb.org/t/p/w500/fmAQ2lOtLAoEU2p6wQ12wXbIgLM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/745xqHbiUWwO51TM60MXRCR4Onm.jpg",
-      "description": "Shin Young Woo est ce qu'on appelle un loser « IRL », un bon à rien « dans la vraie vie » : il enchaîne les petits boulots et peine à rembourser ses dettes. Quand il se connecte au jeu VR « SATISFY », jeu de réalité virtuelle auquel il est accro, ce n'est pas plus glorieux : Young Woo devient « Grid », un guerrier au niveau terriblement médiocre… Jusqu'au jour où il tombe sur un livre regroupant l'ensemble des connaissances du plus légendaire des forgerons ! Mais en activant cet artefact, les statistiques durement acquises de Grid retombent à zéro… Sauf que ses nouvelles capacités vont lui permettre de se forger un équipement de tout premier ordre, pour espérer devenir un héros, un vrai !",
+      "name": "The Vermilion Mask",
+      "poster": "https://image.tmdb.org/t/p/w500/hsMd1zUdZGMQpLr55wM0OKK07X5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/d63e5W3rWWuMIDcrUgmZTauMbna.jpg",
+      "description": "Apprenti fabricant de masques, Peru aurait dû connaître les dangers liés à ces artefacts. Possédé par le Masque du Dieu Guerrier, il tue involontairement ses amis et son maître, le légendaire Gaston Roux. Rongé par la culpabilité, Peru jure de détruire tous les masques créés par son maître avant qu’une nouvelle tragédie ne se produise.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:261343",
+      "type": "series",
+      "name": "Chitose Is in the Ramune Bottle",
+      "poster": "https://image.tmdb.org/t/p/w500/xCsz0dWkpoya5XK3y2UaEkXnin5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4BE1aoCu5mCG3ZJ7alNDQkB3oK4.jpg",
+      "description": "Il n'est pas facile d'être populaire et dans ce domaine, c'est difficile de battre Saku Chitose, l'élève le plus populaire de son lycée. Ce jeune lycéen a une réputation à toute épreuve qui résiste même aux attaques en ligne les plus virulentes. Il a aussi un groupe d'amis autant séduisants à l'extérieur qu'à l'intérieur. Cependant, lorsqu'un professeur lui demande de l'aider à réhabiliter une élève enfermée dans sa chambre depuis des mois, le monde parfait de Saku ne sera plus jamais le même.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:333622",
+      "type": "series",
+      "name": "Magic Repo Man: Dumped by My Party, I'll Cash In with a Cute Support Fairy to Become the Strongest!",
+      "poster": "https://image.tmdb.org/t/p/w500/3IxYsKJGSlxy6GDnFBIx7UJc5nP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4ncuq4Qo0NrSZBnxM3PABeROyVT.jpg",
+      "description": "Lent fait partie du groupe « Skypiercers ». Grâce à son don unique, il peut prêter une importante quantité de magie à ses partenaires. Cependant, il est viré du jour au lendemain du groupe par ses compagnons, tous devenus puissants grâce à son talent, ne le jugeant désormais plus utile au groupe.\n\nFurieux, Lent est bien décidé à récupérer jusqu'à la dernière goutte de magie qu'il a prêté à ses anciens compagnons, avec les intérêts, grâce au pouvoir caché de son don.",
       "releaseInfo": "2026"
     },
     {
@@ -163,22 +172,13 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:280042",
+      "id": "tmdb:117061",
       "type": "series",
-      "name": "A Wild Last Boss Appeared!",
-      "poster": "https://image.tmdb.org/t/p/w500/uLkimDmIWb4VdgFUuiMlS8wGi5S.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gNYmU3RUlCb6dVqkiPCT7vglMfg.jpg",
-      "description": "Une joueuse de MMO se réveille sous les traits du tyran aux ailes noires, Lufas Maphaahl, échappant ainsi à son destin scellé, pour découvrir que tout cela est bien réel. Sa défaite il y a 200 ans a libéré des monstres mortels, et la légende est terrifiante. Piégé dans le corps du conquérant le plus redouté de l'histoire, il doit désormais survivre dans un monde qui veut sa mort... et découvrir pourquoi il est là.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:261343",
-      "type": "series",
-      "name": "Chitose Is in the Ramune Bottle",
-      "poster": "https://image.tmdb.org/t/p/w500/xCsz0dWkpoya5XK3y2UaEkXnin5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4BE1aoCu5mCG3ZJ7alNDQkB3oK4.jpg",
-      "description": "Il n'est pas facile d'être populaire et dans ce domaine, c'est difficile de battre Saku Chitose, l'élève le plus populaire de son lycée. Ce jeune lycéen a une réputation à toute épreuve qui résiste même aux attaques en ligne les plus virulentes. Il a aussi un groupe d'amis autant séduisants à l'extérieur qu'à l'intérieur. Cependant, lorsqu'un professeur lui demande de l'aider à réhabiliter une élève enfermée dans sa chambre depuis des mois, le monde parfait de Saku ne sera plus jamais le même.",
-      "releaseInfo": "2025"
+      "name": "The Detective is Already Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/5NXO5acrIa2hkDxIqFyKcVW6vca.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aqETSDXdeYqcD1PPd2WBfeWtoct.jpg",
+      "description": "\"Deviens mon assistant\". À 10 000 mètres d'altitude, Kimizuka Kimihiko, un collégien, qui a le don de toujours se retrouver au mauvais endroit, rencontre Siesta, une jolie jeune fille aux allures d'ange se disant détective. C'est ainsi que commence une aventure de trois ans où notre duo déjoue des complots à travers le monde entier. Et ce jusqu'à ce que la mort les sépare. Un an plus tard, Kimihiko, maintenant en terminale, ne cherche plus qu'à vivre un quotidien paisible. Mais un jour, un client l'interpelle : \"C'est toi, le détective\" ?",
+      "releaseInfo": "2021"
     }
   ]
 }

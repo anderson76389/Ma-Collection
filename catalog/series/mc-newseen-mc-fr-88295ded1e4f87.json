@@ -1,0 +1,49 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:4586",
+      "type": "series",
+      "name": "Gilmore Girls",
+      "poster": "https://image.tmdb.org/t/p/w500/gwtzCwU2wdLLf8oejQu2TINiWfQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8U2ndZrneigI2zkvGuTJtt1ZsxK.jpg",
+      "description": "La série raconte la relation complice et même privilégiée de Lorelai avec sa fille Rory qu'elle eut à 16 ans. Entre leurs histoires d'amour respectives et les relations avec les grands-parents de Rory ou les personnages secondaires rencontrés au travail de Lorelai ou au lycée d'élite de Rory dans la petite ville de Stars Hollow, Lorelai et Rory n'ont pas le temps de s'ennuyer.",
+      "releaseInfo": "2000"
+    },
+    {
+      "id": "tmdb:71728",
+      "type": "series",
+      "name": "Young Sheldon",
+      "poster": "https://image.tmdb.org/t/p/w500/42dEkEZRVy1x36JH2LP12k6c9A.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nlDBlCtorM7nx130wYnfR5ZmyLX.jpg",
+      "description": "Au Texas, un état où le football et la religion règnent, il n'est pas facile d'être un esprit scientifique hors du commun. Cette série raconte la jeunesse de Sheldon Cooper, personnage atypique et excentrique de la série THE BIG BANG THEORY. Alors que le jeune garçon cherche comment évoluer au sein de sa très normale famille, cette dernière doit aussi trouver un moyen de comprendre cet être à la fois malaisant et attachant.",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:280110",
+      "type": "series",
+      "name": "My Hero Academia : Vigilantes",
+      "poster": "https://image.tmdb.org/t/p/w500/xSYojwle5RdwhglSTqR1HSm3lA4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/baZ0pGbBGjCBhIqsFyOSTpJyUnQ.jpg",
+      "description": "Koichi Haimawari est un banal étudiant qui aspire à devenir un héros, mais ayant abandonné son rêve. Bien que 80 % de la population mondiale possède des pouvoirs surhumains appelés Alters, peu sont choisis pour devenir des héros et protéger les gens. Tout change pour Koichi lorsque Pop☆Step et lui sont sauvés par le justicier Knuckle Duster et sont recrutés pour devenir eux-mêmes des justiciers !",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:12225",
+      "type": "series",
+      "name": "Peppa Pig",
+      "poster": "https://image.tmdb.org/t/p/w500/iwKVo3HlsyVNXCzFEkd0xHz3kGi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r9QAxAW2KGQaVnEOxXKJuZ6RSJe.jpg",
+      "description": "Peppa est une adorable chipie cochon qui vit avec son frère George, Maman Pig et Papa Pig. Ce que Peppa préfère, c'est jouer, se déguiser, se promener dehors et sauter dans la boue. Ses aventures se terminent toujours joyeusement.",
+      "releaseInfo": "2004"
+    },
+    {
+      "id": "tmdb:1407",
+      "type": "series",
+      "name": "Homeland",
+      "poster": "https://image.tmdb.org/t/p/w500/6GAvS2e6VIRsms9FpVt33PsCoEW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/391ixi0wVbFtFLQnOy8ZncWv2io.jpg",
+      "description": "Dans ce thriller politique, un agent de la CIA à la santé mentale fragile et en proie à des problèmes familiaux mène une guerre acharnée contre le terrorisme.",
+      "releaseInfo": "2011"
+    }
+  ]
+}

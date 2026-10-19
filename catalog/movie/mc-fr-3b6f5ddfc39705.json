@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:1590206",
+      "type": "movie",
+      "name": "Коммерсант",
+      "poster": "https://image.tmdb.org/t/p/w500/jOnhgog9iknampOOuz5bBRjYDy9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sYzbBw2N9spLgOkUnJxHWwAHt06.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1523145",
       "type": "movie",
       "name": "Your Heart Will Be Broken",
@@ -23,7 +31,7 @@
       "name": "Буратино",
       "poster": "https://image.tmdb.org/t/p/w500/3BC0TuGiLG7zt9pHxN115HPuS4O.jpg",
       "background": "https://image.tmdb.org/t/p/w780/r3oPwy5HILetFqKlTI6BElFoAWf.jpg",
-      "releaseInfo": "2026"
+      "releaseInfo": "2025"
     },
     {
       "id": "tmdb:1533843",
@@ -156,14 +164,6 @@
       "name": "Василий",
       "poster": "https://image.tmdb.org/t/p/w500/ie0dje7Vni37ks5F2WVqInfVafO.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zZPyIEGRQaHvwAQ3PVhM4Dq0epf.jpg",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:658224",
-      "type": "movie",
-      "name": "Волшебник Изумрудного города. Дорога из жёлтого кирпича",
-      "poster": "https://image.tmdb.org/t/p/w500/hA1ARNbkPScth2S21xP7Akw9EJo.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1t3YfNmAZeWIFEctgh43pL10gdQ.jpg",
       "releaseInfo": "2025"
     }
   ]

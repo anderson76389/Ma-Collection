@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1288069",
+      "type": "movie",
+      "name": "Tenzing : à la conquête de l’Everest",
+      "poster": "https://image.tmdb.org/t/p/w500/hKA6G4Dj0Uonghi6AUwmpIvCFo0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6GXqVvL20Y0MpyVP30WoI2NPK69.jpg",
+      "description": "Un homme déterminé se lance dans une aventure périlleuse - et brave des obstacles apparemment insurmontables - pour réaliser son rêve d'être le premier à atteindre le sommet de l'Everest.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:977942",
       "type": "movie",
       "name": "The Uprising",
@@ -166,17 +175,8 @@
       "type": "movie",
       "name": "Nuremberg",
       "poster": "https://image.tmdb.org/t/p/w500/6iYLH0TjqCyEkCYadpLUMHr9S8J.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bf5TG9RODkPXmtJSgf8Iymof1wl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mxKVTRDApGP2vtsruji4cNGXioD.jpg",
       "description": "Washington, 1945. Hitler s'est suicidé, l'Allemagne a capitulé et les Alliés détiennent 22 officiers nazis, dont Hermann Göring, plus haut gradé du Troisième Reich. Contrairement à ses collègues, qui préconisent leur exécution, Robert H. Jackson, juge à la Cour suprême des États-Unis, obtient que ceux-ci soient traduits devant une cour internationale. Un an avant l'ouverture du procès à Nuremberg, Jackson confie à un psychiatre de l'armée américaine, Douglas Kelley, le mandat d'évaluer les accusés. Secondé par son traducteur, Kelley se met à la tâche, en privilégiant le cas du Reichsmarschall Göring, un pervers narcissique, qui s'engage avec lui dans un jeu du chat et de la souris.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1432596",
-      "type": "movie",
-      "name": "Palestine 36",
-      "poster": "https://image.tmdb.org/t/p/w500/7MfS2Q7kHIdGeRe17Z26q5N9MPm.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/e5LTUuIumJCgeoAApfCXhKUZ1UH.jpg",
-      "description": "Palestine, 1936. La grande révolte arabe, destinée à faire émerger un État indépendant, se prépare alors que le territoire est sous mandat britannique.",
       "releaseInfo": "2025"
     }
   ]

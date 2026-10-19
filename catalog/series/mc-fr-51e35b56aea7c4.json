@@ -5,7 +5,7 @@
       "type": "series",
       "name": "WWE NXT",
       "poster": "https://image.tmdb.org/t/p/w500/9nLBX5Bf7PW4FAaWJLXpFFdeTlV.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/YaQ8YhHYpLkH3e7FRwBkcGoJhS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2ugy3IP3yvdRdEepHDOml82TKFT.jpg",
       "description": "WWE NXT est une émission et une académie de catch de la World Wrestling Entertainment (WWE), devenue depuis le 20 juin 2012, la troisième division de la WWE avec Raw et SmackDown. Cette nouvelle division met en avant des nouveaux catcheurs, d'abord sélectionnés dans l'ancien club-école de la WWE, la Florida Championship Wrestling, puis sur la scène indépendante internationale.",
       "releaseInfo": "2010"
     },
@@ -19,11 +19,12 @@
       "releaseInfo": "1999"
     },
     {
-      "id": "tmdb:321691",
+      "id": "tmdb:261107",
       "type": "series",
-      "name": "The Great American Road Rally: Celebrity Edition",
-      "background": "https://image.tmdb.org/t/p/w780/ePpUXJIMa4QfJqzze9y8QzSnKSo.jpg",
-      "releaseInfo": "2026"
+      "name": "Trivial Pursuit",
+      "poster": "https://image.tmdb.org/t/p/w500/vk2U7azARLXzKHzoJdwnYkojwZl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sublgjkcTHyPz5o3yGLVbcEOz6Y.jpg",
+      "releaseInfo": "2024"
     },
     {
       "id": "tmdb:261108",

@@ -10,6 +10,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:335323",
+      "type": "series",
+      "name": "Inquisitions",
+      "poster": "https://image.tmdb.org/t/p/w500/ije3xNSRh0a6IiYxUTXWqDDt2F7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yrq1MOZofsAk7qBl2WVwKBjKSv3.jpg",
+      "description": "Forte de six siècles d'exercice, l'inquisition apparaît comme la machine répressive la plus redoutable de l'histoire européenne. Le documentariste Stan Neumann raconte les origines et l'évolution de cette \"police des âmes\" à la fois secrète et spectaculaire, dont le monde d'aujourd'hui porte toujours l'empreinte.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:334406",
       "type": "series",
       "name": "La dernière heure",
@@ -75,6 +84,15 @@
       "name": "High School Radical",
       "poster": "https://image.tmdb.org/t/p/w500/5thluuwuM9K7nrz274KtsbZneIr.jpg",
       "background": "https://image.tmdb.org/t/p/w780/cYeIxWqpFZEtwfcPMKO9ej9Gx4F.jpg",
+      "description": "À 16 ans, Max est parti, rêves et GoPro en bandoulières, en échange dans un lycée de l’Oklahoma. Depuis, Donald Trump est devenu président, le Capitole a été pris d’assaut et l’interdiction de l’IVG a gagné du terrain. À la veille du second mandat de Trump, Max retourne voir ses amis pour comprendre ce que leurs parcours racontent de l’évolution de la société américaine.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:305129",
+      "type": "series",
+      "name": "High School Radical",
+      "poster": "https://image.tmdb.org/t/p/w500/jBmzszUeKk9FbMDFhdkRVbS7e26.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pmEuB6ScZeoAn8lFJ7oSaktWBEV.jpg",
       "description": "À 16 ans, Max est parti, rêves et GoPro en bandoulières, en échange dans un lycée de l’Oklahoma. Depuis, Donald Trump est devenu président, le Capitole a été pris d’assaut et l’interdiction de l’IVG a gagné du terrain. À la veille du second mandat de Trump, Max retourne voir ses amis pour comprendre ce que leurs parcours racontent de l’évolution de la société américaine.",
       "releaseInfo": "2025"
     },

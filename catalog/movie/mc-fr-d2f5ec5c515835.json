@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:1321666",
+      "type": "movie",
+      "name": "Lalka",
+      "poster": "https://image.tmdb.org/t/p/w500/6vN4ppExgYQXuCeyXkrEfnvTqIT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cT0Beeme1WVc4udpfg9t0stX05s.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1437696",
       "type": "movie",
       "name": "Ojczyzna",
@@ -158,14 +166,6 @@
       "name": "To nie mój film",
       "poster": "https://image.tmdb.org/t/p/w500/pcdZsBZGB6tkLcBI8VpSmGt3I8a.jpg",
       "background": "https://image.tmdb.org/t/p/w780/hnkqkyX1sp3fc2tDSnL7XAsW0uh.jpg",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:1215358",
-      "type": "movie",
-      "name": "Diabeł",
-      "poster": "https://image.tmdb.org/t/p/w500/xVlAedD8EOlBrwTabzu1MjjQwFL.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xHGq4SGzCIpB8lRmZ0L6rUHTvb3.jpg",
       "releaseInfo": "2024"
     }
   ]

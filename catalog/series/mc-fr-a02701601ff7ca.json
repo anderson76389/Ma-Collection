@@ -18,15 +18,6 @@
       "releaseInfo": "1984"
     },
     {
-      "id": "tmdb:1508",
-      "type": "series",
-      "name": "Dancing with the Stars",
-      "poster": "https://image.tmdb.org/t/p/w500/iisHVZ6we56PE4BcV1csB46SbiG.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/r4ceAy8m4w9gheLWEgEgQnbYK85.jpg",
-      "description": "\"Dancing with the Stars\" est la version américaine de l'émission britannique \"Strictly Come Dancing\". Une des plus grandes franchises au niveau mondial, car la série a été reprise par de nombreux autres pays avec leur propre version. L'émission est présentée par Tom Bergeron et se compose d'une célébrité jumelée à un professionnel de la danse. Chaque couple exécute des danses prédéterminées et rivalise avec d'autres équipes. A chaque émission, l'équipe qui a le moins de point est éliminée jusqu'à ce qu'il ne reste que le duo champion.",
-      "releaseInfo": "2005"
-    },
-    {
       "id": "tmdb:37678",
       "type": "series",
       "name": "The Voice (États-Unis)",
@@ -45,11 +36,20 @@
       "releaseInfo": "2000"
     },
     {
+      "id": "tmdb:1508",
+      "type": "series",
+      "name": "Dancing with the Stars",
+      "poster": "https://image.tmdb.org/t/p/w500/iisHVZ6we56PE4BcV1csB46SbiG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r4ceAy8m4w9gheLWEgEgQnbYK85.jpg",
+      "description": "\"Dancing with the Stars\" est la version américaine de l'émission britannique \"Strictly Come Dancing\". Une des plus grandes franchises au niveau mondial, car la série a été reprise par de nombreux autres pays avec leur propre version. L'émission est présentée par Tom Bergeron et se compose d'une célébrité jumelée à un professionnel de la danse. Chaque couple exécute des danses prédéterminées et rivalise avec d'autres équipes. A chaque émission, l'équipe qui a le moins de point est éliminée jusqu'à ce qu'il ne reste que le duo champion.",
+      "releaseInfo": "2005"
+    },
+    {
       "id": "tmdb:31991",
       "type": "series",
       "name": "WWE NXT",
       "poster": "https://image.tmdb.org/t/p/w500/9nLBX5Bf7PW4FAaWJLXpFFdeTlV.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/YaQ8YhHYpLkH3e7FRwBkcGoJhS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2ugy3IP3yvdRdEepHDOml82TKFT.jpg",
       "description": "WWE NXT est une émission et une académie de catch de la World Wrestling Entertainment (WWE), devenue depuis le 20 juin 2012, la troisième division de la WWE avec Raw et SmackDown. Cette nouvelle division met en avant des nouveaux catcheurs, d'abord sélectionnés dans l'ancien club-école de la WWE, la Florida Championship Wrestling, puis sur la scène indépendante internationale.",
       "releaseInfo": "2010"
     },
@@ -66,8 +66,8 @@
       "id": "tmdb:46707",
       "type": "series",
       "name": "WWE Main Event",
-      "poster": "https://image.tmdb.org/t/p/w500/yVZdqmVMI09F7GzFvDJCc36oBkT.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lswRmm6czR4QTnwXRtacMfyxgJ0.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/cy4Ceb9iWPzHn7V0J0F13h1Zhx3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ajAG3632pM9QnSOBcsKuFtTgTq2.jpg",
       "releaseInfo": "2012"
     },
     {
@@ -77,14 +77,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/gwu2aVl89amkSfBL5TqhvazYQAE.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zi7hR8mfpApWoj3N3poBsJW9uxL.jpg",
       "releaseInfo": "2018"
-    },
-    {
-      "id": "tmdb:2051",
-      "type": "series",
-      "name": "The Price Is Right",
-      "poster": "https://image.tmdb.org/t/p/w500/7MSqORrf1RZsmLUTQ2XoEJEtzt5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/p0umYdTa7csDT9SkZX8DD52Sy4a.jpg",
-      "releaseInfo": "1972"
     },
     {
       "id": "tmdb:2370",
@@ -105,13 +97,29 @@
       "releaseInfo": "2001"
     },
     {
-      "id": "tmdb:34634",
+      "id": "tmdb:6390",
       "type": "series",
-      "name": "Alaska : La ruée vers l'or",
-      "poster": "https://image.tmdb.org/t/p/w500/wzsQetFAT5pIMF98MWwE7sq9Hf.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ReSSC77upQRIZgvaJaPQPCbWaK.jpg",
-      "description": "Des passionnés sont prêts à tout, et surtout à mener une sérieuse compétition, afin d'arriver à extraire et amasser la plus grande quantité d'or possible, au coeur de sites miniers parmi les plus riches en Amérique.",
-      "releaseInfo": "2010"
+      "name": "Escape to the Country",
+      "poster": "https://image.tmdb.org/t/p/w500/cIJsjd0HdyKIODAgPuXeEpOAJ9j.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vzw3tHpCWkGUsVwLV0SvqMHZJqt.jpg",
+      "releaseInfo": "2002"
+    },
+    {
+      "id": "tmdb:2051",
+      "type": "series",
+      "name": "The Price Is Right",
+      "poster": "https://image.tmdb.org/t/p/w500/7MSqORrf1RZsmLUTQ2XoEJEtzt5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/p0umYdTa7csDT9SkZX8DD52Sy4a.jpg",
+      "releaseInfo": "1972"
+    },
+    {
+      "id": "tmdb:2778",
+      "type": "series",
+      "name": "Wheel of Fortune",
+      "poster": "https://image.tmdb.org/t/p/w500/4S36URhKU4sBL1gC2B5UxmTlZMl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A6Sp44grqCnvKs5Plhy3oQncUrq.jpg",
+      "description": "Ce jeu télévisé voit les concurrents résoudre des énigmes de mots, similaires à celles utilisées dans Hangman, pour gagner de l'argent et des prix déterminés en faisant tourner une roue de carnaval géante.",
+      "releaseInfo": "1983"
     },
     {
       "id": "tmdb:3670",
@@ -123,6 +131,15 @@
       "releaseInfo": "1989"
     },
     {
+      "id": "tmdb:34634",
+      "type": "series",
+      "name": "Alaska : La ruée vers l'or",
+      "poster": "https://image.tmdb.org/t/p/w500/wzsQetFAT5pIMF98MWwE7sq9Hf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ReSSC77upQRIZgvaJaPQPCbWaK.jpg",
+      "description": "Des passionnés sont prêts à tout, et surtout à mener une sérieuse compétition, afin d'arriver à extraire et amasser la plus grande quantité d'or possible, au coeur de sites miniers parmi les plus riches en Amérique.",
+      "releaseInfo": "2010"
+    },
+    {
       "id": "tmdb:89180",
       "type": "series",
       "name": "Dimension 20",
@@ -131,22 +148,13 @@
       "releaseInfo": "2018"
     },
     {
-      "id": "tmdb:65300",
+      "id": "tmdb:30703",
       "type": "series",
-      "name": "Les Real Housewives de Potomac",
-      "poster": "https://image.tmdb.org/t/p/w500/lgSkHpr6LXxsh2YXiBrDZHn5wUR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8PkQKCE8rTFTUmGrP47FgaXLTNQ.jpg",
-      "description": "Juste en amont du fleuve depuis la capitale de notre pays se trouve un joyau caché : Potomac, Maryland. Ses collines vallonnées, ses manoirs fermés, ses écoles préparatoires sophistiquées et ses country clubs exclusifs servent tous à garder la région sur invitation uniquement. Dans toute cette communauté se trouvent une poignée de familles afro-américaines riches et anciennes qui ont historiquement brisé les barrières raciales pour offrir une vie privilégiée à leurs enfants. Dans une ville où l'entrée n'est accordée qu'en fonction de la classe, du pedigree et de la lignée, jusqu'où les dames iront-elles pour s'assurer leur place au sommet de ce cercle prestigieux ?",
-      "releaseInfo": "2016"
-    },
-    {
-      "id": "tmdb:2778",
-      "type": "series",
-      "name": "Wheel of Fortune",
-      "poster": "https://image.tmdb.org/t/p/w500/4S36URhKU4sBL1gC2B5UxmTlZMl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/A6Sp44grqCnvKs5Plhy3oQncUrq.jpg",
-      "description": "Ce jeu télévisé voit les concurrents résoudre des énigmes de mots, similaires à celles utilisées dans Hangman, pour gagner de l'argent et des prix déterminés en faisant tourner une roue de carnaval géante.",
-      "releaseInfo": "1983"
+      "name": "Shark Tank",
+      "poster": "https://image.tmdb.org/t/p/w500/wztqq3SWfdzcuxvl9oA2HwOXasO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lxekzMqu4I1dWG7bK4IaurD5PbM.jpg",
+      "description": "Des entrepreneurs ambitieux présentent leurs concepts d'affaires révolutionnaires...",
+      "releaseInfo": "2009"
     },
     {
       "id": "tmdb:1711",
@@ -164,15 +172,6 @@
       "background": "https://image.tmdb.org/t/p/w780/tKtxE1KzqKDg3HIXNnlr7VpuWzd.jpg",
       "description": "Les « diners » et les « drive-ins » vintage étant de plus en plus tendance chez les gourmets, Guy Fieri sillonne les États-Unis à la recherche des meilleurs burgers, barbecues et fritures du pays, souvent plébiscités par les locaux. Dans chaque resto, Fieri discute avec le personnel et les clients et leur demande leur avis sur la nourriture. Guy Fieri sillonne les États-Unis à la recherche des meilleurs burgers, barbecues et fritures, souvent plébiscités par les locaux.",
       "releaseInfo": "2007"
-    },
-    {
-      "id": "tmdb:30703",
-      "type": "series",
-      "name": "Shark Tank",
-      "poster": "https://image.tmdb.org/t/p/w500/wztqq3SWfdzcuxvl9oA2HwOXasO.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lxekzMqu4I1dWG7bK4IaurD5PbM.jpg",
-      "description": "Des entrepreneurs ambitieux présentent leurs concepts d'affaires révolutionnaires...",
-      "releaseInfo": "2009"
     }
   ]
 }

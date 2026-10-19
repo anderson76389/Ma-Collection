@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:213562",
+      "type": "series",
+      "name": "Crystal Lake",
+      "poster": "https://image.tmdb.org/t/p/w500/v1XEjgqIlHvbjbEG6YSZVGTVUg0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wxiBsKFEOOFK8eQStWOykNORlXY.jpg",
+      "description": "Afin de pouvoir élever son jeune fils Jason, atteint d'une paralysie faciale périphérique depuis sa naissance, Pamela Voorhees abandonne sa carrière de chanteuse et emménage dans la petite ville de Crystal Lake où elle commence à travailler comme cuisinière dans le camp de vacances local.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:285322",
       "type": "series",
       "name": "Below",
@@ -60,6 +69,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/ht3OVVRBTrTeVtUVQiKSekjIFVH.jpg",
       "background": "https://image.tmdb.org/t/p/w780/1erQOjm3PZP6PNVRIuxdNmesCBu.jpg",
       "description": "Londres, 1782. Alors que la guerre fait rage entre la France et la Grande-Bretagne, la jeune Lucie Manette voit sa vie bouleversée par un message tout droit venu de Paris : son père, présumé mort depuis près de 20 ans, serait peut-être encore vivant. Le messager, un émigré français idéaliste, Charles Darnay, est arrêté et accusé de trahison. Lucie fait appel à un jeune avocat aussi brillant qu’imprévisible, Sydney Carton, pour libérer Darnay dans l'espoir qu'il l’aide à retrouver son père.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:283319",
+      "type": "series",
+      "name": "Marble Hall Murders",
+      "poster": "https://image.tmdb.org/t/p/w500/3WfgRJBIaOTsiu2bQO23xWb08ro.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8Jdrk3wwMCs1RN7GimMZQrBdgHh.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -156,24 +173,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/7gEIMYmGnr2sUjaBW7JEchuEfH.jpg",
       "background": "https://image.tmdb.org/t/p/w780/iftYIh1OjJb99EOTHIrDcx59zWb.jpg",
       "description": "Dans une communauté de retraités en apparence parfaite, des héros improbables doivent empêcher une menace d'un autre monde de leur voler la seule chose qu'ils n'ont pas : le temps.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:270476",
-      "type": "series",
-      "name": "Widow's Bay",
-      "poster": "https://image.tmdb.org/t/p/w500/99f8XKkUXC2pKGqNzbUgA9Ui1zA.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yx0sfeYOoXol2fjT22SXo9YyviI.jpg",
-      "description": "Le maire d'une ville de Nouvelle-Angleterre souhaite en faire une destination touristique, malgré les avertissements sur le fait qu'elle est maudite.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:224263",
-      "type": "series",
-      "name": "Stranger Things : Chroniques de 1985",
-      "poster": "https://image.tmdb.org/t/p/w500/5vr72cfj5cE8kftq1PWRCv2o3hh.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ulBGaxq9GmJexyEOi4Xci74g6Vt.jpg",
-      "description": "Hawkins, hiver 1985. Nous voilà de retour dans une ville qui regorge de secrets, où nos héros adorés affrontent de nouveaux mystères... et une nouvelle vague de phénomènes étranges.",
       "releaseInfo": "2026"
     }
   ]

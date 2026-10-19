@@ -1069,7 +1069,7 @@
     {
       "type": "series",
       "id": "mc-fr-12c08fad13d095",
-      "name": "Enfants et famille · Disney Channel et séries télévisées familiales · Nouvelles séries familiales"
+      "name": "Enfants et famille · Disney Channel et séries familiales · Nouvelles séries familiales"
     },
     {
       "type": "movie",
@@ -1129,7 +1129,7 @@
     {
       "type": "series",
       "id": "mc-fr-98f5fc17528f1b",
-      "name": "Chaînes · ABC TV (AU) · Séries récentes"
+      "name": "Chaînes · ABC TV — Australie · Séries récentes"
     },
     {
       "type": "series",
@@ -1165,11 +1165,6 @@
       "type": "series",
       "id": "mc-fr-922c09f239b2cf",
       "name": "Chaînes · BBC Two · Séries récentes"
-    },
-    {
-      "type": "series",
-      "id": "mc-fr-903bcbba936fc1",
-      "name": "Chaînes · BET · Séries récentes"
     },
     {
       "type": "series",
@@ -1435,11 +1430,6 @@
       "type": "series",
       "id": "mc-fr-789ba85cfdc94d",
       "name": "Chaînes · USA Network · Séries récentes"
-    },
-    {
-      "type": "series",
-      "id": "mc-fr-2d7563b884e39c",
-      "name": "Chaînes · VH1 · Séries récentes"
     },
     {
       "type": "series",
@@ -1813,16 +1803,6 @@
     },
     {
       "type": "series",
-      "id": "mc-fr-df86886141b377",
-      "name": "FR · Mubi · Épisodes diffusés cette semaine"
-    },
-    {
-      "type": "series",
-      "id": "mc-fr-df86886141b377-seasons",
-      "name": "FR · Mubi · Saisons sorties récemment"
-    },
-    {
-      "type": "series",
       "id": "mc-fr-3339adcd261c81",
       "name": "FR · Paramount+ · Épisodes diffusés cette semaine"
     },
@@ -1844,7 +1824,7 @@
     {
       "type": "series",
       "id": "mc-fr-368ee6facd6592",
-      "name": "Diffusion TV · ABC TV (AU) · Épisodes diffusés cette semaine"
+      "name": "Diffusion TV · ABC TV — Australie · Épisodes diffusés cette semaine"
     },
     {
       "type": "series",
@@ -1935,16 +1915,6 @@
       "type": "series",
       "id": "mc-fr-8c6456178a8448",
       "name": "Diffusion TV · Discovery · Épisodes diffusés cette semaine"
-    },
-    {
-      "type": "series",
-      "id": "mc-fr-7ec8b28e33bc82",
-      "name": "Diffusion TV · Disney Channel · Épisodes diffusés cette semaine"
-    },
-    {
-      "type": "series",
-      "id": "mc-fr-8bbba4bee29ccf",
-      "name": "Diffusion TV · Disney XD · Épisodes diffusés cette semaine"
     },
     {
       "type": "series",
@@ -2310,6 +2280,111 @@
       "type": "series",
       "id": "mc-native-fr-2672-series",
       "name": "FR · M6plus Amazon Channel · Séries récentes"
+    },
+    {
+      "type": "movie",
+      "id": "mc-newseen-mc-fr-49ff3da80e14be",
+      "name": "FR · Netflix · Nouveaux repérés dans l’échantillon"
+    },
+    {
+      "type": "series",
+      "id": "mc-newseen-mc-fr-88295ded1e4f87",
+      "name": "FR · Netflix · Nouveaux repérés dans l’échantillon"
+    },
+    {
+      "type": "movie",
+      "id": "mc-newseen-mc-fr-1156247ce4315d",
+      "name": "FR · Apple TV+ · Nouveaux repérés dans l’échantillon"
+    },
+    {
+      "type": "series",
+      "id": "mc-newseen-mc-fr-cb28f417480488",
+      "name": "FR · Apple TV+ · Nouveaux repérés dans l’échantillon"
+    },
+    {
+      "type": "movie",
+      "id": "mc-newseen-mc-fr-1a51a187724e5c",
+      "name": "FR · Prime Video · Nouveaux repérés dans l’échantillon"
+    },
+    {
+      "type": "series",
+      "id": "mc-newseen-mc-fr-6ceda725ed3e12",
+      "name": "FR · Prime Video · Nouveaux repérés dans l’échantillon"
+    },
+    {
+      "type": "movie",
+      "id": "mc-newseen-mc-fr-f673a1a71cbc0c",
+      "name": "FR · Crunchyroll · Nouveaux repérés dans l’échantillon"
+    },
+    {
+      "type": "series",
+      "id": "mc-newseen-mc-fr-252b5517085418",
+      "name": "FR · Crunchyroll · Nouveaux repérés dans l’échantillon"
+    },
+    {
+      "type": "movie",
+      "id": "mc-newseen-mc-fr-09d8f9a0169e63",
+      "name": "FR · Curiosity Stream · Nouveaux repérés dans l’échantillon"
+    },
+    {
+      "type": "series",
+      "id": "mc-newseen-mc-fr-c7aa5176de973b",
+      "name": "FR · Curiosity Stream · Nouveaux repérés dans l’échantillon"
+    },
+    {
+      "type": "movie",
+      "id": "mc-newseen-mc-fr-7f92f32efde8e6",
+      "name": "FR · Disney+ · Nouveaux repérés dans l’échantillon"
+    },
+    {
+      "type": "series",
+      "id": "mc-newseen-mc-fr-9efc896b279535",
+      "name": "FR · Disney+ · Nouveaux repérés dans l’échantillon"
+    },
+    {
+      "type": "series",
+      "id": "mc-newseen-mc-fr-6abe5953f8c69e",
+      "name": "FR · Hayu · Nouveaux repérés dans l’échantillon"
+    },
+    {
+      "type": "movie",
+      "id": "mc-newseen-mc-fr-597a2eb7672dc2",
+      "name": "FR · HBO Max · Nouveaux repérés dans l’échantillon"
+    },
+    {
+      "type": "series",
+      "id": "mc-newseen-mc-fr-b580b7829599e8",
+      "name": "FR · HBO Max · Nouveaux repérés dans l’échantillon"
+    },
+    {
+      "type": "movie",
+      "id": "mc-newseen-mc-fr-540edbe048e269",
+      "name": "FR · Magellan · Nouveaux repérés dans l’échantillon"
+    },
+    {
+      "type": "series",
+      "id": "mc-newseen-mc-fr-7b2bfcd1ef0524",
+      "name": "FR · Magellan · Nouveaux repérés dans l’échantillon"
+    },
+    {
+      "type": "movie",
+      "id": "mc-newseen-mc-fr-39ea7f01c5acd5",
+      "name": "FR · Mubi · Nouveaux repérés dans l’échantillon"
+    },
+    {
+      "type": "movie",
+      "id": "mc-newseen-mc-fr-a85c2602bad5a6",
+      "name": "FR · Paramount+ · Nouveaux repérés dans l’échantillon"
+    },
+    {
+      "type": "series",
+      "id": "mc-newseen-mc-fr-299f9fc7f194f2",
+      "name": "FR · Paramount+ · Nouveaux repérés dans l’échantillon"
+    },
+    {
+      "type": "movie",
+      "id": "mc-newseen-mc-fr-58adc6b0d82278",
+      "name": "FR · Pluto TV · Nouveaux repérés dans l’échantillon"
     }
   ],
   "behaviorHints": {

@@ -1,11 +1,82 @@
 {
   "metas": [
     {
+      "id": "tmdb:1765072",
+      "type": "movie",
+      "name": "You Can See Everything",
+      "poster": "https://image.tmdb.org/t/p/w500/7nG1AFxnrh5KtgH3jA4uIsWmX95.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nhIL3O4W9h5V5JbNQm7yjoDk3So.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1561726",
+      "type": "movie",
+      "name": "Masterplan",
+      "poster": "https://image.tmdb.org/t/p/w500/a13BTR3jJWr2ARoLvTC3f5gQhfw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dgUDj84BWtW6EZzee8BkgKnjDhh.jpg",
+      "description": "Quand un voleur légendaire jette son dévolu sur La Joconde, il recrute deux jeunes inconnus pour l'aider (Chiara, une experte italienne du cybercrime et Jay, un spécialiste français des explosifs) avant de leur révéler qu'il est leur père. Au milieu de retrouvailles chaotiques, cette nouvelle famille devra apprendre à collaborer et éviter de s'entretuer si elle veut réussir le casse du siècle.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1255833",
+      "type": "movie",
+      "name": "Englouti",
+      "poster": "https://image.tmdb.org/t/p/w500/qLt9F35AdGKDXPSJtqH5DERoigI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg",
+      "description": "Un plongeur sous-marin est à la recherche des restes de son père décédé, qui s'est fait avaler par un cachalot. Il ne lui reste plus qu'une heure avant que l'oxygène ne vienne à lui manquer.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1241803",
+      "type": "movie",
+      "name": "Les Misérables",
+      "poster": "https://image.tmdb.org/t/p/w500/tY3CoBNTCpvJayVRLqIIGDa4Ep8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2IAY24dGrbGnafJ3ENXmCDTDvxg.jpg",
+      "description": "Jean Valjean, un ancien forçat évadé du bagne où il a passé 16 ans pour avoir volé du pain, seconsacre désormais à faire le bien autour de lui. Il se crée une nouvelle identité, celle d'un notable respecté, et vient en aide à Fantine, une ouvrière mourante en lui promettant de sauver sa fille, la petite Cosette, des griffes des Thénardier, des aubergistes qui l'exploitent et la maltraitent. Alors que Valjean prend soin de l'enfant et l'élève comme sa propre fille, son passé finit par le rattraper en la personne de l’inspecteur Javert qui n'a eu de cesse de le pourchasser durant toutes ces années. En dépit de l'agitation sociale qui secoue la France, les destins de Valjean, de Cosette, de son amant Marius et de Javert s'entremêlent dans un Paris bouillonnant et révolutionnaire. À travers des luttes, des sacrifices et un profond désir de justice, Valjean s'efforce d'achever son parcours de rédemption et d'offrir à Cosette un avenir d'amour et de liberté.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:947493",
+      "type": "movie",
+      "name": "Le corset",
+      "poster": "https://image.tmdb.org/t/p/w500/h4YDklaLjbgdu9yUr6vNybnrnzX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3e0Lzs4vDSHjRULFw6vPI4jyHd6.jpg",
+      "description": "Dans une ferme au cœur de la Beauce, Christophe, 11 ans, règle ses pas sur ceux de son père. Mais à l’école, à la maison, sur le tracteur, Christophe penche… et tombe. Il est obligé de porter un corset pour filer droit. Tandis que la ferme traverse des moments difficiles, Christophe grandit comme il peut. Il découvre la musique et fait la rencontre de Clara, avec qui tout semble devenir possible.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:848700",
+      "type": "movie",
+      "name": "Minotaure",
+      "poster": "https://image.tmdb.org/t/p/w500/7XH2vaVsishBS0GuCgO3bOXfCaB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/i5HacpkXOKQ85lfbnMO3jXvAnPy.jpg",
+      "description": "Russie, 2022. Gleb, chef d’entreprise prospère, vit avec sa femme Galina et leur fils dans une ville de province. Il se retrouve confronté à des problèmes professionnels croissants, dans un monde de plus en plus instable. L’effondrement d’une vie soigneusement construite bascule rapidement dans la violence.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1153576",
+      "type": "movie",
+      "name": "Street Fighter",
+      "poster": "https://image.tmdb.org/t/p/w500/k53HHxQ4rQG0dME6nsofii3QNS7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5H5YphHsQmkQhrw13Wv1whCZKtN.jpg",
+      "description": "En 1993, Ryu et Ken Masters, deux Street Fighters autrefois inséparables, sont replongés dans l’arène lorsque la mystérieuse Chun-Li les recrute pour le prochain World Warrior Tournament : un affrontement brutal où se mêlent poings, destin et fureur. Mais derrière cette battle royale se cache une conspiration mortelle qui les oblige à s’affronter, tout en faisant face aux démons de leur passé… Et s’ils échouent, c’est GAME OVER.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1742441",
       "type": "movie",
       "name": "V/H/S/Mixtape",
       "poster": "https://image.tmdb.org/t/p/w500/uS8yoiA6NfsuYeOTbVfpem8Ib9.jpg",
       "background": "https://image.tmdb.org/t/p/w780/mpB4pgtUcc7rCLxvlknzCbAQQEE.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1288069",
+      "type": "movie",
+      "name": "Tenzing : à la conquête de l’Everest",
+      "poster": "https://image.tmdb.org/t/p/w500/hKA6G4Dj0Uonghi6AUwmpIvCFo0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6GXqVvL20Y0MpyVP30WoI2NPK69.jpg",
+      "description": "Un homme déterminé se lance dans une aventure périlleuse - et brave des obstacles apparemment insurmontables - pour réaliser son rêve d'être le premier à atteindre le sommet de l'Everest.",
       "releaseInfo": "2026"
     },
     {
@@ -18,12 +89,30 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1429592",
+      "type": "movie",
+      "name": "Ni vue, ni connue",
+      "poster": "https://image.tmdb.org/t/p/w500/sXqiQw6cwZlp4B8OnT3LRGC6wgR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/a6O9MMak7mHDdxwApf2nGlvIs0g.jpg",
+      "description": "Corinne Maclou est figurante. Elle enchaîne les tournages, parcourt inlassablement les plateaux dans le seul espoir d’être remarquée et de décrocher enfin un vrai rôle. Lorsqu’elle fait la connaissance de Sandrine Kiberlain, avec qui elle va peu à peu sympathiser, Corinne espère concrétiser son rêve. Mais la célèbre actrice va-t-elle vraiment l'aider à se faire une place au sein de la grande famille du cinéma ?",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1400837",
       "type": "movie",
       "name": "Malfaisante",
       "poster": "https://image.tmdb.org/t/p/w500/wAofwsldMDNAIzGSEfMJMoUn1KB.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg",
       "description": "Une famille est la cible d'une entité qu'elle appelle « l'autre maman ».",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1381078",
+      "type": "movie",
+      "name": "L'Amour de ta vie",
+      "poster": "https://image.tmdb.org/t/p/w500/1zrnRcJ8JOTXYp0Qizad1rnuIA0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mqYqKvrKTgMvK50VtEDZlYFsnHz.jpg",
+      "description": "Maya dont la rencontre fortuite avec Charlie donne naissance à une histoire d'amour passionnée et à la vie dont elle n'osait pas rêver. Lorsque tout bascule, Maya doit déterminer qui elle est, ce qu'elle veut et comment réapprendre à aimer.",
       "releaseInfo": "2026"
     },
     {
@@ -48,7 +137,7 @@
       "type": "movie",
       "name": "Matchbox – Le film",
       "poster": "https://image.tmdb.org/t/p/w500/vSgnJDw404JUokiy5NDZgXOi01E.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/roawIpy5sigBB7LsU4AJDw70jPo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg",
       "description": "Des amis d'enfance reprennent contact et les retrouvailles prennent une tournure inattendue quand ils découvrent un dangereux complot international et doivent sauver le monde.",
       "releaseInfo": "2026"
     },
@@ -80,102 +169,12 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1758536",
+      "id": "tmdb:1763619",
       "type": "movie",
-      "name": "Le Veuf : Jusqu'à ce que la mort...",
-      "poster": "https://image.tmdb.org/t/p/w500/1Yv7Kg5DEW1k6PCV4PEoDuv87sH.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kejOti7YfpTr88Y4fWnd3UVDr8e.jpg",
-      "description": "Dans ce documentaire, un journaliste et un enquêteur dévoilent la vérité sur un tueur dont le charme masquait une série de mariages ratés et de décès suspects.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1437195",
-      "type": "movie",
-      "name": "Diffusion en direct de l'enfer",
-      "poster": "https://image.tmdb.org/t/p/w500/mY3iQP4LH71TMmtXEg65nAxvYZI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/eJ4vMJJlnxnKqdJCBDXvNmE0LVp.jpg",
-      "description": "Kevin Hart collabore avec les créateurs de contenu numérique Kai Cenat et Druski pour une diffusion en direct historique dans sa maison « intelligente », mais les choses dégénèrent dans l'humour et un meurtre se produit devant les caméras, piégeant le trio et leurs invités célèbres dans une comédie d'horreur attirant des millions d'internautes.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1388805",
-      "type": "movie",
-      "name": "Linkin Park Unshatter",
-      "poster": "https://image.tmdb.org/t/p/w500/IJm4pjhXoE3xYHlEvHw8wIQVY8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uL1HCc4wmcFcSr1zS3kXX3CNUeE.jpg",
-      "description": "Après une pause de sept ans, marquée par la perte tragique de leur cher compagnon de groupe, les membres restants de LINKIN PARK cherchent à retrouver leur chemin. Leur histoire commune, leur amitié indéfectible, ainsi que l’arrivée de deux nouveaux membres insufflent une nouvelle énergie créative qui les entraîne dans un voyage de réinvention artistique. Suivant le groupe depuis ses sessions studio intimistes de 2022 jusqu’à la sortie explosive de leur album le 15 novembre 2024 et leur concert à São Paulo, le film mêle images d’archives inédites, performances électrisantes issues de concerts à guichets fermés et témoignages sincères des membres du groupe et de leurs fans. Un récit brut et authentique sur ce que signifie recommencer, se réinventer et avancer.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1318864",
-      "type": "movie",
-      "name": "Notre salut",
-      "poster": "https://image.tmdb.org/t/p/w500/tFzSSetNzvdaxms6RLfr2pyu9sM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/iQMFLm9Te2IuJTr08RdBLKTGw8n.jpg",
-      "description": "Septembre 1940, le régime de Pétain se met en place. Henri Marre, 49 ans, débarque à Vichy sans le sou, sans contact, loin de sa femme et ses enfants. Il voit dans la nouvelle administration l’opportunité de trouver enfin la place qu’il mérite. Dans sa valise, son traité politique édité à compte d’auteur, Notre Salut, où il défend ses convictions patriotiques et ses méthodes d'ingénieur. Son credo: « gagner en efficacité » pour relever la France de la débâcle. Mais peut-être qu’Henri cherche avant tout à fuir sa propre débâcle…",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1283515",
-      "type": "movie",
-      "name": "Verity",
-      "poster": "https://image.tmdb.org/t/p/w500/zLCjFOyjvKqYdkQYYAyTtfJ5mpk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3BoHXmGAfC2qO4wnCpMYV0BzpHD.jpg",
-      "description": "Lorsqu’un accident affecte les capacités de l’autrice de bestsellers, Verity Crawford, à achever son œuvre, une écrivaine solitaire, Lowen Ashleigh, qui peine à joindre les deux bouts est engagée pour lui prêter sa plume. En résidence dans la propriété reculée de la romancière, elle fait la découverte d’un manuscrit autobiographique glaçant et peine à démêler ce qui relève de la fiction ou de la réalité…",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1767073",
-      "type": "movie",
-      "name": "The Nice Ones",
-      "poster": "https://image.tmdb.org/t/p/w500/akMSRVUZRBZlR9nzbEhRPoQ4xSu.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zQmaXGt8MYNRZaV2YVqkFbCoTWq.jpg",
-      "description": "Lorsque Kate rejoint les amis de son petit ami dans un lieu de retraite isolé à la campagne, de vieilles blessures refont surface alors que d’étranges lumières apparaissent dans le ciel. À mesure que le malaise s’installe, les membres du groupe commencent à changer : ils deviennent d’un calme déconcertant, aimables et « gentils ». Considérée comme instable, Kate lutte pour convaincre les autres que quelque chose ne va pas avant que la force qui est à l’origine de tout cela ne se propage.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1248832",
-      "type": "movie",
-      "name": "Digger",
-      "poster": "https://image.tmdb.org/t/p/w500/gPCCGMQCrrMNM3mR3vqIdbdJxJ5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/b7t3r39Oll5qPxBKzLZ8eHMBD7l.jpg",
-      "description": "L’homme le plus puissant du monde se lance dans une mission frénétique pour prouver qu’il est le sauveur de l’humanité avant que le désastre qu’il a déclenché ne détruise tout.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1755291",
-      "type": "movie",
-      "name": "NAZA",
-      "poster": "https://image.tmdb.org/t/p/w500/yJ0FMDiMfdVHWCRqxt9WzAJ0C5S.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7EzH0dlEN9OZWWBXBWwT5PbMNUz.jpg",
-      "description": "Filmé la nuit depuis les toits de Tel Aviv, ce documentaire se centre sur les victimes civiles des opérations militaires israéliennes à Gaza.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1571766",
-      "type": "movie",
-      "name": "Kraken",
-      "poster": "https://image.tmdb.org/t/p/w500/mQZaeZAiDBredbH19WHZx8sLZbo.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jKlt1kxBAbCpPv8qOBXOdE1UAPy.jpg",
-      "description": "Dans une cité, une tour abandonnée alimente les rumeurs. Alors que des disparitions étranges s'enchaînent, 5 jeunes n’ont plus le choix : y entrer à nouveau. Pris dans un piège mortel, ils vont bientôt comprendre que s'échapper leur sera impossible…",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1492640",
-      "type": "movie",
-      "name": "UNABOMBER",
-      "poster": "https://image.tmdb.org/t/p/w500/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
-      "description": "Ted Kaczynski, un jeune prodige qui intègre Harvard à 16 ans avant de basculer dans le terrorisme. Soumis à des expériences psychologiques discutables menées par le docteur Henry Murray, le passé tourmenté de Kaczynski refait surface des décennies plus tard, lorsque la traque d'Unabomber menée par l'agente du FBI Joanne Miller met en lumière les conséquences terrifiantes de l'ambition et de l'isolement.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1291366",
-      "type": "movie",
-      "name": "The Deputy",
-      "poster": "https://image.tmdb.org/t/p/w500/qL654LNOfBu49e12jnnQIv6mny.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3WBGquZOd4iNl288BmWzkp0Fbdy.jpg",
-      "description": "L’histoire suit Toby Sawyer, un adjoint du shérif à temps partiel dans le Mississippi rural, qui est réveillé en pleine nuit par le chef Krueger pour garder un corps jusqu’à l’arrivée du médecin légiste. Lorsqu’une heure plus tard le cadavre disparaît mystérieusement, Toby se lance dans une recherche effrénée...",
+      "name": "Super Riches Mega Fauchés",
+      "poster": "https://image.tmdb.org/t/p/w500/4nQD7STEWNYW2cKldZQZRrYri90.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/e20V500lJHkQbf1iGet34Jc5h8r.jpg",
+      "description": "Lorsque la snob et riche famille AlThahabi découvre qu'elle n'est en fait pas aussi fortunée qu'elle le croit, elle est forcée de simuler son opulence pour survivre.",
       "releaseInfo": "2026"
     }
   ]

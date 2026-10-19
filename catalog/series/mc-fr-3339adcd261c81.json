@@ -19,13 +19,13 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:284833",
+      "id": "tmdb:153312",
       "type": "series",
-      "name": "Avatar : Les Sept Refuges",
-      "poster": "https://image.tmdb.org/t/p/w500/yfUFI7fIDcdA01Ej5Rwfv2OEH8O.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/t2KFGH07Al4XuIZLHRlF1Hj9IJB.jpg",
-      "description": "Après une catastrophe planétaire, une jeune maîtresse de la terre découvre qu'elle est l'Avatar succédant à Korra. Désormais considérée comme un présage de fin du monde, elle se lance dans une course contre-la-montre pour sauver les Sept Refuges.",
-      "releaseInfo": "2026"
+      "name": "Tulsa King",
+      "poster": "https://image.tmdb.org/t/p/w500/oyovexqrZRbafJNlNb5Sxgp9exQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mNHRGO1gFpR2CYZdANe72kcKq7G.jpg",
+      "description": "Dwight Manfredi, surnommé « Le Général », vient de sortir de prison où il a passé 25 ans. Cet ancien membre de la mafia new-yorkaise est cependant contraint de s'exiler à Tulsa dans l'Oklahoma. Il va y rassembler sa propre « famille » pour développer un empire criminel.",
+      "releaseInfo": "2022"
     },
     {
       "id": "tmdb:2190",
@@ -37,6 +37,15 @@
       "releaseInfo": "1997"
     },
     {
+      "id": "tmdb:284833",
+      "type": "series",
+      "name": "Avatar : Les Sept Refuges",
+      "poster": "https://image.tmdb.org/t/p/w500/yfUFI7fIDcdA01Ej5Rwfv2OEH8O.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/t2KFGH07Al4XuIZLHRlF1Hj9IJB.jpg",
+      "description": "Après une catastrophe planétaire, une jeune maîtresse de la terre découvre qu'elle est l'Avatar succédant à Korra. Désormais considérée comme un présage de fin du monde, elle se lance dans une course contre-la-montre pour sauver les Sept Refuges.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:290856",
       "type": "series",
       "name": "Marshals: A Yellowstone Story",
@@ -46,13 +55,13 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:202297",
+      "id": "tmdb:68073",
       "type": "series",
-      "name": "Fire Country : Pompiers sur Appel",
-      "poster": "https://image.tmdb.org/t/p/w500/2qhBMwFtQIUQId8nhaywVqKTPLw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/r6jUY6q3ObYOeFFWxM7jemS7IWE.jpg",
-      "description": "En quête de rédemption et d'une peine de prison raccourcie, le jeune condamné Bode Donovan rejoint un programme de lutte contre les incendies qui le ramène dans sa petite ville natale du nord de la Californie, où lui et d'autres détenus travaillent aux côtés de pompiers d'élite pour éteindre d'énormes incendies dans la région.",
-      "releaseInfo": "2022"
+      "name": "Bienvenue chez les Loud",
+      "poster": "https://image.tmdb.org/t/p/w500/rCMCfA1wxgsnBXyHxPEPRFdWMkX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jQmYRTt29hTNFGdNdwFVazOrDpO.jpg",
+      "description": "Dans la ville fictive de Royal Woods, dans le Michigan, vivent Lincoln Loud et ses 10 sœurs. La vie du jeune garçon de 11 ans est de loin trépidante. Il sait que pour survivre avec 5 grandes sœurs (Lori, Leni, Luna, Luan, et Lynn) et 5 petites sœurs (Lucy, les jumelles Lana et Lola ainsi que Lisa, et enfin Lily, le bébé), il faut faire preuve de détachement, de confiance en soi, d'optimisme et qu'il faut toujours avoir un plan!",
+      "releaseInfo": "2016"
     },
     {
       "id": "tmdb:126824",
@@ -64,12 +73,12 @@
       "releaseInfo": "2021"
     },
     {
-      "id": "tmdb:203489",
+      "id": "tmdb:202297",
       "type": "series",
-      "name": "Mike Judge's Beavis and Butt-Head",
-      "poster": "https://image.tmdb.org/t/p/w500/75am8jsmRHHcpIPkm4RyrMn851A.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rAUxCUyroOvjbTYZDXaRLJRoVHr.jpg",
-      "description": "Deux adolescents fans de musique heavy-metal font parfois des choses idiotes parce qu'ils s'ennuient. Pour eux, tout est \"cool\" ou \"nul\".",
+      "name": "Fire Country : Pompiers sur Appel",
+      "poster": "https://image.tmdb.org/t/p/w500/2qhBMwFtQIUQId8nhaywVqKTPLw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r6jUY6q3ObYOeFFWxM7jemS7IWE.jpg",
+      "description": "En quête de rédemption et d'une peine de prison raccourcie, le jeune condamné Bode Donovan rejoint un programme de lutte contre les incendies qui le ramène dans sa petite ville natale du nord de la Californie, où lui et d'autres détenus travaillent aux côtés de pompiers d'élite pour éteindre d'énormes incendies dans la région.",
       "releaseInfo": "2022"
     },
     {
@@ -80,6 +89,32 @@
       "background": "https://image.tmdb.org/t/p/w780/kaolHDM9XOnvTTZi9FBLhPS35s3.jpg",
       "description": "Chaque défi oppose de nombreux membres de la distribution des saisons précédentes d'émissions de téléréalité les uns contre les autres, en les divisant en deux équipes distinctes selon différents critères, tels que le sexe, sur lequel ils sont apparus pour la première fois, qu'ils soient ou non des vétérans ou des recrues de l'émission, etc. Les deux équipes s'affrontent dans de nombreuses missions afin de gagner des prix et d'avancer dans le jeu global.",
       "releaseInfo": "1998"
+    },
+    {
+      "id": "tmdb:203489",
+      "type": "series",
+      "name": "Mike Judge's Beavis and Butt-Head",
+      "poster": "https://image.tmdb.org/t/p/w500/75am8jsmRHHcpIPkm4RyrMn851A.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rAUxCUyroOvjbTYZDXaRLJRoVHr.jpg",
+      "description": "Deux adolescents fans de musique heavy-metal font parfois des choses idiotes parce qu'ils s'ennuient. Pour eux, tout est \"cool\" ou \"nul\".",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:214875",
+      "type": "series",
+      "name": "Ruben & cie",
+      "poster": "https://image.tmdb.org/t/p/w500/trcqt0g3NczUiIsxgYcRvE6QbBi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5SWWe369D4Fjs2RDVhMagNJLlps.jpg",
+      "description": "Les aventures de Ruben et de ses amis ont lieu dans une petite ville en plein essor, Bricoville. De nouveaux habitants arrivent tous les jours. Ils peuvent compter sur Ruben et sa famille de constructeurs !",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:286277",
+      "type": "series",
+      "name": "Rubble & Crew",
+      "poster": "https://image.tmdb.org/t/p/w500/AbL8GIkcrAW0Q9fkmlvjuqWfVmp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bU61zseAE4I4S9uu4cUHFa1kP1H.jpg",
+      "releaseInfo": "2023"
     },
     {
       "id": "tmdb:137948",
@@ -97,14 +132,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/nZbQHs1WCf2H8NJ8hzR0n5LoeT6.jpg",
       "background": "https://image.tmdb.org/t/p/w780/tE5EU20M9fHufcLXw2I8lM1hTMu.jpg",
       "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:286277",
-      "type": "series",
-      "name": "Rubble & Crew",
-      "poster": "https://image.tmdb.org/t/p/w500/AbL8GIkcrAW0Q9fkmlvjuqWfVmp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bU61zseAE4I4S9uu4cUHFa1kP1H.jpg",
-      "releaseInfo": "2023"
     }
   ]
 }

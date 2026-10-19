@@ -1,6 +1,24 @@
 {
   "metas": [
     {
+      "id": "tmdb:1561726",
+      "type": "movie",
+      "name": "Masterplan",
+      "poster": "https://image.tmdb.org/t/p/w500/a13BTR3jJWr2ARoLvTC3f5gQhfw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dgUDj84BWtW6EZzee8BkgKnjDhh.jpg",
+      "description": "Quand un voleur légendaire jette son dévolu sur La Joconde, il recrute deux jeunes inconnus pour l'aider (Chiara, une experte italienne du cybercrime et Jay, un spécialiste français des explosifs) avant de leur révéler qu'il est leur père. Au milieu de retrouvailles chaotiques, cette nouvelle famille devra apprendre à collaborer et éviter de s'entretuer si elle veut réussir le casse du siècle.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1381078",
+      "type": "movie",
+      "name": "L'Amour de ta vie",
+      "poster": "https://image.tmdb.org/t/p/w500/1zrnRcJ8JOTXYp0Qizad1rnuIA0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mqYqKvrKTgMvK50VtEDZlYFsnHz.jpg",
+      "description": "Maya dont la rencontre fortuite avec Charlie donne naissance à une histoire d'amour passionnée et à la vie dont elle n'osait pas rêver. Lorsque tout bascule, Maya doit déterminer qui elle est, ce qu'elle veut et comment réapprendre à aimer.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1437195",
       "type": "movie",
       "name": "Diffusion en direct de l'enfer",
@@ -110,7 +128,7 @@
       "type": "movie",
       "name": "Pinocchio : Déchaîné",
       "poster": "https://image.tmdb.org/t/p/w500/oru4SubtHlaGXEv9xtMPELYkGZf.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xenXu6gt6iTJBNH80CNr7kg5q2z.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7RsPdXLDNugDIlwXPVeeprNfMx.jpg",
       "description": "Geppetto présente à son petit-fils, James, une mystérieuse marionnette dotée d'une âme nommée Pinocchio. Ignorant la nature naïve et imprévisible de celle-ci, James fait découvrir le monde extérieur à son nouvel ami. Sous la guidance de Cricket, Pinocchio se lance alors dans une quête sanglante pour éradiquer tout ce qu'il considère comme mauvais et devenir un véritable petit garçon.",
       "releaseInfo": "2026"
     },
@@ -156,23 +174,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/zuiZDJcjlNWB6EcXHer06u9BQke.jpg",
       "background": "https://image.tmdb.org/t/p/w780/7ImZeJiXNcZYKruKEqMzyW3CwVL.jpg",
       "description": "« Une famille de bâtards » suit Mohamed Akrour, petit gars sans histoires qui hérite de l'affaire familiale et découvre qu'elle abrite machines à sous illégales et réseau de prostitution. Pris entre rivalités explosives, dettes menaçantes et appât du gain, il rencontre surtout demi-frère et sœur qu'il devra protéger… tout en plongeant dans un monde criminel et brutal.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1718300",
-      "type": "movie",
-      "name": "Dodo e la principessa",
-      "poster": "https://image.tmdb.org/t/p/w500/bX4y33NtLfE93khcvRKAqDNVWnW.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zMUpz5hwrkCy5jQWQZpuyOcUZJh.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1556616",
-      "type": "movie",
-      "name": "La Maison de Vacances",
-      "poster": "https://image.tmdb.org/t/p/w500/qJGA1BJIK4j0KKxKByyxqHaAfq4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5fA3ko0ZHkysz1aNO78jRsey4k4.jpg",
-      "description": "Selin, 21 ans, remonte à l'été 96 et devient la meilleure amie de sa mère adolescente. Tandis qu'elle l'aide à choisir son père dans un triangle amoureux, elle découvre que le fait que sa mère ait renoncé à ses rêves a façonné ses relations dans le présent. Selin assiste à un amour de vacances passionné et pousse sa mère à poursuivre ses aspirations. Nostalgique, romantique et irrésistible.",
       "releaseInfo": "2026"
     }
   ]

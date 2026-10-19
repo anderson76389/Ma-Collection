@@ -14,7 +14,7 @@
       "type": "series",
       "name": "New York Police Judiciaire",
       "poster": "https://image.tmdb.org/t/p/w500/7ZFSCSIuW8wzXJL1JezrKcLzV4x.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tc7canPSAn2X14hYi6Rl3gZm1o4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hrfP9BQ4mOMZOa8nHbFJLSDHBLz.jpg",
       "description": "À New York, détectives et assistants du procureur tentent de résoudre les affaires les plus délicates. Les uns sur le terrain, les autres devant les tribunaux.",
       "releaseInfo": "1990"
     },
@@ -26,15 +26,6 @@
       "background": "https://image.tmdb.org/t/p/w780/c1aBrG5s5xFa6Tbnihu2Hhj4t2q.jpg",
       "description": "L'agent spécial Leroy Jethro Gibbs, de la Section criminelle de la Gendarmerie maritime, dirige un groupe de personnes aux personnalités colorées qui enquête sur les crimes. Ceux-ci vont du meurtre et de l'espionnage au terrorisme, et sont reliés de manière assurée au personnel du corps de la Marine. L'équipe est composée d'Anthony DiNozzo, un ex-inspecteur plein d'esprit spécialisé en homicides, d'Abby Sciuto, l'excentrique spécialiste d'enquête en technique de laboratoire, de Timothy McGee, brillant lorsqu'inquiet, et de Ziva David, ex-officier de liaison du Mossad. Le Dr Donald \"Ducky\" Mallard contribue à la résolution de cas grâce à sa grande expérience dans le domaine de la médecine légale.",
       "releaseInfo": "2003"
-    },
-    {
-      "id": "tmdb:288673",
-      "type": "series",
-      "name": "Carrie",
-      "poster": "https://image.tmdb.org/t/p/w500/dkDeQSeJGSfEBFavomS3LUci2VO.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9yCJtipMeDe8uAdSJKvw8BnYfRz.jpg",
-      "description": "Après la mort soudaine et prématurée de son père, Carrie est propulsée dans l'univers impitoyable d'un lycée public et doit faire face à un scandale de harcèlement viral qui secoue sa communauté, à la pression incessante et à la cruauté des réseaux sociaux tandis qu'en parallèle, un mystérieux pouvoir de télékinésie s'éveille en elle.",
-      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:44006",
@@ -62,6 +53,15 @@
       "background": "https://image.tmdb.org/t/p/w780/fFgVoJuSBewZWlzgaoUWGm8MvD4.jpg",
       "description": "Le quotidien mouvementé du personnel d'un des plus importants hôpitaux de Chicago. Leur mission : sauver des vies, en se confrontant aux cas médicaux les plus critiques. Seuls leur courage et leur compassion leur permet au quotidien de faire face aux challenges parfois insurmontables de la médecine, ainsi qu'aux dilemmes éthiques propres à leur noble discipline.",
       "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:298550",
+      "type": "series",
+      "name": "Friends Sex and Games",
+      "poster": "https://image.tmdb.org/t/p/w500/zijeb3WqqTIYJm3mmp1sb0uNGUj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/geSUajSeWBu14vLk0NyuR1OnrX7.jpg",
+      "description": "Quatre couples. Un jeu sexy. Le premier amour d'Anna est de retour. Lors d'une soirée de retrouvailles, le groupe ose le jeu des clés : qui en pioche une passe la nuit avec son propriétaire. Sans conditions. Sans sentiments. Confiance, jalousie, désirs inavoués, moments hilarants et sexe torride. Le jeu va au-delà de ce que chacun imaginait, avec cette question : qu'est-ce qui me rend heureux ?",
+      "releaseInfo": "2026"
     }
   ]
 }

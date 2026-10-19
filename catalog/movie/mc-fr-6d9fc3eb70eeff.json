@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1755291",
+      "type": "movie",
+      "name": "NAZA",
+      "poster": "https://image.tmdb.org/t/p/w500/yJ0FMDiMfdVHWCRqxt9WzAJ0C5S.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7EzH0dlEN9OZWWBXBWwT5PbMNUz.jpg",
+      "description": "Filmé la nuit depuis les toits de Tel Aviv, ce documentaire se centre sur les victimes civiles des opérations militaires israéliennes à Gaza.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1308767",
       "type": "movie",
       "name": "Young Washington",

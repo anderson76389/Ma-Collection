@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1416",
+      "type": "series",
+      "name": "Grey's Anatomy",
+      "poster": "https://image.tmdb.org/t/p/w500/meLc14IucQOzlqRn3ERCWjt5BEC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A4NwkQXTXElE5iAsne5RpvS8R2Z.jpg",
+      "description": "Meredith Grey, fille d'un chirurgien très réputé, commence son internat de première année en médecine chirurgicale dans un hôpital de Seattle. La jeune femme s'efforce de maintenir de bonnes relations avec ses camarades internes, mais dans ce métier difficile la compétition fait rage.",
+      "releaseInfo": "2005"
+    },
+    {
       "id": "tmdb:2221",
       "type": "series",
       "name": "La Vue",
@@ -8,6 +17,15 @@
       "background": "https://image.tmdb.org/t/p/w780/tHZsAFdtNsKNxE58jopl9Eh4f7a.jpg",
       "description": "Cinq femmes avec des perspectives très différentes sur la politique, Hollywood et ses stars, et l'actualité discutent de ces sujets et d'autres sujets de division du jour.",
       "releaseInfo": "1997"
+    },
+    {
+      "id": "tmdb:75219",
+      "type": "series",
+      "name": "9-1-1",
+      "poster": "https://image.tmdb.org/t/p/w500/6njUqsd3By2mJsdZm1P0moPLzs3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5QJtEzMR7NxRxBBEdB7JfM1l7Oj.jpg",
+      "description": "Du service d'appels d'urgences 911 aux pompiers, secouristes ou policiers, tous ces intervenants sont constamment sous pression, confrontés quotidiennement à des situations stupéfiantes, effrayantes, et parfois même choquantes. S'ils ont pour mission de voler au secours des personnes en danger, ces héros de l'ombre doivent aussi trouver le temps de résoudre les problèmes de leurs propres vies…",
+      "releaseInfo": "2018"
     },
     {
       "id": "tmdb:1489",
@@ -31,8 +49,8 @@
       "id": "tmdb:125935",
       "type": "series",
       "name": "Abbott Elementary",
-      "poster": "https://image.tmdb.org/t/p/w500/nBe1e3JJEZ6veGrVXNF0fRoLu56.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/asDINJT3b7tEa76uWI1rZ5TWdJF.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/zk2aNVIHoapdWKOcaYp7PhX9SxD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/s3owzvmihtDrunVxB2DyGjn9iJt.jpg",
       "description": "Dans cette comédie en milieu de travail, un groupe d'enseignants dévoués et passionnés - et un directeur légèrement sourd - sont réunis dans une école publique de Philadelphie où, malgré les obstacles qui leur sont opposés, ils sont déterminés à aider leurs élèves à réussir dans la vie. Bien que ces incroyables fonctionnaires soient en infériorité numérique et sous-financés, ils aiment ce qu'ils font - même s'ils n'aiment pas l'attitude moins que stellaire du district scolaire envers l'éducation des enfants.",
       "releaseInfo": "2021"
     },
@@ -81,6 +99,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:284838",
+      "type": "series",
+      "name": "9-1-1: Nashville",
+      "poster": "https://image.tmdb.org/t/p/w500/63JFLM8L8H1Jlp62kZGPvSKc50j.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ubqZEVCDp86myrZwJpyNwocLrce.jpg",
+      "description": "A Nashville, capitale de l'État du Tennessee et coeur de la musique country, pompiers, secouristes et policiers unissent leurs forces pour gérer des urgences parfois spectaculaires, tout en affrontant les défis de leur propre vie.",
+      "releaseInfo": "2025"
+    },
+    {
       "id": "tmdb:114656",
       "type": "series",
       "name": "Celebrity Wheel of Fortune",
@@ -95,6 +122,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/s0iphaXxqU2chmBgZ0GpD9As4BN.jpg",
       "background": "https://image.tmdb.org/t/p/w780/3m3xHErJXZTRmUwwt4kaQNzzmnP.jpg",
       "releaseInfo": "2020"
+    },
+    {
+      "id": "tmdb:23377",
+      "type": "series",
+      "name": "Victoria's Secret Fashion Show",
+      "poster": "https://image.tmdb.org/t/p/w500/uVFGz2hi7bneb39zSqInxbVvMKO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/99vIBuyFDPOi0cQQQjM4X9qBCzF.jpg",
+      "description": "Le défilé de mode annuel de Victoria Secret, une marque de lingerie et vêtements de nuit. Victoria Secret utilise le spectacle pour promouvoir et commercialiser ses produits dans des contextes de grande envergure. Le show présente des top modèles dont notamment les \"Anges\" actuelles de Victoria, comme Adriana Lima, Alessandra Ambrosio, Miranda Kerr, Doutzen Kroes, Behati Prinsloo, Candice Swanepoel, Chanel Iman, Erin Heatherton, Lily Aldridge et Lindsay Ellingson.",
+      "releaseInfo": "1995"
     }
   ]
 }

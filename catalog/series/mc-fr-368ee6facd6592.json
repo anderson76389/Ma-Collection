@@ -33,36 +33,12 @@
       "releaseInfo": "1989"
     },
     {
-      "id": "tmdb:6292",
-      "type": "series",
-      "name": "Foreign Correspondent",
-      "poster": "https://image.tmdb.org/t/p/w500/fIIwZavSgufEmHuW0tSKDgQY9fe.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xQCSLIlxfaipP0jICeD4WJc1WT6.jpg",
-      "releaseInfo": "1992"
-    },
-    {
       "id": "tmdb:75487",
       "type": "series",
       "name": "Hard Quiz",
       "poster": "https://image.tmdb.org/t/p/w500/hvqmy04NqaWE9Bebv1KMAfNfStx.jpg",
       "background": "https://image.tmdb.org/t/p/w780/4K6KJA5U7gcw68YUylaIHXzIpvv.jpg",
       "releaseInfo": "2016"
-    },
-    {
-      "id": "tmdb:65405",
-      "type": "series",
-      "name": "Back Roads",
-      "poster": "https://image.tmdb.org/t/p/w500/qGitOpZpYlFDn8VxZpec2R1R9hQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/siGCneTiQhh79Tj1jAC5RhhbVF1.jpg",
-      "description": "Heather Ewart passe des rapports entre les couloirs politiques du pouvoir. En chemin, elle se rend dans des villes et des régions isolées pour découvrir certaines des communautés les plus remarquables et les plus inspirantes du pays...",
-      "releaseInfo": "2015"
-    },
-    {
-      "id": "tmdb:88439",
-      "type": "series",
-      "name": "Planet America",
-      "poster": "https://image.tmdb.org/t/p/w500/bfjHMhpSpdmJW5txgQtfyLhbVpI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tTZqXO6b30r9JKmzjpENVbWdsxS.jpg"
     },
     {
       "id": "tmdb:304887",
@@ -73,6 +49,13 @@
       "releaseInfo": "2025"
     },
     {
+      "id": "tmdb:88439",
+      "type": "series",
+      "name": "Planet America",
+      "poster": "https://image.tmdb.org/t/p/w500/bfjHMhpSpdmJW5txgQtfyLhbVpI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tTZqXO6b30r9JKmzjpENVbWdsxS.jpg"
+    },
+    {
       "id": "tmdb:337398",
       "type": "series",
       "name": "The State of Man",
@@ -81,12 +64,12 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:210308",
+      "id": "tmdb:337730",
       "type": "series",
-      "name": "Take 5 with Zan Rowe",
-      "poster": "https://image.tmdb.org/t/p/w500/27mOcdkb2hRQDeQsJsvxMk0IoIe.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ilrb8j7dDF0J2LVRyXXnYDGBPNN.jpg",
-      "releaseInfo": "2022"
+      "name": "Recipe of the Year",
+      "poster": "https://image.tmdb.org/t/p/w500/e02kCRTSuT479nh1DDdBFlc74un.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/87XSfqP0wNATfDCpcV30CqDdygK.jpg",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:336872",
@@ -94,14 +77,6 @@
       "name": "Class Clowns",
       "poster": "https://image.tmdb.org/t/p/w500/1k2jTpI7SdlrGuP4Mb3q07WBxoL.jpg",
       "background": "https://image.tmdb.org/t/p/w780/kKX4dCJ4pCcodHHd9o805QTa3lv.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:337730",
-      "type": "series",
-      "name": "Recipe of the Year",
-      "poster": "https://image.tmdb.org/t/p/w500/e02kCRTSuT479nh1DDdBFlc74un.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/87XSfqP0wNATfDCpcV30CqDdygK.jpg",
       "releaseInfo": "2026"
     }
   ]

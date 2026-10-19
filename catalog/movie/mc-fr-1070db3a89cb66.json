@@ -19,6 +19,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1358036",
+      "type": "movie",
+      "name": "صقر وكناريا",
+      "poster": "https://image.tmdb.org/t/p/w500/2V2CvncmHamx9cvYnXSWFzY1kqb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qegYXWKjk9v74EYrHsjU5TpeHQz.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1337438",
       "type": "movie",
       "name": "Les Silences de Riyad",
@@ -160,14 +168,6 @@
       "name": "ولنا في الخيال... حب؟",
       "poster": "https://image.tmdb.org/t/p/w500/q521ctl7fuG6fVitQ4DVCNYRNRk.jpg",
       "background": "https://image.tmdb.org/t/p/w780/dirEKQoXSWBaG4XCYPYzBppcqHe.jpg",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1421671",
-      "type": "movie",
-      "name": "السلم والثعبان ٢: لعب عيال",
-      "poster": "https://image.tmdb.org/t/p/w500/f93YifnOBJxKX3ViMDbcJZlFgv6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6vHTjGlDbAcr3tLyHPZqGJwl4Nc.jpg",
       "releaseInfo": "2025"
     }
   ]

@@ -1,0 +1,112 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:617126",
+      "type": "movie",
+      "name": "Les 4 Fantastiques : Premiers Pas",
+      "poster": "https://image.tmdb.org/t/p/w500/rNc4KARs6fVa4axzvuv3NfUiNy1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/s94NjfKkcSczZ1FembwmQZwsuwY.jpg",
+      "description": "Dans le contexte vibrant d’un monde rétro-futuriste inspiré des années 60, le film présente la première famille de Marvel : Reed Richards/Mister Fantastic, Sue Storm/La Femme Invisible, Johnny Storm/La Torche Humaine et Ben Grimm/La Chose  alors qu’ils font face à leur défi le plus redoutable à ce jour. Contraints d’équilibrer leur rôle de héros avec la force de leur lien familial, ils doivent défendre la Terre contre un dieu spatial vorace appelé Galactus et son énigmatique héraut, le Surfeur d’Argent. Et comme si le plan de Galactus de dévorer la planète entière et tous ses habitants n’était pas déjà assez mauvais, cela devient soudainement très personnel.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:285",
+      "type": "movie",
+      "name": "Pirates des Caraïbes : Jusqu'au bout du monde",
+      "poster": "https://image.tmdb.org/t/p/w500/3JjceHUzbtgJ4fJs6x2ow4ckH89.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1jHxkVXMI5s3vRiyiZooUy1shB5.jpg",
+      "description": "L’âge d’or de la piraterie touche à sa fin. Même le terrifiant Vaisseau Fantôme et son capitaine maudit servent Lord Cutler Beckett. Il écume désormais les sept mers, massacrant sans pitié les pirates de tous bords. Une seule chance de résister à Beckett et à son armada : Rassembler les Neuf Seigneurs de la Cour des Frères.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tmdb:8355",
+      "type": "movie",
+      "name": "L'Âge de glace 3 : Le Temps des dinosaures",
+      "poster": "https://image.tmdb.org/t/p/w500/i7UY2xGCiKBe5qRv7dEYjPZ9Ps1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6Ybbh8TrO8bkEfQXDedekLwVDfA.jpg",
+      "description": "Une maladresse de Sid le paresseux va propulser les héros de l’Âge de Glace au cœur d’un monde peuplé de dinosaures ! Ils vont devoir faire face à des habitants hostiles et farfelus, en même temps qu’à leurs propres problèmes : Manny, hyper stressé, et Ellie attendent leur premier enfant mammouth ; Diego, le tigre aux dents de sabre, redoute d’avoir perdu ses instincts de prédateur ; Sid est convaincu d’avoir enfin réussi à construire sa propre famille en kidnappant trois œufs… de Tyrannosaure.",
+      "releaseInfo": "2009"
+    },
+    {
+      "id": "tmdb:57800",
+      "type": "movie",
+      "name": "L'Âge de glace 4 : La Dérive des continents",
+      "poster": "https://image.tmdb.org/t/p/w500/3M3ueeQA5rj0mHOOHnMoQatiZJh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/scLQDnf1m2AqEEQSjAEdMRD6K9I.jpg",
+      "description": "Manny, Diego et Sid se lancent dans leur plus grand périple après qu’un cataclysme a donné naissance à un continent en pleine dérive. Séparé de leurs amis, ils utilisent un iceberg comme navire de fortune et s’embarquent pour une quête maritime. S’ils veulent devenir des héros, Manny et sa bande vont devoir surmonter l’impossible, tout en rencontrant des créatures aquatiques, en explorant un nouveau monde et en combattant des pirates impitoyables. De son côté, Scrat a toujours affaire à son maudit gland et se retrouve catapulté dans un endroit où aucun écureuil préhistorique n’est jamais allé.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:862",
+      "type": "movie",
+      "name": "Toy Story",
+      "poster": "https://image.tmdb.org/t/p/w500/4cWLRhub0yY9VJpdw0nqoTPYyiN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3Rfvhy1Nl6sSGJwyjb0QiZzZYlB.jpg",
+      "description": "Dans un monde où les jouets vivent leur vie quand les humains ne sont pas présents, Toy Story emmène les spectateurs dans un voyage fantastique vu principalement par les yeux de deux rivaux : Woody, un cow-boy, et Buzz l'Éclair, un ranger de l’espace. Ce duo va devoir apprendre à mettre ses différences de côté et s'allier, lorsqu’il sera séparé de son propriétaire Andy.",
+      "releaseInfo": "1995"
+    },
+    {
+      "id": "tmdb:269149",
+      "type": "movie",
+      "name": "Zootopie",
+      "poster": "https://image.tmdb.org/t/p/w500/5Fy3e9nRhPYweqnrzFUCHmJ4Grc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9tOkjBEiiGcaClgJFtwocStZvIT.jpg",
+      "description": "Avec ses quartiers comme la très chic Place du Sahara ou le glacial Toundraville, la métropole Zootopie, où ne vivent que des mammifères, est un melting pot où toutes les espèces cohabitent. Qu’on soit un énorme éléphant ou une minuscule musaraigne, tout le monde y a sa place. Mais quand l’optimiste agent Judy Hopps arrive en ville, elle découvre qu’être le premier lapin dans la police, au milieu d'animaux costauds, n’est pas si simple. Pour faire ses preuves, elle décide de résoudre une enquête, même si pour cela, elle doit faire équipe avec Nick Wilde, un renard beau parleur et roi de l’arnaque. Certaines séquences ou certains motifs lumineux clignotants sont susceptibles d'affecter les téléspectateurs photosensibles.",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:284054",
+      "type": "movie",
+      "name": "Black Panther",
+      "poster": "https://image.tmdb.org/t/p/w500/g94IcdzPswTYl1ISdgn2EwvaZtt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/b6ZJZHUdMEFECvGiDpJjlfUWela.jpg",
+      "description": "Après les événements qui se sont déroulés dans « Captain America : Civil War », T’Challa revient chez lui prendre sa place sur le trône du Wakanda, une nation africaine technologiquement très avancée. Mais lorsqu’un vieil ennemi resurgit, le courage de T’Challa est mis à rude épreuve, aussi bien en tant que souverain qu’en tant que Black Panther. Il se retrouve entraîné dans un conflit qui menace non seulement le destin du Wakanda, mais celui du monde entier…",
+      "releaseInfo": "2018"
+    },
+    {
+      "id": "tmdb:580489",
+      "type": "movie",
+      "name": "Venom : Let There Be Carnage",
+      "poster": "https://image.tmdb.org/t/p/w500/9j21DXo7Gwtfxj81iC20AbOqumt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
+      "description": "Environ un an après avoir affronté Riot, Eddie Brock « cohabite » toujours avec le symbiote Venom. Alors qu’il tente de relancer sa carrière de journaliste d'investigation, Eddie se rend en prison pour interviewer le tueur en série Cletus Kasady. Il ignore que ce dernier est lui aussi l'hôte d'un symbiote, Carnage.",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:318846",
+      "type": "movie",
+      "name": "The Big Short : Le Casse du Siècle",
+      "poster": "https://image.tmdb.org/t/p/w500/xRZnq4CDeiZpkMLn6QQbgDOvJbg.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iof28QKa6bKFYCXSexuITxdKBvi.jpg",
+      "description": "Wall Street. 2005.  Profitant de l’aveuglement généralisé des grosses banques, des médias et du gouvernement, quatre outsiders anticipent l’explosion de la bulle financière et mettent au point… le casse du siècle! Michael Burry, Steve Eisman, Greg Lippmann et Ben Hockett: des personnages visionnaires et hors du commun qui vont parier contre les banques… et tenter de rafler la mise !",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:58",
+      "type": "movie",
+      "name": "Pirates des Caraïbes : Le Secret du coffre maudit",
+      "poster": "https://image.tmdb.org/t/p/w500/bzOlMYEfNmgCDnFHj3zL3RBqwau.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vr6n6ZFUZvedvIlhfYcbCWcaKyW.jpg",
+      "description": "Le pirate Jack Sparrow est confronté à son passé. Treize ans auparavant, il signait un pacte avec Davey Jones, le maléfique maître des sept mers. En échange de son âme, ce dernier lui promettait le commandement du mythique Black Pearl… Aujourd’hui, Jones vient donc récupérer sa dette.",
+      "releaseInfo": "2006"
+    },
+    {
+      "id": "tmdb:105864",
+      "type": "movie",
+      "name": "Le Voyage d'Arlo",
+      "poster": "https://image.tmdb.org/t/p/w500/vvYCGP9ePgSlNXy4lyJSBMClKbA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cF3H9pyUF6dsvqlYUcH0TyBAMTG.jpg",
+      "description": "Dans le voyage épique de Disney•Pixar chez les dinosaures, un apatosaure nommé Arlo est emporté par une rivière torrentielle et se retrouve à une centaine de kilomètres de chez lui. Tandis qu’il parcourt un paysage hostile et mystérieux, Arlo se lie d’amitié avec un humain et gagne la force de confronter ses peurs.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:566525",
+      "type": "movie",
+      "name": "Shang-Chi et la Légende des Dix Anneaux",
+      "poster": "https://image.tmdb.org/t/p/w500/g54eUtuCTAOQaNlVpr7Kpr7sVoH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r7K6Xt0RX4Mw0cAbZVw5cyb1Tux.jpg",
+      "description": "Shang-Chi va devoir affronter un passé qu’il pensait avoir laissé derrière lui lorsqu’il est pris dans la toile de la mystérieuse organisation des dix anneaux.",
+      "releaseInfo": "2021"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:80666",
+      "type": "series",
+      "name": "Hollywood Weapons",
+      "poster": "https://image.tmdb.org/t/p/w500/8LHBuYB67h4ox7mOxMpRNPZhDr7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2wgPeeAN7npoTEW9mCosXOVcIAY.jpg",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:92398",
+      "type": "series",
+      "name": "A la recherche de l'art perdu",
+      "poster": "https://image.tmdb.org/t/p/w500/8MfkbeXknpivez9nSPcuGax7NmL.jpg",
+      "description": "En mars 2012, à Munich, la police découvre plus d'un millier de toiles de maître, trésor de guerre nazi, chez Cornelius Gurrlit, collectionneur allemand.",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tmdb:154899",
+      "type": "series",
+      "name": "Enfer en Arabie",
+      "poster": "https://image.tmdb.org/t/p/w500/5DsHJyABjQSTO1BADWliq6oV7z8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2yGluowLCqWLV09YHgAftE0yged.jpg",
+      "description": "Le paysage aride et désolé de la péninsule arabique offre un cadre saisissant à la vie dans ce désert impitoyable. L'eau y est rare et la mort due à une chaleur extrême est fréquente ; pourtant, la nature continue d'y prospérer. Partez à la rencontre de certaines des créatures les plus emblématiques du désert et découvrez les manières uniques dont elles se sont adaptées aux conditions rigoureuses de leur environnement.",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:123304",
+      "type": "series",
+      "name": "I, Caesar – The Rise and Fall of the Roman Empire",
+      "poster": "https://image.tmdb.org/t/p/w500/1Zeay4kEOEKyVSf8wfsswe5ULQP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/v8qlcxdGqj8WfqSb7dbwJ5aVFTM.jpg",
+      "releaseInfo": "1997"
+    },
+    {
+      "id": "tmdb:75917",
+      "type": "series",
+      "name": "Modern Dinosaurs",
+      "poster": "https://image.tmdb.org/t/p/w500/b75ZvG0RuXsRZb4GJBSYCgbItAY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ks9beE1XsNOqoiQZ9Ip7FxWxaTf.jpg",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:87760",
+      "type": "series",
+      "name": "Immortal Egypt with Joann Fletcher",
+      "poster": "https://image.tmdb.org/t/p/w500/oDj2Owq8LjhXaCQuqM0cpC9uHJU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6gOXyhzA2tKOQpyCEnHFR7EdGx8.jpg",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:222966",
+      "type": "series",
+      "name": "Jim Al-Khalili's Guide to Life, the Universe and Everything",
+      "poster": "https://image.tmdb.org/t/p/w500/ee5I2HKR4GY3HIbCwGhBgAGU0so.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/94UY62DuxJa5FFHeG1EZNsMaFWH.jpg",
+      "releaseInfo": "2021"
+    }
+  ]
+}

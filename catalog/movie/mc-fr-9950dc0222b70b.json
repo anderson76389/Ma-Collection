@@ -143,15 +143,6 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:1233575",
-      "type": "movie",
-      "name": "The Insider",
-      "poster": "https://image.tmdb.org/t/p/w500/cMy98uNJbNmNooDdYJlzqFJ9KkX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gxO51FVgADhYGGnnRPIlutVqb30.jpg",
-      "description": "L'histoire d’un couple d’agents secrets, George Woodhouse et sa femme Kathryn. Lorsque Kathryn est soupçonnée de trahison envers la nation, George doit faire face à un dilemme déchirant : protéger son mariage ou défendre son pays.",
-      "releaseInfo": "2025"
-    },
-    {
       "id": "tmdb:1078812",
       "type": "movie",
       "name": "Lifeline",
@@ -176,6 +167,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/pUX1bc1YPGUcu1RQoCfmVrQvYdE.jpg",
       "background": "https://image.tmdb.org/t/p/w780/n8Vh6cdEvn8XtnmoEeqzomv6SYJ.jpg",
       "description": "M. K, un magicien itinérant, se retrouve dans un cauchemar kafkaïen lorsqu'il ne trouve pas la sortie de l'hôtel dans lequel il a dormi. Ses tentatives pour sortir ne font que l'entraîner plus profondément, l'emmêlant encore plus avec l'hôtel et ses curieux habitants.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:850439",
+      "type": "movie",
+      "name": "The Damned",
+      "poster": "https://image.tmdb.org/t/p/w500/fAXDQny8kEquc1BImiQHhYMGSsW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zGT6zikFjC5wRROXbPIipKahZn8.jpg",
+      "description": "Au 19ème siècle, un village de pêcheurs islandais tente tant bien que mal de survivre à un hiver extrêmement rigoureux. Aussi, lorsqu’un navire inconnu qui semble avoir traversé l’enfer coule au large des côtes, la décision d’aller le secourir ou non divise les habitants. D’où vient ce navire ? Qui sont ses passagers ? Que transporte-t-il ? Mais surtout, que lui est-il arrivé ?",
       "releaseInfo": "2025"
     }
   ]

@@ -30,10 +30,27 @@
     {
       "id": "tmdb:1401106",
       "type": "movie",
-      "name": "Kurtuluş",
+      "name": "Salvation",
       "poster": "https://image.tmdb.org/t/p/w500/mrJNYPnCLOcvOlMUnSdWcQ4Vz8i.jpg",
       "background": "https://image.tmdb.org/t/p/w780/9LXbwBaFz4lvhLrIc1uxoSvp8n9.jpg",
       "description": "Deux villages turcs, l’un à flanc de montagne, l’autre dans la plaine. Quand les habitants du bas, exilés, décident de revenir sur leurs terres, des conflits ancestraux ressurgissent avec ceux du haut. Progressivement, croyances, paranoïa et luttes de pouvoir s’exacerbent, mettant en péril la fragile cohabitation des deux communautés.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1315657",
+      "type": "movie",
+      "name": "Yellow Letters",
+      "poster": "https://image.tmdb.org/t/p/w500/39XGBgqfBCTCWNiUD1TQDkxGRtk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jF0cgfoBkmJyknP2nii2NdhChWs.jpg",
+      "description": "Professeur à la faculté d’Ankara, Aziz reçoit la « lettre jaune » qui lui signifie arbitrairement sa révocation. Quand sa femme Derya, célèbre comédienne au théâtre national, la reçoit à son tour, c’est le coup de grâce pour le couple. L’un et l’autre, condamnés pour leurs idées, sont obligés de se réfugier à Istanbul chez la mère d’Aziz. Le compromis entre cette précarité nouvelle et leur engagement politique va mettre leur mariage à l’épreuve.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1408493",
+      "type": "movie",
+      "name": "Cam Sehpa",
+      "poster": "https://image.tmdb.org/t/p/w500/p3iMK5XL0GURREEAxXjBlYWveXn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nUMxXcgdQOtphcObnIbokw7dRZU.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -157,22 +174,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/wu80BCy95v9Z5yfb9LHZz9eaibi.jpg",
       "background": "https://image.tmdb.org/t/p/w780/o2ix0JA6LL5VzMkh3zXkECePrhM.jpg",
       "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1285660",
-      "type": "movie",
-      "name": "Şımarık",
-      "poster": "https://image.tmdb.org/t/p/w500/CF9or2174WFbBbXb5SvREau02H.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/f0vnkxDdPoBiM66WJVrwBshTT3y.jpg",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:1320279",
-      "type": "movie",
-      "name": "Hemme’nin Öldüğü Günlerden Biri",
-      "poster": "https://image.tmdb.org/t/p/w500/91aCzYUPoy8HEpeSD0erw6whgLm.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yZ3HXKFIK4dZ490oza0swR0tgtB.jpg",
-      "releaseInfo": "2024"
     }
   ]
 }

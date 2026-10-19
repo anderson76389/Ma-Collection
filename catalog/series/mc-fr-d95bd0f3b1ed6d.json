@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:213562",
+      "type": "series",
+      "name": "Crystal Lake",
+      "poster": "https://image.tmdb.org/t/p/w500/v1XEjgqIlHvbjbEG6YSZVGTVUg0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wxiBsKFEOOFK8eQStWOykNORlXY.jpg",
+      "description": "Afin de pouvoir élever son jeune fils Jason, atteint d'une paralysie faciale périphérique depuis sa naissance, Pamela Voorhees abandonne sa carrière de chanteuse et emménage dans la petite ville de Crystal Lake où elle commence à travailler comme cuisinière dans le camp de vacances local.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:213375",
       "type": "series",
       "name": "VisionQuest",
@@ -57,7 +66,7 @@
       "type": "series",
       "name": "WAR",
       "poster": "https://image.tmdb.org/t/p/w500/pTHgCWSuv8m5bBFsL1EXu0zftg7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nLCHzeiUEupR8LDarMgCcPUuF77.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/muPKymUvvBqjLCyGSacxKgjrhxN.jpg",
       "description": "Cathcarts & Sons et Taylor & Byrne s’affrontent dans ce qui s’annonce comme le divorce du siècle : celui du magnat de la tech Morgan Henderson et de la superstar du cinéma Carla Duval. Une affaire retentissante qui pousse les deux cabinets à franchir toutes les limites pour remporter la victoire",
       "releaseInfo": "2026"
     },
@@ -166,15 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/q3oa6rW9ZU9a6IcpJRynzzLDGBH.jpg",
       "background": "https://image.tmdb.org/t/p/w780/t708JUdkHAoZF83f4RjqcIGrJ99.jpg",
       "description": "Dans les années 1970, un preneur d'otages exige d'être interviewé dans l'émission d'actualité de Fred Heckman, journaliste radio très apprécié.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:299939",
-      "type": "series",
-      "name": "Monstre : L'Histoire de Lizzie Borden",
-      "poster": "https://image.tmdb.org/t/p/w500/ruw68QldiWzOjUdKX9hUFT1pjv.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gaew60NXUxok3Vmls7gkAT7lYW0.jpg",
-      "description": "Prisonnière d'une cruelle famille victorienne, Lizzie Borden massacre ses parents à la hache dans un crime sanglant qui choque toute une nation.",
       "releaseInfo": "2026"
     }
   ]

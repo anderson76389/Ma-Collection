@@ -1,0 +1,21 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:39283",
+      "type": "series",
+      "name": "Les Real Housewives de Dallas",
+      "poster": "https://image.tmdb.org/t/p/w500/6liq1qoLQu4siW3kVisSRAfkxiu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2LEWLQ61ERXRffIhFrWfOxFFyil.jpg",
+      "description": "Bienvenue à Dallas ! Loin de chômer, les femmes au foyer les plus glamours du Texas ont des journées aussi remplies que leurs comptes en banque… Entre soirées, amitiés, vie de famille mouvementée et scandales en tout genre, pour les Real Housewives à l’ego sans limites et au caractère bien trempé, tous les coups sont permis pour briller et grimper les échelons de la société !",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:38937",
+      "type": "series",
+      "name": "Khloé & Lamar",
+      "poster": "https://image.tmdb.org/t/p/w500/gxeRqhJGYJazRXHQpg4fI0xafMJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/o6CrH1r3ZoBZ7xvbePcjl9Ue97D.jpg",
+      "releaseInfo": "2011"
+    }
+  ]
+}

@@ -70,6 +70,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:283319",
+      "type": "series",
+      "name": "Marble Hall Murders",
+      "poster": "https://image.tmdb.org/t/p/w500/3WfgRJBIaOTsiu2bQO23xWb08ro.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8Jdrk3wwMCs1RN7GimMZQrBdgHh.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:309798",
       "type": "series",
       "name": "Ma brillante carrière",
@@ -165,15 +173,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/2BuGd8rDimZgJGkU0Gn34gjAYmY.jpg",
       "background": "https://image.tmdb.org/t/p/w780/maOzDEEudq82nN9lRTumrGo9MvJ.jpg",
       "description": "Une tempête approche pour un couple heureux d’avocats quand un tueur tristement célèbre resurgit de leur passé à sa sortie de prison.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:273240",
-      "type": "series",
-      "name": "Off Campus",
-      "poster": "https://image.tmdb.org/t/p/w500/9tyqp3lIuYyDyqQJDTGssvijIAu.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3ANXZWhhcqPAh0q6nRZ979TIwxC.jpg",
-      "description": "La romance improbable entre Hannah Wells, étudiante en musique ironique qui déteste le hockey, et Garrett Graham, centre vedette et séducteur de l'université Briar, alors qu'ils concluent un accord pour s'entraider. Mais leur accord se déroulera-t-il comme prévu ?",
       "releaseInfo": "2026"
     }
   ]

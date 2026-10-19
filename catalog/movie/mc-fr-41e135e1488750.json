@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1561726",
+      "type": "movie",
+      "name": "Masterplan",
+      "poster": "https://image.tmdb.org/t/p/w500/a13BTR3jJWr2ARoLvTC3f5gQhfw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dgUDj84BWtW6EZzee8BkgKnjDhh.jpg",
+      "description": "Quand un voleur légendaire jette son dévolu sur La Joconde, il recrute deux jeunes inconnus pour l'aider (Chiara, une experte italienne du cybercrime et Jay, un spécialiste français des explosifs) avant de leur révéler qu'il est leur père. Au milieu de retrouvailles chaotiques, cette nouvelle famille devra apprendre à collaborer et éviter de s'entretuer si elle veut réussir le casse du siècle.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1291366",
       "type": "movie",
       "name": "The Deputy",
@@ -23,7 +32,7 @@
       "type": "movie",
       "name": "One Last Shot",
       "poster": "https://image.tmdb.org/t/p/w500/3DpDxNTAOKdZsSxOMXCm1U8W9kk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8giIQcHpxgsPVP6c7aQtHl3txuh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7AArZYRp6zGtbvSbbqoHn9xFp0L.jpg",
       "description": "Jake Harris, un Navy SEAL chevronné, reprend du service lorsque le monde est menacé par Elliot Carter, l'un de ses anciens compagnons d'armes devenu terroriste. Alors que les chefs d'état-major interarmées sont retenus en otage dans un bunker nucléaire, il reste peu de temps avant que Carter ne s'empare de codes nucléaires et plonge le monde dans le chaos. Pour l'arrêter, Harris n'a d'autre choix que de conduire son équipe en territoire ennemi. Face à une armée de mercenaires impitoyables et à des pièges mortels, il va également devoir affronter les démons de son passé.",
       "releaseInfo": "2026"
     },
@@ -40,9 +49,9 @@
       "id": "tmdb:1228834",
       "type": "movie",
       "name": "The Fix",
-      "poster": "https://image.tmdb.org/t/p/w500/yopXjun3ICFfJci2ukcEzceZjUs.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yT8EkAvEkJDFeAxK7s7HlIPELRT.jpg",
-      "description": "Tucker dirige une unité d'anciens opérateurs de la CIA en disgrâce à Téhéran.",
+      "poster": "https://image.tmdb.org/t/p/w500/jlP8XDjZN89GrpM3je5Uf8Grqx8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dJTWIecL2vxsCRl5G0lRhPsfrhc.jpg",
+      "description": "Après une mission désastreuse en Afghanistan, des agents de la CIA affectés par les combats tentent de se racheter en menant une opération de sauvetage risquée au cœur de Téhéran.",
       "releaseInfo": "2026"
     },
     {
@@ -59,7 +68,7 @@
       "type": "movie",
       "name": "Onslaught",
       "poster": "https://image.tmdb.org/t/p/w500/92SC3guG88KQmZ8GQBKNIxz5OrB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/clePZhqOSzNyjfuFBpOrziLEFzb.jpg",
       "description": "Lorsqu’une escouade de supersoldats génétiquement modifiés s’évade dans le désert, une redoutable tireuse d’élite de l’armée doit livrer une guerre sans merci pour sauver sa fille.",
       "releaseInfo": "2026"
     },
@@ -167,15 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/tQti9QTf13MfzNpXguijgNh7ojE.jpg",
       "background": "https://image.tmdb.org/t/p/w780/1gLFGrxHqQebqLWpISmoFR6XWtJ.jpg",
       "description": "Un mystérieux vagabond, ancien Béret vert, arrive dans une petite ville frontalière du Sud et découvre une communauté forcée de distribuer de la drogue pour un syndicat criminel sans pitié. Et ça, il est sur le point de le changer.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1122573",
-      "type": "movie",
-      "name": "Les Spécialistes",
-      "poster": "https://image.tmdb.org/t/p/w500/sF1EGQWrUghvtD3VpqgsBACHr9u.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qcIKxhqGMIj8uujsSoSMZWr8QqU.jpg",
-      "description": "Rachel, recouvreuse de dettes de haut vol, exerce un métier dangereux. C'est pourquoi elle s'entoure des meilleurs, Sid et Bronco, pour l'accompagner et la protéger dans ses négociations. Mais même pour ces spécialistes, récupérer le milliard de dollars de leur prochain contrat pourrait être mission impossible. Sauf qu'impossible ne fait pas partie de leur vocabulaire…",
       "releaseInfo": "2026"
     }
   ]

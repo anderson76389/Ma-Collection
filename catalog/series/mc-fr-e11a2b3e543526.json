@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:213562",
+      "type": "series",
+      "name": "Crystal Lake",
+      "poster": "https://image.tmdb.org/t/p/w500/v1XEjgqIlHvbjbEG6YSZVGTVUg0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wxiBsKFEOOFK8eQStWOykNORlXY.jpg",
+      "description": "Afin de pouvoir élever son jeune fils Jason, atteint d'une paralysie faciale périphérique depuis sa naissance, Pamela Voorhees abandonne sa carrière de chanteuse et emménage dans la petite ville de Crystal Lake où elle commence à travailler comme cuisinière dans le camp de vacances local.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:213375",
       "type": "series",
       "name": "VisionQuest",
@@ -40,7 +49,7 @@
       "type": "series",
       "name": "WAR",
       "poster": "https://image.tmdb.org/t/p/w500/pTHgCWSuv8m5bBFsL1EXu0zftg7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nLCHzeiUEupR8LDarMgCcPUuF77.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/muPKymUvvBqjLCyGSacxKgjrhxN.jpg",
       "description": "Cathcarts & Sons et Taylor & Byrne s’affrontent dans ce qui s’annonce comme le divorce du siècle : celui du magnat de la tech Morgan Henderson et de la superstar du cinéma Carla Duval. Une affaire retentissante qui pousse les deux cabinets à franchir toutes les limites pour remporter la victoire",
       "releaseInfo": "2026"
     },
@@ -167,15 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/zXMkaqWinyCbkMSNwhi7htRV0e9.jpg",
       "background": "https://image.tmdb.org/t/p/w780/kgaQnDdDaPqvGN7i8LLz1aWJdjP.jpg",
       "description": "Lorsque Ian Ridley, opérateur des services d'urgence, reçoit un appel affolé d’une adolescente qu’il pense être sa fille disparue, il ne recule devant rien pour la retrouver.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:304842",
-      "type": "series",
-      "name": "The Drop : une saga Snowfall",
-      "poster": "https://image.tmdb.org/t/p/w500/s9eengN2v9ZTwPfFC0LRMoJULk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ycLQYTgWfBq53fIkws0qIQOp62g.jpg",
-      "description": "\"The Drop: A Snowfall Saga\" retrouve Wanda Bell et Leon Simmons de \"Snowfall\" en pleine réinvention dans le Los Angeles des années 90. Alors que les ravages du crack s'estompent, un nouveau jeu émerge : l'essor du rap de la côte Ouest. Convaincue que la musique peut changer la culture américaine, Wanda rassemble une bande de génies hétéroclites pour réaliser leurs rêves. Pour y arriver, elle doit naviguer entre le monde de la musique et les codes de la rue, entraînant ses cousins Lamar et James Kinsey et courtisant Artillery, un rappeur local au sang chaud déjà dans le viseur de la police. Son stage chez l'ex-dealer devenu patron de label Darryl \"DG\" Grant lui ouvre des portes, mais creuse les tensions avec Leon. Ce dernier a juré de quitter la rue pour de bon et cherche la rédemption via son cabinet d'aide juridique gratuit. Ambition, loyauté et survie s'entrechoquent : chacun est prêt à tout risquer pour bâtir un avenir.",
       "releaseInfo": "2026"
     }
   ]

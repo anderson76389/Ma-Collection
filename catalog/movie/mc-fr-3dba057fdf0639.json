@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:1359694",
+      "type": "movie",
+      "name": "A Family",
+      "poster": "https://image.tmdb.org/t/p/w500/9tfFYyA63BhNif8GKvIvtPrigdB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eBkw8P1Ti3eMpespSWwCjs5uPQ0.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1600502",
       "type": "movie",
       "name": "PAAZ",
@@ -163,15 +171,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/9iHnoiriinpmYHPqprPrnHozU1L.jpg",
       "background": "https://image.tmdb.org/t/p/w780/q42pb6zBVgge7t8o6poZu0p5IHu.jpg",
       "description": "L'histoire passionnée de la vie et de des amours de Lucia, une courtisane voilée de renom qui fait exception à la règle.",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:1075365",
-      "type": "movie",
-      "name": "Le Jour où j'ai rencontré ma mère",
-      "poster": "https://image.tmdb.org/t/p/w500/oLKS22vQjS6o0vv9w5P7KkJtbOH.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wIF94ffZuo37DZfjkYHWK5J022n.jpg",
-      "description": "Lu, onze ans, rêve de sa mère dans le lit de son foyer d’accueil. Celle-ci, dit-elle, est une célèbre cascadeuse hollywoodienne. Mais lorsqu’elle vient enfin lui rendre visite, Lu se retrouve malgré elle embarquée dans un road trip endiablé direction la Pologne. Elle se rend vite compte qu’avec Karina, sa mère, c’est tout ou rien. La réalité va rapidement les rattraper et les obliger à décider de ce qu’elles sont prêtes à faire pour rester ensemble…",
       "releaseInfo": "2024"
     }
   ]

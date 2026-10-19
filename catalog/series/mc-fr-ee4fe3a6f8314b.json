@@ -1,6 +1,24 @@
 {
   "metas": [
     {
+      "id": "tmdb:284558",
+      "type": "series",
+      "name": "Kill Jackie",
+      "poster": "https://image.tmdb.org/t/p/w500/3tjZspkqquE24iK1rc0nvnJwdEZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/twc2YYBXTjdv52TShVumB1voT3Q.jpg",
+      "description": "Jackie Price, ancienne trafiquante de cocaïne, mène depuis vingt ans une vie luxueuse mais ennuyeuse. Lorsqu'une décision anodine déclenche une série d'événements inattendus, elle apprend que les Sept Démons, une équipe d'assassins d'élite, a été engagée pour la tuer. Jackie se lance alors dans une course-poursuite effrénée à travers l'Europe pour les traquer avant qu'ils ne la trouvent.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:258165",
+      "type": "series",
+      "name": "À l'est d'Éden",
+      "poster": "https://image.tmdb.org/t/p/w500/ygwE4kbLxKApQoC26Q0DiJQnkMl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/70RZX7kNjA0Qjn6HigB1oMvFJ8R.jpg",
+      "description": "Au début du 20e siècle, une femme d'une indépendance farouche provoque une rupture entre deux frères, lançant une saga qui va s'étendre sur deux générations.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:299939",
       "type": "series",
       "name": "Monstre : L'Histoire de Lizzie Borden",
@@ -160,24 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/lHDs3T91HmlR28JhTh5R14Vxaap.jpg",
       "background": "https://image.tmdb.org/t/p/w780/dMCfHJRnAZfKoPTjYyZk2QCL8au.jpg",
       "description": "Hanté par son passé et traqué par ses ennemis, un vétéran des forces spéciales se bat pour garder une adolescente en vie dans les rues dangereuses de Rio de Janeiro.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:318262",
-      "type": "series",
-      "name": "Et pour le pire ?",
-      "poster": "https://image.tmdb.org/t/p/w500/rVN1TATgKDyXj9pejkrIYy6lJXm.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/A1DSMj6VQcvvJmNNBTSSLqQ5bzF.jpg",
-      "description": "D'une idylle fulgurante à un sombre aveu, ce documentaire sur un crime réel révèle comment une romance dans les Highlands écossais a mené à une périlleuse opération d'infiltration.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:287450",
-      "type": "series",
-      "name": "Secret Service",
-      "poster": "https://image.tmdb.org/t/p/w500/f7tksyddK3VvismfoWCwpXPqz0x.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/z5vJszVCv3feLAlsoPjIuMZjQ46.jpg",
-      "description": "Une officier supérieure des services de renseignement britanniques se rebelle pour démasquer une taupe russe infiltrée aux plus hauts échelons du gouvernement britannique.",
       "releaseInfo": "2026"
     }
   ]

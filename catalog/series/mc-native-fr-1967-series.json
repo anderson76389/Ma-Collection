@@ -10,6 +10,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:299247",
+      "type": "series",
+      "name": "La Cible",
+      "poster": "https://image.tmdb.org/t/p/w500/tT1NseDiBUqQDQmobSHzqTp02Ps.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wnwzPfGPyA1Kv536EQk6pmswJjw.jpg",
+      "description": "Hugo, un garde du corps professionnel, traverse un divorce douloureux. Toujours épris de son ex-femme, il tente de préserver un lien avec ses enfants. Mais tout bascule le jour où il se rend à l’anniversaire de son fils : son ex-femme et leurs deux enfants sont kidnappés sous ses yeux.\n\nRapidement, l’enquête de police s’oriente vers Hugo, considéré comme le principal suspect. Accablé par les indices et menacé d’être incarcéré, il décide de s’évader pour retrouver sa famille. Dans sa fuite, il mène sa propre enquête et découvre des vérités troublantes sur la femme qu’il croyait connaître. Ce thriller psychologique et familial place Hugo dans une course contre la montre où chaque seconde compte.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:303542",
       "type": "series",
       "name": "Le Mystère de la chambre jaune",
@@ -138,7 +147,7 @@
       "id": "tmdb:272468",
       "type": "series",
       "name": "Intraçables",
-      "poster": "https://image.tmdb.org/t/p/w500/x4vO4msDj0rBJoYZ1AqQ6fFTAeY.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/cWR0eZfXeab2aBnAiaqBUT7oTc1.jpg",
       "background": "https://image.tmdb.org/t/p/w780/rcwsrgWHIsnPn02y1iW6Kmu16ni.jpg",
       "description": "Après la mort de son mari, une femme croit enfin se reconstruire. Mais une rencontre fait ressurgir un secret enfoui. Traquée par un hacker, elle fuit avec son fils en choisissant la mort numérique, pour échapper à la surveillance et comprendre ce qu'on a voulu leur cacher.",
       "releaseInfo": "2025"
@@ -168,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/y8DV3ix11nBE0q1pPITmKOtIT3W.jpg",
       "background": "https://image.tmdb.org/t/p/w780/g5uwZLMhW5DxE2C8b05MTd1M6z6.jpg",
       "description": "En France, de nos jours. Les Rose - Diane la mère, Bernard le père, Lou l’adolescente et Noé le petit dernier - sont une famille ordinaire, avec leurs problèmes ordinaires : le couple bat de l’aile, l’ado rêve d’émancipation et le plus petit a du mal à trouver sa place. Quand leur van tombe en panne à proximité d’un village à première vue tranquille, leur arrivée provoque la réouverture d’une enquête sur une disparition 7 ans auparavant, un fait divers auquel les Rose ne sont pas totalement étrangers. Tandis qu’ils cherchent désespérément à protéger leur secret, leurs liens familiaux sont mis à rude épreuve. Le village est un piège mortel où les chasseurs pourraient vite devenir les proies.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:257534",
-      "type": "series",
-      "name": "Devil in Disguise: John Wayne Gacy",
-      "poster": "https://image.tmdb.org/t/p/w500/ppWo7Nij9IbgHia13PxT6tqfNhC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kG2mHHu136bviY53DDpnsyVNKuA.jpg",
-      "description": "De 1972 à 1978, trente-trois jeunes hommes ont été enlevés, assassinés, puis enterrés dans le vide sanitaire sous la maison de leur meurtrier. Et pendant des années, personne ne s’en est douté. Pourquoi ? Parce qu’il était charmant et drôle. Il avait un bon travail et était considéré comme un leader dans sa communauté. Il faisait même du bénévolat pour divertir des enfants malades… déguisé en clown.",
       "releaseInfo": "2025"
     }
   ]

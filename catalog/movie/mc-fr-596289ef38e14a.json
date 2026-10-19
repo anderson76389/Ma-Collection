@@ -1,12 +1,39 @@
 {
   "metas": [
     {
+      "id": "tmdb:1255833",
+      "type": "movie",
+      "name": "Englouti",
+      "poster": "https://image.tmdb.org/t/p/w500/qLt9F35AdGKDXPSJtqH5DERoigI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg",
+      "description": "Un plongeur sous-marin est à la recherche des restes de son père décédé, qui s'est fait avaler par un cachalot. Il ne lui reste plus qu'une heure avant que l'oxygène ne vienne à lui manquer.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1288069",
+      "type": "movie",
+      "name": "Tenzing : à la conquête de l’Everest",
+      "poster": "https://image.tmdb.org/t/p/w500/hKA6G4Dj0Uonghi6AUwmpIvCFo0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6GXqVvL20Y0MpyVP30WoI2NPK69.jpg",
+      "description": "Un homme déterminé se lance dans une aventure périlleuse - et brave des obstacles apparemment insurmontables - pour réaliser son rêve d'être le premier à atteindre le sommet de l'Everest.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1236045",
       "type": "movie",
       "name": "Animals",
       "poster": "https://image.tmdb.org/t/p/w500/33MhDOKB0S5VwuaD9lZyV0v0st0.jpg",
       "background": "https://image.tmdb.org/t/p/w780/tzoarEu7TsG959upiELyYPm5kO9.jpg",
       "description": "Quand leur fils est enlevé, un candidat à la mairie de Los Angeles et sa femme s'efforcent de réunir l'argent de la rançon et font des choix qui pourraient bouleverser leur vie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1381078",
+      "type": "movie",
+      "name": "L'Amour de ta vie",
+      "poster": "https://image.tmdb.org/t/p/w500/1zrnRcJ8JOTXYp0Qizad1rnuIA0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mqYqKvrKTgMvK50VtEDZlYFsnHz.jpg",
+      "description": "Maya dont la rencontre fortuite avec Charlie donne naissance à une histoire d'amour passionnée et à la vie dont elle n'osait pas rêver. Lorsque tout bascule, Maya doit déterminer qui elle est, ce qu'elle veut et comment réapprendre à aimer.",
       "releaseInfo": "2026"
     },
     {
@@ -50,7 +77,7 @@
       "type": "movie",
       "name": "Primetime",
       "poster": "https://image.tmdb.org/t/p/w500/rhF8JALH8wrxKtXSCAB7a09tWsc.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1tJz8e1G21nEuzHlX771MNBRJvM.jpg",
       "description": "Chris Hansen présente l'émission policière « To Catch a Predator ». Diffusée sur NBC Dateline, cette émission tente de filmer des pédophiles présumés avec l'aide des forces de l'ordre et d'une équipe d'appâts se faisant passer pour des mineurs sur Internet. En 2006, Hansen est sur le point de révolutionner le monde de la télévision.",
       "releaseInfo": "2026"
     },
@@ -79,6 +106,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/myJdCnJEsFsMmjKhKopQ32lkcP3.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zFCWfU2ViMIm38G1W8UsnSpqmWn.jpg",
       "description": "L'histoire de Ry, une étudiante atteinte d'une maladie chronique qui passe l'été à Majorque avec sa mère. Alors qu'elle tombe amoureuse de Julián et commence à profiter du moment présent, l'aggravation de son état de santé et des secrets de famille menacent de tout gâcher avant la fin de l'été.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1384216",
+      "type": "movie",
+      "name": "The Dog Stars",
+      "poster": "https://image.tmdb.org/t/p/w500/w7c49Qgp3TAUC4hlo0mtgRpLOGG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/quAHqi4zBrB5fIfHvgrqiG4xzAC.jpg",
+      "description": "Dans un futur proche où une pandémie sans nom a décimé la société américaine, Hig, un pilote vit sur une base aérienne abandonnée du Colorado avec son chien et un ex-marine. Lorsqu'une transmission aléatoire passe par la radio de son Cessna 1956, la voix fait naître au plus profond du pilote l'espoir qu'une vie meilleure existe en dehors de leur périmètre étroitement contrôlé...",
       "releaseInfo": "2026"
     },
     {
@@ -142,42 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/vpMsWT25ITYeYLiUb2HFU9rfzy4.jpg",
       "background": "https://image.tmdb.org/t/p/w780/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg",
       "description": "Le mariage de Joe et Angela ne tient plus qu’à un fil. Lorsqu’ils invitent leurs énigmatiques voisins à souper, la soirée prend une tournure inattendue. Est-ce que ce sera l’étincelle qui ravivera la flamme de leur couple, ou le feu qui le réduira en cendres?",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1560520",
-      "type": "movie",
-      "name": "Batman Knightfall - Partie 1",
-      "poster": "https://image.tmdb.org/t/p/w500/8hsSCYpO5XFSAVnn70YehKslgFt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/caBIySpwuFi2i7ynvHIlnxJLOdN.jpg",
-      "description": "L'asile d'Arkham a été détruit et ses détenus se déchaînent sur Gotham City. Alors que Batman se lance dans une course contre la montre pour appréhender certains de ses pires ennemis, il est poussé au bout de ses limites physiques et mentales et se retrouve confronté à une nouvelle menace : l'homme appelé Bane !",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:614945",
-      "type": "movie",
-      "name": "Si tu m'écoutes",
-      "poster": "https://image.tmdb.org/t/p/w500/gqnv5448y3R5KAelvhapSKtiU5z.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2WU6Y6aonzD6uAaCmNnEFlesxxJ.jpg",
-      "description": "Les confessions hilarantes qu'une jeune femme croit envoyer par message vocal à sa sœur décédée finissent sur le répondeur d'un inconnu, qui tombe sous le charme à distance.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1397485",
-      "type": "movie",
-      "name": "Girls Like Girls",
-      "poster": "https://image.tmdb.org/t/p/w500/gbP30EOIwUW0HZY9BwQMTRrk8uX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hSdK33Mjsdfb8TpoUTI3A3OE3RO.jpg",
-      "description": "Coley, une jeune fille de 17 ans originaire de la campagne de l'Oregon, explore son intimité après le décès de sa mère. Rencontrer Sonya éveille de nouveaux sentiments, mais les doutes sur elle-même les empêchent de se connecter.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1284465",
-      "type": "movie",
-      "name": "On l'appelait Robin des Bois",
-      "poster": "https://image.tmdb.org/t/p/w500/7MEcMhm889D8zIDINnBKOYNiSg1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lh3BDkmWJh998n4fQcHYcVi7dpm.jpg",
-      "description": "Hanté par son passé après une vie de crimes et de violence, Robin des Bois est laissé pour mort à l’issue d’un combat qu’il pensait être le dernier. Recueilli par une femme mystérieuse, il se voit offrir une ultime chance de rédemption…",
       "releaseInfo": "2026"
     }
   ]

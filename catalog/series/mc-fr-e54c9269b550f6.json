@@ -44,19 +44,19 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:331164",
-      "type": "series",
-      "name": "Bobby Flay’s The Line",
-      "poster": "https://image.tmdb.org/t/p/w500/hdWaAbmQn970EY8J85aBACDhn0h.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4qKpFJzGCVTtnNg2J6o4BxAHKK0.jpg",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:334759",
       "type": "series",
       "name": "Sweet Deceit",
       "poster": "https://image.tmdb.org/t/p/w500/vMiMuswOQS3ufdzfjKH8Df7tvc8.jpg",
       "background": "https://image.tmdb.org/t/p/w780/160WLvcboP94lwnnOd2fN5T9Nrq.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:331164",
+      "type": "series",
+      "name": "Bobby Flay’s The Line",
+      "poster": "https://image.tmdb.org/t/p/w500/hdWaAbmQn970EY8J85aBACDhn0h.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4qKpFJzGCVTtnNg2J6o4BxAHKK0.jpg",
       "releaseInfo": "2026"
     }
   ]

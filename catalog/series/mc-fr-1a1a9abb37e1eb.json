@@ -34,22 +34,6 @@
       "releaseInfo": "1983"
     },
     {
-      "id": "tmdb:8425",
-      "type": "series",
-      "name": "Only Connect",
-      "poster": "https://image.tmdb.org/t/p/w500/mCS6E8Ca5RYthdYpz1j72Tr5AKD.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jYK5uwwFNkoAHxW7THVrYdVEYBQ.jpg",
-      "releaseInfo": "2008"
-    },
-    {
-      "id": "tmdb:1790",
-      "type": "series",
-      "name": "Family Feud",
-      "poster": "https://image.tmdb.org/t/p/w500/2eY3KyYvvjg2jn2ifTGkwdipCAC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zhLrML5jLVIlln5QFZdYHgtmFXr.jpg",
-      "releaseInfo": "1999"
-    },
-    {
       "id": "tmdb:92611",
       "type": "series",
       "name": "RuPaul's Drag Race UK",
@@ -57,6 +41,14 @@
       "background": "https://image.tmdb.org/t/p/w780/7fsT1NnmNbden0mptoVinBNp4ih.jpg",
       "description": "RuPaul a fait le voyage à travers l'étang à la recherche d'une reine avec le plus de charisme, d'unicité, de nerf et de talent de tout le pays.",
       "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:8425",
+      "type": "series",
+      "name": "Only Connect",
+      "poster": "https://image.tmdb.org/t/p/w500/mCS6E8Ca5RYthdYpz1j72Tr5AKD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jYK5uwwFNkoAHxW7THVrYdVEYBQ.jpg",
+      "releaseInfo": "2008"
     },
     {
       "id": "tmdb:215943",
@@ -74,6 +66,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/uziPOqxQotCE9g0wBgDvHCOvRhP.jpg",
       "background": "https://image.tmdb.org/t/p/w780/76BNYD6gBrZPWH4axZH8rEpeyLW.jpg",
       "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1790",
+      "type": "series",
+      "name": "Family Feud",
+      "poster": "https://image.tmdb.org/t/p/w500/2eY3KyYvvjg2jn2ifTGkwdipCAC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zhLrML5jLVIlln5QFZdYHgtmFXr.jpg",
+      "releaseInfo": "1999"
     },
     {
       "id": "tmdb:114439",
@@ -100,40 +100,6 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:30810",
-      "type": "series",
-      "name": "Personne n'y avait pensé !",
-      "poster": "https://image.tmdb.org/t/p/w500/dZCnPXsQnRtK7meIDnHL9T4HkYo.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9CRHv34ZZ58o6KzwH9IGfEbUC4k.jpg",
-      "description": "Quiz dans lequel les participants tentent de marquer le moins de points possible en puisant dans les profondeurs de leur culture générale pour trouver les réponses auxquelles personne d'autre ne peut penser.",
-      "releaseInfo": "2009"
-    },
-    {
-      "id": "tmdb:97867",
-      "type": "series",
-      "name": "Family Feud Canada",
-      "poster": "https://image.tmdb.org/t/p/w500/ohlgnAbNTZYZ0PhsM57HPTJ0pg7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vK8tSeOh7WTkPqLu3kK34U8zmiE.jpg",
-      "description": "Il s'agit de la version canadienne du jeu TV \"Une famille en or\", originaire des Etats-Unis sous le nom de Family Feud. Deux familles composées de cinq membres s'affrontent en donnant leur opinion, sur des questions posées à 100 Canadiens. Le but est de se rapprocher le plus de l'opinion des Canadiens sondés, afin d'amasser un maximum de points pour accéder à la finale et gagner le gros lot !",
-      "releaseInfo": "2019"
-    },
-    {
-      "id": "tmdb:258321",
-      "type": "series",
-      "name": "Jet Lag: The Game",
-      "poster": "https://image.tmdb.org/t/p/w500/9XhuLVDsLfNV6DUQXQhgf8uRWAD.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/aSUBblcybEST0NMblw4MOydgHDG.jpg",
-      "releaseInfo": "2022"
-    },
-    {
-      "id": "tmdb:195230",
-      "type": "series",
-      "name": "Bridge of Lies",
-      "poster": "https://image.tmdb.org/t/p/w500/wNntvuI0XBbLcYqi9tUthpxmdKB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/liGgnCHAD2gGQ1J7plrQv71rNOf.jpg",
-      "releaseInfo": "2022"
-    },
-    {
       "id": "tmdb:231730",
       "type": "series",
       "name": "The Floor",
@@ -151,6 +117,14 @@
       "releaseInfo": "2023"
     },
     {
+      "id": "tmdb:195230",
+      "type": "series",
+      "name": "Bridge of Lies",
+      "poster": "https://image.tmdb.org/t/p/w500/wNntvuI0XBbLcYqi9tUthpxmdKB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/liGgnCHAD2gGQ1J7plrQv71rNOf.jpg",
+      "releaseInfo": "2022"
+    },
+    {
       "id": "tmdb:328656",
       "type": "series",
       "name": "Cocktail Wars",
@@ -159,12 +133,36 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:261107",
+      "type": "series",
+      "name": "Trivial Pursuit",
+      "poster": "https://image.tmdb.org/t/p/w500/vk2U7azARLXzKHzoJdwnYkojwZl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sublgjkcTHyPz5o3yGLVbcEOz6Y.jpg",
+      "releaseInfo": "2024"
+    },
+    {
       "id": "tmdb:222876",
       "type": "series",
       "name": "Tempting Fortune",
       "poster": "https://image.tmdb.org/t/p/w500/yhnpqfTJxjSktkVltzqC88KftOz.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ktgr4eSQpKCVeP2ExoiVDZsWwgV.jpg",
       "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:261108",
+      "type": "series",
+      "name": "Scrabble",
+      "poster": "https://image.tmdb.org/t/p/w500/rPyOMo2sAgntdUdnRY4hnfvgMIa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bKwYqjPolMhtbc0eMFbYoy0VNJy.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:244543",
+      "type": "series",
+      "name": "Bestie on the Hill",
+      "poster": "https://image.tmdb.org/t/p/w500/kJqpodnkSgU1ZOInnyqN5a6kLg.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4mwmsNZiwoHULQwhvNJg0xYfipo.jpg",
+      "releaseInfo": "2022"
     }
   ]
 }

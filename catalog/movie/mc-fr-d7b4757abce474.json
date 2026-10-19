@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1381078",
+      "type": "movie",
+      "name": "L'Amour de ta vie",
+      "poster": "https://image.tmdb.org/t/p/w500/1zrnRcJ8JOTXYp0Qizad1rnuIA0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mqYqKvrKTgMvK50VtEDZlYFsnHz.jpg",
+      "description": "Maya dont la rencontre fortuite avec Charlie donne naissance à une histoire d'amour passionnée et à la vie dont elle n'osait pas rêver. Lorsque tout bascule, Maya doit déterminer qui elle est, ce qu'elle veut et comment réapprendre à aimer.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1458857",
       "type": "movie",
       "name": "À vie",
@@ -15,7 +24,7 @@
       "name": "Raison et Sentiments",
       "poster": "https://image.tmdb.org/t/p/w500/9XNEI2AYgQIIqXper5kOdGTnyf5.jpg",
       "background": "https://image.tmdb.org/t/p/w780/nkINWVL8x1KwdpO0dUbYhS3Y1iP.jpg",
-      "description": "Spoliées de l'héritage familial de Norland Park au profit de leur demi-frère John, Mme Dashwood et ses trois filles sont contraintes de s'installer au modeste Barton Cottage. Ce départ déchire l'aînée, Elinor, une jeune femme prudente et rationnelle, contrainte de quitter Edward Ferrars, le beau-frère de John dont elle s'est éprise.  Sur place, sa sœur Marianne, impulsive et passionnée, s'éprend follement du séduisant John Willoughby. Elle ignore ainsi le dévouement du colonel Brandon, pourtant sincèrement épris d'elle, ce qui inquiète grandement sa sœur.  Tout oppose le pragmatisme d'Elinor et le romantisme débridé de Marianne face aux règles de la société et aux aléas sentiments. Pourtant, malgré leurs querelles et les épreuves imposées par l'amour, leur complicité fraternelle reste inébranlable et demeure leur meilleur atout pour surmonter les tempêtes et espérer bâtir un avenir heureux.",
+      "description": "Une irrésistible nouvelle version du roman culte de Jane Austin, Raison et Sentiments, qui suit deux sœurs à travers leurs amours, leurs chagrins et le lien qui les unit d'une façon magistrale et profondément proche de nous.",
       "releaseInfo": "2026"
     },
     {
@@ -168,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/qq3Q1tsxAxMqP38YTZKl8m5zmA4.jpg",
       "background": "https://image.tmdb.org/t/p/w780/1Es1fV6Wn4ArpqTRTPs8ydpEkiw.jpg",
       "description": "Eté 2011, Grace Pine, une critique musicale de 24 ans, déménage à Montréal avec l'intention d'écrire un livre sur « Jagged Little Pill » d'Alanis Morissette. Ses plans prennent une tournure différente lorsqu'elle se lie d'amitié avec deux membres d'un groupe de rock indépendant en difficulté et décide de devenir leur attachée de presse.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1281195",
-      "type": "movie",
-      "name": "Truly Naked",
-      "poster": "https://image.tmdb.org/t/p/w500/lnjgp5XBgXn3esVBcAT4s7XMFW3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mN5HuZwSIueiA62F0LS3wBCFj55.jpg",
-      "description": "Pour Alec, qui vit seul avec son père Dylan, acteur X, le désir se confond avec le porno. Son quotidien devient de plus en plus difficile à dissimuler lorsqu’il se rapproche de Nina, une camarade de classe. Pour s’ouvrir à ses sentiments, Alec devra se libérer et accepter de se mettre à nu.",
       "releaseInfo": "2026"
     }
   ]

@@ -18,22 +18,13 @@
       "releaseInfo": "1990"
     },
     {
-      "id": "tmdb:220542",
+      "id": "tmdb:312359",
       "type": "series",
-      "name": "Les Carnets de l'apothicaire",
-      "poster": "https://image.tmdb.org/t/p/w500/47pSay5Ao7SFeyQBZVkW5ifyhAZ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gffVOVZ2Y9cmVIZ26Gt9ByMGCYH.jpg",
-      "description": "Formée dès son plus jeune âge par son père apothicaire, Mao Mao est un jour vendue comme servante au palais de l'empereur. Prisonnière dans les arcanes du pouvoir, elle attire l’attention de Jinshi, un séduisant haut fonctionnaire qui la promeut lorsqu’il découvre son talent pour confectionner des potions. Désormais goûteuse, Mao Mao met ses connaissances au service des gens du palais pour les soigner, mais aussi pour déjouer les mystères et les complots qui se trament…",
-      "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:45790",
-      "type": "series",
-      "name": "JoJo's Bizarre Adventure",
-      "poster": "https://image.tmdb.org/t/p/w500/2Sc0veFPh9CcHMtNqMyiQqIW9ZF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5mUYDoFjDlPmDvnUWSknhYjGBBh.jpg",
-      "description": "Angleterre, 1981. Afin d'honorer ancienne dette, Lord George Joestar adopte Dio Brando, le fils de son sauveur Dario. Mais sous l'apparence du fils modèle, Dio souhaite s'emparer de la fortune des Joestar et humilier le fils du lord, Jonathan Joestar surnommé Jojo. Une rivalité nait entre eux et explose à cause d'un masque aztèque aux capacités mystérieuses. Dio s'en empare et devient un vampire, que seul la maîtrise du hamon permettra à Jonathan d'espérer le vaincre. Voici le point de départ du destin entremêlé de la famille Joestar et de Dio. Chaque illustre membre l'affrontera, lui ou des adversaires qui lui sont liés grâce au hamon, puis aux stands, la matérialisation de leur esprit combatif doté de force et de capacités insoupçonnées. Parmi eux, Joseph l'aventurier arrogant, Jotaro et son stand invincible Star Platinium, Josuke l'ami au grand cœur, Giorno le fils de Dio et gangster à la chevelure dorée et Jolyne, la fille à la volonté de fer.",
-      "releaseInfo": "2012"
+      "name": "Dragon Ball Super : Beerus",
+      "poster": "https://image.tmdb.org/t/p/w500/sGuCmIy8kEmx3FWZyMj654rF6g8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg",
+      "description": "Des années après la défaite de Majin Buu, la paix est revenue sur Terre. Mais lorsque Beerus, le Dieu de la Destruction, se réveille, cette tranquillité vole en éclats. Attiré sur Terre par des rumeurs concernant le Saiyan qui a vaincu Freezer, Beerus cherche à défier Goku en déployant une puissance capable de détruire des planètes entières. Goku et ses alliés doivent désormais affronter Beerus dans un combat qui fera trembler l'univers.",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:30983",
@@ -45,6 +36,24 @@
       "releaseInfo": "1996"
     },
     {
+      "id": "tmdb:45790",
+      "type": "series",
+      "name": "JoJo's Bizarre Adventure",
+      "poster": "https://image.tmdb.org/t/p/w500/2Sc0veFPh9CcHMtNqMyiQqIW9ZF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/l2gc2dPRUPe3bAfYCRTjc6uAMmB.jpg",
+      "description": "Angleterre, 1981. Afin d'honorer ancienne dette, Lord George Joestar adopte Dio Brando, le fils de son sauveur Dario. Mais sous l'apparence du fils modèle, Dio souhaite s'emparer de la fortune des Joestar et humilier le fils du lord, Jonathan Joestar surnommé Jojo. Une rivalité nait entre eux et explose à cause d'un masque aztèque aux capacités mystérieuses. Dio s'en empare et devient un vampire, que seul la maîtrise du hamon permettra à Jonathan d'espérer le vaincre. Voici le point de départ du destin entremêlé de la famille Joestar et de Dio. Chaque illustre membre l'affrontera, lui ou des adversaires qui lui sont liés grâce au hamon, puis aux stands, la matérialisation de leur esprit combatif doté de force et de capacités insoupçonnées. Parmi eux, Joseph l'aventurier arrogant, Jotaro et son stand invincible Star Platinium, Josuke l'ami au grand cœur, Giorno le fils de Dio et gangster à la chevelure dorée et Jolyne, la fille à la volonté de fer.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:220542",
+      "type": "series",
+      "name": "Les Carnets de l'apothicaire",
+      "poster": "https://image.tmdb.org/t/p/w500/47pSay5Ao7SFeyQBZVkW5ifyhAZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gffVOVZ2Y9cmVIZ26Gt9ByMGCYH.jpg",
+      "description": "Formée dès son plus jeune âge par son père apothicaire, Mao Mao est un jour vendue comme servante au palais de l'empereur. Prisonnière dans les arcanes du pouvoir, elle attire l’attention de Jinshi, un séduisant haut fonctionnaire qui la promeut lorsqu’il découvre son talent pour confectionner des potions. Désormais goûteuse, Mao Mao met ses connaissances au service des gens du palais pour les soigner, mais aussi pour déjouer les mystères et les complots qui se trament…",
+      "releaseInfo": "2023"
+    },
+    {
       "id": "tmdb:220150",
       "type": "series",
       "name": "Pokémon : Les horizons",
@@ -52,42 +61,6 @@
       "background": "https://image.tmdb.org/t/p/w780/d0axpGojOqDag5lDa0eNSEtw11l.jpg",
       "description": "Suivez Liko et Rhod dans leur découverte des mystères qui les entourent, et rencontrez Friede, Capitaine Pikachu, Amethio ainsi que d’autres personnages lors de leurs aventures passionnantes !",
       "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:312359",
-      "type": "series",
-      "name": "Dragon Ball Super : Beerus",
-      "poster": "https://image.tmdb.org/t/p/w500/sGuCmIy8kEmx3FWZyMj654rF6g8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg",
-      "description": "Des années après la défaite de Majin Buu, la paix est revenue sur Terre. Mais lorsque Beerus, le Dieu de la Destruction, se réveille, cette tranquillité vole en éclats. Attiré sur Terre par des rumeurs concernant le Saiyan qui a vaincu Freezer, Beerus cherche à défier Goku en déployant une puissance capable de détruire des planètes entières. Goku et ses alliés doivent désormais affronter Beerus dans un combat qui fera trembler l'univers.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:259140",
-      "type": "series",
-      "name": "Ranma1/2",
-      "poster": "https://image.tmdb.org/t/p/w500/paz1BKuMqwOW7FGMe5xqcTEstgx.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xvD9urN8lUtWw5fm4a87Rl3dCZn.jpg",
-      "description": "Akane Tendo fait la connaissance de son nouveau fiancé, Ranma Saotomé, prodige des arts martiaux qui possède une particularité : il se transforme en fille au contact de l'eau froide.",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:73223",
-      "type": "series",
-      "name": "Black Clover",
-      "poster": "https://image.tmdb.org/t/p/w500/zObHoFAX6P7DirR2dybN3cVC1Ms.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qu9epTZh29fGUkY7ZYc9PVsv0Ig.jpg",
-      "description": "Dans un monde régi par la magie, Yuno et Asta ont grandi ensemble avec un seul but en tête : devenir le prochain Empereur-Mage du royaume de Clover. Mais si le premier est naturellement doué, le deuxième, quant à lui, ne sait pas manipuler la magie. C'est ainsi que lors de la cérémonie d'attribution de leur grimoire, Yuno reçoit le légendaire grimoire au trèfle à quatre feuilles tandis qu'Asta, lui, repart bredouille. Or, plus tard, un ancien et mystérieux ouvrage noir décoré d'un trèfle à cinq feuilles surgit devant lui ! Un grimoire d’anti-magie…",
-      "releaseInfo": "2017"
-    },
-    {
-      "id": "tmdb:105009",
-      "type": "series",
-      "name": "Tokyo Revengers",
-      "poster": "https://image.tmdb.org/t/p/w500/kzDHRAkFjeed0lJpjE1eKJDcowS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jnThpphOHQRiTedCtz1yyshfkHw.jpg",
-      "description": "Takemichi Hanagaki n'a pas vraiment réussi sa vie. Il fait des petits boulots sans intérêt et lorsqu'il apprend que la seule petite amie qu'il ait jamais eu au collège, Hinata Tachibana, a été tuée par l'impitoyable gang Tokyo Manji-kai, il est anéanti. Le lendemain, toujours sous le choc, il est poussé sur les rails de la gare lors d'un mouvement de foule. Mais Takemichi ne meurt pas et quand il se réveille, il est revenu douze ans en arrière. Il va ainsi retrouver ses meilleures années, mais aussi tenter de sauver celle qui l'aime et prendre sa revanche sur la vie…",
-      "releaseInfo": "2021"
     },
     {
       "id": "tmdb:60761",
@@ -99,13 +72,39 @@
       "releaseInfo": "2013"
     },
     {
-      "id": "tmdb:226688",
+      "id": "tmdb:73223",
       "type": "series",
-      "name": "BEYBLADE X",
-      "poster": "https://image.tmdb.org/t/p/w500/66wkm14IWdrY5LaKZDAbkD2T9Jt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qAq9RBeHZoTMDFqQZ2o4cE5CJIQ.jpg",
-      "description": "Robin Kazami, blader débutant, s'associe à l'influenceuse Multi Nana-iro et à l'ancien champion Jaxon Cross pour former ce trio improbable, prêt à gravir les échelons du classement The X et à remporter le titre de champion blader !",
-      "releaseInfo": "2023"
+      "name": "Black Clover",
+      "poster": "https://image.tmdb.org/t/p/w500/zObHoFAX6P7DirR2dybN3cVC1Ms.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qu9epTZh29fGUkY7ZYc9PVsv0Ig.jpg",
+      "description": "Dans un monde régi par la magie, Yuno et Asta ont grandi ensemble avec un seul but en tête : devenir le prochain Empereur-Mage du royaume de Clover. Mais si le premier est naturellement doué, le deuxième, quant à lui, ne sait pas manipuler la magie. C'est ainsi que lors de la cérémonie d'attribution de leur grimoire, Yuno reçoit le légendaire grimoire au trèfle à quatre feuilles tandis qu'Asta, lui, repart bredouille. Or, plus tard, un ancien et mystérieux ouvrage noir décoré d'un trèfle à cinq feuilles surgit devant lui ! Un grimoire d’anti-magie…",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:324301",
+      "type": "series",
+      "name": "クレヨンしんちゃん",
+      "poster": "https://image.tmdb.org/t/p/w500/qTW3lU85NG83hXWtAdC3qwOgeDO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ecYulqPoYRFyttKyxaTpSEqDUbo.jpg",
+      "releaseInfo": "1992"
+    },
+    {
+      "id": "tmdb:105009",
+      "type": "series",
+      "name": "Tokyo Revengers",
+      "poster": "https://image.tmdb.org/t/p/w500/kzDHRAkFjeed0lJpjE1eKJDcowS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zYIFOocMfsKAEysBjhZ8akfXFdB.jpg",
+      "description": "Takemichi Hanagaki n'a pas vraiment réussi sa vie. Il fait des petits boulots sans intérêt et lorsqu'il apprend que la seule petite amie qu'il ait jamais eu au collège, Hinata Tachibana, a été tuée par l'impitoyable gang Tokyo Manji-kai, il est anéanti. Le lendemain, toujours sous le choc, il est poussé sur les rails de la gare lors d'un mouvement de foule. Mais Takemichi ne meurt pas et quand il se réveille, il est revenu douze ans en arrière. Il va ainsi retrouver ses meilleures années, mais aussi tenter de sauver celle qui l'aime et prendre sa revanche sur la vie…",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:259140",
+      "type": "series",
+      "name": "Ranma1/2",
+      "poster": "https://image.tmdb.org/t/p/w500/paz1BKuMqwOW7FGMe5xqcTEstgx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xvD9urN8lUtWw5fm4a87Rl3dCZn.jpg",
+      "description": "Akane Tendo fait la connaissance de son nouveau fiancé, Ranma Saotomé, prodige des arts martiaux qui possède une particularité : il se transforme en fille au contact de l'eau froide.",
+      "releaseInfo": "2024"
     },
     {
       "id": "tmdb:207347",
@@ -114,6 +113,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/shXf4cTKUbMpx5AVBKi4V0dMwY3.jpg",
       "background": "https://image.tmdb.org/t/p/w780/8p39Ud6ZKMixBQ7R4frg2o3idzc.jpg",
       "description": "Le joueur de badminton Taiki a toujours admiré de loin la star du basket Chinatsu. Jusqu'à un beau jour de printemps, où la vie les rapproche de façon inattendue.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:216467",
+      "type": "series",
+      "name": "Mission: Yozakura Family",
+      "poster": "https://image.tmdb.org/t/p/w500/glBNKxn7UfZ2bwXfvwGgsbs9yIT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xlMVEbNl7ZBGFyhX2WEhQ8Kifm4.jpg",
+      "description": "Taiyô Asano est un lycéen à la timidité maladive. La seule personne avec qui il arrive à parler normalement est son amie d'enfance Mutsumi Yozakura. Mais cette dernière est la fille d'une famille d'espions qui oeuvre depuis plusieurs générations, et son grand frère, qui lui voue une affection excessive, a décidé d'éliminer Taiyô !",
       "releaseInfo": "2024"
     },
     {
@@ -126,23 +134,6 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:324301",
-      "type": "series",
-      "name": "クレヨンしんちゃん",
-      "poster": "https://image.tmdb.org/t/p/w500/qTW3lU85NG83hXWtAdC3qwOgeDO.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ecYulqPoYRFyttKyxaTpSEqDUbo.jpg",
-      "releaseInfo": "1992"
-    },
-    {
-      "id": "tmdb:216467",
-      "type": "series",
-      "name": "Mission: Yozakura Family",
-      "poster": "https://image.tmdb.org/t/p/w500/glBNKxn7UfZ2bwXfvwGgsbs9yIT.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xlMVEbNl7ZBGFyhX2WEhQ8Kifm4.jpg",
-      "description": "Taiyô Asano est un lycéen à la timidité maladive. La seule personne avec qui il arrive à parler normalement est son amie d'enfance Mutsumi Yozakura. Mais cette dernière est la fille d'une famille d'espions qui oeuvre depuis plusieurs générations, et son grand frère, qui lui voue une affection excessive, a décidé d'éliminer Taiyô !",
-      "releaseInfo": "2024"
-    },
-    {
       "id": "tmdb:283428",
       "type": "series",
       "name": "The Ramparts of Ice",
@@ -152,12 +143,12 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:270603",
+      "id": "tmdb:320909",
       "type": "series",
-      "name": "The Exiled Heavy Knight Knows How to Game the System",
-      "poster": "https://image.tmdb.org/t/p/w500/flcyEjfwHECnqgXMGNZsajLg1rv.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rQmzx7qyoK5YiXJHnv0jdgVlKyl.jpg",
-      "description": "Issu d’une prestigieuse famille de maîtres épéistes, Elymas Edvaughn est renié et banni lorsqu’il s’affirme en tant que “Chevalier Lourd”, une classe inférieure et complètement dénigrée. En réalité, le monde d’Elymas est similaire à celui d’un jeu qu’il maîtrisait dans une autre vie. Et il sait parfaitement que les Chevaliers Lourds sont en fait les plus puissants…",
+      "name": "Les Noces des Lucioles",
+      "poster": "https://image.tmdb.org/t/p/w500/1RXEvHmis1oKTAWtKOrzJqenpb6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3zmB6PLnjf7rNNC2lnvinQtlJMx.jpg",
+      "description": "Durant l'ère Meiji, Satoko Kirigaya n’a qu’un seul souhait : se marier pour l'honneur de sa famille et ce, même si ses jours sont comptés. Mais alors qu'un assassin tente de la tuer, elle lui offre de l’épouser ! Une proposition que Shinpei Goto accepte, mais qui pourrait bien se retourner contre elle…",
       "releaseInfo": "2026"
     },
     {
@@ -170,13 +161,22 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:313346",
+      "id": "tmdb:270603",
       "type": "series",
-      "name": "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life",
-      "poster": "https://image.tmdb.org/t/p/w500/d2twigOlajyMBmqjZY0z0XCBwGC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/msusxF6ZPGnQmTGXU9iC4UJOohs.jpg",
-      "description": "Rein l'Enchanteur est un mage capable d'améliorer les armes et les armures. Mais lorsqu'il se fait renvoyer de sa guilde pour la simple raison qu'il a déjà enchanté tout ce qu'elle possède, il décide de reprendre tous les sorts qu’il a transmis à ses ex-compagnons et les affecte à son propre équipement. En chemin, Rein rassemble une bande de parias comme lui et, ensemble, ils explorent le monde.",
+      "name": "The Exiled Heavy Knight Knows How to Game the System",
+      "poster": "https://image.tmdb.org/t/p/w500/flcyEjfwHECnqgXMGNZsajLg1rv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rQmzx7qyoK5YiXJHnv0jdgVlKyl.jpg",
+      "description": "Issu d’une prestigieuse famille de maîtres épéistes, Elymas Edvaughn est renié et banni lorsqu’il s’affirme en tant que “Chevalier Lourd”, une classe inférieure et complètement dénigrée. En réalité, le monde d’Elymas est similaire à celui d’un jeu qu’il maîtrisait dans une autre vie. Et il sait parfaitement que les Chevaliers Lourds sont en fait les plus puissants…",
       "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:237150",
+      "type": "series",
+      "name": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World",
+      "poster": "https://image.tmdb.org/t/p/w500/yF9t1erLr7qZu17cTiXggyUcS3R.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/n493br0MLJHASsqEsUwG5PvxDkN.jpg",
+      "description": "Dans un pays où les nobles manient généralement leurs épées, Ars Louvent utilise sa compétence qui lui permet d'évaluer avec précision le potentiel latent des gens ! Ce jeune garçon réincarné en un fils de nobles œuvre à faire fructifier le modeste domaine de sa famille. Mais ce pouvoir apparemment anodin lui permettra de construire un territoire puissant lorsqu’il s’engage dans un voyage rempli de surprises.",
+      "releaseInfo": "2024"
     }
   ]
 }

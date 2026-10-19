@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:333101",
+      "type": "series",
+      "name": "Treasure Island",
+      "poster": "https://image.tmdb.org/t/p/w500/xZQ5ABJF1iLjGq9xR4MthpgQEFF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cv102XnL9r7M9jFr0hsMeqzpAWW.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:284833",
       "type": "series",
       "name": "Avatar : Les Sept Refuges",
@@ -170,15 +178,6 @@
       "background": "https://image.tmdb.org/t/p/w780/rXtSdCGmG07zjAg5h7GR1v52ogX.jpg",
       "description": "Sous le regard attentif et exigeant de leurs instructeurs, un groupe de jeunes cadets découvre ce qu'il faut pour devenir officiers de Starfleet, tout en naviguant entre amitiés, rivalités, premiers amours et un nouvel ennemi.",
       "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:246412",
-      "type": "series",
-      "name": "The Copenhagen Test",
-      "poster": "https://image.tmdb.org/t/p/w500/8H2rtReyIAjfhOh4bZPr4wXjraH.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mRVPTh5JpzvXNtgNXppKROOdrzd.jpg",
-      "description": "Lorsqu'un analyste découvre que sa vue et son ouïe sont piratées, il se retrouve entraîné dans un univers contrôlé, conçu par son agence pour faire sortir ses ennemis de l'ombre.",
-      "releaseInfo": "2025"
     }
   ]
 }

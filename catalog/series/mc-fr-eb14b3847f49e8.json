@@ -1,15 +1,6 @@
 {
   "metas": [
     {
-      "id": "tmdb:97546",
-      "type": "series",
-      "name": "Ted Lasso",
-      "poster": "https://image.tmdb.org/t/p/w500/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nE94ejEbzNCU48bW1oju0dqBONz.jpg",
-      "description": "Ted Lasso, entraîneur de football américain, débarque à Londres pour coacher une équipe de football... pas américain. Face à une équipe et une ville dubitatives, arrivera-t-il à leur faire adopter la méthode Ted Lasso ?",
-      "releaseInfo": "2020"
-    },
-    {
       "id": "tmdb:95480",
       "type": "series",
       "name": "Slow Horses",
@@ -26,15 +17,6 @@
       "background": "https://image.tmdb.org/t/p/w780/wFEAy4xRes1eeclsu7Z73Vzz7ET.jpg",
       "description": "Un physicien, professeur et père de famille qui, alors qu’il rentre chez lui un soir à pied dans les rues de Chicago, est projeté dans une version alternative de sa propre vie. L’émerveillement se transforme rapidement en cauchemar quand il essaie de retourner à sa réalité perdue dans le paysage hallucinant des vies qu’il aurait pu vivre. Dans ce labyrinthe de réalités, il s’embarque dans un voyage éprouvant pour retrouver sa véritable famille et la sauver de l’ennemi le plus terrifiant et invincible : lui-même.",
       "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:258230",
-      "type": "series",
-      "name": "Portée disparue",
-      "poster": "https://image.tmdb.org/t/p/w500/zXMkaqWinyCbkMSNwhi7htRV0e9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kgaQnDdDaPqvGN7i8LLz1aWJdjP.jpg",
-      "description": "Lorsque Ian Ridley, opérateur des services d'urgence, reçoit un appel affolé d’une adolescente qu’il pense être sa fille disparue, il ne recule devant rien pour la retrouver.",
-      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:250203",

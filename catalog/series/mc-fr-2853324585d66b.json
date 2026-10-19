@@ -14,7 +14,7 @@
       "type": "series",
       "name": "WWE NXT",
       "poster": "https://image.tmdb.org/t/p/w500/9nLBX5Bf7PW4FAaWJLXpFFdeTlV.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/YaQ8YhHYpLkH3e7FRwBkcGoJhS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2ugy3IP3yvdRdEepHDOml82TKFT.jpg",
       "description": "WWE NXT est une émission et une académie de catch de la World Wrestling Entertainment (WWE), devenue depuis le 20 juin 2012, la troisième division de la WWE avec Raw et SmackDown. Cette nouvelle division met en avant des nouveaux catcheurs, d'abord sélectionnés dans l'ancien club-école de la WWE, la Florida Championship Wrestling, puis sur la scène indépendante internationale.",
       "releaseInfo": "2010"
     },
@@ -26,6 +26,15 @@
       "background": "https://image.tmdb.org/t/p/w780/mWIyoSdVQxdr1bA423tObJwJSR.jpg",
       "description": "WWE SmackDown (appelé aussi WWE SmackDown Live) est une émission de télévision de catch et de divertissement sportif produite par la WWE. Depuis la création de la WWE Brand Extension en 2002, SmackDown était une division distincte de la WWE avec son propre roster (voir aussi WWE draft), et était l'équivalent de WWE Raw (et ECW de 2006 à 2010) jusqu'à ce que la Brand Extension soit supprimée par la WWE en 2011.",
       "releaseInfo": "1999"
+    },
+    {
+      "id": "tmdb:256711",
+      "type": "series",
+      "name": "The Rainmaker",
+      "poster": "https://image.tmdb.org/t/p/w500/blbbFyOjgtlzs3uDzIjgM0tVULY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8ZJYKoCmRCdaMDArewEwg3Uy8Bg.jpg",
+      "description": "Fraîchement sorti de l'école de droit, Rudy Baylor est confronté au lion des salles d'audience Leo Drummond ainsi qu'à sa petite amie de l'école de droit, Sarah. Rudy, accompagné de son patron, Bruiser, et de l'assistante juridique échevelée de cette dernière, Deck, découvre deux conspirations liées à la mort mystérieuse du fils de leur client.",
+      "releaseInfo": "2025"
     }
   ]
 }

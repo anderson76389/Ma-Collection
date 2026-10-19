@@ -99,6 +99,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:261647",
+      "type": "series",
+      "name": "Princesse Sofia : Apprentie magicienne",
+      "poster": "https://image.tmdb.org/t/p/w500/3DcMKYKcJxO3q3AS38Fw75CTPcj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wGeYd7lVxOzZsbJV7iipK8298hT.jpg",
+      "description": "La princesse Sofia d'Enchancia fait sa rentrée à l'Ecole Royale de Magie de Charmswell. Entourée de ses amis, les princesses Layla et Camila, le prince Zane et Pepper la mini-licorne, Sofia s'apprête à devenir la princesse la plus magique de Tous les Royaumes. Un monde enchanté l'attend, ainsi que de nouvelles aventures passionnantes avec ses amis, sa famille royale et ses fidèles animaux.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:290295",
       "type": "series",
       "name": "Mating Season",
@@ -153,6 +162,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:313298",
+      "type": "series",
+      "name": "Les Dinosaures",
+      "poster": "https://image.tmdb.org/t/p/w500/8HmHtc8jRKCe83Uj1q7l216Bftz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8X2R9uLys3SmkRuQAmSI96xxJAF.jpg",
+      "description": "Du premier dinosaure au tout dernier, cette série documentaire épique étudie les 165 millions d'années qu'ils ont passées sur Terre et les forces qui ont forgé leur évolution.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:298343",
       "type": "series",
       "name": "Strip Law",
@@ -160,24 +178,6 @@
       "background": "https://image.tmdb.org/t/p/w780/jH1vBLHxp7E2AZGdhvjnxA96mJh.jpg",
       "description": "Dans cette comédie d'animation irrévérencieuse pour adultes, un avocat coincé fait équipe avec une magicienne de Las Vegas pour pimenter les affaires les plus stupides de la ville.",
       "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:219080",
-      "type": "series",
-      "name": "The Mighty Nein",
-      "poster": "https://image.tmdb.org/t/p/w500/q2P52yvWJXH2eTKTyxKjmhp9Pri.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7K7wbQIpkzif4fMhDHsCweXFS42.jpg",
-      "description": "Un groupe de parias, de criminels et de marginaux se retrouve par hasard à devoir sauver le continent lorsqu'une mystérieuse relique magique capable de remodeler la réalité tombe entre de mauvaises mains.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:305165",
-      "type": "series",
-      "name": "LEGO Marvel Avengers : Strange Tails",
-      "poster": "https://image.tmdb.org/t/p/w500/AkjaZgQWiXlLbgMR2ofT0b57VFh.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3FaimokK7FaufDYGIGnOG6uyp3f.jpg",
-      "description": "Hawkeye et les Avengers doivent sauver le monde d'une influenceuse prête à provoquer un cataclysme !",
-      "releaseInfo": "2025"
     }
   ]
 }

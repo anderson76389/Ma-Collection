@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1763619",
+      "type": "movie",
+      "name": "Super Riches Mega Fauchés",
+      "poster": "https://image.tmdb.org/t/p/w500/4nQD7STEWNYW2cKldZQZRrYri90.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/e20V500lJHkQbf1iGet34Jc5h8r.jpg",
+      "description": "Lorsque la snob et riche famille AlThahabi découvre qu'elle n'est en fait pas aussi fortunée qu'elle le croit, elle est forcée de simuler son opulence pour survivre.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1550338",
       "type": "movie",
       "name": "Öngörü",
@@ -72,10 +81,27 @@
     {
       "id": "tmdb:1401106",
       "type": "movie",
-      "name": "Kurtuluş",
+      "name": "Salvation",
       "poster": "https://image.tmdb.org/t/p/w500/mrJNYPnCLOcvOlMUnSdWcQ4Vz8i.jpg",
       "background": "https://image.tmdb.org/t/p/w780/9LXbwBaFz4lvhLrIc1uxoSvp8n9.jpg",
       "description": "Deux villages turcs, l’un à flanc de montagne, l’autre dans la plaine. Quand les habitants du bas, exilés, décident de revenir sur leurs terres, des conflits ancestraux ressurgissent avec ceux du haut. Progressivement, croyances, paranoïa et luttes de pouvoir s’exacerbent, mettant en péril la fragile cohabitation des deux communautés.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1315657",
+      "type": "movie",
+      "name": "Yellow Letters",
+      "poster": "https://image.tmdb.org/t/p/w500/39XGBgqfBCTCWNiUD1TQDkxGRtk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jF0cgfoBkmJyknP2nii2NdhChWs.jpg",
+      "description": "Professeur à la faculté d’Ankara, Aziz reçoit la « lettre jaune » qui lui signifie arbitrairement sa révocation. Quand sa femme Derya, célèbre comédienne au théâtre national, la reçoit à son tour, c’est le coup de grâce pour le couple. L’un et l’autre, condamnés pour leurs idées, sont obligés de se réfugier à Istanbul chez la mère d’Aziz. Le compromis entre cette précarité nouvelle et leur engagement politique va mettre leur mariage à l’épreuve.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1408493",
+      "type": "movie",
+      "name": "Cam Sehpa",
+      "poster": "https://image.tmdb.org/t/p/w500/p3iMK5XL0GURREEAxXjBlYWveXn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nUMxXcgdQOtphcObnIbokw7dRZU.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -146,33 +172,6 @@
       "name": "Yan Yana",
       "poster": "https://image.tmdb.org/t/p/w500/hykA5yq9tHCKR7WENSgavrNdFeS.jpg",
       "background": "https://image.tmdb.org/t/p/w780/438YXcPF7bkEjJUEktMn2GocS6Q.jpg",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1426083",
-      "type": "movie",
-      "name": "Escobank",
-      "poster": "https://image.tmdb.org/t/p/w500/oeaKqM10h6OLS6JuPj6JEdQipUC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cDiEVwx3VWNRny0ctFVVmCuCFSo.jpg",
-      "description": "Un groupe de vétérans et d'anciens détenus explorent la jungle colombienne pour y retrouver les barils d'argent enterrés laissés par le légendaire baron de la drogue Pablo Escobar. Mais dans cette chasse au cash, le vrai danger n'est pas seulement la jungle...",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1386792",
-      "type": "movie",
-      "name": "La Leçon de Lefter",
-      "poster": "https://image.tmdb.org/t/p/w500/wXsZq6xT4HzRlJVBuHMPNqLADqU.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8ECv9LSLwRnisxoTAmCZBBl8E6k.jpg",
-      "description": "Un prodige du football accède à la gloire, luttant contre les préjugés et ses propres tourments dans sa quête de grandeur. Inspiré de la vie de Lefter, légende du football turque.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1446358",
-      "type": "movie",
-      "name": "Les Mariées d'Adam",
-      "poster": "https://image.tmdb.org/t/p/w500/ao22xjPx81Fmv3gbZTMEZ2YzTXK.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vWMt9uu77fJP5PU6MfYXANSH4Cs.jpg",
-      "description": "Bien qu'allergique aux sentiments, Adam se retrouve fiancé à la fois à la fille de son patron et à son premier amour. À présent, il doit absolument garder secrète cette double vie.",
       "releaseInfo": "2025"
     }
   ]

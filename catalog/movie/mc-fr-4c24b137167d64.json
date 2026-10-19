@@ -1,6 +1,32 @@
 {
   "metas": [
     {
+      "id": "tmdb:1561726",
+      "type": "movie",
+      "name": "Masterplan",
+      "poster": "https://image.tmdb.org/t/p/w500/a13BTR3jJWr2ARoLvTC3f5gQhfw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dgUDj84BWtW6EZzee8BkgKnjDhh.jpg",
+      "description": "Quand un voleur légendaire jette son dévolu sur La Joconde, il recrute deux jeunes inconnus pour l'aider (Chiara, une experte italienne du cybercrime et Jay, un spécialiste français des explosifs) avant de leur révéler qu'il est leur père. Au milieu de retrouvailles chaotiques, cette nouvelle famille devra apprendre à collaborer et éviter de s'entretuer si elle veut réussir le casse du siècle.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1255833",
+      "type": "movie",
+      "name": "Englouti",
+      "poster": "https://image.tmdb.org/t/p/w500/qLt9F35AdGKDXPSJtqH5DERoigI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg",
+      "description": "Un plongeur sous-marin est à la recherche des restes de son père décédé, qui s'est fait avaler par un cachalot. Il ne lui reste plus qu'une heure avant que l'oxygène ne vienne à lui manquer.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1742441",
+      "type": "movie",
+      "name": "V/H/S/Mixtape",
+      "poster": "https://image.tmdb.org/t/p/w500/uS8yoiA6NfsuYeOTbVfpem8Ib9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mpB4pgtUcc7rCLxvlknzCbAQQEE.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1236045",
       "type": "movie",
       "name": "Animals",
@@ -55,11 +81,20 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1376400",
+      "type": "movie",
+      "name": "Crawlers",
+      "poster": "https://image.tmdb.org/t/p/w500/lNXeEpg4yLSRwXwOeR5lbPgwbqL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wqEFo8ZPOO0zefg08XWQbyRoBgO.jpg",
+      "description": "Un homme revient d'un voyage en hébergeant involontairement une nouvelle race d'arachnide. Bientôt, les habitants des son immeuble sont mis en quarantaine et doivent se débrouiller seuls face à une invasion d'araignées venimeuses.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1375441",
       "type": "movie",
       "name": "Primetime",
       "poster": "https://image.tmdb.org/t/p/w500/rhF8JALH8wrxKtXSCAB7a09tWsc.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1tJz8e1G21nEuzHlX771MNBRJvM.jpg",
       "description": "Chris Hansen présente l'émission policière « To Catch a Predator ». Diffusée sur NBC Dateline, cette émission tente de filmer des pédophiles présumés avec l'aide des forces de l'ordre et d'une équipe d'appâts se faisant passer pour des mineurs sur Internet. En 2006, Hansen est sur le point de révolutionner le monde de la télévision.",
       "releaseInfo": "2026"
     },
@@ -68,7 +103,7 @@
       "type": "movie",
       "name": "One Last Shot",
       "poster": "https://image.tmdb.org/t/p/w500/3DpDxNTAOKdZsSxOMXCm1U8W9kk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8giIQcHpxgsPVP6c7aQtHl3txuh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7AArZYRp6zGtbvSbbqoHn9xFp0L.jpg",
       "description": "Jake Harris, un Navy SEAL chevronné, reprend du service lorsque le monde est menacé par Elliot Carter, l'un de ses anciens compagnons d'armes devenu terroriste. Alors que les chefs d'état-major interarmées sont retenus en otage dans un bunker nucléaire, il reste peu de temps avant que Carter ne s'empare de codes nucléaires et plonge le monde dans le chaos. Pour l'arrêter, Harris n'a d'autre choix que de conduire son équipe en territoire ennemi. Face à une armée de mercenaires impitoyables et à des pièges mortels, il va également devoir affronter les démons de son passé.",
       "releaseInfo": "2026"
     },
@@ -79,6 +114,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/qjH0jF5cLZiKS97eNn4S2AdpiHW.jpg",
       "background": "https://image.tmdb.org/t/p/w780/bicMU6xVD5deVyKP2azpyx7xkmH.jpg",
       "description": "Après un terrible crash d’avion, James Belmont (Brad Pitt), ancien des forces spéciales, se retrouve perdu au cœur de l’Alaska avec son chien Odin, depuis toujours à ses côtés. Livrés à eux-mêmes dans une nature aussi magnifique qu’impitoyable, ils devront puiser dans leurs dernières forces pour survivre ensemble.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1433583",
+      "type": "movie",
+      "name": "Les Contrebandiers",
+      "poster": "https://image.tmdb.org/t/p/w500/hjM3hITDk5XvWu4cMn7dj7IpwY8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zLeq2fbHU6UdA7mhsYnIULORTgq.jpg",
+      "description": "Oregon, 1933. Après la mort de sa femme, Samuel Murphy est arraché à sa fille et envoyé dans un camp de travail impitoyable. Lorsqu’un surveillant sans scrupule lui promet la liberté contre une périlleuse mission de contrebande d’or, Murphy saisit sa seule chance de rentrer chez lui. Il s’embarque alors dans une expédition de tous les dangers, au cœur d’une nature hostile, où les trahisons se multiplient. Jusqu’où Murphy sera-t-il prêt à aller pour revoir sa fille ?",
       "releaseInfo": "2026"
     },
     {
@@ -99,83 +143,37 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1701141",
+      "type": "movie",
+      "name": "Gator Face",
+      "poster": "https://image.tmdb.org/t/p/w500/tUkIHTfiMIa5ipTvgYZW86fIoQX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qLPLBWEyjlpCaNOt3NHiM8dmLAB.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1375161",
+      "type": "movie",
+      "name": "Don't Move",
+      "poster": "https://image.tmdb.org/t/p/w500/uh0ZSdM8iOQgHwnUlhhanP8Dkl6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1b0wNCRLYT3mGwvHyTEbqOk98Ix.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1228834",
       "type": "movie",
       "name": "The Fix",
-      "poster": "https://image.tmdb.org/t/p/w500/yopXjun3ICFfJci2ukcEzceZjUs.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yT8EkAvEkJDFeAxK7s7HlIPELRT.jpg",
-      "description": "Tucker dirige une unité d'anciens opérateurs de la CIA en disgrâce à Téhéran.",
+      "poster": "https://image.tmdb.org/t/p/w500/jlP8XDjZN89GrpM3je5Uf8Grqx8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dJTWIecL2vxsCRl5G0lRhPsfrhc.jpg",
+      "description": "Après une mission désastreuse en Afghanistan, des agents de la CIA affectés par les combats tentent de se racheter en menant une opération de sauvetage risquée au cœur de Téhéran.",
       "releaseInfo": "2026"
     },
     {
       "id": "tmdb:1198654",
       "type": "movie",
       "name": "Bad Apples",
-      "poster": "https://image.tmdb.org/t/p/w500/sDgb5jVuZ6ZOh4YjtSMMnbovkCi.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ch1g1X6TfezRwbmiBiYRpALTQjN.jpg",
-      "description": "Maria est institutrice. Elle remet en cause son choix de carrière à cause d'un élève turbulent. Elle finit par kidnapper et séquestrer ce dernier chez elle.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1530121",
-      "type": "movie",
-      "name": "The Girl in the River",
-      "poster": "https://image.tmdb.org/t/p/w500/zk2saSFclmoJDxBovrOTp8W6NSz.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8eGdhSaOiGYpybNsGHuJXqNK5JY.jpg",
-      "description": "Un criminologue chevronné et une jeune psychologue enquêtent sur le meurtre d’une fillette et la disparition de sa sœur jumelle.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1386315",
-      "type": "movie",
-      "name": "The Runner",
-      "poster": "https://image.tmdb.org/t/p/w500/m2FaGlQUKMMFE6nUMwFTcIWbnEi.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jzBWExXacS33rMQ2zLBrqIVweyG.jpg",
-      "description": "Maia Marten, une brillante avocate londonienne, voit sa vie basculer quand un appel durant son jogging lui annonce que son fils a été enlevé. Pour le récupérer, elle ne doit pas cesser de courir et suivre les ordres, aussi cruels soient-ils, sans se fier à personne. Chaque seconde est une épreuve qui repousse les limites d'une mère prête à tout pour sauver son enfant.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1284046",
-      "type": "movie",
-      "name": "Onslaught",
-      "poster": "https://image.tmdb.org/t/p/w500/92SC3guG88KQmZ8GQBKNIxz5OrB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
-      "description": "Lorsqu’une escouade de supersoldats génétiquement modifiés s’évade dans le désert, une redoutable tireuse d’élite de l’armée doit livrer une guerre sans merci pour sauver sa fille.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1742458",
-      "type": "movie",
-      "name": "Confinement",
-      "poster": "https://image.tmdb.org/t/p/w500/i92X6pBSqZgHAvIX28p0AZJU8xz.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xQbHmeJdT95pSDMzP92CrvjceBh.jpg",
-      "description": "Enceinte et récemment veuve, Stella est accueillie par la famille de son défunt mari, avec laquelle elle était en froid. Mais derrière leur générosité se cache quelque chose de profondément inquiétant, et Stella se retrouve à lutter pour sa vie alors que l'obsession de cette famille pour son enfant à naître prend une tournure mortelle.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1101412",
-      "type": "movie",
-      "name": "Fall 2 : Deadpoint",
-      "poster": "https://image.tmdb.org/t/p/w500/glySqxnvhTYDmKqM1gFovrYUnQa.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yBDxqDB29kpH9VojTytjGWBgmdJ.jpg",
-      "description": "Dévastée par la mort de sa sœur Hunter, Jax se lie d’amitié avec Luce, l’intrépide amie de Hunter. Dans l’espoir de guérir, elles entreprennent la célèbre traversée sur planches du mont Kwan, en Thaïlande. Après un éboulement soudain, elles se retrouvent piégées sur une passerelle fragile à 900 mètres au-dessus du vide. Jax devra alors affronter ses peurs les plus profondes, se battre pour survivre et espérer tourner la page.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1482547",
-      "type": "movie",
-      "name": "Zip Wire",
-      "poster": "https://image.tmdb.org/t/p/w500/cO7J0XSVKPlAjUCMWC7DVBn1Py2.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/sbkkAtymJaH5UzExiK974uPzCY4.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1480574",
-      "type": "movie",
-      "name": "Just Play Dead",
-      "poster": "https://image.tmdb.org/t/p/w500/e0WaDBrrBAMcq2stAXCR7rXEsiw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tieojVpH6eW44JQOQEWnf8t4khG.jpg",
-      "description": "Lorsque Jack Wolfe est acculé par le FBI, il prévoit de simuler sa propre mort et de toucher les 30 millions de dollars de son assurance-vie avec la complicité de sa femme “endeuillée”, Nora, tout en faisant accuser son amant, Chad, de son meurtre. Mais Nora a son propre plan : tuer Jack pour de bon, faire accuser Chad et garder la fortune pour elle seule.",
+      "poster": "https://image.tmdb.org/t/p/w500/ajTzOrqqHl65ZBQfrW1ytzrn9Gl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A5sGEzVMjvbgh5ZniaHBXAxppKQ.jpg",
+      "description": "Une enseignante enferme par inadvertance son élève le plus indiscipliné chez elle. Tentant d'arranger les choses, elle hésite lorsque sa classe commence à s'épanouir en l'absence de l'enfant, lui posant un dilemme impossible.",
       "releaseInfo": "2026"
     }
   ]

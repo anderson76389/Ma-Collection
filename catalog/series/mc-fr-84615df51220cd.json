@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:293607",
+      "type": "series",
+      "name": "100 jours en espionne",
+      "poster": "https://image.tmdb.org/t/p/w500/wf7l8ZfGGkOKcQGF3Htt5DDhBxD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3SvKCITqMtjgPIhFBjRc4yTAc4H.jpg",
+      "description": "En quête de liberté, la meilleure pickpocket de Séoul infiltre le gouvernement colonial japonais pour lui dérober des secrets, mais tombe amoureuse du fils de sa cible.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:334553",
       "type": "series",
       "name": "식스센스: B사이드",
@@ -14,7 +23,7 @@
       "name": "Quatre mains, deux sonates",
       "poster": "https://image.tmdb.org/t/p/w500/nzghhjtKVX1n7DIMhTuQrHqeXdQ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/fYL4I6cezb06BHhQlrNjNhy7jhf.jpg",
-      "description": "Kang Bi-o, prodige du piano au lycée, excelle constamment en études et en virtuosité pianistique. Considéré comme une future icône de la musique classique, promis à un brillant avenir dans les plus grands concours internationaux, sa carrière bascule lorsqu'il rencontre un rival inattendu : Choi Jeong-yo. Pianiste au talent inné, Jeong-yo a renoncé à son don exceptionnel suite à une enfance difficile. Son admission soudaine au lycée des arts de Corée le met face à Bi-o, le pianiste même qui a ravivé sa passion pour le piano. Jeong-yo est alors contraint de se confronter à ce don qu'il avait autrefois abandonné, et une amitié se noue entre eux.",
+      "description": "Quand deux jeunes pianistes issus de mondes radicalement opposés se rencontrent dans un prestigieux lycée spécialisé en musique, les mélodies de leurs vies s'accordent intimement.",
       "releaseInfo": "2026"
     },
     {
@@ -160,15 +169,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/nJ0gSaXfoiPFngy1ulCCuxsKt0q.jpg",
       "background": "https://image.tmdb.org/t/p/w780/6yyKOxjQgb0C3I43T6qyXbieHni.jpg",
       "description": "Une inspectrice d'élite au sein du Service de supervision financière infiltre une société de courtage en se faisant passer pour une jeune employée de 20 ans, suite à la détection de fonds suspects. Elle découvre le quotidien d'une employée débutante.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:280948",
-      "type": "series",
-      "name": "Fièvre printanière",
-      "poster": "https://image.tmdb.org/t/p/w500/bvjGBaMJRNulslJvNzMIkWMRdq0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nRxbtO6OchyepUL2Zr4dpMZsdsX.jpg",
-      "description": "Fièvre printanière : cette lassitude qui gagne souvent les gens au printemps. Yoon Bom, une professeure au cœur en hiver, rejoint une petite école de campagne où elle réapprend doucement le bonheur au contact chaleureux de Sun Jae-gyu.",
       "releaseInfo": "2026"
     }
   ]

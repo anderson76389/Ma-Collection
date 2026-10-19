@@ -1,6 +1,24 @@
 {
   "metas": [
     {
+      "id": "tmdb:293610",
+      "type": "series",
+      "name": "Doctor X : Mafia en blouse blanche",
+      "poster": "https://image.tmdb.org/t/p/w500/xYFTiwC7Tl0xOUFiVFUPWXHTHnr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mDYIV71RL3mkaW8IfSGNthuVB7l.jpg",
+      "description": "Kye Su-Jeong, une brillante chirurgienne, est affectée à l'hôpital universitaire de Guseo pour pourvoir un poste vacant en chirurgie. Elle y fait ses preuves grâce à son talent et met en lumière les absurdités du milieu médical. Elle se lie d'amitié avec Bu Seung-Kwon, le directeur de l'hôpital, et l'interne Park Tae-Kyeong",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:289423",
+      "type": "series",
+      "name": "Recharge mon Coeur",
+      "poster": "https://image.tmdb.org/t/p/w500/p5UJ0xS2NVmqtUfy9i0DMIJ1Lf3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rN9xHDp83kZ3cOr82JR1b4rFIFk.jpg",
+      "description": "Un héritier d’entreprise doté d’un cœur artificiel rencontre une femme littéralement électrique. Ils concluent un marché qui fait battre son cœur, et pas seulement au sens propre.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:275102",
       "type": "series",
       "name": "The Scandal",
@@ -15,7 +33,7 @@
       "name": "Quatre mains, deux sonates",
       "poster": "https://image.tmdb.org/t/p/w500/nzghhjtKVX1n7DIMhTuQrHqeXdQ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/fYL4I6cezb06BHhQlrNjNhy7jhf.jpg",
-      "description": "Kang Bi-o, prodige du piano au lycée, excelle constamment en études et en virtuosité pianistique. Considéré comme une future icône de la musique classique, promis à un brillant avenir dans les plus grands concours internationaux, sa carrière bascule lorsqu'il rencontre un rival inattendu : Choi Jeong-yo. Pianiste au talent inné, Jeong-yo a renoncé à son don exceptionnel suite à une enfance difficile. Son admission soudaine au lycée des arts de Corée le met face à Bi-o, le pianiste même qui a ravivé sa passion pour le piano. Jeong-yo est alors contraint de se confronter à ce don qu'il avait autrefois abandonné, et une amitié se noue entre eux.",
+      "description": "Quand deux jeunes pianistes issus de mondes radicalement opposés se rencontrent dans un prestigieux lycée spécialisé en musique, les mélodies de leurs vies s'accordent intimement.",
       "releaseInfo": "2026"
     },
     {
@@ -51,6 +69,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/b5jBoSQ7CW1zDJURuctD30mATuO.jpg",
       "background": "https://image.tmdb.org/t/p/w780/eBD46F44qKGPZiRLffO4q3JF8Hc.jpg",
       "description": "Une fan inconditionnelle décroche un poste dans une entreprise de mode, pour découvrir peu après que celle-ci a été cofondée par son idole absolue. Bien décidée à rester professionnelle, elle dissimule son identité de fan, mais se laisse rapidement déstabiliser par le PDG de l’entreprise, un véritable bourreau de travail. Alors que des sentiments amoureux secrets et non réciproques ainsi que des difficultés personnelles soigneusement cachées viennent compliquer les relations entre les trois protagonistes, elle se retrouve tiraillée entre son obsession de toujours et une nouvelle relation aussi inattendue que troublante.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:301418",
+      "type": "series",
+      "name": "The Affair Was Just The Beginning",
+      "poster": "https://image.tmdb.org/t/p/w500/dyusVtoZ2h3RV6jbgTeqzRBMV7a.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/463KX5md13Db6pIMCCnIZqtPWFK.jpg",
+      "description": "Une entrepreneuse à succès, dont la vie semble parfaite, voit tout s’effondrer lorsqu’elle découvre que son mari dissimule un meurtre qui aurait été commis par leur fille. Alors que la famille s’efforce de cacher la vérité, un maître chanteur anonyme affirme avoir tout enregistré, les entraînant dans un dangereux engrenage de mensonges, de secrets et de trahisons.",
       "releaseInfo": "2026"
     },
     {
@@ -148,33 +175,6 @@
       "name": "거짓말이 사는 집",
       "poster": "https://image.tmdb.org/t/p/w500/8GaDUt2mY7L2fZeawEbhjxO1Vc2.jpg",
       "background": "https://image.tmdb.org/t/p/w780/xiCfjMXdxVXxizYSgDNH84BZcbt.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:276161",
-      "type": "series",
-      "name": "Que ça vous serve de leçon !",
-      "poster": "https://image.tmdb.org/t/p/w500/6FN0FAhkMeGmU3xAn4D1FmMJvtZ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vyG93jhmPL7tBIhRtCLa5mdBKob.jpg",
-      "description": "Quand il n'y a plus de respect à l'école, des inspecteurs d'un certain type viennent mettre de l'ordre en rappelant sans détour les principes de vie absents des manuels scolaires.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:287009",
-      "type": "series",
-      "name": "Doctor on the Edge",
-      "poster": "https://image.tmdb.org/t/p/w500/gBMouxOXSMyV7FIroOh9pfaB2JA.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7KpvkMnbRsyrAlnrZpbnEWC42AE.jpg",
-      "description": "Do Jiui, chirurgien plasticien, est promis à un brillant avenir, lorsqu'une affectation comme médecin de santé publique sur l'île isolée de Pyeondongdo vient bouleverser sa vie. Pour Jiui, cet endroit perdu au milieu de l'océan est plus qu'un simple exil. Hanté par un traumatisme, la mer est pour lui une source de terreur, une prison à ciel ouvert. Entre les habitants indiscrets et les insectes qui l'assaillent de toutes parts, la vie sur l'île est un véritable enfer pour ce citadin. C'est là qu'il rencontre l'infirmière mystérieuse, Yuk Hari. Derrière un doux sourire lourd de secrets, elle semble toujours là lorsque la phobie de Jiui refait surface. Alors que leurs chemins ne cessent de se croiser, Jiui parviendra-t-il à surmonter ses peurs et à quitter l'île ?",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:299365",
-      "type": "series",
-      "name": "Reborn Rookie",
-      "poster": "https://image.tmdb.org/t/p/w500/ryoklqf5Xi76b1Cqb0h4I7zL6qa.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nxOsQE8UrifZpQ9hcZ7xjMHEbmn.jpg",
-      "description": "Après avoir été trahi par ses enfants, le président d'un puissant conglomérat se réveille dans le corps d'un jeune footballeur ; il met alors à profit son génie des affaires et son physique athlétique pour se venger de sa famille.",
       "releaseInfo": "2026"
     }
   ]

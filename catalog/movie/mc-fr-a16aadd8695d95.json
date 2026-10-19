@@ -1,6 +1,42 @@
 {
   "metas": [
     {
+      "id": "tmdb:1241803",
+      "type": "movie",
+      "name": "Les Misérables",
+      "poster": "https://image.tmdb.org/t/p/w500/tY3CoBNTCpvJayVRLqIIGDa4Ep8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2IAY24dGrbGnafJ3ENXmCDTDvxg.jpg",
+      "description": "Jean Valjean, un ancien forçat évadé du bagne où il a passé 16 ans pour avoir volé du pain, seconsacre désormais à faire le bien autour de lui. Il se crée une nouvelle identité, celle d'un notable respecté, et vient en aide à Fantine, une ouvrière mourante en lui promettant de sauver sa fille, la petite Cosette, des griffes des Thénardier, des aubergistes qui l'exploitent et la maltraitent. Alors que Valjean prend soin de l'enfant et l'élève comme sa propre fille, son passé finit par le rattraper en la personne de l’inspecteur Javert qui n'a eu de cesse de le pourchasser durant toutes ces années. En dépit de l'agitation sociale qui secoue la France, les destins de Valjean, de Cosette, de son amant Marius et de Javert s'entremêlent dans un Paris bouillonnant et révolutionnaire. À travers des luttes, des sacrifices et un profond désir de justice, Valjean s'efforce d'achever son parcours de rédemption et d'offrir à Cosette un avenir d'amour et de liberté.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:947493",
+      "type": "movie",
+      "name": "Le corset",
+      "poster": "https://image.tmdb.org/t/p/w500/h4YDklaLjbgdu9yUr6vNybnrnzX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3e0Lzs4vDSHjRULFw6vPI4jyHd6.jpg",
+      "description": "Dans une ferme au cœur de la Beauce, Christophe, 11 ans, règle ses pas sur ceux de son père. Mais à l’école, à la maison, sur le tracteur, Christophe penche… et tombe. Il est obligé de porter un corset pour filer droit. Tandis que la ferme traverse des moments difficiles, Christophe grandit comme il peut. Il découvre la musique et fait la rencontre de Clara, avec qui tout semble devenir possible.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:848700",
+      "type": "movie",
+      "name": "Minotaure",
+      "poster": "https://image.tmdb.org/t/p/w500/7XH2vaVsishBS0GuCgO3bOXfCaB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/i5HacpkXOKQ85lfbnMO3jXvAnPy.jpg",
+      "description": "Russie, 2022. Gleb, chef d’entreprise prospère, vit avec sa femme Galina et leur fils dans une ville de province. Il se retrouve confronté à des problèmes professionnels croissants, dans un monde de plus en plus instable. L’effondrement d’une vie soigneusement construite bascule rapidement dans la violence.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1429592",
+      "type": "movie",
+      "name": "Ni vue, ni connue",
+      "poster": "https://image.tmdb.org/t/p/w500/sXqiQw6cwZlp4B8OnT3LRGC6wgR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/a6O9MMak7mHDdxwApf2nGlvIs0g.jpg",
+      "description": "Corinne Maclou est figurante. Elle enchaîne les tournages, parcourt inlassablement les plateaux dans le seul espoir d’être remarquée et de décrocher enfin un vrai rôle. Lorsqu’elle fait la connaissance de Sandrine Kiberlain, avec qui elle va peu à peu sympathiser, Corinne espère concrétiser son rêve. Mais la célèbre actrice va-t-elle vraiment l'aider à se faire une place au sein de la grande famille du cinéma ?",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1318864",
       "type": "movie",
       "name": "Notre salut",
@@ -22,7 +58,7 @@
       "id": "tmdb:1507877",
       "type": "movie",
       "name": "Garance",
-      "poster": "https://image.tmdb.org/t/p/w500/opOcBqvFchGd8PWdLGyY2435k1v.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/lPbCVN8Zlb95Bdney1hqGfgEbDV.jpg",
       "background": "https://image.tmdb.org/t/p/w780/yLZCngaex5380FB6sEy6o10L9wN.jpg",
       "description": "Garance est une jeune actrice sans être une vedette. Elle gère et assure tout de son mieux, vaillante, joyeuse, soldate, et elle trouve dans l’alcool un carburant, un réconfort, inconditionnel. Garance change de vie et commence alors un parcours de huit ans de déménagements, de travail, de rencontres, de fêtes et d’angoisses, de joies et de coups durs… Une révolution intime, amicale et sexuelle, Mais elle consomme, toujours plus. Jusqu'à la potentialité de la mort..",
       "releaseInfo": "2026"
@@ -142,42 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/gKuRnWDee2OvvzdQf1kI4vqcnhq.jpg",
       "background": "https://image.tmdb.org/t/p/w780/aEXYk8VsZVcNhwo67oRkPI46pT8.jpg",
       "description": "Pour gagner sa vie, Laura accepte un emploi au service de Souria. Installée dans un hôtel particulier du triangle d’or par son amant, un riche prince saoudien, Souria vit dans l’attente de ses visites. Tandis que Laura doit s’adapter à cet univers de luxe démesuré et de surveillance constante, un lien fragile se tisse entre les deux femmes. Mais Laura pressent qu’un danger pèse sur Souria et que cette cage dorée pourrait bien se refermer sur elles deux.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1000135",
-      "type": "movie",
-      "name": "Les matins merveilleux",
-      "poster": "https://image.tmdb.org/t/p/w500/g2HbeZ27nBJVhqGMp5w7piOY3V9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7Cc4N2mxLbZ5HFPn20zOVBPPVq5.jpg",
-      "description": "De vieux vinyles disco dans le coffre de sa Twingo, à peine remise de la mort de sa grand-mère, Charlie roule. Elle ne sait pas encore que ces disques ressusciteront les pas de danse de sa mère dans les yeux humides de Titou, caviste rêveur, ni qu’une plage méditerranéenne désertée sera le théâtre de sa rencontre avec Marina, qui rêve son idéal de liberté dans la pizzeria du village. Pour l’instant, elle roule.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1496491",
-      "type": "movie",
-      "name": "De la Comédie-Française",
-      "poster": "https://image.tmdb.org/t/p/w500/3ykToOKrgIlKBOkxpRscXNAkzET.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5ikboX1fj7GVjVpgcdkR4E6j16A.jpg",
-      "description": "Dans 3 heures, Nina dévoile sa première mise en scène à la Comédie-Française. Mais dans l’agitation des dernières répétitions, rien ne se passe comme prévu : retards, coups de stress, problèmes techniques et problèmes d’égo secouent la troupe. Pourtant, Nina n’a pas d’autre choix que d’aller jusqu’au bout car s’il y a bien une règle d’or à la Comédie-Française, c’est qu’on n’annule pas. Commence alors une course contre la montre pour sauver la représentation.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1710008",
-      "type": "movie",
-      "name": "Jusqu'au bout",
-      "poster": "https://image.tmdb.org/t/p/w500/aBPP2BQUT2mE5mmlbIRZx3ggdp0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5cEmmIMunNk3JRij4nTitFtikIg.jpg",
-      "description": "Jada a longtemps lutté pour avoir un enfant avec son compagnon. Après une naissance par don d'embryon, des années plus tard, Jada, désormais mère célibataire, découvre que son fils est atteint d'une leucémie qui s’aggrave de jour en jour, sa vie est menacée. Pour obtenir une greffe, il lui faut un donneur urgemment. Jusqu'où sera-t-elle prête à aller pour sauver son fils ?",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1492288",
-      "type": "movie",
-      "name": "La Chaleur",
-      "poster": "https://image.tmdb.org/t/p/w500/42uouj30D7oPf8sPY6ids5QDf55.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yJGT3NHe9kO9peU09iYYBvNZALE.jpg",
-      "description": "Il fait anormalement chaud sur les plages des Landes et Marouane, 17 ans, passe sa dernière journée au camping avec une angoisse : le corps qu’il a enseveli la veille sur la plage va-t-il apparaître au grand jour ? Marouane se demande par ailleurs s’il n’est pas en train de tomber amoureux de la charmante Giulia.",
       "releaseInfo": "2026"
     }
   ]
