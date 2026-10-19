@@ -61,6 +61,64 @@ try {
     assert(counts.uniqueButtons>=55);
     assert.deepEqual(counts.duplicateButtonIds,[]);
   });
+  await run("accueil centré et lisible sur ordinateur et mobile",async()=>{
+    for (const width of [1440,960,390]) {
+      await page.setViewportSize({width,height:835});
+      const layout=await page.evaluate(()=>{
+        const center=id=>{
+          const r=document.querySelector(id).getBoundingClientRect();
+          return {mid:r.left+r.width/2,left:r.left,right:r.right,width:r.width};
+        };
+        return {
+          primary:center("#title-screen-import-all"),
+          quick:center("#title-screen-collection-only"),
+          logo:center(".title-hero-logo-img"),
+          title:center(".title-screen-logo"),
+          viewport:window.innerWidth,
+          help:document.querySelector(".portfolio-sec-title")?.textContent.trim(),
+          faq:document.querySelector("#title-screen-faq .port-card-title")?.textContent.trim(),
+          brand:document.querySelector(".brand-subtitle")?.textContent.trim()
+        };
+      });
+      for(const name of ["primary","quick","logo","title"]){
+        assert(layout[name].left>=-2 && layout[name].right<=layout.viewport+2,
+          name+" dépasse horizontalement à "+width+" px");
+      }
+      assert(Math.abs(layout.primary.mid-layout.quick.mid)<=3,
+        "Le bouton Envoi rapide n'est pas centré sous le bouton principal à "+width+" px");
+      assert(Math.abs(layout.primary.mid-layout.logo.mid)<=5,
+        "Le logo n'est pas centré à "+width+" px");
+      assert(Math.abs(layout.primary.mid-layout.title.mid)<=5,
+        "Le titre n'est pas centré à "+width+" px");
+      assert(layout.quick.width>layout.primary.width*0.60,
+        "Envoi rapide occupe encore une demi-colonne à "+width+" px");
+      assert.equal(layout.help,"Aide et prise en main");
+      assert.equal(layout.faq,"FAQ et guides de configuration");
+      assert.equal(layout.brand,"Vos catalogues en français");
+    }
+    await page.setViewportSize({width:1440,height:900});
+  });
+  await run("rubriques FAQ, Bingecat et auto-hébergement : vrais boutons ouvrables",async()=>{
+    await page.locator("#title-scroll-indicator").click();
+    await page.locator("#title-screen-faq").click();
+    assert(await page.locator("#faq-overlay").evaluate(el=>el.classList.contains("open")));
+    const faq=await page.locator("#faq-overlay .faq-body").innerText();
+    assert(faq.includes("Comment actualiser les catalogues déjà importés ?"));
+    assert(faq.includes("Kovelyx") && faq.includes("Nuvio"));
+    await page.locator("#faq-close").click();
+    await page.waitForFunction(()=>!document.querySelector("#faq-overlay"));
+    await page.locator("#title-screen-bingecat").click();
+    assert(await page.locator(".bc-choice-overlay").last().evaluate(el=>el.classList.contains("open")));
+    assert.equal(await page.locator("#bc-choice-full").count(),1);
+    await page.locator("#bc-choice-cancel").click();
+    await page.waitForFunction(()=>!document.querySelector(".bc-choice-overlay"));
+    await page.locator("#title-screen-selfhost").click();
+    assert(await page.locator(".bc-choice-overlay").last().evaluate(el=>el.classList.contains("open")));
+    assert.equal(await page.locator("#sh-choice-edit").count(),1);
+    await page.locator("#bc-choice-cancel").click();
+    await page.waitForFunction(()=>!document.querySelector(".bc-choice-overlay"));
+    await page.evaluate(()=>{document.querySelector("#title-screen-overlay").scrollTop=0;});
+  });
   await run("bouton thème de l'accueil : changement réel",async()=>{
     const theme=()=>page.evaluate(()=>document.documentElement.getAttribute("data-theme"));
     const original=await theme();
