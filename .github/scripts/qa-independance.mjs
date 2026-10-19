@@ -14,10 +14,19 @@ const withoutComments = html.replace(/<!--[^]*?-->/g,"");
 
 // Aucun bouton, compteur, support ni connexion à l'ancien service de comptes.
 // Nuvio est maintenant un choix d'export JSON manuel autorisé par l'utilisateur.
-const expectedNuvioTitle = 'title="Choisir Nuvio ou Kovelyx pour importer la sélection"';
-assert(withoutComments.includes(expectedNuvioTitle), "Le choix Nuvio / Kovelyx doit rester visible");
-assert(!/nuvio/i.test(withoutComments.replace(expectedNuvioTitle,"")),
-  "Ancien branding ou intégration Nuvio détecté hors du choix d'export explicite");
+const approvedNuvioMentions = [
+  'title="Choisir Nuvio ou Kovelyx pour importer la sélection"',
+  'pour Kovelyx ou Nuvio.</p>',
+  'title="Personnalisez la collection, puis choisissez Kovelyx ou Nuvio"',
+  'title="Préparer rapidement une collection pour Kovelyx ou Nuvio"',
+];
+let htmlWithoutExportDescriptions=withoutComments;
+for (const mention of approvedNuvioMentions) {
+  assert(htmlWithoutExportDescriptions.includes(mention), "Mention de destination manquante : "+mention);
+  htmlWithoutExportDescriptions=htmlWithoutExportDescriptions.replace(mention,"");
+}
+assert(!/nuvio/i.test(htmlWithoutExportDescriptions),
+  "Ancien branding ou intégration Nuvio détecté hors des mentions autorisées d'export");
 assert(!/telemetry-icon|visitor-count|collections-generated-count/i.test(withoutComments), "Compteur toujours visible");
 assert(!/countapi\.mileshilliard\.com|MaCollectionTelemetry/.test(app), "Compteur distant encore chargé");
 assert(!/NuvioPush|api\.nuvio\.tv/.test(app + destination + local + withoutComments),
