@@ -47,7 +47,7 @@ window.NUVIO_DATABASE = [
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-7NEO7K9N",
             "genre": "New Movies",
@@ -70,7 +70,7 @@ window.NUVIO_DATABASE = [
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -1318,7 +1318,7 @@ window.NUVIO_DATABASE = [
               "withoutGenres": "99",
               "without_genres": "99",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-PZC0YDHC",
             "genre": "New Movies",
@@ -1341,7 +1341,7 @@ window.NUVIO_DATABASE = [
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -2368,7 +2368,7 @@ window.NUVIO_DATABASE = [
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-DIUYFIWN",
             "genre": "New Movies",
@@ -2391,7 +2391,7 @@ window.NUVIO_DATABASE = [
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -3614,7 +3614,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-XSWCPIRI",
             "genre": "New Movies",
@@ -3637,7 +3637,7 @@ window.NUVIO_DATABASE = [
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -4859,7 +4859,7 @@ window.NUVIO_DATABASE = [
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-CGG0YXSJ",
             "genre": "New Movies",
@@ -4882,7 +4882,7 @@ window.NUVIO_DATABASE = [
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -6063,7 +6063,7 @@ window.NUVIO_DATABASE = [
               "sortBy": "primary_release_date.desc",
               "voteCountGte": 1,
               "vote_count.gte": 1,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -6083,7 +6083,7 @@ window.NUVIO_DATABASE = [
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -6152,7 +6152,7 @@ window.NUVIO_DATABASE = [
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-3S6T8OAU",
             "genre": "New Movies",
@@ -6747,7 +6747,7 @@ window.NUVIO_DATABASE = [
               "withWatchProviders": "283",
               "watchRegion": "US",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-1N6O9RI2",
             "genre": "New Movies",
@@ -6787,7 +6787,7 @@ window.NUVIO_DATABASE = [
               "sortBy": "first_air_date.desc",
               "withoutGenres": "10764,10767,10763",
               "without_genres": "10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -7139,7 +7139,7 @@ window.NUVIO_DATABASE = [
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-1OUNMRKZ",
             "genre": "New Movies",
@@ -7162,7 +7162,7 @@ window.NUVIO_DATABASE = [
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -7473,7 +7473,7 @@ window.NUVIO_DATABASE = [
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-5URNOQTK",
             "genre": "New Movies",
@@ -7496,7 +7496,7 @@ window.NUVIO_DATABASE = [
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -7831,7 +7831,7 @@ window.NUVIO_DATABASE = [
               "withoutGenres": "99",
               "without_genres": "99",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-V4H8LHTU",
             "genre": "New Movies",
@@ -7854,7 +7854,7 @@ window.NUVIO_DATABASE = [
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -9033,7 +9033,7 @@ window.NUVIO_DATABASE = [
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -9103,7 +9103,7 @@ window.NUVIO_DATABASE = [
               "withoutGenres": "99",
               "without_genres": "99",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-MEBFDWZ2",
             "genre": "New Movies",
@@ -9126,7 +9126,7 @@ window.NUVIO_DATABASE = [
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -10351,7 +10351,7 @@ window.NUVIO_DATABASE = [
               "watchRegion": "US",
               "watch_region": "US",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -10371,7 +10371,7 @@ window.NUVIO_DATABASE = [
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           }
         ]
@@ -10420,7 +10420,7 @@ window.NUVIO_DATABASE = [
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-PBX2HWFJ",
             "genre": "New Movies",
@@ -10443,7 +10443,7 @@ window.NUVIO_DATABASE = [
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -11509,7 +11509,7 @@ window.NUVIO_DATABASE = [
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-9AFR9HB6",
             "genre": "New Movies",
@@ -12060,7 +12060,7 @@ window.NUVIO_DATABASE = [
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-FHQKLHKE",
             "genre": "New Movies",
@@ -12083,7 +12083,7 @@ window.NUVIO_DATABASE = [
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -13258,7 +13258,7 @@ window.NUVIO_DATABASE = [
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-2QP7VLFT",
             "genre": "New Movies",
@@ -13281,7 +13281,7 @@ window.NUVIO_DATABASE = [
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -14376,7 +14376,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-3UBWKV1Z",
             "genre": "New Movies",
@@ -14399,7 +14399,7 @@ window.NUVIO_DATABASE = [
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -15595,7 +15595,7 @@ window.NUVIO_DATABASE = [
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-DT0XT0VV",
             "genre": "New Movies",
@@ -15618,7 +15618,7 @@ window.NUVIO_DATABASE = [
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -16029,7 +16029,7 @@ window.NUVIO_DATABASE = [
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-D7R2N3TT",
             "genre": "New Movies",
@@ -16052,7 +16052,7 @@ window.NUVIO_DATABASE = [
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -17119,7 +17119,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-L56WKCQ1",
             "genre": "New Movies",
@@ -17144,7 +17144,7 @@ window.NUVIO_DATABASE = [
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -18364,7 +18364,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -18433,7 +18433,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -18502,7 +18502,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -18571,7 +18571,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -18640,7 +18640,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -18709,7 +18709,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -18778,7 +18778,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -18847,7 +18847,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -18916,7 +18916,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -18985,7 +18985,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -19054,7 +19054,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -19123,7 +19123,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -19192,7 +19192,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -19261,7 +19261,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -19330,7 +19330,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -19399,7 +19399,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -19468,7 +19468,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -19537,7 +19537,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -19606,7 +19606,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -19675,7 +19675,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -19744,7 +19744,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -19813,7 +19813,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -19882,7 +19882,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -19951,7 +19951,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -20020,7 +20020,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -20089,7 +20089,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -20158,7 +20158,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -20227,7 +20227,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -20296,7 +20296,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -20365,7 +20365,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -20434,7 +20434,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -20503,7 +20503,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -20572,7 +20572,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -20641,7 +20641,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -20710,7 +20710,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -20779,7 +20779,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -20848,7 +20848,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -20917,7 +20917,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -20986,7 +20986,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21055,7 +21055,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21124,7 +21124,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21193,7 +21193,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21262,7 +21262,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21331,7 +21331,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21400,7 +21400,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21469,7 +21469,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21538,7 +21538,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21607,7 +21607,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21676,7 +21676,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21745,7 +21745,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21814,7 +21814,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21883,7 +21883,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21952,7 +21952,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22021,7 +22021,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22090,7 +22090,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22159,7 +22159,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22228,7 +22228,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22297,7 +22297,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22366,7 +22366,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22435,7 +22435,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22504,7 +22504,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22573,7 +22573,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22642,7 +22642,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22711,7 +22711,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22780,7 +22780,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22849,7 +22849,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22918,7 +22918,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22987,7 +22987,7 @@ window.NUVIO_DATABASE = [
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-13"
+              "releaseDateGte": "2023-10-20"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -23050,7 +23050,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -23068,7 +23068,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -23218,7 +23218,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -23236,7 +23236,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -23384,7 +23384,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -23402,7 +23402,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -23544,7 +23544,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "ja",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -23562,7 +23562,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "ja",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -23706,7 +23706,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -23724,7 +23724,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -23874,7 +23874,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -23892,7 +23892,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -24040,7 +24040,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -24058,7 +24058,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -24202,7 +24202,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -24220,7 +24220,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -24368,7 +24368,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -24386,7 +24386,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -24530,7 +24530,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -24548,7 +24548,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -24698,7 +24698,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -24719,7 +24719,7 @@ window.NUVIO_DATABASE = [
               "with_keywords": "15060|192772",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -24878,7 +24878,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -24896,7 +24896,7 @@ window.NUVIO_DATABASE = [
               "withKeywords": "315058",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -25059,7 +25059,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "genre": "K-Drama",
             "name": "K-Drama"
@@ -25077,7 +25077,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "ko",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "genre": "K-Drama",
             "name": "K-Drama"
@@ -25213,7 +25213,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -25231,7 +25231,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -25339,7 +25339,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -25357,7 +25357,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -25525,7 +25525,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -25543,7 +25543,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -25695,7 +25695,7 @@ window.NUVIO_DATABASE = [
               "without_keywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903",
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -25715,7 +25715,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutKeywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903",
               "without_keywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -25879,7 +25879,7 @@ window.NUVIO_DATABASE = [
               "without_keywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903",
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -25899,7 +25899,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutKeywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903",
               "without_keywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -26061,7 +26061,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -26079,7 +26079,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -26229,7 +26229,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -26247,7 +26247,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -26377,7 +26377,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -26395,7 +26395,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -26525,7 +26525,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -26543,7 +26543,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -26695,7 +26695,7 @@ window.NUVIO_DATABASE = [
               "without_genres": "16,99",
               "withoutKeywords": "210024|222243",
               "without_keywords": "210024|222243",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -26713,7 +26713,7 @@ window.NUVIO_DATABASE = [
               "withKeywords": "10349",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -26869,7 +26869,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -26887,7 +26887,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -27047,7 +27047,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -27065,7 +27065,7 @@ window.NUVIO_DATABASE = [
               "withGenres": "37",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -27319,7 +27319,7 @@ window.NUVIO_DATABASE = [
             "filters": {
               "withGenres": "35,10749",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-10-12",
+              "releaseDateGte": "2024-10-19",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16",
@@ -27444,7 +27444,7 @@ window.NUVIO_DATABASE = [
             "filters": {
               "withGenres": "878",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-10-12",
+              "releaseDateGte": "2024-10-19",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16",
@@ -27567,7 +27567,7 @@ window.NUVIO_DATABASE = [
             "filters": {
               "withGenres": "28,53",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-10-12",
+              "releaseDateGte": "2024-10-19",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16",
@@ -27691,7 +27691,7 @@ window.NUVIO_DATABASE = [
             "filters": {
               "withGenres": "12",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-10-12",
+              "releaseDateGte": "2024-10-19",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16",
@@ -27816,7 +27816,7 @@ window.NUVIO_DATABASE = [
             "filters": {
               "withGenres": "35,10751",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-10-12",
+              "releaseDateGte": "2024-10-19",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
@@ -27940,7 +27940,7 @@ window.NUVIO_DATABASE = [
             "filters": {
               "withGenres": "18,9648",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-10-12",
+              "releaseDateGte": "2024-10-19",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16",
@@ -28070,7 +28070,7 @@ window.NUVIO_DATABASE = [
             "filters": {
               "withGenres": "18,10749",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-10-12",
+              "releaseDateGte": "2024-10-19",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16",
@@ -28326,7 +28326,7 @@ window.NUVIO_DATABASE = [
             "filters": {
               "withGenres": "80,53",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-10-12",
+              "releaseDateGte": "2024-10-19",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16",
@@ -28452,7 +28452,7 @@ window.NUVIO_DATABASE = [
             "filters": {
               "withGenres": "27",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-10-12",
+              "releaseDateGte": "2024-10-19",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16",
@@ -28503,7 +28503,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -28521,7 +28521,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -28625,7 +28625,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutGenres": "99",
               "without_genres": "99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -28643,7 +28643,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -28751,7 +28751,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutGenres": "99",
               "without_genres": "99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -28769,7 +28769,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -28877,7 +28877,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutGenres": "99",
               "without_genres": "99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -28895,7 +28895,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -29003,7 +29003,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutGenres": "99",
               "without_genres": "99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -29021,7 +29021,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -29129,7 +29129,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutGenres": "99",
               "without_genres": "99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -29147,7 +29147,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -29257,7 +29257,7 @@ window.NUVIO_DATABASE = [
               "without_genres": "99",
               "withoutKeywords": "234890|340359",
               "without_keywords": "234890|340359",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -29277,7 +29277,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutKeywords": "234890|340359",
               "without_keywords": "234890|340359",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -29393,7 +29393,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutGenres": "99",
               "without_genres": "99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -29411,7 +29411,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -29519,7 +29519,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutGenres": "99",
               "without_genres": "99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -29537,7 +29537,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -29645,7 +29645,7 @@ window.NUVIO_DATABASE = [
               "vote_count.gte": 10,
               "withoutGenres": "99",
               "without_genres": "99",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -29663,7 +29663,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -58081,7 +58081,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "ja",
               "withoutKeywords": "198385|378816|155477|256466|329280|570|1817|15078|13059|195669|325693|360629|284535|356759|337946",
               "withGenres": "16",
-              "releaseDateGte": "2026-04-10",
+              "releaseDateGte": "2026-04-17",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "without_keywords": "198385|378816|155477|256466|329280|570|1817|15078|13059|195669|325693|360629|284535|356759|337946",
@@ -58243,7 +58243,7 @@ window.NUVIO_DATABASE = [
               "withOriginalLanguage": "ja",
               "withoutKeywords": "198385|378816|155477|256466|329280|570|1817|15078|13059|195669|325693|360629|284535|356759|337946",
               "withGenres": "16,10759",
-              "releaseDateGte": "2024-10-12",
+              "releaseDateGte": "2024-10-19",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "without_keywords": "198385|378816|155477|256466|329280|570|1817|15078|13059|195669|325693|360629|284535|356759|337946",
@@ -58519,7 +58519,7 @@ window.NUVIO_DATABASE = [
               "withoutKeywords": "198385|378816|155477|256466|329280|570|1817|15078|13059|195669|325693|360629|284535|356759|337946",
               "withGenres": "16",
               "withKeywords": "237451",
-              "releaseDateGte": "2024-10-12",
+              "releaseDateGte": "2024-10-19",
               "voteCountGte": 3,
               "vote_count.gte": 3,
               "without_keywords": "198385|378816|155477|256466|329280|570|1817|15078|13059|195669|325693|360629|284535|356759|337946",
@@ -58665,7 +58665,7 @@ window.NUVIO_DATABASE = [
               "withoutKeywords": "198385|378816|155477|256466|329280|570|1817|15078|13059|195669|325693|360629|284535|356759|337946",
               "withGenres": "16",
               "withKeywords": "9840",
-              "releaseDateGte": "2024-10-12",
+              "releaseDateGte": "2024-10-19",
               "voteCountGte": 3,
               "vote_count.gte": 3,
               "without_keywords": "198385|378816|155477|256466|329280|570|1817|15078|13059|195669|325693|360629|284535|356759|337946",
@@ -58809,7 +58809,7 @@ window.NUVIO_DATABASE = [
               "withoutKeywords": "198385|378816|155477|256466|329280|570|1817|15078|13059|195669|325693|360629|284535|356759|337946",
               "withGenres": "16",
               "withKeywords": "6075",
-              "releaseDateGte": "2024-10-12",
+              "releaseDateGte": "2024-10-19",
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "without_keywords": "198385|378816|155477|256466|329280|570|1817|15078|13059|195669|325693|360629|284535|356759|337946",
@@ -59530,7 +59530,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-13",
+              "releaseDateGte": "2023-10-20",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "FR",
@@ -59642,7 +59642,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-13",
+              "releaseDateGte": "2023-10-20",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "GB",
@@ -59759,7 +59759,7 @@ window.NUVIO_DATABASE = [
             "sortBy": "primary_release_date.desc",
             "filters": {
               "withOriginalLanguage": "es|pt",
-              "releaseDateGte": "2023-10-13",
+              "releaseDateGte": "2023-10-20",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "MX|GT|HN|SV|NI|CR|PA|CU|DO|PR|CO|VE|EC|PE|BO|PY|UY|AR|CL|BR"
@@ -59866,7 +59866,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-13",
+              "releaseDateGte": "2023-10-20",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "AU",
@@ -59982,7 +59982,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-13",
+              "releaseDateGte": "2023-10-20",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "BE",
@@ -60094,7 +60094,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-13",
+              "releaseDateGte": "2023-10-20",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "CA",
@@ -60202,7 +60202,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-13",
+              "releaseDateGte": "2023-10-20",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "CN",
@@ -60314,7 +60314,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-13",
+              "releaseDateGte": "2023-10-20",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "DK",
@@ -60430,7 +60430,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-13",
+              "releaseDateGte": "2023-10-20",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "NL",
@@ -60538,7 +60538,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-13",
+              "releaseDateGte": "2023-10-20",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "DE",
@@ -60654,7 +60654,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-13",
+              "releaseDateGte": "2023-10-20",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "HK",
@@ -60762,7 +60762,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-13",
+              "releaseDateGte": "2023-10-20",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "IN",
@@ -60878,7 +60878,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-13",
+              "releaseDateGte": "2023-10-20",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "IE",
@@ -60986,7 +60986,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-13",
+              "releaseDateGte": "2023-10-20",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "IT",
@@ -61098,7 +61098,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-13",
+              "releaseDateGte": "2023-10-20",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "JP",
@@ -61210,7 +61210,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-13",
+              "releaseDateGte": "2023-10-20",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "MX",
@@ -61322,7 +61322,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-13",
+              "releaseDateGte": "2023-10-20",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "NG",
@@ -61438,7 +61438,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-13",
+              "releaseDateGte": "2023-10-20",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "ZA",
@@ -61546,7 +61546,7 @@ window.NUVIO_DATABASE = [
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-13",
+              "releaseDateGte": "2023-10-20",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "ES",
@@ -61725,7 +61725,7 @@ window.NUVIO_DATABASE = [
               "withGenres": "99",
               "withOriginalLanguage": "en",
               "withKeywords": "33722|10714",
-              "releaseDateGte": "2024-10-12",
+              "releaseDateGte": "2024-10-19",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -61841,7 +61841,7 @@ window.NUVIO_DATABASE = [
               "withGenres": "99",
               "withOriginalLanguage": "en",
               "withKeywords": "18330|9902",
-              "releaseDateGte": "2024-10-12",
+              "releaseDateGte": "2024-10-19",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -61957,7 +61957,7 @@ window.NUVIO_DATABASE = [
               "withGenres": "99",
               "withOriginalLanguage": "en",
               "withKeywords": "6075|6496|10039",
-              "releaseDateGte": "2024-10-12",
+              "releaseDateGte": "2024-10-19",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -62073,7 +62073,7 @@ window.NUVIO_DATABASE = [
               "withGenres": "99",
               "withOriginalLanguage": "en",
               "withKeywords": "283297|4048|6029",
-              "releaseDateGte": "2024-10-12",
+              "releaseDateGte": "2024-10-19",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -62189,7 +62189,7 @@ window.NUVIO_DATABASE = [
               "withGenres": "99",
               "withOriginalLanguage": "en",
               "withKeywords": "282633|1956|162365",
-              "releaseDateGte": "2024-10-12",
+              "releaseDateGte": "2024-10-19",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -62305,7 +62305,7 @@ window.NUVIO_DATABASE = [
               "withGenres": "99",
               "withOriginalLanguage": "en",
               "withKeywords": "287067|1576|9882|18330",
-              "releaseDateGte": "2024-10-12",
+              "releaseDateGte": "2024-10-19",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -62421,7 +62421,7 @@ window.NUVIO_DATABASE = [
               "withGenres": "99",
               "withOriginalLanguage": "en",
               "withKeywords": "5340|3692|4373",
-              "releaseDateGte": "2024-10-12",
+              "releaseDateGte": "2024-10-19",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -62509,7 +62509,7 @@ window.NUVIO_DATABASE = [
             "filters": {
               "withGenres": "10751",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-10-12",
+              "releaseDateGte": "2024-10-19",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -62540,7 +62540,7 @@ window.NUVIO_DATABASE = [
             "filters": {
               "withGenres": "10762",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-10-12",
+              "releaseDateGte": "2024-10-19",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -62799,7 +62799,7 @@ window.NUVIO_DATABASE = [
             "filters": {
               "withGenres": "10751",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-10-12",
+              "releaseDateGte": "2024-10-19",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -63139,7 +63139,7 @@ window.NUVIO_DATABASE = [
             "filters": {
               "withGenres": "10751",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-10-12",
+              "releaseDateGte": "2024-10-19",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -63245,7 +63245,7 @@ window.NUVIO_DATABASE = [
             "filters": {
               "withGenres": "10764",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2023-10-13",
+              "releaseDateGte": "2023-10-20",
               "voteCountGte": 1,
               "vote_count.gte": 1
             },
@@ -63373,7 +63373,7 @@ window.NUVIO_DATABASE = [
               "withGenres": "10764",
               "withOriginalLanguage": "en",
               "withKeywords": "250845",
-              "releaseDateGte": "2023-10-13",
+              "releaseDateGte": "2023-10-20",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -63487,7 +63487,7 @@ window.NUVIO_DATABASE = [
               "withGenres": "10764",
               "withOriginalLanguage": "en",
               "withKeywords": "215119",
-              "releaseDateGte": "2023-10-13",
+              "releaseDateGte": "2023-10-20",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -63602,7 +63602,7 @@ window.NUVIO_DATABASE = [
               "withGenres": "10764",
               "withOriginalLanguage": "en",
               "withKeywords": "1918|227635|240810",
-              "releaseDateGte": "2023-10-13",
+              "releaseDateGte": "2023-10-20",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -63717,7 +63717,7 @@ window.NUVIO_DATABASE = [
               "withGenres": "10764",
               "withOriginalLanguage": "en",
               "withKeywords": "179867|231230|34130|208454",
-              "releaseDateGte": "2023-10-13",
+              "releaseDateGte": "2023-10-20",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -63833,7 +63833,7 @@ window.NUVIO_DATABASE = [
               "withGenres": "10764",
               "withOriginalLanguage": "en",
               "withKeywords": "4325|8290",
-              "releaseDateGte": "2023-10-13",
+              "releaseDateGte": "2023-10-20",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },

@@ -47,7 +47,7 @@
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-7NEO7K9N",
             "genre": "New Movies",
@@ -70,7 +70,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -1318,7 +1318,7 @@
               "withoutGenres": "99",
               "without_genres": "99",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-PZC0YDHC",
             "genre": "New Movies",
@@ -1341,7 +1341,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -2368,7 +2368,7 @@
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-DIUYFIWN",
             "genre": "New Movies",
@@ -2391,7 +2391,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -3614,7 +3614,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-XSWCPIRI",
             "genre": "New Movies",
@@ -3637,7 +3637,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -4859,7 +4859,7 @@
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-CGG0YXSJ",
             "genre": "New Movies",
@@ -4882,7 +4882,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -6063,7 +6063,7 @@
               "sortBy": "primary_release_date.desc",
               "voteCountGte": 1,
               "vote_count.gte": 1,
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -6083,7 +6083,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -6152,7 +6152,7 @@
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-3S6T8OAU",
             "genre": "New Movies",
@@ -6747,7 +6747,7 @@
               "withWatchProviders": "283",
               "watchRegion": "US",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-1N6O9RI2",
             "genre": "New Movies",
@@ -6787,7 +6787,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "10764,10767,10763",
               "without_genres": "10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -7139,7 +7139,7 @@
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-1OUNMRKZ",
             "genre": "New Movies",
@@ -7162,7 +7162,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -7473,7 +7473,7 @@
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-5URNOQTK",
             "genre": "New Movies",
@@ -7496,7 +7496,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -7831,7 +7831,7 @@
               "withoutGenres": "99",
               "without_genres": "99",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-V4H8LHTU",
             "genre": "New Movies",
@@ -7854,7 +7854,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -9033,7 +9033,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -9103,7 +9103,7 @@
               "withoutGenres": "99",
               "without_genres": "99",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-MEBFDWZ2",
             "genre": "New Movies",
@@ -9126,7 +9126,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -10351,7 +10351,7 @@
               "watchRegion": "US",
               "watch_region": "US",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           },
           {
@@ -10371,7 +10371,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             }
           }
         ]
@@ -10420,7 +10420,7 @@
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-PBX2HWFJ",
             "genre": "New Movies",
@@ -10443,7 +10443,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -11509,7 +11509,7 @@
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-9AFR9HB6",
             "genre": "New Movies",
@@ -12060,7 +12060,7 @@
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-FHQKLHKE",
             "genre": "New Movies",
@@ -12083,7 +12083,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -13258,7 +13258,7 @@
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-2QP7VLFT",
             "genre": "New Movies",
@@ -13281,7 +13281,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -14376,7 +14376,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-3UBWKV1Z",
             "genre": "New Movies",
@@ -14399,7 +14399,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -15595,7 +15595,7 @@
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-DT0XT0VV",
             "genre": "New Movies",
@@ -15618,7 +15618,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -16029,7 +16029,7 @@
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-D7R2N3TT",
             "genre": "New Movies",
@@ -16052,7 +16052,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -17119,7 +17119,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "id": "src-L56WKCQ1",
             "genre": "New Movies",
@@ -17144,7 +17144,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-12"
+              "releaseDateGte": "2024-10-19"
             },
             "tmdbSourceType": "DISCOVER"
           },

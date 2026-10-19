@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "semaine_utc": "2026-10-12",
+  "semaine_utc": "2026-10-19",
   "explication": {
     "hebdomadaire": "Bornes temporelles TMDB Discover recalculées chaque lundi ; pas des dates d'ajout vérifiées sur les services.",
     "tmdb_direct": "Interrogation TMDB en direct ; les résultats peuvent évoluer sans réécriture hebdomadaire.",
@@ -316,7 +316,7 @@
         "Comedy Collections",
         "Crime Collections",
         "Drama Collections",
-        "Family & Animation Collections",
+        "Family Et Animation Collections",
         "Fantasy Collections",
         "Horror Collections",
         "Mystery Collections",
@@ -344,7 +344,7 @@
         "Behind Enemy Lines",
         "Beverly Hills Cop",
         "Big Momma's House",
-        "Bill & Ted Collection",
+        "Bill Et Ted Collection",
         "Blade",
         "Blade Runner",
         "Bridget Jones",
@@ -391,7 +391,7 @@
         "Guardians of the Galaxy",
         "Halloween",
         "Hannibal Lecter",
-        "Harold & Kumar Collection",
+        "Harold Et Kumar Collection",
         "Harry Potter",
         "Has Fallen Collection",
         "Hellboy Collection",
@@ -630,8 +630,8 @@
       "autre": 0,
       "dossiers_sans_nouveautes": [
         "Animated Studio Spotlight",
-        "Saturday Morning & Nostalgic Cartoons",
-        "Preschool, Toddlers & Little Kids"
+        "Saturday Morning Et Nostalgic Cartoons",
+        "Preschool, Toddlers Et Little Kids"
       ],
       "dossiers_hebdomadaires": 3
     },
@@ -737,7 +737,7 @@
     },
     {
       "id": "collection-3UOL2OFV",
-      "nom": "Moods & Vibes",
+      "nom": "Moods Et Vibes",
       "fichier": "moods_vibes.json",
       "dossiers": 10,
       "sources": 60,
@@ -748,7 +748,7 @@
       "tmdb_special": 0,
       "autre": 0,
       "dossiers_sans_nouveautes": [
-        "80s & 90s Vibes"
+        "80s Et 90s Vibes"
       ],
       "dossiers_hebdomadaires": 9
     },
