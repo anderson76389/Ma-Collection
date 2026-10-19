@@ -54,7 +54,8 @@ for(const p of textFiles){
     suspicious.push({file:p,reason:"ancien appel distant NuvioPush"});
 }
 const index=read("index.html");
-for(const match of index.matchAll(/<script\b[^>]*\bsrc=["']([^"']+)["']/g)){
+const activeHtml=index.replace(/<!--[^]*?-->/g,"");
+for(const match of activeHtml.matchAll(/<script\b[^>]*\bsrc=["']([^"']+)["']/g)){
   const value=match[1].split("?")[0];
   assert(!value.startsWith("http"),"JavaScript externe chargé par l'accueil : "+value);
   assert(existsSync(resolve(root,value)),"Ressource JavaScript manquante : "+value);
