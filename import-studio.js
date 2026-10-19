@@ -208,6 +208,13 @@
         <div class="mc-import-form"><label>Manifests personnels (un par ligne)
         <textarea id="mc-addon-manifests" data-key="addonManifests" rows="5" spellcheck="false" autocomplete="off" placeholder="https://votre-instance.exemple/config/manifest.json">${esc(state.addonManifests)}</textarea></label></div>
         <p class="mc-import-note">Kovelyx proposera d’installer les extensions dans le profil actif, après confirmation. Un manifest inaccessible doit être corrigé manuellement. Leur configuration peut être finalisée dans Kovelyx.</p>`;
+    if (state.step === 5 && state.destination === "nuvio") return `
+      <div class="mc-import-card"><strong>Destination Nuvio — export JSON manuel</strong>
+        <p>${selected.length} catégories • ${rows.length} dossiers.</p>
+        <p>Après cette étape, vous pourrez copier ou télécharger le fichier JSON et l'importer dans la section Collections de Nuvio.</p>
+      </div>
+      <p class="mc-import-note">Aucune connexion à un compte Nuvio n'est faite par Ma-Collection. Aucun mot de passe, jeton ou clé API saisi dans cet assistant n'est intégré au fichier. Les paramètres de métadonnées, de débridage et les extensions restent à configurer directement dans Nuvio.</p>
+      <p class="mc-import-note">Ce parcours n'efface ni ne remplace vos anciennes collections : Nuvio applique ses propres règles d'importation et vous demande de confirmer dans l'application ou sur son site.</p>`;
     if (state.step === 5) {
       return `<div class="mc-import-card"><strong>Destination Kovelyx PC</strong>
         <p>${selected.length} catégories • ${rows.length} dossiers.</p>
