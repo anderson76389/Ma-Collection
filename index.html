@@ -10,7 +10,7 @@
   <meta name="author" content="Ma-Collection">
   <link rel="icon" type="image/svg+xml" href="assets/kovelyx-logo.svg">
   
-  <link rel="stylesheet" href="style.css?v=95.0">
+  <link rel="stylesheet" href="style.css?v=96.0">
   <script src="scripts/migrate-storage.js?v=1"></script>
   <script>
     (function () {
@@ -26,12 +26,12 @@
   <!-- Preview strip: only visible after a test code is unlocked -->
   <div id="title-screen-beta-indicator" class="ma-collection-beta-banner title-beta-indicator" hidden>
     <div class="ma-collection-beta-banner-inner">
-      <span id="ma-collection-beta-pill" class="ma-collection-beta-pill">Preview</span>
-      <span id="ma-collection-beta-banner-text" class="ma-collection-beta-banner-text">You are testing an unreleased preview.</span>
+      <span id="ma-collection-beta-pill" class="ma-collection-beta-pill">Aperçu</span>
+      <span id="ma-collection-beta-banner-text" class="ma-collection-beta-banner-text">Vous testez une version de prévisualisation non publiée.</span>
       <div class="ma-collection-beta-actions">
         <button type="button" id="ma-collection-beta-notes" class="ma-collection-beta-notes">Notes</button>
-        <button type="button" id="ma-collection-beta-exit" class="ma-collection-beta-exit">Exit beta</button>
-        <button type="button" id="ma-collection-beta-hide" class="ma-collection-beta-hide" aria-label="Hide beta banner" title="Hide banner (stay on preview)">×</button>
+        <button type="button" id="ma-collection-beta-exit" class="ma-collection-beta-exit">Quitter la bêta</button>
+        <button type="button" id="ma-collection-beta-hide" class="ma-collection-beta-hide" aria-label="Masquer la bannière bêta" title="Masquer la bannière (rester en prévisualisation)">×</button>
       </div>
     </div>
   </div>
@@ -45,7 +45,7 @@
 
   <!-- CINEMATIC TITLE SCREEN -->
   <div id="title-screen-overlay" class="title-screen-overlay">
-    <button type="button" id="title-theme-toggle" class="theme-toggle-btn title-theme-toggle" aria-label="Cycle display theme" title="Cycle theme: Dark, Light, High contrast">
+    <button type="button" id="title-theme-toggle" class="theme-toggle-btn title-theme-toggle" aria-label="Changer le thème d'affichage" title="Changer de thème : sombre, clair, contraste élevé">
       <svg class="theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
       <svg class="theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 14.5A8.5 8.5 0 1 1 9.5 3 7 7 0 0 0 21 14.5z"/></svg>
       <svg class="theme-icon-contrast" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 0 1 0 20z" fill="currentColor"/></svg>
@@ -54,18 +54,18 @@
       
       <!-- HERO VIEWPORT (Stage 1) -->
       <section class="title-hero-stage">
-        <span class="title-screen-eyebrow">Welcome to</span>
+        <span class="title-screen-eyebrow">Bienvenue dans</span>
         <h1 class="title-screen-logo">Ma-<span>Collection</span></h1>
-        <p class="title-screen-tagline">La collection qui vous ressemble. Explorez, personnalisez et retrouvez vos catalogues français dans Kovelyx.</p>
+        <p class="title-screen-tagline">La collection qui vous ressemble. Explorez et personnalisez vos catalogues français pour Kovelyx ou Nuvio.</p>
         
         <div id="title-screen-changelog" class="title-changelog" style="display:none;">
-          <button id="title-changelog-dismiss" class="title-changelog-dismiss" aria-label="Dismiss what's new">×</button>
-          <div class="title-changelog-head">✨ What's new since your last visit</div>
+          <button id="title-changelog-dismiss" class="title-changelog-dismiss" aria-label="Fermer les nouveautés">×</button>
+          <div class="title-changelog-head">✨ Nouveautés depuis votre dernière visite</div>
           <ul id="title-changelog-list" class="title-changelog-list"></ul>
         </div>
         
         <div class="title-screen-hero-layout">
-          <button id="title-screen-import-all" class="title-hero-primary-btn title-cta-primary" title="Personnalisez la collection et importez ensuite dans Kovelyx">
+          <button id="title-screen-import-all" class="title-hero-primary-btn title-cta-primary" title="Personnalisez la collection, puis choisissez Kovelyx ou Nuvio">
             <span class="hero-btn-icon">⚡</span>
             <span class="hero-btn-text">Configurer ma collection</span>
             <span class="hero-btn-arrow">→</span>
@@ -73,21 +73,21 @@
           
           <div class="title-hero-sub-row">
             
-            <button id="title-screen-collection-only" class="title-hero-sub-btn title-hero-sub-quick" title="Préparer une collection rapide, puis importer dans Kovelyx">
-              <span class="sub-btn-text">Quick Send</span>
+            <button id="title-screen-collection-only" class="title-hero-sub-btn title-hero-sub-quick" title="Préparer rapidement une collection pour Kovelyx ou Nuvio">
+              <span class="sub-btn-text">Envoi rapide</span>
             </button>
           </div>
         </div>
         
         <div class="title-test-code" id="title-test-code">
           <button type="button" id="title-test-code-toggle" class="title-test-code-toggle" aria-expanded="false" aria-controls="title-test-code-panel">
-            Have a test code?
+            Vous avez un code de test ?
           </button>
           <div id="title-test-code-panel" class="title-test-code-panel" hidden>
-            <p class="title-test-code-lead">Enter the code from the beta post to try a preview build. Live default stays for everyone else.</p>
+            <p class="title-test-code-lead">Saisissez le code indiqué dans l'annonce bêta pour tester une version en avant-première. La version publique reste inchangée.</p>
             <div class="title-test-code-row">
-              <input type="text" id="title-test-code-input" class="title-test-code-input" placeholder="Type Code Here" autocomplete="off" spellcheck="false" maxlength="32" aria-label="Test code">
-              <button type="button" id="title-test-code-apply" class="title-test-code-apply">Unlock</button>
+              <input type="text" id="title-test-code-input" class="title-test-code-input" placeholder="Saisir le code ici" autocomplete="off" spellcheck="false" maxlength="32" aria-label="Code de test">
+              <button type="button" id="title-test-code-apply" class="title-test-code-apply">Déverrouiller</button>
             </div>
             <p id="title-test-code-status" class="title-test-code-status" role="status" aria-live="polite"></p>
           </div>
@@ -95,12 +95,12 @@
 
         <!-- Illustration Ma-Collection -->
         <div class="title-hero-logo-emblem">
-          <img src="assets/kovelyx-logo.svg" alt="Logo Kovelyx" class="title-hero-logo-img" >
+          <img src="assets/kovelyx-logo.svg" alt="Logo de Kovelyx" class="title-hero-logo-img" >
         </div>
 
         <!-- Scroll down indicator with slow bouncing chevron -->
-        <button type="button" id="title-scroll-indicator" class="title-scroll-indicator" aria-label="Scroll for more Features and Tools">
-          <span class="scroll-ind-text">Scroll for more Features &amp; Tools</span>
+        <button type="button" id="title-scroll-indicator" class="title-scroll-indicator" aria-label="Faites défiler pour découvrir les fonctionnalités et outils">
+          <span class="scroll-ind-text">Faites défiler pour découvrir les fonctionnalités et outils</span>
           <span class="scroll-ind-chevron">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
           </span>
@@ -113,8 +113,8 @@
         <!-- SECTION 01: HELP & ONBOARDING -->
         <div class="portfolio-section">
           <div class="portfolio-sec-header">
-            <h3 class="portfolio-sec-title">Help &amp; Onboarding</h3>
-            <span class="portfolio-sec-sub">Interactive walkthroughs &amp; setup documentation</span>
+            <h3 class="portfolio-sec-title">Aide et prise en main</h3>
+            <span class="portfolio-sec-sub">Visites guidées interactives et documentation de configuration</span>
           </div>
           <div class="portfolio-grid grid-2">
             
@@ -124,14 +124,14 @@
                   <div class="port-card-icon">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
                   </div>
-                  <span class="port-pill">60-Sec Tour</span>
+                  <span class="port-pill">Visite en 60 secondes</span>
                 </div>
                 <div class="port-card-content">
-                  <h4 class="port-card-title">Interactive Walkthrough</h4>
-                  <p class="port-card-desc">Take a brief visual tour explaining how folders, ratings, filters, and device syncing work together.</p>
+                  <h4 class="port-card-title">Visite guidée</h4>
+                  <p class="port-card-desc">Découvrez rapidement le fonctionnement des dossiers, notes, filtres et de la synchronisation entre appareils.</p>
                 </div>
                 <div class="port-card-action">
-                  <span class="port-link">Start Walkthrough <span class="arrow" aria-hidden="true">&rarr;</span></span>
+                  <span class="port-link">Démarrer la visite guidée <span class="arrow" aria-hidden="true">&rarr;</span></span>
                 </div>
               </div>
             </div>
@@ -142,14 +142,14 @@
                   <div class="port-card-icon">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
                   </div>
-                  <span class="port-pill">Docs &amp; Tips</span>
+                  <span class="port-pill">Documentation et conseils</span>
                 </div>
                 <div class="port-card-content">
-                  <h4 class="port-card-title">FAQ &amp; Setup Guides</h4>
-                  <p class="port-card-desc">Clear guides on updating catalogs, Trakt integration, TMDB API keys, and troubleshooting common issues.</p>
+                  <h4 class="port-card-title">FAQ et guides de configuration</h4>
+                  <p class="port-card-desc">Guides pour mettre à jour les catalogues, connecter Trakt, configurer les clés TMDB et résoudre les problèmes courants.</p>
                 </div>
                 <div class="port-card-action">
-                  <span class="port-link">View Documentation <span class="arrow" aria-hidden="true">&rarr;</span></span>
+                  <span class="port-link">Voir la documentation <span class="arrow" aria-hidden="true">&rarr;</span></span>
                 </div>
               </div>
             </div>
@@ -160,8 +160,8 @@
         <!-- SECTION 02: CUSTOMIZATION STUDIO -->
         <div class="portfolio-section">
           <div class="portfolio-sec-header">
-            <h3 class="portfolio-sec-title">Customization Studio</h3>
-            <span class="portfolio-sec-sub">Tailor presets, curate folders, or build from scratch</span>
+            <h3 class="portfolio-sec-title">Atelier de personnalisation</h3>
+            <span class="portfolio-sec-sub">Adaptez les préréglages, choisissez vos dossiers ou partez de zéro</span>
           </div>
           <div class="portfolio-grid grid-4">
             
@@ -173,17 +173,17 @@
                   <div class="port-card-icon">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
                   </div>
-                  <span class="port-pill hero-pill">Recommended</span>
+                  <span class="port-pill hero-pill">Recommandé</span>
                 </div>
                 <div class="port-card-content">
-                  <h4 class="port-card-title">Guided Customize</h4>
+                  <h4 class="port-card-title">Personnalisation guidée</h4>
                   <p class="port-card-desc">Choisissez votre région, vos plateformes et vos genres grâce à une configuration guidée en français.</p>
                   <div class="port-steps-preview">
-                    <span>Region</span> &bull; <span>Exclusions</span> &bull; <span>Categories</span> &bull; <span>Streaming</span>
+                    <span>Région</span> &bull; <span>Exclusions</span> &bull; <span>Catégories</span> &bull; <span>Streaming</span>
                   </div>
                 </div>
                 <div class="port-card-action">
-                  <span class="port-btn-solid">Launch Wizard &rarr;</span>
+                  <span class="port-btn-solid">Lancer l'assistant →</span>
                 </div>
               </div>
             </div>
@@ -194,14 +194,14 @@
                   <div class="port-card-icon">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
                   </div>
-                  <span class="port-pill">Fast Toggles</span>
+                  <span class="port-pill">Réglages rapides</span>
                 </div>
                 <div class="port-card-content">
-                  <h4 class="port-card-title">Quick Editor</h4>
-                  <p class="port-card-desc">Already know the collection? Fast checkbox checklist to toggle individual folders on or off with live count previews.</p>
+                  <h4 class="port-card-title">Éditeur rapide</h4>
+                  <p class="port-card-desc">Vous connaissez déjà la collection ? Activez ou désactivez rapidement les dossiers avec un compteur en temps réel.</p>
                 </div>
                 <div class="port-card-action">
-                  <span class="port-link">Open Checklist <span class="arrow" aria-hidden="true">&rarr;</span></span>
+                  <span class="port-link">Ouvrir la liste de sélection <span class="arrow" aria-hidden="true">&rarr;</span></span>
                 </div>
               </div>
             </div>
@@ -212,14 +212,14 @@
                   <div class="port-card-icon">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
                   </div>
-                  <span class="port-pill">Advanced</span>
+                  <span class="port-pill">Avancé</span>
                 </div>
                 <div class="port-card-content">
-                  <h4 class="port-card-title">Cinematic Editor</h4>
-                  <p class="port-card-desc">Want full control? Visual layout designer with drag-and-drop ordering, folder artwork, and poster previews.</p>
+                  <h4 class="port-card-title">Éditeur cinématique</h4>
+                  <p class="port-card-desc">Personnalisez la disposition, réorganisez les dossiers par glisser-déposer et prévisualisez leurs visuels.</p>
                 </div>
                 <div class="port-card-action">
-                  <span class="port-link">Open Editor <span class="arrow" aria-hidden="true">&rarr;</span></span>
+                  <span class="port-link">Ouvrir l'éditeur <span class="arrow" aria-hidden="true">&rarr;</span></span>
                 </div>
               </div>
             </div>
@@ -230,8 +230,8 @@
         <!-- SECTION 03: ADDONS & HOSTING -->
         <div class="portfolio-section">
           <div class="portfolio-sec-header">
-            <h3 class="portfolio-sec-title">Addons &amp; Hosting</h3>
-            <span class="portfolio-sec-sub">Speed up catalog loads or export configs for self-hosted instances</span>
+            <h3 class="portfolio-sec-title">Extensions et hébergement</h3>
+            <span class="portfolio-sec-sub">Accélérez les catalogues ou exportez les configurations pour vos instances auto-hébergées</span>
           </div>
           <div class="portfolio-grid grid-2">
             
@@ -241,14 +241,14 @@
                   <div class="port-card-mascot">
                     <img src="assets/bingecat-logo.png" alt="Bingecat" class="port-bingecat-img">
                   </div>
-                  <span class="port-pill amber-pill">Instant Cache</span>
+                  <span class="port-pill amber-pill">Cache instantané</span>
                 </div>
                 <div class="port-card-content">
-                  <h4 class="port-card-title">Bingecat Addon</h4>
+                  <h4 class="port-card-title">Extension Bingecat</h4>
                   <p class="port-card-desc">Accélérez le chargement des métadonnées grâce à la mise en cache et à la synchronisation.</p>
                 </div>
                 <div class="port-card-action">
-                  <span class="port-link amber-link">Configure Bingecat <span class="arrow" aria-hidden="true">&rarr;</span></span>
+                  <span class="port-link amber-link">Configurer Bingecat <span class="arrow" aria-hidden="true">&rarr;</span></span>
                 </div>
               </div>
             </div>
@@ -262,11 +262,11 @@
                   <span class="port-pill amber-pill">AIO Metadata</span>
                 </div>
                 <div class="port-card-content">
-                  <h4 class="port-card-title">AIO Metadata Configs</h4>
-                  <p class="port-card-desc">Export ready-to-import JSON configs and manifests formatted for your self-hosted AIO Metadata instance.</p>
+                  <h4 class="port-card-title">Configurations AIO Metadata</h4>
+                  <p class="port-card-desc">Exportez des configurations JSON et des manifestes prêts pour votre instance AIO Metadata auto-hébergée.</p>
                 </div>
                 <div class="port-card-action">
-                  <span class="port-link amber-link">Export Configs <span class="arrow" aria-hidden="true">&rarr;</span></span>
+                  <span class="port-link amber-link">Exporter les configurations <span class="arrow" aria-hidden="true">&rarr;</span></span>
                 </div>
               </div>
             </div>
@@ -281,7 +281,7 @@
 
   <!-- Account control: stays available on every screen when the feature is on -->
   <div id="account-chrome" class="account-chrome" hidden>
-    <button type="button" id="account-fab" class="account-fab" aria-haspopup="menu" aria-expanded="false" aria-controls="account-menu" title="Account">
+    <button type="button" id="account-fab" class="account-fab" aria-haspopup="menu" aria-expanded="false" aria-controls="account-menu" title="Compte">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
         <circle cx="12" cy="7" r="4"></circle>
@@ -294,25 +294,25 @@
         <span>Compte Kovelyx · Inscription / connexion</span>
       </button>
       <button type="button" class="account-menu-item" data-account-action="setup" role="menuitem" hidden>
-        Set up autosave
+        Configurer l'enregistrement automatique
       </button>
       <button type="button" class="account-menu-item" data-account-action="unlock" role="menuitem" hidden>
-        Enter save password
+        Saisir le mot de passe d'enregistrement
       </button>
       <button type="button" class="account-menu-item" data-account-action="keys" role="menuitem" hidden>
-        API keys &amp; tokens
+        Clés API et jetons
       </button>
       <button type="button" class="account-menu-item" data-account-action="save" role="menuitem" hidden>
-        Save now
+        Enregistrer maintenant
       </button>
       <button type="button" class="account-menu-item" data-account-action="privacy" role="menuitem">
-        How your keys stay private
+        Comment vos clés restent privées
       </button>
       <button type="button" class="account-menu-item account-menu-item-quiet" data-account-action="lock" role="menuitem" hidden>
-        Lock on this computer
+        Verrouiller sur cet ordinateur
       </button>
       <button type="button" class="account-menu-item account-menu-item-danger" data-account-action="wipe" role="menuitem" hidden>
-        Remove saved data on this device
+        Supprimer les données enregistrées sur cet appareil
       </button>
     </div>
   </div>
@@ -320,14 +320,14 @@
   <!-- QUICK (KISS) EDITOR -->
   <div id="simple-editor-overlay" class="se-overlay">
     <div class="se-topbar">
-      <button id="se-back" class="se-back">‹ Cinematic</button>
-      <h2 class="se-title">Quick Editor</h2>
-      <input id="se-search" class="se-search" type="search" placeholder="Search folders…">
+      <button id="se-back" class="se-back">‹ Cinématique</button>
+      <h2 class="se-title">Éditeur rapide</h2>
+      <input id="se-search" class="se-search" type="search" placeholder="Rechercher des dossiers…">
       <div class="se-topbar-actions">
-        <button id="se-all" class="se-mini-btn">All</button>
-        <button id="se-none" class="se-mini-btn">None</button>
-        <button id="se-cinematic" class="se-mini-btn" title="Switch back to the Cinematic Editor">🎬 Cinematic Editor</button>
-        <button id="se-bingecat" class="se-mini-btn se-bingecat-btn" title="Export this selection for Bingecat's addon">
+        <button id="se-all" class="se-mini-btn">Tous</button>
+        <button id="se-none" class="se-mini-btn">Aucun</button>
+        <button id="se-cinematic" class="se-mini-btn" title="Revenir à l'éditeur cinématique">🎬 Éditeur cinématique</button>
+        <button id="se-bingecat" class="se-mini-btn se-bingecat-btn" title="Exporter cette sélection pour l'extension Bingecat">
           <span class="bingecat-mark"><img src="assets/bingecat-logo.png" alt="" onerror="this.parentNode.classList.add('no-logo');this.remove();"></span>
           <span>Bingecat</span>
         </button>
@@ -346,7 +346,7 @@
 
   <!-- SIDEBAR OVERLAY CONTROLS -->
   <div id="sidebar-backdrop" class="sidebar-backdrop"></div>
-  <button id="sidebar-toggle" class="sidebar-toggle" aria-label="Open menu" aria-expanded="false">
+  <button id="sidebar-toggle" class="sidebar-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
       <line x1="3" y1="6" x2="21" y2="6"/>
       <line x1="3" y1="12" x2="21" y2="12"/>
@@ -360,10 +360,10 @@
     <!-- SIDEBAR -->
     <aside class="sidebar">
       <div class="brand-section">
-        <img src="assets/kovelyx-logo.svg" alt="Logo Kovelyx" class="brand-icon brand-logo-img" >
+        <img src="assets/kovelyx-logo.svg" alt="Logo de Kovelyx" class="brand-icon brand-logo-img" >
         <div class="brand-text-group">
           <h1 class="brand-title">Ma-Collection</h1>
-          <span class="brand-subtitle">Mega Collection</span>
+          <span class="brand-subtitle">Collection intégrale</span>
         </div>
       </div>
 
@@ -373,17 +373,17 @@
 
       <div class="sidebar-footer">
         <div class="sidebar-version-row"><span id="title-screen-version" class="sidebar-version-label"></span></div>
-        <button id="btn-replay-tour" class="sidebar-footer-btn replay-tour-btn" title="Replay the guided walkthrough">
+        <button id="btn-replay-tour" class="sidebar-footer-btn replay-tour-btn" title="Revoir la visite guidée">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;">
             <circle cx="12" cy="12" r="10"></circle>
             <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
             <line x1="12" y1="17" x2="12.01" y2="17"></line>
           </svg>
-          <span>Walk me through it again</span>
+          <span>Relancer la visite guidée</span>
         </button>
-        <button id="btn-shortcuts-hint" class="sidebar-footer-btn" title="Keyboard shortcuts (press ? anytime)">
+        <button id="btn-shortcuts-hint" class="sidebar-footer-btn" title="Raccourcis clavier (appuyez sur ?)">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M6 8h.01M10 8h.01M14 8h.01M18 8h.01M8 12h.01M12 12h.01M16 12h.01M7 16h10"></path></svg>
-          <span>Keyboard Shortcuts <kbd style="font-size:0.7rem;opacity:0.6;margin-left:4px;">?</kbd></span>
+          <span>Raccourcis clavier <kbd style="font-size:0.7rem;opacity:0.6;margin-left:4px;">?</kbd></span>
         </button>
       </div>
     </aside>
@@ -394,14 +394,14 @@
       <header class="top-bar">
         <div class="top-bar-left">
           <div class="title-row">
-            <h2 id="view-title" class="dashboard-title">Loading...</h2>
+            <h2 id="view-title" class="dashboard-title">Chargement…</h2>
             <div id="category-actions-group" class="category-actions-group"></div>
           </div>
-          <p id="view-subtitle" class="dashboard-subtitle">Preparing your collection</p>
+          <p id="view-subtitle" class="dashboard-subtitle">Préparation de votre collection</p>
         </div>
         
         <div class="top-bar-right">
-          <button type="button" id="topbar-theme-toggle" class="theme-toggle-btn" aria-label="Cycle display theme" title="Cycle theme: Dark, Light, High contrast">
+          <button type="button" id="topbar-theme-toggle" class="theme-toggle-btn" aria-label="Changer le thème d'affichage" title="Changer de thème : sombre, clair, contraste élevé">
             <svg class="theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
             <svg class="theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 14.5A8.5 8.5 0 1 1 9.5 3 7 7 0 0 0 21 14.5z"/></svg>
             <svg class="theme-icon-contrast" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 0 1 0 20z" fill="currentColor"/></svg>
@@ -411,14 +411,14 @@
               <circle cx="11" cy="11" r="8"></circle>
               <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
             </svg>
-            <input type="text" id="dashboard-search" class="search-field" placeholder="Search folders...">
-            <button id="search-clear" class="search-clear-btn" type="button" aria-label="Clear search" title="Clear search">
+            <input type="text" id="dashboard-search" class="search-field" placeholder="Rechercher des dossiers…">
+            <button id="search-clear" class="search-clear-btn" type="button" aria-label="Effacer la recherche" title="Effacer la recherche">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
             </button>
           </div>
           <!-- Collapses behind #topbar-more-toggle on phones (≤600px) instead of
                vanishing outright — view mode / sort / reorder / zoom stay reachable. -->
-          <button id="topbar-more-toggle" class="nv-more-toggle topbar-more-toggle browse-only" aria-label="More view options" aria-expanded="false" title="More view options">
+          <button id="topbar-more-toggle" class="nv-more-toggle topbar-more-toggle browse-only" aria-label="Autres options d'affichage" aria-expanded="false" title="Autres options d'affichage">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px;"><circle cx="12" cy="6" r="1.5"></circle><circle cx="12" cy="12" r="1.5"></circle><circle cx="12" cy="18" r="1.5"></circle></svg>
           </button>
           <div id="topbar-more-panel" class="topbar-more-panel">
@@ -429,33 +429,33 @@
                 <rect x="14" y="14" width="7" height="7"></rect>
                 <rect x="3" y="14" width="7" height="7"></rect>
               </svg>
-              <select id="viewmode-select" class="topbar-select" title="View mode applied to your collection. Follow Layout (Auto) is the default.">
-                <option value="FOLLOW_LAYOUT" selected>Follow Layout (Auto)</option>
-                <option value="ROWS">Rows</option>
-                <option value="TABBED_GRID">Tabbed Grid</option>
+              <select id="viewmode-select" class="topbar-select" title="Mode d'affichage de votre collection. La disposition automatique est celle par défaut.">
+                <option value="FOLLOW_LAYOUT" selected>Suivre la disposition (automatique)</option>
+                <option value="ROWS">Lignes</option>
+                <option value="TABBED_GRID">Grille à onglets</option>
               </select>
             </div>
-            <div id="sort-container" class="topbar-control-combo browse-only" title="Sort folders in this section">
+            <div id="sort-container" class="topbar-control-combo browse-only" title="Trier les dossiers de cette section">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:var(--text-muted);">
                 <line x1="4" y1="6" x2="20" y2="6"></line>
                 <line x1="4" y1="12" x2="14" y2="12"></line>
                 <line x1="4" y1="18" x2="9" y2="18"></line>
               </svg>
-              <select id="folder-sort" class="topbar-select" title="Sort folders in this section">
-                <option value="custom">Custom order</option>
-                <option value="popular">Popular first</option>
-                <option value="az">Name A–Z</option>
-                <option value="za">Name Z–A</option>
-                <option value="selected">Selected first</option>
+              <select id="folder-sort" class="topbar-select" title="Trier les dossiers de cette section">
+                <option value="custom">Ordre personnalisé</option>
+                <option value="popular">Les plus populaires d'abord</option>
+                <option value="az">Nom de A à Z</option>
+                <option value="za">Nom de Z à A</option>
+                <option value="selected">Sélectionnés d'abord</option>
               </select>
             </div>
             <div id="reorder-container" class="topbar-control-combo browse-only">
-              <button id="btn-reorder-toggle" class="cat-action-btn reorder-toggle" title="Drag-free reordering: show up/down arrows to move items">
+              <button id="btn-reorder-toggle" class="cat-action-btn reorder-toggle" title="Réorganiser les éléments avec les flèches haut/bas">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:13px;height:13px;"><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
-                <span>Reorder</span>
+                <span>Réorganiser</span>
               </button>
             </div>
-            <div id="zoom-container" class="zoom-control-combo browse-only" title="Adjust card size">
+            <div id="zoom-container" class="zoom-control-combo browse-only" title="Ajuster la taille des fiches">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:var(--text-muted);">
                 <rect x="3" y="3" width="7" height="7"></rect>
                 <rect x="14" y="3" width="7" height="7"></rect>
@@ -468,7 +468,7 @@
         </div>
         <div id="reorder-banner" class="reorder-mode-banner" hidden>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
-          <span>Move things around — use ↑ ↓ on each row. Click Reorder again when you're done.</span>
+          <span>Réorganisez les lignes avec ↑ ↓, puis cliquez de nouveau sur « Réorganiser ».</span>
         </div>
       </header>
 
@@ -480,7 +480,7 @@
           <div class="control-stats-area">
             <div class="control-stat-combo">
               <span id="selected-folders-count" class="control-stat-val">0</span>
-              <span class="control-stat-label">Folders</span>
+              <span class="control-stat-label">Dossiers</span>
             </div>
             <div class="control-divider"></div>
             <div class="control-stat-combo">
@@ -490,17 +490,17 @@
             <span id="selected-est-size" style="display:none;"></span>
           </div>
           <div class="control-actions-combo">
-            <button id="btn-compile-download" class="btn-secondary" title="Download your customized collection">
+            <button id="btn-compile-download" class="btn-secondary" title="Télécharger votre collection personnalisée">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width:14px;height:14px;"><polyline points="8 17 12 21 16 17"></polyline><line x1="12" y1="12" x2="12" y2="21"></line><path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29"></path></svg>
-              <span>Save File</span>
+              <span>Enregistrer le fichier</span>
             </button>
             <button id="btn-export-kovelyx" type="button" class="btn-secondary" title="Exporter la sélection pour Kovelyx PC"><span>📋 Kovelyx</span></button>
-            <button id="btn-bingecat-export" class="btn-secondary btn-bingecat" title="Export this selection for Bingecat's addon">
+            <button id="btn-bingecat-export" class="btn-secondary btn-bingecat" title="Exporter cette sélection pour l'extension Bingecat">
               <span class="bingecat-mark"><img src="assets/bingecat-logo.png" alt="" onerror="this.parentNode.classList.add('no-logo');this.remove();"></span>
               <span>Bingecat</span>
             </button>
-            <button id="btn-selfhost-export" class="btn-secondary btn-bingecat" title="Export this selection for AIO Metadata Self-Host">
-              <span>💾 Self-Host</span>
+            <button id="btn-selfhost-export" class="btn-secondary btn-bingecat" title="Exporter cette sélection pour AIO Metadata auto-hébergé">
+              <span>💾 Auto-hébergement</span>
             </button>
             
             <button id="btn-import-kovelyx" class="btn-primary" title="Choisir Nuvio ou Kovelyx pour importer la sélection" style="position:relative;">
@@ -510,7 +510,7 @@
             </button>
           </div>
         </div>
-        <button id="control-fab" class="mobile-fab" aria-label="Export options" aria-expanded="false" title="Export options">
+        <button id="control-fab" class="mobile-fab" aria-label="Options d'exportation" aria-expanded="false" title="Options d'exportation">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="8 17 12 21 16 17"></polyline><line x1="12" y1="12" x2="12" y2="21"></line><path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29"></path></svg>
         </button>
       </div>
@@ -522,22 +522,22 @@
     <div class="drawer-panel" onclick="event.stopPropagation()">
       <header class="drawer-header">
         <div class="drawer-title-combo">
-          <span id="drawer-cat-label" class="drawer-category-label">Category</span>
-          <h3 id="drawer-title" class="drawer-title">Folder Title</h3>
+          <span id="drawer-cat-label" class="drawer-category-label">Catégorie</span>
+          <h3 id="drawer-title" class="drawer-title">Nom du dossier</h3>
         </div>
         <div class="drawer-header-actions">
-          <button class="cat-action-btn" id="drawer-select-all" title="Select all sources in this folder">All</button>
-          <button class="cat-action-btn" id="drawer-select-none" title="Deselect all sources in this folder">None</button>
+          <button class="cat-action-btn" id="drawer-select-all" title="Sélectionner toutes les sources de ce dossier">Tous</button>
+          <button class="cat-action-btn" id="drawer-select-none" title="Désélectionner toutes les sources de ce dossier">Aucun</button>
         </div>
-        <button id="drawer-close" class="drawer-close-btn" aria-label="Close panel">&times;</button>
+        <button id="drawer-close" class="drawer-close-btn" aria-label="Fermer le panneau">&times;</button>
       </header>
       <div class="drawer-body">
         <p class="drawer-context-hint" id="drawer-context-hint"></p>
         <div class="drawer-sources-toolbar">
-          <span class="sources-list-label">Content Sources</span>
+          <span class="sources-list-label">Sources de contenu</span>
           <div class="drawer-toolbar-actions">
-            <select id="drawer-sort" class="topbar-select drawer-sort-select" title="Sort sources">
-              <option value="custom">Custom order</option>
+            <select id="drawer-sort" class="topbar-select drawer-sort-select" title="Trier les sources">
+              <option value="custom">Ordre personnalisé</option>
               <option value="az">A–Z</option>
               <option value="za">Z–A</option>
             </select>
@@ -548,8 +548,8 @@
             <circle cx="11" cy="11" r="8"></circle>
             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
           </svg>
-          <input type="text" id="drawer-search-input" class="search-field" placeholder="Search sources...">
-          <button id="drawer-search-clear" class="search-clear-btn" type="button" aria-label="Clear search" title="Clear search">
+          <input type="text" id="drawer-search-input" class="search-field" placeholder="Rechercher des sources…">
+          <button id="drawer-search-clear" class="search-clear-btn" type="button" aria-label="Effacer la recherche" title="Effacer la recherche">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
           </button>
         </div>
@@ -562,8 +562,8 @@
   <div id="popup-overlay" class="popup-overlay">
     <div class="popup-panel">
       <div class="popup-spinner"></div>
-      <h3 class="popup-title">Building Your Collection</h3>
-      <p class="popup-desc">Packing your folders and sources into one import file...</p>
+      <h3 class="popup-title">Création de votre collection</h3>
+      <p class="popup-desc">Regroupement des dossiers et des sources dans un seul fichier d'importation…</p>
     </div>
   </div>
 
@@ -577,41 +577,41 @@
         </svg>
       </div>
       <h3 class="compat-title" id="compat-title">Sur quels appareils utiliserez-vous la collection ?</h3>
-      <p class="compat-sub" id="compat-sub">Choose your device so we set up the best layout for your screen.</p>
+      <p class="compat-sub" id="compat-sub">Choisissez vos appareils pour adapter la disposition à votre écran.</p>
 
       <div class="compat-device-grid" id="compat-device-grid">
         <button type="button" class="compat-device-btn active" data-device="tv" id="compat-dev-tv">
           <span class="compat-dev-icon">📺</span>
           <span class="compat-dev-name">TV</span>
-          <span class="compat-dev-tag">Follow Layout</span>
+          <span class="compat-dev-tag">Suivre la disposition</span>
         </button>
         <button type="button" class="compat-device-btn" data-device="mobile" id="compat-dev-mobile">
           <span class="compat-dev-icon">📱</span>
           <span class="compat-dev-name">Mobile</span>
-          <span class="compat-dev-tag">Phone layout</span>
+          <span class="compat-dev-tag">Disposition pour téléphone</span>
         </button>
         <button type="button" class="compat-device-btn" data-device="both" id="compat-dev-both">
           <span class="compat-dev-icon">📺📱</span>
-          <span class="compat-dev-name">Both</span>
-          <span class="compat-dev-tag">TV &amp; Phone</span>
+          <span class="compat-dev-name">Les deux</span>
+          <span class="compat-dev-tag">Télévision et téléphone</span>
         </button>
       </div>
 
       <div id="compat-rows-warning" style="display:none;">
-        <p class="compat-body" id="compat-rows-body">Follow Layout looks best on TV, but phone screens scroll smoother with <strong>Tabbed Grid</strong>.</p>
+        <p class="compat-body" id="compat-rows-body">La disposition automatique convient à la télévision, mais la grille à onglets est plus fluide sur téléphone avec <strong>Grille à onglets</strong>.</p>
         <label class="compat-check-row">
           <input type="checkbox" id="compat-optimize-check" checked>
-          <span id="compat-check-text">Switch to Tabbed Grid (recommended for mobile)</span>
+          <span id="compat-check-text">Passer à la grille à onglets (recommandé sur mobile)</span>
         </label>
       </div>
 
       <div id="compat-tmdb-warning" style="display:none;">
-        <p class="compat-body">Vous n'avez pas ajouté de <strong>clé API TMDB</strong>. Certaines affiches et métadonnées peuvent manquer sur mobile sans cette clé. <a href="https://www.themoviedb.org/settings/api" target="_blank" rel="noopener" class="compat-link">Get a free TMDB API key →</a></p>
+        <p class="compat-body">Vous n'avez pas ajouté de <strong>clé API TMDB</strong>. Certaines affiches et métadonnées peuvent manquer sur mobile sans cette clé. <a href="https://www.themoviedb.org/settings/api" target="_blank" rel="noopener" class="compat-link">Obtenir une clé API TMDB gratuite →</a></p>
       </div>
 
       <div class="compat-actions">
-        <button type="button" id="compat-cancel" class="btn-secondary compat-btn"><span>Cancel</span></button>
-        <button type="button" id="compat-continue" class="btn-primary compat-btn"><span id="compat-continue-text">Export Collection →</span></button>
+        <button type="button" id="compat-cancel" class="btn-secondary compat-btn"><span>Annuler</span></button>
+        <button type="button" id="compat-continue" class="btn-primary compat-btn"><span id="compat-continue-text">Exporter la collection →</span></button>
       </div>
     </div>
   </div>
@@ -627,10 +627,10 @@
       <h3 id="wt-title" class="wt-title"></h3>
       <p id="wt-body" class="wt-body"></p>
       <div class="wt-actions">
-        <button id="wt-btn-skip" class="wt-btn-skip">Skip tour</button>
+        <button id="wt-btn-skip" class="wt-btn-skip">Ignorer la visite</button>
         <div class="wt-nav-group">
-          <button id="wt-btn-prev" class="wt-btn-nav">Back</button>
-          <button id="wt-btn-next" class="wt-btn-nav wt-btn-next-primary">Next</button>
+          <button id="wt-btn-prev" class="wt-btn-nav">Retour</button>
+          <button id="wt-btn-next" class="wt-btn-nav wt-btn-next-primary">Suivant</button>
         </div>
       </div>
     </div>
@@ -640,14 +640,14 @@
   <div id="shortcut-overlay" class="shortcut-overlay">
     <div class="shortcut-panel" onclick="event.stopPropagation()">
       <header class="shortcut-header">
-        <h3 class="shortcut-title">Keyboard Shortcuts</h3>
-        <button id="shortcut-close" class="shortcut-close-btn" aria-label="Close">&times;</button>
+        <h3 class="shortcut-title">Raccourcis clavier</h3>
+        <button id="shortcut-close" class="shortcut-close-btn" aria-label="Fermer">&times;</button>
       </header>
       <div class="shortcut-grid">
-        <div class="shortcut-row"><div class="shortcut-keys"><kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd></div><span class="shortcut-desc">Move around the collection like a TV remote</span></div>
-        <div class="shortcut-row"><div class="shortcut-keys"><kbd>Enter</kbd><span class="shortcut-or">or</span><kbd>Space</kbd></div><span class="shortcut-desc">Open the focused card</span></div>
-        <div class="shortcut-row"><div class="shortcut-keys"><kbd>Esc</kbd></div><span class="shortcut-desc">Close a panel, sheet, or the tour</span></div>
-        <div class="shortcut-row"><div class="shortcut-keys"><kbd>?</kbd></div><span class="shortcut-desc">Open or close this help</span></div>
+        <div class="shortcut-row"><div class="shortcut-keys"><kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd></div><span class="shortcut-desc">Parcourez la collection comme avec une télécommande</span></div>
+        <div class="shortcut-row"><div class="shortcut-keys"><kbd>Entrée</kbd><span class="shortcut-or">ou</span><kbd>Espace</kbd></div><span class="shortcut-desc">Ouvrir la fiche sélectionnée</span></div>
+        <div class="shortcut-row"><div class="shortcut-keys"><kbd>Esc</kbd></div><span class="shortcut-desc">Fermer un panneau ou la visite</span></div>
+        <div class="shortcut-row"><div class="shortcut-keys"><kbd>?</kbd></div><span class="shortcut-desc">Afficher ou masquer cette aide</span></div>
       </div>
     </div>
   </div>
@@ -667,13 +667,13 @@
     <div class="aio-panel">
       <div class="aio-header">
         <div class="aio-header-text">
-          <h3 class="aio-title">Connect Trakt via AIO Metadata</h3>
-          <p class="aio-sub">Import the Trakt preset, connect your Trakt account, then paste the manifest URL back here.</p>
+          <h3 class="aio-title">Connecter Trakt via AIO Metadata</h3>
+          <p class="aio-sub">Importez le préréglage Trakt, connectez votre compte puis collez ici l'URL du manifeste.</p>
         </div>
-        <button class="aio-close" id="aio-close" aria-label="Close">&times;</button>
+        <button class="aio-close" id="aio-close" aria-label="Fermer">&times;</button>
       </div>
       <div class="aio-frame-wrap" id="aio-frame-wrap">
-        <iframe id="aio-iframe" class="aio-iframe" title="AIO Metadata configuration"></iframe>
+        <iframe id="aio-iframe" class="aio-iframe" title="Configuration AIO Metadata"></iframe>
         <div id="aio-tutorial" class="aio-tutorial"></div>
       </div>
     </div>
@@ -681,7 +681,7 @@
 
   <!-- Full-size view of a tutorial step's reference screenshot. -->
   <div id="aio-lightbox" class="aio-lightbox">
-    <button class="aio-lightbox-close" id="aio-lightbox-close" aria-label="Close">&times;</button>
+    <button class="aio-lightbox-close" id="aio-lightbox-close" aria-label="Fermer">&times;</button>
     <img id="aio-lightbox-img" class="aio-lightbox-img" alt="Reference screenshot">
   </div>
 
@@ -710,11 +710,11 @@
 
   <!-- FEATURE C: COMMAND PALETTE -->
   <div id="command-palette-overlay" class="command-palette-overlay" hidden>
-    <div class="command-palette-panel" role="dialog" aria-label="Command palette">
+    <div class="command-palette-panel" role="dialog" aria-label="Palette de commandes">
       <div class="command-input-row">
         <svg class="command-input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" style="width:16px;height:16px;"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        <input id="command-input" class="command-input" placeholder="Jump to category, folder, or action…" autocomplete="off" spellcheck="false">
-        <span class="command-kbd-hint">Esc to close</span>
+        <input id="command-input" class="command-input" placeholder="Accéder à une catégorie, un dossier ou une action…" autocomplete="off" spellcheck="false">
+        <span class="command-kbd-hint">Échap pour fermer</span>
       </div>
       <div id="command-results" class="command-results"></div>
     </div>
@@ -729,11 +729,11 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
           </div>
           <div class="cust-header-text">
-            <h2 class="cust-title">Customize <span>Collection</span></h2>
+            <h2 class="cust-title">Personnaliser <span>Collection</span></h2>
             <p class="cust-subtitle">Personnalisez l'accueil à votre goût</p>
           </div>
         </div>
-        <button class="cust-close-btn" id="customize-close" aria-label="Close modal">
+        <button class="cust-close-btn" id="customize-close" aria-label="Fermer la fenêtre">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
         </button>
       </header>
@@ -745,52 +745,52 @@
 
       <!-- Screen 2: Genres -->
       <div class="quiz-step" data-screen="2">
-        <p class="quiz-eyebrow">Quick Setup · 2 of 4</p>
-        <h3 class="quiz-question">Pick genres you actually watch</h3>
+        <p class="quiz-eyebrow">Configuration rapide · étape 2 sur 4</p>
+        <h3 class="quiz-question">Choisissez les genres que vous regardez</h3>
         <div class="quiz-pill-grid" data-key="genres" data-multi="true">
           <button class="quiz-pill" data-value="action">Action</button>
-          <button class="quiz-pill" data-value="comedy">Comedy</button>
-          <button class="quiz-pill" data-value="drama">Drama</button>
-          <button class="quiz-pill" data-value="scifi">Sci-Fi</button>
-          <button class="quiz-pill" data-value="horror">Horror</button>
-          <button class="quiz-pill" data-value="docs">Documentaries</button>
-          <button class="quiz-pill" data-value="reality">Reality TV</button>
+          <button class="quiz-pill" data-value="comedy">Comédie</button>
+          <button class="quiz-pill" data-value="drama">Drame</button>
+          <button class="quiz-pill" data-value="scifi">Science-fiction</button>
+          <button class="quiz-pill" data-value="horror">Horreur</button>
+          <button class="quiz-pill" data-value="docs">Documentaires</button>
+          <button class="quiz-pill" data-value="reality">Télé-réalité</button>
           <button class="quiz-pill" data-value="animation">Animation</button>
         </div>
         <div class="quiz-actions">
-          <button class="quiz-skip" id="quiz-skip-2">Skip — enter manually</button>
-          <button class="quiz-next" data-next="3">Next →</button>
+          <button class="quiz-skip" id="quiz-skip-2">Ignorer — configurer manuellement</button>
+          <button class="quiz-next" data-next="3">Suivant →</button>
         </div>
       </div>
 
       <!-- Screen 3: Device -->
       <div class="quiz-step" data-screen="3">
-        <p class="quiz-eyebrow">Quick Setup · 3 of 4</p>
-        <h3 class="quiz-question">Where are you watching most?</h3>
+        <p class="quiz-eyebrow">Configuration rapide · étape 3 sur 4</p>
+        <h3 class="quiz-question">Sur quel appareil regardez-vous le plus souvent ?</h3>
         <div class="quiz-pill-grid" data-key="device" data-multi="false">
-          <button class="quiz-pill" data-value="tv">On a big TV</button>
-          <button class="quiz-pill" data-value="phone">On my phone</button>
-          <button class="quiz-pill" data-value="both">Both</button>
+          <button class="quiz-pill" data-value="tv">Sur une grande télévision</button>
+          <button class="quiz-pill" data-value="phone">Sur mon téléphone</button>
+          <button class="quiz-pill" data-value="both">Les deux</button>
         </div>
         <div class="quiz-actions">
-          <button class="quiz-skip" id="quiz-skip-3">Skip — enter manually</button>
-          <button class="quiz-next" data-next="4">Next →</button>
+          <button class="quiz-skip" id="quiz-skip-3">Ignorer — configurer manuellement</button>
+          <button class="quiz-next" data-next="4">Suivant →</button>
         </div>
       </div>
 
       <!-- Screen 4: Must-haves -->
       <div class="quiz-step" data-screen="4">
-        <p class="quiz-eyebrow">Quick Setup · 4 of 4</p>
-        <h3 class="quiz-question">Any must-haves?</h3>
+        <p class="quiz-eyebrow">Configuration rapide · étape 4 sur 4</p>
+        <h3 class="quiz-question">Quels contenus sont indispensables ?</h3>
         <div class="quiz-pill-grid" data-key="musthaves" data-multi="true">
-          <button class="quiz-pill" data-value="anime">Anime</button>
-          <button class="quiz-pill" data-value="international">International Cinema</button>
-          <button class="quiz-pill" data-value="awards">Award Winners</button>
-          <button class="quiz-pill" data-value="newreleases">New Releases</button>
+          <button class="quiz-pill" data-value="anime">Animés</button>
+          <button class="quiz-pill" data-value="international">Cinéma international</button>
+          <button class="quiz-pill" data-value="awards">Films et séries primés</button>
+          <button class="quiz-pill" data-value="newreleases">Nouvelles sorties</button>
         </div>
         <div class="quiz-actions">
-          <button class="quiz-skip" id="quiz-skip-4">Skip — enter manually</button>
-          <button class="quiz-next" id="quiz-finish" data-next="done">Build it →</button>
+          <button class="quiz-skip" id="quiz-skip-4">Ignorer — configurer manuellement</button>
+          <button class="quiz-next" id="quiz-finish" data-next="done">Créer →</button>
         </div>
       </div>
 
@@ -798,7 +798,7 @@
       <div class="quiz-step" data-screen="loading">
         <div class="quiz-loading">
           <span class="quiz-loading-emoji">✦</span>
-          <p class="quiz-loading-text">Picking your starting lineup…</p>
+          <p class="quiz-loading-text">Préparation de votre sélection initiale…</p>
         </div>
       </div>
     </div>
@@ -808,8 +808,8 @@
   <!-- Optional Save (feature-flagged). Simple screens, no jargon in the primary path. -->
   <div id="account-overlay" class="account-overlay" aria-hidden="true">
     <div class="account-panel" role="dialog" aria-labelledby="account-title">
-      <button type="button" id="account-close" class="account-close" aria-label="Close">×</button>
-      <h2 id="account-title" class="account-title">Save your setup</h2>
+      <button type="button" id="account-close" class="account-close" aria-label="Fermer">×</button>
+      <h2 id="account-title" class="account-title">Enregistrer votre configuration</h2>
       <p id="account-error" class="account-error" hidden></p>
 
       <!-- L'identité en ligne est celle du serveur configuré dans Kovelyx PC.
@@ -849,33 +849,33 @@
       </div>
 
       <div id="account-view-create">
-        <p class="account-lead">This turns on autosave for this browser. After you set a save password, your API keys and collection picks are stored here automatically when you change them. Completely optional.</p>
+        <p class="account-lead">Active l'enregistrement automatique dans ce navigateur. Après définition d'un mot de passe, vos clés API et vos sélections sont enregistrées localement. Fonction facultative.</p>
         <div class="account-callout">
-          <strong>Your keys stay on your side.</strong>
+          <strong>Vos clés restent sur votre appareil.</strong>
           <p>We scramble them on this device with your save password before anything is stored. The password is never sent to our servers. Cette sauvegarde est indépendante du compte Kovelyx.</p>
-          <button type="button" class="account-text-link" data-account-action="privacy">Read the short privacy note</button>
+          <button type="button" class="account-text-link" data-account-action="privacy">Lire la note de confidentialité</button>
         </div>
-        <label class="account-label">Save password
+        <label class="account-label">Mot de passe d'enregistrement
           <span class="account-tip" tabindex="0" data-tip="Only for autosave on this site. Ce n’est pas le mot de passe de Kovelyx. You will type it again after you fully close the browser.">?</span>
           <input type="password" id="account-pass-create" class="account-input" autocomplete="off" minlength="8">
         </label>
-        <label class="account-label">Confirm password
+        <label class="account-label">Confirmer le mot de passe
           <input type="password" id="account-pass-confirm" class="account-input" autocomplete="off" minlength="8">
         </label>
         <div class="account-actions">
-          <button type="button" id="account-btn-create" class="account-btn account-btn-primary">Set up autosave</button>
-          <button type="button" id="account-goto-unlock" class="account-btn account-btn-ghost">I already did this</button>
+          <button type="button" id="account-btn-create" class="account-btn account-btn-primary">Configurer l'enregistrement automatique</button>
+          <button type="button" id="account-goto-unlock" class="account-btn account-btn-ghost">Je l'ai déjà fait</button>
         </div>
       </div>
 
       <div id="account-view-unlock" hidden>
-        <p class="account-lead">Autosave is already set up on this browser. Enter your save password once to restore keys and picks, then changes keep saving on their own until you close the browser.</p>
-        <label class="account-label">Save password
+        <p class="account-lead">L'enregistrement automatique est déjà configuré. Saisissez votre mot de passe pour restaurer vos clés et sélections.</p>
+        <label class="account-label">Mot de passe d'enregistrement
           <input type="password" id="account-pass-unlock" class="account-input" autocomplete="off">
         </label>
         <div class="account-actions">
-          <button type="button" id="account-btn-unlock" class="account-btn account-btn-primary">Continue</button>
-          <button type="button" id="account-goto-create" class="account-btn account-btn-ghost">Set up again instead</button>
+          <button type="button" id="account-btn-unlock" class="account-btn account-btn-primary">Continuer</button>
+          <button type="button" id="account-goto-create" class="account-btn account-btn-ghost">Reconfigurer</button>
         </div>
       </div>
 
@@ -887,41 +887,41 @@
         <label class="account-label">Real-Debrid — clé API (second choix)
           <input type="password" id="account-key-realdebrid" class="account-input" autocomplete="off" spellcheck="false">
         </label>
-        <label class="account-label">TMDB API key
-          <span class="account-tip" tabindex="0" data-tip="Powers movie and show info and artwork. Free key from themoviedb.org.">?</span>
+        <label class="account-label">clé API TMDB
+          <span class="account-tip" tabindex="0" data-tip="Permet de récupérer les informations et illustrations des films et séries. Clé gratuite sur themoviedb.org.">?</span>
           <input type="password" id="account-key-tmdb" class="account-input" autocomplete="off" spellcheck="false">
         </label>
-        <label class="account-label">MDBList API key
-          <span class="account-tip" tabindex="0" data-tip="Optional. Used for MDBList-powered For You picks.">?</span>
+        <label class="account-label">Clé API MDBList
+          <span class="account-tip" tabindex="0" data-tip="Facultatif. Utilisé pour les recommandations « Pour vous » de MDBList.">?</span>
           <input type="password" id="account-key-mdblist" class="account-input" autocomplete="off" spellcheck="false">
         </label>
         
         
-        <label class="account-label">RPDB key <span class="account-optional">(optional)</span>
-          <span class="account-tip" tabindex="0" data-tip="Optional ratings posters addon key, if you use RPDB.">?</span>
+        <label class="account-label">Clé RPDB <span class="account-optional">(facultatif)</span>
+          <span class="account-tip" tabindex="0" data-tip="Clé facultative pour les notes sur les affiches via RPDB.">?</span>
           <input type="password" id="account-key-rpdb" class="account-input" autocomplete="off" spellcheck="false">
         </label>
-        <label class="account-label">Debrid key <span class="account-optional">(AIO Streams, si différente des clés ci-dessus)</span>
+        <label class="account-label">Clé du service de débridage <span class="account-optional">(AIO Streams, si différente des clés ci-dessus)</span>
           <input type="password" id="account-key-debrid" class="account-input" autocomplete="off" spellcheck="false">
         </label>
-        <p class="account-note">Trakt tokens are saved automatically during the wizard, tied to whichever AIO Metadata host you authorize on (for example Midnight). They are not entered here.</p>
+        <p class="account-note">Les jetons Trakt sont enregistrés via l'assistant sur l'instance AIO Metadata que vous avez autorisée. Ils ne se saisissent pas ici.</p>
         <div class="account-actions">
-          <button type="button" id="account-btn-keys-save" class="account-btn account-btn-primary">Save keys</button>
-          <button type="button" class="account-btn account-btn-ghost account-goto-close">Done</button>
+          <button type="button" id="account-btn-keys-save" class="account-btn account-btn-primary">Enregistrer les clés</button>
+          <button type="button" class="account-btn account-btn-ghost account-goto-close">Terminé</button>
         </div>
       </div>
 
       <div id="account-view-privacy" hidden>
-        <p class="account-lead">Why this is safe enough to type keys into</p>
+        <p class="account-lead">Comment les clés sont protégées</p>
         <ul class="account-privacy-list">
-          <li>Your save password never leaves this device. We do not upload it.</li>
+          <li>Le mot de passe d'enregistrement ne quitte jamais cet appareil.</li>
           <li>Les clés API sont chiffrées localement avec votre mot de passe de sauvegarde.</li>
-          <li>Anyone who opens this site without your save password cannot read that data.</li>
-          <li>Autosave is optional. Skip it and the site works the same as before.</li>
+          <li>Sans votre mot de passe d'enregistrement, ces données ne peuvent pas être déchiffrées normalement.</li>
+          <li>L'enregistrement automatique est facultatif ; le site fonctionne également sans lui.</li>
           <li>Cette sauvegarde locale est indépendante de toute connexion à un compte distant. Use “Lock on this computer” if someone else might use this browser.</li>
         </ul>
         <div class="account-actions">
-          <button type="button" class="account-btn account-btn-primary account-goto-close">Got it</button>
+          <button type="button" class="account-btn account-btn-primary account-goto-close">Compris</button>
         </div>
       </div>
     </div>
@@ -944,7 +944,7 @@
   <script>window.MA_COLLECTION_ASSET_VERSION = 92.4;</script>
   <script src="wizard.js?v=99.0"></script>
   <script src="account-ui.js?v=98.0"></script>
-  <script src="site-fr.js?v=31"></script>
+  <script src="site-fr.js?v=32"></script>
   <script src="import-studio.js?v=14"></script>
   <script src="destination-picker.js?v=9"></script>
 </body>
