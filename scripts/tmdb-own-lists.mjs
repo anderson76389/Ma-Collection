@@ -125,6 +125,9 @@ async function request(method,path,body) {
         console.error('TMDB temporairement indisponible ('+res.status+'), nouvelle tentative.');
         await delay(after*1000);continue;
       }
+      if(res.status===401 && Number(data.status_code)===36) {
+        throw Error("TMDB 401 (36): le jeton GitHub est reconnu mais n'a PAS le droit d'écriture. Réautorisez Ma-Collection sur TMDB avec l'accès lecture ET écriture, puis remplacez le secret TMDB_V4_USER_ACCESS_TOKEN. Aucun catalogue n'a été modifié.");
+      }
       if(!res.ok||data.success===false) throw Error('TMDB '+res.status+' ('+(data.status_code||'')+'): '+String(data.status_message||data.errors?.join('; ')||'appel rejeté').slice(0,140));
       return data;
     } catch(e) {
