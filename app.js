@@ -4642,7 +4642,7 @@ function renderSimpleSettings() {
     }).join('')}</div>
 
     <h3 class="se-sec-title">Hover Effects</h3>
-    <p class="se-note" style="margin-bottom:8px;">Turn off the animated hover/focus effect on folder cards, dans vos aperçus et vos exports.</p>
+    <p class="se-note" style="margin-bottom:8px;">Désactivez les animations au survol ou à la sélection des affiches de dossiers, dans vos aperçus et vos exports.</p>
     <div class="se-genre-list">
       <label class="se-genre-row">
         <input type="checkbox" id="se-gif-disable-streaming" ${gifDisableStreaming ? 'checked' : ''}>
