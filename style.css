@@ -10444,3 +10444,59 @@ kbd {
     top: calc(76px + var(--ma-collection-beta-banner-height, 0px));
   }
 }
+
+/* Accueil Ma-Collection — alignement cohérent et adaptation des écrans.
+   La rangée secondaire ne contient qu'un bouton : ne plus réserver
+   une deuxième colonne vide qui décale « Envoi rapide » vers la gauche. */
+.title-screen-overlay {
+  width: 100%;
+  min-height: 100dvh;
+  box-sizing: border-box;
+  padding-inline: clamp(14px, 3vw, 28px);
+}
+.title-screen-panel {
+  box-sizing: border-box;
+  min-width: 0;
+  padding-inline: 0;
+}
+.title-hero-stage {
+  box-sizing: border-box;
+  margin-inline: auto;
+}
+.title-screen-hero-layout {
+  max-width: min(400px, 100%);
+  width: 100%;
+  align-items: center;
+  margin-inline: auto;
+}
+.title-hero-sub-row {
+  grid-template-columns: minmax(0, 1fr);
+  width: min(360px, 100%);
+  margin-inline: auto;
+}
+.title-hero-sub-row > .title-hero-sub-btn {
+  width: 100%;
+  min-height: 44px;
+  height: auto;
+  padding-block: 10px;
+}
+.title-screen-tagline,
+.title-test-code,
+.title-hero-logo-emblem,
+.title-scroll-indicator {
+  margin-inline: auto;
+  text-align: center;
+}
+.title-hero-logo-emblem { margin-top: clamp(20px, 3vh, 34px); }
+.title-scroll-indicator { white-space: normal; }
+@media (max-width: 480px) {
+  .title-screen-overlay { padding-inline: 14px; }
+  .title-hero-stage { min-height: calc(100dvh - 38px); padding-block: 44px 26px; }
+  .title-screen-hero-layout { padding-inline: 0; }
+  .title-screen-logo { overflow-wrap: anywhere; }
+  .title-hero-sub-row { width: 100%; }
+  .title-scroll-indicator { font-size: .75rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .title-hero-logo-img, .scroll-ind-chevron { animation: none; }
+}
