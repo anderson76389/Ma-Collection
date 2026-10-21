@@ -2,119 +2,119 @@
   "schema": 1,
   "source": "https://www.netflix.com/tudum/top10/data/all-weeks-countries.tsv",
   "country": "FR",
-  "week": "2026-10-04",
+  "week": "2026-10-18",
   "films": [
     {
       "rank": 1,
-      "title": "UNABOMBER",
+      "title": "Animals",
       "tmdb_id": null
     },
     {
       "rank": 2,
-      "title": "Hungry",
+      "title": "Untouchable",
       "tmdb_id": null
     },
     {
       "rank": 3,
-      "title": "Coexister",
-      "tmdb_id": 432618
-    },
-    {
-      "rank": 4,
-      "title": "Vultures",
-      "tmdb_id": null
-    },
-    {
-      "rank": 5,
       "title": "Doing Life",
       "tmdb_id": null
     },
     {
-      "rank": 6,
-      "title": "M3GAN 2.0",
-      "tmdb_id": 1071585
-    },
-    {
-      "rank": 7,
+      "rank": 4,
       "title": "Jurassic World Rebirth",
       "tmdb_id": 1234821
     },
     {
+      "rank": 5,
+      "title": "The Notebook",
+      "tmdb_id": null
+    },
+    {
+      "rank": 6,
+      "title": "The Forever Purge",
+      "tmdb_id": 602223
+    },
+    {
+      "rank": 7,
+      "title": "Sacrifice",
+      "tmdb_id": null
+    },
+    {
       "rank": 8,
-      "title": "The Widower: 'Til Death Do Us Part",
-      "tmdb_id": 1758536
+      "title": "Orphan",
+      "tmdb_id": null
     },
     {
       "rank": 9,
-      "title": "Rescapé : L'épisode final",
-      "tmdb_id": 1779555
+      "title": "Within",
+      "tmdb_id": null
     },
     {
       "rank": 10,
-      "title": "Le grand déplacement",
-      "tmdb_id": 1255783
+      "title": "UNABOMBER",
+      "tmdb_id": null
     }
   ],
   "series": [
     {
       "rank": 1,
-      "title": "The Arena",
-      "season": "The Arena: Season 1",
+      "title": "Below",
+      "season": "Below: Limited Series",
       "tmdb_id": null
     },
     {
       "rank": 2,
-      "title": "Monster: The Lizzie Borden Story",
-      "season": "Monster: The Lizzie Borden Story: Season 1",
-      "tmdb_id": 299939
-    },
-    {
-      "rank": 3,
-      "title": "Not a Stranger",
-      "season": "Not a Stranger: Season 1",
-      "tmdb_id": 320760
-    },
-    {
-      "rank": 4,
-      "title": "Minerva Academy",
-      "season": "Minerva Academy: Season 1",
-      "tmdb_id": 312557
-    },
-    {
-      "rank": 5,
       "title": "East of Eden",
       "season": "East of Eden: Limited Series",
       "tmdb_id": null
     },
     {
+      "rank": 3,
+      "title": "The Trap",
+      "season": "The Trap: Limited Series",
+      "tmdb_id": null
+    },
+    {
+      "rank": 4,
+      "title": "The Arena",
+      "season": "The Arena: Season 1",
+      "tmdb_id": null
+    },
+    {
+      "rank": 5,
+      "title": "TYSON",
+      "season": "TYSON: Limited Series",
+      "tmdb_id": 335536
+    },
+    {
       "rank": 6,
-      "title": "The Final Problem",
-      "season": "The Final Problem: Limited Series",
-      "tmdb_id": 290720
+      "title": "The Diplomat",
+      "season": "The Diplomat: Season 4",
+      "tmdb_id": null
     },
     {
       "rank": 7,
-      "title": "LEGO ONE PIECE",
-      "season": "LEGO ONE PIECE: Season 1",
-      "tmdb_id": 318918
+      "title": "Take Charge of My Heart",
+      "season": "Take Charge of My Heart: Limited Series",
+      "tmdb_id": 289423
     },
     {
       "rank": 8,
-      "title": "A Different World",
-      "season": "A Different World: Season 1",
+      "title": "Instadocs: AI Gone Wild",
+      "season": "N/A",
       "tmdb_id": null
     },
     {
       "rank": 9,
-      "title": "Habeas Corpus",
-      "season": "Habeas Corpus: Season 1",
-      "tmdb_id": 308963
+      "title": "Spike",
+      "season": "Spike: Season 1",
+      "tmdb_id": null
     },
     {
       "rank": 10,
-      "title": "The Gentlemen",
-      "season": "The Gentlemen: Season 2",
-      "tmdb_id": null
+      "title": "Not a Stranger",
+      "season": "Not a Stranger: Season 1",
+      "tmdb_id": 320760
     }
   ]
 }
