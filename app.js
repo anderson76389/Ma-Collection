@@ -1466,6 +1466,11 @@ function renderFolderGrid() {
 
     const baseImg = folder.coverImageUrl || '';
     const hoverGif = folder.focusGifUrl || baseImg;
+    const hoverMarkup = folder.focusGifUrl && gifsAllowedForCategory(category)
+      ? isMotionVideoUrl(hoverGif)
+        ? `<video class="card-gif-img" data-video="${hoverGif}" poster="${baseImg}" muted loop playsinline preload="none" aria-hidden="true"></video>`
+        : `<img src="${hoverGif}" class="card-gif-img" alt="${folder.title} preview" loading="lazy">`
+      : '';
 
     // Deliberately NOT gated on folder.hideTitle, unlike the hero and detail
     // sheet. 481 of 565 folders set it and none carry a title logo without
@@ -1518,7 +1523,7 @@ function renderFolderGrid() {
     card.innerHTML = `
       <div class="card-artwork-wrapper">
         <img src="${baseImg}" class="card-cover-img" alt="${folder.title}" loading="lazy">
-        ${(folder.focusGifUrl && gifsAllowedForCategory(category)) ? `<img src="${hoverGif}" class="card-gif-img" alt="${folder.title} preview" loading="lazy">` : ''}
+        ${hoverMarkup}
       </div>
       <div class="card-overlay-gradient"></div>
 
@@ -1528,7 +1533,12 @@ function renderFolderGrid() {
     `;
 
     // Hover → update backdrop
+    card.addEventListener('mouseleave', () => {
+      const video = card.querySelector('video.card-gif-img');
+      if (video) video.pause();
+    });
     card.addEventListener('mouseenter', () => {
+      startHoverVideo(card);
       setCinematicWallpaper(folder);
     });
 
@@ -2108,7 +2118,9 @@ function buildNuvioCard(folder, category, catIdx) {
   // The src is attached lazily (on first hover/focus) so we don't fire off
   // hundreds of GIF requests when the preview first opens.
   const gifHtml = (folder.focusGifUrl && folder.focusGifEnabled !== false && gifsAllowedForCategory(category))
-    ? `<img class="nv-card-gif" data-gif="${folder.focusGifUrl}" alt="">`
+    ? isMotionVideoUrl(folder.focusGifUrl)
+      ? `<video class="nv-card-gif" data-gif="${folder.focusGifUrl}" poster="${imgSrc}" muted loop playsinline preload="none" aria-hidden="true"></video>`
+      : `<img class="nv-card-gif" data-gif="${folder.focusGifUrl}" alt="">`
     : '';
 
   // In reorder mode, swap the curation actions for up/down arrows.
@@ -2138,6 +2150,10 @@ function buildNuvioCard(folder, category, catIdx) {
   `;
 
   card.addEventListener('mouseenter', () => { attachCardGif(card); setCinematicWallpaper(folder); focusPreviewElement(card); });
+  card.addEventListener('mouseleave', () => {
+    const video = card.querySelector('video.nv-card-gif');
+    if (video && !card.classList.contains('is-focused')) video.pause();
+  });
 
   if (reorderMode) {
     card.querySelectorAll('.reorder-arrow').forEach((btn) => {
@@ -2604,6 +2620,9 @@ function setPreviewFocus(r, c, scroll = true) {
   c = Math.max(0, Math.min(c, previewRows[r].length - 1));
   previewPos = { r, c };
   clearPreviewFocus();
+  document.querySelectorAll('video.nv-card-gif').forEach(video => {
+    if (!video.closest('.nv-card')?.matches(':hover')) video.pause();
+  });
   const el = previewRows[r][c];
   if (!el) return;
   el.classList.add('is-focused');
@@ -2617,10 +2636,34 @@ function setPreviewFocus(r, c, scroll = true) {
   }
 }
 
-// Lazily load a card's focus GIF the first time it's hovered/focused.
+// Les fichiers .gifv historiques sont servis en video/mp4 et non en image.
+function isMotionVideoUrl(url) {
+  return /\.(?:gifv|mp4|webm)(?:[?#]|$)/i.test(url || '');
+}
+function startHoverVideo(card) {
+  const video = card?.querySelector('video.card-gif-img, video.nv-card-gif');
+  if (!video) return;
+  if (video.dataset.video) {
+    video.src = video.dataset.video;
+    delete video.dataset.video;
+  }
+  if (video.dataset.gif) {
+    video.src = video.dataset.gif;
+    delete video.dataset.gif;
+  }
+  const promise = video.play();
+  if (promise?.catch) promise.catch(() => {});
+}
 function attachCardGif(card) {
-  const gif = card && card.querySelector('.nv-card-gif[data-gif]');
-  if (gif) { gif.src = gif.getAttribute('data-gif'); gif.removeAttribute('data-gif'); }
+  const media = card && card.querySelector('.nv-card-gif[data-gif]');
+  if (media?.tagName === 'VIDEO') {
+    startHoverVideo(card);
+  } else if (media) {
+    media.src = media.getAttribute('data-gif');
+    media.removeAttribute('data-gif');
+  } else {
+    startHoverVideo(card);
+  }
 }
 function handlePreviewKeydown(e) {
   if (!isPreviewActive) return;
