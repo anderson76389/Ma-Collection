@@ -22,7 +22,7 @@ const read=p=>readFileSync(resolve(root,p),"utf8");
 const archives=p=>/^Kaptain_.*\.json$/i.test(p)
   || /^collections\/database\.(?:beta|mega\d+)\.js$/i.test(p)
   || /^(?:collections\/nuvio_mega_collection\.json|Kaptain_Mega_Nuvio_Native_.*\.json)$/i.test(p);
-const meta=p=>/^(?:README\.md|ROADMAP\.md|docs\/|\.claude\/|\.github\/scripts\/|tests\/|scripts\/audit-|scripts\/media_migration\.py)/i.test(p);
+const meta=p=>/^(?:README\.md|ROADMAP\.md|docs\/|\.claude\/|\.github\/scripts\/|tests\/|scripts\/audit-|scripts\/media_migration\.py|generate_collection_cards\.py)/i.test(p);
 const original=(u)=>{
   let url;
   try{url=new URL(u)}catch{return false;}
@@ -120,7 +120,8 @@ assert.equal(categories.addons,13);
 assert.equal(categories.discover+categories.specialTmdb+categories.tmdbLists+
   categories.traktLists+categories.addons,categories.sources);
 const exceptions=JSON.parse(read("config/medias-externes-historiques.json")).references;
-assert.equal(exceptions.length,23,"La liste des exceptions médias a changé; revoir l'audit");
+assert.equal(exceptions.length,0,"Des exceptions médias externes ont été réintroduites");
+assert.equal(externalMedia,0,"Média hors Ma-Art dans les 20 collections");
 assert.equal(upstreamMedia,0,"Média Kaptain encore actif dans une des 20 collections");
 const summary={
   tracked:gitFiles.length,textFiles:textFiles.length,
@@ -133,7 +134,7 @@ const summary={
   otherHosts:[...urlCount.entries()].sort((a,b)=>b[1]-a[1]).slice(0,15).map(([host,count])=>({host,count})),
   limitations:[
     "La propriété des 262 listes TMDB et des listes Trakt n'est pas prouvée sans vérifier leurs auteurs avec les API.",
-    "Les archives peuvent garder des médias externes; seul le domaine réel de chaque URL compte.",
+    "Les archives et l'ancien générateur de bannières conservent des préfixes historiques. Leur éventuelle exécution manuelle n'est pas certifiée indépendante.",
     "Ce contrôle ne garantit ni la disponibilité future des API ni le contrôle du compte Cloudflare.",
     "Les droits des œuvres et le dépôt de sauvegardes indépendantes ne sont pas couverts."
   ]
