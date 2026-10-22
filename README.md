@@ -18,7 +18,7 @@
 
 ---
 
-> **Indépendance vérifiée (16 octobre 2026) :** les catalogues sont hébergés dans ce dépôt, et la migration des images principales vers Ma-Art Cloudflare a été testée. Des sources tierces (23 références de médias historiques, listes TMDB/Trakt, addons) restent à qualifier. Aucun résultat ne garantit une indépendance Internet absolue. Consultez le **[rapport d'audit d'indépendance](docs/INDEPENDANCE.md)** pour les éléments validés et les limites restantes.
+> **Indépendance des médias vérifiée (22 octobre 2026) :** les 20 collections renvoient leurs visuels de dossiers vers Ma-Art Cloudflare : aucune des 23 anciennes références ImgBB/Prism/Discovery n'y reste. Les copies existantes sont conservées et le manifeste des 249 médias supplémentaires a été sécurisé. Les listes TMDB/Trakt, addons et services externes restent des dépendances distinctes. Aucun résultat ne garantit une indépendance Internet absolue. Consultez le **[rapport d'audit d'indépendance](docs/INDEPENDANCE.md)** pour les éléments validés et les limites restantes.
 
 ## ✨ Le projet
 
