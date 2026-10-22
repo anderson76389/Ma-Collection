@@ -19,9 +19,15 @@ Objectif : conserver Ma-Collection et Ma-Art fonctionnels si ImKaptain supprime 
 - Le contrôle HTTP/MIME des 2 748 liens Cloudflare a été relancé avec succès le 22 octobre. **Il ne vérifie pas le SHA-256 des données réellement téléchargées.** Le manifeste supplémentaire de Ma-Art répertorie à nouveau 249/249 fichiers (avec vérification à la reconstruction), mais les droits des visuels et l'état de facturation Cloudflare restent à vérifier séparément.
 - Sauvegarder hors GitHub les dépôts, les fichiers et les paramètres/secrets (sans exposer de jetons), pour éviter une dépendance unique à GitHub.
 
-### Fichiers historiques non actifs
+### Archives Kaptain et préversions retirées (22 octobre 2026)
 
-Les anciennes archives `Kaptain_Nuvio_Native_*.json` peuvent encore conserver des adresses d'images Kaptain. Elles sont conservées pour référence et compatibilité, **mais ne sont pas la base chargée au démarrage** (`collections/database.js`) ni la sortie courante de l'éditeur. N'utilisez pas ces anciens exports comme preuve d'indépendance ; leur éventuelle migration doit être validée séparément.
+Les neuf anciens exports `Kaptain_*.json`, les trois bases de prévisualisation `collections/database.beta.js` et `database.mega09*.js`, ainsi que les anciens générateurs qui les utilisaient, ont été retirés de la branche principale. Les codes bêta v0.90 à v0.92 ne sont plus actifs. La collection partenaire **Kaoxt** et ses fichiers restent disponibles.
+
+L'assistant AIO Streams conserve son fonctionnement grâce au fichier `Ma_Collection_AIO_Template.json` (4 764 entrées avec routage), stocké directement sur Ma-Collection ; ses IDs TMDB/Trakt sont inchangés, et le champ descriptif `metadata.author` n'usurpe pas la propriété des listes de tiers. Le fichier historique `collections/nuvio_mega_collection.json` a été migré vers Ma-Art **sans modifier ses 18 catégories, 756 dossiers ni 3 538 sources** : 2 754 liens média ont été remplacés et le GIF Discovery inaccessible a été désactivé.
+
+L'ancien convertisseur de GIF autonome, qui pouvait téléverser des médias vers un dépôt ImKaptain, a aussi été retiré puisqu'il n'était relié à aucune fonctionnalité du site principal. Les fichiers supprimés restent disponibles dans l'historique Git ; cela ne réécrit pas le passé du dépôt. Les crédits des auteurs d'origine restent conservés dans le README.
+
+**Limite :** une référence à une liste TMDB ou Trakt peut encore être sous le contrôle de son créateur, même si son ID est hébergé dans nos propres fichiers. L'absence d'appels aux serveurs Kaptain ne prouve pas la propriété de ces listes.
 
 ## Tests de non-régression
 

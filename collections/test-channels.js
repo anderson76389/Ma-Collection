@@ -1,79 +1,9 @@
 /**
- * Canaux de prévisualisation Ma-Collection (GitHub Pages).
- * Codes are invite-style, not cryptographic secrets. Anyone who finds the
- * beta file URL can load it. Rotate codes when a beta closes.
- *
- * Add/retire channels here. Matching files must exist under collections/ (+ root templates).
- *
- * Friend packs (friendPack: {...}) load another creator's collection as-is and
- * teach Native Mode to provision their AIO Metadata catalog pack on push.
+ * Canaux partenaires locaux de Ma-Collection.
+ * Les archives bêta Kaptain v0.90/v0.91/v0.92 sont retirées.
+ * L'import Kaoxt est conservé sans requête vers un serveur Kaptain.
  */
 window.MA_COLLECTION_TEST_CHANNELS = {
-  // v0.92 preview: latest Studio draft — title logos, International flags, Discover Top lockups
-  MEGA092: {
-    id: 'MEGA092',
-    label: 'v0.92 Preview',
-    versionLabel: 'v0.92',
-    blurb: 'Preview of Mega Collection v0.92 before it goes live.',
-    databaseUrl: 'collections/database.mega092.js',
-    templateUrl: 'Kaptain_Catalog_Template.mega092.json',
-    redditFeedbackUrl: 'https://github.com/anderson76389/Ma-Collection/issues/new',
-    redditCommunityUrl: 'https://github.com/anderson76389/Ma-Collection/discussions',
-  },
-
-  // v0.91 preview: Studio Draft 78 — Spotlights, Based on, experimental art, P0/P1 fixes
-  MEGA091: {
-    id: 'MEGA091',
-    label: 'v0.91 Preview',
-    versionLabel: 'v0.91',
-    blurb: 'Preview of Mega Collection v0.91 before it goes live.',
-    databaseUrl: 'collections/database.mega091.js',
-    templateUrl: 'Kaptain_Catalog_Template.mega091.json',
-    redditFeedbackUrl: 'https://github.com/anderson76389/Ma-Collection/issues/new',
-    redditCommunityUrl: 'https://github.com/anderson76389/Ma-Collection/discussions',
-    patchNotes: {
-      title: "What's new in v0.91 (beta)",
-      intro:
-        "You're on a preview build of Mega Collection v0.91. Live visitors still see the public default until this ships. Try it in the picker. If you Importer dans Kovelyx, you're pushing this beta catalog to your profile.",
-      bullets: [
-        'New Spotlights row (8 rotating archetypes) and Based on shelves',
-        'Experimental artwork on Spotlights, Discover, Genres, and more',
-        'History Series constrained with period/historical keywords + live-action strips',
-        'Streaming Series exclusions aligned (animation / talk / reality strips)',
-        'Dual vote floors, decade title cleanup, Genre Popular sort fixed',
-        'Setup: region remaps streaming availability; Preferred Language feeds AIO Metadata; cleaner language list',
-      ],
-      feedback:
-        "Found a bug, empty row, or weird title? Message me on Reddit. That's the fastest way I can fix it before v0.91 goes live.",
-    },
-  },
-
-  // v0.90 preview: Discover rebuild, vote floors, exclusions, Anime Discover
-  MEGA090: {
-    id: 'MEGA090',
-    label: 'v0.90 Preview',
-    versionLabel: 'v0.90',
-    blurb: 'Preview of Mega Collection v0.90 before it goes live.',
-    databaseUrl: 'collections/database.beta.js',
-    templateUrl: 'Kaptain_Catalog_Template.beta.json',
-    redditFeedbackUrl: 'https://github.com/anderson76389/Ma-Collection/issues/new',
-    redditCommunityUrl: 'https://github.com/anderson76389/Ma-Collection/discussions',
-    patchNotes: {
-      title: "What's new in v0.90 (beta)",
-      intro:
-        "You're on a preview build of Mega Collection v0.90. Live visitors still see v0.87 until this ships. Try it in the picker. If you Importer dans Kovelyx, you're pushing this beta catalog to your profile.",
-      bullets: [
-        'Streaming Services rebuilt on native TMDB Discover (Top 10s stay as lists)',
-        'Smarter vote floors by list type: Popular, New, Top Rated, AVOD vs premium',
-        'Exclusions: adult/softcore cleanup on Romance; Animation/docs stripped from live-action Comedy, Moods, and more',
-        'Anime converted from lists to TMDB Discover with adult/ecchi blocks and sharper subfolders',
-        'Romance Series / RomCom Series fixed off Drama/Comedy-only mismatches',
-      ],
-      feedback:
-        "Found a bug, empty row, or weird title? Message me on Reddit. That's the fastest way I can fix it before v0.90 goes live.",
-    },
-  },
-
   // Collection partenaire Kaoxt — MDBList / AIO Metadata, conservée à l'identique
   // Key must be uppercase: lookupTestChannel normalizes input with toUpperCase().
   KAOXTV1: {
