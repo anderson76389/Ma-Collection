@@ -473,7 +473,7 @@ async function maybeActivateTestChannelFromUrl() {
   // Aucun ancien code bêta n'est réactivé automatiquement.
   const channel = lookupTestChannel(code);
   if (!channel) {
-    setTestCodeStatus('Ce code n'est plus actif. Vérifiez le code de la collection partenaire.', true);
+    setTestCodeStatus("Ce code n'est plus actif. Vérifiez le code de la collection partenaire.", true);
     return null;
   }
   try {
