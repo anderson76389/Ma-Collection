@@ -22,6 +22,7 @@ const names = [
   "spotlight", "streaming_services", "studios", "trending_new",
 ];
 const exceptionRows = JSON.parse(read("config/medias-externes-historiques.json")).references;
+assert.equal(exceptionRows.length, 0, "Une nouvelle URL média externe exige une vérification explicite");
 const signature = (file, folderId, field) => [file, folderId, field].join("::");
 const exceptions = new Map(exceptionRows.map(row => [signature(row.file, row.folderId, row.field), row.url]));
 assert.equal(exceptions.size, exceptionRows.length, "Doublons dans les exceptions de médias");
@@ -90,6 +91,7 @@ for (const category of db) {
   }
 }
 assert(mainHosted >= 2400, "Moins de 2400 médias Cloudflare dans la base principale");
+assert.equal(mainLegacy, 0, "La base du site utilise encore l'ancien GIF externe Discovery");
 console.log("BASE_SITE : " + JSON.stringify({categories: db.length, mainHosted, mainLegacy}));
 
 for (const key of exceptions.keys()) {
@@ -106,6 +108,7 @@ console.log("AUDIT_INDEPENDANCE : " + JSON.stringify(count));
 console.log("Sources externes : TMDB/Trakt = " + count.externalLists + ", addons = " + count.externalAddons);
 console.log("Médias tiers préexistants, non certifiés indépendants = " + count.legacyMedia);
 for (const item of findings) console.error("ERREUR INDEPENDANCE : " + item);
-if (count.categories !== 20 || count.folders < 700 || count.localMedia < 2500) findings.push("Inventaire incomplet ou migration d'images régressée");
+if (count.categories !== 20 || count.folders < 700 || count.localMedia < 2700) findings.push("Inventaire incomplet ou migration d'images régressée");
+if (count.legacyMedia !== 0) findings.push("Un média externe a été réintroduit");
 if (findings.length) process.exitCode = 1;
-else console.log("AUDIT STRUCTUREL OK : zéro nouveau média externe et zéro hébergement Kaptain actif dans les 20 collections. Les exceptions tierces restent à migrer légalement.");
+else console.log("AUDIT STRUCTUREL OK : les 20 collections ne contiennent plus de médias externes, hors TMDB/Trakt/addons comme sources de données.");
