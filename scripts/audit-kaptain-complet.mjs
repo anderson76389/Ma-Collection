@@ -53,6 +53,21 @@ for(const p of textFiles){
   if(!meta(p)&&!archives(p)&&/\bNuvioPush\s*\.\s*(?:push|send|import)\s*\(/.test(body))
     suspicious.push({file:p,reason:"ancien appel distant NuvioPush"});
 }
+const retiredFiles=["Kaptain_Catalog_Template.beta.json","Kaptain_Catalog_Template.json","Kaptain_Catalog_Template.mega091.json","Kaptain_Catalog_Template.mega092.json","Kaptain_Mega_Nuvio_Native_0.61.json","Kaptain_Nuvio_Native_064.json","Kaptain_Nuvio_Native_beta.json","Kaptain_Nuvio_Native_mega091.json","Kaptain_Nuvio_Native_mega092.json","collections/database.beta.js","collections/database.mega091.js","collections/database.mega092.js","build_locales.py","split_collections.py","generate_collection_cards.py","gif-converter.html","gifenc.js"];
+for(const file of retiredFiles)assert(!existsSync(resolve(root,file)),"Archive ou ancien outil Kaptain réintroduit : "+file);
+const currentAio=JSON.parse(read("Ma_Collection_AIO_Template.json"));
+assert(Array.isArray(currentAio)&&currentAio.length===4764,"Modèle AIO Ma-Collection incomplet");
+assert(currentAio.every(x=>x&&x.instId&&x.metadata?.author!=="Kaptain"),"Modèle AIO non autonome");
+const merged=JSON.parse(read("collections/nuvio_mega_collection.json"));
+assert(merged.length===18 && merged.reduce((n,c)=>n+c.folders.length,0)===756,"Mega Collection modifiée");
+assert(merged.reduce((n,c)=>n+c.folders.reduce((v,f)=>v+(f.sources||[]).length,0),0)===3538,"Sources Mega Collection modifiées");
+for(const c of merged)for(const f of c.folders){
+  for(const field of ["coverImageUrl","focusGifUrl","heroBackdropUrl","titleLogoUrl","backdropImageUrl"]){
+    const url=f[field];
+    if(typeof url==="string"&&url.startsWith("http"))assert(url.startsWith("https://ma-art.mailpromahe.workers.dev/"),"Ancien média Mega Collection : "+url);
+  }
+}
+assert(!read("wizard.js").includes("Kaptain_Catalog_Template.json"),"L'assistant charge encore le modèle Kaptain");
 const index=read("index.html");
 const activeHtml=index.replace(/<!--[^]*?-->/g,"");
 for(const match of activeHtml.matchAll(/<script\b[^>]*\bsrc=["']([^"']+)["']/g)){

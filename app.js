@@ -220,7 +220,7 @@ async function bootstrapMaCollection() {
 
 // ==========================================================================
 // TEST CODE / BETA CHANNELS
-// Soft gate: invite codes unlock a side-loaded catalog (database.beta.js).
+// Canaux facultatifs : charger uniquement les collections partenaires locales.
 // Not cryptographic — rotate codes when a beta ends.
 // ==========================================================================
 
@@ -470,11 +470,10 @@ async function maybeActivateTestChannelFromUrl() {
   const params = new URLSearchParams(window.location.search);
   let code = params.get('test') || params.get('code') || params.get('beta');
   if (!code) return null;
-  // Migrate retired codes (MEGA87 → MEGA090)
-  if (normalizeTestCode(code) === 'MEGA87') code = 'MEGA090';
+  // Aucun ancien code bêta n'est réactivé automatiquement.
   const channel = lookupTestChannel(code);
   if (!channel) {
-    setTestCodeStatus('That code isn’t active. Check the post and try again.', true);
+    setTestCodeStatus('Ce code n'est plus actif. Vérifiez le code de la collection partenaire.', true);
     return null;
   }
   try {

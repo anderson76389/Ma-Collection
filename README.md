@@ -204,6 +204,12 @@ Les fichiers de catalogues sont inclus dans le dépôt et la génération hebdom
 
 Le nom du fichier pré-généré est historique ; il ne déclenche aucune connexion à un serveur externe.
 
+## 🧹 Suppression des anciennes préversions Kaptain
+
+Depuis le **22 octobre 2026**, les exports `Kaptain_*.json` et les bases d'aperçu **v0.90/v0.91/v0.92** ne sont plus servis par ce dépôt. Le modèle utilisé par l'assistant AIO Streams s'appelle désormais [`Ma_Collection_AIO_Template.json`](Ma_Collection_AIO_Template.json) : mêmes catalogues et identifiants externes, sans modification des listes TMDB/Trakt.
+
+Le fichier de compatibilité `collections/nuvio_mega_collection.json` conserve ses **18 catégories, 756 dossiers et 3 538 sources**, mais ses visuels pointent maintenant vers **Ma-Art** (ancien GIF Discovery inaccessible désactivé). L'export français courant, les 20 collections, le site et l'import Kovelyx/Nuvio ne sont pas supprimés. Les collections partenaires, dont **Kaoxt**, sont conservées. Les anciens scripts qui exigeaient les préversions et l'ancien convertisseur GIF relié à un dépôt ImKaptain ont été retirés ; leur code reste consultable dans l'historique Git pour archivage. Les crédits des auteurs d'origine restent maintenus.
+
 ## 🔄 Nouveautés et sélections dynamiques
 
 Les rangées **Nouveaux films, Nouvelles séries, sorties récentes et nouveaux animés** utilisent des fenêtres de dates glissantes, recalculées chaque lundi. Un audit des catalogues individuels confirme **377 sources hebdomadaires** couvrant les **22 plateformes**, **68 chaînes**, **6 dossiers de télé-réalité**, ainsi que les genres, films, séries, animés, documentaires et autres nouveautés. **1 708 sources TMDB Discover supplémentaires** récupèrent leurs classements en direct. Les années historiques, récompenses, listes de tiers, affiches et GIF restent préservés. Les classements tiers ne sont pas garantis hebdomadaires et les nouvelles bornes de dates d'une configuration déjà importée dans Kovelyx peuvent nécessiter une réimportation. [Détail, contrôle et limites](docs/CATALOGUES_DYNAMIQUES.md).
