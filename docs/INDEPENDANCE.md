@@ -1,4 +1,4 @@
-# Indépendance de Ma-Collection — audit du 16 octobre 2026
+# Indépendance de Ma-Collection — audit mis à jour le 22 octobre 2026
 
 Objectif : conserver Ma-Collection et Ma-Art fonctionnels si ImKaptain supprime ses dépôts, ses images et son site. Ce document ne prétend pas supprimer toutes les dépendances Internet (TMDB, GitHub, Cloudflare, Trakt, MDBList ou addons).
 
@@ -13,10 +13,10 @@ Objectif : conserver Ma-Collection et Ma-Art fonctionnels si ImKaptain supprime 
 
 ## Restes à résoudre — **pas de certification 100 %**
 
-- **23 références de médias externes historiques** (moins de fichiers uniques) sont conservées dans quatre JSON : i.ibb.co, bramst0ne/prism-wallpapers et un GIF sur max-streams.gleeze.com. Liste détaillée : config/medias-externes-historiques.json. Elles ne sont pas incluses dans le miroir actuel Ma-Art ; les remplacer arbitrairement supprimerait les affiches et animations. Le GIF Discovery était déjà signalé indisponible dans Ma-Art. Ne migrer que les médias dont les droits de diffusion sont établis.
+- **Visuels des 20 catégories migrés le 22 octobre :** les 23 utilisations de 12 URL tierces (ImgBB/Prism/Discovery) ont été remplacées par des visuels correspondants déjà disponibles sur Ma-Art ; `config/medias-externes-historiques.json` n'autorise plus d'exception. Les dix URL ImgBB ont été remplacées par celles des dossiers équivalents de « Découvrir », les fonds « Top » par leurs couvertures Ma-Art ; l'ancien GIF Discovery inaccessible a été désactivé (couverture statique conservée). Les anciennes créations tierces n'ont pas été copiées ni republiées. Le site web lit les neuf fichiers `.gifv` via des balises vidéo HTML5 ; cela ne prouve pas que toutes les applications clientes prennent en charge ce format.
 - Le rapport data/catalogues-dynamiques-status.json recense **1 007 références à des listes TMDB/Trakt tierces** et **13 sources d'addons**. Les historiques sont conservés pour ne pas les casser. La disponibilité de chaque identifiant et son propriétaire restent à auditer, en priorité pour les Top 10 et listes « Nouveautés ». Les limites et dates glissantes TMDB ne sont pas des Top 10 officiels.
 - Les workflows hebdomadaires dépendent de GitHub Actions, TMDB/Netflix et des secrets configurés. Leur présence ne prouve pas que chaque mise à jour réelle a été publiée.
-- Le test Cloudflare du 15 octobre contrôle le code HTTP et le type MIME des images, **pas leur hash SHA-256 après publication**. Vérifier l'intégrité de la diffusion réelle et la présence des facturations/produits dans le tableau de bord Cloudflare.
+- Le contrôle HTTP/MIME des 2 748 liens Cloudflare a été relancé avec succès le 22 octobre. **Il ne vérifie pas le SHA-256 des données réellement téléchargées.** Le manifeste supplémentaire de Ma-Art répertorie à nouveau 249/249 fichiers (avec vérification à la reconstruction), mais les droits des visuels et l'état de facturation Cloudflare restent à vérifier séparément.
 - Sauvegarder hors GitHub les dépôts, les fichiers et les paramètres/secrets (sans exposer de jetons), pour éviter une dépendance unique à GitHub.
 
 ### Fichiers historiques non actifs
