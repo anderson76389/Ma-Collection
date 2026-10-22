@@ -7781,7 +7781,7 @@ window.NUVIO_DATABASE = [
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "coverEmoji": "",
-        "focusGifUrl": "https://max-streams.gleeze.com/images/Discovery.gif",
+        "focusGifUrl": "",
         "heroVideoUrl": "",
         "titleLogoUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/f9017eec8b05217ba9541e1b.webp",
         "coverImageUrl": "https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/6ce6ef24187e0a045af236ab.webp",
