@@ -159,6 +159,28 @@ try {
     const after=await page.evaluate(()=>document.documentElement.getAttribute("data-theme"));
     assert.notEqual(after,before);
   });
+  await run("survol GIFV : la vidéo HTML5 remplace l'image et se lance au focus",async()=>{
+    const result=await page.evaluate(()=>{
+      const cat=window.NUVIO_DATABASE.find(c=>c.folders?.some(f=>f.title==="Netflix"));
+      if(!cat)throw new Error("La catégorie Netflix est introuvable");
+      const folder=cat.folders.find(f=>f.title==="Netflix");
+      const card=buildNuvioCard(folder,cat,0);
+      const video=card.querySelector("video.nv-card-gif");
+      if(!video)throw new Error("Le survol GIFV utilise toujours une balise image");
+      let calls=0;
+      video.play=()=>{calls++;return Promise.resolve()};
+      attachCardGif(card);
+      return {isVideo:video.tagName==="VIDEO",src:video.getAttribute("src"),
+        hasDeferredSource:video.hasAttribute("data-gif"),muted:video.muted,
+        loops:video.loop,playsInline:video.playsInline,played:calls,
+        staticCover:!!card.querySelector("img.nv-card-img")};
+    });
+    assert(result.isVideo && result.src?.endsWith(".gifv"));
+    assert.equal(result.hasDeferredSource,false);
+    assert(result.muted && result.loops && result.playsInline);
+    assert.equal(result.played,1);
+    assert(result.staticCover,"La couverture doit rester en secours si la vidéo ne peut pas être lue");
+  });
   await run("recherche : taper, vider et restaurer",async()=>{
     await page.locator("#dashboard-search").fill("recherche QA");
     assert(await page.locator("#search-container").evaluate(n=>n.classList.contains("has-value")));
