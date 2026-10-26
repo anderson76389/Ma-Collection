@@ -356,7 +356,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -376,7 +376,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -396,7 +396,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -414,7 +414,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -434,7 +434,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -454,7 +454,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -472,7 +472,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -492,7 +492,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -510,7 +510,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -530,7 +530,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -550,7 +550,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -570,7 +570,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -590,7 +590,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -610,7 +610,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -632,7 +632,7 @@
               "without_keywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903",
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -652,7 +652,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -674,7 +674,7 @@
               "without_genres": "16,99",
               "withoutKeywords": "210024|222243",
               "without_keywords": "210024|222243",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -694,7 +694,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -714,7 +714,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -748,7 +748,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -766,7 +766,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -784,7 +784,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -802,7 +802,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -820,7 +820,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -838,7 +838,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -856,7 +856,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -874,7 +874,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -892,7 +892,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -910,7 +910,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -928,7 +928,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -946,7 +946,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -964,7 +964,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -982,7 +982,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -1000,7 +1000,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -1018,7 +1018,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -1036,7 +1036,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -2236,7 +2236,7 @@
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "id": "src-7NEO7K9N",
             "genre": "New Movies",
@@ -2259,7 +2259,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -3507,7 +3507,7 @@
               "withoutGenres": "99",
               "without_genres": "99",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "id": "src-PZC0YDHC",
             "genre": "New Movies",
@@ -3530,7 +3530,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -4557,7 +4557,7 @@
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "id": "src-DIUYFIWN",
             "genre": "New Movies",
@@ -4580,7 +4580,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -5803,7 +5803,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "id": "src-XSWCPIRI",
             "genre": "New Movies",
@@ -5826,7 +5826,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -7048,7 +7048,7 @@
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "id": "src-CGG0YXSJ",
             "genre": "New Movies",
@@ -7071,7 +7071,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -8252,7 +8252,7 @@
               "sortBy": "primary_release_date.desc",
               "voteCountGte": 1,
               "vote_count.gte": 1,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             }
           },
           {
@@ -8272,7 +8272,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             }
           },
           {
@@ -8341,7 +8341,7 @@
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "id": "src-3S6T8OAU",
             "genre": "New Movies",
@@ -8936,7 +8936,7 @@
               "withWatchProviders": "283",
               "watchRegion": "US",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "id": "src-1N6O9RI2",
             "genre": "New Movies",
@@ -8976,7 +8976,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "10764,10767,10763",
               "without_genres": "10764,10767,10763",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -9328,7 +9328,7 @@
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "id": "src-1OUNMRKZ",
             "genre": "New Movies",
@@ -9351,7 +9351,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -9662,7 +9662,7 @@
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "id": "src-5URNOQTK",
             "genre": "New Movies",
@@ -9685,7 +9685,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -10020,7 +10020,7 @@
               "withoutGenres": "99",
               "without_genres": "99",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "id": "src-V4H8LHTU",
             "genre": "New Movies",
@@ -10043,7 +10043,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -11222,7 +11222,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             }
           },
           {
@@ -11292,7 +11292,7 @@
               "withoutGenres": "99",
               "without_genres": "99",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "id": "src-MEBFDWZ2",
             "genre": "New Movies",
@@ -11315,7 +11315,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -12540,7 +12540,7 @@
               "watchRegion": "US",
               "watch_region": "US",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             }
           },
           {
@@ -12560,7 +12560,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             }
           }
         ]
@@ -12609,7 +12609,7 @@
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "id": "src-PBX2HWFJ",
             "genre": "New Movies",
@@ -12632,7 +12632,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -13698,7 +13698,7 @@
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "id": "src-9AFR9HB6",
             "genre": "New Movies",
@@ -14249,7 +14249,7 @@
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "id": "src-FHQKLHKE",
             "genre": "New Movies",
@@ -14272,7 +14272,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -15447,7 +15447,7 @@
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "id": "src-2QP7VLFT",
             "genre": "New Movies",
@@ -15470,7 +15470,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -16565,7 +16565,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "id": "src-3UBWKV1Z",
             "genre": "New Movies",
@@ -16588,7 +16588,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -17784,7 +17784,7 @@
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "id": "src-DT0XT0VV",
             "genre": "New Movies",
@@ -17807,7 +17807,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -18218,7 +18218,7 @@
               "withoutKeywords": "9716",
               "without_keywords": "9716",
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "id": "src-D7R2N3TT",
             "genre": "New Movies",
@@ -18241,7 +18241,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -19308,7 +19308,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "primary_release_date.desc",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "id": "src-L56WKCQ1",
             "genre": "New Movies",
@@ -19333,7 +19333,7 @@
               "sortBy": "first_air_date.desc",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "tmdbSourceType": "DISCOVER"
           },
@@ -20553,7 +20553,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -20622,7 +20622,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -20691,7 +20691,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -20760,7 +20760,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -20829,7 +20829,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -20898,7 +20898,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -20967,7 +20967,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21036,7 +21036,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21105,7 +21105,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21174,7 +21174,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21243,7 +21243,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21312,7 +21312,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21381,7 +21381,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21450,7 +21450,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21519,7 +21519,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21588,7 +21588,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21657,7 +21657,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21726,7 +21726,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21795,7 +21795,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21864,7 +21864,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -21933,7 +21933,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22002,7 +22002,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22071,7 +22071,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22140,7 +22140,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22209,7 +22209,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22278,7 +22278,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22347,7 +22347,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22416,7 +22416,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22485,7 +22485,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22554,7 +22554,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22623,7 +22623,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22692,7 +22692,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22761,7 +22761,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22830,7 +22830,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22899,7 +22899,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -22968,7 +22968,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -23037,7 +23037,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -23106,7 +23106,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -23175,7 +23175,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -23244,7 +23244,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -23313,7 +23313,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -23382,7 +23382,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -23451,7 +23451,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -23520,7 +23520,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -23589,7 +23589,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -23658,7 +23658,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -23727,7 +23727,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -23796,7 +23796,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -23865,7 +23865,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -23934,7 +23934,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -24003,7 +24003,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -24072,7 +24072,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -24141,7 +24141,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -24210,7 +24210,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -24279,7 +24279,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -24348,7 +24348,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -24417,7 +24417,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -24486,7 +24486,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -24555,7 +24555,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -24624,7 +24624,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -24693,7 +24693,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -24762,7 +24762,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -24831,7 +24831,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -24900,7 +24900,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -24969,7 +24969,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -25038,7 +25038,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -25107,7 +25107,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -25176,7 +25176,7 @@
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "sortBy": "first_air_date.desc",
-              "releaseDateGte": "2023-10-20"
+              "releaseDateGte": "2023-10-27"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -25239,7 +25239,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -25257,7 +25257,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -25407,7 +25407,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -25425,7 +25425,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -25573,7 +25573,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -25591,7 +25591,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -25733,7 +25733,7 @@
               "withOriginalLanguage": "ja",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -25751,7 +25751,7 @@
               "withOriginalLanguage": "ja",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -25895,7 +25895,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -25913,7 +25913,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -26063,7 +26063,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -26081,7 +26081,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -26229,7 +26229,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -26247,7 +26247,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -26391,7 +26391,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -26409,7 +26409,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -26557,7 +26557,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -26575,7 +26575,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -26719,7 +26719,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -26737,7 +26737,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -26887,7 +26887,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -26908,7 +26908,7 @@
               "with_keywords": "15060|192772",
               "withoutGenres": "16,10764,10767,10763",
               "without_genres": "16,10764,10767,10763",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -27067,7 +27067,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -27085,7 +27085,7 @@
               "withKeywords": "315058",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -27248,7 +27248,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "genre": "K-Drama",
             "name": "K-Drama"
@@ -27266,7 +27266,7 @@
               "withOriginalLanguage": "ko",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "genre": "K-Drama",
             "name": "K-Drama"
@@ -27402,7 +27402,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -27420,7 +27420,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -27528,7 +27528,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -27546,7 +27546,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -27714,7 +27714,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -27732,7 +27732,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -27884,7 +27884,7 @@
               "without_keywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903",
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -27904,7 +27904,7 @@
               "vote_count.gte": 10,
               "withoutKeywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903",
               "without_keywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -28068,7 +28068,7 @@
               "without_keywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903",
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -28088,7 +28088,7 @@
               "vote_count.gte": 10,
               "withoutKeywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903",
               "without_keywords": "155477|256466|190370|298666|325693|360629|284535|356759|198385|195669|337946|282903",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -28250,7 +28250,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -28268,7 +28268,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -28418,7 +28418,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -28436,7 +28436,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -28566,7 +28566,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -28584,7 +28584,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -28714,7 +28714,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -28732,7 +28732,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -28884,7 +28884,7 @@
               "without_genres": "16,99",
               "withoutKeywords": "210024|222243",
               "without_keywords": "210024|222243",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -28902,7 +28902,7 @@
               "withKeywords": "10349",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -29058,7 +29058,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -29076,7 +29076,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -29236,7 +29236,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
               "without_genres": "16,99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "MOVIE",
@@ -29254,7 +29254,7 @@
               "withGenres": "37",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             },
             "provider": "tmdb",
             "mediaType": "TV",
@@ -29508,7 +29508,7 @@
             "filters": {
               "withGenres": "35,10749",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-10-19",
+              "releaseDateGte": "2024-10-26",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16",
@@ -29633,7 +29633,7 @@
             "filters": {
               "withGenres": "878",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-10-19",
+              "releaseDateGte": "2024-10-26",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16",
@@ -29756,7 +29756,7 @@
             "filters": {
               "withGenres": "28,53",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-10-19",
+              "releaseDateGte": "2024-10-26",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16",
@@ -29880,7 +29880,7 @@
             "filters": {
               "withGenres": "12",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-10-19",
+              "releaseDateGte": "2024-10-26",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16",
@@ -30005,7 +30005,7 @@
             "filters": {
               "withGenres": "35,10751",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-10-19",
+              "releaseDateGte": "2024-10-26",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16,99",
@@ -30129,7 +30129,7 @@
             "filters": {
               "withGenres": "18,9648",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-10-19",
+              "releaseDateGte": "2024-10-26",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16",
@@ -30259,7 +30259,7 @@
             "filters": {
               "withGenres": "18,10749",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-10-19",
+              "releaseDateGte": "2024-10-26",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16",
@@ -30515,7 +30515,7 @@
             "filters": {
               "withGenres": "80,53",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-10-19",
+              "releaseDateGte": "2024-10-26",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16",
@@ -30641,7 +30641,7 @@
             "filters": {
               "withGenres": "27",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-10-19",
+              "releaseDateGte": "2024-10-26",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withoutGenres": "16",
@@ -30692,7 +30692,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             }
           },
           {
@@ -30710,7 +30710,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             }
           },
           {
@@ -30814,7 +30814,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "99",
               "without_genres": "99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             }
           },
           {
@@ -30832,7 +30832,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             }
           },
           {
@@ -30940,7 +30940,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "99",
               "without_genres": "99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             }
           },
           {
@@ -30958,7 +30958,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             }
           },
           {
@@ -31066,7 +31066,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "99",
               "without_genres": "99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             }
           },
           {
@@ -31084,7 +31084,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             }
           },
           {
@@ -31192,7 +31192,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "99",
               "without_genres": "99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             }
           },
           {
@@ -31210,7 +31210,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             }
           },
           {
@@ -31318,7 +31318,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "99",
               "without_genres": "99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             }
           },
           {
@@ -31336,7 +31336,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             }
           },
           {
@@ -31446,7 +31446,7 @@
               "without_genres": "99",
               "withoutKeywords": "234890|340359",
               "without_keywords": "234890|340359",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             }
           },
           {
@@ -31466,7 +31466,7 @@
               "vote_count.gte": 10,
               "withoutKeywords": "234890|340359",
               "without_keywords": "234890|340359",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             }
           },
           {
@@ -31582,7 +31582,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "99",
               "without_genres": "99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             }
           },
           {
@@ -31600,7 +31600,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             }
           },
           {
@@ -31708,7 +31708,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "99",
               "without_genres": "99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             }
           },
           {
@@ -31726,7 +31726,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             }
           },
           {
@@ -31834,7 +31834,7 @@
               "vote_count.gte": 10,
               "withoutGenres": "99",
               "without_genres": "99",
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             }
           },
           {
@@ -31852,7 +31852,7 @@
               "withOriginalLanguage": "en",
               "voteCountGte": 10,
               "vote_count.gte": 10,
-              "releaseDateGte": "2024-10-19"
+              "releaseDateGte": "2024-10-26"
             }
           },
           {
@@ -60270,7 +60270,7 @@
               "withOriginalLanguage": "ja",
               "withoutKeywords": "198385|378816|155477|256466|329280|570|1817|15078|13059|195669|325693|360629|284535|356759|337946",
               "withGenres": "16",
-              "releaseDateGte": "2026-04-17",
+              "releaseDateGte": "2026-04-24",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "without_keywords": "198385|378816|155477|256466|329280|570|1817|15078|13059|195669|325693|360629|284535|356759|337946",
@@ -60432,7 +60432,7 @@
               "withOriginalLanguage": "ja",
               "withoutKeywords": "198385|378816|155477|256466|329280|570|1817|15078|13059|195669|325693|360629|284535|356759|337946",
               "withGenres": "16,10759",
-              "releaseDateGte": "2024-10-19",
+              "releaseDateGte": "2024-10-26",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "without_keywords": "198385|378816|155477|256466|329280|570|1817|15078|13059|195669|325693|360629|284535|356759|337946",
@@ -60708,7 +60708,7 @@
               "withoutKeywords": "198385|378816|155477|256466|329280|570|1817|15078|13059|195669|325693|360629|284535|356759|337946",
               "withGenres": "16",
               "withKeywords": "237451",
-              "releaseDateGte": "2024-10-19",
+              "releaseDateGte": "2024-10-26",
               "voteCountGte": 3,
               "vote_count.gte": 3,
               "without_keywords": "198385|378816|155477|256466|329280|570|1817|15078|13059|195669|325693|360629|284535|356759|337946",
@@ -60854,7 +60854,7 @@
               "withoutKeywords": "198385|378816|155477|256466|329280|570|1817|15078|13059|195669|325693|360629|284535|356759|337946",
               "withGenres": "16",
               "withKeywords": "9840",
-              "releaseDateGte": "2024-10-19",
+              "releaseDateGte": "2024-10-26",
               "voteCountGte": 3,
               "vote_count.gte": 3,
               "without_keywords": "198385|378816|155477|256466|329280|570|1817|15078|13059|195669|325693|360629|284535|356759|337946",
@@ -60998,7 +60998,7 @@
               "withoutKeywords": "198385|378816|155477|256466|329280|570|1817|15078|13059|195669|325693|360629|284535|356759|337946",
               "withGenres": "16",
               "withKeywords": "6075",
-              "releaseDateGte": "2024-10-19",
+              "releaseDateGte": "2024-10-26",
               "voteCountGte": 1,
               "vote_count.gte": 1,
               "without_keywords": "198385|378816|155477|256466|329280|570|1817|15078|13059|195669|325693|360629|284535|356759|337946",
@@ -61724,7 +61724,7 @@
             "sortBy": "primary_release_date.desc",
             "filters": {
               "withOriginalLanguage": "es|pt",
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "MX|GT|HN|SV|NI|CR|PA|CU|DO|PR|CO|VE|EC|PE|BO|PY|UY|AR|CL|BR"
@@ -61836,7 +61836,7 @@
             "sortBy": "primary_release_date.desc",
             "filters": {
               "withOriginalLanguage": "en|fr",
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "US|CA"
@@ -61948,7 +61948,7 @@
             "sortBy": "primary_release_date.desc",
             "filters": {
               "withOriginalLanguage": "sv|no|da|fi|is",
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "SE|NO|DK|FI|IS"
@@ -62060,7 +62060,7 @@
             "sortBy": "primary_release_date.desc",
             "filters": {
               "withOriginalLanguage": "ja|ko|zh",
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "JP|KR|CN|TW|HK"
@@ -62172,7 +62172,7 @@
             "sortBy": "primary_release_date.desc",
             "filters": {
               "withOriginalLanguage": "th|id|tl|vi",
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "TH|ID|PH|VN"
@@ -62284,7 +62284,7 @@
             "sortBy": "primary_release_date.desc",
             "filters": {
               "withOriginalLanguage": "hi|bn|ur|si|ne|ta|te",
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "IN|BD|PK|LK|NP"
@@ -62396,7 +62396,7 @@
             "sortBy": "primary_release_date.desc",
             "filters": {
               "withOriginalLanguage": "ar|fa|he|tr",
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "EG|IR|TR|SA|IL|LB|AE|IQ|JO"
@@ -62508,7 +62508,7 @@
             "sortBy": "primary_release_date.desc",
             "filters": {
               "withOriginalLanguage": "en|fr|ar|sw|am|pt|zu|xh|af",
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "NG|ZA|KE|GH|ET|SN|DZ|TN|MA"
@@ -62619,7 +62619,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "DZ",
@@ -62715,7 +62715,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "AR",
@@ -62823,7 +62823,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "AU",
@@ -62939,7 +62939,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "BD",
@@ -63051,7 +63051,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "BE",
@@ -63159,7 +63159,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "BR",
@@ -63271,7 +63271,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "GB",
@@ -63387,7 +63387,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "CA",
@@ -63499,7 +63499,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "CL",
@@ -63607,7 +63607,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "CN",
@@ -63723,7 +63723,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "CO",
@@ -63831,7 +63831,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "DK",
@@ -63947,7 +63947,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "NL",
@@ -64059,7 +64059,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "EG",
@@ -64171,7 +64171,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "AE",
@@ -64362,7 +64362,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "PH",
@@ -64474,7 +64474,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "FI",
@@ -64582,7 +64582,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "FR",
@@ -64694,7 +64694,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "DE",
@@ -64810,7 +64810,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "GH",
@@ -64906,7 +64906,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "GR",
@@ -65018,7 +65018,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "HK",
@@ -65130,7 +65130,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "IS",
@@ -65238,7 +65238,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "IN",
@@ -65354,7 +65354,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "ID",
@@ -65466,7 +65466,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "IQ",
@@ -65578,7 +65578,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "IE",
@@ -65690,7 +65690,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "IL",
@@ -65798,7 +65798,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "IT",
@@ -65910,7 +65910,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "JP",
@@ -66026,7 +66026,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "JO",
@@ -66138,7 +66138,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "KE",
@@ -66246,7 +66246,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "KR",
@@ -66362,7 +66362,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "LB",
@@ -66470,7 +66470,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "MX",
@@ -66586,7 +66586,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "MA",
@@ -66698,7 +66698,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "NP",
@@ -66790,7 +66790,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "NG",
@@ -66902,7 +66902,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "NO",
@@ -67018,7 +67018,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "PK",
@@ -67126,7 +67126,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "IR",
@@ -67242,7 +67242,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "PL",
@@ -67354,7 +67354,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "PT",
@@ -67462,7 +67462,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "RU",
@@ -67578,7 +67578,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "SA",
@@ -67769,7 +67769,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "ZA",
@@ -67877,7 +67877,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "ES",
@@ -67993,7 +67993,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "LK",
@@ -68101,7 +68101,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "SE",
@@ -68217,7 +68217,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "TW",
@@ -68325,7 +68325,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "TH",
@@ -68441,7 +68441,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "TN",
@@ -68549,7 +68549,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "TR",
@@ -68665,7 +68665,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10,
               "withOriginCountry": "US",
@@ -68777,7 +68777,7 @@
             "tmdbSourceType": "DISCOVER",
             "sortBy": "primary_release_date.desc",
             "filters": {
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 5,
               "vote_count.gte": 5,
               "withOriginCountry": "VN",
@@ -68952,7 +68952,7 @@
               "withGenres": "99",
               "withOriginalLanguage": "en",
               "withKeywords": "33722|10714",
-              "releaseDateGte": "2024-10-19",
+              "releaseDateGte": "2024-10-26",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -69068,7 +69068,7 @@
               "withGenres": "99",
               "withOriginalLanguage": "en",
               "withKeywords": "18330|9902",
-              "releaseDateGte": "2024-10-19",
+              "releaseDateGte": "2024-10-26",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -69184,7 +69184,7 @@
               "withGenres": "99",
               "withOriginalLanguage": "en",
               "withKeywords": "6075|6496|10039",
-              "releaseDateGte": "2024-10-19",
+              "releaseDateGte": "2024-10-26",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -69300,7 +69300,7 @@
               "withGenres": "99",
               "withOriginalLanguage": "en",
               "withKeywords": "283297|4048|6029",
-              "releaseDateGte": "2024-10-19",
+              "releaseDateGte": "2024-10-26",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -69416,7 +69416,7 @@
               "withGenres": "99",
               "withOriginalLanguage": "en",
               "withKeywords": "282633|1956|162365",
-              "releaseDateGte": "2024-10-19",
+              "releaseDateGte": "2024-10-26",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -69532,7 +69532,7 @@
               "withGenres": "99",
               "withOriginalLanguage": "en",
               "withKeywords": "287067|1576|9882|18330",
-              "releaseDateGte": "2024-10-19",
+              "releaseDateGte": "2024-10-26",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -69648,7 +69648,7 @@
               "withGenres": "99",
               "withOriginalLanguage": "en",
               "withKeywords": "5340|3692|4373",
-              "releaseDateGte": "2024-10-19",
+              "releaseDateGte": "2024-10-26",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -69736,7 +69736,7 @@
             "filters": {
               "withGenres": "10751",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-10-19",
+              "releaseDateGte": "2024-10-26",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -69767,7 +69767,7 @@
             "filters": {
               "withGenres": "10762",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-10-19",
+              "releaseDateGte": "2024-10-26",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -70026,7 +70026,7 @@
             "filters": {
               "withGenres": "10751",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-10-19",
+              "releaseDateGte": "2024-10-26",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -70366,7 +70366,7 @@
             "filters": {
               "withGenres": "10751",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2024-10-19",
+              "releaseDateGte": "2024-10-26",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -70472,7 +70472,7 @@
             "filters": {
               "withGenres": "10764",
               "withOriginalLanguage": "en",
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 1,
               "vote_count.gte": 1
             },
@@ -70600,7 +70600,7 @@
               "withGenres": "10764",
               "withOriginalLanguage": "en",
               "withKeywords": "250845",
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -70714,7 +70714,7 @@
               "withGenres": "10764",
               "withOriginalLanguage": "en",
               "withKeywords": "215119",
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -70829,7 +70829,7 @@
               "withGenres": "10764",
               "withOriginalLanguage": "en",
               "withKeywords": "1918|227635|240810",
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -70944,7 +70944,7 @@
               "withGenres": "10764",
               "withOriginalLanguage": "en",
               "withKeywords": "179867|231230|34130|208454",
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },
@@ -71060,7 +71060,7 @@
               "withGenres": "10764",
               "withOriginalLanguage": "en",
               "withKeywords": "4325|8290",
-              "releaseDateGte": "2023-10-20",
+              "releaseDateGte": "2023-10-27",
               "voteCountGte": 10,
               "vote_count.gte": 10
             },

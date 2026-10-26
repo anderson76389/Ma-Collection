@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "semaine_utc": "2026-10-19",
+  "semaine_utc": "2026-10-26",
   "explication": {
     "hebdomadaire": "Bornes temporelles TMDB Discover recalculées chaque lundi ; pas des dates d'ajout vérifiées sur les services.",
     "tmdb_direct": "Interrogation TMDB en direct ; les résultats peuvent évoluer sans réécriture hebdomadaire.",
