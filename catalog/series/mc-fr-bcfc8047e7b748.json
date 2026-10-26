@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:275139",
+      "type": "series",
+      "name": "Phony",
+      "poster": "https://image.tmdb.org/t/p/w500/iCyQc8cSSHkxUHbkvzbC77owALt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/g2r69hj61xfhMxnrYm8QyMs0gs1.jpg",
+      "description": "À son réveil après un accident de voiture, le lycéen Sonny Cooke trouve sa mère, Ellen, légèrement changée. Le problème, c'est qu'il est le seul à le remarquer et que personne ne le croit. Coincé avec cette femme qu'il soupçonne d'être un dangereux imposteur, Sonny tente de prouver qu'il n'est pas fou.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:213562",
       "type": "series",
       "name": "Crystal Lake",
@@ -50,7 +59,7 @@
       "type": "series",
       "name": "Tommy & Tuppence",
       "poster": "https://image.tmdb.org/t/p/w500/yotuQ5vEjtLdT3YeYVpmsg8UD6k.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/z0ZyUAp7owmiAliyjjQSGNKhXog.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aBbxjY4j3PmZaz3XCOx0pzeptE3.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -164,15 +173,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/tCup7Z7ax4FQJUciHGHKXUqC8GT.jpg",
       "background": "https://image.tmdb.org/t/p/w780/reAZlLG6YMkBuxPT1XKuCH97TM1.jpg",
       "description": "Ben Reilly, détective privé, est engagé pour enquêter sur ce qui semble être de banales affaires... jusqu'à ce que des gangsters, des monstres et une mystérieuse femme fatale tissent une toile qui va le confronter à son ancienne vie de seul et unique super-héros de New York : L'Araignée.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:224941",
-      "type": "series",
-      "name": "The Boroughs : Retraite rebelle",
-      "poster": "https://image.tmdb.org/t/p/w500/7gEIMYmGnr2sUjaBW7JEchuEfH.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/iftYIh1OjJb99EOTHIrDcx59zWb.jpg",
-      "description": "Dans une communauté de retraités en apparence parfaite, des héros improbables doivent empêcher une menace d'un autre monde de leur voler la seule chose qu'ils n'ont pas : le temps.",
       "releaseInfo": "2026"
     }
   ]

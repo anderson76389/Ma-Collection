@@ -1,6 +1,22 @@
 {
   "metas": [
     {
+      "id": "tmdb:1438966",
+      "type": "movie",
+      "name": "Je so’ pazzo",
+      "poster": "https://image.tmdb.org/t/p/w500/eDfWOV5oad5wbI8AdzsMhnq7Zbd.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pfGxokUyoCvHYKaJ5Y6iLrVdC8r.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1639616",
+      "type": "movie",
+      "name": "Zustìssia",
+      "poster": "https://image.tmdb.org/t/p/w500/15IfVZjAiwUkTx7Bib58wJTjOSi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rgB6E1EwFu54DpjYwrMASjwk2JY.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1412795",
       "type": "movie",
       "name": "La Spirale",
@@ -148,22 +164,6 @@
       "name": "...che Dio perdona a tutti",
       "poster": "https://image.tmdb.org/t/p/w500/tj7kgHJsIQIu9Ly4tsLLBER76BX.jpg",
       "background": "https://image.tmdb.org/t/p/w780/8q3KfFYAlAk0ldhA7JJTAR0eupo.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1523067",
-      "type": "movie",
-      "name": "Scuola di seduzione",
-      "poster": "https://image.tmdb.org/t/p/w500/vQtgFAT7GALLn5LJonQMcbBMjT3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7xDRbMuwlgUaTHePsUpaEZj3fnM.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1474294",
-      "type": "movie",
-      "name": "Il Dio dell'Amore",
-      "poster": "https://image.tmdb.org/t/p/w500/apORJxfG3gASkOWmjuQn1yRQNY3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6y7Eacm37GgO7KC2ysPSyNNU341.jpg",
       "releaseInfo": "2026"
     }
   ]

@@ -25,15 +25,6 @@
       "releaseInfo": "1972"
     },
     {
-      "id": "tmdb:2778",
-      "type": "series",
-      "name": "Wheel of Fortune",
-      "poster": "https://image.tmdb.org/t/p/w500/4S36URhKU4sBL1gC2B5UxmTlZMl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/A6Sp44grqCnvKs5Plhy3oQncUrq.jpg",
-      "description": "Ce jeu télévisé voit les concurrents résoudre des énigmes de mots, similaires à celles utilisées dans Hangman, pour gagner de l'argent et des prix déterminés en faisant tourner une roue de carnaval géante.",
-      "releaseInfo": "1983"
-    },
-    {
       "id": "tmdb:92611",
       "type": "series",
       "name": "RuPaul's Drag Race UK",
@@ -41,6 +32,15 @@
       "background": "https://image.tmdb.org/t/p/w780/7fsT1NnmNbden0mptoVinBNp4ih.jpg",
       "description": "RuPaul a fait le voyage à travers l'étang à la recherche d'une reine avec le plus de charisme, d'unicité, de nerf et de talent de tout le pays.",
       "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:2778",
+      "type": "series",
+      "name": "Wheel of Fortune",
+      "poster": "https://image.tmdb.org/t/p/w500/4S36URhKU4sBL1gC2B5UxmTlZMl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A6Sp44grqCnvKs5Plhy3oQncUrq.jpg",
+      "description": "Ce jeu télévisé voit les concurrents résoudre des énigmes de mots, similaires à celles utilisées dans Hangman, pour gagner de l'argent et des prix déterminés en faisant tourner une roue de carnaval géante.",
+      "releaseInfo": "1983"
     },
     {
       "id": "tmdb:215943",
@@ -52,12 +52,12 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:291431",
+      "id": "tmdb:1790",
       "type": "series",
-      "name": "The Celebrity Traitors",
-      "poster": "https://image.tmdb.org/t/p/w500/uziPOqxQotCE9g0wBgDvHCOvRhP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/76BNYD6gBrZPWH4axZH8rEpeyLW.jpg",
-      "releaseInfo": "2025"
+      "name": "Family Feud",
+      "poster": "https://image.tmdb.org/t/p/w500/2eY3KyYvvjg2jn2ifTGkwdipCAC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zhLrML5jLVIlln5QFZdYHgtmFXr.jpg",
+      "releaseInfo": "1999"
     }
   ]
 }

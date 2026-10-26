@@ -23,7 +23,7 @@
       "type": "movie",
       "name": "Teenage Sex and Death at Camp Miasma",
       "poster": "https://image.tmdb.org/t/p/w500/a5JvHUONtF8RyLL6M5nTlqqMJVE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/d1n2ySWSanU34eEsluRjfrjRq52.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/c3N1tHx6cKmhbv7Gt8M4cwHWPUZ.jpg",
       "description": "Un cinéaste queer est embauché pour diriger un nouvel épisode d'une franchise Slasher de longue date. Le réalisateur se fixe sur la perspective de lancer la «dernière fille» du film original, et les deux femmes entrent dans une frénésie de manie psychosexuelle.",
       "releaseInfo": "2026"
     },
@@ -127,14 +127,6 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:1381620",
-      "type": "movie",
-      "name": "Cão Que Ladra, Não Morde",
-      "poster": "https://image.tmdb.org/t/p/w500/aSMfCrFD7xlguMTrjnZYLEgEsIO.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hp6olGdp2p0cl2axkSgAETQpRin.jpg",
-      "releaseInfo": "2024"
-    },
-    {
       "id": "tmdb:1233393",
       "type": "movie",
       "name": "An Odd Turn",
@@ -149,12 +141,6 @@
       "name": "A Noite do Terror!",
       "poster": "https://image.tmdb.org/t/p/w500/zndvjKahjRkXdCYMZiLg3JZFZeQ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/xDBzSpS7WR2GgiQgo14mn7iz0dx.jpg",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:1507832",
-      "type": "movie",
-      "name": "Anatomia Di Un Tradimento",
       "releaseInfo": "2024"
     }
   ]

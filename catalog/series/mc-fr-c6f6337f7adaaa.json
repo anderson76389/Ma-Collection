@@ -10,6 +10,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:295420",
+      "type": "series",
+      "name": "The Vermilion Mask",
+      "poster": "https://image.tmdb.org/t/p/w500/hsMd1zUdZGMQpLr55wM0OKK07X5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/d63e5W3rWWuMIDcrUgmZTauMbna.jpg",
+      "description": "Apprenti fabricant de masques, Peru aurait dû connaître les dangers liés à ces artefacts. Possédé par le Masque du Dieu Guerrier, il tue involontairement ses amis et son maître, le légendaire Gaston Roux. Rongé par la culpabilité, Peru jure de détruire tous les masques créés par son maître avant qu’une nouvelle tragédie ne se produise.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:320909",
       "type": "series",
       "name": "Les Noces des Lucioles",
@@ -19,12 +28,48 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:312850",
+      "type": "series",
+      "name": "Nia Liston: The Merciless Maiden",
+      "poster": "https://image.tmdb.org/t/p/w500/iSP99hEjoLqSVAnH4JHKa9kI4eL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5obfnImCRn0LzQnRb4jxuCJRlxd.jpg",
+      "description": "Aux portes de la mort, une guerrière intrépide et invaincue, succombe à ses blessures et se réincarne dans le corps frêle et maladif de Nia Liston. À la recherche d’un adversaire capable de se hisser à sa hauteur, la jeune fille entreprend de recouvrer sa force, en dépit de ce nouveau corps dont elle va devoir percer les secrets si elle souhaite retrouver sa splendeur d’antan.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:335194",
+      "type": "series",
+      "name": "Magical Explorer",
+      "poster": "https://image.tmdb.org/t/p/w500/b9LtxUfUrhsuq8lYvlhXq2I5gAw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oxS6i62MRfIeXFKN2F3uEipKwt7.jpg",
+      "description": "Réincarné dans son jeu « bishojo » préféré, Kousuke se retrouve affublé du pire rôle qui soit : celui d’un acolyte insignifiant. Mais fort de sa connaissance du jeu et de la plus grande réserve de mana de ce monde, il pourrait bien finir par surpasser le héros ! Kousuke doit désormais réécrire son destin et se frayer un chemin à coups d’épée vers les fins heureuses des héroïnes !",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:320377",
+      "type": "series",
+      "name": "TANK CHAIR",
+      "poster": "https://image.tmdb.org/t/p/w500/8nRWyGcv6y200JSaOBSUmFh9wp3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cFxouAuLIa54PEwYlCFdJwCm0lc.jpg",
+      "description": "Nagi Taira, l'assassin ultime, s'est retrouvé dans le coma après avoir protégé sa petite sœur d'une balle. Seule une \"pulsion meurtrière\" peut le réveiller ! Estimant que la \"pulsion meurtrière ultime\" est la clé qui permettra de réveiller Nagi pour de bon, sa petite sœur Shizuka l'emmène commencer sa \"rééducation\" contre de redoutables ennemis !",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:324502",
       "type": "series",
       "name": "Overgeared",
       "poster": "https://image.tmdb.org/t/p/w500/fmAQ2lOtLAoEU2p6wQ12wXbIgLM.jpg",
       "background": "https://image.tmdb.org/t/p/w780/745xqHbiUWwO51TM60MXRCR4Onm.jpg",
       "description": "Shin Young Woo est ce qu'on appelle un loser « IRL », un bon à rien « dans la vraie vie » : il enchaîne les petits boulots et peine à rembourser ses dettes. Quand il se connecte au jeu VR « SATISFY », jeu de réalité virtuelle auquel il est accro, ce n'est pas plus glorieux : Young Woo devient « Grid », un guerrier au niveau terriblement médiocre… Jusqu'au jour où il tombe sur un livre regroupant l'ensemble des connaissances du plus légendaire des forgerons ! Mais en activant cet artefact, les statistiques durement acquises de Grid retombent à zéro… Sauf que ses nouvelles capacités vont lui permettre de se forger un équipement de tout premier ordre, pour espérer devenir un héros, un vrai !",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:311842",
+      "type": "series",
+      "name": "FX Fighter Kurumi-chan",
+      "poster": "https://image.tmdb.org/t/p/w500/6Tf1ETXseEoNAMyofy3aRoJtqaR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qFELvRyy0C0vxYcKBQEX7BDe4vO.jpg",
+      "description": "De jeunes étudiantes insouciantes se lancent dans le trading de devises dans l’espoir de gagner facilement de l’argent. Mais à mesure que les graphiques fluctuent, elles découvrent que la spéculation peut devenir une aventure aussi grisante que dangereuse.",
       "releaseInfo": "2026"
     },
     {
@@ -133,51 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/zGNd9CG8RKovJXD2vDAPoE8bOzm.jpg",
       "background": "https://image.tmdb.org/t/p/w780/yCRq49YINwI7psAK5VEzbKLLSFk.jpg",
       "description": "Élève modèle dans une prestigieuse école pour jeunes filles, Aya Mitsuki cache une passion secrète pour les jeux de combat. Elle doit cependant dissimuler son hobby pour préserver sa réputation. Un jour, elle découvre que Mio Yorue, l'élève la plus respectée, partage la même passion. Ensemble, elles jonglent entre leurs obligations scolaires et leurs matchs de jeux de combat.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:325158",
-      "type": "series",
-      "name": "The Forsaken Saintess and Her Foodie Road Trip in Another World",
-      "poster": "https://image.tmdb.org/t/p/w500/d0hx0f1vz6S5UvZChaxyUf51HFK.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4ZQopUsLT8JHmgPHscxe7lX6Guo.jpg",
-      "description": "Invoquée dans un autre monde contre son gré, Rin Takanashi, une aide-soignante dans la trentaine, se retrouve proclamée « Sainte » dans un royaume qui la rejette aussitôt, jugeant ses talents bien trop ordinaires. Loin d’être découragée, cette amatrice de camping et de cuisine entreprend alors de prendre la route, en mettant à profit ses nouvelles compétences : “Motor House” et “Survival”. Désormais capable de survivre en milieu hostile, la jeune femme espère profiter comme il se doit de cette nouvelle liberté.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:309974",
-      "type": "series",
-      "name": "Un amour invisible",
-      "poster": "https://image.tmdb.org/t/p/w500/qbPEnASkv65oKE06wHefsHMcgA0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/g9MeGvfwHXldvVOttIybvaNfLEM.jpg",
-      "description": "Par une nuit d'avril à Tokyo, alors qu'il est encore trop tôt pour les feux d'artifice, un étudiant universitaire nommé Kakeru Sorano rencontre une personne nommée Koharu Fuyutsuki. C'est une belle jeune femme qui se démarque de la foule, rit beaucoup et dégage une chaleur qui contraste fortement avec l'introversion de Kakeru. Mais il y avait quelque chose qu'il ignorait au début : elle est aveugle.\n\nContrairement à Kakeru, Koharu n'a jamais renoncé, même avec sa cécité. Elle va tous les jours à l'université, s'intéresse aux clubs, se fait des amis et rêve de lancer un jour des feux d'artifice. Kakeru se demande pourquoi, puisqu'elle ne peut pas les voir... mais peut-être que cela n'a pas d'importance. Et peut-être qu'il peut lui aussi aller de l'avant, pour la fille qui a toujours été à ses côtés.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:302051",
-      "type": "series",
-      "name": "Légende vivante",
-      "poster": "https://image.tmdb.org/t/p/w500/v1qWtWt9sYOabDgzcztsYb9hH73.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ttcHr50V6A4JNKUlkIhhLsX9c04.jpg",
-      "description": "Mage de rang S au sein d’un groupe du héros, Luck a livré seul le combat contre le Roi Démon pour sauver ses compagnons. Lorsqu’il revient enfin victorieux, dix ans se sont écoulés et le monde le vénère comme un héros légendaire mort au combat. Ne pouvant retrouver sa vie d’avant, Luck cache son identité et recommence à zéro sous le nom de « Lock »…",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:298831",
-      "type": "series",
-      "name": "A Livid Lady's Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires",
-      "poster": "https://image.tmdb.org/t/p/w500/61TfKgUhwJLpsEOsWQXu3ClKPNI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pEv1seclJF9zSDbz0uVBkra1m1f.jpg",
-      "description": "Elizabeth Leiston, fille du duc d'Haldoria, s'est toujours battue pour devenir la future reine du royaume. Mais durant la fête nationale de la fondation du royaume, Elizabeth apprend que le prince héritier, auquel elle était promise, a rompu leurs fiançailles. Après un mois d'emprisonnement et face à cette trahison, Elizabeth décide de s'exiler pour revenir se venger. Cependant, la jeune femme ne part pas les mains vides et amène avec elle un pouvoir qu'elle avait caché jusqu'à présent, les Sept Grimoires.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:295071",
-      "type": "series",
-      "name": "Goodbye, Lara",
-      "poster": "https://image.tmdb.org/t/p/w500/pmKGSvCKL3qh9iyLYVlnYP0eguT.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2ZiCNiuOiUGfAF0j73RI8DX1Z1N.jpg",
-      "description": "Il y a fort longtemps, la petite sirène Lara a quitté la mer par amour pour un prince humain vivant sur la terre ferme. Mais son souhait n’a pas pu se réaliser et elle est transformée en écume. Deux cents ans plus tard, Lara se réveille une nouvelle fois, dans le lac Biwa, pour enfin partir à la recherche de son véritable amour.",
       "releaseInfo": "2026"
     }
   ]

@@ -1,9 +1,18 @@
 {
   "metas": [
     {
+      "id": "tmdb:1777750",
+      "type": "movie",
+      "name": "Détective Conan : L'affaire du meurtre n°30",
+      "poster": "https://image.tmdb.org/t/p/w500/pT9RIHf4K9OyOB3eqYj97E5h0YA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/v0T74v8LPZBSL247oGeTOp06tnm.jpg",
+      "description": "L'intrigue commence par la découverte d'un faux billet de 10 000 yens sur les lieux d'un meurtre. Ce qui ressemble à une simple affaire locale prend rapidement une ampleur nationale. Conan Edogawa, Heiji Hattori et un grand rassemblement de forces de police et de détectives de toute la série se mobilisent pour contrer ce vaste réseau de contrefaçon.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1591675",
       "type": "movie",
-      "name": "ルックバック",
+      "name": "Look Back",
       "poster": "https://image.tmdb.org/t/p/w500/6eXDHPwPDTZTgf4wuGIP49bxxJV.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ceOdqFmZy5kKImbGThuDHuifGpm.jpg",
       "releaseInfo": "2026"
@@ -48,7 +57,7 @@
       "type": "movie",
       "name": "Soudain",
       "poster": "https://image.tmdb.org/t/p/w500/bfWVYzLQnykGlDfnnduqLtofRAJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/40CATdVXthW3rHFM8JkoCz7uh88.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rQEfTB65F71Y2yIlAzv3GJ3m7Rz.jpg",
       "description": "Directrice d'un établissement pour personnes âgées, Marie-Lou tente d'y instaurer une philosophie de soins innovante basée sur l'écoute et la dignité des résidents, malgré la réticence d’une partie de ses équipes. Sa rencontre avec Mari, une metteuse en scène japonaise qui se bat contre un cancer, va bouleverser sa trajectoire. En nouant une amitié profonde, les deux femmes engagent ensemble un combat pour “rendre possible l’impossible”.",
       "releaseInfo": "2026"
     },
@@ -64,7 +73,7 @@
     {
       "id": "tmdb:1553969",
       "type": "movie",
-      "name": "Sheep In The Box",
+      "name": "Le Fils idéal",
       "poster": "https://image.tmdb.org/t/p/w500/aUeOpkCfGJHgQYFy89vTb0OvgWF.jpg",
       "background": "https://image.tmdb.org/t/p/w780/cwoCKD5DVfb4vs4bDCyWkvE3frc.jpg",
       "description": "Dans un futur proche, Otone et son mari Kensuke, qui ont perdu leur enfant, se voient proposer un robot humanoïde totalement identique à leur fils.",
@@ -166,15 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/m0SmTFThfKTMZMKxUsxc7vFUla.jpg",
       "background": "https://image.tmdb.org/t/p/w780/yfVKbukGYadDHbHIZCqSovyAtDC.jpg",
       "description": "Persuadé d’incarner le héros tourmenté d’un thriller psychologique, Kyôtarô Ichikawa s’imagine qu’Anna Yamada, l’idole incontestée de sa classe, est destinée à devenir sa proie. Toutefois, derrière ce fantasme macabre se dissimule un collégien chétif et réservé, qui croise régulièrement la jeune fille à la bibliothèque. À force d’échanges et de rencontres, les masques tombent et une complicité, aussi surprenante que touchante, commence à éclore entre ces deux adolescents que tout semblait opposer.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1570282",
-      "type": "movie",
-      "name": "C'est vraiment moi",
-      "poster": "https://image.tmdb.org/t/p/w500/tsICvuboVKXKUfDu5m2h3kqXNP0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6aa0MMYI0cnrAw2ra3E5CmfHfUV.jpg",
-      "description": "Victime d'intimidation parce qu'il voulait devenir une idole, Kenji trouve sa place dans un cabaret et l'aide d'un médecin pionnier, et fait son apparition sur scène sous sa véritable identité, Ai Haruna.",
       "releaseInfo": "2026"
     }
   ]

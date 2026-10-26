@@ -10,6 +10,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1567937",
+      "type": "movie",
+      "name": "空枪",
+      "poster": "https://image.tmdb.org/t/p/w500/rNqQQ3hFknhKpy8OTyGfzk7FY20.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mm8VecTY7YxWevgS8F2ygqLMAiv.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1391021",
       "type": "movie",
       "name": "欢迎来龙餐馆",
@@ -155,15 +163,6 @@
       "name": "熊猫计划之部落奇遇记",
       "poster": "https://image.tmdb.org/t/p/w500/kGpQnDKsOxkhhn8Q0D0KEkDWrvA.jpg",
       "background": "https://image.tmdb.org/t/p/w780/jmWgUSrqvlLytWgBHvNuRyKq0WZ.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1359005",
-      "type": "movie",
-      "name": "Per Aspera Ad Astra",
-      "poster": "https://image.tmdb.org/t/p/w500/dKT6A7yQWxvRhZwX5uudHofvpja.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/AdsSM2GIlub3dB74ibSnWLJYsT0.jpg",
-      "description": "Lorsqu'un système d'IA défaillant met en péril un vaisseau spatial, un technicien doit pénétrer dans le rêve d'un membre d'équipage pour récupérer un code et sauver les passagers.",
       "releaseInfo": "2026"
     }
   ]

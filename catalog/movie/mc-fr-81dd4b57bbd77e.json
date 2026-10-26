@@ -1,6 +1,22 @@
 {
   "metas": [
     {
+      "id": "tmdb:1234139",
+      "type": "movie",
+      "name": "ஜெயிலர் 2",
+      "poster": "https://image.tmdb.org/t/p/w500/upwdEyhhYZ7pT2hD535fr2MGfpx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zpHTOdRl7GEPqFsDGqsN6Hi9Ylt.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1269325",
+      "type": "movie",
+      "name": "दृश्यम: आखिरी हिस्सा",
+      "poster": "https://image.tmdb.org/t/p/w500/7T62GSduOWDMB0gGDBs9pmtLTSB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nq73eRdEooripf3k0XHLtX14zyC.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1451944",
       "type": "movie",
       "name": "Histoires Sensuelles 3",
@@ -121,6 +137,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1443961",
+      "type": "movie",
+      "name": "రావు బహదూర్",
+      "poster": "https://image.tmdb.org/t/p/w500/9hzKAJImKEHBz0vnF5EazPMA8D4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zGbfaJpIFoUBYJJMm0ypQWPlKP5.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1122030",
       "type": "movie",
       "name": "अल्फा",
@@ -143,30 +167,6 @@
       "name": "कॉकटेल २",
       "poster": "https://image.tmdb.org/t/p/w500/oIQmtByV1LtEQSwM4EpdLTyoSlM.jpg",
       "background": "https://image.tmdb.org/t/p/w780/7CJQvCO8aNKEewAFw90qvQ7fr1T.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1227241",
-      "type": "movie",
-      "name": "మా ఇంటి బంగారం",
-      "poster": "https://image.tmdb.org/t/p/w500/iSRIxnizjINdc7Dy68HQRkcPSR2.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2pA5fvLPZGYR5OukwiRCeliHvNM.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1431068",
-      "type": "movie",
-      "name": "मैं वापस आऊंगा",
-      "poster": "https://image.tmdb.org/t/p/w500/wHTNsZxvlfRAndc52hGlbdCUXKS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bWw9PuPH6vFXlezBoHZ6D9XBhQW.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1602337",
-      "type": "movie",
-      "name": "Parimala and Co",
-      "poster": "https://image.tmdb.org/t/p/w500/vN2TOTKin83av7hwYnwAKSd3EG8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hcQ9Kcmc34yYElii4fjFxABQYqq.jpg",
       "releaseInfo": "2026"
     }
   ]

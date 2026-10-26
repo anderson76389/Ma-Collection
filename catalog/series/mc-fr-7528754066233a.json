@@ -10,31 +10,13 @@
       "releaseInfo": "2015"
     },
     {
-      "id": "tmdb:50042",
+      "id": "tmdb:298852",
       "type": "series",
-      "name": "Below Deck : La vie à bord",
-      "poster": "https://image.tmdb.org/t/p/w500/xMkYEWMGB7F7YfzJ24DPXoDj8vo.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yL3g0vf5938of5GHQrfClzuLC15.jpg",
-      "description": "Le jeune équipage d'un yacht de croisière de luxe navigue sur des eaux troublées par l'amour, les exigences des passagers et bien d'autres remous dramatiques.",
-      "releaseInfo": "2013"
-    },
-    {
-      "id": "tmdb:65300",
-      "type": "series",
-      "name": "Les Real Housewives de Potomac",
-      "poster": "https://image.tmdb.org/t/p/w500/lgSkHpr6LXxsh2YXiBrDZHn5wUR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8PkQKCE8rTFTUmGrP47FgaXLTNQ.jpg",
-      "description": "Juste en amont du fleuve depuis la capitale de notre pays se trouve un joyau caché : Potomac, Maryland. Ses collines vallonnées, ses manoirs fermés, ses écoles préparatoires sophistiquées et ses country clubs exclusifs servent tous à garder la région sur invitation uniquement. Dans toute cette communauté se trouvent une poignée de familles afro-américaines riches et anciennes qui ont historiquement brisé les barrières raciales pour offrir une vie privilégiée à leurs enfants. Dans une ville où l'entrée n'est accordée qu'en fonction de la classe, du pedigree et de la lignée, jusqu'où les dames iront-elles pour s'assurer leur place au sommet de ce cercle prestigieux ?",
-      "releaseInfo": "2016"
-    },
-    {
-      "id": "tmdb:10222",
-      "type": "series",
-      "name": "Les Real Housewives d'Orange County",
-      "poster": "https://image.tmdb.org/t/p/w500/wleWUf4gIE8Fr1PS4z9hwQAaLb1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2XbOP8P0exW8PgcMnE8DIGTYSUS.jpg",
-      "description": "Vous pensiez que pour les Real Housewives, tout n'était que calme, luxe et volupté ? Détrompez-vous ! Entre extravagances en tous genres, scandales et disputes, bienvenue dans la vie privée de l'élite sud-californienne d'Orange County...",
-      "releaseInfo": "2006"
+      "name": "WAR",
+      "poster": "https://image.tmdb.org/t/p/w500/pTHgCWSuv8m5bBFsL1EXu0zftg7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/muPKymUvvBqjLCyGSacxKgjrhxN.jpg",
+      "description": "Cathcarts & Sons et Taylor & Byrne s’affrontent dans ce qui s’annonce comme le divorce du siècle : celui du magnat de la tech Morgan Henderson et de la superstar du cinéma Carla Duval. Une affaire retentissante qui pousse les deux cabinets à franchir toutes les limites pour remporter la victoire",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:14808",
@@ -46,6 +28,42 @@
       "releaseInfo": "2008"
     },
     {
+      "id": "tmdb:10222",
+      "type": "series",
+      "name": "Les Real Housewives d'Orange County",
+      "poster": "https://image.tmdb.org/t/p/w500/wleWUf4gIE8Fr1PS4z9hwQAaLb1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2XbOP8P0exW8PgcMnE8DIGTYSUS.jpg",
+      "description": "Vous pensiez que pour les Real Housewives, tout n'était que calme, luxe et volupté ? Détrompez-vous ! Entre extravagances en tous genres, scandales et disputes, bienvenue dans la vie privée de l'élite sud-californienne d'Orange County...",
+      "releaseInfo": "2006"
+    },
+    {
+      "id": "tmdb:50042",
+      "type": "series",
+      "name": "Below Deck : La vie à bord",
+      "poster": "https://image.tmdb.org/t/p/w500/xMkYEWMGB7F7YfzJ24DPXoDj8vo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yL3g0vf5938of5GHQrfClzuLC15.jpg",
+      "description": "Le jeune équipage d'un yacht de croisière de luxe navigue sur des eaux troublées par l'amour, les exigences des passagers et bien d'autres remous dramatiques.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tmdb:61581",
+      "type": "series",
+      "name": "Vanderpump Rules",
+      "poster": "https://image.tmdb.org/t/p/w500/qovZ9pIWArGLTOguUFIWPccErqW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iJURMZDBeRCxig0XGXc54hp2iHU.jpg",
+      "description": "Suivez le personnel passionné, volatile et dérangé du pilier SUR de West Hollywood de Lisa Vanderpump. Lisa équilibre ses instincts maternels et son sens aigu des affaires pour garder le contrôle sur ce groupe d'employés sauvages alors qu'ils poursuivent leurs rêves et les uns les autres tout en travaillant dans son \"Restaurant sexy et unique\".",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tmdb:65300",
+      "type": "series",
+      "name": "Les Real Housewives de Potomac",
+      "poster": "https://image.tmdb.org/t/p/w500/bkUgqsXnWlzqJCaWMwR1DGqPiAq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8PkQKCE8rTFTUmGrP47FgaXLTNQ.jpg",
+      "description": "Juste en amont du fleuve depuis la capitale de notre pays se trouve un joyau caché : Potomac, Maryland. Ses collines vallonnées, ses manoirs fermés, ses écoles préparatoires sophistiquées et ses country clubs exclusifs servent tous à garder la région sur invitation uniquement. Dans toute cette communauté se trouvent une poignée de familles afro-américaines riches et anciennes qui ont historiquement brisé les barrières raciales pour offrir une vie privilégiée à leurs enfants. Dans une ville où l'entrée n'est accordée qu'en fonction de la classe, du pedigree et de la lignée, jusqu'où les dames iront-elles pour s'assurer leur place au sommet de ce cercle prestigieux ?",
+      "releaseInfo": "2016"
+    },
+    {
       "id": "tmdb:110381",
       "type": "series",
       "name": "Les Real Housewives de Salt Lake City",
@@ -55,12 +73,29 @@
       "releaseInfo": "2020"
     },
     {
+      "id": "tmdb:79792",
+      "type": "series",
+      "name": "Love Island (Australie)",
+      "poster": "https://image.tmdb.org/t/p/w500/ogkVvAeQT65FtEdKwu7JzB7RX35.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/e4HxxfDlSmlOzXaNoSuNZLX9IA7.jpg",
+      "description": "La version australienne de l'émission de télé-réalité britannique à succès, Love Island. À Majorque, en Espagne, 10 célibataires australiens joueront le jeu ultime de l'amour. Après avoir trouvé leur partenaire, ils doivent rester ensemble tout en survivant aux tentations alors que de nouveaux célibataires entrent dans la villa.",
+      "releaseInfo": "2018"
+    },
+    {
       "id": "tmdb:275387",
       "type": "series",
       "name": "The Real Housewives of London",
       "poster": "https://image.tmdb.org/t/p/w500/38prd9zV2sH6SXp3E8qNZ4LT0g9.jpg",
       "background": "https://image.tmdb.org/t/p/w780/1OcUNsJZ5uUHzL1MVZlDVUTAxH4.jpg",
       "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:332204",
+      "type": "series",
+      "name": "Vanderpump Rules: Lisa Las Vegas",
+      "poster": "https://image.tmdb.org/t/p/w500/e0eX28mqJ2GEH8D85felMO6EqIm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fBhJtIQZwR9oVRRDOhVRVn0wPjA.jpg",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:332902",

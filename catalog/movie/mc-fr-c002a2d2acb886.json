@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1400940",
+      "type": "movie",
+      "name": "Clayface",
+      "poster": "https://image.tmdb.org/t/p/w500/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg",
+      "description": "L'ascension fulgurante de Matt Hagen, de gamin des rues de Gotham à star hollywoodienne, est brutalement interrompue lorsqu'un baron du crime le laisse atrocement défiguré. Abandonné de tous et n'ayant plus rien à perdre, Matt se tourne vers un traitement expérimental qui lui rend miraculeusement son apparence... mais altère profondément sa perception de la réalité. Il sombre alors dans une spirale destructrice, consumé par un irrépressible désir de vengeance.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1750432",
       "type": "movie",
       "name": "Spidey et les Avengers : Halloween en équipe !",
@@ -167,15 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/bwhKUzPtwtJ00CGv67IEXmS2WaM.jpg",
       "background": "https://image.tmdb.org/t/p/w780/bGGjyPqtNc8hhGkPo8W8D8t90bW.jpg",
       "description": "Lors d'un safari avec son père Nikolai, un oligarque russe dont la cruauté a jadis poussé sa mère au suicide, Sergei Kravinoff est attaqué par un lion, qui vient très près de le tuer. La potion miraculeuse de Calypso, une prêtresse vaudou, permet non seulement au garçon de survivre ; elle lui confère aussi une force surhumaine et un nouvel objectif : protéger la nature des braconniers et des criminels de toutes sortes. Élevé au titre de \"chasseur\", ses faits d’armes attirent rapidement l’attention d’un assassin redoutable, dont les pouvoirs sont comparables aux siens : le Rhino.",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:1299652",
-      "type": "movie",
-      "name": "Watchmen: Les gardiens, chapitre II",
-      "poster": "https://image.tmdb.org/t/p/w500/w95CBK77vAIM5YU6h717WyWopZb.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dGGjuaUR253aAZ2Zhto2Y9TR9l6.jpg",
-      "description": "Les anciens héros semblent être des cibles. Le Comédien a été assassiné, le Dr Manhattan exilé sur Mars, Ozymandias a failli être tué et Rorschach a été arrêté. Suspicieux, Le Hibou, Sally Jupiter réapparaissent pour mener l'enquête. En proie à leur éthique personnelle, à leurs démons intérieurs et face à une société se dressant contre eux, ils se lancent dans une course contre la montre pour dévoiler un complot hyper complexe qui risque de déclencher une guerre nucléaire à l'échelle mondiale.",
       "releaseInfo": "2024"
     }
   ]

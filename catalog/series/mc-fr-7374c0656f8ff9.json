@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1416",
+      "type": "series",
+      "name": "Grey's Anatomy",
+      "poster": "https://image.tmdb.org/t/p/w500/meLc14IucQOzlqRn3ERCWjt5BEC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A4NwkQXTXElE5iAsne5RpvS8R2Z.jpg",
+      "description": "Meredith Grey, fille d'un chirurgien très réputé, commence son internat de première année en médecine chirurgicale dans un hôpital de Seattle. La jeune femme s'efforce de maintenir de bonnes relations avec ses camarades internes, mais dans ce métier difficile la compétition fait rage.",
+      "releaseInfo": "2005"
+    },
+    {
       "id": "tmdb:2734",
       "type": "series",
       "name": "New York Unité Spéciale",
@@ -28,13 +37,13 @@
       "releaseInfo": "2003"
     },
     {
-      "id": "tmdb:1416",
+      "id": "tmdb:213375",
       "type": "series",
-      "name": "Grey's Anatomy",
-      "poster": "https://image.tmdb.org/t/p/w500/meLc14IucQOzlqRn3ERCWjt5BEC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/A4NwkQXTXElE5iAsne5RpvS8R2Z.jpg",
-      "description": "Meredith Grey, fille d'un chirurgien très réputé, commence son internat de première année en médecine chirurgicale dans un hôpital de Seattle. La jeune femme s'efforce de maintenir de bonnes relations avec ses camarades internes, mais dans ce métier difficile la compétition fait rage.",
-      "releaseInfo": "2005"
+      "name": "VisionQuest",
+      "poster": "https://image.tmdb.org/t/p/w500/bWPktguPGslrdM79SNQt4OWYyJS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uoXXbN2PrOxH6UKyP7kYwmGpAAP.jpg",
+      "description": "Une nouvelle version de Vision ayant échappé à ceux qui cherchaient à faire de lui une arme, vit dans la clandestinité. En quête d’un nouveau sens à sa vie, il consulte les IA intégrées à son programme, notamment Friday, Edith, Jarvis et le tristement célèbre Ultron. Son existence discrète prend fin lorsque sa tête est mise à prix, le contraignant à prendre la fuite avec Thomas Shepherd, un garçon mystérieux qui pourrait bien être la réincarnation du fils de Vision. Tout en échappant à ses poursuivants, Vision doit se confronter à sa propre nature, résister à l’influence d’Ultron et percer le mystère qui entoure son jeune compagnon s’il veut survivre.",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:1413",
@@ -46,31 +55,49 @@
       "releaseInfo": "2011"
     },
     {
+      "id": "tmdb:312359",
+      "type": "series",
+      "name": "Dragon Ball Super : Beerus",
+      "poster": "https://image.tmdb.org/t/p/w500/sGuCmIy8kEmx3FWZyMj654rF6g8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg",
+      "description": "Des années après la défaite de Majin Buu, la paix est revenue sur Terre. Mais lorsque Beerus, le Dieu de la Destruction, se réveille, cette tranquillité vole en éclats. Attiré sur Terre par des rumeurs concernant le Saiyan qui a vaincu Freezer, Beerus cherche à défier Goku en déployant une puissance capable de détruire des planètes entières. Goku et ses alliés doivent désormais affronter Beerus dans un combat qui fera trembler l'univers.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:30984",
+      "type": "series",
+      "name": "Bleach",
+      "poster": "https://image.tmdb.org/t/p/w500/e0kKmeM8R7Kersh5N2PPzIRNRhr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/o0NsbcIvsllg6CJX0FBFY8wWbsn.jpg",
+      "description": "Adolescent de quinze ans, Ichigo Kurosaki possède un don particulier : celui de voir les esprits. Un jour, il croise la route d'une belle Shinigami (un être spirituel) en train de pourchasser une « âme perdue », un esprit maléfique qui hante notre monde et n'arrive pas à trouver le repos. Mise en difficulté par son ennemi, la jeune fille décide alors de prêter une partie de ses pouvoirs à Ichigo, mais ce dernier hérite finalement de toute la puissance du Shinigami. Contraint d'assumer son nouveau statut, Ichigo va devoir gérer ses deux vies : celle de lycéen ordinaire, et celle de chasseur de démons…",
+      "releaseInfo": "2004"
+    },
+    {
       "id": "tmdb:75219",
       "type": "series",
       "name": "9-1-1",
-      "poster": "https://image.tmdb.org/t/p/w500/6njUqsd3By2mJsdZm1P0moPLzs3.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/u6HuWWohheyzAj5PUn4rBd0eH92.jpg",
       "background": "https://image.tmdb.org/t/p/w780/5QJtEzMR7NxRxBBEdB7JfM1l7Oj.jpg",
       "description": "Du service d'appels d'urgences 911 aux pompiers, secouristes ou policiers, tous ces intervenants sont constamment sous pression, confrontés quotidiennement à des situations stupéfiantes, effrayantes, et parfois même choquantes. S'ils ont pour mission de voler au secours des personnes en danger, ces héros de l'ombre doivent aussi trouver le temps de résoudre les problèmes de leurs propres vies…",
       "releaseInfo": "2018"
     },
     {
-      "id": "tmdb:2710",
-      "type": "series",
-      "name": "Philadelphia",
-      "poster": "https://image.tmdb.org/t/p/w500/oBBffT1yfQ2zvflMIANI7ra7DNb.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/265v8OtLO4h8XgJu5eDRpJdf9e0.jpg",
-      "description": "Un groupe de cinq égoïstes bons à rien sont copropriétaires d'un bar irlandais délabré. Souvent impliqués dans les problèmes, ils ne font rien d'autre à part comploter et se délecter de la misère des autres.",
-      "releaseInfo": "2005"
-    },
-    {
       "id": "tmdb:211288",
       "type": "series",
       "name": "Tracker",
-      "poster": "https://image.tmdb.org/t/p/w500/dqKW7caILPY4JEXIxZek4YcgvbG.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/kjJMlFtMOtqHpLWHl1OJ3qhSV01.jpg",
       "background": "https://image.tmdb.org/t/p/w780/5C5cMYUlmX6BU5YxBqhp7ZpSd3Q.jpg",
       "description": "Colter Shaw est un loup solitaire, qui parcourt le pays à bord de son camping-car, utilisant ses talents de pisteur pour aider les particuliers et les forces de l'ordre à résoudre toutes sortes de crimes ou à retrouver les personnes disparues.",
       "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:55216",
+      "type": "series",
+      "name": "Scènes de ménages",
+      "poster": "https://image.tmdb.org/t/p/w500/38N3KQblPyTLGWNZs2qmy9mQywm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pnTYmGcsJBgQyI6qB8wHyvbuHBW.jpg",
+      "description": "Scènes de ménages met en scène le quotidien de plusieurs couples de différentes générations, illustrant avec humour leurs disputes, leurs moments tendres et leurs petites manies. Chaque épisode est composé de saynètes courtes, dans lesquelles les personnages échangent des répliques cinglantes et des situations cocasses.",
+      "releaseInfo": "2009"
     },
     {
       "id": "tmdb:125935",
@@ -100,6 +127,15 @@
       "releaseInfo": "2024"
     },
     {
+      "id": "tmdb:226688",
+      "type": "series",
+      "name": "BEYBLADE X",
+      "poster": "https://image.tmdb.org/t/p/w500/66wkm14IWdrY5LaKZDAbkD2T9Jt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qAq9RBeHZoTMDFqQZ2o4cE5CJIQ.jpg",
+      "description": "Robin Kazami, blader débutant, s'associe à l'influenceuse Multi Nana-iro et à l'ancien champion Jaxon Cross pour former ce trio improbable, prêt à gravir les échelons du classement The X et à remporter le titre de champion blader !",
+      "releaseInfo": "2023"
+    },
+    {
       "id": "tmdb:295778",
       "type": "series",
       "name": "Scrubs",
@@ -113,7 +149,7 @@
       "type": "series",
       "name": "Les Kardashian",
       "poster": "https://image.tmdb.org/t/p/w500/ybAUSnGl7rNPx7PWRnhPeeUEXgB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/oUHVXnV7x5Lr3jxEQTedkFvXv2b.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oYC4X9DEhX1B0FrQZv0dEwOKxnH.jpg",
       "description": "La famille que vous connaissez et aimez est ici avec une toute nouvelle série, donnant un accès complet à leur vie.  Kris, Kourtney, Kim, Khloé, Kendall et Kylie ramènent les caméras pour révéler la vérité derrière les gros titres.  Des pressions intenses de la gestion d'entreprises d'un milliard de dollars aux joies hilarantes de la récréation et des abandons scolaires, cette série amène les téléspectateurs dans le giron avec une histoire d'une honnêteté fascinante sur l'amour et la vie sous les projecteurs.",
       "releaseInfo": "2022"
     },
@@ -127,57 +163,22 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:205272",
+      "id": "tmdb:304842",
       "type": "series",
-      "name": "Reasonable Doubt",
-      "poster": "https://image.tmdb.org/t/p/w500/v9p9VbljJdJ9GjLqp3l5YpWJ8HO.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5Nu95w2oWsbmDeAjG2NJF4x33Ud.jpg",
-      "description": "Vous trouverez peut-être que Jax Stewart possède une éthique douteuse et interprète parfois la loi de façon détournée… jusqu'à ce que vous ayez des ennuis. Alors, vous la verrez pour ce qu'elle est : la plus brillante et intrépide avocate de Los Angeles, qui défie le système judiciaire à la moindre occasion.",
-      "releaseInfo": "2022"
+      "name": "The Drop : Une Saga Snowfall",
+      "poster": "https://image.tmdb.org/t/p/w500/s9eengN2v9ZTwPfFC0LRMoJULk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ycLQYTgWfBq53fIkws0qIQOp62g.jpg",
+      "description": "\"The Drop: A Snowfall Saga\" retrouve Wanda Bell et Leon Simmons de \"Snowfall\" en pleine réinvention dans le Los Angeles des années 90. Alors que les ravages du crack s'estompent, un nouveau jeu émerge : l'essor du rap de la côte Ouest. Convaincue que la musique peut changer la culture américaine, Wanda rassemble une bande de génies hétéroclites pour réaliser leurs rêves. Pour y arriver, elle doit naviguer entre le monde de la musique et les codes de la rue, entraînant ses cousins Lamar et James Kinsey et courtisant Artillery, un rappeur local au sang chaud déjà dans le viseur de la police. Son stage chez l'ex-dealer devenu patron de label Darryl \"DG\" Grant lui ouvre des portes, mais creuse les tensions avec Leon. Ce dernier a juré de quitter la rue pour de bon et cherche la rédemption via son cabinet d'aide juridique gratuit. Ambition, loyauté et survie s'entrechoquent : chacun est prêt à tout risquer pour bâtir un avenir.",
+      "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:273247",
+      "id": "tmdb:305551",
       "type": "series",
-      "name": "The Lowdown",
-      "poster": "https://image.tmdb.org/t/p/w500/jgfHT7oLJtBDlRABiTTEp2AEret.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xz9YhlTE5gdr1mrQkY01vDvQF59.jpg",
-      "description": "L’obsession pour la vérité du journaliste amateur Lee Raybon, qui s’autoproclame “historien de la vérité” de Tulsa, lui attire des ennuis. Loin d’être un idéaliste, Lee est prêt à tout pour exposer la corruption et les secrets de sa ville, quitte à se mettre en danger. Lorsque son dernier article sur la puissante famille Washberg est suivi du suicide suspect de Dale Washberg, Lee sait qu’il a mis le doigt sur quelque chose de gros. Dale a laissé des indices, suppliant qu’on enquête sur sa mort. Lee s’y met et découvre que Betty Jo, la veuve éplorée, semble plus intéressée par son beau-frère que par son défunt mari. Et des forces puissantes semblent vouloir l’empêcher d’en savoir plus.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:284838",
-      "type": "series",
-      "name": "9-1-1: Nashville",
-      "poster": "https://image.tmdb.org/t/p/w500/63JFLM8L8H1Jlp62kZGPvSKc50j.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ubqZEVCDp86myrZwJpyNwocLrce.jpg",
-      "description": "A Nashville, capitale de l'État du Tennessee et coeur de la musique country, pompiers, secouristes et policiers unissent leurs forces pour gérer des urgences parfois spectaculaires, tout en affrontant les défis de leur propre vie.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:114656",
-      "type": "series",
-      "name": "Celebrity Wheel of Fortune",
-      "poster": "https://image.tmdb.org/t/p/w500/pWKyup7doWk9AIeW6q9EXUmr61h.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vKk3womxcGLqOZLiGZ2aXA2PtOV.jpg",
-      "releaseInfo": "2021"
-    },
-    {
-      "id": "tmdb:72482",
-      "type": "series",
-      "name": "La Route de l'enfer : Norvège",
-      "poster": "https://image.tmdb.org/t/p/w500/eD7qY5Ul8YoM33E2qReMEFVgqwM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wOEbMvVfcvMGevu3snwSSL2J8qv.jpg",
-      "description": "Ça se produit chaque année. Le rude hiver norvégien transforme les routes de montagne en pistes de bobsleigh et dévie des milliers de camions de 50 tonnes de la route. 'La route de l'enfer : Norvège' suit les équipes de remorquage norvégiennes qui secourent ces camions et remorques sur les montagnes glacées et les remettent en piste.",
-      "releaseInfo": "2015"
-    },
-    {
-      "id": "tmdb:90439",
-      "type": "series",
-      "name": "La dernière bataille d'Hitler",
-      "poster": "https://image.tmdb.org/t/p/w500/hUuFv1Hl8hfahQjKDve1LBKyhHS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dO6cCpjcYd4HVBwMZT6cbT0Flfo.jpg",
-      "description": "En mars 1945, les armées alliées s'alignent le long du Rhin, prêtes à envahir l'Allemagne nazie, les généraux jouent des coudes pour traverser les premiers.",
-      "releaseInfo": "2018"
+      "name": "Merry Berry Love",
+      "poster": "https://image.tmdb.org/t/p/w500/qzH80C1YNzucLsVJfW23RxvX9vS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vPDVee1j6w0hJ2xMJ2bU5HVBA0Z.jpg",
+      "description": "\"Après avoir tout perdu du jour au lendemain, Lee Yubin, architecte d'intérieur coréen à succès, met le cap sur une sublime petite île japonaise. Sur Chora, il rencontre Shirahama Karin, une agricultrice déterminée à cultiver des fraises malgré sa mystérieuse maladie. Issus de deux mondes différents, ils se retrouvent au cœur d'un quiproquo inattendu. En parallèle, une autre idylle voit le jour sur l'île. Park Kunam, en visa vacances-travail, décide de rester après être tombé sous le charme de Mizuno Mari, une cartomancienne incapable de prédire son propre avenir sentimental. Au fil de leur relation, ils deviennent de précieux alliés pour Yubin et Karin.",
+      "releaseInfo": "2026"
     }
   ]
 }

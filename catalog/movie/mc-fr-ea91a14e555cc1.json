@@ -1,12 +1,30 @@
 {
   "metas": [
     {
+      "id": "tmdb:1236045",
+      "type": "movie",
+      "name": "Animals",
+      "poster": "https://image.tmdb.org/t/p/w500/33MhDOKB0S5VwuaD9lZyV0v0st0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tzoarEu7TsG959upiELyYPm5kO9.jpg",
+      "description": "Quand leur fils est enlevé, un candidat à la mairie de Los Angeles et sa femme s'efforcent de réunir l'argent de la rançon et font des choix qui pourraient bouleverser leur vie.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1492640",
       "type": "movie",
       "name": "UNABOMBER",
       "poster": "https://image.tmdb.org/t/p/w500/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg",
       "background": "https://image.tmdb.org/t/p/w780/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
       "description": "Ted Kaczynski, un jeune prodige qui intègre Harvard à 16 ans avant de basculer dans le terrorisme. Soumis à des expériences psychologiques discutables menées par le docteur Henry Murray, le passé tourmenté de Kaczynski refait surface des décennies plus tard, lorsque la traque d'Unabomber menée par l'agente du FBI Joanne Miller met en lumière les conséquences terrifiantes de l'ambition et de l'isolement.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1437396",
+      "type": "movie",
+      "name": "Your Mother Your Mother Your Mother",
+      "poster": "https://image.tmdb.org/t/p/w500/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jiFLiatBtBALlAzV5R72gzspBad.jpg",
+      "description": "Latif, un tueur à gages profondément religieux, a du mal à équilibrer travail, foi et paternité. Lorsque sa femme décède, il se lance dans un voyage désespéré à travers Houston pour protéger ses enfants, affrontant les forces qui se rapprochent de lui – et les croyances qui menacent de s'effondrer à l'intérieur.",
       "releaseInfo": "2026"
     },
     {
@@ -19,12 +37,12 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1433583",
+      "id": "tmdb:1290418",
       "type": "movie",
-      "name": "Les Contrebandiers",
-      "poster": "https://image.tmdb.org/t/p/w500/hjM3hITDk5XvWu4cMn7dj7IpwY8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zLeq2fbHU6UdA7mhsYnIULORTgq.jpg",
-      "description": "Oregon, 1933. Après la mort de sa femme, Samuel Murphy est arraché à sa fille et envoyé dans un camp de travail impitoyable. Lorsqu’un surveillant sans scrupule lui promet la liberté contre une périlleuse mission de contrebande d’or, Murphy saisit sa seule chance de rentrer chez lui. Il s’embarque alors dans une expédition de tous les dangers, au cœur d’une nature hostile, où les trahisons se multiplient. Jusqu’où Murphy sera-t-il prêt à aller pour revoir sa fille ?",
+      "name": "The Cycle",
+      "poster": "https://image.tmdb.org/t/p/w500/n5gSNf55KWfDc9hqP4H1KCCSutE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bgHW6AJl2SdKzxglvf9tshXbI84.jpg",
+      "description": "Une fille découvre le sombre passé de son père après la découverte de son corps, disparu depuis 36 ans, sur une scène de crime horrible.",
       "releaseInfo": "2026"
     },
     {
@@ -34,6 +52,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/zk2saSFclmoJDxBovrOTp8W6NSz.jpg",
       "background": "https://image.tmdb.org/t/p/w780/8eGdhSaOiGYpybNsGHuJXqNK5JY.jpg",
       "description": "Un criminologue chevronné et une jeune psychologue enquêtent sur le meurtre d’une fillette et la disparition de sa sœur jumelle.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1380417",
+      "type": "movie",
+      "name": "By Any Means",
+      "poster": "https://image.tmdb.org/t/p/w500/evCy2B3j57AwSNBZqlePjMl3zj3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1jANqIbqrWJZb8GM5Kb3L6U8iHi.jpg",
+      "description": "Un jeune agent noir du FBI est envoyé au Mississippi dans les années 60 afin d’enquêter sur une vague de meurtres brutaux visant des leaders du mouvement des droits civiques. Contraint de faire équipe avec le célèbre tueur à gages de la mafia Greg Scarpa, il se retrouve entraîné dans une traque meurtrière où la frontière entre justice et vengeance devient de plus en plus floue.",
       "releaseInfo": "2026"
     },
     {
@@ -108,15 +135,6 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1413976",
-      "type": "movie",
-      "name": "Citizen Vigilante",
-      "poster": "https://image.tmdb.org/t/p/w500/6LmJD3Wohe0g4U62wgi7RyJqfE4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zUninC7dOHfzwcgCqQMLQjlMtiy.jpg",
-      "description": "Frustré par l'absence de justice publique, Sanders décide de prendre les choses en main en devenant un justicier. Il se met alors en tête de punir à la fois les criminels et les fonctionnaires corrompus. À mesure que ses actions de justicier s'intensifient, sa notoriété grandit : il gagne le soutien du public, qui le considère comme un héros, mais attire également l'attention d'Henry, un responsable d'Interpol, qui le perçoit comme une menace pour la société.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:1020047",
       "type": "movie",
       "name": "In the Hand of Dante",
@@ -158,24 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/8HzkvoQ8RC6KO8WHfA2wK8djHBm.jpg",
       "background": "https://image.tmdb.org/t/p/w780/k13za3wUhd8uejKJ2v9XQsRjxaw.jpg",
       "description": "Un groupe de jeunes amis à la recherche d’argent facile sur Internet se découvre un talent pour cibler les ultra-riches. Mais lorsque la fille d’un magnat de la cryptomonnaie, dont il est séparé, les surprend en train de détourner des fonds de l’empire de son père, elle les contraint, par le chantage, à se livrer à un dangereux acte de vengeance : tout voler.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1122573",
-      "type": "movie",
-      "name": "Les Spécialistes",
-      "poster": "https://image.tmdb.org/t/p/w500/sF1EGQWrUghvtD3VpqgsBACHr9u.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qcIKxhqGMIj8uujsSoSMZWr8QqU.jpg",
-      "description": "Rachel, recouvreuse de dettes de haut vol, exerce un métier dangereux. C'est pourquoi elle s'entoure des meilleurs, Sid et Bronco, pour l'accompagner et la protéger dans ses négociations. Mais même pour ces spécialistes, récupérer le milliard de dollars de leur prochain contrat pourrait être mission impossible. Sauf qu'impossible ne fait pas partie de leur vocabulaire…",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1356963",
-      "type": "movie",
-      "name": "Little Lorraine",
-      "poster": "https://image.tmdb.org/t/p/w500/nszmSg2Uv1cIezPjsNyVFvtIYX4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/utpd4H566GFpw6hjufRxEuoSIIg.jpg",
-      "description": "Little Lorraine, village côtier de l'Atlantique Nord peuplé de 60 habitants, se retrouve au coeur d'un trafic international de cocaïne mené au nez de plusieurs gouvernements. La drogue est distribuée dans des cercueils par un réseau de salons funéraires.",
       "releaseInfo": "2026"
     }
   ]

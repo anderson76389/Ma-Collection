@@ -19,6 +19,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:313630",
+      "type": "series",
+      "name": "Eternally Yours",
+      "poster": "https://image.tmdb.org/t/p/w500/gMKJJtwOnTkhkbdQabyo7OKTosb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1bmsSexBYKUlkst0TgHZCdf4EvH.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:288673",
       "type": "series",
       "name": "Carrie",
@@ -49,7 +57,7 @@
       "id": "tmdb:252105",
       "type": "series",
       "name": "Golden Axe",
-      "poster": "https://image.tmdb.org/t/p/w500/toEwR5VTFzHmxW1pX1HjtTXH6QH.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/lQxGHqmYA6VMSkdnOnFC5P0dO0g.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zOcEo3oQf9KDPPxZueNhReN6TBr.jpg",
       "description": "Trois célèbres guerriers tentent de sauver le royaume de Yuria des attaques d'un géant maléfique. Leur noble quête est perturbée par un aventurier débutant et maladroit.",
       "releaseInfo": "2026"
@@ -61,6 +69,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
       "background": "https://image.tmdb.org/t/p/w780/6gqezQJ2mkm4jreWwLyOZy2Vf6i.jpg",
       "description": "Deux flics intergalactiques, la nouvelle recrue John Stewart et le légendaire Hal Jordan, sont confrontés à un sombre mystère sur Terre alors qu’ils enquêtent sur un meurtre au fin fond de l’Amérique.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:296756",
+      "type": "series",
+      "name": "President Curtis",
+      "poster": "https://image.tmdb.org/t/p/w500/noWGHRAllKVUlxTQ5T10gQL4BBL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yoTP91XZZjSvE2gZgGvwNxVW96w.jpg",
+      "description": "Suivez le commandant en chef et son équipe excentrique alors qu'ils s'attaquent à des crises dont Rick Sanchez ne se soucierait jamais : de la diplomatie interdimensionnelle aux enquêtes sur le paranormal en passant par les phénomènes inexpliqués.",
       "releaseInfo": "2026"
     },
     {
@@ -121,7 +138,7 @@
       "id": "tmdb:252107",
       "type": "series",
       "name": "Star City",
-      "poster": "https://image.tmdb.org/t/p/w500/h9ven3crLuEtIrPQJyiF1LvvxFS.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/nx33iPxIWH5uNGyvfWabKH0v3Ak.jpg",
       "background": "https://image.tmdb.org/t/p/w780/rhJAGhOvkR8270bdXSSCzQSPY1a.jpg",
       "description": "Dans une réalité alternative dans laquelle l'Union soviétique est la première nation à mettre un pied sur la lune, la course à l'espace est retracée de derrière le rideau de fer, montrant la vie des cosmonautes, des ingénieurs et des officiers du renseignement du programme spatial soviétique, ainsi que les risques que chacun d'eux a pris pour propulser l'humanité vers une nouvelle ère.",
       "releaseInfo": "2026"
@@ -160,24 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/5vr72cfj5cE8kftq1PWRCv2o3hh.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ulBGaxq9GmJexyEOi4Xci74g6Vt.jpg",
       "description": "Hawkins, hiver 1985. Nous voilà de retour dans une ville qui regorge de secrets, où nos héros adorés affrontent de nouveaux mystères... et une nouvelle vague de phénomènes étranges.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:255760",
-      "type": "series",
-      "name": "Kevin",
-      "poster": "https://image.tmdb.org/t/p/w500/ryvkioE754XooFO16s9SZyHZulu.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uTjjlqLdhRppddN4eCjMZlp387z.jpg",
-      "description": "Co-créé par Aubrey Plaza, KEVIN est une histoire comique et touchante sur la recherche de sa place dans le monde. Après la rupture de ses humains propriétaires, Kevin, un chat domestique attachant et névrosé interprété par Jason Schwartzman, arrive dans un refuge pour animaux à Astoria, dans le Queens, et se lie à une troupe déjantée d'animaux abandonnés qui l'aident dans sa quête de sens.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:289219",
-      "type": "series",
-      "name": "Star Wars : Maul - Seigneur de l'ombre",
-      "poster": "https://image.tmdb.org/t/p/w500/Av4nP5DgAjRpPWOe81SoE0oc8D0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cvvj1RXGmmAZ1FZr6CrUu8LgQm5.jpg",
-      "description": "Après la Guerre des Clones, Maul projette de reconstruire son organisation criminelle sur une planète épargnée par l'Empire. Il croise la route d'un jeune Padawan désabusé, qui pourrait devenir l'apprenti qu'il cherche, et une aide précieuse dans sa quête de vengeance.",
       "releaseInfo": "2026"
     }
   ]

@@ -6,7 +6,7 @@
       "name": "Man of War",
       "poster": "https://image.tmdb.org/t/p/w500/vt0RqHlqfUzeiBEVQvp43yY2076.jpg",
       "background": "https://image.tmdb.org/t/p/w780/kMrkqfjuPR4FlfaScrNNYuOEGHa.jpg",
-      "description": "Lorsqu'une travailleuse humanitaire disparaît dans les premières heures de la guerre en Ukraine, une ancienne membre des Navy SEAL et de la CIA traverse ce pays dévasté pour ramener chez elle des mercenaires, des lignes de bataille mouvantes et des fantômes qu'il pensait avoir laissés derrière lui.",
+      "description": "Un vétéran des forces spéciales américaines pénètre en Ukraine, aux tout premiers jours de l'invasion russe, pour sauver sa fille adoptive, une travailleuse humanitaire retenue en otage par des mercenaires russes. Il doit lancer une mission de sauvetage mortelle pour la ramener chez elle saine et sauve.",
       "releaseInfo": "2026"
     },
     {
@@ -63,6 +63,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1015154",
+      "type": "movie",
+      "name": "Luciérnagas en El Mozote",
+      "poster": "https://image.tmdb.org/t/p/w500/vAMPpEvaW9EmRwFmzFMaM8wS3KV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/i0YlPmyAfjxWJczVqK0MP88XKU4.jpg",
+      "releaseInfo": "2025"
+    },
+    {
       "id": "tmdb:1556834",
       "type": "movie",
       "name": "Lost Horizon",
@@ -76,7 +84,7 @@
       "type": "movie",
       "name": "Palestine 36",
       "poster": "https://image.tmdb.org/t/p/w500/7MfS2Q7kHIdGeRe17Z26q5N9MPm.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/e5LTUuIumJCgeoAApfCXhKUZ1UH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xLcPsJ7lZ4pVHJiAgMvDwmm4v0r.jpg",
       "description": "Palestine, 1936. La grande révolte arabe, destinée à faire émerger un État indépendant, se prépare alors que le territoire est sous mandat britannique.",
       "releaseInfo": "2025"
     },
@@ -165,15 +173,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/slf5lamezBD2yv4ugXtgUPKbYbW.jpg",
       "background": "https://image.tmdb.org/t/p/w780/4FnbeuCnsN3MT6omPrivl2ttJ8o.jpg",
       "description": "L'histoire du seul et unique bataillon exclusivement composé d'Afro-Américaines, déployé à l'étranger pendant la Seconde Guerre mondiale. Confrontées à la discrimination et au sexisme, sans parler de leurs conditions de travail éprouvantes, ces femmes ont servi leur pays avec honneur et distinction. Investies d'une mission extraordinaire et unies dans leur détermination, ces héroïnes de l'ombre ont distribué de l'espoir et fait voler des barrières en éclat.",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:612565",
-      "type": "movie",
-      "name": "Dick Dynamite: 1944",
-      "poster": "https://image.tmdb.org/t/p/w500/ljLtASv6WBnZrXxAbR8gRsDFVES.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/w1ShOXPKvzdgN0aecgYRA74Y6b9.jpg",
-      "description": "Durant les derniers jours de la 2ème guerre mondiale, les scientistes nazis mettent en place un plan désespéré pour transformer la population new-yorkaise en zombies. Le seul homme capable de les stopper est DICK DYNAMITE : tuer est son business et en 44, son business se porte bien.",
       "releaseInfo": "2024"
     }
   ]

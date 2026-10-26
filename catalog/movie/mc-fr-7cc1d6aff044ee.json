@@ -18,6 +18,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1599784",
+      "type": "movie",
+      "name": "Staatsschutz",
+      "poster": "https://image.tmdb.org/t/p/w500/jrlfxna2TAVQUhWjbGm0I9GjN1e.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/siifAFhxsc8hwn4lru4GtdQ5OkN.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1676318",
       "type": "movie",
       "name": "Back to the 90s",
@@ -40,7 +48,7 @@
       "type": "movie",
       "name": "Everytime",
       "poster": "https://image.tmdb.org/t/p/w500/AmlfEEXstjLLuwjQywfRKUd3IG5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5WPckRy930hu9vAQQnBorz1wSBo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bRkk5HjNLQMWB3LlZdxySSzxVLi.jpg",
       "description": "Jessie est une adolescente pleine de vie. Son seul problème est qu’elle partage sa chambre avec sa petite sœur. Ella, leur mère, est débordée mais attentive. Quand l’une des trois disparaît, toute la famille est bouleversée et cherche un coupable. Ella décide alors d’un voyage vers le Sud. Sous les rayons du soleil de Tenerife, passé et présent se mêlent peu à peu.",
       "releaseInfo": "2026"
     },
@@ -69,6 +77,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/ylgaqq0NdSlnrBRtWMePYvDlTDa.jpg",
       "background": "https://image.tmdb.org/t/p/w780/8hUPAKKxU20sq8oyAUnK19zCzsi.jpg",
       "description": "Footballeur adulé, entrepreneur, et héros au sein de sa communauté, Lukas Podolski revient sur son parcours et dévoile ses projets dans ce documentaire intimiste.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1692196",
+      "type": "movie",
+      "name": "Un été sur le bitume",
+      "poster": "https://image.tmdb.org/t/p/w500/A47wCptAf4GRsDNaQ6Sf8CNu0Ug.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7GJufEKJT5CdjGJJZ6or9pnXnZ2.jpg",
+      "description": "À l'aube de ses 30 ans, Valeska, livreuse à vélo aux amours libres, voit son père débarquer chez elle au moment où elle se découvre enceinte. Une tragi-comédie lumineuse sur la famille, emmenée par un attachant tandem.",
       "releaseInfo": "2026"
     },
     {
@@ -155,23 +172,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/6IQy8Q1jQPF93dd7XbzUsS5a3P9.jpg",
       "background": "https://image.tmdb.org/t/p/w780/w3Eio0435ngSWiSSheJ6X2R4Czz.jpg",
       "description": "Une nouvelle année scolaire commence au lycée Clearwater, mais le calme ne revient pas. La réserve naturelle voisine, qui abrite les métamorphes, est confrontée à un avenir incertain. Andrew Milling, l'ancien mentor de Carag, poursuit un plan dangereux : il veut vendre la forêt qui entoure l'internat. Avec Brandon, Holly et Lou, le métamorphe puma s'oppose au malheur qui menace. De manière inattendue, la louve des neiges Tikaani offre son aide. Son soutien pourrait s'avérer décisif.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1219542",
-      "type": "movie",
-      "name": "Les Trois Jeunes Détectives : L'île des morts",
-      "poster": "https://image.tmdb.org/t/p/w500/cQy8PqmhwRKuSmyb9eFdUe55B9V.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xIdshPSkYOPOwE3KZ54VM9LEsvM.jpg",
-      "description": "Les trois jeunes détectives de Rocky Beach – Justus, Peter et Bob – planifient un road trip estival mais ils se retrouvent mêlés à une affaire impliquant la société secrète Sphinx, dirigée par le mystérieux professeur Phoenix. Son groupe d'archéologues effectue des fouilles illégales et vend les trésors volés. Les recherches des 3 détectives les mènent vers «L'île morte», la maudite île volcanique de Makatao, où le danger et le mystère les attendent...",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1427838",
-      "type": "movie",
-      "name": "Extrawurst",
-      "poster": "https://image.tmdb.org/t/p/w500/eLmcdb6MsKUVi88esD41cCS2KY7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/w7hqriNqhyGZb30mPDmBW6tFyMs.jpg",
       "releaseInfo": "2026"
     }
   ]

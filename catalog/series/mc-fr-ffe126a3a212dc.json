@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:332808",
+      "type": "series",
+      "name": "Archive X: Unexplained Phenomena",
+      "poster": "https://image.tmdb.org/t/p/w500/lSVmSidYuOWmsSfnQKgeXvHZEm5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/YW38N0zvD5E78OmwS5bz3E14UA.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:293496",
       "type": "series",
       "name": "The Furry Detectives: Unmasking a Monster",

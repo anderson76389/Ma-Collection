@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:322267",
+      "type": "series",
+      "name": "Newlyweds",
+      "poster": "https://image.tmdb.org/t/p/w500/8yMuMKrSQjkFkRgIpaWGFJl8fJO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/k6gsgBZpg330rDq9yWGkF75r1gJ.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:321958",
       "type": "series",
       "name": "Line of Fire",
@@ -158,14 +166,6 @@
       "name": "Deal or No Deal Island",
       "poster": "https://image.tmdb.org/t/p/w500/9bYsgKinAdSwgwQrg9Q3RCVPBRn.jpg",
       "background": "https://image.tmdb.org/t/p/w780/hX18KjDzYJCc7B9bTR6BHzE4AB1.jpg",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:236275",
-      "type": "series",
-      "name": "America's Got Talent: Fantasy League",
-      "poster": "https://image.tmdb.org/t/p/w500/fFKnMAWZpTuYj2Eol1kqbUjDEvS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pSdytJJQ6j8dNgQebQFfWBQ6iU8.jpg",
       "releaseInfo": "2024"
     }
   ]

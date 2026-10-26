@@ -1,94 +1,120 @@
 {
   "metas": [
     {
-      "id": "tmdb:1561726",
+      "id": "tmdb:120",
       "type": "movie",
-      "name": "Masterplan",
-      "poster": "https://image.tmdb.org/t/p/w500/a13BTR3jJWr2ARoLvTC3f5gQhfw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dgUDj84BWtW6EZzee8BkgKnjDhh.jpg",
-      "description": "Quand un voleur légendaire jette son dévolu sur La Joconde, il recrute deux jeunes inconnus pour l'aider (Chiara, une experte italienne du cybercrime et Jay, un spécialiste français des explosifs) avant de leur révéler qu'il est leur père. Au milieu de retrouvailles chaotiques, cette nouvelle famille devra apprendre à collaborer et éviter de s'entretuer si elle veut réussir le casse du siècle.",
+      "name": "Le Seigneur des anneaux : La Communauté de l'anneau",
+      "poster": "https://image.tmdb.org/t/p/w500/5OPg6M0yHr21Ovs1fni2H1xpKuF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oiwc338EoBgS4sEI2ixAny4KQKg.jpg",
+      "description": "Le jeune hobbit Frodon Sacquet hérite d'un anneau. Il s'agit de l'Anneau Unique, instrument de pouvoir absolu qui permettrait à Sauron, de régner sur la Terre du Milieu et de réduire en esclavage ses peuples… À moins que Frodon et ses fidèles compagnons ne parviennent à emporter l'Anneau jusqu'en Mordor, lieu où il a été forgé, et à le détruire pour toujours…",
+      "releaseInfo": "2001"
+    },
+    {
+      "id": "tmdb:1620711",
+      "type": "movie",
+      "name": "Its Presence Between Us",
+      "poster": "https://image.tmdb.org/t/p/w500/f1sxYpzsLLMnX1p5mpUKbPRBXt2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hFuJnovV3INsvta2YGepwzn7BFO.jpg",
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1381078",
+      "id": "tmdb:122",
       "type": "movie",
-      "name": "L'Amour de ta vie",
-      "poster": "https://image.tmdb.org/t/p/w500/1zrnRcJ8JOTXYp0Qizad1rnuIA0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mqYqKvrKTgMvK50VtEDZlYFsnHz.jpg",
-      "description": "Maya dont la rencontre fortuite avec Charlie donne naissance à une histoire d'amour passionnée et à la vie dont elle n'osait pas rêver. Lorsque tout bascule, Maya doit déterminer qui elle est, ce qu'elle veut et comment réapprendre à aimer.",
-      "releaseInfo": "2026"
+      "name": "Le Seigneur des anneaux : Le Retour du roi",
+      "poster": "https://image.tmdb.org/t/p/w500/ypUCFOvOf07bcHy81jng9LyMUfi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ctiw6FZK4N36LmkjSklWEbuvlq9.jpg",
+      "description": "La bataille pour la Terre du Milieu a commencé. Frodon et Sam, guidés par Gollum, poursuivent leur mission à travers les terres du Mordor pour détruire l'Anneau Unique. Tandis que le pouvoir de Sauron grandit, Aragorn, l'héritier du trône du Gondor, rassemble l'armée des Hommes contre les forces du Mal, afin de laisser une chance au porteur de l'Anneau d'accomplir sa quête…",
+      "releaseInfo": "2003"
     },
     {
-      "id": "tmdb:845781",
+      "id": "tmdb:121",
       "type": "movie",
-      "name": "Red One",
-      "poster": "https://image.tmdb.org/t/p/w500/prqwbrqHBVWf8NqP0DuFhcOa5tM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
-      "description": "Après l'enlèvement du Père Noël, le chef de la sécurité du pôle Nord doit faire équipe avec le chasseur de primes le plus célèbre du monde dans une mission pleine d'action à travers le monde pour sauver Noël.",
+      "name": "Le Seigneur des anneaux : Les Deux Tours",
+      "poster": "https://image.tmdb.org/t/p/w500/qVHBqQYLDRs7ESjP9q6o9iPHLWj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6G73mNyooWAEQTpckPSnFxFoNmc.jpg",
+      "description": "La Communauté est dissoute, mais la quête pour détruire l'Anneau Unique se poursuit. Accompagné par son fidèle Sam et guidé par l'étrange Gollum, Frodon cherche un moyen d'entrer en Mordor. Alors que l'armée de Saroumane se met en marche, les autres compagnons de la Communauté se préparent à la bataille. La Guerre de l'Anneau a commencé !",
+      "releaseInfo": "2002"
+    },
+    {
+      "id": "tmdb:8966",
+      "type": "movie",
+      "name": "Twilight, chapitre 1 : Fascination",
+      "poster": "https://image.tmdb.org/t/p/w500/8phJ4i9m1tBDJbOwwQPvdeWhN2h.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/weAYfu6FfrNxEDJ3xH1XpgQcqUv.jpg",
+      "description": "Isabella Swan, 17 ans, déménage à Forks, petite ville pluvieuse dans l'État de Washington, pour vivre avec son père. Elle s'attend à ce que sa nouvelle vie soit aussi ennuyeuse que la ville elle-même. Or, au lycée, elle est terriblement intriguée par le comportement d'une étrange fratrie, deux filles et trois garçons. Bella tombe follement amoureuse de l'un d'eux, Edward Cullen. Une relation sensuelle et dangereuse commence alors entre les deux jeunes gens : lorsque Isabella comprend que Edward est un vampire, il est déjà trop tard.",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:78",
+      "type": "movie",
+      "name": "Blade Runner",
+      "poster": "https://image.tmdb.org/t/p/w500/zHKWxyG4j404HVeSYHNH4niUpkW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2spEHYDcyE9r9mS7AFEscfKVDzO.jpg",
+      "description": "2019, Los Angeles. La Terre est surpeuplée et l’humanité est partie coloniser l’espace. Les nouveaux colons sont assistés de Replicants, androïdes que rien ne peut distinguer de l'être humain. Conçus comme de nouveaux esclaves, certains parmi les plus évolués s’affranchissent de leurs chaînes et s’enfuient. Rick Deckard, un ancien Blade Runner, catégorie spéciale de policiers chargés de \"retirer\" ces replicants, accepte une nouvelle mission consistant à retrouver quatre de ces individus qui viennent de regagner la Terre après avoir volé une navette spatiale.",
+      "releaseInfo": "1982"
+    },
+    {
+      "id": "tmdb:586353",
+      "type": "movie",
+      "name": "Le Maître et Marguerite",
+      "poster": "https://image.tmdb.org/t/p/w500/yfSORRPG3OByhEjQ7GHV3dWO0fw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/els3qltvcOnflTlU48iyfMPIctU.jpg",
+      "description": "Dans un Moscou futuriste des années 1930, cette adaptation du roman de Boulgakov suit un écrivain célèbre, déchu après la censure de sa pièce sur Ponce Pilate. Rejeté, il rencontre Marguerite, une femme mariée qui devient sa muse et l'inspire à écrire un nouveau roman. Dans son récit, Satan visite Moscou et y provoque des événements surnaturels. Marguerite, transformée en sorcière, retrouve son amant après la mort, dans un ballet macabre entre réalité et magie.",
       "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:652",
+      "id": "tmdb:9502",
       "type": "movie",
-      "name": "Troie",
-      "poster": "https://image.tmdb.org/t/p/w500/pkKBYrihVm5kuBgOH04KagSids0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ZPcC5hJh21QiW0jmhMQhZeSoGu.jpg",
-      "description": "Dans la Grèce antique, l'enlèvement d'Hélène, reine de Sparte, par Pâris, prince de Troie, est une insulte que le roi Ménélas ne peut supporter. L'honneur familial étant en jeu, Agamemnon, frère de Ménélas et puissant roi de Mycènes, réunit toutes les armées grecques afin de faire sortir Hélène de Troie. Mais en réalité, la sauvegarde de l'honneur familial n'est qu'un prétexte pris par Agamemnon pour cacher sa terrible avidité. Celui-ci cherche en fait à contrôler Troie et à agrandir son vaste empire. Aucune armée n'a jamais réussi à pénétrer dans la cité fortifiée, sur laquelle veillent le roi Priam et le prince Hector. L'issue de la guerre de Troie dépendra notamment d'un homme, Achille, connu comme le plus grand guerrier de son époque. Arrogant, rebelle, et réputé invincible, celui-ci n'a d'attache pour rien ni personne si ce n'est sa propre gloire…",
+      "name": "Kung Fu Panda",
+      "poster": "https://image.tmdb.org/t/p/w500/pxZNY88UWH0uic83QHBSh2yFEYL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qdthf9WrRDSaIkGVQGhhJ9pz1hn.jpg",
+      "description": "Passionné, costaud et quelque peu maladroit, Po est sans conteste le plus grand fan de kung‐fu. Serveur dans le restaurant de nouilles de son père, son habileté reste encore à prouver. Élu pour accomplir une ancienne prophétie, Po rejoint le monde du kung‐fu afin d'apprendre les arts martiaux auprès de ses idoles, les légendaires Cinq Cyclones : Tigresse, Grue, Mante, Vipère et Singe, sous les ordres de leur professeur et entraîneur, Maître Shifu. Mais Taï Lung, le léopard des neiges fourbe et animé d'un désir de vengeance, approche à grands pas, et c'est Po qui sera chargé de défendre la vallée face à cette menace grandissante.",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:809",
+      "type": "movie",
+      "name": "Shrek 2",
+      "poster": "https://image.tmdb.org/t/p/w500/2e8hcPLaWjLXdQLgdi5otr4Jj9L.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8ohobj5lAIbl5XWw11FywS3IRrS.jpg",
+      "description": "Devenus de jeunes mariés, Shrek et Fiona rentrent de leur heureuse lune de miel. Ils sont invités par les parents de Fiona à venir dîner dans leur royaume, à Fort Fort Lointain. Mais ils ne se doutent pas que leur fille est devenue une ravissante ogresse … Ce mariage met par ailleurs en péril l’avenir et les projets les plus secrets du Roi …",
       "releaseInfo": "2004"
     },
     {
-      "id": "tmdb:1094138",
+      "id": "tmdb:1323244",
       "type": "movie",
-      "name": "Jackpot!",
-      "poster": "https://image.tmdb.org/t/p/w500/oVjoz1ZfMdfc58uDbGANSlvroNJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7mQ13AV4qd6A43XxXfSoyYQMzhh.jpg",
-      "description": "Dans un futur proche, une \"Grande Loterie\" est organisée. Le hic ? Il faut tuer le gagnant avant le coucher du soleil pour réclamer son jackpot de plusieurs milliards de dollars. Quand Katie Kim tombe par erreur sur le billet gagnant, elle s'associe à Noel Cassidy, un agent de protection, qui doit lui faire attendre le coucher du soleil en échange d'une partie de son prix.",
-      "releaseInfo": "2024"
+      "name": "Rage of Stars",
+      "poster": "https://image.tmdb.org/t/p/w500/oLld47ZT1I3iecM3OWhIphohQUJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z7lZgL5tzefTfhyRtouThFhsuUS.jpg",
+      "description": "L'histoire d'une femme membre des forces spéciales internationales, qui a une prémonition de la fin imminente de l'humanité.",
+      "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:637649",
+      "id": "tmdb:419430",
       "type": "movie",
-      "name": "Un Homme en colère",
-      "poster": "https://image.tmdb.org/t/p/w500/u1xYjmCpDqgUfLlSgq8HlHtVVor.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/70AV2Xx5FQYj20labp0EGdbjI6E.jpg",
-      "description": "Un convoyeur de fond, fraîchement engagé, surprend ses collègues par l’incroyable précision de ses tirs de riposte, alors qu’ils subissent les assauts de braqueurs expérimentés. Tous se demandent désormais qui il est, d’où il vient et pourquoi il est là.",
-      "releaseInfo": "2021"
+      "name": "Get Out",
+      "poster": "https://image.tmdb.org/t/p/w500/8WzjAhgc4HvpN3Y6LLCc6AbpIhF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bBQHALHRAaaORlPNXv7fNcRXYdx.jpg",
+      "description": "Couple mixte, Chris et sa petite amie Rose filent le parfait amour. Le moment est donc venu de rencontrer la belle famille, Missy et Dean lors d'un week‑end sur leur domaine dans le nord de l'État. Chris commence par penser que l'atmosphère tendue est liée à leur différence de couleur de peau, mais très vite une série d'incidents de plus en plus inquiétants lui permet de découvrir l'inimaginable.",
+      "releaseInfo": "2017"
     },
     {
-      "id": "tmdb:490132",
+      "id": "tmdb:49051",
       "type": "movie",
-      "name": "Green Book : Sur les routes du Sud",
-      "poster": "https://image.tmdb.org/t/p/w500/orN43xQQkoAmbUx1tYZl6HY7WKU.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5En0fmDagt3Pk8d7P3uTwfeQceg.jpg",
-      "description": "En 1962, alors que règne la ségrégation, Tony Lip, un videur italo-américain du Bronx, est engagé pour conduire et protéger le Dr Don Shirley, un pianiste noir de renommée mondiale, lors d’une tournée de concerts. Durant leur périple de Manhattan jusqu’au Sud profond, ils s’appuient sur le Green Book pour dénicher les établissements accueillant les personnes de couleur, où l’on ne refusera pas de servir Shirley et où il ne sera ni humilié ni maltraité. Dans un pays où le mouvement des droits civiques commence à se faire entendre, les deux hommes vont être confrontés au pire de l’âme humaine, dont ils se guérissent grâce à leur générosité et leur humour. Ensemble, ils vont devoir dépasser leurs préjugés, oublier ce qu’ils considéraient comme des différences insurmontables, pour découvrir leur humanité commune.",
-      "releaseInfo": "2018"
+      "name": "Le Hobbit : Un voyage inattendu",
+      "poster": "https://image.tmdb.org/t/p/w500/mdy9mG31U7jSB8edfRELv53Yfjp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xyXmtuvsoM5J3yNad0nvcetpBdY.jpg",
+      "description": "Dans un voyage inattendu, Bilbon Sacquet cherche à reprendre le Royaume perdu des Nains d'Erebor, conquis par le redoutable dragon Smaug. Alors qu'il croise par hasard la route du magicien Gandalf le Gris, Bilbon rejoint une bande de 13 nains dont le chef n'est autre que le légendaire guerrier Thorin Écu-de-Chêne. Leur périple les conduit au cœur du Pays Sauvage, où ils devront affronter des Gobelins, des Orques, des Ouargues meurtriers, des Araignées géantes, des Métamorphes et des Sorciers… Bien qu'ils se destinent à mettre le cap sur l'Est et les terres désertiques du Mont Solitaire, ils doivent d'abord échapper aux tunnels des Gobelins, où Bilbon rencontre la créature qui changera à jamais le cours de sa vie : Gollum.",
+      "releaseInfo": "2012"
     },
     {
-      "id": "tmdb:335983",
+      "id": "tmdb:101299",
       "type": "movie",
-      "name": "Venom",
-      "poster": "https://image.tmdb.org/t/p/w500/vVusHIRlyyFVS42XnqZso2wGKr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/VuukZLgaCrho2Ar8Scl9HtV3yD.jpg",
-      "description": "Des symbiotes débarquent sur la Terre, parmi eux, Venom, qui va s’allier avec Eddie Brock. De son côté, un puissant scientifique tente de faire évoluer l’humanité avec les symbiotes, le duo d’anti‐héros va devoir tout faire pour l’arrêter !",
-      "releaseInfo": "2018"
-    },
-    {
-      "id": "tmdb:937278",
-      "type": "movie",
-      "name": "Le Pire Voisin au monde",
-      "poster": "https://image.tmdb.org/t/p/w500/7Sc5hW5HhK2HWGF35MkGtv8guHF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/v2LilmCylr3bL9TCZSj6syjowZh.jpg",
-      "description": "Depuis la mort de sa femme Sonya, Otto est devenu grincheux et dépressif. Il se sent vieux et n'attend plus qu'une seule chose : la mort. Renvoyé de son emploi, il erre sans but, surveille le quartier et se brouille avec ses voisins. C'est alors que l'arrivée d'une nouvelle famille dans la rue, avec notamment deux petites filles, va bouleverser son quotidien.",
-      "releaseInfo": "2022"
-    },
-    {
-      "id": "tmdb:840705",
-      "type": "movie",
-      "name": "Blink Twice",
-      "poster": "https://image.tmdb.org/t/p/w500/51LUuruLaoe9JXit5hJD3qtpWTm.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/NqqLef2ITlK8olXT4iFuUXFwSh.jpg",
-      "description": "Lors d'une soirée bénéfice, Frida tombe dans l'œil de Slater King. Au point où ce milliardaire des technologies, empêtré dans une controverse médiatique, invite la jeune serveuse afro-américaine et sa collègue Jess à séjourner sur son île privée, dans les Caraïbes. Au programme: des journées de farniente autour de la vaste piscine en compagnie d'une dizaine d'autres convives des deux sexes, des repas succulents préparés par un ami de Slater et une provision infinie de drogues récréatives. Mais tandis que les jours passent, Frida et Jess en viennent à soupçonner que derrière le mur des apparences, quelque chose de sinistre se trame.",
-      "releaseInfo": "2024"
+      "name": "Hunger Games : L'Embrasement",
+      "poster": "https://image.tmdb.org/t/p/w500/lHdbNb8GEuMXCwar9wENzVu5eQI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eHaazLxM5LRMh0ySkVy7SK6wUWt.jpg",
+      "description": "Après les premiers Hunger Games, Katniss est devenue le symbole de la rébellion. Le peuple de Panem est impatient de la retrouver pour la grande Tournée de la victoire. Mais Katniss va devoir prouver au Capitole et au Président Snow que ses sentiments envers Peeta étaient sincères afin de sauver ceux qu’elle aime…",
+      "releaseInfo": "2013"
     }
   ]
 }

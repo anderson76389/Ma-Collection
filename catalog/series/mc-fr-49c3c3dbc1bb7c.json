@@ -1,10 +1,19 @@
 {
   "metas": [
     {
+      "id": "tmdb:335536",
+      "type": "series",
+      "name": "TYSON",
+      "poster": "https://image.tmdb.org/t/p/w500/mdtpJEWW1j5Ns7bIcbw1UeIdvhp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qFNAWAHCXWtS4EMlLxTAetTpZAR.jpg",
+      "description": "Découvrez la vie explosive de Mike Tyson, l'une des figures les plus redoutées et fascinantes de l'histoire du sport.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:331616",
       "type": "series",
       "name": "La Mort de la femme du pasteur",
-      "poster": "https://image.tmdb.org/t/p/w500/o8H6HmQNt2qx5bIfmvuI6VJn13A.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/HOyi8J3YkslMjpVZzYD0ZOlS1c.jpg",
       "background": "https://image.tmdb.org/t/p/w780/gXX5VDz1jh0Adqo8a8QPHJthiEl.jpg",
       "description": "Qu'est-il arrivé à Mica Miller ? Cette série documentaire revient sur sa vie prometteuse, son mariage toxique et les circonstances mystérieuses qui ont entouré sa mort.",
       "releaseInfo": "2026"
@@ -168,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/fJGDEMzC13NPJa99YKMJZw2Icb6.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ujWjoKl1uZfiBRvZL7qbxCkMLQs.jpg",
       "description": "Dans ce documentaire, une experte des sectes et un cinéaste infiltrent une communauté fondamentaliste polygame pour démasquer un prophète autoproclamé et le traduire en justice.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:218274",
-      "type": "series",
-      "name": "Les Secrets des abeilles",
-      "poster": "https://image.tmdb.org/t/p/w500/883xSbd4YzmmbNcussNPgSmeMS7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5jybpfzbMbBu1QTPkWKYHkwrJhY.jpg",
-      "description": "L'explorateur du National Geographic Bertie Gregory explore la vie extraordinaire des abeilles, des insectes parmi les plus importants de la planète. Pendant trois ans, des caméras spéciales ont offert un accès inédit à une ruche pour en révéler l'univers secret. Avec plus de 20 000 espèces qui pollinisent un tiers de notre alimentation, cette série dévoile leur architecture et leur intelligence fascinantes, et perce leurs plus grands secrets.",
       "releaseInfo": "2026"
     }
   ]

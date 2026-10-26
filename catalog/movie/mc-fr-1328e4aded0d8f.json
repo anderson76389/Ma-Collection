@@ -3,9 +3,9 @@
     {
       "id": "tmdb:1742441",
       "type": "movie",
-      "name": "V/H/S/Mixtape",
+      "name": "V/H/S/MIXTAPE",
       "poster": "https://image.tmdb.org/t/p/w500/uS8yoiA6NfsuYeOTbVfpem8Ib9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mpB4pgtUcc7rCLxvlknzCbAQQEE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yIDZiYea2Bah1yLYz14jlC89WJ5.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -107,6 +107,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1631285",
+      "type": "movie",
+      "name": "Discipline",
+      "poster": "https://image.tmdb.org/t/p/w500/vi3ZmURc3qMdrUCnFDtYpJkPhqM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bDHN4TOWHIkDQzjaq3yzCItChxx.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1548113",
       "type": "movie",
       "name": "The Muppet Show",
@@ -167,15 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/xBbw7RIQhohmMxt9GKZdYm09TSD.jpg",
       "background": "https://image.tmdb.org/t/p/w780/h5hCdU9KvcCbBihSNfn3vtML7tV.jpg",
       "description": "Alors que les fêtes réservent leurs surprises et aventures inattendus, les Fraggles apprennent à apprécier chaque jour pour son caractère unique et magique, tel un flocon de neige.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1306400",
-      "type": "movie",
-      "name": "Merrily We Roll Along",
-      "poster": "https://image.tmdb.org/t/p/w500/8h3uNPMdQKr7ffwAjU0aURFqIK.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tD9gHDBMUQaw07LKppyNnAWaK1y.jpg",
-      "description": "La relation mouvementée entre le compositeur Franklin Shepard et ses amis de toujours, Mary et Charley. Considéré comme un classique culte avant son temps, le film met en vedette certaines des chansons les plus marquantes et personnelles de Stephen Sondheim.",
       "releaseInfo": "2025"
     }
   ]

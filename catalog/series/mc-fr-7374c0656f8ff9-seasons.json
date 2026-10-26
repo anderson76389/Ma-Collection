@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1416",
+      "type": "series",
+      "name": "Grey's Anatomy",
+      "poster": "https://image.tmdb.org/t/p/w500/meLc14IucQOzlqRn3ERCWjt5BEC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A4NwkQXTXElE5iAsne5RpvS8R2Z.jpg",
+      "description": "Meredith Grey, fille d'un chirurgien très réputé, commence son internat de première année en médecine chirurgicale dans un hôpital de Seattle. La jeune femme s'efforce de maintenir de bonnes relations avec ses camarades internes, mais dans ce métier difficile la compétition fait rage.",
+      "releaseInfo": "2005"
+    },
+    {
       "id": "tmdb:2734",
       "type": "series",
       "name": "New York Unité Spéciale",
@@ -28,13 +37,13 @@
       "releaseInfo": "2003"
     },
     {
-      "id": "tmdb:1416",
+      "id": "tmdb:213375",
       "type": "series",
-      "name": "Grey's Anatomy",
-      "poster": "https://image.tmdb.org/t/p/w500/meLc14IucQOzlqRn3ERCWjt5BEC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/A4NwkQXTXElE5iAsne5RpvS8R2Z.jpg",
-      "description": "Meredith Grey, fille d'un chirurgien très réputé, commence son internat de première année en médecine chirurgicale dans un hôpital de Seattle. La jeune femme s'efforce de maintenir de bonnes relations avec ses camarades internes, mais dans ce métier difficile la compétition fait rage.",
-      "releaseInfo": "2005"
+      "name": "VisionQuest",
+      "poster": "https://image.tmdb.org/t/p/w500/bWPktguPGslrdM79SNQt4OWYyJS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uoXXbN2PrOxH6UKyP7kYwmGpAAP.jpg",
+      "description": "Une nouvelle version de Vision ayant échappé à ceux qui cherchaient à faire de lui une arme, vit dans la clandestinité. En quête d’un nouveau sens à sa vie, il consulte les IA intégrées à son programme, notamment Friday, Edith, Jarvis et le tristement célèbre Ultron. Son existence discrète prend fin lorsque sa tête est mise à prix, le contraignant à prendre la fuite avec Thomas Shepherd, un garçon mystérieux qui pourrait bien être la réincarnation du fils de Vision. Tout en échappant à ses poursuivants, Vision doit se confronter à sa propre nature, résister à l’influence d’Ultron et percer le mystère qui entoure son jeune compagnon s’il veut survivre.",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:1413",
@@ -46,31 +55,13 @@
       "releaseInfo": "2011"
     },
     {
-      "id": "tmdb:75219",
+      "id": "tmdb:312359",
       "type": "series",
-      "name": "9-1-1",
-      "poster": "https://image.tmdb.org/t/p/w500/6njUqsd3By2mJsdZm1P0moPLzs3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5QJtEzMR7NxRxBBEdB7JfM1l7Oj.jpg",
-      "description": "Du service d'appels d'urgences 911 aux pompiers, secouristes ou policiers, tous ces intervenants sont constamment sous pression, confrontés quotidiennement à des situations stupéfiantes, effrayantes, et parfois même choquantes. S'ils ont pour mission de voler au secours des personnes en danger, ces héros de l'ombre doivent aussi trouver le temps de résoudre les problèmes de leurs propres vies…",
-      "releaseInfo": "2018"
-    },
-    {
-      "id": "tmdb:2710",
-      "type": "series",
-      "name": "Philadelphia",
-      "poster": "https://image.tmdb.org/t/p/w500/oBBffT1yfQ2zvflMIANI7ra7DNb.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/265v8OtLO4h8XgJu5eDRpJdf9e0.jpg",
-      "description": "Un groupe de cinq égoïstes bons à rien sont copropriétaires d'un bar irlandais délabré. Souvent impliqués dans les problèmes, ils ne font rien d'autre à part comploter et se délecter de la misère des autres.",
-      "releaseInfo": "2005"
-    },
-    {
-      "id": "tmdb:211288",
-      "type": "series",
-      "name": "Tracker",
-      "poster": "https://image.tmdb.org/t/p/w500/dqKW7caILPY4JEXIxZek4YcgvbG.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5C5cMYUlmX6BU5YxBqhp7ZpSd3Q.jpg",
-      "description": "Colter Shaw est un loup solitaire, qui parcourt le pays à bord de son camping-car, utilisant ses talents de pisteur pour aider les particuliers et les forces de l'ordre à résoudre toutes sortes de crimes ou à retrouver les personnes disparues.",
-      "releaseInfo": "2024"
+      "name": "Dragon Ball Super : Beerus",
+      "poster": "https://image.tmdb.org/t/p/w500/sGuCmIy8kEmx3FWZyMj654rF6g8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg",
+      "description": "Des années après la défaite de Majin Buu, la paix est revenue sur Terre. Mais lorsque Beerus, le Dieu de la Destruction, se réveille, cette tranquillité vole en éclats. Attiré sur Terre par des rumeurs concernant le Saiyan qui a vaincu Freezer, Beerus cherche à défier Goku en déployant une puissance capable de détruire des planètes entières. Goku et ses alliés doivent désormais affronter Beerus dans un combat qui fera trembler l'univers.",
+      "releaseInfo": "2026"
     }
   ]
 }

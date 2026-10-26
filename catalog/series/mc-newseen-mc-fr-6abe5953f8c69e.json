@@ -1,21 +1,39 @@
 {
   "metas": [
     {
-      "id": "tmdb:39283",
+      "id": "tmdb:298852",
       "type": "series",
-      "name": "Les Real Housewives de Dallas",
-      "poster": "https://image.tmdb.org/t/p/w500/6liq1qoLQu4siW3kVisSRAfkxiu.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2LEWLQ61ERXRffIhFrWfOxFFyil.jpg",
-      "description": "Bienvenue à Dallas ! Loin de chômer, les femmes au foyer les plus glamours du Texas ont des journées aussi remplies que leurs comptes en banque… Entre soirées, amitiés, vie de famille mouvementée et scandales en tout genre, pour les Real Housewives à l’ego sans limites et au caractère bien trempé, tous les coups sont permis pour briller et grimper les échelons de la société !",
-      "releaseInfo": "2016"
+      "name": "WAR",
+      "poster": "https://image.tmdb.org/t/p/w500/pTHgCWSuv8m5bBFsL1EXu0zftg7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/muPKymUvvBqjLCyGSacxKgjrhxN.jpg",
+      "description": "Cathcarts & Sons et Taylor & Byrne s’affrontent dans ce qui s’annonce comme le divorce du siècle : celui du magnat de la tech Morgan Henderson et de la superstar du cinéma Carla Duval. Une affaire retentissante qui pousse les deux cabinets à franchir toutes les limites pour remporter la victoire",
+      "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:38937",
+      "id": "tmdb:10179",
       "type": "series",
-      "name": "Khloé & Lamar",
-      "poster": "https://image.tmdb.org/t/p/w500/gxeRqhJGYJazRXHQpg4fI0xafMJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/o6CrH1r3ZoBZ7xvbePcjl9Ue97D.jpg",
-      "releaseInfo": "2011"
+      "name": "Dallas Cowboys Cheerleaders: Making the Team",
+      "poster": "https://image.tmdb.org/t/p/w500/cb62SdD1Xel74qn2oJgdPSat6nR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bRrm6IOUFc79aIO7lvwtZ2z48sS.jpg",
+      "description": "Criscilla Anderson propose une chorégraphie style LA et donne des leçons de vie difficiles à digérer. Travis Wall, chorégraphe détenteur d'un Emmy, aide Kelli & Judy à prendre des décisions compliquées.",
+      "releaseInfo": "2006"
+    },
+    {
+      "id": "tmdb:13050",
+      "type": "series",
+      "name": "Flipping Out",
+      "poster": "https://image.tmdb.org/t/p/w500/lk9XTcvn4oymQxgtdi3ktKmPXmE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wmCMYSR2xc7YCERO8AH1s2w2ynp.jpg",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tmdb:63014",
+      "type": "series",
+      "name": "Appelez-moi Caitlyn",
+      "poster": "https://image.tmdb.org/t/p/w500/m27KexNPrOREbxw4413BUvQijqA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/474H8956S1sGbWEEpykUJZsf8Sf.jpg",
+      "description": "Caitlyn Jenner se livre à coeur ouvert sur sa nouvelle vie de transgenre.",
+      "releaseInfo": "2015"
     }
   ]
 }

@@ -14,7 +14,7 @@
       "type": "movie",
       "name": "Digger",
       "poster": "https://image.tmdb.org/t/p/w500/gPCCGMQCrrMNM3mR3vqIdbdJxJ5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/b7t3r39Oll5qPxBKzLZ8eHMBD7l.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vC5IxhgO6cVmw9O4QgkraRzfHvh.jpg",
       "description": "L’homme le plus puissant du monde se lance dans une mission frénétique pour prouver qu’il est le sauveur de l’humanité avant que le désastre qu’il a déclenché ne détruise tout.",
       "releaseInfo": "2026"
     },
@@ -43,6 +43,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/A12dkvb10IgoQxHxU5TXOc6WR4k.jpg",
       "background": "https://image.tmdb.org/t/p/w780/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
       "description": "Jo et Raissa se retrouvent échouées sur le monde fantastique de l'île oubliée de Nakali. Elles découvrent que le seul moyen de rentrer chez elles pourrait bien leur coûter toute une vie de souvenirs et d'émotions.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1198654",
+      "type": "movie",
+      "name": "Bad Apples",
+      "poster": "https://image.tmdb.org/t/p/w500/ajTzOrqqHl65ZBQfrW1ytzrn9Gl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dNCK3daKbOi6IHSsM9O2Nwyd91Y.jpg",
+      "description": "Une enseignante enferme par inadvertance son élève le plus indiscipliné chez elle. Tentant d'arranger les choses, elle hésite lorsque sa classe commence à s'épanouir en l'absence de l'enfant, lui posant un dilemme impossible.",
       "releaseInfo": "2026"
     },
     {
@@ -95,7 +104,7 @@
       "type": "movie",
       "name": "Spa Weekend",
       "poster": "https://image.tmdb.org/t/p/w500/wW2M5FnQrjTZPrIpOKqYpitAGdj.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8NGPUlR4xKQfgLaWCeXALGF3i27.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ftFf9sfJq69xJ0AuiaIuDKBtfzg.jpg",
       "description": "Entre carrière, famille et responsabilités quotidiennes, quatre amies de longue date réalisent qu'elles ont oublié comment prendre soin d'elles-mêmes. Épuisées et méritant une pause longtemps due, elles partent pour un week-end de détente au sein d'un spa pour un moment de plaisir, de rire et de très mauvaises décisions.",
       "releaseInfo": "2026"
     },
@@ -104,7 +113,7 @@
       "type": "movie",
       "name": "Coyote vs. Acme",
       "poster": "https://image.tmdb.org/t/p/w500/dFwseuSlDUNiwMuElDb3OAOQ8En.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/viZqGq9TNvQ5uXSD4ahg2RpRONT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7GOW6jod9lLurW5utokAatxg7ql.jpg",
       "description": "Après des décennies à être réduit en miettes par des bombes, pulvérisé à la dynamite, déchiqueté par des aimants, assommé par des rochers, écrasé par des trains, piégé par des tunnels, projeté par des ressorts, aplati par des rouleaux compresseurs, trahi par des ratés mécaniques, malmené par des élastiques, secoué par des fusées, poignardé dans le dos par des costumes de chauve-souris, catapulté par des patins-fusées, renversé par des monocycles, ébranlé par des pilules sismiques, recouvert de caoutchouc par des groupes ennemis, et précipité tête première du haut de toutes les falaises du Sud-Ouest, Wile, Wile E. Coyote contre-attaque enfin. Faisant équipe avec l’avocat-vedette des panneaux publicitaires spécialisé dans les accidents Kevin Avery, il s’attaque à l’avocat d’affaires rusé Buddy Crane et à ACME, Inc., le conglomérat obsédé par le profit étant à l’origine de chacune des catastrophes chaotiques du Coyote.",
       "releaseInfo": "2026"
     },
@@ -141,7 +150,7 @@
       "name": "Tony",
       "poster": "https://image.tmdb.org/t/p/w500/zsisvReIrSIUPS3JXawt1ib9JDS.jpg",
       "background": "https://image.tmdb.org/t/p/w780/uQvz6NdyhoWE6dMurFn0BriLIv9.jpg",
-      "description": "À l'âge de 19 ans, Anthony Bourdain se rend à Provincetown et se retrouve plongé dans l'univers chaotique des coulisses d'un restaurant, marquant ainsi le début d'un été qui va bouleverser le cours de sa vie.",
+      "description": "Le jeune Anthony Bourdain débarque un jour par hasard dans l'univers chaotique de la cuisine d'un restaurant, au cours d'un été qui marquera le début de sa légende.",
       "releaseInfo": "2026"
     },
     {
@@ -158,26 +167,17 @@
       "type": "movie",
       "name": "Teenage Sex and Death at Camp Miasma",
       "poster": "https://image.tmdb.org/t/p/w500/a5JvHUONtF8RyLL6M5nTlqqMJVE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/d1n2ySWSanU34eEsluRjfrjRq52.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/c3N1tHx6cKmhbv7Gt8M4cwHWPUZ.jpg",
       "description": "Un cinéaste queer est embauché pour diriger un nouvel épisode d'une franchise Slasher de longue date. Le réalisateur se fixe sur la perspective de lancer la «dernière fille» du film original, et les deux femmes entrent dans une frénésie de manie psychosexuelle.",
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1477712",
+      "id": "tmdb:675871",
       "type": "movie",
-      "name": "Ice Cream Man",
-      "poster": "https://image.tmdb.org/t/p/w500/ui7pm8GVaYblXxczqg49UwjrMHX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hjF1rzTDR7YvnJUcH2SfP48w492.jpg",
-      "description": "Une ville estivale idyllique sombre dans la folie lorsqu'un marchand de glaces sert des douceurs aux enfants avec des résultats effroyables.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1288059",
-      "type": "movie",
-      "name": "I Want Your Sex",
-      "poster": "https://image.tmdb.org/t/p/w500/z4iVSwpZUSmIxilSfgvciDJROdX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gQsjbxdjJUam7buy4U2TpVTiGSO.jpg",
-      "description": "Lorsque le jeune et innocent Elliot décroche un emploi de rêve auprès d'Erika Tracy, artiste de renom, icône et provocatrice, ses fantasmes deviennent réalité : Erika fait de lui sa muse. Mais Elliot se retrouve vite dépassé par les événements, entraîné par Erika dans un voyage bien plus profond qu'il n'aurait jamais pu l'imaginer, un monde de sexe, d'obsession, de pouvoir, de trahison et de meurtre.",
+      "name": "Super Troopers 3",
+      "poster": "https://image.tmdb.org/t/p/w500/hOAjBggD7zWat7nqt7dUUDH5ZRG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rAeT8K51JJJomj0M7WGPC8jt4yi.jpg",
+      "description": "Dans le Vermont, près de la frontière canadienne, cinq officiers de police, Thorny, Farva, Mac, Foster et Rabbit, tentent tant bien que mal de faire respecter l'ordre.",
       "releaseInfo": "2026"
     }
   ]

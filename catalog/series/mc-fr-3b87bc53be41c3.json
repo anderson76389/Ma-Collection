@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:334470",
+      "type": "series",
+      "name": "It Gets Worse",
+      "poster": "https://image.tmdb.org/t/p/w500/vdvHHnAzYGt4OEhTmUdErjZIGBG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oDCgEryrnOVeygypH6gj99H1D7.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:334151",
       "type": "series",
       "name": "Pierre",
@@ -151,14 +159,6 @@
       "name": "Escape to Florida",
       "poster": "https://image.tmdb.org/t/p/w500/jCqf1RCoyfACK9Um6X2qd3wZ79F.jpg",
       "background": "https://image.tmdb.org/t/p/w780/qieaIqE1vMUYBeXSJPGBaagockR.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:327887",
-      "type": "series",
-      "name": "Martin and Roman’s Irish Road Trip",
-      "poster": "https://image.tmdb.org/t/p/w500/2Zkiw1gg0nqbAu5KryrbY2WYLm8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8RgeOge6Y8sQELMpAts3TZUlpSx.jpg",
       "releaseInfo": "2026"
     }
   ]

@@ -28,20 +28,20 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:236416",
-      "type": "series",
-      "name": "The UnXplained Special Presentation",
-      "poster": "https://image.tmdb.org/t/p/w500/8IpSSy2edEBWRTppUJ6rF6KgxDl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/A3Vs4LjkCts9iC7mi218edu8q2D.jpg",
-      "releaseInfo": "2023"
-    },
-    {
       "id": "tmdb:111633",
       "type": "series",
       "name": "Secrets in the Ice",
       "poster": "https://image.tmdb.org/t/p/w500/fL4i7hI0NqdOMlCkYpG2WZmMMnP.jpg",
       "background": "https://image.tmdb.org/t/p/w780/bGQ6PDbomri6pFz7g1oKHpqIm9t.jpg",
       "releaseInfo": "2020"
+    },
+    {
+      "id": "tmdb:236416",
+      "type": "series",
+      "name": "The UnXplained Special Presentation",
+      "poster": "https://image.tmdb.org/t/p/w500/8IpSSy2edEBWRTppUJ6rF6KgxDl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A3Vs4LjkCts9iC7mi218edu8q2D.jpg",
+      "releaseInfo": "2023"
     }
   ]
 }

@@ -5,7 +5,7 @@
       "type": "movie",
       "name": "L'Amour de ta vie",
       "poster": "https://image.tmdb.org/t/p/w500/1zrnRcJ8JOTXYp0Qizad1rnuIA0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mqYqKvrKTgMvK50VtEDZlYFsnHz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4hneB0UFKOZAGJHqJ3VhDcG72uH.jpg",
       "description": "Maya dont la rencontre fortuite avec Charlie donne naissance à une histoire d'amour passionnée et à la vie dont elle n'osait pas rêver. Lorsque tout bascule, Maya doit déterminer qui elle est, ce qu'elle veut et comment réapprendre à aimer.",
       "releaseInfo": "2026"
     },
@@ -16,6 +16,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/c3O1ApzLnQ1jUXA60kXDraiPPIv.jpg",
       "background": "https://image.tmdb.org/t/p/w780/nDScZ6YR2nfNCeK5bmJ1ujb355b.jpg",
       "description": "Quand Anika, une jeune mère célibataire qui se bat pour préserver l'unité de sa famille, commence à échanger des lettres avec un détenu, Carousel, une relation improbable se noue à distance et prend bientôt une tournure inattendue. Naît alors une puissante histoire d'amour et de rédemption, portée par l'espoir de pouvoir un jour échapper au poids du passé. Car même les relations les plus inconcevables peuvent changer des vies et offrir une seconde chance d'être heureux.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1503762",
+      "type": "movie",
+      "name": "Raison et Sentiments",
+      "poster": "https://image.tmdb.org/t/p/w500/9XNEI2AYgQIIqXper5kOdGTnyf5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nrLVr8C2pkbOGwXKay2xrxvlHmh.jpg",
+      "description": "Une irrésistible nouvelle version du roman culte de Jane Austin, Raison et Sentiments, qui suit deux sœurs à travers leurs amours, leurs chagrins et le lien qui les unit d'une façon magistrale et profondément proche de nous.",
       "releaseInfo": "2026"
     },
     {
@@ -59,7 +68,7 @@
       "type": "movie",
       "name": "Teenage Sex and Death at Camp Miasma",
       "poster": "https://image.tmdb.org/t/p/w500/a5JvHUONtF8RyLL6M5nTlqqMJVE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/d1n2ySWSanU34eEsluRjfrjRq52.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/c3N1tHx6cKmhbv7Gt8M4cwHWPUZ.jpg",
       "description": "Un cinéaste queer est embauché pour diriger un nouvel épisode d'une franchise Slasher de longue date. Le réalisateur se fixe sur la perspective de lancer la «dernière fille» du film original, et les deux femmes entrent dans une frénésie de manie psychosexuelle.",
       "releaseInfo": "2026"
     },
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/od9yzZ6cc3ZGSvJI2mTxcsyI48M.jpg",
       "background": "https://image.tmdb.org/t/p/w780/5rxEnsgriw8z065q51lrvPKYmCL.jpg",
       "description": "Après une sortie parfaite avec son petit ami, Kenna commet une erreur irréparable qui la conduit en prison pour sept ans. Espérant reconstruire sa vie après sa libération, elle tente de retrouver sa fille, mais ses grands-parents, qui en ont la garde, refusent de la laisser la voir. Elle trouve bientôt une compassion inattendue auprès du propriétaire d'un bar local, et leur romance secrète donne à Kenna l'espoir d'une seconde chance.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1515615",
-      "type": "movie",
-      "name": "More Than a Kiss",
-      "poster": "https://image.tmdb.org/t/p/w500/qmLFYcm6MFp02IIF5Qn6FuoPnKd.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7yuHdP85F2ZxhKbSoPgCBT9uJT3.jpg",
-      "description": "Sean, élève brillant visant le MIT, accepte d'aider Flora, une adolescente populaire mais peu investie dans ses études, à améliorer ses résultats scolaires. Ce qui commence comme un simple accord se transforme peu à peu en une histoire d'amour qui remet en question leurs projets et leurs certitudes.",
       "releaseInfo": "2026"
     }
   ]

@@ -10,14 +10,6 @@
       "releaseInfo": "2005"
     },
     {
-      "id": "tmdb:57775",
-      "type": "series",
-      "name": "ちびまる子ちゃん",
-      "poster": "https://image.tmdb.org/t/p/w500/auruoMM9a9c4diotHvI5v7dKFbF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vuajwjep1FxphPhMEWKv4bfrCnf.jpg",
-      "releaseInfo": "1990"
-    },
-    {
       "id": "tmdb:312359",
       "type": "series",
       "name": "Dragon Ball Super : Beerus",
@@ -27,13 +19,13 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:30983",
+      "id": "tmdb:30984",
       "type": "series",
-      "name": "Détective Conan",
-      "poster": "https://image.tmdb.org/t/p/w500/gW14n6xxONXrya8CIDhRe5Ada7U.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/z67lpMtm8YGykJO4p89meuNMvj8.jpg",
-      "description": "Shinichi Kudo est un jeune lycéen de renom au Japon. Grâce à sa perspicacité et son intelligence, il est souvent amené à résoudre des affaires criminelles pour la police. Un jour, dans un parc d’attraction, il est témoin d’une étrange affaire qu'il voudra élucider : malgré son expérience et sa vigilance habituelle, Shinichi est enlevé par les membres d’une mystérieuse organisation, \"les hommes en noir\". Ces derniers lui font alors avaler une étrange pilule. Shinichi s'évanoui pour se réveiller dans le corps d'un enfant de 7 ans...",
-      "releaseInfo": "1996"
+      "name": "Bleach",
+      "poster": "https://image.tmdb.org/t/p/w500/e0kKmeM8R7Kersh5N2PPzIRNRhr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/o0NsbcIvsllg6CJX0FBFY8wWbsn.jpg",
+      "description": "Adolescent de quinze ans, Ichigo Kurosaki possède un don particulier : celui de voir les esprits. Un jour, il croise la route d'une belle Shinigami (un être spirituel) en train de pourchasser une « âme perdue », un esprit maléfique qui hante notre monde et n'arrive pas à trouver le repos. Mise en difficulté par son ennemi, la jeune fille décide alors de prêter une partie de ses pouvoirs à Ichigo, mais ce dernier hérite finalement de toute la puissance du Shinigami. Contraint d'assumer son nouveau statut, Ichigo va devoir gérer ses deux vies : celle de lycéen ordinaire, et celle de chasseur de démons…",
+      "releaseInfo": "2004"
     },
     {
       "id": "tmdb:45790",
@@ -41,8 +33,16 @@
       "name": "JoJo's Bizarre Adventure",
       "poster": "https://image.tmdb.org/t/p/w500/2Sc0veFPh9CcHMtNqMyiQqIW9ZF.jpg",
       "background": "https://image.tmdb.org/t/p/w780/l2gc2dPRUPe3bAfYCRTjc6uAMmB.jpg",
-      "description": "Angleterre, 1981. Afin d'honorer ancienne dette, Lord George Joestar adopte Dio Brando, le fils de son sauveur Dario. Mais sous l'apparence du fils modèle, Dio souhaite s'emparer de la fortune des Joestar et humilier le fils du lord, Jonathan Joestar surnommé Jojo. Une rivalité nait entre eux et explose à cause d'un masque aztèque aux capacités mystérieuses. Dio s'en empare et devient un vampire, que seul la maîtrise du hamon permettra à Jonathan d'espérer le vaincre. Voici le point de départ du destin entremêlé de la famille Joestar et de Dio. Chaque illustre membre l'affrontera, lui ou des adversaires qui lui sont liés grâce au hamon, puis aux stands, la matérialisation de leur esprit combatif doté de force et de capacités insoupçonnées. Parmi eux, Joseph l'aventurier arrogant, Jotaro et son stand invincible Star Platinium, Josuke l'ami au grand cœur, Giorno le fils de Dio et gangster à la chevelure dorée et Jolyne, la fille à la volonté de fer.",
+      "description": "Angleterre, 1881. Afin d'honorer ancienne dette, Lord George Joestar adopte Dio Brando, le fils de son sauveur Dario. Mais sous l'apparence du fils modèle, Dio souhaite s'emparer de la fortune des Joestar et humilier le fils du lord, Jonathan Joestar surnommé Jojo. Une rivalité nait entre eux et explose à cause d'un masque aztèque aux capacités mystérieuses. Dio s'en empare et devient un vampire, que seul la maîtrise du hamon permettra à Jonathan d'espérer le vaincre. Voici le point de départ du destin entremêlé de la famille Joestar et de Dio. Chaque illustre membre l'affrontera, lui ou des adversaires qui lui sont liés grâce au hamon, puis aux stands, la matérialisation de leur esprit combatif doté de force et de capacités insoupçonnées. Parmi eux, Joseph l'aventurier arrogant, Jotaro et son stand invincible Star Platinium, Josuke l'ami au grand cœur, Giorno le fils de Dio et gangster à la chevelure dorée et Jolyne, la fille à la volonté de fer.",
       "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:57775",
+      "type": "series",
+      "name": "ちびまる子ちゃん",
+      "poster": "https://image.tmdb.org/t/p/w500/auruoMM9a9c4diotHvI5v7dKFbF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vuajwjep1FxphPhMEWKv4bfrCnf.jpg",
+      "releaseInfo": "1990"
     },
     {
       "id": "tmdb:220542",
@@ -51,15 +51,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/47pSay5Ao7SFeyQBZVkW5ifyhAZ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/gffVOVZ2Y9cmVIZ26Gt9ByMGCYH.jpg",
       "description": "Formée dès son plus jeune âge par son père apothicaire, Mao Mao est un jour vendue comme servante au palais de l'empereur. Prisonnière dans les arcanes du pouvoir, elle attire l’attention de Jinshi, un séduisant haut fonctionnaire qui la promeut lorsqu’il découvre son talent pour confectionner des potions. Désormais goûteuse, Mao Mao met ses connaissances au service des gens du palais pour les soigner, mais aussi pour déjouer les mystères et les complots qui se trament…",
-      "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:220150",
-      "type": "series",
-      "name": "Pokémon : Les horizons",
-      "poster": "https://image.tmdb.org/t/p/w500/wuegnXaSNR8VSoATc5bXQjyoUIj.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/d0axpGojOqDag5lDa0eNSEtw11l.jpg",
-      "description": "Suivez Liko et Rhod dans leur découverte des mystères qui les entourent, et rencontrez Friede, Capitaine Pikachu, Amethio ainsi que d’autres personnages lors de leurs aventures passionnantes !",
       "releaseInfo": "2023"
     },
     {
@@ -72,21 +63,13 @@
       "releaseInfo": "2013"
     },
     {
-      "id": "tmdb:73223",
+      "id": "tmdb:220150",
       "type": "series",
-      "name": "Black Clover",
-      "poster": "https://image.tmdb.org/t/p/w500/zObHoFAX6P7DirR2dybN3cVC1Ms.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qu9epTZh29fGUkY7ZYc9PVsv0Ig.jpg",
-      "description": "Dans un monde régi par la magie, Yuno et Asta ont grandi ensemble avec un seul but en tête : devenir le prochain Empereur-Mage du royaume de Clover. Mais si le premier est naturellement doué, le deuxième, quant à lui, ne sait pas manipuler la magie. C'est ainsi que lors de la cérémonie d'attribution de leur grimoire, Yuno reçoit le légendaire grimoire au trèfle à quatre feuilles tandis qu'Asta, lui, repart bredouille. Or, plus tard, un ancien et mystérieux ouvrage noir décoré d'un trèfle à cinq feuilles surgit devant lui ! Un grimoire d’anti-magie…",
-      "releaseInfo": "2017"
-    },
-    {
-      "id": "tmdb:324301",
-      "type": "series",
-      "name": "クレヨンしんちゃん",
-      "poster": "https://image.tmdb.org/t/p/w500/qTW3lU85NG83hXWtAdC3qwOgeDO.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ecYulqPoYRFyttKyxaTpSEqDUbo.jpg",
-      "releaseInfo": "1992"
+      "name": "Pokémon : Les horizons",
+      "poster": "https://image.tmdb.org/t/p/w500/wuegnXaSNR8VSoATc5bXQjyoUIj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/d0axpGojOqDag5lDa0eNSEtw11l.jpg",
+      "description": "Suivez Liko et Rhod dans leur découverte des mystères qui les entourent, et rencontrez Friede, Capitaine Pikachu, Amethio ainsi que d’autres personnages lors de leurs aventures passionnantes !",
+      "releaseInfo": "2023"
     },
     {
       "id": "tmdb:105009",
@@ -98,13 +81,12 @@
       "releaseInfo": "2021"
     },
     {
-      "id": "tmdb:259140",
+      "id": "tmdb:324301",
       "type": "series",
-      "name": "Ranma1/2",
-      "poster": "https://image.tmdb.org/t/p/w500/paz1BKuMqwOW7FGMe5xqcTEstgx.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xvD9urN8lUtWw5fm4a87Rl3dCZn.jpg",
-      "description": "Akane Tendo fait la connaissance de son nouveau fiancé, Ranma Saotomé, prodige des arts martiaux qui possède une particularité : il se transforme en fille au contact de l'eau froide.",
-      "releaseInfo": "2024"
+      "name": "クレヨンしんちゃん",
+      "poster": "https://image.tmdb.org/t/p/w500/qTW3lU85NG83hXWtAdC3qwOgeDO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ecYulqPoYRFyttKyxaTpSEqDUbo.jpg",
+      "releaseInfo": "1992"
     },
     {
       "id": "tmdb:207347",
@@ -129,27 +111,54 @@
       "type": "series",
       "name": "Ao Ashi",
       "poster": "https://image.tmdb.org/t/p/w500/zoQf7ZycPDtrxRWTLMlw7DMqgPI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4ixh7PNNWd1VaohzKD7pcP33SiN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/87IQdOn34p1z2KTdM4IZ1N8bWaH.jpg",
       "description": "Ashito Aoi vit dans la préfecture d’Ehime, dans le sud du Japon. Il est le meilleur joueur d'un club de football ordinaire. Le jour où ils perdent le tournoi intercollèges, Ashito croise la route d’un homme qui l’a observé. C’est Tatsuya Fukuda, l'entraîneur des jeunes de la J-League du Tokyo City Esperion FC. À la recherche de talents pour constituer la meilleure équipe du monde, il propose à Ashito de le rejoindre à Tokyo.",
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:283428",
+      "id": "tmdb:259140",
       "type": "series",
-      "name": "The Ramparts of Ice",
-      "poster": "https://image.tmdb.org/t/p/w500/spPKOGhjNrOZuCUoTOzg0Q05Mum.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ht6WUmez8cFbwlrFmGdjbYyn3RG.jpg",
-      "description": "Hantée par des souvenirs envahissants, Koyuki Hikawa préfère rester dans sa bulle jusqu'au jour où trois camarades de lycée décident de l'aider à s'ouvrir aux autres.",
-      "releaseInfo": "2026"
+      "name": "Ranma1/2",
+      "poster": "https://image.tmdb.org/t/p/w500/paz1BKuMqwOW7FGMe5xqcTEstgx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xvD9urN8lUtWw5fm4a87Rl3dCZn.jpg",
+      "description": "Akane Tendo fait la connaissance de son nouveau fiancé, Ranma Saotomé, prodige des arts martiaux qui possède une particularité : il se transforme en fille au contact de l'eau froide.",
+      "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:320909",
+      "id": "tmdb:73223",
       "type": "series",
-      "name": "Les Noces des Lucioles",
-      "poster": "https://image.tmdb.org/t/p/w500/1RXEvHmis1oKTAWtKOrzJqenpb6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3zmB6PLnjf7rNNC2lnvinQtlJMx.jpg",
-      "description": "Durant l'ère Meiji, Satoko Kirigaya n’a qu’un seul souhait : se marier pour l'honneur de sa famille et ce, même si ses jours sont comptés. Mais alors qu'un assassin tente de la tuer, elle lui offre de l’épouser ! Une proposition que Shinpei Goto accepte, mais qui pourrait bien se retourner contre elle…",
-      "releaseInfo": "2026"
+      "name": "Black Clover",
+      "poster": "https://image.tmdb.org/t/p/w500/zObHoFAX6P7DirR2dybN3cVC1Ms.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qu9epTZh29fGUkY7ZYc9PVsv0Ig.jpg",
+      "description": "Dans un monde régi par la magie, Yuno et Asta ont grandi ensemble avec un seul but en tête : devenir le prochain Empereur-Mage du royaume de Clover. Mais si le premier est naturellement doué, le deuxième, quant à lui, ne sait pas manipuler la magie. C'est ainsi que lors de la cérémonie d'attribution de leur grimoire, Yuno reçoit le légendaire grimoire au trèfle à quatre feuilles tandis qu'Asta, lui, repart bredouille. Or, plus tard, un ancien et mystérieux ouvrage noir décoré d'un trèfle à cinq feuilles surgit devant lui ! Un grimoire d’anti-magie…",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:226688",
+      "type": "series",
+      "name": "BEYBLADE X",
+      "poster": "https://image.tmdb.org/t/p/w500/66wkm14IWdrY5LaKZDAbkD2T9Jt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qAq9RBeHZoTMDFqQZ2o4cE5CJIQ.jpg",
+      "description": "Robin Kazami, blader débutant, s'associe à l'influenceuse Multi Nana-iro et à l'ancien champion Jaxon Cross pour former ce trio improbable, prêt à gravir les échelons du classement The X et à remporter le titre de champion blader !",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:196944",
+      "type": "series",
+      "name": "My Happy Marriage",
+      "poster": "https://image.tmdb.org/t/p/w500/8744EyrDwSPuv7POqtAyOgjDCyu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7uyRCBMQIWwJSWIR2aCrvPjbPzi.jpg",
+      "description": "Pour sa famille, Miyo est une bonne à rien. Mais entourée de son puissant futur mari, sa véritable personnalité et ses pouvoirs enfouis se manifestent peu à peu.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:237150",
+      "type": "series",
+      "name": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World",
+      "poster": "https://image.tmdb.org/t/p/w500/yF9t1erLr7qZu17cTiXggyUcS3R.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/n493br0MLJHASsqEsUwG5PvxDkN.jpg",
+      "description": "Dans un pays où les nobles manient généralement leurs épées, Ars Louvent utilise sa compétence qui lui permet d'évaluer avec précision le potentiel latent des gens ! Ce jeune garçon réincarné en un fils de nobles œuvre à faire fructifier le modeste domaine de sa famille. Mais ce pouvoir apparemment anodin lui permettra de construire un territoire puissant lorsqu’il s’engage dans un voyage rempli de surprises.",
+      "releaseInfo": "2024"
     },
     {
       "id": "tmdb:253811",
@@ -161,22 +170,13 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:270603",
+      "id": "tmdb:283428",
       "type": "series",
-      "name": "The Exiled Heavy Knight Knows How to Game the System",
-      "poster": "https://image.tmdb.org/t/p/w500/flcyEjfwHECnqgXMGNZsajLg1rv.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rQmzx7qyoK5YiXJHnv0jdgVlKyl.jpg",
-      "description": "Issu d’une prestigieuse famille de maîtres épéistes, Elymas Edvaughn est renié et banni lorsqu’il s’affirme en tant que “Chevalier Lourd”, une classe inférieure et complètement dénigrée. En réalité, le monde d’Elymas est similaire à celui d’un jeu qu’il maîtrisait dans une autre vie. Et il sait parfaitement que les Chevaliers Lourds sont en fait les plus puissants…",
+      "name": "The Ramparts of Ice",
+      "poster": "https://image.tmdb.org/t/p/w500/spPKOGhjNrOZuCUoTOzg0Q05Mum.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ht6WUmez8cFbwlrFmGdjbYyn3RG.jpg",
+      "description": "Hantée par des souvenirs envahissants, Koyuki Hikawa préfère rester dans sa bulle jusqu'au jour où trois camarades de lycée décident de l'aider à s'ouvrir aux autres.",
       "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:237150",
-      "type": "series",
-      "name": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World",
-      "poster": "https://image.tmdb.org/t/p/w500/yF9t1erLr7qZu17cTiXggyUcS3R.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/n493br0MLJHASsqEsUwG5PvxDkN.jpg",
-      "description": "Dans un pays où les nobles manient généralement leurs épées, Ars Louvent utilise sa compétence qui lui permet d'évaluer avec précision le potentiel latent des gens ! Ce jeune garçon réincarné en un fils de nobles œuvre à faire fructifier le modeste domaine de sa famille. Mais ce pouvoir apparemment anodin lui permettra de construire un territoire puissant lorsqu’il s’engage dans un voyage rempli de surprises.",
-      "releaseInfo": "2024"
     }
   ]
 }

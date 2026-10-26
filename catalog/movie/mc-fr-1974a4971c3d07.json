@@ -10,6 +10,23 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1563627",
+      "type": "movie",
+      "name": "A Better Jianghu",
+      "poster": "https://image.tmdb.org/t/p/w500/350om1pKdv14AdTWxpwqEYR9WrS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6neOr2yjCdnVFUzI5xIOvo6sxuf.jpg",
+      "description": "Sous la dynastie des Song du Sud, deux individus — le lettré Shen Fang et le chevalier errant Luo Han — dérobent une somme considérable en argent au haut fonctionnaire Qin Hui afin de soutenir les rebelles luttant contre les Jin ; ils mettent au point un vaste stratagème pour contrer la garde impériale et rallier à leur cause des personnes issues de tous horizons.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1567937",
+      "type": "movie",
+      "name": "空枪",
+      "poster": "https://image.tmdb.org/t/p/w500/rNqQQ3hFknhKpy8OTyGfzk7FY20.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mm8VecTY7YxWevgS8F2ygqLMAiv.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1630030",
       "type": "movie",
       "name": "大唐妖探",
@@ -145,23 +162,6 @@
       "name": "吞噬星空剧场版：决战原始星",
       "poster": "https://image.tmdb.org/t/p/w500/rS0kKvGiffJyMx8emO6sDiyxccj.jpg",
       "background": "https://image.tmdb.org/t/p/w780/tKHaRVudYbGlO78UrjkWUtguB8N.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1658653",
-      "type": "movie",
-      "name": "消失的人",
-      "poster": "https://image.tmdb.org/t/p/w500/v1mXfFXyAQRedKHIg1ji9gGKmSt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/49CFmJAkesNKgSr8YZHcOiwT0ks.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1671548",
-      "type": "movie",
-      "name": "Lettres d’amour de ma grand-mère",
-      "poster": "https://image.tmdb.org/t/p/w500/A1sistnRovhZ4nBiph2X5sr7Y9N.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uq6oeqeXTYPjiave6hpvvGSgSQ0.jpg",
-      "description": "Pendant des décennies, Ye Sogriu a survécu grâce aux lettres et aux mandats que son mari lui envoie depuis la Thaïlande. Lorsque son petit-fils Hiou-ui part sur les traces de son grand-père, il découvre que l’histoire derrière cette correspondance est bien différente de ce que la famille avait toujours imaginé. À mesure que ressurgissent des souvenirs enfouis et des gestes de dévouement restés dans l’ombre, se dessine le portrait d’existences liées par la séparation, le sacrifice et le temps.",
       "releaseInfo": "2026"
     }
   ]

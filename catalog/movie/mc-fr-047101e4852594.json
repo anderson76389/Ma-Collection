@@ -1,6 +1,12 @@
 {
   "metas": [
     {
+      "id": "tmdb:1801799",
+      "type": "movie",
+      "name": "홈커밍",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1584779",
       "type": "movie",
       "name": "Mon père, un meurtrier ?",
@@ -10,12 +16,38 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1780005",
+      "type": "movie",
+      "name": "Contre l'Ouragan",
+      "poster": "https://image.tmdb.org/t/p/w500/8T590m8nwAub9fTxp72EJPphOWa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cpNMIRCrDl0sxDL1tHBzfWi0UZC.jpg",
+      "description": "En pleine mer, Wirpul et son demi-frère Candi luttent pour survivre lorsqu'une tempête imprévue au large d'Acapulco se transforme en ouragan de catégorie 5, dénommé Otis. Une histoire de fraternité, d'inégalité et de courage, où l'amour fraternel est le seul espoir.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1453407",
+      "type": "movie",
+      "name": "Gajab Raat",
+      "poster": "https://image.tmdb.org/t/p/w500/e4N7M52cBbyi24xLga8yI6yt1u1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8I4YFWgi9IZW4VUi398A0BqLnm.jpg",
+      "description": "À New Delhi, Ajay Dikshit, un policier corrompu, voit ses projets de gains faciles voler en éclats lorsqu'une jeune femme grièvement blessée est jetée d'une voiture en marche. Déterminé à découvrir son identité, il se retrouve malgré lui au cœur d'une vaste conspiration aux ramifications internationales. Au fil d'une nuit particulièrement mouvementée, chaque décision l'entraîne un peu plus dans un engrenage dangereux, le contraignant à choisir entre ses intérêts personnels et son devoir de policier.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1729010",
       "type": "movie",
       "name": "Le pacte des innocentes",
       "poster": "https://image.tmdb.org/t/p/w500/7SS3Hspxj19h0e3pRrbgv6Vqj2s.jpg",
       "background": "https://image.tmdb.org/t/p/w780/Y30JqkSUjaCXDRfXqFy1hPSBFb.jpg",
       "description": "Ellie, Jessica, Kendall et Lily sont quatre lycéennes inséparables. Lorsque la mère d'Ellie annonce leur déménagement, la jeune fille prévoit de s'enfuir avec son petit ami Caleb après une fête. Mais la soirée tourne mal lorsqu'elle apprend que Caleb l'aurait trompée. Quelques heures plus tard, Ellie disparaît sans laisser de trace. Tandis que des photos compromettantes de Jessica circulent dans le lycée, les soupçons se multiplient. Déterminée à retrouver sa fille, Tina, la mère d'Ellie, mène l'enquête avec le lieutenant Patel. Très vite, secrets, jalousies et trahisons menacent de faire éclater le groupe d'amies.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1802674",
+      "type": "movie",
+      "name": "Hot Wheels La course est lancée! L'attaque du T-Rex",
+      "poster": "https://image.tmdb.org/t/p/w500/iIc0OkYnf06kv5Zp0IYVwuvffgh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dK69ml1Y34MrEovK4ZyizRiWbEH.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -83,7 +115,7 @@
       "type": "movie",
       "name": "On va s'arrêter là",
       "poster": "https://image.tmdb.org/t/p/w500/vaok2Dm7suKG2gEY2cKBXL4OMYf.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fv9BAXOrPJXEhycgWF3Qb8aczqe.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3eZQoaWm2cDE2QV02GUHUrWsxAC.jpg",
       "description": "L'histoire d'un psychanalyste pragmatique qui déçu par l'approche traditionnelle de la psychologie, repousse les limites de l'éthique avec ses patients. Cette démarche semble fonctionner, jusqu'au jour où un écrivain en panne d'inspiration frappe à la porte de son cabinet.",
       "releaseInfo": "2026"
     },
@@ -138,40 +170,6 @@
       "name": "Restless",
       "poster": "https://image.tmdb.org/t/p/w500/iVcD9F3ZQBZBBsVq6hDE4iYO4yi.jpg",
       "background": "https://image.tmdb.org/t/p/w780/qXJ9GzTQrB4piZqUJtBUdZ7WbbP.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1760576",
-      "type": "movie",
-      "name": "Zakir Khan: Papa Yaar",
-      "poster": "https://image.tmdb.org/t/p/w500/layTkFN24JouxXQpYyMIn8WxBrB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tNBIV77HHlM7rJzmZE5VqA1ciEA.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1514863",
-      "type": "movie",
-      "name": "Best of the Best",
-      "poster": "https://image.tmdb.org/t/p/w500/9soOjsZ91vtMzypK2F3MC378JI5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5m1j7Wibh3HnZq5QHm97v8dI3GH.jpg",
-      "description": "Deux meilleures amies inséparables depuis l'enfance se lancent un défi de taille : intégrer et faire triompher la troupe universitaire de danse Bollywood. Mais la compétition s'avère bien plus féroce et impitoyable qu'elles ne l'imaginaient, mettant leur amitié fusionnelle à rude épreuve.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1451944",
-      "type": "movie",
-      "name": "Histoires Sensuelles 3",
-      "poster": "https://image.tmdb.org/t/p/w500/cjlTP8YWEmlzASE2tRZ1LGB0Yz5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jRtR4aTq4vmxRg9ah60R5i1kkQ7.jpg",
-      "description": "À travers quatre courts métrages, brefs mais chargés d'émotion, cette anthologie explore une nouvelle fois la luxure, l'amour, les relations et le désir refoulé, offrant ainsi un regard neuf sur l'intimité, le désir et les liens humains dans toute leur complexité.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1686999",
-      "type": "movie",
-      "name": "என்ன விலை",
-      "poster": "https://image.tmdb.org/t/p/w500/NkklX4xp3BlLmlMT0LXehkStJZ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/80DEQikGK5bSlbyBbNWV9ieVy6g.jpg",
       "releaseInfo": "2026"
     }
   ]

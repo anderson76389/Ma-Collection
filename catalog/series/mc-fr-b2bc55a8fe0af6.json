@@ -1,6 +1,22 @@
 {
   "metas": [
     {
+      "id": "tmdb:335174",
+      "type": "series",
+      "name": "ボーダーズ 警視庁特殊事件対策班",
+      "poster": "https://image.tmdb.org/t/p/w500/qAt1OYW7ixzD2fVWxJ0X3s1Epz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tlYhjjrXyf7GLZkz4ZXp5b2InVa.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:333359",
+      "type": "series",
+      "name": "ライフトレード",
+      "poster": "https://image.tmdb.org/t/p/w500/wQxziim1O4577TaKOF6zUN5ccI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6oGPrA82ioCLQq9Jtg6SSGdYfNw.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:332635",
       "type": "series",
       "name": "赤灯えれじい",
@@ -12,9 +28,17 @@
       "id": "tmdb:313346",
       "type": "series",
       "name": "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life",
-      "poster": "https://image.tmdb.org/t/p/w500/d2twigOlajyMBmqjZY0z0XCBwGC.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/lEUUMZ8zylAPP797UMugdYjuxRP.jpg",
       "background": "https://image.tmdb.org/t/p/w780/msusxF6ZPGnQmTGXU9iC4UJOohs.jpg",
       "description": "Rein l'Enchanteur est un mage capable d'améliorer les armes et les armures. Mais lorsqu'il se fait renvoyer de sa guilde pour la simple raison qu'il a déjà enchanté tout ce qu'elle possède, il décide de reprendre tous les sorts qu’il a transmis à ses ex-compagnons et les affecte à son propre équipement. En chemin, Rein rassemble une bande de parias comme lui et, ensemble, ils explorent le monde.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:334319",
+      "type": "series",
+      "name": "妻を引退します",
+      "poster": "https://image.tmdb.org/t/p/w500/eclWtZCtA4YMzLWO6wdjGeslUu2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9RNg3EuG4FTXdjB77WhydfLbdPC.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -143,30 +167,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/8Qnw5PtScEEOdlEWsGN5cwPYwGQ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/4lfbfiNYyiM27U6BwT94taynXXH.jpg",
       "description": "Hidarikiki no Eren suit les destins croisés de deux amis d'enfance : d'un côté, Koichi, designer dans une agence de communication réputée, qui peine à voir une perspective heureuse dans sa carrière jusqu'au jour où un gros contrat lui est proposé et de l'autre, Eren, une jeune fille qui mène une vie d'artiste de rue indépendante aux États-Unis.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:300126",
-      "type": "series",
-      "name": "LIAR GAME",
-      "poster": "https://image.tmdb.org/t/p/w500/1bBCTwdIDdau06vQaNWc7bHErqq.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/Ag6VnSAb1g02YWHYxYFKRUiBtnc.jpg",
-      "description": "Lorsque Nao Kanzaki reçoit un colis contenant 100 millions de yens, elle apprend qu’elle a été sélectionnée pour participer au LIAR GAME. Dans ce tournoi, les mensonges et la trahison règnent en maîtres. Naïve et honnête, Nao se tourne vers Shinichi Akiyama, un brillant ancien escroc, pour survivre à ce jeu terrifiant.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:312123",
-      "type": "series",
-      "name": "おねがいアイプリ",
-      "poster": "https://image.tmdb.org/t/p/w500/jLmoLyNogj8EoZoX263391UYHS.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:314337",
-      "type": "series",
-      "name": "るなしい",
-      "poster": "https://image.tmdb.org/t/p/w500/4tzpN0Gaqz0rHuZy8Ftf44WhTns.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/teBUhSPVkEmPPxft7kbd7PpxCdT.jpg",
       "releaseInfo": "2026"
     }
   ]

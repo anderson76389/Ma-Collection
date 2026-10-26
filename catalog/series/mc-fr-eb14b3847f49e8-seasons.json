@@ -28,6 +28,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:234310",
+      "type": "series",
+      "name": "Where's Wanda?",
+      "poster": "https://image.tmdb.org/t/p/w500/lOSqe7tQYdtpi8TNuaN8quD2VME.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oWHbBNiTU2vhRSXh0iZ8E7YBUsj.jpg",
+      "description": "Suite à la disparition de leur fille, les Klatt décident de prendre les choses en main et élaborent un plan insensé : espionner le voisinage. Les apprentis espions vont mettre au jour une kyrielle de secrets stupéfiants.",
+      "releaseInfo": "2024"
+    },
+    {
       "id": "tmdb:291361",
       "type": "series",
       "name": "Sur le fil : à la poursuite des Étoiles Michelin",

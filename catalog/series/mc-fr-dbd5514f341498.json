@@ -1,6 +1,105 @@
 {
   "metas": [
     {
+      "id": "tmdb:337609",
+      "type": "series",
+      "name": "Swiper avec le diable",
+      "poster": "https://image.tmdb.org/t/p/w500/oW8Bz7jYpJ6Z7IktvXMym9hdgci.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/u0ySQwafNWcUswOSeHU5dGOn8sf.jpg",
+      "description": "Sydney Loofe, 24 ans, disparaît après un rendez-vous Tinder. Ce qui n'est au départ qu'une simple affaire de disparition se transforme vite en un mystère troublant. Dans leur course pour la retrouver, les enquêteurs plongent au cœur d'un monde de manipulation et de sorcellerie, où des adeptes apprennent à contrôler les esprits et à user de la magie noire. Chaque indice révèle des faits si troublants qu'ils choquent même les agents les plus chevronnés du FBI. L'histoire de Sydney devient alors une leçon sur la confiance, la vulnérabilité et les dangers qui se cachent derrière des rencontres en apparence banales. Une affaire glaçante, aussi déroutante qu'inoubliable.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:275139",
+      "type": "series",
+      "name": "Phony",
+      "poster": "https://image.tmdb.org/t/p/w500/iCyQc8cSSHkxUHbkvzbC77owALt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/g2r69hj61xfhMxnrYm8QyMs0gs1.jpg",
+      "description": "À son réveil après un accident de voiture, le lycéen Sonny Cooke trouve sa mère, Ellen, légèrement changée. Le problème, c'est qu'il est le seul à le remarquer et que personne ne le croit. Coincé avec cette femme qu'il soupçonne d'être un dangereux imposteur, Sonny tente de prouver qu'il n'est pas fou.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:213375",
+      "type": "series",
+      "name": "VisionQuest",
+      "poster": "https://image.tmdb.org/t/p/w500/bWPktguPGslrdM79SNQt4OWYyJS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uoXXbN2PrOxH6UKyP7kYwmGpAAP.jpg",
+      "description": "Une nouvelle version de Vision ayant échappé à ceux qui cherchaient à faire de lui une arme, vit dans la clandestinité. En quête d’un nouveau sens à sa vie, il consulte les IA intégrées à son programme, notamment Friday, Edith, Jarvis et le tristement célèbre Ultron. Son existence discrète prend fin lorsque sa tête est mise à prix, le contraignant à prendre la fuite avec Thomas Shepherd, un garçon mystérieux qui pourrait bien être la réincarnation du fils de Vision. Tout en échappant à ses poursuivants, Vision doit se confronter à sa propre nature, résister à l’influence d’Ultron et percer le mystère qui entoure son jeune compagnon s’il veut survivre.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:305551",
+      "type": "series",
+      "name": "Merry Berry Love",
+      "poster": "https://image.tmdb.org/t/p/w500/qzH80C1YNzucLsVJfW23RxvX9vS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vPDVee1j6w0hJ2xMJ2bU5HVBA0Z.jpg",
+      "description": "\"Après avoir tout perdu du jour au lendemain, Lee Yubin, architecte d'intérieur coréen à succès, met le cap sur une sublime petite île japonaise. Sur Chora, il rencontre Shirahama Karin, une agricultrice déterminée à cultiver des fraises malgré sa mystérieuse maladie. Issus de deux mondes différents, ils se retrouvent au cœur d'un quiproquo inattendu. En parallèle, une autre idylle voit le jour sur l'île. Park Kunam, en visa vacances-travail, décide de rester après être tombé sous le charme de Mizuno Mari, une cartomancienne incapable de prédire son propre avenir sentimental. Au fil de leur relation, ils deviennent de précieux alliés pour Yubin et Karin.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:334888",
+      "type": "series",
+      "name": "Afrique, terres de vie",
+      "poster": "https://image.tmdb.org/t/p/w500/wik5FpIY4XvVR29sZGnqseLGKN8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/17ZgS7G4tVvJsuMfMxkFMHumXog.jpg",
+      "description": "Filmée sur près de quatre ans à travers une trentaine de pays, la série explore la richesse, la résilience et les récits de survie des animaux au coeur des écosystèmes extrêmement variés de l'Afrique (déserts, jungles, montagnes, îles et forêts). Grâce à des technologies de pointe et des images de synthèse, elle met en lumière les forces géologiques et continentales qui ont façonné ces milieux, ainsi que les incroyables capacités d'adaptation de la faune",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:298505",
+      "type": "series",
+      "name": "Sorcières Academy",
+      "poster": "https://image.tmdb.org/t/p/w500/a3WtN94ghHX7pV44g2za35ApYDm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mGFtH5pUXDd4hSXUfl8HnHlRWJV.jpg",
+      "description": "Au cœur envoûtant de La Nouvelle-Orléans, suivez trois jeunes sorcières et leurs homologues masculins — des sorciers au charme dangereux — au sein d'un internat de magie d'élite où le pouvoir est une monnaie d'échange, les secrets peuvent être mortels et l'attirance, un risque majeur. Pris entre des guerres surnaturelles ancestrales et des amours interdites, le clan doit décider jusqu'où il est prêt à aller pour protéger sa ville... et se protéger lui-même.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:334385",
+      "type": "series",
+      "name": "Food Samouraï",
+      "poster": "https://image.tmdb.org/t/p/w500/rABJz1w9sIIPbFE9rPJsC4leaZt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/14pV0JE1Rp6WV7NfArY4Qq1fkZc.jpg",
+      "description": "Suit Mory Sacko pour son tout premier voyage au Japon. Accompagné de son chef pâtissier et complice Théo Segretin, il part à la découverte d’une gastronomie qu’il admire depuis l’enfance et qui nourrit déjà sa cuisine au quotidien.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:334569",
+      "type": "series",
+      "name": "Chilean Mine Rescue: Race Against Time",
+      "poster": "https://image.tmdb.org/t/p/w500/b0AQ9aCyRtiTEKhl1au78kksSgN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vUI8WrAZLlvxrT5GFdIVwcJINwu.jpg",
+      "description": "Suite à un accident minier dans le nord du Chili, 33 mineurs sont piégés sous terre. Alors que les recherches commencent, ces hommes luttent pour leur survie dans des conditions extrêmes.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:332401",
+      "type": "series",
+      "name": "City of Blood",
+      "poster": "https://image.tmdb.org/t/p/w500/aFOIKzRZBUk7NwR49dgL9aJAAD3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/icPBB9V5IX1hggtNs1fvskP2lsi.jpg",
+      "description": "Berlin — une cité-État au bord du gouffre. Tandis qu'une poignée de privilégiés vit sous un dôme à climat contrôlé, ceux qui se trouvent à l'extérieur luttent pour survivre dans un monde ravagé par la chaleur, la corruption et la criminalité. Après des années de séparation, les sœurs Bea et Phoebe se retrouvent et découvrent un sombre secret : des vampires sont déterminés à s'emparer du pouvoir politique — et le sang est devenu la nouvelle monnaie de la ville.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:299255",
+      "type": "series",
+      "name": "Surveillant !",
+      "poster": "https://image.tmdb.org/t/p/w500/bhFwS4wNQ8Gxnh6m6fG0xCfEus7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aAWDj71XRCHhSrE0dnU6YrquMMY.jpg",
+      "description": "Corinne Maillard dirige la détention de Chénoise avec un idéalisme à toute épreuve. Entourée de Jeff, son bras droit procédurier, JP, surveillant qui se sent plus à l'aise avec les détenus qu'avec ses collègues, et Stéphanie, nouvelle recrue qu'elle prend sous son aile, elle jongle entre imprévus quotidiens et hiérarchie tatillonne. Convaincue que chaque détenu mérite une seconde chance, elle est la seule personne à penser que la prison peut rendre les hommes meilleurs.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:304842",
+      "type": "series",
+      "name": "The Drop : Une Saga Snowfall",
+      "poster": "https://image.tmdb.org/t/p/w500/s9eengN2v9ZTwPfFC0LRMoJULk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ycLQYTgWfBq53fIkws0qIQOp62g.jpg",
+      "description": "\"The Drop: A Snowfall Saga\" retrouve Wanda Bell et Leon Simmons de \"Snowfall\" en pleine réinvention dans le Los Angeles des années 90. Alors que les ravages du crack s'estompent, un nouveau jeu émerge : l'essor du rap de la côte Ouest. Convaincue que la musique peut changer la culture américaine, Wanda rassemble une bande de génies hétéroclites pour réaliser leurs rêves. Pour y arriver, elle doit naviguer entre le monde de la musique et les codes de la rue, entraînant ses cousins Lamar et James Kinsey et courtisant Artillery, un rappeur local au sang chaud déjà dans le viseur de la police. Son stage chez l'ex-dealer devenu patron de label Darryl \"DG\" Grant lui ouvre des portes, mais creuse les tensions avec Leon. Ce dernier a juré de quitter la rue pour de bon et cherche la rédemption via son cabinet d'aide juridique gratuit. Ambition, loyauté et survie s'entrechoquent : chacun est prêt à tout risquer pour bâtir un avenir.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:333058",
       "type": "series",
       "name": "Le meurtre de Dan Markel : une histoire de famille",
@@ -16,6 +115,32 @@
       "poster": "https://image.tmdb.org/t/p/w500/aIn7N68VOOG7LxPbaM6w9jtE9Xm.jpg",
       "background": "https://image.tmdb.org/t/p/w780/97MBKEskobZSHT0f0wzZVRYd2fg.jpg",
       "description": "Le récit du 11 septembre à travers les yeux des survivants qui ont vécu des moments de vie ou de mort avec des inconnus ce jour-là et qui souhaitent maintenant les revoir.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:323557",
+      "type": "series",
+      "name": "Lion",
+      "poster": "https://image.tmdb.org/t/p/w500/mvFQIZo2DG1pyiINL2bDa5QNR4O.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xc5PQ22igs1F3OyJ1vXVTZW6793.jpg",
+      "description": "Fruit de quatre ans de tournage, cette série documentaire ambitieuse retrace l'extraordinaire histoire vraie de Kio, un lionceau au destin de roi. Confronté au deuil, à l'exil et à de féroces rivaux, il doit surmonter d'incroyables défis dans une lutte acharnée pour survivre et trouver sa place au cœur du monde sauvage.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:330654",
+      "type": "series",
+      "name": "Somebody Knows Something",
+      "poster": "https://image.tmdb.org/t/p/w500/txKajhjNqHdgHziBY8q9w2RXzca.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dUSdxz3Mpl21pgiAkx2kKnSz9QW.jpg",
+      "description": "Suivez Kara Chamberlain, influenceuse spécialisée dans les affaires criminelles, dans ses enquêtes sur des meurtres non résolus et des disparitions qui ont déconcerté les forces de l'ordre et hanté les internautes pendant des décennies.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:331999",
+      "type": "series",
+      "name": "Disney Sidekick Adventures",
+      "poster": "https://image.tmdb.org/t/p/w500/lK5e3Pb99pXJzFYxB7RZ3WicilF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2ngXheHci8iHw1ypPntr8uETVom.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -45,137 +170,12 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:277640",
+      "id": "tmdb:324434",
       "type": "series",
-      "name": "Pompéi : Tom Hiddleston remonte le temps",
-      "poster": "https://image.tmdb.org/t/p/w500/jeH0LZnA5QAKnxzSkpUDqoOvFEJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pSFJys8tIv7mll6Fv1LqMbrWxLt.jpg",
-      "description": "Tom Hiddleston revient sur les dernières heures de la ville dans une nouvelle série documentaire. La star de Loki Tom Hiddleston et le producteur délégué Kevin R. Wright sont réunis dans cette série documentaire inédite qui fusionne images reconstitiuées et investigations et qui transportera les spectateurs dans les dernières heures de l’ancienne cité Romaine peu avant l’éruption historique du Vésuve.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:300954",
-      "type": "series",
-      "name": "The Husband",
-      "poster": "https://image.tmdb.org/t/p/w500/tC7y1Ut98xH8Ovs1KhxRPMkwEmN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lfTUwBiSyCVcvBPAMzSOYGUgr2c.jpg",
-      "description": "Le mariage de Taeju et Seyun est au bord du gouffre. Quand Taeju, ivre, fait une remarque de trop, sa femme est enlevée et tout bascule. Devenu le principal suspect dans l'affaire, Taeju doit non seulement échapper à la police, mais aussi secourir seul sa femme. Pour la sauver, il va tout risquer.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:318203",
-      "type": "series",
-      "name": "Alice et Steve",
-      "poster": "https://image.tmdb.org/t/p/w500/90StjTgxw3TS3GxPn1VYmQmclqt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1mN5cydNUFqd7MHfOwhcHZzLnvT.jpg",
-      "description": "Alice est dévastée quand son meilleur ami Steve fréquente sa fille de 26 ans, Izzy. Elle va perdre son meilleur ami et sa fille d'un coup. Elle décide d'utiliser tous les outils dont elle dispose pour mettre fin à leur relation: des menaces, en passant par la supplication, en allant jusqu'au sabotage de carrière. Malheureusement pour elle, Steve est plus que prêt à l'attaque, et ce qui semblait être une amitié parfaite devient un combat sans fin. Finalement, le mari d'Alice, Daniel, perd patience. Cette situation a fait ressortir les mauvais côtés d'Alice qui lui font peur. Steve sait qu'Izzy est la meilleure chose qui puisse lui arriver et veut tenter sa chance. Mais Alice n'est pas de cet avis.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:323039",
-      "type": "series",
-      "name": "Les plus belles destinations avec Antoni Porowski",
-      "poster": "https://image.tmdb.org/t/p/w500/c75V0bZ6iu17ypYYPgDwVICBTUj.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qskzSwDM0e5d8ZAK0MvTNwh2fg7.jpg",
-      "description": "Il explore Paris, Mexico, Londres et New York en quête d'expériences authentiques et inoubliables. Des monuments emblématiques aux trésors cachés, il dévoile ses bons plans et part à la rencontre de la culture et des habitants qui font l'âme de chaque ville.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:324562",
-      "type": "series",
-      "name": "Squatters: Get the F*** Out of My House",
-      "poster": "https://image.tmdb.org/t/p/w500/yIhz2K69CdyyP5gxskI2L7AQW89.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gZV3R6jYdt6hHTZmtxTEs1SFIqz.jpg",
-      "description": "Des squatteurs aguerris exploitent les failles du système pour vivre sans payer de loyer. Partout en Amérique, des propriétaires se battent en vain pour les expulser. Escrocs, extrémistes... ces manipulateurs instrumentalisent la loi et brisent des vies.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:284725",
-      "type": "series",
-      "name": "Not Suitable for Work",
-      "poster": "https://image.tmdb.org/t/p/w500/gauhh2Gj0YaZKFR0XLrnRRKpjJE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nApVs1jPXXXBc7Ge2PnaFpBfCVW.jpg",
-      "description": "Cinq jeunes d'une vingtaine d'années obsédés par le travail se démènent pour réussir professionnellement et, s'ils en ont le temps, de trouver leur bonheur dans le quartier le plus glamour de Manhattan, Murray Hill.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:287009",
-      "type": "series",
-      "name": "Doctor on the Edge",
-      "poster": "https://image.tmdb.org/t/p/w500/gBMouxOXSMyV7FIroOh9pfaB2JA.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7KpvkMnbRsyrAlnrZpbnEWC42AE.jpg",
-      "description": "Do Jiui, chirurgien plasticien, est promis à un brillant avenir, lorsqu'une affectation comme médecin de santé publique sur l'île isolée de Pyeondongdo vient bouleverser sa vie. Pour Jiui, cet endroit perdu au milieu de l'océan est plus qu'un simple exil. Hanté par un traumatisme, la mer est pour lui une source de terreur, une prison à ciel ouvert. Entre les habitants indiscrets et les insectes qui l'assaillent de toutes parts, la vie sur l'île est un véritable enfer pour ce citadin. C'est là qu'il rencontre l'infirmière mystérieuse, Yuk Hari. Derrière un doux sourire lourd de secrets, elle semble toujours là lorsque la phobie de Jiui refait surface. Alors que leurs chemins ne cessent de se croiser, Jiui parviendra-t-il à surmonter ses peurs et à quitter l'île ?",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:324050",
-      "type": "series",
-      "name": "Abandoned",
-      "poster": "https://image.tmdb.org/t/p/w500/u5it96IIWGZjOFDUGbheeFmLAR9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rlLzYgizkllGzjVrj1DQv7QmtQQ.jpg",
-      "description": "Trois frères et sœur, âgés de deux, quatre et six ans, sont retrouvés abandonnés dans une gare de Barcelone le 22 avril 1984. Ils s'appellent Ramón, Ricard et Elvira. Ils n'ont aucun papier d'identité sur eux. Parlant français, ils ne se souviennent que d'une chose : ils viennent de Paris. Ils ignorent le nom de leurs parents et où ils se trouvent. Dès lors, une question les hante : Qui sont-ils ? Souffrant d'une perte de mémoire presque totale, ils devront la retrouver afin d'élucider ce mystère. Ils pourront compter sur l'aide de plusieurs volontaires, réunis via les réseaux sociaux, qui vont étudier des cartes, des photos et des arbres généalogiques pour relier les indices et aboutir à une piste concrète. L'aventure sera aussi palpitante que compliquée, et poursuivra un objectif unique : retrouver leurs parents et comprendre la raison de leur abandon. Y parviendront-ils?",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:321960",
-      "type": "series",
-      "name": "The Nightmare Upstairs: What Happened to Ty and Bryn?",
-      "poster": "https://image.tmdb.org/t/p/w500/ijUqXJ8SpOyZo3BvfXqooHyQb7S.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7RbMokpQPPIXQbZuBlHxjYLWoL8.jpg",
-      "description": "Dans l'Utah, des accusations de maltraitance déchirent une famille et déclenchent une bataille pour la garde. Quand la justice ordonne leur retour chez leur père, Ty et Bryn se barricadent dans une chambre pendant 54 jours. En direct sur Internet, ils diffusent leur protestation et transforment leur crise en un règlement de comptes viral.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:278113",
-      "type": "series",
-      "name": "Gold Land",
-      "poster": "https://image.tmdb.org/t/p/w500/exAqL4Hbh2M712QlFwGDTqZeiAl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/AoJgqEYpxRWd58gNQKNwYlPUFeZ.jpg",
-      "description": "Une jeune femme travaillant comme agent de sécurité dans un aéroport se retrouve accidentellement en possession des lingots d'or d'un réseau de contrebande. Prise dans un tourbillon chaotique de cupidité et de trahison entre les différentes parties qui se disputent l'or, elle est consumée par le désir de s'approprier tout l'or.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:320579",
-      "type": "series",
-      "name": "The Cult of NatureBoy",
-      "poster": "https://image.tmdb.org/t/p/w500/9I5vN4vTEA8NWjr9J6iVrFnqo99.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ASdd0p2M0gcbroQP1n08Pha53t.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:279471",
-      "type": "series",
-      "name": "Malcolm : Rien n’a changé",
-      "poster": "https://image.tmdb.org/t/p/w500/2AjzqV565NWhiyjsorSu7s9bLsD.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uekZzyLReK777QKO9xKwiPOelCQ.jpg",
-      "description": "Vingt ans plus tard, Malcolm et sa famille n'ont toujours rien appris.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:278573",
-      "type": "series",
-      "name": "Perfect Crown",
-      "poster": "https://image.tmdb.org/t/p/w500/z6on6DbEKpE9gOr8lvjj3xebGtd.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6ekykPwvAywJRjFEnUoCFWTO9O3.jpg",
-      "description": "Bienvenue en Corée du Sud, dans une monarchie constitutionnelle du 21e siècle où se mêlent tradition et modernité, et où le glamour masque une hiérarchie bien ancrée dans la société. Seong Hui-ju, cadette d'une riche famille et PDG talentueuse, a tout pour elle. Mais son statut de roturière lui vaut le mépris de l'élite. Lassée de la pression exercée par sa famille pour qu'elle se marie, Hui-ju prend son avenir en main. Après avoir rencontré le grand-prince Ian au banquet du roi, elle lui propose un mariage de convenance. Elle a tout, sauf un titre, et lui n'a justement que son titre. Ce couple du siècle parviendra-t-il à briser les barrières sociales pour forger son propre destin ?",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:287527",
-      "type": "series",
-      "name": "The Testaments",
-      "poster": "https://image.tmdb.org/t/p/w500/b18QpJ7WiELr1HNxuDaLyv2LH8R.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uCndE341njionskk1pK9SbHqwZh.jpg",
-      "description": "Une nouvelle génération de jeunes femmes à Gilead est aux prises avec l’avenir sombre qui les attend. Pour ces jeunes femmes, grandir à Gilead est tout ce qu’elles ont jamais connu, n’ayant aucun souvenir tangible du monde extérieur avant leur endoctrinement dans cette vie. Confrontés à la perspective d’être mariées et de vivre une vie de servitude, elles seront forcées de chercher des alliés, nouveaux et anciens, pour les aider dans leur lutte pour la liberté et la vie qu’elles méritent.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:313721",
-      "type": "series",
-      "name": "Dear Killer Nannies: Criado por sicarios",
-      "poster": "https://image.tmdb.org/t/p/w500/rNjB5TBYUBOxXR2GjR02uukSwBw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xvxSV4J28kgFaDMbaDnmAlV2YmB.jpg",
-      "description": "Juan Pablo, le fils de Pablo Escobar, a une enfance atypique, entouré de tueurs à gages qui lui servent de nounous. Il idéalise son père, le considérant comme un bienfaiteur, mais en grandissant, il découvre que son père est en réalité un criminel.",
+      "name": "Soy Luna, de retour sur la piste",
+      "poster": "https://image.tmdb.org/t/p/w500/3gzwiyE7jHHvjWS8WBEqztCqxD9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bATlRn3qaRgx49C6DkPCe8poU02.jpg",
+      "description": "De retour au Jam & Roller après un accident qui l'a tenue éloignée de la piste, Luna peine à rechausser les patins. D'autant plus qu'un mystérieux ennemi est prêt à tout pour lui nuire. Côté cœur, son dilemme est total : lequel de ses anciens amours choisir ? Entre chansons, aventures et retrouvailles, Luna devra surmonter bien des obstacles pour accomplir son rêve.",
       "releaseInfo": "2026"
     }
   ]

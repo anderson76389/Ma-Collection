@@ -5,7 +5,7 @@
       "type": "movie",
       "name": "Masterplan",
       "poster": "https://image.tmdb.org/t/p/w500/a13BTR3jJWr2ARoLvTC3f5gQhfw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dgUDj84BWtW6EZzee8BkgKnjDhh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fAlQZsCOCvxOj0PmFmt4i8IWR2u.jpg",
       "description": "Quand un voleur légendaire jette son dévolu sur La Joconde, il recrute deux jeunes inconnus pour l'aider (Chiara, une experte italienne du cybercrime et Jay, un spécialiste français des explosifs) avant de leur révéler qu'il est leur père. Au milieu de retrouvailles chaotiques, cette nouvelle famille devra apprendre à collaborer et éviter de s'entretuer si elle veut réussir le casse du siècle.",
       "releaseInfo": "2026"
     },
@@ -14,8 +14,17 @@
       "type": "movie",
       "name": "Street Fighter",
       "poster": "https://image.tmdb.org/t/p/w500/k53HHxQ4rQG0dME6nsofii3QNS7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5H5YphHsQmkQhrw13Wv1whCZKtN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qRN8eqYwG6HPSy0i3fKzuLrUOhp.jpg",
       "description": "En 1993, Ryu et Ken Masters, deux Street Fighters autrefois inséparables, sont replongés dans l’arène lorsque la mystérieuse Chun-Li les recrute pour le prochain World Warrior Tournament : un affrontement brutal où se mêlent poings, destin et fureur. Mais derrière cette battle royale se cache une conspiration mortelle qui les oblige à s’affronter, tout en faisant face aux démons de leur passé… Et s’ils échouent, c’est GAME OVER.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1236045",
+      "type": "movie",
+      "name": "Animals",
+      "poster": "https://image.tmdb.org/t/p/w500/33MhDOKB0S5VwuaD9lZyV0v0st0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tzoarEu7TsG959upiELyYPm5kO9.jpg",
+      "description": "Quand leur fils est enlevé, un candidat à la mairie de Los Angeles et sa femme s'efforcent de réunir l'argent de la rançon et font des choix qui pourraient bouleverser leur vie.",
       "releaseInfo": "2026"
     },
     {
@@ -25,6 +34,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/vSgnJDw404JUokiy5NDZgXOi01E.jpg",
       "background": "https://image.tmdb.org/t/p/w780/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg",
       "description": "Des amis d'enfance reprennent contact et les retrouvailles prennent une tournure inattendue quand ils découvrent un dangereux complot international et doivent sauver le monde.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1437396",
+      "type": "movie",
+      "name": "Your Mother Your Mother Your Mother",
+      "poster": "https://image.tmdb.org/t/p/w500/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jiFLiatBtBALlAzV5R72gzspBad.jpg",
+      "description": "Latif, un tueur à gages profondément religieux, a du mal à équilibrer travail, foi et paternité. Lorsque sa femme décède, il se lance dans un voyage désespéré à travers Houston pour protéger ses enfants, affrontant les forces qui se rapprochent de lui – et les croyances qui menacent de s'effondrer à l'intérieur.",
       "releaseInfo": "2026"
     },
     {
@@ -59,7 +77,7 @@
       "type": "movie",
       "name": "Run Hide Fight: Infidels",
       "poster": "https://image.tmdb.org/t/p/w500/gkVq1Pd46NF7AP5XQZfRHjQfCXX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5LINHN9KrzfYZxogKlTCcvR1Gki.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xSrMnN6IBmNgQqAbECRPZO8Ielv.jpg",
       "description": "Après que des terroristes islamistes ont pris d'assaut un campement pro-palestinien installé sur le campus d'une université dans le but d'imposer la charia aux étudiants et d'exécuter les dissidents qu'ils considèrent comme des « infidèles », un groupe d'étudiants, un agent de sécurité et un ancien membre de la Delta Force s'allient pour riposter.",
       "releaseInfo": "2026"
     },
@@ -85,7 +103,7 @@
       "type": "movie",
       "name": "The Uprising",
       "poster": "https://image.tmdb.org/t/p/w500/ymUS8HTc7ctfdSYC6bmEokSKisa.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/y0reRTsewsPh0ePtgvDeLIsb5Wk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kAlAFblqBI6aGXItR4DRpT5Tozg.jpg",
       "description": "Lors de la révolte des paysans anglais de 1381, l'humble Wat Tyler s'élève à la tête de la résistance contre le jeune roi Richard II. À la tête d'une armée de citoyens ordinaires, il affronte les troupes de la Couronne dans une lutte pour la justice et la survie. Ses actions font de lui un symbole légendaire de la résistance.",
       "releaseInfo": "2026"
     },
@@ -130,7 +148,7 @@
       "type": "movie",
       "name": "Onslaught",
       "poster": "https://image.tmdb.org/t/p/w500/92SC3guG88KQmZ8GQBKNIxz5OrB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/clePZhqOSzNyjfuFBpOrziLEFzb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
       "description": "Lorsqu’une escouade de supersoldats génétiquement modifiés s’évade dans le désert, une redoutable tireuse d’élite de l’armée doit livrer une guerre sans merci pour sauver sa fille.",
       "releaseInfo": "2026"
     },
@@ -139,7 +157,7 @@
       "type": "movie",
       "name": "Zip Wire",
       "poster": "https://image.tmdb.org/t/p/w500/cO7J0XSVKPlAjUCMWC7DVBn1Py2.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/sbkkAtymJaH5UzExiK974uPzCY4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yIwdIsM2Nr6EaiWy23mQqxvmoNh.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -158,24 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/42egzT6e4CIEdrEo4Xc31DKyGjA.jpg",
       "background": "https://image.tmdb.org/t/p/w780/mATo9RWAc7IWGVbetpmmKJqWDiJ.jpg",
       "description": "Dans une société gouvernée par une IA sensible, un détective privé enquêtant sur un meurtre tombe sur un groupe rebelle capable d'ébranler le chef numérique.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1288445",
-      "type": "movie",
-      "name": "Mutiny",
-      "poster": "https://image.tmdb.org/t/p/w500/rfRLWbxLZPq2eboKPsBvh1NgNwM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/e2QAGrEmbpmZpMymDRkDisJkvg9.jpg",
-      "description": "Cole Reed, ancien agent des forces spéciales reconverti en chef de sécurité, est accusé à tort du meurtre de son patron. Remontant le fil de la machination dont il est victime, il se retrouve piégé à bord d’un porte-conteneurs dont l’équipage est composé de mercenaires. En haute mer, Reed ne pourra compter sur aucune aide…",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1323244",
-      "type": "movie",
-      "name": "Rage of Stars",
-      "poster": "https://image.tmdb.org/t/p/w500/oLld47ZT1I3iecM3OWhIphohQUJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/z7lZgL5tzefTfhyRtouThFhsuUS.jpg",
-      "description": "L'histoire d'une femme membre des forces spéciales internationales, qui a une prémonition de la fin imminente de l'humanité.",
       "releaseInfo": "2026"
     }
   ]

@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1400940",
+      "type": "movie",
+      "name": "Clayface",
+      "poster": "https://image.tmdb.org/t/p/w500/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg",
+      "description": "L'ascension fulgurante de Matt Hagen, de gamin des rues de Gotham à star hollywoodienne, est brutalement interrompue lorsqu'un baron du crime le laisse atrocement défiguré. Abandonné de tous et n'ayant plus rien à perdre, Matt se tourne vers un traitement expérimental qui lui rend miraculeusement son apparence... mais altère profondément sa perception de la réalité. Il sombre alors dans une spirale destructrice, consumé par un irrépressible désir de vengeance.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1423191",
       "type": "movie",
       "name": "Resident Evil",
@@ -70,15 +79,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/6OEtkkzoyusZDm2uMJojlWZSLR9.jpg",
       "background": "https://image.tmdb.org/t/p/w780/r08LxMJCbf1SiJIWeyH9aJmdqwC.jpg",
       "description": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttant contre le crime dans un New York qui ne le reconnaît plus, il se consacre entièrement à la protection de la ville - un Spider-Man à plein temps - mais à mesure que les responsabilités s'intensifient, la pression provoque une transformation physique surprenante qui menace son existence, tandis qu'une étrange nouvelle vague de crimes donne naissance à l'une des menaces les plus redoutables qu'il ait jamais affrontées.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1469342",
-      "type": "movie",
-      "name": "Her Private Hell",
-      "poster": "https://image.tmdb.org/t/p/w500/xFVviOiV7UFYaXucUJdlLw30gyt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hS4FcOM5y71FurkBQgDLTBxmWZh.jpg",
-      "description": "Tandis qu'une étrange brume engloutit une métropole futuriste et libère une présence mortelle insaisissable, une jeune femme troublée part à la recherche de son père. Au cours de cette quête, son destin croise celui d'un GI américain engagé dans un voyage désespéré pour arracher sa fille de l'enfer.",
       "releaseInfo": "2026"
     },
     {

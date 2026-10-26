@@ -1,12 +1,91 @@
 {
   "metas": [
     {
+      "id": "tmdb:1781653",
+      "type": "movie",
+      "name": "Jamie Foxx : Prends soin de toi",
+      "poster": "https://image.tmdb.org/t/p/w500/lVMY9gUcGpYozb4WVEJTNuUG2fN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9dP8mdJrdvvYLDNw75ioarb2SlZ.jpg",
+      "description": "Jamie Foxx livre une comédie honnête sur les soins personnels dans « Take Care of Yourself ». Il se joint à la formation « Hularious » avec Hannah Berner, Ralph Barbosa, Bill Burr, Chris Distefano, Jim Gaffigan, Zarna Garg, Nikki Glaser, Ilana Glazer et d'autres.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1788735",
+      "type": "movie",
+      "name": "Family Guy Happy Hell-o-ween",
+      "poster": "https://image.tmdb.org/t/p/w500/4IuQIUgqyLpbD7R7zmPp9A08rsQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/i5XAKlLzmbGsBtr8T3vyGZHkanT.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1750432",
+      "type": "movie",
+      "name": "Spidey et les Avengers : Halloween en équipe !",
+      "poster": "https://image.tmdb.org/t/p/w500/hPucpn2pmszkcqRVHmrlUYK0PtG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aIiCdNCo889J2QaaOd8TXaGXoO2.jpg",
+      "description": "Les projets d'Halloween de Spidey et des Avengers sont chamboulés par la mystérieuse Hallows' Eve. Elle s'amuse à jouer des tours aux enfants partis à la chasse aux bonbons et compte bien gâcher la fête pour toujours.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1770842",
+      "type": "movie",
+      "name": "Max vs 100",
+      "poster": "https://image.tmdb.org/t/p/w500/mHbOZIrkSkoxpKLGfk1577GjRPb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7PLe3tUKYxm8HlnME3LQbF8Wab4.jpg",
+      "description": "Max Verstappen part en chasse. Sur le circuit de Silverstone, 100 célébrités, créateurs, athlètes et artistes du monde entier s'affrontent dans une course de karting exceptionnelle. Leur mission : tenir soixante minutes devant le quadruple champion du monde de F1. Max part bon dernier et chaque pilote qu'il double est éliminé. Mais c'est une course comme vous ne l'avez jamais entendue : Max et ses rivaux sont équipés de micros, ce qui vous permettra de vivre leurs réactions, rivalités et conversations en direct du volant pendant la traque. Présenté par Mo Gilligan, ce mélange détonant, drôle et imprévisible allie sport automobile de haut niveau et divertissement. De 100, ils ne seront bientôt plus que 50, 10, 3, puis 1… Une seule question demeure : y aura-t-il un survivant ?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1731694",
+      "type": "movie",
+      "name": "LEGO Star Wars : The Mandalorian",
+      "poster": "https://image.tmdb.org/t/p/w500/x3HEvYXWOW6WHqsHmg2MUVy3SLm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/upecGaCuQOIbSpdz85mrJ395UMg.jpg",
+      "description": "Le Mandalorien et Grogu retrouvent leurs alliés improbables lors d’une fête épique pour célébrer leur héroïsme. Alors que leurs amis racontent leurs aventures à un public enthousiaste, une attaque de pirates menace.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1550338",
+      "type": "movie",
+      "name": "Öngörü",
+      "poster": "https://image.tmdb.org/t/p/w500/8JDJWhPU2rfTal8xkESkxnZb5q0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1lN0J2L4j0U2gtwZtfjET5tYbtc.jpg",
+      "description": "Selen a le don de voir l'avenir dans ses rêves. Après des années à changer le destin d'inconnus, elle rêve de sa propre mort aux côtés d'un homme qui essaie de la sauver. Lorsqu'elle rencontre Kemal, l'homme de sa vision, destin et romance s'entremêlent. Partagée entre la peur et le désir, Selen s'embarque dans une aventure où l'amour et le danger sont indissociables. L'éveil de ses sentiments pourrait bien lui révéler la réponse qu'elle cherche.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1732625",
+      "type": "movie",
+      "name": "LEGO Disney Princesses : Pagaille au Château",
+      "poster": "https://image.tmdb.org/t/p/w500/9dTghWbaGZuh9dZKr96OdSu9S06.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kBrBcgdite6vpa6VkYEcjZuof7z.jpg",
+      "description": "Lors d'une violente averse, les princesses et leurs fidèles compagnons recueillent des animaux en détresse tout en profitant d'une journée douillette au château. Mais lorsque les animaux sèment la pagaille, c'est le chaos total. Une enquête révèle qu'un méchant farceur est à l'origine de ce désordre ; grâce au travail d'équipe, à leur vivacité d'esprit et à l'aide d'un ami inattendu, les princesses devront rétablir l'ordre et sauver leur foyer.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1750855",
+      "type": "movie",
+      "name": "Disney Princess: The Ultimate Concert Celebration",
+      "poster": "https://image.tmdb.org/t/p/w500/2YyWdtnpbJRmvSvBHttJlTEAWTy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/auP3rYRZDEkCpxzUMztdrmytWMg.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1493400",
       "type": "movie",
       "name": "Camp Rock 3",
       "poster": "https://image.tmdb.org/t/p/w500/9oKGprrXuvXb4wsIyzoQV9czgn3.jpg",
       "background": "https://image.tmdb.org/t/p/w780/vJb3fniB8E0JnSMr1tDyIsb6gPi.jpg",
       "description": "Le groupe Connect 3 perd sa première partie pour une tournée de concerts très attendue. Le groupe retourne alors à son cher Camp Rock pour y dénicher la prochaine grande révélation musicale. Alors que les campeurs rivalisent pour avoir la chance d’ouvrir pour leur groupe préféré, les tensions montent, les amitiés sont mises à l’épreuve, et des alliances, des révélations et des romances inattendues se forment.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1307118",
+      "type": "movie",
+      "name": "Soulm8te",
+      "poster": "https://image.tmdb.org/t/p/w500/nIkAHDzo9kbG3kDmDckqywo6CE9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7t6f6VxA2ZXbbZSVctgt7bZG2DI.jpg",
+      "description": "Un homme acquiert un androïde à intelligence artificielle pour faire face à la perte de sa femme. En essayant de créer un partenaire vraiment sensible, il transforme un \"lovebot\" inoffensif en une compagne dangereuse.",
       "releaseInfo": "2026"
     },
     {
@@ -91,87 +170,6 @@
       "name": "Hannah Berner: None of My Business",
       "poster": "https://image.tmdb.org/t/p/w500/s06sbzsQd7WDxDUJC1ZVSWqGhml.jpg",
       "background": "https://image.tmdb.org/t/p/w780/lEf2iA8635KtQsQHMMtuXKbXTFy.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1680516",
-      "type": "movie",
-      "name": "WHO",
-      "poster": "https://image.tmdb.org/t/p/w500/rO9L4pXE0ykAKGHOTPNGXcvh450.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/85sDwuKIqyRGQeG6E4OK0WKzMse.jpg",
-      "description": "Neuf criminels, chacun unique en son genre, découvrent que l’un d’eux a été arrêté. Une seule explication : le traître est autour de leur table. Leur pacte ne tient plus qu’à un fil. Ils doivent démasquer la balance avant qu’elle ne les fasse tous tomber les uns après les autres. Mais le plus dangereux n’est pas toujours celui qu’on regarde.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1665429",
-      "type": "movie",
-      "name": "Lisa Ann Walter : c'était un accident",
-      "poster": "https://image.tmdb.org/t/p/w500/4dtbgdKcKW6ahoKK3fn978TKFKY.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/sMsLqebfOk7hsEnyBER2qqfsAXR.jpg",
-      "description": "Dans son premier spectacle très attendu, Lisa Ann Walter aborde la génération X déchaînée, l'autodépréciation et une Amérique qui retourne en arrière. Un regard sans filtre porté par une femme qui s'assume et qui analyse la situation.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1439930",
-      "type": "movie",
-      "name": "The Punisher : One Last Kill",
-      "poster": "https://image.tmdb.org/t/p/w500/74VbBYHmpjgeES1zkRo1DwHkWnE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qO55CD8tgVL1T4WKn6zYFFiD6lL.jpg",
-      "description": "Alors que Frank Castle cherche un sens à sa vie au-delà de la vengeance, il replonge contre toute attente au cœur du combat.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1688652",
-      "type": "movie",
-      "name": "Gary",
-      "poster": "https://image.tmdb.org/t/p/w500/jtMuKwlOl4IzpB5fWn9RT9uyy6E.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dzoqvi7eiPGODZO0CsXRLPfmVAE.jpg",
-      "description": "Deux amis partent en voyage d'affaires, mais leur mission est semée d'embûches. En résolvant les problèmes et en tissant des liens avec les habitants, ils vivent une expérience qui les marque à jamais et jette un nouvel éclairage sur leur amitié.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1567151",
-      "type": "movie",
-      "name": "Nikki Glaser: Good Girl",
-      "poster": "https://image.tmdb.org/t/p/w500/aKPxBMJo1o3NNDetVDkvExbRlMC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/25iLBMo40R9J6hi5UcXNjXgagjY.jpg",
-      "description": "Considérée comme l'une des voix les plus intrépides de l'humour, Nikki Glaser livre un spectacle d'une honnêteté brutale. Elle y aborde la vieillesse, la beauté et la célébrité, et se demande ce que signifie rester au goût du jour, désirable et authentique dans une culture qui ne détourne jamais le regard.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1115544",
-      "type": "movie",
-      "name": "Mike & Nick & Nick & Alice",
-      "poster": "https://image.tmdb.org/t/p/w500/fmimhXqKUmpwaOrYS2TAcEWvcMv.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uNToXatdunyvWXyXMrTI1nLvh6r.jpg",
-      "description": "Deux gangsters et la femme qu'ils aiment tentent de survivre à la nuit la plus dangereuse de leur vie. Comme si cela ne suffisait pas, un élément imprévisible vient s'ajouter à l'équation : une machine à remonter le temps.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1493859",
-      "type": "movie",
-      "name": "Mission Pizza",
-      "poster": "https://image.tmdb.org/t/p/w500/1xNCKksGotlqxGoBWaB22mi7LVK.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/75UkXLlLedidOGo0VogF0A0NPfC.jpg",
-      "description": "Des étudiants descendent récupérer une pizza à l'entrée de leur résidence. Seul problème : ils sont dans un état second après avoir pris une drogue artisanale, et descendre deux étages se transforme en une quête aussi hallucinante que transformatrice.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1107166",
-      "type": "movie",
-      "name": "Psycho Killer",
-      "poster": "https://image.tmdb.org/t/p/w500/5xgxxmLivJXL8aF0HdZfpx8aAIo.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gOcgmSwbCFW7h1rmEqMvYPzvjh7.jpg",
-      "description": "A la suite du meurtre de son époux, la policière, Jane Thorne, souhaite mettre la main sur un tueur en série surnommé le \" Satanic Slasher \".",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1531626",
-      "type": "movie",
-      "name": "Descendants/ZOMBIES Worlds Collide: Concert Special",
-      "poster": "https://image.tmdb.org/t/p/w500/vefCUPSb97xXvFJvk2WSus59PZe.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qpcYemGVHcYaMrvAjkOUkWPfrtF.jpg",
-      "description": "Célébrant la musique entraînante des franchises cultes Descendants et ZOMBIES, la tournée Descendants/ZOMBIES Worlds Collide a enflammé les salles combles de plus de 40 salles en Amérique du Nord l'été dernier. Désormais, familles et fans de tous âges peuvent revivre ces moments forts en chantant et en dansant avec leurs stars préférées, confortablement installés chez eux.",
       "releaseInfo": "2026"
     }
   ]

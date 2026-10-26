@@ -1,6 +1,33 @@
 {
   "metas": [
     {
+      "id": "tmdb:1195803",
+      "type": "movie",
+      "name": "Wicker",
+      "poster": "https://image.tmdb.org/t/p/w500/fjoHeK9kmoN46dUPGVpZA5rD27g.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg",
+      "description": "Mise au ban de son village, une pêcheuse solitaire commande au vannier local un mari en osier. Cet époux improbable se révèle doté d’une sensibilité et de talents qui dépassent toutes ses attentes. À son contact, elle découvre un désir insoupçonné et, peu à peu, s’éprend véritablement de lui. Mais bientôt, son étrange mari attise les convoitises, la jalousie et les fantasmes des villageois, faisant vaciller les certitudes d’une communauté jusque-là bien ordonnée.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:858035",
+      "type": "movie",
+      "name": "Klara et le Soleil",
+      "poster": "https://image.tmdb.org/t/p/w500/zJZ1ii7XPAJkdBWKIQN2fyyz5cQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg",
+      "description": "Lorsque Klara rencontre Josie, chacune perçoit immédiatement chez l'autre une âme soeur. Josie entretient une relation compliquée avec sa mère et toutes deux ont traversé de lourdes épreuves. Mais l'émerveillement sincère de Klara et sa loyauté sans faille commencent peu à peu à apaiser les blessures de cette famille et à apporter de la lumière dans l'univers complexe de Josie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:791523",
+      "type": "movie",
+      "name": "Wildwood : La prophétie de la forêt",
+      "poster": "https://image.tmdb.org/t/p/w500/shb3OmIQACcqhRvIcXuba26cP0l.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
+      "description": "Prue, une jeune fille courageuse, part à la recherche de son petit frère, enlevé et retenu dans la forêt interdite peuplée de créatures enchantées, d’alliés inattendus et d’adversaires redoutables. Ce qui débute comme une quête intime se transforme rapidement en une aventure spectaculaire aux enjeux colossaux, et c’est le destin de tout un monde caché qui dépend désormais de ses choix.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1255833",
       "type": "movie",
       "name": "Englouti",
@@ -23,7 +50,7 @@
       "type": "movie",
       "name": "Verity",
       "poster": "https://image.tmdb.org/t/p/w500/zLCjFOyjvKqYdkQYYAyTtfJ5mpk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3BoHXmGAfC2qO4wnCpMYV0BzpHD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9qxyrJfjk577ym5WD6HCDmunoyO.jpg",
       "description": "Lorsqu’un accident affecte les capacités de l’autrice de bestsellers, Verity Crawford, à achever son œuvre, une écrivaine solitaire, Lowen Ashleigh, qui peine à joindre les deux bouts est engagée pour lui prêter sa plume. En résidence dans la propriété reculée de la romancière, elle fait la découverte d’un manuscrit autobiographique glaçant et peine à démêler ce qui relève de la fiction ou de la réalité…",
       "releaseInfo": "2026"
     },
@@ -41,7 +68,7 @@
       "type": "movie",
       "name": "Raison et Sentiments",
       "poster": "https://image.tmdb.org/t/p/w500/9XNEI2AYgQIIqXper5kOdGTnyf5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nkINWVL8x1KwdpO0dUbYhS3Y1iP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nrLVr8C2pkbOGwXKay2xrxvlHmh.jpg",
       "description": "Une irrésistible nouvelle version du roman culte de Jane Austin, Raison et Sentiments, qui suit deux sœurs à travers leurs amours, leurs chagrins et le lien qui les unit d'une façon magistrale et profondément proche de nous.",
       "releaseInfo": "2026"
     },
@@ -67,7 +94,7 @@
       "type": "movie",
       "name": "Bad Apples",
       "poster": "https://image.tmdb.org/t/p/w500/ajTzOrqqHl65ZBQfrW1ytzrn9Gl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/A5sGEzVMjvbgh5ZniaHBXAxppKQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dNCK3daKbOi6IHSsM9O2Nwyd91Y.jpg",
       "description": "Une enseignante enferme par inadvertance son élève le plus indiscipliné chez elle. Tentant d'arranger les choses, elle hésite lorsque sa classe commence à s'épanouir en l'absence de l'enfant, lui posant un dilemme impossible.",
       "releaseInfo": "2026"
     },
@@ -103,7 +130,7 @@
       "type": "movie",
       "name": "The Dog Stars",
       "poster": "https://image.tmdb.org/t/p/w500/w7c49Qgp3TAUC4hlo0mtgRpLOGG.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/quAHqi4zBrB5fIfHvgrqiG4xzAC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yhCHnkidQdR3lksbdyFxduRXFPK.jpg",
       "description": "Dans un futur proche où une pandémie sans nom a décimé la société américaine, Hig, un pilote vit sur une base aérienne abandonnée du Colorado avec son chien et un ex-marine. Lorsqu'une transmission aléatoire passe par la radio de son Cessna 1956, la voix fait naître au plus profond du pilote l'espoir qu'une vie meilleure existe en dehors de leur périmètre étroitement contrôlé...",
       "releaseInfo": "2026"
     },
@@ -138,8 +165,8 @@
       "id": "tmdb:1279493",
       "type": "movie",
       "name": "The Get Out",
-      "poster": "https://image.tmdb.org/t/p/w500/zlkeH0s7dDxcnuPcHBqAyXFUxqN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mDVnHFcxxUJC9TQFVeKh1TJNBzh.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/qE7W89wgJOrUog2fdBrHWrUJHVw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9Bv4Oki9u3aKZxDCNDcU4N2mttb.jpg",
       "description": "Après avoir été mystérieusement plumé par deux amants hors-la-loi et complètement fous, un propriétaire de boîte de nuit vieillissant mais impitoyable doit trouver un moyen d'échapper aux cartels pour lesquels sa petite amie et lui blanchissaient de l'argent.",
       "releaseInfo": "2026"
     },
@@ -150,32 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/gWVO8FmD9onEYYsZU1LMJgRNTbm.jpg",
       "background": "https://image.tmdb.org/t/p/w780/wQOhbCP6H8bO5ddlXDZT207orew.jpg",
       "description": "L'amour entre Nick et Noah est soumis à rude épreuve quand Noah part à l'université d'Oxford tandis que Nick reste à Londres pour travailler dans l'entreprise de son père. Loin l'un de l'autre, ils sont confrontés à des pressions croissantes. La jalousie, l'ambition et d'autres forces cherchent à les séparer. Ils risqueront tout pour prouver que leur relation peut survivre envers et contre tout.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1020047",
-      "type": "movie",
-      "name": "In the Hand of Dante",
-      "poster": "https://image.tmdb.org/t/p/w500/lvp4pBAWL7unhoyt32rlCm2YfXF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tJJ737CJujLXw1GlUYd7K4AH3eB.jpg",
-      "description": "Nick Tosches, un écrivain, apprend qu'un manuscrit de La Divine Comédie de Dante, volé au Vatican, est réapparu à New York. Incapable de passer à côté de cette opportunité, Nick décide de tenter d'authentifier ce manuscrit et de mener l'enquête sur ses origines, son parcours et celui de son auteur.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1380291",
-      "type": "movie",
-      "name": "Jack Ryan de Tom Clancy : Guerre Fantôme",
-      "poster": "https://image.tmdb.org/t/p/w500/zR4RAnv4s6zpXhiqepdonAw4oF3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dd31qJxOarrHyGZwYsCzOjobQzP.jpg",
-      "description": "Jack Ryan doit malgré lui replonger dans le monde de l'espionnage quand une opération secrète met au jour une conspiration mortelle. Tandis que chaque seconde compte, il est rejoint par Mike November et James Greer de la CIA, ainsi que par Emma Marlowe, agent chevronné du MI6. Ils affrontent une unité clandestine dans une lutte à haut risque et aux implications personnelles.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1242876",
-      "type": "movie",
-      "name": "500 Miles",
-      "poster": "https://image.tmdb.org/t/p/w500/FhRosui9MSdxdyD3h0skOFhqED.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/smTYZM6iSRwB9BJXFkOTQ0rG1VM.jpg",
       "releaseInfo": "2026"
     }
   ]

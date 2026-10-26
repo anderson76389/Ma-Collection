@@ -1,6 +1,24 @@
 {
   "metas": [
     {
+      "id": "tmdb:1400940",
+      "type": "movie",
+      "name": "Clayface",
+      "poster": "https://image.tmdb.org/t/p/w500/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg",
+      "description": "L'ascension fulgurante de Matt Hagen, de gamin des rues de Gotham à star hollywoodienne, est brutalement interrompue lorsqu'un baron du crime le laisse atrocement défiguré. Abandonné de tous et n'ayant plus rien à perdre, Matt se tourne vers un traitement expérimental qui lui rend miraculeusement son apparence... mais altère profondément sa perception de la réalité. Il sombre alors dans une spirale destructrice, consumé par un irrépressible désir de vengeance.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1477104",
+      "type": "movie",
+      "name": "Shaun le Mouton : La Bêêête d'Halloween",
+      "poster": "https://image.tmdb.org/t/p/w500/poG8LaprHjz2Ka0c6zCvDrVjEUq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
+      "description": "À Halloween, les habitants de la ferme de Mossy Bottom se réjouissent des festivités, jusqu’à ce que le Fermier maladroit saccage les citrouilles bien-aimées du troupeau. Lorsque Shaun se transforme en scientifique fou pour résoudre le problème, les choses dérapent : le Fermier disparaît et une bête sauvage rôde dans les bois.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1423191",
       "type": "movie",
       "name": "Resident Evil",
@@ -108,15 +126,6 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1469342",
-      "type": "movie",
-      "name": "Her Private Hell",
-      "poster": "https://image.tmdb.org/t/p/w500/xFVviOiV7UFYaXucUJdlLw30gyt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hS4FcOM5y71FurkBQgDLTBxmWZh.jpg",
-      "description": "Tandis qu'une étrange brume engloutit une métropole futuriste et libère une présence mortelle insaisissable, une jeune femme troublée part à la recherche de son père. Au cours de cette quête, son destin croise celui d'un GI américain engagé dans un voyage désespéré pour arracher sa fille de l'enfer.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:1081003",
       "type": "movie",
       "name": "Supergirl",
@@ -168,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/a77OcLmarwiBJakOPPC36m58t4L.jpg",
       "background": "https://image.tmdb.org/t/p/w780/uOQtyMV2G9yJvc0s14zmLoRC5H9.jpg",
       "description": "Un jeune homme doit faire appel à ses pouvoirs inexploités pour lutter contre un extraterrestre maléfique et son armée, qui ne reculeront devant rien pour conquérir la Terre, puis l'univers.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1227877",
-      "type": "movie",
-      "name": "I Love Boosters",
-      "poster": "https://image.tmdb.org/t/p/w500/uUOBgpLTKPRrhXTfngbmGIkzVgc.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fBZ9cWUI1yB9Fcs2eoYZ4mmMUmI.jpg",
-      "description": "Une équipe de boosters (c’est-à-dire des voleurs à l’étalage professionnels) décident de s’en prendre à une papesse de la mode impitoyable.",
       "releaseInfo": "2026"
     }
   ]

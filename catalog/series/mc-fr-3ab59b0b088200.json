@@ -1,13 +1,22 @@
 {
   "metas": [
     {
-      "id": "tmdb:213562",
+      "id": "tmdb:4419",
       "type": "series",
-      "name": "Crystal Lake",
-      "poster": "https://image.tmdb.org/t/p/w500/v1XEjgqIlHvbjbEG6YSZVGTVUg0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wxiBsKFEOOFK8eQStWOykNORlXY.jpg",
-      "description": "Afin de pouvoir élever son jeune fils Jason, atteint d'une paralysie faciale périphérique depuis sa naissance, Pamela Voorhees abandonne sa carrière de chanteuse et emménage dans la petite ville de Crystal Lake où elle commence à travailler comme cuisinière dans le camp de vacances local.",
-      "releaseInfo": "2026"
+      "name": "Real Time with Bill Maher",
+      "poster": "https://image.tmdb.org/t/p/w500/pbpoLLp4kvnYVfnEGiEhagpJuVZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/njEGYHyq58q94ZPJlSGs6bGrepv.jpg",
+      "description": "Chaque semaine, Bill Maher s'entoure d'un panel d'invités qui comprend des politiciens, des acteurs, des comédiens, des musiciens et autres, pour discuter de ce qui se passe dans le monde.",
+      "releaseInfo": "2003"
+    },
+    {
+      "id": "tmdb:60694",
+      "type": "series",
+      "name": "Last Week Tonight with John Oliver",
+      "poster": "https://image.tmdb.org/t/p/w500/fuuEjEr69uvRtGaQw70JfvdrUwb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/q31EEBycbOyX7GGJP4GTPI5WJRO.jpg",
+      "description": "L'ancien animateur et correspondant du Daily Show, John Oliver, apporte sa personnalité à cette émission hebdomadaire de satire sur l'actualité.",
+      "releaseInfo": "2014"
     },
     {
       "id": "tmdb:34634",
@@ -19,6 +28,24 @@
       "releaseInfo": "2010"
     },
     {
+      "id": "tmdb:314360",
+      "type": "series",
+      "name": "YAGA",
+      "poster": "https://image.tmdb.org/t/p/w500/kp8xgZ8SrikHQrPn2lC3hb50KD5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lVCFOjUDlZLMvTJxQ2t78MjTIqL.jpg",
+      "description": "Alors qu’un détective privé enquête sur la disparition du jeune héritier d’une puissante entreprise de pêche, il se retrouve en désaccord avec un détective local méfiant, un charismatique professeur d’université qui aime les hommes plus jeunes, et un labyrinthe de suspects énigmatiques, de vies secrètes et de magie ancienne.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:17937",
+      "type": "series",
+      "name": "Ghost Adventures",
+      "poster": "https://image.tmdb.org/t/p/w500/xLJZuDxdeUqRFHFlqs0mIk9faMR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/u64huzTnF3jEYUXJ4BDlpHy2L3K.jpg",
+      "description": "L'enquêteur paranormal Zak Bagans et son équipe, Nick Groff, Aaron Goodwin, Billy Tolley et Jay Wasley, recherchent des lieux hantés au niveau national et international. Au cours de leur enquête, Zak et son équipe se familiarisent avec la région, interrogent les habitants sur les lieux hantés et rencontrent les mauvais esprits qui hanteraient ces lieux.",
+      "releaseInfo": "2008"
+    },
+    {
       "id": "tmdb:298852",
       "type": "series",
       "name": "WAR",
@@ -26,15 +53,6 @@
       "background": "https://image.tmdb.org/t/p/w780/muPKymUvvBqjLCyGSacxKgjrhxN.jpg",
       "description": "Cathcarts & Sons et Taylor & Byrne s’affrontent dans ce qui s’annonce comme le divorce du siècle : celui du magnat de la tech Morgan Henderson et de la superstar du cinéma Carla Duval. Une affaire retentissante qui pousse les deux cabinets à franchir toutes les limites pour remporter la victoire",
       "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:2808",
-      "type": "series",
-      "name": "Totally Spies !",
-      "poster": "https://image.tmdb.org/t/p/w500/zvEit6c2zC2PosXROb85jZwb0gx.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gbmN2y9Dqm6XKEev1kd8GkGLLn.jpg",
-      "description": "Cette série raconte les aventures de trois amies adolescentes : Alex, Clover et Sam. Étudiantes dans la vie de tous les jours, elles sont en réalité agents secrets ; c'est-à-dire des espionnes professionnelles qui travaillent pour le WOOHP, une organisation secrète de protection de l'humanité. Lorsque leur patron Jerry a besoin de leurs services, il les envoie en mission, après leur avoir fait revêtir des combinaisons intégrales moulantes en latex coloré (jaune pour Alex, rouge pour Clover et verte pour Sam) et fourni des gadgets, qui les aideront à mener à bien leurs enquêtes.",
-      "releaseInfo": "2002"
     },
     {
       "id": "tmdb:243875",
@@ -46,6 +64,24 @@
       "releaseInfo": "2024"
     },
     {
+      "id": "tmdb:2808",
+      "type": "series",
+      "name": "Totally Spies !",
+      "poster": "https://image.tmdb.org/t/p/w500/zvEit6c2zC2PosXROb85jZwb0gx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gbmN2y9Dqm6XKEev1kd8GkGLLn.jpg",
+      "description": "Cette série raconte les aventures de trois amies adolescentes : Alex, Clover et Sam. Étudiantes dans la vie de tous les jours, elles sont en réalité agents secrets ; c'est-à-dire des espionnes professionnelles qui travaillent pour le WOOHP, une organisation secrète de protection de l'humanité. Lorsque leur patron Jerry a besoin de leurs services, il les envoie en mission, après leur avoir fait revêtir des combinaisons intégrales moulantes en latex coloré (jaune pour Alex, rouge pour Clover et verte pour Sam) et fourni des gadgets, qui les aideront à mener à bien leurs enquêtes.",
+      "releaseInfo": "2002"
+    },
+    {
+      "id": "tmdb:285418",
+      "type": "series",
+      "name": "Youth",
+      "poster": "https://image.tmdb.org/t/p/w500/2YD9VOcTn5J8vfESJ7hrhfxPyf5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iEISXRsDv8Q2PA6i9cAQd2DH9bN.jpg",
+      "description": "Alex a une carrière, une famille et une riche expérience de la vie, mais elle doit aussi faire face aux réalités de la cinquantaine, s'occuper de ses parents vieillissants, élever un fils adolescent en difficulté et essayer de déterminer s'il y a encore de la place pour la romance et l'excitation dans sa propre vie.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:207484",
       "type": "series",
       "name": "Outlander: Blood of My Blood",
@@ -53,15 +89,6 @@
       "background": "https://image.tmdb.org/t/p/w780/lCnOoI8eYo6sTbnoSI2qwt2ZzVb.jpg",
       "description": "Ses champs de bataille déchirés par la guerre de 14-18 aux Highlands de l'Écosse du XVIIIe siècle, ce préquel revient sur l’histoire d’amour des parents de Jamie Fraser, Ellen MacKenzie et Brian Fraser, et ceux de Claire, Julia Moriston et Henry Beauchamp, explorant jusqu'où une personne peut aller par amour à une époque où les mariages ont un rôle stratégique, souvent à des fins politiques ou financières.",
       "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:17937",
-      "type": "series",
-      "name": "Ghost Adventures",
-      "poster": "https://image.tmdb.org/t/p/w500/xLJZuDxdeUqRFHFlqs0mIk9faMR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/u64huzTnF3jEYUXJ4BDlpHy2L3K.jpg",
-      "description": "L'enquêteur paranormal Zak Bagans et son équipe, Nick Groff, Aaron Goodwin, Billy Tolley et Jay Wasley, recherchent des lieux hantés au niveau national et international. Au cours de leur enquête, Zak et son équipe se familiarisent avec la région, interrogent les habitants sur les lieux hantés et rencontrent les mauvais esprits qui hanteraient ces lieux.",
-      "releaseInfo": "2008"
     },
     {
       "id": "tmdb:256695",
@@ -82,13 +109,13 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:285418",
+      "id": "tmdb:34045",
       "type": "series",
-      "name": "Youth",
-      "poster": "https://image.tmdb.org/t/p/w500/2YD9VOcTn5J8vfESJ7hrhfxPyf5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7pwybpJ2VSqqWgxZHTYqzRz01qH.jpg",
-      "description": "Alex a une carrière, une famille et une riche expérience de la vie, mais elle doit aussi faire face aux réalités de la cinquantaine, s'occuper de ses parents vieillissants, élever un fils adolescent en difficulté et essayer de déterminer s'il y a encore de la place pour la romance et l'excitation dans sa propre vie.",
-      "releaseInfo": "2026"
+      "name": "Soeurs épouses",
+      "poster": "https://image.tmdb.org/t/p/w500/lnSXPiP9nYx23AbaekTCdTBq722.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bpD0l55NTyHzIGX0QdTdogTk1ro.jpg",
+      "description": "Série documentaire suivant le quotidien d'une famille polygame de l'Utah, aux États-Unis.",
+      "releaseInfo": "2010"
     },
     {
       "id": "tmdb:231801",
@@ -100,13 +127,12 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:34045",
+      "id": "tmdb:331033",
       "type": "series",
-      "name": "Soeurs épouses",
-      "poster": "https://image.tmdb.org/t/p/w500/lnSXPiP9nYx23AbaekTCdTBq722.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bpD0l55NTyHzIGX0QdTdogTk1ro.jpg",
-      "description": "Série documentaire suivant le quotidien d'une famille polygame de l'Utah, aux États-Unis.",
-      "releaseInfo": "2010"
+      "name": "Collision",
+      "poster": "https://image.tmdb.org/t/p/w500/4loiHfZZx027yP0CtErtCPbkTc1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oaRWutbj0UiJej6xIYB3p8wwP9V.jpg",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:239618",
@@ -127,38 +153,21 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:331033",
-      "type": "series",
-      "name": "Collision",
-      "poster": "https://image.tmdb.org/t/p/w500/4loiHfZZx027yP0CtErtCPbkTc1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/oaRWutbj0UiJej6xIYB3p8wwP9V.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:288385",
-      "type": "series",
-      "name": "Paolo",
-      "poster": "https://image.tmdb.org/t/p/w500/5arYNSnKiCWxdwdrzjvP5vokPkV.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mjje2ajzDEpT3wDgc28RtjIq3WD.jpg",
-      "description": "La vie ordinaire de Paolo bascule lorsqu’il recroise la route de Téophane, un ancien camarade d’école, qui brigue aujourd’hui la mairie de sa ville et qui a semble-t-il tout pour lui. Ce qui commence par une simple admiration et une volonté de soutenir la campagne se transforme en une obsession dévorante….",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:280880",
       "type": "series",
       "name": "Furia",
       "poster": "https://image.tmdb.org/t/p/w500/36fswf4kFqCTgPtx2ZSFCBPpkbH.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xWTgLbS1HLr2sqwZH9sD6zO16Jj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ry8SRujfnDF21lpCx1Ap3Lrupuy.jpg",
       "description": "Cinq femmes border-Line déchaînent leur rage dans une comédie audacieuse et sombre sur la colère, la sororité et la vengeance. Cité par le New-York Times comme « brillant et drôle », Rage est un parcours sauvage et nécessaire que vous n’oublierez pas.\n\nMarga est une artiste snob. Roberto son mari est en couple avec Tina, la femme de ménage, et l'a mise enceinte.  Vera, l'amie de Marga, est une cuisinière médiatique qui doit fermer son commerce à cause de la maladie d'un critique incisif.  Nat est vendeuse dans une boutique de haute couture. Marga et Vera sont ses clientes.  Adela, mère de Tina, est sans emploi et risque d'être mise à la rue avec sa vieille mère par son propriétaire impitoyable.  Victoria, la voisine d'Adela et Nat, est une actrice délaissée du cinéma érotique des années 70.",
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:310133",
+      "id": "tmdb:337800",
       "type": "series",
-      "name": "4 Blocks Zero",
-      "poster": "https://image.tmdb.org/t/p/w500/yvIUYRLeTF9KOQL12ojleVyqxAk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pE6lTAEaErbLzIZuGP7Ojg8uD0.jpg",
-      "description": "Dans le Berlin des années 1990, les origines de la famille Hamady avant qu’elle ne devienne l’un des clans les plus influents de la ville. Réfugiés du Liban, tolérés en Allemagne, les Hamady luttent pour s’imposer dans leur nouveau pays et se faire une place dans le milieu criminel berlinois.",
+      "name": "Le massacre de Flores",
+      "poster": "https://image.tmdb.org/t/p/w500/859hxUCwgo4V9a6Fjx0QSe4tb88.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oc6OMFUQooMKg74qtvOWUjufUsU.jpg",
+      "description": "L'histoire de Matías Bagnato, seul survivant du massacre de Flores, l'une des affaires criminelles les plus choquantes de l'histoire argentine.",
       "releaseInfo": "2026"
     },
     {
@@ -169,14 +178,6 @@
       "background": "https://image.tmdb.org/t/p/w780/jH8BWwd1kIfY3N614o9idhW8rOJ.jpg",
       "description": "\"Alcool de contrebande\" suit le quotidien de bouilleurs d'alcool hors-la-loi qui doivent répondre à une forte demande des clients, tout en évitant l’attention des autorités.",
       "releaseInfo": "2011"
-    },
-    {
-      "id": "tmdb:90046",
-      "type": "series",
-      "name": "90 Day Fiancé: The Other Way",
-      "poster": "https://image.tmdb.org/t/p/w500/jw4KDjNmpBnMd7fEjbz9qTUmKJS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9jmxvWOt5xTjrJ03FNmViZCuZ5f.jpg",
-      "releaseInfo": "2019"
     }
   ]
 }

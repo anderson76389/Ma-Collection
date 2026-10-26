@@ -1,22 +1,31 @@
 {
   "metas": [
     {
-      "id": "tmdb:103516",
+      "id": "tmdb:18053",
       "type": "series",
-      "name": "Star Trek: Strange New Worlds",
-      "poster": "https://image.tmdb.org/t/p/w500/tv3W5DNDzeQaHFFrrqDZ4joCQcN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fZJs6xgU9dqIg9phIXjZAZOInzy.jpg",
-      "description": "Suivez Christopher Pike, Spock et le numéro un dans la décennie qui a précédé l'arrivée du capitaine Kirk à bord de l'Enterprise alors qu'ils explorent de nouveaux mondes autour de la galaxie.",
-      "releaseInfo": "2022"
+      "name": "Nurse Jackie",
+      "poster": "https://image.tmdb.org/t/p/w500/efKrmVB9Jwmh6HxFjED6FyeOUpW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lyybuNTSkI4vJZdccpinuj7vxCU.jpg",
+      "description": "Infirmière au sein des Urgences d'un hôpital new-yorkais assez rude, Jackie Peyton affronte tous les jours des cas difficiles. Obstinée et brillante, elle a toutefois du mal à jongler entre un quotidien professionnel assez mouvementé et une vie personnelle également périlleuse...",
+      "releaseInfo": "2009"
     },
     {
-      "id": "tmdb:126824",
+      "id": "tmdb:7869",
       "type": "series",
-      "name": "Patrick Super Star",
-      "poster": "https://image.tmdb.org/t/p/w500/oyCsf5f93qrb4qD7jw1W6wGt3Ks.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kP7pCxfml6erWC9aB72ALtNawJq.jpg",
-      "description": "Patrick anime sa propre émissions dans sa maison familiale, avec le soutien de toute sa famille.",
-      "releaseInfo": "2021"
+      "name": "Les pingouins de Madagascar",
+      "poster": "https://image.tmdb.org/t/p/w500/heB1qKq57FKkPWCPnOxH9aGW598.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tdDRR3qnwwicr2DJbaaF8CDW168.jpg",
+      "description": "Une fois de plus, Skipper, Kowalski, Rico et Private, dictent leur loi à l'intérieur du zoo de Central Park. Afin de pouvoir garder leur voisinage heureux, les pingouins doivent parfois s'aventurer dans la jungle new-yorkaise afin de ramener de nouvelles trouvailles qui pourront les aider à préserver leur tranquillité. Mais alors que les quatre frères pensent avoir un contrôle absolu sur les autres animaux, un nouvel arrivant fait son apparition : Julien, le roi des lémuriens, doté d'un égo surdimensionné, il passe ses nuits à faire la fête avec ses copains. Exaspéré, les pingouins vont devoir rivaliser de nouveaux stratagèmes pour récupérer leur territoire. ",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:202297",
+      "type": "series",
+      "name": "Fire Country : Pompiers sur Appel",
+      "poster": "https://image.tmdb.org/t/p/w500/2qhBMwFtQIUQId8nhaywVqKTPLw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r6jUY6q3ObYOeFFWxM7jemS7IWE.jpg",
+      "description": "En quête de rédemption et d'une peine de prison raccourcie, le jeune condamné Bode Donovan rejoint un programme de lutte contre les incendies qui le ramène dans sa petite ville natale du nord de la Californie, où lui et d'autres détenus travaillent aux côtés de pompiers d'élite pour éteindre d'énormes incendies dans la région.",
+      "releaseInfo": "2022"
     }
   ]
 }

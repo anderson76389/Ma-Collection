@@ -1,6 +1,23 @@
 {
   "metas": [
     {
+      "id": "tmdb:1765072",
+      "type": "movie",
+      "name": "You Can See Everything",
+      "poster": "https://image.tmdb.org/t/p/w500/7nG1AFxnrh5KtgH3jA4uIsWmX95.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nhIL3O4W9h5V5JbNQm7yjoDk3So.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1596303",
+      "type": "movie",
+      "name": "The Last First : le K2 en hiver",
+      "poster": "https://image.tmdb.org/t/p/w500/zrOs0WKhESe6J4UErG32ZjOOh1A.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wtzSwtnQ4RsRbV5cc114Nb1q3b0.jpg",
+      "description": "Une course mémorable pour être le premier à atteindre le sommet du K2 en hiver vire au drame, révélant qu'ambition, ego et quête de gloire sont aussi dangereux que la montagne.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1758536",
       "type": "movie",
       "name": "Le Veuf : Jusqu'à ce que la mort...",
@@ -158,26 +175,8 @@
       "type": "movie",
       "name": "Billie Eilish - Hit Me Hard and Soft : The Tour (3D)",
       "poster": "https://image.tmdb.org/t/p/w500/8DTastKqiYno03GHdkOxLpm2het.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fvz0Psn68l0lXyAmeXxY8D9RRhI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vTk6KQRLomlkMG5xqQIrzvyQB8z.jpg",
       "description": "Réalisé pendant sa tournée mondiale jouée à guichets fermés, BILLIE EILISH – HIT ME HARD AND SOFT TOUR (3D) propose une nouvelle expérience de concert innovante sur grand écran, avec l’une des artistes les plus célèbres et les plus talentueuses de sa génération. Présenté en 3D immersive, le film est réalisé par James Cameron et Billie Eilish, tous deux lauréats d’un Oscar.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1641966",
-      "type": "movie",
-      "name": "L'Envers du sport : Coups de feu à Hawthorne Hill",
-      "poster": "https://image.tmdb.org/t/p/w500/kUhNOJZgOkOUiLO4qwt43Z6d5fv.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6KMv3pPMkPlHoDdy461x3qep6GX.jpg",
-      "description": "Une dispute houleuse entre un entraîneur équestre et son élève dégénère en terrible acte de violence dans ce documentaire à rebondissements sur un crime réel.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1623125",
-      "type": "movie",
-      "name": "Une histoire de gorilles avec David Attenborough",
-      "poster": "https://image.tmdb.org/t/p/w500/f1kgYXsz5d1odQyy7phhYaPQI0c.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/r80zWzxQn5pMAPgDHd4CiKIGOyU.jpg",
-      "description": "Le naturaliste Sir David Attenborough raconte l'histoire d'un groupe de gorilles, depuis sa première rencontre avec eux dans les années 70 jusqu'à aujourd'hui.",
       "releaseInfo": "2026"
     }
   ]

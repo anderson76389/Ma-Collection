@@ -7,6 +7,12 @@
       "poster": "https://image.tmdb.org/t/p/w500/6Ynm3olj7K06IodwabFMgK6BtCN.jpg",
       "background": "https://image.tmdb.org/t/p/w780/eo9OwD0QOmVV94qiwM5cyCZ3ODr.jpg",
       "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:339333",
+      "type": "series",
+      "name": "Catfish Murders",
+      "releaseInfo": "2026"
     }
   ]
 }

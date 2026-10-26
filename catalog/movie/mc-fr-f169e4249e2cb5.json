@@ -15,7 +15,7 @@
       "name": "Man of War",
       "poster": "https://image.tmdb.org/t/p/w500/vt0RqHlqfUzeiBEVQvp43yY2076.jpg",
       "background": "https://image.tmdb.org/t/p/w780/kMrkqfjuPR4FlfaScrNNYuOEGHa.jpg",
-      "description": "Lorsqu'une travailleuse humanitaire disparaît dans les premières heures de la guerre en Ukraine, une ancienne membre des Navy SEAL et de la CIA traverse ce pays dévasté pour ramener chez elle des mercenaires, des lignes de bataille mouvantes et des fantômes qu'il pensait avoir laissés derrière lui.",
+      "description": "Un vétéran des forces spéciales américaines pénètre en Ukraine, aux tout premiers jours de l'invasion russe, pour sauver sa fille adoptive, une travailleuse humanitaire retenue en otage par des mercenaires russes. Il doit lancer une mission de sauvetage mortelle pour la ramener chez elle saine et sauve.",
       "releaseInfo": "2026"
     },
     {
@@ -72,6 +72,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1015154",
+      "type": "movie",
+      "name": "Luciérnagas en El Mozote",
+      "poster": "https://image.tmdb.org/t/p/w500/vAMPpEvaW9EmRwFmzFMaM8wS3KV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/i0YlPmyAfjxWJczVqK0MP88XKU4.jpg",
+      "releaseInfo": "2025"
+    },
+    {
       "id": "tmdb:1556834",
       "type": "movie",
       "name": "Lost Horizon",
@@ -85,7 +93,7 @@
       "type": "movie",
       "name": "Palestine 36",
       "poster": "https://image.tmdb.org/t/p/w500/7MfS2Q7kHIdGeRe17Z26q5N9MPm.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/e5LTUuIumJCgeoAApfCXhKUZ1UH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xLcPsJ7lZ4pVHJiAgMvDwmm4v0r.jpg",
       "description": "Palestine, 1936. La grande révolte arabe, destinée à faire émerger un État indépendant, se prépare alors que le territoire est sous mandat britannique.",
       "releaseInfo": "2025"
     },
@@ -166,15 +174,6 @@
       "background": "https://image.tmdb.org/t/p/w780/wPSZXVqe84X8SINvJGiKYZhkSG1.jpg",
       "description": "En raison des tensions entre la Corée du Nord et la Corée du Sud, un hélicoptère américain s'écrase du côté nord-coréen. Les survivants doivent maintenant lutter ensemble pour protéger un spécialiste civil de la technologie et trouver le moyen de s'en sortir sans l'aide du soutien militaire américain.",
       "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1043905",
-      "type": "movie",
-      "name": "Dirty Angels",
-      "poster": "https://image.tmdb.org/t/p/w500/3tZWfZ3n46MGKqUeVgyK0zEIXMV.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yBMGM7x8lPXUlmTNfCLZvHbpJmk.jpg",
-      "description": "Lorsque des étudiantes sont prises en otage en Afghanistan, Jake, une combattante des forces spéciales américaines, rejoint un commando composé uniquement de femmes pour les libérer. Le plan : gagner la confiance des terroristes en se faisant passer pour les membres d’une organisation humanitaire. Mais les fantômes du passé de Jake la trahissent et mettent en péril le succès de cette mission sans retour.",
-      "releaseInfo": "2024"
     }
   ]
 }

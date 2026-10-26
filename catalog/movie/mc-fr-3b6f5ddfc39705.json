@@ -18,6 +18,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1455679",
+      "type": "movie",
+      "name": "Новая тёща",
+      "poster": "https://image.tmdb.org/t/p/w500/pApymeQaHDD5rxemwREYCZVwq2u.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fG8ruh6hRIluMFFl7MVTRGs11d9.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1472573",
       "type": "movie",
       "name": "Здесь был Юра",
@@ -156,14 +164,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/da4KST59isnHHwVYZGrzWxoJuNZ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/fOcAU0Jzw4sx4aUTopRavJrLHeF.jpg",
       "description": "Au XIIIe siècle, Batu Khan a passé deux mois à essayer de prendre la ville de Kozelsk. Il a perdu de nombreux hommes et engins de siège au cours du processus. Quand il l'a finalement prise, il a tué tous les accusés, y compris des femmes et des enfants, et a ordonné que le nom de Kozelsk soit oublié. Il l'a appelée Fierce Town.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:732707",
-      "type": "movie",
-      "name": "Василий",
-      "poster": "https://image.tmdb.org/t/p/w500/ie0dje7Vni37ks5F2WVqInfVafO.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zZPyIEGRQaHvwAQ3PVhM4Dq0epf.jpg",
       "releaseInfo": "2025"
     }
   ]

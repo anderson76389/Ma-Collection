@@ -1,12 +1,72 @@
 {
   "metas": [
     {
+      "id": "tmdb:1643567",
+      "type": "movie",
+      "name": "Ghosts: The Possession of Button House",
+      "poster": "https://image.tmdb.org/t/p/w500/vdRbC8masrQDyhFHLOGECEMllPV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r87Uwf5yvL69fBWsZHGR2OTbD1A.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1796707",
+      "type": "movie",
+      "name": "Daylight: A Twilight story",
+      "poster": "https://image.tmdb.org/t/p/w500/yNPpKdl20jAvJLusQr14fjgVGo5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/498wupIiqyxFgw6uPHfYWuwQWjY.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1195803",
+      "type": "movie",
+      "name": "Wicker",
+      "poster": "https://image.tmdb.org/t/p/w500/fjoHeK9kmoN46dUPGVpZA5rD27g.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg",
+      "description": "Mise au ban de son village, une pêcheuse solitaire commande au vannier local un mari en osier. Cet époux improbable se révèle doté d’une sensibilité et de talents qui dépassent toutes ses attentes. À son contact, elle découvre un désir insoupçonné et, peu à peu, s’éprend véritablement de lui. Mais bientôt, son étrange mari attise les convoitises, la jalousie et les fantasmes des villageois, faisant vaciller les certitudes d’une communauté jusque-là bien ordonnée.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:858035",
+      "type": "movie",
+      "name": "Klara et le Soleil",
+      "poster": "https://image.tmdb.org/t/p/w500/zJZ1ii7XPAJkdBWKIQN2fyyz5cQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg",
+      "description": "Lorsque Klara rencontre Josie, chacune perçoit immédiatement chez l'autre une âme soeur. Josie entretient une relation compliquée avec sa mère et toutes deux ont traversé de lourdes épreuves. Mais l'émerveillement sincère de Klara et sa loyauté sans faille commencent peu à peu à apaiser les blessures de cette famille et à apporter de la lumière dans l'univers complexe de Josie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1802674",
+      "type": "movie",
+      "name": "Hot Wheels La course est lancée! L'attaque du T-Rex",
+      "poster": "https://image.tmdb.org/t/p/w500/iIc0OkYnf06kv5Zp0IYVwuvffgh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dK69ml1Y34MrEovK4ZyizRiWbEH.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1400940",
       "type": "movie",
       "name": "Clayface",
       "poster": "https://image.tmdb.org/t/p/w500/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kVtOcoUJ68chBD2tmERkdWz7lK5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg",
       "description": "L'ascension fulgurante de Matt Hagen, de gamin des rues de Gotham à star hollywoodienne, est brutalement interrompue lorsqu'un baron du crime le laisse atrocement défiguré. Abandonné de tous et n'ayant plus rien à perdre, Matt se tourne vers un traitement expérimental qui lui rend miraculeusement son apparence... mais altère profondément sa perception de la réalité. Il sombre alors dans une spirale destructrice, consumé par un irrépressible désir de vengeance.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:791523",
+      "type": "movie",
+      "name": "Wildwood : La prophétie de la forêt",
+      "poster": "https://image.tmdb.org/t/p/w500/shb3OmIQACcqhRvIcXuba26cP0l.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
+      "description": "Prue, une jeune fille courageuse, part à la recherche de son petit frère, enlevé et retenu dans la forêt interdite peuplée de créatures enchantées, d’alliés inattendus et d’adversaires redoutables. Ce qui débute comme une quête intime se transforme rapidement en une aventure spectaculaire aux enjeux colossaux, et c’est le destin de tout un monde caché qui dépend désormais de ses choix.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1771323",
+      "type": "movie",
+      "name": "Super Scam Me",
+      "poster": "https://image.tmdb.org/t/p/w500/y07DF84TR67NVAevJR6JMydIL5H.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cLA7LxfHF75U2m6zx9sEd7yhQBL.jpg",
+      "description": "Après des années d'enquêtes sur les arnaques sentimentales, Mariana van Zeller se lance dans l'une de ses investigations les plus immersives à ce jour. Dans le cadre d'une véritable expérience sociale, elle se crée un nouveau profil sur un site de rencontre et se fait passer pour la victime d'une arnaque sentimentale afin de comprendre et de dénoncer les tactiques, les technologies et les manipulations psychologiques utilisées par ces criminels pour tromper leurs victimes.",
       "releaseInfo": "2026"
     },
     {
@@ -20,9 +80,10 @@
     {
       "id": "tmdb:1620918",
       "type": "movie",
-      "name": "Norm: The Tale of Norm Macdonald",
+      "name": "Norm Macdonald : Une vie pas si normale",
       "poster": "https://image.tmdb.org/t/p/w500/sQw3m4hl1xyoT9zr7shnNCHDKI3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/d3Uscbjxikw0Vgk9ACFUpqFXplA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hE90kqyiFm9apunHLQirvdO7KyR.jpg",
+      "description": "Plongez dans un univers parallèle avec ce documentaire consacré au maître de l'humour pince-sans-rire, Norm Macdonald, dont la vie et la carrière furent intransigeantes mais pleines de contradictions.",
       "releaseInfo": "2026"
     },
     {
@@ -30,8 +91,17 @@
       "type": "movie",
       "name": "Masterplan",
       "poster": "https://image.tmdb.org/t/p/w500/a13BTR3jJWr2ARoLvTC3f5gQhfw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dgUDj84BWtW6EZzee8BkgKnjDhh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fAlQZsCOCvxOj0PmFmt4i8IWR2u.jpg",
       "description": "Quand un voleur légendaire jette son dévolu sur La Joconde, il recrute deux jeunes inconnus pour l'aider (Chiara, une experte italienne du cybercrime et Jay, un spécialiste français des explosifs) avant de leur révéler qu'il est leur père. Au milieu de retrouvailles chaotiques, cette nouvelle famille devra apprendre à collaborer et éviter de s'entretuer si elle veut réussir le casse du siècle.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1458099",
+      "type": "movie",
+      "name": "The Last Pickpocket in New York",
+      "poster": "https://image.tmdb.org/t/p/w500/pNdB9va2AEPQe9UfhKAdIt8nus9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nZLt2sLZTEOyK50TjwNlGqzWsp5.jpg",
+      "description": "Harry est le dernier pickpocket de New York. Les temps sont durs, mais un jour la chance tourne : il dérobe une mystérieuse clef USB qu’il revend à prix d’or. Mais ce précieux butin appartient à une organisation criminelle impitoyable prête à tout pour le récupérer. Harry n’a que quelques heures pour retrouver la clef, et la restituer.",
       "releaseInfo": "2026"
     },
     {
@@ -41,6 +111,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/szIEtkFLOMsPX6AVQSfzalNEEDd.jpg",
       "background": "https://image.tmdb.org/t/p/w780/py3XG3mFkdVMcw7VwfZ4HaXZIIU.jpg",
       "description": "L'histoire vraie de Kevin Simmers, ancien policier anti-drogue devenu défenseur de la désintoxication, et de sa fille Brooke. Le film explore la crise américaine de la drogue et « la fine ligne bleue » à travers les regards opposés d'un policier et d'une toxicomane, qui étaient également père et fille.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1796883",
+      "type": "movie",
+      "name": "Biohazard",
+      "poster": "https://image.tmdb.org/t/p/w500/3FqLdOQdX4VBk3dB663CCA8CAMS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oCsX2XMv5iJ5ClvnjYjBwXDqcov.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -74,105 +152,25 @@
       "type": "movie",
       "name": "Street Fighter",
       "poster": "https://image.tmdb.org/t/p/w500/k53HHxQ4rQG0dME6nsofii3QNS7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5H5YphHsQmkQhrw13Wv1whCZKtN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qRN8eqYwG6HPSy0i3fKzuLrUOhp.jpg",
       "description": "En 1993, Ryu et Ken Masters, deux Street Fighters autrefois inséparables, sont replongés dans l’arène lorsque la mystérieuse Chun-Li les recrute pour le prochain World Warrior Tournament : un affrontement brutal où se mêlent poings, destin et fureur. Mais derrière cette battle royale se cache une conspiration mortelle qui les oblige à s’affronter, tout en faisant face aux démons de leur passé… Et s’ils échouent, c’est GAME OVER.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1796809",
+      "type": "movie",
+      "name": "Remain Calm",
+      "poster": "https://image.tmdb.org/t/p/w500/mwS8LsBd7FWp0XomfzVpynrGhHR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mJ7zo8mMjXtvgf70EMiiT9aiola.jpg",
       "releaseInfo": "2026"
     },
     {
       "id": "tmdb:1790935",
       "type": "movie",
       "name": "Instadocs: L'IA s'emballe",
-      "poster": "https://image.tmdb.org/t/p/w500/ybMAd7Tkd3T7XlCv4Ps54r1yC1M.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/g2emP9oTYXzpNyxgti8GKhjOveB.jpg",
       "background": "https://image.tmdb.org/t/p/w780/9EfbnudTOAoiPVOEWL0vwhdbdBq.jpg",
       "description": "L'IA a-t-elle commis un crime grave? La série enquête sur le piratage de Hugging Face et explique en quoi cette cyberattaque pourrait être un signal d'alarme pour l'humanité.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1545690",
-      "type": "movie",
-      "name": "WWE Money in the Bank 2026",
-      "poster": "https://image.tmdb.org/t/p/w500/wRFDnH3XzwDKV9QU3DTYNU8XX2R.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vdwmT1oZcDgkjvmyu7OYw1z6GYx.jpg",
-      "description": "L'édition 2026 de Money in the Bank (commercialisé sous le nom de Money in the Bank: New Orleans) est un Premium Live Event de catch (lutte professionnelle) produit par la World Wrestling Entertainment, une fédération de catch américaine qui est télédiffusée et visible en paiement à la séance sur Netflix. L'événement aura lieu le 10 octobre 2026 au Smoothie King Center à la Nouvelle-Orléans (Louisiane). Il s'agit de la 17e édition de Money in the Bank.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1742441",
-      "type": "movie",
-      "name": "V/H/S/Mixtape",
-      "poster": "https://image.tmdb.org/t/p/w500/uS8yoiA6NfsuYeOTbVfpem8Ib9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mpB4pgtUcc7rCLxvlknzCbAQQEE.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1288069",
-      "type": "movie",
-      "name": "Tenzing : à la conquête de l’Everest",
-      "poster": "https://image.tmdb.org/t/p/w500/hKA6G4Dj0Uonghi6AUwmpIvCFo0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6GXqVvL20Y0MpyVP30WoI2NPK69.jpg",
-      "description": "Un homme déterminé se lance dans une aventure périlleuse - et brave des obstacles apparemment insurmontables - pour réaliser son rêve d'être le premier à atteindre le sommet de l'Everest.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1236045",
-      "type": "movie",
-      "name": "Animals",
-      "poster": "https://image.tmdb.org/t/p/w500/33MhDOKB0S5VwuaD9lZyV0v0st0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tzoarEu7TsG959upiELyYPm5kO9.jpg",
-      "description": "Quand leur fils est enlevé, un candidat à la mairie de Los Angeles et sa femme s'efforcent de réunir l'argent de la rançon et font des choix qui pourraient bouleverser leur vie.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1185344",
-      "type": "movie",
-      "name": "The Beast",
-      "poster": "https://image.tmdb.org/t/p/w500/ocg5JfJP19fodcv5uQUApkmZMdI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/v5Wb9NoE0s1mGmC5wVeQR1OK22V.jpg",
-      "description": "Lorsqu'une milice coordonne un coup d'État contre les États-Unis, le président découvre l'étendue des capacités offensives de la Bête, la limousine présidentielle.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1400837",
-      "type": "movie",
-      "name": "Malfaisante",
-      "poster": "https://image.tmdb.org/t/p/w500/wAofwsldMDNAIzGSEfMJMoUn1KB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg",
-      "description": "Une famille est la cible d'une entité qu'elle appelle « l'autre maman ».",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1381078",
-      "type": "movie",
-      "name": "L'Amour de ta vie",
-      "poster": "https://image.tmdb.org/t/p/w500/1zrnRcJ8JOTXYp0Qizad1rnuIA0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mqYqKvrKTgMvK50VtEDZlYFsnHz.jpg",
-      "description": "Maya dont la rencontre fortuite avec Charlie donne naissance à une histoire d'amour passionnée et à la vie dont elle n'osait pas rêver. Lorsque tout bascule, Maya doit déterminer qui elle est, ce qu'elle veut et comment réapprendre à aimer.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1281331",
-      "type": "movie",
-      "name": "The Social Reckoning",
-      "poster": "https://image.tmdb.org/t/p/w500/tF1P9HZEBJQ8w1KyBlS3zMS2Ogp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wXTaGcqX3jvdXSKCJAkl5jZyrKp.jpg",
-      "description": "L'histoire s'inspire de \"The Facebook Files\" du Wall Street Journal, une série d'articles publiés en octobre 2021 par Jeff Horowitz, qui ont révélé les rouages internes ainsi que les nombreux dommages causés par le plus grand réseau social au monde.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1788735",
-      "type": "movie",
-      "name": "Family Guy Happy Hell-o-ween",
-      "poster": "https://image.tmdb.org/t/p/w500/4IuQIUgqyLpbD7R7zmPp9A08rsQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/i5XAKlLzmbGsBtr8T3vyGZHkanT.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1148365",
-      "type": "movie",
-      "name": "Matchbox – Le film",
-      "poster": "https://image.tmdb.org/t/p/w500/vSgnJDw404JUokiy5NDZgXOi01E.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg",
-      "description": "Des amis d'enfance reprennent contact et les retrouvailles prennent une tournure inattendue quand ils découvrent un dangereux complot international et doivent sauver le monde.",
       "releaseInfo": "2026"
     }
   ]

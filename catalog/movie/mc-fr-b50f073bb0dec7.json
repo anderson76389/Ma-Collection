@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1195803",
+      "type": "movie",
+      "name": "Wicker",
+      "poster": "https://image.tmdb.org/t/p/w500/fjoHeK9kmoN46dUPGVpZA5rD27g.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg",
+      "description": "Mise au ban de son village, une pêcheuse solitaire commande au vannier local un mari en osier. Cet époux improbable se révèle doté d’une sensibilité et de talents qui dépassent toutes ses attentes. À son contact, elle découvre un désir insoupçonné et, peu à peu, s’éprend véritablement de lui. Mais bientôt, son étrange mari attise les convoitises, la jalousie et les fantasmes des villageois, faisant vaciller les certitudes d’une communauté jusque-là bien ordonnée.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1032863",
       "type": "movie",
       "name": "The Love Hypothesis",
@@ -28,6 +37,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1490214",
+      "type": "movie",
+      "name": "The Sun Never Sets",
+      "poster": "https://image.tmdb.org/t/p/w500/hpzzGHyVN4nE0GzqoAu12ko6ER3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ckDLzhqHG40CoNUwQWrAvzCYRIe.jpg",
+      "description": "Wendy est bouleversée lorsque son petit ami Jack lui demande de mettre leur relation en pause. Plongée dans une incertitude émotionnelle, elle renoue avec son ex, Chuck, qui est aventurier, imprévisible – tout ce que Jack n’est pas. Prise dans un triangle amoureux qu’elle n’a pas cherché, Wendy doit choisir entre son passé et son avenir.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1433367",
       "type": "movie",
       "name": "Juste pour une Nuit",
@@ -41,7 +59,7 @@
       "type": "movie",
       "name": "Teenage Sex and Death at Camp Miasma",
       "poster": "https://image.tmdb.org/t/p/w500/a5JvHUONtF8RyLL6M5nTlqqMJVE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/d1n2ySWSanU34eEsluRjfrjRq52.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/c3N1tHx6cKmhbv7Gt8M4cwHWPUZ.jpg",
       "description": "Un cinéaste queer est embauché pour diriger un nouvel épisode d'une franchise Slasher de longue date. Le réalisateur se fixe sur la perspective de lancer la «dernière fille» du film original, et les deux femmes entrent dans une frénésie de manie psychosexuelle.",
       "releaseInfo": "2026"
     },
@@ -157,23 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/qmLFYcm6MFp02IIF5Qn6FuoPnKd.jpg",
       "background": "https://image.tmdb.org/t/p/w780/7yuHdP85F2ZxhKbSoPgCBT9uJT3.jpg",
       "description": "Sean, élève brillant visant le MIT, accepte d'aider Flora, une adolescente populaire mais peu investie dans ses études, à améliorer ses résultats scolaires. Ce qui commence comme un simple accord se transforme peu à peu en une histoire d'amour qui remet en question leurs projets et leurs certitudes.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1429605",
-      "type": "movie",
-      "name": "F- la Saint-Valentin",
-      "poster": "https://image.tmdb.org/t/p/w500/56v1Ipm54DdEEuo9SIxaIpdcLEP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rQXIm9oICpHCBpuHSJ3SwthBQYc.jpg",
-      "description": "Gina déteste son anniversaire qui tombe le jour de la Saint-Valentin et part en Grèce pour éviter la demande en mariage de son petit ami. Avec l'aide de Johnny et de sa sœur Mickey, deux vacanciers, elle élabore un plan pour retarder la demande en mariage, tout en remettant en question sa relation.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1608615",
-      "type": "movie",
-      "name": "The Way to You",
-      "poster": "https://image.tmdb.org/t/p/w500/4aOxnMaDkr792WOZFJUb6LxcR74.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/w1Q8S2x9MP98B40w2djpBmbWdKr.jpg",
       "releaseInfo": "2026"
     }
   ]

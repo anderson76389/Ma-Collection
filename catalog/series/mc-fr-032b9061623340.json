@@ -37,10 +37,19 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:318918",
+      "type": "series",
+      "name": "LEGO One Piece",
+      "poster": "https://image.tmdb.org/t/p/w500/hTUHZ337JzqPvRXBQ3lu0GBkOvz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qA8U2ABepV5E2BcNIBcgUaFy4fM.jpg",
+      "description": "Les Chapeaux de paille lèvent l'ancre dans ce programme LEGO en deux parties ! Rejoignez Luffy, Nami, Usopp et l'équipage dans leur périple épique, réinventé brique par brique.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:252105",
       "type": "series",
       "name": "Golden Axe",
-      "poster": "https://image.tmdb.org/t/p/w500/toEwR5VTFzHmxW1pX1HjtTXH6QH.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/lQxGHqmYA6VMSkdnOnFC5P0dO0g.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zOcEo3oQf9KDPPxZueNhReN6TBr.jpg",
       "description": "Trois célèbres guerriers tentent de sauver le royaume de Yuria des attaques d'un géant maléfique. Leur noble quête est perturbée par un aventurier débutant et maladroit.",
       "releaseInfo": "2026"
@@ -52,6 +61,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
       "background": "https://image.tmdb.org/t/p/w780/6gqezQJ2mkm4jreWwLyOZy2Vf6i.jpg",
       "description": "Deux flics intergalactiques, la nouvelle recrue John Stewart et le légendaire Hal Jordan, sont confrontés à un sombre mystère sur Terre alors qu’ils enquêtent sur un meurtre au fin fond de l’Amérique.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:296756",
+      "type": "series",
+      "name": "President Curtis",
+      "poster": "https://image.tmdb.org/t/p/w500/noWGHRAllKVUlxTQ5T10gQL4BBL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yoTP91XZZjSvE2gZgGvwNxVW96w.jpg",
+      "description": "Suivez le commandant en chef et son équipe excentrique alors qu'ils s'attaquent à des crises dont Rick Sanchez ne se soucierait jamais : de la diplomatie interdimensionnelle aux enquêtes sur le paranormal en passant par les phénomènes inexpliqués.",
       "releaseInfo": "2026"
     },
     {
@@ -103,7 +121,7 @@
       "id": "tmdb:252107",
       "type": "series",
       "name": "Star City",
-      "poster": "https://image.tmdb.org/t/p/w500/h9ven3crLuEtIrPQJyiF1LvvxFS.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/nx33iPxIWH5uNGyvfWabKH0v3Ak.jpg",
       "background": "https://image.tmdb.org/t/p/w780/rhJAGhOvkR8270bdXSSCzQSPY1a.jpg",
       "description": "Dans une réalité alternative dans laquelle l'Union soviétique est la première nation à mettre un pied sur la lune, la course à l'espace est retracée de derrière le rideau de fer, montrant la vie des cosmonautes, des ingénieurs et des officiers du renseignement du programme spatial soviétique, ainsi que les risques que chacun d'eux a pris pour propulser l'humanité vers une nouvelle ère.",
       "releaseInfo": "2026"
@@ -160,24 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/sXheST2GHQge5S20iisnXlbROea.jpg",
       "background": "https://image.tmdb.org/t/p/w780/vk7AdYfhmCuWsRrTPMg7Yif8AAt.jpg",
       "description": "Shah Latif, un acteur en galère qui joue sa dernière carte lors de l'audition de sa vie. En quatre jours mouvementés, sa famille, son ex et le monde entier se mêlent de son destin : est-il vraiment l'homme de la situation ? Un compte à rebours hilarant où sa vie part totalement en vrille.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:259819",
-      "type": "series",
-      "name": "Rooster Fighter",
-      "poster": "https://image.tmdb.org/t/p/w500/iCtbr0sIdaKZjhQH3Wr7hW6A1IU.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nTDL4UmMLDBCeMtYh8F1LZtgmLV.jpg",
-      "description": "D'étranges créatures attaquent, mais Keiji les affronte en poussant son cri de guerre : Kokekokko !",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:235685",
-      "type": "series",
-      "name": "The Pendragon Cycle: Rise of the Merlin",
-      "poster": "https://image.tmdb.org/t/p/w500/wXfTsO7pqAqo94f0AHaas9rjBNh.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lDmFwAaHL1kXnAfZeUTieAdUTko.jpg",
-      "description": "Merlin, fils immortel du barde Taliesin et de la princesse atlante Charis, est au cœur de son enfance tragique, de sa descente aux enfers et de sa disparition mystérieuse, donnant naissance à la légende qui l'entoure. Se déroulant avant la naissance du roi Arthur, l'histoire raconte la réapparition de Merlin, que l'on croyait mort ou un mythe, dans la Bretagne post-romaine, afin d'unir les royaumes divisés et menacés par les envahisseurs saxons.",
       "releaseInfo": "2026"
     }
   ]

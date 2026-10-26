@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:338641",
+      "type": "series",
+      "name": "Adultery",
+      "poster": "https://image.tmdb.org/t/p/w500/cWo02FdwkVsFhEoZtNUZZa7tahd.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5w6OmEcNId5xtwbn8LJ4g25nEry.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:321532",
       "type": "series",
       "name": "Winter",
@@ -155,14 +163,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/5O73CfvLnaaKYLdK12YS0LEw7W8.jpg",
       "background": "https://image.tmdb.org/t/p/w780/oVUhpvbl2Mesv6LDoJp74cXeFT3.jpg",
       "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:285919",
-      "type": "series",
-      "name": "Accidental Tourist",
-      "poster": "https://image.tmdb.org/t/p/w500/4qSsXKvQXLgw7nXCv1JTaIO9BR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mlbdvFoXsRmoDvKGLbJG6XwxT5h.jpg",
-      "releaseInfo": "2025"
     }
   ]
 }

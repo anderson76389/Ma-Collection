@@ -1,49 +1,58 @@
 {
   "metas": [
     {
-      "id": "tmdb:90",
+      "id": "tmdb:1480",
       "type": "series",
-      "name": "Mayday : Dangers dans le ciel",
-      "poster": "https://image.tmdb.org/t/p/w500/sWwsiXi0V4spWdVkzje3143Bxjy.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vqm22ecqtzy5Olr74mkUV5lWa9g.jpg",
-      "description": "Cette série revient sur les grandes catastrophes aériennes. Ces films, mélange de reconstitutions et de témoignages, nous plongent dans une atmosphère angoissante et un suspense haletant. Interventions des survivants et des parents de victimes, explications d’experts, étude de la boîte noire de l'avion, rapports des autorités… Un important travail d'enquête a été mené afin de tenter de comprendre les raisons de ces crashes.",
-      "releaseInfo": "2003"
-    },
-    {
-      "id": "tmdb:34891",
-      "type": "series",
-      "name": "Jake et les Pirates du Pays imaginaire",
-      "poster": "https://image.tmdb.org/t/p/w500/uet64gptwR7iDGc0laIRmYNtNH0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vV1EQ1zLuZ5yPL7LaBqPayVsggC.jpg",
-      "description": "Jake, Izzy et Le Frisé sont de jeunes pirates accompagnés de leur perroquet, Skully. Ils vivent au Pays imaginaire et doivent affronter les manigances du Capitaine Crochet qui tente de voler des trésors répandus presque partout dans le Pays Imaginaire avec l'aide de sa bande de pirates : Sharky et Bones (avec notamment Monsieur Mouche).",
-      "releaseInfo": "2011"
-    },
-    {
-      "id": "tmdb:95",
-      "type": "series",
-      "name": "Buffy contre les vampires",
-      "poster": "https://image.tmdb.org/t/p/w500/aMevCP31StJiJYOtMPWSdZ9J5Ni.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lBmlLro9ZfY815ZXE5NKhYNxPRQ.jpg",
-      "description": "A chaque génération il y a une élue. Seule elle devra affronter les vampires, les démons et les forces de l'ombre. Concilier scolarité difficile et affrontements nocturnes, ce n'est pas facile. Et c'est pourtant le quotidien de Buffy, une adolescente comme les autres avec ses problèmes affectifs et scolaires, mais qui la nuit part à la chasse aux vampires !",
+      "name": "Ally McBeal",
+      "poster": "https://image.tmdb.org/t/p/w500/weS8htxS2j0EQ6jorK3WOR1dZpH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xCMs3IxaGqKSc5cwngRUlhmjbwl.jpg",
+      "description": "Charmante, romantique, hystérique, excessive et passionnée, Ally McBeal n'en reste pas moins une brillante avocate qui défend farouchement les intérêts du Cabinet Cage & Fish en suivant ses sentiments.",
       "releaseInfo": "1997"
     },
     {
-      "id": "tmdb:615",
+      "id": "tmdb:136315",
       "type": "series",
-      "name": "Futurama",
-      "poster": "https://image.tmdb.org/t/p/w500/eM8bbTn8C8vUwwS6upzzm7gX31u.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4xKG4S1IyLIglHbCYGJDsptgQNh.jpg",
-      "description": "Accidentellement cryogénisé le 31 décembre 1999 alors qu'il livrait une pizza, Fry se réveille 1.000 ans plus tard à New York. À l'aube de l'an 3000, le monde a bien changé, peuplé de robots et d'extraterrestres. Le jeune homme retrouve l'un de ses descendants qui l'engage lui et ses nouveaux amis, Leela et Bender, au Planet Express, une entreprise de livraison. Ensemble, ils vont devoir faire face à de périlleuses et délirantes missions dans un monde des plus surprenants.",
-      "releaseInfo": "1999"
+      "name": "The Bear",
+      "poster": "https://image.tmdb.org/t/p/w500/iaJfffjCqXATU5msr4PAgOWLMl4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aJtG4txtmiRHwAAqENQHZvBs6kY.jpg",
+      "description": "Un jeune cuisinier qui a travaillé dans les meilleurs restaurants gastronomiques du pays retourne au bercail et retrouve la grisaille de Chicago pour reprendre la sandwicherie de son frère.",
+      "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:1403",
+      "id": "tmdb:213375",
       "type": "series",
-      "name": "Marvel : Les Agents du S.H.I.E.L.D.",
-      "poster": "https://image.tmdb.org/t/p/w500/j6pen1MBLKbBoXrzrHSxfsd0lrC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg",
-      "description": "Suite aux évènements survenus dans THE AVENGERS, l'agent Phil Coulson retourne au sein de l'organisation mondiale du maintien de l'ordre, le S.H.I.E.L.D., pour y mettre sur pied une petite équipe d'agents extrêmement bien entraînés afin de s'attaquer aux affaires non encore classées ayant un trait aux phénomènes nouveaux, étranges et inconnus. Constistuée du très intègre agent Grant Ward, expert en combat et renseignements, de l'agent Melinda May, pilote émérite et experte en arts martiaux et des très brillants, si ce n'est un peu étranges socialement, agents scientifiques Leo Fitz et Jemma Simmons, l'équipe sera épaulée par Skye, nouvelle recrue civile, hacker et fan de super-héros.",
-      "releaseInfo": "2013"
+      "name": "VisionQuest",
+      "poster": "https://image.tmdb.org/t/p/w500/bWPktguPGslrdM79SNQt4OWYyJS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uoXXbN2PrOxH6UKyP7kYwmGpAAP.jpg",
+      "description": "Une nouvelle version de Vision ayant échappé à ceux qui cherchaient à faire de lui une arme, vit dans la clandestinité. En quête d’un nouveau sens à sa vie, il consulte les IA intégrées à son programme, notamment Friday, Edith, Jarvis et le tristement célèbre Ultron. Son existence discrète prend fin lorsque sa tête est mise à prix, le contraignant à prendre la fuite avec Thomas Shepherd, un garçon mystérieux qui pourrait bien être la réincarnation du fils de Vision. Tout en échappant à ses poursuivants, Vision doit se confronter à sa propre nature, résister à l’influence d’Ultron et percer le mystère qui entoure son jeune compagnon s’il veut survivre.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:312359",
+      "type": "series",
+      "name": "Dragon Ball Super : Beerus",
+      "poster": "https://image.tmdb.org/t/p/w500/sGuCmIy8kEmx3FWZyMj654rF6g8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg",
+      "description": "Des années après la défaite de Majin Buu, la paix est revenue sur Terre. Mais lorsque Beerus, le Dieu de la Destruction, se réveille, cette tranquillité vole en éclats. Attiré sur Terre par des rumeurs concernant le Saiyan qui a vaincu Freezer, Beerus cherche à défier Goku en déployant une puissance capable de détruire des planètes entières. Goku et ses alliés doivent désormais affronter Beerus dans un combat qui fera trembler l'univers.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:4087",
+      "type": "series",
+      "name": "X-Files : Aux frontières du réel",
+      "poster": "https://image.tmdb.org/t/p/w500/eP4OS57gbqiOIvVAnCs8T4rz5t4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/w00lfexrsOeR25dO4hsWhbcUnmD.jpg",
+      "description": "Fox Mulder est un agent du FBI. Attiré par les phénomènes paranormaux et les croyances parfois irrationnelles, il s'intéresse aux affaires non classées, certaines relevant du paranormal. On lui adjoint une partenaire, Dana Scully, médecin et beaucoup plus adepte de la logique cartésienne. Mulder, obsédé par la disparition de sa sœur, est persuadé qu'elle a été enlevée par des aliens. Les deux agents vont ainsi entrevoir les grandes lignes de complots et autres théories de la conspiration…",
+      "releaseInfo": "1993"
+    },
+    {
+      "id": "tmdb:4194",
+      "type": "series",
+      "name": "Star Wars : The Clone Wars",
+      "poster": "https://image.tmdb.org/t/p/w500/cQlhImExKeGvmzsGqBkdHUdnMiG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/m6eRgkR1KC6Mr6gKx6gKCzSn6vD.jpg",
+      "description": "La galaxie est en proie à la Guerre des Clones, un conflit à grande échelle qui oppose les maléfiques Séparatistes et leurs immenses armées d'androïdes à la République. Les Chevaliers Jedi, protecteurs de la République, luttent pour maintenir l'ordre et restaurer la paix tandis que de nouvelles planètes succombent chaque jour aux puissances du mal. Pour prendre l'avantage, le Chevalier Jedi Anakin Skywalker et sa jeune Padawan, Ahsoka Tano, sont chargés d'une mission capitale qui va les confronter au redoutable « parrain » de Tatooine, Jabba le Hutt. D'autres épreuves et de nouveaux dangers attendent nos héros sur Tatooine, car le Comte Dooku ne tarde pas à se lancer à leur poursuite avec ses sinistres agents - dont la cruelle Asajj Ventress, prête à tout pour faire échouer Anakin et Ahsoka. Pendant ce temps, sur le front, Obi-Wan Kenobi et Maître Yoda s'efforcent vaillamment de préparer l'armée des clones à résister aux forces des Ténèbres…",
+      "releaseInfo": "2008"
     }
   ]
 }

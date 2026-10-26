@@ -673,6 +673,11 @@
     },
     {
       "type": "series",
+      "id": "mc-fr-7ec8b28e33bc82",
+      "name": "Diffusion TV · Disney Channel · Épisodes diffusés cette semaine"
+    },
+    {
+      "type": "series",
       "id": "mc-fr-ab4c2d8d6f863d",
       "name": "Diffusion TV · E! · Épisodes diffusés cette semaine"
     },
@@ -690,11 +695,6 @@
       "type": "series",
       "id": "mc-fr-551bf92414d021",
       "name": "Diffusion TV · FOX · Épisodes diffusés cette semaine"
-    },
-    {
-      "type": "series",
-      "id": "mc-fr-1b75cadf309516",
-      "name": "Diffusion TV · Freeform · Épisodes diffusés cette semaine"
     },
     {
       "type": "series",
@@ -1127,6 +1127,11 @@
       "name": "FR · Mubi · Nouveaux repérés dans l’échantillon"
     },
     {
+      "type": "series",
+      "id": "mc-newseen-mc-fr-1209be2888bb21",
+      "name": "FR · Mubi · Nouveaux repérés dans l’échantillon"
+    },
+    {
       "type": "movie",
       "id": "mc-newseen-mc-fr-a85c2602bad5a6",
       "name": "FR · Paramount+ · Nouveaux repérés dans l’échantillon"
@@ -1139,6 +1144,11 @@
     {
       "type": "movie",
       "id": "mc-newseen-mc-fr-58adc6b0d82278",
+      "name": "FR · Pluto TV · Nouveaux repérés dans l’échantillon"
+    },
+    {
+      "type": "series",
+      "id": "mc-newseen-mc-fr-684ebf1c646d19",
       "name": "FR · Pluto TV · Nouveaux repérés dans l’échantillon"
     }
   ],

@@ -28,30 +28,12 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:2190",
-      "type": "series",
-      "name": "South Park",
-      "poster": "https://image.tmdb.org/t/p/w500/fgRCZiN3igJqtIAXrBm9S7BwLVp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3UviYOlhn8EgXMBuiT6MnUuo1w9.jpg",
-      "description": "La petite ville de South Park dans le Colorado est le théâtre des aventures de Cartman, Stan, Kyle et Kenny, quatre enfants au langage quelque peu... décalé !",
-      "releaseInfo": "1997"
-    },
-    {
       "id": "tmdb:284833",
       "type": "series",
       "name": "Avatar : Les Sept Refuges",
       "poster": "https://image.tmdb.org/t/p/w500/yfUFI7fIDcdA01Ej5Rwfv2OEH8O.jpg",
       "background": "https://image.tmdb.org/t/p/w780/t2KFGH07Al4XuIZLHRlF1Hj9IJB.jpg",
       "description": "Après une catastrophe planétaire, une jeune maîtresse de la terre découvre qu'elle est l'Avatar succédant à Korra. Désormais considérée comme un présage de fin du monde, elle se lance dans une course contre-la-montre pour sauver les Sept Refuges.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:290856",
-      "type": "series",
-      "name": "Marshals: A Yellowstone Story",
-      "poster": "https://image.tmdb.org/t/p/w500/jPOKjzCG8tgUigtWyA4ME9fNeia.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yGJGwt7DdIWTUXuahLfhcH1gi7G.jpg",
-      "description": "Le ranch du Yellowstone derrière lui, Kayce Dutton rejoint une unité des U.S. Marhals. Cowboy et ancien Navy SEAL, il apporte la justice dans le Montana. Lui et ses coéquipiers sont le dernier rempart de la région dans la guerre contre la violence.",
       "releaseInfo": "2026"
     },
     {
@@ -64,13 +46,13 @@
       "releaseInfo": "2016"
     },
     {
-      "id": "tmdb:126824",
+      "id": "tmdb:290856",
       "type": "series",
-      "name": "Patrick Super Star",
-      "poster": "https://image.tmdb.org/t/p/w500/oyCsf5f93qrb4qD7jw1W6wGt3Ks.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kP7pCxfml6erWC9aB72ALtNawJq.jpg",
-      "description": "Patrick anime sa propre émissions dans sa maison familiale, avec le soutien de toute sa famille.",
-      "releaseInfo": "2021"
+      "name": "Marshals: A Yellowstone Story",
+      "poster": "https://image.tmdb.org/t/p/w500/jPOKjzCG8tgUigtWyA4ME9fNeia.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yGJGwt7DdIWTUXuahLfhcH1gi7G.jpg",
+      "description": "Le ranch du Yellowstone derrière lui, Kayce Dutton rejoint une unité des U.S. Marhals. Cowboy et ancien Navy SEAL, il apporte la justice dans le Montana. Lui et ses coéquipiers sont le dernier rempart de la région dans la guerre contre la violence.",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:202297",
@@ -80,6 +62,15 @@
       "background": "https://image.tmdb.org/t/p/w780/r6jUY6q3ObYOeFFWxM7jemS7IWE.jpg",
       "description": "En quête de rédemption et d'une peine de prison raccourcie, le jeune condamné Bode Donovan rejoint un programme de lutte contre les incendies qui le ramène dans sa petite ville natale du nord de la Californie, où lui et d'autres détenus travaillent aux côtés de pompiers d'élite pour éteindre d'énormes incendies dans la région.",
       "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:126824",
+      "type": "series",
+      "name": "Patrick Super Star",
+      "poster": "https://image.tmdb.org/t/p/w500/oyCsf5f93qrb4qD7jw1W6wGt3Ks.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kP7pCxfml6erWC9aB72ALtNawJq.jpg",
+      "description": "Patrick anime sa propre émissions dans sa maison familiale, avec le soutien de toute sa famille.",
+      "releaseInfo": "2021"
     },
     {
       "id": "tmdb:62",
@@ -100,21 +91,13 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:214875",
+      "id": "tmdb:133174",
       "type": "series",
-      "name": "Ruben & cie",
-      "poster": "https://image.tmdb.org/t/p/w500/trcqt0g3NczUiIsxgYcRvE6QbBi.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5SWWe369D4Fjs2RDVhMagNJLlps.jpg",
-      "description": "Les aventures de Ruben et de ses amis ont lieu dans une petite ville en plein essor, Bricoville. De nouveaux habitants arrivent tous les jours. Ils peuvent compter sur Ruben et sa famille de constructeurs !",
-      "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:286277",
-      "type": "series",
-      "name": "Rubble & Crew",
-      "poster": "https://image.tmdb.org/t/p/w500/AbL8GIkcrAW0Q9fkmlvjuqWfVmp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bU61zseAE4I4S9uu4cUHFa1kP1H.jpg",
-      "releaseInfo": "2023"
+      "name": "All the Queen's Men",
+      "poster": "https://image.tmdb.org/t/p/w500/99ld1qIW343tT9RTjmlQ5CJubsa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8cRV6nGfJGbqcqUwh1ZpTigqCzU.jpg",
+      "description": "Madame, une femme d'affaires redoutable et sans scrupules, dirige une troupe de stripteaseurs masculins dans un club pour adultes d'Atlanta où les tensions et les scandales ne manquent jamais.",
+      "releaseInfo": "2021"
     },
     {
       "id": "tmdb:137948",
@@ -126,12 +109,21 @@
       "releaseInfo": "2021"
     },
     {
-      "id": "tmdb:330912",
+      "id": "tmdb:286277",
       "type": "series",
-      "name": "The Varnell Hill Show",
-      "poster": "https://image.tmdb.org/t/p/w500/nZbQHs1WCf2H8NJ8hzR0n5LoeT6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tE5EU20M9fHufcLXw2I8lM1hTMu.jpg",
-      "releaseInfo": "2026"
+      "name": "Rubble & Crew",
+      "poster": "https://image.tmdb.org/t/p/w500/AbL8GIkcrAW0Q9fkmlvjuqWfVmp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bU61zseAE4I4S9uu4cUHFa1kP1H.jpg",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:240903",
+      "type": "series",
+      "name": "Aussie Shore",
+      "poster": "https://image.tmdb.org/t/p/w500/496cQp6MM6XAODnne7Zgk5KFsI1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8gB9SRbr0XXxGUUbSD8VzTKsrxw.jpg",
+      "description": "Aussie Shore suit les frasques d'un groupe de jeunes déchaînés qui travaillent autant qu'ils font la fête, tout en faisant l'expérience de la colocation dans la ville de Cairns, une ville où l'on fait la fête sans relâche.",
+      "releaseInfo": "2024"
     }
   ]
 }

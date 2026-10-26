@@ -28,15 +28,6 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:2190",
-      "type": "series",
-      "name": "South Park",
-      "poster": "https://image.tmdb.org/t/p/w500/fgRCZiN3igJqtIAXrBm9S7BwLVp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3UviYOlhn8EgXMBuiT6MnUuo1w9.jpg",
-      "description": "La petite ville de South Park dans le Colorado est le théâtre des aventures de Cartman, Stan, Kyle et Kenny, quatre enfants au langage quelque peu... décalé !",
-      "releaseInfo": "1997"
-    },
-    {
       "id": "tmdb:284833",
       "type": "series",
       "name": "Avatar : Les Sept Refuges",
@@ -44,6 +35,15 @@
       "background": "https://image.tmdb.org/t/p/w780/t2KFGH07Al4XuIZLHRlF1Hj9IJB.jpg",
       "description": "Après une catastrophe planétaire, une jeune maîtresse de la terre découvre qu'elle est l'Avatar succédant à Korra. Désormais considérée comme un présage de fin du monde, elle se lance dans une course contre-la-montre pour sauver les Sept Refuges.",
       "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:68073",
+      "type": "series",
+      "name": "Bienvenue chez les Loud",
+      "poster": "https://image.tmdb.org/t/p/w500/rCMCfA1wxgsnBXyHxPEPRFdWMkX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jQmYRTt29hTNFGdNdwFVazOrDpO.jpg",
+      "description": "Dans la ville fictive de Royal Woods, dans le Michigan, vivent Lincoln Loud et ses 10 sœurs. La vie du jeune garçon de 11 ans est de loin trépidante. Il sait que pour survivre avec 5 grandes sœurs (Lori, Leni, Luna, Luan, et Lynn) et 5 petites sœurs (Lucy, les jumelles Lana et Lola ainsi que Lisa, et enfin Lily, le bébé), il faut faire preuve de détachement, de confiance en soi, d'optimisme et qu'il faut toujours avoir un plan!",
+      "releaseInfo": "2016"
     },
     {
       "id": "tmdb:290856",
@@ -55,13 +55,13 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:68073",
+      "id": "tmdb:202297",
       "type": "series",
-      "name": "Bienvenue chez les Loud",
-      "poster": "https://image.tmdb.org/t/p/w500/rCMCfA1wxgsnBXyHxPEPRFdWMkX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jQmYRTt29hTNFGdNdwFVazOrDpO.jpg",
-      "description": "Dans la ville fictive de Royal Woods, dans le Michigan, vivent Lincoln Loud et ses 10 sœurs. La vie du jeune garçon de 11 ans est de loin trépidante. Il sait que pour survivre avec 5 grandes sœurs (Lori, Leni, Luna, Luan, et Lynn) et 5 petites sœurs (Lucy, les jumelles Lana et Lola ainsi que Lisa, et enfin Lily, le bébé), il faut faire preuve de détachement, de confiance en soi, d'optimisme et qu'il faut toujours avoir un plan!",
-      "releaseInfo": "2016"
+      "name": "Fire Country : Pompiers sur Appel",
+      "poster": "https://image.tmdb.org/t/p/w500/2qhBMwFtQIUQId8nhaywVqKTPLw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r6jUY6q3ObYOeFFWxM7jemS7IWE.jpg",
+      "description": "En quête de rédemption et d'une peine de prison raccourcie, le jeune condamné Bode Donovan rejoint un programme de lutte contre les incendies qui le ramène dans sa petite ville natale du nord de la Californie, où lui et d'autres détenus travaillent aux côtés de pompiers d'élite pour éteindre d'énormes incendies dans la région.",
+      "releaseInfo": "2022"
     }
   ]
 }

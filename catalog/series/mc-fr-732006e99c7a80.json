@@ -10,6 +10,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:231801",
+      "type": "series",
+      "name": "GET JIRO",
+      "poster": "https://image.tmdb.org/t/p/w500/li3TH09EF6JyHPVoTvub4nPOfwU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xe6wbOPKuSMOze4rl48NFWy8PNe.jpg",
+      "description": "Sino : Le futur. Los Angeles est sous la coupe de chefs cuisiniers d'élite. Jiro, un maître sushi mêlé à un conflit culinaire sanglant dans l'impitoyable milieu de la restauration cherche à se venger grâce à ses talents de chef.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:318918",
       "type": "series",
       "name": "LEGO One Piece",
@@ -22,7 +31,7 @@
       "id": "tmdb:252105",
       "type": "series",
       "name": "Golden Axe",
-      "poster": "https://image.tmdb.org/t/p/w500/toEwR5VTFzHmxW1pX1HjtTXH6QH.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/lQxGHqmYA6VMSkdnOnFC5P0dO0g.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zOcEo3oQf9KDPPxZueNhReN6TBr.jpg",
       "description": "Trois célèbres guerriers tentent de sauver le royaume de Yuria des attaques d'un géant maléfique. Leur noble quête est perturbée par un aventurier débutant et maladroit.",
       "releaseInfo": "2026"
@@ -168,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/8HmHtc8jRKCe83Uj1q7l216Bftz.jpg",
       "background": "https://image.tmdb.org/t/p/w780/8X2R9uLys3SmkRuQAmSI96xxJAF.jpg",
       "description": "Du premier dinosaure au tout dernier, cette série documentaire épique étudie les 165 millions d'années qu'ils ont passées sur Terre et les forces qui ont forgé leur évolution.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:298343",
-      "type": "series",
-      "name": "Strip Law",
-      "poster": "https://image.tmdb.org/t/p/w500/hs9kjF67nO5vc3kBgm3IF2MLnRe.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jH1vBLHxp7E2AZGdhvjnxA96mJh.jpg",
-      "description": "Dans cette comédie d'animation irrévérencieuse pour adultes, un avocat coincé fait équipe avec une magicienne de Las Vegas pour pimenter les affaires les plus stupides de la ville.",
       "releaseInfo": "2026"
     }
   ]

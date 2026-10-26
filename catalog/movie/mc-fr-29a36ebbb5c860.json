@@ -1,12 +1,39 @@
 {
   "metas": [
     {
+      "id": "tmdb:1452110",
+      "type": "movie",
+      "name": "Clean Hands",
+      "poster": "https://image.tmdb.org/t/p/w500/szIEtkFLOMsPX6AVQSfzalNEEDd.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/py3XG3mFkdVMcw7VwfZ4HaXZIIU.jpg",
+      "description": "L'histoire vraie de Kevin Simmers, ancien policier anti-drogue devenu défenseur de la désintoxication, et de sa fille Brooke. Le film explore la crise américaine de la drogue et « la fine ligne bleue » à travers les regards opposés d'un policier et d'une toxicomane, qui étaient également père et fille.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1236045",
+      "type": "movie",
+      "name": "Animals",
+      "poster": "https://image.tmdb.org/t/p/w500/33MhDOKB0S5VwuaD9lZyV0v0st0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tzoarEu7TsG959upiELyYPm5kO9.jpg",
+      "description": "Quand leur fils est enlevé, un candidat à la mairie de Los Angeles et sa femme s'efforcent de réunir l'argent de la rançon et font des choix qui pourraient bouleverser leur vie.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1492640",
       "type": "movie",
       "name": "UNABOMBER",
       "poster": "https://image.tmdb.org/t/p/w500/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg",
       "background": "https://image.tmdb.org/t/p/w780/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
       "description": "Ted Kaczynski, un jeune prodige qui intègre Harvard à 16 ans avant de basculer dans le terrorisme. Soumis à des expériences psychologiques discutables menées par le docteur Henry Murray, le passé tourmenté de Kaczynski refait surface des décennies plus tard, lorsque la traque d'Unabomber menée par l'agente du FBI Joanne Miller met en lumière les conséquences terrifiantes de l'ambition et de l'isolement.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1437396",
+      "type": "movie",
+      "name": "Your Mother Your Mother Your Mother",
+      "poster": "https://image.tmdb.org/t/p/w500/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jiFLiatBtBALlAzV5R72gzspBad.jpg",
+      "description": "Latif, un tueur à gages profondément religieux, a du mal à équilibrer travail, foi et paternité. Lorsque sa femme décède, il se lance dans un voyage désespéré à travers Houston pour protéger ses enfants, affrontant les forces qui se rapprochent de lui – et les croyances qui menacent de s'effondrer à l'intérieur.",
       "releaseInfo": "2026"
     },
     {
@@ -19,12 +46,12 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1433583",
+      "id": "tmdb:1290418",
       "type": "movie",
-      "name": "Les Contrebandiers",
-      "poster": "https://image.tmdb.org/t/p/w500/hjM3hITDk5XvWu4cMn7dj7IpwY8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zLeq2fbHU6UdA7mhsYnIULORTgq.jpg",
-      "description": "Oregon, 1933. Après la mort de sa femme, Samuel Murphy est arraché à sa fille et envoyé dans un camp de travail impitoyable. Lorsqu’un surveillant sans scrupule lui promet la liberté contre une périlleuse mission de contrebande d’or, Murphy saisit sa seule chance de rentrer chez lui. Il s’embarque alors dans une expédition de tous les dangers, au cœur d’une nature hostile, où les trahisons se multiplient. Jusqu’où Murphy sera-t-il prêt à aller pour revoir sa fille ?",
+      "name": "The Cycle",
+      "poster": "https://image.tmdb.org/t/p/w500/n5gSNf55KWfDc9hqP4H1KCCSutE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bgHW6AJl2SdKzxglvf9tshXbI84.jpg",
+      "description": "Une fille découvre le sombre passé de son père après la découverte de son corps, disparu depuis 36 ans, sur une scène de crime horrible.",
       "releaseInfo": "2026"
     },
     {
@@ -39,10 +66,10 @@
     {
       "id": "tmdb:1380417",
       "type": "movie",
-      "name": "Par tous les moyens",
-      "poster": "https://image.tmdb.org/t/p/w500/f4hdIed8vh10O8TkQ1CkHS8MQ3G.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/eAouIDoMDhLetm6CtmDKIGEaaCi.jpg",
-      "description": "L'histoire vraie d'un tueur à gages de la mafia qui a été engagé par le FBI de Hoover et qui s'est associé à un jeune agent spécial noir pour traquer les responsables des meurtres des leaders des droits civiques dans le Mississippi en 1966.",
+      "name": "By Any Means",
+      "poster": "https://image.tmdb.org/t/p/w500/evCy2B3j57AwSNBZqlePjMl3zj3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1jANqIbqrWJZb8GM5Kb3L6U8iHi.jpg",
+      "description": "Un jeune agent noir du FBI est envoyé au Mississippi dans les années 60 afin d’enquêter sur une vague de meurtres brutaux visant des leaders du mouvement des droits civiques. Contraint de faire équipe avec le célèbre tueur à gages de la mafia Greg Scarpa, il se retrouve entraîné dans une traque meurtrière où la frontière entre justice et vengeance devient de plus en plus floue.",
       "releaseInfo": "2026"
     },
     {
@@ -111,8 +138,8 @@
       "id": "tmdb:675871",
       "type": "movie",
       "name": "Super Troopers 3",
-      "poster": "https://image.tmdb.org/t/p/w500/VVU42nqsEmUtFpH1d9MHj5BIpF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mqO2Q8BeCuESJUVZgwyWRDa9Ux9.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/hOAjBggD7zWat7nqt7dUUDH5ZRG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rAeT8K51JJJomj0M7WGPC8jt4yi.jpg",
       "description": "Dans le Vermont, près de la frontière canadienne, cinq officiers de police, Thorny, Farva, Mac, Foster et Rabbit, tentent tant bien que mal de faire respecter l'ordre.",
       "releaseInfo": "2026"
     },
@@ -150,33 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/oRCQDEb8wqBIQIs12BBtimPL1Bw.jpg",
       "background": "https://image.tmdb.org/t/p/w780/hL5EIk48251OXlbIbRJq3yaBHk8.jpg",
       "description": "Un quadragénaire en perte de vitesse espère sauver sa carrière dans la publicité en rejoignant un groupe de vingtenaires pour un enterrement de vie de garçon déjanté de trois jours, après avoir été ajouté par erreur à leur conversation par SMS.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1202033",
-      "type": "movie",
-      "name": "Enola Holmes 3",
-      "poster": "https://image.tmdb.org/t/p/w500/ncHImt9szlNQaNM2iY3vcgSdDp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jLuGZc84MvPYCQomQg9DI72mstt.jpg",
-      "description": "La détective Enola Holmes poursuit ses aventures à Malte, où son projet de mariage se complique quand elle doit résoudre une périlleuse affaire liée à la disparition de Sherlock.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1413976",
-      "type": "movie",
-      "name": "Citizen Vigilante",
-      "poster": "https://image.tmdb.org/t/p/w500/6LmJD3Wohe0g4U62wgi7RyJqfE4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zUninC7dOHfzwcgCqQMLQjlMtiy.jpg",
-      "description": "Frustré par l'absence de justice publique, Sanders décide de prendre les choses en main en devenant un justicier. Il se met alors en tête de punir à la fois les criminels et les fonctionnaires corrompus. À mesure que ses actions de justicier s'intensifient, sa notoriété grandit : il gagne le soutien du public, qui le considère comme un héros, mais attire également l'attention d'Henry, un responsable d'Interpol, qui le perçoit comme une menace pour la société.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1020047",
-      "type": "movie",
-      "name": "In the Hand of Dante",
-      "poster": "https://image.tmdb.org/t/p/w500/lvp4pBAWL7unhoyt32rlCm2YfXF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tJJ737CJujLXw1GlUYd7K4AH3eB.jpg",
-      "description": "Nick Tosches, un écrivain, apprend qu'un manuscrit de La Divine Comédie de Dante, volé au Vatican, est réapparu à New York. Incapable de passer à côté de cette opportunité, Nick décide de tenter d'authentifier ce manuscrit et de mener l'enquête sur ses origines, son parcours et celui de son auteur.",
       "releaseInfo": "2026"
     }
   ]

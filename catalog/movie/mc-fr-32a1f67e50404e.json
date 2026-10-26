@@ -1,15 +1,6 @@
 {
   "metas": [
     {
-      "id": "tmdb:1477104",
-      "type": "movie",
-      "name": "Shaun le Mouton : La Bêêête d'Halloween",
-      "poster": "https://image.tmdb.org/t/p/w500/poG8LaprHjz2Ka0c6zCvDrVjEUq.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
-      "description": "À Halloween, les habitants de la ferme de Mossy Bottom se réjouissent des festivités, jusqu’à ce que le Fermier maladroit saccage les citrouilles bien-aimées du troupeau. Lorsque Shaun se transforme en scientifique fou pour résoudre le problème, les choses dérapent : le Fermier disparaît et une bête sauvage rôde dans les bois.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:1465063",
       "type": "movie",
       "name": "L'Île des Souvenirs",
@@ -41,7 +32,7 @@
       "type": "movie",
       "name": "Coyote vs. Acme",
       "poster": "https://image.tmdb.org/t/p/w500/dFwseuSlDUNiwMuElDb3OAOQ8En.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/viZqGq9TNvQ5uXSD4ahg2RpRONT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7GOW6jod9lLurW5utokAatxg7ql.jpg",
       "description": "Après des décennies à être réduit en miettes par des bombes, pulvérisé à la dynamite, déchiqueté par des aimants, assommé par des rochers, écrasé par des trains, piégé par des tunnels, projeté par des ressorts, aplati par des rouleaux compresseurs, trahi par des ratés mécaniques, malmené par des élastiques, secoué par des fusées, poignardé dans le dos par des costumes de chauve-souris, catapulté par des patins-fusées, renversé par des monocycles, ébranlé par des pilules sismiques, recouvert de caoutchouc par des groupes ennemis, et précipité tête première du haut de toutes les falaises du Sud-Ouest, Wile, Wile E. Coyote contre-attaque enfin. Faisant équipe avec l’avocat-vedette des panneaux publicitaires spécialisé dans les accidents Kevin Avery, il s’attaque à l’avocat d’affaires rusé Buddy Crane et à ACME, Inc., le conglomérat obsédé par le profit étant à l’origine de chacune des catastrophes chaotiques du Coyote.",
       "releaseInfo": "2026"
     },
@@ -59,7 +50,7 @@
       "type": "movie",
       "name": "La Pat’ Patrouille : Le film mission Dino",
       "poster": "https://image.tmdb.org/t/p/w500/iprKhXVhUuGo3LbPurtB7Zcq6ph.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6TSxLmwT7j1ugtKi8NyMmdzWAGj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dY4LyVSvjk9dN20YsxuouaMIMox.jpg",
       "description": "Lorsqu’une mystérieuse tempête surprend leur navire, la Pat’ Patrouille s’échoue sur une île tropicale encore inexplorée… et peuplée de dinosaures ! Ils y rencontrent Rex, un chiot courageux installé sur l’île depuis des années et devenu un véritable expert des dinosaures. Mais leur ennemi de toujours, M. Hellinger, arrive lui aussi sur l’île avec un projet dangereux : exploiter ses richesses naturelles en creusant des mines. Ses actions imprudentes déclenchent bientôt l’éruption d’un gigantesque volcan endormi. La Pat’ Patrouille se retrouve alors entraînée dans une série de missions de sauvetage spectaculaires, plus impressionnantes que tout ce qu’elle a connu jusqu’ici. Elle devra arrêter M. Hellinger et sauver l’île avant qu’il ne soit trop tard.",
       "releaseInfo": "2026"
     },
@@ -178,6 +169,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/gme8X6Y0b1wutuW6kB039i9NwCr.jpg",
       "background": "https://image.tmdb.org/t/p/w780/u53UYu5XG2hNgWGvs3xGhAVzypl.jpg",
       "description": "Mabel, une amoureuse des animaux, utilise une nouvelle technologie pour \"transférer\" sa conscience dans un robot-castor réaliste et communiquer directement avec les animaux. Alors qu'elle découvre des mystères du monde animal dépassant tout ce qu'elle aurait pu imaginer, Mabel se lie d'amitié avec Roi Georges, un charismatique castor, et doit rallier tout le règne animal pour faire face à une menace humaine majeure et imminente : le maire Jerry Generazzo, un beau parleur.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1627824",
+      "type": "movie",
+      "name": "Les Chat-ventures de Rocky",
+      "poster": "https://image.tmdb.org/t/p/w500/pb2TN31Bxh1ZdfAdGWdIJD5RJBi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/slgx2ur9DnHRVLBJYfONL4T7wyx.jpg",
+      "description": "Lorsqu'un des plans de Humdinger tourne mal, la maison d'un chaton de la casse est détruite et Rocky se retrouve dépassé par les événements lorsqu'il invite le chaton à passer la nuit au Lookout. Alors que le chaton cause plus d'ennuis que prévu, Rocky apprend que même les héros ont besoin d'aide.",
       "releaseInfo": "2026"
     }
   ]

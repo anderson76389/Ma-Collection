@@ -1,93 +1,138 @@
 {
   "metas": [
     {
-      "id": "tmdb:248287",
+      "id": "tmdb:110382",
       "type": "series",
-      "name": "STEVE Martin : un documentaire en 2 parties",
-      "poster": "https://image.tmdb.org/t/p/w500/rCJ2XN6Ummg4UNppOy2tmLGfKZ8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6xNZM4falw86qINarl7XsDn8Ojt.jpg",
-      "description": "Steve Martin est l'une des personnalités les plus appréciées et énigmatiques du monde du spectacle. À travers son histoire extraordinaire vue sous les angles du passé et du présent, vous découvrirez comment les débuts de Martin l'ont conduit, étonnamment, à la vie épanouissante qu'il mène aujourd'hui.",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:127641",
-      "type": "series",
-      "name": "Surface",
-      "poster": "https://image.tmdb.org/t/p/w500/xz7FwMYd8GOiZbFAJ54pcEhNCxK.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wg4OsmDDA1VxUc4oqiWCPct6IKs.jpg",
-      "description": "Un grave traumatisme crânien a fait perdre la mémoire à Sophie. Dans sa quête pour retrouver les pièces du puzzle - avec l'aide de son mari et de ses amis - Sophie commence à se poser des questions sur la vie un peu trop parfaite qu'elle menait auparavant.",
+      "name": "Pachinko",
+      "poster": "https://image.tmdb.org/t/p/w500/wUTXdmL6oNjhiStGveOaPeuFOYQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vVKlL4HyrQYAcJuaaUW49FrRqY5.jpg",
+      "description": "Les espoirs et les rêves de quatre générations d’une famille d’immigrés Coréens, alors qu’ils quittent leur pays et cherchent inlassablement à survivre et s’épanouir. Racontée du point de vue de Sunja, l’histoire est un pont entre la vie de Sunja, qui commence dans la Corée du Sud du début du XXème siècle, et celle de Solomon, son petit fils, dans les années 1980.",
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:117303",
+      "id": "tmdb:94951",
       "type": "series",
-      "name": "Lessons in Chemistry",
-      "poster": "https://image.tmdb.org/t/p/w500/2WlMsIe7e42S9PbnlWCRfVyb66P.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/sPE6RlcIdK7i5Z991cQQkoO2R6t.jpg",
-      "description": "Dans les années 1950, Elizabeth Zott rêve de devenir scientifique. Elle est remise en question par une société qui considère que les femmes n'appartiennent qu'à la sphère domestique. Elle accepte un emploi dans une émission de cuisine télévisée et entreprend d'enseigner bien plus que des recettes à une nation de femmes au foyer négligées.",
-      "releaseInfo": "2023"
+      "name": "Mythic Quest",
+      "poster": "https://image.tmdb.org/t/p/w500/jI3pbM1wYQ0JNBUnVXCY7nyK1Ck.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cP82Jtvn7DwVt0mWaDFm7QhWHez.jpg",
+      "description": "Découvrez l’équipe qui est à l’origine du plus grand jeu vidéo multijoueur de tous les temps. Mais au sein de cette entreprise dédiée à la création de mondes et de légendes, les batailles les plus féroces ne sont pas virtuelles.",
+      "releaseInfo": "2020"
     },
     {
-      "id": "tmdb:217658",
+      "id": "tmdb:248830",
       "type": "series",
-      "name": "L'Île des formes",
-      "poster": "https://image.tmdb.org/t/p/w500/zmQukeDUVcGdT8gSvCOX4Mwy3L.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mBQLw9TkOWERNmAlKlkOAo3ehdA.jpg",
-      "description": "Sur une charmante petite île, Carré, Triangle et Cercle partagent des aventures et tissent des liens d'amitié, tout en apprenant à vivre avec les différences de chacun.",
-      "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:120549",
-      "type": "series",
-      "name": "La voix du lac",
-      "poster": "https://image.tmdb.org/t/p/w500/xMRR0djVXzojzNHKjQp59DW7sjj.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/iYQlpBH9RHmoDVcvGsvNpG3Ikx5.jpg",
-      "description": "Lorsque la disparition d’une jeune fille frappe la ville de Baltimore au moment de Thanksgiving en 1966, les vies de deux femmes convergent vers une collision fatale. Maddie Schwartz est une femme au foyer juive qui cherche à se débarrasser d’un passé secret et à se réinventer en tant que journaliste d’investigation, et Cleo Sherwood est une mère de famille qui navigue dans les bas-fonds politiques de la ville noire de Baltimore tout en luttant pour subvenir aux besoins de sa famille. Leurs vies disparates semblent d’abord parallèles, mais lorsque Maddie devient obsédée par la mort mystérieuse de Cleo, un gouffre s’ouvre et met en danger toutes les personnes qui les entourent.",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:204358",
-      "type": "series",
-      "name": "Strange Planet",
-      "poster": "https://image.tmdb.org/t/p/w500/3LTRzzLyTdCWdUgtiOzPSB8JuCJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nPGOwVnAULxHov0i0sror9GM4Ph.jpg",
-      "description": "Bienvenue sur une planète étrange, non sans ressemblances avec la nôtre, où fusent des réflexions aussi hilrantes que poignantes sur la vie, l'amour et l'amitié, formulées de manière très spéciale.",
-      "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:241554",
-      "type": "series",
-      "name": "Murderbot – Journal d’un AssaSynth",
-      "poster": "https://image.tmdb.org/t/p/w500/52sxkAm0WfPIsdHVjLdKt3j1zPu.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/if4r7bXrDH50GhNwCo3Bz8F2LOg.jpg",
-      "description": "Dans un futur high-tech, un androïde de sécurité émancipé se dote secrètement d'un libre arbitre. Il garde le secret et rejoint à contrecœur une mission pour protéger des scientifiques sur une planète hostile… alors qu'il n'aspire qu'à passer des heures devant des feuilletons.",
+      "name": "Stick",
+      "poster": "https://image.tmdb.org/t/p/w500/iM9XiebIgWX1qX53d4s0M3mmvlw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pr1vZU0cxyWEtrXSaozLZiLFfxr.jpg",
+      "description": "Pryce Cahill se destinait à une grande carrière dans le golf avant qu’un dérapage y mette fin. Au bord de la banqueroute, il mise tout sur un jeune prodige dans l’espoir de se reconstruire.",
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:213338",
+      "id": "tmdb:250203",
       "type": "series",
-      "name": "The Buccaneers",
-      "poster": "https://image.tmdb.org/t/p/w500/AnbIiOeQeczniSypJNZvolft3Ud.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xwFeuZJxr1R7pV9uTbCTL8tPJyc.jpg",
-      "description": "Une bande d’Américaines fêtardes débarque sur la scène guindée de Londres dans les années 1870, provoquant un clash culturel anglo-saxon. Envoyées pour assurer leur mariage et leur statut, le cœur de ces jeunes filles aspire à quelque chose de bien différent.",
-      "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:316832",
-      "type": "series",
-      "name": "Mon frère le Minotaure",
-      "poster": "https://image.tmdb.org/t/p/w500/2hLC2rTqB3Qao85lRINWmt4d6RB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/iWFrb4RtT7EknjtoRarAFi7ysUt.jpg",
-      "description": "Un minotaure élevé par des humains rêve de son passé, il se lance alors dans une quête extraordinaire, avec l'aide de son frère et de ses amis, pour comprendre qui il est vraiment.",
+      "name": "Brothers",
+      "poster": "https://image.tmdb.org/t/p/w500/yewGBOuVmcZnMQ60xGGjUhobOsJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aLE7R8QZPpTiWZS48PS22i2OWbl.jpg",
+      "description": "Matthew McConaughey et Woody Harrelson sont meilleurs amis depuis toujours, mais leur lien pourrait devenir encore plus étroit après la découverte d’un secret de famille troublant.",
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:104002",
+      "id": "tmdb:312693",
       "type": "series",
-      "name": "Fraggle Rock : l’aventure continue",
-      "poster": "https://image.tmdb.org/t/p/w500/43pbeuRxVhV5ELLCxRd5xIFHdrG.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/d4Nb1ZUI4A5cRZKvuio75pBv5Cx.jpg",
-      "description": "Rejoignez Gobo, Maggie, Wembley, Béa, Boubeur et de nouveaux amis fraggle dans des aventures drôles et épiques où l'enchantement naît de la passion et de l'amour pour notre monde interconnecté.",
+      "name": "Small Prophets",
+      "poster": "https://image.tmdb.org/t/p/w500/vkp6w1iq72JrFQnpFkWPLWWMZGa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5fThMa3y5H4V7mHtiIEJgtYKPz9.jpg",
+      "description": "Depuis la mystérieuse disparition de sa compagne il y a sept ans, la vie de Michael est en pause. Mais une recette trouvée dans un vieux grimoire pourrait bien lui apporter des réponses.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:246381",
+      "type": "series",
+      "name": "Prime Target",
+      "poster": "https://image.tmdb.org/t/p/w500/lTYvq96Gl1NySKHcGxGDrndbURN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4LBPDopxQXtK3t6mea7CV5AWNk6.jpg",
+      "description": "Un brillant étudiant en mathématiques est sur le point de faire une découverte majeure quand un ennemi tapi dans l'ombre tente de l'arrêter. Luttant pour trouver des réponses, et pour survivre, il fait équipe avec un agent du gouvernement pour lever le voile sur un complot de grande envergure.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:258230",
+      "type": "series",
+      "name": "Portée disparue",
+      "poster": "https://image.tmdb.org/t/p/w500/zXMkaqWinyCbkMSNwhi7htRV0e9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kgaQnDdDaPqvGN7i8LLz1aWJdjP.jpg",
+      "description": "Lorsque Ian Ridley, opérateur des services d'urgence, reçoit un appel affolé d’une adolescente qu’il pense être sa fille disparue, il ne recule devant rien pour la retrouver.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:89901",
+      "type": "series",
+      "name": "Dickinson",
+      "poster": "https://image.tmdb.org/t/p/w500/dDdcAfHBZ6Aalv53iR6o35CSLWA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jrFL1KBSDO5vTM7AB6sXnx6Flc0.jpg",
+      "description": "Dans les années 1800, l'adolescence de la poétesse Emily Dickinson et sa confrontation aux questions de genre et aux problèmes de société de son époque...",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:88055",
+      "type": "series",
+      "name": "Servant",
+      "poster": "https://image.tmdb.org/t/p/w500/IaODPLxCBx02FTxetimQJe6M0v.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7nsRpSCYcDGLcDmFAISHC8zMQ0D.jpg",
+      "description": "Après avoir perdu son bébé, un couple utilise une poupée à des fins thérapeutiques. Les choses virent cependant à l’étrange quand la mère engage une nourrice pour s’occuper de la poupée, et que les membres de la famille semblent en savoir plus sur la tragédie qu’ils ne le laissent savoir…",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:133727",
+      "type": "series",
+      "name": "Acapulco",
+      "poster": "https://image.tmdb.org/t/p/w500/2DytTlscmh48gkfOlWGlEqlgttj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1zWgb5owPiYWmoJ5SEpv6XJb8CQ.jpg",
+      "description": "En 1984, après avoir obtenu le poste dont il avait toujours rêvé dans la station balnéaire la plus en vue d’Acapulco, Maximo Gallardo est vite rattrapé par la dure réalité.",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:93716",
+      "type": "series",
+      "name": "The Mosquito Coast",
+      "poster": "https://image.tmdb.org/t/p/w500/cPqrBO7ovL5N7T9O98tVBHD7bbn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lXN8O8ny20PnISkYlyxSnUXtY8y.jpg",
+      "description": "Allie Fox, un brillant inventeur aussi borné qu’idéaliste, fuit au Mexique avec sa famille pour échapper au gouvernement américain.",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:130853",
+      "type": "series",
+      "name": "Carl Hiaasen’s Bad Monkey",
+      "poster": "https://image.tmdb.org/t/p/w500/3w12TTgQNuc68GOuS7aciBDZ03e.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yj8g84iczcJVg3zCxVGpfdEMMxg.jpg",
+      "description": "Un policier devenu inspecteur de restaurants dans le sud de la Floride se retrouve entraîné dans un monde cupide et corrompu quand un touriste découvre un bras coupé en pêchant. Et oui, il y a un singe.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:197125",
+      "type": "series",
+      "name": "Constellation",
+      "poster": "https://image.tmdb.org/t/p/w500/sX6jEhoamf6yRCH17Fbkk7lArx3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vyuYVtlB38DzXdF11XwyX7xPp0t.jpg",
+      "description": "Après un accident mortel à bord de la Station spatiale internationale, une astronaute se bat pour retourner sur Terre et découvre que de larges pans de sa vie, y compris sa fille, semblent différents.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:2957",
+      "type": "series",
+      "name": "Fraggle Rock",
+      "poster": "https://image.tmdb.org/t/p/w500/7X0IQLIGJZ194IDhWBWdiseanPt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mJOBGeYAmb7gVfhtc4guOhhzrjq.jpg",
+      "description": "Derrière l'atelier de l'inventeur Doc et de son chien Croquette, existe un monde souterrain, appelé Fraggle Rock, dans lequel vivent des créatures poilues. La série s'intéresse surtout aux Fraggles, personnages passant leur temps à s'amuser. Mais outre les Fraggles, ce monde abrite également les Doozers, beaucoup plus petits qu'eux, et les Gorgs, des géants persuadés qu'ils sont les maîtres de l'univers.",
+      "releaseInfo": "1983"
+    },
+    {
+      "id": "tmdb:199318",
+      "type": "series",
+      "name": "Bad Sisters",
+      "poster": "https://image.tmdb.org/t/p/w500/kA3ae05IgkUdYgMhYHV1bodWXgG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aAVRi7XqkJZE6uUEn2Enbhj8rPx.jpg",
+      "description": "Les sœurs Garvey, très soudées entre elles, ont toujours veillé les unes sur les autres. Mais le jour où leur beau-frère malsain, qu'elles souhaitaient toutes voir mourir, finit par décéder, leurs vies sont bouleversées et leur lien mis à l'épreuve comme jamais.",
       "releaseInfo": "2022"
     }
   ]

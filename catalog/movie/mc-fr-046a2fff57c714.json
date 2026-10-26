@@ -1,12 +1,30 @@
 {
   "metas": [
     {
+      "id": "tmdb:1236045",
+      "type": "movie",
+      "name": "Animals",
+      "poster": "https://image.tmdb.org/t/p/w500/33MhDOKB0S5VwuaD9lZyV0v0st0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tzoarEu7TsG959upiELyYPm5kO9.jpg",
+      "description": "Quand leur fils est enlevé, un candidat à la mairie de Los Angeles et sa femme s'efforcent de réunir l'argent de la rançon et font des choix qui pourraient bouleverser leur vie.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1492640",
       "type": "movie",
       "name": "UNABOMBER",
       "poster": "https://image.tmdb.org/t/p/w500/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg",
       "background": "https://image.tmdb.org/t/p/w780/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
       "description": "Ted Kaczynski, un jeune prodige qui intègre Harvard à 16 ans avant de basculer dans le terrorisme. Soumis à des expériences psychologiques discutables menées par le docteur Henry Murray, le passé tourmenté de Kaczynski refait surface des décennies plus tard, lorsque la traque d'Unabomber menée par l'agente du FBI Joanne Miller met en lumière les conséquences terrifiantes de l'ambition et de l'isolement.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1380417",
+      "type": "movie",
+      "name": "By Any Means",
+      "poster": "https://image.tmdb.org/t/p/w500/evCy2B3j57AwSNBZqlePjMl3zj3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1jANqIbqrWJZb8GM5Kb3L6U8iHi.jpg",
+      "description": "Un jeune agent noir du FBI est envoyé au Mississippi dans les années 60 afin d’enquêter sur une vague de meurtres brutaux visant des leaders du mouvement des droits civiques. Contraint de faire équipe avec le célèbre tueur à gages de la mafia Greg Scarpa, il se retrouve entraîné dans une traque meurtrière où la frontière entre justice et vengeance devient de plus en plus floue.",
       "releaseInfo": "2026"
     },
     {
@@ -43,6 +61,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/6YCH9yUVO9Fh23WIOORl6JmCpOo.jpg",
       "background": "https://image.tmdb.org/t/p/w780/nBSlvQrDX60rmngwcxMeMq33I9m.jpg",
       "description": "Au cœur des terres reculées de l’Oklahoma rural, Amziah King, personnage charismatique au talent musical hors du commun, veille sur une bande de marginaux passionnés de bluegrass tout en supervisant la plus importante exploitation apicole de la région. Lorsque sa fille adoptive, dont il était éloigné depuis des années, réapparaît soudainement, Amziah y voit l’occasion de renouer les liens et de bâtir avec elle une entreprise familiale. Mais le monde du miel est sans pitié, et les rivaux d’Amziah menacent de détruire tout ce qu’il a construit.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:675871",
+      "type": "movie",
+      "name": "Super Troopers 3",
+      "poster": "https://image.tmdb.org/t/p/w500/hOAjBggD7zWat7nqt7dUUDH5ZRG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rAeT8K51JJJomj0M7WGPC8jt4yi.jpg",
+      "description": "Dans le Vermont, près de la frontière canadienne, cinq officiers de police, Thorny, Farva, Mac, Foster et Rabbit, tentent tant bien que mal de faire respecter l'ordre.",
       "releaseInfo": "2026"
     },
     {
@@ -151,33 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/sF1EGQWrUghvtD3VpqgsBACHr9u.jpg",
       "background": "https://image.tmdb.org/t/p/w780/qcIKxhqGMIj8uujsSoSMZWr8QqU.jpg",
       "description": "Rachel, recouvreuse de dettes de haut vol, exerce un métier dangereux. C'est pourquoi elle s'entoure des meilleurs, Sid et Bronco, pour l'accompagner et la protéger dans ses négociations. Mais même pour ces spécialistes, récupérer le milliard de dollars de leur prochain contrat pourrait être mission impossible. Sauf qu'impossible ne fait pas partie de leur vocabulaire…",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1439930",
-      "type": "movie",
-      "name": "The Punisher : One Last Kill",
-      "poster": "https://image.tmdb.org/t/p/w500/74VbBYHmpjgeES1zkRo1DwHkWnE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qO55CD8tgVL1T4WKn6zYFFiD6lL.jpg",
-      "description": "Alors que Frank Castle cherche un sens à sa vie au-delà de la vengeance, il replonge contre toute attente au cœur du combat.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1659087",
-      "type": "movie",
-      "name": "180",
-      "poster": "https://image.tmdb.org/t/p/w500/9ISjrhA38HpSSGtfiCk8lpziC3K.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/iQSXJs6RbTumcwxMjCedDoK99rx.jpg",
-      "description": "Lorsqu'une altercation entre conducteurs laisse son fils entre la vie et la mort, un père sombre dans une spirale destructrice nourrie par le désespoir et la vengeance.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1242332",
-      "type": "movie",
-      "name": "Normal",
-      "poster": "https://image.tmdb.org/t/p/w500/t13MdGCKRZvkmrFW2A7Vih3QjwD.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1YU6Hy3x7fUh7dfOzSfjifTp20g.jpg",
-      "description": "Bienvenue à Normal dans le Minnesota. Population : 1890 âmes. Dans ce village isolé, l’ancien enquêteur Ulysses est nommé au poste de sheriff intérimaire. Ce qui était en apparence une communauté sans histoires se révèle être en réalité une fourmilière de secrets et de violence après qu’un hold-up a complètement dérapé. Ulysses découvre rapidement que rien ni personne n’est ce qu’il semble être en apparence. Derrière la façade amicale de Normal se cache un dangereux réseau de corruption et d’alliances secrètes où il se retrouve empêtré.",
       "releaseInfo": "2026"
     }
   ]

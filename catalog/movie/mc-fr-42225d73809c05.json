@@ -1,6 +1,22 @@
 {
   "metas": [
     {
+      "id": "tmdb:1234139",
+      "type": "movie",
+      "name": "ஜெயிலர் 2",
+      "poster": "https://image.tmdb.org/t/p/w500/upwdEyhhYZ7pT2hD535fr2MGfpx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zpHTOdRl7GEPqFsDGqsN6Hi9Ylt.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1269325",
+      "type": "movie",
+      "name": "दृश्यम: आखिरी हिस्सा",
+      "poster": "https://image.tmdb.org/t/p/w500/7T62GSduOWDMB0gGDBs9pmtLTSB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nq73eRdEooripf3k0XHLtX14zyC.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1451944",
       "type": "movie",
       "name": "Histoires Sensuelles 3",
@@ -73,7 +89,7 @@
       "id": "tmdb:1036081",
       "type": "movie",
       "name": "ഖലീഫ: The Ruler",
-      "poster": "https://image.tmdb.org/t/p/w500/ejoiE86NLKpDMnCz2YiCMJ3YGJh.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/3HOC3omTbl7lB9gxKu7uCEpOtuC.jpg",
       "background": "https://image.tmdb.org/t/p/w780/6Jz7rnnZrSkgs9ySWUxewpcxr7Q.jpg",
       "releaseInfo": "2026"
     },
@@ -100,6 +116,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/grRYMAxmfk9VHXY30gm6vfiwyoN.jpg",
       "background": "https://image.tmdb.org/t/p/w780/v7kqufGRDotShPCw53SM7m8t6oc.jpg",
       "description": "Dans un univers où règnent violence et trahison, le rebelle Devadas s’allie à Chandra. Entre passion, vengeance et bains de sang, leur loyauté sera mise à l’épreuve dans un combat où survivre devient leur seule règle.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1545486",
+      "type": "movie",
+      "name": "ഉന്മാദം",
+      "poster": "https://image.tmdb.org/t/p/w500/6AIMHBUY6PCHVYASWZ0GcTA9Kph.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/o0Ai0yCq1jyLE3K55Nk3bAl4D9h.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -143,31 +167,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/hm4ou83RwLVwNj3HsmQuqC1qkWy.jpg",
       "background": "https://image.tmdb.org/t/p/w780/h7VptulPVCJUIvWCE2HzXdHljkj.jpg",
       "description": "Basé sur des événements réels, le deuxième long métrage de Honey Trehan raconte l'histoire de la campagne courageuse du militant des droits humains Jaswant Singh Khalra pour découvrir la corruption meurtrière au plus bas de la période d'insurrection du Pendjab.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1122030",
-      "type": "movie",
-      "name": "अल्फा",
-      "poster": "https://image.tmdb.org/t/p/w500/mbz1hhLxj1P0Ni6AROznUzl8uMH.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/b4WXm5ahmtubYXy3wqHUG2nUKoM.jpg",
-      "description": "Lorsque Sita, une tueuse surentraînée élevée dans l'isolement comme super-soldate par un commandant renégat, découvre la sombre vérité sur sa famille et son enfance volée, elle fait équipe avec sa sœur perdue de vue depuis longtemps pour éliminer son créateur et son programme militaire illicite.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1169516",
-      "type": "movie",
-      "name": "Welcome To The Jungle",
-      "poster": "https://image.tmdb.org/t/p/w500/1JlfUuvvX5xLP2LIDah4JhWUtTx.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/96chPcURxg5thGyLqxO6otyxHFR.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1410937",
-      "type": "movie",
-      "name": "ബാലൻ  - The Boy",
-      "poster": "https://image.tmdb.org/t/p/w500/7H0KRnM0aZS5BHjoZBxriitYSvJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cb4b4K3E2jBGaSjkuIkZHJHmoWG.jpg",
       "releaseInfo": "2026"
     }
   ]

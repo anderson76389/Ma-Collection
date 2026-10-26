@@ -25,15 +25,6 @@
       "releaseInfo": "1972"
     },
     {
-      "id": "tmdb:2778",
-      "type": "series",
-      "name": "Wheel of Fortune",
-      "poster": "https://image.tmdb.org/t/p/w500/4S36URhKU4sBL1gC2B5UxmTlZMl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/A6Sp44grqCnvKs5Plhy3oQncUrq.jpg",
-      "description": "Ce jeu télévisé voit les concurrents résoudre des énigmes de mots, similaires à celles utilisées dans Hangman, pour gagner de l'argent et des prix déterminés en faisant tourner une roue de carnaval géante.",
-      "releaseInfo": "1983"
-    },
-    {
       "id": "tmdb:92611",
       "type": "series",
       "name": "RuPaul's Drag Race UK",
@@ -41,6 +32,15 @@
       "background": "https://image.tmdb.org/t/p/w780/7fsT1NnmNbden0mptoVinBNp4ih.jpg",
       "description": "RuPaul a fait le voyage à travers l'étang à la recherche d'une reine avec le plus de charisme, d'unicité, de nerf et de talent de tout le pays.",
       "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:2778",
+      "type": "series",
+      "name": "Wheel of Fortune",
+      "poster": "https://image.tmdb.org/t/p/w500/4S36URhKU4sBL1gC2B5UxmTlZMl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A6Sp44grqCnvKs5Plhy3oQncUrq.jpg",
+      "description": "Ce jeu télévisé voit les concurrents résoudre des énigmes de mots, similaires à celles utilisées dans Hangman, pour gagner de l'argent et des prix déterminés en faisant tourner une roue de carnaval géante.",
+      "releaseInfo": "1983"
     },
     {
       "id": "tmdb:8425",
@@ -60,20 +60,20 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:291431",
-      "type": "series",
-      "name": "The Celebrity Traitors",
-      "poster": "https://image.tmdb.org/t/p/w500/uziPOqxQotCE9g0wBgDvHCOvRhP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/76BNYD6gBrZPWH4axZH8rEpeyLW.jpg",
-      "releaseInfo": "2025"
-    },
-    {
       "id": "tmdb:1790",
       "type": "series",
       "name": "Family Feud",
       "poster": "https://image.tmdb.org/t/p/w500/2eY3KyYvvjg2jn2ifTGkwdipCAC.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zhLrML5jLVIlln5QFZdYHgtmFXr.jpg",
       "releaseInfo": "1999"
+    },
+    {
+      "id": "tmdb:291431",
+      "type": "series",
+      "name": "The Celebrity Traitors",
+      "poster": "https://image.tmdb.org/t/p/w500/uziPOqxQotCE9g0wBgDvHCOvRhP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/76BNYD6gBrZPWH4axZH8rEpeyLW.jpg",
+      "releaseInfo": "2025"
     },
     {
       "id": "tmdb:114439",
@@ -84,19 +84,27 @@
       "releaseInfo": "2009"
     },
     {
-      "id": "tmdb:103934",
-      "type": "series",
-      "name": "Who Wants to Be a Millionaire",
-      "poster": "https://image.tmdb.org/t/p/w500/s0iphaXxqU2chmBgZ0GpD9As4BN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3m3xHErJXZTRmUwwt4kaQNzzmnP.jpg",
-      "releaseInfo": "2020"
-    },
-    {
       "id": "tmdb:204031",
       "type": "series",
       "name": "Make Some Noise",
       "poster": "https://image.tmdb.org/t/p/w500/e8S4BWVO3mMaTaiUD7qY6xDyXl7.jpg",
       "background": "https://image.tmdb.org/t/p/w780/1t9A8gLUO8mcxczGqEti8Zjw6X2.jpg",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:209752",
+      "type": "series",
+      "name": "Celebrity Jeopardy!",
+      "poster": "https://image.tmdb.org/t/p/w500/q2gZMyMTtmdRByT4zd7H8OqBQEE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r7qJiE6rU9k9ZaSG2oL0IomazMr.jpg",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:258321",
+      "type": "series",
+      "name": "Jet Lag: The Game",
+      "poster": "https://image.tmdb.org/t/p/w500/9XhuLVDsLfNV6DUQXQhgf8uRWAD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aSUBblcybEST0NMblw4MOydgHDG.jpg",
       "releaseInfo": "2022"
     },
     {
@@ -125,20 +133,12 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:328656",
+      "id": "tmdb:116129",
       "type": "series",
-      "name": "Cocktail Wars",
-      "poster": "https://image.tmdb.org/t/p/w500/hxFstp0LSzhFJoYmv9achzFD8g8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pjYmsQgHUrmiekU6Nu5lMfiLFH9.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:261107",
-      "type": "series",
-      "name": "Trivial Pursuit",
-      "poster": "https://image.tmdb.org/t/p/w500/vk2U7azARLXzKHzoJdwnYkojwZl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/sublgjkcTHyPz5o3yGLVbcEOz6Y.jpg",
-      "releaseInfo": "2024"
+      "name": "Lingo",
+      "poster": "https://image.tmdb.org/t/p/w500/a06fDRQsDOatU8tfs7GvdIDx0JS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6f6ZeGZK9p11d6v5gpFwkbkrfXF.jpg",
+      "releaseInfo": "2021"
     },
     {
       "id": "tmdb:222876",
@@ -149,20 +149,20 @@
       "releaseInfo": "2023"
     },
     {
+      "id": "tmdb:261107",
+      "type": "series",
+      "name": "Trivial Pursuit",
+      "poster": "https://image.tmdb.org/t/p/w500/vk2U7azARLXzKHzoJdwnYkojwZl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sublgjkcTHyPz5o3yGLVbcEOz6Y.jpg",
+      "releaseInfo": "2024"
+    },
+    {
       "id": "tmdb:261108",
       "type": "series",
       "name": "Scrabble",
       "poster": "https://image.tmdb.org/t/p/w500/rPyOMo2sAgntdUdnRY4hnfvgMIa.jpg",
       "background": "https://image.tmdb.org/t/p/w780/bKwYqjPolMhtbc0eMFbYoy0VNJy.jpg",
       "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:244543",
-      "type": "series",
-      "name": "Bestie on the Hill",
-      "poster": "https://image.tmdb.org/t/p/w500/kJqpodnkSgU1ZOInnyqN5a6kLg.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4mwmsNZiwoHULQwhvNJg0xYfipo.jpg",
-      "releaseInfo": "2022"
     }
   ]
 }

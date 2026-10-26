@@ -19,6 +19,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:303630",
+      "type": "series",
+      "name": "Cupertino",
+      "poster": "https://image.tmdb.org/t/p/w500/70AhJpOqU2oKyQF2paJA764CSje.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/f9BMWxAWzFqXtqayrAyNbDFg9cK.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:285322",
       "type": "series",
       "name": "Below",
@@ -169,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/wUqUxv3ZhF1spAx4HLxhP1NUK8G.jpg",
       "background": "https://image.tmdb.org/t/p/w780/a0gOfhPiVGjS55HX9aIXInMVXc5.jpg",
       "description": "Produite par Curtis Jackson aka. \"50 Cent\", cette série dramatique policière vous plonge dans l'univers impitoyable et sans concession de la boxe britannique. L'histoire suit un champion de boxe déchu, ancien détenu, qui revient à Londres pour se venger de la famille mafieuse qu'il tient pour responsable de sa trahison. Starz a commandé huit épisodes. Le tournage vient de commencer à Londres.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:287238",
-      "type": "series",
-      "name": "Furious",
-      "poster": "https://image.tmdb.org/t/p/w500/dUbeseppeo1XBwTLks8qXyS0fiT.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/iAOPgUlh7inOebFrUFHAjnFRCGS.jpg",
-      "description": "Alice Black, agent du FBI, est à la poursuite d'une mystérieuse tueuse en série, d'un esprit calculateur. Chacune suit son propre chemin vers la justice, et à mesure que leurs vies commencent à s'entremêler, la frontière entre le bien et le mal s'estompe peu à peu.",
       "releaseInfo": "2026"
     }
   ]

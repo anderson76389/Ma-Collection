@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:1788735",
+      "type": "movie",
+      "name": "Family Guy Happy Hell-o-ween",
+      "poster": "https://image.tmdb.org/t/p/w500/4IuQIUgqyLpbD7R7zmPp9A08rsQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/i5XAKlLzmbGsBtr8T3vyGZHkanT.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1148365",
       "type": "movie",
       "name": "Matchbox – Le film",
@@ -23,7 +31,7 @@
       "type": "movie",
       "name": "Digger",
       "poster": "https://image.tmdb.org/t/p/w500/gPCCGMQCrrMNM3mR3vqIdbdJxJ5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/b7t3r39Oll5qPxBKzLZ8eHMBD7l.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vC5IxhgO6cVmw9O4QgkraRzfHvh.jpg",
       "description": "L’homme le plus puissant du monde se lance dans une mission frénétique pour prouver qu’il est le sauveur de l’humanité avant que le désastre qu’il a déclenché ne détruise tout.",
       "releaseInfo": "2026"
     },
@@ -68,7 +76,7 @@
       "type": "movie",
       "name": "Bad Apples",
       "poster": "https://image.tmdb.org/t/p/w500/ajTzOrqqHl65ZBQfrW1ytzrn9Gl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/A5sGEzVMjvbgh5ZniaHBXAxppKQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dNCK3daKbOi6IHSsM9O2Nwyd91Y.jpg",
       "description": "Une enseignante enferme par inadvertance son élève le plus indiscipliné chez elle. Tentant d'arranger les choses, elle hésite lorsque sa classe commence à s'épanouir en l'absence de l'enfant, lui posant un dilemme impossible.",
       "releaseInfo": "2026"
     },
@@ -149,7 +157,7 @@
       "type": "movie",
       "name": "Spa Weekend",
       "poster": "https://image.tmdb.org/t/p/w500/wW2M5FnQrjTZPrIpOKqYpitAGdj.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8NGPUlR4xKQfgLaWCeXALGF3i27.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ftFf9sfJq69xJ0AuiaIuDKBtfzg.jpg",
       "description": "Entre carrière, famille et responsabilités quotidiennes, quatre amies de longue date réalisent qu'elles ont oublié comment prendre soin d'elles-mêmes. Épuisées et méritant une pause longtemps due, elles partent pour un week-end de détente au sein d'un spa pour un moment de plaisir, de rire et de très mauvaises décisions.",
       "releaseInfo": "2026"
     },
@@ -158,7 +166,7 @@
       "type": "movie",
       "name": "Coyote vs. Acme",
       "poster": "https://image.tmdb.org/t/p/w500/dFwseuSlDUNiwMuElDb3OAOQ8En.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/viZqGq9TNvQ5uXSD4ahg2RpRONT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7GOW6jod9lLurW5utokAatxg7ql.jpg",
       "description": "Après des décennies à être réduit en miettes par des bombes, pulvérisé à la dynamite, déchiqueté par des aimants, assommé par des rochers, écrasé par des trains, piégé par des tunnels, projeté par des ressorts, aplati par des rouleaux compresseurs, trahi par des ratés mécaniques, malmené par des élastiques, secoué par des fusées, poignardé dans le dos par des costumes de chauve-souris, catapulté par des patins-fusées, renversé par des monocycles, ébranlé par des pilules sismiques, recouvert de caoutchouc par des groupes ennemis, et précipité tête première du haut de toutes les falaises du Sud-Ouest, Wile, Wile E. Coyote contre-attaque enfin. Faisant équipe avec l’avocat-vedette des panneaux publicitaires spécialisé dans les accidents Kevin Avery, il s’attaque à l’avocat d’affaires rusé Buddy Crane et à ACME, Inc., le conglomérat obsédé par le profit étant à l’origine de chacune des catastrophes chaotiques du Coyote.",
       "releaseInfo": "2026"
     },
@@ -169,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/6QmP5yGbyosxFbqoM30DDXXXLkg.jpg",
       "background": "https://image.tmdb.org/t/p/w780/lneqlgbg3XUjNaeGYk8arhgzczo.jpg",
       "description": "Deux paumés qui s’improvisent chauffeurs privés doivent conduire un riche adolescent jusqu’à un centre de désintoxication. Lorsque leur passager fait dérailler les plans, le périple se transforme en une virée explosive où se mêlent drogues, danger et crime.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1226699",
-      "type": "movie",
-      "name": "The Wrong Girls",
-      "poster": "https://image.tmdb.org/t/p/w500/gqNqOBWuwG2oR4vcn3wQTPLsyiw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/opubkXrPWbXKXIv8hBsiamTmKoM.jpg",
-      "description": "Frankie et Molly, deux meilleures amies vivent au jour le jour, lorsque leur vie bascule dans le chaos à la suite d'une erreur d'identité.",
       "releaseInfo": "2026"
     }
   ]

@@ -9,6 +9,24 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1620918",
+      "type": "movie",
+      "name": "Norm Macdonald : Une vie pas si normale",
+      "poster": "https://image.tmdb.org/t/p/w500/sQw3m4hl1xyoT9zr7shnNCHDKI3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hE90kqyiFm9apunHLQirvdO7KyR.jpg",
+      "description": "Plongez dans un univers parallèle avec ce documentaire consacré au maître de l'humour pince-sans-rire, Norm Macdonald, dont la vie et la carrière furent intransigeantes mais pleines de contradictions.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1790935",
+      "type": "movie",
+      "name": "Instadocs: L'IA s'emballe",
+      "poster": "https://image.tmdb.org/t/p/w500/g2emP9oTYXzpNyxgti8GKhjOveB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9EfbnudTOAoiPVOEWL0vwhdbdBq.jpg",
+      "description": "L'IA a-t-elle commis un crime grave? La série enquête sur le piratage de Hugging Face et explique en quoi cette cyberattaque pourrait être un signal d'alarme pour l'humanité.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1596303",
       "type": "movie",
       "name": "The Last First : le K2 en hiver",
@@ -159,24 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/1TzK8R7T4BGBLs871qoNX8VnqgZ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/n6TYhOl8NYSoIl8q6dI16IZiodB.jpg",
       "description": "Des images inédites et des témoignages de survivants retracent le naufrage en 2012 d'un paquebot de croisière de luxe et le désastre qui s'ensuivit, dans ce documentaire immersif.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1723068",
-      "type": "movie",
-      "name": "Au plus près des requins-marteaux avec Bertie Gregory",
-      "poster": "https://image.tmdb.org/t/p/w500/9qSoyXh55bRMYByBCMgIddcWJwO.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/50rAhx0C6yo3jd4sINDZkcsyNnK.jpg",
-      "description": "Bertie Gregory se rend dans la péninsule de Basse-Californie, au Mexique, à la recherche de l'un des prédateurs les plus emblématiques de l'océan : le requin-marteau. Autrefois très présent dans ces eaux, le requin-marteau a vu ses effectifs chuter drastiquement.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1612018",
-      "type": "movie",
-      "name": "Jackass: le meilleur pour la fin",
-      "poster": "https://image.tmdb.org/t/p/w500/xd7tpoTpkOUIMf0Xd6DcCWqNrNQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dUbP1HNdI0aCq1zgRJw28PWSqmk.jpg",
-      "description": "Suit l'équipe de Jackass alors qu'elle effectue sa dernière série de cascades et de farces dangereuses, marquant la fin de la franchise.",
       "releaseInfo": "2026"
     }
   ]

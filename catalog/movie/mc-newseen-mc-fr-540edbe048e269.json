@@ -1,86 +1,132 @@
 {
   "metas": [
     {
-      "id": "tmdb:606645",
+      "id": "tmdb:529994",
       "type": "movie",
-      "name": "Crownsville Hospital: From Lunacy to Legacy",
-      "poster": "https://image.tmdb.org/t/p/w500/2KKFf0gKxWQTGJhGl8GuTwr1rLU.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yUYsSNpm9u07vL6Agxssvrkebhr.jpg",
-      "releaseInfo": "2018"
-    },
-    {
-      "id": "tmdb:375116",
-      "type": "movie",
-      "name": "Le Noël de LEGO",
-      "poster": "https://image.tmdb.org/t/p/w500/yvwHWBOxcqNq4Slw1730IltIzfH.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yoPdmdmqoH26wCxHXUb49Md2289.jpg",
-      "description": "Direction Londres pour découvrir les derniers préparatifs avant l'ouverture de la plus grande boutique LEGO au monde. Le documentariste suit également la construction LEGO la plus imposante qui existe : un modèle géant du Tower Bridge de Londres qui a nécessité plus de six millions de briques !",
+      "name": "Wilde Slowakei",
+      "poster": "https://image.tmdb.org/t/p/w500/dePFto74pZX4om0klSLR90iqf5l.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7puyY3LTkvqhmlfpVlh6MccK2CF.jpg",
       "releaseInfo": "2015"
     },
     {
-      "id": "tmdb:654276",
+      "id": "tmdb:79680",
       "type": "movie",
-      "name": "Gauguin: A Dangerous Life",
-      "poster": "https://image.tmdb.org/t/p/w500/4MV1eshzuLB0khwp3YDnkKBe1d3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/iDnwOyzvJPfVEoL3etB1nrBLQ4r.jpg",
-      "releaseInfo": "2019"
+      "name": "The Surprising History of Sex and Love",
+      "poster": "https://image.tmdb.org/t/p/w500/d6LmoWPH5S7I3Q6mhqqdUP6yEnP.jpg",
+      "releaseInfo": "2002"
     },
     {
-      "id": "tmdb:1095802",
+      "id": "tmdb:1043051",
       "type": "movie",
-      "name": "Swans: Mystery of the Missing",
-      "poster": "https://image.tmdb.org/t/p/w500/7sl9JNfOxI5oHiTuKVxiKzN4N1G.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nxsgTCZQ3i91hNByFnAkYMi9jwx.jpg",
-      "releaseInfo": "2019"
+      "name": "Elephant Refugees",
+      "poster": "https://image.tmdb.org/t/p/w500/X14o4zBW6FAjkIEtadRrGEVqnz.jpg",
+      "releaseInfo": "2020"
     },
     {
-      "id": "tmdb:368496",
+      "id": "tmdb:765425",
       "type": "movie",
-      "name": "Angkor redécouvert",
-      "poster": "https://image.tmdb.org/t/p/w500/ldk6BH0sFqNG9DlFblNWCmvuZvA.jpg",
-      "description": "\"Imaginez toutes les cathédrales de France réunies dans une grande forêt.\" Au Cambodge, la forêt tropicale a envahi l'ancienne capitale khmère, mais les vestiges des sanctuaires érigés par les souverains successifs, entre le VIIIe siècle et l'abandon d'Angkor en 1431, témoignent de son influence passée. Comment la cité est-elle née et s'est-elle développée jusqu'à devenir la plus grande ville jamais édifiée au XIIIe siècle ? Près de cent cinquante ans après leur découverte, ses ruines émouvantes et spectaculaires commencent tout juste à livrer leurs secrets. Grâce à un laser révolutionnaire, des scientifiques ont réussi à relever les empreintes laissées par les bâtiments disparus, et à reconstituer la topographie des lieux et les vagues d'expansion de la ville.",
-      "releaseInfo": "2013"
-    },
-    {
-      "id": "tmdb:524107",
-      "type": "movie",
-      "name": "Can We Live with Robots?",
-      "poster": "https://image.tmdb.org/t/p/w500/kq66kBb6wuUckYoRQ3k1SIrNkiV.jpg",
-      "releaseInfo": "2017"
-    },
-    {
-      "id": "tmdb:541346",
-      "type": "movie",
-      "name": "We, the Marines",
-      "poster": "https://image.tmdb.org/t/p/w500/2S4ynqkPM1ZrhmjTTzwZgEhtbWm.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/q88qkMqk9Syxi76hvMRXtsg2Yb0.jpg",
-      "description": "We, The Marines emmène les téléspectateurs dans une aventure pleine d'action dans l'expérience inégalée de devenir et de servir en tant que membre du Corps des Marines des États-Unis. Raconté par l'ancien Marine et acteur, Gene Hackman, le film honore quelque chose de plus que le dévouement et le service ; le film offre un aperçu inoubliable des expériences de première main des «premiers intervenants» américains et de ce qu'il faut pour devenir les hommes et les femmes qui honorent et défendent notre pays.",
-      "releaseInfo": "2017"
-    },
-    {
-      "id": "tmdb:1269467",
-      "type": "movie",
-      "name": "The Mistake that Killed Hitler",
-      "poster": "https://image.tmdb.org/t/p/w500/frZb0QQhYFjsAUKQplwJ2sBtRyQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nMfELQdQtEsgtT7YcEWld7RQFrM.jpg",
+      "name": "Here Comes a New Challenger",
+      "poster": "https://image.tmdb.org/t/p/w500/bpUntfeRrW8ioTlao4Cl3Nr8RNG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7Y16Ii03l5SKuePdeLLfRJJ8UF1.jpg",
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:463568",
+      "id": "tmdb:173938",
       "type": "movie",
-      "name": "Milk",
-      "poster": "https://image.tmdb.org/t/p/w500/4PSXnlQ7uYIAaCOyOwIXWTcN7wR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/a6RoAGxMaIxR9nLDCtYHmEZmoDu.jpg",
-      "releaseInfo": "2015"
+      "name": "Mighty Uke",
+      "poster": "https://image.tmdb.org/t/p/w500/n4baC1UZyxsL309gyIyhNEQTYPk.jpg",
+      "releaseInfo": "2011"
     },
     {
-      "id": "tmdb:840224",
+      "id": "tmdb:587256",
       "type": "movie",
-      "name": "Survivre au 11 septembre",
-      "poster": "https://image.tmdb.org/t/p/w500/w3m4WnV8MYGMTqd6hX8ENdenOa8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/87ljLx4rar2upIz0vWJ6nKl8i6Y.jpg",
-      "description": "Vingt ans après les attentats du 11 septembre 2001, qui ont mené à la destruction des tours jumelles du World Trade Center, Arthur Cary donne la parole à treize rescapés et proches de victimes. De son bureau au 91e étage de la tour nord, il ne reste rien, mais il continue à nourrir l'inspiration de l'artiste Vanessa Lawrence. Elle raconte les moments ayant précédé le crash du premier avion des terroristes contre l'édifice. Rich Eichen, qui travaillait au 90e étage, et Lauren Manning, qui se trouvait à l'étage même où l'impact a eu lieu, se souviennent précisément de la collision. Leurs témoignages sont complétés par ceux de Bill Spade, l'un des premiers pompiers à être intervenu sur les lieux, de journalistes dépêchés pour couvrir l'événement, mais aussi de personnes qui ont perdu un mari ou un autre membre de leur famille.",
+      "name": "L'Odyssée du loup",
+      "poster": "https://image.tmdb.org/t/p/w500/axQzufYfECL56s5bIL3n2mLJCzO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8J7T7T84tIUe8ctbRhRPX3bjhy5.jpg",
+      "description": "Les loups vivent en meute et s'astreignent à une organisation sociale parfaitement structurée autour d'un mâle alpha mais aussi d'individus de milieu de rang et de dernier rang. L'objectif est la protection de chacun des loups composant la meute. Ce documentaire permet de suivre comment un jeune loup banni par ses pairs doit affronter les éléments et survivre dans un monde où l' humain est très présent. Des forêts de Roumanie jusqu'aux rivages de l'océan Atlantique, il recherche un nouveau territoire, une nouvelle meute, une nouvelle famille. Kad Merad raconte l'histoire de Slava le loup, inspirée de faits réels.",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:728559",
+      "type": "movie",
+      "name": "Planet Hunters",
+      "poster": "https://image.tmdb.org/t/p/w500/h94DERfMktc0NoDuZe0h1GEvWBK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fpxCI8M4vo6jOZTggmikaOwcIvN.jpg",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:1574878",
+      "type": "movie",
+      "name": "Frog Fathers: Lessons from the Normandy Surf",
+      "poster": "https://image.tmdb.org/t/p/w500/ggILmgLIzptRtflUt9ugXX713bm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z6Q3RwabvDolmhH1gOzC8bdGhgy.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:354765",
+      "type": "movie",
+      "name": "The Saturn V Story",
+      "poster": "https://image.tmdb.org/t/p/w500/A8kH29EmThbxbLQtJjEOPs7e8f1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mtQ5KBWwJQfVDscUU7xH7WifDIE.jpg",
+      "description": "D'une idée audacieuse à un triomphe américain, ce documentaire suit la création historique de la fusée qui a transporté les premiers astronautes sur la Lune.",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tmdb:330867",
+      "type": "movie",
+      "name": "XVIIe siècle : rivalité maritime entre Angleterre et Pays-Bas",
+      "poster": "https://image.tmdb.org/t/p/w500/zxr3Efvn08uFFApeSfo7Om9NQJO.jpg",
+      "description": "Au XVIIe siècle, l'Angleterre et les Pays-Bas entretiennent leur rivalité commerciale et militaire sur les océans du monde entier. Leurs marchands parcourent le globe, établissent des comptoirs et des colonies de l'ouest aux Indes orientales. Durant ce siècle, Anglais et Hollandais ont surtout mené les plus grandes batailles ­navales de l'histoire de la marine à voile.  A l'aide de reconstitutions et d'interviews d'historiens, Bruce Twickler raconte l'histoire de cet affrontement, qui se cristallise finalement sur le continent américain. Il insiste en particulier sur ce paradoxe : à l'extérieur du pays, la conquête de nouveaux marchés ; à l'intérieur, le développement des libertés in­dividuelles...",
+      "releaseInfo": "2009"
+    },
+    {
+      "id": "tmdb:1529498",
+      "type": "movie",
+      "name": "Codebreaker Alan Turing Persecution Of A Genius",
+      "poster": "https://image.tmdb.org/t/p/w500/8D9B5o7AjZbJnmit1GqEU5sY441.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9NnCSYsAe4wcGVl1kxCMvhnkgZD.jpg",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tmdb:827152",
+      "type": "movie",
+      "name": "Fidel Castro, une vie pour la révolution",
+      "poster": "https://image.tmdb.org/t/p/w500/diN7xQaW1e9l1T6zwrruljjy8NM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vnnhEfqOts2JUkZzPjxiAN1YVCV.jpg",
+      "description": "Castro a survécu à des générations de présidents américains, de secrétaires généraux soviétiques, de directeurs de la CIA et d'assassins potentiels. Ce film propose un profil psychologique du révolutionnaire cubain et un récit profondément intimiste de sa vie à partir de lettres privées, de correspondances, de discours et d'interviews. Il présente des entretiens avec certains des parents les plus proches de Fidel Castro, des amis proches et des ennemis dévoués.",
+      "releaseInfo": "2004"
+    },
+    {
+      "id": "tmdb:753186",
+      "type": "movie",
+      "name": "六人：泰坦尼克上的中国幸存者",
+      "poster": "https://image.tmdb.org/t/p/w500/3PF9m61x9SjwHIJdwuhxUuLerfW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hRDFEagWTiWhaBsMoaKBjboX04S.jpg",
       "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:959668",
+      "type": "movie",
+      "name": "A Tear in the Sky",
+      "poster": "https://image.tmdb.org/t/p/w500/eDnnHlhTCd70hUihcoeHYIDNyci.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4NAYRXQKSy7GgP09DOirPce8AmL.jpg",
+      "description": "A Tear in the Sky (\"Une Larme dans le Ciel\" en français) vous emmène dans un voyage sans précédent sur le phénomène UAP/OVNI en suivant une équipe d'experts, de scientifiques et de militaires de renommée mondiale qui tenteront de percer les mystères UAP/OVNI à l'aide d'équipements et de technologies de pointe, de niveau militaire. Bien que le phénomène OVNI existe depuis l'aube de l'histoire, très peu de recherches scientifiques sont accessibles au public. La plupart des recherches sérieuses sont menées par divers gouvernements et armées à travers la planète. Ce film est un documentaire sur la façon dont une équipe de vétérans de l'armée, de scientifiques et de chercheurs se réunissent et lancent une enquête sur ce monde fascinant de l'inconnu tout en fournissant les données et les résultats au public.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:1005106",
+      "type": "movie",
+      "name": "Father of the Flying Car",
+      "poster": "https://image.tmdb.org/t/p/w500/6SzoQ4jK9nYzxb8KrJcqlpJ6pup.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cbxGpgpKsuqBICaZOi8dkez0P7w.jpg",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:371537",
+      "type": "movie",
+      "name": "Charles Manson : 40 ans après",
+      "poster": "https://image.tmdb.org/t/p/w500/9ihVVPVBQnPQzgqpmEzC9iSwX7q.jpg",
+      "releaseInfo": "2009"
     }
   ]
 }

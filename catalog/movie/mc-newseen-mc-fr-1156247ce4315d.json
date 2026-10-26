@@ -1,121 +1,148 @@
 {
   "metas": [
     {
-      "id": "tmdb:1288069",
+      "id": "tmdb:776503",
       "type": "movie",
-      "name": "Tenzing : à la conquête de l’Everest",
-      "poster": "https://image.tmdb.org/t/p/w500/hKA6G4Dj0Uonghi6AUwmpIvCFo0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6GXqVvL20Y0MpyVP30WoI2NPK69.jpg",
-      "description": "Un homme déterminé se lance dans une aventure périlleuse - et brave des obstacles apparemment insurmontables - pour réaliser son rêve d'être le premier à atteindre le sommet de l'Everest.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:836919",
-      "type": "movie",
-      "name": "Qui es-tu, Charlie Brown ?",
-      "poster": "https://image.tmdb.org/t/p/w500/c6u5J4sf4b2I3exx8rCPVsoSnHG.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3CQ4coB7LbAraB0upz6YWmY8rKR.jpg",
-      "description": "Lupita Nyong’o prête sa voix à un documentaire sur Snoopy et son créateur, Charles M. Schulz. Des fans célèbres reviennent sur l’influence de la bande dessinée, tandis qu’une nouvelle histoire montre Charlie Brown dans une quête singulière.",
+      "name": "CODA",
+      "poster": "https://image.tmdb.org/t/p/w500/ycgjiTDsO5mQAqyYGNiinAVO04t.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/v85FlkbMYKa5du1glm0YfYNsL2n.jpg",
+      "description": "Fille de parents sourds, Ruby est la seule personne entendante de la maison. Quand elle se découvre une passion pour le chant, elle doit choisir entre ses rêves et sa famille.",
       "releaseInfo": "2021"
     },
     {
-      "id": "tmdb:654754",
+      "id": "tmdb:516486",
       "type": "movie",
-      "name": "Billie Eilish: The World's a Little Blurry",
-      "poster": "https://image.tmdb.org/t/p/w500/hugZXltopWlmtGvbphRiv1nYpx8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8ys6VgwZCIQ7nN4Nv4z7GPPuFMv.jpg",
-      "description": "Un aperçu intimiste de l’univers de Billie Eilish. Le réalisateur primé R.J. Cutler suit son parcours sur scène, en tournée et à la maison alors que l’écriture et l’enregistrement de son premier album sont sur le point de changer sa vie.",
-      "releaseInfo": "2021"
+      "name": "USS Greyhound - La Bataille de l'Atlantique",
+      "poster": "https://image.tmdb.org/t/p/w500/gzfRM2qbA8X9pOBfRNkIjorNmOu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xXBnM6uSTk6qqCf0SRZKXcga9Ba.jpg",
+      "description": "Le capitaine Ernest Krause dirige une flotte internationale de 37 navires venant ravitailler en soldats et en vivres des forces alliées qui en manquent cruellement.",
+      "releaseInfo": "2020"
     },
     {
-      "id": "tmdb:1049471",
+      "id": "tmdb:877817",
       "type": "movie",
-      "name": "Chantage",
-      "poster": "https://image.tmdb.org/t/p/w500/9Oj1EJPQzzjc7IqiwGFgesQgYzK.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/avwIERZtWiWa34qShf5biDzAVaF.jpg",
-      "description": "Reef Hawk, star hollywoodienne depuis l'âge de six ans, ne va pas bien. Quand il apprend qu'on tente de l'extorquer avec une mystérieuse vidéo, il se lance dans une tournée d'excuses pour faire amende honorable, affronter ses démons et éviter de se faire cancel.",
-      "releaseInfo": "2026"
+      "name": "Wolfs",
+      "poster": "https://image.tmdb.org/t/p/w500/rpcXVgPne8vJzgJnbEguQlycHUj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nSVwus6Vcnw06zqKAa1ioacrpUF.jpg",
+      "description": "Les chemins de deux fixeurs rivaux se croisent quand ils sont chargés de couvrir le faux pas d'une haute fonctionnaire new-yorkaise. Au cours d'une nuit explosive, ils doivent mettre de côté leurs griefs (et leur ego) pour accomplir leur mission.",
+      "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:1058699",
+      "id": "tmdb:28069",
       "type": "movie",
-      "name": "STILL - La Vie de Michael J. Fox",
-      "poster": "https://image.tmdb.org/t/p/w500/g0YvbkBR2HVG0BgIGlmWwnfFC2X.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wQiXDEzfU8pydakr5yZ01bhlN30.jpg",
-      "description": "Un enfant d’une base militaire canadienne devient la star chérie de la pop culture internationale des années 1980, avant de voir sa vie bouleversée par un diagnostic incroyable. Que se passe-t-il quand un incurable optimiste est confronté à une maladie incurable ?",
+      "name": "C'est la Saint-Valentin, Charlie Brown",
+      "poster": "https://image.tmdb.org/t/p/w500/zYiShS7r9cRid20blcw9m9kezDg.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nyaLoFMMLbKE6YIHaeiBEX52ByW.jpg",
+      "description": "C'est la Saint-Valentin et il y a de l'amour dans l'air à l'école ! Pendant que Charlie Brown attend avec impatience de recevoir ses valentins, Sally croit que le cadeau que Linus a acheté pour son enseignante Mlle Othmar lui est destiné.",
+      "releaseInfo": "2002"
+    },
+    {
+      "id": "tmdb:848538",
+      "type": "movie",
+      "name": "Argylle",
+      "poster": "https://image.tmdb.org/t/p/w500/uVAk2YliqInQfH4B4vzZ75rwcNB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mY3CRicUMaX3Btxv8yspud75UJu.jpg",
+      "description": "Quand les intrigues de ses romans d'espionnage rappellent un peu trop les activités d'une sombre organisation criminelle, Elly Conway, romancière introvertie, se retrouve immergée avec son chat dans le monde réel des espions, où tout n'est que faux-semblant.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:595586",
+      "type": "movie",
+      "name": "Causeway",
+      "poster": "https://image.tmdb.org/t/p/w500/2MbyLjbqXZ8hZh7FXSPOpVLFer1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/e3GJaLTXrKzFAMB2kIQtzgadBHw.jpg",
+      "description": "Au cours d'une mission en Afghanistan, Lynsey, ingénieure dans l'armée, est blessée par un engin explosif. Souffrant de lésions cérébrales, elle retourne aux États-Unis. Elle entame alors une douloureuse et lente guérison au cours de laquelle elle réapprend à marcher et à faire fonctionner sa mémoire, avec le soutien d'une aide-soignante. Lorsqu'elle retourne chez elle à la Nouvelle-Orléans, elle doit faire face à des souvenirs douloureux. Vivant avec sa mère malgré leurs rapports conflictuels, Lynsey ne souhaite qu'une seule chose : retrouver son poste d'ingénieure. Elle fait alors la rencontre de James Aucoin. Petit à petit, ils se soutiennent l'un et l'autre et se tiennent compagnie. James, lui aussi, refoule son passé.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:868759",
+      "type": "movie",
+      "name": "Ghosted",
+      "poster": "https://image.tmdb.org/t/p/w500/tds2CSzH5tPAc9CbeUDRtSVzFhs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pp3QUzMXfP7q0ocmE1b15FH6PQ6.jpg",
+      "description": "Cole, un agriculteur sans histoire, tombe éperdument amoureux de la mystérieuse Sadie, mais découvre avec stupeur qu'elle est agent secret. Avant même un second rencard, Cole et Sadie vont être embarqués dans une aventure au-delà des frontières lors de laquelle ils vont devoir sauver le monde.",
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:597922",
+      "id": "tmdb:1155770",
       "type": "movie",
-      "name": "The Greatest Beer Run Ever",
-      "poster": "https://image.tmdb.org/t/p/w500/n9ccVv5WZfBRtbHPdVK6bS0D56S.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7bjaAcbrJDVvdF2Uew6rGp9Tp05.jpg",
-      "description": "Pour remonter le moral à ses amis partis combattre au Vietnam, Chickie a une folle idée : leur apporter lui-même des bières américaines. Ce voyage transformera sa vie et chamboulera ses certitudes.",
+      "name": "John Le Carré : le tunnel aux pigeons",
+      "poster": "https://image.tmdb.org/t/p/w500/uPQHVGEPXM3aUBMkDoneCzBSyj7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/n4gmz6g9gOkni6sjGd9w02Sz3ic.jpg",
+      "description": "Errol Morris, oscarisé, lève le voile sur la vie et la carrière légendaires de David Cornwell, l'ancien espion connu, dans le monde littéraire, sous le nom de John le Carré.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:632856",
+      "type": "movie",
+      "name": "Spirited",
+      "poster": "https://image.tmdb.org/t/p/w500/AiSmfZ6Dql9YmjEjnkOqhxM1HhD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fHDvGGPFry65ou79WLi6JsjCZrM.jpg",
+      "description": "Imaginez un monsieur Scrooge qui reçoit la visite de quatre fantômes pour le réveillon de Noël, dans un conte réconfortant à la Dickens... mais en plus drôle. Et avec Will Ferrell, Ryan Reynolds et Octavia Spencer. Sans oublier des chansons incroyables. OK, on en demande beaucoup. Vous savez quoi ? Regardez la bande-annonce.",
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:961722",
+      "id": "tmdb:1596303",
       "type": "movie",
-      "name": "Sidney Poitier : son héritage",
-      "poster": "https://image.tmdb.org/t/p/w500/5YT7qVlPm9xWT0xP6PQY7ObY5C5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/orEVSaVSRNElwjB7GZI3vsOKMS9.jpg",
-      "description": "Réalisé par Oprah Winfrey, ce documentaire révélateur rend hommage au légendaire Sidney Poitier, acteur, cinéaste et militant des droits civiques. Découvrez des entretiens avec Denzel Washington, Spike Lee, Barbra Streisand, et bien d'autres.",
+      "name": "The Last First : le K2 en hiver",
+      "poster": "https://image.tmdb.org/t/p/w500/zrOs0WKhESe6J4UErG32ZjOOh1A.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wtzSwtnQ4RsRbV5cc114Nb1q3b0.jpg",
+      "description": "Une course mémorable pour être le premier à atteindre le sommet du K2 en hiver vire au drame, révélant qu'ambition, ego et quête de gloire sont aussi dangereux que la montagne.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1192548",
+      "type": "movie",
+      "name": "Hannah Waddingham: Home for Christmas",
+      "poster": "https://image.tmdb.org/t/p/w500/p8YhligCDwGRnpLXyDOinKR0DML.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gt1uXhgjrjZKfCIgPnbtazKCmEd.jpg",
+      "description": "Célébrez Noël avec Hannah Waddingham, lauréate d’un Emmy, et ses invités triés sur le volet lors d’une soirée magique au London Coliseum.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:949580",
+      "type": "movie",
+      "name": "Snoopy présente : Chaque geste compte, Charlie Brown",
+      "poster": "https://image.tmdb.org/t/p/w500/pHhB7X9XU9PVGuJteMpz14p3gRH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/msTBoaPEe9bE40cclJJRR76Ldla.jpg",
+      "description": "Charlie Brown est déterminé à gagner un match de base-ball décisif. Mais les choses tournent au fiasco juste avant, quand Sally se prend d'amitié pour une petite fleur sur le monticule du lanceur et qu'elle décide de la protéger à tout prix.",
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:1400288",
+      "id": "tmdb:664850",
       "type": "movie",
-      "name": "Deaf President Now : un mouvement étudiant",
-      "poster": "https://image.tmdb.org/t/p/w500/3xHKWGKfaavvjVpF6ww9QpvQoXS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9Lu2qxOVGAoT4ptEQrBGpFxaP5O.jpg",
-      "description": "Découvrez l'histoire du plus grand mouvement de défense des droits civiques, dont la plupart des gens n'ont jamais entendu parler. En 1988, pendant une semaine tumultueuse, dans la seule université au monde destinée aux Sourds, quatre étudiants mènent une révolution et changent le cours de l'histoire.",
+      "name": "Nous sommes là : notes concernant la vie sur la planète Terre",
+      "poster": "https://image.tmdb.org/t/p/w500/kWhp71s4DnkyELXslP057h6Pqv5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qulWYG9FmT2Vtc7wxkGKkAN5yiR.jpg",
+      "description": "À la veille du Jour de la Terre, un jeune garçon découvre les merveilles de notre planète grâce à ses parents et à une exposition présentée dans un musée extraordinaire.",
+      "releaseInfo": "2020"
+    },
+    {
+      "id": "tmdb:726759",
+      "type": "movie",
+      "name": "Tetris",
+      "poster": "https://image.tmdb.org/t/p/w500/4F2QwCOYHJJjecSvdOjStuVLkpu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4avmIRBBOs9b4DKoenf8SWWJJP7.jpg",
+      "description": "L'incroyable histoire du plus populaire des jeux vidéo et comment il a rencontré la ferveur des joueurs du monde entier. Henk Rogers découvre Tetris en 1988 et risque le tout pour le tout lorsqu'il se rend en URSS, où il s'allie à Alexey Pajitnov, pour faire connaître le jeu au monde entier. Inspiré d'une historie vraie, Tetris est un explosif thriller sur fond de guerre froide, avec des traîtres, des héros improbables et une infernale course contre la montre.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:1484453",
+      "type": "movie",
+      "name": "Snoopy présente : un été en musique",
+      "poster": "https://image.tmdb.org/t/p/w500/uKCT0O0PLDw4Xe12IGTvJfYdtiL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1Bavnm3tr5zJMAhBKKmGHVjbPZN.jpg",
+      "description": "Charlie Brown et sa bande rejoignent le camp de vacances en rires et en chansons. C'est une première pour Sally, qui ne partage pas leur enthousiasme. Lorsque le camp menace de fermer, ils s'allient pour que d'autres enfants puissent y créer de précieux souvenirs.",
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:1058617",
+      "id": "tmdb:715931",
       "type": "movie",
-      "name": "Fancy Dance",
-      "poster": "https://image.tmdb.org/t/p/w500/pU8GFm1o3lgzlh12D5p3OgkCigk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2oTqxCe7EGMqMpJx5we2xcBT6Lx.jpg",
-      "description": "Après la disparition de sa sœur, Jax et sa nièce, Roki, doivent se serrer les coudes. Bien déterminées à préserver ce qu’il reste de leur famille, Jax et Roki bravent la loi et prennent la route en direction d’Oklahoma City pour le grand pow-wow des tribus.",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:975490",
-      "type": "movie",
-      "name": "Snoopy présente : L’école selon Lucy",
-      "poster": "https://image.tmdb.org/t/p/w500/z9Mg1YLE2vPJBvXTB3dOl1YK3TB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/67eYc8TlD7GMlmWkQjKU9kFjB9c.jpg",
-      "description": "La bande des Peanuts appréhende de changer d'établissement scolaire, alors Lucy crée sa propre école. Elle découvre vite que l'enseignement est plus difficile qu'elle ne l'imaginait, et que le changement peut avoir du bon.",
+      "name": "Emancipation",
+      "poster": "https://image.tmdb.org/t/p/w500/47Ui47ZX0myRy05F4pm7HCFoDRJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1jZ3wNpON50whGEH7YOcTQrU45B.jpg",
+      "description": "Inspiré de l'histoire vraie d'un homme prêt à tout pour défendre sa famille et sa liberté. Peter, un esclave, s'enfuit au péril de sa vie pour retrouver sa famille, un voyage jalonné d'obstacles entrepris au nom de l'amour pour les siens.",
       "releaseInfo": "2022"
-    },
-    {
-      "id": "tmdb:1465476",
-      "type": "movie",
-      "name": "Lulu est une rhinocéros",
-      "poster": "https://image.tmdb.org/t/p/w500/fXzxZeXFZglAjNR8lkx6k6ZFCDJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ak7IHiAEJIuiEsklXNd05cCbAr3.jpg",
-      "description": "Souhaitant répandre la gentillesse, la pétillante Lulu se lance dans l'aventure de sa vie et trouvera en chemin de nouveaux amis, du courage et des chansons pleines d'entrain !",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:13353",
-      "type": "movie",
-      "name": "C’est la grosse citrouille, Charlie Brown",
-      "poster": "https://image.tmdb.org/t/p/w500/6KC6LoifwcGr4Hi5nTEfSS87Yyx.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/k7F9aj6Vmz8rJ9lcm2mIgUiWDWV.jpg",
-      "description": "Costumes, bonbons et citrouilles, voilà comment célébrer Halloween ! Rejoignez les Peanuts pour une nouvelle aventure : alors que Charlie Brown se prépare pour la fête, Snoopy affronte le Baron rouge, et Linus attend la grosse citrouille.",
-      "releaseInfo": "1966"
-    },
-    {
-      "id": "tmdb:896151",
-      "type": "movie",
-      "name": "Blitz",
-      "poster": "https://image.tmdb.org/t/p/w500/e9tyjbF2rugENtBolTtEhHOXgzD.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qRSMoh9EMlQ9uywMpLulWBkIma9.jpg",
-      "description": "À Londres, pendant la Seconde Guerre mondiale, un jeune garçon de neuf ans prénommé George est évacué vers la campagne par sa mère, Rita, pour échapper aux bombardements. Déterminé à retrouver sa famille, il entreprend un voyage épique et périlleux pour rentrer chez lui, tandis que sa mère est à sa recherche.",
-      "releaseInfo": "2024"
     }
   ]
 }

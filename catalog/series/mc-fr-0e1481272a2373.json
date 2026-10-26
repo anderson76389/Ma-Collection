@@ -1,10 +1,19 @@
 {
   "metas": [
     {
+      "id": "tmdb:303745",
+      "type": "series",
+      "name": "L'amour sous couverture",
+      "poster": "https://image.tmdb.org/t/p/w500/xima3BlIJxlrONQgZ9mYuSLAq0f.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/32g5MD6eHPAZ5NAgkNAURb4eupm.jpg",
+      "description": "Yoon Yi-jun, successeur du groupe Taekang, est le principal suspect d'un terrible meurtre. Pour découvrir la vérité, l'inspectrice Kang Jae-hee s'infiltre auprès de lui en se faisant passer pour son secrétaire. Mais plus elle se rapproche de la vérité, plus ils se rapprochent l'un de l'autre. Entre Jae-hee sous couverture et Yi-jun qui cache un secret, pourront-ils s'avouer leurs sentiments ?",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:293610",
       "type": "series",
       "name": "Doctor X : Mafia en blouse blanche",
-      "poster": "https://image.tmdb.org/t/p/w500/xYFTiwC7Tl0xOUFiVFUPWXHTHnr.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/vAMmQApMO9QyoyWCUpKxuOrsqw7.jpg",
       "background": "https://image.tmdb.org/t/p/w780/mDYIV71RL3mkaW8IfSGNthuVB7l.jpg",
       "description": "Kye Su-Jeong, une brillante chirurgienne, est affectée à l'hôpital universitaire de Guseo pour pourvoir un poste vacant en chirurgie. Elle y fait ses preuves grâce à son talent et met en lumière les absurdités du milieu médical. Elle se lie d'amitié avec Bu Seung-Kwon, le directeur de l'hôpital, et l'interne Park Tae-Kyeong",
       "releaseInfo": "2026"
@@ -19,12 +28,30 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:307106",
+      "type": "series",
+      "name": "연애박사",
+      "poster": "https://image.tmdb.org/t/p/w500/vyrpZOFIZJkQG8ZWTezmlNGav8R.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wwSoLQrLyiXXUbRnZq1eWBbHaRR.jpg",
+      "description": "L'histoire d'amour entre un homme, ancien nageur ayant perdu sa jambe gauche, et une femme qui, après avoir perdu ses repères en tant qu'interne en médecine, trouve une nouvelle voie en tant que jeune diplômée.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:275102",
       "type": "series",
       "name": "The Scandal",
       "poster": "https://image.tmdb.org/t/p/w500/8ra17h8Z3NX14qdWaOKn0scURJR.jpg",
       "background": "https://image.tmdb.org/t/p/w780/uc1p1PEbEMpdIHqnU9TESNC6Jhp.jpg",
       "description": "Durant la période Joseon, une proposition secrète éveille les désirs d'une aristocrate talentueuse, d'un séducteur notoire et d'une jeune femme naïve prise au piège d'un jeu cruel.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:294636",
+      "type": "series",
+      "name": "The Ordinary Jackpot",
+      "poster": "https://image.tmdb.org/t/p/w500/bsNWg3aCpav258BerCx62T67t86.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oxJIuxIWiBEcIBRDdu48vTwQcJZ.jpg",
+      "description": "Un employé de bureau ordinaire gagne à la loterie – la somme n'est pas suffisante pour qu'il quitte son emploi, mais elle l'est assez pour lui donner une nouvelle vision de la vie.",
       "releaseInfo": "2026"
     },
     {
@@ -150,31 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/sdRa9afHM4ULqZiJ6e29zKSbz0e.jpg",
       "background": "https://image.tmdb.org/t/p/w780/oBJ6dZ6A1tY1O94RmWnJkkQVbLz.jpg",
       "description": "Un professeur de littérature coréenne à l'université est rongé depuis sa jeunesse de ne pas avoir réussi une carrière d'écrivain. Il va être surpris par les talents d'écriture d'un étudiant en ingénierie qui assiste à ses cours. Son intérêt pour le jeune homme va raviver sa passion pour l'écriture, mais aussi développer une obsession pour l'œuvre de ce dernier.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:322055",
-      "type": "series",
-      "name": "검사실의 제안",
-      "poster": "https://image.tmdb.org/t/p/w500/fxEfx2Tt98l4oW2KI0GU3Q0qgnB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/feISh3qoREwIPWbSaLqqumbmh7m.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:289763",
-      "type": "series",
-      "name": "À demain au bureau !",
-      "poster": "https://image.tmdb.org/t/p/w500/pUeTFsH00wy4MwRLDMERc4Tjm9N.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zftF4KDGuhAGIA50bywcCXPjz5f.jpg",
-      "description": "Cha Ji-yoon, employée de bureau depuis sept ans, est malheureuse au travail et en amour. Et voilà qu'elle croise le chemin de Kang Si-woo, un patron au cynisme redoutable. Contre toute attente, elle retrouve son sourire en découvrant la gentillesse qui se cache derrière ses mots abrupts. Au fil du quotidien, ils apprennent à se soutenir jusqu'à devenir indispensables l'un à l'autre.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:321559",
-      "type": "series",
-      "name": "거짓말이 사는 집",
-      "poster": "https://image.tmdb.org/t/p/w500/8GaDUt2mY7L2fZeawEbhjxO1Vc2.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xiCfjMXdxVXxizYSgDNH84BZcbt.jpg",
       "releaseInfo": "2026"
     }
   ]

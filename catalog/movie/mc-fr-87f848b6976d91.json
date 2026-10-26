@@ -5,7 +5,7 @@
       "type": "movie",
       "name": "L'Amour de ta vie",
       "poster": "https://image.tmdb.org/t/p/w500/1zrnRcJ8JOTXYp0Qizad1rnuIA0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mqYqKvrKTgMvK50VtEDZlYFsnHz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4hneB0UFKOZAGJHqJ3VhDcG72uH.jpg",
       "description": "Maya dont la rencontre fortuite avec Charlie donne naissance à une histoire d'amour passionnée et à la vie dont elle n'osait pas rêver. Lorsque tout bascule, Maya doit déterminer qui elle est, ce qu'elle veut et comment réapprendre à aimer.",
       "releaseInfo": "2026"
     },
@@ -23,7 +23,7 @@
       "type": "movie",
       "name": "Raison et Sentiments",
       "poster": "https://image.tmdb.org/t/p/w500/9XNEI2AYgQIIqXper5kOdGTnyf5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nkINWVL8x1KwdpO0dUbYhS3Y1iP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nrLVr8C2pkbOGwXKay2xrxvlHmh.jpg",
       "description": "Une irrésistible nouvelle version du roman culte de Jane Austin, Raison et Sentiments, qui suit deux sœurs à travers leurs amours, leurs chagrins et le lien qui les unit d'une façon magistrale et profondément proche de nous.",
       "releaseInfo": "2026"
     },
@@ -42,6 +42,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/8mmQWqkvZrvxqr21WhV7Pk0WIHl.jpg",
       "background": "https://image.tmdb.org/t/p/w780/lJYniNRM2i9wXnfWVHOB4PxygFZ.jpg",
       "description": "Réunis à l'étranger pour le mariage de la fille de Marcus et Angela, les couples attisent des tensions anciennes et nouvelles en se demandant : « Pourquoi on s'est mariés, déjà ? »",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1490214",
+      "type": "movie",
+      "name": "The Sun Never Sets",
+      "poster": "https://image.tmdb.org/t/p/w500/hpzzGHyVN4nE0GzqoAu12ko6ER3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ckDLzhqHG40CoNUwQWrAvzCYRIe.jpg",
+      "description": "Wendy est bouleversée lorsque son petit ami Jack lui demande de mettre leur relation en pause. Plongée dans une incertitude émotionnelle, elle renoue avec son ex, Chuck, qui est aventurier, imprévisible – tout ce que Jack n’est pas. Prise dans un triangle amoureux qu’elle n’a pas cherché, Wendy doit choisir entre son passé et son avenir.",
       "releaseInfo": "2026"
     },
     {
@@ -167,14 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/yEa8UQA71rjKhCq04mATDNOIT2B.jpg",
       "background": "https://image.tmdb.org/t/p/w780/nHKscpZcAPkh97OsJJjyE5yaVE0.jpg",
       "description": "Sur les landes balayées par le vent du Yorkshire, la passion dévorante entre Catherine Earnshaw et Heathcliff se transforme en une obsession destructrice, bouleversant leurs vies et celles de leur entourage.​",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1592019",
-      "type": "movie",
-      "name": "Missing the Boat",
-      "poster": "https://image.tmdb.org/t/p/w500/8ZZgSTNMAnXB7TzZeO9mmf0xI5V.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/oP4z2GBCc6T5GodPBx9py7BQjV.jpg",
       "releaseInfo": "2026"
     }
   ]

@@ -28,20 +28,20 @@
       "releaseInfo": "2011"
     },
     {
-      "id": "tmdb:227144",
-      "type": "series",
-      "name": "Contraband: Seized at the Border",
-      "poster": "https://image.tmdb.org/t/p/w500/hlCLRojglopcOtPKY1621oFH0kB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hhGw73wWW8CPW5UWE0L0RMT8RrJ.jpg",
-      "releaseInfo": "2023"
-    },
-    {
       "id": "tmdb:111633",
       "type": "series",
       "name": "Secrets in the Ice",
       "poster": "https://image.tmdb.org/t/p/w500/fL4i7hI0NqdOMlCkYpG2WZmMMnP.jpg",
       "background": "https://image.tmdb.org/t/p/w780/bGQ6PDbomri6pFz7g1oKHpqIm9t.jpg",
       "releaseInfo": "2020"
+    },
+    {
+      "id": "tmdb:227144",
+      "type": "series",
+      "name": "Contraband: Seized at the Border",
+      "poster": "https://image.tmdb.org/t/p/w500/hlCLRojglopcOtPKY1621oFH0kB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hhGw73wWW8CPW5UWE0L0RMT8RrJ.jpg",
+      "releaseInfo": "2023"
     },
     {
       "id": "tmdb:335032",

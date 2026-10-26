@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:328674",
+      "type": "series",
+      "name": "The Northumbria Mysteries",
+      "poster": "https://image.tmdb.org/t/p/w500/eAlM5vJwQs18crVjMyRt3jHmce9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4i43wR5Pabh99fQIs6oYwzjSGRp.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:292111",
       "type": "series",
       "name": "The Reluctant Vampire",
@@ -154,14 +162,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/uUE4zRhAhgCXCSQTOWrJXrK4RcZ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/yRqFvu6rIytqZlzY0pBVvZG3W0S.jpg",
       "description": "Des garçons échoués sur une île tropicale se retrouvent entièrement livrés à eux‑mêmes, sans la moindre présence adulte. D'abord décidés à instaurer des règles et à préserver un semblant de civilisation, ils se répartissent les rôles et organisent la vie du groupe. Mais très vite, les tensions, la violence et la soif de pouvoir s'installent.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:262361",
-      "type": "series",
-      "name": "Can You Keep a Secret?",
-      "poster": "https://image.tmdb.org/t/p/w500/xao6AxMOzHGG2SzARiDLpqOQb5q.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uaQyiLlSiKYWwvVVhWL7xcjf3qN.jpg",
       "releaseInfo": "2026"
     }
   ]

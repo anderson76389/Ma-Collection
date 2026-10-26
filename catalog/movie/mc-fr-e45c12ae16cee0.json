@@ -1,6 +1,24 @@
 {
   "metas": [
     {
+      "id": "tmdb:858035",
+      "type": "movie",
+      "name": "Klara et le Soleil",
+      "poster": "https://image.tmdb.org/t/p/w500/zJZ1ii7XPAJkdBWKIQN2fyyz5cQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg",
+      "description": "Lorsque Klara rencontre Josie, chacune perçoit immédiatement chez l'autre une âme soeur. Josie entretient une relation compliquée avec sa mère et toutes deux ont traversé de lourdes épreuves. Mais l'émerveillement sincère de Klara et sa loyauté sans faille commencent peu à peu à apaiser les blessures de cette famille et à apporter de la lumière dans l'univers complexe de Josie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1400940",
+      "type": "movie",
+      "name": "Clayface",
+      "poster": "https://image.tmdb.org/t/p/w500/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg",
+      "description": "L'ascension fulgurante de Matt Hagen, de gamin des rues de Gotham à star hollywoodienne, est brutalement interrompue lorsqu'un baron du crime le laisse atrocement défiguré. Abandonné de tous et n'ayant plus rien à perdre, Matt se tourne vers un traitement expérimental qui lui rend miraculeusement son apparence... mais altère profondément sa perception de la réalité. Il sombre alors dans une spirale destructrice, consumé par un irrépressible désir de vengeance.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1767073",
       "type": "movie",
       "name": "The Nice Ones",
@@ -108,15 +126,6 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1469342",
-      "type": "movie",
-      "name": "Her Private Hell",
-      "poster": "https://image.tmdb.org/t/p/w500/xFVviOiV7UFYaXucUJdlLw30gyt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hS4FcOM5y71FurkBQgDLTBxmWZh.jpg",
-      "description": "Tandis qu'une étrange brume engloutit une métropole futuriste et libère une présence mortelle insaisissable, une jeune femme troublée part à la recherche de son père. Au cours de cette quête, son destin croise celui d'un GI américain engagé dans un voyage désespéré pour arracher sa fille de l'enfer.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:1081003",
       "type": "movie",
       "name": "Supergirl",
@@ -168,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/a77OcLmarwiBJakOPPC36m58t4L.jpg",
       "background": "https://image.tmdb.org/t/p/w780/uOQtyMV2G9yJvc0s14zmLoRC5H9.jpg",
       "description": "Un jeune homme doit faire appel à ses pouvoirs inexploités pour lutter contre un extraterrestre maléfique et son armée, qui ne reculeront devant rien pour conquérir la Terre, puis l'univers.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1227877",
-      "type": "movie",
-      "name": "I Love Boosters",
-      "poster": "https://image.tmdb.org/t/p/w500/uUOBgpLTKPRrhXTfngbmGIkzVgc.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fBZ9cWUI1yB9Fcs2eoYZ4mmMUmI.jpg",
-      "description": "Une équipe de boosters (c’est-à-dire des voleurs à l’étalage professionnels) décident de s’en prendre à une papesse de la mode impitoyable.",
       "releaseInfo": "2026"
     }
   ]

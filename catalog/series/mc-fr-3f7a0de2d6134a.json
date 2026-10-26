@@ -1,6 +1,23 @@
 {
   "metas": [
     {
+      "id": "tmdb:334887",
+      "type": "series",
+      "name": "The Mob",
+      "poster": "https://image.tmdb.org/t/p/w500/p7Z3iK7g3ZEOm60h121fvtDmA3f.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jPah9SEWeBCXQwyKqoMdQp7tqci.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:335319",
+      "type": "series",
+      "name": "The Prison Experiment : La nouvelle expérience de Stanford",
+      "poster": "https://image.tmdb.org/t/p/w500/heoESrHAdmPeYECs2B7R8RIqLyN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/H8VA7K15NWVKLbUbp8ZQ17zvU2.jpg",
+      "description": "Trente personnes passent deux semaines en prison et révèlent ce dont elles sont capables à travers des jeux de pouvoir, dans cette célèbre étude de psychologie sociale revisitée.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:330430",
       "type": "series",
       "name": "Love After Lockup: Relationship Rehab",
@@ -145,23 +162,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/8P12ytuz41DKCBSpjX3Ntev177Z.jpg",
       "background": "https://image.tmdb.org/t/p/w780/3wbETP2ujDBQ1GdajfVwTDJTKoe.jpg",
       "description": "Découvrez le cercle intime de Khloé Kardashian et suivez ses meilleures amies qui jonglent entre maternité, carrière, amours et développement personnel.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:330943",
-      "type": "series",
-      "name": "Race Against the Tide",
-      "poster": "https://image.tmdb.org/t/p/w500/oVgiWUfOrnC1FErXU6RXeDztS4j.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/riXQ0CzYoVzbqWpSNG0Ieqw1akM.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:294141",
-      "type": "series",
-      "name": "The Chosen face à la nature avec Bear Grylls",
-      "poster": "https://image.tmdb.org/t/p/w500/3B8EZvb340YdsES35tiVfp0fNzy.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tabVLK28I4xM6F8I2xUJERUVvQC.jpg",
-      "description": "Bear a longtemps survécu à des expéditions périlleuses avec le Christ à ses côtés. Aujourd'hui, il emmène les stars de The Chosen affronter l'inconnu.",
       "releaseInfo": "2026"
     }
   ]

@@ -19,13 +19,13 @@
       "releaseInfo": "1993"
     },
     {
-      "id": "tmdb:65701",
+      "id": "tmdb:96677",
       "type": "series",
-      "name": "Good Mythical Morning",
-      "poster": "https://image.tmdb.org/t/p/w500/jMpBQr2aNOFAI6wsC47zsOG6qOh.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hvFCS0dMeC3ffiF4uYTKzUAkvYL.jpg",
-      "description": "Good Mythical Morning est une série YouTube de comédie, de discussion et de variétés américaine créée par Rhett McLaughlin et Link Neal. L'émission a été diffusée pour la première fois sur YouTube le 9 janvier 2012. De nombreuses célébrités et personnalités d'Internet, dont Daniel Radcliffe, Felix Kjellberg, Hank Green, Kobe Bryant et Linkin Park ont participé au show. L'émission se concentre sur Rhett et Link alors qu'ils racontent des histoires, chantent des chansons, relèvent des défis, etc...",
-      "releaseInfo": "2012"
+      "name": "Lupin",
+      "poster": "https://image.tmdb.org/t/p/w500/sOUWRai0215iUSMackrZx3Y1j05.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aY7zv2pfk9H0QxaaL3PBjvalbKQ.jpg",
+      "description": "Inspiré par les aventures d'Arsène Lupin, le gentleman cambrioleur Assane Diop décide de venger son père d'une terrible injustice.",
+      "releaseInfo": "2021"
     },
     {
       "id": "tmdb:58841",
@@ -37,13 +37,22 @@
       "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:203857",
+      "id": "tmdb:312359",
       "type": "series",
-      "name": "La Diplomate",
-      "poster": "https://image.tmdb.org/t/p/w500/A89qFEWq31vLhzl9DhJjmVLuPHY.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hzznrBI07C2chXivlLYvEmQESP7.jpg",
-      "description": "Pendant une crise internationale, une diplomate américaine jongle entre son poste d'ambassadrice au Royaume-Uni et son mariage sous tension avec une star de la politique.",
-      "releaseInfo": "2023"
+      "name": "Dragon Ball Super : Beerus",
+      "poster": "https://image.tmdb.org/t/p/w500/sGuCmIy8kEmx3FWZyMj654rF6g8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg",
+      "description": "Des années après la défaite de Majin Buu, la paix est revenue sur Terre. Mais lorsque Beerus, le Dieu de la Destruction, se réveille, cette tranquillité vole en éclats. Attiré sur Terre par des rumeurs concernant le Saiyan qui a vaincu Freezer, Beerus cherche à défier Goku en déployant une puissance capable de détruire des planètes entières. Goku et ses alliés doivent désormais affronter Beerus dans un combat qui fera trembler l'univers.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:105248",
+      "type": "series",
+      "name": "Cyberpunk: Edgerunners",
+      "poster": "https://image.tmdb.org/t/p/w500/khwap5JuTGVLpGA5xuZqRPlyHtD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4NmCfWHzytiKM3riCMcbVYBJhlB.jpg",
+      "description": "L'histoire d'un gamin des rues qui tente de survivre dans Night City, une ville du futur obsédée par la technologie et la transformation du corps. Démuni, mais pas totalement désespéré, le jeune garçon parvient à rester en vie en devenant un \"edgerunner\", un mercenaire hors-la-loi également connu sous le nom de \"cyberpunk\".",
+      "releaseInfo": "2022"
     },
     {
       "id": "tmdb:45790",
@@ -51,7 +60,16 @@
       "name": "JoJo's Bizarre Adventure",
       "poster": "https://image.tmdb.org/t/p/w500/2Sc0veFPh9CcHMtNqMyiQqIW9ZF.jpg",
       "background": "https://image.tmdb.org/t/p/w780/l2gc2dPRUPe3bAfYCRTjc6uAMmB.jpg",
-      "description": "Angleterre, 1981. Afin d'honorer ancienne dette, Lord George Joestar adopte Dio Brando, le fils de son sauveur Dario. Mais sous l'apparence du fils modèle, Dio souhaite s'emparer de la fortune des Joestar et humilier le fils du lord, Jonathan Joestar surnommé Jojo. Une rivalité nait entre eux et explose à cause d'un masque aztèque aux capacités mystérieuses. Dio s'en empare et devient un vampire, que seul la maîtrise du hamon permettra à Jonathan d'espérer le vaincre. Voici le point de départ du destin entremêlé de la famille Joestar et de Dio. Chaque illustre membre l'affrontera, lui ou des adversaires qui lui sont liés grâce au hamon, puis aux stands, la matérialisation de leur esprit combatif doté de force et de capacités insoupçonnées. Parmi eux, Joseph l'aventurier arrogant, Jotaro et son stand invincible Star Platinium, Josuke l'ami au grand cœur, Giorno le fils de Dio et gangster à la chevelure dorée et Jolyne, la fille à la volonté de fer.",
+      "description": "Angleterre, 1881. Afin d'honorer ancienne dette, Lord George Joestar adopte Dio Brando, le fils de son sauveur Dario. Mais sous l'apparence du fils modèle, Dio souhaite s'emparer de la fortune des Joestar et humilier le fils du lord, Jonathan Joestar surnommé Jojo. Une rivalité nait entre eux et explose à cause d'un masque aztèque aux capacités mystérieuses. Dio s'en empare et devient un vampire, que seul la maîtrise du hamon permettra à Jonathan d'espérer le vaincre. Voici le point de départ du destin entremêlé de la famille Joestar et de Dio. Chaque illustre membre l'affrontera, lui ou des adversaires qui lui sont liés grâce au hamon, puis aux stands, la matérialisation de leur esprit combatif doté de force et de capacités insoupçonnées. Parmi eux, Joseph l'aventurier arrogant, Jotaro et son stand invincible Star Platinium, Josuke l'ami au grand cœur, Giorno le fils de Dio et gangster à la chevelure dorée et Jolyne, la fille à la volonté de fer.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:65701",
+      "type": "series",
+      "name": "Good Mythical Morning",
+      "poster": "https://image.tmdb.org/t/p/w500/jMpBQr2aNOFAI6wsC47zsOG6qOh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hvFCS0dMeC3ffiF4uYTKzUAkvYL.jpg",
+      "description": "Good Mythical Morning est une série YouTube de comédie, de discussion et de variétés américaine créée par Rhett McLaughlin et Link Neal. L'émission a été diffusée pour la première fois sur YouTube le 9 janvier 2012. De nombreuses célébrités et personnalités d'Internet, dont Daniel Radcliffe, Felix Kjellberg, Hank Green, Kobe Bryant et Linkin Park ont participé au show. L'émission se concentre sur Rhett et Link alors qu'ils racontent des histoires, chantent des chansons, relèvent des défis, etc...",
       "releaseInfo": "2012"
     },
     {
@@ -91,6 +109,15 @@
       "releaseInfo": "1999"
     },
     {
+      "id": "tmdb:300146",
+      "type": "series",
+      "name": "Sous le masque",
+      "poster": "https://image.tmdb.org/t/p/w500/nKhiK99WZohc3fJsTXJLf4SrSEY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/YndvGwqwroUDVltBWmnOuTvJke.jpg",
+      "description": "Wei Rao, jeune femme noble, est obligée de se marier avec le prince Lu Zuo, alors que celui-ci est dans le coma et proche de la mort. Elle force alors Ah Chou, une jeune fille ordinaire dont la seule caractéristique est sa ressemblance frappante avec Wei Rao, à prendre sa place au mariage. Mais Lu Zuo se réveille précisément le jour des noces... Ah Chou doit maintenant faire face à Wei Rao, qui veut récupérer sa place, à Lu Zuo, qui la prend pour cette vipère de Wei Rao, mais aussi à toute la demeure du prince qui est pleine de pièges et de complots.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:14929",
       "type": "series",
       "name": "Heartland",
@@ -98,15 +125,6 @@
       "background": "https://image.tmdb.org/t/p/w780/11nGiX6hLdexBD4TVUAAVzSIAQy.jpg",
       "description": "En dépit des dettes qui s'accumulent et de la banque qui menace de saisir, les Fleming se battent pour permettre à leur ranch de continuer à tourner.",
       "releaseInfo": "2007"
-    },
-    {
-      "id": "tmdb:293610",
-      "type": "series",
-      "name": "Doctor X : Mafia en blouse blanche",
-      "poster": "https://image.tmdb.org/t/p/w500/xYFTiwC7Tl0xOUFiVFUPWXHTHnr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mDYIV71RL3mkaW8IfSGNthuVB7l.jpg",
-      "description": "Kye Su-Jeong, une brillante chirurgienne, est affectée à l'hôpital universitaire de Guseo pour pourvoir un poste vacant en chirurgie. Elle y fait ses preuves grâce à son talent et met en lumière les absurdités du milieu médical. Elle se lie d'amitié avec Bu Seung-Kwon, le directeur de l'hôpital, et l'interne Park Tae-Kyeong",
-      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:202297",
@@ -118,22 +136,13 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:300146",
+      "id": "tmdb:293610",
       "type": "series",
-      "name": "Sous le masque",
-      "poster": "https://image.tmdb.org/t/p/w500/nKhiK99WZohc3fJsTXJLf4SrSEY.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/YndvGwqwroUDVltBWmnOuTvJke.jpg",
-      "description": "Wei Rao, jeune femme noble, est obligée de se marier avec le prince Lu Zuo, alors que celui-ci est dans le coma et proche de la mort. Elle force alors Ah Chou, une jeune fille ordinaire dont la seule caractéristique est sa ressemblance frappante avec Wei Rao, à prendre sa place au mariage. Mais Lu Zuo se réveille précisément le jour des noces... Ah Chou doit maintenant faire face à Wei Rao, qui veut récupérer sa place, à Lu Zuo, qui la prend pour cette vipère de Wei Rao, mais aussi à toute la demeure du prince qui est pleine de pièges et de complots.",
+      "name": "Doctor X : Mafia en blouse blanche",
+      "poster": "https://image.tmdb.org/t/p/w500/vAMmQApMO9QyoyWCUpKxuOrsqw7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mDYIV71RL3mkaW8IfSGNthuVB7l.jpg",
+      "description": "Kye Su-Jeong, une brillante chirurgienne, est affectée à l'hôpital universitaire de Guseo pour pourvoir un poste vacant en chirurgie. Elle y fait ses preuves grâce à son talent et met en lumière les absurdités du milieu médical. Elle se lie d'amitié avec Bu Seung-Kwon, le directeur de l'hôpital, et l'interne Park Tae-Kyeong",
       "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:259140",
-      "type": "series",
-      "name": "Ranma1/2",
-      "poster": "https://image.tmdb.org/t/p/w500/paz1BKuMqwOW7FGMe5xqcTEstgx.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xvD9urN8lUtWw5fm4a87Rl3dCZn.jpg",
-      "description": "Akane Tendo fait la connaissance de son nouveau fiancé, Ranma Saotomé, prodige des arts martiaux qui possède une particularité : il se transforme en fille au contact de l'eau froide.",
-      "releaseInfo": "2024"
     },
     {
       "id": "tmdb:207347",
@@ -154,31 +163,22 @@
       "releaseInfo": "2002"
     },
     {
-      "id": "tmdb:283371",
+      "id": "tmdb:250923",
       "type": "series",
-      "name": "Le piège",
-      "poster": "https://image.tmdb.org/t/p/w500/isBtrgjGVCd2GUMhDMcpf2SuBtB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/69XNjGvcopgPz9Hte0ny1Swk2vW.jpg",
-      "description": "L'autrice Lisa Konrad n'est pas sortie de chez elle depuis 10 ans, lorsque sa sœur a été tuée. Quand elle croit voir le meurtrier à la télé, elle échafaude un plan risqué.",
-      "releaseInfo": "2026"
+      "name": "Nobody Wants This",
+      "poster": "https://image.tmdb.org/t/p/w500/jg6ZjrmNAgwb1HhtLo5PYOFNzy6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/77sozyYenyY1JraK6YzLfDlTMpp.jpg",
+      "description": "Une podcasteuse sexo agnostique et un rabbin fraîchement célibataire tombent amoureux, mais leur relation peut-elle survivre à leurs vies opposées et à leurs familles indiscrètes ?",
+      "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:293607",
+      "id": "tmdb:259140",
       "type": "series",
-      "name": "100 jours en espionne",
-      "poster": "https://image.tmdb.org/t/p/w500/wf7l8ZfGGkOKcQGF3Htt5DDhBxD.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3SvKCITqMtjgPIhFBjRc4yTAc4H.jpg",
-      "description": "En quête de liberté, la meilleure pickpocket de Séoul infiltre le gouvernement colonial japonais pour lui dérober des secrets, mais tombe amoureuse du fils de sa cible.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:283428",
-      "type": "series",
-      "name": "The Ramparts of Ice",
-      "poster": "https://image.tmdb.org/t/p/w500/spPKOGhjNrOZuCUoTOzg0Q05Mum.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ht6WUmez8cFbwlrFmGdjbYyn3RG.jpg",
-      "description": "Hantée par des souvenirs envahissants, Koyuki Hikawa préfère rester dans sa bulle jusqu'au jour où trois camarades de lycée décident de l'aider à s'ouvrir aux autres.",
-      "releaseInfo": "2026"
+      "name": "Ranma1/2",
+      "poster": "https://image.tmdb.org/t/p/w500/paz1BKuMqwOW7FGMe5xqcTEstgx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xvD9urN8lUtWw5fm4a87Rl3dCZn.jpg",
+      "description": "Akane Tendo fait la connaissance de son nouveau fiancé, Ranma Saotomé, prodige des arts martiaux qui possède une particularité : il se transforme en fille au contact de l'eau froide.",
+      "releaseInfo": "2024"
     }
   ]
 }

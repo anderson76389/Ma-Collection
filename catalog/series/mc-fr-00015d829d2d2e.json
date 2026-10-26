@@ -19,15 +19,6 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:227971",
-      "type": "series",
-      "name": "Union et trahison",
-      "poster": "https://image.tmdb.org/t/p/w500/j7gh57O2UCYlbsnyPz3pwo7YRNN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hAlhpSFASunJoU7hH9lGAybTDFG.jpg",
-      "description": "Découvrez des histoires vraies incroyables de trahisons entre maris et femmes, qu'il s'agisse d'épouses qui embauchent des tueurs à gages ou d'escrocs qui mentent par appât du gain.",
-      "releaseInfo": "2023"
-    },
-    {
       "id": "tmdb:231034",
       "type": "series",
       "name": "Un mort au sous-sol",
@@ -42,7 +33,17 @@
       "name": "The Serial Killer Connection",
       "poster": "https://image.tmdb.org/t/p/w500/2QVTk55dw9tMUHDlG4027cOTNOv.jpg",
       "background": "https://image.tmdb.org/t/p/w780/6GYk6Fw9Biyfk39D70Y4oz2LgHL.jpg",
+      "description": "La série enquête sur le tueur en série Richard « Marc » Evonitz, qui a kidnappé, agressé et assassiné plusieurs jeunes filles (dont Sofia Marlene Silva, Kristin Michelle Lisk et Kathryn Nicole Lisk).",
       "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:227971",
+      "type": "series",
+      "name": "Union et trahison",
+      "poster": "https://image.tmdb.org/t/p/w500/j7gh57O2UCYlbsnyPz3pwo7YRNN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hAlhpSFASunJoU7hH9lGAybTDFG.jpg",
+      "description": "Découvrez des histoires vraies incroyables de trahisons entre maris et femmes, qu'il s'agisse d'épouses qui embauchent des tueurs à gages ou d'escrocs qui mentent par appât du gain.",
+      "releaseInfo": "2023"
     }
   ]
 }

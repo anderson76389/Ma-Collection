@@ -19,6 +19,14 @@
       "releaseInfo": "2007"
     },
     {
+      "id": "tmdb:70",
+      "type": "series",
+      "name": "This Hour Has 22 Minutes",
+      "poster": "https://image.tmdb.org/t/p/w500/shWjVJtL7NBLcGiylwWwXLm9nlR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2z85pmHUqfkktqDuqaxksGSW8S8.jpg",
+      "releaseInfo": "1993"
+    },
+    {
       "id": "tmdb:38206",
       "type": "series",
       "name": "Dragons' Den",
@@ -45,11 +53,19 @@
       "releaseInfo": "2017"
     },
     {
+      "id": "tmdb:277410",
+      "type": "series",
+      "name": "Dino Ranch: Island Explorers",
+      "poster": "https://image.tmdb.org/t/p/w500/knkr9RwA33jIskhS6PuwSZJCp0s.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8w8oWpatj0MSlNdWNTXEu99JDGJ.jpg",
+      "releaseInfo": "2025"
+    },
+    {
       "id": "tmdb:327287",
       "type": "series",
       "name": "Doula: A True Crime",
       "poster": "https://image.tmdb.org/t/p/w500/iXazgzljqIwHn9l2fSt5cr5HHUl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9hLz8ySJjFCbNmi2eiqFQTbWLDW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6WvsrwAOSehdERi8pbqcBSXw02h.jpg",
       "releaseInfo": "2026"
     }
   ]

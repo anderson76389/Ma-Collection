@@ -10,6 +10,24 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:295420",
+      "type": "series",
+      "name": "The Vermilion Mask",
+      "poster": "https://image.tmdb.org/t/p/w500/hsMd1zUdZGMQpLr55wM0OKK07X5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/d63e5W3rWWuMIDcrUgmZTauMbna.jpg",
+      "description": "Apprenti fabricant de masques, Peru aurait dû connaître les dangers liés à ces artefacts. Possédé par le Masque du Dieu Guerrier, il tue involontairement ses amis et son maître, le légendaire Gaston Roux. Rongé par la culpabilité, Peru jure de détruire tous les masques créés par son maître avant qu’une nouvelle tragédie ne se produise.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:335194",
+      "type": "series",
+      "name": "Magical Explorer",
+      "poster": "https://image.tmdb.org/t/p/w500/b9LtxUfUrhsuq8lYvlhXq2I5gAw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oxS6i62MRfIeXFKN2F3uEipKwt7.jpg",
+      "description": "Réincarné dans son jeu « bishojo » préféré, Kousuke se retrouve affublé du pire rôle qui soit : celui d’un acolyte insignifiant. Mais fort de sa connaissance du jeu et de la plus grande réserve de mana de ce monde, il pourrait bien finir par surpasser le héros ! Kousuke doit désormais réécrire son destin et se frayer un chemin à coups d’épée vers les fins heureuses des héroïnes !",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:324502",
       "type": "series",
       "name": "Overgeared",
@@ -157,27 +175,9 @@
       "id": "tmdb:295357",
       "type": "series",
       "name": "Fist of the North Star: HOKUTO NO KEN",
-      "poster": "https://image.tmdb.org/t/p/w500/83bn9z4RiwO4PObgzd28ZtPWBkW.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/fATbOEh4CYUm2i7gSD7kZx7cjfL.jpg",
       "background": "https://image.tmdb.org/t/p/w780/mVH9xKyA0ETdejTrCLKQI0mGJay.jpg",
       "description": "En l'an 199X, le feu nucléaire a englouti le monde ! On ne sait comment, l'Humanité a survécu. Un homme solitaire avec sept cicatrices sur la poitrine apparaît. C'est Kenshiro, héritier du Hokuto Shinken. Dans un monde où seuls les forts survivent, Kenshiro se fraie un chemin avec ses poings en fer !",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:312522",
-      "type": "series",
-      "name": "My Ribdiculous Reincarnation",
-      "poster": "https://image.tmdb.org/t/p/w500/zXGD7HbBtqdTpfSbi5Dq2Qo6tCN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zheGPQDo6pOM4Dg1sE6GB246Usp.jpg",
-      "description": "Dans un monde où il est possible de se réincarner et d'avoir le choix, certains rôles populaires sont pris d'assaut, laissant une liste d'attente d'un millier d'années. Mais un postulant refuse d'attendre aussi longtemps et décide de se réincarner sous d'autres formes, toutes plus saugrenues les unes que les autres.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:301944",
-      "type": "series",
-      "name": "MARRIAGETOXIN",
-      "poster": "https://image.tmdb.org/t/p/w500/bHCm3vz7Mg60wEO6HTm9g2g8IEH.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/edyP3Y3j5M1aponwAtDEUtTlPIA.jpg",
-      "description": "Gero est l'aîné d'un clan de tueurs à gages spécialisé dans les poisons. Criminel de naissance, malgré son bon fond, il a grandi en marge de la société et s'imagine n'avoir aucune chance de trouver l'amour. Jusqu'au jour où son clan lui lance un ultimatum : s'il ne se marie pas pour donner naissance à un héritier, ils forceront sa petite sœur à le faire !\n\nOr, sa prochaine cible est une arnaqueuse, spécialisée dans les mariages arrangés... Acculé, Gero la supplie alors de l'aider.",
       "releaseInfo": "2026"
     }
   ]

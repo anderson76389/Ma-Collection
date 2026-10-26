@@ -1,20 +1,29 @@
 {
   "metas": [
     {
-      "id": "tmdb:1255833",
+      "id": "tmdb:858035",
       "type": "movie",
-      "name": "Englouti",
-      "poster": "https://image.tmdb.org/t/p/w500/qLt9F35AdGKDXPSJtqH5DERoigI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg",
-      "description": "Un plongeur sous-marin est à la recherche des restes de son père décédé, qui s'est fait avaler par un cachalot. Il ne lui reste plus qu'une heure avant que l'oxygène ne vienne à lui manquer.",
+      "name": "Klara et le Soleil",
+      "poster": "https://image.tmdb.org/t/p/w500/zJZ1ii7XPAJkdBWKIQN2fyyz5cQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg",
+      "description": "Lorsque Klara rencontre Josie, chacune perçoit immédiatement chez l'autre une âme soeur. Josie entretient une relation compliquée avec sa mère et toutes deux ont traversé de lourdes épreuves. Mais l'émerveillement sincère de Klara et sa loyauté sans faille commencent peu à peu à apaiser les blessures de cette famille et à apporter de la lumière dans l'univers complexe de Josie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1452110",
+      "type": "movie",
+      "name": "Clean Hands",
+      "poster": "https://image.tmdb.org/t/p/w500/szIEtkFLOMsPX6AVQSfzalNEEDd.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/py3XG3mFkdVMcw7VwfZ4HaXZIIU.jpg",
+      "description": "L'histoire vraie de Kevin Simmers, ancien policier anti-drogue devenu défenseur de la désintoxication, et de sa fille Brooke. Le film explore la crise américaine de la drogue et « la fine ligne bleue » à travers les regards opposés d'un policier et d'une toxicomane, qui étaient également père et fille.",
       "releaseInfo": "2026"
     },
     {
       "id": "tmdb:1288069",
       "type": "movie",
       "name": "Tenzing : à la conquête de l’Everest",
-      "poster": "https://image.tmdb.org/t/p/w500/hKA6G4Dj0Uonghi6AUwmpIvCFo0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6GXqVvL20Y0MpyVP30WoI2NPK69.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/yjeqiDKgOyrTROU5X4Rck01ldGF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9MdxBPjI58xkzA7RtKX9xRKvlZp.jpg",
       "description": "Un homme déterminé se lance dans une aventure périlleuse - et brave des obstacles apparemment insurmontables - pour réaliser son rêve d'être le premier à atteindre le sommet de l'Everest.",
       "releaseInfo": "2026"
     },
@@ -32,7 +41,7 @@
       "type": "movie",
       "name": "L'Amour de ta vie",
       "poster": "https://image.tmdb.org/t/p/w500/1zrnRcJ8JOTXYp0Qizad1rnuIA0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mqYqKvrKTgMvK50VtEDZlYFsnHz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4hneB0UFKOZAGJHqJ3VhDcG72uH.jpg",
       "description": "Maya dont la rencontre fortuite avec Charlie donne naissance à une histoire d'amour passionnée et à la vie dont elle n'osait pas rêver. Lorsque tout bascule, Maya doit déterminer qui elle est, ce qu'elle veut et comment réapprendre à aimer.",
       "releaseInfo": "2026"
     },
@@ -68,7 +77,7 @@
       "type": "movie",
       "name": "Digger",
       "poster": "https://image.tmdb.org/t/p/w500/gPCCGMQCrrMNM3mR3vqIdbdJxJ5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/b7t3r39Oll5qPxBKzLZ8eHMBD7l.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vC5IxhgO6cVmw9O4QgkraRzfHvh.jpg",
       "description": "L’homme le plus puissant du monde se lance dans une mission frénétique pour prouver qu’il est le sauveur de l’humanité avant que le désastre qu’il a déclenché ne détruise tout.",
       "releaseInfo": "2026"
     },
@@ -82,11 +91,12 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1229906",
+      "id": "tmdb:1437396",
       "type": "movie",
-      "name": "Family",
-      "poster": "https://image.tmdb.org/t/p/w500/cTXGUz1Mle56A6vAK2GAf1j8Wtn.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wXMsCAtOr27zaZLb1Nv63JFpQiV.jpg",
+      "name": "Your Mother Your Mother Your Mother",
+      "poster": "https://image.tmdb.org/t/p/w500/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jiFLiatBtBALlAzV5R72gzspBad.jpg",
+      "description": "Latif, un tueur à gages profondément religieux, a du mal à équilibrer travail, foi et paternité. Lorsque sa femme décède, il se lance dans un voyage désespéré à travers Houston pour protéger ses enfants, affrontant les forces qui se rapprochent de lui – et les croyances qui menacent de s'effondrer à l'intérieur.",
       "releaseInfo": "2026"
     },
     {
@@ -94,7 +104,7 @@
       "type": "movie",
       "name": "Raison et Sentiments",
       "poster": "https://image.tmdb.org/t/p/w500/9XNEI2AYgQIIqXper5kOdGTnyf5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nkINWVL8x1KwdpO0dUbYhS3Y1iP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nrLVr8C2pkbOGwXKay2xrxvlHmh.jpg",
       "description": "Une irrésistible nouvelle version du roman culte de Jane Austin, Raison et Sentiments, qui suit deux sœurs à travers leurs amours, leurs chagrins et le lien qui les unit d'une façon magistrale et profondément proche de nous.",
       "releaseInfo": "2026"
     },
@@ -103,7 +113,7 @@
       "type": "movie",
       "name": "Primetime",
       "poster": "https://image.tmdb.org/t/p/w500/rhF8JALH8wrxKtXSCAB7a09tWsc.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1tJz8e1G21nEuzHlX771MNBRJvM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
       "description": "Chris Hansen présente l'émission policière « To Catch a Predator ». Diffusée sur NBC Dateline, cette émission tente de filmer des pédophiles présumés avec l'aide des forces de l'ordre et d'une équipe d'appâts se faisant passer pour des mineurs sur Internet. En 2006, Hansen est sur le point de révolutionner le monde de la télévision.",
       "releaseInfo": "2026"
     },
@@ -111,9 +121,9 @@
       "id": "tmdb:1433583",
       "type": "movie",
       "name": "Les Contrebandiers",
-      "poster": "https://image.tmdb.org/t/p/w500/hjM3hITDk5XvWu4cMn7dj7IpwY8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zLeq2fbHU6UdA7mhsYnIULORTgq.jpg",
-      "description": "Oregon, 1933. Après la mort de sa femme, Samuel Murphy est arraché à sa fille et envoyé dans un camp de travail impitoyable. Lorsqu’un surveillant sans scrupule lui promet la liberté contre une périlleuse mission de contrebande d’or, Murphy saisit sa seule chance de rentrer chez lui. Il s’embarque alors dans une expédition de tous les dangers, au cœur d’une nature hostile, où les trahisons se multiplient. Jusqu’où Murphy sera-t-il prêt à aller pour revoir sa fille ?",
+      "poster": "https://image.tmdb.org/t/p/w500/vaqivu9jGF9n41rhMExGetkIy18.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4klejBUCWsq2F9GHB5EH5mQdFOg.jpg",
+      "description": "Dans l'Oregon en 1933, Samuel Murphy a perdu sa femme et vit seul avec sa fille Penny. Mais il est arrêté et placé dans un camp de travail. Clancy, le directeur de la prison, propose à Samuel et à plusieurs autres détenus de regagner leur liberté en échange de leur participation à un dangereux trafic d'or. Pour retrouver la garde de sa fille, Samuel n'a pas le choix.",
       "releaseInfo": "2026"
     },
     {
@@ -146,7 +156,7 @@
       "type": "movie",
       "name": "The Uprising",
       "poster": "https://image.tmdb.org/t/p/w500/ymUS8HTc7ctfdSYC6bmEokSKisa.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/y0reRTsewsPh0ePtgvDeLIsb5Wk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kAlAFblqBI6aGXItR4DRpT5Tozg.jpg",
       "description": "Lors de la révolte des paysans anglais de 1381, l'humble Wat Tyler s'élève à la tête de la résistance contre le jeune roi Richard II. À la tête d'une armée de citoyens ordinaires, il affronte les troupes de la Couronne dans une lutte pour la justice et la survie. Ses actions font de lui un symbole légendaire de la résistance.",
       "releaseInfo": "2026"
     },
@@ -166,15 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/nGnI5tT7qstkld94S8m4c68noZt.jpg",
       "background": "https://image.tmdb.org/t/p/w780/tcm829PtxDSomGOEXxzO7c0sK3p.jpg",
       "description": "Sur une île écossaise, les frères et sœurs Isla et Sandy chassent les oiseaux et communiquent avec des êtres mythiques tout en repoussant les intrus. Leur vie bascule à l’arrivée de Daniel, un fonctionnaire maladroit venu pour les reloger.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1429713",
-      "type": "movie",
-      "name": "Bucking Fastard",
-      "poster": "https://image.tmdb.org/t/p/w500/Ae0A2HtLSa0W2xOXvS47HdMz6ri.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cnuB1HfYzdAt3s5DbZybFsPuJ.jpg",
-      "description": "L'histoire vraie de deux sœurs jumelles inséparables, Joan et Jean, qui vivent en marge de la société.",
       "releaseInfo": "2026"
     }
   ]

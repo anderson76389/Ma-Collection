@@ -18,15 +18,6 @@
       "releaseInfo": "1984"
     },
     {
-      "id": "tmdb:37678",
-      "type": "series",
-      "name": "The Voice (États-Unis)",
-      "poster": "https://image.tmdb.org/t/p/w500/7ah1WExcMkzbq7sARCTmcC23tBr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/x8pSFa3BXyVpkjHyn7YxmLyhjoh.jpg",
-      "description": "Les meilleurs chanteurs du pays s’affrontent dans un grand concours de chant, dont le gagnant est couronné « The Voice ». Le programme repose sur un format innovant en quatre étapes : les auditions à l’aveugle, les battles, les épreuves éliminatoires et, les prestations en direct.",
-      "releaseInfo": "2011"
-    },
-    {
       "id": "tmdb:14658",
       "type": "series",
       "name": "Survivor",
@@ -43,6 +34,15 @@
       "background": "https://image.tmdb.org/t/p/w780/r4ceAy8m4w9gheLWEgEgQnbYK85.jpg",
       "description": "\"Dancing with the Stars\" est la version américaine de l'émission britannique \"Strictly Come Dancing\". Une des plus grandes franchises au niveau mondial, car la série a été reprise par de nombreux autres pays avec leur propre version. L'émission est présentée par Tom Bergeron et se compose d'une célébrité jumelée à un professionnel de la danse. Chaque couple exécute des danses prédéterminées et rivalise avec d'autres équipes. A chaque émission, l'équipe qui a le moins de point est éliminée jusqu'à ce qu'il ne reste que le duo champion.",
       "releaseInfo": "2005"
+    },
+    {
+      "id": "tmdb:37678",
+      "type": "series",
+      "name": "The Voice (États-Unis)",
+      "poster": "https://image.tmdb.org/t/p/w500/7ah1WExcMkzbq7sARCTmcC23tBr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/x8pSFa3BXyVpkjHyn7YxmLyhjoh.jpg",
+      "description": "Les meilleurs chanteurs du pays s’affrontent dans un grand concours de chant, dont le gagnant est couronné « The Voice ». Le programme repose sur un format innovant en quatre étapes : les auditions à l’aveugle, les battles, les épreuves éliminatoires et, les prestations en direct.",
+      "releaseInfo": "2011"
     },
     {
       "id": "tmdb:31991",
@@ -63,22 +63,6 @@
       "releaseInfo": "1999"
     },
     {
-      "id": "tmdb:46707",
-      "type": "series",
-      "name": "WWE Main Event",
-      "poster": "https://image.tmdb.org/t/p/w500/cy4Ceb9iWPzHn7V0J0F13h1Zhx3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ajAG3632pM9QnSOBcsKuFtTgTq2.jpg",
-      "releaseInfo": "2012"
-    },
-    {
-      "id": "tmdb:92661",
-      "type": "series",
-      "name": "25 Words or Less",
-      "poster": "https://image.tmdb.org/t/p/w500/gwu2aVl89amkSfBL5TqhvazYQAE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zi7hR8mfpApWoj3N3poBsJW9uxL.jpg",
-      "releaseInfo": "2018"
-    },
-    {
       "id": "tmdb:2370",
       "type": "series",
       "name": "Hell's Kitchen",
@@ -86,6 +70,14 @@
       "background": "https://image.tmdb.org/t/p/w780/kitfuCa2TqX6oY5HvdFRjMMaLwc.jpg",
       "description": "Hell's Kitchen (en français la cuisine de l'enfer ou cuisine infernale) est une compétition américaine  de cuisine télévisée réelle basée sur la série britannique du même nom diffusée sur Fox. Elle est présentée par Gordon Ramsay. Deux équipes de chefs concourent pour un poste de chef dans un restaurant…",
       "releaseInfo": "2005"
+    },
+    {
+      "id": "tmdb:46707",
+      "type": "series",
+      "name": "WWE Main Event",
+      "poster": "https://image.tmdb.org/t/p/w500/cy4Ceb9iWPzHn7V0J0F13h1Zhx3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ajAG3632pM9QnSOBcsKuFtTgTq2.jpg",
+      "releaseInfo": "2012"
     },
     {
       "id": "tmdb:30957",
@@ -97,38 +89,13 @@
       "releaseInfo": "2001"
     },
     {
-      "id": "tmdb:6390",
+      "id": "tmdb:2394",
       "type": "series",
-      "name": "Escape to the Country",
-      "poster": "https://image.tmdb.org/t/p/w500/cIJsjd0HdyKIODAgPuXeEpOAJ9j.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vzw3tHpCWkGUsVwLV0SvqMHZJqt.jpg",
-      "releaseInfo": "2002"
-    },
-    {
-      "id": "tmdb:2051",
-      "type": "series",
-      "name": "The Price Is Right",
-      "poster": "https://image.tmdb.org/t/p/w500/7MSqORrf1RZsmLUTQ2XoEJEtzt5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/p0umYdTa7csDT9SkZX8DD52Sy4a.jpg",
-      "releaseInfo": "1972"
-    },
-    {
-      "id": "tmdb:2778",
-      "type": "series",
-      "name": "Wheel of Fortune",
-      "poster": "https://image.tmdb.org/t/p/w500/4S36URhKU4sBL1gC2B5UxmTlZMl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/A6Sp44grqCnvKs5Plhy3oQncUrq.jpg",
-      "description": "Ce jeu télévisé voit les concurrents résoudre des énigmes de mots, similaires à celles utilisées dans Hangman, pour gagner de l'argent et des prix déterminés en faisant tourner une roue de carnaval géante.",
-      "releaseInfo": "1983"
-    },
-    {
-      "id": "tmdb:3670",
-      "type": "series",
-      "name": "COPS",
-      "poster": "https://image.tmdb.org/t/p/w500/xtEQVy408xsVw5ZX6Yu35pwJ1Ja.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7xQR6ixywZofrEHKfI1z6CWKFsC.jpg",
-      "description": "COPS est une émission de télévision de type reality show américaine diffusée sur le réseau Fox depuis le 11 mars 1989 qui suit le travail quotidien de policiers des États-Unis, les montrant le plus souvent à la poursuite de certains délinquants.  Le 6 mai 2013, la série a été annulée par Fox, mais est transférée sur Spike TV à partir de l'automne 2013.\n\nLa série est surtout célèbre pour son générique d'ouverture, la chanson Bad Boys par Inner Circle, reprise par les personnages principaux du film du même nom.",
-      "releaseInfo": "1989"
+      "name": "This Old House",
+      "poster": "https://image.tmdb.org/t/p/w500/eKLaK1pivbX2z9aLev8IG2I9WG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zBTKswHgCoQ58SUreY1qh94fhFE.jpg",
+      "description": "Émission originale de rénovation domiciliaire de la télévision, après une rénovation complète de la maison sur plusieurs épisodes.",
+      "releaseInfo": "1979"
     },
     {
       "id": "tmdb:34634",
@@ -140,6 +107,23 @@
       "releaseInfo": "2010"
     },
     {
+      "id": "tmdb:92661",
+      "type": "series",
+      "name": "25 Words or Less",
+      "poster": "https://image.tmdb.org/t/p/w500/gwu2aVl89amkSfBL5TqhvazYQAE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zi7hR8mfpApWoj3N3poBsJW9uxL.jpg",
+      "releaseInfo": "2018"
+    },
+    {
+      "id": "tmdb:3670",
+      "type": "series",
+      "name": "COPS",
+      "poster": "https://image.tmdb.org/t/p/w500/xtEQVy408xsVw5ZX6Yu35pwJ1Ja.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7xQR6ixywZofrEHKfI1z6CWKFsC.jpg",
+      "description": "COPS est une émission de télévision de type reality show américaine diffusée sur le réseau Fox depuis le 11 mars 1989 qui suit le travail quotidien de policiers des États-Unis, les montrant le plus souvent à la poursuite de certains délinquants.  Le 6 mai 2013, la série a été annulée par Fox, mais est transférée sur Spike TV à partir de l'automne 2013.\n\nLa série est surtout célèbre pour son générique d'ouverture, la chanson Bad Boys par Inner Circle, reprise par les personnages principaux du film du même nom.",
+      "releaseInfo": "1989"
+    },
+    {
       "id": "tmdb:89180",
       "type": "series",
       "name": "Dimension 20",
@@ -148,13 +132,21 @@
       "releaseInfo": "2018"
     },
     {
-      "id": "tmdb:30703",
+      "id": "tmdb:17937",
       "type": "series",
-      "name": "Shark Tank",
-      "poster": "https://image.tmdb.org/t/p/w500/wztqq3SWfdzcuxvl9oA2HwOXasO.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lxekzMqu4I1dWG7bK4IaurD5PbM.jpg",
-      "description": "Des entrepreneurs ambitieux présentent leurs concepts d'affaires révolutionnaires...",
-      "releaseInfo": "2009"
+      "name": "Ghost Adventures",
+      "poster": "https://image.tmdb.org/t/p/w500/xLJZuDxdeUqRFHFlqs0mIk9faMR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/u64huzTnF3jEYUXJ4BDlpHy2L3K.jpg",
+      "description": "L'enquêteur paranormal Zak Bagans et son équipe, Nick Groff, Aaron Goodwin, Billy Tolley et Jay Wasley, recherchent des lieux hantés au niveau national et international. Au cours de leur enquête, Zak et son équipe se familiarisent avec la région, interrogent les habitants sur les lieux hantés et rencontrent les mauvais esprits qui hanteraient ces lieux.",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:2051",
+      "type": "series",
+      "name": "The Price Is Right",
+      "poster": "https://image.tmdb.org/t/p/w500/7MSqORrf1RZsmLUTQ2XoEJEtzt5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/p0umYdTa7csDT9SkZX8DD52Sy4a.jpg",
+      "releaseInfo": "1972"
     },
     {
       "id": "tmdb:1711",
@@ -165,13 +157,21 @@
       "releaseInfo": "2004"
     },
     {
-      "id": "tmdb:4086",
+      "id": "tmdb:21755",
       "type": "series",
-      "name": "Burgers and Co avec Guy FIERI",
-      "poster": "https://image.tmdb.org/t/p/w500/fPpDR6kw8bA0iZ8a0dUbexVVzn3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tKtxE1KzqKDg3HIXNnlr7VpuWzd.jpg",
-      "description": "Les « diners » et les « drive-ins » vintage étant de plus en plus tendance chez les gourmets, Guy Fieri sillonne les États-Unis à la recherche des meilleurs burgers, barbecues et fritures du pays, souvent plébiscités par les locaux. Dans chaque resto, Fieri discute avec le personnel et les clients et leur demande leur avis sur la nourriture. Guy Fieri sillonne les États-Unis à la recherche des meilleurs burgers, barbecues et fritures, souvent plébiscités par les locaux.",
-      "releaseInfo": "2007"
+      "name": "Pawn Stars, les rois des enchères",
+      "poster": "https://image.tmdb.org/t/p/w500/3YxmQmoSbv9bXHYWIEDztstZguC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zzZzApaNDa2IxQUWo8x3Rbgs7iW.jpg",
+      "description": "L'émission met en scène la vie de la boutique de prêt sur gage Gold & Silver Pawn Shop à Las Vegas. Trois générations travaillent ensemble dans le magasin : Rick Harrison est propriétaire de la boutique avec son père Richard Benjamin Harrison dit « Le Vieux », et exploite le magasin avec son fils Corey Harrison dit « Big Hoss ». L'émission met aussi à l'honneur Austin Russell dit « Chumlee (en) », ami d'enfance de Corey et employé du magasin2. Des particuliers apportent des objets plus ou moins anciens qu'ils souhaitent le plus souvent vendre. Ces objets font l'objet d'une expertise (historique, état etc.) et une négociation s'engage pour en fixer le prix. Si la transaction aboutit, le paiement s'effectue en espèces. Entre ces scènes, l'émission montre les chamailleries au sein de l'équipe.",
+      "releaseInfo": "2009"
+    },
+    {
+      "id": "tmdb:6390",
+      "type": "series",
+      "name": "Escape to the Country",
+      "poster": "https://image.tmdb.org/t/p/w500/cIJsjd0HdyKIODAgPuXeEpOAJ9j.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vzw3tHpCWkGUsVwLV0SvqMHZJqt.jpg",
+      "releaseInfo": "2002"
     }
   ]
 }

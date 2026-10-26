@@ -1,6 +1,24 @@
 {
   "metas": [
     {
+      "id": "tmdb:4419",
+      "type": "series",
+      "name": "Real Time with Bill Maher",
+      "poster": "https://image.tmdb.org/t/p/w500/pbpoLLp4kvnYVfnEGiEhagpJuVZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/njEGYHyq58q94ZPJlSGs6bGrepv.jpg",
+      "description": "Chaque semaine, Bill Maher s'entoure d'un panel d'invités qui comprend des politiciens, des acteurs, des comédiens, des musiciens et autres, pour discuter de ce qui se passe dans le monde.",
+      "releaseInfo": "2003"
+    },
+    {
+      "id": "tmdb:60694",
+      "type": "series",
+      "name": "Last Week Tonight with John Oliver",
+      "poster": "https://image.tmdb.org/t/p/w500/fuuEjEr69uvRtGaQw70JfvdrUwb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/q31EEBycbOyX7GGJP4GTPI5WJRO.jpg",
+      "description": "L'ancien animateur et correspondant du Daily Show, John Oliver, apporte sa personnalité à cette émission hebdomadaire de satire sur l'actualité.",
+      "releaseInfo": "2014"
+    },
+    {
       "id": "tmdb:336418",
       "type": "series",
       "name": "Meurtre au cimetière",

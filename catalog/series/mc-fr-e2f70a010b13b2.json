@@ -35,6 +35,15 @@
       "releaseInfo": "2024"
     },
     {
+      "id": "tmdb:254442",
+      "type": "series",
+      "name": "Pop Culture Jeopardy!",
+      "poster": "https://image.tmdb.org/t/p/w500/hALwu0iI9mKo3hLlVbfiGa6EAPF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sKxgdEqCkjlkCSCdLtnw9B9FAH.jpg",
+      "description": "Musique, télévision, cinéma… et bien plus encore ! Des équipes s'affrontent pour tenter de décrocher 300 000 dollars dans ce quiz de pop culture animé par Colin Jost.",
+      "releaseInfo": "2024"
+    },
+    {
       "id": "tmdb:252006",
       "type": "series",
       "name": "Êtes-vous plus intelligent qu'une célébrité ?",

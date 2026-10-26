@@ -1,0 +1,22 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:41956",
+      "type": "series",
+      "name": "Meurtres au paradis",
+      "poster": "https://image.tmdb.org/t/p/w500/aBxzYuGvts131yMQhWhC8KBzARz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nCwAmyCcA6w1ZFjKrmwCRPiy4gt.jpg",
+      "description": "Le détective Richard Poole est muté à Sainte Marie, une île des Caraïbes. Totalement inadapté au style de vie caribéen, Richard déteste le soleil, la mer et le sable et n'est pas habitué aux méthodes policières de Sainte Marie. Travaillant de pair avec l'exotique Camille, chaque semaine, Richard enquête sur des meurtres complexes et inhabituels.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:2625",
+      "type": "series",
+      "name": "Diagnostic : Meurtre",
+      "poster": "https://image.tmdb.org/t/p/w500/v19ekQSevK5ulN94hE88cljGVI2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gVAwcl83Ys1dtcFCiLuCLAx6xge.jpg",
+      "description": "Le docteur Mark Sloan aide un service de police à résoudre des enquêtes criminelles, en tant que consultant. Son fils Steve Sloan, policier très compétent, lui demande un coup de main pour résoudre les affaires difficiles.\n\nMark travaille au Community General Hospital de Los Angeles avec Amanda Livingstone, puis Bentley, qui est une de ses amies, et sur qui il peut compter pour résoudre les enquêtes. Pendant les deux premières saisons, Jack Stewart assiste Mark, Steve et Amanda puis décide de partir exercer dans le Colorado. À partir de la troisième saison, Jesse Travis prend la relève.",
+      "releaseInfo": "1993"
+    }
+  ]
+}

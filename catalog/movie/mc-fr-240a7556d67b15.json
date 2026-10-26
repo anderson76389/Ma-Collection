@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1236045",
+      "type": "movie",
+      "name": "Animals",
+      "poster": "https://image.tmdb.org/t/p/w500/33MhDOKB0S5VwuaD9lZyV0v0st0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tzoarEu7TsG959upiELyYPm5kO9.jpg",
+      "description": "Quand leur fils est enlevé, un candidat à la mairie de Los Angeles et sa femme s'efforcent de réunir l'argent de la rançon et font des choix qui pourraient bouleverser leur vie.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1492640",
       "type": "movie",
       "name": "UNABOMBER",
@@ -10,21 +19,21 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1433583",
+      "id": "tmdb:1290418",
       "type": "movie",
-      "name": "Les Contrebandiers",
-      "poster": "https://image.tmdb.org/t/p/w500/hjM3hITDk5XvWu4cMn7dj7IpwY8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zLeq2fbHU6UdA7mhsYnIULORTgq.jpg",
-      "description": "Oregon, 1933. Après la mort de sa femme, Samuel Murphy est arraché à sa fille et envoyé dans un camp de travail impitoyable. Lorsqu’un surveillant sans scrupule lui promet la liberté contre une périlleuse mission de contrebande d’or, Murphy saisit sa seule chance de rentrer chez lui. Il s’embarque alors dans une expédition de tous les dangers, au cœur d’une nature hostile, où les trahisons se multiplient. Jusqu’où Murphy sera-t-il prêt à aller pour revoir sa fille ?",
+      "name": "The Cycle",
+      "poster": "https://image.tmdb.org/t/p/w500/n5gSNf55KWfDc9hqP4H1KCCSutE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bgHW6AJl2SdKzxglvf9tshXbI84.jpg",
+      "description": "Une fille découvre le sombre passé de son père après la découverte de son corps, disparu depuis 36 ans, sur une scène de crime horrible.",
       "releaseInfo": "2026"
     },
     {
       "id": "tmdb:1380417",
       "type": "movie",
-      "name": "Par tous les moyens",
-      "poster": "https://image.tmdb.org/t/p/w500/f4hdIed8vh10O8TkQ1CkHS8MQ3G.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/eAouIDoMDhLetm6CtmDKIGEaaCi.jpg",
-      "description": "L'histoire vraie d'un tueur à gages de la mafia qui a été engagé par le FBI de Hoover et qui s'est associé à un jeune agent spécial noir pour traquer les responsables des meurtres des leaders des droits civiques dans le Mississippi en 1966.",
+      "name": "By Any Means",
+      "poster": "https://image.tmdb.org/t/p/w500/evCy2B3j57AwSNBZqlePjMl3zj3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1jANqIbqrWJZb8GM5Kb3L6U8iHi.jpg",
+      "description": "Un jeune agent noir du FBI est envoyé au Mississippi dans les années 60 afin d’enquêter sur une vague de meurtres brutaux visant des leaders du mouvement des droits civiques. Contraint de faire équipe avec le célèbre tueur à gages de la mafia Greg Scarpa, il se retrouve entraîné dans une traque meurtrière où la frontière entre justice et vengeance devient de plus en plus floue.",
       "releaseInfo": "2026"
     },
     {
@@ -85,8 +94,8 @@
       "id": "tmdb:675871",
       "type": "movie",
       "name": "Super Troopers 3",
-      "poster": "https://image.tmdb.org/t/p/w500/VVU42nqsEmUtFpH1d9MHj5BIpF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mqO2Q8BeCuESJUVZgwyWRDa9Ux9.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/hOAjBggD7zWat7nqt7dUUDH5ZRG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rAeT8K51JJJomj0M7WGPC8jt4yi.jpg",
       "description": "Dans le Vermont, près de la frontière canadienne, cinq officiers de police, Thorny, Farva, Mac, Foster et Rabbit, tentent tant bien que mal de faire respecter l'ordre.",
       "releaseInfo": "2026"
     },
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/dOWWCLSwXS1MBtGEFeItbloiUEN.jpg",
       "background": "https://image.tmdb.org/t/p/w780/oGD1dZvojZssnd9Ua6RUalEEHQu.jpg",
       "description": "La police arrête une femme qui affirme qu'elle vient d'accoucher. Mais ni le bébé ni le sang ne sont les siens. Les mensonges se succèdent dans ce documentaire sur un crime réel.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1329471",
-      "type": "movie",
-      "name": "Carolina Caroline",
-      "poster": "https://image.tmdb.org/t/p/w500/9Jkylw7Y5NQyi7C8IwXLBvVSrH2.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5dE3rixgMUTXOQLuO3zya4zSFav.jpg",
-      "description": "Dans sa petite ville tranquille du Texas, Caroline rencontre Oliver, un escroc charismatique, et se laisse rapidement envoûter par lui et ses combines. Ensemble, ils prennent la fuite et, au cours de leur périple fougueux et romantique à travers le Sud, ils sèment la pagaille, le crime et la passion sur leur passage, à la recherche de la mère de Caroline, dont elle est séparée. Mais lorsque de petits larcins se transforment en braquages ​​de plus en plus audacieux, le duo devient un « Bonnie et Clyde » des temps modernes et doit user de tous les stratagèmes pour échapper à la police.",
       "releaseInfo": "2026"
     }
   ]

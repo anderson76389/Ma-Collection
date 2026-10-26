@@ -19,15 +19,6 @@
       "releaseInfo": "2021"
     },
     {
-      "id": "tmdb:204024",
-      "type": "series",
-      "name": "Pierre, Feuille, Ciseaux",
-      "poster": "https://image.tmdb.org/t/p/w500/p8H3M91e9r2ljRrWgDd60gtPxLW.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mJX8hrrtzp05VtO0JSXLkljUTI2.jpg",
-      "description": "Pierre, Feuille et Ciseaux, 3 amis inséparables et pourtant querelleurs, partagent leur quotidien et leurs petites misères qui prennent vite des proportions énormes.",
-      "releaseInfo": "2024"
-    },
-    {
       "id": "tmdb:224024",
       "type": "series",
       "name": "Max & les mi-chevaliers",
@@ -35,15 +26,6 @@
       "background": "https://image.tmdb.org/t/p/w780/9QlPvdElQENr9XfYpoF6VL2AFPW.jpg",
       "description": "La courageuse Max mène les Mi-Chevaliers dans des aventures épiques, rythmées par de toutes nouvelles chansons originales. Après que le roi Geyniard ait volé le trône et imposé un régime injuste au royaume de Bourg-Sacré, Max doit venir à la rescousse des habitants pour renverser l'ennemi avide de pouvoir. Avec ses amis et son oncle Potrick, Max ne reculera devant aucune difficulté",
       "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:214875",
-      "type": "series",
-      "name": "Ruben & cie",
-      "poster": "https://image.tmdb.org/t/p/w500/trcqt0g3NczUiIsxgYcRvE6QbBi.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5SWWe369D4Fjs2RDVhMagNJLlps.jpg",
-      "description": "Les aventures de Ruben et de ses amis ont lieu dans une petite ville en plein essor, Bricoville. De nouveaux habitants arrivent tous les jours. Ils peuvent compter sur Ruben et sa famille de constructeurs !",
-      "releaseInfo": "2023"
     }
   ]
 }

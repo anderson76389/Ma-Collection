@@ -19,12 +19,21 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:30984",
+      "type": "series",
+      "name": "Bleach",
+      "poster": "https://image.tmdb.org/t/p/w500/e0kKmeM8R7Kersh5N2PPzIRNRhr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/o0NsbcIvsllg6CJX0FBFY8wWbsn.jpg",
+      "description": "Adolescent de quinze ans, Ichigo Kurosaki possède un don particulier : celui de voir les esprits. Un jour, il croise la route d'une belle Shinigami (un être spirituel) en train de pourchasser une « âme perdue », un esprit maléfique qui hante notre monde et n'arrive pas à trouver le repos. Mise en difficulté par son ennemi, la jeune fille décide alors de prêter une partie de ses pouvoirs à Ichigo, mais ce dernier hérite finalement de toute la puissance du Shinigami. Contraint d'assumer son nouveau statut, Ichigo va devoir gérer ses deux vies : celle de lycéen ordinaire, et celle de chasseur de démons…",
+      "releaseInfo": "2004"
+    },
+    {
       "id": "tmdb:45790",
       "type": "series",
       "name": "JoJo's Bizarre Adventure",
       "poster": "https://image.tmdb.org/t/p/w500/2Sc0veFPh9CcHMtNqMyiQqIW9ZF.jpg",
       "background": "https://image.tmdb.org/t/p/w780/l2gc2dPRUPe3bAfYCRTjc6uAMmB.jpg",
-      "description": "Angleterre, 1981. Afin d'honorer ancienne dette, Lord George Joestar adopte Dio Brando, le fils de son sauveur Dario. Mais sous l'apparence du fils modèle, Dio souhaite s'emparer de la fortune des Joestar et humilier le fils du lord, Jonathan Joestar surnommé Jojo. Une rivalité nait entre eux et explose à cause d'un masque aztèque aux capacités mystérieuses. Dio s'en empare et devient un vampire, que seul la maîtrise du hamon permettra à Jonathan d'espérer le vaincre. Voici le point de départ du destin entremêlé de la famille Joestar et de Dio. Chaque illustre membre l'affrontera, lui ou des adversaires qui lui sont liés grâce au hamon, puis aux stands, la matérialisation de leur esprit combatif doté de force et de capacités insoupçonnées. Parmi eux, Joseph l'aventurier arrogant, Jotaro et son stand invincible Star Platinium, Josuke l'ami au grand cœur, Giorno le fils de Dio et gangster à la chevelure dorée et Jolyne, la fille à la volonté de fer.",
+      "description": "Angleterre, 1881. Afin d'honorer ancienne dette, Lord George Joestar adopte Dio Brando, le fils de son sauveur Dario. Mais sous l'apparence du fils modèle, Dio souhaite s'emparer de la fortune des Joestar et humilier le fils du lord, Jonathan Joestar surnommé Jojo. Une rivalité nait entre eux et explose à cause d'un masque aztèque aux capacités mystérieuses. Dio s'en empare et devient un vampire, que seul la maîtrise du hamon permettra à Jonathan d'espérer le vaincre. Voici le point de départ du destin entremêlé de la famille Joestar et de Dio. Chaque illustre membre l'affrontera, lui ou des adversaires qui lui sont liés grâce au hamon, puis aux stands, la matérialisation de leur esprit combatif doté de force et de capacités insoupçonnées. Parmi eux, Joseph l'aventurier arrogant, Jotaro et son stand invincible Star Platinium, Josuke l'ami au grand cœur, Giorno le fils de Dio et gangster à la chevelure dorée et Jolyne, la fille à la volonté de fer.",
       "releaseInfo": "2012"
     },
     {
@@ -37,15 +46,6 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:73223",
-      "type": "series",
-      "name": "Black Clover",
-      "poster": "https://image.tmdb.org/t/p/w500/zObHoFAX6P7DirR2dybN3cVC1Ms.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qu9epTZh29fGUkY7ZYc9PVsv0Ig.jpg",
-      "description": "Dans un monde régi par la magie, Yuno et Asta ont grandi ensemble avec un seul but en tête : devenir le prochain Empereur-Mage du royaume de Clover. Mais si le premier est naturellement doué, le deuxième, quant à lui, ne sait pas manipuler la magie. C'est ainsi que lors de la cérémonie d'attribution de leur grimoire, Yuno reçoit le légendaire grimoire au trèfle à quatre feuilles tandis qu'Asta, lui, repart bredouille. Or, plus tard, un ancien et mystérieux ouvrage noir décoré d'un trèfle à cinq feuilles surgit devant lui ! Un grimoire d’anti-magie…",
-      "releaseInfo": "2017"
-    },
-    {
       "id": "tmdb:105009",
       "type": "series",
       "name": "Tokyo Revengers",
@@ -53,6 +53,15 @@
       "background": "https://image.tmdb.org/t/p/w780/zYIFOocMfsKAEysBjhZ8akfXFdB.jpg",
       "description": "Takemichi Hanagaki n'a pas vraiment réussi sa vie. Il fait des petits boulots sans intérêt et lorsqu'il apprend que la seule petite amie qu'il ait jamais eu au collège, Hinata Tachibana, a été tuée par l'impitoyable gang Tokyo Manji-kai, il est anéanti. Le lendemain, toujours sous le choc, il est poussé sur les rails de la gare lors d'un mouvement de foule. Mais Takemichi ne meurt pas et quand il se réveille, il est revenu douze ans en arrière. Il va ainsi retrouver ses meilleures années, mais aussi tenter de sauver celle qui l'aime et prendre sa revanche sur la vie…",
       "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:216467",
+      "type": "series",
+      "name": "Mission: Yozakura Family",
+      "poster": "https://image.tmdb.org/t/p/w500/glBNKxn7UfZ2bwXfvwGgsbs9yIT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xlMVEbNl7ZBGFyhX2WEhQ8Kifm4.jpg",
+      "description": "Taiyô Asano est un lycéen à la timidité maladive. La seule personne avec qui il arrive à parler normalement est son amie d'enfance Mutsumi Yozakura. Mais cette dernière est la fille d'une famille d'espions qui oeuvre depuis plusieurs générations, et son grand frère, qui lui voue une affection excessive, a décidé d'éliminer Taiyô !",
+      "releaseInfo": "2024"
     },
     {
       "id": "tmdb:259140",
@@ -64,13 +73,22 @@
       "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:216467",
+      "id": "tmdb:73223",
       "type": "series",
-      "name": "Mission: Yozakura Family",
-      "poster": "https://image.tmdb.org/t/p/w500/glBNKxn7UfZ2bwXfvwGgsbs9yIT.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xlMVEbNl7ZBGFyhX2WEhQ8Kifm4.jpg",
-      "description": "Taiyô Asano est un lycéen à la timidité maladive. La seule personne avec qui il arrive à parler normalement est son amie d'enfance Mutsumi Yozakura. Mais cette dernière est la fille d'une famille d'espions qui oeuvre depuis plusieurs générations, et son grand frère, qui lui voue une affection excessive, a décidé d'éliminer Taiyô !",
-      "releaseInfo": "2024"
+      "name": "Black Clover",
+      "poster": "https://image.tmdb.org/t/p/w500/zObHoFAX6P7DirR2dybN3cVC1Ms.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qu9epTZh29fGUkY7ZYc9PVsv0Ig.jpg",
+      "description": "Dans un monde régi par la magie, Yuno et Asta ont grandi ensemble avec un seul but en tête : devenir le prochain Empereur-Mage du royaume de Clover. Mais si le premier est naturellement doué, le deuxième, quant à lui, ne sait pas manipuler la magie. C'est ainsi que lors de la cérémonie d'attribution de leur grimoire, Yuno reçoit le légendaire grimoire au trèfle à quatre feuilles tandis qu'Asta, lui, repart bredouille. Or, plus tard, un ancien et mystérieux ouvrage noir décoré d'un trèfle à cinq feuilles surgit devant lui ! Un grimoire d’anti-magie…",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:226688",
+      "type": "series",
+      "name": "BEYBLADE X",
+      "poster": "https://image.tmdb.org/t/p/w500/66wkm14IWdrY5LaKZDAbkD2T9Jt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qAq9RBeHZoTMDFqQZ2o4cE5CJIQ.jpg",
+      "description": "Robin Kazami, blader débutant, s'associe à l'influenceuse Multi Nana-iro et à l'ancien champion Jaxon Cross pour former ce trio improbable, prêt à gravir les échelons du classement The X et à remporter le titre de champion blader !",
+      "releaseInfo": "2023"
     },
     {
       "id": "tmdb:253811",
@@ -91,30 +109,12 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:313346",
-      "type": "series",
-      "name": "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life",
-      "poster": "https://image.tmdb.org/t/p/w500/d2twigOlajyMBmqjZY0z0XCBwGC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/msusxF6ZPGnQmTGXU9iC4UJOohs.jpg",
-      "description": "Rein l'Enchanteur est un mage capable d'améliorer les armes et les armures. Mais lorsqu'il se fait renvoyer de sa guilde pour la simple raison qu'il a déjà enchanté tout ce qu'elle possède, il décide de reprendre tous les sorts qu’il a transmis à ses ex-compagnons et les affecte à son propre équipement. En chemin, Rein rassemble une bande de parias comme lui et, ensemble, ils explorent le monde.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:295420",
       "type": "series",
       "name": "The Vermilion Mask",
       "poster": "https://image.tmdb.org/t/p/w500/hsMd1zUdZGMQpLr55wM0OKK07X5.jpg",
       "background": "https://image.tmdb.org/t/p/w780/d63e5W3rWWuMIDcrUgmZTauMbna.jpg",
       "description": "Apprenti fabricant de masques, Peru aurait dû connaître les dangers liés à ces artefacts. Possédé par le Masque du Dieu Guerrier, il tue involontairement ses amis et son maître, le légendaire Gaston Roux. Rongé par la culpabilité, Peru jure de détruire tous les masques créés par son maître avant qu’une nouvelle tragédie ne se produise.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:333622",
-      "type": "series",
-      "name": "Magic Repo Man: Dumped by My Party, I'll Cash In with a Cute Support Fairy to Become the Strongest!",
-      "poster": "https://image.tmdb.org/t/p/w500/3IxYsKJGSlxy6GDnFBIx7UJc5nP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4ncuq4Qo0NrSZBnxM3PABeROyVT.jpg",
-      "description": "Lent fait partie du groupe « Skypiercers ». Grâce à son don unique, il peut prêter une importante quantité de magie à ses partenaires. Cependant, il est viré du jour au lendemain du groupe par ses compagnons, tous devenus puissants grâce à son talent, ne le jugeant désormais plus utile au groupe.\n\nFurieux, Lent est bien décidé à récupérer jusqu'à la dernière goutte de magie qu'il a prêté à ses anciens compagnons, avec les intérêts, grâce au pouvoir caché de son don.",
       "releaseInfo": "2026"
     },
     {
@@ -127,29 +127,21 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:313346",
+      "type": "series",
+      "name": "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life",
+      "poster": "https://image.tmdb.org/t/p/w500/lEUUMZ8zylAPP797UMugdYjuxRP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/msusxF6ZPGnQmTGXU9iC4UJOohs.jpg",
+      "description": "Rein l'Enchanteur est un mage capable d'améliorer les armes et les armures. Mais lorsqu'il se fait renvoyer de sa guilde pour la simple raison qu'il a déjà enchanté tout ce qu'elle possède, il décide de reprendre tous les sorts qu’il a transmis à ses ex-compagnons et les affecte à son propre équipement. En chemin, Rein rassemble une bande de parias comme lui et, ensemble, ils explorent le monde.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:288588",
       "type": "series",
-      "name": "信者ゼロの女神サマと始める異世界攻略",
+      "name": "Full Clearing Another World Under a Goddess with Zero Believers",
       "poster": "https://image.tmdb.org/t/p/w500/bD0PjbDtwSyt4CpIxvAQLHmNIKu.jpg",
       "background": "https://image.tmdb.org/t/p/w780/4hKtdyTXt4O2hy4zqadlENY1qpM.jpg",
       "description": "Takatsuki Makoto, un lycéen accro aux jeux vidéo, est transporté dans un autre monde avec ses camarades de classe après une mésaventure sur le chemin du retour d'un camp d'entraînement. Les dieux de l'autre monde leur ont tous donné des capacités de triche, mais pour une raison qui lui échappe, Makoto est le seul qui soit inférieur à la moyenne, un apprenti magicien. Leur objectif est de sauver Noa, une déesse mineure qui est piégée dans un donjon inaccessible à l'humanité. Avec la bénédiction de Noa et les artefacts divins en main, Makoto se met en route pour devenir le plus fort d'une manière peu orthodoxe.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:305313",
-      "type": "series",
-      "name": "Romelia War Chronicle",
-      "poster": "https://image.tmdb.org/t/p/w500/2wqyITVWs1wZMih2VraylRjqzCo.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6LeBjYSPULKwSv5R6sX6Iovwoad.jpg",
-      "description": "Sa victoire sur le Roi-Démon aurait dû être le triomphe de Romélia. Au lieu de cela, son fiancé, le prince Henri, rompt leurs fiançailles et la renvoie dans une province en ruines. Mais Romélia ne se laisse pas abattre. Elle jure de lever une armée, de reconstruire le royaume et ce, malgré des conflits qui continuent. Son histoire ne fait que commencer…",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:303272",
-      "type": "series",
-      "name": "魔法騎士レイアース",
-      "poster": "https://image.tmdb.org/t/p/w500/o3M1tijhALoYkOS8kadeJHMExO0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/f6MmtdKyrmUt2iHfhEKO6DgrL4a.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -162,6 +154,24 @@
       "releaseInfo": "2025"
     },
     {
+      "id": "tmdb:333622",
+      "type": "series",
+      "name": "Magic Repo Man: Dumped by My Party, I'll Cash In with a Cute Support Fairy to Become the Strongest!",
+      "poster": "https://image.tmdb.org/t/p/w500/3IxYsKJGSlxy6GDnFBIx7UJc5nP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4ncuq4Qo0NrSZBnxM3PABeROyVT.jpg",
+      "description": "Lent fait partie du groupe « Skypiercers ». Grâce à son don unique, il peut prêter une importante quantité de magie à ses partenaires. Cependant, il est viré du jour au lendemain du groupe par ses compagnons, tous devenus puissants grâce à son talent, ne le jugeant désormais plus utile au groupe.\n\nFurieux, Lent est bien décidé à récupérer jusqu'à la dernière goutte de magie qu'il a prêté à ses anciens compagnons, avec les intérêts, grâce au pouvoir caché de son don.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:314054",
+      "type": "series",
+      "name": "Red River",
+      "poster": "https://image.tmdb.org/t/p/w500/wWlfBMTA7VygmYC4KUg2qLWJGmv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pHzcs5Ru1lwoVcQsPA5lNYlxJy2.jpg",
+      "description": "Yuri Suzuki est une jeune femme comblée : non seulement elle a réussi ses examens d'entrée à l'université, mais elle a aussi enfin échangé son premier baiser avec l'élu de son coeur. Malheureusement, ce bonheur ne dure pas. Un jour, elle est mystérieusement entrainée dans une flaque d'eau et est transportée dans le passé, au cœur de l'Empire Hittite, des millénaires avant sa naissance. Celle qui l'a invoquée, la reine Nakia, a l'intention de l'utiliser à des fins sacrificielles. Heureusement, la jeune femme déboussolée peut compter sur un allié inattendu.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:324502",
       "type": "series",
       "name": "Overgeared",
@@ -169,15 +179,6 @@
       "background": "https://image.tmdb.org/t/p/w780/745xqHbiUWwO51TM60MXRCR4Onm.jpg",
       "description": "Shin Young Woo est ce qu'on appelle un loser « IRL », un bon à rien « dans la vraie vie » : il enchaîne les petits boulots et peine à rembourser ses dettes. Quand il se connecte au jeu VR « SATISFY », jeu de réalité virtuelle auquel il est accro, ce n'est pas plus glorieux : Young Woo devient « Grid », un guerrier au niveau terriblement médiocre… Jusqu'au jour où il tombe sur un livre regroupant l'ensemble des connaissances du plus légendaire des forgerons ! Mais en activant cet artefact, les statistiques durement acquises de Grid retombent à zéro… Sauf que ses nouvelles capacités vont lui permettre de se forger un équipement de tout premier ordre, pour espérer devenir un héros, un vrai !",
       "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:200777",
-      "type": "series",
-      "name": "The Iceblade Sorcerer Shall Rule the World",
-      "poster": "https://image.tmdb.org/t/p/w500/qk6QH7pC9hddvw5ltgP4i47onyF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/oL459mgvcnc3jL90K7zkfvXQu0.jpg",
-      "description": "Ray White est un jeune homme venant d'entrer dans la populaire académie de magie Arnold. En tant que premier élève inscrit n'étant pas d'origine noble, il est rejeté par un certain nombre de ses camarades. Néanmoins, il se lie rapidement d'amitié avec Amelia Rose, la représentante des élèves de première année et la fille ainée d'une des 3 grandes familles aristocratiques, ainsi que d'autres élèves.\n\nToutefois, Ray White cache un énorme secret à ses amis : il est le magicien des lames de glace et l'un des sept grands magiciens de ce monde.",
-      "releaseInfo": "2023"
     }
   ]
 }

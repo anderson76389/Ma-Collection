@@ -1,21 +1,20 @@
 {
   "metas": [
     {
+      "id": "tmdb:1802674",
+      "type": "movie",
+      "name": "Hot Wheels La course est lancée! L'attaque du T-Rex",
+      "poster": "https://image.tmdb.org/t/p/w500/iIc0OkYnf06kv5Zp0IYVwuvffgh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dK69ml1Y34MrEovK4ZyizRiWbEH.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1750432",
       "type": "movie",
       "name": "Spidey et les Avengers : Halloween en équipe !",
       "poster": "https://image.tmdb.org/t/p/w500/hPucpn2pmszkcqRVHmrlUYK0PtG.jpg",
       "background": "https://image.tmdb.org/t/p/w780/aIiCdNCo889J2QaaOd8TXaGXoO2.jpg",
       "description": "Les projets d'Halloween de Spidey et des Avengers sont chamboulés par la mystérieuse Hallows' Eve. Elle s'amuse à jouer des tours aux enfants partis à la chasse aux bonbons et compte bien gâcher la fête pour toujours.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1477104",
-      "type": "movie",
-      "name": "Shaun le Mouton : La Bêêête d'Halloween",
-      "poster": "https://image.tmdb.org/t/p/w500/poG8LaprHjz2Ka0c6zCvDrVjEUq.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
-      "description": "À Halloween, les habitants de la ferme de Mossy Bottom se réjouissent des festivités, jusqu’à ce que le Fermier maladroit saccage les citrouilles bien-aimées du troupeau. Lorsque Shaun se transforme en scientifique fou pour résoudre le problème, les choses dérapent : le Fermier disparaît et une bête sauvage rôde dans les bois.",
       "releaseInfo": "2026"
     },
     {
@@ -59,8 +58,17 @@
       "type": "movie",
       "name": "Coyote vs. Acme",
       "poster": "https://image.tmdb.org/t/p/w500/dFwseuSlDUNiwMuElDb3OAOQ8En.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/viZqGq9TNvQ5uXSD4ahg2RpRONT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7GOW6jod9lLurW5utokAatxg7ql.jpg",
       "description": "Après des décennies à être réduit en miettes par des bombes, pulvérisé à la dynamite, déchiqueté par des aimants, assommé par des rochers, écrasé par des trains, piégé par des tunnels, projeté par des ressorts, aplati par des rouleaux compresseurs, trahi par des ratés mécaniques, malmené par des élastiques, secoué par des fusées, poignardé dans le dos par des costumes de chauve-souris, catapulté par des patins-fusées, renversé par des monocycles, ébranlé par des pilules sismiques, recouvert de caoutchouc par des groupes ennemis, et précipité tête première du haut de toutes les falaises du Sud-Ouest, Wile, Wile E. Coyote contre-attaque enfin. Faisant équipe avec l’avocat-vedette des panneaux publicitaires spécialisé dans les accidents Kevin Avery, il s’attaque à l’avocat d’affaires rusé Buddy Crane et à ACME, Inc., le conglomérat obsédé par le profit étant à l’origine de chacune des catastrophes chaotiques du Coyote.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1740877",
+      "type": "movie",
+      "name": "Sesame Street dans la tempête",
+      "poster": "https://image.tmdb.org/t/p/w500/liwyRU8dmpGZmYaGeYaVK3ZOpkp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ewuZpFd7zoB8xCtwlRGUU3E599s.jpg",
+      "description": "Dans l'épisode spécial Sesame Street dans la tempête , Elmo et ses amis collaborent pour se préparer à affronter les éléments, apprenant au passage à anticiper, à faire preuve de courage et à s'apaiser quand la peur s'installe. Une fois la tempête passée, Sesame Street a changé de visage, et les voisins s'entraident pour reconstruire leurs maisons. Tout le quartier s'y met, y compris les invités célèbres Post Malone et Michelle Buteau. Ainsi épaulés, Elmo et Abby découvrent que les petits gestes de bienveillance et le soutien des amis peuvent faire toute la différence.",
       "releaseInfo": "2026"
     },
     {
@@ -77,7 +85,7 @@
       "type": "movie",
       "name": "La Pat’ Patrouille : Le film mission Dino",
       "poster": "https://image.tmdb.org/t/p/w500/iprKhXVhUuGo3LbPurtB7Zcq6ph.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6TSxLmwT7j1ugtKi8NyMmdzWAGj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dY4LyVSvjk9dN20YsxuouaMIMox.jpg",
       "description": "Lorsqu’une mystérieuse tempête surprend leur navire, la Pat’ Patrouille s’échoue sur une île tropicale encore inexplorée… et peuplée de dinosaures ! Ils y rencontrent Rex, un chiot courageux installé sur l’île depuis des années et devenu un véritable expert des dinosaures. Mais leur ennemi de toujours, M. Hellinger, arrive lui aussi sur l’île avec un projet dangereux : exploiter ses richesses naturelles en creusant des mines. Ses actions imprudentes déclenchent bientôt l’éruption d’un gigantesque volcan endormi. La Pat’ Patrouille se retrouve alors entraînée dans une série de missions de sauvetage spectaculaires, plus impressionnantes que tout ce qu’elle a connu jusqu’ici. Elle devra arrêter M. Hellinger et sauver l’île avant qu’il ne soit trop tard.",
       "releaseInfo": "2026"
     },
@@ -169,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/6pzI1DIlxwAFffw9OZcG6cr031U.jpg",
       "background": "https://image.tmdb.org/t/p/w780/rg1E0Ya6YYiGPcg5p1ZIkDd8u3F.jpg",
       "description": "Un groupe d'animaux se rebellent contre leurs maîtres humains et prennent le contrôle de la ferme. Leur révolte terminée, ils sont confrontés à de nouveaux défis sous le règne d'un cochon rusé nommé Napoléon. Cette situation les oblige à trouver le courage de s'opposer à Napoléon.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1226863",
-      "type": "movie",
-      "name": "Super Mario Galaxy, le film",
-      "poster": "https://image.tmdb.org/t/p/w500/aSQktALDmbunDbwkuZbZFMEWVFr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg",
-      "description": "Mario et Luigi gèrent les tracas du royaume Champignon, se lient d'amitié avec Yoshi, tentent de réhabiliter mini-Bowser et se préparent pour l'anniversaire de Peach. Mais quand un appel à l'aide arrive de l'autre bout de la galaxie, l'équipe part découvrir des mondes nouveaux, des menaces inattendues et des personnages emblématiques, comme Rosalina et Bowser Jr.",
       "releaseInfo": "2026"
     }
   ]

@@ -10,13 +10,31 @@
       "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:252500",
+      "id": "tmdb:111412",
       "type": "series",
-      "name": "Le Cercle",
-      "poster": "https://image.tmdb.org/t/p/w500/lPz9qDxB4j6GcCFaXK94lyc3JNP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5hMNHnDysQtvdhZE6GGV3MIaNhV.jpg",
-      "description": "Tant qu'il y aura du cinéma, LE CERCLE sera là. C'est la seule émission télévisée de débats critiques 100% consacrée au cinéma. Chaque semaine, elle offre des joutes enflammées, joyeuses et sans condescendance, sur les films à l'affiche ; et invite avec \"Le questionnaire du CERCLE\" les réalisatrices et réalisateurs à venir partager leur passion cinéphile.",
-      "releaseInfo": "2005"
+      "name": "Un bon moment",
+      "poster": "https://image.tmdb.org/t/p/w500/6nkjrMNx4x5xVbOyBwacfrFf1NM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vkEywcBMux7nekCH9YY3aXokVlY.jpg",
+      "description": "Kyan Khojandi et Bruno Muschio (Navo) reçoivent différents invités chaque semaine afin de passer un bon moment.",
+      "releaseInfo": "2020"
+    },
+    {
+      "id": "tmdb:197800",
+      "type": "series",
+      "name": "Hot Ones",
+      "poster": "https://image.tmdb.org/t/p/w500/hCcYnJCCScDHr6FfjVbvUOb3Su6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7BgHad7Ni0jnFJ3k931HDDl4ijr.jpg",
+      "description": "Kyan Khojandi prend les commandes de l’adaptation française de HOT ONES ! Il reçoit dans chaque épisode une personnalité pour un face-à-face inédit sur sa carrière, son parcours et ses engagements. Le principe est simple. Arriver au bout de l’interview l’est beaucoup moins… Dix grandes questions. Dix nuggets de poulet. Dix sauces allant de 1 700 à plus de 1 million sur l’échelle de Scoville (échelle de mesure du piment. Oui, oui ça existe.). A chaque question, sa sauce ! Plus l’interview progresse, plus l’intensité du piment augmente, agissant comme un désinhibant de plus en plus fort sur les personnalités interviewées.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:235904",
+      "type": "series",
+      "name": "Spinners",
+      "poster": "https://image.tmdb.org/t/p/w500/uwiVqtc7NKIl61hVT4enJOxV9tW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tWunElWzuQKWCkJcyXk3QQ3b3i2.jpg",
+      "description": "Ethan, 17 ans, fait le chauffeur pour un gang local. Dégoûté par cette vie, Ethan découvre une possible sortie au travers du spinning, un sport automobile extrême s'apparentant à du rodéo motorisé. Mais la guerre entre les gangs remet tout en question.",
+      "releaseInfo": "2023"
     }
   ]
 }

@@ -1,6 +1,33 @@
 {
   "metas": [
     {
+      "id": "tmdb:337950",
+      "type": "series",
+      "name": "La Messagerie du Diable",
+      "poster": "https://image.tmdb.org/t/p/w500/lMaSCFbCUbwR80DEAcxPe2nUFHv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/VYzYnfdpWeSyQcoOdZRObrt3H2.jpg",
+      "description": "Sky ECC, une application cryptée réputée inviolable, devient le refuge sûr de la pègre, jusqu'à ce que des enquêteurs français parviennent à la pirater.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:314360",
+      "type": "series",
+      "name": "YAGA",
+      "poster": "https://image.tmdb.org/t/p/w500/kp8xgZ8SrikHQrPn2lC3hb50KD5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lVCFOjUDlZLMvTJxQ2t78MjTIqL.jpg",
+      "description": "Alors qu’un détective privé enquête sur la disparition du jeune héritier d’une puissante entreprise de pêche, il se retrouve en désaccord avec un détective local méfiant, un charismatique professeur d’université qui aime les hommes plus jeunes, et un labyrinthe de suspects énigmatiques, de vies secrètes et de magie ancienne.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:337800",
+      "type": "series",
+      "name": "Le massacre de Flores",
+      "poster": "https://image.tmdb.org/t/p/w500/859hxUCwgo4V9a6Fjx0QSe4tb88.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oc6OMFUQooMKg74qtvOWUjufUsU.jpg",
+      "description": "L'histoire de Matías Bagnato, seul survivant du massacre de Flores, l'une des affaires criminelles les plus choquantes de l'histoire argentine.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:337911",
       "type": "series",
       "name": "La nuit sombre du football mexicain",
@@ -25,6 +52,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/aSD3YkLuTBnoYgyTCXtZRAxezNP.jpg",
       "background": "https://image.tmdb.org/t/p/w780/Ag8tSoa5uLQ6W9m3YR1qS0FAUyh.jpg",
       "description": "Lorsqu'un policier de la Nouvelle-Orléans tente d'élucider le meurtre du propriétaire d'un cimetière pour animaux, il découvre un sombre passé.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:337700",
+      "type": "series",
+      "name": "The Serial Killer Connection",
+      "poster": "https://image.tmdb.org/t/p/w500/2QVTk55dw9tMUHDlG4027cOTNOv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6GYk6Fw9Biyfk39D70Y4oz2LgHL.jpg",
+      "description": "La série enquête sur le tueur en série Richard « Marc » Evonitz, qui a kidnappé, agressé et assassiné plusieurs jeunes filles (dont Sofia Marlene Silva, Kristin Michelle Lisk et Kathryn Nicole Lisk).",
       "releaseInfo": "2026"
     },
     {
@@ -55,6 +91,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:329524",
+      "type": "series",
+      "name": "Face au monstre : Aileen Wuornos",
+      "poster": "https://image.tmdb.org/t/p/w500/dHCzn2K5AczIYBqbNXd6rCXHdMz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jizs2LLqX8zkVT34I1VCmtrEPAK.jpg",
+      "description": "Découvrez comment l'enquêteur David Taylor a mené une rude mission en 1991 : traquer et comprendre Aileen Wuornos, une tueuse en série.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:332976",
       "type": "series",
       "name": "The Good Spirit - Behind the Doors of the Opus Dei",
@@ -78,7 +123,7 @@
       "name": "Paolo",
       "poster": "https://image.tmdb.org/t/p/w500/5arYNSnKiCWxdwdrzjvP5vokPkV.jpg",
       "background": "https://image.tmdb.org/t/p/w780/mjje2ajzDEpT3wDgc28RtjIq3WD.jpg",
-      "description": "La vie ordinaire de Paolo bascule lorsqu’il recroise la route de Téophane, un ancien camarade d’école, qui brigue aujourd’hui la mairie de sa ville et qui a semble-t-il tout pour lui. Ce qui commence par une simple admiration et une volonté de soutenir la campagne se transforme en une obsession dévorante….",
+      "description": "La vie ordinaire de Paolo bascule lorsqu’il recroise la route de Téophane, un ancien camarade d’école, qui brigue aujourd’hui la mairie de sa ville et qui a semble-t-il tout pour lui. Ce qui commence par une simple admiration et une volonté de soutenir la campagne se transforme en une obsession dévorante…",
       "releaseInfo": "2026"
     },
     {
@@ -86,7 +131,7 @@
       "type": "series",
       "name": "Youth",
       "poster": "https://image.tmdb.org/t/p/w500/2YD9VOcTn5J8vfESJ7hrhfxPyf5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7pwybpJ2VSqqWgxZHTYqzRz01qH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iEISXRsDv8Q2PA6i9cAQd2DH9bN.jpg",
       "description": "Alex a une carrière, une famille et une riche expérience de la vie, mais elle doit aussi faire face aux réalités de la cinquantaine, s'occuper de ses parents vieillissants, élever un fils adolescent en difficulté et essayer de déterminer s'il y a encore de la place pour la romance et l'excitation dans sa propre vie.",
       "releaseInfo": "2026"
     },
@@ -131,51 +176,6 @@
       "name": "Collision",
       "poster": "https://image.tmdb.org/t/p/w500/4loiHfZZx027yP0CtErtCPbkTc1.jpg",
       "background": "https://image.tmdb.org/t/p/w780/oaRWutbj0UiJej6xIYB3p8wwP9V.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:330968",
-      "type": "series",
-      "name": "O. J. Simpson : le comeback scandaleux",
-      "poster": "https://image.tmdb.org/t/p/w500/Tww74Ml1hgjrDBRWkOkNA4EM31.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bn2PXePvd3OSymbbueSoWTiFcK3.jpg",
-      "description": "Cette série en 4 épisodes retrace la naissance improbable et la chute spectaculaire de Juiced, une émission en caméra cachée de O. J. Simpson.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:331239",
-      "type": "series",
-      "name": "Brutalt Brorskap - Oslo",
-      "poster": "https://image.tmdb.org/t/p/w500/wbqUIInVzmmv5iIgZhDkAwsCGRb.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/AgqR7vdTRaOHmU3PH3F9eFSAYxJ.jpg",
-      "description": "Un regard intérieur sur le paysage criminel de la Norvège depuis les années 1980 - comme l'ont raconté ceux qui dirigeaient les rues et vivaient pour partager leurs histoires.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:201596",
-      "type": "series",
-      "name": "The Producer",
-      "poster": "https://image.tmdb.org/t/p/w500/l0gTWERX7OPS4pGU9arcVLwDJu7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zys6h8TehDtnL5YQSldSYlVkNY1.jpg",
-      "description": "Lorsqu'un producteur de musique en herbe s'associe à un magnat chevronné, ce duo improbable se lance à la conquête de la scène Mandopop.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:95350",
-      "type": "series",
-      "name": "Lanterns",
-      "poster": "https://image.tmdb.org/t/p/w500/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6gqezQJ2mkm4jreWwLyOZy2Vf6i.jpg",
-      "description": "Deux flics intergalactiques, la nouvelle recrue John Stewart et le légendaire Hal Jordan, sont confrontés à un sombre mystère sur Terre alors qu’ils enquêtent sur un meurtre au fin fond de l’Amérique.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:331674",
-      "type": "series",
-      "name": "The Sex Slave",
-      "poster": "https://image.tmdb.org/t/p/w500/wS36jVLrflvhvvCyuoZOXMVtDkc.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dqpULBcBjsTLbawXKQy2DKjoRwe.jpg",
-      "description": "Un documentaire en deux parties qui raconte comment une mère de cinq enfants a été vendue à des inconnus par son propre compagnon.",
       "releaseInfo": "2026"
     }
   ]

@@ -1,6 +1,23 @@
 {
   "metas": [
     {
+      "id": "tmdb:1802674",
+      "type": "movie",
+      "name": "Hot Wheels La course est lancée! L'attaque du T-Rex",
+      "poster": "https://image.tmdb.org/t/p/w500/iIc0OkYnf06kv5Zp0IYVwuvffgh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dK69ml1Y34MrEovK4ZyizRiWbEH.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:791523",
+      "type": "movie",
+      "name": "Wildwood : La prophétie de la forêt",
+      "poster": "https://image.tmdb.org/t/p/w500/shb3OmIQACcqhRvIcXuba26cP0l.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
+      "description": "Prue, une jeune fille courageuse, part à la recherche de son petit frère, enlevé et retenu dans la forêt interdite peuplée de créatures enchantées, d’alliés inattendus et d’adversaires redoutables. Ce qui débute comme une quête intime se transforme rapidement en une aventure spectaculaire aux enjeux colossaux, et c’est le destin de tout un monde caché qui dépend désormais de ses choix.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1788735",
       "type": "movie",
       "name": "Family Guy Happy Hell-o-ween",
@@ -63,6 +80,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1740877",
+      "type": "movie",
+      "name": "Sesame Street dans la tempête",
+      "poster": "https://image.tmdb.org/t/p/w500/liwyRU8dmpGZmYaGeYaVK3ZOpkp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ewuZpFd7zoB8xCtwlRGUU3E599s.jpg",
+      "description": "Dans l'épisode spécial Sesame Street dans la tempête , Elmo et ses amis collaborent pour se préparer à affronter les éléments, apprenant au passage à anticiper, à faire preuve de courage et à s'apaiser quand la peur s'installe. Une fois la tempête passée, Sesame Street a changé de visage, et les voisins s'entraident pour reconstruire leurs maisons. Tout le quartier s'y met, y compris les invités célèbres Post Malone et Michelle Buteau. Ainsi épaulés, Elmo et Abby découvrent que les petits gestes de bienveillance et le soutien des amis peuvent faire toute la différence.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1698575",
       "type": "movie",
       "name": "Snoopy présente : Rien ne vaut son chez-soi",
@@ -85,7 +111,7 @@
       "type": "movie",
       "name": "La Pat’ Patrouille : Le film mission Dino",
       "poster": "https://image.tmdb.org/t/p/w500/iprKhXVhUuGo3LbPurtB7Zcq6ph.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6TSxLmwT7j1ugtKi8NyMmdzWAGj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dY4LyVSvjk9dN20YsxuouaMIMox.jpg",
       "description": "Lorsqu’une mystérieuse tempête surprend leur navire, la Pat’ Patrouille s’échoue sur une île tropicale encore inexplorée… et peuplée de dinosaures ! Ils y rencontrent Rex, un chiot courageux installé sur l’île depuis des années et devenu un véritable expert des dinosaures. Mais leur ennemi de toujours, M. Hellinger, arrive lui aussi sur l’île avec un projet dangereux : exploiter ses richesses naturelles en creusant des mines. Ses actions imprudentes déclenchent bientôt l’éruption d’un gigantesque volcan endormi. La Pat’ Patrouille se retrouve alors entraînée dans une série de missions de sauvetage spectaculaires, plus impressionnantes que tout ce qu’elle a connu jusqu’ici. Elle devra arrêter M. Hellinger et sauver l’île avant qu’il ne soit trop tard.",
       "releaseInfo": "2026"
     },
@@ -150,33 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/xjBwm6dIt3TMRPK0CFDrMVmt5TG.jpg",
       "background": "https://image.tmdb.org/t/p/w780/rAqFDIezocktFUtNCRqZ2wTKjUq.jpg",
       "description": "Entre prises de vues réelles et animation, un film plein d'émotion qui retrace le parcours du jeune Emiliano Martínez… devenu \"Dibu\", gardien de but star de l'équipe d'Argentine.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1007757",
-      "type": "movie",
-      "name": "Aventures croisées",
-      "poster": "https://image.tmdb.org/t/p/w500/gz64ZUKg4C4g1yfGD0o5opcBOKy.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zMwhWailP1WY7sb6AoE6b8ugoy.jpg",
-      "description": "Un petit animal des bois et un oiseau majestueux, ennemis jurés de la Vallée, qui échangent soudainement leurs corps et doivent faire équipe, en se mettant dans la peau  de l'autre, pour survivre à la plus folle aventure de leur vie.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:539745",
-      "type": "movie",
-      "name": "La Ferme des animaux",
-      "poster": "https://image.tmdb.org/t/p/w500/6pzI1DIlxwAFffw9OZcG6cr031U.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rg1E0Ya6YYiGPcg5p1ZIkDd8u3F.jpg",
-      "description": "Un groupe d'animaux se rebellent contre leurs maîtres humains et prennent le contrôle de la ferme. Leur révolte terminée, ils sont confrontés à de nouveaux défis sous le règne d'un cochon rusé nommé Napoléon. Cette situation les oblige à trouver le courage de s'opposer à Napoléon.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1226863",
-      "type": "movie",
-      "name": "Super Mario Galaxy, le film",
-      "poster": "https://image.tmdb.org/t/p/w500/aSQktALDmbunDbwkuZbZFMEWVFr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg",
-      "description": "Mario et Luigi gèrent les tracas du royaume Champignon, se lient d'amitié avec Yoshi, tentent de réhabiliter mini-Bowser et se préparent pour l'anniversaire de Peach. Mais quand un appel à l'aide arrive de l'autre bout de la galaxie, l'équipe part découvrir des mondes nouveaux, des menaces inattendues et des personnages emblématiques, comme Rosalina et Bowser Jr.",
       "releaseInfo": "2026"
     }
   ]

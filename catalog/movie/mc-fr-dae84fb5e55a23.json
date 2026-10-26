@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1400940",
+      "type": "movie",
+      "name": "Clayface",
+      "poster": "https://image.tmdb.org/t/p/w500/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg",
+      "description": "L'ascension fulgurante de Matt Hagen, de gamin des rues de Gotham à star hollywoodienne, est brutalement interrompue lorsqu'un baron du crime le laisse atrocement défiguré. Abandonné de tous et n'ayant plus rien à perdre, Matt se tourne vers un traitement expérimental qui lui rend miraculeusement son apparence... mais altère profondément sa perception de la réalité. Il sombre alors dans une spirale destructrice, consumé par un irrépressible désir de vengeance.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1400837",
       "type": "movie",
       "name": "Malfaisante",
@@ -19,11 +28,19 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1712451",
+      "type": "movie",
+      "name": "Resident Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/qKhMVWwFikSUzOpkhOl35GBLkGH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yKx5gYrYgakKZuUWAsuFDStBroy.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1284046",
       "type": "movie",
       "name": "Onslaught",
       "poster": "https://image.tmdb.org/t/p/w500/92SC3guG88KQmZ8GQBKNIxz5OrB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/clePZhqOSzNyjfuFBpOrziLEFzb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
       "description": "Lorsqu’une escouade de supersoldats génétiquement modifiés s’évade dans le désert, une redoutable tireuse d’élite de l’armée doit livrer une guerre sans merci pour sauver sa fille.",
       "releaseInfo": "2026"
     },
@@ -68,7 +85,7 @@
       "type": "movie",
       "name": "Teenage Sex and Death at Camp Miasma",
       "poster": "https://image.tmdb.org/t/p/w500/a5JvHUONtF8RyLL6M5nTlqqMJVE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/d1n2ySWSanU34eEsluRjfrjRq52.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/c3N1tHx6cKmhbv7Gt8M4cwHWPUZ.jpg",
       "description": "Un cinéaste queer est embauché pour diriger un nouvel épisode d'une franchise Slasher de longue date. Le réalisateur se fixe sur la perspective de lancer la «dernière fille» du film original, et les deux femmes entrent dans une frénésie de manie psychosexuelle.",
       "releaseInfo": "2026"
     },
@@ -76,9 +93,9 @@
       "id": "tmdb:1477712",
       "type": "movie",
       "name": "Ice Cream Man",
-      "poster": "https://image.tmdb.org/t/p/w500/ui7pm8GVaYblXxczqg49UwjrMHX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hjF1rzTDR7YvnJUcH2SfP48w492.jpg",
-      "description": "Une ville estivale idyllique sombre dans la folie lorsqu'un marchand de glaces sert des douceurs aux enfants avec des résultats effroyables.",
+      "poster": "https://image.tmdb.org/t/p/w500/ef4rk6H8TWWf5I7wsSsu4TVncbW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3DV7c9FoogMORFGUFDbTcCtzxOr.jpg",
+      "description": "Une ville estivale idyllique sombre dans la folie lorsqu'un marchand de glaces sert aux enfants des douceurs sucrées aux conséquences terrifiantes.",
       "releaseInfo": "2026"
     },
     {
@@ -159,24 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/4uNhvGxBDiO0mU5UhxuXBsJwKF3.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ikyzq678qnHtRY8ZiQJzK4hiOyW.jpg",
       "description": "Un groupe de touristes en visite dans les marais du bayou de Louisiane devient la proie d'un énorme hippopotame vicieux caché sous l'eau.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1083381",
-      "type": "movie",
-      "name": "Backrooms",
-      "poster": "https://image.tmdb.org/t/p/w500/thQQ3BBBhGDtWm3UTtabhyDJd8U.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dqmMWNWfLnExDRpMtIMqI97GQFR.jpg",
-      "description": "Une étrange porte apparaît dans le sous-sol d'un magasin de meubles.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1363387",
-      "type": "movie",
-      "name": "Saccharine",
-      "poster": "https://image.tmdb.org/t/p/w500/l2Z5Zkbar7e1xSYghW84yQ5bSWY.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7NUx7bQAD4lo9yMDbprvIblhWo2.jpg",
-      "description": "Une étudiante en médecine mal dans son corps se met à consommer une étrange gélule pour perdre du poids, libérant une force surnaturelle qui envahit de plus en plus son quotidien.",
       "releaseInfo": "2026"
     }
   ]

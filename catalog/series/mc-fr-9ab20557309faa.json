@@ -5,7 +5,7 @@
       "type": "series",
       "name": "Treasure Island",
       "poster": "https://image.tmdb.org/t/p/w500/xZQ5ABJF1iLjGq9xR4MthpgQEFF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cv102XnL9r7M9jFr0hsMeqzpAWW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/grC6bTUTeVvjZ2orztjItUxM4yy.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -15,6 +15,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/yfUFI7fIDcdA01Ej5Rwfv2OEH8O.jpg",
       "background": "https://image.tmdb.org/t/p/w780/t2KFGH07Al4XuIZLHRlF1Hj9IJB.jpg",
       "description": "Après une catastrophe planétaire, une jeune maîtresse de la terre découvre qu'elle est l'Avatar succédant à Korra. Désormais considérée comme un présage de fin du monde, elle se lance dans une course contre-la-montre pour sauver les Sept Refuges.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:231801",
+      "type": "series",
+      "name": "GET JIRO",
+      "poster": "https://image.tmdb.org/t/p/w500/li3TH09EF6JyHPVoTvub4nPOfwU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xe6wbOPKuSMOze4rl48NFWy8PNe.jpg",
+      "description": "Sino : Le futur. Los Angeles est sous la coupe de chefs cuisiniers d'élite. Jiro, un maître sushi mêlé à un conflit culinaire sanglant dans l'impitoyable milieu de la restauration cherche à se venger grâce à ses talents de chef.",
       "releaseInfo": "2026"
     },
     {
@@ -167,15 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/wE5jZDeQuiulaAtjeaEq0y8tpey.jpg",
       "background": "https://image.tmdb.org/t/p/w780/m8BuLCx997QVljT0wdss62QaRre.jpg",
       "description": "La véritable histoire de ces femmes méconnues qui ont fait basculer, en faveur du Nord, la guerre civile américaine. Une personnalité mondaine de l’État de Virginie, sa mère, une ancienne esclave et l’une des plus célèbres courtisanes de la ville agissent dans l’ombre du pouvoir confédéré. Elles transforment leur Underground Railroad en un réseau d’espionnage clandestin efficace et bien plus dangereux, risquant leur vie et leur liberté pour favoriser la victoire et sauver la démocratie américaine.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:270572",
-      "type": "series",
-      "name": "Sa majesté des mouches",
-      "poster": "https://image.tmdb.org/t/p/w500/uUE4zRhAhgCXCSQTOWrJXrK4RcZ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yRqFvu6rIytqZlzY0pBVvZG3W0S.jpg",
-      "description": "Des garçons échoués sur une île tropicale se retrouvent entièrement livrés à eux‑mêmes, sans la moindre présence adulte. D'abord décidés à instaurer des règles et à préserver un semblant de civilisation, ils se répartissent les rôles et organisent la vie du groupe. Mais très vite, les tensions, la violence et la soif de pouvoir s'installent.",
       "releaseInfo": "2026"
     }
   ]

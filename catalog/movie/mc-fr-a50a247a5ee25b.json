@@ -41,7 +41,7 @@
       "type": "movie",
       "name": "Billie Eilish - Hit Me Hard and Soft : The Tour (3D)",
       "poster": "https://image.tmdb.org/t/p/w500/8DTastKqiYno03GHdkOxLpm2het.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fvz0Psn68l0lXyAmeXxY8D9RRhI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vTk6KQRLomlkMG5xqQIrzvyQB8z.jpg",
       "description": "Réalisé pendant sa tournée mondiale jouée à guichets fermés, BILLIE EILISH – HIT ME HARD AND SOFT TOUR (3D) propose une nouvelle expérience de concert innovante sur grand écran, avec l’une des artistes les plus célèbres et les plus talentueuses de sa génération. Présenté en 3D immersive, le film est réalisé par James Cameron et Billie Eilish, tous deux lauréats d’un Oscar.",
       "releaseInfo": "2026"
     },
@@ -70,6 +70,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/hfxvdEBTt3YsV5h7MNzjfMXTWpd.jpg",
       "background": "https://image.tmdb.org/t/p/w780/w9NnNrq1aOu9hXhhUyMhQMts1oM.jpg",
       "description": "Ce programme anniversaire des 20 ans de Hannah Montana est une lettre d’amour aux fans, empreinte d’une profonde nostalgie. Miley Cyrus y revisite ses moments les plus marquants dans une interview exclusive menée par Alex Cooper. Les spectateurs découvrent aussi des archives des coulisses, des visages familiers, des invités surprises et une performance musicale spéciale de Miley.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1405769",
+      "type": "movie",
+      "name": "La Voix du Pardon 2",
+      "poster": "https://image.tmdb.org/t/p/w500/xu1B6kE637p3QWdp53YEZoAYIT7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qHBnPZA3J6hSl9a3Q1JAQzDeo2L.jpg",
+      "description": "Après le succès retentissant de \"I Can Only Imagine,\" Bart Millard, membre de MercyMe, vit un rêve : des salles combles, une communauté d'admirateurs dévoués et une carrière florissante. Mais son monde bascule sous le poids de défis dévastateurs, dont un diagnostic bouleversant pour son jeune fils, Sam.",
       "releaseInfo": "2026"
     },
     {
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/7AvSiMAiatDn21weq6nq1e4NB03.jpg",
       "background": "https://image.tmdb.org/t/p/w780/722lo8EBC3S2LKcBVg3fpl4HWmK.jpg",
       "description": "Dans une prison argentine en 1983, sous la dictature militaire, Luis Molina, un coiffeur gay, purge une peine de huit ans de prison pour avoir prétendument corrompu un mineur. Pour échapper aux horreurs de son emprisonnement, Molina imagine des films mettant en vedette une actrice classique du cinéma, Ingrid Luna, notamment le rôle de la femme araignée, qui tue sa proie d'un baiser. La vie de Molina bascule lorsqu'un marxiste, Valentin Arregui Paz, est amené dans sa cellule, et que les deux forment un lien improbable.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1371189",
-      "type": "movie",
-      "name": "Ruth et Boaz",
-      "poster": "https://image.tmdb.org/t/p/w500/mtMJEIHjeHcLtvP0tFPAptk1Var.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/m2e8GUES92IaXRCLxWElJnlZ34w.jpg",
-      "description": "Ruth Moably, artiste hip-hop montante d'Atlanta, renonce à une vie glamour pour prendre un nouveau départ dans le Tennessee rural et s'occuper de Naomi, sa mère de substitution… et rencontre l'homme de ses rêves.",
       "releaseInfo": "2025"
     }
   ]

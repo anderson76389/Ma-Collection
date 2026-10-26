@@ -1,12 +1,39 @@
 {
   "metas": [
     {
+      "id": "tmdb:275139",
+      "type": "series",
+      "name": "Phony",
+      "poster": "https://image.tmdb.org/t/p/w500/iCyQc8cSSHkxUHbkvzbC77owALt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/g2r69hj61xfhMxnrYm8QyMs0gs1.jpg",
+      "description": "À son réveil après un accident de voiture, le lycéen Sonny Cooke trouve sa mère, Ellen, légèrement changée. Le problème, c'est qu'il est le seul à le remarquer et que personne ne le croit. Coincé avec cette femme qu'il soupçonne d'être un dangereux imposteur, Sonny tente de prouver qu'il n'est pas fou.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:286183",
+      "type": "series",
+      "name": "Hollywood Arts",
+      "poster": "https://image.tmdb.org/t/p/w500/xsL1ig6Tyi0j9AZPt23yZprslGS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2wjP481Z3G6NlXoUFutN5vcnqzC.jpg",
+      "description": "Les cours ont repris à Hollywood Arts ! L'icône autoproclamée Trina Vega revient pour guider des adolescents talentueux vers la gloire, entre ambition et chaos hilarant.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:213562",
       "type": "series",
       "name": "Crystal Lake",
       "poster": "https://image.tmdb.org/t/p/w500/v1XEjgqIlHvbjbEG6YSZVGTVUg0.jpg",
       "background": "https://image.tmdb.org/t/p/w780/wxiBsKFEOOFK8eQStWOykNORlXY.jpg",
       "description": "Afin de pouvoir élever son jeune fils Jason, atteint d'une paralysie faciale périphérique depuis sa naissance, Pamela Voorhees abandonne sa carrière de chanteuse et emménage dans la petite ville de Crystal Lake où elle commence à travailler comme cuisinière dans le camp de vacances local.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:335536",
+      "type": "series",
+      "name": "TYSON",
+      "poster": "https://image.tmdb.org/t/p/w500/mdtpJEWW1j5Ns7bIcbw1UeIdvhp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qFNAWAHCXWtS4EMlLxTAetTpZAR.jpg",
+      "description": "Découvrez la vie explosive de Mike Tyson, l'une des figures les plus redoutées et fascinantes de l'histoire du sport.",
       "releaseInfo": "2026"
     },
     {
@@ -23,7 +50,7 @@
       "type": "series",
       "name": "Treasure Island",
       "poster": "https://image.tmdb.org/t/p/w500/xZQ5ABJF1iLjGq9xR4MthpgQEFF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cv102XnL9r7M9jFr0hsMeqzpAWW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/grC6bTUTeVvjZ2orztjItUxM4yy.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -33,6 +60,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/yfUFI7fIDcdA01Ej5Rwfv2OEH8O.jpg",
       "background": "https://image.tmdb.org/t/p/w780/t2KFGH07Al4XuIZLHRlF1Hj9IJB.jpg",
       "description": "Après une catastrophe planétaire, une jeune maîtresse de la terre découvre qu'elle est l'Avatar succédant à Korra. Désormais considérée comme un présage de fin du monde, elle se lance dans une course contre-la-montre pour sauver les Sept Refuges.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:313630",
+      "type": "series",
+      "name": "Eternally Yours",
+      "poster": "https://image.tmdb.org/t/p/w500/gMKJJtwOnTkhkbdQabyo7OKTosb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1bmsSexBYKUlkst0TgHZCdf4EvH.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -59,6 +94,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/dkDeQSeJGSfEBFavomS3LUci2VO.jpg",
       "background": "https://image.tmdb.org/t/p/w780/9yCJtipMeDe8uAdSJKvw8BnYfRz.jpg",
       "description": "Après la mort soudaine et prématurée de son père, Carrie est propulsée dans l'univers impitoyable d'un lycée public et doit faire face à un scandale de harcèlement viral qui secoue sa communauté, à la pression incessante et à la cruauté des réseaux sociaux tandis qu'en parallèle, un mystérieux pouvoir de télékinésie s'éveille en elle.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:231801",
+      "type": "series",
+      "name": "GET JIRO",
+      "poster": "https://image.tmdb.org/t/p/w500/li3TH09EF6JyHPVoTvub4nPOfwU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xe6wbOPKuSMOze4rl48NFWy8PNe.jpg",
+      "description": "Sino : Le futur. Los Angeles est sous la coupe de chefs cuisiniers d'élite. Jiro, un maître sushi mêlé à un conflit culinaire sanglant dans l'impitoyable milieu de la restauration cherche à se venger grâce à ses talents de chef.",
       "releaseInfo": "2026"
     },
     {
@@ -131,50 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/5padVOGD7QxyFLlTAWdCFY2FQf1.jpg",
       "background": "https://image.tmdb.org/t/p/w780/3BXEJ0qtVPHj1PL0M78xhYOiBkq.jpg",
       "description": "L'usine de chocolat de Willy Wonka ouvre ses portes à 12 duos afin de passer plusieurs épreuves dans l'espoir de remporter une forte somme d'argent.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:250203",
-      "type": "series",
-      "name": "Brothers",
-      "poster": "https://image.tmdb.org/t/p/w500/yewGBOuVmcZnMQ60xGGjUhobOsJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/aLE7R8QZPpTiWZS48PS22i2OWbl.jpg",
-      "description": "Matthew McConaughey et Woody Harrelson sont meilleurs amis depuis toujours, mais leur lien pourrait devenir encore plus étroit après la découverte d’un secret de famille troublant.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:321958",
-      "type": "series",
-      "name": "Line of Fire",
-      "poster": "https://image.tmdb.org/t/p/w500/cXG4WDOPNog1kt6pkDqEDQCkJyz.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8U4dW5E24Eqs06OJko5ChjcufHb.jpg",
-      "description": "Une famille d’agents des forces de l’ordre met de côté ses divergences personnelles et dépasse les frontières de ses fonctions respectives pour mener à bien des enquêtes pour le compte du FBI, des US Marshals, des services secrets et du ministère de la Justice. Lorsqu’une affaire qui semblait simple se transforme en un complot meurtrier, ils doivent mettre à profit l’expertise acquise au fil d’une vie passée à protéger des civils et des personnalités politiques pour se protéger les uns les autres et traduire le meurtrier en justice… même si cela implique de trahir le code d’honneur auquel ils ont prêté serment.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:285418",
-      "type": "series",
-      "name": "Youth",
-      "poster": "https://image.tmdb.org/t/p/w500/2YD9VOcTn5J8vfESJ7hrhfxPyf5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7pwybpJ2VSqqWgxZHTYqzRz01qH.jpg",
-      "description": "Alex a une carrière, une famille et une riche expérience de la vie, mais elle doit aussi faire face aux réalités de la cinquantaine, s'occuper de ses parents vieillissants, élever un fils adolescent en difficulté et essayer de déterminer s'il y a encore de la place pour la romance et l'excitation dans sa propre vie.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:319851",
-      "type": "series",
-      "name": "The Blame",
-      "poster": "https://image.tmdb.org/t/p/w500/5ZeHhMqi7tDTgKvfUdy9rs7VKUt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/s5LxNwZbxxAXzycv3EOCe1NeslO.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:239618",
-      "type": "series",
-      "name": "American Hostage",
-      "poster": "https://image.tmdb.org/t/p/w500/q3oa6rW9ZU9a6IcpJRynzzLDGBH.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/t708JUdkHAoZF83f4RjqcIGrJ99.jpg",
-      "description": "Dans les années 1970, un preneur d'otages exige d'être interviewé dans l'émission d'actualité de Fred Heckman, journaliste radio très apprécié.",
       "releaseInfo": "2026"
     }
   ]

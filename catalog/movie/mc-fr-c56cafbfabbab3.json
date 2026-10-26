@@ -1,11 +1,28 @@
 {
   "metas": [
     {
+      "id": "tmdb:1400940",
+      "type": "movie",
+      "name": "Clayface",
+      "poster": "https://image.tmdb.org/t/p/w500/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg",
+      "description": "L'ascension fulgurante de Matt Hagen, de gamin des rues de Gotham à star hollywoodienne, est brutalement interrompue lorsqu'un baron du crime le laisse atrocement défiguré. Abandonné de tous et n'ayant plus rien à perdre, Matt se tourne vers un traitement expérimental qui lui rend miraculeusement son apparence... mais altère profondément sa perception de la réalité. Il sombre alors dans une spirale destructrice, consumé par un irrépressible désir de vengeance.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1765072",
+      "type": "movie",
+      "name": "You Can See Everything",
+      "poster": "https://image.tmdb.org/t/p/w500/7nG1AFxnrh5KtgH3jA4uIsWmX95.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nhIL3O4W9h5V5JbNQm7yjoDk3So.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1742441",
       "type": "movie",
-      "name": "V/H/S/Mixtape",
+      "name": "V/H/S/MIXTAPE",
       "poster": "https://image.tmdb.org/t/p/w500/uS8yoiA6NfsuYeOTbVfpem8Ib9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mpB4pgtUcc7rCLxvlknzCbAQQEE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yIDZiYea2Bah1yLYz14jlC89WJ5.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -18,12 +35,47 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1788735",
+      "type": "movie",
+      "name": "Family Guy Happy Hell-o-ween",
+      "poster": "https://image.tmdb.org/t/p/w500/4IuQIUgqyLpbD7R7zmPp9A08rsQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/i5XAKlLzmbGsBtr8T3vyGZHkanT.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1610703",
+      "type": "movie",
+      "name": "Infirmary",
+      "poster": "https://image.tmdb.org/t/p/w500/n9MospSE1BoXx2gNJdR6gnWbEzd.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qkxk9URcK33HK54YSXFPQO8aqJH.jpg",
+      "description": "Un gardien a disparu lors de sa première nuit dans un ancien hôpital psychiatrique en 2023. Les images de sa caméra montrent des incidents inexplicables qui continuent de déconcerter les enquêteurs.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1437195",
       "type": "movie",
       "name": "Diffusion en direct de l'enfer",
       "poster": "https://image.tmdb.org/t/p/w500/mY3iQP4LH71TMmtXEg65nAxvYZI.jpg",
       "background": "https://image.tmdb.org/t/p/w780/eJ4vMJJlnxnKqdJCBDXvNmE0LVp.jpg",
       "description": "Kevin Hart collabore avec les créateurs de contenu numérique Kai Cenat et Druski pour une diffusion en direct historique dans sa maison « intelligente », mais les choses dégénèrent dans l'humour et un meurtre se produit devant les caméras, piégeant le trio et leurs invités célèbres dans une comédie d'horreur attirant des millions d'internautes.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1376400",
+      "type": "movie",
+      "name": "Crawlers",
+      "poster": "https://image.tmdb.org/t/p/w500/lNXeEpg4yLSRwXwOeR5lbPgwbqL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ayJsUQ4bEG6yY0UB6lMboiaDfYE.jpg",
+      "description": "Un homme revient d'un voyage en hébergeant involontairement une nouvelle race d'arachnide. Bientôt, les habitants des son immeuble sont mis en quarantaine et doivent se débrouiller seuls face à une invasion d'araignées venimeuses.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1290418",
+      "type": "movie",
+      "name": "The Cycle",
+      "poster": "https://image.tmdb.org/t/p/w500/n5gSNf55KWfDc9hqP4H1KCCSutE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bgHW6AJl2SdKzxglvf9tshXbI84.jpg",
+      "description": "Une fille découvre le sombre passé de son père après la découverte de son corps, disparu depuis 36 ans, sur une scène de crime horrible.",
       "releaseInfo": "2026"
     },
     {
@@ -53,11 +105,19 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1712451",
+      "type": "movie",
+      "name": "Resident Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/qKhMVWwFikSUzOpkhOl35GBLkGH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yKx5gYrYgakKZuUWAsuFDStBroy.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1284046",
       "type": "movie",
       "name": "Onslaught",
       "poster": "https://image.tmdb.org/t/p/w500/92SC3guG88KQmZ8GQBKNIxz5OrB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/clePZhqOSzNyjfuFBpOrziLEFzb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
       "description": "Lorsqu’une escouade de supersoldats génétiquement modifiés s’évade dans le désert, une redoutable tireuse d’élite de l’armée doit livrer une guerre sans merci pour sauver sa fille.",
       "releaseInfo": "2026"
     },
@@ -111,70 +171,8 @@
       "type": "movie",
       "name": "Teenage Sex and Death at Camp Miasma",
       "poster": "https://image.tmdb.org/t/p/w500/a5JvHUONtF8RyLL6M5nTlqqMJVE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/d1n2ySWSanU34eEsluRjfrjRq52.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/c3N1tHx6cKmhbv7Gt8M4cwHWPUZ.jpg",
       "description": "Un cinéaste queer est embauché pour diriger un nouvel épisode d'une franchise Slasher de longue date. Le réalisateur se fixe sur la perspective de lancer la «dernière fille» du film original, et les deux femmes entrent dans une frénésie de manie psychosexuelle.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1477712",
-      "type": "movie",
-      "name": "Ice Cream Man",
-      "poster": "https://image.tmdb.org/t/p/w500/ui7pm8GVaYblXxczqg49UwjrMHX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hjF1rzTDR7YvnJUcH2SfP48w492.jpg",
-      "description": "Une ville estivale idyllique sombre dans la folie lorsqu'un marchand de glaces sert des douceurs aux enfants avec des résultats effroyables.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1307118",
-      "type": "movie",
-      "name": "Soulm8te",
-      "poster": "https://image.tmdb.org/t/p/w500/nIkAHDzo9kbG3kDmDckqywo6CE9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7t6f6VxA2ZXbbZSVctgt7bZG2DI.jpg",
-      "description": "Un homme acquiert un androïde à intelligence artificielle pour faire face à la perte de sa femme. En essayant de créer un partenaire vraiment sensible, il transforme un \"lovebot\" inoffensif en une compagne dangereuse.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1481343",
-      "type": "movie",
-      "name": "La Bouche du Diable",
-      "poster": "https://image.tmdb.org/t/p/w500/9IKCSvhoKUM6LwD279FxuIvr8OL.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pLyaH6k69OJHnONSmN3R7Peh6HE.jpg",
-      "description": "En Thaïlande, cinq amis explorent les grottes de la Bouche du Diable pour une dernière aventure avant de se lancer dans la vie d'adultes. Mais ils découvrent rapidement qu'une chose se met à les traquer sous l'eau… une chose rapide, silencieuse et mortelle. Dans l'obscurité étouffante, la confiance se volatilise, la panique se répand, et chaque erreur se transforme en une lutte pour la survie.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1469342",
-      "type": "movie",
-      "name": "Her Private Hell",
-      "poster": "https://image.tmdb.org/t/p/w500/xFVviOiV7UFYaXucUJdlLw30gyt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hS4FcOM5y71FurkBQgDLTBxmWZh.jpg",
-      "description": "Tandis qu'une étrange brume engloutit une métropole futuriste et libère une présence mortelle insaisissable, une jeune femme troublée part à la recherche de son père. Au cours de cette quête, son destin croise celui d'un GI américain engagé dans un voyage désespéré pour arracher sa fille de l'enfer.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1232569",
-      "type": "movie",
-      "name": "Pinocchio : Déchaîné",
-      "poster": "https://image.tmdb.org/t/p/w500/oru4SubtHlaGXEv9xtMPELYkGZf.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7RsPdXLDNugDIlwXPVeeprNfMx.jpg",
-      "description": "Geppetto présente à son petit-fils, James, une mystérieuse marionnette dotée d'une âme nommée Pinocchio. Ignorant la nature naïve et imprévisible de celle-ci, James fait découvrir le monde extérieur à son nouvel ami. Sous la guidance de Cricket, Pinocchio se lance alors dans une quête sanglante pour éradiquer tout ce qu'il considère comme mauvais et devenir un véritable petit garçon.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1212763",
-      "type": "movie",
-      "name": "Evil Dead Burn",
-      "poster": "https://image.tmdb.org/t/p/w500/2gusfeWILgIfRWQTA9nbXAEyQ0S.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg",
-      "description": "Après l’enterrement de son mari, Alice se rend dans la maison isolée de sa belle-famille pour partager un dernier repas à sa mémoire. Mais la réunion familiale bascule dans l’horreur lorsque ses proches se transforment, l’un après l’autre, en créatures démoniaques. Confrontée à cet enfer, Alice découvre que les vœux prononcés autrefois continuent de la lier à son mari… bien au-delà de la mort.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1645603",
-      "type": "movie",
-      "name": "Night of the Living Dead",
-      "poster": "https://image.tmdb.org/t/p/w500/5l0klDtj2v4FMFOGGCEH23AQb30.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/h1x4YiBtQEGY2dMx7k0fvlErlSn.jpg",
       "releaseInfo": "2026"
     }
   ]

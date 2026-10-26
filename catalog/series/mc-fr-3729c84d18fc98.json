@@ -4,7 +4,7 @@
       "id": "tmdb:302020",
       "type": "series",
       "name": "Tetsuryō! Meet With Railroad Girls",
-      "poster": "https://image.tmdb.org/t/p/w500/15l8DngKk9k2RRve06sRNbzXRg4.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/vHXCic8xST3Htbb7O98RKQR1pSv.jpg",
       "background": "https://image.tmdb.org/t/p/w780/3jnuPu5CMCDWX7h9JM7SAuF2Ick.jpg",
       "description": "Misaki, jeune étudiante en quête de repères, traverse des journées incertaines sans savoir ce que l’avenir lui réserve. Mais son quotidien bascule lorsqu’elle découvre le club universitaire de voyages ferroviaires, le club « Tetsuryo » ! Aux côtés de nouvelles camarades, elle s’embarque dans des expéditions à travers le Japon, portée par la magie des rails et l’envie de trouver ce qui la fait vraiment vibrer au fond d’elle. Chaque trajet devient l’occasion d’explorer de nouveaux horizons, de tisser des liens et de transformer l’ordinaire en souvenirs inoubliables…",
       "releaseInfo": "2026"
@@ -13,8 +13,8 @@
       "id": "tmdb:323937",
       "type": "series",
       "name": "Dandivine",
-      "poster": "https://image.tmdb.org/t/p/w500/6hBvqy6OKi0OcFLQOeulmlC5hr0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fSFAtkuvJYAAEXWLae3Jh0CUQiR.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/hQQ3kZQxPC7Y2m6jEfDYhoIOgVY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/v4HLZ8FsBeYPjMBQZ1JFgrhkhG8.jpg",
       "description": "Vingt ans se sont écoulés depuis que le robot Dandivine a vaincu de mystérieux envahisseurs, les Aposdoll. Dandivine est devenu si populaire qu'il fait l'objet de jouets, mais les ventes baissent au grand damne de son fabricant. Jusqu'au jour où un Aposdoll réapparaît à Tokyo, semant la panique. Pourquoi est-il ici ? Les ventes de jouets vont-elles repartir ? Une nouvelle bataille commence !",
       "releaseInfo": "2026"
     },
@@ -75,7 +75,7 @@
     {
       "id": "tmdb:329096",
       "type": "series",
-      "name": "彼方から",
+      "name": "From far away",
       "poster": "https://image.tmdb.org/t/p/w500/rHI61poyqC6GF0HRurV6Hq12K81.jpg",
       "background": "https://image.tmdb.org/t/p/w780/inwM4LXqXYYauU1eJkfJ6uDkV11.jpg",
       "description": "Noriko est une lycéenne comme les autres, jusqu’à ce qu’une explosion l’entraîne dans un monde de magie où personne ne parle sa langue. Complètement perdue, Noriko est secourue par Izark, un épéiste mis au ban de la société, déterminé à tuer « l’Éveil » : un personnage prophétisé qui contrôlerait le Démon du Ciel. Alors qu’Izark et Noriko se rapprochent, il se rend compte qu’elle pourrait bien être celle qu’il traque.",
@@ -163,20 +163,17 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:337143",
+      "type": "series",
+      "name": "深夜残業～肉食後輩の片恋研修～",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:335788",
       "type": "series",
       "name": "蒼き伝承 ウェルシュ＆シェダー",
       "poster": "https://image.tmdb.org/t/p/w500/dmOW3kfhfm4BOqINfsifY6QL64o.jpg",
       "background": "https://image.tmdb.org/t/p/w780/8iJ4IPl8BPVOL7C6lFKq2zeLdDs.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:324502",
-      "type": "series",
-      "name": "Overgeared",
-      "poster": "https://image.tmdb.org/t/p/w500/fmAQ2lOtLAoEU2p6wQ12wXbIgLM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/745xqHbiUWwO51TM60MXRCR4Onm.jpg",
-      "description": "Shin Young Woo est ce qu'on appelle un loser « IRL », un bon à rien « dans la vraie vie » : il enchaîne les petits boulots et peine à rembourser ses dettes. Quand il se connecte au jeu VR « SATISFY », jeu de réalité virtuelle auquel il est accro, ce n'est pas plus glorieux : Young Woo devient « Grid », un guerrier au niveau terriblement médiocre… Jusqu'au jour où il tombe sur un livre regroupant l'ensemble des connaissances du plus légendaire des forgerons ! Mais en activant cet artefact, les statistiques durement acquises de Grid retombent à zéro… Sauf que ses nouvelles capacités vont lui permettre de se forger un équipement de tout premier ordre, pour espérer devenir un héros, un vrai !",
       "releaseInfo": "2026"
     }
   ]

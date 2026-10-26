@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:286183",
+      "type": "series",
+      "name": "Hollywood Arts",
+      "poster": "https://image.tmdb.org/t/p/w500/xsL1ig6Tyi0j9AZPt23yZprslGS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2wjP481Z3G6NlXoUFutN5vcnqzC.jpg",
+      "description": "Les cours ont repris à Hollywood Arts ! L'icône autoproclamée Trina Vega revient pour guider des adolescents talentueux vers la gloire, entre ambition et chaos hilarant.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:284833",
       "type": "series",
       "name": "Avatar : Les Sept Refuges",
@@ -167,15 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/jnrR6NqTxyNHARpth1glmA37vAo.jpg",
       "background": "https://image.tmdb.org/t/p/w780/dfB0hPku5IRvwAoTKQef1zs1JHZ.jpg",
       "description": "Lily et Jack sont des demi-frère et sœur qui se retrouvent ensemble pour un été et doivent apprendre à gérer leur nouvelle dynamique familiale tout en aidant la famille Wylde Pak dans son entreprise chaotique de toilettage pour animaux.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:285836",
-      "type": "series",
-      "name": "Blippi découvre les métiers",
-      "poster": "https://image.tmdb.org/t/p/w500/lUWLMuSRkzTs71N1OWrvdlps0U5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/iKt2Gezw6LGG5myKMH1JgLHbk4Z.jpg",
-      "description": "Blippi et Meekah partent à la découverte de toutes sortes de métiers. Pour conduire un monster truck ou bien faire des pizzas, ils vont devoir se retrousser les manches !",
       "releaseInfo": "2025"
     }
   ]

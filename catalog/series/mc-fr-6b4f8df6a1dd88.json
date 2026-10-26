@@ -1,20 +1,20 @@
 {
   "metas": [
     {
-      "id": "tmdb:272390",
-      "type": "series",
-      "name": "Scariest House in America",
-      "poster": "https://image.tmdb.org/t/p/w500/l61oSoGVyvsd7fqHWl7ZGhDOMBt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/t2tTYgSVqZkJq5yH8e7h1IAQYj4.jpg",
-      "releaseInfo": "2024"
-    },
-    {
       "id": "tmdb:6480",
       "type": "series",
       "name": "House Hunters",
       "poster": "https://image.tmdb.org/t/p/w500/2WGhHei4SbocBacJ078mwzxOpLk.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ao8nyHyawWnuwRXdAnGUXBsjHRm.jpg",
       "releaseInfo": "1999"
+    },
+    {
+      "id": "tmdb:272390",
+      "type": "series",
+      "name": "Scariest House in America",
+      "poster": "https://image.tmdb.org/t/p/w500/l61oSoGVyvsd7fqHWl7ZGhDOMBt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/t2tTYgSVqZkJq5yH8e7h1IAQYj4.jpg",
+      "releaseInfo": "2024"
     },
     {
       "id": "tmdb:299811",

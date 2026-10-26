@@ -1,11 +1,20 @@
 {
   "metas": [
     {
+      "id": "tmdb:1400940",
+      "type": "movie",
+      "name": "Clayface",
+      "poster": "https://image.tmdb.org/t/p/w500/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg",
+      "description": "L'ascension fulgurante de Matt Hagen, de gamin des rues de Gotham à star hollywoodienne, est brutalement interrompue lorsqu'un baron du crime le laisse atrocement défiguré. Abandonné de tous et n'ayant plus rien à perdre, Matt se tourne vers un traitement expérimental qui lui rend miraculeusement son apparence... mais altère profondément sa perception de la réalité. Il sombre alors dans une spirale destructrice, consumé par un irrépressible désir de vengeance.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1561726",
       "type": "movie",
       "name": "Masterplan",
       "poster": "https://image.tmdb.org/t/p/w500/a13BTR3jJWr2ARoLvTC3f5gQhfw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dgUDj84BWtW6EZzee8BkgKnjDhh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fAlQZsCOCvxOj0PmFmt4i8IWR2u.jpg",
       "description": "Quand un voleur légendaire jette son dévolu sur La Joconde, il recrute deux jeunes inconnus pour l'aider (Chiara, une experte italienne du cybercrime et Jay, un spécialiste français des explosifs) avant de leur révéler qu'il est leur père. Au milieu de retrouvailles chaotiques, cette nouvelle famille devra apprendre à collaborer et éviter de s'entretuer si elle veut réussir le casse du siècle.",
       "releaseInfo": "2026"
     },
@@ -21,9 +30,9 @@
     {
       "id": "tmdb:1742441",
       "type": "movie",
-      "name": "V/H/S/Mixtape",
+      "name": "V/H/S/MIXTAPE",
       "poster": "https://image.tmdb.org/t/p/w500/uS8yoiA6NfsuYeOTbVfpem8Ib9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mpB4pgtUcc7rCLxvlknzCbAQQEE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yIDZiYea2Bah1yLYz14jlC89WJ5.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -45,12 +54,28 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1244523",
+      "type": "movie",
+      "name": "Beware Boiúna",
+      "poster": "https://image.tmdb.org/t/p/w500/uW5YMPxJUzT9bkafrCKHXjPTCoQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9nU0FKNefmhbgi2xXlvZchZsqwm.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1283515",
       "type": "movie",
       "name": "Verity",
       "poster": "https://image.tmdb.org/t/p/w500/zLCjFOyjvKqYdkQYYAyTtfJ5mpk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3BoHXmGAfC2qO4wnCpMYV0BzpHD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9qxyrJfjk577ym5WD6HCDmunoyO.jpg",
       "description": "Lorsqu’un accident affecte les capacités de l’autrice de bestsellers, Verity Crawford, à achever son œuvre, une écrivaine solitaire, Lowen Ashleigh, qui peine à joindre les deux bouts est engagée pour lui prêter sa plume. En résidence dans la propriété reculée de la romancière, elle fait la découverte d’un manuscrit autobiographique glaçant et peine à démêler ce qui relève de la fiction ou de la réalité…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1613037",
+      "type": "movie",
+      "name": "Buzzkill",
+      "poster": "https://image.tmdb.org/t/p/w500/uLftvCgy9WFGRnrGbMer7i61Zkn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ul0nXmrjwg73ZfL9l6F7ABsRp1z.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -60,6 +85,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg",
       "background": "https://image.tmdb.org/t/p/w780/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
       "description": "Ted Kaczynski, un jeune prodige qui intègre Harvard à 16 ans avant de basculer dans le terrorisme. Soumis à des expériences psychologiques discutables menées par le docteur Henry Murray, le passé tourmenté de Kaczynski refait surface des décennies plus tard, lorsque la traque d'Unabomber menée par l'agente du FBI Joanne Miller met en lumière les conséquences terrifiantes de l'ambition et de l'isolement.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1437396",
+      "type": "movie",
+      "name": "Your Mother Your Mother Your Mother",
+      "poster": "https://image.tmdb.org/t/p/w500/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jiFLiatBtBALlAzV5R72gzspBad.jpg",
+      "description": "Latif, un tueur à gages profondément religieux, a du mal à équilibrer travail, foi et paternité. Lorsque sa femme décède, il se lance dans un voyage désespéré à travers Houston pour protéger ses enfants, affrontant les forces qui se rapprochent de lui – et les croyances qui menacent de s'effondrer à l'intérieur.",
       "releaseInfo": "2026"
     },
     {
@@ -85,8 +119,17 @@
       "type": "movie",
       "name": "Crawlers",
       "poster": "https://image.tmdb.org/t/p/w500/lNXeEpg4yLSRwXwOeR5lbPgwbqL.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wqEFo8ZPOO0zefg08XWQbyRoBgO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ayJsUQ4bEG6yY0UB6lMboiaDfYE.jpg",
       "description": "Un homme revient d'un voyage en hébergeant involontairement une nouvelle race d'arachnide. Bientôt, les habitants des son immeuble sont mis en quarantaine et doivent se débrouiller seuls face à une invasion d'araignées venimeuses.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1290418",
+      "type": "movie",
+      "name": "The Cycle",
+      "poster": "https://image.tmdb.org/t/p/w500/n5gSNf55KWfDc9hqP4H1KCCSutE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bgHW6AJl2SdKzxglvf9tshXbI84.jpg",
+      "description": "Une fille découvre le sombre passé de son père après la découverte de son corps, disparu depuis 36 ans, sur une scène de crime horrible.",
       "releaseInfo": "2026"
     },
     {
@@ -94,7 +137,7 @@
       "type": "movie",
       "name": "Primetime",
       "poster": "https://image.tmdb.org/t/p/w500/rhF8JALH8wrxKtXSCAB7a09tWsc.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1tJz8e1G21nEuzHlX771MNBRJvM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
       "description": "Chris Hansen présente l'émission policière « To Catch a Predator ». Diffusée sur NBC Dateline, cette émission tente de filmer des pédophiles présumés avec l'aide des forces de l'ordre et d'une équipe d'appâts se faisant passer pour des mineurs sur Internet. En 2006, Hansen est sur le point de révolutionner le monde de la télévision.",
       "releaseInfo": "2026"
     },
@@ -120,9 +163,9 @@
       "id": "tmdb:1433583",
       "type": "movie",
       "name": "Les Contrebandiers",
-      "poster": "https://image.tmdb.org/t/p/w500/hjM3hITDk5XvWu4cMn7dj7IpwY8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zLeq2fbHU6UdA7mhsYnIULORTgq.jpg",
-      "description": "Oregon, 1933. Après la mort de sa femme, Samuel Murphy est arraché à sa fille et envoyé dans un camp de travail impitoyable. Lorsqu’un surveillant sans scrupule lui promet la liberté contre une périlleuse mission de contrebande d’or, Murphy saisit sa seule chance de rentrer chez lui. Il s’embarque alors dans une expédition de tous les dangers, au cœur d’une nature hostile, où les trahisons se multiplient. Jusqu’où Murphy sera-t-il prêt à aller pour revoir sa fille ?",
+      "poster": "https://image.tmdb.org/t/p/w500/vaqivu9jGF9n41rhMExGetkIy18.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4klejBUCWsq2F9GHB5EH5mQdFOg.jpg",
+      "description": "Dans l'Oregon en 1933, Samuel Murphy a perdu sa femme et vit seul avec sa fille Penny. Mais il est arrêté et placé dans un camp de travail. Clancy, le directeur de la prison, propose à Samuel et à plusieurs autres détenus de regagner leur liberté en échange de leur participation à un dangereux trafic d'or. Pour retrouver la garde de sa fille, Samuel n'a pas le choix.",
       "releaseInfo": "2026"
     },
     {
@@ -131,49 +174,6 @@
       "name": "After Impact",
       "poster": "https://image.tmdb.org/t/p/w500/yzDuAQCY2n6zzOlBkn6JzhLhY3k.jpg",
       "background": "https://image.tmdb.org/t/p/w780/k22XyPbce7zvzzf5OnT4uaY8ZD1.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1643135",
-      "type": "movie",
-      "name": "Run Hide Fight: Infidels",
-      "poster": "https://image.tmdb.org/t/p/w500/gkVq1Pd46NF7AP5XQZfRHjQfCXX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5LINHN9KrzfYZxogKlTCcvR1Gki.jpg",
-      "description": "Après que des terroristes islamistes ont pris d'assaut un campement pro-palestinien installé sur le campus d'une université dans le but d'imposer la charia aux étudiants et d'exécuter les dissidents qu'ils considèrent comme des « infidèles », un groupe d'étudiants, un agent de sécurité et un ancien membre de la Delta Force s'allient pour riposter.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1701141",
-      "type": "movie",
-      "name": "Gator Face",
-      "poster": "https://image.tmdb.org/t/p/w500/tUkIHTfiMIa5ipTvgYZW86fIoQX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qLPLBWEyjlpCaNOt3NHiM8dmLAB.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1375161",
-      "type": "movie",
-      "name": "Don't Move",
-      "poster": "https://image.tmdb.org/t/p/w500/uh0ZSdM8iOQgHwnUlhhanP8Dkl6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1b0wNCRLYT3mGwvHyTEbqOk98Ix.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1228834",
-      "type": "movie",
-      "name": "The Fix",
-      "poster": "https://image.tmdb.org/t/p/w500/jlP8XDjZN89GrpM3je5Uf8Grqx8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dJTWIecL2vxsCRl5G0lRhPsfrhc.jpg",
-      "description": "Après une mission désastreuse en Afghanistan, des agents de la CIA affectés par les combats tentent de se racheter en menant une opération de sauvetage risquée au cœur de Téhéran.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1198654",
-      "type": "movie",
-      "name": "Bad Apples",
-      "poster": "https://image.tmdb.org/t/p/w500/ajTzOrqqHl65ZBQfrW1ytzrn9Gl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/A5sGEzVMjvbgh5ZniaHBXAxppKQ.jpg",
-      "description": "Une enseignante enferme par inadvertance son élève le plus indiscipliné chez elle. Tentant d'arranger les choses, elle hésite lorsque sa classe commence à s'épanouir en l'absence de l'enfant, lui posant un dilemme impossible.",
       "releaseInfo": "2026"
     }
   ]

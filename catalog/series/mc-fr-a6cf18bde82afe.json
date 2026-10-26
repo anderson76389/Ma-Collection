@@ -8,6 +8,22 @@
       "background": "https://image.tmdb.org/t/p/w780/7fsT1NnmNbden0mptoVinBNp4ih.jpg",
       "description": "RuPaul a fait le voyage à travers l'étang à la recherche d'une reine avec le plus de charisme, d'unicité, de nerf et de talent de tout le pays.",
       "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:203669",
+      "type": "series",
+      "name": "Ellie & Natasia",
+      "poster": "https://image.tmdb.org/t/p/w500/weoiU5nwWc8T5s1BJ99Ufnp6lBr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fCSDaJU7hl7ZBbpJfcRYt2mNmbw.jpg",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:76475",
+      "type": "series",
+      "name": "Stacey Dooley Investigates",
+      "poster": "https://image.tmdb.org/t/p/w500/gxFJhP4QWF2kswDZrTTtpGS82Qg.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uge5vU8SGhA0k6xH4PW4LgHejTJ.jpg",
+      "releaseInfo": "2009"
     }
   ]
 }

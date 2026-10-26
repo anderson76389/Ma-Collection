@@ -1,6 +1,59 @@
 {
   "metas": [
     {
+      "id": "tmdb:1418998",
+      "type": "movie",
+      "name": "Karma",
+      "poster": "https://image.tmdb.org/t/p/w500/hwEZ6fOtXX9mIZHSZPoOJW7AvmP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dqDUQGXNTdG67Gr7zGoV6GTR0gw.jpg",
+      "description": "Dans un village au nord de l’Espagne, Jeanne tente de reconstruire sa vie avec Daniel, qui ne connaît rien de son passé trouble. Un jour, Mateo, le filleul de Jeanne âgé de six ans, disparaît mystérieusement… Afin d’échapper à la police qui la soupçonne rapidement, Jeanne se réfugie en France dans une communauté religieuse dans laquelle elle est née et qu’elle a fuie quelques années auparavant. Daniel ne croit pas à la culpabilité de la femme qu’il aime et va tout faire pour la retrouver avant la police.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1195803",
+      "type": "movie",
+      "name": "Wicker",
+      "poster": "https://image.tmdb.org/t/p/w500/fjoHeK9kmoN46dUPGVpZA5rD27g.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg",
+      "description": "Mise au ban de son village, une pêcheuse solitaire commande au vannier local un mari en osier. Cet époux improbable se révèle doté d’une sensibilité et de talents qui dépassent toutes ses attentes. À son contact, elle découvre un désir insoupçonné et, peu à peu, s’éprend véritablement de lui. Mais bientôt, son étrange mari attise les convoitises, la jalousie et les fantasmes des villageois, faisant vaciller les certitudes d’une communauté jusque-là bien ordonnée.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:858035",
+      "type": "movie",
+      "name": "Klara et le Soleil",
+      "poster": "https://image.tmdb.org/t/p/w500/zJZ1ii7XPAJkdBWKIQN2fyyz5cQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg",
+      "description": "Lorsque Klara rencontre Josie, chacune perçoit immédiatement chez l'autre une âme soeur. Josie entretient une relation compliquée avec sa mère et toutes deux ont traversé de lourdes épreuves. Mais l'émerveillement sincère de Klara et sa loyauté sans faille commencent peu à peu à apaiser les blessures de cette famille et à apporter de la lumière dans l'univers complexe de Josie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1802674",
+      "type": "movie",
+      "name": "Hot Wheels La course est lancée! L'attaque du T-Rex",
+      "poster": "https://image.tmdb.org/t/p/w500/iIc0OkYnf06kv5Zp0IYVwuvffgh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dK69ml1Y34MrEovK4ZyizRiWbEH.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1400940",
+      "type": "movie",
+      "name": "Clayface",
+      "poster": "https://image.tmdb.org/t/p/w500/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg",
+      "description": "L'ascension fulgurante de Matt Hagen, de gamin des rues de Gotham à star hollywoodienne, est brutalement interrompue lorsqu'un baron du crime le laisse atrocement défiguré. Abandonné de tous et n'ayant plus rien à perdre, Matt se tourne vers un traitement expérimental qui lui rend miraculeusement son apparence... mais altère profondément sa perception de la réalité. Il sombre alors dans une spirale destructrice, consumé par un irrépressible désir de vengeance.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:791523",
+      "type": "movie",
+      "name": "Wildwood : La prophétie de la forêt",
+      "poster": "https://image.tmdb.org/t/p/w500/shb3OmIQACcqhRvIcXuba26cP0l.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
+      "description": "Prue, une jeune fille courageuse, part à la recherche de son petit frère, enlevé et retenu dans la forêt interdite peuplée de créatures enchantées, d’alliés inattendus et d’adversaires redoutables. Ce qui débute comme une quête intime se transforme rapidement en une aventure spectaculaire aux enjeux colossaux, et c’est le destin de tout un monde caché qui dépend désormais de ses choix.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1765072",
       "type": "movie",
       "name": "You Can See Everything",
@@ -9,12 +62,30 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1620918",
+      "type": "movie",
+      "name": "Norm Macdonald : Une vie pas si normale",
+      "poster": "https://image.tmdb.org/t/p/w500/sQw3m4hl1xyoT9zr7shnNCHDKI3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hE90kqyiFm9apunHLQirvdO7KyR.jpg",
+      "description": "Plongez dans un univers parallèle avec ce documentaire consacré au maître de l'humour pince-sans-rire, Norm Macdonald, dont la vie et la carrière furent intransigeantes mais pleines de contradictions.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1561726",
       "type": "movie",
       "name": "Masterplan",
       "poster": "https://image.tmdb.org/t/p/w500/a13BTR3jJWr2ARoLvTC3f5gQhfw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dgUDj84BWtW6EZzee8BkgKnjDhh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fAlQZsCOCvxOj0PmFmt4i8IWR2u.jpg",
       "description": "Quand un voleur légendaire jette son dévolu sur La Joconde, il recrute deux jeunes inconnus pour l'aider (Chiara, une experte italienne du cybercrime et Jay, un spécialiste français des explosifs) avant de leur révéler qu'il est leur père. Au milieu de retrouvailles chaotiques, cette nouvelle famille devra apprendre à collaborer et éviter de s'entretuer si elle veut réussir le casse du siècle.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1452110",
+      "type": "movie",
+      "name": "Clean Hands",
+      "poster": "https://image.tmdb.org/t/p/w500/szIEtkFLOMsPX6AVQSfzalNEEDd.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/py3XG3mFkdVMcw7VwfZ4HaXZIIU.jpg",
+      "description": "L'histoire vraie de Kevin Simmers, ancien policier anti-drogue devenu défenseur de la désintoxication, et de sa fille Brooke. Le film explore la crise américaine de la drogue et « la fine ligne bleue » à travers les regards opposés d'un policier et d'une toxicomane, qui étaient également père et fille.",
       "releaseInfo": "2026"
     },
     {
@@ -38,8 +109,8 @@
     {
       "id": "tmdb:947493",
       "type": "movie",
-      "name": "Le corset",
-      "poster": "https://image.tmdb.org/t/p/w500/h4YDklaLjbgdu9yUr6vNybnrnzX.jpg",
+      "name": "Le Corset",
+      "poster": "https://image.tmdb.org/t/p/w500/7RN7uox5vLnMY3GAXKjjGHTkeXR.jpg",
       "background": "https://image.tmdb.org/t/p/w780/3e0Lzs4vDSHjRULFw6vPI4jyHd6.jpg",
       "description": "Dans une ferme au cœur de la Beauce, Christophe, 11 ans, règle ses pas sur ceux de son père. Mais à l’école, à la maison, sur le tracteur, Christophe penche… et tombe. Il est obligé de porter un corset pour filer droit. Tandis que la ferme traverse des moments difficiles, Christophe grandit comme il peut. Il découvre la musique et fait la rencontre de Clara, avec qui tout semble devenir possible.",
       "releaseInfo": "2026"
@@ -58,24 +129,33 @@
       "type": "movie",
       "name": "Street Fighter",
       "poster": "https://image.tmdb.org/t/p/w500/k53HHxQ4rQG0dME6nsofii3QNS7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5H5YphHsQmkQhrw13Wv1whCZKtN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qRN8eqYwG6HPSy0i3fKzuLrUOhp.jpg",
       "description": "En 1993, Ryu et Ken Masters, deux Street Fighters autrefois inséparables, sont replongés dans l’arène lorsque la mystérieuse Chun-Li les recrute pour le prochain World Warrior Tournament : un affrontement brutal où se mêlent poings, destin et fureur. Mais derrière cette battle royale se cache une conspiration mortelle qui les oblige à s’affronter, tout en faisant face aux démons de leur passé… Et s’ils échouent, c’est GAME OVER.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1790935",
+      "type": "movie",
+      "name": "Instadocs: L'IA s'emballe",
+      "poster": "https://image.tmdb.org/t/p/w500/g2emP9oTYXzpNyxgti8GKhjOveB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9EfbnudTOAoiPVOEWL0vwhdbdBq.jpg",
+      "description": "L'IA a-t-elle commis un crime grave? La série enquête sur le piratage de Hugging Face et explique en quoi cette cyberattaque pourrait être un signal d'alarme pour l'humanité.",
       "releaseInfo": "2026"
     },
     {
       "id": "tmdb:1742441",
       "type": "movie",
-      "name": "V/H/S/Mixtape",
+      "name": "V/H/S/MIXTAPE",
       "poster": "https://image.tmdb.org/t/p/w500/uS8yoiA6NfsuYeOTbVfpem8Ib9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mpB4pgtUcc7rCLxvlknzCbAQQEE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yIDZiYea2Bah1yLYz14jlC89WJ5.jpg",
       "releaseInfo": "2026"
     },
     {
       "id": "tmdb:1288069",
       "type": "movie",
       "name": "Tenzing : à la conquête de l’Everest",
-      "poster": "https://image.tmdb.org/t/p/w500/hKA6G4Dj0Uonghi6AUwmpIvCFo0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6GXqVvL20Y0MpyVP30WoI2NPK69.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/yjeqiDKgOyrTROU5X4Rck01ldGF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9MdxBPjI58xkzA7RtKX9xRKvlZp.jpg",
       "description": "Un homme déterminé se lance dans une aventure périlleuse - et brave des obstacles apparemment insurmontables - pour réaliser son rêve d'être le premier à atteindre le sommet de l'Everest.",
       "releaseInfo": "2026"
     },
@@ -95,86 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/sXqiQw6cwZlp4B8OnT3LRGC6wgR.jpg",
       "background": "https://image.tmdb.org/t/p/w780/a6O9MMak7mHDdxwApf2nGlvIs0g.jpg",
       "description": "Corinne Maclou est figurante. Elle enchaîne les tournages, parcourt inlassablement les plateaux dans le seul espoir d’être remarquée et de décrocher enfin un vrai rôle. Lorsqu’elle fait la connaissance de Sandrine Kiberlain, avec qui elle va peu à peu sympathiser, Corinne espère concrétiser son rêve. Mais la célèbre actrice va-t-elle vraiment l'aider à se faire une place au sein de la grande famille du cinéma ?",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1400837",
-      "type": "movie",
-      "name": "Malfaisante",
-      "poster": "https://image.tmdb.org/t/p/w500/wAofwsldMDNAIzGSEfMJMoUn1KB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg",
-      "description": "Une famille est la cible d'une entité qu'elle appelle « l'autre maman ».",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1381078",
-      "type": "movie",
-      "name": "L'Amour de ta vie",
-      "poster": "https://image.tmdb.org/t/p/w500/1zrnRcJ8JOTXYp0Qizad1rnuIA0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mqYqKvrKTgMvK50VtEDZlYFsnHz.jpg",
-      "description": "Maya dont la rencontre fortuite avec Charlie donne naissance à une histoire d'amour passionnée et à la vie dont elle n'osait pas rêver. Lorsque tout bascule, Maya doit déterminer qui elle est, ce qu'elle veut et comment réapprendre à aimer.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1281331",
-      "type": "movie",
-      "name": "The Social Reckoning",
-      "poster": "https://image.tmdb.org/t/p/w500/tF1P9HZEBJQ8w1KyBlS3zMS2Ogp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wXTaGcqX3jvdXSKCJAkl5jZyrKp.jpg",
-      "description": "L'histoire s'inspire de \"The Facebook Files\" du Wall Street Journal, une série d'articles publiés en octobre 2021 par Jeff Horowitz, qui ont révélé les rouages internes ainsi que les nombreux dommages causés par le plus grand réseau social au monde.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1788735",
-      "type": "movie",
-      "name": "Family Guy Happy Hell-o-ween",
-      "poster": "https://image.tmdb.org/t/p/w500/4IuQIUgqyLpbD7R7zmPp9A08rsQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/i5XAKlLzmbGsBtr8T3vyGZHkanT.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1148365",
-      "type": "movie",
-      "name": "Matchbox – Le film",
-      "poster": "https://image.tmdb.org/t/p/w500/vSgnJDw404JUokiy5NDZgXOi01E.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg",
-      "description": "Des amis d'enfance reprennent contact et les retrouvailles prennent une tournure inattendue quand ils découvrent un dangereux complot international et doivent sauver le monde.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1610703",
-      "type": "movie",
-      "name": "Infirmary",
-      "poster": "https://image.tmdb.org/t/p/w500/n9MospSE1BoXx2gNJdR6gnWbEzd.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qkxk9URcK33HK54YSXFPQO8aqJH.jpg",
-      "description": "Un gardien a disparu lors de sa première nuit dans un ancien hôpital psychiatrique en 2023. Les images de sa caméra montrent des incidents inexplicables qui continuent de déconcerter les enquêteurs.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1596303",
-      "type": "movie",
-      "name": "The Last First : le K2 en hiver",
-      "poster": "https://image.tmdb.org/t/p/w500/zrOs0WKhESe6J4UErG32ZjOOh1A.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wtzSwtnQ4RsRbV5cc114Nb1q3b0.jpg",
-      "description": "Une course mémorable pour être le premier à atteindre le sommet du K2 en hiver vire au drame, révélant qu'ambition, ego et quête de gloire sont aussi dangereux que la montagne.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1458857",
-      "type": "movie",
-      "name": "À vie",
-      "poster": "https://image.tmdb.org/t/p/w500/c3O1ApzLnQ1jUXA60kXDraiPPIv.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nDScZ6YR2nfNCeK5bmJ1ujb355b.jpg",
-      "description": "Quand Anika, une jeune mère célibataire qui se bat pour préserver l'unité de sa famille, commence à échanger des lettres avec un détenu, Carousel, une relation improbable se noue à distance et prend bientôt une tournure inattendue. Naît alors une puissante histoire d'amour et de rédemption, portée par l'espoir de pouvoir un jour échapper au poids du passé. Car même les relations les plus inconcevables peuvent changer des vies et offrir une seconde chance d'être heureux.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1763619",
-      "type": "movie",
-      "name": "Super Riches Mega Fauchés",
-      "poster": "https://image.tmdb.org/t/p/w500/4nQD7STEWNYW2cKldZQZRrYri90.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/e20V500lJHkQbf1iGet34Jc5h8r.jpg",
-      "description": "Lorsque la snob et riche famille AlThahabi découvre qu'elle n'est en fait pas aussi fortunée qu'elle le croit, elle est forcée de simuler son opulence pour survivre.",
       "releaseInfo": "2026"
     }
   ]

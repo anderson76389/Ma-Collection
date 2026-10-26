@@ -28,14 +28,6 @@
       "releaseInfo": "2015"
     },
     {
-      "id": "tmdb:64958",
-      "type": "series",
-      "name": "MasterChef Canada",
-      "poster": "https://image.tmdb.org/t/p/w500/bQqv15gu9eKto8HjooaS2bw6hIf.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5o2mu6NSKjpXYifzXsSEfF3ngKp.jpg",
-      "releaseInfo": "2014"
-    },
-    {
       "id": "tmdb:211201",
       "type": "series",
       "name": "Bobby's Triple Threat",
@@ -44,12 +36,12 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:58779",
+      "id": "tmdb:64958",
       "type": "series",
-      "name": "The Great Australian Bake Off",
-      "poster": "https://image.tmdb.org/t/p/w500/vUMuFzfu2S8juv7ogTqjuanTv2O.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/AvnQTAPrwxjhNvQuSfuJPl4Os9U.jpg",
-      "releaseInfo": "2013"
+      "name": "MasterChef Canada",
+      "poster": "https://image.tmdb.org/t/p/w500/bQqv15gu9eKto8HjooaS2bw6hIf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5o2mu6NSKjpXYifzXsSEfF3ngKp.jpg",
+      "releaseInfo": "2014"
     }
   ]
 }

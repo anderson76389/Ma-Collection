@@ -1,6 +1,24 @@
 {
   "metas": [
     {
+      "id": "tmdb:339733",
+      "type": "series",
+      "name": "Vendée Globe, seuls autour du monde",
+      "poster": "https://image.tmdb.org/t/p/w500/fZBtPc9A5KuQK0ck5DX2gld5Rdi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/135dMDMd2v1dwwjUniiT2yFp1GT.jpg",
+      "description": "Une immersion totale au cœur de la 10e édition (2024-2025) du Vendée Globe. Grâce à des caméras embarquées, la série suit le quotidien extrême de six skippers (Jérémie Beyou, Conrad Colman, Clarisse Crémer, Violette Dorange, Pip Hare et Thomas Ruyant), mais aussi l'angoisse de leurs familles restées à terre et les coulisses de la direction de course.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:302466",
+      "type": "series",
+      "name": "Sœurs",
+      "poster": "https://image.tmdb.org/t/p/w500/ojzadv1E3I3sTSiPKOPpi2hVGAM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/u1vNMbcbOqFs9UoWSBMeNP3Udd3.jpg",
+      "description": "Élodie et Élisabeth sont des sœurs jumelles qui mènent des vies diamétralement opposées. Un jour, lassées de leur quotidien respectif, elles reprennent le jeu de leur enfance et échangent leur vie, juste pour quelques heures. Mais lors de la soirée, Élodie, alors dans la vie d’Élisabeth, est assassinée. Rongée par la culpabilité et la peur, Élisabeth va rester « incognito » dans la vie de sa sœur pour enquêter sur les raisons de cette disparition et va faire des découvertes inattendues sur elle-même, mais surtout sur sa jumelle… L’une ment, l’autre aussi ?",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:335650",
       "type": "series",
       "name": "Narcorama, il était une fois Marseille",
@@ -34,6 +52,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/tSCXytJwS4vKcv7SKh4WmWGLrp3.jpg",
       "background": "https://image.tmdb.org/t/p/w780/o6LVzUD6cCh7Ovl39wg8uayX9aa.jpg",
       "description": "Dévastée par la disparition soudaine et inexpliquée de son mari, Esther Bazin, capitaine de police, est au bord du précipice. Selon la loi, son mari, étant majeur et sain d'esprit, a le droit fondamental de disparaître.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:333369",
+      "type": "series",
+      "name": "CIA, les guerres secrètes de l’après-11 Septembre",
+      "poster": "https://image.tmdb.org/t/p/w500/pTxa8Zp2MMmc9nVYVmfqqHsREKD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4BF9PLHXxvtrP7ICUcLKnXNylDl.jpg",
+      "description": "Le 11 septembre 2001 au matin, l’Amérique bascule dans une nouvelle ère : l’organisation terroriste jihadiste Al-Qaïda vient de frapper la première puissance mondiale en plein cœur. L’Amérique se lance aussitôt dans la « guerre contre la terreur » avec la promesse qu’une telle catastrophe ne se reproduira plus jamais. De l’invasion de l’Afghanistan au retour des talibans au pouvoir vingt ans plus tard, de la traque des armes de destruction massive en Irak à celle du chef d’Al-Qaïda, Oussama Ben Laden, du soutien aux rebelles en Syrie à l’avènement du califat de l’État islamique, et à la poignée de main historique entre le président américain et l’ancien chef d’Al-Qaïda en Syrie devenu son homologue, cette série documentaire dévoile les coulisses de 25 ans de guerre, telle que les agents de la CIA, ces hommes de l’ombre, l’ont vécue.",
       "releaseInfo": "2026"
     },
     {
@@ -148,33 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/xMLS97v13cqJCQqlAq4FspChFZ7.jpg",
       "background": "https://image.tmdb.org/t/p/w780/uMjerMT5CmzBcT7cwWPtDtrSCPp.jpg",
       "description": "De l’enfant prodige à l’icône mondiale, cette série inédite en 3 épisodes explore le génie, les controverses et les tragédies qui ont façonné la légende de Michael Jackson. Diffusée à l’occasion de la sortie cinéma du très attendue biopic qui lui est consacré, elle offre un éclairage inédit sur le parcours hors norme du Roi de la pop.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:283964",
-      "type": "series",
-      "name": "Apparences",
-      "poster": "https://image.tmdb.org/t/p/w500/k3hKtS7wix1tkT9RlSj9MwXayKA.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ezWltvCfIcp3VSD9Qd63PfqZZ6E.jpg",
-      "description": "Bordeaux. Un chirurgien esthétique, le Docteur Belmont, est retrouvé mort dans une mise en scène macabre sur le parking de la clinique fondée avec ses deux associés et amis. Pour la capitaine Sarah Santoni, cette enquête s’avère vite très sensible : elle a subi une chirurgie reconstructrice du visage suite à une violente agression dans le cadre de ses fonctions. Et le chirurgien assassiné… est celui qui l’a opérée et aidée à surmonter son traumatisme.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:272322",
-      "type": "series",
-      "name": "La Quête d'Ewilan",
-      "poster": "https://image.tmdb.org/t/p/w500/3XjPuRha7S0K8ZV1ElxJJGIucsb.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1OumHqFk2GRfpI6ztI7fZbWjVn3.jpg",
-      "description": "La vie de Camille, orpheline de 13 ans, bascule le jour où elle est projetée par accident dans le monde de Gwendalavir. Elle découvre une terre peuplée de créatures aussi extraordinaires que dangereuses, qu’elle va devoir explorer, accompagnée de son ami Salim, pour découvrir non seulement son véritable nom, Ewilan, mais aussi la vérité sur ses racines et sa destinée. Originaire en réalité de ce monde parallèle, elle est l’héritière d’un don prodigieux, le Dessin, qui s’avère être une arme décisive dans la lutte de son peuple contre les terribles Ts’liches. Elle seule semble pouvoir libérer les Sentinelles capables de protéger Gwendalavir de leurs ennemis.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:272417",
-      "type": "series",
-      "name": "Phoenix",
-      "poster": "https://image.tmdb.org/t/p/w500/jYcbFgcwHDaQIblUquwpXtj7rnI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/eU3MZiGr0LrM2eNMfhxbFP0LRtX.jpg",
-      "description": "Alors que les patrons des plus grandes entreprises européennes lancent dans les Alpes un Forum prétendant lutter contre le réchauffement climatique et sauver un glacier, le groupe Phoenix passe à l'action : aux quatre coins du continent, ces six jeunes activistes kidnappent simultanément les enfants des dirigeants. Leur objectif : dénoncer leur greenwashing et les forcer à tenir leurs promesses avant qu'il ne soit trop tard.",
       "releaseInfo": "2026"
     }
   ]

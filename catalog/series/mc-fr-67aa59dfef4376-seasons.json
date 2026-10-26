@@ -1,15 +1,6 @@
 {
   "metas": [
     {
-      "id": "tmdb:2734",
-      "type": "series",
-      "name": "New York Unité Spéciale",
-      "poster": "https://image.tmdb.org/t/p/w500/95flTYCxEPNFSdZVrHy9nMIeLbw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xhK9YCxNwnE0OB1SWvCY39heHQI.jpg",
-      "description": "Les inspecteurs qui font partie de la division des Crimes sexuels (SVU) du service de police de la ville de New York (NYPD) enquêtent sur des crimes de nature sexuelle. Alors que les autres émissions de la franchise de \"La loi et l'ordre\" se sont largement concentrées sur les cas de meurtres, les inspecteurs de la division des Crimes sexuels (SVU) ont souvent affaire à des crimes, tel le viol, auquel la victime survit et elle aide les autorités lors de l'enquête.",
-      "releaseInfo": "1999"
-    },
-    {
       "id": "tmdb:549",
       "type": "series",
       "name": "New York Police Judiciaire",
@@ -17,6 +8,15 @@
       "background": "https://image.tmdb.org/t/p/w780/hrfP9BQ4mOMZOa8nHbFJLSDHBLz.jpg",
       "description": "À New York, détectives et assistants du procureur tentent de résoudre les affaires les plus délicates. Les uns sur le terrain, les autres devant les tribunaux.",
       "releaseInfo": "1990"
+    },
+    {
+      "id": "tmdb:2734",
+      "type": "series",
+      "name": "New York Unité Spéciale",
+      "poster": "https://image.tmdb.org/t/p/w500/95flTYCxEPNFSdZVrHy9nMIeLbw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xhK9YCxNwnE0OB1SWvCY39heHQI.jpg",
+      "description": "Les inspecteurs qui font partie de la division des Crimes sexuels (SVU) du service de police de la ville de New York (NYPD) enquêtent sur des crimes de nature sexuelle. Alors que les autres émissions de la franchise de \"La loi et l'ordre\" se sont largement concentrées sur les cas de meurtres, les inspecteurs de la division des Crimes sexuels (SVU) ont souvent affaire à des crimes, tel le viol, auquel la victime survit et elle aide les autorités lors de l'enquête.",
+      "releaseInfo": "1999"
     },
     {
       "id": "tmdb:4614",
@@ -46,6 +46,15 @@
       "releaseInfo": "2014"
     },
     {
+      "id": "tmdb:120911",
+      "type": "series",
+      "name": "The Terminal List",
+      "poster": "https://image.tmdb.org/t/p/w500/1dRsDRj8tfvTbNyJDItdBLNVsO7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2qS2LGqsAyT1NEDeIj24Hp2IR10.jpg",
+      "description": "Le commandant James Reece décide de se venger alors qu'il soupçonne que des puissances mystérieuses sont derrière le meurtre de toute son unité. Libéré de son obéissance à l'armée, il va appliquer les leçons qu'il a apprises pendant ses vingt ans au service de la traque de coupables.",
+      "releaseInfo": "2022"
+    },
+    {
       "id": "tmdb:62650",
       "type": "series",
       "name": "Chicago Med",
@@ -53,15 +62,6 @@
       "background": "https://image.tmdb.org/t/p/w780/fFgVoJuSBewZWlzgaoUWGm8MvD4.jpg",
       "description": "Le quotidien mouvementé du personnel d'un des plus importants hôpitaux de Chicago. Leur mission : sauver des vies, en se confrontant aux cas médicaux les plus critiques. Seuls leur courage et leur compassion leur permet au quotidien de faire face aux challenges parfois insurmontables de la médecine, ainsi qu'aux dilemmes éthiques propres à leur noble discipline.",
       "releaseInfo": "2015"
-    },
-    {
-      "id": "tmdb:298550",
-      "type": "series",
-      "name": "Friends Sex and Games",
-      "poster": "https://image.tmdb.org/t/p/w500/zijeb3WqqTIYJm3mmp1sb0uNGUj.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/geSUajSeWBu14vLk0NyuR1OnrX7.jpg",
-      "description": "Quatre couples. Un jeu sexy. Le premier amour d'Anna est de retour. Lors d'une soirée de retrouvailles, le groupe ose le jeu des clés : qui en pioche une passe la nuit avec son propriétaire. Sans conditions. Sans sentiments. Confiance, jalousie, désirs inavoués, moments hilarants et sexe torride. Le jeu va au-delà de ce que chacun imaginait, avec cette question : qu'est-ce qui me rend heureux ?",
-      "releaseInfo": "2026"
     }
   ]
 }

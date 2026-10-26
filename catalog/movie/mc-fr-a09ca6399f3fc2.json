@@ -4,8 +4,8 @@
       "id": "tmdb:1288069",
       "type": "movie",
       "name": "Tenzing : à la conquête de l’Everest",
-      "poster": "https://image.tmdb.org/t/p/w500/hKA6G4Dj0Uonghi6AUwmpIvCFo0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6GXqVvL20Y0MpyVP30WoI2NPK69.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/yjeqiDKgOyrTROU5X4Rck01ldGF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9MdxBPjI58xkzA7RtKX9xRKvlZp.jpg",
       "description": "Un homme déterminé se lance dans une aventure périlleuse - et brave des obstacles apparemment insurmontables - pour réaliser son rêve d'être le premier à atteindre le sommet de l'Everest.",
       "releaseInfo": "2026"
     },
@@ -14,8 +14,17 @@
       "type": "movie",
       "name": "The Uprising",
       "poster": "https://image.tmdb.org/t/p/w500/ymUS8HTc7ctfdSYC6bmEokSKisa.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/y0reRTsewsPh0ePtgvDeLIsb5Wk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kAlAFblqBI6aGXItR4DRpT5Tozg.jpg",
       "description": "Lors de la révolte des paysans anglais de 1381, l'humble Wat Tyler s'élève à la tête de la résistance contre le jeune roi Richard II. À la tête d'une armée de citoyens ordinaires, il affronte les troupes de la Couronne dans une lutte pour la justice et la survie. Ses actions font de lui un symbole légendaire de la résistance.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1380417",
+      "type": "movie",
+      "name": "By Any Means",
+      "poster": "https://image.tmdb.org/t/p/w500/evCy2B3j57AwSNBZqlePjMl3zj3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1jANqIbqrWJZb8GM5Kb3L6U8iHi.jpg",
+      "description": "Un jeune agent noir du FBI est envoyé au Mississippi dans les années 60 afin d’enquêter sur une vague de meurtres brutaux visant des leaders du mouvement des droits civiques. Contraint de faire équipe avec le célèbre tueur à gages de la mafia Greg Scarpa, il se retrouve entraîné dans une traque meurtrière où la frontière entre justice et vengeance devient de plus en plus floue.",
       "releaseInfo": "2026"
     },
     {
@@ -95,7 +104,7 @@
       "type": "movie",
       "name": "Palestine 36",
       "poster": "https://image.tmdb.org/t/p/w500/7MfS2Q7kHIdGeRe17Z26q5N9MPm.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/e5LTUuIumJCgeoAApfCXhKUZ1UH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xLcPsJ7lZ4pVHJiAgMvDwmm4v0r.jpg",
       "description": "Palestine, 1936. La grande révolte arabe, destinée à faire émerger un État indépendant, se prépare alors que le territoire est sous mandat britannique.",
       "releaseInfo": "2025"
     },
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/itaIGLdCu0e28XQOEf7V3chd904.jpg",
       "background": "https://image.tmdb.org/t/p/w780/uWVkEo9PWHu9algZsiLPi6sRU64.jpg",
       "description": "Captation de la célèbre comédie musicale de Broadway récompensée par 11 Tony, Grammy et Olivier Awards, et par un prix Pulitzer. Hamilton raconte l'histoire d'Alexander Hamilton, l'un des Pères fondateurs de la nation américaine.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1288070",
-      "type": "movie",
-      "name": "The Luckiest Man in America",
-      "poster": "https://image.tmdb.org/t/p/w500/etJwfiUR0gtQwH8shhwjRr5bARQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zQm5ogvBCQJpktZZohRJZsWrC01.jpg",
-      "description": "1984 ; Michael Larson, chauffeur de camion de glaces au chômage dans l'Ohio, débarque dans le jeu télévisé « Press Your Luck » avec un secret : la clé pour gagner des sommes infinies. Mais sa série de victoires est menacée lorsque les dirigeants de la salle de contrôle commencent à découvrir ses véritables motivations.",
       "releaseInfo": "2025"
     }
   ]

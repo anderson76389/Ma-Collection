@@ -1,12 +1,30 @@
 {
   "metas": [
     {
-      "id": "tmdb:84773",
+      "id": "tmdb:1426",
       "type": "series",
-      "name": "Le Seigneur des anneaux : Les Anneaux de pouvoir",
-      "poster": "https://image.tmdb.org/t/p/w500/dZBrHfywu7ATQRWpEvJolklwetz.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/o2wg8QiSCQrhj91tBfxunE3O5Ba.jpg",
-      "description": "Divers personnages, connus et inconnus, doivent faire face à la résurgence du mal en Terre du Milieu. Des profondeurs des Montagnes de Brume aux forêts majestueuses du Lindon, de l'île des Rois de Númenor aux contrées les plus éloignées du monde, ces royaumes et personnages vont forger un héritage qui demeurera bien après leur disparition.",
+      "name": "Luther",
+      "poster": "https://image.tmdb.org/t/p/w500/hDxOMX8zzH1FiqKWVBzNaYGBkle.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A2qdFRq9oJDC5E7fbgSS4POUMDF.jpg",
+      "description": "Un inspecteur de police consciencieux tente de ne pas partir à la dérive tandis qu'il démêle les facteurs psychologiques qui sous-tendent ses affaires criminelles.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:1480",
+      "type": "series",
+      "name": "Ally McBeal",
+      "poster": "https://image.tmdb.org/t/p/w500/weS8htxS2j0EQ6jorK3WOR1dZpH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xCMs3IxaGqKSc5cwngRUlhmjbwl.jpg",
+      "description": "Charmante, romantique, hystérique, excessive et passionnée, Ally McBeal n'en reste pas moins une brillante avocate qui défend farouchement les intérêts du Cabinet Cage & Fish en suivant ses sentiments.",
+      "releaseInfo": "1997"
+    },
+    {
+      "id": "tmdb:120911",
+      "type": "series",
+      "name": "The Terminal List",
+      "poster": "https://image.tmdb.org/t/p/w500/1dRsDRj8tfvTbNyJDItdBLNVsO7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2qS2LGqsAyT1NEDeIj24Hp2IR10.jpg",
+      "description": "Le commandant James Reece décide de se venger alors qu'il soupçonne que des puissances mystérieuses sont derrière le meurtre de toute son unité. Libéré de son obéissance à l'armée, il va appliquer les leçons qu'il a apprises pendant ses vingt ans au service de la traque de coupables.",
       "releaseInfo": "2022"
     }
   ]

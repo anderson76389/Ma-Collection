@@ -1,6 +1,41 @@
 {
   "metas": [
     {
+      "id": "tmdb:316702",
+      "type": "series",
+      "name": "La Table finale",
+      "poster": "https://image.tmdb.org/t/p/w500/vJkXnYfInP14oW2VEoh7Qzi5DgP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/anwMEnTDkhv5qJ8wXSRieCvFHGs.jpg",
+      "description": "L'émission \"La Table : K-Chef 2026\" voit les meilleurs chefs coréens s'affronter. Le mystérieux Kang Han, surnommé \"chef Chris K\", Choi Song-yi, qui se bat pour sauver son restaurant, Cha Woo-jin, un perfectionniste étoilé, et bien d'autres chefs aux parcours variés s'engagent dans une bataille culinaire acharnée. Au-delà de la compétition, ils trouvent du réconfort à cuisiner et à se soutenir.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:338918",
+      "type": "series",
+      "name": " चार यार",
+      "poster": "https://image.tmdb.org/t/p/w500/z6WSxbaMdFQ9OLeHihaPJyVND4D.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ndO5LTzLPYqh8o65VLF8oReIewE.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:306163",
+      "type": "series",
+      "name": "Le Charles",
+      "poster": "https://image.tmdb.org/t/p/w500/1So6roM8Sc6SHKSoioWsxpia2ZY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xhh2EG39ROotuI7185jH5a6Lvww.jpg",
+      "description": "Le Charles de Gaulle, le seul porte-avions à propulsion nucléaire européen, vient d'appareiller pour une mission stratégique en Méditerranée orientale, où la situation est explosive. Quelques heures après le grand départ, une femme de l'équipage est retrouvée morte et une autre est portée disparue. Malgré les inquiétudes, le Commandant et l'État-major décident de maintenir l'opération.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:303745",
+      "type": "series",
+      "name": "L'amour sous couverture",
+      "poster": "https://image.tmdb.org/t/p/w500/xima3BlIJxlrONQgZ9mYuSLAq0f.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/32g5MD6eHPAZ5NAgkNAURb4eupm.jpg",
+      "description": "Yoon Yi-jun, successeur du groupe Taekang, est le principal suspect d'un terrible meurtre. Pour découvrir la vérité, l'inspectrice Kang Jae-hee s'infiltre auprès de lui en se faisant passer pour son secrétaire. Mais plus elle se rapproche de la vérité, plus ils se rapprochent l'un de l'autre. Entre Jae-hee sous couverture et Yi-jun qui cache un secret, pourront-ils s'avouer leurs sentiments ?",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:336973",
       "type": "series",
       "name": "Hometown Giants",
@@ -15,6 +50,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/zijeb3WqqTIYJm3mmp1sb0uNGUj.jpg",
       "background": "https://image.tmdb.org/t/p/w780/geSUajSeWBu14vLk0NyuR1OnrX7.jpg",
       "description": "Quatre couples. Un jeu sexy. Le premier amour d'Anna est de retour. Lors d'une soirée de retrouvailles, le groupe ose le jeu des clés : qui en pioche une passe la nuit avec son propriétaire. Sans conditions. Sans sentiments. Confiance, jalousie, désirs inavoués, moments hilarants et sexe torride. Le jeu va au-delà de ce que chacun imaginait, avec cette question : qu'est-ce qui me rend heureux ?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:296466",
+      "type": "series",
+      "name": "Marília Mendonça: Sentimento Louco",
+      "poster": "https://image.tmdb.org/t/p/w500/g4XB3hmoPC75AtjsRtFhRdbDxhe.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kqmeuOwL0Wcq0Th7bz9M3EgsYMR.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -125,48 +168,6 @@
       "name": "The Revolutionaries",
       "poster": "https://image.tmdb.org/t/p/w500/5fLyYAxXWP4BxZCBN79NV1eiT4d.jpg",
       "background": "https://image.tmdb.org/t/p/w780/uImwvxPG2klY0VyybGPt5zRJVMc.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:316970",
-      "type": "series",
-      "name": "Jagamae Sangeetham",
-      "poster": "https://image.tmdb.org/t/p/w500/aEfuAAgMpePYJc99wFe19dMVst4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/b8pcIMqEAhLZ9EkYjqIPloGRrTT.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:283297",
-      "type": "series",
-      "name": "Sterling Point",
-      "poster": "https://image.tmdb.org/t/p/w500/mhqEXKwIv5wIlG1eih5OQB25vi8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nOWU1NSYQEOXRXcdfZbtJshwRGK.jpg",
-      "description": "Annie Jacobson, 17 ans, découvre qu'elle a hérité d'une île isolée au Canada de la part d'un grand-père qu'elle n'a jamais eu le droit de rencontrer. Quand Annie décide qu'elle veut en savoir plus, elle se retrouve plongée dans un monde de secrets, se forge une amitié inattendue et affronte une histoire familiale complexe qu'elle n'aurait jamais dû découvrir.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:328402",
-      "type": "series",
-      "name": "आदर्श बाल विद्यालय",
-      "poster": "https://image.tmdb.org/t/p/w500/1XbcSqURUvhgu2nnoQRZ7cXmTsJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ollKqYShmjhBOKsV60pmPP9ara3.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:329693",
-      "type": "series",
-      "name": "Sono qui per Caos",
-      "poster": "https://image.tmdb.org/t/p/w500/6Zw31Bo0TDc65vROvsQbgitKhhx.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qiew8R6Y0wrFsXzsoFRo6VofGd2.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:323976",
-      "type": "series",
-      "name": "Young Farts Trailer Parts : La série",
-      "poster": "https://image.tmdb.org/t/p/w500/nd9XjTwKJ1JuPqf7ZsGsbUZptiN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/sk7A4RtNa33rVQ96YjdGDShbpv5.jpg",
-      "description": "Découvrez les frères Jagger et Dawson dans cette hilarante téléréalité. À la tête d'une entreprise florissante de pièces pour VR, ils redonnent vie et cachet à des épaves entre projets délirants, cascades déjantées et coups de folie pleins de bon cœur. Nos gars en roue libre enchaînent les idées saugrenues, toujours motivés par l'amour de leur famille et de l'empire qu'ils tentent de bâtir.",
       "releaseInfo": "2026"
     }
   ]

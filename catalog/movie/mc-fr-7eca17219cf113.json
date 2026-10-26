@@ -1,11 +1,20 @@
 {
   "metas": [
     {
+      "id": "tmdb:1780005",
+      "type": "movie",
+      "name": "Contre l'Ouragan",
+      "poster": "https://image.tmdb.org/t/p/w500/8T590m8nwAub9fTxp72EJPphOWa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cpNMIRCrDl0sxDL1tHBzfWi0UZC.jpg",
+      "description": "En pleine mer, Wirpul et son demi-frère Candi luttent pour survivre lorsqu'une tempête imprévue au large d'Acapulco se transforme en ouragan de catégorie 5, dénommé Otis. Une histoire de fraternité, d'inégalité et de courage, où l'amour fraternel est le seul espoir.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1487317",
       "type": "movie",
       "name": "On va s'arrêter là",
       "poster": "https://image.tmdb.org/t/p/w500/vaok2Dm7suKG2gEY2cKBXL4OMYf.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fv9BAXOrPJXEhycgWF3Qb8aczqe.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3eZQoaWm2cDE2QV02GUHUrWsxAC.jpg",
       "description": "L'histoire d'un psychanalyste pragmatique qui déçu par l'approche traditionnelle de la psychologie, repousse les limites de l'éthique avec ses patients. Cette démarche semble fonctionner, jusqu'au jour où un écrivain en panne d'inspiration frappe à la porte de son cabinet.",
       "releaseInfo": "2026"
     },
@@ -39,9 +48,10 @@
     {
       "id": "tmdb:1744876",
       "type": "movie",
-      "name": "Fito Páez: El mundo cabe en una canción",
+      "name": "Fito Paez : Le monde dans une chanson",
       "poster": "https://image.tmdb.org/t/p/w500/vG6rXAyLSu5MqIZG5jTjP6tpdbl.jpg",
       "background": "https://image.tmdb.org/t/p/w780/tThekN7w7Kyo41FGrrKYfC0ViVE.jpg",
+      "description": "Un film documentaire qui observe, écoute et interagit avec Fito Páez dans une profonde intimité. La caméra, presque invisible, est témoin de chacun de ses gestes, l'accompagnant pendant plus d'un an lors d'enregistrements, de répétitions, de tournées et de concerts dans les grandes villes d'Amérique latine, d'Europe et des États-Unis. C'est aussi un voyage à travers la vie de l'un des plus grands artistes hispanophones : ses amours et ses peines, ses enfants et ses amitiés, ses excès, ses tragédies, ses échecs et ses succès.",
       "releaseInfo": "2026"
     },
     {
@@ -161,14 +171,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/7MCnV8wb1tODOrM8NmWAuPWm40Y.jpg",
       "background": "https://image.tmdb.org/t/p/w780/6QdbhPXNVFJ3cVCCFscOulC3Bpa.jpg",
       "description": "Ce documentaire explore comment l'enlèvement de Miguel Ángel Blanco en 1997 a transformé la peur en résistance collective et a façonné la lutte de l'Espagne contre le terrorisme de l'ETA.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1632981",
-      "type": "movie",
-      "name": "Haciendo amigos",
-      "poster": "https://image.tmdb.org/t/p/w500/aOEKqiRldd6pvNNopdDUsMfnlmJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rR0PEHlQU7pZEKxV1E9JYk7copr.jpg",
       "releaseInfo": "2026"
     }
   ]

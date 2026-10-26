@@ -5,7 +5,7 @@
       "type": "movie",
       "name": "Masterplan",
       "poster": "https://image.tmdb.org/t/p/w500/a13BTR3jJWr2ARoLvTC3f5gQhfw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dgUDj84BWtW6EZzee8BkgKnjDhh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fAlQZsCOCvxOj0PmFmt4i8IWR2u.jpg",
       "description": "Quand un voleur légendaire jette son dévolu sur La Joconde, il recrute deux jeunes inconnus pour l'aider (Chiara, une experte italienne du cybercrime et Jay, un spécialiste français des explosifs) avant de leur révéler qu'il est leur père. Au milieu de retrouvailles chaotiques, cette nouvelle famille devra apprendre à collaborer et éviter de s'entretuer si elle veut réussir le casse du siècle.",
       "releaseInfo": "2026"
     },
@@ -14,7 +14,7 @@
       "type": "movie",
       "name": "L'Amour de ta vie",
       "poster": "https://image.tmdb.org/t/p/w500/1zrnRcJ8JOTXYp0Qizad1rnuIA0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mqYqKvrKTgMvK50VtEDZlYFsnHz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4hneB0UFKOZAGJHqJ3VhDcG72uH.jpg",
       "description": "Maya dont la rencontre fortuite avec Charlie donne naissance à une histoire d'amour passionnée et à la vie dont elle n'osait pas rêver. Lorsque tout bascule, Maya doit déterminer qui elle est, ce qu'elle veut et comment réapprendre à aimer.",
       "releaseInfo": "2026"
     },
@@ -142,38 +142,37 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1705729",
+      "type": "movie",
+      "name": "Man of War",
+      "poster": "https://image.tmdb.org/t/p/w500/vt0RqHlqfUzeiBEVQvp43yY2076.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kMrkqfjuPR4FlfaScrNNYuOEGHa.jpg",
+      "description": "Un vétéran des forces spéciales américaines pénètre en Ukraine, aux tout premiers jours de l'invasion russe, pour sauver sa fille adoptive, une travailleuse humanitaire retenue en otage par des mercenaires russes. Il doit lancer une mission de sauvetage mortelle pour la ramener chez elle saine et sauve.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1721352",
+      "type": "movie",
+      "name": "Shattered Silence: Imitation of a Perfect Life",
+      "poster": "https://image.tmdb.org/t/p/w500/a9ijsVEjKtaevuAhXAyiVJvreYm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7zKBf4EULoBpd4YQJ2YK3SNEVfI.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1279493",
+      "type": "movie",
+      "name": "The Get Out",
+      "poster": "https://image.tmdb.org/t/p/w500/qE7W89wgJOrUog2fdBrHWrUJHVw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9Bv4Oki9u3aKZxDCNDcU4N2mttb.jpg",
+      "description": "Après avoir été mystérieusement plumé par deux amants hors-la-loi et complètement fous, un propriétaire de boîte de nuit vieillissant mais impitoyable doit trouver un moyen d'échapper aux cartels pour lesquels sa petite amie et lui blanchissaient de l'argent.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1715076",
       "type": "movie",
       "name": "The Exhibitor",
       "poster": "https://image.tmdb.org/t/p/w500/2UYuQQLOBhVErrAToXakLnX0iMG.jpg",
       "background": "https://image.tmdb.org/t/p/w780/7zYv5ALbG62yHd2T495PysgQPky.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1477317",
-      "type": "movie",
-      "name": "À contre-sens 2 : Londres",
-      "poster": "https://image.tmdb.org/t/p/w500/gWVO8FmD9onEYYsZU1LMJgRNTbm.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wQOhbCP6H8bO5ddlXDZT207orew.jpg",
-      "description": "L'amour entre Nick et Noah est soumis à rude épreuve quand Noah part à l'université d'Oxford tandis que Nick reste à Londres pour travailler dans l'entreprise de son père. Loin l'un de l'autre, ils sont confrontés à des pressions croissantes. La jalousie, l'ambition et d'autres forces cherchent à les séparer. Ils risqueront tout pour prouver que leur relation peut survivre envers et contre tout.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1511549",
-      "type": "movie",
-      "name": "Encore Plus Sexy",
-      "poster": "https://image.tmdb.org/t/p/w500/cQYHYSnHf1A853xoNn6Qq6lm2JO.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jUpuMPCQiNSYi4QxeCIGFUlPizn.jpg",
-      "description": "Maddalena a tout pour elle : un travail qu'elle adore, un fiancé parfait et un mariage de rêve à venir. Mais au lit, quelque chose manque. Poussée par sa voix intérieure incarnée par la star du porno Valentina Nappi, elle remet sa vie en question. Sa rencontre avec Bruno, un jardinier au passé compliqué, l'amène à comprendre que la seule voie qui vaille la peine d'être suivie est la sienne.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1501018",
-      "type": "movie",
-      "name": "Une Famille De Bâtards",
-      "poster": "https://image.tmdb.org/t/p/w500/zuiZDJcjlNWB6EcXHer06u9BQke.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7ImZeJiXNcZYKruKEqMzyW3CwVL.jpg",
-      "description": "« Une famille de bâtards » suit Mohamed Akrour, petit gars sans histoires qui hérite de l'affaire familiale et découvre qu'elle abrite machines à sous illégales et réseau de prostitution. Pris entre rivalités explosives, dettes menaçantes et appât du gain, il rencontre surtout demi-frère et sœur qu'il devra protéger… tout en plongeant dans un monde criminel et brutal.",
       "releaseInfo": "2026"
     }
   ]

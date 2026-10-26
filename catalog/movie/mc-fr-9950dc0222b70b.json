@@ -73,15 +73,6 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:1422052",
-      "type": "movie",
-      "name": "Descendent",
-      "poster": "https://image.tmdb.org/t/p/w500/Of1UCdomAu0mJY2SNHHGjhnvx9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/asO6UtEqDB9bdJzDDjnSzNZf3vY.jpg",
-      "description": "Après qu'un traumatisme crânien lui a fait voir des visions terrifiantes d'extraterrestres et lui a donné un nouveau talent pour le dessin, un futur père commence à remettre en question sa réalité et devient obsédé par le besoin de protéger sa famille d'une menace invisible.",
-      "releaseInfo": "2025"
-    },
-    {
       "id": "tmdb:1031962",
       "type": "movie",
       "name": "What We Hide",
@@ -122,6 +113,15 @@
       "name": "The Grove",
       "poster": "https://image.tmdb.org/t/p/w500/t89lxwS3kOtnM9gcMgwkYwgwQnk.jpg",
       "background": "https://image.tmdb.org/t/p/w780/bGln6vbPi9HI0nVYjtiGTIJ2s9f.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:970947",
+      "type": "movie",
+      "name": "Les Linceuls",
+      "poster": "https://image.tmdb.org/t/p/w500/86DyRjhdpODldmGNTw8W9S8YOJc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kpzMKQyKbtaxf9OpJo0fiosSCMK.jpg",
+      "description": "Karsh, 50 ans, est un homme d’affaires renommé. Inconsolable depuis le décès de son épouse, il invente un système révolutionnaire et controversé, GraveTech, qui permet aux vivants de se connecter à leurs chers disparus dans leurs linceuls. Une nuit, plusieurs tombes, dont celle de sa femme, sont vandalisées. Karsh se met en quête des coupables.",
       "releaseInfo": "2025"
     },
     {

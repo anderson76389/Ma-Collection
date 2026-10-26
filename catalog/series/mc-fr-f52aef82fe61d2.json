@@ -1,15 +1,6 @@
 {
   "metas": [
     {
-      "id": "tmdb:37678",
-      "type": "series",
-      "name": "The Voice (États-Unis)",
-      "poster": "https://image.tmdb.org/t/p/w500/7ah1WExcMkzbq7sARCTmcC23tBr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/x8pSFa3BXyVpkjHyn7YxmLyhjoh.jpg",
-      "description": "Les meilleurs chanteurs du pays s’affrontent dans un grand concours de chant, dont le gagnant est couronné « The Voice ». Le programme repose sur un format innovant en quatre étapes : les auditions à l’aveugle, les battles, les épreuves éliminatoires et, les prestations en direct.",
-      "releaseInfo": "2011"
-    },
-    {
       "id": "tmdb:14658",
       "type": "series",
       "name": "Survivor",
@@ -17,6 +8,15 @@
       "background": "https://image.tmdb.org/t/p/w780/1oaj0RL4cM0WuUQJUuarpVWrhb0.jpg",
       "description": "Une aventure dans laquelle un groupe de personnes ont échoué sur une ile isolée. Le dernier survivant de cette aventure repartira chez lui avec la somme d'1 millions de dollars.",
       "releaseInfo": "2000"
+    },
+    {
+      "id": "tmdb:37678",
+      "type": "series",
+      "name": "The Voice (États-Unis)",
+      "poster": "https://image.tmdb.org/t/p/w500/7ah1WExcMkzbq7sARCTmcC23tBr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/x8pSFa3BXyVpkjHyn7YxmLyhjoh.jpg",
+      "description": "Les meilleurs chanteurs du pays s’affrontent dans un grand concours de chant, dont le gagnant est couronné « The Voice ». Le programme repose sur un format innovant en quatre étapes : les auditions à l’aveugle, les battles, les épreuves éliminatoires et, les prestations en direct.",
+      "releaseInfo": "2011"
     },
     {
       "id": "tmdb:30957",
@@ -28,15 +28,6 @@
       "releaseInfo": "2001"
     },
     {
-      "id": "tmdb:62",
-      "type": "series",
-      "name": "The Challenge",
-      "poster": "https://image.tmdb.org/t/p/w500/A8pSOaknOrNCPRssEyRYsHCRLZ3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kaolHDM9XOnvTTZi9FBLhPS35s3.jpg",
-      "description": "Chaque défi oppose de nombreux membres de la distribution des saisons précédentes d'émissions de téléréalité les uns contre les autres, en les divisant en deux équipes distinctes selon différents critères, tels que le sexe, sur lequel ils sont apparus pour la première fois, qu'ils soient ou non des vétérans ou des recrues de l'émission, etc. Les deux équipes s'affrontent dans de nombreuses missions afin de gagner des prix et d'avancer dans le jeu global.",
-      "releaseInfo": "1998"
-    },
-    {
       "id": "tmdb:92611",
       "type": "series",
       "name": "RuPaul's Drag Race UK",
@@ -44,6 +35,15 @@
       "background": "https://image.tmdb.org/t/p/w780/7fsT1NnmNbden0mptoVinBNp4ih.jpg",
       "description": "RuPaul a fait le voyage à travers l'étang à la recherche d'une reine avec le plus de charisme, d'unicité, de nerf et de talent de tout le pays.",
       "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:62",
+      "type": "series",
+      "name": "The Challenge",
+      "poster": "https://image.tmdb.org/t/p/w500/A8pSOaknOrNCPRssEyRYsHCRLZ3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kaolHDM9XOnvTTZi9FBLhPS35s3.jpg",
+      "description": "Chaque défi oppose de nombreux membres de la distribution des saisons précédentes d'émissions de téléréalité les uns contre les autres, en les divisant en deux équipes distinctes selon différents critères, tels que le sexe, sur lequel ils sont apparus pour la première fois, qu'ils soient ou non des vétérans ou des recrues de l'émission, etc. Les deux équipes s'affrontent dans de nombreuses missions afin de gagner des prix et d'avancer dans le jeu global.",
+      "releaseInfo": "1998"
     },
     {
       "id": "tmdb:215943",
@@ -63,20 +63,20 @@
       "releaseInfo": "2017"
     },
     {
+      "id": "tmdb:237243",
+      "type": "series",
+      "name": "Big Brother",
+      "poster": "https://image.tmdb.org/t/p/w500/eWnxE8wNT2rC0YrSg3uEY5chCCf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mEY2exPOsSoZ5xhAtxAY2Cqc3f6.jpg",
+      "releaseInfo": "2023"
+    },
+    {
       "id": "tmdb:234613",
       "type": "series",
       "name": "Les Traîtres (Canada)",
       "poster": "https://image.tmdb.org/t/p/w500/6mrgzGZIZuAN6tx1lPxL0iWtx56.jpg",
       "background": "https://image.tmdb.org/t/p/w780/sexNBB5fScor0mpzJaiHfe0olSD.jpg",
       "description": "Vingt inconnus arrivent dans un manoir pour participer à un jeu de rôle policier.",
-      "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:237243",
-      "type": "series",
-      "name": "Big Brother",
-      "poster": "https://image.tmdb.org/t/p/w500/eWnxE8wNT2rC0YrSg3uEY5chCCf.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mEY2exPOsSoZ5xhAtxAY2Cqc3f6.jpg",
       "releaseInfo": "2023"
     },
     {
@@ -95,6 +95,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/qwVLaxySsEiJCdrFMRrQa5Y79am.jpg",
       "background": "https://image.tmdb.org/t/p/w780/aVfK8WDvH7kKWewBAGDsR8ucdrG.jpg",
       "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:334887",
+      "type": "series",
+      "name": "The Mob",
+      "poster": "https://image.tmdb.org/t/p/w500/p7Z3iK7g3ZEOm60h121fvtDmA3f.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jPah9SEWeBCXQwyKqoMdQp7tqci.jpg",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:334759",

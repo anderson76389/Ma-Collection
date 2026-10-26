@@ -9,15 +9,6 @@
       "releaseInfo": "1984"
     },
     {
-      "id": "tmdb:37678",
-      "type": "series",
-      "name": "The Voice (États-Unis)",
-      "poster": "https://image.tmdb.org/t/p/w500/7ah1WExcMkzbq7sARCTmcC23tBr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/x8pSFa3BXyVpkjHyn7YxmLyhjoh.jpg",
-      "description": "Les meilleurs chanteurs du pays s’affrontent dans un grand concours de chant, dont le gagnant est couronné « The Voice ». Le programme repose sur un format innovant en quatre étapes : les auditions à l’aveugle, les battles, les épreuves éliminatoires et, les prestations en direct.",
-      "releaseInfo": "2011"
-    },
-    {
       "id": "tmdb:14658",
       "type": "series",
       "name": "Survivor",
@@ -33,6 +24,24 @@
       "poster": "https://image.tmdb.org/t/p/w500/iisHVZ6we56PE4BcV1csB46SbiG.jpg",
       "background": "https://image.tmdb.org/t/p/w780/r4ceAy8m4w9gheLWEgEgQnbYK85.jpg",
       "description": "\"Dancing with the Stars\" est la version américaine de l'émission britannique \"Strictly Come Dancing\". Une des plus grandes franchises au niveau mondial, car la série a été reprise par de nombreux autres pays avec leur propre version. L'émission est présentée par Tom Bergeron et se compose d'une célébrité jumelée à un professionnel de la danse. Chaque couple exécute des danses prédéterminées et rivalise avec d'autres équipes. A chaque émission, l'équipe qui a le moins de point est éliminée jusqu'à ce qu'il ne reste que le duo champion.",
+      "releaseInfo": "2005"
+    },
+    {
+      "id": "tmdb:37678",
+      "type": "series",
+      "name": "The Voice (États-Unis)",
+      "poster": "https://image.tmdb.org/t/p/w500/7ah1WExcMkzbq7sARCTmcC23tBr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/x8pSFa3BXyVpkjHyn7YxmLyhjoh.jpg",
+      "description": "Les meilleurs chanteurs du pays s’affrontent dans un grand concours de chant, dont le gagnant est couronné « The Voice ». Le programme repose sur un format innovant en quatre étapes : les auditions à l’aveugle, les battles, les épreuves éliminatoires et, les prestations en direct.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:2370",
+      "type": "series",
+      "name": "Hell's Kitchen",
+      "poster": "https://image.tmdb.org/t/p/w500/shOVFku8daIGRpgjTdMZBxUAvsV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kitfuCa2TqX6oY5HvdFRjMMaLwc.jpg",
+      "description": "Hell's Kitchen (en français la cuisine de l'enfer ou cuisine infernale) est une compétition américaine  de cuisine télévisée réelle basée sur la série britannique du même nom diffusée sur Fox. Elle est présentée par Gordon Ramsay. Deux équipes de chefs concourent pour un poste de chef dans un restaurant…",
       "releaseInfo": "2005"
     }
   ]

@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:1420508",
+      "type": "movie",
+      "name": "Pendant que nous dormions",
+      "poster": "https://image.tmdb.org/t/p/w500/glIf8n07gtTRC5kvxvvqiGUv05e.jpg",
+      "description": "À Prague, deux adolescentes de 16 ans, l’exubérante Dáša et la réservée Klára, doivent gérer la masculinité toxique de deux garçons de leur âge, Robert et Pavel.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1584779",
       "type": "movie",
       "name": "Mon père, un meurtrier ?",
@@ -33,6 +41,15 @@
       "name": "Restless",
       "poster": "https://image.tmdb.org/t/p/w500/iVcD9F3ZQBZBBsVq6hDE4iYO4yi.jpg",
       "background": "https://image.tmdb.org/t/p/w780/qXJ9GzTQrB4piZqUJtBUdZ7WbbP.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1759399",
+      "type": "movie",
+      "name": "Sophie Marceau, à voix haute",
+      "poster": "https://image.tmdb.org/t/p/w500/Amh2oNFsrL8coAEAgek7PU3R5mW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nPX4tmbWkYn8LTlB94K79BA73Er.jpg",
+      "description": "Indépendante, toujours fidèle à ce qu'elle ressent, Sophie Marceau fait entendre sa voix dans ce beau portrait documentaire composé d'extraits de films, de tournage et de pertinentes archives d'interviews.",
       "releaseInfo": "2026"
     },
     {
@@ -158,24 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/bPzzOvbar1Oj8PjBL6pjjo8Wtov.jpg",
       "background": "https://image.tmdb.org/t/p/w780/35yMXTzfy5Mo6TBX5x3rrntk6rC.jpg",
       "description": "À la stupéfaction de ses parents, Carly Greenwood, 17 ans, accouche après un déni de grossesse. Pour préserver leur image, et la campagne municipale de Don, candidat à la mairie de Brookside, la famille fait passer Luna pour un bébé adopté, espérant ainsi obtenir le soutien de l'influent pasteur David. Carly refuse de dire la vérité, même à son ex-petit ami Marcus, malgré la pression de sa mère, Suzanne. Mais la rumeur enfle et finit par éclater. On découvre que le véritable père de l'enfant est Brayton, le fils du pasteur. Lorsque Luna est enlevée, tout bascule...",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1680417",
-      "type": "movie",
-      "name": "Les murs ont des secrets",
-      "poster": "https://image.tmdb.org/t/p/w500/vRkE2B68FNJLsconGYXHOwIbWTU.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fSjnw0xMhxuxGus7FSs9iqqNuoA.jpg",
-      "description": "Après une enfance difficile, Daisy a enfin trouvé un équilibre. Avec son mari, Chris, elle rénove et revend des maisons et elle attend un enfant. Par ailleurs, elle a auprès d'elle sa meilleure amie, Louise. Mais un soir, Chris fait une chute mortelle depuis la fenêtre de la maison qu'il rénovait. Le choc provoque la naissance difficile du petit James et les problèmes s'enchaînent pour Daisy qui va même se voir soupçonnée du meurtre. Car oui, Chris a été assassiné...",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1495473",
-      "type": "movie",
-      "name": "Le danger est à ma porte",
-      "poster": "https://image.tmdb.org/t/p/w500/g93BaJnW9LNZVv90XXbvhZW0W5z.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tqw8P7glEkOLYaDj029tU1P3Qb3.jpg",
-      "description": "Sarah accepte à contrecœur de se rendre à un speed dating où elle matche avec Jack, veuf comme elle, qui s'avère être son nouveau voisin d'en face. Mais un meurtre vient aussitôt obscurcir leur idylle naissante et Sarah ne tarde pas à soupçonner Jack lui-même. Elle décide de mener discrètement l'enquête et de se confier à Luna, sa meilleure amie, qui finira par révéler sa face cachée : celle d'une meurtrière sans scrupules et sans remors.",
       "releaseInfo": "2026"
     }
   ]

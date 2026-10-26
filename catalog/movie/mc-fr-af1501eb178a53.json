@@ -5,7 +5,7 @@
       "type": "movie",
       "name": "Verity",
       "poster": "https://image.tmdb.org/t/p/w500/zLCjFOyjvKqYdkQYYAyTtfJ5mpk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3BoHXmGAfC2qO4wnCpMYV0BzpHD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9qxyrJfjk577ym5WD6HCDmunoyO.jpg",
       "description": "Lorsqu’un accident affecte les capacités de l’autrice de bestsellers, Verity Crawford, à achever son œuvre, une écrivaine solitaire, Lowen Ashleigh, qui peine à joindre les deux bouts est engagée pour lui prêter sa plume. En résidence dans la propriété reculée de la romancière, elle fait la découverte d’un manuscrit autobiographique glaçant et peine à démêler ce qui relève de la fiction ou de la réalité…",
       "releaseInfo": "2026"
     },
@@ -25,6 +25,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/yZINaQysj32K2DS2EW4Iy1bK4Bm.jpg",
       "background": "https://image.tmdb.org/t/p/w780/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg",
       "description": "Lorsqu’un mystérieux événement cosmique arrache Oak Street à sa paisible banlieue et la transporte vers un lieu inconnu, la famille Platt, désorientée dans ce nouvel environnement hostile, comprend vite qu’il leur faudra rester unis pour survivre.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:675871",
+      "type": "movie",
+      "name": "Super Troopers 3",
+      "poster": "https://image.tmdb.org/t/p/w500/hOAjBggD7zWat7nqt7dUUDH5ZRG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rAeT8K51JJJomj0M7WGPC8jt4yi.jpg",
+      "description": "Dans le Vermont, près de la frontière canadienne, cinq officiers de police, Thorny, Farva, Mac, Foster et Rabbit, tentent tant bien que mal de faire respecter l'ordre.",
       "releaseInfo": "2026"
     },
     {
@@ -88,6 +97,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/5GjWHaN6XW9RbeUqqYbzfKSThqX.jpg",
       "background": "https://image.tmdb.org/t/p/w780/a8uQvrplTkhGJQog6GZ6CqF8An6.jpg",
       "description": "Lorsque son fermier bien-aimé est retrouvé mort dans des circonstances mystérieuses, un troupeau de moutons conclut qu'il devra résoudre le meurtre lui-même. Cette quête l'oblige à quitter son pâturage pour la première fois et à se confronter à une réalité brutale : le monde des humains est bien plus complexe qu'il y paraît dans les livres.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1364953",
+      "type": "movie",
+      "name": "Mārama",
+      "poster": "https://image.tmdb.org/t/p/w500/5roy1hr44AWZtzF8Nr85dVxntig.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/c4w0cHapoKndfq4fXnDoUyW90Xd.jpg",
+      "description": "Dans les landes désolées du Yorkshire du Nord en 1859 à l’époque de l’Angleterre victorienne, Mary Stevens, une femme māorie en quête de vérité sur ses origines, rejoint le manoir Hawkser. Entre les couloirs lugubres, apparaissent alors d’ancestrales visions qui révèlent peu à peu un mystère terrifiant.",
       "releaseInfo": "2026"
     },
     {
@@ -160,24 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
       "background": "https://image.tmdb.org/t/p/w780/seuG9UslSFybML8C4enbrE6Hsyz.jpg",
       "description": "Les étoiles ne sont plus. Les planètes ont disparu. Seuls quelques individus subsistent, à bord de stations spatiales ou de vaisseaux errants. Ils ont survécu pour assister à la fin — et lui donner un nom : « Le Rapt silencieux ». Après des années de déclin et d’infrastructures en perdition, l’Iron Consolidation fait une découverte sur une lune désolée, AT-5. Un océan de sang. L’Iron Consolidation lance immédiatement une expédition, avec l’espoir d’y trouver des ressources cruciales. Un sous-marin est construit, et un condamné y est enfermé. En raison de la pression et de la profondeur de l’océan, l’hublot frontal du sous-marin est masqué par un bouclier de métal. S’il s’en sort, il gagnera sa liberté. Sinon, un autre suivra.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1168190",
-      "type": "movie",
-      "name": "Team Démolition",
-      "poster": "https://image.tmdb.org/t/p/w500/ec0bwYUEYBhcHutx4nIShLzX7Dl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cz4vLJrmaV1zJlRYbxqtvLzeLWB.jpg",
-      "description": "Deux demi-frères brouillés, Jonny et James, se réunissent après la mort mystérieuse de leur père. Durant leur quête de la vérité, des secrets enfouis révèlent un complot qui menace de détruire leur famille.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:680493",
-      "type": "movie",
-      "name": "Retour à Silent Hill",
-      "poster": "https://image.tmdb.org/t/p/w500/A0eYqBMVdcM6RLpDpLZuKMLpdKS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/v0NEB75SZjxY8GS3ho8WeEvjIT3.jpg",
-      "description": "Lorsqu’il reçoit une mystérieuse lettre de Mary, son amour perdu, James est attiré vers Silent Hill, une ville autrefois familière, aujourd’hui engloutie par les ténèbres. En partant à sa recherche, James affronte des créatures monstrueuses et découvre une vérité terrifiante qui le poussera aux limites de la folie.",
       "releaseInfo": "2026"
     }
   ]

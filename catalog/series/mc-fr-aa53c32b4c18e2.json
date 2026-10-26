@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:318918",
+      "type": "series",
+      "name": "LEGO One Piece",
+      "poster": "https://image.tmdb.org/t/p/w500/hTUHZ337JzqPvRXBQ3lu0GBkOvz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qA8U2ABepV5E2BcNIBcgUaFy4fM.jpg",
+      "description": "Les Chapeaux de paille lèvent l'ancre dans ce programme LEGO en deux parties ! Rejoignez Luffy, Nami, Usopp et l'équipage dans leur périple épique, réinventé brique par brique.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:305357",
       "type": "series",
       "name": "A Different World",
@@ -168,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/qeCmU79haciBBOBmOy7dJtbz95Y.jpg",
       "background": "https://image.tmdb.org/t/p/w780/oGORe3yzIPBueHVHroSmsaMVKDi.jpg",
       "description": "Contraints à la suite d'un chantage d'œuvrer pour des individus très dangereux, un frère et une sœur complètement bras cassés deviennent le duo le plus loufoque du crime organisé.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:250220",
-      "type": "series",
-      "name": "The Miniature Wife",
-      "poster": "https://image.tmdb.org/t/p/w500/ah763FJpttOTCcfxIK3dxXCoJvk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gQTjztsHxB7swHm6Dy2h8blukEi.jpg",
-      "description": "Un accident technologique pousse un couple marié à remettre en question l'équilibre de pouvoir dans leur relation. Ce qui commence comme une remise en question tourne vite à l'affrontement alors que chacun tente de reprendre le contrôle sur leur mariage.",
       "releaseInfo": "2026"
     }
   ]

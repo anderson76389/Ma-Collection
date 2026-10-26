@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:303745",
+      "type": "series",
+      "name": "L'amour sous couverture",
+      "poster": "https://image.tmdb.org/t/p/w500/xima3BlIJxlrONQgZ9mYuSLAq0f.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/32g5MD6eHPAZ5NAgkNAURb4eupm.jpg",
+      "description": "Yoon Yi-jun, successeur du groupe Taekang, est le principal suspect d'un terrible meurtre. Pour découvrir la vérité, l'inspectrice Kang Jae-hee s'infiltre auprès de lui en se faisant passer pour son secrétaire. Mais plus elle se rapproche de la vérité, plus ils se rapprochent l'un de l'autre. Entre Jae-hee sous couverture et Yi-jun qui cache un secret, pourront-ils s'avouer leurs sentiments ?",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:293607",
       "type": "series",
       "name": "100 jours en espionne",
@@ -160,15 +169,6 @@
       "name": "보검 매직컬",
       "poster": "https://image.tmdb.org/t/p/w500/ccBj5dmZW02PnSfHfWA6dzbRoq6.jpg",
       "background": "https://image.tmdb.org/t/p/w780/mOVLipsk9dpP31l72dmL0GQC5jf.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:293608",
-      "type": "series",
-      "name": "La mission de Miss Hong",
-      "poster": "https://image.tmdb.org/t/p/w500/nJ0gSaXfoiPFngy1ulCCuxsKt0q.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6yyKOxjQgb0C3I43T6qyXbieHni.jpg",
-      "description": "Une inspectrice d'élite au sein du Service de supervision financière infiltre une société de courtage en se faisant passer pour une jeune employée de 20 ans, suite à la détection de fonds suspects. Elle découvre le quotidien d'une employée débutante.",
       "releaseInfo": "2026"
     }
   ]

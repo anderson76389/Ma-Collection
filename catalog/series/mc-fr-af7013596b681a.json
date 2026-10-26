@@ -1,6 +1,32 @@
 {
   "metas": [
     {
+      "id": "tmdb:275139",
+      "type": "series",
+      "name": "Phony",
+      "poster": "https://image.tmdb.org/t/p/w500/iCyQc8cSSHkxUHbkvzbC77owALt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/g2r69hj61xfhMxnrYm8QyMs0gs1.jpg",
+      "description": "À son réveil après un accident de voiture, le lycéen Sonny Cooke trouve sa mère, Ellen, légèrement changée. Le problème, c'est qu'il est le seul à le remarquer et que personne ne le croit. Coincé avec cette femme qu'il soupçonne d'être un dangereux imposteur, Sonny tente de prouver qu'il n'est pas fou.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:286183",
+      "type": "series",
+      "name": "Hollywood Arts",
+      "poster": "https://image.tmdb.org/t/p/w500/xsL1ig6Tyi0j9AZPt23yZprslGS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2wjP481Z3G6NlXoUFutN5vcnqzC.jpg",
+      "description": "Les cours ont repris à Hollywood Arts ! L'icône autoproclamée Trina Vega revient pour guider des adolescents talentueux vers la gloire, entre ambition et chaos hilarant.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:313630",
+      "type": "series",
+      "name": "Eternally Yours",
+      "poster": "https://image.tmdb.org/t/p/w500/gMKJJtwOnTkhkbdQabyo7OKTosb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1bmsSexBYKUlkst0TgHZCdf4EvH.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:318918",
       "type": "series",
       "name": "LEGO One Piece",
@@ -32,7 +58,7 @@
       "type": "series",
       "name": "Youth",
       "poster": "https://image.tmdb.org/t/p/w500/2YD9VOcTn5J8vfESJ7hrhfxPyf5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7pwybpJ2VSqqWgxZHTYqzRz01qH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iEISXRsDv8Q2PA6i9cAQd2DH9bN.jpg",
       "description": "Alex a une carrière, une famille et une riche expérience de la vie, mais elle doit aussi faire face aux réalités de la cinquantaine, s'occuper de ses parents vieillissants, élever un fils adolescent en difficulté et essayer de déterminer s'il y a encore de la place pour la romance et l'excitation dans sa propre vie.",
       "releaseInfo": "2026"
     },
@@ -149,33 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/ourBbG4B1dAjfFUCzuUYEZpR101.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zoa11EvyuasC3j7PmH1QGftrSvf.jpg",
       "description": "Des membres de votre équipage ont été remplacés par un métamorphe extraterrestre déterminé à semer la confusion, à saboter le vaisseau et à tuer tout le monde. Éliminez l'imposteur ou devenez la victime de ses plans meurtriers.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:284725",
-      "type": "series",
-      "name": "Not Suitable for Work",
-      "poster": "https://image.tmdb.org/t/p/w500/gauhh2Gj0YaZKFR0XLrnRRKpjJE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nApVs1jPXXXBc7Ge2PnaFpBfCVW.jpg",
-      "description": "Cinq jeunes d'une vingtaine d'années obsédés par le travail se démènent pour réussir professionnellement et, s'ils en ont le temps, de trouver leur bonheur dans le quartier le plus glamour de Manhattan, Murray Hill.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:290295",
-      "type": "series",
-      "name": "Mating Season",
-      "poster": "https://image.tmdb.org/t/p/w500/5Pn7R2TtLka8OjsgtxAq4H2apjJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zaDTnGcq3F5LocdmHJLP3Mf0kII.jpg",
-      "description": "Cette délirante série d'animation comique pour adultes, sortie de l'esprit tordu des créateurs de \"Big Mouth\", parle de cœur, de sexe et de relations amoureuses… chez les animaux.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:285404",
-      "type": "series",
-      "name": "Plaisir maximum garanti",
-      "poster": "https://image.tmdb.org/t/p/w500/hFKOglPtEpknH7HZPwadBboDPci.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9mZlvYlGA4jblCvAvOpinrgn6hr.jpg",
-      "description": "Un maman récemment divorcée tombe dans une dangereuse spirale de chantage, meurtre et football pour les jeunes.",
       "releaseInfo": "2026"
     }
   ]

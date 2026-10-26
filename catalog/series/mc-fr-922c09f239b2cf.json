@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:335481",
+      "type": "series",
+      "name": "A Course Called Ireland",
+      "poster": "https://image.tmdb.org/t/p/w500/fqry4uxJuyFcSR3locllFwxES3K.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zh55w8Z9uYzLlaquhhrwmsgf6tT.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:334657",
       "type": "series",
       "name": "Finding Britain’s Slave Traders with David Olusoga",
@@ -155,14 +163,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/8q0QiK4uv0EH4fc2QCpWZOPhip1.jpg",
       "background": "https://image.tmdb.org/t/p/w780/sSVlOEH3FPzYojMe02iACfO61Wy.jpg",
       "description": "Cette série documentaire vise à retracer l'intégralité des 160 minutes les plus célèbres de l'histoire maritime, en racontant en temps réel l'histoire bouleversante du naufrage du Titanic. Des secondes cruciales précédant la collision avec l'iceberg jusqu'au moment où la coque sombre sous les flots, ce coffret reconstitue les événements, minute par minute, pour révéler précisément ce qui est arrivé aux 2 240 passagers et membres d'équipage les 14 et 15 avril 1912.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:306219",
-      "type": "series",
-      "name": "Civilisations: Rise and Fall",
-      "poster": "https://image.tmdb.org/t/p/w500/lrJHQZ3TYAL3kP35rmHRJKnoBl5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8AWEmUaKlldQDbU7cgqcEIP0YvP.jpg",
       "releaseInfo": "2025"
     }
   ]
