@@ -176,6 +176,7 @@ import {
       '<div class="mc-studio-scroll">'+(folders||'<p class="mc-studio-muted">Aucun dossier trouvé.</p>')+'</div>'+
       '<p class="mc-studio-hint">La sélection et le tri n’effacent aucune source. Le nom exporté est séparé du nom technique utilisé par le site.</p>'+
       (cat?button('Personnaliser l’affiche du dossier choisi','goto-art'):'')+
+      button('+ Créer un dossier TMDB','create-folder')+
       '</div></div>';
   }
   function renderArtwork(){
@@ -280,6 +281,15 @@ import {
     else if(a==='load-profile')choose(id);
     else if(a==='export')exportProfile();
     else if(a==='import')root.querySelector('[data-file]')?.click();
+    else if(a==='create-folder'){
+      if(window.MaCollectionCustomFolders?.open){
+        close();
+        window.MaCollectionCustomFolders.open();
+      }else{
+        message='La création de dossiers est indisponible. Recharge la page.';
+        draw();
+      }
+    }
     else if(a==='apply')apply();
     else if(a==='close')close();
   }
