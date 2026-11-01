@@ -1,7 +1,7 @@
 /**
  * Canaux partenaires locaux de Ma-Collection.
- * Les archives bêta Kaptain v0.90/v0.91/v0.92 sont retirées.
- * L'import Kaoxt est conservé sans requête vers un serveur Kaptain.
+ * Les anciennes préversions bêta v0.90/v0.91/v0.92 sont retirées.
+ * L'import Kaoxt est conservé sans requête vers un hébergement tiers historique.
  */
 window.MA_COLLECTION_TEST_CHANNELS = {
   // Collection partenaire Kaoxt — MDBList / AIO Metadata, conservée à l'identique
