@@ -1,5 +1,5 @@
 /**
- * Kaptain's Mega Collection — Nuvio Setup Wizard
+ * Ma-Collection — Assistant de configuration Nuvio et Kovelyx
  * ----------------------------------------------
  * A guided modal that lets a visitor either:
  *   1) Push their picked collection straight into their Nuvio account
@@ -812,7 +812,7 @@
     }
   }
 
-  // ----- FRIENDS OF KAPTAIN (creator packs: AIO Metadata catalogs as-is) -----
+  // ----- COLLECTIONS PARTENAIRES (creator packs: AIO Metadata catalogs as-is) -----
   function getActiveFriendPack() {
     const ch = window.MA_COLLECTION_TEST_CHANNEL;
     return (ch && ch.friendPack) ? ch.friendPack : null;
@@ -942,7 +942,7 @@
         const res = await fetch(host + 'api/config/save', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ config: aioConfig, password: 'kaptain-friend-pack' }),
+          body: JSON.stringify({ config: aioConfig, password: 'ma-collection-partners' }),
         });
         if (res.ok) return await res.json();
         lastErr = new Error(`AIO Metadata save failed on ${host} (HTTP ${res.status})`);
@@ -1166,7 +1166,7 @@
         const saveRes = await fetch(baseUrl + 'api/config/save', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ config: aioConfig, password: 'kaptain-collection-auto' })
+          body: JSON.stringify({ config: aioConfig, password: 'ma-collection-auto' })
         });
         const saveData = await saveRes.json();
         if (!saveData.success || !saveData.installUrl) {
@@ -1511,7 +1511,7 @@
     mdblistKeyWarned: false,   // shown the "no MDBList key pasted in" heads-up yet (AIO mode)
     _syncribulletUrlVerified: false,
     _lastSyncribulletUrlWarned: null,
-    // Friends of Kaptain (friendPack channel): Native AIO Metadata provision
+    // Collections partenaires (friendPack channel): Native AIO Metadata provision
     friendSetupStep: 'keys',   // 'keys' | 'bingecat'
     friendMdblistKey: '',
     friendAioInstance: 'auto',
@@ -2716,7 +2716,7 @@
         <div class="wiz-section" style="margin-top:12px;">
           <h4 style="margin:0 0 6px 0; font-size:1rem;">Editing Access</h4>
           <label class="wiz-label" style="margin-bottom:2px;">Config password <span class="wiz-hint">(optional)</span>
-            <input type="text" id="wiz-aio-streams-password" class="wiz-input" placeholder="KaptainsCollection" value="${escapeAttr(state.aioStreamsPassword || '')}" autocomplete="off" spellcheck="false">
+            <input type="text" id="wiz-aio-streams-password" class="wiz-input" placeholder="MaCollection" value="${escapeAttr(state.aioStreamsPassword || '')}" autocomplete="off" spellcheck="false">
           </label>
           <div class="wiz-note" style="margin-top:4px; font-size:0.75rem; opacity:0.75;">Lets you sign back into your AIO Streams config later without your Nuvio login.</div>
         <div class="wiz-note" style="margin-top:12px; padding:8px 12px; background:rgba(76,175,80,0.08); border:1px solid rgba(76,175,80,0.2); border-radius:6px; font-size:0.8rem; display:flex; align-items:center; gap:8px;">
@@ -2901,7 +2901,7 @@
     // `genreSelection`/`sort`/`order`/`cacheTTL`/`enableRatingPosters` were
     // dropped as an initial guess at fixing "Unavailable catalog" in Nuvio,
     // but a required `genre` extra turned out to be normal, already-working
-    // behavior in Kaptain's own live production catalogs too — so that
+    // behavior in the original production catalogs too — so that
     // wasn't the actual bug. Kept simplified since it's harmless, but the
     // real cause is still under investigation.
     const metadata = templateEntry.metadata ? { ...templateEntry.metadata } : {};
@@ -2942,7 +2942,7 @@
     // so they only ever need to remember one credential to self-edit this setup later.
     // Written back to state (even when defaulted) so the Done screen can show
     // exactly what was actually used, not just what the user typed.
-    const aioStreamsPassword = (state.aioStreamsPassword || '').trim() || 'KaptainsCollection';
+    const aioStreamsPassword = (state.aioStreamsPassword || '').trim() || 'MaCollection';
     state.aioStreamsPassword = aioStreamsPassword;
 
     // 0. Fetch the Studio's published catalog template (everything except
@@ -3806,7 +3806,7 @@
     const aioSelfServiceNote = (state.setupMode === 'aio' && state.aioStreamsUuid && state.aioStreamsHost) ? `
       <div class="wiz-donation-block">
         <p class="wiz-donation-lede">Want to fine-tune your AIO Streams config yourself later?</p>
-        <p class="wiz-donation-sub">Visit <a href="${escapeAttr(state.aioStreamsHost)}/configure" target="_blank" rel="noopener" class="wiz-link">${escapeHtml(state.aioStreamsHost)}/configure</a> and sign in with UUID <code class="wiz-inline-code">${escapeHtml(state.aioStreamsUuid)}</code> and password <code class="wiz-inline-code">${escapeHtml(state.aioStreamsPassword || 'KaptainsCollection')}</code> (save both, they won't be shown again).</p>
+        <p class="wiz-donation-sub">Visit <a href="${escapeAttr(state.aioStreamsHost)}/configure" target="_blank" rel="noopener" class="wiz-link">${escapeHtml(state.aioStreamsHost)}/configure</a> and sign in with UUID <code class="wiz-inline-code">${escapeHtml(state.aioStreamsUuid)}</code> and password <code class="wiz-inline-code">${escapeHtml(state.aioStreamsPassword || 'MaCollection')}</code> (save both, they won't be shown again).</p>
       </div>` : '';
 
     panel.innerHTML = `
@@ -4621,7 +4621,7 @@
       }
     }
     if (state.prefill) return applyPrefillAndFinish();
-    // Friends of Kaptain: skip Mega Native/AIO Streams fork — provision the
+    // Collections partenaires: skip Mega Native/AIO Streams fork — provision the
     // creator's AIO Metadata pack, then continue (or finish for collection-only).
     if (getActiveFriendPack()) {
       state.setupMode = 'native';
@@ -5204,7 +5204,7 @@
   }
 
   // ====================================================================
-  // FRIENDS OF KAPTAIN — Native AIO Metadata provision for creator packs
+  // COLLECTIONS PARTENAIRES — Native AIO Metadata provision for creator packs
   // ====================================================================
   function renderFriendSetup(panel) {
     const step = state.friendSetupStep || 'keys';
