@@ -14,6 +14,7 @@ import {
   let profiles=[],draft=null,applied=null,originals=null,root=null;
   let tab='organisation',selectedSection='',selectedFolder='',query='',message='';
   let dragging=null;
+  let artLookIndex=0, artSearch='', artMoreOnly=false, artNeedsAttention=false, showBatch=false;
   const findCategory=id=>data().find(c=>String(c.id)===String(id));
   const findFolder=(cid,fid)=>findCategory(cid)?.folders?.find(f=>folderId(f)===String(fid));
   const section=()=>draft?.sections.find(c=>c.id===selectedSection);
@@ -181,6 +182,73 @@ import {
       button('+ Créer un dossier TMDB','create-folder')+
       '</div></div>';
   }
+
+  function availableLooks(custom, real) {
+    const items=[],seen=new Set();
+    function add(url,label) {
+      if(!url || seen.has(url))return;
+      seen.add(url);items.push({url,label});
+    }
+    add(custom?.artwork?.coverImageUrl,'Affiche sélectionnée');
+    add(originals?.[custom?.id]?.coverImageUrl || real?.coverImageUrl,'Affiche d’origine');
+    for(const entry of custom?.looks||[])add(entry.url,entry.label||'Variante personnelle');
+    return items;
+  }
+  function artRowFolders() {
+    let rows=section()?.folders||[];
+    if(artSearch)rows=rows.filter(f=>f.label.toLocaleLowerCase().includes(artSearch.toLocaleLowerCase()));
+    if(artMoreOnly)rows=rows.filter(f=>availableLooks(f,findFolder(selectedSection,f.id)).length>1);
+    if(artNeedsAttention)rows=rows.filter(f=>!f.artwork.coverImageUrl);
+    return rows;
+  }
+  function artTheater(f,real) {
+    const choices=availableLooks(f,real);
+    artLookIndex=Math.min(Math.max(artLookIndex,0),Math.max(choices.length-1,0));
+    const current=choices[artLookIndex],rows=artRowFolders();
+    const count=section()?.folders.length||0;
+    const toolbar='<div class="mc-studio-art-toolbar">'+
+      '<label class="mc-studio-field">Section<select data-art-section>'+
+      draft.sections.map(c=>'<option value="'+esc(c.id)+'" '+(c.id===selectedSection?'selected':'')+'>'+esc(c.label)+'</option>').join('')+
+      '</select></label>'+
+      '<label class="mc-studio-field">Trouver un dossier<input type="search" data-art-search placeholder="Netflix, saga, studio…" value="'+esc(artSearch)+'"></label>'+
+      '<label class="mc-studio-check"><input data-art-other type="checkbox" '+(artMoreOnly?'checked':'')+'> Autres affiches</label>'+
+      '<label class="mc-studio-check"><input data-art-needs type="checkbox" '+(artNeedsAttention?'checked':'')+'> À compléter</label>'+
+      button('Style de toute la section ('+count+')','batch-open')+
+      '</div>';
+    const searchResults='<div class="mc-studio-art-nav" aria-label="Dossiers de la section">'+
+       rows.slice(0,130).map(row=>button(row.label,'art-folder','data-id="'+esc(row.id)+'" class="'+(row.id===selectedFolder?'active':'')+'"')).join('')+
+       (rows.length>130?'<span class="mc-studio-muted">Affinez la recherche pour voir les autres dossiers.</span>':'')+
+       '</div>';
+    const theater='<div class="mc-studio-theater">'+
+      '<div class="mc-studio-theater-title"><div><strong>'+esc(f.label)+'</strong><small>'+esc(section()?.label||'')+
+      ' · Visuel '+(choices.length?artLookIndex+1:0)+' sur '+choices.length+'</small></div>'+
+      '<label class="mc-studio-check"><input type="checkbox" data-flag="focusGifEnabled" '+(f.focusGifEnabled?'checked':'')+'> Animations</label></div>'+
+      '<div class="mc-studio-stage">'+
+      button('‹','art-prev','aria-label="Affiche précédente" '+(choices.length<2?'disabled':''))+
+      (current?'<img src="'+esc(current.url)+'" alt="Affiche '+esc(current.label)+'" class="mc-studio-stage-image" loading="lazy">':
+         '<div class="mc-studio-stage-empty">Aucune affiche disponible</div>')+
+      button('›','art-next','aria-label="Affiche suivante" '+(choices.length<2?'disabled':''))+
+      '</div>'+
+      '<div class="mc-studio-gallery-pips">'+choices.map((item,i)=>'<button type="button" data-action="art-select" data-id="'+i+
+      '" aria-label="Choisir '+esc(item.label)+'" class="'+(i===artLookIndex?'active':'')+'"></button>').join('')+'</div>'+
+      '<div class="mc-studio-gallery-actions">'+
+      button('🔗 Ajouter mon image','art-add')+
+      button('Utiliser cette affiche','art-use',''+(!current?'disabled':''))+
+      button('Retirer la variante ajoutée','art-remove',''+(!current||!(f.looks||[]).some(x=>x.url===current.url)?'disabled':''))+
+      '</div>'+
+      '<p class="mc-studio-hint">Les variantes sont de vrais fichiers Ma-Art ou des URL HTTPS ajoutées par toi. La sélection sera exportée vers Kovelyx/Nuvio après application du profil. Aucun lien vers Kaptain.</p>'+
+      '</div>';
+    const batch=showBatch?'<div class="mc-studio-batch"><strong>Appliquer des réglages à toute la section : '+esc(section()?.label||'')+'</strong>'+
+      '<p class="mc-studio-hint">Les '+count+' dossiers gardent chacun leur propre affiche et leurs sources. Seuls les réglages ci-dessous changent.</p>'+
+      '<div class="mc-studio-batch-options"><label class="mc-studio-field">Format<select data-batch-shape>'+
+      STUDIO_SHAPES.map(k=>'<option value="'+k+'">'+esc(k)+'</option>').join('')+'</select></label>'+
+      '<label class="mc-studio-check"><input type="checkbox" data-batch-title> Masquer les titres</label>'+
+      '<label class="mc-studio-check"><input type="checkbox" data-batch-glow> Lueur au focus</label>'+
+      '<label class="mc-studio-check"><input type="checkbox" data-batch-motion> Activer les animations déjà présentes</label>'+
+      '</div>'+button('Appliquer les réglages de la section','batch-apply')+button('Annuler','batch-close')+'</div>':'';
+    return toolbar+searchResults+theater+batch;
+  }
+
   function renderArtwork(){
     const s=section(),f=folder(),orig=findFolder(s?.id,f?.id);
     if(!f||!orig)return '<p class="mc-studio-hint">Sélectionne d’abord un dossier dans Organisation.</p>';
@@ -197,7 +265,7 @@ import {
     ].map(([key,label,tip])=>'<label class="mc-studio-field">'+esc(label)+
        '<input type="url" data-art="'+key+'" value="'+esc(f.artwork[key]||'')+'" placeholder="https://ma-art.mailpromahe.workers.dev/media/...">'+
        '<small>'+esc(tip)+'</small></label>').join('');
-    return '<div class="mc-studio-art-layout"><div class="mc-studio-art-preview">'+
+    return '<div class="mc-studio-artwork-screen">'+artTheater(f,orig)+'<div class="mc-studio-art-layout"><div class="mc-studio-art-preview">'+
       (f.artwork.heroBackdropUrl?'<img class="mc-studio-hero" src="'+esc(f.artwork.heroBackdropUrl)+'" alt="Fond du dossier">':'')+
       (f.artwork.coverImageUrl?'<img class="mc-studio-cover" src="'+esc(f.artwork.coverImageUrl)+'" alt="Couverture du dossier">':'<div class="mc-studio-no-cover">Aucune affiche</div>')+
       (f.artwork.titleLogoUrl?'<img class="mc-studio-title-logo" src="'+esc(f.artwork.titleLogoUrl)+'" alt="Logo du titre">':'')+
@@ -213,7 +281,7 @@ import {
       '<div class="mc-studio-heading"><strong>Sources de ce dossier</strong>'+badge(f.selectedKeys.length+'/'+(orig.sources||[]).length)+'</div>'+
       '<div class="mc-studio-sources">'+sources+'</div>'+
       '<p class="mc-studio-hint">Seules les URL HTTPS d’images sont acceptées. Pour rester autonome, privilégie tes propres images Ma-Art. Les changements restent dans ce brouillon jusqu’à « Appliquer ».</p>'+
-      '</div></div>';
+      '</div></div></div>';
   }
   function renderProfiles(){
     const p=profiles.map(x=>'<div class="mc-studio-saved"><div><strong>'+esc(x.name)+'</strong><small>'+esc(x.sections.length)+' sections · '+esc((x.updatedAt||'').slice(0,10))+'</small></div>'+
