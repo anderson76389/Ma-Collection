@@ -66,6 +66,9 @@ await test('affiches, sources, format et titre personnalisables',async()=>{
   await page.locator('[data-source]').first().uncheck();
   const rest=await page.locator('[data-source]:checked').count();
   assert.equal(rest,count-1);
+  // Rétablir la source après avoir testé le bouton ; sinon Spotlight peut
+  // disparaître de l'export lorsqu'il n'a qu'une seule source.
+  await page.locator('[data-source]').first().check();
   const art=await page.locator('[data-art]').count();
   assert.equal(art,4);
   await page.locator('[data-flag=focusGlowEnabled]').check();
