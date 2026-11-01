@@ -256,6 +256,13 @@
     window.initializeDatabase = function () {
       const result = originalInitialize.apply(this, arguments);
       hydrate();
+      // Le site affiche la prévisualisation dès le chargement : actualiser
+      // celle-ci uniquement si le navigateur possède déjà des préférences.
+      if (Object.keys(loadOverrides()).length &&
+          typeof renderPreviewCollection === 'function' &&
+          typeof isPreviewActive !== 'undefined' && isPreviewActive) {
+        renderPreviewCollection();
+      }
       return result;
     };
   }
