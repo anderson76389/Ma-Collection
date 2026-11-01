@@ -51,3 +51,14 @@ test('studio, acteur et réseau restent des catalogues TMDB valides',()=>{
   assert.equal(s.api.createSource(record({type:'NETWORK'})).filters.withNetworks,'645');
   assert.equal(s.api.createSource(record({type:'STREAMING'})).filters.watchRegion,'FR');
 });
+
+test('affiches Ma-Art et TMDB autorisées sans dépendance aux anciens serveurs',()=>{
+  const s=session();
+  assert(s.api.validateRecord(record({
+    coverImageUrl:'https://ma-art.mailpromahe.workers.dev/media/test.webp',
+    heroBackdropUrl:'https://image.tmdb.org/t/p/w500/test.jpg'
+  })));
+  assert.equal(s.api.validateRecord(record({
+    coverImageUrl:'https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/test.png'
+  })),null);
+});
