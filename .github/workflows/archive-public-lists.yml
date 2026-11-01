@@ -13,7 +13,7 @@ permissions:
   contents: write
 concurrency:
   group: ma-collection-public-list-archives
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   snapshot:
     runs-on: ubuntu-24.04
@@ -40,6 +40,7 @@ jobs:
             git add -- data/catalogue-archives/tmdb/
             if ! git diff --cached --quiet; then
               git commit -m 'Archive des identifiants des listes TMDB publiques [skip ci]'
+              git pull --rebase origin "$GITHUB_REF_NAME"
               git push
             fi
           fi
