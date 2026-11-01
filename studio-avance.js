@@ -141,6 +141,7 @@ import {
     if(!data().length){if(typeof window.showToast==='function')window.showToast('Collections non chargées. Réessaie.','error');return;}
     if(!originals)originals=originalsFor(data());
     load();draft=getBase();pickSection();tab='organisation';query='';message='';
+    artLookIndex=0;artSearch='';artMoreOnly=false;artNeedsAttention=false;showBatch=false;
     if(!root)mount();
     root.hidden=false;draw();document.addEventListener('keydown',onEscape,true);
     root.querySelector('.mc-studio-close')?.focus();
@@ -277,7 +278,8 @@ import {
       '<div class="mc-studio-art-options"><label class="mc-studio-field">Format<select data-shape>'+
       STUDIO_SHAPES.map(v=>'<option value="'+v+'" '+(f.shape===v?'selected':'')+'>'+({POSTER:'Affiche verticale',LANDSCAPE:'Paysage',SQUARE:'Carré'}[v])+'</option>').join('')+
       '</select></label><label class="mc-studio-check"><input type="checkbox" data-flag="hideTitle" '+(f.hideTitle?'checked':'')+'> Masquer le titre</label>'+
-      '<label class="mc-studio-check"><input type="checkbox" data-flag="focusGlowEnabled" '+(f.focusGlowEnabled?'checked':'')+'> Lueur de sélection</label></div>'+
+      '<label class="mc-studio-check"><input type="checkbox" data-flag="focusGlowEnabled" '+(f.focusGlowEnabled?'checked':'')+'> Lueur de sélection</label>'+
+      '<label class="mc-studio-check"><input type="checkbox" data-flag="focusGifEnabled" '+(f.focusGifEnabled?'checked':'')+'> Activer le GIF existant</label></div>'+
       '<div class="mc-studio-heading"><strong>Sources de ce dossier</strong>'+badge(f.selectedKeys.length+'/'+(orig.sources||[]).length)+'</div>'+
       '<div class="mc-studio-sources">'+sources+'</div>'+
       '<p class="mc-studio-hint">Seules les URL HTTPS d’images sont acceptées. Pour rester autonome, privilégie tes propres images Ma-Art. Les changements restent dans ce brouillon jusqu’à « Appliquer ».</p>'+
@@ -315,6 +317,14 @@ import {
     const el=e.target;
     try{
       if(el.matches('[data-search]')){query=el.value;draw();root.querySelector('[data-search]')?.focus();return;}
+      if(el.matches('[data-art-section]')){
+        pickSection(el.value);artLookIndex=0;artSearch='';showBatch=false;draw();return;
+      }
+      if(el.matches('[data-art-search]')){
+        artSearch=el.value;draw();root.querySelector('[data-art-search]')?.focus();return;
+      }
+      if(el.matches('[data-art-other]')){artMoreOnly=el.checked;draw();return;}
+      if(el.matches('[data-art-needs]')){artNeedsAttention=el.checked;draw();return;}
       if(el.matches('[data-section-toggle]')){const item=draft.sections.find(x=>x.id===el.dataset.sectionToggle);if(item)setCategoryEnabled(item,el.checked);return;}
       if(el.matches('[data-folder-toggle]')){const f=section()?.folders.find(x=>x.id===el.dataset.folderToggle);if(f){f.enabled=el.checked;if(f.enabled&&!f.selectedKeys.length)f.selectedKeys=(findFolder(section().id,f.id)?.sources||[]).map(sourceKey);}draw();return;}
       if(el.matches('[data-section-label]')){section().label=cleanLabel(el.value);draw();return;}
@@ -339,6 +349,66 @@ import {
     if(a==='section'){pickSection(id);query='';draw();}
     else if(a==='folder'){selectedFolder=id;tab='affiches';draw();}
     else if(a==='goto-art'){tab='affiches';draw();}
+    else if(a==='art-folder'){
+      if(section()?.folders.some(f=>f.id===id)){selectedFolder=id;artLookIndex=0;draw();}
+    }
+    else if(a==='art-prev'||a==='art-next'){
+      const looks=availableLooks(folder(),findFolder(selectedSection,selectedFolder));
+      if(looks.length>1)artLookIndex=(artLookIndex+(a==='art-next'?1:-1)+looks.length)%looks.length;
+      draw();
+    }
+    else if(a==='art-select'){
+      const i=Number(id),looks=availableLooks(folder(),findFolder(selectedSection,selectedFolder));
+      if(Number.isInteger(i)&&i>=0&&i<looks.length){artLookIndex=i;draw();}
+    }
+    else if(a==='art-add'){
+      const f=folder();if(!f)return;
+      const input=window.prompt('Adresse HTTPS de ta nouvelle affiche (Ma-Art recommandé) :','https://ma-art.mailpromahe.workers.dev/media/');
+      if(input===null)return;
+      try{
+        const url=assetUrl(input);
+        if(!url)throw Error('Adresse vide.');
+        f.looks ||= [];
+        if(!f.looks.some(x=>x.url===url))f.looks.push({label:'Image personnelle '+(f.looks.length+1),url});
+        const look=availableLooks(f,findFolder(selectedSection,selectedFolder));
+        artLookIndex=look.findIndex(x=>x.url===url);
+        message='Image ajoutée au brouillon. Utilise « Utiliser cette affiche » pour la sélectionner.';
+      }catch(e){message='Lien refusé : '+e.message;}
+      draw();
+    }
+    else if(a==='art-use'){
+      const f=folder(),items=availableLooks(f,findFolder(selectedSection,selectedFolder));
+      if(!f||!items[artLookIndex])return;
+      f.artwork.coverImageUrl=items[artLookIndex].url;
+      artLookIndex=0;
+      message='Affiche choisie. Applique ensuite le profil pour l’utiliser dans l’export.';
+      draw();
+    }
+    else if(a==='art-remove'){
+      const f=folder(),items=availableLooks(f,findFolder(selectedSection,selectedFolder));
+      if(!f||!items[artLookIndex])return;
+      f.looks=(f.looks||[]).filter(x=>x.url!==items[artLookIndex].url);
+      artLookIndex=0;message='Variante retirée de ce profil, sans supprimer le fichier original.';draw();
+    }
+    else if(a==='batch-open'){showBatch=true;draw();}
+    else if(a==='batch-close'){showBatch=false;draw();}
+    else if(a==='batch-apply'){
+      const sec=section();if(!sec)return;
+      const shape=root.querySelector('[data-batch-shape]')?.value;
+      if(!STUDIO_SHAPES.includes(shape))return;
+      const hide=!!root.querySelector('[data-batch-title]')?.checked;
+      const glow=!!root.querySelector('[data-batch-glow]')?.checked;
+      const motion=!!root.querySelector('[data-batch-motion]')?.checked;
+      for(const folder of sec.folders){
+        folder.shape=shape;
+        folder.hideTitle=hide;
+        folder.focusGlowEnabled=glow;
+        folder.focusGifEnabled=motion && !!folder.artwork.focusGifUrl;
+      }
+      showBatch=false;
+      message='Réglages appliqués aux '+sec.folders.length+' dossiers du brouillon. Chaque affiche est préservée.';
+      draw();
+    }
     else if(a==='section-up'||a==='section-down')move(draft.sections,id,a==='section-up'?-1:1);
     else if(a==='folder-up'||a==='folder-down')move(section().folders,id,a==='folder-up'?-1:1);
     else if(a==='original-art'){
