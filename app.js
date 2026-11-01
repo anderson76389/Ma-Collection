@@ -4425,6 +4425,12 @@ function dismissChangelogBanner() {
 let seExpanded = new Set();            // folder keys currently expanded
 let seAddons = null;                   // [{name,url,note,checked}] addon checklist
 const seSettings = { profileName: '', avatarUrl: '', allDebridKey: '', realDebridKey: '', tmdbKey: '', mdblistKey: '' };
+window.MaCollectionStudioAdapter = {
+  applySettings(name, avatarUrl) {
+    if (typeof name === 'string' && name.trim()) seSettings.profileName = name.trim();
+    if (typeof avatarUrl === 'string') seSettings.avatarUrl = avatarUrl;
+  }
+};
 // Basic hides the API-key and custom-manifest fields. This panel is the
 // "advanced" surface by design, but landing on six key fields is still the
 // wrong first impression for someone who only wanted to tick some scrapers.
