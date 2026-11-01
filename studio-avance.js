@@ -120,6 +120,7 @@ import {
       if(!originals)originals=originalsFor(data());
       // Validation terminée avant mutation. Retour au site avec les mêmes identifiants.
       applied=applyDraft(safe,data(),selections(),originals);
+      if(safe.syncQuickEditor) window.MaCollectionStudioAdapter?.applySettings?.(safe.name,safe.avatarUrl);
       if(typeof window.onCollectionEdited==='function')window.onCollectionEdited();
       if(typeof window.switchCategory==='function')window.switchCategory(-2);
       if(typeof window.hideTitleScreen==='function')window.hideTitleScreen();
@@ -221,6 +222,7 @@ import {
     return '<div class="mc-studio-profile-layout"><div class="mc-studio-column"><div class="mc-studio-heading"><strong>Profil en cours</strong></div>'+
       '<label class="mc-studio-field">Nom du profil<input type="text" data-profile-name maxlength="60" value="'+name+'"></label>'+
       '<label class="mc-studio-field">Avatar du profil (facultatif)<input type="url" data-avatar value="'+avatar+'" placeholder="URL HTTPS de l’avatar"></label>'+
+      '<label class="mc-studio-check"><input type="checkbox" data-sync-quick '+(draft.syncQuickEditor?'checked':'')+'> Reporter le nom et l’avatar dans les réglages de l’éditeur rapide lors de l’application</label>'+
       (avatar?'<img class="mc-studio-avatar" src="'+avatar+'" alt="Avatar du profil">':'')+
       '<div class="mc-studio-actions-grid">'+button('Nouveau profil','new')+button('Dupliquer','duplicate')+button('Enregistrer','save')+
       button('Supprimer le profil','delete')+button('Annuler le brouillon','reset')+'</div>'+
@@ -251,6 +253,7 @@ import {
       if(el.matches('[data-folder-label]')){folder().label=cleanLabel(el.value);draw();return;}
       if(el.matches('[data-profile-name]')){draft.name=cleanLabel(el.value,60);draw();return;}
       if(el.matches('[data-avatar]')){draft.avatarUrl=assetUrl(el.value);draw();return;}
+      if(el.matches('[data-sync-quick]')){draft.syncQuickEditor=el.checked;draw();return;}
       if(el.matches('[data-art]')){folder().artwork[el.dataset.art]=assetUrl(el.value);draw();return;}
       if(el.matches('[data-shape]')){if(STUDIO_SHAPES.includes(el.value))folder().shape=el.value;draw();return;}
       if(el.matches('[data-flag]')){folder()[el.dataset.flag]=el.checked;draw();return;}
