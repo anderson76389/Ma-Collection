@@ -39,7 +39,7 @@ export function captureDraft(categories, selection, name = 'Mon profil') {
   const selected = plain(selection) ? selection : {};
   return {
     schema: STUDIO_SCHEMA, id: uid(), name: cleanLabel(name,60),
-    updatedAt: new Date().toISOString(), avatarUrl: '',
+    updatedAt: new Date().toISOString(), avatarUrl: '', syncQuickEditor: false,
     sections: (categories || []).map(cat => ({
       id: String(cat.id || ''),
       label: String(cat.title || ''),
@@ -92,7 +92,7 @@ export function validateDraft(input, catalogue) {
     id:/^mc-[a-z0-9]{8,30}$/.test(String(input.id||''))?input.id:uid(),
     name:cleanLabel(input.name||'Profil importé',60),
     updatedAt:new Date().toISOString(),
-    avatarUrl:assetUrl(input.avatarUrl||''),sections
+    avatarUrl:assetUrl(input.avatarUrl||''),syncQuickEditor:!!input.syncQuickEditor,sections
   };
 }
 const order = (array, ids, getter) => {
