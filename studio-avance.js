@@ -324,6 +324,17 @@ import {
     card.addEventListener('click',open);
     card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();open();}});
   }
-  function bootstrap(){insertCard();window.MaCollectionStudio={open,decorateExport(collections){return applied?decorateExport(collections,applied):collections}};}
+  function bootstrap(){
+    insertCard();
+    document.getElementById('se-studio')?.addEventListener('click',open);
+    // Le bandeau cinématique est reconstruit à chaque navigation : délégation stable.
+    document.addEventListener('click',e=>{
+      if(e.target.closest('#preview-studio'))open();
+    });
+    window.MaCollectionStudio={
+      open,
+      decorateExport(collections){return applied?decorateExport(collections,applied):collections}
+    };
+  }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',bootstrap,{once:true});else bootstrap();
 })();
