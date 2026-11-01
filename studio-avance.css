@@ -108,3 +108,9 @@
 .mc-studio-batch-options .mc-studio-field{min-width:125px}
 .mc-studio-batch>button{justify-self:start}
 @media(max-width:500px){.mc-studio-art-toolbar .mc-studio-field{min-width:100%}.mc-studio-stage{gap:5px;min-height:160px}.mc-studio-stage-image{width:calc(100% - 90px);height:190px}.mc-studio-theater{padding:10px}.mc-studio-stage>button{width:34px;height:34px}}
+
+.mc-studio-profile-card{gap:12px;border:1px solid rgba(160,149,197,.17);border-radius:11px;margin:4px 0;padding:13px;background:rgba(133,117,165,.06)}
+.mc-studio-profile-picture,.mc-studio-profile-initial{flex:0 0 auto;width:47px;height:47px;border-radius:50%;object-fit:cover;border:2px solid rgba(170,144,235,.34)}
+.mc-studio-profile-initial{display:grid;place-items:center;background:var(--accent,#8754cf);font-size:1.2rem;font-weight:800;color:white}
+.mc-studio-profile-card>div{flex:1;min-width:0}
+.mc-studio-profile-card>button{white-space:nowrap}
