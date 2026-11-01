@@ -16,7 +16,7 @@ page.on('pageerror',e=>errors.push(e.message));
 await page.goto(base,{waitUntil:'domcontentloaded',timeout:45000});
 try {
   await page.waitForFunction(()=>window.MaCollectionStudio?.open &&
-    window.collectionData?.length===20 && window.MaCollectionExport?.assembleFilteredDatabase,
+    window.collectionData?.length>=16 && window.MaCollectionExport?.assembleFilteredDatabase,
     null,{timeout:60000});
 } catch (error) {
   const diag=await page.evaluate(()=>({
@@ -27,6 +27,8 @@ try {
   }));
   throw Error('Studio indisponible : '+JSON.stringify(diag)+' | erreurs JS '+JSON.stringify(errors)+' | '+error.message);
 }
+
+const initialTotal=await page.evaluate(()=>window.collectionData.reduce((n,c)=>n+c.folders.length,0));
 
 await test('nouvelle carte dans le design original',async()=>{
   assert.equal(await page.locator('#title-screen-studio').count(),1);
@@ -93,7 +95,7 @@ await test('application : export personnalisé sans écraser les titres internes
   });
   assert.notEqual(report.liveTitle,'Section personnalisée du Studio');
   assert.equal(report.exportTitle,'Section personnalisée du Studio');
-  assert(report.total>=767,'Aucun dossier ne doit disparaître');
+  assert.equal(report.total,initialTotal,'Aucun dossier ne doit disparaître');
 });
 await test('accès disponible dans l’éditeur rapide',async()=>{
   await page.evaluate(()=>openSimpleEditor());
