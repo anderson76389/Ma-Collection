@@ -77,6 +77,7 @@ await test('sauvegarde de plusieurs profils sans secret + export JSON',async()=>
   await page.locator('[data-tab=profils]').click();
   await page.locator('[data-profile-name]').fill('Profil Salon');
   await page.locator('[data-profile-name]').press('Tab');
+  await page.locator('[data-sync-quick]').check();
   await page.locator('[data-action=save]').click();
   const data=await page.evaluate(()=>JSON.parse(localStorage.getItem('ma_collection_studio_profiles_v1')||'[]'));
   assert.equal(data.length,1);
@@ -98,6 +99,7 @@ await test('application : export personnalisé sans écraser les titres internes
   });
   assert.notEqual(report.liveTitle,'Section personnalisée du Studio');
   assert.equal(report.exportTitle,'Section personnalisée du Studio');
+  assert.equal(await page.evaluate(()=>seSettings.profileName),'Profil Salon');
   assert.equal(report.total,initialTotal,'Aucun dossier ne doit disparaître');
 });
 await test('accès disponible dans l’éditeur rapide',async()=>{
