@@ -20,6 +20,19 @@
 
 > **Indépendance des médias vérifiée (22 octobre 2026) :** les 20 collections renvoient leurs visuels de dossiers vers Ma-Art Cloudflare : aucune des 23 anciennes références ImgBB/Prism/Discovery n'y reste. Les copies existantes sont conservées et le manifeste des 249 médias supplémentaires a été sécurisé. Les listes TMDB/Trakt, addons et services externes restent des dépendances distinctes. Aucun résultat ne garantit une indépendance Internet absolue. Consultez le **[rapport d'audit d'indépendance](docs/INDEPENDANCE.md)** pour les éléments validés et les limites restantes.
 
+## Sauvegardes et ressources locales
+
+Les polices Inter et Outfit de l’interface sont conservées localement, avec leurs
+licences et empreintes ; le design n’est pas modifié. Le contrôle de démarrage
+refuse les nouvelles dépendances de scripts, styles ou polices à un hébergeur tiers.
+
+Le workflow **Archiver les listes TMDB publiques en lecture seule** conserve des
+instantanés d’identifiants et de leur ordre sans modifier les collections actives.
+Le résultat effectif figure dans `data/catalogue-archives/tmdb/status.json` après
+exécution. Les listes Trakt et les addons restent des dépendances distinctes ;
+la copie de listes personnelles TMDB exige toujours l’autorisation d’écriture.
+Voir le [bilan complet d’indépendance](docs/INDEPENDANCE.md).
+
 ## ✨ Le projet
 
 **Ma-Collection** est un éditeur indépendant pour vos collections multimédias. Les données et l’interface sont conservées dans ce dépôt ; le projet inclut du code historique adapté et crédité en fin de document.

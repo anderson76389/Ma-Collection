@@ -1,6 +1,19 @@
-# Indépendance de Ma-Collection — audit mis à jour le 22 octobre 2026
+# Indépendance de Ma-Collection — audit mis à jour le 1er novembre 2026
 
 Objectif : conserver Ma-Collection et Ma-Art fonctionnels si ImKaptain supprime ses dépôts, ses images et son site. Ce document ne prétend pas supprimer toutes les dépendances Internet (TMDB, GitHub, Cloudflare, Trakt, MDBList ou addons).
+
+## Contrôles complémentaires du 1er novembre
+
+- Le code, les styles, les scripts et les fichiers de collection sont présents dans ce dépôt. Le contrôle hors réseau `scripts/audit-runtime-assets.mjs` parcourt **30 ressources de démarrage locales**, dont **9 fichiers de polices originaux**. Les fichiers Inter et Outfit servis auparavant par Google Fonts sont maintenant conservés octet pour octet dans `fonts/`, avec leur CSS, leurs empreintes et leurs licences OFL. Les familles, graisses, glyphes et la structure du site restent inchangés.
+- Les contrôles structurels actuels retrouvent **20 collections, 767 dossiers et 3 716 sources**, dont **2 793 références de visuels vers Ma-Art**. Aucun hébergement Kaptain actif n’est trouvé. Un nom d’ancien domaine dans un chemin d’archive Ma-Art n’est pas un appel à ce domaine.
+- Ma-Art dispose désormais d’un audit privé contre les SHA-256 historiques de chaque fichier, puis contre les octets du CDN existant, sans accepter les redirections. Le résultat du workflow privé fait foi ; une simple réponse HEAD 200 ne garantit pas l’intégrité. La construction statique refuse les copies manquantes ou corrompues avant une publication manuelle.
+- Les **262 identifiants distincts de listes TMDB** restent une dépendance au propriétaire de ces listes. Le workflow existant de copie vers notre compte échoue actuellement avec **TMDB 401 (36), accès en écriture refusé**. Il n’est pas présenté comme terminé et aucune liste active n’est remplacée sans vérification.
+- Une sauvegarde complémentaire **en lecture seule** archive les identifiants de films/séries des listes TMDB publiques, leur ordre et leur empreinte, dans `data/catalogue-archives/tmdb/`. Elle conserve les copies précédentes lorsqu’une liste devient indisponible et refuse de publier une liste privée ou tronquée. Le fichier `status.json` indique la couverture réellement obtenue. Ces instantanés permettent une restauration ultérieure ; ils ne transforment pas automatiquement les collections actives en listes personnelles ou en catalogues autonomes.
+- Les **364 références Trakt** et **13 sources d’addons** restent distinctes. Un instantané TMDB ne certifie pas le contenu des listes Trakt, et une correspondance d’identifiants n’est pas une preuve de contenu identique.
+
+Pour vérifier le site sans réseau : `node --test tests/runtime-assets.test.mjs tests/archive-tmdb-lists.test.mjs`, puis `node scripts/audit-runtime-assets.mjs`, `node scripts/audit-independance.mjs` et `node scripts/audit-kaptain-complet.mjs`.
+
+Pour restaurer l’interface sur un autre hébergement, conserver l’intégralité du dépôt, y compris `fonts/`, `assets/`, `collections/`, les scripts et les exports. Ma-Art doit être restauré séparément avec ses médias, ses manifestes et ses rapports d’intégrité. Les paramètres de compte et secrets ne doivent jamais être ajoutés aux archives publiques.
 
 ## Réalisé et vérifiable
 

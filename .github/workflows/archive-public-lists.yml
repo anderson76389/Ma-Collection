@@ -1,0 +1,50 @@
+name: Archiver les listes TMDB publiques en lecture seule
+on:
+  push:
+    branches: [main, fix/independence-assets-20261101]
+    paths:
+      - scripts/archive-tmdb-lists.mjs
+      - tests/archive-tmdb-lists.test.mjs
+      - .github/workflows/archive-public-lists.yml
+  workflow_dispatch: {}
+  schedule:
+    - cron: '29 4 * * 1'
+permissions:
+  contents: write
+concurrency:
+  group: ma-collection-public-list-archives
+  cancel-in-progress: false
+jobs:
+  snapshot:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Contrôler pagination, ordre et refus des listes privées
+        run: node --test tests/archive-tmdb-lists.test.mjs
+      - name: Lire uniquement les listes publiques référencées dans nos collections
+        id: archive
+        continue-on-error: true
+        env:
+          TMDB_V4_USER_ACCESS_TOKEN: ${{ secrets.TMDB_V4_USER_ACCESS_TOKEN }}
+        run: node scripts/archive-tmdb-lists.mjs
+      - name: Conserver les copies complètes sans remplacer les collections actives
+        if: always() && steps.archive.outcome != 'skipped'
+        run: |
+          if [[ -d data/catalogue-archives/tmdb ]]; then
+            git config user.name ma-collection-archive-bot
+            git config user.email actions@users.noreply.github.com
+            git add -- data/catalogue-archives/tmdb/
+            if ! git diff --cached --quiet; then
+              git commit -m 'Archive des identifiants des listes TMDB publiques [skip ci]'
+              git push
+            fi
+          fi
+      - name: Signaler un archivage incomplet
+        if: steps.archive.outcome == 'failure'
+        run: |
+          echo '::error::Certaines listes ne sont pas archivées ; les anciennes copies et les collections actives sont conservées.'
+          exit 1

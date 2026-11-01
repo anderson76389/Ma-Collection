@@ -1,0 +1,25 @@
+name: Vérifier l’autonomie du site et de ses polices
+on:
+  push:
+    branches: [main, fix/independence-assets-20261101]
+  pull_request:
+    branches: [main]
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Vérifier les ressources locales et leurs octets originaux
+        run: |
+          node --test tests/runtime-assets.test.mjs
+          node scripts/audit-runtime-assets.mjs
+          node scripts/audit-independance.mjs
+          node scripts/audit-kaptain-complet.mjs
+          node .github/scripts/qa-independance.mjs
