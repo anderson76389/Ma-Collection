@@ -105,3 +105,11 @@ test('Le format et le catalogue d’origine ne sont jamais modifiés par l’exp
   assert.deepEqual(sel['folder-a'],{'Nouveaux films':true,'Nouvelles séries':true});
   assert.equal(validateDraft(draft,data).sections.length,2);
 });
+
+test('La synchronisation optionnelle du nom/avatar n'est jamais activée par défaut',()=>{
+  const {data,sel}=fixture(),d=captureDraft(data,sel,'Salon');
+  assert.equal(d.syncQuickEditor,false);
+  d.syncQuickEditor=true;
+  const normalized=validateDraft(d,data);
+  assert.equal(normalized.syncQuickEditor,true);
+});
