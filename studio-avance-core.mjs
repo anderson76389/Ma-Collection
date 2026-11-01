@@ -49,7 +49,8 @@ export function captureDraft(categories, selection, name = 'Mon profil') {
         enabled:(f.sources||[]).some(s=>selected[folderId(f)]?.[sourceKey(s)]),
         selectedKeys:(f.sources||[]).filter(s=>selected[folderId(f)]?.[sourceKey(s)]).map(sourceKey),
         artwork:fields(f), shape:STUDIO_SHAPES.includes(f.tileShape)?f.tileShape:'LANDSCAPE',
-        hideTitle:!!f.hideTitle, focusGlowEnabled:!!f.focusGlowEnabled
+        hideTitle:!!f.hideTitle, focusGlowEnabled:!!f.focusGlowEnabled,
+        focusGifEnabled:!!f.focusGifEnabled, looks:[]
       }))
     }))
   };
@@ -78,7 +79,11 @@ export function validateDraft(input, catalogue) {
         id:fid,label:cleanLabel(row.label || f.title),
         enabled:row.enabled !== false,selectedKeys,
         artwork,shape:STUDIO_SHAPES.includes(row.shape)?row.shape:(f.tileShape||'LANDSCAPE'),
-        hideTitle:!!row.hideTitle,focusGlowEnabled:!!row.focusGlowEnabled
+        hideTitle:!!row.hideTitle,focusGlowEnabled:!!row.focusGlowEnabled,
+        focusGifEnabled:!!row.focusGifEnabled,
+        looks:(Array.isArray(row.looks)?row.looks.slice(0,24):[])
+          .map(item=>({label:cleanLabel(item?.label||'Image',40),url:assetUrl(item?.url||'')}))
+          .filter(item=>item.url)
       });
     }
     sections.push({
@@ -125,6 +130,7 @@ export function applyDraft(draft, categories, selection, originals = {}) {
       f.tileShape=p.shape;
       f.hideTitle=p.hideTitle;
       f.focusGlowEnabled=p.focusGlowEnabled;
+      f.focusGifEnabled=p.focusGifEnabled;
       // Ne remplace jamais l'objet window.selectedMap, déjà partagé avec les éditeurs.
       const target=sourceSelection[folderId(f)] ||= {};
       const keep=new Set(p.selectedKeys);
@@ -136,7 +142,7 @@ export function applyDraft(draft, categories, selection, originals = {}) {
 export function originalsFor(categories) {
   const result={};
   for(const c of categories||[])for(const f of c.folders||[]){
-    result[folderId(f)]={...fields(f),tileShape:f.tileShape,hideTitle:f.hideTitle,focusGlowEnabled:f.focusGlowEnabled};
+    result[folderId(f)]={...fields(f),tileShape:f.tileShape,hideTitle:f.hideTitle,focusGlowEnabled:f.focusGlowEnabled,focusGifEnabled:f.focusGifEnabled};
   }
   return result;
 }
