@@ -3644,10 +3644,12 @@ function assembleFilteredDatabase(optimize) {
     }
   });
 
-  if (window.MaCollectionImportStudio?.decorateCollections) {
-    return window.MaCollectionImportStudio.decorateCollections(customConfig);
-  }
-  return customConfig;
+  // Le Studio avancé ne décore que les exports explicitement appliqués.
+  // Les identifiants et titres techniques des collections actives restent inchangés.
+  const prepared = window.MaCollectionImportStudio?.decorateCollections
+    ? window.MaCollectionImportStudio.decorateCollections(customConfig) : customConfig;
+  return window.MaCollectionStudio?.decorateExport
+    ? window.MaCollectionStudio.decorateExport(prepared) : prepared;
 }
 
 // Gate any export/push behind the device & mobile-compatibility check.
