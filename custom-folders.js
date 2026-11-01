@@ -20,10 +20,17 @@
 
   function validateArtwork(value) {
     if (!value) return true;
-    const editor = window.MaCollectionArtworkEditor;
-    if (editor && typeof editor.validArtworkUrl === 'function') {
-      return editor.validArtworkUrl(value);
-    }
+    if (typeof value !== 'string' || value.length > 1700) return false;
+    try {
+      const url = new URL(value);
+      if (url.protocol !== 'https:' || url.username || url.password) return false;
+      if (url.hostname === 'ma-art.mailpromahe.workers.dev') {
+        return /^\/(?:media|collection-cards)\//.test(url.pathname);
+      }
+      if (url.hostname === 'image.tmdb.org') {
+        return /^\/t\/p\/(?:w\d+|original)\/[a-zA-Z0-9_.-]+\.(?:jpg|jpeg|png|webp)$/.test(url.pathname);
+      }
+    } catch (_) {}
     return false;
   }
   function validateRecord(raw) {
