@@ -286,8 +286,17 @@ import {
       '</div></div></div>';
   }
   function renderProfiles(){
-    const p=profiles.map(x=>'<div class="mc-studio-saved"><div><strong>'+esc(x.name)+'</strong><small>'+esc(x.sections.length)+' sections · '+esc((x.updatedAt||'').slice(0,10))+'</small></div>'+
-      button('Charger','load-profile','data-id="'+esc(x.id)+'"')+'</div>').join('');
+    const p=profiles.map(x=>{
+      const total=x.sections.reduce((n,c)=>n+c.folders.length,0);
+      const active=x.sections.filter(c=>c.enabled).length;
+      return '<div class="mc-studio-saved mc-studio-profile-card">'+
+        (x.avatarUrl?'<img src="'+esc(x.avatarUrl)+'" alt="" class="mc-studio-profile-picture">':
+         '<span class="mc-studio-profile-initial">'+esc(x.name[0]?.toUpperCase()||'P')+'</span>')+
+        '<div><strong>'+esc(x.name)+'</strong><small>'+active+' sections actives · '+total+' dossiers</small>'+
+        '<small>Préréglage local · '+esc((x.updatedAt||'').slice(0,10))+'</small></div>'+
+        button('Choisir →','load-profile','data-id="'+esc(x.id)+'"')+
+        '</div>';
+    }).join('');
     const name=esc(draft?.name||''),avatar=esc(draft?.avatarUrl||'');
     return '<div class="mc-studio-profile-layout"><div class="mc-studio-column"><div class="mc-studio-heading"><strong>Profil en cours</strong></div>'+
       '<label class="mc-studio-field">Nom du profil<input type="text" data-profile-name maxlength="60" value="'+name+'"></label>'+
