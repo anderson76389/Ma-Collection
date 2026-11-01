@@ -1,5 +1,5 @@
 /* ==========================================================================
-   KAPTAIN'S MEGA COLLECTION — DESIGN SYSTEM
+   MA-COLLECTION — DESIGN SYSTEM
    ========================================================================== */
 
 @import url('fonts/interface.css');
@@ -2344,7 +2344,7 @@ body.ma-collection-friend-active .ma-collection-beta-pill {
   color: var(--text-secondary, #a8b0c0);
 }
 
-/* Friends of Kaptain: premium Kaptain + Creator intro */
+/* Collections partenaires : introduction créateur */
 .friend-intro-overlay {
   position: fixed;
   inset: 0;
@@ -9138,7 +9138,7 @@ kbd {
 /* ==========================================================================
    PROFILE STUDIO (Cinematic Collection Organizer & Vault Cherry-Picker)
    Palette rides the site's own tokens (--accent/--bg-elevated/--text-*)
-   instead of a bolted-on hex set, so the modal reads as part of Kaptain.
+   instead of a bolted-on hex set, so the modal reads as part of Ma-Collection.
    ========================================================================== */
 .ps-overlay {
   position: fixed;
@@ -9873,7 +9873,7 @@ kbd {
   gap: 4px;
 }
 
-/* Right Column: Kaptain's Vault */
+/* Right Column: Ma-Collection Catalogues */
 .ps-vault-toolbar {
   padding: 12px 16px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.07);
