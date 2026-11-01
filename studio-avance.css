@@ -66,3 +66,15 @@
 @media(max-width:750px){.mc-studio-content{padding:12px}.mc-studio-columns,.mc-studio-profile-layout{grid-template-columns:1fr}.mc-studio-art-layout{grid-template-columns:1fr}.mc-studio-scroll{max-height:280px}.mc-studio-art-preview{max-width:260px;width:100%;box-sizing:border-box;margin:auto}.mc-studio-footer{align-items:stretch;flex-direction:column}.mc-studio-header{padding:14px 17px}.mc-studio-art-grid{grid-template-columns:1fr}}
 @media(max-width:480px){.mc-studio-overlay{padding:5px}.mc-studio-panel{border-radius:12px;max-height:98dvh}.mc-studio-tabs{padding:8px}.mc-studio-tabs button{padding:9px;font-size:.75rem}.mc-studio-header h2{font-size:1.15rem}}
 @media(prefers-reduced-motion:reduce){.mc-studio-entry{transition:none}.mc-studio-overlay{backdrop-filter:none}}
+
+/* Les anciennes couleurs sont conservées ; effet 3D uniquement dans l'aperçu du Studio. */
+.mc-studio-title-logo{max-width:85%;max-height:65px;object-fit:contain;filter:drop-shadow(0 3px 8px #0009)}
+.mc-studio-entry[draggable="true"]{cursor:grab}
+.mc-studio-entry[draggable="true"]:active{cursor:grabbing}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){
+  .mc-studio-art-preview .mc-studio-cover{transition:transform .26s ease,box-shadow .26s ease;transform-style:preserve-3d}
+  .mc-studio-art-preview:hover .mc-studio-cover{
+    transform:perspective(800px) rotateY(-9deg) rotateX(4deg) translateY(-2px);
+    box-shadow:13px 19px 33px rgba(0,0,0,.54)
+  }
+}
