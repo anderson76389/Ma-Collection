@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "checked_at": "2026-11-01T03:22:10.281Z",
+  "expected": 262,
+  "verified_current": 261,
+  "changed": 261,
+  "failures": [
+    {
+      "list_id": 8690687,
+      "reason": "ID ou type de média invalide"
+    }
+  ],
+  "limitation": "Instantanés des listes TMDB publiques uniquement ; les collections actives et les listes Trakt restent inchangées."
+}
