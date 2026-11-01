@@ -14,9 +14,19 @@ page.setDefaultTimeout(9000);
 const errors=[];
 page.on('pageerror',e=>errors.push(e.message));
 await page.goto(base,{waitUntil:'domcontentloaded',timeout:45000});
-await page.waitForFunction(()=>window.MaCollectionStudio?.open &&
-  window.collectionData?.length===20 && window.MaCollectionExport?.assembleFilteredDatabase,
-  {timeout:60000});
+try {
+  await page.waitForFunction(()=>window.MaCollectionStudio?.open &&
+    window.collectionData?.length===20 && window.MaCollectionExport?.assembleFilteredDatabase,
+    null,{timeout:60000});
+} catch (error) {
+  const diag=await page.evaluate(()=>({
+    studio:typeof window.MaCollectionStudio,
+    categories:window.collectionData?.length,
+    exports:typeof window.MaCollectionExport,
+    moduleScripts:[...document.querySelectorAll('script[type="module"]')].map(x=>x.src)
+  }));
+  throw Error('Studio indisponible : '+JSON.stringify(diag)+' | erreurs JS '+JSON.stringify(errors)+' | '+error.message);
+}
 
 await test('nouvelle carte dans le design original',async()=>{
   assert.equal(await page.locator('#title-screen-studio').count(),1);
