@@ -71,6 +71,25 @@ await test('affiches, sources, format et titre personnalisables',async()=>{
   await page.locator('[data-source]').first().check();
   const art=await page.locator('[data-art]').count();
   assert.equal(art,4);
+  assert(await page.locator('.mc-studio-theater').isVisible(),'La galerie d’affiches doit être visible');
+  assert(await page.locator('[data-art-section] option').count()>1);
+  await page.locator('[data-action=batch-open]').click();
+  await page.locator('[data-batch-shape]').selectOption('POSTER');
+  await page.locator('[data-batch-glow]').check();
+  await page.locator('[data-action=batch-apply]').click();
+  assert.equal(await page.locator('[data-shape]').inputValue(),'POSTER');
+  assert(await page.locator('[data-flag=focusGlowEnabled]').isChecked());
+  const alt=await page.evaluate(()=>{
+    const current=window.collectionData[0]?.folders[0]?.coverImageUrl;
+    return window.collectionData.flatMap(c=>c.folders||[]).map(f=>f.coverImageUrl)
+      .find(u=>u&&u!==current&&u.startsWith('https://ma-art.mailpromahe.workers.dev/'));
+  });
+  assert(alt,'Une deuxième image hébergée sur Ma-Art doit exister');
+  page.once('dialog',dialog=>dialog.accept(alt));
+  await page.locator('[data-action=art-add]').click();
+  assert(await page.locator('[data-action=art-select]').count()>=2,'Deux visuels doivent être disponibles');
+  await page.locator('[data-action=art-use]').click();
+  assert.equal(await page.locator('[data-art=coverImageUrl]').inputValue(),alt);
   await page.locator('[data-flag=focusGlowEnabled]').check();
 });
 await test('sauvegarde de plusieurs profils sans secret + export JSON',async()=>{
