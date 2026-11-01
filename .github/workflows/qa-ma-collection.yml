@@ -35,6 +35,8 @@ jobs:
           node scripts/audit-independance.mjs
           node --check scripts/audit-kaptain-complet.mjs
           node scripts/audit-kaptain-complet.mjs
+          node --check poster-editor.js
+          node --test tests/artwork-editor.test.cjs
       - name: Installer le navigateur de test
         run: |
           npm install --no-save --no-package-lock playwright@1.56.1
