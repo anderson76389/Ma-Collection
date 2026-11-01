@@ -13,6 +13,7 @@ import {
   const selections=()=>window.selectedMap||{};
   let profiles=[],draft=null,applied=null,originals=null,root=null;
   let tab='organisation',selectedSection='',selectedFolder='',query='',message='';
+  let dragging=null;
   const findCategory=id=>data().find(c=>String(c.id)===String(id));
   const findFolder=(cid,fid)=>findCategory(cid)?.folders?.find(f=>folderId(f)===String(fid));
   const section=()=>draft?.sections.find(c=>c.id===selectedSection);
@@ -146,7 +147,7 @@ import {
     const s=section();
     const sections=draft.sections.map((c,i)=>{
       const total=c.folders.length,checked=c.folders.filter(f=>f.enabled&&f.selectedKeys.length).length;
-      return '<div class="mc-studio-entry '+(c.id===selectedSection?'selected':'')+'">'+
+      return '<div class="mc-studio-entry '+(c.id===selectedSection?'selected':'')+'" draggable="true" data-drag-kind="section" data-drag-id="'+esc(c.id)+'">'+
         '<button type="button" class="mc-studio-item" data-action="section" data-id="'+esc(c.id)+'">'+
         '<strong>'+esc(c.label)+'</strong><small>'+checked+'/'+total+' dossiers</small></button>'+
         '<label class="mc-studio-tick" title="Activer cette section"><input type="checkbox" data-section-toggle="'+esc(c.id)+'" '+(c.enabled?'checked':'')+' aria-label="Activer '+esc(c.label)+'"></label>'+
@@ -159,7 +160,7 @@ import {
       const i=s.folders.findIndex(x=>x.id===f.id);
       const count=f.selectedKeys.length;
       const cover=f.artwork.coverImageUrl||'';
-      return '<div class="mc-studio-entry mc-studio-folder-entry '+(f.id===selectedFolder?'selected':'')+'">'+
+      return '<div class="mc-studio-entry mc-studio-folder-entry '+(f.id===selectedFolder?'selected':'')+'" draggable="true" data-drag-kind="folder" data-drag-id="'+esc(f.id)+'">'+
         '<button type="button" class="mc-studio-item" data-action="folder" data-id="'+esc(f.id)+'">'+
         (cover?'<img loading="lazy" src="'+esc(cover)+'" alt="">':'<span class="mc-studio-empty-cover">▣</span>')+
         '<span><strong>'+esc(f.label)+'</strong><small>'+count+' source'+(count===1?'':'s')+'</small></span></button>'+
@@ -198,6 +199,7 @@ import {
     return '<div class="mc-studio-art-layout"><div class="mc-studio-art-preview">'+
       (f.artwork.heroBackdropUrl?'<img class="mc-studio-hero" src="'+esc(f.artwork.heroBackdropUrl)+'" alt="Fond du dossier">':'')+
       (f.artwork.coverImageUrl?'<img class="mc-studio-cover" src="'+esc(f.artwork.coverImageUrl)+'" alt="Couverture du dossier">':'<div class="mc-studio-no-cover">Aucune affiche</div>')+
+      (f.artwork.titleLogoUrl?'<img class="mc-studio-title-logo" src="'+esc(f.artwork.titleLogoUrl)+'" alt="Logo du titre">':'')+
       '<strong>'+esc(f.label)+'</strong><small>Prévisualisation des fichiers choisis</small>'+
       button('Restaurer les visuels d’origine','original-art')+'</div>'+
       '<div class="mc-studio-art-form"><div class="mc-studio-heading"><strong>Personnaliser '+esc(f.label)+'</strong></div>'+
@@ -312,6 +314,36 @@ import {
       '<button type="button" class="mc-studio-apply" data-action="apply">Appliquer ce profil à Ma-Collection</button></footer></div>';
     document.body.appendChild(root);
     root.addEventListener('click',e=>{if(e.target===root)close();else click(e);});
+    root.addEventListener('dragstart',e=>{
+      const el=e.target.closest('[data-drag-kind]');
+      if(!el)return;
+      dragging={kind:el.dataset.dragKind,id:el.dataset.dragId};
+      if(e.dataTransfer){
+        e.dataTransfer.effectAllowed='move';
+        e.dataTransfer.setData('text/plain',el.dataset.dragId);
+      }
+    });
+    root.addEventListener('dragover',e=>{
+      const el=e.target.closest('[data-drag-kind]');
+      if(el&&dragging?.kind===el.dataset.dragKind)e.preventDefault();
+    });
+    root.addEventListener('drop',e=>{
+      const el=e.target.closest('[data-drag-kind]');
+      if(!el||!dragging||el.dataset.dragKind!==dragging.kind)return;
+      e.preventDefault();
+      const arr=dragging.kind==='section'?draft?.sections:section()?.folders;
+      if(!arr)return;
+      const i=arr.findIndex(x=>x.id===dragging.id);
+      const j=arr.findIndex(x=>x.id===el.dataset.dragId);
+      if(i>=0&&j>=0&&i!==j){
+        const [item]=arr.splice(i,1);
+        arr.splice(j,0,item);
+        message='Ordre modifié dans le brouillon (glisser-déposer).';
+        draw();
+      }
+      dragging=null;
+    });
+    root.addEventListener('dragend',()=>{dragging=null;});
     root.addEventListener('change',change);
     root.addEventListener('input',e=>{if(e.target.matches('[data-search]'))change(e);});
     root.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>{
