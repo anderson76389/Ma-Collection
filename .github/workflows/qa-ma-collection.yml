@@ -37,6 +37,7 @@ jobs:
           node scripts/audit-kaptain-complet.mjs
           node --test tests/renommage-ma-collection.test.mjs
           node --test tests/studio-avance.test.mjs
+          node --test tests/custom-folders.test.cjs
       - name: Installer le navigateur de test
         run: |
           npm install --no-save --no-package-lock playwright@1.56.1
@@ -46,6 +47,7 @@ jobs:
           for f in catalog-labels-fr.js app.js wizard.js customize.js account-config.js account-ui.js account-vault.js site-fr.js import-studio.js destination-picker.js kovelyx-export.js debrid-services.js collections/test-channels.js; do
             node --check "$f"
           done
+          node --check custom-folders.js
           node --check studio-avance.js
           node --check studio-avance-core.mjs
       - name: Valider le site et l'import Kovelyx sans compte externe
