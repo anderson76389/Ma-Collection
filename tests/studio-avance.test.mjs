@@ -172,3 +172,36 @@ test('Instantané Studio : restauration en place des rangées, sources et visuel
   assert.deepEqual(data,beforeData);
   assert.deepEqual(sel,beforeSel);
 });
+
+import {
+  makeStudioBackup,recentStudioBackups,BACKUP_LIMIT
+} from '../studio-backups.mjs';
+
+test('Historique : sauvegarde strictement limitée au profil validé, sans secret',()=>{
+  const {data,sel}=fixture(),profile=captureDraft(data,sel,'Salon');
+  profile.privateApiToken='SECRET-NE-PAS-CONSERVER';
+  profile.sections[0].folders[0].irrelevantSensitiveKey='SECRET-2';
+  const backup=makeStudioBackup(profile,data,'manual',new Date('2026-11-02T12:00:00.000Z'));
+  assert.equal(backup.schema,1);
+  assert.equal(backup.kind,'manual');
+  assert.equal(backup.createdAt,'2026-11-02T12:00:00.000Z');
+  assert.equal(backup.name,'Salon');
+  assert.equal(backup.profile.sections[0].folders[0].label,'Netflix');
+  assert(!JSON.stringify(backup).includes('SECRET-NE-PAS-CONSERVER'));
+  assert(!JSON.stringify(backup).includes('SECRET-2'));
+  assert.throws(()=>makeStudioBackup(profile,data,'arbitrary'),/incompatible/);
+  assert.throws(()=>makeStudioBackup(profile,data,'manual',new Date('Invalid')),/incorrecte/);
+});
+
+test('Historique : les huit sauvegardes les plus récentes seulement, sans mutation',()=>{
+  const {data,sel}=fixture(),profile=captureDraft(data,sel);
+  const entries=Array.from({length:11},(_,i)=>makeStudioBackup(profile,data,'before-apply',
+    new Date(2026,10,i+1)));
+  const old=entries.slice();
+  const recent=recentStudioBackups(entries);
+  assert.equal(recent.length,BACKUP_LIMIT);
+  assert.equal(recent[0].createdAt,entries[10].createdAt);
+  assert.deepEqual(entries,old);
+  assert.equal(recentStudioBackups(entries,2).length,2);
+  assert.equal(recentStudioBackups(null).length,0);
+});

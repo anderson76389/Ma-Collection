@@ -161,3 +161,21 @@
 .mc-studio-undo{padding:10px 13px;border:1px solid var(--border,rgba(170,160,210,.3));border-radius:10px;background:var(--bg-card,rgba(140,120,180,.09));color:inherit;font:inherit;font-weight:650;font-size:.77rem;cursor:pointer}
 .mc-studio-undo[hidden]{display:none!important}
 @media(max-width:600px){.mc-studio-global-status{display:none}.mc-studio-global-item{gap:8px}}
+
+
+/* Historique de sauvegardes local (IndexedDB) : thème violet hérité. */
+.mc-studio-backups{display:grid;gap:13px;margin-top:20px;padding:17px;border:1px solid var(--border,rgba(172,160,220,.2));border-radius:14px;background:var(--bg-card,rgba(25,23,38,.5))}
+.mc-studio-backups-head{display:flex;align-items:flex-start;justify-content:space-between;gap:15px}
+.mc-studio-backups-head h3{margin:0 0 6px;font-size:1.02rem}
+.mc-studio-backups-head p{margin:0}
+.mc-studio-backups-head>button,.mc-studio-backup-actions button{background:rgba(150,110,230,.12);border:1px solid var(--border,rgba(170,145,220,.34));border-radius:9px;color:inherit;font:inherit;font-size:.77rem;font-weight:650;padding:9px 12px;cursor:pointer}
+.mc-studio-backups-head>button{white-space:nowrap}
+.mc-studio-backups-list{display:grid;gap:7px;max-height:310px;overflow-y:auto}
+.mc-studio-backup-item{display:flex;align-items:center;gap:12px;min-width:0;padding:11px;border-radius:11px;border:1px solid var(--border,rgba(170,160,210,.15));background:var(--bg-elevated,rgba(110,100,155,.06))}
+.mc-studio-backup-symbol{width:32px;height:32px;display:grid;place-items:center;flex-shrink:0;border-radius:10px;background:rgba(142,98,220,.12);color:var(--accent-light,#c2a4ff);font-size:1.3rem}
+.mc-studio-backup-info{flex:1;min-width:0}
+.mc-studio-backup-info strong{display:block;font-size:.81rem;overflow-wrap:anywhere}
+.mc-studio-backup-info small{display:block;font-size:.7rem;color:var(--text-muted,#aaa);margin-top:4px}
+.mc-studio-backup-actions{display:flex;gap:6px;flex-wrap:wrap}
+.mc-studio-backup-error{color:#ffb4b4;font-size:.78rem}
+@media(max-width:750px){.mc-studio-backups-head{flex-direction:column}.mc-studio-backup-item{flex-wrap:wrap}.mc-studio-backup-actions{width:100%}.mc-studio-backup-actions button{flex:1}}

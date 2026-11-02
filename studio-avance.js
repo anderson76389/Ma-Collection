@@ -4,11 +4,13 @@ import {
   originalsFor, decorateExport, previewLayout, searchDraft,
   captureStudioUndo, restoreStudioUndo, uid
 } from './studio-avance-core.mjs';
+import {createStudioBackupStore,makeStudioBackup} from './studio-backups.mjs';
 
 /* Atelier indépendant : thème existant conservé, aucune connexion à Kaptain. */
 (() => {
   'use strict';
   const STORE='ma_collection_studio_profiles_v1';
+  const backupStore=createStudioBackupStore();
   const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const data=()=>Array.isArray(window.collectionData)?window.collectionData:[];
   const selections=()=>window.selectedMap||{};
@@ -16,6 +18,7 @@ import {
   let tab='organisation',selectedSection='',selectedFolder='',query='',message='';
   let dragging=null;
   let previewDevice='tv',globalQuery='',globalActiveOnly=false,globalNoCover=false,undoLast=null;
+  let backups=[],backupError='',applying=false;
   let artLookIndex=0, artSearch='', artMoreOnly=false, artNeedsAttention=false, showBatch=false;
   const findCategory=id=>data().find(c=>String(c.id)===String(id));
   const findFolder=(cid,fid)=>findCategory(cid)?.folders?.find(f=>folderId(f)===String(fid));
@@ -37,6 +40,71 @@ import {
   }
   function copy(value){return JSON.parse(JSON.stringify(value));}
   function getBase(){return captureDraft(data(),selections(),'Ma configuration actuelle');}
+  function getAppliedSnapshot(){
+    // La carte des sources reflète l'état actuel, même modifié par l'éditeur rapide.
+    const current=getBase();
+    if(applied?.sections){
+      const sections=new Map(applied.sections.map(s=>[s.id,s]));
+      for(const sec of current.sections){
+        const prior=sections.get(sec.id);
+        if(!prior)continue;
+        sec.label=prior.label;
+        const folders=new Map(prior.folders.map(f=>[f.id,f]));
+        for(const f of sec.folders){
+          const old=folders.get(f.id);
+          if(old){f.label=old.label;f.looks=copy(old.looks||[]);}
+        }
+      }
+      current.name=applied.name;
+      current.avatarUrl=applied.avatarUrl;
+      current.syncQuickEditor=applied.syncQuickEditor;
+    }
+    return current;
+  }
+  async function refreshBackups(){
+    try{backups=await backupStore.list();backupError='';}
+    catch(error){backups=[];backupError=error.message||'Sauvegardes indisponibles.';}
+    if(root&&!root.hidden&&tab==='profils')draw();
+  }
+  async function saveManualBackup(){
+    try{
+      const entry=makeStudioBackup(draft,data(),'manual');
+      await backupStore.save(entry);
+      await refreshBackups();
+      message='Sauvegarde conservée dans ce navigateur. Tu peux la restaurer ou exporter en JSON.';
+    }catch(error){message='Sauvegarde impossible : '+error.message;}
+    draw();
+  }
+  function getBackup(id){return backups.find(b=>b.id===id);}
+  function loadBackup(id){
+    const entry=getBackup(id);if(!entry)return;
+    if(!window.confirm('Charger cette sauvegarde dans le brouillon ? Les modifications non enregistrées du brouillon seront remplacées. Rien ne sera appliqué sans ta confirmation.'))return;
+    try{
+      draft=validateDraft(entry.profile,data());
+      draft.id=uid();draft.updatedAt=new Date().toISOString();
+      pickSection();tab='organisation';
+      message='Sauvegarde chargée dans le brouillon. Vérifie-la, puis clique sur « Appliquer » si elle te convient.';
+      draw();
+    }catch(error){message='Restauration impossible : '+error.message;draw();}
+  }
+  async function deleteBackup(id){
+    const entry=getBackup(id);if(!entry)return;
+    if(!window.confirm('Supprimer cette sauvegarde locale ? Le profil et la collection actuels ne seront pas modifiés.'))return;
+    try{
+      await backupStore.remove(id);
+      await refreshBackups();message='Sauvegarde supprimée. Le Studio reste inchangé.';
+    }catch(error){message='Suppression impossible : '+error.message;}
+    draw();
+  }
+  function exportBackup(id){
+    const entry=getBackup(id);if(!entry)return;
+    try{
+      const safe=validateDraft(entry.profile,data());
+      download('ma-collection-sauvegarde-'+entry.createdAt.slice(0,10)+'.json',JSON.stringify(safe,null,2));
+      message='Sauvegarde exportée en JSON, sans clés privées ni identifiants.';
+    }catch(error){message='Export impossible : '+error.message;}
+    draw();
+  }
   function pickSection(id){
     selectedSection=id||draft?.sections[0]?.id||'';
     selectedFolder=section()?.folders[0]?.id||'';
@@ -117,11 +185,22 @@ import {
       message='Profil importé dans le brouillon : vérifie-le avant d’appliquer.';draw();
     }catch(e){message='Import refusé : '+e.message;draw();}
   }
-  function apply(){
+  async function apply(){
+    if(applying)return;
+    applying=true;
+    const applyButton=root?.querySelector('[data-action="apply"]');
+    if(applyButton)applyButton.disabled=true;
     try{
       const safe=validateDraft(draft,data());
       if(!originals)originals=originalsFor(data());
-      // Sauvegarde provisoire de la configuration locale pour annulation.
+      let warning='';
+      // Écriture terminée avant toute mutation de l'accueil.
+      // Si IndexedDB est désactivé, l'application et l'annulation en mémoire
+      // restent utilisables, avec un avertissement explicite.
+      try{
+        await backupStore.save(makeStudioBackup(getAppliedSnapshot(),data(),'before-apply'));
+        await refreshBackups();
+      }catch(error){warning=' (sauvegarde automatique indisponible : '+error.message+')';}
       const before=captureStudioUndo(data(),selections());
       const previousApplied=applied;
       try{
@@ -137,8 +216,9 @@ import {
       if(typeof window.switchCategory==='function')window.switchCategory(-2);
       if(typeof window.hideTitleScreen==='function')window.hideTitleScreen();
       close();
-      if(typeof window.showToast==='function')window.showToast('Profil appliqué. Tes exportations utiliseront ces réglages.','success');
-    }catch(e){message='Application annulée : '+e.message;draw();}
+      if(typeof window.showToast==='function')window.showToast('Profil appliqué.'+warning,warning?'warning':'success');
+    }catch(error){message='Application annulée : '+error.message;draw();}
+    finally{applying=false;if(applyButton)applyButton.disabled=false;}
   }
   function undoApplication(){
     if(!undoLast)return;
@@ -167,7 +247,7 @@ import {
     load();draft=getBase();pickSection();tab='organisation';query='';message='';
     artLookIndex=0;artSearch='';artMoreOnly=false;artNeedsAttention=false;showBatch=false;previewDevice='tv';globalQuery='';globalActiveOnly=false;globalNoCover=false;
     if(!root)mount();
-    root.hidden=false;draw();document.addEventListener('keydown',onEscape,true);
+    root.hidden=false;draw();refreshBackups();document.addEventListener('keydown',onEscape,true);
     root.querySelector('.mc-studio-close')?.focus();
   }
   function renderSections(){
@@ -373,6 +453,29 @@ import {
         '</div>';
     }).join('');
     const name=esc(draft?.name||''),avatar=esc(draft?.avatarUrl||'');
+    const cards=backups.map(b=>{
+      const time=new Date(b.createdAt);
+      const when=Number.isFinite(time.getTime())?
+        time.toLocaleString('fr-FR',{dateStyle:'short',timeStyle:'short'}):b.createdAt.slice(0,16);
+      return '<div class="mc-studio-backup-item">'+
+        '<span class="mc-studio-backup-symbol" aria-hidden="true">↶</span>'+
+        '<div class="mc-studio-backup-info"><strong>'+esc(b.name)+'</strong>'+
+        '<small>'+esc(when)+' · '+(b.kind==='before-apply'?'Automatique avant application':'Manuelle')+'</small></div>'+
+        '<div class="mc-studio-backup-actions">'+
+        button('Restaurer','backup-load','data-id="'+esc(b.id)+'"')+
+        button('Exporter','backup-export','data-id="'+esc(b.id)+'"')+
+        button('Supprimer','backup-delete','data-id="'+esc(b.id)+'"')+
+        '</div></div>';
+    }).join('');
+    const backupsHtml='<section class="mc-studio-backups" aria-label="Historique de sauvegardes">'+
+      '<div class="mc-studio-backups-head"><div><h3>Historique de sauvegardes</h3>'+
+      '<p class="mc-studio-hint">Jusqu’à 8 sauvegardes dans ce navigateur, même après fermeture. '+
+      'Une copie est créée automatiquement avant chaque application. Aucun compte tiers n’est nécessaire.</p></div>'+
+      button('Sauvegarder ce brouillon','backup-now')+'</div>'+
+      (backupError?'<p class="mc-studio-backup-error" role="alert">'+esc(backupError)+'</p>':'')+
+      '<div class="mc-studio-backups-list">'+(cards||'<p class="mc-studio-hint">Aucune sauvegarde pour le moment.</p>')+'</div>'+
+      '<p class="mc-studio-hint">« Restaurer » charge un brouillon sans modifier immédiatement ta collection. '+
+      'Pour copier une sauvegarde vers un autre appareil, utilise « Exporter » puis « Importer un profil ».</p></section>';
     return '<div class="mc-studio-profile-layout"><div class="mc-studio-column"><div class="mc-studio-heading"><strong>Profil en cours</strong></div>'+
       '<label class="mc-studio-field">Nom du profil<input type="text" data-profile-name maxlength="60" value="'+name+'"></label>'+
       '<label class="mc-studio-field">Avatar du profil (facultatif)<input type="url" data-avatar value="'+avatar+'" placeholder="URL HTTPS de l’avatar"></label>'+
@@ -386,7 +489,7 @@ import {
       '<div class="mc-studio-actions-grid">'+button('Exporter ce profil (.json)','export')+
       button('Importer un profil (.json)','import')+'</div>'+
       '<input data-file type="file" accept="application/json,.json" hidden>'+
-      '<p class="mc-studio-hint">L’export et l’import transportent tes préférences vers un autre appareil. Ils ne modifient pas les comptes des applications.</p></div></div>';
+      '<p class="mc-studio-hint">L’export et l’import transportent tes préférences vers un autre appareil. Ils ne modifient pas les comptes des applications.</p></div></div>'+backupsHtml;
   }
   function draw(){
     if(!root||!draft)return;
@@ -518,6 +621,10 @@ import {
       for(const k of STUDIO_FIELDS)f.artwork[k]=String(originals?.[f.id]?.[k]||real?.[k]||'');
       f.shape=originals?.[f.id]?.tileShape||real?.tileShape||'LANDSCAPE';draw();
     }
+    else if(a==='backup-now')saveManualBackup();
+    else if(a==='backup-load')loadBackup(id);
+    else if(a==='backup-export')exportBackup(id);
+    else if(a==='backup-delete')deleteBackup(id);
     else if(a==='new')create();
     else if(a==='duplicate')duplicate();
     else if(a==='save'){saveCurrent();draw();}
