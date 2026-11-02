@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  assetUrl,captureDraft,validateDraft,applyDraft,originalsFor,decorateExport,STUDIO_SHAPES
+  assetUrl,captureDraft,validateDraft,applyDraft,originalsFor,decorateExport,previewLayout,searchDraft,captureStudioUndo,restoreStudioUndo,STUDIO_SHAPES
 } from '../studio-avance-core.mjs';
 
 function fixture(){
@@ -112,4 +112,63 @@ test("La synchronisation optionnelle du nom/avatar n'est jamais activée par dé
   d.syncQuickEditor=true;
   const normalized=validateDraft(d,data);
   assert.equal(normalized.syncQuickEditor,true);
+});
+
+
+test('Aperçu du profil : seuls les dossiers activés et sélectionnés sont affichés',()=>{
+  const {data,sel}=fixture(),old=structuredClone(data),oldSel=structuredClone(sel);
+  const draft=captureDraft(data,sel,'Salon');
+  draft.sections[0].folders[1].enabled=false;
+  draft.sections[1].enabled=false;
+  draft.sections[0].folders[0].artwork.coverImageUrl='https://ma-art.mailpromahe.workers.dev/media/custom.webp';
+  const rows=previewLayout(draft,originalsFor(data));
+  assert.equal(rows.length,1);
+  assert.equal(rows[0].total,1);
+  assert.equal(rows[0].folders[0].label,'Netflix');
+  assert.equal(rows[0].folders[0].sourceCount,2);
+  assert.equal(rows[0].folders[0].coverImageUrl,draft.sections[0].folders[0].artwork.coverImageUrl);
+  assert.deepEqual(data,old);
+  assert.deepEqual(sel,oldSel);
+});
+test('Aperçu : la limite d’affichage ne supprime aucun dossier du profil',()=>{
+  const {data,sel}=fixture(),draft=captureDraft(data,sel);
+  const rows=previewLayout(draft,originalsFor(data),1);
+  assert.equal(rows[0].total,2);
+  assert.equal(rows[0].folders.length,1);
+  assert.equal(rows[0].omitted,1);
+  assert.equal(draft.sections[0].folders.length,2);
+  assert.deepEqual(previewLayout(null),[]);
+});
+
+
+test('Recherche globale insensible aux accents, sans modification des données',()=>{
+  const {data,sel}=fixture(),old=structuredClone(data),draft=captureDraft(data,sel);
+  draft.sections[1].folders[0].label='Science-fiction élégante';
+  const found=searchDraft(draft,'ELEGANTE');
+  assert.equal(found.total,1);
+  assert.equal(found.results[0].folderId,'folder-c');
+  assert.equal(searchDraft(draft,'Nouveaux films').results[0].folderId,'folder-a');
+  assert.equal(searchDraft(draft,'', {activeOnly:true}).total,2);
+  assert.equal(searchDraft(draft,'', {noCoverOnly:true}).total,1);
+  assert.deepEqual(data,old);
+});
+test('Instantané Studio : restauration en place des rangées, sources et visuels',()=>{
+  const {data,sel}=fixture(),originals=originalsFor(data);
+  const categoriesRef=data,folderRef=data[0].folders,sourceRef=sel['folder-a'];
+  const beforeData=structuredClone(data),beforeSel=structuredClone(sel);
+  const snap=captureStudioUndo(data,sel);
+  const draft=captureDraft(data,sel);
+  draft.sections.reverse();
+  draft.sections.find(x=>x.id==='section-a').folders.reverse();
+  draft.sections.find(x=>x.id==='section-a').folders.find(f=>f.id==='folder-a').artwork.coverImageUrl='https://image.tmdb.org/t/p/original/new.jpg';
+  draft.sections.find(x=>x.id==='section-a').folders.find(f=>f.id==='folder-a').selectedKeys=['Nouveaux films'];
+  applyDraft(draft,data,sel,originals);
+  sel['folder-extra']={Added:true};
+  assert.notDeepEqual(data,beforeData);
+  assert(restoreStudioUndo(snap,data,sel));
+  assert.strictEqual(data,categoriesRef);
+  assert.strictEqual(data[0].folders,folderRef);
+  assert.strictEqual(sel['folder-a'],sourceRef);
+  assert.deepEqual(data,beforeData);
+  assert.deepEqual(sel,beforeSel);
 });

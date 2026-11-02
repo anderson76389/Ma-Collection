@@ -107,6 +107,19 @@ await test('sauvegarde de plusieurs profils sans secret + export JSON',async()=>
   ]);
   assert(download.suggestedFilename().startsWith('ma-collection-profil-'));
 });
+await test('recherche globale : retrouver et ouvrir un dossier du brouillon',async()=>{
+  // Le brouillon édité précédemment doit rester ouvert pour le test d'application.
+  assert(await page.locator('#mc-studio-root').isVisible());
+  await page.locator('[data-tab=recherche]').click();
+  // Le premier dossier a été renommé dans le brouillon précédent : chercher son nouveau nom.
+  const query='Mon dossier Studio';
+  await page.locator('[data-global-search]').fill(query);
+  assert(await page.locator('.mc-studio-global-item').count()>0);
+  await page.locator('.mc-studio-global-item').first().click();
+  assert.equal(await page.locator('[data-tab=affiches]').getAttribute('aria-selected'),'true');
+  // Ne pas fermer le Studio : le brouillon et ses modifications doivent être appliqués au test suivant.
+  await page.locator('[data-tab=profils]').click();
+});
 await test('application : export personnalisé sans écraser les titres internes',async()=>{
   await page.locator('[data-action=apply]').click();
   assert(await page.locator('#mc-studio-root').isHidden());
@@ -120,6 +133,17 @@ await test('application : export personnalisé sans écraser les titres internes
   assert.equal(report.exportTitle,'Section personnalisée du Studio');
   assert.equal(await page.evaluate(()=>seSettings.profileName),'Profil Salon');
   assert.equal(report.total,initialTotal,'Aucun dossier ne doit disparaître');
+});
+await test('annuler la dernière application : restaurer les références et l’ordre sans perdre de dossiers',async()=>{
+  await page.evaluate(()=>window.MaCollectionStudio.open());
+  assert(await page.locator('[data-action=undo-apply]').isVisible());
+  const countBefore=await page.evaluate(()=>window.collectionData.reduce((n,c)=>n+c.folders.length,0));
+  page.once('dialog',dialog=>dialog.accept());
+  await page.locator('[data-action=undo-apply]').click();
+  assert(await page.locator('[data-action=undo-apply]').isHidden());
+  const countAfter=await page.evaluate(()=>window.collectionData.reduce((n,c)=>n+c.folders.length,0));
+  assert.equal(countAfter,countBefore);
+  await page.locator('[data-action=close]').click();
 });
 await test('accès disponible dans l’éditeur rapide',async()=>{
   await page.evaluate(()=>openSimpleEditor());

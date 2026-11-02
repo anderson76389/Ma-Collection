@@ -1,7 +1,8 @@
 import {
   STUDIO_LIMIT, STUDIO_FIELDS, STUDIO_SHAPES, assetUrl, cleanLabel,
   folderId, sourceKey, captureDraft, validateDraft, applyDraft,
-  originalsFor, decorateExport, uid
+  originalsFor, decorateExport, previewLayout, searchDraft,
+  captureStudioUndo, restoreStudioUndo, uid
 } from './studio-avance-core.mjs';
 
 /* Atelier indépendant : thème existant conservé, aucune connexion à Kaptain. */
@@ -14,6 +15,7 @@ import {
   let profiles=[],draft=null,applied=null,originals=null,root=null;
   let tab='organisation',selectedSection='',selectedFolder='',query='',message='';
   let dragging=null;
+  let previewDevice='tv',globalQuery='',globalActiveOnly=false,globalNoCover=false,undoLast=null;
   let artLookIndex=0, artSearch='', artMoreOnly=false, artNeedsAttention=false, showBatch=false;
   const findCategory=id=>data().find(c=>String(c.id)===String(id));
   const findFolder=(cid,fid)=>findCategory(cid)?.folders?.find(f=>folderId(f)===String(fid));
@@ -119,8 +121,17 @@ import {
     try{
       const safe=validateDraft(draft,data());
       if(!originals)originals=originalsFor(data());
-      // Validation terminée avant mutation. Retour au site avec les mêmes identifiants.
-      applied=applyDraft(safe,data(),selections(),originals);
+      // Sauvegarde provisoire de la configuration locale pour annulation.
+      const before=captureStudioUndo(data(),selections());
+      const previousApplied=applied;
+      try{
+        applied=applyDraft(safe,data(),selections(),originals);
+      }catch(error){
+        restoreStudioUndo(before,data(),selections());
+        applied=previousApplied;
+        throw error;
+      }
+      undoLast={before,previousApplied};
       if(safe.syncQuickEditor) window.MaCollectionStudioAdapter?.applySettings?.(safe.name,safe.avatarUrl);
       if(typeof window.onCollectionEdited==='function')window.onCollectionEdited();
       if(typeof window.switchCategory==='function')window.switchCategory(-2);
@@ -128,6 +139,19 @@ import {
       close();
       if(typeof window.showToast==='function')window.showToast('Profil appliqué. Tes exportations utiliseront ces réglages.','success');
     }catch(e){message='Application annulée : '+e.message;draw();}
+  }
+  function undoApplication(){
+    if(!undoLast)return;
+    if(!window.confirm('Annuler la dernière application dans Ma-Collection ? Cela rétablit l’ordre, les affiches et les sources d’avant. Les éventuels réglages de nom/avatar de l’éditeur rapide ne sont pas concernés.'))return;
+    try{
+      restoreStudioUndo(undoLast.before,data(),selections());
+      applied=undoLast.previousApplied;
+      undoLast=null;
+      if(typeof window.onCollectionEdited==='function')window.onCollectionEdited();
+      draft=getBase();pickSection();tab='organisation';
+      message='Dernière application annulée : ordre, sources et visuels rétablis.';
+      draw();
+    }catch(error){message='Restauration impossible : '+error.message;draw();}
   }
   function choose(id){
     const found=profiles.find(x=>x.id===id);
@@ -141,7 +165,7 @@ import {
     if(!data().length){if(typeof window.showToast==='function')window.showToast('Collections non chargées. Réessaie.','error');return;}
     if(!originals)originals=originalsFor(data());
     load();draft=getBase();pickSection();tab='organisation';query='';message='';
-    artLookIndex=0;artSearch='';artMoreOnly=false;artNeedsAttention=false;showBatch=false;
+    artLookIndex=0;artSearch='';artMoreOnly=false;artNeedsAttention=false;showBatch=false;previewDevice='tv';globalQuery='';globalActiveOnly=false;globalNoCover=false;
     if(!root)mount();
     root.hidden=false;draw();document.addEventListener('keydown',onEscape,true);
     root.querySelector('.mc-studio-close')?.focus();
@@ -285,6 +309,57 @@ import {
       '<p class="mc-studio-hint">Seules les URL HTTPS d’images sont acceptées. Pour rester autonome, privilégie tes propres images Ma-Art. Les changements restent dans ce brouillon jusqu’à « Appliquer ».</p>'+
       '</div></div></div>';
   }
+  function renderPreview(){
+    const rows=previewLayout(draft,originals||{},24);
+    const rowCount=rows.length;
+    const folderCount=rows.reduce((sum,s)=>sum+s.total,0);
+    const controls='<div class="mc-studio-preview-toolbar"><div><strong>Aperçu de ton écran d’accueil</strong>'+
+      '<p class="mc-studio-hint">Prévisualisation du brouillon : seules les rangées et les sources actives apparaissent. Aucun changement n’est envoyé à Nuvio ou Kovelyx.</p></div>'+
+      '<div class="mc-studio-preview-devices" role="group" aria-label="Format de prévisualisation">'+
+      button('Télévision','preview-device','data-id="tv" aria-pressed="'+(previewDevice==='tv')+'" class="'+(previewDevice==='tv'?'active':'')+'"')+
+      button('Mobile','preview-device','data-id="mobile" aria-pressed="'+(previewDevice==='mobile')+'" class="'+(previewDevice==='mobile'?'active':'')+'"')+'</div></div>';
+    if(!rowCount) return '<div class="mc-studio-preview">'+controls+
+      '<p class="mc-studio-hint">Aucune rangée active. Active une section, un dossier et au moins une de ses sources dans « Sections & dossiers ».</p></div>';
+    const sections=rows.map(s=>'<section class="mc-studio-preview-section" aria-label="'+esc(s.label)+'">'+
+      '<header class="mc-studio-preview-section-head"><div><h3>'+esc(s.label)+'</h3>'+
+      '<small>'+s.total+' dossier'+(s.total>1?'s':'')+' actif'+(s.total>1?'s':'')+'</small></div>'+
+      button('Modifier','preview-edit','data-section="'+esc(s.id)+'"')+'</header>'+
+      '<div class="mc-studio-preview-row">'+s.folders.map(f=>
+        '<button type="button" class="mc-studio-preview-tile" data-action="preview-edit" data-section="'+esc(s.id)+'" data-id="'+esc(f.id)+'" title="Personnaliser '+esc(f.label)+'">'+
+        (f.coverImageUrl?'<img src="'+esc(f.coverImageUrl)+'" loading="lazy" alt="">':
+          '<span class="mc-studio-preview-placeholder" aria-hidden="true">▣</span>')+
+        '<strong>'+esc(f.label)+'</strong><small>'+f.sourceCount+' source'+(f.sourceCount>1?'s':'')+'</small></button>'
+      ).join('')+
+      (s.omitted?'<div class="mc-studio-preview-more">+'+s.omitted+' dossiers actifs non affichés dans cet aperçu</div>':'')+
+      '</div></section>').join('');
+    return '<div class="mc-studio-preview '+(previewDevice==='mobile'?'mc-studio-preview-mobile':'')+'">'+controls+
+      '<p class="mc-studio-preview-summary">'+rowCount+' rangée'+(rowCount>1?'s':'')+' · '+folderCount+' dossiers activés</p>'+
+      '<div class="mc-studio-preview-rows">'+sections+'</div>'+
+      '<p class="mc-studio-hint">L’aperçu limite l’affichage à 24 dossiers par rangée pour préserver les performances. Les autres restent dans le profil et dans l’export.</p></div>';
+  }
+  function renderGlobalSearch(){
+    const hasInput=!!globalQuery.trim()||globalActiveOnly||globalNoCover;
+    const found=hasInput?searchDraft(draft,globalQuery,{activeOnly:globalActiveOnly,noCoverOnly:globalNoCover,limit:100}):
+      {total:0,results:[],omitted:0};
+    const items=found.results.map(item=>'<button type="button" class="mc-studio-global-item" data-action="global-edit" '+
+      'data-section="'+esc(item.sectionId)+'" data-id="'+esc(item.folderId)+'">'+
+      (item.coverImageUrl?'<img src="'+esc(item.coverImageUrl)+'" loading="lazy" alt="">':
+        '<span class="mc-studio-global-empty" aria-hidden="true">▣</span>')+
+      '<span class="mc-studio-global-details"><strong>'+esc(item.folderLabel)+'</strong>'+
+      '<small>'+esc(item.sectionLabel)+' · '+item.sourceCount+' source'+(item.sourceCount>1?'s':'')+'</small></span>'+
+      '<span class="mc-studio-global-status">'+(item.active?'Actif':'Inactif')+'</span>'+
+      '<span aria-hidden="true">›</span></button>').join('');
+    return '<div class="mc-studio-global-search">'+
+      '<h3>Retrouver un dossier</h3><p class="mc-studio-hint">Recherche dans toutes les sections, noms de dossiers et sources sélectionnées. Les accents ne changent pas les résultats.</p>'+
+      '<label class="mc-studio-field">Nom de dossier, section ou source'+
+      '<input type="search" data-global-search placeholder="Ex. Netflix, Science-fiction, Films…" value="'+esc(globalQuery)+'" autocomplete="off"></label>'+
+      '<div class="mc-studio-global-filters"><label class="mc-studio-check"><input type="checkbox" data-global-active '+(globalActiveOnly?'checked':'')+'> Uniquement les dossiers actifs</label>'+
+      '<label class="mc-studio-check"><input type="checkbox" data-global-no-cover '+(globalNoCover?'checked':'')+'> Dossiers sans affiche</label></div>'+
+      '<p class="mc-studio-global-count">'+(hasInput?found.total+' résultat'+(found.total>1?'s':''):'Entre une recherche ou active un filtre pour afficher les dossiers.')+'</p>'+
+      '<div class="mc-studio-global-results">'+(items||'<p class="mc-studio-hint">Aucun dossier correspondant.</p>')+'</div>'+
+      (found.omitted?'<p class="mc-studio-hint">+'+found.omitted+' résultats supplémentaires : précise ta recherche.</p>':'')+
+      '</div>';
+  }
   function renderProfiles(){
     const p=profiles.map(x=>{
       const total=x.sections.reduce((n,c)=>n+c.folders.length,0);
@@ -318,7 +393,8 @@ import {
     const body=html();if(!body)return;
     root.querySelector('.mc-studio-title').textContent=draft.name;
     root.querySelectorAll('[data-tab]').forEach(x=>{x.classList.toggle('active',x.dataset.tab===tab);x.setAttribute('aria-selected',String(x.dataset.tab===tab));});
-    body.innerHTML=(tab==='organisation'?renderSections():tab==='affiches'?renderArtwork():renderProfiles());
+    body.innerHTML=(tab==='organisation'?renderSections():tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():renderProfiles());
+    const undo=root.querySelector('[data-action="undo-apply"]');if(undo)undo.hidden=!undoLast;
     const status=root.querySelector('.mc-studio-status');if(status)status.textContent=message;
   }
   function change(e){
@@ -326,6 +402,9 @@ import {
     const el=e.target;
     try{
       if(el.matches('[data-search]')){query=el.value;draw();root.querySelector('[data-search]')?.focus();return;}
+      if(el.matches('[data-global-search]')){const caret=el.selectionStart;globalQuery=el.value;draw();const input=root.querySelector('[data-global-search]');input?.focus();if(caret!==null)input?.setSelectionRange(caret,caret);return;}
+      if(el.matches('[data-global-active]')){globalActiveOnly=el.checked;draw();return;}
+      if(el.matches('[data-global-no-cover]')){globalNoCover=el.checked;draw();return;}
       if(el.matches('[data-art-section]')){
         pickSection(el.value);artLookIndex=0;artSearch='';showBatch=false;draw();return;
       }
@@ -399,6 +478,20 @@ import {
       f.looks=(f.looks||[]).filter(x=>x.url!==items[artLookIndex].url);
       artLookIndex=0;message='Variante retirée de ce profil, sans supprimer le fichier original.';draw();
     }
+    else if(a==='global-edit'){
+      if(btn.dataset.section)pickSection(btn.dataset.section);
+      if(id && section()?.folders.some(f=>f.id===id)){selectedFolder=id;tab='affiches';}
+      else tab='organisation';
+      draw();
+    }
+    else if(a==='undo-apply')undoApplication();
+    else if(a==='preview-device'){if(id==='tv'||id==='mobile'){previewDevice=id;draw();}}
+    else if(a==='preview-edit'){
+      if(btn.dataset.section)pickSection(btn.dataset.section);
+      if(id&&section()?.folders.some(f=>f.id===id)){selectedFolder=id;tab='affiches';}
+      else tab='organisation';
+      draw();
+    }
     else if(a==='batch-open'){showBatch=true;draw();}
     else if(a==='batch-close'){showBatch=false;draw();}
     else if(a==='batch-apply'){
@@ -457,10 +550,13 @@ import {
       '<nav class="mc-studio-tabs" aria-label="Outils du Studio" role="tablist">'+
       '<button role="tab" data-tab="organisation">Sections & dossiers</button>'+
       '<button role="tab" data-tab="affiches">Affiches & sources</button>'+
+      '<button role="tab" data-tab="apercu">Aperçu accueil</button>'+
+      '<button role="tab" data-tab="recherche">Recherche globale</button>'+
       '<button role="tab" data-tab="profils">Profils & sauvegardes</button></nav>'+
       '<main class="mc-studio-content"></main>'+
       '<div class="mc-studio-status" role="status" aria-live="polite"></div>'+
       '<footer class="mc-studio-footer"><span>Modifications facultatives · Rien ne change avant validation</span>'+
+      '<button type="button" class="mc-studio-undo" data-action="undo-apply" hidden>↶ Annuler la dernière application</button>'+
       '<button type="button" class="mc-studio-apply" data-action="apply">Appliquer ce profil à Ma-Collection</button></footer></div>';
     document.body.appendChild(root);
     root.addEventListener('click',e=>{if(e.target===root)close();else click(e);});
@@ -495,7 +591,7 @@ import {
     });
     root.addEventListener('dragend',()=>{dragging=null;});
     root.addEventListener('change',change);
-    root.addEventListener('input',e=>{if(e.target.matches('[data-search]'))change(e);});
+    root.addEventListener('input',e=>{if(e.target.matches('[data-search],[data-global-search]'))change(e);});
     root.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>{
       tab=b.dataset.tab;if(tab==='affiches'&&!selectedFolder)selectedFolder=section()?.folders[0]?.id;message='';draw();
     }));
