@@ -142,3 +142,22 @@
 .mc-studio-preview-mobile .mc-studio-preview-tile img,.mc-studio-preview-mobile .mc-studio-preview-placeholder{height:133px}
 @media(max-width:650px){.mc-studio-preview-toolbar{flex-direction:column;align-items:stretch}.mc-studio-preview-devices{align-self:flex-start}}
 @media(prefers-reduced-motion:reduce){.mc-studio-preview-row{scroll-behavior:auto}}
+
+
+/* Recherche globale et annulation locales, isolées du thème du site. */
+.mc-studio-global-search{display:grid;gap:13px;max-width:920px;margin-inline:auto}
+.mc-studio-global-search h3{margin:0;font-size:1.08rem}
+.mc-studio-global-filters{display:flex;flex-wrap:wrap;gap:14px}
+.mc-studio-global-count{margin:0;font-size:.75rem;color:var(--text-muted,#aaa)}
+.mc-studio-global-results{display:grid;gap:7px;max-height:min(55dvh,490px);overflow-y:auto}
+.mc-studio-global-item{display:flex;align-items:center;gap:12px;width:100%;padding:9px 11px;border:1px solid var(--border,rgba(150,150,190,.2));border-radius:10px;background:var(--bg-card,rgba(130,110,160,.07));color:inherit;font:inherit;cursor:pointer;text-align:left}
+.mc-studio-global-item:hover{border-color:var(--accent,#9b76e4)}
+.mc-studio-global-item img,.mc-studio-global-empty{height:54px;width:40px;border-radius:6px;object-fit:cover;flex-shrink:0;background:rgba(120,120,150,.12)}
+.mc-studio-global-empty{display:grid;place-items:center}
+.mc-studio-global-details{flex:1;min-width:0}
+.mc-studio-global-details strong{font-size:.8rem;display:block;overflow-wrap:anywhere}
+.mc-studio-global-details small{font-size:.69rem;color:var(--text-muted,#aaa)}
+.mc-studio-global-status{font-size:.69rem;color:var(--text-muted,#aaa);white-space:nowrap}
+.mc-studio-undo{padding:10px 13px;border:1px solid var(--border,rgba(170,160,210,.3));border-radius:10px;background:var(--bg-card,rgba(140,120,180,.09));color:inherit;font:inherit;font-weight:650;font-size:.77rem;cursor:pointer}
+.mc-studio-undo[hidden]{display:none!important}
+@media(max-width:600px){.mc-studio-global-status{display:none}.mc-studio-global-item{gap:8px}}
