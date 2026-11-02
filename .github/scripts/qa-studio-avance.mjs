@@ -107,11 +107,12 @@ await test('sauvegarde de plusieurs profils sans secret + export JSON',async()=>
   ]);
   assert(download.suggestedFilename().startsWith('ma-collection-profil-'));
 });
-await test('recherche globale : retrouver et ouvrir un dossier dans une autre section',async()=>{
+await test('recherche globale : retrouver et ouvrir un dossier du brouillon',async()=>{
   // Le brouillon édité précédemment doit rester ouvert pour le test d'application.
   assert(await page.locator('#mc-studio-root').isVisible());
   await page.locator('[data-tab=recherche]').click();
-  const query=await page.evaluate(()=>window.collectionData[0].folders[0].title);
+  // Le premier dossier a été renommé dans le brouillon précédent : chercher son nouveau nom.
+  const query='Mon dossier Studio';
   await page.locator('[data-global-search]').fill(query);
   assert(await page.locator('.mc-studio-global-item').count()>0);
   await page.locator('.mc-studio-global-item').first().click();
