@@ -122,7 +122,8 @@ await test('recherche globale : retrouver et ouvrir un dossier du brouillon',asy
 });
 await test('application : export personnalisé sans écraser les titres internes',async()=>{
   await page.locator('[data-action=apply]').click();
-  assert(await page.locator('#mc-studio-root').isHidden());
+  // L'application attend une sauvegarde IndexedDB : contrôler l'état final.
+  await page.locator('#mc-studio-root').waitFor({state:'hidden',timeout:15000});
   const report=await page.evaluate(()=>{
     const live=window.collectionData[0],out=window.MaCollectionExport.assembleFilteredDatabase();
     const target=out.find(x=>x.id===live.id);
