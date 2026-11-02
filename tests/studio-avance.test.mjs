@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  assetUrl,captureDraft,validateDraft,applyDraft,originalsFor,decorateExport,previewLayout,searchDraft,captureStudioUndo,restoreStudioUndo,STUDIO_SHAPES
+  assetUrl,captureDraft,validateDraft,applyDraft,originalsFor,decorateExport,previewLayout,searchDraft,captureStudioUndo,restoreStudioUndo,compareStudioDrafts,STUDIO_SHAPES
 } from '../studio-avance-core.mjs';
 
 function fixture(){
@@ -204,4 +204,31 @@ test('Historique : les huit sauvegardes les plus récentes seulement, sans mutat
   assert.deepEqual(entries,old);
   assert.equal(recentStudioBackups(entries,2).length,2);
   assert.equal(recentStudioBackups(null).length,0);
+});
+
+
+test('Comparateur : signale les changements de rangées, sources, visuels et présentations',()=>{
+  const {data,sel}=fixture(),before=captureDraft(data,sel),after=structuredClone(before);
+  const snapshot=structuredClone(before);
+  after.sections.reverse();
+  const section=after.sections.find(s=>s.id==='section-a');
+  section.folders.reverse();
+  const folder=section.folders.find(f=>f.id==='folder-a');
+  folder.label='Mon Netflix';
+  folder.selectedKeys=['Nouveaux films'];
+  folder.artwork.coverImageUrl='https://ma-art.mailpromahe.workers.dev/media/custom.png';
+  folder.shape='POSTER';
+  after.sections.find(s=>s.id==='section-b').enabled=false;
+  const difference=compareStudioDrafts(before,after);
+  assert.equal(difference.total.sectionOrder,1);
+  assert.equal(difference.total.folderOrders,1);
+  assert.equal(difference.total.sectionsDisabled,1);
+  assert.equal(difference.total.labels,1);
+  assert.equal(difference.total.artworks,1);
+  assert.equal(difference.total.presentation,1);
+  assert(difference.total.sourcesDisabled>=1);
+  assert(difference.changeCount>=7);
+  assert.deepEqual(before,snapshot,'Le comparateur ne doit pas modifier les objets');
+  assert.deepEqual(compareStudioDrafts(before,before).changeCount,0);
+  assert.equal(compareStudioDrafts(before,after,2).examples.length,2);
 });
