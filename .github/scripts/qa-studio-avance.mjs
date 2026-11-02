@@ -161,6 +161,51 @@ await test('responsive mobile : Studio à l’intérieur du viewport',async()=>{
   assert(report.left>=0 && report.right<=report.width+1,'Studio dépasse la largeur du téléphone');
   await page.locator('[data-action=close]').click();
 });
+await test('historique persistant : sauvegarde, rechargement, restauration et export',async()=>{
+  const history=await browser.newPage({viewport:{width:1160,height:870},acceptDownloads:true});
+  history.setDefaultTimeout(12000);
+  try{
+    await history.goto(base,{waitUntil:'domcontentloaded',timeout:45000});
+    await history.waitForFunction(()=>window.MaCollectionStudio?.open && window.collectionData?.length>=16,
+      null,{timeout:60000});
+    await history.evaluate(()=>window.MaCollectionStudio.open());
+    await history.locator('[data-tab=profils]').click();
+    await history.locator('[data-action=backup-now]').click();
+    await history.waitForFunction(()=>document.querySelectorAll('.mc-studio-backup-item').length===1);
+    const raw=await history.evaluate(async()=>{
+      return await new Promise((resolve,reject)=>{
+        const req=indexedDB.open('ma_collection_studio_history_v1');
+        req.onsuccess=()=>{
+          const tx=req.result.transaction('snapshots','readonly');
+          const all=tx.objectStore('snapshots').getAll();
+          all.onsuccess=()=>resolve(all.result);
+          all.onerror=()=>reject(all.error);
+        };
+        req.onerror=()=>reject(req.error);
+      });
+    });
+    assert.equal(raw.length,1);
+    assert.equal(raw[0].kind,'manual');
+    assert.equal(JSON.stringify(raw).includes('secret_access_token'),false);
+    await history.reload({waitUntil:'domcontentloaded'});
+    await history.waitForFunction(()=>window.MaCollectionStudio?.open && window.collectionData?.length>=16,
+      null,{timeout:60000});
+    await history.evaluate(()=>window.MaCollectionStudio.open());
+    await history.locator('[data-tab=profils]').click();
+    await history.locator('.mc-studio-backup-item').first().waitFor();
+    const [download]=await Promise.all([
+      history.waitForEvent('download'),history.locator('[data-action=backup-export]').first().click()
+    ]);
+    assert(download.suggestedFilename().startsWith('ma-collection-sauvegarde-'));
+    history.once('dialog',dlg=>dlg.accept());
+    await history.locator('[data-action=backup-load]').first().click();
+    assert.equal(await history.locator('[data-tab=organisation]').getAttribute('aria-selected'),'true');
+    await history.locator('[data-tab=profils]').click();
+    history.once('dialog',dlg=>dlg.accept());
+    await history.locator('[data-action=backup-delete]').first().click();
+    await history.waitForFunction(()=>document.querySelectorAll('.mc-studio-backup-item').length===0);
+  }finally{await history.close();}
+});
 await test('aucune erreur JavaScript fatale',async()=>{
   assert.deepEqual(errors,[]);
 });
