@@ -208,7 +208,10 @@ test('Historique : les huit sauvegardes les plus récentes seulement, sans mutat
 
 
 test('Comparateur : signale les changements de rangées, sources, visuels et présentations',()=>{
-  const {data,sel}=fixture(),before=captureDraft(data,sel),after=structuredClone(before);
+  const {data,sel}=fixture(),before=captureDraft(data,sel);
+  // Dans la fixture, la section B est initialement inactive : l'activer pour tester sa désactivation.
+  before.sections[1].enabled=true;
+  const after=structuredClone(before);
   const snapshot=structuredClone(before);
   after.sections.reverse();
   const section=after.sections.find(s=>s.id==='section-a');
