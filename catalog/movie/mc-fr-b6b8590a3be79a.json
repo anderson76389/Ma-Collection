@@ -1,15 +1,6 @@
 {
   "metas": [
     {
-      "id": "tmdb:1204680",
-      "type": "movie",
-      "name": "Coyote vs. Acme",
-      "poster": "https://image.tmdb.org/t/p/w500/dFwseuSlDUNiwMuElDb3OAOQ8En.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7GOW6jod9lLurW5utokAatxg7ql.jpg",
-      "description": "Après des décennies à être réduit en miettes par des bombes, pulvérisé à la dynamite, déchiqueté par des aimants, assommé par des rochers, écrasé par des trains, piégé par des tunnels, projeté par des ressorts, aplati par des rouleaux compresseurs, trahi par des ratés mécaniques, malmené par des élastiques, secoué par des fusées, poignardé dans le dos par des costumes de chauve-souris, catapulté par des patins-fusées, renversé par des monocycles, ébranlé par des pilules sismiques, recouvert de caoutchouc par des groupes ennemis, et précipité tête première du haut de toutes les falaises du Sud-Ouest, Wile, Wile E. Coyote contre-attaque enfin. Faisant équipe avec l’avocat-vedette des panneaux publicitaires spécialisé dans les accidents Kevin Avery, il s’attaque à l’avocat d’affaires rusé Buddy Crane et à ACME, Inc., le conglomérat obsédé par le profit étant à l’origine de chacune des catastrophes chaotiques du Coyote.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:1108427",
       "type": "movie",
       "name": "Vaiana, la légende du bout du monde",
@@ -58,7 +49,7 @@
       "id": "tmdb:1485002",
       "type": "movie",
       "name": "Une victoire pour Noël : miracle en équipe",
-      "poster": "https://image.tmdb.org/t/p/w500/rBowMJ7BvJwz695qePzLDc7rySv.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/ZotF04zyv7iVTSbpCHEbx4HUde.jpg",
       "background": "https://image.tmdb.org/t/p/w780/2MIJOoBXGTN4igYeibSz7tlImLk.jpg",
       "description": "Morgan et Gabe, voisins et amis de longue date, partagent une passion pour les Buffalo Bills. En enquêtant sur un mystérieux bienfaiteur qui aide sa famille depuis 60 ans, Morgan se rapproche de Gabe. Ensemble, ils vont vivre un Noël inoubliable, entre secrets, famille et amour.",
       "releaseInfo": "2025"
@@ -77,7 +68,7 @@
       "type": "movie",
       "name": "Tous à bord pour Noël !",
       "poster": "https://image.tmdb.org/t/p/w500/4RiHKqA8d36YKvkbfl0YCcPLgt1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/oHg6mgZvtj5ZH1gk5pdHAcpPBtq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tiuDvct0rSdiHGc0pToIBVtTr1F.jpg",
       "description": "La famille Keller embarque pour une croisière de Noël sur le Danube, entre l'Allemagne et l'Autriche. Mais derrière les fêtes et les paysages féériques, chacun traverse une période de doute : rupture, amour manqué ou avenir professionnel incertain. Au fil des escales et des imprévus, cette aventure familiale pourrait bien changer leur vie et leur réserver un Noël inoubliable...",
       "releaseInfo": "2025"
     },
@@ -178,6 +169,15 @@
       "background": "https://image.tmdb.org/t/p/w780/x8Kdi1OJbewkeGuijcSmUWrYyk2.jpg",
       "description": "Après avoir quitté Swellview, Henry devient le héros local de Dystopia. Alors que la célébrité commence à peser sur lui, il rencontre Missy Martin, une superfan enthousiaste désireuse de combattre le crime à ses côtés. Missy entre en possession d'un appareil capable d'ouvrir des réalités alternatives, entraînant Henry et son meilleur ami Jasper dans une aventure à travers différentes dimensions. Ils doivent trouver un moyen de revenir à Dystopia, sous peine de rester coincés dans une autre dimension pour toujours.",
       "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:939243",
+      "type": "movie",
+      "name": "Sonic 3, le film",
+      "poster": "https://image.tmdb.org/t/p/w500/gERwLGTa6JGN4qXjkip13eDaxy1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zOpe0eHsq0A2NvNyBbtT6sj53qV.jpg",
+      "description": "Sonic, Knuckles et Tails sont à nouveau réunis face à un puissant nouvel adversaire, Shadow, un mystérieux vilain doté de pouvoirs comme ils n'en ont encore jamais vu. Leurs habiletés étant toutes surclassées, l'Équipe Sonic doit tenter une alliance improbable dans l'espoir d'arrêter Shadow et de protéger la planète.",
+      "releaseInfo": "2024"
     }
   ]
 }

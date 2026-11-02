@@ -19,6 +19,15 @@
       "releaseInfo": "2010"
     },
     {
+      "id": "tmdb:68598",
+      "type": "series",
+      "name": "Holiday Baking Championship",
+      "poster": "https://image.tmdb.org/t/p/w500/9fPUsxiAn8CMgd917baJZUCwlFB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/elqlGbwpRCNTw4rhyOwMU4JWhS.jpg",
+      "description": "La recherche du meilleur boulanger des Fêtes commence alors que les boulangers amateurs entrent dans la cuisine, où ils montrent leurs traditions familiales et leurs superbes compétences en pâtisserie. Pour survivre aux défis de semaine en semaine, ils doivent prouver leurs capacités devant nos juges durs.",
+      "releaseInfo": "2014"
+    },
+    {
       "id": "tmdb:74676",
       "type": "series",
       "name": "Halloween Baking Championship",

@@ -1,11 +1,29 @@
 {
   "metas": [
     {
+      "id": "tmdb:292741",
+      "type": "series",
+      "name": "Nocturne",
+      "poster": "https://image.tmdb.org/t/p/w500/gwoPlr2g3moHYZH05DyRZVgUf6m.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/614k6C9doThoMe6GyH0nTnGgLXt.jpg",
+      "description": "Lorsqu’une victime du célèbre tueur en série Jurek Walter refait surface en vie, l’enquêteur Jonah Lynn entame une course contre la montre pour retrouver sa dernière proie encore portée disparue. Sa protégée Saga Bauer travaille sous couverture pour faire parler le tueur.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:314360",
+      "type": "series",
+      "name": "YAGA",
+      "poster": "https://image.tmdb.org/t/p/w500/wSbmXrDTm7g3USFAT6oKL8MGDfJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/owhTL4n2r9ryfxyYlhHKt97ogVk.jpg",
+      "description": "Alors qu’un détective privé enquête sur la disparition du jeune héritier d’une puissante entreprise de pêche, il se retrouve en désaccord avec un détective local méfiant, un charismatique professeur d’université qui aime les hommes plus jeunes, et un labyrinthe de suspects énigmatiques, de vies secrètes et de magie ancienne.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:275139",
       "type": "series",
       "name": "Phony",
       "poster": "https://image.tmdb.org/t/p/w500/iCyQc8cSSHkxUHbkvzbC77owALt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/g2r69hj61xfhMxnrYm8QyMs0gs1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/roUD5m2nj6k88azMFsiqBae29cr.jpg",
       "description": "À son réveil après un accident de voiture, le lycéen Sonny Cooke trouve sa mère, Ellen, légèrement changée. Le problème, c'est qu'il est le seul à le remarquer et que personne ne le croit. Coincé avec cette femme qu'il soupçonne d'être un dangereux imposteur, Sonny tente de prouver qu'il n'est pas fou.",
       "releaseInfo": "2026"
     },
@@ -41,7 +59,7 @@
       "type": "series",
       "name": "VisionQuest",
       "poster": "https://image.tmdb.org/t/p/w500/bWPktguPGslrdM79SNQt4OWYyJS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uoXXbN2PrOxH6UKyP7kYwmGpAAP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/58v1KFe3rxvHrYM1hLH5ScpwqNR.jpg",
       "description": "Une nouvelle version de Vision ayant échappé à ceux qui cherchaient à faire de lui une arme, vit dans la clandestinité. En quête d’un nouveau sens à sa vie, il consulte les IA intégrées à son programme, notamment Friday, Edith, Jarvis et le tristement célèbre Ultron. Son existence discrète prend fin lorsque sa tête est mise à prix, le contraignant à prendre la fuite avec Thomas Shepherd, un garçon mystérieux qui pourrait bien être la réincarnation du fils de Vision. Tout en échappant à ses poursuivants, Vision doit se confronter à sa propre nature, résister à l’influence d’Ultron et percer le mystère qui entoure son jeune compagnon s’il veut survivre.",
       "releaseInfo": "2026"
     },
@@ -97,6 +115,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:319800",
+      "type": "series",
+      "name": "NCIS: New York",
+      "poster": "https://image.tmdb.org/t/p/w500/ifmi1Rr9v2qckSsxhNiQIVLE51p.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wLL8oRsz9XGFQpnCpgi8S0Pj6sO.jpg",
+      "description": "De retour dans sa ville natale de New York, l’agent du NCIS Sam Hanna rejoint le bureau local. Il y fait équipe avec un agent au tempérament rebelle, qu’il aide à encadrer au sein d’une nouvelle unité chargée de missions à haut risque, destinée à protéger l’une des villes et des ports les plus stratégiques au monde.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:231801",
       "type": "series",
       "name": "GET JIRO",
@@ -148,33 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/hTUHZ337JzqPvRXBQ3lu0GBkOvz.jpg",
       "background": "https://image.tmdb.org/t/p/w780/qA8U2ABepV5E2BcNIBcgUaFy4fM.jpg",
       "description": "Les Chapeaux de paille lèvent l'ancre dans ce programme LEGO en deux parties ! Rejoignez Luffy, Nami, Usopp et l'équipage dans leur périple épique, réinventé brique par brique.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:292742",
-      "type": "series",
-      "name": "S.W.A.T. Exiles",
-      "poster": "https://image.tmdb.org/t/p/w500/pPiEujhVa2MBSowmvnNWqEzxH0x.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mNIc5QqjBuXHeeyj6P4WSqTCBu9.jpg",
-      "description": "Après l'échec retentissant d'une mission très médiatisée, Daniel « Hondo » Harrelson est sorti de sa retraite forcée pour prendre la tête d'une unité SWAT expérimentale, qui représente une dernière chance, composée de jeunes recrues inexpérimentées et imprévisibles. Hondo doit combler le fossé générationnel, gérer des personnalités qui s'affrontent et transformer une équipe de marginaux en une équipe capable de protéger la ville et de sauver le programme qui a fait de lui ce qu'il est aujourd'hui.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:305357",
-      "type": "series",
-      "name": "A Different World",
-      "poster": "https://image.tmdb.org/t/p/w500/mmE4RNbsPOwwRo5rnVRd1IXzgcZ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1lVbKPOVjTV02FtLqiPk9F9z1Fh.jpg",
-      "description": "Deborah Wayne entame sa première année à Hillman — l'université historiquement noire (HBCU) fréquentée par ses parents — et découvre qu'il est difficile d'échapper à leur ombre. Elle entreprend de bâtir son propre héritage, tout en vivant les meilleurs moments de sa vie, aux côtés d'une nouvelle génération d'étudiants brillants et prometteurs.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:286940",
-      "type": "series",
-      "name": "Le Ticket d'or de Willy Wonka",
-      "poster": "https://image.tmdb.org/t/p/w500/5padVOGD7QxyFLlTAWdCFY2FQf1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3BXEJ0qtVPHj1PL0M78xhYOiBkq.jpg",
-      "description": "L'usine de chocolat de Willy Wonka ouvre ses portes à 12 duos afin de passer plusieurs épreuves dans l'espoir de remporter une forte somme d'argent.",
       "releaseInfo": "2026"
     }
   ]

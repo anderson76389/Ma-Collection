@@ -19,20 +19,11 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1290418",
-      "type": "movie",
-      "name": "The Cycle",
-      "poster": "https://image.tmdb.org/t/p/w500/n5gSNf55KWfDc9hqP4H1KCCSutE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bgHW6AJl2SdKzxglvf9tshXbI84.jpg",
-      "description": "Une fille découvre le sombre passé de son père après la découverte de son corps, disparu depuis 36 ans, sur une scène de crime horrible.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:1380417",
       "type": "movie",
       "name": "By Any Means",
       "poster": "https://image.tmdb.org/t/p/w500/evCy2B3j57AwSNBZqlePjMl3zj3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1jANqIbqrWJZb8GM5Kb3L6U8iHi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nw9Q3idNO8EsTPnvr8vBJTpkWGA.jpg",
       "description": "Un jeune agent noir du FBI est envoyé au Mississippi dans les années 60 afin d’enquêter sur une vague de meurtres brutaux visant des leaders du mouvement des droits civiques. Contraint de faire équipe avec le célèbre tueur à gages de la mafia Greg Scarpa, il se retrouve entraîné dans une traque meurtrière où la frontière entre justice et vengeance devient de plus en plus floue.",
       "releaseInfo": "2026"
     },
@@ -94,8 +85,8 @@
       "id": "tmdb:675871",
       "type": "movie",
       "name": "Super Troopers 3",
-      "poster": "https://image.tmdb.org/t/p/w500/hOAjBggD7zWat7nqt7dUUDH5ZRG.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rAeT8K51JJJomj0M7WGPC8jt4yi.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/VVU42nqsEmUtFpH1d9MHj5BIpF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/riezFXKrSq1XNnRLJi3AKIwEV8d.jpg",
       "description": "Dans le Vermont, près de la frontière canadienne, cinq officiers de police, Thorny, Farva, Mac, Foster et Rabbit, tentent tant bien que mal de faire respecter l'ordre.",
       "releaseInfo": "2026"
     },
@@ -178,6 +169,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/dOWWCLSwXS1MBtGEFeItbloiUEN.jpg",
       "background": "https://image.tmdb.org/t/p/w780/oGD1dZvojZssnd9Ua6RUalEEHQu.jpg",
       "description": "La police arrête une femme qui affirme qu'elle vient d'accoucher. Mais ni le bébé ni le sang ne sont les siens. Les mensonges se succèdent dans ce documentaire sur un crime réel.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1329471",
+      "type": "movie",
+      "name": "Carolina Caroline",
+      "poster": "https://image.tmdb.org/t/p/w500/9Jkylw7Y5NQyi7C8IwXLBvVSrH2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5dE3rixgMUTXOQLuO3zya4zSFav.jpg",
+      "description": "Dans sa petite ville tranquille du Texas, Caroline rencontre Oliver, un escroc charismatique, et se laisse rapidement envoûter par lui et ses combines. Ensemble, ils prennent la fuite et, au cours de leur périple fougueux et romantique à travers le Sud, ils sèment la pagaille, le crime et la passion sur leur passage, à la recherche de la mère de Caroline, dont elle est séparée. Mais lorsque de petits larcins se transforment en braquages ​​de plus en plus audacieux, le duo devient un « Bonnie et Clyde » des temps modernes et doit user de tous les stratagèmes pour échapper à la police.",
       "releaseInfo": "2026"
     }
   ]

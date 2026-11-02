@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1813355",
+      "type": "movie",
+      "name": "La Légende de Derry",
+      "poster": "https://image.tmdb.org/t/p/w500/95jDCfMC1MNXowaXxPpHuWP5zAr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z26LxXDMmAIzKr06FPDudCJyvsM.jpg",
+      "description": "Des centaines d’années avant Pennywise, trois jeunes s’aventurent dans la forêt de l’Ouest où ils rencontrent un esprit ancien terrifiant.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1330021",
       "type": "movie",
       "name": "De si remarquables créatures",
@@ -167,15 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/pUX1bc1YPGUcu1RQoCfmVrQvYdE.jpg",
       "background": "https://image.tmdb.org/t/p/w780/n8Vh6cdEvn8XtnmoEeqzomv6SYJ.jpg",
       "description": "M. K, un magicien itinérant, se retrouve dans un cauchemar kafkaïen lorsqu'il ne trouve pas la sortie de l'hôtel dans lequel il a dormi. Ses tentatives pour sortir ne font que l'entraîner plus profondément, l'emmêlant encore plus avec l'hôtel et ses curieux habitants.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:850439",
-      "type": "movie",
-      "name": "The Damned",
-      "poster": "https://image.tmdb.org/t/p/w500/fAXDQny8kEquc1BImiQHhYMGSsW.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zGT6zikFjC5wRROXbPIipKahZn8.jpg",
-      "description": "Au 19ème siècle, un village de pêcheurs islandais tente tant bien que mal de survivre à un hiver extrêmement rigoureux. Aussi, lorsqu’un navire inconnu qui semble avoir traversé l’enfer coule au large des côtes, la décision d’aller le secourir ou non divise les habitants. D’où vient ce navire ? Qui sont ses passagers ? Que transporte-t-il ? Mais surtout, que lui est-il arrivé ?",
       "releaseInfo": "2025"
     }
   ]

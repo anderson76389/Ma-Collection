@@ -5,14 +5,16 @@
       "type": "series",
       "name": "Secret Life of a Vegas Casino",
       "poster": "https://image.tmdb.org/t/p/w500/xyfxV0s0mBRs1NsgYJ3cBlmyLSo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/h6g4QtrLIh7EcPdFObAdvYIYL3C.jpg",
       "releaseInfo": "2026"
     },
     {
       "id": "tmdb:317265",
       "type": "series",
-      "name": "Conspiracies & Coverups",
+      "name": "Secrets, complots et manipulations",
       "poster": "https://image.tmdb.org/t/p/w500/267R91mdS8Sb3XBgdpr033REWKW.jpg",
       "background": "https://image.tmdb.org/t/p/w780/otmrP3wuZd9YD5LGRuDpd7v5qWZ.jpg",
+      "description": "Andrew Bustamante, ancien agent secret de la CIA, dévoile la vérité qui se cache derrière certaines des théories du complot les plus sensationnelles, « tirées des gros titres », dans cette toute nouvelle série. Animé par une quête inlassable de la vérité, Bustamante lève le voile sur des mystères contemporains qui brouillent la frontière entre réalité et fiction. Fort de son point de vue unique et de ses techniques d’initié, il enquête, met à l’épreuve et remet en question les récits dominants afin de révéler les forces cachées derrière ces événements et les motivations utilisées pour manipuler la vérité.",
       "releaseInfo": "2026"
     },
     {

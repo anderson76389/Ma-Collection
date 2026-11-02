@@ -1,6 +1,86 @@
 {
   "metas": [
     {
+      "id": "tmdb:1813355",
+      "type": "movie",
+      "name": "La Légende de Derry",
+      "poster": "https://image.tmdb.org/t/p/w500/95jDCfMC1MNXowaXxPpHuWP5zAr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z26LxXDMmAIzKr06FPDudCJyvsM.jpg",
+      "description": "Des centaines d’années avant Pennywise, trois jeunes s’aventurent dans la forêt de l’Ouest où ils rencontrent un esprit ancien terrifiant.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:891621",
+      "type": "movie",
+      "name": "Wild Horse Nine",
+      "poster": "https://image.tmdb.org/t/p/w500/hnBtud9vLr9arsUW8nxrzIz2uA4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/b17UWf3LqHgKolQkXckne32qv0.jpg",
+      "description": "Peu avant le coup d'État chilien de 1973, deux agents de la CIA, Chris et Lee, sont envoyés de Santiago vers l'île de Pâques par leur supérieur, MJ. Au milieu des statues emblématiques de l'île, tandis que ces partenaires de longue date sont confrontés à leur sombre passé et aux complots en cours, Chris noue une relation avec deux étudiantes rebelles qui menace de faire basculer dans le chaos leur séjour dans ce paradis isolé…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1294189",
+      "type": "movie",
+      "name": "The Mongoose",
+      "poster": "https://image.tmdb.org/t/p/w500/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iRIhPqqoUHiFBxn8oYf3gCQnaKk.jpg",
+      "description": "Accusé à tort d'un crime et n'ayant rien à perdre, un héros de guerre qui lutte contre le PTSD entraîne la police dans une course-poursuite à tombeau ouvert à travers le pays avec l'aide de ses frères d'armes, tandis qu'un public captivé soutient sa fuite.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1437925",
+      "type": "movie",
+      "name": "Moulin",
+      "poster": "https://image.tmdb.org/t/p/w500/niEnEAPjqc2Mey6IiVPtBun45ZV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bcH6CmYcHuPnAQXUhW0Rr5hFuvc.jpg",
+      "description": "Jean Moulin est parachuté en France occupée pour unifier les réseaux de la Résistance, sous l’égide du général de Gaulle. Malgré ses efforts pour rester dans l’ombre, Moulin est trahi puis livré à la Gestapo à Lyon, dirigée par l’impitoyable Klaus Barbie. Torturé sans relâche, il ne cède jamais. Sa détermination silencieuse contribuera à galvaniser les forces de la Résistance et à faire naître un nouvel esprit de combat et de liberté en France…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1430841",
+      "type": "movie",
+      "name": "Le fantôme de l'opéra",
+      "poster": "https://image.tmdb.org/t/p/w500/2aU9dLDES0IdxB4sGYeeoJ7DOjA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5zDqy29V1nuwZiSq60hYaQQcOu1.jpg",
+      "description": "Dans le Paris d'aujourd'hui, Anastasia, jeune danseuse, intègre le prestigieux Opéra de Paris. Alors qu’elle répète l'Orpheus, un opéra maudit qui aurait été composé par le Fantôme de l'Opéra, elle tombe amoureuse d'un mystérieux pianiste. A l’approche de la première représentation, entre accidents inexpliqués et révélations troublantes, Anastasia se trouve plongée dans une histoire d'amour impossible, à la frontière du réel et du fantastique.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1643567",
+      "type": "movie",
+      "name": "Ghosts: The Possession of Button House",
+      "poster": "https://image.tmdb.org/t/p/w500/vdRbC8masrQDyhFHLOGECEMllPV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r87Uwf5yvL69fBWsZHGR2OTbD1A.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1727734",
+      "type": "movie",
+      "name": "Ali G : J'suis qui ?",
+      "poster": "https://image.tmdb.org/t/p/w500/xRieId2D3sqKeyhfwO7iJzjbojb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hJcGJLi34zE4RhzsiDR6f7pw50K.jpg",
+      "description": "Après vingt ans passés à \"se la couler douce, fumer et s'envoyer en l'air\", Ali G découvre que sa petite amie de longue date, Julie, est enceinte de 8 mois. Face à une bouche de plus à nourrir, il se bouge enfin et part aux États-Unis pour retrouver sa gloire d'antan. Mais il se heurte vite à des ennemis qui vont menacer son existence et celle de son enfant.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1480856",
+      "type": "movie",
+      "name": "Au bord du gouffre",
+      "poster": "https://image.tmdb.org/t/p/w500/duZIrDULyk3PBIxoUmKXm3uqlBv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/q90G7OV76xR7NOHu8m19iaudHO1.jpg",
+      "description": "Un mardi matin d'août 2023, un groupe d'enfants partit pour l'école, empruntant un téléphérique de fortune pour traverser un col de montagne du nord-ouest du Pakistan. Ce qui suivit allait faire la une des journaux du monde entier. Soudain, à 275 mètres au-dessus du sol, deux câbles cédèrent, mettant les adolescents en danger de mort.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1437981",
+      "type": "movie",
+      "name": "Les Braves (Coward)",
+      "poster": "https://image.tmdb.org/t/p/w500/qy5ytiCeyR9uW5HsLDOFaOQ8yEr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tW0ZxAcvLNZiSvHnBS2lpNOGB2S.jpg",
+      "description": "Le jeune soldat Pierre veut faire ses preuves sur le front pendant la Première Guerre mondiale. Derrière les lignes, il rencontre Francis, chargé de remonter le moral des troupes.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1418998",
       "type": "movie",
       "name": "Karma",
@@ -19,11 +99,20 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1154730",
+      "type": "movie",
+      "name": "La Gradiva",
+      "poster": "https://image.tmdb.org/t/p/w500/aFrhFiIhdf2klvXq8VFcB06b5pS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aFO0i3bl4d6o0odPix8xgiVsIYT.jpg",
+      "description": "Un groupe de lycéens français part en voyage scolaire à Naples pour découvrir les ruines de Pompéi et ses corps pétrifiés par le Vésuve. C’est là que le vertige les saisit brutalement. L’un après l’autre, ils se laissent submerger par le désir et la colère jusqu’à s’y abandonner complètement.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:858035",
       "type": "movie",
       "name": "Klara et le Soleil",
       "poster": "https://image.tmdb.org/t/p/w500/zJZ1ii7XPAJkdBWKIQN2fyyz5cQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2Zk5jRXUlrfkU3RsutMPMHey1Y.jpg",
       "description": "Lorsque Klara rencontre Josie, chacune perçoit immédiatement chez l'autre une âme soeur. Josie entretient une relation compliquée avec sa mère et toutes deux ont traversé de lourdes épreuves. Mais l'émerveillement sincère de Klara et sa loyauté sans faille commencent peu à peu à apaiser les blessures de cette famille et à apporter de la lumière dans l'univers complexe de Josie.",
       "releaseInfo": "2026"
     },
@@ -40,7 +129,7 @@
       "type": "movie",
       "name": "Clayface",
       "poster": "https://image.tmdb.org/t/p/w500/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg",
       "description": "L'ascension fulgurante de Matt Hagen, de gamin des rues de Gotham à star hollywoodienne, est brutalement interrompue lorsqu'un baron du crime le laisse atrocement défiguré. Abandonné de tous et n'ayant plus rien à perdre, Matt se tourne vers un traitement expérimental qui lui rend miraculeusement son apparence... mais altère profondément sa perception de la réalité. Il sombre alors dans une spirale destructrice, consumé par un irrépressible désir de vengeance.",
       "releaseInfo": "2026"
     },
@@ -80,101 +169,12 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1452110",
+      "id": "tmdb:1536343",
       "type": "movie",
-      "name": "Clean Hands",
-      "poster": "https://image.tmdb.org/t/p/w500/szIEtkFLOMsPX6AVQSfzalNEEDd.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/py3XG3mFkdVMcw7VwfZ4HaXZIIU.jpg",
-      "description": "L'histoire vraie de Kevin Simmers, ancien policier anti-drogue devenu défenseur de la désintoxication, et de sa fille Brooke. Le film explore la crise américaine de la drogue et « la fine ligne bleue » à travers les regards opposés d'un policier et d'une toxicomane, qui étaient également père et fille.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1255833",
-      "type": "movie",
-      "name": "Englouti",
-      "poster": "https://image.tmdb.org/t/p/w500/qLt9F35AdGKDXPSJtqH5DERoigI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg",
-      "description": "Un plongeur sous-marin est à la recherche des restes de son père décédé, qui s'est fait avaler par un cachalot. Il ne lui reste plus qu'une heure avant que l'oxygène ne vienne à lui manquer.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1241803",
-      "type": "movie",
-      "name": "Les Misérables",
-      "poster": "https://image.tmdb.org/t/p/w500/tY3CoBNTCpvJayVRLqIIGDa4Ep8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2IAY24dGrbGnafJ3ENXmCDTDvxg.jpg",
-      "description": "Jean Valjean, un ancien forçat évadé du bagne où il a passé 16 ans pour avoir volé du pain, seconsacre désormais à faire le bien autour de lui. Il se crée une nouvelle identité, celle d'un notable respecté, et vient en aide à Fantine, une ouvrière mourante en lui promettant de sauver sa fille, la petite Cosette, des griffes des Thénardier, des aubergistes qui l'exploitent et la maltraitent. Alors que Valjean prend soin de l'enfant et l'élève comme sa propre fille, son passé finit par le rattraper en la personne de l’inspecteur Javert qui n'a eu de cesse de le pourchasser durant toutes ces années. En dépit de l'agitation sociale qui secoue la France, les destins de Valjean, de Cosette, de son amant Marius et de Javert s'entremêlent dans un Paris bouillonnant et révolutionnaire. À travers des luttes, des sacrifices et un profond désir de justice, Valjean s'efforce d'achever son parcours de rédemption et d'offrir à Cosette un avenir d'amour et de liberté.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:947493",
-      "type": "movie",
-      "name": "Le Corset",
-      "poster": "https://image.tmdb.org/t/p/w500/7RN7uox5vLnMY3GAXKjjGHTkeXR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3e0Lzs4vDSHjRULFw6vPI4jyHd6.jpg",
-      "description": "Dans une ferme au cœur de la Beauce, Christophe, 11 ans, règle ses pas sur ceux de son père. Mais à l’école, à la maison, sur le tracteur, Christophe penche… et tombe. Il est obligé de porter un corset pour filer droit. Tandis que la ferme traverse des moments difficiles, Christophe grandit comme il peut. Il découvre la musique et fait la rencontre de Clara, avec qui tout semble devenir possible.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:848700",
-      "type": "movie",
-      "name": "Minotaure",
-      "poster": "https://image.tmdb.org/t/p/w500/7XH2vaVsishBS0GuCgO3bOXfCaB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/i5HacpkXOKQ85lfbnMO3jXvAnPy.jpg",
-      "description": "Russie, 2022. Gleb, chef d’entreprise prospère, vit avec sa femme Galina et leur fils dans une ville de province. Il se retrouve confronté à des problèmes professionnels croissants, dans un monde de plus en plus instable. L’effondrement d’une vie soigneusement construite bascule rapidement dans la violence.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1153576",
-      "type": "movie",
-      "name": "Street Fighter",
-      "poster": "https://image.tmdb.org/t/p/w500/k53HHxQ4rQG0dME6nsofii3QNS7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qRN8eqYwG6HPSy0i3fKzuLrUOhp.jpg",
-      "description": "En 1993, Ryu et Ken Masters, deux Street Fighters autrefois inséparables, sont replongés dans l’arène lorsque la mystérieuse Chun-Li les recrute pour le prochain World Warrior Tournament : un affrontement brutal où se mêlent poings, destin et fureur. Mais derrière cette battle royale se cache une conspiration mortelle qui les oblige à s’affronter, tout en faisant face aux démons de leur passé… Et s’ils échouent, c’est GAME OVER.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1790935",
-      "type": "movie",
-      "name": "Instadocs: L'IA s'emballe",
-      "poster": "https://image.tmdb.org/t/p/w500/g2emP9oTYXzpNyxgti8GKhjOveB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9EfbnudTOAoiPVOEWL0vwhdbdBq.jpg",
-      "description": "L'IA a-t-elle commis un crime grave? La série enquête sur le piratage de Hugging Face et explique en quoi cette cyberattaque pourrait être un signal d'alarme pour l'humanité.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1742441",
-      "type": "movie",
-      "name": "V/H/S/MIXTAPE",
-      "poster": "https://image.tmdb.org/t/p/w500/uS8yoiA6NfsuYeOTbVfpem8Ib9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yIDZiYea2Bah1yLYz14jlC89WJ5.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1288069",
-      "type": "movie",
-      "name": "Tenzing : à la conquête de l’Everest",
-      "poster": "https://image.tmdb.org/t/p/w500/yjeqiDKgOyrTROU5X4Rck01ldGF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9MdxBPjI58xkzA7RtKX9xRKvlZp.jpg",
-      "description": "Un homme déterminé se lance dans une aventure périlleuse - et brave des obstacles apparemment insurmontables - pour réaliser son rêve d'être le premier à atteindre le sommet de l'Everest.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1236045",
-      "type": "movie",
-      "name": "Animals",
-      "poster": "https://image.tmdb.org/t/p/w500/33MhDOKB0S5VwuaD9lZyV0v0st0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tzoarEu7TsG959upiELyYPm5kO9.jpg",
-      "description": "Quand leur fils est enlevé, un candidat à la mairie de Los Angeles et sa femme s'efforcent de réunir l'argent de la rançon et font des choix qui pourraient bouleverser leur vie.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1429592",
-      "type": "movie",
-      "name": "Ni vue, ni connue",
-      "poster": "https://image.tmdb.org/t/p/w500/sXqiQw6cwZlp4B8OnT3LRGC6wgR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/a6O9MMak7mHDdxwApf2nGlvIs0g.jpg",
-      "description": "Corinne Maclou est figurante. Elle enchaîne les tournages, parcourt inlassablement les plateaux dans le seul espoir d’être remarquée et de décrocher enfin un vrai rôle. Lorsqu’elle fait la connaissance de Sandrine Kiberlain, avec qui elle va peu à peu sympathiser, Corinne espère concrétiser son rêve. Mais la célèbre actrice va-t-elle vraiment l'aider à se faire une place au sein de la grande famille du cinéma ?",
+      "name": "Impossible",
+      "poster": "https://image.tmdb.org/t/p/w500/qXuJHyhTCAG3pmoDs2Zv3r2PvO7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mHZEvxgPPAZzIA0KytHdmWGyczo.jpg",
+      "description": "Un juge et un vieil homme s’affrontent autour de la chute d’un randonneur en montagne. Accident ou meurtre ? Emmanuel Finkiel (\"La douleur\") transpose un roman d’Erri De Luca dans un film (primé à La Rochelle) à la sobre maîtrise, magnifique duel de comédiens au service d’une réflexion sur la justice et l’engagement.",
       "releaseInfo": "2026"
     }
   ]

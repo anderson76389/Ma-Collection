@@ -10,6 +10,15 @@
       "releaseInfo": "2011"
     },
     {
+      "id": "tmdb:2710",
+      "type": "series",
+      "name": "Philadelphia",
+      "poster": "https://image.tmdb.org/t/p/w500/oBBffT1yfQ2zvflMIANI7ra7DNb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/u2K2hyUSds4KzOegsC8Eon9oNf2.jpg",
+      "description": "Un groupe de cinq égoïstes bons à rien sont copropriétaires d'un bar irlandais délabré. Souvent impliqués dans les problèmes, ils ne font rien d'autre à part comploter et se délecter de la misère des autres.",
+      "releaseInfo": "2005"
+    },
+    {
       "id": "tmdb:304842",
       "type": "series",
       "name": "The Drop : Une Saga Snowfall",

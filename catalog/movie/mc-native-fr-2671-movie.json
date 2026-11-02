@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1516724",
+      "type": "movie",
+      "name": "Pour le plaisir",
+      "poster": "https://image.tmdb.org/t/p/w500/2cWdr2n7VNrLEAer6hMPASIP7Px.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eJKKygAF718jp1HhGvH3SMoi5Cv.jpg",
+      "description": "Et si on vous racontait l’invention du siècle ? Un couple, une vérité qui explose. Fanny et Tom sont mariés et heureux depuis 20 ans. Mais un jour un secret éclate : Fanny n’a jamais eu d’orgasme. Tom, ingénieur, décide alors de relever un défi audacieux : créer l’objet qui révolutionnera le plaisir féminin. Ensemble, ils se lancent dans cette quête aussi déjantée qu’émouvante qui va transformer leur couple. Jusqu’où iront-ils ? Loin, très loin.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1255779",
       "type": "movie",
       "name": "Une Fille en or",
@@ -36,6 +45,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1318335",
+      "type": "movie",
+      "name": "Les Rayons et les Ombres",
+      "poster": "https://image.tmdb.org/t/p/w500/TPo1gsNCswrgyxrqdGN44OmPuH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lRi60HBL9fDd3MlouxJU0OUgR2j.jpg",
+      "description": "Jean et Otto, un homme de presse français et un jeune francophile allemand, se battent pour la paix en Europe. La fille de Jean, Corinne, démarre une brillante carrière d'actrice de cinéma. Mais la guerre éclate et la France est occupée. Les deux amis ont un rôle majeur dans cette nouvelle France. Jean trouve la stature d'un grand patron de presse, ardent promoteur de la Collaboration avec l'occupant, Otto devient l'ambassadeur du Reich à Paris. Corinne, se trouve jetée dans la fosse aux lions…",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1471224",
       "type": "movie",
       "name": "Le Crime du 3e étage",
@@ -51,6 +69,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/39XGBgqfBCTCWNiUD1TQDkxGRtk.jpg",
       "background": "https://image.tmdb.org/t/p/w780/jF0cgfoBkmJyknP2nii2NdhChWs.jpg",
       "description": "Professeur à la faculté d’Ankara, Aziz reçoit la « lettre jaune » qui lui signifie arbitrairement sa révocation. Quand sa femme Derya, célèbre comédienne au théâtre national, la reçoit à son tour, c’est le coup de grâce pour le couple. L’un et l’autre, condamnés pour leurs idées, sont obligés de se réfugier à Istanbul chez la mère d’Aziz. Le compromis entre cette précarité nouvelle et leur engagement politique va mettre leur mariage à l’épreuve.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:661603",
+      "type": "movie",
+      "name": "Nuestra Tierra",
+      "poster": "https://image.tmdb.org/t/p/w500/2HeoEQUtoQNiDj0pXVuYjCnZYTj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nZ55S4xzO4y9BztFCfQmBKO5ESD.jpg",
+      "description": "Argentine, 2009. Trois hommes blancs tentent d'expulser les membres de la communauté autochtone de Chuschagasta, revendiquant la propriété des terres. Armés, ils tuent le chef de la communauté, Javier Chocobar. Le meurtre est filmé, et en 2018, après neuf ans d’impunité et des siècles d’histoire coloniale, le procès s’ouvre.",
       "releaseInfo": "2026"
     },
     {
@@ -139,7 +166,7 @@
       "type": "movie",
       "name": "Gourou",
       "poster": "https://image.tmdb.org/t/p/w500/ufdcPu8CdcsC0c73pATNjYXEmMR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/omOIzarzHL4srQeLd5oPlzEReuf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/t77v17Y74eIQDSITsBHtiySOGPr.jpg",
       "description": "Matt est le coach en développement personnel le plus suivi de France. Dans une société en quête de sens où la réussite individuelle est devenue sacrée, il propose à ses adeptes une catharsis qui électrise les foules autant qu'elle inquiète les autorités. Sous le feu des critiques, Matt va s'engager dans une fuite en avant qui le mènera aux frontières de la folie et peut-être de la gloire...",
       "releaseInfo": "2026"
     },
@@ -150,33 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/yJ013hlggkUTckwxYN5wGCIdycA.jpg",
       "background": "https://image.tmdb.org/t/p/w780/4ybz4iMieWkfSPy9yB7yjAKxUqc.jpg",
       "description": "Marie, pasteure ivoirienne et ancienne journaliste, vit à Tunis. Elle héberge Naney, une jeune mère en quête d'un avenir meilleur, et Jolie, une étudiante déterminée qui porte les espoirs de sa famille restée au pays. Quand les trois femmes recueillent Kenza, 4 ans, rescapée d'un naufrage, leur refuge se transforme en famille recomposée tendre mais intranquille dans un climat social de plus en plus préoccupant.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1433087",
-      "type": "movie",
-      "name": "Love on Trial",
-      "poster": "https://image.tmdb.org/t/p/w500/mGRzr87hf74rAiz5zFiFSkRaOkI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/eBMrvczvSBzn9fjBfUGKvKgtnsK.jpg",
-      "description": "Jeune idole de la pop en pleine ascension, Mai commet l’irréparable : tomber amoureuse, malgré l’interdiction formelle inscrite dans son contrat. Lorsque sa relation éclate au grand jour, Mai est traînée par sa propre agence devant la justice. Confrontés à une machine implacable, les deux amants décident de se battre pour défendre leur droit le plus universel : celui d’aimer.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:696393",
-      "type": "movie",
-      "name": "Cold Storage",
-      "poster": "https://image.tmdb.org/t/p/w500/6VEXLZt3gEiCuPnl666nak3OXKW.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/puqQGxK9HYITUKhCdREg3XOLlZd.jpg",
-      "description": "Il y a plusieurs dizaines d'années, un micro-organisme hautement infectieux et en constante mutation - capable d'une destruction de niveau extinction - a été contenu dans une installation militaire. Aujourd'hui, l'armée a scellé le sous-sol le plus bas de l'installation et a vendu l'espace restant à une société de self-stockage. Alors que la température augmente sous terre, le micro-organisme trouve un moyen de s'échapper. Si on le laisse se propager, il va bientôt se multiplier de manière incontrôlée dans le monde entier. Le sort de l'humanité repose maintenant sur un agent de bioterrorisme à la retraite et deux héros improbables employés dans l'installation - qui sont pris dans une course contre la montre pour détruire l'organisme et sauver l'humanité.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1291659",
-      "type": "movie",
-      "name": "Le Mage du Kremlin",
-      "poster": "https://image.tmdb.org/t/p/w500/efxlwMqMiZzDF2DABswC5VWptRC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bDBVzSp24aesVWJBBmWxDcoOSRw.jpg",
-      "description": "Russie, au début des années 1990, au lendemain de l'effondrement de l'URSS. Dans un nouveau monde qui promet la liberté et flirte avec le chaos, un jeune artiste devenu producteur de télé-réalité, Vadim Baranov, devient de manière inattendue le conseiller officieux d’un ancien agent du KGB, Vladimir Poutine. Plongé au cœur du système, Baranov devient un rouage central de la nouvelle Russie, façonnant les discours, les images, les perceptions.",
       "releaseInfo": "2026"
     }
   ]

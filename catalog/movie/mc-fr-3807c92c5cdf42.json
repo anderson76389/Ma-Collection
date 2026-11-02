@@ -31,7 +31,7 @@
       "id": "tmdb:1148365",
       "type": "movie",
       "name": "Matchbox – Le film",
-      "poster": "https://image.tmdb.org/t/p/w500/vSgnJDw404JUokiy5NDZgXOi01E.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/5MRpLuZ1lnHNABHMhMowezKQnO9.jpg",
       "background": "https://image.tmdb.org/t/p/w780/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg",
       "description": "Des amis d'enfance reprennent contact et les retrouvailles prennent une tournure inattendue quand ils découvrent un dangereux complot international et doivent sauver le monde.",
       "releaseInfo": "2026"
@@ -74,8 +74,8 @@
     {
       "id": "tmdb:1377237",
       "type": "movie",
-      "name": "Runner",
-      "poster": "https://image.tmdb.org/t/p/w500/6DQkNOhW7p9PwxWTDuZy8tnXozK.jpg",
+      "name": "Le Transport",
+      "poster": "https://image.tmdb.org/t/p/w500/4gRzxdF2IEGiANKEDVtjMuNl12n.jpg",
       "background": "https://image.tmdb.org/t/p/w780/npXZNWjOEYrqdMDPQ11SGBrXqAG.jpg",
       "description": "Un ancien soldat se retrouve engagé dans une course contre la montre lorsqu’une livraison médicale essentielle fait de lui et de son partenaire improbable la cible d’un cartel impitoyable. La mission se transforme rapidement en une chasse à l’homme meurtrière, où chaque détour, chaque retard et chaque balle les rapprochent de l’échec. Traqués de toutes parts, ils doivent survivre à cette poursuite et livrer leur cargaison à temps pour sauver la vie d’une petite fille.",
       "releaseInfo": "2026"
@@ -134,6 +134,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1384216",
+      "type": "movie",
+      "name": "The Dog Stars",
+      "poster": "https://image.tmdb.org/t/p/w500/w7c49Qgp3TAUC4hlo0mtgRpLOGG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3k7GzxOdLZkN3eZsuhLi2eRzkXO.jpg",
+      "description": "Dans un futur proche où une pandémie sans nom a décimé la société américaine, Hig, un pilote vit sur une base aérienne abandonnée du Colorado avec son chien et un ex-marine. Lorsqu'une transmission aléatoire passe par la radio de son Cessna 1956, la voix fait naître au plus profond du pilote l'espoir qu'une vie meilleure existe en dehors de leur périmètre étroitement contrôlé...",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1288445",
       "type": "movie",
       "name": "Mutiny",
@@ -156,7 +165,7 @@
       "type": "movie",
       "name": "Spider-Man : Brand New Day",
       "poster": "https://image.tmdb.org/t/p/w500/6OEtkkzoyusZDm2uMJojlWZSLR9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/r08LxMJCbf1SiJIWeyH9aJmdqwC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4tjxYg2AbOzzG9G1YuiT2NzYhlH.jpg",
       "description": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttant contre le crime dans un New York qui ne le reconnaît plus, il se consacre entièrement à la protection de la ville - un Spider-Man à plein temps - mais à mesure que les responsabilités s'intensifient, la pression provoque une transformation physique surprenante qui menace son existence, tandis qu'une étrange nouvelle vague de crimes donne naissance à l'une des menaces les plus redoutables qu'il ait jamais affrontées.",
       "releaseInfo": "2026"
     },
@@ -164,18 +173,9 @@
       "id": "tmdb:980431",
       "type": "movie",
       "name": "‎Avatar Aang, le dernier maître de l'air",
-      "poster": "https://image.tmdb.org/t/p/w500/sJDjdYGDFdx9uftetPPjH7Jwing.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/gBZIjh69mhy0hcmYk4TJ8UcPH3v.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ezbrL1dMymKQZw7mDEWa2ZTzN7d.jpg",
       "description": "Avatar Aang, le dernier Maître de l'Air, apprend l'existence d'un pouvoir ancestral qui pourrait sauver sa culture. Avec ses amis, il se lance dans une quête mondiale pour le trouver avant qu'il ne tombe entre de mauvaises mains.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:87513",
-      "type": "movie",
-      "name": "Motor City",
-      "poster": "https://image.tmdb.org/t/p/w500/rKws4iqKhrzWHVLHnwtMnCpEHhF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/l7asYmqOad01F2u0oCMM8nQjoEP.jpg",
-      "description": "À Détroit dans les années 1970, John Miller sort de prison. Il décide alors de se venger et de récupérer la femme qu'il aime, Sophia.",
       "releaseInfo": "2026"
     }
   ]

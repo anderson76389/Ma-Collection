@@ -9,19 +9,19 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:333359",
-      "type": "series",
-      "name": "ライフトレード",
-      "poster": "https://image.tmdb.org/t/p/w500/wQxziim1O4577TaKOF6zUN5ccI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6oGPrA82ioCLQq9Jtg6SSGdYfNw.jpg",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:332635",
       "type": "series",
       "name": "赤灯えれじい",
       "poster": "https://image.tmdb.org/t/p/w500/aPmUvJi2OJNJy632zohALjB2gui.jpg",
       "background": "https://image.tmdb.org/t/p/w780/hcbJIOv31UPuHlJjcVN5RwP9ZXZ.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:333359",
+      "type": "series",
+      "name": "ライフトレード",
+      "poster": "https://image.tmdb.org/t/p/w500/wQxziim1O4577TaKOF6zUN5ccI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6oGPrA82ioCLQq9Jtg6SSGdYfNw.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -56,6 +56,14 @@
       "name": "ごーすと・みーつ・ぎゃる！",
       "poster": "https://image.tmdb.org/t/p/w500/lmckivRH2w5KDzCaX3jc9EWAFPj.jpg",
       "background": "https://image.tmdb.org/t/p/w780/tRKExfBgUi4LzZ4z1bZ0W7RRg6w.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:326139",
+      "type": "series",
+      "name": "リーガルビート –逆転の法廷–",
+      "poster": "https://image.tmdb.org/t/p/w500/zrMJPMYsWG15ttAJs6kxLzDpG03.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/g0Gzt5BGkngleSvqWDVrUYBHvbD.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -158,15 +166,6 @@
       "name": "惡の華",
       "poster": "https://image.tmdb.org/t/p/w500/fCWE43hyq64a2KrhPNTFgoH7rK5.jpg",
       "background": "https://image.tmdb.org/t/p/w780/8xresvXWN0pzQH9gyQ9sY14K7bw.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:305567",
-      "type": "series",
-      "name": "Eren the Southpaw",
-      "poster": "https://image.tmdb.org/t/p/w500/8Qnw5PtScEEOdlEWsGN5cwPYwGQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4lfbfiNYyiM27U6BwT94taynXXH.jpg",
-      "description": "Hidarikiki no Eren suit les destins croisés de deux amis d'enfance : d'un côté, Koichi, designer dans une agence de communication réputée, qui peine à voir une perspective heureuse dans sa carrière jusqu'au jour où un gros contrat lui est proposé et de l'autre, Eren, une jeune fille qui mène une vie d'artiste de rue indépendante aux États-Unis.",
       "releaseInfo": "2026"
     }
   ]

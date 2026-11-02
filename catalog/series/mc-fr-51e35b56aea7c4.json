@@ -19,6 +19,14 @@
       "releaseInfo": "1999"
     },
     {
+      "id": "tmdb:23318",
+      "type": "series",
+      "name": "The Daytime Emmy Awards",
+      "poster": "https://image.tmdb.org/t/p/w500/uBbdeUjskJa0ASfcO1B3JBb20tC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kJLwKqiRavPD73JwpUuuTpWZKNb.jpg",
+      "releaseInfo": "1974"
+    },
+    {
       "id": "tmdb:261107",
       "type": "series",
       "name": "Trivial Pursuit",

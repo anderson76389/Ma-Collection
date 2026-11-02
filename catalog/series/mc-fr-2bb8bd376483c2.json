@@ -28,6 +28,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:256694",
+      "type": "series",
+      "name": "Adventure Time : Les Quêtes Bonus",
+      "poster": "https://image.tmdb.org/t/p/w500/keol24oIVjZjomu4jznMXvnvghL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/l75H7ymGd96jPWdIjvOXW0qvEM4.jpg",
+      "description": "Alors qu'il n'était encore qu'un enfant, Finn était déjà impatient de combattre des monstres et de participer à des quêtes épiques avec son meilleur ami, Jake.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:229544",
       "type": "series",
       "name": "Among Us",
@@ -50,7 +59,7 @@
       "type": "series",
       "name": "Regular Show : Les cassettes oubliées",
       "poster": "https://image.tmdb.org/t/p/w500/gZuwOtqQRPvLOhLV21qfaC3tIxS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/Zk5UmvJ634LhA56R18h8RfipFG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/43Tu4TnFO57R6eK6XUBFGJrazrZ.jpg",
       "description": "Mordecai, un geai bleu, et Rigby, un raton laveur, deux amis paresseux, travaillent dans un parc municipal. Mais, quoi qu'ils entreprennent, leurs tâches quotidiennes finissent invariablement par basculer dans un chaos totalement surréaliste, au grand désespoir de leur patron et de leurs collègues...",
       "releaseInfo": "2026"
     },
@@ -168,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/22nh2kTuFpitrqTxxixhWjxEqFa.jpg",
       "background": "https://image.tmdb.org/t/p/w780/eqZjZGHa1mZYBPHUHOX2LSzzCsS.jpg",
       "description": "Le créateur de \"BoJack Horseman\" signe cette comédie d'animation qui suit la vie d'une famille sur plusieurs années, de l'enfance à l'âge adulte et inversement.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:241388",
-      "type": "series",
-      "name": "Eyes of Wakanda",
-      "poster": "https://image.tmdb.org/t/p/w500/yuOfb1MgnaGPa4guzV0n1IFYVGN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cWO5NDkKqpOuwxu4vFc4PtL8aNF.jpg",
-      "description": "À travers l'histoire du Wakanda, des braves guerriers ont été obligé de traverser le monde afin de retrouver de dangereux artefacts de vibranium. Voici leur histoire.",
       "releaseInfo": "2025"
     }
   ]

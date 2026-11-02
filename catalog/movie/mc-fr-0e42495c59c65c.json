@@ -21,7 +21,7 @@
       "id": "tmdb:980431",
       "type": "movie",
       "name": "‎Avatar Aang, le dernier maître de l'air",
-      "poster": "https://image.tmdb.org/t/p/w500/sJDjdYGDFdx9uftetPPjH7Jwing.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/gBZIjh69mhy0hcmYk4TJ8UcPH3v.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ezbrL1dMymKQZw7mDEWa2ZTzN7d.jpg",
       "description": "Avatar Aang, le dernier Maître de l'Air, apprend l'existence d'un pouvoir ancestral qui pourrait sauver sa culture. Avec ses amis, il se lance dans une quête mondiale pour le trouver avant qu'il ne tombe entre de mauvaises mains.",
       "releaseInfo": "2026"
@@ -106,6 +106,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1049574",
+      "type": "movie",
+      "name": "Hatch : Protection rapprochée",
+      "poster": "https://image.tmdb.org/t/p/w500/ensF9RUz3RZbLuFNuLVNwv5y6U5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rSRA1p4e3laAAJflzdgtqNlx27Y.jpg",
+      "description": "Quand une de ses informatrices est tuée lors d'un raid qui a mal tourné, Russell Hatch, un agent d'Interpol, devient le protecteur de son fils Jayden. Des années plus tard, alors que la guerre des gangs fait rage, Jayden et son oncle sont sous la menace d'un gang sans pitié en pleine guerre de territoires. Hatch ne va reculer devant rien pour remplir son devoir et combattre tous ceux, ennemis ou prétendus alliés, qui se mettent en travers de son chemin.",
+      "releaseInfo": "2025"
+    },
+    {
       "id": "tmdb:1354518",
       "type": "movie",
       "name": "Les 100 nuits de héro",
@@ -165,15 +174,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/9BYv5epSgxgl293IlB8PsRVhd5a.jpg",
       "background": "https://image.tmdb.org/t/p/w780/6n9TvXnU9dbooBf0CIynTWyDPgV.jpg",
       "description": "Il se passe quelque chose d’étrange dans la Jungle des Ombres : les animaux nocturnes qui la peuplent s’enfuient en masse ! Etonnés par cette migration soudaine, Tracker et Carlos sont bien décidés à débusquer le responsable de cette fuite. Mais lorsque le pont menant à la jungle cède sous le poids des opossums, tapirs et autres pumas, seule la Pat’ Patrouille peut les aider !  Après un sauvetage in extremis, nos chiens préférés s’enfoncent dans la mystérieuse Jungle des Ombres, au grand dam de Tracker, qui déteste le noir. Dans l’obscurité, ils feront la rencontre de Lucita Mala, convaincue que ces terres lui appartiennent et déterminée à en chasser tous les animaux.  Aidé de ses amis, Tracker parviendra-t-il à surmonter sa peur ? La Pat’ Patrouille permettra-t-elle aux animaux nocturnes de retourner chez eux sains et saufs ?",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1215798",
-      "type": "movie",
-      "name": "L'Ultime Round",
-      "poster": "https://image.tmdb.org/t/p/w500/aC6lOgbpt4on9Dkv1A5oGcI5sRk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/eHmyIxA2EFWyTtMr2kjiRxGUxXY.jpg",
-      "description": "Un boxeur à la retraite qui se voit offrir une dernière chance de gloire. Avec seulement six jours pour atteindre le poids requis pour un combat pour le titre, son obsession le laisse à la merci d'un entraîneur mal famé qui lui demande de donner tout ce qu'il a, tant physiquement que mentalement. Caitlin incarne la seule personne dans son entourage qui tente de le ramener du bord du gouffre.",
       "releaseInfo": "2025"
     }
   ]

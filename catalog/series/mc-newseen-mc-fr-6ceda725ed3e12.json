@@ -1,30 +1,93 @@
 {
   "metas": [
     {
-      "id": "tmdb:1426",
+      "id": "tmdb:194766",
       "type": "series",
-      "name": "Luther",
-      "poster": "https://image.tmdb.org/t/p/w500/hDxOMX8zzH1FiqKWVBzNaYGBkle.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/A2qdFRq9oJDC5E7fbgSS4POUMDF.jpg",
-      "description": "Un inspecteur de police consciencieux tente de ne pas partir à la dérive tandis qu'il démêle les facteurs psychologiques qui sous-tendent ses affaires criminelles.",
-      "releaseInfo": "2010"
+      "name": "L'Été où je suis devenue jolie",
+      "poster": "https://image.tmdb.org/t/p/w500/1UjOeSZHunQqpSimmobGCWzkuXh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jCQV3rHNbgHKo3N4G6CARbVEjPV.jpg",
+      "description": "Isabel « Belly » Conklin passe ses étés à Cousin's Beach avec sa mère et son frère aîné, ainsi que le meilleur ami de sa mère et ses fils. Au cours d'un été bien précis, elle va connaître son premier amour mais aussi sa première peine de cœur.",
+      "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:1480",
+      "id": "tmdb:48866",
       "type": "series",
-      "name": "Ally McBeal",
-      "poster": "https://image.tmdb.org/t/p/w500/weS8htxS2j0EQ6jorK3WOR1dZpH.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xCMs3IxaGqKSc5cwngRUlhmjbwl.jpg",
-      "description": "Charmante, romantique, hystérique, excessive et passionnée, Ally McBeal n'en reste pas moins une brillante avocate qui défend farouchement les intérêts du Cabinet Cage & Fish en suivant ses sentiments.",
-      "releaseInfo": "1997"
+      "name": "Les 100",
+      "poster": "https://image.tmdb.org/t/p/w500/1ePsCN6vpduAX1LxEdqfbwfS4nf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8ZerYKvIaNUJZvAHXYTQu4qTwFw.jpg",
+      "description": "Après une apocalypse causée par l'Homme lors d'une Troisième Guerre mondiale, les survivants se réfugient dans des stations spatiales et parviennent à y vivre et à se reproduire, atteignant le nombre de 4000. Mais 97 ans plus tard, le vaisseau mère, The Ark, est en piteux état. Une centaine de jeunes délinquants, emprisonnés au fil des années pour des crimes ou des trahisons, sont choisis comme cobayes par les autorités pour redescendre sur Terre et tester les chances de survie. Dès leur arrivée, ils découvrent un nouveau monde dangereux mais fascinant…",
+      "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:120911",
+      "id": "tmdb:4386",
       "type": "series",
-      "name": "The Terminal List",
-      "poster": "https://image.tmdb.org/t/p/w500/1dRsDRj8tfvTbNyJDItdBLNVsO7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2qS2LGqsAyT1NEDeIj24Hp2IR10.jpg",
-      "description": "Le commandant James Reece décide de se venger alors qu'il soupçonne que des puissances mystérieuses sont derrière le meurtre de toute son unité. Libéré de son obéissance à l'armée, il va appliquer les leçons qu'il a apprises pendant ses vingt ans au service de la traque de coupables.",
+      "name": "Alerte à Malibu",
+      "poster": "https://image.tmdb.org/t/p/w500/6qcHgLbhz2cncGFi9d4PQkpEdZX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yXuZVMnOEsIhx1vtu9kJGpzmjGN.jpg",
+      "description": "Une brigade de sauvetage du comté de Los Angeles (L.A. County Beach Patrol) menée par le lieutenant Mitch Buchannon et composée d'une dizaine de sauveteurs doit faire face chaque jour aux dangers de la plage de Malibu, tout en composant avec leur vie personnelle.",
+      "releaseInfo": "1989"
+    },
+    {
+      "id": "tmdb:64432",
+      "type": "series",
+      "name": "The Magicians",
+      "poster": "https://image.tmdb.org/t/p/w500/vMXD0GNUDUmP0nmjHg5iYG5b9EB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qb9vehNFxTpPrazhD7JJ6QtEtCv.jpg",
+      "description": "Bientôt diplômé, Quentin Coldwater a du mal à se projeter dans son avenir en laissant de côté la magie qui le passionne depuis sa tendre enfance. A sa grande surprise, le jeune homme est admis à Brakebills, une école secrète qui forme les futurs magiciens. Il y fait la connaissance d'Alice, Penny, Margo et Eliot , avec lesquels il entretient des relations tantôt complices et souvent conflictuelles. Ensemble, ils vont pourtant devoir faire face à de grands dangers, des forces maléfiques venues de contrées insoupçonnées. Pendant ce temps, Julia, la meilleure amie de Quentin, qui a échoué aux tests d'admission de Brakebills, suit son propre chemin. Un chemin obscur et dangereux qui pourrait la mener à sa perte…",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:36",
+      "type": "series",
+      "name": "Medium",
+      "poster": "https://image.tmdb.org/t/p/w500/gT3GmkEKyZDvvf8a0l0FDoSlGtk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dVpAGo3TT2IjDyRuKwhNfe9E1A5.jpg",
+      "description": "Allison Dubois est une jeune femme et mère de trois enfants qui veut devenir avocate. Depuis son enfance, elle possède le pouvoir d'entendre les morts, lire les pensées des autres et voir l'avenir dans ses rêves. Son mari, ingénieur aéronautique, est convaincu que sa femme dit la vérité. Mais le plus dur reste à faire: convaincre les autorités que rien de tout cela n'est un canular et qu'elle peut réellement aider la justice.",
+      "releaseInfo": "2005"
+    },
+    {
+      "id": "tmdb:61599",
+      "type": "series",
+      "name": "Flynn Carson et les Nouveaux Aventuriers",
+      "poster": "https://image.tmdb.org/t/p/w500/zJz5otWqzCaSOMSMiyp6hkxMmn3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1EBMUCxPjGQneeyshurFBpqXVL9.jpg",
+      "description": "Dans le sous-sol de la Grande bibliothèque de New York, l'aventurier bibliothécaire Flynn Carsen a pour mission de protéger le secret d'objets aux pouvoirs extraordinaires. Il recrute quatre personnes parmi les plus grands cerveaux et les meilleurs talents pour lutter contre la Confrérie des serpents. Cette organisation malveillante veut contrôler la magie noire, et ce, même si la civilisation pourrait sombrer dans le chaos et la violence. Les bibliothécaires et leur protectrice, la colonelle Eve Baird, voyagent à travers le monde afin d'enquêter sur des phénomènes étranges.",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tmdb:79593",
+      "type": "series",
+      "name": "Magnum",
+      "poster": "https://image.tmdb.org/t/p/w500/kQpHMcmjX54oY0QuVYKR39VC7C2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/x40yXVPV8tPbuWAjSPGAGauDrhj.jpg",
+      "description": "A son retour d'Afghanistan, Thomas Magnum, officier décoré de l'unité d'élite des SEAL de la Marine américaine, s'installe à Hawaï. Tout en assurant la sécurité du domaine du richissime Robin Master, Magnum, hébergé sur la propriété dans la maison des invités, officie en tant que détective privé. Pour l'aider à résoudre ses enquêtes, le jeune homme peut compter sur ses frères d'armes, TC et Rick. Quant à Juliet Higgins, la majordome du domaine, accompagnée de ses dobermans Zeus et Apollon, elle se charge de garder un œil sur Magnum en veillant à ce qu'il n'abuse pas de la générosité de Robin Master.",
+      "releaseInfo": "2018"
+    },
+    {
+      "id": "tmdb:94954",
+      "type": "series",
+      "name": "Hazbin Hotel",
+      "poster": "https://image.tmdb.org/t/p/w500/d8j99fkmRnQzfygdsOX0sQYexmY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9K6QtLqyocVHgIZe4yqCIl1q2ZR.jpg",
+      "description": "Charlie Morningstar, la Princesse de l'Enfer, lutte pour convaincre les démons et les anges que n'importe quelle âme peut être rachetée. Venez chanter devant cette comédie musicale animée pour adultes sur la rédemption.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:693",
+      "type": "series",
+      "name": "Desperate Housewives",
+      "poster": "https://image.tmdb.org/t/p/w500/zLqW1yC10RyjG7qgxJRPRqSzbY6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hW9NOFs8xUevb90KQYHhbifp9Po.jpg",
+      "description": "Derrière une façade tirée d'une carte postale vivent quatre femmes dont l'existence est tout sauf idéale. Susan est maladroite, divorcée et mère d'une adolescente nommée Julie. Lynette est mariée avec Tom et ont quatre enfants tapageurs qui la poussent à bout. Bree est la Martha Stewart du voisinage, dont la perfection dissimule des problèmes majeurs. Enfin Gabrielle, ex-mannequin mariée avec le séduisant et prospère Carlos, espère avoir le beurre et l'argent du beurre. Leurs vies sont suivies et commentées de tout haut par Mary Alice, une ancienne voisine qui s'est suicidée.",
+      "releaseInfo": "2004"
+    },
+    {
+      "id": "tmdb:84773",
+      "type": "series",
+      "name": "Le Seigneur des anneaux : Les Anneaux de pouvoir",
+      "poster": "https://image.tmdb.org/t/p/w500/8aiJ6pr5ibhHMWe3yOEZQsdkFox.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/achmETPRJZc9QVXsMPgHwYEyNar.jpg",
+      "description": "Divers personnages, connus et inconnus, doivent faire face à la résurgence du mal en Terre du Milieu. Des profondeurs des Montagnes de Brume aux forêts majestueuses du Lindon, de l'île des Rois de Númenor aux contrées les plus éloignées du monde, ces royaumes et personnages vont forger un héritage qui demeurera bien après leur disparition.",
       "releaseInfo": "2022"
     }
   ]

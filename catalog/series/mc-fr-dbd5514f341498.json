@@ -14,7 +14,7 @@
       "type": "series",
       "name": "Phony",
       "poster": "https://image.tmdb.org/t/p/w500/iCyQc8cSSHkxUHbkvzbC77owALt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/g2r69hj61xfhMxnrYm8QyMs0gs1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/roUD5m2nj6k88azMFsiqBae29cr.jpg",
       "description": "À son réveil après un accident de voiture, le lycéen Sonny Cooke trouve sa mère, Ellen, légèrement changée. Le problème, c'est qu'il est le seul à le remarquer et que personne ne le croit. Coincé avec cette femme qu'il soupçonne d'être un dangereux imposteur, Sonny tente de prouver qu'il n'est pas fou.",
       "releaseInfo": "2026"
     },
@@ -23,7 +23,7 @@
       "type": "series",
       "name": "VisionQuest",
       "poster": "https://image.tmdb.org/t/p/w500/bWPktguPGslrdM79SNQt4OWYyJS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uoXXbN2PrOxH6UKyP7kYwmGpAAP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/58v1KFe3rxvHrYM1hLH5ScpwqNR.jpg",
       "description": "Une nouvelle version de Vision ayant échappé à ceux qui cherchaient à faire de lui une arme, vit dans la clandestinité. En quête d’un nouveau sens à sa vie, il consulte les IA intégrées à son programme, notamment Friday, Edith, Jarvis et le tristement célèbre Ultron. Son existence discrète prend fin lorsque sa tête est mise à prix, le contraignant à prendre la fuite avec Thomas Shepherd, un garçon mystérieux qui pourrait bien être la réincarnation du fils de Vision. Tout en échappant à ses poursuivants, Vision doit se confronter à sa propre nature, résister à l’influence d’Ultron et percer le mystère qui entoure son jeune compagnon s’il veut survivre.",
       "releaseInfo": "2026"
     },
@@ -138,9 +138,10 @@
     {
       "id": "tmdb:331999",
       "type": "series",
-      "name": "Disney Sidekick Adventures",
+      "name": "Disney : Les copains des héros",
       "poster": "https://image.tmdb.org/t/p/w500/lK5e3Pb99pXJzFYxB7RZ3WicilF.jpg",
       "background": "https://image.tmdb.org/t/p/w780/2ngXheHci8iHw1ypPntr8uETVom.jpg",
+      "description": "Les copains préférés de Disney se lancent dans de courtes aventures à travers leur univers magique. Vous êtes-vous déjà demandé ce qu'ils font quand ils sont seuls ? Préparez-vous à un tourbillon de fun et de bêtises !",
       "releaseInfo": "2026"
     },
     {

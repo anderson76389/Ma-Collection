@@ -54,15 +54,6 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:295999",
-      "type": "series",
-      "name": "MAO",
-      "poster": "https://image.tmdb.org/t/p/w500/kdti4Dm7XPV0Os2Jjzd188AWTQ3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/c72O2edMsD5QrbEGijBURiZIxk8.jpg",
-      "description": "Devenue orpheline à 7 ans à la suite de la disparition tragique de ses parents, Nanoka Kiba, aujourd’hui collégienne, retourne sur les lieux du drame. Une série de phénomènes inexpliqués la propulse alors dans le Japon du XXe siècle, où elle fait la connaissance de Mao, un exorciste chasseur de yokaï. À la recherche de la créature l’ayant maudit, ce dernier et Nanoka s’allient afin de la retrouver.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:283964",
       "type": "series",
       "name": "Apparences",
@@ -135,15 +126,6 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:272468",
-      "type": "series",
-      "name": "Intraçables",
-      "poster": "https://image.tmdb.org/t/p/w500/cWR0eZfXeab2aBnAiaqBUT7oTc1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rcwsrgWHIsnPn02y1iW6Kmu16ni.jpg",
-      "description": "Après la mort de son mari, une femme croit enfin se reconstruire. Mais une rencontre fait ressurgir un secret enfoui. Traquée par un hacker, elle fuit avec son fils en choisissant la mort numérique, pour échapper à la surveillance et comprendre ce qu'on a voulu leur cacher.",
-      "releaseInfo": "2025"
-    },
-    {
       "id": "tmdb:305199",
       "type": "series",
       "name": "De Gaulle, le commencement",
@@ -177,6 +159,24 @@
       "poster": "https://image.tmdb.org/t/p/w500/ppWo7Nij9IbgHia13PxT6tqfNhC.jpg",
       "background": "https://image.tmdb.org/t/p/w780/kG2mHHu136bviY53DDpnsyVNKuA.jpg",
       "description": "De 1972 à 1978, trente-trois jeunes hommes ont été enlevés, assassinés, puis enterrés dans le vide sanitaire sous la maison de leur meurtrier. Et pendant des années, personne ne s’en est douté. Pourquoi ? Parce qu’il était charmant et drôle. Il avait un bon travail et était considéré comme un leader dans sa communauté. Il faisait même du bénévolat pour divertir des enfants malades… déguisé en clown.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:301715",
+      "type": "series",
+      "name": "Armorsaurs",
+      "poster": "https://image.tmdb.org/t/p/w500/hYevUT2EfhMaSayHenGRaiBU5i2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hNXEnTA4a0WeqhoahaBhJRB2G06.jpg",
+      "description": "Les dinosaures sont de retour, et cinq adolescents sont les seuls à pouvoir créer un lien avec eux. C'est à ces héros de revêtir leurs armures et de piloter leurs dinosaures pour combattre le mal et sauver le monde.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:258004",
+      "type": "series",
+      "name": "Bistronomia",
+      "poster": "https://image.tmdb.org/t/p/w500/jIkEeXlW95uHQQogNiyLFfr2fwY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/q2HbbI6GSck5K326gI1h1E4QKVE.jpg",
+      "description": "Paris, octobre 2005. Johanna, Amandine et Vivian, trois amis vingtenaires, gravitent dans le milieu de la restauration. Ils veulent être chefs ou critiques, vivre de leur passion pour la gastronomie. Mais ils étouffent dans cet environnement feutré, où règne la violence patriarcale et l’esprit élitiste de la course aux étoiles. Ils rêvent d’une nouvelle gastronomie démocratique, plus accessible, libérée de l’académisme. Ensemble, ils vont jeter les premières bases d’une révolution des fourneaux.",
       "releaseInfo": "2025"
     }
   ]

@@ -1,130 +1,76 @@
 {
   "metas": [
     {
-      "id": "tmdb:8966",
+      "id": "tmdb:1813355",
       "type": "movie",
-      "name": "Twilight, chapitre 1 : Fascination",
-      "poster": "https://image.tmdb.org/t/p/w500/8phJ4i9m1tBDJbOwwQPvdeWhN2h.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/weAYfu6FfrNxEDJ3xH1XpgQcqUv.jpg",
-      "description": "Isabella Swan, 17 ans, déménage à Forks, petite ville pluvieuse dans l'État de Washington, pour vivre avec son père. Elle s'attend à ce que sa nouvelle vie soit aussi ennuyeuse que la ville elle-même. Or, au lycée, elle est terriblement intriguée par le comportement d'une étrange fratrie, deux filles et trois garçons. Bella tombe follement amoureuse de l'un d'eux, Edward Cullen. Une relation sensuelle et dangereuse commence alors entre les deux jeunes gens : lorsque Isabella comprend que Edward est un vampire, il est déjà trop tard.",
-      "releaseInfo": "2008"
+      "name": "La Légende de Derry",
+      "poster": "https://image.tmdb.org/t/p/w500/95jDCfMC1MNXowaXxPpHuWP5zAr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z26LxXDMmAIzKr06FPDudCJyvsM.jpg",
+      "description": "Des centaines d’années avant Pennywise, trois jeunes s’aventurent dans la forêt de l’Ouest où ils rencontrent un esprit ancien terrifiant.",
+      "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:101",
+      "id": "tmdb:1690",
       "type": "movie",
-      "name": "Léon",
-      "poster": "https://image.tmdb.org/t/p/w500/efqJtlo5J1hBNFmbwyjyAR9Mpr2.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fj0hwDJEOOHllRim2BMt5L7tbjf.jpg",
-      "description": "Léon est un tueur professionnel redoutable et insaisissable. Il vit seul à New York avec sa plante verte et ses habitudes jusqu'au jour où une petite Mathilda de douze ans sonne à sa porte et fait irruption dans sa vie.",
-      "releaseInfo": "1994"
-    },
-    {
-      "id": "tmdb:213",
-      "type": "movie",
-      "name": "La Mort aux trousses",
-      "poster": "https://image.tmdb.org/t/p/w500/fxwVitOtjxw2M2lz9SRmAgJNQMz.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/OR8oloCZ3klJtB7Y0i8pSqWw5a.jpg",
-      "description": "Patron d’une société de publicité new-yorkaise, Roger Thornhill a un rendez-vous d'affaires au Plaza Hotel. Mais il y est enlevé à la suite d'un malentendu : ses ravisseurs le prennent pour un certain George Kaplan. Il se retrouve malgré lui dans la peau de ce Kaplan, un espion que tout désigne comme tel. Pris entre une mystérieuse organisation qui cherche à le supprimer et la police qui le poursuit, Tornhill est dans une situation bien inconfortable. Il fuit à travers les États-Unis, pourchassé par ses ravisseurs, et part à la recherche d'une vérité à laquelle il devra faire face…",
-      "releaseInfo": "1959"
-    },
-    {
-      "id": "tmdb:1124",
-      "type": "movie",
-      "name": "Le Prestige",
-      "poster": "https://image.tmdb.org/t/p/w500/37Fr7lY4QBHsuxlLJIfTNxW6nGW.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yaExZh6qE2cfyK3o4kAMEq0mkgy.jpg",
-      "description": "Londres, au début du siècle dernier… Robert Angier et Alfred Borden sont deux magiciens surdoués, promis dès leur plus jeune âge à un glorieux avenir. Une compétition amicale les oppose d'abord l'un à l'autre, mais l'émulation tourne vite à la jalousie, puis à la haine. Devenus de farouches ennemis, les deux rivaux vont s'efforcer de se détruire l'un l'autre en usant des plus noirs secrets de leur art. Cette obsession aura pour leur entourage des conséquences dramatiques…",
+      "name": "Hostel",
+      "poster": "https://image.tmdb.org/t/p/w500/pbQac6oD2RtHVNrVD9QaY1QgRQk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dF6GNQ0TnZkr1t4wBt36Xc0Pccd.jpg",
+      "description": "Deux étudiants américains, Paxton et Josh, ont décidé de découvrir l'Europe avec un maximum d'aventures et de sensations fortes. Ils se retrouvent à Prague dans ce qu'on leur a décrit comme le nirvana des vacances de débauche. Mais ce voyage va les conduire au bout de l'horreur…",
       "releaseInfo": "2006"
     },
     {
-      "id": "tmdb:550",
+      "id": "tmdb:12444",
       "type": "movie",
-      "name": "Fight Club",
-      "poster": "https://image.tmdb.org/t/p/w500/t1i10ptOivG4hV7erkX3tmKpiqm.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/c6OLXfKAk5BKeR6broC8pYiCquX.jpg",
-      "description": "Le narrateur, sans identité précise, vit seul, travaille seul, dort seul, mange seul ses plateaux‐repas pour une personne comme beaucoup d’autres personnes seules qui connaissent la misère humaine, morale et sexuelle. C’est pourquoi il va devenir membre du Fight club, un lieu clandestin où il va pouvoir retrouver sa virilité, l’échange et la communication. Ce club est dirigé par Tyler Durden, une sorte d’anarchiste entre gourou et philosophe qui prêche l’amour de son prochain.",
-      "releaseInfo": "1999"
+      "name": "Harry Potter et les Reliques de la Mort - 1ère partie",
+      "poster": "https://image.tmdb.org/t/p/w500/yJm61MmTMjOmNXxPxdoaIkdqnOm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5i2QAYnbN5vOZUUolLPYHTb9spe.jpg",
+      "description": "Le pouvoir de Voldemort s'étend dangereusement. Le Seigneur des Ténèbres contrôle désormais le Ministère de la Magie et impose sa domination sur Poudlard, semant la peur et la terreur dans le monde des sorciers. Harry, Ron et Hermione, devenus des fugitifs traqués, s'engagent dans une quête périlleuse pour achever l'œuvre de Dumbledore : retrouver et détruire les Horcruxes, ces fragments d'âme qui rendent Voldemort immortel. Mais isolés, sans protection et confrontés à des dangers constants, les trois amis voient leurs liens mis à rude épreuve. Entre secrets révélés, trahisons et sacrifices, leur mission semble presque impossible, alors que l'ombre du mal menace de tout engloutir. Pourtant, ils savent que leur combat est la seule lueur d'espoir face à l'obscurité croissante.",
+      "releaseInfo": "2010"
     },
     {
-      "id": "tmdb:807",
+      "id": "tmdb:694",
       "type": "movie",
-      "name": "Seven",
-      "poster": "https://image.tmdb.org/t/p/w500/to6jUaLJonMuKW2YovtWfQKtLYP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/i5H7zusQGsysGQ8i6P361Vnr0n2.jpg",
-      "description": "À New York, un criminel anonyme a décidé de commettre 7 meurtres basés sur les 7 pêchés capitaux énoncés dans la Bible : gourmandise, avarice, paresse, orgueil, luxure, envie et colère. Vieux flic blasé à 7 jours de la retraite, l'inspecteur Somerset mène l'enquête tout en formant son remplaçant, l'ambitieux inspecteur David Mills…",
-      "releaseInfo": "1995"
+      "name": "Shining",
+      "poster": "https://image.tmdb.org/t/p/w500/cnniZQGtjK8kh2tsjih4GtkX6bl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AdKA2F1SzYPhSZdEbjH1Zh75UVQ.jpg",
+      "description": "Jack Torrance, gardien d’un hôtel fermé l’hiver, sa femme et son fils Danny s’apprêtent à vivre de longs mois de solitude. Danny, qui possède un don de médium, le «Shining», est effrayé à l’idée d’habiter ce lieu, théâtre marqué par de terribles événements passés…",
+      "releaseInfo": "1980"
     },
     {
-      "id": "tmdb:228150",
+      "id": "tmdb:574475",
       "type": "movie",
-      "name": "Fury",
-      "poster": "https://image.tmdb.org/t/p/w500/7V05gBGiE5LCTKzylIva2nG3JVW.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/95ckrV6wQgbffurAVmETQ5YKASL.jpg",
-      "description": "Avril 1945. Les Alliés mènent leur ultime offensive en Europe. À bord d’un tank Sherman, le sergent Wardaddy et ses 4 hommes s’engagent dans une mission à très haut risque bien au-delà des lignes ennemies. Face à un adversaire dont le nombre et la puissance de feu les dépassent, Wardaddy et son équipage vont devoir tout tenter pour frapper l’Allemagne nazie en plein cœur…",
-      "releaseInfo": "2014"
+      "name": "Destination Finale : Bloodlines",
+      "poster": "https://image.tmdb.org/t/p/w500/4uI8C2zcfLWRhZDBgd0oTlZjV9j.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uIpJPDNFoeX0TVml9smPrs9KUVx.jpg",
+      "description": "Hantée par un cauchemar terrifiant qui revient sans cesse, Stefanie, étudiante à l’université, rentre chez elle pour retrouver la trace de la seule personne susceptible d’enrayer ce cycle infernal et de sauver ses proches du sort funeste qui les attend…",
+      "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:324857",
+      "id": "tmdb:68718",
       "type": "movie",
-      "name": "Spider-Man : New Generation",
-      "poster": "https://image.tmdb.org/t/p/w500/3bSWpsB2PqoTrJhW9cM6tJMDxIm.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1ntePsIqeklfmrQJqZPncCydsqY.jpg",
-      "description": "Spider-Man : New Generation suit les aventures de Miles Morales, un adolescent afro-américain et portoricain qui vit à Brooklyn et s’efforce de s’intégrer dans son nouveau collège à Manhattan. Mais la vie de Miles se complique quand il se fait mordre par une araignée radioactive et se découvre des super-pouvoirs : il est désormais capable d’empoisonner ses adversaires, de se camoufler, de coller littéralement aux murs et aux plafonds ; son ouïe est démultipliée... Dans le même temps, le plus redoutable cerveau criminel de la ville, le Caïd, a mis au point un accélérateur de particules nucléaires capable d’ouvrir un portail sur d’autres univers. Son invention va provoquer l’arrivée de plusieurs autres versions de Spider-Man dans le monde de Miles, dont un Peter Parker plus âgé, Spider-Gwen, Spider-Man Noir, Spider-Cochon et Peni Parker, venue d’un dessin animé japonais.",
-      "releaseInfo": "2018"
-    },
-    {
-      "id": "tmdb:767",
-      "type": "movie",
-      "name": "Harry Potter et le Prince de sang-mêlé",
-      "poster": "https://image.tmdb.org/t/p/w500/A4WWOzWUASfUeESXxduQxVmoD7t.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mITJS77BV4TSqdFB5FPGBc7JKXj.jpg",
-      "description": "Voldemort a renforcé son emprise sur le monde des sorciers aussi bien que sur celui des Moldus, et Poudlard n’est plus un endroit sûr. Harry est d’ailleurs persuadé que le danger rôde à l’intérieur même de l’école mais Dumbledore est plus soucieux de le préparer pour la bataille finale qu’il sent approcher à grands pas. Ensemble, ils tentent de trouver le talon d’Achille de Voldemort et, à cette fin, Dumbledore fait appel au Professeur Horace Slughorn, qui détient des informations cruciales.",
-      "releaseInfo": "2009"
-    },
-    {
-      "id": "tmdb:346698",
-      "type": "movie",
-      "name": "Barbie",
-      "poster": "https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1esAE8sLJRWWFsLLeh5r3g2WanI.jpg",
-      "description": "Parallèlement au réel, il existe Barbie Land, un monde parfait où les poupées Barbie vivent joyeusement, persuadées d'avoir rendu les filles humaines heureuses. Mais un jour, une Barbie commence à se poser des questions et à devenir humaine. Sur les conseils d'une Barbie étrange, elle part pour le monde réel afin de retrouver la fille à laquelle elle appartenait afin de pouvoir retrouver sa perfection. Dans sa quête, elle est accompagnée par un Ken fou amoureux d'elle qui va également trouver un sens à sa vie dans le monde réel…",
-      "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:315635",
-      "type": "movie",
-      "name": "Spider-Man : Homecoming",
-      "poster": "https://image.tmdb.org/t/p/w500/wFNNv1ZHglNdXJLYiEgpLY5sa9S.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lAsr1ytUq0ATWdCbcjf59pupPFy.jpg",
-      "description": "Après ses spectaculaires débuts dans Captain America : Civil War, le jeune Peter Parker découvre peu à peu sa nouvelle identité, celle de Spider-Man, le super-héros lanceur de toile. Galvanisé par son expérience avec les Avengers, Peter rentre chez lui auprès de sa tante May, sous l’œil attentif de son nouveau mentor, Tony Stark. Il s’efforce de reprendre sa vie d’avant, mais au fond de lui, Peter rêve de se prouver qu’il est plus que le sympathique super héros du quartier. L’apparition d’un nouvel ennemi, le Vautour, va mettre en danger tout ce qui compte pour lui...",
-      "releaseInfo": "2017"
-    },
-    {
-      "id": "tmdb:242582",
-      "type": "movie",
-      "name": "Night Call",
-      "poster": "https://image.tmdb.org/t/p/w500/pATJSq0OobFU9DmcKQUqQPpzDET.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bdI6U1mT0kCdTJ6TWtiFxQ42GSn.jpg",
-      "description": "Branché sur les fréquences radios de la police, Lou parcourt Los Angeles la nuit à la recherche d’images choc qu’il vend à prix d’or aux chaînes de TV locales. La course au spectaculaire n'aura aucune limite...",
-      "releaseInfo": "2014"
-    },
-    {
-      "id": "tmdb:49026",
-      "type": "movie",
-      "name": "The Dark Knight Rises",
-      "poster": "https://image.tmdb.org/t/p/w500/ApcGBERN0p9I0nDOIwJeEmpnLU5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/c3OHQncTAnKFhdOTX7D3LTW6son.jpg",
-      "description": "Afin que l'image de l'ex-procureur Harvey Dent reste un modèle du genre pour les citoyens de Gotham City, Batman a endossé les crimes de ce dernier et a été chassé de la ville par les autorités.  Huit ans plus tard, alors que Gotham City est de nouveau sûre, le commissaire Gordon tombe sur un complot qui vise à détruire la ville de l'intérieur.  Il fait appel à Batman. Ce dernier devra faire face à la mystérieuse Selina Kyle et à Bane, un adversaire mortel, qui veut mettre en pièce le symbole Batman.",
+      "name": "Django Unchained",
+      "poster": "https://image.tmdb.org/t/p/w500/vRXUnWrXUgXRoX0BaEcuNMfyeQt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2oZklIzUbvZXXzIFzv7Hi68d6xf.jpg",
+      "description": "Dans le sud des États‐Unis, deux ans avant la guerre de Sécession, le Dr King Schultz, un chasseur de primes allemand, fait l’acquisition de Django, un esclave qui peut l’aider à traquer les frères Brittle, les meurtriers qu’il recherche. Schultz promet à Django de lui rendre sa liberté lorsqu’il aura capturé les Brittle – morts ou vifs. Alors que les deux hommes pistent les dangereux criminels, Django n’oublie pas que son seul but est de retrouver Broomhilda, sa femme, dont il fut séparé à cause du commerce des esclaves… Lorsque Django et Schultz arrivent dans l’immense plantation du puissant Calvin Candie, ils éveillent les soupçons de Stephen, un esclave qui sert Candie et a toute sa confiance. Le moindre de leurs mouvements est désormais épié par une dangereuse organisation de plus en plus proche… Si Django et Schultz veulent espérer s’enfuir avec Broomhilda, ils vont devoir choisir entre l’indépendance et la solidarité, entre le sacrifice et la survie…",
       "releaseInfo": "2012"
     },
     {
-      "id": "tmdb:78",
+      "id": "tmdb:466272",
       "type": "movie",
-      "name": "Blade Runner",
-      "poster": "https://image.tmdb.org/t/p/w500/zHKWxyG4j404HVeSYHNH4niUpkW.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2spEHYDcyE9r9mS7AFEscfKVDzO.jpg",
-      "description": "2019, Los Angeles. La Terre est surpeuplée et l’humanité est partie coloniser l’espace. Les nouveaux colons sont assistés de Replicants, androïdes que rien ne peut distinguer de l'être humain. Conçus comme de nouveaux esclaves, certains parmi les plus évolués s’affranchissent de leurs chaînes et s’enfuient. Rick Deckard, un ancien Blade Runner, catégorie spéciale de policiers chargés de \"retirer\" ces replicants, accepte une nouvelle mission consistant à retrouver quatre de ces individus qui viennent de regagner la Terre après avoir volé une navette spatiale.",
-      "releaseInfo": "1982"
+      "name": "Once Upon a Time... in Hollywood",
+      "poster": "https://image.tmdb.org/t/p/w500/gG5J1KW2Gzj0Sz7al1mGkhXLSoB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kKTPv9LKKs5L3oO1y5FNObxAPWI.jpg",
+      "description": "En 1969, Rick Dalton – star déclinante d'une série télévisée de western – et Cliff Booth – sa doublure de toujours – assistent à la métamorphose artistique d'un Hollywood qu'ils ne reconnaissent plus du tout en essayant de relancer leurs carrières.",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:760104",
+      "type": "movie",
+      "name": "X",
+      "poster": "https://image.tmdb.org/t/p/w500/ep2C0shFTkxPUGLBvsgODWycwU7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/o375tDNib7tihlkWdtLW1fQhNL1.jpg",
+      "description": "Fin des années 70, une équipe de tournage investit une maison isolée du fin fond du Texas pour y réaliser un film X. À la tombée de la nuit, les propriétaires des lieux surprennent les cinéastes amateurs en plein acte. Le tournage vire brutalement au cauchemar.",
+      "releaseInfo": "2022"
     }
   ]
 }

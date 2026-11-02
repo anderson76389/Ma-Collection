@@ -1,12 +1,39 @@
 {
   "metas": [
     {
+      "id": "tmdb:1596275",
+      "type": "movie",
+      "name": "Drive – The Pretenders",
+      "poster": "https://image.tmdb.org/t/p/w500/dbIF1TrQc4X5MODcdRYIh8Hhzyj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hbz4aeVsjnKb2HRoFbbr46Egh8y.jpg",
+      "description": "Une jeune mécanicienne accepte de jouer la fiancée d'un champion automobile en pleine disgrâce, en apparence pour aider à redorer l'image du pilote, en secret pour s'offrir sa chance au volant. Mais le mensonge menace bientôt de tout détruire, y compris ce qui est devenu bien plus qu'un simple arrangement…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1727734",
+      "type": "movie",
+      "name": "Ali G : J'suis qui ?",
+      "poster": "https://image.tmdb.org/t/p/w500/xRieId2D3sqKeyhfwO7iJzjbojb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hJcGJLi34zE4RhzsiDR6f7pw50K.jpg",
+      "description": "Après vingt ans passés à \"se la couler douce, fumer et s'envoyer en l'air\", Ali G découvre que sa petite amie de longue date, Julie, est enceinte de 8 mois. Face à une bouche de plus à nourrir, il se bouge enfin et part aux États-Unis pour retrouver sa gloire d'antan. Mais il se heurte vite à des ennemis qui vont menacer son existence et celle de son enfant.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1561726",
       "type": "movie",
       "name": "Masterplan",
       "poster": "https://image.tmdb.org/t/p/w500/a13BTR3jJWr2ARoLvTC3f5gQhfw.jpg",
       "background": "https://image.tmdb.org/t/p/w780/fAlQZsCOCvxOj0PmFmt4i8IWR2u.jpg",
       "description": "Quand un voleur légendaire jette son dévolu sur La Joconde, il recrute deux jeunes inconnus pour l'aider (Chiara, une experte italienne du cybercrime et Jay, un spécialiste français des explosifs) avant de leur révéler qu'il est leur père. Au milieu de retrouvailles chaotiques, cette nouvelle famille devra apprendre à collaborer et éviter de s'entretuer si elle veut réussir le casse du siècle.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1507696",
+      "type": "movie",
+      "name": "Apocalypse Z : Nouveau Monde",
+      "poster": "https://image.tmdb.org/t/p/w500/hQaxPNX2He3K8bupE0JSX48XNY8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/o3XwuDUj0n8qnK91p6q8LKfr6rj.jpg",
+      "description": "Depuis l'apparition du virus TSJ, les îles Canaries sont devenues le dernier refuge en Europe. Alors qu'une unité part chercher du ravitaillement à Madrid, Roberto se joint à elle avec des intentions troubles. Cernés par les infectés et partagés entre des loyautés contradictoires, ils doivent survivre tout en affrontant un dilemme : suivre les ordres ou tout risquer pour ce qui reste d'humanité.",
       "releaseInfo": "2026"
     },
     {
@@ -98,6 +125,23 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1495114",
+      "type": "movie",
+      "name": "Mermaid Beach",
+      "poster": "https://image.tmdb.org/t/p/w500/1VD9jPmGUkaEQg8h2OI70KApYEr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2eFUv3q2nu0Y4yeRZMJVAzXnYRw.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1329016",
+      "type": "movie",
+      "name": "Tony",
+      "poster": "https://image.tmdb.org/t/p/w500/zsisvReIrSIUPS3JXawt1ib9JDS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uQvz6NdyhoWE6dMurFn0BriLIv9.jpg",
+      "description": "Le jeune Anthony Bourdain débarque un jour par hasard dans l'univers chaotique de la cuisine d'un restaurant, au cours d'un été qui marquera le début de sa légende.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1323244",
       "type": "movie",
       "name": "Rage of Stars",
@@ -130,49 +174,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/oru4SubtHlaGXEv9xtMPELYkGZf.jpg",
       "background": "https://image.tmdb.org/t/p/w780/7RsPdXLDNugDIlwXPVeeprNfMx.jpg",
       "description": "Geppetto présente à son petit-fils, James, une mystérieuse marionnette dotée d'une âme nommée Pinocchio. Ignorant la nature naïve et imprévisible de celle-ci, James fait découvrir le monde extérieur à son nouvel ami. Sous la guidance de Cricket, Pinocchio se lance alors dans une quête sanglante pour éradiquer tout ce qu'il considère comme mauvais et devenir un véritable petit garçon.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1566481",
-      "type": "movie",
-      "name": "Marave",
-      "poster": "https://image.tmdb.org/t/p/w500/7BtD77o0O3v2jlIXpGrR4GKGtMk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/izU1W6ljGsjoSpBC1SSyl72112f.jpg",
-      "description": "Manolo, un gentil ouvrier de fête foraine un peu naïf, n'a pas vu son frère rusé et manipulateur Georges depuis vingt ans. Maintenant Georges, désespéré de prouver qu'il n'est pas un total raté – repère une opportunité en or : transformer Manolo en champion d'arts martiaux mixtes. Facile, non ? Il suffit d'une coach terrifiante nommée Alba, d'un camp d'entraînement au Daghestan, d'un combat (probablement illégal) contre un ours, zéro churros, et d'apprendre à Manolo comment devenir viral sans pleurer. Avant le grand combat, ils devront survivre à quelque chose encore plus difficile : rester une famille.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1705729",
-      "type": "movie",
-      "name": "Man of War",
-      "poster": "https://image.tmdb.org/t/p/w500/vt0RqHlqfUzeiBEVQvp43yY2076.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kMrkqfjuPR4FlfaScrNNYuOEGHa.jpg",
-      "description": "Un vétéran des forces spéciales américaines pénètre en Ukraine, aux tout premiers jours de l'invasion russe, pour sauver sa fille adoptive, une travailleuse humanitaire retenue en otage par des mercenaires russes. Il doit lancer une mission de sauvetage mortelle pour la ramener chez elle saine et sauve.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1721352",
-      "type": "movie",
-      "name": "Shattered Silence: Imitation of a Perfect Life",
-      "poster": "https://image.tmdb.org/t/p/w500/a9ijsVEjKtaevuAhXAyiVJvreYm.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7zKBf4EULoBpd4YQJ2YK3SNEVfI.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1279493",
-      "type": "movie",
-      "name": "The Get Out",
-      "poster": "https://image.tmdb.org/t/p/w500/qE7W89wgJOrUog2fdBrHWrUJHVw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9Bv4Oki9u3aKZxDCNDcU4N2mttb.jpg",
-      "description": "Après avoir été mystérieusement plumé par deux amants hors-la-loi et complètement fous, un propriétaire de boîte de nuit vieillissant mais impitoyable doit trouver un moyen d'échapper aux cartels pour lesquels sa petite amie et lui blanchissaient de l'argent.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1715076",
-      "type": "movie",
-      "name": "The Exhibitor",
-      "poster": "https://image.tmdb.org/t/p/w500/2UYuQQLOBhVErrAToXakLnX0iMG.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7zYv5ALbG62yHd2T495PysgQPky.jpg",
       "releaseInfo": "2026"
     }
   ]

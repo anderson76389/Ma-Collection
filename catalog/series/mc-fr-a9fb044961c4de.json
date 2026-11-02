@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:335536",
+      "type": "series",
+      "name": "TYSON",
+      "poster": "https://image.tmdb.org/t/p/w500/mdtpJEWW1j5Ns7bIcbw1UeIdvhp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qFNAWAHCXWtS4EMlLxTAetTpZAR.jpg",
+      "description": "Découvrez la vie explosive de Mike Tyson, l'une des figures les plus redoutées et fascinantes de l'histoire du sport.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:331616",
       "type": "series",
       "name": "La Mort de la femme du pasteur",
@@ -149,7 +158,7 @@
       "type": "series",
       "name": "Sean Combs : L'heure des comptes",
       "poster": "https://image.tmdb.org/t/p/w500/py50U7d1XaWcr7tCsXC2LoM68dM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5L9YS9mpYs0WfuSKYpLd9GUBFc9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cxVywdc4vqU1dCG19FSg4t9nQgL.jpg",
       "description": "Cette série documentaire décrypte les accusations choquantes qui visent Sean « Diddy » Combs et son empire Bad Boy, couvrant plusieurs années de sa vie et de sa carrière.",
       "releaseInfo": "2025"
     },
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/PYcT6mf3cYHI35uNG8ztVdyh9p.jpg",
       "background": "https://image.tmdb.org/t/p/w780/yvToMgv3CHs7T4yQe9EPsMgEXG3.jpg",
       "description": "Découvrez les nombreuses vies de Martin Scorsese grâce à un accès exclusif et libre à ses archives privées et à de longs entretiens avec sa famille, ses amis, ses collaborateurs légendaires et le réalisateur visionnaire en personne.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:300999",
-      "type": "series",
-      "name": "Hantises",
-      "poster": "https://image.tmdb.org/t/p/w500/8XK4kBkP7QVIPnl6dFfdPSCICs6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/oS4ZzG1c4xZtZRrJipNqXs1b17Z.jpg",
-      "description": "À la faveur de reconstitutions immersives et d'entretiens actuels, cette série inquiétante retrace des rencontres paranormales du point de vue de ceux qui les ont vécues.",
       "releaseInfo": "2025"
     }
   ]

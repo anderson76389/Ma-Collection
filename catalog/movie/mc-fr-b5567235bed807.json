@@ -9,6 +9,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1813355",
+      "type": "movie",
+      "name": "La Légende de Derry",
+      "poster": "https://image.tmdb.org/t/p/w500/95jDCfMC1MNXowaXxPpHuWP5zAr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z26LxXDMmAIzKr06FPDudCJyvsM.jpg",
+      "description": "Des centaines d’années avant Pennywise, trois jeunes s’aventurent dans la forêt de l’Ouest où ils rencontrent un esprit ancien terrifiant.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1771844",
       "type": "movie",
       "name": "Kate Berlant: Parmesan",
@@ -163,15 +172,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/bgjyFWoPR9M2npUaUqKnosiagEm.jpg",
       "background": "https://image.tmdb.org/t/p/w780/eLVKuHGx9k8JgLk5JINQDmh9tRH.jpg",
       "description": "Linda, une thérapeute épuisée, tente de garder le contrôle alors que sa fille souffre d'une maladie mystérieuse, son mari est absent, et son propre thérapeute devient de plus en plus hostile. Forcée de déménager dans un motel délabré, elle lutte pour maintenir sa vie personnelle et professionnelle à flot, dans un tourbillon de chaos émotionnel et de solitude.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1541013",
-      "type": "movie",
-      "name": "Caleb Hearon: Model Comedian",
-      "poster": "https://image.tmdb.org/t/p/w500/y3eCMPnD7zx23YNplj1ArWcbrTJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kh0ZwdlpprvI9u7vKqwnNHjdxvp.jpg",
-      "description": "Dans son premier spectacle, le comédien et acteur Caleb Hearon partage sa sagesse sur le fait d'être gay, d'avoir 30 ans et d'être critiqué en ligne.",
       "releaseInfo": "2025"
     }
   ]

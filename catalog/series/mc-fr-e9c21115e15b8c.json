@@ -5,7 +5,7 @@
       "type": "series",
       "name": "VisionQuest",
       "poster": "https://image.tmdb.org/t/p/w500/bWPktguPGslrdM79SNQt4OWYyJS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uoXXbN2PrOxH6UKyP7kYwmGpAAP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/58v1KFe3rxvHrYM1hLH5ScpwqNR.jpg",
       "description": "Une nouvelle version de Vision ayant échappé à ceux qui cherchaient à faire de lui une arme, vit dans la clandestinité. En quête d’un nouveau sens à sa vie, il consulte les IA intégrées à son programme, notamment Friday, Edith, Jarvis et le tristement célèbre Ultron. Son existence discrète prend fin lorsque sa tête est mise à prix, le contraignant à prendre la fuite avec Thomas Shepherd, un garçon mystérieux qui pourrait bien être la réincarnation du fils de Vision. Tout en échappant à ses poursuivants, Vision doit se confronter à sa propre nature, résister à l’influence d’Ultron et percer le mystère qui entoure son jeune compagnon s’il veut survivre.",
       "releaseInfo": "2026"
     },
@@ -64,6 +64,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:256694",
+      "type": "series",
+      "name": "Adventure Time : Les Quêtes Bonus",
+      "poster": "https://image.tmdb.org/t/p/w500/keol24oIVjZjomu4jznMXvnvghL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/l75H7ymGd96jPWdIjvOXW0qvEM4.jpg",
+      "description": "Alors qu'il n'était encore qu'un enfant, Finn était déjà impatient de combattre des monstres et de participer à des quêtes épiques avec son meilleur ami, Jake.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:323411",
       "type": "series",
       "name": "The Vampire Lestat",
@@ -113,7 +122,7 @@
       "type": "series",
       "name": "Regular Show : Les cassettes oubliées",
       "poster": "https://image.tmdb.org/t/p/w500/gZuwOtqQRPvLOhLV21qfaC3tIxS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/Zk5UmvJ634LhA56R18h8RfipFG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/43Tu4TnFO57R6eK6XUBFGJrazrZ.jpg",
       "description": "Mordecai, un geai bleu, et Rigby, un raton laveur, deux amis paresseux, travaillent dans un parc municipal. Mais, quoi qu'ils entreprennent, leurs tâches quotidiennes finissent invariablement par basculer dans un chaos totalement surréaliste, au grand désespoir de leur patron et de leurs collègues...",
       "releaseInfo": "2026"
     },
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/d2KSymSoJMxGpTgPGtYuKfaTD95.jpg",
       "background": "https://image.tmdb.org/t/p/w780/cX6dzeKsBTTXHoG3uQUuhQbqyvq.jpg",
       "description": "Drew Foster et Kara Vaughn enquêtent sur une MST qui provoque des effets esthétiques mais s'avère mortelle. Ils tentent d'échapper à des fonctionnaires corrompus et à un mercenaire qui les traquent dans le cadre d'une conspiration.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:224372",
-      "type": "series",
-      "name": "A Knight of the Seven Kingdoms",
-      "poster": "https://image.tmdb.org/t/p/w500/iremK1ulD6WPOvT9ShQDlZuEtL0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-      "description": "Du monde de Westeros nous vient une histoire improbable centrée sur les aventures d'un duo inattendu : le chevalier Ser Duncan et son écuyer l'Œuf.",
       "releaseInfo": "2026"
     }
   ]

@@ -7,6 +7,24 @@
       "releaseInfo": "2027"
     },
     {
+      "id": "tmdb:339451",
+      "type": "series",
+      "name": "La bataille de Harvard",
+      "poster": "https://image.tmdb.org/t/p/w500/nNIDu5SztHHQPctoW1Q9miyWxSg.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6Y2EVxaEAdskw3yEJeIHhKIJJmC.jpg",
+      "description": "Comment Harvard, haut-lieu de l'élite académique américaine, est-elle devenue le symbole de l'opposition aux offensives idéologiques du mouvement Maga ? Ce documentaire en trois parties nous plonge dans les coulisses d'Harvard et décrit un tournant historique : le déclin fulgurant des institutions intellectuelles dans une démocratie confrontée à la montée de l'autoritarisme.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:299249",
+      "type": "series",
+      "name": "Un jour on fera l'amour",
+      "poster": "https://image.tmdb.org/t/p/w500/6FJuPK36Vo4RhKEmmELvtPrpNq3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/k3BirjENILkafmtArLmsN4N8w5p.jpg",
+      "description": "Pendant un été caniculaire, Aurore et Noé, deux trentenaires cabossés passent une soirée dans un bar. Entre drame et comédie romantique, la minisérie “Un jour on fera l'amour” de Jérôme Bonnell capte avec finesse les quarante-huit premières heures d'une rencontre entre deux trentenaires. Meilleure série comédie au Festival de la fiction de La Rochelle 2026.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:328035",
       "type": "series",
       "name": "Migali",
@@ -156,23 +174,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/xi5aViqfDOsfuJtFfC8HeiXJMU1.jpg",
       "background": "https://image.tmdb.org/t/p/w780/iYaSFcEQfOE2IfLgAICeXhic7ti.jpg",
       "description": "L'émission suit deux experts en construction de cabanes, Manu et Attila, qui parcourent les régions de France pour relever un défi fou : construire en secret et en seulement trois ou quatre jours une cabane sur mesure pour des familles.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:318596",
-      "type": "series",
-      "name": "Notre cerveau nous joue des tours",
-      "poster": "https://image.tmdb.org/t/p/w500/dzhq8lMivAahwoPCWgnzzqs2YfU.jpg",
-      "description": "À travers des expériences ludiques et étonnantes, Albert Moukheiber, chercheur et vulgarisateur, invite à découvrir le fonctionnement, parfois trompeur, de notre cerveau.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:299252",
-      "type": "series",
-      "name": "Papa malgré lui",
-      "poster": "https://image.tmdb.org/t/p/w500/o7ni9KP4TvkThNgHSec836D4wSW.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mrLB8iNFR8Oa3TJTFxrD4OfMq8e.jpg",
-      "description": "À 43 ans, Alex, journaliste fêtard et insouciant, voit sa vie basculer le jour où il apprend que Manon, sa fille de 17 ans qu’il n’a jamais élevée, est victime de harcèlement scolaire. Bien qu’allergique aux règles et incapable de se plier à l’autorité, il décide de voler au secours de sa fille en s’infiltrant dans son lycée dans la peau d’un prof d’histoire…",
       "releaseInfo": "2026"
     }
   ]

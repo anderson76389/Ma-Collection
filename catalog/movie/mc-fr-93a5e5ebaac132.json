@@ -5,8 +5,17 @@
       "type": "movie",
       "name": "Clayface",
       "poster": "https://image.tmdb.org/t/p/w500/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg",
       "description": "L'ascension fulgurante de Matt Hagen, de gamin des rues de Gotham à star hollywoodienne, est brutalement interrompue lorsqu'un baron du crime le laisse atrocement défiguré. Abandonné de tous et n'ayant plus rien à perdre, Matt se tourne vers un traitement expérimental qui lui rend miraculeusement son apparence... mais altère profondément sa perception de la réalité. Il sombre alors dans une spirale destructrice, consumé par un irrépressible désir de vengeance.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1477104",
+      "type": "movie",
+      "name": "Shaun le Mouton : La Bêêête d'Halloween",
+      "poster": "https://image.tmdb.org/t/p/w500/xErbSB79RgyH8xCkChItWx2UKdr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
+      "description": "À Halloween, les habitants de la ferme de Mossy Bottom se réjouissent des festivités, jusqu’à ce que le Fermier maladroit saccage les citrouilles bien-aimées du troupeau. Lorsque Shaun se transforme en scientifique fou pour résoudre le problème, les choses dérapent : le Fermier disparaît et une bête sauvage rôde dans les bois.",
       "releaseInfo": "2026"
     },
     {
@@ -37,9 +46,18 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1384216",
+      "type": "movie",
+      "name": "The Dog Stars",
+      "poster": "https://image.tmdb.org/t/p/w500/w7c49Qgp3TAUC4hlo0mtgRpLOGG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3k7GzxOdLZkN3eZsuhLi2eRzkXO.jpg",
+      "description": "Dans un futur proche où une pandémie sans nom a décimé la société américaine, Hig, un pilote vit sur une base aérienne abandonnée du Colorado avec son chien et un ex-marine. Lorsqu'une transmission aléatoire passe par la radio de son Cessna 1956, la voix fait naître au plus profond du pilote l'espoir qu'une vie meilleure existe en dehors de leur périmètre étroitement contrôlé...",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1101383",
       "type": "movie",
-      "name": "La Fin d'Oak Street",
+      "name": "La fin d'Oak Street",
       "poster": "https://image.tmdb.org/t/p/w500/yZINaQysj32K2DS2EW4Iy1bK4Bm.jpg",
       "background": "https://image.tmdb.org/t/p/w780/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg",
       "description": "Lorsqu’un mystérieux événement cosmique arrache Oak Street à sa paisible banlieue et la transporte vers un lieu inconnu, la famille Platt, désorientée dans ce nouvel environnement hostile, comprend vite qu’il leur faudra rester unis pour survivre.",
@@ -67,7 +85,7 @@
       "id": "tmdb:1307118",
       "type": "movie",
       "name": "Soulm8te",
-      "poster": "https://image.tmdb.org/t/p/w500/nIkAHDzo9kbG3kDmDckqywo6CE9.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/aRfFP8stzodl0bo8ywoNZXdaVwo.jpg",
       "background": "https://image.tmdb.org/t/p/w780/7t6f6VxA2ZXbbZSVctgt7bZG2DI.jpg",
       "description": "Un homme acquiert un androïde à intelligence artificielle pour faire face à la perte de sa femme. En essayant de créer un partenaire vraiment sensible, il transforme un \"lovebot\" inoffensif en une compagne dangereuse.",
       "releaseInfo": "2026"
@@ -77,7 +95,7 @@
       "type": "movie",
       "name": "Spider-Man : Brand New Day",
       "poster": "https://image.tmdb.org/t/p/w500/6OEtkkzoyusZDm2uMJojlWZSLR9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/r08LxMJCbf1SiJIWeyH9aJmdqwC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4tjxYg2AbOzzG9G1YuiT2NzYhlH.jpg",
       "description": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttant contre le crime dans un New York qui ne le reconnaît plus, il se consacre entièrement à la protection de la ville - un Spider-Man à plein temps - mais à mesure que les responsabilités s'intensifient, la pression provoque une transformation physique surprenante qui menace son existence, tandis qu'une étrange nouvelle vague de crimes donne naissance à l'une des menaces les plus redoutables qu'il ait jamais affrontées.",
       "releaseInfo": "2026"
     },
@@ -122,7 +140,7 @@
       "type": "movie",
       "name": "Backrooms",
       "poster": "https://image.tmdb.org/t/p/w500/thQQ3BBBhGDtWm3UTtabhyDJd8U.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dqmMWNWfLnExDRpMtIMqI97GQFR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/QNE9Ihuas4duMHJYGQgAcuRtXz.jpg",
       "description": "Une étrange porte apparaît dans le sous-sol d'un magasin de meubles.",
       "releaseInfo": "2026"
     },
@@ -159,24 +177,7 @@
       "name": "Affection",
       "poster": "https://image.tmdb.org/t/p/w500/3b3wC8JFjURlMsFj9gqbv0SyTJs.jpg",
       "background": "https://image.tmdb.org/t/p/w780/a7VEgrESjAnoAUgonPEDXkzol2f.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:539745",
-      "type": "movie",
-      "name": "La Ferme des animaux",
-      "poster": "https://image.tmdb.org/t/p/w500/6pzI1DIlxwAFffw9OZcG6cr031U.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rg1E0Ya6YYiGPcg5p1ZIkDd8u3F.jpg",
-      "description": "Un groupe d'animaux se rebellent contre leurs maîtres humains et prennent le contrôle de la ferme. Leur révolte terminée, ils sont confrontés à de nouveaux défis sous le règne d'un cochon rusé nommé Napoléon. Cette situation les oblige à trouver le courage de s'opposer à Napoléon.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:687163",
-      "type": "movie",
-      "name": "Projet Dernière Chance",
-      "poster": "https://image.tmdb.org/t/p/w500/wzyy8ZrsuHfAt4iz4iH3rT0tdoT.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
-      "description": "Le professeur de sciences Ryland Grace se réveille à bord d’un vaisseau spatial, à des années-lumière de la Terre, sans aucun souvenir de qui il est ni de la façon dont il est arrivé là. À mesure que sa mémoire lui revient, il commence à découvrir sa mission : résoudre l’énigme d’une mystérieuse substance qui provoque l’extinction du Soleil. Il doit faire appel à ses connaissances scientifiques et ses idées peu orthodoxes pour sauver toute vie sur Terre mais une amitié inattendue pourrait signifier qu’il n’aura pas à accomplir cette tâche seul.",
+      "description": "Ellie ne cesse de perdre la mémoire, jusqu'à oublier sa propre famille. Mais à chaque fois qu'elle revient à elle, des bribes d'une autre vie, inconnue et troublante, l'accompagnent.",
       "releaseInfo": "2026"
     }
   ]

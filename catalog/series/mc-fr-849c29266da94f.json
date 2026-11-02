@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:292741",
+      "type": "series",
+      "name": "Nocturne",
+      "poster": "https://image.tmdb.org/t/p/w500/gwoPlr2g3moHYZH05DyRZVgUf6m.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/614k6C9doThoMe6GyH0nTnGgLXt.jpg",
+      "description": "Lorsqu’une victime du célèbre tueur en série Jurek Walter refait surface en vie, l’enquêteur Jonah Lynn entame une course contre la montre pour retrouver sa dernière proie encore portée disparue. Sa protégée Saga Bauer travaille sous couverture pour faire parler le tueur.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:333101",
       "type": "series",
       "name": "Treasure Island",
@@ -57,7 +66,7 @@
       "name": "Portée disparue",
       "poster": "https://image.tmdb.org/t/p/w500/zXMkaqWinyCbkMSNwhi7htRV0e9.jpg",
       "background": "https://image.tmdb.org/t/p/w780/kgaQnDdDaPqvGN7i8LLz1aWJdjP.jpg",
-      "description": "Lorsque Ian Ridley, opérateur des services d'urgence, reçoit un appel affolé d’une adolescente qu’il pense être sa fille disparue, il ne recule devant rien pour la retrouver.",
+      "description": "La vie de l'inspecteur de police Ian Ridley s'est effondrée 11 ans auparavant lorsque sa jeune fille, Maggie, a disparu sans aucune trace. Désormais affecté au service d'appels d'urgences, il ne tient que grâce à son refus inébranlable d'accepter qu'elle est perdue à jamais. Un jour qu'il reçoit un appel de détresse d'une adolescente, il est convaincu qu'il s'agit de Maggie, et met dès lors tout en oeuvre pour la retrouver et réunir sa famille, quoi qu'il en coûte.",
       "releaseInfo": "2026"
     },
     {
@@ -74,7 +83,7 @@
       "type": "series",
       "name": "Marble Hall Murders",
       "poster": "https://image.tmdb.org/t/p/w500/3WfgRJBIaOTsiu2bQO23xWb08ro.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8Jdrk3wwMCs1RN7GimMZQrBdgHh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/woa9xtYfw1dib4JLnvQdLSZK0D2.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -164,15 +173,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/gZcmNUcDDR1nR7lmroOJTCrhrhK.jpg",
       "background": "https://image.tmdb.org/t/p/w780/iw1knpC8Jg5davMn2MPxNVxBF8N.jpg",
       "description": "Le Vampire Lestat part en tournée tout en étant hanté par les « muses » de son passé. À mesure que la popularité du groupe augmente, l'influence de Lestat sur les vampires et les humains augmente également, laissant les autres affronter le pouvoir de Lestat face à la Grande Conversion.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:277439",
-      "type": "series",
-      "name": "Cape Fear - Les Nerfs à vif",
-      "poster": "https://image.tmdb.org/t/p/w500/2BuGd8rDimZgJGkU0Gn34gjAYmY.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/maOzDEEudq82nN9lRTumrGo9MvJ.jpg",
-      "description": "Une tempête approche pour un couple heureux d’avocats quand un tueur tristement célèbre resurgit de leur passé à sa sortie de prison.",
       "releaseInfo": "2026"
     }
   ]

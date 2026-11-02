@@ -36,6 +36,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1340206",
+      "type": "movie",
+      "name": "Le Virtuose",
+      "poster": "https://image.tmdb.org/t/p/w500/z9sxdWvYJDyZeKHhBSU8Kczw7yC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/y04gpYp8rJoUud6vf8okqHIdP4V.jpg",
+      "description": "Doté d'une ouïe exceptionnelle, un jeune accordeur de piano voit sa vie basculer lorsque son talent attire l'attention de criminels qui l'entraînent dans une série de cambriolages de plus en plus risqués. Malgré lui, il s'enfonce dans un engrenage dangereux qui pourrait lui coûter bien plus que sa liberté.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1284016",
       "type": "movie",
       "name": "Power Ballad",
@@ -166,15 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/c11km7kLK2F30fTNHP5Si9m8foG.jpg",
       "background": "https://image.tmdb.org/t/p/w780/w4aTYTHpm97iTN1UGIC9kFZIuc7.jpg",
       "description": "\"Taylor Swift | Le Eras Tour | The Final Show\" est le film du concert intégral, incluant \"THE TORTURED POETS DEPARTMENT\", tourné à Vancouver, en Colombie-Britannique, lors du dernier concert de la tournée historique.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1566269",
-      "type": "movie",
-      "name": "La première neige de Fraggle Rock",
-      "poster": "https://image.tmdb.org/t/p/w500/xBbw7RIQhohmMxt9GKZdYm09TSD.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/h5hCdU9KvcCbBihSNfn3vtML7tV.jpg",
-      "description": "Alors que les fêtes réservent leurs surprises et aventures inattendus, les Fraggles apprennent à apprécier chaque jour pour son caractère unique et magique, tel un flocon de neige.",
       "releaseInfo": "2025"
     }
   ]

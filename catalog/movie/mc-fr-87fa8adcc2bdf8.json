@@ -1,6 +1,22 @@
 {
   "metas": [
     {
+      "id": "tmdb:1483525",
+      "type": "movie",
+      "name": "가능한 사랑",
+      "poster": "https://image.tmdb.org/t/p/w500/tnwFaR8oaRMW85iKmYxRtbuKx09.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vJkTGJn9BM4dSStR8XBApTF8e5J.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1235769",
+      "type": "movie",
+      "name": "경주기행",
+      "poster": "https://image.tmdb.org/t/p/w500/2dAd2APyFUyJ6qEv9VFHdHQtQI6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A58FVNOQ9qXxt0vdKGQ9kCo17El.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1268609",
       "type": "movie",
       "name": "Pavane",
@@ -75,7 +91,7 @@
       "type": "movie",
       "name": "The World of Love",
       "poster": "https://image.tmdb.org/t/p/w500/tLGaVKh2rBfkBmhW6qXep4njrlO.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rYYUi8m3YdPxDRbjs3xU5ct3Rzi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uj2i84ojPuhOCsiWqBOSzAyeRcd.jpg",
       "description": "Joo-in est une lycéenne espiègle et appréciée de tous. Un jour, un camarade de classe lance une pétition que tous les élèves signent, sauf elle. Son monde, en apparence paisible et insouciant, dissimule un passé douloureux auquel Joo-in est alors contrainte de faire face. Mais loin de se laisser enfermer, elle choisit d’avancer et de se réinventer.",
       "releaseInfo": "2025"
     },
@@ -155,24 +171,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/4AZVZJojg1w6EPMHRzMUddtmCJq.jpg",
       "background": "https://image.tmdb.org/t/p/w780/fepnF3W4VP3s8ui8nDtrlsFVYwO.jpg",
       "description": "Hornclaw est une tueuse légendaire âgée d'une soixantaine d'années, spécialisée dans le contrôle des maladies, c'est à dire l'élimination des parasites humains, depuis plus de quarante ans. Peut-être parce qu'elle vieillit, elle éprouve une étrange compassion pour le médecin qui l'a soignée. Un jour, un jeune tueur nommé Bullfight se présente à elle. Une étrange relation se noue entre eux...",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1137179",
-      "type": "movie",
-      "name": "Yadang: The Snitch",
-      "poster": "https://image.tmdb.org/t/p/w500/k4yTwFqvQDApqaoFdgubsbYcuno.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9pdoEzieGdUTlRWTAO7QP8q1tIo.jpg",
-      "description": "Des informateurs professionnels appelés “ yadang ” fournissent des informations secrètes sur le monde de la drogue aux procureurs et à la police. Après une saisie de drogue au cours d'une fête à laquelle assistent des personnalités, un yadang chevronné doit se battre pour survivre.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:760497",
-      "type": "movie",
-      "name": "The Match",
-      "poster": "https://image.tmdb.org/t/p/w500/x1xHVv5rdvvCjF5wmGhtbHrlUgo.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tVCg0HYPLFVYljiQXJCWTY43LJR.jpg",
-      "description": "Ayant perdu face à son ancien protégé et ami, un champion de go légendaire décide de récupérer son titre lors d'un duel où les adversaires rivalisent de ruse et d'esprit.",
       "releaseInfo": "2025"
     }
   ]

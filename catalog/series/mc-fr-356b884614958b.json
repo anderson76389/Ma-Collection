@@ -10,15 +10,6 @@
       "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:270603",
-      "type": "series",
-      "name": "The Exiled Heavy Knight Knows How to Game the System",
-      "poster": "https://image.tmdb.org/t/p/w500/flcyEjfwHECnqgXMGNZsajLg1rv.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rQmzx7qyoK5YiXJHnv0jdgVlKyl.jpg",
-      "description": "Issu d’une prestigieuse famille de maîtres épéistes, Elymas Edvaughn est renié et banni lorsqu’il s’affirme en tant que “Chevalier Lourd”, une classe inférieure et complètement dénigrée. En réalité, le monde d’Elymas est similaire à celui d’un jeu qu’il maîtrisait dans une autre vie. Et il sait parfaitement que les Chevaliers Lourds sont en fait les plus puissants…",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:134667",
       "type": "series",
       "name": "Moi quand je me réincarne en épée",
@@ -26,6 +17,15 @@
       "background": "https://image.tmdb.org/t/p/w780/fo5qwDAVqY7j2jmL350WKjk6kmi.jpg",
       "description": "Bien qu’elle soit une jeune fille-chat fougueuse, Fran, orpheline, mène une vie de labeur depuis qu’elle a été réduite en esclavage. Pensant que ses derniers jours sont arrivés à la suite d’une attaque d’un monstre, son chemin croise alors celui d’une mystérieuse épée qui lui permet d’abattre son adversaire. Il s’avère que celle-ci était auparavant un jeune homme qui, à la suite d’un tragique accident de voiture, s’est réincarné dans un nouveau monde. Liés désormais par un pacte, nos deux héros sont fin prêts à se frayer un chemin vers la liberté et à vivre une vie d’aventure !",
       "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:270603",
+      "type": "series",
+      "name": "The Exiled Heavy Knight Knows How to Game the System",
+      "poster": "https://image.tmdb.org/t/p/w500/flcyEjfwHECnqgXMGNZsajLg1rv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rQmzx7qyoK5YiXJHnv0jdgVlKyl.jpg",
+      "description": "Issu d’une prestigieuse famille de maîtres épéistes, Elymas Edvaughn est renié et banni lorsqu’il s’affirme en tant que “Chevalier Lourd”, une classe inférieure et complètement dénigrée. En réalité, le monde d’Elymas est similaire à celui d’un jeu qu’il maîtrisait dans une autre vie. Et il sait parfaitement que les Chevaliers Lourds sont en fait les plus puissants…",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:288588",
@@ -46,24 +46,6 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:283692",
-      "type": "series",
-      "name": "Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!",
-      "poster": "https://image.tmdb.org/t/p/w500/l2bXeBO6f2ZXgKh0ipYKyeMT98v.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xqil5t29q1k6reedUlMy4nYd9f7.jpg",
-      "description": "Takahiro Satô est arraché à son quotidien lorsqu’il se réincarne dans l'univers de son jeu vidéo préféré : un monde galactique où se jouent des batailles spatiales, peuplé de colonies interstellaires mais aussi jonché de dangers. Très vite, il devient « Hiro », un mercenaire équipé d'un vaisseau spatial ultrasophistiqué et accompagné de deux beautés !",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:303272",
-      "type": "series",
-      "name": "Magic Knight Rayearth",
-      "poster": "https://image.tmdb.org/t/p/w500/zlmh4QcxqUS9j40D4PPL5wqc6sB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/f6MmtdKyrmUt2iHfhEKO6DgrL4a.jpg",
-      "description": "Hikaru, Umi et Fuu sont de retour pour une nouvelle adaptation de la série culte Magic Knight Rayearth !",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:206630",
       "type": "series",
       "name": "Sasaki and Peeps",
@@ -73,10 +55,28 @@
       "releaseInfo": "2024"
     },
     {
+      "id": "tmdb:303272",
+      "type": "series",
+      "name": "Magic Knight Rayearth",
+      "poster": "https://image.tmdb.org/t/p/w500/mfTYbPbuxZkbJlmh0LpNegjPGw8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ovysGUJ9Qc7oWaiFbyWjwhw1vtc.jpg",
+      "description": "Hikaru, Umi et Fuu sont de retour pour une nouvelle adaptation de la série culte Magic Knight Rayearth !",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:283692",
+      "type": "series",
+      "name": "Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!",
+      "poster": "https://image.tmdb.org/t/p/w500/l2bXeBO6f2ZXgKh0ipYKyeMT98v.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xqil5t29q1k6reedUlMy4nYd9f7.jpg",
+      "description": "Takahiro Satô est arraché à son quotidien lorsqu’il se réincarne dans l'univers de son jeu vidéo préféré : un monde galactique où se jouent des batailles spatiales, peuplé de colonies interstellaires mais aussi jonché de dangers. Très vite, il devient « Hiro », un mercenaire équipé d'un vaisseau spatial ultrasophistiqué et accompagné de deux beautés !",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:316694",
       "type": "series",
       "name": "Reborn Goblin",
-      "poster": "https://image.tmdb.org/t/p/w500/nut07tl4642Xyj86LtSYV75mYh3.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/5uH40zb9kyDSvDwCdUApK0vDY1S.jpg",
       "background": "https://image.tmdb.org/t/p/w780/3knNVqZlEdwYPwYBWQechjvRzx0.jpg",
       "description": "Les gentils finissent toujours derniers : personne ne le sait mieux qu'Akira Yagami, un employé de bureau qui perd la vie après avoir sauvé un enfant. Mais il se réincarne dans un autre monde en tant que gobelin ! Normalement, ces créatures ne vivent que sept jours, mais Akira possède un pouvoir lui offrant quatre-vingts ans pour laisser son empreinte sur ce monde !",
       "releaseInfo": "2026"

@@ -1,20 +1,21 @@
 {
   "metas": [
     {
+      "id": "tmdb:1813355",
+      "type": "movie",
+      "name": "La Légende de Derry",
+      "poster": "https://image.tmdb.org/t/p/w500/95jDCfMC1MNXowaXxPpHuWP5zAr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z26LxXDMmAIzKr06FPDudCJyvsM.jpg",
+      "description": "Des centaines d’années avant Pennywise, trois jeunes s’aventurent dans la forêt de l’Ouest où ils rencontrent un esprit ancien terrifiant.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1400940",
       "type": "movie",
       "name": "Clayface",
       "poster": "https://image.tmdb.org/t/p/w500/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg",
       "description": "L'ascension fulgurante de Matt Hagen, de gamin des rues de Gotham à star hollywoodienne, est brutalement interrompue lorsqu'un baron du crime le laisse atrocement défiguré. Abandonné de tous et n'ayant plus rien à perdre, Matt se tourne vers un traitement expérimental qui lui rend miraculeusement son apparence... mais altère profondément sa perception de la réalité. Il sombre alors dans une spirale destructrice, consumé par un irrépressible désir de vengeance.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1765072",
-      "type": "movie",
-      "name": "You Can See Everything",
-      "poster": "https://image.tmdb.org/t/p/w500/7nG1AFxnrh5KtgH3jA4uIsWmX95.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nhIL3O4W9h5V5JbNQm7yjoDk3So.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -26,12 +27,20 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1406253",
+      "type": "movie",
+      "name": "Devour",
+      "poster": "https://image.tmdb.org/t/p/w500/uFyMcnWabsIwESf5odkMFvTRydp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kqzTOVIF5ITH7OfSUx0ybEZXd0W.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1400837",
       "type": "movie",
       "name": "Malfaisante",
-      "poster": "https://image.tmdb.org/t/p/w500/wAofwsldMDNAIzGSEfMJMoUn1KB.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/uLNxn6niIICbkRcRKVOX9aXqRHb.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg",
-      "description": "Une famille est la cible d'une entité qu'elle appelle « l'autre maman ».",
+      "description": "Une jeune fille, Bela, développe dans son foyer une relation avec une entité troublante qui ressemble étrangement à sa mère. Son « autre maman » n'est pas que le fruit de son imagination. Cette entité sinistre et manipulatrice a l'intention d'anéantir la famille de Bela.",
       "releaseInfo": "2026"
     },
     {
@@ -130,6 +139,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1596301",
+      "type": "movie",
+      "name": "Mum, I'm Alien Pregnant",
+      "poster": "https://image.tmdb.org/t/p/w500/kEKZ6i691QKYBXCN9tazt3FVQKH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2ASkOyNYZvDs3M9xzKhckYmcRz4.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1712451",
       "type": "movie",
       "name": "Resident Dead",
@@ -153,24 +170,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/i92X6pBSqZgHAvIX28p0AZJU8xz.jpg",
       "background": "https://image.tmdb.org/t/p/w780/xQbHmeJdT95pSDMzP92CrvjceBh.jpg",
       "description": "Enceinte et récemment veuve, Stella est accueillie par la famille de son défunt mari, avec laquelle elle était en froid. Mais derrière leur générosité se cache quelque chose de profondément inquiétant, et Stella se retrouve à lutter pour sa vie alors que l'obsession de cette famille pour son enfant à naître prend une tournure mortelle.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1514026",
-      "type": "movie",
-      "name": "Buddy",
-      "poster": "https://image.tmdb.org/t/p/w500/lfdInOrdyTGXOuFBOLefamy6AgI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ytoLEl5yDaxB8AtZ52uKWjaQ9ql.jpg",
-      "description": "Des enfants piégés dans une émission de télévision en apparence joyeuse doivent trouver un moyen d'échapper à l'emprise sinistre de Buddy, la peluche adorée mais malveillante qui anime l'émission.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1462861",
-      "type": "movie",
-      "name": "Spider Island",
-      "poster": "https://image.tmdb.org/t/p/w500/eKw6aF7oNEaTnVvN396Q1is9R1n.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gZt1KXQRawEg3CTqzTamXYkniT4.jpg",
-      "description": "Des influenceurs très en vogue se rendent sur une île tropicale isolée pour faire la fête dans un nouvel hôtel de luxe, mais se retrouvent bientôt à lutter pour leur survie contre une horde d'araignées mortelles qui tentent de prendre le contrôle de ce complexe hôtelier exotique",
       "releaseInfo": "2026"
     }
   ]

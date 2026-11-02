@@ -16,6 +16,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/2WGhHei4SbocBacJ078mwzxOpLk.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ao8nyHyawWnuwRXdAnGUXBsjHRm.jpg",
       "releaseInfo": "1999"
+    },
+    {
+      "id": "tmdb:136638",
+      "type": "series",
+      "name": "Richard Hammond's Workshop",
+      "poster": "https://image.tmdb.org/t/p/w500/zBuKrhOa6m3GTvvSNuOFPP2IlBQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2qTCqTcN65aCQyc5SfFW80BdeR0.jpg",
+      "description": "Richard Hammond démarre une entreprise de restauration et de réparation de voitures classiques de prestige près de sa ville natale dans le Herefordshire.",
+      "releaseInfo": "2021"
     }
   ]
 }

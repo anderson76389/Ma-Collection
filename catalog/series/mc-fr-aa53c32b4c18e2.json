@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:275139",
+      "type": "series",
+      "name": "Phony",
+      "poster": "https://image.tmdb.org/t/p/w500/iCyQc8cSSHkxUHbkvzbC77owALt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/roUD5m2nj6k88azMFsiqBae29cr.jpg",
+      "description": "À son réveil après un accident de voiture, le lycéen Sonny Cooke trouve sa mère, Ellen, légèrement changée. Le problème, c'est qu'il est le seul à le remarquer et que personne ne le croit. Coincé avec cette femme qu'il soupçonne d'être un dangereux imposteur, Sonny tente de prouver qu'il n'est pas fou.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:318918",
       "type": "series",
       "name": "LEGO One Piece",
@@ -139,7 +148,7 @@
       "type": "series",
       "name": "Regular Show : Les cassettes oubliées",
       "poster": "https://image.tmdb.org/t/p/w500/gZuwOtqQRPvLOhLV21qfaC3tIxS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/Zk5UmvJ634LhA56R18h8RfipFG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/43Tu4TnFO57R6eK6XUBFGJrazrZ.jpg",
       "description": "Mordecai, un geai bleu, et Rigby, un raton laveur, deux amis paresseux, travaillent dans un parc municipal. Mais, quoi qu'ils entreprennent, leurs tâches quotidiennes finissent invariablement par basculer dans un chaos totalement surréaliste, au grand désespoir de leur patron et de leurs collègues...",
       "releaseInfo": "2026"
     },
@@ -168,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/2AjzqV565NWhiyjsorSu7s9bLsD.jpg",
       "background": "https://image.tmdb.org/t/p/w780/uekZzyLReK777QKO9xKwiPOelCQ.jpg",
       "description": "Vingt ans plus tard, Malcolm et sa famille n'ont toujours rien appris.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:291506",
-      "type": "series",
-      "name": "Big Mistakes",
-      "poster": "https://image.tmdb.org/t/p/w500/qeCmU79haciBBOBmOy7dJtbz95Y.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/oGORe3yzIPBueHVHroSmsaMVKDi.jpg",
-      "description": "Contraints à la suite d'un chantage d'œuvrer pour des individus très dangereux, un frère et une sœur complètement bras cassés deviennent le duo le plus loufoque du crime organisé.",
       "releaseInfo": "2026"
     }
   ]

@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1294189",
+      "type": "movie",
+      "name": "The Mongoose",
+      "poster": "https://image.tmdb.org/t/p/w500/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iRIhPqqoUHiFBxn8oYf3gCQnaKk.jpg",
+      "description": "Accusé à tort d'un crime et n'ayant rien à perdre, un héros de guerre qui lutte contre le PTSD entraîne la police dans une course-poursuite à tombeau ouvert à travers le pays avec l'aide de ses frères d'armes, tandis qu'un public captivé soutient sa fuite.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1561726",
       "type": "movie",
       "name": "Masterplan",
@@ -10,21 +19,20 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1406253",
+      "type": "movie",
+      "name": "Devour",
+      "poster": "https://image.tmdb.org/t/p/w500/uFyMcnWabsIwESf5odkMFvTRydp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kqzTOVIF5ITH7OfSUx0ybEZXd0W.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1236045",
       "type": "movie",
       "name": "Animals",
       "poster": "https://image.tmdb.org/t/p/w500/33MhDOKB0S5VwuaD9lZyV0v0st0.jpg",
       "background": "https://image.tmdb.org/t/p/w780/tzoarEu7TsG959upiELyYPm5kO9.jpg",
       "description": "Quand leur fils est enlevé, un candidat à la mairie de Los Angeles et sa femme s'efforcent de réunir l'argent de la rançon et font des choix qui pourraient bouleverser leur vie.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1437396",
-      "type": "movie",
-      "name": "Your Mother Your Mother Your Mother",
-      "poster": "https://image.tmdb.org/t/p/w500/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jiFLiatBtBALlAzV5R72gzspBad.jpg",
-      "description": "Latif, un tueur à gages profondément religieux, a du mal à équilibrer travail, foi et paternité. Lorsque sa femme décède, il se lance dans un voyage désespéré à travers Houston pour protéger ses enfants, affrontant les forces qui se rapprochent de lui – et les croyances qui menacent de s'effondrer à l'intérieur.",
       "releaseInfo": "2026"
     },
     {
@@ -99,6 +107,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1384216",
+      "type": "movie",
+      "name": "The Dog Stars",
+      "poster": "https://image.tmdb.org/t/p/w500/w7c49Qgp3TAUC4hlo0mtgRpLOGG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3k7GzxOdLZkN3eZsuhLi2eRzkXO.jpg",
+      "description": "Dans un futur proche où une pandémie sans nom a décimé la société américaine, Hig, un pilote vit sur une base aérienne abandonnée du Colorado avec son chien et un ex-marine. Lorsqu'une transmission aléatoire passe par la radio de son Cessna 1956, la voix fait naître au plus profond du pilote l'espoir qu'une vie meilleure existe en dehors de leur périmètre étroitement contrôlé...",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:813418",
       "type": "movie",
       "name": "Hot Spot",
@@ -158,24 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/vt0RqHlqfUzeiBEVQvp43yY2076.jpg",
       "background": "https://image.tmdb.org/t/p/w780/kMrkqfjuPR4FlfaScrNNYuOEGHa.jpg",
       "description": "Un vétéran des forces spéciales américaines pénètre en Ukraine, aux tout premiers jours de l'invasion russe, pour sauver sa fille adoptive, une travailleuse humanitaire retenue en otage par des mercenaires russes. Il doit lancer une mission de sauvetage mortelle pour la ramener chez elle saine et sauve.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1279493",
-      "type": "movie",
-      "name": "The Get Out",
-      "poster": "https://image.tmdb.org/t/p/w500/qE7W89wgJOrUog2fdBrHWrUJHVw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9Bv4Oki9u3aKZxDCNDcU4N2mttb.jpg",
-      "description": "Après avoir été mystérieusement plumé par deux amants hors-la-loi et complètement fous, un propriétaire de boîte de nuit vieillissant mais impitoyable doit trouver un moyen d'échapper aux cartels pour lesquels sa petite amie et lui blanchissaient de l'argent.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1380291",
-      "type": "movie",
-      "name": "Jack Ryan de Tom Clancy : Guerre Fantôme",
-      "poster": "https://image.tmdb.org/t/p/w500/zR4RAnv4s6zpXhiqepdonAw4oF3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dd31qJxOarrHyGZwYsCzOjobQzP.jpg",
-      "description": "Jack Ryan doit malgré lui replonger dans le monde de l'espionnage quand une opération secrète met au jour une conspiration mortelle. Tandis que chaque seconde compte, il est rejoint par Mike November et James Greer de la CIA, ainsi que par Emma Marlowe, agent chevronné du MI6. Ils affrontent une unité clandestine dans une lutte à haut risque et aux implications personnelles.",
       "releaseInfo": "2026"
     }
   ]

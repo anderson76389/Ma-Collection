@@ -1,6 +1,59 @@
 {
   "metas": [
     {
+      "id": "tmdb:1813355",
+      "type": "movie",
+      "name": "La Légende de Derry",
+      "poster": "https://image.tmdb.org/t/p/w500/95jDCfMC1MNXowaXxPpHuWP5zAr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z26LxXDMmAIzKr06FPDudCJyvsM.jpg",
+      "description": "Des centaines d’années avant Pennywise, trois jeunes s’aventurent dans la forêt de l’Ouest où ils rencontrent un esprit ancien terrifiant.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:891621",
+      "type": "movie",
+      "name": "Wild Horse Nine",
+      "poster": "https://image.tmdb.org/t/p/w500/hnBtud9vLr9arsUW8nxrzIz2uA4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/b17UWf3LqHgKolQkXckne32qv0.jpg",
+      "description": "Peu avant le coup d'État chilien de 1973, deux agents de la CIA, Chris et Lee, sont envoyés de Santiago vers l'île de Pâques par leur supérieur, MJ. Au milieu des statues emblématiques de l'île, tandis que ces partenaires de longue date sont confrontés à leur sombre passé et aux complots en cours, Chris noue une relation avec deux étudiantes rebelles qui menace de faire basculer dans le chaos leur séjour dans ce paradis isolé…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1294189",
+      "type": "movie",
+      "name": "The Mongoose",
+      "poster": "https://image.tmdb.org/t/p/w500/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iRIhPqqoUHiFBxn8oYf3gCQnaKk.jpg",
+      "description": "Accusé à tort d'un crime et n'ayant rien à perdre, un héros de guerre qui lutte contre le PTSD entraîne la police dans une course-poursuite à tombeau ouvert à travers le pays avec l'aide de ses frères d'armes, tandis qu'un public captivé soutient sa fuite.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1643567",
+      "type": "movie",
+      "name": "Ghosts: The Possession of Button House",
+      "poster": "https://image.tmdb.org/t/p/w500/vdRbC8masrQDyhFHLOGECEMllPV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r87Uwf5yvL69fBWsZHGR2OTbD1A.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1727734",
+      "type": "movie",
+      "name": "Ali G : J'suis qui ?",
+      "poster": "https://image.tmdb.org/t/p/w500/xRieId2D3sqKeyhfwO7iJzjbojb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hJcGJLi34zE4RhzsiDR6f7pw50K.jpg",
+      "description": "Après vingt ans passés à \"se la couler douce, fumer et s'envoyer en l'air\", Ali G découvre que sa petite amie de longue date, Julie, est enceinte de 8 mois. Face à une bouche de plus à nourrir, il se bouge enfin et part aux États-Unis pour retrouver sa gloire d'antan. Mais il se heurte vite à des ennemis qui vont menacer son existence et celle de son enfant.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1480856",
+      "type": "movie",
+      "name": "Au bord du gouffre",
+      "poster": "https://image.tmdb.org/t/p/w500/duZIrDULyk3PBIxoUmKXm3uqlBv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/q90G7OV76xR7NOHu8m19iaudHO1.jpg",
+      "description": "Un mardi matin d'août 2023, un groupe d'enfants partit pour l'école, empruntant un téléphérique de fortune pour traverser un col de montagne du nord-ouest du Pakistan. Ce qui suivit allait faire la une des journaux du monde entier. Soudain, à 275 mètres au-dessus du sol, deux câbles cédèrent, mettant les adolescents en danger de mort.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1195803",
       "type": "movie",
       "name": "Wicker",
@@ -14,7 +67,7 @@
       "type": "movie",
       "name": "Klara et le Soleil",
       "poster": "https://image.tmdb.org/t/p/w500/zJZ1ii7XPAJkdBWKIQN2fyyz5cQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2Zk5jRXUlrfkU3RsutMPMHey1Y.jpg",
       "description": "Lorsque Klara rencontre Josie, chacune perçoit immédiatement chez l'autre une âme soeur. Josie entretient une relation compliquée avec sa mère et toutes deux ont traversé de lourdes épreuves. Mais l'émerveillement sincère de Klara et sa loyauté sans faille commencent peu à peu à apaiser les blessures de cette famille et à apporter de la lumière dans l'univers complexe de Josie.",
       "releaseInfo": "2026"
     },
@@ -31,7 +84,7 @@
       "type": "movie",
       "name": "Clayface",
       "poster": "https://image.tmdb.org/t/p/w500/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg",
       "description": "L'ascension fulgurante de Matt Hagen, de gamin des rues de Gotham à star hollywoodienne, est brutalement interrompue lorsqu'un baron du crime le laisse atrocement défiguré. Abandonné de tous et n'ayant plus rien à perdre, Matt se tourne vers un traitement expérimental qui lui rend miraculeusement son apparence... mais altère profondément sa perception de la réalité. Il sombre alors dans une spirale destructrice, consumé par un irrépressible désir de vengeance.",
       "releaseInfo": "2026"
     },
@@ -71,15 +124,6 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1452110",
-      "type": "movie",
-      "name": "Clean Hands",
-      "poster": "https://image.tmdb.org/t/p/w500/szIEtkFLOMsPX6AVQSfzalNEEDd.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/py3XG3mFkdVMcw7VwfZ4HaXZIIU.jpg",
-      "description": "L'histoire vraie de Kevin Simmers, ancien policier anti-drogue devenu défenseur de la désintoxication, et de sa fille Brooke. Le film explore la crise américaine de la drogue et « la fine ligne bleue » à travers les regards opposés d'un policier et d'une toxicomane, qui étaient également père et fille.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:1255833",
       "type": "movie",
       "name": "Englouti",
@@ -115,65 +159,20 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1406253",
+      "type": "movie",
+      "name": "Devour",
+      "poster": "https://image.tmdb.org/t/p/w500/uFyMcnWabsIwESf5odkMFvTRydp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kqzTOVIF5ITH7OfSUx0ybEZXd0W.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1288069",
       "type": "movie",
       "name": "Tenzing : à la conquête de l’Everest",
       "poster": "https://image.tmdb.org/t/p/w500/yjeqiDKgOyrTROU5X4Rck01ldGF.jpg",
       "background": "https://image.tmdb.org/t/p/w780/9MdxBPjI58xkzA7RtKX9xRKvlZp.jpg",
       "description": "Un homme déterminé se lance dans une aventure périlleuse - et brave des obstacles apparemment insurmontables - pour réaliser son rêve d'être le premier à atteindre le sommet de l'Everest.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1236045",
-      "type": "movie",
-      "name": "Animals",
-      "poster": "https://image.tmdb.org/t/p/w500/33MhDOKB0S5VwuaD9lZyV0v0st0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tzoarEu7TsG959upiELyYPm5kO9.jpg",
-      "description": "Quand leur fils est enlevé, un candidat à la mairie de Los Angeles et sa femme s'efforcent de réunir l'argent de la rançon et font des choix qui pourraient bouleverser leur vie.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1400837",
-      "type": "movie",
-      "name": "Malfaisante",
-      "poster": "https://image.tmdb.org/t/p/w500/wAofwsldMDNAIzGSEfMJMoUn1KB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg",
-      "description": "Une famille est la cible d'une entité qu'elle appelle « l'autre maman ».",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1381078",
-      "type": "movie",
-      "name": "L'Amour de ta vie",
-      "poster": "https://image.tmdb.org/t/p/w500/1zrnRcJ8JOTXYp0Qizad1rnuIA0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4hneB0UFKOZAGJHqJ3VhDcG72uH.jpg",
-      "description": "Maya dont la rencontre fortuite avec Charlie donne naissance à une histoire d'amour passionnée et à la vie dont elle n'osait pas rêver. Lorsque tout bascule, Maya doit déterminer qui elle est, ce qu'elle veut et comment réapprendre à aimer.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1281331",
-      "type": "movie",
-      "name": "The Social Reckoning",
-      "poster": "https://image.tmdb.org/t/p/w500/tF1P9HZEBJQ8w1KyBlS3zMS2Ogp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wXTaGcqX3jvdXSKCJAkl5jZyrKp.jpg",
-      "description": "L'histoire s'inspire de \"The Facebook Files\" du Wall Street Journal, une série d'articles publiés en octobre 2021 par Jeff Horowitz, qui ont révélé les rouages internes ainsi que les nombreux dommages causés par le plus grand réseau social au monde.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1788735",
-      "type": "movie",
-      "name": "Family Guy Happy Hell-o-ween",
-      "poster": "https://image.tmdb.org/t/p/w500/4IuQIUgqyLpbD7R7zmPp9A08rsQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/i5XAKlLzmbGsBtr8T3vyGZHkanT.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1148365",
-      "type": "movie",
-      "name": "Matchbox – Le film",
-      "poster": "https://image.tmdb.org/t/p/w500/vSgnJDw404JUokiy5NDZgXOi01E.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg",
-      "description": "Des amis d'enfance reprennent contact et les retrouvailles prennent une tournure inattendue quand ils découvrent un dangereux complot international et doivent sauver le monde.",
       "releaseInfo": "2026"
     }
   ]

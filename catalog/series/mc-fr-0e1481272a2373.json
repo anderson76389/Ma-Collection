@@ -1,12 +1,30 @@
 {
   "metas": [
     {
+      "id": "tmdb:316702",
+      "type": "series",
+      "name": "La Table finale",
+      "poster": "https://image.tmdb.org/t/p/w500/vJkXnYfInP14oW2VEoh7Qzi5DgP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/anwMEnTDkhv5qJ8wXSRieCvFHGs.jpg",
+      "description": "L'émission \"La Table : K-Chef 2026\" voit les meilleurs chefs coréens s'affronter. Le mystérieux Kang Han, surnommé \"chef Chris K\", Choi Song-yi, qui se bat pour sauver son restaurant, Cha Woo-jin, un perfectionniste étoilé, et bien d'autres chefs aux parcours variés s'engagent dans une bataille culinaire acharnée. Au-delà de la compétition, ils trouvent du réconfort à cuisiner et à se soutenir.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:303745",
       "type": "series",
       "name": "L'amour sous couverture",
       "poster": "https://image.tmdb.org/t/p/w500/xima3BlIJxlrONQgZ9mYuSLAq0f.jpg",
       "background": "https://image.tmdb.org/t/p/w780/32g5MD6eHPAZ5NAgkNAURb4eupm.jpg",
       "description": "Yoon Yi-jun, successeur du groupe Taekang, est le principal suspect d'un terrible meurtre. Pour découvrir la vérité, l'inspectrice Kang Jae-hee s'infiltre auprès de lui en se faisant passer pour son secrétaire. Mais plus elle se rapproche de la vérité, plus ils se rapprochent l'un de l'autre. Entre Jae-hee sous couverture et Yi-jun qui cache un secret, pourront-ils s'avouer leurs sentiments ?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:293607",
+      "type": "series",
+      "name": "100 jours en espionne",
+      "poster": "https://image.tmdb.org/t/p/w500/ox52xrCfPq9iHWX1YX8DC03vBqz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3SvKCITqMtjgPIhFBjRc4yTAc4H.jpg",
+      "description": "En quête de liberté, la meilleure pickpocket de Séoul infiltre le gouvernement colonial japonais pour lui dérober des secrets, mais tombe amoureuse du fils de sa cible.",
       "releaseInfo": "2026"
     },
     {
@@ -23,7 +41,7 @@
       "type": "series",
       "name": "Recharge mon Coeur",
       "poster": "https://image.tmdb.org/t/p/w500/p5UJ0xS2NVmqtUfy9i0DMIJ1Lf3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rN9xHDp83kZ3cOr82JR1b4rFIFk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cnb3SelfQKewpo0bw4HCNRHjwY4.jpg",
       "description": "Un héritier d’entreprise doté d’un cœur artificiel rencontre une femme littéralement électrique. Ils concluent un marché qui fait battre son cœur, et pas seulement au sens propre.",
       "releaseInfo": "2026"
     },
@@ -34,6 +52,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/vyrpZOFIZJkQG8ZWTezmlNGav8R.jpg",
       "background": "https://image.tmdb.org/t/p/w780/wwSoLQrLyiXXUbRnZq1eWBbHaRR.jpg",
       "description": "L'histoire d'amour entre un homme, ancien nageur ayant perdu sa jambe gauche, et une femme qui, après avoir perdu ses repères en tant qu'interne en médecine, trouve une nouvelle voie en tant que jeune diplômée.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:322723",
+      "type": "series",
+      "name": "소년, 주의",
+      "poster": "https://image.tmdb.org/t/p/w500/c4UsTWKi91QJX3JUjRQw0MfE2Ch.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AnaPwTBGbjHcqlQXB7G29GRbiL8.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -150,33 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/wR7y2h0ccbaTnU5KpUjKIesflng.jpg",
       "background": "https://image.tmdb.org/t/p/w780/stJcZWrpfT2DjY0K261Q2FpxUkS.jpg",
       "description": "Un ancien gangster se présente à la présidence de l'association des résidents d'un immeuble afin de mettre la main sur l'argent caché de la copropriété. Cependant, il découvre involontairement la corruption qui règne au sein du complexe. Au fil de ses investigations, il devient peu à peu un héros local.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:300954",
-      "type": "series",
-      "name": "The Husband",
-      "poster": "https://image.tmdb.org/t/p/w500/tC7y1Ut98xH8Ovs1KhxRPMkwEmN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lfTUwBiSyCVcvBPAMzSOYGUgr2c.jpg",
-      "description": "Le mariage de Taeju et Seyun est au bord du gouffre. Quand Taeju, ivre, fait une remarque de trop, sa femme est enlevée et tout bascule. Devenu le principal suspect dans l'affaire, Taeju doit non seulement échapper à la police, mais aussi secourir seul sa femme. Pour la sauver, il va tout risquer.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:296206",
-      "type": "series",
-      "name": "Agent Kim Reactivated",
-      "poster": "https://image.tmdb.org/t/p/w500/eKJNWq4akdrviR9qEF6xPhzKQU.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/g1LJLlmWP74zv9yXKEXm7g9p10O.jpg",
-      "description": "Quand sa fille disparaît, un père en apparence sans histoire retrouve ses qualités d'agent secret pour la retrouver — et s'attire des ennuis.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:286360",
-      "type": "series",
-      "name": "Le Garçon du dernier rang",
-      "poster": "https://image.tmdb.org/t/p/w500/sdRa9afHM4ULqZiJ6e29zKSbz0e.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/oBJ6dZ6A1tY1O94RmWnJkkQVbLz.jpg",
-      "description": "Un professeur de littérature coréenne à l'université est rongé depuis sa jeunesse de ne pas avoir réussi une carrière d'écrivain. Il va être surpris par les talents d'écriture d'un étudiant en ingénierie qui assiste à ses cours. Son intérêt pour le jeune homme va raviver sa passion pour l'écriture, mais aussi développer une obsession pour l'œuvre de ce dernier.",
       "releaseInfo": "2026"
     }
   ]

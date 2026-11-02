@@ -1,31 +1,13 @@
 {
   "metas": [
     {
-      "id": "tmdb:34634",
+      "id": "tmdb:243875",
       "type": "series",
-      "name": "Alaska : La ruée vers l'or",
-      "poster": "https://image.tmdb.org/t/p/w500/wzsQetFAT5pIMF98MWwE7sq9Hf.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ReSSC77upQRIZgvaJaPQPCbWaK.jpg",
-      "description": "Des passionnés sont prêts à tout, et surtout à mener une sérieuse compétition, afin d'arriver à extraire et amasser la plus grande quantité d'or possible, au coeur de sites miniers parmi les plus riches en Amérique.",
-      "releaseInfo": "2010"
-    },
-    {
-      "id": "tmdb:314360",
-      "type": "series",
-      "name": "YAGA",
-      "poster": "https://image.tmdb.org/t/p/w500/kp8xgZ8SrikHQrPn2lC3hb50KD5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lVCFOjUDlZLMvTJxQ2t78MjTIqL.jpg",
-      "description": "Alors qu’un détective privé enquête sur la disparition du jeune héritier d’une puissante entreprise de pêche, il se retrouve en désaccord avec un détective local méfiant, un charismatique professeur d’université qui aime les hommes plus jeunes, et un labyrinthe de suspects énigmatiques, de vies secrètes et de magie ancienne.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:17937",
-      "type": "series",
-      "name": "Ghost Adventures",
-      "poster": "https://image.tmdb.org/t/p/w500/xLJZuDxdeUqRFHFlqs0mIk9faMR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/u64huzTnF3jEYUXJ4BDlpHy2L3K.jpg",
-      "description": "L'enquêteur paranormal Zak Bagans et son équipe, Nick Groff, Aaron Goodwin, Billy Tolley et Jay Wasley, recherchent des lieux hantés au niveau national et international. Au cours de leur enquête, Zak et son équipe se familiarisent avec la région, interrogent les habitants sur les lieux hantés et rencontrent les mauvais esprits qui hanteraient ces lieux.",
-      "releaseInfo": "2008"
+      "name": "Georgie & Mandy's First Marriage",
+      "poster": "https://image.tmdb.org/t/p/w500/vonR5GlaCJpSqIQMUcBm6VQYYuu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/h927CLfeAjiy0MNKRxWZgEq7bHR.jpg",
+      "description": "Cette suite de Young Sheldon suit Georgie et Mandy alors qu'ils élèvent leur jeune famille au Texas.",
+      "releaseInfo": "2024"
     },
     {
       "id": "tmdb:298852",
@@ -37,13 +19,31 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:243875",
+      "id": "tmdb:34634",
       "type": "series",
-      "name": "Georgie & Mandy's First Marriage",
-      "poster": "https://image.tmdb.org/t/p/w500/vonR5GlaCJpSqIQMUcBm6VQYYuu.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mftiCiSsw4DFdlbfjN3cpkmMe0c.jpg",
-      "description": "Cette suite de Young Sheldon suit Georgie et Mandy alors qu'ils élèvent leur jeune famille au Texas.",
-      "releaseInfo": "2024"
+      "name": "Alaska : La ruée vers l'or",
+      "poster": "https://image.tmdb.org/t/p/w500/wzsQetFAT5pIMF98MWwE7sq9Hf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ReSSC77upQRIZgvaJaPQPCbWaK.jpg",
+      "description": "Des passionnés sont prêts à tout, et surtout à mener une sérieuse compétition, afin d'arriver à extraire et amasser la plus grande quantité d'or possible, au coeur de sites miniers parmi les plus riches en Amérique.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:17937",
+      "type": "series",
+      "name": "Ghost Adventures",
+      "poster": "https://image.tmdb.org/t/p/w500/xLJZuDxdeUqRFHFlqs0mIk9faMR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/u64huzTnF3jEYUXJ4BDlpHy2L3K.jpg",
+      "description": "L'enquêteur paranormal Zak Bagans et son équipe, Nick Groff, Aaron Goodwin, Billy Tolley et Jay Wasley, recherchent des lieux hantés au niveau national et international. Au cours de leur enquête, Zak et son équipe se familiarisent avec la région, interrogent les habitants sur les lieux hantés et rencontrent les mauvais esprits qui hanteraient ces lieux.",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:81723",
+      "type": "series",
+      "name": "The Gilded Age",
+      "poster": "https://image.tmdb.org/t/p/w500/l36aFd248esuJJ1uIe0Za96bLTR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/afUVsProh46h31w2EvL7qyHXrqj.jpg",
+      "description": "Aux États-Unis, le Gilded Age désigne la période de prospérité qui suivit la guerre de Sécession. En 1882, la jeune Marian Brook quitte la Pennsylvanie après la mort de son père pour s'installer avec ses tantes aristocrates à New-York. Accompagnée par Peggy Scott, une écrivaine en devenir, Marian va découvrir la haute société et se retrouver au milieu d'un conflit entre une de ses tantes et leurs voisins, l'ambitieux magnat des chemins de fer George Russel et sa femme Bertha.",
+      "releaseInfo": "2022"
     },
     {
       "id": "tmdb:2808",

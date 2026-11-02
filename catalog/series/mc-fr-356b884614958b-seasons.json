@@ -19,24 +19,6 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:283692",
-      "type": "series",
-      "name": "Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!",
-      "poster": "https://image.tmdb.org/t/p/w500/l2bXeBO6f2ZXgKh0ipYKyeMT98v.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xqil5t29q1k6reedUlMy4nYd9f7.jpg",
-      "description": "Takahiro Satô est arraché à son quotidien lorsqu’il se réincarne dans l'univers de son jeu vidéo préféré : un monde galactique où se jouent des batailles spatiales, peuplé de colonies interstellaires mais aussi jonché de dangers. Très vite, il devient « Hiro », un mercenaire équipé d'un vaisseau spatial ultrasophistiqué et accompagné de deux beautés !",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:303272",
-      "type": "series",
-      "name": "Magic Knight Rayearth",
-      "poster": "https://image.tmdb.org/t/p/w500/zlmh4QcxqUS9j40D4PPL5wqc6sB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/f6MmtdKyrmUt2iHfhEKO6DgrL4a.jpg",
-      "description": "Hikaru, Umi et Fuu sont de retour pour une nouvelle adaptation de la série culte Magic Knight Rayearth !",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:206630",
       "type": "series",
       "name": "Sasaki and Peeps",
@@ -44,6 +26,24 @@
       "background": "https://image.tmdb.org/t/p/w780/xljpEwFQF6Rl1rU1w7SEs1pk3YE.jpg",
       "description": "Employé de bureau dans une entreprise japonaise où il exerce un travail insipide, Sasaki décide de se rendre dans une animalerie pour trouver un compagnon afin d'égayer sa vie. Il jette alors son dévolu sur un adorable oiseau nommé Peeps. Mais Sasaki découvre rapidement que Peeps n'est pas un animal comme les autres : c'est un puissant mage venu d'un autre monde ! Ce dernier l’entraîne alors dans une grande aventure remplie d'épées et de sorcellerie.",
       "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:303272",
+      "type": "series",
+      "name": "Magic Knight Rayearth",
+      "poster": "https://image.tmdb.org/t/p/w500/mfTYbPbuxZkbJlmh0LpNegjPGw8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ovysGUJ9Qc7oWaiFbyWjwhw1vtc.jpg",
+      "description": "Hikaru, Umi et Fuu sont de retour pour une nouvelle adaptation de la série culte Magic Knight Rayearth !",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:283692",
+      "type": "series",
+      "name": "Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!",
+      "poster": "https://image.tmdb.org/t/p/w500/l2bXeBO6f2ZXgKh0ipYKyeMT98v.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xqil5t29q1k6reedUlMy4nYd9f7.jpg",
+      "description": "Takahiro Satô est arraché à son quotidien lorsqu’il se réincarne dans l'univers de son jeu vidéo préféré : un monde galactique où se jouent des batailles spatiales, peuplé de colonies interstellaires mais aussi jonché de dangers. Très vite, il devient « Hiro », un mercenaire équipé d'un vaisseau spatial ultrasophistiqué et accompagné de deux beautés !",
+      "releaseInfo": "2026"
     }
   ]
 }

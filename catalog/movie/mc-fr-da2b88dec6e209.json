@@ -3,9 +3,10 @@
     {
       "id": "tmdb:1257147",
       "type": "movie",
-      "name": "Minha Melhor Amiga",
+      "name": "Entre amies",
       "poster": "https://image.tmdb.org/t/p/w500/wGfTFVeguXDXYrwPQ8QMFsaSK2M.jpg",
       "background": "https://image.tmdb.org/t/p/w780/qvBtvzt4OqQPOCD2JW5NBje05Bl.jpg",
+      "description": "Face au syndrome du nid vide, deux amies inséparables suivent leurs filles ados au Portugal et y trouvent l'amour, la fête et un tout nouveau sens à leur amitié.",
       "releaseInfo": "2026"
     },
     {
@@ -59,6 +60,14 @@
       "name": "O Rei da Internet",
       "poster": "https://image.tmdb.org/t/p/w500/7XwnN6bGkJWY9SYGZslciMs7QTW.jpg",
       "background": "https://image.tmdb.org/t/p/w780/bJJze6KU8OlVKK2iNd0cOj9Q1s3.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1432241",
+      "type": "movie",
+      "name": "Cinco Tipos de Medo",
+      "poster": "https://image.tmdb.org/t/p/w500/iNE8DVinMuPARsDSVg5GlHJjxAB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mfpeeEnVKJj0egLcbwq7GeNB7MD.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -163,14 +172,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/xRqgwjnGxcUIqbyBGxSXUzPesIc.jpg",
       "background": "https://image.tmdb.org/t/p/w780/bFzgPvBeARjperha0bYgyPrwXev.jpg",
       "description": "Juin 2001 : des centaines de kilos de cocaïne échouent sur les côtes d'un village portugais. Ce documentaire captivant révèle les conséquences durables sur la communauté.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1380809",
-      "type": "movie",
-      "name": "Perrengue Fashion",
-      "poster": "https://image.tmdb.org/t/p/w500/qVQ58sWH6c36D6YAQ552tHB2x97.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kufsj950W6CBoWoWXm1P3LetMvG.jpg",
       "releaseInfo": "2025"
     }
   ]

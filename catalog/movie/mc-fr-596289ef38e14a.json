@@ -67,8 +67,8 @@
       "id": "tmdb:1503762",
       "type": "movie",
       "name": "Raison et Sentiments",
-      "poster": "https://image.tmdb.org/t/p/w500/9XNEI2AYgQIIqXper5kOdGTnyf5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nrLVr8C2pkbOGwXKay2xrxvlHmh.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/hpYHHl0P978F6AX5Xeew0fi2ryI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg",
       "description": "Une irrésistible nouvelle version du roman culte de Jane Austin, Raison et Sentiments, qui suit deux sœurs à travers leurs amours, leurs chagrins et le lien qui les unit d'une façon magistrale et profondément proche de nous.",
       "releaseInfo": "2026"
     },
@@ -104,7 +104,7 @@
       "type": "movie",
       "name": "By Any Means",
       "poster": "https://image.tmdb.org/t/p/w500/evCy2B3j57AwSNBZqlePjMl3zj3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1jANqIbqrWJZb8GM5Kb3L6U8iHi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nw9Q3idNO8EsTPnvr8vBJTpkWGA.jpg",
       "description": "Un jeune agent noir du FBI est envoyé au Mississippi dans les années 60 afin d’enquêter sur une vague de meurtres brutaux visant des leaders du mouvement des droits civiques. Contraint de faire équipe avec le célèbre tueur à gages de la mafia Greg Scarpa, il se retrouve entraîné dans une traque meurtrière où la frontière entre justice et vengeance devient de plus en plus floue.",
       "releaseInfo": "2026"
     },
@@ -124,15 +124,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/myJdCnJEsFsMmjKhKopQ32lkcP3.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zFCWfU2ViMIm38G1W8UsnSpqmWn.jpg",
       "description": "L'histoire de Ry, une étudiante atteinte d'une maladie chronique qui passe l'été à Majorque avec sa mère. Alors qu'elle tombe amoureuse de Julián et commence à profiter du moment présent, l'aggravation de son état de santé et des secrets de famille menacent de tout gâcher avant la fin de l'été.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1384216",
-      "type": "movie",
-      "name": "The Dog Stars",
-      "poster": "https://image.tmdb.org/t/p/w500/w7c49Qgp3TAUC4hlo0mtgRpLOGG.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yhCHnkidQdR3lksbdyFxduRXFPK.jpg",
-      "description": "Dans un futur proche où une pandémie sans nom a décimé la société américaine, Hig, un pilote vit sur une base aérienne abandonnée du Colorado avec son chien et un ex-marine. Lorsqu'une transmission aléatoire passe par la radio de son Cessna 1956, la voix fait naître au plus profond du pilote l'espoir qu'une vie meilleure existe en dehors de leur périmètre étroitement contrôlé...",
       "releaseInfo": "2026"
     },
     {
@@ -178,6 +169,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/rKws4iqKhrzWHVLHnwtMnCpEHhF.jpg",
       "background": "https://image.tmdb.org/t/p/w780/l7asYmqOad01F2u0oCMM8nQjoEP.jpg",
       "description": "À Détroit dans les années 1970, John Miller sort de prison. Il décide alors de se venger et de récupérer la femme qu'il aime, Sophia.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1468683",
+      "type": "movie",
+      "name": "Heartstopper Forever",
+      "poster": "https://image.tmdb.org/t/p/w500/r4lVJVO1BeBb11cBcXBdbHc9e9k.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wG6yUcgv4xaj64KX7SSPEwBGXW0.jpg",
+      "description": "C'est la rentrée pour la bande de Truham-Higgs. Alors que la relation entre Nick et Charlie évolue, l'heure est venue de penser à ce qui les attend après le lycée.",
       "releaseInfo": "2026"
     }
   ]

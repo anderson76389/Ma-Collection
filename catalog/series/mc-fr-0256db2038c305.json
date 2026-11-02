@@ -1,22 +1,13 @@
 {
   "metas": [
     {
-      "id": "tmdb:108255",
+      "id": "tmdb:136275",
       "type": "series",
-      "name": "James Herriot, chroniques d'un jeune vétérinaire",
-      "poster": "https://image.tmdb.org/t/p/w500/hchdfgmviL9qzJ3OVd0LOkh1b5F.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jDBtipccngWA9UcSKoTMnMFz3PA.jpg",
-      "description": "Les aventures de James Herriot, un jeune vétérinaire de campagne, dans les années 1930, qui a quitté Glasgow pour le Yorkshire Dales, pour devenir l’assistant de Siegfried Farnon.",
-      "releaseInfo": "2020"
-    },
-    {
-      "id": "tmdb:286255",
-      "type": "series",
-      "name": "The Forsytes",
-      "poster": "https://image.tmdb.org/t/p/w500/vpLmjeJJMIJfxCSNEDfedIV4Q8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gPP88D6A4QDnMXESHBZUILG20yQ.jpg",
-      "description": "Le désir, l’ambition et la trahison traversent les générations chez les Forsyte, une famille aisée de courtiers en bourse, dont les membres, pris entre la tradition et la loyauté familiale, s’opposent souvent à leur propre quête de bonheur. Au fil des années, les tensions grandissent entre ceux qui sacrifient leurs sentiments pour préserver l’ordre établi et ceux qui osent poursuivre l’amour, quitte à briser les liens du sang et les conventions sociales.",
-      "releaseInfo": "2025"
+      "name": "The Madame Blanc Mysteries",
+      "poster": "https://image.tmdb.org/t/p/w500/xq5fDpCoxvKs5kIfuvUZRYj8Ycs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/t61baGC7qYl7OYa0YkccaZ7KU7t.jpg",
+      "description": "Jean White est une antiquaire qui dirige une entreprise prospère avec son mari, Rory. Mais lorsqu'il meurt subitement et la laisse presque sans le sou, Jean déménage dans leur seul bien restant - un chalet dans le centre des antiquaires français Saint Victoire - et commence à enquêter sur la mort mystérieuse de Rory.",
+      "releaseInfo": "2021"
     },
     {
       "id": "tmdb:55878",
@@ -60,6 +51,15 @@
       "releaseInfo": "2022"
     },
     {
+      "id": "tmdb:283630",
+      "type": "series",
+      "name": "Murder: Suspect No.1",
+      "poster": "https://image.tmdb.org/t/p/w500/rnIRHKKeNaQA2ndqR2CXhvNQhlf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zSBrEi7HN9VjrE0Ef4M51u5KQgP.jpg",
+      "description": "À la suite d'une équipe d'homicide britannique de haut niveau qui n'a que 24 heures pour prouver leur suspect coupable. Les détectives doivent affronter le suspect numéro 1, présenter leurs preuves et obtenir les accusations pour coller avant que le suspect ne frappe à nouveau.",
+      "releaseInfo": "2025"
+    },
+    {
       "id": "tmdb:300827",
       "type": "series",
       "name": "Traffic Cops: Pursuit Squad One",
@@ -74,6 +74,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/c0RebnmlMf3l8Z41Dv6kPPN0406.jpg",
       "background": "https://image.tmdb.org/t/p/w780/AbFtHI5fQryNl3gxLhQAIi351Gj.jpg",
       "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:156048",
+      "type": "series",
+      "name": "Our Great Yorkshire Life",
+      "poster": "https://image.tmdb.org/t/p/w500/3a3lm1cC4IYN6AmACiIAeDDmllF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vPiosQ1N2e9n3rPikQwfbzQjh1e.jpg",
+      "releaseInfo": "2022"
     },
     {
       "id": "tmdb:240613",

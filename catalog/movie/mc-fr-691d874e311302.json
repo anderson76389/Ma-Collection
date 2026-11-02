@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:1518731",
+      "type": "movie",
+      "name": "Αρκουδότρυπα",
+      "poster": "https://image.tmdb.org/t/p/w500/ktXPMgv10szw1G8FZhES88sxwSG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/frsonlLS5QyySO8CK4CyRPOdkRP.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1627624",
       "type": "movie",
       "name": "Τελευταία Κλήση",
@@ -160,14 +168,6 @@
       "name": "Κουραμπιέδες από Χιόνι",
       "poster": "https://image.tmdb.org/t/p/w500/qhjonkT8IER4rwKgjatF5EH0XOA.jpg",
       "background": "https://image.tmdb.org/t/p/w780/jJl4bpqED5B8MPCjSl9isD84b7J.jpg",
-      "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:1196489",
-      "type": "movie",
-      "name": "Φόνισσα",
-      "poster": "https://image.tmdb.org/t/p/w500/q6GLHZCGFr5v6RErM4C7O8v4v6C.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cZgURfEy9F6jruidM1mJefIDgLf.jpg",
       "releaseInfo": "2023"
     }
   ]

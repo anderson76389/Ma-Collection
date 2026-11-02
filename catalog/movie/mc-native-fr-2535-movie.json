@@ -1,6 +1,51 @@
 {
   "metas": [
     {
+      "id": "tmdb:1806253",
+      "type": "movie",
+      "name": "La foil histoire de la Route du Rhum",
+      "poster": "https://image.tmdb.org/t/p/w500/5QqYXl9ksVqYVpELn0T3YeZKgbu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iX3qza4Jk3UilanGk0LoS1tQNzG.jpg",
+      "description": "Depuis quelques années, une aile invisible soulève la mer. Le foil, une lame d'ingénierie, permet aux bateaux de ne plus flotter, mais de voler au-dessus des vagues. Et en quelques années, la Route du Rhum est devenue un laboratoire de l'avenir où la mer se dématérialise et où le marin devient pilote. L'édition 2026 sera le rendez-vous des bateaux volants : 70 % des bateaux inscrits au départ seront équipés de foils. Retour sur cette métamorphose spectaculaire du temps des marins poètes aux pilotes d'aujourd'hui, en suivant la trace de ceux qui ont fait basculer la légende.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1806212",
+      "type": "movie",
+      "name": "Trahisons, l'art de rompre en politique",
+      "poster": "https://image.tmdb.org/t/p/w500/35P4HYNWQbMRcbXDdfJ1HuaCVOR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qXLdJ9gCKr8X7zj0ySk4zfJEd8S.jpg",
+      "description": "En politique, les fidélités ne durent parfois que le temps d'une ambition. Derrière les grandes batailles électorales se jouent aussi des histoires intimes de confiance, d'humiliation et de revanche. De l'ascension fulgurante d'Emmanuel Macron, qui s'émancipe de François Hollande, à la guerre fratricide qui oppose Jacques Chirac à Edouard Balladur en 1995 ; de la rupture de Bruno Mégret avec Jean-Marie Le Pen à la volte-face d'Eric Besson, passé du Parti socialiste à Nicolas Sarkozy en pleine campagne présidentielle de 2007, quatre histoires de fidélités brisées qui ont marqué la vie politique française sont racontées par ceux qui les ont vécues au plus près.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1801526",
+      "type": "movie",
+      "name": "Le luxe, un pouvoir français",
+      "poster": "https://image.tmdb.org/t/p/w500/rjRq3MQECnur892fk8lNmealTVB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ig9rHZV312y3W8pr3uP2U2mFtiQ.jpg",
+      "description": "Sur l'échiquier géopolitique mondial, un sac Dior, une robe Chanel ou un carré Hermès semblent à priori dérisoires face aux barils de pétrole ou aux contrats d'armement. Pourtant, la haute couture française a bâti le système d'influence le plus puissant et le plus viral de notre époque. Depuis 20 ans, les maisons de haute couture françaises sont devenues des empires mondiaux avec LVMH et Kering. En difficultés financières, ces groupes doivent gagner la bataille de l'image et du \"like\" en organisant des défilés hors norme. A l'ère du tout Instagram, une marque est capable de débourser un demi million d'euros pendant la Fashion Week pour avoir les plus grandes stars au premier rang de son défilé.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1805615",
+      "type": "movie",
+      "name": "GTA, le jeu no limit",
+      "poster": "https://image.tmdb.org/t/p/w500/8afN9cOWn4chAxnlFso15FkBvRm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1bB4OUp1ci7gCo0S2oievHDRDdx.jpg",
+      "description": "Alors que GTA 6, le jeu vidéo le plus attendu de l’histoire déferlera sur la planète en ce mois de novembre 2026, plongez au cœur de l’histoire d’un titan de la pop culture ! En trente ans, Grand Theft Auto, désormais connu sous l'acronyme GTA, est passé du statut de paria rejeté par la classe politique et les médias à celui d’œuvre iconique incontournable.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1799804",
+      "type": "movie",
+      "name": "Israël, une démocratie en péril",
+      "poster": "https://image.tmdb.org/t/p/w500/qyhiR2YQsmUYSIJCBFBiuXTcKs0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aKfp9bjfEH8IfNSVbZBwiOADzsB.jpg",
+      "description": "Depuis le 7 octobre 2023, Israël traverse la crise politique, morale et démocratique la plus profonde de son histoire récente. Le traumatisme des attaques du Hamas et la guerre prolongée à Gaza, au Liban, en Iran ont accentué des dynamiques déjà à l’œuvre : concentration du pouvoir exécutif, affaiblissement des contrepouvoirs et fragilisation des libertés publiques. Le fonctionnement institutionnel se maintient, tandis que les conditions du débat démocratique se transforment, rendant plus difficile l’exercice de la critique et accentuant les lignes de fracture au sein de la société.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1642600",
       "type": "movie",
       "name": "Harceleurs",
@@ -132,51 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/dqyK6WQ28AoG1ylL0NmIVlQGMzr.jpg",
       "background": "https://image.tmdb.org/t/p/w780/myZ4eoEHJImHnUF1YTvVBjtXy4C.jpg",
       "description": "La carrière impressionnante de Philippe Bouvard, décédé à 96 ans le 24 août 2026, a duré plus de cinq décennies : homme de radio et de télévision, touche à tout de génie, homme de presse, auteur d'une trentaine de livres, de pièces de théâtre, inventeur du talk-show du samedi soir et créateur des \"Grosses têtes\". Cette figure des médias est aussi l'inventeur de l'impertinence à la télévision. Pur autodidacte, Philippe Bouvard a débuté comme simple coursier au Figaro, qu'il dirigea bien des années plus tard. Flambeur, cultivé, curieux, passionné, il incarnait l'esprit français. Il faisait rire en traversant la vie en s'amusant.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1748836",
-      "type": "movie",
-      "name": "Brigitte Bardot - Le combat en héritage",
-      "poster": "https://image.tmdb.org/t/p/w500/bTVwEuAkJkhgysi17OPmJ8i0FIA.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/67nYDSRoGeksER2u2J2XMcazbZQ.jpg",
-      "description": "À l'occasion des 40 ans de la Fondation Brigitte Bardot, créée en 1986, et quelques mois après la disparition de l'icône le 28 décembre 2025, cette émission raconte le véritable héritage de BB. Entouré de nombreux invités, Stéphane Bern dresse le portrait d'une femme qui a transformé sa célébrité en levier d'action, de lois, de sauvetages et de mobilisation populaire au profit de la cause animale. De l'icône mondiale à la protection des animaux, la vie de Brigitte Bardot fut une vie de ruptures et de victoires.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1732501",
-      "type": "movie",
-      "name": "Le concert des nuits d'été de Schönbrunn 2026",
-      "poster": "https://image.tmdb.org/t/p/w500/A3vF9HnYFCGHVLqHSeOzqWWQ4bs.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fa0G5kjuhZIl3X8l46RZawXKhQP.jpg",
-      "description": "Lorenzo Viotti fait ses débuts au pupitre de cet événement, comme le baryton-basse gallois Sir Bryn Terfel, qui collabore étroitement avec l'orchestre depuis plusieurs décennies. Le concert d'une nuit d'été est chaque année un éblouissement visuel autant que l'occasion d'entendre le meilleur de la musique classique, symphonique et lyrique, grâce à la participation de solistes et chefs d'orchestre réputés. Cette année, Lorenzo Viotti a fait ses débuts au pupitre de cet événement, tout comme le baryton-basse gallois Sir Bryn Terfel, qui collabore étroitement avec l'orchestre depuis plusieurs décennies, tant à l'opéra qu'en concert.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1733176",
-      "type": "movie",
-      "name": "Le match France-Italie : histoire d'une rivalité",
-      "poster": "https://image.tmdb.org/t/p/w500/kdYgR9A4khWvTIFViHLmZJH1Oqd.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/25GXYpNYudZVqqYEzuzgmGCIOc3.jpg",
-      "description": "Le Match explore l’une des rivalités les plus marquantes de l’histoire du football : celle qui oppose, depuis plusieurs décennies, la France et l’Italie. Point culminant et fil rouge de cette histoire, la finale de la Coupe du Monde 2006 à Berlin et le célèbre coup de tête de Zidane. À travers les témoignages inédits de joueurs et journalistes des deux nations, le film revisite ces affrontements mythiques qui ont façonné la rivalité. Il raconte les destins croisés de figures emblématiques comme Platini, Tapie, Berlusconi, Zidane, Lippi ou Domenech. Plus qu’une opposition, Le Match met en lumière une relation singulière faite de compétition, mais aussi d’échanges et d’amitié entre deux nations qui se défient autant qu’elles s’admirent.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1727348",
-      "type": "movie",
-      "name": "Ce Qui Nous Tient Debout",
-      "poster": "https://image.tmdb.org/t/p/w500/Cz1huTER2ZVNxAYuLjbRlg7sDA.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gSgxwdcI1tqcz6eK3xWpdue6cwd.jpg",
-      "description": "Matthieu Lartot, journaliste sportif de France Télévisions, a été touché deux fois par le cancer. A 17 ans, un cancer du genou a mis fin à ses rêves de joueur de rugby. A 43 ans, une récidive l’a conduit à se faire amputer de sa jambe droite pour pouvoir rester en vie. Dans ce film, le commentateur de rugby préféré des Français confie son histoire personnelle avec une grande sincérité, pour briser le tabou du cancer dans la société. La maladie du siècle toucherait 1200 nouvelles personnes chaque jour, et toutes les familles sont concernées. Matthieu se confie en toute transparence sur le voyage émotionnel dans lequel il est plongé depuis ses 17 ans, et l’annonce de ce cancer rarissime qui a bouleversé sa vie. Une longue épreuve durant laquelle il a pu compter sur ses proches, ses parents, son épouse, ses enfants, mais aussi les médecins et personnels soignants, ainsi que d’autres personnes malades ou fragilisées par la vie qui sont devenues ses « compagnons de route ».",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1715025",
-      "type": "movie",
-      "name": "Si j'étais sage-femme",
-      "poster": "https://image.tmdb.org/t/p/w500/ylBXKcO5T0CJQ6jf5hhRtNFL4vQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/imboxWwhfExpm9F7htvDDum3yyX.jpg",
-      "description": "La journaliste et mère de deux enfants Sidonie Bonnec part en immersion dans un métier essentiel, exercé sur quatre continents, en France, au Sénégal, au Guatemala et au Népal, pour comprendre ce que la naissance révèle de nos sociétés. D’un pays à l’autre, les contextes varient radicalement : hôpitaux saturés, villages isolés, traditions ancestrales ou systèmes de santé en construction. Les moyens changent, les pratiques aussi. Mais une même réalité demeure : les mêmes peurs, les mêmes urgences, les mêmes émotions au moment d’accueillir la vie. Ce documentaire inédit suit celles qui prennent soin de ce moment décisif : des héroïnes du quotidien, souvent invisibles mais indispensables. À travers un récit incarné, Sidonie Bonnec donne à voir un métier au cœur de l’intime et du vital.",
       "releaseInfo": "2026"
     }
   ]

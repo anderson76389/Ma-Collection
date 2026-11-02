@@ -1,12 +1,38 @@
 {
   "metas": [
     {
+      "id": "tmdb:1571955",
+      "type": "movie",
+      "name": "Colisión",
+      "poster": "https://image.tmdb.org/t/p/w500/sMPIiaOoyTr5o6s602KIVMJX3P2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uI3kWI7kGW5E0F8WduewgQYPt34.jpg",
+      "description": "En pleine crise économique, un groupe de cambrioleurs s'introduit dans une banque à Madrid, déclenchant une série d'événements imprévisibles. Ce qui s'apparentait au départ à un simple braquage se transforme en un jeu de dupes et de peur où tout est affaire de survie : chaque décision compte, chaque geste cache quelque chose et chacun cherche à échapper à un châtiment pire que la prison.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1657630",
+      "type": "movie",
+      "name": "El despertar",
+      "poster": "https://image.tmdb.org/t/p/w500/w3YJx1PPPC6aiVKusxfc9QA0uYS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4pYKqctQvvdyhuGjiK4szH9jEv9.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1780005",
       "type": "movie",
       "name": "Contre l'Ouragan",
       "poster": "https://image.tmdb.org/t/p/w500/8T590m8nwAub9fTxp72EJPphOWa.jpg",
       "background": "https://image.tmdb.org/t/p/w780/cpNMIRCrDl0sxDL1tHBzfWi0UZC.jpg",
       "description": "En pleine mer, Wirpul et son demi-frère Candi luttent pour survivre lorsqu'une tempête imprévue au large d'Acapulco se transforme en ouragan de catégorie 5, dénommé Otis. Une histoire de fraternité, d'inégalité et de courage, où l'amour fraternel est le seul espoir.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1507696",
+      "type": "movie",
+      "name": "Apocalypse Z : Nouveau Monde",
+      "poster": "https://image.tmdb.org/t/p/w500/hQaxPNX2He3K8bupE0JSX48XNY8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/o3XwuDUj0n8qnK91p6q8LKfr6rj.jpg",
+      "description": "Depuis l'apparition du virus TSJ, les îles Canaries sont devenues le dernier refuge en Europe. Alors qu'une unité part chercher du ravitaillement à Madrid, Roberto se joint à elle avec des intentions troubles. Cernés par les infectés et partagés entre des loyautés contradictoires, ils doivent survivre tout en affrontant un dilemme : suivre les ordres ou tout risquer pour ce qui reste d'humanité.",
       "releaseInfo": "2026"
     },
     {
@@ -57,9 +83,10 @@
     {
       "id": "tmdb:1257147",
       "type": "movie",
-      "name": "Minha Melhor Amiga",
+      "name": "Entre amies",
       "poster": "https://image.tmdb.org/t/p/w500/wGfTFVeguXDXYrwPQ8QMFsaSK2M.jpg",
       "background": "https://image.tmdb.org/t/p/w780/qvBtvzt4OqQPOCD2JW5NBje05Bl.jpg",
+      "description": "Face au syndrome du nid vide, deux amies inséparables suivent leurs filles ados au Portugal et y trouvent l'amour, la fête et un tout nouveau sens à leur amitié.",
       "releaseInfo": "2026"
     },
     {
@@ -68,6 +95,13 @@
       "name": "Barreda",
       "poster": "https://image.tmdb.org/t/p/w500/a25CyXmPJx6SrVFA9yirJTL9iAH.jpg",
       "background": "https://image.tmdb.org/t/p/w780/4pXBWLKMew7Xmtq3OgMQxTHp060.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1752312",
+      "type": "movie",
+      "name": "Papi Ricky: La Película",
+      "poster": "https://image.tmdb.org/t/p/w500/y0EhzwaNnpMezpIDNoBcRCoAhMN.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -137,40 +171,6 @@
       "name": "Tres de más",
       "poster": "https://image.tmdb.org/t/p/w500/9Y6zDmHgXadnyZ7ZRJWa3WI2nhx.jpg",
       "background": "https://image.tmdb.org/t/p/w780/bERXJB7QSf3T8hlwN8RCzWToTAM.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1428226",
-      "type": "movie",
-      "name": "Hasta el Fin del Mundo",
-      "poster": "https://image.tmdb.org/t/p/w500/kwuQPxbJPfjU0TKXcVpdzJ0RvJ5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hmoNULa9OEIM5pCzXr1XnuTVgUT.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1487861",
-      "type": "movie",
-      "name": "Elize Surgie de l'Ombre",
-      "poster": "https://image.tmdb.org/t/p/w500/ryuWPWA3sZ1eoKHaZLxAvNoxCnV.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/z8mTDyKdAWjKsD0vwa7e9LTSY1j.jpg",
-      "description": "Inspirée de l'affaire réelle d'Elize Matsunaga, qui a choqué le Brésil après avoir assassiné et démembré son mari, \"Elize : Surgie de l'ombre\" est une fiction qui revisite son histoire, révélant les mécanismes d'une relation tumultueuse et les choix qui ont conduit à un crime atroce.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1721914",
-      "type": "movie",
-      "name": "Ni contigo ni sin mí",
-      "poster": "https://image.tmdb.org/t/p/w500/91rYGclLgeLQmEaMr81GmReJzUY.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wxviAXjGNdIUOSlse4KvqbmwTmv.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1722713",
-      "type": "movie",
-      "name": "Miguel Ángel Blanco: Las 48 horas que lo cambiaron todo",
-      "poster": "https://image.tmdb.org/t/p/w500/7MCnV8wb1tODOrM8NmWAuPWm40Y.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6QdbhPXNVFJ3cVCCFscOulC3Bpa.jpg",
-      "description": "Ce documentaire explore comment l'enlèvement de Miguel Ángel Blanco en 1997 a transformé la peur en résistance collective et a façonné la lutte de l'Espagne contre le terrorisme de l'ETA.",
       "releaseInfo": "2026"
     }
   ]

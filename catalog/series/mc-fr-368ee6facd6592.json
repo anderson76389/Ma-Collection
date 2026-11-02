@@ -1,30 +1,6 @@
 {
   "metas": [
     {
-      "id": "tmdb:12317",
-      "type": "series",
-      "name": "Australian Story",
-      "poster": "https://image.tmdb.org/t/p/w500/AdVz2lrwXb4SOV8V3yV8JSAuqWI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mtUvQcreWwuc9JEV7owXkPgBI23.jpg",
-      "releaseInfo": "1996"
-    },
-    {
-      "id": "tmdb:1384",
-      "type": "series",
-      "name": "Four Corners",
-      "poster": "https://image.tmdb.org/t/p/w500/kuRWjm8WlWXboeGGiCQH1L6KT78.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wtHDHiCf0UQTOpCpH8hvfabo0U3.jpg",
-      "releaseInfo": "1961"
-    },
-    {
-      "id": "tmdb:328",
-      "type": "series",
-      "name": "Media Watch",
-      "poster": "https://image.tmdb.org/t/p/w500/bcXx6gLX6L79B7qXd4COjy2ZNV.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ieJ82Oq4XKvOTZTr6WL6Pv1QKlk.jpg",
-      "releaseInfo": "1989"
-    },
-    {
       "id": "tmdb:307176",
       "type": "series",
       "name": "Dustfall",
@@ -50,14 +26,6 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:337730",
-      "type": "series",
-      "name": "Recipe of the Year",
-      "poster": "https://image.tmdb.org/t/p/w500/e02kCRTSuT479nh1DDdBFlc74un.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/87XSfqP0wNATfDCpcV30CqDdygK.jpg",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:336872",
       "type": "series",
       "name": "Class Clowns",
@@ -71,6 +39,14 @@
       "name": "The State of Man",
       "poster": "https://image.tmdb.org/t/p/w500/VpuhSeYHgKOgPM9V1XEM3ABcPR.jpg",
       "background": "https://image.tmdb.org/t/p/w780/p2LJlCimKFxP38UsS2CkEVugFsP.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:337730",
+      "type": "series",
+      "name": "Recipe of the Year",
+      "poster": "https://image.tmdb.org/t/p/w500/e02kCRTSuT479nh1DDdBFlc74un.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/87XSfqP0wNATfDCpcV30CqDdygK.jpg",
       "releaseInfo": "2026"
     }
   ]

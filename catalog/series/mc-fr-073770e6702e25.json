@@ -27,6 +27,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:256694",
+      "type": "series",
+      "name": "Adventure Time : Les Quêtes Bonus",
+      "poster": "https://image.tmdb.org/t/p/w500/keol24oIVjZjomu4jznMXvnvghL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/l75H7ymGd96jPWdIjvOXW0qvEM4.jpg",
+      "description": "Alors qu'il n'était encore qu'un enfant, Finn était déjà impatient de combattre des monstres et de participer à des quêtes épiques avec son meilleur ami, Jake.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:285807",
       "type": "series",
       "name": "Nemesis",
@@ -40,7 +49,7 @@
       "type": "series",
       "name": "Regular Show : Les cassettes oubliées",
       "poster": "https://image.tmdb.org/t/p/w500/gZuwOtqQRPvLOhLV21qfaC3tIxS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/Zk5UmvJ634LhA56R18h8RfipFG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/43Tu4TnFO57R6eK6XUBFGJrazrZ.jpg",
       "description": "Mordecai, un geai bleu, et Rigby, un raton laveur, deux amis paresseux, travaillent dans un parc municipal. Mais, quoi qu'ils entreprennent, leurs tâches quotidiennes finissent invariablement par basculer dans un chaos totalement surréaliste, au grand désespoir de leur patron et de leurs collègues...",
       "releaseInfo": "2026"
     },
@@ -168,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/vNByuzy60v31nmUVPMA8oAtneUK.jpg",
       "background": "https://image.tmdb.org/t/p/w780/c78kbj781ddvmSn5mgLWFQbC7di.jpg",
       "description": "Ayant survécu à la rébellion de Spartacus, l'ambitieux et manipulateur Ashur se retrouve à la tête du ludus autrefois dirigé par Batiatus. Il doit dompter une nouvelle génération de gladiateurs et faire face aux intrigues de la politique romaine.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:271855",
-      "type": "series",
-      "name": "Sandokan",
-      "poster": "https://image.tmdb.org/t/p/w500/xHQDSDYFWbHuN71s23Yy9lwN70j.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1AA5xIVt1PTrbLxCCBxRyvjdpqO.jpg",
-      "description": "Dans la jungle luxuriante de Bornéo, Sandokan, pirate intrépide, vit pour la liberté. Sa rencontre avec Marianne, fille du consul britannique, fait naître un amour impossible. Traqués par Lord Brooke, ils luttent contre la tyrannie. Pour sauver son peuple, Sandokan doit devenir le légendaire Tigre de Malaisie.",
       "releaseInfo": "2025"
     }
   ]

@@ -1,31 +1,22 @@
 {
   "metas": [
     {
-      "id": "tmdb:18053",
+      "id": "tmdb:259909",
       "type": "series",
-      "name": "Nurse Jackie",
-      "poster": "https://image.tmdb.org/t/p/w500/efKrmVB9Jwmh6HxFjED6FyeOUpW.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lyybuNTSkI4vJZdccpinuj7vxCU.jpg",
-      "description": "Infirmière au sein des Urgences d'un hôpital new-yorkais assez rude, Jackie Peyton affronte tous les jours des cas difficiles. Obstinée et brillante, elle a toutefois du mal à jongler entre un quotidien professionnel assez mouvementé et une vie personnelle également périlleuse...",
-      "releaseInfo": "2009"
+      "name": "Dexter: Resurrection",
+      "poster": "https://image.tmdb.org/t/p/w500/teZOzBZhugzh7UfW6xuPp4wJ5oU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vcpj6rRDS93ImHCLPY8bwBuFGjR.jpg",
+      "description": "Après avoir survécu à ses blessures, Dexter se retrouve à New York. Il tente de renouer une relation avec son fils mais des meurtres rituels ensanglantent Big Apple.",
+      "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:7869",
+      "id": "tmdb:1215",
       "type": "series",
-      "name": "Les pingouins de Madagascar",
-      "poster": "https://image.tmdb.org/t/p/w500/heB1qKq57FKkPWCPnOxH9aGW598.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tdDRR3qnwwicr2DJbaaF8CDW168.jpg",
-      "description": "Une fois de plus, Skipper, Kowalski, Rico et Private, dictent leur loi à l'intérieur du zoo de Central Park. Afin de pouvoir garder leur voisinage heureux, les pingouins doivent parfois s'aventurer dans la jungle new-yorkaise afin de ramener de nouvelles trouvailles qui pourront les aider à préserver leur tranquillité. Mais alors que les quatre frères pensent avoir un contrôle absolu sur les autres animaux, un nouvel arrivant fait son apparition : Julien, le roi des lémuriens, doté d'un égo surdimensionné, il passe ses nuits à faire la fête avec ses copains. Exaspéré, les pingouins vont devoir rivaliser de nouveaux stratagèmes pour récupérer leur territoire. ",
-      "releaseInfo": "2008"
-    },
-    {
-      "id": "tmdb:202297",
-      "type": "series",
-      "name": "Fire Country : Pompiers sur Appel",
-      "poster": "https://image.tmdb.org/t/p/w500/2qhBMwFtQIUQId8nhaywVqKTPLw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/r6jUY6q3ObYOeFFWxM7jemS7IWE.jpg",
-      "description": "En quête de rédemption et d'une peine de prison raccourcie, le jeune condamné Bode Donovan rejoint un programme de lutte contre les incendies qui le ramène dans sa petite ville natale du nord de la Californie, où lui et d'autres détenus travaillent aux côtés de pompiers d'élite pour éteindre d'énormes incendies dans la région.",
-      "releaseInfo": "2022"
+      "name": "Californication",
+      "poster": "https://image.tmdb.org/t/p/w500/6mxF22FeS3AfGMPxPRGihBIOBYh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9o9SS26mUY4cp4iSFk7iwBeAQuP.jpg",
+      "description": "Hank Moody est romancier et séparé de la mère de sa fille de 13 ans. Il est aussi accro aux femmes et aux drogues et ne peut s'empêcher de dire la vérité, tout le temps et à tout le monde. Oui, Hank est auto-destructeur...",
+      "releaseInfo": "2007"
     }
   ]
 }

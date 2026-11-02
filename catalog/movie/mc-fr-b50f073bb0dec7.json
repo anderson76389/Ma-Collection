@@ -22,7 +22,7 @@
       "id": "tmdb:1302904",
       "type": "movie",
       "name": "Les Ensorceleuses 2",
-      "poster": "https://image.tmdb.org/t/p/w500/qU6bErj56ebypPwA7zaiTfKzemA.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/j1kEkItdsOyNorF32bU0xRgeoHN.jpg",
       "background": "https://image.tmdb.org/t/p/w780/oIglj0Jy9duG4LnrRUpH8n001Pk.jpg",
       "description": "Une famille de sorcières multigénérationnelle, maudite à être sans amour pendant des siècles, tente de briser le sort en affrontant de sombres secrets et en se sacrifiant les uns pour les autres.",
       "releaseInfo": "2026"
@@ -70,6 +70,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/5Dk5KHdHNSt6po6qUVVm95kpqSa.jpg",
       "background": "https://image.tmdb.org/t/p/w780/p6RXoveMLzMGrmfCsRgARNRIYHZ.jpg",
       "description": "Ellie, élève ambitieuse, s'associe à Nate, un garçon populaire, pour empêcher son ex-petit ami de remporter une élection scolaire. Leur plan semble parfait jusqu'à ce que leur complicité grandissante fasse naître des sentiments inattendus.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1617191",
+      "type": "movie",
+      "name": "Summer's Last Resort",
+      "poster": "https://image.tmdb.org/t/p/w500/t70Jano5laAybW9EDJAYWT4tnxL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7iMZWD9ecKLAKpi71zR3impjHxr.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -166,15 +174,6 @@
       "name": "Because of Cupid",
       "poster": "https://image.tmdb.org/t/p/w500/qLcGqmRs8pMUxYshdqXy7ECg7BX.jpg",
       "background": "https://image.tmdb.org/t/p/w780/rv5C0uUAZtEyb5x9N8Wchjgfqhr.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1515615",
-      "type": "movie",
-      "name": "More Than a Kiss",
-      "poster": "https://image.tmdb.org/t/p/w500/qmLFYcm6MFp02IIF5Qn6FuoPnKd.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7yuHdP85F2ZxhKbSoPgCBT9uJT3.jpg",
-      "description": "Sean, élève brillant visant le MIT, accepte d'aider Flora, une adolescente populaire mais peu investie dans ses études, à améliorer ses résultats scolaires. Ce qui commence comme un simple accord se transforme peu à peu en une histoire d'amour qui remet en question leurs projets et leurs certitudes.",
       "releaseInfo": "2026"
     }
   ]

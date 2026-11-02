@@ -10,6 +10,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1503762",
+      "type": "movie",
+      "name": "Raison et Sentiments",
+      "poster": "https://image.tmdb.org/t/p/w500/hpYHHl0P978F6AX5Xeew0fi2ryI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg",
+      "description": "Une irrésistible nouvelle version du roman culte de Jane Austin, Raison et Sentiments, qui suit deux sœurs à travers leurs amours, leurs chagrins et le lien qui les unit d'une façon magistrale et profondément proche de nous.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:977942",
       "type": "movie",
       "name": "The Uprising",
@@ -23,7 +32,7 @@
       "type": "movie",
       "name": "By Any Means",
       "poster": "https://image.tmdb.org/t/p/w500/evCy2B3j57AwSNBZqlePjMl3zj3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1jANqIbqrWJZb8GM5Kb3L6U8iHi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nw9Q3idNO8EsTPnvr8vBJTpkWGA.jpg",
       "description": "Un jeune agent noir du FBI est envoyé au Mississippi dans les années 60 afin d’enquêter sur une vague de meurtres brutaux visant des leaders du mouvement des droits civiques. Contraint de faire équipe avec le célèbre tueur à gages de la mafia Greg Scarpa, il se retrouve entraîné dans une traque meurtrière où la frontière entre justice et vengeance devient de plus en plus floue.",
       "releaseInfo": "2026"
     },
@@ -105,14 +114,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/kVa32BHWeXU52ov8obUUTbt7Ltm.jpg",
       "background": "https://image.tmdb.org/t/p/w780/jZNR5onRZijwyGr5iWbs3J9QcYr.jpg",
       "description": "Au XVIIIe siècle, à Manchester, Ann Lee devient la mère spirituelle des Shakers, un mouvement religieux prônant la chasteté et l'égalité entre les sexes, et dont les prières s'expriment par la danse. Persécutée en Angleterre, la jeune femme charismatique part s'établir avec ses disciples dans le Nouveau Monde, quelques années avant la révolution américaine.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1015154",
-      "type": "movie",
-      "name": "Luciérnagas en El Mozote",
-      "poster": "https://image.tmdb.org/t/p/w500/vAMPpEvaW9EmRwFmzFMaM8wS3KV.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/i0YlPmyAfjxWJczVqK0MP88XKU4.jpg",
       "releaseInfo": "2025"
     },
     {

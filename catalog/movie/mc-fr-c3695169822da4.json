@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1195803",
+      "type": "movie",
+      "name": "Wicker",
+      "poster": "https://image.tmdb.org/t/p/w500/fjoHeK9kmoN46dUPGVpZA5rD27g.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg",
+      "description": "Mise au ban de son village, une pêcheuse solitaire commande au vannier local un mari en osier. Cet époux improbable se révèle doté d’une sensibilité et de talents qui dépassent toutes ses attentes. À son contact, elle découvre un désir insoupçonné et, peu à peu, s’éprend véritablement de lui. Mais bientôt, son étrange mari attise les convoitises, la jalousie et les fantasmes des villageois, faisant vaciller les certitudes d’une communauté jusque-là bien ordonnée.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:791523",
       "type": "movie",
       "name": "Wildwood : La prophétie de la forêt",
@@ -21,17 +30,17 @@
     {
       "id": "tmdb:1465063",
       "type": "movie",
-      "name": "L'Île des Souvenirs",
-      "poster": "https://image.tmdb.org/t/p/w500/A12dkvb10IgoQxHxU5TXOc6WR4k.jpg",
+      "name": "L'île des souvenirs",
+      "poster": "https://image.tmdb.org/t/p/w500/txvVTbY1cAsBe5tPX9c5m5SM3ml.jpg",
       "background": "https://image.tmdb.org/t/p/w780/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
-      "description": "Jo et Raissa se retrouvent échouées sur le monde fantastique de l'île oubliée de Nakali. Elles découvrent que le seul moyen de rentrer chez elles pourrait bien leur coûter toute une vie de souvenirs et d'émotions.",
+      "description": "Pendant qu'elles passent une dernière soirée ensemble avant de s'engager sur des voies différentes, Jo et Raissa, amies depuis toujours, trouvent un portail mystérieux qui les transporte sur Nakali, une île mythique peuplée de créatures magiques dont leurs familles philippines leur ont parlé. Alors qu'elles cherchent à rentrer chez elles, Jo et Raissa découvrent que leurs souvenirs sont en péril. Réussiront-elles à quitter l'île avant de s'oublier l'une l'autre ?",
       "releaseInfo": "2026"
     },
     {
       "id": "tmdb:1302904",
       "type": "movie",
       "name": "Les Ensorceleuses 2",
-      "poster": "https://image.tmdb.org/t/p/w500/qU6bErj56ebypPwA7zaiTfKzemA.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/j1kEkItdsOyNorF32bU0xRgeoHN.jpg",
       "background": "https://image.tmdb.org/t/p/w780/oIglj0Jy9duG4LnrRUpH8n001Pk.jpg",
       "description": "Une famille de sorcières multigénérationnelle, maudite à être sans amour pendant des siècles, tente de briser le sort en affrontant de sombres secrets et en se sacrifiant les uns pour les autres.",
       "releaseInfo": "2026"
@@ -67,7 +76,7 @@
       "id": "tmdb:980431",
       "type": "movie",
       "name": "‎Avatar Aang, le dernier maître de l'air",
-      "poster": "https://image.tmdb.org/t/p/w500/sJDjdYGDFdx9uftetPPjH7Jwing.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/gBZIjh69mhy0hcmYk4TJ8UcPH3v.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ezbrL1dMymKQZw7mDEWa2ZTzN7d.jpg",
       "description": "Avatar Aang, le dernier Maître de l'Air, apprend l'existence d'un pouvoir ancestral qui pourrait sauver sa culture. Avec ses amis, il se lance dans une quête mondiale pour le trouver avant qu'il ne tombe entre de mauvaises mains.",
       "releaseInfo": "2026"
@@ -104,7 +113,7 @@
       "type": "movie",
       "name": "L'Odyssée",
       "poster": "https://image.tmdb.org/t/p/w500/kP8jJIkmX0vWEYiqQ9c5zU0dvcn.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bulFtfy3oBQtCnAMSi7g6DSSds3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iDiTY1wA35YWzTmXLTtqaxtN6tc.jpg",
       "description": "Vingt ans après son départ pour la guerre de Troie, le roi Ulysse rentre enfin à Ithaque, mais son voyage est parsemé d'aventures et d'épreuves.",
       "releaseInfo": "2026"
     },
@@ -168,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/yPkeeBEJdQO85AGCwi2XEIfMOxa.jpg",
       "background": "https://image.tmdb.org/t/p/w780/4EAAwpylq313qrDqpCxulUrXBNF.jpg",
       "description": "Les champions en arts martiaux de l'Earthrealm, secondés par le héros de films d'action Johnny Cage, s'affrontent dans un tournoi ultime. Leur but : renverser Shao Kahn, un tyran qui menace l'existence même de leur monde. L'arrivée fracassante de Kitana, princesse d'Outworld aux loyautés troubles, vient brouiller davantage les lignes séparant ennemis et alliés. Tandis que de nouvelles alliances se forment, les combattants découvrent que les règles du tournoi ont changé. Entre affrontements spectaculaires et révélations mystiques, ils devront repousser leurs limites.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1007757",
-      "type": "movie",
-      "name": "Aventures croisées",
-      "poster": "https://image.tmdb.org/t/p/w500/gz64ZUKg4C4g1yfGD0o5opcBOKy.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zMwhWailP1WY7sb6AoE6b8ugoy.jpg",
-      "description": "Un petit animal des bois et un oiseau majestueux, ennemis jurés de la Vallée, qui échangent soudainement leurs corps et doivent faire équipe, en se mettant dans la peau  de l'autre, pour survivre à la plus folle aventure de leur vie.",
       "releaseInfo": "2026"
     }
   ]

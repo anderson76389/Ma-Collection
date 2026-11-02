@@ -63,14 +63,6 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1015154",
-      "type": "movie",
-      "name": "Luciérnagas en El Mozote",
-      "poster": "https://image.tmdb.org/t/p/w500/vAMPpEvaW9EmRwFmzFMaM8wS3KV.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/i0YlPmyAfjxWJczVqK0MP88XKU4.jpg",
-      "releaseInfo": "2025"
-    },
-    {
       "id": "tmdb:1556834",
       "type": "movie",
       "name": "Lost Horizon",
@@ -173,6 +165,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/slf5lamezBD2yv4ugXtgUPKbYbW.jpg",
       "background": "https://image.tmdb.org/t/p/w780/4FnbeuCnsN3MT6omPrivl2ttJ8o.jpg",
       "description": "L'histoire du seul et unique bataillon exclusivement composé d'Afro-Américaines, déployé à l'étranger pendant la Seconde Guerre mondiale. Confrontées à la discrimination et au sexisme, sans parler de leurs conditions de travail éprouvantes, ces femmes ont servi leur pays avec honneur et distinction. Investies d'une mission extraordinaire et unies dans leur détermination, ces héroïnes de l'ombre ont distribué de l'espoir et fait voler des barrières en éclat.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:612565",
+      "type": "movie",
+      "name": "Dick Dynamite: 1944",
+      "poster": "https://image.tmdb.org/t/p/w500/ljLtASv6WBnZrXxAbR8gRsDFVES.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/w1ShOXPKvzdgN0aecgYRA74Y6b9.jpg",
+      "description": "Durant les derniers jours de la 2ème guerre mondiale, les scientistes nazis mettent en place un plan désespéré pour transformer la population new-yorkaise en zombies. Le seul homme capable de les stopper est DICK DYNAMITE : tuer est son business et en 44, son business se porte bien.",
       "releaseInfo": "2024"
     }
   ]

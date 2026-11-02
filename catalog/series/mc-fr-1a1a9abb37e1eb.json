@@ -25,15 +25,6 @@
       "releaseInfo": "1972"
     },
     {
-      "id": "tmdb:92611",
-      "type": "series",
-      "name": "RuPaul's Drag Race UK",
-      "poster": "https://image.tmdb.org/t/p/w500/rGKdb9afwZSPSAZ2jN2SMf9tthQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7fsT1NnmNbden0mptoVinBNp4ih.jpg",
-      "description": "RuPaul a fait le voyage à travers l'étang à la recherche d'une reine avec le plus de charisme, d'unicité, de nerf et de talent de tout le pays.",
-      "releaseInfo": "2019"
-    },
-    {
       "id": "tmdb:2778",
       "type": "series",
       "name": "Wheel of Fortune",
@@ -41,23 +32,6 @@
       "background": "https://image.tmdb.org/t/p/w780/A6Sp44grqCnvKs5Plhy3oQncUrq.jpg",
       "description": "Ce jeu télévisé voit les concurrents résoudre des énigmes de mots, similaires à celles utilisées dans Hangman, pour gagner de l'argent et des prix déterminés en faisant tourner une roue de carnaval géante.",
       "releaseInfo": "1983"
-    },
-    {
-      "id": "tmdb:8425",
-      "type": "series",
-      "name": "Only Connect",
-      "poster": "https://image.tmdb.org/t/p/w500/mCS6E8Ca5RYthdYpz1j72Tr5AKD.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jYK5uwwFNkoAHxW7THVrYdVEYBQ.jpg",
-      "releaseInfo": "2008"
-    },
-    {
-      "id": "tmdb:215943",
-      "type": "series",
-      "name": "Les Traîtres (États-Unis)",
-      "poster": "https://image.tmdb.org/t/p/w500/xWK9tLH2UGgzuAI6P3cHeTKopfj.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/sCn3qAUCbDOcPJcNvjdq7z06Eg2.jpg",
-      "description": "Présentée par Alan Cumming, cette émission de téléréalité réunit des personnalités du monde du divertissement dans un château situé au cœur des Highlands écossais pour un jeu de stratégie inspiré d'une enquête criminelle. Les candidats participent à une série d'épreuves afin de constituer une cagnotte pouvant atteindre 250 000 dollars, tandis que des « traîtres », secrètement désignés parmi les « loyaux », éliminent progressivement les autres participants dans l'espoir de remporter l'intégralité des gains.",
-      "releaseInfo": "2023"
     },
     {
       "id": "tmdb:1790",
@@ -76,12 +50,38 @@
       "releaseInfo": "2025"
     },
     {
+      "id": "tmdb:92611",
+      "type": "series",
+      "name": "RuPaul's Drag Race UK",
+      "poster": "https://image.tmdb.org/t/p/w500/rGKdb9afwZSPSAZ2jN2SMf9tthQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7fsT1NnmNbden0mptoVinBNp4ih.jpg",
+      "description": "RuPaul a fait le voyage à travers l'étang à la recherche d'une reine avec le plus de charisme, d'unicité, de nerf et de talent de tout le pays.",
+      "releaseInfo": "2019"
+    },
+    {
       "id": "tmdb:114439",
       "type": "series",
       "name": "Let's Make a Deal",
       "poster": "https://image.tmdb.org/t/p/w500/9e2zBDDJNzwKymAWDuLhgViPc06.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ojZdqcOI3PjVfeNAAtLoruT4Fpl.jpg",
       "releaseInfo": "2009"
+    },
+    {
+      "id": "tmdb:215943",
+      "type": "series",
+      "name": "Les Traîtres (États-Unis)",
+      "poster": "https://image.tmdb.org/t/p/w500/ulYR2NMKwnWoRWiw3KnFpaT2qjj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sCn3qAUCbDOcPJcNvjdq7z06Eg2.jpg",
+      "description": "Présentée par Alan Cumming, cette émission de téléréalité réunit des personnalités du monde du divertissement dans un château situé au cœur des Highlands écossais pour un jeu de stratégie inspiré d'une enquête criminelle. Les candidats participent à une série d'épreuves afin de constituer une cagnotte pouvant atteindre 250 000 dollars, tandis que des « traîtres », secrètement désignés parmi les « loyaux », éliminent progressivement les autres participants dans l'espoir de remporter l'intégralité des gains.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:8425",
+      "type": "series",
+      "name": "Only Connect",
+      "poster": "https://image.tmdb.org/t/p/w500/mCS6E8Ca5RYthdYpz1j72Tr5AKD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jYK5uwwFNkoAHxW7THVrYdVEYBQ.jpg",
+      "releaseInfo": "2008"
     },
     {
       "id": "tmdb:204031",
@@ -92,28 +92,21 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:209752",
+      "id": "tmdb:103934",
       "type": "series",
-      "name": "Celebrity Jeopardy!",
-      "poster": "https://image.tmdb.org/t/p/w500/q2gZMyMTtmdRByT4zd7H8OqBQEE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/r7qJiE6rU9k9ZaSG2oL0IomazMr.jpg",
-      "releaseInfo": "2022"
+      "name": "Who Wants to Be a Millionaire",
+      "poster": "https://image.tmdb.org/t/p/w500/s0iphaXxqU2chmBgZ0GpD9As4BN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3m3xHErJXZTRmUwwt4kaQNzzmnP.jpg",
+      "releaseInfo": "2020"
     },
     {
-      "id": "tmdb:258321",
+      "id": "tmdb:97867",
       "type": "series",
-      "name": "Jet Lag: The Game",
-      "poster": "https://image.tmdb.org/t/p/w500/9XhuLVDsLfNV6DUQXQhgf8uRWAD.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/aSUBblcybEST0NMblw4MOydgHDG.jpg",
-      "releaseInfo": "2022"
-    },
-    {
-      "id": "tmdb:231730",
-      "type": "series",
-      "name": "The Floor",
-      "poster": "https://image.tmdb.org/t/p/w500/p2jQNn7fhl9PpjaowmxmdDwTYIl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cHznGpISn6Uxy9EyLel5eX7WrXG.jpg",
-      "releaseInfo": "2024"
+      "name": "Family Feud Canada",
+      "poster": "https://image.tmdb.org/t/p/w500/ohlgnAbNTZYZ0PhsM57HPTJ0pg7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vK8tSeOh7WTkPqLu3kK34U8zmiE.jpg",
+      "description": "Il s'agit de la version canadienne du jeu TV \"Une famille en or\", originaire des Etats-Unis sous le nom de Family Feud. Deux familles composées de cinq membres s'affrontent en donnant leur opinion, sur des questions posées à 100 Canadiens. Le but est de se rapprocher le plus de l'opinion des Canadiens sondés, afin d'amasser un maximum de points pour accéder à la finale et gagner le gros lot !",
+      "releaseInfo": "2019"
     },
     {
       "id": "tmdb:234613",
@@ -125,28 +118,12 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:195230",
-      "type": "series",
-      "name": "Bridge of Lies",
-      "poster": "https://image.tmdb.org/t/p/w500/wNntvuI0XBbLcYqi9tUthpxmdKB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/liGgnCHAD2gGQ1J7plrQv71rNOf.jpg",
-      "releaseInfo": "2022"
-    },
-    {
       "id": "tmdb:116129",
       "type": "series",
       "name": "Lingo",
       "poster": "https://image.tmdb.org/t/p/w500/a06fDRQsDOatU8tfs7GvdIDx0JS.jpg",
       "background": "https://image.tmdb.org/t/p/w780/6f6ZeGZK9p11d6v5gpFwkbkrfXF.jpg",
       "releaseInfo": "2021"
-    },
-    {
-      "id": "tmdb:222876",
-      "type": "series",
-      "name": "Tempting Fortune",
-      "poster": "https://image.tmdb.org/t/p/w500/yhnpqfTJxjSktkVltzqC88KftOz.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ktgr4eSQpKCVeP2ExoiVDZsWwgV.jpg",
-      "releaseInfo": "2023"
     },
     {
       "id": "tmdb:261107",
@@ -163,6 +140,30 @@
       "poster": "https://image.tmdb.org/t/p/w500/rPyOMo2sAgntdUdnRY4hnfvgMIa.jpg",
       "background": "https://image.tmdb.org/t/p/w780/bKwYqjPolMhtbc0eMFbYoy0VNJy.jpg",
       "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:222876",
+      "type": "series",
+      "name": "Tempting Fortune",
+      "poster": "https://image.tmdb.org/t/p/w500/yhnpqfTJxjSktkVltzqC88KftOz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ktgr4eSQpKCVeP2ExoiVDZsWwgV.jpg",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:300062",
+      "type": "series",
+      "name": "Win Win",
+      "poster": "https://image.tmdb.org/t/p/w500/p03gsgFMEoPVfp1Wv0S7Ai4qlZQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/84TmeoKghcb9BtcT0Mixc2NXEb2.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:339785",
+      "type": "series",
+      "name": "Bradley Walsh's Million Pound Shot",
+      "poster": "https://image.tmdb.org/t/p/w500/cI8rZm7x3QyIyRtXtfyVBOvt27K.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/afu1wT4KyV8NeCfU0JPGQoNBqcH.jpg",
+      "releaseInfo": "2026"
     }
   ]
 }

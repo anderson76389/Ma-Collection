@@ -13,7 +13,7 @@
       "id": "tmdb:293607",
       "type": "series",
       "name": "100 jours en espionne",
-      "poster": "https://image.tmdb.org/t/p/w500/wf7l8ZfGGkOKcQGF3Htt5DDhBxD.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/ox52xrCfPq9iHWX1YX8DC03vBqz.jpg",
       "background": "https://image.tmdb.org/t/p/w780/3SvKCITqMtjgPIhFBjRc4yTAc4H.jpg",
       "description": "En quête de liberté, la meilleure pickpocket de Séoul infiltre le gouvernement colonial japonais pour lui dérober des secrets, mais tombe amoureuse du fils de sa cible.",
       "releaseInfo": "2026"
@@ -129,6 +129,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:328649",
+      "type": "series",
+      "name": "언니네 산지직송 in 칼라페",
+      "poster": "https://image.tmdb.org/t/p/w500/9gyAxwWjamPWmD3D1w2PfwMaHfT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gyjfYT3ckLoG2zZPKzKUlYRNhOs.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:281965",
       "type": "series",
       "name": "Mad Concrete Dreams",
@@ -161,14 +169,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/vrIZeRKCm4BRWbnRdbUUABeuQsr.jpg",
       "background": "https://image.tmdb.org/t/p/w780/bHv9tTPd0dxpV2OD3WeDoZOFzPQ.jpg",
       "description": "La travailleuse acharnée Woo Hyun Jin (Roh Jeong Eui) et le rebelle Sun Tae Hyung (Bae In Hyuk) ne se croisent normalement pas, mais leurs vies se retrouvent entremêlées quand leurs frère et sœur aînés décident de se marier. Mais trois ans plus tard, un tragique accident de voiture bouleverse tout : devenus les tuteurs de leur neveu commun Woo Joo, ils doivent apprendre à cohabiter.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:312826",
-      "type": "series",
-      "name": "보검 매직컬",
-      "poster": "https://image.tmdb.org/t/p/w500/ccBj5dmZW02PnSfHfWA6dzbRoq6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mOVLipsk9dpP31l72dmL0GQC5jf.jpg",
       "releaseInfo": "2026"
     }
   ]

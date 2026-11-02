@@ -22,8 +22,8 @@
       "id": "tmdb:1503762",
       "type": "movie",
       "name": "Raison et Sentiments",
-      "poster": "https://image.tmdb.org/t/p/w500/9XNEI2AYgQIIqXper5kOdGTnyf5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nrLVr8C2pkbOGwXKay2xrxvlHmh.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/hpYHHl0P978F6AX5Xeew0fi2ryI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg",
       "description": "Une irrésistible nouvelle version du roman culte de Jane Austin, Raison et Sentiments, qui suit deux sœurs à travers leurs amours, leurs chagrins et le lien qui les unit d'une façon magistrale et profondément proche de nous.",
       "releaseInfo": "2026"
     },
@@ -40,7 +40,7 @@
       "id": "tmdb:1302904",
       "type": "movie",
       "name": "Les Ensorceleuses 2",
-      "poster": "https://image.tmdb.org/t/p/w500/qU6bErj56ebypPwA7zaiTfKzemA.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/j1kEkItdsOyNorF32bU0xRgeoHN.jpg",
       "background": "https://image.tmdb.org/t/p/w780/oIglj0Jy9duG4LnrRUpH8n001Pk.jpg",
       "description": "Une famille de sorcières multigénérationnelle, maudite à être sans amour pendant des siècles, tente de briser le sort en affrontant de sombres secrets et en se sacrifiant les uns pour les autres.",
       "releaseInfo": "2026"
@@ -145,6 +145,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1340206",
+      "type": "movie",
+      "name": "Le Virtuose",
+      "poster": "https://image.tmdb.org/t/p/w500/z9sxdWvYJDyZeKHhBSU8Kczw7yC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/y04gpYp8rJoUud6vf8okqHIdP4V.jpg",
+      "description": "Doté d'une ouïe exceptionnelle, un jeune accordeur de piano voit sa vie basculer lorsque son talent attire l'attention de criminels qui l'entraînent dans une série de cambriolages de plus en plus risqués. Malgré lui, il s'enfonce dans un engrenage dangereux qui pourrait lui coûter bien plus que sa liberté.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1339588",
       "type": "movie",
       "name": "À la recherche d'Emily",
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/37r0FZuv9OAQgMApDoJ8gvd5LWs.jpg",
       "background": "https://image.tmdb.org/t/p/w780/1oKLEA9JOhvaBwLpqjROisvWMy7.jpg",
       "description": "Un couple comblé voit son bonheur mis à l’épreuve lorsqu’un rebondissement inattendu vient tout bouleverser à une semaine de son mariage.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1367642",
-      "type": "movie",
-      "name": "Reminders of Him",
-      "poster": "https://image.tmdb.org/t/p/w500/od9yzZ6cc3ZGSvJI2mTxcsyI48M.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5rxEnsgriw8z065q51lrvPKYmCL.jpg",
-      "description": "Après une sortie parfaite avec son petit ami, Kenna commet une erreur irréparable qui la conduit en prison pour sept ans. Espérant reconstruire sa vie après sa libération, elle tente de retrouver sa fille, mais ses grands-parents, qui en ont la garde, refusent de la laisser la voir. Elle trouve bientôt une compassion inattendue auprès du propriétaire d'un bar local, et leur romance secrète donne à Kenna l'espoir d'une seconde chance.",
       "releaseInfo": "2026"
     }
   ]

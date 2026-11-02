@@ -45,6 +45,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1340206",
+      "type": "movie",
+      "name": "Le Virtuose",
+      "poster": "https://image.tmdb.org/t/p/w500/z9sxdWvYJDyZeKHhBSU8Kczw7yC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/y04gpYp8rJoUud6vf8okqHIdP4V.jpg",
+      "description": "Doté d'une ouïe exceptionnelle, un jeune accordeur de piano voit sa vie basculer lorsque son talent attire l'attention de criminels qui l'entraînent dans une série de cambriolages de plus en plus risqués. Malgré lui, il s'enfonce dans un engrenage dangereux qui pourrait lui coûter bien plus que sa liberté.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1284016",
       "type": "movie",
       "name": "Power Ballad",
@@ -167,15 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/h8SxbXRZPukAcwASmHOl5CFUslA.jpg",
       "background": "https://image.tmdb.org/t/p/w780/qz7B5uDspnkoz068wLbLnleotwV.jpg",
       "description": "C'est le Muppet Show ! Kermit, Miss Piggy et la troupe adorée des Muppets sont de retour pour un événement spécial inédit. Musique, comédie et une bonne dose de chaos sont au rendez-vous quand ils remontent sur la scène du théâtre original des Muppets avec leur invitée très spéciale, Sabrina Carpenter",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1422562",
-      "type": "movie",
-      "name": "The Moment",
-      "poster": "https://image.tmdb.org/t/p/w500/A0yuyel8MvAxnxtfVOtdSuuMOA5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lQUsfSUcai6ZOHQHgobSlF0IDUV.jpg",
-      "description": "Une vedette montante de la pop affronte les complexités de la célébrité et la pression de l'industrie alors qu'elle se prépare pour sa première grande tournée.",
       "releaseInfo": "2026"
     }
   ]

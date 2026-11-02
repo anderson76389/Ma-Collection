@@ -3,10 +3,10 @@
     {
       "id": "tmdb:1465063",
       "type": "movie",
-      "name": "L'Île des Souvenirs",
-      "poster": "https://image.tmdb.org/t/p/w500/A12dkvb10IgoQxHxU5TXOc6WR4k.jpg",
+      "name": "L'île des souvenirs",
+      "poster": "https://image.tmdb.org/t/p/w500/txvVTbY1cAsBe5tPX9c5m5SM3ml.jpg",
       "background": "https://image.tmdb.org/t/p/w780/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
-      "description": "Jo et Raissa se retrouvent échouées sur le monde fantastique de l'île oubliée de Nakali. Elles découvrent que le seul moyen de rentrer chez elles pourrait bien leur coûter toute une vie de souvenirs et d'émotions.",
+      "description": "Pendant qu'elles passent une dernière soirée ensemble avant de s'engager sur des voies différentes, Jo et Raissa, amies depuis toujours, trouvent un portail mystérieux qui les transporte sur Nakali, une île mythique peuplée de créatures magiques dont leurs familles philippines leur ont parlé. Alors qu'elles cherchent à rentrer chez elles, Jo et Raissa découvrent que leurs souvenirs sont en péril. Réussiront-elles à quitter l'île avant de s'oublier l'une l'autre ?",
       "releaseInfo": "2026"
     },
     {
@@ -23,8 +23,8 @@
       "type": "movie",
       "name": "Coyote vs. Acme",
       "poster": "https://image.tmdb.org/t/p/w500/dFwseuSlDUNiwMuElDb3OAOQ8En.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7GOW6jod9lLurW5utokAatxg7ql.jpg",
-      "description": "Après des décennies à être réduit en miettes par des bombes, pulvérisé à la dynamite, déchiqueté par des aimants, assommé par des rochers, écrasé par des trains, piégé par des tunnels, projeté par des ressorts, aplati par des rouleaux compresseurs, trahi par des ratés mécaniques, malmené par des élastiques, secoué par des fusées, poignardé dans le dos par des costumes de chauve-souris, catapulté par des patins-fusées, renversé par des monocycles, ébranlé par des pilules sismiques, recouvert de caoutchouc par des groupes ennemis, et précipité tête première du haut de toutes les falaises du Sud-Ouest, Wile, Wile E. Coyote contre-attaque enfin. Faisant équipe avec l’avocat-vedette des panneaux publicitaires spécialisé dans les accidents Kevin Avery, il s’attaque à l’avocat d’affaires rusé Buddy Crane et à ACME, Inc., le conglomérat obsédé par le profit étant à l’origine de chacune des catastrophes chaotiques du Coyote.",
+      "background": "https://image.tmdb.org/t/p/w780/rueyXwlewVPAP5NkqCUJx4RjhqB.jpg",
+      "description": "L'avocat Kevin Avery est engagé par Vil Coyote, un personnage des Looney Tunes qui veut attaquer en justice le conglomérat ACME. D'après lui, l'entreprise fabriquerait des produits défectueux. Kevin va découvrir que son ancien patron, Buddy Crane, est désormais le représentant légal de ladite société...",
       "releaseInfo": "2026"
     },
     {
@@ -70,15 +70,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/vuxZITXEqsBHBUhc1TKEU8mxvc.jpg",
       "background": "https://image.tmdb.org/t/p/w780/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg",
       "description": "Une histoire aussi rocambolesque qu’absurde, mais bien sûr totalement véridique, qui raconte comment les Minions, partis à la conquête d’Hollywood, sont devenus des stars de cinéma, pour finalement tout perdre en libérant au passage une bande de monstres déchaînés, avant de s’unir pour tenter de sauver la planète de ce nouveau désastre à leur actif.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1716513",
-      "type": "movie",
-      "name": "Les Simpson : Extreme Makeover : Homer Edition",
-      "poster": "https://image.tmdb.org/t/p/w500/vim76mMXig00YRxN2iGYJASoGkP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4bW2662ZiJhJmK4IseCReVzgZ3C.jpg",
-      "description": "La soirée en amoureux d'Homer et Marge tourne au cauchemar lorsque Marge apprend qu'Homer a laissé les enfants sans surveillance, avec pour seule « baby-sitter » la caméra de la sonnette. Frustrée par son mari imparfait, Marge, un peu éméchée, se met à imaginer une trilogie de fantasmes mettant en scène un Homer bien différent.",
       "releaseInfo": "2026"
     },
     {
@@ -179,6 +170,15 @@
       "background": "https://image.tmdb.org/t/p/w780/qz7B5uDspnkoz068wLbLnleotwV.jpg",
       "description": "C'est le Muppet Show ! Kermit, Miss Piggy et la troupe adorée des Muppets sont de retour pour un événement spécial inédit. Musique, comédie et une bonne dose de chaos sont au rendez-vous quand ils remontent sur la scène du théâtre original des Muppets avec leur invitée très spéciale, Sabrina Carpenter",
       "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:991494",
+      "type": "movie",
+      "name": "Bob l'éponge, le film : Un pour tous, tous pirates !",
+      "poster": "https://image.tmdb.org/t/p/w500/oCakNGooFW6WCQnVISBUuSRkaYw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pMxO1beNNFYMDM7RcDyKW5Wheuz.jpg",
+      "description": "Bob l'éponge et ses amis de Bikini Bottom larguent les amarres pour leur plus grande aventure sur grand écran. Bien décidé à prouver à M. Krabs qu'il est désormais un grand garçon, Bob se lance sur les traces du légendaire Hollandais Volant, un redoutable pirate fantôme. Cap sur une épopée déjantée, entre fous rires, frissons et péripéties sous-marines, jusque dans les abysses les plus mystérieux de l'océan, là où aucune éponge n'a jamais osé plonger !",
+      "releaseInfo": "2025"
     }
   ]
 }

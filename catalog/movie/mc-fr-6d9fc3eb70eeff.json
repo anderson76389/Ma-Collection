@@ -5,7 +5,7 @@
       "type": "movie",
       "name": "NAZA",
       "poster": "https://image.tmdb.org/t/p/w500/yJ0FMDiMfdVHWCRqxt9WzAJ0C5S.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7EzH0dlEN9OZWWBXBWwT5PbMNUz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/inju8joDtL7KHtlFEGjFZ2UuqFa.jpg",
       "description": "Filmé la nuit depuis les toits de Tel Aviv, ce documentaire se centre sur les victimes civiles des opérations militaires israéliennes à Gaza.",
       "releaseInfo": "2026"
     },
@@ -149,15 +149,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/nXtKxjSPsuD4SFEE22bjzqsIM3b.jpg",
       "background": "https://image.tmdb.org/t/p/w780/9ukAM3lAqx79HLs3Eqnb58IX6GW.jpg",
       "description": "Dans les années 1940, un pasteur allemand rejoint les rangs de la résistance en s'opposant publiquement au régime nazi. Marqué dans l'enfance par la mort de son grand frère, un soldat emporté dans la Grande Guerre, Dietrich Bonhoeffer poursuit des études de théologie aux États-Unis pendant la Grande Dépression et constate les iniquités sociales qui affligent le peuple afro-américain. De retour en Allemagne, il tente de mettre en garde ses contemporains contre les dérives du nazisme.",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:896151",
-      "type": "movie",
-      "name": "Blitz",
-      "poster": "https://image.tmdb.org/t/p/w500/e9tyjbF2rugENtBolTtEhHOXgzD.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qRSMoh9EMlQ9uywMpLulWBkIma9.jpg",
-      "description": "À Londres, pendant la Seconde Guerre mondiale, un jeune garçon de neuf ans prénommé George est évacué vers la campagne par sa mère, Rita, pour échapper aux bombardements. Déterminé à retrouver sa famille, il entreprend un voyage épique et périlleux pour rentrer chez lui, tandis que sa mère est à sa recherche.",
       "releaseInfo": "2024"
     }
   ]

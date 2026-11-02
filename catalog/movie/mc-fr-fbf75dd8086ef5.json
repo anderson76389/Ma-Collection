@@ -1,12 +1,57 @@
 {
   "metas": [
     {
+      "id": "tmdb:1437925",
+      "type": "movie",
+      "name": "Moulin",
+      "poster": "https://image.tmdb.org/t/p/w500/niEnEAPjqc2Mey6IiVPtBun45ZV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bcH6CmYcHuPnAQXUhW0Rr5hFuvc.jpg",
+      "description": "Jean Moulin est parachuté en France occupée pour unifier les réseaux de la Résistance, sous l’égide du général de Gaulle. Malgré ses efforts pour rester dans l’ombre, Moulin est trahi puis livré à la Gestapo à Lyon, dirigée par l’impitoyable Klaus Barbie. Torturé sans relâche, il ne cède jamais. Sa détermination silencieuse contribuera à galvaniser les forces de la Résistance et à faire naître un nouvel esprit de combat et de liberté en France…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1430841",
+      "type": "movie",
+      "name": "Le fantôme de l'opéra",
+      "poster": "https://image.tmdb.org/t/p/w500/2aU9dLDES0IdxB4sGYeeoJ7DOjA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5zDqy29V1nuwZiSq60hYaQQcOu1.jpg",
+      "description": "Dans le Paris d'aujourd'hui, Anastasia, jeune danseuse, intègre le prestigieux Opéra de Paris. Alors qu’elle répète l'Orpheus, un opéra maudit qui aurait été composé par le Fantôme de l'Opéra, elle tombe amoureuse d'un mystérieux pianiste. A l’approche de la première représentation, entre accidents inexpliqués et révélations troublantes, Anastasia se trouve plongée dans une histoire d'amour impossible, à la frontière du réel et du fantastique.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1437981",
+      "type": "movie",
+      "name": "Les Braves (Coward)",
+      "poster": "https://image.tmdb.org/t/p/w500/qy5ytiCeyR9uW5HsLDOFaOQ8yEr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tW0ZxAcvLNZiSvHnBS2lpNOGB2S.jpg",
+      "description": "Le jeune soldat Pierre veut faire ses preuves sur le front pendant la Première Guerre mondiale. Derrière les lignes, il rencontre Francis, chargé de remonter le moral des troupes.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1418998",
       "type": "movie",
       "name": "Karma",
       "poster": "https://image.tmdb.org/t/p/w500/hwEZ6fOtXX9mIZHSZPoOJW7AvmP.jpg",
       "background": "https://image.tmdb.org/t/p/w780/dqDUQGXNTdG67Gr7zGoV6GTR0gw.jpg",
       "description": "Dans un village au nord de l’Espagne, Jeanne tente de reconstruire sa vie avec Daniel, qui ne connaît rien de son passé trouble. Un jour, Mateo, le filleul de Jeanne âgé de six ans, disparaît mystérieusement… Afin d’échapper à la police qui la soupçonne rapidement, Jeanne se réfugie en France dans une communauté religieuse dans laquelle elle est née et qu’elle a fuie quelques années auparavant. Daniel ne croit pas à la culpabilité de la femme qu’il aime et va tout faire pour la retrouver avant la police.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1154730",
+      "type": "movie",
+      "name": "La Gradiva",
+      "poster": "https://image.tmdb.org/t/p/w500/aFrhFiIhdf2klvXq8VFcB06b5pS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aFO0i3bl4d6o0odPix8xgiVsIYT.jpg",
+      "description": "Un groupe de lycéens français part en voyage scolaire à Naples pour découvrir les ruines de Pompéi et ses corps pétrifiés par le Vésuve. C’est là que le vertige les saisit brutalement. L’un après l’autre, ils se laissent submerger par le désir et la colère jusqu’à s’y abandonner complètement.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1536343",
+      "type": "movie",
+      "name": "Impossible",
+      "poster": "https://image.tmdb.org/t/p/w500/qXuJHyhTCAG3pmoDs2Zv3r2PvO7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mHZEvxgPPAZzIA0KytHdmWGyczo.jpg",
+      "description": "Un juge et un vieil homme s’affrontent autour de la chute d’un randonneur en montagne. Accident ou meurtre ? Emmanuel Finkiel (\"La douleur\") transpose un roman d’Erri De Luca dans un film (primé à La Rochelle) à la sobre maîtrise, magnifique duel de comédiens au service d’une réflexion sur la justice et l’engagement.",
       "releaseInfo": "2026"
     },
     {
@@ -22,7 +67,7 @@
       "id": "tmdb:947493",
       "type": "movie",
       "name": "Le Corset",
-      "poster": "https://image.tmdb.org/t/p/w500/7RN7uox5vLnMY3GAXKjjGHTkeXR.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/h4YDklaLjbgdu9yUr6vNybnrnzX.jpg",
       "background": "https://image.tmdb.org/t/p/w780/3e0Lzs4vDSHjRULFw6vPI4jyHd6.jpg",
       "description": "Dans une ferme au cœur de la Beauce, Christophe, 11 ans, règle ses pas sur ceux de son père. Mais à l’école, à la maison, sur le tracteur, Christophe penche… et tombe. Il est obligé de porter un corset pour filer droit. Tandis que la ferme traverse des moments difficiles, Christophe grandit comme il peut. Il découvre la musique et fait la rencontre de Clara, avec qui tout semble devenir possible.",
       "releaseInfo": "2026"
@@ -40,9 +85,18 @@
       "id": "tmdb:1429592",
       "type": "movie",
       "name": "Ni vue, ni connue",
-      "poster": "https://image.tmdb.org/t/p/w500/sXqiQw6cwZlp4B8OnT3LRGC6wgR.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/GcKNC7T2iYGwUxTXqpmKmIJQ2l.jpg",
       "background": "https://image.tmdb.org/t/p/w780/a6O9MMak7mHDdxwApf2nGlvIs0g.jpg",
       "description": "Corinne Maclou est figurante. Elle enchaîne les tournages, parcourt inlassablement les plateaux dans le seul espoir d’être remarquée et de décrocher enfin un vrai rôle. Lorsqu’elle fait la connaissance de Sandrine Kiberlain, avec qui elle va peu à peu sympathiser, Corinne espère concrétiser son rêve. Mais la célèbre actrice va-t-elle vraiment l'aider à se faire une place au sein de la grande famille du cinéma ?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1514891",
+      "type": "movie",
+      "name": "Mémoire de fille",
+      "poster": "https://image.tmdb.org/t/p/w500/eRpP2kcfhvjZPR8dnaUKQE563Dm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/50w3VUxBQge2pUp8COyuGqg6Gqc.jpg",
+      "description": "Annie Ernaux est sollicitée pour une signature de son dernier ouvrage dans la ville de son enfance, Rouen. Alors qu'elle s'y rend, elle est prise d'un vertige et replonge dans le souvenir de l'été 1958, celui de sa première nuit avec un homme. Nuit dont l'onde de choc s'est propagée violemment dans son corps et sur le reste de son existence.",
       "releaseInfo": "2026"
     },
     {
@@ -70,6 +124,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/lPbCVN8Zlb95Bdney1hqGfgEbDV.jpg",
       "background": "https://image.tmdb.org/t/p/w780/yLZCngaex5380FB6sEy6o10L9wN.jpg",
       "description": "Garance est une jeune actrice sans être une vedette. Elle gère et assure tout de son mieux, vaillante, joyeuse, soldate, et elle trouve dans l’alcool un carburant, un réconfort, inconditionnel. Garance change de vie et commence alors un parcours de huit ans de déménagements, de travail, de rencontres, de fêtes et d’angoisses, de joies et de coups durs… Une révolution intime, amicale et sexuelle, Mais elle consomme, toujours plus. Jusqu'à la potentialité de la mort..",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1265831",
+      "type": "movie",
+      "name": "Les Roches Rouges",
+      "poster": "https://image.tmdb.org/t/p/w500/6q3zCTkbrHw0AhdfWtK0mTQW9tP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wVJPuSrEsSWWTMzYH1xLClAWSkb.jpg",
+      "description": "Sur la Côte d’Azur, deux bandes d’enfants s’affrontent à leur jeu favori : sauter des rochers rouges de la Méditerranée. Géo, 5 ans à peine, découvre le temps d’un été un monde où l’amitié se mêle à la rivalité, et où les premiers élans du cœur deviennent source de tensions.",
       "releaseInfo": "2026"
     },
     {
@@ -115,69 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/9lWqBSHRcVm5P8EWEOelA6bnRNa.jpg",
       "background": "https://image.tmdb.org/t/p/w780/9gxqVafITYqeQ7jnZwG32Ky5TDf.jpg",
       "description": "Paris 1939. Amoureux des arts, Babi Maklouf Benhamou exerce le plus beau métier du monde : il est gardien de nuit au musée du Louvre. Mais alors que la Seconde Guerre Mondiale éclate et que l’invasion allemande est imminente, Jacques Jaujard, le conservateur du musée, organise le sauvetage secret des œuvres d’art afin qu’elles ne tombent pas aux mains des nazis. Il confie alors à Babi l’un des camions chargés de transporter les chefs-d’œuvre hors de Paris. Babi accepte, à une condition : que toute sa famille l’accompagne… C’est le début d’une aventure familiale épique et dangereuse à travers la France occupée, qui va lier à jamais le destin des trésors du Louvre à celui de la famille de Babi Maklouf…",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1437948",
-      "type": "movie",
-      "name": "La Frappe",
-      "poster": "https://image.tmdb.org/t/p/w500/aAdoRQO0szrDQC6H3nL4nyJHZ7a.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zJSb4zzCAbIaNjEB3p2wq0bM4N2.jpg",
-      "description": "Enzo, 19 ans et sa sœur Carla, 20 ans, sont livrés à eux-mêmes depuis plusieurs années. Quand leur père, Anthony est libéré de prison, Enzo voit la promesse fragile d’une famille à reconstruire contrairement à Carla pour qui l’idée reste inconcevable. Rattrapé par son passé, Enzo doit se confronter à une vérité qu’il a trop longtemps gardée pour lui.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1084815",
-      "type": "movie",
-      "name": "La Dernière Patiente",
-      "poster": "https://image.tmdb.org/t/p/w500/qnupAunP3yOuhLN6qPJ6uh5K3Zi.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/s2ZmarunOpfm0K3x5QNnriBJehr.jpg",
-      "description": "La veille de son départ à la retraite, Judith, médecin de banlieue, ouvre la porte de son cabinet à Aïda, enceinte de huit mois et en rupture de soin. Confrontée à un système de santé à bout de souffle, Judith accepte d'héberger la jeune femme et s'engage alors dans une nuit où toutes ses convictions de soignante seront mises à l’épreuve.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1509381",
-      "type": "movie",
-      "name": "Oradour",
-      "poster": "https://image.tmdb.org/t/p/w500/bSI2RoKBKistmF2Cjdyhj5K35ee.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3XXX57Uy1oaX7uKzfPjzuC6StNr.jpg",
-      "description": "Le 5 juin 1944, cinq jours avant le plus important massacre de civils français pendant la Seconde Guerre mondiale, Philippe Gerbier, officier des Forces Françaises Libres, est parachuté près d’Oradour-sur-Glane où il doit diriger une mission secrète et capitale pour la Résistance à quelques jours du Débarquement. Sur place, il retrouve Marie, son amour de jeunesse, qui fuit avec sa fille un mari violent. Tandis que le passé refait surface, leurs destins se mêlent au drame historique d’Oradour-sur-Glane…",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1365884",
-      "type": "movie",
-      "name": "Dix pour cent, le film",
-      "poster": "https://image.tmdb.org/t/p/w500/lJUmTDi1ssxcxkHrzVBlwhaB0v8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4v8XgcmtUFVXUzGb7noltdjg2Ou.jpg",
-      "description": "Cinq ans après la fermeture de l'agence, Andréa s'apprête à réaliser son premier long-métrage. Quand son acteur principal la plante et qu'elle se fâche avec son producteur, elle s'allie à Noémie, devenue productrice de télé populaire, qu'elle pense pouvoir manipuler. Mais entre un casting à reconstruire, des accidents sur le plateau et une procédure qui menace de lui faire perdre la garde de sa fille : tout prend l'eau. Autour d'elle, les anciens d'ASK convergent vers ce tournage sous haute tension. Chacun arrive avec sa fonction, son égo et son lot de vieilles rancunes — loin d'imaginer ce que ces retrouvailles leur réservent.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1182935",
-      "type": "movie",
-      "name": "L’inconnue",
-      "poster": "https://image.tmdb.org/t/p/w500/y2T0tVfF0AHGYo2Bw3C5CkhlS5Y.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7OVnWBnwmDd2YmTOTzj0T8dg1la.jpg",
-      "description": "David Zimmerman a bientôt 40 ans, il est photographe mais personne ne le sait. Alors qu'il ne sort presque jamais de chez lui, des amis le traînent dans une fête insensée. Il y repère une femme dans la foule, ne peut en détacher le regard, la suit… Quelques heures plus tard, David se réveille : il est dans le corps de l’inconnue.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1683079",
-      "type": "movie",
-      "name": "Un grand raccourci",
-      "poster": "https://image.tmdb.org/t/p/w500/xh0ahWLy5tEUdrI4sdI4FCJ8sKH.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bqYbkspA3B8A5DPyvbiOnKpiXMG.jpg",
-      "description": "Quand le restaurant familial menace de fermer, deux cousins bretons relâchent des rats pour s’improviser dératiseurs. Le même été, deux jeunes femmes trafiquent le concours de beauté local pour promouvoir leurs bijoux. Embarqués dans leurs stratagèmes chaotiques, ces quatre débrouillards en quête d’avenir finissent par se percuter.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1564831",
-      "type": "movie",
-      "name": "Tombé du ciel",
-      "poster": "https://image.tmdb.org/t/p/w500/gOnDCEcVrLGXZQPmJGZvCPDHPc0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/41i8pni06WdVZrnTeSRBixpNSfS.jpg",
-      "description": "Ilyès mène une vie joyeuse dans la banlieue de Roubaix. Seul problème : le bac. Après avoir échoué deux fois, c’est sa dernière chance de l’avoir et de rendre enfin fier ses parents. Mais un incendie survient pendant le bac blanc, et on l’accuse d’en être à l’origine… Exclu de son lycée, il doit quitter son quartier et aller dans le seul établissement qui l’accepte : le pensionnat catholique de Saint-Albert-le-Grand, en Bourgogne. Entre choc des cultures et quête de rédemption, Ilyès va devoir surmonter ses préjugés… Et ceux des autres.",
       "releaseInfo": "2026"
     }
   ]

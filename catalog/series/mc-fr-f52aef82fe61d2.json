@@ -28,15 +28,6 @@
       "releaseInfo": "2001"
     },
     {
-      "id": "tmdb:92611",
-      "type": "series",
-      "name": "RuPaul's Drag Race UK",
-      "poster": "https://image.tmdb.org/t/p/w500/rGKdb9afwZSPSAZ2jN2SMf9tthQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7fsT1NnmNbden0mptoVinBNp4ih.jpg",
-      "description": "RuPaul a fait le voyage à travers l'étang à la recherche d'une reine avec le plus de charisme, d'unicité, de nerf et de talent de tout le pays.",
-      "releaseInfo": "2019"
-    },
-    {
       "id": "tmdb:62",
       "type": "series",
       "name": "The Challenge",
@@ -46,10 +37,19 @@
       "releaseInfo": "1998"
     },
     {
+      "id": "tmdb:92611",
+      "type": "series",
+      "name": "RuPaul's Drag Race UK",
+      "poster": "https://image.tmdb.org/t/p/w500/rGKdb9afwZSPSAZ2jN2SMf9tthQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7fsT1NnmNbden0mptoVinBNp4ih.jpg",
+      "description": "RuPaul a fait le voyage à travers l'étang à la recherche d'une reine avec le plus de charisme, d'unicité, de nerf et de talent de tout le pays.",
+      "releaseInfo": "2019"
+    },
+    {
       "id": "tmdb:215943",
       "type": "series",
       "name": "Les Traîtres (États-Unis)",
-      "poster": "https://image.tmdb.org/t/p/w500/xWK9tLH2UGgzuAI6P3cHeTKopfj.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/ulYR2NMKwnWoRWiw3KnFpaT2qjj.jpg",
       "background": "https://image.tmdb.org/t/p/w780/sCn3qAUCbDOcPJcNvjdq7z06Eg2.jpg",
       "description": "Présentée par Alan Cumming, cette émission de téléréalité réunit des personnalités du monde du divertissement dans un château situé au cœur des Highlands écossais pour un jeu de stratégie inspiré d'une enquête criminelle. Les candidats participent à une série d'épreuves afin de constituer une cagnotte pouvant atteindre 250 000 dollars, tandis que des « traîtres », secrètement désignés parmi les « loyaux », éliminent progressivement les autres participants dans l'espoir de remporter l'intégralité des gains.",
       "releaseInfo": "2023"
@@ -63,20 +63,20 @@
       "releaseInfo": "2017"
     },
     {
+      "id": "tmdb:94038",
+      "type": "series",
+      "name": "Canada's Drag Race : que la meilleure gagne",
+      "poster": "https://image.tmdb.org/t/p/w500/dA6hrYQqeni10PdTP35oUewdtFX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qoiJX0jbpuUwlBwaZ1v6wZjH77D.jpg",
+      "description": "Les drag queens mettent en valeur leur charisme, leur caractère unique, leur culot et leur talent canadiens pour devenir la première superstar du drag au Canada et gagner le grand prix de 100 000 $.",
+      "releaseInfo": "2020"
+    },
+    {
       "id": "tmdb:237243",
       "type": "series",
       "name": "Big Brother",
       "poster": "https://image.tmdb.org/t/p/w500/eWnxE8wNT2rC0YrSg3uEY5chCCf.jpg",
       "background": "https://image.tmdb.org/t/p/w780/mEY2exPOsSoZ5xhAtxAY2Cqc3f6.jpg",
-      "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:234613",
-      "type": "series",
-      "name": "Les Traîtres (Canada)",
-      "poster": "https://image.tmdb.org/t/p/w500/6mrgzGZIZuAN6tx1lPxL0iWtx56.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/sexNBB5fScor0mpzJaiHfe0olSD.jpg",
-      "description": "Vingt inconnus arrivent dans un manoir pour participer à un jeu de rôle policier.",
       "releaseInfo": "2023"
     },
     {
@@ -89,12 +89,13 @@
       "releaseInfo": "2015"
     },
     {
-      "id": "tmdb:290548",
+      "id": "tmdb:234613",
       "type": "series",
-      "name": "King of Drag",
-      "poster": "https://image.tmdb.org/t/p/w500/qwVLaxySsEiJCdrFMRrQa5Y79am.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/aVfK8WDvH7kKWewBAGDsR8ucdrG.jpg",
-      "releaseInfo": "2025"
+      "name": "Les Traîtres (Canada)",
+      "poster": "https://image.tmdb.org/t/p/w500/6mrgzGZIZuAN6tx1lPxL0iWtx56.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sexNBB5fScor0mpzJaiHfe0olSD.jpg",
+      "description": "Vingt inconnus arrivent dans un manoir pour participer à un jeu de rôle policier.",
+      "releaseInfo": "2023"
     },
     {
       "id": "tmdb:334887",
@@ -103,6 +104,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/p7Z3iK7g3ZEOm60h121fvtDmA3f.jpg",
       "background": "https://image.tmdb.org/t/p/w780/jPah9SEWeBCXQwyKqoMdQp7tqci.jpg",
       "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:290548",
+      "type": "series",
+      "name": "King of Drag",
+      "poster": "https://image.tmdb.org/t/p/w500/qwVLaxySsEiJCdrFMRrQa5Y79am.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aVfK8WDvH7kKWewBAGDsR8ucdrG.jpg",
+      "releaseInfo": "2025"
     },
     {
       "id": "tmdb:334759",

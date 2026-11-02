@@ -62,6 +62,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:334285",
+      "type": "series",
+      "name": "Lost Treasures of the Bible: Secrets of Faith",
+      "poster": "https://image.tmdb.org/t/p/w500/bVeYzV096MFUHpQa0hebO8l3gjk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/f8h6JqQ8YG22iV0uJI6PtrNIwm9.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:218274",
       "type": "series",
       "name": "Les Secrets des abeilles",
@@ -161,15 +169,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/w3Kxj4i7FQ2tUcTdIJzolE3cqE6.jpg",
       "background": "https://image.tmdb.org/t/p/w780/vfqQ3KGcxfcVZBiQBAXYplAYoyw.jpg",
       "description": "Cette série en six épisodes explore le comportement des requins du point de vue unique de ces grands prédateurs. Un groupe de scientifiques réalise une enquête médico-légale approfondie au centre de recherches innovant Shark HQ, analyse les principales théories et dissèque chaque incident afin de déterminer ce qui pousse les requins à attaquer.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:218257",
-      "type": "series",
-      "name": "Les outsiders du monde animal",
-      "poster": "https://image.tmdb.org/t/p/w500/jmd5geBon8O4RYzfGjInUNzxsJr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5zpDuk2EQwuGynlEDJWdun8rt5I.jpg",
-      "description": "Oubliez les stars du règne animal : place aux marginaux et aux mal aimés. Suivez l'histoire des héros marginaux du monde naturel – les bons, les méchants et les plus laids. De leurs talents cachés à leurs choix d'hygiène audacieux, en passant par leurs rituels de séduction peu recommandables, leurs techniques de camouflage sournoises et leur éducation parentale « à la dure ». Les marginaux célèbrent et défendent les comportements uniques et imprévisibles d'une galerie d'animaux méconnus et surprenants.",
       "releaseInfo": "2025"
     }
   ]

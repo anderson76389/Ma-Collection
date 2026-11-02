@@ -1,15 +1,6 @@
 {
   "metas": [
     {
-      "id": "tmdb:549",
-      "type": "series",
-      "name": "New York Police Judiciaire",
-      "poster": "https://image.tmdb.org/t/p/w500/7ZFSCSIuW8wzXJL1JezrKcLzV4x.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hrfP9BQ4mOMZOa8nHbFJLSDHBLz.jpg",
-      "description": "À New York, détectives et assistants du procureur tentent de résoudre les affaires les plus délicates. Les uns sur le terrain, les autres devant les tribunaux.",
-      "releaseInfo": "1990"
-    },
-    {
       "id": "tmdb:2734",
       "type": "series",
       "name": "New York Unité Spéciale",
@@ -36,6 +27,15 @@
       "releaseInfo": "2014"
     },
     {
+      "id": "tmdb:549",
+      "type": "series",
+      "name": "New York Police Judiciaire",
+      "poster": "https://image.tmdb.org/t/p/w500/7ZFSCSIuW8wzXJL1JezrKcLzV4x.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hrfP9BQ4mOMZOa8nHbFJLSDHBLz.jpg",
+      "description": "À New York, détectives et assistants du procureur tentent de résoudre les affaires les plus délicates. Les uns sur le terrain, les autres devant les tribunaux.",
+      "releaseInfo": "1990"
+    },
+    {
       "id": "tmdb:44006",
       "type": "series",
       "name": "Chicago Fire",
@@ -52,6 +52,15 @@
       "background": "https://image.tmdb.org/t/p/w780/18KSsDgcGQds7yOMC6MVRTbVJwt.jpg",
       "description": "Des officiers en uniforme qui patrouillent et combattent le crime dans la rue, aux membres de l'unité des renseignements affectés à des affaires majeures (crime organisé, trafic de drogue, homicides...), toutes les recrues du poste de police du district 21 de Chicago risquent quotidiennement leurs vies. Ces énormes responsabilités dépassent souvent le simple cadre professionnel et entâchent la sphère privée de ces hommes et de ces femmes d'exception.\n\nSpin-off de Chicago Fire centré sur une brigade de police de la ville.",
       "releaseInfo": "2014"
+    },
+    {
+      "id": "tmdb:1667",
+      "type": "series",
+      "name": "Saturday Night Live",
+      "poster": "https://image.tmdb.org/t/p/w500/s1cZBqbMwAF3w8S3Yo0j5nr2Yuo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sSAX59Kf01lBRkBW4UcIL4kIoIm.jpg",
+      "description": "Saturday Night Live est une émission de divertissement retransmise en direct depuis le Studio 8H du GE Building au Rockefeller Center de New York. Diffusé le samedi soir sur la chaîne NBC, le programme se compose de sketches, de parodies et de performances musicales. Il s'agit de l'un des programmes phares de la télévision américaine, qui a permis l'émergence de nombreuses stars de la comédie lors des trente dernières années.",
+      "releaseInfo": "1975"
     },
     {
       "id": "tmdb:62650",
@@ -89,15 +98,6 @@
       "releaseInfo": "1983"
     },
     {
-      "id": "tmdb:215943",
-      "type": "series",
-      "name": "Les Traîtres (États-Unis)",
-      "poster": "https://image.tmdb.org/t/p/w500/xWK9tLH2UGgzuAI6P3cHeTKopfj.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/sCn3qAUCbDOcPJcNvjdq7z06Eg2.jpg",
-      "description": "Présentée par Alan Cumming, cette émission de téléréalité réunit des personnalités du monde du divertissement dans un château situé au cœur des Highlands écossais pour un jeu de stratégie inspiré d'une enquête criminelle. Les candidats participent à une série d'épreuves afin de constituer une cagnotte pouvant atteindre 250 000 dollars, tandis que des « traîtres », secrètement désignés parmi les « loyaux », éliminent progressivement les autres participants dans l'espoir de remporter l'intégralité des gains.",
-      "releaseInfo": "2023"
-    },
-    {
       "id": "tmdb:881",
       "type": "series",
       "name": "Des jours et des vies",
@@ -105,6 +105,24 @@
       "background": "https://image.tmdb.org/t/p/w780/e7MSbwYRVqd4rZQQWcNuJvOSHLC.jpg",
       "description": "A Salem, deux familles, les Horton et les Brady, vivent paisiblement. Derrière ce calme relatif, de multiples passions couvent et des intrigues se nouent…",
       "releaseInfo": "1965"
+    },
+    {
+      "id": "tmdb:215943",
+      "type": "series",
+      "name": "Les Traîtres (États-Unis)",
+      "poster": "https://image.tmdb.org/t/p/w500/ulYR2NMKwnWoRWiw3KnFpaT2qjj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sCn3qAUCbDOcPJcNvjdq7z06Eg2.jpg",
+      "description": "Présentée par Alan Cumming, cette émission de téléréalité réunit des personnalités du monde du divertissement dans un château situé au cœur des Highlands écossais pour un jeu de stratégie inspiré d'une enquête criminelle. Les candidats participent à une série d'épreuves afin de constituer une cagnotte pouvant atteindre 250 000 dollars, tandis que des « traîtres », secrètement désignés parmi les « loyaux », éliminent progressivement les autres participants dans l'espoir de remporter l'intégralité des gains.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:251941",
+      "type": "series",
+      "name": "St. Denis Medical",
+      "poster": "https://image.tmdb.org/t/p/w500/iwnF4lZKBdHoCICtdIcXQdbuc2f.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dtACf4sRA640q4l6oLyfMy75Viy.jpg",
+      "description": "Dans un hôpital de l'Oregon, un groupe hétéroclite de médecins et d'infirmières dévoués, malgré un manque de moyens, s'efforce de soigner les patients — et de s'entraider — tout en assurant la cohésion de l'ensemble du service.",
+      "releaseInfo": "2024"
     },
     {
       "id": "tmdb:321958",
@@ -127,9 +145,25 @@
       "id": "tmdb:322267",
       "type": "series",
       "name": "Newlyweds",
-      "poster": "https://image.tmdb.org/t/p/w500/8yMuMKrSQjkFkRgIpaWGFJl8fJO.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/k6gsgBZpg330rDq9yWGkF75r1gJ.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/9ZAPU2IRSdI9xdVb42z2F1momJc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/n0RJ41WxoROYkKOdJP0NU1hEktJ.jpg",
       "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:291334",
+      "type": "series",
+      "name": "The Fall and Rise of Reggie Dinkins",
+      "poster": "https://image.tmdb.org/t/p/w500/lrF8Ve4GoazCalfbrSY52tUIXSN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rek9nXDNYoPwEyNhu4eHGNVDyMa.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:23318",
+      "type": "series",
+      "name": "The Daytime Emmy Awards",
+      "poster": "https://image.tmdb.org/t/p/w500/uBbdeUjskJa0ASfcO1B3JBb20tC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kJLwKqiRavPD73JwpUuuTpWZKNb.jpg",
+      "releaseInfo": "1974"
     }
   ]
 }

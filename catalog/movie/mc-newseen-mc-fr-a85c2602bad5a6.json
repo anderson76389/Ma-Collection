@@ -1,121 +1,103 @@
 {
   "metas": [
     {
-      "id": "tmdb:15196",
+      "id": "tmdb:893723",
       "type": "movie",
-      "name": "Cluedo",
-      "poster": "https://image.tmdb.org/t/p/w500/o5mjpz2Mvx4v5vUEVdWclBurxuc.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rsclb1vtH6IkxmVBuCC37biEBT.jpg",
-      "description": "L'adaptation du célèbre jeu de société Cluedo. Six personnes sont invitées à passer une soirée dans un mystérieux manoir. Un meurtre est commis et chacun a quelque chose à se reprocher, alors qui est le coupable ?",
-      "releaseInfo": "1985"
-    },
-    {
-      "id": "tmdb:7485",
-      "type": "movie",
-      "name": "Shooter, tireur d'élite",
-      "poster": "https://image.tmdb.org/t/p/w500/ESmsY38eOBcmAkym3hJqOBm7vP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uy2trYgO8MOQfQXlvMaLhBnkUqg.jpg",
-      "description": "L'éclaireur et tireur d'élite Bob Lee Swagger s'est couvert de gloire sur divers fronts avant qu'une odieuse trahison ne l'amène à quitter les Marines et à se couper du monde. Reclus dans un chalet, au sommet d'une montagne quasi inaccessible, Swagger pense avoir tourné la page et se croit désormais à l'abri de toute nouvelle mésaventure. Mais lorsque le colonel Isaac Johnson vient le relancer et lui demande une fois de plus son aide pour déjouer un complot imminent contre le Président des États-Unis, le \"shooter\" ne peut se dérober à son devoir. Comment pourrait-il anticiper le piège diabolique qui lui est tendu et deviner qu'il va bientôt se retrouver accusé de tentative de meurtre ? Traqué à travers tout le pays par une meute de mercenaires, il est obligé de mobiliser toutes ses ressources pour survivre, retrouver son honneur et déjouer la plus terrifiante des conspirations.",
-      "releaseInfo": "2007"
-    },
-    {
-      "id": "tmdb:755",
-      "type": "movie",
-      "name": "Une Nuit en enfer",
-      "poster": "https://image.tmdb.org/t/p/w500/1Yr1gZHvrijIM7cNhI0QFA3VkRZ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/phiRQhfwZZeMMn3osvQUmGYmJbp.jpg",
-      "description": "Deux criminels prennent une famille en otage près de la frontière mexicaine, après une cavale particulièrement sanglante durant laquelle ils ont tué un policier et kidnappé l’employée d’une banque. Leur fuite vers le Mexique les conduit finalement dans un bar en plein désert, où un contact leur a donné rendez-vous. Le « Titty Twister », un repaire de motards ouvert toute la nuit, va s'avérer être une antre cauchemardesque…",
-      "releaseInfo": "1996"
-    },
-    {
-      "id": "tmdb:4232",
-      "type": "movie",
-      "name": "Scream",
-      "poster": "https://image.tmdb.org/t/p/w500/9LfX3IBeByGdFkmkmNztKBr4nYv.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4w6nQYAY0eb7B0VVRDXilXcgAUV.jpg",
-      "description": "Casey Becker, une belle adolescente, est seule dans la maison familiale. Elle s'apprête à regarder un film d'horreur, mais le téléphone sonne. Au bout du fil, un serial killer la malmène, et la force à jouer à un jeu terrible : si elle répond mal à ses questions portant sur les films d'horreur, celui-ci tuera son copain… Sidney Prescott sait qu'elle est l'une des victimes potentielles du tueur de Woodsboro. Celle-ci ne sait plus à qui faire confiance. Entre Billy, son petit ami, sa meilleure amie Tatum et son frère Dewey, ses copains de classe Stuart et Randy, la journaliste arriviste Gale Weathers et son caméraman Kenny qui traînent tout le temps dans les parages et son père toujours absent, qui se cache derrière le masque du tueur ?",
-      "releaseInfo": "1996"
-    },
-    {
-      "id": "tmdb:575264",
-      "type": "movie",
-      "name": "Mission : Impossible - Dead Reckoning Partie 1",
-      "poster": "https://image.tmdb.org/t/p/w500/bdYbHxECXsN169pVrTz2TobFqXb.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/628Dep6AxEtDxjZoGP78TsOxYbK.jpg",
-      "description": "Ethan Hunt et son équipe de Mission Impossible se lancent dans leur mission la plus périlleuse à ce jour : traquer une effroyable nouvelle arme avant que celle-ci ne tombe entre de mauvaises mains et menace l’humanité entière. Le contrôle du futur et le destin du monde sont en jeu. Alors que les forces obscures de son passé ressurgissent, Ethan s’engage dans une course mortelle autour du globe. Confronté à un puissant et énigmatique ennemi, Ethan réalise que rien ne peut se placer au-dessus de sa mission, pas même la vie de ceux qu’il aime.",
+      "name": "La Pat' Patrouille : La Super Patrouille, le film",
+      "poster": "https://image.tmdb.org/t/p/w500/5unJTEPH5ipMY7cV87idGfhgIw7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zgQQF04u3OgNBJqClRNby1FPz9s.jpg",
+      "description": "Lorsqu'une météorite magique s'écrase sur Aventureville, elle donne à la Pat' Patrouille des superpouvoirs, les transformant en SUPER PATROUILLE ! Mais les choses dégénèrent lorsque Monsieur Hellinger, l'ennemi juré de nos amis, s'évade de prison et s'associe à une scientifique folle afin de voler et de s’accaparer ces nouveaux pouvoirs. Le destin d'Aventureville est désormais en jeu, la Super Patrouille doit arrêter les super-méchants avant qu'il ne soit trop tard.",
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:150",
+      "id": "tmdb:91314",
       "type": "movie",
-      "name": "48 heures",
-      "poster": "https://image.tmdb.org/t/p/w500/wICuCoKsImeaJofl44bQ7HTNUEh.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xQTSGz5dvIAYFssPWhD160AcR7Z.jpg",
-      "description": "Deux meurtriers sont pourchassés par la police, alors qu’ils recherchent le butin d’un casse commis par Reggie Hammond, un de leurs anciens complices actuellement emprisonné. Pour les retrouver, l’inspecteur de police Jack Cates a besoin de l’aide de Reggie. Il va le voir en prison pour solliciter sa collaboration mais Hammond négocie son aide contre une permission de sortie. Jack va donc faire en sorte que Reggie soit en liberté surveillée pendant 48 heures, durant lesquelles il va tenter de l’aider à retrouver ses anciens complices...",
-      "releaseInfo": "1982"
-    },
-    {
-      "id": "tmdb:520763",
-      "type": "movie",
-      "name": "Sans un bruit 2",
-      "poster": "https://image.tmdb.org/t/p/w500/8ZUVoCUk3i2gikavPlneVKYfjqj.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uuBYYlbfiYD7ny5VNj46NG14ykR.jpg",
-      "description": "Après les événements mortels survenus dans sa maison, la famille Abbot doit faire face au danger du monde extérieur. Pour survivre, ils doivent se battre en silence. Forcés à s’aventurer en terrain inconnu, ils réalisent que les créatures qui attaquent au moindre son ne sont pas la seule menace qui se dresse sur leur chemin…",
-      "releaseInfo": "2021"
-    },
-    {
-      "id": "tmdb:13207",
-      "type": "movie",
-      "name": "Vendredi 13",
-      "poster": "https://image.tmdb.org/t/p/w500/vIvsZ1CHb4SfRNfuiWP3AwYIx8N.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xECaVCK8nT1KCKdGg01mQgizuOd.jpg",
-      "description": "À Crystal Lake, ce qui commença comme un super week-end se transforma en hécatombe. Un groupe d'adolescents, à des kilomètres de la civilisation, va apprendre tout à tour que le lac possède un passé sanglant… et qu'il est prêt à se venger.",
-      "releaseInfo": "2009"
-    },
-    {
-      "id": "tmdb:4247",
-      "type": "movie",
-      "name": "Scary Movie",
-      "poster": "https://image.tmdb.org/t/p/w500/2Glue9aj5VDv6q4x9v8PwilmUfY.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/m5dA4JZsj78EBTa2D6imWOAebwB.jpg",
-      "description": "Un soir, Drew Becker reçoit un appel anonyme d’un maniaque. Traquée dans sa maison, puis dans son jardin, elle finit par se faire tuer. Sa mort plonge ses camarades de lycée en plein cauchemar, d’autant qu'ils doivent désormais faire face à un tueur en série, caché parmi eux. Flairant le scoop, la journaliste Gail Hailstorn débarque en ville, bien décidée à harceler Cindy Campbell et ses amis à propos de cette histoire...",
-      "releaseInfo": "2000"
-    },
-    {
-      "id": "tmdb:96",
-      "type": "movie",
-      "name": "Le Flic de Beverly Hills 2",
-      "poster": "https://image.tmdb.org/t/p/w500/A4yhgMSb0TuyWhUxbW2SvFXzrC4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bIA65PCRtIQfBvIoKohJbtOPl3M.jpg",
-      "description": "Axel Foley est de retour à Beverly Hills. Cette fois, il vient prêter main forte à ses collègues et amis pour résoudre une affaire de vol de bijoux.",
-      "releaseInfo": "1987"
-    },
-    {
-      "id": "tmdb:306",
-      "type": "movie",
-      "name": "Le Flic de Beverly Hills 3",
-      "poster": "https://image.tmdb.org/t/p/w500/hnBhVTb8xwxNFA02GwI43yQ4sVw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yrzJZwLW41fEnEgav4vyhUpGb4k.jpg",
-      "description": "Dans cette nouvelle aventure Axel Foley va mener l'enquête dans le célèbre parc d'attractions de Wonderworld à Beverly Hills. Il recherche le dangereux commanditaire d'une bande de voleurs de voitures responsable de la mort de son ami Todd.",
-      "releaseInfo": "1994"
-    },
-    {
-      "id": "tmdb:2907",
-      "type": "movie",
-      "name": "La Famille Addams",
-      "poster": "https://image.tmdb.org/t/p/w500/l2mq3aWw1ze6NsnwEWSWviziWvo.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7OxGhxUYAdtuike29VMzEFxJx7y.jpg",
-      "description": "Rififi chez les Addams, célèbre famille macabre qui vit dans un manoir hanté, lorsque débarque l'oncle Fétide, sosie d'un des membres de la famille disparu vingt-cinq ans plus tôt… Ne serait-il pas un usurpateur qui cherche à les doubler pour faire main-basse sur leur trésor caché ?",
-      "releaseInfo": "1991"
-    },
-    {
-      "id": "tmdb:98566",
-      "type": "movie",
-      "name": "Ninja Turtles",
-      "poster": "https://image.tmdb.org/t/p/w500/oI8xgHNhFFENvlUFmfacF2oMjva.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/eezsbzYPbYKjjh6E1XHDBNlLynh.jpg",
-      "description": "Quand une cheville ouvrière menace la ville de New York, un groupe de guerriers tortues mutés doit sortir de l'ombre pour protéger leur maison.",
+      "name": "Transformers : L’Âge de l’extinction",
+      "poster": "https://image.tmdb.org/t/p/w500/zGUp3UZVAvA3FTkNWVeJyrSP9JB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wxr4Z6E83h14CogsZOzDm1vuDX3.jpg",
+      "description": "Alors que l’humanité panse ses plaies, après les événements de Transformers : La Face cachée de la Lune, les Autobots et les Decepticons ont disparu de la surface de la Terre. Mais un groupe formé de financiers et scientifiques puissants et ingénieux étudient les invasions successives des Transformers, afin de repousser les limites de la technologie au‐delà de ce qu’ils peuvent contrôler. Et pendant ce temps, une menace Transformer ancienne et puissante prend la Terre pour cible.",
       "releaseInfo": "2014"
+    },
+    {
+      "id": "tmdb:4248",
+      "type": "movie",
+      "name": "Scary Movie 2",
+      "poster": "https://image.tmdb.org/t/p/w500/mMp80A2GMlHBCvescywvrJqGcF6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cjSB3ZjaMpaa9oHFyeYha3KG0mp.jpg",
+      "description": "Une année s'est écoulée depuis les meurtres désopilants qui se sont produits dans la paisible ville de Cindy Campbell. Et le tueur court toujours. Un jour, un professeur fou oblige Cindy et sa bande de copains déjantés à aller visiter une maison hantée pour une expérience scientifique. Ces derniers sont séduits par la perspective d'un week-end plein de frissons loin de l'université. Mais une fois qu'ils ont pénétré dans le manoir de l'enfer, les joyeux drilles découvrent qu'il existe des choses bien plus troublantes que ce qu'ils ont pu voir dans les vieux films d'horreur. Survivront-ils à la peur de leur vie ?",
+      "releaseInfo": "2001"
+    },
+    {
+      "id": "tmdb:454626",
+      "type": "movie",
+      "name": "Sonic, le film",
+      "poster": "https://image.tmdb.org/t/p/w500/qi6qwClvTfZJiI5GhsKbtkqg28W.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/stmYfCUGd8Iy6kAMBr6AmWqx8Bq.jpg",
+      "description": "L'histoire du hérisson bleu le plus rapide du monde qui arrive sur Terre, sa nouvelle maison. Sonic et son nouveau meilleur ami Tom font équipe pour sauver la planète du diabolique Dr. Robotnik, bien déterminé à régner sur le monde entier.",
+      "releaseInfo": "2020"
+    },
+    {
+      "id": "tmdb:675353",
+      "type": "movie",
+      "name": "Sonic 2, le film",
+      "poster": "https://image.tmdb.org/t/p/w500/7RSCL6V8BlekgVnNPok6tLW50tP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xuLA0pii2IMJW2puT7EvJtgpg0H.jpg",
+      "description": "Bien installé dans la petite ville de Green Hills, Sonic veut maintenant prouver qu’il a l’étoffe d' un véritable héros. Un défi de taille se présente à lui quand le Dr Robotnik refait son apparition. Accompagné de son nouveau complice Knuckles, ils sont en quête d’une émeraude dont le pouvoir permettrait de détruire l’humanité tout entière. Pour s’assurer que l’émeraude ne tombe entre de mauvaises mains, Sonic fait équipe avec Tails. Commence alors un voyage à travers le monde, plein de péripéties.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:177677",
+      "type": "movie",
+      "name": "Mission : Impossible - Rogue Nation",
+      "poster": "https://image.tmdb.org/t/p/w500/v0dj9NVPFTX0bv5NtqxK99i1Ae3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vYIUN5rrCncHFY8WvcuXQlM4hk5.jpg",
+      "description": "L'agence Mission Impossible est dissoute et Ethan Hunt se retrouve désormais isolé. Il doit affronter un réseau d’agents spéciaux particulièrement entraînés, le Syndicat. Cette organisation sans scrupules est déterminée à mettre en place un nouvel ordre mondial, à travers des attaques terroristes de plus en plus violentes. Ethan regroupe alors son équipe et fait alliance avec Ilsa Faust, agent britannique révoquée, dont les liens avec le Syndicat restent mystérieux.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:621",
+      "type": "movie",
+      "name": "Grease",
+      "poster": "https://image.tmdb.org/t/p/w500/eaRVdZWk1rSFT4eDaRnUFR7I7xZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2SRJMIoJzABzgyGw01U6VbQbvJD.jpg",
+      "description": "Au cours d’un bel été en Californie, Sandy, une jeune fille sage de bonne famille, et Danny Zuko, un chef de gang métalleux, tombent amoureux. Obligés de se séparer, ils découvriront contre toute attente à la rentrée qu’ils sont dans le même lycée… pourront-ils raviver leur romance en dépit de leurs différences ?",
+      "releaseInfo": "1978"
+    },
+    {
+      "id": "tmdb:531428",
+      "type": "movie",
+      "name": "Portrait de la jeune fille en feu",
+      "poster": "https://image.tmdb.org/t/p/w500/lH2hSK6F1FZmS3ao384kZCMsbCl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ivJ5UzT6IzucLVfbZwCCwiJJoBz.jpg",
+      "description": "1770. Marianne est peintre et doit réaliser le portrait de mariage d’Héloïse, une jeune femme qui vient de quitter le couvent. Héloïse résiste à son destin d’épouse en refusant de poser. Marianne va devoir la peindre en secret. Introduite auprès d’elle en tant que dame de compagnie, elle la regarde.",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:615777",
+      "type": "movie",
+      "name": "Babylon",
+      "poster": "https://image.tmdb.org/t/p/w500/vxlBfQANmzReZqtpE2tad9gokf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5fxTB08O7CW1hAcN2MWOKodp1h1.jpg",
+      "description": "Los Angeles des années 1920. Récit d’une ambition démesurée et d’excès les plus fous, le film retrace l’ascension et la chute de différents personnages lors de la création d’Hollywood, une ère de décadence et de dépravation sans limites.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:565",
+      "type": "movie",
+      "name": "Le Cercle : The Ring",
+      "poster": "https://image.tmdb.org/t/p/w500/pUOsQIEdQYjZruGvIoQTuQK63as.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6tuNQ16hC4Qp7wjTweKzUnnLBkI.jpg",
+      "description": "Lorsque sa nièce trouve la mort foudroyée par la peur une semaine après avoir visionné une mystérieuse cassette vidéo, Rachel Keller, une journaliste de Seattle, décide d'enquêter sur ce fameux enregistrement. Aidée de son ex-mari Noah, elle découvre que cette cassette est porteuse d'une étrange malédiction : quiconque la visionne est condamné à périr dans de terribles circonstances. Rachel prend tout de même le risque de regarder l'enregistrement. Le téléphone sonne alors, le décompte mortel s'enclenche : la jeune femme ne dispose plus que de sept jours pour sauver sa vie et celle de son fils. Sept jours pour tenter de déjouer le sortilège du Cercle…",
+      "releaseInfo": "2002"
+    },
+    {
+      "id": "tmdb:14574",
+      "type": "movie",
+      "name": "Le Garçon au pyjama rayé",
+      "poster": "https://image.tmdb.org/t/p/w500/9OlMcVcuFl2cjUKLvLYBael6kkX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6aRuABAdhuuDypLGscM7HoEWHx4.jpg",
+      "description": "Seconde Guerre mondiale. Bruno a tout juste 9 ans lorsque son père, un officier nazi remarqué par le Führer, se voit confier le commandement du camp de concentration polonais d'Auschwitz. Le petit garçon n'apprécie guère de devoir quitter la belle et grande maison de Berlin pour se retrouver dans une demeure isolée et triste. De sa chambre, il aperçoit des hommes, des femmes et des enfants tous vêtus de pyjamas rayés. Personne ne lui explique qui ils sont, mais l'innocence aidant, il va se lier d'amitié avec un enfant juif…",
+      "releaseInfo": "2008"
     }
   ]
 }

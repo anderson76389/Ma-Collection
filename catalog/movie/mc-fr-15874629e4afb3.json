@@ -1,11 +1,19 @@
 {
   "metas": [
     {
+      "id": "tmdb:1765072",
+      "type": "movie",
+      "name": "You Can See Everything",
+      "poster": "https://image.tmdb.org/t/p/w500/7nG1AFxnrh5KtgH3jA4uIsWmX95.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nhIL3O4W9h5V5JbNQm7yjoDk3So.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1755291",
       "type": "movie",
       "name": "NAZA",
       "poster": "https://image.tmdb.org/t/p/w500/yJ0FMDiMfdVHWCRqxt9WzAJ0C5S.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7EzH0dlEN9OZWWBXBWwT5PbMNUz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/inju8joDtL7KHtlFEGjFZ2UuqFa.jpg",
       "description": "Filmé la nuit depuis les toits de Tel Aviv, ce documentaire se centre sur les victimes civiles des opérations militaires israéliennes à Gaza.",
       "releaseInfo": "2026"
     },
@@ -108,6 +116,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1482168",
+      "type": "movie",
+      "name": "L'éruption des Red Hot Chili Peppers : Hillel, notre frère",
+      "poster": "https://image.tmdb.org/t/p/w500/y9hHoO3eB7l3ZjYUZoJUJpZW22V.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eUDjpW2wQg2fvSFDohhkIZkjnFw.jpg",
+      "description": "Explorez les années de formation des Red Hot Chili Peppers et l'influence profonde d'Hillel Slovak, membre fondateur du groupe.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1633264",
       "type": "movie",
       "name": "Louis Theroux : Plongée dans la manosphère",
@@ -159,24 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/ag5TZNcK3vHdCCpZIY8syjwzgfr.jpg",
       "background": "https://image.tmdb.org/t/p/w780/y5haKgSz1hCDatwIOMuqZ1CFKPW.jpg",
       "description": "Dans ce documentaire, la prodige des échecs Judit Polgár combat le scepticisme, le sexisme et le champion Garry Kasparov pour revendiquer sa place au sommet.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1599090",
-      "type": "movie",
-      "name": "Gratte-ciel : L'ascension en direct",
-      "poster": "https://image.tmdb.org/t/p/w500/lLdQaNQUrgkDyYIyEOd9lFhwozq.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ln4AcBFey31UWfW3cQdKPwdfvAd.jpg",
-      "description": "Sans corde ni peur. Alex Honnold, légende du solo intégral, tente en direct l'ascension à haut risque d'un des plus hauts gratte-ciel du monde à Taipei, à Taïwan.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1595481",
-      "type": "movie",
-      "name": "Kidnapped: Elizabeth Smart",
-      "poster": "https://image.tmdb.org/t/p/w500/8yuMPfz154d0PqX5PFXmgCCuTGd.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/n2WschLfgBrF2Dj0SkdCL94q2jC.jpg",
-      "description": "Dans ce documentaire, Elizabeth Smart raconte, à travers ses propres mots et des images inédites, son terrifiant enlèvement à 14 ans au domicile familial, dans l'Utah.",
       "releaseInfo": "2026"
     }
   ]

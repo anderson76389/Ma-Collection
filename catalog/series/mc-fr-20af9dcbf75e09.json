@@ -49,7 +49,7 @@
       "id": "tmdb:295420",
       "type": "series",
       "name": "The Vermilion Mask",
-      "poster": "https://image.tmdb.org/t/p/w500/hsMd1zUdZGMQpLr55wM0OKK07X5.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/zDxrIp9cRKAjOPutX52DAJopEjZ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/d63e5W3rWWuMIDcrUgmZTauMbna.jpg",
       "description": "Apprenti fabricant de masques, Peru aurait dû connaître les dangers liés à ces artefacts. Possédé par le Masque du Dieu Guerrier, il tue involontairement ses amis et son maître, le légendaire Gaston Roux. Rongé par la culpabilité, Peru jure de détruire tous les masques créés par son maître avant qu’une nouvelle tragédie ne se produise.",
       "releaseInfo": "2026"
@@ -100,6 +100,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:303272",
+      "type": "series",
+      "name": "Magic Knight Rayearth",
+      "poster": "https://image.tmdb.org/t/p/w500/mfTYbPbuxZkbJlmh0LpNegjPGw8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ovysGUJ9Qc7oWaiFbyWjwhw1vtc.jpg",
+      "description": "Hikaru, Umi et Fuu sont de retour pour une nouvelle adaptation de la série culte Magic Knight Rayearth !",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:327765",
       "type": "series",
       "name": "Super Psychic Policeman Chojo",
@@ -139,7 +148,7 @@
       "id": "tmdb:316694",
       "type": "series",
       "name": "Reborn Goblin",
-      "poster": "https://image.tmdb.org/t/p/w500/nut07tl4642Xyj86LtSYV75mYh3.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/5uH40zb9kyDSvDwCdUApK0vDY1S.jpg",
       "background": "https://image.tmdb.org/t/p/w780/3knNVqZlEdwYPwYBWQechjvRzx0.jpg",
       "description": "Les gentils finissent toujours derniers : personne ne le sait mieux qu'Akira Yagami, un employé de bureau qui perd la vie après avoir sauvé un enfant. Mais il se réincarne dans un autre monde en tant que gobelin ! Normalement, ces créatures ne vivent que sept jours, mais Akira possède un pouvoir lui offrant quatre-vingts ans pour laisser son empreinte sur ce monde !",
       "releaseInfo": "2026"
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/b9LtxUfUrhsuq8lYvlhXq2I5gAw.jpg",
       "background": "https://image.tmdb.org/t/p/w780/oxS6i62MRfIeXFKN2F3uEipKwt7.jpg",
       "description": "Réincarné dans son jeu « bishojo » préféré, Kousuke se retrouve affublé du pire rôle qui soit : celui d’un acolyte insignifiant. Mais fort de sa connaissance du jeu et de la plus grande réserve de mana de ce monde, il pourrait bien finir par surpasser le héros ! Kousuke doit désormais réécrire son destin et se frayer un chemin à coups d’épée vers les fins heureuses des héroïnes !",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:333622",
-      "type": "series",
-      "name": "Magic Repo Man: Dumped by My Party, I'll Cash In with a Cute Support Fairy to Become the Strongest!",
-      "poster": "https://image.tmdb.org/t/p/w500/3IxYsKJGSlxy6GDnFBIx7UJc5nP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4ncuq4Qo0NrSZBnxM3PABeROyVT.jpg",
-      "description": "Lent fait partie du groupe « Skypiercers ». Grâce à son don unique, il peut prêter une importante quantité de magie à ses partenaires. Cependant, il est viré du jour au lendemain du groupe par ses compagnons, tous devenus puissants grâce à son talent, ne le jugeant désormais plus utile au groupe.\n\nFurieux, Lent est bien décidé à récupérer jusqu'à la dernière goutte de magie qu'il a prêté à ses anciens compagnons, avec les intérêts, grâce au pouvoir caché de son don.",
       "releaseInfo": "2026"
     }
   ]

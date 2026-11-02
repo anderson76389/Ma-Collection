@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:248172",
+      "type": "series",
+      "name": "Baywatch",
+      "poster": "https://image.tmdb.org/t/p/w500/CPNtOu08ucoIlSM7QpuEwWFh3A.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mZdpLyHvIdd8VcvJfCzLiDMfkTt.jpg",
+      "description": "Des sauvetages en mer audacieux, des plages immaculées et les emblématiques maillots de bain rouges sont de retour, accompagnés d’une toute nouvelle génération de sauveteurs de « Baywatch ». Ces derniers doivent jongler avec des vies personnelles complexes et chaotiques dans ce reboot riche en action, qui illustre bien qu’il existe deux types de famille : celle dans laquelle on naît et celle que l’on se choisit.",
+      "releaseInfo": "2027"
+    },
+    {
       "id": "tmdb:316702",
       "type": "series",
       "name": "La Table finale",
@@ -21,8 +30,8 @@
       "id": "tmdb:306163",
       "type": "series",
       "name": "Le Charles",
-      "poster": "https://image.tmdb.org/t/p/w500/1So6roM8Sc6SHKSoioWsxpia2ZY.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xhh2EG39ROotuI7185jH5a6Lvww.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/c9B7ZtP00CMh8TNoTpdWumOO4aW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/i0qJ7DvMW1AkYA6K2m7XZVTH5V0.jpg",
       "description": "Le Charles de Gaulle, le seul porte-avions à propulsion nucléaire européen, vient d'appareiller pour une mission stratégique en Méditerranée orientale, où la situation est explosive. Quelques heures après le grand départ, une femme de l'équipage est retrouvée morte et une autre est portée disparue. Malgré les inquiétudes, le Commandant et l'État-major décident de maintenir l'opération.",
       "releaseInfo": "2026"
     },
@@ -160,14 +169,6 @@
       "name": "El juicio",
       "poster": "https://image.tmdb.org/t/p/w500/8tim2R1DnlLz5piMosrTc3JWuGo.jpg",
       "background": "https://image.tmdb.org/t/p/w780/bLcF9mcinphgFlXEfk7RkCSfqCv.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:249863",
-      "type": "series",
-      "name": "The Revolutionaries",
-      "poster": "https://image.tmdb.org/t/p/w500/5fLyYAxXWP4BxZCBN79NV1eiT4d.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uImwvxPG2klY0VyybGPt5zRJVMc.jpg",
       "releaseInfo": "2026"
     }
   ]

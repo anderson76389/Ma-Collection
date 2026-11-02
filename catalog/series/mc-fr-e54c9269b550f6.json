@@ -1,21 +1,22 @@
 {
   "metas": [
     {
-      "id": "tmdb:55323",
+      "id": "tmdb:4086",
       "type": "series",
-      "name": "Halloween Wars",
-      "poster": "https://image.tmdb.org/t/p/w500/wU1IWy50MwdjA035IUZJdLiZIKk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rULazJmHCDsRYL2xU46ldmM0ZcK.jpg",
-      "description": "Les présentoirs élaborés d'Halloween sont créés par cinq équipes composées de sculpteurs de citrouilles, de fabricants de bonbons et de créateurs de gâteaux, qui concourent pour un grand prix de 50 000 $.",
-      "releaseInfo": "2011"
+      "name": "Burgers and Co avec Guy FIERI",
+      "poster": "https://image.tmdb.org/t/p/w500/fPpDR6kw8bA0iZ8a0dUbexVVzn3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tKtxE1KzqKDg3HIXNnlr7VpuWzd.jpg",
+      "description": "Les « diners » et les « drive-ins » vintage étant de plus en plus tendance chez les gourmets, Guy Fieri sillonne les États-Unis à la recherche des meilleurs burgers, barbecues et fritures du pays, souvent plébiscités par les locaux. Dans chaque resto, Fieri discute avec le personnel et les clients et leur demande leur avis sur la nourriture. Guy Fieri sillonne les États-Unis à la recherche des meilleurs burgers, barbecues et fritures, souvent plébiscités par les locaux.",
+      "releaseInfo": "2007"
     },
     {
-      "id": "tmdb:196912",
+      "id": "tmdb:68598",
       "type": "series",
-      "name": "Be My Guest with Ina Garten",
-      "poster": "https://image.tmdb.org/t/p/w500/A39Qu42jGRzAKJj24oyMUjwwCaK.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dNV2WdTDGBmQj3EI7M1ufpmtdA7.jpg",
-      "releaseInfo": "2022"
+      "name": "Holiday Baking Championship",
+      "poster": "https://image.tmdb.org/t/p/w500/9fPUsxiAn8CMgd917baJZUCwlFB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/elqlGbwpRCNTw4rhyOwMU4JWhS.jpg",
+      "description": "La recherche du meilleur boulanger des Fêtes commence alors que les boulangers amateurs entrent dans la cuisine, où ils montrent leurs traditions familiales et leurs superbes compétences en pâtisserie. Pour survivre aux défis de semaine en semaine, ils doivent prouver leurs capacités devant nos juges durs.",
+      "releaseInfo": "2014"
     },
     {
       "id": "tmdb:74676",

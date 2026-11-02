@@ -5,7 +5,7 @@
       "type": "movie",
       "name": "Klara et le Soleil",
       "poster": "https://image.tmdb.org/t/p/w500/zJZ1ii7XPAJkdBWKIQN2fyyz5cQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2Zk5jRXUlrfkU3RsutMPMHey1Y.jpg",
       "description": "Lorsque Klara rencontre Josie, chacune perçoit immédiatement chez l'autre une âme soeur. Josie entretient une relation compliquée avec sa mère et toutes deux ont traversé de lourdes épreuves. Mais l'émerveillement sincère de Klara et sa loyauté sans faille commencent peu à peu à apaiser les blessures de cette famille et à apporter de la lumière dans l'univers complexe de Josie.",
       "releaseInfo": "2026"
     },
@@ -14,7 +14,7 @@
       "type": "movie",
       "name": "Clayface",
       "poster": "https://image.tmdb.org/t/p/w500/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg",
       "description": "L'ascension fulgurante de Matt Hagen, de gamin des rues de Gotham à star hollywoodienne, est brutalement interrompue lorsqu'un baron du crime le laisse atrocement défiguré. Abandonné de tous et n'ayant plus rien à perdre, Matt se tourne vers un traitement expérimental qui lui rend miraculeusement son apparence... mais altère profondément sa perception de la réalité. Il sombre alors dans une spirale destructrice, consumé par un irrépressible désir de vengeance.",
       "releaseInfo": "2026"
     },
@@ -45,12 +45,29 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1596301",
+      "type": "movie",
+      "name": "Mum, I'm Alien Pregnant",
+      "poster": "https://image.tmdb.org/t/p/w500/kEKZ6i691QKYBXCN9tazt3FVQKH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2ASkOyNYZvDs3M9xzKhckYmcRz4.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1506560",
       "type": "movie",
       "name": "Le Choc des Thunderman",
       "poster": "https://image.tmdb.org/t/p/w500/ko3VYnCg7P8wHVKIThB5GQi3IEn.jpg",
       "background": "https://image.tmdb.org/t/p/w780/hDwl0YMxwGhNe7u8wgHHk2Hyw3W.jpg",
       "description": "Chloé développe un nouveau pouvoir aussi inattendu qu'incontrôlable, poussant la Ligue des Héros à exiger qu'elle soit envoyée dans un internat pour super-héros afin d'apprendre à le maîtriser. Face à cette perspective, sa famille est divisée.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1384216",
+      "type": "movie",
+      "name": "The Dog Stars",
+      "poster": "https://image.tmdb.org/t/p/w500/w7c49Qgp3TAUC4hlo0mtgRpLOGG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3k7GzxOdLZkN3eZsuhLi2eRzkXO.jpg",
+      "description": "Dans un futur proche où une pandémie sans nom a décimé la société américaine, Hig, un pilote vit sur une base aérienne abandonnée du Colorado avec son chien et un ex-marine. Lorsqu'une transmission aléatoire passe par la radio de son Cessna 1956, la voix fait naître au plus profond du pilote l'espoir qu'une vie meilleure existe en dehors de leur périmètre étroitement contrôlé...",
       "releaseInfo": "2026"
     },
     {
@@ -74,7 +91,7 @@
     {
       "id": "tmdb:1101383",
       "type": "movie",
-      "name": "La Fin d'Oak Street",
+      "name": "La fin d'Oak Street",
       "poster": "https://image.tmdb.org/t/p/w500/yZINaQysj32K2DS2EW4Iy1bK4Bm.jpg",
       "background": "https://image.tmdb.org/t/p/w780/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg",
       "description": "Lorsqu’un mystérieux événement cosmique arrache Oak Street à sa paisible banlieue et la transporte vers un lieu inconnu, la famille Platt, désorientée dans ce nouvel environnement hostile, comprend vite qu’il leur faudra rester unis pour survivre.",
@@ -102,7 +119,7 @@
       "id": "tmdb:1307118",
       "type": "movie",
       "name": "Soulm8te",
-      "poster": "https://image.tmdb.org/t/p/w500/nIkAHDzo9kbG3kDmDckqywo6CE9.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/aRfFP8stzodl0bo8ywoNZXdaVwo.jpg",
       "background": "https://image.tmdb.org/t/p/w780/7t6f6VxA2ZXbbZSVctgt7bZG2DI.jpg",
       "description": "Un homme acquiert un androïde à intelligence artificielle pour faire face à la perte de sa femme. En essayant de créer un partenaire vraiment sensible, il transforme un \"lovebot\" inoffensif en une compagne dangereuse.",
       "releaseInfo": "2026"
@@ -112,7 +129,7 @@
       "type": "movie",
       "name": "Spider-Man : Brand New Day",
       "poster": "https://image.tmdb.org/t/p/w500/6OEtkkzoyusZDm2uMJojlWZSLR9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/r08LxMJCbf1SiJIWeyH9aJmdqwC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4tjxYg2AbOzzG9G1YuiT2NzYhlH.jpg",
       "description": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttant contre le crime dans un New York qui ne le reconnaît plus, il se consacre entièrement à la protection de la ville - un Spider-Man à plein temps - mais à mesure que les responsabilités s'intensifient, la pression provoque une transformation physique surprenante qui menace son existence, tandis qu'une étrange nouvelle vague de crimes donne naissance à l'une des menaces les plus redoutables qu'il ait jamais affrontées.",
       "releaseInfo": "2026"
     },
@@ -159,24 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/tJxeLnt5K3LHfJdaAZY6bttM0Sv.jpg",
       "background": "https://image.tmdb.org/t/p/w780/5MUMB3aPEPEQPCIAaygXFUTWE9Y.jpg",
       "description": "Quinze ans après avoir recherché l'Épée du Pouvoir, Adam est catapulté sur sa planète natale Eternia, sur laquelle Skeletor règne désormais. Avec Teela et Duncan à ses côtés, il doit libérer son vrai pouvoir, embrasser son destin en tant que Musclor, et lutter pour sauver son monde et les gens qu'il aime.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1083381",
-      "type": "movie",
-      "name": "Backrooms",
-      "poster": "https://image.tmdb.org/t/p/w500/thQQ3BBBhGDtWm3UTtabhyDJd8U.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dqmMWNWfLnExDRpMtIMqI97GQFR.jpg",
-      "description": "Une étrange porte apparaît dans le sous-sol d'un magasin de meubles.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1698856",
-      "type": "movie",
-      "name": "Master of the Universe",
-      "poster": "https://image.tmdb.org/t/p/w500/a77OcLmarwiBJakOPPC36m58t4L.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uOQtyMV2G9yJvc0s14zmLoRC5H9.jpg",
-      "description": "Un jeune homme doit faire appel à ses pouvoirs inexploités pour lutter contre un extraterrestre maléfique et son armée, qui ne reculeront devant rien pour conquérir la Terre, puis l'univers.",
       "releaseInfo": "2026"
     }
   ]

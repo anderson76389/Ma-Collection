@@ -19,11 +19,28 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1483525",
+      "type": "movie",
+      "name": "가능한 사랑",
+      "poster": "https://image.tmdb.org/t/p/w500/tnwFaR8oaRMW85iKmYxRtbuKx09.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vJkTGJn9BM4dSStR8XBApTF8e5J.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1591675",
       "type": "movie",
       "name": "Look Back",
       "poster": "https://image.tmdb.org/t/p/w500/6eXDHPwPDTZTgf4wuGIP49bxxJV.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ceOdqFmZy5kKImbGThuDHuifGpm.jpg",
+      "description": "L'histoire suit Fujino, une adolescente surdouée confiante en son talent de mangaka, et Kyômoto, une jeune fille recluse qui pratique le dessin sans relâche. Une passion commune pour l'art va lier ces deux jeunes filles de province d'une amitié indéfectible.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1235769",
+      "type": "movie",
+      "name": "경주기행",
+      "poster": "https://image.tmdb.org/t/p/w500/2dAd2APyFUyJ6qEv9VFHdHQtQI6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A58FVNOQ9qXxt0vdKGQ9kCo17El.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -39,7 +56,7 @@
       "type": "movie",
       "name": "欢迎来龙餐馆",
       "poster": "https://image.tmdb.org/t/p/w500/2OJX7udqqpk5c82pXXdL2hnny0D.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zr7om0GOLOcLo7SXMmNEG5rz6de.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hgKtkrPT1mQEWRem7YO6kh3Jf7Q.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -55,7 +72,7 @@
       "id": "tmdb:1748007",
       "type": "movie",
       "name": "牛来",
-      "poster": "https://image.tmdb.org/t/p/w500/eum2kcqFr665SgnFulgO7b2lRwW.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/kOzUhvsHq7Thcj3nZLgrghOZagq.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zByhNXeL7JpyNgLETSZipb8NKxr.jpg",
       "releaseInfo": "2026"
     },
@@ -89,7 +106,7 @@
       "type": "movie",
       "name": "Hope",
       "poster": "https://image.tmdb.org/t/p/w500/tGdFDoA9qyt0t6Qr9MFnOl8Z2Jz.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qqHFLg90IUSoTmSMpKOOW5RyqN3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/j96rurZqmBjyY37Fncl3IB0qJNe.jpg",
       "description": "Le chef de la police de Hope Harbor, un petit village situé près de la zone coréenne démilitarisée, enquêtee sur le cas d'une vache morte portant des blessures béantes. Des chasseurs affirment qu'un tigre errant serait responsable de l'attaque, mais ils découvrent plus tard d'autres bovins morts ainsi que le corps du propriétaire de la ferme voisine...",
       "releaseInfo": "2026"
     },
@@ -148,25 +165,8 @@
       "type": "movie",
       "name": "Soudain",
       "poster": "https://image.tmdb.org/t/p/w500/bfWVYzLQnykGlDfnnduqLtofRAJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rQEfTB65F71Y2yIlAzv3GJ3m7Rz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yF4vFj0BSle87KSuRLhtT1PPfvs.jpg",
       "description": "Directrice d'un établissement pour personnes âgées, Marie-Lou tente d'y instaurer une philosophie de soins innovante basée sur l'écoute et la dignité des résidents, malgré la réticence d’une partie de ses équipes. Sa rencontre avec Mari, une metteuse en scène japonaise qui se bat contre un cancer, va bouleverser sa trajectoire. En nouant une amitié profonde, les deux femmes engagent ensemble un combat pour “rendre possible l’impossible”.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1305672",
-      "type": "movie",
-      "name": "抓特务",
-      "poster": "https://image.tmdb.org/t/p/w500/ozQe6oNmGHvwk2zdCQilMikUTBZ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8Jjl0CUOt2T6Wf2hYcii4pd0SDR.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1451344",
-      "type": "movie",
-      "name": "Mes hommes d'action",
-      "poster": "https://image.tmdb.org/t/p/w500/A01Ca3GfoUZ192ebgHHj6MYOG35.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/doasZ6ROBhD0xIRsvAFdTeZsKhp.jpg",
-      "description": "Un policier fait équipe avec le nouveau mari de son ex-femme pour traquer ses ravisseurs. Ces drôles d'alliés passeront-ils outre leurs différends le temps d'un sauvetage déjanté ?",
       "releaseInfo": "2026"
     }
   ]

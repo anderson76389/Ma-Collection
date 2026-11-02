@@ -17,6 +17,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:331318",
+      "type": "series",
+      "name": "Clickbait Clinic with Stacey Dooley",
+      "poster": "https://image.tmdb.org/t/p/w500/rFEvt95J90pTrMbd9VUQmuVxVCF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2FofCL3lO2XyUskcLLeqsx5xx6M.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:334653",
       "type": "series",
       "name": "The Split Up",
@@ -29,7 +37,7 @@
       "type": "series",
       "name": "Marble Hall Murders",
       "poster": "https://image.tmdb.org/t/p/w500/3WfgRJBIaOTsiu2bQO23xWb08ro.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8Jdrk3wwMCs1RN7GimMZQrBdgHh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/woa9xtYfw1dib4JLnvQdLSZK0D2.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -86,7 +94,7 @@
       "type": "series",
       "name": "Half Man",
       "poster": "https://image.tmdb.org/t/p/w500/jl24C9NkgCxbQk9T0GZkpq6dsf4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/loZCtN8s1yjSBD75rbHsRisWfUc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/voRcBEjydt5dJNgXuqtobIsZIbJ.jpg",
       "description": "Niall et Ruben sont comme des frères. Pas de lien de sang, mais une proximité totale. L’un est fougueux et loyal, l’autre doux et réservé. Deux jeunesses qui se croisent, unies par la mort et les circonstances, ne comptant que l’un sur l’autre… Trente ans plus tard, Ruben débarque au mariage de Niall. Il est nerveux, agité, différent de d’habitude. Et bientôt, une explosion de violence secoue leur vie, des années 80 à aujourd’hui. Capturant trois décennies de ces hommes brisés, HALF MAN explore la fraternité, la violence et la fragilité intense des relations masculines. Quand tout s’effondre… ce sont parfois les liens les plus proches qui se brisent le plus fort.",
       "releaseInfo": "2026"
     },
@@ -153,15 +161,6 @@
       "name": "The Claudia Winkleman Show",
       "poster": "https://image.tmdb.org/t/p/w500/tsat2BoHQsx13BzYR6J1eI8WM0E.jpg",
       "background": "https://image.tmdb.org/t/p/w780/x20sGCxZR51taOtbyElelE4htCB.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:270572",
-      "type": "series",
-      "name": "Sa majesté des mouches",
-      "poster": "https://image.tmdb.org/t/p/w500/uUE4zRhAhgCXCSQTOWrJXrK4RcZ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yRqFvu6rIytqZlzY0pBVvZG3W0S.jpg",
-      "description": "Des garçons échoués sur une île tropicale se retrouvent entièrement livrés à eux‑mêmes, sans la moindre présence adulte. D'abord décidés à instaurer des règles et à préserver un semblant de civilisation, ils se répartissent les rôles et organisent la vie du groupe. Mais très vite, les tensions, la violence et la soif de pouvoir s'installent.",
       "releaseInfo": "2026"
     }
   ]

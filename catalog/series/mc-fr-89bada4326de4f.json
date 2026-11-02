@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:292741",
+      "type": "series",
+      "name": "Nocturne",
+      "poster": "https://image.tmdb.org/t/p/w500/gwoPlr2g3moHYZH05DyRZVgUf6m.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/614k6C9doThoMe6GyH0nTnGgLXt.jpg",
+      "description": "Lorsqu’une victime du célèbre tueur en série Jurek Walter refait surface en vie, l’enquêteur Jonah Lynn entame une course contre la montre pour retrouver sa dernière proie encore portée disparue. Sa protégée Saga Bauer travaille sous couverture pour faire parler le tueur.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:284558",
       "type": "series",
       "name": "Kill Jackie",
@@ -10,12 +19,12 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:258165",
+      "id": "tmdb:292742",
       "type": "series",
-      "name": "À l'est d'Éden",
-      "poster": "https://image.tmdb.org/t/p/w500/ygwE4kbLxKApQoC26Q0DiJQnkMl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/70RZX7kNjA0Qjn6HigB1oMvFJ8R.jpg",
-      "description": "Au début du 20e siècle, une femme d'une indépendance farouche provoque une rupture entre deux frères, lançant une saga qui va s'étendre sur deux générations.",
+      "name": "S.W.A.T. Exiles",
+      "poster": "https://image.tmdb.org/t/p/w500/42CXrSRsjd6BATuVMIVJiw5NS4D.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mNIc5QqjBuXHeeyj6P4WSqTCBu9.jpg",
+      "description": "Après l'échec retentissant d'une mission très médiatisée, Daniel « Hondo » Harrelson est sorti de sa retraite forcée pour prendre la tête d'une unité SWAT expérimentale, qui représente une dernière chance, composée de jeunes recrues inexpérimentées et imprévisibles. Hondo doit combler le fossé générationnel, gérer des personnalités qui s'affrontent et transformer une équipe de marginaux en une équipe capable de protéger la ville et de sauver le programme qui a fait de lui ce qu'il est aujourd'hui.",
       "releaseInfo": "2026"
     },
     {
@@ -42,7 +51,7 @@
       "name": "Portée disparue",
       "poster": "https://image.tmdb.org/t/p/w500/zXMkaqWinyCbkMSNwhi7htRV0e9.jpg",
       "background": "https://image.tmdb.org/t/p/w780/kgaQnDdDaPqvGN7i8LLz1aWJdjP.jpg",
-      "description": "Lorsque Ian Ridley, opérateur des services d'urgence, reçoit un appel affolé d’une adolescente qu’il pense être sa fille disparue, il ne recule devant rien pour la retrouver.",
+      "description": "La vie de l'inspecteur de police Ian Ridley s'est effondrée 11 ans auparavant lorsque sa jeune fille, Maggie, a disparu sans aucune trace. Désormais affecté au service d'appels d'urgences, il ne tient que grâce à son refus inébranlable d'accepter qu'elle est perdue à jamais. Un jour qu'il reçoit un appel de détresse d'une adolescente, il est convaincu qu'il s'agit de Maggie, et met dès lors tout en oeuvre pour la retrouver et réunir sa famille, quoi qu'il en coûte.",
       "releaseInfo": "2026"
     },
     {
@@ -149,7 +158,7 @@
       "type": "series",
       "name": "Spider-Noir",
       "poster": "https://image.tmdb.org/t/p/w500/tCup7Z7ax4FQJUciHGHKXUqC8GT.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/reAZlLG6YMkBuxPT1XKuCH97TM1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6t2FvBr9DS8MOq0m5FAwPBCdAW5.jpg",
       "description": "Ben Reilly, détective privé, est engagé pour enquêter sur ce qui semble être de banales affaires... jusqu'à ce que des gangsters, des monstres et une mystérieuse femme fatale tissent une toile qui va le confronter à son ancienne vie de seul et unique super-héros de New York : L'Araignée.",
       "releaseInfo": "2026"
     },
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/9EJOS3Px9ASawruHCKVeYGlAsol.jpg",
       "background": "https://image.tmdb.org/t/p/w780/wqjhAWmqHrIIn4PdchGCuEgPksw.jpg",
       "description": "Dans les Floride Keys, Etta rêve de vivre dans le royaume scintillant et subtropical de Miami. Lorsqu'une tragédie frappe l'affaire familiale, elle est entraînée dans les bas-fonds de Miami, où elle découvre ce dont elle est réellement capable.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:262280",
-      "type": "series",
-      "name": "Legends",
-      "poster": "https://image.tmdb.org/t/p/w500/t4zldz96sQyb94Zu7a3n2PCVK3X.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4CtOMphAmfHJ6cztlAYjkdStkHP.jpg",
-      "description": "Grande-Bretagne, années 90 : des fonctionnaires plongent dans la clandestinité pour démanteler des gangs de trafiquants de drogue.",
       "releaseInfo": "2026"
     }
   ]

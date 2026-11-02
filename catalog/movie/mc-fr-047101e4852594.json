@@ -1,18 +1,62 @@
 {
   "metas": [
     {
-      "id": "tmdb:1801799",
-      "type": "movie",
-      "name": "홈커밍",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:1584779",
       "type": "movie",
       "name": "Mon père, un meurtrier ?",
       "poster": "https://image.tmdb.org/t/p/w500/4aBN0YZ6Jfb09fRSxyObfdSe2Ot.jpg",
       "background": "https://image.tmdb.org/t/p/w780/8UkpeQ7fwKyX2PVmnnaAJm7Vv9J.jpg",
       "description": "Quand Amy, la présidente d'une importante association caritative, perd son père, elle est choquée de découvrir qu'il possédait un espace dans un garde-meuble avec un secret mortel à l'intérieur : le corps d'une femme. Son père était-il un meurtriers ? Qui était cette femme ?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1801799",
+      "type": "movie",
+      "name": "홈커밍",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1802464",
+      "type": "movie",
+      "name": "मीठे में क्या है",
+      "poster": "https://image.tmdb.org/t/p/w500/xTJYIPjyuCbkc7zEtfAFJfVDSV5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5UkQUYXkG4iJH5Ova55lkxDPiCB.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1789549",
+      "type": "movie",
+      "name": "Le Cadeau D'anniversaire",
+      "poster": "https://image.tmdb.org/t/p/w500/jks3cfCwBFkAxq2rj2SENF6OiDE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eBtITrrdFo1EG7t6TSG5U5c4P2e.jpg",
+      "description": "Marlene Frischmann, mère célibataire, organise la fête d'anniversaire parfaite pour son fils Theo dans la superbe maison de campagne de son frère : ballons, gâteau sans gluten, piñata et même quelques animaux sauvages devraient rendre cette journée inoubliable. Mais cette célébration préparée avec amour ne tarde pas à virer au cauchemar, entre débats enflammés sur l'éducation, la masculinité et les principes parentaux. Un drôle de désordre en partie engendré par Timo, le frère de Marlene, banquier turbulent, Hans, son père excentrique à la dérive, Jenny, sa collègue idéaliste qui rêve de sauver le monde, et un cadeau très spécial. Entre structures familiales dysfonctionnelles, mères surprotectrices prétentieuses et anarchie enfantine, la fête sombre peu à peu dans le chaos.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1571955",
+      "type": "movie",
+      "name": "Colisión",
+      "poster": "https://image.tmdb.org/t/p/w500/sMPIiaOoyTr5o6s602KIVMJX3P2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uI3kWI7kGW5E0F8WduewgQYPt34.jpg",
+      "description": "En pleine crise économique, un groupe de cambrioleurs s'introduit dans une banque à Madrid, déclenchant une série d'événements imprévisibles. Ce qui s'apparentait au départ à un simple braquage se transforme en un jeu de dupes et de peur où tout est affaire de survie : chaque décision compte, chaque geste cache quelque chose et chacun cherche à échapper à un châtiment pire que la prison.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1541477",
+      "type": "movie",
+      "name": "Toi, Moi, Nous",
+      "poster": "https://image.tmdb.org/t/p/w500/kw0sXl9LAikT65wq7NwY3y9g45K.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9uU3523A14KJ90Jr8pQx0NGGIgb.jpg",
+      "description": "Simone, un homme organisé et profondément attaché aux valeurs familiales, partage sa vie avec Lucia, une femme indépendante qui a toujours rejeté l'idée de devenir mère. Malgré leurs différences, leur couple repose sur un amour solide et de perpétuelles négociations. Mais lorsqu'ils décident d'adopter un enfant, leurs convictions et leurs désirs contradictoires refont surface, mettant leur relation à l'épreuve.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1789826",
+      "type": "movie",
+      "name": "Confessions d'une accro à Noël",
+      "poster": "https://image.tmdb.org/t/p/w500/lLuWqLNkVyWVbV5rtle5cK5yoWA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9ApCYxqPSr9OKuxaCeNMxuo4wnd.jpg",
+      "description": "Mélanie Patterson est une passionnée des fêtes de fin d'année, qui met une petite touche de Noël, dans tous les évènements qu'elle organise. Son seul problème : elle dépense toujours trop... Ce qui lui vaut de perdre son emploi. Elle décide alors de se mettre à son compte et de lancer sa nouvelle carrière, à l'occasion du réveillon qu'elle organise chaque année pour tous les habitants de son quartier.",
       "releaseInfo": "2026"
     },
     {
@@ -120,56 +164,11 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1458857",
+      "id": "tmdb:1811964",
       "type": "movie",
-      "name": "À vie",
-      "poster": "https://image.tmdb.org/t/p/w500/c3O1ApzLnQ1jUXA60kXDraiPPIv.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nDScZ6YR2nfNCeK5bmJ1ujb355b.jpg",
-      "description": "Quand Anika, une jeune mère célibataire qui se bat pour préserver l'unité de sa famille, commence à échanger des lettres avec un détenu, Carousel, une relation improbable se noue à distance et prend bientôt une tournure inattendue. Naît alors une puissante histoire d'amour et de rédemption, portée par l'espoir de pouvoir un jour échapper au poids du passé. Car même les relations les plus inconcevables peuvent changer des vies et offrir une seconde chance d'être heureux.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1763619",
-      "type": "movie",
-      "name": "Super Riches Mega Fauchés",
-      "poster": "https://image.tmdb.org/t/p/w500/4nQD7STEWNYW2cKldZQZRrYri90.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/e20V500lJHkQbf1iGet34Jc5h8r.jpg",
-      "description": "Lorsque la snob et riche famille AlThahabi découvre qu'elle n'est en fait pas aussi fortunée qu'elle le croit, elle est forcée de simuler son opulence pour survivre.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1492640",
-      "type": "movie",
-      "name": "UNABOMBER",
-      "poster": "https://image.tmdb.org/t/p/w500/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
-      "description": "Ted Kaczynski, un jeune prodige qui intègre Harvard à 16 ans avant de basculer dans le terrorisme. Soumis à des expériences psychologiques discutables menées par le docteur Henry Murray, le passé tourmenté de Kaczynski refait surface des décennies plus tard, lorsque la traque d'Unabomber menée par l'agente du FBI Joanne Miller met en lumière les conséquences terrifiantes de l'ambition et de l'isolement.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1779555",
-      "type": "movie",
-      "name": "Rescapé : L'Épisode final",
-      "poster": "https://image.tmdb.org/t/p/w500/1Fsnwi8GobGxo0CyssDXXhx4YVR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/az5tYVS9OXtc2A6XVdahEMsQJst.jpg",
-      "description": "Lorsque deux jeunes dealers se font un ennemi redoutable, Soso abandonne sa vie solitaire pour tenter de stopper la violence qui ravage Marseille.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1620080",
-      "type": "movie",
-      "name": "Less of a Stranger",
-      "poster": "https://image.tmdb.org/t/p/w500/5lxcAE2DLtK8bFfCXOV9TM13RDq.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xn42TCarooeOxY1yrfOknEmMvAu.jpg",
-      "description": "Un film inspiré de la vie de la légende du rock polonais Jan Borysewicz. Une histoire de musique, de rébellion et de liberté dans un monde où les rêves se heurtent souvent à une dure réalité.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1782745",
-      "type": "movie",
-      "name": "Restless",
-      "poster": "https://image.tmdb.org/t/p/w500/iVcD9F3ZQBZBBsVq6hDE4iYO4yi.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qXJ9GzTQrB4piZqUJtBUdZ7WbbP.jpg",
+      "name": "SI Yugandhar",
+      "poster": "https://image.tmdb.org/t/p/w500/mIK5YnqQWKZxyQgaeDDVywUxNWo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hFKZK6R1iFvB1Da01rN28CqWYmi.jpg",
       "releaseInfo": "2026"
     }
   ]

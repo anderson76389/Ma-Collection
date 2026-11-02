@@ -10,6 +10,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1503762",
+      "type": "movie",
+      "name": "Raison et Sentiments",
+      "poster": "https://image.tmdb.org/t/p/w500/hpYHHl0P978F6AX5Xeew0fi2ryI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg",
+      "description": "Une irrésistible nouvelle version du roman culte de Jane Austin, Raison et Sentiments, qui suit deux sœurs à travers leurs amours, leurs chagrins et le lien qui les unit d'une façon magistrale et profondément proche de nous.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:977942",
       "type": "movie",
       "name": "The Uprising",
@@ -23,7 +32,7 @@
       "type": "movie",
       "name": "By Any Means",
       "poster": "https://image.tmdb.org/t/p/w500/evCy2B3j57AwSNBZqlePjMl3zj3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1jANqIbqrWJZb8GM5Kb3L6U8iHi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nw9Q3idNO8EsTPnvr8vBJTpkWGA.jpg",
       "description": "Un jeune agent noir du FBI est envoyé au Mississippi dans les années 60 afin d’enquêter sur une vague de meurtres brutaux visant des leaders du mouvement des droits civiques. Contraint de faire équipe avec le célèbre tueur à gages de la mafia Greg Scarpa, il se retrouve entraîné dans une traque meurtrière où la frontière entre justice et vengeance devient de plus en plus floue.",
       "releaseInfo": "2026"
     },
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/caNahrFGWoIvDLzLsLaHf2TXHpM.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ehX2ljRmDLyKS44rZz2kt4BkwkJ.jpg",
       "description": "Récemment diplômée de l'université, Whitney Wolfe fait preuve d'une détermination et d'une ingéniosité sans égales pour percer dans le secteur de la tech largement dominé par les hommes. Son instinct et son talent seront à l’origine d’une application de rencontres innovante et mondialement reconnue (deux, en fait), lui ouvrant ainsi la voie vers le titre de « plus jeune femme milliardaire autodidacte ».",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:556574",
-      "type": "movie",
-      "name": "Hamilton",
-      "poster": "https://image.tmdb.org/t/p/w500/itaIGLdCu0e28XQOEf7V3chd904.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uWVkEo9PWHu9algZsiLPi6sRU64.jpg",
-      "description": "Captation de la célèbre comédie musicale de Broadway récompensée par 11 Tony, Grammy et Olivier Awards, et par un prix Pulitzer. Hamilton raconte l'histoire d'Alexander Hamilton, l'un des Pères fondateurs de la nation américaine.",
       "releaseInfo": "2025"
     }
   ]

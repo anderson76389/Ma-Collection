@@ -10,12 +10,21 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1477104",
+      "type": "movie",
+      "name": "Shaun le Mouton : La Bêêête d'Halloween",
+      "poster": "https://image.tmdb.org/t/p/w500/xErbSB79RgyH8xCkChItWx2UKdr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
+      "description": "À Halloween, les habitants de la ferme de Mossy Bottom se réjouissent des festivités, jusqu’à ce que le Fermier maladroit saccage les citrouilles bien-aimées du troupeau. Lorsque Shaun se transforme en scientifique fou pour résoudre le problème, les choses dérapent : le Fermier disparaît et une bête sauvage rôde dans les bois.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1465063",
       "type": "movie",
-      "name": "L'Île des Souvenirs",
-      "poster": "https://image.tmdb.org/t/p/w500/A12dkvb10IgoQxHxU5TXOc6WR4k.jpg",
+      "name": "L'île des souvenirs",
+      "poster": "https://image.tmdb.org/t/p/w500/txvVTbY1cAsBe5tPX9c5m5SM3ml.jpg",
       "background": "https://image.tmdb.org/t/p/w780/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
-      "description": "Jo et Raissa se retrouvent échouées sur le monde fantastique de l'île oubliée de Nakali. Elles découvrent que le seul moyen de rentrer chez elles pourrait bien leur coûter toute une vie de souvenirs et d'émotions.",
+      "description": "Pendant qu'elles passent une dernière soirée ensemble avant de s'engager sur des voies différentes, Jo et Raissa, amies depuis toujours, trouvent un portail mystérieux qui les transporte sur Nakali, une île mythique peuplée de créatures magiques dont leurs familles philippines leur ont parlé. Alors qu'elles cherchent à rentrer chez elles, Jo et Raissa découvrent que leurs souvenirs sont en péril. Réussiront-elles à quitter l'île avant de s'oublier l'une l'autre ?",
       "releaseInfo": "2026"
     },
     {
@@ -25,6 +34,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/sJMs3P5bQx0OgKrihT5TzTK70Qp.jpg",
       "background": "https://image.tmdb.org/t/p/w780/rFjlsx5IygrHmBqr0KsVolAHhy7.jpg",
       "description": "Les Simpson luttent pour trouver leur voie à travers deux contes sombres, étranges et insolites. Une lampe défectueuse révèle une vérité bouleversante sur ce qu'Homer croyait être la réalité. Et une tablette dotée d'une intelligence artificielle se lie d'amitié avec Maggie afin de manipuler son esprit.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1204680",
+      "type": "movie",
+      "name": "Coyote vs. Acme",
+      "poster": "https://image.tmdb.org/t/p/w500/dFwseuSlDUNiwMuElDb3OAOQ8En.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rueyXwlewVPAP5NkqCUJx4RjhqB.jpg",
+      "description": "L'avocat Kevin Avery est engagé par Vil Coyote, un personnage des Looney Tunes qui veut attaquer en justice le conglomérat ACME. D'après lui, l'entreprise fabriquerait des produits défectueux. Kevin va découvrir que son ancien patron, Buddy Crane, est désormais le représentant légal de ladite société...",
       "releaseInfo": "2026"
     },
     {
@@ -40,7 +58,7 @@
       "id": "tmdb:980431",
       "type": "movie",
       "name": "‎Avatar Aang, le dernier maître de l'air",
-      "poster": "https://image.tmdb.org/t/p/w500/sJDjdYGDFdx9uftetPPjH7Jwing.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/gBZIjh69mhy0hcmYk4TJ8UcPH3v.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ezbrL1dMymKQZw7mDEWa2ZTzN7d.jpg",
       "description": "Avatar Aang, le dernier Maître de l'Air, apprend l'existence d'un pouvoir ancestral qui pourrait sauver sa culture. Avec ses amis, il se lance dans une quête mondiale pour le trouver avant qu'il ne tombe entre de mauvaises mains.",
       "releaseInfo": "2026"
@@ -159,24 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/oCakNGooFW6WCQnVISBUuSRkaYw.jpg",
       "background": "https://image.tmdb.org/t/p/w780/pMxO1beNNFYMDM7RcDyKW5Wheuz.jpg",
       "description": "Bob l'éponge et ses amis de Bikini Bottom larguent les amarres pour leur plus grande aventure sur grand écran. Bien décidé à prouver à M. Krabs qu'il est désormais un grand garçon, Bob se lance sur les traces du légendaire Hollandais Volant, un redoutable pirate fantôme. Cap sur une épopée déjantée, entre fous rires, frissons et péripéties sous-marines, jusque dans les abysses les plus mystérieux de l'océan, là où aucune éponge n'a jamais osé plonger !",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1167307",
-      "type": "movie",
-      "name": "David",
-      "poster": "https://image.tmdb.org/t/p/w500/xAGzSQBN1tTGjuaB1njwnkN9Etf.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mZ6J2g6HCV2gj3iuCdSxcyBXq9c.jpg",
-      "description": "Des chants du cœur de sa mère aux murmures d'un Dieu fidèle, l'histoire de David commence dans une dévotion silencieuse. Lorsque le géant Goliath se lève pour terroriser une nation, un jeune berger armé uniquement d'une fronde, de quelques pierres et d'une foi inébranlable s'avance. Poursuivi par le pouvoir et animé par un but précis, son parcours met à l'épreuve les limites de la loyauté, de l'amour et du courage, et culmine dans une bataille qui ne vise pas seulement la couronne, mais aussi l'âme d'un royaume.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1588237",
-      "type": "movie",
-      "name": "Chapitre perdu : La vengeance de Yuki",
-      "poster": "https://image.tmdb.org/t/p/w500/x14YpgJ9Z77vufopLaPGDFSftcM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9KZ0c6sPo8ssTvco409XR8PtYgm.jpg",
-      "description": "Quentin Tarantino a rêvé d'un chapitre légendaire intitulé « La vengeance de Yuki » pour son film Kill Bill. Hélas, cette vision n'a jamais été portée sur grand écran. Plus de 20 ans plus tard, Tarantino et Epic s'unissent pour donner vie à cette histoire dans Fortnite.",
       "releaseInfo": "2025"
     }
   ]

@@ -9,6 +9,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1788123",
+      "type": "movie",
+      "name": "Monet et les nymphéas, l'éternité retrouvée",
+      "poster": "https://image.tmdb.org/t/p/w500/sroYDxqRCxCbbRvD53qWoVruZL5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tWJwFlrUhC6VABgnmdGem4EqsHK.jpg",
+      "description": "Ce documentaire retrace la trajectoire de ce chef-d’œuvre, performance de peinture et de méditation, dont la radicale modernité n’avait, à sa création, pas été comprise. À travers des archives exceptionnelles, des éclairages d'experts, de conservateurs et de témoins de cette histoire sur trois continents, le film révèle le message glissé dans ce bassin devenu univers par l’artiste rongé par l’angoisse de la guerre.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1762164",
       "type": "movie",
       "name": "Mon sucre d'amour",
@@ -157,15 +166,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/6G1AnqPoqFfYkY7FBFpd2VmxJ5R.jpg",
       "background": "https://image.tmdb.org/t/p/w780/2fKtqx5AGFiFPkJ0kz7Rd3hwtRj.jpg",
       "description": "Alejandra, une jeune femme vivant avec sa famille dans un camping d'une ville balnéaire, partage son quotidien entre routine et amours éphémères. Une nuit, sa rencontre avec Amara, une jeune citadine à l'aura mystérieuse, bouleverse son monde.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1603177",
-      "type": "movie",
-      "name": "Je mordrai la poussière des étoiles",
-      "poster": "https://image.tmdb.org/t/p/w500/56K4TnJCRnTkoE1TtA4aqiqvCE6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/d5suZYbhs1HIGXTUCOkd4UGAqSF.jpg",
-      "description": "Une jeune femme, Shari, doit faire face à la mort. Elle est atteinte d’un cancer en phase terminale. Alors qu’elle tente d’échapper à la confrontation avec sa famille, elle se retrouve projetée dans l’espace où elle fait la rencontre de Laïka, la chienne-cosmonaute. Dans un voyage spirituel, Laïka guide Shari, qui comprend peu à peu que le cancer est plus fort qu’elle, mais qu’elle n’est pas encore morte.",
       "releaseInfo": "2025"
     }
   ]

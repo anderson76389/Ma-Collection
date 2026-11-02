@@ -19,31 +19,13 @@
       "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:34634",
+      "id": "tmdb:243875",
       "type": "series",
-      "name": "Alaska : La ruée vers l'or",
-      "poster": "https://image.tmdb.org/t/p/w500/wzsQetFAT5pIMF98MWwE7sq9Hf.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ReSSC77upQRIZgvaJaPQPCbWaK.jpg",
-      "description": "Des passionnés sont prêts à tout, et surtout à mener une sérieuse compétition, afin d'arriver à extraire et amasser la plus grande quantité d'or possible, au coeur de sites miniers parmi les plus riches en Amérique.",
-      "releaseInfo": "2010"
-    },
-    {
-      "id": "tmdb:314360",
-      "type": "series",
-      "name": "YAGA",
-      "poster": "https://image.tmdb.org/t/p/w500/kp8xgZ8SrikHQrPn2lC3hb50KD5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lVCFOjUDlZLMvTJxQ2t78MjTIqL.jpg",
-      "description": "Alors qu’un détective privé enquête sur la disparition du jeune héritier d’une puissante entreprise de pêche, il se retrouve en désaccord avec un détective local méfiant, un charismatique professeur d’université qui aime les hommes plus jeunes, et un labyrinthe de suspects énigmatiques, de vies secrètes et de magie ancienne.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:17937",
-      "type": "series",
-      "name": "Ghost Adventures",
-      "poster": "https://image.tmdb.org/t/p/w500/xLJZuDxdeUqRFHFlqs0mIk9faMR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/u64huzTnF3jEYUXJ4BDlpHy2L3K.jpg",
-      "description": "L'enquêteur paranormal Zak Bagans et son équipe, Nick Groff, Aaron Goodwin, Billy Tolley et Jay Wasley, recherchent des lieux hantés au niveau national et international. Au cours de leur enquête, Zak et son équipe se familiarisent avec la région, interrogent les habitants sur les lieux hantés et rencontrent les mauvais esprits qui hanteraient ces lieux.",
-      "releaseInfo": "2008"
+      "name": "Georgie & Mandy's First Marriage",
+      "poster": "https://image.tmdb.org/t/p/w500/vonR5GlaCJpSqIQMUcBm6VQYYuu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/h927CLfeAjiy0MNKRxWZgEq7bHR.jpg",
+      "description": "Cette suite de Young Sheldon suit Georgie et Mandy alors qu'ils élèvent leur jeune famille au Texas.",
+      "releaseInfo": "2024"
     },
     {
       "id": "tmdb:298852",
@@ -55,13 +37,31 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:243875",
+      "id": "tmdb:34634",
       "type": "series",
-      "name": "Georgie & Mandy's First Marriage",
-      "poster": "https://image.tmdb.org/t/p/w500/vonR5GlaCJpSqIQMUcBm6VQYYuu.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mftiCiSsw4DFdlbfjN3cpkmMe0c.jpg",
-      "description": "Cette suite de Young Sheldon suit Georgie et Mandy alors qu'ils élèvent leur jeune famille au Texas.",
-      "releaseInfo": "2024"
+      "name": "Alaska : La ruée vers l'or",
+      "poster": "https://image.tmdb.org/t/p/w500/wzsQetFAT5pIMF98MWwE7sq9Hf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ReSSC77upQRIZgvaJaPQPCbWaK.jpg",
+      "description": "Des passionnés sont prêts à tout, et surtout à mener une sérieuse compétition, afin d'arriver à extraire et amasser la plus grande quantité d'or possible, au coeur de sites miniers parmi les plus riches en Amérique.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:17937",
+      "type": "series",
+      "name": "Ghost Adventures",
+      "poster": "https://image.tmdb.org/t/p/w500/xLJZuDxdeUqRFHFlqs0mIk9faMR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/u64huzTnF3jEYUXJ4BDlpHy2L3K.jpg",
+      "description": "L'enquêteur paranormal Zak Bagans et son équipe, Nick Groff, Aaron Goodwin, Billy Tolley et Jay Wasley, recherchent des lieux hantés au niveau national et international. Au cours de leur enquête, Zak et son équipe se familiarisent avec la région, interrogent les habitants sur les lieux hantés et rencontrent les mauvais esprits qui hanteraient ces lieux.",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:81723",
+      "type": "series",
+      "name": "The Gilded Age",
+      "poster": "https://image.tmdb.org/t/p/w500/l36aFd248esuJJ1uIe0Za96bLTR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/afUVsProh46h31w2EvL7qyHXrqj.jpg",
+      "description": "Aux États-Unis, le Gilded Age désigne la période de prospérité qui suivit la guerre de Sécession. En 1882, la jeune Marian Brook quitte la Pennsylvanie après la mort de son père pour s'installer avec ses tantes aristocrates à New-York. Accompagnée par Peggy Scott, une écrivaine en devenir, Marian va découvrir la haute société et se retrouver au milieu d'un conflit entre une de ses tantes et leurs voisins, l'ambitieux magnat des chemins de fer George Russel et sa femme Bertha.",
+      "releaseInfo": "2022"
     },
     {
       "id": "tmdb:2808",
@@ -73,12 +73,12 @@
       "releaseInfo": "2002"
     },
     {
-      "id": "tmdb:285418",
+      "id": "tmdb:314360",
       "type": "series",
-      "name": "Youth",
-      "poster": "https://image.tmdb.org/t/p/w500/2YD9VOcTn5J8vfESJ7hrhfxPyf5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/iEISXRsDv8Q2PA6i9cAQd2DH9bN.jpg",
-      "description": "Alex a une carrière, une famille et une riche expérience de la vie, mais elle doit aussi faire face aux réalités de la cinquantaine, s'occuper de ses parents vieillissants, élever un fils adolescent en difficulté et essayer de déterminer s'il y a encore de la place pour la romance et l'excitation dans sa propre vie.",
+      "name": "YAGA",
+      "poster": "https://image.tmdb.org/t/p/w500/wSbmXrDTm7g3USFAT6oKL8MGDfJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/owhTL4n2r9ryfxyYlhHKt97ogVk.jpg",
+      "description": "Alors qu’un détective privé enquête sur la disparition du jeune héritier d’une puissante entreprise de pêche, il se retrouve en désaccord avec un détective local méfiant, un charismatique professeur d’université qui aime les hommes plus jeunes, et un labyrinthe de suspects énigmatiques, de vies secrètes et de magie ancienne.",
       "releaseInfo": "2026"
     },
     {
@@ -91,24 +91,6 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:256695",
-      "type": "series",
-      "name": "Regular Show : Les cassettes oubliées",
-      "poster": "https://image.tmdb.org/t/p/w500/gZuwOtqQRPvLOhLV21qfaC3tIxS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/Zk5UmvJ634LhA56R18h8RfipFG.jpg",
-      "description": "Mordecai, un geai bleu, et Rigby, un raton laveur, deux amis paresseux, travaillent dans un parc municipal. Mais, quoi qu'ils entreprennent, leurs tâches quotidiennes finissent invariablement par basculer dans un chaos totalement surréaliste, au grand désespoir de leur patron et de leurs collègues...",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:218038",
-      "type": "series",
-      "name": "VIVANT",
-      "poster": "https://image.tmdb.org/t/p/w500/31iHlDe30pudzLfPaAg20H5gJmE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yBNDjG4Q963MecEllraSdqs3QjX.jpg",
-      "description": "Vivant suit l’histoire de Nogi Yusuke, un employé de la société Marubishi Corporation chargé d’un projet dans le domaine de l’énergie solaire en Asie Centrale. Il a été envoyé à Balka pour régler un problème de trop-versé lors d’une transaction où 100 millions de Dollars ont étés versés au lieux des dix prévus. Les choses ne se passant pas aussi bien que prévues, il sera contraint de prendre la fuite avec l’aide de Nozaki Mamoru de la Sécurité Publique et de l’infirmière Yuzuki Kaoru.",
-      "releaseInfo": "2023"
-    },
-    {
       "id": "tmdb:34045",
       "type": "series",
       "name": "Soeurs épouses",
@@ -118,29 +100,30 @@
       "releaseInfo": "2010"
     },
     {
-      "id": "tmdb:231801",
+      "id": "tmdb:218038",
       "type": "series",
-      "name": "GET JIRO",
-      "poster": "https://image.tmdb.org/t/p/w500/li3TH09EF6JyHPVoTvub4nPOfwU.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xe6wbOPKuSMOze4rl48NFWy8PNe.jpg",
-      "description": "Sino : Le futur. Los Angeles est sous la coupe de chefs cuisiniers d'élite. Jiro, un maître sushi mêlé à un conflit culinaire sanglant dans l'impitoyable milieu de la restauration cherche à se venger grâce à ses talents de chef.",
+      "name": "VIVANT",
+      "poster": "https://image.tmdb.org/t/p/w500/5YtrWYAuw8wQwDKHSlVLmohpFw2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yBNDjG4Q963MecEllraSdqs3QjX.jpg",
+      "description": "Vivant suit l’histoire de Nogi Yusuke, un employé de la société Marubishi Corporation chargé d’un projet dans le domaine de l’énergie solaire en Asie Centrale. Il a été envoyé à Balka pour régler un problème de trop-versé lors d’une transaction où 100 millions de Dollars ont étés versés au lieux des dix prévus. Les choses ne se passant pas aussi bien que prévues, il sera contraint de prendre la fuite avec l’aide de Nozaki Mamoru de la Sécurité Publique et de l’infirmière Yuzuki Kaoru.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:256695",
+      "type": "series",
+      "name": "Regular Show : Les cassettes oubliées",
+      "poster": "https://image.tmdb.org/t/p/w500/gZuwOtqQRPvLOhLV21qfaC3tIxS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/43Tu4TnFO57R6eK6XUBFGJrazrZ.jpg",
+      "description": "Mordecai, un geai bleu, et Rigby, un raton laveur, deux amis paresseux, travaillent dans un parc municipal. Mais, quoi qu'ils entreprennent, leurs tâches quotidiennes finissent invariablement par basculer dans un chaos totalement surréaliste, au grand désespoir de leur patron et de leurs collègues...",
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:331033",
+      "id": "tmdb:285418",
       "type": "series",
-      "name": "Collision",
-      "poster": "https://image.tmdb.org/t/p/w500/4loiHfZZx027yP0CtErtCPbkTc1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/oaRWutbj0UiJej6xIYB3p8wwP9V.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:239618",
-      "type": "series",
-      "name": "American Hostage",
-      "poster": "https://image.tmdb.org/t/p/w500/q3oa6rW9ZU9a6IcpJRynzzLDGBH.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/t708JUdkHAoZF83f4RjqcIGrJ99.jpg",
-      "description": "Dans les années 1970, un preneur d'otages exige d'être interviewé dans l'émission d'actualité de Fred Heckman, journaliste radio très apprécié.",
+      "name": "Youth",
+      "poster": "https://image.tmdb.org/t/p/w500/2YD9VOcTn5J8vfESJ7hrhfxPyf5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iEISXRsDv8Q2PA6i9cAQd2DH9bN.jpg",
+      "description": "Alex a une carrière, une famille et une riche expérience de la vie, mais elle doit aussi faire face aux réalités de la cinquantaine, s'occuper de ses parents vieillissants, élever un fils adolescent en difficulté et essayer de déterminer s'il y a encore de la place pour la romance et l'excitation dans sa propre vie.",
       "releaseInfo": "2026"
     },
     {
@@ -153,31 +136,48 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:280880",
+      "id": "tmdb:239618",
       "type": "series",
-      "name": "Furia",
-      "poster": "https://image.tmdb.org/t/p/w500/36fswf4kFqCTgPtx2ZSFCBPpkbH.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ry8SRujfnDF21lpCx1Ap3Lrupuy.jpg",
-      "description": "Cinq femmes border-Line déchaînent leur rage dans une comédie audacieuse et sombre sur la colère, la sororité et la vengeance. Cité par le New-York Times comme « brillant et drôle », Rage est un parcours sauvage et nécessaire que vous n’oublierez pas.\n\nMarga est une artiste snob. Roberto son mari est en couple avec Tina, la femme de ménage, et l'a mise enceinte.  Vera, l'amie de Marga, est une cuisinière médiatique qui doit fermer son commerce à cause de la maladie d'un critique incisif.  Nat est vendeuse dans une boutique de haute couture. Marga et Vera sont ses clientes.  Adela, mère de Tina, est sans emploi et risque d'être mise à la rue avec sa vieille mère par son propriétaire impitoyable.  Victoria, la voisine d'Adela et Nat, est une actrice délaissée du cinéma érotique des années 70.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:337800",
-      "type": "series",
-      "name": "Le massacre de Flores",
-      "poster": "https://image.tmdb.org/t/p/w500/859hxUCwgo4V9a6Fjx0QSe4tb88.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/oc6OMFUQooMKg74qtvOWUjufUsU.jpg",
-      "description": "L'histoire de Matías Bagnato, seul survivant du massacre de Flores, l'une des affaires criminelles les plus choquantes de l'histoire argentine.",
+      "name": "American Hostage",
+      "poster": "https://image.tmdb.org/t/p/w500/q3oa6rW9ZU9a6IcpJRynzzLDGBH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/t708JUdkHAoZF83f4RjqcIGrJ99.jpg",
+      "description": "Dans les années 1970, un preneur d'otages exige d'être interviewé dans l'émission d'actualité de Fred Heckman, journaliste radio très apprécié.",
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:46268",
+      "id": "tmdb:331033",
       "type": "series",
-      "name": "Alcool de contrebande",
-      "poster": "https://image.tmdb.org/t/p/w500/gByx9wYjhQ02RnImgHGsaV8htqN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jH8BWwd1kIfY3N614o9idhW8rOJ.jpg",
-      "description": "\"Alcool de contrebande\" suit le quotidien de bouilleurs d'alcool hors-la-loi qui doivent répondre à une forte demande des clients, tout en évitant l’attention des autorités.",
-      "releaseInfo": "2011"
+      "name": "Collision",
+      "poster": "https://image.tmdb.org/t/p/w500/4loiHfZZx027yP0CtErtCPbkTc1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oaRWutbj0UiJej6xIYB3p8wwP9V.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:288385",
+      "type": "series",
+      "name": "Paolo",
+      "poster": "https://image.tmdb.org/t/p/w500/5arYNSnKiCWxdwdrzjvP5vokPkV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mjje2ajzDEpT3wDgc28RtjIq3WD.jpg",
+      "description": "La vie ordinaire de Paolo bascule lorsqu’il recroise la route de Téophane, un ancien camarade d’école, qui brigue aujourd’hui la mairie de sa ville et qui a semble-t-il tout pour lui. Ce qui commence par une simple admiration et une volonté de soutenir la campagne se transforme en une obsession dévorante…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:108464",
+      "type": "series",
+      "name": "Les signes du mal",
+      "poster": "https://image.tmdb.org/t/p/w500/7y02tmjy6DIzIV2ns2RS9cHH7eT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tdYtHdmEFp0NIrwye8Qf18T3g78.jpg",
+      "description": "Cette série d'archives déchirante d'une demi-heure revisite certains des tueurs les plus brutaux de l'histoire moderne, en passant en revue les séquences d'actualités et les paroles des tueurs eux-mêmes pour voir quels traits terrifiants chaque tueur présentait. Quels sont les signes... du mal ?",
+      "releaseInfo": "2020"
+    },
+    {
+      "id": "tmdb:231801",
+      "type": "series",
+      "name": "GET JIRO",
+      "poster": "https://image.tmdb.org/t/p/w500/li3TH09EF6JyHPVoTvub4nPOfwU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xe6wbOPKuSMOze4rl48NFWy8PNe.jpg",
+      "description": "Sino : Le futur. Los Angeles est sous la coupe de chefs cuisiniers d'élite. Jiro, un maître sushi mêlé à un conflit culinaire sanglant dans l'impitoyable milieu de la restauration cherche à se venger grâce à ses talents de chef.",
+      "releaseInfo": "2026"
     }
   ]
 }

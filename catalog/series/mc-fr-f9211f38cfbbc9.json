@@ -1,13 +1,30 @@
 {
   "metas": [
     {
-      "id": "tmdb:65733",
+      "id": "tmdb:30984",
       "type": "series",
-      "name": "Doraemon",
-      "poster": "https://image.tmdb.org/t/p/w500/9YqdMXlPTQGLIG67vqZdsPdPC4T.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/c2oiRa7V3bQzof4wVGzLXtWJ5QU.jpg",
-      "description": "Les aventures du chat bleu.",
-      "releaseInfo": "2005"
+      "name": "Bleach",
+      "poster": "https://image.tmdb.org/t/p/w500/e0kKmeM8R7Kersh5N2PPzIRNRhr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/o0NsbcIvsllg6CJX0FBFY8wWbsn.jpg",
+      "description": "Adolescent de quinze ans, Ichigo Kurosaki possède un don particulier : celui de voir les esprits. Un jour, il croise la route d'une belle Shinigami (un être spirituel) en train de pourchasser une « âme perdue », un esprit maléfique qui hante notre monde et n'arrive pas à trouver le repos. Mise en difficulté par son ennemi, la jeune fille décide alors de prêter une partie de ses pouvoirs à Ichigo, mais ce dernier hérite finalement de toute la puissance du Shinigami. Contraint d'assumer son nouveau statut, Ichigo va devoir gérer ses deux vies : celle de lycéen ordinaire, et celle de chasseur de démons…",
+      "releaseInfo": "2004"
+    },
+    {
+      "id": "tmdb:57775",
+      "type": "series",
+      "name": "ちびまる子ちゃん",
+      "poster": "https://image.tmdb.org/t/p/w500/auruoMM9a9c4diotHvI5v7dKFbF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vuajwjep1FxphPhMEWKv4bfrCnf.jpg",
+      "releaseInfo": "1990"
+    },
+    {
+      "id": "tmdb:30983",
+      "type": "series",
+      "name": "Détective Conan",
+      "poster": "https://image.tmdb.org/t/p/w500/gW14n6xxONXrya8CIDhRe5Ada7U.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z67lpMtm8YGykJO4p89meuNMvj8.jpg",
+      "description": "Shinichi Kudo est un jeune lycéen de renom au Japon. Grâce à sa perspicacité et son intelligence, il est souvent amené à résoudre des affaires criminelles pour la police. Un jour, dans un parc d’attraction, il est témoin d’une étrange affaire qu'il voudra élucider : malgré son expérience et sa vigilance habituelle, Shinichi est enlevé par les membres d’une mystérieuse organisation, \"les hommes en noir\". Ces derniers lui font alors avaler une étrange pilule. Shinichi s'évanoui pour se réveiller dans le corps d'un enfant de 7 ans...",
+      "releaseInfo": "1996"
     },
     {
       "id": "tmdb:312359",
@@ -19,15 +36,6 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:30984",
-      "type": "series",
-      "name": "Bleach",
-      "poster": "https://image.tmdb.org/t/p/w500/e0kKmeM8R7Kersh5N2PPzIRNRhr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/o0NsbcIvsllg6CJX0FBFY8wWbsn.jpg",
-      "description": "Adolescent de quinze ans, Ichigo Kurosaki possède un don particulier : celui de voir les esprits. Un jour, il croise la route d'une belle Shinigami (un être spirituel) en train de pourchasser une « âme perdue », un esprit maléfique qui hante notre monde et n'arrive pas à trouver le repos. Mise en difficulté par son ennemi, la jeune fille décide alors de prêter une partie de ses pouvoirs à Ichigo, mais ce dernier hérite finalement de toute la puissance du Shinigami. Contraint d'assumer son nouveau statut, Ichigo va devoir gérer ses deux vies : celle de lycéen ordinaire, et celle de chasseur de démons…",
-      "releaseInfo": "2004"
-    },
-    {
       "id": "tmdb:45790",
       "type": "series",
       "name": "JoJo's Bizarre Adventure",
@@ -37,20 +45,21 @@
       "releaseInfo": "2012"
     },
     {
-      "id": "tmdb:57775",
-      "type": "series",
-      "name": "ちびまる子ちゃん",
-      "poster": "https://image.tmdb.org/t/p/w500/auruoMM9a9c4diotHvI5v7dKFbF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vuajwjep1FxphPhMEWKv4bfrCnf.jpg",
-      "releaseInfo": "1990"
-    },
-    {
       "id": "tmdb:220542",
       "type": "series",
       "name": "Les Carnets de l'apothicaire",
       "poster": "https://image.tmdb.org/t/p/w500/47pSay5Ao7SFeyQBZVkW5ifyhAZ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/gffVOVZ2Y9cmVIZ26Gt9ByMGCYH.jpg",
       "description": "Formée dès son plus jeune âge par son père apothicaire, Mao Mao est un jour vendue comme servante au palais de l'empereur. Prisonnière dans les arcanes du pouvoir, elle attire l’attention de Jinshi, un séduisant haut fonctionnaire qui la promeut lorsqu’il découvre son talent pour confectionner des potions. Désormais goûteuse, Mao Mao met ses connaissances au service des gens du palais pour les soigner, mais aussi pour déjouer les mystères et les complots qui se trament…",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:220150",
+      "type": "series",
+      "name": "Pokémon : Les horizons",
+      "poster": "https://image.tmdb.org/t/p/w500/wuegnXaSNR8VSoATc5bXQjyoUIj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/d0axpGojOqDag5lDa0eNSEtw11l.jpg",
+      "description": "Suivez Liko et Rhod dans leur découverte des mystères qui les entourent, et rencontrez Friede, Capitaine Pikachu, Amethio ainsi que d’autres personnages lors de leurs aventures passionnantes !",
       "releaseInfo": "2023"
     },
     {
@@ -63,15 +72,6 @@
       "releaseInfo": "2013"
     },
     {
-      "id": "tmdb:220150",
-      "type": "series",
-      "name": "Pokémon : Les horizons",
-      "poster": "https://image.tmdb.org/t/p/w500/wuegnXaSNR8VSoATc5bXQjyoUIj.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/d0axpGojOqDag5lDa0eNSEtw11l.jpg",
-      "description": "Suivez Liko et Rhod dans leur découverte des mystères qui les entourent, et rencontrez Friede, Capitaine Pikachu, Amethio ainsi que d’autres personnages lors de leurs aventures passionnantes !",
-      "releaseInfo": "2023"
-    },
-    {
       "id": "tmdb:105009",
       "type": "series",
       "name": "Tokyo Revengers",
@@ -79,50 +79,6 @@
       "background": "https://image.tmdb.org/t/p/w780/zYIFOocMfsKAEysBjhZ8akfXFdB.jpg",
       "description": "Takemichi Hanagaki n'a pas vraiment réussi sa vie. Il fait des petits boulots sans intérêt et lorsqu'il apprend que la seule petite amie qu'il ait jamais eu au collège, Hinata Tachibana, a été tuée par l'impitoyable gang Tokyo Manji-kai, il est anéanti. Le lendemain, toujours sous le choc, il est poussé sur les rails de la gare lors d'un mouvement de foule. Mais Takemichi ne meurt pas et quand il se réveille, il est revenu douze ans en arrière. Il va ainsi retrouver ses meilleures années, mais aussi tenter de sauver celle qui l'aime et prendre sa revanche sur la vie…",
       "releaseInfo": "2021"
-    },
-    {
-      "id": "tmdb:324301",
-      "type": "series",
-      "name": "クレヨンしんちゃん",
-      "poster": "https://image.tmdb.org/t/p/w500/qTW3lU85NG83hXWtAdC3qwOgeDO.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ecYulqPoYRFyttKyxaTpSEqDUbo.jpg",
-      "releaseInfo": "1992"
-    },
-    {
-      "id": "tmdb:207347",
-      "type": "series",
-      "name": "Blue Box",
-      "poster": "https://image.tmdb.org/t/p/w500/shXf4cTKUbMpx5AVBKi4V0dMwY3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8p39Ud6ZKMixBQ7R4frg2o3idzc.jpg",
-      "description": "Le joueur de badminton Taiki a toujours admiré de loin la star du basket Chinatsu. Jusqu'à un beau jour de printemps, où la vie les rapproche de façon inattendue.",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:216467",
-      "type": "series",
-      "name": "Mission: Yozakura Family",
-      "poster": "https://image.tmdb.org/t/p/w500/glBNKxn7UfZ2bwXfvwGgsbs9yIT.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xlMVEbNl7ZBGFyhX2WEhQ8Kifm4.jpg",
-      "description": "Taiyô Asano est un lycéen à la timidité maladive. La seule personne avec qui il arrive à parler normalement est son amie d'enfance Mutsumi Yozakura. Mais cette dernière est la fille d'une famille d'espions qui oeuvre depuis plusieurs générations, et son grand frère, qui lui voue une affection excessive, a décidé d'éliminer Taiyô !",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:126437",
-      "type": "series",
-      "name": "Ao Ashi",
-      "poster": "https://image.tmdb.org/t/p/w500/zoQf7ZycPDtrxRWTLMlw7DMqgPI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/87IQdOn34p1z2KTdM4IZ1N8bWaH.jpg",
-      "description": "Ashito Aoi vit dans la préfecture d’Ehime, dans le sud du Japon. Il est le meilleur joueur d'un club de football ordinaire. Le jour où ils perdent le tournoi intercollèges, Ashito croise la route d’un homme qui l’a observé. C’est Tatsuya Fukuda, l'entraîneur des jeunes de la J-League du Tokyo City Esperion FC. À la recherche de talents pour constituer la meilleure équipe du monde, il propose à Ashito de le rejoindre à Tokyo.",
-      "releaseInfo": "2022"
-    },
-    {
-      "id": "tmdb:259140",
-      "type": "series",
-      "name": "Ranma1/2",
-      "poster": "https://image.tmdb.org/t/p/w500/paz1BKuMqwOW7FGMe5xqcTEstgx.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xvD9urN8lUtWw5fm4a87Rl3dCZn.jpg",
-      "description": "Akane Tendo fait la connaissance de son nouveau fiancé, Ranma Saotomé, prodige des arts martiaux qui possède une particularité : il se transforme en fille au contact de l'eau froide.",
-      "releaseInfo": "2024"
     },
     {
       "id": "tmdb:73223",
@@ -134,6 +90,15 @@
       "releaseInfo": "2017"
     },
     {
+      "id": "tmdb:126437",
+      "type": "series",
+      "name": "Ao Ashi",
+      "poster": "https://image.tmdb.org/t/p/w500/zoQf7ZycPDtrxRWTLMlw7DMqgPI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/87IQdOn34p1z2KTdM4IZ1N8bWaH.jpg",
+      "description": "Ashito Aoi vit dans la préfecture d’Ehime, dans le sud du Japon. Il est le meilleur joueur d'un club de football ordinaire. Le jour où ils perdent le tournoi intercollèges, Ashito croise la route d’un homme qui l’a observé. C’est Tatsuya Fukuda, l'entraîneur des jeunes de la J-League du Tokyo City Esperion FC. À la recherche de talents pour constituer la meilleure équipe du monde, il propose à Ashito de le rejoindre à Tokyo.",
+      "releaseInfo": "2022"
+    },
+    {
       "id": "tmdb:226688",
       "type": "series",
       "name": "BEYBLADE X",
@@ -143,13 +108,31 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:196944",
+      "id": "tmdb:216467",
       "type": "series",
-      "name": "My Happy Marriage",
-      "poster": "https://image.tmdb.org/t/p/w500/8744EyrDwSPuv7POqtAyOgjDCyu.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7uyRCBMQIWwJSWIR2aCrvPjbPzi.jpg",
-      "description": "Pour sa famille, Miyo est une bonne à rien. Mais entourée de son puissant futur mari, sa véritable personnalité et ses pouvoirs enfouis se manifestent peu à peu.",
-      "releaseInfo": "2023"
+      "name": "Mission: Yozakura Family",
+      "poster": "https://image.tmdb.org/t/p/w500/glBNKxn7UfZ2bwXfvwGgsbs9yIT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xlMVEbNl7ZBGFyhX2WEhQ8Kifm4.jpg",
+      "description": "Taiyô Asano est un lycéen à la timidité maladive. La seule personne avec qui il arrive à parler normalement est son amie d'enfance Mutsumi Yozakura. Mais cette dernière est la fille d'une famille d'espions qui oeuvre depuis plusieurs générations, et son grand frère, qui lui voue une affection excessive, a décidé d'éliminer Taiyô !",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:259140",
+      "type": "series",
+      "name": "Ranma1/2",
+      "poster": "https://image.tmdb.org/t/p/w500/paz1BKuMqwOW7FGMe5xqcTEstgx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xvD9urN8lUtWw5fm4a87Rl3dCZn.jpg",
+      "description": "Akane Tendo fait la connaissance de son nouveau fiancé, Ranma Saotomé, prodige des arts martiaux qui possède une particularité : il se transforme en fille au contact de l'eau froide.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:283428",
+      "type": "series",
+      "name": "The Ramparts of Ice",
+      "poster": "https://image.tmdb.org/t/p/w500/spPKOGhjNrOZuCUoTOzg0Q05Mum.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ht6WUmez8cFbwlrFmGdjbYyn3RG.jpg",
+      "description": "Hantée par des souvenirs envahissants, Koyuki Hikawa préfère rester dans sa bulle jusqu'au jour où trois camarades de lycée décident de l'aider à s'ouvrir aux autres.",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:237150",
@@ -161,6 +144,15 @@
       "releaseInfo": "2024"
     },
     {
+      "id": "tmdb:134667",
+      "type": "series",
+      "name": "Moi quand je me réincarne en épée",
+      "poster": "https://image.tmdb.org/t/p/w500/Avn1pnxeDznpJStZFq4jOxPM4Ek.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fo5qwDAVqY7j2jmL350WKjk6kmi.jpg",
+      "description": "Bien qu’elle soit une jeune fille-chat fougueuse, Fran, orpheline, mène une vie de labeur depuis qu’elle a été réduite en esclavage. Pensant que ses derniers jours sont arrivés à la suite d’une attaque d’un monstre, son chemin croise alors celui d’une mystérieuse épée qui lui permet d’abattre son adversaire. Il s’avère que celle-ci était auparavant un jeune homme qui, à la suite d’un tragique accident de voiture, s’est réincarné dans un nouveau monde. Liés désormais par un pacte, nos deux héros sont fin prêts à se frayer un chemin vers la liberté et à vivre une vie d’aventure !",
+      "releaseInfo": "2022"
+    },
+    {
       "id": "tmdb:253811",
       "type": "series",
       "name": "TOUGEN ANKI",
@@ -170,13 +162,22 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:283428",
+      "id": "tmdb:320909",
       "type": "series",
-      "name": "The Ramparts of Ice",
-      "poster": "https://image.tmdb.org/t/p/w500/spPKOGhjNrOZuCUoTOzg0Q05Mum.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ht6WUmez8cFbwlrFmGdjbYyn3RG.jpg",
-      "description": "Hantée par des souvenirs envahissants, Koyuki Hikawa préfère rester dans sa bulle jusqu'au jour où trois camarades de lycée décident de l'aider à s'ouvrir aux autres.",
+      "name": "Les Noces des Lucioles",
+      "poster": "https://image.tmdb.org/t/p/w500/1RXEvHmis1oKTAWtKOrzJqenpb6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3zmB6PLnjf7rNNC2lnvinQtlJMx.jpg",
+      "description": "Durant l'ère Meiji, Satoko Kirigaya n’a qu’un seul souhait : se marier pour l'honneur de sa famille et ce, même si ses jours sont comptés. Mais alors qu'un assassin tente de la tuer, elle lui offre de l’épouser ! Une proposition que Shinpei Goto accepte, mais qui pourrait bien se retourner contre elle…",
       "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:117061",
+      "type": "series",
+      "name": "The Detective is Already Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/5NXO5acrIa2hkDxIqFyKcVW6vca.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aqETSDXdeYqcD1PPd2WBfeWtoct.jpg",
+      "description": "\"Deviens mon assistant\". À 10 000 mètres d'altitude, Kimizuka Kimihiko, un collégien, qui a le don de toujours se retrouver au mauvais endroit, rencontre Siesta, une jolie jeune fille aux allures d'ange se disant détective. C'est ainsi que commence une aventure de trois ans où notre duo déjoue des complots à travers le monde entier. Et ce jusqu'à ce que la mort les sépare. Un an plus tard, Kimihiko, maintenant en terminale, ne cherche plus qu'à vivre un quotidien paisible. Mais un jour, un client l'interpelle : \"C'est toi, le détective\" ?",
+      "releaseInfo": "2021"
     }
   ]
 }

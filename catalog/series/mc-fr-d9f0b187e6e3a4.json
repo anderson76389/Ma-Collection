@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:292741",
+      "type": "series",
+      "name": "Nocturne",
+      "poster": "https://image.tmdb.org/t/p/w500/gwoPlr2g3moHYZH05DyRZVgUf6m.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/614k6C9doThoMe6GyH0nTnGgLXt.jpg",
+      "description": "Lorsqu’une victime du célèbre tueur en série Jurek Walter refait surface en vie, l’enquêteur Jonah Lynn entame une course contre la montre pour retrouver sa dernière proie encore portée disparue. Sa protégée Saga Bauer travaille sous couverture pour faire parler le tueur.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:213562",
       "type": "series",
       "name": "Crystal Lake",
@@ -14,7 +23,7 @@
       "type": "series",
       "name": "VisionQuest",
       "poster": "https://image.tmdb.org/t/p/w500/bWPktguPGslrdM79SNQt4OWYyJS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uoXXbN2PrOxH6UKyP7kYwmGpAAP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/58v1KFe3rxvHrYM1hLH5ScpwqNR.jpg",
       "description": "Une nouvelle version de Vision ayant échappé à ceux qui cherchaient à faire de lui une arme, vit dans la clandestinité. En quête d’un nouveau sens à sa vie, il consulte les IA intégrées à son programme, notamment Friday, Edith, Jarvis et le tristement célèbre Ultron. Son existence discrète prend fin lorsque sa tête est mise à prix, le contraignant à prendre la fuite avec Thomas Shepherd, un garçon mystérieux qui pourrait bien être la réincarnation du fils de Vision. Tout en échappant à ses poursuivants, Vision doit se confronter à sa propre nature, résister à l’influence d’Ultron et percer le mystère qui entoure son jeune compagnon s’il veut survivre.",
       "releaseInfo": "2026"
     },
@@ -96,7 +105,7 @@
       "name": "Portée disparue",
       "poster": "https://image.tmdb.org/t/p/w500/zXMkaqWinyCbkMSNwhi7htRV0e9.jpg",
       "background": "https://image.tmdb.org/t/p/w780/kgaQnDdDaPqvGN7i8LLz1aWJdjP.jpg",
-      "description": "Lorsque Ian Ridley, opérateur des services d'urgence, reçoit un appel affolé d’une adolescente qu’il pense être sa fille disparue, il ne recule devant rien pour la retrouver.",
+      "description": "La vie de l'inspecteur de police Ian Ridley s'est effondrée 11 ans auparavant lorsque sa jeune fille, Maggie, a disparu sans aucune trace. Désormais affecté au service d'appels d'urgences, il ne tient que grâce à son refus inébranlable d'accepter qu'elle est perdue à jamais. Un jour qu'il reçoit un appel de détresse d'une adolescente, il est convaincu qu'il s'agit de Maggie, et met dès lors tout en oeuvre pour la retrouver et réunir sa famille, quoi qu'il en coûte.",
       "releaseInfo": "2026"
     },
     {
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/mZD2tsOsW8FTqgS40hOqWic4KkU.jpg",
       "background": "https://image.tmdb.org/t/p/w780/mKrhRPB7rMvy0bIU1l1NYhgh1eI.jpg",
       "description": "Quand un coup de plusieurs millions tourne mal, Lucky, escroc virtuose, prend la fuite pour échapper au FBI et à un trafiquant sans pitié. Elle doit lutter pour sa survie, et pour quitter le métier.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:286709",
-      "type": "series",
-      "name": "The Westies",
-      "poster": "https://image.tmdb.org/t/p/w500/6nNxw6SsbEtSpktVEGdoYDqPH7C.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tT2MwxaST3Fx1Dg4u9v82sDrIu.jpg",
-      "description": "Au début des années 1980, la construction du centre d'exposition Jacob Javitz, sur le territoire des Westies, un gang irlandais particulièrement redouté de Hell’s Kitchen, laisse entrevoir une manne financière. Bien qu’en nette infériorité numérique face aux cinq puissantes familles de la mafia italienne, leur brutalité et leur ruse leur ont permis de se tailler une part du butin, dans un équilibre aussi fragile que temporaire. Mais les tensions internes, entre une jeune génération plus audacieuse et des dirigeants attachés aux vieilles méthodes, menacent d’enflammer la poudrière et de plonger les Westies au cœur d’une enquête du FBI qui ne cesse de gagner en intensité.",
       "releaseInfo": "2026"
     }
   ]

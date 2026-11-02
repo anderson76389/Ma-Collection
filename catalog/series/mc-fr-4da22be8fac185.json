@@ -17,14 +17,6 @@
       "releaseInfo": "1971"
     },
     {
-      "id": "tmdb:4384",
-      "type": "series",
-      "name": "Frontline",
-      "poster": "https://image.tmdb.org/t/p/w500/9RLrBcrOK9Vm3VN9V9aqztiIIdJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4Nbq8ARdNjZsurfuPjnCBRRXKnA.jpg",
-      "releaseInfo": "1983"
-    },
-    {
       "id": "tmdb:14951",
       "type": "series",
       "name": "Nature",
@@ -41,6 +33,14 @@
       "background": "https://image.tmdb.org/t/p/w780/zBTKswHgCoQ58SUreY1qh94fhFE.jpg",
       "description": "Émission originale de rénovation domiciliaire de la télévision, après une rénovation complète de la maison sur plusieurs épisodes.",
       "releaseInfo": "1979"
+    },
+    {
+      "id": "tmdb:14976",
+      "type": "series",
+      "name": "Independent Lens",
+      "poster": "https://image.tmdb.org/t/p/w500/3yIu0tVO1ybCUU1ySwbW8DVyxLL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qbqXeZ8M7ZjZn0OMdlfopOLTBhV.jpg",
+      "releaseInfo": "1999"
     },
     {
       "id": "tmdb:10472",
@@ -76,14 +76,6 @@
       "releaseInfo": "2001"
     },
     {
-      "id": "tmdb:23545",
-      "type": "series",
-      "name": "Ask This Old House",
-      "poster": "https://image.tmdb.org/t/p/w500/tvvHwtz3ryijKwvfJ48zulr88lb.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/sT8edKbevYX2MTLEWkVjUbTmjG2.jpg",
-      "releaseInfo": "2002"
-    },
-    {
       "id": "tmdb:33739",
       "type": "series",
       "name": "Antiques Roadshow",
@@ -92,20 +84,12 @@
       "releaseInfo": "1997"
     },
     {
-      "id": "tmdb:15030",
+      "id": "tmdb:23545",
       "type": "series",
-      "name": "Secrets of the Dead",
-      "poster": "https://image.tmdb.org/t/p/w500/9S7ht0dMhf5PulQWdWf7MXja3u6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/di8tQu356tHQ4JKEzMSkjIyX5Kh.jpg",
-      "releaseInfo": "2000"
-    },
-    {
-      "id": "tmdb:18940",
-      "type": "series",
-      "name": "Cook's Country",
-      "poster": "https://image.tmdb.org/t/p/w500/vSe1ojqtDBiEvnUiU1c5GFxVuia.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mBV27trF7gkA9RBFwVwnFAepCN6.jpg",
-      "releaseInfo": "2008"
+      "name": "Ask This Old House",
+      "poster": "https://image.tmdb.org/t/p/w500/tvvHwtz3ryijKwvfJ48zulr88lb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sT8edKbevYX2MTLEWkVjUbTmjG2.jpg",
+      "releaseInfo": "2002"
     },
     {
       "id": "tmdb:5467",
@@ -116,12 +100,26 @@
       "releaseInfo": "1981"
     },
     {
+      "id": "tmdb:18940",
+      "type": "series",
+      "name": "Cook's Country",
+      "poster": "https://image.tmdb.org/t/p/w500/vSe1ojqtDBiEvnUiU1c5GFxVuia.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mBV27trF7gkA9RBFwVwnFAepCN6.jpg",
+      "releaseInfo": "2008"
+    },
+    {
       "id": "tmdb:93645",
       "type": "series",
       "name": "Christopher Kimball's Milk Street Television",
       "poster": "https://image.tmdb.org/t/p/w500/qfMSLBEk1YGWXLbI3kky8DoJCLB.jpg",
       "background": "https://image.tmdb.org/t/p/w780/um9TdBKpzZ2Ficcev22ZUuRKfrq.jpg",
       "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:68317",
+      "type": "series",
+      "name": "Texas Parks and Wildlife",
+      "poster": "https://image.tmdb.org/t/p/w500/yQpRwhKoE5KGovG2Ngclo5J1YRz.jpg"
     },
     {
       "id": "tmdb:271051",
@@ -148,20 +146,19 @@
       "releaseInfo": "2008"
     },
     {
-      "id": "tmdb:335418",
+      "id": "tmdb:328361",
       "type": "series",
-      "name": "Super Why's Comic Book Adventures",
-      "poster": "https://image.tmdb.org/t/p/w500/vWeu4okDtG43iVg2s1QwwVbzxT9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3v4SLQTP1saskjnffAToVocqVhE.jpg",
+      "name": "NOVA: Evolution",
+      "poster": "https://image.tmdb.org/t/p/w500/gOL6OZA40CwnektLt4QQCTk9Xi3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dY6UOagjgFSfWSuci3B7F4fO4BZ.jpg",
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:126993",
+      "id": "tmdb:288842",
       "type": "series",
-      "name": "The Daytripper",
-      "poster": "https://image.tmdb.org/t/p/w500/xazStdQ3B14P2A9cIgQeuLk0yUD.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fLoIhDN9knU3x4tTkaRfX16A2a9.jpg",
-      "releaseInfo": "2009"
+      "name": "Pati Jinich Explores Panamericana",
+      "poster": "https://image.tmdb.org/t/p/w500/qTgpbO3fS3yc0dQoj9pX1bIpTjU.jpg",
+      "releaseInfo": "2025"
     }
   ]
 }

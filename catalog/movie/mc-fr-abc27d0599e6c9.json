@@ -1,11 +1,27 @@
 {
   "metas": [
     {
+      "id": "tmdb:1483525",
+      "type": "movie",
+      "name": "가능한 사랑",
+      "poster": "https://image.tmdb.org/t/p/w500/tnwFaR8oaRMW85iKmYxRtbuKx09.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vJkTGJn9BM4dSStR8XBApTF8e5J.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1235769",
+      "type": "movie",
+      "name": "경주기행",
+      "poster": "https://image.tmdb.org/t/p/w500/2dAd2APyFUyJ6qEv9VFHdHQtQI6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A58FVNOQ9qXxt0vdKGQ9kCo17El.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1058424",
       "type": "movie",
       "name": "Hope",
       "poster": "https://image.tmdb.org/t/p/w500/tGdFDoA9qyt0t6Qr9MFnOl8Z2Jz.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qqHFLg90IUSoTmSMpKOOW5RyqN3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/j96rurZqmBjyY37Fncl3IB0qJNe.jpg",
       "description": "Le chef de la police de Hope Harbor, un petit village situé près de la zone coréenne démilitarisée, enquêtee sur le cas d'une vache morte portant des blessures béantes. Des chasseurs affirment qu'un tigre errant serait responsable de l'attaque, mais ils découvrent plus tard d'autres bovins morts ainsi que le corps du propriétaire de la ferme voisine...",
       "releaseInfo": "2026"
     },
@@ -154,23 +170,6 @@
       "name": "퍼스트 라이드",
       "poster": "https://image.tmdb.org/t/p/w500/3KyiJ6yvw4thfSoBxntSb3ZNrg1.jpg",
       "background": "https://image.tmdb.org/t/p/w780/vi9uWG7rHEXw8eDXl3lOgy5lUNC.jpg",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1317512",
-      "type": "movie",
-      "name": "The World of Love",
-      "poster": "https://image.tmdb.org/t/p/w500/tLGaVKh2rBfkBmhW6qXep4njrlO.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rYYUi8m3YdPxDRbjs3xU5ct3Rzi.jpg",
-      "description": "Joo-in est une lycéenne espiègle et appréciée de tous. Un jour, un camarade de classe lance une pétition que tous les élèves signent, sauf elle. Son monde, en apparence paisible et insouciant, dissimule un passé douloureux auquel Joo-in est alors contrainte de faire face. Mais loin de se laisser enfermer, elle choisit d’avancer et de se réinventer.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1053231",
-      "type": "movie",
-      "name": "보스",
-      "poster": "https://image.tmdb.org/t/p/w500/tOMd1oZxW0FR0jATgSMavI4igcS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8fDJqXuCDLTwRbPlPERSMqzQ8Fq.jpg",
       "releaseInfo": "2025"
     }
   ]

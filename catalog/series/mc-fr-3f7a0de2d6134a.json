@@ -9,6 +9,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:339754",
+      "type": "series",
+      "name": "LOL: Last One Laughing Halloween UK",
+      "poster": "https://image.tmdb.org/t/p/w500/87WpCARyaNZrKMMgtQcmT6fHD6j.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/f8k1zx7mmh7sB31yeqhzczNOocw.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:335319",
       "type": "series",
       "name": "The Prison Experiment : La nouvelle expérience de Stanford",
@@ -38,6 +46,7 @@
       "type": "series",
       "name": "Secret Life of a Vegas Casino",
       "poster": "https://image.tmdb.org/t/p/w500/xyfxV0s0mBRs1NsgYJ3cBlmyLSo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/h6g4QtrLIh7EcPdFObAdvYIYL3C.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -153,15 +162,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/kq6XB6xmD86txW4UR32tT2JUiN9.jpg",
       "background": "https://image.tmdb.org/t/p/w780/40Dx3P1mllQq1jhgN3K8dlti6CS.jpg",
       "description": "Et c'est reparti pour The Grand Tour ! La plus grande émission automobile au monde reprend la route avec de nouveaux présentateurs, Thomas Holland, James Engelsman et Francis Bourgeois, tout en conservant sa formule en dehors des clous mêlant aventures à travers le monde, véhicules incroyables, cascades épiques et opinions tranchées.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:330438",
-      "type": "series",
-      "name": "The Girls avec Khloé Kardashian",
-      "poster": "https://image.tmdb.org/t/p/w500/8P12ytuz41DKCBSpjX3Ntev177Z.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3wbETP2ujDBQ1GdajfVwTDJTKoe.jpg",
-      "description": "Découvrez le cercle intime de Khloé Kardashian et suivez ses meilleures amies qui jonglent entre maternité, carrière, amours et développement personnel.",
       "releaseInfo": "2026"
     }
   ]

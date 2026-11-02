@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:314360",
+      "type": "series",
+      "name": "YAGA",
+      "poster": "https://image.tmdb.org/t/p/w500/wSbmXrDTm7g3USFAT6oKL8MGDfJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/owhTL4n2r9ryfxyYlhHKt97ogVk.jpg",
+      "description": "Alors qu’un détective privé enquête sur la disparition du jeune héritier d’une puissante entreprise de pêche, il se retrouve en désaccord avec un détective local méfiant, un charismatique professeur d’université qui aime les hommes plus jeunes, et un labyrinthe de suspects énigmatiques, de vies secrètes et de magie ancienne.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:295532",
       "type": "series",
       "name": "Dear England",

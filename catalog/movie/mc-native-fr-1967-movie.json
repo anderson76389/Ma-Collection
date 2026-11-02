@@ -24,6 +24,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1676129",
+      "type": "movie",
+      "name": "Au sein des autres",
+      "poster": "https://image.tmdb.org/t/p/w500/vMUg5C5hPAlvJip0XZGiaa3FOso.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/t8uallFaiC92HcL4mvcx8RJwCP6.jpg",
+      "description": "Nour est avocate, quadra battante, une vie bien construite. Fabrice est désinvolte, la trentaine, taiseux, une vie sans prise. Ils ne se seraient jamais rencontrés, jusqu'au jour où tous les deux apprennent qu'ils ont un cancer du sein. Dans la salle de chimiothérapie d'un hôpital de Lille, quelque chose d'inattendu va naître entre eux. Une histoire d'amitié, née là où ils pensaient tout perdre.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1782745",
       "type": "movie",
       "name": "Restless",
@@ -92,6 +101,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1516724",
+      "type": "movie",
+      "name": "Pour le plaisir",
+      "poster": "https://image.tmdb.org/t/p/w500/2cWdr2n7VNrLEAer6hMPASIP7Px.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eJKKygAF718jp1HhGvH3SMoi5Cv.jpg",
+      "description": "Et si on vous racontait l’invention du siècle ? Un couple, une vérité qui explose. Fanny et Tom sont mariés et heureux depuis 20 ans. Mais un jour un secret éclate : Fanny n’a jamais eu d’orgasme. Tom, ingénieur, décide alors de relever un défi audacieux : créer l’objet qui révolutionnera le plaisir féminin. Ensemble, ils se lancent dans cette quête aussi déjantée qu’émouvante qui va transformer leur couple. Jusqu’où iront-ils ? Loin, très loin.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1656061",
       "type": "movie",
       "name": "Immortal Combat",
@@ -107,6 +125,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/7VRWYqA7UcmrBE67KizvTqDyNL2.jpg",
       "background": "https://image.tmdb.org/t/p/w780/AsnZYgCKfB4OXvzoJrw4Ld7mp89.jpg",
       "description": "L’ouverture d'un nouveau buffet à volonté dans la petite ville de Westridge coïncide avec l'apparition d'un immense gouffre au cœur du comté. Tandis que les habitants disparaissent un à un, une série de publicités locales devient notre seule fenêtre sur l’émergence d'une force sinistre et incontrôlable.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1393326",
+      "type": "movie",
+      "name": "Ghost in the Cell",
+      "poster": "https://image.tmdb.org/t/p/w500/gF6Ijrq5bixh4qemCuroRwXtbBc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tK3QdOOrX4qEkmSlvrmc8cK7iOU.jpg",
+      "description": "Dans une prison de haute sécurité, l'arrivée d'un nouveau détenu entraîne une série de meurtres barbares. Enfermés dans leurs cellules, les prisonniers doivent s'unir pour démasquer un fantôme surnaturel s'ils ne veulent pas être les victimes de la prochaine mise en scene macabre.",
       "releaseInfo": "2026"
     },
     {
@@ -135,37 +162,12 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1255779",
+      "id": "tmdb:1341595",
       "type": "movie",
-      "name": "Une Fille en or",
-      "poster": "https://image.tmdb.org/t/p/w500/4uMXPmz4pSZ2lHkorxspEcdddqM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hPAgArD5mjp2LgZEJ9wUbrPU67W.jpg",
-      "description": "Un jour, Clémence prend conscience que personne ne l’a jamais admirée. Bercée par les illusions d’une enfance chaotique, elle croise un certain Paul, petit patron autoritaire que rien ni personne n’impressionne. Elle se dit alors qu’il est temps pour elle de se poser la seule question qui vaille : « Et si je valais plus que je ne le crois ? ».",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1456741",
-      "type": "movie",
-      "name": "Irréalisable",
-      "poster": "https://image.tmdb.org/t/p/w500/meusijKPvAFdY2N0RAFCMEy2MrP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7F0ECySjkyzqg5cSj0cVwl10rV9.jpg",
-      "description": "Six personnes qui ne se connaissent pas se retrouvent à passer une semaine de vacances dans le magnifique gîte des Mimosas. Là-bas il fait fait bon vivre, Greg et sa femme Monica, les deux hôtes, sont absolument charmants et prennent soin de leurs pensionnaires. Mais tout ne va pas se passer comme prévu, l'un des protagonistes a un sombre projet qui implique à leur insu tous les résidents. Le séjour idyllique va tourner au cauchemar.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1000990",
-      "type": "movie",
-      "name": "La Femme de",
-      "poster": "https://image.tmdb.org/t/p/w500/2jWVQPOHvMfnOokoougM4blUlYk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/iR3kcb9uXP9HmBa4CidYx2BUFru.jpg",
-      "description": "Voilà Marianne aujourd’hui : femme d’un riche industriel, épouse modèle et mère de famille dévouée. Elle va avoir 40 ans, et le confort de la vaste demeure familiale a lentement refermé sur elle son piège impitoyable. Prisonnière d’un inextricable réseau d’obligations sociales, familiales et conjugales, elle a renoncé à elle-même. Alors, quand resurgit l’ombre de son passé, une brèche s’ouvre.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1666523",
-      "type": "movie",
-      "name": "Un monde meilleur",
-      "description": "Un bébé sur le point de naître se met soudainement à parler depuis le ventre de sa mère. Il refuse de venir au monde en raison de l’état dans lequel se trouve celui-ci. Une discussion s’engage alors entre lui, ses parents et un médecin obstétricien pour tenter de le persuader de venir à la vie.",
+      "name": "Par-Dessus Bord",
+      "poster": "https://image.tmdb.org/t/p/w500/muSkhi7bCL02vcCOpAa4d5OFspt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/prEcOEqvkJlCwCYx050lMWWKcC.jpg",
+      "description": "Deniz, jeune marseillaise éloignée de ses racines turques, découvre l’existence d’Alev, une grand-tante effacée de la mémoire familiale, grâce à des cassettes qu'on lui envoie de façon anonyme.  En 1970, deux détectives enquêtent sur la disparition de cette jeune fille de la bourgeoisie stambouliote.",
       "releaseInfo": "2026"
     }
   ]

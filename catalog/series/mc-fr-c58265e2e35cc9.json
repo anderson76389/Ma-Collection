@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:340555",
+      "type": "series",
+      "name": "Les Duos impossibles de Jérémy Ferrari : 11e édition",
+      "poster": "https://image.tmdb.org/t/p/w500/8wd0khSXUTcUiCz0JIdV3BlnIJR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pHOfBTtn2sSJ1Dv4Ix2w2WZrd36.jpg",
+      "description": "Depuis La Seine Musicale, à Paris. Parce qu'il sait que, face à un mode de plus en plus difficile à comprendre, il vaut souvent mieux en rire, l'humoriste Jérémy Ferrari voit les choses en grand pour la onzième édition de ses \"Duos impossibles\". Cette édition en effet ne promet pas une, mais bien deux soirées exceptionnelles, en compagnie des plus grandes stars de l'humour du moment.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:336882",
       "type": "series",
       "name": "Fifi et sa bande - C'était pas gagné",
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/sAnvBxjpdZKamepHBUczLzUbSKl.jpg",
       "background": "https://image.tmdb.org/t/p/w780/klm4qTdpONKrFdjM0I2YmhxHRdr.jpg",
       "description": "Le parcours d'Alain Prost, quadruple champion du monde de Formule 1 et lauréat de 51 courses, assurément le plus grand et le meilleur pilote automobile français de l'histoire de la F1.",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:271593",
-      "type": "series",
-      "name": "Iris",
-      "poster": "https://image.tmdb.org/t/p/w500/6zMrwg3bettzQOhcPgYBCEPaeww.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/t7dT8DEddGBRxlBtDLScDslpWE5.jpg",
-      "description": "C’est dur d’être Iris. Comme tout le monde, Iris a une tête. Seulement sa tête... n’est pas exactement comme celle de tout le monde. Et sa bouche non plus, qui dit des choses que les autres bouches ne disent pas. Son petit-ami, sa cousine, un caviste, un gardien de musée... La liste de ceux qu’elle pousse à bout s’allonge chaque jour. Mais finalement, la première à en pâtir, c’est Iris. Et l’amour ? Quand on ne fait rien comme les autres, on le trouve loin des clichés...",
       "releaseInfo": "2024"
     }
   ]

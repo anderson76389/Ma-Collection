@@ -1,132 +1,109 @@
 {
   "metas": [
     {
-      "id": "tmdb:529994",
+      "id": "tmdb:511695",
       "type": "movie",
-      "name": "Wilde Slowakei",
-      "poster": "https://image.tmdb.org/t/p/w500/dePFto74pZX4om0klSLR90iqf5l.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7puyY3LTkvqhmlfpVlh6MccK2CF.jpg",
+      "name": "Shark Dive",
+      "poster": "https://image.tmdb.org/t/p/w500/lE0z6wWX4Is4gDmJs9Gzw0PzVZ5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uvYST54f73Akx91pukdJCW5pyjF.jpg",
       "releaseInfo": "2015"
     },
     {
-      "id": "tmdb:79680",
+      "id": "tmdb:203179",
       "type": "movie",
-      "name": "The Surprising History of Sex and Love",
-      "poster": "https://image.tmdb.org/t/p/w500/d6LmoWPH5S7I3Q6mhqqdUP6yEnP.jpg",
-      "releaseInfo": "2002"
-    },
-    {
-      "id": "tmdb:1043051",
-      "type": "movie",
-      "name": "Elephant Refugees",
-      "poster": "https://image.tmdb.org/t/p/w500/X14o4zBW6FAjkIEtadRrGEVqnz.jpg",
-      "releaseInfo": "2020"
-    },
-    {
-      "id": "tmdb:765425",
-      "type": "movie",
-      "name": "Here Comes a New Challenger",
-      "poster": "https://image.tmdb.org/t/p/w500/bpUntfeRrW8ioTlao4Cl3Nr8RNG.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7Y16Ii03l5SKuePdeLLfRJJ8UF1.jpg",
-      "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:173938",
-      "type": "movie",
-      "name": "Mighty Uke",
-      "poster": "https://image.tmdb.org/t/p/w500/n4baC1UZyxsL309gyIyhNEQTYPk.jpg",
-      "releaseInfo": "2011"
-    },
-    {
-      "id": "tmdb:587256",
-      "type": "movie",
-      "name": "L'Odyssée du loup",
-      "poster": "https://image.tmdb.org/t/p/w500/axQzufYfECL56s5bIL3n2mLJCzO.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8J7T7T84tIUe8ctbRhRPX3bjhy5.jpg",
-      "description": "Les loups vivent en meute et s'astreignent à une organisation sociale parfaitement structurée autour d'un mâle alpha mais aussi d'individus de milieu de rang et de dernier rang. L'objectif est la protection de chacun des loups composant la meute. Ce documentaire permet de suivre comment un jeune loup banni par ses pairs doit affronter les éléments et survivre dans un monde où l' humain est très présent. Des forêts de Roumanie jusqu'aux rivages de l'océan Atlantique, il recherche un nouveau territoire, une nouvelle meute, une nouvelle famille. Kad Merad raconte l'histoire de Slava le loup, inspirée de faits réels.",
-      "releaseInfo": "2019"
-    },
-    {
-      "id": "tmdb:728559",
-      "type": "movie",
-      "name": "Planet Hunters",
-      "poster": "https://image.tmdb.org/t/p/w500/h94DERfMktc0NoDuZe0h1GEvWBK.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fpxCI8M4vo6jOZTggmikaOwcIvN.jpg",
+      "name": "Magic Camp",
+      "poster": "https://image.tmdb.org/t/p/w500/t0kuGja8LXGNUxs1RShZKteFqtS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dmYCxtbTegpOJ9oRZJby1knac8C.jpg",
       "releaseInfo": "2012"
     },
     {
-      "id": "tmdb:1574878",
+      "id": "tmdb:367434",
       "type": "movie",
-      "name": "Frog Fathers: Lessons from the Normandy Surf",
-      "poster": "https://image.tmdb.org/t/p/w500/ggILmgLIzptRtflUt9ugXX713bm.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/z6Q3RwabvDolmhH1gOzC8bdGhgy.jpg",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:354765",
-      "type": "movie",
-      "name": "The Saturn V Story",
-      "poster": "https://image.tmdb.org/t/p/w500/A8kH29EmThbxbLQtJjEOPs7e8f1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mtQ5KBWwJQfVDscUU7xH7WifDIE.jpg",
-      "description": "D'une idée audacieuse à un triomphe américain, ce documentaire suit la création historique de la fusée qui a transporté les premiers astronautes sur la Lune.",
+      "name": "Les grandes reines d'Egypte",
+      "poster": "https://image.tmdb.org/t/p/w500/tvIKfVQNaiIDXvyE0QPW84HmktL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dK8qid5MeAVeQkQp4pKNrLWYa5h.jpg",
       "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:330867",
+      "id": "tmdb:417483",
       "type": "movie",
-      "name": "XVIIe siècle : rivalité maritime entre Angleterre et Pays-Bas",
-      "poster": "https://image.tmdb.org/t/p/w500/zxr3Efvn08uFFApeSfo7Om9NQJO.jpg",
-      "description": "Au XVIIe siècle, l'Angleterre et les Pays-Bas entretiennent leur rivalité commerciale et militaire sur les océans du monde entier. Leurs marchands parcourent le globe, établissent des comptoirs et des colonies de l'ouest aux Indes orientales. Durant ce siècle, Anglais et Hollandais ont surtout mené les plus grandes batailles ­navales de l'histoire de la marine à voile.  A l'aide de reconstitutions et d'interviews d'historiens, Bruce Twickler raconte l'histoire de cet affrontement, qui se cristallise finalement sur le continent américain. Il insiste en particulier sur ce paradoxe : à l'extérieur du pays, la conquête de nouveaux marchés ; à l'intérieur, le développement des libertés in­dividuelles...",
-      "releaseInfo": "2009"
+      "name": "Le Dernier Prince rouge",
+      "poster": "https://image.tmdb.org/t/p/w500/a8EHTRe3LB7LDbgjNSwbEGVQ45j.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8plfnkbE28YdU90xQCqWFddyIP9.jpg",
+      "description": "Il est le Dieu vivant de la 9e puissance nucléaire du monde. Un jeune homme élevé en secret pour prendre la relève de la dictature nord-coréenne, entreprise familiale de père en fils. On ne connait de lui que les images amusantes, absurdes, et parfois terrifiantes, que la propagande de Pyongyang diffuse de lui. Nous avons enquêté pour découvrir les réseaux du dictateur : en Suisse, pour rencontrer les camarades et les professeurs de son enfance ; au Japon, avec le cuisinier de la famille ; en France, auprès de ses proches qui… s'y soignent ou s'y réfugient ; aux États-Unis, avec la CIA qui déploie des trésors d'imagination pour l'espionner ; en Corée du Sud auprès de réfugiés qui l'ont côtoyé ; en Corée du Nord enfin, pour découvrir l'incroyable machine à son service. « Le Dernier Prince rouge » cache des secrets surprenants et qui éclairent l'avenir de la Corée du Nord.",
+      "releaseInfo": "2015"
     },
     {
-      "id": "tmdb:1529498",
+      "id": "tmdb:368496",
       "type": "movie",
-      "name": "Codebreaker Alan Turing Persecution Of A Genius",
-      "poster": "https://image.tmdb.org/t/p/w500/8D9B5o7AjZbJnmit1GqEU5sY441.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9NnCSYsAe4wcGVl1kxCMvhnkgZD.jpg",
+      "name": "Angkor redécouvert",
+      "poster": "https://image.tmdb.org/t/p/w500/ldk6BH0sFqNG9DlFblNWCmvuZvA.jpg",
+      "description": "\"Imaginez toutes les cathédrales de France réunies dans une grande forêt.\" Au Cambodge, la forêt tropicale a envahi l'ancienne capitale khmère, mais les vestiges des sanctuaires érigés par les souverains successifs, entre le VIIIe siècle et l'abandon d'Angkor en 1431, témoignent de son influence passée. Comment la cité est-elle née et s'est-elle développée jusqu'à devenir la plus grande ville jamais édifiée au XIIIe siècle ? Près de cent cinquante ans après leur découverte, ses ruines émouvantes et spectaculaires commencent tout juste à livrer leurs secrets. Grâce à un laser révolutionnaire, des scientifiques ont réussi à relever les empreintes laissées par les bâtiments disparus, et à reconstituer la topographie des lieux et les vagues d'expansion de la ville.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tmdb:441520",
+      "type": "movie",
+      "name": "Calamity Jane: Légende de l'Ouest",
+      "poster": "https://image.tmdb.org/t/p/w500/orJRamDTFRYz8ACh0nHSWQhvAZD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yDd8taoPwVR0zyYt3gfIr3vO40E.jpg",
+      "description": "Deadwood, Dakota du Sud, 1903. Une foule d’anonymes se presse aux funérailles de Martha Jane Cannary, plus connue sous le nom de Calamity Jane. Qui était cette femme, disparue prématurément ? Comment a-t-elle acquis son statut d’héroïne américaine ? Des grandes plaines de l'Ouest aux villes champignons, des convois de pionniers aux premières lignes de chemin de fer, du cowboy solitaire des frontières aux premiers journalistes reporters, ce documentaire retrace l'émouvant parcours d'une femme hors normes dont on n'a voulu retenir que le mythe. C'est alors une autre histoire de l'Ouest américain qui se révèle : plus intime, vue de l'intérieur et à hauteur de femme.",
       "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:827152",
+      "id": "tmdb:410185",
       "type": "movie",
-      "name": "Fidel Castro, une vie pour la révolution",
-      "poster": "https://image.tmdb.org/t/p/w500/diN7xQaW1e9l1T6zwrruljjy8NM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vnnhEfqOts2JUkZzPjxiAN1YVCV.jpg",
-      "description": "Castro a survécu à des générations de présidents américains, de secrétaires généraux soviétiques, de directeurs de la CIA et d'assassins potentiels. Ce film propose un profil psychologique du révolutionnaire cubain et un récit profondément intimiste de sa vie à partir de lettres privées, de correspondances, de discours et d'interviews. Il présente des entretiens avec certains des parents les plus proches de Fidel Castro, des amis proches et des ennemis dévoués.",
-      "releaseInfo": "2004"
+      "name": "Bigfoot Monster Mystery",
+      "poster": "https://image.tmdb.org/t/p/w500/1HBr76y5BiOK4E93BCQoet0nztC.jpg",
+      "releaseInfo": "1997"
     },
     {
-      "id": "tmdb:753186",
+      "id": "tmdb:607597",
       "type": "movie",
-      "name": "六人：泰坦尼克上的中国幸存者",
-      "poster": "https://image.tmdb.org/t/p/w500/3PF9m61x9SjwHIJdwuhxUuLerfW.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hRDFEagWTiWhaBsMoaKBjboX04S.jpg",
-      "releaseInfo": "2021"
+      "name": "Gut, besser, vegan?",
+      "poster": "https://image.tmdb.org/t/p/w500/esXvIlKZiCJaIloG8tWhpvHuZeg.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3OTaSfJxVPccBqNbSp9OV1Opqo5.jpg",
+      "releaseInfo": "2017"
     },
     {
-      "id": "tmdb:959668",
+      "id": "tmdb:1101852",
       "type": "movie",
-      "name": "A Tear in the Sky",
-      "poster": "https://image.tmdb.org/t/p/w500/eDnnHlhTCd70hUihcoeHYIDNyci.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4NAYRXQKSy7GgP09DOirPce8AmL.jpg",
-      "description": "A Tear in the Sky (\"Une Larme dans le Ciel\" en français) vous emmène dans un voyage sans précédent sur le phénomène UAP/OVNI en suivant une équipe d'experts, de scientifiques et de militaires de renommée mondiale qui tenteront de percer les mystères UAP/OVNI à l'aide d'équipements et de technologies de pointe, de niveau militaire. Bien que le phénomène OVNI existe depuis l'aube de l'histoire, très peu de recherches scientifiques sont accessibles au public. La plupart des recherches sérieuses sont menées par divers gouvernements et armées à travers la planète. Ce film est un documentaire sur la façon dont une équipe de vétérans de l'armée, de scientifiques et de chercheurs se réunissent et lancent une enquête sur ce monde fascinant de l'inconnu tout en fournissant les données et les résultats au public.",
-      "releaseInfo": "2022"
+      "name": "Atlas of a Changing Earth",
+      "poster": "https://image.tmdb.org/t/p/w500/hJerLnRnuXVaypnNPO2UW10kx8Y.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/PsVsoJUCphTEAanGVOJyMm7c2i.jpg",
+      "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:1005106",
+      "id": "tmdb:1535138",
       "type": "movie",
-      "name": "Father of the Flying Car",
-      "poster": "https://image.tmdb.org/t/p/w500/6SzoQ4jK9nYzxb8KrJcqlpJ6pup.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cbxGpgpKsuqBICaZOi8dkez0P7w.jpg",
-      "releaseInfo": "2022"
+      "name": "Leptis Magna Rome in Africa",
+      "poster": "https://image.tmdb.org/t/p/w500/dcxBNqzC68OqVLPUgbcUQ2GbMT4.jpg",
+      "releaseInfo": "2010"
     },
     {
-      "id": "tmdb:371537",
+      "id": "tmdb:305228",
       "type": "movie",
-      "name": "Charles Manson : 40 ans après",
-      "poster": "https://image.tmdb.org/t/p/w500/9ihVVPVBQnPQzgqpmEzC9iSwX7q.jpg",
-      "releaseInfo": "2009"
+      "name": "Promises & Betrayals: Britain and the Struggle for the Holy Land",
+      "poster": "https://image.tmdb.org/t/p/w500/jNIL8fkqSstD2jK5QjPlhXmqeiX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mwzaU8kap34AiVfE3OM3jgJM5xl.jpg",
+      "releaseInfo": "2002"
+    },
+    {
+      "id": "tmdb:1265899",
+      "type": "movie",
+      "name": "Hitler, la création d'un monstre",
+      "poster": "https://image.tmdb.org/t/p/w500/epi5YItbykyY950ogKqkydZ0Cv9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/i928imKKsU65hRCjDrN6mE8UsPg.jpg",
+      "description": "Adolf Hitler. Le méchant le plus célèbre du XXe siècle et l'architecte de la période la plus sombre de l'histoire. Depuis son humble éducation en Autriche jusqu'à sa direction du parti nazi, la vie d'Hitler a vu un règne de terreur s'abattre sur l'Europe comme jamais auparavant.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:662836",
+      "type": "movie",
+      "name": "Mars Calling: Manifest Destiny or Grand Illusion?",
+      "poster": "https://image.tmdb.org/t/p/w500/9VhCFGvSQAPQjHzWsSi0D1AUBko.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1Aax9SnaGAvanSbLu2Jme2q9V73.jpg",
+      "releaseInfo": "2018"
     }
   ]
 }

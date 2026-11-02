@@ -1,15 +1,6 @@
 {
   "metas": [
     {
-      "id": "tmdb:4614",
-      "type": "series",
-      "name": "NCIS : Enquêtes Spéciales",
-      "poster": "https://image.tmdb.org/t/p/w500/salC1Yhi3QW8DW5iIJGFQOzPWVQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/c1aBrG5s5xFa6Tbnihu2Hhj4t2q.jpg",
-      "description": "L'agent spécial Leroy Jethro Gibbs, de la Section criminelle de la Gendarmerie maritime, dirige un groupe de personnes aux personnalités colorées qui enquête sur les crimes. Ceux-ci vont du meurtre et de l'espionnage au terrorisme, et sont reliés de manière assurée au personnel du corps de la Marine. L'équipe est composée d'Anthony DiNozzo, un ex-inspecteur plein d'esprit spécialisé en homicides, d'Abby Sciuto, l'excentrique spécialiste d'enquête en technique de laboratoire, de Timothy McGee, brillant lorsqu'inquiet, et de Ziva David, ex-officier de liaison du Mossad. Le Dr Donald \"Ducky\" Mallard contribue à la résolution de cas grâce à sa grande expérience dans le domaine de la médecine légale.",
-      "releaseInfo": "2003"
-    },
-    {
       "id": "tmdb:247718",
       "type": "series",
       "name": "MobLand",
@@ -17,6 +8,15 @@
       "background": "https://image.tmdb.org/t/p/w780/h0OC7ouop8YLwbAVfS3UUE2Lw4T.jpg",
       "description": "Deux familles du crime s'affrontent dans une lutte à mort qui menace de faire tomber des empires. Pris entre deux feux, Harry Da Souza, un « fixer », connaît mieux que personne la valeur de la loyauté quand des forces opposées entrent en collision.",
       "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:4614",
+      "type": "series",
+      "name": "NCIS : Enquêtes Spéciales",
+      "poster": "https://image.tmdb.org/t/p/w500/salC1Yhi3QW8DW5iIJGFQOzPWVQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/c1aBrG5s5xFa6Tbnihu2Hhj4t2q.jpg",
+      "description": "L'agent spécial Leroy Jethro Gibbs, de la Section criminelle de la Gendarmerie maritime, dirige un groupe de personnes aux personnalités colorées qui enquête sur les crimes. Ceux-ci vont du meurtre et de l'espionnage au terrorisme, et sont reliés de manière assurée au personnel du corps de la Marine. L'équipe est composée d'Anthony DiNozzo, un ex-inspecteur plein d'esprit spécialisé en homicides, d'Abby Sciuto, l'excentrique spécialiste d'enquête en technique de laboratoire, de Timothy McGee, brillant lorsqu'inquiet, et de Ziva David, ex-officier de liaison du Mossad. Le Dr Donald \"Ducky\" Mallard contribue à la résolution de cas grâce à sa grande expérience dans le domaine de la médecine légale.",
+      "releaseInfo": "2003"
     },
     {
       "id": "tmdb:153312",
@@ -28,12 +28,48 @@
       "releaseInfo": "2022"
     },
     {
+      "id": "tmdb:2190",
+      "type": "series",
+      "name": "South Park",
+      "poster": "https://image.tmdb.org/t/p/w500/fgRCZiN3igJqtIAXrBm9S7BwLVp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3UviYOlhn8EgXMBuiT6MnUuo1w9.jpg",
+      "description": "La petite ville de South Park dans le Colorado est le théâtre des aventures de Cartman, Stan, Kyle et Kenny, quatre enfants au langage quelque peu... décalé !",
+      "releaseInfo": "1997"
+    },
+    {
+      "id": "tmdb:57532",
+      "type": "series",
+      "name": "La Pat' Patrouille",
+      "poster": "https://image.tmdb.org/t/p/w500/nw2jRlCbBapEsRAMtsLONBbqXxp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7OrV2aAH5Yp7hA9zCCvUloLvZtl.jpg",
+      "description": "La Pat’ Patrouille compte six chiots héroïques qui répondent aux noms de Chase, Marcus, Rocky, Ruben, Zuma, et Stella. Ils sont menés par Ryder, un garçon de 10 ans féru de technologie. Tous ensemble, ils vivent des aventures palpitantes pour protéger la communauté de la Grande Vallée. La devise de Ryder ? « Aucune mission n'est trop dure car mes amis, ils assurent ! »",
+      "releaseInfo": "2013"
+    },
+    {
       "id": "tmdb:284833",
       "type": "series",
       "name": "Avatar : Les Sept Refuges",
       "poster": "https://image.tmdb.org/t/p/w500/yfUFI7fIDcdA01Ej5Rwfv2OEH8O.jpg",
       "background": "https://image.tmdb.org/t/p/w780/t2KFGH07Al4XuIZLHRlF1Hj9IJB.jpg",
       "description": "Après une catastrophe planétaire, une jeune maîtresse de la terre découvre qu'elle est l'Avatar succédant à Korra. Désormais considérée comme un présage de fin du monde, elle se lance dans une course contre-la-montre pour sauver les Sept Refuges.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:259909",
+      "type": "series",
+      "name": "Dexter: Resurrection",
+      "poster": "https://image.tmdb.org/t/p/w500/teZOzBZhugzh7UfW6xuPp4wJ5oU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vcpj6rRDS93ImHCLPY8bwBuFGjR.jpg",
+      "description": "Après avoir survécu à ses blessures, Dexter se retrouve à New York. Il tente de renouer une relation avec son fils mais des meurtres rituels ensanglantent Big Apple.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:290856",
+      "type": "series",
+      "name": "Marshals: A Yellowstone Story",
+      "poster": "https://image.tmdb.org/t/p/w500/jPOKjzCG8tgUigtWyA4ME9fNeia.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yGJGwt7DdIWTUXuahLfhcH1gi7G.jpg",
+      "description": "Le ranch du Yellowstone derrière lui, Kayce Dutton rejoint une unité des U.S. Marhals. Cowboy et ancien Navy SEAL, il apporte la justice dans le Montana. Lui et ses coéquipiers sont le dernier rempart de la région dans la guerre contre la violence.",
       "releaseInfo": "2026"
     },
     {
@@ -44,15 +80,6 @@
       "background": "https://image.tmdb.org/t/p/w780/jQmYRTt29hTNFGdNdwFVazOrDpO.jpg",
       "description": "Dans la ville fictive de Royal Woods, dans le Michigan, vivent Lincoln Loud et ses 10 sœurs. La vie du jeune garçon de 11 ans est de loin trépidante. Il sait que pour survivre avec 5 grandes sœurs (Lori, Leni, Luna, Luan, et Lynn) et 5 petites sœurs (Lucy, les jumelles Lana et Lola ainsi que Lisa, et enfin Lily, le bébé), il faut faire preuve de détachement, de confiance en soi, d'optimisme et qu'il faut toujours avoir un plan!",
       "releaseInfo": "2016"
-    },
-    {
-      "id": "tmdb:290856",
-      "type": "series",
-      "name": "Marshals: A Yellowstone Story",
-      "poster": "https://image.tmdb.org/t/p/w500/jPOKjzCG8tgUigtWyA4ME9fNeia.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yGJGwt7DdIWTUXuahLfhcH1gi7G.jpg",
-      "description": "Le ranch du Yellowstone derrière lui, Kayce Dutton rejoint une unité des U.S. Marhals. Cowboy et ancien Navy SEAL, il apporte la justice dans le Montana. Lui et ses coéquipiers sont le dernier rempart de la région dans la guerre contre la violence.",
-      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:202297",
@@ -109,21 +136,21 @@
       "releaseInfo": "2021"
     },
     {
+      "id": "tmdb:240903",
+      "type": "series",
+      "name": "Aussie Shore",
+      "poster": "https://image.tmdb.org/t/p/w500/1c9aShHtiTfacpQQXH6HfuUqOdh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8gB9SRbr0XXxGUUbSD8VzTKsrxw.jpg",
+      "description": "Aussie Shore suit les frasques d'un groupe de jeunes déchaînés qui travaillent autant qu'ils font la fête, tout en faisant l'expérience de la colocation dans la ville de Cairns, une ville où l'on fait la fête sans relâche.",
+      "releaseInfo": "2024"
+    },
+    {
       "id": "tmdb:286277",
       "type": "series",
       "name": "Rubble & Crew",
       "poster": "https://image.tmdb.org/t/p/w500/AbL8GIkcrAW0Q9fkmlvjuqWfVmp.jpg",
       "background": "https://image.tmdb.org/t/p/w780/bU61zseAE4I4S9uu4cUHFa1kP1H.jpg",
       "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:240903",
-      "type": "series",
-      "name": "Aussie Shore",
-      "poster": "https://image.tmdb.org/t/p/w500/496cQp6MM6XAODnne7Zgk5KFsI1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8gB9SRbr0XXxGUUbSD8VzTKsrxw.jpg",
-      "description": "Aussie Shore suit les frasques d'un groupe de jeunes déchaînés qui travaillent autant qu'ils font la fête, tout en faisant l'expérience de la colocation dans la ville de Cairns, une ville où l'on fait la fête sans relâche.",
-      "releaseInfo": "2024"
     }
   ]
 }

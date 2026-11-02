@@ -1,12 +1,38 @@
 {
   "metas": [
     {
+      "id": "tmdb:1571955",
+      "type": "movie",
+      "name": "Colisión",
+      "poster": "https://image.tmdb.org/t/p/w500/sMPIiaOoyTr5o6s602KIVMJX3P2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uI3kWI7kGW5E0F8WduewgQYPt34.jpg",
+      "description": "En pleine crise économique, un groupe de cambrioleurs s'introduit dans une banque à Madrid, déclenchant une série d'événements imprévisibles. Ce qui s'apparentait au départ à un simple braquage se transforme en un jeu de dupes et de peur où tout est affaire de survie : chaque décision compte, chaque geste cache quelque chose et chacun cherche à échapper à un châtiment pire que la prison.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1657630",
+      "type": "movie",
+      "name": "El despertar",
+      "poster": "https://image.tmdb.org/t/p/w500/w3YJx1PPPC6aiVKusxfc9QA0uYS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4pYKqctQvvdyhuGjiK4szH9jEv9.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1780005",
       "type": "movie",
       "name": "Contre l'Ouragan",
       "poster": "https://image.tmdb.org/t/p/w500/8T590m8nwAub9fTxp72EJPphOWa.jpg",
       "background": "https://image.tmdb.org/t/p/w780/cpNMIRCrDl0sxDL1tHBzfWi0UZC.jpg",
       "description": "En pleine mer, Wirpul et son demi-frère Candi luttent pour survivre lorsqu'une tempête imprévue au large d'Acapulco se transforme en ouragan de catégorie 5, dénommé Otis. Une histoire de fraternité, d'inégalité et de courage, où l'amour fraternel est le seul espoir.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1507696",
+      "type": "movie",
+      "name": "Apocalypse Z : Nouveau Monde",
+      "poster": "https://image.tmdb.org/t/p/w500/hQaxPNX2He3K8bupE0JSX48XNY8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/o3XwuDUj0n8qnK91p6q8LKfr6rj.jpg",
+      "description": "Depuis l'apparition du virus TSJ, les îles Canaries sont devenues le dernier refuge en Europe. Alors qu'une unité part chercher du ravitaillement à Madrid, Roberto se joint à elle avec des intentions troubles. Cernés par les infectés et partagés entre des loyautés contradictoires, ils doivent survivre tout en affrontant un dilemme : suivre les ordres ou tout risquer pour ce qui reste d'humanité.",
       "releaseInfo": "2026"
     },
     {
@@ -115,7 +141,7 @@
     {
       "id": "tmdb:1536433",
       "type": "movie",
-      "name": "Chicas tristes",
+      "name": "Chicas Tristes",
       "poster": "https://image.tmdb.org/t/p/w500/tBmuURPrzxck9wAe6sRbuGe7kPn.jpg",
       "background": "https://image.tmdb.org/t/p/w780/57cJShfnln2CkL4tBNpYGtxFDn4.jpg",
       "description": "La Maestra et Paula, deux amies inséparables, sont les meilleures nageuses de leur équipe. Jusqu’à ce qu’un évènement traumatique, survenu au cours d’une soirée, les oblige à choisir entre garder le silence et prendre la parole, quitte à mettre leur amitié à rude épreuve…",
@@ -144,31 +170,6 @@
       "name": "Loco México Mágico",
       "poster": "https://image.tmdb.org/t/p/w500/eCUYoQP0tB5mfwVUT3NidnoQCI3.jpg",
       "background": "https://image.tmdb.org/t/p/w780/8gg1n99c3LC0SEq99FLIDDXVSa.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1659155",
-      "type": "movie",
-      "name": "Leur vérité",
-      "poster": "https://image.tmdb.org/t/p/w500/4lbvwb2OGsfv3SNjLSDPZP4hNMY.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2kQ71k6dq7DVNYuYY9ylNvRFKTv.jpg",
-      "description": "Ruth, 30 ans, en froid avec sa famille depuis des années, rentre chez elle après la mort suspecte de sa mère. Elle y retrouve son père, Martín (Jose Coronado), devenu grincheux, agressif et obsédé par une théorie du complot inquiétante depuis sa retraite. Leur relation est si tendue, et le comportement de son père est si instable, que Ruth en vient à soupçonner Martín d'être responsable de la mort de sa mère. Partage-t-elle le même toit qu'un meurtrier ?",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1498036",
-      "type": "movie",
-      "name": "Tres de más",
-      "poster": "https://image.tmdb.org/t/p/w500/9Y6zDmHgXadnyZ7ZRJWa3WI2nhx.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bERXJB7QSf3T8hlwN8RCzWToTAM.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1428226",
-      "type": "movie",
-      "name": "Hasta el Fin del Mundo",
-      "poster": "https://image.tmdb.org/t/p/w500/kwuQPxbJPfjU0TKXcVpdzJ0RvJ5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hmoNULa9OEIM5pCzXr1XnuTVgUT.jpg",
       "releaseInfo": "2026"
     }
   ]

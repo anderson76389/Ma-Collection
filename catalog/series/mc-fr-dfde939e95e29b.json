@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:292741",
+      "type": "series",
+      "name": "Nocturne",
+      "poster": "https://image.tmdb.org/t/p/w500/gwoPlr2g3moHYZH05DyRZVgUf6m.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/614k6C9doThoMe6GyH0nTnGgLXt.jpg",
+      "description": "Lorsqu’une victime du célèbre tueur en série Jurek Walter refait surface en vie, l’enquêteur Jonah Lynn entame une course contre la montre pour retrouver sa dernière proie encore portée disparue. Sa protégée Saga Bauer travaille sous couverture pour faire parler le tueur.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:213562",
       "type": "series",
       "name": "Crystal Lake",
@@ -51,7 +60,7 @@
       "name": "Portée disparue",
       "poster": "https://image.tmdb.org/t/p/w500/zXMkaqWinyCbkMSNwhi7htRV0e9.jpg",
       "background": "https://image.tmdb.org/t/p/w780/kgaQnDdDaPqvGN7i8LLz1aWJdjP.jpg",
-      "description": "Lorsque Ian Ridley, opérateur des services d'urgence, reçoit un appel affolé d’une adolescente qu’il pense être sa fille disparue, il ne recule devant rien pour la retrouver.",
+      "description": "La vie de l'inspecteur de police Ian Ridley s'est effondrée 11 ans auparavant lorsque sa jeune fille, Maggie, a disparu sans aucune trace. Désormais affecté au service d'appels d'urgences, il ne tient que grâce à son refus inébranlable d'accepter qu'elle est perdue à jamais. Un jour qu'il reçoit un appel de détresse d'une adolescente, il est convaincu qu'il s'agit de Maggie, et met dès lors tout en oeuvre pour la retrouver et réunir sa famille, quoi qu'il en coûte.",
       "releaseInfo": "2026"
     },
     {
@@ -104,7 +113,7 @@
       "type": "series",
       "name": "Spider-Noir",
       "poster": "https://image.tmdb.org/t/p/w500/tCup7Z7ax4FQJUciHGHKXUqC8GT.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/reAZlLG6YMkBuxPT1XKuCH97TM1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6t2FvBr9DS8MOq0m5FAwPBCdAW5.jpg",
       "description": "Ben Reilly, détective privé, est engagé pour enquêter sur ce qui semble être de banales affaires... jusqu'à ce que des gangsters, des monstres et une mystérieuse femme fatale tissent une toile qui va le confronter à son ancienne vie de seul et unique super-héros de New York : L'Araignée.",
       "releaseInfo": "2026"
     },
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/ji4oDZbzc693TEVcSnMnnfxDCK4.jpg",
       "background": "https://image.tmdb.org/t/p/w780/8mmDLb108DoFZlE8sfc64TRqLvm.jpg",
       "description": "À 19 ans, Sherlock Holmes est sans expérience, quand il se retrouve embarqué par le mystère autour d'un meurtre survenu à l’Université d’Oxford. Plongeant dans sa toute première affaire avec un manque certain de discipline, le jeune homme tente de démêler une conspiration qui pourrait changer sa vie à jamais.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:302074",
-      "type": "series",
-      "name": "R.J. Decker",
-      "poster": "https://image.tmdb.org/t/p/w500/iNOXveSqB5tUTmGKxp5flQuQ72f.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uahJs4jteV8pfVXPlBgBzjmoqFa.jpg",
-      "description": "RJ Decker, photographe de presse et ancien détenu tombé en disgrâce, se lance en tant que détective privé dans le milieu criminel haut en couleur du sud de la Floride. Il s'attaque à des affaires aussi étranges que bizarres, avec l'aide de son ex journaliste, de sa femme, inspectrice de police, et d'une mystérieuse nouvelle bienfaitrice, une femme de son passé qui pourrait bien être sa plus grande alliée… ou son aller simple pour la prison.",
       "releaseInfo": "2026"
     }
   ]

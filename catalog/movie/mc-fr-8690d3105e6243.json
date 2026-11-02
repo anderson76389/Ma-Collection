@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1294189",
+      "type": "movie",
+      "name": "The Mongoose",
+      "poster": "https://image.tmdb.org/t/p/w500/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iRIhPqqoUHiFBxn8oYf3gCQnaKk.jpg",
+      "description": "Accusé à tort d'un crime et n'ayant rien à perdre, un héros de guerre qui lutte contre le PTSD entraîne la police dans une course-poursuite à tombeau ouvert à travers le pays avec l'aide de ses frères d'armes, tandis qu'un public captivé soutient sa fuite.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1561726",
       "type": "movie",
       "name": "Masterplan",
@@ -19,6 +28,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1406253",
+      "type": "movie",
+      "name": "Devour",
+      "poster": "https://image.tmdb.org/t/p/w500/uFyMcnWabsIwESf5odkMFvTRydp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kqzTOVIF5ITH7OfSUx0ybEZXd0W.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1236045",
       "type": "movie",
       "name": "Animals",
@@ -31,18 +48,17 @@
       "id": "tmdb:1148365",
       "type": "movie",
       "name": "Matchbox – Le film",
-      "poster": "https://image.tmdb.org/t/p/w500/vSgnJDw404JUokiy5NDZgXOi01E.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/5MRpLuZ1lnHNABHMhMowezKQnO9.jpg",
       "background": "https://image.tmdb.org/t/p/w780/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg",
       "description": "Des amis d'enfance reprennent contact et les retrouvailles prennent une tournure inattendue quand ils découvrent un dangereux complot international et doivent sauver le monde.",
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1437396",
+      "id": "tmdb:1320039",
       "type": "movie",
-      "name": "Your Mother Your Mother Your Mother",
-      "poster": "https://image.tmdb.org/t/p/w500/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jiFLiatBtBALlAzV5R72gzspBad.jpg",
-      "description": "Latif, un tueur à gages profondément religieux, a du mal à équilibrer travail, foi et paternité. Lorsque sa femme décède, il se lance dans un voyage désespéré à travers Houston pour protéger ses enfants, affrontant les forces qui se rapprochent de lui – et les croyances qui menacent de s'effondrer à l'intérieur.",
+      "name": "Stranglehold",
+      "poster": "https://image.tmdb.org/t/p/w500/eTWcOmwSqC8Xr5o5VKFj7BFHKSI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dBziuJUx0tteX1eSzKj05twjDJi.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -110,8 +126,8 @@
     {
       "id": "tmdb:1377237",
       "type": "movie",
-      "name": "Runner",
-      "poster": "https://image.tmdb.org/t/p/w500/6DQkNOhW7p9PwxWTDuZy8tnXozK.jpg",
+      "name": "Le Transport",
+      "poster": "https://image.tmdb.org/t/p/w500/4gRzxdF2IEGiANKEDVtjMuNl12n.jpg",
       "background": "https://image.tmdb.org/t/p/w780/npXZNWjOEYrqdMDPQ11SGBrXqAG.jpg",
       "description": "Un ancien soldat se retrouve engagé dans une course contre la montre lorsqu’une livraison médicale essentielle fait de lui et de son partenaire improbable la cible d’un cartel impitoyable. La mission se transforme rapidement en une chasse à l’homme meurtrière, où chaque détour, chaque retard et chaque balle les rapprochent de l’échec. Traqués de toutes parts, ils doivent survivre à cette poursuite et livrer leur cargaison à temps pour sauver la vie d’une petite fille.",
       "releaseInfo": "2026"
@@ -158,24 +174,6 @@
       "name": "Zip Wire",
       "poster": "https://image.tmdb.org/t/p/w500/cO7J0XSVKPlAjUCMWC7DVBn1Py2.jpg",
       "background": "https://image.tmdb.org/t/p/w780/yIwdIsM2Nr6EaiWy23mQqxvmoNh.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:843352",
-      "type": "movie",
-      "name": "Legend of the White Dragon",
-      "poster": "https://image.tmdb.org/t/p/w500/k0L5ZQP4PjdNziVGvcOeaihXyCc.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/iBfpVJCn2nKSkuWjv1Wp4GTiqoG.jpg",
-      "description": "Dans un futur apocalyptique, une ville a été décimée. Des grandes batailles ont été menées et des héros ont été blâmés, dépouillés de leurs titres et chassés.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:813418",
-      "type": "movie",
-      "name": "Hot Spot",
-      "poster": "https://image.tmdb.org/t/p/w500/42egzT6e4CIEdrEo4Xc31DKyGjA.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mATo9RWAc7IWGVbetpmmKJqWDiJ.jpg",
-      "description": "Dans une société gouvernée par une IA sensible, un détective privé enquêtant sur un meurtre tombe sur un groupe rebelle capable d'ébranler le chef numérique.",
       "releaseInfo": "2026"
     }
   ]

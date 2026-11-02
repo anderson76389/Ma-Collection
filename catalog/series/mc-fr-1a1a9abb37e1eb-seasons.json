@@ -25,15 +25,6 @@
       "releaseInfo": "1972"
     },
     {
-      "id": "tmdb:92611",
-      "type": "series",
-      "name": "RuPaul's Drag Race UK",
-      "poster": "https://image.tmdb.org/t/p/w500/rGKdb9afwZSPSAZ2jN2SMf9tthQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7fsT1NnmNbden0mptoVinBNp4ih.jpg",
-      "description": "RuPaul a fait le voyage à travers l'étang à la recherche d'une reine avec le plus de charisme, d'unicité, de nerf et de talent de tout le pays.",
-      "releaseInfo": "2019"
-    },
-    {
       "id": "tmdb:2778",
       "type": "series",
       "name": "Wheel of Fortune",
@@ -43,21 +34,37 @@
       "releaseInfo": "1983"
     },
     {
-      "id": "tmdb:215943",
-      "type": "series",
-      "name": "Les Traîtres (États-Unis)",
-      "poster": "https://image.tmdb.org/t/p/w500/xWK9tLH2UGgzuAI6P3cHeTKopfj.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/sCn3qAUCbDOcPJcNvjdq7z06Eg2.jpg",
-      "description": "Présentée par Alan Cumming, cette émission de téléréalité réunit des personnalités du monde du divertissement dans un château situé au cœur des Highlands écossais pour un jeu de stratégie inspiré d'une enquête criminelle. Les candidats participent à une série d'épreuves afin de constituer une cagnotte pouvant atteindre 250 000 dollars, tandis que des « traîtres », secrètement désignés parmi les « loyaux », éliminent progressivement les autres participants dans l'espoir de remporter l'intégralité des gains.",
-      "releaseInfo": "2023"
-    },
-    {
       "id": "tmdb:1790",
       "type": "series",
       "name": "Family Feud",
       "poster": "https://image.tmdb.org/t/p/w500/2eY3KyYvvjg2jn2ifTGkwdipCAC.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zhLrML5jLVIlln5QFZdYHgtmFXr.jpg",
       "releaseInfo": "1999"
+    },
+    {
+      "id": "tmdb:291431",
+      "type": "series",
+      "name": "The Celebrity Traitors",
+      "poster": "https://image.tmdb.org/t/p/w500/uziPOqxQotCE9g0wBgDvHCOvRhP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/76BNYD6gBrZPWH4axZH8rEpeyLW.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:92611",
+      "type": "series",
+      "name": "RuPaul's Drag Race UK",
+      "poster": "https://image.tmdb.org/t/p/w500/rGKdb9afwZSPSAZ2jN2SMf9tthQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7fsT1NnmNbden0mptoVinBNp4ih.jpg",
+      "description": "RuPaul a fait le voyage à travers l'étang à la recherche d'une reine avec le plus de charisme, d'unicité, de nerf et de talent de tout le pays.",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:114439",
+      "type": "series",
+      "name": "Let's Make a Deal",
+      "poster": "https://image.tmdb.org/t/p/w500/9e2zBDDJNzwKymAWDuLhgViPc06.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ojZdqcOI3PjVfeNAAtLoruT4Fpl.jpg",
+      "releaseInfo": "2009"
     }
   ]
 }

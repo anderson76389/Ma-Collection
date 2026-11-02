@@ -13,9 +13,18 @@
       "id": "tmdb:295420",
       "type": "series",
       "name": "The Vermilion Mask",
-      "poster": "https://image.tmdb.org/t/p/w500/hsMd1zUdZGMQpLr55wM0OKK07X5.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/zDxrIp9cRKAjOPutX52DAJopEjZ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/d63e5W3rWWuMIDcrUgmZTauMbna.jpg",
       "description": "Apprenti fabricant de masques, Peru aurait dû connaître les dangers liés à ces artefacts. Possédé par le Masque du Dieu Guerrier, il tue involontairement ses amis et son maître, le légendaire Gaston Roux. Rongé par la culpabilité, Peru jure de détruire tous les masques créés par son maître avant qu’une nouvelle tragédie ne se produise.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:313346",
+      "type": "series",
+      "name": "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life",
+      "poster": "https://image.tmdb.org/t/p/w500/lEUUMZ8zylAPP797UMugdYjuxRP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/msusxF6ZPGnQmTGXU9iC4UJOohs.jpg",
+      "description": "Rein l'Enchanteur est un mage capable d'améliorer les armes et les armures. Mais lorsqu'il se fait renvoyer de sa guilde pour la simple raison qu'il a déjà enchanté tout ce qu'elle possède, il décide de reprendre tous les sorts qu’il a transmis à ses ex-compagnons et les affecte à son propre équipement. En chemin, Rein rassemble une bande de parias comme lui et, ensemble, ils explorent le monde.",
       "releaseInfo": "2026"
     },
     {
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/1hzamo8nOZmurGQQ7P2uqpsGHek.jpg",
       "background": "https://image.tmdb.org/t/p/w780/jOxZVOYxghHw6ofH1QFG6ZQUt2V.jpg",
       "description": "Juzo Ogami, tueur à gages légendaire, n’a jamais échoué dans une mission. Mais après l’une d’elles, il se fait piquer par une mystérieuse guêpe et se réveille dans le corps d’un garçon de 13 ans. Et pour rendre les choses encore plus étranges, il reçoit un nouvel ordre pour le moins bizarre : infiltrer un collège. Désormais, l'assassin autrefois redouté doit jongler entre le chaos de la vie scolaire et son travail meurtrier, tout en cherchant un moyen de retrouver son corps d'adulte.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:295357",
-      "type": "series",
-      "name": "Fist of the North Star: HOKUTO NO KEN",
-      "poster": "https://image.tmdb.org/t/p/w500/fATbOEh4CYUm2i7gSD7kZx7cjfL.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mVH9xKyA0ETdejTrCLKQI0mGJay.jpg",
-      "description": "En l'an 199X, le feu nucléaire a englouti le monde ! On ne sait comment, l'Humanité a survécu. Un homme solitaire avec sept cicatrices sur la poitrine apparaît. C'est Kenshiro, héritier du Hokuto Shinken. Dans un monde où seuls les forts survivent, Kenshiro se fraie un chemin avec ses poings en fer !",
       "releaseInfo": "2026"
     }
   ]

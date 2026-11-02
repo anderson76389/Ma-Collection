@@ -10,6 +10,15 @@
       "releaseInfo": "2024"
     },
     {
+      "id": "tmdb:133841",
+      "type": "series",
+      "name": "En aparté",
+      "poster": "https://image.tmdb.org/t/p/w500/ncHQu8udR0YQhM2FlSibQ6Obeh0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8yODTFCkRbhnwpksRKMpQWjzmDY.jpg",
+      "description": "En aparté est une émission de télévision française présentée par la journaliste Pascale Clark et diffusée en clair sur Canal+ entre septembre 2001 et juin 2007. Elle reprend en 2021 avec Nathalie Levy en voix-off.",
+      "releaseInfo": "2001"
+    },
+    {
       "id": "tmdb:111412",
       "type": "series",
       "name": "Un bon moment",
@@ -19,15 +28,6 @@
       "releaseInfo": "2020"
     },
     {
-      "id": "tmdb:197800",
-      "type": "series",
-      "name": "Hot Ones",
-      "poster": "https://image.tmdb.org/t/p/w500/hCcYnJCCScDHr6FfjVbvUOb3Su6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7BgHad7Ni0jnFJ3k931HDDl4ijr.jpg",
-      "description": "Kyan Khojandi prend les commandes de l’adaptation française de HOT ONES ! Il reçoit dans chaque épisode une personnalité pour un face-à-face inédit sur sa carrière, son parcours et ses engagements. Le principe est simple. Arriver au bout de l’interview l’est beaucoup moins… Dix grandes questions. Dix nuggets de poulet. Dix sauces allant de 1 700 à plus de 1 million sur l’échelle de Scoville (échelle de mesure du piment. Oui, oui ça existe.). A chaque question, sa sauce ! Plus l’interview progresse, plus l’intensité du piment augmente, agissant comme un désinhibant de plus en plus fort sur les personnalités interviewées.",
-      "releaseInfo": "2022"
-    },
-    {
       "id": "tmdb:235904",
       "type": "series",
       "name": "Spinners",
@@ -35,6 +35,24 @@
       "background": "https://image.tmdb.org/t/p/w780/tWunElWzuQKWCkJcyXk3QQ3b3i2.jpg",
       "description": "Ethan, 17 ans, fait le chauffeur pour un gang local. Dégoûté par cette vie, Ethan découvre une possible sortie au travers du spinning, un sport automobile extrême s'apparentant à du rodéo motorisé. Mais la guerre entre les gangs remet tout en question.",
       "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:300589",
+      "type": "series",
+      "name": "Super Plan",
+      "poster": "https://image.tmdb.org/t/p/w500/fYfLSyApuhTjbElhDAmLvrcLtnt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gsJvjnIlxOhU9EmmB5x2TJxjYVk.jpg",
+      "description": "Antoine de Caunes, Mina Soundiram, Renan Cros, Bertrand Goncalves et Rébecca Balestra, proposent un super plan ciné. Ensemble, ils reçoivent celles et ceux qui font l'actualité du 7e art, et abordent le cinéma avec expertise, passion et enthousiasme.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:340555",
+      "type": "series",
+      "name": "Les Duos impossibles de Jérémy Ferrari : 11e édition",
+      "poster": "https://image.tmdb.org/t/p/w500/8wd0khSXUTcUiCz0JIdV3BlnIJR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pHOfBTtn2sSJ1Dv4Ix2w2WZrd36.jpg",
+      "description": "Depuis La Seine Musicale, à Paris. Parce qu'il sait que, face à un mode de plus en plus difficile à comprendre, il vaut souvent mieux en rire, l'humoriste Jérémy Ferrari voit les choses en grand pour la onzième édition de ses \"Duos impossibles\". Cette édition en effet ne promet pas une, mais bien deux soirées exceptionnelles, en compagnie des plus grandes stars de l'humour du moment.",
+      "releaseInfo": "2026"
     }
   ]
 }

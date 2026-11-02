@@ -1,6 +1,33 @@
 {
   "metas": [
     {
+      "id": "tmdb:1813355",
+      "type": "movie",
+      "name": "La Légende de Derry",
+      "poster": "https://image.tmdb.org/t/p/w500/95jDCfMC1MNXowaXxPpHuWP5zAr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z26LxXDMmAIzKr06FPDudCJyvsM.jpg",
+      "description": "Des centaines d’années avant Pennywise, trois jeunes s’aventurent dans la forêt de l’Ouest où ils rencontrent un esprit ancien terrifiant.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:891621",
+      "type": "movie",
+      "name": "Wild Horse Nine",
+      "poster": "https://image.tmdb.org/t/p/w500/hnBtud9vLr9arsUW8nxrzIz2uA4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/b17UWf3LqHgKolQkXckne32qv0.jpg",
+      "description": "Peu avant le coup d'État chilien de 1973, deux agents de la CIA, Chris et Lee, sont envoyés de Santiago vers l'île de Pâques par leur supérieur, MJ. Au milieu des statues emblématiques de l'île, tandis que ces partenaires de longue date sont confrontés à leur sombre passé et aux complots en cours, Chris noue une relation avec deux étudiantes rebelles qui menace de faire basculer dans le chaos leur séjour dans ce paradis isolé…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1294189",
+      "type": "movie",
+      "name": "The Mongoose",
+      "poster": "https://image.tmdb.org/t/p/w500/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iRIhPqqoUHiFBxn8oYf3gCQnaKk.jpg",
+      "description": "Accusé à tort d'un crime et n'ayant rien à perdre, un héros de guerre qui lutte contre le PTSD entraîne la police dans une course-poursuite à tombeau ouvert à travers le pays avec l'aide de ses frères d'armes, tandis qu'un public captivé soutient sa fuite.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1643567",
       "type": "movie",
       "name": "Ghosts: The Possession of Button House",
@@ -9,11 +36,46 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1371730",
+      "type": "movie",
+      "name": "Love Language",
+      "poster": "https://image.tmdb.org/t/p/w500/sCQde3BSMpDgA1qpE0zzboFdwl0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/snrOynVdMOZVA8aCxOAK9kBRQLm.jpg",
+      "description": "Après des fiançailles ratées, Lou découvre qu’elle a un talent pour écrire les vœux de mariage des autres. La nouvelle se répand dans le milieu des mariages de Chicago et les services de Lou sont très sollicités. Elle attire même un nouvel admirateur en la personne de Dash. Mais tout change lorsqu’on lui demande d’écrire les vœux d’Olivia, qui va épouser Warren, l’ancien amour de Lou à l’université.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1084409",
+      "type": "movie",
+      "name": "A Talent for Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/mstDPKNKgSGFvVFVdfzeMNkcyw2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mfpjOQ6hsvMUIFyzWglwerbpgFS.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1796707",
       "type": "movie",
       "name": "Daylight: A Twilight story",
       "poster": "https://image.tmdb.org/t/p/w500/yNPpKdl20jAvJLusQr14fjgVGo5.jpg",
       "background": "https://image.tmdb.org/t/p/w780/498wupIiqyxFgw6uPHfYWuwQWjY.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1727734",
+      "type": "movie",
+      "name": "Ali G : J'suis qui ?",
+      "poster": "https://image.tmdb.org/t/p/w500/xRieId2D3sqKeyhfwO7iJzjbojb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hJcGJLi34zE4RhzsiDR6f7pw50K.jpg",
+      "description": "Après vingt ans passés à \"se la couler douce, fumer et s'envoyer en l'air\", Ali G découvre que sa petite amie de longue date, Julie, est enceinte de 8 mois. Face à une bouche de plus à nourrir, il se bouge enfin et part aux États-Unis pour retrouver sa gloire d'antan. Mais il se heurte vite à des ennemis qui vont menacer son existence et celle de son enfant.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1480856",
+      "type": "movie",
+      "name": "Au bord du gouffre",
+      "poster": "https://image.tmdb.org/t/p/w500/duZIrDULyk3PBIxoUmKXm3uqlBv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/q90G7OV76xR7NOHu8m19iaudHO1.jpg",
+      "description": "Un mardi matin d'août 2023, un groupe d'enfants partit pour l'école, empruntant un téléphérique de fortune pour traverser un col de montagne du nord-ouest du Pakistan. Ce qui suivit allait faire la une des journaux du monde entier. Soudain, à 275 mètres au-dessus du sol, deux câbles cédèrent, mettant les adolescents en danger de mort.",
       "releaseInfo": "2026"
     },
     {
@@ -30,7 +92,7 @@
       "type": "movie",
       "name": "Klara et le Soleil",
       "poster": "https://image.tmdb.org/t/p/w500/zJZ1ii7XPAJkdBWKIQN2fyyz5cQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2Zk5jRXUlrfkU3RsutMPMHey1Y.jpg",
       "description": "Lorsque Klara rencontre Josie, chacune perçoit immédiatement chez l'autre une âme soeur. Josie entretient une relation compliquée avec sa mère et toutes deux ont traversé de lourdes épreuves. Mais l'émerveillement sincère de Klara et sa loyauté sans faille commencent peu à peu à apaiser les blessures de cette famille et à apporter de la lumière dans l'univers complexe de Josie.",
       "releaseInfo": "2026"
     },
@@ -47,7 +109,7 @@
       "type": "movie",
       "name": "Clayface",
       "poster": "https://image.tmdb.org/t/p/w500/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg",
       "description": "L'ascension fulgurante de Matt Hagen, de gamin des rues de Gotham à star hollywoodienne, est brutalement interrompue lorsqu'un baron du crime le laisse atrocement défiguré. Abandonné de tous et n'ayant plus rien à perdre, Matt se tourne vers un traitement expérimental qui lui rend miraculeusement son apparence... mais altère profondément sa perception de la réalité. Il sombre alors dans une spirale destructrice, consumé par un irrépressible désir de vengeance.",
       "releaseInfo": "2026"
     },
@@ -100,7 +162,7 @@
       "type": "movie",
       "name": "The Last Pickpocket in New York",
       "poster": "https://image.tmdb.org/t/p/w500/pNdB9va2AEPQe9UfhKAdIt8nus9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nZLt2sLZTEOyK50TjwNlGqzWsp5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uyNEBMVB9cqE7VkACf3TicGAVrU.jpg",
       "description": "Harry est le dernier pickpocket de New York. Les temps sont durs, mais un jour la chance tourne : il dérobe une mystérieuse clef USB qu’il revend à prix d’or. Mais ce précieux butin appartient à une organisation criminelle impitoyable prête à tout pour le récupérer. Harry n’a que quelques heures pour retrouver la clef, et la restituer.",
       "releaseInfo": "2026"
     },
@@ -111,66 +173,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/szIEtkFLOMsPX6AVQSfzalNEEDd.jpg",
       "background": "https://image.tmdb.org/t/p/w780/py3XG3mFkdVMcw7VwfZ4HaXZIIU.jpg",
       "description": "L'histoire vraie de Kevin Simmers, ancien policier anti-drogue devenu défenseur de la désintoxication, et de sa fille Brooke. Le film explore la crise américaine de la drogue et « la fine ligne bleue » à travers les regards opposés d'un policier et d'une toxicomane, qui étaient également père et fille.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1796883",
-      "type": "movie",
-      "name": "Biohazard",
-      "poster": "https://image.tmdb.org/t/p/w500/3FqLdOQdX4VBk3dB663CCA8CAMS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/oCsX2XMv5iJ5ClvnjYjBwXDqcov.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1255833",
-      "type": "movie",
-      "name": "Englouti",
-      "poster": "https://image.tmdb.org/t/p/w500/qLt9F35AdGKDXPSJtqH5DERoigI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg",
-      "description": "Un plongeur sous-marin est à la recherche des restes de son père décédé, qui s'est fait avaler par un cachalot. Il ne lui reste plus qu'une heure avant que l'oxygène ne vienne à lui manquer.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1783629",
-      "type": "movie",
-      "name": "Michael Che: Shot in Minnesota",
-      "poster": "https://image.tmdb.org/t/p/w500/1DbNbV9zWT29yAUr45qSbCGCtFz.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ax5fGBSTqYEeYkgPmvYK47xdKHj.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1282159",
-      "type": "movie",
-      "name": "Let's Have Kids!",
-      "poster": "https://image.tmdb.org/t/p/w500/cY78RP8wjO7Kct4dFiYOYLg2Rxw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/A42JE6WJDMsICN3NU6XkUyYEF5F.jpg",
-      "description": "Les amies d'enfance Emma et Phoebe ont le pacte de tomber enceintes en même temps, persuadées de pouvoir affronter la maternité ensemble. Mais quand leur plan plonge dans le chaos, ce qui devait les rapprocher menace de les séparer. Alors que leurs vies s'éloignent, elles doivent lutter pour protéger l'amitié qui les a fait traverser toutes les épreuves.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1153576",
-      "type": "movie",
-      "name": "Street Fighter",
-      "poster": "https://image.tmdb.org/t/p/w500/k53HHxQ4rQG0dME6nsofii3QNS7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qRN8eqYwG6HPSy0i3fKzuLrUOhp.jpg",
-      "description": "En 1993, Ryu et Ken Masters, deux Street Fighters autrefois inséparables, sont replongés dans l’arène lorsque la mystérieuse Chun-Li les recrute pour le prochain World Warrior Tournament : un affrontement brutal où se mêlent poings, destin et fureur. Mais derrière cette battle royale se cache une conspiration mortelle qui les oblige à s’affronter, tout en faisant face aux démons de leur passé… Et s’ils échouent, c’est GAME OVER.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1796809",
-      "type": "movie",
-      "name": "Remain Calm",
-      "poster": "https://image.tmdb.org/t/p/w500/mwS8LsBd7FWp0XomfzVpynrGhHR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mJ7zo8mMjXtvgf70EMiiT9aiola.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1790935",
-      "type": "movie",
-      "name": "Instadocs: L'IA s'emballe",
-      "poster": "https://image.tmdb.org/t/p/w500/g2emP9oTYXzpNyxgti8GKhjOveB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9EfbnudTOAoiPVOEWL0vwhdbdBq.jpg",
-      "description": "L'IA a-t-elle commis un crime grave? La série enquête sur le piratage de Hugging Face et explique en quoi cette cyberattaque pourrait être un signal d'alarme pour l'humanité.",
       "releaseInfo": "2026"
     }
   ]

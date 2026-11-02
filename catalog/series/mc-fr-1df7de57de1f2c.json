@@ -10,22 +10,31 @@
       "releaseInfo": "1999"
     },
     {
+      "id": "tmdb:31991",
+      "type": "series",
+      "name": "WWE NXT",
+      "poster": "https://image.tmdb.org/t/p/w500/9nLBX5Bf7PW4FAaWJLXpFFdeTlV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2ugy3IP3yvdRdEepHDOml82TKFT.jpg",
+      "description": "WWE NXT est une émission et une académie de catch de la World Wrestling Entertainment (WWE), devenue depuis le 20 juin 2012, la troisième division de la WWE avec Raw et SmackDown. Cette nouvelle division met en avant des nouveaux catcheurs, d'abord sélectionnés dans l'ancien club-école de la WWE, la Florida Championship Wrestling, puis sur la scène indépendante internationale.",
+      "releaseInfo": "2010"
+    },
+    {
       "id": "tmdb:4656",
       "type": "series",
       "name": "WWE Raw",
       "poster": "https://image.tmdb.org/t/p/w500/fstEe6RsyNyPUnMwNcL20iNl0nE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ykWWT8FAChBffNxcDzoJMCK9LBb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7QmGgxQSnZZQ3NeiDm7n1A0avmz.jpg",
       "description": "Chaque semaine, les supertars de Raw s'affrontent dans le ring mais également en dehors. Combats acharnés, prises impressionnantes, les catcheurs sont prêts à tout pour remporter la victoire. Depuis le 1000e épisode du show, diffusé le 23 juillet 2012, WWE Raw passe à un format de trois heures au lieu de deux, format auparavant réservé aux épisodes spéciaux.",
       "releaseInfo": "1993"
     },
     {
-      "id": "tmdb:96677",
+      "id": "tmdb:65701",
       "type": "series",
-      "name": "Lupin",
-      "poster": "https://image.tmdb.org/t/p/w500/sOUWRai0215iUSMackrZx3Y1j05.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/aY7zv2pfk9H0QxaaL3PBjvalbKQ.jpg",
-      "description": "Inspiré par les aventures d'Arsène Lupin, le gentleman cambrioleur Assane Diop décide de venger son père d'une terrible injustice.",
-      "releaseInfo": "2021"
+      "name": "Good Mythical Morning",
+      "poster": "https://image.tmdb.org/t/p/w500/jMpBQr2aNOFAI6wsC47zsOG6qOh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hvFCS0dMeC3ffiF4uYTKzUAkvYL.jpg",
+      "description": "Good Mythical Morning est une série YouTube de comédie, de discussion et de variétés américaine créée par Rhett McLaughlin et Link Neal. L'émission a été diffusée pour la première fois sur YouTube le 9 janvier 2012. De nombreuses célébrités et personnalités d'Internet, dont Daniel Radcliffe, Felix Kjellberg, Hank Green, Kobe Bryant et Linkin Park ont participé au show. L'émission se concentre sur Rhett et Link alors qu'ils racontent des histoires, chantent des chansons, relèvent des défis, etc...",
+      "releaseInfo": "2012"
     },
     {
       "id": "tmdb:58841",
@@ -46,13 +55,31 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:105248",
+      "id": "tmdb:57532",
       "type": "series",
-      "name": "Cyberpunk: Edgerunners",
-      "poster": "https://image.tmdb.org/t/p/w500/khwap5JuTGVLpGA5xuZqRPlyHtD.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4NmCfWHzytiKM3riCMcbVYBJhlB.jpg",
-      "description": "L'histoire d'un gamin des rues qui tente de survivre dans Night City, une ville du futur obsédée par la technologie et la transformation du corps. Démuni, mais pas totalement désespéré, le jeune garçon parvient à rester en vie en devenant un \"edgerunner\", un mercenaire hors-la-loi également connu sous le nom de \"cyberpunk\".",
-      "releaseInfo": "2022"
+      "name": "La Pat' Patrouille",
+      "poster": "https://image.tmdb.org/t/p/w500/nw2jRlCbBapEsRAMtsLONBbqXxp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7OrV2aAH5Yp7hA9zCCvUloLvZtl.jpg",
+      "description": "La Pat’ Patrouille compte six chiots héroïques qui répondent aux noms de Chase, Marcus, Rocky, Ruben, Zuma, et Stella. Ils sont menés par Ryder, un garçon de 10 ans féru de technologie. Tous ensemble, ils vivent des aventures palpitantes pour protéger la communauté de la Grande Vallée. La devise de Ryder ? « Aucune mission n'est trop dure car mes amis, ils assurent ! »",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tmdb:289517",
+      "type": "series",
+      "name": "Un job mortel",
+      "poster": "https://image.tmdb.org/t/p/w500/fEOsnx6TAiHOno5Ez5k8cxMVrtF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cyH2fZUjIJjLmgpF3tgA5CSGz4L.jpg",
+      "description": "Croulant sous les dettes, un jeune homme enchaîne les petits boulots très lucratifs que lui propose une mystérieuse agence, mais sa course à l'argent tourne au cauchemar.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:65334",
+      "type": "series",
+      "name": "Miraculous, les aventures de Ladybug et Chat Noir",
+      "poster": "https://image.tmdb.org/t/p/w500/585lHpUQ75NvprAuSpAvJaNJya5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lH22EnM0ofC7GsVGU8dAA2RXV1c.jpg",
+      "description": "Paris, aujourd'hui. Marinette et Adrien sont deux collégiens comme les autres, à la différence près qu’ils ont été choisis pour sauver Paris ! Leur mission : capturer les Akumas du mystérieux Papillon qui transforment les parisiens en super vilains. Grâce à leur kwami, nos deux collégiens se métamorphosent en superhéros : Ladybug, et Chat Noir.",
+      "releaseInfo": "2015"
     },
     {
       "id": "tmdb:45790",
@@ -61,15 +88,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/2Sc0veFPh9CcHMtNqMyiQqIW9ZF.jpg",
       "background": "https://image.tmdb.org/t/p/w780/l2gc2dPRUPe3bAfYCRTjc6uAMmB.jpg",
       "description": "Angleterre, 1881. Afin d'honorer ancienne dette, Lord George Joestar adopte Dio Brando, le fils de son sauveur Dario. Mais sous l'apparence du fils modèle, Dio souhaite s'emparer de la fortune des Joestar et humilier le fils du lord, Jonathan Joestar surnommé Jojo. Une rivalité nait entre eux et explose à cause d'un masque aztèque aux capacités mystérieuses. Dio s'en empare et devient un vampire, que seul la maîtrise du hamon permettra à Jonathan d'espérer le vaincre. Voici le point de départ du destin entremêlé de la famille Joestar et de Dio. Chaque illustre membre l'affrontera, lui ou des adversaires qui lui sont liés grâce au hamon, puis aux stands, la matérialisation de leur esprit combatif doté de force et de capacités insoupçonnées. Parmi eux, Joseph l'aventurier arrogant, Jotaro et son stand invincible Star Platinium, Josuke l'ami au grand cœur, Giorno le fils de Dio et gangster à la chevelure dorée et Jolyne, la fille à la volonté de fer.",
-      "releaseInfo": "2012"
-    },
-    {
-      "id": "tmdb:65701",
-      "type": "series",
-      "name": "Good Mythical Morning",
-      "poster": "https://image.tmdb.org/t/p/w500/jMpBQr2aNOFAI6wsC47zsOG6qOh.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hvFCS0dMeC3ffiF4uYTKzUAkvYL.jpg",
-      "description": "Good Mythical Morning est une série YouTube de comédie, de discussion et de variétés américaine créée par Rhett McLaughlin et Link Neal. L'émission a été diffusée pour la première fois sur YouTube le 9 janvier 2012. De nombreuses célébrités et personnalités d'Internet, dont Daniel Radcliffe, Felix Kjellberg, Hank Green, Kobe Bryant et Linkin Park ont participé au show. L'émission se concentre sur Rhett et Link alors qu'ils racontent des histoires, chantent des chansons, relèvent des défis, etc...",
       "releaseInfo": "2012"
     },
     {
@@ -82,13 +100,22 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:31991",
+      "id": "tmdb:126027",
       "type": "series",
-      "name": "WWE NXT",
-      "poster": "https://image.tmdb.org/t/p/w500/9nLBX5Bf7PW4FAaWJLXpFFdeTlV.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2ugy3IP3yvdRdEepHDOml82TKFT.jpg",
-      "description": "WWE NXT est une émission et une académie de catch de la World Wrestling Entertainment (WWE), devenue depuis le 20 juin 2012, la troisième division de la WWE avec Raw et SmackDown. Cette nouvelle division met en avant des nouveaux catcheurs, d'abord sélectionnés dans l'ancien club-école de la WWE, la Florida Championship Wrestling, puis sur la scène indépendante internationale.",
-      "releaseInfo": "2010"
+      "name": "Ghosts : Fantômes à la maison",
+      "poster": "https://image.tmdb.org/t/p/w500/eeQxQnvX8RjvNLWzeaHXgLjjQsk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/p5FOkor90VRBJEEhUMFdFdkixfe.jpg",
+      "description": "A la mort de sa grand-tante, Sam hérite d'un manoir en ruine habité par les esprits de différents personnages morts sur les lieux à travers les siècles. Elle projette, avec son mari Jay, de transformer le manoir en hôtel. Suite à un accident qui l'a rapprochée de la mort, elle peut voir et entendre les fantômes.",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:300146",
+      "type": "series",
+      "name": "Sous le masque",
+      "poster": "https://image.tmdb.org/t/p/w500/nKhiK99WZohc3fJsTXJLf4SrSEY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/q6VPQREsEGFccpWVF7wFvy9oc25.jpg",
+      "description": "Wei Rao, jeune femme noble, est obligée de se marier avec le prince Lu Zuo, alors que celui-ci est dans le coma et proche de la mort. Elle force alors Ah Chou, une jeune fille ordinaire dont la seule caractéristique est sa ressemblance frappante avec Wei Rao, à prendre sa place au mariage. Mais Lu Zuo se réveille précisément le jour des noces... Ah Chou doit maintenant faire face à Wei Rao, qui veut récupérer sa place, à Lu Zuo, qui la prend pour cette vipère de Wei Rao, mais aussi à toute la demeure du prince qui est pleine de pièges et de complots.",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:68073",
@@ -100,6 +127,15 @@
       "releaseInfo": "2016"
     },
     {
+      "id": "tmdb:243555",
+      "type": "series",
+      "name": "அக்கா",
+      "poster": "https://image.tmdb.org/t/p/w500/tdnHaR0vlKMQbjmaCs2V3LDmzSd.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cVUKFfws4upCB4ytz5uGIONIiRc.jpg",
+      "description": "Dans la société matriarcale de la ville fictive de Pernuru, les femmes règnent en maître et le pouvoir a un nouveau nom : Akka.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1549",
       "type": "series",
       "name": "WWE SmackDown",
@@ -109,31 +145,13 @@
       "releaseInfo": "1999"
     },
     {
-      "id": "tmdb:300146",
-      "type": "series",
-      "name": "Sous le masque",
-      "poster": "https://image.tmdb.org/t/p/w500/nKhiK99WZohc3fJsTXJLf4SrSEY.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/YndvGwqwroUDVltBWmnOuTvJke.jpg",
-      "description": "Wei Rao, jeune femme noble, est obligée de se marier avec le prince Lu Zuo, alors que celui-ci est dans le coma et proche de la mort. Elle force alors Ah Chou, une jeune fille ordinaire dont la seule caractéristique est sa ressemblance frappante avec Wei Rao, à prendre sa place au mariage. Mais Lu Zuo se réveille précisément le jour des noces... Ah Chou doit maintenant faire face à Wei Rao, qui veut récupérer sa place, à Lu Zuo, qui la prend pour cette vipère de Wei Rao, mais aussi à toute la demeure du prince qui est pleine de pièges et de complots.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:14929",
       "type": "series",
       "name": "Heartland",
-      "poster": "https://image.tmdb.org/t/p/w500/uc2gtWczT58BiAUJWFz9P5aZmNF.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/osAYIqIGtnVpqz4FDdGjCezE11z.jpg",
       "background": "https://image.tmdb.org/t/p/w780/11nGiX6hLdexBD4TVUAAVzSIAQy.jpg",
       "description": "En dépit des dettes qui s'accumulent et de la banque qui menace de saisir, les Fleming se battent pour permettre à leur ranch de continuer à tourner.",
       "releaseInfo": "2007"
-    },
-    {
-      "id": "tmdb:202297",
-      "type": "series",
-      "name": "Fire Country : Pompiers sur Appel",
-      "poster": "https://image.tmdb.org/t/p/w500/2qhBMwFtQIUQId8nhaywVqKTPLw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/r6jUY6q3ObYOeFFWxM7jemS7IWE.jpg",
-      "description": "En quête de rédemption et d'une peine de prison raccourcie, le jeune condamné Bode Donovan rejoint un programme de lutte contre les incendies qui le ramène dans sa petite ville natale du nord de la Californie, où lui et d'autres détenus travaillent aux côtés de pompiers d'élite pour éteindre d'énormes incendies dans la région.",
-      "releaseInfo": "2022"
     },
     {
       "id": "tmdb:293610",
@@ -145,40 +163,22 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:207347",
+      "id": "tmdb:202297",
       "type": "series",
-      "name": "Blue Box",
-      "poster": "https://image.tmdb.org/t/p/w500/shXf4cTKUbMpx5AVBKi4V0dMwY3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8p39Ud6ZKMixBQ7R4frg2o3idzc.jpg",
-      "description": "Le joueur de badminton Taiki a toujours admiré de loin la star du basket Chinatsu. Jusqu'à un beau jour de printemps, où la vie les rapproche de façon inattendue.",
-      "releaseInfo": "2024"
+      "name": "Fire Country : Pompiers sur Appel",
+      "poster": "https://image.tmdb.org/t/p/w500/2qhBMwFtQIUQId8nhaywVqKTPLw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r6jUY6q3ObYOeFFWxM7jemS7IWE.jpg",
+      "description": "En quête de rédemption et d'une peine de prison raccourcie, le jeune condamné Bode Donovan rejoint un programme de lutte contre les incendies qui le ramène dans sa petite ville natale du nord de la Californie, où lui et d'autres détenus travaillent aux côtés de pompiers d'élite pour éteindre d'énormes incendies dans la région.",
+      "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:2808",
+      "id": "tmdb:226688",
       "type": "series",
-      "name": "Totally Spies !",
-      "poster": "https://image.tmdb.org/t/p/w500/zvEit6c2zC2PosXROb85jZwb0gx.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gbmN2y9Dqm6XKEev1kd8GkGLLn.jpg",
-      "description": "Cette série raconte les aventures de trois amies adolescentes : Alex, Clover et Sam. Étudiantes dans la vie de tous les jours, elles sont en réalité agents secrets ; c'est-à-dire des espionnes professionnelles qui travaillent pour le WOOHP, une organisation secrète de protection de l'humanité. Lorsque leur patron Jerry a besoin de leurs services, il les envoie en mission, après leur avoir fait revêtir des combinaisons intégrales moulantes en latex coloré (jaune pour Alex, rouge pour Clover et verte pour Sam) et fourni des gadgets, qui les aideront à mener à bien leurs enquêtes.",
-      "releaseInfo": "2002"
-    },
-    {
-      "id": "tmdb:250923",
-      "type": "series",
-      "name": "Nobody Wants This",
-      "poster": "https://image.tmdb.org/t/p/w500/jg6ZjrmNAgwb1HhtLo5PYOFNzy6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/77sozyYenyY1JraK6YzLfDlTMpp.jpg",
-      "description": "Une podcasteuse sexo agnostique et un rabbin fraîchement célibataire tombent amoureux, mais leur relation peut-elle survivre à leurs vies opposées et à leurs familles indiscrètes ?",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:259140",
-      "type": "series",
-      "name": "Ranma1/2",
-      "poster": "https://image.tmdb.org/t/p/w500/paz1BKuMqwOW7FGMe5xqcTEstgx.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xvD9urN8lUtWw5fm4a87Rl3dCZn.jpg",
-      "description": "Akane Tendo fait la connaissance de son nouveau fiancé, Ranma Saotomé, prodige des arts martiaux qui possède une particularité : il se transforme en fille au contact de l'eau froide.",
-      "releaseInfo": "2024"
+      "name": "BEYBLADE X",
+      "poster": "https://image.tmdb.org/t/p/w500/66wkm14IWdrY5LaKZDAbkD2T9Jt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qAq9RBeHZoTMDFqQZ2o4cE5CJIQ.jpg",
+      "description": "Robin Kazami, blader débutant, s'associe à l'influenceuse Multi Nana-iro et à l'ancien champion Jaxon Cross pour former ce trio improbable, prêt à gravir les échelons du classement The X et à remporter le titre de champion blader !",
+      "releaseInfo": "2023"
     }
   ]
 }

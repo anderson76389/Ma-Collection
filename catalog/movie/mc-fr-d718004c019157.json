@@ -1,12 +1,30 @@
 {
   "metas": [
     {
+      "id": "tmdb:1813355",
+      "type": "movie",
+      "name": "La Légende de Derry",
+      "poster": "https://image.tmdb.org/t/p/w500/95jDCfMC1MNXowaXxPpHuWP5zAr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z26LxXDMmAIzKr06FPDudCJyvsM.jpg",
+      "description": "Des centaines d’années avant Pennywise, trois jeunes s’aventurent dans la forêt de l’Ouest où ils rencontrent un esprit ancien terrifiant.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1283515",
       "type": "movie",
       "name": "Verity",
-      "poster": "https://image.tmdb.org/t/p/w500/zLCjFOyjvKqYdkQYYAyTtfJ5mpk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9qxyrJfjk577ym5WD6HCDmunoyO.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/1ob7dZ1rvAgHOpVJGjJ2voibOp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cKetrF2dAnQ0AMV5i4BMOs41I5P.jpg",
       "description": "Lorsqu’un accident affecte les capacités de l’autrice de bestsellers, Verity Crawford, à achever son œuvre, une écrivaine solitaire, Lowen Ashleigh, qui peine à joindre les deux bouts est engagée pour lui prêter sa plume. En résidence dans la propriété reculée de la romancière, elle fait la découverte d’un manuscrit autobiographique glaçant et peine à démêler ce qui relève de la fiction ou de la réalité…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1290418",
+      "type": "movie",
+      "name": "The Cycle",
+      "poster": "https://image.tmdb.org/t/p/w500/n5gSNf55KWfDc9hqP4H1KCCSutE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bgHW6AJl2SdKzxglvf9tshXbI84.jpg",
+      "description": "Une fille découvre le sombre passé de son père après la découverte de son corps, disparu depuis 36 ans, sur une scène de crime horrible.",
       "releaseInfo": "2026"
     },
     {
@@ -30,7 +48,7 @@
     {
       "id": "tmdb:1101383",
       "type": "movie",
-      "name": "La Fin d'Oak Street",
+      "name": "La fin d'Oak Street",
       "poster": "https://image.tmdb.org/t/p/w500/yZINaQysj32K2DS2EW4Iy1bK4Bm.jpg",
       "background": "https://image.tmdb.org/t/p/w780/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg",
       "description": "Lorsqu’un mystérieux événement cosmique arrache Oak Street à sa paisible banlieue et la transporte vers un lieu inconnu, la famille Platt, désorientée dans ce nouvel environnement hostile, comprend vite qu’il leur faudra rester unis pour survivre.",
@@ -40,8 +58,8 @@
       "id": "tmdb:675871",
       "type": "movie",
       "name": "Super Troopers 3",
-      "poster": "https://image.tmdb.org/t/p/w500/hOAjBggD7zWat7nqt7dUUDH5ZRG.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rAeT8K51JJJomj0M7WGPC8jt4yi.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/VVU42nqsEmUtFpH1d9MHj5BIpF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/riezFXKrSq1XNnRLJi3AKIwEV8d.jpg",
       "description": "Dans le Vermont, près de la frontière canadienne, cinq officiers de police, Thorny, Farva, Mac, Foster et Rabbit, tentent tant bien que mal de faire respecter l'ordre.",
       "releaseInfo": "2026"
     },
@@ -86,7 +104,7 @@
       "type": "movie",
       "name": "Backrooms",
       "poster": "https://image.tmdb.org/t/p/w500/thQQ3BBBhGDtWm3UTtabhyDJd8U.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dqmMWNWfLnExDRpMtIMqI97GQFR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/QNE9Ihuas4duMHJYGQgAcuRtXz.jpg",
       "description": "Une étrange porte apparaît dans le sous-sol d'un magasin de meubles.",
       "releaseInfo": "2026"
     },
@@ -160,24 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/e5qRxuVJNfgZHfFAxts0wK2Fubb.jpg",
       "background": "https://image.tmdb.org/t/p/w780/6AYl4PU29o2WXUPZzAo56GVQs5r.jpg",
       "description": "Tommy, jeune délinquant insouciant et impulsif naviguant entre fêtes alcoolisées et violences incontrôlables, se réveille un matin enchaîné dans la cave d’une maison. Il est à la merci de ses occupants, une étrange famille qui s’est donnée pour mission de le remettre dans le droit chemin. Quelqu’en soit le prix.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1159559",
-      "type": "movie",
-      "name": "Scream 7",
-      "poster": "https://image.tmdb.org/t/p/w500/j6Y7vqULt8tRlXVFXHK5aj3nCo4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3eUyLEF5M0ky3h6KJsWiWzaakB8.jpg",
-      "description": "Lorsqu’un nouveau Ghostface surgit dans la paisible ville où Sidney Prescott a reconstruit sa vie, ses pires cauchemars refont surface. Alors que sa fille devient la prochaine cible, Sidney n’a d’autre choix que de reprendre le combat. Déterminée à protéger les siens, elle doit alors affronter les démons de son passé pour tenter de mettre fin une bonne fois pour toutes au bain de sang.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1107166",
-      "type": "movie",
-      "name": "Psycho Killer",
-      "poster": "https://image.tmdb.org/t/p/w500/5xgxxmLivJXL8aF0HdZfpx8aAIo.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gOcgmSwbCFW7h1rmEqMvYPzvjh7.jpg",
-      "description": "A la suite du meurtre de son époux, la policière, Jane Thorne, souhaite mettre la main sur un tueur en série surnommé le \" Satanic Slasher \".",
       "releaseInfo": "2026"
     }
   ]

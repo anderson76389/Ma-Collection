@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:204136",
+      "type": "series",
+      "name": "Zombies: The Re-Animated Series",
+      "poster": "https://image.tmdb.org/t/p/w500/abrmBYBDMufgaN8h41f1Ezy7k4F.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kZ7cgiYIqUVYl8Z81cLXhRY9Ofr.jpg",
+      "description": "Chaque jour est une suprise au lycée Seabrook, que l'on soit pom-pom girl, zombie, loup-garou ou même vampire ! La série nous invite dans la vie quotidienne de Zed, Addison, Eliza, Willa et de toute l'équipe de Seabrook.",
+      "releaseInfo": "2024"
+    },
+    {
       "id": "tmdb:154010",
       "type": "series",
       "name": "Chibi Tiny Tales",

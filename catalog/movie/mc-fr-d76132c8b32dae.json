@@ -31,8 +31,17 @@
       "type": "movie",
       "name": "NAZA",
       "poster": "https://image.tmdb.org/t/p/w500/yJ0FMDiMfdVHWCRqxt9WzAJ0C5S.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7EzH0dlEN9OZWWBXBWwT5PbMNUz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/inju8joDtL7KHtlFEGjFZ2UuqFa.jpg",
       "description": "Filmé la nuit depuis les toits de Tel Aviv, ce documentaire se centre sur les victimes civiles des opérations militaires israéliennes à Gaza.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1762506",
+      "type": "movie",
+      "name": "Frères d'Armes : l'héritage",
+      "poster": "https://image.tmdb.org/t/p/w500/n29MsV1m2OCbDp6PLeHxziOVOLG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mMLVXM8UOKSxVSxnXcmuBPMiHsC.jpg",
+      "description": "À l'occasion du 25e anniversaire de la série Band of Brothers, récompensée par un Emmy®, cette émission spéciale revient sur l'impact de cette série.",
       "releaseInfo": "2026"
     },
     {
@@ -49,7 +58,7 @@
       "type": "movie",
       "name": "L'Envers du sport : Mister T, l'icône tous risques",
       "poster": "https://image.tmdb.org/t/p/w500/xHLK9OqYHkVyvLqsz6HsKKEnoZU.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tCxXRtEn4nQVtxQzaH32ZUjoX3C.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/laiVx3X4J7GNUyWWNvwGpSgT7MX.jpg",
       "description": "Icône des années 80, Mr. T a marqué toute une époque. Dans ce documentaire, il révèle lui-même l'histoire derrière la crête, les chaînes et sa réplique culte.",
       "releaseInfo": "2026"
     },
@@ -168,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/psJU0sOk56dm3wmcPCuJE7bNaFG.jpg",
       "background": "https://image.tmdb.org/t/p/w780/52t7nT1f117FW6gdG32DrQKxpU1.jpg",
       "description": "Couvrant cinq décennies, Iron Maiden: Burning Ambition retrace leur ascension emblématique pour devenir l'un des plus grands groupes de l'histoire de la musique.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1515899",
-      "type": "movie",
-      "name": "Billie Eilish - Hit Me Hard and Soft : The Tour (3D)",
-      "poster": "https://image.tmdb.org/t/p/w500/8DTastKqiYno03GHdkOxLpm2het.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vTk6KQRLomlkMG5xqQIrzvyQB8z.jpg",
-      "description": "Réalisé pendant sa tournée mondiale jouée à guichets fermés, BILLIE EILISH – HIT ME HARD AND SOFT TOUR (3D) propose une nouvelle expérience de concert innovante sur grand écran, avec l’une des artistes les plus célèbres et les plus talentueuses de sa génération. Présenté en 3D immersive, le film est réalisé par James Cameron et Billie Eilish, tous deux lauréats d’un Oscar.",
       "releaseInfo": "2026"
     }
   ]

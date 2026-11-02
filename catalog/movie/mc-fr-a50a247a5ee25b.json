@@ -19,6 +19,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1340206",
+      "type": "movie",
+      "name": "Le Virtuose",
+      "poster": "https://image.tmdb.org/t/p/w500/z9sxdWvYJDyZeKHhBSU8Kczw7yC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/y04gpYp8rJoUud6vf8okqHIdP4V.jpg",
+      "description": "Doté d'une ouïe exceptionnelle, un jeune accordeur de piano voit sa vie basculer lorsque son talent attire l'attention de criminels qui l'entraînent dans une série de cambriolages de plus en plus risqués. Malgré lui, il s'enfonce dans un engrenage dangereux qui pourrait lui coûter bien plus que sa liberté.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1284016",
       "type": "movie",
       "name": "Power Ballad",
@@ -70,6 +79,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/hfxvdEBTt3YsV5h7MNzjfMXTWpd.jpg",
       "background": "https://image.tmdb.org/t/p/w780/w9NnNrq1aOu9hXhhUyMhQMts1oM.jpg",
       "description": "Ce programme anniversaire des 20 ans de Hannah Montana est une lettre d’amour aux fans, empreinte d’une profonde nostalgie. Miley Cyrus y revisite ses moments les plus marquants dans une interview exclusive menée par Alex Cooper. Les spectateurs découvrent aussi des archives des coulisses, des visages familiers, des invités surprises et une performance musicale spéciale de Miley.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1482168",
+      "type": "movie",
+      "name": "L'éruption des Red Hot Chili Peppers : Hillel, notre frère",
+      "poster": "https://image.tmdb.org/t/p/w500/y9hHoO3eB7l3ZjYUZoJUJpZW22V.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eUDjpW2wQg2fvSFDohhkIZkjnFw.jpg",
+      "description": "Explorez les années de formation des Red Hot Chili Peppers et l'influence profonde d'Hillel Slovak, membre fondateur du groupe.",
       "releaseInfo": "2026"
     },
     {
@@ -160,24 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/3nzTWhdOrB2TjuxOTPam8CL0nni.jpg",
       "background": "https://image.tmdb.org/t/p/w780/4zyeIE8ceP95gehaPsgqamEYRuy.jpg",
       "description": "1916. La chorale de Ramsden, dans le Yorkshire, peine à remplacer ses chanteurs partis au combat, alors que la guerre fait rage sur le front de l'Ouest. Les ambitieux dirigeants de la chorale doivent recruter de jeunes hommes de la région et engager un nouveau chef de chœur. Malgré leurs soupçons sur son patriotisme, leur choix se porte le Dr Henry Guthrie (Ralph Fiennes), un homme motivé, intransigeant et fraîchement revenu d'Allemagne. Alors que les papiers de conscription commencent à arriver, toute la communauté découvre que la meilleure réponse au chaos qui ravage leurs vies est de faire de la musique ensemble.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1230368",
-      "type": "movie",
-      "name": "Springsteen: Deliver Me from Nowhere",
-      "poster": "https://image.tmdb.org/t/p/w500/lLr13RysRMWnnEHH4f4kwSUGQ2t.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/oOczvrnhpXUmqCbyKYFj4FQExAo.jpg",
-      "description": "Sur le point de devenir une vedette dans le monde entier, ce jeune musicien a du mal à concilier la pression du succès et les fantômes de son passé. Enregistré dans la chambre de Springsteen dans le New Jersey à l'aide d'un magnétophone à quatre pistes, \"Nebraska\" a marqué un tournant dans la vie du Boss et est considéré comme l'une des pièces maîtresses de sa discographie. Cet album acoustique brut et tourmenté évoque des âmes perdues qui cherchent une raison de croire.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1214684",
-      "type": "movie",
-      "name": "Kiss of the Spider Woman",
-      "poster": "https://image.tmdb.org/t/p/w500/7AvSiMAiatDn21weq6nq1e4NB03.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/722lo8EBC3S2LKcBVg3fpl4HWmK.jpg",
-      "description": "Dans une prison argentine en 1983, sous la dictature militaire, Luis Molina, un coiffeur gay, purge une peine de huit ans de prison pour avoir prétendument corrompu un mineur. Pour échapper aux horreurs de son emprisonnement, Molina imagine des films mettant en vedette une actrice classique du cinéma, Ingrid Luna, notamment le rôle de la femme araignée, qui tue sa proie d'un baiser. La vie de Molina bascule lorsqu'un marxiste, Valentin Arregui Paz, est amené dans sa cellule, et que les deux forment un lien improbable.",
       "releaseInfo": "2025"
     }
   ]

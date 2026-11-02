@@ -5,8 +5,17 @@
       "type": "movie",
       "name": "NAZA",
       "poster": "https://image.tmdb.org/t/p/w500/yJ0FMDiMfdVHWCRqxt9WzAJ0C5S.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7EzH0dlEN9OZWWBXBWwT5PbMNUz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/inju8joDtL7KHtlFEGjFZ2UuqFa.jpg",
       "description": "Filmé la nuit depuis les toits de Tel Aviv, ce documentaire se centre sur les victimes civiles des opérations militaires israéliennes à Gaza.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1762506",
+      "type": "movie",
+      "name": "Frères d'Armes : l'héritage",
+      "poster": "https://image.tmdb.org/t/p/w500/n29MsV1m2OCbDp6PLeHxziOVOLG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mMLVXM8UOKSxVSxnXcmuBPMiHsC.jpg",
+      "description": "À l'occasion du 25e anniversaire de la série Band of Brothers, récompensée par un Emmy®, cette émission spéciale revient sur l'impact de cette série.",
       "releaseInfo": "2026"
     },
     {
@@ -70,14 +79,6 @@
       "background": "https://image.tmdb.org/t/p/w780/9gWrxuOJeArUbvnqrZALSjhPv9Y.jpg",
       "description": "Au XIVe siècle, alors que la Route de la Soie s'effondre et que des factions rivales déchirent le pays, Tamerlan, guerrier intrépide, sort de l'exil. Dépouillé de tout, il se bat pour unifier les royaumes divisés, utilisant la stratégie et sa volonté de fer pour forger un empire à partir du chaos. Invaincu au combat et largement considéré comme l’un des plus grands chefs militaires et tacticiens de l’histoire, sans parler de l’un des plus brutaux, Tamerlan fonda l’Empire timouride, qui régnait sur l’Afghanistan, l’Iran et l’Asie centrale actuels",
       "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1015154",
-      "type": "movie",
-      "name": "Luciérnagas en El Mozote",
-      "poster": "https://image.tmdb.org/t/p/w500/vAMPpEvaW9EmRwFmzFMaM8wS3KV.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/i0YlPmyAfjxWJczVqK0MP88XKU4.jpg",
-      "releaseInfo": "2025"
     },
     {
       "id": "tmdb:1556834",

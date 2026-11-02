@@ -13,8 +13,8 @@
       "id": "tmdb:314360",
       "type": "series",
       "name": "YAGA",
-      "poster": "https://image.tmdb.org/t/p/w500/kp8xgZ8SrikHQrPn2lC3hb50KD5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lVCFOjUDlZLMvTJxQ2t78MjTIqL.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/wSbmXrDTm7g3USFAT6oKL8MGDfJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/owhTL4n2r9ryfxyYlhHKt97ogVk.jpg",
       "description": "Alors qu’un détective privé enquête sur la disparition du jeune héritier d’une puissante entreprise de pêche, il se retrouve en désaccord avec un détective local méfiant, un charismatique professeur d’université qui aime les hommes plus jeunes, et un labyrinthe de suspects énigmatiques, de vies secrètes et de magie ancienne.",
       "releaseInfo": "2026"
     },
@@ -57,8 +57,8 @@
     {
       "id": "tmdb:337700",
       "type": "series",
-      "name": "The Serial Killer Connection",
-      "poster": "https://image.tmdb.org/t/p/w500/2QVTk55dw9tMUHDlG4027cOTNOv.jpg",
+      "name": "Unies face au tueur",
+      "poster": "https://image.tmdb.org/t/p/w500/h914qBPBiP7LIklrCdll2a4IXRE.jpg",
       "background": "https://image.tmdb.org/t/p/w780/6GYk6Fw9Biyfk39D70Y4oz2LgHL.jpg",
       "description": "La série enquête sur le tueur en série Richard « Marc » Evonitz, qui a kidnappé, agressé et assassiné plusieurs jeunes filles (dont Sofia Marlene Silva, Kristin Michelle Lisk et Kathryn Nicole Lisk).",
       "releaseInfo": "2026"
@@ -147,9 +147,10 @@
     {
       "id": "tmdb:335651",
       "type": "series",
-      "name": "Saman: La verità nascosta",
-      "poster": "https://image.tmdb.org/t/p/w500/6D29DxNuXQszdafrjEvBJ2V4eRL.jpg",
+      "name": "Saman : la vérité cachée",
+      "poster": "https://image.tmdb.org/t/p/w500/fKDaokuCMb25O03TJibCgw3DpiY.jpg",
       "background": "https://image.tmdb.org/t/p/w780/9Oku7k4ga0hwmtJL9s9LaK3plOo.jpg",
+      "description": "Après la disparition de Saman Abbas, 18 ans, en mai 2021, les images de vidéosurveillance et les réseaux sociaux ont permis de reconstituer les faits.",
       "releaseInfo": "2026"
     },
     {

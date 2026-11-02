@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:326780",
+      "type": "series",
+      "name": "Wanted : Attrape-moi si tu peux !",
+      "poster": "https://image.tmdb.org/t/p/w500/gCU7FO2PSElst0UQgamdDgrTJ3P.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/czEopXjOExMlnymzrwxGVtL6Lso.jpg",
+      "description": "Dans un lieu tenu secret, 16 célébrités seront « enfermées » dans une « prison », sous la surveillance de trois autres célébrités (Michou, Issa Doumbia, Adil Rami) qui seront leurs gardiens, avec un sens de la provocation et de l’humour qui promet déjà quelques grands moments ! Mais lorsque les portes des cellules s’ouvriront, ce sera le départ du plus grand jeu de poursuite jamais organisé en France !",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:336916",
       "type": "series",
       "name": "Kat sauvage",
@@ -16,15 +25,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/g3MXM5ixfiDFFzRTO44pK9mINg8.jpg",
       "background": "https://image.tmdb.org/t/p/w780/lkcj9IKfF4LylYT5qrz6wTC7hog.jpg",
       "description": "Pendant 30 jours, deux experts en hôtellerie, Fred Sirieix et Pauline Petta, viennent en aide à des patrons d'hôtel en crise pour les aider à redresser la barre. Cash, exigeant mais bienveillant, le binôme s'installe à l'hôtel et passe tout au crible afin de proposer un plan d'action aux propriétaires pour relancer leur hôtel et améliorer les relations humaines au sein de l'entreprise. Face à des vérités parfois difficiles à entendre, les hôteliers n'ont qu'un seul choix : se remettre en question et transformer leur établissement !",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:335711",
-      "type": "series",
-      "name": "Signe avec moi",
-      "poster": "https://image.tmdb.org/t/p/w500/eVy8sCRE42rc8rQbJSCuEYB8YAn.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qTKhXGeu0fEI1Ahb91cMPIPglF9.jpg",
-      "description": "« Signe avec moi » est une invitation ludique à découvrir la Langue des Signes Française (LSF) à travers des modules courts, dynamiques et accessibles dès le plus jeune âge. Son objectif est simple : changer le regard sur la surdité et initier le plaisir d’apprendre ensemble. Chaque module enseigne trois signes du quotidien, mêlant scènes de vie courante et références culturelles populaires.",
       "releaseInfo": "2026"
     },
     {
@@ -60,6 +60,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/5WwCpb4Rl5WfludKsGA1IocuEk4.jpg",
       "background": "https://image.tmdb.org/t/p/w780/3ZXBYjKCc7OyG1d4BY0Qubzrf62.jpg",
       "description": "Découvrez les créatures et les paysages étranges, étonnants et époustouflants d’un monde perdu et plein de vie ; et découvrez comment la vie a non seulement survécu aux événements cataclysmiques de cette époque préhistorique, mais aussi prospéré.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:321899",
+      "type": "series",
+      "name": "On connaît la chanson",
+      "poster": "https://image.tmdb.org/t/p/w500/8gMXKRwbn9rGv6WKgY3uPUQmKDJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bNoNy9H7jr331FT89cQBg1cRZLD.jpg",
+      "description": "On connaît la chanson est un grand jeu télévisé musical et humoristique où dix célébrités de toutes les générations s'affrontent dans une ambiance survoltée. Menés par Laurence Boccolini, les invités testent leurs connaissances musicales, leur mémoire et leur sens du rythme à travers une série d'épreuves thématiques.",
       "releaseInfo": "2026"
     },
     {
@@ -168,14 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/r8bH7SpfrjqhCdlxoMARKTl54nR.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zcDMJQKr63b9dXVRZyItqj1cbqt.jpg",
       "description": "Deux femmes, Amber et Athena, découvrent qu’elles ont toutes deux été mariées à un manipulateur au passé trouble, Brandon Johnson. Après avoir comparé leurs expériences traumatisantes, elles lancent un podcast pour exposer son comportement et alerter les femmes qui croiseront sa route.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:290885",
-      "type": "series",
-      "name": "Wife Swap: The Real Housewives Edition",
-      "poster": "https://image.tmdb.org/t/p/w500/uYUsK04Bdd3BDiXyT50z44hwI7N.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/itf5CtrUYrGeXjD6NuKjNIMew1Z.jpg",
       "releaseInfo": "2025"
     }
   ]

@@ -1,11 +1,20 @@
 {
   "metas": [
     {
+      "id": "tmdb:1662858",
+      "type": "movie",
+      "name": "EB",
+      "poster": "https://image.tmdb.org/t/p/w500/aUUQXiiGA3LFHHemf3UgHVF4y5C.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vdGafAruKcmtR8jNjk5OpVDXUpX.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1359694",
       "type": "movie",
       "name": "A Family",
       "poster": "https://image.tmdb.org/t/p/w500/9tfFYyA63BhNif8GKvIvtPrigdB.jpg",
       "background": "https://image.tmdb.org/t/p/w780/eBkw8P1Ti3eMpespSWwCjs5uPQ0.jpg",
+      "description": "Pris dans les feux croisés du divorce de leurs parents, Nina et Eli se réfugient chacun dans leur propre monde, déchirés entre loyauté, colère et désir d’être vus.",
       "releaseInfo": "2026"
     },
     {
@@ -162,15 +171,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/5HcWRiLqDAPpeNC5KbiUOw4YwIY.jpg",
       "background": "https://image.tmdb.org/t/p/w780/eZ9cDoozzDg4ssjjFgmxrWgKb4.jpg",
       "description": "Vous souhaitez mettre un terme à votre couple, mais vous n’avez tout simplement pas le courage de le faire vous-même ? La solution existe ! Dylan, un jeune célibataire à qui tout réussi, dirige le BREAK-UP CLUB. Sa société permet de « larguer votre conjoint à votre place » et le concept cartonne ! Tout va bien jusqu’au jour où Dylan est embauché pour se débarrasser de Zoë...",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:1106194",
-      "type": "movie",
-      "name": "A Beautiful Imperfection",
-      "poster": "https://image.tmdb.org/t/p/w500/9iHnoiriinpmYHPqprPrnHozU1L.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/q42pb6zBVgge7t8o6poZu0p5IHu.jpg",
-      "description": "L'histoire passionnée de la vie et de des amours de Lucia, une courtisane voilée de renom qui fait exception à la règle.",
       "releaseInfo": "2024"
     }
   ]

@@ -1,11 +1,20 @@
 {
   "metas": [
     {
+      "id": "tmdb:1453407",
+      "type": "movie",
+      "name": "Gajab Raat",
+      "poster": "https://image.tmdb.org/t/p/w500/e4N7M52cBbyi24xLga8yI6yt1u1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8I4YFWgi9IZW4VUi398A0BqLnm.jpg",
+      "description": "À New Delhi, Ajay Dikshit, un policier corrompu, voit ses projets de gains faciles voler en éclats lorsqu'une jeune femme grièvement blessée est jetée d'une voiture en marche. Déterminé à découvrir son identité, il se retrouve malgré lui au cœur d'une vaste conspiration aux ramifications internationales. Au fil d'une nuit particulièrement mouvementée, chaque décision l'entraîne un peu plus dans un engrenage dangereux, le contraignant à choisir entre ses intérêts personnels et son devoir de policier.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1234139",
       "type": "movie",
       "name": "ஜெயிலர் 2",
       "poster": "https://image.tmdb.org/t/p/w500/upwdEyhhYZ7pT2hD535fr2MGfpx.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zpHTOdRl7GEPqFsDGqsN6Hi9Ylt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/m0ks2o59mOAz6WdCybJ5FAUNTOU.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -14,6 +23,30 @@
       "name": "दृश्यम: आखिरी हिस्सा",
       "poster": "https://image.tmdb.org/t/p/w500/7T62GSduOWDMB0gGDBs9pmtLTSB.jpg",
       "background": "https://image.tmdb.org/t/p/w780/nq73eRdEooripf3k0XHLtX14zyC.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1515692",
+      "type": "movie",
+      "name": "பத்தா",
+      "poster": "https://image.tmdb.org/t/p/w500/7wHBYs8HHmTGe4nXLpMEAoDSK2o.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5sBnZMT1aJ6cBvehKOzOOLdI6bz.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1578079",
+      "type": "movie",
+      "name": "டோரதி",
+      "poster": "https://image.tmdb.org/t/p/w500/o3r5DmWhOKdFmeIUoRJj4CvCqOP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fPByMSinDUlJ05pMVw2sbqYF6Ew.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1376856",
+      "type": "movie",
+      "name": "ది ప్యారడైజ్",
+      "poster": "https://image.tmdb.org/t/p/w500/smghVMoMWSIFi5dgIz4w1UIcEcY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7AcH5TFppoMusNkCBLaQP6UOODp.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -26,10 +59,19 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1661926",
+      "type": "movie",
+      "name": "Les Éléphants dans la brume",
+      "poster": "https://image.tmdb.org/t/p/w500/fp3zTVnbK8jFbXYYUQdkRKty2ns.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hvVIS83R92hstmUzqA3WVofyUQ1.jpg",
+      "description": "Dans un village népalais niché au cœur d’une forêt peuplée d’éléphants sauvages vit une communauté kinnar aussi vénérée que crainte pour ses pouvoirs de bénédiction et de malédiction. Pirati, l'une des mères de la communauté, rêve de s’échapper avec l’homme qu’elle aime. Mais lorsqu’une de ses filles disparaît, elle se doit mener l'enquête et choisir entre son désir de liberté et ses responsabilités envers sa communauté.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1378537",
       "type": "movie",
       "name": "मिर्ज़ापुर - द मूवी",
-      "poster": "https://image.tmdb.org/t/p/w500/cdDKdCRyq6BYuNblpKUYqRPWvEg.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/jAt8u6MMIMnExmG6bN02EQyB0KR.jpg",
       "background": "https://image.tmdb.org/t/p/w780/nTkQBI8ldvPByIkxsemGxtKlr8E.jpg",
       "releaseInfo": "2026"
     },
@@ -47,7 +89,7 @@
       "type": "movie",
       "name": "மொத ராத்திரி",
       "poster": "https://image.tmdb.org/t/p/w500/3VuNFeniljhEe9MDW12MnDbETgH.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8Lq3f68f4WZpQrihDooNink8xJ7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aT8Uk5uQKBJ3Syt63SNdlPUwqI9.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -125,48 +167,6 @@
       "name": "धमाल ४",
       "poster": "https://image.tmdb.org/t/p/w500/oVij5aEEE6iI4PxB4i0CgKp8h0m.jpg",
       "background": "https://image.tmdb.org/t/p/w780/95sjD0dRajtU6SKD6Gq6PtrGoGY.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1155818",
-      "type": "movie",
-      "name": "Satluj - Punjab '95",
-      "poster": "https://image.tmdb.org/t/p/w500/hm4ou83RwLVwNj3HsmQuqC1qkWy.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/h7VptulPVCJUIvWCE2HzXdHljkj.jpg",
-      "description": "Basé sur des événements réels, le deuxième long métrage de Honey Trehan raconte l'histoire de la campagne courageuse du militant des droits humains Jaswant Singh Khalra pour découvrir la corruption meurtrière au plus bas de la période d'insurrection du Pendjab.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1443961",
-      "type": "movie",
-      "name": "రావు బహదూర్",
-      "poster": "https://image.tmdb.org/t/p/w500/9hzKAJImKEHBz0vnF5EazPMA8D4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zGbfaJpIFoUBYJJMm0ypQWPlKP5.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1122030",
-      "type": "movie",
-      "name": "अल्फा",
-      "poster": "https://image.tmdb.org/t/p/w500/mbz1hhLxj1P0Ni6AROznUzl8uMH.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/b4WXm5ahmtubYXy3wqHUG2nUKoM.jpg",
-      "description": "Lorsque Sita, une tueuse surentraînée élevée dans l'isolement comme super-soldate par un commandant renégat, découvre la sombre vérité sur sa famille et son enfance volée, elle fait équipe avec sa sœur perdue de vue depuis longtemps pour éliminer son créateur et son programme militaire illicite.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1169516",
-      "type": "movie",
-      "name": "Welcome To The Jungle",
-      "poster": "https://image.tmdb.org/t/p/w500/1JlfUuvvX5xLP2LIDah4JhWUtTx.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/96chPcURxg5thGyLqxO6otyxHFR.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1392469",
-      "type": "movie",
-      "name": "कॉकटेल २",
-      "poster": "https://image.tmdb.org/t/p/w500/oIQmtByV1LtEQSwM4EpdLTyoSlM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7CJQvCO8aNKEewAFw90qvQ7fr1T.jpg",
       "releaseInfo": "2026"
     }
   ]
