@@ -198,3 +198,26 @@
 .mc-studio-diff-examples ul{margin:0 0 9px;padding-left:22px;display:grid;gap:6px}
 .mc-studio-diff-examples li{font-size:.78rem;overflow-wrap:anywhere}
 @media(max-width:680px){.mc-studio-diff-intro{flex-direction:column}.mc-studio-diff-stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+
+/* Atelier d’accueil : commandes isolées et couleurs héritées du thème Ma-Collection. */
+.mc-studio-workshop{display:grid;gap:18px;min-width:0}
+.mc-studio-workshop h3{font-size:1.09rem;margin:0 0 6px}
+.mc-studio-workshop h4{font-size:.93rem;margin:0 0 8px}
+.mc-studio-workshop-panel{display:grid;gap:12px;min-width:0;padding:17px;border:1px solid var(--border,rgba(170,160,210,.22));border-radius:14px;background:var(--bg-card,rgba(40,35,65,.3))}
+.mc-studio-workshop-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(165px,1fr));gap:10px;align-items:end}
+.mc-studio-workshop-preview{margin:0;font-size:.82rem;font-weight:650;color:var(--accent-light,#c4a4ff)}
+.mc-studio-workshop-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:7px;max-height:310px;overflow:auto;min-width:0}
+.mc-studio-workshop-item{display:flex;gap:9px;align-items:center;min-width:0;padding:7px;border:1px solid var(--border,rgba(170,160,210,.15));border-radius:9px;cursor:pointer;background:var(--bg-elevated,rgba(90,75,145,.08))}
+.mc-studio-workshop-item input{accent-color:var(--accent,#9b76e4);flex-shrink:0}
+.mc-studio-workshop-item img,.mc-studio-workshop-placeholder{width:33px;height:44px;object-fit:cover;border-radius:5px;background:rgba(130,130,160,.18);flex-shrink:0}
+.mc-studio-workshop-placeholder{display:grid;place-items:center}
+.mc-studio-workshop-item span:last-child{min-width:0}
+.mc-studio-workshop-item strong{display:block;font-size:.77rem;overflow-wrap:anywhere}
+.mc-studio-workshop-item small{display:block;font-size:.65rem;color:var(--text-muted,#aaa);margin-top:4px}
+.mc-studio-workshop-copy{display:grid;gap:9px;padding:13px;border:1px dashed var(--border,rgba(180,150,235,.3));border-radius:11px}
+.mc-studio-workshop-copy>strong{font-size:.82rem}
+.mc-studio-workshop-copy>.mc-studio-hint{margin:0}
+.mc-studio-workshop-copy>button{justify-self:start;padding:10px 13px;border-radius:9px;background:rgba(150,110,230,.14);border:1px solid var(--border,rgba(165,135,235,.38));font:inherit;color:inherit;cursor:pointer;font-size:.78rem;font-weight:650}
+.mc-studio-workshop-copy>button:disabled{opacity:.35;cursor:not-allowed}
+@media(max-width:650px){.mc-studio-workshop-grid{grid-template-columns:1fr}.mc-studio-workshop-list{grid-template-columns:1fr}}
