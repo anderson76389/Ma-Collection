@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  assetUrl,captureDraft,validateDraft,applyDraft,originalsFor,decorateExport,STUDIO_SHAPES
+  assetUrl,captureDraft,validateDraft,applyDraft,originalsFor,decorateExport,previewLayout,STUDIO_SHAPES
 } from '../studio-avance-core.mjs';
 
 function fixture(){
@@ -112,4 +112,30 @@ test("La synchronisation optionnelle du nom/avatar n'est jamais activée par dé
   d.syncQuickEditor=true;
   const normalized=validateDraft(d,data);
   assert.equal(normalized.syncQuickEditor,true);
+});
+
+
+test('Aperçu du profil : seuls les dossiers activés et sélectionnés sont affichés',()=>{
+  const {data,sel}=fixture(),old=structuredClone(data),oldSel=structuredClone(sel);
+  const draft=captureDraft(data,sel,'Salon');
+  draft.sections[0].folders[1].enabled=false;
+  draft.sections[1].enabled=false;
+  draft.sections[0].folders[0].artwork.coverImageUrl='https://ma-art.mailpromahe.workers.dev/media/custom.webp';
+  const rows=previewLayout(draft,originalsFor(data));
+  assert.equal(rows.length,1);
+  assert.equal(rows[0].total,1);
+  assert.equal(rows[0].folders[0].label,'Netflix');
+  assert.equal(rows[0].folders[0].sourceCount,2);
+  assert.equal(rows[0].folders[0].coverImageUrl,draft.sections[0].folders[0].artwork.coverImageUrl);
+  assert.deepEqual(data,old);
+  assert.deepEqual(sel,oldSel);
+});
+test('Aperçu : la limite d’affichage ne supprime aucun dossier du profil',()=>{
+  const {data,sel}=fixture(),draft=captureDraft(data,sel);
+  const rows=previewLayout(draft,originalsFor(data),1);
+  assert.equal(rows[0].total,2);
+  assert.equal(rows[0].folders.length,1);
+  assert.equal(rows[0].omitted,1);
+  assert.equal(draft.sections[0].folders.length,2);
+  assert.deepEqual(previewLayout(null),[]);
 });
