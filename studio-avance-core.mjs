@@ -186,3 +186,83 @@ export function previewLayout(draft, originals = {}, maxPerSection = 24) {
     };
   }).filter(s => s.total > 0);
 }
+
+
+/**
+ * Recherche globale dans un brouillon, indépendante de l'interface et du réseau.
+ * Ne consulte ni Kaptain ni Nuvio. Les résultats sont plafonnés pour le DOM.
+ */
+export function searchDraft(draft, query, options = {}) {
+  const norm = v => String(v ?? '').normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('fr').trim();
+  const needle = norm(query);
+  const limit = Number.isFinite(options.limit)
+    ? Math.max(1,Math.min(200,Math.trunc(options.limit))) : 80;
+  const activeOnly = !!options.activeOnly;
+  const noCoverOnly = !!options.noCoverOnly;
+  let total = 0;
+  const results = [];
+  for(const section of Array.isArray(draft?.sections) ? draft.sections : []){
+    for(const folder of Array.isArray(section?.folders) ? section.folders : []){
+      const sources = Array.isArray(folder?.selectedKeys) ? folder.selectedKeys : [];
+      const active = section.enabled !== false && folder.enabled !== false && sources.length > 0;
+      const cover = String(folder?.artwork?.coverImageUrl || '');
+      if(activeOnly && !active) continue;
+      if(noCoverOnly && cover) continue;
+      const haystack = norm([section.label,folder.label,...sources].join(' '));
+      if(needle && !haystack.includes(needle)) continue;
+      total++;
+      if(results.length < limit) results.push({
+        sectionId:String(section.id||''),sectionLabel:String(section.label||''),
+        folderId:String(folder.id||''),folderLabel:String(folder.label||''),
+        active,sourceCount:sources.length,coverImageUrl:cover
+      });
+    }
+  }
+  return {total,results,omitted:Math.max(0,total-results.length)};
+}
+
+/**
+ * Point de restauration temporaire de l'éditeur local. Les tableaux et objets
+ * existants conservent leur identité pour les autres modules Ma-Collection.
+ * Ne comprend ni les identifiants, ni les mots de passe, ni les clés API.
+ */
+export function captureStudioUndo(categories, selection) {
+  const props=[...STUDIO_FIELDS,'tileShape','hideTitle','focusGlowEnabled','focusGifEnabled'];
+  return {
+    categoryOrder:[...categories],
+    folderOrders:categories.map(c=>[c,Array.isArray(c.folders)?[...c.folders]:null]),
+    values:categories.flatMap(c=>(c.folders||[]).map(f=>[
+      f,Object.fromEntries(props.map(k=>[k,{present:Object.hasOwn(f,k),value:f[k]}]))
+    ])),
+    selection:Object.fromEntries(Object.entries(selection||{}).map(([k,v])=>[k,
+      plain(v)?{...v}:v
+    ]))
+  };
+}
+export function restoreStudioUndo(snapshot, categories, selection) {
+  if(!snapshot || !Array.isArray(snapshot.categoryOrder) || !Array.isArray(categories) ||
+      !plain(selection)) throw Error('Sauvegarde locale incompatible');
+  categories.splice(0,categories.length,...snapshot.categoryOrder);
+  for(const [cat,folders] of snapshot.folderOrders){
+    if(folders && Array.isArray(cat.folders))cat.folders.splice(0,cat.folders.length,...folders);
+  }
+  for(const [folder,props] of snapshot.values){
+    for(const [key,entry] of Object.entries(props)){
+      if(entry.present)folder[key]=entry.value;
+      else delete folder[key];
+    }
+  }
+  const previous=snapshot.selection;
+  for(const key of Object.keys(selection)){
+    if(!Object.hasOwn(previous,key))delete selection[key];
+  }
+  for(const [key,value] of Object.entries(previous)){
+    if(plain(value)){
+      if(!plain(selection[key]))selection[key]={};
+      for(const k of Object.keys(selection[key]))if(!Object.hasOwn(value,k))delete selection[key][k];
+      Object.assign(selection[key],value);
+    }else selection[key]=value;
+  }
+  return true;
+}
