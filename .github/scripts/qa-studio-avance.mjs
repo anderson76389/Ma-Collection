@@ -120,6 +120,15 @@ await test('recherche globale : retrouver et ouvrir un dossier du brouillon',asy
   // Ne pas fermer le Studio : le brouillon et ses modifications doivent être appliqués au test suivant.
   await page.locator('[data-tab=profils]').click();
 });
+await test('onglet Avant / Après : aperçu fiable avant application',async()=>{
+  await page.locator('[data-tab=modifications]').click();
+  assert.equal(await page.locator('[data-tab=modifications]').getAttribute('aria-selected'),'true');
+  assert(await page.locator('.mc-studio-diff-stats').isVisible());
+  const changed=await page.locator('.mc-studio-diff-stat.is-changed').count();
+  assert(changed>0,'Les modifications du brouillon doivent être détectées');
+  await page.locator('[data-action=diff-organisation]').click();
+  assert.equal(await page.locator('[data-tab=organisation]').getAttribute('aria-selected'),'true');
+});
 await test('application : export personnalisé sans écraser les titres internes',async()=>{
   await page.locator('[data-action=apply]').click();
   // L'application attend une sauvegarde IndexedDB : contrôler l'état final.
