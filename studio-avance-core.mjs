@@ -266,3 +266,84 @@ export function restoreStudioUndo(snapshot, categories, selection) {
   }
   return true;
 }
+
+
+/**
+ * Comparateur de brouillons, sans effet de bord et sans requête réseau.
+ * Les sources désactivées par leur dossier/section ne comptent pas comme actives.
+ * La liste des exemples est volontairement limitée pour les gros catalogues.
+ */
+export function compareStudioDrafts(current,next,exampleLimit=12){
+  const total={
+    sectionOrder:0,folderOrders:0,sectionsEnabled:0,sectionsDisabled:0,
+    foldersEnabled:0,foldersDisabled:0,sourcesEnabled:0,sourcesDisabled:0,
+    artworks:0,labels:0,presentation:0
+  };
+  const examples=[];
+  const limit=Number.isFinite(exampleLimit)?Math.max(0,Math.min(30,Math.trunc(exampleLimit))):12;
+  const note=msg=>{if(examples.length<limit)examples.push(msg);};
+  const sectionsA=Array.isArray(current?.sections)?current.sections:[];
+  const sectionsB=Array.isArray(next?.sections)?next.sections:[];
+  const aSection=new Map(sectionsA.map(c=>[String(c.id),c]));
+  const bSection=new Map(sectionsB.map(c=>[String(c.id),c]));
+  const commonSections=sectionsA.map(s=>String(s.id)).filter(id=>bSection.has(id));
+  const nextSections=sectionsB.map(s=>String(s.id)).filter(id=>aSection.has(id));
+  if(commonSections.join('\u0000')!==nextSections.join('\u0000')){
+    total.sectionOrder++;
+    note('Ordre des sections modifié');
+  }
+  for(const [id,nextSection] of bSection){
+    const oldSection=aSection.get(id);
+    if(!oldSection)continue;
+    const secName=String(nextSection.label||oldSection.label||id);
+    if(!!oldSection.enabled!==!!nextSection.enabled){
+      const key=nextSection.enabled?'sectionsEnabled':'sectionsDisabled';
+      total[key]++;
+      note(secName+' : section '+(nextSection.enabled?'activée':'désactivée'));
+    }
+    if(String(oldSection.label)!==String(nextSection.label)){
+      total.labels++;note(secName+' : nom de section modifié');
+    }
+    const oldFolders=new Map((oldSection.folders||[]).map(f=>[String(f.id),f]));
+    const nextFolders=new Map((nextSection.folders||[]).map(f=>[String(f.id),f]));
+    const orderA=(oldSection.folders||[]).map(f=>String(f.id)).filter(fid=>nextFolders.has(fid));
+    const orderB=(nextSection.folders||[]).map(f=>String(f.id)).filter(fid=>oldFolders.has(fid));
+    if(orderA.join('\u0000')!==orderB.join('\u0000')){
+      total.folderOrders++;note(secName+' : ordre des dossiers modifié');
+    }
+    for(const [fid,newFolder] of nextFolders){
+      const old=oldFolders.get(fid);if(!old)continue;
+      const name=String(newFolder.label||old.label||fid);
+      const oldSelected=new Set(old.selectedKeys||[]);
+      const newSelected=new Set(newFolder.selectedKeys||[]);
+      const wasActive=!!oldSection.enabled&&!!old.enabled&&oldSelected.size>0;
+      const isActive=!!nextSection.enabled&&!!newFolder.enabled&&newSelected.size>0;
+      if(wasActive!==isActive){
+        total[isActive?'foldersEnabled':'foldersDisabled']++;
+        note(name+' : dossier '+(isActive?'activé':'désactivé'));
+      }
+      const before=wasActive?oldSelected:new Set();
+      const after=isActive?newSelected:new Set();
+      for(const src of after)if(!before.has(src))total.sourcesEnabled++;
+      for(const src of before)if(!after.has(src))total.sourcesDisabled++;
+      const oldArtwork=old.artwork||{},newArtwork=newFolder.artwork||{};
+      const changedFields=STUDIO_FIELDS.filter(field=>
+        String(oldArtwork[field]||'')!==String(newArtwork[field]||''));
+      if(changedFields.length){
+        total.artworks+=changedFields.length;
+        note(name+' : '+changedFields.length+' visuel'+(changedFields.length>1?'s':'')+' modifié'+(changedFields.length>1?'s':''));
+      }
+      if(String(old.label)!==String(newFolder.label)){
+        total.labels++;note(name+' : nom du dossier modifié');
+      }
+      const presentationFields=['shape','hideTitle','focusGlowEnabled','focusGifEnabled'];
+      const changedStyle=presentationFields.filter(field=>String(old[field])!==String(newFolder[field])).length;
+      if(changedStyle){
+        total.presentation+=changedStyle;
+        note(name+' : '+changedStyle+' option'+(changedStyle>1?'s':'')+' d’affichage modifiée'+(changedStyle>1?'s':''));
+      }
+    }
+  }
+  const changeCount=Object.values(total).reduce((sum,n)=>sum+n,0);
+  return {total,changeCount,examples};
+}
