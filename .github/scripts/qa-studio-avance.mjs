@@ -216,6 +216,37 @@ await test('historique persistant : sauvegarde, rechargement, restauration et ex
     await history.waitForFunction(()=>document.querySelectorAll('.mc-studio-backup-item').length===0);
   }finally{await history.close();}
 });
+await test('outils d’accueil : rangement et styles en lot dans un brouillon non destructif',async()=>{
+  const atelier=await browser.newPage({viewport:{width:1180,height:870}});
+  atelier.setDefaultTimeout(12000);
+  try{
+    await atelier.goto(base,{waitUntil:'domcontentloaded',timeout:45000});
+    await atelier.waitForFunction(()=>window.MaCollectionStudio?.open && window.collectionData?.length>=16,
+      null,{timeout:60000});
+    const before=await atelier.evaluate(()=>JSON.stringify(window.collectionData));
+    await atelier.evaluate(()=>window.MaCollectionStudio.open());
+    await atelier.locator('[data-tab=outils]').click();
+    assert(await atelier.locator('.mc-studio-workshop-list').isVisible());
+    await atelier.locator('[data-workshop-section]').selectOption({index:1});
+    await atelier.locator('[data-action=workshop-select-visible]').click();
+    assert(await atelier.locator('[data-workshop-target]:checked').count()>0);
+    await atelier.locator('[data-workshop-shape]').selectOption('SQUARE');
+    await atelier.locator('[data-workshop-hide]').selectOption('true');
+    await atelier.locator('[data-action=workshop-apply]').click();
+    assert((await atelier.locator('.mc-studio-status').textContent()).includes('dossier(s) modifié(s)'));
+    assert.equal(await atelier.evaluate(()=>JSON.stringify(window.collectionData)),before,
+      'Les réglages de lot doivent rester dans le brouillon');
+    await atelier.locator('[data-action=workshop-undo]').click();
+    assert((await atelier.locator('.mc-studio-status').textContent()).includes('annulée'));
+    await atelier.locator('[data-workshop-mode]').selectOption('alphabetical');
+    assert(await atelier.locator('.mc-studio-workshop-preview').isVisible());
+    if(await atelier.locator('[data-action=workshop-tidy]').isEnabled()){
+      await atelier.locator('[data-action=workshop-tidy]').click();
+      assert.equal(await atelier.evaluate(()=>JSON.stringify(window.collectionData)),before);
+    }
+    await atelier.locator('[data-action=close]').click();
+  }finally{await atelier.close();}
+});
 await test('aucune erreur JavaScript fatale',async()=>{
   assert.deepEqual(errors,[]);
 });

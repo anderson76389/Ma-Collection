@@ -5,6 +5,7 @@ import {
   captureStudioUndo, restoreStudioUndo, compareStudioDrafts, uid
 } from './studio-avance-core.mjs';
 import {createStudioBackupStore,makeStudioBackup} from './studio-backups.mjs';
+import {studioFolderKey,studioTidy,studioApplyBatch} from './studio-workshop-core.mjs';
 
 /* Atelier indépendant : thème existant conservé, aucune connexion à Kaptain. */
 (() => {
@@ -19,6 +20,8 @@ import {createStudioBackupStore,makeStudioBackup} from './studio-backups.mjs';
   let dragging=null;
   let previewDevice='tv',globalQuery='',globalActiveOnly=false,globalNoCover=false,undoLast=null;
   let backups=[],backupError='',applying=false;
+  let workshopSearch='',workshopSection='all',workshopSelected=new Set(),workshopMode='active-first';
+  let workshopSortSections=true,workshopSortFolders=true,workshopUndo=null;
   let artLookIndex=0, artSearch='', artMoreOnly=false, artNeedsAttention=false, showBatch=false;
   const findCategory=id=>data().find(c=>String(c.id)===String(id));
   const findFolder=(cid,fid)=>findCategory(cid)?.folders?.find(f=>folderId(f)===String(fid));
@@ -246,6 +249,7 @@ import {createStudioBackupStore,makeStudioBackup} from './studio-backups.mjs';
     if(!originals)originals=originalsFor(data());
     load();draft=getBase();pickSection();tab='organisation';query='';message='';
     artLookIndex=0;artSearch='';artMoreOnly=false;artNeedsAttention=false;showBatch=false;previewDevice='tv';globalQuery='';globalActiveOnly=false;globalNoCover=false;
+    workshopSelected=new Set();workshopUndo=null;workshopSearch='';workshopSection='all';
     if(!root)mount();
     root.hidden=false;draw();refreshBackups();document.addEventListener('keydown',onEscape,true);
     root.querySelector('.mc-studio-close')?.focus();
@@ -448,6 +452,60 @@ import {createStudioBackupStore,makeStudioBackup} from './studio-backups.mjs';
       '<p class="mc-studio-hint">Si tu appliques le brouillon, une sauvegarde automatique de la configuration précédente est tentée. Les changements restent annulables pendant cette session.</p>'+
       '</div>';
   }
+  function workshopFolders(){
+    const needle=workshopSearch.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('fr').trim();
+    const normalize=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('fr');
+    return (draft?.sections||[]).flatMap(sec=>
+      (sec.folders||[]).filter(f=>(workshopSection==='all'||workshopSection===sec.id)&&
+        (!needle||normalize(sec.label+' '+f.label).includes(needle)))
+      .map(f=>({section:sec,folder:f,key:studioFolderKey(sec.id,f.id)}))
+    );
+  }
+  function renderWorkshop(){
+    const all=workshopFolders(),shown=all.slice(0,100);
+    const keys=new Set(all.map(x=>x.key));
+    const selected=[...workshopSelected].filter(k=>keys.has(k)).length;
+    const preview=studioTidy(draft,{mode:workshopMode,sections:workshopSortSections,folders:workshopSortFolders},true);
+    const options='<option value="all">Toutes les sections</option>'+
+      draft.sections.map(sec=>'<option value="'+esc(sec.id)+'" '+(workshopSection===sec.id?'selected':'')+'>'+esc(sec.label)+'</option>').join('');
+    const names=shown.map(({section:sec,folder:f,key})=>'<label class="mc-studio-workshop-item">'+
+      '<input type="checkbox" data-workshop-target="'+esc(key)+'" '+(workshopSelected.has(key)?'checked':'')+'>'+
+      (f.artwork?.coverImageUrl?'<img src="'+esc(f.artwork.coverImageUrl)+'" loading="lazy" alt="">':
+      '<span class="mc-studio-workshop-placeholder" aria-hidden="true">▣</span>')+
+      '<span><strong>'+esc(f.label)+'</strong><small>'+esc(sec.label)+' · '+(f.selectedKeys||[]).length+' source(s)</small></span></label>').join('');
+    const field=(label,attr,items)=>'<label class="mc-studio-field">'+esc(label)+'<select '+attr+'>'+
+      items.map(([value,text])=>'<option value="'+esc(value)+'">'+esc(text)+'</option>').join('')+'</select></label>';
+    const switches=[['','Ne pas modifier'],['true','Activer'],['false','Désactiver']];
+    return '<div class="mc-studio-workshop">'+
+      '<div><h3>Outils d’accueil et d’affiches</h3><p class="mc-studio-hint">Organise des centaines de dossiers ou applique les mêmes options à plusieurs affiches. Tout reste dans le brouillon jusqu’à « Appliquer ce profil ».</p></div>'+
+      '<section class="mc-studio-workshop-panel"><h4>Rangement intelligent de l’accueil</h4>'+
+      '<p class="mc-studio-hint">Réorganise les dossiers sans en supprimer un seul. L’ordre d’origine est préservé entre éléments de même priorité.</p>'+
+      '<div class="mc-studio-workshop-grid">'+'<label class="mc-studio-field">Méthode<select data-workshop-mode><option value="active-first" '+(workshopMode==='active-first'?'selected':'')+'>Actifs en premier</option><option value="alphabetical" '+(workshopMode==='alphabetical'?'selected':'')+'>Ordre alphabétique français</option></select></label>'+
+      '<label class="mc-studio-check"><input type="checkbox" data-workshop-sortsections '+(workshopSortSections?'checked':'')+'> Trier les sections</label>'+
+      '<label class="mc-studio-check"><input type="checkbox" data-workshop-sortfolders '+(workshopSortFolders?'checked':'')+'> Trier les dossiers</label></div>'+
+      '<p class="mc-studio-workshop-preview">Prévision : '+preview.sectionsMoved+' section(s) et '+preview.foldersMoved+' dossier(s) changeraient de position.</p>'+
+      '<div class="mc-studio-actions-grid">'+button('Ranger ce brouillon','workshop-tidy',preview.changed?'':'disabled')+
+      (workshopUndo?button('↶ Annuler le dernier lot','workshop-undo'):'')+'</div></section>'+
+      '<section class="mc-studio-workshop-panel"><h4>Personnalisation de plusieurs dossiers</h4>'+
+      '<div class="mc-studio-workshop-grid">'+
+      '<label class="mc-studio-field">Chercher dans les dossiers<input type="search" data-workshop-search value="'+esc(workshopSearch)+'" placeholder="Nom du dossier…" autocomplete="off"></label>'+
+      '<label class="mc-studio-field">Catégorie<select data-workshop-section>'+options+'</select></label></div>'+
+      '<div class="mc-studio-actions-grid">'+button('Tout sélectionner dans la liste','workshop-select-visible')+
+      button('Effacer la sélection','workshop-clear')+'</div>'+
+      '<p class="mc-studio-hint">'+all.length+' dossier(s) trouvés · '+workshopSelected.size+' sélectionné(s). Affichage limité aux 100 premiers ; précise la recherche pour les autres.</p>'+
+      '<div class="mc-studio-workshop-list">'+(names||'<p class="mc-studio-muted">Aucun dossier correspondant.</p>')+'</div>'+
+      '<div class="mc-studio-workshop-grid">'+
+      field('Format','data-workshop-shape',[['','Ne pas modifier'],['POSTER','Affiche verticale'],['LANDSCAPE','Paysage'],['SQUARE','Carré']])+
+      field('Titres','data-workshop-hide',[['','Ne pas modifier'],['true','Masquer'],['false','Afficher']])+
+      field('Lueur de sélection','data-workshop-glow',switches)+
+      field('Animation GIF','data-workshop-gif',switches)+'</div>'+
+      '<div class="mc-studio-actions-grid">'+button('Appliquer aux dossiers sélectionnés','workshop-apply',workshopSelected.size?'':'disabled')+'</div>'+
+      '<div class="mc-studio-workshop-copy"><strong>Copier depuis le dossier actuellement ouvert dans « Affiches & sources »</strong>'+
+      '<p class="mc-studio-hint">Copie uniquement le format et les effets visuels par défaut, sans remplacer les images de chaque dossier.</p>'+
+      '<label class="mc-studio-check"><input type="checkbox" data-workshop-copy-art> Copier également les images, fonds, logos et GIF (option explicite)</label>'+
+      button('Copier le style du dossier courant','workshop-copy',workshopSelected.size?'':'disabled')+'</div>'+
+      '</section></div>';
+  }
   function renderGlobalSearch(){
     const hasInput=!!globalQuery.trim()||globalActiveOnly||globalNoCover;
     const found=hasInput?searchDraft(draft,globalQuery,{activeOnly:globalActiveOnly,noCoverOnly:globalNoCover,limit:100}):
@@ -527,7 +585,7 @@ import {createStudioBackupStore,makeStudioBackup} from './studio-backups.mjs';
     const body=html();if(!body)return;
     root.querySelector('.mc-studio-title').textContent=draft.name;
     root.querySelectorAll('[data-tab]').forEach(x=>{x.classList.toggle('active',x.dataset.tab===tab);x.setAttribute('aria-selected',String(x.dataset.tab===tab));});
-    body.innerHTML=(tab==='organisation'?renderSections():tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():tab==='modifications'?renderChanges():renderProfiles());
+    body.innerHTML=(tab==='organisation'?renderSections():tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():tab==='modifications'?renderChanges():tab==='outils'?renderWorkshop():renderProfiles());
     const undo=root.querySelector('[data-action="undo-apply"]');if(undo)undo.hidden=!undoLast;
     const status=root.querySelector('.mc-studio-status');if(status)status.textContent=message;
   }
@@ -539,6 +597,12 @@ import {createStudioBackupStore,makeStudioBackup} from './studio-backups.mjs';
       if(el.matches('[data-global-search]')){const caret=el.selectionStart;globalQuery=el.value;draw();const input=root.querySelector('[data-global-search]');input?.focus();if(caret!==null)input?.setSelectionRange(caret,caret);return;}
       if(el.matches('[data-global-active]')){globalActiveOnly=el.checked;draw();return;}
       if(el.matches('[data-global-no-cover]')){globalNoCover=el.checked;draw();return;}
+      if(el.matches('[data-workshop-search]')){const caret=el.selectionStart;workshopSearch=el.value;draw();const input=root.querySelector('[data-workshop-search]');input?.focus();if(caret!==null)input?.setSelectionRange(caret,caret);return;}
+      if(el.matches('[data-workshop-section]')){workshopSection=el.value;draw();return;}
+      if(el.matches('[data-workshop-target]')){const k=el.dataset.workshopTarget;if(el.checked)workshopSelected.add(k);else workshopSelected.delete(k);draw();return;}
+      if(el.matches('[data-workshop-mode]')){workshopMode=el.value;draw();return;}
+      if(el.matches('[data-workshop-sortsections]')){workshopSortSections=el.checked;draw();return;}
+      if(el.matches('[data-workshop-sortfolders]')){workshopSortFolders=el.checked;draw();return;}
       if(el.matches('[data-art-section]')){
         pickSection(el.value);artLookIndex=0;artSearch='';showBatch=false;draw();return;
       }
@@ -626,6 +690,47 @@ import {createStudioBackupStore,makeStudioBackup} from './studio-backups.mjs';
       else tab='organisation';
       draw();
     }
+    else if(a==='workshop-select-visible'){
+      for(const x of workshopFolders().slice(0,100))workshopSelected.add(x.key);
+      message='Dossiers affichés ajoutés à la sélection.';draw();
+    }
+    else if(a==='workshop-clear'){workshopSelected.clear();message='Sélection effacée.';draw();}
+    else if(a==='workshop-undo'){
+      if(workshopUndo){draft=workshopUndo;workshopUndo=null;message='Dernière opération de l’atelier annulée dans le brouillon.';draw();}
+    }
+    else if(a==='workshop-tidy'){
+      try{
+        const opts={mode:workshopMode,sections:workshopSortSections,folders:workshopSortFolders};
+        const plan=studioTidy(draft,opts,true);
+        if(!plan.changed)return;
+        workshopUndo=copy(draft);
+        const result=studioTidy(draft,opts,false);
+        message='Rangement appliqué uniquement au brouillon : '+result.sectionsMoved+' sections et '+result.foldersMoved+' dossiers déplacés.';
+        draw();
+      }catch(error){message='Rangement refusé : '+error.message;draw();}
+    }
+    else if(a==='workshop-apply'||a==='workshop-copy'){
+      try{
+        const keys=[...workshopSelected],opts={};
+        if(a==='workshop-copy'){
+          if(!section()?.folders.some(f=>f.id===selectedFolder))throw Error('Sélectionne d’abord le dossier source dans « Affiches & sources ».');
+          opts.copyFrom=studioFolderKey(selectedSection,selectedFolder);
+          opts.copyArtwork=!!root.querySelector('[data-workshop-copy-art]')?.checked;
+          if(opts.copyArtwork&&!window.confirm('Remplacer volontairement les affiches, fonds, logos et GIF de tous les dossiers sélectionnés par ceux du dossier source ?'))return;
+        }else{
+          const shape=root.querySelector('[data-workshop-shape]')?.value||'';
+          if(shape)opts.shape=shape;
+          for(const [field,prop] of [['hideTitle','hide'],['focusGlowEnabled','glow'],['focusGifEnabled','gif']]){
+            const value=root.querySelector('[data-workshop-'+prop+']')?.value;
+            if(value==='true'||value==='false')opts[field]=value==='true';
+          }
+        }
+        const before=copy(draft),result=studioApplyBatch(draft,keys,opts);
+        workshopUndo=before;
+        message=result.changed+' dossier(s) modifié(s) sur '+result.selected+' sélectionnés. Aucune source supprimée. Clique sur Appliquer le profil pour exporter.';
+        draw();
+      }catch(error){message='Modification en lot refusée : '+error.message;draw();}
+    }
     else if(a==='batch-open'){showBatch=true;draw();}
     else if(a==='batch-close'){showBatch=false;draw();}
     else if(a==='batch-apply'){
@@ -693,6 +798,7 @@ import {createStudioBackupStore,makeStudioBackup} from './studio-backups.mjs';
       '<button role="tab" data-tab="apercu">Aperçu accueil</button>'+
       '<button role="tab" data-tab="recherche">Recherche globale</button>'+
       '<button role="tab" data-tab="modifications">Avant / Après</button>'+
+      '<button role="tab" data-tab="outils">Outils d’accueil</button>'+
       '<button role="tab" data-tab="profils">Profils & sauvegardes</button></nav>'+
       '<main class="mc-studio-content"></main>'+
       '<div class="mc-studio-status" role="status" aria-live="polite"></div>'+
@@ -732,7 +838,7 @@ import {createStudioBackupStore,makeStudioBackup} from './studio-backups.mjs';
     });
     root.addEventListener('dragend',()=>{dragging=null;});
     root.addEventListener('change',change);
-    root.addEventListener('input',e=>{if(e.target.matches('[data-search],[data-global-search]'))change(e);});
+    root.addEventListener('input',e=>{if(e.target.matches('[data-search],[data-global-search],[data-workshop-search]'))change(e);});
     root.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>{
       tab=b.dataset.tab;if(tab==='affiches'&&!selectedFolder)selectedFolder=section()?.folders[0]?.id;message='';draw();
     }));
