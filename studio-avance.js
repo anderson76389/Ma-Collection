@@ -6,6 +6,7 @@ import {
 } from './studio-avance-core.mjs';
 import {createStudioBackupStore,makeStudioBackup} from './studio-backups.mjs';
 import {studioFolderKey,studioTidy,studioApplyBatch} from './studio-workshop-core.mjs';
+import {listStudioArtworks,searchStudioArtworks,useStudioArtwork} from './studio-art-library.mjs';
 
 /* Atelier indépendant : thème existant conservé, aucune connexion à Kaptain. */
 (() => {
@@ -22,6 +23,7 @@ import {studioFolderKey,studioTidy,studioApplyBatch} from './studio-workshop-cor
   let backups=[],backupError='',applying=false;
   let workshopSearch='',workshopSection='all',workshopSelected=new Set(),workshopMode='active-first';
   let workshopSortSections=true,workshopSortFolders=true,workshopUndo=null;
+  let libraryQuery='',libraryFilter='all',libraryUndo=null;
   let artLookIndex=0, artSearch='', artMoreOnly=false, artNeedsAttention=false, showBatch=false;
   const findCategory=id=>data().find(c=>String(c.id)===String(id));
   const findFolder=(cid,fid)=>findCategory(cid)?.folders?.find(f=>folderId(f)===String(fid));
@@ -250,6 +252,7 @@ import {studioFolderKey,studioTidy,studioApplyBatch} from './studio-workshop-cor
     load();draft=getBase();pickSection();tab='organisation';query='';message='';
     artLookIndex=0;artSearch='';artMoreOnly=false;artNeedsAttention=false;showBatch=false;previewDevice='tv';globalQuery='';globalActiveOnly=false;globalNoCover=false;
     workshopSelected=new Set();workshopUndo=null;workshopSearch='';workshopSection='all';
+    libraryQuery='';libraryFilter='all';libraryUndo=null;
     if(!root)mount();
     root.hidden=false;draw();refreshBackups();document.addEventListener('keydown',onEscape,true);
     root.querySelector('.mc-studio-close')?.focus();
@@ -461,6 +464,33 @@ import {studioFolderKey,studioTidy,studioApplyBatch} from './studio-workshop-cor
       .map(f=>({section:sec,folder:f,key:studioFolderKey(sec.id,f.id)}))
     );
   }
+  function renderArtLibrary(){
+    const entries=listStudioArtworks(draft,originals||{});
+    const found=searchStudioArtworks(entries,libraryQuery,{sectionId:libraryFilter,limit:90});
+    const current=section(),target=folder();
+    const opts='<option value="all">Toutes les catégories</option>'+
+      draft.sections.map(s=>'<option value="'+esc(s.id)+'" '+(libraryFilter===s.id?'selected':'')+'>'+esc(s.label)+'</option>').join('');
+    const tiles=found.results.map((item,index)=>
+      '<div class="mc-studio-library-card">'+
+      '<img src="'+esc(item.url)+'" alt="Affiche '+esc(item.folderLabel)+'" loading="lazy" decoding="async">'+
+      '<div class="mc-studio-library-details"><strong>'+esc(item.folderLabel)+'</strong>'+
+      '<small>'+esc(item.sectionLabel)+' · '+esc(item.kind)+'</small></div>'+
+      button('Utiliser cette affiche','library-use','data-index="'+index+'"')+'</div>'
+    ).join('');
+    return '<div class="mc-studio-library">'+
+      '<div><h3>Bibliothèque d’affiches indépendante</h3>'+
+      '<p class="mc-studio-hint">Retrouve toutes les affiches déjà connues de tes collections et tes variantes personnelles. Les fichiers gardent leur URL d’origine, sans perte de qualité ni téléchargement depuis Kaptain.</p></div>'+
+      '<div class="mc-studio-library-target"><div><strong>Destination : '+esc(target?.label||'Aucun dossier sélectionné')+'</strong>'+
+      '<small>'+esc(current?.label||'')+'</small></div>'+
+      button('Changer de dossier dans les affiches','library-target')+'</div>'+
+      '<div class="mc-studio-workshop-grid">'+
+      '<label class="mc-studio-field">Chercher un dossier ou un visuel<input type="search" data-library-search value="'+esc(libraryQuery)+'" placeholder="Films, animés, plateformes…" autocomplete="off"></label>'+
+      '<label class="mc-studio-field">Catégorie<select data-library-filter>'+opts+'</select></label></div>'+
+      '<p class="mc-studio-hint">'+found.total+' affiche(s) trouvée(s). '+(found.omitted?'Affichage des 90 premiers résultats, affine la recherche.':'')+'</p>'+
+      '<div class="mc-studio-library-gallery">'+(tiles||'<p class="mc-studio-muted">Aucun visuel correspondant.</p>')+'</div>'+
+      '<div class="mc-studio-actions-grid">'+(libraryUndo?button('↶ Annuler le choix d’affiche','library-undo'):'')+'</div>'+
+      '<p class="mc-studio-hint">Seule l’affiche principale du dossier cible est modifiée dans le brouillon. Ses sources, fonds, logos, GIF et paramètres d’affichage restent inchangés. Applique ensuite le profil pour exporter le choix.</p></div>';
+  }
   function renderWorkshop(){
     const all=workshopFolders(),shown=all.slice(0,100);
     const keys=new Set(all.map(x=>x.key));
@@ -585,7 +615,7 @@ import {studioFolderKey,studioTidy,studioApplyBatch} from './studio-workshop-cor
     const body=html();if(!body)return;
     root.querySelector('.mc-studio-title').textContent=draft.name;
     root.querySelectorAll('[data-tab]').forEach(x=>{x.classList.toggle('active',x.dataset.tab===tab);x.setAttribute('aria-selected',String(x.dataset.tab===tab));});
-    body.innerHTML=(tab==='organisation'?renderSections():tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():tab==='modifications'?renderChanges():tab==='outils'?renderWorkshop():renderProfiles());
+    body.innerHTML=(tab==='organisation'?renderSections():tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():tab==='modifications'?renderChanges():tab==='outils'?renderWorkshop():tab==='bibliotheque'?renderArtLibrary():renderProfiles());
     const undo=root.querySelector('[data-action="undo-apply"]');if(undo)undo.hidden=!undoLast;
     const status=root.querySelector('.mc-studio-status');if(status)status.textContent=message;
   }
@@ -597,6 +627,8 @@ import {studioFolderKey,studioTidy,studioApplyBatch} from './studio-workshop-cor
       if(el.matches('[data-global-search]')){const caret=el.selectionStart;globalQuery=el.value;draw();const input=root.querySelector('[data-global-search]');input?.focus();if(caret!==null)input?.setSelectionRange(caret,caret);return;}
       if(el.matches('[data-global-active]')){globalActiveOnly=el.checked;draw();return;}
       if(el.matches('[data-global-no-cover]')){globalNoCover=el.checked;draw();return;}
+      if(el.matches('[data-library-search]')){const caret=el.selectionStart;libraryQuery=el.value;draw();const input=root.querySelector('[data-library-search]');input?.focus();if(caret!==null)input?.setSelectionRange(caret,caret);return;}
+      if(el.matches('[data-library-filter]')){libraryFilter=el.value;draw();return;}
       if(el.matches('[data-workshop-search]')){const caret=el.selectionStart;workshopSearch=el.value;draw();const input=root.querySelector('[data-workshop-search]');input?.focus();if(caret!==null)input?.setSelectionRange(caret,caret);return;}
       if(el.matches('[data-workshop-section]')){workshopSection=el.value;draw();return;}
       if(el.matches('[data-workshop-target]')){const k=el.dataset.workshopTarget;if(el.checked)workshopSelected.add(k);else workshopSelected.delete(k);draw();return;}
@@ -689,6 +721,23 @@ import {studioFolderKey,studioTidy,studioApplyBatch} from './studio-workshop-cor
       if(id&&section()?.folders.some(f=>f.id===id)){selectedFolder=id;tab='affiches';}
       else tab='organisation';
       draw();
+    }
+    else if(a==='library-target'){tab='affiches';draw();}
+    else if(a==='library-undo'){
+      if(libraryUndo){draft=libraryUndo;libraryUndo=null;message='Choix de visuel annulé dans le brouillon.';draw();}
+    }
+    else if(a==='library-use'){
+      try{
+        const candidates=searchStudioArtworks(listStudioArtworks(draft,originals||{}),libraryQuery,{sectionId:libraryFilter,limit:90}).results;
+        const item=candidates[Number(btn.dataset.index)];
+        if(!item)throw Error('Visuel non disponible : recharge la recherche.');
+        if(!section()?.folders.some(f=>f.id===selectedFolder))throw Error('Choisis d’abord le dossier cible dans « Affiches & sources ».');
+        const snapshot=copy(draft);
+        const result=useStudioArtwork(draft,selectedSection,selectedFolder,item);
+        if(result.changed)libraryUndo=snapshot;
+        message=result.changed?'Affiche sélectionnée dans le brouillon, sans remplacer les autres éléments.':'Cette affiche est déjà sélectionnée.';
+        draw();
+      }catch(error){message='Affiche refusée : '+error.message;draw();}
     }
     else if(a==='workshop-select-visible'){
       for(const x of workshopFolders().slice(0,100))workshopSelected.add(x.key);
@@ -799,6 +848,7 @@ import {studioFolderKey,studioTidy,studioApplyBatch} from './studio-workshop-cor
       '<button role="tab" data-tab="recherche">Recherche globale</button>'+
       '<button role="tab" data-tab="modifications">Avant / Après</button>'+
       '<button role="tab" data-tab="outils">Outils d’accueil</button>'+
+      '<button role="tab" data-tab="bibliotheque">Bibliothèque visuelle</button>'+
       '<button role="tab" data-tab="profils">Profils & sauvegardes</button></nav>'+
       '<main class="mc-studio-content"></main>'+
       '<div class="mc-studio-status" role="status" aria-live="polite"></div>'+
@@ -838,7 +888,7 @@ import {studioFolderKey,studioTidy,studioApplyBatch} from './studio-workshop-cor
     });
     root.addEventListener('dragend',()=>{dragging=null;});
     root.addEventListener('change',change);
-    root.addEventListener('input',e=>{if(e.target.matches('[data-search],[data-global-search],[data-workshop-search]'))change(e);});
+    root.addEventListener('input',e=>{if(e.target.matches('[data-search],[data-global-search],[data-workshop-search],[data-library-search]'))change(e);});
     root.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>{
       tab=b.dataset.tab;if(tab==='affiches'&&!selectedFolder)selectedFolder=section()?.folders[0]?.id;message='';draw();
     }));
