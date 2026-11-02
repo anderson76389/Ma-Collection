@@ -160,3 +160,29 @@ export function decorateExport(data, draft) {
     };
   });
 }
+
+/**
+ * Aperçu indépendant de l'écran d'accueil. Ne modifie jamais les catégories,
+ * les sélections ni les objets métier de Ma-Collection.
+ */
+export function previewLayout(draft, originals = {}, maxPerSection = 24) {
+  if (!Array.isArray(draft?.sections)) return [];
+  const limit = Number.isFinite(maxPerSection)
+    ? Math.max(1, Math.min(60, Math.trunc(maxPerSection))) : 24;
+  return draft.sections.filter(s => s?.enabled !== false).map(s => {
+    const active = (Array.isArray(s.folders) ? s.folders : [])
+      .filter(f => f?.enabled !== false && Array.isArray(f.selectedKeys) && f.selectedKeys.length > 0);
+    return {
+      id: String(s.id || ''),
+      label: String(s.label || ''),
+      total: active.length,
+      omitted: Math.max(0, active.length - limit),
+      folders: active.slice(0, limit).map(f => ({
+        id: String(f.id || ''),
+        label: String(f.label || ''),
+        sourceCount: f.selectedKeys.length,
+        coverImageUrl: String(f.artwork?.coverImageUrl || originals?.[f.id]?.coverImageUrl || '')
+      }))
+    };
+  }).filter(s => s.total > 0);
+}
