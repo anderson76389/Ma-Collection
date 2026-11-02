@@ -243,6 +243,8 @@ test('Rangement intelligent: actifs d’abord sans supprimer une section, un dos
   const snapshot=structuredClone(draft);
   draft.sections.reverse();
   draft.sections.find(s=>s.id==='section-a').folders.reverse();
+  // Un dossier inactif est volontairement placé avant l'actif.
+  draft.sections.find(s=>s.id==='section-a').folders.find(f=>f.id==='folder-b').enabled=false;
   const before=structuredClone(draft);
   const preview=studioTidy(draft,{mode:'active-first'},true);
   assert.deepEqual(draft,before,'La prévision ne modifie rien');
