@@ -247,6 +247,27 @@ await test('outils d’accueil : rangement et styles en lot dans un brouillon no
     await atelier.locator('[data-action=close]').click();
   }finally{await atelier.close();}
 });
+await test('bibliothèque autonome : recherche et choix visuel non destructif',async()=>{
+  const library=await browser.newPage({viewport:{width:1180,height:870}});
+  library.setDefaultTimeout(14000);
+  try{
+    await library.goto(base,{waitUntil:'domcontentloaded',timeout:45000});
+    await library.waitForFunction(()=>window.MaCollectionStudio?.open && window.collectionData?.length>=16,
+      null,{timeout:60000});
+    const before=await library.evaluate(()=>JSON.stringify(window.collectionData));
+    await library.evaluate(()=>window.MaCollectionStudio.open());
+    await library.locator('[data-tab=bibliotheque]').click();
+    assert(await library.locator('.mc-studio-library-gallery').isVisible());
+    assert(await library.locator('.mc-studio-library-card').count()>0);
+    await library.locator('[data-library-search]').fill('Netflix');
+    assert(await library.locator('.mc-studio-library-card').count()>0);
+    await library.locator('[data-action=library-use]').first().click();
+    assert.equal(await library.evaluate(()=>JSON.stringify(window.collectionData)),before);
+    assert(await library.locator('.mc-studio-library-target').isVisible());
+    await library.locator('[data-action=library-target]').click();
+    assert.equal(await library.locator('[data-tab=affiches]').getAttribute('aria-selected'),'true');
+  }finally{await library.close();}
+});
 await test('aucune erreur JavaScript fatale',async()=>{
   assert.deepEqual(errors,[]);
 });
