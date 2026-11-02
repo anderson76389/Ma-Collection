@@ -1,4 +1,5 @@
 import test from 'node:test';
+import {listStudioArtworks,searchStudioArtworks,useStudioArtwork} from '../studio-art-library.mjs';
 import {studioFolderKey,studioTidy,studioApplyBatch} from '../studio-workshop-core.mjs';
 import assert from 'node:assert/strict';
 import {
@@ -296,4 +297,35 @@ test('Copie en lot : images uniquement si explicitement demandé ; refus atomiqu
   assert.notEqual(dest.artwork.coverImageUrl,src.artwork.coverImageUrl);
   studioApplyBatch(draft,[target],{copyFrom:source,copyArtwork:true});
   assert.equal(dest.artwork.coverImageUrl,src.artwork.coverImageUrl);
+});
+
+
+test('Bibliothèque de visuels : index local, recherche sans accent, URL intacte',()=>{
+  const {data,sel}=fixture(),draft=captureDraft(data,sel),before=structuredClone(draft);
+  draft.sections[0].folders[0].looks=[{label:'Édition française',url:'https://ma-art.mailpromahe.workers.dev/media/other.webp'}];
+  const library=listStudioArtworks(draft,originalsFor(data));
+  assert.equal(library.length,3);
+  assert.equal(library[0].url,before.sections[0].folders[0].artwork.coverImageUrl);
+  assert.equal(searchStudioArtworks(library,'EDITION FRANCAISE').total,1);
+  assert.equal(searchStudioArtworks(library,'Disney').total,1);
+  assert.equal(searchStudioArtworks(library,'', {sectionId:'section-b'}).total,0);
+  assert.equal(searchStudioArtworks(library,'', {limit:1}).omitted,2);
+  assert.deepEqual(data,fixture().data);
+  assert.deepEqual(sel,fixture().sel);
+});
+test('Bibliothèque visuelle : choisir une affiche sans écraser fonds, GIF ou sources',()=>{
+  const {data,sel}=fixture(),draft=captureDraft(data,sel);
+  const original=structuredClone(draft.sections[0].folders[0]);
+  const [current,alternative]=listStudioArtworks(draft,originalsFor(data));
+  assert.equal(useStudioArtwork(draft,'section-a','folder-a',current).changed,false);
+  const result=useStudioArtwork(draft,'section-a','folder-a',alternative);
+  assert.equal(result.changed,true);
+  const actual=draft.sections[0].folders[0];
+  assert.equal(actual.artwork.coverImageUrl,alternative.url);
+  assert.deepEqual(actual.selectedKeys,original.selectedKeys);
+  assert.equal(actual.shape,original.shape);
+  assert.equal(actual.artwork.heroBackdropUrl,original.artwork.heroBackdropUrl);
+  assert(actual.looks.some(v=>v.url===original.artwork.coverImageUrl));
+  assert.throws(()=>useStudioArtwork(draft,'section-a','absent',alternative),/introuvable/);
+  assert.throws(()=>useStudioArtwork(draft,'section-a','folder-a',{url:'https://kaptain.stream/c.png'}),/Kaptain/);
 });
