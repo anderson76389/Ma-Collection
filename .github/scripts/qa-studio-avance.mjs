@@ -108,14 +108,16 @@ await test('sauvegarde de plusieurs profils sans secret + export JSON',async()=>
   assert(download.suggestedFilename().startsWith('ma-collection-profil-'));
 });
 await test('recherche globale : retrouver et ouvrir un dossier dans une autre section',async()=>{
-  await page.evaluate(()=>window.MaCollectionStudio.open());
+  // Le brouillon édité précédemment doit rester ouvert pour le test d'application.
+  assert(await page.locator('#mc-studio-root').isVisible());
   await page.locator('[data-tab=recherche]').click();
   const query=await page.evaluate(()=>window.collectionData[0].folders[0].title);
   await page.locator('[data-global-search]').fill(query);
   assert(await page.locator('.mc-studio-global-item').count()>0);
   await page.locator('.mc-studio-global-item').first().click();
   assert.equal(await page.locator('[data-tab=affiches]').getAttribute('aria-selected'),'true');
-  await page.locator('[data-action=close]').click();
+  // Ne pas fermer le Studio : le brouillon et ses modifications doivent être appliqués au test suivant.
+  await page.locator('[data-tab=profils]').click();
 });
 await test('application : export personnalisé sans écraser les titres internes',async()=>{
   await page.locator('[data-action=apply]').click();
