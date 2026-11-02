@@ -221,3 +221,21 @@
 .mc-studio-workshop-copy>button{justify-self:start;padding:10px 13px;border-radius:9px;background:rgba(150,110,230,.14);border:1px solid var(--border,rgba(165,135,235,.38));font:inherit;color:inherit;cursor:pointer;font-size:.78rem;font-weight:650}
 .mc-studio-workshop-copy>button:disabled{opacity:.35;cursor:not-allowed}
 @media(max-width:650px){.mc-studio-workshop-grid{grid-template-columns:1fr}.mc-studio-workshop-list{grid-template-columns:1fr}}
+
+
+/* Bibliothèque visuelle : aucune ressource de Kaptain, thème Ma-Collection. */
+.mc-studio-library{display:grid;gap:13px;min-width:0}
+.mc-studio-library h3{margin:0 0 6px;font-size:1.08rem}
+.mc-studio-library-target{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px;border:1px solid var(--border,rgba(165,150,205,.25));border-radius:11px;background:var(--bg-card,rgba(80,65,140,.1))}
+.mc-studio-library-target strong,.mc-studio-library-target small{display:block}
+.mc-studio-library-target strong{font-size:.83rem}
+.mc-studio-library-target small{font-size:.7rem;color:var(--text-muted,#aaa);margin-top:4px}
+.mc-studio-library-target button,.mc-studio-library-card button{padding:9px 10px;border-radius:9px;border:1px solid var(--border,rgba(165,140,215,.32));background:rgba(150,110,230,.12);color:inherit;font:inherit;font-size:.75rem;font-weight:650;cursor:pointer}
+.mc-studio-library-gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(145px,1fr));gap:12px;max-height:570px;overflow-y:auto;min-width:0}
+.mc-studio-library-card{min-width:0;display:flex;flex-direction:column;gap:8px;border:1px solid var(--border,rgba(160,150,190,.18));border-radius:12px;padding:9px;background:var(--bg-card,rgba(30,30,50,.5))}
+.mc-studio-library-card img{width:100%;aspect-ratio:2/3;object-fit:contain;border-radius:8px;background:rgba(0,0,0,.3)}
+.mc-studio-library-details{flex:1;min-width:0}
+.mc-studio-library-details strong{font-size:.78rem;display:block;overflow-wrap:anywhere}
+.mc-studio-library-details small{font-size:.67rem;color:var(--text-muted,#aaa);display:block;margin-top:4px;overflow-wrap:anywhere}
+.mc-studio-library-card button{width:100%}
+@media(max-width:620px){.mc-studio-library-target{flex-direction:column;align-items:stretch}.mc-studio-library-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
