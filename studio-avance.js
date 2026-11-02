@@ -2,7 +2,7 @@ import {
   STUDIO_LIMIT, STUDIO_FIELDS, STUDIO_SHAPES, assetUrl, cleanLabel,
   folderId, sourceKey, captureDraft, validateDraft, applyDraft,
   originalsFor, decorateExport, previewLayout, searchDraft,
-  captureStudioUndo, restoreStudioUndo, uid
+  captureStudioUndo, restoreStudioUndo, compareStudioDrafts, uid
 } from './studio-avance-core.mjs';
 import {createStudioBackupStore,makeStudioBackup} from './studio-backups.mjs';
 
@@ -417,6 +417,37 @@ import {createStudioBackupStore,makeStudioBackup} from './studio-backups.mjs';
       '<div class="mc-studio-preview-rows">'+sections+'</div>'+
       '<p class="mc-studio-hint">L’aperçu limite l’affichage à 24 dossiers par rangée pour préserver les performances. Les autres restent dans le profil et dans l’export.</p></div>';
   }
+  function renderChanges(){
+    const before=getAppliedSnapshot();
+    const diff=compareStudioDrafts(before,draft,15);
+    const labels=[
+      ['Ordre des sections',diff.total.sectionOrder],
+      ['Ordre des dossiers',diff.total.folderOrders],
+      ['Sections activées',diff.total.sectionsEnabled],
+      ['Sections désactivées',diff.total.sectionsDisabled],
+      ['Dossiers activés',diff.total.foldersEnabled],
+      ['Dossiers désactivés',diff.total.foldersDisabled],
+      ['Sources activées',diff.total.sourcesEnabled],
+      ['Sources désactivées',diff.total.sourcesDisabled],
+      ['Affiches / fonds / logos / GIF',diff.total.artworks],
+      ['Noms de sections / dossiers',diff.total.labels],
+      ['Options de présentation',diff.total.presentation]
+    ];
+    return '<div class="mc-studio-diff">'+
+      '<div class="mc-studio-diff-intro"><div><h3>Avant d’appliquer ce profil</h3>'+
+      '<p class="mc-studio-hint">Comparaison entre ta collection actuellement chargée et ce brouillon. Le calcul est local et ne change ni source ni image.</p></div>'+
+      '<span class="mc-studio-diff-total">'+diff.changeCount+' modification'+(diff.changeCount>1?'s':'')+'</span></div>'+
+      '<div class="mc-studio-diff-stats">'+labels.map(([label,count])=>
+        '<div class="mc-studio-diff-stat '+(count?'is-changed':'')+'"><strong>'+count+'</strong><span>'+esc(label)+'</span></div>').join('')+'</div>'+
+      (diff.examples.length?'<div class="mc-studio-diff-examples"><h4>Exemples des changements</h4>'+
+        '<ul>'+diff.examples.map(item=>'<li>'+esc(item)+'</li>').join('')+'</ul>'+
+        '<p class="mc-studio-hint">Cette liste est un échantillon. Les compteurs portent sur tous les dossiers chargés.</p></div>':
+        '<p class="mc-studio-hint">Aucune différence détectée par rapport à la configuration actuellement chargée.</p>')+
+      '<div class="mc-studio-actions-grid">'+button('Revenir à l’organisation','diff-organisation')+
+      button('Vérifier les affiches','diff-artworks')+'</div>'+
+      '<p class="mc-studio-hint">Si tu appliques le brouillon, une sauvegarde automatique de la configuration précédente est tentée. Les changements restent annulables pendant cette session.</p>'+
+      '</div>';
+  }
   function renderGlobalSearch(){
     const hasInput=!!globalQuery.trim()||globalActiveOnly||globalNoCover;
     const found=hasInput?searchDraft(draft,globalQuery,{activeOnly:globalActiveOnly,noCoverOnly:globalNoCover,limit:100}):
@@ -496,7 +527,7 @@ import {createStudioBackupStore,makeStudioBackup} from './studio-backups.mjs';
     const body=html();if(!body)return;
     root.querySelector('.mc-studio-title').textContent=draft.name;
     root.querySelectorAll('[data-tab]').forEach(x=>{x.classList.toggle('active',x.dataset.tab===tab);x.setAttribute('aria-selected',String(x.dataset.tab===tab));});
-    body.innerHTML=(tab==='organisation'?renderSections():tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():renderProfiles());
+    body.innerHTML=(tab==='organisation'?renderSections():tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():tab==='modifications'?renderChanges():renderProfiles());
     const undo=root.querySelector('[data-action="undo-apply"]');if(undo)undo.hidden=!undoLast;
     const status=root.querySelector('.mc-studio-status');if(status)status.textContent=message;
   }
@@ -621,6 +652,8 @@ import {createStudioBackupStore,makeStudioBackup} from './studio-backups.mjs';
       for(const k of STUDIO_FIELDS)f.artwork[k]=String(originals?.[f.id]?.[k]||real?.[k]||'');
       f.shape=originals?.[f.id]?.tileShape||real?.tileShape||'LANDSCAPE';draw();
     }
+    else if(a==='diff-organisation'){tab='organisation';draw();}
+    else if(a==='diff-artworks'){tab='affiches';draw();}
     else if(a==='backup-now')saveManualBackup();
     else if(a==='backup-load')loadBackup(id);
     else if(a==='backup-export')exportBackup(id);
@@ -659,6 +692,7 @@ import {createStudioBackupStore,makeStudioBackup} from './studio-backups.mjs';
       '<button role="tab" data-tab="affiches">Affiches & sources</button>'+
       '<button role="tab" data-tab="apercu">Aperçu accueil</button>'+
       '<button role="tab" data-tab="recherche">Recherche globale</button>'+
+      '<button role="tab" data-tab="modifications">Avant / Après</button>'+
       '<button role="tab" data-tab="profils">Profils & sauvegardes</button></nav>'+
       '<main class="mc-studio-content"></main>'+
       '<div class="mc-studio-status" role="status" aria-live="polite"></div>'+
