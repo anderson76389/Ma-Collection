@@ -1,4 +1,5 @@
 import test from 'node:test';
+import {studioFolderKey,studioTidy,studioApplyBatch} from '../studio-workshop-core.mjs';
 import assert from 'node:assert/strict';
 import {
   assetUrl,captureDraft,validateDraft,applyDraft,originalsFor,decorateExport,previewLayout,searchDraft,captureStudioUndo,restoreStudioUndo,compareStudioDrafts,STUDIO_SHAPES
@@ -234,4 +235,63 @@ test('Comparateur : signale les changements de rangées, sources, visuels et pr�
   assert.deepEqual(before,snapshot,'Le comparateur ne doit pas modifier les objets');
   assert.deepEqual(compareStudioDrafts(before,before).changeCount,0);
   assert.equal(compareStudioDrafts(before,after,2).examples.length,2);
+});
+
+
+test('Rangement intelligent: actifs d’abord sans supprimer une section, un dossier ni une source',()=>{
+  const {data,sel}=fixture(),draft=captureDraft(data,sel);
+  const snapshot=structuredClone(draft);
+  draft.sections.reverse();
+  draft.sections.find(s=>s.id==='section-a').folders.reverse();
+  const before=structuredClone(draft);
+  const preview=studioTidy(draft,{mode:'active-first'},true);
+  assert.deepEqual(draft,before,'La prévision ne modifie rien');
+  assert(preview.changed>=2);
+  const real=studioTidy(draft,{mode:'active-first'},false);
+  assert.equal(real.changed,preview.changed);
+  assert.equal(draft.sections[0].id,'section-a');
+  assert.equal(draft.sections[0].folders[0].id,'folder-a');
+  assert.equal(draft.sections.reduce((n,s)=>n+s.folders.length,0),3);
+  assert.deepEqual(data,fixture().data);
+  assert.deepEqual(sel,fixture().sel);
+  assert(snapshot.sections.length===draft.sections.length);
+});
+
+test('Rangement alphabétique FR stable et prévisuel, tous dossiers conservés',()=>{
+  const {data,sel}=fixture(),draft=captureDraft(data,sel);
+  draft.sections[0].folders[0].label='Émissions';
+  draft.sections[0].folders[1].label='Anime';
+  assert(studioTidy(draft,{mode:'alphabetical'},true).changed>0);
+  studioTidy(draft,{mode:'alphabetical'},false);
+  const ordered=draft.sections.find(s=>s.id==='section-a').folders.map(f=>f.label);
+  assert.deepEqual(ordered,['Anime','Émissions']);
+  assert.throws(()=>studioTidy(draft,{mode:'inconnu'},false),/inconnu/);
+});
+
+test('Lot de styles : ne touche ni aux affiches ni aux sources et peut être annulé via copie',()=>{
+  const {data,sel}=fixture(),draft=captureDraft(data,sel),before=structuredClone(draft);
+  const keys=[studioFolderKey('section-a','folder-a'),studioFolderKey('section-a','folder-b')];
+  const result=studioApplyBatch(draft,keys,{shape:'SQUARE',hideTitle:true,focusGlowEnabled:true});
+  assert.equal(result.selected,2);assert.equal(result.changed,2);
+  assert(draft.sections[0].folders.every(f=>f.shape==='SQUARE'&&f.hideTitle===true));
+  assert.deepEqual(draft.sections[0].folders.map(f=>f.artwork),before.sections[0].folders.map(f=>f.artwork));
+  assert.deepEqual(draft.sections[0].folders.map(f=>f.selectedKeys),before.sections[0].folders.map(f=>f.selectedKeys));
+  assert.deepEqual(data,fixture().data);assert.deepEqual(sel,fixture().sel);
+});
+
+test('Copie en lot : images uniquement si explicitement demandé ; refus atomique de lot invalide',()=>{
+  const {data,sel}=fixture(),draft=captureDraft(data,sel);
+  const source=studioFolderKey('section-a','folder-a'),target=studioFolderKey('section-a','folder-b');
+  const original=structuredClone(draft);
+  assert.throws(()=>studioApplyBatch(draft,[target],{shape:'FAKE'}),/reconnu/);
+  assert.throws(()=>studioApplyBatch(draft,[target],{copyArtwork:true}),/source/);
+  assert.throws(()=>studioApplyBatch(draft,[target,studioFolderKey('section-a','absent')],{shape:'POSTER'}),/expirée/);
+  assert.deepEqual(draft,original,'Rejet sans mutation');
+  const src=draft.sections[0].folders[0],dest=draft.sections[0].folders[1];
+  src.shape='POSTER';src.hideTitle=true;
+  studioApplyBatch(draft,[target],{copyFrom:source});
+  assert.equal(dest.shape,'POSTER');
+  assert.notEqual(dest.artwork.coverImageUrl,src.artwork.coverImageUrl);
+  studioApplyBatch(draft,[target],{copyFrom:source,copyArtwork:true});
+  assert.equal(dest.artwork.coverImageUrl,src.artwork.coverImageUrl);
 });
