@@ -268,6 +268,45 @@ await test('bibliothèque autonome : recherche et choix visuel non destructif',a
     assert.equal(await library.locator('[data-tab=affiches]').getAttribute('aria-selected'),'true');
   }finally{await library.close();}
 });
+await test('packs FR : modèle, import local, aperçu et application sans mutation du catalogue',async()=>{
+  const french=await browser.newPage({viewport:{width:1200,height:870},acceptDownloads:true});
+  french.setDefaultTimeout(12000);
+  try{
+    await french.goto(base,{waitUntil:'domcontentloaded',timeout:45000});
+    await french.waitForFunction(()=>window.MaCollectionStudio?.open&&window.collectionData?.length>=16,
+      null,{timeout:60000});
+    const before=await french.evaluate(()=>JSON.stringify(window.collectionData));
+    await french.evaluate(()=>window.MaCollectionStudio.open());
+    await french.locator('[data-tab=affiches-fr]').click();
+    assert(await french.locator('text=Aucun pack français indépendant importé').isVisible());
+    const [download]=await Promise.all([
+      french.waitForEvent('download'),french.locator('[data-action=fr-template]').click()
+    ]);
+    assert.equal(download.suggestedFilename(),'ma-collection-affiches-fr-modele.json');
+    const pack=await french.evaluate(()=>{
+      const section=window.collectionData[0],folder=section.folders[0];
+      return {
+        schema:1,language:'fr',name:'Ma galerie française',
+        styles:[{id:'fr-test',label:'Style français'}],
+        entries:[{sectionId:String(section.id),folderId:String(folder.id),style:'fr-test',
+          coverImageUrl:'https://ma-art.mailpromahe.workers.dev/media/mon-affiche-fr.png'}]
+      };
+    });
+    await french.locator('[data-fr-file]').setInputFiles({
+      name:'pack-fr.json',mimeType:'application/json',
+      buffer:Buffer.from(JSON.stringify(pack),'utf8')
+    });
+    await french.waitForFunction(()=>document.querySelector('.mc-studio-fr-count')?.textContent?.includes('1 affiche(s)'));
+    await french.locator('[data-fr-active]').uncheck();
+    assert(await french.locator('[data-action=fr-apply]').isEnabled());
+    await french.locator('[data-action=fr-apply]').click();
+    assert((await french.locator('.mc-studio-status').textContent()).includes('affiche(s) françaises'));
+    assert.equal(await french.evaluate(()=>JSON.stringify(window.collectionData)),before,
+      'Le pack ne modifie pas la collection réelle avant validation');
+    await french.locator('[data-action=fr-undo]').click();
+    assert((await french.locator('.mc-studio-status').textContent()).includes('annulé'));
+  }finally{await french.close();}
+});
 await test('aucune erreur JavaScript fatale',async()=>{
   assert.deepEqual(errors,[]);
 });
