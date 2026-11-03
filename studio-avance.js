@@ -7,11 +7,13 @@ import {
 import {createStudioBackupStore,makeStudioBackup} from './studio-backups.mjs';
 import {studioFolderKey,studioTidy,studioApplyBatch} from './studio-workshop-core.mjs';
 import {listStudioArtworks,searchStudioArtworks,useStudioArtwork} from './studio-art-library.mjs';
+import {frenchPackTemplate,validateFrenchPack,planFrenchPack,applyFrenchPack} from './studio-fr-art.mjs';
 
 /* Atelier indépendant : thème existant conservé, aucune connexion à Kaptain. */
 (() => {
   'use strict';
   const STORE='ma_collection_studio_profiles_v1';
+  const FR_STORE='ma_collection_affiches_fr_pack_v1';
   const backupStore=createStudioBackupStore();
   const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const data=()=>Array.isArray(window.collectionData)?window.collectionData:[];
@@ -24,6 +26,7 @@ import {listStudioArtworks,searchStudioArtworks,useStudioArtwork} from './studio
   let workshopSearch='',workshopSection='all',workshopSelected=new Set(),workshopMode='active-first';
   let workshopSortSections=true,workshopSortFolders=true,workshopUndo=null;
   let libraryQuery='',libraryFilter='all',libraryUndo=null;
+  let frPack=null,frStyle='',frSection='all',frActiveOnly=true,frUndo=null,frError='';
   let artLookIndex=0, artSearch='', artMoreOnly=false, artNeedsAttention=false, showBatch=false;
   const findCategory=id=>data().find(c=>String(c.id)===String(id));
   const findFolder=(cid,fid)=>findCategory(cid)?.folders?.find(f=>folderId(f)===String(fid));
@@ -253,9 +256,46 @@ import {listStudioArtworks,searchStudioArtworks,useStudioArtwork} from './studio
     artLookIndex=0;artSearch='';artMoreOnly=false;artNeedsAttention=false;showBatch=false;previewDevice='tv';globalQuery='';globalActiveOnly=false;globalNoCover=false;
     workshopSelected=new Set();workshopUndo=null;workshopSearch='';workshopSection='all';
     libraryQuery='';libraryFilter='all';libraryUndo=null;
+    frUndo=null;frSection='all';frActiveOnly=true;loadFrenchArt();
     if(!root)mount();
     root.hidden=false;draw();refreshBackups();document.addEventListener('keydown',onEscape,true);
     root.querySelector('.mc-studio-close')?.focus();
+  }
+  function loadFrenchArt(){
+    frPack=null;frError='';
+    try{
+      const raw=localStorage.getItem(FR_STORE);
+      if(raw)frPack=validateFrenchPack(JSON.parse(raw),draft);
+      frStyle=frPack?.styles[0]?.id||'';
+    }catch(error){
+      frError='Pack local inutilisable : '+error.message;
+    }
+  }
+  function exportFrenchTemplate(){
+    try{
+      const labeler=text=>window.MaCollectionFrenchLabels?.naturalizeTitle?.(text)||text;
+      download('ma-collection-affiches-fr-modele.json',JSON.stringify(frenchPackTemplate(draft,labeler),null,2));
+      message='Modèle de pack français exporté avec les identifiants de tes dossiers. Renseigne les URL HTTPS de tes propres affiches.';draw();
+    }catch(error){message='Export du modèle impossible : '+error.message;draw();}
+  }
+  async function importFrenchArt(file){
+    if(!file)return;
+    try{
+      if(file.size>1800000)throw Error('Pack trop volumineux (1,8 Mo maximum).');
+      const value=validateFrenchPack(JSON.parse(await file.text()),draft);
+      if(!value.entries.length)throw Error('Aucune affiche française avec URL valide dans ce pack.');
+      localStorage.setItem(FR_STORE,JSON.stringify(value));
+      frPack=value;frStyle=value.styles[0].id;frError='';
+      message='Pack français importé dans ce navigateur : '+value.entries.length+' affiches disponibles. Rien n’a été appliqué.';
+    }catch(error){message='Pack refusé : '+error.message;}
+    draw();
+  }
+  function removeFrenchArt(){
+    if(!frPack)return;
+    if(!window.confirm('Retirer le catalogue du pack français de ce navigateur ? Les affiches des profils déjà appliqués restent inchangées.'))return;
+    localStorage.removeItem(FR_STORE);
+    frPack=null;frStyle='';frUndo=null;frError='';
+    message='Pack français retiré du navigateur. La collection et les images restent intactes.';draw();
   }
   function renderSections(){
     const s=section();
@@ -464,6 +504,47 @@ import {listStudioArtworks,searchStudioArtworks,useStudioArtwork} from './studio
       .map(f=>({section:sec,folder:f,key:studioFolderKey(sec.id,f.id)}))
     );
   }
+  function renderFrenchArt(){
+    const plan=frPack?planFrenchPack(draft,frPack,{style:frStyle,sectionId:frSection,activeOnly:frActiveOnly}):null;
+    const choices='<option value="all">Toutes les catégories</option>'+
+      (draft?.sections||[]).map(section=>
+        '<option value="'+esc(section.id)+'" '+(frSection===section.id?'selected':'')+'>'+esc(section.label)+'</option>').join('');
+    const styleOptions=(frPack?.styles||[]).map(style=>
+      '<option value="'+esc(style.id)+'" '+(frStyle===style.id?'selected':'')+'>'+esc(style.label)+'</option>').join('');
+    const comparisons=(plan?.examples||[]).map(item=>
+      '<div class="mc-studio-fr-item">'+
+      '<div class="mc-studio-fr-comparison">'+
+      (item.before?'<img src="'+esc(item.before)+'" loading="lazy" alt="Avant" />':'<span>Sans affiche</span>')+
+      '<span aria-hidden="true">→</span><img src="'+esc(item.after)+'" loading="lazy" alt="Affiche française proposée" />'+
+      '</div><strong>'+esc(item.label)+'</strong></div>'
+    ).join('');
+    const introduction='<p class="mc-studio-hint">Comme les packs linguistiques du Studio de référence, tu peux changer le style des affiches de toute une catégorie ou de la collection. Ici, seules les créations que tu héberges toi-même sont utilisées : aucun téléchargement depuis Kaptain.</p>';
+    return '<div class="mc-studio-fr">'+
+      '<header><h3>Affiches françaises · Mes packs</h3>'+introduction+'</header>'+
+      '<div class="mc-studio-fr-panel">'+
+      '<h4>Importer tes affiches françaises</h4>'+
+      '<p class="mc-studio-hint">Un pack JSON associe chaque dossier à une image française hébergée en HTTPS, idéalement sur Ma-Art. Le titre traduit est inscrit dans le visuel lui-même, pas simplement affiché en dessous.</p>'+
+      '<div class="mc-studio-actions-grid">'+button('Importer un pack français (.json)','fr-import')+
+      button('Exporter le modèle de mes dossiers','fr-template')+
+      (frPack?button('Retirer le pack local','fr-remove'):'')+'</div>'+
+      '<input data-fr-file type="file" accept=".json,application/json" hidden>'+
+      (frError?'<p class="mc-studio-fr-warning" role="status">'+esc(frError)+'</p>':'')+
+      (!frPack?'<p class="mc-studio-fr-warning">Aucun pack français indépendant importé. Les illustrations traduites de Kaptain ne figurent pas dans ton ZIP HTML. Cette galerie ne prétend pas les posséder.</p>':
+      '<p class="mc-studio-fr-count">'+esc(frPack.name)+' · '+frPack.entries.length+' affiche(s) françaises répertoriées · '+frPack.styles.length+' style(s)</p>')+
+      '</div>'+
+      (frPack?'<div class="mc-studio-fr-panel"><h4>Choisir le style et la portée</h4>'+
+      '<div class="mc-studio-fr-controls">'+
+      '<label class="mc-studio-field">Style français<select data-fr-style>'+styleOptions+'</select></label>'+
+      '<label class="mc-studio-field">Catégories<select data-fr-section>'+choices+'</select></label></div>'+
+      '<label class="mc-studio-check"><input type="checkbox" data-fr-active '+(frActiveOnly?'checked':'')+'> Uniquement les dossiers actifs</label>'+
+      '<p class="mc-studio-fr-count">'+plan.available+' dossiers couverts sur '+plan.eligible+
+      ' · '+plan.missing+' sans illustration correspondante · '+plan.changes.length+' affiche(s) à changer</p>'+
+      '<div class="mc-studio-fr-grid">'+(comparisons||'<p class="mc-studio-muted">Aucune affiche à remplacer avec ces paramètres.</p>')+'</div>'+
+      '<div class="mc-studio-actions-grid">'+button('Utiliser ces affiches françaises','fr-apply',plan.changes.length?'':'disabled')+
+      (frUndo?button('↶ Annuler le changement de pack','fr-undo'):'')+'</div>'+
+      '<p class="mc-studio-hint">Les dossiers sans variante française restent exactement comme avant. Les images originales ne sont pas supprimées. « Appliquer ce profil » en bas valide ensuite tes changements.</p>'+
+      '</div>':'')+'</div>';
+  }
   function renderArtLibrary(){
     const entries=listStudioArtworks(draft,originals||{});
     const found=searchStudioArtworks(entries,libraryQuery,{sectionId:libraryFilter,limit:90});
@@ -615,7 +696,7 @@ import {listStudioArtworks,searchStudioArtworks,useStudioArtwork} from './studio
     const body=html();if(!body)return;
     root.querySelector('.mc-studio-title').textContent=draft.name;
     root.querySelectorAll('[data-tab]').forEach(x=>{x.classList.toggle('active',x.dataset.tab===tab);x.setAttribute('aria-selected',String(x.dataset.tab===tab));});
-    body.innerHTML=(tab==='organisation'?renderSections():tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():tab==='modifications'?renderChanges():tab==='outils'?renderWorkshop():tab==='bibliotheque'?renderArtLibrary():renderProfiles());
+    body.innerHTML=(tab==='organisation'?renderSections():tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():tab==='modifications'?renderChanges():tab==='outils'?renderWorkshop():tab==='bibliotheque'?renderArtLibrary():tab==='affiches-fr'?renderFrenchArt():renderProfiles());
     const undo=root.querySelector('[data-action="undo-apply"]');if(undo)undo.hidden=!undoLast;
     const status=root.querySelector('.mc-studio-status');if(status)status.textContent=message;
   }
@@ -627,6 +708,10 @@ import {listStudioArtworks,searchStudioArtworks,useStudioArtwork} from './studio
       if(el.matches('[data-global-search]')){const caret=el.selectionStart;globalQuery=el.value;draw();const input=root.querySelector('[data-global-search]');input?.focus();if(caret!==null)input?.setSelectionRange(caret,caret);return;}
       if(el.matches('[data-global-active]')){globalActiveOnly=el.checked;draw();return;}
       if(el.matches('[data-global-no-cover]')){globalNoCover=el.checked;draw();return;}
+      if(el.matches('[data-fr-style]')){frStyle=el.value;draw();return;}
+      if(el.matches('[data-fr-section]')){frSection=el.value;draw();return;}
+      if(el.matches('[data-fr-active]')){frActiveOnly=el.checked;draw();return;}
+      if(el.matches('[data-fr-file]')){importFrenchArt(el.files[0]);el.value='';return;}
       if(el.matches('[data-library-search]')){const caret=el.selectionStart;libraryQuery=el.value;draw();const input=root.querySelector('[data-library-search]');input?.focus();if(caret!==null)input?.setSelectionRange(caret,caret);return;}
       if(el.matches('[data-library-filter]')){libraryFilter=el.value;draw();return;}
       if(el.matches('[data-workshop-search]')){const caret=el.selectionStart;workshopSearch=el.value;draw();const input=root.querySelector('[data-workshop-search]');input?.focus();if(caret!==null)input?.setSelectionRange(caret,caret);return;}
@@ -721,6 +806,24 @@ import {listStudioArtworks,searchStudioArtworks,useStudioArtwork} from './studio
       if(id&&section()?.folders.some(f=>f.id===id)){selectedFolder=id;tab='affiches';}
       else tab='organisation';
       draw();
+    }
+    else if(a==='fr-template')exportFrenchTemplate();
+    else if(a==='fr-import')root.querySelector('[data-fr-file]')?.click();
+    else if(a==='fr-remove')removeFrenchArt();
+    else if(a==='fr-undo'){
+      if(frUndo){draft=frUndo;frUndo=null;message='Changement de pack français annulé dans le brouillon.';draw();}
+    }
+    else if(a==='fr-apply'){
+      try{
+        if(!frPack)throw Error('Aucun pack français sélectionné.');
+        const opts={style:frStyle,sectionId:frSection,activeOnly:frActiveOnly};
+        const forecast=planFrenchPack(draft,frPack,opts);
+        if(!forecast.changes.length)return;
+        const old=copy(draft),result=applyFrenchPack(draft,frPack,opts);
+        frUndo=old;
+        message=result.changed+' affiche(s) françaises choisie(s) dans le brouillon. '+result.missing+' dossiers sans traduction conservés.';
+        draw();
+      }catch(error){message='Impossible d’appliquer le pack français : '+error.message;draw();}
     }
     else if(a==='library-target'){tab='affiches';draw();}
     else if(a==='library-undo'){
@@ -849,6 +952,7 @@ import {listStudioArtworks,searchStudioArtworks,useStudioArtwork} from './studio
       '<button role="tab" data-tab="modifications">Avant / Après</button>'+
       '<button role="tab" data-tab="outils">Outils d’accueil</button>'+
       '<button role="tab" data-tab="bibliotheque">Bibliothèque visuelle</button>'+
+      '<button role="tab" data-tab="affiches-fr">Affiches FR</button>'+
       '<button role="tab" data-tab="profils">Profils & sauvegardes</button></nav>'+
       '<main class="mc-studio-content"></main>'+
       '<div class="mc-studio-status" role="status" aria-live="polite"></div>'+
