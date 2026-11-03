@@ -1,4 +1,5 @@
 import test from 'node:test';
+import {frenchPackTemplate,validateFrenchPack,planFrenchPack,applyFrenchPack} from '../studio-fr-art.mjs';
 import {listStudioArtworks,searchStudioArtworks,useStudioArtwork} from '../studio-art-library.mjs';
 import {studioFolderKey,studioTidy,studioApplyBatch} from '../studio-workshop-core.mjs';
 import assert from 'node:assert/strict';
@@ -328,4 +329,64 @@ test('Bibliothèque visuelle : choisir une affiche sans écraser fonds, GIF ou s
   assert(actual.looks.some(v=>v.url===original.artwork.coverImageUrl));
   assert.throws(()=>useStudioArtwork(draft,'section-a','absent',alternative),/introuvable/);
   assert.throws(()=>useStudioArtwork(draft,'section-a','folder-a',{url:'https://kaptain.stream/c.png'}),/Kaptain/);
+});
+
+
+test('Packs FR : modèle complet et identifiants inchangés',()=>{
+  const {data,sel}=fixture(),draft=captureDraft(data,sel),before=structuredClone(draft);
+  const template=frenchPackTemplate(draft,v=>v.replace('Streaming Services','Plateformes de streaming'));
+  assert.equal(template.language,'fr');
+  assert.equal(template.entries.length,3);
+  assert.equal(template.entries[0].sectionLabel,'Plateformes de streaming');
+  assert.equal(template.entries[0].folderId,'folder-a');
+  assert.equal(template.entries[0].coverImageUrl,'');
+  assert.deepEqual(draft,before);
+});
+
+test('Packs FR : sélection du style, sections ciblées, aucune image inventée',()=>{
+  const {data,sel}=fixture(),draft=captureDraft(data,sel);
+  const raw=frenchPackTemplate(draft);
+  raw.styles.push({id:'neon-fr',label:'Néon français'});
+  raw.entries[0].coverImageUrl='https://ma-art.mailpromahe.workers.dev/media/affiche-fr.jpg';
+  raw.entries.push({...raw.entries[0],style:'neon-fr',coverImageUrl:'https://ma-art.mailpromahe.workers.dev/media/affiche-fr-neon.webp'});
+  const pack=validateFrenchPack(raw,draft);
+  assert.equal(pack.entries.length,2);
+  const original=structuredClone(draft),plan=planFrenchPack(draft,pack,{style:'fr-classique',activeOnly:false});
+  assert.equal(plan.available,1);
+  assert.equal(plan.missing,2);
+  assert.equal(plan.changes.length,1);
+  assert.deepEqual(draft,original);
+  const result=applyFrenchPack(draft,pack,{style:'neon-fr',sectionId:'section-a',activeOnly:false});
+  assert.equal(result.changed,1);
+  assert.equal(draft.sections[0].folders[0].artwork.coverImageUrl,'https://ma-art.mailpromahe.workers.dev/media/affiche-fr-neon.webp');
+  assert.deepEqual(draft.sections[0].folders[0].selectedKeys,original.sections[0].folders[0].selectedKeys);
+  assert.equal(draft.sections[0].folders[1].artwork.coverImageUrl,original.sections[0].folders[1].artwork.coverImageUrl);
+  assert.deepEqual(data,fixture().data);
+  assert.deepEqual(sel,fixture().sel);
+});
+
+test('Packs FR : refus des URL Kaptain et des styles malformés',()=>{
+  const {data,sel}=fixture(),draft=captureDraft(data,sel),raw=frenchPackTemplate(draft);
+  raw.entries[0].coverImageUrl='https://art.kaptain.stream/genres/abc/cover.png';
+  assert.throws(()=>validateFrenchPack(raw,draft),/Kaptain/);
+  raw.entries[0].coverImageUrl='https://cdn.jsdelivr.net/gh/ImKaptain/art-fr@main/genres/a.png';
+  assert.throws(()=>validateFrenchPack(raw,draft),/Kaptain/);
+  raw.entries[0].coverImageUrl='https://ma-art.mailpromahe.workers.dev/media/owned.png';
+  raw.styles[0].id='../../path';
+  assert.throws(()=>validateFrenchPack(raw,draft),/Style/);
+  raw.styles[0].id='fr-classique';
+  raw.entries.push({...raw.entries[0]});
+  assert.throws(()=>validateFrenchPack(raw,draft),/répété/);
+});
+
+test('Packs FR : dossier absent ignoré, et GIF inchangé si non fourni',()=>{
+  const {data,sel}=fixture(),draft=captureDraft(data,sel),raw=frenchPackTemplate(draft);
+  raw.entries[0].coverImageUrl='https://ma-art.mailpromahe.workers.dev/media/a-fr.png';
+  raw.entries.push({...raw.entries[0],sectionId:'ancien-absent',folderId:'ancien-dossier'});
+  const pack=validateFrenchPack(raw,draft);
+  const original=structuredClone(draft.sections[0].folders[0]);
+  const x=applyFrenchPack(draft,pack,{style:'fr-classique',activeOnly:true});
+  assert.equal(x.changed,1);
+  assert.equal(draft.sections[0].folders[0].artwork.focusGifUrl,original.artwork.focusGifUrl);
+  assert.equal(draft.sections[0].folders[0].shape,original.shape);
 });
