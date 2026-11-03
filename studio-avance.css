@@ -239,3 +239,21 @@
 .mc-studio-library-details small{font-size:.67rem;color:var(--text-muted,#aaa);display:block;margin-top:4px;overflow-wrap:anywhere}
 .mc-studio-library-card button{width:100%}
 @media(max-width:620px){.mc-studio-library-target{flex-direction:column;align-items:stretch}.mc-studio-library-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+
+/* Choix de packs d’affiches françaises, sans dépendance à Kaptain. */
+.mc-studio-fr{display:grid;gap:17px;min-width:0}
+.mc-studio-fr h3{margin:0 0 8px;font-size:1.08rem}
+.mc-studio-fr h4{margin:0;font-size:.93rem}
+.mc-studio-fr-panel{display:grid;gap:12px;padding:16px;min-width:0;border:1px solid var(--border,rgba(180,165,230,.22));border-radius:13px;background:var(--bg-card,rgba(55,40,90,.16))}
+.mc-studio-fr-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}
+.mc-studio-fr-count{margin:0;color:var(--accent-light,#c9aeff);font-size:.82rem;font-weight:650}
+.mc-studio-fr-warning{margin:0;padding:11px 12px;border:1px solid rgba(220,180,120,.4);border-radius:9px;font-size:.78rem;color:var(--text-secondary,#d0c7da)}
+.mc-studio-fr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:11px;max-height:520px;overflow-y:auto;min-width:0}
+.mc-studio-fr-item{display:grid;gap:8px;min-width:0;padding:10px;border-radius:11px;background:var(--bg-elevated,rgba(30,25,50,.5));border:1px solid var(--border,rgba(175,160,220,.16))}
+.mc-studio-fr-item strong{font-size:.76rem;overflow-wrap:anywhere}
+.mc-studio-fr-comparison{display:flex;align-items:center;justify-content:center;gap:7px}
+.mc-studio-fr-comparison img,.mc-studio-fr-comparison>span:first-child{width:calc((100% - 24px)/2);height:125px;object-fit:contain;border-radius:7px;background:rgba(0,0,0,.2)}
+.mc-studio-fr-comparison>span:first-child{display:grid;place-items:center;font-size:.69rem;color:var(--text-muted,#aaa);text-align:center}
+.mc-studio-fr-comparison>span:not(:first-child){color:var(--accent-light,#c9aeff)}
+@media(max-width:680px){.mc-studio-fr-controls{grid-template-columns:1fr}.mc-studio-fr-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
