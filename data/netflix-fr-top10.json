@@ -2,119 +2,119 @@
   "schema": 1,
   "source": "https://www.netflix.com/tudum/top10/data/all-weeks-countries.tsv",
   "country": "FR",
-  "week": "2026-10-18",
+  "week": "2026-11-01",
   "films": [
     {
       "rank": 1,
-      "title": "Animals",
+      "title": "Le clan",
       "tmdb_id": null
     },
     {
       "rank": 2,
-      "title": "Untouchable",
+      "title": "Collision Course",
       "tmdb_id": null
     },
     {
       "rank": 3,
-      "title": "Doing Life",
-      "tmdb_id": null
+      "title": "Comme des Riches",
+      "tmdb_id": 1261605
     },
     {
       "rank": 4,
-      "title": "Jurassic World Rebirth",
-      "tmdb_id": 1234821
+      "title": "Surviving Hurricane Otis",
+      "tmdb_id": 1780005
     },
     {
       "rank": 5,
-      "title": "The Notebook",
+      "title": "The Guardian",
       "tmdb_id": null
     },
     {
       "rank": 6,
-      "title": "The Forever Purge",
-      "tmdb_id": 602223
+      "title": "The Wing or the Thigh?",
+      "tmdb_id": 761
     },
     {
       "rank": 7,
-      "title": "Sacrifice",
-      "tmdb_id": null
+      "title": "The Bad Guys 2",
+      "tmdb_id": 1175942
     },
     {
       "rank": 8,
-      "title": "Orphan",
+      "title": "Untouchable",
       "tmdb_id": null
     },
     {
       "rank": 9,
-      "title": "Within",
+      "title": "Animals",
       "tmdb_id": null
     },
     {
       "rank": 10,
-      "title": "UNABOMBER",
-      "tmdb_id": null
+      "title": "Mon garçon",
+      "tmdb_id": 451646
     }
   ],
   "series": [
     {
       "rank": 1,
-      "title": "Below",
-      "season": "Below: Limited Series",
+      "title": "Lupin",
+      "season": "Lupin: Part 4",
       "tmdb_id": null
     },
     {
       "rank": 2,
-      "title": "East of Eden",
-      "season": "East of Eden: Limited Series",
-      "tmdb_id": null
+      "title": "Djadel Show",
+      "season": "Djadel Show: Season 2",
+      "tmdb_id": 339290
     },
     {
       "rank": 3,
-      "title": "The Trap",
-      "season": "The Trap: Limited Series",
+      "title": "Lupin",
+      "season": "Lupin: Part 1",
       "tmdb_id": null
     },
     {
       "rank": 4,
-      "title": "The Arena",
-      "season": "The Arena: Season 1",
+      "title": "Lupin",
+      "season": "Lupin: Part 3",
       "tmdb_id": null
     },
     {
       "rank": 5,
-      "title": "TYSON",
-      "season": "TYSON: Limited Series",
-      "tmdb_id": 335536
+      "title": "Lupin",
+      "season": "Lupin: Part 2",
+      "tmdb_id": null
     },
     {
       "rank": 6,
-      "title": "The Diplomat",
-      "season": "The Diplomat: Season 4",
-      "tmdb_id": null
+      "title": "The One About Matthew Perry",
+      "season": "The One About Matthew Perry: Season 1",
+      "tmdb_id": 333533
     },
     {
       "rank": 7,
-      "title": "Take Charge of My Heart",
-      "season": "Take Charge of My Heart: Limited Series",
-      "tmdb_id": 289423
+      "title": "Nobody Wants This",
+      "season": "Nobody Wants This: Season 3",
+      "tmdb_id": 250923
     },
     {
       "rank": 8,
-      "title": "Instadocs: AI Gone Wild",
-      "season": "N/A",
-      "tmdb_id": null
+      "title": "Dead-End Job",
+      "season": "Dead-End Job: Limited Series",
+      "tmdb_id": 289517
     },
     {
       "rank": 9,
-      "title": "Spike",
-      "season": "Spike: Season 1",
-      "tmdb_id": null
+      "title": "A Couple of Lies",
+      "season": "A Couple of Lies: Limited Series",
+      "tmdb_id": 336240
     },
     {
       "rank": 10,
-      "title": "Not a Stranger",
-      "season": "Not a Stranger: Season 1",
-      "tmdb_id": 320760
+      "title": "Below",
+      "season": "Below: Limited Series",
+      "tmdb_id": null
     }
   ]
 }
