@@ -65,11 +65,16 @@ assert(withoutComments.includes('id="account-view-cloud"'),"Page de compte web m
 assert(withoutComments.includes('id="account-cloud-signup"'),"Bouton d'inscription manquant");
 assert(withoutComments.includes('id="account-cloud-login"'),"Bouton de connexion manquant");
 assert(accountUi.includes("cloudConfigured()"),"Inscription non conditionnée par un serveur réel");
-assert(accountConfig.includes('sb_secret_'),"Les clés de serveur secrètes ne sont pas filtrées");
-assert(accountVault.includes("/auth/v1/signup") && accountVault.includes("/auth/v1/token"),
-  "L'inscription et la connexion doivent utiliser le backend configuré");
-assert(accountVault.includes("ma_collection_vaults"),"Coffre cloud protégé introuvable");
-assert(existsSync(resolve(root,"docs/sql/ma_collection_vaults.sql")),"Politique RLS du coffre absente");
+assert(!/supabaseUrl|supabaseAnonKey|sb_secret_/.test(accountConfig),
+  "Ancienne configuration Supabase réintroduite");
+assert(accountVault.includes("/api/auth/sign-up/email") && accountVault.includes("/api/auth/sign-in/email"),
+  "L'inscription et la connexion doivent utiliser Better Auth sur Cloudflare");
+assert(!/\/auth\/v1\/|\/rest\/v1\//.test(accountVault),
+  "Ancien protocole Supabase actif dans le site");
+assert(accountVault.includes("vaultCloudAvailable: false"),
+  "Le coffre chiffré local ne doit pas prétendre se synchroniser");
+assert(existsSync(resolve(root,"kovelyx-cloud-push.js")),
+  "Le pont direct Kovelyx Cloudflare manque");
 
 assert(!/integrations\/kaptain\/collections/i.test(app + withoutComments),
   "Import encore lié à l'ancienne intégration Kaptain");
