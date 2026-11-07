@@ -19,6 +19,8 @@
   let sessionSaltB64 = null;
   let saveTimer = null;
   let authSession = null;        // Better Auth bearer token, only in this browser tab
+  let validatedSession = null;   // Cache court : évite un /v1/me par bloc de 6 Ko
+  let validatedAt = 0;
   let lastPayload = null;
   let lastSyncError = null;
 
@@ -157,6 +159,8 @@
   function storeSession(data, email, token) {
     if (!token || token.length < 16 || !data.user?.id)
       throw new Error("Kovelyx n'a pas renvoyé de session Bearer valide.");
+    validatedSession = null;
+    validatedAt = 0;
     authSession = {
       provider: "cloudflare-better-auth",
       access_token: token,
@@ -208,6 +212,7 @@
       throw new Error("Connectez-vous avec le même compte que sur Kovelyx.");
     }
     const before = authSession;
+    if (validatedSession === before && Date.now() - validatedAt < 30_000) return before;
     const response = await apiRequest("/v1/me", { token: before.access_token, acceptError: true });
     if (response.status === 401 || response.status === 403) {
       if (authSession === before) signOutCloud();
@@ -217,6 +222,8 @@
     const me = await response.json();
     if (me.id !== before.user_id || authSession !== before)
       throw new Error("Le compte Kovelyx a changé. Réessayez.");
+    validatedSession = before;
+    validatedAt = Date.now();
     return before;
   }
 
@@ -377,6 +384,8 @@
     }
   }
   function signOutCloud() {
+    validatedSession = null;
+    validatedAt = 0;
     lastSyncError = null;
     authSession = null;
     persistAuthSession();
