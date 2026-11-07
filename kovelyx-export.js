@@ -46,8 +46,9 @@
     const selected = structuredClone(api.assembleFilteredDatabase());
     if (!Array.isArray(selected) || !selected.length) throw Error("Sélectionnez au moins un dossier.");
     const localized = await api.applyLocaleToCollection(selected) || selected;
-    validateForKovelyx(localized);
-    return JSON.stringify(localized, null, 2);
+    const decorated = window.MaCollectionImportStudio?.decorateCollections?.(localized) || localized;
+    validateForKovelyx(decorated);
+    return JSON.stringify(decorated, null, 2);
   }
 
   function setStatus(message, isError = false) {
@@ -169,6 +170,10 @@
     } finally { direct.disabled = false; }
   }
   direct?.addEventListener("click", send);
+  byId("kovelyx-export-cloud")?.addEventListener("click", () => {
+    close();
+    window.MaCollectionCloudPush?.open();
+  });
 
   copy.addEventListener("click", async () => {
     copy.disabled = true;
