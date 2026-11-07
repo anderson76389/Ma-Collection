@@ -43,27 +43,23 @@ Vous pouvez sélectionner vos contenus préférés, réorganiser votre accueil e
 
 > **À savoir :** cet outil sert à **organiser et configurer des catalogues**. Il n'héberge pas de films ou de séries et ne fournit pas, à lui seul, de service de lecture vidéo.
 
-## 👤 Compte unique Kovelyx ↔ Ma-Collection (serveur à configurer)
+## 👤 Compte commun Ma-Collection ↔ Kovelyx (Cloudflare)
 
-La page web intègre un formulaire **Créer mon compte / Se connecter / Se déconnecter** compatible avec l'authentification de Kovelyx PC. L'inscription ne crée pas de compte fictif : les données sont envoyées à **votre serveur Supabase-compatible**, configuré dans les deux applications.
+Le compte web utilise désormais **les mêmes routes Better Auth + Cloudflare Workers/D1 que Kovelyx**, et non les anciennes routes Supabase. Le formulaire ne demande que l'URL du Worker et vos identifiants Kovelyx : aucune clé publique Supabase.
 
-**Aucun serveur public de comptes Kovelyx n'est fourni par défaut.** Vous devez d'abord déployer/configurer un serveur de comptes commun, puis saisir sa **clé publique publishable/anon** dans le site et dans Kovelyx. Sans ce serveur, le site et l'application restent pleinement utilisables en mode local et par export/import JSON.
+Pour publier une sélection vers vos appareils : **Importer la collection → Kovelyx Cloud → choisir le profil → Fusionner (recommandé) ou Remplacer → Publier**. Le site envoie un snapshot vérifié par SHA-256, en blocs, puis publie atomiquement sa révision. Les autres appareils doivent être connectés **au même compte et profil**, avec leur synchronisation active. Le Worker doit annoncer le protocole de catalogues version 1 dans sa route /ready. Le maximum est de 4 Mo UTF-8 par snapshot.
 
-Le site possède également un **coffre chiffré optionnel** pour les sélections et les clés API. Un compte partagé n'implique pas la synchronisation automatique des profils si votre serveur n'a pas les tables et services nécessaires.
+**Sécurité :** vos clés API ne sont pas envoyées avec les catalogues. Le coffre AES-GCM de Ma-Collection est **local uniquement**, puisqu'aucune API de coffre n'existe dans Kovelyx Cloudflare. Les anciennes données du navigateur sont conservées.
 
-📖 **[Guide complet pour connecter les comptes du site et de Kovelyx](docs/COMPTE_KOVELYX.md)** · **[Politiques RLS du coffre chiffré](docs/sql/ma_collection_vaults.sql)**
-
-## 🔑 Clés API : liens directs
-
-Dans l'étape « Métadonnées » et « Débridage » de l'assistant, et dans les paramètres avancés, les boutons **Tester** sont accompagnés de **Obtenir ma clé ↗** pointant vers les pages officielles TMDB, MDBList, AllDebrid et Real-Debrid. Les clés ne sont jamais envoyées dans ces liens.
+📖 **[Guide de connexion et de push Cloudflare](docs/COMPTE_KOVELYX.md)**
 
 ## 🟣 Connexion directe à Kovelyx
 
 Ma-Collection est un éditeur de catalogues autonome, hébergé sur votre GitHub Pages. **Vous n'avez besoin d'aucun compte ni serveur tiers pour construire, traduire ou télécharger vos collections**.
 
-Avec **Kovelyx PC**, sélectionnez vos catalogues et utilisez **Importer la collection**. L'assistant prépare les métadonnées, affiches, services et extensions ; le site transmet la configuration au pont local `127.0.0.1:38761`. **Vous choisissez ensuite votre profil et confirmez dans Kovelyx** avant tout remplacement.
+Avec **Kovelyx PC local**, sélectionnez vos catalogues et utilisez **Importer la collection**. L'assistant prépare les métadonnées, affiches, services et extensions ; le site transmet la configuration au pont local `127.0.0.1:38761`. **Vous choisissez ensuite votre profil et confirmez dans Kovelyx** avant tout remplacement.
 
-Une connexion à votre **propre serveur de comptes Kovelyx** reste facultative pour synchroniser plusieurs profils. Sans serveur, choisissez le mode local.
+La synchronisation multiappareils utilise votre **Worker Cloudflare Kovelyx** après connexion. Sans Worker à jour, l'import PC local et l'export JSON restent utilisables.
 
 Si le pont local est inaccessible, **Copier le JSON** ou **Télécharger JSON** permet de poursuivre manuellement. Le fichier JSON exporté ne contient pas vos clés privées et les anciennes collections sont sauvegardées par l'application avant un remplacement confirmé.
 
@@ -73,7 +69,7 @@ Si le pont local est inaccessible, **Copier le JSON** ou **Télécharger JSON** 
 
 Le bouton **Importer la collection** propose désormais **deux destinations** après la sélection des catégories et sous-catégories :
 
-- **Kovelyx PC** : même assistant de personnalisation, puis transfert direct à l'application Windows ouverte via son pont local ; l'import attend votre confirmation dans Kovelyx. Le copier/télécharger JSON reste possible.
+- **Kovelyx Cloud** : push direct vers un profil Cloudflare synchronisable ; **Kovelyx PC local** : transfert à Windows avec confirmation ; le copier/télécharger JSON reste possible.
 - **Nuvio** : même sélection et personnalisation des affiches de dossiers, puis **Copier le JSON** ou **Télécharger le JSON**. L'importation se fait manuellement dans la rubrique **Collections → Importer** de l'application, ou sur [nuvio.tv](https://nuvio.tv/) via **Compte → Collections** si disponible.
 
 **Important :** l'option Nuvio n'est pas un import direct automatique et n'utilise pas votre compte Nuvio. Les clés API, extensions et débrideurs renseignés dans l'assistant ne sont pas intégrés aux JSON exportés ; configurez-les dans l'application destinataire. Les tests du site vérifient le choix, le contenu JSON et le téléchargement, mais ne valident pas la synchronisation sur un compte Nuvio réel.
@@ -89,7 +85,7 @@ Le bouton **Importer la collection** propose désormais **deux destinations** ap
 | 🧭 | **Configuration guidée** | Un assistant facilite les étapes de sélection et de préparation. |
 | ⚡ | **Éditeur rapide** | Modifiez votre sélection sans reprendre toute la configuration. |
 | 📦 | **Export JSON** | Téléchargez un fichier de configuration réutilisable. |
-| 🔗 | **Import Kovelyx** | Transfert local vers l’application ou export JSON manuel. |
+| 🔗 | **Import Kovelyx** | Push Cloudflare par profil, import local Windows ou export JSON manuel. |
 | 👤 | **Gestion des profils** | Accédez aux outils d'organisation des profils existants. |
 
 ## 🗂️ Explorez les catégories
