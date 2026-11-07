@@ -40,13 +40,11 @@
     const statusEl = $('account-menu-status');
     if (statusEl) {
       if (s.cloudSignedIn) {
-        statusEl.textContent = s.lastSyncError
-          ? "Compte connecté, mais sauvegarde cloud en échec : " + s.lastSyncError
-          : "Compte Kovelyx connecté : " + (s.cloudEmail || "utilisateur");
+        statusEl.textContent = "Compte Kovelyx connecté : " + (s.cloudEmail || "utilisateur") + " · coffre chiffré local uniquement";
       } else if (!s.cloudConfigured) {
         statusEl.textContent = "Mode local disponible. Configurez un serveur pour créer un compte synchronisé.";
       } else {
-        statusEl.textContent = "Compte Kovelyx : créez un compte ou connectez-vous.";
+        statusEl.textContent = "Compte Kovelyx Cloudflare : créez un compte ou connectez-vous.";
       }
     }
 
@@ -155,10 +153,9 @@
   function refreshCloudForm() {
     const backend = window.MaCollectionBackendConfig;
     const account = window.MaCollectionAccount;
-    const cfg = backend?.current() || {url:"",key:""};
+    const cfg = backend?.current() || {url:""};
     const status = account?.status() || {};
     if ($('account-cloud-url')) $('account-cloud-url').value = cfg.url;
-    if ($('account-cloud-key')) $('account-cloud-key').value = cfg.key;
     const ready = !!status.cloudConfigured;
     const signed = !!status.cloudSignedIn;
     const signup = $('account-cloud-signup');
@@ -193,9 +190,9 @@
       if (!backend) throw new Error("La configuration de serveur est indisponible.");
       // Le compte courant appartient au serveur précédent : ne pas le réutiliser.
       window.MaCollectionAccount.signOutCloud();
-      backend.save($('account-cloud-url').value, $('account-cloud-key').value);
+      backend.save($('account-cloud-url').value);
       refreshCloudForm();
-      cloudStatus("Serveur sauvegardé sur ce navigateur. Utilisez le même serveur dans Kovelyx PC ; il reste à vérifier la connexion.");
+      cloudStatus("Worker Kovelyx enregistré. Connectez-vous avec votre compte Kovelyx existant.");
     } catch (e) {
       cloudStatus(e.message || "Configuration refusée.",true);
     }
@@ -207,7 +204,7 @@
     const pass = passwordField?.value || "";
     if (!account?.cloudConfigured()) return cloudStatus("Configurez d'abord le serveur Kovelyx.",true);
     if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return cloudStatus("Renseignez une adresse e-mail valide.",true);
-    if (!pass || (action === "signup" && pass.length < 8)) return cloudStatus("Pour l'inscription, choisissez au moins huit caractères.",true);
+    if (!pass || (action === "signup" && pass.length < 12)) return cloudStatus("Pour l'inscription, choisissez au moins douze caractères.",true);
     setAuthButtonsBusy(true);
     cloudStatus(action === "signup" ? "Inscription en cours…" : "Connexion en cours…");
     try {
