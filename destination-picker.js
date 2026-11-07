@@ -19,9 +19,13 @@
     </div>
     <p>Votre sélection et votre personnalisation sont conservées. Choisissez l'application destinataire.</p>
     <div class="mc-destinations-grid">
+      <button type="button" id="mc-choice-kovelyx-cloud" class="mc-destination-card">
+        <strong>🟣 Kovelyx Cloud</strong>
+        <span>Publier sur votre compte Cloudflare : PC, Android et TV (même profil).</span>
+      </button>
       <button type="button" id="mc-choice-kovelyx" class="mc-destination-card">
-        <strong>🟣 Kovelyx</strong>
-        <span>Importer sur Kovelyx PC, via le pont local avec confirmation dans l'application.</span>
+        <strong>💻 Kovelyx PC local</strong>
+        <span>Transférer uniquement sur le PC ouvert, avec confirmation dans l'application.</span>
       </button>
       <button type="button" id="mc-choice-nuvio" class="mc-destination-card">
         <strong>🔵 Nuvio</strong>
@@ -167,6 +171,11 @@
   byId("mc-destinations-close").addEventListener("click",closeChoice);
   byId("mc-nuvio-close").addEventListener("click",closeNuvio);
   byId("mc-choice-kovelyx").addEventListener("click",startKovelyx);
+  byId("mc-choice-kovelyx-cloud").addEventListener("click",()=>{
+    chooser.hidden=true;
+    if (!window.MaCollectionCloudPush?.open) return;
+    window.MaCollectionCloudPush.open();
+  });
   byId("mc-choice-nuvio").addEventListener("click",startNuvio);
   byId("mc-nuvio-copy").addEventListener("click",()=>exportAction("copy"));
   byId("mc-nuvio-download").addEventListener("click",()=>exportAction("download"));
@@ -180,6 +189,6 @@
   document.getElementById("btn-import-kovelyx")?.addEventListener("click",open);
   window.MaCollectionDestination=Object.freeze({
     open,close(){closeChoice();closeNuvio();},
-    chooseKovelyx:startKovelyx,chooseNuvio:startNuvio,buildNuvioJSON
+    chooseKovelyx:startKovelyx,chooseCloud:()=>window.MaCollectionCloudPush?.open(),chooseNuvio:startNuvio,buildNuvioJSON
   });
 })();
