@@ -818,16 +818,13 @@
       <!-- L'identité en ligne est celle du serveur configuré dans Kovelyx PC.
            Sans backend central, aucune inscription n'est simulée. -->
       <div id="account-view-cloud" hidden>
-        <p class="account-lead">Utilisez le <strong>même e-mail et le même mot de passe</strong> sur Ma-Collection et dans Kovelyx PC. Il faut connecter les deux à un même serveur de comptes compatible Supabase. Le mode sans compte reste disponible.</p>
+        <p class="account-lead">Utilisez le <strong>même e-mail et le même mot de passe</strong> sur Ma-Collection et dans Kovelyx PC. Les deux utilisent ton Worker Kovelyx Cloudflare (Better Auth + D1). Le mode local reste disponible.</p>
         <p id="account-cloud-status" class="account-note" role="status" aria-live="polite"></p>
         <div class="account-callout">
           <strong>Serveur de comptes Kovelyx</strong>
-          <p>Renseignez le serveur et la clé publique configurés dans les paramètres serveur de Kovelyx. Si vous n'avez pas encore de serveur, l'inscription ne peut pas être activée sur un simple site GitHub Pages.</p>
+          <p>Adresse de votre Worker Cloudflare Kovelyx. Aucune clé publique Supabase n'est nécessaire. Les inscriptions peuvent être fermées par votre Worker ; un compte existant peut se connecter.</p>
           <label class="account-label">Adresse HTTPS du serveur
-            <input id="account-cloud-url" class="account-input" inputmode="url" type="url" autocomplete="off" spellcheck="false" placeholder="https://votre-projet.supabase.co">
-          </label>
-          <label class="account-label">Clé publique / anon (jamais une clé secrète)
-            <input id="account-cloud-key" class="account-input" type="text" autocomplete="off" spellcheck="false" placeholder="sb_publishable_… ou clé anon publique">
+            <input id="account-cloud-url" class="account-input" inputmode="url" type="url" autocomplete="off" spellcheck="false" placeholder="https://kovelyx-cloud.votre-compte.workers.dev">
           </label>
           <div class="account-actions">
             <button type="button" id="account-cloud-server-save" class="account-btn account-btn-primary">Configurer ce serveur</button>
@@ -847,7 +844,7 @@
             <button type="button" id="account-cloud-logout" class="account-btn account-btn-ghost" hidden>Se déconnecter</button>
           </div>
         </div>
-        <p class="account-note">Les identifiants ne sont jamais enregistrés dans les catalogues JSON. Pour sauvegarder des clés privées, utilisez séparément la sauvegarde chiffrée ; les profils et collections sont synchronisés par votre serveur Kovelyx, pas par ce formulaire.</p>
+        <p class="account-note">Les identifiants restent hors des JSON. Le coffre chiffré des clés reste <strong>local à ce navigateur</strong> : Kovelyx Cloudflare ne fournit pas de sauvegarde de coffre sur le serveur. Le push de catalogues utilise votre profil Kovelyx sélectionné.</p>
         <p class="account-note"><a href="https://github.com/anderson76389/Ma-Collection/blob/main/docs/COMPTE_KOVELYX.md" target="_blank" rel="noopener noreferrer">Guide : mettre en place un compte commun ↗</a></p>
       </div>
 
@@ -933,11 +930,11 @@
   <script src="collections/database.js?v=96.0"></script>
   <script src="collections/test-channels.js?v=95.1"></script>
   <script src="collections/preview_posters.js?v=1790556693838"></script>
-  <script src="account-config.js?v=95.0"></script>
+  <script src="account-config.js?v=97.0"></script>
   <!-- For local cloud testing, copy account-config.local.example.js to account-config.local.js and uncomment:
   <script src="account-config.local.js"></script>
   -->
-  <script src="account-vault.js?v=96.0"></script>
+  <script src="account-vault.js?v=97.0"></script>
   <script src="customize.js?v=93.0"></script>
   <script src="scripts/catalog-utils.js?v=94.0"></script>
   <script src="catalog-labels-fr.js?v=1"></script>
@@ -946,7 +943,7 @@
   <script src="kovelyx-export.js?v=10"></script>
   <script>window.MA_COLLECTION_ASSET_VERSION = 92.5;</script>
   <script src="wizard.js?v=101.1"></script>
-  <script src="account-ui.js?v=98.0"></script>
+  <script src="account-ui.js?v=99.0"></script>
   <script src="site-fr.js?v=32"></script>
   <script src="import-studio.js?v=14"></script>
   <script src="destination-picker.js?v=9"></script>
