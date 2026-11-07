@@ -37,6 +37,7 @@ jobs:
           node scripts/audit-kaptain-complet.mjs
           node --test tests/renommage-ma-collection.test.mjs
           node --test tests/kovelyx-cloud-push.test.mjs
+          node --test tests/kovelyx-better-auth.test.mjs
           node --test tests/studio-avance.test.mjs
           node --test tests/custom-folders.test.cjs
       - name: Installer le navigateur de test
