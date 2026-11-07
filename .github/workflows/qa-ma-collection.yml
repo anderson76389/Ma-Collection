@@ -36,6 +36,7 @@ jobs:
           node --check scripts/audit-kaptain-complet.mjs
           node scripts/audit-kaptain-complet.mjs
           node --test tests/renommage-ma-collection.test.mjs
+          node --test tests/kovelyx-cloud-push.test.mjs
           node --test tests/studio-avance.test.mjs
           node --test tests/custom-folders.test.cjs
       - name: Installer le navigateur de test
@@ -44,7 +45,7 @@ jobs:
           npx playwright install --with-deps chromium
       - name: Vérifier syntaxe de l'application
         run: |
-          for f in catalog-labels-fr.js app.js wizard.js customize.js account-config.js account-ui.js account-vault.js site-fr.js import-studio.js destination-picker.js kovelyx-export.js debrid-services.js collections/test-channels.js; do
+          for f in catalog-labels-fr.js app.js wizard.js customize.js account-config.js account-ui.js account-vault.js site-fr.js import-studio.js destination-picker.js kovelyx-export.js kovelyx-cloud-push.js debrid-services.js collections/test-channels.js; do
             node --check "$f"
           done
           node --check custom-folders.js
