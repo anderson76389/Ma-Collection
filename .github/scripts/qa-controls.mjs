@@ -218,35 +218,40 @@ try {
     const source=await page.locator("html").evaluate(n=>n.outerHTML);
     assert(!source.includes("api.nuvio.tv"),"Un ancien serveur externe ne doit pas figurer dans la page");
   });
-  await run("compte Kovelyx : aucun compte fictif sans serveur, inscription et connexion simulées",async()=>{
+  await run("compte Kovelyx : connexion Better Auth Cloudflare sans Supabase",async()=>{
     await page.evaluate(()=>window.MaCollectionAccountUi.openModal("cloud"));
-    assert.equal(await page.locator("#account-view-cloud").evaluate(n=>n.hidden),false);
-    assert.equal(await page.locator("#account-cloud-signup").isDisabled(),true,
-      "L'inscription doit rester désactivée sans serveur");
-    await page.locator("#account-cloud-url").fill("https://qa-kovelyx.supabase.co");
-    await page.locator("#account-cloud-key").fill("sb_publishable_qa");
-    await page.locator("#account-cloud-server-save").click();
-    assert.equal(await page.locator("#account-cloud-signup").isDisabled(),false);
-    const authRequests=[];
-    await page.route("https://qa-kovelyx.supabase.co/auth/v1/**",async route=>{
+    const testHost="https://qa-kovelyx.workers.dev";
+    const requests=[];
+    const user={id:"00000000-0000-4000-8000-000000000123",email:"qa@example.org"};
+    await page.route(testHost+"/api/auth/**",async route=>{
       const req=route.request();
-      authRequests.push(req.url());
-      const signup=req.url().includes("/signup");
-      const user={id:"00000000-0000-4000-8000-000000000123",email:"qa@example.org"};
+      requests.push(req.url());
+      const signup=req.url().includes("/sign-up/email");
+      const body=signup?{user}:{
+        user,token:"qa-better-auth-token-test-1234567890"
+      };
       await route.fulfill({
         status:200,contentType:"application/json",
-        headers:{"access-control-allow-origin":"*","access-control-allow-headers":"*"},
-        body:JSON.stringify(signup?{user}:{
-          user,access_token:"qa-access-token",refresh_token:"qa-refresh-token",
-          expires_in:3600,token_type:"bearer"
-        })
+        headers:{"access-control-allow-origin":"https://anderson76389.github.io",
+                 "access-control-allow-headers":"*",
+                 "access-control-allow-methods":"GET, POST, OPTIONS",
+                 "access-control-expose-headers":"set-auth-token"},
+        body:JSON.stringify(body)
       });
     });
     try {
+      assert.equal(await page.locator("#account-view-cloud").evaluate(n=>n.hidden),false);
+      assert.equal(await page.locator("#account-cloud-signup").isDisabled(),false,
+        "Le Worker Kovelyx connu doit rendre la connexion disponible");
+      assert.equal(await page.locator("#account-cloud-key").count(),0,
+        "Aucune clé publique Supabase dans le compte Kovelyx");
+      await page.locator("#account-cloud-url").fill(testHost);
+      await page.locator("#account-cloud-server-save").click();
+      assert.equal(await page.locator("#account-cloud-signup").isDisabled(),false);
       await page.locator("#account-cloud-email").fill("qa@example.org");
       await page.locator("#account-cloud-password").fill("motdepasse-de-test-123");
       await page.locator("#account-cloud-signup").click();
-      await page.waitForFunction(()=>document.querySelector("#account-cloud-status")?.textContent.includes("Confirmez l’e-mail"),{timeout:10000});
+      await page.waitForFunction(()=>document.querySelector("#account-cloud-status")?.textContent.includes("Compte créé"),{timeout:10000});
       assert.equal(await page.evaluate(()=>window.MaCollectionAccount.status().cloudSignedIn),false);
       await page.locator("#account-cloud-password").fill("motdepasse-de-test-123");
       await page.locator("#account-cloud-login").click();
@@ -259,13 +264,13 @@ try {
       }));
       assert.equal(state.email,"qa@example.org");
       assert.equal(state.passwordValue,"");
-      assert.equal(state.backend,"https://qa-kovelyx.supabase.co");
-      assert(authRequests.some(u=>u.includes("/signup")));
-      assert(authRequests.some(u=>u.includes("grant_type=password")));
+      assert.equal(state.backend,testHost);
+      assert(requests.some(url=>url.includes("/sign-up/email")));
+      assert(requests.some(url=>url.includes("/sign-in/email")));
       await page.locator("#account-cloud-logout").click();
       assert.equal(await page.evaluate(()=>window.MaCollectionAccount.status().cloudSignedIn),false);
     } finally {
-      await page.unroute("https://qa-kovelyx.supabase.co/auth/v1/**");
+      await page.unroute(testHost+"/api/auth/**");
       await page.evaluate(()=>{
         window.MaCollectionAccount.signOutCloud();
         window.MaCollectionBackendConfig.clear();
