@@ -2030,20 +2030,20 @@
   function renderChoose(panel) {
     const { folders, sources } = countSelection();
     panel.innerHTML = `
-      ${header('Get Your Collection into Nuvio', `Your home screen is ready — ${folders} folders of it, pulling from ${sources} sources.`, false)}
+      ${header('Envoyer votre collection dans Kovelyx', `Votre accueil est prêt : ${folders} dossiers, ${sources} sources.`, false)}
       <div class="wiz-body">
         <button class="wiz-option" id="wiz-pick-push">
           <span class="wiz-option-icon accent">${ICON.rocket}</span>
           <span class="wiz-option-text">
-            <span class="wiz-option-title">Send straight to Nuvio</span>
-            <span class="wiz-option-desc">Sign in or create a Nuvio account and I'll load your collection in instantly. It'll be there on every device you use.</span>
+            <span class="wiz-option-title">Synchroniser sur Kovelyx Cloud</span>
+            <span class="wiz-option-desc">Choisissez votre compte et profil Kovelyx pour retrouver les catalogues sur PC, mobile et TV.</span>
           </span>
         </button>
         <button class="wiz-option" id="wiz-pick-download">
           <span class="wiz-option-icon">${ICON.download}</span>
           <span class="wiz-option-text">
-            <span class="wiz-option-title">Just download the file</span>
-            <span class="wiz-option-desc">Prefer not to share a login? Grab the file (or copy the import link) and add it in Nuvio yourself.</span>
+            <span class="wiz-option-title">Télécharger le JSON</span>
+            <span class="wiz-option-desc">Conservez votre sélection et importez-la manuellement, sans compte.</span>
           </span>
         </button>
       </div>`;
@@ -2051,10 +2051,12 @@
     el('wiz-close').addEventListener('click', close);
     el('wiz-pick-push').addEventListener('click', () => {
       if (countSelection().folders === 0) {
-        showToast('Pick at least one folder before sending to Nuvio.', 'error');
+        showToast('Sélectionnez au moins un dossier avant la synchronisation.', 'error');
         return;
       }
-      go('devices');
+      close();
+      if (window.MaCollectionCloudPush?.open) window.MaCollectionCloudPush.open();
+      else showToast('La connexion Kovelyx Cloudflare est indisponible : rechargez la page.', 'error');
     });
     el('wiz-pick-download').addEventListener('click', () => {
       close();

@@ -4,7 +4,7 @@
  *
  * Security: secrets are AES-GCM encrypted client-side with a key derived from
  * the user's vault passphrase (PBKDF2). The passphrase never leaves the device.
- * Cloud sync (optional) stores ciphertext only on the SAME backend as Kovelyx.
+ * The encrypted vault remains LOCAL: Kovelyx Cloud does not offer a vault endpoint.
  */
 (function () {
   'use strict';
@@ -18,7 +18,9 @@
   let cryptoKey = null;          // CryptoKey in memory while unlocked
   let sessionSaltB64 = null;
   let saveTimer = null;
-  let authSession = null;        // { access_token, user_id, email } when cloud signed in
+  let authSession = null;        // Better Auth bearer token, only in this browser tab
+  let validatedSession = null;   // Cache court : évite un /v1/me par bloc de 6 Ko
+  let validatedAt = 0;
   let lastPayload = null;
   let lastSyncError = null;
 
@@ -55,7 +57,7 @@
 
   function cloudConfigured() {
     const c = cfg();
-    return !!(c.supabaseUrl && c.supabaseAnonKey);
+    return !!c.cloudUrl;
   }
 
   function b64FromBuf(buf) {
@@ -115,140 +117,127 @@
     return { payload: obj, key, saltB64: envelope.salt };
   }
 
-  // ---- Cloud (optional Supabase) ----------------------------------------
-
+  // ---- Compte Kovelyx : Better Auth + Workers/D1 (sans Supabase) --------
   function cloudHeaders(token) {
-    const c = cfg();
-    const h = {
-      'Content-Type': 'application/json',
-      apikey: c.supabaseAnonKey,
-    };
-    if (token) h.Authorization = 'Bearer ' + token;
-    return h;
+    const headers = { "Content-Type": "application/json", Accept: "application/json" };
+    if (token) headers.Authorization = "Bearer " + token;
+    return headers;
   }
 
   function assertCloudConfigured() {
-    if (!cloudConfigured()) throw new Error("Configurez d'abord votre serveur de comptes Kovelyx.");
+    if (!cloudConfigured()) throw new Error("Configurez l'adresse du Worker Kovelyx Cloudflare.");
   }
-  async function cloudSignup(email, password) {
+
+  async function apiRequest(path, options = {}) {
     assertCloudConfigured();
-    const c = cfg();
-    const res = await fetch(c.supabaseUrl + "/auth/v1/signup", {
-      method:"POST", mode:"cors", cache:"no-store",
-      headers:cloudHeaders(),
-      body:JSON.stringify({ email, password }),
+    const response = await fetch(cfg().cloudUrl + path, {
+      method: options.method || "GET",
+      mode: "cors", cache: "no-store", credentials: "omit",
+      headers: cloudHeaders(options.token),
+      ...(options.body === undefined ? {} : { body: JSON.stringify(options.body) })
     });
-    const data = await res.json().catch(() => ({}));
-    if (!res.ok) throw new Error(data.error_description || data.msg || data.error || ("Inscription refusée (" + res.status + ")"));
-    if (!data.access_token) return {
-      needsConfirm: true,
-      message: "Compte demandé. Confirmez l’e-mail reçu, puis connectez-vous ici et dans Kovelyx."
-    };
-    storeSession(data, email);
-    return { needsConfirm: false, message: "Compte créé : connectez-vous aussi dans Kovelyx avec ces identifiants." };
+    if (!response.ok && !options.acceptError) {
+      const problem = await response.clone().json().catch(() => ({}));
+      const message = problem.error || problem.message ||
+        ("Kovelyx Cloudflare a refusé la demande (HTTP " + response.status + ").");
+      throw new Error(message + (response.status === 409 ? " (conflit de révision)" : ""));
+    }
+    return response;
   }
-  function storeSession(data, email) {
-    if (!data.access_token || !data.user?.id) throw new Error("Session d'authentification incomplète.");
+
+  async function cloudSignup(email, password) {
+    if (password.length < 12) throw new Error("Le mot de passe Kovelyx doit contenir au moins 12 caractères.");
+    const response = await apiRequest("/api/auth/sign-up/email", {
+      method: "POST",
+      body: { name: (email.split("@")[0] || "Kovelyx").slice(0, 48), email: email.trim(), password }
+    });
+    const data = await response.json().catch(() => ({}));
+    if (!data.user?.id) throw new Error("Le compte n'a pas été confirmé par Kovelyx Cloudflare.");
+    return { needsConfirm: false, message: "Compte créé. Connectez-vous pour choisir votre profil Kovelyx." };
+  }
+
+  function storeSession(data, email, token) {
+    if (!token || token.length < 16 || !data.user?.id)
+      throw new Error("Kovelyx n'a pas renvoyé de session Bearer valide.");
+    validatedSession = null;
+    validatedAt = 0;
     authSession = {
-      access_token: data.access_token,
-      refresh_token: data.refresh_token || "",
-      expires_at: Math.floor(Date.now() / 1000) + Math.max(0, Number(data.expires_in) || 3600),
-      user_id: data.user.id, email: data.user.email || email,
-      server: cfg().supabaseUrl,
+      provider: "cloudflare-better-auth",
+      access_token: token,
+      user_id: data.user.id,
+      email: data.user.email || email,
+      server: cfg().cloudUrl
     };
     persistAuthSession();
     return authSession;
   }
+
   async function cloudLogin(email, password) {
-    assertCloudConfigured();
-    const c = cfg();
-    const res = await fetch(c.supabaseUrl + "/auth/v1/token?grant_type=password", {
-      method:"POST", mode:"cors", cache:"no-store", headers:cloudHeaders(),
-      body:JSON.stringify({ email, password }),
+    const response = await apiRequest("/api/auth/sign-in/email", {
+      method: "POST", body: { email: email.trim(), password }
     });
-    const data = await res.json().catch(() => ({}));
-    if (!res.ok) throw new Error(data.error_description || data.msg || data.error || ("Connexion refusée (" + res.status + ")"));
-    return storeSession(data, email);
+    const data = await response.json().catch(() => ({}));
+    const token = response.headers.get("set-auth-token") || data.token;
+    return storeSession(data, email, token);
   }
+
   function persistAuthSession() {
     try {
       if (authSession) sessionStorage.setItem("ma_collection_account_auth", JSON.stringify(authSession));
       else sessionStorage.removeItem("ma_collection_account_auth");
-    } catch (e) { /* session limitée à cet onglet */ }
+    } catch (_) { /* Une session peut rester seulement en mémoire. */ }
   }
+
   function restoreAuthSession() {
     try {
       const raw = sessionStorage.getItem("ma_collection_account_auth");
       const candidate = raw && JSON.parse(raw);
-      if (candidate?.server === cfg().supabaseUrl && candidate?.user_id && candidate?.access_token) {
+      if (candidate?.provider === "cloudflare-better-auth" &&
+          candidate.server === cfg().cloudUrl &&
+          typeof candidate.user_id === "string" &&
+          typeof candidate.access_token === "string" &&
+          candidate.access_token.length >= 16) {
         authSession = candidate;
       } else {
         authSession = null;
         persistAuthSession();
       }
-    } catch (e) { authSession = null; }
+    } catch (_) { authSession = null; }
   }
+
   async function freshSession() {
     assertCloudConfigured();
-    if (!authSession || authSession.server !== cfg().supabaseUrl) {
+    if (!authSession || authSession.server !== cfg().cloudUrl) {
       signOutCloud();
-      throw new Error("Connectez-vous à votre compte Kovelyx.");
+      throw new Error("Connectez-vous avec le même compte que sur Kovelyx.");
     }
-    if (!authSession.expires_at || authSession.expires_at > Date.now()/1000 + 90) return authSession;
-    if (!authSession.refresh_token) {
-      signOutCloud();
-      throw new Error("Session expirée, reconnectez-vous.");
+    const before = authSession;
+    if (validatedSession === before && Date.now() - validatedAt < 30_000) return before;
+    const response = await apiRequest("/v1/me", { token: before.access_token, acceptError: true });
+    if (response.status === 401 || response.status === 403) {
+      if (authSession === before) signOutCloud();
+      throw new Error("Session Kovelyx expirée, reconnectez-vous.");
     }
-    const res = await fetch(cfg().supabaseUrl + "/auth/v1/token?grant_type=refresh_token", {
-      method:"POST", mode:"cors", cache:"no-store", headers:cloudHeaders(),
-      body:JSON.stringify({ refresh_token:authSession.refresh_token }),
-    });
-    const data = await res.json().catch(() => ({}));
-    if (!res.ok) {
-      signOutCloud();
-      throw new Error("Votre session a expiré. Veuillez vous reconnecter.");
-    }
-    return storeSession(data,authSession.email);
+    if (!response.ok) throw new Error("Serveur Kovelyx inaccessible (HTTP " + response.status + ").");
+    const me = await response.json();
+    if (me.id !== before.user_id || authSession !== before)
+      throw new Error("Le compte Kovelyx a changé. Réessayez.");
+    validatedSession = before;
+    validatedAt = Date.now();
+    return before;
   }
 
-  async function cloudPullEnvelope() {
-    if (!authSession || !cloudConfigured()) return null;
-    await freshSession();
-    const c = cfg();
-    const res = await fetch(
-      c.supabaseUrl + '/rest/v1/ma_collection_vaults?select=ciphertext,salt,iv&user_id=eq.' + encodeURIComponent(authSession.user_id),
-      { headers: cloudHeaders(authSession.access_token) }
-    );
-    if (!res.ok) throw new Error('Cloud pull failed (' + res.status + ')');
-    const rows = await res.json();
-    if (!rows || !rows.length) return null;
-    return rows[0];
-  }
-
-  async function cloudPushEnvelope(envelope) {
-    if (!authSession || !cloudConfigured()) return;
-    await freshSession();
-    const c = cfg();
-    const body = {
-      user_id: authSession.user_id,
-      ciphertext: envelope.ciphertext,
-      salt: envelope.salt,
-      iv: envelope.iv,
-      updated_at: new Date().toISOString(),
-    };
-    const res = await fetch(c.supabaseUrl + '/rest/v1/ma_collection_vaults', {
-      method: 'POST',
-      headers: Object.assign({}, cloudHeaders(authSession.access_token), {
-        Prefer: 'resolution=merge-duplicates,return=minimal',
-      }),
-      body: JSON.stringify(body),
+  // Les jetons restent internes au module ; aucun appel vers une URL externe.
+  async function cloudFetch(path, options = {}) {
+    if (typeof path !== "string" || !path.startsWith("/v1/") || path.includes("://"))
+      throw new Error("Route Kovelyx non autorisée.");
+    const before = await freshSession();
+    const response = await apiRequest(path, {
+      method: options.method || "GET", body: options.body,
+      token: before.access_token, acceptError: options.acceptError === true
     });
-    if (!res.ok) {
-      // Une réponse PATCH 204 ne garantit pas qu'une ligne ait été mise à jour.
-      // L'upsert requiert la table et les politiques RLS fournies dans docs/sql/.
-      throw new Error("La sauvegarde distante a échoué (HTTP " + res.status +
-        "). Vérifiez la table ma_collection_vaults et les autorisations RLS.");
-    }
+    if (authSession !== before) throw new Error("Compte modifié pendant l'envoi.");
+    return response;
   }
 
   function readLocalEnvelope() {
@@ -301,6 +290,7 @@
       cloudSignedIn: !!(authSession && authSession.access_token),
       cloudEmail: authSession && authSession.email || null,
       lastSyncError,
+      vaultCloudAvailable: false,
       unlocked: isUnlocked(),
       hasLocalVault: !!readLocalEnvelope(),
     };
@@ -329,17 +319,8 @@
   }
 
   async function unlockWithPassphrase(passphrase) {
-    let envelope = null;
-    if (authSession && cloudConfigured()) {
-      try {
-        envelope = await cloudPullEnvelope();
-        lastSyncError = null;
-      } catch (e) {
-        lastSyncError = e.message || "Téléchargement des données impossible";
-        // La sauvegarde locale reste accessible, sans prétendre être synchronisée.
-      }
-    }
-    if (!envelope) envelope = readLocalEnvelope();
+    // Aucun endpoint de coffre chiffré sur Kovelyx Cloud : on ne simule pas la synchro.
+    const envelope = readLocalEnvelope();
     if (!envelope) throw new Error('No saved data found on this device. Turn on Save first.');
 
     const { payload, key, saltB64 } = await decryptEnvelope(envelope, passphrase);
@@ -362,12 +343,7 @@
     lastPayload = payload;
     const envelope = { ciphertext: enc.ciphertext, salt: enc.salt, iv: enc.iv };
     writeLocalEnvelope(envelope);
-    if (authSession && cloudConfigured()) {
-      try { await cloudPushEnvelope(envelope); lastSyncError = null; } catch (e) {
-        lastSyncError = e.message || "Synchronisation impossible";
-        console.warn("[MaCollectionAccount] Enregistrement distant non effectué :", e);
-      }
-    }
+    // Coffre chiffré sauvegardé localement uniquement ; aucun faux succès cloud.
     return payload;
   }
 
@@ -382,12 +358,7 @@
     sessionSaltB64 = enc.salt;
     const envelope = { ciphertext: enc.ciphertext, salt: enc.salt, iv: enc.iv };
     writeLocalEnvelope(envelope);
-    if (authSession && cloudConfigured()) {
-      try { await cloudPushEnvelope(envelope); lastSyncError = null; } catch (e) {
-        lastSyncError = e.message || "Synchronisation impossible";
-        console.warn("[MaCollectionAccount] Enregistrement distant non effectué :", e);
-      }
-    }
+    // Coffre chiffré sauvegardé localement uniquement ; aucun faux succès cloud.
     return true;
   }
 
@@ -400,22 +371,21 @@
   }
 
   async function cloudLogout() {
-    const token = authSession?.access_token;
-    const server = authSession?.server;
-    signOutCloud(); // Toujours effacer immédiatement le jeton côté navigateur.
-    if (!token || !server) return;
+    const old = authSession;
+    signOutCloud();
+    if (!old) return;
     try {
-      const res = await fetch(server + "/auth/v1/logout", {
-        method:"POST",mode:"cors",cache:"no-store",
-        headers:{ ...cloudHeaders(token) }
+      await fetch(old.server + "/api/auth/sign-out", {
+        method: "POST", mode: "cors", cache: "no-store", credentials: "omit",
+        headers: cloudHeaders(old.access_token), body: "{}"
       });
-      if (!res.ok) throw new Error("HTTP " + res.status);
     } catch (error) {
-      console.warn("[Kovelyx] Session locale déconnectée ; révocation réseau non confirmée :", error);
-      // La session locale est supprimée même si le serveur est hors-ligne.
+      console.warn("[Kovelyx] Session locale fermée ; révocation à distance non confirmée :", error);
     }
   }
   function signOutCloud() {
+    validatedSession = null;
+    validatedAt = 0;
     lastSyncError = null;
     authSession = null;
     persistAuthSession();
@@ -451,6 +421,7 @@
     cloudConfigured,
     cloudSignup,
     cloudLogin,
+    cloudFetch,
     cloudLogout,
     signOutCloud,
     collectPayload,

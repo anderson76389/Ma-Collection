@@ -36,7 +36,7 @@ test('aucune URL externe ni réorganisation des scripts',()=>{
   const html=read('index.html');
   assert.match(html,/style\.css\?v=96\.1/);
   assert.match(html,/collections\/test-channels\.js\?v=95\.1/);
-  assert.match(html,/wizard\.js\?v=101\.1/);
+  assert.match(html,/wizard\.js\?v=101\.[12]/);
   assert.match(html,/collections\/database\.js\?v=96\.0/);
   assert.match(html,/src="app\.js\?v=10[67]\.0"/);
 });

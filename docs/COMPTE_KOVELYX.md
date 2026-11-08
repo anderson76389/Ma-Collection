@@ -1,41 +1,41 @@
-# Compte unique Ma-Collection et Kovelyx
+# Compte Kovelyx Cloudflare et Ma-Collection
 
-## Ce qui est disponible
+Ma-Collection prend en charge l'API indépendante de Kovelyx : **Cloudflare Workers + D1 + Better Auth**, et non Supabase. Les catalogues sont envoyés directement au profil Kovelyx choisi ; aucune donnée ne transite par un compte Nuvio ou Kaptain.
 
-Le site Ma-Collection propose **Compte Kovelyx → Créer mon compte / Se connecter**. Il utilise la même API d'identification compatible Supabase Auth que l'application Kovelyx : e-mail + mot de passe.
+## Connexion
 
-**Important : un dépôt GitHub Pages ne peut pas héberger de manière sécurisée un système de comptes à lui seul.** Aucun serveur de comptes public Kovelyx n'est actuellement défini dans le code des applications. Le formulaire reste donc **indisponible tant qu'un serveur n'est pas configuré** : aucun compte fictif n'est créé.
+1. Dans Ma-Collection, ouvrez l'icône **Compte → Compte Kovelyx**.
+2. Vérifiez l'URL HTTPS du Worker Kovelyx. Elle peut être remplacée si votre Worker a une autre adresse. **Aucune clé publique Supabase n'est nécessaire.**
+3. Connectez-vous avec le même e-mail et mot de passe que dans Kovelyx mobile/TV/PC. L'inscription est souvent désactivée sur le Worker en production ; créez alors le compte depuis votre propre outil de configuration Cloudflare.
+4. La session Better Auth est conservée seulement dans l'onglet navigateur ; une session Supabase historique ne sera jamais réutilisée.
 
-L'application PC propose déjà la connexion, l'inscription et un serveur personnalisé. Pour retrouver **la même identité sur le site et dans l'application**, il faut sélectionner *exactement la même instance de serveur* des deux côtés. Une connexion dans le navigateur ne connecte pas automatiquement l'application : chaque appareil doit ouvrir sa propre session.
+Le site est servi depuis https://anderson76389.github.io, autorisé par le CORS du Worker. Une copie du site sur un autre domaine doit disposer d'un CORS explicitement autorisé, sans assouplir la sécurité.
 
-## Préparer l'instance de comptes
+## Publier pour PC + Android + Android TV
 
-1. Utilisez une instance Supabase Auth/PostgREST que vous gérez ou un serveur entièrement compatible. L'instance doit être accessible en **HTTPS** depuis les deux appareils.
-2. Configurez Auth (inscription par e-mail, confirmation, éventuel SMTP) et les accès réseau/CORS pour l'origine du site `https://anderson76389.github.io`. Sans serveur, la connexion reste désactivée.
-3. Pour les **profils et collections synchronisés dans Kovelyx**, déployez également le backend et les tables/endpoints que la version Kovelyx attend. **Une instance Supabase Auth vide ne suffit pas à synchroniser les profils.** N'utilisez pas les serveurs d'autres éditeurs.
-4. Pour les **préférences sauvegardées par Ma-Collection** (sélections et clés chiffrées localement), exécutez le fichier [SQL ma_collection_vaults](sql/ma_collection_vaults.sql) dans *votre* base de données. Ce coffre chiffré est distinct des profils de l'application.
+1. Sélectionnez les catalogues, catégories et affiches voulus sur Ma-Collection.
+2. Cliquez sur **Importer la collection → Kovelyx Cloud** ou **Exporter Kovelyx → Synchroniser sur tous mes appareils**.
+3. Connectez-vous, puis choisissez le **profil cible** dans la liste réellement renvoyée par le Worker.
+4. Choisissez **Fusionner** (par défaut, conserve catégories et dossiers non sélectionnés) ou **Remplacer** (confirmation supplémentaire).
+5. Appuyez sur **Publier sur ce profil**. Le site vérifie la route /ready, lit le catalogue distant, valide les données et transmet des blocs de 6 000 caractères, puis publie le manifeste seulement après un transfert complet.
+6. Dans les apps Kovelyx installées, vérifiez le **même compte et profil** et lancez/attendez la synchronisation.
 
-## Côté site
+Les publications concurrentes sont protégées par la révision du manifeste. Le serveur refuse HTTP 409 en cas de conflit ; Ma-Collection ne force pas un écrasement. Le contenu est limité à **4 Mo UTF-8 / 700 blocs** par catalogue ; réduisez la sélection si ce seuil est atteint. Les fichiers JSON de secours et le pont local PC restent disponibles.
 
-1. Ouvrez Ma-Collection et cliquez sur l'icône **Compte**, puis **Compte Kovelyx · Inscription / connexion**.
-2. Renseignez l'URL de base HTTPS du serveur (ex. `https://mon-instance.supabase.co`) et sa **clé publique publishable/anon**, puis cliquez **Configurer ce serveur**. La configuration est enregistrée uniquement dans ce navigateur.
-3. Cliquez **Créer mon compte** avec une adresse e-mail et un mot de passe personnel. Si la confirmation par e-mail est activée, validez l'e-mail avant de vous connecter.
-4. Cliquez **Se connecter** : un retour *Connecté* n'est affiché qu'après une réponse d'authentification du serveur.
-5. Dans Kovelyx PC, configurez le même serveur et la même clé publique, puis connectez-vous avec **les mêmes identifiants**.
+L'import des collections ne permet pas d'installer les extensions à distance. Les sources addon doivent déjà être configurées sur vos appareils. Les visuels liés à des URL tierces doivent être accessibles depuis l'appareil.
 
-**Ne saisissez jamais une clé `service_role`, `sb_secret_...` ou votre mot de passe administrateur dans le site**. La clé publique n'est pas un secret ; les autorisations serveur sont contrôlées par les politiques RLS.
+## Coffre chiffré et données
 
-## Sauvegarde des données
+La sauvegarde des clés et réglages sensibles utilise un coffre **AES-GCM local** et une phrase secrète. **Kovelyx Cloudflare ne propose pas d'API de coffre chiffré** : Ma-Collection ne prétend plus le synchroniser. Les anciennes données chiffrées du navigateur ne sont ni effacées ni converties. Les clés API personnelles ne doivent jamais figurer dans les catalogues envoyés à D1.
 
-- Les **catalogues JSON** peuvent toujours être téléchargés et importés sans compte.
-- Les clés API TMDB, MDBList ou débridage sont **des secrets**. Ne les publiez pas sur GitHub et ne les mettez pas dans l'URL du navigateur.
-- La fonction **Sauvegarde locale** chiffre les préférences du site en AES-GCM avec une **phrase secrète de sauvegarde distincte du mot de passe du compte**.
-- Une fois connecté au même serveur, cette sauvegarde chiffrée peut être enregistrée dans `ma_collection_vaults`, sous réserve des politiques RLS. Les données restent illisibles sans la phrase secrète ; la perte de cette phrase empêche leur récupération.
-- Le site garde le coffre local en cas d'indisponibilité du cloud : **une sauvegarde locale réussie ne signifie pas automatiquement que la sauvegarde distante a réussi**.
-- Les **profils, progression de lecture et collections du compte Kovelyx** sont la responsabilité de son backend et non du coffre web ; ils ne sont pas magiquement copiés par le formulaire d'inscription.
+La synchronisation des catalogues utilise les routes Kovelyx : POST /api/auth/sign-in/email, GET /v1/me, GET /v1/profiles, GET /v1/sync, POST /v1/catalogue-chunk et POST /v1/catalogue-manifest.
 
-## Pour rendre l'inscription accessible à tout le monde
+Un test GitHub Pages ou une suite de tests Node ne vaut pas vérification réelle sur les trois appareils. Si /ready n'annonce pas catalogueSnapshotSchema: 1, le **Worker de production doit être mis à jour avec sauvegarde D1 préalable** avant que le Push Cloud soit utilisable. Voir le guide services/kovelyx-cloudflare/README.md du dépôt Kovelyx.
 
-Il faut déployer un serveur Kovelyx opérationnel (avec son schéma et ses règles de sécurité), définir une URL et une clé publique communes et déployer la configuration dans les applications. **Cette étape exige un serveur réellement provisionné**, non un placeholder dans le code.
+## Indépendance et compatibilité
 
-La sauvegarde locale et l'importation sans compte restent possibles avant le déploiement.
+- **Kovelyx Cloud** : publication directe et synchronisation prévue entre les trois clients ; distinct de Nuvio.
+- **Kovelyx PC local** : import via http://127.0.0.1:38761 avec confirmation dans Windows, qui reste disponible sans compte.
+- **Nuvio** : uniquement export JSON volontaire pour import manuel sur une application différente.
+
+Aucune migration forcée des comptes ou des données existantes. L'ancien fichier docs/sql/ma_collection_vaults.sql reste conservé uniquement comme référence historique Supabase ; il ne doit pas être appliqué à D1.
