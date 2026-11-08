@@ -232,7 +232,7 @@ try {
       };
       await route.fulfill({
         status:200,contentType:"application/json",
-        headers:{"access-control-allow-origin":"https://anderson76389.github.io",
+        headers:{"access-control-allow-origin":"*",
                  "access-control-allow-headers":"*",
                  "access-control-allow-methods":"GET, POST, OPTIONS",
                  "access-control-expose-headers":"set-auth-token"},
