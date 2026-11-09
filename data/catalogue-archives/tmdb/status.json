@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "checked_at": "2026-11-02T12:46:36.919Z",
+  "checked_at": "2026-11-09T13:14:46.777Z",
   "expected": 262,
   "verified_current": 261,
-  "changed": 8,
+  "changed": 180,
   "failures": [
     {
       "list_id": 8690687,
