@@ -1,12 +1,29 @@
 {
   "metas": [
     {
+      "id": "tmdb:1789549",
+      "type": "movie",
+      "name": "Le Cadeau D'anniversaire",
+      "poster": "https://image.tmdb.org/t/p/w500/jks3cfCwBFkAxq2rj2SENF6OiDE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eBtITrrdFo1EG7t6TSG5U5c4P2e.jpg",
+      "description": "Marlene Frischmann, mère célibataire, organise la fête d'anniversaire parfaite pour son fils Theo dans la superbe maison de campagne de son frère : ballons, gâteau sans gluten, piñata et même quelques animaux sauvages devraient rendre cette journée inoubliable. Mais cette célébration préparée avec amour ne tarde pas à virer au cauchemar, entre débats enflammés sur l'éducation, la masculinité et les principes parentaux. Un drôle de désordre en partie engendré par Timo, le frère de Marlene, banquier turbulent, Hans, son père excentrique à la dérive, Jenny, sa collègue idéaliste qui rêve de sauver le monde, et un cadeau très spécial. Entre structures familiales dysfonctionnelles, mères surprotectrices prétentieuses et anarchie enfantine, la fête sombre peu à peu dans le chaos.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1596275",
       "type": "movie",
       "name": "Drive – The Pretenders",
-      "poster": "https://image.tmdb.org/t/p/w500/dbIF1TrQc4X5MODcdRYIh8Hhzyj.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/bLDFCD3vMxeJJ5o8F4FOksnb0Fd.jpg",
       "background": "https://image.tmdb.org/t/p/w780/hbz4aeVsjnKb2HRoFbbr46Egh8y.jpg",
       "description": "Une jeune mécanicienne accepte de jouer la fiancée d'un champion automobile en pleine disgrâce, en apparence pour aider à redorer l'image du pilote, en secret pour s'offrir sa chance au volant. Mais le mensonge menace bientôt de tout détruire, y compris ce qui est devenu bien plus qu'un simple arrangement…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1525072",
+      "type": "movie",
+      "name": "Der perfekte Urlaub",
+      "poster": "https://image.tmdb.org/t/p/w500/cNSQoDGWbnSVex9bkffBju1a8Lt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/reenUx0Z8WH4bGO3JQCwPzzfzZw.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -134,7 +151,7 @@
     {
       "id": "tmdb:1590907",
       "type": "movie",
-      "name": "Ein Sommer in Italien - WM 1990",
+      "name": "Ein Sommer in Italien – WM 1990",
       "poster": "https://image.tmdb.org/t/p/w500/j7QvlPXWzOKis1HpHKGbmWZ9WX7.jpg",
       "background": "https://image.tmdb.org/t/p/w780/nGM6watTStvZvyZLgN4SedLqKhS.jpg",
       "releaseInfo": "2026"
@@ -155,23 +172,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/fHNoUt8bTg5bRr56MUjXYdBpltc.jpg",
       "background": "https://image.tmdb.org/t/p/w780/sVTrej8EtW6TtSQPuvtZumikGYO.jpg",
       "description": "Barbara et Heli sont amoureux et heureux. Clowns professionnels, ils savent rire de tout et mènent une vie joyeuse avec leurs 2 enfants. Quand un accident emporte Héli et les enfants, Barbara doit trouver un nouveau chemin. Portée par les souvenirs qu’elle chérit, elle prouve que l’amour ne meurt jamais et qu’il faut toujours oser embrasser la vie.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1436061",
-      "type": "movie",
-      "name": "Fabian et le mariage sanglant",
-      "poster": "https://image.tmdb.org/t/p/w500/2T4gc5njZ0JJVYLn6Q8VxS9RoM6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yU85xdxN3rmt4RgGPb2na1SSjdM.jpg",
-      "description": "Fabian, escroc malchanceux, s'invite à un mariage d'hiver quelque peu excentrique dans le but de voler un cadeau de grande valeur destiné à la mariée. Mais lorsqu'un meurtre vient perturber son plan, Fabian se retrouve malgré lui impliqué dans l'affaire et contraint de résoudre ce mystère. Une comédie policière palpitante, truffée de sombres secrets...",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1356484",
-      "type": "movie",
-      "name": "Ach, diese Lücke, diese entsetzliche Lücke",
-      "poster": "https://image.tmdb.org/t/p/w500/m569E5SNHJZQDF62RhGHSTboqbu.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gPTHVWTLHq8i2KwfGnJpgvcU4Sw.jpg",
       "releaseInfo": "2026"
     }
   ]

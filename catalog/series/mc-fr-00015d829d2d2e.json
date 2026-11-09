@@ -1,24 +1,6 @@
 {
   "metas": [
     {
-      "id": "tmdb:108464",
-      "type": "series",
-      "name": "Les signes du mal",
-      "poster": "https://image.tmdb.org/t/p/w500/7y02tmjy6DIzIV2ns2RS9cHH7eT.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tdYtHdmEFp0NIrwye8Qf18T3g78.jpg",
-      "description": "Cette série d'archives déchirante d'une demi-heure revisite certains des tueurs les plus brutaux de l'histoire moderne, en passant en revue les séquences d'actualités et les paroles des tueurs eux-mêmes pour voir quels traits terrifiants chaque tueur présentait. Quels sont les signes... du mal ?",
-      "releaseInfo": "2020"
-    },
-    {
-      "id": "tmdb:289196",
-      "type": "series",
-      "name": "Relations toxiques",
-      "poster": "https://image.tmdb.org/t/p/w500/ytdrDw9jw1PNLOqsPJ9RpCclrgb.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ivI6ZQA4DhbozPPBpLr5b1pYbtT.jpg",
-      "description": "Après l'échec médiatique de son mariage avec Armie Hammer, Elizabeth Chambers cherche à savoir comment la toxicité d’une relation peut mener au drame.",
-      "releaseInfo": "2025"
-    },
-    {
       "id": "tmdb:231034",
       "type": "series",
       "name": "Un mort au sous-sol",

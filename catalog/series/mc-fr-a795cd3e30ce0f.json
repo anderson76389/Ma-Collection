@@ -1,6 +1,33 @@
 {
   "metas": [
     {
+      "id": "tmdb:297491",
+      "type": "series",
+      "name": "La Prise du palais",
+      "poster": "https://image.tmdb.org/t/p/w500/xuZdvFGm8eq463ejrddoFXu8APN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4GTqXYOKpd1BbDsSJoYyiM8dUv8.jpg",
+      "description": "En 1985, les guérilleros du M-19 s'emparent du palais de justice de Bogotá. La série revient sur le siège, la riposte de l'armée et le combat des familles pour obtenir justice.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:338684",
+      "type": "series",
+      "name": "Une vie arrachée : Natalee Holloway",
+      "poster": "https://image.tmdb.org/t/p/w500/muAl6E2U6TFA0sFftyxy9FoJf6H.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ryBFDxselVFSGGNCNIXrc8F6XgY.jpg",
+      "description": "En mai 2005, un groupe de lycéens d'une petite ville de l'Alabama célèbre la fin de ses études lors d'un voyage à Aruba. Mais Natalee Holloway, 18 ans, ne se présente jamais à l'embarquement pour le vol retour.\n\nSa disparition soudaine déclenche une vaste couverture médiatique et d'intenses recherches qui vont durer des années.\n\nPlus de vingt ans après les faits, sa mère, Beth Holloway, revient pour la première fois sur l'intégralité de cette affaire, depuis la disparition de sa fille jusqu'aux aveux spectaculaires du principal suspect. À travers des témoignages inédits, des images jamais dévoilées et l'accès à des enquêteurs, cette série documentaire retrace le combat acharné d'une mère pour découvrir la vérité.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:312006",
+      "type": "series",
+      "name": "Anesthésie",
+      "poster": "https://image.tmdb.org/t/p/w500/h11NvlBzbTF6P2boA65ITdFSSo4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7T59rrJSmQoJatZdq5ytboMsuLI.jpg",
+      "description": "Après une opération audacieuse qui a échoué, un médecin de talent quitte une prestigieuse clinique pour exercer dans un petit hôpital, tout en essayant de reprendre sa vie en main.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:336241",
       "type": "series",
       "name": "How to Ruin Diwali: Meet the Parents",
@@ -14,8 +41,17 @@
       "type": "series",
       "name": "Trouble échange",
       "poster": "https://image.tmdb.org/t/p/w500/eRf5F1RtOcAvThZra9cIT5AvxZq.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zeRZjwA0IwaIN6zQcSpFC0VKdr7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wzbO83x1CJqhoKYciDNa3aC37qT.jpg",
       "description": "Un échange de maisons de rêve entre la Sicile et Stockholm tourne mal quand deux couples fortunés sont soudain prêts à tout pour se protéger. Et pour protéger leurs secrets.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:311853",
+      "type": "series",
+      "name": "Obsess",
+      "poster": "https://image.tmdb.org/t/p/w500/ThhNhFCIFsYrOtJ2jXkb1ulOd0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zs166WTY4CE2Rr35PANP0Od90iu.jpg",
+      "description": "De retour au Koweït pour faire le deuil de son père, Talal se retrouve malgré lui hanté par des souvenirs enfouis et de nouveau pris au piège des griffes maudites d'une ancienne relation obsessionnelle infernale. Entre culpabilité, secrets de famille et ombres sinistres, la frontière entre le désir et l'illusion se brouille.",
       "releaseInfo": "2026"
     },
     {
@@ -31,14 +67,14 @@
       "type": "series",
       "name": "Un job mortel",
       "poster": "https://image.tmdb.org/t/p/w500/fEOsnx6TAiHOno5Ez5k8cxMVrtF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cyH2fZUjIJjLmgpF3tgA5CSGz4L.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gWedDgBsZkuOho2qe3q2sTQmbpO.jpg",
       "description": "Croulant sous les dettes, un jeune homme enchaîne les petits boulots très lucratifs que lui propose une mystérieuse agence, mais sa course à l'argent tourne au cauchemar.",
       "releaseInfo": "2026"
     },
     {
       "id": "tmdb:243555",
       "type": "series",
-      "name": "அக்கா",
+      "name": "Akka: The Protectors",
       "poster": "https://image.tmdb.org/t/p/w500/tdnHaR0vlKMQbjmaCs2V3LDmzSd.jpg",
       "background": "https://image.tmdb.org/t/p/w780/cVUKFfws4upCB4ytz5uGIONIiRc.jpg",
       "description": "Dans la société matriarcale de la ville fictive de Pernuru, les femmes règnent en maître et le pouvoir a un nouveau nom : Akka.",
@@ -102,7 +138,7 @@
       "id": "tmdb:332649",
       "type": "series",
       "name": "真田十勇士 SHADOWS OF THE TEN NINJA",
-      "poster": "https://image.tmdb.org/t/p/w500/ax5C1W79usiYKDJkgTOAZrDKwmj.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/qGyypl0Kkk7GkZPVUSrEOLEOo1B.jpg",
       "background": "https://image.tmdb.org/t/p/w780/uNk5pCHUNgxGoe4bJuMYjAAuKFf.jpg",
       "releaseInfo": "2026"
     },
@@ -138,42 +174,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/5UCLCdz8CMTnrKrERAWUkhZhySQ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/rMvfkMMITQXIMm44epyRaGwMaNw.jpg",
       "description": "Lorsqu'une carte légendaire tombe entre les mains d'un célèbre escroc, il décide de monter une dernière arnaque avant d'arrêter pour de bon.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:300146",
-      "type": "series",
-      "name": "Sous le masque",
-      "poster": "https://image.tmdb.org/t/p/w500/nKhiK99WZohc3fJsTXJLf4SrSEY.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/q6VPQREsEGFccpWVF7wFvy9oc25.jpg",
-      "description": "Wei Rao, jeune femme noble, est obligée de se marier avec le prince Lu Zuo, alors que celui-ci est dans le coma et proche de la mort. Elle force alors Ah Chou, une jeune fille ordinaire dont la seule caractéristique est sa ressemblance frappante avec Wei Rao, à prendre sa place au mariage. Mais Lu Zuo se réveille précisément le jour des noces... Ah Chou doit maintenant faire face à Wei Rao, qui veut récupérer sa place, à Lu Zuo, qui la prend pour cette vipère de Wei Rao, mais aussi à toute la demeure du prince qui est pleine de pièges et de complots.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:286183",
-      "type": "series",
-      "name": "Hollywood Arts",
-      "poster": "https://image.tmdb.org/t/p/w500/xsL1ig6Tyi0j9AZPt23yZprslGS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2wjP481Z3G6NlXoUFutN5vcnqzC.jpg",
-      "description": "Les cours ont repris à Hollywood Arts ! L'icône autoproclamée Trina Vega revient pour guider des adolescents talentueux vers la gloire, entre ambition et chaos hilarant.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:335536",
-      "type": "series",
-      "name": "TYSON",
-      "poster": "https://image.tmdb.org/t/p/w500/mdtpJEWW1j5Ns7bIcbw1UeIdvhp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qFNAWAHCXWtS4EMlLxTAetTpZAR.jpg",
-      "description": "Découvrez la vie explosive de Mike Tyson, l'une des figures les plus redoutées et fascinantes de l'histoire du sport.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:283371",
-      "type": "series",
-      "name": "Le piège",
-      "poster": "https://image.tmdb.org/t/p/w500/isBtrgjGVCd2GUMhDMcpf2SuBtB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/69XNjGvcopgPz9Hte0ny1Swk2vW.jpg",
-      "description": "L'autrice Lisa Konrad n'est pas sortie de chez elle depuis 10 ans, lorsque sa sœur a été tuée. Quand elle croit voir le meurtrier à la télé, elle échafaude un plan risqué.",
       "releaseInfo": "2026"
     }
   ]

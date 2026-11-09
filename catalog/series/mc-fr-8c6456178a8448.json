@@ -19,23 +19,6 @@
       "releaseInfo": "2008"
     },
     {
-      "id": "tmdb:46268",
-      "type": "series",
-      "name": "Alcool de contrebande",
-      "poster": "https://image.tmdb.org/t/p/w500/gByx9wYjhQ02RnImgHGsaV8htqN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jH8BWwd1kIfY3N614o9idhW8rOJ.jpg",
-      "description": "\"Alcool de contrebande\" suit le quotidien de bouilleurs d'alcool hors-la-loi qui doivent répondre à une forte demande des clients, tout en évitant l’attention des autorités.",
-      "releaseInfo": "2011"
-    },
-    {
-      "id": "tmdb:227144",
-      "type": "series",
-      "name": "Contraband: Seized at the Border",
-      "poster": "https://image.tmdb.org/t/p/w500/hlCLRojglopcOtPKY1621oFH0kB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hhGw73wWW8CPW5UWE0L0RMT8RrJ.jpg",
-      "releaseInfo": "2023"
-    },
-    {
       "id": "tmdb:111633",
       "type": "series",
       "name": "Secrets in the Ice",
@@ -49,6 +32,7 @@
       "name": "Secret Life of a Vegas Casino",
       "poster": "https://image.tmdb.org/t/p/w500/xyfxV0s0mBRs1NsgYJ3cBlmyLSo.jpg",
       "background": "https://image.tmdb.org/t/p/w780/h6g4QtrLIh7EcPdFObAdvYIYL3C.jpg",
+      "description": "Des moments tirés de la vie réelle, souvent choquants, qui se succèdent 24 heures sur 24 : des clients indisciplinés, des événements exceptionnels source de forte pression et les efforts incessants nécessaires pour assurer chaque jour la sécurité et le divertissement de milliers de personnes.",
       "releaseInfo": "2026"
     }
   ]

@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:891621",
+      "type": "movie",
+      "name": "Wild Horse Nine",
+      "poster": "https://image.tmdb.org/t/p/w500/hnBtud9vLr9arsUW8nxrzIz2uA4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3uLA0ujne91bkzFStZICCYeqhnt.jpg",
+      "description": "Peu avant le coup d'État chilien de 1973, deux agents de la CIA, Chris et Lee, sont envoyés de Santiago vers l'île de Pâques par leur supérieur, MJ. Au milieu des statues emblématiques de l'île, tandis que ces partenaires de longue date sont confrontés à leur sombre passé et aux complots en cours, Chris noue une relation avec deux étudiantes rebelles qui menace de faire basculer dans le chaos leur séjour dans ce paradis isolé…",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1236045",
       "type": "movie",
       "name": "Animals",
@@ -19,6 +28,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1375441",
+      "type": "movie",
+      "name": "Primetime",
+      "poster": "https://image.tmdb.org/t/p/w500/8W69bkus937B2OzJapRmw2uY42s.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sEsMwSDUWGIx9EfNxzM6KzVSsSQ.jpg",
+      "description": "Chris Hansen présente l'émission policière « To Catch a Predator ». Diffusée sur NBC Dateline, cette émission tente de filmer des pédophiles présumés avec l'aide des forces de l'ordre et d'une équipe d'appâts se faisant passer pour des mineurs sur Internet. En 2006, Hansen est sur le point de révolutionner le monde de la télévision.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1380417",
       "type": "movie",
       "name": "By Any Means",
@@ -32,7 +50,7 @@
       "type": "movie",
       "name": "Just Play Dead",
       "poster": "https://image.tmdb.org/t/p/w500/e0WaDBrrBAMcq2stAXCR7rXEsiw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tieojVpH6eW44JQOQEWnf8t4khG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lBWfbmUj9Jw0EM1OYtDXr0B5FPW.jpg",
       "description": "Lorsque Jack Wolfe est acculé par le FBI, il prévoit de simuler sa propre mort et de toucher les 30 millions de dollars de son assurance-vie avec la complicité de sa femme “endeuillée”, Nora, tout en faisant accuser son amant, Chad, de son meurtre. Mais Nora a son propre plan : tuer Jack pour de bon, faire accuser Chad et garder la fortune pour elle seule.",
       "releaseInfo": "2026"
     },
@@ -160,24 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/uUOBgpLTKPRrhXTfngbmGIkzVgc.jpg",
       "background": "https://image.tmdb.org/t/p/w780/fBZ9cWUI1yB9Fcs2eoYZ4mmMUmI.jpg",
       "description": "Une équipe de boosters (c’est-à-dire des voleurs à l’étalage professionnels) décident de s’en prendre à une papesse de la mode impitoyable.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1662317",
-      "type": "movie",
-      "name": "L'Accident",
-      "poster": "https://image.tmdb.org/t/p/w500/cCJTvf7xZpqoEXF9PFf9t5jttxl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2iqLoDsatVBwAvHTEzI71p3qBe9.jpg",
-      "description": "Une ado au volant percute un bâtiment, tuant son petit copain et l'ami de ce dernier. Ce documentaire montre que ce qui semblait un tragique accident est en réalité un meurtre.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1122573",
-      "type": "movie",
-      "name": "Les Spécialistes",
-      "poster": "https://image.tmdb.org/t/p/w500/sF1EGQWrUghvtD3VpqgsBACHr9u.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qcIKxhqGMIj8uujsSoSMZWr8QqU.jpg",
-      "description": "Rachel, recouvreuse de dettes de haut vol, exerce un métier dangereux. C'est pourquoi elle s'entoure des meilleurs, Sid et Bronco, pour l'accompagner et la protéger dans ses négociations. Mais même pour ces spécialistes, récupérer le milliard de dollars de leur prochain contrat pourrait être mission impossible. Sauf qu'impossible ne fait pas partie de leur vocabulaire…",
       "releaseInfo": "2026"
     }
   ]

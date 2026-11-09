@@ -142,15 +142,6 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:1530875",
-      "type": "movie",
-      "name": "All the Devils Are Here",
-      "poster": "https://image.tmdb.org/t/p/w500/mVB9KDrtUCszXZpmtHA0vY030Ok.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jiW3TaZtpMQgMfVnMn5Nmciqhdv.jpg",
-      "description": "Après un braquage, quatre criminels font profil bas dans un abri isolé en attendant les ordres. Alors que la paranoïa s'installe, ils comprennent une chose—la vraie menace n'est peut-être pas à l'extérieur, mais parmi eux.",
-      "releaseInfo": "2025"
-    },
-    {
       "id": "tmdb:1485539",
       "type": "movie",
       "name": "Dora the Explorer: Mermaid Adventures",
@@ -174,6 +165,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/9BYv5epSgxgl293IlB8PsRVhd5a.jpg",
       "background": "https://image.tmdb.org/t/p/w780/6n9TvXnU9dbooBf0CIynTWyDPgV.jpg",
       "description": "Il se passe quelque chose d’étrange dans la Jungle des Ombres : les animaux nocturnes qui la peuplent s’enfuient en masse ! Etonnés par cette migration soudaine, Tracker et Carlos sont bien décidés à débusquer le responsable de cette fuite. Mais lorsque le pont menant à la jungle cède sous le poids des opossums, tapirs et autres pumas, seule la Pat’ Patrouille peut les aider !  Après un sauvetage in extremis, nos chiens préférés s’enfoncent dans la mystérieuse Jungle des Ombres, au grand dam de Tracker, qui déteste le noir. Dans l’obscurité, ils feront la rencontre de Lucita Mala, convaincue que ces terres lui appartiennent et déterminée à en chasser tous les animaux.  Aidé de ses amis, Tracker parviendra-t-il à surmonter sa peur ? La Pat’ Patrouille permettra-t-elle aux animaux nocturnes de retourner chez eux sains et saufs ?",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1062907",
+      "type": "movie",
+      "name": "Guns & Moses",
+      "poster": "https://image.tmdb.org/t/p/w500/xT88rTDQzZ1TOsiSpSY2jbvXVGM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bKZqIALkgdmFa28XBx1AzT7Qsyq.jpg",
+      "description": "Alors que sa communauté a été prise pour cible, un Rabbin décide de mener l'enquête lui-même. Convaincu que l'adolescent accusé de l'attaque est innocent, il prend les armes pour faire éclater la vérité et arrêter les vrais coupables.",
       "releaseInfo": "2025"
     }
   ]

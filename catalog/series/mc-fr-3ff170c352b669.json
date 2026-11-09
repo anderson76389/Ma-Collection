@@ -19,6 +19,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:334151",
+      "type": "series",
+      "name": "Pierre",
+      "poster": "https://image.tmdb.org/t/p/w500/lj7oMz6fvrGPRuJ2pv5S4Io60kZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dZUAdtSFcIC5g1V385nfl68H2Mz.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:284558",
       "type": "series",
       "name": "Kill Jackie",
@@ -41,7 +49,7 @@
       "type": "series",
       "name": "Line of Fire",
       "poster": "https://image.tmdb.org/t/p/w500/cXG4WDOPNog1kt6pkDqEDQCkJyz.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8U4dW5E24Eqs06OJko5ChjcufHb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wywNNHCRHJ129yTGTYBujnP4vRq.jpg",
       "description": "Une famille d’agents des forces de l’ordre met de côté ses divergences personnelles et dépasse les frontières de ses fonctions respectives pour mener à bien des enquêtes pour le compte du FBI, des US Marshals, des services secrets et du ministère de la Justice. Lorsqu’une affaire qui semblait simple se transforme en un complot meurtrier, ils doivent mettre à profit l’expertise acquise au fil d’une vie passée à protéger des civils et des personnalités politiques pour se protéger les uns les autres et traduire le meurtrier en justice… même si cela implique de trahir le code d’honneur auquel ils ont prêté serment.",
       "releaseInfo": "2026"
     },
@@ -166,15 +174,6 @@
       "name": "The Dark",
       "poster": "https://image.tmdb.org/t/p/w500/mcrx2gcVd5mVVOQrdEWXayFbvVB.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ym3eW2NwcOqa1tBdSmckk8Oy3kG.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:286709",
-      "type": "series",
-      "name": "The Westies",
-      "poster": "https://image.tmdb.org/t/p/w500/6nNxw6SsbEtSpktVEGdoYDqPH7C.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tT2MwxaST3Fx1Dg4u9v82sDrIu.jpg",
-      "description": "Au début des années 1980, la construction du centre d'exposition Jacob Javitz, sur le territoire des Westies, un gang irlandais particulièrement redouté de Hell’s Kitchen, laisse entrevoir une manne financière. Bien qu’en nette infériorité numérique face aux cinq puissantes familles de la mafia italienne, leur brutalité et leur ruse leur ont permis de se tailler une part du butin, dans un équilibre aussi fragile que temporaire. Mais les tensions internes, entre une jeune génération plus audacieuse et des dirigeants attachés aux vieilles méthodes, menacent d’enflammer la poudrière et de plonger les Westies au cœur d’une enquête du FBI qui ne cesse de gagner en intensité.",
       "releaseInfo": "2026"
     }
   ]

@@ -93,6 +93,14 @@
       "releaseInfo": "2025"
     },
     {
+      "id": "tmdb:1500941",
+      "type": "movie",
+      "name": "I Saw the Face of God in the Jet Wash",
+      "poster": "https://image.tmdb.org/t/p/w500/AgJppKHJVLAIMzyKDjMdkt33ntc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sSoOkgvrOqbMx1PiJ9gxHTZSxA4.jpg",
+      "releaseInfo": "2025"
+    },
+    {
       "id": "tmdb:1471316",
       "type": "movie",
       "name": "A Solidão dos Lagartos",
@@ -125,15 +133,6 @@
       "background": "https://image.tmdb.org/t/p/w780/atyAMBZQH1W2ko0XQeTfMJJCxHv.jpg",
       "description": "Elliot séjourne chez la nouvelle petite amie de son ex tout en participant à un examen médical pour sa perte d'audition récente et inexpliquée. Alors qu'elle reconfigure sa relation avec son environnement (sonore) et elle-même, une connexion intime naît entre les deux femmes.",
       "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1233393",
-      "type": "movie",
-      "name": "An Odd Turn",
-      "poster": "https://image.tmdb.org/t/p/w500/7SXOhrqOtszamsvM0EvquOA0YKy.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4CYHemafValVa4qhkfRBn4l9xdo.jpg",
-      "description": "Buenos Aires, 2019. Gardienne dans un musée de la capitale, Lucrecia mène une existence discrète rythmée par sa fascination pour l'ésotérisme. Lorsque son pendule lui prédit avec exactitude une flambée historique du cours du dollar, son quotidien bascule dans une frénésie inattendue. Guidée par ses intuitions et le vertige de la crise financière argentine, elle s'éprend éperdument d'un employé d'un bureau de change local. Une comédie dramatique insolite et lumineuse, où la folie monétaire se mêle aux mystères du hasard et de la passion amoureuse.",
-      "releaseInfo": "2024"
     }
   ]
 }

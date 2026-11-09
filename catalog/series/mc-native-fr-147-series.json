@@ -6,7 +6,7 @@
       "name": "Wanted : Attrape-moi si tu peux !",
       "poster": "https://image.tmdb.org/t/p/w500/gCU7FO2PSElst0UQgamdDgrTJ3P.jpg",
       "background": "https://image.tmdb.org/t/p/w780/czEopXjOExMlnymzrwxGVtL6Lso.jpg",
-      "description": "Dans un lieu tenu secret, 16 célébrités seront « enfermées » dans une « prison », sous la surveillance de trois autres célébrités (Michou, Issa Doumbia, Adil Rami) qui seront leurs gardiens, avec un sens de la provocation et de l’humour qui promet déjà quelques grands moments ! Mais lorsque les portes des cellules s’ouvriront, ce sera le départ du plus grand jeu de poursuite jamais organisé en France !",
+      "description": "16 célébrités, devenues les « fugitifs » devront tout faire pour ne pas se faire attraper par les trois célébrités « gardiens ». Privés d’argent, de téléphone et de tous leurs repères, les « fugitifs » devront se déplacer, se nourrir, se cacher et « survivre ». Dans une ambiance aussi fun que survoltée, « les gardiens » pourront compter sur un véhicule équipé de tous les outils technologiques mais aussi, et surtout… de vous ! Car pour la première fois en France, les téléspectateurs deviennent acteurs du jeu, en choisissant, via un numéro dédié, d’aider les gardiens… ou de protéger les fugitifs.",
       "releaseInfo": "2026"
     },
     {
@@ -117,6 +117,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:340517",
+      "type": "series",
+      "name": "SPHÈRE5",
+      "poster": "https://image.tmdb.org/t/p/w500/2GDKY0buYIR6DkhSmYfZ9PdgsFI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/j5BMkzXXfeu8eUJInRqCudnj3Ni.jpg",
+      "description": "Et si votre vie était un équilibre entre cinq piliers ? La famille, les amis, la santé, le travail, l'âme. Quelle sphère portez-vous à bout de bras en ce moment ? Laquelle avez-vous sacrifiée ? Laquelle vous manque ? Dans SPHÈRE5, des invités répondent à Ophélie Meunier et Carole Juge-Llewellyn à une des questions de la vie qu'on s'est tous posés au moins une fois. Peut-on tout pardonner ?",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:307467",
       "type": "series",
       "name": "Pandore",
@@ -140,7 +149,7 @@
       "name": "Made in France : Ils inventent l’industrie de demain",
       "poster": "https://image.tmdb.org/t/p/w500/nwKTabKMfOPJ2zMdz8Lo8PhZklz.jpg",
       "background": "https://image.tmdb.org/t/p/w780/8AtUFNsaB5BxaGU7UOwi96fW9Uh.jpg",
-      "description": "Ils sont six, ils ont entre 20 et 24 ans et sont alternants dans l’industrie française. Ils s'apprêtent à relever un défi inédit : participer au prix du meilleur apprenti de l'industrie française. Pour cette épreuve unique en son genre, les candidats vont devoir concevoir et construire une pièce, une machine ou un objet innovant, fabriqué en France et qui répond aux défis écologiques de notre époque qu’ils présenteront à un jury d’exception.\n\nDeux mentors les accompagnent : Julia Cattin, PDG de FIMM, spécialiste des solutions de manutention ergonomiques, et Guillaume Gibault, fondateur du Slip Français.",
+      "description": "Ills ont entre 20 et 24 ans et sont alternants dans l’industrie française. Ils s'apprêtent à relever un défi inédit : participer au prix du meilleur apprenti de l'industrie française. Pour cette épreuve unique en son genre, les candidats vont devoir concevoir et construire une pièce, une machine ou un objet innovant, fabriqué en France et qui répond aux défis écologiques de notre époque qu’ils présenteront à un jury d’exception.\n\nDeux mentors les accompagnent : Julia Cattin, PDG de FIMM, spécialiste des solutions de manutention ergonomiques, et Guillaume Gibault, fondateur du Slip Français.",
       "releaseInfo": "2025"
     },
     {
@@ -168,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/76QYmqM2utjcWQgZMKMo5ge3sjN.jpg",
       "background": "https://image.tmdb.org/t/p/w780/d6eM8BavbFUlYPljVmLsvxXoKlC.jpg",
       "description": "Ma Super Ligue 1 est une plongée au cœur de l’univers de la Ligue 1 McDonald’s, spécialement imaginée pour les plus jeunes et construite avec leur regard. Chaque semaine, SoAnne entrainera les enfants au cœur du championnat de France et leur fera rencontrer des joueurs et équipes exceptionnels. Une fenêtre unique pour découvrir les coulisses du championnat, à hauteur d’enfants !",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:298846",
-      "type": "series",
-      "name": "Ex-Wives Undercover : Méfiez-vous de Brandon",
-      "poster": "https://image.tmdb.org/t/p/w500/r8bH7SpfrjqhCdlxoMARKTl54nR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zcDMJQKr63b9dXVRZyItqj1cbqt.jpg",
-      "description": "Deux femmes, Amber et Athena, découvrent qu’elles ont toutes deux été mariées à un manipulateur au passé trouble, Brandon Johnson. Après avoir comparé leurs expériences traumatisantes, elles lancent un podcast pour exposer son comportement et alerter les femmes qui croiseront sa route.",
       "releaseInfo": "2025"
     }
   ]

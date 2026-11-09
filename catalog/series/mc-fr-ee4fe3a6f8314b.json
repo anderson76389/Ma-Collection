@@ -19,6 +19,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:292742",
+      "type": "series",
+      "name": "S.W.A.T. Exiles",
+      "poster": "https://image.tmdb.org/t/p/w500/42CXrSRsjd6BATuVMIVJiw5NS4D.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mNIc5QqjBuXHeeyj6P4WSqTCBu9.jpg",
+      "description": "Après l'échec retentissant d'une mission très médiatisée, Daniel « Hondo » Harrelson est sorti de sa retraite forcée pour prendre la tête d'une unité SWAT expérimentale, qui représente une dernière chance, composée de jeunes recrues inexpérimentées et imprévisibles. Hondo doit combler le fossé générationnel, gérer des personnalités qui s'affrontent et transformer une équipe de marginaux en une équipe capable de protéger la ville et de sauver le programme qui a fait de lui ce qu'il est aujourd'hui.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:299939",
       "type": "series",
       "name": "Monstre : L'Histoire de Lizzie Borden",
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/c7Oi35ZMhfWskXyjJsCXL9VtWAy.jpg",
       "background": "https://image.tmdb.org/t/p/w780/uozEhY3g882QqgNg5AjR2cXAVRC.jpg",
       "description": "Lorsqu'un convoi pénitentiaire est pris d’assaut sur une route isolée, Amber Todd, agente chargée du transfert, se retrouve prise au piège avec Tibor Stone - ancien tueur d’élite devenu témoin clé contre Pegasus, le réseau criminel qu’il a autrefois servi. Pourchassés par ce puissant conglomérat du crime et par des autorités corrompues, Amber et Tibor, deux inconnus que tout oppose, sont forcés de fuir ensemble…",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:223386",
-      "type": "series",
-      "name": "Man on Fire",
-      "poster": "https://image.tmdb.org/t/p/w500/lHDs3T91HmlR28JhTh5R14Vxaap.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dMCfHJRnAZfKoPTjYyZk2QCL8au.jpg",
-      "description": "Hanté par son passé et traqué par ses ennemis, un vétéran des forces spéciales se bat pour garder une adolescente en vie dans les rues dangereuses de Rio de Janeiro.",
       "releaseInfo": "2026"
     }
   ]

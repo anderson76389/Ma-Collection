@@ -9,11 +9,19 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1096228",
+      "type": "movie",
+      "name": "Musk",
+      "poster": "https://image.tmdb.org/t/p/w500/kTOeFV92c3QHJ3bEkT660P7BcWN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1CfHIKczBiAauSRBiNQ90bjLsCM.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1596303",
       "type": "movie",
       "name": "The Last First : le K2 en hiver",
       "poster": "https://image.tmdb.org/t/p/w500/zrOs0WKhESe6J4UErG32ZjOOh1A.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wtzSwtnQ4RsRbV5cc114Nb1q3b0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bZDG7ypci7shzYp7jCOW4d1UC8w.jpg",
       "description": "Une course mémorable pour être le premier à atteindre le sommet du K2 en hiver vire au drame, révélant qu'ambition, ego et quête de gloire sont aussi dangereux que la montagne.",
       "releaseInfo": "2026"
     },
@@ -31,7 +39,7 @@
       "type": "movie",
       "name": "NAZA",
       "poster": "https://image.tmdb.org/t/p/w500/yJ0FMDiMfdVHWCRqxt9WzAJ0C5S.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/inju8joDtL7KHtlFEGjFZ2UuqFa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qkuEfYYOZTW6ymbZMeyJeYQaMd7.jpg",
       "description": "Filmé la nuit depuis les toits de Tel Aviv, ce documentaire se centre sur les victimes civiles des opérations militaires israéliennes à Gaza.",
       "releaseInfo": "2026"
     },
@@ -69,6 +77,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/4LbwNKDDRysSYvMlqTsy0uph8zq.jpg",
       "background": "https://image.tmdb.org/t/p/w780/z2Uf0yntMjY0XG87YfoqeHjIUGD.jpg",
       "description": "Bâti autour de témoignages sur les attentats et leurs retombées, ce documentaire percutant explore, 25 ans plus tard, comment le 11 septembre a façonné toute une génération.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1739202",
+      "type": "movie",
+      "name": "L'Envers du sport : Raygun, Breaking Badly",
+      "poster": "https://image.tmdb.org/t/p/w500/pgZoTGXmkQXoO7F8wgBmlyy6zxy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iBik58vWTbO3s9GgUW86v7fYqfZ.jpg",
+      "description": "Lorsque la performance de Raygun aux Jeux olympiques de Paris 2024 est devenue virale du jour au lendemain, une avalanche de mèmes, de fausses informations et de théories du complot a suivi, tous remettant en question la manière dont elle avait réussi à atteindre la scène olympique.",
       "releaseInfo": "2026"
     },
     {
@@ -159,24 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/aMX9btLTzyodWtwMAeDfCXKwPqV.jpg",
       "background": "https://image.tmdb.org/t/p/w780/weFG1yMIwVsjGr5YfdpltxpBh09.jpg",
       "description": "De footballeur amateur à légende de la Premier League, suivez le parcours extraordinaire de Jamie Vardy et son ascension au sommet – contre toute attente.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1620034",
-      "type": "movie",
-      "name": "Martin Short : Une vie XXL",
-      "poster": "https://image.tmdb.org/t/p/w500/5u8r3iMUVeVejv8G2PrRvlTbogC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vate7k6MyLQDeFYkHqCrLhRes6m.jpg",
-      "description": "Dans ce documentaire, Martin Short évoque une vie nourrie par la joie à travers des séquences cultes, des interviews et des vidéos inédites où apparaissent de nombreuses stars.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1642859",
-      "type": "movie",
-      "name": "Iron Maiden: Burning Ambition",
-      "poster": "https://image.tmdb.org/t/p/w500/psJU0sOk56dm3wmcPCuJE7bNaFG.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/52t7nT1f117FW6gdG32DrQKxpU1.jpg",
-      "description": "Couvrant cinq décennies, Iron Maiden: Burning Ambition retrace leur ascension emblématique pour devenir l'un des plus grands groupes de l'histoire de la musique.",
       "releaseInfo": "2026"
     }
   ]

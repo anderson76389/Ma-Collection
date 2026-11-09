@@ -1,6 +1,23 @@
 {
   "metas": [
     {
+      "id": "tmdb:1402181",
+      "type": "movie",
+      "name": "சீன்",
+      "poster": "https://image.tmdb.org/t/p/w500/1vjVJKpdT6gha7cpkmDJODpk8mU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zYiUafcGC7JqK01GYbkimBYNaUR.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:656908",
+      "type": "movie",
+      "name": "Ramayana : L'avènement d'une légende",
+      "poster": "https://image.tmdb.org/t/p/w500/iCz9Wf8KCU8BXQ9Pws0pHctguiZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yHVZncPRZr63mezRX20IyKLrSkv.jpg",
+      "description": "Une épopée ancienne suit un jeune prince et une jeune princesse dont le mariage et l'exil qui a suivi marquent le début d'un voyage légendaire. Leur histoire d'amour, de devoir et de destin ouvre la voie à de nouveaux défis.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1453407",
       "type": "movie",
       "name": "Gajab Raat",
@@ -38,7 +55,7 @@
       "type": "movie",
       "name": "டோரதி",
       "poster": "https://image.tmdb.org/t/p/w500/o3r5DmWhOKdFmeIUoRJj4CvCqOP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fPByMSinDUlJ05pMVw2sbqYF6Ew.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wlJmF47IHYwzVpG1qA6aYA0UHj.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -54,15 +71,23 @@
       "type": "movie",
       "name": "Histoires Sensuelles 3",
       "poster": "https://image.tmdb.org/t/p/w500/cjlTP8YWEmlzASE2tRZ1LGB0Yz5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jRtR4aTq4vmxRg9ah60R5i1kkQ7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kgZFECKytirVvmIbWF6slEoWZng.jpg",
       "description": "À travers quatre courts métrages, brefs mais chargés d'émotion, cette anthologie explore une nouvelle fois la luxure, l'amour, les relations et le désir refoulé, offrant ainsi un regard neuf sur l'intimité, le désir et les liens humains dans toute leur complexité.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1465943",
+      "type": "movie",
+      "name": "மண்டாடி",
+      "poster": "https://image.tmdb.org/t/p/w500/jLVMvJAmnVRo2lzbqtGiecLzPLy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xO0YZ1zKFSSpM7dIsvssWKabp6J.jpg",
       "releaseInfo": "2026"
     },
     {
       "id": "tmdb:1378537",
       "type": "movie",
       "name": "मिर्ज़ापुर - द मूवी",
-      "poster": "https://image.tmdb.org/t/p/w500/jAt8u6MMIMnExmG6bN02EQyB0KR.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/tCyTNhOv8NB1iK3U95spJdCaQED.jpg",
       "background": "https://image.tmdb.org/t/p/w780/nTkQBI8ldvPByIkxsemGxtKlr8E.jpg",
       "releaseInfo": "2026"
     },
@@ -140,32 +165,6 @@
       "name": "हनुमान अंश",
       "poster": "https://image.tmdb.org/t/p/w500/as2Y3zGUa2IUS3uAx2sh6Ano3es.jpg",
       "background": "https://image.tmdb.org/t/p/w780/tKYOK8iMxkhJhug3LJ2yvC5QY8M.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1479832",
-      "type": "movie",
-      "name": "DC",
-      "poster": "https://image.tmdb.org/t/p/w500/grRYMAxmfk9VHXY30gm6vfiwyoN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/v7kqufGRDotShPCw53SM7m8t6oc.jpg",
-      "description": "Dans un univers où règnent violence et trahison, le rebelle Devadas s’allie à Chandra. Entre passion, vengeance et bains de sang, leur loyauté sera mise à l’épreuve dans un combat où survivre devient leur seule règle.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1545486",
-      "type": "movie",
-      "name": "ഉന്മാദം",
-      "poster": "https://image.tmdb.org/t/p/w500/6AIMHBUY6PCHVYASWZ0GcTA9Kph.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/o0Ai0yCq1jyLE3K55Nk3bAl4D9h.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1235877",
-      "type": "movie",
-      "name": "Jana Nayagan",
-      "poster": "https://image.tmdb.org/t/p/w500/jt8pfSIdi47YpFMMWVRr8w5u2S0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/v3lNH2gCojWYXVuXcT9FZLBxcSq.jpg",
-      "description": "Un choc idéologique. L’un se bat pour le peuple, l’autre se nourrit de contrôle. Leurs chemins se sont déjà croisés. Des années plus tard, la peur silencieuse d’un enfant réveille le passé, entraînant un ancien officier de police dans une bataille qui dépasse de loin la simple vengeance.",
       "releaseInfo": "2026"
     }
   ]

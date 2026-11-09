@@ -10,13 +10,13 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:196322",
+      "id": "tmdb:248830",
       "type": "series",
-      "name": "Dark Matter",
-      "poster": "https://image.tmdb.org/t/p/w500/guUVzb8Xe04uw95KOfQGb4yldZN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wFEAy4xRes1eeclsu7Z73Vzz7ET.jpg",
-      "description": "Un physicien, professeur et père de famille qui, alors qu’il rentre chez lui un soir à pied dans les rues de Chicago, est projeté dans une version alternative de sa propre vie. L’émerveillement se transforme rapidement en cauchemar quand il essaie de retourner à sa réalité perdue dans le paysage hallucinant des vies qu’il aurait pu vivre. Dans ce labyrinthe de réalités, il s’embarque dans un voyage éprouvant pour retrouver sa véritable famille et la sauver de l’ennemi le plus terrifiant et invincible : lui-même.",
-      "releaseInfo": "2024"
+      "name": "Stick",
+      "poster": "https://image.tmdb.org/t/p/w500/iM9XiebIgWX1qX53d4s0M3mmvlw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2Bt2uXrIOQASBAsni2AGGqCCF14.jpg",
+      "description": "Pryce Cahill se destinait à une grande carrière dans le golf avant qu’un dérapage y mette fin. Au bord de la banqueroute, il mise tout sur un jeune prodige dans l’espoir de se reconstruire.",
+      "releaseInfo": "2025"
     },
     {
       "id": "tmdb:250203",
@@ -35,6 +35,15 @@
       "background": "https://image.tmdb.org/t/p/w780/oWHbBNiTU2vhRSXh0iZ8E7YBUsj.jpg",
       "description": "Suite à la disparition de leur fille, les Klatt décident de prendre les choses en main et élaborent un plan insensé : espionner le voisinage. Les apprentis espions vont mettre au jour une kyrielle de secrets stupéfiants.",
       "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:306179",
+      "type": "series",
+      "name": "Awkwafina : la cheffe improbable",
+      "poster": "https://image.tmdb.org/t/p/w500/kHkVrRxFtbQFY0b9RWoug5A0S1M.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vSMW22GgtzgsRaAmZaTM6xtPdNP.jpg",
+      "description": "L’actrice hollywoodienne et comédienne Nora Lum (a.k.a. Awkwafina) est descendante de la royauté de la restauration... mais elle ne sait pas cuisiner. Partez avec elle dans ce road trip culinaire inspirant, et dans sa quête de raviver la cuisine chinoise tant affectionnée par sa famille.",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:291361",

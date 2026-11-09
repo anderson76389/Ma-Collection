@@ -28,6 +28,24 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:250203",
+      "type": "series",
+      "name": "Brothers",
+      "poster": "https://image.tmdb.org/t/p/w500/yewGBOuVmcZnMQ60xGGjUhobOsJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aLE7R8QZPpTiWZS48PS22i2OWbl.jpg",
+      "description": "Matthew McConaughey et Woody Harrelson sont meilleurs amis depuis toujours, mais leur lien pourrait devenir encore plus étroit après la découverte d’un secret de famille troublant.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:285418",
+      "type": "series",
+      "name": "Youth",
+      "poster": "https://image.tmdb.org/t/p/w500/uK1Kv6OHkpmHUyMV5QmYxXoTBVM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iEISXRsDv8Q2PA6i9cAQd2DH9bN.jpg",
+      "description": "Alex a une carrière, une famille et une riche expérience de la vie, mais elle doit aussi faire face aux réalités de la cinquantaine, s'occuper de ses parents vieillissants, élever un fils adolescent en difficulté et essayer de déterminer s'il y a encore de la place pour la romance et l'excitation dans sa propre vie.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:300480",
       "type": "series",
       "name": "Ricky Gervais Alley Cats",
@@ -159,24 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/99f8XKkUXC2pKGqNzbUgA9Ui1zA.jpg",
       "background": "https://image.tmdb.org/t/p/w780/yx0sfeYOoXol2fjT22SXo9YyviI.jpg",
       "description": "Le maire d'une ville de Nouvelle-Angleterre souhaite en faire une destination touristique, malgré les avertissements sur le fait qu'elle est maudite.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:245318",
-      "type": "series",
-      "name": "Margo a des problèmes d'argent",
-      "poster": "https://image.tmdb.org/t/p/w500/vnxkopX2BRNlUbE5xtb6S62eSN6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/r1lGjwTRF0RGYFHzvt3SupArmRy.jpg",
-      "description": "Fille d'une ancienne serveuse chez Hooters et d'un ex-catcheur pro, Margo, écrivaine en herbe, vient d'arrêter ses études. Face à l'arrivée d'un bébé et d'une pile de factures grandissante qu'elle ne peut payer, Margo doit trouver une solution pour s'en sortir.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:279471",
-      "type": "series",
-      "name": "Malcolm : Rien n’a changé",
-      "poster": "https://image.tmdb.org/t/p/w500/2AjzqV565NWhiyjsorSu7s9bLsD.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uekZzyLReK777QKO9xKwiPOelCQ.jpg",
-      "description": "Vingt ans plus tard, Malcolm et sa famille n'ont toujours rien appris.",
       "releaseInfo": "2026"
     }
   ]

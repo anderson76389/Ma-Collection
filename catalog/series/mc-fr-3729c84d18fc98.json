@@ -104,7 +104,7 @@
       "type": "series",
       "name": "PSYREN",
       "poster": "https://image.tmdb.org/t/p/w500/TyohYN5o2dLfkBurnISpBl0TLe.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/o8jHdRwB9GZtkdZjmMoFJyC7eDZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qRgXreXNyUO30yAniTckVAho2va.jpg",
       "description": "Ageha est dégoûté par notre monde et rêve d’une vie meilleure. Un soir, il trouve une étrange carte rouge sur laquelle il est écrit Psyren. Il s’agirait d’une société secrète à l’origine de nombreux enlèvements.\n\nPeu après, l’une de ses camarades, qui semblait connaître cette société, disparaît devant ses yeux. Ageha décide alors de la sauver : il utilise la carte rouge et se retrouve soudainement projeté dans un monde parallèle. A présent, Ageha doit lutter pour survivre et arriver jusqu’au bout du jeu, car c’est le seul moyen pour lui de retrouver son monde originel, qui n’est peut-être pas si horrible que ça finalement.\n\nDans cette entreprise, il n’est pas seul. D’autres personnes sont dans la même galère. Et c’est ensemble, qu’ils vont affronter le danger et peut-être même le vaincre…",
       "releaseInfo": "2026"
     },
@@ -140,7 +140,7 @@
       "type": "series",
       "name": "Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!",
       "poster": "https://image.tmdb.org/t/p/w500/l2bXeBO6f2ZXgKh0ipYKyeMT98v.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xqil5t29q1k6reedUlMy4nYd9f7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/k5G4ALskmO8GcSOO3fN8fePa9Ny.jpg",
       "description": "Takahiro Satô est arraché à son quotidien lorsqu’il se réincarne dans l'univers de son jeu vidéo préféré : un monde galactique où se jouent des batailles spatiales, peuplé de colonies interstellaires mais aussi jonché de dangers. Très vite, il devient « Hiro », un mercenaire équipé d'un vaisseau spatial ultrasophistiqué et accompagné de deux beautés !",
       "releaseInfo": "2026"
     },
@@ -166,14 +166,13 @@
       "id": "tmdb:337143",
       "type": "series",
       "name": "深夜残業～肉食後輩の片恋研修～",
+      "poster": "https://image.tmdb.org/t/p/w500/5fMWivX9cGLayrVaTDZqO0BFMic.jpg",
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:335788",
+      "id": "tmdb:336223",
       "type": "series",
-      "name": "蒼き伝承 ウェルシュ＆シェダー",
-      "poster": "https://image.tmdb.org/t/p/w500/dmOW3kfhfm4BOqINfsifY6QL64o.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8iJ4IPl8BPVOL7C6lFKq2zeLdDs.jpg",
+      "name": "彼女の妹～誘惑だらけのサンカク関係～",
       "releaseInfo": "2026"
     }
   ]

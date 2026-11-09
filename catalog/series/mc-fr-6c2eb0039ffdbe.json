@@ -1,12 +1,21 @@
 {
   "metas": [
     {
+      "id": "tmdb:333533",
+      "type": "series",
+      "name": "Celui qui s'appelait Matthew Perry",
+      "poster": "https://image.tmdb.org/t/p/w500/vQYMKEQ1mvl7Qx8WRGiKjPMEmKT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3nJL65FgsUpmBEIMXc0kt0h5uay.jpg",
+      "description": "Cette série documentaire retrace le succès hollywoodien, la prise de position ouverte et la mort tragique de la star de \"Friends\", à travers le témoignage de ses proches.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:335536",
       "type": "series",
       "name": "TYSON",
       "poster": "https://image.tmdb.org/t/p/w500/mdtpJEWW1j5Ns7bIcbw1UeIdvhp.jpg",
       "background": "https://image.tmdb.org/t/p/w780/qFNAWAHCXWtS4EMlLxTAetTpZAR.jpg",
-      "description": "Découvrez la vie explosive de Mike Tyson, l'une des figures les plus redoutées et fascinantes de l'histoire du sport.",
+      "description": "Ce documentaire captivant en quatre volets explore la vie tumultueuse de Mike Tyson, l'une des personnalités les plus redoutées et les plus fascinantes de l'histoire du sport.",
       "releaseInfo": "2026"
     },
     {
@@ -168,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/xMLS97v13cqJCQqlAq4FspChFZ7.jpg",
       "background": "https://image.tmdb.org/t/p/w780/uMjerMT5CmzBcT7cwWPtDtrSCPp.jpg",
       "description": "De l’enfant prodige à l’icône mondiale, cette série inédite en 3 épisodes explore le génie, les controverses et les tragédies qui ont façonné la légende de Michael Jackson. Diffusée à l’occasion de la sortie cinéma du très attendue biopic qui lui est consacré, elle offre un éclairage inédit sur le parcours hors norme du Roi de la pop.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:316898",
-      "type": "series",
-      "name": "Trust Me : Le faux prophète",
-      "poster": "https://image.tmdb.org/t/p/w500/fJGDEMzC13NPJa99YKMJZw2Icb6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ujWjoKl1uZfiBRvZL7qbxCkMLQs.jpg",
-      "description": "Dans ce documentaire, une experte des sectes et un cinéaste infiltrent une communauté fondamentaliste polygame pour démasquer un prophète autoproclamé et le traduire en justice.",
       "releaseInfo": "2026"
     }
   ]

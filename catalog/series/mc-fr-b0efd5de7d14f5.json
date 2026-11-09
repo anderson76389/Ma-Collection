@@ -19,14 +19,6 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:292569",
-      "type": "series",
-      "name": "남겨서 뭐하게",
-      "poster": "https://image.tmdb.org/t/p/w500/3eLm5S0tvsHL4zu5Ep9YsicEff7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6w2QhmVMdl7QlblVfAl3lmiITAU.jpg",
-      "releaseInfo": "2025"
-    },
-    {
       "id": "tmdb:284358",
       "type": "series",
       "name": "식스센스: 시티투어",
@@ -43,11 +35,11 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:339750",
+      "id": "tmdb:323204",
       "type": "series",
-      "name": "맛따라 길따라 대명이따라",
-      "poster": "https://image.tmdb.org/t/p/w500/inCENRzpem4qMMlxXuw7sSGMMEB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/loT9DjbIWXi8NcUzh1GSHXZISmF.jpg",
+      "name": "언더커버 셰프",
+      "poster": "https://image.tmdb.org/t/p/w500/cbRSIJW19zLIoq9y15i1RAV4QyB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tBe0NxZDFAsNftfhdT6O3SOR53K.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -56,6 +48,14 @@
       "name": "언더커버 셰프: 멀리서 찾아온 벗",
       "poster": "https://image.tmdb.org/t/p/w500/dMig74i3wfPDWE9kJNYWRDqtJxc.jpg",
       "background": "https://image.tmdb.org/t/p/w780/a20lPObehOh4swZioem1QAaLgh.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:339750",
+      "type": "series",
+      "name": "맛따라 길따라 대명이따라",
+      "poster": "https://image.tmdb.org/t/p/w500/inCENRzpem4qMMlxXuw7sSGMMEB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/loT9DjbIWXi8NcUzh1GSHXZISmF.jpg",
       "releaseInfo": "2026"
     }
   ]

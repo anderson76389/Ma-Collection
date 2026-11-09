@@ -1,11 +1,37 @@
 {
   "metas": [
     {
+      "id": "tmdb:1570488",
+      "type": "movie",
+      "name": "Mon beau Noël de chien",
+      "poster": "https://image.tmdb.org/t/p/w500/wuFfq29NUhaksIIxg5EV24J3n2b.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hhQT0TySg3LXCE8BEPpfPJ5zJA2.jpg",
+      "description": "Winstead est un chien déterminé. Quand une urgence médicale déchire la famille Goss, il est prêt à tout pour rétablir l'harmonie avant le réveillon de Noël.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:891621",
+      "type": "movie",
+      "name": "Wild Horse Nine",
+      "poster": "https://image.tmdb.org/t/p/w500/hnBtud9vLr9arsUW8nxrzIz2uA4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3uLA0ujne91bkzFStZICCYeqhnt.jpg",
+      "description": "Peu avant le coup d'État chilien de 1973, deux agents de la CIA, Chris et Lee, sont envoyés de Santiago vers l'île de Pâques par leur supérieur, MJ. Au milieu des statues emblématiques de l'île, tandis que ces partenaires de longue date sont confrontés à leur sombre passé et aux complots en cours, Chris noue une relation avec deux étudiantes rebelles qui menace de faire basculer dans le chaos leur séjour dans ce paradis isolé…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1643567",
+      "type": "movie",
+      "name": "Ghosts: The Possession of Button House",
+      "poster": "https://image.tmdb.org/t/p/w500/vdRbC8masrQDyhFHLOGECEMllPV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r87Uwf5yvL69fBWsZHGR2OTbD1A.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1727734",
       "type": "movie",
       "name": "Ali G : J'suis qui ?",
-      "poster": "https://image.tmdb.org/t/p/w500/xRieId2D3sqKeyhfwO7iJzjbojb.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hJcGJLi34zE4RhzsiDR6f7pw50K.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/lzpcfBT3mrsPU8iqVD1H1iKQG4M.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/h7gas4rrcaSitLgF2ODry3Wz9KZ.jpg",
       "description": "Après vingt ans passés à \"se la couler douce, fumer et s'envoyer en l'air\", Ali G découvre que sa petite amie de longue date, Julie, est enceinte de 8 mois. Face à une bouche de plus à nourrir, il se bouge enfin et part aux États-Unis pour retrouver sa gloire d'antan. Mais il se heurte vite à des ennemis qui vont menacer son existence et celle de son enfant.",
       "releaseInfo": "2026"
     },
@@ -16,6 +42,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/fjoHeK9kmoN46dUPGVpZA5rD27g.jpg",
       "background": "https://image.tmdb.org/t/p/w780/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg",
       "description": "Mise au ban de son village, une pêcheuse solitaire commande au vannier local un mari en osier. Cet époux improbable se révèle doté d’une sensibilité et de talents qui dépassent toutes ses attentes. À son contact, elle découvre un désir insoupçonné et, peu à peu, s’éprend véritablement de lui. Mais bientôt, son étrange mari attise les convoitises, la jalousie et les fantasmes des villageois, faisant vaciller les certitudes d’une communauté jusque-là bien ordonnée.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1153576",
+      "type": "movie",
+      "name": "Street Fighter",
+      "poster": "https://image.tmdb.org/t/p/w500/k53HHxQ4rQG0dME6nsofii3QNS7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qRN8eqYwG6HPSy0i3fKzuLrUOhp.jpg",
+      "description": "En 1993, Ryu et Ken Masters, deux Street Fighters autrefois inséparables, sont replongés dans l’arène lorsque la mystérieuse Chun-Li les recrute pour le prochain World Warrior Tournament : un affrontement brutal où se mêlent poings, destin et fureur. Mais derrière cette battle royale se cache une conspiration mortelle qui les oblige à s’affronter, tout en faisant face aux démons de leur passé… Et s’ils échouent, c’est GAME OVER.",
       "releaseInfo": "2026"
     },
     {
@@ -119,7 +154,7 @@
     {
       "id": "tmdb:1377237",
       "type": "movie",
-      "name": "Le Transport",
+      "name": "Runner",
       "poster": "https://image.tmdb.org/t/p/w500/4gRzxdF2IEGiANKEDVtjMuNl12n.jpg",
       "background": "https://image.tmdb.org/t/p/w780/npXZNWjOEYrqdMDPQ11SGBrXqAG.jpg",
       "description": "Un ancien soldat se retrouve engagé dans une course contre la montre lorsqu’une livraison médicale essentielle fait de lui et de son partenaire improbable la cible d’un cartel impitoyable. La mission se transforme rapidement en une chasse à l’homme meurtrière, où chaque détour, chaque retard et chaque balle les rapprochent de l’échec. Traqués de toutes parts, ils doivent survivre à cette poursuite et livrer leur cargaison à temps pour sauver la vie d’une petite fille.",
@@ -129,7 +164,7 @@
       "id": "tmdb:1554956",
       "type": "movie",
       "name": "The Incomer",
-      "poster": "https://image.tmdb.org/t/p/w500/nGnI5tT7qstkld94S8m4c68noZt.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/iccroKK1eUTdCnLfmp7I3YXwAKF.jpg",
       "background": "https://image.tmdb.org/t/p/w780/tcm829PtxDSomGOEXxzO7c0sK3p.jpg",
       "description": "Sur une île écossaise, les frères et sœurs Isla et Sandy chassent les oiseaux et communiquent avec des êtres mythiques tout en repoussant les intrus. Leur vie bascule à l’arrivée de Daniel, un fonctionnaire maladroit venu pour les reloger.",
       "releaseInfo": "2026"
@@ -141,42 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/eHELFF4BBxmEk5JyhV017Xcgvwy.jpg",
       "background": "https://image.tmdb.org/t/p/w780/g7Ccid5kuD7A8hXWlsQiNfwOxaD.jpg",
       "description": "Un pilote de la Navy envoyé en mission secrète durant la guerre froide se retrouve piégé en territoire ennemi. Son seul espoir de survie est de s'allier à un ex-agent du KGB excentrique.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1514026",
-      "type": "movie",
-      "name": "Buddy",
-      "poster": "https://image.tmdb.org/t/p/w500/lfdInOrdyTGXOuFBOLefamy6AgI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ytoLEl5yDaxB8AtZ52uKWjaQ9ql.jpg",
-      "description": "Des enfants piégés dans une émission de télévision en apparence joyeuse doivent trouver un moyen d'échapper à l'emprise sinistre de Buddy, la peluche adorée mais malveillante qui anime l'émission.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1462861",
-      "type": "movie",
-      "name": "Spider Island",
-      "poster": "https://image.tmdb.org/t/p/w500/eKw6aF7oNEaTnVvN396Q1is9R1n.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gZt1KXQRawEg3CTqzTamXYkniT4.jpg",
-      "description": "Des influenceurs très en vogue se rendent sur une île tropicale isolée pour faire la fête dans un nouvel hôtel de luxe, mais se retrouvent bientôt à lutter pour leur survie contre une horde d'araignées mortelles qui tentent de prendre le contrôle de ce complexe hôtelier exotique",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1729723",
-      "type": "movie",
-      "name": "Les Simpson Yellow Mirror",
-      "poster": "https://image.tmdb.org/t/p/w500/sJMs3P5bQx0OgKrihT5TzTK70Qp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rFjlsx5IygrHmBqr0KsVolAHhy7.jpg",
-      "description": "Les Simpson luttent pour trouver leur voie à travers deux contes sombres, étranges et insolites. Une lampe défectueuse révèle une vérité bouleversante sur ce qu'Homer croyait être la réalité. Et une tablette dotée d'une intelligence artificielle se lie d'amitié avec Maggie afin de manipuler son esprit.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1341138",
-      "type": "movie",
-      "name": "Spa Weekend",
-      "poster": "https://image.tmdb.org/t/p/w500/wW2M5FnQrjTZPrIpOKqYpitAGdj.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ftFf9sfJq69xJ0AuiaIuDKBtfzg.jpg",
-      "description": "Entre carrière, famille et responsabilités quotidiennes, quatre amies de longue date réalisent qu'elles ont oublié comment prendre soin d'elles-mêmes. Épuisées et méritant une pause longtemps due, elles partent pour un week-end de détente au sein d'un spa pour un moment de plaisir, de rire et de très mauvaises décisions.",
       "releaseInfo": "2026"
     }
   ]

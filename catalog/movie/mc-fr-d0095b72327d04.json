@@ -1,12 +1,99 @@
 {
   "metas": [
     {
+      "id": "tmdb:1286656",
+      "type": "movie",
+      "name": "I Play Rocky",
+      "poster": "https://image.tmdb.org/t/p/w500/xE5tY3lppZUyG7WKKThsuYHuAHr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1lnnjBCRLZzKRhQipK5zm61YkPe.jpg",
+      "description": "Un acteur en difficulté avec un visage partiellement paralysé et un trouble de l’élocution écrit un scénario qu’un grand studio de cinéma veut acheter. Mais l’acteur refuse de le vendre à moins de pouvoir jouer le rôle principal. Refusant une offre d’argent qui pourrait changer sa vie, il travaille pour des centimes afin que le film soit réalisé avec lui dans le rôle principal.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1697911",
+      "type": "movie",
+      "name": "Drummer Boy",
+      "poster": "https://image.tmdb.org/t/p/w500/bhjdgMm2fFrysSzVqv5RwRwIbVf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5KF459N6jOfRV7kV9XV7ZQdCLKK.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1600653",
+      "type": "movie",
+      "name": "The 12 Dates of Christmas",
+      "poster": "https://image.tmdb.org/t/p/w500/w82vKEoYNZ9SxYxvccxO85CnZKE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uRVWQyHPmkyKmjjkPQRO0Q475II.jpg",
+      "description": "Christina Walker, une commerçante prospère qui a consacré toute son énergie à sa carrière au détriment de sa vie amoureuse, enchaîne 12 rendez-vous amoureux au cours des 12 semaines précédant Noël dans l'espoir de trouver l'homme idéal.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1585239",
+      "type": "movie",
+      "name": "Club Kid",
+      "poster": "https://image.tmdb.org/t/p/w500/lfznSwfaXWLxW5TR09IoNV9OwhM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AjrgF2JZb8WAeIFTvUjJK6VA2CG.jpg",
+      "description": "Peter (Jordan Firstman), organisateur de soirées branchées à New York, mène une existence aussi effrénée qu’insouciante, rythmée par les nuits festives et les excès. Sa vie bascule lorsqu'Arlo, le fils de 10 ans dont il ignorait l'existence, frappe à sa porte. Dépassé par ce rôle de père qu'il n'avait jamais envisagé, il est rapidement conquis par le charme et la spontanéité de l’enfant. Au fil du temps, un lien aussi inattendu que profond se tisse entre eux, et Peter découvre enfin qu’il existe une vie au-delà de la prochaine fête.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1570488",
+      "type": "movie",
+      "name": "Mon beau Noël de chien",
+      "poster": "https://image.tmdb.org/t/p/w500/wuFfq29NUhaksIIxg5EV24J3n2b.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hhQT0TySg3LXCE8BEPpfPJ5zJA2.jpg",
+      "description": "Winstead est un chien déterminé. Quand une urgence médicale déchire la famille Goss, il est prêt à tout pour rétablir l'harmonie avant le réveillon de Noël.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1792170",
+      "type": "movie",
+      "name": "Model Citizen",
+      "poster": "https://image.tmdb.org/t/p/w500/7SE0LBwgqiqZzkm9gKVbBAbcNQL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5MBdRdiGv3AKzZDGbni88xc6JFi.jpg",
+      "description": "Un homme sort du coma et découvre que son bien-être est désormais placé sous la responsabilité d’un avatar numérique mis à sa disposition par le gouvernement.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1796880",
+      "type": "movie",
+      "name": "The Holiday Spark",
+      "poster": "https://image.tmdb.org/t/p/w500/imbX2GqQgeX1mAKI297qHdxRlMa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oQyFYI8HdaKkB1gNaehbs8D0dIP.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1813355",
       "type": "movie",
       "name": "La Légende de Derry",
       "poster": "https://image.tmdb.org/t/p/w500/95jDCfMC1MNXowaXxPpHuWP5zAr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/z26LxXDMmAIzKr06FPDudCJyvsM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8vky6e0D4dSZMlxHWXBIRRFP1Pb.jpg",
       "description": "Des centaines d’années avant Pennywise, trois jeunes s’aventurent dans la forêt de l’Ouest où ils rencontrent un esprit ancien terrifiant.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1117898",
+      "type": "movie",
+      "name": "Le Chat Chapeauté",
+      "poster": "https://image.tmdb.org/t/p/w500/jBcFgdERUGw0au9fYZc5X9M8Dfs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg",
+      "description": "Le Chat se voit confier sa mission la plus difficile jusqu'à présent... aider deux frères et sœurs qui ont du mal à s'installer dans une nouvelle ville.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1756307",
+      "type": "movie",
+      "name": "SCTV: The Greatest Show You've Never Heard Of",
+      "poster": "https://image.tmdb.org/t/p/w500/vBqVyTpzv5RzHSsQdu8ECxAqSvd.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4EKa1ordKkch7bAYlV4e3fwsVCj.jpg",
+      "description": "Les membres légendaires de la distribution de \"SCTV\" se réunissent dans ce documentaire pour une célébration drôle et touchante de la façon dont une émission de sketches canadienne sans fioritures a marqué l'histoire de la comédie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1532997",
+      "type": "movie",
+      "name": "Dead Howling",
+      "poster": "https://image.tmdb.org/t/p/w500/i1vpLPnHVAZq1CyJlpVS8YI7a93.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bL2mZNrVdeNNOICyuFfPJq7YA4s.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -14,7 +101,7 @@
       "type": "movie",
       "name": "Wild Horse Nine",
       "poster": "https://image.tmdb.org/t/p/w500/hnBtud9vLr9arsUW8nxrzIz2uA4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/b17UWf3LqHgKolQkXckne32qv0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3uLA0ujne91bkzFStZICCYeqhnt.jpg",
       "description": "Peu avant le coup d'État chilien de 1973, deux agents de la CIA, Chris et Lee, sont envoyés de Santiago vers l'île de Pâques par leur supérieur, MJ. Au milieu des statues emblématiques de l'île, tandis que ces partenaires de longue date sont confrontés à leur sombre passé et aux complots en cours, Chris noue une relation avec deux étudiantes rebelles qui menace de faire basculer dans le chaos leur séjour dans ce paradis isolé…",
       "releaseInfo": "2026"
     },
@@ -23,8 +110,16 @@
       "type": "movie",
       "name": "The Mongoose",
       "poster": "https://image.tmdb.org/t/p/w500/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/iRIhPqqoUHiFBxn8oYf3gCQnaKk.jpg",
-      "description": "Accusé à tort d'un crime et n'ayant rien à perdre, un héros de guerre qui lutte contre le PTSD entraîne la police dans une course-poursuite à tombeau ouvert à travers le pays avec l'aide de ses frères d'armes, tandis qu'un public captivé soutient sa fuite.",
+      "background": "https://image.tmdb.org/t/p/w780/bySCyjQXNPgsnLTlgJpSMnRazPD.jpg",
+      "description": "Accusé d'un crime qu'il n'a pas commis et n'ayant plus rien à perdre, un héros de guerre aux prises avec un syndrome de stress post-traumatique entraîne les forces de l'ordre dans une course-poursuite effrénée à travers tout le pays, avec l'aide de ses frères d'armes, tandis qu'un public captivé encourage sa fuite.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:939541",
+      "type": "movie",
+      "name": "Christmas at the Kringles",
+      "poster": "https://image.tmdb.org/t/p/w500/oVxkhheRVWSacimUZBuMemQX85E.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7lEFPOUwk3H1aLx1UqGafAXRUPY.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -64,8 +159,8 @@
       "id": "tmdb:1727734",
       "type": "movie",
       "name": "Ali G : J'suis qui ?",
-      "poster": "https://image.tmdb.org/t/p/w500/xRieId2D3sqKeyhfwO7iJzjbojb.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hJcGJLi34zE4RhzsiDR6f7pw50K.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/lzpcfBT3mrsPU8iqVD1H1iKQG4M.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/h7gas4rrcaSitLgF2ODry3Wz9KZ.jpg",
       "description": "Après vingt ans passés à \"se la couler douce, fumer et s'envoyer en l'air\", Ali G découvre que sa petite amie de longue date, Julie, est enceinte de 8 mois. Face à une bouche de plus à nourrir, il se bouge enfin et part aux États-Unis pour retrouver sa gloire d'antan. Mais il se heurte vite à des ennemis qui vont menacer son existence et celle de son enfant.",
       "releaseInfo": "2026"
     },
@@ -76,103 +171,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/duZIrDULyk3PBIxoUmKXm3uqlBv.jpg",
       "background": "https://image.tmdb.org/t/p/w780/q90G7OV76xR7NOHu8m19iaudHO1.jpg",
       "description": "Un mardi matin d'août 2023, un groupe d'enfants partit pour l'école, empruntant un téléphérique de fortune pour traverser un col de montagne du nord-ouest du Pakistan. Ce qui suivit allait faire la une des journaux du monde entier. Soudain, à 275 mètres au-dessus du sol, deux câbles cédèrent, mettant les adolescents en danger de mort.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1195803",
-      "type": "movie",
-      "name": "Wicker",
-      "poster": "https://image.tmdb.org/t/p/w500/fjoHeK9kmoN46dUPGVpZA5rD27g.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg",
-      "description": "Mise au ban de son village, une pêcheuse solitaire commande au vannier local un mari en osier. Cet époux improbable se révèle doté d’une sensibilité et de talents qui dépassent toutes ses attentes. À son contact, elle découvre un désir insoupçonné et, peu à peu, s’éprend véritablement de lui. Mais bientôt, son étrange mari attise les convoitises, la jalousie et les fantasmes des villageois, faisant vaciller les certitudes d’une communauté jusque-là bien ordonnée.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:858035",
-      "type": "movie",
-      "name": "Klara et le Soleil",
-      "poster": "https://image.tmdb.org/t/p/w500/zJZ1ii7XPAJkdBWKIQN2fyyz5cQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2Zk5jRXUlrfkU3RsutMPMHey1Y.jpg",
-      "description": "Lorsque Klara rencontre Josie, chacune perçoit immédiatement chez l'autre une âme soeur. Josie entretient une relation compliquée avec sa mère et toutes deux ont traversé de lourdes épreuves. Mais l'émerveillement sincère de Klara et sa loyauté sans faille commencent peu à peu à apaiser les blessures de cette famille et à apporter de la lumière dans l'univers complexe de Josie.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1802674",
-      "type": "movie",
-      "name": "Hot Wheels La course est lancée! L'attaque du T-Rex",
-      "poster": "https://image.tmdb.org/t/p/w500/iIc0OkYnf06kv5Zp0IYVwuvffgh.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dK69ml1Y34MrEovK4ZyizRiWbEH.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1400940",
-      "type": "movie",
-      "name": "Clayface",
-      "poster": "https://image.tmdb.org/t/p/w500/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg",
-      "description": "L'ascension fulgurante de Matt Hagen, de gamin des rues de Gotham à star hollywoodienne, est brutalement interrompue lorsqu'un baron du crime le laisse atrocement défiguré. Abandonné de tous et n'ayant plus rien à perdre, Matt se tourne vers un traitement expérimental qui lui rend miraculeusement son apparence... mais altère profondément sa perception de la réalité. Il sombre alors dans une spirale destructrice, consumé par un irrépressible désir de vengeance.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:791523",
-      "type": "movie",
-      "name": "Wildwood : La prophétie de la forêt",
-      "poster": "https://image.tmdb.org/t/p/w500/shb3OmIQACcqhRvIcXuba26cP0l.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
-      "description": "Prue, une jeune fille courageuse, part à la recherche de son petit frère, enlevé et retenu dans la forêt interdite peuplée de créatures enchantées, d’alliés inattendus et d’adversaires redoutables. Ce qui débute comme une quête intime se transforme rapidement en une aventure spectaculaire aux enjeux colossaux, et c’est le destin de tout un monde caché qui dépend désormais de ses choix.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1771323",
-      "type": "movie",
-      "name": "Super Scam Me",
-      "poster": "https://image.tmdb.org/t/p/w500/y07DF84TR67NVAevJR6JMydIL5H.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cLA7LxfHF75U2m6zx9sEd7yhQBL.jpg",
-      "description": "Après des années d'enquêtes sur les arnaques sentimentales, Mariana van Zeller se lance dans l'une de ses investigations les plus immersives à ce jour. Dans le cadre d'une véritable expérience sociale, elle se crée un nouveau profil sur un site de rencontre et se fait passer pour la victime d'une arnaque sentimentale afin de comprendre et de dénoncer les tactiques, les technologies et les manipulations psychologiques utilisées par ces criminels pour tromper leurs victimes.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1765072",
-      "type": "movie",
-      "name": "You Can See Everything",
-      "poster": "https://image.tmdb.org/t/p/w500/7nG1AFxnrh5KtgH3jA4uIsWmX95.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nhIL3O4W9h5V5JbNQm7yjoDk3So.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1620918",
-      "type": "movie",
-      "name": "Norm Macdonald : Une vie pas si normale",
-      "poster": "https://image.tmdb.org/t/p/w500/sQw3m4hl1xyoT9zr7shnNCHDKI3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hE90kqyiFm9apunHLQirvdO7KyR.jpg",
-      "description": "Plongez dans un univers parallèle avec ce documentaire consacré au maître de l'humour pince-sans-rire, Norm Macdonald, dont la vie et la carrière furent intransigeantes mais pleines de contradictions.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1561726",
-      "type": "movie",
-      "name": "Masterplan",
-      "poster": "https://image.tmdb.org/t/p/w500/a13BTR3jJWr2ARoLvTC3f5gQhfw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fAlQZsCOCvxOj0PmFmt4i8IWR2u.jpg",
-      "description": "Quand un voleur légendaire jette son dévolu sur La Joconde, il recrute deux jeunes inconnus pour l'aider (Chiara, une experte italienne du cybercrime et Jay, un spécialiste français des explosifs) avant de leur révéler qu'il est leur père. Au milieu de retrouvailles chaotiques, cette nouvelle famille devra apprendre à collaborer et éviter de s'entretuer si elle veut réussir le casse du siècle.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1458099",
-      "type": "movie",
-      "name": "The Last Pickpocket in New York",
-      "poster": "https://image.tmdb.org/t/p/w500/pNdB9va2AEPQe9UfhKAdIt8nus9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uyNEBMVB9cqE7VkACf3TicGAVrU.jpg",
-      "description": "Harry est le dernier pickpocket de New York. Les temps sont durs, mais un jour la chance tourne : il dérobe une mystérieuse clef USB qu’il revend à prix d’or. Mais ce précieux butin appartient à une organisation criminelle impitoyable prête à tout pour le récupérer. Harry n’a que quelques heures pour retrouver la clef, et la restituer.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1452110",
-      "type": "movie",
-      "name": "Clean Hands",
-      "poster": "https://image.tmdb.org/t/p/w500/szIEtkFLOMsPX6AVQSfzalNEEDd.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/py3XG3mFkdVMcw7VwfZ4HaXZIIU.jpg",
-      "description": "L'histoire vraie de Kevin Simmers, ancien policier anti-drogue devenu défenseur de la désintoxication, et de sa fille Brooke. Le film explore la crise américaine de la drogue et « la fine ligne bleue » à travers les regards opposés d'un policier et d'une toxicomane, qui étaient également père et fille.",
       "releaseInfo": "2026"
     }
   ]

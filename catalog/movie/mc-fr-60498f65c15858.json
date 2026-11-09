@@ -1,12 +1,28 @@
 {
   "metas": [
     {
+      "id": "tmdb:1583853",
+      "type": "movie",
+      "name": "Se domani non torno",
+      "poster": "https://image.tmdb.org/t/p/w500/yfnAxbirYCIm1qP9ZT9LjYIj6DQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uIztlFaiWBy0tOLPPmJtFeINliV.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1541477",
       "type": "movie",
       "name": "Toi, Moi, Nous",
       "poster": "https://image.tmdb.org/t/p/w500/kw0sXl9LAikT65wq7NwY3y9g45K.jpg",
       "background": "https://image.tmdb.org/t/p/w780/9uU3523A14KJ90Jr8pQx0NGGIgb.jpg",
       "description": "Simone, un homme organisé et profondément attaché aux valeurs familiales, partage sa vie avec Lucia, une femme indépendante qui a toujours rejeté l'idée de devenir mère. Malgré leurs différences, leur couple repose sur un amour solide et de perpétuelles négociations. Mais lorsqu'ils décident d'adopter un enfant, leurs convictions et leurs désirs contradictoires refont surface, mettant leur relation à l'épreuve.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1506710",
+      "type": "movie",
+      "name": "Dio ride",
+      "poster": "https://image.tmdb.org/t/p/w500/p5cuENoUviYoK6IBHg2FS4oTRGD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uceTF8vmIOkIFL98Y9ZGGZ0rAJt.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -84,6 +100,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1511358",
+      "type": "movie",
+      "name": "Innamorarsi e altre pessime idee",
+      "poster": "https://image.tmdb.org/t/p/w500/dHNhObz0STAR5Vg0TNMQzGWZiI1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AdHGnraPb21ubQL8fgQx78PJPra.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1679085",
       "type": "movie",
       "name": "KING MARRACASH",
@@ -138,33 +162,6 @@
       "name": "Nel tepore del ballo",
       "poster": "https://image.tmdb.org/t/p/w500/ng9NBZ5qAJ4k4KlvQWgxKTuM1XT.jpg",
       "background": "https://image.tmdb.org/t/p/w780/1FbdJ6D2e4URdjqxwABAYiRn3zK.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1541485",
-      "type": "movie",
-      "name": "Benvenuti in campagna",
-      "poster": "https://image.tmdb.org/t/p/w500/1I1S7Cq2yxYJaowlfo1XFm6aNnb.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/q8KN3hXqngR4rr68389OBGtQzwv.jpg",
-      "description": "Une famille au bord de la crise décide de fuir la ville pour se réfugier dans une vieille ferme à la campagne, convaincue que le retour à la nature est la seule véritable solution. Mais ce rêve bucolique se transforme rapidement en une lutte haletante pour la survie. Quitter la ville, c'est facile. Fuir de soi-même, c'est un peu plus compliqué.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1442922",
-      "type": "movie",
-      "name": "Une année italienne",
-      "poster": "https://image.tmdb.org/t/p/w500/tD7uncqtSXlflxCY9HcEdtYeg9v.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2stEL3ibnjg9B9Rjr0U4CyuYc5Z.jpg",
-      "description": "Septembre 2007, Trieste. Fred, jeune Suédoise de dix-sept ans, arrive en ville et s’inscrit en terminale au lycée technique. Seule fille dans une classe entièrement masculine, elle se retrouve au centre de l’attention d’un trio inséparable.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1620551",
-      "type": "movie",
-      "name": "Au-delà des mots",
-      "poster": "https://image.tmdb.org/t/p/w500/lh9hqTDylUWe0kQGFRfWcApIabL.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/Ary1sG0AHn4V1DFrwV7g72Fomq0.jpg",
-      "description": "Une adolescente, seule membre entendante d'une famille de sourds, trouve sa voix et apprend à croire en elle grâce à sa passion pour le chant.",
       "releaseInfo": "2026"
     }
   ]

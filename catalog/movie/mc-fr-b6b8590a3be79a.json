@@ -23,8 +23,16 @@
       "type": "movie",
       "name": "Les Moutons détectives",
       "poster": "https://image.tmdb.org/t/p/w500/5GjWHaN6XW9RbeUqqYbzfKSThqX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/a8uQvrplTkhGJQog6GZ6CqF8An6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/g6uEVedSBXsZ3QuXKP4WDCeSsOy.jpg",
       "description": "Lorsque son fermier bien-aimé est retrouvé mort dans des circonstances mystérieuses, un troupeau de moutons conclut qu'il devra résoudre le meurtre lui-même. Cette quête l'oblige à quitter son pâturage pour la première fois et à se confronter à une réalité brutale : le monde des humains est bien plus complexe qu'il y paraît dans les livres.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1129104",
+      "type": "movie",
+      "name": "Flavia",
+      "poster": "https://image.tmdb.org/t/p/w500/xwm7TGTmQcM2PkVvMxTjpYYk600.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6t9nSqZpD1mlT9DLugyZNmC3SsQ.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -169,15 +177,6 @@
       "background": "https://image.tmdb.org/t/p/w780/x8Kdi1OJbewkeGuijcSmUWrYyk2.jpg",
       "description": "Après avoir quitté Swellview, Henry devient le héros local de Dystopia. Alors que la célébrité commence à peser sur lui, il rencontre Missy Martin, une superfan enthousiaste désireuse de combattre le crime à ses côtés. Missy entre en possession d'un appareil capable d'ouvrir des réalités alternatives, entraînant Henry et son meilleur ami Jasper dans une aventure à travers différentes dimensions. Ils doivent trouver un moyen de revenir à Dystopia, sous peine de rester coincés dans une autre dimension pour toujours.",
       "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:939243",
-      "type": "movie",
-      "name": "Sonic 3, le film",
-      "poster": "https://image.tmdb.org/t/p/w500/gERwLGTa6JGN4qXjkip13eDaxy1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zOpe0eHsq0A2NvNyBbtT6sj53qV.jpg",
-      "description": "Sonic, Knuckles et Tails sont à nouveau réunis face à un puissant nouvel adversaire, Shadow, un mystérieux vilain doté de pouvoirs comme ils n'en ont encore jamais vu. Leurs habiletés étant toutes surclassées, l'Équipe Sonic doit tenter une alliance improbable dans l'espoir d'arrêter Shadow et de protéger la planète.",
-      "releaseInfo": "2024"
     }
   ]
 }

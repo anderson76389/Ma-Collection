@@ -1,6 +1,33 @@
 {
   "metas": [
     {
+      "id": "tmdb:305357",
+      "type": "series",
+      "name": "A Different World",
+      "poster": "https://image.tmdb.org/t/p/w500/mmE4RNbsPOwwRo5rnVRd1IXzgcZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1lVbKPOVjTV02FtLqiPk9F9z1Fh.jpg",
+      "description": "Deborah Wayne entame sa première année à Hillman — l'université historiquement noire (HBCU) fréquentée par ses parents — et découvre qu'il est difficile d'échapper à leur ombre. Elle entreprend de bâtir son propre héritage, tout en vivant les meilleurs moments de sa vie, aux côtés d'une nouvelle génération d'étudiants brillants et prometteurs.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:250203",
+      "type": "series",
+      "name": "Brothers",
+      "poster": "https://image.tmdb.org/t/p/w500/yewGBOuVmcZnMQ60xGGjUhobOsJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aLE7R8QZPpTiWZS48PS22i2OWbl.jpg",
+      "description": "Matthew McConaughey et Woody Harrelson sont meilleurs amis depuis toujours, mais leur lien pourrait devenir encore plus étroit après la découverte d’un secret de famille troublant.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:285418",
+      "type": "series",
+      "name": "Youth",
+      "poster": "https://image.tmdb.org/t/p/w500/uK1Kv6OHkpmHUyMV5QmYxXoTBVM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iEISXRsDv8Q2PA6i9cAQd2DH9bN.jpg",
+      "description": "Alex a une carrière, une famille et une riche expérience de la vie, mais elle doit aussi faire face aux réalités de la cinquantaine, s'occuper de ses parents vieillissants, élever un fils adolescent en difficulté et essayer de déterminer s'il y a encore de la place pour la romance et l'excitation dans sa propre vie.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:300480",
       "type": "series",
       "name": "Ricky Gervais Alley Cats",
@@ -150,33 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/qeCmU79haciBBOBmOy7dJtbz95Y.jpg",
       "background": "https://image.tmdb.org/t/p/w780/oGORe3yzIPBueHVHroSmsaMVKDi.jpg",
       "description": "Contraints à la suite d'un chantage d'œuvrer pour des individus très dangereux, un frère et une sœur complètement bras cassés deviennent le duo le plus loufoque du crime organisé.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:250220",
-      "type": "series",
-      "name": "The Miniature Wife",
-      "poster": "https://image.tmdb.org/t/p/w500/ah763FJpttOTCcfxIK3dxXCoJvk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gQTjztsHxB7swHm6Dy2h8blukEi.jpg",
-      "description": "Un accident technologique pousse un couple marié à remettre en question l'équilibre de pouvoir dans leur relation. Ce qui commence comme une remise en question tourne vite à l'affrontement alors que chacun tente de reprendre le contrôle sur leur mariage.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:257519",
-      "type": "series",
-      "name": "Coupez !",
-      "poster": "https://image.tmdb.org/t/p/w500/sXheST2GHQge5S20iisnXlbROea.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vk7AdYfhmCuWsRrTPMg7Yif8AAt.jpg",
-      "description": "Shah Latif, un acteur en galère qui joue sa dernière carte lors de l'audition de sa vie. En quatre jours mouvementés, sa famille, son ex et le monde entier se mêlent de son destin : est-il vraiment l'homme de la situation ? Un compte à rebours hilarant où sa vie part totalement en vrille.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:312697",
-      "type": "series",
-      "name": "Fonction Juré présente : Le Séminaire d'Entreprise",
-      "poster": "https://image.tmdb.org/t/p/w500/zN6avY56dmn4YX17at8ncHMkAHC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1zjKBLSiJlQN2RXPvsdRz24iCHd.jpg",
-      "description": "Anthony, un véritable assistant intérimaire, est embauché par Mamie Rock'n'Roll (une entreprise fictive) pour son séminaire annuel, le dernier avant le départ du PDG Doug, à la retraite. Alors qu'un investisseur en capital courtise l'entreprise en vue de son rachat, Dougie Jr., le fils de Doug, peine à faire ses preuves en tant que chef.",
       "releaseInfo": "2026"
     }
   ]

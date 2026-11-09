@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1117898",
+      "type": "movie",
+      "name": "Le Chat Chapeauté",
+      "poster": "https://image.tmdb.org/t/p/w500/jBcFgdERUGw0au9fYZc5X9M8Dfs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg",
+      "description": "Le Chat se voit confier sa mission la plus difficile jusqu'à présent... aider deux frères et sœurs qui ont du mal à s'installer dans une nouvelle ville.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1802674",
       "type": "movie",
       "name": "Hot Wheels La course est lancée! L'attaque du T-Rex",
@@ -15,6 +24,24 @@
       "poster": "https://image.tmdb.org/t/p/w500/hPucpn2pmszkcqRVHmrlUYK0PtG.jpg",
       "background": "https://image.tmdb.org/t/p/w780/aIiCdNCo889J2QaaOd8TXaGXoO2.jpg",
       "description": "Les projets d'Halloween de Spidey et des Avengers sont chamboulés par la mystérieuse Hallows' Eve. Elle s'amuse à jouer des tours aux enfants partis à la chasse aux bonbons et compte bien gâcher la fête pour toujours.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1764166",
+      "type": "movie",
+      "name": "Thomas et ses amis: Des Petites Locos Bien Utiles",
+      "poster": "https://image.tmdb.org/t/p/w500/kuQldt0mSpQswKvQgdqB6CZ3WHH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kTH0lBNzU8Jnhusr019VIUwL3KL.jpg",
+      "description": "À chaque virage de Sodor, quelqu’un a besoin d’aide et un problème à résoudre. Et personne n’est plus enthousiaste à l’idée d’aider que Thomas ! Rejoignez Thomas et ses amis pour des aventures passionnantes, des surprises inattendues et des chansons que vous chanterez longtemps après la fin du voyage. Parce que chaque livraison, chaque défi et chaque aventure sont meilleurs lorsque les amis travaillent ensemble.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1477104",
+      "type": "movie",
+      "name": "Shaun le Mouton : La Bêêête d'Halloween",
+      "poster": "https://image.tmdb.org/t/p/w500/xErbSB79RgyH8xCkChItWx2UKdr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
+      "description": "À Halloween, les habitants de la ferme de Mossy Bottom se réjouissent des festivités, jusqu’à ce que le Fermier maladroit saccage les citrouilles bien-aimées du troupeau. Lorsque Shaun se transforme en scientifique fou pour résoudre le problème, les choses dérapent : le Fermier disparaît et une bête sauvage rôde dans les bois.",
       "releaseInfo": "2026"
     },
     {
@@ -120,7 +147,7 @@
       "id": "tmdb:1084244",
       "type": "movie",
       "name": "Toy Story 5",
-      "poster": "https://image.tmdb.org/t/p/w500/5eqxQzAxennEKBAg147LUX4gVlS.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/b2bt3UomRX41rHHZmIsSNmXzidU.jpg",
       "background": "https://image.tmdb.org/t/p/w780/qjTqY5coNiz6sVtPng40IzltsoN.jpg",
       "description": "Buzz, Woody, Jessie et le reste de la bande verront leur travail remis en question lorsqu'ils découvriront que ce qui obsède les enfants d'aujourd'hui s’appelle... l'électronique !",
       "releaseInfo": "2026"
@@ -150,33 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/gz64ZUKg4C4g1yfGD0o5opcBOKy.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zMwhWailP1WY7sb6AoE6b8ugoy.jpg",
       "description": "Un petit animal des bois et un oiseau majestueux, ennemis jurés de la Vallée, qui échangent soudainement leurs corps et doivent faire équipe, en se mettant dans la peau  de l'autre, pour survivre à la plus folle aventure de leur vie.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1301421",
-      "type": "movie",
-      "name": "Les Moutons détectives",
-      "poster": "https://image.tmdb.org/t/p/w500/5GjWHaN6XW9RbeUqqYbzfKSThqX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/a8uQvrplTkhGJQog6GZ6CqF8An6.jpg",
-      "description": "Lorsque son fermier bien-aimé est retrouvé mort dans des circonstances mystérieuses, un troupeau de moutons conclut qu'il devra résoudre le meurtre lui-même. Cette quête l'oblige à quitter son pâturage pour la première fois et à se confronter à une réalité brutale : le monde des humains est bien plus complexe qu'il y paraît dans les livres.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:539745",
-      "type": "movie",
-      "name": "La Ferme des animaux",
-      "poster": "https://image.tmdb.org/t/p/w500/6pzI1DIlxwAFffw9OZcG6cr031U.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rg1E0Ya6YYiGPcg5p1ZIkDd8u3F.jpg",
-      "description": "Un groupe d'animaux se rebellent contre leurs maîtres humains et prennent le contrôle de la ferme. Leur révolte terminée, ils sont confrontés à de nouveaux défis sous le règne d'un cochon rusé nommé Napoléon. Cette situation les oblige à trouver le courage de s'opposer à Napoléon.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1226863",
-      "type": "movie",
-      "name": "Super Mario Galaxy, le film",
-      "poster": "https://image.tmdb.org/t/p/w500/aSQktALDmbunDbwkuZbZFMEWVFr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg",
-      "description": "Mario et Luigi gèrent les tracas du royaume Champignon, se lient d'amitié avec Yoshi, tentent de réhabiliter mini-Bowser et se préparent pour l'anniversaire de Peach. Mais quand un appel à l'aide arrive de l'autre bout de la galaxie, l'équipe part découvrir des mondes nouveaux, des menaces inattendues et des personnages emblématiques, comme Rosalina et Bowser Jr.",
       "releaseInfo": "2026"
     }
   ]

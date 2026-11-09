@@ -1,6 +1,13 @@
 {
   "metas": [
     {
+      "id": "tmdb:341224",
+      "type": "series",
+      "name": "Nayi Manzil (TV Series)",
+      "poster": "https://image.tmdb.org/t/p/w500/rjm4h2nqQyAUFcmCHsuoWWopFXU.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:334887",
       "type": "series",
       "name": "The Mob",
@@ -26,6 +33,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:313137",
+      "type": "series",
+      "name": "The Golden Life",
+      "poster": "https://image.tmdb.org/t/p/w500/e7OGE2mfvhfDCd1jJNju5G155hX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pnWDLePHuMROfNN0a13asDpUr7I.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:330430",
       "type": "series",
       "name": "Love After Lockup: Relationship Rehab",
@@ -47,6 +62,7 @@
       "name": "Secret Life of a Vegas Casino",
       "poster": "https://image.tmdb.org/t/p/w500/xyfxV0s0mBRs1NsgYJ3cBlmyLSo.jpg",
       "background": "https://image.tmdb.org/t/p/w780/h6g4QtrLIh7EcPdFObAdvYIYL3C.jpg",
+      "description": "Des moments tirés de la vie réelle, souvent choquants, qui se succèdent 24 heures sur 24 : des clients indisciplinés, des événements exceptionnels source de forte pression et les efforts incessants nécessaires pour assurer chaque jour la sécurité et le divertissement de milliers de personnes.",
       "releaseInfo": "2026"
     },
     {
@@ -70,7 +86,7 @@
       "id": "tmdb:332118",
       "type": "series",
       "name": "Team Moms: Baseball",
-      "poster": "https://image.tmdb.org/t/p/w500/4uVnnhJ6z0bNN6c1UzcCp1zGIe7.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/51hr50Kysb5MtIT6pWVaX038b3s.jpg",
       "background": "https://image.tmdb.org/t/p/w780/xXAYs3cDMFHUOgB7eVT5LhwV3Z1.jpg",
       "releaseInfo": "2026"
     },
@@ -145,23 +161,6 @@
       "name": "The Box",
       "poster": "https://image.tmdb.org/t/p/w500/m0UhkGntknE7cSOPvJH2x1YQmBO.jpg",
       "background": "https://image.tmdb.org/t/p/w780/b4t98QvbW3B4sMaxiQ3rkkpAfvV.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:330371",
-      "type": "series",
-      "name": "Earle Meets World",
-      "poster": "https://image.tmdb.org/t/p/w500/wbU6JeOVw30CRXNFwu8AuCdhXW0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hh7gTtE7QRAoNFma84N8dHNN3UB.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:329471",
-      "type": "series",
-      "name": "The Grand Tour",
-      "poster": "https://image.tmdb.org/t/p/w500/kq6XB6xmD86txW4UR32tT2JUiN9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/40Dx3P1mllQq1jhgN3K8dlti6CS.jpg",
-      "description": "Et c'est reparti pour The Grand Tour ! La plus grande émission automobile au monde reprend la route avec de nouveaux présentateurs, Thomas Holland, James Engelsman et Francis Bourgeois, tout en conservant sa formule en dehors des clous mêlant aventures à travers le monde, véhicules incroyables, cascades épiques et opinions tranchées.",
       "releaseInfo": "2026"
     }
   ]

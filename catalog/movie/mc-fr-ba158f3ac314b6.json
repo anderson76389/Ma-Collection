@@ -1,11 +1,29 @@
 {
   "metas": [
     {
+      "id": "tmdb:1585239",
+      "type": "movie",
+      "name": "Club Kid",
+      "poster": "https://image.tmdb.org/t/p/w500/lfznSwfaXWLxW5TR09IoNV9OwhM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AjrgF2JZb8WAeIFTvUjJK6VA2CG.jpg",
+      "description": "Peter (Jordan Firstman), organisateur de soirées branchées à New York, mène une existence aussi effrénée qu’insouciante, rythmée par les nuits festives et les excès. Sa vie bascule lorsqu'Arlo, le fils de 10 ans dont il ignorait l'existence, frappe à sa porte. Dépassé par ce rôle de père qu'il n'avait jamais envisagé, il est rapidement conquis par le charme et la spontanéité de l’enfant. Au fil du temps, un lien aussi inattendu que profond se tisse entre eux, et Peter découvre enfin qu’il existe une vie au-delà de la prochaine fête.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1570488",
+      "type": "movie",
+      "name": "Mon beau Noël de chien",
+      "poster": "https://image.tmdb.org/t/p/w500/wuFfq29NUhaksIIxg5EV24J3n2b.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hhQT0TySg3LXCE8BEPpfPJ5zJA2.jpg",
+      "description": "Winstead est un chien déterminé. Quand une urgence médicale déchire la famille Goss, il est prêt à tout pour rétablir l'harmonie avant le réveillon de Noël.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:891621",
       "type": "movie",
       "name": "Wild Horse Nine",
       "poster": "https://image.tmdb.org/t/p/w500/hnBtud9vLr9arsUW8nxrzIz2uA4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/b17UWf3LqHgKolQkXckne32qv0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3uLA0ujne91bkzFStZICCYeqhnt.jpg",
       "description": "Peu avant le coup d'État chilien de 1973, deux agents de la CIA, Chris et Lee, sont envoyés de Santiago vers l'île de Pâques par leur supérieur, MJ. Au milieu des statues emblématiques de l'île, tandis que ces partenaires de longue date sont confrontés à leur sombre passé et aux complots en cours, Chris noue une relation avec deux étudiantes rebelles qui menace de faire basculer dans le chaos leur séjour dans ce paradis isolé…",
       "releaseInfo": "2026"
     },
@@ -21,8 +39,8 @@
       "id": "tmdb:1727734",
       "type": "movie",
       "name": "Ali G : J'suis qui ?",
-      "poster": "https://image.tmdb.org/t/p/w500/xRieId2D3sqKeyhfwO7iJzjbojb.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hJcGJLi34zE4RhzsiDR6f7pw50K.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/lzpcfBT3mrsPU8iqVD1H1iKQG4M.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/h7gas4rrcaSitLgF2ODry3Wz9KZ.jpg",
       "description": "Après vingt ans passés à \"se la couler douce, fumer et s'envoyer en l'air\", Ali G découvre que sa petite amie de longue date, Julie, est enceinte de 8 mois. Face à une bouche de plus à nourrir, il se bouge enfin et part aux États-Unis pour retrouver sa gloire d'antan. Mais il se heurte vite à des ennemis qui vont menacer son existence et celle de son enfant.",
       "releaseInfo": "2026"
     },
@@ -33,6 +51,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/fjoHeK9kmoN46dUPGVpZA5rD27g.jpg",
       "background": "https://image.tmdb.org/t/p/w780/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg",
       "description": "Mise au ban de son village, une pêcheuse solitaire commande au vannier local un mari en osier. Cet époux improbable se révèle doté d’une sensibilité et de talents qui dépassent toutes ses attentes. À son contact, elle découvre un désir insoupçonné et, peu à peu, s’éprend véritablement de lui. Mais bientôt, son étrange mari attise les convoitises, la jalousie et les fantasmes des villageois, faisant vaciller les certitudes d’une communauté jusque-là bien ordonnée.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1153576",
+      "type": "movie",
+      "name": "Street Fighter",
+      "poster": "https://image.tmdb.org/t/p/w500/k53HHxQ4rQG0dME6nsofii3QNS7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qRN8eqYwG6HPSy0i3fKzuLrUOhp.jpg",
+      "description": "En 1993, Ryu et Ken Masters, deux Street Fighters autrefois inséparables, sont replongés dans l’arène lorsque la mystérieuse Chun-Li les recrute pour le prochain World Warrior Tournament : un affrontement brutal où se mêlent poings, destin et fureur. Mais derrière cette battle royale se cache une conspiration mortelle qui les oblige à s’affronter, tout en faisant face aux démons de leur passé… Et s’ils échouent, c’est GAME OVER.",
       "releaseInfo": "2026"
     },
     {
@@ -49,7 +76,7 @@
       "type": "movie",
       "name": "Stranglehold",
       "poster": "https://image.tmdb.org/t/p/w500/eTWcOmwSqC8Xr5o5VKFj7BFHKSI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dBziuJUx0tteX1eSzKj05twjDJi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bDZYPBjWQWSGFKL64FvNLxnojTV.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -88,6 +115,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1579941",
+      "type": "movie",
+      "name": "The Musical",
+      "poster": "https://image.tmdb.org/t/p/w500/paoRPVNta4eYyPO1vsdHTK8dUYa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/475EwwQP3Lg0kqhSC0xnZC4XBBd.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1514863",
       "type": "movie",
       "name": "Best of the Best",
@@ -100,7 +135,7 @@
       "id": "tmdb:1596301",
       "type": "movie",
       "name": "Mum, I'm Alien Pregnant",
-      "poster": "https://image.tmdb.org/t/p/w500/kEKZ6i691QKYBXCN9tazt3FVQKH.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/1UWjL6OnlZXAQev3ZTjn83ZCs59.jpg",
       "background": "https://image.tmdb.org/t/p/w780/2ASkOyNYZvDs3M9xzKhckYmcRz4.jpg",
       "releaseInfo": "2026"
     },
@@ -128,6 +163,7 @@
       "name": "Stavros Halkias: Uncle Stav",
       "poster": "https://image.tmdb.org/t/p/w500/lVdlQbkpnETCZXN76UwQzMiJH6m.jpg",
       "background": "https://image.tmdb.org/t/p/w780/aZY17mncsi7zM8IcvucdxgnbM1C.jpg",
+      "description": "Dans ce recueil débridé, Stavros Halkias imagine devenir un oncle « crasseux », critique le système de santé et met en garde contre les risques de vivre pleinement sa vie.",
       "releaseInfo": "2026"
     },
     {
@@ -137,42 +173,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/8mmQWqkvZrvxqr21WhV7Pk0WIHl.jpg",
       "background": "https://image.tmdb.org/t/p/w780/lJYniNRM2i9wXnfWVHOB4PxygFZ.jpg",
       "description": "Réunis à l'étranger pour le mariage de la fille de Marcus et Angela, les couples attisent des tensions anciennes et nouvelles en se demandant : « Pourquoi on s'est mariés, déjà ? »",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1377237",
-      "type": "movie",
-      "name": "Le Transport",
-      "poster": "https://image.tmdb.org/t/p/w500/4gRzxdF2IEGiANKEDVtjMuNl12n.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/npXZNWjOEYrqdMDPQ11SGBrXqAG.jpg",
-      "description": "Un ancien soldat se retrouve engagé dans une course contre la montre lorsqu’une livraison médicale essentielle fait de lui et de son partenaire improbable la cible d’un cartel impitoyable. La mission se transforme rapidement en une chasse à l’homme meurtrière, où chaque détour, chaque retard et chaque balle les rapprochent de l’échec. Traqués de toutes parts, ils doivent survivre à cette poursuite et livrer leur cargaison à temps pour sauver la vie d’une petite fille.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1554956",
-      "type": "movie",
-      "name": "The Incomer",
-      "poster": "https://image.tmdb.org/t/p/w500/nGnI5tT7qstkld94S8m4c68noZt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tcm829PtxDSomGOEXxzO7c0sK3p.jpg",
-      "description": "Sur une île écossaise, les frères et sœurs Isla et Sandy chassent les oiseaux et communiquent avec des êtres mythiques tout en repoussant les intrus. Leur vie bascule à l’arrivée de Daniel, un fonctionnaire maladroit venu pour les reloger.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1137844",
-      "type": "movie",
-      "name": "Mayday",
-      "poster": "https://image.tmdb.org/t/p/w500/eHELFF4BBxmEk5JyhV017Xcgvwy.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/g7Ccid5kuD7A8hXWlsQiNfwOxaD.jpg",
-      "description": "Un pilote de la Navy envoyé en mission secrète durant la guerre froide se retrouve piégé en territoire ennemi. Son seul espoir de survie est de s'allier à un ex-agent du KGB excentrique.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1429713",
-      "type": "movie",
-      "name": "Bucking Fastard",
-      "poster": "https://image.tmdb.org/t/p/w500/Ae0A2HtLSa0W2xOXvS47HdMz6ri.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cnuB1HfYzdAt3s5DbZybFsPuJ.jpg",
-      "description": "L'histoire vraie de deux sœurs jumelles inséparables, Joan et Jean, qui vivent en marge de la société.",
       "releaseInfo": "2026"
     }
   ]

@@ -23,18 +23,9 @@
       "type": "series",
       "name": "WWE Raw",
       "poster": "https://image.tmdb.org/t/p/w500/fstEe6RsyNyPUnMwNcL20iNl0nE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7QmGgxQSnZZQ3NeiDm7n1A0avmz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ykWWT8FAChBffNxcDzoJMCK9LBb.jpg",
       "description": "Chaque semaine, les supertars de Raw s'affrontent dans le ring mais également en dehors. Combats acharnés, prises impressionnantes, les catcheurs sont prêts à tout pour remporter la victoire. Depuis le 1000e épisode du show, diffusé le 23 juillet 2012, WWE Raw passe à un format de trois heures au lieu de deux, format auparavant réservé aux épisodes spéciaux.",
       "releaseInfo": "1993"
-    },
-    {
-      "id": "tmdb:65701",
-      "type": "series",
-      "name": "Good Mythical Morning",
-      "poster": "https://image.tmdb.org/t/p/w500/jMpBQr2aNOFAI6wsC47zsOG6qOh.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hvFCS0dMeC3ffiF4uYTKzUAkvYL.jpg",
-      "description": "Good Mythical Morning est une série YouTube de comédie, de discussion et de variétés américaine créée par Rhett McLaughlin et Link Neal. L'émission a été diffusée pour la première fois sur YouTube le 9 janvier 2012. De nombreuses célébrités et personnalités d'Internet, dont Daniel Radcliffe, Felix Kjellberg, Hank Green, Kobe Bryant et Linkin Park ont participé au show. L'émission se concentre sur Rhett et Link alors qu'ils racontent des histoires, chantent des chansons, relèvent des défis, etc...",
-      "releaseInfo": "2012"
     },
     {
       "id": "tmdb:58841",
@@ -46,31 +37,13 @@
       "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:312359",
+      "id": "tmdb:65701",
       "type": "series",
-      "name": "Dragon Ball Super : Beerus",
-      "poster": "https://image.tmdb.org/t/p/w500/sGuCmIy8kEmx3FWZyMj654rF6g8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg",
-      "description": "Des années après la défaite de Majin Buu, la paix est revenue sur Terre. Mais lorsque Beerus, le Dieu de la Destruction, se réveille, cette tranquillité vole en éclats. Attiré sur Terre par des rumeurs concernant le Saiyan qui a vaincu Freezer, Beerus cherche à défier Goku en déployant une puissance capable de détruire des planètes entières. Goku et ses alliés doivent désormais affronter Beerus dans un combat qui fera trembler l'univers.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:57532",
-      "type": "series",
-      "name": "La Pat' Patrouille",
-      "poster": "https://image.tmdb.org/t/p/w500/nw2jRlCbBapEsRAMtsLONBbqXxp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7OrV2aAH5Yp7hA9zCCvUloLvZtl.jpg",
-      "description": "La Pat’ Patrouille compte six chiots héroïques qui répondent aux noms de Chase, Marcus, Rocky, Ruben, Zuma, et Stella. Ils sont menés par Ryder, un garçon de 10 ans féru de technologie. Tous ensemble, ils vivent des aventures palpitantes pour protéger la communauté de la Grande Vallée. La devise de Ryder ? « Aucune mission n'est trop dure car mes amis, ils assurent ! »",
-      "releaseInfo": "2013"
-    },
-    {
-      "id": "tmdb:289517",
-      "type": "series",
-      "name": "Un job mortel",
-      "poster": "https://image.tmdb.org/t/p/w500/fEOsnx6TAiHOno5Ez5k8cxMVrtF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cyH2fZUjIJjLmgpF3tgA5CSGz4L.jpg",
-      "description": "Croulant sous les dettes, un jeune homme enchaîne les petits boulots très lucratifs que lui propose une mystérieuse agence, mais sa course à l'argent tourne au cauchemar.",
-      "releaseInfo": "2026"
+      "name": "Good Mythical Morning",
+      "poster": "https://image.tmdb.org/t/p/w500/jMpBQr2aNOFAI6wsC47zsOG6qOh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hvFCS0dMeC3ffiF4uYTKzUAkvYL.jpg",
+      "description": "Good Mythical Morning est une série YouTube de comédie, de discussion et de variétés américaine créée par Rhett McLaughlin et Link Neal. L'émission a été diffusée pour la première fois sur YouTube le 9 janvier 2012. De nombreuses célébrités et personnalités d'Internet, dont Daniel Radcliffe, Felix Kjellberg, Hank Green, Kobe Bryant et Linkin Park ont participé au show. L'émission se concentre sur Rhett et Link alors qu'ils racontent des histoires, chantent des chansons, relèvent des défis, etc...",
+      "releaseInfo": "2012"
     },
     {
       "id": "tmdb:65334",
@@ -80,6 +53,24 @@
       "background": "https://image.tmdb.org/t/p/w780/lH22EnM0ofC7GsVGU8dAA2RXV1c.jpg",
       "description": "Paris, aujourd'hui. Marinette et Adrien sont deux collégiens comme les autres, à la différence près qu’ils ont été choisis pour sauver Paris ! Leur mission : capturer les Akumas du mystérieux Papillon qui transforment les parisiens en super vilains. Grâce à leur kwami, nos deux collégiens se métamorphosent en superhéros : Ladybug, et Chat Noir.",
       "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:312359",
+      "type": "series",
+      "name": "Dragon Ball Super : Beerus",
+      "poster": "https://image.tmdb.org/t/p/w500/sGuCmIy8kEmx3FWZyMj654rF6g8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg",
+      "description": "Des années après la défaite de Majin Buu, la paix est revenue sur Terre. Mais lorsque Beerus, le Dieu de la Destruction, se réveille, cette tranquillité vole en éclats. Attiré sur Terre par des rumeurs concernant le Saiyan qui a vaincu Freezer, Beerus cherche à défier Goku en déployant une puissance capable de détruire des planètes entières. Goku et ses alliés doivent désormais affronter Beerus dans un combat qui fera trembler l'univers.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:225385",
+      "type": "series",
+      "name": "Black Doves",
+      "poster": "https://image.tmdb.org/t/p/w500/jXpY5s2lSZ6p9By8LxIi5AVAZL7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uyL0MH8gtDlChQKpfpkVoUP41VY.jpg",
+      "description": "Une espionne, infiltrée en étant la femme d'un politicien, apprend que son amant a été tué. Un vieil ami assassin décide alors de l'aider dans sa quête de vérité... et de vengeance.",
+      "releaseInfo": "2024"
     },
     {
       "id": "tmdb:45790",
@@ -100,39 +91,12 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:126027",
-      "type": "series",
-      "name": "Ghosts : Fantômes à la maison",
-      "poster": "https://image.tmdb.org/t/p/w500/eeQxQnvX8RjvNLWzeaHXgLjjQsk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/p5FOkor90VRBJEEhUMFdFdkixfe.jpg",
-      "description": "A la mort de sa grand-tante, Sam hérite d'un manoir en ruine habité par les esprits de différents personnages morts sur les lieux à travers les siècles. Elle projette, avec son mari Jay, de transformer le manoir en hôtel. Suite à un accident qui l'a rapprochée de la mort, elle peut voir et entendre les fantômes.",
-      "releaseInfo": "2021"
-    },
-    {
       "id": "tmdb:300146",
       "type": "series",
       "name": "Sous le masque",
       "poster": "https://image.tmdb.org/t/p/w500/nKhiK99WZohc3fJsTXJLf4SrSEY.jpg",
       "background": "https://image.tmdb.org/t/p/w780/q6VPQREsEGFccpWVF7wFvy9oc25.jpg",
       "description": "Wei Rao, jeune femme noble, est obligée de se marier avec le prince Lu Zuo, alors que celui-ci est dans le coma et proche de la mort. Elle force alors Ah Chou, une jeune fille ordinaire dont la seule caractéristique est sa ressemblance frappante avec Wei Rao, à prendre sa place au mariage. Mais Lu Zuo se réveille précisément le jour des noces... Ah Chou doit maintenant faire face à Wei Rao, qui veut récupérer sa place, à Lu Zuo, qui la prend pour cette vipère de Wei Rao, mais aussi à toute la demeure du prince qui est pleine de pièges et de complots.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:68073",
-      "type": "series",
-      "name": "Bienvenue chez les Loud",
-      "poster": "https://image.tmdb.org/t/p/w500/rCMCfA1wxgsnBXyHxPEPRFdWMkX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jQmYRTt29hTNFGdNdwFVazOrDpO.jpg",
-      "description": "Dans la ville fictive de Royal Woods, dans le Michigan, vivent Lincoln Loud et ses 10 sœurs. La vie du jeune garçon de 11 ans est de loin trépidante. Il sait que pour survivre avec 5 grandes sœurs (Lori, Leni, Luna, Luan, et Lynn) et 5 petites sœurs (Lucy, les jumelles Lana et Lola ainsi que Lisa, et enfin Lily, le bébé), il faut faire preuve de détachement, de confiance en soi, d'optimisme et qu'il faut toujours avoir un plan!",
-      "releaseInfo": "2016"
-    },
-    {
-      "id": "tmdb:243555",
-      "type": "series",
-      "name": "அக்கா",
-      "poster": "https://image.tmdb.org/t/p/w500/tdnHaR0vlKMQbjmaCs2V3LDmzSd.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cVUKFfws4upCB4ytz5uGIONIiRc.jpg",
-      "description": "Dans la société matriarcale de la ville fictive de Pernuru, les femmes règnent en maître et le pouvoir a un nouveau nom : Akka.",
       "releaseInfo": "2026"
     },
     {
@@ -145,6 +109,33 @@
       "releaseInfo": "1999"
     },
     {
+      "id": "tmdb:212989",
+      "type": "series",
+      "name": "LEGO Ninjago : Le soulèvement des dragons",
+      "poster": "https://image.tmdb.org/t/p/w500/yJ9VjdlKpSkkBqgQ2kwOcEpMLVj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4vubgrPvqDKNFP1kNvHpd3do9hd.jpg",
+      "description": "Deux adolescents de mondes différents utilisent leurs pouvoirs de ninjas pour défendre des dragons face à des méchants qui veulent utiliser leur force vitale à mauvais escient.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:68073",
+      "type": "series",
+      "name": "Bienvenue chez les Loud",
+      "poster": "https://image.tmdb.org/t/p/w500/rCMCfA1wxgsnBXyHxPEPRFdWMkX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jQmYRTt29hTNFGdNdwFVazOrDpO.jpg",
+      "description": "Dans la ville fictive de Royal Woods, dans le Michigan, vivent Lincoln Loud et ses 10 sœurs. La vie du jeune garçon de 11 ans est de loin trépidante. Il sait que pour survivre avec 5 grandes sœurs (Lori, Leni, Luna, Luan, et Lynn) et 5 petites sœurs (Lucy, les jumelles Lana et Lola ainsi que Lisa, et enfin Lily, le bébé), il faut faire preuve de détachement, de confiance en soi, d'optimisme et qu'il faut toujours avoir un plan!",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:293610",
+      "type": "series",
+      "name": "Doctor X : Mafia en blouse blanche",
+      "poster": "https://image.tmdb.org/t/p/w500/vAMmQApMO9QyoyWCUpKxuOrsqw7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rCFZ9cQQVSa9sAvco2Czcct6aKB.jpg",
+      "description": "Kye Su-Jeong, une brillante chirurgienne, est affectée à l'hôpital universitaire de Guseo pour pourvoir un poste vacant en chirurgie. Elle y fait ses preuves grâce à son talent et met en lumière les absurdités du milieu médical. Elle se lie d'amitié avec Bu Seung-Kwon, le directeur de l'hôpital, et l'interne Park Tae-Kyeong",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:14929",
       "type": "series",
       "name": "Heartland",
@@ -152,15 +143,6 @@
       "background": "https://image.tmdb.org/t/p/w780/11nGiX6hLdexBD4TVUAAVzSIAQy.jpg",
       "description": "En dépit des dettes qui s'accumulent et de la banque qui menace de saisir, les Fleming se battent pour permettre à leur ranch de continuer à tourner.",
       "releaseInfo": "2007"
-    },
-    {
-      "id": "tmdb:293610",
-      "type": "series",
-      "name": "Doctor X : Mafia en blouse blanche",
-      "poster": "https://image.tmdb.org/t/p/w500/vAMmQApMO9QyoyWCUpKxuOrsqw7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mDYIV71RL3mkaW8IfSGNthuVB7l.jpg",
-      "description": "Kye Su-Jeong, une brillante chirurgienne, est affectée à l'hôpital universitaire de Guseo pour pourvoir un poste vacant en chirurgie. Elle y fait ses preuves grâce à son talent et met en lumière les absurdités du milieu médical. Elle se lie d'amitié avec Bu Seung-Kwon, le directeur de l'hôpital, et l'interne Park Tae-Kyeong",
-      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:202297",
@@ -172,13 +154,31 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:226688",
+      "id": "tmdb:314271",
       "type": "series",
-      "name": "BEYBLADE X",
-      "poster": "https://image.tmdb.org/t/p/w500/66wkm14IWdrY5LaKZDAbkD2T9Jt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qAq9RBeHZoTMDFqQZ2o4cE5CJIQ.jpg",
-      "description": "Robin Kazami, blader débutant, s'associe à l'influenceuse Multi Nana-iro et à l'ancien champion Jaxon Cross pour former ce trio improbable, prêt à gravir les échelons du classement The X et à remporter le titre de champion blader !",
-      "releaseInfo": "2023"
+      "name": "Bass X Machina",
+      "poster": "https://image.tmdb.org/t/p/w500/y9c1AwrldWRsY9edSf21cOgbI0h.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gpp6NcgfSrxKDivWskRxLp9UadU.jpg",
+      "description": "Dans un Far West steampunk sous la coupe des hors-la-loi, des machines et de forces surnaturelles, un père de famille doit se faire juge, juré et bourreau pour protéger les siens.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:312949",
+      "type": "series",
+      "name": "Chainsmoker Cat",
+      "poster": "https://image.tmdb.org/t/p/w500/1OEYjA3bpPlXNPwV51WJhGWx8Mk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4ei68OmZr0XHnN82OjiV8GBqfyN.jpg",
+      "description": "Entre loyer impayé, emplois perdus et dépendance à la cigarette, Yani la fille-chatte doit repenser son avenir sous la pression de ses proches.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:256711",
+      "type": "series",
+      "name": "The Rainmaker",
+      "poster": "https://image.tmdb.org/t/p/w500/blbbFyOjgtlzs3uDzIjgM0tVULY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8ZJYKoCmRCdaMDArewEwg3Uy8Bg.jpg",
+      "description": "Fraîchement sorti de l'école de droit, Rudy Baylor est confronté au lion des salles d'audience Leo Drummond ainsi qu'à sa petite amie de l'école de droit, Sarah. Rudy, accompagné de son patron, Bruiser, et de l'assistante juridique échevelée de cette dernière, Deck, découvre deux conspirations liées à la mort mystérieuse du fils de leur client.",
+      "releaseInfo": "2025"
     }
   ]
 }

@@ -64,15 +64,6 @@
       "releaseInfo": "2009"
     },
     {
-      "id": "tmdb:302074",
-      "type": "series",
-      "name": "R.J. Decker",
-      "poster": "https://image.tmdb.org/t/p/w500/iNOXveSqB5tUTmGKxp5flQuQ72f.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uahJs4jteV8pfVXPlBgBzjmoqFa.jpg",
-      "description": "RJ Decker, photographe de presse et ancien détenu tombé en disgrâce, se lance en tant que détective privé dans le milieu criminel haut en couleur du sud de la Floride. Il s'attaque à des affaires aussi étranges que bizarres, avec l'aide de son ex journaliste, de sa femme, inspectrice de police, et d'une mystérieuse nouvelle bienfaitrice, une femme de son passé qui pourrait bien être sa plus grande alliée… ou son aller simple pour la prison.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:2035",
       "type": "series",
       "name": "20/20",
@@ -90,15 +81,6 @@
       "releaseInfo": "1963"
     },
     {
-      "id": "tmdb:295778",
-      "type": "series",
-      "name": "Scrubs",
-      "poster": "https://image.tmdb.org/t/p/w500/l1EzNg0WMaoAu7oPa2oMXLizc4W.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qkxgja3V0eSjQYX8oLKidRVJ2Md.jpg",
-      "description": "J.D. et Turk travaillent ensemble pour la première fois depuis longtemps. La médecine a changé, les internes ont changé, mais leur amitié a résisté à l'épreuve du temps. Les personnages, anciens et nouveaux, naviguent dans les eaux du Sacred Heart avec humour, émotion et quelques surprises en cours de route.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:284838",
       "type": "series",
       "name": "9-1-1: Nashville",
@@ -108,20 +90,21 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:103934",
+      "id": "tmdb:295778",
       "type": "series",
-      "name": "Who Wants to Be a Millionaire",
-      "poster": "https://image.tmdb.org/t/p/w500/s0iphaXxqU2chmBgZ0GpD9As4BN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3m3xHErJXZTRmUwwt4kaQNzzmnP.jpg",
-      "releaseInfo": "2020"
+      "name": "Scrubs",
+      "poster": "https://image.tmdb.org/t/p/w500/l1EzNg0WMaoAu7oPa2oMXLizc4W.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qkxgja3V0eSjQYX8oLKidRVJ2Md.jpg",
+      "description": "J.D. et Turk travaillent ensemble pour la première fois depuis longtemps. La médecine a changé, les internes ont changé, mais leur amitié a résisté à l'épreuve du temps. Les personnages, anciens et nouveaux, naviguent dans les eaux du Sacred Heart avec humour, émotion et quelques surprises en cours de route.",
+      "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:23318",
+      "id": "tmdb:114656",
       "type": "series",
-      "name": "The Daytime Emmy Awards",
-      "poster": "https://image.tmdb.org/t/p/w500/uBbdeUjskJa0ASfcO1B3JBb20tC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kJLwKqiRavPD73JwpUuuTpWZKNb.jpg",
-      "releaseInfo": "1974"
+      "name": "Celebrity Wheel of Fortune",
+      "poster": "https://image.tmdb.org/t/p/w500/pWKyup7doWk9AIeW6q9EXUmr61h.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vKk3womxcGLqOZLiGZ2aXA2PtOV.jpg",
+      "releaseInfo": "2021"
     }
   ]
 }

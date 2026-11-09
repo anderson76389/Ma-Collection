@@ -10,6 +10,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1654998",
+      "type": "movie",
+      "name": "R.L. Stine's Pumpkinhead 2",
+      "poster": "https://image.tmdb.org/t/p/w500/4liM7YBglVRk2UVuKsN7YQDmMpr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/osHkvmg97Trv1QHVW1WIObbN1pu.jpg",
+      "description": "Lorsqu'une nouvelle malédiction s'abat sur Redhaven, Sam et Becka unissent leurs forces pour en percer le mystère. Dans une course contre la montre, ils doivent stopper cette menace avant qu'elle ne fasse sombrer toute la ville.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1442908",
       "type": "movie",
       "name": "Les Chanteurs",

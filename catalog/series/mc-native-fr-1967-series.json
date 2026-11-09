@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:336916",
+      "type": "series",
+      "name": "Kat sauvage",
+      "poster": "https://image.tmdb.org/t/p/w500/92m6asWR8Q5jGwN6tdwb2LM07Xo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uxYGcDqO1PUtXSgqMTlsSiepMUv.jpg",
+      "description": "La vie d'Idris et Dimitri, deux ados sans histoire, bascule le jour où la famille d'Idris accueille Kat, une Wereling capable de se transformer en fille-chat ! Kat est une Traqueuse : elle a été envoyée à Paloma pour arrêter les Werelings qui utilisent leur transformation à des fins malveillantes. Ayant découvert le secret de Kat, Idris et Dimitri deviennent ses coéquipiers. Or, Kat a toujours du mal à s'adapter au monde complexe des humains, tandis que ses deux sidekicks improvisés ne sont pas vraiment taillés pour ce genre d'aventures. La mission du trio risque de se révéler plus mouvementée que prévu…",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:304977",
       "type": "series",
       "name": "Les Évaporés",
@@ -16,15 +25,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/tT1NseDiBUqQDQmobSHzqTp02Ps.jpg",
       "background": "https://image.tmdb.org/t/p/w780/wnwzPfGPyA1Kv536EQk6pmswJjw.jpg",
       "description": "Hugo, un garde du corps professionnel, traverse un divorce douloureux. Toujours épris de son ex-femme, il tente de préserver un lien avec ses enfants. Mais tout bascule le jour où il se rend à l’anniversaire de son fils : son ex-femme et leurs deux enfants sont kidnappés sous ses yeux.\n\nRapidement, l’enquête de police s’oriente vers Hugo, considéré comme le principal suspect. Accablé par les indices et menacé d’être incarcéré, il décide de s’évader pour retrouver sa famille. Dans sa fuite, il mène sa propre enquête et découvre des vérités troublantes sur la femme qu’il croyait connaître. Ce thriller psychologique et familial place Hugo dans une course contre la montre où chaque seconde compte.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:303542",
-      "type": "series",
-      "name": "Le Mystère de la chambre jaune",
-      "poster": "https://image.tmdb.org/t/p/w500/6ZPEgXqSHrKVCzieX4m8I6aCjWr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mRWOz8sgMQsVE2fXNXXshlKfwLS.jpg",
-      "description": "Jo, jeune journaliste, apprend avec stupeur qu'une tentative de meurtre a eu lieu dans son village natal, L'Artuby, niché dans les Gorges du Verdon. Elle est dévastée d'apprendre que la victime n'est autre que Mathilde, une proche amie d'enfance, qui est dans le coma depuis l'agression. Les circonstances du drame l'intriguent particulièrement : lorsqu'alertés par les cris, certains villageois sont parvenus à entrer dans la chambre de la victime, celle-ci s'y trouvait seule. La porte blindée était pourtant fermée et il n’y a aucune autre issue… Mais où a bien pu passer l'agresseur ?",
       "releaseInfo": "2026"
     },
     {

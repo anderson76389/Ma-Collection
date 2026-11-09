@@ -34,22 +34,6 @@
       "releaseInfo": "1983"
     },
     {
-      "id": "tmdb:1790",
-      "type": "series",
-      "name": "Family Feud",
-      "poster": "https://image.tmdb.org/t/p/w500/2eY3KyYvvjg2jn2ifTGkwdipCAC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zhLrML5jLVIlln5QFZdYHgtmFXr.jpg",
-      "releaseInfo": "1999"
-    },
-    {
-      "id": "tmdb:291431",
-      "type": "series",
-      "name": "The Celebrity Traitors",
-      "poster": "https://image.tmdb.org/t/p/w500/uziPOqxQotCE9g0wBgDvHCOvRhP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/76BNYD6gBrZPWH4axZH8rEpeyLW.jpg",
-      "releaseInfo": "2025"
-    },
-    {
       "id": "tmdb:92611",
       "type": "series",
       "name": "RuPaul's Drag Race UK",
@@ -57,6 +41,14 @@
       "background": "https://image.tmdb.org/t/p/w780/7fsT1NnmNbden0mptoVinBNp4ih.jpg",
       "description": "RuPaul a fait le voyage à travers l'étang à la recherche d'une reine avec le plus de charisme, d'unicité, de nerf et de talent de tout le pays.",
       "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:1790",
+      "type": "series",
+      "name": "Family Feud",
+      "poster": "https://image.tmdb.org/t/p/w500/2eY3KyYvvjg2jn2ifTGkwdipCAC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zhLrML5jLVIlln5QFZdYHgtmFXr.jpg",
+      "releaseInfo": "1999"
     },
     {
       "id": "tmdb:114439",
@@ -92,14 +84,6 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:103934",
-      "type": "series",
-      "name": "Who Wants to Be a Millionaire",
-      "poster": "https://image.tmdb.org/t/p/w500/s0iphaXxqU2chmBgZ0GpD9As4BN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3m3xHErJXZTRmUwwt4kaQNzzmnP.jpg",
-      "releaseInfo": "2020"
-    },
-    {
       "id": "tmdb:97867",
       "type": "series",
       "name": "Family Feud Canada",
@@ -118,12 +102,20 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:116129",
+      "id": "tmdb:231730",
       "type": "series",
-      "name": "Lingo",
-      "poster": "https://image.tmdb.org/t/p/w500/a06fDRQsDOatU8tfs7GvdIDx0JS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6f6ZeGZK9p11d6v5gpFwkbkrfXF.jpg",
-      "releaseInfo": "2021"
+      "name": "The Floor",
+      "poster": "https://image.tmdb.org/t/p/w500/p2jQNn7fhl9PpjaowmxmdDwTYIl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cHznGpISn6Uxy9EyLel5eX7WrXG.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:239962",
+      "type": "series",
+      "name": "Deal Or No Deal",
+      "poster": "https://image.tmdb.org/t/p/w500/mra0cGasvbJHQuB3WikfeI98fFj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hX3W0mT9QU0gEfB8xwgz6oavjLG.jpg",
+      "releaseInfo": "2023"
     },
     {
       "id": "tmdb:261107",
@@ -148,22 +140,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/yhnpqfTJxjSktkVltzqC88KftOz.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ktgr4eSQpKCVeP2ExoiVDZsWwgV.jpg",
       "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:300062",
-      "type": "series",
-      "name": "Win Win",
-      "poster": "https://image.tmdb.org/t/p/w500/p03gsgFMEoPVfp1Wv0S7Ai4qlZQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/84TmeoKghcb9BtcT0Mixc2NXEb2.jpg",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:339785",
-      "type": "series",
-      "name": "Bradley Walsh's Million Pound Shot",
-      "poster": "https://image.tmdb.org/t/p/w500/cI8rZm7x3QyIyRtXtfyVBOvt27K.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/afu1wT4KyV8NeCfU0JPGQoNBqcH.jpg",
-      "releaseInfo": "2026"
     }
   ]
 }

@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:1402181",
+      "type": "movie",
+      "name": "சீன்",
+      "poster": "https://image.tmdb.org/t/p/w500/1vjVJKpdT6gha7cpkmDJODpk8mU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zYiUafcGC7JqK01GYbkimBYNaUR.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1234139",
       "type": "movie",
       "name": "ஜெயிலர் 2",
@@ -21,7 +29,7 @@
       "type": "movie",
       "name": "டோரதி",
       "poster": "https://image.tmdb.org/t/p/w500/o3r5DmWhOKdFmeIUoRJj4CvCqOP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fPByMSinDUlJ05pMVw2sbqYF6Ew.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wlJmF47IHYwzVpG1qA6aYA0UHj.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -29,7 +37,7 @@
       "type": "movie",
       "name": "மண்டாடி",
       "poster": "https://image.tmdb.org/t/p/w500/jLVMvJAmnVRo2lzbqtGiecLzPLy.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dJ4sqrmX2KviF8HBKlLrDedUhnh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xO0YZ1zKFSSpM7dIsvssWKabp6J.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -153,14 +161,6 @@
       "name": "29",
       "poster": "https://image.tmdb.org/t/p/w500/aQZ4OxzaYTN7cRN7fALi9BhPucp.jpg",
       "background": "https://image.tmdb.org/t/p/w780/gzOamXAMuBpWFcCitMdEoAVAjCf.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1433117",
-      "type": "movie",
-      "name": "கர",
-      "poster": "https://image.tmdb.org/t/p/w500/uIrFdMWlJFdc1jPBP9bxeaISCDj.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/e5IdZ1OEWMYxTeu51tI67gXvfpn.jpg",
       "releaseInfo": "2026"
     }
   ]

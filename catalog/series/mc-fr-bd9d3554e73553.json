@@ -19,12 +19,29 @@
       "releaseInfo": "2012"
     },
     {
+      "id": "tmdb:227521",
+      "type": "series",
+      "name": "The UnBelievable with Dan Aykroyd",
+      "poster": "https://image.tmdb.org/t/p/w500/wCdcmyYICMZ4oceqiNraSztTJn6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AfIZmPmhqO1AX1ZopEDoCaNAVGO.jpg",
+      "description": "Chaque épisode ouvre les portes d’un cabinet de curiosités pour dévoiler les histoires les plus étranges – mais vraies – de l’histoire de l’humanité, mises en scène grâce à des reconstitutions dynamiques, des graphismes captivants et des images d’archives saisissantes. De la grande inondation de mélasse de Boston à cet homme qui a survécu à la foudre non pas une fois, ni deux, mais SEPT fois, ces récits qui semblent invraisemblables ont tous réellement eu lieu, et notre équipe d’experts se plonge dans les archives historiques pour vous expliquer comment et pourquoi.",
+      "releaseInfo": "2023"
+    },
+    {
       "id": "tmdb:111633",
       "type": "series",
       "name": "Secrets in the Ice",
       "poster": "https://image.tmdb.org/t/p/w500/fL4i7hI0NqdOMlCkYpG2WZmMMnP.jpg",
       "background": "https://image.tmdb.org/t/p/w780/bGQ6PDbomri6pFz7g1oKHpqIm9t.jpg",
       "releaseInfo": "2020"
+    },
+    {
+      "id": "tmdb:236416",
+      "type": "series",
+      "name": "The UnXplained Special Presentation",
+      "poster": "https://image.tmdb.org/t/p/w500/8IpSSy2edEBWRTppUJ6rF6KgxDl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A3Vs4LjkCts9iC7mi218edu8q2D.jpg",
+      "releaseInfo": "2023"
     }
   ]
 }

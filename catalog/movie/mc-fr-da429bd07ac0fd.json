@@ -28,6 +28,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1469930",
+      "type": "movie",
+      "name": "Projet Sacrifice",
+      "poster": "https://image.tmdb.org/t/p/w500/wdOa8jWX8u1YNSlWyRvoNCc9y7S.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/k3Nc57fdRkzleHjodta45mGJV2C.jpg",
+      "description": "21 personnes qui disparaissent une à une lors d'un chantier de construction. On dit qu'ils sont sacrifiés pour assurer le bon déroulement du projet. Y a-t-il un lien avec la magie noire ?",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1630423",
       "type": "movie",
       "name": "My Dearest Assassin",
@@ -161,14 +170,6 @@
       "name": "Agak Laen: Menyala Pantiku!",
       "poster": "https://image.tmdb.org/t/p/w500/2Jzfr9XdJ7o3TWecHUMOWoFGUXg.jpg",
       "background": "https://image.tmdb.org/t/p/w780/AvYsEYnj8h0495UhBYEXqK7hkFo.jpg",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1420270",
-      "type": "movie",
-      "name": "Keadilan",
-      "poster": "https://image.tmdb.org/t/p/w500/aE7WNfgSN19aSp9amWYfqm8bpOp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9IAJbkT8dGfE32xzPlRs4iIczLB.jpg",
       "releaseInfo": "2025"
     }
   ]

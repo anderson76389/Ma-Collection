@@ -12,7 +12,7 @@
       "id": "tmdb:1437696",
       "type": "movie",
       "name": "Ojczyzna",
-      "poster": "https://image.tmdb.org/t/p/w500/7VjwmvDG5mksJBXMcmK6PudqH88.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/z8qlHO94lYIsZ7EKS4FVe6TwsGo.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zKoBjLggS4v22a9ZiCvmLaZrht7.jpg",
       "description": "En 1949, Thomas Mann, lauréat du prix Nobel de littérature, retourne pour la première fois en Allemagne depuis la fin de la guerre, accompagné de sa fille Erika, actrice, écrivain et pilote de rallye. Au volant d'une Buick noire, ils entreprennent un voyage éprouvant dans un pays qu’ils ont fui, seize ans plus tôt, lors de la prise de pouvoir du parti nazi. De Francfort, sous domination américaine, jusqu’à Weimar, contrôlée par les Soviétiques, père et fille traversent une Allemagne en ruines, coupée en deux par la guerre froide.",
       "releaseInfo": "2026"
@@ -42,6 +42,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/5vzcdDFYT8GRusHtbbmuRbL9WdQ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/aAATtv1ZowFBBPH6ipgQtaw1ao9.jpg",
       "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1416589",
+      "type": "movie",
+      "name": "Brat",
+      "poster": "https://image.tmdb.org/t/p/w500/fhrJYQ1EuPGXqG4B4lqnUYP0TFZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xlDLKxpVBja48g4jRuMkzKkF4Jn.jpg",
+      "releaseInfo": "2025"
     },
     {
       "id": "tmdb:1383172",
@@ -159,14 +167,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/sRw9uTdx9tz3z2sEh3Dp12kjV8d.jpg",
       "background": "https://image.tmdb.org/t/p/w780/7KamSkv9XsFqVkL2LectqrKnoRA.jpg",
       "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1251026",
-      "type": "movie",
-      "name": "To nie mój film",
-      "poster": "https://image.tmdb.org/t/p/w500/pcdZsBZGB6tkLcBI8VpSmGt3I8a.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qQRZPX24ax2mNRRU2LdJxdi1PDt.jpg",
-      "releaseInfo": "2024"
     }
   ]
 }

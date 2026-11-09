@@ -1,15 +1,6 @@
 {
   "metas": [
     {
-      "id": "tmdb:57532",
-      "type": "series",
-      "name": "La Pat' Patrouille",
-      "poster": "https://image.tmdb.org/t/p/w500/nw2jRlCbBapEsRAMtsLONBbqXxp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7OrV2aAH5Yp7hA9zCCvUloLvZtl.jpg",
-      "description": "La Pat’ Patrouille compte six chiots héroïques qui répondent aux noms de Chase, Marcus, Rocky, Ruben, Zuma, et Stella. Ils sont menés par Ryder, un garçon de 10 ans féru de technologie. Tous ensemble, ils vivent des aventures palpitantes pour protéger la communauté de la Grande Vallée. La devise de Ryder ? « Aucune mission n'est trop dure car mes amis, ils assurent ! »",
-      "releaseInfo": "2013"
-    },
-    {
       "id": "tmdb:68073",
       "type": "series",
       "name": "Bienvenue chez les Loud",
@@ -26,6 +17,24 @@
       "background": "https://image.tmdb.org/t/p/w780/kP7pCxfml6erWC9aB72ALtNawJq.jpg",
       "description": "Patrick anime sa propre émissions dans sa maison familiale, avec le soutien de toute sa famille.",
       "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:387",
+      "type": "series",
+      "name": "Bob l'éponge",
+      "poster": "https://image.tmdb.org/t/p/w500/uUUzblARnPSjgqIGnrp799I13X2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/f3f5OzzYd8m3zN47DAjKs0sbx00.jpg",
+      "description": "Qui vit dans un ananas sous la mer ? Bob l'éponge bien sûr ! Suivez les aventures de cette éponge rigolote et de ses amis dont les bonnes intentions finissent toujours par leur attirer des ennuis. Heureusement, l'innocence et l'optimisme de Bob l'éponge les sauvent à chaque fois. Car on ne s'ennuie jamais à « Bikini Bottom ».",
+      "releaseInfo": "1999"
+    },
+    {
+      "id": "tmdb:214875",
+      "type": "series",
+      "name": "Ruben & cie",
+      "poster": "https://image.tmdb.org/t/p/w500/trcqt0g3NczUiIsxgYcRvE6QbBi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5SWWe369D4Fjs2RDVhMagNJLlps.jpg",
+      "description": "Les aventures de Ruben et de ses amis ont lieu dans une petite ville en plein essor, Bricoville. De nouveaux habitants arrivent tous les jours. Ils peuvent compter sur Ruben et sa famille de constructeurs !",
+      "releaseInfo": "2023"
     }
   ]
 }

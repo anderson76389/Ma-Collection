@@ -9,6 +9,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1805036",
+      "type": "movie",
+      "name": "Zombies - La fascination des morts-vivants",
+      "poster": "https://image.tmdb.org/t/p/w500/lSkBWGvPInLgguDlA3YBtZHgOic.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fVKwLtuQIYrGx0S5KEUif2ZBS1F.jpg",
+      "description": "Parce qu'ils nous captivent autant qu'ils nous effraient, les zombies ont colonisé nos angoisses les plus profondes. Retour sur l'histoire de ces hordes sauvages qui, de près ou de loin, nous ressemblent quand même furieusement. Frissons garantis.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1788123",
       "type": "movie",
       "name": "Monet et les nymphéas, l'éternité retrouvée",
@@ -157,15 +166,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/iWJ5NoQWH9sYah5OF0W6KV8pP8X.jpg",
       "background": "https://image.tmdb.org/t/p/w780/iL3Ls3fX4ikPrfBJdCfVBVC63KI.jpg",
       "description": "Dans une maison de campagne, Paula entraîne sa mère dans une expérience écologique nocturne.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1416903",
-      "type": "movie",
-      "name": "Casi septiembre",
-      "poster": "https://image.tmdb.org/t/p/w500/6G1AnqPoqFfYkY7FBFpd2VmxJ5R.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2fKtqx5AGFiFPkJ0kz7Rd3hwtRj.jpg",
-      "description": "Alejandra, une jeune femme vivant avec sa famille dans un camping d'une ville balnéaire, partage son quotidien entre routine et amours éphémères. Une nuit, sa rencontre avec Amara, une jeune citadine à l'aura mystérieuse, bouleverse son monde.",
       "releaseInfo": "2025"
     }
   ]

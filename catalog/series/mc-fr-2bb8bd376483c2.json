@@ -10,6 +10,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:252105",
+      "type": "series",
+      "name": "Golden Axe",
+      "poster": "https://image.tmdb.org/t/p/w500/lQxGHqmYA6VMSkdnOnFC5P0dO0g.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zOcEo3oQf9KDPPxZueNhReN6TBr.jpg",
+      "description": "Trois célèbres guerriers tentent de sauver le royaume de Yuria des attaques d'un géant maléfique. Leur noble quête est perturbée par un aventurier débutant et maladroit.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:300480",
       "type": "series",
       "name": "Ricky Gervais Alley Cats",
@@ -168,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/4arTlVw8oceZDOhGv9GFrgGztUq.jpg",
       "background": "https://image.tmdb.org/t/p/w780/lqsufP0yMhQ04SZx3ZlXTay4whw.jpg",
       "description": "Une mère célibataire reprend l'hôtel qu'elle a hérité de son frère décédé, et doit vivre avec son fantôme bienveillant... et des clients exigeants qui ne quitteront jamais les lieux.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:262375",
-      "type": "series",
-      "name": "Long Story Short",
-      "poster": "https://image.tmdb.org/t/p/w500/22nh2kTuFpitrqTxxixhWjxEqFa.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/eqZjZGHa1mZYBPHUHOX2LSzzCsS.jpg",
-      "description": "Le créateur de \"BoJack Horseman\" signe cette comédie d'animation qui suit la vie d'une famille sur plusieurs années, de l'enfance à l'âge adulte et inversement.",
       "releaseInfo": "2025"
     }
   ]

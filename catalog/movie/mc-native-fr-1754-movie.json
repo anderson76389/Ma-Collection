@@ -21,7 +21,7 @@
       "id": "tmdb:1789826",
       "type": "movie",
       "name": "Confessions d'une accro à Noël",
-      "poster": "https://image.tmdb.org/t/p/w500/lLuWqLNkVyWVbV5rtle5cK5yoWA.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/rzByMC9x3FdKp4u4DrThqyLxQpY.jpg",
       "background": "https://image.tmdb.org/t/p/w780/9ApCYxqPSr9OKuxaCeNMxuo4wnd.jpg",
       "description": "Mélanie Patterson est une passionnée des fêtes de fin d'année, qui met une petite touche de Noël, dans tous les évènements qu'elle organise. Son seul problème : elle dépense toujours trop... Ce qui lui vaut de perdre son emploi. Elle décide alors de se mettre à son compte et de lancer sa nouvelle carrière, à l'occasion du réveillon qu'elle organise chaque année pour tous les habitants de son quartier.",
       "releaseInfo": "2026"
@@ -97,6 +97,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1592343",
+      "type": "movie",
+      "name": "Il faut sauver le marché de Noël",
+      "poster": "https://image.tmdb.org/t/p/w500/i8fpddaXHEgIdquaSxIxBq56lsN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zBwsD2JQV6eLnxNyIpFzY97X8NI.jpg",
+      "description": "Olivia est une artiste passionnée et profondément attachée aux traditions de sa ville, en particulier à son marché de Noël, un lieu emblématique qui rassemble les habitants chaque année dans une atmosphère chaleureuse et féerique. Mais cette année, la magie des fêtes est menacée par un projet immobilier qui risque de faire disparaître ce rendez-vous incontournable. Bien décidée à défendre ce qui lui tient à cœur, Olivia se lance dans une véritable bataille pour préserver l'esprit de Noël et l'âme de sa ville. Sur son chemin, elle rencontre Grayson, un architecte étroitement lié au projet qui menace le marché. Malgré leurs intérêts opposés, une complicité inattendue commence peu à peu à s'installer entre eux.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1727577",
       "type": "movie",
       "name": "La recette des vacances parfaites",
@@ -166,15 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/xBImJpDHty1ywGbUdTyEc8qdztn.jpg",
       "background": "https://image.tmdb.org/t/p/w780/u9pAygFe3cfeh3O2yMGm3X41rgl.jpg",
       "description": "Emma et Ethan sont meilleurs amis et étudiants en psychologie. Ils admirent tous les deux le grand professeur Jackson qu'Andrea, la mère d'Ethan, a hâte de rencontrer. Mais l'opinion d'Andrea va être tout autre que celle des deux jeunes gens. Et lorsqu'Emma trouve la mort au domicile de Jackson, Andrea se met à avoir de sérieux soupçons à son sujet. Elle tente alors d'alerter à la fois la police et son fils, mais l'aura de Jackson est telle que, malgré les actes d'intimidation dont elle devient la victime, elle peine à se faire entendre. Qu'importe, elle n'abandonnera pas. D'autant moins qu'Ethan semble aspiré dans le vortex maléfique de Jackson.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1118593",
-      "type": "movie",
-      "name": "Une Fugue",
-      "poster": "https://image.tmdb.org/t/p/w500/bGKXUlRzjvCwFu8CHVoAy0a0amR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4aY8eaimNsQSqjDabwcSan04x7n.jpg",
-      "description": "Une nuit d’été, dans une maison rouge aux volets bleus, bordée par la forêt. On entend le murmure de la rivière depuis la chambre où la petite sœur, âgée de quatre ans, réveille son frère, âgé de dix ans. Car elle en a décidé ainsi : ce soir, ils iront se baigner. Par la fenêtre ouverte, les deux enfants se glissent dans l’obscurité. Ils se faufilent entre les fleurs, les ronces, les arbres… Et enfin, l’eau, le reflet des étoiles, leurs deux corps au repos. Mais au loin, l’orage gronde. Il faut déjà rentrer. Frère et Sœur marchent main dans la main. Soudain, Frère disparaît. Sœur se lance à sa poursuite, s'essouffle, tourne en rond, se désespère. Est-ce un jeu de cache-cache? Une ruse de la forêt? Ou est-ce sa mémoire qui, des années plus tard, lui joue un tour cruel?",
       "releaseInfo": "2026"
     }
   ]

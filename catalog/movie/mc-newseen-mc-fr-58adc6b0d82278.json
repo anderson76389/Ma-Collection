@@ -1,99 +1,103 @@
 {
   "metas": [
     {
-      "id": "tmdb:442260",
+      "id": "tmdb:16266",
       "type": "movie",
-      "name": "Clémentine chérie",
-      "poster": "https://image.tmdb.org/t/p/w500/lWk5S7fxgKVuNIeoVIWiUthlM2k.jpg",
-      "description": "Une découverte de laboratoire (cette découverte permet de fabriquer des vêtements de bains extensibles et surtout perméables aux rayons de soleil) change la fortune d'un brave employé d'une usine de textiles.",
-      "releaseInfo": "1964"
+      "name": "2012 : La Prophétie",
+      "poster": "https://image.tmdb.org/t/p/w500/rNHdpeyBUki4n5tzEdEri5elJBq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7Z5OHKXF0j06Wtm1dLSz7orY7jT.jpg",
+      "description": "Quatre étrangers sont appelés le 21 décembre 2012 vers un temple antique situé au coeur du Mexique. Pour les Mayas, il correspond au dernier jour. Pour les scientifiques de la NASA il s'agit d'un changement cataclysmique polaire. Pour le reste d'entre nous, c'est un jour sombre...",
+      "releaseInfo": "2008"
     },
     {
-      "id": "tmdb:79387",
+      "id": "tmdb:145738",
       "type": "movie",
-      "name": "Charlots Connection",
-      "poster": "https://image.tmdb.org/t/p/w500/8G9P69lUdG5D5JWsmnRD7qoyBR7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/oJzEOu8e9EG5dsbCp9M6mTlxH8s.jpg",
-      "description": "Les Charlots toujours a l'affût d'un bon job acceptent une nouvelle situation de receveurs-encaisseurs de loyers pour le compte d'un riche propriétaire. Ils ignorent qu'une concurrente violente a juré leur perte, le plus rapidement possible et par les moyens les plus expéditifs...",
-      "releaseInfo": "1984"
+      "name": "L'Arche de l'apocalypse",
+      "poster": "https://image.tmdb.org/t/p/w500/p3vh3919XsV0wEcRjZHUfP2d95Z.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zj7d7oH79LwICxl90rwXTyDRtbH.jpg",
+      "description": "Suite à un important séisme, une plaque tectonique provoque un véritable soulèvement des océans. Pour faire face à la panique, l'armée américaine décide de construire une arche pour préserver la vie sur Terre.",
+      "releaseInfo": "2012"
     },
     {
-      "id": "tmdb:241188",
+      "id": "tmdb:367544",
       "type": "movie",
-      "name": "Atomic Apocalypse",
-      "poster": "https://image.tmdb.org/t/p/w500/gNS2NkteaaN5d9V0FjUT3xnULIp.jpg",
-      "description": "Une très grande multinationnale a mis au point le collisionneur le plus puissant jamais construit. Alors que les soldats testent son efficacité, des dysfonctionnements apparaissent pendant les premières utilisations et les conséquences pourraient être catastrophiques ! En effet, un trou noir serait sur le point de se créer et d'engloutir la Terre...",
-      "releaseInfo": "2013"
+      "name": "Les Douze Coups de Noël",
+      "poster": "https://image.tmdb.org/t/p/w500/hkdXdQsBleCfwEVnK7vTf5oSZcp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uwnAbCfrxDeWKqxAMas6ZnmAqfQ.jpg",
+      "description": "Daniel Jacob Forsythe, mort en 1920, hante l’auberge familiale qui doit être vendue après la mort de la dernière héritière. Kate Jordan, l’avocate chargée du dossier et de faire évaluer l’auberge, se rend sur place. Comment pouvoir faire évaluer cette auberge alors que tous les experts immobiliers fuient dès qu’ils perçoivent la présence de ce fantôme ? Mais ce fantôme, qui se prénomme Daniel, n’est pas un fantôme comme les autres, car, douze jours par an, tous les ans depuis 95 ans, du 13 au 24 décembre au soir, il redevient humain. La jolie et séduisante avocate Kate Jordan a donc douze jours pour percer ce mystère afin de pouvoir boucler son dossier et mettre l’auberge en vente.",
+      "releaseInfo": "2015"
     },
     {
-      "id": "tmdb:489138",
+      "id": "tmdb:747550",
       "type": "movie",
-      "name": "À cœurs perdus",
-      "poster": "https://image.tmdb.org/t/p/w500/l2fcfdo1lO6YiJAoKuF7IV25i8P.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yBA1EyEzEqZWhZQDJsO12ENAiUg.jpg",
-      "description": "Après la Seconde Guerre mondiale, une jeune femme issue d'un milieu bourgeois choisit contre l'avis de sa famille de se marier avec un ancien combattant. Suite à l'opprobre suscitée par sa décision, elle décide de tout quitter pour démarrer avec son mari une nouvelle vie à la campagne.",
-      "releaseInfo": "2018"
+      "name": "Apocalypse of Ice",
+      "poster": "https://image.tmdb.org/t/p/w500/p2FX8eTLkUsIYXiGTwVjsHuEWPC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6NTn22P5yInA21Gz1ldeaQvn5iD.jpg",
+      "description": "Alors que l'humanité est victime d'une pandémie virale, un gigantesque vortex polaire commence à geler la planète. Quand est découvert un lieu épargné de l'apocalypse de glace à 100 miles des côtes près de l'équateur, un virologiste en possession de l'unique remède contre la pandémie a 24h pour rejoindre le refuge et sauver l'humanité...",
+      "releaseInfo": "2020"
     },
     {
-      "id": "tmdb:663565",
+      "id": "tmdb:149722",
       "type": "movie",
-      "name": "Food",
-      "poster": "https://image.tmdb.org/t/p/w500/e8mjf6TyjNcjOjx5mSAlhqnXJLg.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hhgTCzrwaNWcjPIDUfHDggVLMy6.jpg",
+      "name": "Les 12 plaies de l'apocalypse",
+      "poster": "https://image.tmdb.org/t/p/w500/ixqVj4O0n2FtlDgBTjMFFcOJ2EJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/84nPyLiSzeJEGqEpz8xcMQagbmD.jpg",
+      "description": "Durant la nuit de Noël, une mystérieuse étoile noire fait son apparition dans le ciel de la petite ville de Calvary. Chacun se demande si elle est annonciatrice du Jugement dernier. Tout porte à le croire : tremblements de terre et autres catastrophes naturelles commencent à ravager la planète...",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:285135",
+      "type": "movie",
+      "name": "Les 12 signes de l'apocalypse",
+      "poster": "https://image.tmdb.org/t/p/w500/52WVJHhTm8srefA3UcOumj7AoR7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hUH2J6XNG8nFXAAidHqKEIGbREp.jpg",
+      "description": "Elisabeth, conservatrice d'antiquités dans une université, est ravie de recevoir un nouvel artefact vieux de 2000 ans dans sa collection. Elle ne sait pas encore que cet objet possède des forces mystiques mortelles menaçant de détruire toute l'humanité ...",
       "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:881460",
+      "id": "tmdb:445224",
       "type": "movie",
-      "name": "Planet Dune",
-      "poster": "https://image.tmdb.org/t/p/w500/jfwiRPxAoyH25ypikcSuyJhYOA6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3BBwgGaZmM8KqEdCqovoTwLQHBY.jpg",
-      "description": "Un équipage en mission pour sauver une base abandonnée sur une planète désertique devient mortel lorsque l'équipage se retrouve chassé et attaqué par les prédateurs suprêmes de la planète : les vers de sable géants.",
-      "releaseInfo": "2021"
-    },
-    {
-      "id": "tmdb:46575",
-      "type": "movie",
-      "name": "Race",
-      "poster": "https://image.tmdb.org/t/p/w500/6nS10SRYBiZzFJ0UsWQrFEtNPUm.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/umCwC8okP64P0YxDsjpSKfnMl8H.jpg",
-      "releaseInfo": "2007"
-    },
-    {
-      "id": "tmdb:1089345",
-      "type": "movie",
-      "name": "Megaquake",
-      "poster": "https://image.tmdb.org/t/p/w500/hmNWDG7BjybCi0EWTcEJufRlToX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/iTlnWVXfSHgLKtp1LvtT6Ua0HdU.jpg",
-      "description": "Après une série de secousses semant la terreur dans toute la ville, un séisme d'une magnitude jamais atteinte dans l'histoire menace Los Angeles. Une équipe d'experts des services d'urgences et des catastrophes converge vers l'épicentre prévu. Ils s'engagent dans ce dangereux périple, travaillant sans relâche pour sauver autant de vies que possible avant que la ville ne soit rayée de la carte.",
-      "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:182228",
-      "type": "movie",
-      "name": "100° Below Zero",
-      "poster": "https://image.tmdb.org/t/p/w500/3Rn8URwo4qJc86KORTDcMl8PXhu.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xJlrnsDBMKgIGpSmcgnhVPdK8xO.jpg",
-      "description": "Quand des éruptions volcaniques touchent l'Europe, un énorme nuage de cendres cache le soleil et plonge le continent dans une nouvelle ère glacière. Un couple d'Américains part pour Paris, afin d'y rejoindre ses enfants et de les ramener chez eux avant l'inévitable.",
-      "releaseInfo": "2013"
-    },
-    {
-      "id": "tmdb:254188",
-      "type": "movie",
-      "name": "At the Devil's Door",
-      "poster": "https://image.tmdb.org/t/p/w500/9Eo9Z8KdXRnP9NETM3bxXy078zc.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/u9okrvmPADlGSTtpRMGrkKd2Q63.jpg",
-      "description": "Leigh, jeune et ambitieuse agente immobilière, est chargée de vendre la maison d'un couple mystérieux. Alors qu'elle travaille dur pour trouver des acheteurs, elle rencontre la fille des propriétaires, une jeune femme perturbée... Lorsque Leigh essaie de l'aider, elle se trouve piégée par une force surnaturelle aux intentions bien sombres...",
-      "releaseInfo": "2014"
-    },
-    {
-      "id": "tmdb:489184",
-      "type": "movie",
-      "name": "Out of the Wild",
-      "poster": "https://image.tmdb.org/t/p/w500/yjNHRI9XHvCejL83lEUwsb2y2pk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4fAddWmj9kahVf7po5QRht5NFHX.jpg",
-      "description": "L'histoire d'Henry McBride, un cow-boy sans le sou au passé douloureux qu'il ne parvient pas à noyer dans l'alcool. Vivant avec ses derniers dollars et sans endroit où aller, il finit par travailler dans le dernier endroit où un vieux cow-boy voudrait se retrouver : un ranch touristique. C'est là qu'il rencontre la propriétaire, Jessie King, une éleveuse pragmatique qui aime profondément les chevaux. La découverte de soi de McBride commence lorsqu'elle lui fait découvrir une nouvelle façon de dresser un mustang perturbé, un cheval dont le passé et le tempérament reflètent les siens.",
+      "name": "Mission Eagle",
+      "poster": "https://image.tmdb.org/t/p/w500/v6xbimngGMkTz72AIBa9pNB8BKE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/g0CkmVYQzGcquK5Y2Uo62UrUjbu.jpg",
+      "description": "Infiltré dans le QG d’une dangereuse Triade, un policier, Lin Kay, va devenir lui-même toxicomane afin de gagner la confiance de Eagle, le baron de la drogue. Il va découvrir qu’ils détiennent en otage depuis plusieurs années un ancien policier porté disparu. Sa mission : démanteler le trafic, et sauver son co-équipier tout en luttant contre son addiction…",
       "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:236417",
+      "type": "movie",
+      "name": "De l'amour pour Noël",
+      "poster": "https://image.tmdb.org/t/p/w500/q6VCRCPYpOvoLh4noG5OWbCrNts.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vBRdYeKcFm5TLlLTo3FGuofTbjd.jpg",
+      "description": "Metteur en scène avec Broadway pour tout rêve, Heather produit une pièce de Dickens au moment où elle apprend qu'elle est embauchée par un théâtre new-yorkais. Sur place, elle retrouve Bobby, un amour de jeunesse, qui rentre d'une longue mission au service de la marine.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:319995",
+      "type": "movie",
+      "name": "El club",
+      "poster": "https://image.tmdb.org/t/p/w500/iz7YMQUFmxONJiBso8So8ESnR4p.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xfLMCz9I9HMFMUwKwPYKipv33in.jpg",
+      "description": "Dans une ville côtière du Chili, des prêtres marginalisés par l’Eglise vivent ensemble dans une maison. L’arrivée d’un nouveau pensionnaire va perturber le semblant d’équilibre qui y règne.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:466421",
+      "type": "movie",
+      "name": "Camping, Love and Therapy",
+      "poster": "https://image.tmdb.org/t/p/w500/kmokEVZDkn9bofvJ0KjANtfZf5E.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r1vVa9oFmimicKe8u1itUMTIwHA.jpg",
+      "description": "Pour sauver son mariage, Jack Spencer, ancien écrivain à succès, accepte de partager une escapade amoureuse avec sa femme Amanda, à la recherche de l'étincelle qui ravivera leur couple. Mais à leur arrivée, ils découvrent que l'endroit qu'ils avaient réservé a été loué en même temps à un couple de hippies en lune de miel et à un beau gosse célibataire. Les vacances en amoureux se transforment alors en aventure rocambolesque.",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:511343",
+      "type": "movie",
+      "name": "Tomb Invader",
+      "poster": "https://image.tmdb.org/t/p/w500/7v3zIxllgISAEqKviE0fWUsbbCv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tQW5cNNclBco7GKINpoBTDweyuC.jpg",
+      "description": "Avec des promesses de trésors indicibles, deux aventuriers modernes s'associent pour pénétrer dans l'ancienne tombe de Quin Shi Haung et empêcher un fou de libérer le mercure emprisonné à l'intérieur.",
+      "releaseInfo": "2018"
     }
   ]
 }

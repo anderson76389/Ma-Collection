@@ -1,6 +1,22 @@
 {
   "metas": [
     {
+      "id": "tmdb:329315",
+      "type": "series",
+      "name": "Rise of the Rockstar Chef",
+      "poster": "https://image.tmdb.org/t/p/w500/vw5H9XzUvaQteIO1OosgzsZtrH1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ytC8n1iAd1e3hMuZTlpYcX7pqXk.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:208929",
+      "type": "series",
+      "name": "Blue Planet III",
+      "poster": "https://image.tmdb.org/t/p/w500/3K7dHJvcGy8RJNh46xZJcLmwfSJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fNRe0krrGlxrmtXC8lNOOsEV2eY.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:328674",
       "type": "series",
       "name": "The Northumbria Mysteries",
@@ -144,23 +160,6 @@
       "name": "Crookhaven",
       "poster": "https://image.tmdb.org/t/p/w500/9mmJrXEBlLKtR7ccTl4Qnw99fci.jpg",
       "background": "https://image.tmdb.org/t/p/w780/4Ly3onUWWPBH2gfmK2EOgI1thJx.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:273866",
-      "type": "series",
-      "name": "The Other Bennet Sister",
-      "poster": "https://image.tmdb.org/t/p/w500/esU4D2XSA7hNHC8G2bmMkvX5g5H.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ff6y85mMOnsLPcgUS0q3zX1N7WO.jpg",
-      "description": "Mary n'est pas l'héroïne typique des drames historiques. Elle est maladroite, anxieuse, moralisatrice, érudite, une piètre chanteuse, ignorée par sa mère et apparemment condamnée à une vie de célibataire endurcie… jusqu'à ce que Mary prenne les choses en main.\n\nAdaptée du roman de Janice Hadlow, la série The Other Bennet Sister reprend l’univers d’Orgueil et Préjugés pour donner enfin la vedette à Mary Bennet. Longtemps reléguée à l’arrière-plan face à Elizabeth et Jane.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:315110",
-      "type": "series",
-      "name": "The Claudia Winkleman Show",
-      "poster": "https://image.tmdb.org/t/p/w500/tsat2BoHQsx13BzYR6J1eI8WM0E.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/x20sGCxZR51taOtbyElelE4htCB.jpg",
       "releaseInfo": "2026"
     }
   ]

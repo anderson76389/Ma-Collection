@@ -63,6 +63,15 @@
       "releaseInfo": "2025"
     },
     {
+      "id": "tmdb:1428210",
+      "type": "movie",
+      "name": "One Hit Wonder",
+      "poster": "https://image.tmdb.org/t/p/w500/kdHEtyOoB8cyFDwqFMMGK1q0RlM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/99yYnWssK8v67jbin9vosSysnhT.jpg",
+      "description": "Quand les grands rêves rencontrent les secondes chances, deux rêveurs, Entoy et Lorina, poursuivent la gloire dans le monde de l'OPM des années 90. Vont-ils réussir ?",
+      "releaseInfo": "2025"
+    },
+    {
       "id": "tmdb:1460778",
       "type": "movie",
       "name": "Posthouse",
@@ -163,15 +172,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/aQCJba6669KSTHrreNlrZuLPwWQ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/yqcH0p18LDMeyMgcnrvTBHwz8PF.jpg",
       "description": "Sexe et rumeurs abondent dans cette histoire érotique de Jules, une lycéenne prête à tout pour récupérer sa meilleure amie Dahlia auprès de Nessa, la nouvelle élève, même si cela implique d'inventer des histoires de liaisons illicites avec des professeurs.",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:1317887",
-      "type": "movie",
-      "name": "Lolo and the Kid",
-      "poster": "https://image.tmdb.org/t/p/w500/27y5QGbOligWKc04A9OLNbg8x5d.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fzj8QCwi9zZBO7pi81bfbTa5fak.jpg",
-      "description": "Un arnaqueur et son petit-fils embrouillent les riches pour les dépouiller, jusqu'au jour où un événement majeur menace de détruire leurs liens.",
       "releaseInfo": "2024"
     }
   ]

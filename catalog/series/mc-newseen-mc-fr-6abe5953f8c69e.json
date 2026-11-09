@@ -1,48 +1,22 @@
 {
   "metas": [
     {
-      "id": "tmdb:125506",
+      "id": "tmdb:39283",
       "type": "series",
-      "name": "Below Deck  : Down Under (Australie)",
-      "poster": "https://image.tmdb.org/t/p/w500/s51ttvEaHvCO7L2yUie6IWu5VNt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rVnFvGrB82Zk0lOUM6C1K907hzp.jpg",
-      "description": "Avec pour toile de fond les îles tropicales de Whitsunday et la célèbre Grande Barrière de Corail au nord-est de l'Australie, cette série explore les dynamiques complexes et souvent explosives de l'équipage et d'un groupe tournant d'invités exigeants sur le M/Y Thalassa.",
-      "releaseInfo": "2022"
+      "name": "Les Real Housewives de Dallas",
+      "poster": "https://image.tmdb.org/t/p/w500/6liq1qoLQu4siW3kVisSRAfkxiu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2LEWLQ61ERXRffIhFrWfOxFFyil.jpg",
+      "description": "Bienvenue à Dallas ! Loin de chômer, les femmes au foyer les plus glamours du Texas ont des journées aussi remplies que leurs comptes en banque… Entre soirées, amitiés, vie de famille mouvementée et scandales en tout genre, pour les Real Housewives à l’ego sans limites et au caractère bien trempé, tous les coups sont permis pour briller et grimper les échelons de la société !",
+      "releaseInfo": "2016"
     },
     {
-      "id": "tmdb:4406",
+      "id": "tmdb:97872",
       "type": "series",
-      "name": "The Simple Life",
-      "poster": "https://image.tmdb.org/t/p/w500/bXNd06zlKk2Pl7dF7PNq7tsGvje.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lwIgIAPC4oEteEl8bZpFmV6EAbb.jpg",
-      "releaseInfo": "2003"
-    },
-    {
-      "id": "tmdb:18596",
-      "type": "series",
-      "name": "Les Sœurs Kardashian à Miami",
-      "poster": "https://image.tmdb.org/t/p/w500/sjsp1G0Upnjcqy78bJqbFBE3Rul.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/978Ae0OsBhEIOgG1GcYhjkzYYTX.jpg",
-      "description": "Les sœurs Kardashian à Miami est un spin-off de L'Incroyable Famille Kardashian qui raconte le quotidien des sœurs Kardashian Khloé et Kourtney. Elle ouvre un magasin appelé Dash et Khloé elle se voit proposer une émission de radio.",
-      "releaseInfo": "2009"
-    },
-    {
-      "id": "tmdb:233815",
-      "type": "series",
-      "name": "House of Villains",
-      "poster": "https://image.tmdb.org/t/p/w500/vDoQjjHhHB8JoMUSzlVhV9VoDTf.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/coiKaPAzN96XjfsLJdZKhFCTarH.jpg",
-      "description": "E! Présenté par Joel McHale, « House of Villains » rassemble 10 des méchants les plus infâmes et emblématiques de la télé réalité sous le même toit. Ils devront déjouer, manipuler et comploter à travers une série d'épreuves pour gagner le pactole ainsi que le titre « d'Ultime Super-vilain d'Amérique ».",
-      "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:44100",
-      "type": "series",
-      "name": "Million Dollar Listing New York",
-      "poster": "https://image.tmdb.org/t/p/w500/en2WjVfxZuPEWH1XP6Y7uXCydEC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6ofF5RAkRqvPuyKFfvzrg9wM9sV.jpg",
-      "description": "Suit certains des agents immobiliers les plus acharnés de Manhattan, qui concluent des contrats de plusieurs millions de dollars plus rapidement qu’un taxi jaune grillant un feu rouge...\n\nUn Maison à vendre à l'américaine !",
-      "releaseInfo": "2012"
+      "name": "Below Deck : Sailing Yacht",
+      "poster": "https://image.tmdb.org/t/p/w500/xRYK5NhY15uKaJ4a97xmWyHxSCi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AvP61xO5RmBid6384PutKnbePsI.jpg",
+      "description": "Le capitaine Glenn Shephard et son équipage ont mis les voiles dans un yacht à voile de luxe pour explorer les eaux bleues cristallines de la mer Ionienne. La physionomie de travailler sur un voilier apporte de nouveaux défis à ces jeunes…",
+      "releaseInfo": "2020"
     }
   ]
 }

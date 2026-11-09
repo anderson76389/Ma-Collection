@@ -28,6 +28,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:324502",
+      "type": "series",
+      "name": "Overgeared",
+      "poster": "https://image.tmdb.org/t/p/w500/fmAQ2lOtLAoEU2p6wQ12wXbIgLM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/745xqHbiUWwO51TM60MXRCR4Onm.jpg",
+      "description": "Shin Young Woo est ce qu'on appelle un loser « IRL », un bon à rien « dans la vraie vie » : il enchaîne les petits boulots et peine à rembourser ses dettes. Quand il se connecte au jeu VR « SATISFY », jeu de réalité virtuelle auquel il est accro, ce n'est pas plus glorieux : Young Woo devient « Grid », un guerrier au niveau terriblement médiocre… Jusqu'au jour où il tombe sur un livre regroupant l'ensemble des connaissances du plus légendaire des forgerons ! Mais en activant cet artefact, les statistiques durement acquises de Grid retombent à zéro… Sauf que ses nouvelles capacités vont lui permettre de se forger un équipement de tout premier ordre, pour espérer devenir un héros, un vrai !",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:289324",
       "type": "series",
       "name": "Star Wars : Visions Présente - Le Neuvième Jedi",
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/mNgP82BUf9gpjmaHqiBLRilb8BJ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/9PBeccJiwTMPE9ZR7IHrUxSCb9s.jpg",
       "description": "Sept ans après s'être promis, enfants, de rester amis pour toujours, Hayato retrouve son ancienne copine Haruki. Mais celle qui était avant un vrai garçon manqué est devenue aujourd'hui une ravissante lycéenne ! Tandis qu'elle impressionne tous les garçons, elle retrouve avec Hayato la complicité qu'ils avaient.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:315054",
-      "type": "series",
-      "name": "The Duke's Son Claims He Won't Love Me, But Showers Me with Adoration",
-      "poster": "https://image.tmdb.org/t/p/w500/yr6dl4TYfG9EznBmM8fUqlo3ewd.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fbn801LwOIQ04eFvPT2VNVAgZRc.jpg",
-      "description": "Elsa, fille d’un aristocrate déchu, doit se marier avec Julius, un noble issu de la haute société. Bien que intriguée par le fait qu'il l'ai choisie, elle accepte. Mais tandis que Julius se montrait jusqu'ici gentil et attentionné, il lui annonce qu'il n'a aucune intention de l'aimer…",
       "releaseInfo": "2026"
     }
   ]

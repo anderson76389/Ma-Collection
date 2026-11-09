@@ -1,6 +1,24 @@
 {
   "metas": [
     {
+      "id": "tmdb:1003494",
+      "type": "movie",
+      "name": "L’Affaire Marie-Claire",
+      "poster": "https://image.tmdb.org/t/p/w500/eJyYB3D5YeJp20r3yZFwQW23Rp3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rIxB1b3nBfjxP0nHrWyjJArcVwa.jpg",
+      "description": "Novembre 1972. Au tribunal de Bobigny, un procès hors norme secoue la France entière. Marie-Claire Chevalier, 16 ans, est accusée d’avoir avorté illégalement. À la barre, sa mère et toutes les femmes qui l’ont aidée. Leur avocate, Gisèle Halimi, fait un pari fou, insensé : elle leur demande de ne pas plaider coupable. Gisèle va faire ce qui n’a jamais été fait auparavant, elle va accuser et attaquer la loi, au risque de tout perdre. Au nom de toutes.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1544163",
+      "type": "movie",
+      "name": "Quelques mots d'amour",
+      "poster": "https://image.tmdb.org/t/p/w500/lUSCFTt9YWRbDG6kkUQBIUZ0IFc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/prU8Cabt75JCukKiSiXKpOIBXIK.jpg",
+      "description": "Sarcelles, 1995. Erika élève seule ses deux enfants. Sa fille Abigaëlle se persuade que son père, qu’elle n’a jamais connu, l’aime en silence quelque part. Lorsqu’elle se met en tête de le retrouver, Erika se sent obligée de l’aider, tout en cherchant à la protéger. En grandissant, la quête d’Abigaëlle se transforme en obsession, entraînant avec elle sa mère, sa meilleure amie, et tous ceux qui comptent.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1437925",
       "type": "movie",
       "name": "Moulin",
@@ -16,6 +34,24 @@
       "poster": "https://image.tmdb.org/t/p/w500/2aU9dLDES0IdxB4sGYeeoJ7DOjA.jpg",
       "background": "https://image.tmdb.org/t/p/w780/5zDqy29V1nuwZiSq60hYaQQcOu1.jpg",
       "description": "Dans le Paris d'aujourd'hui, Anastasia, jeune danseuse, intègre le prestigieux Opéra de Paris. Alors qu’elle répète l'Orpheus, un opéra maudit qui aurait été composé par le Fantôme de l'Opéra, elle tombe amoureuse d'un mystérieux pianiste. A l’approche de la première représentation, entre accidents inexpliqués et révélations troublantes, Anastasia se trouve plongée dans une histoire d'amour impossible, à la frontière du réel et du fantastique.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1505487",
+      "type": "movie",
+      "name": "Le Roi du Game",
+      "poster": "https://image.tmdb.org/t/p/w500/ccSbyrJUvw6JEOL3Cn9nZva4u5P.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wSg1Rxe4MF6LlVWmlsz8babRSs7.jpg",
+      "description": "Alexandre est prêt à tout pour renouer avec sa fille. Quitte à infiltrer une équipe de bras cassés dans un univers de jeu médiéval-fantastique. Cette quête improbable pourrait bien le ramener à ses propres rêves oubliés...",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1504972",
+      "type": "movie",
+      "name": "Une femme aujourd’hui",
+      "poster": "https://image.tmdb.org/t/p/w500/vBNsvbJsb9fnSre8TakYNJbU1ey.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oFsQkBqmxKa9fMHWf24jymZnXf8.jpg",
+      "description": "Juliette, 30 ans, semble avoir tout pour elle : un poste prestigieux dans la finance, une belle maison, une vie rythmée par les voyages et les amours de passage. Lorsqu’elle est agressée par un collègue, son monde s’effondre. Juliette s'engage alors sur un nouveau chemin pour redonner un sens à sa vie.",
       "releaseInfo": "2026"
     },
     {
@@ -41,7 +77,7 @@
       "type": "movie",
       "name": "La Gradiva",
       "poster": "https://image.tmdb.org/t/p/w500/aFrhFiIhdf2klvXq8VFcB06b5pS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/aFO0i3bl4d6o0odPix8xgiVsIYT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dZVZkmzHLnobFszwYZ9DybvhUHW.jpg",
       "description": "Un groupe de lycéens français part en voyage scolaire à Naples pour découvrir les ruines de Pompéi et ses corps pétrifiés par le Vésuve. C’est là que le vertige les saisit brutalement. L’un après l’autre, ils se laissent submerger par le désir et la colère jusqu’à s’y abandonner complètement.",
       "releaseInfo": "2026"
     },
@@ -68,7 +104,7 @@
       "type": "movie",
       "name": "Le Corset",
       "poster": "https://image.tmdb.org/t/p/w500/h4YDklaLjbgdu9yUr6vNybnrnzX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3e0Lzs4vDSHjRULFw6vPI4jyHd6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qMryViRTIek9SkkOPjNMfnbCuI6.jpg",
       "description": "Dans une ferme au cœur de la Beauce, Christophe, 11 ans, règle ses pas sur ceux de son père. Mais à l’école, à la maison, sur le tracteur, Christophe penche… et tombe. Il est obligé de porter un corset pour filer droit. Tandis que la ferme traverse des moments difficiles, Christophe grandit comme il peut. Il découvre la musique et fait la rencontre de Clara, avec qui tout semble devenir possible.",
       "releaseInfo": "2026"
     },
@@ -142,42 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/xwzLNsGMh1yDRGOGH58ftPWmfzq.jpg",
       "background": "https://image.tmdb.org/t/p/w780/nkEhDomjmPHJSA4Tx8pxv0NlKEy.jpg",
       "description": "Dans le dos de ses parents qui la pensent inscrite en droit, Alma Lancaster, jeune femme de bonne famille, s'est donné un an pour poursuivre son rêve de cinéma. Alors qu'elle est contrainte de réaliser un film avec Vadim Arcadi, jeune homme sans attaches, une attirance électrique naît entre eux. Dans l'ombre, une menace invisible les guette, bien décidée à les séparer au risque de tout révéler…",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1466670",
-      "type": "movie",
-      "name": "Si tu penses bien",
-      "poster": "https://image.tmdb.org/t/p/w500/5ta2QFexeUsZ9AncKkgiWwpJDq.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8VjONCVHYgS3PPDuIuzXZBDhFov.jpg",
-      "description": "A Dubaï, Gil rencontre Jacques. Leur coup de foudre débouche sur un mariage précipité qui révèle vite une fracture profonde : Gil ne partage pas la foi dévorante de son mari. Jacques tente de la soumettre à sa vision du monde avec un mantra aux allures de menace.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1191818",
-      "type": "movie",
-      "name": "Histoires de la nuit",
-      "poster": "https://image.tmdb.org/t/p/w500/7prAuNDsQPUlHKyXiYNkuofyi0G.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3vt3M9IrUvuH4E93ZlZpWvtxX3V.jpg",
-      "description": "Il ne reste presque plus rien à La Bassée : un bourg et quelques hameaux, dont celui qu’occupent Bergogne, sa femme Marion et leur fille Ida, ainsi qu’une voisine, Christine, une artiste installée ici depuis des années. On s’active, on se prépare pour l’anniversaire de Marion, dont on va fêter les quarante ans. Mais alors que la fête se profile, des inconnus rôdent autour du hameau.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1258181",
-      "type": "movie",
-      "name": "La vie d'une femme",
-      "poster": "https://image.tmdb.org/t/p/w500/9xAYLvWZGASDKJZjt5XgvD7ugsn.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rFST4zAaG20VSIxSvYO57nhkkV4.jpg",
-      "description": "Gabrielle, 55 ans, se consacre corps et âme à son métier. Chirurgienne et cheffe de service dans un hôpital public, elle court et se démultiplie, assaillie de responsabilités. Il lui reste peu de temps pour sa vie privée — un mari qui l’aime et une mère dont elle doit s’occuper. Lorsqu'une romancière vient passer quelques semaines dans son service pour les besoins d’un livre, son équilibre vacille. Dans le quotidien que Gabrielle s’est construit, y a-t-il de la place pour l’inattendu ?",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1208117",
-      "type": "movie",
-      "name": "Les Héros du Louvre",
-      "poster": "https://image.tmdb.org/t/p/w500/9lWqBSHRcVm5P8EWEOelA6bnRNa.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9gxqVafITYqeQ7jnZwG32Ky5TDf.jpg",
-      "description": "Paris 1939. Amoureux des arts, Babi Maklouf Benhamou exerce le plus beau métier du monde : il est gardien de nuit au musée du Louvre. Mais alors que la Seconde Guerre Mondiale éclate et que l’invasion allemande est imminente, Jacques Jaujard, le conservateur du musée, organise le sauvetage secret des œuvres d’art afin qu’elles ne tombent pas aux mains des nazis. Il confie alors à Babi l’un des camions chargés de transporter les chefs-d’œuvre hors de Paris. Babi accepte, à une condition : que toute sa famille l’accompagne… C’est le début d’une aventure familiale épique et dangereuse à travers la France occupée, qui va lier à jamais le destin des trésors du Louvre à celui de la famille de Babi Maklouf…",
       "releaseInfo": "2026"
     }
   ]

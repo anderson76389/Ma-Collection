@@ -1,21 +1,21 @@
 {
   "metas": [
     {
+      "id": "tmdb:1286656",
+      "type": "movie",
+      "name": "I Play Rocky",
+      "poster": "https://image.tmdb.org/t/p/w500/xE5tY3lppZUyG7WKKThsuYHuAHr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1lnnjBCRLZzKRhQipK5zm61YkPe.jpg",
+      "description": "Un acteur en difficulté avec un visage partiellement paralysé et un trouble de l’élocution écrit un scénario qu’un grand studio de cinéma veut acheter. Mais l’acteur refuse de le vendre à moins de pouvoir jouer le rôle principal. Refusant une offre d’argent qui pourrait changer sa vie, il travaille pour des centimes afin que le film soit réalisé avec lui dans le rôle principal.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1288069",
       "type": "movie",
       "name": "Tenzing : à la conquête de l’Everest",
       "poster": "https://image.tmdb.org/t/p/w500/yjeqiDKgOyrTROU5X4Rck01ldGF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9MdxBPjI58xkzA7RtKX9xRKvlZp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tKvVgMfM6GS4AGZn2KhP8bX1mJm.jpg",
       "description": "Un homme déterminé se lance dans une aventure périlleuse - et brave des obstacles apparemment insurmontables - pour réaliser son rêve d'être le premier à atteindre le sommet de l'Everest.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1503762",
-      "type": "movie",
-      "name": "Raison et Sentiments",
-      "poster": "https://image.tmdb.org/t/p/w500/hpYHHl0P978F6AX5Xeew0fi2ryI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg",
-      "description": "Une irrésistible nouvelle version du roman culte de Jane Austin, Raison et Sentiments, qui suit deux sœurs à travers leurs amours, leurs chagrins et le lien qui les unit d'une façon magistrale et profondément proche de nous.",
       "releaseInfo": "2026"
     },
     {
@@ -73,15 +73,6 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1207162",
-      "type": "movie",
-      "name": "Rise of the Conqueror",
-      "poster": "https://image.tmdb.org/t/p/w500/9cRE0DsM6CNIiY9Ah3cd8oc3n1Y.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9gWrxuOJeArUbvnqrZALSjhPv9Y.jpg",
-      "description": "Au XIVe siècle, alors que la Route de la Soie s'effondre et que des factions rivales déchirent le pays, Tamerlan, guerrier intrépide, sort de l'exil. Dépouillé de tout, il se bat pour unifier les royaumes divisés, utilisant la stratégie et sa volonté de fer pour forger un empire à partir du chaos. Invaincu au combat et largement considéré comme l’un des plus grands chefs militaires et tacticiens de l’histoire, sans parler de l’un des plus brutaux, Tamerlan fonda l’Empire timouride, qui régnait sur l’Afghanistan, l’Iran et l’Asie centrale actuels",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:1341137",
       "type": "movie",
       "name": "La Grande Révélation",
@@ -91,12 +82,12 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1316092",
+      "id": "tmdb:1207162",
       "type": "movie",
-      "name": "“Hurlevent”",
-      "poster": "https://image.tmdb.org/t/p/w500/yEa8UQA71rjKhCq04mATDNOIT2B.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nHKscpZcAPkh97OsJJjyE5yaVE0.jpg",
-      "description": "Sur les landes balayées par le vent du Yorkshire, la passion dévorante entre Catherine Earnshaw et Heathcliff se transforme en une obsession destructrice, bouleversant leurs vies et celles de leur entourage.​",
+      "name": "Rise of the Conqueror",
+      "poster": "https://image.tmdb.org/t/p/w500/9cRE0DsM6CNIiY9Ah3cd8oc3n1Y.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9gWrxuOJeArUbvnqrZALSjhPv9Y.jpg",
+      "description": "Au XIVe siècle, alors que la Route de la Soie s'effondre et que des factions rivales déchirent le pays, Tamerlan, guerrier intrépide, sort de l'exil. Dépouillé de tout, il se bat pour unifier les royaumes divisés, utilisant la stratégie et sa volonté de fer pour forger un empire à partir du chaos. Invaincu au combat et largement considéré comme l’un des plus grands chefs militaires et tacticiens de l’histoire, sans parler de l’un des plus brutaux, Tamerlan fonda l’Empire timouride, qui régnait sur l’Afghanistan, l’Iran et l’Asie centrale actuels",
       "releaseInfo": "2026"
     },
     {
@@ -177,6 +168,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/a0Inm46kc3sMZBTCQgW1P7kjuk5.jpg",
       "background": "https://image.tmdb.org/t/p/w780/28PLbMHktbX8TnuEWSiTrRbI4p8.jpg",
       "description": "Lors de la soirée du 31 mars 1943, le célèbre parolier Lorenz Hart broie du noir au bar Sardi, pendant que son ex-collaborateur Richard Rodgers célèbre la première de sa comédie musicale à succès Oklahoma !",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1443940",
+      "type": "movie",
+      "name": "Truth & Treason",
+      "poster": "https://image.tmdb.org/t/p/w500/ArDLn658OjT3dMThIi4GDQJRuY3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/98PhUeOMK33Oyekw53tSGsfPZ7H.jpg",
+      "description": "Helmuth Hübener, un adolescent allemand de 17 ans membre des Jeunesses Hitlériennes révolté par les crimes nazis, participe à la résistance, avec ses amis Rudulf Wobbe et Karl-Heinz Schnibbe, en entrant en campagne contre Adolf Hitler. Ils sont connus pour les slogans \"Hitler est un meurtrier\", \"Hitler est le seul coupable\".",
       "releaseInfo": "2025"
     }
   ]

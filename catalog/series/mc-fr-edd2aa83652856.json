@@ -1,15 +1,6 @@
 {
   "metas": [
     {
-      "id": "tmdb:232018",
-      "type": "series",
-      "name": "Has Fallen",
-      "poster": "https://image.tmdb.org/t/p/w500/aFIGvsWknUfDIdjrkJNknyNuZZL.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3yoTM5JtkxnPZvVzQOrL0c2ILVM.jpg",
-      "description": "Lors d'une réception, des terroristes prennent d'assaut l'ambassade britannique à Paris. Parmi les invités, le ministre de la Défense Philippe Bardin, qui semble être la vraie cible de Jacob Pearce, un ancien légionnaire à la tête de l'attaque.",
-      "releaseInfo": "2024"
-    },
-    {
       "id": "tmdb:133841",
       "type": "series",
       "name": "En aparté",
@@ -28,6 +19,15 @@
       "releaseInfo": "2020"
     },
     {
+      "id": "tmdb:252721",
+      "type": "series",
+      "name": "Singapura",
+      "poster": "https://image.tmdb.org/t/p/w500/yPoy5Exmd9P2JSJya0inyYzIU7n.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/peIH5qDOzW4b0wEw2C6rOF6ulVK.jpg",
+      "description": "Justine débarque à Singapour bien décidée à se réinventer. Dans cette cité ultramoderne où les buildings côtoient la mangrove, elle découvre la communauté uniformisée des expatriés français et Élisa, un électron libre qui la fascine instantanément. Lorsqu’un meurtre frappe ce cercle hautement fermé, Justine et Adam Wong, l’inspecteur en charge du dossier, se retrouvent plongés dans un monde de secrets et de faux-semblants.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:235904",
       "type": "series",
       "name": "Spinners",
@@ -37,6 +37,15 @@
       "releaseInfo": "2023"
     },
     {
+      "id": "tmdb:255649",
+      "type": "series",
+      "name": "Détective Mathoux",
+      "poster": "https://image.tmdb.org/t/p/w500/hXrw5CfZeATdbhgRRMBWr6yNgaK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ydmnSHKZfhLJsIb50qzVFLjMvyN.jpg",
+      "description": "La carrière d'un footballeur est riche de moments de sports.\n\nElle est aussi, parfois, jalonnée \"d'affaires\" avec leurs coachs, leurs partenaires, les supporters ... c'est là qu'intervient le Détective Mathoux !!",
+      "releaseInfo": "2024"
+    },
+    {
       "id": "tmdb:300589",
       "type": "series",
       "name": "Super Plan",
@@ -44,15 +53,6 @@
       "background": "https://image.tmdb.org/t/p/w780/gsJvjnIlxOhU9EmmB5x2TJxjYVk.jpg",
       "description": "Antoine de Caunes, Mina Soundiram, Renan Cros, Bertrand Goncalves et Rébecca Balestra, proposent un super plan ciné. Ensemble, ils reçoivent celles et ceux qui font l'actualité du 7e art, et abordent le cinéma avec expertise, passion et enthousiasme.",
       "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:340555",
-      "type": "series",
-      "name": "Les Duos impossibles de Jérémy Ferrari : 11e édition",
-      "poster": "https://image.tmdb.org/t/p/w500/8wd0khSXUTcUiCz0JIdV3BlnIJR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pHOfBTtn2sSJ1Dv4Ix2w2WZrd36.jpg",
-      "description": "Depuis La Seine Musicale, à Paris. Parce qu'il sait que, face à un mode de plus en plus difficile à comprendre, il vaut souvent mieux en rire, l'humoriste Jérémy Ferrari voit les choses en grand pour la onzième édition de ses \"Duos impossibles\". Cette édition en effet ne promet pas une, mais bien deux soirées exceptionnelles, en compagnie des plus grandes stars de l'humour du moment.",
-      "releaseInfo": "2026"
     }
   ]
 }

@@ -1,22 +1,13 @@
 {
   "metas": [
     {
-      "id": "tmdb:259909",
+      "id": "tmdb:103516",
       "type": "series",
-      "name": "Dexter: Resurrection",
-      "poster": "https://image.tmdb.org/t/p/w500/teZOzBZhugzh7UfW6xuPp4wJ5oU.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vcpj6rRDS93ImHCLPY8bwBuFGjR.jpg",
-      "description": "Après avoir survécu à ses blessures, Dexter se retrouve à New York. Il tente de renouer une relation avec son fils mais des meurtres rituels ensanglantent Big Apple.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1215",
-      "type": "series",
-      "name": "Californication",
-      "poster": "https://image.tmdb.org/t/p/w500/6mxF22FeS3AfGMPxPRGihBIOBYh.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9o9SS26mUY4cp4iSFk7iwBeAQuP.jpg",
-      "description": "Hank Moody est romancier et séparé de la mère de sa fille de 13 ans. Il est aussi accro aux femmes et aux drogues et ne peut s'empêcher de dire la vérité, tout le temps et à tout le monde. Oui, Hank est auto-destructeur...",
-      "releaseInfo": "2007"
+      "name": "Star Trek: Strange New Worlds",
+      "poster": "https://image.tmdb.org/t/p/w500/tv3W5DNDzeQaHFFrrqDZ4joCQcN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fZJs6xgU9dqIg9phIXjZAZOInzy.jpg",
+      "description": "Suivez Christopher Pike, Spock et le numéro un dans la décennie qui a précédé l'arrivée du capitaine Kirk à bord de l'Enterprise alors qu'ils explorent de nouveaux mondes autour de la galaxie.",
+      "releaseInfo": "2022"
     }
   ]
 }

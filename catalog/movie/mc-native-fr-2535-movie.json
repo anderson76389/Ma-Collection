@@ -14,7 +14,7 @@
       "type": "movie",
       "name": "Trahisons, l'art de rompre en politique",
       "poster": "https://image.tmdb.org/t/p/w500/35P4HYNWQbMRcbXDdfJ1HuaCVOR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qXLdJ9gCKr8X7zj0ySk4zfJEd8S.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dG0Y0lQlkU5LPYC9CtpBKrGMN0n.jpg",
       "description": "En politique, les fidélités ne durent parfois que le temps d'une ambition. Derrière les grandes batailles électorales se jouent aussi des histoires intimes de confiance, d'humiliation et de revanche. De l'ascension fulgurante d'Emmanuel Macron, qui s'émancipe de François Hollande, à la guerre fratricide qui oppose Jacques Chirac à Edouard Balladur en 1995 ; de la rupture de Bruno Mégret avec Jean-Marie Le Pen à la volte-face d'Eric Besson, passé du Parti socialiste à Nicolas Sarkozy en pleine campagne présidentielle de 2007, quatre histoires de fidélités brisées qui ont marqué la vie politique française sont racontées par ceux qui les ont vécues au plus près.",
       "releaseInfo": "2026"
     },
@@ -32,7 +32,7 @@
       "type": "movie",
       "name": "GTA, le jeu no limit",
       "poster": "https://image.tmdb.org/t/p/w500/8afN9cOWn4chAxnlFso15FkBvRm.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1bB4OUp1ci7gCo0S2oievHDRDdx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5q0wDT7LlYpeujPch6VS3x7akRZ.jpg",
       "description": "Alors que GTA 6, le jeu vidéo le plus attendu de l’histoire déferlera sur la planète en ce mois de novembre 2026, plongez au cœur de l’histoire d’un titan de la pop culture ! En trente ans, Grand Theft Auto, désormais connu sous l'acronyme GTA, est passé du statut de paria rejeté par la classe politique et les médias à celui d’œuvre iconique incontournable.",
       "releaseInfo": "2026"
     },
@@ -118,12 +118,30 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1423712",
+      "type": "movie",
+      "name": "Monsieur",
+      "poster": "https://image.tmdb.org/t/p/w500/vGYF0WMJk3FQbCcmJ4pQWoHWSis.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8lCvBXWK4BOA5P5NwLt6p0homPj.jpg",
+      "description": "Février 1969. Sous la garde d'une employée, une fillette disparaît et une rançon est exigée pour sa libération. Deux policiers venus de Paris mènent l'enquête.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1780162",
       "type": "movie",
       "name": "Sur la route de Katmandou",
       "poster": "https://image.tmdb.org/t/p/w500/dO9PpvpyzrA5CcDIuBHBQWpFLA2.jpg",
       "background": "https://image.tmdb.org/t/p/w780/lXoPOllJhwin0FSQjTAaZKiIRbm.jpg",
       "description": "Entre le milieu des années 1950 et la fin des années 1970, des centaines de milliers de jeunes Occidentaux sont partis rejoindre Katmandou. Issus de la dernière génération du baby-boom, ces routards voulaient laisser derrière eux le monde de leurs parents, dominé par la consommation, la colonisation et le spectre de la guerre. Ce phénomène, connu sous le nom de \"Route de l'Inde (Hippie Trail)\", est une première dans l'histoire de l'humanité : jamais encore quiconque n'était parti en si grand nombre par simple goût de l'aventure, de la découverte des autres et de soi-même. Raconter leur histoire, c'est revisiter l'une des plus fascinantes utopies du XXe siècle, et sa confrontation avec la réalité historique.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1810490",
+      "type": "movie",
+      "name": "Le phare d'Alexandrie : Les derniers secrets",
+      "poster": "https://image.tmdb.org/t/p/w500/ec3WUgJcuarl5ZiHrhCklMktK1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kr0ScqamYCDZ21OSsnkPgJ6UH21.jpg",
+      "description": "Au large d'Alexandrie, sous plusieurs mètres d'eau, reposent les vestiges de l'une des sept merveilles du monde antique : le légendaire phare d'Alexandrie. Depuis près de 30 ans, l'archéologue Isabelle Hairy et son équipe explorent des milliers de blocs pour reconstituer l'histoire de ce monument hors norme. Aujourd'hui, une opération exceptionnelle se prépare. Les vestiges les plus monumentaux du phare, dont certains pèsent plusieurs dizaines de tonnes vont être remontés à la surface et numérisés. Grâce à des nouvelles technologies enrichies par l'IA, l'archéologue va pouvoir établir une réplique virtuelle du phare et montrer le génie de ses architectes.",
       "releaseInfo": "2026"
     },
     {
@@ -160,23 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/m7d6Ja7QAzhYs4rzcCwEHLtprHA.jpg",
       "background": "https://image.tmdb.org/t/p/w780/nKCHeQhoW5B8Q1Ntg2w7ElEDgix.jpg",
       "description": "Le baroque est une musique fondée sur les apparences et l'hybridité, qui laisse une grande part à l'improvisation et au mélange des genres. Jakub, en grand interprète d'aujourd'hui, a ressenti cela et a décidé d'ouvrir les frontières et de fondre les styles. Avec sa voix de contre-ténor, une batterie, des claviers et une basse, il revisite la musique, passant du baroque au hip hop et de la pop au jazz, dans un mélange original et très contemporain. Le charisme de Jakub, son timbre de voix, ses acrobaties et la manière dont il parvient à emporter avec lui tout un public font de cette performance un véritable show, filmé comme tel le 12 octobre 2025 à l'Olympia à Paris 9ème.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1751983",
-      "type": "movie",
-      "name": "Admis",
-      "poster": "https://image.tmdb.org/t/p/w500/ntOQEPSmuuHWvUPu9P0riBR02Xa.jpg",
-      "description": "A 17 ans, Olivier quitte sa famille pour intégrer une prestigieuse école  d'ingénieurs.  Il découvre un campus où la réussite ne se joue pas seulement dans les salles de classe. Chaque nuit, dans le bar de l’école, les soirées deviennent le théâtre de rituels d'intégration qui soudent les élèves en une communauté. Désireux d'y trouver sa place, Olivier accepte d'en suivre les règles.  Au fil des années, le parcours d'Olivier dans les sphères de pouvoir de l’école révèle les mécanismes d’un système où le désir d'appartenir au groupe pousse chacun à franchir ses propres limites, jusqu’à perdre le contrôle.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1755604",
-      "type": "movie",
-      "name": "Philippe Bouvard, une vie de rires",
-      "poster": "https://image.tmdb.org/t/p/w500/dqyK6WQ28AoG1ylL0NmIVlQGMzr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/myZ4eoEHJImHnUF1YTvVBjtXy4C.jpg",
-      "description": "La carrière impressionnante de Philippe Bouvard, décédé à 96 ans le 24 août 2026, a duré plus de cinq décennies : homme de radio et de télévision, touche à tout de génie, homme de presse, auteur d'une trentaine de livres, de pièces de théâtre, inventeur du talk-show du samedi soir et créateur des \"Grosses têtes\". Cette figure des médias est aussi l'inventeur de l'impertinence à la télévision. Pur autodidacte, Philippe Bouvard a débuté comme simple coursier au Figaro, qu'il dirigea bien des années plus tard. Flambeur, cultivé, curieux, passionné, il incarnait l'esprit français. Il faisait rire en traversant la vie en s'amusant.",
       "releaseInfo": "2026"
     }
   ]

@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1813355",
+      "type": "movie",
+      "name": "La Légende de Derry",
+      "poster": "https://image.tmdb.org/t/p/w500/95jDCfMC1MNXowaXxPpHuWP5zAr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8vky6e0D4dSZMlxHWXBIRRFP1Pb.jpg",
+      "description": "Des centaines d’années avant Pennywise, trois jeunes s’aventurent dans la forêt de l’Ouest où ils rencontrent un esprit ancien terrifiant.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1283515",
       "type": "movie",
       "name": "Verity",
@@ -73,15 +82,6 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1083884",
-      "type": "movie",
-      "name": "Signal One",
-      "poster": "https://image.tmdb.org/t/p/w500/bi7Aeaozl51cd5K6vAn8tI1lOW0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3gN540zmAiJW1v6mFoNiciamxc2.jpg",
-      "description": "Un informaticien est invité par un milliardaire du secteur des technologies à rejoindre son centre privé situé sur une île des Caraïbes afin d’étudier la matière extraterrestre présente sur Terre. Lorsqu’ils établissent le contact avec un monde au-delà du nôtre, le chaos s’installe et nous nous demandons : viennent-ils en paix ?",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:1083381",
       "type": "movie",
       "name": "Backrooms",
@@ -104,7 +104,7 @@
       "type": "movie",
       "name": "Les Moutons détectives",
       "poster": "https://image.tmdb.org/t/p/w500/5GjWHaN6XW9RbeUqqYbzfKSThqX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/a8uQvrplTkhGJQog6GZ6CqF8An6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/g6uEVedSBXsZ3QuXKP4WDCeSsOy.jpg",
       "description": "Lorsque son fermier bien-aimé est retrouvé mort dans des circonstances mystérieuses, un troupeau de moutons conclut qu'il devra résoudre le meurtre lui-même. Cette quête l'oblige à quitter son pâturage pour la première fois et à se confronter à une réalité brutale : le monde des humains est bien plus complexe qu'il y paraît dans les livres.",
       "releaseInfo": "2026"
     },
@@ -112,8 +112,8 @@
       "id": "tmdb:1364953",
       "type": "movie",
       "name": "Mārama",
-      "poster": "https://image.tmdb.org/t/p/w500/5roy1hr44AWZtzF8Nr85dVxntig.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/c4w0cHapoKndfq4fXnDoUyW90Xd.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/7T7a2ybdD7l7YSlofgDvgJKPduO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fAVvEWnBCmJMouBvtXR35fg62xN.jpg",
       "description": "Dans les landes désolées du Yorkshire du Nord en 1859 à l’époque de l’Angleterre victorienne, Mary Stevens, une femme māorie en quête de vérité sur ses origines, rejoint le manoir Hawkser. Entre les couloirs lugubres, apparaissent alors d’ancestrales visions qui révèlent peu à peu un mystère terrifiant.",
       "releaseInfo": "2026"
     },
@@ -158,7 +158,7 @@
       "type": "movie",
       "name": "Scream 7",
       "poster": "https://image.tmdb.org/t/p/w500/j6Y7vqULt8tRlXVFXHK5aj3nCo4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hz7TdCrpLLt2Dz7S3PS2HG9rpAO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3eUyLEF5M0ky3h6KJsWiWzaakB8.jpg",
       "description": "Lorsqu’un nouveau Ghostface surgit dans la paisible ville où Sidney Prescott a reconstruit sa vie, ses pires cauchemars refont surface. Alors que sa fille devient la prochaine cible, Sidney n’a d’autre choix que de reprendre le combat. Déterminée à protéger les siens, elle doit alors affronter les démons de son passé pour tenter de mettre fin une bonne fois pour toutes au bain de sang.",
       "releaseInfo": "2026"
     },

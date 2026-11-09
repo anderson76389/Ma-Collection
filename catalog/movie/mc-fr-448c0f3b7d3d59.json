@@ -143,6 +143,14 @@
       "releaseInfo": "2024"
     },
     {
+      "id": "tmdb:1149153",
+      "type": "movie",
+      "name": "Sommartider",
+      "poster": "https://image.tmdb.org/t/p/w500/lsphf6qh1ostVE3al31GK1t417V.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/75rYNLpOhqAolN6GIc37N1gwmXF.jpg",
+      "releaseInfo": "2024"
+    },
+    {
       "id": "tmdb:1275945",
       "type": "movie",
       "name": "Avicii: I'm Tim",
@@ -167,15 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/kl3bzDhU5eo3sntvWP0wHZjbuZd.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ptjodfJgt3CSdryZI4zP9HsAWGS.jpg",
       "description": "La lutte que mène une jeune femme pour défendre son héritage indigène dans un monde où la xénophobie progresse, où le changement climatique met en danger l'élevage de rennes, et où les jeunes, anéantis par le désespoir, font le choix du suicide. Le roman dévoile aussi les tensions qui naissent quand des idées modernes se heurtent à une culture façonnée par les traditions patriarcales.",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:1202863",
-      "type": "movie",
-      "name": "From Darkness",
-      "poster": "https://image.tmdb.org/t/p/w500/zzxIUS5GFMmDVActt9IPMQ0XZde.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8VZt1Uo07F3CMhzpl8BjIzVOdBh.jpg",
-      "description": "Angelica, garde forestière, demande l'aide de son ancien petit ami Viktor, maître-chien, pour rechercher une femme disparue dans une dangereuse réserve naturelle en Suède. Les recherches sont compliquées par un mythe troublant concernant la Banshee des cavernes, un esprit vengeur issu du folklore nordique qui a autrefois attiré des mineurs vers leur mort dans les grottes traîtresses de la réserve. Au fur et à mesure qu'ils s'enfoncent dans la forêt, Viktor commence à se demander s'il est sain d'esprit et si la rumeur de la Banshee n'est pas plus qu'un mythe.",
       "releaseInfo": "2024"
     }
   ]

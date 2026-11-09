@@ -1,85 +1,31 @@
 {
   "metas": [
     {
-      "id": "tmdb:1607",
+      "id": "tmdb:3112",
       "type": "movie",
-      "name": "Il était une fois le Bronx",
-      "poster": "https://image.tmdb.org/t/p/w500/lN1czG0wuaun7IlpiadX9RrgI6C.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ggzzn1Hf4zBz1VVywpQhGtDxKtA.jpg",
-      "description": "L'histoire de la communauté italienne des années 60 dans le Bronx à travers les yeux de Calogero, neuf ans, qui hésite entre la vie de son père, honnête travailleur, et celle des affranchis, qui semble plus prometteuse.",
-      "releaseInfo": "1993"
+      "name": "La Nuit du chasseur",
+      "poster": "https://image.tmdb.org/t/p/w500/1YFsL1Y7wkCTKUOP7ZdWAAutJT3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7cVEnb4Pth3STa7YfVOk9RtzDLB.jpg",
+      "description": "Au cœur des années 30, deux enfants, John et Pearl, sont pourchassés par un tueur en série, dissimulé en société sous des faux airs de prêcheur bienveillant. L’objet de la traque : la rumeur d’un pactole de 10 000 dollars bien mal acquis par le père des enfants, et dont ces derniers ont le secret de la localisation.",
+      "releaseInfo": "1955"
     },
     {
-      "id": "tmdb:1678",
+      "id": "tmdb:3116",
       "type": "movie",
-      "name": "Godzilla",
-      "poster": "https://image.tmdb.org/t/p/w500/9J8JpnUL1GWOIGwWzHTvc1PmLF4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ub1sIbdSrokPZawY2ljExXZov2j.jpg",
-      "description": "Une série de naufrages inexpliqués défraie la chronique japonaise. Au même moment, à la suite de plusieurs pêches infructueuses, les insulaires de l'île Odo organisent une cérémonie pour apaiser la colère de \"Gojira\", un dragon marin vénéré depuis des temps immémoriaux. Mais la nuit venue, quelque chose débarque sur l'île dans une tempête et piétine le village. Le lendemain, le professeur Kyohei Yamane examine le sol et découvre des traces de radioactivité ainsi qu'un trilobite. Un gigantesque monstre reptilien apparaît bientôt aux yeux de tous, avant de s'enfoncer dans la mer.",
-      "releaseInfo": "1954"
+      "name": "Macadam Cowboy",
+      "poster": "https://image.tmdb.org/t/p/w500/yoom7CNgdomR7tn0T9GOdHYY51u.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wY04PHkTBqdlaEbsDj6cchfRL98.jpg",
+      "description": "Joe Buck, blond et beau gosse, quitte sa petite bourgade du Texas pour monter à New York, où il espère se faire entretenir par des femmes riches. Mais la dureté de la ville lui fait rapidement perdre ses illusions. Seul, sans un sou, il fait la connaissance de Ratso Rizzo, un petit Italien chétif, boiteux et tuberculeux. Parce que ce dernier a l'air encore plus seul que lui, Joe accepte de partager son appartement miteux. À l'opposé l'un de l'autre, ils partagent pourtant la même misère dans les bas-fonds new-yorkais, s'accrochant au même rêve : partir vivre sous le soleil de Floride…",
+      "releaseInfo": "1969"
     },
     {
-      "id": "tmdb:6075",
+      "id": "tmdb:18289",
       "type": "movie",
-      "name": "L'Impasse",
-      "poster": "https://image.tmdb.org/t/p/w500/cjki1jkGhrDhs9ir1dV7qsCqeXz.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9s4ZDw0j6qByLgwJtUsRcepBXSw.jpg",
-      "description": "En 1975, à New York, Carlito Brigante, un ancien trafiquant de drogue, est libéré de prison grâce à David Kleinfeld, son avocat, qui a découvert plusieurs vices de forme dans la manière dont le procureur Bill Norwalk avait instruit le procès. Carlito est bien décidé à rentrer dans le droit chemin et, dès qu'il aura économisé assez d'argent, il compte se retirer aux Bahamas pour s'assurer une retraite paisible avec Gail, sa compagne danseuse dans une boîte de strip-tease. Mais le destin en décidera autrement.",
-      "releaseInfo": "1993"
-    },
-    {
-      "id": "tmdb:10774",
-      "type": "movie",
-      "name": "Network : Main basse sur la télévision",
-      "poster": "https://image.tmdb.org/t/p/w500/qjB8aH0j2HExeMtXS4xtZeXDqEP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/m4Iyzh9YVOh0ra7UwdMoJcrjxkx.jpg",
-      "description": "Au milieu des années 70, les informations à la télévision changent. Le journalisme perd en effet pied face au pouvoir de l'argent et le besoin croissant de divertissement. Une rédaction se bat alors pour maintenir son audience sans se compromettre.",
-      "releaseInfo": "1976"
-    },
-    {
-      "id": "tmdb:1955",
-      "type": "movie",
-      "name": "Elephant Man",
-      "poster": "https://image.tmdb.org/t/p/w500/zf9GBMbvU2KA8dDpZ2MaApUsFX8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6huSptAsqYg3wbsi1jbMognSgmp.jpg",
-      "description": "Londres, 1884. Le chirurgien Frederick Treves découvre un homme complètement défiguré et difforme, devenu une attraction de foire. John Merrick, «le monstre», doit son nom de Elephant Man au terrible accident que subit sa mère. Alors enceinte de quelques mois, elle est renversée par un éléphant. Impressionné par de telles difformités, le Dr. Treves achète Merrick, l'arrachant ainsi à la violence de son propriétaire, et à l'humiliation quotidienne d'être mis en spectacle. Le chirurgien pense alors que «le monstre» est un idiot congénital. Il découvre rapidement en Merrick un homme meurtri, intelligent et doté d'une grande sensibilité.",
-      "releaseInfo": "1980"
-    },
-    {
-      "id": "tmdb:83666",
-      "type": "movie",
-      "name": "Moonrise Kingdom",
-      "poster": "https://image.tmdb.org/t/p/w500/iDfjUWJ0w8XmEgaL4n1m7GI86BE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bsYv9IFIGfpAV0oUbe7YTiyxhox.jpg",
-      "description": "Sur une île au large de la Nouvelle-Angleterre, au cœur de l’été 1965, Suzy et Sam, douze ans, tombent amoureux, concluent un pacte secret et s’enfuient ensemble. Alors que chacun se mobilise pour les retrouver, une violente tempête s’approche des côtes et va bouleverser davantage encore la vie de la communauté.",
-      "releaseInfo": "2012"
-    },
-    {
-      "id": "tmdb:758866",
-      "type": "movie",
-      "name": "Drive My Car",
-      "poster": "https://image.tmdb.org/t/p/w500/vLi9m4gz2r0bWlPWzHLAyQ6A8k1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/r6aqhlmJmu8Dv5E7QYEruaEXKYm.jpg",
-      "description": "Adaptation d'un extrait du recueil Des hommes sans femmes de Haruki Murakami.  Alors qu'il n'arrive toujours pas à se remettre d'un drame personnel, Yusuke Kafuku, acteur et metteur en scène de théâtre, accepte de monter Oncle Vania dans un festival, à Hiroshima. Il y fait la connaissance de Misaki, une jeune femme réservée qu'on lui a assignée comme chauffeure. Au fil des trajets, la sincérité croissante de leurs échanges les oblige à faire face à leur passé.",
-      "releaseInfo": "2021"
-    },
-    {
-      "id": "tmdb:837",
-      "type": "movie",
-      "name": "Vidéodrome",
-      "poster": "https://image.tmdb.org/t/p/w500/zpU7QyFhdW5mPNZ0KXHpt7A5eAi.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/eBS1nvaQ7BMdsSlkoLyKapf0FEY.jpg",
-      "description": "Lorsqu'il acquiert un autre type d'émission pour sa station, un sordide programmateur de télévision par câble commence à voir sa vie et l'avenir des médias déraper dans une nouvelle réalité terrifiante.",
-      "releaseInfo": "1983"
-    },
-    {
-      "id": "tmdb:659",
-      "type": "movie",
-      "name": "Le Tambour",
-      "poster": "https://image.tmdb.org/t/p/w500/ntROGVllrLZ45NjR4Ua4bG7IdoL.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xemaeNc6pssgSKcpLhpEfh3AOlH.jpg",
-      "description": "À la fin des années 1920, dans la région de Dantzig, Oskar, refusant le monde cruel et surfait des adultes, décide à l'âge de trois ans de ne plus grandir.\r Palme d'or 1979 à Cannes",
-      "releaseInfo": "1979"
+      "name": "Godzilla vs Biollante",
+      "poster": "https://image.tmdb.org/t/p/w500/tnr08DybaDBALD7mA0iroomek1G.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qpqKeG0TujGRHvk6bnvmoGGvVMN.jpg",
+      "description": "Quelques cellules de Godzilla sont récupérées à Tokyo sur le lieu du combat précédent. Le professeur Shiragami est chargé de les étudier, mais malheureusement le laboratoire est attaqué et sa fille bien-aimée tuée. Le professeur abandonne le projet, et se consacre à une rose, trouvée près du corps de sa fille, et dans laquelle l'âme de cette dernière s'est, pense-t-il, réincarnée. Cinq ans plus tard, le professeur est recontacté pour créer une arme bactériologique à partir des cellules de Godzilla, car ce dernier est en train de se réveiller. Mais le professeur Shiragami mélange en fait les cellules du monstre avec celles de la fameuse rose qui est en train de mourir. Cela va donner naissance à Biollante.",
+      "releaseInfo": "1989"
     }
   ]
 }

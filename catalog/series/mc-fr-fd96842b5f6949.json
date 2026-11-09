@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:35086",
+      "type": "series",
+      "name": "Alaska State Troopers",
+      "poster": "https://image.tmdb.org/t/p/w500/iwI0baUzUbT4k0EpZoY245lTk0s.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ifnrPkfLOIu2l2Ym0K11u29Q6ri.jpg",
+      "description": "Suivez ces agents de sécurité qui ont pour mission de protéger les vies, les biens et les droits constitutionnels des habitants dans l’un des Etats les plus hostiles : l’Alaska.",
+      "releaseInfo": "2009"
+    },
+    {
       "id": "tmdb:90439",
       "type": "series",
       "name": "La dernière bataille d'Hitler",
@@ -13,6 +22,14 @@
       "id": "tmdb:340419",
       "type": "series",
       "name": "Cars That Changed History",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:340728",
+      "type": "series",
+      "name": "MEGASTORM",
+      "poster": "https://image.tmdb.org/t/p/w500/eVpX4Mvh9LDNu5xqvHmoL1Rr8Il.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uzPfZrkwHvJ8g7Jxhxwg4hiKkql.jpg",
       "releaseInfo": "2026"
     }
   ]

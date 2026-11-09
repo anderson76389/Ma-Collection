@@ -81,6 +81,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:313973",
+      "type": "series",
+      "name": "Dans mon casier : Zombies",
+      "poster": "https://image.tmdb.org/t/p/w500/zU2nlFypfcjzuydw9gKmqsbxcZX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mS3l4HMv6xCY7XLnoIsJtrHk6wn.jpg",
+      "description": "Plongez dans les drames qui animent les couloirs de Shadyside et Sunnyside, et découvrez les aventures secrètes qui s'y trament.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:279601",
       "type": "series",
       "name": "Seul face au bébé",
@@ -167,15 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/2QZAkwZZ1SI72YD2IygwVMDSP4k.jpg",
       "background": "https://image.tmdb.org/t/p/w780/yJNopTE4y4kOvdC0uPCdxLaGB6j.jpg",
       "description": "Les trois membres du groupe de pop ultracélèbre « Electric Bloom » racontent l'histoire de leur groupe et leur amitié, depuis le jour de leur rencontre au lycée. La brillante Posey, la rebelle Jade et l'excentrique Tulip entament un voyage pour le plus grand groupe du monde et les meilleures amies de l'univers.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:286170",
-      "type": "series",
-      "name": "Wylde Pak",
-      "poster": "https://image.tmdb.org/t/p/w500/jnrR6NqTxyNHARpth1glmA37vAo.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dfB0hPku5IRvwAoTKQef1zs1JHZ.jpg",
-      "description": "Lily et Jack sont des demi-frère et sœur qui se retrouvent ensemble pour un été et doivent apprendre à gérer leur nouvelle dynamique familiale tout en aidant la famille Wylde Pak dans son entreprise chaotique de toilettage pour animaux.",
       "releaseInfo": "2025"
     }
   ]

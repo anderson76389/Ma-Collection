@@ -1,15 +1,6 @@
 {
   "metas": [
     {
-      "id": "tmdb:30984",
-      "type": "series",
-      "name": "Bleach",
-      "poster": "https://image.tmdb.org/t/p/w500/e0kKmeM8R7Kersh5N2PPzIRNRhr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/o0NsbcIvsllg6CJX0FBFY8wWbsn.jpg",
-      "description": "Adolescent de quinze ans, Ichigo Kurosaki possède un don particulier : celui de voir les esprits. Un jour, il croise la route d'une belle Shinigami (un être spirituel) en train de pourchasser une « âme perdue », un esprit maléfique qui hante notre monde et n'arrive pas à trouver le repos. Mise en difficulté par son ennemi, la jeune fille décide alors de prêter une partie de ses pouvoirs à Ichigo, mais ce dernier hérite finalement de toute la puissance du Shinigami. Contraint d'assumer son nouveau statut, Ichigo va devoir gérer ses deux vies : celle de lycéen ordinaire, et celle de chasseur de démons…",
-      "releaseInfo": "2004"
-    },
-    {
       "id": "tmdb:220150",
       "type": "series",
       "name": "Pokémon : Les horizons",
@@ -62,29 +53,22 @@
       "releaseInfo": "2019"
     },
     {
+      "id": "tmdb:106301",
+      "type": "series",
+      "name": "Cardfight!! Vanguard : Over Dress",
+      "poster": "https://image.tmdb.org/t/p/w500/mjKtwfnz1X7ehbFgHqRoVoDT8DR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1uuWlEEAZHnPX1VnwqJc7pfo2YM.jpg",
+      "description": "Yûyu Kondô, élève en troisième année de collège, est capable de lire dans le cœur des autres. Mais ceux qui connaissent son don, notamment sa famille, ont tendance à profiter de lui. Cherchant à fuir cet environnement, Yûyu fait un jour la connaissance de Megumi. Elle l’entraîne dans un endroit où se réunissent des joueurs Vanguard, notamment le groupe Team Blackout. L’adolescent est alors fasciné par ce jeu de cartes et la manière dont chaque équipe défend ses couleurs. Il se laisse convaincre de rejoindre ces nouveaux camarades...",
+      "releaseInfo": "2021"
+    },
+    {
       "id": "tmdb:313346",
       "type": "series",
       "name": "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life",
       "poster": "https://image.tmdb.org/t/p/w500/lEUUMZ8zylAPP797UMugdYjuxRP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/msusxF6ZPGnQmTGXU9iC4UJOohs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/j7KrALvuZgBdwVZkOIRc9Xaeyt4.jpg",
       "description": "Rein l'Enchanteur est un mage capable d'améliorer les armes et les armures. Mais lorsqu'il se fait renvoyer de sa guilde pour la simple raison qu'il a déjà enchanté tout ce qu'elle possède, il décide de reprendre tous les sorts qu’il a transmis à ses ex-compagnons et les affecte à son propre équipement. En chemin, Rein rassemble une bande de parias comme lui et, ensemble, ils explorent le monde.",
       "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:221725",
-      "type": "series",
-      "name": "ちびゴジラの逆襲",
-      "poster": "https://image.tmdb.org/t/p/w500/be7uDWl2vWMX5OeAA8S6FNCT5Ei.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hOhHzMu6R1sVs80gLfaMSJ8jGgg.jpg",
-      "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:207553",
-      "type": "series",
-      "name": "そこ曲がったら、櫻坂？",
-      "poster": "https://image.tmdb.org/t/p/w500/7S5jOnC05iezRKSaevmSYitkaKN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/k2R3VPIcmxBkGZR4b2ECmwCNtzP.jpg",
-      "releaseInfo": "2020"
     },
     {
       "id": "tmdb:205493",
@@ -94,6 +78,14 @@
       "background": "https://image.tmdb.org/t/p/w780/x3kTIGpx66VUTlUsPASyfjAlp98.jpg",
       "description": "Lorsque le prodige du tennis, Ryoma Echizen, est expulsé du camp d'entraînement de l'élite des moins de 17 ans du Japon pour avoir enfreint les règles, il est désemparé. Mais la chance lui sourit quand il apprend qu’il peut tenter sa chance dans l'équipe américaine. Faire ses preuves face à leurs vétérans endurcis ne sera pas facile et, s'il est accepté, il devra jouer contre ses anciens amis. Pourra-t-il aider ses nouveaux équipiers à se frayer un chemin vers la victoire ?",
       "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:207553",
+      "type": "series",
+      "name": "そこ曲がったら、櫻坂？",
+      "poster": "https://image.tmdb.org/t/p/w500/7S5jOnC05iezRKSaevmSYitkaKN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/k2R3VPIcmxBkGZR4b2ECmwCNtzP.jpg",
+      "releaseInfo": "2020"
     },
     {
       "id": "tmdb:202396",
@@ -113,13 +105,12 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:276288",
+      "id": "tmdb:308216",
       "type": "series",
-      "name": "HOTEL INHUMANS",
-      "poster": "https://image.tmdb.org/t/p/w500/6ZHkFKJekNYADTByu3QI7vJaUbC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1Ik6i72QjVRNQ3N475uxiFxRrv9.jpg",
-      "description": "Les meilleurs hôtels doivent répondre à un certain standing, notamment une cuisine raffinée, un confort irréprochable et des divertissements variés. Bien sûr, ils doivent aussi disposer des dernières armes de pointe, offrir de fausses identités et faciliter l’élimination de preuves. Dans cet hôtel aux frontières de la mort se trouvent deux concierges, Ikuro Hoshi et Sara Haizaki. Ils sont toujours aux petits soins pour leurs clients assassins.",
-      "releaseInfo": "2025"
+      "name": "ウルトラマンテオ",
+      "poster": "https://image.tmdb.org/t/p/w500/hopGvshpcVNJLok4PEiwmigbkav.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r1AdjOSOUBZiy9GWABVvvZHNOGY.jpg",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:337277",
@@ -130,12 +121,13 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:308216",
+      "id": "tmdb:276288",
       "type": "series",
-      "name": "ウルトラマンテオ",
-      "poster": "https://image.tmdb.org/t/p/w500/hopGvshpcVNJLok4PEiwmigbkav.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/r1AdjOSOUBZiy9GWABVvvZHNOGY.jpg",
-      "releaseInfo": "2026"
+      "name": "HOTEL INHUMANS",
+      "poster": "https://image.tmdb.org/t/p/w500/6ZHkFKJekNYADTByu3QI7vJaUbC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1Ik6i72QjVRNQ3N475uxiFxRrv9.jpg",
+      "description": "Les meilleurs hôtels doivent répondre à un certain standing, notamment une cuisine raffinée, un confort irréprochable et des divertissements variés. Bien sûr, ils doivent aussi disposer des dernières armes de pointe, offrir de fausses identités et faciliter l’élimination de preuves. Dans cet hôtel aux frontières de la mort se trouvent deux concierges, Ikuro Hoshi et Sara Haizaki. Ils sont toujours aux petits soins pour leurs clients assassins.",
+      "releaseInfo": "2025"
     },
     {
       "id": "tmdb:312123",
@@ -159,6 +151,14 @@
       "name": "ごーすと・みーつ・ぎゃる！",
       "poster": "https://image.tmdb.org/t/p/w500/lmckivRH2w5KDzCaX3jc9EWAFPj.jpg",
       "background": "https://image.tmdb.org/t/p/w780/tRKExfBgUi4LzZ4z1bZ0W7RRg6w.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:332635",
+      "type": "series",
+      "name": "赤灯えれじい",
+      "poster": "https://image.tmdb.org/t/p/w500/aPmUvJi2OJNJy632zohALjB2gui.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hcbJIOv31UPuHlJjcVN5RwP9ZXZ.jpg",
       "releaseInfo": "2026"
     },
     {

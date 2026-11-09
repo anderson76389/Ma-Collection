@@ -1,11 +1,29 @@
 {
   "metas": [
     {
+      "id": "tmdb:891621",
+      "type": "movie",
+      "name": "Wild Horse Nine",
+      "poster": "https://image.tmdb.org/t/p/w500/hnBtud9vLr9arsUW8nxrzIz2uA4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3uLA0ujne91bkzFStZICCYeqhnt.jpg",
+      "description": "Peu avant le coup d'État chilien de 1973, deux agents de la CIA, Chris et Lee, sont envoyés de Santiago vers l'île de Pâques par leur supérieur, MJ. Au milieu des statues emblématiques de l'île, tandis que ces partenaires de longue date sont confrontés à leur sombre passé et aux complots en cours, Chris noue une relation avec deux étudiantes rebelles qui menace de faire basculer dans le chaos leur séjour dans ce paradis isolé…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1294189",
+      "type": "movie",
+      "name": "The Mongoose",
+      "poster": "https://image.tmdb.org/t/p/w500/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bySCyjQXNPgsnLTlgJpSMnRazPD.jpg",
+      "description": "Accusé d'un crime qu'il n'a pas commis et n'ayant plus rien à perdre, un héros de guerre aux prises avec un syndrome de stress post-traumatique entraîne les forces de l'ordre dans une course-poursuite effrénée à travers tout le pays, avec l'aide de ses frères d'armes, tandis qu'un public captivé encourage sa fuite.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1400940",
       "type": "movie",
       "name": "Clayface",
       "poster": "https://image.tmdb.org/t/p/w500/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg",
       "description": "L'ascension fulgurante de Matt Hagen, de gamin des rues de Gotham à star hollywoodienne, est brutalement interrompue lorsqu'un baron du crime le laisse atrocement défiguré. Abandonné de tous et n'ayant plus rien à perdre, Matt se tourne vers un traitement expérimental qui lui rend miraculeusement son apparence... mais altère profondément sa perception de la réalité. Il sombre alors dans une spirale destructrice, consumé par un irrépressible désir de vengeance.",
       "releaseInfo": "2026"
     },
@@ -64,6 +82,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1376400",
+      "type": "movie",
+      "name": "Crawlers",
+      "poster": "https://image.tmdb.org/t/p/w500/lNXeEpg4yLSRwXwOeR5lbPgwbqL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ayJsUQ4bEG6yY0UB6lMboiaDfYE.jpg",
+      "description": "Un homme revient d'un voyage en hébergeant involontairement une nouvelle race d'arachnide. Bientôt, les habitants des son immeuble sont mis en quarantaine et doivent se débrouiller seuls face à une invasion d'araignées venimeuses.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1290418",
       "type": "movie",
       "name": "The Cycle",
@@ -76,8 +103,8 @@
       "id": "tmdb:1375441",
       "type": "movie",
       "name": "Primetime",
-      "poster": "https://image.tmdb.org/t/p/w500/rhF8JALH8wrxKtXSCAB7a09tWsc.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/8W69bkus937B2OzJapRmw2uY42s.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sEsMwSDUWGIx9EfNxzM6KzVSsSQ.jpg",
       "description": "Chris Hansen présente l'émission policière « To Catch a Predator ». Diffusée sur NBC Dateline, cette émission tente de filmer des pédophiles présumés avec l'aide des forces de l'ordre et d'une équipe d'appâts se faisant passer pour des mineurs sur Internet. En 2006, Hansen est sur le point de révolutionner le monde de la télévision.",
       "releaseInfo": "2026"
     },
@@ -94,9 +121,9 @@
       "id": "tmdb:1263337",
       "type": "movie",
       "name": "Heart of the Beast",
-      "poster": "https://image.tmdb.org/t/p/w500/qjH0jF5cLZiKS97eNn4S2AdpiHW.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bicMU6xVD5deVyKP2azpyx7xkmH.jpg",
-      "description": "Après un terrible crash d’avion, James Belmont (Brad Pitt), ancien des forces spéciales, se retrouve perdu au cœur de l’Alaska avec son chien Odin, depuis toujours à ses côtés. Livrés à eux-mêmes dans une nature aussi magnifique qu’impitoyable, ils devront puiser dans leurs dernières forces pour survivre ensemble.",
+      "poster": "https://image.tmdb.org/t/p/w500/4t1ASmI2IQEAoO8hirEGQ6nMEib.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kpqsljPQtWqPKJBTAEtoXtQZ9Ko.jpg",
+      "description": "Après un terrible écrasement d'avion, James Belmont, ancien des forces spéciales, se retrouve perdu au coeur de l'Alaska avec son chien Odin, depuis toujours à ses côtés. Livrés à eux-mêmes dans une nature aussi magnifique qu'impitoyable, ils devront puiser dans leurs dernières forces pour survivre ensemble.",
       "releaseInfo": "2026"
     },
     {
@@ -104,7 +131,7 @@
       "type": "movie",
       "name": "Les Contrebandiers",
       "poster": "https://image.tmdb.org/t/p/w500/vaqivu9jGF9n41rhMExGetkIy18.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4klejBUCWsq2F9GHB5EH5mQdFOg.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/myA2cjsISTbTJQK6HWnZffFJK6j.jpg",
       "description": "Dans l'Oregon en 1933, Samuel Murphy a perdu sa femme et vit seul avec sa fille Penny. Mais il est arrêté et placé dans un camp de travail. Clancy, le directeur de la prison, propose à Samuel et à plusieurs autres détenus de regagner leur liberté en échange de leur participation à un dangereux trafic d'or. Pour retrouver la garde de sa fille, Samuel n'a pas le choix.",
       "releaseInfo": "2026"
     },
@@ -127,6 +154,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1377237",
+      "type": "movie",
+      "name": "Runner",
+      "poster": "https://image.tmdb.org/t/p/w500/4gRzxdF2IEGiANKEDVtjMuNl12n.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/npXZNWjOEYrqdMDPQ11SGBrXqAG.jpg",
+      "description": "Un ancien soldat se retrouve engagé dans une course contre la montre lorsqu’une livraison médicale essentielle fait de lui et de son partenaire improbable la cible d’un cartel impitoyable. La mission se transforme rapidement en une chasse à l’homme meurtrière, où chaque détour, chaque retard et chaque balle les rapprochent de l’échec. Traqués de toutes parts, ils doivent survivre à cette poursuite et livrer leur cargaison à temps pour sauver la vie d’une petite fille.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1386315",
       "type": "movie",
       "name": "The Runner",
@@ -142,41 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/evCy2B3j57AwSNBZqlePjMl3zj3.jpg",
       "background": "https://image.tmdb.org/t/p/w780/nw9Q3idNO8EsTPnvr8vBJTpkWGA.jpg",
       "description": "Un jeune agent noir du FBI est envoyé au Mississippi dans les années 60 afin d’enquêter sur une vague de meurtres brutaux visant des leaders du mouvement des droits civiques. Contraint de faire équipe avec le célèbre tueur à gages de la mafia Greg Scarpa, il se retrouve entraîné dans une traque meurtrière où la frontière entre justice et vengeance devient de plus en plus floue.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1284046",
-      "type": "movie",
-      "name": "Onslaught",
-      "poster": "https://image.tmdb.org/t/p/w500/92SC3guG88KQmZ8GQBKNIxz5OrB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
-      "description": "Lorsqu’une escouade de supersoldats génétiquement modifiés s’évade dans le désert, une redoutable tireuse d’élite de l’armée doit livrer une guerre sans merci pour sauver sa fille.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1101412",
-      "type": "movie",
-      "name": "Fall 2 : Deadpoint",
-      "poster": "https://image.tmdb.org/t/p/w500/glySqxnvhTYDmKqM1gFovrYUnQa.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nGau0KBOaRILSK5MqFcuTfv7GMl.jpg",
-      "description": "Dévastée par la mort de sa sœur Hunter, Jax se lie d’amitié avec Luce, l’intrépide amie de Hunter. Dans l’espoir de guérir, elles entreprennent la célèbre traversée sur planches du mont Kwan, en Thaïlande. Après un éboulement soudain, elles se retrouvent piégées sur une passerelle fragile à 900 mètres au-dessus du vide. Jax devra alors affronter ses peurs les plus profondes, se battre pour survivre et espérer tourner la page.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1482547",
-      "type": "movie",
-      "name": "Zip Wire",
-      "poster": "https://image.tmdb.org/t/p/w500/cO7J0XSVKPlAjUCMWC7DVBn1Py2.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yIwdIsM2Nr6EaiWy23mQqxvmoNh.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1480574",
-      "type": "movie",
-      "name": "Just Play Dead",
-      "poster": "https://image.tmdb.org/t/p/w500/e0WaDBrrBAMcq2stAXCR7rXEsiw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tieojVpH6eW44JQOQEWnf8t4khG.jpg",
-      "description": "Lorsque Jack Wolfe est acculé par le FBI, il prévoit de simuler sa propre mort et de toucher les 30 millions de dollars de son assurance-vie avec la complicité de sa femme “endeuillée”, Nora, tout en faisant accuser son amant, Chad, de son meurtre. Mais Nora a son propre plan : tuer Jack pour de bon, faire accuser Chad et garder la fortune pour elle seule.",
       "releaseInfo": "2026"
     }
   ]

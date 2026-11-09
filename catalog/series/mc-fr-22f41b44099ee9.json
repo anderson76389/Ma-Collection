@@ -18,14 +18,6 @@
       "releaseInfo": "2002"
     },
     {
-      "id": "tmdb:322640",
-      "type": "series",
-      "name": "Last Meals",
-      "poster": "https://image.tmdb.org/t/p/w500/Ac18Q0jf42TfkWHoaMSdnGSc27q.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/w6LzGbQh4ZMKjSFUQyO9XnKnMM6.jpg",
-      "releaseInfo": "2021"
-    },
-    {
       "id": "tmdb:30745",
       "type": "series",
       "name": "Ça va chauffer ! Australie",
@@ -44,15 +36,6 @@
       "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:74676",
-      "type": "series",
-      "name": "Halloween Baking Championship",
-      "poster": "https://image.tmdb.org/t/p/w500/tAVW4mcMTBEqFOaA3VRs5QHAbFy.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uA6HxWmm0Or3QZJKw69OFOcnuHG.jpg",
-      "description": "Halloween Baking Championship est une émission de compétition de cuisine américaine. C'est un programme saisonnier qui ne dure que quelques semaines et vise à couronner le meilleur pâtissier, auteur de desserts effrayants pendant la période d'Halloween. Durant chaque épisode de deux rounds, un pâtissier est éliminé sauf dans le dernier épisode de la saison. Dans la finale, les quatre derniers concurrents s'affrontent dans un dernier round. Le gagnant remporte le prix de 25 000 $.",
-      "releaseInfo": "2015"
-    },
-    {
       "id": "tmdb:211201",
       "type": "series",
       "name": "Bobby's Triple Threat",
@@ -67,6 +50,30 @@
       "poster": "https://image.tmdb.org/t/p/w500/bQqv15gu9eKto8HjooaS2bw6hIf.jpg",
       "background": "https://image.tmdb.org/t/p/w780/5o2mu6NSKjpXYifzXsSEfF3ngKp.jpg",
       "releaseInfo": "2014"
+    },
+    {
+      "id": "tmdb:240444",
+      "type": "series",
+      "name": "Without A Recipe",
+      "poster": "https://image.tmdb.org/t/p/w500/zK1qUg6wYlO0Yo1xxnFqyWbNUm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jroTvK95Ftu0kjxmKeSHG7rxdX0.jpg",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:305340",
+      "type": "series",
+      "name": "Holiday Bakeshop",
+      "poster": "https://image.tmdb.org/t/p/w500/pkgwPY5ZBDt71LLqAZh4PeV4fbH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bhhNfvutDbw8xIJfLioOy5Zvhus.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:340954",
+      "type": "series",
+      "name": "Aldi: The Next Big Seller",
+      "poster": "https://image.tmdb.org/t/p/w500/lLXgvBVd44r4Gsr2snpBywROa7c.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3pF5wXg2scLyCALwiTsoGOJ9Csx.jpg",
+      "releaseInfo": "2026"
     }
   ]
 }

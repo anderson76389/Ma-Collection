@@ -1,15 +1,6 @@
 {
   "metas": [
     {
-      "id": "tmdb:4614",
-      "type": "series",
-      "name": "NCIS : Enquêtes Spéciales",
-      "poster": "https://image.tmdb.org/t/p/w500/salC1Yhi3QW8DW5iIJGFQOzPWVQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/c1aBrG5s5xFa6Tbnihu2Hhj4t2q.jpg",
-      "description": "L'agent spécial Leroy Jethro Gibbs, de la Section criminelle de la Gendarmerie maritime, dirige un groupe de personnes aux personnalités colorées qui enquête sur les crimes. Ceux-ci vont du meurtre et de l'espionnage au terrorisme, et sont reliés de manière assurée au personnel du corps de la Marine. L'équipe est composée d'Anthony DiNozzo, un ex-inspecteur plein d'esprit spécialisé en homicides, d'Abby Sciuto, l'excentrique spécialiste d'enquête en technique de laboratoire, de Timothy McGee, brillant lorsqu'inquiet, et de Ziva David, ex-officier de liaison du Mossad. Le Dr Donald \"Ducky\" Mallard contribue à la résolution de cas grâce à sa grande expérience dans le domaine de la médecine légale.",
-      "releaseInfo": "2003"
-    },
-    {
       "id": "tmdb:80748",
       "type": "series",
       "name": "FBI",
@@ -28,24 +19,6 @@
       "releaseInfo": "2000"
     },
     {
-      "id": "tmdb:290856",
-      "type": "series",
-      "name": "Marshals: A Yellowstone Story",
-      "poster": "https://image.tmdb.org/t/p/w500/jPOKjzCG8tgUigtWyA4ME9fNeia.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yGJGwt7DdIWTUXuahLfhcH1gi7G.jpg",
-      "description": "Le ranch du Yellowstone derrière lui, Kayce Dutton rejoint une unité des U.S. Marhals. Cowboy et ancien Navy SEAL, il apporte la justice dans le Montana. Lui et ses coéquipiers sont le dernier rempart de la région dans la guerre contre la violence.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:126027",
-      "type": "series",
-      "name": "Ghosts : Fantômes à la maison",
-      "poster": "https://image.tmdb.org/t/p/w500/eeQxQnvX8RjvNLWzeaHXgLjjQsk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/p5FOkor90VRBJEEhUMFdFdkixfe.jpg",
-      "description": "A la mort de sa grand-tante, Sam hérite d'un manoir en ruine habité par les esprits de différents personnages morts sur les lieux à travers les siècles. Elle projette, avec son mari Jay, de transformer le manoir en hôtel. Suite à un accident qui l'a rapprochée de la mort, elle peut voir et entendre les fantômes.",
-      "releaseInfo": "2021"
-    },
-    {
       "id": "tmdb:4026",
       "type": "series",
       "name": "CBS News Sunday Morning",
@@ -54,12 +27,20 @@
       "releaseInfo": "1979"
     },
     {
-      "id": "tmdb:211288",
+      "id": "tmdb:651",
       "type": "series",
-      "name": "Tracker",
-      "poster": "https://image.tmdb.org/t/p/w500/kjJMlFtMOtqHpLWHl1OJ3qhSV01.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5C5cMYUlmX6BU5YxBqhp7ZpSd3Q.jpg",
-      "description": "Colter Shaw est un loup solitaire, qui parcourt le pays à bord de son camping-car, utilisant ses talents de pisteur pour aider les particuliers et les forces de l'ordre à résoudre toutes sortes de crimes ou à retrouver les personnes disparues.",
+      "name": "60 Minutes",
+      "poster": "https://image.tmdb.org/t/p/w500/d0wn9btLfygVREA4Fp6Y6HdzqYF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/s4jP2FlmBlFn3BgQJ0tWACl4bZN.jpg",
+      "releaseInfo": "1968"
+    },
+    {
+      "id": "tmdb:243875",
+      "type": "series",
+      "name": "Georgie & Mandy's First Marriage",
+      "poster": "https://image.tmdb.org/t/p/w500/vonR5GlaCJpSqIQMUcBm6VQYYuu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/h927CLfeAjiy0MNKRxWZgEq7bHR.jpg",
+      "description": "Cette suite de Young Sheldon suit Georgie et Mandy alors qu'ils élèvent leur jeune famille au Texas.",
       "releaseInfo": "2024"
     },
     {
@@ -70,15 +51,6 @@
       "background": "https://image.tmdb.org/t/p/w780/mSkisNewxu55Ivar5EubhcIuoqn.jpg",
       "description": "Cette compétition de réalité voit les équipes se lancer dans une randonnée autour du monde vers des destinations incroyables où elles doivent s'affronter dans une série de défis, certains mentaux et d'autres physiques. Ce n'est que lorsque les tâches sont terminées qu'ils apprendront leur prochain emplacement. Les équipes les plus en retard seront progressivement éliminées au fur et à mesure que le concours progresse, la première équipe à arriver à la destination finale remportant la course et le prix de 1 million de dollars.",
       "releaseInfo": "2001"
-    },
-    {
-      "id": "tmdb:243875",
-      "type": "series",
-      "name": "Georgie & Mandy's First Marriage",
-      "poster": "https://image.tmdb.org/t/p/w500/vonR5GlaCJpSqIQMUcBm6VQYYuu.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/h927CLfeAjiy0MNKRxWZgEq7bHR.jpg",
-      "description": "Cette suite de Young Sheldon suit Georgie et Mandy alors qu'ils élèvent leur jeune famille au Texas.",
-      "releaseInfo": "2024"
     },
     {
       "id": "tmdb:2051",
@@ -106,6 +78,15 @@
       "releaseInfo": "2025"
     },
     {
+      "id": "tmdb:226285",
+      "type": "series",
+      "name": "Elsbeth",
+      "poster": "https://image.tmdb.org/t/p/w500/9z0Om55O2jmS1QaKRz9UGxPkQyH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/t7kDn4X7JpRnBlKN0vPVy5RXZlA.jpg",
+      "description": "Suite à la remise en cause de certaines arrestations conduisant à des soupçons de corruption, Elsbeth Tascioni, avocate de Chicago, est mandatée pour observer les enquêtes de l'unité des Affaires Sensibles de la police de New York.",
+      "releaseInfo": "2024"
+    },
+    {
       "id": "tmdb:289560",
       "type": "series",
       "name": "CIA",
@@ -113,23 +94,6 @@
       "background": "https://image.tmdb.org/t/p/w780/faxI8ewOUkQRy4z4vwP6kci8Ilk.jpg",
       "description": "Un agent de la CIA au tempérament imprévisible, adepte du franc-parler et peu soucieux des règles, et un agent du FBI chevronné, brillant et respectueux des procédures, attaché à l'État de droit. Lorsque ce duo atypique est affecté à l'antenne new-yorkaise de la CIA, ils doivent apprendre à collaborer pour enquêter sur des affaires et des criminels menaçant le sol américain, découvrant ainsi que leurs différences pourraient bien constituer leur plus grande force.",
       "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1054",
-      "type": "series",
-      "name": "Les Feux de l'Amour",
-      "poster": "https://image.tmdb.org/t/p/w500/tr3JrJzhgcBy7DZ1DlPSMrKz1BM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/24plaX4WSNEbqx74MzZBLPwlpBE.jpg",
-      "description": "L'histoire tourne autour de familles vivant à Genoa City, dans le Wisconsin, aux États-Unis. Les personnages du feuilleton sont répartis en différents clans et plusieurs familles. Au début, le feuilleton  était centré sur la rivalité entre les Brooks et les Foster, mais a  depuis fortement évolué. Aujourd'hui, les Chancellor possèdent une forte  notoriété historique dans la ville tandis que les Newman et les Abbott  dominent le monde de l'entreprise sur le plan national.",
-      "releaseInfo": "1973"
-    },
-    {
-      "id": "tmdb:3719",
-      "type": "series",
-      "name": "48 Hours",
-      "poster": "https://image.tmdb.org/t/p/w500/kniPe4BLIcj2WnErZcFeHo50q6B.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dsf201EcCENveE99OHK6vwYgekn.jpg",
-      "releaseInfo": "1988"
     },
     {
       "id": "tmdb:253391",
@@ -141,13 +105,13 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:243006",
+      "id": "tmdb:1054",
       "type": "series",
-      "name": "NCIS : Origins",
-      "poster": "https://image.tmdb.org/t/p/w500/bwzKkL8u5oXsgmVFFe1qu4kLJGG.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mxq7PO5QCIqBEeU09xfthxx7wGY.jpg",
-      "description": "L'histoire commence en 1991, des années avant les événements de NCIS, et suit le jeune Leroy Jethro Gibbs. Débutant sa carrière en tant que nouvel agent spécial au bureau du NCIS à Camp Pendleton, Gibbs se fait une place au sein d’une équipe hétéroclite et courageusement dirigée par la légende du NCIS Mike Franks.",
-      "releaseInfo": "2024"
+      "name": "Les Feux de l'Amour",
+      "poster": "https://image.tmdb.org/t/p/w500/tr3JrJzhgcBy7DZ1DlPSMrKz1BM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/24plaX4WSNEbqx74MzZBLPwlpBE.jpg",
+      "description": "L'histoire tourne autour de familles vivant à Genoa City, dans le Wisconsin, aux États-Unis. Les personnages du feuilleton sont répartis en différents clans et plusieurs familles. Au début, le feuilleton  était centré sur la rivalité entre les Brooks et les Foster, mais a  depuis fortement évolué. Aujourd'hui, les Chancellor possèdent une forte  notoriété historique dans la ville tandis que les Newman et les Abbott  dominent le monde de l'entreprise sur le plan national.",
+      "releaseInfo": "1973"
     },
     {
       "id": "tmdb:6647",
@@ -167,12 +131,45 @@
       "releaseInfo": "2009"
     },
     {
-      "id": "tmdb:216247",
+      "id": "tmdb:284736",
       "type": "series",
-      "name": "CBS Mornings",
-      "poster": "https://image.tmdb.org/t/p/w500/kLxvqYcHpzC86jfZsYhQf8UGzne.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/88QJHteDz2hsOrylsX7jw8DYANZ.jpg",
-      "releaseInfo": "2021"
+      "name": "Boston Blue",
+      "poster": "https://image.tmdb.org/t/p/w500/81IhL3ckAgJ9J8vHazlUA5BNs8G.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lU3esiXkPlIccL8FUcrSE7LzOzy.jpg",
+      "description": "Danny Reagan, inspecteur de la police de New York, accepte un poste au sein du département de police de Boston et fait équipe avec Lena Silver, l'aînée d'une famille influente des forces de l'ordre. La famille Silver comprend la procureure de Boston, Mae Silver, l'inspectrice Lena Silver, la commissaire Sarah Silver, le jeune policier Jonah Silver et le pasteur baptiste renommé, le révérend Edwin Peters. Alors que Reagan s'installe dans sa nouvelle ville, il espère également renouer avec son plus jeune fils, Sean, qui débute sa carrière à Boston.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:303630",
+      "type": "series",
+      "name": "Cupertino",
+      "poster": "https://image.tmdb.org/t/p/w500/70AhJpOqU2oKyQF2paJA764CSje.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/f9BMWxAWzFqXtqayrAyNbDFg9cK.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:313630",
+      "type": "series",
+      "name": "Eternally Yours",
+      "poster": "https://image.tmdb.org/t/p/w500/gMKJJtwOnTkhkbdQabyo7OKTosb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1bmsSexBYKUlkst0TgHZCdf4EvH.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:301873",
+      "type": "series",
+      "name": "CBS Saturday Morning",
+      "poster": "https://image.tmdb.org/t/p/w500/dz1I9M2Ef0GfVXgtPrXwysUZB3Z.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lgvpQPJFNllnNRmMxaTHIdqFdgm.jpg",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:305997",
+      "type": "series",
+      "name": "Harlan Coben's Final Twist",
+      "poster": "https://image.tmdb.org/t/p/w500/qwUeHTIRGKWZr2rnpqSh21PvMLS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cWpmxJNlQWOVF2wPH4TjzIozRZ.jpg",
+      "releaseInfo": "2026"
     }
   ]
 }

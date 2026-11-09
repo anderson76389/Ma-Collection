@@ -1,94 +1,58 @@
 {
   "metas": [
     {
-      "id": "tmdb:194766",
+      "id": "tmdb:253376",
       "type": "series",
-      "name": "L'Été où je suis devenue jolie",
-      "poster": "https://image.tmdb.org/t/p/w500/1UjOeSZHunQqpSimmobGCWzkuXh.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jCQV3rHNbgHKo3N4G6CARbVEjPV.jpg",
-      "description": "Isabel « Belly » Conklin passe ses étés à Cousin's Beach avec sa mère et son frère aîné, ainsi que le meilleur ami de sa mère et ses fils. Au cours d'un été bien précis, elle va connaître son premier amour mais aussi sa première peine de cœur.",
-      "releaseInfo": "2022"
+      "name": "The Girlfriend",
+      "poster": "https://image.tmdb.org/t/p/w500/69EcVKImkW9byMiGbVWsqDU8KtK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lnVWmFvLv2pTZGsuAJytiqKu541.jpg",
+      "description": "Laura a tout pour elle : une carrière brillante, un mari attentionné et Daniel, son fils adoré. Mais sa vie parfaite vacille lorsque Daniel présente sa petite amie Cherry. Après cette rencontre tendue, Laura est convaincue que Cherry cache quelque chose. Est-elle une opportuniste manipulatrice, ou bien Laura est-elle paranoïaque ? Tout est question de perspective.",
+      "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:48866",
+      "id": "tmdb:77345",
       "type": "series",
-      "name": "Les 100",
-      "poster": "https://image.tmdb.org/t/p/w500/1ePsCN6vpduAX1LxEdqfbwfS4nf.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8ZerYKvIaNUJZvAHXYTQu4qTwFw.jpg",
-      "description": "Après une apocalypse causée par l'Homme lors d'une Troisième Guerre mondiale, les survivants se réfugient dans des stations spatiales et parviennent à y vivre et à se reproduire, atteignant le nombre de 4000. Mais 97 ans plus tard, le vaisseau mère, The Ark, est en piteux état. Une centaine de jeunes délinquants, emprisonnés au fil des années pour des crimes ou des trahisons, sont choisis comme cobayes par les autorités pour redescendre sur Terre et tester les chances de survie. Dès leur arrivée, ils découvrent un nouveau monde dangereux mais fascinant…",
-      "releaseInfo": "2014"
-    },
-    {
-      "id": "tmdb:4386",
-      "type": "series",
-      "name": "Alerte à Malibu",
-      "poster": "https://image.tmdb.org/t/p/w500/6qcHgLbhz2cncGFi9d4PQkpEdZX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yXuZVMnOEsIhx1vtu9kJGpzmjGN.jpg",
-      "description": "Une brigade de sauvetage du comté de Los Angeles (L.A. County Beach Patrol) menée par le lieutenant Mitch Buchannon et composée d'une dizaine de sauveteurs doit faire face chaque jour aux dangers de la plage de Malibu, tout en composant avec leur vie personnelle.",
-      "releaseInfo": "1989"
-    },
-    {
-      "id": "tmdb:64432",
-      "type": "series",
-      "name": "The Magicians",
-      "poster": "https://image.tmdb.org/t/p/w500/vMXD0GNUDUmP0nmjHg5iYG5b9EB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qb9vehNFxTpPrazhD7JJ6QtEtCv.jpg",
-      "description": "Bientôt diplômé, Quentin Coldwater a du mal à se projeter dans son avenir en laissant de côté la magie qui le passionne depuis sa tendre enfance. A sa grande surprise, le jeune homme est admis à Brakebills, une école secrète qui forme les futurs magiciens. Il y fait la connaissance d'Alice, Penny, Margo et Eliot , avec lesquels il entretient des relations tantôt complices et souvent conflictuelles. Ensemble, ils vont pourtant devoir faire face à de grands dangers, des forces maléfiques venues de contrées insoupçonnées. Pendant ce temps, Julia, la meilleure amie de Quentin, qui a échoué aux tests d'admission de Brakebills, suit son propre chemin. Un chemin obscur et dangereux qui pourrait la mener à sa perte…",
-      "releaseInfo": "2015"
-    },
-    {
-      "id": "tmdb:36",
-      "type": "series",
-      "name": "Medium",
-      "poster": "https://image.tmdb.org/t/p/w500/gT3GmkEKyZDvvf8a0l0FDoSlGtk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dVpAGo3TT2IjDyRuKwhNfe9E1A5.jpg",
-      "description": "Allison Dubois est une jeune femme et mère de trois enfants qui veut devenir avocate. Depuis son enfance, elle possède le pouvoir d'entendre les morts, lire les pensées des autres et voir l'avenir dans ses rêves. Son mari, ingénieur aéronautique, est convaincu que sa femme dit la vérité. Mais le plus dur reste à faire: convaincre les autorités que rien de tout cela n'est un canular et qu'elle peut réellement aider la justice.",
-      "releaseInfo": "2005"
-    },
-    {
-      "id": "tmdb:61599",
-      "type": "series",
-      "name": "Flynn Carson et les Nouveaux Aventuriers",
-      "poster": "https://image.tmdb.org/t/p/w500/zJz5otWqzCaSOMSMiyp6hkxMmn3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1EBMUCxPjGQneeyshurFBpqXVL9.jpg",
-      "description": "Dans le sous-sol de la Grande bibliothèque de New York, l'aventurier bibliothécaire Flynn Carsen a pour mission de protéger le secret d'objets aux pouvoirs extraordinaires. Il recrute quatre personnes parmi les plus grands cerveaux et les meilleurs talents pour lutter contre la Confrérie des serpents. Cette organisation malveillante veut contrôler la magie noire, et ce, même si la civilisation pourrait sombrer dans le chaos et la violence. Les bibliothécaires et leur protectrice, la colonelle Eve Baird, voyagent à travers le monde afin d'enquêter sur des phénomènes étranges.",
-      "releaseInfo": "2014"
-    },
-    {
-      "id": "tmdb:79593",
-      "type": "series",
-      "name": "Magnum",
-      "poster": "https://image.tmdb.org/t/p/w500/kQpHMcmjX54oY0QuVYKR39VC7C2.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/x40yXVPV8tPbuWAjSPGAGauDrhj.jpg",
-      "description": "A son retour d'Afghanistan, Thomas Magnum, officier décoré de l'unité d'élite des SEAL de la Marine américaine, s'installe à Hawaï. Tout en assurant la sécurité du domaine du richissime Robin Master, Magnum, hébergé sur la propriété dans la maison des invités, officie en tant que détective privé. Pour l'aider à résoudre ses enquêtes, le jeune homme peut compter sur ses frères d'armes, TC et Rick. Quant à Juliet Higgins, la majordome du domaine, accompagnée de ses dobermans Zeus et Apollon, elle se charge de garder un œil sur Magnum en veillant à ce qu'il n'abuse pas de la générosité de Robin Master.",
+      "name": "Les Jeunes Aventuriers",
+      "poster": "https://image.tmdb.org/t/p/w500/sU4tfnvxpqDwr4n4usyNYrjdtQ8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dnsDc7RVqsBnohXwFL3sO0kk3DS.jpg",
+      "description": "La famille McKenna se remet péniblement du décès de leur chef de famille bien-aimé, Patrick. Un espoir apparaît sous la forme d'un livre intitulé \"Les jeunes aventuriers\" que Patrick a créé pour ses trois fils. Il devient un guide pratique qui fait s'envoler l'imagination de son plus jeune fils, Wyatt, lui permettant de renouer avec son père et de tirer des leçons qui l'aideront dans la vraie vie.",
       "releaseInfo": "2018"
     },
     {
-      "id": "tmdb:94954",
+      "id": "tmdb:303044",
       "type": "series",
-      "name": "Hazbin Hotel",
-      "poster": "https://image.tmdb.org/t/p/w500/d8j99fkmRnQzfygdsOX0sQYexmY.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9K6QtLqyocVHgIZe4yqCIl1q2ZR.jpg",
-      "description": "Charlie Morningstar, la Princesse de l'Enfer, lutte pour convaincre les démons et les anges que n'importe quelle âme peut être rachetée. Venez chanter devant cette comédie musicale animée pour adultes sur la rédemption.",
-      "releaseInfo": "2024"
+      "name": "Campus Drivers",
+      "poster": "https://image.tmdb.org/t/p/w500/oPltcyfWWfVmxB6lV8JZZJV3m7Q.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oaWJm4brEMSWBmQIB73DFxsU683.jpg",
+      "description": "Loïs intègre Belrose aux côtés de Max, son grand amour. Lane créateur de Campus Drivers, l'application la plus en vogue du campus est célèbre pour son incapacité à s'attacher. Leurs chemins n'auraient jamais dû se croiser. Mais certaines rencontres bouleversent tout... jusqu'à réveiller des blessures enfouies. Et quand l'amour s'invite sans prévenir, plus rien n'est certain.",
+      "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:693",
+      "id": "tmdb:269",
       "type": "series",
-      "name": "Desperate Housewives",
-      "poster": "https://image.tmdb.org/t/p/w500/zLqW1yC10RyjG7qgxJRPRqSzbY6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hW9NOFs8xUevb90KQYHhbifp9Po.jpg",
-      "description": "Derrière une façade tirée d'une carte postale vivent quatre femmes dont l'existence est tout sauf idéale. Susan est maladroite, divorcée et mère d'une adolescente nommée Julie. Lynette est mariée avec Tom et ont quatre enfants tapageurs qui la poussent à bout. Bree est la Martha Stewart du voisinage, dont la perfection dissimule des problèmes majeurs. Enfin Gabrielle, ex-mannequin mariée avec le séduisant et prospère Carlos, espère avoir le beurre et l'argent du beurre. Leurs vies sont suivies et commentées de tout haut par Mary Alice, une ancienne voisine qui s'est suicidée.",
+      "name": "Les Frères Scott",
+      "poster": "https://image.tmdb.org/t/p/w500/m7l8e3feBzJu9sosBKTJjAnAbt9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gJOpHgHa37qnglH3dL9g63iztky.jpg",
+      "description": "A Tree Hill, petite ville de Caroline du Sud, tout le monde connaît les frères Scott. S'ils portent le même nom, tout les sépare et les rapproche à la fois. L'un, Nathan, arrogant et sûr de lui, vit les rêves que son père Dan n'a pu satisfaire. L'autre, Lucas, calme et posé, cherche à faire honneur à Karen, sa mère célibataire.",
+      "releaseInfo": "2003"
+    },
+    {
+      "id": "tmdb:37680",
+      "type": "series",
+      "name": "Suits, avocats sur mesure",
+      "poster": "https://image.tmdb.org/t/p/w500/tVqvztjig1o001EAAZs9wCs3bV6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/or0E36KfzJYZwqXeiCfm1JgepKF.jpg",
+      "description": "Avocat très ambitieux d'une grosse firme de Manhattan, Harvey Specter a besoin de quelqu'un pour l'épauler. Son choix se porte sur Mike Ross, un jeune homme très brillant mais sans diplôme, doté d'un talent certain et d'une mémoire photographique très précieuse. Ensemble, ils forment une équipe gagnante, prête à relever tous les défis. Mike devra cependant user de toutes les ruses pour maintenir sa place sans que personne ne découvre qu'il n'a jamais passé l'examen du barreau.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:12225",
+      "type": "series",
+      "name": "Peppa Pig",
+      "poster": "https://image.tmdb.org/t/p/w500/iwKVo3HlsyVNXCzFEkd0xHz3kGi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r9QAxAW2KGQaVnEOxXKJuZ6RSJe.jpg",
+      "description": "Peppa est une adorable chipie cochon qui vit avec son frère George, Maman Pig et Papa Pig. Ce que Peppa préfère, c'est jouer, se déguiser, se promener dehors et sauter dans la boue. Ses aventures se terminent toujours joyeusement.",
       "releaseInfo": "2004"
-    },
-    {
-      "id": "tmdb:84773",
-      "type": "series",
-      "name": "Le Seigneur des anneaux : Les Anneaux de pouvoir",
-      "poster": "https://image.tmdb.org/t/p/w500/8aiJ6pr5ibhHMWe3yOEZQsdkFox.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/achmETPRJZc9QVXsMPgHwYEyNar.jpg",
-      "description": "Divers personnages, connus et inconnus, doivent faire face à la résurgence du mal en Terre du Milieu. Des profondeurs des Montagnes de Brume aux forêts majestueuses du Lindon, de l'île des Rois de Númenor aux contrées les plus éloignées du monde, ces royaumes et personnages vont forger un héritage qui demeurera bien après leur disparition.",
-      "releaseInfo": "2022"
     }
   ]
 }

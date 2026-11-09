@@ -19,12 +19,30 @@
       "releaseInfo": "2024"
     },
     {
+      "id": "tmdb:320909",
+      "type": "series",
+      "name": "Les Noces des Lucioles",
+      "poster": "https://image.tmdb.org/t/p/w500/1RXEvHmis1oKTAWtKOrzJqenpb6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3zmB6PLnjf7rNNC2lnvinQtlJMx.jpg",
+      "description": "Durant l'ère Meiji, Satoko Kirigaya n’a qu’un seul souhait : se marier pour l'honneur de sa famille et ce, même si ses jours sont comptés. Mais alors qu'un assassin tente de la tuer, elle lui offre de l’épouser ! Une proposition que Shinpei Goto accepte, mais qui pourrait bien se retourner contre elle…",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:259140",
       "type": "series",
       "name": "Ranma1/2",
       "poster": "https://image.tmdb.org/t/p/w500/paz1BKuMqwOW7FGMe5xqcTEstgx.jpg",
       "background": "https://image.tmdb.org/t/p/w780/xvD9urN8lUtWw5fm4a87Rl3dCZn.jpg",
       "description": "Akane Tendo fait la connaissance de son nouveau fiancé, Ranma Saotomé, prodige des arts martiaux qui possède une particularité : il se transforme en fille au contact de l'eau froide.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:207347",
+      "type": "series",
+      "name": "Blue Box",
+      "poster": "https://image.tmdb.org/t/p/w500/shXf4cTKUbMpx5AVBKi4V0dMwY3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8p39Ud6ZKMixBQ7R4frg2o3idzc.jpg",
+      "description": "Le joueur de badminton Taiki a toujours admiré de loin la star du basket Chinatsu. Jusqu'à un beau jour de printemps, où la vie les rapproche de façon inattendue.",
       "releaseInfo": "2024"
     },
     {
@@ -37,39 +55,12 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:320909",
+      "id": "tmdb:314054",
       "type": "series",
-      "name": "Les Noces des Lucioles",
-      "poster": "https://image.tmdb.org/t/p/w500/1RXEvHmis1oKTAWtKOrzJqenpb6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3zmB6PLnjf7rNNC2lnvinQtlJMx.jpg",
-      "description": "Durant l'ère Meiji, Satoko Kirigaya n’a qu’un seul souhait : se marier pour l'honneur de sa famille et ce, même si ses jours sont comptés. Mais alors qu'un assassin tente de la tuer, elle lui offre de l’épouser ! Une proposition que Shinpei Goto accepte, mais qui pourrait bien se retourner contre elle…",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:313068",
-      "type": "series",
-      "name": "Love Potion, la sorcière mal-aimée",
-      "poster": "https://image.tmdb.org/t/p/w500/7VjZRZD5sHjsIaoNiUiXzO0qC10.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hEE9n9tZAjoT3eE5lL4MhZZ2DbB.jpg",
-      "description": "Rose, une sorcière solitaire vivant recluse au bord d'un lac, est sollicitée par le chevalier qu’elle aime en secret. Mais ce dernier lui demande de concocter un philtre d’amour ! Le cœur brisé, elle ne peut pourtant lui refuser cette faveur. En attendant le jour fatidique où le philtre sera prêt, elle profite de passer du temps avec lui en l'envoyant chercher toutes sortes d'ingrédients.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:261343",
-      "type": "series",
-      "name": "Chitose Is in the Ramune Bottle",
-      "poster": "https://image.tmdb.org/t/p/w500/xCsz0dWkpoya5XK3y2UaEkXnin5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4BE1aoCu5mCG3ZJ7alNDQkB3oK4.jpg",
-      "description": "Il n'est pas facile d'être populaire et dans ce domaine, c'est difficile de battre Saku Chitose, l'élève le plus populaire de son lycée. Ce jeune lycéen a une réputation à toute épreuve qui résiste même aux attaques en ligne les plus virulentes. Il a aussi un groupe d'amis autant séduisants à l'extérieur qu'à l'intérieur. Cependant, lorsqu'un professeur lui demande de l'aider à réhabiliter une élève enfermée dans sa chambre depuis des mois, le monde parfait de Saku ne sera plus jamais le même.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:324326",
-      "type": "series",
-      "name": "Les 7 Chevaliers du Royaume des Marronniers",
-      "poster": "https://image.tmdb.org/t/p/w500/kbmXfi28xI7m0M5oWfJS5fwiCqo.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/59oBbiLeG3jeDOUmx6zF6Qfmea3.jpg",
-      "description": "Au cœur d'un continent composé de huit royaumes se trouve le royaume des Marronniers. Son général, Baribara, a sept fils, chacun doté d'un don et occupant le poste de chevalier commandant. Unis par le noble espoir de sauver une princesse un jour, les frères partent en bons samaritains vers les sept royaumes voisins. Quelles rencontres et quelles épreuves les attendent dans ces contrées inconnues ?",
+      "name": "Red River",
+      "poster": "https://image.tmdb.org/t/p/w500/wWlfBMTA7VygmYC4KUg2qLWJGmv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pHzcs5Ru1lwoVcQsPA5lNYlxJy2.jpg",
+      "description": "Yuri Suzuki est une jeune femme comblée : non seulement elle a réussi ses examens d'entrée à l'université, mais elle a aussi enfin échangé son premier baiser avec l'élu de son coeur. Malheureusement, ce bonheur ne dure pas. Un jour, elle est mystérieusement entrainée dans une flaque d'eau et est transportée dans le passé, au cœur de l'Empire Hittite, des millénaires avant sa naissance. Celle qui l'a invoquée, la reine Nakia, a l'intention de l'utiliser à des fins sacrificielles. Heureusement, la jeune femme déboussolée peut compter sur un allié inattendu.",
       "releaseInfo": "2026"
     },
     {
@@ -82,13 +73,13 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:314054",
+      "id": "tmdb:261343",
       "type": "series",
-      "name": "Red River",
-      "poster": "https://image.tmdb.org/t/p/w500/wWlfBMTA7VygmYC4KUg2qLWJGmv.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pHzcs5Ru1lwoVcQsPA5lNYlxJy2.jpg",
-      "description": "Yuri Suzuki est une jeune femme comblée : non seulement elle a réussi ses examens d'entrée à l'université, mais elle a aussi enfin échangé son premier baiser avec l'élu de son coeur. Malheureusement, ce bonheur ne dure pas. Un jour, elle est mystérieusement entrainée dans une flaque d'eau et est transportée dans le passé, au cœur de l'Empire Hittite, des millénaires avant sa naissance. Celle qui l'a invoquée, la reine Nakia, a l'intention de l'utiliser à des fins sacrificielles. Heureusement, la jeune femme déboussolée peut compter sur un allié inattendu.",
-      "releaseInfo": "2026"
+      "name": "Chitose Is in the Ramune Bottle",
+      "poster": "https://image.tmdb.org/t/p/w500/xCsz0dWkpoya5XK3y2UaEkXnin5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4BE1aoCu5mCG3ZJ7alNDQkB3oK4.jpg",
+      "description": "Il n'est pas facile d'être populaire et dans ce domaine, c'est difficile de battre Saku Chitose, l'élève le plus populaire de son lycée. Ce jeune lycéen a une réputation à toute épreuve qui résiste même aux attaques en ligne les plus virulentes. Il a aussi un groupe d'amis autant séduisants à l'extérieur qu'à l'intérieur. Cependant, lorsqu'un professeur lui demande de l'aider à réhabiliter une élève enfermée dans sa chambre depuis des mois, le monde parfait de Saku ne sera plus jamais le même.",
+      "releaseInfo": "2025"
     },
     {
       "id": "tmdb:293124",
@@ -98,6 +89,24 @@
       "background": "https://image.tmdb.org/t/p/w780/3Yl6mfqbyRPRKCHBmWoqANKrxPw.jpg",
       "description": "Lua est une candidate sainte qui possède le pouvoir de guérir les autres. Mais celui-ci à une particularité : elle doit transférer les maladies et les blessures sur elle avant de pouvoir les guérir. Cette spécificité lui vaut le surnom peu flatteur de \"La Sainte déchue\". Mais heureusement, Lua peut compter sur son adorable meilleure amie, Arianne. Malheureusement, les apparences sont parfois trompeuses. Un jour, le commandant Garrett, l'amour à sens unique de Lua, se retrouve grièvement blessé. Lua risque sa vie pour le sauver, mais quand elle se réveille, tous les mérites sont attribués à Arianne. Blessée par cette trahison, Lua prend une décision. L'heure de la vengeance a sonné.",
       "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:313068",
+      "type": "series",
+      "name": "Love Potion, la sorcière mal-aimée",
+      "poster": "https://image.tmdb.org/t/p/w500/7VjZRZD5sHjsIaoNiUiXzO0qC10.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hEE9n9tZAjoT3eE5lL4MhZZ2DbB.jpg",
+      "description": "Rose, une sorcière solitaire vivant recluse au bord d'un lac, est sollicitée par le chevalier qu’elle aime en secret. Mais ce dernier lui demande de concocter un philtre d’amour ! Le cœur brisé, elle ne peut pourtant lui refuser cette faveur. En attendant le jour fatidique où le philtre sera prêt, elle profite de passer du temps avec lui en l'envoyant chercher toutes sortes d'ingrédients.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:324326",
+      "type": "series",
+      "name": "Les 7 Chevaliers du Royaume des Marronniers",
+      "poster": "https://image.tmdb.org/t/p/w500/kbmXfi28xI7m0M5oWfJS5fwiCqo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/59oBbiLeG3jeDOUmx6zF6Qfmea3.jpg",
+      "description": "Au cœur d'un continent composé de huit royaumes se trouve le royaume des Marronniers. Son général, Baribara, a sept fils, chacun doté d'un don et occupant le poste de chevalier commandant. Unis par le noble espoir de sauver une princesse un jour, les frères partent en bons samaritains vers les sept royaumes voisins. Quelles rencontres et quelles épreuves les attendent dans ces contrées inconnues ?",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:329096",

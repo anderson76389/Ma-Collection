@@ -1,6 +1,24 @@
 {
   "metas": [
     {
+      "id": "tmdb:1792170",
+      "type": "movie",
+      "name": "Model Citizen",
+      "poster": "https://image.tmdb.org/t/p/w500/7SE0LBwgqiqZzkm9gKVbBAbcNQL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5MBdRdiGv3AKzZDGbni88xc6JFi.jpg",
+      "description": "Un homme sort du coma et découvre que son bien-être est désormais placé sous la responsabilité d’un avatar numérique mis à sa disposition par le gouvernement.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:891621",
+      "type": "movie",
+      "name": "Wild Horse Nine",
+      "poster": "https://image.tmdb.org/t/p/w500/hnBtud9vLr9arsUW8nxrzIz2uA4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3uLA0ujne91bkzFStZICCYeqhnt.jpg",
+      "description": "Peu avant le coup d'État chilien de 1973, deux agents de la CIA, Chris et Lee, sont envoyés de Santiago vers l'île de Pâques par leur supérieur, MJ. Au milieu des statues emblématiques de l'île, tandis que ces partenaires de longue date sont confrontés à leur sombre passé et aux complots en cours, Chris noue une relation avec deux étudiantes rebelles qui menace de faire basculer dans le chaos leur séjour dans ce paradis isolé…",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1236045",
       "type": "movie",
       "name": "Animals",
@@ -19,6 +37,24 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1437396",
+      "type": "movie",
+      "name": "Your Mother Your Mother Your Mother",
+      "poster": "https://image.tmdb.org/t/p/w500/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jiFLiatBtBALlAzV5R72gzspBad.jpg",
+      "description": "À Houston, Latif, tueur à gages musulman et père de trois enfants, perd brutalement sa femme. Lorsque son nouveau-né refuse le lait maternisé, il se lance à la recherche d'Une nourrice, une démarche qui le conduit sur la piste d’un ex-militaire devenu prédicateur radical à la tête d’une milice d’extrême droite. Tandis que son ancien employeur tente de le ramener dans le milieu, Latif est entraîné dans un conflit qui menace sa famille autant que ses convictions.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1375441",
+      "type": "movie",
+      "name": "Primetime",
+      "poster": "https://image.tmdb.org/t/p/w500/8W69bkus937B2OzJapRmw2uY42s.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sEsMwSDUWGIx9EfNxzM6KzVSsSQ.jpg",
+      "description": "Chris Hansen présente l'émission policière « To Catch a Predator ». Diffusée sur NBC Dateline, cette émission tente de filmer des pédophiles présumés avec l'aide des forces de l'ordre et d'une équipe d'appâts se faisant passer pour des mineurs sur Internet. En 2006, Hansen est sur le point de révolutionner le monde de la télévision.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1380417",
       "type": "movie",
       "name": "By Any Means",
@@ -32,7 +68,7 @@
       "type": "movie",
       "name": "Just Play Dead",
       "poster": "https://image.tmdb.org/t/p/w500/e0WaDBrrBAMcq2stAXCR7rXEsiw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tieojVpH6eW44JQOQEWnf8t4khG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lBWfbmUj9Jw0EM1OYtDXr0B5FPW.jpg",
       "description": "Lorsque Jack Wolfe est acculé par le FBI, il prévoit de simuler sa propre mort et de toucher les 30 millions de dollars de son assurance-vie avec la complicité de sa femme “endeuillée”, Nora, tout en faisant accuser son amant, Chad, de son meurtre. Mais Nora a son propre plan : tuer Jack pour de bon, faire accuser Chad et garder la fortune pour elle seule.",
       "releaseInfo": "2026"
     },
@@ -93,10 +129,10 @@
     {
       "id": "tmdb:1458215",
       "type": "movie",
-      "name": "The Gentleman Thief",
-      "poster": "https://image.tmdb.org/t/p/w500/oMutDMODnbCZf46w0dK4wncQmDB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/aayQcCebqLmkTZdILp9JVcFiIRL.jpg",
-      "description": "Sorti de sa retraite, le maître voleur Mason Goddard doit dérober un tableau d'une valeur inestimable et déjouer le piège mortel tendu par un baron du crime impitoyable.",
+      "name": "Cash Out 3 - The Gentleman Thief",
+      "poster": "https://image.tmdb.org/t/p/w500/fk2xhYUoieqRvQYRXS7YCNFZZQi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iar5GAkSX1LswFFxMTbHHR3zxMf.jpg",
+      "description": "L'incorrigible Shawn réussit, non sans mal, à sortir son frère Mason Goddard de sa retraite pour l'embarquer dans un ultime casse. Mais Mason et son équipe d'experts en cambriolage vont, sans le savoir, s'attaquer au redoutable Abel Salazar qui vient de s'évader de prison. Ce casse de haut vol, apparemment à leur portée, a en réalité été imaginé par Salazar lui-même...",
       "releaseInfo": "2026"
     },
     {
@@ -142,42 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/ncHImt9szlNQaNM2iY3vcgSdDp.jpg",
       "background": "https://image.tmdb.org/t/p/w780/jLuGZc84MvPYCQomQg9DI72mstt.jpg",
       "description": "La détective Enola Holmes poursuit ses aventures à Malte, où son projet de mariage se complique quand elle doit résoudre une périlleuse affaire liée à la disparition de Sherlock.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1413976",
-      "type": "movie",
-      "name": "Citizen Vigilante",
-      "poster": "https://image.tmdb.org/t/p/w500/6LmJD3Wohe0g4U62wgi7RyJqfE4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zUninC7dOHfzwcgCqQMLQjlMtiy.jpg",
-      "description": "Frustré par l'absence de justice publique, Sanders décide de prendre les choses en main en devenant un justicier. Il se met alors en tête de punir à la fois les criminels et les fonctionnaires corrompus. À mesure que ses actions de justicier s'intensifient, sa notoriété grandit : il gagne le soutien du public, qui le considère comme un héros, mais attire également l'attention d'Henry, un responsable d'Interpol, qui le perçoit comme une menace pour la société.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1020047",
-      "type": "movie",
-      "name": "In the Hand of Dante",
-      "poster": "https://image.tmdb.org/t/p/w500/lvp4pBAWL7unhoyt32rlCm2YfXF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tJJ737CJujLXw1GlUYd7K4AH3eB.jpg",
-      "description": "Nick Tosches, un écrivain, apprend qu'un manuscrit de La Divine Comédie de Dante, volé au Vatican, est réapparu à New York. Incapable de passer à côté de cette opportunité, Nick décide de tenter d'authentifier ce manuscrit et de mener l'enquête sur ses origines, son parcours et celui de son auteur.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1699155",
-      "type": "movie",
-      "name": "Maternal Instinct : L'énigme Taylor Parker",
-      "poster": "https://image.tmdb.org/t/p/w500/dOWWCLSwXS1MBtGEFeItbloiUEN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/oGD1dZvojZssnd9Ua6RUalEEHQu.jpg",
-      "description": "La police arrête une femme qui affirme qu'elle vient d'accoucher. Mais ni le bébé ni le sang ne sont les siens. Les mensonges se succèdent dans ce documentaire sur un crime réel.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1329471",
-      "type": "movie",
-      "name": "Carolina Caroline",
-      "poster": "https://image.tmdb.org/t/p/w500/9Jkylw7Y5NQyi7C8IwXLBvVSrH2.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5dE3rixgMUTXOQLuO3zya4zSFav.jpg",
-      "description": "Dans sa petite ville tranquille du Texas, Caroline rencontre Oliver, un escroc charismatique, et se laisse rapidement envoûter par lui et ses combines. Ensemble, ils prennent la fuite et, au cours de leur périple fougueux et romantique à travers le Sud, ils sèment la pagaille, le crime et la passion sur leur passage, à la recherche de la mère de Caroline, dont elle est séparée. Mais lorsque de petits larcins se transforment en braquages ​​de plus en plus audacieux, le duo devient un « Bonnie et Clyde » des temps modernes et doit user de tous les stratagèmes pour échapper à la police.",
       "releaseInfo": "2026"
     }
   ]

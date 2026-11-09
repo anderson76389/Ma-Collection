@@ -1,58 +1,40 @@
 {
   "metas": [
     {
-      "id": "tmdb:19885",
+      "id": "tmdb:1426",
       "type": "series",
-      "name": "Sherlock",
-      "poster": "https://image.tmdb.org/t/p/w500/nBRtABdAHf4SWSAWHelXz0H6tY9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8rvLEmdI4gLrMO1rLqbNdnNcPFE.jpg",
-      "description": "Les aventures de Sherlock Holmes et de son acolyte de toujours, le docteur Watson, sont transposées au XXIème siècle...",
+      "name": "Luther",
+      "poster": "https://image.tmdb.org/t/p/w500/hDxOMX8zzH1FiqKWVBzNaYGBkle.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A2qdFRq9oJDC5E7fbgSS4POUMDF.jpg",
+      "description": "Un inspecteur de police consciencieux tente de ne pas partir à la dérive tandis qu'il démêle les facteurs psychologiques qui sous-tendent ses affaires criminelles.",
       "releaseInfo": "2010"
     },
     {
-      "id": "tmdb:100088",
+      "id": "tmdb:212989",
       "type": "series",
-      "name": "The Last of Us",
-      "poster": "https://image.tmdb.org/t/p/w500/4pMd9VAdqm96KA2W4X8yetgc7EF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lY2DhbA7Hy44fAKddr06UrXWWaQ.jpg",
-      "description": "Vingt ans après la destruction de la civilisation moderne, Joel, un survivant endurci, est engagé pour faire sortir Ellie, une jeune fille de 14 ans, d'une zone de quarantaine oppressante. Ce qui n'est au départ qu'un petit travail se transforme rapidement en un voyage brutal et époustouflant, alors que dans ce duo improbable, chacun dépend de l'autre pour sa survie.",
+      "name": "LEGO Ninjago : Le soulèvement des dragons",
+      "poster": "https://image.tmdb.org/t/p/w500/yJ9VjdlKpSkkBqgQ2kwOcEpMLVj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4vubgrPvqDKNFP1kNvHpd3do9hd.jpg",
+      "description": "Deux adolescents de mondes différents utilisent leurs pouvoirs de ninjas pour défendre des dragons face à des méchants qui veulent utiliser leur force vitale à mauvais escient.",
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:200875",
+      "id": "tmdb:607",
       "type": "series",
-      "name": "Ça : Bienvenue à Derry",
-      "poster": "https://image.tmdb.org/t/p/w500/rsc88AZaxgk8dEGK3l0FIQu8lJQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2fOKVDoc2O3eZmBZesWPuE5kgPN.jpg",
-      "description": "Des événements étranges se déroulent dans la ville de Derry dans les années 1960 liés à Pennywise le clown, un personnage mystérieux qui hante Derry.",
-      "releaseInfo": "2025"
+      "name": "Les Super Nanas",
+      "poster": "https://image.tmdb.org/t/p/w500/dltXKG49E9OhVjy4QgPlFnCegxR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gnK2nptRXra4RnKgGqAWFSqP5aG.jpg",
+      "description": "La série suit les aventures de trois protagonistes nommées Belle, Bulle et Rebelle. Chacune est identifiée par une couleur qui lui est propre : le rose pour Belle, le bleu ciel pour Bulle, et le vert pour Rebelle. Chacune de ses petites filles possède des supers-pouvoirs qu'elles utilisent habituellement pour défendre leur ville face à la menace de divers monstres et antagonistes. Entre-temps, ces petites filles vivent le quotidien de tout enfant de leur âge incluant la rivalité entre sœurs, la perte des dents de lait, l'hygiène personnelle, la scolarité, les énurésies nocturnes, et autres passe-temps. Leurs exploits se déroulent habituellement dans la ville de Townsville, aux États-Unis, perçue comme une ville imposante dans la série avec de nombreux gratte-ciels.",
+      "releaseInfo": "1998"
     },
     {
-      "id": "tmdb:155780",
+      "id": "tmdb:81723",
       "type": "series",
-      "name": "Batwheels",
-      "poster": "https://image.tmdb.org/t/p/w500/nDNUuNNoFaZFNjSwWCG5XwaOf9f.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tRo9pMhE2OOrePz4Pw3eirPBnxr.jpg",
-      "description": "Les Batwheels sont une équipe de véhicules de lutte contre le crime super puissants qui aident Batman, Robin et Batgirl, ainsi qu'une foule de super-héros DC supplémentaires, à protéger Gotham City. Créés récemment par le Batcomputer, nos héros mécanisés doivent gérer les difficultés de croissance d'une super-équipe nouvellement formée ainsi que les difficultés de croissance qui accompagnent le simple fait d'être un enfant.",
+      "name": "The Gilded Age",
+      "poster": "https://image.tmdb.org/t/p/w500/l36aFd248esuJJ1uIe0Za96bLTR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/afUVsProh46h31w2EvL7qyHXrqj.jpg",
+      "description": "Aux États-Unis, le Gilded Age désigne la période de prospérité qui suivit la guerre de Sécession. En 1882, la jeune Marian Brook quitte la Pennsylvanie après la mort de son père pour s'installer avec ses tantes aristocrates à New-York. Accompagnée par Peggy Scott, une écrivaine en devenir, Marian va découvrir la haute société et se retrouver au milieu d'un conflit entre une de ses tantes et leurs voisins, l'ambitieux magnat des chemins de fer George Russel et sa femme Bertha.",
       "releaseInfo": "2022"
-    },
-    {
-      "id": "tmdb:2304",
-      "type": "series",
-      "name": "Thomas et ses amis",
-      "poster": "https://image.tmdb.org/t/p/w500/wrFb5dE2yxUjz3a5V7PEXPPzsFU.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wIe1HL7oMNwyltsqqx2sCPwNl4w.jpg",
-      "description": "Thomas est la locomotive que tu aimerais avoir comme ami. Il est gentil, sympa et sera toujours prêt pour partir à l’aventure. Il habite la ville de Chicalor et il est connu par tout le monde dans le coin. Il roule sur sa voie privée à longueur de journée où il lui arrive de croiser ses amis comme Diesel, Percy, Gordon, Henry et plein d’autres …\n\nEntre locomotives, se sont de véritables moulins à paroles et se montrent beaucoup de respect entre eux. Tu ne seras pas surpris de les voir adorer leur travail, se faire des politesses ou bien se donner au maximum pour aider un ami. Dans chaque épisode, tu auras plaisir à voir le comportement exemplaire de ces locomotives. Mais ce n’est pas tout, il y a parfois des imprévus qui rendent leur quotidien assez surprenant…",
-      "releaseInfo": "1984"
-    },
-    {
-      "id": "tmdb:243875",
-      "type": "series",
-      "name": "Georgie & Mandy's First Marriage",
-      "poster": "https://image.tmdb.org/t/p/w500/vonR5GlaCJpSqIQMUcBm6VQYYuu.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/h927CLfeAjiy0MNKRxWZgEq7bHR.jpg",
-      "description": "Cette suite de Young Sheldon suit Georgie et Mandy alors qu'ils élèvent leur jeune famille au Texas.",
-      "releaseInfo": "2024"
     }
   ]
 }

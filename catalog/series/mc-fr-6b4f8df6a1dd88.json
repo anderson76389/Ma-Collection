@@ -9,20 +9,20 @@
       "releaseInfo": "1999"
     },
     {
-      "id": "tmdb:333547",
-      "type": "series",
-      "name": "House Shock",
-      "poster": "https://image.tmdb.org/t/p/w500/aQZAj3iFqj9u6V12x0deHvJzkD2.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/g8hdUpA5H4XjFonmJp3c2WqEBvj.jpg",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:299811",
       "type": "series",
       "name": "Sin City Rehab",
       "poster": "https://image.tmdb.org/t/p/w500/sa49ehBcCrWeduWeYmF9CVNRGn3.jpg",
       "background": "https://image.tmdb.org/t/p/w780/jJKEyjK2rW4Bh8H5A08PAbJ4JmX.jpg",
       "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:333547",
+      "type": "series",
+      "name": "House Shock",
+      "poster": "https://image.tmdb.org/t/p/w500/aQZAj3iFqj9u6V12x0deHvJzkD2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/g8hdUpA5H4XjFonmJp3c2WqEBvj.jpg",
+      "releaseInfo": "2026"
     }
   ]
 }

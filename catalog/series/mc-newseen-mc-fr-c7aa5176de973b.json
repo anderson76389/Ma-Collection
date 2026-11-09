@@ -1,74 +1,53 @@
 {
   "metas": [
     {
-      "id": "tmdb:153314",
+      "id": "tmdb:240526",
       "type": "series",
-      "name": "The Secret Lives of Sharks",
-      "poster": "https://image.tmdb.org/t/p/w500/2mDK0JGaDEuOmpfh1uJet9UlX22.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/q4QsCPfJg0YnPaVNm1PKEM3VcwX.jpg",
+      "name": "Epic Exploring",
+      "poster": "https://image.tmdb.org/t/p/w500/9ca7SYjnDWQyM9lsfpYvKUkhiEc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/k25oqmIw4kw9WgTznoXjQRtHoch.jpg",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:262704",
+      "type": "series",
+      "name": "Sparklers",
+      "poster": "https://image.tmdb.org/t/p/w500/5Ow8kA43b4hiec9ndgjNNwKsvcc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qmDAcxOhWAWZanquCI6WY5wY5lZ.jpg",
       "releaseInfo": "2021"
     },
     {
-      "id": "tmdb:222516",
+      "id": "tmdb:222381",
       "type": "series",
-      "name": "Truth & Lies",
-      "poster": "https://image.tmdb.org/t/p/w500/rVlqt2VYUvQQvNgVATYnQJQ1I5u.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/r9Tm9VN1ggofZEvA32wW5p4xGjI.jpg",
-      "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:76865",
-      "type": "series",
-      "name": "After Braveheart",
-      "poster": "https://image.tmdb.org/t/p/w500/7lpXXzhYpBnqn20LkmDol1g8B90.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rdZZd8apwVMuam5HYCe0lqiT54e.jpg",
-      "releaseInfo": "2015"
-    },
-    {
-      "id": "tmdb:72243",
-      "type": "series",
-      "name": "Legendary Motorcar",
-      "poster": "https://image.tmdb.org/t/p/w500/ayhisDkPP5rrbsFsbppdyIgWcmn.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fQVJurJmzue00wGULI5ECTNijyV.jpg",
-      "releaseInfo": "2012"
-    },
-    {
-      "id": "tmdb:283002",
-      "type": "series",
-      "name": "History of Life on Earth",
-      "poster": "https://image.tmdb.org/t/p/w500/naNzs5lRz2l7hjU8XIopQhZX1ba.jpg",
+      "name": "Becoming Martian",
+      "poster": "https://image.tmdb.org/t/p/w500/8LPSdF5kEPFXtUHyW4Or6aXSgPK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/88evEeiZp9iBKuFrMCKAbdGTY6u.jpg",
       "releaseInfo": "2021"
     },
     {
-      "id": "tmdb:198252",
+      "id": "tmdb:87034",
       "type": "series",
-      "name": "4th and Forever",
-      "poster": "https://image.tmdb.org/t/p/w500/6KnunzhvHcmPwCgrQ1iEdxlMNfz.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xpUQjZTAfn6s5WUawwfvQG0KD1e.jpg",
-      "releaseInfo": "2011"
-    },
-    {
-      "id": "tmdb:67538",
-      "type": "series",
-      "name": "The Sun",
-      "background": "https://image.tmdb.org/t/p/w780/coQb3llQWmjfjw2LrXrav75nMnF.jpg",
-      "releaseInfo": "2016"
-    },
-    {
-      "id": "tmdb:94050",
-      "type": "series",
-      "name": "Secrets of the Brain",
-      "poster": "https://image.tmdb.org/t/p/w500/lWMSzDTgsbBTxjAdAtGrN4E2Zkb.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2Li2UHCMlbLYdkP60wOlj5Io17s.jpg",
-      "releaseInfo": "2016"
-    },
-    {
-      "id": "tmdb:77926",
-      "type": "series",
-      "name": "Exploring Quantum History With Brian Greene",
-      "poster": "https://image.tmdb.org/t/p/w500/i9cIcUiEMcmSJHE9uLL1XnvUbDU.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lRHsN1lS8tnwIo5VPzoz5vSecxP.jpg",
+      "name": "Steven Raichlen's Project Smoke",
+      "poster": "https://image.tmdb.org/t/p/w500/rsuIac7AphN37v1qymu1IF0GW4S.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/o4A7vUTuZMaHDkfcO5BaWOHVOZK.jpg",
       "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:28412",
+      "type": "series",
+      "name": "Primal Grill with Steven Raichlen",
+      "poster": "https://image.tmdb.org/t/p/w500/nOPQkCVyK8UWJBmkYwYg2PqQQux.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/siq6eKmGlPr1ftVQeyZizBeWimO.jpg",
+      "releaseInfo": "2009"
+    },
+    {
+      "id": "tmdb:77889",
+      "type": "series",
+      "name": "1929",
+      "poster": "https://image.tmdb.org/t/p/w500/3Zd9fr3qYBkMghnbnU6fxrmHlW6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zisJcrVZfq9dLm6T8ubZWCWzmX5.jpg",
+      "description": "Investigation historique sur le déraillement généralisé de l’économie mondiale en 1929 et les conséquences dramatiques qui suivirent : la Grande Dépression et la Seconde Guerre mondiale.\n\nLe jeudi 24 octobre 1929, la bourse de Wall Street s’effondre, marquant le début de la plus grande crise économique du XXe siècle. Fermetures des banques, suicides de traders, misère et chômage enferment l’Amérique dans un cycle dévastateur, qui gagne également l’Europe. Quelles sont les origines, les causes, les effets, les mécanismes économiques d’une crise cernée par deux guerres mondiales, alors que la crise actuelle montre de grandes similitudes avec la situation de 1929 ?",
+      "releaseInfo": "2009"
     }
   ]
 }

@@ -27,6 +27,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1654998",
+      "type": "movie",
+      "name": "R.L. Stine's Pumpkinhead 2",
+      "poster": "https://image.tmdb.org/t/p/w500/4liM7YBglVRk2UVuKsN7YQDmMpr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/osHkvmg97Trv1QHVW1WIObbN1pu.jpg",
+      "description": "Lorsqu'une nouvelle malédiction s'abat sur Redhaven, Sam et Becka unissent leurs forces pour en percer le mystère. Dans une course contre la montre, ils doivent stopper cette menace avant qu'elle ne fasse sombrer toute la ville.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1767073",
       "type": "movie",
       "name": "The Nice Ones",
@@ -58,7 +67,7 @@
       "type": "movie",
       "name": "Buddy",
       "poster": "https://image.tmdb.org/t/p/w500/lfdInOrdyTGXOuFBOLefamy6AgI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ytoLEl5yDaxB8AtZ52uKWjaQ9ql.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sMmG82PtjK8A9rVc34gwKQtCm3A.jpg",
       "description": "Des enfants piégés dans une émission de télévision en apparence joyeuse doivent trouver un moyen d'échapper à l'emprise sinistre de Buddy, la peluche adorée mais malveillante qui anime l'émission.",
       "releaseInfo": "2026"
     },
@@ -93,9 +102,9 @@
       "id": "tmdb:1368337",
       "type": "movie",
       "name": "L'Odyssée",
-      "poster": "https://image.tmdb.org/t/p/w500/kP8jJIkmX0vWEYiqQ9c5zU0dvcn.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/jKf0p3fhO893ROvRuvuSDsZSvK6.jpg",
       "background": "https://image.tmdb.org/t/p/w780/iDiTY1wA35YWzTmXLTtqaxtN6tc.jpg",
-      "description": "Vingt ans après son départ pour la guerre de Troie, le roi Ulysse rentre enfin à Ithaque, mais son voyage est parsemé d'aventures et d'épreuves.",
+      "description": "Ulysse, roi d'Ithaque, entreprend un périple périlleux pour regagner son royaume après la guerre de Troie. Alors qu'ils traversent la Méditerranée avec ses soldats, ils se retrouvent bientôt à lutter non seulement contre les éléments, mais aussi contre une multitude d'obstacles mortels et de créatures mythiques.",
       "releaseInfo": "2026"
     },
     {
@@ -167,15 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/r0E0vpqQ1eJLs6d7F1m9EJpT1xS.jpg",
       "background": "https://image.tmdb.org/t/p/w780/3o7t1gF0wbXAtELCkIcYyPXoIxA.jpg",
       "description": "Une famille de la grande ville déménage à la campagne où les enfants découvrent un arbre magique peuplé d’habitants excentriques. Ils sont transportés dans des contrées fantastiques, où leurs aventures leur permettent de renouer leurs liens familiaux.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1493859",
-      "type": "movie",
-      "name": "Mission Pizza",
-      "poster": "https://image.tmdb.org/t/p/w500/1xNCKksGotlqxGoBWaB22mi7LVK.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/75UkXLlLedidOGo0VogF0A0NPfC.jpg",
-      "description": "Des étudiants descendent récupérer une pizza à l'entrée de leur résidence. Seul problème : ils sont dans un état second après avoir pris une drogue artisanale, et descendre deux étages se transforme en une quête aussi hallucinante que transformatrice.",
       "releaseInfo": "2026"
     }
   ]

@@ -19,6 +19,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1089598",
+      "type": "movie",
+      "name": "敦煌英雄",
+      "poster": "https://image.tmdb.org/t/p/w500/zIzru6pQiHi9FNWZ4W3Gx2a9uor.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qGdeXBDEMCT6MWtM60VqeHmhhx4.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1567937",
       "type": "movie",
       "name": "空枪",
@@ -80,7 +88,7 @@
       "type": "movie",
       "name": "八仙！",
       "poster": "https://image.tmdb.org/t/p/w500/ds5F1KKB1co55NXqS5rpioWA4z1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lMK3FnMfQ9O3DiC7hi4J2XBzNf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aazqIVNIqgRp3YwUNv5nEhdJE0T.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -96,7 +104,7 @@
       "type": "movie",
       "name": "万米危机",
       "poster": "https://image.tmdb.org/t/p/w500/dB8adJetrhgmzA1gQXCUXSuM5li.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/m0joYYat6anzyIaJ6B4CQnTMjti.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5UyBYHMCZg7kSll8YzUDIRI44SO.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -154,14 +162,6 @@
       "name": "卧底神探",
       "poster": "https://image.tmdb.org/t/p/w500/yJjVE6MBMfqy7PE6i9iBqdl4eP2.jpg",
       "background": "https://image.tmdb.org/t/p/w780/7syufk5kARdMi5BUuHbDbC1oQzF.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1665092",
-      "type": "movie",
-      "name": "吞噬星空剧场版：决战原始星",
-      "poster": "https://image.tmdb.org/t/p/w500/rS0kKvGiffJyMx8emO6sDiyxccj.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tKHaRVudYbGlO78UrjkWUtguB8N.jpg",
       "releaseInfo": "2026"
     }
   ]

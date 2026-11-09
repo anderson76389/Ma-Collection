@@ -21,7 +21,7 @@
       "type": "movie",
       "name": "Entre amies",
       "poster": "https://image.tmdb.org/t/p/w500/wGfTFVeguXDXYrwPQ8QMFsaSK2M.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qvBtvzt4OqQPOCD2JW5NBje05Bl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/q5IF3IHgKC4cQqQCp0VjllNkJp6.jpg",
       "description": "Face au syndrome du nid vide, deux amies inséparables suivent leurs filles ados au Portugal et y trouvent l'amour, la fête et un tout nouveau sens à leur amitié.",
       "releaseInfo": "2026"
     },
@@ -61,6 +61,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1393615",
+      "type": "movie",
+      "name": "Feito Pipa",
+      "poster": "https://image.tmdb.org/t/p/w500/rPsBg6qUjYFd0uVaw75dQngXOko.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/q3U4EThxyLPSN3YV6IBEXNVcKTD.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1714534",
       "type": "movie",
       "name": "RIO DREAMS",
@@ -97,7 +105,7 @@
       "id": "tmdb:1479498",
       "type": "movie",
       "name": "Zico: O Samurai de Quintino",
-      "poster": "https://image.tmdb.org/t/p/w500/95oWKefFusLwbGC0hShbLm1ijhJ.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/cm5JUjxWdinEex822eXm02nXgEC.jpg",
       "background": "https://image.tmdb.org/t/p/w780/73Z3k5qfxysVPH4QHj9Tweu2ReF.jpg",
       "releaseInfo": "2026"
     },
@@ -135,6 +143,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1078801",
+      "type": "movie",
+      "name": "Barba Ensopada de Sangue",
+      "poster": "https://image.tmdb.org/t/p/w500/8yDd2WJE3P1WInfcnGRdXiYK2pI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/quQrQzz3FhT8SZY4S8mPBlEHqw9.jpg",
+      "description": "Le père d'un jeune homme, proche de la mort, révèle à son fils la véritable histoire de la fin de son propre père. Le vieux gaucho a été assassiné par des villageois lors d'une danse dominicale à Garopaba, une ville endormie sur l'Atlantique, aujourd'hui célèbre pour ses activités de surf et de pêche. Il s'agissait d'une sorte d'exécution, à la manière d'un justicier. C'est du moins ce que l'on raconte.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1362786",
       "type": "movie",
       "name": "Velhos Bandidos",
@@ -150,23 +167,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/p3imTq5MFDmqUuVb9qFdlSAhZ98.jpg",
       "background": "https://image.tmdb.org/t/p/w780/1WWukZCoavYEofNVRHJqE4t1urW.jpg",
       "description": "Dans un Rio de Janeiro futuriste, un jeune chef de la résistance doit participer à une compétition mortelle de parkour afin de sauver sa sœur.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1426964",
-      "type": "movie",
-      "name": "L'Appel du chaos",
-      "poster": "https://image.tmdb.org/t/p/w500/13s4msih3QsxvDNr4ecvW2ttMyW.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1Xdsq7U7bvJJd2X7Jg4qNaKVkYO.jpg",
-      "description": "Alors qu'une vague de violence sans précédent secoue São Paulo, une avocate liée au milieu criminel doit négocier avec la police pour sauver sa nièce qui a été enlevée.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1618941",
-      "type": "movie",
-      "name": "Mandioca Frita",
-      "poster": "https://image.tmdb.org/t/p/w500/niDeR6vC7mQka0rHzfNmKn8EmPk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/weIyeX9vednnENyqMiA8H9dQIIh.jpg",
       "releaseInfo": "2026"
     }
   ]

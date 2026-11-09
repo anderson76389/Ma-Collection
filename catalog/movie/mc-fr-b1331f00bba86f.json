@@ -19,6 +19,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1582058",
+      "type": "movie",
+      "name": "خلى بالك من نفسك",
+      "poster": "https://image.tmdb.org/t/p/w500/6NC2oxIVAjbkW2C6LL9tUF1WsFC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xxZVFYMBri4dlwtpXu8hnHFIICz.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1358036",
       "type": "movie",
       "name": "صقر وكناريا",
@@ -27,18 +35,9 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1337438",
-      "type": "movie",
-      "name": "Les Silences de Riyad",
-      "poster": "https://image.tmdb.org/t/p/w500/i3PjFqaU0s2dwOeVioGiyxqAb7V.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/aj86ACcXFsx6cMvxNruNJzi2j3U.jpg",
-      "description": "Une adolescente est retrouvée morte dans le désert. Sa mère Noelle Al Saffan cherche des réponses car l'enquête piétine.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:1329071",
       "type": "movie",
-      "name": "Notre Histoire - Chronique du Caire",
+      "name": "Notre Histoire - Chroniques du Caire",
       "poster": "https://image.tmdb.org/t/p/w500/g3vQd5W75PAyxEaZ2Z2CkLAlLuA.jpg",
       "background": "https://image.tmdb.org/t/p/w780/2ByojsuKCTzIeHxed9tcDXU5UCP.jpg",
       "description": "Le Caire, 1967. Ahmed, pianiste obstiné dans une famille qui ne jure que par le football, reçoit une lettre en provenance d’Autriche : Liz a répondu à son annonce pour devenir sa correspondante. De la guerre des Six Jours à l’ère Sadate, leur destin va s’écrire en même temps que celui de l’Égypte : entre rêves contrariés, conflits, chaos familial, et petites victoires arrachées au destin.",
@@ -106,7 +105,7 @@
       "id": "tmdb:1608982",
       "type": "movie",
       "name": "L'Alarme : Sous les décombres",
-      "poster": "https://image.tmdb.org/t/p/w500/dh8Ut9wXrDbdoqARMtBWpZ1wlv8.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/3OBRXbnlhZxMPpfLMLzQwF29IMC.jpg",
       "background": "https://image.tmdb.org/t/p/w780/uiSaYXR0jLLWma0EPA1tcBhX6wT.jpg",
       "description": "Coincées sous terre pendant une tempête, trois élèves d'une école pour filles doivent surmonter leurs conflits personnels pour survivre.",
       "releaseInfo": "2026"
@@ -118,6 +117,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/vX33QkMNErYXisALNoz81UFG2VS.jpg",
       "background": "https://image.tmdb.org/t/p/w780/qpyvvF4X4HIYniXqYaWi743PCCS.jpg",
       "description": "Après la sortie du père de l'hôpital, son fils passe la nuit avec le patriarche malade dans les espaces confinés de la maison familiale. Ils forgent un lien plus profond, révélant des secrets intimes. Ils réalisent peu à peu que ce sera leur première vraie connexion et leur ultime adieu.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1337438",
+      "type": "movie",
+      "name": "Les Silences de Riyad",
+      "poster": "https://image.tmdb.org/t/p/w500/i3PjFqaU0s2dwOeVioGiyxqAb7V.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aj86ACcXFsx6cMvxNruNJzi2j3U.jpg",
+      "description": "Une adolescente est retrouvée morte dans le désert. Sa mère Noelle Al Saffan cherche des réponses car l'enquête piétine.",
       "releaseInfo": "2026"
     },
     {
@@ -160,14 +168,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/eU1iuYCeba88kNYv9KxOFqBE3io.jpg",
       "background": "https://image.tmdb.org/t/p/w780/Ae00E0rpUIihDrJ1C0HvhufYa5d.jpg",
       "description": "Entrepreneur raté et père fauché, Sattam se lance dans un plan complètement fou : rembourser ses dettes en enlevant son propre père.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1223073",
-      "type": "movie",
-      "name": "ولنا في الخيال... حب؟",
-      "poster": "https://image.tmdb.org/t/p/w500/q521ctl7fuG6fVitQ4DVCNYRNRk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dirEKQoXSWBaG4XCYPYzBppcqHe.jpg",
       "releaseInfo": "2025"
     }
   ]

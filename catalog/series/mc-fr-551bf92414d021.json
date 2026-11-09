@@ -46,12 +46,22 @@
       "releaseInfo": "1989"
     },
     {
-      "id": "tmdb:12323",
+      "id": "tmdb:255055",
       "type": "series",
-      "name": "Beyond Belief: Fact or Fiction",
-      "poster": "https://image.tmdb.org/t/p/w500/x6t4LPGYdCLqsdijZqSOxzic3Tj.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jNrPCcdOhpRbPiuohIjzuOKMCu2.jpg",
-      "releaseInfo": "1997"
+      "name": "Dr Amy",
+      "poster": "https://image.tmdb.org/t/p/w500/dBan7DetLa2qAbNYDRP0YdA35O2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iTt37Rl8AidvU5aQf5M4odroCuF.jpg",
+      "description": "Après une lésion cérébrale qui efface les huit dernières années de sa vie, la Dre Amy Larsen doit apprendre à évoluer dans un monde devenu étranger. Elle n’a aucun souvenir des patients qu’elle a soignés, des collègues qu’elle a côtoyés, de l’âme sœur dont elle a divorcé, de l’homme qu’elle aime aujourd’hui ni de la tragédie qui l’a poussée à s’éloigner de tous ceux qui l’entouraient. Pour s’en sortir, elle ne peut compter que sur sa fille de 17 ans, avec qui elle est en froid et dont elle se souvient encore comme d’une enfant de 9 ans, ainsi que sur quelques amis dévoués. Tout en faisant face à cette nouvelle réalité, Amy tente de poursuivre sa carrière de médecin malgré la perte de près d’une décennie de connaissances et d’expérience.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:291084",
+      "type": "series",
+      "name": "Médecin malgré tout",
+      "poster": "https://image.tmdb.org/t/p/w500/gRf2g2iR8j2uMlClrNTaiHbrZ6c.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fRi1Qf51rtFzrYM3gvl9ihGjT5Q.jpg",
+      "description": "Martin Best est un chirurgien brillant qui quitte abruptement sa carrière prestigieuse à Boston pour devenir médecin généraliste dans un charmant village de pêcheurs de la côte Est où il passait ses étés étant enfant. Malheureusement, les manières brusques et limite impolies de Martin au chevet des patients déplaisent aux habitants excentriques et exigeants du village, et il s'aliène rapidement la population, même s'il est leur seul recours.",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:214162",
@@ -63,21 +73,20 @@
       "releaseInfo": "2023"
     },
     {
+      "id": "tmdb:114603",
+      "type": "series",
+      "name": "Name That Tune",
+      "poster": "https://image.tmdb.org/t/p/w500/eB0p59u9M7ESzmh6gtVHuVFziPQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7uly9uOevv0Lbm91J13Z7jK9lXw.jpg",
+      "releaseInfo": "2021"
+    },
+    {
       "id": "tmdb:202224",
       "type": "series",
       "name": "Grimsburg",
       "poster": "https://image.tmdb.org/t/p/w500/j5UcgY1u00HTizz0Rf2WpVojK7N.jpg",
       "background": "https://image.tmdb.org/t/p/w780/vuHpCqV8f08NNw6yu4Nyb0sDQOm.jpg",
       "description": "Marvin Flute, qui pourrait être le plus grand détective de tous les temps, a un mystère qu'il ne peut toujours pas percer : sa famille, il suivra toutes les pistes qu'il a pour se racheter avec l'ex-femme qu'il n'a jamais cessé d'aimer.",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:214087",
-      "type": "series",
-      "name": "Universal Basic Guys",
-      "poster": "https://image.tmdb.org/t/p/w500/i2TomZ3p2UoHnTRslxDebRu0blL.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6RPSHN0AGd0fMPS3YxJUjQh3TqI.jpg",
-      "description": "Deux frères, Mark et Hank Hoagies, perdent leur emploi à cause de l'automatisation. Ils reçoivent alors trois mille dollars par mois dans le cadre d'un nouveau programme de revenu de base, et utilisent leur temps libre et l’argent donné pour se trouver un but, dans un monde où l'on n'a plus besoin d'eux.",
       "releaseInfo": "2024"
     },
     {
@@ -89,11 +98,37 @@
       "releaseInfo": "2023"
     },
     {
+      "id": "tmdb:214087",
+      "type": "series",
+      "name": "Universal Basic Guys",
+      "poster": "https://image.tmdb.org/t/p/w500/13dy7U0j12KOERsdj38WBmjSuOp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6RPSHN0AGd0fMPS3YxJUjQh3TqI.jpg",
+      "description": "Deux frères, Mark et Hank Hoagies, perdent leur emploi à cause de l'automatisation. Ils reçoivent alors trois mille dollars par mois dans le cadre d'un nouveau programme de revenu de base, et utilisent leur temps libre et l’argent donné pour se trouver un but, dans un monde où l'on n'a plus besoin d'eux.",
+      "releaseInfo": "2024"
+    },
+    {
       "id": "tmdb:297005",
       "type": "series",
       "name": "Celebrity Weakest Link",
       "poster": "https://image.tmdb.org/t/p/w500/gPVFVBNyXAfGRqu6mmiSqops4jC.jpg",
       "background": "https://image.tmdb.org/t/p/w780/euzlgl95XocL76FO9Q1MoUtxYLy.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:231730",
+      "type": "series",
+      "name": "The Floor",
+      "poster": "https://image.tmdb.org/t/p/w500/p2jQNn7fhl9PpjaowmxmdDwTYIl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cHznGpISn6Uxy9EyLel5eX7WrXG.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:298469",
+      "type": "series",
+      "name": "99 à Battre (États-Unis)",
+      "poster": "https://image.tmdb.org/t/p/w500/32wgp1TirfeV0wjQ7Fn0JuZzGKm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3zpScPAgn0Z9ddfxKwvkRasKyf0.jpg",
+      "description": "100 candidats s'affrontent dans une série d'épreuves aussi originales qu'amusantes. À chaque manche, le dernier est éliminé. Une seule règle : ne jamais terminer dernier. Le dernier candidat encore en lice remporte le grand prix de 1 000 000 $.",
       "releaseInfo": "2025"
     },
     {

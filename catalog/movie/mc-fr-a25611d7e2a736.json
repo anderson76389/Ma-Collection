@@ -1,12 +1,39 @@
 {
   "metas": [
     {
+      "id": "tmdb:1792170",
+      "type": "movie",
+      "name": "Model Citizen",
+      "poster": "https://image.tmdb.org/t/p/w500/7SE0LBwgqiqZzkm9gKVbBAbcNQL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5MBdRdiGv3AKzZDGbni88xc6JFi.jpg",
+      "description": "Un homme sort du coma et découvre que son bien-être est désormais placé sous la responsabilité d’un avatar numérique mis à sa disposition par le gouvernement.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:891621",
       "type": "movie",
       "name": "Wild Horse Nine",
       "poster": "https://image.tmdb.org/t/p/w500/hnBtud9vLr9arsUW8nxrzIz2uA4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/b17UWf3LqHgKolQkXckne32qv0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3uLA0ujne91bkzFStZICCYeqhnt.jpg",
       "description": "Peu avant le coup d'État chilien de 1973, deux agents de la CIA, Chris et Lee, sont envoyés de Santiago vers l'île de Pâques par leur supérieur, MJ. Au milieu des statues emblématiques de l'île, tandis que ces partenaires de longue date sont confrontés à leur sombre passé et aux complots en cours, Chris noue une relation avec deux étudiantes rebelles qui menace de faire basculer dans le chaos leur séjour dans ce paradis isolé…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1458099",
+      "type": "movie",
+      "name": "The Last Pickpocket in New-York",
+      "poster": "https://image.tmdb.org/t/p/w500/huEvi7UfPl6pfXNlZPVbvIOb8rb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oahXjJ0UxnkJthITntGMrXVXQsJ.jpg",
+      "description": "Harry est le dernier pickpocket de New-York.  Alors que l’argent liquide se fait rare, il continue d’exercer son art en toute discrétion.  Un jour, Harry dérobe une mystérieuse clef USB à un jeune mafieux et se retrouve pris en chasse par une dangereuse organisation criminelle…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1452110",
+      "type": "movie",
+      "name": "Clean Hands",
+      "poster": "https://image.tmdb.org/t/p/w500/szIEtkFLOMsPX6AVQSfzalNEEDd.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/py3XG3mFkdVMcw7VwfZ4HaXZIIU.jpg",
+      "description": "L'histoire vraie de Kevin Simmers, ancien policier anti-drogue devenu défenseur de la désintoxication, et de sa fille Brooke. Le film explore la crise américaine de la drogue et « la fine ligne bleue » à travers les regards opposés d'un policier et d'une toxicomane, qui étaient également père et fille.",
       "releaseInfo": "2026"
     },
     {
@@ -23,7 +50,7 @@
       "type": "movie",
       "name": "Stranglehold",
       "poster": "https://image.tmdb.org/t/p/w500/eTWcOmwSqC8Xr5o5VKFj7BFHKSI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dBziuJUx0tteX1eSzKj05twjDJi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bDZYPBjWQWSGFKL64FvNLxnojTV.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -36,12 +63,30 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1437396",
+      "type": "movie",
+      "name": "Your Mother Your Mother Your Mother",
+      "poster": "https://image.tmdb.org/t/p/w500/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jiFLiatBtBALlAzV5R72gzspBad.jpg",
+      "description": "À Houston, Latif, tueur à gages musulman et père de trois enfants, perd brutalement sa femme. Lorsque son nouveau-né refuse le lait maternisé, il se lance à la recherche d'Une nourrice, une démarche qui le conduit sur la piste d’un ex-militaire devenu prédicateur radical à la tête d’une milice d’extrême droite. Tandis que son ancien employeur tente de le ramener dans le milieu, Latif est entraîné dans un conflit qui menace sa famille autant que ses convictions.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1291366",
       "type": "movie",
       "name": "The Deputy",
       "poster": "https://image.tmdb.org/t/p/w500/qL654LNOfBu49e12jnnQIv6mny.jpg",
       "background": "https://image.tmdb.org/t/p/w780/3WBGquZOd4iNl288BmWzkp0Fbdy.jpg",
       "description": "L’histoire suit Toby Sawyer, un adjoint du shérif à temps partiel dans le Mississippi rural, qui est réveillé en pleine nuit par le chef Krueger pour garder un corps jusqu’à l’arrivée du médecin légiste. Lorsqu’une heure plus tard le cadavre disparaît mystérieusement, Toby se lance dans une recherche effrénée...",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1375441",
+      "type": "movie",
+      "name": "Primetime",
+      "poster": "https://image.tmdb.org/t/p/w500/8W69bkus937B2OzJapRmw2uY42s.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sEsMwSDUWGIx9EfNxzM6KzVSsSQ.jpg",
+      "description": "Chris Hansen présente l'émission policière « To Catch a Predator ». Diffusée sur NBC Dateline, cette émission tente de filmer des pédophiles présumés avec l'aide des forces de l'ordre et d'une équipe d'appâts se faisant passer pour des mineurs sur Internet. En 2006, Hansen est sur le point de révolutionner le monde de la télévision.",
       "releaseInfo": "2026"
     },
     {
@@ -67,7 +112,7 @@
       "type": "movie",
       "name": "Just Play Dead",
       "poster": "https://image.tmdb.org/t/p/w500/e0WaDBrrBAMcq2stAXCR7rXEsiw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tieojVpH6eW44JQOQEWnf8t4khG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lBWfbmUj9Jw0EM1OYtDXr0B5FPW.jpg",
       "description": "Lorsque Jack Wolfe est acculé par le FBI, il prévoit de simuler sa propre mort et de toucher les 30 millions de dollars de son assurance-vie avec la complicité de sa femme “endeuillée”, Nora, tout en faisant accuser son amant, Chad, de son meurtre. Mais Nora a son propre plan : tuer Jack pour de bon, faire accuser Chad et garder la fortune pour elle seule.",
       "releaseInfo": "2026"
     },
@@ -131,51 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/VVU42nqsEmUtFpH1d9MHj5BIpF.jpg",
       "background": "https://image.tmdb.org/t/p/w780/riezFXKrSq1XNnRLJi3AKIwEV8d.jpg",
       "description": "Dans le Vermont, près de la frontière canadienne, cinq officiers de police, Thorny, Farva, Mac, Foster et Rabbit, tentent tant bien que mal de faire respecter l'ordre.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1458215",
-      "type": "movie",
-      "name": "The Gentleman Thief",
-      "poster": "https://image.tmdb.org/t/p/w500/oMutDMODnbCZf46w0dK4wncQmDB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/aayQcCebqLmkTZdILp9JVcFiIRL.jpg",
-      "description": "Sorti de sa retraite, le maître voleur Mason Goddard doit dérober un tableau d'une valeur inestimable et déjouer le piège mortel tendu par un baron du crime impitoyable.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1514682",
-      "type": "movie",
-      "name": "Above & Below",
-      "poster": "https://image.tmdb.org/t/p/w500/7bOuu1SRALGwsG2fLCTvRkCmQBj.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lSd6nEnlaeQkswLLUgHC5gyuXyU.jpg",
-      "description": "Un groupe d’amis partent pour connaître des vacances inoubliables. Ce qui commence comme une aventure faite de fêtes et de plongées vire rapidement au cauchemar lorsqu’ils sont attaqués par des criminels en pleine mer.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:87513",
-      "type": "movie",
-      "name": "Motor City",
-      "poster": "https://image.tmdb.org/t/p/w500/rKws4iqKhrzWHVLHnwtMnCpEHhF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/l7asYmqOad01F2u0oCMM8nQjoEP.jpg",
-      "description": "À Détroit dans les années 1970, John Miller sort de prison. Il décide alors de se venger et de récupérer la femme qu'il aime, Sophia.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:949838",
-      "type": "movie",
-      "name": "72 heures",
-      "poster": "https://image.tmdb.org/t/p/w500/oRCQDEb8wqBIQIs12BBtimPL1Bw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hL5EIk48251OXlbIbRJq3yaBHk8.jpg",
-      "description": "Un quadragénaire en perte de vitesse espère sauver sa carrière dans la publicité en rejoignant un groupe de vingtenaires pour un enterrement de vie de garçon déjanté de trois jours, après avoir été ajouté par erreur à leur conversation par SMS.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1202033",
-      "type": "movie",
-      "name": "Enola Holmes 3",
-      "poster": "https://image.tmdb.org/t/p/w500/ncHImt9szlNQaNM2iY3vcgSdDp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jLuGZc84MvPYCQomQg9DI72mstt.jpg",
-      "description": "La détective Enola Holmes poursuit ses aventures à Malte, où son projet de mariage se complique quand elle doit résoudre une périlleuse affaire liée à la disparition de Sherlock.",
       "releaseInfo": "2026"
     }
   ]

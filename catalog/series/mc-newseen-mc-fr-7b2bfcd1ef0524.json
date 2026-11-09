@@ -1,88 +1,52 @@
 {
   "metas": [
     {
-      "id": "tmdb:67475",
+      "id": "tmdb:49293",
       "type": "series",
-      "name": "Les secrets de la physique quantique",
-      "poster": "https://image.tmdb.org/t/p/w500/5xA67UBdIV1z8Cwr5TWeHRDD9Zh.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vUm5MuX1CYUZLnov3BksBRliHuW.jpg",
-      "description": "Le professeur Jim Al-Khalili retrace l'histoire de la théorie scientifique sans doute la plus importante, la plus complexe et aussi la plus déconcertante de tous les temps jusqu'ici : La théorie de la physique quantique. Son histoire commence au début du XXe siècle, lorsque les scientifiques tentaient de mieux comprendre le fonctionnement des ampoules. Cette simple question les a bientôt conduits à se plonger plus profondément sur la question du fonctionnement mystérieux de la matière et les constituants élémentaires de l'atome dans le monde qui nous entoure. Ils ont alors découvert un phénomène différent de tout ce qu'ils connaissaient jusque-là, un royaume où la réalité n'apparaît que lorsqu'on l'observe. Einstein détestait l'idée que la nature, à son niveau le plus fondamental, soit gouvernée par le hasard. Jim révèle comment, dans les années 30, Einstein pensait avoir trouvé une faille dans la mécanique quantique. Cette assertion ne fut pas prise au sérieux avant les années 60.",
-      "releaseInfo": "2014"
-    },
-    {
-      "id": "tmdb:222966",
-      "type": "series",
-      "name": "Jim Al-Khalili's Guide to Life, the Universe and Everything",
-      "poster": "https://image.tmdb.org/t/p/w500/ee5I2HKR4GY3HIbCwGhBgAGU0so.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/94UY62DuxJa5FFHeG1EZNsMaFWH.jpg",
-      "releaseInfo": "2021"
-    },
-    {
-      "id": "tmdb:85984",
-      "type": "series",
-      "name": "The Stuarts: A Bloody Reign",
-      "poster": "https://image.tmdb.org/t/p/w500/g33rotRPQGQVobfF72ZgPZb3ST2.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/iiMPdFr1Er0iWjENRG6qUdSxQ8a.jpg",
-      "releaseInfo": "2018"
-    },
-    {
-      "id": "tmdb:67473",
-      "type": "series",
-      "name": "Everything and Nothing",
-      "poster": "https://image.tmdb.org/t/p/w500/y9hJOY7kMy4xJIeARdqGgvUmijl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qHu5VkffC8dMwZPnffpRUFpYupu.jpg",
+      "name": "Choccywoccydoodah",
+      "poster": "https://image.tmdb.org/t/p/w500/kGLpGcH5OwtcaAfJ6Zox2FCaJYY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jlbQh9qo4bls0NNcEniAYcuNCf6.jpg",
       "releaseInfo": "2011"
     },
     {
-      "id": "tmdb:67128",
+      "id": "tmdb:92398",
       "type": "series",
-      "name": "Crimes That Shook Australia",
-      "poster": "https://image.tmdb.org/t/p/w500/peXe1uaIDscswHGPC4z7HmxLFfv.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/o4hJ8t3leJyXfLJYrYcUlGzaogP.jpg",
-      "releaseInfo": "2013"
+      "name": "A la recherche de l'art perdu",
+      "poster": "https://image.tmdb.org/t/p/w500/8MfkbeXknpivez9nSPcuGax7NmL.jpg",
+      "description": "En mars 2012, à Munich, la police découvre plus d'un millier de toiles de maître, trésor de guerre nazi, chez Cornelius Gurrlit, collectionneur allemand.",
+      "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:125509",
+      "id": "tmdb:80666",
       "type": "series",
-      "name": "Amores perros",
-      "poster": "https://image.tmdb.org/t/p/w500/qyiM5EfBHurmDDEUJg69vfQI7bR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gnIBMgCVIlyPvhcNKoZY2ERhBYG.jpg",
+      "name": "Hollywood Weapons",
+      "poster": "https://image.tmdb.org/t/p/w500/8LHBuYB67h4ox7mOxMpRNPZhDr7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2wgPeeAN7npoTEW9mCosXOVcIAY.jpg",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:71859",
+      "type": "series",
+      "name": "The Great Fire: In Real Time",
+      "poster": "https://image.tmdb.org/t/p/w500/jIcUiBaJpgGlcHWtvIQKHA8ohZF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zq6zwkuBOLwP0vuiupX88PTUaXS.jpg",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:66188",
+      "type": "series",
+      "name": "Race of life",
+      "poster": "https://image.tmdb.org/t/p/w500/rlH6t3RE9L5W2h8OetmgWMDAjsO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/juUy5FBuS6CV0SyuFJbUcpqlVEB.jpg",
       "releaseInfo": "2016"
     },
     {
-      "id": "tmdb:259388",
+      "id": "tmdb:82348",
       "type": "series",
-      "name": "Qui a tué Gandhi ?",
-      "poster": "https://image.tmdb.org/t/p/w500/v2WVLmPFZtxCraTxQPsrCY1niJx.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/p861k9UXWwkyalM7TZCCC3CS3ul.jpg",
-      "description": "Le Mahatma Gandhi a lutté contre la division de l'Inde et s'est engagé pour une coexistence des religions qui la compose. Le 30 janvier 1948, le leader spirituel a été abattu par le fanatique hindou Nathuram Godse. Cet assassinat ainsi que le rôle de Godse divisent encore aujourd'hui le monde politique indien. Et l'idéologie qui a inspiré l'assassin de Gandhi est devenue courante dans l'Inde d'aujourd'hui.",
-      "releaseInfo": "2013"
-    },
-    {
-      "id": "tmdb:209629",
-      "type": "series",
-      "name": "Rachel Khoo: My Swedish Kitchen",
-      "poster": "https://image.tmdb.org/t/p/w500/gk8v4g2UEFGkcOHqESqMHCHOfl6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3pYVnluqnIx6VbBof2atzufWD3I.jpg",
-      "releaseInfo": "2019"
-    },
-    {
-      "id": "tmdb:219479",
-      "type": "series",
-      "name": "Les mystères de la pluie",
-      "poster": "https://image.tmdb.org/t/p/w500/jEAjlNZnbrztuPnNiVb2g7dfbz.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/a4sp3G7pq6QWsaxX0kueow4VGns.jpg",
-      "description": "La vie sur Terre ne serait pas possible sans la pluie. Bien que l'eau recouvre la majeure partie de la Terre, 97 % de celle-ci est constituée d'eau de mer. La pluie soutient la vie terrestre en fournissant une eau non salée que nous pouvons boire. La pluie, ou son absence, a façonné et détruit des civilisations depuis l'Antiquité, et aujourd'hui, le changement climatique modifie les régimes pluviométriques avec des conséquences mortelles.",
-      "releaseInfo": "2022"
-    },
-    {
-      "id": "tmdb:77782",
-      "type": "series",
-      "name": "Le mystère de la gravité",
-      "poster": "https://image.tmdb.org/t/p/w500/eC3BMbgxDo6xA5tHDiiUEknQh2u.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nxViBHDHPK0UFqEOfl1C0IOmAPT.jpg",
-      "description": "Deux épisodes pour apporter une nouvelle perspective sur la façon dont Galilée, Newton et Einstein ont révolutionné la science en sondant cette force fondamentale : la gravité. Jim Al-Khalili, physicien et présentateur vedette de programmes scientifiques à la BBC, enquête sur les toutes dernières découvertes en lien avec cette mystérieuse force.",
-      "releaseInfo": "2017"
+      "name": "Dinosaur Britain",
+      "poster": "https://image.tmdb.org/t/p/w500/pZlZlUzRXlivMLJN1EBBukyTkFF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aXGkYWJH5hHvKQTp35kWJwVFd0e.jpg",
+      "releaseInfo": "2015"
     }
   ]
 }

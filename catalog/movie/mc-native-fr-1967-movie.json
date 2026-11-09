@@ -1,6 +1,13 @@
 {
   "metas": [
     {
+      "id": "tmdb:1509399",
+      "type": "movie",
+      "name": "Triple je",
+      "description": "Ils se ressemblent comme trois gouttes d’eau… mais n’ont rien d’autre en commun ! À 45 ans, Richard Deltour, cadre rigide et tradi, découvre du jour au lendemain qu’il a deux frères jumeaux ! Le premier, David, dirige une association LGBTQIA+ et milite pour un monde plus inclusif. Le second, José, arnaqueur sans talent, enchaîne les galères avec un certain panache, mais la dernière en date pourrait bien lui coûter la vie. Pour Richard, ces retrouvailles virent à la catastrophe : il a maintenant une semaine pour ne pas perdre son job, et surtout son épouse, Alice, qui s’apprête à le quitter. Ces triplés que tout oppose vont devoir apprendre à se supporter, et aussi à s’entraider… Et qui sait, peut-être même arriveront-ils à s’apprécier un peu ? Voire à s’aimer ?",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1719043",
       "type": "movie",
       "name": "Fatol",
@@ -12,15 +19,6 @@
       "id": "tmdb:1801799",
       "type": "movie",
       "name": "홈커밍",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1642600",
-      "type": "movie",
-      "name": "Harceleurs",
-      "poster": "https://image.tmdb.org/t/p/w500/yHE9nlvMq8f7YzSrYTi1CDAtMrT.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dOxiqjaYzhnYw06zAQGvTxeqyP3.jpg",
-      "description": "Camille est professeure dans un collège d'une ville pavillonnaire, son fils Mathias est en 3e dans le même établissement. Des faits de harcèlement lui sont signalés et, avant qu'elle n'ait le temps d'en comprendre l'ampleur et d'agir, l'élève harcelé fait une tentative de suicide et tombe dans le coma. Les parents, les autres élèves, tout le monde est sous le choc. En attendant le verdict autour du sort de la victime, les efforts se concentrent sur la recherche du coupable, et tout tend à croire que c'est le fils de Camille. Qui est vraiment son fils, que cache-t-il ? Comment gérer la situation ? Et surtout pourquoi n'a-t-elle rien vu ? Camille se retrouve prise en étau entre son rôle de professeure et de mère...",
       "releaseInfo": "2026"
     },
     {
@@ -56,15 +54,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/nSNVD95b3GxI8QuG0wq0gSvxAWN.jpg",
       "background": "https://image.tmdb.org/t/p/w780/okBdLQ7Cz0sSJujTKfqNfgQGwGv.jpg",
       "description": "Orlando vit toujours chez ses parents et rêve de devenir danseur professionnel, mais pour l’instant, il travaille comme go-go dancer dans un bar gay populaire pour joindre les deux bouts. Marco est sur le point de finir ses études d’infirmiers. Une étincelle instantanée entre les deux garçons se transforme en une romance passionnée que ni l’un ni l’autre ne sait vraiment gérer. Mais une fois l’obscurité de la nuit dissipée, à travers leurs corps entrelacés et leurs âmes synchronisées, ils tenteront de tracer le chemin de leurs destins partagés.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1509160",
-      "type": "movie",
-      "name": "La première marche",
-      "poster": "https://image.tmdb.org/t/p/w500/llCneIUFK4qnTKbvQ5o37i55W7m.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zIsuzjLBakXYhhFxWXzlx3RxsEf.jpg",
-      "description": "Lorsque Victoire, une jeune judokate trans, arrive en finale d'une compétition régionale, son adversaire, Sonia, refuse de concourir contre elle.",
       "releaseInfo": "2026"
     },
     {
@@ -128,21 +117,21 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1376457",
+      "type": "movie",
+      "name": "Soumsoum, la nuit des astres",
+      "poster": "https://image.tmdb.org/t/p/w500/vHSXd1UZIRoTV3OKMb4XObcgymU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5u2rcM3QRlRYP6caBN6vZabvxEj.jpg",
+      "description": "Dans un village isolé du Tchad, Kellou est traversée par des visions qu’elle ne comprend pas. Grâce à sa rencontre avec Aya, une exilée aux secrets douloureux, elle va découvrir une autre façon de regarder son passé, ses rêves et son village. Mais en prenant la défense d’Aya, que le chef du village tente de chasser, elle se heurte à la peur et à la colère des habitants, et devra se battre pour garder sa liberté.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1393326",
       "type": "movie",
       "name": "Ghost in the Cell",
       "poster": "https://image.tmdb.org/t/p/w500/gF6Ijrq5bixh4qemCuroRwXtbBc.jpg",
       "background": "https://image.tmdb.org/t/p/w780/tK3QdOOrX4qEkmSlvrmc8cK7iOU.jpg",
       "description": "Dans une prison de haute sécurité, l'arrivée d'un nouveau détenu entraîne une série de meurtres barbares. Enfermés dans leurs cellules, les prisonniers doivent s'unir pour démasquer un fantôme surnaturel s'ils ne veulent pas être les victimes de la prochaine mise en scene macabre.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1702434",
-      "type": "movie",
-      "name": "Lost Ranger",
-      "poster": "https://image.tmdb.org/t/p/w500/31nlDKDzbSPwQvjvJIc18UpR60K.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9UNlXizcrgGzl3DK2N03g4OVCn0.jpg",
-      "description": "Neil, garde forestier, et sa femme Abby font très difficilement face à la disparition de leur fils alors qu'une inquiétante épidémie commence à ravager la région et ses habitants.",
       "releaseInfo": "2026"
     },
     {
@@ -168,6 +157,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/muSkhi7bCL02vcCOpAa4d5OFspt.jpg",
       "background": "https://image.tmdb.org/t/p/w780/prEcOEqvkJlCwCYx050lMWWKcC.jpg",
       "description": "Deniz, jeune marseillaise éloignée de ses racines turques, découvre l’existence d’Alev, une grand-tante effacée de la mémoire familiale, grâce à des cassettes qu'on lui envoie de façon anonyme.  En 1970, deux détectives enquêtent sur la disparition de cette jeune fille de la bourgeoisie stambouliote.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1255779",
+      "type": "movie",
+      "name": "Une Fille en or",
+      "poster": "https://image.tmdb.org/t/p/w500/4uMXPmz4pSZ2lHkorxspEcdddqM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hPAgArD5mjp2LgZEJ9wUbrPU67W.jpg",
+      "description": "Un jour, Clémence prend conscience que personne ne l’a jamais admirée. Bercée par les illusions d’une enfance chaotique, elle croise un certain Paul, petit patron autoritaire que rien ni personne n’impressionne. Elle se dit alors qu’il est temps pour elle de se poser la seule question qui vaille : « Et si je valais plus que je ne le crois ? ».",
       "releaseInfo": "2026"
     }
   ]

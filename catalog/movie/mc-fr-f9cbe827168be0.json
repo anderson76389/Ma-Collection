@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1286656",
+      "type": "movie",
+      "name": "I Play Rocky",
+      "poster": "https://image.tmdb.org/t/p/w500/xE5tY3lppZUyG7WKKThsuYHuAHr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1lnnjBCRLZzKRhQipK5zm61YkPe.jpg",
+      "description": "Un acteur en difficulté avec un visage partiellement paralysé et un trouble de l’élocution écrit un scénario qu’un grand studio de cinéma veut acheter. Mais l’acteur refuse de le vendre à moins de pouvoir jouer le rôle principal. Refusant une offre d’argent qui pourrait changer sa vie, il travaille pour des centimes afin que le film soit réalisé avec lui dans le rôle principal.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1281331",
       "type": "movie",
       "name": "The Social Reckoning",
@@ -22,8 +31,8 @@
       "id": "tmdb:1375441",
       "type": "movie",
       "name": "Primetime",
-      "poster": "https://image.tmdb.org/t/p/w500/rhF8JALH8wrxKtXSCAB7a09tWsc.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/8W69bkus937B2OzJapRmw2uY42s.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sEsMwSDUWGIx9EfNxzM6KzVSsSQ.jpg",
       "description": "Chris Hansen présente l'émission policière « To Catch a Predator ». Diffusée sur NBC Dateline, cette émission tente de filmer des pédophiles présumés avec l'aide des forces de l'ordre et d'une équipe d'appâts se faisant passer pour des mineurs sur Internet. En 2006, Hansen est sur le point de révolutionner le monde de la télévision.",
       "releaseInfo": "2026"
     },
@@ -43,6 +52,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/evCy2B3j57AwSNBZqlePjMl3zj3.jpg",
       "background": "https://image.tmdb.org/t/p/w780/nw9Q3idNO8EsTPnvr8vBJTpkWGA.jpg",
       "description": "Un jeune agent noir du FBI est envoyé au Mississippi dans les années 60 afin d’enquêter sur une vague de meurtres brutaux visant des leaders du mouvement des droits civiques. Contraint de faire équipe avec le célèbre tueur à gages de la mafia Greg Scarpa, il se retrouve entraîné dans une traque meurtrière où la frontière entre justice et vengeance devient de plus en plus floue.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1249508",
+      "type": "movie",
+      "name": "Grizzly Night",
+      "poster": "https://image.tmdb.org/t/p/w500/bOoh4kdif2jKf6pq2R9WhGZBfMk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/i275mAQP4KhPtYUpMUgBGMmK4WN.jpg",
+      "description": "Inspiré de faits réels. Le 12 août 1967, dans le parc national de Glacier au Montana, l'impensable se produit : la même nuit, à 15 km d'intervalle, surviennent non pas une, mais deux attaques mortelles de grizzli.",
       "releaseInfo": "2026"
     },
     {
@@ -161,24 +179,6 @@
       "background": "https://image.tmdb.org/t/p/w780/ulw8SrKbDeDrsSVNKPb5211AseI.jpg",
       "description": "Indianapolis, 1977. Ruiné par une faillite immobilière, Tony Kiritsis prend en otage Richard Hall, le courtier qu’il tient responsable de tous ses malheurs. L'entrepreneur lie autour du cou de sa victime un fil métallique attaché à un fusil de chasse, lequel fera feu si la police tente d'intervenir. L’incident attire l’attention des médias, puis la faveur de l'opinion publique américaine, alors que le kidnappeur exige une énorme somme d’argent et une excuse publique du grand patron de la Meridian Mortgage Company. Alors que la prise d’otage se transforme en un gigantesque cirque médiatique, Kiritsis perd lentement mais sûrement le contrôle de la situation.",
       "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1371185",
-      "type": "movie",
-      "name": "Sur un air de blues",
-      "poster": "https://image.tmdb.org/t/p/w500/a37MBzhCanExpBxq1wzGRilRt49.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8dlna8rRcf5gDCRzEsjtHizpj1X.jpg",
-      "description": "Milwaukee, Ohio, 1989. Mike, imitateur d'Elvis, fait la connaissance de Claire, une chanteuse de clubs abonnée au répertoire de Patsy Cline. Le coup de foudre réciproque amène cet alcoolique sobre et cette mère célibataire à former un groupe dédié au répertoire de Neil Diamond baptisé Lightning & Thunder. De kermesses locales en festivals, le duo est remarqué par Eddie Vedder, le leader du groupe Pearl Jam, qui l'invite à assurer la première partie de son spectacle à Milwaukee. Le triomphe qui s'ensuit est assombri par un terrible accident, qui coûte à Claire une de ses jambes, et plonge ces amoureux fous dans leur première crise de couple, sous l'œil impuissant de leurs enfants respectifs.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1563925",
-      "type": "movie",
-      "name": "Chris Hemsworth : Sur la route des souvenirs",
-      "poster": "https://image.tmdb.org/t/p/w500/4EdQaZJ3GaPjmzIVkNfbL0VMwj6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/t2NdxB5kIscjsmK4ZKTWBf7XpY4.jpg",
-      "description": "Chris et son père, à qui on a récemment diagnostiqué la maladie d'Alzheimer, partent en road trip à travers leur passé. Ce voyage intime est pour eux l'occasion d'explorer l'impact des liens sociaux et leur pouvoir sur la mémoire.",
-      "releaseInfo": "2025"
     }
   ]
 }

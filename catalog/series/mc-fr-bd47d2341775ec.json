@@ -9,6 +9,15 @@
       "releaseInfo": "1960"
     },
     {
+      "id": "tmdb:764",
+      "type": "series",
+      "name": "Inspecteur Barnaby",
+      "poster": "https://image.tmdb.org/t/p/w500/yYk4Ju1A5jDGZ3jsNlicoeLni6c.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qVmgq1KXBp6BF2EqYPPaUG9iUGy.jpg",
+      "description": "La tranquillité de la communauté de Midsomer est bouleversée par des crimes violents, des suspects sont mis en cause, et c'est à Tom Barnaby, un inspecteur principal chevronné et à son jeune sergent qu'il revient d'éliminer calmement et diligemment les innocents et de poursuivre sans pitié les coupables.",
+      "releaseInfo": "1997"
+    },
+    {
       "id": "tmdb:2527",
       "type": "series",
       "name": "Emmerdale",
@@ -26,37 +35,20 @@
       "releaseInfo": "1962"
     },
     {
-      "id": "tmdb:39614",
+      "id": "tmdb:2441",
       "type": "series",
-      "name": "The Voice (Royaume-Uni)",
-      "poster": "https://image.tmdb.org/t/p/w500/dLfTwqgw948vgD1NbBVeyonhKN4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wpjPWl3t6H4M9gmSxNz91tichkU.jpg",
-      "description": "Il s’agit d’une émission de télé-réalité consacrée à un concours de chant, réunissant des talents authentiques aux voix remarquables. Seuls les meilleurs candidats franchissent l'étape des auditions à l’aveugle, où les décisions des quatre coachs de renom reposent uniquement sur ce qu’ils entendent, sans aucun autre critère.",
-      "releaseInfo": "2012"
+      "name": "Tonight",
+      "poster": "https://image.tmdb.org/t/p/w500/fuQF9F1AKQfIiLoheLhtD8OvKjB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3VZEidkCWfDs0q8GjFfPRWTujKg.jpg",
+      "releaseInfo": "1999"
     },
     {
-      "id": "tmdb:3648",
+      "id": "tmdb:239962",
       "type": "series",
-      "name": "Dickinson's Real Deal",
-      "poster": "https://image.tmdb.org/t/p/w500/dSPgyQ5QiXwuYNs9ow84tjcjIEp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/b6z3sd2bRAeS5GoDywu0EvvYKpM.jpg",
-      "releaseInfo": "2006"
-    },
-    {
-      "id": "tmdb:55497",
-      "type": "series",
-      "name": "The Martin Lewis Money Show",
-      "poster": "https://image.tmdb.org/t/p/w500/vPXJHPAYaxuwSuMC1KbHqAN3cCX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/AvF220hOUohXd6Qfkmv1Lbte0bG.jpg",
-      "releaseInfo": "2012"
-    },
-    {
-      "id": "tmdb:116129",
-      "type": "series",
-      "name": "Lingo",
-      "poster": "https://image.tmdb.org/t/p/w500/a06fDRQsDOatU8tfs7GvdIDx0JS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6f6ZeGZK9p11d6v5gpFwkbkrfXF.jpg",
-      "releaseInfo": "2021"
+      "name": "Deal Or No Deal",
+      "poster": "https://image.tmdb.org/t/p/w500/mra0cGasvbJHQuB3WikfeI98fFj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hX3W0mT9QU0gEfB8xwgz6oavjLG.jpg",
+      "releaseInfo": "2023"
     },
     {
       "id": "tmdb:129105",
@@ -73,22 +65,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/6Ifc1eZqBtVlgZN16RZblkWggzj.jpg",
       "background": "https://image.tmdb.org/t/p/w780/s3ej0w61PrKyvz3GtzHkMHHcrly.jpg",
       "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:300062",
-      "type": "series",
-      "name": "Win Win",
-      "poster": "https://image.tmdb.org/t/p/w500/p03gsgFMEoPVfp1Wv0S7Ai4qlZQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/84TmeoKghcb9BtcT0Mixc2NXEb2.jpg",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:321278",
-      "type": "series",
-      "name": "Clodagh: Cooking at Home",
-      "poster": "https://image.tmdb.org/t/p/w500/jRnO8Im6jo9EF1OuKENcGTVAeK3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cyVBKf4OCZZLZFNpt9IFoOSv1uq.jpg",
-      "releaseInfo": "2026"
     }
   ]
 }

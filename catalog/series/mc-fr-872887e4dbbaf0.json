@@ -1,15 +1,6 @@
 {
   "metas": [
     {
-      "id": "tmdb:30984",
-      "type": "series",
-      "name": "Bleach",
-      "poster": "https://image.tmdb.org/t/p/w500/e0kKmeM8R7Kersh5N2PPzIRNRhr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/o0NsbcIvsllg6CJX0FBFY8wWbsn.jpg",
-      "description": "Adolescent de quinze ans, Ichigo Kurosaki possède un don particulier : celui de voir les esprits. Un jour, il croise la route d'une belle Shinigami (un être spirituel) en train de pourchasser une « âme perdue », un esprit maléfique qui hante notre monde et n'arrive pas à trouver le repos. Mise en difficulté par son ennemi, la jeune fille décide alors de prêter une partie de ses pouvoirs à Ichigo, mais ce dernier hérite finalement de toute la puissance du Shinigami. Contraint d'assumer son nouveau statut, Ichigo va devoir gérer ses deux vies : celle de lycéen ordinaire, et celle de chasseur de démons…",
-      "releaseInfo": "2004"
-    },
-    {
       "id": "tmdb:312359",
       "type": "series",
       "name": "Dragon Ball Super : Beerus",
@@ -37,15 +28,6 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:105009",
-      "type": "series",
-      "name": "Tokyo Revengers",
-      "poster": "https://image.tmdb.org/t/p/w500/kzDHRAkFjeed0lJpjE1eKJDcowS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zYIFOocMfsKAEysBjhZ8akfXFdB.jpg",
-      "description": "Takemichi Hanagaki n'a pas vraiment réussi sa vie. Il fait des petits boulots sans intérêt et lorsqu'il apprend que la seule petite amie qu'il ait jamais eu au collège, Hinata Tachibana, a été tuée par l'impitoyable gang Tokyo Manji-kai, il est anéanti. Le lendemain, toujours sous le choc, il est poussé sur les rails de la gare lors d'un mouvement de foule. Mais Takemichi ne meurt pas et quand il se réveille, il est revenu douze ans en arrière. Il va ainsi retrouver ses meilleures années, mais aussi tenter de sauver celle qui l'aime et prendre sa revanche sur la vie…",
-      "releaseInfo": "2021"
-    },
-    {
       "id": "tmdb:73223",
       "type": "series",
       "name": "Black Clover",
@@ -55,13 +37,13 @@
       "releaseInfo": "2017"
     },
     {
-      "id": "tmdb:226688",
+      "id": "tmdb:105009",
       "type": "series",
-      "name": "BEYBLADE X",
-      "poster": "https://image.tmdb.org/t/p/w500/66wkm14IWdrY5LaKZDAbkD2T9Jt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qAq9RBeHZoTMDFqQZ2o4cE5CJIQ.jpg",
-      "description": "Robin Kazami, blader débutant, s'associe à l'influenceuse Multi Nana-iro et à l'ancien champion Jaxon Cross pour former ce trio improbable, prêt à gravir les échelons du classement The X et à remporter le titre de champion blader !",
-      "releaseInfo": "2023"
+      "name": "Tokyo Revengers",
+      "poster": "https://image.tmdb.org/t/p/w500/kzDHRAkFjeed0lJpjE1eKJDcowS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zYIFOocMfsKAEysBjhZ8akfXFdB.jpg",
+      "description": "Takemichi Hanagaki n'a pas vraiment réussi sa vie. Il fait des petits boulots sans intérêt et lorsqu'il apprend que la seule petite amie qu'il ait jamais eu au collège, Hinata Tachibana, a été tuée par l'impitoyable gang Tokyo Manji-kai, il est anéanti. Le lendemain, toujours sous le choc, il est poussé sur les rails de la gare lors d'un mouvement de foule. Mais Takemichi ne meurt pas et quand il se réveille, il est revenu douze ans en arrière. Il va ainsi retrouver ses meilleures années, mais aussi tenter de sauver celle qui l'aime et prendre sa revanche sur la vie…",
+      "releaseInfo": "2021"
     },
     {
       "id": "tmdb:216467",
@@ -82,6 +64,15 @@
       "releaseInfo": "2024"
     },
     {
+      "id": "tmdb:226688",
+      "type": "series",
+      "name": "BEYBLADE X",
+      "poster": "https://image.tmdb.org/t/p/w500/66wkm14IWdrY5LaKZDAbkD2T9Jt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qAq9RBeHZoTMDFqQZ2o4cE5CJIQ.jpg",
+      "description": "Robin Kazami, blader débutant, s'associe à l'influenceuse Multi Nana-iro et à l'ancien champion Jaxon Cross pour former ce trio improbable, prêt à gravir les échelons du classement The X et à remporter le titre de champion blader !",
+      "releaseInfo": "2023"
+    },
+    {
       "id": "tmdb:253811",
       "type": "series",
       "name": "TOUGEN ANKI",
@@ -91,12 +82,30 @@
       "releaseInfo": "2025"
     },
     {
+      "id": "tmdb:286361",
+      "type": "series",
+      "name": "Magical Sisters Lulu & Lilly",
+      "poster": "https://image.tmdb.org/t/p/w500/1lziKy50ykj6T5blCMnrQweB7HW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8z6AOYD2nofxafAZDhuzkQQFdnC.jpg",
+      "description": "Deux sœurs devenues distantes obtiennent des pouvoirs magiques temporaires et deviennent des idols secrètes, sans savoir que l’autre vit la même vie.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:270603",
       "type": "series",
       "name": "The Exiled Heavy Knight Knows How to Game the System",
       "poster": "https://image.tmdb.org/t/p/w500/flcyEjfwHECnqgXMGNZsajLg1rv.jpg",
       "background": "https://image.tmdb.org/t/p/w780/rQmzx7qyoK5YiXJHnv0jdgVlKyl.jpg",
       "description": "Issu d’une prestigieuse famille de maîtres épéistes, Elymas Edvaughn est renié et banni lorsqu’il s’affirme en tant que “Chevalier Lourd”, une classe inférieure et complètement dénigrée. En réalité, le monde d’Elymas est similaire à celui d’un jeu qu’il maîtrisait dans une autre vie. Et il sait parfaitement que les Chevaliers Lourds sont en fait les plus puissants…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:328010",
+      "type": "series",
+      "name": "Devils' Crest",
+      "poster": "https://image.tmdb.org/t/p/w500/kimx6VeIKhNQH0sqyT2OXfWUO07.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fA6eLsm6xEBK90IK3UNWoVPZBn7.jpg",
+      "description": "Une nouvelle série par Reki Kawahara, auteur de \"Accel World\" and \"Sword Art Online\". \"Sword Art Online\" abordait la réalité virtuelle, \"Sword Art Online the Movie: Ordinal Scale\" explorait la réalité augmentée, et \"Devils' Crest\" s'attaque à la réalité mélangée. Quand Actual Magic, le 1er VRMMORPG fusionne avec le monde réel, un nouveau jeu mortel commence. Un jeu aussi ancré dans la réalité.",
       "releaseInfo": "2026"
     },
     {
@@ -118,11 +127,38 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:314054",
+      "type": "series",
+      "name": "Red River",
+      "poster": "https://image.tmdb.org/t/p/w500/wWlfBMTA7VygmYC4KUg2qLWJGmv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pHzcs5Ru1lwoVcQsPA5lNYlxJy2.jpg",
+      "description": "Yuri Suzuki est une jeune femme comblée : non seulement elle a réussi ses examens d'entrée à l'université, mais elle a aussi enfin échangé son premier baiser avec l'élu de son coeur. Malheureusement, ce bonheur ne dure pas. Un jour, elle est mystérieusement entrainée dans une flaque d'eau et est transportée dans le passé, au cœur de l'Empire Hittite, des millénaires avant sa naissance. Celle qui l'a invoquée, la reine Nakia, a l'intention de l'utiliser à des fins sacrificielles. Heureusement, la jeune femme déboussolée peut compter sur un allié inattendu.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:106301",
+      "type": "series",
+      "name": "Cardfight!! Vanguard : Over Dress",
+      "poster": "https://image.tmdb.org/t/p/w500/mjKtwfnz1X7ehbFgHqRoVoDT8DR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1uuWlEEAZHnPX1VnwqJc7pfo2YM.jpg",
+      "description": "Yûyu Kondô, élève en troisième année de collège, est capable de lire dans le cœur des autres. Mais ceux qui connaissent son don, notamment sa famille, ont tendance à profiter de lui. Cherchant à fuir cet environnement, Yûyu fait un jour la connaissance de Megumi. Elle l’entraîne dans un endroit où se réunissent des joueurs Vanguard, notamment le groupe Team Blackout. L’adolescent est alors fasciné par ce jeu de cartes et la manière dont chaque équipe défend ses couleurs. Il se laisse convaincre de rejoindre ces nouveaux camarades...",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:306721",
+      "type": "series",
+      "name": "Star Detective PreCure!",
+      "poster": "https://image.tmdb.org/t/p/w500/zuPQ9R5x17EM6xEA37TLRkL2BGD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bOgsRcvQcetWXtVnPgKtYYf9aSV.jpg",
+      "description": "Le jour de son 14e anniversaire, Anna Akechi rencontre une fée magique et se retrouve soudainement transportée de 2027 à 1999 ! Elle se lie d'amitié avec Mikuru, une jeune fille pleine d'entrain qui rêve de devenir détective. Lorsque de mystérieux vols font naître des rumeurs sur les Voleurs Fantômes, les deux jeunes filles se transforment en Detective Precure et utilisent leur courage, leur esprit de déduction et leur amitié pour résoudre des affaires et découvrir le secret du voyage dans le temps d'Anna.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:313346",
       "type": "series",
       "name": "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life",
       "poster": "https://image.tmdb.org/t/p/w500/lEUUMZ8zylAPP797UMugdYjuxRP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/msusxF6ZPGnQmTGXU9iC4UJOohs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/j7KrALvuZgBdwVZkOIRc9Xaeyt4.jpg",
       "description": "Rein l'Enchanteur est un mage capable d'améliorer les armes et les armures. Mais lorsqu'il se fait renvoyer de sa guilde pour la simple raison qu'il a déjà enchanté tout ce qu'elle possède, il décide de reprendre tous les sorts qu’il a transmis à ses ex-compagnons et les affecte à son propre équipement. En chemin, Rein rassemble une bande de parias comme lui et, ensemble, ils explorent le monde.",
       "releaseInfo": "2026"
     },
@@ -142,42 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/bD0PjbDtwSyt4CpIxvAQLHmNIKu.jpg",
       "background": "https://image.tmdb.org/t/p/w780/4hKtdyTXt4O2hy4zqadlENY1qpM.jpg",
       "description": "Takatsuki Makoto, un lycéen accro aux jeux vidéo, est transporté dans un autre monde avec ses camarades de classe après une mésaventure sur le chemin du retour d'un camp d'entraînement. Les dieux de l'autre monde leur ont tous donné des capacités de triche, mais pour une raison qui lui échappe, Makoto est le seul qui soit inférieur à la moyenne, un apprenti magicien. Leur objectif est de sauver Noa, une déesse mineure qui est piégée dans un donjon inaccessible à l'humanité. Avec la bénédiction de Noa et les artefacts divins en main, Makoto se met en route pour devenir le plus fort d'une manière peu orthodoxe.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:280042",
-      "type": "series",
-      "name": "A Wild Last Boss Appeared!",
-      "poster": "https://image.tmdb.org/t/p/w500/uLkimDmIWb4VdgFUuiMlS8wGi5S.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gNYmU3RUlCb6dVqkiPCT7vglMfg.jpg",
-      "description": "Une joueuse de MMO se réveille sous les traits du tyran aux ailes noires, Lufas Maphaahl, échappant ainsi à son destin scellé, pour découvrir que tout cela est bien réel. Sa défaite il y a 200 ans a libéré des monstres mortels, et la légende est terrifiante. Piégé dans le corps du conquérant le plus redouté de l'histoire, il doit désormais survivre dans un monde qui veut sa mort... et découvrir pourquoi il est là.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:200777",
-      "type": "series",
-      "name": "The Iceblade Sorcerer Shall Rule the World",
-      "poster": "https://image.tmdb.org/t/p/w500/qk6QH7pC9hddvw5ltgP4i47onyF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/oL459mgvcnc3jL90K7zkfvXQu0.jpg",
-      "description": "Ray White est un jeune homme venant d'entrer dans la populaire académie de magie Arnold. En tant que premier élève inscrit n'étant pas d'origine noble, il est rejeté par un certain nombre de ses camarades. Néanmoins, il se lie rapidement d'amitié avec Amelia Rose, la représentante des élèves de première année et la fille ainée d'une des 3 grandes familles aristocratiques, ainsi que d'autres élèves.\n\nToutefois, Ray White cache un énorme secret à ses amis : il est le magicien des lames de glace et l'un des sept grands magiciens de ce monde.",
-      "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:230050",
-      "type": "series",
-      "name": "A Returner's Magic Should Be Special",
-      "poster": "https://image.tmdb.org/t/p/w500/yiuyTrTGJe4I4XFgI652qSeB6Yn.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2KKDIwALX3HJWCjeDnvLa3Ag6ki.jpg",
-      "description": "Sur une terre dominée par le redoutable Labyrinthe des Ombres, la majeure partie de l'humanité a été anéantie. Pour sauver leur planète d'une catastrophe imminente, six courageux héros livrent une bataille périlleuse... et échouent. Mais une lueur d'espoir apparaît lorsque Désir, l'un des derniers mages, est soudain renvoyé treize ans en arrière ! Désormais armé de la connaissance de ce sinistre futur, pourra-t-il changer le cours de l'histoire et ainsi sauver le monde ?",
-      "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:305313",
-      "type": "series",
-      "name": "Romelia War Chronicle",
-      "poster": "https://image.tmdb.org/t/p/w500/2wqyITVWs1wZMih2VraylRjqzCo.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6LeBjYSPULKwSv5R6sX6Iovwoad.jpg",
-      "description": "Sa victoire sur le Roi-Démon aurait dû être le triomphe de Romélia. Au lieu de cela, son fiancé, le prince Henri, rompt leurs fiançailles et la renvoie dans une province en ruines. Mais Romélia ne se laisse pas abattre. Elle jure de lever une armée, de reconstruire le royaume et ce, malgré des conflits qui continuent. Son histoire ne fait que commencer…",
       "releaseInfo": "2026"
     }
   ]

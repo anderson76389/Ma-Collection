@@ -30,7 +30,7 @@
     {
       "id": "tmdb:1329071",
       "type": "movie",
-      "name": "Notre Histoire - Chronique du Caire",
+      "name": "Notre Histoire - Chroniques du Caire",
       "poster": "https://image.tmdb.org/t/p/w500/g3vQd5W75PAyxEaZ2Z2CkLAlLuA.jpg",
       "background": "https://image.tmdb.org/t/p/w780/2ByojsuKCTzIeHxed9tcDXU5UCP.jpg",
       "description": "Le Caire, 1967. Ahmed, pianiste obstiné dans une famille qui ne jure que par le football, reçoit une lettre en provenance d’Autriche : Liz a répondu à son annonce pour devenir sa correspondante. De la guerre des Six Jours à l’ère Sadate, leur destin va s’écrire en même temps que celui de l’Égypte : entre rêves contrariés, conflits, chaos familial, et petites victoires arrachées au destin.",
@@ -117,7 +117,7 @@
       "id": "tmdb:1608982",
       "type": "movie",
       "name": "L'Alarme : Sous les décombres",
-      "poster": "https://image.tmdb.org/t/p/w500/dh8Ut9wXrDbdoqARMtBWpZ1wlv8.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/3OBRXbnlhZxMPpfLMLzQwF29IMC.jpg",
       "background": "https://image.tmdb.org/t/p/w780/uiSaYXR0jLLWma0EPA1tcBhX6wT.jpg",
       "description": "Coincées sous terre pendant une tempête, trois élèves d'une école pour filles doivent surmonter leurs conflits personnels pour survivre.",
       "releaseInfo": "2026"
@@ -167,11 +167,11 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:1546963",
+      "id": "tmdb:1223073",
       "type": "movie",
-      "name": "Yan Yana",
-      "poster": "https://image.tmdb.org/t/p/w500/hykA5yq9tHCKR7WENSgavrNdFeS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/438YXcPF7bkEjJUEktMn2GocS6Q.jpg",
+      "name": "ولنا في الخيال... حب؟",
+      "poster": "https://image.tmdb.org/t/p/w500/q521ctl7fuG6fVitQ4DVCNYRNRk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dirEKQoXSWBaG4XCYPYzBppcqHe.jpg",
       "releaseInfo": "2025"
     }
   ]

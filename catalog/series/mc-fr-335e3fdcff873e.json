@@ -10,14 +10,6 @@
       "releaseInfo": "2010"
     },
     {
-      "id": "tmdb:90046",
-      "type": "series",
-      "name": "90 Day Fiancé: The Other Way",
-      "poster": "https://image.tmdb.org/t/p/w500/jw4KDjNmpBnMd7fEjbz9qTUmKJS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9jmxvWOt5xTjrJ03FNmViZCuZ5f.jpg",
-      "releaseInfo": "2019"
-    },
-    {
       "id": "tmdb:98410",
       "type": "series",
       "name": "Sœurs de poids",
@@ -25,6 +17,14 @@
       "background": "https://image.tmdb.org/t/p/w780/pwqOrFWZBo2h9YNeorLh4dydRYM.jpg",
       "description": "450 kg à elles-deux, les sœurs Slaton tentent de perdre assez de poids pour être éligibles à une chirurgie bariatrique et réaliser leur rêve.",
       "releaseInfo": "2020"
+    },
+    {
+      "id": "tmdb:90046",
+      "type": "series",
+      "name": "90 jours pour se marier : à l'étranger",
+      "poster": "https://image.tmdb.org/t/p/w500/jw4KDjNmpBnMd7fEjbz9qTUmKJS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9jmxvWOt5xTjrJ03FNmViZCuZ5f.jpg",
+      "releaseInfo": "2019"
     },
     {
       "id": "tmdb:290564",

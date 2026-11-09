@@ -10,6 +10,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1376457",
+      "type": "movie",
+      "name": "Soumsoum, la nuit des astres",
+      "poster": "https://image.tmdb.org/t/p/w500/vHSXd1UZIRoTV3OKMb4XObcgymU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5u2rcM3QRlRYP6caBN6vZabvxEj.jpg",
+      "description": "Dans un village isolé du Tchad, Kellou est traversée par des visions qu’elle ne comprend pas. Grâce à sa rencontre avec Aya, une exilée aux secrets douloureux, elle va découvrir une autre façon de regarder son passé, ses rêves et son village. Mais en prenant la défense d’Aya, que le chef du village tente de chasser, elle se heurte à la peur et à la colère des habitants, et devra se battre pour garder sa liberté.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1255779",
       "type": "movie",
       "name": "Une Fille en or",
@@ -108,15 +117,6 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1365378",
-      "type": "movie",
-      "name": "Le rêve américain",
-      "poster": "https://image.tmdb.org/t/p/w500/bURZdEMPoaxOCPstwfZ2gYfhqGx.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bQPWY2u154jJ5koDp9KcM67Wioi.jpg",
-      "description": "Personne n'aurait parié sur Jérémy, coincé derrière le comptoir d’un vidéo club à Amiens, ou sur Bouna, lorsqu'il faisait des ménages à l’aéroport d’Orly. Sans contacts, sans argent et avec un niveau d'anglais plus qu’approximatif, rien ne les prédestinait à devenir des agents qui comptent en NBA.  Inspiré d’une histoire vraie, ce film raconte le parcours de deux outsiders qui, grâce à leur passion absolue pour le basket et leur amitié indéfectible, ont bravé tous les obstacles pour réaliser leur Rêve Américain.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:1420742",
       "type": "movie",
       "name": "L'Infiltrée",
@@ -130,7 +130,7 @@
       "type": "movie",
       "name": "“Hurlevent”",
       "poster": "https://image.tmdb.org/t/p/w500/yEa8UQA71rjKhCq04mATDNOIT2B.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nHKscpZcAPkh97OsJJjyE5yaVE0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xEc9tzMd1DETn0Zqv2psfBGO2pa.jpg",
       "description": "Sur les landes balayées par le vent du Yorkshire, la passion dévorante entre Catherine Earnshaw et Heathcliff se transforme en une obsession destructrice, bouleversant leurs vies et celles de leur entourage.​",
       "releaseInfo": "2026"
     },

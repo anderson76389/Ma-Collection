@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1117898",
+      "type": "movie",
+      "name": "Le Chat Chapeauté",
+      "poster": "https://image.tmdb.org/t/p/w500/jBcFgdERUGw0au9fYZc5X9M8Dfs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg",
+      "description": "Le Chat se voit confier sa mission la plus difficile jusqu'à présent... aider deux frères et sœurs qui ont du mal à s'installer dans une nouvelle ville.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1802674",
       "type": "movie",
       "name": "Hot Wheels La course est lancée! L'attaque du T-Rex",
@@ -32,6 +41,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/hPucpn2pmszkcqRVHmrlUYK0PtG.jpg",
       "background": "https://image.tmdb.org/t/p/w780/aIiCdNCo889J2QaaOd8TXaGXoO2.jpg",
       "description": "Les projets d'Halloween de Spidey et des Avengers sont chamboulés par la mystérieuse Hallows' Eve. Elle s'amuse à jouer des tours aux enfants partis à la chasse aux bonbons et compte bien gâcher la fête pour toujours.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1764166",
+      "type": "movie",
+      "name": "Thomas et ses amis: Des Petites Locos Bien Utiles",
+      "poster": "https://image.tmdb.org/t/p/w500/kuQldt0mSpQswKvQgdqB6CZ3WHH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kTH0lBNzU8Jnhusr019VIUwL3KL.jpg",
+      "description": "À chaque virage de Sodor, quelqu’un a besoin d’aide et un problème à résoudre. Et personne n’est plus enthousiaste à l’idée d’aider que Thomas ! Rejoignez Thomas et ses amis pour des aventures passionnantes, des surprises inattendues et des chansons que vous chanterez longtemps après la fin du voyage. Parce que chaque livraison, chaque défi et chaque aventure sont meilleurs lorsque les amis travaillent ensemble.",
       "releaseInfo": "2026"
     },
     {
@@ -158,24 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/vim76mMXig00YRxN2iGYJASoGkP.jpg",
       "background": "https://image.tmdb.org/t/p/w780/4bW2662ZiJhJmK4IseCReVzgZ3C.jpg",
       "description": "La soirée en amoureux d'Homer et Marge tourne au cauchemar lorsque Marge apprend qu'Homer a laissé les enfants sans surveillance, avec pour seule « baby-sitter » la caméra de la sonnette. Frustrée par son mari imparfait, Marge, un peu éméchée, se met à imaginer une trilogie de fantasmes mettant en scène un Homer bien différent.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1084244",
-      "type": "movie",
-      "name": "Toy Story 5",
-      "poster": "https://image.tmdb.org/t/p/w500/5eqxQzAxennEKBAg147LUX4gVlS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qjTqY5coNiz6sVtPng40IzltsoN.jpg",
-      "description": "Buzz, Woody, Jessie et le reste de la bande verront leur travail remis en question lorsqu'ils découvriront que ce qui obsède les enfants d'aujourd'hui s’appelle... l'électronique !",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1517206",
-      "type": "movie",
-      "name": "Bouchra",
-      "poster": "https://image.tmdb.org/t/p/w500/gxJG2lWd2d7Akyj8fiEifJSDL85.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zWK4BJMWFqlTQqa6S5Ta2kWJ8jE.jpg",
-      "description": "Bouchra, cinéaste marocaine vivant à New York, est tétanisée par la peur de la page blanche. Un appel de sa mère depuis Casablanca fait resurgir des souvenirs enfouis et l'entraîne dans un voyage à travers les liens familiaux, la filiation et le frémissement de l’amour.",
       "releaseInfo": "2026"
     }
   ]

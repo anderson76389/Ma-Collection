@@ -5,7 +5,7 @@
       "type": "movie",
       "name": "La Légende de Derry",
       "poster": "https://image.tmdb.org/t/p/w500/95jDCfMC1MNXowaXxPpHuWP5zAr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/z26LxXDMmAIzKr06FPDudCJyvsM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8vky6e0D4dSZMlxHWXBIRRFP1Pb.jpg",
       "description": "Des centaines d’années avant Pennywise, trois jeunes s’aventurent dans la forêt de l’Ouest où ils rencontrent un esprit ancien terrifiant.",
       "releaseInfo": "2026"
     },
@@ -14,8 +14,16 @@
       "type": "movie",
       "name": "Clayface",
       "poster": "https://image.tmdb.org/t/p/w500/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg",
       "description": "L'ascension fulgurante de Matt Hagen, de gamin des rues de Gotham à star hollywoodienne, est brutalement interrompue lorsqu'un baron du crime le laisse atrocement défiguré. Abandonné de tous et n'ayant plus rien à perdre, Matt se tourne vers un traitement expérimental qui lui rend miraculeusement son apparence... mais altère profondément sa perception de la réalité. Il sombre alors dans une spirale destructrice, consumé par un irrépressible désir de vengeance.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1796809",
+      "type": "movie",
+      "name": "Remain Calm",
+      "poster": "https://image.tmdb.org/t/p/w500/mwS8LsBd7FWp0XomfzVpynrGhHR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mJ7zo8mMjXtvgf70EMiiT9aiola.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -24,6 +32,15 @@
       "name": "V/H/S/MIXTAPE",
       "poster": "https://image.tmdb.org/t/p/w500/uS8yoiA6NfsuYeOTbVfpem8Ib9.jpg",
       "background": "https://image.tmdb.org/t/p/w780/yIDZiYea2Bah1yLYz14jlC89WJ5.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1654998",
+      "type": "movie",
+      "name": "R.L. Stine's Pumpkinhead 2",
+      "poster": "https://image.tmdb.org/t/p/w500/4liM7YBglVRk2UVuKsN7YQDmMpr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/osHkvmg97Trv1QHVW1WIObbN1pu.jpg",
+      "description": "Lorsqu'une nouvelle malédiction s'abat sur Redhaven, Sam et Becka unissent leurs forces pour en percer le mystère. Dans une course contre la montre, ils doivent stopper cette menace avant qu'elle ne fasse sombrer toute la ville.",
       "releaseInfo": "2026"
     },
     {
@@ -56,8 +73,9 @@
       "id": "tmdb:1244523",
       "type": "movie",
       "name": "Beware Boiúna",
-      "poster": "https://image.tmdb.org/t/p/w500/uW5YMPxJUzT9bkafrCKHXjPTCoQ.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/zvDKEHLhr6bk4Gxa9oj0DIkWNJh.jpg",
       "background": "https://image.tmdb.org/t/p/w780/9nU0FKNefmhbgi2xXlvZchZsqwm.jpg",
+      "description": "Au cœur de l'Amazonie, une mission médicale se transforme en une lutte pour la survie lorsque Boiúna, un prédateur ancestral colossal, se réveille pour reconquérir son territoire. Dans cette jungle où la nature règne en maître, c'est elle qui décide qui vivra et qui mourra.",
       "releaseInfo": "2026"
     },
     {
@@ -142,7 +160,7 @@
       "id": "tmdb:1596301",
       "type": "movie",
       "name": "Mum, I'm Alien Pregnant",
-      "poster": "https://image.tmdb.org/t/p/w500/kEKZ6i691QKYBXCN9tazt3FVQKH.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/1UWjL6OnlZXAQev3ZTjn83ZCs59.jpg",
       "background": "https://image.tmdb.org/t/p/w780/2ASkOyNYZvDs3M9xzKhckYmcRz4.jpg",
       "releaseInfo": "2026"
     },
@@ -152,24 +170,6 @@
       "name": "Resident Dead",
       "poster": "https://image.tmdb.org/t/p/w500/qKhMVWwFikSUzOpkhOl35GBLkGH.jpg",
       "background": "https://image.tmdb.org/t/p/w780/yKx5gYrYgakKZuUWAsuFDStBroy.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1284046",
-      "type": "movie",
-      "name": "Onslaught",
-      "poster": "https://image.tmdb.org/t/p/w500/92SC3guG88KQmZ8GQBKNIxz5OrB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
-      "description": "Lorsqu’une escouade de supersoldats génétiquement modifiés s’évade dans le désert, une redoutable tireuse d’élite de l’armée doit livrer une guerre sans merci pour sauver sa fille.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1742458",
-      "type": "movie",
-      "name": "Confinement",
-      "poster": "https://image.tmdb.org/t/p/w500/i92X6pBSqZgHAvIX28p0AZJU8xz.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xQbHmeJdT95pSDMzP92CrvjceBh.jpg",
-      "description": "Enceinte et récemment veuve, Stella est accueillie par la famille de son défunt mari, avec laquelle elle était en froid. Mais derrière leur générosité se cache quelque chose de profondément inquiétant, et Stella se retrouve à lutter pour sa vie alors que l'obsession de cette famille pour son enfant à naître prend une tournure mortelle.",
       "releaseInfo": "2026"
     }
   ]

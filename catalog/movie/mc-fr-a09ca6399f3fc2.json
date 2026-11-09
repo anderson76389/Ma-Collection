@@ -5,17 +5,8 @@
       "type": "movie",
       "name": "Tenzing : à la conquête de l’Everest",
       "poster": "https://image.tmdb.org/t/p/w500/yjeqiDKgOyrTROU5X4Rck01ldGF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9MdxBPjI58xkzA7RtKX9xRKvlZp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tKvVgMfM6GS4AGZn2KhP8bX1mJm.jpg",
       "description": "Un homme déterminé se lance dans une aventure périlleuse - et brave des obstacles apparemment insurmontables - pour réaliser son rêve d'être le premier à atteindre le sommet de l'Everest.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1503762",
-      "type": "movie",
-      "name": "Raison et Sentiments",
-      "poster": "https://image.tmdb.org/t/p/w500/hpYHHl0P978F6AX5Xeew0fi2ryI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg",
-      "description": "Une irrésistible nouvelle version du roman culte de Jane Austin, Raison et Sentiments, qui suit deux sœurs à travers leurs amours, leurs chagrins et le lien qui les unit d'une façon magistrale et profondément proche de nous.",
       "releaseInfo": "2026"
     },
     {
@@ -34,6 +25,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/evCy2B3j57AwSNBZqlePjMl3zj3.jpg",
       "background": "https://image.tmdb.org/t/p/w780/nw9Q3idNO8EsTPnvr8vBJTpkWGA.jpg",
       "description": "Un jeune agent noir du FBI est envoyé au Mississippi dans les années 60 afin d’enquêter sur une vague de meurtres brutaux visant des leaders du mouvement des droits civiques. Contraint de faire équipe avec le célèbre tueur à gages de la mafia Greg Scarpa, il se retrouve entraîné dans une traque meurtrière où la frontière entre justice et vengeance devient de plus en plus floue.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:192139",
+      "type": "movie",
+      "name": "The Brink of War",
+      "poster": "https://image.tmdb.org/t/p/w500/vCIQeQ2ynVqEjIvtbOXGnKtcgAX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/E812GNXYQqjJwN0cVPY3icHpaj.jpg",
+      "description": "La rencontre au sommet entre Ronald Reagan et le dirigeant soviétique Mikhaïl Gorbatchev en Islande, suite à la catastrophe de Tchernobyl.",
       "releaseInfo": "2026"
     },
     {
@@ -61,15 +61,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/waxnw1NpzTPY5JkqWvu0muSopRJ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ohlNSR8MsHk5e6fcAxqAJmcz4Sm.jpg",
       "description": "Quand une jeune princesse refuse d'être soumise au redoutable empereur Kisra, une bataille éclate de telle sorte qu'elle change la région de l'ancienne Arabie Saoudite à jamais.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1316092",
-      "type": "movie",
-      "name": "“Hurlevent”",
-      "poster": "https://image.tmdb.org/t/p/w500/yEa8UQA71rjKhCq04mATDNOIT2B.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nHKscpZcAPkh97OsJJjyE5yaVE0.jpg",
-      "description": "Sur les landes balayées par le vent du Yorkshire, la passion dévorante entre Catherine Earnshaw et Heathcliff se transforme en une obsession destructrice, bouleversant leurs vies et celles de leur entourage.​",
       "releaseInfo": "2026"
     },
     {
@@ -158,7 +149,7 @@
       "type": "movie",
       "name": "Plus fort que moi",
       "poster": "https://image.tmdb.org/t/p/w500/tHu3sZLLDuNOFo9UjFGl1ejnUJM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4mKczHAW4XPDXGk7V5k7Ui3dgUk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/YnuLRK3ZWJvKerShvn0Ceuv0fh.jpg",
       "description": "Dans les années 1980, John Davidson grandit avec le syndrome de Gilles de la Tourette, une pathologie encore largement méconnue. Entre incompréhension, stigmatisation et détermination, son parcours d’abord semé d'embûches se transforme en combat pour être reconnu tel qu’il est, au-delà des préjugés.",
       "releaseInfo": "2025"
     },
@@ -178,6 +169,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/caNahrFGWoIvDLzLsLaHf2TXHpM.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ehX2ljRmDLyKS44rZz2kt4BkwkJ.jpg",
       "description": "Récemment diplômée de l'université, Whitney Wolfe fait preuve d'une détermination et d'une ingéniosité sans égales pour percer dans le secteur de la tech largement dominé par les hommes. Son instinct et son talent seront à l’origine d’une application de rencontres innovante et mondialement reconnue (deux, en fait), lui ouvrant ainsi la voie vers le titre de « plus jeune femme milliardaire autodidacte ».",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:556574",
+      "type": "movie",
+      "name": "Hamilton",
+      "poster": "https://image.tmdb.org/t/p/w500/itaIGLdCu0e28XQOEf7V3chd904.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uWVkEo9PWHu9algZsiLPi6sRU64.jpg",
+      "description": "Captation de la célèbre comédie musicale de Broadway récompensée par 11 Tony, Grammy et Olivier Awards, et par un prix Pulitzer. Hamilton raconte l'histoire d'Alexander Hamilton, l'un des Pères fondateurs de la nation américaine.",
       "releaseInfo": "2025"
     }
   ]

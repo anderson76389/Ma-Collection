@@ -81,6 +81,15 @@
       "releaseInfo": "2011"
     },
     {
+      "id": "tmdb:4496",
+      "type": "series",
+      "name": "Meet the Press",
+      "poster": "https://image.tmdb.org/t/p/w500/ix7PFKpRTzD5eQxEqD4MvqdAAHW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/i3eFaFQEc5SiWuJMRZhN7xnB4H6.jpg",
+      "description": "Meet the Press est une émission hebdomadaire d'actualités et d'interviews télévisées américaines diffusée sur NBC. Il s'agit de la série télévisée la plus ancienne de l'histoire de la radiodiffusion américaine, bien qu'elle ne ressemble guère au format original du programme vu lors de ses débuts à la télévision le 6 novembre 1947. Meet the Press est la mieux notée de la télévision américaine Sunday Morning Talk spectacles.",
+      "releaseInfo": "1947"
+    },
+    {
       "id": "tmdb:78",
       "type": "series",
       "name": "Dateline",
@@ -107,6 +116,15 @@
       "releaseInfo": "1965"
     },
     {
+      "id": "tmdb:251941",
+      "type": "series",
+      "name": "St. Denis Medical",
+      "poster": "https://image.tmdb.org/t/p/w500/5n6eS9OJzxozkIi7r87Pudte3hD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/u698B6dIpdoPz1CXmESuELHS9wr.jpg",
+      "description": "Dans un hôpital de l'Oregon, un groupe hétéroclite de médecins et d'infirmières dévoués, malgré un manque de moyens, s'efforce de soigner les patients — et de s'entraider — tout en assurant la cohésion de l'ensemble du service.",
+      "releaseInfo": "2024"
+    },
+    {
       "id": "tmdb:215943",
       "type": "series",
       "name": "Les Traîtres (États-Unis)",
@@ -114,24 +132,6 @@
       "background": "https://image.tmdb.org/t/p/w780/sCn3qAUCbDOcPJcNvjdq7z06Eg2.jpg",
       "description": "Présentée par Alan Cumming, cette émission de téléréalité réunit des personnalités du monde du divertissement dans un château situé au cœur des Highlands écossais pour un jeu de stratégie inspiré d'une enquête criminelle. Les candidats participent à une série d'épreuves afin de constituer une cagnotte pouvant atteindre 250 000 dollars, tandis que des « traîtres », secrètement désignés parmi les « loyaux », éliminent progressivement les autres participants dans l'espoir de remporter l'intégralité des gains.",
       "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:251941",
-      "type": "series",
-      "name": "St. Denis Medical",
-      "poster": "https://image.tmdb.org/t/p/w500/iwnF4lZKBdHoCICtdIcXQdbuc2f.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dtACf4sRA640q4l6oLyfMy75Viy.jpg",
-      "description": "Dans un hôpital de l'Oregon, un groupe hétéroclite de médecins et d'infirmières dévoués, malgré un manque de moyens, s'efforce de soigner les patients — et de s'entraider — tout en assurant la cohésion de l'ensemble du service.",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:321958",
-      "type": "series",
-      "name": "Line of Fire",
-      "poster": "https://image.tmdb.org/t/p/w500/cXG4WDOPNog1kt6pkDqEDQCkJyz.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8U4dW5E24Eqs06OJko5ChjcufHb.jpg",
-      "description": "Une famille d’agents des forces de l’ordre met de côté ses divergences personnelles et dépasse les frontières de ses fonctions respectives pour mener à bien des enquêtes pour le compte du FBI, des US Marshals, des services secrets et du ministère de la Justice. Lorsqu’une affaire qui semblait simple se transforme en un complot meurtrier, ils doivent mettre à profit l’expertise acquise au fil d’une vie passée à protéger des civils et des personnalités politiques pour se protéger les uns les autres et traduire le meurtrier en justice… même si cela implique de trahir le code d’honneur auquel ils ont prêté serment.",
-      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:253896",
@@ -142,28 +142,37 @@
       "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:322267",
+      "id": "tmdb:321958",
       "type": "series",
-      "name": "Newlyweds",
-      "poster": "https://image.tmdb.org/t/p/w500/9ZAPU2IRSdI9xdVb42z2F1momJc.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/n0RJ41WxoROYkKOdJP0NU1hEktJ.jpg",
+      "name": "Line of Fire",
+      "poster": "https://image.tmdb.org/t/p/w500/cXG4WDOPNog1kt6pkDqEDQCkJyz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wywNNHCRHJ129yTGTYBujnP4vRq.jpg",
+      "description": "Une famille d’agents des forces de l’ordre met de côté ses divergences personnelles et dépasse les frontières de ses fonctions respectives pour mener à bien des enquêtes pour le compte du FBI, des US Marshals, des services secrets et du ministère de la Justice. Lorsqu’une affaire qui semblait simple se transforme en un complot meurtrier, ils doivent mettre à profit l’expertise acquise au fil d’une vie passée à protéger des civils et des personnalités politiques pour se protéger les uns les autres et traduire le meurtrier en justice… même si cela implique de trahir le code d’honneur auquel ils ont prêté serment.",
       "releaseInfo": "2026"
     },
     {
       "id": "tmdb:291334",
       "type": "series",
       "name": "The Fall and Rise of Reggie Dinkins",
-      "poster": "https://image.tmdb.org/t/p/w500/lrF8Ve4GoazCalfbrSY52tUIXSN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rek9nXDNYoPwEyNhu4eHGNVDyMa.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/tqWQdIdzDj9gBgVg5Sd50mpcx65.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sxgF5j8ZCzDzRr6H7qalL8u7TyR.jpg",
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:23318",
+      "id": "tmdb:259599",
       "type": "series",
-      "name": "The Daytime Emmy Awards",
-      "poster": "https://image.tmdb.org/t/p/w500/uBbdeUjskJa0ASfcO1B3JBb20tC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kJLwKqiRavPD73JwpUuuTpWZKNb.jpg",
-      "releaseInfo": "1974"
+      "name": "Late Night with Seth Meyers: Corrections",
+      "poster": "https://image.tmdb.org/t/p/w500/tgBrlWdajFI1gKafu9ZjoEbMdG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AlB8nnbP2Q2EOvyMeTI5xYhRhkL.jpg",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:322267",
+      "type": "series",
+      "name": "Newlyweds",
+      "poster": "https://image.tmdb.org/t/p/w500/9ZAPU2IRSdI9xdVb42z2F1momJc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/n0RJ41WxoROYkKOdJP0NU1hEktJ.jpg",
+      "releaseInfo": "2026"
     }
   ]
 }

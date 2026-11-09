@@ -14,7 +14,7 @@
       "type": "series",
       "name": "WWE Raw",
       "poster": "https://image.tmdb.org/t/p/w500/fstEe6RsyNyPUnMwNcL20iNl0nE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7QmGgxQSnZZQ3NeiDm7n1A0avmz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ykWWT8FAChBffNxcDzoJMCK9LBb.jpg",
       "description": "Chaque semaine, les supertars de Raw s'affrontent dans le ring mais également en dehors. Combats acharnés, prises impressionnantes, les catcheurs sont prêts à tout pour remporter la victoire. Depuis le 1000e épisode du show, diffusé le 23 juillet 2012, WWE Raw passe à un format de trois heures au lieu de deux, format auparavant réservé aux épisodes spéciaux.",
       "releaseInfo": "1993"
     },
@@ -71,13 +71,12 @@
       "releaseInfo": "2012"
     },
     {
-      "id": "tmdb:30957",
+      "id": "tmdb:92661",
       "type": "series",
-      "name": "The Amazing Race",
-      "poster": "https://image.tmdb.org/t/p/w500/x1jq0atcQg6UkaZpco0kFL6QHuM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mSkisNewxu55Ivar5EubhcIuoqn.jpg",
-      "description": "Cette compétition de réalité voit les équipes se lancer dans une randonnée autour du monde vers des destinations incroyables où elles doivent s'affronter dans une série de défis, certains mentaux et d'autres physiques. Ce n'est que lorsque les tâches sont terminées qu'ils apprendront leur prochain emplacement. Les équipes les plus en retard seront progressivement éliminées au fur et à mesure que le concours progresse, la première équipe à arriver à la destination finale remportant la course et le prix de 1 million de dollars.",
-      "releaseInfo": "2001"
+      "name": "25 Words or Less",
+      "poster": "https://image.tmdb.org/t/p/w500/gwu2aVl89amkSfBL5TqhvazYQAE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zi7hR8mfpApWoj3N3poBsJW9uxL.jpg",
+      "releaseInfo": "2018"
     },
     {
       "id": "tmdb:2370",
@@ -89,12 +88,13 @@
       "releaseInfo": "2005"
     },
     {
-      "id": "tmdb:92661",
+      "id": "tmdb:30957",
       "type": "series",
-      "name": "25 Words or Less",
-      "poster": "https://image.tmdb.org/t/p/w500/gwu2aVl89amkSfBL5TqhvazYQAE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zi7hR8mfpApWoj3N3poBsJW9uxL.jpg",
-      "releaseInfo": "2018"
+      "name": "The Amazing Race",
+      "poster": "https://image.tmdb.org/t/p/w500/x1jq0atcQg6UkaZpco0kFL6QHuM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mSkisNewxu55Ivar5EubhcIuoqn.jpg",
+      "description": "Cette compétition de réalité voit les équipes se lancer dans une randonnée autour du monde vers des destinations incroyables où elles doivent s'affronter dans une série de défis, certains mentaux et d'autres physiques. Ce n'est que lorsque les tâches sont terminées qu'ils apprendront leur prochain emplacement. Les équipes les plus en retard seront progressivement éliminées au fur et à mesure que le concours progresse, la première équipe à arriver à la destination finale remportant la course et le prix de 1 million de dollars.",
+      "releaseInfo": "2001"
     },
     {
       "id": "tmdb:3670",
@@ -114,15 +114,6 @@
       "releaseInfo": "1972"
     },
     {
-      "id": "tmdb:4086",
-      "type": "series",
-      "name": "Burgers and Co avec Guy FIERI",
-      "poster": "https://image.tmdb.org/t/p/w500/fPpDR6kw8bA0iZ8a0dUbexVVzn3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tKtxE1KzqKDg3HIXNnlr7VpuWzd.jpg",
-      "description": "Les « diners » et les « drive-ins » vintage étant de plus en plus tendance chez les gourmets, Guy Fieri sillonne les États-Unis à la recherche des meilleurs burgers, barbecues et fritures du pays, souvent plébiscités par les locaux. Dans chaque resto, Fieri discute avec le personnel et les clients et leur demande leur avis sur la nourriture. Guy Fieri sillonne les États-Unis à la recherche des meilleurs burgers, barbecues et fritures, souvent plébiscités par les locaux.",
-      "releaseInfo": "2007"
-    },
-    {
       "id": "tmdb:2394",
       "type": "series",
       "name": "This Old House",
@@ -132,21 +123,21 @@
       "releaseInfo": "1979"
     },
     {
-      "id": "tmdb:30703",
-      "type": "series",
-      "name": "Shark Tank",
-      "poster": "https://image.tmdb.org/t/p/w500/wztqq3SWfdzcuxvl9oA2HwOXasO.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lxekzMqu4I1dWG7bK4IaurD5PbM.jpg",
-      "description": "Des entrepreneurs ambitieux présentent leurs concepts d'affaires révolutionnaires...",
-      "releaseInfo": "2009"
-    },
-    {
       "id": "tmdb:13752",
       "type": "series",
       "name": "Saturday Kitchen Live",
       "poster": "https://image.tmdb.org/t/p/w500/xPLZzHv04LYek3WyUVe1N6jzgkE.jpg",
       "background": "https://image.tmdb.org/t/p/w780/6kYR5LcENoyrWNt5ZWXTFpXEf4r.jpg",
       "releaseInfo": "2002"
+    },
+    {
+      "id": "tmdb:4086",
+      "type": "series",
+      "name": "Burgers and Co avec Guy FIERI",
+      "poster": "https://image.tmdb.org/t/p/w500/fPpDR6kw8bA0iZ8a0dUbexVVzn3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tKtxE1KzqKDg3HIXNnlr7VpuWzd.jpg",
+      "description": "Les « diners » et les « drive-ins » vintage étant de plus en plus tendance chez les gourmets, Guy Fieri sillonne les États-Unis à la recherche des meilleurs burgers, barbecues et fritures du pays, souvent plébiscités par les locaux. Dans chaque resto, Fieri discute avec le personnel et les clients et leur demande leur avis sur la nourriture. Guy Fieri sillonne les États-Unis à la recherche des meilleurs burgers, barbecues et fritures, souvent plébiscités par les locaux.",
+      "releaseInfo": "2007"
     },
     {
       "id": "tmdb:34634",
@@ -164,6 +155,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/b9Ki18BAlZqtU28THIgUkSfnq8T.jpg",
       "background": "https://image.tmdb.org/t/p/w780/d1MtRbMampXOZ7il2dDF6fDTTNU.jpg",
       "releaseInfo": "2004"
+    },
+    {
+      "id": "tmdb:30703",
+      "type": "series",
+      "name": "Shark Tank",
+      "poster": "https://image.tmdb.org/t/p/w500/wztqq3SWfdzcuxvl9oA2HwOXasO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lxekzMqu4I1dWG7bK4IaurD5PbM.jpg",
+      "description": "Des entrepreneurs ambitieux présentent leurs concepts d'affaires révolutionnaires...",
+      "releaseInfo": "2009"
     },
     {
       "id": "tmdb:17937",

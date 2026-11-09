@@ -1,11 +1,12 @@
 {
   "metas": [
     {
-      "id": "tmdb:75847",
+      "id": "tmdb:71244",
       "type": "series",
-      "name": "The Challenge: Champs vs. Stars",
-      "poster": "https://image.tmdb.org/t/p/w500/cAJeXNocMdjhYOZeTexaW1u7N6o.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/13Tep4QviEbJAb6h58IRA5NgCf1.jpg",
+      "name": "Just Tattoo of Us",
+      "poster": "https://image.tmdb.org/t/p/w500/cF7Cji2HZYyVPBfCVxhfmZCMTvd.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/s06kNatST8BOCgZr4lEmrKhpvwQ.jpg",
+      "description": "Une émission de télé-réalité sur les tatouages qui consiste à tester son couple en demandant à des équipes de deux (amoureux, amis ou membres d'une même famille) de dessiner un tatouage l'un pour l'autre. La personne ne verra le dessin final qu'une fois le tatouage définitif apposé sur la peau. Impossible de reculer à la dernière minute...",
       "releaseInfo": "2017"
     }
   ]

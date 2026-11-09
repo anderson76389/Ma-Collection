@@ -1,10 +1,19 @@
 {
   "metas": [
     {
+      "id": "tmdb:1794569",
+      "type": "movie",
+      "name": "Sans protection : El crimen de Pazos",
+      "poster": "https://image.tmdb.org/t/p/w500/uvwAKeTTf9s0k69xelRXQbs6Hb7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5DEE6tP6FOkgfjvoQYvjNjvt3cn.jpg",
+      "description": "Film documentaire qui retrace l’histoire d’Isabel Fuentes. En avril 2015, des individus — soupçonnés d’être des cambrioleurs — l’ont laissée entre la vie et la mort à son domicile, dans le village de Pazos, à Verín. Dès le début, le sergent de la Guardia Civil chargé de l’enquête a soupçonné que le récit des événements ne tenait pas debout et a cherché à protéger Isabel contre toute nouvelle agression.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1571955",
       "type": "movie",
       "name": "Colisión",
-      "poster": "https://image.tmdb.org/t/p/w500/sMPIiaOoyTr5o6s602KIVMJX3P2.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/fO0urhdE9nNycAfBdwtLt80uKoi.jpg",
       "background": "https://image.tmdb.org/t/p/w780/uI3kWI7kGW5E0F8WduewgQYPt34.jpg",
       "description": "En pleine crise économique, un groupe de cambrioleurs s'introduit dans une banque à Madrid, déclenchant une série d'événements imprévisibles. Ce qui s'apparentait au départ à un simple braquage se transforme en un jeu de dupes et de peur où tout est affaire de survie : chaque décision compte, chaque geste cache quelque chose et chacun cherche à échapper à un châtiment pire que la prison.",
       "releaseInfo": "2026"
@@ -24,6 +33,13 @@
       "poster": "https://image.tmdb.org/t/p/w500/8T590m8nwAub9fTxp72EJPphOWa.jpg",
       "background": "https://image.tmdb.org/t/p/w780/cpNMIRCrDl0sxDL1tHBzfWi0UZC.jpg",
       "description": "En pleine mer, Wirpul et son demi-frère Candi luttent pour survivre lorsqu'une tempête imprévue au large d'Acapulco se transforme en ouragan de catégorie 5, dénommé Otis. Une histoire de fraternité, d'inégalité et de courage, où l'amour fraternel est le seul espoir.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1689329",
+      "type": "movie",
+      "name": "Leones en invierno",
+      "poster": "https://image.tmdb.org/t/p/w500/ozr5OyKt1whnfuLei2viZsS38Kp.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -115,7 +131,7 @@
       "id": "tmdb:1210268",
       "type": "movie",
       "name": "Dégel",
-      "poster": "https://image.tmdb.org/t/p/w500/kOSM8DzNemypQGcBXGyegrtFZ9p.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/agaPM6fOIwG1kmBXAprimPxT4mQ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/uN5wTRKBbLcmQnzmlmAQRyObuH0.jpg",
       "description": "Chili, 1992. Le pays reste marqué par des années de dictature. Alors qu’elle est gardée par ses grands-parents dans leur hôtel en station de ski, Inès, 9 ans, se lie d’amitié avec Hanna, une jeune sportive venue d’Allemagne. Lorsque celle-ci disparaît sans laisser de trace, l’enfant cherche à comprendre…",
       "releaseInfo": "2026"
@@ -153,23 +169,6 @@
       "name": "Amor es amor",
       "poster": "https://image.tmdb.org/t/p/w500/5ae4v1W4hyAclTJw97aIAmr6OAE.jpg",
       "background": "https://image.tmdb.org/t/p/w780/8fN4YSYUOAlYmUcqzGCuztaXms6.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1616131",
-      "type": "movie",
-      "name": "Un Enfant a Moi",
-      "poster": "https://image.tmdb.org/t/p/w500/AqFRon8p9ffsxD55tp6gKi24cMc.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jJ3SrQoGsCa6xMfbfgB19OazGwX.jpg",
-      "description": "Désespérée d'avoir un enfant et accablée par les attentes de sa famille et de la société, une femme simule une grossesse et se retrouve mêlée à un crime.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1700680",
-      "type": "movie",
-      "name": "Loco México Mágico",
-      "poster": "https://image.tmdb.org/t/p/w500/eCUYoQP0tB5mfwVUT3NidnoQCI3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8gg1n99c3LC0SEq99FLIDDXVSa.jpg",
       "releaseInfo": "2026"
     }
   ]

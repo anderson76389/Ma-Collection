@@ -703,6 +703,11 @@
     },
     {
       "type": "series",
+      "id": "mc-fr-3dd6f3cfc6ee9e",
+      "name": "Diffusion TV · Hallmark Channel · Épisodes diffusés cette semaine"
+    },
+    {
+      "type": "series",
       "id": "mc-fr-12e63d725a0a82",
       "name": "Diffusion TV · HBO · Épisodes diffusés cette semaine"
     },

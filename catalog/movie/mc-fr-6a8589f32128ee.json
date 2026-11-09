@@ -10,6 +10,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1469930",
+      "type": "movie",
+      "name": "Projet Sacrifice",
+      "poster": "https://image.tmdb.org/t/p/w500/wdOa8jWX8u1YNSlWyRvoNCc9y7S.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/k3Nc57fdRkzleHjodta45mGJV2C.jpg",
+      "description": "21 personnes qui disparaissent une à une lors d'un chantier de construction. On dit qu'ils sont sacrifiés pour assurer le bon déroulement du projet. Y a-t-il un lien avec la magie noire ?",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1421155",
       "type": "movie",
       "name": "Ikatan Darah",
@@ -156,14 +165,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/tx2toda5HijndqRZXDuoGkSud8L.jpg",
       "background": "https://image.tmdb.org/t/p/w780/dcpXPUVEqiuYclsnael3bJjos4B.jpg",
       "description": "Sur son lit de mort, sa sœur a fait promettre à Edwin de retrouver son fils, qu’elle avait abandonné des années auparavant. Sa quête le conduit à devenir professeur remplaçant au lycée Duri, à Jakarta, un établissement pour jeunes délinquants. Il doit alors affronter les élèves les plus violents de l’établissement pour retrouver son neveu. Lorsqu’il finit par retrouver le garçon, une émeute éclate dans toute la ville, et Edwin se retrouve piégé dans l’école, encerclé par les élèves cruels qui veulent sa peau.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1389137",
-      "type": "movie",
-      "name": "Komang",
-      "poster": "https://image.tmdb.org/t/p/w500/2RWweAPdSSFzsCtxvjydldneUM6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/o7kF3veRvsHB61WmD6BGj21P1UC.jpg",
       "releaseInfo": "2025"
     }
   ]

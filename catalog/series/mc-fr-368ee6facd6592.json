@@ -1,6 +1,22 @@
 {
   "metas": [
     {
+      "id": "tmdb:328",
+      "type": "series",
+      "name": "Media Watch",
+      "poster": "https://image.tmdb.org/t/p/w500/bcXx6gLX6L79B7qXd4COjy2ZNV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ieJ82Oq4XKvOTZTr6WL6Pv1QKlk.jpg",
+      "releaseInfo": "1989"
+    },
+    {
+      "id": "tmdb:1384",
+      "type": "series",
+      "name": "Four Corners",
+      "poster": "https://image.tmdb.org/t/p/w500/kuRWjm8WlWXboeGGiCQH1L6KT78.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wtHDHiCf0UQTOpCpH8hvfabo0U3.jpg",
+      "releaseInfo": "1961"
+    },
+    {
       "id": "tmdb:307176",
       "type": "series",
       "name": "Dustfall",
@@ -18,12 +34,29 @@
       "releaseInfo": "2016"
     },
     {
+      "id": "tmdb:244978",
+      "type": "series",
+      "name": "Enquêtes au paradis",
+      "poster": "https://image.tmdb.org/t/p/w500/usL0PT2qZ2FPCeRY5PzvZr10g0k.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5vcVf5hDtnKQVmHj9RSIaVwwvlx.jpg",
+      "description": "Mackenzie Clarke, une policière expatriée à Londres, est contrainte de retourner vivre temporairement à Dolphin Cove en Australie, la ville de son enfance. Lorsqu'un meurtre est commis, Mack ne peut s'empêcher de mettre à profit ses talents d'enquêtrice. Ce retour au bercail ravive son lot de souvenirs plus ou moins agréables et engendre des retrouvailles un peu compliquées, notamment avec son ex-fiancé Glenn, qu’elle a quitté le jour de leur mariage, et avec son ex-belle-mère et ex-patronne, qui dirige le poste de police de la ville. Cet endroit paradisiaque sur la côte de Nouvelles-Galles du Sud est le théâtre de meurtres complexes, que Mack va tâcher de résoudre à l’aide de sa nouvelle équipe : le lieutenant Colin Cartwright, un Anglais expatrié en Australie, l’agent Felix Wilkinson, et Reggie Rocco, une ancienne prof reconvertie en bénévole auprès de la police.",
+      "releaseInfo": "2024"
+    },
+    {
       "id": "tmdb:304887",
       "type": "series",
       "name": "Crime Night!",
       "poster": "https://image.tmdb.org/t/p/w500/b5la9mLfmql3PEVduAPTMb7PtrV.jpg",
       "background": "https://image.tmdb.org/t/p/w780/nNqTMFHh1eHeBPVZrOzCWpxBoXY.jpg",
       "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:258908",
+      "type": "series",
+      "name": "I Was Actually There",
+      "poster": "https://image.tmdb.org/t/p/w500/5v9v2KSy0Qtbdtu2nn2jBlmXodC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zTSdfGc2q1DFi2P0vIxogwSCMsV.jpg",
+      "releaseInfo": "2024"
     },
     {
       "id": "tmdb:336872",
@@ -34,19 +67,19 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:337398",
-      "type": "series",
-      "name": "The State of Man",
-      "poster": "https://image.tmdb.org/t/p/w500/VpuhSeYHgKOgPM9V1XEM3ABcPR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/p2LJlCimKFxP38UsS2CkEVugFsP.jpg",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:337730",
       "type": "series",
       "name": "Recipe of the Year",
       "poster": "https://image.tmdb.org/t/p/w500/e02kCRTSuT479nh1DDdBFlc74un.jpg",
       "background": "https://image.tmdb.org/t/p/w780/87XSfqP0wNATfDCpcV30CqDdygK.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:336392",
+      "type": "series",
+      "name": "Ages of Ice",
+      "poster": "https://image.tmdb.org/t/p/w500/wdqNNT0b1lYAdNYTsfxkClQfYhA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/x66cy3hBgrWB6509b6SWSgb1iwt.jpg",
       "releaseInfo": "2026"
     }
   ]

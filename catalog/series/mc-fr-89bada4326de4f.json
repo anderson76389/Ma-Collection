@@ -37,6 +37,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:332657",
+      "type": "series",
+      "name": "Route 187",
+      "poster": "https://image.tmdb.org/t/p/w500/yfP9A3IaKE00U1ap1y7wAoZRzeC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/Agx8RmlBBDJrlH9MyUOd5JYYZPS.jpg",
+      "description": "Route 187 est un drame poignant qui cherche à donner un sens au chaos. Chaque épisode, inspiré de faits divers réels, explore de nouvelles tragédies, la complexité de ses personnages et la frontière ténue entre le bien et le mal.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:273207",
       "type": "series",
       "name": "Neagley",
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/zP8t9uqNhK7ovr5JCZZRKkzWKeo.jpg",
       "background": "https://image.tmdb.org/t/p/w780/pxnJeLSBdUikUOrWdNgrK1HQy2u.jpg",
       "description": "Deux hommes situés de part et d'autre de la loi, et illustre la réaction provoquée par la rencontre entre une force incontrôlable (un criminel averti) et un objet inamovible (un brillant inspecteur de police). Cette série, qui ambitionne au départ de renverser le genre du braquage, avec ses enjeux risqués, sa dynamique familiale complexe et son action explosive, incite en réalité à explorer ce qui anime, maintient en vie et ce qui conduit l'espèce humaine… à sa perte.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:262388",
-      "type": "series",
-      "name": "M.I.A.",
-      "poster": "https://image.tmdb.org/t/p/w500/9EJOS3Px9ASawruHCKVeYGlAsol.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wqjhAWmqHrIIn4PdchGCuEgPksw.jpg",
-      "description": "Dans les Floride Keys, Etta rêve de vivre dans le royaume scintillant et subtropical de Miami. Lorsqu'une tragédie frappe l'affaire familiale, elle est entraînée dans les bas-fonds de Miami, où elle découvre ce dont elle est réellement capable.",
       "releaseInfo": "2026"
     }
   ]

@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:306179",
+      "type": "series",
+      "name": "Awkwafina : la cheffe improbable",
+      "poster": "https://image.tmdb.org/t/p/w500/kHkVrRxFtbQFY0b9RWoug5A0S1M.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vSMW22GgtzgsRaAmZaTM6xtPdNP.jpg",
+      "description": "L’actrice hollywoodienne et comédienne Nora Lum (a.k.a. Awkwafina) est descendante de la royauté de la restauration... mais elle ne sait pas cuisiner. Partez avec elle dans ce road trip culinaire inspirant, et dans sa quête de raviver la cuisine chinoise tant affectionnée par sa famille.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:292741",
       "type": "series",
       "name": "Nocturne",
@@ -131,7 +140,7 @@
       "type": "series",
       "name": "Small Prophets",
       "poster": "https://image.tmdb.org/t/p/w500/vkp6w1iq72JrFQnpFkWPLWWMZGa.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5fThMa3y5H4V7mHtiIEJgtYKPz9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/x5OnfR9mcpHvtsrXg1ZxB1Vk6lW.jpg",
       "description": "Depuis la mystérieuse disparition de sa compagne il y a sept ans, la vie de Michael est en pause. Mais une recette trouvée dans un vieux grimoire pourrait bien lui apporter des réponses.",
       "releaseInfo": "2026"
     },
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/PYcT6mf3cYHI35uNG8ztVdyh9p.jpg",
       "background": "https://image.tmdb.org/t/p/w780/yvToMgv3CHs7T4yQe9EPsMgEXG3.jpg",
       "description": "Découvrez les nombreuses vies de Martin Scorsese grâce à un accès exclusif et libre à ses archives privées et à de longs entretiens avec sa famille, ses amis, ses collaborateurs légendaires et le réalisateur visionnaire en personne.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:291361",
-      "type": "series",
-      "name": "Sur le fil : à la poursuite des Étoiles Michelin",
-      "poster": "https://image.tmdb.org/t/p/w500/keBwuOM2Ucm78oJhipVvvNmLcx1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pY5HhYqt71HCpEkuP7ucgvPjJNQ.jpg",
-      "description": "Les meilleurs chefs du monde convoitent la plus haute distinction : une Étoile Michelin. Ces inspecteurs n'avaient jamais dévoilé leurs méthodes.",
       "releaseInfo": "2025"
     }
   ]

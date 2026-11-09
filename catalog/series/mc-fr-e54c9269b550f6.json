@@ -19,13 +19,13 @@
       "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:74676",
+      "id": "tmdb:254514",
       "type": "series",
-      "name": "Halloween Baking Championship",
-      "poster": "https://image.tmdb.org/t/p/w500/tAVW4mcMTBEqFOaA3VRs5QHAbFy.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uA6HxWmm0Or3QZJKw69OFOcnuHG.jpg",
-      "description": "Halloween Baking Championship est une émission de compétition de cuisine américaine. C'est un programme saisonnier qui ne dure que quelques semaines et vise à couronner le meilleur pâtissier, auteur de desserts effrayants pendant la période d'Halloween. Durant chaque épisode de deux rounds, un pâtissier est éliminé sauf dans le dernier épisode de la saison. Dans la finale, les quatre derniers concurrents s'affrontent dans un dernier round. Le gagnant remporte le prix de 25 000 $.",
-      "releaseInfo": "2015"
+      "name": "Harry Potter : Les Sorciers de la pâtisserie",
+      "poster": "https://image.tmdb.org/t/p/w500/wz5mPvGj9L93bA4Rvmau9fh1GNS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9mDlwBdCu501924dXnzz2Gtc8XI.jpg",
+      "description": "Des chefs pâtissiers s'affrontent sur le thème de Harry Potter pour remporter la toute première Coupe des Sorciers de la Pâtisserie.",
+      "releaseInfo": "2024"
     },
     {
       "id": "tmdb:211201",
@@ -44,12 +44,12 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:334759",
+      "id": "tmdb:305016",
       "type": "series",
-      "name": "Sweet Deceit",
-      "poster": "https://image.tmdb.org/t/p/w500/vMiMuswOQS3ufdzfjKH8Df7tvc8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/160WLvcboP94lwnnOd2fN5T9Nrq.jpg",
-      "releaseInfo": "2026"
+      "name": "Tournament of Champions: All-Star Christmas",
+      "poster": "https://image.tmdb.org/t/p/w500/qshuv46xb7nfMDJRY2RB0BRT4tQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zvcDNLArN1LUGg9ip7vH5WAwki5.jpg",
+      "releaseInfo": "2025"
     }
   ]
 }

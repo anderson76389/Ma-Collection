@@ -1,76 +1,58 @@
 {
   "metas": [
     {
-      "id": "tmdb:292741",
+      "id": "tmdb:80054",
       "type": "series",
-      "name": "Nocturne",
-      "poster": "https://image.tmdb.org/t/p/w500/gwoPlr2g3moHYZH05DyRZVgUf6m.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/614k6C9doThoMe6GyH0nTnGgLXt.jpg",
-      "description": "Lorsqu’une victime du célèbre tueur en série Jurek Walter refait surface en vie, l’enquêteur Jonah Lynn entame une course contre la montre pour retrouver sa dernière proie encore portée disparue. Sa protégée Saga Bauer travaille sous couverture pour faire parler le tueur.",
+      "name": "Truth Be Told",
+      "poster": "https://image.tmdb.org/t/p/w500/8J6iJBYNNjmkrTN9iUxaZ2ttcQn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cXjRGoYFAFkwPzhOZXFARPuYQ00.jpg",
+      "description": "Plongez dans le monde des podcasts d'affaires criminelles. Dans cette série policière récompensée aux NAACP Image Awards, la podcasteuse Poppy Parnell risque tout – y compris sa vie – pour faire triompher la vérité et la justice.",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:130853",
+      "type": "series",
+      "name": "Carl Hiaasen’s Bad Monkey",
+      "poster": "https://image.tmdb.org/t/p/w500/3w12TTgQNuc68GOuS7aciBDZ03e.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yj8g84iczcJVg3zCxVGpfdEMMxg.jpg",
+      "description": "Un policier devenu inspecteur de restaurants dans le sud de la Floride se retrouve entraîné dans un monde cupide et corrompu quand un touriste découvre un bras coupé en pêchant. Et oui, il y a un singe.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:312693",
+      "type": "series",
+      "name": "Small Prophets",
+      "poster": "https://image.tmdb.org/t/p/w500/vkp6w1iq72JrFQnpFkWPLWWMZGa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/x5OnfR9mcpHvtsrXg1ZxB1Vk6lW.jpg",
+      "description": "Depuis la mystérieuse disparition de sa compagne il y a sept ans, la vie de Michael est en pause. Mais une recette trouvée dans un vieux grimoire pourrait bien lui apporter des réponses.",
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:46518",
+      "id": "tmdb:156933",
       "type": "series",
-      "name": "Masters of the Air",
-      "poster": "https://image.tmdb.org/t/p/w500/wwEZ3cn1mrfbTsNenyUZSsBvgYD.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6snBXmgkscLEJQmxx46qEIlqYlB.jpg",
-      "description": "Pendant la Seconde Guerre mondiale, des pilotes de chasse risquent leur vie au sein du 100e groupe de bombardement, une confrérie unie par le courage, les défaites et les victoires.",
+      "name": "Présumé innocent",
+      "poster": "https://image.tmdb.org/t/p/w500/W7BbPGtyaHSJpobiQONjdUroJi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qzi8rTS2KpkrYNWxC1tt7xkRlTY.jpg",
+      "description": "Un horrible meurtre bouleverse le bureau du procureur de Chicago quand un de ses membres est suspecté dans cette affaire, obligeant l’accusé à se battre pour garder sa famille unie.",
       "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:203744",
+      "id": "tmdb:247767",
       "type": "series",
-      "name": "Sugar",
-      "poster": "https://image.tmdb.org/t/p/w500/tLmwLYiI7EpPbhgmdeivNGY0xw7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hL8GNwTjFlvB3nyMuIYldLWWYb5.jpg",
-      "description": "John Sugar est un détective privé élégant qui arpente les coins sombres d'un L.A. ensoleillé. Bien qu'il ne voie que le bon côté de l'humanité, Sugar est hanté par un secret trop dangereux pour être révélé.",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:117303",
-      "type": "series",
-      "name": "Lessons in Chemistry",
-      "poster": "https://image.tmdb.org/t/p/w500/2WlMsIe7e42S9PbnlWCRfVyb66P.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/sPE6RlcIdK7i5Z991cQQkoO2R6t.jpg",
-      "description": "Dans les années 1950, Elizabeth Zott rêve de devenir scientifique. Elle est remise en question par une société qui considère que les femmes n'appartiennent qu'à la sphère domestique. Elle accepte un emploi dans une émission de cuisine télévisée et entreprend d'enseigner bien plus que des recettes à une nation de femmes au foyer négligées.",
-      "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:98177",
-      "type": "series",
-      "name": "Trying",
-      "poster": "https://image.tmdb.org/t/p/w500/403g0sHxcdLQti6P68v8vN3BGZw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jeGWGcS2OrCvwFh3NBb3KxX7OZY.jpg",
-      "description": "Nikki et Jason rêvent d’avoir un bébé, mais la nature le leur refuse et ils se décident à adopter. Mais avec leurs amis atypiques, leurs familles déjantées et leurs vies chaotiques, arriveront-ils à obtenir l’accord du comité d’adoption ?",
-      "releaseInfo": "2020"
-    },
-    {
-      "id": "tmdb:204490",
-      "type": "series",
-      "name": "Criminal Record",
-      "poster": "https://image.tmdb.org/t/p/w500/1vTUmvdV0BEfxy4A8l8s0h0cSlp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/Q9FMVA1UvX8cnNImaZc0dlpMdB.jpg",
-      "description": "Au cœur de Londres, un appel anonyme précipite deux brillants policiers — une jeune femme au début de sa carrière et un homme bien placé déterminé à protéger son héritage — dans un combat pour rectifier une ancienne erreur judiciaire.",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:215995",
-      "type": "series",
-      "name": "Smoke",
-      "poster": "https://image.tmdb.org/t/p/w500/k8Jgv0SvrLRG0Tj5HSC61gWUOha.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4F7IE2OEcHsWZwIu1OvXDyiRD84.jpg",
-      "description": "Quand un enquêteur incendie doit faire équipe avec une lieutenante, leur traque de deux pyromanes se transforme en jeu du chat et de la souris.",
+      "name": "The Studio",
+      "poster": "https://image.tmdb.org/t/p/w500/clnQO3HfqcsiqinWDkIuvoTXmoC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qqqo3P0txcP5ES3ZQ7YR4SmUwam.jpg",
+      "description": "Seth Rogen joue le nouveau directeur d'un studio de cinéma. Cherchant désespérément l'approbation des plus grands, lui et ses exécutifs de chez Continental Studios jonglent entre pression commerciale et désirs créatifs tout en essayant de continuer de faire vivre le cinéma.",
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:103913",
+      "id": "tmdb:221079",
       "type": "series",
-      "name": "Téhéran",
-      "poster": "https://image.tmdb.org/t/p/w500/lkOD0iXtwwUJSIT6UgVfpgRJOho.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2hpvEPS5ckA00g0H55gsxLWynNt.jpg",
-      "description": "Tamar, hackeuse du Mossad infiltrée à Téhéran sous une fausse identité, a pour mission de neutraliser un réacteur nucléaire. Mise en échec et bloquée en Iran, elle va monter une opération qui pourrait mettre ses proches en danger.",
-      "releaseInfo": "2020"
+      "name": "The Last Frontier",
+      "poster": "https://image.tmdb.org/t/p/w500/ojnK03veSJcI304OaBUVLSb3OGi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pzxIAuKHqQqCFOxh2ALmHUgXkOD.jpg",
+      "description": "Quand un avion de transport de prisonniers s’écrase près d'une ville dans les étendues sauvages de l’Alaska, le marshal de la région lance une chasse à l'homme contre une dizaine de détenus violents et le cerveau qui se cache derrière le crash.",
+      "releaseInfo": "2025"
     }
   ]
 }

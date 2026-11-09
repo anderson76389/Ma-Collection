@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:335536",
+      "type": "series",
+      "name": "TYSON",
+      "poster": "https://image.tmdb.org/t/p/w500/mdtpJEWW1j5Ns7bIcbw1UeIdvhp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qFNAWAHCXWtS4EMlLxTAetTpZAR.jpg",
+      "description": "Ce documentaire captivant en quatre volets explore la vie tumultueuse de Mike Tyson, l'une des personnalités les plus redoutées et les plus fascinantes de l'histoire du sport.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:331616",
       "type": "series",
       "name": "La Mort de la femme du pasteur",
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/bviMleUIbDRSi2PCHdrVkA8i2Uq.jpg",
       "background": "https://image.tmdb.org/t/p/w780/qSxabAdLMiJWIJUb7hbSVvwMm4s.jpg",
       "description": "Charlie Sheen se raconte dans ce documentaire sincère qui retrace son ascension fulgurante à Hollywood, sa chute retentissante dans les tabloïds et son chemin pour se reconstruire.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:296549",
-      "type": "series",
-      "name": "The Biggest Loser : Le Poids du show",
-      "poster": "https://image.tmdb.org/t/p/w500/kuh17nqsgphgjoc3WaQEH0DoyGI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7LJanibhktWlXdhvxg0fsEhyB8Y.jpg",
-      "description": "Au travers des témoignages de participants et de producteurs, entre autres, cette série dévoile les dérives toxiques derrière l'émission phénomène \"The Biggest Loser\".",
       "releaseInfo": "2025"
     }
   ]

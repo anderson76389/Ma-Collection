@@ -5,17 +5,8 @@
       "type": "movie",
       "name": "Tenzing : à la conquête de l’Everest",
       "poster": "https://image.tmdb.org/t/p/w500/yjeqiDKgOyrTROU5X4Rck01ldGF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9MdxBPjI58xkzA7RtKX9xRKvlZp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tKvVgMfM6GS4AGZn2KhP8bX1mJm.jpg",
       "description": "Un homme déterminé se lance dans une aventure périlleuse - et brave des obstacles apparemment insurmontables - pour réaliser son rêve d'être le premier à atteindre le sommet de l'Everest.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1503762",
-      "type": "movie",
-      "name": "Raison et Sentiments",
-      "poster": "https://image.tmdb.org/t/p/w500/hpYHHl0P978F6AX5Xeew0fi2ryI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg",
-      "description": "Une irrésistible nouvelle version du roman culte de Jane Austin, Raison et Sentiments, qui suit deux sœurs à travers leurs amours, leurs chagrins et le lien qui les unit d'une façon magistrale et profondément proche de nous.",
       "releaseInfo": "2026"
     },
     {
@@ -91,15 +82,6 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1207162",
-      "type": "movie",
-      "name": "Rise of the Conqueror",
-      "poster": "https://image.tmdb.org/t/p/w500/9cRE0DsM6CNIiY9Ah3cd8oc3n1Y.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9gWrxuOJeArUbvnqrZALSjhPv9Y.jpg",
-      "description": "Au XIVe siècle, alors que la Route de la Soie s'effondre et que des factions rivales déchirent le pays, Tamerlan, guerrier intrépide, sort de l'exil. Dépouillé de tout, il se bat pour unifier les royaumes divisés, utilisant la stratégie et sa volonté de fer pour forger un empire à partir du chaos. Invaincu au combat et largement considéré comme l’un des plus grands chefs militaires et tacticiens de l’histoire, sans parler de l’un des plus brutaux, Tamerlan fonda l’Empire timouride, qui régnait sur l’Afghanistan, l’Iran et l’Asie centrale actuels",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:1341137",
       "type": "movie",
       "name": "La Grande Révélation",
@@ -109,21 +91,21 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1207162",
+      "type": "movie",
+      "name": "Rise of the Conqueror",
+      "poster": "https://image.tmdb.org/t/p/w500/9cRE0DsM6CNIiY9Ah3cd8oc3n1Y.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9gWrxuOJeArUbvnqrZALSjhPv9Y.jpg",
+      "description": "Au XIVe siècle, alors que la Route de la Soie s'effondre et que des factions rivales déchirent le pays, Tamerlan, guerrier intrépide, sort de l'exil. Dépouillé de tout, il se bat pour unifier les royaumes divisés, utilisant la stratégie et sa volonté de fer pour forger un empire à partir du chaos. Invaincu au combat et largement considéré comme l’un des plus grands chefs militaires et tacticiens de l’histoire, sans parler de l’un des plus brutaux, Tamerlan fonda l’Empire timouride, qui régnait sur l’Afghanistan, l’Iran et l’Asie centrale actuels",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1439660",
       "type": "movie",
       "name": "Fukushima, un cauchemar nucléaire",
       "poster": "https://image.tmdb.org/t/p/w500/lmcJpVfdXHgmgTOB0uohY6kDxSw.jpg",
       "background": "https://image.tmdb.org/t/p/w780/olz73f1yVWu5JlLDi8lI98Yekvl.jpg",
       "description": "Les ingénieurs, techniciens, soldats et pompiers qui sont entrés dans les réacteurs de Fukushima pour stabiliser le combustible nucléaire en fusion le 11 mars 2011 racontent.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1316092",
-      "type": "movie",
-      "name": "“Hurlevent”",
-      "poster": "https://image.tmdb.org/t/p/w500/yEa8UQA71rjKhCq04mATDNOIT2B.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nHKscpZcAPkh97OsJJjyE5yaVE0.jpg",
-      "description": "Sur les landes balayées par le vent du Yorkshire, la passion dévorante entre Catherine Earnshaw et Heathcliff se transforme en une obsession destructrice, bouleversant leurs vies et celles de leur entourage.​",
       "releaseInfo": "2026"
     },
     {
@@ -177,6 +159,24 @@
       "poster": "https://image.tmdb.org/t/p/w500/5Af6vLWQk8gj5099GhgpgY0jCiu.jpg",
       "background": "https://image.tmdb.org/t/p/w780/66goUG18qJdtbnJ7R4HIsibUMKI.jpg",
       "description": "Avant la Coupe du Monde de la FIFA 2002, le capitaine irlandais Roy Keane quitte l'équipe à leur camp d'entraînement à Saipan après une dispute houleuse avec le sélectionneur Mick McCarthy.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1214931",
+      "type": "movie",
+      "name": "Nuremberg",
+      "poster": "https://image.tmdb.org/t/p/w500/6iYLH0TjqCyEkCYadpLUMHr9S8J.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mxKVTRDApGP2vtsruji4cNGXioD.jpg",
+      "description": "Washington, 1945. Hitler s'est suicidé, l'Allemagne a capitulé et les Alliés détiennent 22 officiers nazis, dont Hermann Göring, plus haut gradé du Troisième Reich. Contrairement à ses collègues, qui préconisent leur exécution, Robert H. Jackson, juge à la Cour suprême des États-Unis, obtient que ceux-ci soient traduits devant une cour internationale. Un an avant l'ouverture du procès à Nuremberg, Jackson confie à un psychiatre de l'armée américaine, Douglas Kelley, le mandat d'évaluer les accusés. Secondé par son traducteur, Kelley se met à la tâche, en privilégiant le cas du Reichsmarschall Göring, un pervers narcissique, qui s'engage avec lui dans un jeu du chat et de la souris.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1432596",
+      "type": "movie",
+      "name": "Palestine 36",
+      "poster": "https://image.tmdb.org/t/p/w500/7MfS2Q7kHIdGeRe17Z26q5N9MPm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xLcPsJ7lZ4pVHJiAgMvDwmm4v0r.jpg",
+      "description": "Palestine, 1936. La grande révolte arabe, destinée à faire émerger un État indépendant, se prépare alors que le territoire est sous mandat britannique.",
       "releaseInfo": "2025"
     }
   ]

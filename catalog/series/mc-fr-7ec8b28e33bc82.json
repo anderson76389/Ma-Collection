@@ -1,22 +1,13 @@
 {
   "metas": [
     {
-      "id": "tmdb:204136",
+      "id": "tmdb:80587",
       "type": "series",
-      "name": "Zombies: The Re-Animated Series",
-      "poster": "https://image.tmdb.org/t/p/w500/abrmBYBDMufgaN8h41f1Ezy7k4F.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kZ7cgiYIqUVYl8Z81cLXhRY9Ofr.jpg",
-      "description": "Chaque jour est une suprise au lycée Seabrook, que l'on soit pom-pom girl, zombie, loup-garou ou même vampire ! La série nous invite dans la vie quotidienne de Zed, Addison, Eliza, Willa et de toute l'équipe de Seabrook.",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:154010",
-      "type": "series",
-      "name": "Chibi Tiny Tales",
-      "poster": "https://image.tmdb.org/t/p/w500/oeiqDZgfc70VDnrjfggL972reWA.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yLsM5zTbhNrElQHvunRAm7ZNWHX.jpg",
-      "description": "Chibi Tiny Tales est une série de courts épisodes avec des personnages Disney d'apparence Chibi.\n\nLa série fait suite à Big Chibi 6: The Shorts.",
-      "releaseInfo": "2020"
+      "name": "Les Green à Big City",
+      "poster": "https://image.tmdb.org/t/p/w500/dIxh34eA97uaHTxvYptBdETAyHu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vVGmv5mle6lCrgnx8lNv5Q1vZPw.jpg",
+      "description": "Cricket Green, un garçon de dix ans malicieux et optimiste, quitte sa campagne natale pour s'installer dans une grande ville avec sa famille, qui rapidement ne se sent pas vraiment à sa place dans ce nouvel environnement..",
+      "releaseInfo": "2018"
     }
   ]
 }

@@ -1,12 +1,28 @@
 {
   "metas": [
     {
+      "id": "tmdb:313137",
+      "type": "series",
+      "name": "The Golden Life",
+      "poster": "https://image.tmdb.org/t/p/w500/e7OGE2mfvhfDCd1jJNju5G155hX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pnWDLePHuMROfNN0a13asDpUr7I.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:315911",
       "type": "series",
       "name": "Dirty Rotten Scandals",
       "poster": "https://image.tmdb.org/t/p/w500/2gnBodlr5baESwygXtbRFtvQksN.jpg",
       "background": "https://image.tmdb.org/t/p/w780/dBFfBS8pnSCmKngyFwAlAAEMiJj.jpg",
       "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:308008",
+      "type": "series",
+      "name": "Kimora: Back in the Fab Lane",
+      "poster": "https://image.tmdb.org/t/p/w500/vSwwAL8eEtaVE8GALztJ71kSU4x.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/c5sgc2e1Ru6T8vufCP6C1HVnX5U.jpg",
+      "releaseInfo": "2025"
     },
     {
       "id": "tmdb:293603",

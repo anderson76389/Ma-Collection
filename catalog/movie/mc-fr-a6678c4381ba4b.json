@@ -36,11 +36,19 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1096228",
+      "type": "movie",
+      "name": "Musk",
+      "poster": "https://image.tmdb.org/t/p/w500/kTOeFV92c3QHJ3bEkT660P7BcWN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1CfHIKczBiAauSRBiNQ90bjLsCM.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1596303",
       "type": "movie",
       "name": "The Last First : le K2 en hiver",
       "poster": "https://image.tmdb.org/t/p/w500/zrOs0WKhESe6J4UErG32ZjOOh1A.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wtzSwtnQ4RsRbV5cc114Nb1q3b0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bZDG7ypci7shzYp7jCOW4d1UC8w.jpg",
       "description": "Une course mémorable pour être le premier à atteindre le sommet du K2 en hiver vire au drame, révélant qu'ambition, ego et quête de gloire sont aussi dangereux que la montagne.",
       "releaseInfo": "2026"
     },
@@ -67,7 +75,7 @@
       "type": "movie",
       "name": "NAZA",
       "poster": "https://image.tmdb.org/t/p/w500/yJ0FMDiMfdVHWCRqxt9WzAJ0C5S.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/inju8joDtL7KHtlFEGjFZ2UuqFa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qkuEfYYOZTW6ymbZMeyJeYQaMd7.jpg",
       "description": "Filmé la nuit depuis les toits de Tel Aviv, ce documentaire se centre sur les victimes civiles des opérations militaires israéliennes à Gaza.",
       "releaseInfo": "2026"
     },
@@ -168,15 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/1us6iYG7P600BgSdwjb6mFYCP97.jpg",
       "background": "https://image.tmdb.org/t/p/w780/fQiNGtgo9gEpyOIxX29FtUHpcaD.jpg",
       "description": "L'équipe et les acteurs de la série Euphoria de HBO reviennent en exclusivité sur les origines, l'évolution et les influences de cette série acclamée par la critique.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1723460",
-      "type": "movie",
-      "name": "Amour et Machinations",
-      "poster": "https://image.tmdb.org/t/p/w500/jTbpTfNfHYIKmnciYRgzvcveuNe.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/c3hLMqh2QqJd7m1ar6rxw9eio35.jpg",
-      "description": "Une série de courriels menaçants dégénère en un complot de vengeance impliquant un marshal américain récemment marié et son ex-petite amie.",
       "releaseInfo": "2026"
     }
   ]
