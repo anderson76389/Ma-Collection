@@ -1,0 +1,36 @@
+name: Audit de l'independance Ma-Collection
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+    paths:
+      - 'collections/**'
+      - 'app.js'
+      - 'index.html'
+      - '.github/scripts/audit-upstream-independence.mjs'
+      - '.github/workflows/audit-independance.yml'
+  schedule:
+    - cron: '23 6 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspecter:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Analyser 20 collections, URL, listes et integrations
+        run: node .github/scripts/audit-upstream-independence.mjs > audit-independance.json
+      - name: Conserver le rapport d'audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-independance
+          path: audit-independance.json
+          if-no-files-found: warn
+          retention-days: 30
