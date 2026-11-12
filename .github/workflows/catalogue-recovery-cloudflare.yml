@@ -5,6 +5,7 @@ on:
     paths:
       - 'services/catalogue-recovery-cloudflare/**'
       - 'tests/cloudflare-catalogue-recovery.test.mjs'
+      - 'tests/cloudflare-verify-live.test.mjs'
       - '.github/workflows/catalogue-recovery-cloudflare.yml'
       - 'data/catalogue-archives/tmdb/**'
       - 'scripts/build-emergency-catalogue.mjs'
@@ -14,6 +15,7 @@ on:
     paths:
       - 'services/catalogue-recovery-cloudflare/**'
       - 'tests/cloudflare-catalogue-recovery.test.mjs'
+      - 'tests/cloudflare-verify-live.test.mjs'
       - '.github/workflows/catalogue-recovery-cloudflare.yml'
       - 'data/catalogue-archives/tmdb/**'
       - 'scripts/build-emergency-catalogue.mjs'
@@ -33,7 +35,7 @@ jobs:
         with:
           node-version: '22'
       - name: Valider les 261 vraies listes et tester le Worker sans API distante
-        run: node --test tests/cloudflare-catalogue-recovery.test.mjs
+        run: node --test tests/cloudflare-catalogue-recovery.test.mjs tests/cloudflare-verify-live.test.mjs
       - name: Générer et vérifier le bundle d'archives Cloudflare
         run: node services/catalogue-recovery-cloudflare/prepare-assets.mjs
       - name: Valider le bundle avec Wrangler officiel sans le publier
