@@ -7,6 +7,7 @@ on:
       - 'tests/cloudflare-catalogue-recovery.test.mjs'
       - 'tests/cloudflare-verify-live.test.mjs'
       - 'tests/cloudflare-inline-bundle.test.mjs'
+      - 'tests/cloudflare-ensure-workers-dev.test.mjs'
       - '.github/workflows/catalogue-recovery-cloudflare.yml'
       - 'data/catalogue-archives/tmdb/**'
       - 'scripts/build-emergency-catalogue.mjs'
@@ -18,6 +19,7 @@ on:
       - 'tests/cloudflare-catalogue-recovery.test.mjs'
       - 'tests/cloudflare-verify-live.test.mjs'
       - 'tests/cloudflare-inline-bundle.test.mjs'
+      - 'tests/cloudflare-ensure-workers-dev.test.mjs'
       - '.github/workflows/catalogue-recovery-cloudflare.yml'
       - 'data/catalogue-archives/tmdb/**'
       - 'scripts/build-emergency-catalogue.mjs'
@@ -41,7 +43,7 @@ jobs:
       - name: Compiler les 261 archives directement dans le Worker et tester toutes les routes
         run: |
           node services/catalogue-recovery-cloudflare/prepare-inline.mjs
-          node --test tests/cloudflare-inline-bundle.test.mjs
+          node --test tests/cloudflare-inline-bundle.test.mjs tests/cloudflare-ensure-workers-dev.test.mjs
       - name: Valider les deux variantes sans publication ni jeton Cloudflare
         run: |
           npx --yes wrangler@4.156.0 deploy --dry-run --config services/catalogue-recovery-cloudflare/wrangler.toml --outdir /tmp/ma-collection-worker-assets-build
