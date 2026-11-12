@@ -1,0 +1,65 @@
+name: Diagnostic Cloudflare Ma-Collection (lecture seule)
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  diagnose:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    env:
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Tester la validité et la portée du jeton sans jamais exposer les secrets
+        shell: bash
+        run: |
+          node <<'NODE'
+          const account = process.env.CLOUDFLARE_ACCOUNT_ID || '';
+          const token = process.env.CLOUDFLARE_API_TOKEN || '';
+          if (!account || !token) {
+            console.log('DIAGNOSTIC missing_secret=true');
+            process.exitCode = 2;
+          } else if (!/^[a-f\d]{32}$/i.test(account)) {
+            console.log('DIAGNOSTIC account_id_format=INVALID expected_32_hex');
+            process.exitCode = 2;
+          } else {
+            console.log('DIAGNOSTIC secret_present=true account_id_format=VALID token_present=true');
+            const base = 'https://api.cloudflare.com/client/v4';
+            const headers = { Authorization: 'Bearer ' + token, Accept: 'application/json' };
+            const checks = [
+              ['token_user_verify', '/user/tokens/verify'],
+              ['token_account_verify', '/accounts/' + account + '/tokens/verify'],
+              ['account_read', '/accounts/' + account],
+              ['workers_list', '/accounts/' + account + '/workers/scripts'],
+              ['target_worker_read', '/accounts/' + account + '/workers/scripts/ma-collection-catalogues'],
+              ['kovelyx_worker_read', '/accounts/' + account + '/workers/scripts/kovelyx-cloud'],
+            ];
+            for (const [name, path] of checks) {
+              try {
+                const response = await fetch(base + path, {
+                  headers, method: 'GET', signal: AbortSignal.timeout(12000)
+                });
+                const json = await response.json().catch(() => ({}));
+                const codes = Array.isArray(json.errors)
+                  ? json.errors.map(e => Number(e.code)).filter(Number.isFinite).slice(0,3)
+                  : [];
+                const tokenStatus = name.includes('verify') && json.result
+                  ? json.result.status
+                  : undefined;
+                const statusText = ['active','disabled','expired'].includes(tokenStatus)
+                  ? ' token_status=' + tokenStatus : '';
+                console.log('DIAGNOSTIC '+name+' http='+response.status+
+                  ' success='+(json.success===true)+
+                  ' error_codes='+(codes.join(',')||'none')+statusText);
+              } catch {
+                console.log('DIAGNOSTIC '+name+' request_failed=true (no credentials logged)');
+              }
+            }
+            console.log('DIAGNOSTIC completed_read_only=true');
+            console.log('NOTICE: a missing Worker needs product-level Workers Admin for first creation; Workers Editor can only update existing Workers.');
+          }
+          NODE
