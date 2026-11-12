@@ -18,7 +18,7 @@ test('le Worker inline contient les 261 listes vérifiées sans Static Assets',a
   const {INLINE_ARCHIVES}=await import('../services/catalogue-recovery-cloudflare/dist/archive-inline.mjs');
   assert.equal(Object.keys(INLINE_ARCHIVES).length,262);
   const worker=(await import('../services/catalogue-recovery-cloudflare/worker-inline.mjs')).default;
-  const domain='https://ma-collection-catalogues.test.workers.dev';
+  const domain='https://ma-collection.test.workers.dev';
   const fetcher=(url,options)=>worker.fetch(new Request(url,options),{});
   const {collections,archives,status}=await loadEmergencyInputs();
   const recovery=emergencyRecovery(collections,archives,status);
