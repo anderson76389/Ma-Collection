@@ -44,6 +44,36 @@ quand du code est fusionné, pour éviter toute modification involontaire.
 4. Consulte dans les logs de Wrangler **l'URL workers.dev réellement attribuée**
    (elle dépend du sous-domaine de ton compte). Vérifie les endpoints ci-dessous.
 
+## Si le déploiement affiche « No access to the specified resource »
+
+L'exécution GitHub du **12 novembre 2026, 22:09 UTC** a réussi les 10 tests
+et préparé 261 listes, puis Cloudflare a refusé l'endpoint
+`/accounts/{account_id}/workers/scripts/ma-collection-catalogues/assets-upload-session`.
+C'est un **refus d'autorisation** : modifier les listes, les images ou le code du
+Worker ne peut pas réparer les droits d'un token.
+
+1. Dans Cloudflare, ouvrir le **compte précis** qui devra héberger
+   `ma-collection-catalogues` et vérifier son **Account ID**.
+   Reporter cet ID dans le secret GitHub `CLOUDFLARE_ACCOUNT_ID` de
+   **Ma-Collection** (pas uniquement dans les secrets de Kovelyx).
+2. Dans **Manage Account → API Tokens** ou **My Profile → API Tokens**,
+   créer un jeton dédié au compte. Le droit minimal de l'endpoint de
+   téléversement est **Account → Workers Scripts → Write/Edit**.
+   Dans les rôles Workers granulaires, un Worker **à créer** peut nécessiter
+   le rôle **Workers Admin au niveau du produit** pour ce compte ; un Worker
+   existant peut être déployé avec **Workers Editor** sur ce Worker.
+   Ne pas accorder de permissions de zones, D1, R2 ou KV sans besoin réel.
+3. Mettre le **nouveau jeton** dans le secret GitHub
+   `CLOUDFLARE_API_TOKEN` du dépôt **Ma-Collection**, puis relancer
+   l'action manuelle en cochant `publish`. Ne jamais coller le jeton dans
+   les logs, les commits ou une conversation.
+4. Confirmer le succès **uniquement** si l'action relit bien les
+   **261 listes** depuis l'URL `workers.dev` publiée. Si Cloudflare refuse
+   encore, examiner le message d'erreur exact avant tout changement.
+
+Voir la [documentation Cloudflare sur les droits Workers](https://developers.cloudflare.com/workers/authorization/workers/)
+et [les jetons CI GitHub](https://developers.cloudflare.com/workers/ci-cd/external-cicd/github-actions/).
+
 Le Worker s'appelle **ma-collection-catalogues**, différent de
 **kovelyx-cloud** et du Worker des images Ma-Art. Il n'utilise aucune base D1
 et ne modifie aucune image, donnée de compte ou catalogue actif.
