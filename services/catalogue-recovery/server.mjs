@@ -16,11 +16,13 @@
  * Pour exposer sur Internet : utiliser un proxy HTTPS sous son contrôle.
  */
 import {createServer} from 'node:http';
-import {pathToFileURL} from 'node:url';
+import {fileURLToPath} from 'node:url';
+import {createHash} from 'node:crypto';
 import {resolve} from 'node:path';
 import {loadEmergencyInputs, emergencyRecovery} from '../../scripts/build-emergency-catalogue.mjs';
 
 const positive=n=>Number.isSafeInteger(n)&&n>0;
+const sha=items=>createHash('sha256').update(JSON.stringify(items)).digest('hex');
 
 export function buildIndex(recovery){
   if(!recovery||recovery.schema!==1||
@@ -33,7 +35,9 @@ export function buildIndex(recovery){
     const id=row.original_list_id;
     if(!positive(id)||entries.has(id)||
        !Array.isArray(row.items)||row.items.length!==row.media_count||
-       !/^[0-9a-f]{64}$/.test(row.source_sha256||''))throw new Error('Liste de secours invalide');
+       !row.items.every(x=>(x.media_type==='movie'||x.media_type==='tv')&&positive(x.media_id))||
+       new Set(row.items.map(x=>x.media_type+':'+x.media_id)).size!==row.items.length||
+       sha(row.items)!==row.source_sha256)throw new Error('Liste de secours invalide');
     entries.set(id,row);
   }
   for(const row of recovery.tmdb_blockers){
@@ -142,7 +146,7 @@ export async function loadRepositoryIndex(){
   return buildIndex(emergencyRecovery(collections,archives,status));
 }
 
-const invoked=process.argv[1]&&resolve(process.argv[1])===resolve(new URL(import.meta.url).pathname);
+const invoked=process.argv[1]&&resolve(process.argv[1])===fileURLToPath(import.meta.url);
 if(invoked){
   try{
     const index=await loadRepositoryIndex();
