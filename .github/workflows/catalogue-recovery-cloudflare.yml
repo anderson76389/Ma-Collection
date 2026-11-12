@@ -1,0 +1,69 @@
+name: Valider le secours TMDB Cloudflare Worker natif
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'services/catalogue-recovery-cloudflare/**'
+      - 'tests/cloudflare-catalogue-recovery.test.mjs'
+      - '.github/workflows/catalogue-recovery-cloudflare.yml'
+      - 'data/catalogue-archives/tmdb/**'
+      - 'scripts/build-emergency-catalogue.mjs'
+      - 'collections/*.json'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'services/catalogue-recovery-cloudflare/**'
+      - 'tests/cloudflare-catalogue-recovery.test.mjs'
+      - '.github/workflows/catalogue-recovery-cloudflare.yml'
+      - 'data/catalogue-archives/tmdb/**'
+      - 'scripts/build-emergency-catalogue.mjs'
+      - 'collections/*.json'
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  worker:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Valider les 261 vraies listes et tester le Worker sans API distante
+        run: node --test tests/cloudflare-catalogue-recovery.test.mjs
+      - name: Générer et vérifier le bundle d'archives Cloudflare
+        run: node services/catalogue-recovery-cloudflare/prepare-assets.mjs
+      - name: Valider le bundle avec Wrangler officiel sans le publier
+        run: |
+          npx --yes wrangler@4 deploy --dry-run --config services/catalogue-recovery-cloudflare/wrangler.toml --outdir /tmp/ma-collection-worker-build
+      - name: Tester le véritable runtime Cloudflare en local (sans clé)
+        shell: bash
+        run: |
+          set -euo pipefail
+          npx --yes wrangler@4 dev --local --config services/catalogue-recovery-cloudflare/wrangler.toml --ip 127.0.0.1 --port 18898 >/tmp/ma-collection-worker-dev.log 2>&1 &
+          worker_pid=$!
+          trap 'kill "$worker_pid" 2>/dev/null || true' EXIT
+          ready=0
+          for attempt in $(seq 1 45); do
+            if curl --fail --silent --output /tmp/ma-collection-worker-health http://127.0.0.1:18898/health; then
+              ready=1; break
+            fi
+            if ! kill -0 "$worker_pid" 2>/dev/null; then break; fi
+            sleep 2
+          done
+          if [ "$ready" != 1 ]; then
+            echo "::error::Le vrai runtime Wrangler n'a pas démarré"
+            tail -40 /tmp/ma-collection-worker-dev.log
+            exit 1
+          fi
+          node -e 'const h=require("/tmp/ma-collection-worker-health");if(h.available!==261||h.expected!==262||h.complete!==false||h.network_required!==false)process.exit(1)'
+          curl --fail --silent 'http://127.0.0.1:18898/v1/tmdb/lists/8659010?limit=10' \
+            | node -e 'let s="";process.stdin.on("data",x=>s+=x).on("end",()=>{const v=JSON.parse(s);if(v.list_id!==8659010||v.items.length!==10||v.original_order_preserved!==true)process.exit(1)})'
+          missing="$(curl --silent --output /tmp/ma-collection-worker-missing --write-out '%{http_code}' http://127.0.0.1:18898/v1/tmdb/lists/8690687)"
+          test "$missing" = "503"
+          forbidden="$(curl --silent --output /tmp/ma-collection-worker-internal --write-out '%{http_code}' http://127.0.0.1:18898/_mc_data/manifest.json)"
+          test "$forbidden" = "404"
+          echo 'CLOUDFLARE_NATIVE_OK : 261 listes verifiees, 1 absente, donnees internes inaccessibles'
