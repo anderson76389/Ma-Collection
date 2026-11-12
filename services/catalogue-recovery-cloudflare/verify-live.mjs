@@ -25,7 +25,7 @@ export function validatedOrigin(value){
 
 export function originFromDeployOutput(output){
   const stripped=String(output||'').replace(/\x1b\[[0-9;]*m/g,'');
-  const urls=stripped.match(/https:\/\/ma-collection-catalogues\.[a-z0-9-]+\.workers\.dev\b/gi)||[];
+  const urls=stripped.match(/https:\/\/ma-collection-catalogues\.[a-z0-9-]+\.workers\.dev(?=$|[\s/),;\]>])/gi)||[];
   if(!urls.length)throw Error('Wrangler n’a pas annoncé d’URL workers.dev : déploiement non vérifié');
   const normalized=[...new Set(urls.map(validatedOrigin))];
   if(normalized.length!==1)throw Error('Plusieurs domaines Workers annoncés : aucun contrôle ambigu');
@@ -38,6 +38,7 @@ async function requestJSON(fetcher,origin,path,expectedStatus=200){
   });
   assert.equal(response.status,expectedStatus,path+' : HTTP '+response.status+' au lieu de '+expectedStatus);
   assert.match(response.headers.get('content-type')||'',/application\/json/i,path+' : JSON requis');
+  assert.equal(response.headers.get('access-control-allow-origin'),'*',path+' : CORS public absent');
   return response.json();
 }
 
