@@ -1,8 +1,6 @@
 name: Diagnostic Cloudflare Ma-Collection (lecture seule)
 on:
-  push:
-    branches:
-      - diagnostic/cloudflare-scope-20261113
+  workflow_dispatch: {}
 permissions:
   contents: read
 jobs:
@@ -62,5 +60,6 @@ jobs:
               }
             }
             console.log('DIAGNOSTIC completed_read_only=true');
+            console.log('NOTICE: a missing Worker needs product-level Workers Admin for first creation; Workers Editor can only update existing Workers.');
           }
           NODE
