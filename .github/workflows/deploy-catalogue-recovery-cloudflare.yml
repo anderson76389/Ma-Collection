@@ -20,7 +20,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   deploy:
-    if: ${{ (github.event_name == 'workflow_dispatch' && inputs.publish == true) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[deploy-existing-ma-collection-once-20261113]')) }}
+    if: ${{ (github.event_name == 'workflow_dispatch' && inputs.publish == true) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[ensure-ma-collection-public-route-once-20261113]')) }}
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     env:
@@ -44,7 +44,7 @@ jobs:
         run: |
           node --test tests/cloudflare-catalogue-recovery.test.mjs tests/cloudflare-verify-live.test.mjs
           node services/catalogue-recovery-cloudflare/prepare-inline.mjs
-          node --test tests/cloudflare-inline-bundle.test.mjs
+          node --test tests/cloudflare-inline-bundle.test.mjs tests/cloudflare-ensure-workers-dev.test.mjs tests/cloudflare-build-alignment.test.mjs
       - name: Déployer le seul Worker ma-collection
         shell: bash
         run: |
@@ -61,6 +61,11 @@ jobs:
             fi
             exit 1
           fi
+      - name: Confirmer et activer si nécessaire la seule URL workers.dev de ma-collection
+        shell: bash
+        run: |
+          set -euo pipefail
+          node services/catalogue-recovery-cloudflare/ensure-workers-dev.mjs
       - name: Contrôler le Worker en ligne et relire les 261 listes depuis Cloudflare
         shell: bash
         run: |

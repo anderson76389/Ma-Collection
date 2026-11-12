@@ -32,6 +32,31 @@ export function originFromDeployOutput(output){
   return normalized[0];
 }
 
+export async function awaitPublicHealth(origin,fetcher=fetch,options={}){
+  origin=validatedOrigin(origin);
+  const attempts=options.attempts??16;
+  const delayMs=options.delayMs??4000;
+  const sleep=options.sleep??(ms=>new Promise(done=>setTimeout(done,ms)));
+  let last='not attempted';
+  for(let n=0;n<attempts;n++){
+    try{
+      const response=await fetcher(origin+'/health',{
+        method:'GET',cache:'no-store',redirect:'error',
+        signal:AbortSignal.timeout(12000)
+      });
+      if(response.status===200 && (response.headers.get('content-type')||'').toLowerCase().includes('application/json')){
+        const body=await response.json();
+        if(body.service==='ma-collection-offline-tmdb-recovery')return true;
+        last='the requested Worker service is not active';
+      }else last='HTTP '+response.status;
+    }catch(error){
+      last=error.name==='TimeoutError'?'timeout':'unavailable';
+    }
+    if(n<attempts-1)await sleep(delayMs);
+  }
+  throw Error('Worker public indisponible après vérification de la route : '+last);
+}
+
 async function requestJSON(fetcher,origin,path,expectedStatus=200){
   const response=await fetcher(origin+path,{
     method:'GET',cache:'no-store',redirect:'error',signal:AbortSignal.timeout(12000)
@@ -119,6 +144,9 @@ if(invoked){
     if(!logFile)throw Error('Indiquer --deploy-log=/chemin/vers/sortie-wrangler');
     const output=await readFile(resolve(logFile),'utf8');
     const origin=originFromDeployOutput(output);
+    // Une nouvelle route workers.dev peut mettre du temps à apparaître
+    // sur les points de présence. Aucun catalogue n'est relu avant /health.
+    await awaitPublicHealth(origin);
     const {collections,archives,status}=await loadEmergencyInputs();
     const recovery=emergencyRecovery(collections,archives,status);
     let result;
