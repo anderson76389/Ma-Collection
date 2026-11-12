@@ -4,6 +4,8 @@ on:
     branches: [main]
     paths:
       - 'scripts/audit-catalogue-provenance.mjs'
+      - 'scripts/build-emergency-catalogue.mjs'
+      - 'tests/emergency-catalogue.test.mjs'
       - 'data/catalogue-archives/tmdb/**'
       - 'collections/*.json'
       - '.github/workflows/catalogue-provenance.yml'
@@ -32,13 +34,19 @@ jobs:
           node-version: '22'
       - name: Tester l'intégrité et les contrôles de provenance
         run: node --test tests/catalogue-provenance.test.mjs
+      - name: Tester les exports autonomes de récupération
+        run: node --test tests/emergency-catalogue.test.mjs
       - name: Comparer les vrais SHA-256 et recenser Trakt/TMDB/addons
         run: node scripts/audit-catalogue-provenance.mjs --output=/tmp/provenance-ma-collection.json
+      - name: Reconstituer les listes TMDB archivées, sans contacter d'API
+        run: node scripts/build-emergency-catalogue.mjs --output=/tmp/ma-collection-recovery.json
       - name: Publier uniquement l'inventaire technique, sans token ni données privées
         uses: actions/upload-artifact@v4
         if: always()
         with:
           name: provenance-catalogues
-          path: /tmp/provenance-ma-collection.json
+          path: |
+            /tmp/provenance-ma-collection.json
+            /tmp/ma-collection-recovery.json
           retention-days: 30
           if-no-files-found: ignore
