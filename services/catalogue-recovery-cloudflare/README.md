@@ -63,6 +63,19 @@ mais un jeton doit toujours autoriser l'écriture de scripts Workers dans
 le bon compte. Si ce droit manque, seul le propriétaire Cloudflare peut
 corriger les autorisations : aucune modification de code ne le contourne.
 
+**Vérification réelle supplémentaire, le 12 novembre 2026 à 22:39 UTC :**
+le nouveau Worker inline a réussi tous ses tests (261 archives, bundle de
+489,28 Kio, fonctionnement Wrangler local), puis Cloudflare a aussi refusé
+`/accounts/{account_id}/workers/scripts/ma-collection-catalogues` avec
+`No access to the specified resource`. L'API Static Assets n'était plus
+utilisée. Le blocage est donc **l'autorisation de publication du script**
+(ou la correspondance du compte ciblé), non l'archive ni Wrangler.
+Ne pas considérer ce Worker comme publié. La seule solution est de vérifier
+l'Account ID et d'accorder Workers Scripts Write à un jeton du compte cible,
+puis de mettre ce jeton dans les secrets Actions de **Ma-Collection**.
+La tentative de publication automatique unique a été retirée : le déploiement
+redevient exclusivement manuel avec confirmation `publish`.
+
 1. Dans Cloudflare, ouvrir le **compte précis** qui devra héberger
    `ma-collection-catalogues` et vérifier son **Account ID**.
    Reporter cet ID dans le secret GitHub `CLOUDFLARE_ACCOUNT_ID` de
