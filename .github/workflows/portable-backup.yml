@@ -4,6 +4,17 @@ on:
   push:
     branches: [main]
     paths:
+      - 'index.html'
+      - 'app.js'
+      - 'wizard.js'
+      - 'style.css'
+      - 'studio-*.js'
+      - 'studio-*.mjs'
+      - 'studio-*.css'
+      - 'custom-folders.js'
+      - 'custom-folders.css'
+      - 'account-*.js'
+      - 'collections/*.json'
       - 'scripts/portable_backup.py'
       - '.github/workflows/portable-backup.yml'
   schedule:
