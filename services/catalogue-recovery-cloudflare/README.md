@@ -64,7 +64,7 @@ Le workflow et la vérification HTTP utilisent désormais le nom exact
 
 L'exécution GitHub du **12 novembre 2026, 22:09 UTC** a réussi les 10 tests
 et préparé 261 listes, puis Cloudflare a refusé l'endpoint
-`/accounts/{account_id}/workers/scripts/ma-collection/assets-upload-session`.
+`/accounts/{account_id}/workers/scripts/ma-collection-catalogues/assets-upload-session`.
 C'est un **refus d'autorisation à cette route**. Le nouveau déploiement
 principal évite désormais complètement cette API en embarquant les archives
 dans le Worker. Il utilise **les mêmes secrets GitHub**, sans nouvelle API,
@@ -75,13 +75,12 @@ corriger les autorisations : aucune modification de code ne le contourne.
 **Vérification réelle supplémentaire, le 12 novembre 2026 à 22:39 UTC :**
 le nouveau Worker inline a réussi tous ses tests (261 archives, bundle de
 489,28 Kio, fonctionnement Wrangler local), puis Cloudflare a aussi refusé
-`/accounts/{account_id}/workers/scripts/ma-collection` avec
+`/accounts/{account_id}/workers/scripts/ma-collection-catalogues` avec
 `No access to the specified resource`. L'API Static Assets n'était plus
-utilisée. Le blocage est donc **l'autorisation de publication du script**
-(ou la correspondance du compte ciblé), non l'archive ni Wrangler.
-Ne pas considérer ce Worker comme publié. La seule solution est de vérifier
-l'Account ID et d'accorder Workers Scripts Write à un jeton du compte cible,
-puis de mettre ce jeton dans les secrets Actions de **Ma-Collection**.
+utilisée. À cette date, le refus pouvait provenir des droits de création **ou du nom de Worker inexistant**.
+Le diagnostic du 13 novembre a identifié le décalage de nom, depuis corrigé.
+Les tests d'archives et Wrangler n'étaient pas en cause. Une publication
+n'est confirmée qu'après succès du déploiement et de la relecture HTTP.
 La tentative de publication automatique unique a été retirée : le déploiement
 redevient exclusivement manuel avec confirmation `publish`.
 
