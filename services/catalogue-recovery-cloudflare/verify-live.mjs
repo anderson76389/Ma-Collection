@@ -11,8 +11,8 @@ import {resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {loadEmergencyInputs,emergencyRecovery} from '../../scripts/build-emergency-catalogue.mjs';
 
-const WORKER='ma-collection-catalogues';
-const ID_PATTERN=/^https:\/\/ma-collection-catalogues\.[a-z0-9-]+\.workers\.dev(?:\/)?$/i;
+const WORKER='ma-collection';
+const ID_PATTERN=/^https:\/\/ma-collection\.[a-z0-9-]+\.workers\.dev(?:\/)?$/i;
 
 export function validatedOrigin(value){
   const url=String(value||'').trim();
@@ -25,7 +25,7 @@ export function validatedOrigin(value){
 
 export function originFromDeployOutput(output){
   const stripped=String(output||'').replace(/\x1b\[[0-9;]*m/g,'');
-  const urls=stripped.match(/https:\/\/ma-collection-catalogues\.[a-z0-9-]+\.workers\.dev(?=$|[\s/),;\]>])/gi)||[];
+  const urls=stripped.match(/https:\/\/ma-collection\.[a-z0-9-]+\.workers\.dev(?=$|[\s/),;\]>])/gi)||[];
   if(!urls.length)throw Error('Wrangler n’a pas annoncé d’URL workers.dev : déploiement non vérifié');
   const normalized=[...new Set(urls.map(validatedOrigin))];
   if(normalized.length!==1)throw Error('Plusieurs domaines Workers annoncés : aucun contrôle ambigu');
