@@ -1,0 +1,35 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {webcrypto} from 'node:crypto';
+import {prepareInline,INLINE_ENTRY} from '../services/catalogue-recovery-cloudflare/prepare-inline.mjs';
+import {verifyLive} from '../services/catalogue-recovery-cloudflare/verify-live.mjs';
+import {loadEmergencyInputs,emergencyRecovery} from '../scripts/build-emergency-catalogue.mjs';
+if(!globalThis.crypto)globalThis.crypto=webcrypto;
+
+test('le Worker inline contient les 261 listes vérifiées sans Static Assets',async()=>{
+  const build=await prepareInline();
+  assert.equal(build.lists,261);
+  assert.equal(build.files,262);
+  assert.deepEqual(build.missing,[8690687]);
+  assert(build.bytes>100_000&&build.bytes<8*1024*1024);
+  const source=await readFile(INLINE_ENTRY,'utf8');
+  assert.match(source,/export const INLINE_ARCHIVES=/);
+  const {INLINE_ARCHIVES}=await import('../services/catalogue-recovery-cloudflare/dist/archive-inline.mjs');
+  assert.equal(Object.keys(INLINE_ARCHIVES).length,262);
+  const worker=(await import('../services/catalogue-recovery-cloudflare/worker-inline.mjs')).default;
+  const domain='https://ma-collection-catalogues.test.workers.dev';
+  const fetcher=(url,options)=>worker.fetch(new Request(url,options),{});
+  const {collections,archives,status}=await loadEmergencyInputs();
+  const recovery=emergencyRecovery(collections,archives,status);
+  const result=await verifyLive(domain,recovery,fetcher);
+  assert.equal(result.verified,261);
+  assert.equal(result.expected,262);
+  assert.deepEqual(result.missing,[8690687]);
+  const missing=await fetcher(domain+'/v1/tmdb/lists/8690687');
+  assert.equal(missing.status,503);
+  const hidden=await fetcher(domain+'/_mc_data/manifest.json');
+  assert.equal(hidden.status,404);
+  const preflight=await worker.fetch(new Request(domain+'/health',{method:'OPTIONS'}),{});
+  assert.equal(preflight.status,204);
+});
