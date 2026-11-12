@@ -1,0 +1,48 @@
+name: Repérer le Worker Cloudflare créé (lecture seule)
+on:
+  push:
+    branches:
+      - diagnostic/cloudflare-worker-discovery-20261113
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 4
+    env:
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Repérer le nom exact du Worker (GET uniquement, aucun secret affiché)
+        shell: bash
+        run: |
+          node <<'NODE'
+          const token=process.env.CLOUDFLARE_API_TOKEN;
+          const account=process.env.CLOUDFLARE_ACCOUNT_ID;
+          if(!token||!account||!/^[a-f\d]{32}$/i.test(account)){
+            console.log('WORKER_DISCOVERY missing_or_invalid_secret=true');
+            process.exit(2);
+          }
+          const base='https://api.cloudflare.com/client/v4/accounts/'+account+'/workers/';
+          const headers={Authorization:'Bearer '+token,Accept:'application/json'};
+          async function request(suffix){
+            try{
+              const response=await fetch(base+suffix,{headers,method:'GET',signal:AbortSignal.timeout(10000)});
+              const doc=await response.json().catch(()=>({}));
+              return {http:response.status,success:doc.success===true,result:doc.result,errors:Array.isArray(doc.errors)?doc.errors.map(e=>e.code).slice(0,3):[]};
+            }catch{return {http:0,success:false,errors:[]};}
+          }
+          const script=await request('scripts/ma-collection-catalogues');
+          console.log('WORKER_DISCOVERY exact_script_http='+script.http+' exact_script_success='+script.success+' error_codes='+script.errors.join(','));
+          for(const endpoint of ['scripts','services']){
+            const data=await request(endpoint);
+            const rows=Array.isArray(data.result)?data.result:(data.result?.items||data.result?.scripts||data.result?.services||[]);
+            const names=rows.map(row=>[row?.id,row?.name,row?.script_name,row?.service].find(v=>typeof v==='string')||'').filter(Boolean);
+            const relevant=names.filter(name=>/ma[-_ ]?collection|catalogue/i.test(name)).slice(0,15);
+            console.log('WORKER_DISCOVERY endpoint='+endpoint+' http='+data.http+' success='+data.success+' count='+names.length+' exact_name_present='+names.includes('ma-collection-catalogues')+' candidate_names='+JSON.stringify(relevant)+' error_codes='+data.errors.join(','));
+          }
+          console.log('WORKER_DISCOVERY complete=true non_mutating=true');
+          NODE
