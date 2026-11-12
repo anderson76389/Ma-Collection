@@ -185,18 +185,19 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
   }
   async function exportAllRecovery(){
     try{
-      // Chargement direct d'IndexedDB : ne jamais annoncer une archive complète
-      // si la lecture des sauvegardes locales a échoué.
       const history=await backupStore.list();
+      const custom=window.MaCollectionCustomFolders;
+      if(!custom?.readRecords||!custom?.validateRecord)
+        throw Error('Module de dossiers personnels indisponible : impossible d’assurer une copie complète.');
       const saved=buildRecoveryPackage({
-        draft,profiles,backups:history,
-        theme:localStorage.getItem('ma_collection_theme')||'dark',
-        frPack
-      },data());
+        draft,profiles,backups:history,customFolders:custom.readRecords(),
+        theme:localStorage.getItem('ma_collection_theme')||'dark',frPack
+      },data(),new Date(),custom.validateRecord);
       download('ma-collection-sauvegarde-complete-'+saved.createdAt.slice(0,10)+'.json',
         JSON.stringify(saved,null,2));
-      message='Archive locale complète exportée : '+saved.profiles.length+
-        ' profils et '+saved.backups.length+' sauvegardes, sans clés API ni sessions.';
+      message='Archive locale complète exportée : '+saved.profiles.length+' profils, '+
+        saved.backups.length+' sauvegardes et '+saved.customFolders.length+
+        ' dossiers personnels, sans clés API ni sessions.';
     }catch(error){message='Archive locale impossible : '+error.message;}
     draw();
   }
@@ -205,32 +206,66 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     try{
       if(file.size>24*1024*1024)throw Error('Archive trop volumineuse (24 Mo maximum).');
       const parsed=JSON.parse(await file.text());
-      const safe=validateRecoveryPackage(parsed,data());
+      const custom=window.MaCollectionCustomFolders;
+      if(!custom?.readRecords||!custom?.validateRecord||!custom?.createFolder||!custom?.insertSavedFolders)
+        throw Error('Module de dossiers personnels indisponible. Recharge la page.');
+      // Préparer un catalogue de validation sans modifier le catalogue vivant.
+      // Évite de perdre des dossiers personnels absents sur le nouvel appareil.
+      const staged=data().map(c=>({...c,folders:[...(c.folders||[])]}));
+      const pending=Array.isArray(parsed.customFolders)?parsed.customFolders:[];
+      if(pending.length>100)throw Error('Trop de dossiers personnels');
+      for(const raw of pending){
+        const row=custom.validateRecord(raw);
+        if(!row)throw Error('Dossier personnel incompatible');
+        const cat=staged.find(c=>c.id===row.categoryId);
+        if(!cat)throw Error('Catégorie personnelle absente : '+row.categoryId);
+        if(!cat.folders.some(f=>f.id===row.id))cat.folders.push(custom.createFolder(row));
+      }
+      const safe=validateRecoveryPackage(parsed,staged,custom.validateRecord);
       const plan=planRecoveryMerge(profiles,safe.profiles);
+      const existingCustom=custom.readRecords();
+      const idMap=new Map(existingCustom.map(row=>[row.id,row]));
+      const newCustom=[];
+      for(const row of safe.customFolders){
+        if(idMap.has(row.id)){
+          if(JSON.stringify(idMap.get(row.id))!==JSON.stringify(row))
+            throw Error('Collision de dossier personnalisé : aucun dossier ne sera écrasé.');
+          continue;
+        }
+        idMap.set(row.id,row);newCustom.push(row);
+      }
+      if(idMap.size>100)throw Error('Limite de 100 dossiers personnels dépassée : aucune donnée modifiée.');
       const oldBackups=await backupStore.list();
       const known=new Set(oldBackups.map(x=>x.id));
       const nextBackups=safe.backups.filter(x=>!known.has(x.id));
       if(oldBackups.length+nextBackups.length>8)
         throw Error('Historique plein : exporte ou supprime des sauvegardes existantes avant import. Rien ne change.');
       if(!window.confirm('Importer '+plan.added+' profil(s), '+nextBackups.length+
-          ' sauvegarde(s) et charger le brouillon archivé ? Les profils existants ne seront pas écrasés.'))
-        return;
-      // Aucune donnée serveur, coffre, token, extension ni clé API importée.
-      const raw=JSON.stringify(plan.profiles);
-      localStorage.setItem(STORE,raw);
+          ' sauvegarde(s), '+newCustom.length+' dossier(s) personnel(s) et charger le brouillon ?'+
+          ' Les éléments existants ne seront pas écrasés.'))return;
+      const CUSTOM_KEY='ma_collection_custom_folders_v1';
+      const keys=[STORE,CUSTOM_KEY,FR_STORE];
+      const previous=keys.map(key=>localStorage.getItem(key));
+      try{
+        localStorage.setItem(STORE,JSON.stringify(plan.profiles));
+        localStorage.setItem(CUSTOM_KEY,JSON.stringify([...existingCustom,...newCustom]));
+        if(safe.frPack)localStorage.setItem(FR_STORE,JSON.stringify(safe.frPack));
+      }catch(error){
+        keys.forEach((key,i)=>{try{
+          if(previous[i]===null)localStorage.removeItem(key);
+          else localStorage.setItem(key,previous[i]);
+        }catch{}});
+        throw Error('Stockage local inaccessible : restauration annulée');
+      }
       profiles=plan.profiles;
       for(const entry of nextBackups)await backupStore.save(entry);
-      if(safe.frPack){
-        localStorage.setItem(FR_STORE,JSON.stringify(safe.frPack));
-        frPack=safe.frPack;
-        frStyle=frPack.styles[0]?.id||'';
-      }
-      draft=safe.draft;
-      pickSection();tab='profils';
+      if(safe.frPack){frPack=safe.frPack;frStyle=frPack.styles[0]?.id||'';}
+      custom.insertSavedFolders();
+      draft=safe.draft;pickSection();tab='profils';
       if(typeof window.applyTheme==='function')window.applyTheme(safe.theme);
       await refreshBackups();
-      message='Archive locale restaurée : '+plan.added+' profil(s) ajoutés et '+
-        nextBackups.length+' sauvegarde(s) ajoutées. Aucune modification appliquée aux catalogues.';
+      message='Archive locale restaurée : '+plan.added+' profils, '+nextBackups.length+
+        ' sauvegardes et '+newCustom.length+' dossiers personnels. Aucun changement appliqué aux catalogues.';
     }catch(error){message='Restauration refusée : '+error.message;}
     draw();
   }
