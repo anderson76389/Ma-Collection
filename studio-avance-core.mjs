@@ -9,16 +9,40 @@ export const STUDIO_FIELDS = Object.freeze([
   'coverImageUrl','heroBackdropUrl','titleLogoUrl','focusGifUrl'
 ]);
 export const STUDIO_SHAPES = Object.freeze(['POSTER','LANDSCAPE','SQUARE']);
-const banned = /(?:^|\.)kaptain\.stream$|^imkaptain\.github\.io$|^api\.nuvio\.tv$/i;
+// Les URL importées via profils ou packs français peuvent cacher un lien Kaptain
+// derrière un CDN, un proxy ou une URL encodée.
+const banned = /^api\.nuvio\.tv$/i;
+const OWN_ART_HOST = 'ma-art.mailpromahe.workers.dev';
+export function isKaptainHostedUrl(input) {
+  let url;
+  try { url = input instanceof URL ? input : new URL(String(input)); }
+  catch { return false; }
+  const host = url.hostname.toLowerCase();
+  if (host === 'kaptain.stream' || host.endsWith('.kaptain.stream') ||
+      host === 'imkaptain.github.io' || host.endsWith('.imkaptain.github.io') ||
+      (host === 'api.nuvio.tv' && /kaptain/i.test(url.pathname))) return true;
+  // "imkaptain.github.io" dans ce chemin est une étiquette d'archive locale.
+  if (host === OWN_ART_HOST) return false;
+  let locator = url.pathname + url.search + url.hash;
+  for (let i = 0; i < 3; i++) {
+    try {
+      const decoded = decodeURIComponent(locator);
+      if (decoded === locator) break;
+      locator = decoded;
+    } catch { break; }
+  }
+  // Couvre notamment GitHub, jsDelivr, GitHack et les proxies d'images.
+  const owner = new RegExp('(?:^|[/?&=:@])imkaptain(?:[/?&#=:@.]|$)', 'i');
+  const domain = new RegExp('(?:^|[^a-z0-9-])(?:[a-z0-9-]+[.])*kaptain[.]stream(?:[^a-z0-9-]|$)', 'i');
+  return owner.test(locator) || domain.test(locator);
+}
 export function assetUrl(value) {
   const raw = String(value ?? '').trim();
   if (!raw) return '';
   if (raw.length > 1700) throw Error('URL trop longue');
   let url;
   try { url = new URL(raw); } catch { throw Error('Adresse incorrecte'); }
-  if (url.protocol !== 'https:' || url.username || url.password || banned.test(url.hostname) ||
-      (['github.com','raw.githubusercontent.com','api.github.com'].includes(url.hostname.toLowerCase()) &&
-        /^\/(?:ImKaptain\/|repos\/ImKaptain\/)/i.test(url.pathname.slice(1) === '' ? '' : url.pathname)))
+  if (url.protocol !== 'https:' || url.username || url.password || banned.test(url.hostname) || isKaptainHostedUrl(url))
     throw Error('Image HTTPS indépendante requise (pas de lien Kaptain)');
   if (!/\.(?:jpe?g|png|webp|gif|avif|svg)(?:$|[?#])/i.test(url.pathname+url.search+url.hash) &&
       !url.hostname.endsWith('workers.dev'))
