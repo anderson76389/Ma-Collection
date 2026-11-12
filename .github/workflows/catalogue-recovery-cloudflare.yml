@@ -38,12 +38,12 @@ jobs:
         run: node services/catalogue-recovery-cloudflare/prepare-assets.mjs
       - name: Valider le bundle avec Wrangler officiel sans le publier
         run: |
-          npx --yes wrangler@4 deploy --dry-run --config services/catalogue-recovery-cloudflare/wrangler.toml --outdir /tmp/ma-collection-worker-build
+          npx --yes wrangler@4.156.0 deploy --dry-run --config services/catalogue-recovery-cloudflare/wrangler.toml --outdir /tmp/ma-collection-worker-build
       - name: Tester le véritable runtime Cloudflare en local (sans clé)
         shell: bash
         run: |
           set -euo pipefail
-          npx --yes wrangler@4 dev --local --config services/catalogue-recovery-cloudflare/wrangler.toml --ip 127.0.0.1 --port 18898 >/tmp/ma-collection-worker-dev.log 2>&1 &
+          npx --yes wrangler@4.156.0 dev --local --config services/catalogue-recovery-cloudflare/wrangler.toml --ip 127.0.0.1 --port 18898 >/tmp/ma-collection-worker-dev.log 2>&1 &
           worker_pid=$!
           trap 'kill "$worker_pid" 2>/dev/null || true' EXIT
           ready=0
