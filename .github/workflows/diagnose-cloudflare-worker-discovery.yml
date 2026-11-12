@@ -44,5 +44,15 @@ jobs:
             const relevant=names.filter(name=>/ma[-_ ]?collection|catalogue/i.test(name)).slice(0,15);
             console.log('WORKER_DISCOVERY endpoint='+endpoint+' http='+data.http+' success='+data.success+' count='+names.length+' exact_name_present='+names.includes('ma-collection-catalogues')+' candidate_names='+JSON.stringify(relevant)+' error_codes='+data.errors.join(','));
           }
+          const subdomain=await request('scripts/ma-collection/subdomain');
+          const config=subdomain.result&&typeof subdomain.result==='object'?subdomain.result:{};
+          console.log('WORKER_DISCOVERY script_subdomain_http='+subdomain.http+' success='+subdomain.success+' enabled='+String(config.enabled)+' previews_enabled='+String(config.previews_enabled)+' error_codes='+subdomain.errors.join(','));
+          for(const suffix of ['health','v1/status','']){
+            try{
+              const url='https://ma-collection.mailpromahe.workers.dev/'+suffix;
+              const response=await fetch(url,{method:'GET',signal:AbortSignal.timeout(10000),redirect:'manual'});
+              console.log('WORKER_DISCOVERY public_path='+JSON.stringify('/'+suffix)+' http='+response.status+' content_type='+(response.headers.get('content-type')||'none')+' server='+(response.headers.get('server')||'none'));
+            }catch(error){console.log('WORKER_DISCOVERY public_path='+JSON.stringify('/'+suffix)+' unavailable=true error='+error.name);}
+          }
           console.log('WORKER_DISCOVERY complete=true non_mutating=true');
           NODE
