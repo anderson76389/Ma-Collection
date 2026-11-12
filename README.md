@@ -246,3 +246,12 @@ Une sauvegarde portable ZIP de tous les fichiers versionnés est disponible chaq
 ## 🛡️ Reprise complète et provenance des catalogues
 
 Le [plan de reprise Ma-Collection / Ma-Art / Kovelyx](docs/PLAN_REPRISE_ET_CATALOGUES.md) détaille les sauvegardes locales du Studio, les exports D1 chiffrés, la restauration hors GitHub/Cloudflare et les catalogues encore sous le contrôle de tiers. L'audit des listes vérifie les vraies empreintes TMDB sans copier des listes Trakt appartenant à d'autres auteurs.
+
+### Service autonome de secours sur Cloudflare (sans Docker)
+
+Le dépôt contient un [Worker Cloudflare natif pour les listes TMDB archivées](services/catalogue-recovery-cloudflare/README.md).
+Il fournit en lecture seule les 261 listes sauvegardées à partir de ses propres
+Static Assets, avec contrôle SHA-256, **sans requête à Kaptain ni à TMDB** pour
+lire ces instantanés. Le déploiement est manuel et séparé des comptes Kovelyx
+et des affiches Ma-Art. Il ne remplace pas les sources actives : les métadonnées,
+la liste manquante, Trakt et les addons restent à traiter.
