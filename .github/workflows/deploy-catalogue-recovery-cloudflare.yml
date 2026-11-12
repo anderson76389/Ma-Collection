@@ -34,14 +34,21 @@ jobs:
             echo "::error::Configurer les secrets CLOUDFLARE_ACCOUNT_ID et CLOUDFLARE_API_TOKEN dans le depot Ma-Collection. Aucun déploiement."
             exit 2
           fi
-      - name: Valider absolument toutes les archives avant publication
+      - name: Valider toutes les archives et le vérificateur live avant publication
         run: |
-          node --test tests/cloudflare-catalogue-recovery.test.mjs
+          node --test tests/cloudflare-catalogue-recovery.test.mjs tests/cloudflare-verify-live.test.mjs
           node services/catalogue-recovery-cloudflare/prepare-assets.mjs
-      - name: Déployer un Worker séparé, jamais Kovelyx Cloud ou Ma-Art
+      - name: Déployer le seul Worker ma-collection-catalogues
+        shell: bash
         run: |
-          npx --yes wrangler@4.156.0 deploy --config services/catalogue-recovery-cloudflare/wrangler.toml
-      - name: Indiquer le chemin du test de production
+          set -euo pipefail
+          npx --yes wrangler@4.156.0 deploy --config services/catalogue-recovery-cloudflare/wrangler.toml 2>&1 | tee "$RUNNER_TEMP/ma-collection-worker-deploy.log"
+      - name: Contrôler le Worker en ligne et relire les 261 listes depuis Cloudflare
+        shell: bash
         run: |
-          echo "::notice::Consulter l'URL workers.dev dans les logs Wrangler, puis vérifier /health et /v1/tmdb/lists/8659010?limit=10."
+          set -euo pipefail
+          node services/catalogue-recovery-cloudflare/verify-live.mjs --deploy-log="$RUNNER_TEMP/ma-collection-worker-deploy.log"
+          echo "::notice::Déploiement vérifié à distance : les 261 listes correspondent aux archives Git et leurs fichiers internes sont protégés."
+      - name: Confirmer le périmètre du déploiement
+        run: |
           echo "::notice::Aucune modification de Ma-Collection, des catalogues actifs, du Worker de comptes Kovelyx ou du Worker des affiches Ma-Art."

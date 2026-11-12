@@ -71,3 +71,27 @@ Un Worker Cloudflare n'est pas une garantie de fonctionnement éternel :
 les règles, quotas et disponibilités du fournisseur peuvent changer.
 Conserve le service Docker déjà présent et des ZIP hors de GitHub/Cloudflare
 afin de pouvoir migrer vers un autre hébergeur en cas de panne.
+
+## Validation réelle après chaque publication (nouveau)
+
+Le workflow manuel conserve l'URL exacte `workers.dev` que Wrangler vient
+de publier. Il la vérifie avant de déclarer la publication réussie :
+
+- `/health` et `/v1/dependencies` doivent correspondre à l'inventaire Git ;
+- toutes les 261 listes sont **relues depuis le Worker public**, y compris
+  leurs différentes pages, avec comparaison **film/série, identifiant et ordre** ;
+- les empreintes annoncées doivent correspondre aux snapshots originaux ;
+- la liste 8690687 doit toujours signaler son absence (HTTP 503) ;
+- les fichiers internes `/_mc_data/*` doivent rester inaccessibles (HTTP 404) ;
+- le domaine doit correspondre exactement au Worker
+  `ma-collection-catalogues.*.workers.dev` publié par Wrangler.
+
+Si ces vérifications échouent, **l'action GitHub échoue** : ne pas interpréter
+le succès de `wrangler deploy` comme une preuve que les listes sont lisibles.
+Un déploiement accepté par Cloudflare peut néanmoins déjà être en ligne ;
+l'échec du contrôle n'annule pas automatiquement la publication.
+Aucun jeton n'est transmis à la vérification HTTP, et les profils Kovelyx ne
+sont jamais lus. Le workflow ne s'exécute toujours qu'avec `publish=true`.
+
+Si aucune exécution du workflow n'apparaît dans GitHub Actions, les fichiers
+et le Worker sont seulement **préparés dans le dépôt**, pas déployés en ligne.
