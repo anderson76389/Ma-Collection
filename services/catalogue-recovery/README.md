@@ -48,3 +48,26 @@ identifiants de médias de listes publiques, aucun profil personnel ni secret.
 Les tests sont intégrés à la CI. Garder également les sauvegardes Ma-Collection
 et Ma-Art ainsi que D1 chiffré hors GitHub/Cloudflare : ce serveur ne remplace
 pas les sauvegardes des profils et des comptes.
+
+## Déploiement Docker sur ton propre VPS ou ordinateur
+
+Depuis la racine du dépôt ou d'une copie restaurée contenant les archives :
+
+    docker compose -f services/catalogue-recovery/compose.yml up --build -d
+
+L'API est alors disponible sur http://127.0.0.1:8788/health depuis la
+machine qui exécute Docker. Le port publié est volontairement limité à
+127.0.0.1 : ne pas ouvrir directement ce service sur Internet.
+Pour un domaine public, installer un proxy HTTPS et son propre DNS,
+puis le relier au port loopback. Aucune connexion cloud n'est requise.
+
+Le conteneur tourne avec l'utilisateur non privilégié node, un système
+de fichiers en lecture seule, les capacités Linux supprimées et une limite
+de mémoire de 256 Mo dans compose. Le Dockerfile ne copie que les 20 fichiers
+de collections JSON, les instantanés TMDB et les trois scripts nécessaires.
+L'image n'inclut pas le Studio, les comptes Kovelyx ou des clés secrètes.
+
+Le workflow 'Vérifier l'autohébergement Docker des listes TMDB' construit
+l'image dans GitHub Actions et teste ses réponses HTTP avec les vrais IDs.
+Après une mise à jour des archives, reconstruire le conteneur et vérifier
+son statut ; les snapshots ne sont jamais actualisés par des requêtes à TMDB.
