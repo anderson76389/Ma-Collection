@@ -44,7 +44,7 @@ export async function awaitPublicHealth(origin,fetcher=fetch,options={}){
         method:'GET',cache:'no-store',redirect:'error',
         signal:AbortSignal.timeout(12000)
       });
-      if(response.status===200 && /application\\/json/i.test(response.headers.get('content-type')||'')){
+      if(response.status===200 && (response.headers.get('content-type')||'').toLowerCase().includes('application/json')){
         const body=await response.json();
         if(body.service==='ma-collection-offline-tmdb-recovery')return true;
         last='the requested Worker service is not active';
