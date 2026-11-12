@@ -4,7 +4,7 @@ import {listStudioArtworks,searchStudioArtworks,useStudioArtwork} from '../studi
 import {studioFolderKey,studioTidy,studioApplyBatch} from '../studio-workshop-core.mjs';
 import assert from 'node:assert/strict';
 import {
-  assetUrl,captureDraft,validateDraft,applyDraft,originalsFor,decorateExport,previewLayout,searchDraft,captureStudioUndo,restoreStudioUndo,compareStudioDrafts,STUDIO_SHAPES
+  assetUrl,isKaptainHostedUrl,captureDraft,validateDraft,applyDraft,originalsFor,decorateExport,previewLayout,searchDraft,captureStudioUndo,restoreStudioUndo,compareStudioDrafts,STUDIO_SHAPES
 } from '../studio-avance-core.mjs';
 
 function fixture(){
@@ -389,4 +389,32 @@ test('Packs FR : dossier absent ignoré, et GIF inchangé si non fourni',()=>{
   assert.equal(x.changed,1);
   assert.equal(draft.sections[0].folders[0].artwork.focusGifUrl,original.artwork.focusGifUrl);
   assert.equal(draft.sections[0].folders[0].shape,original.shape);
+});
+
+test('Indépendance : le Studio refuse les CDN et proxies renvoyant vers Kaptain',()=>{
+  const denied=[
+    'https://kaptain.stream/poster.jpg',
+    'https://art.kaptain.stream/poster.jpg',
+    'https://imkaptain.github.io/images/poster.png',
+    'https://raw.githubusercontent.com/ImKaptain/Kaptain-Collection/main/poster.png',
+    'https://api.github.com/repos/ImKaptain/Kaptain-Collection/contents/poster.png',
+    'https://cdn.jsdelivr.net/gh/ImKaptain/Kaptain-Collection@main/poster.png',
+    'https://cdn.jsdelivr.net/gh/%49mKaptain/Kaptain-Collection/poster.webp',
+    'https://raw.githack.com/ImKaptain/Kaptain-Collection/main/poster.webp',
+    'https://images.weserv.nl/?url=https%3A%2F%2Fkaptain.stream%2Fposter.jpg',
+    'https://images.weserv.nl/?url=https%253A%252F%252Fimkaptain.github.io%252Fposter.jpg'
+  ];
+  for(const link of denied){
+    assert.equal(isKaptainHostedUrl(link),true,link);
+    assert.throws(()=>assetUrl(link),/Kaptain/,link);
+  }
+  const allowed=[
+    'https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/poster.webp',
+    'https://image.tmdb.org/t/p/original/poster.jpg',
+    'https://raw.githubusercontent.com/anderson76389/Ma-Collection/main/assets/poster.png'
+  ];
+  for(const link of allowed){
+    assert.equal(isKaptainHostedUrl(link),false,link);
+    assert.equal(assetUrl(link),link);
+  }
 });
