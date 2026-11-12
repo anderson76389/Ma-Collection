@@ -1,0 +1,19 @@
+services:
+  catalogue-recovery:
+    build:
+      context: ../..
+      dockerfile: services/catalogue-recovery/Dockerfile
+    restart: unless-stopped
+    read_only: true
+    user: node
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    ports:
+      - "127.0.0.1:8788:8788"
+    environment:
+      HOST: 0.0.0.0
+      PORT: "8788"
+    mem_limit: 256m
+    pids_limit: 64
