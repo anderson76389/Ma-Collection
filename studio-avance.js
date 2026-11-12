@@ -8,6 +8,7 @@ import {createStudioBackupStore,makeStudioBackup} from './studio-backups.mjs';
 import {studioFolderKey,studioTidy,studioApplyBatch} from './studio-workshop-core.mjs';
 import {listStudioArtworks,searchStudioArtworks,useStudioArtwork} from './studio-art-library.mjs';
 import {frenchPackTemplate,validateFrenchPack,planFrenchPack,applyFrenchPack} from './studio-fr-art.mjs';
+import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './studio-recovery-core.mjs';
 
 /* Atelier indépendant : thème existant conservé, aucune connexion à Kaptain. */
 (() => {
@@ -181,6 +182,57 @@ import {frenchPackTemplate,validateFrenchPack,planFrenchPack,applyFrenchPack} fr
       download('ma-collection-profil-'+slug+'.json',JSON.stringify(safe,null,2));
       message='Fichier de préréglage téléchargé (sans clé API ni mot de passe).';draw();
     }catch(e){message=e.message;draw();}
+  }
+  async function exportAllRecovery(){
+    try{
+      // Chargement direct d'IndexedDB : ne jamais annoncer une archive complète
+      // si la lecture des sauvegardes locales a échoué.
+      const history=await backupStore.list();
+      const saved=buildRecoveryPackage({
+        draft,profiles,backups:history,
+        theme:localStorage.getItem('ma_collection_theme')||'dark',
+        frPack
+      },data());
+      download('ma-collection-sauvegarde-complete-'+saved.createdAt.slice(0,10)+'.json',
+        JSON.stringify(saved,null,2));
+      message='Archive locale complète exportée : '+saved.profiles.length+
+        ' profils et '+saved.backups.length+' sauvegardes, sans clés API ni sessions.';
+    }catch(error){message='Archive locale impossible : '+error.message;}
+    draw();
+  }
+  async function importAllRecovery(file){
+    if(!file)return;
+    try{
+      if(file.size>24*1024*1024)throw Error('Archive trop volumineuse (24 Mo maximum).');
+      const parsed=JSON.parse(await file.text());
+      const safe=validateRecoveryPackage(parsed,data());
+      const plan=planRecoveryMerge(profiles,safe.profiles);
+      const oldBackups=await backupStore.list();
+      const known=new Set(oldBackups.map(x=>x.id));
+      const nextBackups=safe.backups.filter(x=>!known.has(x.id));
+      if(oldBackups.length+nextBackups.length>8)
+        throw Error('Historique plein : exporte ou supprime des sauvegardes existantes avant import. Rien ne change.');
+      if(!window.confirm('Importer '+plan.added+' profil(s), '+nextBackups.length+
+          ' sauvegarde(s) et charger le brouillon archivé ? Les profils existants ne seront pas écrasés.'))
+        return;
+      // Aucune donnée serveur, coffre, token, extension ni clé API importée.
+      const raw=JSON.stringify(plan.profiles);
+      localStorage.setItem(STORE,raw);
+      profiles=plan.profiles;
+      for(const entry of nextBackups)await backupStore.save(entry);
+      if(safe.frPack){
+        localStorage.setItem(FR_STORE,JSON.stringify(safe.frPack));
+        frPack=safe.frPack;
+        frStyle=frPack.styles[0]?.id||'';
+      }
+      draft=safe.draft;
+      pickSection();tab='profils';
+      if(typeof window.applyTheme==='function')window.applyTheme(safe.theme);
+      await refreshBackups();
+      message='Archive locale restaurée : '+plan.added+' profil(s) ajoutés et '+
+        nextBackups.length+' sauvegarde(s) ajoutées. Aucune modification appliquée aux catalogues.';
+    }catch(error){message='Restauration refusée : '+error.message;}
+    draw();
   }
   async function importProfile(file){
     if(!file)return;
@@ -687,8 +739,11 @@ import {frenchPackTemplate,validateFrenchPack,planFrenchPack,applyFrenchPack} fr
       '<div class="mc-studio-column"><div class="mc-studio-heading"><strong>Mes profils sauvegardés</strong>'+badge(profiles.length+'/'+STUDIO_LIMIT)+'</div>'+
       '<div class="mc-studio-scroll">'+(p||'<p class="mc-studio-muted">Aucun profil sauvegardé.</p>')+'</div>'+
       '<div class="mc-studio-actions-grid">'+button('Exporter ce profil (.json)','export')+
-      button('Importer un profil (.json)','import')+'</div>'+
+      button('Importer un profil (.json)','import')+
+      button('Tout sauvegarder (.json)','export-all')+
+      button('Restaurer une archive (.json)','restore-all')+'</div>'+
       '<input data-file type="file" accept="application/json,.json" hidden>'+
+      '<input data-recovery-file type="file" accept="application/json,.json" hidden>'+
       '<p class="mc-studio-hint">L’export et l’import transportent tes préférences vers un autre appareil. Ils ne modifient pas les comptes des applications.</p></div></div>'+backupsHtml;
   }
   function draw(){
@@ -743,6 +798,7 @@ import {frenchPackTemplate,validateFrenchPack,planFrenchPack,applyFrenchPack} fr
         if(el.checked)set.add(key);else set.delete(key);
         f.selectedKeys=[...set];f.enabled=set.size>0;draw();return;
       }
+      if(el.matches('[data-recovery-file]')){importAllRecovery(el.files[0]);el.value='';return;}
       if(el.matches('[data-file]')){importProfile(el.files[0]);el.value='';}
     }catch(error){message=error.message;draw();}
   }
@@ -922,6 +978,8 @@ import {frenchPackTemplate,validateFrenchPack,planFrenchPack,applyFrenchPack} fr
     else if(a==='reset')reset();
     else if(a==='load-profile')choose(id);
     else if(a==='export')exportProfile();
+    else if(a==='export-all')exportAllRecovery();
+    else if(a==='restore-all')root.querySelector('[data-recovery-file]')?.click();
     else if(a==='import')root.querySelector('[data-file]')?.click();
     else if(a==='create-folder'){
       if(window.MaCollectionCustomFolders?.open){
