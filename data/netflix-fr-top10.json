@@ -2,12 +2,12 @@
   "schema": 1,
   "source": "https://www.netflix.com/tudum/top10/data/all-weeks-countries.tsv",
   "country": "FR",
-  "week": "2026-11-01",
+  "week": "2026-11-08",
   "films": [
     {
       "rank": 1,
-      "title": "Le clan",
-      "tmdb_id": null
+      "title": "Ninho: Fame Ain’t Worth It",
+      "tmdb_id": 1816668
     },
     {
       "rank": 2,
@@ -16,17 +16,17 @@
     },
     {
       "rank": 3,
-      "title": "Comme des Riches",
-      "tmdb_id": 1261605
+      "title": "Mon garçon",
+      "tmdb_id": 451646
     },
     {
       "rank": 4,
-      "title": "Surviving Hurricane Otis",
-      "tmdb_id": 1780005
+      "title": "Heist",
+      "tmdb_id": null
     },
     {
       "rank": 5,
-      "title": "The Guardian",
+      "title": "Le clan",
       "tmdb_id": null
     },
     {
@@ -36,23 +36,23 @@
     },
     {
       "rank": 7,
+      "title": "Retribution",
+      "tmdb_id": null
+    },
+    {
+      "rank": 8,
       "title": "The Bad Guys 2",
       "tmdb_id": 1175942
     },
     {
-      "rank": 8,
-      "title": "Untouchable",
-      "tmdb_id": null
-    },
-    {
       "rank": 9,
-      "title": "Animals",
+      "title": "My Best Friend",
       "tmdb_id": null
     },
     {
       "rank": 10,
-      "title": "Mon garçon",
-      "tmdb_id": 451646
+      "title": "Pídeme lo que quieras",
+      "tmdb_id": 1252309
     }
   ],
   "series": [
@@ -64,57 +64,57 @@
     },
     {
       "rank": 2,
-      "title": "Djadel Show",
-      "season": "Djadel Show: Season 2",
-      "tmdb_id": 339290
-    },
-    {
-      "rank": 3,
-      "title": "Lupin",
-      "season": "Lupin: Part 1",
-      "tmdb_id": null
-    },
-    {
-      "rank": 4,
-      "title": "Lupin",
-      "season": "Lupin: Part 3",
-      "tmdb_id": null
-    },
-    {
-      "rank": 5,
-      "title": "Lupin",
-      "season": "Lupin: Part 2",
-      "tmdb_id": null
-    },
-    {
-      "rank": 6,
-      "title": "The One About Matthew Perry",
-      "season": "The One About Matthew Perry: Season 1",
-      "tmdb_id": 333533
-    },
-    {
-      "rank": 7,
-      "title": "Nobody Wants This",
-      "season": "Nobody Wants This: Season 3",
-      "tmdb_id": 250923
-    },
-    {
-      "rank": 8,
-      "title": "Dead-End Job",
-      "season": "Dead-End Job: Limited Series",
-      "tmdb_id": 289517
-    },
-    {
-      "rank": 9,
       "title": "A Couple of Lies",
       "season": "A Couple of Lies: Limited Series",
       "tmdb_id": 336240
     },
     {
-      "rank": 10,
-      "title": "Below",
-      "season": "Below: Limited Series",
+      "rank": 3,
+      "title": "Djadel Show",
+      "season": "Djadel Show: Season 2",
+      "tmdb_id": 339290
+    },
+    {
+      "rank": 4,
+      "title": "Anne Rice's Mayfair Witches",
+      "season": "Anne Rice's Mayfair Witches: Season 1",
       "tmdb_id": null
+    },
+    {
+      "rank": 5,
+      "title": "Dead-End Job",
+      "season": "Dead-End Job: Limited Series",
+      "tmdb_id": 289517
+    },
+    {
+      "rank": 6,
+      "title": "Taken: Natalee Holloway",
+      "season": "Taken: Natalee Holloway: Season 1",
+      "tmdb_id": 338684
+    },
+    {
+      "rank": 7,
+      "title": "Lupin",
+      "season": "Lupin: Part 3",
+      "tmdb_id": null
+    },
+    {
+      "rank": 8,
+      "title": "Lupin",
+      "season": "Lupin: Part 1",
+      "tmdb_id": null
+    },
+    {
+      "rank": 9,
+      "title": "The Rainmaker",
+      "season": "The Rainmaker: Season 1",
+      "tmdb_id": 256711
+    },
+    {
+      "rank": 10,
+      "title": "Black Doves",
+      "season": "Black Doves: Season 2",
+      "tmdb_id": 225385
     }
   ]
 }
