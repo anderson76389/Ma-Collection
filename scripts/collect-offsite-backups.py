@@ -33,17 +33,18 @@ def choose_artifact(artifacts,expected):
     return max(valid,key=lambda a:(a.get("created_at",""),int(a["id"]))) if valid else None
 
 def artifact_for(repo,expected):
+    """Retrouver le dernier backup réellement réussi, même si un run plus récent a échoué."""
     for page in range(1,11):
         response=json.loads(gh("api",f"repos/{repo}/actions/artifacts?per_page=100&page={page}"))
         artifacts=response.get("artifacts",[])
         if not isinstance(artifacts,list):raise RuntimeError("Liste d'artefacts invalide.")
-        selected=choose_artifact(artifacts,expected)
-        if selected:
+        candidates=[a for a in artifacts if choose_artifact([a],expected)]
+        candidates.sort(key=lambda a:(a.get("created_at",""),int(a["id"])),reverse=True)
+        for selected in candidates:
             run_id=int(selected["workflow_run"]["id"])
             run=json.loads(gh("api",f"repos/{repo}/actions/runs/{run_id}"))
-            if run.get("status")!="completed" or run.get("conclusion")!="success":
-                raise RuntimeError("Le dernier artifact existe mais sa validation a échoué : "+repo)
-            return selected
+            if run.get("status")=="completed" and run.get("conclusion")=="success":
+                return selected
         if len(artifacts)<100:break
     return None
 
