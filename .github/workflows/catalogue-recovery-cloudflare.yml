@@ -59,7 +59,7 @@ jobs:
             tail -40 /tmp/ma-collection-worker-dev.log
             exit 1
           fi
-          node -e 'const h=require("/tmp/ma-collection-worker-health");if(h.available!==261||h.expected!==262||h.complete!==false||h.network_required!==false)process.exit(1)'
+          node -e 'const h=JSON.parse(require("node:fs").readFileSync("/tmp/ma-collection-worker-health","utf8"));if(h.available!==261||h.expected!==262||h.complete!==false||h.network_required!==false)process.exit(1)'
           curl --fail --silent 'http://127.0.0.1:18898/v1/tmdb/lists/8659010?limit=10' \
             | node -e 'let s="";process.stdin.on("data",x=>s+=x).on("end",()=>{const v=JSON.parse(s);if(v.list_id!==8659010||v.items.length!==10||v.original_order_preserved!==true)process.exit(1)})'
           missing="$(curl --silent --output /tmp/ma-collection-worker-missing --write-out '%{http_code}' http://127.0.0.1:18898/v1/tmdb/lists/8690687)"
