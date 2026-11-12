@@ -7,6 +7,13 @@ on:
         required: true
         default: false
         description: "Je confirme le déploiement du Worker ma-collection-catalogues sur mon compte Cloudflare"
+  # Une seule publication explicitement demandée par le propriétaire,
+  # déclenchée uniquement par le commit de fusion marqué ci-dessous.
+  # Les autres push restent sans déploiement.
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/deploy-catalogue-recovery-cloudflare.yml'
 permissions:
   contents: read
 concurrency:
@@ -14,7 +21,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   deploy:
-    if: ${{ inputs.publish }}
+    if: ${{ (github.event_name == 'workflow_dispatch' && inputs.publish == true) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[publish-inline-catalogues-once-20261112]')) }}
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     env:
