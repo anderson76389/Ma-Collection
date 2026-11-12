@@ -10,7 +10,7 @@ n'est déclenchée par la lecture de ce document.
 |---|---|---|
 | Ma-Collection (HTML, JavaScript, CSS, 20 collections) | ZIP portable SHA-256, 953 fichiers, premier artifact du 12/11 | Test de restauration + navigateur sans Internet, export Kovelyx |
 | Ma-Art (images, GIF, logos, bannières) | 2 768 copies privées / CDN vérifiées le 09/11 | Test de staging statique sans réseau, support des mêmes chemins ; un ancien média historique manque |
-| Studio (profils, galerie, historique) | Boutons « Tout sauvegarder » / « Restaurer une archive » | JSON local validé, profils non écrasés ; sauvegardes internes limitées à 8 |
+| Studio (profils, galerie, historique) | Boutons « Tout sauvegarder » / « Restaurer une archive » | JSON local validé, profils et dossiers personnels non écrasés ; sauvegardes internes limitées à 8 |
 | Kovelyx Cloudflare D1 | Export quotidien **chiffré** déjà existant dans Kovelyx | Dernière archive vérifiée du 11/11, restauration SQLite en mémoire dans CI ; vraie clé privée du propriétaire nécessaire |
 | Listes TMDB | 261/262 instantanés de listes publiques à la dernière vérification | Ni propriété des listes ni changement des sources actives prouvés |
 | Listes Trakt | Références présentes, pas d'archive de tiers autorisée | Réécriture uniquement depuis les listes créées ou exportées légitimement par le propriétaire |
@@ -21,7 +21,7 @@ n'est déclenchée par la lecture de ce document.
 1. Depuis **Actions → Sauvegarde portable Ma-Collection (sans Kaptain)**, télécharger le dernier ZIP après succès.
 2. Depuis le dépôt privé **Ma-Art → Actions → Export privé complet Ma-Art**, lancer une archive puis la récupérer (environ 1,38 Go ; workflow manuel et quota GitHub à surveiller).
 3. Dans le dépôt Kovelyx, télécharger l'**archive D1 chiffrée** du dernier workflow réussi. Conserver **hors GitHub** sa clé privée de récupération, et le secret Better Auth dans un coffre indépendant : aucun de ces secrets n'est inclus dans le ZIP. Ne jamais les commiter ou les transmettre à ChatGPT.
-4. Dans le site Ma-Collection, ouvrir **Studio → Profils & sauvegardes → Tout sauvegarder (.json)**. Conserver le fichier localement. Il rassemble le brouillon, les profils sauvegardés, jusqu'à 8 historiques, les packs FR et le thème. Aucune clé API ou session n'est incluse.
+4. Dans le site Ma-Collection, ouvrir **Studio → Profils & sauvegardes → Tout sauvegarder (.json)**. Conserver le fichier localement. Il rassemble le brouillon, les profils sauvegardés, jusqu'à 8 historiques, les dossiers TMDB personnels, les packs FR et le thème. Aucune clé API ou session n'est incluse.
 5. Conserver deux copies indépendantes, dont au moins une hors des comptes GitHub et Cloudflare. Refaire un essai de restauration périodique.
 
 **ATTENTION :** Les mots de passe, clés API et le coffre chiffré du navigateur
