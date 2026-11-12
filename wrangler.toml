@@ -1,0 +1,13 @@
+# Le Worker Cloudflare connecté à ce dépôt doit servir les catalogues.
+# Le site Ma-Collection reste sur GitHub Pages (index.html, app.js, studio).
+# Les builds Cloudflare automatiques à la racine et les déploiements manuels
+# des catalogues publient ainsi le même code, sans écraser les routes /v1.
+name = "ma-collection"
+main = "./services/catalogue-recovery-cloudflare/worker-inline.mjs"
+compatibility_date = "2026-10-30"
+workers_dev = true
+
+# Cloudflare Workers Builds lance par défaut "npx wrangler deploy" à la racine.
+# Générer les 261 snapshots avant qu'esbuild ne résolve l'import ESM.
+[build]
+command = "node services/catalogue-recovery-cloudflare/prepare-inline.mjs"
