@@ -83,15 +83,8 @@ async function verifyItems(body,entry){
 
 export default {
   async fetch(request,env){
-    if(request.method==='OPTIONS')return new Response(null,{
-      status:204,headers:{
-        'Access-Control-Allow-Origin':'*',
-        'Access-Control-Allow-Methods':'GET, HEAD, OPTIONS',
-        'Access-Control-Allow-Headers':'Content-Type'
-      }
-    });
-    if(!['GET','HEAD'].includes(request.method))
-      return respond(request,405,{error:'lecture_seule'});
+    // Contrôler le chemin AVANT le préflight : ne pas annoncer le CORS
+    // sur les fichiers internes ou toute route inexistante.
     if(request.url.length>2048)
       return respond(request,414,{error:'url_trop_longue'});
     const url=new URL(request.url);
@@ -100,6 +93,18 @@ export default {
     const path=url.pathname;
     const route=path==='/health'||path==='/v1/status'||
       path==='/v1/dependencies'||path==='/v1/tmdb/lists'||idPath.test(path);
+    if(request.method==='OPTIONS'){
+      if(!route)return respond(request,404,{error:'route_inconnue'});
+      return new Response(null,{
+        status:204,headers:{
+          'Access-Control-Allow-Origin':'*',
+          'Access-Control-Allow-Methods':'GET, HEAD, OPTIONS',
+          'Access-Control-Allow-Headers':'Content-Type'
+        }
+      });
+    }
+    if(!['GET','HEAD'].includes(request.method))
+      return respond(request,405,{error:'lecture_seule'});
     if(!route)return respond(request,404,{error:'route_inconnue'});
 
     let manifest;
