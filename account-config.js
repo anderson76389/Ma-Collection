@@ -18,10 +18,16 @@
   try { stored = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null"); } catch (_) {}
   const userConfig = window.MA_COLLECTION_ACCOUNT || {};
   let cloudUrl = DEFAULT_CLOUD;
-  if (stored && Object.hasOwn(stored, "cloudUrl")) {
-    cloudUrl = stored.cloudUrl ? normalize(stored.cloudUrl) : "";
-  } else if (userConfig.cloudUrl) {
-    cloudUrl = normalize(userConfig.cloudUrl);
+  // Une ancienne valeur de stockage incorrecte ou altérée ne doit jamais
+  // empêcher le chargement du site, du Studio et du mode local.
+  try {
+    if (stored && Object.hasOwn(stored, "cloudUrl")) {
+      cloudUrl = stored.cloudUrl ? normalize(stored.cloudUrl) : "";
+    } else if (userConfig.cloudUrl) {
+      cloudUrl = normalize(userConfig.cloudUrl);
+    }
+  } catch (_) {
+    cloudUrl = DEFAULT_CLOUD;
   }
   window.MA_COLLECTION_ACCOUNT = Object.assign({}, userConfig, { enabled: userConfig.enabled !== false, cloudUrl });
   window.MaCollectionBackendConfig = Object.freeze({
