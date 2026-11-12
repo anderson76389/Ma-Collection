@@ -54,5 +54,19 @@ jobs:
               console.log('WORKER_DISCOVERY public_path='+JSON.stringify('/'+suffix)+' http='+response.status+' content_type='+(response.headers.get('content-type')||'none')+' server='+(response.headers.get('server')||'none'));
             }catch(error){console.log('WORKER_DISCOVERY public_path='+JSON.stringify('/'+suffix)+' unavailable=true error='+error.name);}
           }
+          const deployments=await request('scripts/ma-collection/deployments');
+          const entries=Array.isArray(deployments.result?.deployments)?deployments.result.deployments:[];
+          console.log('WORKER_DISCOVERY deployments_http='+deployments.http+' success='+deployments.success+' count='+entries.length+
+            ' active_version_ids='+JSON.stringify((entries[0]?.versions||[]).map(v=>({id:v.version_id,percentage:v.percentage})))+
+            ' latest_source='+(entries[0]?.source||'none')+' latest_created_on='+(entries[0]?.created_on||'none'));
+          try{
+            const root=await fetch('https://ma-collection.mailpromahe.workers.dev/',{
+              method:'GET',signal:AbortSignal.timeout(10000)
+            });
+            const html=await root.text();
+            const title=(html.match(/<title[^>]*>([^<]*)<\\/title>/i)?.[1]||'').trim().slice(0,100);
+            console.log('WORKER_DISCOVERY public_root_title='+JSON.stringify(title)+
+              ' root_length='+html.length+' root_http='+root.status);
+          }catch(e){console.log('WORKER_DISCOVERY root_body_read_error='+e.name)}
           console.log('WORKER_DISCOVERY complete=true non_mutating=true');
           NODE
