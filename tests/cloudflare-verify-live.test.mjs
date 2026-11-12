@@ -10,7 +10,7 @@ import {originFromDeployOutput,validatedOrigin,verifyLive} from '../services/cat
 import {loadEmergencyInputs,emergencyRecovery} from '../scripts/build-emergency-catalogue.mjs';
 
 if(!globalThis.crypto)globalThis.crypto=webcrypto;
-const domain='https://ma-collection-catalogues.exemple.workers.dev';
+const domain='https://ma-collection.exemple.workers.dev';
 let root,archive,env;
 const calls=[];
 before(async()=>{
@@ -45,15 +45,15 @@ test('lire uniquement le workers.dev déployé, jamais un lien arbitraire ou un 
   assert.equal(originFromDeployOutput(text),domain);
   assert.equal(originFromDeployOutput('\u001b[32m'+domain+'\u001b[0m'),domain);
   for(const invalid of [
-    'https://evil.example','https://ma-collection-catalogues.attacker.workers.dev.evil.com',
-    'https://ma-collection-catalogues.foo.workers.dev/path',
-    'https://ma-collection-catalogues.foo.workers.dev?secret=yes',
-    'http://ma-collection-catalogues.foo.workers.dev',
-    'https://ma-collection-catalogues.foo.workers.dev@evil.com'
+    'https://evil.example','https://ma-collection.attacker.workers.dev.evil.com',
+    'https://ma-collection.foo.workers.dev/path',
+    'https://ma-collection.foo.workers.dev?secret=yes',
+    'http://ma-collection.foo.workers.dev',
+    'https://ma-collection.foo.workers.dev@evil.com'
   ])assert.throws(()=>validatedOrigin(invalid));
   assert.throws(()=>originFromDeployOutput('Build complete, no live URL'));
-  assert.throws(()=>originFromDeployOutput('https://ma-collection-catalogues.foo.workers.dev.evil.example'));
-  assert.throws(()=>originFromDeployOutput(domain+' '+ 'https://ma-collection-catalogues.autre.workers.dev'));
+  assert.throws(()=>originFromDeployOutput('https://ma-collection.foo.workers.dev.evil.example'));
+  assert.throws(()=>originFromDeployOutput(domain+' '+ 'https://ma-collection.autre.workers.dev'));
 
 });
 
