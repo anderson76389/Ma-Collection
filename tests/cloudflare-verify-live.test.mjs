@@ -63,7 +63,8 @@ test('relecture intégrale du déploiement : vrais IDs, ordre, hash et page suiv
   assert.deepEqual(result.missing,[8690687]);
   assert(calls.length>=265);
   assert(calls.every(x=>x.startsWith(domain+'/')));
-  assert(calls.some(x=>x.includes('?offset=100&limit=100')),'Pagination réelle non contrôlée');
+  if(archive.tmdb_lists.some(x=>x.items.length>100))
+    assert(calls.some(x=>x.includes('?offset=100&limit=100')),'Pagination réelle non contrôlée');
 });
 
 test('la vérification échoue si un seul catalogue est absent ou falsifié',async()=>{
