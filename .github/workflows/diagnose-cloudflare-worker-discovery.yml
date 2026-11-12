@@ -64,8 +64,7 @@ jobs:
               method:'GET',signal:AbortSignal.timeout(10000)
             });
             const html=await root.text();
-            const title=(html.match(/<title[^>]*>([^<]*)<\\/title>/i)?.[1]||'').trim().slice(0,100);
-            console.log('WORKER_DISCOVERY public_root_title='+JSON.stringify(title)+
+            console.log('WORKER_DISCOVERY public_root_preview='+JSON.stringify(html.slice(0,90))+
               ' root_length='+html.length+' root_http='+root.status);
           }catch(e){console.log('WORKER_DISCOVERY root_body_read_error='+e.name)}
           console.log('WORKER_DISCOVERY complete=true non_mutating=true');
