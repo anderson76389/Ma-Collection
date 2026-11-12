@@ -100,3 +100,26 @@ pas une preuve d'autonomie absolue.
 Le terme **« indépendant à vie » n'est pas une garantie technique possible** :
 les copies restaurables, les droits d'utilisation et les clés personnelles
 doivent rester disponibles et être régulièrement vérifiés.
+
+## Export de secours TMDB regroupé (nouveau)
+
+Le workflow **Audit de provenance des catalogues** génère maintenant aussi
+l'artefact `ma-collection-recovery.json` avec les 261 listes TMDB archivées :
+pour chacune, il contient les IDs TMDB films/séries **dans leur ordre original**,
+les dossiers et sources qui l'utilisent, et une empreinte SHA-256 vérifiée.
+Il indique explicitement toute archive absente, et conserve un inventaire des
+références Trakt et addons **non archivées**.
+
+Génération hors connexion depuis une copie du dépôt :
+
+```bash
+node --test tests/emergency-catalogue.test.mjs
+node scripts/build-emergency-catalogue.mjs --output=/tmp/ma-collection-recovery.json
+```
+
+Ce fichier est utile pour reconstruire un catalogue dont la liste TMDB
+d'origine a disparu. **Il ne remplace pas une API de catalogue** : Kovelyx
+ne doit pas basculer vers cet export avant l'existence d'un service local
+compatible, avec validation du contenu, de l'ordre et des identifiants.
+En particulier, l'export n'inclut pas les contenus des listes Trakt
+ou des addons tiers. Il ne transforme pas 261 copies en 262 copies.

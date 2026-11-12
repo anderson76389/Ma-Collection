@@ -26,6 +26,7 @@ jobs:
       - name: Tester sauvegardes et restauration sans dépendance externe
         run: |
           python3 -m unittest discover -s tests -p test_portable_backup.py -v
+          python3 -m unittest discover -s tests -p test_collect_offsite_backups.py -v
           python3 -m unittest discover -s tests -p test_rehost_ma_art.py -v
       - name: Vérifier l'inventaire des médias sans téléchargement
         run: |
@@ -46,6 +47,8 @@ jobs:
           node --test tests/kaptain-url-security.test.mjs
           node --test tests/studio-recovery.test.mjs
           node --test tests/catalogue-provenance.test.mjs
+          node --test tests/emergency-catalogue.test.mjs
+          node scripts/build-emergency-catalogue.mjs --output=/tmp/ma-collection-recovery.json
           node scripts/audit-catalogue-provenance.mjs
           node --test tests/custom-folders.test.cjs
       - name: Installer le navigateur de test
