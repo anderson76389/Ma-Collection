@@ -108,3 +108,32 @@ Les tests CI incluent :
 Ce résultat **ne promet pas** l'éternité de GitHub/Cloudflare, des listes ou
 des services Internet ; il permet de conserver et restaurer les fichiers
 dont tu possèdes une vraie copie.
+
+## Télécharger les trois sauvegardes sur ton ordinateur, avec contrôle
+
+Depuis un PC Windows, Linux ou macOS où Python 3.10+ et GitHub CLI sont
+installés, exécuter une fois `gh auth login` (depuis ton PC, **jamais dans
+un chat**). Ensuite, depuis la copie locale de Ma-Collection :
+
+```powershell
+python scripts/collect-offsite-backups.py --destination "E:\Sauvegardes\Ma-Collection"
+```
+
+Remplacer `E:` par le vrai disque ou dossier de sauvegarde voulu.
+Le script récupère les derniers artifacts **non expirés et issus d'une
+exécution réussie**, dans Ma-Collection, Ma-Art privé et Kovelyx.
+Il vérifie les deux ZIP du site et des images, ainsi que le hash
+de la sauvegarde D1 chiffrée. Il produit `CONTROLE-SAUVEGARDE.json`
+avec les empreintes de tous les fichiers réellement téléchargés.
+Il ne déchiffre jamais la D1 (la clé privée reste sur l'ordinateur)
+et n'exporte pas les secrets Better Auth ou les profils du navigateur.
+
+**Ma-Art doit avoir été exporté manuellement au moins une fois**, sinon
+le script signale son absence plutôt que d'afficher une fausse sauvegarde
+complète. Pour récupérer le site et la D1 malgré cette absence,
+ajouter `--allow-missing` ; le rapport restera explicitement incomplet.
+
+Ne pas supprimer les anciennes copies hors ligne sans vérification.
+Une vraie reprise de compte nécessite aussi la **clé privée D1**,
+le **secret Better Auth**, les **exports du Studio** et les fichiers
+éventuellement ajoutés par l'utilisateur en dehors des dépôts Git.
