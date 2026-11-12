@@ -145,3 +145,21 @@ pas les titres, affiches ou vidéos. La synchronisation native avec Kovelyx et
 les lecteurs nécessitera un adaptateur explicitement testé, avant toute
 migration. Des tests HTTP et l'inventaire réel sont exécutés automatiquement
 en CI sur chaque modification pertinente.
+
+## Secours des listes TMDB en Cloudflare Workers natif (sans Docker)
+
+Le dossier [catalogue-recovery-cloudflare](../services/catalogue-recovery-cloudflare/README.md)
+contient désormais un Worker JavaScript sans D1 ni appels externes. Il utilise
+un binding **Workers Static Assets**, préparé depuis les 261 instantanés de listes
+TMDB archivées, et vérifie les empreintes SHA-256 avant de répondre.
+
+Le Worker est **indépendant des Workers des comptes Kovelyx et des médias
+Ma-Art**. Il ne change aucun catalogue actif ni l'interface. Son déploiement
+dans le compte Cloudflare est explicitement **manuel**, exige deux secrets
+GitHub Actions configurés dans Ma-Collection et une confirmation. Les tests
+locaux et le dry-run Wrangler s'exécutent sans jeton. Le Docker existant reste
+une solution de reprise si Cloudflare n'est plus disponible.
+
+Cette API fournit les identifiants et l'ordre des médias, **pas les
+métadonnées, les affiches ou les flux**. Elle n'est pas encore un addon Kovelyx
+ou Stremio. Une liste TMDB manque encore ; Trakt et les addons restent externes.
