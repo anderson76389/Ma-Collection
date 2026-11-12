@@ -3,22 +3,22 @@
  * Ne change jamais les identifiants, les sources, les filtres ni les API.
  * Les renommages sont réservés aux exports pour préserver les règles de l'application.
  */
+import {isKaptainUrl} from './scripts/kaptain-url-policy.mjs';
+
 export const STUDIO_SCHEMA = 1;
 export const STUDIO_LIMIT = 10;
 export const STUDIO_FIELDS = Object.freeze([
   'coverImageUrl','heroBackdropUrl','titleLogoUrl','focusGifUrl'
 ]);
 export const STUDIO_SHAPES = Object.freeze(['POSTER','LANDSCAPE','SQUARE']);
-const banned = /(?:^|\.)kaptain\.stream$|^imkaptain\.github\.io$|^api\.nuvio\.tv$/i;
 export function assetUrl(value) {
   const raw = String(value ?? '').trim();
   if (!raw) return '';
   if (raw.length > 1700) throw Error('URL trop longue');
   let url;
   try { url = new URL(raw); } catch { throw Error('Adresse incorrecte'); }
-  if (url.protocol !== 'https:' || url.username || url.password || banned.test(url.hostname) ||
-      (['github.com','raw.githubusercontent.com','api.github.com'].includes(url.hostname.toLowerCase()) &&
-        /^\/(?:ImKaptain\/|repos\/ImKaptain\/)/i.test(url.pathname.slice(1) === '' ? '' : url.pathname)))
+  if (url.protocol !== 'https:' || url.username || url.password ||
+      url.hostname.toLowerCase() === 'api.nuvio.tv' || isKaptainUrl(url.href))
     throw Error('Image HTTPS indépendante requise (pas de lien Kaptain)');
   if (!/\.(?:jpe?g|png|webp|gif|avif|svg)(?:$|[?#])/i.test(url.pathname+url.search+url.hash) &&
       !url.hostname.endsWith('workers.dev'))

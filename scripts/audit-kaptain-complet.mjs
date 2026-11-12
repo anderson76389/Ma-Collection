@@ -12,6 +12,7 @@ import { execFileSync } from "node:child_process";
 import { extname, resolve } from "node:path";
 import { dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import {isKaptainUrl} from "./kaptain-url-policy.mjs";
 
 const root=resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const gitFiles=execFileSync("git",["ls-files","-z"],{cwd:root,encoding:"utf8"})
@@ -23,16 +24,7 @@ const archives=p=>/^Kaptain_.*\.json$/i.test(p)
   || /^collections\/database\.(?:beta|mega\d+)\.js$/i.test(p)
   || /^(?:collections\/nuvio_mega_collection\.json|Kaptain_Mega_Nuvio_Native_.*\.json)$/i.test(p);
 const meta=p=>/^(?:README\.md|ROADMAP\.md|docs\/|\.claude\/|\.github\/scripts\/|tests\/|scripts\/audit-|scripts\/media_migration\.py|generate_collection_cards\.py)/i.test(p);
-const original=(u)=>{
-  let url;
-  try{url=new URL(u)}catch{return false;}
-  const host=url.hostname.toLowerCase(), pathname=decodeURIComponent(url.pathname).toLowerCase();
-  return host==="imkaptain.github.io"
-    || /^kaptain[-.]|[-.]kaptain\./.test(host)
-    || (["github.com","raw.githubusercontent.com","api.github.com","githubusercontent.com"].includes(host)
-       && /(?:^|\/)imkaptain(?:\/|$)/.test(pathname))
-    || (host==="api.nuvio.tv" && pathname.includes("kaptain"));
-};
+const original=isKaptainUrl;
 const urlPattern=/https?:\/\/[^\s"'<>\\\`)\]}]+/g;
 const upstreamActive=[],upstreamArchive=[],upstreamDocs=[],urlCount=new Map();
 const suspicious=[];
