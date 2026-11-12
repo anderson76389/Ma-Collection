@@ -1,0 +1,47 @@
+name: Sauvegarde portable Ma-Collection (sans Kaptain)
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/portable_backup.py'
+      - '.github/workflows/portable-backup.yml'
+  schedule:
+    - cron: '29 3 * * 0'
+permissions:
+  contents: read
+concurrency:
+  group: portable-site-backup
+  cancel-in-progress: false
+
+jobs:
+  backup:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Tester le format, la sécurité et la restauration
+        run: python3 -m unittest discover -s tests -p test_portable_backup.py -v
+      - name: Contrôler l'indépendance avant archivage
+        run: |
+          node scripts/audit-kaptain-complet.mjs
+          node scripts/audit-runtime-assets.mjs
+      - name: Créer ZIP complet et vérifier les empreintes SHA-256
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/portable_backup.py create --project Ma-Collection --output "$RUNNER_TEMP/ma-collection-portable.zip"
+          python3 scripts/portable_backup.py verify --project Ma-Collection --archive "$RUNNER_TEMP/ma-collection-portable.zip"
+      - name: Conserver temporairement le ZIP pour téléchargement
+        uses: actions/upload-artifact@v4
+        with:
+          name: ma-collection-portable
+          path: ${{ runner.temp }}/ma-collection-portable.zip
+          if-no-files-found: error
+          retention-days: 30
+          compression-level: 0

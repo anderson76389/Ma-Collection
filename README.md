@@ -238,3 +238,7 @@ Une automatisation fondée sur les [classements hebdomadaires officiels Netflix]
 ## 📌 Origine et dépendances
 
 Ce dépôt reprend une adaptation de [Kaptain Collection](https://github.com/ImKaptain/Kaptain-Collection). L'attribution au projet d'origine est conservée ; la mise en ligne publique des éléments tiers doit respecter leurs droits d'auteur et leurs licences applicables. Certaines listes TMDB/Trakt, images et ressources visuelles externes peuvent encore dépendre de leurs propriétaires. La migration du dépôt ne garantit donc pas l'autonomie des catalogues.
+
+## 🧰 Sauvegarde et restauration sans Kaptain
+
+Une sauvegarde portable ZIP de tous les fichiers versionnés est disponible chaque semaine (et à la demande), avec contrôle de chaque fichier par SHA-256, restauration sans réseau et exclusion des secrets. Les médias privés sont archivés séparément dans Ma-Art. Pour préparer un hébergement alternatif des images tout en conservant les chemins, voir **[le guide de sauvegarde et restauration](docs/SAUVEGARDE_RESTAURATION.md)**. Les archives GitHub Actions expirent : une copie hors GitHub reste indispensable.
