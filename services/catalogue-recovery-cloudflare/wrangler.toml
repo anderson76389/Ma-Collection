@@ -1,0 +1,13 @@
+# Worker totalement distinct de kovelyx-cloud : aucun D1, token ou session.
+name = "ma-collection-catalogues"
+main = "./worker.mjs"
+compatibility_date = "2026-11-12"
+workers_dev = true
+
+# Le Worker inspecte TOUTES les requêtes, même celles qui correspondent
+# à des fichiers de la collection privée _mc_data du bundle.
+[assets]
+directory = "./dist/assets"
+binding = "ASSETS"
+run_worker_first = true
+not_found_handling = "none"
