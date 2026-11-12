@@ -37,18 +37,19 @@ jobs:
       - name: Valider toutes les archives et le vérificateur live avant publication
         run: |
           node --test tests/cloudflare-catalogue-recovery.test.mjs tests/cloudflare-verify-live.test.mjs
-          node services/catalogue-recovery-cloudflare/prepare-assets.mjs
+          node services/catalogue-recovery-cloudflare/prepare-inline.mjs
+          node --test tests/cloudflare-inline-bundle.test.mjs
       - name: Déployer le seul Worker ma-collection-catalogues
         shell: bash
         run: |
           set -euo pipefail
           deploy_log="$RUNNER_TEMP/ma-collection-worker-deploy.log"
-          if npx --yes wrangler@4.156.0 deploy --config services/catalogue-recovery-cloudflare/wrangler.toml 2>&1 | tee "$deploy_log"; then
+          if npx --yes wrangler@4.156.0 deploy --config services/catalogue-recovery-cloudflare/wrangler.inline.toml 2>&1 | tee "$deploy_log"; then
             echo "::notice::Worker publié. Vérification à distance des 261 listes en cours."
           else
-            if grep -Fq 'assets-upload-session' "$deploy_log" && grep -Fq 'No access to the specified resource' "$deploy_log"; then
-              echo "::error title=Permissions Cloudflare refusées::Le jeton n'autorise pas le dépôt des fichiers statiques de ma-collection-catalogues dans CLOUDFLARE_ACCOUNT_ID. Vérifier que l'ID correspond au compte Cloudflare qui héberge ce Worker et que le token dispose de Workers Scripts Write sur ce compte. Pour créer un Worker inexistant avec les rôles granulaires : Workers Admin au niveau du produit Workers. Remplacer le secret CLOUDFLARE_API_TOKEN dans Ma-Collection, puis relancer manuellement."
-              echo "::notice::Aucune nouvelle publication confirmée. Ne pas relancer avec le même jeton sans corriger ses droits."
+            if grep -Fq 'No access to the specified resource' "$deploy_log"; then
+              echo "::error title=Autorisation de publication Cloudflare refusée::La variante autonome n'utilise plus du tout assets-upload-session. Vérifier les droits Workers Scripts Write, le compte CLOUDFLARE_ACCOUNT_ID et le jeton associé ; un jeton présent dans un autre dépôt GitHub peut être différent."
+              echo "::notice::Aucune publication confirmée. Le code ne peut pas accorder de droits supplémentaires à un jeton."
             else
               echo "::error title=Échec de déploiement Cloudflare::Lire les lignes ERROR de Wrangler ci-dessus. Aucune publication validée."
             fi
