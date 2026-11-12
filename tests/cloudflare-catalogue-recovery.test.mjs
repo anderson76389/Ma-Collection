@@ -96,6 +96,9 @@ test('aucune copie Trakt/addons fictive, archive manquante = 503',async()=>{
 test('ne permet ni écriture ni consultation directe des Static Assets',async()=>{
   const prior=env.ASSETS.calls.length;
   assert.equal((await cloudWorker.fetch(req('/_mc_data/manifest.json'),env)).status,404);
+  assert.equal((await cloudWorker.fetch(req('/_mc_data/manifest.json',{method:'OPTIONS'}),env)).status,404);
+  assert.equal((await cloudWorker.fetch(req('/chemin-inconnu',{method:'OPTIONS'}),env)).status,404);
+  assert.equal((await cloudWorker.fetch(req('/health?'+('x'.repeat(2048)),{method:'OPTIONS'}),env)).status,414);
   assert.equal((await cloudWorker.fetch(req('/_mc_data/lists/8659010.json'),env)).status,404);
   assert.equal((await cloudWorker.fetch(req('/v1/tmdb/lists/8659010',{method:'POST'}),env)).status,405);
   assert.equal((await cloudWorker.fetch(req('/v1/tmdb/lists/8659010?limit=101'),env)).status,400);
