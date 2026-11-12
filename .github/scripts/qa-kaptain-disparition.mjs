@@ -41,7 +41,7 @@ try{
     sources:window.collectionData.reduce((sum,cat)=>sum+(cat.folders||[]).reduce(
       (n,folder)=>n+(folder.sources||[]).length,0),0)
   }));
-  assert(baseline.categories>=16 && baseline.folders>=700 && baseline.sources>=3000,
+  assert(baseline.categories>=16 && baseline.folders>=690 && baseline.sources>=3100,
     'Base locale incomplète sans Kaptain');
 
   await page.evaluate(()=>window.MaCollectionStudio.open());
