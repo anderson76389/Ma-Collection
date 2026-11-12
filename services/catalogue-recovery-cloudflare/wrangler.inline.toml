@@ -1,7 +1,8 @@
 # Variante autonome : aucune API Cloudflare Static Assets à contacter.
 # Le seul droit Cloudflare requis pour publier reste Workers Scripts Write
-# sur le compte correct (création du Worker selon les rôles du compte).
-name = "ma-collection-catalogues"
+# sur le compte correct. Réutilise le Worker ma-collection existant,
+# trouvé par diagnostic Cloudflare du 13 novembre 2026.
+name = "ma-collection"
 main = "./worker-inline.mjs"
 compatibility_date = "2026-10-30"
 workers_dev = true

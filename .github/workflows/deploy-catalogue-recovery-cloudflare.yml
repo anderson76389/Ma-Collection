@@ -6,7 +6,13 @@ on:
         type: boolean
         required: true
         default: false
-        description: "Je confirme le déploiement du Worker ma-collection-catalogues sur mon compte Cloudflare"
+        description: "Je confirme le déploiement du Worker ma-collection sur mon compte Cloudflare"
+  # Publication unique demandée par le propriétaire, liée à un marqueur
+  # de commit de fusion. Aucun autre push ne déclenche de déploiement.
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/deploy-catalogue-recovery-cloudflare.yml'
 permissions:
   contents: read
 concurrency:
@@ -14,7 +20,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   deploy:
-    if: ${{ inputs.publish }}
+    if: ${{ (github.event_name == 'workflow_dispatch' && inputs.publish == true) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[deploy-existing-ma-collection-once-20261113]')) }}
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     env:
@@ -39,7 +45,7 @@ jobs:
           node --test tests/cloudflare-catalogue-recovery.test.mjs tests/cloudflare-verify-live.test.mjs
           node services/catalogue-recovery-cloudflare/prepare-inline.mjs
           node --test tests/cloudflare-inline-bundle.test.mjs
-      - name: Déployer le seul Worker ma-collection-catalogues
+      - name: Déployer le seul Worker ma-collection
         shell: bash
         run: |
           set -euo pipefail

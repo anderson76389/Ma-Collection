@@ -51,6 +51,15 @@ quand du code est fusionné, pour éviter toute modification involontaire.
 4. Consulte dans les logs de Wrangler **l'URL workers.dev réellement attribuée**
    (elle dépend du sous-domaine de ton compte). Vérifie les endpoints ci-dessous.
 
+## Nom exact du Worker créé le 13 novembre 2026
+
+Le diagnostic Cloudflare en lecture seule a trouvé le Worker
+**`ma-collection`**, dans le même compte que les secrets GitHub existants.
+En revanche, **`ma-collection-catalogues` n'existe pas** dans ce compte.
+Le workflow et la vérification HTTP utilisent désormais le nom exact
+`ma-collection`, **sans créer de Worker supplémentaire**. Les anciens échecs
+étaient liés à une tentative de publication sous un autre nom.
+
 ## Si le déploiement affiche « No access to the specified resource »
 
 L'exécution GitHub du **12 novembre 2026, 22:09 UTC** a réussi les 10 tests
@@ -68,16 +77,15 @@ le nouveau Worker inline a réussi tous ses tests (261 archives, bundle de
 489,28 Kio, fonctionnement Wrangler local), puis Cloudflare a aussi refusé
 `/accounts/{account_id}/workers/scripts/ma-collection-catalogues` avec
 `No access to the specified resource`. L'API Static Assets n'était plus
-utilisée. Le blocage est donc **l'autorisation de publication du script**
-(ou la correspondance du compte ciblé), non l'archive ni Wrangler.
-Ne pas considérer ce Worker comme publié. La seule solution est de vérifier
-l'Account ID et d'accorder Workers Scripts Write à un jeton du compte cible,
-puis de mettre ce jeton dans les secrets Actions de **Ma-Collection**.
+utilisée. À cette date, le refus pouvait provenir des droits de création **ou du nom de Worker inexistant**.
+Le diagnostic du 13 novembre a identifié le décalage de nom, depuis corrigé.
+Les tests d'archives et Wrangler n'étaient pas en cause. Une publication
+n'est confirmée qu'après succès du déploiement et de la relecture HTTP.
 La tentative de publication automatique unique a été retirée : le déploiement
 redevient exclusivement manuel avec confirmation `publish`.
 
 1. Dans Cloudflare, ouvrir le **compte précis** qui devra héberger
-   `ma-collection-catalogues` et vérifier son **Account ID**.
+   `ma-collection` et vérifier son **Account ID**.
    Reporter cet ID dans le secret GitHub `CLOUDFLARE_ACCOUNT_ID` de
    **Ma-Collection** (pas uniquement dans les secrets de Kovelyx).
 2. Le déploiement inline tente d'abord de **réutiliser le jeton actuel**.
@@ -100,7 +108,7 @@ redevient exclusivement manuel avec confirmation `publish`.
 Voir la [documentation Cloudflare sur les droits Workers](https://developers.cloudflare.com/workers/authorization/workers/)
 et [les jetons CI GitHub](https://developers.cloudflare.com/workers/ci-cd/external-cicd/github-actions/).
 
-Le Worker s'appelle **ma-collection-catalogues**, différent de
+Le Worker s'appelle **ma-collection**, différent de
 **kovelyx-cloud** et du Worker des images Ma-Art. Il n'utilise aucune base D1
 et ne modifie aucune image, donnée de compte ou catalogue actif.
 
@@ -153,7 +161,7 @@ de publier. Il la vérifie avant de déclarer la publication réussie :
 - la liste 8690687 doit toujours signaler son absence (HTTP 503) ;
 - les fichiers internes `/_mc_data/*` doivent rester inaccessibles (HTTP 404) ;
 - le domaine doit correspondre exactement au Worker
-  `ma-collection-catalogues.*.workers.dev` publié par Wrangler.
+  `ma-collection.*.workers.dev` publié par Wrangler.
 
 Si ces vérifications échouent, **l'action GitHub échoue** : ne pas interpréter
 le succès de `wrangler deploy` comme une preuve que les listes sont lisibles.
