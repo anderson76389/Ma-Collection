@@ -7,10 +7,16 @@ Il n'a besoin d'aucun VPS, Docker, D1, KV, R2, appel à Kaptain ni API TMDB.
 ## Architecture
 
 - Un **Worker Cloudflare natif** (worker.mjs), indépendant du Worker des comptes Kovelyx.
-- Un binding **Workers Static Assets**, créé uniquement à partir des archives
-  versionnées et validées SHA-256 par prepare-assets.mjs.
-- Le Worker s'exécute **avant toutes les ressources** (run_worker_first = true).
-  Ainsi, les JSON internes ne sont pas accessibles directement par URL.
+- **Déploiement principal sans Static Assets** : les 261 archives sont
+  compilées dans un module JavaScript embarqué par `prepare-inline.mjs`.
+  Il n'appelle pas `assets-upload-session`, dont l'accès était refusé
+  le 12 novembre 2026.
+- Le Worker `worker-inline.mjs` réutilise toutes les validations de
+  `worker.mjs` : mêmes routes et mêmes SHA-256 ; les JSON internes sont
+  inaccessibles directement.
+- L'ancienne variante Workers Static Assets reste conservée séparément
+  pour les tests et une éventuelle migration, mais n'est plus déployée
+  par le workflow manuel.
 - Chaque liste restituée est à nouveau contrôlée avec WebCrypto SHA-256.
 - Les requêtes sont en lecture seule : GET, HEAD, OPTIONS. Aucun secret.
 
@@ -24,9 +30,10 @@ la pagination, la liste manquante, la build Wrangler et le vrai runtime local.
 Sur une copie complète de Ma-Collection (Node.js 22+) :
 
     node --test tests/cloudflare-catalogue-recovery.test.mjs
-    node services/catalogue-recovery-cloudflare/prepare-assets.mjs
-    npx --yes wrangler@4.156.0 deploy --dry-run --config services/catalogue-recovery-cloudflare/wrangler.toml
-    npx --yes wrangler@4.156.0 dev --local --config services/catalogue-recovery-cloudflare/wrangler.toml
+    node services/catalogue-recovery-cloudflare/prepare-inline.mjs
+    node --test tests/cloudflare-inline-bundle.test.mjs
+    npx --yes wrangler@4.156.0 deploy --dry-run --config services/catalogue-recovery-cloudflare/wrangler.inline.toml
+    npx --yes wrangler@4.156.0 dev --local --config services/catalogue-recovery-cloudflare/wrangler.inline.toml
 
 ## Déployer depuis GitHub dans ton propre compte Cloudflare
 
@@ -49,21 +56,27 @@ quand du code est fusionné, pour éviter toute modification involontaire.
 L'exécution GitHub du **12 novembre 2026, 22:09 UTC** a réussi les 10 tests
 et préparé 261 listes, puis Cloudflare a refusé l'endpoint
 `/accounts/{account_id}/workers/scripts/ma-collection-catalogues/assets-upload-session`.
-C'est un **refus d'autorisation** : modifier les listes, les images ou le code du
-Worker ne peut pas réparer les droits d'un token.
+C'est un **refus d'autorisation à cette route**. Le nouveau déploiement
+principal évite désormais complètement cette API en embarquant les archives
+dans le Worker. Il utilise **les mêmes secrets GitHub**, sans nouvelle API,
+mais un jeton doit toujours autoriser l'écriture de scripts Workers dans
+le bon compte. Si ce droit manque, seul le propriétaire Cloudflare peut
+corriger les autorisations : aucune modification de code ne le contourne.
 
 1. Dans Cloudflare, ouvrir le **compte précis** qui devra héberger
    `ma-collection-catalogues` et vérifier son **Account ID**.
    Reporter cet ID dans le secret GitHub `CLOUDFLARE_ACCOUNT_ID` de
    **Ma-Collection** (pas uniquement dans les secrets de Kovelyx).
-2. Dans **Manage Account → API Tokens** ou **My Profile → API Tokens**,
-   créer un jeton dédié au compte. Le droit minimal de l'endpoint de
-   téléversement est **Account → Workers Scripts → Write/Edit**.
+2. Le déploiement inline tente d'abord de **réutiliser le jeton actuel**.
+   Un nouveau jeton n'est nécessaire que si Cloudflare refuse encore la
+   publication du script lui-même. Dans ce cas, dans **Manage Account → API Tokens**
+   ou **My Profile → API Tokens**, autoriser **Account → Workers Scripts → Write/Edit**
+   pour le compte cible.
    Dans les rôles Workers granulaires, un Worker **à créer** peut nécessiter
    le rôle **Workers Admin au niveau du produit** pour ce compte ; un Worker
    existant peut être déployé avec **Workers Editor** sur ce Worker.
    Ne pas accorder de permissions de zones, D1, R2 ou KV sans besoin réel.
-3. Mettre le **nouveau jeton** dans le secret GitHub
+3. Si un nouveau jeton était nécessaire, le mettre dans le secret GitHub
    `CLOUDFLARE_API_TOKEN` du dépôt **Ma-Collection**, puis relancer
    l'action manuelle en cochant `publish`. Ne jamais coller le jeton dans
    les logs, les commits ou une conversation.
@@ -77,6 +90,19 @@ et [les jetons CI GitHub](https://developers.cloudflare.com/workers/ci-cd/extern
 Le Worker s'appelle **ma-collection-catalogues**, différent de
 **kovelyx-cloud** et du Worker des images Ma-Art. Il n'utilise aucune base D1
 et ne modifie aucune image, donnée de compte ou catalogue actif.
+
+### Pourquoi les mêmes identifiants Cloudflare ne prouvent pas une publication
+
+Les secrets GitHub portant le même nom dans Kovelyx, Ma-Art et Ma-Collection
+ne sont **pas automatiquement partagés**. De plus, un workflow Kovelyx
+vert peut n'avoir exécuté qu'un *dry-run* et ignoré sa publication.
+Seul le succès de `wrangler deploy`, suivi des tests HTTP sur les 261
+listes, démontre la publication de **ce** Worker.
+
+Le module généré ne dépasse pas un budget local de 8 Mio ; la taille
+maximale officielle d'un Worker Cloudflare est actuellement 64 Mio
+non compressés. Cette compilation ne crée aucune nouvelle dépendance
+envers Kaptain, TMDB, R2, D1 ou le Worker Kovelyx.
 
 ## Endpoints de lecture
 
