@@ -1,6 +1,11 @@
 name: Sauvegarde portable Ma-Collection (sans Kaptain)
 on:
   workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/portable_backup.py'
+      - '.github/workflows/portable-backup.yml'
   schedule:
     - cron: '29 3 * * 0'
 permissions:
