@@ -44,7 +44,7 @@ jobs:
         run: |
           node --test tests/cloudflare-catalogue-recovery.test.mjs tests/cloudflare-verify-live.test.mjs
           node services/catalogue-recovery-cloudflare/prepare-inline.mjs
-          node --test tests/cloudflare-inline-bundle.test.mjs tests/cloudflare-ensure-workers-dev.test.mjs
+          node --test tests/cloudflare-inline-bundle.test.mjs tests/cloudflare-ensure-workers-dev.test.mjs tests/cloudflare-build-alignment.test.mjs
       - name: Déployer le seul Worker ma-collection
         shell: bash
         run: |
