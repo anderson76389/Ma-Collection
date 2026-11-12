@@ -14,6 +14,8 @@ on:
       - scripts/tmdb-authorize.mjs
       - tests/tmdb-own-lists.test.mjs
       - .github/workflows/tmdb-own-lists.yml
+  # Une autorisation TMDB lecture-seule renvoie 401/36 : le schedule ne tente
+  # aucune écriture jusqu'à validation manuelle de la permission d'écriture.
   schedule:
     - cron: '13 3 * * *'
   workflow_dispatch:
@@ -68,7 +70,7 @@ jobs:
     timeout-minutes: 90
     env:
       TMDB_V4_USER_ACCESS_TOKEN: ${{ secrets.TMDB_V4_USER_ACCESS_TOKEN }}
-      OPERATION: ${{ github.event_name == 'schedule' && 'copy' || inputs.operation }}
+      OPERATION: ${{ github.event_name == 'schedule' && 'plan' || inputs.operation }}
       SCOPE: ${{ github.event_name == 'schedule' && 'all' || inputs.scope }}
       LIMIT: ${{ github.event_name == 'schedule' && '3' || inputs.max_lists }}
       GH_TOKEN: ${{ github.token }}
