@@ -1,0 +1,60 @@
+name: Vérifier l'autohébergement Docker des listes TMDB
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'services/catalogue-recovery/**'
+      - '.dockerignore'
+      - '.github/workflows/catalogue-recovery-docker.yml'
+      - 'data/catalogue-archives/tmdb/**'
+      - 'scripts/build-emergency-catalogue.mjs'
+      - 'scripts/tmdb-own-lists.mjs'
+      - 'collections/*.json'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'services/catalogue-recovery/**'
+      - '.dockerignore'
+      - '.github/workflows/catalogue-recovery-docker.yml'
+      - 'data/catalogue-archives/tmdb/**'
+      - 'scripts/build-emergency-catalogue.mjs'
+      - 'scripts/tmdb-own-lists.mjs'
+      - 'collections/*.json'
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  recovery:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Vérifier les vraies archives sans aucun service extérieur
+        run: |
+          node --test tests/offline-catalogue-recovery.test.mjs
+          node services/catalogue-recovery/server.mjs --check
+      - name: Construire l'image minimale sans aucun secret
+        run: docker build --file services/catalogue-recovery/Dockerfile --tag ma-collection-recovery:ci .
+      - name: Tester HTTP réel dans le conteneur en lecture seule
+        shell: bash
+        run: |
+          set -euo pipefail
+          docker run --rm -d --read-only --cap-drop=ALL --security-opt=no-new-privileges \
+            --name mc-catalogue-recovery-ci -p 127.0.0.1:18888:8788 ma-collection-recovery:ci
+          trap 'docker rm -f mc-catalogue-recovery-ci >/dev/null 2>&1 || true' EXIT
+          for i in $(seq 1 25); do
+            if curl --fail --silent --output /tmp/catalogue-health http://127.0.0.1:18888/health; then break; fi
+            sleep 1
+          done
+          curl --fail --silent http://127.0.0.1:18888/health \
+            | node -e 'let s="";process.stdin.on("data",x=>s+=x).on("end",()=>{const x=JSON.parse(s);if(x.available!==261||x.expected!==262||x.complete!==false)process.exit(1)})'
+          curl --fail --silent 'http://127.0.0.1:18888/v1/tmdb/lists/8659010?limit=10' \
+            | node -e 'let s="";process.stdin.on("data",x=>s+=x).on("end",()=>{const x=JSON.parse(s);if(x.list_id!==8659010||x.items.length!==10)process.exit(1)})'
+          code="$(curl --silent --output /tmp/catalogue-missing --write-out '%{http_code}' http://127.0.0.1:18888/v1/tmdb/lists/8690687)"
+          test "$code" = "503"
+          echo 'DOCKER_RECOVERY_OK: 261 vraies listes, zero donnees personnelles, ID manquant explicite'
