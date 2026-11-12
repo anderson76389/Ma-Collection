@@ -36,7 +36,9 @@ test('une URL à identifiants, fragment, chemin ou protocole non sûr est refus�
   const {api}=boot({});
   for(const bad of ['javascript:alert(1)','http://evil.example',
     'https://u:p@evil.example','https://evil.example/foo',
-    'https://evil.example/?token=private','https://evil.example/#fragment']){
+    'https://evil.example/?token=private','https://evil.example/#fragment',
+    'https://kaptain.stream','https://assets.kaptain.stream',
+    'https://api.nuvio.tv']){
     assert.throws(()=>api.save(bad),/HTTPS/);
   }
   assert.equal(api.current().url,'https://kovelyx-cloud.mailpromahe.workers.dev');
