@@ -44,6 +44,9 @@ jobs:
           node --test tests/kovelyx-better-auth.test.mjs
           node --test tests/studio-avance.test.mjs
           node --test tests/kaptain-url-security.test.mjs
+          node --test tests/studio-recovery.test.mjs
+          node --test tests/catalogue-provenance.test.mjs
+          node scripts/audit-catalogue-provenance.mjs
           node --test tests/custom-folders.test.cjs
       - name: Installer le navigateur de test
         run: |
@@ -65,3 +68,5 @@ jobs:
           node .github/scripts/qa-controls.mjs
           node .github/scripts/qa-studio-avance.mjs
           node .github/scripts/qa-kaptain-disparition.mjs
+          node .github/scripts/qa-studio-recovery.mjs
+          bash scripts/rehearse-site-disaster.sh

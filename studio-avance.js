@@ -8,6 +8,7 @@ import {createStudioBackupStore,makeStudioBackup} from './studio-backups.mjs';
 import {studioFolderKey,studioTidy,studioApplyBatch} from './studio-workshop-core.mjs';
 import {listStudioArtworks,searchStudioArtworks,useStudioArtwork} from './studio-art-library.mjs';
 import {frenchPackTemplate,validateFrenchPack,planFrenchPack,applyFrenchPack} from './studio-fr-art.mjs';
+import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './studio-recovery-core.mjs';
 
 /* Atelier indépendant : thème existant conservé, aucune connexion à Kaptain. */
 (() => {
@@ -181,6 +182,92 @@ import {frenchPackTemplate,validateFrenchPack,planFrenchPack,applyFrenchPack} fr
       download('ma-collection-profil-'+slug+'.json',JSON.stringify(safe,null,2));
       message='Fichier de préréglage téléchargé (sans clé API ni mot de passe).';draw();
     }catch(e){message=e.message;draw();}
+  }
+  async function exportAllRecovery(){
+    try{
+      const history=await backupStore.list();
+      const custom=window.MaCollectionCustomFolders;
+      if(!custom?.readRecords||!custom?.validateRecord)
+        throw Error('Module de dossiers personnels indisponible : impossible d’assurer une copie complète.');
+      const saved=buildRecoveryPackage({
+        draft,profiles,backups:history,customFolders:custom.readRecords(),
+        theme:localStorage.getItem('ma_collection_theme')||'dark',frPack
+      },data(),new Date(),custom.validateRecord);
+      download('ma-collection-sauvegarde-complete-'+saved.createdAt.slice(0,10)+'.json',
+        JSON.stringify(saved,null,2));
+      message='Archive locale complète exportée : '+saved.profiles.length+' profils, '+
+        saved.backups.length+' sauvegardes et '+saved.customFolders.length+
+        ' dossiers personnels, sans clés API ni sessions.';
+    }catch(error){message='Archive locale impossible : '+error.message;}
+    draw();
+  }
+  async function importAllRecovery(file){
+    if(!file)return;
+    try{
+      if(file.size>24*1024*1024)throw Error('Archive trop volumineuse (24 Mo maximum).');
+      const parsed=JSON.parse(await file.text());
+      const custom=window.MaCollectionCustomFolders;
+      if(!custom?.readRecords||!custom?.validateRecord||!custom?.createFolder||!custom?.insertSavedFolders)
+        throw Error('Module de dossiers personnels indisponible. Recharge la page.');
+      // Préparer un catalogue de validation sans modifier le catalogue vivant.
+      // Évite de perdre des dossiers personnels absents sur le nouvel appareil.
+      const staged=data().map(c=>({...c,folders:[...(c.folders||[])]}));
+      const pending=Array.isArray(parsed.customFolders)?parsed.customFolders:[];
+      if(pending.length>100)throw Error('Trop de dossiers personnels');
+      for(const raw of pending){
+        const row=custom.validateRecord(raw);
+        if(!row)throw Error('Dossier personnel incompatible');
+        const cat=staged.find(c=>c.id===row.categoryId);
+        if(!cat)throw Error('Catégorie personnelle absente : '+row.categoryId);
+        if(!cat.folders.some(f=>f.id===row.id))cat.folders.push(custom.createFolder(row));
+      }
+      const safe=validateRecoveryPackage(parsed,staged,custom.validateRecord);
+      const plan=planRecoveryMerge(profiles,safe.profiles);
+      const existingCustom=custom.readRecords();
+      const idMap=new Map(existingCustom.map(row=>[row.id,row]));
+      const newCustom=[];
+      for(const row of safe.customFolders){
+        if(idMap.has(row.id)){
+          if(JSON.stringify(idMap.get(row.id))!==JSON.stringify(row))
+            throw Error('Collision de dossier personnalisé : aucun dossier ne sera écrasé.');
+          continue;
+        }
+        idMap.set(row.id,row);newCustom.push(row);
+      }
+      if(idMap.size>100)throw Error('Limite de 100 dossiers personnels dépassée : aucune donnée modifiée.');
+      const oldBackups=await backupStore.list();
+      const known=new Set(oldBackups.map(x=>x.id));
+      const nextBackups=safe.backups.filter(x=>!known.has(x.id));
+      if(oldBackups.length+nextBackups.length>8)
+        throw Error('Historique plein : exporte ou supprime des sauvegardes existantes avant import. Rien ne change.');
+      if(!window.confirm('Importer '+plan.added+' profil(s), '+nextBackups.length+
+          ' sauvegarde(s), '+newCustom.length+' dossier(s) personnel(s) et charger le brouillon ?'+
+          ' Les éléments existants ne seront pas écrasés.'))return;
+      const CUSTOM_KEY='ma_collection_custom_folders_v1';
+      const keys=[STORE,CUSTOM_KEY,FR_STORE];
+      const previous=keys.map(key=>localStorage.getItem(key));
+      try{
+        localStorage.setItem(STORE,JSON.stringify(plan.profiles));
+        localStorage.setItem(CUSTOM_KEY,JSON.stringify([...existingCustom,...newCustom]));
+        if(safe.frPack)localStorage.setItem(FR_STORE,JSON.stringify(safe.frPack));
+      }catch(error){
+        keys.forEach((key,i)=>{try{
+          if(previous[i]===null)localStorage.removeItem(key);
+          else localStorage.setItem(key,previous[i]);
+        }catch{}});
+        throw Error('Stockage local inaccessible : restauration annulée');
+      }
+      profiles=plan.profiles;
+      for(const entry of nextBackups)await backupStore.save(entry);
+      if(safe.frPack){frPack=safe.frPack;frStyle=frPack.styles[0]?.id||'';}
+      custom.insertSavedFolders();
+      draft=safe.draft;pickSection();tab='profils';
+      if(typeof window.applyTheme==='function')window.applyTheme(safe.theme);
+      await refreshBackups();
+      message='Archive locale restaurée : '+plan.added+' profils, '+nextBackups.length+
+        ' sauvegardes et '+newCustom.length+' dossiers personnels. Aucun changement appliqué aux catalogues.';
+    }catch(error){message='Restauration refusée : '+error.message;}
+    draw();
   }
   async function importProfile(file){
     if(!file)return;
@@ -687,8 +774,11 @@ import {frenchPackTemplate,validateFrenchPack,planFrenchPack,applyFrenchPack} fr
       '<div class="mc-studio-column"><div class="mc-studio-heading"><strong>Mes profils sauvegardés</strong>'+badge(profiles.length+'/'+STUDIO_LIMIT)+'</div>'+
       '<div class="mc-studio-scroll">'+(p||'<p class="mc-studio-muted">Aucun profil sauvegardé.</p>')+'</div>'+
       '<div class="mc-studio-actions-grid">'+button('Exporter ce profil (.json)','export')+
-      button('Importer un profil (.json)','import')+'</div>'+
+      button('Importer un profil (.json)','import')+
+      button('Tout sauvegarder (.json)','export-all')+
+      button('Restaurer une archive (.json)','restore-all')+'</div>'+
       '<input data-file type="file" accept="application/json,.json" hidden>'+
+      '<input data-recovery-file type="file" accept="application/json,.json" hidden>'+
       '<p class="mc-studio-hint">L’export et l’import transportent tes préférences vers un autre appareil. Ils ne modifient pas les comptes des applications.</p></div></div>'+backupsHtml;
   }
   function draw(){
@@ -743,6 +833,7 @@ import {frenchPackTemplate,validateFrenchPack,planFrenchPack,applyFrenchPack} fr
         if(el.checked)set.add(key);else set.delete(key);
         f.selectedKeys=[...set];f.enabled=set.size>0;draw();return;
       }
+      if(el.matches('[data-recovery-file]')){importAllRecovery(el.files[0]);el.value='';return;}
       if(el.matches('[data-file]')){importProfile(el.files[0]);el.value='';}
     }catch(error){message=error.message;draw();}
   }
@@ -922,6 +1013,8 @@ import {frenchPackTemplate,validateFrenchPack,planFrenchPack,applyFrenchPack} fr
     else if(a==='reset')reset();
     else if(a==='load-profile')choose(id);
     else if(a==='export')exportProfile();
+    else if(a==='export-all')exportAllRecovery();
+    else if(a==='restore-all')root.querySelector('[data-recovery-file]')?.click();
     else if(a==='import')root.querySelector('[data-file]')?.click();
     else if(a==='create-folder'){
       if(window.MaCollectionCustomFolders?.open){

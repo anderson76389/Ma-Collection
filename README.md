@@ -242,3 +242,7 @@ Ce dépôt reprend une adaptation de [Kaptain Collection](https://github.com/ImK
 ## 🧰 Sauvegarde et restauration sans Kaptain
 
 Une sauvegarde portable ZIP de tous les fichiers versionnés est disponible chaque semaine (et à la demande), avec contrôle de chaque fichier par SHA-256, restauration sans réseau et exclusion des secrets. Les médias privés sont archivés séparément dans Ma-Art. Pour préparer un hébergement alternatif des images tout en conservant les chemins, voir **[le guide de sauvegarde et restauration](docs/SAUVEGARDE_RESTAURATION.md)**. Les archives GitHub Actions expirent : une copie hors GitHub reste indispensable.
+
+## 🛡️ Reprise complète et provenance des catalogues
+
+Le [plan de reprise Ma-Collection / Ma-Art / Kovelyx](docs/PLAN_REPRISE_ET_CATALOGUES.md) détaille les sauvegardes locales du Studio, les exports D1 chiffrés, la restauration hors GitHub/Cloudflare et les catalogues encore sous le contrôle de tiers. L'audit des listes vérifie les vraies empreintes TMDB sans copier des listes Trakt appartenant à d'autres auteurs.
