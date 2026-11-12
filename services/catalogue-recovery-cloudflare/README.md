@@ -20,6 +20,22 @@ Il n'a besoin d'aucun VPS, Docker, D1, KV, R2, appel à Kaptain ni API TMDB.
 - Chaque liste restituée est à nouveau contrôlée avec WebCrypto SHA-256.
 - Les requêtes sont en lecture seule : GET, HEAD, OPTIONS. Aucun secret.
 
+## Publication réellement validée le 13 novembre 2026
+
+Après correction de l'identifiant de Worker et alignement de Workers Builds,
+le workflow GitHub a réellement publié sur
+`https://ma-collection.mailpromahe.workers.dev`.
+La vérification réseau s'est terminée avec
+`CLOUDFLARE_DEPLOY_VERIFIED` : **261 listes relues et comparées**
+sur **262 attendues**, liste `8690687` manquante. Les
+tests incluent la protection des archives internes, les sources externes
+restantes, les SHA-256, la pagination et l'ordre des IDs.
+
+L'URL publique dépend toujours du fournisseur Cloudflare ; conserver aussi
+les archives et le service Docker indépendants de cet hébergeur. Le Worker
+reste un **secours** de listes d'identifiants : ce n'est pas un addon vidéo
+complet et aucune synchronisation Kovelyx n'a été modifiée.
+
 ## Deux canaux de publication, un seul code Worker
 
 Le Worker `ma-collection` a été créé avec une connexion Git dans Cloudflare.
