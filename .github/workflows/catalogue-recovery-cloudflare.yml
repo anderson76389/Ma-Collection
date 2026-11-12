@@ -6,6 +6,7 @@ on:
       - 'services/catalogue-recovery-cloudflare/**'
       - 'tests/cloudflare-catalogue-recovery.test.mjs'
       - 'tests/cloudflare-verify-live.test.mjs'
+      - 'tests/cloudflare-inline-bundle.test.mjs'
       - '.github/workflows/catalogue-recovery-cloudflare.yml'
       - 'data/catalogue-archives/tmdb/**'
       - 'scripts/build-emergency-catalogue.mjs'
@@ -16,6 +17,7 @@ on:
       - 'services/catalogue-recovery-cloudflare/**'
       - 'tests/cloudflare-catalogue-recovery.test.mjs'
       - 'tests/cloudflare-verify-live.test.mjs'
+      - 'tests/cloudflare-inline-bundle.test.mjs'
       - '.github/workflows/catalogue-recovery-cloudflare.yml'
       - 'data/catalogue-archives/tmdb/**'
       - 'scripts/build-emergency-catalogue.mjs'
@@ -36,16 +38,19 @@ jobs:
           node-version: '22'
       - name: Valider les 261 vraies listes et tester le Worker sans API distante
         run: node --test tests/cloudflare-catalogue-recovery.test.mjs tests/cloudflare-verify-live.test.mjs
-      - name: Générer et vérifier le bundle d'archives Cloudflare
-        run: node services/catalogue-recovery-cloudflare/prepare-assets.mjs
-      - name: Valider le bundle avec Wrangler officiel sans le publier
+      - name: Compiler les 261 archives directement dans le Worker et tester toutes les routes
         run: |
-          npx --yes wrangler@4.156.0 deploy --dry-run --config services/catalogue-recovery-cloudflare/wrangler.toml --outdir /tmp/ma-collection-worker-build
+          node services/catalogue-recovery-cloudflare/prepare-inline.mjs
+          node --test tests/cloudflare-inline-bundle.test.mjs
+      - name: Valider les deux variantes sans publication ni jeton Cloudflare
+        run: |
+          npx --yes wrangler@4.156.0 deploy --dry-run --config services/catalogue-recovery-cloudflare/wrangler.toml --outdir /tmp/ma-collection-worker-assets-build
+          npx --yes wrangler@4.156.0 deploy --dry-run --config services/catalogue-recovery-cloudflare/wrangler.inline.toml --outdir /tmp/ma-collection-worker-inline-build
       - name: Tester le véritable runtime Cloudflare en local (sans clé)
         shell: bash
         run: |
           set -euo pipefail
-          npx --yes wrangler@4.156.0 dev --local --config services/catalogue-recovery-cloudflare/wrangler.toml --ip 127.0.0.1 --port 18898 >/tmp/ma-collection-worker-dev.log 2>&1 &
+          npx --yes wrangler@4.156.0 dev --local --config services/catalogue-recovery-cloudflare/wrangler.inline.toml --ip 127.0.0.1 --port 18898 >/tmp/ma-collection-worker-dev.log 2>&1 &
           worker_pid=$!
           trap 'kill "$worker_pid" 2>/dev/null || true' EXIT
           ready=0
