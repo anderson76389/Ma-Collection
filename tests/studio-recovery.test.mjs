@@ -41,6 +41,22 @@ test('Fusion sans perte : préserver les profils existants, rejeter le dépassem
   assert.equal(base.name,'Salon');
   assert.throws(()=>planRecoveryMerge([base],[incoming],1),/Capacité/);
 });
+test('les dossiers personnels sont inclus, validés et refusés s’ils sont falsifiés',()=>{
+  const record={
+    id:'folder-personal-abcdefghij',title:'Ma saga',categoryId:'cat-1',
+    type:'COLLECTION',tmdbId:451,mediaType:'MOVIE',region:'FR',
+    coverImageUrl:'',heroBackdropUrl:'',tileShape:'POSTER'
+  };
+  const check=r=>r?.id===record.id && r?.tmdbId===451 ? {...record} : null;
+  const data=buildRecoveryPackage({draft:draft(),customFolders:[record]},catalogue,
+    new Date('2026-11-12'),check);
+  assert.equal(data.customFolders.length,1);
+  assert.equal(validateRecoveryPackage(data,catalogue,check).customFolders[0].title,'Ma saga');
+  const tampered=structuredClone(data);
+  tampered.customFolders[0].tmdbId=999;
+  assert.throws(()=>validateRecoveryPackage(tampered,catalogue,check),/Dossier personnel/);
+  assert.throws(()=>validateRecoveryPackage(data,catalogue),/Validation/);
+});
 test('Historique en double et champs de récupération invalides refusés',()=>{
   const row={schema:1,id:'backup-mc-x',kind:'manual',createdAt:'2026-11-12',profile:draft()};
   assert.throws(()=>buildRecoveryPackage({draft:draft(),backups:[row,row]},catalogue),/double/);
