@@ -6,6 +6,8 @@ on:
       - 'scripts/audit-catalogue-provenance.mjs'
       - 'scripts/build-emergency-catalogue.mjs'
       - 'tests/emergency-catalogue.test.mjs'
+      - 'services/catalogue-recovery/**'
+      - 'tests/offline-catalogue-recovery.test.mjs'
       - 'data/catalogue-archives/tmdb/**'
       - 'collections/*.json'
       - '.github/workflows/catalogue-provenance.yml'
@@ -36,6 +38,10 @@ jobs:
         run: node --test tests/catalogue-provenance.test.mjs
       - name: Tester les exports autonomes de récupération
         run: node --test tests/emergency-catalogue.test.mjs
+      - name: Tester le véritable serveur de secours des listes archivées
+        run: |
+          node --test tests/offline-catalogue-recovery.test.mjs
+          node services/catalogue-recovery/server.mjs --check
       - name: Comparer les vrais SHA-256 et recenser Trakt/TMDB/addons
         run: node scripts/audit-catalogue-provenance.mjs --output=/tmp/provenance-ma-collection.json
       - name: Reconstituer les listes TMDB archivées, sans contacter d'API

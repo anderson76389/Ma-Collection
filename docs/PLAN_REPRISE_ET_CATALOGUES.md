@@ -123,3 +123,25 @@ ne doit pas basculer vers cet export avant l'existence d'un service local
 compatible, avec validation du contenu, de l'ordre et des identifiants.
 En particulier, l'export n'inclut pas les contenus des listes Trakt
 ou des addons tiers. Il ne transforme pas 261 copies en 262 copies.
+
+## Serveur HTTP de secours TMDB autonome (lecture seule)
+
+Le répertoire [services/catalogue-recovery](../services/catalogue-recovery/README.md)
+contient maintenant un serveur Node.js sans dépendance npm ni API externe.
+Il ouvre des endpoints HTTP locaux pour les 261 listes TMDB archivées,
+paginées **dans leur ordre d'origine** et revalidées avec SHA-256 à chaque
+démarrage. La liste 8690687 reste annoncée comme manquante (HTTP 503),
+et aucune liste Trakt ou addon n'est présentée comme archivée.
+
+Pour démarrer depuis une copie restaurée du ZIP Ma-Collection :
+
+    node services/catalogue-recovery/server.mjs --check
+    node services/catalogue-recovery/server.mjs
+
+Contrôler l'URL locale http://127.0.0.1:8788/health et les endpoints listés
+dans le README du service. Le serveur n'altère pas les collections actives,
+les réglages ni le compte Kovelyx. Il fournit seulement les IDs et leur ordre,
+pas les titres, affiches ou vidéos. La synchronisation native avec Kovelyx et
+les lecteurs nécessitera un adaptateur explicitement testé, avant toute
+migration. Des tests HTTP et l'inventaire réel sont exécutés automatiquement
+en CI sur chaque modification pertinente.

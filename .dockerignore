@@ -1,0 +1,27 @@
+# Ne pas transmettre de fichiers privés au daemon Docker.
+.git
+.git/**
+.github
+.github/**
+node_modules
+node_modules/**
+**/node_modules
+.env
+.env.*
+**/.env
+**/.env.*
+*.pem
+*.p12
+*.pfx
+*.key
+*.keystore
+*.jks
+*.db
+*.sqlite
+*.sqlite3
+**/secrets
+**/secrets/**
+**/private-keys
+**/private-keys/**
+account-config.local.js
+**/account-config.local.js

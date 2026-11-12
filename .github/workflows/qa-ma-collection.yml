@@ -51,6 +51,8 @@ jobs:
           node --test tests/studio-recovery.test.mjs
           node --test tests/catalogue-provenance.test.mjs
           node --test tests/emergency-catalogue.test.mjs
+          node --test tests/offline-catalogue-recovery.test.mjs
+          node services/catalogue-recovery/server.mjs --check
           node scripts/build-emergency-catalogue.mjs --output=/tmp/ma-collection-recovery.json
           node scripts/audit-catalogue-provenance.mjs
           node --test tests/custom-folders.test.cjs
