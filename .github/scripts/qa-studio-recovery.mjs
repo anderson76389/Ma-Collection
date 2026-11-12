@@ -20,6 +20,15 @@ try{
   await p.locator('[data-action=save]').click();
   await p.locator('[data-action=backup-now]').click();
   await p.waitForFunction(()=>document.querySelectorAll('.mc-studio-backup-item').length===1);
+  const created=await p.evaluate(()=>{
+    const c=window.collectionData[0];
+    return window.MaCollectionCustomFolders.createRecord({
+      title:'Dossier personnel restaurable',categoryId:c.id,type:'COLLECTION',
+      tmdbId:451,mediaType:'MOVIE',region:'FR',
+      coverImageUrl:'',heroBackdropUrl:'',tileShape:'POSTER'
+    });
+  });
+  assert.equal(created.ok,true,'Création du dossier personnel impossible');
   await p.evaluate(()=>localStorage.setItem('test-secret-not-for-export','NEVER_IN_BACKUP_1234'));
   const [file]=await Promise.all([p.waitForEvent('download'),
     p.locator('[data-action=export-all]').click()]);
@@ -29,6 +38,7 @@ try{
   assert.equal(stored.schema,1);
   assert.equal(stored.profiles.length,1);
   assert.equal(stored.backups.length,1);
+  assert.equal(stored.customFolders.length,1);
   assert(!binary.toString('utf8').includes('NEVER_IN_BACKUP_1234'));
   await first.close();
 
@@ -42,6 +52,13 @@ try{
   });
   await p2.waitForFunction(()=>document.querySelectorAll('.mc-studio-profile-card').length===1);
   assert.equal(await p2.locator('.mc-studio-backup-item').count(),1);
+  const personal=await p2.evaluate(()=>({
+    saved:window.MaCollectionCustomFolders.readRecords().length,
+    live:window.collectionData.some(c=>(c.folders||[]).some(
+      f=>f.title==='Dossier personnel restaurable'))
+  }));
+  assert.equal(personal.saved,1);
+  assert.equal(personal.live,true);
   assert.equal(await p2.locator('[data-profile-name]').inputValue(),'Salon de secours');
   const [reexport]=await Promise.all([
     p2.waitForEvent('download'),p2.locator('[data-action=export-all]').click()
@@ -49,6 +66,7 @@ try{
   const verify=JSON.parse((await readFile(await reexport.path())).toString('utf8'));
   assert.equal(verify.profiles.length,1);
   assert.equal(verify.backups.length,1);
+  assert.equal(verify.customFolders.length,1);
   await restored.close();
-  console.log('STUDIO_REPRISE_COMPLETE_OK profils=1 historique=1 secretsExclus=true');
+  console.log('STUDIO_REPRISE_COMPLETE_OK profils=1 historique=1 dossiersPersonnels=1 secretsExclus=true');
 }finally{await browser.close();}
