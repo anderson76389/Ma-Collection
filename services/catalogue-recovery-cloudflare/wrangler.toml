@@ -1,7 +1,7 @@
 # Worker totalement distinct de kovelyx-cloud : aucun D1, token ou session.
 name = "ma-collection-catalogues"
 main = "./worker.mjs"
-compatibility_date = "2026-11-12"
+compatibility_date = "2026-10-30"
 workers_dev = true
 
 # Le Worker inspecte TOUTES les requêtes, même celles qui correspondent
