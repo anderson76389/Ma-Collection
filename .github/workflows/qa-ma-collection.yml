@@ -23,6 +23,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Tester sauvegardes et restauration sans dépendance externe
+        run: |
+          python3 -m unittest discover -s tests -p test_portable_backup.py -v
+          python3 -m unittest discover -s tests -p test_rehost_ma_art.py -v
       - name: Vérifier l'inventaire des médias sans téléchargement
         run: |
           python3 -m py_compile scripts/media_migration.py
