@@ -52,6 +52,9 @@ test('lire uniquement le workers.dev déployé, jamais un lien arbitraire ou un 
     'https://ma-collection-catalogues.foo.workers.dev@evil.com'
   ])assert.throws(()=>validatedOrigin(invalid));
   assert.throws(()=>originFromDeployOutput('Build complete, no live URL'));
+  assert.throws(()=>originFromDeployOutput('https://ma-collection-catalogues.foo.workers.dev.evil.example'));
+  assert.throws(()=>originFromDeployOutput(domain+' '+ 'https://ma-collection-catalogues.autre.workers.dev'));
+
 });
 
 test('relecture intégrale du déploiement : vrais IDs, ordre, hash et page suivante',async()=>{
