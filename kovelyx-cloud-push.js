@@ -217,7 +217,9 @@
       const parts = split(payload);
       const hash = await sha256(bytes);
       if (old?.sha256 === hash) {
-        status("Les mêmes catalogues sont déjà publiés sur ce profil. Aucun remplacement nécessaire.");
+        // Une empreinte déclarée n'est pas une preuve que tous les blocs sont lisibles.
+        await readCurrent(profileId, old);
+        status("Catalogues déjà présents et relus intégralement sur ce profil. Aucun remplacement nécessaire.");
         return;
       }
       for (let i = 0; i < parts.length; i++) {
@@ -241,7 +243,22 @@
           revision: old?.revision || 0
         }
       });
-      status("Catalogues publiés sur le profil Kovelyx. Sur PC, mobile et TV, ouvrez ce même profil et laissez la synchronisation se terminer.");
+      // Un HTTP 201 de l'écriture ne prouve pas que le profil relira l'archive
+      // (D1, pagination, résolution du hash et blocs peuvent échouer séparément).
+      // Vérifier la restitution sans republier ou écraser les données existantes.
+      try {
+        const saved = await existingHead(profileId);
+        if (!saved || saved.sha256 !== hash || saved.parts !== parts.length ||
+            saved.utf8Bytes !== bytes.length)
+          throw new Error("manifeste distant non confirmé");
+        const recovered = await readCurrent(profileId, saved);
+        if (JSON.stringify(recovered) !== payload)
+          throw new Error("contenu différent après relecture");
+      } catch (_) {
+        status("Envoi accepté par Kovelyx, mais la relecture complète n'est pas encore vérifiée. Vérifiez la synchronisation du profil avant de réessayer.", true);
+        return;
+      }
+      status("Catalogues publiés et relus intégralement sur ce profil Kovelyx. Sur PC, mobile et TV, ouvrez le même profil pour synchroniser.");
     } catch (error) {
       status(error.message || "Publication impossible ; les catalogues existants sont conservés.",true);
     } finally { setBusy(false); }

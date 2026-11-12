@@ -28,6 +28,34 @@ class OfflineBackupTest(unittest.TestCase):
              "workflow_run":{"id":88},"id":4,"created_at":"2026-11-11"}
         ],"kovelyx-d1-encrypted-backup-"))
 
+    def test_fallback_to_last_successful_artifact(self):
+        entries=[
+            {"id":3,"name":"ma-art-portable-prive","expired":False,
+             "workflow_run":{"id":30},"created_at":"2026-11-12T12:00:00Z"},
+            {"id":2,"name":"ma-art-portable-prive","expired":False,
+             "workflow_run":{"id":20},"created_at":"2026-11-11T12:00:00Z"},
+            {"id":1,"name":"ma-art-portable-prive","expired":True,
+             "workflow_run":{"id":10},"created_at":"2026-11-10T12:00:00Z"}
+        ]
+        original=app.gh
+        called=[]
+        def fake_gh(*args):
+            called.append(args[-1])
+            if "/actions/artifacts?" in args[-1]:
+                return json.dumps({"artifacts":entries}).encode()
+            if args[-1].endswith("/30"):
+                return json.dumps({"status":"completed","conclusion":"failure"}).encode()
+            if args[-1].endswith("/20"):
+                return json.dumps({"status":"completed","conclusion":"success"}).encode()
+            raise AssertionError("Unexpected network request")
+        try:
+            app.gh=fake_gh
+            result=app.artifact_for("owner/private","ma-art-portable-prive")
+            self.assertEqual(result["id"],2)
+            self.assertEqual(len(called),3)
+        finally:
+            app.gh=original
+
     def test_ciphertext_must_match_manifest(self):
         with tempfile.TemporaryDirectory() as tmp:
             d=Path(tmp);sql=b"x"*1024

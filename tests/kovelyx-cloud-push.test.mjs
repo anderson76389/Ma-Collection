@@ -7,7 +7,7 @@ import { webcrypto } from "node:crypto";
 const source = readFileSync(new URL("../kovelyx-cloud-push.js", import.meta.url), "utf8");
 const read = path => readFileSync(new URL("../"+path, import.meta.url), "utf8");
 
-function harness({ready=true, cloudError=null}={}) {
+function harness({ready=true, cloudError=null, readbackCorrupt=false, readbackUnavailable=false}={}) {
   const elements = new Map();
   class Element {
     constructor(tag="div") {
@@ -38,7 +38,8 @@ function harness({ready=true, cloudError=null}={}) {
     head:new Element(),body:new Element(),
     addEventListener(){}
   };
-  const calls=[],published=[];
+  const calls=[],published=[],chunks=new Map();
+  let activeHead=null;
   const profile="11111111-1111-4111-8111-111111111111";
   const initial=[{id:"discover",title:"Découverte",folders:[{id:"trending",title:"Ancien",sources:[]}]}];
   const exportText=JSON.stringify(initial);
@@ -49,14 +50,28 @@ function harness({ready=true, cloudError=null}={}) {
       if(cloudError && path==="/v1/catalogue-manifest") throw new Error(cloudError);
       if(path==="/v1/profiles")
         return new Response(JSON.stringify({profiles:[{id:profile,displayName:"Principal"}]}),{status:200});
-      if(path.includes("/v1/sync"))
-        return new Response(JSON.stringify({items:[],nextOffset:null}),{status:200});
+      if(path.includes("/v1/sync")) {
+        if(readbackUnavailable && activeHead) throw new Error("D1 n'a pas répondu");
+        if(path.includes("snapshotKind=collections")) {
+          const hash=new URL("https://worker.example"+path).searchParams.get("snapshotHash");
+          const rows=hash===activeHead?.sha256?[...chunks.values()].sort((a,b)=>a.index-b.index)
+            .map(item=>({payload:readbackCorrupt?{...item,text:"corrompu"}:item})):[];
+          return new Response(JSON.stringify({items:rows,nextOffset:null}),{status:200});
+        }
+        const items=activeHead?[{category:"preferences",itemKey:"catalogue_collections",
+          deleted:false,revision:1,payload:{schema:1,sha256:activeHead.sha256,
+            parts:activeHead.parts,utf8Bytes:activeHead.utf8Bytes}}]:[];
+        return new Response(JSON.stringify({items,nextOffset:null}),{status:200});
+      }
       if(path==="/v1/catalogue-manifest") {
         published.push(options.body);
+        activeHead=options.body;
         return new Response(JSON.stringify({revision:1}),{status:201});
       }
-      if(path==="/v1/catalogue-chunk")
+      if(path==="/v1/catalogue-chunk") {
+        chunks.set(options.body.payload.index, options.body.payload);
         return new Response(JSON.stringify({revision:1}),{status:201});
+      }
       throw new Error("Unexpected path: "+path);
     }
   };
@@ -122,6 +137,25 @@ test("publication réelle : profil UUID, blocs, empreinte, manifest validé en d
     b=>b.toString(16).padStart(2,"0")).join("");
   assert.equal(head.sha256,hash);
   assert.match(h.elements.get("mc-kovelyx-cloud-status").textContent,/publiés/);
+});
+
+test("un accusé HTTP 201 ne suffit pas : tous les blocs doivent être relus et validés",async()=>{
+  const h=harness({readbackCorrupt:true});
+  await h.api.open();
+  await h.api.publish();
+  assert.equal(h.published.length,1,"Le Worker a bien enregistré le manifeste");
+  assert.equal(h.elements.get("mc-kovelyx-cloud-status").dataset.error,"true");
+  assert.match(h.elements.get("mc-kovelyx-cloud-status").textContent,/relecture complète/);
+  assert.doesNotMatch(h.elements.get("mc-kovelyx-cloud-status").textContent,/publiés et relus/);
+});
+
+test("une relecture momentanément indisponible ne provoque pas un second envoi",async()=>{
+  const h=harness({readbackUnavailable:true});
+  await h.api.open();
+  await h.api.publish();
+  assert.equal(h.published.length,1);
+  assert.equal(h.elements.get("mc-kovelyx-cloud-status").dataset.error,"true");
+  assert.equal(h.calls.filter(x=>x.path==="/v1/catalogue-manifest").length,1);
 });
 
 test("Worker ancien : aucun bloc et aucun succès trompeur",async()=>{
