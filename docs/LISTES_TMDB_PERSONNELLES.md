@@ -94,7 +94,7 @@ Chaque copie :
 
 **Aucun JSON public n'est modifié** pendant cette étape. Si TMDB refuse temporairement une création (limitation anti-spam ou API), le processus s'arrête et conserve les copies déjà validées. Ne relance pas agressivement les créations.
 
-Une exécution automatique est également prévue chaque jour tant que le compte TMDB est autorisé. Elle n'implique pas que 262 listes peuvent être créées instantanément : TMDB peut imposer des limites ou des restrictions de publication.
+Après l'erreur HTTP 401/code 36 relevée sur les exécutions planifiées, **l'exécution quotidienne est limitée au plan en lecture seule** pour éviter les écritures répétées avec un jeton non autorisé. La copie est déclenchée manuellement (operation=copy) après correction des autorisations. Une automatisation des créations pourra être réactivée seulement après une première copie manuelle validée. TMDB peut imposer des limites ou restrictions de publication.
 
 La progression est enregistrée dans : data/tmdb-own-lists/mapping.json
 
