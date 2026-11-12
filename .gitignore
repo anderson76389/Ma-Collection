@@ -38,3 +38,7 @@ sample_translations.txt
 
 # Local generated logs and caches
 *.log
+
+# Bundle Cloudflare généré uniquement depuis les archives validées
+/services/catalogue-recovery-cloudflare/dist/
+/services/catalogue-recovery-cloudflare/.wrangler/
