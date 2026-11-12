@@ -20,6 +20,30 @@ Il n'a besoin d'aucun VPS, Docker, D1, KV, R2, appel à Kaptain ni API TMDB.
 - Chaque liste restituée est à nouveau contrôlée avec WebCrypto SHA-256.
 - Les requêtes sont en lecture seule : GET, HEAD, OPTIONS. Aucun secret.
 
+## Deux canaux de publication, un seul code Worker
+
+Le Worker `ma-collection` a été créé avec une connexion Git dans Cloudflare.
+Des **Workers Builds automatiques** peuvent donc publier à chaque push sur
+la branche principale, en parallèle du workflow GitHub manuel. Le 13 novembre,
+un second déploiement a remplacé la version de catalogues par un site HTML ;
+le domaine répondait `200 text/html` sur `/` et `404` sur `/health`.
+
+Pour empêcher qu'une compilation automatique du dépôt racine publie le
+mauvais contenu, `/wrangler.toml` pointe désormais **exactement sur le même
+`worker-inline.mjs`** que le déploiement manuel. Son bloc `[build]` génère
+automatiquement les archives SHA-256 avant `wrangler deploy` ; le site
+`index.html` demeure hébergé sur GitHub Pages. Un test de conformité et deux
+builds Wrangler distincts vérifient la cohérence avant fusion.
+
+Après publication, le workflow vérifie aussi en lecture seule l'état public
+`workers.dev` (et l'active uniquement si désactivé), attend la propagation
+de `/health`, puis relit les **261 listes**. L'identité du Worker et son
+URL restent figées, sans dépendance à Kaptain ni API de catalogues tierce.
+
+Pour éliminer les déploiements en double, il sera préférable de garder **un
+seul canal de publication à terme**. Le site GitHub Pages et les Workers
+Kovelyx/Ma-Art ne sont pas concernés par ces réglages.
+
 ## Tests automatiques
 
 Dans la branche principale, le workflow
