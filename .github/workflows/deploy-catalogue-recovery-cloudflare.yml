@@ -6,7 +6,7 @@ on:
         type: boolean
         required: true
         default: false
-        description: "Je confirme le déploiement du Worker ma-collection-catalogues sur mon compte Cloudflare"
+        description: "Je confirme le déploiement du Worker ma-collection sur mon compte Cloudflare"
 permissions:
   contents: read
 concurrency:
@@ -39,7 +39,7 @@ jobs:
           node --test tests/cloudflare-catalogue-recovery.test.mjs tests/cloudflare-verify-live.test.mjs
           node services/catalogue-recovery-cloudflare/prepare-inline.mjs
           node --test tests/cloudflare-inline-bundle.test.mjs
-      - name: Déployer le seul Worker ma-collection-catalogues
+      - name: Déployer le seul Worker ma-collection
         shell: bash
         run: |
           set -euo pipefail
