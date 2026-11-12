@@ -6,7 +6,7 @@ import {join,sep} from 'node:path';
 import {webcrypto} from 'node:crypto';
 import worker from '../services/catalogue-recovery-cloudflare/worker.mjs';
 import {prepareAssets} from '../services/catalogue-recovery-cloudflare/prepare-assets.mjs';
-import {originFromDeployOutput,validatedOrigin,verifyLive} from '../services/catalogue-recovery-cloudflare/verify-live.mjs';
+import {originFromDeployOutput,validatedOrigin,verifyLive,awaitPublicHealth} from '../services/catalogue-recovery-cloudflare/verify-live.mjs';
 import {loadEmergencyInputs,emergencyRecovery} from '../scripts/build-emergency-catalogue.mjs';
 
 if(!globalThis.crypto)globalThis.crypto=webcrypto;
@@ -91,4 +91,25 @@ test('la vérification échoue si les assets sont accessibles directement',async
     return localFetch(input,options);
   };
   await assert.rejects(()=>verifyLive(domain,archive,openFetch),/HTTP 200 au lieu de 404/);
+});
+
+test('attendre la route workers.dev sans relire 261 listes pendant la propagation',async()=>{
+  let count=0;
+  const fetcher=async()=>{
+    count++;
+    return count<3?new Response('Not Found',{status:404}):
+      new Response(JSON.stringify({service:'ma-collection-offline-tmdb-recovery'}),{
+        status:200,headers:{'content-type':'application/json'}
+      });
+  };
+  const waits=[];
+  assert.equal(await awaitPublicHealth(domain,fetcher,{attempts:4,delayMs:2,sleep:async ms=>waits.push(ms)}),true);
+  assert.equal(count,3);
+  assert.deepEqual(waits,[2,2]);
+});
+
+test('ne pas déclarer la route opérationnelle si /health reste inaccessible',async()=>{
+  await assert.rejects(()=>awaitPublicHealth(domain,async()=>new Response('Not Found',{status:404}),{
+    attempts:2,delayMs:0,sleep:async()=>{}
+  }),/HTTP 404/);
 });
