@@ -4,6 +4,8 @@ on:
     branches: [main]
     paths:
       - 'scripts/audit-catalogue-provenance.mjs'
+      - 'scripts/triage-catalogue-dependencies.mjs'
+      - 'tests/triage-catalogue-dependencies.test.mjs'
       - 'scripts/build-emergency-catalogue.mjs'
       - 'tests/emergency-catalogue.test.mjs'
       - 'services/catalogue-recovery/**'
@@ -15,6 +17,8 @@ on:
     branches: [main]
     paths:
       - 'scripts/audit-catalogue-provenance.mjs'
+      - 'scripts/triage-catalogue-dependencies.mjs'
+      - 'tests/triage-catalogue-dependencies.test.mjs'
       - 'data/catalogue-archives/tmdb/**'
       - 'collections/*.json'
       - '.github/workflows/catalogue-provenance.yml'
@@ -44,6 +48,10 @@ jobs:
           node services/catalogue-recovery/server.mjs --check
       - name: Comparer les vrais SHA-256 et recenser Trakt/TMDB/addons
         run: node scripts/audit-catalogue-provenance.mjs --output=/tmp/provenance-ma-collection.json
+      - name: Cartographier les dépendances jusqu'aux dossiers sans copie de tiers
+        run: |
+          node --test tests/triage-catalogue-dependencies.test.mjs
+          node scripts/triage-catalogue-dependencies.mjs --output=/tmp/triage-sources-externes.json
       - name: Reconstituer les listes TMDB archivées, sans contacter d'API
         run: node scripts/build-emergency-catalogue.mjs --output=/tmp/ma-collection-recovery.json
       - name: Publier uniquement l'inventaire technique, sans token ni données privées
@@ -53,6 +61,7 @@ jobs:
           name: provenance-catalogues
           path: |
             /tmp/provenance-ma-collection.json
+            /tmp/triage-sources-externes.json
             /tmp/ma-collection-recovery.json
           retention-days: 30
           if-no-files-found: ignore
