@@ -1,0 +1,45 @@
+name: Surveiller Ma-Collection Cloudflare sans clés ni surcharge
+on:
+  schedule:
+    - cron: '41 6 * * 1-6' # 4 requêtes par jour, du lundi au samedi
+    - cron: '17 6 * * 0'   # vérification complète des 261 listes le dimanche
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/monitor-ma-collection.mjs'
+      - '.github/workflows/monitor-ma-collection.yml'
+  workflow_dispatch:
+    inputs:
+      full:
+        type: boolean
+        default: false
+        description: "Relire toutes les 261 listes (au lieu du contrôle rapide)"
+permissions:
+  contents: read
+concurrency:
+  group: ma-collection-live-monitor
+  cancel-in-progress: false
+jobs:
+  monitor:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Contrôler les erreurs et les protections sans réseau
+        run: node --test tests/monitor-ma-collection.test.mjs
+      - name: Vérifier la disponibilité publique et les archives
+        shell: bash
+        env:
+          FULL: ${{ (github.event_name == 'schedule' && github.event.schedule == '17 6 * * 0') || (github.event_name == 'workflow_dispatch' && inputs.full) }}
+        run: |
+          set -euo pipefail
+          if [[ "$FULL" == "true" ]]; then
+            node scripts/monitor-ma-collection.mjs --full
+          else
+            node scripts/monitor-ma-collection.mjs --quick
+          fi
