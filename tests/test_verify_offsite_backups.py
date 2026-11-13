@@ -25,6 +25,7 @@ def fake_zip(path,project):
         z.writestr("BACKUP-MANIFEST.json",json.dumps(meta))
 
 def make_lot(folder,now,include=("Ma-Collection","Ma-Art","Kovelyx-D1")):
+    folder.mkdir(parents=True,exist_ok=True)
     info={"schema":1,"created_utc":now.isoformat(),"projects":{},"missing":[],
           "complete":len(include)==3}
     for project in include:
