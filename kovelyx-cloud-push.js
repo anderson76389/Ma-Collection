@@ -106,6 +106,14 @@
     const client = account();
     if (!client?.cloudFetch) throw new Error("Compte Kovelyx Cloudflare indisponible. Rechargez la page.");
     const response = await client.cloudFetch(path, options);
+    // Défense supplémentaire si un client Cloud alternatif retourne une
+    // réponse HTTP d'erreur sans lever d'exception. Ne jamais considérer
+    // un 401, 409, 429 ou 503 comme une confirmation de publication.
+    if (!response || !response.ok) {
+      const code = Number.isInteger(response?.status) ? response.status : 0;
+      throw new Error("Kovelyx Cloudflare a refusé la demande (HTTP " + code +
+        ")." + (code === 409 ? " Conflit de révision : aucun remplacement." : ""));
+    }
     return response.json();
   }
   async function pagedSync(profileId, kind, hash) {

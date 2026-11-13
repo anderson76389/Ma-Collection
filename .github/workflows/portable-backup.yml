@@ -37,7 +37,9 @@ jobs:
         with:
           python-version: '3.12'
       - name: Tester le format, la sécurité et la restauration
-        run: python3 -m unittest discover -s tests -p test_portable_backup.py -v
+        run: |
+          python3 -m unittest discover -s tests -p test_portable_backup.py -v
+          python3 -m unittest discover -s tests -p test_verify_offsite_backups.py -v
       - name: Contrôler l'indépendance avant archivage
         run: |
           node scripts/audit-kaptain-complet.mjs
