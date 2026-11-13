@@ -7,7 +7,7 @@ import { webcrypto } from "node:crypto";
 const source = readFileSync(new URL("../kovelyx-cloud-push.js", import.meta.url), "utf8");
 const read = path => readFileSync(new URL("../"+path, import.meta.url), "utf8");
 
-function harness({ready=true, cloudError=null, readbackCorrupt=false, readbackUnavailable=false}={}) {
+function harness({ready=true, cloudError=null, readbackCorrupt=false, readbackUnavailable=false, chunkErrorStatus=null, manifestErrorStatus=null, confirmReplace=true}={}) {
   const elements = new Map();
   class Element {
     constructor(tag="div") {
@@ -64,11 +64,13 @@ function harness({ready=true, cloudError=null, readbackCorrupt=false, readbackUn
         return new Response(JSON.stringify({items,nextOffset:null}),{status:200});
       }
       if(path==="/v1/catalogue-manifest") {
+        if(manifestErrorStatus) return new Response(JSON.stringify({error:"refus distant"}),{status:manifestErrorStatus,headers:{"content-type":"application/json"}});
         published.push(options.body);
         activeHead=options.body;
         return new Response(JSON.stringify({revision:1}),{status:201});
       }
       if(path==="/v1/catalogue-chunk") {
+        if(chunkErrorStatus) return new Response(JSON.stringify({error:"refus distant"}),{status:chunkErrorStatus,headers:{"content-type":"application/json"}});
         chunks.set(options.body.payload.index, options.body.payload);
         return new Response(JSON.stringify({revision:1}),{status:201});
       }
@@ -79,7 +81,7 @@ function harness({ready=true, cloudError=null, readbackCorrupt=false, readbackUn
     MaCollectionAccount:account,
     MaCollectionBackendConfig:{current:()=>({url:"https://worker.example"})},
     MaCollectionKovelyx:{buildExport:async()=>exportText},
-    confirm:()=>true,
+    confirm:()=>confirmReplace,
   };
   const context={
     window,document,crypto:webcrypto,
@@ -186,4 +188,42 @@ test("compte web = Better Auth / Cloudflare, jamais Supabase",()=>{
   assert.doesNotMatch(account,/\/rest\/v1\/|\/auth\/v1\/|supabaseUrl/);
   assert.doesNotMatch(config,/sb_secret_|supabaseUrl/);
   assert.match(read("index.html"),/kovelyx-cloud-push\.js/);
+});
+
+test("un échec HTTP de transfert ne valide jamais le manifeste",async()=>{
+  const h=harness({chunkErrorStatus:503});
+  await h.api.open();
+  await h.api.publish();
+  assert.equal(h.calls.filter(x=>x.path==="/v1/catalogue-manifest").length,0);
+  assert.equal(h.published.length,0);
+  assert.equal(h.elements.get("mc-kovelyx-cloud-status").dataset.error,"true");
+  assert.match(h.elements.get("mc-kovelyx-cloud-status").textContent,/HTTP 503/);
+});
+
+test("un conflit HTTP 409 renvoyé sans exception reste bloquant",async()=>{
+  const h=harness({manifestErrorStatus:409});
+  await h.api.open();
+  await h.api.publish();
+  assert.equal(h.published.length,0);
+  assert.equal(h.elements.get("mc-kovelyx-cloud-status").dataset.error,"true");
+  assert.match(h.elements.get("mc-kovelyx-cloud-status").textContent,/Conflit de révision/);
+});
+
+test("le mode Remplacer annulé ne transmet aucune donnée",async()=>{
+  const h=harness({confirmReplace:false});
+  await h.api.open();
+  h.elements.get("mc-kovelyx-cloud-mode").value="replace";
+  await h.api.publish();
+  assert.equal(h.calls.filter(x=>x.path==="/v1/catalogue-chunk").length,0);
+  assert.equal(h.published.length,0);
+});
+
+test("le client ne publie jamais vers un profil non retourné par le Worker",async()=>{
+  const h=harness();
+  await h.api.open();
+  h.elements.get("mc-kovelyx-cloud-profile").value="22222222-2222-4222-8222-222222222222";
+  await h.api.publish();
+  assert.equal(h.published.length,0);
+  assert.equal(h.calls.filter(x=>x.path==="/v1/catalogue-chunk").length,0);
+  assert.match(h.elements.get("mc-kovelyx-cloud-status").textContent,/profil.*valide/i);
 });
