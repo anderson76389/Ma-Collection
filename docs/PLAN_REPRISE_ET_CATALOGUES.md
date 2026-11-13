@@ -29,6 +29,35 @@ ne font pas partie de l'archive Studio : exporter le coffre avec son propre
 mécanisme sécurisé, ou conserver les clés exclusivement dans ton gestionnaire
 de mots de passe. Ne pas exporter le localStorage en bloc.
 
+## Relecture des archives conservées hors ligne (novembre 2026)
+
+Sur Windows avec Python 3.10+ et GitHub CLI déjà connecté, récupérer une
+copie **en dehors des dépôts** :
+
+```powershell
+python scripts/collect-offsite-backups.py --destination "D:\\Sauvegardes\\Ma-Collection"
+```
+
+Puis, après transfert de tout le dossier `ma-collection-secours-AAAAMMJJ...`
+vers **un autre disque ou fournisseur**, vérifier chaque ZIP, le manifeste
+chiffré D1, tous les SHA-256 et la fraîcheur **sans Internet** :
+
+```powershell
+python scripts/verify-offsite-backups.py --directory "D:\\Sauvegardes\\Ma-Collection\\ma-collection-secours-AAAAMMJJTHHMMSSZ"
+```
+
+La commande refuse par défaut une archive de plus de **45 jours**, une copie
+altérée, un chemin non sûr, un fichier supplémentaire ou l'absence d'un des
+trois projets. `--allow-incomplete` sert seulement au diagnostic et n'atteste
+**pas** une reprise complète. L'archive Studio exportée depuis le navigateur
+est à conserver **séparément** ; ni les clés D1 privées ni les sessions
+Kovelyx ne sont incluses dans ces ZIP.
+
+**Limite réelle :** GitHub Actions crée un ZIP temporaire, mais ne peut pas
+garantir sa conservation hors de GitHub. La collecte sur le PC, la copie sur
+un second support et le test de restauration d'une vraie archive Ma-Art
+privée restent des gestes à effectuer chez le propriétaire.
+
 ## Étape 2 : panne de Kaptain, de GitHub ou de Cloudflare
 
 - Restaurer le ZIP Ma-Collection dans un dossier neuf : voir
@@ -149,9 +178,11 @@ en CI sur chaque modification pertinente.
 ## Secours des listes TMDB en Cloudflare Workers natif (sans Docker)
 
 Le dossier [catalogue-recovery-cloudflare](../services/catalogue-recovery-cloudflare/README.md)
-contient désormais un Worker JavaScript sans D1 ni appels externes. Il utilise
-un binding **Workers Static Assets**, préparé depuis les 261 instantanés de listes
-TMDB archivées, et vérifie les empreintes SHA-256 avant de répondre.
+contient désormais un Worker JavaScript sans D1 ni appels externes. Les
+261 listes sont **embarquées dans un module ESM**, sans Workers Static Assets,
+avec empreintes SHA-256 vérifiées avant de répondre. Le Worker dédié
+`ma-collection` a été réellement déployé et ses 261 listes relues via
+`workers.dev` le 13 novembre 2026.
 
 Le Worker est **indépendant des Workers des comptes Kovelyx et des médias
 Ma-Art**. Il ne change aucun catalogue actif ni l'interface. Son déploiement
