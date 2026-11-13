@@ -171,6 +171,41 @@ await test('responsive mobile : Studio à l’intérieur du viewport',async()=>{
   assert(report.left>=0 && report.right<=report.width+1,'Studio dépasse la largeur du téléphone');
   await page.locator('[data-action=close]').click();
 });
+await test('petits écrans : onglets Studio utilisables en 320, 360 et 768 px',async()=>{
+  const mobile=await browser.newPage({viewport:{width:360,height:740},acceptDownloads:true});
+  mobile.setDefaultTimeout(14000);
+  const jsErrors=[];
+  mobile.on('pageerror',error=>jsErrors.push(error.message));
+  try{
+    await mobile.goto(base,{waitUntil:'domcontentloaded',timeout:45000});
+    await mobile.waitForFunction(()=>window.MaCollectionStudio?.open&&window.collectionData?.length>=16,
+      null,{timeout:60000});
+    const before=await mobile.evaluate(()=>JSON.stringify(window.collectionData));
+    for(const width of [320,360,768]){
+      await mobile.setViewportSize({width,height:740});
+      await mobile.evaluate(()=>window.MaCollectionStudio.open());
+      const geometry=await mobile.locator('.mc-studio-panel').evaluate(el=>{
+        const r=el.getBoundingClientRect();
+        return {left:r.left,right:r.right,viewport:window.innerWidth};
+      });
+      assert(geometry.left>=-1&&geometry.right<=geometry.viewport+1,
+        'Studio déborde à '+width+'px : '+JSON.stringify(geometry));
+      for(const tab of ['organisation','affiches','profils','outils','bibliotheque','affiches-fr']){
+        const button=mobile.locator('[data-tab="'+tab+'"]');
+        await button.click();
+        assert.equal(await button.getAttribute('aria-selected'),'true',
+          'Onglet non sélectionnable : '+tab+' à '+width+'px');
+      }
+      assert(await mobile.locator('[data-action=close]').isVisible(),
+        'Fermeture du Studio inaccessible à '+width+'px');
+      await mobile.locator('[data-action=close]').click();
+      assert(await mobile.locator('#mc-studio-root').isHidden());
+    }
+    assert.equal(await mobile.evaluate(()=>JSON.stringify(window.collectionData)),before,
+      'La navigation mobile du Studio ne doit modifier aucune collection');
+    assert.deepEqual(jsErrors,[]);
+  }finally{await mobile.close();}
+});
 await test('historique persistant : sauvegarde, rechargement, restauration et export',async()=>{
   const history=await browser.newPage({viewport:{width:1160,height:870},acceptDownloads:true});
   history.setDefaultTimeout(12000);
