@@ -27,6 +27,7 @@ jobs:
         run: |
           python3 -m unittest discover -s tests -p test_portable_backup.py -v
           python3 -m unittest discover -s tests -p test_collect_offsite_backups.py -v
+          python3 -m unittest discover -s tests -p test_verify_offsite_backups.py -v
           python3 -m unittest discover -s tests -p test_rehost_ma_art.py -v
           python3 -m unittest discover -s tests -p test_site_links.py -v
           python3 scripts/audit-site-links.py
@@ -44,12 +45,13 @@ jobs:
           node scripts/audit-kaptain-complet.mjs
           node --test tests/renommage-ma-collection.test.mjs
           node --test tests/kovelyx-cloud-push.test.mjs
+          node --test tests/monitor-ma-collection.test.mjs
           node --test tests/account-config-resilience.test.mjs
           node --test tests/kovelyx-better-auth.test.mjs
           node --test tests/studio-avance.test.mjs
           node --test tests/kaptain-url-security.test.mjs
           node --test tests/studio-recovery.test.mjs
-          node --test tests/catalogue-provenance.test.mjs
+          node --test tests/catalogue-provenance.test.mjs tests/triage-catalogue-dependencies.test.mjs
           node --test tests/emergency-catalogue.test.mjs
           node --test tests/offline-catalogue-recovery.test.mjs
           node services/catalogue-recovery/server.mjs --check
