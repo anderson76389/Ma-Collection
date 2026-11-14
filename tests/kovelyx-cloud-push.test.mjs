@@ -7,7 +7,7 @@ import { webcrypto } from "node:crypto";
 const source = readFileSync(new URL("../kovelyx-cloud-push.js", import.meta.url), "utf8");
 const read = path => readFileSync(new URL("../"+path, import.meta.url), "utf8");
 
-function harness({ready=true, cloudError=null, readbackCorrupt=false, readbackUnavailable=false, chunkErrorStatus=null, manifestErrorStatus=null, confirmReplace=true}={}) {
+function harness({ready=true, cloudError=null, readbackCorrupt=false, readbackUnavailable=false, chunkErrorStatus=null, manifestErrorStatus=null, posterErrorStatus=null, confirmReplace=true}={}) {
   const elements = new Map();
   class Element {
     constructor(tag="div") {
@@ -28,10 +28,21 @@ function harness({ready=true, cloudError=null, readbackCorrupt=false, readbackUn
   const ids=[
     "mc-kovelyx-cloud-account","mc-kovelyx-cloud-login","mc-kovelyx-cloud-reload",
     "mc-kovelyx-cloud-profile","mc-kovelyx-cloud-mode","mc-kovelyx-cloud-status",
-    "mc-kovelyx-cloud-cancel","mc-kovelyx-cloud-send"
+    "mc-kovelyx-cloud-cancel","mc-kovelyx-cloud-send",
+    "mc-kovelyx-cloud-poster-provider","mc-kovelyx-cloud-bttr",
+    "mc-kovelyx-cloud-bttr-source","mc-kovelyx-cloud-bttr-lang",
+    "mc-kovelyx-cloud-bttr-genre","mc-kovelyx-cloud-bttr-rating",
+    "mc-kovelyx-cloud-bttr-quality","mc-kovelyx-cloud-bttr-age",
+    "mc-kovelyx-cloud-bttr-preview","mc-kovelyx-cloud-bttr-preview-status",
+    "mc-kovelyx-cloud-sources"
   ];
   for(const id of ids) elements.set(id,new Element(id.includes("mode")||id.includes("profile")?"select":"div"));
   elements.get("mc-kovelyx-cloud-mode").value="merge";
+  elements.get("mc-kovelyx-cloud-poster-provider").value="keep";
+  elements.get("mc-kovelyx-cloud-bttr-source").value="Average";
+  elements.get("mc-kovelyx-cloud-bttr-lang").value="fr";
+  elements.get("mc-kovelyx-cloud-bttr-genre").checked=true;
+  elements.get("mc-kovelyx-cloud-bttr-rating").checked=true;
   const document={
     createElement: tag=>new Element(tag),
     getElementById: id=>elements.get(id),
@@ -39,9 +50,9 @@ function harness({ready=true, cloudError=null, readbackCorrupt=false, readbackUn
     addEventListener(){}
   };
   const calls=[],published=[],chunks=new Map();
-  let activeHead=null;
+  let activeHead=null, posterRow=null;
   const profile="11111111-1111-4111-8111-111111111111";
-  const initial=[{id:"discover",title:"Découverte",folders:[{id:"trending",title:"Ancien",sources:[]}]}];
+  const initial=[{id:"discover",title:"Découverte",folders:[{id:"trending",title:"Ancien",sources:[{provider:"tmdb",tmdbSourceType:"DISCOVER",mediaType:"movie"}]}]}];
   const exportText=JSON.stringify(initial);
   const account={
     status:()=>({cloudSignedIn:true,cloudEmail:"test@example.test"}),
@@ -50,6 +61,11 @@ function harness({ready=true, cloudError=null, readbackCorrupt=false, readbackUn
       if(cloudError && path==="/v1/catalogue-manifest") throw new Error(cloudError);
       if(path==="/v1/profiles")
         return new Response(JSON.stringify({profiles:[{id:profile,displayName:"Principal"}]}),{status:200});
+      if(path==="/v1/sync" && options.method==="POST") {
+        if(posterErrorStatus) return new Response(JSON.stringify({error:"Préférence refusée"}),{status:posterErrorStatus});
+        posterRow={category:"profile_settings",itemKey:options.body.itemKey,deleted:false,revision:1,payload:options.body.payload};
+        return new Response(JSON.stringify({revision:1}),{status:201});
+      }
       if(path.includes("/v1/sync")) {
         if(readbackUnavailable && activeHead) throw new Error("D1 n'a pas répondu");
         if(path.includes("snapshotKind=collections")) {
@@ -61,6 +77,7 @@ function harness({ready=true, cloudError=null, readbackCorrupt=false, readbackUn
         const items=activeHead?[{category:"preferences",itemKey:"catalogue_collections",
           deleted:false,revision:1,payload:{schema:1,sha256:activeHead.sha256,
             parts:activeHead.parts,utf8Bytes:activeHead.utf8Bytes}}]:[];
+        if(posterRow) items.push(posterRow);
         return new Response(JSON.stringify({items,nextOffset:null}),{status:200});
       }
       if(path==="/v1/catalogue-manifest") {
@@ -226,4 +243,72 @@ test("le client ne publie jamais vers un profil non retourné par le Worker",asy
   assert.equal(h.published.length,0);
   assert.equal(h.calls.filter(x=>x.path==="/v1/catalogue-chunk").length,0);
   assert.match(h.elements.get("mc-kovelyx-cloud-status").textContent,/profil.*valide/i);
+});
+
+test("motif Bttr identique au format accepté par Kovelyx PC (langue, source et options)",()=>{
+  const {api}=harness();
+  assert.equal(api.bttrPattern({}),"https://btttr.cc/poster/imdb/poster-default/{imdb_id}.jpg?lang=fr");
+  assert.equal(api.bttrPattern({genre:false,rating:false,quality:true,age:true,source:"IM",language:"en"}),
+    "https://btttr.cc/poster-nqa/imdb/poster-default/{imdb_id}.jpg?rs=IM");
+  assert.equal(api.bttrPattern({genre:false,rating:true,source:"TR",language:"fr"}),
+    "https://btttr.cc/poster-r/imdb/poster-default/{imdb_id}.jpg?lang=fr&rs=TR");
+});
+
+test("la publication reste sans réglage d’affiche si l’utilisateur choisit Conserver",async()=>{
+  const h=harness();
+  await h.api.open();
+  await h.api.publish();
+  assert.equal(h.calls.filter(x=>x.path==="/v1/sync" && x.options.method==="POST").length,0);
+  assert.equal(h.elements.get("mc-kovelyx-cloud-status").dataset.error,"false");
+  assert.match(h.elements.get("mc-kovelyx-cloud-sources").textContent,/1 dossiers sélectionnés.*1 sources TMDB/);
+});
+
+test("Bttr est publié comme préférence de profil après relecture complète des catalogues",async()=>{
+  const h=harness();
+  await h.api.open();
+  h.elements.get("mc-kovelyx-cloud-poster-provider").value="bttr";
+  h.elements.get("mc-kovelyx-cloud-bttr-source").value="TM";
+  h.elements.get("mc-kovelyx-cloud-bttr-quality").checked=true;
+  await h.api.publish();
+  const poster=h.calls.filter(x=>x.path==="/v1/sync" && x.options.method==="POST");
+  assert.equal(poster.length,1);
+  assert.equal(poster[0].options.body.profileId,h.profile);
+  assert.equal(poster[0].options.body.category,"profile_settings");
+  assert.equal(poster[0].options.body.itemKey,"visual_custom_poster_v1");
+  assert.equal(poster[0].options.body.payload.pattern,"https://btttr.cc/poster-q/imdb/poster-default/{imdb_id}.jpg?lang=fr&rs=TM");
+  assert.equal(poster[0].options.body.payload.allScreens,true);
+  assert.ok(h.calls.findIndex(x=>x.path==="/v1/sync" && x.options.method==="POST") >
+    h.calls.findIndex(x=>x.path==="/v1/catalogue-manifest"),"La préférence doit suivre le manifeste confirmé");
+  assert.equal(h.elements.get("mc-kovelyx-cloud-status").dataset.error,"false");
+  assert.match(h.elements.get("mc-kovelyx-cloud-status").textContent,/Better Posters est aussi synchronisé/);
+});
+
+test("une nouvelle option Bttr est envoyée même si les catalogues étaient déjà à jour",async()=>{
+  const h=harness();
+  await h.api.open();
+  await h.api.publish();
+  h.elements.get("mc-kovelyx-cloud-poster-provider").value="bttr";
+  await h.api.publish();
+  assert.equal(h.calls.filter(x=>x.path==="/v1/catalogue-manifest").length,1);
+  assert.equal(h.calls.filter(x=>x.path==="/v1/sync" && x.options.method==="POST").length,1);
+  assert.equal(h.elements.get("mc-kovelyx-cloud-status").dataset.error,"false");
+});
+
+test("un conflit de préférence n’est jamais annoncé comme un succès Better Posters",async()=>{
+  const h=harness({posterErrorStatus:409});
+  await h.api.open();
+  h.elements.get("mc-kovelyx-cloud-poster-provider").value="bttr";
+  await h.api.publish();
+  assert.equal(h.published.length,1,"Les catalogues restent publiés");
+  assert.equal(h.elements.get("mc-kovelyx-cloud-status").dataset.error,"true");
+  assert.match(h.elements.get("mc-kovelyx-cloud-status").textContent,/n’a PAS été synchronisé/);
+});
+
+test("l’audit local signale les dossiers sans sources sans inventer leurs contenus",()=>{
+  const {api}=harness();
+  const count=api.sourceSummary([{folders:[{sources:[]},{sources:[{provider:"trakt"},{provider:"addon"}]}]}]);
+  assert.equal(count.folders,2);
+  assert.equal(count.missing,1);
+  assert.equal(count.trakt,1);
+  assert.equal(count.addons,1);
 });
