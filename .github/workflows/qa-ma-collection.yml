@@ -48,7 +48,7 @@ jobs:
           node --test tests/monitor-ma-collection.test.mjs
           node --test tests/account-config-resilience.test.mjs
           node --test tests/kovelyx-better-auth.test.mjs
-          node --test tests/studio-avance.test.mjs
+          node --test tests/studio-avance.test.mjs tests/studio-collection-import.test.mjs
           node --test tests/kaptain-url-security.test.mjs
           node --test tests/studio-recovery.test.mjs
           node --test tests/catalogue-provenance.test.mjs tests/triage-catalogue-dependencies.test.mjs
