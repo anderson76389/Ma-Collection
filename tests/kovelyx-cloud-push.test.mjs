@@ -363,7 +363,7 @@ test("le résumé des catalogues indique les extensions requises mais ne fabriqu
 test("les deux entrées Cloud passent par la personnalisation avant l'ouverture du compte",()=>{
   const destination=read("destination-picker.js");
   const elements=new Map();
-  const make=()=>({hidden:true,addEventListener(){},appendChild(){},focus(){},classList:{contains:()=>false}});
+  const make=()=>({hidden:true,addEventListener(){},appendChild(){},setAttribute(){},focus(){},classList:{contains:()=>false}});
   const document={
     createElement:make, getElementById:id=>{
       if(!elements.has(id))elements.set(id,make());
