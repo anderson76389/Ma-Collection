@@ -21,7 +21,7 @@
     <div class="mc-destinations-grid">
       <button type="button" id="mc-choice-kovelyx-cloud" class="mc-destination-card">
         <strong>🟣 Kovelyx Cloud</strong>
-        <span>Publier sur votre compte Cloudflare : PC, Android et TV (même profil).</span>
+        <span>Personnaliser Bttr Posters avant la publication vers PC, Android et TV (même profil).</span>
       </button>
       <button type="button" id="mc-choice-kovelyx" class="mc-destination-card">
         <strong>💻 Kovelyx PC local</strong>
@@ -114,6 +114,18 @@
     if (window.MaCollectionImportStudio?.open) window.MaCollectionImportStudio.open("kovelyx",proceed);
     else proceed({});
   }
+  function startCloud() {
+    chooser.hidden = true;
+    const proceed = settings => {
+      const cloud = window.MaCollectionCloudPush;
+      if (!cloud?.open) return;
+      // Ne transférer que les préférences d'affiches, jamais les clés de l'assistant.
+      cloud.configurePoster?.(settings || {});
+      cloud.open();
+    };
+    if (window.MaCollectionImportStudio?.open) window.MaCollectionImportStudio.open("cloud", proceed);
+    else proceed({});
+  }
   function startNuvio() {
     chooser.hidden=true;
     const proceed=settings=>{
@@ -171,11 +183,7 @@
   byId("mc-destinations-close").addEventListener("click",closeChoice);
   byId("mc-nuvio-close").addEventListener("click",closeNuvio);
   byId("mc-choice-kovelyx").addEventListener("click",startKovelyx);
-  byId("mc-choice-kovelyx-cloud").addEventListener("click",()=>{
-    chooser.hidden=true;
-    if (!window.MaCollectionCloudPush?.open) return;
-    window.MaCollectionCloudPush.open();
-  });
+  byId("mc-choice-kovelyx-cloud").addEventListener("click",startCloud);
   byId("mc-choice-nuvio").addEventListener("click",startNuvio);
   byId("mc-nuvio-copy").addEventListener("click",()=>exportAction("copy"));
   byId("mc-nuvio-download").addEventListener("click",()=>exportAction("download"));
@@ -189,6 +197,6 @@
   document.getElementById("btn-import-kovelyx")?.addEventListener("click",open);
   window.MaCollectionDestination=Object.freeze({
     open,close(){closeChoice();closeNuvio();},
-    chooseKovelyx:startKovelyx,chooseCloud:()=>window.MaCollectionCloudPush?.open(),chooseNuvio:startNuvio,buildNuvioJSON
+    chooseKovelyx:startKovelyx,chooseCloud:startCloud,chooseNuvio:startNuvio,buildNuvioJSON
   });
 })();
