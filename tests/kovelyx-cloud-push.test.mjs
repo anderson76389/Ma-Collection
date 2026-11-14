@@ -312,3 +312,78 @@ test("l’audit local signale les dossiers sans sources sans inventer leurs cont
   assert.equal(count.trakt,1);
   assert.equal(count.addons,1);
 });
+
+
+test("Bttr choisi avant le compte est reporté sans transférer les clés sensibles",async()=>{
+  const h=harness();
+  const chosen={
+    posterProvider:"bttr", bttrGenre:false, bttrRating:true,
+    bttrQuality:true, bttrAge:false, bttrSource:"IM", bttrLanguage:"en",
+    tmdbKey:"SECRET-TMDB-NE-PAS-ENVOYER", realDebridKey:"SECRET-DEBRID"
+  };
+  assert.equal(h.api.configurePoster(chosen),true);
+  assert.equal(h.elements.get("mc-kovelyx-cloud-poster-provider").value,"bttr");
+  assert.equal(h.elements.get("mc-kovelyx-cloud-bttr").hidden,false);
+  assert.equal(h.elements.get("mc-kovelyx-cloud-bttr-genre").checked,false);
+  assert.equal(h.elements.get("mc-kovelyx-cloud-bttr-quality").checked,true);
+  assert.equal(h.elements.get("mc-kovelyx-cloud-bttr-source").value,"IM");
+  assert.equal(h.elements.get("mc-kovelyx-cloud-bttr-lang").value,"en");
+  assert.equal(h.calls.length,0,"La configuration seule ne doit effectuer aucun envoi");
+  await h.api.open();
+  await h.api.publish();
+  const preference=h.calls.find(row=>row.path==="/v1/sync" && row.options.method==="POST");
+  assert.equal(preference.options.body.payload.pattern,
+    "https://btttr.cc/poster-rq/imdb/poster-default/{imdb_id}.jpg?rs=IM");
+  assert.doesNotMatch(JSON.stringify(h.calls),/SECRET-TMDB|SECRET-DEBRID/);
+});
+
+test("le choix Conserver dans l'assistant Cloud ne publie pas de préférence Bttr",async()=>{
+  const h=harness();
+  h.api.configurePoster({posterProvider:"bttr",bttrSource:"RT"});
+  h.api.configurePoster({posterProvider:"none"});
+  assert.equal(h.elements.get("mc-kovelyx-cloud-poster-provider").value,"keep");
+  await h.api.open();
+  await h.api.publish();
+  assert.equal(h.calls.filter(row=>row.path==="/v1/sync" && row.options.method==="POST").length,0);
+});
+
+test("le résumé des catalogues indique les extensions requises mais ne fabrique pas de résultats",()=>{
+  const h=harness();
+  const count=h.api.sourceSummary([{folders:[{sources:[
+    {provider:"tmdb",tmdbSourceType:"LIST",tmdbId:"123"},
+    {provider:"addon",addonId:"aio-metadata",catalogId:"x"},
+    {provider:"addon",addonId:"comet",catalogId:"y"},
+    {provider:"addon",addonId:"aio-metadata",catalogId:"z"}]}]}]);
+  assert.deepEqual(Array.from(count.addonIds),["aio-metadata","comet"]);
+  assert.equal(count.addons,3);
+  assert.equal(count.tmdb,1);
+  assert.equal(count.missing,0);
+});
+
+test("les deux entrées Cloud passent par la personnalisation avant l'ouverture du compte",()=>{
+  const destination=read("destination-picker.js");
+  const elements=new Map();
+  const make=()=>({hidden:true,addEventListener(){},appendChild(){},focus(){},classList:{contains:()=>false}});
+  const document={
+    createElement:make, getElementById:id=>{
+      if(!elements.has(id))elements.set(id,make());
+      return elements.get(id);
+    },head:make(),body:make(),addEventListener(){},activeElement:make()
+  };
+  const actions=[];
+  let finish=null;
+  const window={
+    MaCollectionImportStudio:{open:(destination,cb)=>{actions.push("wizard:"+destination);finish=cb;}},
+    MaCollectionCloudPush:{
+      configurePoster:config=>actions.push("poster:"+config.posterProvider),
+      open:()=>actions.push("cloud:open")
+    }
+  };
+  vm.runInNewContext(destination,{window,document});
+  window.MaCollectionDestination.chooseCloud();
+  assert.deepEqual(actions,["wizard:cloud"]);
+  finish({posterProvider:"bttr",bttrLanguage:"fr"});
+  assert.deepEqual(actions,["wizard:cloud","poster:bttr","cloud:open"]);
+  assert.match(destination,/mc-choice-kovelyx-cloud"\)\.addEventListener\("click",startCloud\)/);
+  assert.match(read("kovelyx-export.js"),/MaCollectionDestination\?\.chooseCloud/);
+});
