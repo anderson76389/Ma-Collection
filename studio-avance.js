@@ -1,3 +1,4 @@
+import {MAX_BACKUP_BYTES,collectionBackupToDraft} from './studio-collection-import.mjs';
 import {
   STUDIO_LIMIT, STUDIO_FIELDS, STUDIO_SHAPES, assetUrl, cleanLabel,
   folderId, sourceKey, captureDraft, validateDraft, applyDraft,
@@ -20,6 +21,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
   const data=()=>Array.isArray(window.collectionData)?window.collectionData:[];
   const selections=()=>window.selectedMap||{};
   let profiles=[],draft=null,applied=null,originals=null,root=null;
+  let collectionImportPlan=null,collectionImportError='';
   let tab='organisation',selectedSection='',selectedFolder='',query='',message='';
   let dragging=null;
   let previewDevice='tv',globalQuery='',globalActiveOnly=false,globalNoCover=false,undoLast=null;
@@ -268,6 +270,31 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
         ' sauvegardes et '+newCustom.length+' dossiers personnels. Aucun changement appliqué aux catalogues.';
     }catch(error){message='Restauration refusée : '+error.message;}
     draw();
+  }
+  async function inspectBackup(file){
+    if(!file)return;
+    collectionImportPlan=null;collectionImportError='';
+    try{
+      if(file.size>MAX_BACKUP_BYTES)throw Error('Fichier trop volumineux (16 Mo maximum).');
+      const incoming=JSON.parse((await file.text()).replace(/^\uFEFF/,''));
+      collectionImportPlan=collectionBackupToDraft(incoming,data());
+      message='Fichier analysé localement. Vérifie le diagnostic avant de charger le brouillon.';
+    }catch(error){collectionImportError=error.message;}
+    draw();
+  }
+  function renderCollectionImport(){
+    const r=collectionImportPlan?.report;
+    return '<div class="mc-studio-column"><h3>Importer une collection Kovelyx / Nuvio</h3>'+
+      '<p class="mc-studio-hint">Ouvre une sauvegarde de catégories (.json) pour retrouver tes dossiers, leur ordre et leurs titres dans le Studio. Le fichier reste sur cet appareil.</p>'+
+      button('Choisir une sauvegarde JSON','collection-file')+'<input data-collection-file type="file" accept=".json,application/json" hidden>'+
+      (collectionImportError?'<p role="alert">'+esc(collectionImportError)+'</p>':'')+
+      (r?'<h4>Diagnostic de la sauvegarde</h4><p>'+r.categories+' catégories · '+r.folders+' dossiers · '+r.emptyFolders+' dossier(s) sans source</p>'+
+      '<p>'+r.addonSources+' sources d’extensions ('+r.addonInstances+' instance(s)) · '+r.tmdbSources+' sources TMDB · '+r.traktSources+' sources Trakt</p>'+
+      '<p class="mc-studio-hint">MDBList fournit les notes et le suivi du compte. Il ne remplace pas les extensions des catalogues. Les sources TMDB nécessitent une clé TMDB valide dans Kovelyx.</p>'+
+      '<p>'+r.kaptainImages+' liens d’images Kaptain détectés. La migration utilise les visuels indépendants déjà présents dans Ma-Collection.</p>'+
+      '<h4>Migration vers le catalogue Ma-Collection</h4><p>'+r.matchedFolders+' dossiers et '+r.matchedSources+' sources retrouvés. '+r.unmatchedFolders+' dossiers et '+r.unmatchedSources+' sources sans correspondance.</p>'+
+      '<p class="mc-studio-hint">Les définitions des sources viennent du catalogue actuel de Ma-Collection : certains contenus et filtres peuvent différer de ta sauvegarde. Les éléments sans correspondance ne seront pas sélectionnés. Conserve ton fichier original.</p>'+
+      button('Charger cette migration dans le brouillon','collection-load')+button('Télécharger le JSON pour Kovelyx','collection-download'):'')+'</div>';
   }
   async function importProfile(file){
     if(!file)return;
@@ -786,7 +813,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     const body=html();if(!body)return;
     root.querySelector('.mc-studio-title').textContent=draft.name;
     root.querySelectorAll('[data-tab]').forEach(x=>{x.classList.toggle('active',x.dataset.tab===tab);x.setAttribute('aria-selected',String(x.dataset.tab===tab));});
-    body.innerHTML=(tab==='organisation'?renderSections():tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():tab==='modifications'?renderChanges():tab==='outils'?renderWorkshop():tab==='bibliotheque'?renderArtLibrary():tab==='affiches-fr'?renderFrenchArt():renderProfiles());
+    body.innerHTML=(tab==='organisation'?renderSections():tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():tab==='modifications'?renderChanges():tab==='outils'?renderWorkshop():tab==='bibliotheque'?renderArtLibrary():tab==='affiches-fr'?renderFrenchArt():tab==='import-collection'?renderCollectionImport():renderProfiles());
     const undo=root.querySelector('[data-action="undo-apply"]');if(undo)undo.hidden=!undoLast;
     const status=root.querySelector('.mc-studio-status');if(status)status.textContent=message;
   }
@@ -801,6 +828,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       if(el.matches('[data-fr-style]')){frStyle=el.value;draw();return;}
       if(el.matches('[data-fr-section]')){frSection=el.value;draw();return;}
       if(el.matches('[data-fr-active]')){frActiveOnly=el.checked;draw();return;}
+      if(el.matches('[data-collection-file]')){inspectBackup(el.files[0]);el.value='';return;}
       if(el.matches('[data-fr-file]')){importFrenchArt(el.files[0]);el.value='';return;}
       if(el.matches('[data-library-search]')){const caret=el.selectionStart;libraryQuery=el.value;draw();const input=root.querySelector('[data-library-search]');input?.focus();if(caret!==null)input?.setSelectionRange(caret,caret);return;}
       if(el.matches('[data-library-filter]')){libraryFilter=el.value;draw();return;}
@@ -1025,6 +1053,13 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
         draw();
       }
     }
+    else if(a==='collection-download'&&collectionImportPlan){download('Ma-Collection-Kovelyx-migree.json',JSON.stringify(collectionImportPlan.collection,null,2));}
+    else if(a==='collection-file')root.querySelector('[data-collection-file]')?.click();
+    else if(a==='collection-load'&&collectionImportPlan){
+      if(!window.confirm('Charger la migration dans le brouillon ? Les sources seront celles du catalogue actuel de Ma-Collection. Les éléments sans correspondance ne seront pas sélectionnés.'))return;
+      draft=copy(collectionImportPlan.draft);pickSection();tab='organisation';
+      message='Collection chargée dans le brouillon. Vérifie les sources et les visuels, puis applique le profil avant de l’envoyer à Kovelyx.';draw();
+    }
     else if(a==='apply')apply();
     else if(a==='close')close();
   }
@@ -1046,6 +1081,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       '<button role="tab" data-tab="outils">Outils d’accueil</button>'+
       '<button role="tab" data-tab="bibliotheque">Bibliothèque visuelle</button>'+
       '<button role="tab" data-tab="affiches-fr">Affiches FR</button>'+
+      '<button role="tab" data-tab="import-collection">Importer & diagnostiquer</button>'+
       '<button role="tab" data-tab="profils">Profils & sauvegardes</button></nav>'+
       '<main class="mc-studio-content"></main>'+
       '<div class="mc-studio-status" role="status" aria-live="polite"></div>'+
