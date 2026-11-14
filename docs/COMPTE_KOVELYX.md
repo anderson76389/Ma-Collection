@@ -15,12 +15,13 @@ Le site est servi depuis https://anderson76389.github.io, autorisé par le CORS 
 
 1. Sélectionnez les catalogues, catégories et affiches voulus sur Ma-Collection.
 2. Cliquez sur **Importer la collection → Kovelyx Cloud** ou **Exporter Kovelyx → Synchroniser sur tous mes appareils**.
-3. Connectez-vous, puis choisissez le **profil cible** dans la liste réellement renvoyée par le Worker.
-4. Choisissez **Fusionner** (par défaut, conserve catégories et dossiers non sélectionnés) ou **Remplacer** (confirmation supplémentaire).
-5. Dans **Affiches sur ce profil**, laissez **Conserver** pour ne toucher à aucun réglage existant, ou choisissez **Activer Bttr Posters** pour sélectionner note, genre, qualité, classification, langue et source avec aperçu avant envoi.
-6. Appuyez sur **Publier sur ce profil**. Le site vérifie la route /ready, lit le catalogue distant, valide les données et transmet des blocs de 6 000 caractères, puis publie le manifeste seulement après un transfert complet.
-7. Si Bttr est activé, le site publie **après la vérification du catalogue** la préférence Kovelyx `profile_settings/visual_custom_poster_v1` (motif HTTPS public, sans clé) puis relit le réglage. Un échec Better Posters est signalé sans prétendre que toute la publication a échoué. Les clients à jour appliquent cette préférence après leur synchronisation.
-6. Dans les apps Kovelyx installées, vérifiez le **même compte et profil** et lancez/attendez la synchronisation.
+3. Dans l'assistant **avant la connexion au compte**, contrôlez les catalogues et sélectionnez **Affiches d'origine** ou **Bttr Posters** (genre, note, qualité, classification, langue et source), avec aperçu en direct. Aucune clé API ou jeton saisi dans un autre assistant n'est envoyé au Cloud.
+4. Connectez-vous, puis choisissez le **profil cible** dans la liste réellement renvoyée par le Worker.
+5. Choisissez **Fusionner** (par défaut, conserve catégories et dossiers non sélectionnés) ou **Remplacer** (confirmation supplémentaire).
+6. Vérifiez ou ajustez dans **Affiches sur ce profil**, laissez **Conserver** pour ne toucher à aucun réglage existant, ou choisissez **Activer Bttr Posters** pour sélectionner note, genre, qualité, classification, langue et source avec aperçu avant envoi.
+7. Appuyez sur **Publier sur ce profil**. Le site vérifie la route /ready, lit le catalogue distant, valide les données et transmet des blocs de 6 000 caractères, puis publie le manifeste seulement après un transfert complet.
+8. Si Bttr est activé, le site publie **après la vérification du catalogue** la préférence Kovelyx `profile_settings/visual_custom_poster_v1` (motif HTTPS public, sans clé) puis relit le réglage. Un échec Better Posters est signalé sans prétendre que toute la publication a échoué. Les clients à jour appliquent cette préférence après leur synchronisation.
+9. Dans les apps Kovelyx installées, vérifiez le **même compte et profil** et lancez/attendez la synchronisation.
 
 Les publications concurrentes sont protégées par la révision du manifeste. Le serveur refuse HTTP 409 en cas de conflit ; Ma-Collection ne force pas un écrasement. Le contenu est limité à **4 Mo UTF-8 / 700 blocs** par catalogue ; réduisez la sélection si ce seuil est atteint. Les fichiers JSON de secours et le pont local PC restent disponibles.
 
@@ -52,6 +53,6 @@ La synchronisation Cloudflare transfère **les catégories, dossiers, définitio
 - **Filtres** : certains critères de dates, région, notes, genres ou services peuvent légitimement retourner zéro résultat.
 - **Compte** : vérifier le même compte et **le même profil** (ID de profil Cloudflare), mettre Kovelyx à jour, puis relancer une synchronisation.
 
-Le dialogue Cloud affiche désormais combien de dossiers et de sources TMDB/Trakt/addons seront publiés et refuse des dossiers réellement sans source. Ces contrôles ne prouvent **pas** que chaque API retourne des résultats depuis le téléphone. Pour isoler la panne, essayer d'abord une liste TMDB publique réputée contenir des œuvres, puis contrôler le message d'erreur réseau/API dans Kovelyx. Ne pas republier en mode **Remplacer** juste pour corriger une clé manquante.
+Le dialogue Cloud affiche combien de dossiers et de sources TMDB/Trakt/addons seront publiés, indique les identifiants des extensions à installer et refuse les dossiers réellement sans source. L’assistant Cloud propose Bttr Posters avant l’étape compte/profil. Ces contrôles ne prouvent **pas** que chaque API retourne des résultats depuis le téléphone. Pour isoler la panne, essayer d'abord une liste TMDB publique réputée contenir des œuvres, puis contrôler le message d'erreur réseau/API dans Kovelyx. Ne pas republier en mode **Remplacer** juste pour corriger une clé manquante.
 
 Les affiches Bttr nécessitent que **btttr.cc** reste accessible depuis les appareils ; leur réglage est distinct du contenu des catalogues. Si ce service est indisponible, les catalogues et leurs sources ne doivent pas être effacés.
