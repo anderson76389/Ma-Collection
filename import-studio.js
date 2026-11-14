@@ -5,6 +5,7 @@
   const byId = id => document.getElementById(id);
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   const STEPS = ["Catalogues", "Métadonnées", "Affiches notées", "Débridage", "Extensions", "Confirmation"];
+  const CLOUD_STEPS = ["Catalogues", "Affiches notées", "Confirmation"];
   const state = {
     destination: "kovelyx", step: 0, selectedFolder: "", onFinish: null,
     artwork: {}, tmdbKey: "", mdblistKey: "", traktToken: "",
@@ -150,7 +151,8 @@
   }
   function stepHtml() {
     const rows = folders();
-    if (state.step === 0) return `
+    const step = state.destination === "cloud" ? [0, 2, 6][state.step] : state.step;
+    if (step === 0) return `
       <div class="mc-import-card"><strong>${selected.length} catégories • ${rows.length} dossiers sélectionnés</strong>
       <p>Les sélections et filtres déjà faits dans Ma-Collection sont conservés. Vous pouvez encore modifier les catalogues avant l'import.</p></div>
       ${state.destination === "kovelyx" ? `<div class="mc-import-card"><strong>1. Choisir votre mode de connexion</strong>
@@ -161,7 +163,7 @@
          </select></label></div></div>` : "" }
       <button type="button" class="mc-import-action secondary" id="mc-edit-collections">✏️ Modifier les catégories et les sous-catégories</button>
       <p class="mc-import-note">Cette action ouvre la personnalisation guidée existante, puis vous ramène à cette préparation d'import.</p>`;
-    if (state.step === 1) return `
+    if (step === 1) return `
       <p class="mc-import-note">${state.destination==="nuvio"?"Ces clés ne sont pas intégrées au JSON Nuvio. Saisissez-les directement dans les paramètres de Nuvio après l’import ; seules les affiches personnalisées des catalogues sont exportées.":"Ces clés sont facultatives et restent dans cet onglet. Pour Kovelyx, TMDB et MDBList peuvent être transférés via le nouveau pont local après votre confirmation. Trakt nécessite une autorisation propre à chaque service."}</p>
       <div class="mc-import-form">
         <label>Langue des résumés TMDB<select data-key="tmdbLanguage">
@@ -172,7 +174,7 @@
         ${field("mdblist","Clé API MDBList","mdblistKey","Clé personnelle MDBList")}
       </div>
       <p class="mc-import-note">Les jetons Trakt sont liés à l'instance AIO Metadata qui les a délivrés. La connexion Trakt dans l'application se fait séparément via OAuth.</p>`;
-    if (state.step === 2) return `<p class="mc-import-note">Choisissez les affiches d'origine (par défaut) ou personnalisez les affiches avec Bttr Posters. Vos affiches, logos et GIF de dossiers restent inchangés.</p>
+    if (step === 2) return `<p class="mc-import-note">Choisissez les affiches d'origine (par défaut) ou personnalisez les affiches avec Bttr Posters. Vos affiches, logos et GIF de dossiers restent inchangés.</p>
       <div class="mc-import-form">
         <label>Affiches des œuvres<select id="mc-poster-provider" data-key="posterProvider">
           ${[["none","Par défaut (affiches d'origine)"],["bttr","Bttr Posters"]].map(([v,n])=>`<option value="${v}" ${state.posterProvider===v?"selected":""}>${n}</option>`).join("")}
@@ -194,7 +196,7 @@
           <img id="mc-bttr-preview" class="mc-import-image" src="${esc(bttrPreviewUrl())}" alt="Aperçu BetterPosters" referrerpolicy="no-referrer">
           <p id="mc-bttr-status" class="mc-import-note">Test avec un film connu. Si l'image ne charge pas, le fournisseur Bttr est peut-être indisponible ; Kovelyx conservera son affiche d'origine lorsqu'un chargement échoue.</p>
         </div></div>` : "" }`;
-    if (state.step === 3) return `<p class="mc-import-note">AllDebrid en priorité et Real-Debrid en secours, selon les possibilités de vos extensions. Les clés ne sont jamais intégrées au JSON public des catalogues.</p>
+    if (step === 3) return `<p class="mc-import-note">AllDebrid en priorité et Real-Debrid en secours, selon les possibilités de vos extensions. Les clés ne sont jamais intégrées au JSON public des catalogues.</p>
       <div class="mc-import-form">
         ${field("ad","Clé API AllDebrid (prioritaire)","allDebridKey","Clé AllDebrid")}
         ${field("rd","Clé API Real-Debrid (secondaire)","realDebridKey","Clé Real-Debrid")}
@@ -203,19 +205,26 @@
           <option value="realdebrid" ${state.preferredDebridProvider==="realdebrid"?"selected":""}>Real-Debrid d'abord</option>
         </select></label>
       </div><p class="mc-import-note">Kovelyx PC peut enregistrer Real-Debrid via son intégration native ; AllDebrid s'utilise via une extension compatible (Torrentio, etc.) et doit être configuré dans cette extension. Les extensions restent configurables directement dans Kovelyx.</p>`;
-    if (state.step === 4) return `<div class="mc-import-card"><strong>Extensions configurées</strong>
+    if (step === 4) return `<div class="mc-import-card"><strong>Extensions configurées</strong>
         <p>Collez uniquement les URL HTTPS complètes de vos extensions déjà configurées : Torrentio, Comet, MediaFusion ou autres. Une URL générique ne contient pas nécessairement vos réglages.</p></div>
         <div class="mc-import-form"><label>Manifests personnels (un par ligne)
         <textarea id="mc-addon-manifests" data-key="addonManifests" rows="5" spellcheck="false" autocomplete="off" placeholder="https://votre-instance.exemple/config/manifest.json">${esc(state.addonManifests)}</textarea></label></div>
         <p class="mc-import-note">Kovelyx proposera d’installer les extensions dans le profil actif, après confirmation. Un manifest inaccessible doit être corrigé manuellement. Leur configuration peut être finalisée dans Kovelyx.</p>`;
-    if (state.step === 5 && state.destination === "nuvio") return `
+    if (step === 6) return `
+      <div class="mc-import-card"><strong>Prêt pour Kovelyx Cloud</strong>
+        <p>${selected.length} catégories et ${rows.length} dossiers sélectionnés.</p>
+        <p>Affiches des œuvres : ${esc(state.posterProvider === "bttr" ? "Bttr Posters personnalisé" : "Conserver les réglages existants")}.</p>
+        <p>Choisissez ensuite le compte, le profil et la fusion ou le remplacement dans la fenêtre de publication Cloud.</p>
+      </div>
+      <p class="mc-import-note">Important : Cloudflare synchronise les définitions et les sources, pas les films ou séries eux-mêmes. Chaque appareil devra disposer des accès TMDB, Trakt et extensions nécessaires. Aucune clé saisie précédemment dans l'assistant n'est envoyée au Cloud.</p>`;
+    if (step === 5 && state.destination === "nuvio") return `
       <div class="mc-import-card"><strong>Destination Nuvio — export JSON manuel</strong>
         <p>${selected.length} catégories • ${rows.length} dossiers.</p>
         <p>Après cette étape, vous pourrez copier ou télécharger le fichier JSON et l'importer dans la section Collections de Nuvio.</p>
       </div>
       <p class="mc-import-note">Aucune connexion à un compte Nuvio n'est faite par Ma-Collection. Aucun mot de passe, jeton ou clé API saisi dans cet assistant n'est intégré au fichier. Les paramètres de métadonnées, de débridage et les extensions restent à configurer directement dans Nuvio.</p>
       <p class="mc-import-note">Ce parcours n'efface ni ne remplace vos anciennes collections : Nuvio applique ses propres règles d'importation et vous demande de confirmer dans l'application ou sur son site.</p>`;
-    if (state.step === 5) {
+    if (step === 5) {
       return `<div class="mc-import-card"><strong>Destination Kovelyx PC</strong>
         <p>${selected.length} catégories • ${rows.length} dossiers.</p>
         <p>Les réglages seront transmis uniquement à votre application locale ; aucun mot de passe de compte n'est demandé par le site.</p></div>
@@ -288,14 +297,15 @@
   function draw() {
     selected = getSelected();
     const panel = current();
-    panel.innerHTML = `<div class="mc-import-head"><div><h2 id="mc-import-title">${state.destination==="nuvio"?"🔵 Nuvio":"🟣 Kovelyx"} — Personnaliser</h2>
-      <p>Étape ${state.step+1} sur ${STEPS.length} · ${STEPS[state.step]}</p></div><button type="button" class="mc-import-close" id="mc-import-close" aria-label="Fermer">×</button></div>
-      <div class="mc-import-progress" aria-label="Progression">${STEPS.map((_,i)=>`<span class="${i<=state.step?"active":""}"></span>`).join("")}</div>
+    const steps = state.destination === "cloud" ? CLOUD_STEPS : STEPS;
+    panel.innerHTML = `<div class="mc-import-head"><div><h2 id="mc-import-title">${state.destination==="nuvio"?"🔵 Nuvio":state.destination==="cloud"?"🟣 Kovelyx Cloud":"🟣 Kovelyx PC"} — Personnaliser</h2>
+      <p>Étape ${state.step+1} sur ${steps.length} · ${steps[state.step]}</p></div><button type="button" class="mc-import-close" id="mc-import-close" aria-label="Fermer">×</button></div>
+      <div class="mc-import-progress" aria-label="Progression">${steps.map((_,i)=>`<span class="${i<=state.step?"active":""}"></span>`).join("")}</div>
       ${stepHtml()}
       <p id="mc-import-error" class="mc-import-error" role="alert"></p>
       <div class="mc-import-actions">
         <button class="secondary" id="mc-import-back" type="button">${state.step?"← Retour":"Annuler"}</button>
-        <button class="primary" id="mc-import-next" type="button">${state.step===STEPS.length-1?"Continuer vers "+(state.destination==="nuvio"?"Nuvio":"Kovelyx")+" →":"Continuer →"}</button>
+        <button class="primary" id="mc-import-next" type="button">${state.step===steps.length-1?(state.destination==="cloud"?"Configurer le profil Cloud →":"Continuer vers "+(state.destination==="nuvio"?"Nuvio":"Kovelyx")+" →"):"Continuer →"}</button>
       </div>`;
     byId("mc-import-close").onclick=close;
     byId("mc-import-back").onclick=() => { if (state.step) { state.step--; draw(); } else close(); };
@@ -311,7 +321,7 @@
           return;
         }
       }
-      if (state.step<STEPS.length-1) { state.step++; draw(); return; }
+      if (state.step<steps.length-1) { state.step++; draw(); return; }
       if (!folders().length) { byId("mc-import-error").textContent="Sélectionnez au moins un dossier."; return; }
       const done = state.onFinish, payload = settings();
       close();
@@ -320,7 +330,7 @@
     bind();
   }
   function open(destination, onFinish, reset=true) {
-    state.destination = destination==="nuvio" ? "nuvio" : "kovelyx";
+    state.destination = destination==="nuvio" ? "nuvio" : destination==="cloud" ? "cloud" : "kovelyx";
     state.onFinish = onFinish;
     if (reset) state.step = 0;
     node.hidden = false;

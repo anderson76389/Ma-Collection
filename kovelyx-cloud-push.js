@@ -107,6 +107,28 @@
       source:$id("source")?.value || "Average", language:$id("lang")?.value || "fr"
     };
   }
+  function configurePoster(config = {}) {
+    if (busy) return false;
+    // Les clés TMDB, MDBList, debrid et les sessions ne sont JAMAIS copiées ici.
+    const provider = $("mc-kovelyx-cloud-poster-provider");
+    if (provider) provider.value = config?.posterProvider === "bttr" ? "bttr" : "keep";
+    const checkboxes = [
+      ["genre", "bttrGenre"], ["rating", "bttrRating"],
+      ["quality", "bttrQuality"], ["age", "bttrAge"]
+    ];
+    for (const [id, name] of checkboxes) {
+      const input = $("mc-kovelyx-cloud-bttr-" + id);
+      if (input && typeof config?.[name] === "boolean") input.checked = config[name];
+    }
+    const source = $("mc-kovelyx-cloud-bttr-source");
+    if (source && ["Average", "TM", "IM", "RT", "TR"].includes(config?.bttrSource))
+      source.value = config.bttrSource;
+    const lang = $("mc-kovelyx-cloud-bttr-lang");
+    if (lang && ["fr", "en", "es", "de"].includes(config?.bttrLanguage))
+      lang.value = config.bttrLanguage;
+    updatePosterPreview();
+    return true;
+  }
   function updatePosterPreview() {
     const chosen = $("mc-kovelyx-cloud-poster-provider")?.value === "bttr";
     const panel = $("mc-kovelyx-cloud-bttr");
@@ -119,7 +141,8 @@
   }
 
   function sourceSummary(data) {
-    const count = {folders:0, tmdb:0, trakt:0, addons:0, missing:0};
+    const count = {folders:0, tmdb:0, trakt:0, addons:0, missing:0, addonIds:[]};
+    const addonIds = new Set();
     for (const category of data) for (const folder of category.folders || []) {
       count.folders++;
       const sources = Array.isArray(folder.sources) && folder.sources.length ? folder.sources : folder.catalogSources || [];
@@ -128,9 +151,10 @@
         const provider = String(source.provider || "addon").toLowerCase();
         if (provider === "tmdb") count.tmdb++;
         else if (provider === "trakt") count.trakt++;
-        else count.addons++;
+        else { count.addons++; if (source.addonId) addonIds.add(String(source.addonId)); }
       }
     }
+    count.addonIds = [...addonIds].sort();
     return count;
   }
   async function applyPosterPreference(profileId) {
@@ -306,8 +330,11 @@
         const rows = JSON.parse(await window.MaCollectionKovelyx.buildExport());
         const count = sourceSummary(rows);
         info.textContent = count.folders + " dossiers sélectionnés · " + count.tmdb +
-          " sources TMDB · " + count.trakt + " Trakt · " + count.addons + " extensions" +
-          (count.missing ? " · Attention : " + count.missing + " dossiers sans source" : "");
+          " sources TMDB · " + count.trakt + " Trakt · " + count.addons + " sources d’extensions" +
+          (count.addonIds.length ? " · Extensions à installer sur chaque appareil : " +
+            count.addonIds.slice(0, 6).join(", ") + (count.addonIds.length > 6 ? "…" : "") : "") +
+          (count.missing ? " · Attention : " + count.missing + " dossiers sans source" : "") +
+          ". Seules les définitions sont synchronisées ; les films et séries doivent être chargés par ces fournisseurs sur mobile et TV.";
       } catch (_) { info.textContent = "Le contrôle des sources sera effectué à la publication."; }
     }
     $("mc-kovelyx-cloud-send").focus();
@@ -418,5 +445,5 @@
   $("mc-kovelyx-cloud-send").addEventListener("click", publish);
   view.addEventListener("click", event => { if (event.target === view) close(); });
   document.addEventListener("keydown", event => { if (event.key === "Escape" && !view.hidden) close(); });
-  window.MaCollectionCloudPush = Object.freeze({ open, publish, split, mergeCollections, validateContent, bttrPattern, sourceSummary });
+  window.MaCollectionCloudPush = Object.freeze({ open, publish, configurePoster, split, mergeCollections, validateContent, bttrPattern, sourceSummary });
 })();
