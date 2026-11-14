@@ -17,7 +17,9 @@ Le site est servi depuis https://anderson76389.github.io, autorisé par le CORS 
 2. Cliquez sur **Importer la collection → Kovelyx Cloud** ou **Exporter Kovelyx → Synchroniser sur tous mes appareils**.
 3. Connectez-vous, puis choisissez le **profil cible** dans la liste réellement renvoyée par le Worker.
 4. Choisissez **Fusionner** (par défaut, conserve catégories et dossiers non sélectionnés) ou **Remplacer** (confirmation supplémentaire).
-5. Appuyez sur **Publier sur ce profil**. Le site vérifie la route /ready, lit le catalogue distant, valide les données et transmet des blocs de 6 000 caractères, puis publie le manifeste seulement après un transfert complet.
+5. Dans **Affiches sur ce profil**, laissez **Conserver** pour ne toucher à aucun réglage existant, ou choisissez **Activer Bttr Posters** pour sélectionner note, genre, qualité, classification, langue et source avec aperçu avant envoi.
+6. Appuyez sur **Publier sur ce profil**. Le site vérifie la route /ready, lit le catalogue distant, valide les données et transmet des blocs de 6 000 caractères, puis publie le manifeste seulement après un transfert complet.
+7. Si Bttr est activé, le site publie **après la vérification du catalogue** la préférence Kovelyx `profile_settings/visual_custom_poster_v1` (motif HTTPS public, sans clé) puis relit le réglage. Un échec Better Posters est signalé sans prétendre que toute la publication a échoué. Les clients à jour appliquent cette préférence après leur synchronisation.
 6. Dans les apps Kovelyx installées, vérifiez le **même compte et profil** et lancez/attendez la synchronisation.
 
 Les publications concurrentes sont protégées par la révision du manifeste. Le serveur refuse HTTP 409 en cas de conflit ; Ma-Collection ne force pas un écrasement. Le contenu est limité à **4 Mo UTF-8 / 700 blocs** par catalogue ; réduisez la sélection si ce seuil est atteint. Les fichiers JSON de secours et le pont local PC restent disponibles.
@@ -39,3 +41,17 @@ Un test GitHub Pages ou une suite de tests Node ne vaut pas vérification réell
 - **Nuvio** : uniquement export JSON volontaire pour import manuel sur une application différente.
 
 Aucune migration forcée des comptes ou des données existantes. L'ancien fichier docs/sql/ma_collection_vaults.sql reste conservé uniquement comme référence historique Supabase ; il ne doit pas être appliqué à D1.
+
+## Un catalogue apparaît sur mobile mais reste vide
+
+La synchronisation Cloudflare transfère **les catégories, dossiers, définitions de sources et affiches de dossiers**, pas les films/séries préchargés, ni les identifiants des fournisseurs. Chaque appareil exécute ses propres requêtes :
+
+- **TMDB** : vérifier sur mobile que TMDB est activé et que la clé API de l'appareil fonctionne (ou qu'une clé intégrée à Kovelyx est effectivement opérationnelle). Un catalogue `DISCOVER`, `LIST`, `PERSON`, `COMPANY` ou `COLLECTION` nécessite une réponse de TMDB.
+- **Trakt** : contrôler le compte/jeton autorisé, la visibilité de la liste et sa disponibilité.
+- **Extensions** : installer et activer le même addon et ses catalogues sur l'appareil. L'export Ma-Collection ne contient pas l'APK ou le manifeste de l'addon.
+- **Filtres** : certains critères de dates, région, notes, genres ou services peuvent légitimement retourner zéro résultat.
+- **Compte** : vérifier le même compte et **le même profil** (ID de profil Cloudflare), mettre Kovelyx à jour, puis relancer une synchronisation.
+
+Le dialogue Cloud affiche désormais combien de dossiers et de sources TMDB/Trakt/addons seront publiés et refuse des dossiers réellement sans source. Ces contrôles ne prouvent **pas** que chaque API retourne des résultats depuis le téléphone. Pour isoler la panne, essayer d'abord une liste TMDB publique réputée contenir des œuvres, puis contrôler le message d'erreur réseau/API dans Kovelyx. Ne pas republier en mode **Remplacer** juste pour corriger une clé manquante.
+
+Les affiches Bttr nécessitent que **btttr.cc** reste accessible depuis les appareils ; leur réglage est distinct du contenu des catalogues. Si ce service est indisponible, les catalogues et leurs sources ne doivent pas être effacés.
