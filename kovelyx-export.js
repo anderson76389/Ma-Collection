@@ -172,7 +172,8 @@
   direct?.addEventListener("click", send);
   byId("kovelyx-export-cloud")?.addEventListener("click", () => {
     close();
-    window.MaCollectionCloudPush?.open();
+    if (window.MaCollectionDestination?.chooseCloud) window.MaCollectionDestination.chooseCloud();
+    else window.MaCollectionCloudPush?.open();
   });
 
   copy.addEventListener("click", async () => {
