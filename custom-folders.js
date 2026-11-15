@@ -87,9 +87,9 @@
       case 'NETWORK':
         return {...base,mediaType:'TV',tmdbSourceType:'DISCOVER',tmdbId:null,filters:{withNetworks:n}};
       case 'ACTOR':
-        return {...base,mediaType:'MOVIE',tmdbSourceType:'DISCOVER',tmdbId:null,filters:{withCast:n}};
+        return {...base,mediaType:'MOVIE',tmdbSourceType:'PERSON',tmdbId:record.tmdbId,filters:{withCast:n}};
       case 'DIRECTOR':
-        return {...base,mediaType:'MOVIE',tmdbSourceType:'DISCOVER',tmdbId:null,filters:{withCrew:n}};
+        return {...base,mediaType:'MOVIE',tmdbSourceType:'DIRECTOR',tmdbId:record.tmdbId,filters:{withCrew:n}};
       case 'STREAMING':
         return {...base,tmdbSourceType:'DISCOVER',tmdbId:null,filters:{
           withWatchProviders:n,with_watch_providers:n,

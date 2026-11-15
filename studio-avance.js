@@ -1,3 +1,4 @@
+import {ART_STYLES,makeFolderArt} from './studio-art-generator.mjs';
 import {MAX_BACKUP_BYTES,collectionBackupToDraft} from './studio-collection-import.mjs';
 import {
   STUDIO_LIMIT, STUDIO_FIELDS, STUDIO_SHAPES, assetUrl, cleanLabel,
@@ -22,6 +23,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
   const selections=()=>window.selectedMap||{};
   let profiles=[],draft=null,applied=null,originals=null,root=null;
   let collectionImportPlan=null,collectionImportError='';
+  let generatedStyle='cinema';
   let tab='organisation',selectedSection='',selectedFolder='',query='',message='';
   let dragging=null;
   let previewDevice='tv',globalQuery='',globalActiveOnly=false,globalNoCover=false,undoLast=null;
@@ -299,7 +301,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
   async function importProfile(file){
     if(!file)return;
     try{
-      if(file.size>1500000)throw Error('Profil trop volumineux (limite 1,5 Mo).');
+      if(file.size>MAX_BACKUP_BYTES)throw Error('Profil trop volumineux (limite 16 Mo).');
       const parsed=JSON.parse(await file.text()), safe=validateDraft(parsed,data());
       safe.id=uid();
       safe.name=cleanLabel(safe.name+' (importé)',60);
@@ -539,6 +541,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       button('Restaurer les visuels d’origine','original-art')+'</div>'+
       '<div class="mc-studio-art-form"><div class="mc-studio-heading"><strong>Personnaliser '+esc(f.label)+'</strong></div>'+
       '<label class="mc-studio-field">Titre du dossier dans les exports<input type="text" maxlength="85" data-folder-label value="'+esc(f.label)+'"></label>'+
+      '<div class="mc-studio-actions-grid"><label class="mc-studio-field">Style autonome en français<select data-generated-style>'+ART_STYLES.map(x=>'<option value="'+x.id+'" '+(x.id===generatedStyle?'selected':'')+'>'+x.label+'</option>').join('')+'</select></label>'+button('Créer l’affiche de ce dossier','generate-cover')+button('Créer les affiches de cette section','generate-section')+'</div><p class="mc-studio-hint">Illustrations originales produites sur ton appareil, intégrées au JSON sans hébergeur d’images. Les fonds, GIF et sources restent conservés.</p>'+
       '<div class="mc-studio-art-grid">'+artfields+'</div>'+
       '<div class="mc-studio-art-options"><label class="mc-studio-field">Format<select data-shape>'+
       STUDIO_SHAPES.map(v=>'<option value="'+v+'" '+(f.shape===v?'selected':'')+'>'+({POSTER:'Affiche verticale',LANDSCAPE:'Paysage',SQUARE:'Carré'}[v])+'</option>').join('')+
@@ -828,6 +831,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       if(el.matches('[data-fr-style]')){frStyle=el.value;draw();return;}
       if(el.matches('[data-fr-section]')){frSection=el.value;draw();return;}
       if(el.matches('[data-fr-active]')){frActiveOnly=el.checked;draw();return;}
+      if(el.matches('[data-generated-style]')){generatedStyle=el.value;return;}
       if(el.matches('[data-collection-file]')){inspectBackup(el.files[0]);el.value='';return;}
       if(el.matches('[data-fr-file]')){importFrenchArt(el.files[0]);el.value='';return;}
       if(el.matches('[data-library-search]')){const caret=el.selectionStart;libraryQuery=el.value;draw();const input=root.querySelector('[data-library-search]');input?.focus();if(caret!==null)input?.setSelectionRange(caret,caret);return;}
@@ -1052,6 +1056,14 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
         message='La création de dossiers est indisponible. Recharge la page.';
         draw();
       }
+    }
+    else if(a==='generate-cover'||a==='generate-section'){
+      const targets=a==='generate-section'?section()?.folders:[folder()];
+      if(!targets?.length||!targets[0])return;
+      if(a==='generate-section'&&!window.confirm('Créer des affiches originales pour les '+targets.length+' dossiers de cette section dans le brouillon ?'))return;
+      frUndo=copy(draft);
+      for(const f of targets){f.artwork.coverImageUrl=makeFolderArt(f.label,generatedStyle,f.shape);f.hideTitle=true;}
+      message=targets.length+' affiche(s) créée(s) localement. Applique le profil pour les exporter.';draw();
     }
     else if(a==='collection-download'&&collectionImportPlan){download('Ma-Collection-Kovelyx-migree.json',JSON.stringify(collectionImportPlan.collection,null,2));}
     else if(a==='collection-file')root.querySelector('[data-collection-file]')?.click();

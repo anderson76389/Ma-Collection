@@ -9,6 +9,7 @@ const read = path => readFileSync(new URL("../"+path, import.meta.url), "utf8");
 
 function harness({ready=true, cloudError=null, readbackCorrupt=false, readbackUnavailable=false, chunkErrorStatus=null, manifestErrorStatus=null, posterErrorStatus=null, confirmReplace=true}={}) {
   const elements = new Map();
+  const downloads = [], blobs = new Map();
   class Element {
     constructor(tag="div") {
       this.tagName=tag; this.children=[]; this.value="";
@@ -18,6 +19,8 @@ function harness({ready=true, cloudError=null, readbackCorrupt=false, readbackUn
     setAttribute(){}
     addEventListener(event, handler){this.listeners[event]=handler;}
     focus(){}
+    click(){downloads.push({href:this.href,name:this.download});}
+    remove(){}
     replaceChildren(){this.children=[];this.value="";}
     appendChild(child){
       this.children.push(child);
@@ -34,6 +37,7 @@ function harness({ready=true, cloudError=null, readbackCorrupt=false, readbackUn
     "mc-kovelyx-cloud-bttr-genre","mc-kovelyx-cloud-bttr-rating",
     "mc-kovelyx-cloud-bttr-quality","mc-kovelyx-cloud-bttr-age",
     "mc-kovelyx-cloud-bttr-preview","mc-kovelyx-cloud-bttr-preview-status",
+    "mc-kovelyx-cloud-backup", "mc-kovelyx-cloud-compare", "mc-kovelyx-cloud-comparison",
     "mc-kovelyx-cloud-sources"
   ];
   for(const id of ids) elements.set(id,new Element(id.includes("mode")||id.includes("profile")?"select":"div"));
@@ -101,7 +105,8 @@ function harness({ready=true, cloudError=null, readbackCorrupt=false, readbackUn
     confirm:()=>confirmReplace,
   };
   const context={
-    window,document,crypto:webcrypto,
+    window,document,crypto:webcrypto,Blob,
+    URL:{createObjectURL:blob=>{blobs.set("blob:test",blob);return "blob:test";},revokeObjectURL:()=>{}},
     TextEncoder,structuredClone,Response,
     fetch:async url=>{
       assert.equal(url,"https://worker.example/ready");
@@ -109,7 +114,7 @@ function harness({ready=true, cloudError=null, readbackCorrupt=false, readbackUn
     }
   };
   vm.runInNewContext(source,context);
-  return {api:window.MaCollectionCloudPush,view:document.body.children[0],elements,calls,published,profile,exportText};
+  return {downloads,blobs,window,api:window.MaCollectionCloudPush,view:document.body.children[0],elements,calls,published,profile,exportText};
 }
 
 test("une fusion conserve les collections et dossiers déjà présents",()=>{
@@ -386,4 +391,66 @@ test("les deux entrées Cloud passent par la personnalisation avant l'ouverture 
   assert.deepEqual(actions,["wizard:cloud","poster:bttr","cloud:open"]);
   assert.match(destination,/mc-choice-kovelyx-cloud"\)\.addEventListener\("click",startCloud\)/);
   assert.match(read("kovelyx-export.js"),/MaCollectionDestination\?\.chooseCloud/);
+});
+
+test('éditeur complet : lecture et écriture vérifiées avec protection contre une révision périmée',async()=>{
+ const h=harness();await h.api.open();await h.api.publish();const snapshot=await h.api.readProfile(h.profile);
+ assert.equal(JSON.stringify(snapshot.collections),h.exportText);
+ const changed=JSON.parse(h.exportText);changed[0].title='Profil organisé';
+ const saved=await h.api.writeProfile(h.profile,changed,snapshot.head);assert.equal(saved.collections[0].title,'Profil organisé');
+ await assert.rejects(()=>h.api.writeProfile(h.profile,changed,null),/changé/);
+});
+
+test("comparaison : suppressions, modifications, ordre et paramètres de catégorie",()=>{
+  const {api}=harness();
+  const previous=[{id:"a",title:"Avant",folders:[{id:"x",title:"X"},{id:"y"},{id:"z"}]},{id:"b",folders:[{id:"old"}]}];
+  const next=[{id:"c",folders:[{id:"new"}]},{id:"a",title:"Après",folders:[{id:"y"},{id:"x",title:"Modifié"},{id:"added"}]}];
+  assert.deepEqual(JSON.parse(JSON.stringify(api.compareCollections(previous,next))),{
+    addedCategories:1,removedCategories:1,changedCategories:1,addedFolders:2,removedFolders:2,changedFolders:1,reorderedCategories:0,reorderedFolders:1
+  });
+  assert.equal(api.compareCollections(previous,[previous[1],previous[0]]).reorderedCategories,1);
+});
+
+test("comparaison : ordre des clés JSON sans faux changement, identifiants dupliqués refusés",()=>{
+  const {api}=harness();
+  const previous=[{id:"a",title:"A",folders:[{id:"x",sources:[{provider:"tmdb",filters:{year:2025,language:"fr"}}]}]}];
+  const next=[{folders:[{sources:[{filters:{language:"fr",year:2025},provider:"tmdb"}],id:"x"}],title:"A",id:"a"}];
+  assert.equal(Object.values(api.compareCollections(previous,next)).every(x=>x===0),true);
+  assert.throws(()=>api.compareCollections(previous,[...next,...next]),/double/);
+  assert.throws(()=>api.compareCollections([],[{id:"x",folders:[{id:"y"},{id:"y"}]}]),/double/);
+});
+
+test("comparer le profil ne transmet aucune écriture, même en mode remplacement",async()=>{
+  const h=harness();await h.api.open();await h.api.publish();h.calls.length=0;
+  h.window.MaCollectionKovelyx.buildExport=async()=>JSON.stringify([{id:"new",folders:[{id:"added"}]}]);
+  h.elements.get("mc-kovelyx-cloud-mode").value="replace";
+  const result=await h.api.compareProfile();
+  assert.equal(result.removedCategories,1);assert.equal(result.removedFolders,1);
+  assert.equal(result.addedFolders,1);
+  assert.equal(h.calls.every(c=>!c.options.method||c.options.method==="GET"),true);
+  assert.match(h.elements.get("mc-kovelyx-cloud-comparison").textContent,/Remplacement/);
+  assert.equal(h.elements.get("mc-kovelyx-cloud-compare").disabled,false);
+});
+
+test("sauvegarde : le JSON est identique au profil relu sans aucune publication",async()=>{
+  const h=harness();await h.api.open();await h.api.publish();h.calls.length=0;
+  await h.api.backupProfile();
+  assert.equal(h.downloads.length,1);
+  assert.deepEqual(JSON.parse(await h.blobs.get("blob:test").text()),JSON.parse(h.exportText));
+  assert.equal(h.calls.every(c=>!c.options.method||c.options.method==="GET"),true);
+});
+
+test("sauvegarde : refus d'un profil non autorisé ou d'un instantané corrompu",async()=>{
+  const h=harness({readbackCorrupt:true});await h.api.open();await h.api.publish();
+  await h.api.backupProfile();
+  assert.equal(h.downloads.length,0);
+  assert.match(h.elements.get("mc-kovelyx-cloud-status").textContent,/Empreinte/);
+  await assert.rejects(()=>h.api.readProfile("invalid"),/Profil invalide/);
+});
+
+test("profil vide : la comparaison fonctionne et la sauvegarde n'invente aucun fichier",async()=>{
+  const h=harness();await h.api.open();
+  assert.equal((await h.api.compareProfile()).addedCategories,1);
+  await h.api.backupProfile();assert.equal(h.downloads.length,0);
+  assert.match(h.elements.get("mc-kovelyx-cloud-status").textContent,/aucune collection/);
 });
