@@ -1,12 +1,29 @@
 {
   "metas": [
     {
+      "id": "tmdb:1616687",
+      "type": "movie",
+      "name": "Never Surrender",
+      "poster": "https://image.tmdb.org/t/p/w500/nkE9esa0p8vBmY38jQasmVVRqoc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/umxN2kMcUm6VoxSOdcEcQoXuC4q.jpg",
+      "description": "Quand un gang meurtrier prend d'assaut sa maison isolée, un vétéran rongé par le remords et ses petits-enfants qu'il connaît à peine unissent leurs forces pour survivre.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1616674",
       "type": "movie",
       "name": "Me Before Me",
       "poster": "https://image.tmdb.org/t/p/w500/xmwPr0YOFS6vC3aydnE85gxp36t.jpg",
       "background": "https://image.tmdb.org/t/p/w780/1QiFfqaAhZi4HMlJNMvJVXOovc6.jpg",
       "description": "Un jeune étudiant, aux prises avec la pression, la panique et un père exigeant, utilise un projet scolaire pour découvrir que la vérité et non les trophées  pourrait enfin le libérer.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1590613",
+      "type": "movie",
+      "name": "Cerita Lila",
+      "poster": "https://image.tmdb.org/t/p/w500/80CcJdrV3ewqPawFMAFGIrldgR5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9rZVlvA5Nk3SA4GJk1ySUbZLtTg.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -148,23 +165,6 @@
       "name": "Dendam Malam Kelam",
       "poster": "https://image.tmdb.org/t/p/w500/eichIZLd7e9AgYltckEwWgrFQcq.jpg",
       "background": "https://image.tmdb.org/t/p/w780/p1V67T5vf7HD91BVe4K9TUZHtl4.jpg",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1391149",
-      "type": "movie",
-      "name": "Waktu Maghrib 2",
-      "poster": "https://image.tmdb.org/t/p/w500/iD0iWNrqlfffm81BKP5IGzrMofq.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mmvRoSRZ0D6g4gvmJPQUgP9fd9G.jpg",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1280089",
-      "type": "movie",
-      "name": "The Siege at Thorn High",
-      "poster": "https://image.tmdb.org/t/p/w500/tx2toda5HijndqRZXDuoGkSud8L.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dcpXPUVEqiuYclsnael3bJjos4B.jpg",
-      "description": "Sur son lit de mort, sa sœur a fait promettre à Edwin de retrouver son fils, qu’elle avait abandonné des années auparavant. Sa quête le conduit à devenir professeur remplaçant au lycée Duri, à Jakarta, un établissement pour jeunes délinquants. Il doit alors affronter les élèves les plus violents de l’établissement pour retrouver son neveu. Lorsqu’il finit par retrouver le garçon, une émeute éclate dans toute la ville, et Edwin se retrouve piégé dans l’école, encerclé par les élèves cruels qui veulent sa peau.",
       "releaseInfo": "2025"
     }
   ]

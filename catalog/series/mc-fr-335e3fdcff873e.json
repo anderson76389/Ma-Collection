@@ -10,6 +10,24 @@
       "releaseInfo": "2010"
     },
     {
+      "id": "tmdb:69880",
+      "type": "series",
+      "name": "Grosse, belle et fabuleuse",
+      "poster": "https://image.tmdb.org/t/p/w500/pdlPdvtGaSiJQ35V6CjAskQB12.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/u8EUQWxMVYnUENwAhKyoRE5iBCa.jpg",
+      "description": "La vie d'une femme de Caroline du Nord qui a grossi à cause du syndrome des ovaires polykystiques.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:268",
+      "type": "series",
+      "name": "Dans les coulisses des urgences",
+      "poster": "https://image.tmdb.org/t/p/w500/l5hg2Qe15DuAdF2Apey8NKTDpNw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9mCFfWcOGytwTJlmYvxLY5gXXID.jpg",
+      "description": "Série documentaire portant sur des situations particulières survenues aux urgences d'un hôpital.",
+      "releaseInfo": "2004"
+    },
+    {
       "id": "tmdb:98410",
       "type": "series",
       "name": "Sœurs de poids",
@@ -27,20 +45,19 @@
       "releaseInfo": "2019"
     },
     {
+      "id": "tmdb:340085",
+      "type": "series",
+      "name": "Crown of Deceit: Inside the Miss Universe Scandal",
+      "poster": "https://image.tmdb.org/t/p/w500/s1k8mCnOWLJuldSxd0WWJcAZfDD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sQ9NC6vbsa4qCNg24Huzz2mo597.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:290564",
       "type": "series",
       "name": "90 Day: Hunt for Love",
       "poster": "https://image.tmdb.org/t/p/w500/8NvtsEjPYme4d2PpPA5f8QIXsWc.jpg",
       "background": "https://image.tmdb.org/t/p/w780/u33XkP4bARiOCW72AvrQU2MT6ls.jpg",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:291934",
-      "type": "series",
-      "name": "Colocs de poids",
-      "poster": "https://image.tmdb.org/t/p/w500/mQmLAmmFmnXemv9a8kOwp6HV6ZG.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6j2Bz7MnhdIkg99okKvdxcFkCHu.jpg",
-      "description": "Nesha et Jaz, des colocataires XXL, affrontent la vie, l'amour et la perte de poids avec humour et avec le cœur. Mais les obstacles sont nombreux.",
       "releaseInfo": "2025"
     },
     {

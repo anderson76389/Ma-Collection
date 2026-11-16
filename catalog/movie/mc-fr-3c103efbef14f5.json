@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1286656",
+      "type": "movie",
+      "name": "I Play Rocky",
+      "poster": "https://image.tmdb.org/t/p/w500/xE5tY3lppZUyG7WKKThsuYHuAHr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1lnnjBCRLZzKRhQipK5zm61YkPe.jpg",
+      "description": "Un acteur en difficulté avec un visage partiellement paralysé et un trouble de l’élocution écrit un scénario qu’un grand studio de cinéma veut acheter. Mais l’acteur refuse de le vendre à moins de pouvoir jouer le rôle principal. Refusant une offre d’argent qui pourrait changer sa vie, il travaille pour des centimes afin que le film soit réalisé avec lui dans le rôle principal.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1288069",
       "type": "movie",
       "name": "Tenzing : à la conquête de l’Everest",
@@ -75,7 +84,7 @@
     {
       "id": "tmdb:898704",
       "type": "movie",
-      "name": "Desert Warrior",
+      "name": "לוחם המדבר",
       "poster": "https://image.tmdb.org/t/p/w500/waxnw1NpzTPY5JkqWvu0muSopRJ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ohlNSR8MsHk5e6fcAxqAJmcz4Sm.jpg",
       "description": "Quand une jeune princesse refuse d'être soumise au redoutable empereur Kisra, une bataille éclate de telle sorte qu'elle change la région de l'ancienne Arabie Saoudite à jamais.",
@@ -162,21 +171,12 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:1214931",
+      "id": "tmdb:1159539",
       "type": "movie",
-      "name": "Nuremberg",
-      "poster": "https://image.tmdb.org/t/p/w500/6iYLH0TjqCyEkCYadpLUMHr9S8J.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mxKVTRDApGP2vtsruji4cNGXioD.jpg",
-      "description": "Washington, 1945. Hitler s'est suicidé, l'Allemagne a capitulé et les Alliés détiennent 22 officiers nazis, dont Hermann Göring, plus haut gradé du Troisième Reich. Contrairement à ses collègues, qui préconisent leur exécution, Robert H. Jackson, juge à la Cour suprême des États-Unis, obtient que ceux-ci soient traduits devant une cour internationale. Un an avant l'ouverture du procès à Nuremberg, Jackson confie à un psychiatre de l'armée américaine, Douglas Kelley, le mandat d'évaluer les accusés. Secondé par son traducteur, Kelley se met à la tâche, en privilégiant le cas du Reichsmarschall Göring, un pervers narcissique, qui s'engage avec lui dans un jeu du chat et de la souris.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1432596",
-      "type": "movie",
-      "name": "Palestine 36",
-      "poster": "https://image.tmdb.org/t/p/w500/7MfS2Q7kHIdGeRe17Z26q5N9MPm.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xLcPsJ7lZ4pVHJiAgMvDwmm4v0r.jpg",
-      "description": "Palestine, 1936. La grande révolte arabe, destinée à faire émerger un État indépendant, se prépare alors que le territoire est sous mandat britannique.",
+      "name": "Peter Hujar's Day",
+      "poster": "https://image.tmdb.org/t/p/w500/awq1O9RRi6JW74fDmGXJJGD5le8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ickUXG5jIuBmjgiLIjseX8nlm6M.jpg",
+      "description": "En décembre 1974, l’écrivaine Linda Rosenkrantz et le photographe Peter Hujar enregistrent une conversation dans l’appartement new-yorkais de cette dernière, alors qu’elle travaille sur un projet de livre qui consiste à demander à des artistes de raconter leur journée de la veille. Leur échange révèle un aperçu de la scène artistique new-yorkaise et des luttes personnelles qui ont jalonné la vie de l’artiste. Célèbre pour son intransigeance, Hujar est considéré comme l’un des personnages les plus importants de la scène culturelle de New York dans les années 1970 et 1980.",
       "releaseInfo": "2025"
     }
   ]

@@ -42,6 +42,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:333357",
+      "type": "series",
+      "name": "まめとむぎ",
+      "poster": "https://image.tmdb.org/t/p/w500/eGxR7WaGa69kLNKVugMeaQa5feN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/v5RH4TCQSsvEahVqy3pGMFC0x12.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:308977",
       "type": "series",
       "name": "Sergent Keroro",
@@ -90,6 +98,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/lEzwHelcrPFE7cfXNNKhJs58jl0.jpg",
       "background": "https://image.tmdb.org/t/p/w780/az2Y3Cfy3JcDUuCicU2u3MnNUo4.jpg",
       "description": "Chloé est une espionne qui excelle dans ses missions grâce à ses talents inégalés pour le déguisement et à ses compétences en arts martiaux. Cependant, après la trahison de son patron, elle disparaît soudainement : Chloé a en effet décidé de refaire sa vie sous l'identité de Victoria, une citoyenne ordinaire du royaume voisin d'Ashberry, en quête d'une existence « normale ».",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:324584",
+      "type": "series",
+      "name": "夫を殺したはずなのに",
+      "poster": "https://image.tmdb.org/t/p/w500/jRrAw9GNf3A1tAEBaqFYq6dvUX9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uxBw3acJTGscADTDSL2zdyh1U5X.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -149,23 +165,6 @@
       "name": "刑事、ふりだしに戻る",
       "poster": "https://image.tmdb.org/t/p/w500/fTrHzCSQ2ONX6BrXUBNQpoRmJk6.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ijJWPy6NUp5lRR0Gz2o16w028vE.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:300131",
-      "type": "series",
-      "name": "KILL BLUE",
-      "poster": "https://image.tmdb.org/t/p/w500/1hzamo8nOZmurGQQ7P2uqpsGHek.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jOxZVOYxghHw6ofH1QFG6ZQUt2V.jpg",
-      "description": "Juzo Ogami, tueur à gages légendaire, n’a jamais échoué dans une mission. Mais après l’une d’elles, il se fait piquer par une mystérieuse guêpe et se réveille dans le corps d’un garçon de 13 ans. Et pour rendre les choses encore plus étranges, il reçoit un nouvel ordre pour le moins bizarre : infiltrer un collège. Désormais, l'assassin autrefois redouté doit jongler entre le chaos de la vie scolaire et son travail meurtrier, tout en cherchant un moyen de retrouver son corps d'adulte.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:306640",
-      "type": "series",
-      "name": "惡の華",
-      "poster": "https://image.tmdb.org/t/p/w500/fCWE43hyq64a2KrhPNTFgoH7rK5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8xresvXWN0pzQH9gyQ9sY14K7bw.jpg",
       "releaseInfo": "2026"
     }
   ]

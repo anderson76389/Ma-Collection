@@ -28,12 +28,29 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1563627",
+      "type": "movie",
+      "name": "A Better Jianghu",
+      "poster": "https://image.tmdb.org/t/p/w500/350om1pKdv14AdTWxpwqEYR9WrS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6neOr2yjCdnVFUzI5xIOvo6sxuf.jpg",
+      "description": "Sous la dynastie des Song du Sud, deux individus — le lettré Shen Fang et le chevalier errant Luo Han — dérobent une somme considérable en argent au haut fonctionnaire Qin Hui afin de soutenir les rebelles luttant contre les Jin ; ils mettent au point un vaste stratagème pour contrer la garde impériale et rallier à leur cause des personnes issues de tous horizons.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1483525",
       "type": "movie",
       "name": "Possible Love",
       "poster": "https://image.tmdb.org/t/p/w500/xbbtrASNT5BzcKrzULPBCSXtOW2.jpg",
       "background": "https://image.tmdb.org/t/p/w780/k0BY5D4Ya6NHhsvNYMmaabpvUtS.jpg",
       "description": "Mi-ok et son époux Ho-seok, récemment licencié, mènent une vie tranquille avec leur jeune fils Cheol, jusqu'à leur rencontre, lors de funérailles, avec un couple dont le style de vie aisé est parfaitement opposé au leur : Ye-ji, une documentariste qui s'intéresse au parcours d'ouvriers licenciés, et son mari Sang-woo. Après avoir accepté de participer au tournage, Mi-ok se rapproche de Ye-ji et ressent un trouble grandissant pour le mystérieux Sang-woo. Tandis que leurs mondes entrent en collision, des tensions émergent dans leur quotidien.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:607833",
+      "type": "movie",
+      "name": "인턴",
+      "poster": "https://image.tmdb.org/t/p/w500/nPu9o9yHwN8Gu2Yc1av6KKMbXZf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/OroFBNgB2RBzj2X65CweVhhQQG.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -50,7 +67,7 @@
       "type": "movie",
       "name": "경주기행",
       "poster": "https://image.tmdb.org/t/p/w500/2dAd2APyFUyJ6qEv9VFHdHQtQI6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/A58FVNOQ9qXxt0vdKGQ9kCo17El.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AnsHGXWGBZBppDuYzLarXOOeL1u.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -151,23 +168,6 @@
       "name": "特立独行",
       "poster": "https://image.tmdb.org/t/p/w500/dWtKXfN97AMW5n3S6QoUVUMCU2S.jpg",
       "background": "https://image.tmdb.org/t/p/w780/kTp2i00tjARpsI6wTkU4Q8ArGaX.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1383154",
-      "type": "movie",
-      "name": "눈동자",
-      "poster": "https://image.tmdb.org/t/p/w500/jOD0Z78Jo0njtJu1hlC27LEs78F.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/AmFt00rY71IWqOh6m0j2CiKpcUJ.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1620313",
-      "type": "movie",
-      "name": "Le Château d’Arioka",
-      "poster": "https://image.tmdb.org/t/p/w500/q0CWp4udY4AxuxlmebuIRNT3lyW.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pPThPhqsh5bKwJoZDlWd67qCHcc.jpg",
-      "description": "Dans le Japon féodal, le seigneur Murashige se retranche dans son château et y fait prisonnier son ennemi, le stratège Kanbei, qu’il décide d’épargner. Au fil des saisons, des crimes inexpliqués viennent troubler l’ordre des lieux; Murashige mène l’enquête, mais se heurte chaque fois à une pièce manquante que seul Kanbei, depuis sa cellule, semble capable de déchiffrer. Entre méfiance et emprise, leur relation se transforme, tandis que de nouveaux meurtres surviennent et que Murashige perd peu à peu le contrôle de ce qui se joue dans son propre château…",
       "releaseInfo": "2026"
     }
   ]

@@ -9,6 +9,31 @@
       "releaseInfo": "1974"
     },
     {
+      "id": "tmdb:10029",
+      "type": "series",
+      "name": "Great Performances",
+      "poster": "https://image.tmdb.org/t/p/w500/1RD6s6KEbX36Cb99pAoWmU8gkwh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/agKG106qEyccmflyi3zwHywuOtR.jpg",
+      "releaseInfo": "1971"
+    },
+    {
+      "id": "tmdb:4384",
+      "type": "series",
+      "name": "Frontline",
+      "poster": "https://image.tmdb.org/t/p/w500/9RLrBcrOK9Vm3VN9V9aqztiIIdJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4Nbq8ARdNjZsurfuPjnCBRRXKnA.jpg",
+      "releaseInfo": "1983"
+    },
+    {
+      "id": "tmdb:14951",
+      "type": "series",
+      "name": "Nature",
+      "poster": "https://image.tmdb.org/t/p/w500/dmsnC5rDVGeBvjCUGPXhvoGw5Qx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cg5mTWpFagPzHMG887GPKe1kskM.jpg",
+      "description": "Des documentaires époustouflants transportent les téléspectateurs vers des endroits éloignés allant des plaines africaines torrides aux splendeurs glaciales de l'Antarctique glacial. L'émission se concentre principalement sur les animaux et les écosystèmes du monde entier.",
+      "releaseInfo": "1982"
+    },
+    {
       "id": "tmdb:2394",
       "type": "series",
       "name": "This Old House",
@@ -16,6 +41,15 @@
       "background": "https://image.tmdb.org/t/p/w780/zBTKswHgCoQ58SUreY1qh94fhFE.jpg",
       "description": "Émission originale de rénovation domiciliaire de la télévision, après une rénovation complète de la maison sur plusieurs épisodes.",
       "releaseInfo": "1979"
+    },
+    {
+      "id": "tmdb:10472",
+      "type": "series",
+      "name": "Tracy Chapman - Austin City Limits Live",
+      "poster": "https://image.tmdb.org/t/p/w500/q5jxpBFJvwMeqMI7Rg5cqZPdE7V.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6wfNpk7St2cfGZVSWPmjZehuSYH.jpg",
+      "description": "Devenue aujourd'hui la série musicale la plus ancienne de l'histoire de la télévision américaine, ACL met à l'honneur des légendes et des pionniers de la musique populaire de tous les genres.",
+      "releaseInfo": "1975"
     },
     {
       "id": "tmdb:10478",
@@ -50,20 +84,20 @@
       "releaseInfo": "2002"
     },
     {
-      "id": "tmdb:15030",
-      "type": "series",
-      "name": "Secrets of the Dead",
-      "poster": "https://image.tmdb.org/t/p/w500/9S7ht0dMhf5PulQWdWf7MXja3u6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/di8tQu356tHQ4JKEzMSkjIyX5Kh.jpg",
-      "releaseInfo": "2000"
-    },
-    {
       "id": "tmdb:33739",
       "type": "series",
       "name": "Antiques Roadshow",
       "poster": "https://image.tmdb.org/t/p/w500/uusKGwqL74Evkk2W3aZTxFjZydC.jpg",
       "background": "https://image.tmdb.org/t/p/w780/teMEUmOn5ZU5BC3Ws2nRbFEuZvI.jpg",
       "releaseInfo": "1997"
+    },
+    {
+      "id": "tmdb:15030",
+      "type": "series",
+      "name": "Secrets of the Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/9S7ht0dMhf5PulQWdWf7MXja3u6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/di8tQu356tHQ4JKEzMSkjIyX5Kh.jpg",
+      "releaseInfo": "2000"
     },
     {
       "id": "tmdb:18940",
@@ -99,17 +133,17 @@
       "releaseInfo": "1981"
     },
     {
-      "id": "tmdb:68317",
-      "type": "series",
-      "name": "Texas Parks and Wildlife",
-      "poster": "https://image.tmdb.org/t/p/w500/yQpRwhKoE5KGovG2Ngclo5J1YRz.jpg"
-    },
-    {
       "id": "tmdb:17693",
       "type": "series",
       "name": "Off the Record",
       "poster": "https://image.tmdb.org/t/p/w500/8DK7dBSFcRI2dNb7TZOb9mcbKzI.jpg",
       "background": "https://image.tmdb.org/t/p/w780/rkXSvS6qjevaqzJJbYVGVCpPXuD.jpg"
+    },
+    {
+      "id": "tmdb:68317",
+      "type": "series",
+      "name": "Texas Parks and Wildlife",
+      "poster": "https://image.tmdb.org/t/p/w500/yQpRwhKoE5KGovG2Ngclo5J1YRz.jpg"
     },
     {
       "id": "tmdb:52129",
@@ -120,18 +154,11 @@
       "releaseInfo": "2008"
     },
     {
-      "id": "tmdb:288842",
+      "id": "tmdb:336199",
       "type": "series",
-      "name": "Pati Jinich Explores Panamericana",
-      "poster": "https://image.tmdb.org/t/p/w500/qTgpbO3fS3yc0dQoj9pX1bIpTjU.jpg",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:328361",
-      "type": "series",
-      "name": "NOVA: Evolution",
-      "poster": "https://image.tmdb.org/t/p/w500/gOL6OZA40CwnektLt4QQCTk9Xi3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dY6UOagjgFSfWSuci3B7F4fO4BZ.jpg",
+      "name": "Crime and Punishment in America",
+      "poster": "https://image.tmdb.org/t/p/w500/acfpMRRWRgVrsyA2Rb2gxV3BDgQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2n9v3fBXyb0aId224d8Y4GIFqJK.jpg",
       "releaseInfo": "2026"
     }
   ]

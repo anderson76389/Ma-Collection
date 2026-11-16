@@ -10,6 +10,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:286183",
+      "type": "series",
+      "name": "Hollywood Arts",
+      "poster": "https://image.tmdb.org/t/p/w500/xsL1ig6Tyi0j9AZPt23yZprslGS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2wjP481Z3G6NlXoUFutN5vcnqzC.jpg",
+      "description": "Les cours ont repris à Hollywood Arts ! L'icône autoproclamée Trina Vega revient pour guider des adolescents talentueux vers la gloire, entre ambition et chaos hilarant.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:318918",
       "type": "series",
       "name": "LEGO One Piece",
@@ -168,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/gZuwOtqQRPvLOhLV21qfaC3tIxS.jpg",
       "background": "https://image.tmdb.org/t/p/w780/43Tu4TnFO57R6eK6XUBFGJrazrZ.jpg",
       "description": "Mordecai, un geai bleu, et Rigby, un raton laveur, deux amis paresseux, travaillent dans un parc municipal. Mais, quoi qu'ils entreprennent, leurs tâches quotidiennes finissent invariablement par basculer dans un chaos totalement surréaliste, au grand désespoir de leur patron et de leurs collègues...",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:270476",
-      "type": "series",
-      "name": "Widow's Bay",
-      "poster": "https://image.tmdb.org/t/p/w500/99f8XKkUXC2pKGqNzbUgA9Ui1zA.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yx0sfeYOoXol2fjT22SXo9YyviI.jpg",
-      "description": "Le maire d'une ville de Nouvelle-Angleterre souhaite en faire une destination touristique, malgré les avertissements sur le fait qu'elle est maudite.",
       "releaseInfo": "2026"
     }
   ]

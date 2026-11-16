@@ -1,15 +1,6 @@
 {
   "metas": [
     {
-      "id": "tmdb:17937",
-      "type": "series",
-      "name": "Ghost Adventures",
-      "poster": "https://image.tmdb.org/t/p/w500/xLJZuDxdeUqRFHFlqs0mIk9faMR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/u64huzTnF3jEYUXJ4BDlpHy2L3K.jpg",
-      "description": "L'enquêteur paranormal Zak Bagans et son équipe, Nick Groff, Aaron Goodwin, Billy Tolley et Jay Wasley, recherchent des lieux hantés au niveau national et international. Au cours de leur enquête, Zak et son équipe se familiarisent avec la région, interrogent les habitants sur les lieux hantés et rencontrent les mauvais esprits qui hanteraient ces lieux.",
-      "releaseInfo": "2008"
-    },
-    {
       "id": "tmdb:86845",
       "type": "series",
       "name": "Paranormal Vidéos",

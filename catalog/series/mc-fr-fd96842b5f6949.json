@@ -19,6 +19,15 @@
       "releaseInfo": "2018"
     },
     {
+      "id": "tmdb:212440",
+      "type": "series",
+      "name": "La seconde guerre mondiale vue du ciel",
+      "poster": "https://image.tmdb.org/t/p/w500/dZl9OxMyHRI6lDRNV4RUvJtYhxx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vwP8lTgiscnRzbaTucRRzXHpy4G.jpg",
+      "description": "Une toute nouvelle série qui retrace en détail les évènements les plus marquants de la Seconde Guerre mondiale d'un point de vue aérien unique.",
+      "releaseInfo": "2022"
+    },
+    {
       "id": "tmdb:340419",
       "type": "series",
       "name": "Cars That Changed History",
@@ -28,7 +37,7 @@
       "id": "tmdb:340728",
       "type": "series",
       "name": "MEGASTORM",
-      "poster": "https://image.tmdb.org/t/p/w500/eVpX4Mvh9LDNu5xqvHmoL1Rr8Il.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/yp9acWngjqc90mevHPG97kb5T1o.jpg",
       "background": "https://image.tmdb.org/t/p/w780/uzPfZrkwHvJ8g7Jxhxwg4hiKkql.jpg",
       "releaseInfo": "2026"
     }

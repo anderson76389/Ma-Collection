@@ -1,12 +1,63 @@
 {
   "metas": [
     {
+      "id": "tmdb:341950",
+      "type": "series",
+      "name": "Clangold",
+      "poster": "https://image.tmdb.org/t/p/w500/9Y8DXNSG0NfTL98S9b9qiqaIzzw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lE116QoDQZTAVsRvSafIJtYnqDG.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:341027",
+      "type": "series",
+      "name": "Az igazság mániákusai",
+      "poster": "https://image.tmdb.org/t/p/w500/bdtUdFty62jg5o38wFFYcUAhJW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4pEekXslUec02y6zo9Y0IxvF6PA.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:305245",
+      "type": "series",
+      "name": "Douce Nuit",
+      "poster": "https://image.tmdb.org/t/p/w500/5KKmG94mjp1ds1r99n3i0IGWQXg.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bbCCaAlzJkCv8C8AFr8l1rBWJyt.jpg",
+      "description": "Lors de la nuit de Noël 1976 en Pologne, trois jeunes gens meurent tragiquement, fauchés par un autobus alors qu'ils revenaient de la messe de minuit. Alors que les autorités locales s'empressent de classer l'affaire en un simple et malheureux accident de la route, la mère des victimes refuse de croire à cette version. Épaulée par un jeune enquêteur ambitieux et obstiné, elle va se confronter à une terrible loi du silence qui paralyse tout le village. Ensemble, ils vont tenter de briser l'omerta pour faire éclater une vérité bien plus sombre et obtenir justice.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:341555",
+      "type": "series",
+      "name": "The Killing of the Golden Rooster",
+      "poster": "https://image.tmdb.org/t/p/w500/rSbX7iONG8b5zovcXhvJFKIqSGK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xmHw8irD2q1YYEeyLw2tMb4cHsc.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:249565",
+      "type": "series",
+      "name": "The Good Daughter",
+      "poster": "https://image.tmdb.org/t/p/w500/nfWGZtrLH6PLcOQFOttZqmhKaVk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nDU6mUk4wVU1EkDkDvcLvT2UWdy.jpg",
+      "description": "Les sœurs Charlotte et Samantha Quinn ont passé les vingt-huit dernières années à essayer de reconstituer les vies qui ont été brisées par une nuit de violence. Lorsqu'un nouvel attentat a lieu dans la petite ville de Pikeville, Charlotte est le premier témoin sur les lieux. Devenue avocate comme son père, elle est forcée d'affronter ses propres démons au fur et à mesure que l'affaire affaire.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:339697",
       "type": "series",
       "name": "Melania Rea",
       "poster": "https://image.tmdb.org/t/p/w500/ygSSmy0cyhscPppiFmZcZzDl19C.jpg",
       "background": "https://image.tmdb.org/t/p/w780/r5ecc4Wjejsp6B507GdZXOPTNMo.jpg",
       "description": "Melania, une jeune mère de vingt-neuf ans, est retrouvée morte poignardée dans une forêt après avoir mystérieusement disparu lors d'une sortie familiale en Italie. L'enquête policière se concentre rapidement sur son mari, Salvatore, un caporal-chef de l'armée dont la double vie sentimentale et les mensonges finissent par être exposés au grand jour.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:340285",
+      "type": "series",
+      "name": "Le poète cannibale",
+      "poster": "https://image.tmdb.org/t/p/w500/6iDdqDbf9croU7Ae3uZOxvSMMYr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wHT5h6r3cv9udP2qQFAIrIkLlX.jpg",
+      "description": "Le journaliste Luis Brito rouvre l'affaire du poète cannibale, un des meurtriers les plus notoires de Mexico. Il découvre alors de nouvelles victimes, et dresse un portrait glaçant du tueur.",
       "releaseInfo": "2026"
     },
     {
@@ -124,60 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/9j0kT5q7BATWbqTph0gqkzyr0KT.jpg",
       "background": "https://image.tmdb.org/t/p/w780/pE6lTAEaErbLzIZuGP7Ojg8uD0.jpg",
       "description": "Dans le Berlin des années 1990, les origines de la famille Hamady avant qu’elle ne devienne l’un des clans les plus influents de la ville. Réfugiés du Liban, tolérés en Allemagne, les Hamady luttent pour s’imposer dans leur nouveau pays et se faire une place dans le milieu criminel berlinois.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:288385",
-      "type": "series",
-      "name": "Paolo",
-      "poster": "https://image.tmdb.org/t/p/w500/5arYNSnKiCWxdwdrzjvP5vokPkV.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mjje2ajzDEpT3wDgc28RtjIq3WD.jpg",
-      "description": "La vie ordinaire de Paolo bascule lorsqu’il recroise la route de Téophane, un ancien camarade d’école, qui brigue aujourd’hui la mairie de sa ville et qui a semble-t-il tout pour lui. Ce qui commence par une simple admiration et une volonté de soutenir la campagne se transforme en une obsession dévorante…",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:285418",
-      "type": "series",
-      "name": "Youth",
-      "poster": "https://image.tmdb.org/t/p/w500/uK1Kv6OHkpmHUyMV5QmYxXoTBVM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/iEISXRsDv8Q2PA6i9cAQd2DH9bN.jpg",
-      "description": "Alex a une carrière, une famille et une riche expérience de la vie, mais elle doit aussi faire face aux réalités de la cinquantaine, s'occuper de ses parents vieillissants, élever un fils adolescent en difficulté et essayer de déterminer s'il y a encore de la place pour la romance et l'excitation dans sa propre vie.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:239618",
-      "type": "series",
-      "name": "American Hostage",
-      "poster": "https://image.tmdb.org/t/p/w500/q3oa6rW9ZU9a6IcpJRynzzLDGBH.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/t708JUdkHAoZF83f4RjqcIGrJ99.jpg",
-      "description": "Dans les années 1970, un preneur d'otages exige d'être interviewé dans l'émission d'actualité de Fred Heckman, journaliste radio très apprécié.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:335651",
-      "type": "series",
-      "name": "Saman : la vérité cachée",
-      "poster": "https://image.tmdb.org/t/p/w500/fKDaokuCMb25O03TJibCgw3DpiY.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9Oku7k4ga0hwmtJL9s9LaK3plOo.jpg",
-      "description": "Après la disparition de Saman Abbas, 18 ans, en mai 2021, les images de vidéosurveillance et les réseaux sociaux ont permis de reconstituer les faits.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:334465",
-      "type": "series",
-      "name": "Professeur Raoult vs le gang des Cerises",
-      "poster": "https://image.tmdb.org/t/p/w500/6RNbBESf3DTaFqEys7slb7xzCUH.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7Egk03y5t3GHrLa0uS4lQLbBwKW.jpg",
-      "description": "Le Professeur Raoult promet un remède miracle contre le Covid. Face à lui, six citoyens crient à l'imposture. Parmi eux, sa propre fille.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:332910",
-      "type": "series",
-      "name": "A Killer Story",
-      "poster": "https://image.tmdb.org/t/p/w500/aq9m0ZiiNVquFFrTMeL9dCDstkJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kFp5nRy5b6xghGKObHsqvcyGlR8.jpg",
-      "description": "Des détectives amateurs du Kansas s'associent à un journaliste new-yorkais pour prouver l'innocence de Dana Chandler, condamnée pour meurtre en 2002.",
       "releaseInfo": "2026"
     }
   ]

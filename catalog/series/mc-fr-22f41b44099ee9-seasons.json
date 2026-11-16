@@ -28,14 +28,6 @@
       "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:211201",
-      "type": "series",
-      "name": "Bobby's Triple Threat",
-      "poster": "https://image.tmdb.org/t/p/w500/nRvF9GPYBA6tGRLxKH4HUENfaN1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jY2qk7DTcjURh5Z182zn8yRc5GF.jpg",
-      "releaseInfo": "2022"
-    },
-    {
       "id": "tmdb:64958",
       "type": "series",
       "name": "MasterChef Canada",
@@ -44,12 +36,20 @@
       "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:240444",
+      "id": "tmdb:211201",
       "type": "series",
-      "name": "Without A Recipe",
-      "poster": "https://image.tmdb.org/t/p/w500/zK1qUg6wYlO0Yo1xxnFqyWbNUm.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jroTvK95Ftu0kjxmKeSHG7rxdX0.jpg",
-      "releaseInfo": "2017"
+      "name": "Bobby's Triple Threat",
+      "poster": "https://image.tmdb.org/t/p/w500/nRvF9GPYBA6tGRLxKH4HUENfaN1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jY2qk7DTcjURh5Z182zn8yRc5GF.jpg",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:212465",
+      "type": "series",
+      "name": "Aldi's Next Big Thing",
+      "poster": "https://image.tmdb.org/t/p/w500/xhTPDV60pshcTXjcanIsReFl0eW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7CsYXQGSvFcz26M9A2ingLHk2Oa.jpg",
+      "releaseInfo": "2022"
     },
     {
       "id": "tmdb:305340",

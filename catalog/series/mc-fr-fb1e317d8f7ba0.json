@@ -5,9 +5,17 @@
       "type": "series",
       "name": "Baywatch",
       "poster": "https://image.tmdb.org/t/p/w500/CPNtOu08ucoIlSM7QpuEwWFh3A.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mZdpLyHvIdd8VcvJfCzLiDMfkTt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6s25WseOcAnlrL9kav1i0moozG4.jpg",
       "description": "Des sauvetages en mer audacieux, des plages immaculées et les emblématiques maillots de bain rouges sont de retour, accompagnés d’une toute nouvelle génération de sauveteurs de « Baywatch ». Ces derniers doivent jongler avec des vies personnelles complexes et chaotiques dans ce reboot riche en action, qui illustre bien qu’il existe deux types de famille : celle dans laquelle on naît et celle que l’on se choisit.",
       "releaseInfo": "2027"
+    },
+    {
+      "id": "tmdb:332683",
+      "type": "series",
+      "name": "地雷グリコ",
+      "poster": "https://image.tmdb.org/t/p/w500/qK89PNm4j96pwx4ul3e8AkDfBsM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cKM4DnFGFRrQghqLK9uzPEcEkWD.jpg",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:303044",
@@ -58,7 +66,7 @@
       "type": "series",
       "name": "L'amour sous couverture",
       "poster": "https://image.tmdb.org/t/p/w500/xima3BlIJxlrONQgZ9mYuSLAq0f.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/32g5MD6eHPAZ5NAgkNAURb4eupm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ob7m6JqZ7jSOocR3VL73VxRC6Is.jpg",
       "description": "Yoon Yi-jun, successeur du groupe Taekang, est le principal suspect d'un terrible meurtre. Pour découvrir la vérité, l'inspectrice Kang Jae-hee s'infiltre auprès de lui en se faisant passer pour son secrétaire. Mais plus elle se rapproche de la vérité, plus ils se rapprochent l'un de l'autre. Entre Jae-hee sous couverture et Yi-jun qui cache un secret, pourront-ils s'avouer leurs sentiments ?",
       "releaseInfo": "2026"
     },
@@ -162,14 +170,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/b0Uz1KyKvsqBxFVdJ7HNPAquyXX.jpg",
       "background": "https://image.tmdb.org/t/p/w780/iO7ck5oXIY9qQyHyXH53FCqrIzs.jpg",
       "description": "Suit une opération secrète controversée qui a envoyé Alain Olivier, un étudiant forestier québécois toxicomane, dans le couloir de la mort en Thaïlande en 1989.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:319722",
-      "type": "series",
-      "name": "Honor Thy Mother",
-      "poster": "https://image.tmdb.org/t/p/w500/rAdn0E8u53QQZrBbgKEwyO2mhCs.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/45QKBrrIO5WcYhdF8SKtJiu7Ig7.jpg",
       "releaseInfo": "2026"
     }
   ]

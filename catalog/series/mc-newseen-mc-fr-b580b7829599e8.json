@@ -1,40 +1,49 @@
 {
   "metas": [
     {
-      "id": "tmdb:1426",
+      "id": "tmdb:85552",
       "type": "series",
-      "name": "Luther",
-      "poster": "https://image.tmdb.org/t/p/w500/hDxOMX8zzH1FiqKWVBzNaYGBkle.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/A2qdFRq9oJDC5E7fbgSS4POUMDF.jpg",
-      "description": "Un inspecteur de police consciencieux tente de ne pas partir à la dérive tandis qu'il démêle les facteurs psychologiques qui sous-tendent ses affaires criminelles.",
-      "releaseInfo": "2010"
+      "name": "Euphoria",
+      "poster": "https://image.tmdb.org/t/p/w500/y2Oydc1hoN8aV1ObovRoweL5msE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aJN0VtMbtYndK0M0XoaoKBoAzPu.jpg",
+      "description": "À 17 ans, Rue Bennett, fraîchement sortie de désintox, cherche à donner un sens à son existence. Elle se lie très vite à Jules Vaughn, une fille trans récemment arrivée en ville après le divorce de ses parents. Dans leur sillage gravitent Nate Jacobs, un sportif dont les problèmes de colère masquent des complexes sexuels ; Maddy Perez, la petite amie de Nate ; Chris McKay, star de l'équipe de football qui peine à suivre les cours ; Cassie Howard, dont le passif sexuel continue de la poursuivre ; Lexi Howard, jeune sœur de Cassie et amie d'enfance de Rue ; et Kat Hernandez, en pleine exploration de sa sexualité.",
+      "releaseInfo": "2019"
     },
     {
-      "id": "tmdb:212989",
+      "id": "tmdb:63401",
       "type": "series",
-      "name": "LEGO Ninjago : Le soulèvement des dragons",
-      "poster": "https://image.tmdb.org/t/p/w500/yJ9VjdlKpSkkBqgQ2kwOcEpMLVj.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4vubgrPvqDKNFP1kNvHpd3do9hd.jpg",
-      "description": "Deux adolescents de mondes différents utilisent leurs pouvoirs de ninjas pour défendre des dragons face à des méchants qui veulent utiliser leur force vitale à mauvais escient.",
-      "releaseInfo": "2023"
+      "name": "Ours pour un et un pour t'ours",
+      "poster": "https://image.tmdb.org/t/p/w500/oxDJrSKA9zRS7nxuXnloSw3eekJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cl5FVcBEgddaC7dUL8HDMH6m2tp.jpg",
+      "description": "Trois frères ours tentent maladroitement de trouver leur place dans la société civilisée, en cherchant de la nourriture, en essayant de se faire des amis humains ou en cherchant à devenir célèbres sur Internet. Grizzly, Panda et Ours Polaire s'empilent les uns sur les autres lorsqu'ils quittent leur grotte et explorent les environs branchés de la baie de San Francisco, et il est clair que les frangins ont beaucoup à apprendre sur ce monde axé sur la technologie. À leurs côtés dans de nombreuses aventures, il y a leur meilleure amie humaine Chloé, Nom Nom le panda qui veut devenir célèbre et Charlie, plus connu sous le nom de Bigfoot !",
+      "releaseInfo": "2015"
     },
     {
-      "id": "tmdb:607",
+      "id": "tmdb:95350",
       "type": "series",
-      "name": "Les Super Nanas",
-      "poster": "https://image.tmdb.org/t/p/w500/dltXKG49E9OhVjy4QgPlFnCegxR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gnK2nptRXra4RnKgGqAWFSqP5aG.jpg",
-      "description": "La série suit les aventures de trois protagonistes nommées Belle, Bulle et Rebelle. Chacune est identifiée par une couleur qui lui est propre : le rose pour Belle, le bleu ciel pour Bulle, et le vert pour Rebelle. Chacune de ses petites filles possède des supers-pouvoirs qu'elles utilisent habituellement pour défendre leur ville face à la menace de divers monstres et antagonistes. Entre-temps, ces petites filles vivent le quotidien de tout enfant de leur âge incluant la rivalité entre sœurs, la perte des dents de lait, l'hygiène personnelle, la scolarité, les énurésies nocturnes, et autres passe-temps. Leurs exploits se déroulent habituellement dans la ville de Townsville, aux États-Unis, perçue comme une ville imposante dans la série avec de nombreux gratte-ciels.",
+      "name": "Lanterns",
+      "poster": "https://image.tmdb.org/t/p/w500/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wJjnJbVUwPz0GADAgpFt9nWtzUu.jpg",
+      "description": "Deux flics intergalactiques, la nouvelle recrue John Stewart et le légendaire Hal Jordan, sont confrontés à un sombre mystère sur Terre alors qu’ils enquêtent sur un meurtre au fin fond de l’Amérique.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:298852",
+      "type": "series",
+      "name": "WAR",
+      "poster": "https://image.tmdb.org/t/p/w500/pTHgCWSuv8m5bBFsL1EXu0zftg7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/muPKymUvvBqjLCyGSacxKgjrhxN.jpg",
+      "description": "Cathcarts & Sons et Taylor & Byrne s’affrontent dans ce qui s’annonce comme le divorce du siècle : celui du magnat de la tech Morgan Henderson et de la superstar du cinéma Carla Duval. Une affaire retentissante qui pousse les deux cabinets à franchir toutes les limites pour remporter la victoire",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:105",
+      "type": "series",
+      "name": "Sex and the City",
+      "poster": "https://image.tmdb.org/t/p/w500/jRkfQMfHXxKE6Pn2ou4sdF7g9W0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jvHw1zF20kYA9gbF2VprXD6uJpq.jpg",
+      "description": "Célibataire new-yorkaise, Carrie s'inspire de sa propre expérience, et de celle de ses amies, pour écrire des articles sur des thèmes touchant le sexe et les relations amoureuses.",
       "releaseInfo": "1998"
-    },
-    {
-      "id": "tmdb:81723",
-      "type": "series",
-      "name": "The Gilded Age",
-      "poster": "https://image.tmdb.org/t/p/w500/l36aFd248esuJJ1uIe0Za96bLTR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/afUVsProh46h31w2EvL7qyHXrqj.jpg",
-      "description": "Aux États-Unis, le Gilded Age désigne la période de prospérité qui suivit la guerre de Sécession. En 1882, la jeune Marian Brook quitte la Pennsylvanie après la mort de son père pour s'installer avec ses tantes aristocrates à New-York. Accompagnée par Peggy Scott, une écrivaine en devenir, Marian va découvrir la haute société et se retrouver au milieu d'un conflit entre une de ses tantes et leurs voisins, l'ambitieux magnat des chemins de fer George Russel et sa femme Bertha.",
-      "releaseInfo": "2022"
     }
   ]
 }

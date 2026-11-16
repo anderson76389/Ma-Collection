@@ -37,6 +37,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:297903",
+      "type": "series",
+      "name": "PSYREN",
+      "poster": "https://image.tmdb.org/t/p/w500/TyohYN5o2dLfkBurnISpBl0TLe.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qRgXreXNyUO30yAniTckVAho2va.jpg",
+      "description": "Ageha est dégoûté par notre monde et rêve d’une vie meilleure. Un soir, il trouve une étrange carte rouge sur laquelle il est écrit Psyren. Il s’agirait d’une société secrète à l’origine de nombreux enlèvements.\n\nPeu après, l’une de ses camarades, qui semblait connaître cette société, disparaît devant ses yeux. Ageha décide alors de la sauver : il utilise la carte rouge et se retrouve soudainement projeté dans un monde parallèle. A présent, Ageha doit lutter pour survivre et arriver jusqu’au bout du jeu, car c’est le seul moyen pour lui de retrouver son monde originel, qui n’est peut-être pas si horrible que ça finalement.\n\nDans cette entreprise, il n’est pas seul. D’autres personnes sont dans la même galère. Et c’est ensemble, qu’ils vont affronter le danger et peut-être même le vaincre…",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:335194",
       "type": "series",
       "name": "Magical Explorer",
@@ -46,12 +55,39 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:333622",
+      "type": "series",
+      "name": "Magic Repo Man: Dumped by My Party, I'll Cash In with a Cute Support Fairy to Become the Strongest!",
+      "poster": "https://image.tmdb.org/t/p/w500/3IxYsKJGSlxy6GDnFBIx7UJc5nP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4ncuq4Qo0NrSZBnxM3PABeROyVT.jpg",
+      "description": "Lent fait partie du groupe « Skypiercers ». Grâce à son don unique, il peut prêter une importante quantité de magie à ses partenaires. Cependant, il est viré du jour au lendemain du groupe par ses compagnons, tous devenus puissants grâce à son talent, ne le jugeant désormais plus utile au groupe.\n\nFurieux, Lent est bien décidé à récupérer jusqu'à la dernière goutte de magie qu'il a prêté à ses anciens compagnons, avec les intérêts, grâce au pouvoir caché de son don.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:283692",
+      "type": "series",
+      "name": "Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!",
+      "poster": "https://image.tmdb.org/t/p/w500/l2bXeBO6f2ZXgKh0ipYKyeMT98v.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/k5G4ALskmO8GcSOO3fN8fePa9Ny.jpg",
+      "description": "Takahiro Satô est arraché à son quotidien lorsqu’il se réincarne dans l'univers de son jeu vidéo préféré : un monde galactique où se jouent des batailles spatiales, peuplé de colonies interstellaires mais aussi jonché de dangers. Très vite, il devient « Hiro », un mercenaire équipé d'un vaisseau spatial ultrasophistiqué et accompagné de deux beautés !",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:285899",
+      "type": "series",
+      "name": "A Tale of the Secret Saint",
+      "poster": "https://image.tmdb.org/t/p/w500/4WfTtcDLBycYQzryGYwZRpyxBvZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wpNi39uaat5A1VhaVpdcQlKuMB5.jpg",
+      "description": "Fia a toujours rêvé de devenir une grande chevalière, même si elle ne manie pas très bien l'épée. Mais tandis qu'elle est à l'article de la mort, un combat réveille en elle des souvenirs de sa vie antérieure : celle de la sainte légendaire qui avait vaincu le roi des démons. Ses pouvoirs lui reviennent, mais ses anciens ennemis refont également surface.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:324502",
       "type": "series",
       "name": "Overgeared",
       "poster": "https://image.tmdb.org/t/p/w500/fmAQ2lOtLAoEU2p6wQ12wXbIgLM.jpg",
       "background": "https://image.tmdb.org/t/p/w780/745xqHbiUWwO51TM60MXRCR4Onm.jpg",
-      "description": "Shin Young Woo est ce qu'on appelle un loser « IRL », un bon à rien « dans la vraie vie » : il enchaîne les petits boulots et peine à rembourser ses dettes. Quand il se connecte au jeu VR « SATISFY », jeu de réalité virtuelle auquel il est accro, ce n'est pas plus glorieux : Young Woo devient « Grid », un guerrier au niveau terriblement médiocre… Jusqu'au jour où il tombe sur un livre regroupant l'ensemble des connaissances du plus légendaire des forgerons ! Mais en activant cet artefact, les statistiques durement acquises de Grid retombent à zéro… Sauf que ses nouvelles capacités vont lui permettre de se forger un équipement de tout premier ordre, pour espérer devenir un héros, un vrai !",
+      "description": "Grid, un homme malchanceux dans la vie et joueur de bas niveau dans le célèbre jeu vidéo Satisfy, trouve un objet puissant qui lui vaut un titre légendaire rare : L'Héritier de Pagma. Il est désormais un forgeron talentueux doté d’armes uniques, mais il se rend compte que sa réputation lui cause quelques soucis.",
       "releaseInfo": "2026"
     },
     {
@@ -86,7 +122,7 @@
       "type": "series",
       "name": "THE GHOST IN THE SHELL",
       "poster": "https://image.tmdb.org/t/p/w500/n0YA8GrukYlUnskWZzDjGIh24BY.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/app8YXZ4NS0hMTYZuIA6zx92xVm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2aZc3aNtycEDYkYbcuu6Q2QQ9bD.jpg",
       "description": "2029, un Japon du futur proche. Le cyborg Motoko Kusanagi envisage une unité de lutte contre les menaces émergentes. Daisuke Aramaki recrute son équipe et forme la Section 9 de la Sécurité publique, alias l'« Unité spéciale ». Un complot se dessine et un hacker émerge : le « Marionnettiste ». Que réserve l'avenir à Kusanagi ? Que veut ce hacker ? Une nouvelle ère d'action cyberpunk commence !",
       "releaseInfo": "2026"
     },
@@ -142,42 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/6FTC8b0V0xdCQrT4929HPdPnoYo.jpg",
       "background": "https://image.tmdb.org/t/p/w780/8oDXuGfRiNPMZc1eYc9O8gIm7nb.jpg",
       "description": "Trente ans après une invasion extraterrestre, Shiina Kuze se joint au combat pour protéger sa sœur et sauver l'humanité.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:285993",
-      "type": "series",
-      "name": "BLACK TORCH",
-      "poster": "https://image.tmdb.org/t/p/w500/m0Y86byoQXcxbYPdg4pQ8feEjE1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ceirDIa8QgeeiFKFnLcQpfAH5V7.jpg",
-      "description": "Adolescent au grand cœur capable de communiquer avec le monde animal, Jiro est issu d'une longue lignée de ninjas. Lorsqu'il rencontre Rago, un mystérieux chat mononoke, le monde des humains et celui des esprits entrent en collision ! Une agence d'espionnage secrète s'efforce de limiter les dégâts, mais le pouvoir de Rago n'est pas facile à maîtriser.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:270603",
-      "type": "series",
-      "name": "The Exiled Heavy Knight Knows How to Game the System",
-      "poster": "https://image.tmdb.org/t/p/w500/flcyEjfwHECnqgXMGNZsajLg1rv.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rQmzx7qyoK5YiXJHnv0jdgVlKyl.jpg",
-      "description": "Issu d’une prestigieuse famille de maîtres épéistes, Elymas Edvaughn est renié et banni lorsqu’il s’affirme en tant que “Chevalier Lourd”, une classe inférieure et complètement dénigrée. En réalité, le monde d’Elymas est similaire à celui d’un jeu qu’il maîtrisait dans une autre vie. Et il sait parfaitement que les Chevaliers Lourds sont en fait les plus puissants…",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:314554",
-      "type": "series",
-      "name": "From Overshadowed to Overpowered: Second Reincarnation of a Talentless Sage",
-      "poster": "https://image.tmdb.org/t/p/w500/b2FoMcfgBuCYvRUbZ1zjNNbGAa6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/44cpdAd87SSmOVew1Y4LsEWjqPf.jpg",
-      "description": "Le grand sage Ephtal meurt désespéré après avoir échoué à atteindre les sommets de la magie. Mais 400 ans plus tard, il renaît avec tous ses souvenirs et ses pouvoirs intacts ! Dans un monde où la magie est en déclin et où les sorts anciens sont considérés comme des miracles, Ephtal fait irruption dans une prestigieuse académie de magie pour rétablir le véritable art de la sorcellerie.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:298994",
-      "type": "series",
-      "name": "Villageois LVL 999",
-      "poster": "https://image.tmdb.org/t/p/w500/b62MUHX0v8aVVyqH9P0zlEYhf9n.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ydWwc4NOeDb7t8pcR3tf6n12rLB.jpg",
-      "description": "Naître villageois, c’est avoir la malchance de vivre une vie fragile de dur labeur au service des autres, dans ce monde impitoyable de tous les dangers. Pourtant, l’un d’entre eux parvient à atteindre un niveau qui fait pâlir les plus valeureux héros : 999 !",
       "releaseInfo": "2026"
     }
   ]

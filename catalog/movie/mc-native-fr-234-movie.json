@@ -9,6 +9,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1767102",
+      "type": "movie",
+      "name": "Jean Gabin - La guerre, c'est pas du cinéma",
+      "poster": "https://image.tmdb.org/t/p/w500/5BxDS4DmVvBi0agPjOIPxrKr7wv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1ebE6S8dUtJlbFRCe0DDbt5x3IP.jpg",
+      "description": "Cinquante ans après sa mort, le 15 novembre 1976, retour sur le plus beau rôle, mais l'un des moins connus, de l'acteur iconique du cinéma français : son combat d'engagé volontaire dans les Forces françaises libres, de 1943 à 1945.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1805036",
       "type": "movie",
       "name": "Zombies - La fascination des morts-vivants",
@@ -41,6 +50,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/eEyntGRDfYKJmgRh8bsLYRu7c6n.jpg",
       "background": "https://image.tmdb.org/t/p/w780/uCfUbnfksy7OJc9e9HovcbHH5ix.jpg",
       "description": "Retour sur la rencontre à Munich qui allait propulser Donna Summer au firmament du disco, et donner naissance, entre autres tubes planétaires, à l'extraordinaire « I Feel Love ».",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1484148",
+      "type": "movie",
+      "name": "C'est vrai ce mensonge ?",
+      "poster": "https://image.tmdb.org/t/p/w500/pDGQkYQXDJlNup4FvnScZDNqS7y.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4MrM3SfbohbfmZu0APiyXPOI653.jpg",
+      "description": "Rescapé d’un accident de voiture, qui lui vaut une amnésie post-traumatique, Felix, un financier quinquagénaire, rentre chez lui après presque deux mois d’hôpital. Pour fêter son retour, sa femme, Anne, qui a fait redécorer leur luxueuse demeure en son absence, lui a réservé une surprise en invitant leurs amis proches. Soudain, Micha, une jeune femme, débarque de nulle part. Vivant dans un quartier déshérité, elle recherche sa fille Emily, une adolescente disparue depuis des semaines, sans que, selon elle, la police s’en soucie.",
       "releaseInfo": "2026"
     },
     {
@@ -98,7 +116,7 @@
       "id": "tmdb:1614236",
       "type": "movie",
       "name": "Faux Bijoux",
-      "poster": "https://image.tmdb.org/t/p/w500/pvwm4zbXHPYaRXJWAFtETT2fXA5.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/lwNCi28ZyOpnqVOqgal6bm1kZLc.jpg",
       "background": "https://image.tmdb.org/t/p/w780/qrFvzmIClExNWwdog8RrByxU7zN.jpg",
       "description": "Mireille promet à Johnny le grand écran, l'entraînant à une audition dont elle seule connaît vraiment les règles.",
       "releaseInfo": "2026"
@@ -151,22 +169,6 @@
       "background": "https://image.tmdb.org/t/p/w780/7GM9mqxH06EIROLMeqtYJwUGu6a.jpg",
       "description": "Andrea est une jeune adolescente bonne élève et introvertie qui vit en Picardie avec Valentina, sa mère extravagante, immigrée originaire d'ex-Yougoslavie. Dans ce décor de zones industrielles et de champs de betteraves, Andrea cherche à devenir le personnage principal de sa vie, face à des copines extraverties et une mère envahissante.",
       "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1626628",
-      "type": "movie",
-      "name": "Piranesi – Visionary of Shadow and Stone",
-      "background": "https://image.tmdb.org/t/p/w780/Ak0o7SFHsDoHsvGjcMo47eRCR7E.jpg",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1620007",
-      "type": "movie",
-      "name": "La nuit des mimosas",
-      "poster": "https://image.tmdb.org/t/p/w500/iWJ5NoQWH9sYah5OF0W6KV8pP8X.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/iL3Ls3fX4ikPrfBJdCfVBVC63KI.jpg",
-      "description": "Dans une maison de campagne, Paula entraîne sa mère dans une expérience écologique nocturne.",
-      "releaseInfo": "2025"
     }
   ]
 }

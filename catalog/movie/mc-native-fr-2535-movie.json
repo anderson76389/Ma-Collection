@@ -1,6 +1,32 @@
 {
   "metas": [
     {
+      "id": "tmdb:1819101",
+      "type": "movie",
+      "name": "Vincent Niclo et le Choeur symphonique : Bel Canto Tour",
+      "poster": "https://image.tmdb.org/t/p/w500/o2f8U2STQIGev6tYpfhL81qrBGp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7Og4OEm34BaUU2fIGHWAGzIctjB.jpg",
+      "description": "Dans ce show, Vincent Niclo, le célèbre ténor à la voix aux quatre octaves, rend hommage au bel canto en y mêlant virtuosité vocale et émotions, transportant ainsi le spectateur dans un univers lyrique et majestueux. Depuis sa rencontre avec Céline Dion, dont il fit les premières parties et une tournée mondiale avec Sarah Brightman, il a eu la chance de chanter sur les plus belles scènes du monde. Captation le 23 mai à l'Olympia à Paris 9ème.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1815145",
+      "type": "movie",
+      "name": "Retour gagnant pour la cuisine d'antan",
+      "poster": "https://image.tmdb.org/t/p/w500/8WWSD1SskbuGHWpsrxmvcE1ZuFP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sERRUmTf06pAa7T1r9y1MIR89ry.jpg",
+      "description": "Autrefois remisées dans les vieux grimoires, les recettes d'antan font aujourd'hui un retour fracassant sur les réseaux sociaux, en librairie et dans les restaurants étoilés. Ce phénomène, qui allie nostalgie, quête de sens, convivialité et démarche écoresponsable, témoigne d'un besoin profond de reconnexion à nos racines mais aussi au \"bien manger\". Ainsi, Constance a fait de sa Mamou de 86 ans une star des réseaux sociaux en la filmant en train de préparer ses recettes familiales. Certains restaurateurs, comme Jean Sévègnes, surfent sur leur souvenir d'enfance. Ailleurs, d'autres n'hésitent pas à réhabiliter les abats ou à remettre la soupe à l'oignon à la mode.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1817294",
+      "type": "movie",
+      "name": "Angélique Kidjo à la Philharmonie de Paris",
+      "poster": "https://image.tmdb.org/t/p/w500/2yY49xGreyOaN32UxdyDNfqg7Yf.jpg",
+      "description": "Chanteuse puissante et femme engagée, originaire du Bénin, Angélique Kidjo est devenue une ambassadrice iconique de l'Afrique au fil d'un parcours jalonné d'albums remarquables depuis le début des années 1990. Classée parmi les 100 femmes les plus influentes au monde par The Guardian, elle met sa notoriété au service des causes telles que l'émancipation de la femme ou la lutte contre le réchauffement climatique. Son nouveau projet, Symphonie Africaine, prend la forme hors normes d'un concert orchestral tout entier à la gloire du patrimoine musical africain. Ses chansons les plus marquantes, qui ont inspiré la jeune génération, y rencontrent les chansons d'autres artistes, à l'aura légendaire comme : Miriam Makeba, Fela Kuti, Youssou N' Dour ou encore Rema et Burna Boy.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1806253",
       "type": "movie",
       "name": "La foil histoire de la Route du Rhum",
@@ -16,6 +42,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/35P4HYNWQbMRcbXDdfJ1HuaCVOR.jpg",
       "background": "https://image.tmdb.org/t/p/w780/dG0Y0lQlkU5LPYC9CtpBKrGMN0n.jpg",
       "description": "En politique, les fidélités ne durent parfois que le temps d'une ambition. Derrière les grandes batailles électorales se jouent aussi des histoires intimes de confiance, d'humiliation et de revanche. De l'ascension fulgurante d'Emmanuel Macron, qui s'émancipe de François Hollande, à la guerre fratricide qui oppose Jacques Chirac à Edouard Balladur en 1995 ; de la rupture de Bruno Mégret avec Jean-Marie Le Pen à la volte-face d'Eric Besson, passé du Parti socialiste à Nicolas Sarkozy en pleine campagne présidentielle de 2007, quatre histoires de fidélités brisées qui ont marqué la vie politique française sont racontées par ceux qui les ont vécues au plus près.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1802411",
+      "type": "movie",
+      "name": "Bénabar à l'Olympia",
+      "poster": "https://image.tmdb.org/t/p/w500/qk8BKA7t1KdyOp9KUewVELkPgaa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aKfiZboROvRL0ASXZ9uzc8UUxxw.jpg",
+      "description": "Avec une dose d'ironie et un sens de la comédie, Bénabar raconte la vie de tous les jours : le couple, les amis, les soirées ratées ou les souvenirs d'enfance. Des petites histoires enjolivées par la précision des mots de l'artiste dans lesquels chacun peut se reconnaître. Derrière ses textes très \"cinématographiques\" il y a le temps qui passe, les occasions manquées, les regrets mais surtout des échanges spontanés avec le public et une dynamique de groupe qui portent un show généreux. Captation le 29 avril 2026 à l'Olympia à Paris 9ème.",
       "releaseInfo": "2026"
     },
     {
@@ -142,42 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/ec3WUgJcuarl5ZiHrhCklMktK1.jpg",
       "background": "https://image.tmdb.org/t/p/w780/kr0ScqamYCDZ21OSsnkPgJ6UH21.jpg",
       "description": "Au large d'Alexandrie, sous plusieurs mètres d'eau, reposent les vestiges de l'une des sept merveilles du monde antique : le légendaire phare d'Alexandrie. Depuis près de 30 ans, l'archéologue Isabelle Hairy et son équipe explorent des milliers de blocs pour reconstituer l'histoire de ce monument hors norme. Aujourd'hui, une opération exceptionnelle se prépare. Les vestiges les plus monumentaux du phare, dont certains pèsent plusieurs dizaines de tonnes vont être remontés à la surface et numérisés. Grâce à des nouvelles technologies enrichies par l'IA, l'archéologue va pouvoir établir une réplique virtuelle du phare et montrer le génie de ses architectes.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1770213",
-      "type": "movie",
-      "name": "Le chanvre des possibles",
-      "poster": "https://image.tmdb.org/t/p/w500/ywRwp3FdT077vG8GHTV6mBNI6bZ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qL3mRsuNArwCWTWqM0xrZxAdCyR.jpg",
-      "description": "De la graine à la fibre, en passant par la tige, le chanvre est un véritable couteau suisse végétal. Sa graine et son huile, riches en protéines, s'invitent dans les assiettes, sa fibre douce et résistante permet la fabrication de tissu consommant vingt fois moins d'eau que du coton, dotée en omégas 3, 6 et 9, l'huile de chanvre nourrit aussi durablement la peau sans laisser de film gras. Quant à sa tige, elle devient de l'isolant dans le bâtiment, de la litière animale ou du paillage horticole. Cette plante aux mille usages semble répondre à certains des plus grands défis de notre époque.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1759540",
-      "type": "movie",
-      "name": "Lena Situations - Celui où ils disent au revoir",
-      "poster": "https://image.tmdb.org/t/p/w500/aSm4dTDzgvykqMFg49k5psxxmmH.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9Qmy2zw0tqK0dqRJcdBO4EWyXR1.jpg",
-      "description": "Lancée à l'été 2017 pour offrir un bol d'air aux non-vacanciers, la série des Vlogs d'août de Lena Situations s'est imposée comme un rendez-vous incontournable de l'été. Autrice à succès, fondatrice de la marque Hôtel Mahfouf et figure du Met Gala, la vidéaste tourne la page de cette saga de dix ans avec un événement exceptionnel le 31 août 2026 à l'Accor Arena à Paris 12ème. Nommé en clin d'oeil à la sitcom \"Friends\", l'une de ses séries préférées, pensé comme un grand moment de partage, le spectacle réunit sur scène les personnes qui ont marqué cette décennie, ainsi que des invités exceptionnels, autour d'une rétrospective mêlant émotions, humour et surprises.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1758072",
-      "type": "movie",
-      "name": "Il était une Voix... Céline Dion",
-      "poster": "https://image.tmdb.org/t/p/w500/vLXeRCCRxHUvSBPqD8VacfWCwbs.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/oSd4SC52Fgn3cLJm1P8ZoIOJKJl.jpg",
-      "description": "Nagui commente une immersion sensible dans l'histoire vocale de Céline Dion. Une histoire qui se dévoile au fil de ses interprétations, de ses silences, de ses évolutions et des moments qui ont marqué son destin artistique. Ce documentaire bénéficie d'un accès privilégié aux archives sonores des deux \"Taratata\" auxquelles la chanteuse a participé en 1995 et 1996 et de sessions de studios. Restaurés et numérisés, ces enregistrements offrent une écoute d'une rare proximité, révélant les nuances et la présence de son interprétation. Des archives rares et inédites, des performances emblématiques, des interviews et des analyses originales révèlent ce que cette voix raconte de la femme, de l'interprète et de l'artiste et proposent un éclairage nouveau sur celle qui est devenue l'une des plus grandes artistes de la scène musicale internationale.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1757164",
-      "type": "movie",
-      "name": "#LetsBaRock!",
-      "poster": "https://image.tmdb.org/t/p/w500/m7d6Ja7QAzhYs4rzcCwEHLtprHA.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nKCHeQhoW5B8Q1Ntg2w7ElEDgix.jpg",
-      "description": "Le baroque est une musique fondée sur les apparences et l'hybridité, qui laisse une grande part à l'improvisation et au mélange des genres. Jakub, en grand interprète d'aujourd'hui, a ressenti cela et a décidé d'ouvrir les frontières et de fondre les styles. Avec sa voix de contre-ténor, une batterie, des claviers et une basse, il revisite la musique, passant du baroque au hip hop et de la pop au jazz, dans un mélange original et très contemporain. Le charisme de Jakub, son timbre de voix, ses acrobaties et la manière dont il parvient à emporter avec lui tout un public font de cette performance un véritable show, filmé comme tel le 12 octobre 2025 à l'Olympia à Paris 9ème.",
       "releaseInfo": "2026"
     }
   ]

@@ -28,21 +28,21 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:206630",
+      "type": "series",
+      "name": "Sasaki and Peeps",
+      "poster": "https://image.tmdb.org/t/p/w500/r9RT4YtQ6buH7anDT2ZbM6xBFUm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xljpEwFQF6Rl1rU1w7SEs1pk3YE.jpg",
+      "description": "Employé de bureau dans une entreprise japonaise où il exerce un travail insipide, Sasaki décide de se rendre dans une animalerie pour trouver un compagnon afin d'égayer sa vie. Il jette alors son dévolu sur un adorable oiseau nommé Peeps. Mais Sasaki découvre rapidement que Peeps n'est pas un animal comme les autres : c'est un puissant mage venu d'un autre monde ! Ce dernier l’entraîne alors dans une grande aventure remplie d'épées et de sorcellerie.",
+      "releaseInfo": "2024"
+    },
+    {
       "id": "tmdb:303272",
       "type": "series",
       "name": "Magic Knight Rayearth",
       "poster": "https://image.tmdb.org/t/p/w500/mfTYbPbuxZkbJlmh0LpNegjPGw8.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ovysGUJ9Qc7oWaiFbyWjwhw1vtc.jpg",
       "description": "Hikaru, Umi et Fuu sont de retour pour une nouvelle adaptation de la série culte Magic Knight Rayearth !",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:316694",
-      "type": "series",
-      "name": "Reborn Goblin",
-      "poster": "https://image.tmdb.org/t/p/w500/5uH40zb9kyDSvDwCdUApK0vDY1S.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3knNVqZlEdwYPwYBWQechjvRzx0.jpg",
-      "description": "Les gentils finissent toujours derniers : personne ne le sait mieux qu'Akira Yagami, un employé de bureau qui perd la vie après avoir sauvé un enfant. Mais il se réincarne dans un autre monde en tant que gobelin ! Normalement, ces créatures ne vivent que sept jours, mais Akira possède un pouvoir lui offrant quatre-vingts ans pour laisser son empreinte sur ce monde !",
       "releaseInfo": "2026"
     }
   ]

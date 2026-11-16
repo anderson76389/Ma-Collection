@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:314271",
+      "type": "series",
+      "name": "Bass X Machina",
+      "poster": "https://image.tmdb.org/t/p/w500/q7eWmFOfdHqm15YrKiYmR8XEVRx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ygjcwHWhhCaNPaPP965Du7eR2gO.jpg",
+      "description": "Dans un Far West steampunk sous la coupe des hors-la-loi, des machines et de forces surnaturelles, un père de famille doit se faire juge, juré et bourreau pour protéger les siens.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:283304",
       "type": "series",
       "name": "La Petite Maison dans la prairie",

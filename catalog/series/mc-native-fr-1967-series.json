@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:305935",
+      "type": "series",
+      "name": "Les Disparus des Argonnes",
+      "poster": "https://image.tmdb.org/t/p/w500/7FfddTLaRDNI91W6uhrdlUURis2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4xXazUotfm3Hotm4pi3ELC8fOfS.jpg",
+      "description": "Le combat de Jocelyne Veyrades, une mère de famille modeste dont le fils, Gilles, disparaît en 1981 lors d’une permission pendant son service militaire. Les autorités évoquent une désertion, mais Jocelyne refuse de croire à cette explication. Elle pense que quelque chose de beaucoup plus grave s’est produit. Au fil des années, d’autres jeunes appelés disparaissent dans des circonstances similaires. Face au silence de l’institution militaire et à l’inaction de la justice, Jocelyne rejoint d'autres familles frappées par le même drame. Ensemble, elles brisent le mur de l’indifférence et mènent une lutte acharnée pour faire entendre leur voix.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:336916",
       "type": "series",
       "name": "Kat sauvage",
@@ -16,15 +25,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/tSCXytJwS4vKcv7SKh4WmWGLrp3.jpg",
       "background": "https://image.tmdb.org/t/p/w780/o6LVzUD6cCh7Ovl39wg8uayX9aa.jpg",
       "description": "Dévastée par la disparition soudaine et inexpliquée de son mari, Esther Bazin, capitaine de police, est au bord du précipice. Selon la loi, son mari, étant majeur et sain d'esprit, a le droit fondamental de disparaître.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:299247",
-      "type": "series",
-      "name": "La Cible",
-      "poster": "https://image.tmdb.org/t/p/w500/tT1NseDiBUqQDQmobSHzqTp02Ps.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wnwzPfGPyA1Kv536EQk6pmswJjw.jpg",
-      "description": "Hugo, un garde du corps professionnel, traverse un divorce douloureux. Toujours épris de son ex-femme, il tente de préserver un lien avec ses enfants. Mais tout bascule le jour où il se rend à l’anniversaire de son fils : son ex-femme et leurs deux enfants sont kidnappés sous ses yeux.\n\nRapidement, l’enquête de police s’oriente vers Hugo, considéré comme le principal suspect. Accablé par les indices et menacé d’être incarcéré, il décide de s’évader pour retrouver sa famille. Dans sa fuite, il mène sa propre enquête et découvre des vérités troublantes sur la femme qu’il croyait connaître. Ce thriller psychologique et familial place Hugo dans une course contre la montre où chaque seconde compte.",
       "releaseInfo": "2026"
     },
     {
@@ -69,6 +69,12 @@
       "poster": "https://image.tmdb.org/t/p/w500/k28seALS8MElNPnykvXOXaX4iHf.jpg",
       "background": "https://image.tmdb.org/t/p/w780/r22mfXWe70fjq4Vi8IS5DMLEQVL.jpg",
       "description": "Cassidy, rebelle de 17 ans, se fait virer de la caravane familiale pour avoir posté des vidéos lesbiennes kinky sur un site de camgirls alors qu’elle est encore mineure. Sa mère l'inscrit dans un internat catholique pour la punir mais surtout se débarrasser d'elle. Cassidy doit se racheter une conduite en s’intégrant dans ce pensionnat aux règles strictes.\n\nElle va se faire un groupe d'amies indéfectibles, et contre toute attente renouer avec la religion. Mais aussi tomber amoureuse d'une aspirante novice, faire entrer un garçon dans le foyer et surtout y installer illégalement la fibre, ouvrant la boîte de Pandore : Internet.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:313883",
+      "type": "series",
+      "name": "سولو ليفلينغ",
       "releaseInfo": "2026"
     },
     {
@@ -126,6 +132,15 @@
       "releaseInfo": "2025"
     },
     {
+      "id": "tmdb:285049",
+      "type": "series",
+      "name": "Désenchantées",
+      "poster": "https://image.tmdb.org/t/p/w500/t5aa9matQKtqDWCJiMBuBczFi30.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/67zpA4OxwcZIcQMGvFjX4DB75wd.jpg",
+      "description": "La disparition de Sarah Leroy, 15 ans, a bouleversé la petite bourgade de Bouville-sur-Mer et ému la France entière. Vingt ans plus tard, Fanny, journaliste, revient sur les lieux de ce drame qui a marqué sa jeunesse.",
+      "releaseInfo": "2025"
+    },
+    {
       "id": "tmdb:305199",
       "type": "series",
       "name": "De Gaulle, le commencement",
@@ -159,24 +174,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/ppWo7Nij9IbgHia13PxT6tqfNhC.jpg",
       "background": "https://image.tmdb.org/t/p/w780/kG2mHHu136bviY53DDpnsyVNKuA.jpg",
       "description": "De 1972 à 1978, trente-trois jeunes hommes ont été enlevés, assassinés, puis enterrés dans le vide sanitaire sous la maison de leur meurtrier. Et pendant des années, personne ne s’en est douté. Pourquoi ? Parce qu’il était charmant et drôle. Il avait un bon travail et était considéré comme un leader dans sa communauté. Il faisait même du bénévolat pour divertir des enfants malades… déguisé en clown.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:301715",
-      "type": "series",
-      "name": "Armorsaurs",
-      "poster": "https://image.tmdb.org/t/p/w500/hYevUT2EfhMaSayHenGRaiBU5i2.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hNXEnTA4a0WeqhoahaBhJRB2G06.jpg",
-      "description": "Les dinosaures sont de retour, et cinq adolescents sont les seuls à pouvoir créer un lien avec eux. C'est à ces héros de revêtir leurs armures et de piloter leurs dinosaures pour combattre le mal et sauver le monde.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:258004",
-      "type": "series",
-      "name": "Bistronomia",
-      "poster": "https://image.tmdb.org/t/p/w500/jIkEeXlW95uHQQogNiyLFfr2fwY.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/q2HbbI6GSck5K326gI1h1E4QKVE.jpg",
-      "description": "Paris, octobre 2005. Johanna, Amandine et Vivian, trois amis vingtenaires, gravitent dans le milieu de la restauration. Ils veulent être chefs ou critiques, vivre de leur passion pour la gastronomie. Mais ils étouffent dans cet environnement feutré, où règne la violence patriarcale et l’esprit élitiste de la course aux étoiles. Ils rêvent d’une nouvelle gastronomie démocratique, plus accessible, libérée de l’académisme. Ensemble, ils vont jeter les premières bases d’une révolution des fourneaux.",
       "releaseInfo": "2025"
     }
   ]

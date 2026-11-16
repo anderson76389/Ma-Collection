@@ -1,6 +1,24 @@
 {
   "metas": [
     {
+      "id": "tmdb:1780407",
+      "type": "movie",
+      "name": "Snoopy présente : les 12 jours de Noël",
+      "poster": "https://image.tmdb.org/t/p/w500/uJ3Eb4zUtF1KFD5zd8CiYaFXWuu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/a3DzS9AUB6AgYiELaeTn2n8EfNz.jpg",
+      "description": "Afin de ne plus figurer sur la liste noire du père Noël, Snoopy fait de son mieux pour avoir une conduite irréprochable.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1559980",
+      "type": "movie",
+      "name": "Le Gospel de Noël",
+      "poster": "https://image.tmdb.org/t/p/w500/ihbN6lNDXKe6w9xE6IBFMVF2Rkr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/p1Ag7etCR5yUvElhwZmWsMo5IFu.jpg",
+      "description": "Un pasteur en proie au doute emménage avec sa famille dans un quartier difficile de New York, où ils doivent sauver une église délabrée de la fermeture avant Noël.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1117898",
       "type": "movie",
       "name": "Le Chat Chapeauté",
@@ -21,7 +39,7 @@
       "id": "tmdb:1750432",
       "type": "movie",
       "name": "Spidey et les Avengers : Halloween en équipe !",
-      "poster": "https://image.tmdb.org/t/p/w500/hPucpn2pmszkcqRVHmrlUYK0PtG.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/c6TB7q7YL8B5jZWrT9aUglmTIsZ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/aIiCdNCo889J2QaaOd8TXaGXoO2.jpg",
       "description": "Les projets d'Halloween de Spidey et des Avengers sont chamboulés par la mystérieuse Hallows' Eve. Elle s'amuse à jouer des tours aux enfants partis à la chasse aux bonbons et compte bien gâcher la fête pour toujours.",
       "releaseInfo": "2026"
@@ -49,7 +67,7 @@
       "type": "movie",
       "name": "L'île des souvenirs",
       "poster": "https://image.tmdb.org/t/p/w500/txvVTbY1cAsBe5tPX9c5m5SM3ml.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2o9FzuBzCqrDTdlHRuEVnGD2d5h.jpg",
       "description": "Pendant qu'elles passent une dernière soirée ensemble avant de s'engager sur des voies différentes, Jo et Raissa, amies depuis toujours, trouvent un portail mystérieux qui les transporte sur Nakali, une île mythique peuplée de créatures magiques dont leurs familles philippines leur ont parlé. Alors qu'elles cherchent à rentrer chez elles, Jo et Raissa découvrent que leurs souvenirs sont en péril. Réussiront-elles à quitter l'île avant de s'oublier l'une l'autre ?",
       "releaseInfo": "2026"
     },
@@ -147,18 +165,9 @@
       "id": "tmdb:1084244",
       "type": "movie",
       "name": "Toy Story 5",
-      "poster": "https://image.tmdb.org/t/p/w500/b2bt3UomRX41rHHZmIsSNmXzidU.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/zuqFWxKEwSCBuEihtRWbC9tri7R.jpg",
       "background": "https://image.tmdb.org/t/p/w780/qjTqY5coNiz6sVtPng40IzltsoN.jpg",
       "description": "Buzz, Woody, Jessie et le reste de la bande verront leur travail remis en question lorsqu'ils découvriront que ce qui obsède les enfants d'aujourd'hui s’appelle... l'électronique !",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1440050",
-      "type": "movie",
-      "name": "‎Papa à plein temps",
-      "poster": "https://image.tmdb.org/t/p/w500/gdzdo1Eph4xeB6SQBgtSsjXFsMM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dgqBcgTzaUiSLvKJPDF9AbdFEMO.jpg",
-      "description": "Pour Nate et leurs trois enfants, Katie est la mère parfaite. Mais quand son invention décroche une chance unique à Shark Tank et l’envoie en voyage d’affaires, Nate doit empêcher la maison de tomber en ruines… au sens propre. Bienvenue dans l’ère des papas.",
       "releaseInfo": "2026"
     },
     {
@@ -168,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/szQPIA23wit2FvTsxIjxmHqdhVE.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ldUVeDfA5ID2vchHGejrEltoBSN.jpg",
       "description": "En plein âge d'or de l'aviation, un jeune amateur d'avions et sa mère embarquent pour un périple à travers le pays jusqu'à Hollywood. Ce vol deviendra le voyage d'une vie.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1007757",
-      "type": "movie",
-      "name": "Aventures croisées",
-      "poster": "https://image.tmdb.org/t/p/w500/gz64ZUKg4C4g1yfGD0o5opcBOKy.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zMwhWailP1WY7sb6AoE6b8ugoy.jpg",
-      "description": "Un petit animal des bois et un oiseau majestueux, ennemis jurés de la Vallée, qui échangent soudainement leurs corps et doivent faire équipe, en se mettant dans la peau  de l'autre, pour survivre à la plus folle aventure de leur vie.",
       "releaseInfo": "2026"
     }
   ]

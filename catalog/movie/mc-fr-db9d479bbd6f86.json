@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1664682",
+      "type": "movie",
+      "name": "La fille indigne",
+      "poster": "https://image.tmdb.org/t/p/w500/jWH2UAaQX0vONTqOgFTr87tvnNn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bjdgmMhTKcxqFO7RdXYhTlGzffB.jpg",
+      "description": "Des décennies après les crimes qui ont secoué le Brésil, Suzane von Richthofen s'exprime dans des entrevues exclusives sur le meurtre de ses parents et ce qui en a découlé.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1794652",
       "type": "movie",
       "name": "Raio-X Lula 3",
@@ -20,7 +29,7 @@
       "id": "tmdb:1257147",
       "type": "movie",
       "name": "Entre amies",
-      "poster": "https://image.tmdb.org/t/p/w500/wGfTFVeguXDXYrwPQ8QMFsaSK2M.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/h7vCbTQMY502ZgfQT30Gij4morX.jpg",
       "background": "https://image.tmdb.org/t/p/w780/q5IF3IHgKC4cQqQCp0VjllNkJp6.jpg",
       "description": "Face au syndrome du nid vide, deux amies inséparables suivent leurs filles ados au Portugal et y trouvent l'amour, la fête et un tout nouveau sens à leur amitié.",
       "releaseInfo": "2026"
@@ -71,7 +80,7 @@
     {
       "id": "tmdb:1714534",
       "type": "movie",
-      "name": "RIO DREAMS",
+      "name": "Rio Dreams",
       "poster": "https://image.tmdb.org/t/p/w500/iPlNmMHwnVxCfCAXmHLi6mujevy.jpg",
       "background": "https://image.tmdb.org/t/p/w780/iHXAcuReN6kCcyT4867oyEVJHjH.jpg",
       "releaseInfo": "2026"
@@ -105,7 +114,7 @@
       "id": "tmdb:1479498",
       "type": "movie",
       "name": "Zico: O Samurai de Quintino",
-      "poster": "https://image.tmdb.org/t/p/w500/cm5JUjxWdinEex822eXm02nXgEC.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/95oWKefFusLwbGC0hShbLm1ijhJ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/73Z3k5qfxysVPH4QHj9Tweu2ReF.jpg",
       "releaseInfo": "2026"
     },
@@ -158,15 +167,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/eYZUzJMumKoUPX5Q40xBsgFs6dY.jpg",
       "background": "https://image.tmdb.org/t/p/w780/nqYTmfzyOSDVihUDnW0skBIFytp.jpg",
       "description": "Un nouveau film avec Fernanda Montenegro et Ary Fontoura",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1263532",
-      "type": "movie",
-      "name": "La Course des animaux",
-      "poster": "https://image.tmdb.org/t/p/w500/p3imTq5MFDmqUuVb9qFdlSAhZ98.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1WWukZCoavYEofNVRHJqE4t1urW.jpg",
-      "description": "Dans un Rio de Janeiro futuriste, un jeune chef de la résistance doit participer à une compétition mortelle de parkour afin de sauver sa sœur.",
       "releaseInfo": "2026"
     }
   ]

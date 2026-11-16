@@ -1,6 +1,32 @@
 {
   "metas": [
     {
+      "id": "tmdb:1437511",
+      "type": "movie",
+      "name": "Comment braquer une banque",
+      "poster": "https://image.tmdb.org/t/p/w500/uvTMQzEU3b4GJLVv2HD318rb1sB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/u38hNQbxvIicUdfrHpqa9puBnA9.jpg",
+      "description": "Une équipe de braqueurs filme ses hold-up en direct et devient viral. Mais leur célébrité grandissante attire l'attention d'un agent du FBI et d'une ingénieure informatique déterminés à les arrêter. Alors que cet improbable duo se rapproche dangereusement d’eux, le gang décide de tout miser sur le braquage le plus ambitieux de leur carrière.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1562642",
+      "type": "movie",
+      "name": "Soldat fantôme",
+      "poster": "https://image.tmdb.org/t/p/w500/8Y4oJ5iUs3hgPcDB3SIEmsNYjZk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ggqvhSdAASrseKuMlzk51sbvbE8.jpg",
+      "description": "Un ingénieur en systèmes d'armement et ancien béret vert protège ses voisins du Wyoming contre une multinationale impitoyable qui menace leur communauté rurale.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1532997",
+      "type": "movie",
+      "name": "Dead Howling",
+      "poster": "https://image.tmdb.org/t/p/w500/i1vpLPnHVAZq1CyJlpVS8YI7a93.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9p8myU6v4AemtusJeln6dSJqQo6.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1294189",
       "type": "movie",
       "name": "The Mongoose",
@@ -23,7 +49,7 @@
       "type": "movie",
       "name": "Street Fighter",
       "poster": "https://image.tmdb.org/t/p/w500/k53HHxQ4rQG0dME6nsofii3QNS7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qRN8eqYwG6HPSy0i3fKzuLrUOhp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/w2Gu916zS11X94CZaSLpzvfgHcG.jpg",
       "description": "En 1993, Ryu et Ken Masters, deux Street Fighters autrefois inséparables, sont replongés dans l’arène lorsque la mystérieuse Chun-Li les recrute pour le prochain World Warrior Tournament : un affrontement brutal où se mêlent poings, destin et fureur. Mais derrière cette battle royale se cache une conspiration mortelle qui les oblige à s’affronter, tout en faisant face aux démons de leur passé… Et s’ils échouent, c’est GAME OVER.",
       "releaseInfo": "2026"
     },
@@ -40,15 +66,33 @@
       "type": "movie",
       "name": "Animals",
       "poster": "https://image.tmdb.org/t/p/w500/33MhDOKB0S5VwuaD9lZyV0v0st0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tzoarEu7TsG959upiELyYPm5kO9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5yzM78Tp8nYwSCQtyRcmnHmCn5C.jpg",
       "description": "Quand leur fils est enlevé, un candidat à la mairie de Los Angeles et sa femme s'efforcent de réunir l'argent de la rançon et font des choix qui pourraient bouleverser leur vie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1669915",
+      "type": "movie",
+      "name": "Angel and the Badman",
+      "poster": "https://image.tmdb.org/t/p/w500/mJe53zlhGBdcjtN1GqncNZ5Unm0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hULWeQoEJUhiZ6NlANxsLoMJJ5p.jpg",
+      "description": "Quand Quirt Evans, un redoutable hors-la-loi, débarque sur les terres d'un éleveur d'une balle dans le dos, il s'attend à une mort rapide, et non à de la pitié. Mais Penny, la fille de l'éleveur, lui offre la chance de vivre quelque chose qu'il n'a jamais eu : une vie sans violence. Cependant, le passé ne pardonne pas. Alors que le maréchal se rapproche et qu'un gang de hors-la-loi est prêt à incendier le ranch, Quirt doit décider quel genre d'homme il sera quand le monde exigera du sang",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1185344",
+      "type": "movie",
+      "name": "The Beast",
+      "poster": "https://image.tmdb.org/t/p/w500/ocg5JfJP19fodcv5uQUApkmZMdI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/v5Wb9NoE0s1mGmC5wVeQR1OK22V.jpg",
+      "description": "Lorsqu'une attaque mondiale coordonnée plonge la planète dans le chaos, le président américain et son dernier agent des services secrets montent à bord de \"The Beast\", une limousine high-tech militarisée et dotée d'un arsenal défensif impressionnant, pour se lancer dans une course effrénée qui décidera du sort du monde libre.",
       "releaseInfo": "2026"
     },
     {
       "id": "tmdb:1148365",
       "type": "movie",
       "name": "Matchbox – Le film",
-      "poster": "https://image.tmdb.org/t/p/w500/5MRpLuZ1lnHNABHMhMowezKQnO9.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/qcgDXdfMH8JrTJv1wwJ2Z8cggzk.jpg",
       "background": "https://image.tmdb.org/t/p/w780/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg",
       "description": "Des amis d'enfance reprennent contact et les retrouvailles prennent une tournure inattendue quand ils découvrent un dangereux complot international et doivent sauver le monde.",
       "releaseInfo": "2026"
@@ -71,15 +115,6 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1437396",
-      "type": "movie",
-      "name": "Your Mother Your Mother Your Mother",
-      "poster": "https://image.tmdb.org/t/p/w500/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jiFLiatBtBALlAzV5R72gzspBad.jpg",
-      "description": "À Houston, Latif, tueur à gages musulman et père de trois enfants, perd brutalement sa femme. Lorsque son nouveau-né refuse le lait maternisé, il se lance à la recherche d'Une nourrice, une démarche qui le conduit sur la piste d’un ex-militaire devenu prédicateur radical à la tête d’une milice d’extrême droite. Tandis que son ancien employeur tente de le ramener dans le milieu, Latif est entraîné dans un conflit qui menace sa famille autant que ses convictions.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:1291366",
       "type": "movie",
       "name": "The Deputy",
@@ -93,7 +128,7 @@
       "type": "movie",
       "name": "The Florist",
       "poster": "https://image.tmdb.org/t/p/w500/4tnRvIiWMzVA2Tw9c7INLo4sfo0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jpH1VRw74w0vvPTY0ryKEtMIXc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lpk0MwAn0UA3qCy9Iub4xMe15gv.jpg",
       "description": "Un horticulteur discret, qui mène en secret une double vie de tueur implacable, voit son identité menacée lorsqu’il se lie d’une amitié inattendue avec un témoin ayant découvert un vaste réseau de corruption policière.",
       "releaseInfo": "2026"
     },
@@ -139,42 +174,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/ymUS8HTc7ctfdSYC6bmEokSKisa.jpg",
       "background": "https://image.tmdb.org/t/p/w780/kAlAFblqBI6aGXItR4DRpT5Tozg.jpg",
       "description": "Lors de la révolte des paysans anglais de 1381, l'humble Wat Tyler s'élève à la tête de la résistance contre le jeune roi Richard II. À la tête d'une armée de citoyens ordinaires, il affronte les troupes de la Couronne dans une lutte pour la justice et la survie. Ses actions font de lui un symbole légendaire de la résistance.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1377237",
-      "type": "movie",
-      "name": "Runner",
-      "poster": "https://image.tmdb.org/t/p/w500/4gRzxdF2IEGiANKEDVtjMuNl12n.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/npXZNWjOEYrqdMDPQ11SGBrXqAG.jpg",
-      "description": "Un ancien soldat se retrouve engagé dans une course contre la montre lorsqu’une livraison médicale essentielle fait de lui et de son partenaire improbable la cible d’un cartel impitoyable. La mission se transforme rapidement en une chasse à l’homme meurtrière, où chaque détour, chaque retard et chaque balle les rapprochent de l’échec. Traqués de toutes parts, ils doivent survivre à cette poursuite et livrer leur cargaison à temps pour sauver la vie d’une petite fille.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1506560",
-      "type": "movie",
-      "name": "Le Choc des Thunderman",
-      "poster": "https://image.tmdb.org/t/p/w500/ko3VYnCg7P8wHVKIThB5GQi3IEn.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hDwl0YMxwGhNe7u8wgHHk2Hyw3W.jpg",
-      "description": "Chloé développe un nouveau pouvoir aussi inattendu qu'incontrôlable, poussant la Ligue des Héros à exiger qu'elle soit envoyée dans un internat pour super-héros afin d'apprendre à le maîtriser. Face à cette perspective, sa famille est divisée.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1386315",
-      "type": "movie",
-      "name": "The Runner",
-      "poster": "https://image.tmdb.org/t/p/w500/m2FaGlQUKMMFE6nUMwFTcIWbnEi.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jzBWExXacS33rMQ2zLBrqIVweyG.jpg",
-      "description": "Maia Marten, une brillante avocate londonienne, voit sa vie basculer quand un appel durant son jogging lui annonce que son fils a été enlevé. Pour le récupérer, elle ne doit pas cesser de courir et suivre les ordres, aussi cruels soient-ils, sans se fier à personne. Chaque seconde est une épreuve qui repousse les limites d'une mère prête à tout pour sauver son enfant.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1137844",
-      "type": "movie",
-      "name": "Mayday",
-      "poster": "https://image.tmdb.org/t/p/w500/eHELFF4BBxmEk5JyhV017Xcgvwy.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/g7Ccid5kuD7A8hXWlsQiNfwOxaD.jpg",
-      "description": "Un pilote de la Navy envoyé en mission secrète durant la guerre froide se retrouve piégé en territoire ennemi. Son seul espoir de survie est de s'allier à un ex-agent du KGB excentrique.",
       "releaseInfo": "2026"
     }
   ]

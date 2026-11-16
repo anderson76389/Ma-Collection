@@ -1,11 +1,20 @@
 {
   "metas": [
     {
+      "id": "tmdb:1437511",
+      "type": "movie",
+      "name": "Comment braquer une banque",
+      "poster": "https://image.tmdb.org/t/p/w500/uvTMQzEU3b4GJLVv2HD318rb1sB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/u38hNQbxvIicUdfrHpqa9puBnA9.jpg",
+      "description": "Une équipe de braqueurs filme ses hold-up en direct et devient viral. Mais leur célébrité grandissante attire l'attention d'un agent du FBI et d'une ingénieure informatique déterminés à les arrêter. Alors que cet improbable duo se rapproche dangereusement d’eux, le gang décide de tout miser sur le braquage le plus ambitieux de leur carrière.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1792170",
       "type": "movie",
       "name": "Model Citizen",
       "poster": "https://image.tmdb.org/t/p/w500/7SE0LBwgqiqZzkm9gKVbBAbcNQL.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5MBdRdiGv3AKzZDGbni88xc6JFi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mC5Y5jmodmTp7T7eyQ8tTBnQRg5.jpg",
       "description": "Un homme sort du coma et découvre que son bien-être est désormais placé sous la responsabilité d’un avatar numérique mis à sa disposition par le gouvernement.",
       "releaseInfo": "2026"
     },
@@ -41,7 +50,7 @@
       "type": "movie",
       "name": "Animals",
       "poster": "https://image.tmdb.org/t/p/w500/33MhDOKB0S5VwuaD9lZyV0v0st0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tzoarEu7TsG959upiELyYPm5kO9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5yzM78Tp8nYwSCQtyRcmnHmCn5C.jpg",
       "description": "Quand leur fils est enlevé, un candidat à la mairie de Los Angeles et sa femme s'efforcent de réunir l'argent de la rançon et font des choix qui pourraient bouleverser leur vie.",
       "releaseInfo": "2026"
     },
@@ -58,7 +67,7 @@
       "type": "movie",
       "name": "UNABOMBER",
       "poster": "https://image.tmdb.org/t/p/w500/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/XohTvvPXiGhUKhiQSvmoMTnj2z.jpg",
       "description": "Ted Kaczynski, un jeune prodige qui intègre Harvard à 16 ans avant de basculer dans le terrorisme. Soumis à des expériences psychologiques discutables menées par le docteur Henry Murray, le passé tourmenté de Kaczynski refait surface des décennies plus tard, lorsque la traque d'Unabomber menée par l'agente du FBI Joanne Miller met en lumière les conséquences terrifiantes de l'ambition et de l'isolement.",
       "releaseInfo": "2026"
     },
@@ -67,7 +76,7 @@
       "type": "movie",
       "name": "Your Mother Your Mother Your Mother",
       "poster": "https://image.tmdb.org/t/p/w500/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jiFLiatBtBALlAzV5R72gzspBad.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/45Mbs6dmn2W0hvuyxXPDkKREHpP.jpg",
       "description": "À Houston, Latif, tueur à gages musulman et père de trois enfants, perd brutalement sa femme. Lorsque son nouveau-né refuse le lait maternisé, il se lance à la recherche d'Une nourrice, une démarche qui le conduit sur la piste d’un ex-militaire devenu prédicateur radical à la tête d’une milice d’extrême droite. Tandis que son ancien employeur tente de le ramener dans le milieu, Latif est entraîné dans un conflit qui menace sa famille autant que ses convictions.",
       "releaseInfo": "2026"
     },
@@ -165,17 +174,8 @@
       "type": "movie",
       "name": "Oklahoma Honey",
       "poster": "https://image.tmdb.org/t/p/w500/6YCH9yUVO9Fh23WIOORl6JmCpOo.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nBSlvQrDX60rmngwcxMeMq33I9m.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sUPFV7bilTqMRILfbUgpbV4Aj9n.jpg",
       "description": "Au cœur des terres reculées de l’Oklahoma rural, Amziah King, personnage charismatique au talent musical hors du commun, veille sur une bande de marginaux passionnés de bluegrass tout en supervisant la plus importante exploitation apicole de la région. Lorsque sa fille adoptive, dont il était éloigné depuis des années, réapparaît soudainement, Amziah y voit l’occasion de renouer les liens et de bâtir avec elle une entreprise familiale. Mais le monde du miel est sans pitié, et les rivaux d’Amziah menacent de détruire tout ce qu’il a construit.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:675871",
-      "type": "movie",
-      "name": "Super Troopers 3",
-      "poster": "https://image.tmdb.org/t/p/w500/VVU42nqsEmUtFpH1d9MHj5BIpF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/riezFXKrSq1XNnRLJi3AKIwEV8d.jpg",
-      "description": "Dans le Vermont, près de la frontière canadienne, cinq officiers de police, Thorny, Farva, Mac, Foster et Rabbit, tentent tant bien que mal de faire respecter l'ordre.",
       "releaseInfo": "2026"
     }
   ]

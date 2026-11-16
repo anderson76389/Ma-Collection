@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:339992",
+      "type": "series",
+      "name": "Hunting Alice Bell",
+      "poster": "https://image.tmdb.org/t/p/w500/ehfyA0hBCAWHTGH2tlGO922ASUr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hlGmzeIIExFrRQ0XUO4oXjTpFqM.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:334470",
       "type": "series",
       "name": "It Gets Worse",
@@ -151,14 +159,6 @@
       "name": "Falling",
       "poster": "https://image.tmdb.org/t/p/w500/cez4OCwBHziwIYKuOJtlMxLkTGo.jpg",
       "background": "https://image.tmdb.org/t/p/w780/jya3vumEb5uQKdH87EDoGunPbdd.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:321583",
-      "type": "series",
-      "name": "Escape to Florida",
-      "poster": "https://image.tmdb.org/t/p/w500/jCqf1RCoyfACK9Um6X2qd3wZ79F.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qieaIqE1vMUYBeXSJPGBaagockR.jpg",
       "releaseInfo": "2026"
     }
   ]

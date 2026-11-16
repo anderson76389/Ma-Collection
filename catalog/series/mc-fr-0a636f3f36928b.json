@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:286183",
+      "type": "series",
+      "name": "Hollywood Arts",
+      "poster": "https://image.tmdb.org/t/p/w500/xsL1ig6Tyi0j9AZPt23yZprslGS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2wjP481Z3G6NlXoUFutN5vcnqzC.jpg",
+      "description": "Les cours ont repris à Hollywood Arts ! L'icône autoproclamée Trina Vega revient pour guider des adolescents talentueux vers la gloire, entre ambition et chaos hilarant.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:284833",
       "type": "series",
       "name": "Avatar : Les Sept Refuges",

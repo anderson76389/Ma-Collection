@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:254630",
+      "type": "series",
+      "name": "12 12 12",
+      "poster": "https://image.tmdb.org/t/p/w500/awWRxpVXFJGbumYp7OM0slCjzRG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tjy25xpiFeo2gahl7N0hoxbRtG7.jpg",
+      "description": "Un braquage prend 12 mois à préparer, 12 heures à mettre à exécution, et un braqueur qui n'est pas arrêté dans les 12 jours ne le sera jamais. Dans un chassé-croisé haletant de trois temporalités, un agent du FBI et un criminel de carrière se livrent à un jeu dangereux du chat et de la souris, à travers l'Europe.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:333101",
       "type": "series",
       "name": "Treasure Island",
@@ -139,7 +148,7 @@
       "type": "series",
       "name": "The Pendragon Cycle: Rise of the Merlin",
       "poster": "https://image.tmdb.org/t/p/w500/wXfTsO7pqAqo94f0AHaas9rjBNh.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lDmFwAaHL1kXnAfZeUTieAdUTko.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eebiQ5JEaZeVyyxZK1kS9wCoBpb.jpg",
       "description": "Merlin, fils immortel du barde Taliesin et de la princesse atlante Charis, est au cœur de son enfance tragique, de sa descente aux enfers et de sa disparition mystérieuse, donnant naissance à la légende qui l'entoure. Se déroulant avant la naissance du roi Arthur, l'histoire raconte la réapparition de Merlin, que l'on croyait mort ou un mythe, dans la Bretagne post-romaine, afin d'unir les royaumes divisés et menacés par les envahisseurs saxons.",
       "releaseInfo": "2026"
     },
@@ -168,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/8H2rtReyIAjfhOh4bZPr4wXjraH.jpg",
       "background": "https://image.tmdb.org/t/p/w780/mRVPTh5JpzvXNtgNXppKROOdrzd.jpg",
       "description": "Lorsqu'un analyste découvre que sa vue et son ouïe sont piratées, il se retrouve entraîné dans un univers contrôlé, conçu par son agence pour faire sortir ses ennemis de l'ombre.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:240459",
-      "type": "series",
-      "name": "Spartacus: House of Ashur",
-      "poster": "https://image.tmdb.org/t/p/w500/vNByuzy60v31nmUVPMA8oAtneUK.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/c78kbj781ddvmSn5mgLWFQbC7di.jpg",
-      "description": "Ayant survécu à la rébellion de Spartacus, l'ambitieux et manipulateur Ashur se retrouve à la tête du ludus autrefois dirigé par Batiatus. Il doit dompter une nouvelle génération de gladiateurs et faire face aux intrigues de la politique romaine.",
       "releaseInfo": "2025"
     }
   ]

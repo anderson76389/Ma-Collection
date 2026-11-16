@@ -1,6 +1,24 @@
 {
   "metas": [
     {
+      "id": "tmdb:1286656",
+      "type": "movie",
+      "name": "I Play Rocky",
+      "poster": "https://image.tmdb.org/t/p/w500/xE5tY3lppZUyG7WKKThsuYHuAHr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1lnnjBCRLZzKRhQipK5zm61YkPe.jpg",
+      "description": "Un acteur en difficulté avec un visage partiellement paralysé et un trouble de l’élocution écrit un scénario qu’un grand studio de cinéma veut acheter. Mais l’acteur refuse de le vendre à moins de pouvoir jouer le rôle principal. Refusant une offre d’argent qui pourrait changer sa vie, il travaille pour des centimes afin que le film soit réalisé avec lui dans le rôle principal.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1585239",
+      "type": "movie",
+      "name": "Club Kid",
+      "poster": "https://image.tmdb.org/t/p/w500/lfznSwfaXWLxW5TR09IoNV9OwhM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AjrgF2JZb8WAeIFTvUjJK6VA2CG.jpg",
+      "description": "Peter (Jordan Firstman), organisateur de soirées branchées à New York, mène une existence aussi effrénée qu’insouciante, rythmée par les nuits festives et les excès. Sa vie bascule lorsqu'Arlo, le fils de 10 ans dont il ignorait l'existence, frappe à sa porte. Dépassé par ce rôle de père qu'il n'avait jamais envisagé, il est rapidement conquis par le charme et la spontanéité de l’enfant. Au fil du temps, un lien aussi inattendu que profond se tisse entre eux, et Peter découvre enfin qu’il existe une vie au-delà de la prochaine fête.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1570488",
       "type": "movie",
       "name": "Mon beau Noël de chien",
@@ -14,7 +32,7 @@
       "type": "movie",
       "name": "La Légende de Derry",
       "poster": "https://image.tmdb.org/t/p/w500/95jDCfMC1MNXowaXxPpHuWP5zAr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8vky6e0D4dSZMlxHWXBIRRFP1Pb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z26LxXDMmAIzKr06FPDudCJyvsM.jpg",
       "description": "Des centaines d’années avant Pennywise, trois jeunes s’aventurent dans la forêt de l’Ouest où ils rencontrent un esprit ancien terrifiant.",
       "releaseInfo": "2026"
     },
@@ -25,6 +43,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/zJZ1ii7XPAJkdBWKIQN2fyyz5cQ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/2Zk5jRXUlrfkU3RsutMPMHey1Y.jpg",
       "description": "Lorsque Klara rencontre Josie, chacune perçoit immédiatement chez l'autre une âme soeur. Josie entretient une relation compliquée avec sa mère et toutes deux ont traversé de lourdes épreuves. Mais l'émerveillement sincère de Klara et sa loyauté sans faille commencent peu à peu à apaiser les blessures de cette famille et à apporter de la lumière dans l'univers complexe de Josie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1458099",
+      "type": "movie",
+      "name": "The Last Pickpocket in New-York",
+      "poster": "https://image.tmdb.org/t/p/w500/huEvi7UfPl6pfXNlZPVbvIOb8rb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oahXjJ0UxnkJthITntGMrXVXQsJ.jpg",
+      "description": "Harry est le dernier pickpocket de New-York.  Alors que l’argent liquide se fait rare, il continue d’exercer son art en toute discrétion.  Un jour, Harry dérobe une mystérieuse clef USB à un jeune mafieux et se retrouve pris en chasse par une dangereuse organisation criminelle…",
       "releaseInfo": "2026"
     },
     {
@@ -41,7 +68,7 @@
       "type": "movie",
       "name": "Animals",
       "poster": "https://image.tmdb.org/t/p/w500/33MhDOKB0S5VwuaD9lZyV0v0st0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tzoarEu7TsG959upiELyYPm5kO9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5yzM78Tp8nYwSCQtyRcmnHmCn5C.jpg",
       "description": "Quand leur fils est enlevé, un candidat à la mairie de Los Angeles et sa femme s'efforcent de réunir l'argent de la rançon et font des choix qui pourraient bouleverser leur vie.",
       "releaseInfo": "2026"
     },
@@ -86,7 +113,7 @@
       "type": "movie",
       "name": "UNABOMBER",
       "poster": "https://image.tmdb.org/t/p/w500/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/XohTvvPXiGhUKhiQSvmoMTnj2z.jpg",
       "description": "Ted Kaczynski, un jeune prodige qui intègre Harvard à 16 ans avant de basculer dans le terrorisme. Soumis à des expériences psychologiques discutables menées par le docteur Henry Murray, le passé tourmenté de Kaczynski refait surface des décennies plus tard, lorsque la traque d'Unabomber menée par l'agente du FBI Joanne Miller met en lumière les conséquences terrifiantes de l'ambition et de l'isolement.",
       "releaseInfo": "2026"
     },
@@ -95,7 +122,7 @@
       "type": "movie",
       "name": "Your Mother Your Mother Your Mother",
       "poster": "https://image.tmdb.org/t/p/w500/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jiFLiatBtBALlAzV5R72gzspBad.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/45Mbs6dmn2W0hvuyxXPDkKREHpP.jpg",
       "description": "À Houston, Latif, tueur à gages musulman et père de trois enfants, perd brutalement sa femme. Lorsque son nouveau-né refuse le lait maternisé, il se lance à la recherche d'Une nourrice, une démarche qui le conduit sur la piste d’un ex-militaire devenu prédicateur radical à la tête d’une milice d’extrême droite. Tandis que son ancien employeur tente de le ramener dans le milieu, Latif est entraîné dans un conflit qui menace sa famille autant que ses convictions.",
       "releaseInfo": "2026"
     },
@@ -105,7 +132,7 @@
       "name": "Raison et Sentiments",
       "poster": "https://image.tmdb.org/t/p/w500/hpYHHl0P978F6AX5Xeew0fi2ryI.jpg",
       "background": "https://image.tmdb.org/t/p/w780/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg",
-      "description": "Une irrésistible nouvelle version du roman culte de Jane Austin, Raison et Sentiments, qui suit deux sœurs à travers leurs amours, leurs chagrins et le lien qui les unit d'une façon magistrale et profondément proche de nous.",
+      "description": "Une irrésistible nouvelle version du roman culte de Jane Austen, Raison et Sentiments, qui suit deux sœurs à travers leurs amours, leurs chagrins et le lien qui les unit d'une façon magistrale et profondément proche de nous.",
       "releaseInfo": "2026"
     },
     {
@@ -122,7 +149,7 @@
       "type": "movie",
       "name": "Les Contrebandiers",
       "poster": "https://image.tmdb.org/t/p/w500/vaqivu9jGF9n41rhMExGetkIy18.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/myA2cjsISTbTJQK6HWnZffFJK6j.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4klejBUCWsq2F9GHB5EH5mQdFOg.jpg",
       "description": "Dans l'Oregon en 1933, Samuel Murphy a perdu sa femme et vit seul avec sa fille Penny. Mais il est arrêté et placé dans un camp de travail. Clancy, le directeur de la prison, propose à Samuel et à plusieurs autres détenus de regagner leur liberté en échange de leur participation à un dangereux trafic d'or. Pour retrouver la garde de sa fille, Samuel n'a pas le choix.",
       "releaseInfo": "2026"
     },
@@ -144,39 +171,11 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1522689",
+      "id": "tmdb:1759875",
       "type": "movie",
-      "name": "Pourquoi je me suis marié, déjà ?",
-      "poster": "https://image.tmdb.org/t/p/w500/8mmQWqkvZrvxqr21WhV7Pk0WIHl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lJYniNRM2i9wXnfWVHOB4PxygFZ.jpg",
-      "description": "Réunis à l'étranger pour le mariage de la fille de Marcus et Angela, les couples attisent des tensions anciennes et nouvelles en se demandant : « Pourquoi on s'est mariés, déjà ? »",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1554956",
-      "type": "movie",
-      "name": "The Incomer",
-      "poster": "https://image.tmdb.org/t/p/w500/iccroKK1eUTdCnLfmp7I3YXwAKF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tcm829PtxDSomGOEXxzO7c0sK3p.jpg",
-      "description": "Sur une île écossaise, les frères et sœurs Isla et Sandy chassent les oiseaux et communiquent avec des êtres mythiques tout en repoussant les intrus. Leur vie bascule à l’arrivée de Daniel, un fonctionnaire maladroit venu pour les reloger.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1380417",
-      "type": "movie",
-      "name": "By Any Means",
-      "poster": "https://image.tmdb.org/t/p/w500/evCy2B3j57AwSNBZqlePjMl3zj3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nw9Q3idNO8EsTPnvr8vBJTpkWGA.jpg",
-      "description": "Un jeune agent noir du FBI est envoyé au Mississippi dans les années 60 afin d’enquêter sur une vague de meurtres brutaux visant des leaders du mouvement des droits civiques. Contraint de faire équipe avec le célèbre tueur à gages de la mafia Greg Scarpa, il se retrouve entraîné dans une traque meurtrière où la frontière entre justice et vengeance devient de plus en plus floue.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:860508",
-      "type": "movie",
-      "name": "The Whisper Man",
-      "poster": "https://image.tmdb.org/t/p/w500/pSsX2LnGzyfHR9RioDEiLrPy5wa.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uauoVKKCkNA9iWjgJCL8TdSfLf5.jpg",
-      "description": "Lorsque son jeune fils disparaît, un veuf se tourne vers son père avec qui il est brouillé, un policier à la retraite qui a autrefois arrêté le tueur en série lié à l'affaire.",
+      "name": "The Militia",
+      "poster": "https://image.tmdb.org/t/p/w500/bBAeq5GAt6QKUL5eS0UalflLysH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/twI5fNZrX4UnUVu8mAeO1P7VAUk.jpg",
       "releaseInfo": "2026"
     }
   ]

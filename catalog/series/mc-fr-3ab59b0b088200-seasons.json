@@ -1,15 +1,6 @@
 {
   "metas": [
     {
-      "id": "tmdb:243875",
-      "type": "series",
-      "name": "Georgie & Mandy's First Marriage",
-      "poster": "https://image.tmdb.org/t/p/w500/vonR5GlaCJpSqIQMUcBm6VQYYuu.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/h927CLfeAjiy0MNKRxWZgEq7bHR.jpg",
-      "description": "Cette suite de Young Sheldon suit Georgie et Mandy alors qu'ils élèvent leur jeune famille au Texas.",
-      "releaseInfo": "2024"
-    },
-    {
       "id": "tmdb:81723",
       "type": "series",
       "name": "The Gilded Age",
@@ -28,13 +19,22 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:253372",
+      "id": "tmdb:249565",
       "type": "series",
-      "name": "L'Institut",
-      "poster": "https://image.tmdb.org/t/p/w500/gtQr27iHwBrK0dzDguL1okLmZLK.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wWleS7DxsoGCkOPisNf8OZ2udiD.jpg",
-      "description": "\"L'Institut\" nous plonge dans les mystères d'une organisation secrète qui enlève des enfants dotés de pouvoirs psychiques et les utilise pour des missions ultrasecrètes dans le but de \"sauver le monde\". Luke Ellis, un surdoué qui a le pouvoir de télékinésie, est le dernier kidnappé. Il est déterminé à s'échapper avec ses nouveaux amis et espère trouver un moyen de faire tomber l'organisation.",
-      "releaseInfo": "2025"
+      "name": "The Good Daughter",
+      "poster": "https://image.tmdb.org/t/p/w500/nfWGZtrLH6PLcOQFOttZqmhKaVk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nDU6mUk4wVU1EkDkDvcLvT2UWdy.jpg",
+      "description": "Les sœurs Charlotte et Samantha Quinn ont passé les vingt-huit dernières années à essayer de reconstituer les vies qui ont été brisées par une nuit de violence. Lorsqu'un nouvel attentat a lieu dans la petite ville de Pikeville, Charlotte est le premier témoin sur les lieux. Devenue avocate comme son père, elle est forcée d'affronter ses propres démons au fur et à mesure que l'affaire affaire.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:243875",
+      "type": "series",
+      "name": "Georgie & Mandy's First Marriage",
+      "poster": "https://image.tmdb.org/t/p/w500/vonR5GlaCJpSqIQMUcBm6VQYYuu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/h927CLfeAjiy0MNKRxWZgEq7bHR.jpg",
+      "description": "Cette suite de Young Sheldon suit Georgie et Mandy alors qu'ils élèvent leur jeune famille au Texas.",
+      "releaseInfo": "2024"
     },
     {
       "id": "tmdb:34634",
@@ -44,6 +44,15 @@
       "background": "https://image.tmdb.org/t/p/w780/ReSSC77upQRIZgvaJaPQPCbWaK.jpg",
       "description": "Des passionnés sont prêts à tout, et surtout à mener une sérieuse compétition, afin d'arriver à extraire et amasser la plus grande quantité d'or possible, au coeur de sites miniers parmi les plus riches en Amérique.",
       "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:253372",
+      "type": "series",
+      "name": "L'Institut",
+      "poster": "https://image.tmdb.org/t/p/w500/gtQr27iHwBrK0dzDguL1okLmZLK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wWleS7DxsoGCkOPisNf8OZ2udiD.jpg",
+      "description": "\"L'Institut\" nous plonge dans les mystères d'une organisation secrète qui enlève des enfants dotés de pouvoirs psychiques et les utilise pour des missions ultrasecrètes dans le but de \"sauver le monde\". Luke Ellis, un surdoué qui a le pouvoir de télékinésie, est le dernier kidnappé. Il est déterminé à s'échapper avec ses nouveaux amis et espère trouver un moyen de faire tomber l'organisation.",
+      "releaseInfo": "2025"
     }
   ]
 }

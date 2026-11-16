@@ -10,30 +10,12 @@
       "releaseInfo": "2021"
     },
     {
-      "id": "tmdb:55878",
-      "type": "series",
-      "name": "Vivre loin du monde",
-      "poster": "https://image.tmdb.org/t/p/w500/1JykacgyRt4Ign81ls4G0roB9ne.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6oehK3Sxb5eHy0c77ox456w2Yqj.jpg",
-      "description": "Ben Fogle part à la rencontre de Robinsons des temps modernes, exilés volontaires qui ont quitté les villes et la société de consommation. Ils vivent en quasi autarcie : ils recyclent, ils bricolent, ils ont fait le choix de la frugalité, au rythme de la nature en se contentant le plus souvent de ce qu'elle leur offre.",
-      "releaseInfo": "2013"
-    },
-    {
       "id": "tmdb:133781",
       "type": "series",
       "name": "Motorway Cops: Catching Britain's Speeders",
       "poster": "https://image.tmdb.org/t/p/w500/5g1bNH3GFi0p5CHB5YfaIQa7Iz9.jpg",
       "background": "https://image.tmdb.org/t/p/w780/xfCbKg5ci4nOBcJo2R4KU05aEPq.jpg",
       "releaseInfo": "2021"
-    },
-    {
-      "id": "tmdb:283630",
-      "type": "series",
-      "name": "Murder: Suspect No.1",
-      "poster": "https://image.tmdb.org/t/p/w500/rnIRHKKeNaQA2ndqR2CXhvNQhlf.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zSBrEi7HN9VjrE0Ef4M51u5KQgP.jpg",
-      "description": "À la suite d'une équipe d'homicide britannique de haut niveau qui n'a que 24 heures pour prouver leur suspect coupable. Les détectives doivent affronter le suspect numéro 1, présenter leurs preuves et obtenir les accusations pour coller avant que le suspect ne frappe à nouveau.",
-      "releaseInfo": "2025"
     },
     {
       "id": "tmdb:110709",
@@ -44,22 +26,6 @@
       "releaseInfo": "2020"
     },
     {
-      "id": "tmdb:311010",
-      "type": "series",
-      "name": "Matt Allwright",
-      "poster": "https://image.tmdb.org/t/p/w500/7IEhsvkWkGPuFhygD1fbBSy4XNK.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kWZPge4WJ58kqoiDeHM0MUuPkop.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:156048",
-      "type": "series",
-      "name": "Our Great Yorkshire Life",
-      "poster": "https://image.tmdb.org/t/p/w500/3a3lm1cC4IYN6AmACiIAeDDmllF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vPiosQ1N2e9n3rPikQwfbzQjh1e.jpg",
-      "releaseInfo": "2022"
-    },
-    {
       "id": "tmdb:300827",
       "type": "series",
       "name": "Traffic Cops: Pursuit Squad One",
@@ -68,12 +34,36 @@
       "releaseInfo": "2025"
     },
     {
+      "id": "tmdb:261393",
+      "type": "series",
+      "name": "Forensics: Murder Scene",
+      "poster": "https://image.tmdb.org/t/p/w500/uEyGqM2aq1xaZWo1f5z5IIdOTCx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/f2r2zXMPUOHFSrWRjgwnbVJ4hEW.jpg",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:341464",
+      "type": "series",
+      "name": "At War with Next Door",
+      "poster": "https://image.tmdb.org/t/p/w500/7l75q7fqjxL5FKRmQsXEXFnOGGk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/59orQJlQK93XwERgJmYTpG0nnKD.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:231082",
       "type": "series",
       "name": "Surgeons: A Matter of Life or Death",
       "poster": "https://image.tmdb.org/t/p/w500/5ICIV8gIeZJ10bDvhYGbzpqupqH.jpg",
       "background": "https://image.tmdb.org/t/p/w780/rZNPOAJLqFu1VQsQxZOhHc66PzY.jpg",
       "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:342082",
+      "type": "series",
+      "name": "Wallis Simpson",
+      "poster": "https://image.tmdb.org/t/p/w500/2cM9hCoKIr9CfSJooD2qGIki2fG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jmVaVlY3NTHmvuQE5Nf4D31nNC0.jpg",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:240613",

@@ -1,11 +1,20 @@
 {
   "metas": [
     {
+      "id": "tmdb:1543469",
+      "type": "movie",
+      "name": "Heartland",
+      "poster": "https://image.tmdb.org/t/p/w500/zhxlzxBlO1sWB1rPn7RmAoeQ2na.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/psTMZj8gvsfYVfvd7FZCHH4xL6P.jpg",
+      "description": "Misty Jones, ancienne légende de la musique country, sort de sa retraite après la disparition de sa nièce, une chanteuse en pleine ascension. Son enquête va la conduire à affronter son propre passé et découvrir les bas-fonds de Nashville, où les apparences sont trompeuses, et où Misty elle-même n'est pas celle qu'elle semble être.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1813355",
       "type": "movie",
       "name": "La Légende de Derry",
       "poster": "https://image.tmdb.org/t/p/w500/95jDCfMC1MNXowaXxPpHuWP5zAr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8vky6e0D4dSZMlxHWXBIRRFP1Pb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z26LxXDMmAIzKr06FPDudCJyvsM.jpg",
       "description": "Des centaines d’années avant Pennywise, trois jeunes s’aventurent dans la forêt de l’Ouest où ils rencontrent un esprit ancien terrifiant.",
       "releaseInfo": "2026"
     },
@@ -37,6 +46,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1743704",
+      "type": "movie",
+      "name": "Mystères des harmonies hantées : prélude à un mariage",
+      "poster": "https://image.tmdb.org/t/p/w500/cLVKFbVkNfbXnIvZZzzmhr9VMmO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1xYD1YgR6nRNWa65q2A4hDwCQak.jpg",
+      "description": "Lorsque Gethsemane est invitée à jouer lors d'un mariage, elle et Eamon se retrouvent impliqués dans la mort d'un membre du cortège nuptial.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1422011",
       "type": "movie",
       "name": "It Ends",
@@ -50,7 +68,7 @@
       "type": "movie",
       "name": "La fin d'Oak Street",
       "poster": "https://image.tmdb.org/t/p/w500/yZINaQysj32K2DS2EW4Iy1bK4Bm.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wnR8pwWtoL3TFwP41mLCt91ReCt.jpg",
       "description": "Lorsqu’un mystérieux événement cosmique arrache Oak Street à sa paisible banlieue et la transporte vers un lieu inconnu, la famille Platt, désorientée dans ce nouvel environnement hostile, comprend vite qu’il leur faudra rester unis pour survivre.",
       "releaseInfo": "2026"
     },
@@ -61,6 +79,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/VVU42nqsEmUtFpH1d9MHj5BIpF.jpg",
       "background": "https://image.tmdb.org/t/p/w780/riezFXKrSq1XNnRLJi3AKIwEV8d.jpg",
       "description": "Dans le Vermont, près de la frontière canadienne, cinq officiers de police, Thorny, Farva, Mac, Foster et Rabbit, tentent tant bien que mal de faire respecter l'ordre.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1288059",
+      "type": "movie",
+      "name": "I Want Your Sex",
+      "poster": "https://image.tmdb.org/t/p/w500/z4iVSwpZUSmIxilSfgvciDJROdX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hinFa5gPaUkZM0l5TsEb29Brw0H.jpg",
+      "description": "Lorsque le jeune et innocent Elliot décroche un emploi de rêve auprès d'Erika Tracy, artiste de renom, icône et provocatrice, ses fantasmes deviennent réalité : Erika fait de lui sa muse. Mais Elliot se retrouve vite dépassé par les événements, entraîné par Erika dans un voyage bien plus profond qu'il n'aurait jamais pu l'imaginer, un monde de sexe, d'obsession, de pouvoir, de trahison et de meurtre.",
       "releaseInfo": "2026"
     },
     {
@@ -150,32 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/7T7a2ybdD7l7YSlofgDvgJKPduO.jpg",
       "background": "https://image.tmdb.org/t/p/w780/fAVvEWnBCmJMouBvtXR35fg62xN.jpg",
       "description": "Dans les landes désolées du Yorkshire du Nord en 1859 à l’époque de l’Angleterre victorienne, Mary Stevens, une femme māorie en quête de vérité sur ses origines, rejoint le manoir Hawkser. Entre les couloirs lugubres, apparaissent alors d’ancestrales visions qui révèlent peu à peu un mystère terrifiant.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1414413",
-      "type": "movie",
-      "name": "Sierra Madre",
-      "poster": "https://image.tmdb.org/t/p/w500/zE8Z6EiIzIHlzYyo35aAZZJzeOl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6D2NsU3FIQVthPgjT6RAsX58qZ6.jpg",
-      "description": "Le capitaine Jordan Wright et son unité des forces spéciales américaines assistent au mariage de leur camarade Alberto dans une petite ville d'Amérique du Sud. Lorsque celui-ci est brutalement assassiné, ils jurent de protéger la population et de le venger. Assiégés par un cartel impitoyable, ils livrent un ultime combat pour défendre les leurs.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1304313",
-      "type": "movie",
-      "name": "Le Réveil de la Momie",
-      "poster": "https://image.tmdb.org/t/p/w500/f77yGBGOjainowvlGHU70CCQrjV.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xugEpZk9YQ0DIz1aFvH5HGkqpZK.jpg",
-      "description": "Une jeune fille disparue dans le désert égyptien réapparaît mystérieusement huit ans plus tard. Mais les retrouvailles tournent vite au cauchemar. Alors que son comportement devient de plus en plus inquiétant, sa famille se lance dans une course contre la montre pour comprendre l’origine du mal. Ce qu’ils vont découvrir dépasse tout ce qu’ils imaginaient.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1129104",
-      "type": "movie",
-      "name": "Flavia",
-      "poster": "https://image.tmdb.org/t/p/w500/xwm7TGTmQcM2PkVvMxTjpYYk600.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6t9nSqZpD1mlT9DLugyZNmC3SsQ.jpg",
       "releaseInfo": "2026"
     }
   ]

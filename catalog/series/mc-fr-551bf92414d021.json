@@ -22,7 +22,7 @@
       "id": "tmdb:1549",
       "type": "series",
       "name": "WWE SmackDown",
-      "poster": "https://image.tmdb.org/t/p/w500/oOiGZPiQUaIfajBSZMqC9pGUqsy.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/nO1dO7DjG9A3FyiJWSMo0GoaKQW.jpg",
       "background": "https://image.tmdb.org/t/p/w780/mWIyoSdVQxdr1bA423tObJwJSR.jpg",
       "description": "WWE SmackDown (appelé aussi WWE SmackDown Live) est une émission de télévision de catch et de divertissement sportif produite par la WWE. Depuis la création de la WWE Brand Extension en 2002, SmackDown était une division distincte de la WWE avec son propre roster (voir aussi WWE draft), et était l'équivalent de WWE Raw (et ECW de 2006 à 2010) jusqu'à ce que la Brand Extension soit supprimée par la WWE en 2011.",
       "releaseInfo": "1999"
@@ -93,7 +93,7 @@
       "id": "tmdb:216562",
       "type": "series",
       "name": "Special Forces: World's Toughest Test",
-      "poster": "https://image.tmdb.org/t/p/w500/utHIefqz4rxTh6JntqSOST8rroS.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/999Ctrpfjhvwq0r3yGpM3eTnIPQ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/yviKDevRL5hmKA4MhKFGFyr0cW9.jpg",
       "releaseInfo": "2023"
     },
@@ -107,20 +107,20 @@
       "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:297005",
-      "type": "series",
-      "name": "Celebrity Weakest Link",
-      "poster": "https://image.tmdb.org/t/p/w500/gPVFVBNyXAfGRqu6mmiSqops4jC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/euzlgl95XocL76FO9Q1MoUtxYLy.jpg",
-      "releaseInfo": "2025"
-    },
-    {
       "id": "tmdb:231730",
       "type": "series",
       "name": "The Floor",
       "poster": "https://image.tmdb.org/t/p/w500/p2jQNn7fhl9PpjaowmxmdDwTYIl.jpg",
       "background": "https://image.tmdb.org/t/p/w780/cHznGpISn6Uxy9EyLel5eX7WrXG.jpg",
       "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:297005",
+      "type": "series",
+      "name": "Celebrity Weakest Link",
+      "poster": "https://image.tmdb.org/t/p/w500/gPVFVBNyXAfGRqu6mmiSqops4jC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/euzlgl95XocL76FO9Q1MoUtxYLy.jpg",
+      "releaseInfo": "2025"
     },
     {
       "id": "tmdb:298469",

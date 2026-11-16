@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1669915",
+      "type": "movie",
+      "name": "Angel and the Badman",
+      "poster": "https://image.tmdb.org/t/p/w500/mJe53zlhGBdcjtN1GqncNZ5Unm0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hULWeQoEJUhiZ6NlANxsLoMJJ5p.jpg",
+      "description": "Quand Quirt Evans, un redoutable hors-la-loi, débarque sur les terres d'un éleveur d'une balle dans le dos, il s'attend à une mort rapide, et non à de la pitié. Mais Penny, la fille de l'éleveur, lui offre la chance de vivre quelque chose qu'il n'a jamais eu : une vie sans violence. Cependant, le passé ne pardonne pas. Alors que le maréchal se rapproche et qu'un gang de hors-la-loi est prêt à incendier le ranch, Quirt doit décider quel genre d'homme il sera quand le monde exigera du sang",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1404304",
       "type": "movie",
       "name": "The Isolate Thief",
@@ -48,15 +57,6 @@
       "name": "Thieves Highway",
       "poster": "https://image.tmdb.org/t/p/w500/78B66xBCgmnh88d10B85uFjC88V.jpg",
       "background": "https://image.tmdb.org/t/p/w780/vxOUVzvezd6BsLHPgK9c1T2kR2W.jpg",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1241983",
-      "type": "movie",
-      "name": "Train Dreams",
-      "poster": "https://image.tmdb.org/t/p/w500/aQfob5TRbPCIwThSSyUlwXLwoXy.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/u5NWHVhZ6HWc1fXnqn82cMar5St.jpg",
-      "description": "Entre histoire d'amour et deuil, un bûcheron vit un paisible état de grâce dans le monde en pleine mutation du début du 20e siècle en Amérique.",
       "releaseInfo": "2025"
     },
     {

@@ -1,11 +1,20 @@
 {
   "metas": [
     {
+      "id": "tmdb:254630",
+      "type": "series",
+      "name": "12 12 12",
+      "poster": "https://image.tmdb.org/t/p/w500/awWRxpVXFJGbumYp7OM0slCjzRG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tjy25xpiFeo2gahl7N0hoxbRtG7.jpg",
+      "description": "Un braquage prend 12 mois à préparer, 12 heures à mettre à exécution, et un braqueur qui n'est pas arrêté dans les 12 jours ne le sera jamais. Dans un chassé-croisé haletant de trois temporalités, un agent du FBI et un criminel de carrière se livrent à un jeu dangereux du chat et de la souris, à travers l'Europe.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:306179",
       "type": "series",
       "name": "Awkwafina : la cheffe improbable",
       "poster": "https://image.tmdb.org/t/p/w500/kHkVrRxFtbQFY0b9RWoug5A0S1M.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vSMW22GgtzgsRaAmZaTM6xtPdNP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1csFLrwh28PrWyWyeUXzgyt4930.jpg",
       "description": "L’actrice hollywoodienne et comédienne Nora Lum (a.k.a. Awkwafina) est descendante de la royauté de la restauration... mais elle ne sait pas cuisiner. Partez avec elle dans ce road trip culinaire inspirant, et dans sa quête de raviver la cuisine chinoise tant affectionnée par sa famille.",
       "releaseInfo": "2026"
     },
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/uI1jhghuwrwBBxbOpzjZBiTr3Ke.jpg",
       "background": "https://image.tmdb.org/t/p/w780/6ZrfmfAtOy19UzXorO0t7RdRSJw.jpg",
       "description": "Lorsqu’une enfant disparaît après l’explosion d’une maison, une voisine inquiète et une détective privée font équipe pour la retrouver. À mesure que les masques tombent et qu’un complot militaire se dessine, c’est un véritable chaos qui s’abat sur la paisible banlieue d’Oxford.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:292130",
-      "type": "series",
-      "name": "Mr. Scorsese",
-      "poster": "https://image.tmdb.org/t/p/w500/PYcT6mf3cYHI35uNG8ztVdyh9p.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yvToMgv3CHs7T4yQe9EPsMgEXG3.jpg",
-      "description": "Découvrez les nombreuses vies de Martin Scorsese grâce à un accès exclusif et libre à ses archives privées et à de longs entretiens avec sa famille, ses amis, ses collaborateurs légendaires et le réalisateur visionnaire en personne.",
       "releaseInfo": "2025"
     }
   ]

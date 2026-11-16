@@ -3,9 +3,9 @@
     {
       "id": "tmdb:1402181",
       "type": "movie",
-      "name": "சீன்",
+      "name": "Scene",
       "poster": "https://image.tmdb.org/t/p/w500/1vjVJKpdT6gha7cpkmDJODpk8mU.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zYiUafcGC7JqK01GYbkimBYNaUR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lqUXVYTzs4KD3Wn1GRIlqM2QjDU.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -30,6 +30,14 @@
       "name": "டோரதி",
       "poster": "https://image.tmdb.org/t/p/w500/o3r5DmWhOKdFmeIUoRJj4CvCqOP.jpg",
       "background": "https://image.tmdb.org/t/p/w780/wlJmF47IHYwzVpG1qA6aYA0UHj.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1538457",
+      "type": "movie",
+      "name": "மீசைய முருக்கு 2",
+      "poster": "https://image.tmdb.org/t/p/w500/r86ozGJdc85H0rWLnqhEBOqajsq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8iG6naruSFn4CuSWB01F0JuImCc.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -85,7 +93,7 @@
       "id": "tmdb:1479832",
       "type": "movie",
       "name": "DC",
-      "poster": "https://image.tmdb.org/t/p/w500/grRYMAxmfk9VHXY30gm6vfiwyoN.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/cm1uBPBUDfSIZXhWxsp1zzlKnf.jpg",
       "background": "https://image.tmdb.org/t/p/w780/v7kqufGRDotShPCw53SM7m8t6oc.jpg",
       "description": "Dans un univers où règnent violence et trahison, le rebelle Devadas s’allie à Chandra. Entre passion, vengeance et bains de sang, leur loyauté sera mise à l’épreuve dans un combat où survivre devient leur seule règle.",
       "releaseInfo": "2026"
@@ -153,14 +161,6 @@
       "name": "கருப்பு",
       "poster": "https://image.tmdb.org/t/p/w500/4KZXlZ5tTT6ghbW77gS4hSLkCd7.jpg",
       "background": "https://image.tmdb.org/t/p/w780/1eAuwNBy34kkM3xkl202z4f1NiI.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1510769",
-      "type": "movie",
-      "name": "29",
-      "poster": "https://image.tmdb.org/t/p/w500/aQZ4OxzaYTN7cRN7fALi9BhPucp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gzOamXAMuBpWFcCitMdEoAVAjCf.jpg",
       "releaseInfo": "2026"
     }
   ]

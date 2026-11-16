@@ -9,20 +9,12 @@
       "releaseInfo": "2007"
     },
     {
-      "id": "tmdb:224",
+      "id": "tmdb:5266",
       "type": "series",
-      "name": "Match of the Day",
-      "poster": "https://image.tmdb.org/t/p/w500/tVFCu0jE9m5QHmHM4rzEFGs1kUI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3EGjqKhVHGsvNHvBIbxmqS17Aal.jpg",
-      "releaseInfo": "1964"
-    },
-    {
-      "id": "tmdb:797",
-      "type": "series",
-      "name": "Have I Got News for You",
-      "poster": "https://image.tmdb.org/t/p/w500/gYrG6F8OXBa8C0Lfx10XaZsHKaw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jdwwdMhPJKarEiNojEau5YV1drN.jpg",
-      "releaseInfo": "1990"
+      "name": "University Challenge",
+      "poster": "https://image.tmdb.org/t/p/w500/cqczsSUFFOlAYQ2QOsrDo9tkhWi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9YROW0JA85k9IyHuaHhFcqzr0Jp.jpg",
+      "releaseInfo": "1962"
     },
     {
       "id": "tmdb:1554",
@@ -34,20 +26,12 @@
       "releaseInfo": "2003"
     },
     {
-      "id": "tmdb:13752",
+      "id": "tmdb:6390",
       "type": "series",
-      "name": "Saturday Kitchen Live",
-      "poster": "https://image.tmdb.org/t/p/w500/xPLZzHv04LYek3WyUVe1N6jzgkE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6kYR5LcENoyrWNt5ZWXTFpXEf4r.jpg",
+      "name": "Escape to the Country",
+      "poster": "https://image.tmdb.org/t/p/w500/cIJsjd0HdyKIODAgPuXeEpOAJ9j.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vzw3tHpCWkGUsVwLV0SvqMHZJqt.jpg",
       "releaseInfo": "2002"
-    },
-    {
-      "id": "tmdb:5266",
-      "type": "series",
-      "name": "University Challenge",
-      "poster": "https://image.tmdb.org/t/p/w500/cqczsSUFFOlAYQ2QOsrDo9tkhWi.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9YROW0JA85k9IyHuaHhFcqzr0Jp.jpg",
-      "releaseInfo": "1962"
     },
     {
       "id": "tmdb:10959",
@@ -82,19 +66,20 @@
       "releaseInfo": "2004"
     },
     {
-      "id": "tmdb:8425",
+      "id": "tmdb:335981",
       "type": "series",
-      "name": "Only Connect",
-      "poster": "https://image.tmdb.org/t/p/w500/mCS6E8Ca5RYthdYpz1j72Tr5AKD.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jYK5uwwFNkoAHxW7THVrYdVEYBQ.jpg",
-      "releaseInfo": "2008"
+      "name": "Le Cinéma selon Cunk",
+      "poster": "https://image.tmdb.org/t/p/w500/zrrRRvavkLQupkC6aEkdA8sX4E8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3NA7FxkqAaG1buZC1WtdPDpMlZg.jpg",
+      "description": "Dans cette série mockumentaire espiègle, Philomena Cunk part à la découverte de l'histoire du cinéma, sans manquer de laisser plusieurs experts perplexes en chemin.",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:24285",
       "type": "series",
       "name": "MasterChef: The Professionals",
-      "poster": "https://image.tmdb.org/t/p/w500/7VketceyMupoS5dymqXGLoCFSy3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nMMLbWhhUi0TdTXlHZW0Ggze2hC.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/xrCJXDPm4uX4X4BO9Lhdjb0zKwh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mm7z7FOG58WXOOHVrWpqsQqkq85.jpg",
       "releaseInfo": "2008"
     },
     {
@@ -106,12 +91,12 @@
       "releaseInfo": "1997"
     },
     {
-      "id": "tmdb:15188",
+      "id": "tmdb:8425",
       "type": "series",
-      "name": "Gardeners' World",
-      "poster": "https://image.tmdb.org/t/p/w500/dwqMZ7opkE12BmdFkrtwxyvsJl2.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bVWXnafKqgwbSWsl0HPKYxMHTK2.jpg",
-      "releaseInfo": "1968"
+      "name": "Only Connect",
+      "poster": "https://image.tmdb.org/t/p/w500/mCS6E8Ca5RYthdYpz1j72Tr5AKD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jYK5uwwFNkoAHxW7THVrYdVEYBQ.jpg",
+      "releaseInfo": "2008"
     },
     {
       "id": "tmdb:80328",
@@ -120,6 +105,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/bRR3jfgOiwH01oQBY5MTMgHjRNn.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zw7ktA6xkTdY3ShdG0Itseh5VYW.jpg",
       "releaseInfo": "2018"
+    },
+    {
+      "id": "tmdb:329315",
+      "type": "series",
+      "name": "Rise of the Rockstar Chef",
+      "poster": "https://image.tmdb.org/t/p/w500/erDOYthDdwWebTXhDStPig0v9Vf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ytC8n1iAd1e3hMuZTlpYcX7pqXk.jpg",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:158101",
@@ -144,14 +137,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/o1BW5pGRBaK9HazTn9AnDBSHbg9.jpg",
       "background": "https://image.tmdb.org/t/p/w780/kOebNNSQngFaVOsf83t5TSs0FuI.jpg",
       "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:340159",
-      "type": "series",
-      "name": "Escaping Idi Amin",
-      "poster": "https://image.tmdb.org/t/p/w500/fOz8dqozNzQCXmgzBoFAuMpaTW4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gOyS6M6sTwTuhrvurWW3FQUJnej.jpg",
-      "releaseInfo": "2026"
     }
   ]
 }

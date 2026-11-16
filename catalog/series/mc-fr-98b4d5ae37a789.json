@@ -1,12 +1,30 @@
 {
   "metas": [
     {
+      "id": "tmdb:291507",
+      "type": "series",
+      "name": "The Body",
+      "poster": "https://image.tmdb.org/t/p/w500/swEOVOmkYtTg3UBStrvt1yZJm26.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hYJqUoXRZnodGxgVZTM8uwr5kbC.jpg",
+      "description": "Le soir d'Halloween, un rite d'initiation vire au cauchemar, faisant basculer une troupe de danseuses dans la culpabilité catholique, les désirs impies et les visions étranges.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:292741",
       "type": "series",
       "name": "Nocturne",
       "poster": "https://image.tmdb.org/t/p/w500/gwoPlr2g3moHYZH05DyRZVgUf6m.jpg",
       "background": "https://image.tmdb.org/t/p/w780/614k6C9doThoMe6GyH0nTnGgLXt.jpg",
       "description": "Lorsqu’une victime du célèbre tueur en série Jurek Walter refait surface en vie, l’enquêteur Jonah Lynn entame une course contre la montre pour retrouver sa dernière proie encore portée disparue. Sa protégée Saga Bauer travaille sous couverture pour faire parler le tueur.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:314360",
+      "type": "series",
+      "name": "YAGA",
+      "poster": "https://image.tmdb.org/t/p/w500/wSbmXrDTm7g3USFAT6oKL8MGDfJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/owhTL4n2r9ryfxyYlhHKt97ogVk.jpg",
+      "description": "Alors qu’un détective privé enquête sur la disparition du jeune héritier d’une puissante entreprise de pêche, il se retrouve en désaccord avec un détective local méfiant, un charismatique professeur d’université qui aime les hommes plus jeunes, et un labyrinthe de suspects énigmatiques, de vies secrètes et de magie ancienne.",
       "releaseInfo": "2026"
     },
     {
@@ -73,11 +91,20 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:301626",
+      "type": "series",
+      "name": "Le Conte de deux cités",
+      "poster": "https://image.tmdb.org/t/p/w500/ht3OVVRBTrTeVtUVQiKSekjIFVH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1erQOjm3PZP6PNVRIuxdNmesCBu.jpg",
+      "description": "Londres, 1782. Alors que la guerre fait rage entre la France et la Grande-Bretagne, la jeune Lucie Manette voit sa vie bouleversée par un message tout droit venu de Paris : son père, présumé mort depuis près de 20 ans, serait peut-être encore vivant. Le messager, un émigré français idéaliste, Charles Darnay, est arrêté et accusé de trahison. Lucie fait appel à un jeune avocat aussi brillant qu’imprévisible, Sydney Carton, pour libérer Darnay dans l'espoir qu'il l’aide à retrouver son père.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:95350",
       "type": "series",
       "name": "Lanterns",
       "poster": "https://image.tmdb.org/t/p/w500/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6gqezQJ2mkm4jreWwLyOZy2Vf6i.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wJjnJbVUwPz0GADAgpFt9nWtzUu.jpg",
       "description": "Deux flics intergalactiques, la nouvelle recrue John Stewart et le légendaire Hal Jordan, sont confrontés à un sombre mystère sur Terre alors qu’ils enquêtent sur un meurtre au fin fond de l’Amérique.",
       "releaseInfo": "2026"
     },
@@ -151,33 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/99f8XKkUXC2pKGqNzbUgA9Ui1zA.jpg",
       "background": "https://image.tmdb.org/t/p/w780/yx0sfeYOoXol2fjT22SXo9YyviI.jpg",
       "description": "Le maire d'une ville de Nouvelle-Angleterre souhaite en faire une destination touristique, malgré les avertissements sur le fait qu'elle est maudite.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:224263",
-      "type": "series",
-      "name": "Stranger Things : Chroniques de 1985",
-      "poster": "https://image.tmdb.org/t/p/w500/5vr72cfj5cE8kftq1PWRCv2o3hh.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ulBGaxq9GmJexyEOi4Xci74g6Vt.jpg",
-      "description": "Hawkins, hiver 1985. Nous voilà de retour dans une ville qui regorge de secrets, où nos héros adorés affrontent de nouveaux mystères... et une nouvelle vague de phénomènes étranges.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:259265",
-      "type": "series",
-      "name": "Un très mauvais pressentiment",
-      "poster": "https://image.tmdb.org/t/p/w500/8UbrsXdkYtJOnHrrqVesQVxFZXW.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tsatObfXdVBtYmHkjdBEKzKzyNB.jpg",
-      "description": "Une jeune femme a le pressentiment qu'un terrible événement va se produire lors de son mariage. Et plus la cérémonie approche, plus son malaise grandit.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:108181",
-      "type": "series",
-      "name": "Imperfect Women",
-      "poster": "https://image.tmdb.org/t/p/w500/u6G8q2eg3n4bZEBS4yaiTahqegG.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1RejXo8s6ot7ZbrgR8J16DVaaTi.jpg",
-      "description": "Alors qu’un meurtre fait voler en éclats la vie de trois amies, leur lien tissé depuis des décennies est mis à rude épreuve quand une enquête révèle des vérités choquantes.",
       "releaseInfo": "2026"
     }
   ]

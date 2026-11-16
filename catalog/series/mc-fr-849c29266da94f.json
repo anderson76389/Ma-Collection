@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:249565",
+      "type": "series",
+      "name": "The Good Daughter",
+      "poster": "https://image.tmdb.org/t/p/w500/nfWGZtrLH6PLcOQFOttZqmhKaVk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nDU6mUk4wVU1EkDkDvcLvT2UWdy.jpg",
+      "description": "Les sœurs Charlotte et Samantha Quinn ont passé les vingt-huit dernières années à essayer de reconstituer les vies qui ont été brisées par une nuit de violence. Lorsqu'un nouvel attentat a lieu dans la petite ville de Pikeville, Charlotte est le premier témoin sur les lieux. Devenue avocate comme son père, elle est forcée d'affronter ses propres démons au fur et à mesure que l'affaire affaire.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:292741",
       "type": "series",
       "name": "Nocturne",
@@ -164,15 +173,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/ahCjPfWA26qluZPOQItTsLwFvVV.jpg",
       "background": "https://image.tmdb.org/t/p/w780/to5eI3AWbT4spz1K58mIK5HQRbD.jpg",
       "description": "Au Fil des années de Carley Fortune est une romance teintée de nostalgie sur les premières amours et les choix qui nous marquent pour la vie.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:323411",
-      "type": "series",
-      "name": "The Vampire Lestat",
-      "poster": "https://image.tmdb.org/t/p/w500/gZcmNUcDDR1nR7lmroOJTCrhrhK.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/iw1knpC8Jg5davMn2MPxNVxBF8N.jpg",
-      "description": "Le Vampire Lestat part en tournée tout en étant hanté par les « muses » de son passé. À mesure que la popularité du groupe augmente, l'influence de Lestat sur les vampires et les humains augmente également, laissant les autres affronter le pouvoir de Lestat face à la Grande Conversion.",
       "releaseInfo": "2026"
     }
   ]

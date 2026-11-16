@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1757174",
+      "type": "movie",
+      "name": "Noël dans ta peau",
+      "poster": "https://image.tmdb.org/t/p/w500/5u3H664XvI8bylp0yi8uGSq895n.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4BsOLok9WaTTTcSpmoMtCLERScS.jpg",
+      "description": "Deux sœurs aux personnalités complètement différentes se voient contraintes d'échanger leurs vies quelques semaines avant Noël. Dans leurs nouveaux environnements, elles font face à leurs choix et trouvent l'amour au moment où elles s'y attendaient le moins.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1623256",
       "type": "movie",
       "name": "The Storm",
@@ -41,7 +50,7 @@
       "type": "movie",
       "name": "Hemmet",
       "poster": "https://image.tmdb.org/t/p/w500/8an9l8gq9TyCH4QOcC3LR8bBPE7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5YzGueJ4bhzw60lH4N5uq4nPCo7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yoVgoGIPIC5n3TeUV18eBYCS3WS.jpg",
       "description": "Trentenaire, Joël doit retourner dans sa ville natale pour aider sa mère, Monika. Après avoir subi une crise cardiaque, durant laquelle elle a été cliniquement morte pendant plusieurs minutes, elle doit désormais intégrer une maison de retraite pour recevoir les soins nécessaires. Mais le soulagement de Joël est de courte durée. Peu après son arrivée, Monika commence à se comporter étrangement...",
       "releaseInfo": "2025"
     },
@@ -166,15 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/elZEpTbXxt3T7rw2RhdDPlyUgwI.jpg",
       "background": "https://image.tmdb.org/t/p/w780/gGW1Je4CaAc1m5QEre6WjA97VKP.jpg",
       "description": "Une adolescente essaie de remonter la pente dans ce drame d'apprentissage émouvant mêlant douceur et amertume, qui s'intéresse à la vie des proches après une tragédie.",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:1019317",
-      "type": "movie",
-      "name": "Stöld",
-      "poster": "https://image.tmdb.org/t/p/w500/kl3bzDhU5eo3sntvWP0wHZjbuZd.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ptjodfJgt3CSdryZI4zP9HsAWGS.jpg",
-      "description": "La lutte que mène une jeune femme pour défendre son héritage indigène dans un monde où la xénophobie progresse, où le changement climatique met en danger l'élevage de rennes, et où les jeunes, anéantis par le désespoir, font le choix du suicide. Le roman dévoile aussi les tensions qui naissent quand des idées modernes se heurtent à une culture façonnée par les traditions patriarcales.",
       "releaseInfo": "2024"
     }
   ]

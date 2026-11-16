@@ -58,7 +58,7 @@
       "type": "movie",
       "name": "Le Château d’Arioka",
       "poster": "https://image.tmdb.org/t/p/w500/q0CWp4udY4AxuxlmebuIRNT3lyW.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pPThPhqsh5bKwJoZDlWd67qCHcc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dk1EJbIBFKByf1ZyoAIm0GNRnl4.jpg",
       "description": "Dans le Japon féodal, le seigneur Murashige se retranche dans son château et y fait prisonnier son ennemi, le stratège Kanbei, qu’il décide d’épargner. Au fil des saisons, des crimes inexpliqués viennent troubler l’ordre des lieux; Murashige mène l’enquête, mais se heurte chaque fois à une pièce manquante que seul Kanbei, depuis sa cellule, semble capable de déchiffrer. Entre méfiance et emprise, leur relation se transforme, tandis que de nouveaux meurtres surviennent et que Murashige perd peu à peu le contrôle de ce qui se joue dans son propre château…",
       "releaseInfo": "2026"
     },
@@ -67,16 +67,17 @@
       "type": "movie",
       "name": "Soudain",
       "poster": "https://image.tmdb.org/t/p/w500/bfWVYzLQnykGlDfnnduqLtofRAJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yF4vFj0BSle87KSuRLhtT1PPfvs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rQEfTB65F71Y2yIlAzv3GJ3m7Rz.jpg",
       "description": "Directrice d'un établissement pour personnes âgées, Marie-Lou tente d'y instaurer une philosophie de soins innovante basée sur l'écoute et la dignité des résidents, malgré la réticence d’une partie de ses équipes. Sa rencontre avec Mari, une metteuse en scène japonaise qui se bat contre un cancer, va bouleverser sa trajectoire. En nouant une amitié profonde, les deux femmes engagent ensemble un combat pour “rendre possible l’impossible”.",
       "releaseInfo": "2026"
     },
     {
       "id": "tmdb:1629051",
       "type": "movie",
-      "name": "ネバーアフターダーク",
+      "name": "Never After Dark",
       "poster": "https://image.tmdb.org/t/p/w500/4rDgzOCBREeTaqZvTeFtEcnrju8.jpg",
       "background": "https://image.tmdb.org/t/p/w780/o73vpmtXq89bfSUMcAulLVN4TKP.jpg",
+      "description": "Une médium se rend au cœur de la campagne japonaise pour effectuer un exorcisme, où elle se retrouve confrontée à l’ennemi le plus terrifiant de tous : les vivants.",
       "releaseInfo": "2026"
     },
     {
@@ -100,10 +101,18 @@
     {
       "id": "tmdb:1322562",
       "type": "movie",
-      "name": "Mononoke, le film - Chapitre 3 - La malédiction du serpent",
+      "name": "Mononoke, le film : Chapitre III – La Malédiction du serpent",
       "poster": "https://image.tmdb.org/t/p/w500/93zvlPMHQb3xoX40bNL8bck7O00.jpg",
       "background": "https://image.tmdb.org/t/p/w780/5bMDrznr5P9GcClJF0OeE4NxZn9.jpg",
       "description": "Après une nouvelle tragédie au cœur de l’Ōoku, les passions humaines et les rancœurs accumulées donnent naissance à un puissant Mononoke prenant la forme d’un dieu-serpent. Pour pouvoir dégainer son Épée sacrée, l’Apothicaire devra découvrir sa Forme, sa Vérité et sa Raison, quitte à exhumer un secret vieux de 150 ans lié aux origines mêmes de l’Ōoku.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1548708",
+      "type": "movie",
+      "name": "SAKAMOTO DAYS",
+      "poster": "https://image.tmdb.org/t/p/w500/6IHypVNR2WBcfxU1E4WAZvCpN18.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cD3S6FZfCgNVpSdri7V7qQi17I3.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -111,7 +120,7 @@
       "type": "movie",
       "name": "Détective Conan : L'Ange Déchu de l'Asphalte",
       "poster": "https://image.tmdb.org/t/p/w500/fattfbk0zVSHaYimuiyX1Oz3Okp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zT5S4GNs8Eu2gIkGORoN6yC1uE2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ty9nLEKOskxq1CgBCzMbCpAhLn3.jpg",
       "description": "Lorsqu'une série d'accidents mortels survient sur l'autoroute, les investigations de Conan Edogawa orientent ses soupçons vers un complot orchestré plutôt que vers de simples accidents. Alors qu'il met au jour une machination impliquant des identités dissimulées et des technologies de pointe, l'affaire se transforme en une course contre la montre effrénée pour stopper un cerveau machiavélique avant que d'autres vies ne soient perdues.",
       "releaseInfo": "2026"
     },
@@ -167,14 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/25csgA1l0jpvvSRwdFgjrI7PDnk.jpg",
       "background": "https://image.tmdb.org/t/p/w780/3I2RO8UuAliSuX25jK59stqFZW1.jpg",
       "description": "Un court métrage célébrant le 30e anniversaire de Neon Genesis Evangelion, mettant en scène Asuka dans sa version classique et dans Rebuild. Ce court métrage explore avec humour des réalités alternatives.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1567203",
-      "type": "movie",
-      "name": "夜勤事件",
-      "poster": "https://image.tmdb.org/t/p/w500/okfGa1oSi2rerEr7TkAih9hCZ7q.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mVTRBSzXOBBPZRZCD3Ax8bLXrcK.jpg",
       "releaseInfo": "2026"
     }
   ]

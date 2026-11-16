@@ -7,6 +7,15 @@
       "releaseInfo": "2027"
     },
     {
+      "id": "tmdb:279382",
+      "type": "series",
+      "name": "Eldorado",
+      "poster": "https://image.tmdb.org/t/p/w500/jT2KO2QnY857A4r8V7HRgL5WAKK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oLzpVIqZAEfXrPIPrNTKotBNhcK.jpg",
+      "description": "En 1973, le choc pétrolier marque la fin des Trente Glorieuses. Heureusement, en France, on n’a pas de pétrole mais on a des idées. Un aristocrate belge et un obscur savant italien parviennent à convaincre le puissant groupe Elf Aquitaine de l’existence d’un procédé révolutionnaire permettant de détecter du pétrole depuis les airs",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:340122",
       "type": "series",
       "name": "Un micro à la DGSE : La vie secrète des espions",
@@ -166,14 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/zUVMFxYzoenjKcIlWcDN7zMJaO0.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ak4Qqv1QvrAVej5OOL27dpe1N8L.jpg",
       "description": "Michel Denisot recevra chaque jour une personnalité au cœur de l’actualité cannoise pour un entretien privilégié, intime et incarné.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:321536",
-      "type": "series",
-      "name": "Famous Orchestras – Die besten Orchester der Welt",
-      "poster": "https://image.tmdb.org/t/p/w500/jmIL0QRb7iKuJDS2TSo5wZ1xu43.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/a9IJkCpQFlOpZXCSxHwqrIYEwNJ.jpg",
       "releaseInfo": "2026"
     }
   ]

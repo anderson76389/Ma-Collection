@@ -32,9 +32,18 @@
       "type": "series",
       "name": "VisionQuest",
       "poster": "https://image.tmdb.org/t/p/w500/bWPktguPGslrdM79SNQt4OWYyJS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/31o1Ufd7bStD5dGEcpzapOjwaqx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uoXXbN2PrOxH6UKyP7kYwmGpAAP.jpg",
       "description": "Une nouvelle version de Vision ayant échappé à ceux qui cherchaient à faire de lui une arme, vit dans la clandestinité. En quête d’un nouveau sens à sa vie, il consulte les IA intégrées à son programme, notamment Friday, Edith, Jarvis et le tristement célèbre Ultron. Son existence discrète prend fin lorsque sa tête est mise à prix, le contraignant à prendre la fuite avec Thomas Shepherd, un garçon mystérieux qui pourrait bien être la réincarnation du fils de Vision. Tout en échappant à ses poursuivants, Vision doit se confronter à sa propre nature, résister à l’influence d’Ultron et percer le mystère qui entoure son jeune compagnon s’il veut survivre.",
       "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:4614",
+      "type": "series",
+      "name": "NCIS : Enquêtes Spéciales",
+      "poster": "https://image.tmdb.org/t/p/w500/salC1Yhi3QW8DW5iIJGFQOzPWVQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rHKRZCBpDFSNc45kzyf665LJYp3.jpg",
+      "description": "L'agent spécial Leroy Jethro Gibbs, de la Section criminelle de la Gendarmerie maritime, dirige un groupe de personnes aux personnalités colorées qui enquête sur les crimes. Ceux-ci vont du meurtre et de l'espionnage au terrorisme, et sont reliés de manière assurée au personnel du corps de la Marine. L'équipe est composée d'Anthony DiNozzo, un ex-inspecteur plein d'esprit spécialisé en homicides, d'Abby Sciuto, l'excentrique spécialiste d'enquête en technique de laboratoire, de Timothy McGee, brillant lorsqu'inquiet, et de Ziva David, ex-officier de liaison du Mossad. Le Dr Donald \"Ducky\" Mallard contribue à la résolution de cas grâce à sa grande expérience dans le domaine de la médecine légale.",
+      "releaseInfo": "2003"
     },
     {
       "id": "tmdb:279246",
@@ -73,6 +82,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:208921",
+      "type": "series",
+      "name": "Rivals",
+      "poster": "https://image.tmdb.org/t/p/w500/bwFoHcbBOk5tbc5oGq8qBy0lVaJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vPw5Gpg0YEEk1VsE8QlmyTxIJuU.jpg",
+      "description": "Nous sommes en 1986 et la Grande-Bretagne est en plein essor. \"Rivals\" nous plonge la tête la première dans le monde impitoyable de la télévision, où les apparences et les ambitions sont plus importantes que tout et où les accords se négocient dans les salles de réunion, mais aussi sur l’oreiller. Personne ne sait qui sera vainqueur. Tout le monde ne pense qu’à soi-même. Le véritable amour pourra-t-il s'épanouir dans cette adaptation du roman à succès de Jilly Cooper, “Rutshire Chronicles“ ?",
+      "releaseInfo": "2024"
+    },
+    {
       "id": "tmdb:55216",
       "type": "series",
       "name": "Scènes de ménages",
@@ -82,21 +100,30 @@
       "releaseInfo": "2009"
     },
     {
-      "id": "tmdb:125935",
-      "type": "series",
-      "name": "Abbott Elementary",
-      "poster": "https://image.tmdb.org/t/p/w500/zk2aNVIHoapdWKOcaYp7PhX9SxD.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/s3owzvmihtDrunVxB2DyGjn9iJt.jpg",
-      "description": "Dans cette comédie en milieu de travail, un groupe d'enseignants dévoués et passionnés - et un directeur légèrement sourd - sont réunis dans une école publique de Philadelphie où, malgré les obstacles qui leur sont opposés, ils sont déterminés à aider leurs élèves à réussir dans la vie. Bien que ces incroyables fonctionnaires soient en infériorité numérique et sous-financés, ils aiment ce qu'ils font - même s'ils n'aiment pas l'attitude moins que stellaire du district scolaire envers l'éducation des enfants.",
-      "releaseInfo": "2021"
-    },
-    {
       "id": "tmdb:105009",
       "type": "series",
       "name": "Tokyo Revengers",
       "poster": "https://image.tmdb.org/t/p/w500/kzDHRAkFjeed0lJpjE1eKJDcowS.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zYIFOocMfsKAEysBjhZ8akfXFdB.jpg",
       "description": "Takemichi Hanagaki n'a pas vraiment réussi sa vie. Il fait des petits boulots sans intérêt et lorsqu'il apprend que la seule petite amie qu'il ait jamais eu au collège, Hinata Tachibana, a été tuée par l'impitoyable gang Tokyo Manji-kai, il est anéanti. Le lendemain, toujours sous le choc, il est poussé sur les rails de la gare lors d'un mouvement de foule. Mais Takemichi ne meurt pas et quand il se réveille, il est revenu douze ans en arrière. Il va ainsi retrouver ses meilleures années, mais aussi tenter de sauver celle qui l'aime et prendre sa revanche sur la vie…",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:211288",
+      "type": "series",
+      "name": "Tracker",
+      "poster": "https://image.tmdb.org/t/p/w500/kjJMlFtMOtqHpLWHl1OJ3qhSV01.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5C5cMYUlmX6BU5YxBqhp7ZpSd3Q.jpg",
+      "description": "Colter Shaw est un loup solitaire, qui parcourt le pays à bord de son camping-car, utilisant ses talents de pisteur pour aider les particuliers et les forces de l'ordre à résoudre toutes sortes de crimes ou à retrouver les personnes disparues.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:125935",
+      "type": "series",
+      "name": "Abbott Elementary",
+      "poster": "https://image.tmdb.org/t/p/w500/zk2aNVIHoapdWKOcaYp7PhX9SxD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/s3owzvmihtDrunVxB2DyGjn9iJt.jpg",
+      "description": "Dans cette comédie en milieu de travail, un groupe d'enseignants dévoués et passionnés - et un directeur légèrement sourd - sont réunis dans une école publique de Philadelphie où, malgré les obstacles qui leur sont opposés, ils sont déterminés à aider leurs élèves à réussir dans la vie. Bien que ces incroyables fonctionnaires soient en infériorité numérique et sous-financés, ils aiment ce qu'ils font - même s'ils n'aiment pas l'attitude moins que stellaire du district scolaire envers l'éducation des enfants.",
       "releaseInfo": "2021"
     },
     {
@@ -109,30 +136,12 @@
       "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:226688",
-      "type": "series",
-      "name": "BEYBLADE X",
-      "poster": "https://image.tmdb.org/t/p/w500/66wkm14IWdrY5LaKZDAbkD2T9Jt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qAq9RBeHZoTMDFqQZ2o4cE5CJIQ.jpg",
-      "description": "Robin Kazami, blader débutant, s'associe à l'influenceuse Multi Nana-iro et à l'ancien champion Jaxon Cross pour former ce trio improbable, prêt à gravir les échelons du classement The X et à remporter le titre de champion blader !",
-      "releaseInfo": "2023"
-    },
-    {
       "id": "tmdb:284838",
       "type": "series",
       "name": "9-1-1: Nashville",
       "poster": "https://image.tmdb.org/t/p/w500/63JFLM8L8H1Jlp62kZGPvSKc50j.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ubqZEVCDp86myrZwJpyNwocLrce.jpg",
       "description": "A Nashville, capitale de l'État du Tennessee et coeur de la musique country, pompiers, secouristes et policiers unissent leurs forces pour gérer des urgences parfois spectaculaires, tout en affrontant les défis de leur propre vie.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:258742",
-      "type": "series",
-      "name": "All's Fair",
-      "poster": "https://image.tmdb.org/t/p/w500/igHpitLtbzBG7EyNZhF9vPYm6PK.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7t55fTjn0KRqCGPOSXM9RUk0zny.jpg",
-      "description": "Lassées d’un cabinet d’avocats dominé par les hommes, une équipe de brillantes avocates spécialisées en divorce créent leur propre structure. Tenaces et complexes, elles jonglent avec des ruptures explosives, des secrets sulfureux et des alliances fluctuantes, aussi bien au tribunal qu’en interne. Dans un monde où l’argent est roi et l’amour un champ de bataille, ces femmes ne se contentent pas de jouer le jeu : elles changent les règles.",
       "releaseInfo": "2025"
     },
     {
@@ -154,6 +163,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:258742",
+      "type": "series",
+      "name": "All's Fair",
+      "poster": "https://image.tmdb.org/t/p/w500/igHpitLtbzBG7EyNZhF9vPYm6PK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7t55fTjn0KRqCGPOSXM9RUk0zny.jpg",
+      "description": "Lassées d’un cabinet d’avocats dominé par les hommes, une équipe de brillantes avocates spécialisées en divorce créent leur propre structure. Tenaces et complexes, elles jonglent avec des ruptures explosives, des secrets sulfureux et des alliances fluctuantes, aussi bien au tribunal qu’en interne. Dans un monde où l’argent est roi et l’amour un champ de bataille, ces femmes ne se contentent pas de jouer le jeu : elles changent les règles.",
+      "releaseInfo": "2025"
+    },
+    {
       "id": "tmdb:273247",
       "type": "series",
       "name": "The Lowdown",
@@ -161,24 +179,6 @@
       "background": "https://image.tmdb.org/t/p/w780/xz9YhlTE5gdr1mrQkY01vDvQF59.jpg",
       "description": "L’obsession pour la vérité du journaliste amateur Lee Raybon, qui s’autoproclame “historien de la vérité” de Tulsa, lui attire des ennuis. Loin d’être un idéaliste, Lee est prêt à tout pour exposer la corruption et les secrets de sa ville, quitte à se mettre en danger. Lorsque son dernier article sur la puissante famille Washberg est suivi du suicide suspect de Dale Washberg, Lee sait qu’il a mis le doigt sur quelque chose de gros. Dale a laissé des indices, suppliant qu’on enquête sur sa mort. Lee s’y met et découvre que Betty Jo, la veuve éplorée, semble plus intéressée par son beau-frère que par son défunt mari. Et des forces puissantes semblent vouloir l’empêcher d’en savoir plus.",
       "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:205272",
-      "type": "series",
-      "name": "Reasonable Doubt",
-      "poster": "https://image.tmdb.org/t/p/w500/v9p9VbljJdJ9GjLqp3l5YpWJ8HO.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5Nu95w2oWsbmDeAjG2NJF4x33Ud.jpg",
-      "description": "Vous trouverez peut-être que Jax Stewart possède une éthique douteuse et interprète parfois la loi de façon détournée… jusqu'à ce que vous ayez des ennuis. Alors, vous la verrez pour ce qu'elle est : la plus brillante et intrépide avocate de Los Angeles, qui défie le système judiciaire à la moindre occasion.",
-      "releaseInfo": "2022"
-    },
-    {
-      "id": "tmdb:305551",
-      "type": "series",
-      "name": "Merry Berry Love",
-      "poster": "https://image.tmdb.org/t/p/w500/qzH80C1YNzucLsVJfW23RxvX9vS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vPDVee1j6w0hJ2xMJ2bU5HVBA0Z.jpg",
-      "description": "\"Après avoir tout perdu du jour au lendemain, Lee Yubin, architecte d'intérieur coréen à succès, met le cap sur une sublime petite île japonaise. Sur Chora, il rencontre Shirahama Karin, une agricultrice déterminée à cultiver des fraises malgré sa mystérieuse maladie. Issus de deux mondes différents, ils se retrouvent au cœur d'un quiproquo inattendu. En parallèle, une autre idylle voit le jour sur l'île. Park Kunam, en visa vacances-travail, décide de rester après être tombé sous le charme de Mizuno Mari, une cartomancienne incapable de prédire son propre avenir sentimental. Au fil de leur relation, ils deviennent de précieux alliés pour Yubin et Karin.",
-      "releaseInfo": "2026"
     }
   ]
 }

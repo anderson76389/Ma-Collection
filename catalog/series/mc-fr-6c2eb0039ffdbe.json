@@ -1,6 +1,32 @@
 {
   "metas": [
     {
+      "id": "tmdb:341769",
+      "type": "series",
+      "name": "Valentín: La muerte del Gallo de Oro",
+      "poster": "https://image.tmdb.org/t/p/w500/3g4YJsWrUZ5tB3F3g99pcPHCCIX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9bZk0CshPxaYufswVE21ZOpJ3g7.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:338684",
+      "type": "series",
+      "name": "Une vie arrachée : Natalee Holloway",
+      "poster": "https://image.tmdb.org/t/p/w500/muAl6E2U6TFA0sFftyxy9FoJf6H.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ryBFDxselVFSGGNCNIXrc8F6XgY.jpg",
+      "description": "En mai 2005, un groupe de lycéens d'une petite ville de l'Alabama célèbre la fin de ses études lors d'un voyage à Aruba. Mais Natalee Holloway, 18 ans, ne se présente jamais à l'embarquement pour le vol retour.\n\nSa disparition soudaine déclenche une vaste couverture médiatique et d'intenses recherches qui vont durer des années.\n\nPlus de vingt ans après les faits, sa mère, Beth Holloway, revient pour la première fois sur l'intégralité de cette affaire, depuis la disparition de sa fille jusqu'aux aveux spectaculaires du principal suspect. À travers des témoignages inédits, des images jamais dévoilées et l'accès à des enquêteurs, cette série documentaire retrace le combat acharné d'une mère pour découvrir la vérité.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:338689",
+      "type": "series",
+      "name": "La Chute d'El Mayo",
+      "poster": "https://image.tmdb.org/t/p/w500/1BeogORCQmxHp0lc9q5GCojzIkI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yiElAOM1OD09YCuCUbim4QMyvtJ.jpg",
+      "description": "Cofondateur du cartel de Sinaloa, partenaire de longue date d’« El Chapo » et fantôme pour les autorités pendant plus de trois décennies. Le documentaire qui raconte sa chute.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:333533",
       "type": "series",
       "name": "Celui qui s'appelait Matthew Perry",
@@ -16,6 +42,24 @@
       "poster": "https://image.tmdb.org/t/p/w500/mdtpJEWW1j5Ns7bIcbw1UeIdvhp.jpg",
       "background": "https://image.tmdb.org/t/p/w780/qFNAWAHCXWtS4EMlLxTAetTpZAR.jpg",
       "description": "Ce documentaire captivant en quatre volets explore la vie tumultueuse de Mike Tyson, l'une des personnalités les plus redoutées et les plus fascinantes de l'histoire du sport.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:336418",
+      "type": "series",
+      "name": "Meurtre au cimetière",
+      "poster": "https://image.tmdb.org/t/p/w500/aSD3YkLuTBnoYgyTCXtZRAxezNP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/Ag8tSoa5uLQ6W9m3YR1qS0FAUyh.jpg",
+      "description": "Lorsqu'un policier de la Nouvelle-Orléans tente d'élucider le meurtre du propriétaire d'un cimetière pour animaux, il découvre un sombre passé.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:334888",
+      "type": "series",
+      "name": "Afrique, terres de vie",
+      "poster": "https://image.tmdb.org/t/p/w500/wik5FpIY4XvVR29sZGnqseLGKN8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/17ZgS7G4tVvJsuMfMxkFMHumXog.jpg",
+      "description": "Filmée sur près de quatre ans à travers une trentaine de pays, la série explore la richesse, la résilience et les récits de survie des animaux au coeur des écosystèmes extrêmement variés de l'Afrique (déserts, jungles, montagnes, îles et forêts). Grâce à des technologies de pointe et des images de synthèse, elle met en lumière les forces géologiques et continentales qui ont façonné ces milieux, ainsi que les incroyables capacités d'adaptation de la faune",
       "releaseInfo": "2026"
     },
     {
@@ -132,51 +176,6 @@
       "name": "Star Wars: The Mandalorian and Grogu | A Special Look",
       "poster": "https://image.tmdb.org/t/p/w500/2YI9C4Ynr952BQj0e9qe6V5P6p8.jpg",
       "background": "https://image.tmdb.org/t/p/w780/bxhodfyAivcHoM4JPB6310aRgp5.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:318262",
-      "type": "series",
-      "name": "Et pour le pire ?",
-      "poster": "https://image.tmdb.org/t/p/w500/rVN1TATgKDyXj9pejkrIYy6lJXm.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/A1DSMj6VQcvvJmNNBTSSLqQ5bzF.jpg",
-      "description": "D'une idylle fulgurante à un sombre aveu, ce documentaire sur un crime réel révèle comment une romance dans les Highlands écossais a mené à une périlleuse opération d'infiltration.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:318880",
-      "type": "series",
-      "name": "Hulk Hogan: Real American",
-      "poster": "https://image.tmdb.org/t/p/w500/pdEEOQystKjHtC71RV6yRobY8bk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/v5DsZ3fnWSGfcIzt8twiFWz2JbL.jpg",
-      "description": "Avant de devenir Hulk Hogan, il s'appelait Terry Bollea. Découvrez l'homme derrière la légende du catch professionnel dans ce documentaire sans concession, tourné au cours des derniers mois de sa vie et incluant son ultime interview.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:316920",
-      "type": "series",
-      "name": "Le Jardin de Zach",
-      "poster": "https://image.tmdb.org/t/p/w500/73dpQI4dVkq5ajPOn0muqSPBKYD.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gIeD6FGxdwmfqDjTGYaAqPE0xO5.jpg",
-      "description": "Zach Galifianakis explore le monde du jardinage en cultivant la curiosité des enfants et en sondant des experts excentriques. Un hommage ludique et décalé à la terre nourricière.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:316527",
-      "type": "series",
-      "name": "The Dark Wizard",
-      "poster": "https://image.tmdb.org/t/p/w500/phkGAfV7NTYCIv4jIFYTbCMb9xC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7it9nEObNN6dfsJH92QlJZd2Chx.jpg",
-      "description": "Documentaire en quatre parties sur la vie et les exploits de Dean Potter, grimpeur, highliner et base‑jumper considéré comme l’un des plus visionnaires mais aussi des plus controversés de son époque. Le film/mini‑série suit à la fois ses réalisations spectaculaires (ascensions en solo, traversées de slackline à grande hauteur, vols en wingsuit) et explore sa dimension introspective, ses démons intérieurs, pour « dévoiler qui Dean était vraiment » au‑delà de la légende du « Dark Wizard », en montrant comment sa quête d’absolu, de liberté et de spiritualité l’a conduit à repousser sans cesse les limites du risque.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:317555",
-      "type": "series",
-      "name": "Michael Jackson, l'envers d'une légende",
-      "poster": "https://image.tmdb.org/t/p/w500/xMLS97v13cqJCQqlAq4FspChFZ7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uMjerMT5CmzBcT7cwWPtDtrSCPp.jpg",
-      "description": "De l’enfant prodige à l’icône mondiale, cette série inédite en 3 épisodes explore le génie, les controverses et les tragédies qui ont façonné la légende de Michael Jackson. Diffusée à l’occasion de la sortie cinéma du très attendue biopic qui lui est consacré, elle offre un éclairage inédit sur le parcours hors norme du Roi de la pop.",
       "releaseInfo": "2026"
     }
   ]

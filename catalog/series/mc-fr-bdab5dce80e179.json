@@ -10,6 +10,14 @@
       "releaseInfo": "2023"
     },
     {
+      "id": "tmdb:96386",
+      "type": "series",
+      "name": "乃木坂工事中",
+      "poster": "https://image.tmdb.org/t/p/w500/wjfGdo9BoKeakiSxdKdiPZxv1jA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wyJb8zU523NSYKY6RJsb6q5CywM.jpg",
+      "releaseInfo": "2015"
+    },
+    {
       "id": "tmdb:60761",
       "type": "series",
       "name": "Ace of Diamond",
@@ -28,23 +36,6 @@
       "releaseInfo": "2017"
     },
     {
-      "id": "tmdb:96386",
-      "type": "series",
-      "name": "乃木坂工事中",
-      "poster": "https://image.tmdb.org/t/p/w500/wjfGdo9BoKeakiSxdKdiPZxv1jA.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wyJb8zU523NSYKY6RJsb6q5CywM.jpg",
-      "releaseInfo": "2015"
-    },
-    {
-      "id": "tmdb:226688",
-      "type": "series",
-      "name": "BEYBLADE X",
-      "poster": "https://image.tmdb.org/t/p/w500/66wkm14IWdrY5LaKZDAbkD2T9Jt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qAq9RBeHZoTMDFqQZ2o4cE5CJIQ.jpg",
-      "description": "Robin Kazami, blader débutant, s'associe à l'influenceuse Multi Nana-iro et à l'ancien champion Jaxon Cross pour former ce trio improbable, prêt à gravir les échelons du classement The X et à remporter le titre de champion blader !",
-      "releaseInfo": "2023"
-    },
-    {
       "id": "tmdb:99748",
       "type": "series",
       "name": "日向坂で会いましょう",
@@ -60,6 +51,14 @@
       "background": "https://image.tmdb.org/t/p/w780/1uuWlEEAZHnPX1VnwqJc7pfo2YM.jpg",
       "description": "Yûyu Kondô, élève en troisième année de collège, est capable de lire dans le cœur des autres. Mais ceux qui connaissent son don, notamment sa famille, ont tendance à profiter de lui. Cherchant à fuir cet environnement, Yûyu fait un jour la connaissance de Megumi. Elle l’entraîne dans un endroit où se réunissent des joueurs Vanguard, notamment le groupe Team Blackout. L’adolescent est alors fasciné par ce jeu de cartes et la manière dont chaque équipe défend ses couleurs. Il se laisse convaincre de rejoindre ces nouveaux camarades...",
       "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:221725",
+      "type": "series",
+      "name": "ちびゴジラの逆襲",
+      "poster": "https://image.tmdb.org/t/p/w500/be7uDWl2vWMX5OeAA8S6FNCT5Ei.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hOhHzMu6R1sVs80gLfaMSJ8jGgg.jpg",
+      "releaseInfo": "2023"
     },
     {
       "id": "tmdb:313346",
@@ -97,6 +96,15 @@
       "releaseInfo": "2022"
     },
     {
+      "id": "tmdb:276288",
+      "type": "series",
+      "name": "HOTEL INHUMANS",
+      "poster": "https://image.tmdb.org/t/p/w500/6ZHkFKJekNYADTByu3QI7vJaUbC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1Ik6i72QjVRNQ3N475uxiFxRrv9.jpg",
+      "description": "Les meilleurs hôtels doivent répondre à un certain standing, notamment une cuisine raffinée, un confort irréprochable et des divertissements variés. Bien sûr, ils doivent aussi disposer des dernières armes de pointe, offrir de fausses identités et faciliter l’élimination de preuves. Dans cet hôtel aux frontières de la mort se trouvent deux concierges, Ikuro Hoshi et Sara Haizaki. Ils sont toujours aux petits soins pour leurs clients assassins.",
+      "releaseInfo": "2025"
+    },
+    {
       "id": "tmdb:196267",
       "type": "series",
       "name": "ポケモンとどこいく！？",
@@ -121,15 +129,6 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:276288",
-      "type": "series",
-      "name": "HOTEL INHUMANS",
-      "poster": "https://image.tmdb.org/t/p/w500/6ZHkFKJekNYADTByu3QI7vJaUbC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1Ik6i72QjVRNQ3N475uxiFxRrv9.jpg",
-      "description": "Les meilleurs hôtels doivent répondre à un certain standing, notamment une cuisine raffinée, un confort irréprochable et des divertissements variés. Bien sûr, ils doivent aussi disposer des dernières armes de pointe, offrir de fausses identités et faciliter l’élimination de preuves. Dans cet hôtel aux frontières de la mort se trouvent deux concierges, Ikuro Hoshi et Sara Haizaki. Ils sont toujours aux petits soins pour leurs clients assassins.",
-      "releaseInfo": "2025"
-    },
-    {
       "id": "tmdb:312123",
       "type": "series",
       "name": "おねがいアイプリ",
@@ -146,19 +145,19 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:334103",
-      "type": "series",
-      "name": "ごーすと・みーつ・ぎゃる！",
-      "poster": "https://image.tmdb.org/t/p/w500/lmckivRH2w5KDzCaX3jc9EWAFPj.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tRKExfBgUi4LzZ4z1bZ0W7RRg6w.jpg",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:332635",
       "type": "series",
       "name": "赤灯えれじい",
       "poster": "https://image.tmdb.org/t/p/w500/aPmUvJi2OJNJy632zohALjB2gui.jpg",
       "background": "https://image.tmdb.org/t/p/w780/hcbJIOv31UPuHlJjcVN5RwP9ZXZ.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:334103",
+      "type": "series",
+      "name": "ごーすと・みーつ・ぎゃる！",
+      "poster": "https://image.tmdb.org/t/p/w500/lmckivRH2w5KDzCaX3jc9EWAFPj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tRKExfBgUi4LzZ4z1bZ0W7RRg6w.jpg",
       "releaseInfo": "2026"
     },
     {

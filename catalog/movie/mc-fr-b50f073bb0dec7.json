@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1600653",
+      "type": "movie",
+      "name": "The 12 Dates of Christmas",
+      "poster": "https://image.tmdb.org/t/p/w500/w82vKEoYNZ9SxYxvccxO85CnZKE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uRVWQyHPmkyKmjjkPQRO0Q475II.jpg",
+      "description": "Christina Walker, une commerçante prospère qui a consacré toute son énergie à sa carrière au détriment de sa vie amoureuse, enchaîne 12 rendez-vous amoureux au cours des 12 semaines précédant Noël dans l'espoir de trouver l'homme idéal.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1195803",
       "type": "movie",
       "name": "Wicker",
@@ -50,7 +59,7 @@
       "type": "movie",
       "name": "Juste pour une Nuit",
       "poster": "https://image.tmdb.org/t/p/w500/9ix7kr4DTKSmnBmvugvkRQJb1KO.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3afHil7EVm655wO2NS6RHxuyicE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bpll0oy6gHwLvypfFNfT2QI4VkT.jpg",
       "description": "Quand Owen, qui vient de se faire larguer, rencontre Allie, qui croit encore au grand amour, l'étincelle est immédiate. Cependant, une série de maladresses et de mésaventures séparent les deux seuls célibataires de la ville qui espèrent plus qu'une aventure. À force de courir et se croiser sans jamais se trouver, ils pourraient bien réaliser que ce qu'ils cherchent est plus près qu'ils ne l'imaginaient.",
       "releaseInfo": "2026"
     },
@@ -166,14 +175,6 @@
       "name": "You're Dating a Narcissist!",
       "poster": "https://image.tmdb.org/t/p/w500/j1O4BvAjGosDf9SdDemR4E1zDY3.jpg",
       "background": "https://image.tmdb.org/t/p/w780/7ww4Zc6XirdNJnj1nMsWq9ycxuz.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1608616",
-      "type": "movie",
-      "name": "Because of Cupid",
-      "poster": "https://image.tmdb.org/t/p/w500/qLcGqmRs8pMUxYshdqXy7ECg7BX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rv5C0uUAZtEyb5x9N8Wchjgfqhr.jpg",
       "releaseInfo": "2026"
     }
   ]

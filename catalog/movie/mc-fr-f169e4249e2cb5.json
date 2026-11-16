@@ -1,15 +1,6 @@
 {
   "metas": [
     {
-      "id": "tmdb:1755291",
-      "type": "movie",
-      "name": "NAZA",
-      "poster": "https://image.tmdb.org/t/p/w500/yJ0FMDiMfdVHWCRqxt9WzAJ0C5S.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qkuEfYYOZTW6ymbZMeyJeYQaMd7.jpg",
-      "description": "Filmé la nuit depuis les toits de Tel Aviv, ce documentaire se centre sur les victimes civiles des opérations militaires israéliennes à Gaza.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:1762506",
       "type": "movie",
       "name": "Frères d'Armes : l'héritage",
@@ -65,7 +56,7 @@
     {
       "id": "tmdb:898704",
       "type": "movie",
-      "name": "Desert Warrior",
+      "name": "לוחם המדבר",
       "poster": "https://image.tmdb.org/t/p/w500/waxnw1NpzTPY5JkqWvu0muSopRJ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ohlNSR8MsHk5e6fcAxqAJmcz4Sm.jpg",
       "description": "Quand une jeune princesse refuse d'être soumise au redoutable empereur Kisra, une bataille éclate de telle sorte qu'elle change la région de l'ancienne Arabie Saoudite à jamais.",
@@ -175,6 +166,15 @@
       "background": "https://image.tmdb.org/t/p/w780/wPSZXVqe84X8SINvJGiKYZhkSG1.jpg",
       "description": "En raison des tensions entre la Corée du Nord et la Corée du Sud, un hélicoptère américain s'écrase du côté nord-coréen. Les survivants doivent maintenant lutter ensemble pour protéger un spécialiste civil de la technologie et trouver le moyen de s'en sortir sans l'aide du soutien militaire américain.",
       "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1043905",
+      "type": "movie",
+      "name": "Dirty Angels",
+      "poster": "https://image.tmdb.org/t/p/w500/3tZWfZ3n46MGKqUeVgyK0zEIXMV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yBMGM7x8lPXUlmTNfCLZvHbpJmk.jpg",
+      "description": "Lorsque des étudiantes sont prises en otage en Afghanistan, Jake, une combattante des forces spéciales américaines, rejoint un commando composé uniquement de femmes pour les libérer. Le plan : gagner la confiance des terroristes en se faisant passer pour les membres d’une organisation humanitaire. Mais les fantômes du passé de Jake la trahissent et mettent en péril le succès de cette mission sans retour.",
+      "releaseInfo": "2024"
     }
   ]
 }

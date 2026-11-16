@@ -18,6 +18,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1800250",
+      "type": "movie",
+      "name": "Un chocolatier à croquer pour Noël",
+      "poster": "https://image.tmdb.org/t/p/w500/pnO8USzjsQLcyJiZuBAu1UYYYqE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jQsvmKFWQcWkgPqtY5bzzuMzpic.jpg",
+      "description": "Charlotte, chiropractrice dévouée à son travail, reçoit un mystérieux chocolat dans son cabinet. Encouragée par sa meilleure amie Gemma et sa secrétaire Chloe, elle remonte la piste jusqu'à une chocolaterie où elle rencontre Cody, le patron. Celui-ci accepte de l'aider à identifier l'expéditeur anonyme, sans révéler qu'il est lui-même à l'origine de cette attention délicate.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1789826",
       "type": "movie",
       "name": "Confessions d'une accro à Noël",
@@ -115,6 +124,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1484148",
+      "type": "movie",
+      "name": "C'est vrai ce mensonge ?",
+      "poster": "https://image.tmdb.org/t/p/w500/pDGQkYQXDJlNup4FvnScZDNqS7y.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4MrM3SfbohbfmZu0APiyXPOI653.jpg",
+      "description": "Rescapé d’un accident de voiture, qui lui vaut une amnésie post-traumatique, Felix, un financier quinquagénaire, rentre chez lui après presque deux mois d’hôpital. Pour fêter son retour, sa femme, Anne, qui a fait redécorer leur luxueuse demeure en son absence, lui a réservé une surprise en invitant leurs amis proches. Soudain, Micha, une jeune femme, débarque de nulle part. Vivant dans un quartier déshérité, elle recherche sa fille Emily, une adolescente disparue depuis des semaines, sans que, selon elle, la police s’en soucie.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1660295",
       "type": "movie",
       "name": "Danse macabre",
@@ -157,24 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/zPtPDabOSCC5EcYfO83N0DNAm0G.jpg",
       "background": "https://image.tmdb.org/t/p/w780/6S1UvFjk0HURLp2mwzQAK63wkgL.jpg",
       "description": "Kathy a fui son mari violent avec son fils Noah, lorsqu'il était enfant. Quelques années plus tard, alors qu'ils ont enfin une vie stable et heureuse, Noah se retrouve accusé du meurtre de son meilleur ami, Ethan. Il a beau clamer son innocence, il est le suspect numéro un et même sa mère commence à douter de lui.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1468471",
-      "type": "movie",
-      "name": "Fiançailles au Machu Picchu",
-      "poster": "https://image.tmdb.org/t/p/w500/ySrjf2ExY0qlKfl3HjmsOgMSTFN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2fn9FphCwiuDpJqI4Ivws12b8gN.jpg",
-      "description": "Katie aide à organiser la demande en mariage de son frère au sommet du Machu Picchu. Lorsque la proposition est gâchée par le chef Carlos, Katie sollicite son aide pour trouver l'endroit le plus romantique du Pérou.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1694164",
-      "type": "movie",
-      "name": "Le professeur toxique de mon fils",
-      "poster": "https://image.tmdb.org/t/p/w500/xBImJpDHty1ywGbUdTyEc8qdztn.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/u9pAygFe3cfeh3O2yMGm3X41rgl.jpg",
-      "description": "Emma et Ethan sont meilleurs amis et étudiants en psychologie. Ils admirent tous les deux le grand professeur Jackson qu'Andrea, la mère d'Ethan, a hâte de rencontrer. Mais l'opinion d'Andrea va être tout autre que celle des deux jeunes gens. Et lorsqu'Emma trouve la mort au domicile de Jackson, Andrea se met à avoir de sérieux soupçons à son sujet. Elle tente alors d'alerter à la fois la police et son fils, mais l'aura de Jackson est telle que, malgré les actes d'intimidation dont elle devient la victime, elle peine à se faire entendre. Qu'importe, elle n'abandonnera pas. D'autant moins qu'Ethan semble aspiré dans le vortex maléfique de Jackson.",
       "releaseInfo": "2026"
     }
   ]

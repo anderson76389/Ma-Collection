@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:341340",
+      "type": "series",
+      "name": "Verdun : 300 jours, 300 nuits",
+      "poster": "https://image.tmdb.org/t/p/w500/agZDLIwgr9dAnQnofsqP0yH8IDl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4PfZdchglaZgLIMDXQENUFCkGts.jpg",
+      "description": "En 1916, la bataille de Verdun fut l'une des plus longues et des plus meurtrières de la Première Guerre mondiale : retour sur ces 300 jours et 300 nuits.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:305935",
       "type": "series",
       "name": "Les Disparus des Argonnes",
@@ -166,15 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/LOYdGRtPCVrqkqP5R8O3gW5f3J.jpg",
       "background": "https://image.tmdb.org/t/p/w780/9AnqM0TJpscv1nXJbtlWExRQtgz.jpg",
       "description": "L’été s’annonce brûlant à Biarritz ! Le capitaine Alex Cerutti, flic à la PJ parisienne et ancien GO au Club Med, débarque en renfort pour la Haute Saison. La mer est bleue, le sable est chaud, pourtant ce ne sont pas des vacances. Chaque été, les crimes se multiplient par dix, transformant la côte en vaste terrain d’enquête.\n\nAux côtés de Lisa, Pascal, Mélusine et Timothée, une équipe venue d’un peu partout en France avec laquelle il vit en colocation dans un club de vacances, Alex va devoir résoudre des affaires inédites : un parapente saboté, un nudiste étranglé, quand ce ne sont pas des joueurs de pétanque suspects… Que ce soit la journée sur le terrain ou le soir au barbecue, pas une seconde de répit pour cette brigade hétéroclite mais complémentaire. La haute saison, ce ne sont pas les vacances !",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:320494",
-      "type": "series",
-      "name": "Les Enquêtes de Lady Grace",
-      "poster": "https://image.tmdb.org/t/p/w500/gFuywgTzxCB5fHkLcVFXm6o3IA2.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tscWaivOYe22wlbvMecIFXY1nG0.jpg",
-      "description": "L'histoire de Lady Grace Cavendish, la première détective adolescente, travaillant comme espionne privée pour la reine Elizabeth I et naviguant dans les eaux dangereuses de la politique royale, dans une cour anglaise pleine de complots, de menaces et de mystères.",
       "releaseInfo": "2026"
     }
   ]

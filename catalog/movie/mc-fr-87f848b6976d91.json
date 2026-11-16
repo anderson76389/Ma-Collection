@@ -19,12 +19,20 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1126097",
+      "type": "movie",
+      "name": "Charlie Harper",
+      "poster": "https://image.tmdb.org/t/p/w500/9Nf8Pluoi1JrT6S0qDsDMndFnlz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wNj3vgm13CyKb04xIq7NQ8zTY1e.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1503762",
       "type": "movie",
       "name": "Raison et Sentiments",
       "poster": "https://image.tmdb.org/t/p/w500/hpYHHl0P978F6AX5Xeew0fi2ryI.jpg",
       "background": "https://image.tmdb.org/t/p/w780/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg",
-      "description": "Une irrésistible nouvelle version du roman culte de Jane Austin, Raison et Sentiments, qui suit deux sœurs à travers leurs amours, leurs chagrins et le lien qui les unit d'une façon magistrale et profondément proche de nous.",
+      "description": "Une irrésistible nouvelle version du roman culte de Jane Austen, Raison et Sentiments, qui suit deux sœurs à travers leurs amours, leurs chagrins et le lien qui les unit d'une façon magistrale et profondément proche de nous.",
       "releaseInfo": "2026"
     },
     {
@@ -167,15 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/erKr74Xexw2OrkRJiFQW3Jnnub0.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ohUhHOqW8cM59Ay5UjqplLzJbH3.jpg",
       "description": "Après la mort de son frère, June s'installe à Milan pour repartir de zéro et trouve du réconfort en sortant avec Will, l'élève modèle de sa nouvelle école. Mais le meilleur ami de Will, James, adepte de combats clandestins de MMA, attise une rivalité qui se mue en attirance irrésistible. June doit alors choisir entre la sécurité et un amour qui remet en question tout ce qu'elle pensait vouloir.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1316092",
-      "type": "movie",
-      "name": "“Hurlevent”",
-      "poster": "https://image.tmdb.org/t/p/w500/yEa8UQA71rjKhCq04mATDNOIT2B.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xEc9tzMd1DETn0Zqv2psfBGO2pa.jpg",
-      "description": "Sur les landes balayées par le vent du Yorkshire, la passion dévorante entre Catherine Earnshaw et Heathcliff se transforme en une obsession destructrice, bouleversant leurs vies et celles de leur entourage.​",
       "releaseInfo": "2026"
     }
   ]

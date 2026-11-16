@@ -50,6 +50,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/qshuv46xb7nfMDJRY2RB0BRT4tQ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zvcDNLArN1LUGg9ip7vH5WAwki5.jpg",
       "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:334759",
+      "type": "series",
+      "name": "Sweet Deceit",
+      "poster": "https://image.tmdb.org/t/p/w500/vMiMuswOQS3ufdzfjKH8Df7tvc8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/160WLvcboP94lwnnOd2fN5T9Nrq.jpg",
+      "releaseInfo": "2026"
     }
   ]
 }

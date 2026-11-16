@@ -54,6 +54,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1046699",
+      "type": "movie",
+      "name": "Derrière les palmiers",
+      "poster": "https://image.tmdb.org/t/p/w500/47k5xBtbReL4lZKBNDUbT0hHWJa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/arA4ecprfdAYslXIBheiAOPm8ha.jpg",
+      "description": "À Tanger, Mehdi voit sa relation avec Selma bouleversée lorsqu’il rencontre Marie, une riche française dont les parents ont acheté une luxueuse villa dans la kasbah. Attiré par sa vie mondaine, il délaisse Selma, feignant d’ignorer que ses choix le rattraperont.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1318335",
       "type": "movie",
       "name": "Les Rayons et les Ombres",
@@ -117,6 +126,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1477170",
+      "type": "movie",
+      "name": "LOL 2.0",
+      "poster": "https://image.tmdb.org/t/p/w500/dNjZ6lQCVZMWAxKlqMVAlzGC5FQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jn3TWz4bq2UeEQSWFraoPagmc1f.jpg",
+      "description": "Anne profite enfin de sa liberté après le départ de ses enfants. Mais tout bascule quand sa fille Louise revient vivre chez elle après un échec professionnel et sentimental. Et comme une surprise n’arrive jamais seule, son fils Théo lui annonce qu’elle va devenir grand-mère ! Entre chocs générationnels, rêves en mutation et nouveaux élans amoureux … Anne comprend que la vie ne suit jamais tout à fait le plan prévu, et qu’à tout âge, on continue toujours d’apprendre à grandir.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1420742",
       "type": "movie",
       "name": "L'Infiltrée",
@@ -130,7 +148,7 @@
       "type": "movie",
       "name": "“Hurlevent”",
       "poster": "https://image.tmdb.org/t/p/w500/yEa8UQA71rjKhCq04mATDNOIT2B.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xEc9tzMd1DETn0Zqv2psfBGO2pa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2KArIXEUQbLuCYPnvPfQAZqnHpg.jpg",
       "description": "Sur les landes balayées par le vent du Yorkshire, la passion dévorante entre Catherine Earnshaw et Heathcliff se transforme en une obsession destructrice, bouleversant leurs vies et celles de leur entourage.​",
       "releaseInfo": "2026"
     },
@@ -159,24 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/f8YvGEaBf18dNV0TPL6puqH8JuP.jpg",
       "background": "https://image.tmdb.org/t/p/w780/lt7BVTAl7XL1uYYg8x6JI0LZWbb.jpg",
       "description": "Nino et Yasmina tombent amoureux dans la cour de leur école à Beyrouth, et rêvent à leur vie d’adulte, à un monde merveilleux. 20 ans plus tard, ils se retrouvent par accident et c’est à nouveau l’amour fou, magnétique, incandescent. Peut-on construire un avenir, dans un pays fracturé, qu’on tente de quitter mais qui vous retient de façon irrésistible ?",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1259983",
-      "type": "movie",
-      "name": "Gourou",
-      "poster": "https://image.tmdb.org/t/p/w500/ufdcPu8CdcsC0c73pATNjYXEmMR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/t77v17Y74eIQDSITsBHtiySOGPr.jpg",
-      "description": "Matt est le coach en développement personnel le plus suivi de France. Dans une société en quête de sens où la réussite individuelle est devenue sacrée, il propose à ses adeptes une catharsis qui électrise les foules autant qu'elle inquiète les autorités. Sous le feu des critiques, Matt va s'engager dans une fuite en avant qui le mènera aux frontières de la folie et peut-être de la gloire...",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1218412",
-      "type": "movie",
-      "name": "Promis le ciel",
-      "poster": "https://image.tmdb.org/t/p/w500/yJ013hlggkUTckwxYN5wGCIdycA.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4ybz4iMieWkfSPy9yB7yjAKxUqc.jpg",
-      "description": "Marie, pasteure ivoirienne et ancienne journaliste, vit à Tunis. Elle héberge Naney, une jeune mère en quête d'un avenir meilleur, et Jolie, une étudiante déterminée qui porte les espoirs de sa famille restée au pays. Quand les trois femmes recueillent Kenza, 4 ans, rescapée d'un naufrage, leur refuge se transforme en famille recomposée tendre mais intranquille dans un climat social de plus en plus préoccupant.",
       "releaseInfo": "2026"
     }
   ]

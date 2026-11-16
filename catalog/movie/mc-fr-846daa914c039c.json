@@ -10,6 +10,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1563627",
+      "type": "movie",
+      "name": "A Better Jianghu",
+      "poster": "https://image.tmdb.org/t/p/w500/350om1pKdv14AdTWxpwqEYR9WrS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6neOr2yjCdnVFUzI5xIOvo6sxuf.jpg",
+      "description": "Sous la dynastie des Song du Sud, deux individus — le lettré Shen Fang et le chevalier errant Luo Han — dérobent une somme considérable en argent au haut fonctionnaire Qin Hui afin de soutenir les rebelles luttant contre les Jin ; ils mettent au point un vaste stratagème pour contrer la garde impériale et rallier à leur cause des personnes issues de tous horizons.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1567937",
       "type": "movie",
       "name": "空枪",
@@ -155,14 +164,6 @@
       "name": "飞驰人生3",
       "poster": "https://image.tmdb.org/t/p/w500/fzkfI2LWgPEHiFOFW2JveqlAY3h.jpg",
       "background": "https://image.tmdb.org/t/p/w780/pCOzvvObjPUl55DpSNdgXxx3uMT.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1447971",
-      "type": "movie",
-      "name": "惊蛰无声",
-      "poster": "https://image.tmdb.org/t/p/w500/pKvogvxeYK0OhseQyLCmjcRRcWG.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nN3RRsmNcxXIH10gcKuBjQXeyo9.jpg",
       "releaseInfo": "2026"
     }
   ]

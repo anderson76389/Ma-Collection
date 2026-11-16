@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:314271",
+      "type": "series",
+      "name": "Bass X Machina",
+      "poster": "https://image.tmdb.org/t/p/w500/q7eWmFOfdHqm15YrKiYmR8XEVRx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ygjcwHWhhCaNPaPP965Du7eR2gO.jpg",
+      "description": "Dans un Far West steampunk sous la coupe des hors-la-loi, des machines et de forces surnaturelles, un père de famille doit se faire juge, juré et bourreau pour protéger les siens.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:314360",
       "type": "series",
       "name": "YAGA",
@@ -14,7 +23,7 @@
       "type": "series",
       "name": "VisionQuest",
       "poster": "https://image.tmdb.org/t/p/w500/bWPktguPGslrdM79SNQt4OWYyJS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/31o1Ufd7bStD5dGEcpzapOjwaqx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uoXXbN2PrOxH6UKyP7kYwmGpAAP.jpg",
       "description": "Une nouvelle version de Vision ayant échappé à ceux qui cherchaient à faire de lui une arme, vit dans la clandestinité. En quête d’un nouveau sens à sa vie, il consulte les IA intégrées à son programme, notamment Friday, Edith, Jarvis et le tristement célèbre Ultron. Son existence discrète prend fin lorsque sa tête est mise à prix, le contraignant à prendre la fuite avec Thomas Shepherd, un garçon mystérieux qui pourrait bien être la réincarnation du fils de Vision. Tout en échappant à ses poursuivants, Vision doit se confronter à sa propre nature, résister à l’influence d’Ultron et percer le mystère qui entoure son jeune compagnon s’il veut survivre.",
       "releaseInfo": "2026"
     },
@@ -76,7 +85,7 @@
       "type": "series",
       "name": "Lanterns",
       "poster": "https://image.tmdb.org/t/p/w500/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6gqezQJ2mkm4jreWwLyOZy2Vf6i.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wJjnJbVUwPz0GADAgpFt9nWtzUu.jpg",
       "description": "Deux flics intergalactiques, la nouvelle recrue John Stewart et le légendaire Hal Jordan, sont confrontés à un sombre mystère sur Terre alors qu’ils enquêtent sur un meurtre au fin fond de l’Amérique.",
       "releaseInfo": "2026"
     },
@@ -168,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/7gEIMYmGnr2sUjaBW7JEchuEfH.jpg",
       "background": "https://image.tmdb.org/t/p/w780/iftYIh1OjJb99EOTHIrDcx59zWb.jpg",
       "description": "Dans une communauté de retraités en apparence parfaite, des héros improbables doivent empêcher une menace d'un autre monde de leur voler la seule chose qu'ils n'ont pas : le temps.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:256695",
-      "type": "series",
-      "name": "Regular Show : Les cassettes oubliées",
-      "poster": "https://image.tmdb.org/t/p/w500/gZuwOtqQRPvLOhLV21qfaC3tIxS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/43Tu4TnFO57R6eK6XUBFGJrazrZ.jpg",
-      "description": "Mordecai, un geai bleu, et Rigby, un raton laveur, deux amis paresseux, travaillent dans un parc municipal. Mais, quoi qu'ils entreprennent, leurs tâches quotidiennes finissent invariablement par basculer dans un chaos totalement surréaliste, au grand désespoir de leur patron et de leurs collègues...",
       "releaseInfo": "2026"
     }
   ]
