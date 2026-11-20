@@ -41,6 +41,10 @@ async function buildPage({width,height}) {
 async function toBrowse(page) {
   await page.locator("#title-screen-import-all").click({timeout:15000});
   await page.waitForFunction(()=>document.querySelector("#customize-overlay")?.classList.contains("open"),{timeout:15000});
+  assert.equal(await page.locator('#cust-country option[value="US"]').textContent(),"🇺🇸 États-Unis");
+  assert.equal(await page.locator('#cust-country option[value="GB"]').textContent(),"🇬🇧 Royaume-Uni");
+  await page.locator('img.nv-card-img[alt="Découvrir la télé-réalité"]').first().waitFor({state:"attached"});
+  assert.match(await page.locator("#selected-folders-count").textContent(),/^\d+ sur \d+$/);
   await page.locator("#customize-close").click({timeout:15000});
   await page.waitForFunction(()=>!document.querySelector("#customize-overlay")?.classList.contains("open"),{timeout:10000});
   await page.evaluate(()=>{
