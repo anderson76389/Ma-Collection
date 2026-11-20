@@ -3511,7 +3511,7 @@ function applyLocaleDict(collections, localeDict) {
 let frenchCatalogLocalePromise = null;
 async function getFrenchCatalogLocale() {
   if (!frenchCatalogLocalePromise) {
-    frenchCatalogLocalePromise = fetch('locales/fr.json?v=15', { cache: 'no-cache' })
+    frenchCatalogLocalePromise = fetch('locales/fr.json?v=23', { cache: 'no-cache' })
       .then(async (res) => {
         if (!res.ok) throw new Error('Dictionnaire des catalogues français inaccessible (HTTP ' + res.status + ')');
         const dict = await res.json();
