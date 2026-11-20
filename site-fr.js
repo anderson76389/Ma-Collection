@@ -3,6 +3,7 @@
   "use strict";
   const dictionaries = ["locales/fr.json?v=22", "locales/site-fr.json?v=28"];
   const blocked = "script,style,noscript,code,pre,textarea,[contenteditable],[contenteditable='true'],img,picture,video,audio,source,track,canvas,svg,object,embed,iframe,[data-no-translate]";
+  const translatedPosters = "img[data-translate-alt]";
   const textAttributes = ["placeholder", "title", "aria-label", "data-tip"];
   const dict = Object.create(null);
 
@@ -87,6 +88,12 @@
   }
 
   function translateAttributes(el) {
+    if (el.matches(translatedPosters) && !el.closest("[data-no-translate]")) {
+      const title = el.getAttribute("alt");
+      const localized = translate(title);
+      if (localized !== null && localized !== title) el.setAttribute("alt", localized);
+      return;
+    }
     if (prohibited(el)) return;
     for (const attribute of textAttributes) {
       if (!el.hasAttribute(attribute)) continue;
@@ -94,11 +101,11 @@
       const result = translate(value);
       if (result !== null && result !== value) el.setAttribute(attribute, result);
     }
-    // Pas de modification de alt, src, srcset, poster, href, style ou data-*.
+    // Les URL et les attributs média ne sont pas traduits.
   }
 
   function visit(root) {
-    if (!root || prohibited(root)) return;
+    if (!root || (prohibited(root) && !root.matches?.(translatedPosters))) return;
     if (root.nodeType === 3) {
       translateTextNode(root);
       return;
@@ -107,7 +114,7 @@
     if (root.nodeType === 1) translateAttributes(root);
     const walker = document.createTreeWalker(root, NodeFilter.SHOW_ELEMENT | NodeFilter.SHOW_TEXT, {
       acceptNode(node) {
-        if (node.nodeType === 1 && prohibited(node)) return NodeFilter.FILTER_REJECT;
+        if (node.nodeType === 1 && prohibited(node) && !node.matches(translatedPosters)) return NodeFilter.FILTER_REJECT;
         return NodeFilter.FILTER_ACCEPT;
       }
     });

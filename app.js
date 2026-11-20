@@ -17,7 +17,7 @@ let activeDrawerFolder = null;
 
 // Bump this alongside the style.css?v=NN / app.js?v=NN cache-busters in index.html
 const MA_COLLECTION_VERSION = 'v0.92';
-const MA_COLLECTION_UPDATED = 'v0.92 • Sep 2026';
+const MA_COLLECTION_UPDATED = 'v0.92 • sept. 2026';
 
 // Newest entry first. Bump MA_COLLECTION_VERSION above whenever a new entry is added here —
 // the title-screen "what's new" banner compares a visitor's last-seen version against this list.
@@ -1521,7 +1521,7 @@ function renderFolderGrid() {
 
     card.innerHTML = `
       <div class="card-artwork-wrapper">
-        <img src="${baseImg}" class="card-cover-img" alt="${folder.title}" loading="lazy">
+        <img src="${baseImg}" class="card-cover-img" data-translate-alt alt="${folder.title}" loading="lazy">
         ${hoverMarkup}
       </div>
       <div class="card-overlay-gradient"></div>
@@ -2158,7 +2158,7 @@ function buildNuvioCard(folder, category, catIdx) {
     </div>`;
 
   card.innerHTML = `
-    <img class="nv-card-img" src="${imgSrc}" alt="${folder.title}" loading="lazy">
+    <img class="nv-card-img" src="${imgSrc}" data-translate-alt alt="${folder.title}" loading="lazy">
     ${gifHtml}
     <div class="nv-card-gradient"></div>
     <span class="nv-card-meta" title="${isOn ? stats.active + ' active source' + (stats.active !== 1 ? 's' : '') : ''}">${isOn ? stats.active : ''}</span>
@@ -2985,8 +2985,8 @@ function updateControlCenterStats() {
   const estBytes = (selectedFolders * 1350) + (selectedSources * 420) + 5120;
   const estSizeKB = (estBytes / 1024).toFixed(1);
 
-  setStatValue(document.getElementById('selected-folders-count'), `${selectedFolders} of ${totalFolders}`, false);
-  setStatValue(document.getElementById('selected-sources-count'), `${selectedSources} of ${totalSources}`, false);
+  setStatValue(document.getElementById('selected-folders-count'), `${selectedFolders} sur ${totalFolders}`, false);
+  setStatValue(document.getElementById('selected-sources-count'), `${selectedSources} sur ${totalSources}`, false);
   notifyAccountSave();
 }
 
