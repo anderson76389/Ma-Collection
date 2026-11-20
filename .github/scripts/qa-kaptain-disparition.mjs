@@ -9,7 +9,7 @@ import {isKaptainUrl} from '../../scripts/kaptain-url-policy.mjs';
 
 const base=process.env.MA_COLLECTION_TEST_BASE || 'http://127.0.0.1:8877/';
 const origin=new URL(base).origin;
-const browser=await chromium.launch({headless:true,args:['--no-sandbox']});
+const browser=await chromium.launch({executablePath:process.env.CHROME_PATH,headless:true,args:['--no-sandbox']});
 const context=await browser.newContext({viewport:{width:1360,height:900},acceptDownloads:true});
 const remote=[],upstream=[],errors=[];
 await context.route('**/*',async route=>{

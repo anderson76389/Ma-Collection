@@ -11,6 +11,7 @@
   <link rel="icon" type="image/svg+xml" href="assets/kovelyx-logo.svg">
   
   <link rel="stylesheet" href="style.css?v=96.3">
+  <link rel="stylesheet" href="accueil.css?v=1">
   <link rel="stylesheet" href="studio-avance.css?v=7">
   <link rel="stylesheet" href="custom-folders.css?v=2">
   <script src="scripts/migrate-storage.js?v=1"></script>
@@ -46,240 +47,81 @@
   </div>
 
   <!-- CINEMATIC TITLE SCREEN -->
-  <div id="title-screen-overlay" class="title-screen-overlay">
+  <div id="title-screen-overlay" class="title-screen-overlay mc-home-overlay">
     <button type="button" id="title-theme-toggle" class="theme-toggle-btn title-theme-toggle" aria-label="Changer le thème d'affichage" title="Changer de thème : sombre, clair, contraste élevé">
       <svg class="theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
       <svg class="theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 14.5A8.5 8.5 0 1 1 9.5 3 7 7 0 0 0 21 14.5z"/></svg>
       <svg class="theme-icon-contrast" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 0 1 0 20z" fill="currentColor"/></svg>
     </button>
-    <div class="title-screen-panel">
-      
-      <!-- HERO VIEWPORT (Stage 1) -->
-      <section class="title-hero-stage">
-        <span class="title-screen-eyebrow">Bienvenue dans</span>
-        <h1 class="title-screen-logo">Ma-<span>Collection</span></h1>
-        <p class="title-screen-tagline">La collection qui vous ressemble. Explorez et personnalisez vos catalogues français pour Kovelyx ou Nuvio.</p>
-        
-        <div id="title-screen-changelog" class="title-changelog" style="display:none;">
-          <button id="title-changelog-dismiss" class="title-changelog-dismiss" aria-label="Fermer les nouveautés">×</button>
-          <div class="title-changelog-head">✨ Nouveautés depuis votre dernière visite</div>
-          <ul id="title-changelog-list" class="title-changelog-list"></ul>
+    <div class="title-screen-panel mc-home">
+      <header class="mc-home-header">
+        <div class="mc-home-brand">
+          <img src="assets/kovelyx-logo.svg" alt="" width="42" height="42">
+          <span>Ma Collection</span>
         </div>
-        
-        <div class="title-screen-hero-layout">
-          <button id="title-screen-import-all" class="title-hero-primary-btn title-cta-primary" title="Personnalisez la collection, puis choisissez Kovelyx ou Nuvio">
-            <span class="hero-btn-icon">⚡</span>
-            <span class="hero-btn-text">Configurer ma collection</span>
-            <span class="hero-btn-arrow">→</span>
-          </button>
-          
-          <div class="title-hero-sub-row">
-            
-            <button id="title-screen-collection-only" class="title-hero-sub-btn title-hero-sub-quick" title="Préparer rapidement une collection pour Kovelyx ou Nuvio">
-              <span class="sub-btn-text">Envoi rapide</span>
-            </button>
+        <nav aria-label="Accès rapides">
+          <button type="button" id="home-search" class="mc-home-utility" aria-haspopup="dialog" aria-controls="command-palette-overlay" aria-keyshortcuts="Control+K Meta+K /">Rechercher <kbd>Ctrl K</kbd></button>
+          <button type="button" id="title-scroll-indicator" class="mc-home-utility">Outils</button>
+        </nav>
+      </header>
+
+      <section class="mc-home-intro" aria-labelledby="mc-home-title">
+        <div class="mc-home-intro-copy">
+          <h1 id="mc-home-title" class="title-screen-logo">Composez votre écran d’accueil.</h1>
+          <p class="title-screen-tagline">Choisissez vos catalogues de films et séries, organisez vos rangées, puis exportez la collection vers Kovelyx ou Nuvio.</p>
+          <div class="mc-home-actions">
+            <button type="button" id="title-screen-import-all" class="mc-home-primary">Configurer ma collection</button>
+            <button type="button" id="title-screen-collection-only" class="mc-home-secondary">Envoi rapide</button>
           </div>
         </div>
-        
-        <button type="button" id="title-tool-search" class="title-test-code-toggle" aria-haspopup="dialog" aria-controls="command-palette-overlay" aria-keyshortcuts="/">Rechercher un outil</button>
+        <div class="mc-home-preview" aria-hidden="true">
+          <div class="mc-home-preview-header"><span>Ma sélection</span><span>TV &amp; mobile</span></div>
+          <div class="mc-home-preview-row"><strong>À découvrir</strong><span></span><span></span><span></span></div>
+          <div class="mc-home-preview-row"><strong>Cinéma français</strong><span></span><span></span><span></span></div>
+          <div class="mc-home-preview-row"><strong>Mes genres</strong><span></span><span></span><span></span></div>
+        </div>
+      </section>
 
+      <aside id="title-screen-changelog" class="title-changelog" style="display:none;" aria-label="Nouveautés">
+        <button type="button" id="title-changelog-dismiss" class="title-changelog-dismiss" aria-label="Fermer les nouveautés">×</button>
+        <div class="title-changelog-head">Nouveautés depuis votre dernière visite</div>
+        <ul id="title-changelog-list" class="title-changelog-list"></ul>
+      </aside>
+
+      <section id="title-portfolio-showcase" class="mc-home-tools" aria-label="Outils de collection">
+        <div class="mc-home-tool-group">
+          <h2>Créer et modifier</h2>
+          <button type="button" id="title-screen-simple" class="mc-home-tool"><strong>Assistant de configuration</strong><span>Choisir ses genres, régions et plateformes.</span></button>
+          <button type="button" id="title-screen-customize" class="mc-home-tool"><strong>Éditeur rapide</strong><span>Activer ou masquer des dossiers.</span></button>
+          <button type="button" id="title-screen-start" class="mc-home-tool"><strong>Éditeur cinématique</strong><span>Réorganiser et prévisualiser les rangées.</span></button>
+        </div>
+        <div class="mc-home-tool-group">
+          <h2>Profils et export</h2>
+          <button type="button" id="title-screen-studio" class="mc-home-tool"><strong>Studio des profils</strong><span>Retrouver ses profils locaux, importer ou restaurer une sauvegarde.</span></button>
+          <button type="button" id="title-screen-restore" class="mc-home-tool"><strong>Reprendre une collection</strong><span>Importer et vérifier un fichier JSON Kovelyx ou Nuvio.</span></button>
+          <button type="button" id="title-screen-selfhost" class="mc-home-tool"><strong>AIO Metadata</strong><span>Exporter une configuration pour son instance.</span></button>
+          <button type="button" id="title-screen-bingecat" class="mc-home-tool"><strong>Bingecat</strong><span>Préparer une configuration pour cette extension facultative.</span></button>
+        </div>
+        <div class="mc-home-tool-group">
+          <h2>Aide et prise en main</h2>
+          <button type="button" id="title-screen-walkthrough" class="mc-home-tool"><strong>Visite guidée</strong><span>Découvrir le fonctionnement des rangées et de l’export.</span></button>
+          <button type="button" id="title-screen-faq" class="mc-home-tool"><strong>FAQ et guides de configuration</strong><span>Mettre à jour et importer une collection.</span></button>
+        </div>
+      </section>
+
+      <footer class="mc-home-footer">
         <div class="title-test-code" id="title-test-code">
-          <button type="button" id="title-test-code-toggle" class="title-test-code-toggle" aria-expanded="false" aria-controls="title-test-code-panel">
-            Vous avez un code de test ?
-          </button>
+          <button type="button" id="title-test-code-toggle" class="title-test-code-toggle" aria-expanded="false" aria-controls="title-test-code-panel">Vous avez un code de test ?</button>
           <div id="title-test-code-panel" class="title-test-code-panel" hidden>
-            <p class="title-test-code-lead">Saisissez le code indiqué dans l'annonce bêta pour tester une version en avant-première. La version publique reste inchangée.</p>
+            <p class="title-test-code-lead">Saisissez votre code pour ouvrir un aperçu.</p>
             <div class="title-test-code-row">
               <input type="text" id="title-test-code-input" class="title-test-code-input" placeholder="Saisir le code ici" autocomplete="off" spellcheck="false" maxlength="32" aria-label="Code de test">
               <button type="button" id="title-test-code-apply" class="title-test-code-apply">Déverrouiller</button>
             </div>
-            <p id="title-test-code-status" class="title-test-code-status" role="status" aria-live="polite"></p>
+            <p id="title-test-code-status" class="title-test-code-status" role="status"></p>
           </div>
         </div>
-
-        <!-- Illustration Ma-Collection -->
-        <div class="title-hero-logo-emblem">
-          <img src="assets/kovelyx-logo.svg" alt="Logo de Kovelyx" class="title-hero-logo-img" >
-        </div>
-
-        <!-- Scroll down indicator with slow bouncing chevron -->
-        <button type="button" id="title-scroll-indicator" class="title-scroll-indicator" aria-label="Faites défiler pour découvrir les fonctionnalités et outils">
-          <span class="scroll-ind-text">Faites défiler pour découvrir les fonctionnalités et outils</span>
-          <span class="scroll-ind-chevron">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-          </span>
-        </button>
-      </section>
-
-      <!-- PORTFOLIO SHOWCASE (Stage 2) -->
-      <section class="title-portfolio-showcase is-peeking" id="title-portfolio-showcase">
-        
-        <!-- SECTION 01: HELP & ONBOARDING -->
-        <div class="portfolio-section">
-          <div class="portfolio-sec-header">
-            <h3 class="portfolio-sec-title">Aide et prise en main</h3>
-            <span class="portfolio-sec-sub">Visites guidées interactives et documentation de configuration</span>
-          </div>
-          <div class="portfolio-grid grid-2">
-            
-            <div class="portfolio-card card-help" id="title-screen-walkthrough" role="button" tabindex="0">
-              <div class="port-card-inner">
-                <div class="port-card-meta">
-                  <div class="port-card-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
-                  </div>
-                  <span class="port-pill">Visite en 60 secondes</span>
-                </div>
-                <div class="port-card-content">
-                  <h4 class="port-card-title">Visite guidée</h4>
-                  <p class="port-card-desc">Découvrez rapidement le fonctionnement des dossiers, notes, filtres et de la synchronisation entre appareils.</p>
-                </div>
-                <div class="port-card-action">
-                  <span class="port-link">Démarrer la visite guidée <span class="arrow" aria-hidden="true">&rarr;</span></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-card card-help" id="title-screen-faq" role="button" tabindex="0">
-              <div class="port-card-inner">
-                <div class="port-card-meta">
-                  <div class="port-card-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
-                  </div>
-                  <span class="port-pill">Documentation et conseils</span>
-                </div>
-                <div class="port-card-content">
-                  <h4 class="port-card-title">FAQ et guides de configuration</h4>
-                  <p class="port-card-desc">Guides pour mettre à jour les catalogues, connecter Trakt, configurer les clés TMDB et résoudre les problèmes courants.</p>
-                </div>
-                <div class="port-card-action">
-                  <span class="port-link">Voir la documentation <span class="arrow" aria-hidden="true">&rarr;</span></span>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <!-- SECTION 02: CUSTOMIZATION STUDIO -->
-        <div class="portfolio-section">
-          <div class="portfolio-sec-header">
-            <h3 class="portfolio-sec-title">Atelier de personnalisation</h3>
-            <span class="portfolio-sec-sub">Adaptez les préréglages, choisissez vos dossiers ou partez de zéro</span>
-          </div>
-          <div class="portfolio-grid grid-4">
-            
-            
-
-            <div class="portfolio-card card-hero" id="title-screen-simple" role="button" tabindex="0">
-              <div class="port-card-inner">
-                <div class="port-card-meta">
-                  <div class="port-card-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
-                  </div>
-                  <span class="port-pill hero-pill">Recommandé</span>
-                </div>
-                <div class="port-card-content">
-                  <h4 class="port-card-title">Personnalisation guidée</h4>
-                  <p class="port-card-desc">Choisissez votre région, vos plateformes et vos genres grâce à une configuration guidée en français.</p>
-                  <div class="port-steps-preview">
-                    <span>Région</span> &bull; <span>Exclusions</span> &bull; <span>Catégories</span> &bull; <span>Streaming</span>
-                  </div>
-                </div>
-                <div class="port-card-action">
-                  <span class="port-btn-solid">Lancer l'assistant →</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-card card-custom" id="title-screen-customize" role="button" tabindex="0">
-              <div class="port-card-inner">
-                <div class="port-card-meta">
-                  <div class="port-card-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
-                  </div>
-                  <span class="port-pill">Réglages rapides</span>
-                </div>
-                <div class="port-card-content">
-                  <h4 class="port-card-title">Éditeur rapide</h4>
-                  <p class="port-card-desc">Vous connaissez déjà la collection ? Activez ou désactivez rapidement les dossiers avec un compteur en temps réel.</p>
-                </div>
-                <div class="port-card-action">
-                  <span class="port-link">Ouvrir la liste de sélection <span class="arrow" aria-hidden="true">&rarr;</span></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-card card-custom" id="title-screen-start" role="button" tabindex="0">
-              <div class="port-card-inner">
-                <div class="port-card-meta">
-                  <div class="port-card-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
-                  </div>
-                  <span class="port-pill">Avancé</span>
-                </div>
-                <div class="port-card-content">
-                  <h4 class="port-card-title">Éditeur cinématique</h4>
-                  <p class="port-card-desc">Personnalisez la disposition, réorganisez les dossiers par glisser-déposer et prévisualisez leurs visuels.</p>
-                </div>
-                <div class="port-card-action">
-                  <span class="port-link">Ouvrir l'éditeur <span class="arrow" aria-hidden="true">&rarr;</span></span>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <!-- SECTION 03: ADDONS & HOSTING -->
-        <div class="portfolio-section">
-          <div class="portfolio-sec-header">
-            <h3 class="portfolio-sec-title">Extensions et hébergement</h3>
-            <span class="portfolio-sec-sub">Accélérez les catalogues ou exportez les configurations pour vos instances auto-hébergées</span>
-          </div>
-          <div class="portfolio-grid grid-2">
-            
-            <div class="portfolio-card card-hosting" id="title-screen-bingecat" role="button" tabindex="0">
-              <div class="port-card-inner">
-                <div class="port-card-meta">
-                  <div class="port-card-mascot">
-                    <img src="assets/bingecat-logo.png" alt="Bingecat" class="port-bingecat-img">
-                  </div>
-                  <span class="port-pill amber-pill">Cache instantané</span>
-                </div>
-                <div class="port-card-content">
-                  <h4 class="port-card-title">Extension Bingecat</h4>
-                  <p class="port-card-desc">Accélérez le chargement des métadonnées grâce à la mise en cache et à la synchronisation.</p>
-                </div>
-                <div class="port-card-action">
-                  <span class="port-link amber-link">Configurer Bingecat <span class="arrow" aria-hidden="true">&rarr;</span></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-card card-hosting" id="title-screen-selfhost" role="button" tabindex="0">
-              <div class="port-card-inner">
-                <div class="port-card-meta">
-                  <div class="port-card-icon amber-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
-                  </div>
-                  <span class="port-pill amber-pill">AIO Metadata</span>
-                </div>
-                <div class="port-card-content">
-                  <h4 class="port-card-title">Configurations AIO Metadata</h4>
-                  <p class="port-card-desc">Exportez des configurations JSON et des manifestes prêts pour votre instance AIO Metadata auto-hébergée.</p>
-                </div>
-                <div class="port-card-action">
-                  <span class="port-link amber-link">Exporter les configurations <span class="arrow" aria-hidden="true">&rarr;</span></span>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-      </section>
-
+      </footer>
     </div>
   </div>
 
@@ -942,7 +784,7 @@
   <script src="scripts/catalog-utils.js?v=94.0"></script>
   <script src="catalog-labels-fr.js?v=1"></script>
   <script src="debrid-services.js?v=2"></script>
-  <script src="app.js?v=110.0"></script>
+  <script src="app.js?v=111.0"></script>
   <script src="kovelyx-export.js?v=12"></script>
   <script>window.MA_COLLECTION_ASSET_VERSION = 92.5;</script>
   <script src="wizard.js?v=101.2"></script>
@@ -950,8 +792,8 @@
   <script src="kovelyx-cloud-push.js?v=2"></script>
   <script src="site-fr.js?v=33.1"></script>
   <script src="import-studio.js?v=15"></script>
-  <script src="destination-picker.js?v=12"></script>
+  <script src="destination-picker.js?v=13"></script>
   <script src="custom-folders.js?v=2"></script>
-  <script type="module" src="studio-avance.js?v=8"></script>
+  <script type="module" src="studio-avance.js?v=9"></script>
 </body>
 </html>

@@ -363,10 +363,10 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
   }
   function close(){if(!root)return;root.hidden=true;document.removeEventListener('keydown',onEscape,true);}
   function onEscape(e){if(e.key==='Escape'&&!root.hidden){e.stopPropagation();close();}}
-  function open(){
+  function open(initialTab='organisation'){
     if(!data().length){if(typeof window.showToast==='function')window.showToast('Collections non chargées. Réessaie.','error');return;}
     if(!originals)originals=originalsFor(data());
-    load();draft=getBase();pickSection();tab='organisation';query='';message='';
+    load();draft=getBase();pickSection();tab=initialTab;query='';message='';
     artLookIndex=0;artSearch='';artMoreOnly=false;artNeedsAttention=false;showBatch=false;previewDevice='tv';globalQuery='';globalActiveOnly=false;globalNoCover=false;
     workshopSelected=new Set();workshopUndo=null;workshopSearch='';workshopSection='all';
     libraryQuery='';libraryFilter='all';libraryUndo=null;
@@ -1126,25 +1126,10 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       tab=b.dataset.tab;if(tab==='affiches'&&!selectedFolder)selectedFolder=section()?.folders[0]?.id;message='';draw();
     }));
   }
-  function insertCard(){
-    const anchor=document.getElementById('title-screen-start');
-    if(!anchor||document.getElementById('title-screen-studio'))return;
-    const card=document.createElement('div');
-    card.className='portfolio-card card-custom';card.id='title-screen-studio';
-    card.setAttribute('role','button');card.setAttribute('tabindex','0');
-    card.innerHTML='<div class="port-card-inner"><div class="port-card-meta">'+
-      '<div class="port-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="3"></rect><path d="M7 8h10M7 12h7M7 16h5"></path></svg></div>'+
-      '<span class="port-pill">Nouveau · avancé</span></div>'+
-      '<div class="port-card-content"><h4 class="port-card-title">Studio des profils</h4>'+
-      '<p class="port-card-desc">Sauvegardez plusieurs profils, classez vos sections, choisissez chaque affiche et personnalisez les sources.</p></div>'+
-      '<div class="port-card-action"><span class="port-link">Ouvrir le Studio <span class="arrow" aria-hidden="true">→</span></span></div></div>';
-    anchor.insertAdjacentElement('afterend',card);
-    card.addEventListener('click',open);
-    card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();open();}});
-  }
   function bootstrap(){
-    insertCard();
-    document.getElementById('se-studio')?.addEventListener('click',open);
+    document.getElementById('title-screen-studio')?.addEventListener('click',()=>open('profils'));
+    document.getElementById('title-screen-restore')?.addEventListener('click',()=>open('import-collection'));
+    document.getElementById('se-studio')?.addEventListener('click',()=>open());
     // Le bandeau cinématique est reconstruit à chaque navigation : délégation stable.
     document.addEventListener('click',e=>{
       if(e.target.closest('#preview-studio'))open();

@@ -220,7 +220,7 @@ assert.equal(collectionTranslations['Recent & New East Asian Releases'],"Nouveau
 assert.equal(collectionTranslations['Juicy Drama, Dating & Relationship'],'Conflits, rencontres et relations');
 assert.equal(collectionTranslations['US Cinéma'],'Cinéma latino-américain');
 
-const browser = await chromium.launch({ headless: true, args: ['--no-sandbox'] });
+const browser = await chromium.launch({ executablePath: process.env.CHROME_PATH, headless: true, args: ['--no-sandbox'] });
 const page = await browser.newPage({ viewport: { width: 1280, height: 850 } });
 const scriptErrors = [];
 const failedLocal = [];

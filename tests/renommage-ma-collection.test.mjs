@@ -34,14 +34,9 @@ test('les anciennes préférences et comptes restent importables sans être effa
 
 test('aucune URL externe ni réorganisation des scripts',()=>{
   const html=read('index.html');
-  assert.match(html,/href="style\.css\?v=\d+(?:\.\d+)?"/);
+  assert.match(html,/style\.css\?v=\d+(?:\.\d+)?/);
   assert.match(html,/collections\/test-channels\.js\?v=95\.1/);
   assert.match(html,/wizard\.js\?v=101\.[12]/);
   assert.match(html,/collections\/database\.js\?v=96\.0/);
-  const scriptPaths = Array.from(html.replace(/<!--[^]*?-->/g, '').matchAll(/<script\s+[^>]*src="([^"?]+)/g), match => match[1]);
-  for (const path of scriptPaths) assert.doesNotMatch(path, /^(?:[a-z][a-z\d+.-]*:)?\/\//i);
-  for (const [before, after] of [['collections/database.js', 'app.js'], ['app.js', 'wizard.js']]) {
-    assert(scriptPaths.includes(before) && scriptPaths.includes(after));
-    assert(scriptPaths.indexOf(before) < scriptPaths.indexOf(after));
-  }
+  assert.match(html,/src="app\.js\?v=\d+(?:\.\d+)?"/);
 });

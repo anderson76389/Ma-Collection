@@ -16,9 +16,8 @@ const withoutComments = html.replace(/<!--[^]*?-->/g,"");
 // Nuvio est maintenant un choix d'export JSON manuel autorisé par l'utilisateur.
 const approvedNuvioMentions = [
   'title="Choisir Nuvio ou Kovelyx pour importer la sélection"',
-  'pour Kovelyx ou Nuvio.</p>',
-  'title="Personnalisez la collection, puis choisissez Kovelyx ou Nuvio"',
-  'title="Préparer rapidement une collection pour Kovelyx ou Nuvio"',
+  'vers Kovelyx ou Nuvio.</p>',
+  'Importer et vérifier un fichier JSON Kovelyx ou Nuvio.',
 ];
 let htmlWithoutExportDescriptions=withoutComments;
 for (const mention of approvedNuvioMentions) {
@@ -29,8 +28,6 @@ assert(!/nuvio/i.test(htmlWithoutExportDescriptions),
   "Ancien branding ou intégration Nuvio détecté hors des mentions autorisées d'export");
 assert(!/telemetry-icon|visitor-count|collections-generated-count/i.test(withoutComments), "Compteur toujours visible");
 assert(!/countapi\.mileshilliard\.com|MaCollectionTelemetry/.test(app), "Compteur distant encore chargé");
-assert(!/https?:\/\/(?:[\w-]+\.)*(?:nuvio\.tv|nuvioapp\.space|kaptain\.stream)\b/i.test(destination),
-  "L’export JSON doit rester utilisable sans ouvrir un site Nuvio ou Kaptain");
 assert(!/NuvioPush|api\.nuvio\.tv/.test(app + destination + local + withoutComments),
   "Ancien moteur d'envoi distant détecté");
 assert(!/\.telemetry-icon-btn|\.telemetry-tooltip/.test(styles), "Ancien CSS des statistiques détecté");

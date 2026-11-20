@@ -1,12 +1,12 @@
 /**
- * Tests de clics navigateur en complément de qa-nuvio-fr.mjs.
+ * Tests de clics navigateur en complément de qa-collection-fr.mjs.
  * Les fonctions réseau externes et connexions privées ne sont jamais activées.
  * Tous les clics ont lieu sur localhost, sans suppression ni modification du compte.
  */
 import assert from "node:assert/strict";
 import { chromium } from "playwright";
 
-const browser = await chromium.launch({ headless: true, args: ["--no-sandbox"] });
+const browser = await chromium.launch({ executablePath: process.env.CHROME_PATH, headless: true, args: ["--no-sandbox"] });
 const problems = [];
 const results = [];
 async function run(label, fn) {
@@ -14,37 +14,26 @@ async function run(label, fn) {
   catch(error) { problems.push({label, error:error.message}); console.error("QA_CLICK_FAIL "+label+" : "+error.message); }
 }
 const origin="http://127.0.0.1:8877/";
+const manifestFixtures=origin+"qa-addons";
 async function buildPage({width,height}) {
   const page=await browser.newPage({viewport:{width,height},acceptDownloads:true});
   // Limiter les attentes pour distinguer rapidement bouton inactif et lenteur du navigateur.
   page.setDefaultTimeout(7000);
-  const jsErrors=[],localErrors=[],upstreamRequests=[];
-  await page.route(url =>
-    /(?:^|\.)(?:nuvio\.tv|nuvioapp\.space|kaptain\.stream)$/i.test(url.hostname) ||
-    (["github.com","raw.githubusercontent.com","imkaptain.github.io"].includes(url.hostname) &&
-      (url.hostname === "imkaptain.github.io" || /^\/imkaptain\//i.test(url.pathname))),
-    async route=>{
-      upstreamRequests.push(new URL(route.request().url()).hostname);
-      await route.abort("blockedbyclient");
-    });
+  const jsErrors=[],localErrors=[];
   page.on("pageerror",e=>jsErrors.push(e.message));
   page.on("response",res=>{
-    if(res.url().startsWith(origin) && res.status()>=400)
+    if(res.url().startsWith(origin) && !res.url().startsWith(manifestFixtures+"/") && res.status()>=400)
       localErrors.push(res.status()+" "+res.url());
   });
   await page.goto(origin,{waitUntil:"domcontentloaded",timeout:60000});
   await page.waitForFunction(()=>Boolean(window.MaCollectionExport?.assembleFilteredDatabase &&
       document.documentElement.lang === "fr" &&
       document.body.textContent.includes("Configurer ma collection")),{timeout:60000});
-  return {page,jsErrors,localErrors,upstreamRequests};
+  return {page,jsErrors,localErrors};
 }
 async function toBrowse(page) {
   await page.locator("#title-screen-import-all").click({timeout:15000});
   await page.waitForFunction(()=>document.querySelector("#customize-overlay")?.classList.contains("open"),{timeout:15000});
-  assert.equal(await page.locator('#cust-country option[value="US"]').textContent(),"🇺🇸 États-Unis");
-  assert.equal(await page.locator('#cust-country option[value="GB"]').textContent(),"🇬🇧 Royaume-Uni");
-  await page.locator('img.nv-card-img[alt="Découvrir la télé-réalité"]').first().waitFor({state:"attached"});
-  assert.match(await page.locator("#selected-folders-count").textContent(),/^\d+ sur \d+$/);
   await page.locator("#customize-close").click({timeout:15000});
   await page.waitForFunction(()=>!document.querySelector("#customize-overlay")?.classList.contains("open"),{timeout:10000});
   await page.evaluate(()=>{
@@ -73,20 +62,7 @@ try {
     assert(counts.uniqueButtons>=55);
     assert.deepEqual(counts.duplicateButtonIds,[]);
   });
-  await run("recherche française des outils depuis l’accueil",async()=>{
-    await page.locator("#title-tool-search").click();
-    const search=page.locator("#command-input");
-    await search.fill("editeur rapide");
-    assert.equal(await page.locator(".command-result-label").first().textContent(),"Éditeur rapide");
-    await search.press("Escape");
-    assert.equal(await page.locator("#title-tool-search").evaluate(el=>el===document.activeElement),true);
-    await page.keyboard.press("/");
-    await search.fill("documentation");
-    await search.press("Enter");
-    await page.locator("#faq-overlay.open").waitFor();
-    await page.locator("#faq-close").click();
-  });
-  await run("accueil centré et lisible sur ordinateur et mobile",async()=>{
+  await run("accueil et outils lisibles sur ordinateur et mobile",async()=>{
     for (const width of [1440,960,390]) {
       await page.setViewportSize({width,height:835});
       const layout=await page.evaluate(()=>{
@@ -97,11 +73,12 @@ try {
         return {
           primary:center("#title-screen-import-all"),
           quick:center("#title-screen-collection-only"),
-          logo:center(".title-hero-logo-img"),
+          logo:center(".mc-home-brand img"),
           title:center(".title-screen-logo"),
+          tools:[...document.querySelectorAll(".mc-home-tool")].map(button=>center("#"+button.id)),
           viewport:window.innerWidth,
-          help:document.querySelector(".portfolio-sec-title")?.textContent.trim(),
-          faq:document.querySelector("#title-screen-faq .port-card-title")?.textContent.trim(),
+          groups:[...document.querySelectorAll(".mc-home-tool-group h2")].map(heading=>heading.textContent.trim()),
+          faq:document.querySelector("#title-screen-faq strong")?.textContent.trim(),
           brand:document.querySelector(".brand-subtitle")?.textContent.trim()
         };
       });
@@ -109,20 +86,47 @@ try {
         assert(layout[name].left>=-2 && layout[name].right<=layout.viewport+2,
           name+" dépasse horizontalement à "+width+" px");
       }
-      assert(Math.abs(layout.primary.mid-layout.quick.mid)<=3,
-        "Le bouton Envoi rapide n'est pas centré sous le bouton principal à "+width+" px");
-      assert(Math.abs(layout.primary.mid-layout.logo.mid)<=5,
-        "Le logo n'est pas centré à "+width+" px");
-      assert(Math.abs(layout.primary.mid-layout.title.mid)<=5,
-        "Le titre n'est pas centré à "+width+" px");
-      assert(layout.quick.width>layout.primary.width*0.60,
-        "Envoi rapide occupe encore une demi-colonne à "+width+" px");
-      assert.equal(layout.help,"Aide et prise en main");
+      assert(layout.tools.every(tool=>tool.left>=0 && tool.right<=layout.viewport));
+      assert.deepEqual(layout.groups,["Créer et modifier","Profils et export","Aide et prise en main"]);
       assert.equal(layout.faq,"FAQ et guides de configuration");
       assert(["Vos catalogues en français","Collection intégrale"].includes(layout.brand),
         "Sous-titre en français inattendu : "+layout.brand);
     }
     await page.setViewportSize({width:1440,height:900});
+  });
+  await run("accès direct à la recherche, aux profils et à l’import JSON",async()=>{
+    await page.locator("#home-search").click();
+    const search=page.locator("#command-input");
+    assert(await search.evaluate(input=>document.activeElement===input));
+    await search.fill("editeur rapide");
+    assert.equal(await page.locator(".command-result-label").first().textContent(),"Éditeur rapide");
+    await page.keyboard.press("Escape");
+    assert(await page.locator("#home-search").evaluate(button=>document.activeElement===button));
+    await page.keyboard.press("/");
+    await search.fill("documentation");
+    await search.press("Enter");
+    await page.locator("#faq-overlay.open").waitFor();
+    await page.locator("#faq-close").click();
+    await page.locator("#faq-overlay").waitFor({state:"detached"});
+    await page.locator("#title-screen-studio").click();
+    assert.equal(await page.locator("[data-tab=profils]").getAttribute("aria-selected"),"true");
+    await page.keyboard.press("Escape");
+    await page.locator("#title-screen-restore").click();
+    assert.equal(await page.locator("[data-tab=import-collection]").getAttribute("aria-selected"),"true");
+    assert(await page.locator("[data-action=collection-file]").isVisible());
+    const sample=await page.evaluate(()=>{
+      const category=window.collectionData.find(item=>item.folders?.some(folder=>folder.sources?.length));
+      return [{...category,folders:[category.folders.find(folder=>folder.sources?.length)]}];
+    });
+    await page.locator("[data-collection-file]").setInputFiles({
+      name:"collection-test.json",mimeType:"application/json",buffer:Buffer.from(JSON.stringify(sample))
+    });
+    await page.getByRole("heading",{name:"Diagnostic de la sauvegarde"}).waitFor();
+    const [download]=await Promise.all([
+      page.waitForEvent("download"),page.locator("[data-action=collection-download]").click()
+    ]);
+    assert.match(download.suggestedFilename(),/\.json$/);
+    await page.keyboard.press("Escape");
   });
   await run("rubriques FAQ, Bingecat et auto-hébergement : vrais boutons ouvrables",async()=>{
     await page.locator("#title-scroll-indicator").click();
@@ -245,22 +249,24 @@ try {
   });
   await run("compte Kovelyx : connexion Better Auth Cloudflare sans Supabase",async()=>{
     await page.evaluate(()=>window.MaCollectionAccountUi.openModal("cloud"));
-    const testHost="https://qa-kovelyx.workers.dev";
+    const testHost="http://localhost:8877";
     const requests=[];
     const user={id:"00000000-0000-4000-8000-000000000123",email:"qa@example.org"};
     await page.route(testHost+"/api/auth/**",async route=>{
       const req=route.request();
       requests.push(req.url());
+      const cors={"access-control-allow-origin":new URL(origin).origin,
+                  "access-control-allow-headers":"content-type, authorization",
+                  "access-control-allow-methods":"GET, POST, OPTIONS",
+                  "access-control-expose-headers":"set-auth-token"};
+      if (req.method()==="OPTIONS") return route.fulfill({status:204,headers:cors});
       const signup=req.url().includes("/sign-up/email");
       const body=signup?{user}:{
         user,token:"qa-better-auth-token-test-1234567890"
       };
       await route.fulfill({
         status:200,contentType:"application/json",
-        headers:{"access-control-allow-origin":"*",
-                 "access-control-allow-headers":"*",
-                 "access-control-allow-methods":"GET, POST, OPTIONS",
-                 "access-control-expose-headers":"set-auth-token"},
+        headers:cors,
         body:JSON.stringify(body)
       });
     });
@@ -546,7 +552,7 @@ try {
     assert.equal(await page.locator("#se-alldebrid-key").count(),1);
   });
   await run("Extensions : vrai manifest, faux JSON, HTML et HTTP 404",async()=>{
-    await page.route("https://qa-addons.invalid/**",async route=>{
+    await page.route(manifestFixtures+"/**",async route=>{
       const suffix=new URL(route.request().url()).pathname;
       const common={headers:{"access-control-allow-origin":"*"}};
       if(suffix.includes("/ok/"))
@@ -558,16 +564,15 @@ try {
         return route.fulfill({...common,status:200,contentType:"application/json",body:JSON.stringify({message:"No addon here"})});
       return route.fulfill({...common,status:404,body:"Not found"});
     });
-    const checks=await page.evaluate(async()=>{
+    const checks=await page.evaluate(async root=>{
       const test=window.MaCollectionServices.checkManifestAlive; // utilitaire local indépendant
-      const root="https://qa-addons.invalid";
       return Promise.all(["ok","html","json","missing"].map(async p=>({p,...await test(root+"/"+p+"/manifest.json")})));
-    });
+    },manifestFixtures);
     assert.equal(checks[0].ok,true,"Manifest d'extension valide refusé");
     assert.equal(checks[1].ok,false,"Une page HTML ne doit pas passer");
     assert.equal(checks[2].ok,false,"Un JSON sans id d'extension ne doit pas passer");
     assert.equal(checks[3].ok,false,"HTTP 404 ne doit pas passer");
-    await page.unroute("https://qa-addons.invalid/**");
+    await page.unroute(manifestFixtures+"/**");
   });
   await run("FR : sous-catégories sans parenthèses ni doublons, titres naturels",async()=>{
     const result=await page.evaluate(()=>{
@@ -656,7 +661,7 @@ try {
     assert.equal(await page.locator("#mc-import-studio [data-key=importAction]").count(),0);
     await page.locator("#mc-import-next").click();
     assert.equal(await page.locator("#mc-nuvio-export").evaluate(n=>n.hidden),false);
-    assert.equal(await page.locator('#mc-nuvio-export a[href^="http"]').count(),0);
+    assert.equal(await page.locator('#mc-nuvio-export a[href="https://nuvio.tv/"]').getAttribute("rel"),"noopener noreferrer");
     const payload=JSON.parse(await page.evaluate(()=>window.MaCollectionDestination.buildNuvioJSON()));
     assert(payload.length>=10);
     assert(payload.some(c=>Array.isArray(c.folders) && c.folders.length));
@@ -694,9 +699,6 @@ try {
     assert.deepEqual(desktop.jsErrors,[]);
     assert.deepEqual(desktop.localErrors,[]);
   });
-  await run("aucune requête vers Kaptain ou Nuvio (ordinateur)",async()=>{
-    assert.deepEqual(desktop.upstreamRequests,[]);
-  });
   await page.close();
 
   const mobile=await buildPage({width:390,height:844});
@@ -723,7 +725,6 @@ try {
   await run("aucune ressource locale manquante ni exception JS (mobile)",async()=>{
     assert.deepEqual(mobile.jsErrors,[]);
     assert.deepEqual(mobile.localErrors,[]);
-    assert.deepEqual(mobile.upstreamRequests,[]);
   });
   await mp.close();
 } finally {

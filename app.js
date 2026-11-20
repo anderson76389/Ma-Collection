@@ -4231,11 +4231,6 @@ function bindGlobalEvents() {
 
   // Title screen actions
   document.getElementById('title-changelog-dismiss')?.addEventListener('click', dismissChangelogBanner);
-  // The walkthrough and manual-build routes are real but rare — folded behind
-  // a disclosure so a first-timer weighs two choices, not four.
-  const moreToggle = document.getElementById('title-more-toggle');
-  const morePanel = document.getElementById('title-more-panel');
-  const titleOverlay = document.getElementById('title-screen-overlay');
   const showcase = document.getElementById('title-portfolio-showcase');
   const scrollIndicator = document.getElementById('title-scroll-indicator');
 
@@ -4244,35 +4239,6 @@ function bindGlobalEvents() {
       showcase.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   }
-
-  if (titleOverlay && showcase) {
-    const handleTitleScroll = () => {
-      if (titleOverlay.scrollTop > 30) {
-        showcase.classList.remove('is-peeking');
-      } else {
-        showcase.classList.add('is-peeking');
-      }
-    };
-    titleOverlay.addEventListener('scroll', handleTitleScroll, { passive: true });
-    showcase.addEventListener('mouseenter', () => {
-      showcase.classList.remove('is-peeking');
-    });
-    showcase.addEventListener('mouseleave', () => {
-      if (titleOverlay.scrollTop <= 30) {
-        showcase.classList.add('is-peeking');
-      }
-    });
-  }
-
-  // Keyboard support (Enter / Space) for portfolio cards
-  document.querySelectorAll('.portfolio-card').forEach((card) => {
-    card.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        card.click();
-      }
-    });
-  });
 
   document.getElementById('title-screen-walkthrough')?.addEventListener('click', () => {
     hideTitleScreen();
@@ -5272,6 +5238,7 @@ function _buildCommandRegistry() {
     ['title-screen-customize', 'Éditeur rapide', ['dossiers', 'sélection']],
     ['title-screen-start', 'Éditeur cinématique', ['aperçu', 'télévision', 'mobile']],
     ['title-screen-studio', 'Studio des profils', ['affiches', 'sections', 'brouillon']],
+    ['title-screen-restore', 'Reprendre une collection', ['sauvegarde', 'restaurer', 'fichier JSON']],
     ['title-screen-collection-only', 'Envoi rapide', ['export', 'importer', 'Kovelyx']],
     ['title-screen-walkthrough', 'Visite guidée', ['aide', 'démarrer']],
     ['title-screen-faq', 'FAQ et guides de configuration', ['documentation', 'aide']],
@@ -5416,7 +5383,7 @@ document.addEventListener('DOMContentLoaded', () => {
     else if (e.key === 'Enter' && e.target.id === 'command-input') { e.preventDefault(); document.querySelector('.command-result.highlighted')?.click(); }
   });
 
-  document.getElementById('title-tool-search')?.addEventListener('click', openCommandPalette);
+  document.getElementById('home-search')?.addEventListener('click', openCommandPalette);
   const cmdInput = document.getElementById('command-input');
   if (cmdInput) cmdInput.addEventListener('input', () => { _cmdResultsCache = _renderCommandResults(cmdInput.value); });
 
