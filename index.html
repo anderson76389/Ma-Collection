@@ -10,7 +10,7 @@
   <meta name="author" content="Ma-Collection">
   <link rel="icon" type="image/svg+xml" href="assets/kovelyx-logo.svg">
   
-  <link rel="stylesheet" href="style.css?v=96.2">
+  <link rel="stylesheet" href="style.css?v=96.3">
   <link rel="stylesheet" href="studio-avance.css?v=7">
   <link rel="stylesheet" href="custom-folders.css?v=2">
   <script src="scripts/migrate-storage.js?v=1"></script>
@@ -81,6 +81,8 @@
           </div>
         </div>
         
+        <button type="button" id="title-tool-search" class="title-test-code-toggle" aria-haspopup="dialog" aria-controls="command-palette-overlay" aria-keyshortcuts="/">Rechercher un outil</button>
+
         <div class="title-test-code" id="title-test-code">
           <button type="button" id="title-test-code-toggle" class="title-test-code-toggle" aria-expanded="false" aria-controls="title-test-code-panel">
             Vous avez un code de test ?
@@ -714,10 +716,10 @@
 
   <!-- FEATURE C: COMMAND PALETTE -->
   <div id="command-palette-overlay" class="command-palette-overlay" hidden>
-    <div class="command-palette-panel" role="dialog" aria-label="Palette de commandes">
+    <div class="command-palette-panel" role="dialog" aria-label="Rechercher dans Ma-Collection">
       <div class="command-input-row">
         <svg class="command-input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" style="width:16px;height:16px;"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        <input id="command-input" class="command-input" placeholder="Accéder à une catégorie, un dossier ou une action…" autocomplete="off" spellcheck="false">
+        <input id="command-input" class="command-input" aria-label="Rechercher un outil ou une catégorie" placeholder="Ex. studio, genres, export…" autocomplete="off" spellcheck="false">
         <span class="command-kbd-hint">Échap pour fermer</span>
       </div>
       <div id="command-results" class="command-results"></div>
@@ -940,7 +942,7 @@
   <script src="scripts/catalog-utils.js?v=94.0"></script>
   <script src="catalog-labels-fr.js?v=1"></script>
   <script src="debrid-services.js?v=2"></script>
-  <script src="app.js?v=109.1"></script>
+  <script src="app.js?v=110.0"></script>
   <script src="kovelyx-export.js?v=12"></script>
   <script>window.MA_COLLECTION_ASSET_VERSION = 92.5;</script>
   <script src="wizard.js?v=101.2"></script>

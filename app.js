@@ -5263,38 +5263,66 @@ function handleImportToKovelyxClick() {
 
 let _commandPaletteOpen = false;
 let _commandHighlightIdx = 0;
+let commandTrigger = null;
 
 function _buildCommandRegistry() {
+  const onHome = document.getElementById('title-screen-overlay')?.classList.contains('active');
+  const tools = [
+    ['title-screen-import-all', 'Configurer ma collection', ['assistant', 'région', 'filtres']],
+    ['title-screen-customize', 'Éditeur rapide', ['dossiers', 'sélection']],
+    ['title-screen-start', 'Éditeur cinématique', ['aperçu', 'télévision', 'mobile']],
+    ['title-screen-studio', 'Studio des profils', ['affiches', 'sections', 'brouillon']],
+    ['title-screen-collection-only', 'Envoi rapide', ['export', 'importer', 'Kovelyx']],
+    ['title-screen-walkthrough', 'Visite guidée', ['aide', 'démarrer']],
+    ['title-screen-faq', 'FAQ et guides de configuration', ['documentation', 'aide']],
+    ['title-screen-selfhost', 'Exporter pour AIO Metadata', ['auto-hébergement', 'JSON']],
+    ['title-screen-bingecat', 'Configurer Bingecat', ['extension', 'cache']],
+  ];
   const reg = [];
+  if (onHome) {
+    for (const [id, label, keywords] of tools) {
+      const control = document.getElementById(id);
+      if (control) reg.push({ label, keywords, group: 'Outils', action: () => control.click() });
+    }
+  }
   database.forEach((cat, i) => {
     reg.push({
-      label: `Go to ${cat.title}`,
-      keywords: [cat.title.toLowerCase(), 'go', 'jump'],
-      icon: cat.icon || '📁', group: 'Navigate',
-      action: () => { switchCategory(i); closeSidebar(); }
+      label: cat.title || 'Catégorie',
+      keywords: ['catégorie', 'section'],
+      icon: '📁', group: 'Catégories',
+      action: () => {
+        if (onHome) { hideTitleScreen(); jumpToCategory(i); }
+        else switchCategory(i);
+        closeSidebar();
+      }
     });
   });
-  reg.push({ label: 'Select All in this section', keywords: ['select', 'all', 'check'], icon: '✓', group: 'Selection', action: () => { toggleCategorySelection(currentCategoryIdx, true); renderCategoryActions(); renderFolderGrid(); updateControlCenterStats(); } });
-  reg.push({ label: 'Select None in this section', keywords: ['none', 'uncheck', 'deselect', 'clear', 'remove'], icon: '○', group: 'Selection', action: () => { toggleCategorySelection(currentCategoryIdx, false); renderCategoryActions(); renderFolderGrid(); updateControlCenterStats(); } });
-  reg.push({ label: 'View: Rows', keywords: ['view', 'rows', 'layout', 'tv'], icon: '▬', group: 'View', action: () => { const s = document.getElementById('viewmode-select'); if (s) { s.value = 'ROWS'; s.dispatchEvent(new Event('change')); } } });
-  reg.push({ label: 'View: Tabbed Grid', keywords: ['view', 'tabbed', 'grid', 'mobile', 'phone'], icon: '▦', group: 'View', action: () => { const s = document.getElementById('viewmode-select'); if (s) { s.value = 'TABBED_GRID'; s.dispatchEvent(new Event('change')); } } });
-  reg.push({ label: 'View: Auto', keywords: ['view', 'auto'], icon: '⊞', group: 'View', action: () => { const s = document.getElementById('viewmode-select'); if (s) { s.value = 'FOLLOW_LAYOUT'; s.dispatchEvent(new Event('change')); } } });
-  reg.push({ label: 'Sort: Custom order', keywords: ['sort', 'custom'], icon: '↕', group: 'Sort', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'custom'; s.dispatchEvent(new Event('change')); } } });
-  reg.push({ label: 'Sort: Popular first', keywords: ['sort', 'popular', 'popularity'], icon: '★', group: 'Sort', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'popular'; s.dispatchEvent(new Event('change')); } } });
-  reg.push({ label: 'Sort: A–Z', keywords: ['sort', 'alphabetical', 'a-z', 'az'], icon: 'A', group: 'Sort', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'az'; s.dispatchEvent(new Event('change')); } } });
-  reg.push({ label: 'Sort: Selected first', keywords: ['sort', 'selected', 'checked', 'first'], icon: '★', group: 'Sort', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'selected'; s.dispatchEvent(new Event('change')); } } });
+  if (onHome) return reg;
+  reg.push({ label: 'Tout sélectionner dans cette section', keywords: ['select', 'all', 'check'], icon: '✓', group: 'Sélection', action: () => { toggleCategorySelection(currentCategoryIdx, true); renderCategoryActions(); renderFolderGrid(); updateControlCenterStats(); } });
+  reg.push({ label: 'Tout désélectionner dans cette section', keywords: ['none', 'uncheck', 'deselect', 'clear', 'remove'], icon: '○', group: 'Sélection', action: () => { toggleCategorySelection(currentCategoryIdx, false); renderCategoryActions(); renderFolderGrid(); updateControlCenterStats(); } });
+  reg.push({ label: 'Affichage en rangées', keywords: ['view', 'rows', 'layout', 'tv'], icon: '▬', group: 'Affichage', action: () => { const s = document.getElementById('viewmode-select'); if (s) { s.value = 'ROWS'; s.dispatchEvent(new Event('change')); } } });
+  reg.push({ label: 'Affichage en grille à onglets', keywords: ['view', 'tabbed', 'grid', 'mobile', 'phone'], icon: '▦', group: 'Affichage', action: () => { const s = document.getElementById('viewmode-select'); if (s) { s.value = 'TABBED_GRID'; s.dispatchEvent(new Event('change')); } } });
+  reg.push({ label: 'Affichage automatique', keywords: ['view', 'auto'], icon: '⊞', group: 'Affichage', action: () => { const s = document.getElementById('viewmode-select'); if (s) { s.value = 'FOLLOW_LAYOUT'; s.dispatchEvent(new Event('change')); } } });
+  reg.push({ label: 'Tri personnalisé', keywords: ['sort', 'custom'], icon: '↕', group: 'Tri', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'custom'; s.dispatchEvent(new Event('change')); } } });
+  reg.push({ label: 'Trier par popularité', keywords: ['sort', 'popular', 'popularity'], icon: '★', group: 'Tri', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'popular'; s.dispatchEvent(new Event('change')); } } });
+  reg.push({ label: 'Trier de A à Z', keywords: ['sort', 'alphabetical', 'a-z', 'az'], icon: 'A', group: 'Tri', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'az'; s.dispatchEvent(new Event('change')); } } });
+  reg.push({ label: 'Afficher la sélection en premier', keywords: ['sort', 'selected', 'checked', 'first'], icon: '★', group: 'Tri', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'selected'; s.dispatchEvent(new Event('change')); } } });
   reg.push({ label: 'Importer dans Kovelyx', keywords: ['kovelyx', 'importer', 'envoi'], icon: '📡', group: 'Actions', action: () => handleImportToKovelyxClick() });
-  reg.push({ label: 'Save File', keywords: ['save', 'download', 'export', 'file'], icon: '💾', group: 'Actions', action: () => document.getElementById('btn-compile-download')?.click() });
-  reg.push({ label: 'Export for Bingecat', keywords: ['bingecat', 'export', 'addon', 'cat'], icon: '🐱', group: 'Actions', action: () => exportForBingecat() });
-  reg.push({ label: 'Start walkthrough', keywords: ['tour', 'walkthrough', 'guide', 'help', 'replay', 'walk'], icon: '?', group: 'Actions', action: () => document.getElementById('btn-replay-tour')?.click() });
+  reg.push({ label: 'Télécharger le fichier', keywords: ['save', 'download', 'export', 'file'], icon: '💾', group: 'Actions', action: () => document.getElementById('btn-compile-download')?.click() });
+  reg.push({ label: 'Exporter pour Bingecat', keywords: ['bingecat', 'export', 'addon', 'cat'], icon: '🐱', group: 'Actions', action: () => exportForBingecat() });
+  reg.push({ label: 'Lancer la visite guidée', keywords: ['tour', 'walkthrough', 'guide', 'help', 'replay', 'walk'], icon: '?', group: 'Actions', action: () => document.getElementById('btn-replay-tour')?.click() });
   return reg;
 }
 
+function normalizeCommandText(value) {
+  return value.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().trim();
+}
+
 function _fuzzyScore(query, cmd) {
-  const q = query.toLowerCase().trim();
+  const q = normalizeCommandText(query);
   if (!q) return 1;
-  const label = cmd.label.toLowerCase();
-  const kws = (cmd.keywords || []).join(' ');
+  const label = normalizeCommandText(cmd.label);
+  const kws = normalizeCommandText((cmd.keywords || []).join(' '));
   if (label.startsWith(q)) return 4;
   if (label.includes(q)) return 3;
   if (kws.includes(q)) return 2;
@@ -5315,7 +5343,7 @@ function _renderCommandResults(query) {
     .map(x => x.cmd);
 
   if (!results.length) {
-    container.innerHTML = '<div style="padding:14px 18px;color:var(--text-dark);font-size:0.85rem;">No commands match that.</div>';
+    container.innerHTML = '<div style="padding:14px 18px;color:var(--text-dark);font-size:0.85rem;">Aucun résultat pour cette recherche.</div>';
     _commandHighlightIdx = 0;
     return;
   }
@@ -5327,7 +5355,7 @@ function _renderCommandResults(query) {
       html += `<div class="command-group-label">${cmd.group}</div>`;
       lastGroup = cmd.group;
     }
-    html += `<div class="command-result${i === 0 ? ' highlighted' : ''}" data-idx="${i}"><span class="command-result-icon">${cmd.icon || '·'}</span><span class="command-result-label">${cmd.label}</span></div>`;
+    html += `<button type="button" class="command-result${i === 0 ? ' highlighted' : ''}"><span class="command-result-icon" aria-hidden="true">${cmd.icon || '·'}</span><span class="command-result-label">${escapeHtml(cmd.label)}</span></button>`;
   });
   container.innerHTML = html;
   container.querySelectorAll('.command-result').forEach((el, i) => {
@@ -5347,10 +5375,11 @@ function _setCommandHighlight(idx) {
 
 function openCommandPalette() {
   if (_commandPaletteOpen) return;
-  _commandPaletteOpen = true;
   const overlay = document.getElementById('command-palette-overlay');
   const input = document.getElementById('command-input');
   if (!overlay) return;
+  _commandPaletteOpen = true;
+  commandTrigger = document.activeElement;
   overlay.hidden = false;
   if (input) { input.value = ''; input.focus(); }
   _cmdResultsCache = _renderCommandResults('');
@@ -5360,6 +5389,8 @@ function closeCommandPalette() {
   _commandPaletteOpen = false;
   const overlay = document.getElementById('command-palette-overlay');
   if (overlay) overlay.hidden = true;
+  commandTrigger?.focus();
+  commandTrigger = null;
 }
 
 function _isInputFocused() {
@@ -5371,7 +5402,8 @@ document.addEventListener('DOMContentLoaded', () => {
   document.addEventListener('keydown', (e) => {
     const cmdK = (e.metaKey || e.ctrlKey) && e.key === 'k';
     const bareK = e.key === 'k' && !_isInputFocused() && !e.metaKey && !e.ctrlKey && !e.altKey;
-    if (cmdK || bareK) {
+    const slash = e.key === '/' && !_isInputFocused() && !e.metaKey && !e.ctrlKey && !e.altKey;
+    if (cmdK || bareK || slash) {
       e.preventDefault();
       _commandPaletteOpen ? closeCommandPalette() : openCommandPalette();
       return;
@@ -5379,11 +5411,12 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!_commandPaletteOpen) return;
     if (e.key === 'Escape') { closeCommandPalette(); return; }
     const results = document.querySelectorAll('.command-result');
-    if (e.key === 'ArrowDown') { e.preventDefault(); _setCommandHighlight(Math.min(_commandHighlightIdx + 1, results.length - 1)); }
+    if (e.key === 'ArrowDown' && results.length) { e.preventDefault(); _setCommandHighlight(Math.min(_commandHighlightIdx + 1, results.length - 1)); }
     else if (e.key === 'ArrowUp') { e.preventDefault(); _setCommandHighlight(Math.max(_commandHighlightIdx - 1, 0)); }
-    else if (e.key === 'Enter') { e.preventDefault(); document.querySelector('.command-result.highlighted')?.click(); }
+    else if (e.key === 'Enter' && e.target.id === 'command-input') { e.preventDefault(); document.querySelector('.command-result.highlighted')?.click(); }
   });
 
+  document.getElementById('title-tool-search')?.addEventListener('click', openCommandPalette);
   const cmdInput = document.getElementById('command-input');
   if (cmdInput) cmdInput.addEventListener('input', () => { _cmdResultsCache = _renderCommandResults(cmdInput.value); });
 

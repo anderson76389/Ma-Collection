@@ -73,6 +73,19 @@ try {
     assert(counts.uniqueButtons>=55);
     assert.deepEqual(counts.duplicateButtonIds,[]);
   });
+  await run("recherche française des outils depuis l’accueil",async()=>{
+    await page.locator("#title-tool-search").click();
+    const search=page.locator("#command-input");
+    await search.fill("editeur rapide");
+    assert.equal(await page.locator(".command-result-label").first().textContent(),"Éditeur rapide");
+    await search.press("Escape");
+    assert.equal(await page.locator("#title-tool-search").evaluate(el=>el===document.activeElement),true);
+    await page.keyboard.press("/");
+    await search.fill("documentation");
+    await search.press("Enter");
+    await page.locator("#faq-overlay.open").waitFor();
+    await page.locator("#faq-close").click();
+  });
   await run("accueil centré et lisible sur ordinateur et mobile",async()=>{
     for (const width of [1440,960,390]) {
       await page.setViewportSize({width,height:835});
