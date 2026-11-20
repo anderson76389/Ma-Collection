@@ -18,7 +18,15 @@ async function buildPage({width,height}) {
   const page=await browser.newPage({viewport:{width,height},acceptDownloads:true});
   // Limiter les attentes pour distinguer rapidement bouton inactif et lenteur du navigateur.
   page.setDefaultTimeout(7000);
-  const jsErrors=[],localErrors=[];
+  const jsErrors=[],localErrors=[],upstreamRequests=[];
+  await page.route(url =>
+    /(?:^|\.)(?:nuvio\.tv|nuvioapp\.space|kaptain\.stream)$/i.test(url.hostname) ||
+    (["github.com","raw.githubusercontent.com","imkaptain.github.io"].includes(url.hostname) &&
+      (url.hostname === "imkaptain.github.io" || /^\/imkaptain\//i.test(url.pathname))),
+    async route=>{
+      upstreamRequests.push(new URL(route.request().url()).hostname);
+      await route.abort("blockedbyclient");
+    });
   page.on("pageerror",e=>jsErrors.push(e.message));
   page.on("response",res=>{
     if(res.url().startsWith(origin) && res.status()>=400)
@@ -28,11 +36,15 @@ async function buildPage({width,height}) {
   await page.waitForFunction(()=>Boolean(window.MaCollectionExport?.assembleFilteredDatabase &&
       document.documentElement.lang === "fr" &&
       document.body.textContent.includes("Configurer ma collection")),{timeout:60000});
-  return {page,jsErrors,localErrors};
+  return {page,jsErrors,localErrors,upstreamRequests};
 }
 async function toBrowse(page) {
   await page.locator("#title-screen-import-all").click({timeout:15000});
   await page.waitForFunction(()=>document.querySelector("#customize-overlay")?.classList.contains("open"),{timeout:15000});
+  assert.equal(await page.locator('#cust-country option[value="US"]').textContent(),"🇺🇸 États-Unis");
+  assert.equal(await page.locator('#cust-country option[value="GB"]').textContent(),"🇬🇧 Royaume-Uni");
+  await page.locator('img.nv-card-img[alt="Découvrir la télé-réalité"]').first().waitFor({state:"attached"});
+  assert.match(await page.locator("#selected-folders-count").textContent(),/^\d+ sur \d+$/);
   await page.locator("#customize-close").click({timeout:15000});
   await page.waitForFunction(()=>!document.querySelector("#customize-overlay")?.classList.contains("open"),{timeout:10000});
   await page.evaluate(()=>{
@@ -631,7 +643,7 @@ try {
     assert.equal(await page.locator("#mc-import-studio [data-key=importAction]").count(),0);
     await page.locator("#mc-import-next").click();
     assert.equal(await page.locator("#mc-nuvio-export").evaluate(n=>n.hidden),false);
-    assert.equal(await page.locator('#mc-nuvio-export a[href="https://nuvio.tv/"]').getAttribute("rel"),"noopener noreferrer");
+    assert.equal(await page.locator('#mc-nuvio-export a[href^="http"]').count(),0);
     const payload=JSON.parse(await page.evaluate(()=>window.MaCollectionDestination.buildNuvioJSON()));
     assert(payload.length>=10);
     assert(payload.some(c=>Array.isArray(c.folders) && c.folders.length));
@@ -669,6 +681,9 @@ try {
     assert.deepEqual(desktop.jsErrors,[]);
     assert.deepEqual(desktop.localErrors,[]);
   });
+  await run("aucune requête vers Kaptain ou Nuvio (ordinateur)",async()=>{
+    assert.deepEqual(desktop.upstreamRequests,[]);
+  });
   await page.close();
 
   const mobile=await buildPage({width:390,height:844});
@@ -695,6 +710,7 @@ try {
   await run("aucune ressource locale manquante ni exception JS (mobile)",async()=>{
     assert.deepEqual(mobile.jsErrors,[]);
     assert.deepEqual(mobile.localErrors,[]);
+    assert.deepEqual(mobile.upstreamRequests,[]);
   });
   await mp.close();
 } finally {

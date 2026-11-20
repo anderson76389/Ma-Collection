@@ -8,27 +8,27 @@
   const STEP_NAMES = ['Region & Lang', 'Filters', 'Categories', 'Streaming', 'Networks'];
   
   const REGION_OPTIONS = [
-    { code: 'US', flag: '🇺🇸', label: 'United States' },
-    { code: 'GB', flag: '🇬🇧', label: 'United Kingdom' },
+    { code: 'US', flag: '🇺🇸', label: 'États-Unis' },
+    { code: 'GB', flag: '🇬🇧', label: 'Royaume-Uni' },
     { code: 'CA', flag: '🇨🇦', label: 'Canada' },
-    { code: 'AU', flag: '🇦🇺', label: 'Australia' },
-    { code: 'NZ', flag: '🇳🇿', label: 'New Zealand' },
-    { code: 'IE', flag: '🇮🇪', label: 'Ireland' },
-    { code: 'DE', flag: '🇩🇪', label: 'Germany' },
+    { code: 'AU', flag: '🇦🇺', label: 'Australie' },
+    { code: 'NZ', flag: '🇳🇿', label: 'Nouvelle-Zélande' },
+    { code: 'IE', flag: '🇮🇪', label: 'Irlande' },
+    { code: 'DE', flag: '🇩🇪', label: 'Allemagne' },
     { code: 'FR', flag: '🇫🇷', label: 'France' },
-    { code: 'ES', flag: '🇪🇸', label: 'Spain' },
-    { code: 'MX', flag: '🇲🇽', label: 'Mexico' },
-    { code: 'IT', flag: '🇮🇹', label: 'Italy' },
-    { code: 'NL', flag: '🇳🇱', label: 'Netherlands' },
-    { code: 'SE', flag: '🇸🇪', label: 'Sweden' },
-    { code: 'NO', flag: '🇳🇴', label: 'Norway' },
-    { code: 'DK', flag: '🇩🇰', label: 'Denmark' },
-    { code: 'FI', flag: '🇫🇮', label: 'Finland' },
-    { code: 'PL', flag: '🇵🇱', label: 'Poland' },
+    { code: 'ES', flag: '🇪🇸', label: 'Espagne' },
+    { code: 'MX', flag: '🇲🇽', label: 'Mexique' },
+    { code: 'IT', flag: '🇮🇹', label: 'Italie' },
+    { code: 'NL', flag: '🇳🇱', label: 'Pays-Bas' },
+    { code: 'SE', flag: '🇸🇪', label: 'Suède' },
+    { code: 'NO', flag: '🇳🇴', label: 'Norvège' },
+    { code: 'DK', flag: '🇩🇰', label: 'Danemark' },
+    { code: 'FI', flag: '🇫🇮', label: 'Finlande' },
+    { code: 'PL', flag: '🇵🇱', label: 'Pologne' },
     { code: 'PT', flag: '🇵🇹', label: 'Portugal' },
-    { code: 'BR', flag: '🇧🇷', label: 'Brazil' },
-    { code: 'TR', flag: '🇹🇷', label: 'Turkey' },
-    { code: 'IN', flag: '🇮🇳', label: 'India' }
+    { code: 'BR', flag: '🇧🇷', label: 'Brésil' },
+    { code: 'TR', flag: '🇹🇷', label: 'Turquie' },
+    { code: 'IN', flag: '🇮🇳', label: 'Inde' }
   ];
 
   window.customizeState = {

@@ -29,6 +29,8 @@ assert(!/nuvio/i.test(htmlWithoutExportDescriptions),
   "Ancien branding ou intégration Nuvio détecté hors des mentions autorisées d'export");
 assert(!/telemetry-icon|visitor-count|collections-generated-count/i.test(withoutComments), "Compteur toujours visible");
 assert(!/countapi\.mileshilliard\.com|MaCollectionTelemetry/.test(app), "Compteur distant encore chargé");
+assert(!/https?:\/\/(?:[\w-]+\.)*(?:nuvio\.tv|nuvioapp\.space|kaptain\.stream)\b/i.test(destination),
+  "L’export JSON doit rester utilisable sans ouvrir un site Nuvio ou Kaptain");
 assert(!/NuvioPush|api\.nuvio\.tv/.test(app + destination + local + withoutComments),
   "Ancien moteur d'envoi distant détecté");
 assert(!/\.telemetry-icon-btn|\.telemetry-tooltip/.test(styles), "Ancien CSS des statistiques détecté");
