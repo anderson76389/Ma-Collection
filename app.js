@@ -1468,7 +1468,7 @@ function renderFolderGrid() {
     const hoverMarkup = folder.focusGifUrl && gifsAllowedForCategory(category)
       ? isMotionVideoUrl(hoverGif)
         ? `<video class="card-gif-img" data-video="${hoverGif}" poster="${baseImg}" muted loop playsinline preload="none" aria-hidden="true"></video>`
-        : `<img src="${hoverGif}" class="card-gif-img" alt="${folder.title} preview" loading="lazy">`
+        : `<img data-gif="${hoverGif}" class="card-gif-img" alt="" aria-hidden="true">`
       : '';
 
     // Deliberately NOT gated on folder.hideTitle, unlike the hero and detail
@@ -1477,7 +1477,7 @@ function renderFolderGrid() {
     // card in the grid at once — a much larger change than the duplicated
     // hero title this was meant to fix, and one the owner should see first.
     const logoOverlayHtml = folder.titleLogoUrl
-      ? `<div class="card-logo-overlay"><img src="${folder.titleLogoUrl}" alt="${folder.title}" class="card-logo-img"></div>`
+      ? `<div class="card-logo-overlay"><img src="${folder.titleLogoUrl}" alt="${folder.title}" class="card-logo-img" loading="lazy" decoding="async"></div>`
       : `<h4 class="card-text-title">${highlightMatch(folder.title, query)}</h4>`;
 
     // Badge colour class based on source ratio
@@ -1492,7 +1492,7 @@ function renderFolderGrid() {
     const folderId = (folder.id || '').toLowerCase();
     const isNewFolder = categoryId.includes('trending') || categoryId.includes('new')
       || folderId.includes('trending') || folderId.includes('new');
-    const newBadgeHtml = isNewFolder ? `<span class="new-badge">New</span>` : '';
+    const newBadgeHtml = isNewFolder ? `<span class="new-badge">Nouveau</span>` : '';
 
     const controlsHeader = showArrows
       ? `<div class="card-controls-header">
@@ -1537,8 +1537,8 @@ function renderFolderGrid() {
       if (video) video.pause();
     });
     card.addEventListener('mouseenter', () => {
-      startHoverVideo(card);
-      setCinematicWallpaper(folder);
+      if (!reducePreviewMotion.matches) setCinematicWallpaper(folder);
+      attachCardGif(card, '.card-gif-img');
     });
 
     if (showArrows) {
@@ -1909,11 +1909,11 @@ function buildNuvioHero() {
       <div class="nv-hero-actions">
         <button class="nv-hero-btn nv-hero-play nv-focusable" data-action="play">
           <svg viewBox="0 0 24 24" fill="currentColor" style="width:16px;height:16px;"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
-          Play
+          Ouvrir
         </button>
         <button class="nv-hero-btn nv-hero-info nv-focusable" data-action="info">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" style="width:16px;height:16px;"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
-          More Info
+          Plus d’infos
         </button>
       </div>
       <div class="nv-hero-dots" id="nv-hero-dots"></div>
@@ -1968,6 +1968,7 @@ function setPreviewHero(folder, category) {
 // that are currently in the collection so the screen never feels frozen. Any
 // hover/focus pauses it (the hero follows the cursor instead); leaving the
 // screen resumes it. Dots under the hero show position and allow jumping.
+const reducePreviewMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 let heroCarouselTimer = null;
 let heroCarouselPaused = false;
 let heroCarouselIdx = 0;
@@ -1987,7 +1988,7 @@ function renderHeroDots() {
   if (slides.length < 2) { dotsWrap.innerHTML = ''; return; }
   if (heroCarouselIdx >= slides.length) heroCarouselIdx = 0;
   dotsWrap.innerHTML = slides.map((_, i) =>
-    `<button class="nv-hero-dot ${i === heroCarouselIdx ? 'active' : ''}" data-idx="${i}" aria-label="Show featured folder ${i + 1}"></button>`
+    `<button class="nv-hero-dot ${i === heroCarouselIdx ? 'active' : ''}" data-idx="${i}" aria-label="Afficher le dossier ${i + 1}"></button>`
   ).join('');
   dotsWrap.querySelectorAll('.nv-hero-dot').forEach(dot => {
     dot.addEventListener('click', (e) => {
@@ -2013,10 +2014,9 @@ function showHeroSlide(i) {
 function startHeroCarousel() {
   stopHeroCarousel();
   renderHeroDots();
-  if (getHeroCarouselFolders().length < 2) return;   // nothing to rotate through
+  if (document.hidden || reducePreviewMotion.matches || getHeroCarouselFolders().length < 2) return;
   heroCarouselTimer = setInterval(() => {
-    if (heroCarouselPaused) return;
-    if (document.getElementById('preview-detail')) return;   // detail sheet is open
+    if (heroCarouselPaused || document.getElementById('preview-detail')) return;
     showHeroSlide(heroCarouselIdx + 1);
   }, HERO_CAROUSEL_MS);
 }
@@ -2025,6 +2025,23 @@ function stopHeroCarousel() {
 }
 function pauseHeroCarousel() { heroCarouselPaused = true; }
 function resumeHeroCarousel() { heroCarouselPaused = false; }
+
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden) {
+    stopHeroCarousel();
+    document.querySelectorAll('video.card-gif-img, video.nv-card-gif').forEach(video => video.pause());
+  } else if (isPreviewActive) {
+    startHeroCarousel();
+  }
+});
+reducePreviewMotion.addEventListener('change', () => {
+  if (reducePreviewMotion.matches) {
+    stopHeroCarousel();
+    document.querySelectorAll('video.card-gif-img, video.nv-card-gif').forEach(video => video.pause());
+  } else {
+    if (isPreviewActive) startHeroCarousel();
+  }
+});
 
 // ---- Catalog row --------------------------------------------------------
 // No category icon: emojis are only shown if they actually exist in the
@@ -2654,15 +2671,14 @@ function startHoverVideo(card) {
   const promise = video.play();
   if (promise?.catch) promise.catch(() => {});
 }
-function attachCardGif(card) {
-  const media = card && card.querySelector('.nv-card-gif[data-gif]');
+function attachCardGif(card, selector = '.nv-card-gif') {
+  if (document.hidden || reducePreviewMotion.matches) return;
+  const media = card?.querySelector(selector);
   if (media?.tagName === 'VIDEO') {
     startHoverVideo(card);
-  } else if (media) {
-    media.src = media.getAttribute('data-gif');
-    media.removeAttribute('data-gif');
-  } else {
-    startHoverVideo(card);
+  } else if (media?.dataset.gif) {
+    media.src = media.dataset.gif;
+    delete media.dataset.gif;
   }
 }
 function handlePreviewKeydown(e) {
@@ -3152,7 +3168,7 @@ async function exportForSelfHost() {
   const popup = document.getElementById('popup-overlay');
   if (popup) popup.classList.add('open');
   const popupTitle = document.getElementById('popup-title');
-  if (popupTitle) popupTitle.textContent = 'Generating Self-Host Export...';
+  if (popupTitle) popupTitle.textContent = 'Préparation de l’export pour votre serveur…';
 
   try {
     const result = await window.MaCollectionServices.generateSelfHostExport();
@@ -3187,7 +3203,7 @@ async function exportForSelfHost() {
     showToast('Configuration AIO et collection locale téléchargées !', 'success');
   } catch (err) {
     if (popup) popup.classList.remove('open');
-    showToast('Error generating export: ' + err.message, 'error');
+    showToast('Impossible de générer l’export. ' + err.message, 'error');
     console.error(err);
   }
 }

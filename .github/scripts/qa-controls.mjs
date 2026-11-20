@@ -631,7 +631,7 @@ try {
     assert.equal(await page.locator("#mc-import-studio [data-key=importAction]").count(),0);
     await page.locator("#mc-import-next").click();
     assert.equal(await page.locator("#mc-nuvio-export").evaluate(n=>n.hidden),false);
-    assert.equal(await page.locator('#mc-nuvio-export a[href="https://nuvio.tv/"]').getAttribute("rel"),"noopener noreferrer");
+    assert.equal(await page.locator('#mc-nuvio-export a[href^="http"]').count(),0);
     const payload=JSON.parse(await page.evaluate(()=>window.MaCollectionDestination.buildNuvioJSON()));
     assert(payload.length>=10);
     assert(payload.some(c=>Array.isArray(c.folders) && c.folders.length));
