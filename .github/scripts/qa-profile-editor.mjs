@@ -18,6 +18,15 @@ try {
   // Use the local catalogue with its existing export, without external sign-in.
   await root.locator('[data-profile-action="selection"]').click();
   await page.waitForFunction(()=>document.querySelector('[data-profile-summary]')?.textContent.includes('756 dossiers'));
+  // Le Canvas représente les vrais dossiers du brouillon, sans dupliquer les sources.
+  const canvas=root.locator('[data-profile-canvas]');
+  await canvas.locator('summary').click();
+  assert(await canvas.locator('[data-profile-canvas-row]').count()>=16,'Les rangées du compte sont visibles');
+  assert(await canvas.locator('[data-profile-canvas-folder]').count()>0,'Les affiches et dossiers sont représentés');
+  const countBefore=await root.locator('[data-profile-summary]').innerText();
+  await canvas.locator('[data-profile-canvas-folder] [data-profile-action="canvas-select"]').first().click();
+  assert(await root.locator('[data-profile-field="title"]').count()===1,'Choisir un dossier du Canvas ouvre son vrai éditeur');
+  assert.equal(await root.locator('[data-profile-summary]').innerText(),countBefore,'Le Canvas ne doit pas créer de nouvelles sources');
   const title=root.locator('[data-profile-field="title"]');
   const original=await title.inputValue();
   await title.fill('Affiche personnelle FR');await title.press('Tab');
