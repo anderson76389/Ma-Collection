@@ -2,14 +2,14 @@
  * Studio Ma-Collection: portable addon manifests for Kovelyx, independent of
  * any third-party site backend. This module NEVER fetches or installs add-ons.
  */
-export function addonInventoryFromDraft(draft, catalogues, sourceKey) {
+export function addonInventoryFromDraft(draft, catalogues, sourceKey, folderKey = f => String(f.id)) {
   const categories = new Map((catalogues || []).map(cat => [String(cat.id), cat]));
   const found = new Map();
   for (const section of draft?.sections || []) {
     if (!section.enabled) continue;
     const original = categories.get(String(section.id));
     if (!original) continue;
-    const byFolder = new Map((original.folders || []).map(f => [String(f.id), f]));
+    const byFolder = new Map((original.folders || []).map(f => [String(folderKey(f)), f]));
     for (const folder of section.folders || []) {
       if (!folder.enabled) continue;
       const selectedKeys = new Set(folder.selectedKeys || []);
