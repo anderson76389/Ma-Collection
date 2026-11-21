@@ -1,0 +1,40 @@
+/* Canvas d'accueil Kovelyx : prévisualiser, sélectionner et déplacer des objets réels du brouillon. */
+#mc-profile-editor .mc-profile-canvas{
+  margin:18px 0;padding:15px;border:1px solid var(--border,rgba(180,175,200,.3));
+  border-radius:16px;background:var(--bg-card,#1f2330)
+}
+#mc-profile-editor .mc-profile-canvas>summary{font-size:1rem;font-weight:790;cursor:pointer}
+#mc-profile-editor .mc-profile-canvas>p{font-size:.75rem;color:var(--text-secondary,#b6bdc6);margin:11px 0}
+#mc-profile-editor .mc-profile-canvas-rows{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr));align-items:start;gap:13px}
+#mc-profile-editor .mc-profile-canvas-row{
+  min-width:0;border:1px solid var(--border,rgba(180,175,200,.2));border-radius:12px;
+  padding:10px;background:var(--bg-app,#141823);cursor:grab
+}
+#mc-profile-editor .mc-profile-canvas-row:active{cursor:grabbing}
+#mc-profile-editor .mc-profile-canvas-row.active{border-color:var(--accent,#a98cf5)}
+#mc-profile-editor .mc-profile-canvas-row>header{display:flex;align-items:center;gap:8px;margin-bottom:9px}
+#mc-profile-editor .mc-profile-canvas-row>header button{
+  flex:1;min-width:0;font-size:.79rem;font-weight:730;text-align:left;
+  padding:6px;white-space:normal;overflow-wrap:anywhere;border:0;background:transparent
+}
+#mc-profile-editor .mc-profile-canvas-row>header small{color:var(--text-muted,#9ca5b5);font-size:.66rem;white-space:nowrap}
+#mc-profile-editor .mc-profile-canvas-strip{display:flex;overflow-x:auto;gap:8px;align-items:stretch;scrollbar-width:thin;padding-bottom:5px}
+#mc-profile-editor .mc-profile-canvas-folder{
+  flex:0 0 78px;min-width:0;max-width:78px;border:1px solid var(--border,rgba(180,175,200,.3));
+  border-radius:9px;overflow:hidden;display:flex;flex-direction:column;background:var(--bg-card,#252a36);
+  cursor:grab
+}
+#mc-profile-editor .mc-profile-canvas-folder img{
+  width:100%;aspect-ratio:2/3;height:100px;object-fit:cover
+}
+#mc-profile-editor .mc-profile-canvas-folder .mc-profile-empty{height:100px}
+#mc-profile-editor .mc-profile-canvas-folder button{
+  border:0;border-radius:0;min-height:42px;padding:7px 5px;
+  font-size:.67rem;line-height:1.25;overflow-wrap:anywhere;background:transparent;
+  flex:1
+}
+#mc-profile-editor .mc-profile-canvas-strip>[data-profile-action=canvas-more]{flex:0 0 85px;padding:7px;white-space:normal;font-size:.72rem}
+@media(max-width:760px){
+  #mc-profile-editor .mc-profile-canvas{padding:11px}
+  #mc-profile-editor .mc-profile-canvas-rows{grid-template-columns:1fr}
+}
