@@ -45,6 +45,10 @@ function draw(){
  accountDetails.addEventListener('toggle',()=>{if(accountDetails.isConnected)accountOpen=accountDetails.open;});
  updateDetails.addEventListener('toggle',()=>{if(updateDetails.isConnected)updateOpen=updateDetails.open;});
  root.querySelectorAll('button, input, select, textarea').forEach(el=>{if(busy)el.disabled=true;});
+ // L'en-tête n'est pas recréé par draw() : réactiver explicitement Fermer
+ // après une requête Cloud, sans réactiver les boutons métier conditionnels.
+ const closeButton=root.querySelector('[data-profile-action="close"]');
+ if(closeButton)closeButton.disabled=busy;
 }
 function mount(){
  root=document.createElement('div');root.className='mc-profile-overlay';root.id='mc-profile-editor';root.hidden=true;
