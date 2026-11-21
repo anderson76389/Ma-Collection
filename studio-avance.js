@@ -459,6 +459,11 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     }
     add(custom?.artwork?.coverImageUrl,'Affiche sélectionnée');
     add(originals?.[custom?.id]?.coverImageUrl || real?.coverImageUrl,'Affiche d’origine');
+    const original = originals?.[custom?.id] || real;
+    add(original?.heroBackdropUrl, 'Décor du dossier');
+    if (/\.(gif|webp|png|jpe?g)(?:[?#]|$)/i.test(original?.focusGifUrl || '')) {
+      add(original.focusGifUrl, 'Visuel de survol');
+    }
     for(const entry of custom?.looks||[])add(entry.url,entry.label||'Variante personnelle');
     if(includeStyles && custom){
       for(const style of ART_STYLES){
