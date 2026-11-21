@@ -280,7 +280,7 @@
 .mc-look[data-offset="2"] { transform: translate(17%,-50%) scale(.67); }
 .mc-look[data-offset="-2"],.mc-look[data-offset="2"] { opacity: .32; z-index: 1; }
 .mc-look img { width: 100%; height: 100%; object-fit: contain; }
-.mc-look span { position: absolute; top: .5rem; right: .5rem; padding: .15rem .4rem; background: #090b0ed9; border-radius: 6px; font-size: .7rem; }
+.mc-look-label { position: absolute; top: .5rem; right: .5rem; padding: .15rem .4rem; background: #090b0ed9; border-radius: 6px; font-size: .7rem; }
 .mc-studio-gallery-actions [data-action=art-use] { color: var(--on-secondary); }
 @media(max-width:620px){.mc-look {width: 70%;}.mc-studio-stage {gap: 3px;}}
 #mc-tools.mc-tools-dock {

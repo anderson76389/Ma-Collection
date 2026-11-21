@@ -432,7 +432,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       const cover=f.artwork.coverImageUrl||'';
       return '<div class="mc-studio-entry mc-studio-folder-entry '+(f.id===selectedFolder?'selected':'')+'" draggable="true" data-drag-kind="folder" data-drag-id="'+esc(f.id)+'">'+
         '<button type="button" class="mc-studio-item" data-action="folder" data-id="'+esc(f.id)+'">'+
-        (cover?'<img loading="lazy" src="'+esc(cover)+'" alt="">':'<span class="mc-studio-empty-cover">▣</span>')+
+        (cover?'<img loading="lazy" src="'+esc(localGenreCovers.get(cover) || cover)+'" alt="">':'<span class="mc-studio-empty-cover">▣</span>')+
         '<span><strong>'+esc(f.label)+'</strong><small>'+count+' source'+(count===1?'':'s')+'</small></span></button>'+
         '<label class="mc-studio-tick" title="Activer le dossier"><input type="checkbox" data-folder-toggle="'+esc(f.id)+'" '+(f.enabled?'checked':'')+' aria-label="Activer '+esc(f.label)+'"></label>'+
         '<div class="mc-studio-arrows">'+button('↑','folder-up','data-id="'+esc(f.id)+'" aria-label="Monter le dossier" '+(i===0?'disabled':''))+
@@ -503,7 +503,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       if(visibleIndexes.has(index))return '';
       visibleIndexes.add(index);
       const item=choices[index];
-      const picture='<img src="'+esc(item.url)+'" alt="" decoding="async"><span>'+esc(item.label)+'</span>';
+      const picture='<img src="'+esc(localGenreCovers.get(item.url) || item.url)+'" alt="" decoding="async">'+genreCaption({coverImageUrl:item.url,title:real?.title})+'<span class="mc-look-label">'+esc(item.label)+'</span>';
       if(offset===0)return '<div class="mc-look current">'+picture+'</div>';
       return '<button type="button" class="mc-look" data-offset="'+offset+'" data-action="art-select" data-id="'+index+'" aria-label="Voir le visuel '+esc(item.label)+'">'+picture+'</button>';
     }).join('');
@@ -555,7 +555,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
        '<small>'+esc(tip)+'</small></label>').join('');
     return '<div class="mc-studio-artwork-screen">'+artTheater(f,orig)+'<div class="mc-studio-art-layout"><div class="mc-studio-art-preview">'+
       (f.artwork.heroBackdropUrl?'<img class="mc-studio-hero" src="'+esc(f.artwork.heroBackdropUrl)+'" alt="Fond du dossier">':'')+
-      (f.artwork.coverImageUrl?'<img class="mc-studio-cover" src="'+esc(f.artwork.coverImageUrl)+'" alt="Couverture du dossier">':'<div class="mc-studio-no-cover">Aucune affiche</div>')+
+      (f.artwork.coverImageUrl?'<img class="mc-studio-cover" src="'+esc(localGenreCovers.get(f.artwork.coverImageUrl) || f.artwork.coverImageUrl)+'" alt="Couverture du dossier">':'<div class="mc-studio-no-cover">Aucune affiche</div>')+
       (f.artwork.titleLogoUrl?'<img class="mc-studio-title-logo" src="'+esc(f.artwork.titleLogoUrl)+'" alt="Logo du titre">':'')+
       '<strong>'+esc(f.label)+'</strong><small>Prévisualisation des fichiers choisis</small>'+
       button('Restaurer les visuels d’origine','original-art')+'</div>'+
@@ -590,7 +590,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       button('Modifier','preview-edit','data-section="'+esc(s.id)+'"')+'</header>'+
       '<div class="mc-studio-preview-row">'+s.folders.map(f=>
         '<button type="button" class="mc-studio-preview-tile" data-action="preview-edit" data-section="'+esc(s.id)+'" data-id="'+esc(f.id)+'" title="Personnaliser '+esc(f.label)+'">'+
-        (f.coverImageUrl?'<img src="'+esc(f.coverImageUrl)+'" loading="lazy" alt="">':
+        (f.coverImageUrl?'<img src="'+esc(localGenreCovers.get(f.coverImageUrl) || f.coverImageUrl)+'" loading="lazy" alt="">':
           '<span class="mc-studio-preview-placeholder" aria-hidden="true">▣</span>')+
         '<strong>'+esc(f.label)+'</strong><small>'+f.sourceCount+' source'+(f.sourceCount>1?'s':'')+'</small></button>'
       ).join('')+
@@ -690,7 +690,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       draft.sections.map(s=>'<option value="'+esc(s.id)+'" '+(libraryFilter===s.id?'selected':'')+'>'+esc(s.label)+'</option>').join('');
     const tiles=found.results.map((item,index)=>
       '<div class="mc-studio-library-card">'+
-      '<img src="'+esc(item.url)+'" alt="Affiche '+esc(item.folderLabel)+'" loading="lazy" decoding="async">'+
+      '<img src="'+esc(localGenreCovers.get(item.url) || item.url)+'" alt="Affiche '+esc(item.folderLabel)+'" loading="lazy" decoding="async">'+
       '<div class="mc-studio-library-details"><strong>'+esc(item.folderLabel)+'</strong>'+
       '<small>'+esc(item.sectionLabel)+' · '+esc(item.kind)+'</small></div>'+
       button('Utiliser cette affiche','library-use','data-index="'+index+'"')+'</div>'
@@ -718,7 +718,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       draft.sections.map(sec=>'<option value="'+esc(sec.id)+'" '+(workshopSection===sec.id?'selected':'')+'>'+esc(sec.label)+'</option>').join('');
     const names=shown.map(({section:sec,folder:f,key})=>'<label class="mc-studio-workshop-item">'+
       '<input type="checkbox" data-workshop-target="'+esc(key)+'" '+(workshopSelected.has(key)?'checked':'')+'>'+
-      (f.artwork?.coverImageUrl?'<img src="'+esc(f.artwork.coverImageUrl)+'" loading="lazy" alt="">':
+      (f.artwork?.coverImageUrl?'<img src="'+esc(localGenreCovers.get(f.artwork.coverImageUrl) || f.artwork.coverImageUrl)+'" loading="lazy" alt="">':
       '<span class="mc-studio-workshop-placeholder" aria-hidden="true">▣</span>')+
       '<span><strong>'+esc(f.label)+'</strong><small>'+esc(sec.label)+' · '+(f.selectedKeys||[]).length+' source(s)</small></span></label>').join('');
     const field=(label,attr,items)=>'<label class="mc-studio-field">'+esc(label)+'<select '+attr+'>'+
@@ -760,7 +760,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       {total:0,results:[],omitted:0};
     const items=found.results.map(item=>'<button type="button" class="mc-studio-global-item" data-action="global-edit" '+
       'data-section="'+esc(item.sectionId)+'" data-id="'+esc(item.folderId)+'">'+
-      (item.coverImageUrl?'<img src="'+esc(item.coverImageUrl)+'" loading="lazy" alt="">':
+      (item.coverImageUrl?'<img src="'+esc(localGenreCovers.get(item.coverImageUrl) || item.coverImageUrl)+'" loading="lazy" alt="">':
         '<span class="mc-studio-global-empty" aria-hidden="true">▣</span>')+
       '<span class="mc-studio-global-details"><strong>'+esc(item.folderLabel)+'</strong>'+
       '<small>'+esc(item.sectionLabel)+' · '+item.sourceCount+' source'+(item.sourceCount>1?'s':'')+'</small></span>'+
