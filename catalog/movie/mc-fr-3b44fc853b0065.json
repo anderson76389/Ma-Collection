@@ -10,6 +10,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1050981",
+      "type": "movie",
+      "name": "Being Heumann",
+      "poster": "https://image.tmdb.org/t/p/w500/9Wi0fxpo1e7Wn2cGVNu7niwdEP2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/25aB8RXP4mfQLFRSuEEhk0d0sTC.jpg",
+      "description": "Débrouillarde, défiant l'autorité et fatiguée d'être traitée comme un fardeau, Judy Heumann transforme son indignation en révolution. En 1977, cette dernière et plus de 100 manifestants luttant pour les droits des personnes handicapées envoient un message très clair : le système est défaillant, pas nous.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1288069",
       "type": "movie",
       "name": "Tenzing : à la conquête de l’Everest",
@@ -66,7 +75,7 @@
     {
       "id": "tmdb:898704",
       "type": "movie",
-      "name": "Desert Warrior",
+      "name": "לוחם המדבר",
       "poster": "https://image.tmdb.org/t/p/w500/waxnw1NpzTPY5JkqWvu0muSopRJ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ohlNSR8MsHk5e6fcAxqAJmcz4Sm.jpg",
       "description": "Quand une jeune princesse refuse d'être soumise au redoutable empereur Kisra, une bataille éclate de telle sorte qu'elle change la région de l'ancienne Arabie Saoudite à jamais.",
@@ -168,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/a0Inm46kc3sMZBTCQgW1P7kjuk5.jpg",
       "background": "https://image.tmdb.org/t/p/w780/28PLbMHktbX8TnuEWSiTrRbI4p8.jpg",
       "description": "Lors de la soirée du 31 mars 1943, le célèbre parolier Lorenz Hart broie du noir au bar Sardi, pendant que son ex-collaborateur Richard Rodgers célèbre la première de sa comédie musicale à succès Oklahoma !",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1443940",
-      "type": "movie",
-      "name": "Truth & Treason",
-      "poster": "https://image.tmdb.org/t/p/w500/ArDLn658OjT3dMThIi4GDQJRuY3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/98PhUeOMK33Oyekw53tSGsfPZ7H.jpg",
-      "description": "Helmuth Hübener, un adolescent allemand de 17 ans membre des Jeunesses Hitlériennes révolté par les crimes nazis, participe à la résistance, avec ses amis Rudulf Wobbe et Karl-Heinz Schnibbe, en entrant en campagne contre Adolf Hitler. Ils sont connus pour les slogans \"Hitler est un meurtrier\", \"Hitler est le seul coupable\".",
       "releaseInfo": "2025"
     }
   ]

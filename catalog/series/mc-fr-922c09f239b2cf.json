@@ -1,6 +1,23 @@
 {
   "metas": [
     {
+      "id": "tmdb:335981",
+      "type": "series",
+      "name": "Le Cinéma selon Cunk",
+      "poster": "https://image.tmdb.org/t/p/w500/zrrRRvavkLQupkC6aEkdA8sX4E8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3NA7FxkqAaG1buZC1WtdPDpMlZg.jpg",
+      "description": "Dans cette série mockumentaire espiègle, Philomena Cunk part à la découverte de l'histoire du cinéma, sans manquer de laisser plusieurs experts perplexes en chemin.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:329315",
+      "type": "series",
+      "name": "Rise of the Rockstar Chef",
+      "poster": "https://image.tmdb.org/t/p/w500/erDOYthDdwWebTXhDStPig0v9Vf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ytC8n1iAd1e3hMuZTlpYcX7pqXk.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:335481",
       "type": "series",
       "name": "A Course Called Ireland",
@@ -85,7 +102,7 @@
       "id": "tmdb:317556",
       "type": "series",
       "name": "Twenty Twenty Six",
-      "poster": "https://image.tmdb.org/t/p/w500/tOMHB1sHMf4ASjB909y7AQFuX3q.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/mDzkrljEjjCiw2zOFCD24KrBAZ6.jpg",
       "background": "https://image.tmdb.org/t/p/w780/9wYxqq5I4e6Tm2Gb1pLPpizQEvC.jpg",
       "releaseInfo": "2026"
     },
@@ -147,23 +164,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/yCcSg608Whxdnexs0y6zvNjRxJG.jpg",
       "background": "https://image.tmdb.org/t/p/w780/leJGEqoL74j8evd84NfBtKhGYw7.jpg",
       "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:308652",
-      "type": "series",
-      "name": "The Million Pound Shaman Scam",
-      "poster": "https://image.tmdb.org/t/p/w500/bYYw7XPNRGUk9wuDiH1W99JfdBg.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gu3CJ3mYh0hg8r3vetJq1o71d8A.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:262967",
-      "type": "series",
-      "name": "Le Titanic coule ce soir",
-      "poster": "https://image.tmdb.org/t/p/w500/8q0QiK4uv0EH4fc2QCpWZOPhip1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/sSVlOEH3FPzYojMe02iACfO61Wy.jpg",
-      "description": "Cette série documentaire vise à retracer l'intégralité des 160 minutes les plus célèbres de l'histoire maritime, en racontant en temps réel l'histoire bouleversante du naufrage du Titanic. Des secondes cruciales précédant la collision avec l'iceberg jusqu'au moment où la coque sombre sous les flots, ce coffret reconstitue les événements, minute par minute, pour révéler précisément ce qui est arrivé aux 2 240 passagers et membres d'équipage les 14 et 15 avril 1912.",
-      "releaseInfo": "2025"
     }
   ]
 }

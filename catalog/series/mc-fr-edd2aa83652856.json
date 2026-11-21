@@ -19,13 +19,13 @@
       "releaseInfo": "2020"
     },
     {
-      "id": "tmdb:252721",
+      "id": "tmdb:252500",
       "type": "series",
-      "name": "Singapura",
-      "poster": "https://image.tmdb.org/t/p/w500/yPoy5Exmd9P2JSJya0inyYzIU7n.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/peIH5qDOzW4b0wEw2C6rOF6ulVK.jpg",
-      "description": "Justine débarque à Singapour bien décidée à se réinventer. Dans cette cité ultramoderne où les buildings côtoient la mangrove, elle découvre la communauté uniformisée des expatriés français et Élisa, un électron libre qui la fascine instantanément. Lorsqu’un meurtre frappe ce cercle hautement fermé, Justine et Adam Wong, l’inspecteur en charge du dossier, se retrouvent plongés dans un monde de secrets et de faux-semblants.",
-      "releaseInfo": "2026"
+      "name": "Le Cercle",
+      "poster": "https://image.tmdb.org/t/p/w500/lPz9qDxB4j6GcCFaXK94lyc3JNP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5hMNHnDysQtvdhZE6GGV3MIaNhV.jpg",
+      "description": "Tant qu'il y aura du cinéma, LE CERCLE sera là. C'est la seule émission télévisée de débats critiques 100% consacrée au cinéma. Chaque semaine, elle offre des joutes enflammées, joyeuses et sans condescendance, sur les films à l'affiche ; et invite avec \"Le questionnaire du CERCLE\" les réalisatrices et réalisateurs à venir partager leur passion cinéphile.",
+      "releaseInfo": "2005"
     },
     {
       "id": "tmdb:235904",
@@ -37,13 +37,13 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:255649",
+      "id": "tmdb:252721",
       "type": "series",
-      "name": "Détective Mathoux",
-      "poster": "https://image.tmdb.org/t/p/w500/hXrw5CfZeATdbhgRRMBWr6yNgaK.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ydmnSHKZfhLJsIb50qzVFLjMvyN.jpg",
-      "description": "La carrière d'un footballeur est riche de moments de sports.\n\nElle est aussi, parfois, jalonnée \"d'affaires\" avec leurs coachs, leurs partenaires, les supporters ... c'est là qu'intervient le Détective Mathoux !!",
-      "releaseInfo": "2024"
+      "name": "Singapura",
+      "poster": "https://image.tmdb.org/t/p/w500/yPoy5Exmd9P2JSJya0inyYzIU7n.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/peIH5qDOzW4b0wEw2C6rOF6ulVK.jpg",
+      "description": "Justine débarque à Singapour bien décidée à se réinventer. Dans cette cité ultramoderne où les buildings côtoient la mangrove, elle découvre la communauté uniformisée des expatriés français et Élisa, un électron libre qui la fascine instantanément. Lorsqu’un meurtre frappe ce cercle hautement fermé, Justine et Adam Wong, l’inspecteur en charge du dossier, se retrouvent plongés dans un monde de secrets et de faux-semblants.",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:300589",
@@ -53,6 +53,15 @@
       "background": "https://image.tmdb.org/t/p/w780/gsJvjnIlxOhU9EmmB5x2TJxjYVk.jpg",
       "description": "Antoine de Caunes, Mina Soundiram, Renan Cros, Bertrand Goncalves et Rébecca Balestra, proposent un super plan ciné. Ensemble, ils reçoivent celles et ceux qui font l'actualité du 7e art, et abordent le cinéma avec expertise, passion et enthousiasme.",
       "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:255649",
+      "type": "series",
+      "name": "Détective Mathoux",
+      "poster": "https://image.tmdb.org/t/p/w500/hXrw5CfZeATdbhgRRMBWr6yNgaK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ydmnSHKZfhLJsIb50qzVFLjMvyN.jpg",
+      "description": "La carrière d'un footballeur est riche de moments de sports.\n\nElle est aussi, parfois, jalonnée \"d'affaires\" avec leurs coachs, leurs partenaires, les supporters ... c'est là qu'intervient le Détective Mathoux !!",
+      "releaseInfo": "2024"
     }
   ]
 }

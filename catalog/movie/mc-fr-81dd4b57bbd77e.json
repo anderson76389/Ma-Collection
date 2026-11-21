@@ -3,16 +3,16 @@
     {
       "id": "tmdb:1402181",
       "type": "movie",
-      "name": "சீன்",
+      "name": "Scene",
       "poster": "https://image.tmdb.org/t/p/w500/1vjVJKpdT6gha7cpkmDJODpk8mU.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zYiUafcGC7JqK01GYbkimBYNaUR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lqUXVYTzs4KD3Wn1GRIlqM2QjDU.jpg",
       "releaseInfo": "2026"
     },
     {
       "id": "tmdb:656908",
       "type": "movie",
       "name": "Ramayana : L'avènement d'une légende",
-      "poster": "https://image.tmdb.org/t/p/w500/iCz9Wf8KCU8BXQ9Pws0pHctguiZ.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/sCqbbDIfLfO52FWjmuVOVZKkVyV.jpg",
       "background": "https://image.tmdb.org/t/p/w780/yHVZncPRZr63mezRX20IyKLrSkv.jpg",
       "description": "Une épopée ancienne suit un jeune prince et une jeune princesse dont le mariage et l'exil qui a suivi marquent le début d'un voyage légendaire. Leur histoire d'amour, de devoir et de destin ouvre la voie à de nouveaux défis.",
       "releaseInfo": "2026"
@@ -32,6 +32,14 @@
       "name": "ஜெயிலர் 2",
       "poster": "https://image.tmdb.org/t/p/w500/upwdEyhhYZ7pT2hD535fr2MGfpx.jpg",
       "background": "https://image.tmdb.org/t/p/w780/m0ks2o59mOAz6WdCybJ5FAUNTOU.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1389172",
+      "type": "movie",
+      "name": "रिपोर्टिंग लाइव",
+      "poster": "https://image.tmdb.org/t/p/w500/72ETmrsQGk8guVo1GV8Sf7EygOe.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/faJB8DXU0LXwq5ebMLj5drz8S4N.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -130,7 +138,7 @@
       "id": "tmdb:1441228",
       "type": "movie",
       "name": "ఇరుముడి",
-      "poster": "https://image.tmdb.org/t/p/w500/qcUs3oJStt4cqjB627b0R4OoeDc.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/bkK41z5SCCH9LJyk8cpcl7NztoV.jpg",
       "background": "https://image.tmdb.org/t/p/w780/578jrGVEN4a5rxJGtkt9sMI2w6c.jpg",
       "description": "Un père alcoolique au passé violent mène une vie paisible avec sa fille près d’une cascade. À la demande de celle-ci, il entreprend l’Ayyappa Deeksha, un voyage spirituel qui le confrontera à ses démons et mettra à l’épreuve sa volonté de changer.",
       "releaseInfo": "2026"
@@ -155,18 +163,9 @@
       "id": "tmdb:1479832",
       "type": "movie",
       "name": "DC",
-      "poster": "https://image.tmdb.org/t/p/w500/grRYMAxmfk9VHXY30gm6vfiwyoN.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/cm1uBPBUDfSIZXhWxsp1zzlKnf.jpg",
       "background": "https://image.tmdb.org/t/p/w780/v7kqufGRDotShPCw53SM7m8t6oc.jpg",
       "description": "Dans un univers où règnent violence et trahison, le rebelle Devadas s’allie à Chandra. Entre passion, vengeance et bains de sang, leur loyauté sera mise à l’épreuve dans un combat où survivre devient leur seule règle.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1235877",
-      "type": "movie",
-      "name": "Jana Nayagan",
-      "poster": "https://image.tmdb.org/t/p/w500/jt8pfSIdi47YpFMMWVRr8w5u2S0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/v3lNH2gCojWYXVuXcT9FZLBxcSq.jpg",
-      "description": "Un choc idéologique. L’un se bat pour le peuple, l’autre se nourrit de contrôle. Leurs chemins se sont déjà croisés. Des années plus tard, la peur silencieuse d’un enfant réveille le passé, entraînant un ancien officier de police dans une bataille qui dépasse de loin la simple vengeance.",
       "releaseInfo": "2026"
     }
   ]

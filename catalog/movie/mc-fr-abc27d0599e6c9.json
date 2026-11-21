@@ -10,11 +10,19 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:607833",
+      "type": "movie",
+      "name": "인턴",
+      "poster": "https://image.tmdb.org/t/p/w500/nPu9o9yHwN8Gu2Yc1av6KKMbXZf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/OroFBNgB2RBzj2X65CweVhhQQG.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1235769",
       "type": "movie",
       "name": "경주기행",
       "poster": "https://image.tmdb.org/t/p/w500/2dAd2APyFUyJ6qEv9VFHdHQtQI6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/A58FVNOQ9qXxt0vdKGQ9kCo17El.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AnsHGXWGBZBppDuYzLarXOOeL1u.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -163,14 +171,6 @@
       "name": "정보원",
       "poster": "https://image.tmdb.org/t/p/w500/vY1eAlMBfng26chmN5PvHV6Wn8z.jpg",
       "background": "https://image.tmdb.org/t/p/w780/hwM4vWXh4cIdIynxlLn92Ul9fQd.jpg",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1290183",
-      "type": "movie",
-      "name": "퍼스트 라이드",
-      "poster": "https://image.tmdb.org/t/p/w500/3KyiJ6yvw4thfSoBxntSb3ZNrg1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vi9uWG7rHEXw8eDXl3lOgy5lUNC.jpg",
       "releaseInfo": "2025"
     }
   ]

@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "checked_at": "2026-11-09T13:14:46.777Z",
+  "checked_at": "2026-11-16T13:03:55.296Z",
   "expected": 262,
   "verified_current": 261,
-  "changed": 180,
+  "changed": 27,
   "failures": [
     {
       "list_id": 8690687,
-      "reason": "ID ou type de média invalide"
+      "reason": "Contenu tronqué : instantané refusé"
     }
   ],
   "limitation": "Instantanés des listes TMDB publiques uniquement ; les collections actives et les listes Trakt restent inchangées."

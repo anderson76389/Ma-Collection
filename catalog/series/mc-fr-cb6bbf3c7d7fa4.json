@@ -13,7 +13,7 @@
       "id": "tmdb:287450",
       "type": "series",
       "name": "Secret Service",
-      "poster": "https://image.tmdb.org/t/p/w500/f7tksyddK3VvismfoWCwpXPqz0x.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/xfMN8liyfR06b4yRg8bkZMV9KTQ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/z5vJszVCv3feLAlsoPjIuMZjQ46.jpg",
       "description": "Une officier supérieure des services de renseignement britanniques se rebelle pour démasquer une taupe russe infiltrée aux plus hauts échelons du gouvernement britannique.",
       "releaseInfo": "2026"
@@ -43,6 +43,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/A2Zii9gvKje6WHKpH2fsStjp1ue.jpg",
       "background": "https://image.tmdb.org/t/p/w780/37Fn6Qf0JTLfbE719FvilHCyZK4.jpg",
       "description": "De sa genèse, en 1754, à sa conclusion, en 1783, la nouvelle et magistrale fresque historique de Ken Burns explore en profondeur le moment fondateur des États-Unis. Ce récit choral et multidimensionnel éclaire aussi le présent divisé d'une jeune nation de 250 ans.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:260650",
+      "type": "series",
+      "name": "Trespasses",
+      "poster": "https://image.tmdb.org/t/p/w500/ucwjasSOz2pr4TsRycK7Muegsh2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tFLSIouLM8b1qS0gh2I0k8jhuJF.jpg",
       "releaseInfo": "2025"
     },
     {

@@ -1,6 +1,24 @@
 {
   "metas": [
     {
+      "id": "tmdb:1518204",
+      "type": "movie",
+      "name": "Allen",
+      "poster": "https://image.tmdb.org/t/p/w500/alhhrpj1PSAn5bfz4Os1k7Bweoj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/51fGmBW7WjyJouP9TjIcxRpCUNk.jpg",
+      "description": "Vingt ans après sa rencontre avec un alien, Petey n'a jamais pu tourner la page. Maintenant, son vieil ami est de retour, mais pour une raison compliquée... et inattendue.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1117898",
+      "type": "movie",
+      "name": "Le Chat Chapeauté",
+      "poster": "https://image.tmdb.org/t/p/w500/jBcFgdERUGw0au9fYZc5X9M8Dfs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg",
+      "description": "Le Chat se voit confier sa mission la plus difficile jusqu'à présent... aider deux frères et sœurs qui ont du mal à s'installer dans une nouvelle ville.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:791523",
       "type": "movie",
       "name": "Wildwood : La prophétie de la forêt",
@@ -19,10 +37,19 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1669915",
+      "type": "movie",
+      "name": "Angel and the Badman",
+      "poster": "https://image.tmdb.org/t/p/w500/mJe53zlhGBdcjtN1GqncNZ5Unm0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hULWeQoEJUhiZ6NlANxsLoMJJ5p.jpg",
+      "description": "Quand Quirt Evans, un redoutable hors-la-loi, débarque sur les terres d'un éleveur d'une balle dans le dos, il s'attend à une mort rapide, et non à de la pitié. Mais Penny, la fille de l'éleveur, lui offre la chance de vivre quelque chose qu'il n'a jamais eu : une vie sans violence. Cependant, le passé ne pardonne pas. Alors que le maréchal se rapproche et qu'un gang de hors-la-loi est prêt à incendier le ranch, Quirt doit décider quel genre d'homme il sera quand le monde exigera du sang",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1148365",
       "type": "movie",
       "name": "Matchbox – Le film",
-      "poster": "https://image.tmdb.org/t/p/w500/5MRpLuZ1lnHNABHMhMowezKQnO9.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/qcgDXdfMH8JrTJv1wwJ2Z8cggzk.jpg",
       "background": "https://image.tmdb.org/t/p/w780/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg",
       "description": "Des amis d'enfance reprennent contact et les retrouvailles prennent une tournure inattendue quand ils découvrent un dangereux complot international et doivent sauver le monde.",
       "releaseInfo": "2026"
@@ -32,8 +59,8 @@
       "type": "movie",
       "name": "Heart of the Beast",
       "poster": "https://image.tmdb.org/t/p/w500/4t1ASmI2IQEAoO8hirEGQ6nMEib.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kpqsljPQtWqPKJBTAEtoXtQZ9Ko.jpg",
-      "description": "Après un terrible écrasement d'avion, James Belmont, ancien des forces spéciales, se retrouve perdu au coeur de l'Alaska avec son chien Odin, depuis toujours à ses côtés. Livrés à eux-mêmes dans une nature aussi magnifique qu'impitoyable, ils devront puiser dans leurs dernières forces pour survivre ensemble.",
+      "background": "https://image.tmdb.org/t/p/w780/yE766yhgg98tKwTKd8CyNvAtmn6.jpg",
+      "description": "Après un terrible crash d'avion, James Belmont, ancien des forces spéciales, se retrouve perdu au cœur de l'Alaska avec son chien Odin, depuis toujours à ses côtés. Livrés à eux-mêmes dans une nature aussi magnifique qu'impitoyable, ils devront puiser dans leurs dernières forces pour survivre ensemble.",
       "releaseInfo": "2026"
     },
     {
@@ -41,7 +68,7 @@
       "type": "movie",
       "name": "Resident Evil",
       "poster": "https://image.tmdb.org/t/p/w500/pICoWjcKSet6sA3yzxOkP8ChwYI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8R79AZjX1Bt4219Ub3CrRMsPQsW.jpg",
       "description": "Bryan, un coursier médical, est en train d'effectuer une livraison lorsqu'une épidémie soudaine se déclare, le forçant à lutter pour sa survie.",
       "releaseInfo": "2026"
     },
@@ -50,7 +77,7 @@
       "type": "movie",
       "name": "L'île des souvenirs",
       "poster": "https://image.tmdb.org/t/p/w500/txvVTbY1cAsBe5tPX9c5m5SM3ml.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2o9FzuBzCqrDTdlHRuEVnGD2d5h.jpg",
       "description": "Pendant qu'elles passent une dernière soirée ensemble avant de s'engager sur des voies différentes, Jo et Raissa, amies depuis toujours, trouvent un portail mystérieux qui les transporte sur Nakali, une île mythique peuplée de créatures magiques dont leurs familles philippines leur ont parlé. Alors qu'elles cherchent à rentrer chez elles, Jo et Raissa découvrent que leurs souvenirs sont en péril. Réussiront-elles à quitter l'île avant de s'oublier l'une l'autre ?",
       "releaseInfo": "2026"
     },
@@ -73,11 +100,20 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1284186",
+      "type": "movie",
+      "name": "Sacrifice",
+      "poster": "https://image.tmdb.org/t/p/w500/tKgFIiKnB025K3j80jhHTYZhMpy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/12kgv64tdeBHGCtTsZAb7nNaJX5.jpg",
+      "description": "Un gala de charité est interrompu par l'attaque d'un violent groupe de radicaux lancés dans une mystérieuse quête pour accomplir une prophétie.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:969681",
       "type": "movie",
       "name": "Spider-Man : Brand New Day",
       "poster": "https://image.tmdb.org/t/p/w500/6OEtkkzoyusZDm2uMJojlWZSLR9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/subj7knTn4DeS6KS7qI66EQKe9i.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4tjxYg2AbOzzG9G1YuiT2NzYhlH.jpg",
       "description": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttant contre le crime dans un New York qui ne le reconnaît plus, il se consacre entièrement à la protection de la ville - un Spider-Man à plein temps - mais à mesure que les responsabilités s'intensifient, la pression provoque une transformation physique surprenante qui menace son existence, tandis qu'une étrange nouvelle vague de crimes donne naissance à l'une des menaces les plus redoutables qu'il ait jamais affrontées.",
       "releaseInfo": "2026"
     },
@@ -113,7 +149,7 @@
       "type": "movie",
       "name": "L'Odyssée",
       "poster": "https://image.tmdb.org/t/p/w500/jKf0p3fhO893ROvRuvuSDsZSvK6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/iDiTY1wA35YWzTmXLTtqaxtN6tc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mIi99BK2mDpLp2lGsa8jCBDFit4.jpg",
       "description": "Ulysse, roi d'Ithaque, entreprend un périple périlleux pour regagner son royaume après la guerre de Troie. Alors qu'ils traversent la Méditerranée avec ses soldats, ils se retrouvent bientôt à lutter non seulement contre les éléments, mais aussi contre une multitude d'obstacles mortels et de créatures mythiques.",
       "releaseInfo": "2026"
     },
@@ -131,7 +167,7 @@
       "type": "movie",
       "name": "The Odyssey",
       "poster": "https://image.tmdb.org/t/p/w500/b0z3ViIC5AkbJoqxmTpqyjgmoJs.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mPy1xSASQ9NYWJdAGx2C2sOsnNw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/z7OIUoVHZjB7aixSWR5FTAUoYTt.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -141,42 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/ncHImt9szlNQaNM2iY3vcgSdDp.jpg",
       "background": "https://image.tmdb.org/t/p/w780/jLuGZc84MvPYCQomQg9DI72mstt.jpg",
       "description": "La détective Enola Holmes poursuit ses aventures à Malte, où son projet de mariage se complique quand elle doit résoudre une périlleuse affaire liée à la disparition de Sherlock.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1315772",
-      "type": "movie",
-      "name": "Des Minions et des Monstres",
-      "poster": "https://image.tmdb.org/t/p/w500/vuxZITXEqsBHBUhc1TKEU8mxvc.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg",
-      "description": "Une histoire aussi rocambolesque qu’absurde, mais bien sûr totalement véridique, qui raconte comment les Minions, partis à la conquête d’Hollywood, sont devenus des stars de cinéma, pour finalement tout perdre en libérant au passage une bande de monstres déchaînés, avant de s’unir pour tenter de sauver la planète de ce nouveau désastre à leur actif.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1081003",
-      "type": "movie",
-      "name": "Supergirl",
-      "poster": "https://image.tmdb.org/t/p/w500/1rtTSqlITti6l6NLouxVO0xFqto.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/heZQmyNvkH236ha2M3JckdUQQqb.jpg",
-      "description": "Lorsqu’un ennemi inattendu et impitoyable surgit, Kara Zor-El est forcée, malgré elle, de faire équipe avec un compagnon improbable. Ensemble, ils se lancent dans une épopée cosmique où la vengeance et la justice sont en jeu, et où Kara doit affronter ses origines pour trouver sa propre voie en tant qu’héroïne.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1560520",
-      "type": "movie",
-      "name": "Batman Knightfall - Partie 1",
-      "poster": "https://image.tmdb.org/t/p/w500/8hsSCYpO5XFSAVnn70YehKslgFt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/caBIySpwuFi2i7ynvHIlnxJLOdN.jpg",
-      "description": "L'asile d'Arkham a été détruit et ses détenus se déchaînent sur Gotham City. Alors que Batman se lance dans une course contre la montre pour appréhender certains de ses pires ennemis, il est poussé au bout de ses limites physiques et mentales et se retrouve confronté à une nouvelle menace : l'homme appelé Bane !",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1284465",
-      "type": "movie",
-      "name": "On l'appelait Robin des Bois",
-      "poster": "https://image.tmdb.org/t/p/w500/7MEcMhm889D8zIDINnBKOYNiSg1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lh3BDkmWJh998n4fQcHYcVi7dpm.jpg",
-      "description": "Hanté par son passé après une vie de crimes et de violence, Robin des Bois est laissé pour mort à l’issue d’un combat qu’il pensait être le dernier. Recueilli par une femme mystérieuse, il se voit offrir une ultime chance de rédemption…",
       "releaseInfo": "2026"
     }
   ]

@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:321221",
+      "type": "series",
+      "name": "Minimum Wage",
+      "poster": "https://image.tmdb.org/t/p/w500/iTVhDUbzUFUJ18jrcYM4rw7qGk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tJSM9kwCWHXgoYbrfmJ2vwiizWq.jpg",
+      "description": "Des ados tentent de gérer une petite pizzeria en jonglant entre le lycée, une boss survoltée et un salaire minimum. Une série inspirée de vidéos populaires sur les réseaux sociaux.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:275139",
       "type": "series",
       "name": "Phony",
@@ -166,15 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/90StjTgxw3TS3GxPn1VYmQmclqt.jpg",
       "background": "https://image.tmdb.org/t/p/w780/1mN5cydNUFqd7MHfOwhcHZzLnvT.jpg",
       "description": "Alice est dévastée quand son meilleur ami Steve fréquente sa fille de 26 ans, Izzy. Elle va perdre son meilleur ami et sa fille d'un coup. Elle décide d'utiliser tous les outils dont elle dispose pour mettre fin à leur relation: des menaces, en passant par la supplication, en allant jusqu'au sabotage de carrière. Malheureusement pour elle, Steve est plus que prêt à l'attaque, et ce qui semblait être une amitié parfaite devient un combat sans fin. Finalement, le mari d'Alice, Daniel, perd patience. Cette situation a fait ressortir les mauvais côtés d'Alice qui lui font peur. Steve sait qu'Izzy est la meilleure chose qui puisse lui arriver et veut tenter sa chance. Mais Alice n'est pas de cet avis.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:229544",
-      "type": "series",
-      "name": "Among Us",
-      "poster": "https://image.tmdb.org/t/p/w500/ourBbG4B1dAjfFUCzuUYEZpR101.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zoa11EvyuasC3j7PmH1QGftrSvf.jpg",
-      "description": "Des membres de votre équipage ont été remplacés par un métamorphe extraterrestre déterminé à semer la confusion, à saboter le vaisseau et à tuer tout le monde. Éliminez l'imposteur ou devenez la victime de ses plans meurtriers.",
       "releaseInfo": "2026"
     }
   ]

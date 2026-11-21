@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1193614",
+      "type": "movie",
+      "name": "Il faut brûler maman",
+      "poster": "https://image.tmdb.org/t/p/w500/3KDbl3m07R9hsFgM04JetRSJWeR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/h5sUWuxdA1PkPK7p3Y5jFy0eqQa.jpg",
+      "description": "Dans une famille de croque-morts, deux sœurs et un frère se retrouvent pour les funérailles de leur mère. Le personnel étant en grève, ils doivent accomplir le protocole funéraire par eux-mêmes.  Comment s’accorder pour brûler maman ?",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1003494",
       "type": "movie",
       "name": "L’Affaire Marie-Claire",
@@ -32,7 +41,7 @@
       "type": "movie",
       "name": "Le fantôme de l'opéra",
       "poster": "https://image.tmdb.org/t/p/w500/2aU9dLDES0IdxB4sGYeeoJ7DOjA.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5zDqy29V1nuwZiSq60hYaQQcOu1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6YMVB2yP4aIjz2ieT0qk8dWJbUL.jpg",
       "description": "Dans le Paris d'aujourd'hui, Anastasia, jeune danseuse, intègre le prestigieux Opéra de Paris. Alors qu’elle répète l'Orpheus, un opéra maudit qui aurait été composé par le Fantôme de l'Opéra, elle tombe amoureuse d'un mystérieux pianiste. A l’approche de la première représentation, entre accidents inexpliqués et révélations troublantes, Anastasia se trouve plongée dans une histoire d'amour impossible, à la frontière du réel et du fantastique.",
       "releaseInfo": "2026"
     },
@@ -59,7 +68,7 @@
       "type": "movie",
       "name": "Les Braves (Coward)",
       "poster": "https://image.tmdb.org/t/p/w500/qy5ytiCeyR9uW5HsLDOFaOQ8yEr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tW0ZxAcvLNZiSvHnBS2lpNOGB2S.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AmnN2nLZaY9GPHNko5H7M5mqsMG.jpg",
       "description": "Le jeune soldat Pierre veut faire ses preuves sur le front pendant la Première Guerre mondiale. Derrière les lignes, il rencontre Francis, chargé de remonter le moral des troupes.",
       "releaseInfo": "2026"
     },
@@ -104,7 +113,7 @@
       "type": "movie",
       "name": "Le Corset",
       "poster": "https://image.tmdb.org/t/p/w500/h4YDklaLjbgdu9yUr6vNybnrnzX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qMryViRTIek9SkkOPjNMfnbCuI6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/15xJ819H4W6bBt5buS9wHJ86HTp.jpg",
       "description": "Dans une ferme au cœur de la Beauce, Christophe, 11 ans, règle ses pas sur ceux de son père. Mais à l’école, à la maison, sur le tracteur, Christophe penche… et tombe. Il est obligé de porter un corset pour filer droit. Tandis que la ferme traverse des moments difficiles, Christophe grandit comme il peut. Il découvre la musique et fait la rencontre de Clara, avec qui tout semble devenir possible.",
       "releaseInfo": "2026"
     },
@@ -142,15 +151,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/tFzSSetNzvdaxms6RLfr2pyu9sM.jpg",
       "background": "https://image.tmdb.org/t/p/w780/iQMFLm9Te2IuJTr08RdBLKTGw8n.jpg",
       "description": "Septembre 1940, le régime de Pétain se met en place. Henri Marre, 49 ans, débarque à Vichy sans le sou, sans contact, loin de sa femme et ses enfants. Il voit dans la nouvelle administration l’opportunité de trouver enfin la place qu’il mérite. Dans sa valise, son traité politique édité à compte d’auteur, Notre Salut, où il défend ses convictions patriotiques et ses méthodes d'ingénieur. Son credo: « gagner en efficacité » pour relever la France de la débâcle. Mais peut-être qu’Henri cherche avant tout à fuir sa propre débâcle…",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1571766",
-      "type": "movie",
-      "name": "Kraken",
-      "poster": "https://image.tmdb.org/t/p/w500/mQZaeZAiDBredbH19WHZx8sLZbo.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jKlt1kxBAbCpPv8qOBXOdE1UAPy.jpg",
-      "description": "Dans une cité, une tour abandonnée alimente les rumeurs. Alors que des disparitions étranges s'enchaînent, 5 jeunes n’ont plus le choix : y entrer à nouveau. Pris dans un piège mortel, ils vont bientôt comprendre que s'échapper leur sera impossible…",
       "releaseInfo": "2026"
     },
     {

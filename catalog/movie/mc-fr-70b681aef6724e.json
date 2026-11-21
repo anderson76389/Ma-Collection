@@ -1,12 +1,30 @@
 {
   "metas": [
     {
+      "id": "tmdb:1757174",
+      "type": "movie",
+      "name": "Noël dans ta peau",
+      "poster": "https://image.tmdb.org/t/p/w500/5u3H664XvI8bylp0yi8uGSq895n.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4BsOLok9WaTTTcSpmoMtCLERScS.jpg",
+      "description": "Deux sœurs aux personnalités complètement différentes se voient contraintes d'échanger leurs vies quelques semaines avant Noël. Dans leurs nouveaux environnements, elles font face à leurs choix et trouvent l'amour au moment où elles s'y attendaient le moins.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1623256",
       "type": "movie",
       "name": "The Storm",
       "poster": "https://image.tmdb.org/t/p/w500/kjAsuaDcNsemYTQ8tUorpVE1FJb.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zN5mRDu6jOYt5EJGYGjhWgOGwor.jpg",
       "description": "Pour ses 45 ans, Filip convie ses proches à dîner dans la somptueuse ferme qu'il vient d'acheter avec sa femme dans le nord de la Suède. Ce qu'ils ignorent, c'est qu'une violente tempête approche, et que tous vont se retrouver pris au piège. Peu à peu, les masques tombent et la tension monte. Alors que la panique s'installe et que la gravité de la situation devient évidente, les murs se resserrent, les secrets se dévoilent… et des sentiments inattendus émergent.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1571766",
+      "type": "movie",
+      "name": "Kraken",
+      "poster": "https://image.tmdb.org/t/p/w500/mQZaeZAiDBredbH19WHZx8sLZbo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jKlt1kxBAbCpPv8qOBXOdE1UAPy.jpg",
+      "description": "Dans une cité, une tour abandonnée alimente les rumeurs. Alors que des disparitions étranges s'enchaînent, 5 jeunes n’ont plus le choix : y entrer à nouveau. Pris dans un piège mortel, ils vont bientôt comprendre que s'échapper leur sera impossible…",
       "releaseInfo": "2026"
     },
     {
@@ -129,7 +147,7 @@
       "type": "movie",
       "name": "Hemmet",
       "poster": "https://image.tmdb.org/t/p/w500/8an9l8gq9TyCH4QOcC3LR8bBPE7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5YzGueJ4bhzw60lH4N5uq4nPCo7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yoVgoGIPIC5n3TeUV18eBYCS3WS.jpg",
       "description": "Trentenaire, Joël doit retourner dans sa ville natale pour aider sa mère, Monika. Après avoir subi une crise cardiaque, durant laquelle elle a été cliniquement morte pendant plusieurs minutes, elle doit désormais intégrer une maison de retraite pour recevoir les soins nécessaires. Mais le soulagement de Joël est de courte durée. Peu après son arrivée, Monika commence à se comporter étrangement...",
       "releaseInfo": "2025"
     },
@@ -152,30 +170,11 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:1295400",
+      "id": "tmdb:1479178",
       "type": "movie",
-      "name": "The Last Viking",
-      "poster": "https://image.tmdb.org/t/p/w500/fFSKEBs290DW26mrKckObHwU5Sm.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zo1SfeASCrbHFaXJN9y1RW7uU2m.jpg",
-      "description": "Anker, un braqueur de banques, sort de prison après 15 ans de détention. Il va alors tenter de faire retrouver la mémoire à son frère aîné, Manfred, car il est le seul à savoir où est enterré le butin. Malheureusement, Manfred présente depuis quelque temps un trouble dissociatif de l'identité et pense ainsi être John Lennon.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1272586",
-      "type": "movie",
-      "name": "‎La Bataille d’Oslo",
-      "poster": "https://image.tmdb.org/t/p/w500/wiLkiPbbm66r4CSYSl40ei5Y6Ny.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9DWvNSqPqeFC1tVjfeYK3SnNQIS.jpg",
-      "description": "Dans la nuit du 9 avril 1940, alerté que plusieurs navires non identifiés ont pénétré dans le fjord qui mène à Oslo, le colonel Birger Eriksen ordonne à son artillerie de se tenir prête. Lorsque les projecteurs du fort finissent par détecter la silhouette d’un croiseur lourd allemand, Eriksen sait que son prochain ordre pourrait acter définitivement l’entrée en guerre de la Norvège.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1304527",
-      "type": "movie",
-      "name": "La lumière ne meurt jamais",
-      "poster": "https://image.tmdb.org/t/p/w500/156VDqBQzLynl7Q3bmRiE4gji4z.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/v2CY4qMFkI3ac0PDFUMRVfvfoHB.jpg",
-      "description": "Pauli, célèbre flûtiste classique, retourne dans sa petite ville natale pour se remettre d’une dépression. Il renoue avec une ancienne camarade de classe, qui lui propose de rejoindre un groupe de musique joyeusement anticonformiste. Comment Pauli, de nature plutôt perfectionniste, va-t-il se laisser embarquer dans cette aventure musicale aussi inattendue qu’expérimentale ?",
+      "name": "Se meg",
+      "poster": "https://image.tmdb.org/t/p/w500/rqrFGkSOEdKrwYn9u18CajycBfs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fFpAo8tI342rG9rrp8btT2X03aW.jpg",
       "releaseInfo": "2025"
     }
   ]

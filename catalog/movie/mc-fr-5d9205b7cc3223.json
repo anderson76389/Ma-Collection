@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:1798383",
+      "type": "movie",
+      "name": "Wolves Up Close with Bertie Gregory",
+      "poster": "https://image.tmdb.org/t/p/w500/fopmDU345HPkMC9iUaNQEY0uRkk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8uRYkZe2pbQ3m0l7pwb52I2dJyB.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1480856",
       "type": "movie",
       "name": "Au bord du gouffre",
@@ -75,7 +83,7 @@
       "type": "movie",
       "name": "NAZA",
       "poster": "https://image.tmdb.org/t/p/w500/yJ0FMDiMfdVHWCRqxt9WzAJ0C5S.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qkuEfYYOZTW6ymbZMeyJeYQaMd7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/inju8joDtL7KHtlFEGjFZ2UuqFa.jpg",
       "description": "Filmé la nuit depuis les toits de Tel Aviv, ce documentaire se centre sur les victimes civiles des opérations militaires israéliennes à Gaza.",
       "releaseInfo": "2026"
     },
@@ -161,21 +169,12 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1728056",
+      "id": "tmdb:1596332",
       "type": "movie",
-      "name": "Big Chicken : Le complot de la malbouffe",
-      "poster": "https://image.tmdb.org/t/p/w500/aL0TjsSap6NQMOWzFbS6RNOjFUj.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/d4p2sqbxC2AYkuyxT7tRBSsP4IM.jpg",
-      "description": "L'humoriste Mo Gilligan s'alimente de poulet frit pendant 28 jours en parcourant le Royaume-Uni et les États-Unis pour révéler l'impact de cet engouement et de son industrie.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1732097",
-      "type": "movie",
-      "name": "Euphoria: A Look Back",
-      "poster": "https://image.tmdb.org/t/p/w500/1us6iYG7P600BgSdwjb6mFYCP97.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fQiNGtgo9gEpyOIxX29FtUHpcaD.jpg",
-      "description": "L'équipe et les acteurs de la série Euphoria de HBO reviennent en exclusivité sur les origines, l'évolution et les influences de cette série acclamée par la critique.",
+      "name": "American Doctor",
+      "poster": "https://image.tmdb.org/t/p/w500/sOSrlaXvItVdwU1P5Qpttcl12sd.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yzNoanH2Jfn5bj7d6reKeaAbd4S.jpg",
+      "description": "Le documentaire suit Mark Perlmutter, médecin juif américain, et deux autres médecins, l’un américano-palestinien et l’autre zoroastrien (religion prédominante dans Iran pré-islamique) non pratiquant, face à l’indicible brutalité infligée à une population majoritairement civile à Gaza depuis qu’Israël a répondu à l’attaque du Hamas, le 7 octobre 2023. Le film montre les médecins travaillant avec leurs collègues palestiniens, portant secours à des blessés aux membres sectionnés et souffrant de plaies ouvertes. On les voit également en d’autres occasions dans les couloirs du pouvoir à Washington et dans les médias israéliens et américains.  Le documentaire montre aussi les difficultés pratiques auxquelles ils sont confrontés, les blouses chirurgicales et les antibiotiques qu’ils doivent faire passer en contrebande à travers la frontière pour contourner le blocus israélien. Et les refus de dernière minute des autorités israéliennes de les laisser entrer.",
       "releaseInfo": "2026"
     }
   ]

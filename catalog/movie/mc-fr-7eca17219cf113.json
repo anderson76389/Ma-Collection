@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1794569",
+      "type": "movie",
+      "name": "Sans protection : El crimen de Pazos",
+      "poster": "https://image.tmdb.org/t/p/w500/uvwAKeTTf9s0k69xelRXQbs6Hb7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5DEE6tP6FOkgfjvoQYvjNjvt3cn.jpg",
+      "description": "Film documentaire qui retrace l’histoire d’Isabel Fuentes. En avril 2015, des individus — soupçonnés d’être des cambrioleurs — l’ont laissée entre la vie et la mort à son domicile, dans le village de Pazos, à Verín. Dès le début, le sergent de la Guardia Civil chargé de l’enquête a soupçonné que le récit des événements ne tenait pas debout et a cherché à protéger Isabel contre toute nouvelle agression.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1571955",
       "type": "movie",
       "name": "Colisión",
@@ -84,7 +93,7 @@
       "id": "tmdb:1257147",
       "type": "movie",
       "name": "Entre amies",
-      "poster": "https://image.tmdb.org/t/p/w500/wGfTFVeguXDXYrwPQ8QMFsaSK2M.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/h7vCbTQMY502ZgfQT30Gij4morX.jpg",
       "background": "https://image.tmdb.org/t/p/w780/q5IF3IHgKC4cQqQCp0VjllNkJp6.jpg",
       "description": "Face au syndrome du nid vide, deux amies inséparables suivent leurs filles ados au Portugal et y trouvent l'amour, la fête et un tout nouveau sens à leur amitié.",
       "releaseInfo": "2026"
@@ -163,14 +172,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/4lbvwb2OGsfv3SNjLSDPZP4hNMY.jpg",
       "background": "https://image.tmdb.org/t/p/w780/2kQ71k6dq7DVNYuYY9ylNvRFKTv.jpg",
       "description": "Ruth, 30 ans, en froid avec sa famille depuis des années, rentre chez elle après la mort suspecte de sa mère. Elle y retrouve son père, Martín (Jose Coronado), devenu grincheux, agressif et obsédé par une théorie du complot inquiétante depuis sa retraite. Leur relation est si tendue, et le comportement de son père est si instable, que Ruth en vient à soupçonner Martín d'être responsable de la mort de sa mère. Partage-t-elle le même toit qu'un meurtrier ?",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1498036",
-      "type": "movie",
-      "name": "Tres de más",
-      "poster": "https://image.tmdb.org/t/p/w500/bG87VicPzkGtlrl9v2oXS56oeIL.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bERXJB7QSf3T8hlwN8RCzWToTAM.jpg",
       "releaseInfo": "2026"
     }
   ]

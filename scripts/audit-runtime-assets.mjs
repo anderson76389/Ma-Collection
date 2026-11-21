@@ -15,7 +15,7 @@ export function auditRuntimeAssets(root=ROOT) {
     const clean=decodeURIComponent(raw.split(/[?#]/)[0]);
     const target=resolve(dirname(resolve(root,from)),clean);
     assert(target.startsWith(resolve(root)+sep),'Ressource hors du site : '+from);
-    const path=relative(root,target);
+    const path=relative(root,target).split(sep).join('/');
     assert(existsSync(target),'Ressource locale absente : '+path);
     if (!visited.has(path)) queue.push(path);
   }

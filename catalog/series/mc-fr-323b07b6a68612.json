@@ -55,6 +55,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:297024",
+      "type": "series",
+      "name": "Fear Factor: House of Fear",
+      "poster": "https://image.tmdb.org/t/p/w500/t9U95eNaip1vnmzfgj6kSiyVtAR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3rfOHUwNCzUv9cDgTayny0dwUhK.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:303742",
       "type": "series",
       "name": "Tiffany Haddish Goes Off",
@@ -162,14 +170,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/y0lAZqgaUXOTcsn6hPjiaJSJTnj.jpg",
       "background": "https://image.tmdb.org/t/p/w780/9EiKPxxL90mXxHsUAIi7V20oa2s.jpg",
       "description": "Dans cette compétition acharnée, un millionnaire sous couverture doit tout faire pour garder son secret et éviter l'élimination s'il veut remporter le jeu et l'argent.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:262819",
-      "type": "series",
-      "name": "LOL: Last One Laughing UK",
-      "poster": "https://image.tmdb.org/t/p/w500/ehddE5xt4kqpSLk5c374h94zfVd.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xobPhgGbUqheY20aecNmtlooJb9.jpg",
       "releaseInfo": "2025"
     }
   ]

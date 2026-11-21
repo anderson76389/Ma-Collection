@@ -9,6 +9,22 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1511829",
+      "type": "movie",
+      "name": "The Nameless Ballad",
+      "poster": "https://image.tmdb.org/t/p/w500/g691fkK4mB5GCFziGG7gZP6oP2Y.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uAlvhDqN1PVMq8q984ckXo9am4l.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1678120",
+      "type": "movie",
+      "name": "Un tranquillo funerale di famiglia",
+      "poster": "https://image.tmdb.org/t/p/w500/iXtZ4Y28GTw1BJFHgcmHrICoyL1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/42qZHGWjOP2IDGPLRMhPMuucnRN.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1541477",
       "type": "movie",
       "name": "Toi, Moi, Nous",
@@ -146,22 +162,6 @@
       "name": "Illusione",
       "poster": "https://image.tmdb.org/t/p/w500/rxDFV66LmAtvz61JeFwdUJGG7dv.jpg",
       "background": "https://image.tmdb.org/t/p/w780/lM1g1QORjaPcYE0zqrWxIXUgLOK.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1663996",
-      "type": "movie",
-      "name": "L'amore sta bene su tutto",
-      "poster": "https://image.tmdb.org/t/p/w500/uGevFszuvC2yVGb3foshoPQNhgP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ce8m7FTIaA2ARIVRaUlLsBHvfEO.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1312390",
-      "type": "movie",
-      "name": "Nel tepore del ballo",
-      "poster": "https://image.tmdb.org/t/p/w500/ng9NBZ5qAJ4k4KlvQWgxKTuM1XT.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1FbdJ6D2e4URdjqxwABAYiRn3zK.jpg",
       "releaseInfo": "2026"
     }
   ]

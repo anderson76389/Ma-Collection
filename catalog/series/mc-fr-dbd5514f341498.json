@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:340053",
+      "type": "series",
+      "name": "Get Huge: Looksmaxxing to Death",
+      "poster": "https://image.tmdb.org/t/p/w500/9qODvXSjoQmRKU9Xp24Oiucv9aZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ddJt3lGs2vMzvXY4Nb7xbvTfJ3Q.jpg",
+      "description": "Un portrait sans concession de la masculinité à l'ère des influenceurs, où convergent biohacking extrême, performance en ligne et une série de morts suspectes.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:279246",
       "type": "series",
       "name": "L'impératrice remariée",
@@ -32,7 +41,7 @@
       "type": "series",
       "name": "VisionQuest",
       "poster": "https://image.tmdb.org/t/p/w500/bWPktguPGslrdM79SNQt4OWYyJS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/31o1Ufd7bStD5dGEcpzapOjwaqx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uoXXbN2PrOxH6UKyP7kYwmGpAAP.jpg",
       "description": "Une nouvelle version de Vision ayant échappé à ceux qui cherchaient à faire de lui une arme, vit dans la clandestinité. En quête d’un nouveau sens à sa vie, il consulte les IA intégrées à son programme, notamment Friday, Edith, Jarvis et le tristement célèbre Ultron. Son existence discrète prend fin lorsque sa tête est mise à prix, le contraignant à prendre la fuite avec Thomas Shepherd, un garçon mystérieux qui pourrait bien être la réincarnation du fils de Vision. Tout en échappant à ses poursuivants, Vision doit se confronter à sa propre nature, résister à l’influence d’Ultron et percer le mystère qui entoure son jeune compagnon s’il veut survivre.",
       "releaseInfo": "2026"
     },
@@ -138,10 +147,10 @@
     {
       "id": "tmdb:330654",
       "type": "series",
-      "name": "Somebody Knows Something",
+      "name": "À la recherche de témoins clés",
       "poster": "https://image.tmdb.org/t/p/w500/txKajhjNqHdgHziBY8q9w2RXzca.jpg",
       "background": "https://image.tmdb.org/t/p/w780/dUSdxz3Mpl21pgiAkx2kKnSz9QW.jpg",
-      "description": "Suivez Kara Chamberlain, influenceuse spécialisée dans les affaires criminelles, dans ses enquêtes sur des meurtres non résolus et des disparitions qui ont déconcerté les forces de l'ordre et hanté les internautes pendant des décennies.",
+      "description": "L'influenceuse true crime Kara Chamberlain enquête sur des meurtres et disparitions qui hantent les cyber-enquêteurs et les forces de l'ordre depuis des décennies. Ancienne policière et survivante d'un crime violent, Kara met à profit son expérience unique pour éclairer de grandes affaires, dénicher de nouveaux indices et nous rapprocher des réponses.",
       "releaseInfo": "2026"
     },
     {
@@ -168,15 +177,6 @@
       "name": "20/20 Britain's Most Notorious Crime Investigations",
       "poster": "https://image.tmdb.org/t/p/w500/xvJXaJbpsLLe0fHSrRBwt81ZuH5.jpg",
       "background": "https://image.tmdb.org/t/p/w780/2eNy1hhGsIe7FnH6WsGNH3YaiW3.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:287238",
-      "type": "series",
-      "name": "Furious",
-      "poster": "https://image.tmdb.org/t/p/w500/dUbeseppeo1XBwTLks8qXyS0fiT.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/iAOPgUlh7inOebFrUFHAjnFRCGS.jpg",
-      "description": "Alice Black, agent du FBI, est à la poursuite d'une mystérieuse tueuse en série, d'un esprit calculateur. Chacune suit son propre chemin vers la justice, et à mesure que leurs vies commencent à s'entremêler, la frontière entre le bien et le mal s'estompe peu à peu.",
       "releaseInfo": "2026"
     }
   ]

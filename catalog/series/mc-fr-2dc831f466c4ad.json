@@ -55,6 +55,15 @@
       "releaseInfo": "2021"
     },
     {
+      "id": "tmdb:4448",
+      "type": "series",
+      "name": "À mourir de rire",
+      "poster": "https://image.tmdb.org/t/p/w500/3CER8AdYtynbFBLIGLXv3wscDzl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/edH0CCAwswUNj8h6CyHJpX5JdIE.jpg",
+      "description": "Chaque semaine, AFV braque les projecteurs sur des vidéos hilarantes. Les fans se tournent pour assister aux échecs et aux fiascos et pour soumettre leurs propres incidents pour avoir la chance de devenir des vedettes.",
+      "releaseInfo": "1989"
+    },
+    {
       "id": "tmdb:30703",
       "type": "series",
       "name": "Shark Tank",

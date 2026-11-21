@@ -16,9 +16,8 @@ const withoutComments = html.replace(/<!--[^]*?-->/g,"");
 // Nuvio est maintenant un choix d'export JSON manuel autorisé par l'utilisateur.
 const approvedNuvioMentions = [
   'title="Choisir Nuvio ou Kovelyx pour importer la sélection"',
-  'pour Kovelyx ou Nuvio.</p>',
-  'title="Personnalisez la collection, puis choisissez Kovelyx ou Nuvio"',
-  'title="Préparer rapidement une collection pour Kovelyx ou Nuvio"',
+  'vers Kovelyx ou Nuvio.</p>',
+  'Importer et vérifier un fichier JSON Kovelyx ou Nuvio.',
 ];
 let htmlWithoutExportDescriptions=withoutComments;
 for (const mention of approvedNuvioMentions) {

@@ -53,6 +53,13 @@
       "releaseInfo": "2022"
     },
     {
+      "id": "tmdb:11347",
+      "type": "series",
+      "name": "Heritage Minutes",
+      "poster": "https://image.tmdb.org/t/p/w500/AbCdDJTjzSGP0jfMe1SySSlAJuy.jpg",
+      "releaseInfo": "1991"
+    },
+    {
       "id": "tmdb:75817",
       "type": "series",
       "name": "The Great Canadian Baking Show",
@@ -60,14 +67,6 @@
       "background": "https://image.tmdb.org/t/p/w780/2YPyaKoBFrxqR8g6f4J5TOvHJaE.jpg",
       "description": "Version canadienne de la compétition de pâtisserie britannique à succès. 10 boulangers amateurs de partout au Canada s'affrontent dans une série de défis culinaires thématiques.",
       "releaseInfo": "2017"
-    },
-    {
-      "id": "tmdb:339777",
-      "type": "series",
-      "name": "Le choix du Canada",
-      "poster": "https://image.tmdb.org/t/p/w500/jezav3iSINqllhX3iMjxRlspKdb.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/aXMiUOujjsR9F5HX6j3hrRLcVsa.jpg",
-      "releaseInfo": "2026"
     }
   ]
 }

@@ -593,6 +593,11 @@
     },
     {
       "type": "series",
+      "id": "mc-fr-70d22160c02c10",
+      "name": "Diffusion TV · Animal Planet · Épisodes diffusés cette semaine"
+    },
+    {
+      "type": "series",
       "id": "mc-fr-b8584c6cad48b4",
       "name": "Diffusion TV · BBC Four · Épisodes diffusés cette semaine"
     },
@@ -600,11 +605,6 @@
       "type": "series",
       "id": "mc-fr-ec3a576a3bcc1f",
       "name": "Diffusion TV · BBC One · Épisodes diffusés cette semaine"
-    },
-    {
-      "type": "series",
-      "id": "mc-fr-a6cf18bde82afe",
-      "name": "Diffusion TV · BBC Three · Épisodes diffusés cette semaine"
     },
     {
       "type": "series",
@@ -663,11 +663,6 @@
     },
     {
       "type": "series",
-      "id": "mc-fr-9324b3a782c551",
-      "name": "Diffusion TV · Dave · Épisodes diffusés cette semaine"
-    },
-    {
-      "type": "series",
       "id": "mc-fr-8c6456178a8448",
       "name": "Diffusion TV · Discovery · Épisodes diffusés cette semaine"
     },
@@ -675,6 +670,11 @@
       "type": "series",
       "id": "mc-fr-7ec8b28e33bc82",
       "name": "Diffusion TV · Disney Channel · Épisodes diffusés cette semaine"
+    },
+    {
+      "type": "series",
+      "id": "mc-fr-1163b415957542",
+      "name": "Diffusion TV · Disney Junior · Épisodes diffusés cette semaine"
     },
     {
       "type": "series",
@@ -733,11 +733,6 @@
     },
     {
       "type": "series",
-      "id": "mc-fr-c80efbdb665041",
-      "name": "Diffusion TV · ITV2 · Épisodes diffusés cette semaine"
-    },
-    {
-      "type": "series",
       "id": "mc-fr-721eb76c79a494",
       "name": "Diffusion TV · JTBC · Épisodes diffusés cette semaine"
     },
@@ -788,18 +783,8 @@
     },
     {
       "type": "series",
-      "id": "mc-fr-fbda3134d93bf6",
-      "name": "Diffusion TV · Sky Max · Épisodes diffusés cette semaine"
-    },
-    {
-      "type": "series",
       "id": "mc-fr-0d3e4cb8c1a658",
       "name": "Diffusion TV · STARZ · Épisodes diffusés cette semaine"
-    },
-    {
-      "type": "series",
-      "id": "mc-fr-a6fa7c311e1821",
-      "name": "Diffusion TV · SundanceTV · Épisodes diffusés cette semaine"
     },
     {
       "type": "series",
@@ -850,11 +835,6 @@
       "type": "series",
       "id": "mc-fr-2853324585d66b",
       "name": "Diffusion TV · USA Network · Épisodes diffusés cette semaine"
-    },
-    {
-      "type": "series",
-      "id": "mc-fr-3603281019e79c",
-      "name": "Diffusion TV · VH1 · Épisodes diffusés cette semaine"
     },
     {
       "type": "series",

@@ -1,13 +1,31 @@
 {
   "metas": [
     {
-      "id": "tmdb:103516",
+      "id": "tmdb:387",
       "type": "series",
-      "name": "Star Trek: Strange New Worlds",
-      "poster": "https://image.tmdb.org/t/p/w500/tv3W5DNDzeQaHFFrrqDZ4joCQcN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fZJs6xgU9dqIg9phIXjZAZOInzy.jpg",
-      "description": "Suivez Christopher Pike, Spock et le numéro un dans la décennie qui a précédé l'arrivée du capitaine Kirk à bord de l'Enterprise alors qu'ils explorent de nouveaux mondes autour de la galaxie.",
-      "releaseInfo": "2022"
+      "name": "Bob l'éponge",
+      "poster": "https://image.tmdb.org/t/p/w500/uUUzblARnPSjgqIGnrp799I13X2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/f3f5OzzYd8m3zN47DAjKs0sbx00.jpg",
+      "description": "Qui vit dans un ananas sous la mer ? Bob l'éponge bien sûr ! Suivez les aventures de cette éponge rigolote et de ses amis dont les bonnes intentions finissent toujours par leur attirer des ennuis. Heureusement, l'innocence et l'optimisme de Bob l'éponge les sauvent à chaque fois. Car on ne s'ennuie jamais à « Bikini Bottom ».",
+      "releaseInfo": "1999"
+    },
+    {
+      "id": "tmdb:7869",
+      "type": "series",
+      "name": "Les pingouins de Madagascar",
+      "poster": "https://image.tmdb.org/t/p/w500/heB1qKq57FKkPWCPnOxH9aGW598.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tdDRR3qnwwicr2DJbaaF8CDW168.jpg",
+      "description": "Une fois de plus, Skipper, Kowalski, Rico et Private, dictent leur loi à l'intérieur du zoo de Central Park. Afin de pouvoir garder leur voisinage heureux, les pingouins doivent parfois s'aventurer dans la jungle new-yorkaise afin de ramener de nouvelles trouvailles qui pourront les aider à préserver leur tranquillité. Mais alors que les quatre frères pensent avoir un contrôle absolu sur les autres animaux, un nouvel arrivant fait son apparition : Julien, le roi des lémuriens, doté d'un égo surdimensionné, il passe ses nuits à faire la fête avec ses copains. Exaspéré, les pingouins vont devoir rivaliser de nouveaux stratagèmes pour récupérer leur territoire. ",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:126824",
+      "type": "series",
+      "name": "Patrick Super Star",
+      "poster": "https://image.tmdb.org/t/p/w500/oyCsf5f93qrb4qD7jw1W6wGt3Ks.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kP7pCxfml6erWC9aB72ALtNawJq.jpg",
+      "description": "Patrick anime sa propre émissions dans sa maison familiale, avec le soutien de toute sa famille.",
+      "releaseInfo": "2021"
     }
   ]
 }

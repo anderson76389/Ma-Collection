@@ -10,6 +10,24 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1050981",
+      "type": "movie",
+      "name": "Being Heumann",
+      "poster": "https://image.tmdb.org/t/p/w500/9Wi0fxpo1e7Wn2cGVNu7niwdEP2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/25aB8RXP4mfQLFRSuEEhk0d0sTC.jpg",
+      "description": "Débrouillarde, défiant l'autorité et fatiguée d'être traitée comme un fardeau, Judy Heumann transforme son indignation en révolution. En 1977, cette dernière et plus de 100 manifestants luttant pour les droits des personnes handicapées envoient un message très clair : le système est défaillant, pas nous.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1288069",
+      "type": "movie",
+      "name": "Tenzing : à la conquête de l’Everest",
+      "poster": "https://image.tmdb.org/t/p/w500/yjeqiDKgOyrTROU5X4Rck01ldGF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tKvVgMfM6GS4AGZn2KhP8bX1mJm.jpg",
+      "description": "Un homme déterminé se lance dans une aventure périlleuse - et brave des obstacles apparemment insurmontables - pour réaliser son rêve d'être le premier à atteindre le sommet de l'Everest.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1281331",
       "type": "movie",
       "name": "The Social Reckoning",
@@ -23,7 +41,7 @@
       "type": "movie",
       "name": "UNABOMBER",
       "poster": "https://image.tmdb.org/t/p/w500/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/XohTvvPXiGhUKhiQSvmoMTnj2z.jpg",
       "description": "Ted Kaczynski, un jeune prodige qui intègre Harvard à 16 ans avant de basculer dans le terrorisme. Soumis à des expériences psychologiques discutables menées par le docteur Henry Murray, le passé tourmenté de Kaczynski refait surface des décennies plus tard, lorsque la traque d'Unabomber menée par l'agente du FBI Joanne Miller met en lumière les conséquences terrifiantes de l'ambition et de l'isolement.",
       "releaseInfo": "2026"
     },
@@ -160,24 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/lmcJpVfdXHgmgTOB0uohY6kDxSw.jpg",
       "background": "https://image.tmdb.org/t/p/w780/olz73f1yVWu5JlLDi8lI98Yekvl.jpg",
       "description": "Les ingénieurs, techniciens, soldats et pompiers qui sont entrés dans les réacteurs de Fukushima pour stabiliser le combustible nucléaire en fusion le 11 mars 2011 racontent.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1405769",
-      "type": "movie",
-      "name": "La Voix du Pardon 2",
-      "poster": "https://image.tmdb.org/t/p/w500/xu1B6kE637p3QWdp53YEZoAYIT7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qHBnPZA3J6hSl9a3Q1JAQzDeo2L.jpg",
-      "description": "Après le succès retentissant de \"I Can Only Imagine,\" Bart Millard, membre de MercyMe, vit un rêve : des salles combles, une communauté d'admirateurs dévoués et une carrière florissante. Mais son monde bascule sous le poids de défis dévastateurs, dont un diagnostic bouleversant pour son jeune fils, Sam.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1263012",
-      "type": "movie",
-      "name": "La Corde au cou",
-      "poster": "https://image.tmdb.org/t/p/w500/g7Y94KrUd0pDGRVVZQMh4n9FnYp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ulw8SrKbDeDrsSVNKPb5211AseI.jpg",
-      "description": "Indianapolis, 1977. Ruiné par une faillite immobilière, Tony Kiritsis prend en otage Richard Hall, le courtier qu’il tient responsable de tous ses malheurs. L'entrepreneur lie autour du cou de sa victime un fil métallique attaché à un fusil de chasse, lequel fera feu si la police tente d'intervenir. L’incident attire l’attention des médias, puis la faveur de l'opinion publique américaine, alors que le kidnappeur exige une énorme somme d’argent et une excuse publique du grand patron de la Meridian Mortgage Company. Alors que la prise d’otage se transforme en un gigantesque cirque médiatique, Kiritsis perd lentement mais sûrement le contrôle de la situation.",
       "releaseInfo": "2026"
     }
   ]

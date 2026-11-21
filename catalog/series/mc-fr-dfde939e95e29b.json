@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:291507",
+      "type": "series",
+      "name": "The Body",
+      "poster": "https://image.tmdb.org/t/p/w500/swEOVOmkYtTg3UBStrvt1yZJm26.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hYJqUoXRZnodGxgVZTM8uwr5kbC.jpg",
+      "description": "Le soir d'Halloween, un rite d'initiation vire au cauchemar, faisant basculer une troupe de danseuses dans la culpabilité catholique, les désirs impies et les visions étranges.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:292741",
       "type": "series",
       "name": "Nocturne",
@@ -68,7 +77,7 @@
       "type": "series",
       "name": "Lanterns",
       "poster": "https://image.tmdb.org/t/p/w500/pimX9PWeZS55yfmbO6H3nmnzFCX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6gqezQJ2mkm4jreWwLyOZy2Vf6i.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wJjnJbVUwPz0GADAgpFt9nWtzUu.jpg",
       "description": "Deux flics intergalactiques, la nouvelle recrue John Stewart et le légendaire Hal Jordan, sont confrontés à un sombre mystère sur Terre alors qu’ils enquêtent sur un meurtre au fin fond de l’Amérique.",
       "releaseInfo": "2026"
     },
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/7LLh9awJAkVQ6D5wHw4Y7OXqvrX.jpg",
       "background": "https://image.tmdb.org/t/p/w780/oHnlulBoE3XbI3HIYWY0dZfh5RH.jpg",
       "description": "Kay Scarpetta, médecin légiste de renom, reprend son ancien poste à la tête de l'institut médico-légal de Virginie, où elle enquête sur un meurtre troublant qui lui rappelle étrangement sa première grande affaire, il y a de ça plusieurs décennies. En 1998, Scarpetta enquête aux côtés du Sergent Pete Marino et de l'agent du FBI Benton Wesley sur une série de meurtres par strangulation.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:255661",
-      "type": "series",
-      "name": "Young Sherlock",
-      "poster": "https://image.tmdb.org/t/p/w500/ji4oDZbzc693TEVcSnMnnfxDCK4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8mmDLb108DoFZlE8sfc64TRqLvm.jpg",
-      "description": "À 19 ans, Sherlock Holmes est sans expérience, quand il se retrouve embarqué par le mystère autour d'un meurtre survenu à l’Université d’Oxford. Plongeant dans sa toute première affaire avec un manque certain de discipline, le jeune homme tente de démêler une conspiration qui pourrait changer sa vie à jamais.",
       "releaseInfo": "2026"
     }
   ]

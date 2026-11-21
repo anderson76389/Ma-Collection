@@ -106,6 +106,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1559984",
+      "type": "movie",
+      "name": "My Weird School",
+      "poster": "https://image.tmdb.org/t/p/w500/aNQ0ZaF5g2VIq4CXU1VswPFWsx5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xXKMcz8m9E3x7fMhKpu9nZYZ1py.jpg",
+      "description": "Un collégien fait équipe avec des professeurs et des amis pour contrecarrer une invasion extraterrestre...",
+      "releaseInfo": "2025"
+    },
+    {
       "id": "tmdb:1049574",
       "type": "movie",
       "name": "Hatch : Protection rapprochée",
@@ -165,15 +174,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/9BYv5epSgxgl293IlB8PsRVhd5a.jpg",
       "background": "https://image.tmdb.org/t/p/w780/6n9TvXnU9dbooBf0CIynTWyDPgV.jpg",
       "description": "Il se passe quelque chose d’étrange dans la Jungle des Ombres : les animaux nocturnes qui la peuplent s’enfuient en masse ! Etonnés par cette migration soudaine, Tracker et Carlos sont bien décidés à débusquer le responsable de cette fuite. Mais lorsque le pont menant à la jungle cède sous le poids des opossums, tapirs et autres pumas, seule la Pat’ Patrouille peut les aider !  Après un sauvetage in extremis, nos chiens préférés s’enfoncent dans la mystérieuse Jungle des Ombres, au grand dam de Tracker, qui déteste le noir. Dans l’obscurité, ils feront la rencontre de Lucita Mala, convaincue que ces terres lui appartiennent et déterminée à en chasser tous les animaux.  Aidé de ses amis, Tracker parviendra-t-il à surmonter sa peur ? La Pat’ Patrouille permettra-t-elle aux animaux nocturnes de retourner chez eux sains et saufs ?",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1062907",
-      "type": "movie",
-      "name": "Guns & Moses",
-      "poster": "https://image.tmdb.org/t/p/w500/xT88rTDQzZ1TOsiSpSY2jbvXVGM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bKZqIALkgdmFa28XBx1AzT7Qsyq.jpg",
-      "description": "Alors que sa communauté a été prise pour cible, un Rabbin décide de mener l'enquête lui-même. Convaincu que l'adolescent accusé de l'attaque est innocent, il prend les armes pour faire éclater la vérité et arrêter les vrais coupables.",
       "releaseInfo": "2025"
     }
   ]

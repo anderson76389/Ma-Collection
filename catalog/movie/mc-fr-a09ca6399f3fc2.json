@@ -57,10 +57,18 @@
     {
       "id": "tmdb:898704",
       "type": "movie",
-      "name": "Desert Warrior",
+      "name": "לוחם המדבר",
       "poster": "https://image.tmdb.org/t/p/w500/waxnw1NpzTPY5JkqWvu0muSopRJ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ohlNSR8MsHk5e6fcAxqAJmcz4Sm.jpg",
       "description": "Quand une jeune princesse refuse d'être soumise au redoutable empereur Kisra, une bataille éclate de telle sorte qu'elle change la région de l'ancienne Arabie Saoudite à jamais.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1078581",
+      "type": "movie",
+      "name": "Giant",
+      "poster": "https://image.tmdb.org/t/p/w500/RHgGB3VweOIWOvoheOl5OZykQO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/53Ey8CIdc9jeS7fB4TCyxQTCjm6.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -149,7 +157,7 @@
       "type": "movie",
       "name": "Plus fort que moi",
       "poster": "https://image.tmdb.org/t/p/w500/tHu3sZLLDuNOFo9UjFGl1ejnUJM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/YnuLRK3ZWJvKerShvn0Ceuv0fh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4mKczHAW4XPDXGk7V5k7Ui3dgUk.jpg",
       "description": "Dans les années 1980, John Davidson grandit avec le syndrome de Gilles de la Tourette, une pathologie encore largement méconnue. Entre incompréhension, stigmatisation et détermination, son parcours d’abord semé d'embûches se transforme en combat pour être reconnu tel qu’il est, au-delà des préjugés.",
       "releaseInfo": "2025"
     },
@@ -169,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/caNahrFGWoIvDLzLsLaHf2TXHpM.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ehX2ljRmDLyKS44rZz2kt4BkwkJ.jpg",
       "description": "Récemment diplômée de l'université, Whitney Wolfe fait preuve d'une détermination et d'une ingéniosité sans égales pour percer dans le secteur de la tech largement dominé par les hommes. Son instinct et son talent seront à l’origine d’une application de rencontres innovante et mondialement reconnue (deux, en fait), lui ouvrant ainsi la voie vers le titre de « plus jeune femme milliardaire autodidacte ».",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:556574",
-      "type": "movie",
-      "name": "Hamilton",
-      "poster": "https://image.tmdb.org/t/p/w500/itaIGLdCu0e28XQOEf7V3chd904.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uWVkEo9PWHu9algZsiLPi6sRU64.jpg",
-      "description": "Captation de la célèbre comédie musicale de Broadway récompensée par 11 Tony, Grammy et Olivier Awards, et par un prix Pulitzer. Hamilton raconte l'histoire d'Alexander Hamilton, l'un des Pères fondateurs de la nation américaine.",
       "releaseInfo": "2025"
     }
   ]

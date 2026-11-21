@@ -1,58 +1,49 @@
 {
   "metas": [
     {
-      "id": "tmdb:80054",
+      "id": "tmdb:254630",
       "type": "series",
-      "name": "Truth Be Told",
-      "poster": "https://image.tmdb.org/t/p/w500/8J6iJBYNNjmkrTN9iUxaZ2ttcQn.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cXjRGoYFAFkwPzhOZXFARPuYQ00.jpg",
-      "description": "Plongez dans le monde des podcasts d'affaires criminelles. Dans cette série policière récompensée aux NAACP Image Awards, la podcasteuse Poppy Parnell risque tout – y compris sa vie – pour faire triompher la vérité et la justice.",
-      "releaseInfo": "2019"
-    },
-    {
-      "id": "tmdb:130853",
-      "type": "series",
-      "name": "Carl Hiaasen’s Bad Monkey",
-      "poster": "https://image.tmdb.org/t/p/w500/3w12TTgQNuc68GOuS7aciBDZ03e.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yj8g84iczcJVg3zCxVGpfdEMMxg.jpg",
-      "description": "Un policier devenu inspecteur de restaurants dans le sud de la Floride se retrouve entraîné dans un monde cupide et corrompu quand un touriste découvre un bras coupé en pêchant. Et oui, il y a un singe.",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:312693",
-      "type": "series",
-      "name": "Small Prophets",
-      "poster": "https://image.tmdb.org/t/p/w500/vkp6w1iq72JrFQnpFkWPLWWMZGa.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/x5OnfR9mcpHvtsrXg1ZxB1Vk6lW.jpg",
-      "description": "Depuis la mystérieuse disparition de sa compagne il y a sept ans, la vie de Michael est en pause. Mais une recette trouvée dans un vieux grimoire pourrait bien lui apporter des réponses.",
+      "name": "12 12 12",
+      "poster": "https://image.tmdb.org/t/p/w500/awWRxpVXFJGbumYp7OM0slCjzRG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tjy25xpiFeo2gahl7N0hoxbRtG7.jpg",
+      "description": "Un braquage prend 12 mois à préparer, 12 heures à mettre à exécution, et un braqueur qui n'est pas arrêté dans les 12 jours ne le sera jamais. Dans un chassé-croisé haletant de trois temporalités, un agent du FBI et un criminel de carrière se livrent à un jeu dangereux du chat et de la souris, à travers l'Europe.",
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:156933",
+      "id": "tmdb:234310",
       "type": "series",
-      "name": "Présumé innocent",
-      "poster": "https://image.tmdb.org/t/p/w500/W7BbPGtyaHSJpobiQONjdUroJi.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qzi8rTS2KpkrYNWxC1tt7xkRlTY.jpg",
-      "description": "Un horrible meurtre bouleverse le bureau du procureur de Chicago quand un de ses membres est suspecté dans cette affaire, obligeant l’accusé à se battre pour garder sa famille unie.",
+      "name": "Where's Wanda?",
+      "poster": "https://image.tmdb.org/t/p/w500/jWooWwCB5ATJ5Z1XxSUR1bHg5qF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oWHbBNiTU2vhRSXh0iZ8E7YBUsj.jpg",
+      "description": "Suite à la disparition de leur fille, les Klatt décident de prendre les choses en main et élaborent un plan insensé : espionner le voisinage. Les apprentis espions vont mettre au jour une kyrielle de secrets stupéfiants.",
       "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:247767",
+      "id": "tmdb:258230",
       "type": "series",
-      "name": "The Studio",
-      "poster": "https://image.tmdb.org/t/p/w500/clnQO3HfqcsiqinWDkIuvoTXmoC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qqqo3P0txcP5ES3ZQ7YR4SmUwam.jpg",
-      "description": "Seth Rogen joue le nouveau directeur d'un studio de cinéma. Cherchant désespérément l'approbation des plus grands, lui et ses exécutifs de chez Continental Studios jonglent entre pression commerciale et désirs créatifs tout en essayant de continuer de faire vivre le cinéma.",
-      "releaseInfo": "2025"
+      "name": "Portée disparue",
+      "poster": "https://image.tmdb.org/t/p/w500/zXMkaqWinyCbkMSNwhi7htRV0e9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kgaQnDdDaPqvGN7i8LLz1aWJdjP.jpg",
+      "description": "La vie de l'inspecteur de police Ian Ridley s'est effondrée 11 ans auparavant lorsque sa jeune fille, Maggie, a disparu sans aucune trace. Désormais affecté au service d'appels d'urgences, il ne tient que grâce à son refus inébranlable d'accepter qu'elle est perdue à jamais. Un jour qu'il reçoit un appel de détresse d'une adolescente, il est convaincu qu'il s'agit de Maggie, et met dès lors tout en oeuvre pour la retrouver et réunir sa famille, quoi qu'il en coûte.",
+      "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:221079",
+      "id": "tmdb:204490",
       "type": "series",
-      "name": "The Last Frontier",
-      "poster": "https://image.tmdb.org/t/p/w500/ojnK03veSJcI304OaBUVLSb3OGi.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pzxIAuKHqQqCFOxh2ALmHUgXkOD.jpg",
-      "description": "Quand un avion de transport de prisonniers s’écrase près d'une ville dans les étendues sauvages de l’Alaska, le marshal de la région lance une chasse à l'homme contre une dizaine de détenus violents et le cerveau qui se cache derrière le crash.",
-      "releaseInfo": "2025"
+      "name": "Criminal Record",
+      "poster": "https://image.tmdb.org/t/p/w500/1vTUmvdV0BEfxy4A8l8s0h0cSlp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/Q9FMVA1UvX8cnNImaZc0dlpMdB.jpg",
+      "description": "Au cœur de Londres, un appel anonyme précipite deux brillants policiers — une jeune femme au début de sa carrière et un homme bien placé déterminé à protéger son héritage — dans un combat pour rectifier une ancienne erreur judiciaire.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:245318",
+      "type": "series",
+      "name": "Margo a des problèmes d'argent",
+      "poster": "https://image.tmdb.org/t/p/w500/vnxkopX2BRNlUbE5xtb6S62eSN6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r1lGjwTRF0RGYFHzvt3SupArmRy.jpg",
+      "description": "Fille d'une ancienne serveuse chez Hooters et d'un ex-catcheur pro, Margo, écrivaine en herbe, vient d'arrêter ses études. Face à l'arrivée d'un bébé et d'une pile de factures grandissante qu'elle ne peut payer, Margo doit trouver une solution pour s'en sortir.",
+      "releaseInfo": "2026"
     }
   ]
 }

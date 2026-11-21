@@ -9,6 +9,13 @@
       "releaseInfo": "1999"
     },
     {
+      "id": "tmdb:340088",
+      "type": "series",
+      "name": "Big Bargain Holiday Showdown",
+      "poster": "https://image.tmdb.org/t/p/w500/ifqxuZG0GgLMc4u2gukJVCGz74x.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:299811",
       "type": "series",
       "name": "Sin City Rehab",
@@ -17,12 +24,12 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:333547",
+      "id": "tmdb:308164",
       "type": "series",
-      "name": "House Shock",
-      "poster": "https://image.tmdb.org/t/p/w500/aQZAj3iFqj9u6V12x0deHvJzkD2.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/g8hdUpA5H4XjFonmJp3c2WqEBvj.jpg",
-      "releaseInfo": "2026"
+      "name": "My Lottery Dream Home: Where Are They Now?",
+      "poster": "https://image.tmdb.org/t/p/w500/2VbB5OE3BFN7pibmMSoNGCL9aUQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zILjkh460xzTxR8YneefCPeX09Q.jpg",
+      "releaseInfo": "2025"
     }
   ]
 }

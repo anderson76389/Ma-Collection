@@ -10,13 +10,21 @@
       "releaseInfo": "2010"
     },
     {
-      "id": "tmdb:17937",
+      "id": "tmdb:46268",
       "type": "series",
-      "name": "Ghost Adventures",
-      "poster": "https://image.tmdb.org/t/p/w500/xLJZuDxdeUqRFHFlqs0mIk9faMR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/u64huzTnF3jEYUXJ4BDlpHy2L3K.jpg",
-      "description": "L'enquêteur paranormal Zak Bagans et son équipe, Nick Groff, Aaron Goodwin, Billy Tolley et Jay Wasley, recherchent des lieux hantés au niveau national et international. Au cours de leur enquête, Zak et son équipe se familiarisent avec la région, interrogent les habitants sur les lieux hantés et rencontrent les mauvais esprits qui hanteraient ces lieux.",
-      "releaseInfo": "2008"
+      "name": "Alcool de contrebande",
+      "poster": "https://image.tmdb.org/t/p/w500/gByx9wYjhQ02RnImgHGsaV8htqN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jH8BWwd1kIfY3N614o9idhW8rOJ.jpg",
+      "description": "\"Alcool de contrebande\" suit le quotidien de bouilleurs d'alcool hors-la-loi qui doivent répondre à une forte demande des clients, tout en évitant l’attention des autorités.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:21665",
+      "type": "series",
+      "name": "Monsters Inside Me",
+      "poster": "https://image.tmdb.org/t/p/w500/njyUjZvngl2MzAMN07WW5qlv4Jl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zPwurtClWPxo5xlVOGnwzRsd4EI.jpg",
+      "releaseInfo": "2009"
     },
     {
       "id": "tmdb:111633",

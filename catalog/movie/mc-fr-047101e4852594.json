@@ -10,6 +10,60 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1543469",
+      "type": "movie",
+      "name": "Heartland",
+      "poster": "https://image.tmdb.org/t/p/w500/zhxlzxBlO1sWB1rPn7RmAoeQ2na.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/psTMZj8gvsfYVfvd7FZCHH4xL6P.jpg",
+      "description": "Misty Jones, ancienne légende de la musique country, sort de sa retraite après la disparition de sa nièce, une chanteuse en pleine ascension. Son enquête va la conduire à affronter son propre passé et découvrir les bas-fonds de Nashville, où les apparences sont trompeuses, et où Misty elle-même n'est pas celle qu'elle semble être.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1757174",
+      "type": "movie",
+      "name": "Noël dans ta peau",
+      "poster": "https://image.tmdb.org/t/p/w500/5u3H664XvI8bylp0yi8uGSq895n.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4BsOLok9WaTTTcSpmoMtCLERScS.jpg",
+      "description": "Deux sœurs aux personnalités complètement différentes se voient contraintes d'échanger leurs vies quelques semaines avant Noël. Dans leurs nouveaux environnements, elles font face à leurs choix et trouvent l'amour au moment où elles s'y attendaient le moins.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1518204",
+      "type": "movie",
+      "name": "Allen",
+      "poster": "https://image.tmdb.org/t/p/w500/alhhrpj1PSAn5bfz4Os1k7Bweoj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/51fGmBW7WjyJouP9TjIcxRpCUNk.jpg",
+      "description": "Vingt ans après sa rencontre avec un alien, Petey n'a jamais pu tourner la page. Maintenant, son vieil ami est de retour, mais pour une raison compliquée... et inattendue.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1616687",
+      "type": "movie",
+      "name": "Never Surrender",
+      "poster": "https://image.tmdb.org/t/p/w500/nkE9esa0p8vBmY38jQasmVVRqoc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/umxN2kMcUm6VoxSOdcEcQoXuC4q.jpg",
+      "description": "Quand un gang meurtrier prend d'assaut sa maison isolée, un vétéran rongé par le remords et ses petits-enfants qu'il connaît à peine unissent leurs forces pour survivre.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1559980",
+      "type": "movie",
+      "name": "Le Gospel de Noël",
+      "poster": "https://image.tmdb.org/t/p/w500/ihbN6lNDXKe6w9xE6IBFMVF2Rkr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/p1Ag7etCR5yUvElhwZmWsMo5IFu.jpg",
+      "description": "Un pasteur en proie au doute emménage avec sa famille dans un quartier difficile de New York, où ils doivent sauver une église délabrée de la fermeture avant Noël.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1800250",
+      "type": "movie",
+      "name": "Un chocolatier à croquer pour Noël",
+      "poster": "https://image.tmdb.org/t/p/w500/pnO8USzjsQLcyJiZuBAu1UYYYqE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jQsvmKFWQcWkgPqtY5bzzuMzpic.jpg",
+      "description": "Charlotte, chiropractrice dévouée à son travail, reçoit un mystérieux chocolat dans son cabinet. Encouragée par sa meilleure amie Gemma et sa secrétaire Chloe, elle remonte la piste jusqu'à une chocolaterie où elle rencontre Cody, le patron. Celui-ci accepte de l'aider à identifier l'expéditeur anonyme, sans révéler qu'il est lui-même à l'origine de cette attention délicate.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1801799",
       "type": "movie",
       "name": "홈커밍",
@@ -35,9 +89,10 @@
     {
       "id": "tmdb:1630420",
       "type": "movie",
-      "name": "แก๊งโอเวอร์",
+      "name": "Overacting",
       "poster": "https://image.tmdb.org/t/p/w500/bA9gZIKZURHgOnQnE3UNVgv8JkR.jpg",
       "background": "https://image.tmdb.org/t/p/w780/5pMZA0EdgE66jcSCkfDCAtWiizk.jpg",
+      "description": "Quand son père ex-flic se réveille persuadé d'être encore en service, Nuch fait ce que tout le monde ferait : recruter ses amis déjantés pour monter une fausse unité de police !",
       "releaseInfo": "2026"
     },
     {
@@ -118,57 +173,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/e4N7M52cBbyi24xLga8yI6yt1u1.jpg",
       "background": "https://image.tmdb.org/t/p/w780/8I4YFWgi9IZW4VUi398A0BqLnm.jpg",
       "description": "À New Delhi, Ajay Dikshit, un policier corrompu, voit ses projets de gains faciles voler en éclats lorsqu'une jeune femme grièvement blessée est jetée d'une voiture en marche. Déterminé à découvrir son identité, il se retrouve malgré lui au cœur d'une vaste conspiration aux ramifications internationales. Au fil d'une nuit particulièrement mouvementée, chaque décision l'entraîne un peu plus dans un engrenage dangereux, le contraignant à choisir entre ses intérêts personnels et son devoir de policier.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1729010",
-      "type": "movie",
-      "name": "Le pacte des innocentes",
-      "poster": "https://image.tmdb.org/t/p/w500/7SS3Hspxj19h0e3pRrbgv6Vqj2s.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/Y30JqkSUjaCXDRfXqFy1hPSBFb.jpg",
-      "description": "Ellie, Jessica, Kendall et Lily sont quatre lycéennes inséparables. Lorsque la mère d'Ellie annonce leur déménagement, la jeune fille prévoit de s'enfuir avec son petit ami Caleb après une fête. Mais la soirée tourne mal lorsqu'elle apprend que Caleb l'aurait trompée. Quelques heures plus tard, Ellie disparaît sans laisser de trace. Tandis que des photos compromettantes de Jessica circulent dans le lycée, les soupçons se multiplient. Déterminée à retrouver sa fille, Tina, la mère d'Ellie, mène l'enquête avec le lieutenant Patel. Très vite, secrets, jalousies et trahisons menacent de faire éclater le groupe d'amies.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1802674",
-      "type": "movie",
-      "name": "Hot Wheels La course est lancée! L'attaque du T-Rex",
-      "poster": "https://image.tmdb.org/t/p/w500/iIc0OkYnf06kv5Zp0IYVwuvffgh.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dK69ml1Y34MrEovK4ZyizRiWbEH.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1773759",
-      "type": "movie",
-      "name": "Seriously Single Too",
-      "poster": "https://image.tmdb.org/t/p/w500/ocSY3cX4g6hxy4EkQWXPjrrdzCI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vVVTDymwLVogjz4JxoNv1BAfYCH.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1512493",
-      "type": "movie",
-      "name": "LEGO Friends: Heartlake the Musical",
-      "poster": "https://image.tmdb.org/t/p/w500/6PMMEU8eHSN0TlPG6koC8EEvavx.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/AabTg6wBsygQYoyOqpbe6miWovJ.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1623256",
-      "type": "movie",
-      "name": "The Storm",
-      "poster": "https://image.tmdb.org/t/p/w500/kjAsuaDcNsemYTQ8tUorpVE1FJb.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zN5mRDu6jOYt5EJGYGjhWgOGwor.jpg",
-      "description": "Pour ses 45 ans, Filip convie ses proches à dîner dans la somptueuse ferme qu'il vient d'acheter avec sa femme dans le nord de la Suède. Ce qu'ils ignorent, c'est qu'une violente tempête approche, et que tous vont se retrouver pris au piège. Peu à peu, les masques tombent et la tension monte. Alors que la panique s'installe et que la gravité de la situation devient évidente, les murs se resserrent, les secrets se dévoilent… et des sentiments inattendus émergent.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1545690",
-      "type": "movie",
-      "name": "WWE Money in the Bank 2026",
-      "poster": "https://image.tmdb.org/t/p/w500/wRFDnH3XzwDKV9QU3DTYNU8XX2R.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vdwmT1oZcDgkjvmyu7OYw1z6GYx.jpg",
-      "description": "L'édition 2026 de Money in the Bank (commercialisé sous le nom de Money in the Bank: New Orleans) est un Premium Live Event de catch (lutte professionnelle) produit par la World Wrestling Entertainment, une fédération de catch américaine qui est télédiffusée et visible en paiement à la séance sur Netflix. L'événement aura lieu le 10 octobre 2026 au Smoothie King Center à la Nouvelle-Orléans (Louisiane). Il s'agit de la 17e édition de Money in the Bank.",
       "releaseInfo": "2026"
     }
   ]

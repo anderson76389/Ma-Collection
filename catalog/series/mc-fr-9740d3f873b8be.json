@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:254630",
+      "type": "series",
+      "name": "12 12 12",
+      "poster": "https://image.tmdb.org/t/p/w500/awWRxpVXFJGbumYp7OM0slCjzRG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tjy25xpiFeo2gahl7N0hoxbRtG7.jpg",
+      "description": "Un braquage prend 12 mois à préparer, 12 heures à mettre à exécution, et un braqueur qui n'est pas arrêté dans les 12 jours ne le sera jamais. Dans un chassé-croisé haletant de trois temporalités, un agent du FBI et un criminel de carrière se livrent à un jeu dangereux du chat et de la souris, à travers l'Europe.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:333101",
       "type": "series",
       "name": "Treasure Island",
@@ -167,15 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/jPOKjzCG8tgUigtWyA4ME9fNeia.jpg",
       "background": "https://image.tmdb.org/t/p/w780/yGJGwt7DdIWTUXuahLfhcH1gi7G.jpg",
       "description": "Le ranch du Yellowstone derrière lui, Kayce Dutton rejoint une unité des U.S. Marhals. Cowboy et ancien Navy SEAL, il apporte la justice dans le Montana. Lui et ses coéquipiers sont le dernier rempart de la région dans la guerre contre la violence.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:211178",
-      "type": "series",
-      "name": "The Gray House",
-      "poster": "https://image.tmdb.org/t/p/w500/wE5jZDeQuiulaAtjeaEq0y8tpey.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/m8BuLCx997QVljT0wdss62QaRre.jpg",
-      "description": "La véritable histoire de ces femmes méconnues qui ont fait basculer, en faveur du Nord, la guerre civile américaine. Une personnalité mondaine de l’État de Virginie, sa mère, une ancienne esclave et l’une des plus célèbres courtisanes de la ville agissent dans l’ombre du pouvoir confédéré. Elles transforment leur Underground Railroad en un réseau d’espionnage clandestin efficace et bien plus dangereux, risquant leur vie et leur liberté pour favoriser la victoire et sauver la démocratie américaine.",
       "releaseInfo": "2026"
     }
   ]

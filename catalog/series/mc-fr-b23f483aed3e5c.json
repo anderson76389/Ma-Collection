@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:335418",
+      "type": "series",
+      "name": "Super Why's Comic Book Adventures",
+      "poster": "https://image.tmdb.org/t/p/w500/vWeu4okDtG43iVg2s1QwwVbzxT9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3v4SLQTP1saskjnffAToVocqVhE.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:330664",
       "type": "series",
       "name": "Eons: Life and Death on Pangea",

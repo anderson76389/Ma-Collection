@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:336418",
+      "type": "series",
+      "name": "Meurtre au cimetière",
+      "poster": "https://image.tmdb.org/t/p/w500/aSD3YkLuTBnoYgyTCXtZRAxezNP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/Ag8tSoa5uLQ6W9m3YR1qS0FAUyh.jpg",
+      "description": "Lorsqu'un policier de la Nouvelle-Orléans tente d'élucider le meurtre du propriétaire d'un cimetière pour animaux, il découvre un sombre passé.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:331616",
       "type": "series",
       "name": "La Mort de la femme du pasteur",
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/duQjtZie97SNV7xHXCa7guroI7d.jpg",
       "background": "https://image.tmdb.org/t/p/w780/5nWLwHIX9nAgsreSY6MaAc39gm.jpg",
       "description": "L'histoire sur un crime où la réalité dépasse la fiction au sujet de la tentative de vol d'une pierre précieuse, racontée par les gangsters eux-mêmes et la police à leurs trousses.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:285084",
-      "type": "series",
-      "name": "Disparues : Le tueur de Long Island",
-      "poster": "https://image.tmdb.org/t/p/w500/wKWAcHYcw9UCYtCBupnw53PTBg3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xM1ZNOa7NshPXcCPmy2R1Ui66Th.jpg",
-      "description": "La mystérieuse disparition de Shannan Gilbert en 2010 provoque une réaction en chaîne macabre dans cette série sur les meurtres qui ont eu lieu à Gilgo Beach. Une série sous haute tension sur des crimes réels retrace la traque du tueur de Long Island vue par ses victimes, leurs proches et la police.",
       "releaseInfo": "2025"
     }
   ]

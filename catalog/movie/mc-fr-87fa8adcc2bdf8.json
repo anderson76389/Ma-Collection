@@ -10,11 +10,19 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:607833",
+      "type": "movie",
+      "name": "인턴",
+      "poster": "https://image.tmdb.org/t/p/w500/nPu9o9yHwN8Gu2Yc1av6KKMbXZf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/OroFBNgB2RBzj2X65CweVhhQQG.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1235769",
       "type": "movie",
       "name": "경주기행",
       "poster": "https://image.tmdb.org/t/p/w500/2dAd2APyFUyJ6qEv9VFHdHQtQI6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/A58FVNOQ9qXxt0vdKGQ9kCo17El.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AnsHGXWGBZBppDuYzLarXOOeL1u.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -163,15 +171,6 @@
       "name": "바이러스",
       "poster": "https://image.tmdb.org/t/p/w500/rbWdnNmnSr46Z5Wk2zYG0AWICO7.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zwFD32lmTDFLfwjCH4RvotH6LaP.jpg",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1247002",
-      "type": "movie",
-      "name": "L'ombre, la femme et le couteau",
-      "poster": "https://image.tmdb.org/t/p/w500/4AZVZJojg1w6EPMHRzMUddtmCJq.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fepnF3W4VP3s8ui8nDtrlsFVYwO.jpg",
-      "description": "Hornclaw est une tueuse légendaire âgée d'une soixantaine d'années, spécialisée dans le contrôle des maladies, c'est à dire l'élimination des parasites humains, depuis plus de quarante ans. Peut-être parce qu'elle vieillit, elle éprouve une étrange compassion pour le médecin qui l'a soignée. Un jour, un jeune tueur nommé Bullfight se présente à elle. Une étrange relation se noue entre eux...",
       "releaseInfo": "2025"
     }
   ]

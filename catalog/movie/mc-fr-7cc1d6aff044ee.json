@@ -13,7 +13,7 @@
       "id": "tmdb:1596275",
       "type": "movie",
       "name": "Drive – The Pretenders",
-      "poster": "https://image.tmdb.org/t/p/w500/bLDFCD3vMxeJJ5o8F4FOksnb0Fd.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/y9NYqbFpLBriCFC74FET3y1Tfbp.jpg",
       "background": "https://image.tmdb.org/t/p/w780/hbz4aeVsjnKb2HRoFbbr46Egh8y.jpg",
       "description": "Une jeune mécanicienne accepte de jouer la fiancée d'un champion automobile en pleine disgrâce, en apparence pour aider à redorer l'image du pilote, en secret pour s'offrir sa chance au volant. Mais le mensonge menace bientôt de tout détruire, y compris ce qui est devenu bien plus qu'un simple arrangement…",
       "releaseInfo": "2026"
@@ -41,14 +41,6 @@
       "name": "Das gewisse Etwas",
       "poster": "https://image.tmdb.org/t/p/w500/dJnkqo2KE5s5zqRQsg5kvGMMHC1.jpg",
       "background": "https://image.tmdb.org/t/p/w780/psKWMzfuVZ28TGXiyhmKni5jRsf.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1599784",
-      "type": "movie",
-      "name": "Staatsschutz",
-      "poster": "https://image.tmdb.org/t/p/w500/jrlfxna2TAVQUhWjbGm0I9GjN1e.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/siifAFhxsc8hwn4lru4GtdQ5OkN.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -172,6 +164,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/fHNoUt8bTg5bRr56MUjXYdBpltc.jpg",
       "background": "https://image.tmdb.org/t/p/w780/sVTrej8EtW6TtSQPuvtZumikGYO.jpg",
       "description": "Barbara et Heli sont amoureux et heureux. Clowns professionnels, ils savent rire de tout et mènent une vie joyeuse avec leurs 2 enfants. Quand un accident emporte Héli et les enfants, Barbara doit trouver un nouveau chemin. Portée par les souvenirs qu’elle chérit, elle prouve que l’amour ne meurt jamais et qu’il faut toujours oser embrasser la vie.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1223747",
+      "type": "movie",
+      "name": "Ein fast perfekter Antrag",
+      "poster": "https://image.tmdb.org/t/p/w500/enPFyKfbcy3Lyrdsvc0FXay9HRb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/76mKQUn3q5VJVJHI2RmQ4l5vfA3.jpg",
       "releaseInfo": "2026"
     }
   ]

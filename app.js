@@ -17,7 +17,7 @@ let activeDrawerFolder = null;
 
 // Bump this alongside the style.css?v=NN / app.js?v=NN cache-busters in index.html
 const MA_COLLECTION_VERSION = 'v0.92';
-const MA_COLLECTION_UPDATED = 'v0.92 • Sep 2026';
+const MA_COLLECTION_UPDATED = 'v0.92 • sept. 2026';
 
 // Newest entry first. Bump MA_COLLECTION_VERSION above whenever a new entry is added here —
 // the title-screen "what's new" banner compares a visitor's last-seen version against this list.
@@ -1468,7 +1468,7 @@ function renderFolderGrid() {
     const hoverMarkup = folder.focusGifUrl && gifsAllowedForCategory(category)
       ? isMotionVideoUrl(hoverGif)
         ? `<video class="card-gif-img" data-video="${hoverGif}" poster="${baseImg}" muted loop playsinline preload="none" aria-hidden="true"></video>`
-        : `<img src="${hoverGif}" class="card-gif-img" alt="${folder.title} preview" loading="lazy">`
+        : `<img data-gif="${hoverGif}" class="card-gif-img" alt="" aria-hidden="true">`
       : '';
 
     // Deliberately NOT gated on folder.hideTitle, unlike the hero and detail
@@ -1477,7 +1477,7 @@ function renderFolderGrid() {
     // card in the grid at once — a much larger change than the duplicated
     // hero title this was meant to fix, and one the owner should see first.
     const logoOverlayHtml = folder.titleLogoUrl
-      ? `<div class="card-logo-overlay"><img src="${folder.titleLogoUrl}" alt="${folder.title}" class="card-logo-img"></div>`
+      ? `<div class="card-logo-overlay"><img src="${folder.titleLogoUrl}" alt="${folder.title}" class="card-logo-img" loading="lazy" decoding="async"></div>`
       : `<h4 class="card-text-title">${highlightMatch(folder.title, query)}</h4>`;
 
     // Badge colour class based on source ratio
@@ -1492,7 +1492,7 @@ function renderFolderGrid() {
     const folderId = (folder.id || '').toLowerCase();
     const isNewFolder = categoryId.includes('trending') || categoryId.includes('new')
       || folderId.includes('trending') || folderId.includes('new');
-    const newBadgeHtml = isNewFolder ? `<span class="new-badge">New</span>` : '';
+    const newBadgeHtml = isNewFolder ? `<span class="new-badge">Nouveau</span>` : '';
 
     const controlsHeader = showArrows
       ? `<div class="card-controls-header">
@@ -1521,7 +1521,7 @@ function renderFolderGrid() {
 
     card.innerHTML = `
       <div class="card-artwork-wrapper">
-        <img src="${baseImg}" class="card-cover-img" alt="${folder.title}" loading="lazy">
+        <img src="${baseImg}" class="card-cover-img" data-translate-alt alt="${folder.title}" loading="lazy">
         ${hoverMarkup}
       </div>
       <div class="card-overlay-gradient"></div>
@@ -1537,8 +1537,8 @@ function renderFolderGrid() {
       if (video) video.pause();
     });
     card.addEventListener('mouseenter', () => {
-      startHoverVideo(card);
-      setCinematicWallpaper(folder);
+      if (!reducePreviewMotion.matches) setCinematicWallpaper(folder);
+      attachCardGif(card, '.card-gif-img');
     });
 
     if (showArrows) {
@@ -1909,11 +1909,11 @@ function buildNuvioHero() {
       <div class="nv-hero-actions">
         <button class="nv-hero-btn nv-hero-play nv-focusable" data-action="play">
           <svg viewBox="0 0 24 24" fill="currentColor" style="width:16px;height:16px;"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
-          Play
+          Ouvrir
         </button>
         <button class="nv-hero-btn nv-hero-info nv-focusable" data-action="info">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" style="width:16px;height:16px;"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
-          More Info
+          Plus d’infos
         </button>
       </div>
       <div class="nv-hero-dots" id="nv-hero-dots"></div>
@@ -1968,6 +1968,7 @@ function setPreviewHero(folder, category) {
 // that are currently in the collection so the screen never feels frozen. Any
 // hover/focus pauses it (the hero follows the cursor instead); leaving the
 // screen resumes it. Dots under the hero show position and allow jumping.
+const reducePreviewMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 let heroCarouselTimer = null;
 let heroCarouselPaused = false;
 let heroCarouselIdx = 0;
@@ -1987,7 +1988,7 @@ function renderHeroDots() {
   if (slides.length < 2) { dotsWrap.innerHTML = ''; return; }
   if (heroCarouselIdx >= slides.length) heroCarouselIdx = 0;
   dotsWrap.innerHTML = slides.map((_, i) =>
-    `<button class="nv-hero-dot ${i === heroCarouselIdx ? 'active' : ''}" data-idx="${i}" aria-label="Show featured folder ${i + 1}"></button>`
+    `<button class="nv-hero-dot ${i === heroCarouselIdx ? 'active' : ''}" data-idx="${i}" aria-label="Afficher le dossier ${i + 1}"></button>`
   ).join('');
   dotsWrap.querySelectorAll('.nv-hero-dot').forEach(dot => {
     dot.addEventListener('click', (e) => {
@@ -2013,10 +2014,9 @@ function showHeroSlide(i) {
 function startHeroCarousel() {
   stopHeroCarousel();
   renderHeroDots();
-  if (getHeroCarouselFolders().length < 2) return;   // nothing to rotate through
+  if (document.hidden || reducePreviewMotion.matches || getHeroCarouselFolders().length < 2) return;
   heroCarouselTimer = setInterval(() => {
-    if (heroCarouselPaused) return;
-    if (document.getElementById('preview-detail')) return;   // detail sheet is open
+    if (heroCarouselPaused || document.getElementById('preview-detail')) return;
     showHeroSlide(heroCarouselIdx + 1);
   }, HERO_CAROUSEL_MS);
 }
@@ -2025,6 +2025,23 @@ function stopHeroCarousel() {
 }
 function pauseHeroCarousel() { heroCarouselPaused = true; }
 function resumeHeroCarousel() { heroCarouselPaused = false; }
+
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden) {
+    stopHeroCarousel();
+    document.querySelectorAll('video.card-gif-img, video.nv-card-gif').forEach(video => video.pause());
+  } else if (isPreviewActive) {
+    startHeroCarousel();
+  }
+});
+reducePreviewMotion.addEventListener('change', () => {
+  if (reducePreviewMotion.matches) {
+    stopHeroCarousel();
+    document.querySelectorAll('video.card-gif-img, video.nv-card-gif').forEach(video => video.pause());
+  } else {
+    if (isPreviewActive) startHeroCarousel();
+  }
+});
 
 // ---- Catalog row --------------------------------------------------------
 // No category icon: emojis are only shown if they actually exist in the
@@ -2141,7 +2158,7 @@ function buildNuvioCard(folder, category, catIdx) {
     </div>`;
 
   card.innerHTML = `
-    <img class="nv-card-img" src="${imgSrc}" alt="${folder.title}" loading="lazy">
+    <img class="nv-card-img" src="${imgSrc}" data-translate-alt alt="${folder.title}" loading="lazy">
     ${gifHtml}
     <div class="nv-card-gradient"></div>
     <span class="nv-card-meta" title="${isOn ? stats.active + ' active source' + (stats.active !== 1 ? 's' : '') : ''}">${isOn ? stats.active : ''}</span>
@@ -2654,15 +2671,14 @@ function startHoverVideo(card) {
   const promise = video.play();
   if (promise?.catch) promise.catch(() => {});
 }
-function attachCardGif(card) {
-  const media = card && card.querySelector('.nv-card-gif[data-gif]');
+function attachCardGif(card, selector = '.nv-card-gif') {
+  if (document.hidden || reducePreviewMotion.matches) return;
+  const media = card?.querySelector(selector);
   if (media?.tagName === 'VIDEO') {
     startHoverVideo(card);
-  } else if (media) {
-    media.src = media.getAttribute('data-gif');
-    media.removeAttribute('data-gif');
-  } else {
-    startHoverVideo(card);
+  } else if (media?.dataset.gif) {
+    media.src = media.dataset.gif;
+    delete media.dataset.gif;
   }
 }
 function handlePreviewKeydown(e) {
@@ -2969,8 +2985,8 @@ function updateControlCenterStats() {
   const estBytes = (selectedFolders * 1350) + (selectedSources * 420) + 5120;
   const estSizeKB = (estBytes / 1024).toFixed(1);
 
-  setStatValue(document.getElementById('selected-folders-count'), `${selectedFolders} of ${totalFolders}`, false);
-  setStatValue(document.getElementById('selected-sources-count'), `${selectedSources} of ${totalSources}`, false);
+  setStatValue(document.getElementById('selected-folders-count'), `${selectedFolders} sur ${totalFolders}`, false);
+  setStatValue(document.getElementById('selected-sources-count'), `${selectedSources} sur ${totalSources}`, false);
   notifyAccountSave();
 }
 
@@ -3152,7 +3168,7 @@ async function exportForSelfHost() {
   const popup = document.getElementById('popup-overlay');
   if (popup) popup.classList.add('open');
   const popupTitle = document.getElementById('popup-title');
-  if (popupTitle) popupTitle.textContent = 'Generating Self-Host Export...';
+  if (popupTitle) popupTitle.textContent = 'Préparation de l’export pour votre serveur…';
 
   try {
     const result = await window.MaCollectionServices.generateSelfHostExport();
@@ -3187,7 +3203,7 @@ async function exportForSelfHost() {
     showToast('Configuration AIO et collection locale téléchargées !', 'success');
   } catch (err) {
     if (popup) popup.classList.remove('open');
-    showToast('Error generating export: ' + err.message, 'error');
+    showToast('Impossible de générer l’export. ' + err.message, 'error');
     console.error(err);
   }
 }
@@ -3495,7 +3511,7 @@ function applyLocaleDict(collections, localeDict) {
 let frenchCatalogLocalePromise = null;
 async function getFrenchCatalogLocale() {
   if (!frenchCatalogLocalePromise) {
-    frenchCatalogLocalePromise = fetch('locales/fr.json?v=15', { cache: 'no-cache' })
+    frenchCatalogLocalePromise = fetch('locales/fr.json?v=23', { cache: 'no-cache' })
       .then(async (res) => {
         if (!res.ok) throw new Error('Dictionnaire des catalogues français inaccessible (HTTP ' + res.status + ')');
         const dict = await res.json();
@@ -4220,11 +4236,6 @@ function bindGlobalEvents() {
 
   // Title screen actions
   document.getElementById('title-changelog-dismiss')?.addEventListener('click', dismissChangelogBanner);
-  // The walkthrough and manual-build routes are real but rare — folded behind
-  // a disclosure so a first-timer weighs two choices, not four.
-  const moreToggle = document.getElementById('title-more-toggle');
-  const morePanel = document.getElementById('title-more-panel');
-  const titleOverlay = document.getElementById('title-screen-overlay');
   const showcase = document.getElementById('title-portfolio-showcase');
   const scrollIndicator = document.getElementById('title-scroll-indicator');
 
@@ -4233,35 +4244,6 @@ function bindGlobalEvents() {
       showcase.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   }
-
-  if (titleOverlay && showcase) {
-    const handleTitleScroll = () => {
-      if (titleOverlay.scrollTop > 30) {
-        showcase.classList.remove('is-peeking');
-      } else {
-        showcase.classList.add('is-peeking');
-      }
-    };
-    titleOverlay.addEventListener('scroll', handleTitleScroll, { passive: true });
-    showcase.addEventListener('mouseenter', () => {
-      showcase.classList.remove('is-peeking');
-    });
-    showcase.addEventListener('mouseleave', () => {
-      if (titleOverlay.scrollTop <= 30) {
-        showcase.classList.add('is-peeking');
-      }
-    });
-  }
-
-  // Keyboard support (Enter / Space) for portfolio cards
-  document.querySelectorAll('.portfolio-card').forEach((card) => {
-    card.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        card.click();
-      }
-    });
-  });
 
   document.getElementById('title-screen-walkthrough')?.addEventListener('click', () => {
     hideTitleScreen();
@@ -5252,40 +5234,69 @@ function handleImportToKovelyxClick() {
 
 let _commandPaletteOpen = false;
 let _commandHighlightIdx = 0;
+let commandTrigger = null;
 
 function _buildCommandRegistry() {
+  const onHome = document.getElementById('title-screen-overlay')?.classList.contains('active');
+  const tools = [
+    ['title-screen-import-all', 'Configurer ma collection', ['assistant', 'région', 'filtres']],
+    ['title-screen-customize', 'Éditeur rapide', ['dossiers', 'sélection']],
+    ['title-screen-start', 'Éditeur cinématique', ['aperçu', 'télévision', 'mobile']],
+    ['title-screen-studio', 'Studio des profils', ['affiches', 'sections', 'brouillon']],
+    ['title-screen-restore', 'Reprendre une collection', ['sauvegarde', 'restaurer', 'fichier JSON']],
+    ['title-screen-collection-only', 'Envoi rapide', ['export', 'importer', 'Kovelyx']],
+    ['title-screen-walkthrough', 'Visite guidée', ['aide', 'démarrer']],
+    ['title-screen-faq', 'FAQ et guides de configuration', ['documentation', 'aide']],
+    ['title-screen-selfhost', 'Exporter pour AIO Metadata', ['auto-hébergement', 'JSON']],
+    ['title-screen-bingecat', 'Configurer Bingecat', ['extension', 'cache']],
+  ];
   const reg = [];
+  if (onHome) {
+    for (const [id, label, keywords] of tools) {
+      const control = document.getElementById(id);
+      if (control) reg.push({ label, keywords, group: 'Outils', action: () => control.click() });
+    }
+  }
   database.forEach((cat, i) => {
     reg.push({
-      label: `Go to ${cat.title}`,
-      keywords: [cat.title.toLowerCase(), 'go', 'jump'],
-      icon: cat.icon || '📁', group: 'Navigate',
-      action: () => { switchCategory(i); closeSidebar(); }
+      label: cat.title || 'Catégorie',
+      keywords: ['catégorie', 'section'],
+      icon: '📁', group: 'Catégories',
+      action: () => {
+        if (onHome) { hideTitleScreen(); jumpToCategory(i); }
+        else switchCategory(i);
+        closeSidebar();
+      }
     });
   });
-  reg.push({ label: 'Select All in this section', keywords: ['select', 'all', 'check'], icon: '✓', group: 'Selection', action: () => { toggleCategorySelection(currentCategoryIdx, true); renderCategoryActions(); renderFolderGrid(); updateControlCenterStats(); } });
-  reg.push({ label: 'Select None in this section', keywords: ['none', 'uncheck', 'deselect', 'clear', 'remove'], icon: '○', group: 'Selection', action: () => { toggleCategorySelection(currentCategoryIdx, false); renderCategoryActions(); renderFolderGrid(); updateControlCenterStats(); } });
-  reg.push({ label: 'View: Rows', keywords: ['view', 'rows', 'layout', 'tv'], icon: '▬', group: 'View', action: () => { const s = document.getElementById('viewmode-select'); if (s) { s.value = 'ROWS'; s.dispatchEvent(new Event('change')); } } });
-  reg.push({ label: 'View: Tabbed Grid', keywords: ['view', 'tabbed', 'grid', 'mobile', 'phone'], icon: '▦', group: 'View', action: () => { const s = document.getElementById('viewmode-select'); if (s) { s.value = 'TABBED_GRID'; s.dispatchEvent(new Event('change')); } } });
-  reg.push({ label: 'View: Auto', keywords: ['view', 'auto'], icon: '⊞', group: 'View', action: () => { const s = document.getElementById('viewmode-select'); if (s) { s.value = 'FOLLOW_LAYOUT'; s.dispatchEvent(new Event('change')); } } });
-  reg.push({ label: 'Sort: Custom order', keywords: ['sort', 'custom'], icon: '↕', group: 'Sort', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'custom'; s.dispatchEvent(new Event('change')); } } });
-  reg.push({ label: 'Sort: Popular first', keywords: ['sort', 'popular', 'popularity'], icon: '★', group: 'Sort', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'popular'; s.dispatchEvent(new Event('change')); } } });
-  reg.push({ label: 'Sort: A–Z', keywords: ['sort', 'alphabetical', 'a-z', 'az'], icon: 'A', group: 'Sort', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'az'; s.dispatchEvent(new Event('change')); } } });
-  reg.push({ label: 'Sort: Selected first', keywords: ['sort', 'selected', 'checked', 'first'], icon: '★', group: 'Sort', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'selected'; s.dispatchEvent(new Event('change')); } } });
+  if (onHome) return reg;
+  reg.push({ label: 'Tout sélectionner dans cette section', keywords: ['select', 'all', 'check'], icon: '✓', group: 'Sélection', action: () => { toggleCategorySelection(currentCategoryIdx, true); renderCategoryActions(); renderFolderGrid(); updateControlCenterStats(); } });
+  reg.push({ label: 'Tout désélectionner dans cette section', keywords: ['none', 'uncheck', 'deselect', 'clear', 'remove'], icon: '○', group: 'Sélection', action: () => { toggleCategorySelection(currentCategoryIdx, false); renderCategoryActions(); renderFolderGrid(); updateControlCenterStats(); } });
+  reg.push({ label: 'Affichage en rangées', keywords: ['view', 'rows', 'layout', 'tv'], icon: '▬', group: 'Affichage', action: () => { const s = document.getElementById('viewmode-select'); if (s) { s.value = 'ROWS'; s.dispatchEvent(new Event('change')); } } });
+  reg.push({ label: 'Affichage en grille à onglets', keywords: ['view', 'tabbed', 'grid', 'mobile', 'phone'], icon: '▦', group: 'Affichage', action: () => { const s = document.getElementById('viewmode-select'); if (s) { s.value = 'TABBED_GRID'; s.dispatchEvent(new Event('change')); } } });
+  reg.push({ label: 'Affichage automatique', keywords: ['view', 'auto'], icon: '⊞', group: 'Affichage', action: () => { const s = document.getElementById('viewmode-select'); if (s) { s.value = 'FOLLOW_LAYOUT'; s.dispatchEvent(new Event('change')); } } });
+  reg.push({ label: 'Tri personnalisé', keywords: ['sort', 'custom'], icon: '↕', group: 'Tri', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'custom'; s.dispatchEvent(new Event('change')); } } });
+  reg.push({ label: 'Trier par popularité', keywords: ['sort', 'popular', 'popularity'], icon: '★', group: 'Tri', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'popular'; s.dispatchEvent(new Event('change')); } } });
+  reg.push({ label: 'Trier de A à Z', keywords: ['sort', 'alphabetical', 'a-z', 'az'], icon: 'A', group: 'Tri', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'az'; s.dispatchEvent(new Event('change')); } } });
+  reg.push({ label: 'Afficher la sélection en premier', keywords: ['sort', 'selected', 'checked', 'first'], icon: '★', group: 'Tri', action: () => { const s = document.getElementById('folder-sort'); if (s) { s.value = 'selected'; s.dispatchEvent(new Event('change')); } } });
   reg.push({ label: 'Importer dans Kovelyx', keywords: ['kovelyx', 'importer', 'envoi'], icon: '📡', group: 'Actions', action: () => handleImportToKovelyxClick() });
-  reg.push({ label: 'Save File', keywords: ['save', 'download', 'export', 'file'], icon: '💾', group: 'Actions', action: () => document.getElementById('btn-compile-download')?.click() });
-  reg.push({ label: 'Export for Bingecat', keywords: ['bingecat', 'export', 'addon', 'cat'], icon: '🐱', group: 'Actions', action: () => exportForBingecat() });
-  reg.push({ label: 'Start walkthrough', keywords: ['tour', 'walkthrough', 'guide', 'help', 'replay', 'walk'], icon: '?', group: 'Actions', action: () => document.getElementById('btn-replay-tour')?.click() });
+  reg.push({ label: 'Télécharger le fichier', keywords: ['save', 'download', 'export', 'file'], icon: '💾', group: 'Actions', action: () => document.getElementById('btn-compile-download')?.click() });
+  reg.push({ label: 'Exporter pour Bingecat', keywords: ['bingecat', 'export', 'addon', 'cat'], icon: '🐱', group: 'Actions', action: () => exportForBingecat() });
+  reg.push({ label: 'Lancer la visite guidée', keywords: ['tour', 'walkthrough', 'guide', 'help', 'replay', 'walk'], icon: '?', group: 'Actions', action: () => document.getElementById('btn-replay-tour')?.click() });
   reg.push({label:'Mon profil Kovelyx',keywords:['profil','studio','compte','modifier'],group:'Actions',action:()=>window.MaCollectionProfileEditor?.open()});
   reg.push({label:'Tous les outils Ma-Collection',keywords:['outils','aide','parametres'],group:'Actions',action:()=>window.MaCollectionTools?.open()});
   return reg;
 }
 
+function normalizeCommandText(value) {
+  return value.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().trim();
+}
+
 function _fuzzyScore(query, cmd) {
-  const q = query.toLowerCase().trim();
+  const q = normalizeCommandText(query);
   if (!q) return 1;
-  const label = cmd.label.toLowerCase();
-  const kws = (cmd.keywords || []).join(' ');
+  const label = normalizeCommandText(cmd.label);
+  const kws = normalizeCommandText((cmd.keywords || []).join(' '));
   if (label.startsWith(q)) return 4;
   if (label.includes(q)) return 3;
   if (kws.includes(q)) return 2;
@@ -5306,7 +5317,7 @@ function _renderCommandResults(query) {
     .map(x => x.cmd);
 
   if (!results.length) {
-    container.innerHTML = '<div style="padding:14px 18px;color:var(--text-dark);font-size:0.85rem;">No commands match that.</div>';
+    container.innerHTML = '<div style="padding:14px 18px;color:var(--text-dark);font-size:0.85rem;">Aucun résultat pour cette recherche.</div>';
     _commandHighlightIdx = 0;
     return;
   }
@@ -5318,7 +5329,7 @@ function _renderCommandResults(query) {
       html += `<div class="command-group-label">${cmd.group}</div>`;
       lastGroup = cmd.group;
     }
-    html += `<div class="command-result${i === 0 ? ' highlighted' : ''}" data-idx="${i}"><span class="command-result-icon">${cmd.icon || '·'}</span><span class="command-result-label">${cmd.label}</span></div>`;
+    html += `<button type="button" class="command-result${i === 0 ? ' highlighted' : ''}"><span class="command-result-icon" aria-hidden="true">${cmd.icon || '·'}</span><span class="command-result-label">${escapeHtml(cmd.label)}</span></button>`;
   });
   container.innerHTML = html;
   container.querySelectorAll('.command-result').forEach((el, i) => {
@@ -5338,10 +5349,11 @@ function _setCommandHighlight(idx) {
 
 function openCommandPalette() {
   if (_commandPaletteOpen) return;
-  _commandPaletteOpen = true;
   const overlay = document.getElementById('command-palette-overlay');
   const input = document.getElementById('command-input');
   if (!overlay) return;
+  _commandPaletteOpen = true;
+  commandTrigger = document.activeElement;
   overlay.hidden = false;
   if (input) { input.value = ''; input.focus(); }
   _cmdResultsCache = _renderCommandResults('');
@@ -5351,6 +5363,8 @@ function closeCommandPalette() {
   _commandPaletteOpen = false;
   const overlay = document.getElementById('command-palette-overlay');
   if (overlay) overlay.hidden = true;
+  commandTrigger?.focus();
+  commandTrigger = null;
 }
 
 function _isInputFocused() {
@@ -5362,7 +5376,8 @@ document.addEventListener('DOMContentLoaded', () => {
   document.addEventListener('keydown', (e) => {
     const cmdK = (e.metaKey || e.ctrlKey) && e.key === 'k';
     const bareK = e.key === 'k' && !_isInputFocused() && !e.metaKey && !e.ctrlKey && !e.altKey;
-    if (cmdK || bareK) {
+    const slash = e.key === '/' && !_isInputFocused() && !e.metaKey && !e.ctrlKey && !e.altKey;
+    if (cmdK || bareK || slash) {
       e.preventDefault();
       _commandPaletteOpen ? closeCommandPalette() : openCommandPalette();
       return;
@@ -5370,11 +5385,12 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!_commandPaletteOpen) return;
     if (e.key === 'Escape') { closeCommandPalette(); return; }
     const results = document.querySelectorAll('.command-result');
-    if (e.key === 'ArrowDown') { e.preventDefault(); _setCommandHighlight(Math.min(_commandHighlightIdx + 1, results.length - 1)); }
+    if (e.key === 'ArrowDown' && results.length) { e.preventDefault(); _setCommandHighlight(Math.min(_commandHighlightIdx + 1, results.length - 1)); }
     else if (e.key === 'ArrowUp') { e.preventDefault(); _setCommandHighlight(Math.max(_commandHighlightIdx - 1, 0)); }
-    else if (e.key === 'Enter') { e.preventDefault(); document.querySelector('.command-result.highlighted')?.click(); }
+    else if (e.key === 'Enter' && e.target.id === 'command-input') { e.preventDefault(); document.querySelector('.command-result.highlighted')?.click(); }
   });
 
+  document.getElementById('home-search')?.addEventListener('click', openCommandPalette);
   const cmdInput = document.getElementById('command-input');
   if (cmdInput) cmdInput.addEventListener('input', () => { _cmdResultsCache = _renderCommandResults(cmdInput.value); });
 

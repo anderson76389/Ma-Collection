@@ -17,13 +17,13 @@
       "releaseInfo": "1961"
     },
     {
-      "id": "tmdb:307176",
+      "id": "tmdb:244978",
       "type": "series",
-      "name": "Dustfall",
-      "poster": "https://image.tmdb.org/t/p/w500/a7LdXshL4vuCA3LWB2gNNckBIpO.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/q7VXA2jZ88Dvp7TPbqNVWwR94ik.jpg",
-      "description": "Tout juste de retour dans sa ville de North Gap après avoir passé plusieurs années dans la capitale, l’enquêtrice Tig Pollard est chargée de l’affaire d’Edie, une jeune fille de 18 ans retrouvée nue dans un champ de canne à sucre, sans aucun souvenir de la façon dont elle est arrivée là. Ce qui commence comme une affaire d’agression sexuelle prend une tournure de plus en plus sombre, et la quête de vérité de Tig devient personnelle lorsqu’une personne de son passé refait surface, la forçant à affronter des secrets longtemps enfouis de sa propre adolescence.",
-      "releaseInfo": "2026"
+      "name": "Enquêtes au paradis",
+      "poster": "https://image.tmdb.org/t/p/w500/usL0PT2qZ2FPCeRY5PzvZr10g0k.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5vcVf5hDtnKQVmHj9RSIaVwwvlx.jpg",
+      "description": "Mackenzie Clarke, une policière expatriée à Londres, est contrainte de retourner vivre temporairement à Dolphin Cove en Australie, la ville de son enfance. Lorsqu'un meurtre est commis, Mack ne peut s'empêcher de mettre à profit ses talents d'enquêtrice. Ce retour au bercail ravive son lot de souvenirs plus ou moins agréables et engendre des retrouvailles un peu compliquées, notamment avec son ex-fiancé Glenn, qu’elle a quitté le jour de leur mariage, et avec son ex-belle-mère et ex-patronne, qui dirige le poste de police de la ville. Cet endroit paradisiaque sur la côte de Nouvelles-Galles du Sud est le théâtre de meurtres complexes, que Mack va tâcher de résoudre à l’aide de sa nouvelle équipe : le lieutenant Colin Cartwright, un Anglais expatrié en Australie, l’agent Felix Wilkinson, et Reggie Rocco, une ancienne prof reconvertie en bénévole auprès de la police.",
+      "releaseInfo": "2024"
     },
     {
       "id": "tmdb:75487",
@@ -34,21 +34,29 @@
       "releaseInfo": "2016"
     },
     {
-      "id": "tmdb:244978",
+      "id": "tmdb:307176",
       "type": "series",
-      "name": "Enquêtes au paradis",
-      "poster": "https://image.tmdb.org/t/p/w500/usL0PT2qZ2FPCeRY5PzvZr10g0k.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5vcVf5hDtnKQVmHj9RSIaVwwvlx.jpg",
-      "description": "Mackenzie Clarke, une policière expatriée à Londres, est contrainte de retourner vivre temporairement à Dolphin Cove en Australie, la ville de son enfance. Lorsqu'un meurtre est commis, Mack ne peut s'empêcher de mettre à profit ses talents d'enquêtrice. Ce retour au bercail ravive son lot de souvenirs plus ou moins agréables et engendre des retrouvailles un peu compliquées, notamment avec son ex-fiancé Glenn, qu’elle a quitté le jour de leur mariage, et avec son ex-belle-mère et ex-patronne, qui dirige le poste de police de la ville. Cet endroit paradisiaque sur la côte de Nouvelles-Galles du Sud est le théâtre de meurtres complexes, que Mack va tâcher de résoudre à l’aide de sa nouvelle équipe : le lieutenant Colin Cartwright, un Anglais expatrié en Australie, l’agent Felix Wilkinson, et Reggie Rocco, une ancienne prof reconvertie en bénévole auprès de la police.",
+      "name": "Dustfall",
+      "poster": "https://image.tmdb.org/t/p/w500/a7LdXshL4vuCA3LWB2gNNckBIpO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/q7VXA2jZ88Dvp7TPbqNVWwR94ik.jpg",
+      "description": "Tout juste de retour dans sa ville de North Gap après avoir passé plusieurs années dans la capitale, l’enquêtrice Tig Pollard est chargée de l’affaire d’Edie, une jeune fille de 18 ans retrouvée nue dans un champ de canne à sucre, sans aucun souvenir de la façon dont elle est arrivée là. Ce qui commence comme une affaire d’agression sexuelle prend une tournure de plus en plus sombre, et la quête de vérité de Tig devient personnelle lorsqu’une personne de son passé refait surface, la forçant à affronter des secrets longtemps enfouis de sa propre adolescence.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:256371",
+      "type": "series",
+      "name": "Austin",
+      "poster": "https://image.tmdb.org/t/p/w500/hgDf5LOkJ9HS2egAitWT2AgEI5v.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ccg8LecjMSPw2YrvCRWoo6NjHd2.jpg",
       "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:304887",
+      "id": "tmdb:337947",
       "type": "series",
-      "name": "Crime Night!",
-      "poster": "https://image.tmdb.org/t/p/w500/b5la9mLfmql3PEVduAPTMb7PtrV.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nNqTMFHh1eHeBPVZrOzCWpxBoXY.jpg",
-      "releaseInfo": "2025"
+      "name": "Separated at Birth",
+      "poster": "https://image.tmdb.org/t/p/w500/wwFudKQR7r8DLoAarBBkOSILByH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jBi9d1n3KVnIfmyVyzlzAWm7F4m.jpg",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:258908",
@@ -59,11 +67,11 @@
       "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:336872",
+      "id": "tmdb:336392",
       "type": "series",
-      "name": "Class Clowns",
-      "poster": "https://image.tmdb.org/t/p/w500/1k2jTpI7SdlrGuP4Mb3q07WBxoL.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kKX4dCJ4pCcodHHd9o805QTa3lv.jpg",
+      "name": "Ages of Ice",
+      "poster": "https://image.tmdb.org/t/p/w500/wdqNNT0b1lYAdNYTsfxkClQfYhA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/x66cy3hBgrWB6509b6SWSgb1iwt.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -75,11 +83,11 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:336392",
+      "id": "tmdb:342249",
       "type": "series",
-      "name": "Ages of Ice",
-      "poster": "https://image.tmdb.org/t/p/w500/wdqNNT0b1lYAdNYTsfxkClQfYhA.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/x66cy3hBgrWB6509b6SWSgb1iwt.jpg",
+      "name": "Mark of a Murderer",
+      "poster": "https://image.tmdb.org/t/p/w500/lFZglvD8E9MmMmZdVPu1enGeuN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/h74L4l6vc8gqfZUWQae65tDX1mq.jpg",
       "releaseInfo": "2026"
     }
   ]

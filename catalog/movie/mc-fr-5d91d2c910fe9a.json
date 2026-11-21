@@ -86,6 +86,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1743695",
+      "type": "movie",
+      "name": "El Club del Pie Izquierdo",
+      "poster": "https://image.tmdb.org/t/p/w500/dcUSa8KQJvLjpdncudIIvmy6Sx8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6dDCdPSp7ULB1zYimKDE9D48795.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1666700",
       "type": "movie",
       "name": "Les Survivants du Che",
@@ -132,7 +140,7 @@
       "type": "movie",
       "name": "Dégel",
       "poster": "https://image.tmdb.org/t/p/w500/agaPM6fOIwG1kmBXAprimPxT4mQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uN5wTRKBbLcmQnzmlmAQRyObuH0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9OGwh7Q3YaggcmJqUSSu6JXhswC.jpg",
       "description": "Chili, 1992. Le pays reste marqué par des années de dictature. Alors qu’elle est gardée par ses grands-parents dans leur hôtel en station de ski, Inès, 9 ans, se lie d’amitié avec Hanna, une jeune sportive venue d’Allemagne. Lorsque celle-ci disparaît sans laisser de trace, l’enfant cherche à comprendre…",
       "releaseInfo": "2026"
     },
@@ -152,15 +160,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/my8euQR37XeJ8lfLz3XgBR03R45.jpg",
       "background": "https://image.tmdb.org/t/p/w780/c4U96GrPRfnNrS01mBtqnocvlLJ.jpg",
       "description": "Deux agents mexicains doivent survivre aux dernières heures de leur service après avoir froissé un chef de cartel dans ce drame policier inspiré de faits réels.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1536433",
-      "type": "movie",
-      "name": "Chicas Tristes",
-      "poster": "https://image.tmdb.org/t/p/w500/tBmuURPrzxck9wAe6sRbuGe7kPn.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/57cJShfnln2CkL4tBNpYGtxFDn4.jpg",
-      "description": "La Maestra et Paula, deux amies inséparables, sont les meilleures nageuses de leur équipe. Jusqu’à ce qu’un évènement traumatique, survenu au cours d’une soirée, les oblige à choisir entre garder le silence et prendre la parole, quitte à mettre leur amitié à rude épreuve…",
       "releaseInfo": "2026"
     },
     {

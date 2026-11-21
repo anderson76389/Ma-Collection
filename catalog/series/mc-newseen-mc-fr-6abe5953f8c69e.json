@@ -1,22 +1,12 @@
 {
   "metas": [
     {
-      "id": "tmdb:39283",
+      "id": "tmdb:66009",
       "type": "series",
-      "name": "Les Real Housewives de Dallas",
-      "poster": "https://image.tmdb.org/t/p/w500/6liq1qoLQu4siW3kVisSRAfkxiu.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2LEWLQ61ERXRffIhFrWfOxFFyil.jpg",
-      "description": "Bienvenue à Dallas ! Loin de chômer, les femmes au foyer les plus glamours du Texas ont des journées aussi remplies que leurs comptes en banque… Entre soirées, amitiés, vie de famille mouvementée et scandales en tout genre, pour les Real Housewives à l’ego sans limites et au caractère bien trempé, tous les coups sont permis pour briller et grimper les échelons de la société !",
+      "name": "Little Women: Atlanta",
+      "poster": "https://image.tmdb.org/t/p/w500/yqVuZi5po92ud74wFbIn5QvLe2E.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yxHceS8jMfB5UhSwuIjdBL3mnKc.jpg",
       "releaseInfo": "2016"
-    },
-    {
-      "id": "tmdb:97872",
-      "type": "series",
-      "name": "Below Deck : Sailing Yacht",
-      "poster": "https://image.tmdb.org/t/p/w500/xRYK5NhY15uKaJ4a97xmWyHxSCi.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/AvP61xO5RmBid6384PutKnbePsI.jpg",
-      "description": "Le capitaine Glenn Shephard et son équipage ont mis les voiles dans un yacht à voile de luxe pour explorer les eaux bleues cristallines de la mer Ionienne. La physionomie de travailler sur un voilier apporte de nouveaux défis à ces jeunes…",
-      "releaseInfo": "2020"
     }
   ]
 }

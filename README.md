@@ -70,7 +70,7 @@ Si le pont local est inaccessible, **Copier le JSON** ou **Télécharger JSON** 
 Le bouton **Importer la collection** propose désormais **deux destinations** après la sélection des catégories et sous-catégories :
 
 - **Kovelyx Cloud** : push direct vers un profil Cloudflare synchronisable ; **Kovelyx PC local** : transfert à Windows avec confirmation ; le copier/télécharger JSON reste possible.
-- **Nuvio** : même sélection et personnalisation des affiches de dossiers, puis **Copier le JSON** ou **Télécharger le JSON**. L'importation se fait manuellement dans la rubrique **Collections → Importer** de l'application, ou sur [nuvio.tv](https://nuvio.tv/) via **Compte → Collections** si disponible.
+- **Nuvio** : même sélection et personnalisation des affiches de dossiers, puis **Copier le JSON** ou **Télécharger le JSON**. L'importation se fait manuellement dans la rubrique **Collections → Importer** de l'application.
 
 **Important :** l'option Nuvio n'est pas un import direct automatique et n'utilise pas votre compte Nuvio. Les clés API, extensions et débrideurs renseignés dans l'assistant ne sont pas intégrés aux JSON exportés ; configurez-les dans l'application destinataire. Les tests du site vérifient le choix, le contenu JSON et le téléchargement, mais ne valident pas la synchronisation sur un compte Nuvio réel.
 

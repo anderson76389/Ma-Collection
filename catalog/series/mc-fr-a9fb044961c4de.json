@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:333533",
+      "type": "series",
+      "name": "Celui qui s'appelait Matthew Perry",
+      "poster": "https://image.tmdb.org/t/p/w500/vQYMKEQ1mvl7Qx8WRGiKjPMEmKT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3nJL65FgsUpmBEIMXc0kt0h5uay.jpg",
+      "description": "Cette série documentaire retrace le succès hollywoodien, la prise de position ouverte et la mort tragique de la star de \"Friends\", à travers le témoignage de ses proches.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:335536",
       "type": "series",
       "name": "TYSON",
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/A2Zii9gvKje6WHKpH2fsStjp1ue.jpg",
       "background": "https://image.tmdb.org/t/p/w780/37Fn6Qf0JTLfbE719FvilHCyZK4.jpg",
       "description": "De sa genèse, en 1754, à sa conclusion, en 1783, la nouvelle et magistrale fresque historique de Ken Burns explore en profondeur le moment fondateur des États-Unis. Ce récit choral et multidimensionnel éclaire aussi le présent divisé d'une jeune nation de 250 ans.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:292130",
-      "type": "series",
-      "name": "Mr. Scorsese",
-      "poster": "https://image.tmdb.org/t/p/w500/PYcT6mf3cYHI35uNG8ztVdyh9p.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yvToMgv3CHs7T4yQe9EPsMgEXG3.jpg",
-      "description": "Découvrez les nombreuses vies de Martin Scorsese grâce à un accès exclusif et libre à ses archives privées et à de longs entretiens avec sa famille, ses amis, ses collaborateurs légendaires et le réalisateur visionnaire en personne.",
       "releaseInfo": "2025"
     }
   ]

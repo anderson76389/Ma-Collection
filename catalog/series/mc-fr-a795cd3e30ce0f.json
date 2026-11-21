@@ -1,6 +1,60 @@
 {
   "metas": [
     {
+      "id": "tmdb:303182",
+      "type": "series",
+      "name": "El crimen de Pazos",
+      "poster": "https://image.tmdb.org/t/p/w500/8BSTywNtgPiO4MhJYJbrvQTUp7X.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jM5dhDrpRiVxuzcvAEeHhcAKt50.jpg",
+      "description": "Quand une femme est agressée en pleine nuit, un sergent tenace soupçonne le mari de ne pas être aussi innocent qu'il en a l'air dans ce drame inspiré de faits réels.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:335981",
+      "type": "series",
+      "name": "Le Cinéma selon Cunk",
+      "poster": "https://image.tmdb.org/t/p/w500/zrrRRvavkLQupkC6aEkdA8sX4E8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3NA7FxkqAaG1buZC1WtdPDpMlZg.jpg",
+      "description": "Dans cette série mockumentaire espiègle, Philomena Cunk part à la découverte de l'histoire du cinéma, sans manquer de laisser plusieurs experts perplexes en chemin.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:312661",
+      "type": "series",
+      "name": "Urgences Humaines",
+      "poster": "https://image.tmdb.org/t/p/w500/aatKnanzNiI0qyRf1yuAyGQ4tKg.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wZ0EW0svlRLRBNaUpIYjSSOM9Rt.jpg",
+      "description": "Choisi par un médecin brillant, un jeune diplômé aux résultats moyens doit faire ses preuves aux côtés d'internes brillants tout en survivant au chaos d'urgences sous tension.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:338562",
+      "type": "series",
+      "name": "La Loi d'Alicia",
+      "poster": "https://image.tmdb.org/t/p/w500/JxbsGxpXTPYTrJESyWnw8hAKcs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yb58l4VGT687EbQAYjc6ecPRjmg.jpg",
+      "description": "Lorsque sa vie si bien ordonnée vole en éclats, Alicia reprend l'exercice du droit et découvre que reconstruire sa carrière implique aussi de se redéfinir.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:336243",
+      "type": "series",
+      "name": "ChiaroScuro",
+      "poster": "https://image.tmdb.org/t/p/w500/m9eZy0jzWCHSUUzbzIpysOrLgFb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wM62vjwgxjQTlXX76xmQS1T49O2.jpg",
+      "description": "Après la découverte d’un corps dans un musée romain, un expert en art doit faire appel à son instinct et à ses compétences pour aider la police à élucider un mystère lié à son propre passé.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:291507",
+      "type": "series",
+      "name": "The Body",
+      "poster": "https://image.tmdb.org/t/p/w500/swEOVOmkYtTg3UBStrvt1yZJm26.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hYJqUoXRZnodGxgVZTM8uwr5kbC.jpg",
+      "description": "Le soir d'Halloween, un rite d'initiation vire au cauchemar, faisant basculer une troupe de danseuses dans la culpabilité catholique, les désirs impies et les visions étranges.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:297491",
       "type": "series",
       "name": "La Prise du palais",
@@ -60,6 +114,7 @@
       "name": "라이어",
       "poster": "https://image.tmdb.org/t/p/w500/up1YBgPq6lC0ut2JvjguNwLiXw4.jpg",
       "background": "https://image.tmdb.org/t/p/w780/5V7scQ0nVkNcz8dcHRfZIiHECcc.jpg",
+      "description": "Deux personnes se souviennent de cette même nuit fatidique, mais leurs récits ne concordent pas. Alors qu’une enseignante et un chirurgien cardiaque s’affrontent pour savoir ce qui s’est réellement passé, la vérité se transforme en un jeu dangereux mêlant souvenirs et mensonges.",
       "releaseInfo": "2026"
     },
     {
@@ -123,57 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/iTVhDUbzUFUJ18jrcYM4rw7qGk.jpg",
       "background": "https://image.tmdb.org/t/p/w780/tJSM9kwCWHXgoYbrfmJ2vwiizWq.jpg",
       "description": "Des ados tentent de gérer une petite pizzeria en jonglant entre le lycée, une boss survoltée et un salaire minimum. Une série inspirée de vidéos populaires sur les réseaux sociaux.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:335535",
-      "type": "series",
-      "name": "Grand d'Espagne",
-      "poster": "https://image.tmdb.org/t/p/w500/76OXBz1TovntN6Ih9HRxWPvTGsL.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fyuUkmbcTqH0NEgywaLlsYL720K.jpg",
-      "description": "Prêt à tout pour vendre son manoir en ruines, un marquis déchu veut plier l'affaire avec une mystérieuse et charmante millionnaire. Mais celle-ci a ses propres projets...",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:332649",
-      "type": "series",
-      "name": "真田十勇士 SHADOWS OF THE TEN NINJA",
-      "poster": "https://image.tmdb.org/t/p/w500/qGyypl0Kkk7GkZPVUSrEOLEOo1B.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uNk5pCHUNgxGoe4bJuMYjAAuKFf.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:300527",
-      "type": "series",
-      "name": "On a parlé de moi ?",
-      "poster": "https://image.tmdb.org/t/p/w500/cqqfz3t8xsuPLwl5Obo7f9KwFDE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7ctEWkqGMkvo5GMtOejZndTL5Ta.jpg",
-      "description": "Jadis l'acteur le plus célèbre du Japon, Gen tombe soudain dans l’oubli. Poussé par un besoin de reconnaissance, il se bat pour remonter la pente dans cette comédie.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:332713",
-      "type": "series",
-      "name": "南田南弁護士は天才肌",
-      "poster": "https://image.tmdb.org/t/p/w500/ax4KpZOjZ59hp6IjYNOfJMAYge0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/w7p0SUuixmEyf5a5wVKAgHNkh8e.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:329490",
-      "type": "series",
-      "name": "LOST10",
-      "poster": "https://image.tmdb.org/t/p/w500/xNYh0RLebPsb9noMdctjKTeqe0v.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/blB4qv0LlOUriouoPqkFJlLe6Ki.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:320754",
-      "type": "series",
-      "name": "Les Affaires organisées",
-      "poster": "https://image.tmdb.org/t/p/w500/5UCLCdz8CMTnrKrERAWUkhZhySQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rMvfkMMITQXIMm44epyRaGwMaNw.jpg",
-      "description": "Lorsqu'une carte légendaire tombe entre les mains d'un célèbre escroc, il décide de monter une dernière arnaque avant d'arrêter pour de bon.",
       "releaseInfo": "2026"
     }
   ]

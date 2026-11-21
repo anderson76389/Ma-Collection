@@ -14,7 +14,7 @@
       "type": "movie",
       "name": "L'île des souvenirs",
       "poster": "https://image.tmdb.org/t/p/w500/txvVTbY1cAsBe5tPX9c5m5SM3ml.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2o9FzuBzCqrDTdlHRuEVnGD2d5h.jpg",
       "description": "Pendant qu'elles passent une dernière soirée ensemble avant de s'engager sur des voies différentes, Jo et Raissa, amies depuis toujours, trouvent un portail mystérieux qui les transporte sur Nakali, une île mythique peuplée de créatures magiques dont leurs familles philippines leur ont parlé. Alors qu'elles cherchent à rentrer chez elles, Jo et Raissa découvrent que leurs souvenirs sont en péril. Réussiront-elles à quitter l'île avant de s'oublier l'une l'autre ?",
       "releaseInfo": "2026"
     },
@@ -85,18 +85,9 @@
       "id": "tmdb:1084244",
       "type": "movie",
       "name": "Toy Story 5",
-      "poster": "https://image.tmdb.org/t/p/w500/b2bt3UomRX41rHHZmIsSNmXzidU.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/zuqFWxKEwSCBuEihtRWbC9tri7R.jpg",
       "background": "https://image.tmdb.org/t/p/w780/qjTqY5coNiz6sVtPng40IzltsoN.jpg",
       "description": "Buzz, Woody, Jessie et le reste de la bande verront leur travail remis en question lorsqu'ils découvriront que ce qui obsède les enfants d'aujourd'hui s’appelle... l'électronique !",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1440050",
-      "type": "movie",
-      "name": "‎Papa à plein temps",
-      "poster": "https://image.tmdb.org/t/p/w500/gdzdo1Eph4xeB6SQBgtSsjXFsMM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dgqBcgTzaUiSLvKJPDF9AbdFEMO.jpg",
-      "description": "Pour Nate et leurs trois enfants, Katie est la mère parfaite. Mais quand son invention décroche une chance unique à Shark Tank et l’envoie en voyage d’affaires, Nate doit empêcher la maison de tomber en ruines… au sens propre. Bienvenue dans l’ère des papas.",
       "releaseInfo": "2026"
     },
     {
@@ -131,7 +122,7 @@
       "type": "movie",
       "name": "La Ferme des animaux",
       "poster": "https://image.tmdb.org/t/p/w500/6pzI1DIlxwAFffw9OZcG6cr031U.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rg1E0Ya6YYiGPcg5p1ZIkDd8u3F.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/msl0OTRGavjjzzPZmNuXbC0gv9M.jpg",
       "description": "Un groupe d'animaux se rebellent contre leurs maîtres humains et prennent le contrôle de la ferme. Leur révolte terminée, ils sont confrontés à de nouveaux défis sous le règne d'un cochon rusé nommé Napoléon. Cette situation les oblige à trouver le courage de s'opposer à Napoléon.",
       "releaseInfo": "2026"
     },
@@ -178,6 +169,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/h8SxbXRZPukAcwASmHOl5CFUslA.jpg",
       "background": "https://image.tmdb.org/t/p/w780/qz7B5uDspnkoz068wLbLnleotwV.jpg",
       "description": "C'est le Muppet Show ! Kermit, Miss Piggy et la troupe adorée des Muppets sont de retour pour un événement spécial inédit. Musique, comédie et une bonne dose de chaos sont au rendez-vous quand ils remontent sur la scène du théâtre original des Muppets avec leur invitée très spéciale, Sabrina Carpenter",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1146058",
+      "type": "movie",
+      "name": "The Pout-Pout Fish",
+      "poster": "https://image.tmdb.org/t/p/w500/fcDXgGL14qL46It1XOozEjX5Jws.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6qQQhhF87Rm1z2TYhXAmoPiEHME.jpg",
+      "description": "M. Fish et Pip partent à la recherche d'un poisson mythique qui exaucera leur vœu et sauvera leur habitat aquatique.",
       "releaseInfo": "2026"
     }
   ]

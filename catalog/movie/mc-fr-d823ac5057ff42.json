@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1571766",
+      "type": "movie",
+      "name": "Kraken",
+      "poster": "https://image.tmdb.org/t/p/w500/mQZaeZAiDBredbH19WHZx8sLZbo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jKlt1kxBAbCpPv8qOBXOdE1UAPy.jpg",
+      "description": "Dans une cité, une tour abandonnée alimente les rumeurs. Alors que des disparitions étranges s'enchaînent, 5 jeunes n’ont plus le choix : y entrer à nouveau. Pris dans un piège mortel, ils vont bientôt comprendre que s'échapper leur sera impossible…",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1110034",
       "type": "movie",
       "name": "Kraken",
@@ -25,6 +34,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/eyML3us6QSgWinlH9Zd6BERNrd3.jpg",
       "background": "https://image.tmdb.org/t/p/w780/eDPV9s2FzDPzy7ThjNQv7D7MijG.jpg",
       "description": "Une adorable famille de souris se prépare à célébrer Noël dans leur chaleureuse maison. Tout est prêt pour des fêtes parfaites… jusqu’à l’irruption d’intrus qui débarquent soudain. Des humains ! Pire : une famille d’humains, qui souhaitent eux aussi profiter d’un Noël à la campagne. Mais pas question pour les souris de se laisser déloger ! Elles décident de faire fuir coûte que coûte les trouble-fêtes. La guerre est déclarée, et, dans cette bataille de Noël, personne ne se fera de cadeaux…",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1479178",
+      "type": "movie",
+      "name": "Se meg",
+      "poster": "https://image.tmdb.org/t/p/w500/rqrFGkSOEdKrwYn9u18CajycBfs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fFpAo8tI342rG9rrp8btT2X03aW.jpg",
       "releaseInfo": "2025"
     },
     {
@@ -157,24 +174,6 @@
       "name": "Quislings siste dager",
       "poster": "https://image.tmdb.org/t/p/w500/mMKhDMZtzxK4JXCv7E9hllPqg2r.jpg",
       "background": "https://image.tmdb.org/t/p/w780/8fZn5fTEL6BTgDeXDN7Z1FYod9T.jpg",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:1208994",
-      "type": "movie",
-      "name": "Un bonheur fragile - Une famille se réinvente",
-      "poster": "https://image.tmdb.org/t/p/w500/gUItWeodHAFYmj6LDXpYJWJHc3Y.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xXR8BCRUMUbrPQ1QAumbL0x93fV.jpg",
-      "description": "Dans une forêt norvégienne, une famille mène une vie isolée dans une tentative d'être sauvage et libre, mais un événement tragique change tout et ils sont obligés de s'adapter à la société moderne.",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:1167027",
-      "type": "movie",
-      "name": "Ibelin : La vie remarquable d'un gamer",
-      "poster": "https://image.tmdb.org/t/p/w500/AkJwX5BTkpBQ5dgPiU67Y9I1DZK.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8QAqAqZY6qoIWBuL7aoA6QuR6Jn.jpg",
-      "description": "Après le décès d'un jeune joueur de World of Warcraft, ses amis virtuels révèlent à sa famille sa vie secrète en ligne sous une forme saisissante.",
       "releaseInfo": "2024"
     }
   ]

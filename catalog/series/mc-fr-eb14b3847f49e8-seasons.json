@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:254630",
+      "type": "series",
+      "name": "12 12 12",
+      "poster": "https://image.tmdb.org/t/p/w500/awWRxpVXFJGbumYp7OM0slCjzRG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tjy25xpiFeo2gahl7N0hoxbRtG7.jpg",
+      "description": "Un braquage prend 12 mois à préparer, 12 heures à mettre à exécution, et un braqueur qui n'est pas arrêté dans les 12 jours ne le sera jamais. Dans un chassé-croisé haletant de trois temporalités, un agent du FBI et un criminel de carrière se livrent à un jeu dangereux du chat et de la souris, à travers l'Europe.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:292741",
       "type": "series",
       "name": "Nocturne",
@@ -19,15 +28,6 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:250203",
-      "type": "series",
-      "name": "Brothers",
-      "poster": "https://image.tmdb.org/t/p/w500/yewGBOuVmcZnMQ60xGGjUhobOsJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/aLE7R8QZPpTiWZS48PS22i2OWbl.jpg",
-      "description": "Matthew McConaughey et Woody Harrelson sont meilleurs amis depuis toujours, mais leur lien pourrait devenir encore plus étroit après la découverte d’un secret de famille troublant.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:234310",
       "type": "series",
       "name": "Where's Wanda?",
@@ -41,18 +41,9 @@
       "type": "series",
       "name": "Awkwafina : la cheffe improbable",
       "poster": "https://image.tmdb.org/t/p/w500/kHkVrRxFtbQFY0b9RWoug5A0S1M.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vSMW22GgtzgsRaAmZaTM6xtPdNP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1csFLrwh28PrWyWyeUXzgyt4930.jpg",
       "description": "L’actrice hollywoodienne et comédienne Nora Lum (a.k.a. Awkwafina) est descendante de la royauté de la restauration... mais elle ne sait pas cuisiner. Partez avec elle dans ce road trip culinaire inspirant, et dans sa quête de raviver la cuisine chinoise tant affectionnée par sa famille.",
       "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:291361",
-      "type": "series",
-      "name": "Sur le fil : à la poursuite des Étoiles Michelin",
-      "poster": "https://image.tmdb.org/t/p/w500/keBwuOM2Ucm78oJhipVvvNmLcx1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pY5HhYqt71HCpEkuP7ucgvPjJNQ.jpg",
-      "description": "Les meilleurs chefs du monde convoitent la plus haute distinction : une Étoile Michelin. Ces inspecteurs n'avaient jamais dévoilé leurs méthodes.",
-      "releaseInfo": "2025"
     }
   ]
 }

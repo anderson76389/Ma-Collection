@@ -1,58 +1,49 @@
 {
   "metas": [
     {
-      "id": "tmdb:253376",
+      "id": "tmdb:194766",
       "type": "series",
-      "name": "The Girlfriend",
-      "poster": "https://image.tmdb.org/t/p/w500/69EcVKImkW9byMiGbVWsqDU8KtK.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lnVWmFvLv2pTZGsuAJytiqKu541.jpg",
-      "description": "Laura a tout pour elle : une carrière brillante, un mari attentionné et Daniel, son fils adoré. Mais sa vie parfaite vacille lorsque Daniel présente sa petite amie Cherry. Après cette rencontre tendue, Laura est convaincue que Cherry cache quelque chose. Est-elle une opportuniste manipulatrice, ou bien Laura est-elle paranoïaque ? Tout est question de perspective.",
-      "releaseInfo": "2025"
+      "name": "L'Été où je suis devenue jolie",
+      "poster": "https://image.tmdb.org/t/p/w500/1UjOeSZHunQqpSimmobGCWzkuXh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jCQV3rHNbgHKo3N4G6CARbVEjPV.jpg",
+      "description": "Isabel « Belly » Conklin passe ses étés à Cousin's Beach avec sa mère et son frère aîné, ainsi que le meilleur ami de sa mère et ses fils. Au cours d'un été bien précis, elle va connaître son premier amour mais aussi sa première peine de cœur.",
+      "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:77345",
+      "id": "tmdb:303745",
       "type": "series",
-      "name": "Les Jeunes Aventuriers",
-      "poster": "https://image.tmdb.org/t/p/w500/sU4tfnvxpqDwr4n4usyNYrjdtQ8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dnsDc7RVqsBnohXwFL3sO0kk3DS.jpg",
-      "description": "La famille McKenna se remet péniblement du décès de leur chef de famille bien-aimé, Patrick. Un espoir apparaît sous la forme d'un livre intitulé \"Les jeunes aventuriers\" que Patrick a créé pour ses trois fils. Il devient un guide pratique qui fait s'envoler l'imagination de son plus jeune fils, Wyatt, lui permettant de renouer avec son père et de tirer des leçons qui l'aideront dans la vraie vie.",
-      "releaseInfo": "2018"
-    },
-    {
-      "id": "tmdb:303044",
-      "type": "series",
-      "name": "Campus Drivers",
-      "poster": "https://image.tmdb.org/t/p/w500/oPltcyfWWfVmxB6lV8JZZJV3m7Q.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/oaWJm4brEMSWBmQIB73DFxsU683.jpg",
-      "description": "Loïs intègre Belrose aux côtés de Max, son grand amour. Lane créateur de Campus Drivers, l'application la plus en vogue du campus est célèbre pour son incapacité à s'attacher. Leurs chemins n'auraient jamais dû se croiser. Mais certaines rencontres bouleversent tout... jusqu'à réveiller des blessures enfouies. Et quand l'amour s'invite sans prévenir, plus rien n'est certain.",
+      "name": "L'amour sous couverture",
+      "poster": "https://image.tmdb.org/t/p/w500/xima3BlIJxlrONQgZ9mYuSLAq0f.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ob7m6JqZ7jSOocR3VL73VxRC6Is.jpg",
+      "description": "Yoon Yi-jun, successeur du groupe Taekang, est le principal suspect d'un terrible meurtre. Pour découvrir la vérité, l'inspectrice Kang Jae-hee s'infiltre auprès de lui en se faisant passer pour son secrétaire. Mais plus elle se rapproche de la vérité, plus ils se rapprochent l'un de l'autre. Entre Jae-hee sous couverture et Yi-jun qui cache un secret, pourront-ils s'avouer leurs sentiments ?",
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:269",
+      "id": "tmdb:57911",
       "type": "series",
-      "name": "Les Frères Scott",
-      "poster": "https://image.tmdb.org/t/p/w500/m7l8e3feBzJu9sosBKTJjAnAbt9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gJOpHgHa37qnglH3dL9g63iztky.jpg",
-      "description": "A Tree Hill, petite ville de Caroline du Sud, tout le monde connaît les frères Scott. S'ils portent le même nom, tout les sépare et les rapproche à la fois. L'un, Nathan, arrogant et sûr de lui, vit les rêves que son père Dan n'a pu satisfaire. L'autre, Lucas, calme et posé, cherche à faire honneur à Karen, sa mère célibataire.",
-      "releaseInfo": "2003"
+      "name": "Doraemon",
+      "poster": "https://image.tmdb.org/t/p/w500/a8LwHrfrBRn2nEN9THo1tlpKiDN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6oVBODwFvbDJczBFlf4J930jKZg.jpg",
+      "description": "Doraemon est une série télévisée animée créée par Fujiko F. Fujio et basée sur la série manga du même nom. Cet anime est le successeur beaucoup plus réussi de l'anime de 1973.",
+      "releaseInfo": "1979"
     },
     {
-      "id": "tmdb:37680",
+      "id": "tmdb:4601",
       "type": "series",
-      "name": "Suits, avocats sur mesure",
-      "poster": "https://image.tmdb.org/t/p/w500/tVqvztjig1o001EAAZs9wCs3bV6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/or0E36KfzJYZwqXeiCfm1JgepKF.jpg",
-      "description": "Avocat très ambitieux d'une grosse firme de Manhattan, Harvey Specter a besoin de quelqu'un pour l'épauler. Son choix se porte sur Mike Ross, un jeune homme très brillant mais sans diplôme, doté d'un talent certain et d'une mémoire photographique très précieuse. Ensemble, ils forment une équipe gagnante, prête à relever tous les défis. Mike devra cependant user de toutes les ruses pour maintenir sa place sans que personne ne découvre qu'il n'a jamais passé l'examen du barreau.",
-      "releaseInfo": "2011"
+      "name": "New York Section Criminelle",
+      "poster": "https://image.tmdb.org/t/p/w500/sXCZZpL0L5IQazaXY1wm5yTbfdk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qLYumObEHeRHFMC6N3SfCrnBFjp.jpg",
+      "description": "Une équipe de la police criminelle tentent d'élucider les crimes en essayant de cerner la psychologie des meurtriers.",
+      "releaseInfo": "2001"
     },
     {
-      "id": "tmdb:12225",
+      "id": "tmdb:1412",
       "type": "series",
-      "name": "Peppa Pig",
-      "poster": "https://image.tmdb.org/t/p/w500/iwKVo3HlsyVNXCzFEkd0xHz3kGi.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/r9QAxAW2KGQaVnEOxXKJuZ6RSJe.jpg",
-      "description": "Peppa est une adorable chipie cochon qui vit avec son frère George, Maman Pig et Papa Pig. Ce que Peppa préfère, c'est jouer, se déguiser, se promener dehors et sauter dans la boue. Ses aventures se terminent toujours joyeusement.",
-      "releaseInfo": "2004"
+      "name": "Arrow",
+      "poster": "https://image.tmdb.org/t/p/w500/4DVLTc7oVCzHOSmZzlDHefCKyqq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wAFuDJfZJrnh6a1wf1Vt7PqYBvR.jpg",
+      "description": "Les nouvelles aventures de Green Arrow/Oliver Queen, combattant ultra efficace issu de l'univers de DC Comics et surtout archer au talent fou, qui appartient notamment à la Justice League. Disparu en mer avec son père et sa petite amie, il est retrouvé vivant 5 ans plus tard sur une île près des côtes Chinoises. Mais il a changé : il est fort, courageux et déterminé à débarrasser Starling City de ses malfrats…",
+      "releaseInfo": "2012"
     }
   ]
 }

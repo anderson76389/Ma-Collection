@@ -19,24 +19,6 @@
       "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:212989",
-      "type": "series",
-      "name": "LEGO Ninjago : Le soulèvement des dragons",
-      "poster": "https://image.tmdb.org/t/p/w500/yJ9VjdlKpSkkBqgQ2kwOcEpMLVj.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4vubgrPvqDKNFP1kNvHpd3do9hd.jpg",
-      "description": "Deux adolescents de mondes différents utilisent leurs pouvoirs de ninjas pour défendre des dragons face à des méchants qui veulent utiliser leur force vitale à mauvais escient.",
-      "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:243875",
-      "type": "series",
-      "name": "Georgie & Mandy's First Marriage",
-      "poster": "https://image.tmdb.org/t/p/w500/vonR5GlaCJpSqIQMUcBm6VQYYuu.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/h927CLfeAjiy0MNKRxWZgEq7bHR.jpg",
-      "description": "Cette suite de Young Sheldon suit Georgie et Mandy alors qu'ils élèvent leur jeune famille au Texas.",
-      "releaseInfo": "2024"
-    },
-    {
       "id": "tmdb:81723",
       "type": "series",
       "name": "The Gilded Age",
@@ -55,13 +37,22 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:253372",
+      "id": "tmdb:249565",
       "type": "series",
-      "name": "L'Institut",
-      "poster": "https://image.tmdb.org/t/p/w500/gtQr27iHwBrK0dzDguL1okLmZLK.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wWleS7DxsoGCkOPisNf8OZ2udiD.jpg",
-      "description": "\"L'Institut\" nous plonge dans les mystères d'une organisation secrète qui enlève des enfants dotés de pouvoirs psychiques et les utilise pour des missions ultrasecrètes dans le but de \"sauver le monde\". Luke Ellis, un surdoué qui a le pouvoir de télékinésie, est le dernier kidnappé. Il est déterminé à s'échapper avec ses nouveaux amis et espère trouver un moyen de faire tomber l'organisation.",
-      "releaseInfo": "2025"
+      "name": "The Good Daughter",
+      "poster": "https://image.tmdb.org/t/p/w500/nfWGZtrLH6PLcOQFOttZqmhKaVk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nDU6mUk4wVU1EkDkDvcLvT2UWdy.jpg",
+      "description": "Les sœurs Charlotte et Samantha Quinn ont passé les vingt-huit dernières années à essayer de reconstituer les vies qui ont été brisées par une nuit de violence. Lorsqu'un nouvel attentat a lieu dans la petite ville de Pikeville, Charlotte est le premier témoin sur les lieux. Devenue avocate comme son père, elle est forcée d'affronter ses propres démons au fur et à mesure que l'affaire affaire.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:243875",
+      "type": "series",
+      "name": "Georgie & Mandy's First Marriage",
+      "poster": "https://image.tmdb.org/t/p/w500/vonR5GlaCJpSqIQMUcBm6VQYYuu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/h927CLfeAjiy0MNKRxWZgEq7bHR.jpg",
+      "description": "Cette suite de Young Sheldon suit Georgie et Mandy alors qu'ils élèvent leur jeune famille au Texas.",
+      "releaseInfo": "2024"
     },
     {
       "id": "tmdb:34634",
@@ -73,22 +64,13 @@
       "releaseInfo": "2010"
     },
     {
-      "id": "tmdb:17937",
+      "id": "tmdb:253372",
       "type": "series",
-      "name": "Ghost Adventures",
-      "poster": "https://image.tmdb.org/t/p/w500/xLJZuDxdeUqRFHFlqs0mIk9faMR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/u64huzTnF3jEYUXJ4BDlpHy2L3K.jpg",
-      "description": "L'enquêteur paranormal Zak Bagans et son équipe, Nick Groff, Aaron Goodwin, Billy Tolley et Jay Wasley, recherchent des lieux hantés au niveau national et international. Au cours de leur enquête, Zak et son équipe se familiarisent avec la région, interrogent les habitants sur les lieux hantés et rencontrent les mauvais esprits qui hanteraient ces lieux.",
-      "releaseInfo": "2008"
-    },
-    {
-      "id": "tmdb:314360",
-      "type": "series",
-      "name": "YAGA",
-      "poster": "https://image.tmdb.org/t/p/w500/wSbmXrDTm7g3USFAT6oKL8MGDfJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/owhTL4n2r9ryfxyYlhHKt97ogVk.jpg",
-      "description": "Alors qu’un détective privé enquête sur la disparition du jeune héritier d’une puissante entreprise de pêche, il se retrouve en désaccord avec un détective local méfiant, un charismatique professeur d’université qui aime les hommes plus jeunes, et un labyrinthe de suspects énigmatiques, de vies secrètes et de magie ancienne.",
-      "releaseInfo": "2026"
+      "name": "L'Institut",
+      "poster": "https://image.tmdb.org/t/p/w500/gtQr27iHwBrK0dzDguL1okLmZLK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wWleS7DxsoGCkOPisNf8OZ2udiD.jpg",
+      "description": "\"L'Institut\" nous plonge dans les mystères d'une organisation secrète qui enlève des enfants dotés de pouvoirs psychiques et les utilise pour des missions ultrasecrètes dans le but de \"sauver le monde\". Luke Ellis, un surdoué qui a le pouvoir de télékinésie, est le dernier kidnappé. Il est déterminé à s'échapper avec ses nouveaux amis et espère trouver un moyen de faire tomber l'organisation.",
+      "releaseInfo": "2025"
     },
     {
       "id": "tmdb:2808",
@@ -100,57 +82,12 @@
       "releaseInfo": "2002"
     },
     {
-      "id": "tmdb:207484",
+      "id": "tmdb:314360",
       "type": "series",
-      "name": "Outlander: Blood of My Blood",
-      "poster": "https://image.tmdb.org/t/p/w500/ktE9cVsaB7GjggashRcd5aBlXd5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lCnOoI8eYo6sTbnoSI2qwt2ZzVb.jpg",
-      "description": "Ses champs de bataille déchirés par la guerre de 14-18 aux Highlands de l'Écosse du XVIIIe siècle, ce préquel revient sur l’histoire d’amour des parents de Jamie Fraser, Ellen MacKenzie et Brian Fraser, et ceux de Claire, Julia Moriston et Henry Beauchamp, explorant jusqu'où une personne peut aller par amour à une époque où les mariages ont un rôle stratégique, souvent à des fins politiques ou financières.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:279185",
-      "type": "series",
-      "name": "Tourments",
-      "poster": "https://image.tmdb.org/t/p/w500/eUSh6sJmv7k30kBELK0mNIEEvFa.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uqlqU7IOOrJBLSdxe3VQlO6OXy0.jpg",
-      "description": "Une journaliste en disgrâce retourne dans sa ville natale et entreprend d'enquêter sur la disparition non résolue d'un ami d'enfance.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:262352",
-      "type": "series",
-      "name": "L'Assassin",
-      "poster": "https://image.tmdb.org/t/p/w500/uLhqXgoEXZ92qDkFgITcTfuoKLu.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7EB84rTBUmjY2tPhNpGjxnKJVeo.jpg",
-      "description": "Une tueuse à gages retraitée retrouve son fils avec qui elle avait perdu contact, mais son passé dangereux les rattrape, les obligeant à fuir ensemble tout en découvrant une sombre conspiration qui menace leur relation.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:218038",
-      "type": "series",
-      "name": "VIVANT",
-      "poster": "https://image.tmdb.org/t/p/w500/5YtrWYAuw8wQwDKHSlVLmohpFw2.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yBNDjG4Q963MecEllraSdqs3QjX.jpg",
-      "description": "Vivant suit l’histoire de Nogi Yusuke, un employé de la société Marubishi Corporation chargé d’un projet dans le domaine de l’énergie solaire en Asie Centrale. Il a été envoyé à Balka pour régler un problème de trop-versé lors d’une transaction où 100 millions de Dollars ont étés versés au lieux des dix prévus. Les choses ne se passant pas aussi bien que prévues, il sera contraint de prendre la fuite avec l’aide de Nozaki Mamoru de la Sécurité Publique et de l’infirmière Yuzuki Kaoru.",
-      "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:256695",
-      "type": "series",
-      "name": "Regular Show : Les cassettes oubliées",
-      "poster": "https://image.tmdb.org/t/p/w500/gZuwOtqQRPvLOhLV21qfaC3tIxS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/43Tu4TnFO57R6eK6XUBFGJrazrZ.jpg",
-      "description": "Mordecai, un geai bleu, et Rigby, un raton laveur, deux amis paresseux, travaillent dans un parc municipal. Mais, quoi qu'ils entreprennent, leurs tâches quotidiennes finissent invariablement par basculer dans un chaos totalement surréaliste, au grand désespoir de leur patron et de leurs collègues...",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:285418",
-      "type": "series",
-      "name": "Youth",
-      "poster": "https://image.tmdb.org/t/p/w500/uK1Kv6OHkpmHUyMV5QmYxXoTBVM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/iEISXRsDv8Q2PA6i9cAQd2DH9bN.jpg",
-      "description": "Alex a une carrière, une famille et une riche expérience de la vie, mais elle doit aussi faire face aux réalités de la cinquantaine, s'occuper de ses parents vieillissants, élever un fils adolescent en difficulté et essayer de déterminer s'il y a encore de la place pour la romance et l'excitation dans sa propre vie.",
+      "name": "YAGA",
+      "poster": "https://image.tmdb.org/t/p/w500/wSbmXrDTm7g3USFAT6oKL8MGDfJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/owhTL4n2r9ryfxyYlhHKt97ogVk.jpg",
+      "description": "Alors qu’un détective privé enquête sur la disparition du jeune héritier d’une puissante entreprise de pêche, il se retrouve en désaccord avec un détective local méfiant, un charismatique professeur d’université qui aime les hommes plus jeunes, et un labyrinthe de suspects énigmatiques, de vies secrètes et de magie ancienne.",
       "releaseInfo": "2026"
     },
     {
@@ -163,12 +100,48 @@
       "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:288385",
+      "id": "tmdb:34045",
       "type": "series",
-      "name": "Paolo",
-      "poster": "https://image.tmdb.org/t/p/w500/5arYNSnKiCWxdwdrzjvP5vokPkV.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mjje2ajzDEpT3wDgc28RtjIq3WD.jpg",
-      "description": "La vie ordinaire de Paolo bascule lorsqu’il recroise la route de Téophane, un ancien camarade d’école, qui brigue aujourd’hui la mairie de sa ville et qui a semble-t-il tout pour lui. Ce qui commence par une simple admiration et une volonté de soutenir la campagne se transforme en une obsession dévorante…",
+      "name": "Soeurs épouses",
+      "poster": "https://image.tmdb.org/t/p/w500/lnSXPiP9nYx23AbaekTCdTBq722.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bpD0l55NTyHzIGX0QdTdogTk1ro.jpg",
+      "description": "Série documentaire suivant le quotidien d'une famille polygame de l'Utah, aux États-Unis.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:256695",
+      "type": "series",
+      "name": "Regular Show : Les cassettes oubliées",
+      "poster": "https://image.tmdb.org/t/p/w500/gZuwOtqQRPvLOhLV21qfaC3tIxS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/43Tu4TnFO57R6eK6XUBFGJrazrZ.jpg",
+      "description": "Mordecai, un geai bleu, et Rigby, un raton laveur, deux amis paresseux, travaillent dans un parc municipal. Mais, quoi qu'ils entreprennent, leurs tâches quotidiennes finissent invariablement par basculer dans un chaos totalement surréaliste, au grand désespoir de leur patron et de leurs collègues...",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:231801",
+      "type": "series",
+      "name": "GET JIRO",
+      "poster": "https://image.tmdb.org/t/p/w500/li3TH09EF6JyHPVoTvub4nPOfwU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xe6wbOPKuSMOze4rl48NFWy8PNe.jpg",
+      "description": "Sino : Le futur. Los Angeles est sous la coupe de chefs cuisiniers d'élite. Jiro, un maître sushi mêlé à un conflit culinaire sanglant dans l'impitoyable milieu de la restauration cherche à se venger grâce à ses talents de chef.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:310133",
+      "type": "series",
+      "name": "4 Blocks Zero",
+      "poster": "https://image.tmdb.org/t/p/w500/9j0kT5q7BATWbqTph0gqkzyr0KT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pE6lTAEaErbLzIZuGP7Ojg8uD0.jpg",
+      "description": "Dans le Berlin des années 1990, les origines de la famille Hamady avant qu’elle ne devienne l’un des clans les plus influents de la ville. Réfugiés du Liban, tolérés en Allemagne, les Hamady luttent pour s’imposer dans leur nouveau pays et se faire une place dans le milieu criminel berlinois.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:305245",
+      "type": "series",
+      "name": "Douce Nuit",
+      "poster": "https://image.tmdb.org/t/p/w500/5KKmG94mjp1ds1r99n3i0IGWQXg.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bbCCaAlzJkCv8C8AFr8l1rBWJyt.jpg",
+      "description": "Lors de la nuit de Noël 1976 en Pologne, trois jeunes gens meurent tragiquement, fauchés par un autobus alors qu'ils revenaient de la messe de minuit. Alors que les autorités locales s'empressent de classer l'affaire en un simple et malheureux accident de la route, la mère des victimes refuse de croire à cette version. Épaulée par un jeune enquêteur ambitieux et obstiné, elle va se confronter à une terrible loi du silence qui paralyse tout le village. Ensemble, ils vont tenter de briser l'omerta pour faire éclater une vérité bien plus sombre et obtenir justice.",
       "releaseInfo": "2026"
     },
     {
@@ -179,6 +152,33 @@
       "background": "https://image.tmdb.org/t/p/w780/r5ecc4Wjejsp6B507GdZXOPTNMo.jpg",
       "description": "Melania, une jeune mère de vingt-neuf ans, est retrouvée morte poignardée dans une forêt après avoir mystérieusement disparu lors d'une sortie familiale en Italie. L'enquête policière se concentre rapidement sur son mari, Salvatore, un caporal-chef de l'armée dont la double vie sentimentale et les mensonges finissent par être exposés au grand jour.",
       "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:254514",
+      "type": "series",
+      "name": "Harry Potter : Les Sorciers de la pâtisserie",
+      "poster": "https://image.tmdb.org/t/p/w500/wz5mPvGj9L93bA4Rvmau9fh1GNS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9mDlwBdCu501924dXnzz2Gtc8XI.jpg",
+      "description": "Des chefs pâtissiers s'affrontent sur le thème de Harry Potter pour remporter la toute première Coupe des Sorciers de la Pâtisserie.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:46268",
+      "type": "series",
+      "name": "Alcool de contrebande",
+      "poster": "https://image.tmdb.org/t/p/w500/gByx9wYjhQ02RnImgHGsaV8htqN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jH8BWwd1kIfY3N614o9idhW8rOJ.jpg",
+      "description": "\"Alcool de contrebande\" suit le quotidien de bouilleurs d'alcool hors-la-loi qui doivent répondre à une forte demande des clients, tout en évitant l’attention des autorités.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:280880",
+      "type": "series",
+      "name": "Furia",
+      "poster": "https://image.tmdb.org/t/p/w500/36fswf4kFqCTgPtx2ZSFCBPpkbH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xWTgLbS1HLr2sqwZH9sD6zO16Jj.jpg",
+      "description": "Cinq femmes border-Line déchaînent leur rage dans une comédie audacieuse et sombre sur la colère, la sororité et la vengeance. Cité par le New-York Times comme « brillant et drôle », Rage est un parcours sauvage et nécessaire que vous n’oublierez pas.\n\nMarga est une artiste snob. Roberto son mari est en couple avec Tina, la femme de ménage, et l'a mise enceinte.  Vera, l'amie de Marga, est une cuisinière médiatique qui doit fermer son commerce à cause de la maladie d'un critique incisif.  Nat est vendeuse dans une boutique de haute couture. Marga et Vera sont ses clientes.  Adela, mère de Tina, est sans emploi et risque d'être mise à la rue avec sa vieille mère par son propriétaire impitoyable.  Victoria, la voisine d'Adela et Nat, est une actrice délaissée du cinéma érotique des années 70.",
+      "releaseInfo": "2025"
     }
   ]
 }

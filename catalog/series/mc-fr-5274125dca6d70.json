@@ -10,20 +10,21 @@
       "releaseInfo": "1999"
     },
     {
+      "id": "tmdb:37678",
+      "type": "series",
+      "name": "The Voice (États-Unis)",
+      "poster": "https://image.tmdb.org/t/p/w500/7ah1WExcMkzbq7sARCTmcC23tBr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/x8pSFa3BXyVpkjHyn7YxmLyhjoh.jpg",
+      "description": "Les meilleurs chanteurs du pays s’affrontent dans un grand concours de chant, dont le gagnant est couronné « The Voice ». Le programme repose sur un format innovant en quatre étapes : les auditions à l’aveugle, les battles, les épreuves éliminatoires et, les prestations en direct.",
+      "releaseInfo": "2011"
+    },
+    {
       "id": "tmdb:59941",
       "type": "series",
       "name": "Le Tonight Show",
       "poster": "https://image.tmdb.org/t/p/w500/1g9k0mSogSkkC7aRZlrTvGYMudE.jpg",
       "background": "https://image.tmdb.org/t/p/w780/i4OYRb5V13BrOnTPJGdyXWg4r0J.jpg",
       "description": "Mêlant humour et talk-show, Jimmy Fallon reçoit des personnalités de la musique, du cinéma, ou encore du sport, pour un entretien.",
-      "releaseInfo": "2014"
-    },
-    {
-      "id": "tmdb:61818",
-      "type": "series",
-      "name": "Late Night with Seth Meyers",
-      "poster": "https://image.tmdb.org/t/p/w500/u0ttHM5ZQCvnfL0lkueEgS4h2nI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dfX2UaHVE5c7kLBFbgmEZJuy4Ev.jpg",
       "releaseInfo": "2014"
     },
     {
@@ -36,6 +37,14 @@
       "releaseInfo": "1990"
     },
     {
+      "id": "tmdb:61818",
+      "type": "series",
+      "name": "Late Night with Seth Meyers",
+      "poster": "https://image.tmdb.org/t/p/w500/qKFP9Se7LJtBaxrMS41iu63dtK3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dfX2UaHVE5c7kLBFbgmEZJuy4Ev.jpg",
+      "releaseInfo": "2014"
+    },
+    {
       "id": "tmdb:44006",
       "type": "series",
       "name": "Chicago Fire",
@@ -43,15 +52,6 @@
       "background": "https://image.tmdb.org/t/p/w780/otaBZzLIqrKdXcovbAvVONJCnb4.jpg",
       "description": "Un aperçu captivant de la vie de héros du quotidien engagés dans l'une des professions les plus nobles des États-Unis. Pour les pompiers, les secouristes et les ambulanciers de la caserne 51 de Chicago, aucun métier n'est plus stressant ni plus dangereux, mais en même temps aussi gratifiant et exaltant. Ces hommes et ces femmes courageux font partie de cette élite qui se jette tête la première dans le danger alors que tout le monde s'enfuit dans la direction opposée, et dont les actions font la différence entre la vie et la mort.",
       "releaseInfo": "2012"
-    },
-    {
-      "id": "tmdb:58841",
-      "type": "series",
-      "name": "Chicago Police Department",
-      "poster": "https://image.tmdb.org/t/p/w500/sfBiloE6J9rFEnpvckdeHZ06SSl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/18KSsDgcGQds7yOMC6MVRTbVJwt.jpg",
-      "description": "Des officiers en uniforme qui patrouillent et combattent le crime dans la rue, aux membres de l'unité des renseignements affectés à des affaires majeures (crime organisé, trafic de drogue, homicides...), toutes les recrues du poste de police du district 21 de Chicago risquent quotidiennement leurs vies. Ces énormes responsabilités dépassent souvent le simple cadre professionnel et entâchent la sphère privée de ces hommes et de ces femmes d'exception.\n\nSpin-off de Chicago Fire centré sur une brigade de police de la ville.",
-      "releaseInfo": "2014"
     },
     {
       "id": "tmdb:1667",
@@ -63,6 +63,15 @@
       "releaseInfo": "1975"
     },
     {
+      "id": "tmdb:58841",
+      "type": "series",
+      "name": "Chicago Police Department",
+      "poster": "https://image.tmdb.org/t/p/w500/sfBiloE6J9rFEnpvckdeHZ06SSl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/18KSsDgcGQds7yOMC6MVRTbVJwt.jpg",
+      "description": "Des officiers en uniforme qui patrouillent et combattent le crime dans la rue, aux membres de l'unité des renseignements affectés à des affaires majeures (crime organisé, trafic de drogue, homicides...), toutes les recrues du poste de police du district 21 de Chicago risquent quotidiennement leurs vies. Ces énormes responsabilités dépassent souvent le simple cadre professionnel et entâchent la sphère privée de ces hommes et de ces femmes d'exception.\n\nSpin-off de Chicago Fire centré sur une brigade de police de la ville.",
+      "releaseInfo": "2014"
+    },
+    {
       "id": "tmdb:62650",
       "type": "series",
       "name": "Chicago Med",
@@ -70,15 +79,6 @@
       "background": "https://image.tmdb.org/t/p/w780/fFgVoJuSBewZWlzgaoUWGm8MvD4.jpg",
       "description": "Le quotidien mouvementé du personnel d'un des plus importants hôpitaux de Chicago. Leur mission : sauver des vies, en se confrontant aux cas médicaux les plus critiques. Seuls leur courage et leur compassion leur permet au quotidien de faire face aux challenges parfois insurmontables de la médecine, ainsi qu'aux dilemmes éthiques propres à leur noble discipline.",
       "releaseInfo": "2015"
-    },
-    {
-      "id": "tmdb:37678",
-      "type": "series",
-      "name": "The Voice (États-Unis)",
-      "poster": "https://image.tmdb.org/t/p/w500/7ah1WExcMkzbq7sARCTmcC23tBr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/x8pSFa3BXyVpkjHyn7YxmLyhjoh.jpg",
-      "description": "Les meilleurs chanteurs du pays s’affrontent dans un grand concours de chant, dont le gagnant est couronné « The Voice ». Le programme repose sur un format innovant en quatre étapes : les auditions à l’aveugle, les battles, les épreuves éliminatoires et, les prestations en direct.",
-      "releaseInfo": "2011"
     },
     {
       "id": "tmdb:4496",
@@ -90,14 +90,6 @@
       "releaseInfo": "1947"
     },
     {
-      "id": "tmdb:78",
-      "type": "series",
-      "name": "Dateline",
-      "poster": "https://image.tmdb.org/t/p/w500/xj9zonhdomfBpEhZQmAON5u3CiB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4m8QH2C6hBQQ08EgwaOtOv7ATFh.jpg",
-      "releaseInfo": "1992"
-    },
-    {
       "id": "tmdb:2778",
       "type": "series",
       "name": "Wheel of Fortune",
@@ -105,6 +97,14 @@
       "background": "https://image.tmdb.org/t/p/w780/A6Sp44grqCnvKs5Plhy3oQncUrq.jpg",
       "description": "Ce jeu télévisé voit les concurrents résoudre des énigmes de mots, similaires à celles utilisées dans Hangman, pour gagner de l'argent et des prix déterminés en faisant tourner une roue de carnaval géante.",
       "releaseInfo": "1983"
+    },
+    {
+      "id": "tmdb:78",
+      "type": "series",
+      "name": "Dateline",
+      "poster": "https://image.tmdb.org/t/p/w500/xj9zonhdomfBpEhZQmAON5u3CiB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4m8QH2C6hBQQ08EgwaOtOv7ATFh.jpg",
+      "releaseInfo": "1992"
     },
     {
       "id": "tmdb:881",
@@ -134,14 +134,6 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:253896",
-      "type": "series",
-      "name": "Happy's Place",
-      "poster": "https://image.tmdb.org/t/p/w500/3dehoKPCwLwKTWATfzGqoJ2Psdl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lQ9Yun6lMNNcQWFM0r2iKReKQeO.jpg",
-      "releaseInfo": "2024"
-    },
-    {
       "id": "tmdb:321958",
       "type": "series",
       "name": "Line of Fire",
@@ -149,6 +141,14 @@
       "background": "https://image.tmdb.org/t/p/w780/wywNNHCRHJ129yTGTYBujnP4vRq.jpg",
       "description": "Une famille d’agents des forces de l’ordre met de côté ses divergences personnelles et dépasse les frontières de ses fonctions respectives pour mener à bien des enquêtes pour le compte du FBI, des US Marshals, des services secrets et du ministère de la Justice. Lorsqu’une affaire qui semblait simple se transforme en un complot meurtrier, ils doivent mettre à profit l’expertise acquise au fil d’une vie passée à protéger des civils et des personnalités politiques pour se protéger les uns les autres et traduire le meurtrier en justice… même si cela implique de trahir le code d’honneur auquel ils ont prêté serment.",
       "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:253896",
+      "type": "series",
+      "name": "Happy's Place",
+      "poster": "https://image.tmdb.org/t/p/w500/3dehoKPCwLwKTWATfzGqoJ2Psdl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lQ9Yun6lMNNcQWFM0r2iKReKQeO.jpg",
+      "releaseInfo": "2024"
     },
     {
       "id": "tmdb:291334",

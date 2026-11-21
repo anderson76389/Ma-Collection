@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:336936",
+      "type": "series",
+      "name": "Wanted, les secrets de cette course folle",
+      "poster": "https://image.tmdb.org/t/p/w500/knDd2us9SiNMFpOQKjM3xbj0CSj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9ZBhZFKE2066VQzsIJQo87ST5yR.jpg",
+      "description": "La course se prolonge après chaque soirée de « Wanted : attrape-moi si tu peux ! ». L’occasion de revivre les moments forts, de découvrir des images inédites et d’entendre les célébrités raconter leur aventure, côté fugitifs comme côté gardiens.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:326780",
       "type": "series",
       "name": "Wanted : Attrape-moi si tu peux !",
@@ -168,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/42LPtTRWp4MfSd5vvJImKkZy9gI.jpg",
       "background": "https://image.tmdb.org/t/p/w780/AsDf7OFu8Cuc5AsdzoXNDmJGThR.jpg",
       "description": "La vie de deux jumeaux de neuf ans, Jade et Mica, change du tout au tout lorsqu’on leur confie trois jeunes Marsupilamis : l’adorable Hope, le joyeux Twister et Punch le rebelle. Ces trois adorables boules de poil pleines d’énergie aux caractères bien trempés, n’ont qu’une envie : explorer la ville fascinante qui les entoure. Sauf que nos trois Marsus doivent à tout prix rester cachés pour échapper à la convoitise du Jaguar et du Capitaine Stan ! Jade et Mica vont alors tout faire pour protéger leurs amis. Ensemble, ils vont vivre des aventures bourrées de comédie, d’action et d’émotion !",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:302505",
-      "type": "series",
-      "name": "Ma super Ligue 1",
-      "poster": "https://image.tmdb.org/t/p/w500/76QYmqM2utjcWQgZMKMo5ge3sjN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/d6eM8BavbFUlYPljVmLsvxXoKlC.jpg",
-      "description": "Ma Super Ligue 1 est une plongée au cœur de l’univers de la Ligue 1 McDonald’s, spécialement imaginée pour les plus jeunes et construite avec leur regard. Chaque semaine, SoAnne entrainera les enfants au cœur du championnat de France et leur fera rencontrer des joueurs et équipes exceptionnels. Une fenêtre unique pour découvrir les coulisses du championnat, à hauteur d’enfants !",
       "releaseInfo": "2025"
     }
   ]

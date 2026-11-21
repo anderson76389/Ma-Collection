@@ -1,6 +1,24 @@
 {
   "metas": [
     {
+      "id": "tmdb:1780407",
+      "type": "movie",
+      "name": "Snoopy présente : les 12 jours de Noël",
+      "poster": "https://image.tmdb.org/t/p/w500/uJ3Eb4zUtF1KFD5zd8CiYaFXWuu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/a3DzS9AUB6AgYiELaeTn2n8EfNz.jpg",
+      "description": "Afin de ne plus figurer sur la liste noire du père Noël, Snoopy fait de son mieux pour avoir une conduite irréprochable.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1050981",
+      "type": "movie",
+      "name": "Being Heumann",
+      "poster": "https://image.tmdb.org/t/p/w500/9Wi0fxpo1e7Wn2cGVNu7niwdEP2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/25aB8RXP4mfQLFRSuEEhk0d0sTC.jpg",
+      "description": "Débrouillarde, défiant l'autorité et fatiguée d'être traitée comme un fardeau, Judy Heumann transforme son indignation en révolution. En 1977, cette dernière et plus de 100 manifestants luttant pour les droits des personnes handicapées envoient un message très clair : le système est défaillant, pas nous.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1288069",
       "type": "movie",
       "name": "Tenzing : à la conquête de l’Everest",
@@ -13,7 +31,7 @@
       "id": "tmdb:1148365",
       "type": "movie",
       "name": "Matchbox – Le film",
-      "poster": "https://image.tmdb.org/t/p/w500/5MRpLuZ1lnHNABHMhMowezKQnO9.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/qcgDXdfMH8JrTJv1wwJ2Z8cggzk.jpg",
       "background": "https://image.tmdb.org/t/p/w780/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg",
       "description": "Des amis d'enfance reprennent contact et les retrouvailles prennent une tournure inattendue quand ils découvrent un dangereux complot international et doivent sauver le monde.",
       "releaseInfo": "2026"
@@ -160,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/wbxlTiuzz3akzjVKU3QfN7Y4kn9.jpg",
       "background": "https://image.tmdb.org/t/p/w780/3qwyNSouBps6PRdSNxLo1aUH35y.jpg",
       "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1403003",
-      "type": "movie",
-      "name": "Carpool Karaoke spécial Noël",
-      "poster": "https://image.tmdb.org/t/p/w500/yGObbhXMALZNO43ZaZb6wcHjFnd.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kxjCUTu2NixT3e7KW9mdvsQ9jRr.jpg",
-      "description": "James Corden laisse les clés à Zane Lowe pour ce road trip international des fêtes. Direction le pays des merveilles de l’hiver des divas de la pop quand Zane est d’humeur festive avec Dua Lipa au Japon, Chappell Roan chez elle dans le Missouri, et Lady Gaga à Los Angeles.",
-      "releaseInfo": "2024"
     }
   ]
 }

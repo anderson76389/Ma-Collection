@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:1513703",
+      "type": "movie",
+      "name": "Последний богатырь. Колобок",
+      "poster": "https://image.tmdb.org/t/p/w500/jPKQThX15zNRaYdbEhmnJEjGjWT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uwCrmXg12dZ39lsgAzp1kU6oji9.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1590206",
       "type": "movie",
       "name": "Коммерсант",
@@ -155,14 +163,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/g45NVaq0o72UcKWzZxZ0EUnylH9.jpg",
       "background": "https://image.tmdb.org/t/p/w780/xxKihlvCkmG6j4v2a4gWGPBnzjr.jpg",
       "description": "1927. À bord du Transsibérien, des documents secrets sont transportés à travers toute la Russie. Ils décideront de l’avenir de l’URSS et de la Chine. Derrière l’apparence de simples voyageurs se cachent des espions étrangers et des tueurs prêts à tout pour s’en emparer. Un jeune soldat de l’Armée rouge et un ancien agent du tsar doivent unir leurs forces pour démasquer leur ennemi commun.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1008445",
-      "type": "movie",
-      "name": "Le Prophète : l’Histoire d’Alexandre Pouchkine",
-      "poster": "https://image.tmdb.org/t/p/w500/u1c7hlPdCFMUOe77Ttee3UVLjRD.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mdFrkufYmXcoohvFxvoALidSqJ1.jpg",
       "releaseInfo": "2025"
     }
   ]
