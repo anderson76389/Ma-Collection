@@ -66,7 +66,12 @@ try {
     for (const width of [1440,960,390]) {
       await page.setViewportSize({width,height:835});
       const dock=page.getByRole("navigation",{name:"Navigation principale"});
-      await dock.getByRole("button",{name:"Outils",exact:true}).click();
+      await dock.locator("#suite-menu").click();
+      await page.locator("#mc-tools").getByRole("button",{name:/Statistiques/}).click();
+      const stats=page.getByRole("dialog",{name:"Statistiques de la collection"});
+      assert.equal(await stats.locator("li").count(),await page.evaluate(()=>window.collectionData.length));
+      await stats.getByRole("button",{name:"Fermer"}).click();
+      await dock.locator("#home-tools-menu").click();
       await page.locator("#mc-tools [data-tools-close]").click();
       await dock.getByRole("button",{name:"Studio",exact:true}).click();
       await page.locator("#mc-studio-root").waitFor({state:"visible"});
@@ -115,6 +120,7 @@ try {
     await page.locator("#faq-close").click();
     await page.locator("#faq-overlay").waitFor({state:"detached"});
     await page.locator("#title-screen-studio").click();
+    await page.locator("[data-hub-tab=profils]").first().click();
     assert.equal(await page.locator("[data-tab=profils]").getAttribute("aria-selected"),"true");
     await page.keyboard.press("Escape");
     await page.locator("#title-screen-restore").click();
