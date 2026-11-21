@@ -65,6 +65,12 @@ try {
   await run("accueil et outils lisibles sur ordinateur et mobile",async()=>{
     for (const width of [1440,960,390]) {
       await page.setViewportSize({width,height:835});
+      const dock=page.getByRole("navigation",{name:"Navigation principale"});
+      await dock.getByRole("button",{name:"Outils",exact:true}).click();
+      await page.locator("#mc-tools [data-tools-close]").click();
+      await dock.getByRole("button",{name:"Studio",exact:true}).click();
+      await page.locator("#mc-studio-root").waitFor({state:"visible"});
+      await page.keyboard.press("Escape");
       const layout=await page.evaluate(()=>{
         const center=id=>{
           const r=document.querySelector(id).getBoundingClientRect();

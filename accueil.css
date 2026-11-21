@@ -182,3 +182,4 @@ html[data-theme="high-contrast"] {
 .mc-home .home-express { width: min(100%,17rem); height: 46px; border-radius: 2rem; }
 .home-return { border: 1px solid var(--border-hover); background: var(--bg-card); border-radius: 14px; padding: .25rem .7rem; }
 .mc-home .title-portfolio-showcase { scroll-margin-top: 4rem; }
+.mc-home-overlay .title-theme-toggle { left: max(.5rem,env(safe-area-inset-left)); right: auto; }
