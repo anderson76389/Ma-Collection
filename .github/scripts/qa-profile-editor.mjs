@@ -33,6 +33,28 @@ try {
   assert.equal((await download).suggestedFilename(),'Ma-Collection-Profil-Kovelyx.json');
   const layout=await root.evaluate(el=>({width:el.scrollWidth,view:innerWidth}));
   assert(layout.width<=layout.view+2,'Débordement horizontal du profil à '+width+' px');
+  await root.locator('[data-profile-action="close"]').click();
+  await page.evaluate(() => {
+    window.MaCollectionAccount = {
+      status: () => ({cloudSignedIn:true,cloudEmail:'qa@example.invalid'}),
+      cloudFetch: async path => {
+        if (path === '/v1/profiles') return Response.json({profiles:[{id:'11111111-1111-4111-8111-111111111111',displayName:'Test QA'}]});
+        if (!path.startsWith('/v1/sync?profileId=11111111-1111-4111-8111-111111111111&')) throw new Error('Requête inattendue');
+        return Response.json({items:[{category:'watch_progress',deleted:false,itemKey:'serie',payload:{title:'Étoile',lastPositionMs:50,durationMs:100}}],nextOffset:null});
+      }
+    };
+  });
+  await page.locator('#home-profile-history').click();
+  const history = page.locator('#mc-profile-history');
+  await history.locator('[data-history="profile"]').selectOption({label:'Test QA'});
+  await history.locator('[data-history="view"]').selectOption('progress');
+  await history.locator('[data-history="search"]').fill('etoile');
+  assert.match(await history.locator('[data-history="rows"]').innerText(),/Étoile.*50 %/s);
+  const backup=page.waitForEvent('download');
+  await history.locator('[data-history="export"]').click();
+  assert.equal((await backup).suggestedFilename(),'Kovelyx-bibliotheque-historique.json');
+  await page.keyboard.press('Escape');
+  assert.equal(await history.isVisible(),false);
   assert.deepEqual(errors,[]);
   console.log('QA_PROFILE_OK '+width+'px import, undo, generated art, export');await page.close();
  }

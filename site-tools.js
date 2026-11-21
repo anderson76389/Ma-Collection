@@ -7,6 +7,7 @@
   ['Éditeur rapide','Activer les dossiers et les sources',()=>window.openSimpleEditor?.()],
   ['Studio des catalogues','Profils locaux, affiches, styles et sauvegardes',()=>window.MaCollectionStudio?.open()],
   ['Mon profil Kovelyx','Lire, créer, réordonner et publier un profil complet',()=>window.MaCollectionProfileEditor?.open()],
+  ['Bibliothèque et historique','Titres enregistrés, vus et en cours sur Kovelyx',()=>window.MaCollectionProfileHistory?.open()],
   ['Créer un dossier','Saga, liste, studio, réseau, acteur ou réalisateur',()=>window.MaCollectionCustomFolders?.open()],
   ['Importer et synchroniser','Choisir un fichier, le PC ou le compte Kovelyx',()=>window.MaCollectionDestination?.open()],
   ['Auto-hébergement AIO','Exporter une configuration pour ton instance',()=>window.showSelfHostStartChoice?.()],
@@ -26,7 +27,7 @@
  }
  let pending=false;
  function refresh(){if(pending)return;pending=true;requestAnimationFrame(()=>{pending=false;install();});}
- function route(){const key=location.hash.replace(/^#\/?/,'');if(key==='profil')window.MaCollectionProfileEditor?.open();else if(key==='mise-a-jour')window.MaCollectionProfileEditor?.open({update:true});else if(key==='studio')window.MaCollectionStudio?.open();else if(key==='outils')open();else if(key==='aide')window.showUpdateFaqModal?.();}
+ function route(){const key=location.hash.replace(/^#\/?/,'');if(key==='profil')window.MaCollectionProfileEditor?.open();else if(key==='mise-a-jour')window.MaCollectionProfileEditor?.open({update:true});else if(key==='historique')window.MaCollectionProfileHistory?.open();else if(key==='studio')window.MaCollectionStudio?.open();else if(key==='outils')open();else if(key==='aide')window.showUpdateFaqModal?.();}
  const start=()=>{
   document.getElementById('home-edit-profile')?.addEventListener('click',()=>window.MaCollectionProfileEditor?.open({account:true}));
   document.getElementById('home-update-profile')?.addEventListener('click',()=>window.MaCollectionProfileEditor?.open({update:true}));
