@@ -23,6 +23,9 @@
     '<button type="button" class="quick-push-btn-secondary" id="mc-kovelyx-cloud-reload">Charger les profils</button></div>',
     '<label for="mc-kovelyx-cloud-profile">Profil de destination</label>',
     '<select id="mc-kovelyx-cloud-profile" style="width:100%;padding:12px;margin:7px 0 14px;background:#191628;color:white;border-radius:9px;border:1px solid #8b5cf6"></select>',
+    '<div class="quick-push-actions"><button type="button" class="quick-push-btn-secondary" id="mc-kovelyx-cloud-backup">Sauvegarder ce profil (.json)</button>',
+    '<button type="button" class="quick-push-btn-secondary" id="mc-kovelyx-cloud-compare">Comparer avant publication</button></div>',
+    '<p id="mc-kovelyx-cloud-comparison" role="status" aria-live="polite"></p>',
     '<label for="mc-kovelyx-cloud-mode">Comment publier ?</label>',
     '<select id="mc-kovelyx-cloud-mode" style="width:100%;padding:12px;margin:7px 0 14px;background:#191628;color:white;border-radius:9px;border:1px solid #8b5cf6">',
     '<option value="merge">Fusionner : conserver les catégories/dossiers existants</option>',
@@ -72,6 +75,8 @@
   }
   function setBusy(value) {
     busy = value;
+    for (const id of ["mc-kovelyx-cloud-backup", "mc-kovelyx-cloud-compare"])
+      if ($(id)) $(id).disabled = value;
     for (const id of ["mc-kovelyx-cloud-reload", "mc-kovelyx-cloud-send", "mc-kovelyx-cloud-profile", "mc-kovelyx-cloud-mode", "mc-kovelyx-cloud-poster-provider", "mc-kovelyx-cloud-bttr-source", "mc-kovelyx-cloud-bttr-lang", "mc-kovelyx-cloud-bttr-genre", "mc-kovelyx-cloud-bttr-rating", "mc-kovelyx-cloud-bttr-quality", "mc-kovelyx-cloud-bttr-age"])
       if ($(id)) $(id).disabled = value;
   }
@@ -218,6 +223,131 @@
     return output;
   }
 
+  function canonical(value) {
+    if (Array.isArray(value)) return "[" + value.map(canonical).join(",") + "]";
+    if (value && typeof value === "object")
+      return "{" + Object.keys(value).sort().map(key => JSON.stringify(key) + ":" + canonical(value[key])).join(",") + "}";
+    return JSON.stringify(value);
+  }
+
+  function compareCollections(previous, next) {
+    function rows(categories) {
+      if (!Array.isArray(categories)) throw new Error("Format des collections invalide.");
+      const map = new Map();
+      for (const category of categories) {
+        if (!category || typeof category.id !== "string" || map.has(category.id) || !Array.isArray(category.folders))
+          throw new Error("Catégories invalides ou identifiants en double.");
+        const ids = new Set();
+        for (const folder of category.folders) {
+          if (!folder || typeof folder.id !== "string" || ids.has(folder.id))
+            throw new Error("Dossiers invalides ou identifiants en double.");
+          ids.add(folder.id);
+        }
+        map.set(category.id, category);
+      }
+      return map;
+    }
+    const before = rows(previous), after = rows(next);
+    const result = {addedCategories:0, removedCategories:0, changedCategories:0, addedFolders:0, removedFolders:0, changedFolders:0, reorderedCategories:0, reorderedFolders:0};
+    for (const [id, row] of before) {
+      if (!after.has(id)) { result.removedCategories++; result.removedFolders += row.folders.length; }
+    }
+    for (const [id, row] of after) {
+      const old = before.get(id);
+      if (!old) { result.addedCategories++; result.addedFolders += row.folders.length; continue; }
+      const {folders:oldFolders,...oldSettings} = old, {folders:newFolders,...newSettings} = row;
+      if (canonical(oldSettings) !== canonical(newSettings)) result.changedCategories++;
+      const a = new Map(oldFolders.map(f => [f.id,f])), b = new Map(newFolders.map(f => [f.id,f]));
+      for (const key of a.keys()) if (!b.has(key)) result.removedFolders++;
+      for (const [key, folder] of b) {
+        if (!a.has(key)) result.addedFolders++;
+        else if (canonical(a.get(key)) !== canonical(folder)) result.changedFolders++;
+      }
+      if (canonical([...a.keys()].filter(key => b.has(key))) !== canonical([...b.keys()].filter(key => a.has(key)))) result.reorderedFolders++;
+    }
+    if (canonical([...before.keys()].filter(id => after.has(id))) !== canonical([...after.keys()].filter(id => before.has(id)))) result.reorderedCategories = 1;
+    return result;
+  }
+
+  function chosenProfile() {
+    const id = $("mc-kovelyx-cloud-profile").value;
+    if (!uuid(id) || !profiles.some(p => p.id === id)) throw new Error("Choisissez un profil Kovelyx valide.");
+    return id;
+  }
+  async function readProfile(profileId) {
+    if (!uuid(profileId)) throw new Error("Profil invalide.");
+    const head = await existingHead(profileId);
+    const collections = head ? await readCurrent(profileId, head) : [];
+    validateContent(collections);
+    compareCollections(collections, collections);
+    return {profileId, head, collections};
+  }
+  async function writeProfile(profileId, collections, expectedHead) {
+    if (!uuid(profileId) || !Array.isArray(collections)) throw new Error("Profil ou collection invalide.");
+    validateContent(collections);
+    const current = await existingHead(profileId);
+    if ((current?.revision || 0) !== (expectedHead?.revision || 0) ||
+        (current?.sha256 || "") !== (expectedHead?.sha256 || ""))
+      throw new Error("Ce profil a changé sur un autre appareil. Rechargez-le avant de publier ; le brouillon est conservé.");
+    const text=JSON.stringify(collections), bytes=new TextEncoder().encode(text);
+    if (!bytes.length || bytes.length>MAX_BYTES) throw new Error("Profil supérieur à 4 Mo : utilisez le fichier JSON local.");
+    const hash=await sha256(bytes), parts=split(text);
+    if (hash!==current?.sha256) {
+      for(let i=0;i<parts.length;i++) await cloud("/v1/catalogue-chunk", {method:"POST",body:{
+        profileId,category:"catalogues",itemKey:"snapshot:collections:"+hash+":"+String(i).padStart(6,"0"),
+        revision:0,deleted:false,payload:{index:i,text:parts[i]}
+      }});
+      await cloud("/v1/catalogue-manifest",{method:"POST",body:{profileId,kind:"collections",sha256:hash,
+        parts:parts.length,utf8Bytes:bytes.length,revision:current?.revision||0}});
+    }
+    const verified=await readProfile(profileId);
+    if (verified.head?.sha256!==hash || JSON.stringify(verified.collections)!==text)
+      throw new Error("Publication acceptée, mais relecture non confirmée. Vérifiez la synchronisation avant de réessayer.");
+    return verified;
+  }
+  async function compareProfile() {
+    if (busy) return;
+    setBusy(true);
+    clearComparison();
+    try {
+      const {collections:previous} = await readProfile(chosenProfile());
+      const incoming = JSON.parse(await window.MaCollectionKovelyx.buildExport());
+      if (!Array.isArray(incoming) || !incoming.length) throw new Error("Sélectionnez des catalogues avant la comparaison.");
+      validateContent(incoming);
+      compareCollections(incoming, incoming);
+      const mode = $("mc-kovelyx-cloud-mode").value;
+      const result = compareCollections(previous, mode === "merge" ? mergeCollections(previous, incoming) : incoming);
+      $("mc-kovelyx-cloud-comparison").textContent =
+        (mode === "merge" ? "Fusion" : "Remplacement") + " : " + result.addedCategories + " catégories ajoutées, " + result.changedCategories + " modifiées, " + result.removedCategories +
+        " retirées ; " + result.addedFolders + " dossiers ajoutés, " + result.changedFolders + " modifiés, " + result.removedFolders +
+        " retirés ; ordre modifié dans " + result.reorderedFolders + " sections" + (result.reorderedCategories ? " et entre les catégories" : "") + ".";
+      status("Comparaison terminée. Aucun changement envoyé au serveur. Les réglages d’affiches Bttr se choisissent séparément. Recomparez si vous modifiez la sélection.");
+      return result;
+    } catch (error) { status(error.message || "Comparaison impossible.", true); }
+    finally { setBusy(false); }
+  }
+  async function backupProfile() {
+    if (busy) return;
+    setBusy(true);
+    try {
+      const {collections:collection} = await readProfile(chosenProfile());
+      if (!collection.length) throw new Error("Ce profil ne contient aucune collection à sauvegarder.");
+      const blob = new Blob([JSON.stringify(collection, null, 2)], {type:"application/json;charset=utf-8"});
+      const url = URL.createObjectURL(blob);
+      try {
+        const link = document.createElement("a");
+        link.href = url; link.download = "Kovelyx-collections-" + new Date().toISOString().slice(0,10) + ".json";
+        document.body.appendChild(link); link.click(); link.remove();
+      } finally { URL.revokeObjectURL(url); }
+      status("Collections téléchargées après vérification intégrale. Ce fichier conserve les sources et les affiches du profil ; il ne contient pas les réglages du lecteur ni l’historique.");
+    } catch (error) { status(error.message || "Sauvegarde impossible.", true); }
+    finally { setBusy(false); }
+  }
+  function clearComparison() {
+    const el = $("mc-kovelyx-cloud-comparison");
+    if (el) el.textContent = "";
+  }
+
   async function sha256(bytes) {
     const digest = new Uint8Array(await crypto.subtle.digest("SHA-256", bytes));
     return Array.from(digest, byte => byte.toString(16).padStart(2, "0")).join("");
@@ -318,6 +448,7 @@
   async function open() {
     if (busy) return;
     view.hidden = false;
+    clearComparison();
     const signed = account()?.status()?.cloudSignedIn;
     $("mc-kovelyx-cloud-account").textContent = signed ? "Vérification de la session…" :
       "Connectez-vous au compte Kovelyx Cloudflare utilisé sur vos appareils.";
@@ -440,10 +571,14 @@
     view.hidden = true;
     window.MaCollectionAccountUi?.openModal("cloud");
   });
-  $("mc-kovelyx-cloud-reload").addEventListener("click", loadProfiles);
+  $("mc-kovelyx-cloud-reload").addEventListener("click", () => { clearComparison(); return loadProfiles(); });
+  $("mc-kovelyx-cloud-backup")?.addEventListener("click", backupProfile);
+  $("mc-kovelyx-cloud-compare")?.addEventListener("click", compareProfile);
+  for (const id of ["mc-kovelyx-cloud-profile", "mc-kovelyx-cloud-mode"])
+    $(id)?.addEventListener("change", clearComparison);
   $("mc-kovelyx-cloud-cancel").addEventListener("click", close);
   $("mc-kovelyx-cloud-send").addEventListener("click", publish);
   view.addEventListener("click", event => { if (event.target === view) close(); });
   document.addEventListener("keydown", event => { if (event.key === "Escape" && !view.hidden) close(); });
-  window.MaCollectionCloudPush = Object.freeze({ open, publish, configurePoster, split, mergeCollections, validateContent, bttrPattern, sourceSummary });
+  window.MaCollectionCloudPush = Object.freeze({ open, publish, configurePoster, split, mergeCollections, validateContent, bttrPattern, sourceSummary, compareCollections, compareProfile, readProfile, writeProfile, backupProfile });
 })();

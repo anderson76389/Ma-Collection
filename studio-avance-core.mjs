@@ -3,6 +3,7 @@
  * Ne change jamais les identifiants, les sources, les filtres ni les API.
  * Les renommages sont réservés aux exports pour préserver les règles de l'application.
  */
+import {isGeneratedFolderArt} from './studio-art-generator.mjs';
 import {isKaptainUrl} from './scripts/kaptain-url-policy.mjs';
 
 export const STUDIO_SCHEMA = 1;
@@ -14,6 +15,7 @@ export const STUDIO_SHAPES = Object.freeze(['POSTER','LANDSCAPE','SQUARE']);
 export function assetUrl(value) {
   const raw = String(value ?? '').trim();
   if (!raw) return '';
+  if (isGeneratedFolderArt(raw)) return raw;
   if (raw.length > 1700) throw Error('URL trop longue');
   let url;
   try { url = new URL(raw); } catch { throw Error('Adresse incorrecte'); }

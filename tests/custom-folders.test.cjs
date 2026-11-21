@@ -47,6 +47,9 @@ test('studio, acteur et réseau restent des catalogues TMDB valides',()=>{
   const s=session();
   assert.equal(s.api.createSource(record({type:'COMPANY'})).tmdbSourceType,'COMPANY');
   assert.equal(s.api.createSource(record({type:'ACTOR'})).filters.withCast,'645');
+  assert.equal(s.api.createSource(record({type:'ACTOR'})).tmdbSourceType,'PERSON');
+  assert.equal(s.api.createSource(record({type:'ACTOR'})).tmdbId,645);
+  assert.equal(s.api.createSource(record({type:'DIRECTOR'})).tmdbSourceType,'DIRECTOR');
   assert.equal(s.api.createSource(record({type:'DIRECTOR'})).filters.withCrew,'645');
   assert.equal(s.api.createSource(record({type:'NETWORK'})).filters.withNetworks,'645');
   assert.equal(s.api.createSource(record({type:'STREAMING'})).filters.watchRegion,'FR');

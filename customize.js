@@ -3,6 +3,8 @@
   if (!overlay) return;
   const body = document.getElementById('customize-body');
   
+  const roleIds={streaming:'collection-ERFS5GWK',networks:'27bda92a-f626-4093-a2ba-0a32dc09437a',anime:'collection-b530d60c',kids:'collection-NKKHPRKV',reality:'collection-KBP5HRRD'};
+  const role=(cat,name)=>cat?.id===roleIds[name]||({streaming:['Streaming Services','Plateformes de Streaming'],networks:['Networks','Chaînes'],anime:['Anime','Animés'],kids:['Kids & Family','Kids and Family','Enfants et famille'],reality:['Reality TV','Télé-Réalité']}[name]||[]).includes(cat?.title);
   let currentStep = 1;
   const TOTAL_STEPS = 5;
   const STEP_NAMES = ['Region & Lang', 'Filters', 'Categories', 'Streaming', 'Networks'];
@@ -33,10 +35,11 @@
 
   window.customizeState = {
     locale: 'fr',
-    country: 'US',
-    countries: ['US'],
+    country: 'FR',
+    countries: ['FR'],
     foreignNative: true,
     excludeAnime: false,
+    excludeAnimation: false,
     excludeHorror: false,
     excludeRomance: false,
     excludeKids: false,
@@ -60,11 +63,11 @@
 
     data.forEach(cat => {
       const title = cat.title || '';
-      if (title === 'Streaming Services') {
+      if (role(cat,'streaming')) {
         cat.folders?.forEach(f => {
           if (f.title) window.customizeState.selectedStreaming.add(f.title);
         });
-      } else if (title === 'Networks') {
+      } else if (role(cat,'networks')) {
         cat.folders?.forEach(f => {
           if (f.title) window.customizeState.selectedNetworks.add(f.title);
         });
@@ -75,6 +78,7 @@
 
     // Exclusions start unchecked (everything allowed by default)
     window.customizeState.excludeAnime = false;
+    window.customizeState.excludeAnimation = false;
     window.customizeState.excludeHorror = false;
     window.customizeState.excludeRomance = false;
     window.customizeState.excludeKids = false;
@@ -161,11 +165,11 @@
       }
     }
 
-    const streamCat = data.find((c) => c.title === 'Streaming Services');
+    const streamCat = data.find((c) => role(c,'streaming'));
     if (streamCat?.folders && st.streamingOrder?.length) {
       reorderFolders(streamCat.folders, st.streamingOrder);
     }
-    const netCat = data.find((c) => c.title === 'Networks');
+    const netCat = data.find((c) => role(c,'networks'));
     if (netCat?.folders && st.networkOrder?.length) {
       reorderFolders(netCat.folders, st.networkOrder);
     }
@@ -227,13 +231,13 @@
     data.forEach(cat => {
       const catTitle = cat.title || '';
       
-      if (catTitle === 'Streaming Services') {
+      if (role(cat,'streaming')) {
          cat.folders?.forEach(f => {
             if (!window.customizeState.selectedStreaming.has(f.title)) {
                deselectFolder(f);
             }
          });
-      } else if (catTitle === 'Networks') {
+      } else if (role(cat,'networks')) {
          cat.folders?.forEach(f => {
             if (!window.customizeState.selectedNetworks.has(f.title)) {
                deselectFolder(f);
@@ -248,23 +252,23 @@
 
     data.forEach(cat => {
       const catTitle = cat.title || '';
-      if (window.customizeState.excludeAnime && catTitle === 'Anime') {
+      if ((window.customizeState.excludeAnime||window.customizeState.excludeAnimation) && role(cat,'anime')) {
          deselectCategory(cat);
       }
-      if (window.customizeState.excludeKids && (catTitle === 'Kids & Family' || catTitle.includes('Kids'))) {
+      if (window.customizeState.excludeKids && role(cat,'kids')) {
          deselectCategory(cat);
       }
       
       cat.folders?.forEach(f => {
          const fTitle = f.title || '';
-         if (window.customizeState.excludeHorror && fTitle === 'Horror') {
+         if (window.customizeState.excludeHorror && ['Horror','Horreur'].includes(fTitle)) {
             deselectFolder(f);
          }
-         if (window.customizeState.excludeRomance && fTitle === 'Romance') {
+         if (window.customizeState.excludeRomance && ['Romance'].includes(fTitle)) {
             deselectFolder(f);
          }
       });
-      if (window.customizeState.excludeReality && catTitle === 'Reality TV') {
+      if (window.customizeState.excludeReality && role(cat,'reality')) {
          deselectCategory(cat);
       }
     });
@@ -470,6 +474,7 @@
       </div>
 
       <div class="cust-filter-grid">
+        <label class="cust-filter-card"><input type="checkbox" id="ex-animation" ${window.customizeState.excludeAnimation ? 'checked' : ''}><div class="cust-filter-body"><div class="cust-filter-emoji">🎨</div><div class="cust-filter-text"><h4>Masquer toute l’animation</h4><p>Exclut l’animation des rangées Découvrir. Le filtre Animés seul conserve Pixar, Disney et les autres dessins animés.</p></div></div></label>
         <label class="cust-filter-card">
           <input type="checkbox" id="ex-anime" ${window.customizeState.excludeAnime ? 'checked' : ''}>
           <div class="cust-filter-body">
@@ -568,11 +573,12 @@
     body.innerHTML = getStepWrapper('Negative Filters', 'Select any content types you want excluded from your folders.', html);
     bindNav();
     
-    ['anime','horror','romance','kids','reality'].forEach(key => {
+    ['anime','animation','horror','romance','kids','reality'].forEach(key => {
       const el = document.getElementById('ex-'+key);
       if(el) {
         el.addEventListener('change', (e) => {
           if (key === 'anime') window.customizeState.excludeAnime = e.target.checked;
+          if (key === 'animation') window.customizeState.excludeAnimation = e.target.checked;
           if (key === 'horror') window.customizeState.excludeHorror = e.target.checked;
           if (key === 'romance') window.customizeState.excludeRomance = e.target.checked;
           if (key === 'kids') window.customizeState.excludeKids = e.target.checked;
@@ -616,7 +622,7 @@
     
     data.forEach(cat => {
       const title = cat.title || '';
-      if (title === 'Streaming Services' || title === 'Networks') return;
+      if (role(cat,'streaming') || role(cat,'networks')) return;
       
       const isChecked = window.customizeState.selectedCategories.has(title) ? 'checked' : '';
       const coverUrl = getCategoryCover(cat);
@@ -675,7 +681,7 @@
   function renderStep4() {
     const data = window.collectionData || window.database || window.NUVIO_DATABASE || [];
     let html = '';
-    const streamingCat = data.find(c => c.title === 'Streaming Services');
+    const streamingCat = data.find(c => role(c,'streaming'));
     
     if (streamingCat && streamingCat.folders) {
        html = '<div class="cust-logo-grid" id="stream-grid">';
@@ -755,7 +761,7 @@
   function renderStep5() {
     const data = window.collectionData || window.database || window.NUVIO_DATABASE || [];
     let html = '';
-    const netCat = data.find(c => c.title === 'Networks');
+    const netCat = data.find(c => role(c,'networks'));
     
     if (netCat && netCat.folders) {
        html = '<div class="cust-logo-grid" id="net-grid">';
@@ -815,6 +821,7 @@
     enableDragReorder(document.getElementById('net-grid'), 'networkOrder');
   }
 
+  window.MaCollectionCustomizeTools={role,applySelection:applyCustomizeStateToSelectedMap};
   window.startCustomize = function() {
     const data = window.collectionData || window.database || window.NUVIO_DATABASE;
     if (!data || !data.length) {

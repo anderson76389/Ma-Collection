@@ -1,5 +1,7 @@
 # Ma-Collection Studio — suivi de parité fonctionnelle (français, autonome)
 
+> Mise à jour du 15 novembre 2026 : le bilan courant et ses limites figurent dans [la comparaison complète](COMPARAISON_SITE_2026-11.md). Le tableau ci-dessous décrit aussi les fonctions historiques du Studio de catalogues. Le nouvel écran « Mon profil Kovelyx » lit et édite les collections complètes depuis un fichier ou le compte propre.
+
 ## Objectif
 
 Reconstituer **les fonctionnalités** du Studio observé dans l'archive HTML/JS fournie par l'utilisateur, en conservant exclusivement **le thème, les couleurs, les contenus et les identifiants métiers de Ma-Collection**. Ne pas intégrer les scripts, serveurs, comptes, images propriétaires ou liens de services Kaptain.

@@ -48,7 +48,7 @@ jobs:
           node --test tests/monitor-ma-collection.test.mjs
           node --test tests/account-config-resilience.test.mjs
           node --test tests/kovelyx-better-auth.test.mjs
-          node --test tests/studio-avance.test.mjs tests/studio-collection-import.test.mjs
+          node --test tests/studio-avance.test.mjs tests/studio-collection-import.test.mjs tests/profile-editor.test.mjs tests/customize-fr.test.mjs
           node --test tests/kaptain-url-security.test.mjs
           node --test tests/studio-recovery.test.mjs
           node --test tests/catalogue-provenance.test.mjs tests/triage-catalogue-dependencies.test.mjs
@@ -70,6 +70,9 @@ jobs:
           node --check custom-folders.js
           node --check studio-avance.js
           node --check studio-avance-core.mjs
+          node --check profile-editor.js
+          node --check profile-editor-core.mjs
+          node --check site-tools.js
       - name: Valider le site et l'import Kovelyx sans compte externe
         run: |
           python3 -m http.server 8877 --bind 127.0.0.1 >/tmp/qa-http.log 2>&1 &
@@ -77,6 +80,7 @@ jobs:
           node .github/scripts/qa-collection-fr.mjs
           node .github/scripts/qa-controls.mjs
           node .github/scripts/qa-studio-avance.mjs
+          node .github/scripts/qa-profile-editor.mjs
           node .github/scripts/qa-kaptain-disparition.mjs
           node .github/scripts/qa-studio-recovery.mjs
           node .github/scripts/qa-performance-budget.mjs

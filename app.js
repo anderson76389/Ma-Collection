@@ -3559,9 +3559,13 @@ function assembleFilteredDatabase(optimize) {
             
             const cust = window.maCollectionCustomize || {};
             
+            // Discovery filters must not rewrite fixed lists or addon routes.
+            const canApplyNegativeFilters=String(clonedSource.provider||'tmdb').toLowerCase()==='tmdb' &&
+              String(clonedSource.tmdbSourceType||'').toUpperCase()==='DISCOVER';
+            if (canApplyNegativeFilters) {
+            if (cust.excludeAnimation) clonedSource.filters.withoutGenres = [clonedSource.filters.withoutGenres,'16'].filter(Boolean).join('|');
             // Negative Filters
             if (cust.excludeAnime || window.maCollectionExcludeAnime) {
-                clonedSource.filters.withoutGenres = clonedSource.filters.withoutGenres ? clonedSource.filters.withoutGenres + '|16' : '16';
                 clonedSource.filters.withoutKeywords = clonedSource.filters.withoutKeywords ? clonedSource.filters.withoutKeywords + '|210024' : '210024';
             }
             if (cust.excludeBollywood || window.maCollectionExcludeBollywood) {
@@ -3580,6 +3584,7 @@ function assembleFilteredDatabase(optimize) {
                 clonedSource.filters.withoutGenres = clonedSource.filters.withoutGenres ? clonedSource.filters.withoutGenres + '|10764' : '10764';
             }
             
+            }
             // Region and Language — only for TMDB / Discover catalog sources.
             // Addon / For You / other providers keep their own region wiring.
             const providerLower = String(clonedSource.provider || 'tmdb').toLowerCase();
@@ -5278,6 +5283,8 @@ function _buildCommandRegistry() {
   reg.push({ label: 'Télécharger le fichier', keywords: ['save', 'download', 'export', 'file'], icon: '💾', group: 'Actions', action: () => document.getElementById('btn-compile-download')?.click() });
   reg.push({ label: 'Exporter pour Bingecat', keywords: ['bingecat', 'export', 'addon', 'cat'], icon: '🐱', group: 'Actions', action: () => exportForBingecat() });
   reg.push({ label: 'Lancer la visite guidée', keywords: ['tour', 'walkthrough', 'guide', 'help', 'replay', 'walk'], icon: '?', group: 'Actions', action: () => document.getElementById('btn-replay-tour')?.click() });
+  reg.push({label:'Mon profil Kovelyx',keywords:['profil','studio','compte','modifier'],group:'Actions',action:()=>window.MaCollectionProfileEditor?.open()});
+  reg.push({label:'Tous les outils Ma-Collection',keywords:['outils','aide','parametres'],group:'Actions',action:()=>window.MaCollectionTools?.open()});
   return reg;
 }
 
