@@ -283,3 +283,17 @@
 .mc-look span { position: absolute; top: .5rem; right: .5rem; padding: .15rem .4rem; background: #090b0ed9; border-radius: 6px; font-size: .7rem; }
 .mc-studio-gallery-actions [data-action=art-use] { color: var(--on-secondary); }
 @media(max-width:620px){.mc-look {width: 70%;}.mc-studio-stage {gap: 3px;}}
+#mc-tools.mc-tools-dock {
+  align-items: start;
+  padding-top: 54px;
+  background: rgb(4 8 14 / 34%);
+  backdrop-filter: none;
+}
+.mc-tools-dock .mc-profile-panel {
+  width: min(24rem,100%);
+  max-height: calc(100dvh - 66px);
+  border-radius: 14px;
+  padding: .85rem;
+}
+.mc-tools-dock .mc-tools-grid { grid-template-columns: 1fr; gap: .35rem; }
+.mc-tools-dock .mc-tools-grid button { padding: .75rem; gap: .25rem; }
