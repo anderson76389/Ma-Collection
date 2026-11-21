@@ -26,8 +26,11 @@
  }
  let pending=false;
  function refresh(){if(pending)return;pending=true;requestAnimationFrame(()=>{pending=false;install();});}
- function route(){const key=location.hash.replace(/^#\/?/,'');if(key==='profil')window.MaCollectionProfileEditor?.open();else if(key==='studio')window.MaCollectionStudio?.open();else if(key==='outils')open();else if(key==='aide')window.showUpdateFaqModal?.();}
- const start=()=>{install();new MutationObserver(refresh).observe(document.body,{childList:true,subtree:true});requestAnimationFrame(route);};
+ function route(){const key=location.hash.replace(/^#\/?/,'');if(key==='profil')window.MaCollectionProfileEditor?.open();else if(key==='mise-a-jour')window.MaCollectionProfileEditor?.open({update:true});else if(key==='studio')window.MaCollectionStudio?.open();else if(key==='outils')open();else if(key==='aide')window.showUpdateFaqModal?.();}
+ const start=()=>{
+  document.getElementById('home-edit-profile')?.addEventListener('click',()=>window.MaCollectionProfileEditor?.open({account:true}));
+  document.getElementById('home-update-profile')?.addEventListener('click',()=>window.MaCollectionProfileEditor?.open({update:true}));
+  install();new MutationObserver(refresh).observe(document.body,{childList:true,subtree:true});requestAnimationFrame(route);};
  window.addEventListener('hashchange',route);document.addEventListener('keydown',event=>{if(event.key==='Escape'&&modal&&!modal.hidden)close();});
  window.MaCollectionTools=Object.freeze({open});
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start,{once:true});else start();

@@ -33,3 +33,17 @@ test('ten offline artwork styles round-trip securely with French accents and esc
  for(const s of ART_STYLES){const image=makeFolderArt('Cinéma français <script>',s.id,'POSTER');assert(isGeneratedFolderArt(image));assert.equal(safeProfileImage(image),image);assert.ok(!atob(image.split(',')[1]).includes('<script>'));}
  const malicious='data:image/svg+xml;base64,'+btoa('<svg xmlns="http://www.w3.org/2000/svg" data-ma-collection="1" ><script>alert(1)</script></svg>');assert.equal(isGeneratedFolderArt(malicious),false);assert.equal(safeProfileImage(malicious),'');
 });
+
+test('update distinguishes added sources from folders and preserves legacy sources when unchanged',()=>{
+ const existing=rows();
+ const folder=existing[0].folders[0];
+ delete folder.sources;
+ folder.catalogSources=[{addonId:'my-addon',type:'movie',catalogId:'mine'}];
+ const same=structuredClone(existing);
+ assert.deepEqual(planProfileUpdate(existing,same).rows,existing);
+ same[0].folders[0].catalogSources.push({addonId:'my-addon',type:'movie',catalogId:'more'});
+ const update=planProfileUpdate(existing,same);
+ assert.equal(update.addedSources.length,1);
+ assert.equal(update.addedFolders.length,0);
+ assert.equal(update.rows[0].folders[0].sources.length,2);
+});
