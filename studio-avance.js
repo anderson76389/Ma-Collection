@@ -364,7 +364,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     tab='organisation';draw();
   }
   function close(){if(!root)return;root.hidden=true;document.removeEventListener('keydown',onEscape,true);}
-  function onEscape(e){if(e.key==='Escape'&&!root.hidden){e.stopPropagation();close();}}
+  function onEscape(e){if(e.key==='Escape'&&!root.hidden&&!document.querySelector('#mc-profile-editor:not([hidden])')){e.stopPropagation();close();}}
   function open(initialTab='organisation'){
     if(!data().length){if(typeof window.showToast==='function')window.showToast('Collections non chargées. Réessaie.','error');return;}
     if(!originals)originals=originalsFor(data());
@@ -451,7 +451,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       '</div></div>';
   }
 
-  function availableLooks(custom, real) {
+  function availableLooks(custom, real, includeStyles=true) {
     const items=[],seen=new Set();
     function add(url,label) {
       if(!url || seen.has(url))return;
@@ -460,12 +460,20 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     add(custom?.artwork?.coverImageUrl,'Affiche sélectionnée');
     add(originals?.[custom?.id]?.coverImageUrl || real?.coverImageUrl,'Affiche d’origine');
     for(const entry of custom?.looks||[])add(entry.url,entry.label||'Variante personnelle');
+    if(includeStyles && custom){
+      for(const style of ART_STYLES){
+        const url=makeFolderArt(custom.label,style.id,custom.shape);
+        const existing=items.find(item=>item.url===url);
+        if(existing){existing.style=style.id;existing.label=style.label;}
+        else items.push({url,label:style.label,style:style.id});
+      }
+    }
     return items;
   }
   function artRowFolders() {
     let rows=section()?.folders||[];
     if(artSearch)rows=rows.filter(f=>f.label.toLocaleLowerCase().includes(artSearch.toLocaleLowerCase()));
-    if(artMoreOnly)rows=rows.filter(f=>availableLooks(f,findFolder(selectedSection,f.id)).length>1);
+    if(artMoreOnly)rows=rows.filter(f=>availableLooks(f,findFolder(selectedSection,f.id),false).length>1);
     if(artNeedsAttention)rows=rows.filter(f=>!f.artwork.coverImageUrl);
     return rows;
   }
@@ -487,24 +495,36 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
        rows.slice(0,130).map(row=>button(row.label,'art-folder','data-id="'+esc(row.id)+'" class="'+(row.id===selectedFolder?'active':'')+'"')).join('')+
        (rows.length>130?'<span class="mc-studio-muted">Affinez la recherche pour voir les autres dossiers.</span>':'')+
        '</div>';
+    const visibleOffsets=[0,-1,1,-2,2];
+    const visibleIndexes=new Set();
+    const carousel=visibleOffsets.map(offset=>{
+      if(!choices.length)return '';
+      const index=(artLookIndex+offset+choices.length*2)%choices.length;
+      if(visibleIndexes.has(index))return '';
+      visibleIndexes.add(index);
+      const item=choices[index];
+      const picture='<img src="'+esc(item.url)+'" alt="" decoding="async"><span>'+esc(item.label)+'</span>';
+      if(offset===0)return '<div class="mc-look current">'+picture+'</div>';
+      return '<button type="button" class="mc-look" data-offset="'+offset+'" data-action="art-select" data-id="'+index+'" aria-label="Voir le visuel '+esc(item.label)+'">'+picture+'</button>';
+    }).join('');
     const theater='<div class="mc-studio-theater">'+
       '<div class="mc-studio-theater-title"><div><strong>'+esc(f.label)+'</strong><small>'+esc(section()?.label||'')+
       ' · Visuel '+(choices.length?artLookIndex+1:0)+' sur '+choices.length+'</small></div>'+
       '<label class="mc-studio-check"><input type="checkbox" data-flag="focusGifEnabled" '+(f.focusGifEnabled?'checked':'')+'> Animations</label></div>'+
       '<div class="mc-studio-stage">'+
       button('‹','art-prev','aria-label="Affiche précédente" '+(choices.length<2?'disabled':''))+
-      (current?'<img src="'+esc(current.url)+'" alt="Affiche '+esc(current.label)+'" class="mc-studio-stage-image" loading="lazy">':
-         '<div class="mc-studio-stage-empty">Aucune affiche disponible</div>')+
+      '<div class="mc-look-track">'+(carousel||'<span>Aucune affiche disponible</span>')+'</div>'+
       button('›','art-next','aria-label="Affiche suivante" '+(choices.length<2?'disabled':''))+
       '</div>'+
       '<div class="mc-studio-gallery-pips">'+choices.map((item,i)=>'<button type="button" data-action="art-select" data-id="'+i+
       '" aria-label="Choisir '+esc(item.label)+'" class="'+(i===artLookIndex?'active':'')+'"></button>').join('')+'</div>'+
       '<div class="mc-studio-gallery-actions">'+
       button('🔗 Ajouter mon image','art-add')+
+      (current?.style?button('Appliquer ce style à la rangée','art-row-style'):'')+
       button('Utiliser cette affiche','art-use',''+(!current?'disabled':''))+
       button('Retirer la variante ajoutée','art-remove',''+(!current||!(f.looks||[]).some(x=>x.url===current.url)?'disabled':''))+
       '</div>'+
-      '<p class="mc-studio-hint">Les variantes sont de vrais fichiers Ma-Art ou des URL HTTPS ajoutées par toi. La sélection sera exportée vers Kovelyx/Nuvio après application du profil. Aucun lien vers Kaptain.</p>'+
+      '<p class="mc-studio-hint">Les styles intégrés sont créés sur cet appareil. Tu peux aussi choisir un visuel Ma-Art ou ajouter ton image. La sélection sera exportée vers Kovelyx/Nuvio après application du profil. Aucun lien vers Kaptain.</p>'+
       '</div>';
     const batch=showBatch?'<div class="mc-studio-batch"><strong>Appliquer des réglages à toute la section : '+esc(section()?.label||'')+'</strong>'+
       '<p class="mc-studio-hint">Les '+count+' dossiers gardent chacun leur propre affiche et leurs sources. Seuls les réglages ci-dessous changent.</p>'+
@@ -514,7 +534,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       '<label class="mc-studio-check"><input type="checkbox" data-batch-glow> Lueur au focus</label>'+
       '<label class="mc-studio-check"><input type="checkbox" data-batch-motion> Activer les animations déjà présentes</label>'+
       '</div>'+button('Appliquer les réglages de la section','batch-apply')+button('Annuler','batch-close')+'</div>':'';
-    return toolbar+searchResults+theater+batch;
+    return toolbar+theater+batch+searchResults;
   }
 
   function renderArtwork(){
@@ -793,7 +813,9 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       '<div class="mc-studio-backups-list">'+(cards||'<p class="mc-studio-hint">Aucune sauvegarde pour le moment.</p>')+'</div>'+
       '<p class="mc-studio-hint">« Restaurer » charge un brouillon sans modifier immédiatement ta collection. '+
       'Pour copier une sauvegarde vers un autre appareil, utilise « Exporter » puis « Importer un profil ».</p></section>';
-    return '<div class="mc-studio-profile-layout"><div class="mc-studio-column"><div class="mc-studio-heading"><strong>Profil en cours</strong></div>'+
+    return '<section class="mc-picker"><h3>Choisir un profil à organiser</h3><p>Ouvre un profil enregistré sur cet appareil ou retrouve les profils de ton compte Kovelyx.</p>'+
+      button('Profils de mon compte Kovelyx','cloud-picker')+
+      '<div class="mc-picker-grid">'+(p||'<p>Aucun profil enregistré sur cet appareil.</p>')+'</div></section><div class="mc-studio-profile-layout"><div class="mc-studio-column"><div class="mc-studio-heading"><strong>Profil en cours</strong></div>'+
       '<label class="mc-studio-field">Nom du profil<input type="text" data-profile-name maxlength="60" value="'+name+'"></label>'+
       '<label class="mc-studio-field">Avatar du profil (facultatif)<input type="url" data-avatar value="'+avatar+'" placeholder="URL HTTPS de l’avatar"></label>'+
       '<label class="mc-studio-check"><input type="checkbox" data-sync-quick '+(draft.syncQuickEditor?'checked':'')+'> Reporter le nom et l’avatar dans les réglages de l’éditeur rapide lors de l’application</label>'+
@@ -801,8 +823,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       '<div class="mc-studio-actions-grid">'+button('Nouveau profil','new')+button('Dupliquer','duplicate')+button('Enregistrer','save')+
       button('Supprimer le profil','delete')+button('Annuler le brouillon','reset')+'</div>'+
       '<p class="mc-studio-hint">Maximum '+STUDIO_LIMIT+' profils dans ce navigateur. Aucun identifiant Nuvio, secret ou clé API n’est conservé dans ces préréglages.</p></div>'+
-      '<div class="mc-studio-column"><div class="mc-studio-heading"><strong>Mes profils sauvegardés</strong>'+badge(profiles.length+'/'+STUDIO_LIMIT)+'</div>'+
-      '<div class="mc-studio-scroll">'+(p||'<p class="mc-studio-muted">Aucun profil sauvegardé.</p>')+'</div>'+
+      '<div class="mc-studio-column"><div class="mc-studio-heading"><strong>Importer ou exporter un profil</strong>'+badge(profiles.length+'/'+STUDIO_LIMIT)+'</div>'+
       '<div class="mc-studio-actions-grid">'+button('Exporter ce profil (.json)','export')+
       button('Importer un profil (.json)','import')+
       button('Tout sauvegarder (.json)','export-all')+
@@ -902,10 +923,20 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       }catch(e){message='Lien refusé : '+e.message;}
       draw();
     }
+    else if(a==='art-row-style'){
+      const f=folder(),style=availableLooks(f,findFolder(selectedSection,selectedFolder))[artLookIndex]?.style;
+      if(!style||!window.confirm('Appliquer ce style aux '+section().folders.length+' dossiers de cette rangée dans le brouillon ?'))return;
+      for(const item of section().folders){
+        item.artwork.coverImageUrl=makeFolderArt(item.label,style,item.shape);
+        item.hideTitle=true;
+      }
+      artLookIndex=0;message='Style appliqué à la rangée dans le brouillon.';draw();
+    }
     else if(a==='art-use'){
       const f=folder(),items=availableLooks(f,findFolder(selectedSection,selectedFolder));
       if(!f||!items[artLookIndex])return;
       f.artwork.coverImageUrl=items[artLookIndex].url;
+      if(items[artLookIndex].style)f.hideTitle=true;
       artLookIndex=0;
       message='Affiche choisie. Applique ensuite le profil pour l’utiliser dans l’export.';
       draw();
@@ -1043,6 +1074,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     else if(a==='save'){saveCurrent();draw();}
     else if(a==='delete')remove();
     else if(a==='reset')reset();
+    else if(a==='cloud-picker'){window.MaCollectionProfileEditor?.open({account:true});}
     else if(a==='load-profile')choose(id);
     else if(a==='export')exportProfile();
     else if(a==='export-all')exportAllRecovery();

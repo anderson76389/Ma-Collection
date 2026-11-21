@@ -1,6 +1,6 @@
 /** Same-site navigation to independent tools. No upstream pages or scripts are loaded. */
 (()=>{
- let modal=null;
+ let modal=null,opener=null;
  const tools=[
   ['Collection','Parcourir et sélectionner les dossiers',()=>window.hideTitleScreen?.()],
   ['Assistant guidé','Région, langue, filtres, plateformes et chaînes',()=>window.startCustomize?.()],
@@ -14,11 +14,19 @@
   ['Affiches des médias','Configurer Bttr, RPDB ou un lien personnel avant envoi',()=>window.MaCollectionImportStudio?.open('kovelyx')],
   ['Aide et dépendances','Comprendre les catégories vides et les mises à jour',()=>window.showUpdateFaqModal?.()]
  ];
- function close(){if(modal)modal.hidden=true;}
+ function close(){
+  if(!modal||modal.hidden)return;
+  modal.hidden=true;
+  opener?.setAttribute('aria-expanded','false');
+  opener?.focus();opener=null;
+ }
  function open(){
   if(!modal){modal=document.createElement('div');modal.className='mc-profile-overlay';modal.id='mc-tools';modal.innerHTML='<section class="mc-profile-panel" role="dialog" aria-modal="true" aria-labelledby="mc-tools-title"><header><h2 id="mc-tools-title">Outils Ma-Collection</h2><button type="button" data-tools-close>Fermer</button></header><p>Tous les outils utilisent Ma-Collection et tes propres services. Les clés nécessaires se configurent dans leurs écrans respectifs.</p><div class="mc-tools-grid"></div></section>';document.body.appendChild(modal);modal.querySelector('[data-tools-close]').addEventListener('click',close);modal.addEventListener('click',e=>{if(e.target===modal)close();});
    const grid=modal.querySelector('.mc-tools-grid');for(const [name,description,run]of tools){const button=document.createElement('button');const strong=document.createElement('strong'),text=document.createElement('span');strong.textContent=name;text.textContent=description;button.append(strong,text);button.addEventListener('click',()=>{close();run();});grid.appendChild(button);}
   }
+  opener=document.activeElement===document.getElementById('home-tools-menu')?document.activeElement:null;
+  modal.classList.toggle('mc-tools-dock',Boolean(opener));
+  opener?.setAttribute('aria-expanded','true');
   modal.hidden=false;modal.querySelector('button').focus();
  }
  function install(){
