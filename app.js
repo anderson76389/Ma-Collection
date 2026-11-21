@@ -5243,6 +5243,7 @@ function _buildCommandRegistry() {
     ['title-screen-start', 'Éditeur cinématique', ['aperçu', 'télévision', 'mobile']],
     ['title-screen-studio', 'Studio des profils', ['affiches', 'sections', 'brouillon']],
     ['title-screen-restore', 'Reprendre une collection', ['sauvegarde', 'restaurer', 'fichier JSON']],
+    ['home-profile-history', 'Bibliothèque et historique', ['titres vus', 'progression', 'visionnage']],
     ['home-edit-profile', 'Modifier mon accueil Kovelyx', ['profil', 'rangées']],
     ['home-update-profile', 'Mettre à jour ma collection', ['mise à jour', 'catalogues']],
     ['title-screen-collection-only', 'Envoi rapide', ['export', 'importer', 'Kovelyx']],
