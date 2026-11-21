@@ -1,10 +1,12 @@
 import {ProfileEditor,validateProfile,profileSummary,profileSources,safeProfileImage,repairUpstreamResources,planProfileUpdate} from './profile-editor-core.mjs';
 import {ART_STYLES,makeFolderArt} from './studio-art-generator.mjs';
+import {moveCanvasRow,moveCanvasFolder} from './profile-canvas-core.mjs';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const copy=x=>JSON.parse(JSON.stringify(x));
 const catalogue=()=>window.collectionData||[];
 let root,editor=new ProfileEditor(),sectionId='',folderId='',query='',notice='',snapshot=null,profiles=[],busy=false,updatePlan=null;
 let returnFocus=null,initialized=false,accountOpen=false,updateOpen=false,refreshSources=false,copyTargetId='';
+let canvasOpen=false,canvasDrag=null;const canvasExpanded=new Set();
 const current=()=>editor.section(sectionId),folder=()=>editor.folder(sectionId,folderId);
 function download(name,value){const url=URL.createObjectURL(new Blob([JSON.stringify(value,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 function remember(){try{localStorage.setItem('ma_collection_profile_draft_v1',JSON.stringify({schema:1,rows:editor.rows,savedAt:new Date().toISOString()}));}catch{notice='Le navigateur ne peut pas conserver le brouillon. Télécharge le JSON avant de fermer.';}}
@@ -14,6 +16,26 @@ function checkDiscard(){return !editor.changes()||window.confirm('Remplacer le b
 function action(label,key,extra=''){return '<button type="button" data-profile-action="'+key+'" '+extra+'>'+esc(label)+'</button>';}
 function opts(rows,selected){return rows.map(c=>'<option value="'+esc(c.id)+'" '+(c.id===selected?'selected':'')+'>'+esc(c.title||c.displayName||'Profil')+'</option>').join('');}
 function field(key,label,value,type='text'){return '<label>'+esc(label)+'<input data-profile-field="'+key+'" type="'+type+'" value="'+esc(value||'')+'"></label>';}
+function renderCanvas(){
+ const rows=editor.rows;
+ return '<details class="mc-profile-canvas" data-profile-canvas '+(canvasOpen?'open':'')+'>'+
+   '<summary>Mon écran d’accueil · déplacer les rangées et dossiers ('+rows.length+')</summary>'+
+   '<p>Glisse les rangées et dossiers pour modifier ton profil. Sur mobile ou au clavier, utilise les flèches et le menu « Déplacer vers » de l’éditeur.</p>'+
+   '<div class="mc-profile-canvas-rows">'+rows.map(row=>{
+     const expanded=canvasExpanded.has(row.id),visible=expanded?row.folders:row.folders.slice(0,6);
+     return '<section class="mc-profile-canvas-row '+(row.id===sectionId?'active':'')+'" data-profile-canvas-row="'+esc(row.id)+'" draggable="true">'+
+       '<header><span aria-hidden="true">⋮⋮</span>'+action(row.title,'section','data-id="'+esc(row.id)+'"')+
+       '<small>'+row.folders.length+' dossiers</small></header>'+
+       '<div class="mc-profile-canvas-strip">'+visible.map(folder=>{
+         const cover=safeProfileImage(folder.coverImageUrl);
+         return '<div class="mc-profile-canvas-folder" data-profile-canvas-folder="'+esc(folder.id)+'" data-profile-canvas-section="'+esc(row.id)+'" draggable="true">'+
+           (cover?'<img loading="lazy" src="'+esc(cover)+'" alt="">':'<span class="mc-profile-empty" aria-hidden="true">▣</span>')+
+           action(folder.title,'canvas-select','data-row-id="'+esc(row.id)+'" data-id="'+esc(folder.id)+'"')+'</div>';
+       }).join('')+
+       (!expanded&&row.folders.length>6?action('+'+(row.folders.length-6)+' dossiers','canvas-more','data-id="'+esc(row.id)+'"'):'')+
+       '</div></section>';
+   }).join('')+'</div></details>';
+}
 function draw(){
  if(!root)return;
  if(updatePlan && updatePlan.base!==editor.rows)updatePlan=null;
@@ -28,7 +50,7 @@ function draw(){
  '<div class="mc-picker-grid">'+profiles.map(p=>action(p.displayName||p.name||'Profil','load','data-id="'+esc(p.id)+'"')).join('')+'</div>'+action('Publier le brouillon sur le profil chargé','publish',snapshot?'':'disabled')+
  '<p>La publication remplace les collections du profil chargé, après confirmation et vérification de sa révision. Elle ne modifie pas les autres profils.</p>'+
  (snapshot&&copyTargets.length?'<section class="mc-profile-copy"><h3>Copier ce profil vers un autre</h3><p>Le profil source reste inchangé. Les collections du profil cible sont d’abord sauvegardées en fichier JSON, puis remplacées uniquement après confirmation.</p><label>Profil de destination<select data-profile-copy-target>'+opts(copyTargets,copyTargets.some(p=>p.id===copyTargetId)?copyTargetId:copyTargets[0].id)+'</select></label>'+
- action('Sauvegarder puis copier dans ce profil','copy-profile')+'</section>':'')+'</details>'+
+ action('Sauvegarder puis copier dans ce profil','copy-profile')+'</section>':'')+'</details>'+renderCanvas()+
  '<div class="mc-profile-layout"><aside><h3>Sections du profil</h3>'+action('Nouvelle section','add-section')+
  editor.rows.map((s,i)=>'<div class="mc-profile-section '+(s.id===sectionId?'active':'')+'">'+action(s.title,'section','data-id="'+esc(s.id)+'"')+action('↑','section-up','aria-label="Monter '+esc(s.title)+'" data-id="'+esc(s.id)+'" '+(!i?'disabled':''))+action('↓','section-down','aria-label="Descendre '+esc(s.title)+'" data-id="'+esc(s.id)+'" '+(i===editor.rows.length-1?'disabled':''))+'</div>').join('')+'</aside><div>'+
  (c?'<div class="mc-profile-fields">'+field('section-title','Nom de la section',c.title)+'<label>Disposition<select data-profile-field="viewMode">'+['TABBED_GRID','ROWS','FOLLOW_LAYOUT'].map(v=>'<option '+(c.viewMode===v?'selected':'')+'>'+v+'</option>').join('')+'</select></label>'+['pinToTop','showAllTab'].map(k=>'<label><input type="checkbox" data-profile-flag="'+k+'" '+(c[k]?'checked':'')+'>'+({pinToTop:'Épingler la section',showAllTab:'Afficher l’onglet Tous'}[k])+'</label>').join('')+'</div>'+action('Retirer cette section du brouillon','remove-section')+
@@ -40,6 +62,8 @@ function draw(){
  '<section class="mc-profile-library"><h3>Ajouter un dossier du catalogue</h3><label>Rechercher<input data-profile-search value="'+esc(query)+'" placeholder="Netflix, acteur, genre…"></label><div class="mc-profile-library-list">'+catalogue().flatMap(cat=>cat.folders.map(f=>({cat,f}))).filter(x=>!query||(x.f.title+' '+x.cat.title).toLocaleLowerCase('fr').includes(query.toLocaleLowerCase('fr'))).slice(0,30).map(x=>action(x.f.title+' · '+x.cat.title,'pick','data-cid="'+esc(x.cat.id)+'" data-id="'+esc(x.f.id)+'"')).join('')+'</div><p>30 résultats maximum affichés. Affine la recherche pour trouver un autre dossier.</p></section>'+
  '<details data-profile-update '+(updateOpen?'open':'')+'><summary>Mise à jour et indépendance</summary><p>La mise à jour garde tes sections, dossiers personnels et visuels. Les changements de sources identifiées sont présentés avant application.</p>'+'<label><input type="checkbox" data-profile-refresh-sources '+(refreshSources?'checked':'')+'> Mettre aussi à jour les définitions des sources existantes (sinon : ajouter seulement les éléments manquants)</label>'+action('Préparer la mise à jour du catalogue','update')+action('Remplacer les liens Kaptain par nos ressources','repair')+
  (updatePlan?'<p>'+updatePlan.addedSections.length+' nouvelles sections · '+updatePlan.addedFolders.length+' nouveaux dossiers · '+updatePlan.addedSources.length+' nouvelles sources · '+updatePlan.updatedSources.length+' sources modifiées.</p>'+action('Appliquer cette proposition au brouillon','apply-update'):'')+'</details></div></div>';
+ const canvasDetails=root.querySelector('[data-profile-canvas]');
+ canvasDetails?.addEventListener('toggle',()=>{if(canvasDetails.isConnected)canvasOpen=canvasDetails.open;});
  const accountDetails=root.querySelector('.mc-profile-account');
  const updateDetails=root.querySelector('[data-profile-update]');
  accountDetails.addEventListener('toggle',()=>{if(accountDetails.isConnected)accountOpen=accountDetails.open;});
@@ -101,7 +125,9 @@ async function handle(button){
     return;
   }
   if(action==='export'){download('Ma-Collection-Profil-Kovelyx.json',editor.export());notice='JSON exporté, sans identifiants privés.';return;}
-  if(action==='section'){sectionId=id;folderId='';}
+  if(action==='canvas-select'){sectionId=button.dataset.rowId;folderId=id;}
+  else if(action==='canvas-more'){canvasExpanded.add(id);}
+  else if(action==='section'){sectionId=id;folderId='';}
   else if(action==='folder')folderId=id;
   else if(action==='undo')editor.undo();
   else if(action==='section-up'||action==='section-down')editor.moveSection(id,action==='section-up'?-1:1);
