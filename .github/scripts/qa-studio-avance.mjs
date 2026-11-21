@@ -79,6 +79,11 @@ await test('affiches, sources, format et titre personnalisables',async()=>{
   await page.locator('[data-action=batch-apply]').click();
   assert.equal(await page.locator('[data-shape]').inputValue(),'POSTER');
   assert(await page.locator('[data-flag=focusGlowEnabled]').isChecked());
+  await page.locator('.mc-studio-gallery-pips [aria-label="Choisir Écho"]').click();
+  assert.equal(await page.locator('.mc-look.current span').textContent(),'Écho');
+  assert(await page.locator('[data-action=art-row-style]').isVisible());
+  await page.locator('[data-action=art-use]').click();
+  assert.match(await page.locator('[data-art=coverImageUrl]').inputValue(),/^data:image\/svg/);
   const alt=await page.evaluate(()=>{
     const current=window.collectionData[0]?.folders[0]?.coverImageUrl;
     return window.collectionData.flatMap(c=>c.folders||[]).map(f=>f.coverImageUrl)

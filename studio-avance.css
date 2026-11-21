@@ -257,3 +257,29 @@
 .mc-studio-fr-comparison>span:first-child{display:grid;place-items:center;font-size:.69rem;color:var(--text-muted,#aaa);text-align:center}
 .mc-studio-fr-comparison>span:not(:first-child){color:var(--accent-light,#c9aeff)}
 @media(max-width:680px){.mc-studio-fr-controls{grid-template-columns:1fr}.mc-studio-fr-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.mc-picker {
+  margin-bottom: 1rem;
+  padding: 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: linear-gradient(115deg,var(--accent-subtle),transparent 70%),var(--bg-card);
+}
+.mc-picker h3 { margin: 0; }
+.mc-picker p { font-size: .85rem; color: var(--text-secondary); }
+.mc-picker-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,220px),1fr)); gap: .65rem; margin: .8rem 0; }
+.mc-picker-grid .mc-studio-profile-card { min-width: 0; margin: 0; }
+.mc-picker > button { background: var(--bg-elevated); border: 1px solid var(--border-hover); color: inherit; border-radius: 8px; padding: .6rem .85rem; cursor: pointer; }
+.mc-look-track { position: relative; width: 100%; min-width: 0; height: clamp(140px,27vw,340px); overflow: hidden; }
+.mc-look { position: absolute; left: 50%; top: 50%; width: 51%; height: 88%; transform: translate(-50%,-50%); border-radius: 12px; padding: 0; border: 1px solid var(--border); overflow: hidden; background: var(--bg-card); color: white; }
+.mc-look.current { z-index: 3; border-color: var(--accent); }
+.mc-look[data-offset] { cursor: pointer; z-index: 2; opacity: .63; }
+.mc-look[data-offset="-1"] { transform: translate(-90%,-50%) scale(.85) rotate(-3deg); }
+.mc-look[data-offset="1"] { transform: translate(-10%,-50%) scale(.85) rotate(3deg); }
+.mc-look[data-offset="-2"] { transform: translate(-117%,-50%) scale(.67); }
+.mc-look[data-offset="2"] { transform: translate(17%,-50%) scale(.67); }
+.mc-look[data-offset="-2"],.mc-look[data-offset="2"] { opacity: .32; z-index: 1; }
+.mc-look img { width: 100%; height: 100%; object-fit: contain; }
+.mc-look span { position: absolute; top: .5rem; right: .5rem; padding: .15rem .4rem; background: #090b0ed9; border-radius: 6px; font-size: .7rem; }
+.mc-studio-gallery-actions [data-action=art-use] { color: var(--on-secondary); }
+@media(max-width:620px){.mc-look {width: 70%;}.mc-studio-stage {gap: 3px;}}
