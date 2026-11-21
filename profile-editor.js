@@ -4,7 +4,7 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const copy=x=>JSON.parse(JSON.stringify(x));
 const catalogue=()=>window.collectionData||[];
 let root,editor=new ProfileEditor(),sectionId='',folderId='',query='',notice='',snapshot=null,profiles=[],busy=false,updatePlan=null;
-let returnFocus=null,initialized=false,accountOpen=false,updateOpen=false,refreshSources=false;
+let returnFocus=null,initialized=false,accountOpen=false,updateOpen=false,refreshSources=false,copyTargetId='';
 const current=()=>editor.section(sectionId),folder=()=>editor.folder(sectionId,folderId);
 function download(name,value){const url=URL.createObjectURL(new Blob([JSON.stringify(value,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 function remember(){try{localStorage.setItem('ma_collection_profile_draft_v1',JSON.stringify({schema:1,rows:editor.rows,savedAt:new Date().toISOString()}));}catch{notice='Le navigateur ne peut pas conserver le brouillon. Télécharge le JSON avant de fermer.';}}
@@ -21,11 +21,14 @@ function draw(){
  root.querySelector('[data-profile-status]').textContent=notice;
  root.querySelector('[data-profile-summary]').textContent=sum.sections+' sections · '+sum.folders+' dossiers · '+sum.sources+' sources'+(sum.kaptainLinks?' · '+sum.kaptainLinks+' liens Kaptain à corriger':'');
  const body=root.querySelector('[data-profile-body]');
+ const copyTargets=profiles.filter(p=>p.id!==snapshot?.profileId);
  body.innerHTML='<div class="mc-profile-toolbar">'+action('Importer un JSON','file')+action('Charger la sélection Ma-Collection','selection')+action('Restaurer le brouillon local','restore')+action('Télécharger le JSON','export')+action('Annuler','undo',editor.history.length?'':'disabled')+'</div>'+
  '<input type="file" data-profile-file accept=".json,application/json" hidden>'+
  '<details class="mc-profile-account" '+(accountOpen?'open':'')+'><summary>Charger et modifier mon profil Kovelyx</summary><p>Utilise le compte Kovelyx configuré sur ce site. Aucune connexion à Kaptain.</p>'+action('Compte Kovelyx','account')+action('Actualiser les profils','profiles')+
  '<div class="mc-picker-grid">'+profiles.map(p=>action(p.displayName||p.name||'Profil','load','data-id="'+esc(p.id)+'"')).join('')+'</div>'+action('Publier le brouillon sur le profil chargé','publish',snapshot?'':'disabled')+
- '<p>La publication remplace les collections du profil chargé, après confirmation et vérification de sa révision. Elle ne modifie pas les autres profils.</p></details>'+
+ '<p>La publication remplace les collections du profil chargé, après confirmation et vérification de sa révision. Elle ne modifie pas les autres profils.</p>'+
+ (snapshot&&copyTargets.length?'<section class="mc-profile-copy"><h3>Copier ce profil vers un autre</h3><p>Le profil source reste inchangé. Les collections du profil cible sont d’abord sauvegardées en fichier JSON, puis remplacées uniquement après confirmation.</p><label>Profil de destination<select data-profile-copy-target>'+opts(copyTargets,copyTargets.some(p=>p.id===copyTargetId)?copyTargetId:copyTargets[0].id)+'</select></label>'+
+ action('Sauvegarder puis copier dans ce profil','copy-profile')+'</section>':'')+'</details>'+
  '<div class="mc-profile-layout"><aside><h3>Sections du profil</h3>'+action('Nouvelle section','add-section')+
  editor.rows.map((s,i)=>'<div class="mc-profile-section '+(s.id===sectionId?'active':'')+'">'+action(s.title,'section','data-id="'+esc(s.id)+'"')+action('↑','section-up','aria-label="Monter '+esc(s.title)+'" data-id="'+esc(s.id)+'" '+(!i?'disabled':''))+action('↓','section-down','aria-label="Descendre '+esc(s.title)+'" data-id="'+esc(s.id)+'" '+(i===editor.rows.length-1?'disabled':''))+'</div>').join('')+'</aside><div>'+
  (c?'<div class="mc-profile-fields">'+field('section-title','Nom de la section',c.title)+'<label>Disposition<select data-profile-field="viewMode">'+['TABBED_GRID','ROWS','FOLLOW_LAYOUT'].map(v=>'<option '+(c.viewMode===v?'selected':'')+'>'+v+'</option>').join('')+'</select></label>'+['pinToTop','showAllTab'].map(k=>'<label><input type="checkbox" data-profile-flag="'+k+'" '+(c[k]?'checked':'')+'>'+({pinToTop:'Épingler la section',showAllTab:'Afficher l’onglet Tous'}[k])+'</label>').join('')+'</div>'+action('Retirer cette section du brouillon','remove-section')+
@@ -52,6 +55,7 @@ function mount(){
  root.addEventListener('change',async event=>{
   const el=event.target;try{
    if(el.matches('[data-profile-file]')){const file=el.files[0];if(!file)return;if(file.size>16*1024*1024)throw Error('Fichier supérieur à 16 Mo.');const rows=validateProfile(JSON.parse((await file.text()).replace(/^\uFEFF/,'')));if(checkDiscard()){notice='Fichier chargé dans le brouillon. Les sources et champs inconnus sont conservés.';replace(rows);}return;}
+   if(el.matches('[data-profile-copy-target]')){copyTargetId=el.value;return;}
    if(el.matches('[data-profile-refresh-sources]')){
     refreshSources=el.checked;updatePlan=null;draw();return;
    }
@@ -74,9 +78,24 @@ async function handle(button){
   if(action==='account'){close();window.MaCollectionAccountUi?.openModal('cloud');return;}
   if(action==='selection'){if(checkDiscard()){const rows=await window.MaCollectionKovelyx.buildExport();notice='Sélection chargée dans le brouillon.';replace(JSON.parse(rows));}return;}
   if(action==='restore'){if(!checkDiscard())return;const draft=JSON.parse(localStorage.getItem('ma_collection_profile_draft_v1')||'null');if(draft?.schema!==1)throw Error('Aucun brouillon local.');notice='Brouillon local restauré. Recharge le profil distant avant de le republier.';replace(draft.rows);return;}
-  if(action==='profiles'){profiles=[];busy=true;const response=await window.MaCollectionAccount.cloudFetch('/v1/profiles');if(!response.ok)throw Error('Connexion au compte nécessaire.');const data=await response.json();profiles=data.profiles||[];notice=profiles.length?'Choisis le profil à organiser.':'Aucun profil disponible.';return;}
+  if(action==='profiles'){profiles=[];busy=true;const response=await window.MaCollectionAccount.cloudFetch('/v1/profiles');if(!response.ok)throw Error('Connexion au compte nécessaire.');const data=await response.json();profiles=data.profiles||[];copyTargetId='';notice=profiles.length?'Choisis le profil à organiser.':'Aucun profil disponible.';return;}
   if(action==='load'){if(!checkDiscard())return;const profileId=id;if(!profiles.some(p=>p.id===profileId))throw Error('Choisis un profil.');busy=true;const result=await window.MaCollectionCloudPush.readProfile(profileId);notice='Profil chargé et empreinte vérifiée. Les changements restent dans le brouillon.';replace(result.collections,result);return;}
   if(action==='publish'){if(!snapshot)throw Error('Charge d’abord le profil distant.');const rows=editor.export();if(!window.confirm('Remplacer les collections du profil chargé par ce brouillon ? Les autres profils restent conservés.'))return;busy=true;const result=await window.MaCollectionCloudPush.writeProfile(snapshot.profileId,rows,snapshot.head);notice='Profil publié et relu intégralement. Ouvre ce même profil dans Kovelyx pour synchroniser.';replace(result.collections,result);return;}
+  if(action==='copy-profile'){
+    if(!snapshot)throw Error('Charge d’abord ton profil source dans le Studio.');
+    const targets=profiles.filter(p=>p.id!==snapshot.profileId);
+    const chosen=targets.find(p=>p.id===(copyTargetId||targets[0]?.id));
+    if(!chosen)throw Error('Sélectionne un autre profil destinataire.');
+    const data=editor.export();
+    busy=true;draw();
+    const target=await window.MaCollectionCloudPush.readProfile(chosen.id);
+    // La sauvegarde précède impérativement la moindre mutation distante.
+    download('Ma-Collection-Sauvegarde-Avant-Copie-'+chosen.id+'.json',target.collections);
+    if(!window.confirm('Une sauvegarde des collections du profil '+(chosen.displayName||chosen.name||'cible')+' vient d’être téléchargée. Remplacer SES collections par le brouillon actuel ? Le profil source ne changera pas.')){notice='Copie annulée : sauvegarde du profil cible téléchargée.';return;}
+    const result=await window.MaCollectionCloudPush.writeProfile(chosen.id,data,target.head);
+    notice='Copie confirmée et relue sur le profil '+(chosen.displayName||chosen.name||'cible')+'. Le profil source est conservé.';
+    return;
+  }
   if(action==='export'){download('Ma-Collection-Profil-Kovelyx.json',editor.export());notice='JSON exporté, sans identifiants privés.';return;}
   if(action==='section'){sectionId=id;folderId='';}
   else if(action==='folder')folderId=id;
