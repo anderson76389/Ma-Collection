@@ -84,6 +84,9 @@ try {
     };
   });
   await page.locator('#home-edit-profile').click();
+  // Un brouillon local modifié doit explicitement être abandonné avant de
+  // charger le profil source. Accepter cette confirmation dans le test.
+  page.once('dialog',dialog=>dialog.accept());
   await root.getByRole('button',{name:'Principal',exact:true}).click();
   await root.locator('[data-profile-action="copy-profile"]').waitFor({state:'visible'});
   await root.locator('[data-profile-copy-target]').selectOption('22222222-2222-4222-8222-222222222222');
