@@ -131,3 +131,54 @@ html[data-theme="high-contrast"] {
   .mc-home .portfolio-grid { grid-template-columns: 1fr; }
   .mc-home .portfolio-sec-header { flex-wrap: wrap; gap: .25rem .75rem; }
 }
+.home-dock {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(.15rem,1.8vw,1.8rem);
+  padding-inline: 3.1rem;
+  min-height: 54px;
+  flex-shrink: 0;
+  background: var(--bg-sidebar);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border);
+}
+.home-dock button {
+  border: 0;
+  border-bottom: 2px solid transparent;
+  color: var(--text-secondary);
+  background: transparent;
+  font: 650 clamp(.64rem,1.35vw,.8rem) Inter,sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .035em;
+  min-height: 48px;
+  padding-inline: clamp(.25rem,1vw,.85rem);
+  cursor: pointer;
+}
+.home-dock button:first-child,.home-dock button:hover { border-color: var(--accent); color: var(--text-primary); }
+.home-dock #home-tools-menu { border: 1px solid var(--border-hover); border-radius: 2rem; min-height: 32px; }
+.mc-home-overlay .title-theme-toggle { z-index: 4; }
+.mc-home-intro { min-height: calc(100svh - 60px); }
+.mc-home-intro::before {
+  inset: 0 auto 0 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  opacity: 1;
+  filter: none;
+  background: radial-gradient(ellipse at center,#041311f2 8%,#04080dd9 43%,#05070ca6 100%),url('assets/mur-affiches.webp') center / cover;
+}
+[data-theme="light"] .mc-home-intro::before { opacity: .12; }
+[data-theme="high-contrast"] .mc-home-intro::before { opacity: .08; }
+.mc-home .title-screen-logo { font-size: clamp(2.6rem,5vw,3.5rem); }
+.mc-home .home-search { width: min(100%,35rem); }
+.mc-home .home-express { width: min(100%,17rem); height: 46px; border-radius: 2rem; }
+.home-return { border: 1px solid var(--border-hover); background: var(--bg-card); border-radius: 14px; padding: .25rem .7rem; }
+.mc-home .title-portfolio-showcase { scroll-margin-top: 4rem; }

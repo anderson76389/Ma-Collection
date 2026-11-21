@@ -29,6 +29,13 @@
  function refresh(){if(pending)return;pending=true;requestAnimationFrame(()=>{pending=false;install();});}
  function route(){const key=location.hash.replace(/^#\/?/,'');if(key==='profil')window.MaCollectionProfileEditor?.open();else if(key==='mise-a-jour')window.MaCollectionProfileEditor?.open({update:true});else if(key==='historique')window.MaCollectionProfileHistory?.open();else if(key==='studio')window.MaCollectionStudio?.open();else if(key==='outils')open();else if(key==='aide')window.showUpdateFaqModal?.();}
  const start=()=>{
+  const dock=document.querySelector('.home-dock');
+  dock?.addEventListener('click',event=>{
+    const button=event.target.closest('button');
+    if(!button)return;
+    if(button.id==='home-tools-menu')open();
+    else document.getElementById(button.dataset.homeTarget)?.click();
+  });
   document.getElementById('home-edit-profile')?.addEventListener('click',()=>window.MaCollectionProfileEditor?.open({account:true}));
   document.getElementById('home-update-profile')?.addEventListener('click',()=>window.MaCollectionProfileEditor?.open({update:true}));
   install();new MutationObserver(refresh).observe(document.body,{childList:true,subtree:true});requestAnimationFrame(route);};

@@ -11,7 +11,7 @@
   <link rel="icon" type="image/svg+xml" href="assets/kovelyx-logo.svg">
   
   <link rel="stylesheet" href="style.css?v=96.3">
-  <link rel="stylesheet" href="accueil.css?v=2">
+  <link rel="stylesheet" href="accueil.css?v=3">
   <link rel="stylesheet" href="studio-avance.css?v=7">
   <link rel="stylesheet" href="custom-folders.css?v=2">
   <link rel="stylesheet" href="profile-editor.css?v=2">
@@ -54,6 +54,12 @@
       <svg class="theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 14.5A8.5 8.5 0 1 1 9.5 3 7 7 0 0 0 21 14.5z"/></svg>
       <svg class="theme-icon-contrast" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 0 1 0 20z" fill="currentColor"/></svg>
     </button>
+    <nav class="home-dock" aria-label="Navigation principale">
+      <button type="button" data-home-target="title-screen-start">Collection</button>
+      <button type="button" data-home-target="title-screen-studio">Studio</button>
+      <button type="button" id="home-tools-menu">Outils</button>
+      <button type="button" data-home-target="home-update-profile">Mise à jour</button>
+    </nav>
     <div class="title-screen-panel mc-home">
       <section class="title-hero-stage mc-home-intro" aria-labelledby="mc-home-title">
         <h1 class="title-screen-logo" id="mc-home-title">Ma <span>Collection</span></h1>
@@ -792,6 +798,6 @@
   <script type="module" src="studio-avance.js?v=10"></script>
   <script type="module" src="profile-editor.js?v=2"></script>
   <script type="module" src="profile-history-ui.js?v=1"></script>
-  <script src="site-tools.js?v=3"></script>
+  <script src="site-tools.js?v=4"></script>
 </body>
 </html>
