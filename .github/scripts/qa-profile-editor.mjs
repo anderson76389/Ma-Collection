@@ -58,7 +58,54 @@ try {
   assert.equal((await backup).suggestedFilename(),'Kovelyx-bibliotheque-historique.json');
   await page.keyboard.press('Escape');
   assert.equal(await history.isVisible(),false);
+  // Copie de profil : le compte source reste intact, une sauvegarde du
+  // profil cible est téléchargée AVANT tout changement distant.
+  await page.evaluate(async()=>{
+    const rows=JSON.parse(await window.MaCollectionKovelyx.buildExport());
+    const original=window.MaCollectionCloudPush;
+    window.__qaCloudPushOriginal=original;
+    window.__qaCloudCopyCalls=[];
+    window.MaCollectionCloudPush={
+      readProfile:async id=>({
+        profileId:id, head:{revision:id.startsWith('222')?4:2,sha256:id.startsWith('222')?'b':'a'},
+        collections:id.startsWith('222')?[{id:'ancienne',title:'À sauvegarder',folders:[]}]:rows
+      }),
+      writeProfile:async(id,collections,head)=>{
+        window.__qaCloudCopyCalls.push({id,collections,head});
+        return {profileId:id,head:{revision:5},collections};
+      }
+    };
+    window.MaCollectionAccount.cloudFetch=async path=>{
+      if(path==='/v1/profiles')return Response.json({profiles:[
+        {id:'11111111-1111-4111-8111-111111111111',displayName:'Principal'},
+        {id:'22222222-2222-4222-8222-222222222222',displayName:'Secondaire'}
+      ]});
+      return Response.json({items:[],nextOffset:null});
+    };
+  });
+  await page.locator('#home-edit-profile').click();
+  // Un brouillon local modifié doit explicitement être abandonné avant de
+  // charger le profil source. Accepter cette confirmation dans le test.
+  page.once('dialog',dialog=>dialog.accept());
+  await root.getByRole('button',{name:'Principal',exact:true}).click();
+  await root.locator('[data-profile-action="copy-profile"]').waitFor({state:'visible'});
+  await root.locator('[data-profile-copy-target]').selectOption('22222222-2222-4222-8222-222222222222');
+  const backupCopy=page.waitForEvent('download');
+  page.once('dialog',dialog=>dialog.accept());
+  await root.locator('[data-profile-action="copy-profile"]').click();
+  const downloaded=await backupCopy;
+  assert(downloaded.suggestedFilename().startsWith('Ma-Collection-Sauvegarde-Avant-Copie-'));
+  await page.waitForFunction(()=>window.__qaCloudCopyCalls?.length===1);
+  const copyReport=await page.evaluate(()=>window.__qaCloudCopyCalls[0]);
+  assert.equal(copyReport.id,'22222222-2222-4222-8222-222222222222');
+  assert.equal(copyReport.head.revision,4);
+  assert.equal(copyReport.collections.length>0,true);
+  const {readFile}=await import('node:fs/promises');
+  const backupData=JSON.parse(await readFile(await downloaded.path(),'utf8'));
+  assert.equal(backupData[0].id,'ancienne');
+  await root.locator('[data-profile-action="close"]').click();
+  await page.evaluate(()=>{window.MaCollectionCloudPush=window.__qaCloudPushOriginal;});
   assert.deepEqual(errors,[]);
-  console.log('QA_PROFILE_OK '+width+'px import, undo, generated art, export');await page.close();
+  console.log('QA_PROFILE_OK '+width+'px import, undo, generated art, export, cross-profile backup');await page.close();
  }
 } finally {await browser.close();}

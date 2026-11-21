@@ -98,6 +98,25 @@ await test('affiches, sources, format et titre personnalisables',async()=>{
   assert.equal(await page.locator('[data-art=coverImageUrl]').inputValue(),alt);
   await page.locator('[data-flag=focusGlowEnabled]').check();
 });
+await test('Studio : onglet Extensions et fichier de manifests pour Kovelyx',async()=>{
+  await page.locator('[data-tab=extensions]').click();
+  assert((await page.locator('#mc-studio-root').innerText()).includes('Mes extensions Kovelyx'));
+  const fields=page.locator('[data-addon-manifest]');
+  if(await fields.count()){
+    await fields.first().fill('https://addons.example.org/config/manifest.json');
+    await fields.first().press('Tab');
+    const download=page.waitForEvent('download');
+    await page.locator('[data-action=addon-export]').click();
+    const file=await download;
+    const {readFile}=await import('node:fs/promises');
+    const payload=JSON.parse(await readFile(await file.path(),'utf8'));
+    assert.equal(payload.format,'kovelyx-addon-urls-v1');
+    assert(payload.addons.some(x=>x.manifestUrl==='https://addons.example.org/config/manifest.json'));
+    assert(!JSON.stringify(payload).includes('kaptain.stream'));
+  } else {
+    assert((await page.locator('#mc-studio-root').innerText()).includes('Aucune source d’extension sélectionnée'));
+  }
+});
 await test('sauvegarde de plusieurs profils sans secret + export JSON',async()=>{
   await page.locator('[data-tab=profils]').click();
   await page.locator('[data-profile-name]').fill('Profil Salon');
