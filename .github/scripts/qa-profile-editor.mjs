@@ -17,7 +17,7 @@ try {
   assert.equal(await root.locator('[data-profile-update]').getAttribute('open'),'');
   // Use the local catalogue with its existing export, without external sign-in.
   await root.locator('[data-profile-action="selection"]').click();
-  await page.waitForFunction(()=>document.querySelector('[data-profile-summary]')?.textContent.includes('695 dossiers'));
+  await page.waitForFunction(()=>document.querySelector('[data-profile-summary]')?.textContent.includes('756 dossiers'));
   const title=root.locator('[data-profile-field="title"]');
   const original=await title.inputValue();
   await title.fill('Affiche personnelle FR');await title.press('Tab');

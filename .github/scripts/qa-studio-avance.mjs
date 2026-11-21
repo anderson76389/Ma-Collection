@@ -73,6 +73,7 @@ await test('affiches, sources, format et titre personnalisables',async()=>{
   assert.equal(art,4);
   assert(await page.locator('.mc-studio-theater').isVisible(),'La galerie d’affiches doit être visible');
   assert(await page.locator('[data-art-section] option').count()>1);
+  assert(await page.locator('.mc-studio-gallery-pips [aria-label="Choisir Décor du dossier"]').count() === 1);
   await page.locator('[data-action=batch-open]').click();
   await page.locator('[data-batch-shape]').selectOption('POSTER');
   await page.locator('[data-batch-glow]').check();

@@ -1463,22 +1463,20 @@ function renderFolderGrid() {
     const shape = folder.tileShape || "LANDSCAPE";
     card.classList.add(`aspect-${shape.toLowerCase()}`);
 
-    const baseImg = folder.coverImageUrl || '';
+    const baseImg = localGenreCovers.get(folder.coverImageUrl) || folder.coverImageUrl || '';
     const hoverGif = folder.focusGifUrl || baseImg;
-    const hoverMarkup = folder.focusGifUrl && gifsAllowedForCategory(category)
+    const hoverMarkup = folder.focusGifUrl && folder.focusGifEnabled !== false && gifsAllowedForCategory(category)
       ? isMotionVideoUrl(hoverGif)
         ? `<video class="card-gif-img" data-video="${hoverGif}" poster="${baseImg}" muted loop playsinline preload="none" aria-hidden="true"></video>`
         : `<img data-gif="${hoverGif}" class="card-gif-img" alt="" aria-hidden="true">`
       : '';
 
-    // Deliberately NOT gated on folder.hideTitle, unlike the hero and detail
-    // sheet. 481 of 565 folders set it and none carry a title logo without
-    // it, so honoring it here would strip the label off essentially every
-    // card in the grid at once — a much larger change than the duplicated
-    // hero title this was meant to fix, and one the owner should see first.
-    const logoOverlayHtml = folder.titleLogoUrl
-      ? `<div class="card-logo-overlay"><img src="${folder.titleLogoUrl}" alt="${folder.title}" class="card-logo-img" loading="lazy" decoding="async"></div>`
-      : `<h4 class="card-text-title">${highlightMatch(folder.title, query)}</h4>`;
+    let logoOverlayHtml = '';
+    if (!folder.hideTitle || !baseImg) {
+      logoOverlayHtml = folder.titleLogoUrl
+        ? `<div class="card-logo-overlay"><img src="${folder.titleLogoUrl}" alt="${folder.title}" class="card-logo-img" loading="lazy" decoding="async"></div>`
+        : `<h4 class="card-text-title">${highlightMatch(folder.title, query)}</h4>`;
+    }
 
     // Badge colour class based on source ratio
     const badgeRatio = sourceStats.total > 0 ? sourceStats.active / sourceStats.total : 0;
@@ -1528,7 +1526,7 @@ function renderFolderGrid() {
 
       ${controlsHeader}
 
-      ${logoOverlayHtml}
+      ${genreCaption(folder) || logoOverlayHtml}
     `;
 
     // Hover → update backdrop
@@ -2127,7 +2125,7 @@ function buildNuvioCard(folder, category, catIdx) {
   card.__folder = folder;       // used by the focus engine to drive the hero
   card.__category = category;
 
-  const imgSrc = folder.coverImageUrl || '';
+  const imgSrc = localGenreCovers.get(folder.coverImageUrl) || folder.coverImageUrl || '';
   // Title logos never overlay the cards — they only appear in the hero.
   // Fall back to a text title only when the card has no artwork at all.
   const titleFallback = imgSrc ? '' : `<span class="nv-card-title">${folder.title}</span>`;
@@ -2162,7 +2160,7 @@ function buildNuvioCard(folder, category, catIdx) {
     ${gifHtml}
     <div class="nv-card-gradient"></div>
     <span class="nv-card-meta" title="${isOn ? stats.active + ' active source' + (stats.active !== 1 ? 's' : '') : ''}">${isOn ? stats.active : ''}</span>
-    ${titleFallback}
+    ${genreCaption(folder) || titleFallback}
     ${actionsHtml}
   `;
 
@@ -2674,6 +2672,10 @@ function startHoverVideo(card) {
 function attachCardGif(card, selector = '.nv-card-gif') {
   if (document.hidden || reducePreviewMotion.matches) return;
   const media = card?.querySelector(selector);
+  if (media && !media.dataset.observed) {
+    media.dataset.observed = 'true';
+    media.addEventListener(media.tagName === 'VIDEO' ? 'loadeddata' : 'load', () => media.classList.add('ready'), {once:true});
+  }
   if (media?.tagName === 'VIDEO') {
     startHoverVideo(card);
   } else if (media?.dataset.gif) {

@@ -941,8 +941,8 @@ textarea:focus-visible,
   box-shadow: 0 16px 36px rgba(0, 0, 0, 0.7), 0 0 15px var(--accent-glow);
 }
 
-.folder-card.selected:hover .card-gif-img { opacity: 1; }
-.folder-card.selected:hover .card-cover-img { opacity: 0.15; }
+.folder-card.selected:hover .card-gif-img.ready { opacity: 1; }
+
 .folder-card.selected:hover .gear-button { opacity: 1; transform: scale(1); }
 
 /* ── DESELECTED CARD STATE ──
@@ -959,7 +959,7 @@ textarea:focus-visible,
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
 
-.folder-card:not(.selected):hover .card-gif-img { opacity: 0.6; }
+.folder-card:not(.selected):hover .card-gif-img.ready { opacity: 0.6; }
 .folder-card:not(.selected):hover .gear-button { opacity: 0.6; transform: scale(1); }
 
 /* Deselected: checkbox shows as "+" icon style */
@@ -5710,11 +5710,11 @@ select.wiz-input { cursor: pointer; }
   opacity: 0;
   transition: opacity var(--transition-normal);
 }
-.nv-card:hover .nv-card-gif,
-.nv-card.is-focused .nv-card-gif { opacity: 1; }
+.nv-card:hover .nv-card-gif.ready,
+.nv-card.is-focused .nv-card-gif.ready { opacity: 1; }
 .nv-card-gradient {
   position: absolute; inset: 0;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.05) 40%, rgba(0,0,0,0.72) 100%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.05) 40%, rgba(0,0,0,0.12) 100%);
 }
 html[data-theme="light"] .nv-card-gradient {
   display: none;
@@ -10510,3 +10510,25 @@ kbd {
   .card-gif-img, .nv-card-gif { display: none; }
   .folder-card.selected:hover .card-cover-img { opacity: 1; }
 }
+
+/* Les affiches historiques portent leurs légendes anglaises dans l’image.
+   Réserver la même bande basse aux deux lignes françaises. */
+.genre-caption {
+  position: absolute;
+  inset: auto 0 0;
+  z-index: 2;
+  box-sizing: border-box;
+  height: 39%;
+  padding: 0 5% 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 2px;
+  text-align: left;
+  color: white;
+  pointer-events: none;
+  background: linear-gradient(transparent, #121416 32%, #0b0c0e);
+  text-transform: uppercase;
+}
+.genre-caption strong { font: 800 clamp(.76rem,1.5vw,1.3rem)/1.05 Inter,sans-serif; }
+.genre-caption small { font: 600 clamp(.5rem,.68vw,.65rem)/1.2 Inter,sans-serif; letter-spacing: .035em; }
