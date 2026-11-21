@@ -1,3 +1,65 @@
+/* Palette partagée par l’accueil, les éditeurs et le Studio. */
+:root {
+  --accent: #00f5a0;
+  --accent-light: #6dfac4;
+  --on-secondary: #04130d;
+}
+html[data-theme="light"] {
+  --accent: #00805a;
+  --accent-light: #006b4a;
+  --on-secondary: #fff;
+}
+html[data-theme="high-contrast"] {
+  --accent: #6dfac4;
+  --accent-light: #b6fde3;
+  --on-secondary: #0f172a;
+}
+:root, html[data-theme] {
+  --accent-subtle: color-mix(in srgb, var(--accent) 14%, transparent);
+  --accent-glow: color-mix(in srgb, var(--accent) 22%, transparent);
+  --accent-gradient: linear-gradient(135deg, var(--accent), color-mix(in srgb, var(--accent) 90%, black));
+}
+.gear-button:hover,
+.new-badge,
+.source-row-item.selected .source-checkbox-visual,
+.btn-primary,
+.reorder-arrow:hover:not(:disabled),
+.wt-cta-badge,
+.title-test-code-apply,
+.title-screen-btn-primary,
+.dl-confirm-go,
+.wt-btn-next-primary,
+.mobile-fab,
+.wiz-help-btn.open,
+.wiz-option-icon.accent,
+.wiz-option-pill,
+.wiz-toggle-btn.active,
+.wiz-pill.active,
+.wiz-torbox-promo-btn,
+.wiz-merge-choice-btn.active,
+.wiz-primary,
+.nv-more-toggle.active,
+.nv-device-opt.active,
+.nv-card.nv-off .act-toggle,
+.nv-reorder-toggle.active,
+.nv-faux-tab.on,
+.support-nuvio-btn,
+.nv-empty-hint-btn,
+.se-send-btn,
+.se-mode-btn.active,
+.quick-push-btn-primary,
+.quiz-next,
+.ps-btn-primary,
+.ps-vault-tab.active,
+.ps-btn-vault-add:hover { color: var(--on-secondary); }
+
+#mc-studio-root .mc-studio-tabs button.active,
+#mc-studio-root .mc-studio-entry.selected,
+#mc-studio-root .mc-studio-art-nav button.active {
+  border-color: var(--accent);
+  background: var(--accent-subtle);
+}
+
 .mc-home-overlay {
   --home-mint: #00f5a0;
   --home-on-mint: #04130d;
