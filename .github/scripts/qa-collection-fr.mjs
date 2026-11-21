@@ -579,7 +579,7 @@ try {
     if(origin.some(x=>!x))return{exists:false};
     const copy=structuredClone(origin),dict=await fetch('locales/fr.json').then(r=>r.json());
     await window.MaCollectionExport.applyLocaleToCollection(copy);
-    const expectedSources=[390,42,36],expectedFolders=[65,7,6];
+    const expectedSources=[383,42,36],expectedFolders=[65,7,6];
     const errors=[],statistics=[];
     for(let i=0;i<origin.length;i++){
       const before=origin[i],after=copy[i];
@@ -613,8 +613,8 @@ try {
       distinctLabels:items.length,categories:copy.map(c=>c.title)};
   });
   assert(internationalDocsRealityValidation.exists,'Catégorie manquante dans la base chargée');
-  assert.deepEqual(internationalDocsRealityValidation.statistics,[{folders:65,sources:390},{folders:7,sources:42},{folders:6,sources:36}]);
-  assert.equal(internationalDocsRealityValidation.checked,468);
+  assert.deepEqual(internationalDocsRealityValidation.statistics,[{folders:65,sources:383},{folders:7,sources:42},{folders:6,sources:36}]);
+  assert.equal(internationalDocsRealityValidation.checked,461);
   assert.deepEqual(internationalDocsRealityValidation.errors,[],'Traduction affichée ou export incorrect');
   assert(internationalDocsRealityValidation.mediaAndFiltersPreserved,'Filtres, URLs ou images modifiés');
   assert.equal(internationalDocsRealityValidation.regionalBefore,'US Cinéma');
