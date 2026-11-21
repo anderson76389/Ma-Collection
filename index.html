@@ -11,7 +11,7 @@
   <link rel="icon" type="image/svg+xml" href="assets/kovelyx-logo.svg">
   
   <link rel="stylesheet" href="style.css?v=96.3">
-  <link rel="stylesheet" href="accueil.css?v=1">
+  <link rel="stylesheet" href="accueil.css?v=3">
   <link rel="stylesheet" href="studio-avance.css?v=7">
   <link rel="stylesheet" href="custom-folders.css?v=2">
   <link rel="stylesheet" href="profile-editor.css?v=2">
@@ -54,68 +54,27 @@
       <svg class="theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 14.5A8.5 8.5 0 1 1 9.5 3 7 7 0 0 0 21 14.5z"/></svg>
       <svg class="theme-icon-contrast" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 0 1 0 20z" fill="currentColor"/></svg>
     </button>
+    <nav class="home-dock" aria-label="Navigation principale">
+      <button type="button" data-home-target="title-screen-start">Collection</button>
+      <button type="button" data-home-target="title-screen-studio">Studio</button>
+      <button type="button" id="home-tools-menu">Outils</button>
+      <button type="button" data-home-target="home-update-profile">Mise à jour</button>
+    </nav>
     <div class="title-screen-panel mc-home">
-      <header class="mc-home-header">
-        <div class="mc-home-brand">
-          <img src="assets/kovelyx-logo.svg" alt="" width="42" height="42">
-          <span>Ma Collection</span>
-        </div>
-        <nav aria-label="Accès rapides">
-          <button type="button" id="home-search" class="mc-home-utility" aria-haspopup="dialog" aria-controls="command-palette-overlay" aria-keyshortcuts="Control+K Meta+K /">Rechercher <kbd>Ctrl K</kbd></button>
-          <button type="button" id="title-scroll-indicator" class="mc-home-utility">Outils</button>
-        </nav>
-      </header>
-
-      <section class="mc-home-intro" aria-labelledby="mc-home-title">
-        <div class="mc-home-intro-copy">
-          <h1 id="mc-home-title" class="title-screen-logo">Composez votre écran d’accueil.</h1>
-          <p class="title-screen-tagline">Choisissez vos catalogues de films et séries, organisez vos rangées, puis exportez la collection vers Kovelyx ou Nuvio.</p>
-          <div class="mc-home-actions">
-            <button type="button" id="title-screen-import-all" class="mc-home-primary">Configurer ma collection</button>
-            <button type="button" id="title-screen-collection-only" class="mc-home-secondary">Envoi rapide</button>
-          </div>
-          <div class="mc-home-actions">
-            <button type="button" id="home-edit-profile" class="mc-home-secondary">Modifier mon accueil Kovelyx</button>
-            <button type="button" id="home-update-profile" class="mc-home-secondary">Mettre à jour ma collection</button>
-          </div>
-        </div>
-        <div class="mc-home-preview" aria-hidden="true">
-          <div class="mc-home-preview-header"><span>Ma sélection</span><span>TV &amp; mobile</span></div>
-          <div class="mc-home-preview-row"><strong>À découvrir</strong><span></span><span></span><span></span></div>
-          <div class="mc-home-preview-row"><strong>Cinéma français</strong><span></span><span></span><span></span></div>
-          <div class="mc-home-preview-row"><strong>Mes genres</strong><span></span><span></span><span></span></div>
-        </div>
-      </section>
-
+      <section class="title-hero-stage mc-home-intro" aria-labelledby="mc-home-title">
+        <h1 class="title-screen-logo" id="mc-home-title">Ma <span>Collection</span></h1>
+        <p class="title-screen-tagline">Des rangées par genre, studio, acteur, décennie ou ambiance. Personnalisez vos affiches et exportez vers Kovelyx ou Nuvio.</p>
+        <button type="button" id="home-search" class="home-search" aria-haspopup="dialog" aria-controls="command-palette-overlay" aria-keyshortcuts="Control+K Meta+K /"><span aria-hidden="true">⌕</span> Rechercher un outil ou un réglage <kbd>/</kbd></button>
       <aside id="title-screen-changelog" class="title-changelog" style="display:none;" aria-label="Nouveautés">
         <button type="button" id="title-changelog-dismiss" class="title-changelog-dismiss" aria-label="Fermer les nouveautés">×</button>
         <div class="title-changelog-head">Nouveautés depuis votre dernière visite</div>
         <ul id="title-changelog-list" class="title-changelog-list"></ul>
       </aside>
-
-      <section id="title-portfolio-showcase" class="mc-home-tools" aria-label="Outils de collection">
-        <div class="mc-home-tool-group">
-          <h2>Créer et modifier</h2>
-          <button type="button" id="title-screen-simple" class="mc-home-tool"><strong>Assistant de configuration</strong><span>Choisir ses genres, régions et plateformes.</span></button>
-          <button type="button" id="title-screen-customize" class="mc-home-tool"><strong>Éditeur rapide</strong><span>Activer ou masquer des dossiers.</span></button>
-          <button type="button" id="title-screen-start" class="mc-home-tool"><strong>Éditeur cinématique</strong><span>Réorganiser et prévisualiser les rangées.</span></button>
+        <button type="button" id="title-screen-import-all" class="title-hero-primary-btn home-express">Configurer ma collection <span aria-hidden="true">→</span></button>
+        <div class="home-return"><span>Déjà configuré ?</span>
+          <button type="button" id="home-edit-profile">Modifier mon accueil Kovelyx</button>
+          <button type="button" id="home-update-profile">Mettre à jour ma collection</button>
         </div>
-        <div class="mc-home-tool-group">
-          <h2>Profils et export</h2>
-          <button type="button" id="title-screen-studio" class="mc-home-tool"><strong>Studio des profils</strong><span>Retrouver ses profils locaux, importer ou restaurer une sauvegarde.</span></button>
-          <button type="button" id="home-profile-history" class="mc-home-tool"><strong>Bibliothèque et historique</strong><span>Consulter les titres enregistrés, vus et en cours sur Kovelyx.</span></button>
-          <button type="button" id="title-screen-restore" class="mc-home-tool"><strong>Reprendre une collection</strong><span>Importer et vérifier un fichier JSON Kovelyx ou Nuvio.</span></button>
-          <button type="button" id="title-screen-selfhost" class="mc-home-tool"><strong>AIO Metadata</strong><span>Exporter une configuration pour son instance.</span></button>
-          <button type="button" id="title-screen-bingecat" class="mc-home-tool"><strong>Bingecat</strong><span>Préparer une configuration pour cette extension facultative.</span></button>
-        </div>
-        <div class="mc-home-tool-group">
-          <h2>Aide et prise en main</h2>
-          <button type="button" id="title-screen-walkthrough" class="mc-home-tool"><strong>Visite guidée</strong><span>Découvrir le fonctionnement des rangées et de l’export.</span></button>
-          <button type="button" id="title-screen-faq" class="mc-home-tool"><strong>FAQ et guides de configuration</strong><span>Mettre à jour et importer une collection.</span></button>
-        </div>
-      </section>
-
-      <footer class="mc-home-footer">
         <div class="title-test-code" id="title-test-code">
           <button type="button" id="title-test-code-toggle" class="title-test-code-toggle" aria-expanded="false" aria-controls="title-test-code-panel">Vous avez un code de test ?</button>
           <div id="title-test-code-panel" class="title-test-code-panel" hidden>
@@ -127,7 +86,43 @@
             <p id="title-test-code-status" class="title-test-code-status" role="status"></p>
           </div>
         </div>
-      </footer>
+
+        <div class="title-hero-logo-emblem mc-home-brand"><img src="assets/kovelyx-logo.svg" alt="" width="84" height="84" class="title-hero-logo-img"></div>
+        <button type="button" id="title-scroll-indicator" class="title-scroll-indicator">Découvrir les outils <span aria-hidden="true">⌄</span></button>
+      </section>
+      <section class="title-portfolio-showcase" id="title-portfolio-showcase" aria-label="Outils de collection">
+        <section class="portfolio-section mc-home-tool-group">
+          <div class="portfolio-sec-header"><h2 class="portfolio-sec-title">Aide et prise en main</h2><span class="portfolio-sec-sub">Visites interactives et documentation</span></div>
+          <div class="portfolio-grid grid-2">
+            <button type="button" id="title-screen-walkthrough" class="portfolio-card card-help mc-home-tool"><span class="port-card-icon" aria-hidden="true">▷</span><strong class="port-card-title">Visite guidée</strong><span class="port-card-desc">Découvrir le fonctionnement des rangées et de l’export.</span><span class="port-link" aria-hidden="true">Ouvrir →</span></button>
+            <button type="button" id="title-screen-faq" class="portfolio-card card-help mc-home-tool"><span class="port-card-icon" aria-hidden="true">?</span><strong class="port-card-title">FAQ et guides de configuration</strong><span class="port-card-desc">Mettre à jour et importer une collection.</span><span class="port-link" aria-hidden="true">Ouvrir →</span></button>
+          </div>
+        </section>
+        <section class="portfolio-section mc-home-tool-group">
+          <div class="portfolio-sec-header"><h2 class="portfolio-sec-title">Studio de personnalisation</h2><span class="portfolio-sec-sub">Composez votre écran d’accueil</span></div>
+          <div class="portfolio-grid grid-4">
+            <button type="button" id="title-screen-studio" class="portfolio-card card-custom mc-home-tool"><span class="port-card-icon" aria-hidden="true">◎</span><strong class="port-card-title">Studio des profils</strong><span class="port-card-desc">Retrouver ses profils locaux, importer ou restaurer une sauvegarde.</span><span class="port-link" aria-hidden="true">Ouvrir →</span></button>
+            <button type="button" id="title-screen-simple" class="portfolio-card card-custom mc-home-tool"><span class="port-card-icon" aria-hidden="true">✧</span><strong class="port-card-title">Assistant de configuration</strong><span class="port-card-desc">Choisir ses genres, régions et plateformes.</span><span class="port-link" aria-hidden="true">Ouvrir →</span></button>
+            <button type="button" id="title-screen-customize" class="portfolio-card card-custom mc-home-tool"><span class="port-card-icon" aria-hidden="true">☷</span><strong class="port-card-title">Éditeur rapide</strong><span class="port-card-desc">Activer ou masquer des dossiers.</span><span class="port-link" aria-hidden="true">Ouvrir →</span></button>
+            <button type="button" id="title-screen-start" class="portfolio-card card-custom mc-home-tool"><span class="port-card-icon" aria-hidden="true">▣</span><strong class="port-card-title">Éditeur cinématique</strong><span class="port-card-desc">Réorganiser et prévisualiser les rangées.</span><span class="port-link" aria-hidden="true">Ouvrir →</span></button>
+          </div>
+        </section>
+        <section class="portfolio-section mc-home-tool-group">
+          <div class="portfolio-sec-header"><h2 class="portfolio-sec-title">Extensions et hébergement</h2><span class="portfolio-sec-sub">Configurez vos extensions et exportez vos catalogues</span></div>
+          <div class="portfolio-grid grid-2">
+            <button type="button" id="title-screen-bingecat" class="portfolio-card card-custom mc-home-tool"><span class="port-card-icon" aria-hidden="true">◉</span><strong class="port-card-title">Bingecat</strong><span class="port-card-desc">Préparer une configuration pour cette extension facultative.</span><span class="port-link" aria-hidden="true">Ouvrir →</span></button>
+            <button type="button" id="title-screen-selfhost" class="portfolio-card card-custom mc-home-tool"><span class="port-card-icon" aria-hidden="true">⇩</span><strong class="port-card-title">AIO Metadata</strong><span class="port-card-desc">Exporter une configuration pour son instance.</span><span class="port-link" aria-hidden="true">Ouvrir →</span></button>
+          </div>
+        </section>
+        <section class="portfolio-section mc-home-tool-group">
+          <div class="portfolio-sec-header"><h2 class="portfolio-sec-title">Profils et export</h2><span class="portfolio-sec-sub">Retrouvez et transférez vos collections</span></div>
+          <div class="portfolio-grid grid-3">
+            <button type="button" id="home-profile-history" class="portfolio-card card-help mc-home-tool"><span class="port-card-icon" aria-hidden="true">◷</span><strong class="port-card-title">Bibliothèque et historique</strong><span class="port-card-desc">Consulter les titres enregistrés, vus et en cours sur Kovelyx.</span><span class="port-link" aria-hidden="true">Ouvrir →</span></button>
+            <button type="button" id="title-screen-restore" class="portfolio-card card-help mc-home-tool"><span class="port-card-icon" aria-hidden="true">↶</span><strong class="port-card-title">Reprendre une collection</strong><span class="port-card-desc">Importer et vérifier un fichier JSON Kovelyx ou Nuvio.</span><span class="port-link" aria-hidden="true">Ouvrir →</span></button>
+            <button type="button" id="title-screen-collection-only" class="portfolio-card card-help mc-home-tool"><span class="port-card-icon" aria-hidden="true">➜</span><strong class="port-card-title">Envoi rapide</strong><span class="port-card-desc">Envoyer directement la collection.</span><span class="port-link" aria-hidden="true">Ouvrir →</span></button>
+          </div>
+        </section>
+      </section>
     </div>
   </div>
 
@@ -803,6 +798,6 @@
   <script type="module" src="studio-avance.js?v=10"></script>
   <script type="module" src="profile-editor.js?v=2"></script>
   <script type="module" src="profile-history-ui.js?v=1"></script>
-  <script src="site-tools.js?v=3"></script>
+  <script src="site-tools.js?v=4"></script>
 </body>
 </html>
