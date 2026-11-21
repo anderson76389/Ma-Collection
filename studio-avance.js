@@ -1,4 +1,5 @@
 import {ART_STYLES,makeFolderArt} from './studio-art-generator.mjs';
+import {addonInventoryFromDraft,buildAddonManifestFile} from './studio-addon-manifests.mjs';
 import {MAX_BACKUP_BYTES,collectionBackupToDraft} from './studio-collection-import.mjs';
 import {
   STUDIO_LIMIT, STUDIO_FIELDS, STUDIO_SHAPES, assetUrl, cleanLabel,
@@ -31,6 +32,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
   let workshopSearch='',workshopSection='all',workshopSelected=new Set(),workshopMode='active-first';
   let workshopSortSections=true,workshopSortFolders=true,workshopUndo=null;
   let libraryQuery='',libraryFilter='all',libraryUndo=null;
+  const addonManifestUrls=Object.create(null); // En mémoire seulement : aucune clé/URL privée en localStorage.
   let frPack=null,frStyle='',frSection='all',frActiveOnly=true,frUndo=null,frError='';
   let artLookIndex=0, artSearch='', artMoreOnly=false, artNeedsAttention=false, showBatch=false;
   const findCategory=id=>data().find(c=>String(c.id)===String(id));
@@ -782,6 +784,27 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       (found.omitted?'<p class="mc-studio-hint">+'+found.omitted+' résultats supplémentaires : précise ta recherche.</p>':'')+
       '</div>';
   }
+  function renderAddonExport(){
+    const inventory=addonInventoryFromDraft(draft,data(),sourceKey,folderId);
+    const items=inventory.map(item=>'<div class="mc-studio-column" style="padding:12px;margin:9px 0">'+
+      '<label class="mc-studio-field"><strong>'+esc(item.id)+'</strong> · '+item.sources+' sources activées'+
+      '<input type="url" data-addon-manifest="'+esc(item.id)+'" spellcheck="false" autocomplete="off" '+
+      'placeholder="https://mon-serveur.exemple/config/manifest.json" value="'+esc(addonManifestUrls[item.id]||'')+'"></label>'+
+      '</div>').join('');
+    return '<div class="mc-studio-columns"><section class="mc-studio-column"><h3>Mes extensions Kovelyx</h3>'+
+      '<p class="mc-studio-hint">Inventaire des extensions utilisées dans les sources activées du profil. Le Studio ne peut pas deviner l’URL personnelle d’une extension à partir de son identifiant : colle son manifest HTTPS.</p>'+
+      '<p><strong>'+inventory.length+'</strong> extensions référencées par le brouillon.</p>'+
+      (items||'<p class="mc-studio-muted">Aucune source d’extension sélectionnée. Les catalogues TMDB et Trakt ne sont pas des extensions.</p>')+
+      button('Télécharger le fichier JSON pour Kovelyx','addon-export')+
+      '<p class="mc-studio-hint">Après téléchargement : Kovelyx → Extensions → Importer un fichier JSON d’extensions. L’app affiche une confirmation avant toute installation.</p></section>'+
+      '<section class="mc-studio-column"><h3>Comprendre les catalogues vides</h3>'+
+      '<p>Cloudflare synchronise les catégories et leurs sources, pas les films et séries. Les sources TMDB exigent TMDB, celles de Trakt exigent un accès Trakt, celles d’AIO Metadata exigent l’extension configurée sur chaque appareil.</p>'+
+      '<p><strong>MDBList</strong> fournit surtout notes, listes personnelles et suivi ; une connexion MDBList ne répare pas automatiquement une extension AIO Metadata absente.</p>'+
+      '<p class="mc-studio-hint">Un ZIP de site Internet comme ton archive de Kaptain ne constitue pas un addon installable. Un vrai manifest doit être hébergé et accessible sur HTTPS.</p>'+
+      '<p class="mc-studio-hint">Les adresses configurées restent en mémoire dans cet onglet et ne sont pas incluses dans les sauvegardes Studio. Le fichier JSON téléchargé peut contenir une URL personnelle : conserve-le en privé.</p>'+
+      button('Éditer le profil Kovelyx','cloud-picker')+
+      '</section></div>';
+  }
   function renderHub(){
     const tiles=[
       ['organisation','▤','Écran d’accueil','Choisir les rangées, leur ordre et leurs dossiers.'],
@@ -792,6 +815,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       ['affiches-fr','◈','Packs d’affiches français','Importer un pack et comparer ses variantes.'],
       ['apercu','▣','Aperçu','Voir la disposition sur téléphone et téléviseur.'],
       ['import-collection','⇩','Importer une collection','Ouvrir une collection Nuvio ou Kovelyx.'],
+      ['extensions','⊞','Extensions','Identifier les addons utilisés et préparer leur import JSON Kovelyx.'],
       ['modifications','⇄','Modifications','Comparer le brouillon et la collection actuelle.'],
       ['profils','↶','Profils et sauvegardes','Enregistrer, exporter ou restaurer une configuration.']
     ];
@@ -860,7 +884,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     root.querySelector('.mc-studio-title').textContent=draft.name;
     root.querySelectorAll('[data-tab]').forEach(x=>{x.classList.toggle('active',x.dataset.tab===tab);x.setAttribute('aria-selected',String(x.dataset.tab===tab));});
     root.classList.toggle('hub-open',tab==='accueil');
-    body.innerHTML=(tab==='accueil'?renderHub():tab==='organisation'?renderSections():tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():tab==='modifications'?renderChanges():tab==='outils'?renderWorkshop():tab==='bibliotheque'?renderArtLibrary():tab==='affiches-fr'?renderFrenchArt():tab==='import-collection'?renderCollectionImport():renderProfiles());
+    body.innerHTML=(tab==='accueil'?renderHub():tab==='organisation'?renderSections():tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():tab==='modifications'?renderChanges():tab==='outils'?renderWorkshop():tab==='bibliotheque'?renderArtLibrary():tab==='affiches-fr'?renderFrenchArt():tab==='import-collection'?renderCollectionImport():tab==='extensions'?renderAddonExport():renderProfiles());
     const undo=root.querySelector('[data-action="undo-apply"]');if(undo)undo.hidden=!undoLast;
     const status=root.querySelector('.mc-studio-status');if(status)status.textContent=message;
   }
@@ -868,6 +892,12 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     if(!draft)return;
     const el=e.target;
     try{
+      if(el.matches('[data-addon-manifest]')){
+        addonManifestUrls[el.dataset.addonManifest]=el.value.trim();
+        message='Adresse conservée uniquement pour cette session. Aucun addon installé ou envoyé.';
+        const status=root.querySelector('.mc-studio-status');if(status)status.textContent=message;
+        return;
+      }
       if(el.matches('[data-search]')){query=el.value;draw();root.querySelector('[data-search]')?.focus();return;}
       if(el.matches('[data-global-search]')){const caret=el.selectionStart;globalQuery=el.value;draw();const input=root.querySelector('[data-global-search]');input?.focus();if(caret!==null)input?.setSelectionRange(caret,caret);return;}
       if(el.matches('[data-global-active]')){globalActiveOnly=el.checked;draw();return;}
@@ -1098,6 +1128,15 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     else if(a==='delete')remove();
     else if(a==='reset')reset();
     else if(a==='cloud-picker'){window.MaCollectionProfileEditor?.open({account:true});}
+    else if(a==='addon-export'){
+      try{
+        const inventory=addonInventoryFromDraft(draft,data(),sourceKey,folderId);
+        const file=buildAddonManifestFile(inventory,addonManifestUrls);
+        download('Kovelyx-Extensions-Ma-Collection.json',JSON.stringify(file,null,2));
+        message=file.addons.length+' URL de manifests exportée(s) sans connexion à Kaptain.';
+      }catch(error){message=error.message||'Export d’extensions impossible.';}
+      draw();
+    }
     else if(a==='load-profile')choose(id);
     else if(a==='export')exportProfile();
     else if(a==='export-all')exportAllRecovery();
@@ -1150,6 +1189,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       '<button role="tab" data-tab="bibliotheque">Bibliothèque visuelle</button>'+
       '<button role="tab" data-tab="affiches-fr">Affiches FR</button>'+
       '<button role="tab" data-tab="import-collection">Importer & diagnostiquer</button>'+
+      '<button role="tab" data-tab="extensions">Extensions</button>'+
       '<button role="tab" data-tab="profils">Profils & sauvegardes</button></nav>'+
       '<main class="mc-studio-content"></main>'+
       '<div class="mc-studio-status" role="status" aria-live="polite"></div>'+
