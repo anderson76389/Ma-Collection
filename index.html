@@ -11,8 +11,8 @@
   <link rel="icon" type="image/svg+xml" href="assets/kovelyx-logo.svg">
   
   <link rel="stylesheet" href="style.css?v=97">
-  <link rel="stylesheet" href="accueil.css?v=4">
-  <link rel="stylesheet" href="studio-avance.css?v=9">
+  <link rel="stylesheet" href="accueil.css?v=5">
+  <link rel="stylesheet" href="studio-avance.css?v=10">
   <link rel="stylesheet" href="custom-folders.css?v=2">
   <link rel="stylesheet" href="profile-editor.css?v=2">
   <script src="scripts/migrate-storage.js?v=1"></script>
@@ -54,17 +54,20 @@
       <svg class="theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 14.5A8.5 8.5 0 1 1 9.5 3 7 7 0 0 0 21 14.5z"/></svg>
       <svg class="theme-icon-contrast" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 0 1 0 20z" fill="currentColor"/></svg>
     </button>
+    <div class="suite-wall" aria-hidden="true"></div>
     <nav class="home-dock" aria-label="Navigation principale">
+      <button type="button" id="suite-menu" aria-label="Ouvrir le menu de navigation" aria-haspopup="dialog">☰</button>
       <button type="button" data-home-target="title-screen-start">Collection</button>
       <button type="button" data-home-target="title-screen-studio">Studio</button>
-      <button type="button" id="home-tools-menu" aria-haspopup="dialog" aria-expanded="false">Outils</button>
+      <button type="button" id="home-tools-menu" aria-haspopup="dialog" aria-expanded="false"><img src="assets/kovelyx-logo.svg" width="30" height="30" alt=""><span>Mes outils ▾</span></button>
+      <button type="button" id="suite-stats">Statistiques</button>
       <button type="button" data-home-target="home-update-profile">Mise à jour</button>
     </nav>
     <div class="title-screen-panel mc-home">
       <section class="title-hero-stage mc-home-intro" aria-labelledby="mc-home-title">
         <h1 class="title-screen-logo" id="mc-home-title">Ma <span>Collection</span></h1>
         <p class="title-screen-tagline">Des rangées par genre, studio, acteur, décennie ou ambiance. Personnalisez vos affiches et exportez vers Kovelyx ou Nuvio.</p>
-        <button type="button" id="home-search" class="home-search" aria-haspopup="dialog" aria-controls="command-palette-overlay" aria-keyshortcuts="Control+K Meta+K /"><span aria-hidden="true">⌕</span> Rechercher un outil ou un réglage <kbd>/</kbd></button>
+        <button type="button" id="home-search" class="home-search" aria-haspopup="dialog" aria-controls="command-palette-overlay" aria-keyshortcuts="Control+K Meta+K /"><span aria-hidden="true">⌕</span> Rechercher parmi les outils et les réglages <kbd>/</kbd></button>
       <aside id="title-screen-changelog" class="title-changelog" style="display:none;" aria-label="Nouveautés">
         <button type="button" id="title-changelog-dismiss" class="title-changelog-dismiss" aria-label="Fermer les nouveautés">×</button>
         <div class="title-changelog-head">Nouveautés depuis votre dernière visite</div>
@@ -92,6 +95,7 @@
         <button type="button" id="title-scroll-indicator" class="title-scroll-indicator">Découvrir les outils <span aria-hidden="true">⌄</span></button>
       </section>
       <section class="title-portfolio-showcase" id="title-portfolio-showcase" aria-label="Outils de collection">
+        <h2 class="suite-feature-title">Fonctionnalités et outils</h2>
         <section class="portfolio-section mc-home-tool-group">
           <div class="portfolio-sec-header"><h2 class="portfolio-sec-title">Aide et prise en main</h2><span class="portfolio-sec-sub">Visites interactives et documentation</span></div>
           <div class="portfolio-grid grid-2">
@@ -797,9 +801,9 @@
   <script src="import-studio.js?v=15"></script>
   <script src="destination-picker.js?v=13"></script>
   <script src="custom-folders.js?v=3"></script>
-  <script type="module" src="studio-avance.js?v=12"></script>
+  <script type="module" src="studio-avance.js?v=13"></script>
   <script type="module" src="profile-editor.js?v=3"></script>
   <script type="module" src="profile-history-ui.js?v=1"></script>
-  <script src="site-tools.js?v=5"></script>
+  <script src="site-tools.js?v=6"></script>
 </body>
 </html>

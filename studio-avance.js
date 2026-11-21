@@ -782,6 +782,23 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       (found.omitted?'<p class="mc-studio-hint">+'+found.omitted+' résultats supplémentaires : précise ta recherche.</p>':'')+
       '</div>';
   }
+  function renderHub(){
+    const tiles=[
+      ['organisation','▤','Écran d’accueil','Choisir les rangées, leur ordre et leurs dossiers.'],
+      ['outils','☑','Édition rapide','Modifier plusieurs dossiers en une seule opération.'],
+      ['affiches','▧','Affiches','Comparer les visuels et personnaliser chaque dossier.'],
+      ['recherche','⌕','Parcourir la collection','Retrouver un dossier dans toutes les catégories.'],
+      ['bibliotheque','▥','Bibliothèque visuelle','Choisir une image pour un dossier du profil.'],
+      ['affiches-fr','◈','Packs d’affiches français','Importer un pack et comparer ses variantes.'],
+      ['apercu','▣','Aperçu','Voir la disposition sur téléphone et téléviseur.'],
+      ['import-collection','⇩','Importer une collection','Ouvrir une collection Nuvio ou Kovelyx.'],
+      ['modifications','⇄','Modifications','Comparer le brouillon et la collection actuelle.'],
+      ['profils','↶','Profils et sauvegardes','Enregistrer, exporter ou restaurer une configuration.']
+    ];
+    const rows=draft.sections.filter(s=>s.enabled);
+    const count=rows.reduce((n,s)=>n+s.folders.filter(f=>f.enabled&&f.selectedKeys.length).length,0);
+    return '<div class="suite-hub"><header class="suite-profile"><b aria-hidden="true">'+esc(draft.name.slice(0,1))+'</b><div><h3>'+esc(draft.name)+'</h3><small>'+rows.length+' rangées · '+count+' dossiers actifs</small></div><button type="button" data-hub-tab="profils">Changer de profil</button></header><div class="suite-tiles">'+tiles.map(([key,icon,title,desc])=>'<button type="button" data-hub-tab="'+key+'"><i aria-hidden="true">'+icon+'</i><strong>'+title+'</strong><small>'+desc+'</small></button>').join('')+'</div></div>';
+  }
   function renderProfiles(){
     const p=profiles.map(x=>{
       const total=x.sections.reduce((n,c)=>n+c.folders.length,0);
@@ -842,7 +859,8 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     const body=html();if(!body)return;
     root.querySelector('.mc-studio-title').textContent=draft.name;
     root.querySelectorAll('[data-tab]').forEach(x=>{x.classList.toggle('active',x.dataset.tab===tab);x.setAttribute('aria-selected',String(x.dataset.tab===tab));});
-    body.innerHTML=(tab==='organisation'?renderSections():tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():tab==='modifications'?renderChanges():tab==='outils'?renderWorkshop():tab==='bibliotheque'?renderArtLibrary():tab==='affiches-fr'?renderFrenchArt():tab==='import-collection'?renderCollectionImport():renderProfiles());
+    root.classList.toggle('hub-open',tab==='accueil');
+    body.innerHTML=(tab==='accueil'?renderHub():tab==='organisation'?renderSections():tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():tab==='modifications'?renderChanges():tab==='outils'?renderWorkshop():tab==='bibliotheque'?renderArtLibrary():tab==='affiches-fr'?renderFrenchArt():tab==='import-collection'?renderCollectionImport():renderProfiles());
     const undo=root.querySelector('[data-action="undo-apply"]');if(undo)undo.hidden=!undoLast;
     const status=root.querySelector('.mc-studio-status');if(status)status.textContent=message;
   }
@@ -1118,10 +1136,11 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     root.setAttribute('role','dialog');root.setAttribute('aria-modal','true');
     root.setAttribute('aria-labelledby','mc-studio-heading');
     root.innerHTML='<div class="mc-studio-panel">'+
-      '<header class="mc-studio-header"><div><span class="mc-studio-overline">MA-COLLECTION · ATELIER AVANCÉ</span>'+
+      '<header class="mc-studio-header"><div><span class="mc-studio-overline">MA-COLLECTION</span>'+
       '<h2 id="mc-studio-heading">Studio des profils</h2><p class="mc-studio-title"></p></div>'+
       '<button class="mc-studio-close" type="button" data-action="close" aria-label="Fermer">×</button></header>'+
       '<nav class="mc-studio-tabs" aria-label="Outils du Studio" role="tablist">'+
+      '<button role="tab" data-tab="accueil">Accueil du Studio</button>'+
       '<button role="tab" data-tab="organisation">Sections & dossiers</button>'+
       '<button role="tab" data-tab="affiches">Affiches & sources</button>'+
       '<button role="tab" data-tab="apercu">Aperçu accueil</button>'+
@@ -1138,7 +1157,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       '<button type="button" class="mc-studio-undo" data-action="undo-apply" hidden>↶ Annuler la dernière application</button>'+
       '<button type="button" class="mc-studio-apply" data-action="apply">Appliquer ce profil à Ma-Collection</button></footer></div>';
     document.body.appendChild(root);
-    root.addEventListener('click',e=>{if(e.target===root)close();else click(e);});
+    root.addEventListener('click',e=>{const tile=e.target.closest('[data-hub-tab]');if(tile){const next=root.querySelector('[data-tab="'+tile.dataset.hubTab+'"]');next.click();next.focus();}else if(e.target===root)close();else click(e);});
     root.addEventListener('dragstart',e=>{
       const el=e.target.closest('[data-drag-kind]');
       if(!el)return;
@@ -1176,7 +1195,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     }));
   }
   function bootstrap(){
-    document.getElementById('title-screen-studio')?.addEventListener('click',()=>open('profils'));
+    document.getElementById('title-screen-studio')?.addEventListener('click',()=>open('accueil'));
     document.getElementById('title-screen-restore')?.addEventListener('click',()=>open('import-collection'));
     document.getElementById('se-studio')?.addEventListener('click',()=>open());
     // Le bandeau cinématique est reconstruit à chaque navigation : délégation stable.
