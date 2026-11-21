@@ -3679,7 +3679,7 @@ function assembleFilteredDatabase(optimize) {
 // the instant 1-click default for TV, and Tabbed Grid optional for Mobile.
 function ensureMobileCompat(actionFn, opts) {
   if (typeof actionFn !== 'function') return;
-  const { checkRows = true, checkTmdb = true, actionLabel = 'Export Collection' } = opts || {};
+  const { checkRows = true, checkTmdb = true, actionLabel = 'Exporter la collection' } = opts || {};
   const overlay = document.getElementById('compat-overlay');
   if (!overlay) {
     lastExportOptimize = false;
@@ -3723,21 +3723,21 @@ function ensureMobileCompat(actionFn, opts) {
       if (subEl) subEl.textContent = "L’aperçu TV utilise la disposition automatique par défaut.";
       if (rowsSection) rowsSection.style.display = 'none';
       if (tmdbSection) tmdbSection.style.display = 'none';
-      if (continueText) continueText.textContent = `${actionLabel} (Follow Layout) →`;
+      if (continueText) continueText.textContent = `${actionLabel} · Disposition automatique →`;
     } else if (currentDevice === 'mobile') {
       if (subEl) subEl.textContent = "L’aperçu mobile présente les listes différemment de l’aperçu TV.";
       if (rowsSection) rowsSection.style.display = '';
-      if (checkText) checkText.textContent = 'Switch to Tabbed Grid (recommended for mobile)';
+      if (checkText) checkText.textContent = 'Passer à la grille à onglets (recommandé sur mobile)';
       if (tmdbSection) tmdbSection.style.display = needsTmdb ? '' : 'none';
       const opt = checkbox ? checkbox.checked : true;
-      if (continueText) continueText.textContent = opt ? `${actionLabel} (Tabbed Grid) →` : `${actionLabel} (Follow Layout) →`;
+      if (continueText) continueText.textContent = opt ? `${actionLabel} · Grille à onglets →` : `${actionLabel} · Disposition automatique →`;
     } else { // both
-      if (subEl) subEl.textContent = 'We can optimize the layout so it works smoothly across all your screens.';
+      if (subEl) subEl.textContent = 'Choisissez une disposition adaptée à la TV et au mobile.';
       if (rowsSection) rowsSection.style.display = '';
-      if (checkText) checkText.textContent = 'Switch to Tabbed Grid (safe for both TV & Phone)';
+      if (checkText) checkText.textContent = 'Passer à la grille à onglets (TV et mobile)';
       if (tmdbSection) tmdbSection.style.display = needsTmdb ? '' : 'none';
       const opt = checkbox ? checkbox.checked : true;
-      if (continueText) continueText.textContent = opt ? `${actionLabel} (Tabbed Grid) →` : `${actionLabel} (Follow Layout) →`;
+      if (continueText) continueText.textContent = opt ? `${actionLabel} · Grille à onglets →` : `${actionLabel} · Disposition automatique →`;
     }
   }
 
@@ -4297,11 +4297,10 @@ function bindGlobalEvents() {
   document.getElementById('title-screen-collection-only')?.addEventListener('click', () => {
     ensureMobileCompat(() => {
       hideTitleScreen();
-      initializeSelections();
       renderSidebar();
       if (isPreviewActive) renderPreviewCollection();
       handleImportToKovelyxClick();
-    }, { actionLabel: 'Continue to Account' });
+    }, { actionLabel: 'Choisir la destination' });
   });
 
   bindTestCodeUi();
@@ -5244,6 +5243,8 @@ function _buildCommandRegistry() {
     ['title-screen-start', 'Éditeur cinématique', ['aperçu', 'télévision', 'mobile']],
     ['title-screen-studio', 'Studio des profils', ['affiches', 'sections', 'brouillon']],
     ['title-screen-restore', 'Reprendre une collection', ['sauvegarde', 'restaurer', 'fichier JSON']],
+    ['home-edit-profile', 'Modifier mon accueil Kovelyx', ['profil', 'rangées']],
+    ['home-update-profile', 'Mettre à jour ma collection', ['mise à jour', 'catalogues']],
     ['title-screen-collection-only', 'Envoi rapide', ['export', 'importer', 'Kovelyx']],
     ['title-screen-walkthrough', 'Visite guidée', ['aide', 'démarrer']],
     ['title-screen-faq', 'FAQ et guides de configuration', ['documentation', 'aide']],

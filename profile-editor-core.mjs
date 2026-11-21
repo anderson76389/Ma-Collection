@@ -78,7 +78,7 @@ export function repairUpstreamResources(rows,catalogue){
 }
 /** Explicit update proposal: keep existing rows, custom art and unknown fields. */
 export function planProfileUpdate(existing,baseline,{updateSources=false}={}){
- const rows=validateProfile(existing),addedSections=[],addedFolders=[],updatedSources=[];
+ const rows=validateProfile(existing),addedSections=[],addedFolders=[],addedSources=[],updatedSources=[];
  const current=new Map(rows.map(c=>[c.id,c]));
  for(const cat of baseline){const prior=current.get(cat.id);
   if(!prior){rows.push(clone(cat));addedSections.push(cat.title);continue;}
@@ -88,12 +88,13 @@ export function planProfileUpdate(existing,baseline,{updateSources=false}={}){
    const old=profileSources(prev),next=profileSources(folder);
    // Stable source IDs can update definitions without touching personal artwork.
    const byId=new Map(next.filter(s=>s.id).map(s=>[s.id,s]));
-   prev.sources=old.map(s=>{const fresh=s.id?byId.get(s.id):null;if(updateSources&&fresh&&JSON.stringify(s)!==JSON.stringify(fresh)){updatedSources.push(folder.title);return clone(fresh);}return s;});
+   const beforeUpdates=updatedSources.length, beforeAdditions=addedSources.length;
+   const sources=old.map(s=>{const fresh=s.id?byId.get(s.id):null;if(updateSources&&fresh&&JSON.stringify(s)!==JSON.stringify(fresh)){updatedSources.push(folder.title);return clone(fresh);}return s;});
    const selected=new Set(old.map(s=>s.id||JSON.stringify(s)));
-   for(const s of next)if(!selected.has(s.id||JSON.stringify(s))){prev.sources.push(clone(s));addedFolders.push(folder.title+' · source '+(s.title||s.id||s.provider));}
-   delete prev.catalogSources;
+   for(const s of next)if(!selected.has(s.id||JSON.stringify(s))){sources.push(clone(s));addedSources.push(folder.title+' · '+(s.title||s.id||s.provider));}
+   if(updatedSources.length!==beforeUpdates||addedSources.length!==beforeAdditions){prev.sources=sources;delete prev.catalogSources;}
   }
  }
- return {rows,addedSections,addedFolders,updatedSources};
+ return {rows,addedSections,addedFolders,addedSources,updatedSources};
 }
 export function safeProfileImage(value){try{return assetUrl(value||'');}catch{return '';}}
