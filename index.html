@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="style.css?v=97">
   <link rel="stylesheet" href="accueil.css?v=5">
   <link rel="stylesheet" href="studio-avance.css?v=10">
+  <link rel="stylesheet" href="studio-workspace.css?v=1">
   <link rel="stylesheet" href="custom-folders.css?v=2">
   <link rel="stylesheet" href="profile-editor.css?v=2">
   <script src="scripts/migrate-storage.js?v=1"></script>
@@ -106,10 +107,19 @@
         <section class="portfolio-section mc-home-tool-group">
           <div class="portfolio-sec-header"><h2 class="portfolio-sec-title">Studio de personnalisation</h2><span class="portfolio-sec-sub">Composez votre écran d’accueil</span></div>
           <div class="portfolio-grid grid-4">
-            <button type="button" id="title-screen-studio" class="portfolio-card card-custom mc-home-tool"><span class="port-card-icon" aria-hidden="true">◎</span><strong class="port-card-title">Studio des profils</strong><span class="port-card-desc">Retrouver ses profils locaux, importer ou restaurer une sauvegarde.</span><span class="port-link" aria-hidden="true">Ouvrir →</span></button>
+            <button type="button" id="title-screen-studio" class="portfolio-card card-custom mc-home-tool"><span class="port-card-icon" aria-hidden="true">◎</span><strong class="port-card-title">Studio complet</strong><span class="port-card-desc">Écran d’accueil, rangées, affiches, extensions, profils, préférences et partage.</span><span class="port-link" aria-hidden="true">Ouvrir →</span></button>
             <button type="button" id="title-screen-simple" class="portfolio-card card-custom mc-home-tool"><span class="port-card-icon" aria-hidden="true">✧</span><strong class="port-card-title">Assistant de configuration</strong><span class="port-card-desc">Choisir ses genres, régions et plateformes.</span><span class="port-link" aria-hidden="true">Ouvrir →</span></button>
             <button type="button" id="title-screen-customize" class="portfolio-card card-custom mc-home-tool"><span class="port-card-icon" aria-hidden="true">☷</span><strong class="port-card-title">Éditeur rapide</strong><span class="port-card-desc">Activer ou masquer des dossiers.</span><span class="port-link" aria-hidden="true">Ouvrir →</span></button>
             <button type="button" id="title-screen-start" class="portfolio-card card-custom mc-home-tool"><span class="port-card-icon" aria-hidden="true">▣</span><strong class="port-card-title">Éditeur cinématique</strong><span class="port-card-desc">Réorganiser et prévisualiser les rangées.</span><span class="port-link" aria-hidden="true">Ouvrir →</span></button>
+          </div>
+        </section>
+        <section class="portfolio-section mc-home-tool-group">
+          <div class="portfolio-sec-header"><h2 class="portfolio-sec-title">Création et visuels</h2><span class="portfolio-sec-sub">Crée et personnalise ta collection dans le Studio</span></div>
+          <div class="portfolio-grid grid-4">
+            <button type="button" id="title-screen-create-folder" class="portfolio-card card-custom mc-home-tool"><span class="port-card-icon" aria-hidden="true">✚</span><strong class="port-card-title">Créer un dossier</strong><span class="port-card-desc">Créer un dossier personnel à partir d’une liste, d’un studio ou d’un artiste pris en charge.</span><span class="port-link" aria-hidden="true">Créer →</span></button>
+            <button type="button" id="title-screen-art-library" class="portfolio-card card-custom mc-home-tool"><span class="port-card-icon" aria-hidden="true">▧</span><strong class="port-card-title">Galerie d’affiches</strong><span class="port-card-desc">Choisir les visuels, les variantes françaises et les formats des dossiers.</span><span class="port-link" aria-hidden="true">Personnaliser →</span></button>
+            <button type="button" id="title-screen-manage-addons" class="portfolio-card card-custom mc-home-tool"><span class="port-card-icon" aria-hidden="true">⊞</span><strong class="port-card-title">Mes extensions</strong><span class="port-card-desc">Examiner les sources activées et exporter leurs manifests pour Kovelyx.</span><span class="port-link" aria-hidden="true">Gérer →</span></button>
+            <button type="button" id="title-screen-studio-settings" class="portfolio-card card-custom mc-home-tool"><span class="port-card-icon" aria-hidden="true">⚙</span><strong class="port-card-title">Préférences et langue</strong><span class="port-card-desc">Thèmes, aperçu par appareil et configuration régionale.</span><span class="port-link" aria-hidden="true">Configurer →</span></button>
           </div>
         </section>
         <section class="portfolio-section mc-home-tool-group">
@@ -121,10 +131,11 @@
         </section>
         <section class="portfolio-section mc-home-tool-group">
           <div class="portfolio-sec-header"><h2 class="portfolio-sec-title">Profils et export</h2><span class="portfolio-sec-sub">Retrouvez et transférez vos collections</span></div>
-          <div class="portfolio-grid grid-3">
+          <div class="portfolio-grid grid-4">
             <button type="button" id="home-profile-history" class="portfolio-card card-help mc-home-tool"><span class="port-card-icon" aria-hidden="true">◷</span><strong class="port-card-title">Bibliothèque et historique</strong><span class="port-card-desc">Consulter les titres enregistrés, vus et en cours sur Kovelyx.</span><span class="port-link" aria-hidden="true">Ouvrir →</span></button>
             <button type="button" id="title-screen-restore" class="portfolio-card card-help mc-home-tool"><span class="port-card-icon" aria-hidden="true">↶</span><strong class="port-card-title">Reprendre une collection</strong><span class="port-card-desc">Importer et vérifier un fichier JSON Kovelyx ou Nuvio.</span><span class="port-link" aria-hidden="true">Ouvrir →</span></button>
             <button type="button" id="title-screen-collection-only" class="portfolio-card card-help mc-home-tool"><span class="port-card-icon" aria-hidden="true">➜</span><strong class="port-card-title">Envoi rapide</strong><span class="port-card-desc">Envoyer directement la collection.</span><span class="port-link" aria-hidden="true">Ouvrir →</span></button>
+            <button type="button" id="title-screen-studio-share" class="portfolio-card card-help mc-home-tool"><span class="port-card-icon" aria-hidden="true">⇧</span><strong class="port-card-title">Partager et sauvegarder</strong><span class="port-card-desc">Télécharger le profil, sauvegarder le Studio et transférer vers Kovelyx.</span><span class="port-link" aria-hidden="true">Ouvrir →</span></button>
           </div>
         </section>
       </section>
@@ -791,7 +802,7 @@
   <script src="scripts/catalog-utils.js?v=94.0"></script>
   <script src="catalog-labels-fr.js?v=1"></script>
   <script src="debrid-services.js?v=2"></script>
-  <script src="app.js?v=115"></script>
+  <script src="app.js?v=116"></script>
   <script src="kovelyx-export.js?v=12"></script>
   <script>window.MA_COLLECTION_ASSET_VERSION = 92.5;</script>
   <script src="wizard.js?v=101.2"></script>
@@ -801,9 +812,9 @@
   <script src="import-studio.js?v=15"></script>
   <script src="destination-picker.js?v=13"></script>
   <script src="custom-folders.js?v=3"></script>
-  <script type="module" src="studio-avance.js?v=14"></script>
+  <script type="module" src="studio-avance.js?v=15"></script>
   <script type="module" src="profile-editor.js?v=4"></script>
   <script type="module" src="profile-history-ui.js?v=1"></script>
-  <script src="site-tools.js?v=6"></script>
+  <script src="site-tools.js?v=7"></script>
 </body>
 </html>
