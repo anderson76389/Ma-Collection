@@ -317,7 +317,7 @@ import {normalizeKovelyxProfiles,makeKovelyxLocalCopy,accountDisplayName} from '
     if(!rows().some(r=>r.id===rowId&&r.folders.some(f=>f.id===folderId)))return;
     artRowId=rowId;artFolderId=folderId;artIndex=0;navigate('artwork');
   }
-  function click(e){
+  async function click(e){
     const button=e.target.closest('button');
     if(!button||!root.contains(button))return;
     if(button.hasAttribute('data-suite-close'))return close();
