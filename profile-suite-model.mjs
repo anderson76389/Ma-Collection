@@ -134,7 +134,7 @@ export function validateSuiteProfile(input){
   });
   return {
     schema:SUITE_SCHEMA,id:safeString(input.id,90)||'mcps-import-'+Date.now(),
-    name:safeString(input.name,60)||'Profil importé',avatar:safeString(input.avatar,600),
+    name:safeString(input.name,60)||'Profil importé',avatar:cleanCover(input.avatar),
     createdAt:safeString(input.createdAt,48)||new Date().toISOString(),
     updatedAt:safeString(input.updatedAt,48)||new Date().toISOString(),
     settings:sanitizeSuiteSettings(input.settings),rows
