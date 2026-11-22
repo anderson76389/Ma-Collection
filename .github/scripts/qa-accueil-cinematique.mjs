@@ -95,5 +95,15 @@ try{
   passed++;
   await page.close();
   console.log('QA_ACCUEIL_OK configuration express et parcours de personnalisation');
+  const quick=await browser.newPage({viewport:{width:1280,height:800}});
+  await quick.goto('http://127.0.0.1:8877/',{waitUntil:'domcontentloaded',timeout:60000});
+  await quick.waitForFunction(()=>window.collectionData?.length>10&&
+    document.querySelector('#title-screen-overlay')?.classList.contains('active'),{timeout:60000});
+  await quick.locator('#home-view-collection').click();
+  await quick.waitForFunction(()=>!document.querySelector('#title-screen-overlay')?.classList.contains('active'));
+  assert(!await quick.locator('#title-screen-overlay').evaluate(e=>e.classList.contains('active')),
+    'Le bouton Voir ma collection doit réellement ouvrir le navigateur');
+  passed++;await quick.close();
+  console.log('QA_ACCUEIL_OK bouton fixe Voir ma collection');
 }finally{await browser.close();}
-assert.equal(passed,5);
+assert.equal(passed,6);
