@@ -419,3 +419,8 @@
  #mc-profile-suite *,#mc-profile-suite *::before,#mc-profile-suite *::after{
   transition:none!important;animation:none!important}
 }
+
+#mc-profile-suite .mcps-changes-list{list-style:none;padding:0;margin:9px 0 14px;border:1px solid var(--ps-border);border-radius:8px;overflow:hidden}
+#mc-profile-suite .mcps-changes-list li{padding:6px 9px;color:#b3bbc1;font-size:.69rem;border-bottom:1px solid var(--ps-border)}
+#mc-profile-suite .mcps-changes-list li:last-child{border-bottom:0}
+#mc-profile-suite .mcps-changes-list li b{color:#e8f6f0;font-weight:700}
