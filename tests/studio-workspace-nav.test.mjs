@@ -23,7 +23,7 @@ test('pictogrammes du Studio : 14 icônes locales accessibles sans fournisseur e
       const icon=studioIcon(key);
       assert(icon.includes('viewBox="0 0 24 24"'));
       assert(icon.includes('aria-hidden="true"'));
-      assert(!/https?:\/\//.test(icon),'Aucune ressource distante ne doit être chargée par une icône');
+      assert(!/(?:<image|<use|\shref=|\ssrc=|\sxlink:href=)/i.test(icon),'Aucune ressource distante ne doit être chargée par une icône');
       assert(icon.includes('<path')||icon.includes('<rect')||icon.includes('<circle'));
     }
 });
