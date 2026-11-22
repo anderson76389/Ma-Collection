@@ -49,6 +49,8 @@ jobs:
           node --test tests/account-config-resilience.test.mjs
           node --test tests/kovelyx-better-auth.test.mjs
           node --test tests/studio-addon-manifests.test.mjs
+          node --test tests/studio-workspace-nav.test.mjs
+          node --test tests/profile-canvas-core.test.mjs
           node --test tests/studio-avance.test.mjs tests/studio-collection-import.test.mjs tests/profile-editor.test.mjs tests/profile-history.test.mjs tests/customize-fr.test.mjs
           node --test tests/kaptain-url-security.test.mjs
           node --test tests/studio-recovery.test.mjs
@@ -70,6 +72,8 @@ jobs:
           done
           node --check custom-folders.js
           node --check studio-addon-manifests.mjs
+          node --check studio-workspace-nav.mjs
+          node --check profile-canvas-core.mjs
           node --check studio-avance.js
           node --check studio-avance-core.mjs
           node --check profile-editor.js

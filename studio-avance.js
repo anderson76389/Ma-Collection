@@ -1,4 +1,5 @@
 import {ART_STYLES,makeFolderArt} from './studio-art-generator.mjs';
+import {STUDIO_WORKSPACE_TITLES,studioNavigationHtml} from './studio-workspace-nav.mjs';
 import {addonInventoryFromDraft,buildAddonManifestFile} from './studio-addon-manifests.mjs';
 import {MAX_BACKUP_BYTES,collectionBackupToDraft} from './studio-collection-import.mjs';
 import {
@@ -805,6 +806,47 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       button('Éditer le profil Kovelyx','cloud-picker')+
       '</section></div>';
   }
+  function renderPreferences(){
+    const currentTheme=window.MaCollectionTheme?.current?.() || 'dark';
+    const themeOption=(key,label)=>'<button type="button" data-action="studio-theme" data-theme-value="'+key+
+      '" aria-pressed="'+(key===currentTheme?'true':'false')+'">'+label+'</button>';
+    return '<div class="mc-studio-preference-layout">'+
+      '<section class="mc-studio-column"><h3>Apparence du site</h3>'+
+      '<p class="mc-studio-hint">Les réglages sont appliqués immédiatement dans ton navigateur, sans Kaptain ni serveur distant.</p>'+
+      '<strong>Thème de Ma-Collection</strong>'+
+      '<div class="mc-studio-choice-bar" role="group" aria-label="Thème du site">'+
+      themeOption('dark','Sombre')+themeOption('light','Clair')+themeOption('high-contrast','Contraste élevé')+'</div>'+
+      '<p class="mc-studio-hint">Cette préférence locale est enregistrée par Ma-Collection. Elle n’envoie aucun réglage dans le lecteur Kovelyx.</p>'+
+      '<strong>Appareil utilisé pour l’aperçu</strong>'+
+      '<div class="mc-studio-choice-bar" role="group" aria-label="Appareil de prévisualisation">'+
+      '<button type="button" data-action="studio-preview-device" data-device-value="tv" aria-pressed="'+(previewDevice==='tv'?'true':'false')+'">Téléviseur</button>'+
+      '<button type="button" data-action="studio-preview-device" data-device-value="mobile" aria-pressed="'+(previewDevice==='mobile'?'true':'false')+'">Téléphone</button></div>'+
+      button('Ouvrir l’aperçu','studio-preview-open')+'</section>'+
+      '<section class="mc-studio-column"><h3>Langue, filtres et compte</h3>'+
+      '<p>Interface de Ma-Collection : <strong>Français</strong>. Aucun service de traduction Kaptain n’est appelé.</p>'+
+      '<p class="mc-studio-hint">La région, la langue des métadonnées, les exclusions et les services sont configurés dans l’assistant. Leurs modifications n’affectent le catalogue qu’après validation.</p>'+
+      button('Configurer langue, région et contenu','studio-open-customize')+
+      button('Ouvrir mon compte Kovelyx','cloud-picker')+
+      button('Créer un dossier personnel','create-folder')+
+      '<p class="mc-studio-hint">Les paramètres avancés du lecteur (sous-titres, flux et lecture automatique) restent propres à Kovelyx. Ils ne sont pas simulés sur ce site sans contrat de synchronisation testé.</p></section>'+
+      '</div>';
+  }
+  function renderSharing(){
+    return '<div class="mc-studio-preference-layout">'+
+      '<section class="mc-studio-column"><h3>Partager mon profil</h3>'+
+      '<p>Transfère ta sélection, tes catégories et tes visuels sous forme de fichier portable. Aucun mot de passe ni session n’est inclus.</p>'+
+      button('Télécharger mon profil JSON','export')+
+      button('Sauvegarde intégrale du Studio','export-all')+
+      button('Importer un profil et vérifier le contenu','studio-go-profiles')+
+      '<p class="mc-studio-hint">Le fichier téléchargé conserve les sources. Les vrais films sont toujours chargés par les services TMDB, Trakt et les extensions au moment de l’ouverture dans Kovelyx.</p></section>'+
+      '<section class="mc-studio-column"><h3>Mes appareils et comptes</h3>'+
+      '<p>Lis, compare et copie tes collections entre profils de ton propre compte Kovelyx avec sauvegarde et vérification avant remplacement.</p>'+
+      button('Ouvrir l’éditeur de mon compte Kovelyx','cloud-picker')+
+      button('Préparer les extensions nécessaires','studio-go-extensions')+
+      button('Examiner les différences avant application','studio-go-diff')+
+      '<p class="mc-studio-hint">Le partage par URL publique et le partage familial distant ne sont pas annoncés comme opérationnels tant que le service de droits d’accès n’est pas implémenté.</p></section>'+
+      '</div>';
+  }
   function renderHub(){
     const tiles=[
       ['organisation','▤','Écran d’accueil','Choisir les rangées, leur ordre et leurs dossiers.'],
@@ -817,7 +859,9 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       ['import-collection','⇩','Importer une collection','Ouvrir une collection Nuvio ou Kovelyx.'],
       ['extensions','⊞','Extensions','Identifier les addons utilisés et préparer leur import JSON Kovelyx.'],
       ['modifications','⇄','Modifications','Comparer le brouillon et la collection actuelle.'],
-      ['profils','↶','Profils et sauvegardes','Enregistrer, exporter ou restaurer une configuration.']
+      ['profils','↶','Profils et sauvegardes','Enregistrer, exporter ou restaurer une configuration.'],
+      ['parametres','⚙','Préférences et langue','Régler le thème, les appareils et les choix de catalogue.'],
+      ['partage','⇧','Partager et transférer','Exporter le profil, le sauvegarder et l’envoyer vers Kovelyx.']
     ];
     const rows=draft.sections.filter(s=>s.enabled);
     const count=rows.reduce((n,s)=>n+s.folders.filter(f=>f.enabled&&f.selectedKeys.length).length,0);
@@ -882,9 +926,15 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     if(!root||!draft)return;
     const body=html();if(!body)return;
     root.querySelector('.mc-studio-title').textContent=draft.name;
+    const heading=root.querySelector('[data-studio-context-title]');
+    if(heading)heading.textContent=STUDIO_WORKSPACE_TITLES[tab]||'Mon Studio';
+    const context=root.querySelector('[data-studio-context-subtitle]');
+    if(context)context.textContent=tab==='accueil'
+      ?'Tous tes outils de personnalisation, dans un seul espace.'
+      : 'Brouillon local · rien n’est envoyé avant confirmation.';
     root.querySelectorAll('[data-tab]').forEach(x=>{x.classList.toggle('active',x.dataset.tab===tab);x.setAttribute('aria-selected',String(x.dataset.tab===tab));});
     root.classList.toggle('hub-open',tab==='accueil');
-    body.innerHTML=(tab==='accueil'?renderHub():tab==='organisation'?renderSections():tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():tab==='modifications'?renderChanges():tab==='outils'?renderWorkshop():tab==='bibliotheque'?renderArtLibrary():tab==='affiches-fr'?renderFrenchArt():tab==='import-collection'?renderCollectionImport():tab==='extensions'?renderAddonExport():renderProfiles());
+    body.innerHTML=(tab==='accueil'?renderHub():tab==='organisation'?renderSections():tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():tab==='modifications'?renderChanges():tab==='outils'?renderWorkshop():tab==='bibliotheque'?renderArtLibrary():tab==='affiches-fr'?renderFrenchArt():tab==='import-collection'?renderCollectionImport():tab==='extensions'?renderAddonExport():tab==='parametres'?renderPreferences():tab==='partage'?renderSharing():renderProfiles());
     const undo=root.querySelector('[data-action="undo-apply"]');if(undo)undo.hidden=!undoLast;
     const status=root.querySelector('.mc-studio-status');if(status)status.textContent=message;
   }
@@ -1128,6 +1178,31 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     else if(a==='delete')remove();
     else if(a==='reset')reset();
     else if(a==='cloud-picker'){window.MaCollectionProfileEditor?.open({account:true});}
+    else if(a==='studio-home'){tab='accueil';message='';draw();}
+    else if(a==='studio-go-profiles'){tab='profils';draw();}
+    else if(a==='studio-go-extensions'){tab='extensions';draw();}
+    else if(a==='studio-go-diff'){tab='modifications';draw();}
+    else if(a==='studio-preview-open'){tab='apercu';draw();}
+    else if(a==='studio-theme'){
+      const value=btn.dataset.themeValue;
+      if(!['dark','light','high-contrast'].includes(value))return;
+      window.MaCollectionTheme?.set?.(value);
+      message='Thème '+(value==='dark'?'sombre':value==='light'?'clair':'contraste élevé')+' activé localement.';
+      draw();
+    }
+    else if(a==='studio-preview-device'){
+      const value=btn.dataset.deviceValue;
+      if(value!=='tv'&&value!=='mobile')return;
+      previewDevice=value;message='Aperçu '+(value==='tv'?'téléviseur':'téléphone')+' sélectionné.';draw();
+    }
+    else if(a==='studio-open-customize'){
+      if(!window.startCustomize){message='Assistant introuvable. Recharge Ma-Collection.';draw();return;}
+      const baseline=getBase();
+      if(JSON.stringify(draft)!==JSON.stringify(baseline)&&
+        !window.confirm('Ton brouillon Studio n’a pas été appliqué. Ouvrir l’assistant sans publier ces modifications ?'))return;
+      close();
+      window.startCustomize();
+    }
     else if(a==='addon-export'){
       try{
         const inventory=addonInventoryFromDraft(draft,data(),sourceKey,folderId);
@@ -1174,28 +1249,22 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     root.id='mc-studio-root';root.className='mc-studio-overlay';root.hidden=true;
     root.setAttribute('role','dialog');root.setAttribute('aria-modal','true');
     root.setAttribute('aria-labelledby','mc-studio-heading');
-    root.innerHTML='<div class="mc-studio-panel">'+
-      '<header class="mc-studio-header"><div><span class="mc-studio-overline">MA-COLLECTION</span>'+
-      '<h2 id="mc-studio-heading">Studio des profils</h2><p class="mc-studio-title"></p></div>'+
-      '<button class="mc-studio-close" type="button" data-action="close" aria-label="Fermer">×</button></header>'+
-      '<nav class="mc-studio-tabs" aria-label="Outils du Studio" role="tablist">'+
-      '<button role="tab" data-tab="accueil">Accueil du Studio</button>'+
-      '<button role="tab" data-tab="organisation">Sections & dossiers</button>'+
-      '<button role="tab" data-tab="affiches">Affiches & sources</button>'+
-      '<button role="tab" data-tab="apercu">Aperçu accueil</button>'+
-      '<button role="tab" data-tab="recherche">Recherche globale</button>'+
-      '<button role="tab" data-tab="modifications">Avant / Après</button>'+
-      '<button role="tab" data-tab="outils">Outils d’accueil</button>'+
-      '<button role="tab" data-tab="bibliotheque">Bibliothèque visuelle</button>'+
-      '<button role="tab" data-tab="affiches-fr">Affiches FR</button>'+
-      '<button role="tab" data-tab="import-collection">Importer & diagnostiquer</button>'+
-      '<button role="tab" data-tab="extensions">Extensions</button>'+
-      '<button role="tab" data-tab="profils">Profils & sauvegardes</button></nav>'+
-      '<main class="mc-studio-content"></main>'+
+    root.innerHTML='<div class="mc-studio-panel mc-studio-workspace">'+
+      '<header class="mc-studio-header"><div class="mc-studio-header-title"><div><span class="mc-studio-overline">MA-COLLECTION · ÉDITION FRANÇAISE</span>'+
+      '<h2 id="mc-studio-heading">Mon <span>Studio</span></h2><p class="mc-studio-title"></p></div></div>'+
+      '<div class="mc-studio-header-actions"><button type="button" class="mc-studio-home-button" data-action="studio-home">Vue d’ensemble</button>'+
+      '<button class="mc-studio-close" type="button" data-action="close" aria-label="Fermer le Studio">×</button></div></header>'+
+      '<div class="mc-studio-layout">'+studioNavigationHtml()+
+      '<div class="mc-studio-main">'+
+      '<header class="mc-studio-context"><div><strong data-studio-context-title>Mon Studio</strong><small data-studio-context-subtitle></small></div>'+
+      '<div class="mc-studio-context-actions"><button type="button" data-action="studio-go-profiles">Mes profils</button>'+
+      '<button type="button" data-action="studio-go-diff">Vérifier</button></div></header>'+
+      '<main id="mc-studio-content" class="mc-studio-content" role="tabpanel" tabindex="0"></main>'+
       '<div class="mc-studio-status" role="status" aria-live="polite"></div>'+
-      '<footer class="mc-studio-footer"><span>Modifications facultatives · Rien ne change avant validation</span>'+
+      '<footer class="mc-studio-footer"><span>Brouillon non publié · Vérifie tes choix avant tout transfert vers Kovelyx</span>'+
       '<button type="button" class="mc-studio-undo" data-action="undo-apply" hidden>↶ Annuler la dernière application</button>'+
-      '<button type="button" class="mc-studio-apply" data-action="apply">Appliquer ce profil à Ma-Collection</button></footer></div>';
+      '<button type="button" class="mc-studio-apply" data-action="apply">Appliquer ce profil à Ma-Collection</button></footer>'+
+      '</div></div></div>';
     document.body.appendChild(root);
     root.addEventListener('click',e=>{const tile=e.target.closest('[data-hub-tab]');if(tile){const next=root.querySelector('[data-tab="'+tile.dataset.hubTab+'"]');next.click();next.focus();}else if(e.target===root)close();else click(e);});
     root.addEventListener('dragstart',e=>{

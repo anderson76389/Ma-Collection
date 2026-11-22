@@ -13,7 +13,11 @@
   ['Importer et synchroniser','Choisir un fichier, le PC ou le compte Kovelyx',()=>window.MaCollectionDestination?.open()],
   ['Auto-hébergement AIO','Exporter une configuration pour ton instance',()=>window.showSelfHostStartChoice?.()],
   ['Affiches des médias','Configurer Bttr, RPDB ou un lien personnel avant envoi',()=>window.MaCollectionImportStudio?.open('kovelyx')],
-  ['Aide et dépendances','Comprendre les catégories vides et les mises à jour',()=>window.showUpdateFaqModal?.()]
+  ['Aide et dépendances','Comprendre les catégories vides et les mises à jour',()=>window.showUpdateFaqModal?.()],
+  ['Garde-robe des affiches','Choisir les variantes visuelles dans le Studio',()=>window.MaCollectionStudio?.open('bibliotheque')],
+  ['Extensions du Studio','Préparer les manifests utiles à Kovelyx',()=>window.MaCollectionStudio?.open('extensions')],
+  ['Langues et préférences','Personnaliser l’apparence et les aperçus locaux',()=>window.MaCollectionStudio?.open('parametres')],
+  ['Partager ma collection','Exporter, sauvegarder et transférer les profils',()=>window.MaCollectionStudio?.open('partage')]
  ];
  function showStats(){
   const rows=window.collectionData||window.NUVIO_DATABASE||[];
@@ -56,7 +60,22 @@
  }
  let pending=false;
  function refresh(){if(pending)return;pending=true;requestAnimationFrame(()=>{pending=false;install();});}
- function route(){const key=location.hash.replace(/^#\/?/,'');if(key==='profil')window.MaCollectionProfileEditor?.open();else if(key==='mise-a-jour')window.MaCollectionProfileEditor?.open({update:true});else if(key==='historique')window.MaCollectionProfileHistory?.open();else if(key==='studio')window.MaCollectionStudio?.open('accueil');else if(key==='statistiques')showStats();else if(key==='outils')open();else if(key==='aide')window.showUpdateFaqModal?.();}
+ function route(){
+   const key=location.hash.replace(/^#\/?/,'');
+   if(key==='studio'){
+     // L'entrée directe /studio.html fonctionne même si les catalogues
+     // se chargent après l'initialisation de la navigation.
+     let attempts=0;
+     const openStudio=()=>{
+       if(location.hash.replace(/^#\/?/,'')!=='studio')return;
+       if(window.collectionData?.length && window.MaCollectionStudio?.open){
+         window.MaCollectionStudio.open('accueil');return;
+       }
+       if(attempts++<80)setTimeout(openStudio,100);
+     };
+     openStudio();return;
+   }
+   if(key==='profil')window.MaCollectionProfileEditor?.open();else if(key==='mise-a-jour')window.MaCollectionProfileEditor?.open({update:true});else if(key==='historique')window.MaCollectionProfileHistory?.open();else if(key==='statistiques')showStats();else if(key==='outils')open();else if(key==='aide')window.showUpdateFaqModal?.();}
  const start=()=>{
   const dock=document.querySelector('.home-dock');
   dock?.addEventListener('click',event=>{
@@ -68,6 +87,16 @@
   });
   document.getElementById('home-edit-profile')?.addEventListener('click',()=>window.MaCollectionProfileEditor?.open({account:true}));
   document.getElementById('home-update-profile')?.addEventListener('click',()=>window.MaCollectionProfileEditor?.open({update:true}));
+  const homeShortcuts={
+    'title-screen-create-folder':()=>window.MaCollectionCustomFolders?.open(),
+    'title-screen-art-library':()=>window.MaCollectionStudio?.open('bibliotheque'),
+    'title-screen-manage-addons':()=>window.MaCollectionStudio?.open('extensions'),
+    'title-screen-studio-settings':()=>window.MaCollectionStudio?.open('parametres'),
+    'title-screen-studio-share':()=>window.MaCollectionStudio?.open('partage'),
+  };
+  for(const [id,launch] of Object.entries(homeShortcuts)){
+    document.getElementById(id)?.addEventListener('click',launch);
+  }
   install();new MutationObserver(refresh).observe(document.body,{childList:true,subtree:true});requestAnimationFrame(route);};
  window.addEventListener('hashchange',route);document.addEventListener('keydown',event=>{if(event.key==='Escape'&&modal&&!modal.hidden)close();});
  window.MaCollectionTools=Object.freeze({open});

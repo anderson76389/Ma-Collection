@@ -37,6 +37,45 @@ await test('nouvelle carte dans le design original',async()=>{
   const newStyle=await page.locator('#title-screen-studio').evaluate(x=>getComputedStyle(x).color);
   assert.equal(newStyle,oldStyle,'La nouvelle carte doit suivre le thème actuel');
 });
+await test('Accueil FR : raccourcis vers les outils du Studio complet',async()=>{
+  for(const [id,tab] of [
+    ['title-screen-art-library','bibliotheque'],
+    ['title-screen-manage-addons','extensions'],
+    ['title-screen-studio-settings','parametres'],
+    ['title-screen-studio-share','partage'],
+  ]){
+    await page.locator('#'+id).click();
+    const studio=page.locator('#mc-studio-root');
+    assert(await studio.isVisible(),'Outil inaccessible : '+id);
+    assert.equal(await studio.locator('[data-tab="'+tab+'"]').getAttribute('aria-selected'),'true');
+    await studio.locator('[data-action=close]').click();
+  }
+});
+await test('Studio plein écran : menu latéral français, préférences réelles et partage',async()=>{
+  await page.locator('#title-screen-studio').click();
+  const studio=page.locator('#mc-studio-root');
+  assert(await studio.isVisible());
+  assert.equal(await studio.locator('[data-tab]').count(),14);
+  const geometry=await studio.locator('.mc-studio-panel').evaluate(el=>{
+    const r=el.getBoundingClientRect();
+    return {width:r.width,height:r.height,screenWidth:innerWidth,screenHeight:innerHeight};
+  });
+  assert(Math.abs(geometry.width-geometry.screenWidth)<3,'Le Studio ne remplit pas l’écran');
+  assert(Math.abs(geometry.height-geometry.screenHeight)<3,'Le Studio ne remplit pas la hauteur');
+  assert(await studio.locator('.mc-studio-side-brand').isVisible());
+  await studio.locator('[data-tab=parametres]').click();
+  await studio.locator('[data-action=studio-theme][data-theme-value=light]').click();
+  assert.equal(await page.evaluate(()=>document.documentElement.getAttribute('data-theme')),'light');
+  await studio.locator('[data-action=studio-theme][data-theme-value=dark]').click();
+  assert.equal(await page.evaluate(()=>document.documentElement.getAttribute('data-theme')),null);
+  await studio.locator('[data-action=studio-preview-device][data-device-value=mobile]').click();
+  assert.equal(await studio.locator('[data-action=studio-preview-device][data-device-value=mobile]').getAttribute('aria-pressed'),'true');
+  await studio.locator('[data-tab=partage]').click();
+  const file=page.waitForEvent('download');
+  await studio.locator('[data-action=export]').click();
+  assert((await file).suggestedFilename().endsWith('.json'));
+  await studio.locator('[data-action=close]').click();
+});
 await test('aucune mutation sans application explicite',async()=>{
   const before=await page.evaluate(()=>({
     first:window.collectionData[0].title,

@@ -129,6 +129,8 @@ function bindThemeToggles() {
   });
 }
 bindThemeToggles();
+// API locale du thème : évite que les outils du Studio manipulent directement le DOM de l'accueil.
+window.MaCollectionTheme = Object.freeze({current: currentTheme, set: applyTheme, choices: [...MA_COLLECTION_THEMES]});
 
 // Walkthrough State
 let walkthroughActive = false;
