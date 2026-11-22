@@ -5,7 +5,7 @@ import {
 } from './profile-suite-model.mjs';
 import {renderSuiteScreen} from './profile-suite-view.mjs';
 import {captureDraft} from './studio-avance-core.mjs';
-import {makeFolderArt,ART_STYLES} from './studio-art-generator.mjs';
+import {makeFolderArt,ART_STYLES,isGeneratedFolderArt} from './studio-art-generator.mjs';
 
 /* Espace de travail indépendant. Les paramètres du lecteur non pris en charge
    sont enregistrés localement et exportables, jamais faussement synchronisés. */
@@ -59,7 +59,7 @@ import {makeFolderArt,ART_STYLES} from './studio-art-generator.mjs';
   function coverFor(value){
     const s=String(value||'').trim();
     if(!s||s.length>8192||/kaptain\.stream|imkaptain|kaptainscollection/i.test(s))return '';
-    if(/^data:image\/svg\+xml;base64,[A-Za-z0-9+/=]+$/i.test(s))return s;
+    if(s.startsWith('data:'))return isGeneratedFolderArt(s)?s:'';
     if(/^(?:\.\/)?assets\/[a-z0-9_./-]+$/i.test(s)&&!s.includes('..'))return s;
     if(/^https:\/\//i.test(s)&&!/[<>"'\s]/.test(s)&&!s.includes(String.fromCharCode(96)))return s;
     return '';
@@ -397,6 +397,9 @@ import {makeFolderArt,ART_STYLES} from './studio-art-generator.mjs';
   function change(e){
     const el=e.target;
     if(el.matches('[data-suite-upload]')){loadFile(el.files?.[0]);el.value='';return;}
+    if(el.matches('[data-suite-field="artFilter"]')){
+      artRowId=el.value;artFolderId=currentRow()?.folders[0]?.id||'';artIndex=0;render();return;
+    }
     if(el.matches('[data-suite-field]')){
       setting(el.dataset.suiteField,el.type==='checkbox'?el.checked:el.type==='range'?Number(el.value):el.value);
       render();return;
