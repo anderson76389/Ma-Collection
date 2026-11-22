@@ -79,9 +79,13 @@ try {
       await stats.getByRole("button",{name:"Fermer"}).click();
       await dock.locator("#home-tools-menu").click();
       await page.locator("#mc-tools [data-tools-close]").click();
-      if(width<=720) await page.locator('#title-screen-studio').click();
-      else await dock.getByRole("button",{name:"Studio",exact:true}).click();
-      await page.locator("#mc-studio-root").waitFor({state:"visible"});
+      if(width<=720){
+        await page.locator('#title-screen-studio').click();
+        await page.locator("#mc-studio-root").waitFor({state:"visible"});
+      }else{
+        await dock.getByRole("button",{name:"Studio",exact:true}).click();
+        await page.locator("#mc-profile-suite").waitFor({state:"visible"});
+      }
       await page.keyboard.press("Escape");
       const layout=await page.evaluate(()=>{
         const center=id=>{
