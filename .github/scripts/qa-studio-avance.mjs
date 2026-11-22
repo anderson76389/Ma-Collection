@@ -345,6 +345,8 @@ await test('annuler la dernière application : restaurer les références et l�
 });
 await test('accès disponible dans l’éditeur rapide',async()=>{
   await page.evaluate(()=>openSimpleEditor());
+  assert.equal(await page.locator('#preview-detail').count(),0,
+    'L’ouverture de l’éditeur rapide doit fermer toute fiche d’aperçu encore affichée');
   await page.locator('#se-studio').click();
   assert(await page.locator('#mc-studio-root').isVisible());
   await page.locator('[data-action=close]').click();
