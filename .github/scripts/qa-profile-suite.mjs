@@ -85,6 +85,73 @@ try{
    assert.equal(await page.evaluate(()=>JSON.stringify(window.collectionData)),initial);
    await old.locator('[data-action="close"]').click();
  });
+ await run('sélecteur fidèle : 3 profils de compte, mesures et ouverture réelle en brouillon',async()=>{
+   await page.setViewportSize({width:1780,height:900});
+   await page.evaluate(()=>{
+     const a='123e4567-e89b-42d3-a456-426614174000';
+     const b='123e4567-e89b-42d3-a456-426614174001';
+     const c='123e4567-e89b-42d3-a456-426614174002';
+     window.__qaCloudSigned=true;
+     window.MaCollectionAccount.status=()=>({cloudSignedIn:window.__qaCloudSigned,cloudEmail:'profile@example.org'});
+     window.MaCollectionAccount.cloudFetch=async path=>{
+       if(path!=='/v1/profiles')throw Error('Route inattendue '+path);
+       return {ok:true,json:async()=>({profiles:[
+         {id:a,name:'MAHÉ',categoriesCount:16,foldersCount:695},
+         {id:b,name:'MAMAN',categoriesCount:12,foldersCount:609},
+         {id:c,name:'Autre profil',categoriesCount:14,foldersCount:756}
+       ]})};
+     };
+     window.MaCollectionAccount.cloudLogout=async()=>{window.__qaCloudSigned=false;};
+     window.MaCollectionCloudPush={...window.MaCollectionCloudPush,readProfile:async id=>({
+       profileId:id,head:{revision:2},collections:[
+         {id:'film',title:'Films',folders:[
+           {id:'action',title:'Action',sources:[{id:'one',provider:'tmdb'}]},
+           {id:'horror',title:'Horreur',sources:[{id:'two',provider:'tmdb'}]}
+         ]}
+       ]
+     })};
+   });
+   await page.evaluate(()=>window.MaCollectionProfileSuite.open('profiles'));
+   await root.locator('[data-suite-cloud-select]').first().waitFor();
+   assert.equal(await root.locator('[data-suite-cloud-select]').count(),3);
+   assert.equal(await root.locator('[aria-label="Profils locaux"]').count(),0,
+     'Les profils locaux ne doivent pas encombrer le sélecteur connecté');
+   const measures=await root.evaluate(el=>{
+     const banner=el.querySelector('.mcps-picker-banner').getBoundingClientRect();
+     const cards=[...el.querySelectorAll('[data-suite-cloud-select]')].map(c=>c.getBoundingClientRect());
+     return {bodyWidth:el.scrollWidth,viewport:innerWidth,banner:{x:banner.x,width:banner.width},
+       cards:cards.map(c=>({x:c.x,width:c.width,y:c.y,height:c.height}))};
+   });
+   assert(measures.banner.width>900&&measures.banner.width<1050,
+     'Bandeau centré proche des références: '+JSON.stringify(measures));
+   assert(measures.cards.every(c=>c.width>260&&c.width<350&&c.height>=70),
+     'Trois cartes compactes : '+JSON.stringify(measures));
+   assert(measures.cards[0].x<measures.cards[1].x&&measures.cards[1].x<measures.cards[2].x,
+     'Les trois profils doivent être sur une rangée');
+   assert(measures.bodyWidth<=measures.viewport+2);
+   await page.screenshot({path:'/tmp/ma-collection-profile-picker.png'});
+   await root.locator('[data-suite-cloud-select]').first().click();
+   await root.locator('.mcps-dashboard').waitFor();
+   assert((await root.locator('.mcps-profile-title').innerText()).includes('MAHÉ'));
+   assert(await root.locator('[data-suite-action="edit-remote-profile"]').isVisible());
+   const stored=await page.evaluate(()=>JSON.parse(localStorage.getItem('ma_collection_profile_suite_v1')));
+   assert(stored.profiles.some(p=>p.id.startsWith('mcps-cloud-')&&p.rows[0].folders.length===2),
+     'La vraie collection doit être lue avant ouverture, sans écrire sur le serveur');
+   await root.locator('[data-suite-back]').click();
+   await root.locator('[data-suite-cloud-select]').first().waitFor();
+   await root.locator('[data-suite-action="show-local"]').click();
+   assert(await root.locator('[aria-label="Profils locaux"]').isVisible(),
+     'Les anciens profils restent disponibles');
+ });
+ await run('sélecteur mobile sans débordement ni fausses statistiques',async()=>{
+   await page.setViewportSize({width:390,height:844});
+   await page.evaluate(()=>window.MaCollectionProfileSuite.open('profiles'));
+   await root.locator('[data-suite-cloud-select]').first().waitFor();
+   const box=await root.evaluate(el=>({width:el.scrollWidth,viewport:innerWidth,
+     cards:[...el.querySelectorAll('[data-suite-cloud-select]')].map(x=>x.getBoundingClientRect().x)}));
+   assert(box.width<=box.viewport+2,'Débordement : '+JSON.stringify(box));
+   assert(box.cards.every(x=>x<box.viewport), 'Tous les profils restent cliquables sur mobile');
+ });
  await run('responsive : pages à 390, 768 et 1440 px sans débordement',async()=>{
    for(const width of [390,768,1440]){
      await page.setViewportSize({width,height:850});
