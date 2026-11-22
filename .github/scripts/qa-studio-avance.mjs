@@ -87,9 +87,49 @@ await test('Studio plein écran : menu latéral français, préférences réelle
   assert((await file).suggestedFilename().endsWith('.json'));
   await studio.locator('[data-action=close]').click();
 });
+await test('Studio clavier : flèches, début/fin, sélection et confinement du focus',async()=>{
+  await page.evaluate(()=>window.MaCollectionStudio.open('organisation'));
+  const studio=page.locator('#mc-studio-root'),menu=studio.locator('[data-action=studio-menu]');
+  try {
+  await menu.click();
+  await studio.locator('.mc-studio-side-brand').waitFor({state:'visible'});
+  await studio.locator('[data-tab=organisation]').focus();
+  assert(await studio.locator('[data-tab=organisation]').evaluate(el=>document.activeElement===el),
+    'Un onglet visible doit recevoir le focus avant le raccourci');
+  await page.keyboard.press('ArrowDown');
+  assert(await studio.locator('[data-tab=apercu]').evaluate(el=>document.activeElement===el),
+    'Flèche bas : onglet suivant au focus');
+  assert.equal(await studio.locator('[data-tab=organisation]').getAttribute('aria-selected'),'true',
+    'Les flèches ne doivent pas appliquer une nouvelle rubrique');
+  await page.keyboard.press('End');
+  assert(await studio.locator('[data-tab=parametres]').evaluate(el=>document.activeElement===el));
+  await page.keyboard.press('Home');
+  assert(await studio.locator('[data-tab=accueil]').evaluate(el=>document.activeElement===el));
+  await page.keyboard.press('Enter');
+  assert.equal(await studio.locator('[data-tab=accueil]').getAttribute('aria-selected'),'true');
+  assert.equal(await menu.getAttribute('aria-expanded'),'false');
+  await studio.locator('.mc-studio-tabs').waitFor({state:'hidden'});
+  await menu.focus();
+  await page.keyboard.press('Shift+Tab');
+  const focusInside=await studio.evaluate(el=>el.contains(document.activeElement));
+  assert(focusInside,'Maj+Tab doit rester dans le Studio, pas retourner à l’accueil');
+  await page.keyboard.press('Tab');
+  assert(await menu.evaluate(el=>document.activeElement===el),
+    'Tab doit revenir au premier bouton du Studio');
+  await menu.click();
+  await page.keyboard.press('Escape');
+  assert.equal(await menu.getAttribute('aria-expanded'),'false');
+  assert(await studio.isVisible(),'Échap ferme d’abord le menu, pas le Studio');
+  await page.keyboard.press('Escape');
+  assert(await studio.isHidden(),'Échap ferme ensuite le Studio');
+  } finally {
+    if(await studio.isVisible()) await studio.locator('[data-action=close]').click({force:true});
+  }
+});
 await test('géométrie fidèle : double barre, cartes et menu non permanent',async()=>{
   await page.evaluate(()=>window.MaCollectionStudio.open('accueil'));
   const studio=page.locator('#mc-studio-root');
+  await studio.locator('.mc-studio-tabs').waitFor({state:'hidden'});
   const metrics=await studio.evaluate(el=>{
     const size=sel=>{const r=el.querySelector(sel).getBoundingClientRect();
       return {x:r.x,y:r.y,width:r.width,height:r.height};};
@@ -305,6 +345,8 @@ await test('annuler la dernière application : restaurer les références et l�
 });
 await test('accès disponible dans l’éditeur rapide',async()=>{
   await page.evaluate(()=>openSimpleEditor());
+  assert.equal(await page.locator('#preview-detail').count(),0,
+    'L’ouverture de l’éditeur rapide doit fermer toute fiche d’aperçu encore affichée');
   await page.locator('#se-studio').click();
   assert(await page.locator('#mc-studio-root').isVisible());
   await page.locator('[data-action=close]').click();

@@ -379,12 +379,55 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     if('inert' in HTMLElement.prototype && nav)nav.inert=!navigationOpen;
     root.querySelector('.mc-studio-nav-scrim')?.setAttribute('aria-hidden',String(!navigationOpen));
   }
-  function close(){if(!root)return;setNavigation(false);root.hidden=true;document.removeEventListener('keydown',onEscape,true);}
-  function onEscape(e){
-    if(e.key!=='Escape'||root.hidden||document.querySelector('#mc-profile-editor:not([hidden])'))return;
-    e.stopPropagation();
-    if(navigationOpen){setNavigation(false);root.querySelector('[data-action="studio-menu"]')?.focus();}
-    else close();
+  function close(){
+    if(!root)return;
+    setNavigation(false);
+    root.hidden=true;
+    document.removeEventListener('keydown',onStudioKeydown,true);
+  }
+  function onStudioKeydown(e){
+    if(!root||root.hidden||document.querySelector('#mc-profile-editor:not([hidden])'))return;
+    if(e.key==='Escape'){
+      if(e.defaultPrevented)return;
+      e.preventDefault();
+      e.stopPropagation();
+      if(navigationOpen){
+        setNavigation(false);
+        root.querySelector('[data-action="studio-menu"]')?.focus();
+      }else close();
+      return;
+    }
+    // Menu à activation manuelle : les flèches déplacent le focus sans
+    // changer le brouillon ni quitter la navigation. Entrée choisit l'onglet.
+    const current=e.target instanceof Element?e.target.closest('.mc-studio-tabs [data-tab]'):null;
+    if(navigationOpen&&current&&(e.key==='Enter'||e.key===' ')){
+      e.preventDefault();
+      current.click();
+      return;
+    }
+    if(navigationOpen&&current&&['ArrowDown','ArrowUp','Home','End'].includes(e.key)){
+      const buttons=[...root.querySelectorAll('.mc-studio-tabs [data-tab]')];
+      const index=buttons.indexOf(current);
+      if(index<0)return;
+      const next=e.key==='Home'?0:e.key==='End'?buttons.length-1:
+        (index+(e.key==='ArrowDown'?1:-1)+buttons.length)%buttons.length;
+      e.preventDefault();
+      buttons[next]?.focus();
+      return;
+    }
+    // Le Studio est un dialogue modal : Tab ne doit pas ramener le focus
+    // vers l'accueil en arrière-plan, y compris à la fin du menu.
+    if(e.key!=='Tab'||e.altKey||e.ctrlKey||e.metaKey)return;
+    const focusables=[...root.querySelectorAll(
+      'button:not([disabled]), a[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
+    )].filter(el=>el.getClientRects().length>0&&getComputedStyle(el).visibility!=='hidden'&&
+      !el.closest('[hidden],[inert],[aria-hidden="true"]'));
+    if(!focusables.length)return;
+    const activeIndex=focusables.indexOf(document.activeElement);
+    const nextIndex=activeIndex<0?(e.shiftKey?focusables.length-1:0):
+      (activeIndex+(e.shiftKey?-1:1)+focusables.length)%focusables.length;
+    e.preventDefault();
+    focusables[nextIndex].focus();
   }
   function open(initialTab='organisation'){
     if(!data().length){if(typeof window.showToast==='function')window.showToast('Collections non chargées. Réessaie.','error');return;}
@@ -396,7 +439,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     frUndo=null;frSection='all';frActiveOnly=true;loadFrenchArt();
     if(!root)mount();
     root.hidden=false;navigationOpen=false;previousTab='';
-    setNavigation(false);draw();refreshBackups();document.addEventListener('keydown',onEscape,true);
+    setNavigation(false);draw();refreshBackups();document.addEventListener('keydown',onStudioKeydown,true);
     root.querySelector('[data-action="studio-menu"]')?.focus();
   }
   function loadFrenchArt(){
@@ -982,7 +1025,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     if(context)context.textContent=tab==='accueil'
       ?'Tous tes outils de personnalisation, dans un seul espace.'
       : 'Brouillon local · rien n’est envoyé avant confirmation.';
-    root.querySelectorAll('[data-tab]').forEach(x=>{x.classList.toggle('active',x.dataset.tab===tab);x.setAttribute('aria-selected',String(x.dataset.tab===tab));});
+    root.querySelectorAll('[data-tab]').forEach(x=>{x.classList.toggle('active',x.dataset.tab===tab);x.setAttribute('aria-selected',String(x.dataset.tab===tab));x.tabIndex=x.dataset.tab===tab?0:-1;});
     root.classList.toggle('hub-open',tab==='accueil');
     root.querySelector('.mc-studio-context')?.classList.toggle('mc-studio-at-home',tab==='accueil');
     const back=root.querySelector('[data-action="studio-home"].mc-studio-back');
