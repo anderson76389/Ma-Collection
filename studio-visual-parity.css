@@ -1,0 +1,351 @@
+/*
+ * Réglage visuel Ma-Collection / Studio.
+ * Inspiré de la géométrie observée dans l'archive fournie, sans CSS, polices,
+ * images, scripts ou URL provenant de Kaptain. Toutes les couleurs restent
+ * celles de Ma-Collection et de ses thèmes.
+ */
+#mc-studio-root {
+  --mc-shell-height:68px;
+  --mc-context-height:52px;
+  --mc-content-max:1060px;
+  --mc-motion:cubic-bezier(.16,1,.3,1);
+  padding:0;
+  background:var(--bg-app,#080a0c);
+  backdrop-filter:none;
+}
+#mc-studio-root .mc-studio-workspace{
+  display:flex;
+  flex-direction:column;
+  background:var(--bg-app,#080a0c);
+}
+#mc-studio-root .mc-studio-workspace>.mc-studio-header{
+  position:relative;
+  z-index:8;
+  flex:0 0 var(--mc-shell-height);
+  min-height:0;
+  height:var(--mc-shell-height);
+  box-sizing:border-box;
+  display:grid;
+  grid-template-columns:minmax(190px,1fr) auto minmax(190px,1fr);
+  align-items:center;
+  gap:12px;
+  padding:0 clamp(14px,2.6vw,34px);
+  border-bottom:1px solid var(--border,rgba(255,255,255,.1));
+  background:var(--bg-elevated,#12151b);
+  box-shadow:none;
+}
+#mc-studio-root .mc-studio-header-left,
+#mc-studio-root .mc-studio-header-actions,
+#mc-studio-root .mc-studio-header-title{
+  display:flex;align-items:center;gap:12px;min-width:0;
+}
+#mc-studio-root .mc-studio-header-title>div{display:grid;gap:1px;min-width:0}
+#mc-studio-root .mc-studio-brand-name{
+  display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+  font-size:.98rem;font-weight:800;letter-spacing:-.02em;color:var(--text-primary,#fff);
+}
+#mc-studio-root .mc-studio-header-title .mc-studio-title{
+  display:block;max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+  font-size:.69rem;font-weight:500;color:var(--text-secondary,#adb0ba)
+}
+#mc-studio-root .mc-studio-brand-mark{
+  display:grid;place-items:center;flex:none;width:39px;height:39px;
+  border:1px solid color-mix(in srgb,var(--accent) 30%,transparent);
+  border-radius:12px;
+  background:var(--accent-subtle,rgba(0,245,160,.09));
+  color:var(--accent,#00f5a0);
+  font-size:1.13rem;font-weight:900;
+}
+#mc-studio-root .mc-studio-menu-button{
+  display:grid;place-items:center;flex:none;width:42px;height:42px;
+  padding:0;border-radius:11px;border:1px solid transparent;
+  color:var(--text-secondary,#c0c0c6);background:transparent;
+  cursor:pointer;font:700 1.05rem/1 inherit;
+}
+#mc-studio-root .mc-studio-menu-button:hover,
+#mc-studio-root .mc-studio-menu-button[aria-expanded="true"]{
+  background:var(--accent-subtle,rgba(0,245,160,.09));border-color:var(--border-hover);
+  color:var(--accent,#00f5a0)
+}
+#mc-studio-root .mc-studio-top-links{
+  display:flex;align-items:center;justify-content:center;gap:4px;
+  padding:4px;border:1px solid var(--border,rgba(255,255,255,.07));
+  border-radius:999px;background:var(--bg-card,rgba(255,255,255,.03))
+}
+#mc-studio-root .mc-studio-top-links button{
+  border:0;border-radius:999px;min-height:35px;padding:7px 16px;
+  background:transparent;color:var(--text-secondary,#a8aab8);
+  font:650 .79rem/1.2 inherit;cursor:pointer;white-space:nowrap;
+}
+#mc-studio-root .mc-studio-top-links button[aria-current="page"]{
+  background:var(--accent-subtle,rgba(0,245,160,.14));color:var(--accent-light,#6dfac4);
+}
+#mc-studio-root .mc-studio-top-links button:hover{
+  background:var(--accent-subtle,rgba(0,245,160,.1));color:var(--text-primary,#fff);
+}
+#mc-studio-root .mc-studio-header-actions{justify-content:flex-end;gap:8px}
+#mc-studio-root .mc-studio-account-button{
+  min-height:38px;max-width:148px;overflow:hidden;text-overflow:ellipsis;
+  padding:0 15px;border-radius:999px;
+  border:1px solid var(--border-hover,rgba(255,255,255,.16));
+  background:var(--bg-card,#222);color:var(--text-primary,#fff);
+  font:650 .77rem/1.1 inherit;white-space:nowrap;cursor:pointer
+}
+#mc-studio-root .mc-studio-close{
+  display:grid;place-items:center;flex:none;width:40px;height:40px;
+  padding:0;border-radius:12px;border:1px solid var(--border-hover);
+  background:rgba(255,255,255,.04);
+  color:var(--text-secondary,#b4b4bd);font-size:1.38rem;cursor:pointer
+}
+#mc-studio-root .mc-studio-close:hover{background:rgba(255,255,255,.1);color:var(--text-primary)}
+/* Le menu complet existe, mais n'occupe plus un quart de la fenêtre. */
+#mc-studio-root .mc-studio-layout{
+  display:flex;flex:1;min-height:0;min-width:0;overflow:hidden;
+}
+#mc-studio-root .mc-studio-main{
+  width:100%;height:100%;min-height:0;min-width:0;
+}
+#mc-studio-root .mc-studio-tabs,
+#mc-studio-root.hub-open .mc-studio-tabs{
+  position:absolute;z-index:12;top:var(--mc-shell-height);bottom:0;left:0;
+  display:block;box-sizing:border-box;
+  width:min(320px,87vw);max-height:calc(100dvh - var(--mc-shell-height));
+  padding:12px 14px 24px;
+  overflow-x:hidden;overflow-y:auto;
+  background:var(--bg-elevated,#14151b);
+  border:0;border-right:1px solid var(--border-hover);
+  box-shadow:14px 12px 42px rgba(0,0,0,.32);
+  transform:translate3d(-105%,0,0);
+  visibility:hidden;pointer-events:none;
+  transition:transform .26s var(--mc-motion),visibility .26s;
+  will-change:auto;
+}
+#mc-studio-root.mc-studio-nav-open .mc-studio-tabs{
+  transform:translate3d(0,0,0);visibility:visible;pointer-events:auto
+}
+#mc-studio-root .mc-studio-nav-scrim{
+  position:absolute;z-index:11;inset:var(--mc-shell-height) 0 0;
+  background:rgba(0,0,0,.47);
+  opacity:0;pointer-events:none;
+  transition:opacity .19s ease
+}
+#mc-studio-root.mc-studio-nav-open .mc-studio-nav-scrim{
+  opacity:1;pointer-events:auto
+}
+#mc-studio-root .mc-studio-side-brand{margin:0 0 10px;padding:15px 11px 17px}
+#mc-studio-root .mc-studio-nav-group{display:grid;gap:3px;margin:0 0 16px}
+#mc-studio-root .mc-studio-nav-caption{font-size:.65rem;letter-spacing:.095em}
+#mc-studio-root .mc-studio-tabs button{
+  display:flex;align-items:center;gap:10px;white-space:normal;
+  min-height:42px;width:100%;padding:9px 12px;
+  font-size:.83rem;text-align:left;border-radius:10px
+}
+#mc-studio-root .mc-studio-tabs button.active{border-color:transparent;border-left:3px solid var(--accent)}
+#mc-studio-root .mc-studio-context{
+  flex:0 0 var(--mc-context-height);
+  box-sizing:border-box;height:var(--mc-context-height);
+  display:grid;grid-template-columns:1fr auto;
+  align-items:center;gap:14px;
+  padding:0 clamp(14px,2.4vw,28px);
+  background:var(--bg-elevated,#151720);
+  border-bottom:1px solid var(--border,rgba(255,255,255,.09));
+}
+#mc-studio-root .mc-studio-context-left{
+  display:flex;align-items:center;gap:15px;min-width:0;
+}
+#mc-studio-root .mc-studio-current-section{display:flex;align-items:baseline;gap:12px;min-width:0}
+#mc-studio-root .mc-studio-context strong{
+  display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+  font-size:.9rem;line-height:1.25;font-weight:690;color:var(--text-primary,#fff)
+}
+#mc-studio-root .mc-studio-context small{
+  display:block;margin:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+  font-size:.75rem;color:var(--text-muted,#999)
+}
+#mc-studio-root .mc-studio-back,
+#mc-studio-root .mc-studio-context-actions button{
+  display:inline-flex;align-items:center;justify-content:center;
+  gap:6px;min-height:36px;padding:0 11px;
+  border:1px solid var(--border,rgba(255,255,255,.09));border-radius:10px;
+  color:var(--text-secondary,#c5c7d0);background:rgba(255,255,255,.025);
+  font:620 .79rem/1.1 inherit;cursor:pointer;white-space:nowrap
+}
+#mc-studio-root .mc-studio-back:hover,
+#mc-studio-root .mc-studio-context-actions button:hover{
+  border-color:var(--border-hover);background:var(--accent-subtle);color:var(--text-primary)
+}
+#mc-studio-root .mc-studio-back[hidden]{display:none!important}
+#mc-studio-root .mc-studio-context-actions{display:flex;justify-content:flex-end;gap:8px;flex-wrap:nowrap}
+/* Rubriques centrées et grille de vrais outils, comme dans un cockpit. */
+#mc-studio-root .mc-studio-workspace .mc-studio-content{
+  flex:1;min-height:0;
+  padding:clamp(21px,3.5vw,42px) clamp(15px,4vw,48px) 50px;
+  overflow-y:auto;overflow-x:hidden;
+  overflow-anchor:auto;scrollbar-gutter:stable;
+}
+#mc-studio-root .mc-studio-content>*{
+  box-sizing:border-box;max-width:var(--mc-content-max);margin-left:auto;margin-right:auto;
+}
+#mc-studio-root .suite-hub{max-width:var(--mc-content-max);padding:0;margin:0 auto 16px}
+#mc-studio-root .suite-profile{
+  display:flex;align-items:center;gap:15px;
+  padding:17px 21px;margin:0 0 25px;
+  border-radius:18px;
+  border:1px solid var(--border-hover);
+  background:rgba(255,255,255,.03);
+}
+#mc-studio-root .suite-profile b{
+  flex:none;width:56px;height:56px;border-radius:50%;
+  border:2px solid color-mix(in srgb,var(--accent) 25%,transparent);
+  background:var(--accent-subtle);color:var(--accent);
+  font-size:1.27rem
+}
+#mc-studio-root .suite-profile h3{
+  margin:0 0 5px;font-size:clamp(1.12rem,1.6vw,1.35rem);
+  font-weight:760;letter-spacing:-.02em
+}
+#mc-studio-root .suite-profile small{font-size:.83rem}
+#mc-studio-root .suite-profile button{
+  flex:none;margin-left:auto;min-height:39px;padding:0 15px;
+  border-radius:11px;background:rgba(255,255,255,.055);
+  border-color:var(--border-hover);font-size:.82rem;font-weight:630
+}
+#mc-studio-root .suite-tiles{
+  grid-template-columns:repeat(auto-fill,minmax(min(250px,100%),1fr));
+  gap:14px
+}
+#mc-studio-root .suite-tiles button{
+  position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:7px;
+  box-sizing:border-box;min-height:188px;
+  padding:21px 21px 54px;
+  border:1px solid var(--border,rgba(255,255,255,.07));
+  border-radius:16px;
+  background:rgba(255,255,255,.03);
+  box-shadow:none;text-align:left;
+  transition:transform .27s var(--mc-motion),background .16s,border-color .16s
+}
+#mc-studio-root .suite-tiles button i{
+  display:grid;place-items:center;width:42px;height:42px;
+  border:1px solid color-mix(in srgb,var(--accent) 24%,transparent);
+  border-radius:12px;background:var(--accent-subtle);
+  color:var(--accent);
+  font-style:normal;font-size:1.22rem;line-height:1;
+  margin-bottom:12px
+}
+#mc-studio-root .suite-tiles button strong{
+  display:block;font-size:1.04rem;font-weight:730;letter-spacing:-.015em;line-height:1.23
+}
+#mc-studio-root .suite-tiles button small{
+  display:block;font-size:.86rem;line-height:1.5;color:var(--text-muted)
+}
+#mc-studio-root .suite-tiles button::after{
+  content:"→";position:absolute;bottom:18px;right:19px;
+  display:grid;place-items:center;width:25px;height:25px;border-radius:50%;
+  border:1px solid var(--border-hover);
+  background:rgba(255,255,255,.04);color:var(--accent-light);
+  font-size:1rem;font-weight:700;
+  transition:transform .25s var(--mc-motion),background .16s
+}
+#mc-studio-root .suite-tiles button:hover{
+  transform:translate3d(0,-3px,0);
+  border-color:color-mix(in srgb,var(--accent) 36%,transparent);
+  background:var(--accent-subtle,rgba(0,245,160,.07))
+}
+#mc-studio-root .suite-tiles button:hover::after{
+  transform:translateX(3px);background:var(--accent-subtle)
+}
+#mc-studio-root .mc-studio-column,
+#mc-studio-root .mc-picker{
+  border-radius:16px;border-color:var(--border,rgba(255,255,255,.12));
+  box-shadow:none;background:rgba(255,255,255,.027);
+}
+#mc-studio-root .mc-studio-column{padding:clamp(15px,2vw,22px)}
+#mc-studio-root .mc-studio-column button{
+  min-height:40px;border-radius:11px;
+  transition:background .15s,border-color .15s,transform .23s var(--mc-motion)
+}
+#mc-studio-root .mc-studio-column button:hover{border-color:var(--accent);transform:translateY(-1px)}
+#mc-studio-root .mc-studio-field input,
+#mc-studio-root .mc-studio-field select,
+#mc-studio-root .mc-studio-search{
+  min-height:44px;background:rgba(255,255,255,.035);border-radius:11px;
+}
+#mc-studio-root .mc-studio-field input:focus,
+#mc-studio-root .mc-studio-field select:focus{
+  border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-subtle);
+  outline:none
+}
+#mc-studio-root .mc-studio-status{
+  border:0;min-height:0;
+  color:var(--accent-light,#6dfac4);
+}
+#mc-studio-root .mc-studio-status:empty{padding:0!important;height:0}
+#mc-studio-root .mc-studio-workspace .mc-studio-footer{
+  min-height:59px;box-sizing:border-box;
+  padding:9px clamp(15px,4vw,48px);
+  background:var(--bg-elevated,#151720);
+  border-top:1px solid var(--border,rgba(255,255,255,.08));
+}
+#mc-studio-root .mc-studio-footer .mc-studio-apply{
+  padding:0 21px;border-radius:11px;
+  background:var(--accent);color:var(--on-secondary,#04130d);
+  border:1px solid transparent;box-shadow:none;font-size:.86rem;font-weight:750
+}
+#mc-studio-root.hub-open .mc-studio-workspace .mc-studio-footer{display:none!important}
+#mc-studio-root .mc-studio-workspace .mc-studio-content:focus-visible{outline:none}
+@media(max-width:850px){
+  #mc-studio-root .mc-studio-layout{display:flex}
+  #mc-studio-root .mc-studio-tabs,#mc-studio-root.hub-open .mc-studio-tabs{
+    display:block;max-height:calc(100dvh - var(--mc-shell-height));
+    padding:12px 14px 24px;overflow-y:auto;overflow-x:hidden;
+    transform:translate3d(-105%,0,0);visibility:hidden
+  }
+  #mc-studio-root.mc-studio-nav-open .mc-studio-tabs{
+    transform:translate3d(0,0,0);visibility:visible
+  }
+  #mc-studio-root .mc-studio-nav-group{display:grid}
+  #mc-studio-root .mc-studio-side-brand,#mc-studio-root .mc-studio-nav-caption{display:flex}
+  #mc-studio-root .mc-studio-tabs button{width:100%;white-space:normal}
+  #mc-studio-root .mc-studio-context{padding:0 15px}
+}
+@media(max-width:650px){
+  #mc-studio-root{--mc-shell-height:61px;--mc-context-height:50px}
+  #mc-studio-root .mc-studio-workspace>.mc-studio-header{
+    grid-template-columns:1fr auto;gap:6px;padding-inline:9px;
+  }
+  #mc-studio-root .mc-studio-top-links{display:none}
+  #mc-studio-root .mc-studio-header-left{gap:5px}
+  #mc-studio-root .mc-studio-brand-mark{width:34px;height:34px;font-size:1rem}
+  #mc-studio-root .mc-studio-brand-name{font-size:.88rem}
+  #mc-studio-root .mc-studio-header-title .mc-studio-title{font-size:.66rem;max-width:120px}
+  #mc-studio-root .mc-studio-account-button{display:none}
+  #mc-studio-root .mc-studio-menu-button{width:38px;height:38px}
+  #mc-studio-root .mc-studio-context{gap:4px;grid-template-columns:minmax(0,1fr) auto}
+  #mc-studio-root .mc-studio-context-left{gap:7px}
+  #mc-studio-root .mc-studio-context small{display:none}
+  #mc-studio-root .mc-studio-current-section{min-width:0}
+  #mc-studio-root .mc-studio-context strong{font-size:.8rem}
+  #mc-studio-root .mc-studio-back{min-height:34px;padding:0 7px}
+  #mc-studio-root .mc-studio-back span{display:none}
+  #mc-studio-root .mc-studio-context-actions button{font-size:.69rem;min-height:34px;padding:0 8px}
+  #mc-studio-root .mc-studio-context-actions button:last-child{display:none}
+  #mc-studio-root .mc-studio-workspace .mc-studio-content{
+    padding:19px 14px 40px;scrollbar-gutter:auto
+  }
+  #mc-studio-root .suite-profile{padding:13px 14px;gap:10px;flex-wrap:wrap}
+  #mc-studio-root .suite-profile b{width:46px;height:46px}
+  #mc-studio-root .suite-profile button{margin-left:auto;min-height:39px}
+  #mc-studio-root .suite-tiles{grid-template-columns:1fr;gap:10px}
+  #mc-studio-root .suite-tiles button{min-height:145px;padding:16px 18px 46px}
+  #mc-studio-root .suite-tiles button i{width:36px;height:36px;margin-bottom:5px}
+  #mc-studio-root .suite-tiles button strong{font-size:.99rem}
+  #mc-studio-root .suite-tiles button small{font-size:.82rem}
+  #mc-studio-root .mc-studio-workspace .mc-studio-footer{padding:8px 13px}
+}
+@media(prefers-reduced-motion:reduce){
+  #mc-studio-root .mc-studio-tabs,
+  #mc-studio-root .mc-studio-nav-scrim,
+  #mc-studio-root .suite-tiles button,
+  #mc-studio-root .suite-tiles button::after,
+  #mc-studio-root .mc-studio-column button{transition:none!important}
+}
