@@ -3,6 +3,7 @@
  */
 const shapes=Object.freeze({
   createFolder:'<path d="M12 3v18M3 12h18"/><circle cx="12" cy="12" r="9"/>',
+  'mes-creations':'<rect x="3" y="4" width="8" height="16" rx="1.5"/><rect x="13" y="4" width="8" height="16" rx="1.5"/><path d="M6 10h2M16 10h2"/>',
   myCurations:'<rect x="3" y="4" width="8" height="16" rx="1.5"/><rect x="13" y="4" width="8" height="16" rx="1.5"/><path d="M6 10h2M16 10h2"/>',
   historyExport:'<path d="M3 8a9 9 0 1 1-.2 8"/><path d="M3 3v5h5M12 7v5l3.5 2"/>',
   tuneFilters:'<path d="M4 5h16M6 12h12M10 19h4"/><circle cx="9" cy="5" r="2" fill="currentColor" stroke="none"/><circle cx="15" cy="12" r="2" fill="currentColor" stroke="none"/>',

@@ -73,7 +73,8 @@ try {
       await stats.getByRole("button",{name:"Fermer"}).click();
       await dock.locator("#home-tools-menu").click();
       await page.locator("#mc-tools [data-tools-close]").click();
-      await dock.getByRole("button",{name:"Studio",exact:true}).click();
+      if(width<=720) await page.locator('#title-screen-studio').click();
+      else await dock.getByRole("button",{name:"Studio",exact:true}).click();
       await page.locator("#mc-studio-root").waitFor({state:"visible"});
       await page.keyboard.press("Escape");
       const layout=await page.evaluate(()=>{
@@ -102,7 +103,7 @@ try {
           name+" dépasse horizontalement à "+width+" px");
       }
       assert(layout.tools.every(tool=>tool.left>=0 && tool.right<=layout.viewport));
-      assert.deepEqual(layout.groups,["Aide et prise en main","Studio de personnalisation","Création et visuels","Extensions et hébergement","Profils et export"]);
+      assert.deepEqual(layout.groups,["Aide et prise en main","Studio de personnalisation","Extensions et hébergement","Création et visuels","Profils et export"]);
       assert(layout.themeInHeader,"Le bouton de thème doit être aligné dans la navigation");
       assert(layout.dockHeight>=50&&layout.dockHeight<=85,"Barre d’accueil disproportionnée : "+layout.dockHeight);
       assert.equal(layout.faq,"FAQ et guides de configuration");
@@ -129,6 +130,7 @@ try {
     await page.locator("[data-hub-tab=profils]").first().click();
     assert.equal(await page.locator("[data-tab=profils]").getAttribute("aria-selected"),"true");
     await page.keyboard.press("Escape");
+    await page.locator('#mc-home-more-tools summary').click();
     await page.locator("#title-screen-restore").click();
     assert.equal(await page.locator("[data-tab=import-collection]").getAttribute("aria-selected"),"true");
     assert(await page.locator("[data-action=collection-file]").isVisible());

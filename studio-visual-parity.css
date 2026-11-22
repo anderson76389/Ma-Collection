@@ -357,3 +357,265 @@
 #mc-studio-root .suite-tiles button i svg{
   display:block;flex:none;width:22px;height:22px;stroke:currentColor;
 }
+
+/* Correction fondée sur les valeurs mesurables de l'archive studio-overhaul :
+ * en-tête 56, barre 48, cartes min 310/gap20/hauteur165/padding24x22.
+ * Structure et sélecteurs propres à Ma-Collection, non copiés.
+ */
+#mc-studio-root{
+  --mc-shell-height:56px;--mc-context-height:48px;
+  --mc-content-max:100%;
+}
+#mc-studio-root .mc-studio-workspace>.mc-studio-header.mc-studio-cockpit{
+  position:relative;z-index:8;
+  height:56px;min-height:56px;flex:0 0 56px;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 20px;
+  background:rgba(7,10,19,.95);
+  box-shadow:0 4px 20px rgba(0,0,0,.44);
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+#mc-studio-root .mc-studio-cockpit .mc-studio-header-left,
+#mc-studio-root .mc-studio-cockpit .mc-studio-header-actions{
+  display:flex;align-items:center;flex:0 0 auto;z-index:2;
+}
+#mc-studio-root .mc-studio-cockpit .mc-studio-top-links{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  display:flex;align-items:center;justify-content:center;
+  gap:13px;padding:0;
+  border:0;border-radius:0;background:transparent;
+  white-space:nowrap;z-index:3;
+}
+#mc-studio-root .mc-studio-top-branch{
+  display:flex;align-items:center;justify-content:center;gap:5px
+}
+#mc-studio-root .mc-studio-cockpit .mc-studio-top-branch button{
+  min-height:34px;height:34px;padding:0 14px;
+  border:1px solid transparent;border-radius:999px;
+  font:660 .78rem/1.1 inherit;background:transparent;color:var(--text-secondary)
+}
+#mc-studio-root .mc-studio-cockpit .mc-studio-top-branch button:hover,
+#mc-studio-root .mc-studio-cockpit .mc-studio-top-branch button[aria-current="page"]{
+  background:var(--accent-subtle);border-color:var(--border-hover);
+  color:var(--text-primary)
+}
+#mc-studio-root .mc-studio-cockpit .mc-studio-tools-hub{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  height:34px;min-height:34px;padding:0 14px 0 9px;
+  border:1px solid rgba(255,255,255,.13);border-radius:999px;
+  background:rgba(255,255,255,.045);color:var(--text-primary);
+  font:750 .79rem/1 inherit;cursor:pointer
+}
+#mc-studio-root .mc-studio-cockpit .mc-studio-tools-hub:hover,
+#mc-studio-root .mc-studio-cockpit .mc-studio-tools-hub[aria-expanded="true"]{
+  background:var(--accent-subtle);
+  border-color:color-mix(in srgb,var(--accent) 55%,transparent)
+}
+#mc-studio-root .mc-studio-logo-wrap{width:22px;height:22px;display:grid;place-items:center;flex:none}
+#mc-studio-root .mc-studio-logo-wrap img{
+  display:block;width:22px;height:22px;object-fit:contain;
+  filter:drop-shadow(0 0 5px var(--accent-glow))
+}
+#mc-studio-root .mc-studio-cockpit .mc-studio-menu-button{
+  display:grid;place-items:center;width:40px;height:40px;min-height:40px;
+  background:transparent;border:1px solid transparent;border-radius:10px;
+}
+#mc-studio-root .mc-studio-cockpit .mc-studio-menu-button:hover{
+  background:var(--accent-subtle);border-color:var(--border-hover)
+}
+#mc-studio-root .mc-studio-cockpit .mc-studio-account-button{
+  min-height:34px;height:34px;padding:0 14px;background:rgba(255,255,255,.045);
+  border-radius:999px;max-width:175px
+}
+/* Profile badge left, centered context pill, compact tools and close right. */
+#mc-studio-root .mc-studio-context{
+  position:relative;z-index:4;
+  height:48px;min-height:48px;flex:0 0 48px;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 20px;
+  background:rgba(8,12,22,.94);border-bottom:1px solid rgba(255,255,255,.07);
+  box-shadow:0 8px 24px rgba(0,0,0,.26);
+}
+#mc-studio-root .mc-studio-context-left{display:flex;align-items:center;gap:10px;min-width:0;z-index:2}
+#mc-studio-root .mc-studio-profile-badge{
+  display:flex;align-items:center;gap:6px;min-width:0;
+  border:1px solid var(--border-hover);border-radius:999px;
+  padding:5px 11px;background:rgba(255,255,255,.04);
+  color:var(--text-secondary);font-size:.78rem;white-space:nowrap
+}
+#mc-studio-root .mc-studio-profile-badge .mc-studio-title{
+  display:inline-block;max-width:210px;overflow:hidden;text-overflow:ellipsis;
+  white-space:nowrap;color:var(--text-primary);font-size:.79rem;font-weight:720
+}
+#mc-studio-root .mc-studio-context-center{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  display:flex;align-items:center;justify-content:center;gap:9px;
+  border:1px solid var(--border-hover);border-radius:999px;
+  padding:5px 13px;background:rgba(255,255,255,.035);z-index:1;
+  max-width:min(45vw,520px)
+}
+#mc-studio-root .mc-studio-context-center strong{
+  display:block;font-size:.72rem;font-weight:760;letter-spacing:.02em;
+  white-space:nowrap;color:var(--accent)
+}
+#mc-studio-root .mc-studio-context-center small{
+  margin:0;font-size:.73rem;white-space:nowrap;color:var(--text-secondary)
+}
+#mc-studio-root .mc-studio-context-actions{display:flex;gap:8px;align-items:center;margin-left:auto;z-index:2}
+#mc-studio-root .mc-studio-context-actions .mc-studio-close{
+  width:34px;height:34px;min-width:34px;border-radius:10px;
+  background:rgba(255,255,255,.045);font-size:1.26rem
+}
+#mc-studio-root .mc-studio-back{min-height:34px}
+#mc-studio-root .mc-studio-workspace .mc-studio-content{
+  padding:24px 32px 64px;
+  overflow-y:auto;scrollbar-width:thin;scrollbar-gutter:auto;
+}
+#mc-studio-root .mc-studio-content>*{max-width:100%;margin-left:0;margin-right:0}
+#mc-studio-root .suite-hub{max-width:100%;margin:0 auto}
+#mc-studio-root .suite-profile{
+  padding:20px 28px;margin:0 0 28px;
+  border-radius:18px;gap:20px;
+  background:var(--bg-elevated);
+  border:1px solid rgba(255,255,255,.08);
+  box-shadow:0 4px 24px rgba(0,0,0,.3);
+}
+#mc-studio-root .suite-profile b{
+  width:58px;height:58px;flex:0 0 58px;
+  font-size:1.3rem;border-radius:50%
+}
+#mc-studio-root .suite-profile button{
+  border-radius:10px;min-height:35px;
+  padding:8px 16px;font-size:.86rem
+}
+#mc-studio-root .suite-tiles{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));
+  gap:20px;width:100%;max-width:100%
+}
+#mc-studio-root .suite-tiles button{
+  min-height:165px;padding:24px 22px 20px;
+  border-radius:18px;gap:0;
+  background:var(--bg-elevated);
+  border:1px solid rgba(255,255,255,.08);
+  box-shadow:0 4px 20px rgba(0,0,0,.26);
+  transition:transform .22s var(--mc-motion),background .22s,border-color .22s,box-shadow .22s
+}
+#mc-studio-root .suite-tiles button:hover{
+  transform:translateY(-3px);
+  background:var(--bg-card-hover);
+  border-color:color-mix(in srgb,var(--accent) 35%,transparent);
+  box-shadow:0 12px 32px rgba(0,0,0,.34)
+}
+#mc-studio-root .suite-tiles button i{
+  width:44px;height:44px;margin:0 0 14px;
+  border-radius:12px;background:var(--accent-subtle);
+  border:1px solid color-mix(in srgb,var(--accent) 18%,transparent);
+  transition:transform .2s ease
+}
+#mc-studio-root .suite-tiles button:hover i{transform:scale(1.05)}
+#mc-studio-root .suite-tiles button strong{
+  font-size:1.12rem;font-weight:700;line-height:1.27;
+  letter-spacing:-.01em;margin:0 0 6px
+}
+#mc-studio-root .suite-tiles button small{
+  flex:1;font-size:.88rem;line-height:1.48;color:var(--text-secondary)
+}
+#mc-studio-root .suite-tiles button::after{
+  content:"Ouvrir →";position:static;
+  display:block;width:auto;height:auto;margin-top:14px;
+  border:0;border-radius:0;background:none;
+  font-size:.8rem;font-weight:650;color:var(--accent-light);
+  transform:none;transition:transform .2s ease
+}
+#mc-studio-root .suite-tiles button:hover::after{
+  background:none;transform:translateX(4px)
+}
+@media(max-width:900px){
+  #mc-studio-root .mc-studio-context-center{max-width:260px}
+  #mc-studio-root .mc-studio-context-center small{display:none}
+  #mc-studio-root .mc-studio-context-actions button:not(.mc-studio-close){display:none}
+}
+@media(max-width:720px){
+  #mc-studio-root .mc-studio-workspace>.mc-studio-header.mc-studio-cockpit{height:56px;min-height:56px;padding:0 12px}
+  #mc-studio-root .mc-studio-cockpit .mc-studio-top-branch{display:none}
+  #mc-studio-root .mc-studio-cockpit .mc-studio-tools-hub{min-width:40px;padding:0 9px}
+  #mc-studio-root .mc-studio-tools-hub span:not(.mc-studio-logo-wrap){display:none}
+  #mc-studio-root .mc-studio-context{padding:0 12px}
+  #mc-studio-root .mc-studio-context-center{display:none}
+  #mc-studio-root .mc-studio-context-actions button:not(.mc-studio-close){display:none}
+  #mc-studio-root .mc-studio-workspace .mc-studio-content{padding:16px 14px 40px}
+  #mc-studio-root .suite-tiles{grid-template-columns:1fr;gap:14px}
+  #mc-studio-root .suite-profile{padding:16px 18px;margin-bottom:22px}
+}
+@media(max-width:400px){
+  #mc-studio-root .mc-studio-cockpit .mc-studio-account-button{padding:0 9px;font-size:.69rem}
+  #mc-studio-root .mc-studio-context .mc-studio-profile-badge{padding:4px 8px;max-width:180px}
+  #mc-studio-root .mc-studio-context .mc-studio-profile-badge .mc-studio-title{max-width:100px}
+  #mc-studio-root .suite-tiles button{min-height:165px}
+}
+@media(prefers-reduced-motion:reduce){
+  #mc-studio-root .suite-tiles button,
+  #mc-studio-root .suite-tiles button i,
+  #mc-studio-root .suite-tiles button::after{transition:none!important}
+}
+
+/* Les créations personnelles reprennent le rythme des cartes du Studio :
+   visuel à gauche, données utiles et contrôles réels. */
+#mc-studio-root .mc-studio-curations{width:100%;display:block}
+#mc-studio-root .mc-studio-curations-header{
+  display:flex;align-items:center;justify-content:space-between;gap:20px;
+  margin:0 0 25px;padding:20px 28px;
+  border:1px solid var(--border-hover);border-radius:18px;
+  background:var(--bg-elevated)
+}
+#mc-studio-root .mc-studio-curations-header h3{
+  margin:0 0 6px;font-size:1.24rem;letter-spacing:-.01em
+}
+#mc-studio-root .mc-studio-curations-header p{
+  margin:0;color:var(--text-secondary);font-size:.86rem;line-height:1.5
+}
+#mc-studio-root .mc-studio-curations-header button{
+  flex:none;min-height:40px;padding:9px 16px;border-radius:10px;
+  border:1px solid color-mix(in srgb,var(--accent) 45%,transparent);
+  background:var(--accent-subtle);color:var(--text-primary);
+  font:700 .84rem/1.25 inherit;cursor:pointer
+}
+#mc-studio-root .mc-studio-curations-grid{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px
+}
+#mc-studio-root .mc-studio-curation-card{
+  display:flex;gap:16px;padding:14px;min-height:130px;
+  border:1px solid var(--border-hover);border-radius:15px;background:var(--bg-elevated);
+  overflow:hidden
+}
+#mc-studio-root .mc-studio-curation-cover{
+  width:76px;height:108px;flex:none;border-radius:9px;object-fit:cover;background:var(--bg-card)
+}
+#mc-studio-root .mc-studio-curation-placeholder{display:grid;place-items:center;color:var(--accent)}
+#mc-studio-root .mc-studio-curation-placeholder svg{width:29px;height:29px}
+#mc-studio-root .mc-studio-curation-details{min-width:0;display:flex;flex-direction:column;justify-content:center}
+#mc-studio-root .mc-studio-curation-details h4{
+  margin:0 0 9px;font-size:.96rem;font-weight:730;overflow-wrap:anywhere
+}
+#mc-studio-root .mc-studio-curation-details small{
+  font-size:.73rem;line-height:1.45;color:var(--text-secondary);overflow-wrap:anywhere
+}
+#mc-studio-root .mc-studio-curations-empty{
+  grid-column:1/-1;padding:25px;border:1px dashed var(--border-hover);
+  border-radius:14px;color:var(--text-secondary);font-size:.88rem
+}
+@media(max-width:680px){
+  #mc-studio-root .mc-studio-curations-header{
+    flex-direction:column;align-items:stretch;padding:18px
+  }
+  #mc-studio-root .mc-studio-curations-grid{grid-template-columns:1fr;gap:10px}
+}
+
+/* Après déplacement de Fermer dans la sous-barre, un ancien responsive
+ * masquait accidentellement le dernier bouton : conserver la fermeture
+ * visible même sur téléphone étroit (320 px). */
+#mc-studio-root .mc-studio-context .mc-studio-context-actions button.mc-studio-close{
+  display:grid!important;place-items:center;position:static;
+  visibility:visible;opacity:1;pointer-events:auto;
+  width:34px;min-width:34px;height:34px;flex:0 0 34px;
+}

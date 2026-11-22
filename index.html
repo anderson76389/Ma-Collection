@@ -14,8 +14,8 @@
   <link rel="stylesheet" href="accueil.css?v=5">
   <link rel="stylesheet" href="studio-avance.css?v=10">
   <link rel="stylesheet" href="studio-workspace.css?v=1">
-  <link rel="stylesheet" href="studio-visual-parity.css?v=1">
-  <link rel="stylesheet" href="accueil-visual-parity.css?v=1">
+  <link rel="stylesheet" href="studio-visual-parity.css?v=2">
+  <link rel="stylesheet" href="accueil-visual-parity.css?v=2">
   <link rel="stylesheet" href="custom-folders.css?v=2">
   <link rel="stylesheet" href="profile-editor.css?v=2">
   <link rel="stylesheet" href="profile-canvas.css?v=1">
@@ -55,19 +55,27 @@
   <div id="title-screen-overlay" class="title-screen-overlay mc-home-overlay">
 
     <div class="suite-wall" aria-hidden="true"></div>
-    <nav class="home-dock" aria-label="Navigation principale">
-      <div class="mc-home-dock-brand" aria-label="Ma-Collection"><span class="mc-home-dock-brand-mark" aria-hidden="true">M</span>Ma-Collection</div>
-      <button type="button" id="suite-menu" aria-label="Ouvrir le menu de navigation" aria-haspopup="dialog">☰</button>
-      <button type="button" data-home-target="title-screen-start">Collection</button>
-      <button type="button" data-home-target="title-screen-studio">Studio</button>
-      <button type="button" id="home-tools-menu" aria-haspopup="dialog" aria-expanded="false"><img src="assets/kovelyx-logo.svg" width="30" height="30" alt=""><span>Mes outils ▾</span></button>
-      <button type="button" id="suite-stats">Statistiques</button>
-      <button type="button" data-home-target="home-update-profile">Mise à jour</button>
-    <button type="button" id="title-theme-toggle" class="theme-toggle-btn title-theme-toggle" aria-label="Changer le thème d'affichage" title="Changer de thème : sombre, clair, contraste élevé">
+    <nav class="home-dock mc-cockpit" aria-label="Navigation principale">
+      <div class="mc-cockpit-left"><button type="button" id="suite-menu" aria-label="Ouvrir le menu de navigation" aria-haspopup="dialog"><span aria-hidden="true">☰</span></button></div>
+      <div class="mc-cockpit-center">
+        <div class="mc-cockpit-branch mc-cockpit-branch-left">
+          <button type="button" data-home-target="title-screen-start">Collection</button>
+          <button type="button" data-home-target="title-screen-studio">Studio</button>
+        </div>
+        <button type="button" id="home-tools-menu" class="mc-cockpit-hub" aria-haspopup="dialog" aria-expanded="false">
+          <span class="mc-cockpit-hub-logo"><img src="assets/kovelyx-logo.svg" width="24" height="24" alt=""></span>
+          <span>Mes outils</span><span aria-hidden="true">⌄</span>
+        </button>
+        <div class="mc-cockpit-branch mc-cockpit-branch-right">
+          <button type="button" id="suite-stats">Statistiques</button>
+          <button type="button" data-home-target="home-update-profile">Mise à jour</button>
+        </div>
+      </div>
+      <div class="mc-cockpit-right">    <button type="button" id="title-theme-toggle" class="theme-toggle-btn title-theme-toggle" aria-label="Changer le thème d'affichage" title="Changer de thème : sombre, clair, contraste élevé">
       <svg class="theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
       <svg class="theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 14.5A8.5 8.5 0 1 1 9.5 3 7 7 0 0 0 21 14.5z"/></svg>
       <svg class="theme-icon-contrast" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 0 1 0 20z" fill="currentColor"/></svg>
-    </button>
+    </button></div>
     </nav>
     <div class="title-screen-panel mc-home">
       <section class="title-hero-stage mc-home-intro" aria-labelledby="mc-home-title">
@@ -119,6 +127,16 @@
           </div>
         </section>
         <section class="portfolio-section mc-home-tool-group">
+          <div class="portfolio-sec-header"><h2 class="portfolio-sec-title">Extensions et hébergement</h2><span class="portfolio-sec-sub">Configurez vos extensions et exportez vos catalogues</span></div>
+          <div class="portfolio-grid grid-2">
+            <button type="button" id="title-screen-bingecat" class="portfolio-card card-custom mc-home-tool"><span class="port-card-icon" aria-hidden="true">◉</span><strong class="port-card-title">Bingecat</strong><span class="port-card-desc">Préparer une configuration pour cette extension facultative.</span><span class="port-link" aria-hidden="true">Ouvrir →</span></button>
+            <button type="button" id="title-screen-selfhost" class="portfolio-card card-custom mc-home-tool"><span class="port-card-icon" aria-hidden="true">⇩</span><strong class="port-card-title">AIO Metadata</strong><span class="port-card-desc">Exporter une configuration pour son instance.</span><span class="port-link" aria-hidden="true">Ouvrir →</span></button>
+          </div>
+        </section>
+        <details class="mc-home-more-tools" id="mc-home-more-tools">
+          <summary><span>Outils supplémentaires</span><small>Affiches, création, profils et sauvegardes</small><span class="mc-more-chevron" aria-hidden="true">⌄</span></summary>
+          <div class="mc-home-more-content">
+            <section class="portfolio-section mc-home-tool-group">
           <div class="portfolio-sec-header"><h2 class="portfolio-sec-title">Création et visuels</h2><span class="portfolio-sec-sub">Crée et personnalise ta collection dans le Studio</span></div>
           <div class="portfolio-grid grid-4">
             <button type="button" id="title-screen-create-folder" class="portfolio-card card-custom mc-home-tool"><span class="port-card-icon" aria-hidden="true">✚</span><strong class="port-card-title">Créer un dossier</strong><span class="port-card-desc">Créer un dossier personnel à partir d’une liste, d’un studio ou d’un artiste pris en charge.</span><span class="port-link" aria-hidden="true">Créer →</span></button>
@@ -127,14 +145,7 @@
             <button type="button" id="title-screen-studio-settings" class="portfolio-card card-custom mc-home-tool"><span class="port-card-icon" aria-hidden="true">⚙</span><strong class="port-card-title">Préférences et langue</strong><span class="port-card-desc">Thèmes, aperçu par appareil et configuration régionale.</span><span class="port-link" aria-hidden="true">Configurer →</span></button>
           </div>
         </section>
-        <section class="portfolio-section mc-home-tool-group">
-          <div class="portfolio-sec-header"><h2 class="portfolio-sec-title">Extensions et hébergement</h2><span class="portfolio-sec-sub">Configurez vos extensions et exportez vos catalogues</span></div>
-          <div class="portfolio-grid grid-2">
-            <button type="button" id="title-screen-bingecat" class="portfolio-card card-custom mc-home-tool"><span class="port-card-icon" aria-hidden="true">◉</span><strong class="port-card-title">Bingecat</strong><span class="port-card-desc">Préparer une configuration pour cette extension facultative.</span><span class="port-link" aria-hidden="true">Ouvrir →</span></button>
-            <button type="button" id="title-screen-selfhost" class="portfolio-card card-custom mc-home-tool"><span class="port-card-icon" aria-hidden="true">⇩</span><strong class="port-card-title">AIO Metadata</strong><span class="port-card-desc">Exporter une configuration pour son instance.</span><span class="port-link" aria-hidden="true">Ouvrir →</span></button>
-          </div>
-        </section>
-        <section class="portfolio-section mc-home-tool-group">
+            <section class="portfolio-section mc-home-tool-group">
           <div class="portfolio-sec-header"><h2 class="portfolio-sec-title">Profils et export</h2><span class="portfolio-sec-sub">Retrouvez et transférez vos collections</span></div>
           <div class="portfolio-grid grid-4">
             <button type="button" id="home-profile-history" class="portfolio-card card-help mc-home-tool"><span class="port-card-icon" aria-hidden="true">◷</span><strong class="port-card-title">Bibliothèque et historique</strong><span class="port-card-desc">Consulter les titres enregistrés, vus et en cours sur Kovelyx.</span><span class="port-link" aria-hidden="true">Ouvrir →</span></button>
@@ -143,6 +154,8 @@
             <button type="button" id="title-screen-studio-share" class="portfolio-card card-help mc-home-tool"><span class="port-card-icon" aria-hidden="true">⇧</span><strong class="port-card-title">Partager et sauvegarder</strong><span class="port-card-desc">Télécharger le profil, sauvegarder le Studio et transférer vers Kovelyx.</span><span class="port-link" aria-hidden="true">Ouvrir →</span></button>
           </div>
         </section>
+          </div>
+        </details>
       </section>
     </div>
   </div>
@@ -817,7 +830,7 @@
   <script src="import-studio.js?v=15"></script>
   <script src="destination-picker.js?v=13"></script>
   <script src="custom-folders.js?v=3"></script>
-  <script type="module" src="studio-avance.js?v=16"></script>
+  <script type="module" src="studio-avance.js?v=17"></script>
   <script type="module" src="profile-editor.js?v=5"></script>
   <script type="module" src="profile-history-ui.js?v=1"></script>
   <script src="site-tools.js?v=7"></script>

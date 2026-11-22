@@ -56,6 +56,7 @@ try {
   await page.locator('#home-edit-profile').click();
   await root.getByRole('button',{name:'Test QA',exact:true}).waitFor();
   await root.locator('[data-profile-action="close"]').click();
+  await page.locator('#mc-home-more-tools summary').click();
   await page.locator('#home-profile-history').click();
   const history = page.locator('#mc-profile-history');
   await history.locator('[data-history="profile"]').selectOption({label:'Test QA'});

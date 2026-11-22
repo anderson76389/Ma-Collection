@@ -1,4 +1,4 @@
-import {studioIcon} from './studio-icons.mjs';
+import {studioIcon} from './studio-icons.mjs?v=2';
 /**
  * Navigation du Studio Ma-Collection, conçue indépendamment du site de référence.
  * Les identifiants métier (onglets) sont les mêmes que les outils existants.
@@ -18,6 +18,7 @@ export const STUDIO_WORKSPACE_GROUPS = Object.freeze([
     items: [
       ['affiches', 'Affiches et sources', '▧'],
       ['bibliotheque', 'Bibliothèque visuelle', '◫'],
+      ['mes-creations', 'Mes créations', '▥'],
       ['affiches-fr', 'Affiches françaises', '◈'],
       ['outils', 'Modifications en lot', '☷'],
       ['modifications', 'Avant / Après', '⇄'],
