@@ -1285,7 +1285,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       '<header class="mc-studio-header" aria-label="Navigation principale du Studio">'+
       '<div class="mc-studio-header-left"><button type="button" class="mc-studio-menu-button" data-action="studio-menu" aria-label="Ouvrir le menu du Studio" aria-expanded="false" aria-controls="mc-studio-navigation"><span aria-hidden="true">☰</span></button>'+
       '<div class="mc-studio-header-title"><span class="mc-studio-brand-mark" aria-hidden="true">M</span>'+
-      '<div><span class="mc-studio-brand-name">Ma-Collection</span><small>Ton espace de personnalisation</small></div></div></div>'+
+      '<div><span class="mc-studio-brand-name" id="mc-studio-heading">Ma-Collection</span><small class="mc-studio-title">Mon profil</small></div></div></div>'+
       '<nav class="mc-studio-top-links" aria-label="Principaux outils">'+
       '<button type="button" data-action="studio-go-collection">Collection</button>'+
       '<button type="button" data-action="studio-home" aria-current="page">Studio</button>'+
@@ -1307,7 +1307,18 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       '</div></div></div>';
     document.body.appendChild(root);
     root.querySelector('.mc-studio-nav-scrim')?.addEventListener('click',()=>setNavigation(false));
-    root.addEventListener('click',e=>{const tile=e.target.closest('[data-hub-tab]');if(tile){const next=root.querySelector('[data-tab="'+tile.dataset.hubTab+'"]');next.click();next.focus();}else if(e.target===root)close();else click(e);});
+    root.addEventListener('click',e=>{
+      const tile=e.target.closest('[data-hub-tab]');
+      if(tile){
+        const next=root.querySelector('[data-tab="'+tile.dataset.hubTab+'"]');
+        if(!next)return;
+        tab=next.dataset.tab;
+        if(tab==='affiches'&&!selectedFolder)selectedFolder=section()?.folders[0]?.id;
+        message='';setNavigation(false);draw();
+        root.querySelector('[data-studio-context-title]')?.focus({preventScroll:true});
+      }else if(e.target===root)close();
+      else click(e);
+    });
     root.addEventListener('dragstart',e=>{
       const el=e.target.closest('[data-drag-kind]');
       if(!el)return;
