@@ -14,7 +14,8 @@
 .mc-home-overlay .suite-wall{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
 .mc-home-overlay .suite-wall::before{
   inset:-25%;
-  background-image:url('assets/mur-affiches.webp');
+  /* Ne plus télécharger l'ancien mur répétitif : les cartes locales le remplacent. */
+  background-image:none;
   background-position:center;
   background-size:min(910px,88vw) auto;
   background-repeat:repeat;
@@ -353,4 +354,155 @@ html[data-theme="light"] .mc-home-overlay .mc-home .home-return button{color:#3d
 @media(prefers-reduced-motion:reduce){
   .mc-home-overlay .suite-wall::before{animation:none;transform:rotate(-8deg) scale(1.08)}
   .mc-home-overlay .mc-home .home-express,.mc-home-overlay .mc-home .home-search{transition:none}
+}
+
+
+/* ===========================================================
+ * Fidélité visuelle V2 — reprise des proportions depuis la
+ * capture 2048 × 1031 fournie par l'utilisateur.
+ * Les cartes d'affiches ci-dessous sont uniquement locales.
+ * =========================================================== */
+.mc-home-overlay .suite-wall.mc-wall-with-cards::before {
+  opacity:0; animation:none; background-image:none;
+}
+.mc-home-overlay .suite-wall .mc-wall-plane {
+  position:absolute;
+  inset:-350px -175px;
+  display:grid;
+  grid-template-columns:repeat(11,minmax(0,1fr));
+  align-items:start;
+  gap:clamp(12px,1vw,20px);
+  transform:perspective(1600px) rotateX(8deg) rotateZ(-10deg) scale(1.055);
+  transform-origin:center center;
+  pointer-events:none;
+}
+.mc-home-overlay .suite-wall .mc-wall-column {
+  display:flex;
+  flex-direction:column;
+  gap:clamp(12px,1vw,20px);
+  min-width:0;
+  transform:translateY(var(--col-offset,0px));
+  animation:mc-wall-drift-column 90s ease-in-out infinite alternate;
+}
+.mc-home-overlay .suite-wall .mc-wall-column:nth-child(even){
+  animation-duration:105s;
+  animation-direction:alternate-reverse;
+}
+@keyframes mc-wall-drift-column {
+  from {transform:translate3d(0,var(--col-offset,0px),0)}
+  to {transform:translate3d(0,calc(var(--col-offset,0px) - 44px),0)}
+}
+.mc-home-overlay .suite-wall .mc-wall-card {
+  position:relative;
+  width:100%;
+  aspect-ratio:2/3;
+  border-radius:12px;
+  overflow:hidden;
+  background:#0c111a;
+  box-shadow:0 5px 22px rgba(0,0,0,.45);
+  border:1px solid rgba(255,255,255,.045);
+}
+.mc-home-overlay .suite-wall .mc-wall-card img {
+  display:block;
+  position:absolute;
+  left:0;top:0;
+  width:100%;height:135%;
+  object-fit:cover;
+  object-position:center top;
+  opacity:.82;
+  filter:saturate(.85) brightness(.88);
+}
+.mc-home-overlay .suite-wall::after{
+  background:
+    radial-gradient(ellipse 55% 66% at 50% 46%, rgba(3,6,10,.985) 1%, rgba(3,7,11,.91) 43%, rgba(3,7,11,.43) 84%, rgba(3,7,11,.2) 100%),
+    radial-gradient(ellipse 47% 43% at 66% 53%,rgba(0,121,92,.12),transparent 83%),
+    linear-gradient(90deg,transparent 61%,rgba(2,5,8,.27) 100%),
+    linear-gradient(180deg,rgba(4,6,12,.30),transparent 18%,transparent 70%,rgba(3,5,9,.85));
+}
+.mc-home-overlay:not(.active) .mc-wall-column{animation-play-state:paused}
+html[data-theme="light"] .mc-home-overlay .suite-wall .mc-wall-plane,
+html[data-theme="high-contrast"] .mc-home-overlay .suite-wall .mc-wall-plane{display:none}
+
+/* Les petits écrans conservent leur mise en page actuelle. */
+@media(min-width:721px){
+  .mc-home-overlay .title-screen-panel.mc-home .mc-home-intro {
+    padding-top:clamp(155px,20vh,220px);
+  }
+  .mc-home-overlay .mc-home .title-screen-logo {margin-bottom:18px}
+  .mc-home-overlay .mc-home .title-screen-tagline {margin-bottom:42px}
+  .mc-home-overlay .mc-home .home-search {margin-bottom:39px}
+  .mc-home-overlay .home-collection-count {margin-bottom:28px}
+  .mc-home-overlay .mc-home .home-express {
+    width:272px;min-width:272px;min-height:44px;height:44px;
+    font-weight:800;font-size:.88rem;
+  }
+  .mc-home-overlay .mc-home .home-express-hint{
+    margin:15px 0 39px;
+  }
+  .mc-home-overlay .mc-home .home-return{
+    min-height:48px;padding:4px 6px;
+  }
+  .mc-home-overlay .mc-home .home-return button {
+    min-height:39px;height:39px;
+  }
+  .mc-home-overlay .mc-home-intro .title-hero-logo-emblem{bottom:78px}
+}
+@media(max-width:720px){
+  .mc-home-overlay .suite-wall .mc-wall-plane{
+    inset:-180px auto auto 50%;
+    width:max(1120px,265vw);
+    height:calc(100% + 410px);
+    transform:translateX(-50%) rotateZ(-9deg) scale(1.02);
+  }
+  .mc-home-overlay .suite-wall .mc-wall-card{border-radius:10px}
+  .mc-home-overlay .suite-wall .mc-wall-card img{opacity:.74}
+  .mc-home-overlay .suite-wall::after{
+    background:radial-gradient(ellipse 85% 60% at 50% 44%,rgba(3,8,12,.965) 0%,rgba(3,8,12,.85) 54%,rgba(3,8,12,.48) 100%),
+      linear-gradient(180deg,rgba(3,6,11,.65),transparent 25%,rgba(3,6,11,.76));
+  }
+}
+@media(prefers-reduced-motion:reduce){
+  .mc-home-overlay .suite-wall .mc-wall-column{animation:none}
+}
+
+/* Micro-détails des commandes : pictogrammes SVG nets et alignés. */
+.mc-home-overlay .home-search-icon,
+.mc-home-overlay .home-express-icon,
+.mc-home-overlay .mc-return-icon{
+  display:inline-flex;align-items:center;justify-content:center;flex:none;
+}
+.mc-home-overlay .home-search-icon svg,
+.mc-home-overlay .home-express-icon svg,
+.mc-home-overlay .mc-return-icon svg{display:block;stroke:currentColor}
+.mc-home-overlay .mc-home .home-return button{
+  display:inline-flex;align-items:center;justify-content:center;gap:7px;
+  font-family:'Inter',sans-serif;letter-spacing:-.01em;
+}
+.mc-home-overlay .mc-home .home-return button .mc-return-icon{opacity:.86}
+.mc-home-overlay .mc-home .home-return button:hover .mc-return-icon{opacity:1;color:var(--home-mint)}
+.mc-home-overlay .mc-header-shortcut svg{display:block}
+
+/* Ajustements métriques supplémentaires : recherche 560×50,
+   barre secondaire 480px sur la capture desktop d'origine. */
+@media(min-width:721px){
+  .mc-home-overlay .mc-home .home-search{
+    width:min(100%,560px);
+    min-height:50px;height:50px;
+    margin-bottom:32px;
+  }
+  .mc-home-overlay .mc-home .home-return {
+    width:480px;max-width:100%;
+    justify-content:center;
+  }
+  .mc-home-overlay .mc-home .home-return>span{
+    flex:0 0 112px;
+    padding:0 10px;
+  }
+  .mc-home-overlay .mc-home .home-return button{
+    flex:1 1 0;
+    min-width:0;
+    max-width:none;
+    padding-inline:7px;
+    white-space:nowrap;
+  }
 }
