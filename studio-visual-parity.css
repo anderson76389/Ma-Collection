@@ -610,3 +610,12 @@
   }
   #mc-studio-root .mc-studio-curations-grid{grid-template-columns:1fr;gap:10px}
 }
+
+/* Après déplacement de Fermer dans la sous-barre, un ancien responsive
+ * masquait accidentellement le dernier bouton : conserver la fermeture
+ * visible même sur téléphone étroit (320 px). */
+#mc-studio-root .mc-studio-context .mc-studio-context-actions button.mc-studio-close{
+  display:grid!important;place-items:center;position:static;
+  visibility:visible;opacity:1;pointer-events:auto;
+  width:34px;min-width:34px;height:34px;flex:0 0 34px;
+}
