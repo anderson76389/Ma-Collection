@@ -43,6 +43,7 @@ await test('nouvelle carte dans le design original',async()=>{
   assert.equal(newStyle,oldStyle,'La nouvelle carte doit suivre le thème actuel');
 });
 await test('Accueil FR : raccourcis vers les outils du Studio complet',async()=>{
+  await page.locator('#mc-home-more-tools summary').click();
   for(const [id,tab] of [
     ['title-screen-art-library','bibliotheque'],
     ['title-screen-manage-addons','extensions'],
@@ -60,7 +61,7 @@ await test('Studio plein écran : menu latéral français, préférences réelle
   await page.locator('#title-screen-studio').click();
   const studio=page.locator('#mc-studio-root');
   assert(await studio.isVisible());
-  assert.equal(await studio.locator('[data-tab]').count(),14);
+  assert.equal(await studio.locator('[data-tab]').count(),15);
   const geometry=await studio.locator('.mc-studio-panel').evaluate(el=>{
     const r=el.getBoundingClientRect();
     return {width:r.width,height:r.height,screenWidth:innerWidth,screenHeight:innerHeight};
