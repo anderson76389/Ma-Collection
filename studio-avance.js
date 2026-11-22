@@ -867,24 +867,33 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       '</div>';
   }
   function renderHub(){
+    // Le rangement privilégie les mêmes parcours de travail que le site de
+    // référence, sans afficher de boutons fictifs pour les réglages lecteur
+    // qui n'ont pas encore de synchronisation Kovelyx.
     const tiles=[
-      ['organisation','▤','Écran d’accueil','Choisir les rangées, leur ordre et leurs dossiers.'],
-      ['outils','☑','Édition rapide','Modifier plusieurs dossiers en une seule opération.'],
-      ['affiches','▧','Affiches','Comparer les visuels et personnaliser chaque dossier.'],
-      ['recherche','⌕','Parcourir la collection','Retrouver un dossier dans toutes les catégories.'],
-      ['bibliotheque','▥','Bibliothèque visuelle','Choisir une image pour un dossier du profil.'],
-      ['affiches-fr','◈','Packs d’affiches français','Importer un pack et comparer ses variantes.'],
-      ['apercu','▣','Aperçu','Voir la disposition sur téléphone et téléviseur.'],
-      ['import-collection','⇩','Importer une collection','Ouvrir une collection Nuvio ou Kovelyx.'],
-      ['extensions','⊞','Extensions','Identifier les addons utilisés et préparer leur import JSON Kovelyx.'],
-      ['modifications','⇄','Modifications','Comparer le brouillon et la collection actuelle.'],
-      ['profils','↶','Profils et sauvegardes','Enregistrer, exporter ou restaurer une configuration.'],
-      ['parametres','⚙','Préférences et langue','Régler le thème, les appareils et les choix de catalogue.'],
-      ['partage','⇧','Partager et transférer','Exporter le profil, le sauvegarder et l’envoyer vers Kovelyx.']
+      ['organisation','','Écran d’accueil','Réorganiser les rangées, les dossiers et leur ordre.'],
+      ['outils','','Éditeur rapide','Activer et modifier plusieurs dossiers en une seule opération.'],
+      ['affiches','','Affiches','Comparer et remplacer les images de chaque dossier.'],
+      ['recherche','','Ajouter des rangées et dossiers','Parcourir toutes les catégories et retrouver les contenus à intégrer.'],
+      ['createFolder','','Créer un dossier','Créer un catalogue TMDB personnalisé, avec son affiche.','create-folder'],
+      ['myCurations','','Mes créations','Retrouver et gérer les dossiers que tu as créés.','create-folder'],
+      ['extensions','','Extensions','Inspecter les sources actives et préparer l’import dans Kovelyx.'],
+      ['bibliotheque','','Galerie des visuels','Choisir une illustration indépendante parmi les modèles disponibles.'],
+      ['affiches-fr','','Affiches françaises','Importer les variantes françaises et gérer les styles.'],
+      ['profils','','Sauvegardes et mises à jour','Enregistrer, restaurer et mettre à jour un profil sans perte.'],
+      ['historyExport','','Bibliothèque et historique','Consulter les titres enregistrés, vus et en cours sur Kovelyx.','profile-history'],
+      ['apercu','','Aperçu des appareils','Comparer la disposition sur téléphone et téléviseur.'],
+      ['tuneFilters','','Filtres de contenu','Choisir les genres, plateformes, pays et exclusions de la collection.','studio-open-customize'],
+      ['parametres','','Langue et préférences','Modifier le thème, les langues et l’appareil de prévisualisation.'],
+      ['modifications','','Avant / Après','Vérifier ce qui change avant de publier la collection.'],
+      ['import-collection','','Importer une collection','Lire et diagnostiquer une sauvegarde JSON de Kovelyx.'],
+      ['setup','','Configuration rapide','Lancer l’assistant guidé pour personnaliser les catégories.','studio-open-customize'],
+      ['copy','','Copier un profil','Ouvrir le compte et copier un profil Kovelyx avec sauvegarde.','cloud-picker'],
+      ['partage','','Partager et transférer','Télécharger le JSON et retrouver les options de partage.']
     ];
     const rows=draft.sections.filter(s=>s.enabled);
     const count=rows.reduce((n,s)=>n+s.folders.filter(f=>f.enabled&&f.selectedKeys.length).length,0);
-    return '<div class="suite-hub"><header class="suite-profile"><b aria-hidden="true">'+esc(draft.name.slice(0,1))+'</b><div><h3>'+esc(draft.name)+'</h3><small>'+rows.length+' rangées · '+count+' dossiers actifs</small></div><button type="button" data-hub-tab="profils">Changer de profil</button></header><div class="suite-tiles">'+tiles.map(([key,icon,title,desc])=>'<button type="button" data-hub-tab="'+key+'"><i aria-hidden="true">'+studioIcon(key)+'</i><strong>'+title+'</strong><small>'+desc+'</small></button>').join('')+'</div></div>';
+    return '<div class="suite-hub"><header class="suite-profile"><b aria-hidden="true">'+esc(draft.name.slice(0,1))+'</b><div><h3>'+esc(draft.name)+'</h3><small>'+rows.length+' rangées · '+count+' dossiers actifs</small></div><button type="button" data-hub-tab="profils">Changer de profil</button></header><div class="suite-tiles">'+tiles.map(([key,icon,title,desc,action])=>'<button type="button" '+(action?'data-action="'+action+'"':'data-hub-tab="'+key+'"')+'><i aria-hidden="true">'+studioIcon(key)+'</i><strong>'+title+'</strong><small>'+desc+'</small></button>').join('')+'</div></div>';
   }
   function renderProfiles(){
     const p=profiles.map(x=>{
@@ -1221,6 +1230,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     else if(a==='delete')remove();
     else if(a==='reset')reset();
     else if(a==='cloud-picker'){window.MaCollectionProfileEditor?.open({account:true});}
+    else if(a==='profile-history'){close();window.MaCollectionProfileHistory?.open();}
     else if(a==='studio-menu'){setNavigation(!navigationOpen);if(navigationOpen)root.querySelector('.mc-studio-tabs [data-tab].active')?.focus();}
     else if(a==='studio-go-collection'){close();window.hideTitleScreen?.();}
     else if(a==='studio-home'){setNavigation(false);tab='accueil';message='';draw();}
