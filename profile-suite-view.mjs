@@ -1,6 +1,17 @@
 import {SUITE_PAGES,SUITE_PRESETS,profileSuiteStats,suiteProfileChanges,suiteSettingChanges} from './profile-suite-model.mjs';
 const h=value=>String(value??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 const attr=h;
+const settingLabels={
+  theme:'Thème',autoplay:'Lecture automatique',autoNextAt:'Épisode suivant',
+  skipIntro:'Ignorer les introductions',skipRecap:'Ignorer les résumés',
+  skipCredits:'Ignorer les génériques',preferHdr:'Priorité HDR',
+  qualityBadges:'Badges de qualité',playerStyle:'Style du lecteur',
+  subtitleLanguage:'Langue des sous-titres',subtitleFallback:'Langue de secours',
+  subtitlePreset:'Style des sous-titres',hideAnime:'Exclure les animés',
+  hideHorror:'Exclure l’horreur',streamSelection:'Sélection des flux',
+  backdropStyle:'Décors',loadingScreen:'Écran de chargement'
+};
+const displayValue=value=>typeof value==='boolean'?(value?'Activé':'Désactivé'):String(value);
 const path={
   house:'M3 10.5 12 3l9 7.5V21H3V10.5z M9 21v-7h6v7',palette:'M12 3a9 9 0 1 0 0 18c1.7 0 2.5-1.9 1.5-3.2-1-1.2-.3-2.8 1.4-2.8H18a3 3 0 0 0 3-3 9 9 0 0 0-9-9z M8 8h.01 M12 6h.01 M16 8h.01 M7 13h.01',
   'list-check':'M9 6h12 M9 12h12 M9 18h12 M3 6l1.5 1.5L7 4 M3 12l1.5 1.5L7 10 M3 18l1.5 1.5L7 16',
@@ -38,6 +49,9 @@ const appStatus=(ctx,mode='settings')=>{
   return '<aside class="mcps-card mcps-apply"><h3>Ce qui va changer</h3>'+
     '<p>'+(!changes.count?'Aucune modification pour le moment.':changes.settings.length+' préférences et '+changes.layoutChanges+' modifications de mise en page en attente.')+'</p>'+
     '<div class="mcps-apply-stat">'+changes.count+' modification'+(changes.count>1?'s':'')+'</div>'+
+    (changes.settings.length?'<ul class="mcps-changes-list">'+changes.settings.slice(0,4).map(x=>
+      '<li><b>'+h(settingLabels[x.key]||x.key)+'</b> : '+h(displayValue(x.from))+' → '+h(displayValue(x.to))+'</li>').join('')+
+      (changes.settings.length>4?'<li>… et '+(changes.settings.length-4)+' autre(s)</li>':'')+'</ul>':'')+
     action('save','Enregistrer les modifications','mcps-primary',changes.count?'':'disabled')+
     (mode==='layout'?action('review-layout','Vérifier et appliquer au site','mcps-small'):'')+
     '<small class="mcps-safety">Sauvegarde locale. Rien n’est envoyé à Kovelyx sans action explicite.</small></aside>';
@@ -149,7 +163,7 @@ export function renderSuitePresets(ctx){
     '<small>Voir tous les paramètres</small></button>').join('')+'</div>'+
     '<div class="mcps-card mcps-preset-summary"><h3>Réglages du profil sélectionné</h3>'+
     (ctx.preset?Object.entries(SUITE_PRESETS.find(x=>x.id===ctx.preset)?.changes||{}).map(([k,v])=>
-      '<p><b>'+h(k)+'</b> · '+h(String(v))+'</p>').join(''):'<p>Sélectionne un profil pour afficher ses modifications.</p>')+
+      '<p><b>'+h(settingLabels[k]||k)+'</b> · '+h(displayValue(v))+'</p>').join(''):'<p>Sélectionne un profil pour afficher ses modifications.</p>')+
     action('apply-preset','Utiliser cette configuration','mcps-primary',ctx.preset?'':'disabled')+'</div>';
 }
 export function renderSuiteAllSettings(ctx){
@@ -347,9 +361,9 @@ export function renderSuiteHistory(){
 export function renderSuiteCopy(ctx){
   return title('Copier un profil','Choisis une destination et vérifie les changements avant d’enregistrer.')+
     '<div class="mcps-copy-targets">'+
-      '<button type="button" class="mcps-choice chosen" data-suite-copy-target="new"><strong>Nouveau profil</strong><small>Créer une copie locale indépendante.</small></button>'+
+      '<button type="button" class="mcps-choice '+(ctx.copyTarget==='new'?'chosen':'')+'" data-suite-copy-target="new"><strong>Nouveau profil</strong><small>Créer une copie locale indépendante.</small></button>'+
       ctx.profiles.filter(p=>p.id!==ctx.draft.id).map(p=>
-        '<button type="button" class="mcps-choice" data-suite-copy-target="'+attr(p.id)+'"><strong>'+h(p.name)+'</strong><small>Remplacer après confirmation.</small></button>').join('')+'</div>'+
+        '<button type="button" class="mcps-choice '+(ctx.copyTarget===p.id?'chosen':'')+'" data-suite-copy-target="'+attr(p.id)+'"><strong>'+h(p.name)+'</strong><small>Remplacer après confirmation.</small></button>').join('')+'</div>'+
       '<label class="mcps-field mcps-copy-name"><span>Nom du profil copié</span><input type="text" data-suite-copy-name value="'+attr(ctx.copyName)+'" maxlength="60"></label>'+
     '<div class="mcps-copy-footer">'+action('copy-profile','Créer cette copie','mcps-primary')+'</div>';
 }
