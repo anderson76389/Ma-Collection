@@ -105,6 +105,19 @@
  function refresh(){if(pending)return;pending=true;requestAnimationFrame(()=>{pending=false;install();});}
  function route(){
    const key=location.hash.replace(/^#\/?/,'');
+   if(key.startsWith('suite=')){
+     // Un lien de partage ne contient que des préférences non sensibles.
+     // Le Studio valide le schéma et demande une sauvegarde explicite.
+     let attempts=0;
+     const openShared=()=>{
+       if(!location.hash.replace(/^#\/?/,'').startsWith('suite='))return;
+       if(window.MaCollectionProfileSuite?.open){
+         window.MaCollectionProfileSuite.open('all-settings');return;
+       }
+       if(attempts++<80)setTimeout(openShared,100);
+     };
+     openShared();return;
+   }
    if(key==='studio'){
      // L'entrée directe /studio.html fonctionne même si les catalogues
      // se chargent après l'initialisation de la navigation.
