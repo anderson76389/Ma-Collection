@@ -152,6 +152,17 @@ try{
    assert(box.width<=box.viewport+2,'Débordement : '+JSON.stringify(box));
    assert(box.cards.every(x=>x<box.viewport), 'Tous les profils restent cliquables sur mobile');
  });
+ await run('déconnexion : les profils locaux restent accessibles après confirmation',async()=>{
+   await page.setViewportSize({width:900,height:850});
+   await page.evaluate(()=>window.MaCollectionProfileSuite.open('profiles'));
+   await root.locator('[data-suite-cloud-select]').first().waitFor();
+   page.once('dialog',async dialog=>{await dialog.accept();});
+   await root.locator('[data-suite-action="sign-out"]').click();
+   await page.waitForFunction(()=>window.__qaCloudSigned===false);
+   await root.locator('[aria-label="Profils locaux"]').waitFor();
+   assert.equal(await root.locator('[data-suite-action="sign-out"]').count(),0);
+   assert((await root.locator('[data-suite-select]').count())>=1);
+ });
  await run('responsive : pages à 390, 768 et 1440 px sans débordement',async()=>{
    for(const width of [390,768,1440]){
      await page.setViewportSize({width,height:850});
