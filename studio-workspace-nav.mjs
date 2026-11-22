@@ -1,3 +1,4 @@
+import {studioIcon} from './studio-icons.mjs';
 /**
  * Navigation du Studio Ma-Collection, conçue indépendamment du site de référence.
  * Les identifiants métier (onglets) sont les mêmes que les outils existants.
@@ -47,7 +48,7 @@ export function studioNavigationHtml(){
       group.items.map(([id,label,icon])=>
         '<button type="button" role="tab" data-tab="'+id+'" aria-selected="false" '+
         'aria-controls="mc-studio-content" title="'+label+'">'+
-        '<span class="mc-studio-nav-icon" aria-hidden="true">'+icon+'</span><span>'+label+'</span></button>'
+        '<span class="mc-studio-nav-icon" aria-hidden="true">'+studioIcon(id)+'</span><span>'+label+'</span></button>'
       ).join('')+'</div>'
     ).join('')+'</nav>';
 }
