@@ -87,6 +87,37 @@ await test('Studio plein écran : menu latéral français, préférences réelle
   assert((await file).suggestedFilename().endsWith('.json'));
   await studio.locator('[data-action=close]').click();
 });
+await test('Studio clavier : flèches, début/fin, sélection et confinement du focus',async()=>{
+  await page.evaluate(()=>window.MaCollectionStudio.open('organisation'));
+  const studio=page.locator('#mc-studio-root'),menu=studio.locator('[data-action=studio-menu]');
+  await menu.click();
+  await studio.locator('[data-tab=organisation]').focus();
+  await page.keyboard.press('ArrowDown');
+  assert(await studio.locator('[data-tab=apercu]').evaluate(el=>document.activeElement===el),
+    'Flèche bas : onglet suivant au focus');
+  assert.equal(await studio.locator('[data-tab=organisation]').getAttribute('aria-selected'),'true',
+    'Les flèches ne doivent pas appliquer une nouvelle rubrique');
+  await page.keyboard.press('End');
+  assert(await studio.locator('[data-tab=parametres]').evaluate(el=>document.activeElement===el));
+  await page.keyboard.press('Home');
+  assert(await studio.locator('[data-tab=accueil]').evaluate(el=>document.activeElement===el));
+  await page.keyboard.press('Enter');
+  assert.equal(await studio.locator('[data-tab=accueil]').getAttribute('aria-selected'),'true');
+  assert.equal(await menu.getAttribute('aria-expanded'),'false');
+  await menu.focus();
+  await page.keyboard.press('Shift+Tab');
+  assert(await studio.locator('[data-action=apply]').evaluate(el=>document.activeElement===el),
+    'Maj+Tab doit revenir au dernier bouton visible du Studio, pas à la page derrière');
+  await page.keyboard.press('Tab');
+  assert(await menu.evaluate(el=>document.activeElement===el),
+    'Tab doit revenir au premier bouton du Studio');
+  await menu.click();
+  await page.keyboard.press('Escape');
+  assert.equal(await menu.getAttribute('aria-expanded'),'false');
+  assert(await studio.isVisible(),'Échap ferme d’abord le menu, pas le Studio');
+  await page.keyboard.press('Escape');
+  assert(await studio.isHidden(),'Échap ferme ensuite le Studio');
+});
 await test('géométrie fidèle : double barre, cartes et menu non permanent',async()=>{
   await page.evaluate(()=>window.MaCollectionStudio.open('accueil'));
   const studio=page.locator('#mc-studio-root');
