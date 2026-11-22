@@ -132,7 +132,7 @@ try {
     await page.locator("#faq-overlay.open").waitFor();
     await page.locator("#faq-close").click();
     await page.locator("#faq-overlay").waitFor({state:"detached"});
-    await page.locator("#title-screen-studio").click();
+    await page.evaluate(()=>window.MaCollectionStudio.open('accueil'));
     await page.locator("[data-hub-tab=profils]").first().click();
     assert.equal(await page.locator("[data-tab=profils]").getAttribute("aria-selected"),"true");
     await page.keyboard.press("Escape");
