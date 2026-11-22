@@ -979,14 +979,19 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     const status=root.querySelector('.mc-studio-status');if(status)status.textContent=message;
   }
   function redrawSearchField(el,selector,assign){
-    const start=el.selectionStart,end=el.selectionEnd,scroll=html()?.scrollTop||0;
+    // Keep the *same* focused input while rendering results. Recreating it on
+    // each keystroke drops browser composition/caret and causes visible jitter.
+    const start=el.selectionStart,end=el.selectionEnd;
+    const hadFocus=document.activeElement===el;
+    const scroll=html()?.scrollTop||0;
     assign(el.value);
     draw();
-    const next=root.querySelector(selector);
-    if(next){
-      next.focus({preventScroll:true});
-      if(start!==null&&end!==null&&typeof next.setSelectionRange==='function')
-        next.setSelectionRange(start,end);
+    const placeholder=root.querySelector(selector);
+    if(placeholder){
+      placeholder.replaceWith(el);
+      if(hadFocus)el.focus({preventScroll:true});
+      if(start!==null&&end!==null&&typeof el.setSelectionRange==='function')
+        el.setSelectionRange(start,end);
     }
     if(html())html().scrollTop=scroll;
   }
