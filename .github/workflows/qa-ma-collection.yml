@@ -52,6 +52,7 @@ jobs:
           node --test tests/studio-workspace-nav.test.mjs
           node --test tests/studio-cinema-canvas.test.mjs
           node --test tests/profile-suite-model.test.mjs
+          node --test tests/profile-picker.test.mjs
           node --test tests/profile-canvas-core.test.mjs
           node --test tests/studio-avance.test.mjs tests/studio-collection-import.test.mjs tests/profile-editor.test.mjs tests/profile-history.test.mjs tests/customize-fr.test.mjs
           node --test tests/kaptain-url-security.test.mjs
@@ -83,6 +84,7 @@ jobs:
           node --check profile-editor-core.mjs
           node --check site-tools.js
           node --check profile-suite-model.mjs
+          node --check profile-picker-core.mjs
           node --check profile-suite-view.mjs
           node --check profile-suite.js
       - name: Valider le site et l'import Kovelyx sans compte externe
@@ -103,6 +105,8 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ma-collection-studio-reference
-          path: /tmp/ma-collection-studio-dashboard.png
+          path: |
+            /tmp/ma-collection-studio-dashboard.png
+            /tmp/ma-collection-profile-picker.png
           if-no-files-found: ignore
           retention-days: 14
