@@ -4450,6 +4450,9 @@ function seSetCategory(ci, on) {
 }
 
 function openSimpleEditor() {
+  // Une fiche d'aperçu peut rester ouverte après une application/annulation
+  // Studio : elle ne doit jamais masquer ni intercepter l'éditeur rapide.
+  closePreviewDetail();
   hideTitleScreen();
   const ov = document.getElementById('simple-editor-overlay');
   if (!ov) return;
