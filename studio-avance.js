@@ -372,8 +372,8 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     navigationOpen=!!open;
     if(!root)return;
     root.classList.toggle('mc-studio-nav-open',navigationOpen);
-    const toggle=root.querySelector('[data-action="studio-menu"]');
-    if(toggle)toggle.setAttribute('aria-expanded',String(navigationOpen));
+    root.querySelectorAll('[data-action="studio-menu"],[data-action="studio-hub-menu"]')
+      .forEach(toggle=>toggle.setAttribute('aria-expanded',String(navigationOpen)));
     const nav=root.querySelector('.mc-studio-tabs');
     if(nav)nav.setAttribute('aria-hidden',String(!navigationOpen));
     if('inert' in HTMLElement.prototype && nav)nav.inert=!navigationOpen;
@@ -1240,7 +1240,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     else if(a==='reset')reset();
     else if(a==='cloud-picker'){window.MaCollectionProfileEditor?.open({account:true});}
     else if(a==='profile-history'){close();window.MaCollectionProfileHistory?.open();}
-    else if(a==='studio-menu'){setNavigation(!navigationOpen);if(navigationOpen)root.querySelector('.mc-studio-tabs [data-tab].active')?.focus();}
+    else if(a==='studio-menu'||a==='studio-hub-menu'){setNavigation(!navigationOpen);if(navigationOpen)root.querySelector('.mc-studio-tabs [data-tab].active')?.focus();}
     else if(a==='studio-go-collection'){close();window.hideTitleScreen?.();}
     else if(a==='studio-home'){setNavigation(false);tab='accueil';message='';draw();}
     else if(a==='studio-go-profiles'){tab='profils';draw();}
@@ -1314,26 +1314,30 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     root.setAttribute('role','dialog');root.setAttribute('aria-modal','true');
     root.setAttribute('aria-labelledby','mc-studio-heading');
     root.innerHTML='<div class="mc-studio-panel mc-studio-workspace">'+
-      '<header class="mc-studio-header" aria-label="Navigation principale du Studio">'+
-      '<div class="mc-studio-header-left"><button type="button" class="mc-studio-menu-button" data-action="studio-menu" aria-label="Ouvrir le menu du Studio" aria-expanded="false" aria-controls="mc-studio-navigation"><span aria-hidden="true">☰</span></button>'+
-      '<div class="mc-studio-header-title"><span class="mc-studio-brand-mark" aria-hidden="true">M</span>'+
-      '<div><span class="mc-studio-brand-name" id="mc-studio-heading">Ma-Collection</span><small class="mc-studio-title">Mon profil</small></div></div></div>'+
-      '<nav class="mc-studio-top-links" aria-label="Principaux outils">'+
-      '<button type="button" data-action="studio-go-collection">Collection</button>'+
-      '<button type="button" data-action="studio-home" aria-current="page">Studio</button>'+
-      '<button type="button" data-action="studio-go-profiles">Profils</button></nav>'+
-      '<div class="mc-studio-header-actions"><button type="button" class="mc-studio-account-button" data-action="cloud-picker" title="Modifier mon profil Kovelyx">Mon compte</button>'+
-      '<button type="button" class="mc-studio-close" data-action="close" aria-label="Fermer le Studio">×</button></div></header>'+
+      '<header class="mc-studio-header mc-studio-cockpit" aria-label="Navigation principale du Studio">'+
+      '<div class="mc-studio-header-left"><button type="button" class="mc-studio-menu-button" data-action="studio-menu" aria-label="Ouvrir les rubriques du Studio" aria-expanded="false" aria-controls="mc-studio-navigation"><span aria-hidden="true">☰</span></button></div>'+
+      '<nav class="mc-studio-top-links" aria-label="Outils principaux">'+
+      '<div class="mc-studio-top-branch"><button type="button" data-action="studio-go-collection">Collection</button>'+
+      '<button type="button" data-action="studio-home" aria-current="page">Studio</button></div>'+
+      '<button type="button" class="mc-studio-tools-hub" data-action="studio-hub-menu" aria-label="Ouvrir les outils de Ma-Collection" aria-expanded="false" aria-controls="mc-studio-navigation">'+
+      '<span class="mc-studio-logo-wrap"><img src="assets/kovelyx-logo.svg" width="22" height="22" alt=""></span>'+
+      '<span id="mc-studio-heading">Mes outils</span><span aria-hidden="true">⌄</span></button>'+
+      '<div class="mc-studio-top-branch"><button type="button" data-action="studio-go-profiles">Profils</button>'+
+      '<button type="button" data-action="studio-go-diff">Vérifier</button></div></nav>'+
+      '<div class="mc-studio-header-actions"><button type="button" class="mc-studio-account-button" data-action="cloud-picker" title="Mon compte Kovelyx">Mon compte</button></div></header>'+
       '<div class="mc-studio-nav-scrim" aria-hidden="true"></div>'+
       '<div class="mc-studio-layout">'+studioNavigationHtml()+
       '<div class="mc-studio-main">'+
-      '<header class="mc-studio-context"><div class="mc-studio-context-left"><button type="button" class="mc-studio-back" data-action="studio-home" aria-label="Retour à l’accueil du Studio">← <span>Retour</span></button>'+
-      '<span class="mc-studio-current-section"><strong data-studio-context-title>Mon Studio</strong><small data-studio-context-subtitle></small></span></div>'+
+      '<header class="mc-studio-context">'+
+      '<div class="mc-studio-context-left"><button type="button" class="mc-studio-back" data-action="studio-home" aria-label="Retour au tableau de bord">← <span>Retour</span></button>'+
+      '<div class="mc-studio-profile-badge"><span>Profil :</span><strong class="mc-studio-title"></strong></div></div>'+
+      '<div class="mc-studio-context-center"><strong data-studio-context-title>Tableau de bord</strong><small data-studio-context-subtitle></small></div>'+
       '<div class="mc-studio-context-actions"><button type="button" data-action="studio-go-profiles">Changer de profil</button>'+
-      '<button type="button" data-action="studio-go-diff">Vérifier</button></div></header>'+
+      '<button type="button" data-action="studio-go-diff">Vérifier</button>'+
+      '<button type="button" class="mc-studio-close" data-action="close" aria-label="Fermer le Studio">×</button></div></header>'+
       '<main id="mc-studio-content" class="mc-studio-content" role="tabpanel" tabindex="0"></main>'+
       '<div class="mc-studio-status" role="status" aria-live="polite"></div>'+
-      '<footer class="mc-studio-footer"><span>Brouillon local · Tes modifications ne sont pas publiées automatiquement</span>'+
+      '<footer class="mc-studio-footer"><span>Brouillon local · Tes choix ne sont pas publiés automatiquement</span>'+
       '<button type="button" class="mc-studio-undo" data-action="undo-apply" hidden>↶ Annuler</button>'+
       '<button type="button" class="mc-studio-apply" data-action="apply">Appliquer à ma collection</button></footer>'+
       '</div></div></div>';
