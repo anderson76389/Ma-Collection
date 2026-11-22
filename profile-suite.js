@@ -184,7 +184,7 @@ import {normalizeKovelyxProfiles,makeKovelyxLocalCopy,accountDisplayName} from '
     if(!root||!draft)return;
     root.querySelector('[data-suite-active-profile]').textContent=draft.name;
     root.querySelector('[data-suite-title]').textContent=screen==='dashboard'?'Outils et personnalisation':
-      screen==='profiles'?'Choisir un profil':screen==='onboarding'?'Assistant guidé':draft.name;
+      screen==='profiles'?'Choisir un profil à organiser':screen==='onboarding'?'Assistant guidé':draft.name;
     root.querySelector('[data-suite-back]').hidden=screen==='profiles';
     root.querySelector('[data-suite-back]').textContent=screen==='dashboard'?'← Profils':'← Retour';
     const saveTop=root.querySelector('[data-suite-save-top]');
@@ -193,6 +193,7 @@ import {normalizeKovelyxProfiles,makeKovelyxLocalCopy,accountDisplayName} from '
     root.querySelector('[data-suite-status]').hidden=!notice;
     root.querySelector('[data-suite-status]').textContent=notice;
     root.classList.toggle('mcps-wide',['dashboard','layout','quick','artwork'].includes(screen));
+    root.classList.toggle('mcps-screen-profiles',screen==='profiles');
     root.classList.toggle('mcps-artwork-active',screen==='artwork');
   }
   function navigate(next,clear=false){
