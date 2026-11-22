@@ -80,7 +80,7 @@ export function renderSuiteProfiles(ctx){
   const avatar=p=>p.avatar?'<span class="mcps-picker-avatar"><img src="'+attr(p.avatar)+'" alt="" loading="lazy"></span>':
     '<span class="mcps-picker-avatar mcps-picker-initial" aria-hidden="true">'+h(p.name.charAt(0).toUpperCase())+'</span>';
   const profileCard=(p,kind)=>{
-    const stats=kind==='cloud'?p:profileSuiteStats(p);
+    const stats=kind==='cloud'?p:{rows:p.rows.length,folders:profileSuiteStats(p).available};
     const counts=(stats.rows===null||stats.rows===undefined||stats.folders===null||stats.folders===undefined)?
       'Collections à charger':stats.rows+' catégories · '+stats.folders+' dossiers';
     return '<button type="button" class="mcps-picker-card" '+
