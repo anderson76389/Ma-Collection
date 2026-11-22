@@ -420,13 +420,14 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     if(e.key!=='Tab'||e.altKey||e.ctrlKey||e.metaKey)return;
     const focusables=[...root.querySelectorAll(
       'button:not([disabled]), a[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
-    )].filter(el=>el.getClientRects().length>0&&!el.closest('[hidden],[inert],[aria-hidden="true"]'));
+    )].filter(el=>el.getClientRects().length>0&&getComputedStyle(el).visibility!=='hidden'&&
+      !el.closest('[hidden],[inert],[aria-hidden="true"]'));
     if(!focusables.length)return;
-    const first=focusables[0],last=focusables[focusables.length-1],active=document.activeElement;
-    if(!root.contains(active)||(e.shiftKey&&active===first)||(!e.shiftKey&&active===last)){
-      e.preventDefault();
-      (e.shiftKey?last:first).focus();
-    }
+    const activeIndex=focusables.indexOf(document.activeElement);
+    const nextIndex=activeIndex<0?(e.shiftKey?focusables.length-1:0):
+      (activeIndex+(e.shiftKey?-1:1)+focusables.length)%focusables.length;
+    e.preventDefault();
+    focusables[nextIndex].focus();
   }
   function open(initialTab='organisation'){
     if(!data().length){if(typeof window.showToast==='function')window.showToast('Collections non chargées. Réessaie.','error');return;}
