@@ -424,3 +424,22 @@
 #mc-profile-suite .mcps-changes-list li{padding:6px 9px;color:#b3bbc1;font-size:.69rem;border-bottom:1px solid var(--ps-border)}
 #mc-profile-suite .mcps-changes-list li:last-child{border-bottom:0}
 #mc-profile-suite .mcps-changes-list li b{color:#e8f6f0;font-weight:700}
+
+/* Les variantes secondaires restent dans le navigateur et donnent une
+   profondeur de théâtre sans dupliquer les médias d'un site tiers. */
+#mc-profile-suite .mcps-art-theatre{position:relative;isolation:isolate}
+#mc-profile-suite .mcps-art-main{position:relative;z-index:4}
+#mc-profile-suite .mcps-art-arrow{position:relative;z-index:6}
+#mc-profile-suite .mcps-art-peek{position:absolute;z-index:2;width:31%;aspect-ratio:16/9;
+ top:50%;left:calc(50% + 16%);border:1px solid #28463e;border-radius:15px;
+ overflow:hidden;opacity:.36;transform:translate(24%,-50%) rotateY(-7deg);
+ box-shadow:0 20px 40px rgba(0,0,0,.65);pointer-events:none}
+#mc-profile-suite .mcps-art-peek-far{z-index:1;opacity:.16;left:calc(50% + 26%);
+ transform:translate(26%,-48%) scale(.88)}
+#mc-profile-suite .mcps-art-peek img{display:block;width:100%;height:100%;object-fit:cover}
+#mc-profile-suite .mcps-art-peek small{position:absolute;top:8px;right:8px;
+ max-width:80%;font-size:.68rem;padding:4px 8px;background:#00271f;color:var(--ps-green-light);
+ border-radius:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media(max-width:700px){
+ #mc-profile-suite .mcps-art-peek{display:none}
+}
