@@ -448,6 +448,12 @@
 #mc-profile-suite .mcps-profile-mark img{display:block;width:100%;height:100%;object-fit:cover;border-radius:50%}
 
 
+#mc-profile-suite.mcps-screen-profiles .mcps-top{
+  height:40px;min-height:40px;padding:0 12px;
+}
+#mc-profile-suite.mcps-screen-profiles .mcps-top>strong{
+  font-size:.75rem;font-weight:720;
+}
 /* Sélecteur de profils — écran de référence, isolé du reste du Studio.
    Grille centrée, bandeau 76px, panneau 136px, cartes 76px, grand espace vide.
    Les compteurs affichés proviennent exclusivement des vrais profils.
@@ -456,7 +462,7 @@
   width:100%;max-width:none;margin:0;padding:0;
 }
 #mc-profile-suite .mcps-main:has(>.mcps-profile-picker){
-  padding:53px 20px 65px;background:#090b0f;
+  padding:64px 20px 65px;background:#090b0f;
 }
 #mc-profile-suite .mcps-picker-inner{
   width:min(1005px,100%);margin:0 auto;
