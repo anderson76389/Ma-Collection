@@ -454,6 +454,8 @@
 #mc-profile-suite.mcps-screen-profiles .mcps-top>strong{
   font-size:.75rem;font-weight:720;
 }
+#mc-profile-suite.mcps-screen-profiles [data-suite-active-profile]{display:none}
+
 /* Sélecteur de profils — écran de référence, isolé du reste du Studio.
    Grille centrée, bandeau 76px, panneau 136px, cartes 76px, grand espace vide.
    Les compteurs affichés proviennent exclusivement des vrais profils.
