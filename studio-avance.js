@@ -968,6 +968,18 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     const undo=root.querySelector('[data-action="undo-apply"]');if(undo)undo.hidden=!undoLast;
     const status=root.querySelector('.mc-studio-status');if(status)status.textContent=message;
   }
+  function redrawSearchField(el,selector,assign){
+    const start=el.selectionStart,end=el.selectionEnd,scroll=html()?.scrollTop||0;
+    assign(el.value);
+    draw();
+    const next=root.querySelector(selector);
+    if(next){
+      next.focus({preventScroll:true});
+      if(start!==null&&end!==null&&typeof next.setSelectionRange==='function')
+        next.setSelectionRange(start,end);
+    }
+    if(html())html().scrollTop=scroll;
+  }
   function change(e){
     if(!draft)return;
     const el=e.target;
@@ -978,8 +990,8 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
         const status=root.querySelector('.mc-studio-status');if(status)status.textContent=message;
         return;
       }
-      if(el.matches('[data-search]')){query=el.value;draw();root.querySelector('[data-search]')?.focus();return;}
-      if(el.matches('[data-global-search]')){const caret=el.selectionStart;globalQuery=el.value;draw();const input=root.querySelector('[data-global-search]');input?.focus();if(caret!==null)input?.setSelectionRange(caret,caret);return;}
+      if(el.matches('[data-search]')){redrawSearchField(el,'[data-search]',v=>query=v);return;}
+      if(el.matches('[data-global-search]')){redrawSearchField(el,'[data-global-search]',v=>globalQuery=v);return;}
       if(el.matches('[data-global-active]')){globalActiveOnly=el.checked;draw();return;}
       if(el.matches('[data-global-no-cover]')){globalNoCover=el.checked;draw();return;}
       if(el.matches('[data-fr-style]')){frStyle=el.value;draw();return;}
@@ -988,9 +1000,9 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       if(el.matches('[data-generated-style]')){generatedStyle=el.value;return;}
       if(el.matches('[data-collection-file]')){inspectBackup(el.files[0]);el.value='';return;}
       if(el.matches('[data-fr-file]')){importFrenchArt(el.files[0]);el.value='';return;}
-      if(el.matches('[data-library-search]')){const caret=el.selectionStart;libraryQuery=el.value;draw();const input=root.querySelector('[data-library-search]');input?.focus();if(caret!==null)input?.setSelectionRange(caret,caret);return;}
+      if(el.matches('[data-library-search]')){redrawSearchField(el,'[data-library-search]',v=>libraryQuery=v);return;}
       if(el.matches('[data-library-filter]')){libraryFilter=el.value;draw();return;}
-      if(el.matches('[data-workshop-search]')){const caret=el.selectionStart;workshopSearch=el.value;draw();const input=root.querySelector('[data-workshop-search]');input?.focus();if(caret!==null)input?.setSelectionRange(caret,caret);return;}
+      if(el.matches('[data-workshop-search]')){redrawSearchField(el,'[data-workshop-search]',v=>workshopSearch=v);return;}
       if(el.matches('[data-workshop-section]')){workshopSection=el.value;draw();return;}
       if(el.matches('[data-workshop-target]')){const k=el.dataset.workshopTarget;if(el.checked)workshopSelected.add(k);else workshopSelected.delete(k);draw();return;}
       if(el.matches('[data-workshop-mode]')){workshopMode=el.value;draw();return;}
@@ -1000,7 +1012,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
         pickSection(el.value);artLookIndex=0;artSearch='';showBatch=false;draw();return;
       }
       if(el.matches('[data-art-search]')){
-        artSearch=el.value;draw();root.querySelector('[data-art-search]')?.focus();return;
+        redrawSearchField(el,'[data-art-search]',v=>artSearch=v);return;
       }
       if(el.matches('[data-art-other]')){artMoreOnly=el.checked;draw();return;}
       if(el.matches('[data-art-needs]')){artNeedsAttention=el.checked;draw();return;}
@@ -1350,7 +1362,9 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     });
     root.addEventListener('dragend',()=>{dragging=null;});
     root.addEventListener('change',change);
-    root.addEventListener('input',e=>{if(e.target.matches('[data-search],[data-global-search],[data-workshop-search],[data-library-search]'))change(e);});
+    const searchSelector='[data-search],[data-global-search],[data-workshop-search],[data-library-search],[data-art-search]';
+    root.addEventListener('input',e=>{if(!e.isComposing&&e.target.matches(searchSelector))change(e);});
+    root.addEventListener('compositionend',e=>{if(e.target.matches(searchSelector))change(e);});
     root.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>{
       tab=b.dataset.tab;
       if(tab==='affiches'&&!selectedFolder)selectedFolder=section()?.folders[0]?.id;
