@@ -1,4 +1,5 @@
 import {ART_STYLES,makeFolderArt} from './studio-art-generator.mjs';
+import {renderStudioCanvas} from './studio-cinema-canvas.mjs';
 import {STUDIO_WORKSPACE_TITLES,studioNavigationHtml} from './studio-workspace-nav.mjs?v=2';
 import {studioIcon} from './studio-icons.mjs?v=2';
 import {addonInventoryFromDraft,buildAddonManifestFile} from './studio-addon-manifests.mjs';
@@ -29,6 +30,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
   let generatedStyle='cinema';
   let tab='organisation',selectedSection='',selectedFolder='',query='',message='';
   let dragging=null;
+  let cinemaMode=false,cinemaActiveOnly=false,cinemaExpanded=new Set();
   let navigationOpen=false, previousTab='',baseDraftSignature='';
   let previewDevice='tv',globalQuery='',globalActiveOnly=false,globalNoCover=false,undoLast=null;
   let backups=[],backupError='',applying=false;
@@ -433,6 +435,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     if(!data().length){if(typeof window.showToast==='function')window.showToast('Collections non chargées. Réessaie.','error');return;}
     if(!originals)originals=originalsFor(data());
     load();draft=getBase();baseDraftSignature=JSON.stringify(draft);pickSection();tab=initialTab;query='';message='';
+    cinemaMode=false;cinemaActiveOnly=false;cinemaExpanded=new Set();
     artLookIndex=0;artSearch='';artMoreOnly=false;artNeedsAttention=false;showBatch=false;previewDevice='tv';globalQuery='';globalActiveOnly=false;globalNoCover=false;
     workshopSelected=new Set();workshopUndo=null;workshopSearch='';workshopSection='all';
     libraryQuery='';libraryFilter='all';libraryUndo=null;
@@ -503,7 +506,8 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
         '<div class="mc-studio-arrows">'+button('↑','folder-up','data-id="'+esc(f.id)+'" aria-label="Monter le dossier" '+(i===0?'disabled':''))+
         button('↓','folder-down','data-id="'+esc(f.id)+'" aria-label="Descendre le dossier" '+(i===s.folders.length-1?'disabled':''))+'</div></div>';
     }).join('');
-    return '<div class="mc-studio-columns">'+
+    return '<div class="mc-cinema-open-link">'+button('Voir mes rangées et affiches','canvas-open')+'</div>'+ 
+      '<div class="mc-studio-columns">'+
       '<div class="mc-studio-column"><div class="mc-studio-heading"><strong>Sections</strong>'+badge(draft.sections.length)+'</div>'+
       '<div class="mc-studio-scroll">'+sections+'</div></div>'+
       '<div class="mc-studio-column"><div class="mc-studio-heading"><strong>Dossiers de '+esc(s?.label||'')+'</strong>'+badge(s?.folders.length||0)+'</div>'+
@@ -914,7 +918,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     // référence, sans afficher de boutons fictifs pour les réglages lecteur
     // qui n'ont pas encore de synchronisation Kovelyx.
     const tiles=[
-      ['organisation','','Écran d’accueil','Réorganiser les rangées, les dossiers et leur ordre.'],
+      ['organisation','','Écran d’accueil','Organiser visuellement les rangées, les affiches et leur ordre.','canvas-open'],
       ['outils','','Éditeur rapide','Activer et modifier plusieurs dossiers en une seule opération.'],
       ['affiches','','Affiches','Comparer et remplacer les images de chaque dossier.'],
       ['recherche','','Ajouter des rangées et dossiers','Parcourir toutes les catégories et retrouver les contenus à intégrer.'],
@@ -1030,7 +1034,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     root.querySelector('.mc-studio-context')?.classList.toggle('mc-studio-at-home',tab==='accueil');
     const back=root.querySelector('[data-action="studio-home"].mc-studio-back');
     if(back)back.hidden=tab==='accueil';
-    body.innerHTML=(tab==='accueil'?renderHub():tab==='mes-creations'?renderCurations():tab==='organisation'?renderSections():tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():tab==='modifications'?renderChanges():tab==='outils'?renderWorkshop():tab==='bibliotheque'?renderArtLibrary():tab==='affiches-fr'?renderFrenchArt():tab==='import-collection'?renderCollectionImport():tab==='extensions'?renderAddonExport():tab==='parametres'?renderPreferences():tab==='partage'?renderSharing():renderProfiles());
+    body.innerHTML=(tab==='accueil'?renderHub():tab==='mes-creations'?renderCurations():tab==='organisation'?(cinemaMode?renderStudioCanvas(draft,{activeOnly:cinemaActiveOnly,expanded:cinemaExpanded,resolveImage:url=>localGenreCovers.get(url)||url}):renderSections()):tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():tab==='modifications'?renderChanges():tab==='outils'?renderWorkshop():tab==='bibliotheque'?renderArtLibrary():tab==='affiches-fr'?renderFrenchArt():tab==='import-collection'?renderCollectionImport():tab==='extensions'?renderAddonExport():tab==='parametres'?renderPreferences():tab==='partage'?renderSharing():renderProfiles());
     if(didNavigate){
       body.scrollTop=0;
       // Annuler toute animation précédente avant d'en lancer une autre.
@@ -1066,6 +1070,15 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     if(!draft)return;
     const el=e.target;
     try{
+      if(el.matches('[data-canvas-folder-toggle]')){
+        const sec=draft.sections.find(s=>s.id===el.dataset.section);
+        const target=sec?.folders.find(f=>f.id===el.dataset.canvasFolderToggle);
+        if(!target)return;
+        target.enabled=el.checked;
+        if(el.checked&&!target.selectedKeys.length)target.selectedKeys=(findFolder(sec.id,target.id)?.sources||[]).map(sourceKey);
+        message='Dossier '+(el.checked?'activé':'désactivé')+' dans le brouillon.';
+        draw();return;
+      }
       if(el.matches('[data-addon-manifest]')){
         addonManifestUrls[el.dataset.addonManifest]=el.value.trim();
         message='Adresse conservée uniquement pour cette session. Aucun addon installé ou envoyé.';
@@ -1120,7 +1133,38 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
   function click(e){
     const btn=e.target.closest('[data-action]');if(!btn)return;
     const a=btn.dataset.action,id=btn.dataset.id;
-    if(a==='section'){pickSection(id);query='';draw();}
+    if(a==='canvas-open'){tab='organisation';cinemaMode=true;message='';draw();}
+    else if(a==='canvas-open-list'){cinemaMode=false;draw();}
+    else if(a==='canvas-open-preview'){tab='apercu';message='';draw();}
+    else if(a==='canvas-toggle-active'){cinemaActiveOnly=!cinemaActiveOnly;draw();}
+    else if(a==='canvas-expand'){
+      const sectionId=btn.dataset.section;
+      if(cinemaExpanded.has(sectionId))cinemaExpanded.delete(sectionId);else cinemaExpanded.add(sectionId);
+      draw();
+    }
+    else if(a==='canvas-edit-row'){
+      const sectionId=btn.dataset.section;
+      if(draft.sections.some(s=>s.id===sectionId)){
+        pickSection(sectionId);cinemaMode=false;query='';draw();
+      }
+    }
+    else if(a==='canvas-art'){
+      const sectionId=btn.dataset.section;
+      if(draft.sections.some(s=>s.id===sectionId&&s.folders.some(f=>f.id===id))){
+        pickSection(sectionId);selectedFolder=id;artLookIndex=0;tab='affiches';message='';draw();
+      }
+    }
+    else if(a==='canvas-section-up'||a==='canvas-section-down'){
+      move(draft.sections,btn.dataset.section,a==='canvas-section-up'?-1:1);
+    }
+    else if(a==='canvas-folder-up'||a==='canvas-folder-down'){
+      const sectionId=btn.dataset.section,sec=draft.sections.find(s=>s.id===sectionId);
+      if(sec&&sec.folders.some(f=>f.id===id)){
+        pickSection(sectionId);selectedFolder=id;
+        move(sec.folders,id,a==='canvas-folder-up'?-1:1);
+      }
+    }
+    else if(a==='section'){pickSection(id);query='';draw();}
     else if(a==='folder'){selectedFolder=id;tab='affiches';draw();}
     else if(a==='goto-art'){tab='affiches';draw();}
     else if(a==='art-folder'){

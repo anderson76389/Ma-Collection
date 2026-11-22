@@ -126,6 +126,39 @@ await test('Studio clavier : flèches, début/fin, sélection et confinement du 
     if(await studio.isVisible()) await studio.locator('[data-action=close]').click({force:true});
   }
 });
+await test('vue cinéma : vraies affiches, rangées déplaçables et brouillon intact',async()=>{
+  await page.evaluate(()=>window.MaCollectionStudio.open('accueil'));
+  const studio=page.locator('#mc-studio-root');
+  try{
+    const initial=await page.evaluate(()=>JSON.stringify(window.collectionData));
+    await studio.locator('.suite-tiles [data-action="canvas-open"]').first().click();
+    assert(await studio.locator('.mc-cinema-organizer').isVisible());
+    assert(await studio.locator('.mc-cinema-row').count()>=16,
+      'Toutes les rangées disponibles du profil doivent rester accessibles');
+    assert(await studio.locator('.mc-cinema-tile').count()>20);
+    const firstRow=await studio.locator('.mc-cinema-row').first().getAttribute('data-drag-id');
+    await studio.locator('.mc-cinema-row').first().locator('[data-action=canvas-section-down]').click();
+    assert.notEqual(await studio.locator('.mc-cinema-row').first().getAttribute('data-drag-id'),firstRow,
+      'Monter ou descendre doit réellement modifier l’ordre du brouillon');
+    await studio.locator('[data-action=canvas-toggle-active]').click();
+    assert.equal(await studio.locator('[data-action=canvas-toggle-active]').getAttribute('aria-pressed'),'true');
+    const firstWithFolder=studio.locator('.mc-cinema-row .mc-cinema-tile').first();
+    const folderId=await firstWithFolder.getAttribute('data-folder-id');
+    const rowId=await firstWithFolder.locator('xpath=ancestor::section[contains(@class,"mc-cinema-row")]').getAttribute('data-drag-id');
+    await firstWithFolder.locator('[data-action=canvas-art]').click();
+    assert.equal(await studio.locator('[data-tab=affiches]').getAttribute('aria-selected'),'true');
+    assert(await studio.locator('.mc-studio-theater').isVisible(),
+      'Une affiche doit ouvrir le véritable éditeur du dossier');
+    assert.equal(await page.evaluate(()=>JSON.stringify(window.collectionData)),initial,
+      'Changer le brouillon visuel ne doit pas modifier les catalogues actifs avant application');
+    await switchStudioTab(studio,'organisation');
+    await studio.locator('[data-action=canvas-open-list]').click();
+    assert(await studio.locator('.mc-studio-columns').isVisible());
+    assert(folderId&&rowId);
+  }finally{
+    if(await studio.isVisible())await studio.locator('[data-action=close]').click();
+  }
+});
 await test('géométrie fidèle : double barre, cartes et menu non permanent',async()=>{
   await page.evaluate(()=>window.MaCollectionStudio.open('accueil'));
   const studio=page.locator('#mc-studio-root');
