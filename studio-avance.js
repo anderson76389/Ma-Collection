@@ -445,6 +445,57 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     setNavigation(false);draw();refreshBackups();document.addEventListener('keydown',onStudioKeydown,true);
     root.querySelector('[data-action="studio-menu"]')?.focus();
   }
+  /**
+   * Recevoir les rangées du nouveau tableau de bord sans mutation du catalogue.
+   * L'utilisateur voit TOUJOURS « Avant / Après » puis doit confirmer l'application.
+   */
+  function reviewExternalLayout(payload){
+    if(!Array.isArray(payload?.rows)||payload.rows.length>100)return false;
+    if(!data().length)return false;
+    open('modifications');
+    const rows=new Map(draft.sections.map(section=>[section.id,section]));
+    const incoming=[],seen=new Set();
+    let sectionsTouched=0,foldersTouched=0,artTouched=0;
+    for(const item of payload.rows){
+      const id=String(item?.id||''),sec=rows.get(id);
+      if(!sec||seen.has(id))continue;
+      seen.add(id);incoming.push(sec);sectionsTouched++;
+      sec.enabled=item.enabled!==false;
+      try {sec.label=cleanLabel(item.name||sec.label,85);}catch{}
+      if(!Array.isArray(item.folders))continue;
+      const folders=new Map(sec.folders.map(folder=>[folder.id,folder]));
+      const ordered=[],used=new Set();
+      for(const folder of item.folders){
+        const fid=String(folder?.id||''),existing=folders.get(fid);
+        if(!existing||used.has(fid))continue;
+        used.add(fid);ordered.push(existing);foldersTouched++;
+        existing.enabled=folder.enabled!==false;
+        try{existing.label=cleanLabel(folder.name||existing.label,85);}catch{}
+        if(existing.enabled&&!existing.selectedKeys.length){
+          existing.selectedKeys=(findFolder(sec.id,existing.id)?.sources||[]).map(sourceKey);
+        }
+        const requestedCover=String(folder.cover||'');
+        if(requestedCover&&requestedCover!==existing.artwork.coverImageUrl){
+          try{
+            const url=assetUrl(requestedCover);
+            existing.artwork.coverImageUrl=url;artTouched++;
+          }catch{
+            // Ignorer les images inaccessibles, actives ou liées à Kaptain.
+            // Aucun URL refusé ne doit empêcher la mise à jour des rangées.
+          }
+        }
+      }
+      for(const folder of sec.folders)if(!used.has(folder.id))ordered.push(folder);
+      sec.folders=ordered;
+    }
+    for(const sec of draft.sections)if(!seen.has(sec.id))incoming.push(sec);
+    draft.sections=incoming;
+    pickSection();tab='modifications';
+    message='Brouillon reçu : '+sectionsTouched+' rangées, '+foldersTouched+
+      ' dossiers et '+artTouched+' affiches. Vérifie les changements puis clique sur Appliquer.';
+    draw();
+    return true;
+  }
   function loadFrenchArt(){
     frPack=null;frError='';
     try{
@@ -1517,7 +1568,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       if(e.target.closest('#preview-studio'))open();
     });
     window.MaCollectionStudio={
-      open,
+      open, reviewExternalLayout,
       decorateExport(collections){return applied?decorateExport(collections,applied):collections}
     };
   }
