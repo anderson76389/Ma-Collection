@@ -368,7 +368,7 @@ html[data-theme="light"] .mc-home-overlay .mc-home .home-return button{color:#3d
   position:absolute;
   inset:-350px -175px;
   display:grid;
-  grid-template-columns:repeat(9,minmax(0,1fr));
+  grid-template-columns:repeat(11,minmax(0,1fr));
   align-items:start;
   gap:clamp(12px,1vw,20px);
   transform:perspective(1600px) rotateX(8deg) rotateZ(-10deg) scale(1.055);
@@ -415,7 +415,8 @@ html[data-theme="light"] .mc-home-overlay .mc-home .home-return button{color:#3d
   background:
     radial-gradient(ellipse 55% 66% at 50% 46%, rgba(3,6,10,.985) 1%, rgba(3,7,11,.91) 43%, rgba(3,7,11,.43) 84%, rgba(3,7,11,.2) 100%),
     radial-gradient(ellipse 47% 43% at 66% 53%,rgba(0,121,92,.12),transparent 83%),
-    linear-gradient(180deg,rgba(4,6,12,.30),transparent 18%,transparent 76%,rgba(3,5,9,.76));
+    linear-gradient(90deg,transparent 61%,rgba(2,5,8,.27) 100%),
+    linear-gradient(180deg,rgba(4,6,12,.30),transparent 18%,transparent 70%,rgba(3,5,9,.85));
 }
 .mc-home-overlay:not(.active) .mc-wall-column{animation-play-state:paused}
 html[data-theme="light"] .mc-home-overlay .suite-wall .mc-wall-plane,
