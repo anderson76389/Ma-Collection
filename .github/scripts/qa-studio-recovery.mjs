@@ -9,6 +9,7 @@ async function ready(page) {
   await page.waitForFunction(()=>window.MaCollectionStudio?.open&&window.collectionData?.length>=16,
     null,{timeout:60000});
   await page.evaluate(()=>window.MaCollectionStudio.open());
+  await page.locator('[data-action=studio-menu]').click();
   await page.locator('[data-tab=profils]').click();
 }
 try{
