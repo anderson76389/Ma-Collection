@@ -45,14 +45,57 @@
   opener?.focus();opener=null;
  }
  function open(){
-  if(!modal){modal=document.createElement('div');modal.className='mc-profile-overlay';modal.id='mc-tools';modal.innerHTML='<section class="mc-profile-panel" role="dialog" aria-modal="true" aria-labelledby="mc-tools-title"><header><h2 id="mc-tools-title">Outils Ma-Collection</h2><button type="button" data-tools-close>Fermer</button></header><p>Tous les outils utilisent Ma-Collection et tes propres services. Les clés nécessaires se configurent dans leurs écrans respectifs.</p><div class="mc-tools-grid"></div></section>';document.body.appendChild(modal);modal.querySelector('[data-tools-close]').addEventListener('click',close);modal.addEventListener('click',e=>{if(e.target===modal)close();});
-   const grid=modal.querySelector('.mc-tools-grid');for(const [name,description,run]of tools){const button=document.createElement('button');const strong=document.createElement('strong'),text=document.createElement('span');strong.textContent=name;text.textContent=description;button.append(strong,text);button.addEventListener('click',()=>{close();run();});grid.appendChild(button);}
-  }
-  opener=document.activeElement?.closest('.home-dock button');
-  modal.classList.toggle('suite-drawer',opener?.id==='suite-menu');
-  modal.classList.toggle('mc-tools-dock',opener?.id==='home-tools-menu');
-  opener?.setAttribute('aria-expanded','true');
-  modal.hidden=false;modal.querySelector('button').focus();
+   if(!modal){
+     modal=document.createElement('div');
+     modal.className='mc-profile-overlay';
+     modal.id='mc-tools';
+     modal.innerHTML='<section class="mc-profile-panel mc-tools-panel" role="dialog" aria-modal="true" aria-labelledby="mc-tools-title">'+
+       '<header class="mc-tools-header"><div class="mc-tools-brand">'+
+       '<img src="assets/kovelyx-logo.svg" width="36" height="36" alt="">'+
+       '<div><small>MA-COLLECTION · OUTILS</small><h2 id="mc-tools-title">Tout personnaliser</h2></div></div>'+
+       '<button type="button" class="mc-tools-close" data-tools-close aria-label="Fermer les outils">×</button></header>'+
+       '<p class="mc-tools-intro">Retrouve tous les parcours de ta collection. Chaque bouton ouvre un outil Ma-Collection ou ton propre compte Kovelyx.</p>'+
+       '<div class="mc-tools-grid"></div>'+
+       '<footer class="mc-tools-footer">Studio en français · Ressources du site et visuels indépendants de Kaptain</footer>'+
+       '</section>';
+     document.body.appendChild(modal);
+     modal.querySelector('[data-tools-close]').addEventListener('click',close);
+     modal.addEventListener('click',e=>{if(e.target===modal)close();});
+     // Les entrées sont regroupées par usage. Toutes les actions existantes
+     // restent présentes : aucun raccourci factice ou menu perdu.
+     const groups=[
+       ['Parcourir et configurer','Collection, assistant et éditeurs',[1,2,3,4]],
+       ['Personnaliser le Studio','Créer des dossiers, choisir les affiches et les extensions',[7,12,10,13]],
+       ['Profils et synchronisation','Compte Kovelyx, bibliothèque, import et sauvegardes',[5,6,8,15]],
+       ['Hébergement et préférences','Services personnels, réglages, statistiques et aide',[9,14,0,11]]
+     ];
+     const grid=modal.querySelector('.mc-tools-grid');
+     for(const [title,subtitle,indices]of groups){
+       const section=document.createElement('section');
+       section.className='mc-tools-group';
+       const header=document.createElement('header');
+       const heading=document.createElement('h3'),small=document.createElement('small');
+       heading.textContent=title;small.textContent=subtitle;
+       header.append(heading,small);section.appendChild(header);
+       const choices=document.createElement('div');
+       choices.className='mc-tools-options';
+       for(const index of indices){
+         const [name,description,run]=tools[index];
+         const button=document.createElement('button'),strong=document.createElement('strong'),text=document.createElement('span');
+         button.type='button';button.className='mc-tools-option';button.dataset.mcTool=String(index);
+         strong.textContent=name;text.textContent=description;
+         button.append(strong,text);
+         button.addEventListener('click',()=>{close();run();});
+         choices.appendChild(button);
+       }
+       section.appendChild(choices);grid.appendChild(section);
+     }
+   }
+   opener=document.activeElement?.closest('.home-dock button');
+   modal.classList.toggle('suite-drawer',opener?.id==='suite-menu');
+   modal.classList.toggle('mc-tools-dock',opener?.id==='home-tools-menu');
+   opener?.setAttribute('aria-expanded','true');
+   modal.hidden=false;modal.querySelector('[data-tools-close]').focus();
  }
  function install(){
   const bar=document.getElementById('nv-preview-secondary');
