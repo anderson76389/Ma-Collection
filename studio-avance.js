@@ -29,7 +29,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
   let generatedStyle='cinema';
   let tab='organisation',selectedSection='',selectedFolder='',query='',message='';
   let dragging=null;
-  let navigationOpen=false, previousTab='';
+  let navigationOpen=false, previousTab='',baseDraftSignature='';
   let previewDevice='tv',globalQuery='',globalActiveOnly=false,globalNoCover=false,undoLast=null;
   let backups=[],backupError='',applying=false;
   let workshopSearch='',workshopSection='all',workshopSelected=new Set(),workshopMode='active-first';
@@ -365,7 +365,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
   function choose(id){
     const found=profiles.find(x=>x.id===id);
     if(!found)return;
-    draft=copy(found);pickSection();message='Profil chargé dans le Studio. Ta collection ne change pas avant « Appliquer ».';
+    draft=copy(found);baseDraftSignature=JSON.stringify(draft);pickSection();message='Profil chargé dans le Studio. Ta collection ne change pas avant « Appliquer ».';
     tab='organisation';draw();
   }
   function setNavigation(open){
@@ -389,7 +389,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
   function open(initialTab='organisation'){
     if(!data().length){if(typeof window.showToast==='function')window.showToast('Collections non chargées. Réessaie.','error');return;}
     if(!originals)originals=originalsFor(data());
-    load();draft=getBase();pickSection();tab=initialTab;query='';message='';
+    load();draft=getBase();baseDraftSignature=JSON.stringify(draft);pickSection();tab=initialTab;query='';message='';
     artLookIndex=0;artSearch='';artMoreOnly=false;artNeedsAttention=false;showBatch=false;previewDevice='tv';globalQuery='';globalActiveOnly=false;globalNoCover=false;
     workshopSelected=new Set();workshopUndo=null;workshopSearch='';workshopSection='all';
     libraryQuery='';libraryFilter='all';libraryUndo=null;
@@ -1303,8 +1303,9 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     else if(a==='import')root.querySelector('[data-file]')?.click();
     else if(a==='create-folder'){
       if(window.MaCollectionCustomFolders?.open){
-        const baseline=getBase();
-        if(JSON.stringify(draft)!==JSON.stringify(baseline) &&
+        // Comparer au vrai brouillon d'ouverture : getBase() réattribue des
+        // métadonnées dynamiques et peut signaler une modification fictive.
+        if(JSON.stringify(draft)!==baseDraftSignature &&
           !window.confirm('Tu as des modifications non publiées dans le Studio. Ouvrir le gestionnaire sans les appliquer ?'))return;
         close();
         window.MaCollectionCustomFolders.open();
