@@ -462,3 +462,20 @@ html[data-theme="high-contrast"] .mc-home-overlay .suite-wall .mc-wall-plane{dis
 @media(prefers-reduced-motion:reduce){
   .mc-home-overlay .suite-wall .mc-wall-column{animation:none}
 }
+
+/* Micro-détails des commandes : pictogrammes SVG nets et alignés. */
+.mc-home-overlay .home-search-icon,
+.mc-home-overlay .home-express-icon,
+.mc-home-overlay .mc-return-icon{
+  display:inline-flex;align-items:center;justify-content:center;flex:none;
+}
+.mc-home-overlay .home-search-icon svg,
+.mc-home-overlay .home-express-icon svg,
+.mc-home-overlay .mc-return-icon svg{display:block;stroke:currentColor}
+.mc-home-overlay .mc-home .home-return button{
+  display:inline-flex;align-items:center;justify-content:center;gap:7px;
+  font-family:'Inter',sans-serif;letter-spacing:-.01em;
+}
+.mc-home-overlay .mc-home .home-return button .mc-return-icon{opacity:.86}
+.mc-home-overlay .mc-home .home-return button:hover .mc-return-icon{opacity:1;color:var(--home-mint)}
+.mc-home-overlay .mc-header-shortcut svg{display:block}
