@@ -276,6 +276,12 @@ html[data-theme="light"] .mc-home-overlay .mc-home .home-return button{color:#3d
   .mc-home-overlay .home-dock.mc-cockpit .mc-header-shortcut{padding:0 9px}
   .mc-home-overlay .mc-header-shortcut kbd{display:none}
 }
+@media(max-width:900px){
+  /* Sous 900px les cinq onglets occupent le bouton Rechercher :
+     le hub 'Mes outils' conserve tous les parcours sans chevauchement. */
+  .mc-home-overlay .home-dock.mc-cockpit .mc-cockpit-branch{display:none!important}
+  .mc-home-overlay .mc-cockpit-center{left:50%}
+}
 @media(max-width:720px){
   .mc-home-overlay .home-dock.mc-cockpit{height:48px;min-height:48px;max-height:48px;padding:0 10px}
   .mc-home-overlay .home-dock.mc-cockpit .mc-cockpit-branch{display:none}
