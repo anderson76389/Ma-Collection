@@ -51,6 +51,7 @@ jobs:
           node --test tests/studio-addon-manifests.test.mjs
           node --test tests/studio-workspace-nav.test.mjs
           node --test tests/studio-cinema-canvas.test.mjs
+          node --test tests/profile-suite-model.test.mjs
           node --test tests/profile-canvas-core.test.mjs
           node --test tests/studio-avance.test.mjs tests/studio-collection-import.test.mjs tests/profile-editor.test.mjs tests/profile-history.test.mjs tests/customize-fr.test.mjs
           node --test tests/kaptain-url-security.test.mjs
@@ -81,6 +82,9 @@ jobs:
           node --check profile-editor.js
           node --check profile-editor-core.mjs
           node --check site-tools.js
+          node --check profile-suite-model.mjs
+          node --check profile-suite-view.mjs
+          node --check profile-suite.js
       - name: Valider le site et l'import Kovelyx sans compte externe
         run: |
           python3 -m http.server 8877 --bind 127.0.0.1 >/tmp/qa-http.log 2>&1 &
@@ -88,8 +92,17 @@ jobs:
           node .github/scripts/qa-collection-fr.mjs
           node .github/scripts/qa-controls.mjs
           node .github/scripts/qa-studio-avance.mjs
+          node .github/scripts/qa-profile-suite.mjs
           node .github/scripts/qa-profile-editor.mjs
           node .github/scripts/qa-kaptain-disparition.mjs
           node .github/scripts/qa-studio-recovery.mjs
           node .github/scripts/qa-performance-budget.mjs
           bash scripts/rehearse-site-disaster.sh
+      - name: Captures de validation du nouveau Studio
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ma-collection-studio-reference
+          path: /tmp/ma-collection-studio-dashboard.png
+          if-no-files-found: ignore
+          retention-days: 14
