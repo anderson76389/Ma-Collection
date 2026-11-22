@@ -982,14 +982,15 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     // Keep the *same* focused input while rendering results. Recreating it on
     // each keystroke drops browser composition/caret and causes visible jitter.
     const start=el.selectionStart,end=el.selectionEnd;
-    const hadFocus=document.activeElement===el;
     const scroll=html()?.scrollTop||0;
     assign(el.value);
     draw();
     const placeholder=root.querySelector(selector);
     if(placeholder){
       placeholder.replaceWith(el);
-      if(hadFocus)el.focus({preventScroll:true});
+      // This path handles keyboard input only; a blur/change event must not
+      // recreate the field or steal focus. Always restore focus after draw().
+      el.focus({preventScroll:true});
       if(start!==null&&end!==null&&typeof el.setSelectionRange==='function')
         el.setSelectionRange(start,end);
     }
@@ -1377,8 +1378,8 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       dragging=null;
     });
     root.addEventListener('dragend',()=>{dragging=null;});
-    root.addEventListener('change',change);
     const searchSelector='[data-search],[data-global-search],[data-workshop-search],[data-library-search],[data-art-search]';
+    root.addEventListener('change',e=>{if(!e.target.matches(searchSelector))change(e);});
     root.addEventListener('input',e=>{if(!e.isComposing&&e.target.matches(searchSelector))change(e);});
     root.addEventListener('compositionend',e=>{if(e.target.matches(searchSelector))change(e);});
     root.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>{
