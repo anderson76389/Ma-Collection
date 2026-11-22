@@ -189,6 +189,30 @@ export function suiteRestoreShared(payload,base){
   copyOfBase.name=safeString(payload.name,60)||base.name;
   return validateSuiteProfile(copyOfBase);
 }
+/**
+ * Réintégrer les préréglages des anciens écrans du Studio sans récupérer
+ * identifiants, secrets ni dépendances historiques.
+ */
+export function migrateLegacyStudioProfiles(value){
+  if(!Array.isArray(value))return [];
+  const profiles=[];
+  const seen=new Set();
+  for(const older of value.slice(0,11)){
+    if(!older||!Array.isArray(older.sections))continue;
+    try{
+      const profile=captureSuiteProfile(older,safeString(older.name,60)||'Ancien profil');
+      const stem=safeString(older.id||older.name,70).replace(/[^a-z0-9_-]/gi,'-');
+      profile.id='mcps-ancien-'+stem+'-'+profiles.length;
+      profile.avatar=cleanCover(older.avatarUrl);
+      if(older.updatedAt&&!Number.isNaN(Date.parse(older.updatedAt)))
+        profile.updatedAt=new Date(older.updatedAt).toISOString();
+      if(seen.has(profile.id))continue;
+      seen.add(profile.id);
+      profiles.push(validateSuiteProfile(profile));
+    }catch{/* Ignorer seulement les sauvegardes anciennes malformées. */}
+  }
+  return profiles.sort((a,b)=>b.updatedAt.localeCompare(a.updatedAt));
+}
 export function suiteLocalState(seed){
   return {schema:SUITE_SCHEMA,activeId:seed.id,profiles:[validateSuiteProfile(seed)],backups:[]};
 }
