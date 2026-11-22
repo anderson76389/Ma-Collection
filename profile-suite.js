@@ -17,7 +17,7 @@ import {normalizeKovelyxProfiles,makeKovelyxLocalCopy,accountDisplayName} from '
   let root=null,store=null,draft=null,saved=null,dirty=false,opener=null;
   let screen='profiles',stack=[],notice='',search='',preset='',artSearch='',artRowId='',artFolderId='',artIndex=0;
   let copyName='',copyTarget='new',wizardStep=0,streamSamples='Film 1080p 4 Go\nFilm 2160p HDR 18 Go',streamTestResult='';
-  let cloudProfiles=[],cloudLoading=false,cloudError='',cloudRequest=0;
+  let cloudProfiles=[],cloudLoading=false,cloudError='',cloudRequest=0,showLocalProfiles=false;
   const generated=new Map();
   const rows=()=>draft?.rows||[];
   const currentRow=()=>rows().find(r=>r.id===artRowId)||rows()[0]||null;
@@ -101,7 +101,7 @@ import {normalizeKovelyxProfiles,makeKovelyxLocalCopy,accountDisplayName} from '
     const account=window.MaCollectionAccount;
     const status=account?.status?.()||{};
     return {draft,saved,profiles:store.profiles,backups:store.backups,dirty,search,preset,
-      cloudProfiles,account:{signedIn:!!status.cloudSignedIn,loading:cloudLoading,
+      cloudProfiles,showLocalProfiles,account:{signedIn:!!status.cloudSignedIn,loading:cloudLoading,
       error:cloudError,email:accountDisplayName(status.cloudEmail)},
       artSearch,artIndex,artRowId:row?.id||'',artRow:row,artFolder:folder,
       artVariants:looks(),coverFor,copyName,copyTarget,wizardStep,streamSamples,streamTestResult};
@@ -215,7 +215,7 @@ import {normalizeKovelyxProfiles,makeKovelyxLocalCopy,accountDisplayName} from '
   }
   function open(page='profiles'){
     if(!store)load();if(!root)mount();
-    opener=document.activeElement;root.hidden=false;screen='profiles';stack=[];notice='';
+    opener=document.activeElement;root.hidden=false;screen='profiles';stack=[];notice='';showLocalProfiles=false;
     navigate(page,true);
     if(page==='profiles')void refreshCloudProfiles();
     document.addEventListener('keydown',keydown,true);
@@ -368,6 +368,7 @@ import {normalizeKovelyxProfiles,makeKovelyxLocalCopy,accountDisplayName} from '
       }
       case 'import':root.querySelector('[data-suite-upload]').click();break;
       case 'refresh-cloud':void refreshCloudProfiles();return;
+      case 'show-local':showLocalProfiles=!showLocalProfiles;render();return;
       case 'sign-out':{
         if(!confirm('Déconnecter ce navigateur de ton compte Kovelyx ? Les profils locaux seront conservés.'))return;
         const account=window.MaCollectionAccount;
