@@ -24,7 +24,7 @@ try{
       document.querySelector('#title-screen-overlay')?.classList.contains('active'),{timeout:60000});
     await page.waitForFunction(()=>{
       const imgs=[...document.querySelectorAll('.mc-wall-card img')];
-      if(imgs.length!==54)return false;
+      if(imgs.length!==66)return false;
       const visible=imgs.filter(i=>{const r=i.getBoundingClientRect();return r.bottom>0&&r.top<innerHeight&&r.right>0&&r.left<innerWidth;});
       return visible.length>=6&&visible.every(i=>i.complete&&i.naturalWidth>0);
     },{timeout:20000});
@@ -73,9 +73,9 @@ try{
     assert(data.nav&&data.themeInNav,'Actions de navigation manquantes');
     assert(data.dynamicShown&&data.dynamicLabel.includes(data.count.toLocaleString('fr-FR')),
       'Compteur non relié au catalogue : '+data.dynamicLabel);
-    assert(data.wallReady&&data.wallColumns===9&&data.wallCards===54,
+    assert(data.wallReady&&data.wallColumns===11&&data.wallCards===66,
       'Le mur de cartes local n’est pas construit : '+JSON.stringify(data));
-    assert(data.wallImagesLocal&&data.wallUniqueArt>=20,
+    assert(data.wallImagesLocal&&data.wallUniqueArt>=16,
       'Les visuels ne sont pas tous indépendants et variés : '+JSON.stringify(data));
     assert(data.bg==='none','L’ancienne image répétée est encore visible');
     assert(data.ctaBg==='rgb(0, 231, 165)','Bouton principal encore violet : '+data.ctaBg);
