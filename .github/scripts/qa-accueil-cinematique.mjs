@@ -23,10 +23,10 @@ try{
     await page.waitForFunction(()=>window.collectionData?.length>10&&
       document.querySelector('#title-screen-overlay')?.classList.contains('active'),{timeout:60000});
     await page.waitForFunction(()=>{
-      const imgs=[...document.querySelectorAll('.mc-wall-card img')];
-      if(imgs.length!==66)return false;
-      const visible=imgs.filter(i=>{const r=i.getBoundingClientRect();return r.bottom>0&&r.top<innerHeight&&r.right>0&&r.left<innerWidth;});
-      return visible.length>=6&&visible.every(i=>i.complete&&i.naturalWidth>0);
+      const cards=[...document.querySelectorAll('.mc-wall-poster')];
+      if(cards.length!==66)return false;
+      const visible=cards.filter(i=>{const r=i.getBoundingClientRect();return r.bottom>0&&r.top<innerHeight&&r.right>0&&r.left<innerWidth;});
+      return visible.length>=6&&visible.every(i=>getComputedStyle(i).backgroundImage.includes('assets/mur-affiches.webp'));
     },{timeout:20000});
     const data=await page.evaluate(()=>{
       const get=id=>document.querySelector(id);
@@ -47,8 +47,11 @@ try{
         wallCards:wall.querySelectorAll('.mc-wall-card').length,
         wallColumns:wall.querySelectorAll('.mc-wall-column').length,
         wallReady:wall.classList.contains('mc-wall-with-cards'),
-        wallImagesLocal:[...wall.querySelectorAll('img')].every(i=>i.getAttribute('src').startsWith('assets/genres/')&&i.getAttribute('src').endsWith('.webp')),
-        wallUniqueArt:new Set([...wall.querySelectorAll('img')].map(i=>i.getAttribute('src'))).size,
+        wallImagesLocal:[...wall.querySelectorAll('.mc-wall-poster')].every(card=>
+          getComputedStyle(card).backgroundImage.includes('assets/mur-affiches.webp')),
+        wallUniqueArt:new Set([...wall.querySelectorAll('.mc-wall-poster')].map(card=>card.dataset.crop)).size,
+        muralRequests:performance.getEntriesByType('resource').filter(r=>new URL(r.name).pathname.endsWith('/assets/mur-affiches.webp')).length,
+        genreRequests:performance.getEntriesByType('resource').filter(r=>new URL(r.name).pathname.includes('/assets/genres/')).length,
         ctaBg:getComputedStyle(primary).backgroundColor,
         primaryRadius:getComputedStyle(primary).borderRadius,
         dockOverflow:dock.scrollWidth-dock.clientWidth,
@@ -76,7 +79,9 @@ try{
     assert(data.wallReady&&data.wallColumns===11&&data.wallCards===66,
       'Le mur de cartes local n’est pas construit : '+JSON.stringify(data));
     assert(data.wallImagesLocal&&data.wallUniqueArt>=16,
-      'Les visuels ne sont pas tous indépendants et variés : '+JSON.stringify(data));
+      'Les cadrages locaux ne sont pas assez variés : '+JSON.stringify(data));
+    assert(data.muralRequests===1 && data.genreRequests===0,
+      'Le mur doit charger un seul média local, sans bannières de genre : '+JSON.stringify(data));
     assert(data.bg==='none','L’ancienne image répétée est encore visible');
     assert(data.ctaBg==='rgb(0, 231, 165)','Bouton principal encore violet : '+data.ctaBg);
     assert(data.ctaLabel.includes('Configuration express'));
