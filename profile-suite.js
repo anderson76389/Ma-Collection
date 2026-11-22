@@ -1,6 +1,6 @@
 import {
   SUITE_STORAGE,SUITE_SETTINGS,SUITE_SCHEMA,captureSuiteProfile,validateSuiteProfile,
-  sanitizeSuiteState,suiteLocalState,suiteSharePayload,suiteRestoreShared,
+  sanitizeSuiteState,suiteLocalState,migrateLegacyStudioProfiles,suiteSharePayload,suiteRestoreShared,
   moveSuiteItem,profileSuiteStats,applySuitePreset,suiteProfileChanges
 } from './profile-suite-model.mjs';
 import {renderSuiteScreen} from './profile-suite-view.mjs';
@@ -31,8 +31,20 @@ import {makeFolderArt,ART_STYLES,isGeneratedFolderArt} from './studio-art-genera
   }
   function load(){
     const start=seed();
-    try{store=sanitizeSuiteState(JSON.parse(localStorage.getItem(SUITE_STORAGE)||'null'),start);}
+    let raw=null;
+    try{raw=localStorage.getItem(SUITE_STORAGE);
+      store=sanitizeSuiteState(raw?JSON.parse(raw):null,start);}
     catch{store=suiteLocalState(start);}
+    if(!raw){
+      // Les profils de l'ancien Studio sont conservés et convertis UNE fois,
+      // uniquement lorsqu'aucune suite locale n'a encore été sauvegardée.
+      try{
+        const previous=JSON.parse(localStorage.getItem('ma_collection_studio_profiles_v1')||'[]');
+        const legacy=migrateLegacyStudioProfiles(previous);
+        for(const p of legacy.slice(0,11))store.profiles.push(p);
+        if(legacy.length)store.activeId=legacy[0].id;
+      }catch{/* Le profil par défaut reste utilisable sans ancien stockage. */}
+    }
     saved=copy(store.profiles.find(p=>p.id===store.activeId)||store.profiles[0]);
     draft=copy(saved);copyName=draft.name+' (copie)';
   }
