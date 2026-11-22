@@ -93,6 +93,7 @@ jobs:
           sleep 3
           node .github/scripts/qa-collection-fr.mjs
           node .github/scripts/qa-controls.mjs
+          node .github/scripts/qa-accueil-cinematique.mjs
           node .github/scripts/qa-studio-avance.mjs
           node .github/scripts/qa-profile-suite.mjs
           node .github/scripts/qa-profile-editor.mjs
@@ -108,5 +109,7 @@ jobs:
           path: |
             /tmp/ma-collection-studio-dashboard.png
             /tmp/ma-collection-profile-picker.png
+            /tmp/ma-collection-accueil-desktop.png
+            /tmp/ma-collection-accueil-mobile.png
           if-no-files-found: ignore
           retention-days: 14
