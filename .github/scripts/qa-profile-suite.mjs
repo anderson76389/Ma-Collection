@@ -23,7 +23,7 @@ try{
    await page.screenshot({path:'/tmp/ma-collection-studio-dashboard.png'});
  });
  await run('tous les écrans sont accessibles, traduits et sans erreurs JS',async()=>{
-   const screens=['all-settings','presets','player','autoplay','stream-picker','subtitles',
+   const screens=['all-settings','look','details','continue','alerts','presets','player','autoplay','stream-picker','subtitles',
     'language','filters','performance','poster','streaming','backups','history','copy','share',
     'account','artwork','quick','layout','add','addons'];
    for(const id of screens){
