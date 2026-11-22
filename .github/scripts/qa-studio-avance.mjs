@@ -217,7 +217,14 @@ await test('recherche globale : retrouver et ouvrir un dossier du brouillon',asy
   await switchStudioTab(page,'recherche');
   // Le premier dossier a été renommé dans le brouillon précédent : chercher son nouveau nom.
   const query='Mon dossier Studio';
-  await page.locator('[data-global-search]').fill(query);
+  const search=page.locator('[data-global-search]');
+  await search.fill(query);
+  assert(await page.locator('.mc-studio-global-item').count()>0);
+  await search.evaluate(el=>el.setSelectionRange(3,3));
+  await search.press('x');
+  assert.equal(await search.evaluate(el=>el.selectionStart),4,'La saisie doit conserver le curseur');
+  await search.press('Backspace');
+  assert.equal(await search.inputValue(),query,'Le résultat ne doit pas perdre la requête lors du rerendu');
   assert(await page.locator('.mc-studio-global-item').count()>0);
   await page.locator('.mc-studio-global-item').first().click();
   assert.equal(await page.locator('[data-tab=affiches]').getAttribute('aria-selected'),'true');
