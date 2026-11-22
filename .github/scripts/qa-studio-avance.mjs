@@ -98,7 +98,7 @@ await test('géométrie fidèle : double barre, cartes et menu non permanent',as
       profile:size('.suite-profile'),card:size('.suite-tiles button'),
       menuVisible:getComputedStyle(nav).visibility!=='hidden',width:innerWidth};
   });
-  assert(metrics.header.height>=58&&metrics.header.height<=74,JSON.stringify(metrics.header));
+  assert(metrics.header.height>=54&&metrics.header.height<=58,JSON.stringify(metrics.header));
   assert(metrics.sub.height>=45&&metrics.sub.height<=60,JSON.stringify(metrics.sub));
   assert(metrics.profile.y>metrics.sub.y+metrics.sub.height-1);
   assert(metrics.card.width>=235&&metrics.card.width<=360,JSON.stringify(metrics.card));
@@ -124,6 +124,18 @@ await test('Studio : ordre des cartes et vrai bouton Créer un dossier',async()=
   await page.locator('.mc-folder-close').click();
   await page.evaluate(()=>window.MaCollectionStudio.open('accueil'));
   await page.locator('#mc-studio-root [data-action=close]').click();
+});
+await test('Studio : Mes créations affiche les vrais dossiers et ouvre leur gestionnaire',async()=>{
+  await page.evaluate(()=>window.MaCollectionStudio.open('mes-creations'));
+  const root=page.locator('#mc-studio-root');
+  assert(await root.locator('.mc-studio-curations').isVisible());
+  const listed=await page.evaluate(()=>window.MaCollectionCustomFolders?.readRecords?.().length||0);
+  assert.equal(await root.locator('.mc-studio-curation-card').count(),listed);
+  await root.locator('.mc-studio-curations [data-action=create-folder]').click();
+  assert(await page.locator('.mc-folder-dialog').isVisible());
+  await page.locator('.mc-folder-close').click();
+  await page.evaluate(()=>window.MaCollectionStudio.open('accueil'));
+  await root.locator('[data-action=close]').click();
 });
 await test('réduction du mouvement respectée par le Studio',async()=>{
   await page.emulateMedia({reducedMotion:'reduce'});
