@@ -424,11 +424,11 @@ html[data-theme="high-contrast"] .mc-home-overlay .suite-wall .mc-wall-plane{dis
 /* Les petits écrans conservent leur mise en page actuelle. */
 @media(min-width:721px){
   .mc-home-overlay .title-screen-panel.mc-home .mc-home-intro {
-    padding-top:clamp(155px,19.2vh,205px);
+    padding-top:clamp(155px,20vh,220px);
   }
   .mc-home-overlay .mc-home .title-screen-logo {margin-bottom:18px}
-  .mc-home-overlay .mc-home .title-screen-tagline {margin-bottom:37px}
-  .mc-home-overlay .mc-home .home-search {margin-bottom:34px}
+  .mc-home-overlay .mc-home .title-screen-tagline {margin-bottom:42px}
+  .mc-home-overlay .mc-home .home-search {margin-bottom:39px}
   .mc-home-overlay .home-collection-count {margin-bottom:28px}
   .mc-home-overlay .mc-home .home-express {
     width:272px;min-width:272px;min-height:44px;height:44px;
