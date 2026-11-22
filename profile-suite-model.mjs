@@ -1,3 +1,5 @@
+import {isGeneratedFolderArt} from './studio-art-generator.mjs';
+
 /**
  * Ma-Collection — Suite Profil. Modèle local indépendant.
  * Les paramètres incompatibles avec l'application installée ne sont jamais
@@ -61,7 +63,7 @@ const clone=value=>JSON.parse(JSON.stringify(value));
 const cleanCover=value=>{
   const s=safeString(value,8192);
   if(!s||/kaptain\.stream|imkaptain|kaptainscollection/i.test(s))return '';
-  if(/^data:image\/svg\+xml;base64,[A-Za-z0-9+/=]+$/i.test(s))return s;
+  if(s.startsWith('data:'))return isGeneratedFolderArt(s)?s:'';
   if(/^(?:\.\/)?assets\/[a-z0-9_./-]+$/i.test(s)&&!s.includes('..'))return s;
   if(/^https:\/\/[^<>"'\s]+$/i.test(s))return s;
   return '';
@@ -79,6 +81,7 @@ const settingLimit=(key,value)=>{
     return Number.isFinite(value)?Math.min(max,Math.max(min,value)):SUITE_SETTINGS[key];
   }
   if(typeof value!=='string')return SUITE_SETTINGS[key];
+  if(key==='subtitleColor'&&!/^#[0-9a-f]{6}$/i.test(value))return SUITE_SETTINGS[key];
   return safeString(value,key==='posterUrl'?350:80);
 };
 export function sanitizeSuiteSettings(value){
