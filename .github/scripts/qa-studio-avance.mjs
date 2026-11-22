@@ -29,10 +29,9 @@ try {
 }
 
 async function switchStudioTab(where, tab){
-  const root=where.locator('#mc-studio-root');
-  const menu=root.locator('[data-action=studio-menu]');
+  const menu=where.locator('[data-action=studio-menu]');
   if(await menu.getAttribute('aria-expanded')!=='true') await menu.click();
-  await root.locator('[data-tab="'+tab+'"]').click();
+  await where.locator('[data-tab="'+tab+'"]').click();
 }
 const initialTotal=await page.evaluate(()=>window.collectionData.reduce((n,c)=>n+c.folders.length,0));
 
