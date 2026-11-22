@@ -67,6 +67,12 @@ try {
       await page.setViewportSize({width,height:835});
       const dock=page.getByRole("navigation",{name:"Navigation principale"});
       await dock.locator("#suite-menu").click();
+      const tools=page.locator('#mc-tools');
+      assert.equal(await tools.locator('.mc-tools-group').count(),4,
+        'Le menu doit regrouper les outils par parcours, pas les empiler sans structure');
+      assert.equal(await tools.locator('.mc-tools-option').count(),16,
+        'Toutes les fonctions existantes doivent rester présentes dans les quatre rubriques');
+      assert.equal(await tools.locator('.mc-tools-brand img').getAttribute('src'),'assets/kovelyx-logo.svg');
       await page.locator("#mc-tools").getByRole("button",{name:/Statistiques/}).click();
       const stats=page.getByRole("dialog",{name:"Statistiques de la collection"});
       assert.equal(await stats.locator("li").count(),await page.evaluate(()=>window.collectionData.length));
