@@ -2,6 +2,12 @@
  * Aucun paquet, CDN ni dépendance de polices ou du site de référence.
  */
 const shapes=Object.freeze({
+  createFolder:'<path d="M12 3v18M3 12h18"/><circle cx="12" cy="12" r="9"/>',
+  myCurations:'<rect x="3" y="4" width="8" height="16" rx="1.5"/><rect x="13" y="4" width="8" height="16" rx="1.5"/><path d="M6 10h2M16 10h2"/>',
+  historyExport:'<path d="M3 8a9 9 0 1 1-.2 8"/><path d="M3 3v5h5M12 7v5l3.5 2"/>',
+  tuneFilters:'<path d="M4 5h16M6 12h12M10 19h4"/><circle cx="9" cy="5" r="2" fill="currentColor" stroke="none"/><circle cx="15" cy="12" r="2" fill="currentColor" stroke="none"/>',
+  setup:'<rect x="2.5" y="4" width="19" height="16" rx="2"/><path d="M8 9h8M8 13h5M8 17h3"/>',
+  copy:'<rect x="8" y="7" width="13" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h3"/>',
   accueil:'<path d="m3 10 9-7 9 7"/><path d="M5 9v12h14V9"/><path d="M9 21v-7h6v7"/>',
   organisation:'<rect x="3" y="4" width="18" height="5" rx="1.5"/><rect x="3" y="11" width="18" height="4" rx="1.5"/><rect x="3" y="17" width="18" height="4" rx="1.5"/>',
   apercu:'<rect x="2.5" y="4.5" width="14" height="10" rx="2"/><path d="M7 18.5h5m-2.5-4v4"/><rect x="17.5" y="8" width="4" height="11.5" rx="1"/>',
