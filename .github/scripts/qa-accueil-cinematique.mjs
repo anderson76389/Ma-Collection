@@ -22,6 +22,12 @@ try{
     await page.goto('http://127.0.0.1:8877/',{waitUntil:'domcontentloaded',timeout:60000});
     await page.waitForFunction(()=>window.collectionData?.length>10&&
       document.querySelector('#title-screen-overlay')?.classList.contains('active'),{timeout:60000});
+    await page.waitForFunction(()=>{
+      const imgs=[...document.querySelectorAll('.mc-wall-card img')];
+      if(imgs.length!==54)return false;
+      const visible=imgs.filter(i=>{const r=i.getBoundingClientRect();return r.bottom>0&&r.top<innerHeight&&r.right>0&&r.left<innerWidth;});
+      return visible.length>=6&&visible.every(i=>i.complete&&i.naturalWidth>0);
+    },{timeout:20000});
     const data=await page.evaluate(()=>{
       const get=id=>document.querySelector(id);
       const rect=id=>{
@@ -38,6 +44,11 @@ try{
         search:rect('#home-search'),primary:rect('#title-screen-import-all'),
         return:rect('.home-return'),wall:rect('.suite-wall'),
         bg:getComputedStyle(wall,'::before').backgroundImage,
+        wallCards:wall.querySelectorAll('.mc-wall-card').length,
+        wallColumns:wall.querySelectorAll('.mc-wall-column').length,
+        wallReady:wall.classList.contains('mc-wall-with-cards'),
+        wallImagesLocal:[...wall.querySelectorAll('img')].every(i=>i.getAttribute('src').startsWith('assets/genres/')&&i.getAttribute('src').endsWith('.webp')),
+        wallUniqueArt:new Set([...wall.querySelectorAll('img')].map(i=>i.getAttribute('src'))).size,
         ctaBg:getComputedStyle(primary).backgroundColor,
         primaryRadius:getComputedStyle(primary).borderRadius,
         dockOverflow:dock.scrollWidth-dock.clientWidth,
@@ -62,12 +73,21 @@ try{
     assert(data.nav&&data.themeInNav,'Actions de navigation manquantes');
     assert(data.dynamicShown&&data.dynamicLabel.includes(data.count.toLocaleString('fr-FR')),
       'Compteur non relié au catalogue : '+data.dynamicLabel);
-    assert(data.bg.includes('mur-affiches.webp'),'Mur indépendant absent');
+    assert(data.wallReady&&data.wallColumns===9&&data.wallCards===54,
+      'Le mur de cartes local n’est pas construit : '+JSON.stringify(data));
+    assert(data.wallImagesLocal&&data.wallUniqueArt>=20,
+      'Les visuels ne sont pas tous indépendants et variés : '+JSON.stringify(data));
+    assert(data.bg==='none','L’ancienne image répétée est encore visible');
     assert(data.ctaBg==='rgb(0, 231, 165)','Bouton principal encore violet : '+data.ctaBg);
     assert(data.ctaLabel.includes('Configuration express'));
     assert(!broken.length,'Erreur JS : '+broken.join('; '));
     assert(!upstream.length,'Image ou script Kaptain chargé : '+upstream.join('; '));
-    if(width===2048)await page.screenshot({path:'/tmp/ma-collection-accueil-desktop.png',fullPage:false});
+    if(width===2048) {
+      // Le titre et le CTA doivent reprendre la position de la référence 2048×1031.
+      assert(data.title.y>220&&data.title.y<285,'Titre encore trop haut/bas à 2048 : '+data.title.y);
+      assert(data.primary.y>560&&data.primary.y<610,'Bouton express décalé de la référence : '+data.primary.y);
+      await page.screenshot({path:'/tmp/ma-collection-accueil-desktop.png',fullPage:false});
+    }
     if(width===390)await page.screenshot({path:'/tmp/ma-collection-accueil-mobile.png',fullPage:false});
     // Les nouveaux boutons sont connectés aux outils préexistants.
     await page.locator('#home-header-search').click();
