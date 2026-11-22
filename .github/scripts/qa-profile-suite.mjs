@@ -44,7 +44,7 @@ try{
    assert.equal(saved.profiles.find(p=>p.id===saved.activeId).settings.playerStyle,'minimal');
    await page.evaluate(()=>window.MaCollectionProfileSuite.open('subtitles'));
    const range=root.locator('[data-suite-field="subtitleFontSize"]');
-   await range.fill('37');await range.dispatchEvent('change');
+   await range.evaluate(el=>{el.value='37';el.dispatchEvent(new Event('input',{bubbles:true}));el.dispatchEvent(new Event('change',{bubbles:true}));});
    assert.equal(await root.locator('.mcps-subtitle-scene span').evaluate(e=>getComputedStyle(e).fontSize),'37px');
    await root.locator('[data-suite-save-top]').click();
  });
