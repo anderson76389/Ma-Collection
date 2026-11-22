@@ -6,6 +6,7 @@ import {
 import {renderSuiteScreen} from './profile-suite-view.mjs';
 import {captureDraft} from './studio-avance-core.mjs';
 import {makeFolderArt,ART_STYLES,isGeneratedFolderArt} from './studio-art-generator.mjs';
+import {normalizeKovelyxProfiles,makeKovelyxLocalCopy,accountDisplayName} from './profile-picker-core.mjs';
 
 /* Espace de travail indépendant. Les paramètres du lecteur non pris en charge
    sont enregistrés localement et exportables, jamais faussement synchronisés. */
@@ -16,6 +17,7 @@ import {makeFolderArt,ART_STYLES,isGeneratedFolderArt} from './studio-art-genera
   let root=null,store=null,draft=null,saved=null,dirty=false,opener=null;
   let screen='profiles',stack=[],notice='',search='',preset='',artSearch='',artRowId='',artFolderId='',artIndex=0;
   let copyName='',copyTarget='new',wizardStep=0,streamSamples='Film 1080p 4 Go\nFilm 2160p HDR 18 Go',streamTestResult='';
+  let cloudProfiles=[],cloudLoading=false,cloudError='',cloudRequest=0;
   const generated=new Map();
   const rows=()=>draft?.rows||[];
   const currentRow=()=>rows().find(r=>r.id===artRowId)||rows()[0]||null;
@@ -96,9 +98,71 @@ import {makeFolderArt,ART_STYLES,isGeneratedFolderArt} from './studio-art-genera
   }
   function context(){
     const row=currentRow(),folder=currentFolder();
+    const account=window.MaCollectionAccount;
+    const status=account?.status?.()||{};
     return {draft,saved,profiles:store.profiles,backups:store.backups,dirty,search,preset,
+      cloudProfiles,account:{signedIn:!!status.cloudSignedIn,loading:cloudLoading,
+      error:cloudError,email:accountDisplayName(status.cloudEmail)},
       artSearch,artIndex,artRowId:row?.id||'',artRow:row,artFolder:folder,
       artVariants:looks(),coverFor,copyName,copyTarget,wizardStep,streamSamples,streamTestResult};
+  }
+  async function refreshCloudProfiles(){
+    const account=window.MaCollectionAccount;
+    if(!account?.status?.().cloudSignedIn){
+      cloudProfiles=[];cloudError='';cloudLoading=false;cloudRequest++;
+      if(root&&!root.hidden&&screen==='profiles')render();
+      return;
+    }
+    const request=++cloudRequest;
+    cloudLoading=true;cloudError='';
+    if(root&&!root.hidden&&screen==='profiles')render();
+    try{
+      if(typeof account.cloudFetch!=='function')throw Error('Connexion Kovelyx indisponible.');
+      const response=await account.cloudFetch('/v1/profiles');
+      if(!response?.ok)throw Error('Impossible de charger les profils Kovelyx (HTTP '+(response?.status||'?')+').');
+      const result=normalizeKovelyxProfiles(await response.json());
+      if(request!==cloudRequest)return;
+      cloudProfiles=result;
+    }catch(e){
+      if(request!==cloudRequest)return;
+      cloudProfiles=[];
+      cloudError=e?.message||'Chargement des profils impossible.';
+    }finally{
+      if(request===cloudRequest){
+        cloudLoading=false;
+        if(root&&!root.hidden&&screen==='profiles')render();
+      }
+    }
+  }
+  async function selectCloudProfile(id){
+    if(cloudLoading)return;
+    const meta=cloudProfiles.find(p=>p.id===id);
+    if(!meta)return flash('Profil distant introuvable. Actualise la liste.');
+    if(dirty&&!confirm('Ignorer les modifications locales non enregistrées ?'))return;
+    if(typeof window.MaCollectionCloudPush?.readProfile!=='function')
+      return flash('Lecteur de profils Kovelyx indisponible. Utilise l’éditeur de profil complet.');
+    cloudLoading=true;cloudError='';render();
+    try{
+      const snapshot=await window.MaCollectionCloudPush.readProfile(id);
+      const next=makeKovelyxLocalCopy(meta,snapshot);
+      const i=store.profiles.findIndex(p=>p.id===next.id);
+      if(i>=0&&JSON.stringify(store.profiles[i].rows)!==JSON.stringify(next.rows)){
+        if(!confirm('Actualiser la copie locale depuis Kovelyx ? Exporte-la d’abord si tu as des changements à conserver.'))return;
+      }
+      if(i<0&&store.profiles.length>=12)
+        throw Error('Douze profils locaux maximum. Exporte un ancien profil avant d’en ajouter.');
+      const original=copy(store),beforeSaved=copy(saved),beforeDraft=copy(draft);
+      if(i<0)store.profiles.push(next);else store.profiles[i]=next;
+      store.activeId=next.id;
+      if(!persist()){
+        store=original;saved=beforeSaved;draft=beforeDraft;
+        throw Error('Copie de travail trop volumineuse pour le navigateur. Aucune donnée distante modifiée.');
+      }
+      saved=copy(next);draft=copy(next);dirty=false;copyName=next.name+' (copie)';
+      navigate('dashboard',true);
+      notice='Profil Kovelyx chargé comme copie de travail. Les modifications sont locales tant qu’elles ne sont pas publiées par l’éditeur complet.';
+    }catch(e){cloudError=e?.message||'Chargement du profil impossible.';notice=cloudError;}
+    finally{cloudLoading=false;render();}
   }
   function mount(){
     root=document.createElement('div');root.id='mc-profile-suite';
@@ -139,7 +203,7 @@ import {makeFolderArt,ART_STYLES,isGeneratedFolderArt} from './studio-art-genera
   }
   function goBack(){
     if(screen==='profiles')return close();
-    if(screen==='dashboard')return navigate('profiles',true);
+    if(screen==='dashboard'){navigate('profiles',true);void refreshCloudProfiles();return;}
     if(screen==='onboarding'&&wizardStep>0){wizardStep--;render();return;}
     navigate(stack.pop()||'dashboard',true);
   }
@@ -153,6 +217,7 @@ import {makeFolderArt,ART_STYLES,isGeneratedFolderArt} from './studio-art-genera
     if(!store)load();if(!root)mount();
     opener=document.activeElement;root.hidden=false;screen='profiles';stack=[];notice='';
     navigate(page,true);
+    if(page==='profiles')void refreshCloudProfiles();
     document.addEventListener('keydown',keydown,true);
     root.querySelector('[data-suite-close]').focus();
     if(location.hash.startsWith('#suite=')){
@@ -228,7 +293,10 @@ import {makeFolderArt,ART_STYLES,isGeneratedFolderArt} from './studio-art-genera
     else if(mode==='addons')window.MaCollectionStudio?.open('extensions');
     else if(mode==='history')window.MaCollectionProfileHistory?.open();
     else if(mode==='account')window.MaCollectionAccountUi?.openModal?.('cloud');
-    else if(mode==='profile')window.MaCollectionProfileEditor?.open();
+    else if(mode==='profile'){
+      const cloudId=draft?.id?.startsWith('mcps-cloud-')?draft.id.slice('mcps-cloud-'.length):undefined;
+      window.MaCollectionProfileEditor?.open({account:true,profileId:cloudId});
+    }
     else if(mode==='update')window.MaCollectionProfileEditor?.open({update:true});
     else if(mode==='folder')window.MaCollectionCustomFolders?.open();
     else if(mode==='wizard')window.startCustomize?.();
@@ -256,6 +324,9 @@ import {makeFolderArt,ART_STYLES,isGeneratedFolderArt} from './studio-art-genera
     if(button.hasAttribute('data-suite-back'))return goBack();
     if(button.dataset.suiteGo)return navigate(button.dataset.suiteGo);
     if(button.dataset.suiteSelect)return selectProfile(button.dataset.suiteSelect);
+    if(button.hasAttribute('data-suite-cloud-select')){
+      void selectCloudProfile(button.dataset.suiteCloudSelect);return;
+    }
     if(button.dataset.suiteFolder)return pickFolder(button.dataset.suiteFolder);
     if(button.dataset.suiteFolderUp||button.dataset.suiteFolderDown){
       const raw=button.dataset.suiteFolderUp||button.dataset.suiteFolderDown;
@@ -296,6 +367,17 @@ import {makeFolderArt,ART_STYLES,isGeneratedFolderArt} from './studio-art-genera
         draft=copy(b);draft.id=saved.id;dirty=true;notice='Sauvegarde chargée. Enregistre pour confirmer.';break;
       }
       case 'import':root.querySelector('[data-suite-upload]').click();break;
+      case 'refresh-cloud':void refreshCloudProfiles();return;
+      case 'sign-out':{
+        if(!confirm('Déconnecter ce navigateur de ton compte Kovelyx ? Les profils locaux seront conservés.'))return;
+        const account=window.MaCollectionAccount;
+        if(!account?.cloudLogout)return flash('Déconnexion indisponible.');
+        cloudLoading=true;render();
+        try{await account.cloudLogout();}catch(e){notice='Déconnexion locale effectuée, révocation distante non confirmée.';}
+        void refreshCloudProfiles();
+        return;
+      }
+      case 'edit-remote-profile':return openExternal('profile');
       case 'row-enable':{
         const r=rows().find(x=>x.id===id);if(r){r.enabled=!r.enabled;dirty=true;}break;
       }
