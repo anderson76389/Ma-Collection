@@ -14,7 +14,8 @@
 .mc-home-overlay .suite-wall{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
 .mc-home-overlay .suite-wall::before{
   inset:-25%;
-  background-image:url('assets/mur-affiches.webp');
+  /* Ne plus télécharger l'ancien mur répétitif : les cartes locales le remplacent. */
+  background-image:none;
   background-position:center;
   background-size:min(910px,88vw) auto;
   background-repeat:repeat;
