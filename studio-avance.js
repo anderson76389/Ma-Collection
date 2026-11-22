@@ -1,6 +1,6 @@
 import {ART_STYLES,makeFolderArt} from './studio-art-generator.mjs';
-import {STUDIO_WORKSPACE_TITLES,studioNavigationHtml} from './studio-workspace-nav.mjs';
-import {studioIcon} from './studio-icons.mjs';
+import {STUDIO_WORKSPACE_TITLES,studioNavigationHtml} from './studio-workspace-nav.mjs?v=2';
+import {studioIcon} from './studio-icons.mjs?v=2';
 import {addonInventoryFromDraft,buildAddonManifestFile} from './studio-addon-manifests.mjs';
 import {MAX_BACKUP_BYTES,collectionBackupToDraft} from './studio-collection-import.mjs';
 import {
