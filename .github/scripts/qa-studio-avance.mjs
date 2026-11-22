@@ -91,7 +91,10 @@ await test('Studio clavier : flèches, début/fin, sélection et confinement du 
   await page.evaluate(()=>window.MaCollectionStudio.open('organisation'));
   const studio=page.locator('#mc-studio-root'),menu=studio.locator('[data-action=studio-menu]');
   await menu.click();
+  await studio.locator('.mc-studio-side-brand').waitFor({state:'visible'});
   await studio.locator('[data-tab=organisation]').focus();
+  assert(await studio.locator('[data-tab=organisation]').evaluate(el=>document.activeElement===el),
+    'Un onglet visible doit recevoir le focus avant le raccourci');
   await page.keyboard.press('ArrowDown');
   assert(await studio.locator('[data-tab=apercu]').evaluate(el=>document.activeElement===el),
     'Flèche bas : onglet suivant au focus');
@@ -104,6 +107,7 @@ await test('Studio clavier : flèches, début/fin, sélection et confinement du 
   await page.keyboard.press('Enter');
   assert.equal(await studio.locator('[data-tab=accueil]').getAttribute('aria-selected'),'true');
   assert.equal(await menu.getAttribute('aria-expanded'),'false');
+  await studio.locator('.mc-studio-tabs').waitFor({state:'hidden'});
   await menu.focus();
   await page.keyboard.press('Shift+Tab');
   assert(await studio.locator('[data-action=apply]').evaluate(el=>document.activeElement===el),
@@ -121,6 +125,7 @@ await test('Studio clavier : flèches, début/fin, sélection et confinement du 
 await test('géométrie fidèle : double barre, cartes et menu non permanent',async()=>{
   await page.evaluate(()=>window.MaCollectionStudio.open('accueil'));
   const studio=page.locator('#mc-studio-root');
+  await studio.locator('.mc-studio-tabs').waitFor({state:'hidden'});
   const metrics=await studio.evaluate(el=>{
     const size=sel=>{const r=el.querySelector(sel).getBoundingClientRect();
       return {x:r.x,y:r.y,width:r.width,height:r.height};};
