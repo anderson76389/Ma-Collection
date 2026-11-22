@@ -239,7 +239,14 @@ await test('recherche globale : retrouver et ouvrir un dossier du brouillon',asy
   assert(await page.locator('.mc-studio-global-item').count()>0);
   await search.evaluate(el=>el.setSelectionRange(3,3));
   await search.press('x');
-  assert.equal(await search.evaluate(el=>el.selectionStart),4,'La saisie doit conserver le curseur');
+  const cursorState=await search.evaluate(el=>({
+    before:3,after:el.selectionStart,value:el.value,
+    focused:document.activeElement===el,
+    activeTag:document.activeElement?.tagName,
+    sameNode:el.isConnected,query:window.MaCollectionStudio?'ready':'missing'
+  }));
+  console.log('STUDIO_CURSOR_DIAGNOSTIC',JSON.stringify(cursorState));
+  assert.equal(cursorState.after,4,'La saisie doit conserver le curseur');
   await search.press('Backspace');
   assert.equal(await search.inputValue(),query,'Le résultat ne doit pas perdre la requête lors du rerendu');
   assert(await page.locator('.mc-studio-global-item').count()>0);
