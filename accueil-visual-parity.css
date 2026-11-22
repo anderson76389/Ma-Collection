@@ -191,3 +191,124 @@
   .mc-home-overlay .home-dock button,.mc-home-overlay .mc-home .portfolio-card,
   .mc-home-overlay .mc-home .home-express{transition:none!important}
 }
+
+/* Géométrie relevée dans l'archive Kaptain du 21/11/2026 :
+ * header 56 px, branches latérales et hub strictement au centre.
+ * Implémentation locale, sans feuilles de style ou scripts tiers.
+ */
+.mc-home-overlay .home-dock.mc-cockpit{
+  height:56px;min-height:56px;max-height:56px;
+  position:sticky;top:0;z-index:9;
+  justify-content:space-between;gap:0;
+  padding:0 20px;overflow:visible;
+  background:rgba(7,10,19,.95);
+  border-bottom:1px solid rgba(255,255,255,.08);
+  box-shadow:0 4px 20px rgba(0,0,0,.42);
+  backdrop-filter:blur(20px);
+}
+.mc-home-overlay .mc-cockpit-left,.mc-home-overlay .mc-cockpit-right{
+  position:relative;z-index:2;display:flex;align-items:center;min-width:42px;
+}
+.mc-home-overlay .mc-cockpit-left{justify-content:flex-start}
+.mc-home-overlay .mc-cockpit-right{justify-content:flex-end;margin-left:auto}
+.mc-home-overlay .mc-cockpit-center{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  display:flex;align-items:center;justify-content:center;gap:13px;
+  white-space:nowrap;z-index:3
+}
+.mc-home-overlay .mc-cockpit-branch{
+  display:flex;gap:5px;align-items:center;justify-content:center;
+}
+.mc-home-overlay .home-dock.mc-cockpit .mc-cockpit-branch button{
+  min-height:34px;height:34px;padding:0 14px;
+  color:var(--text-secondary);background:transparent;border:1px solid transparent;
+  border-radius:999px;font-size:.78rem;font-weight:670;
+}
+.mc-home-overlay .home-dock.mc-cockpit .mc-cockpit-branch button:hover,
+.mc-home-overlay .home-dock.mc-cockpit [data-home-target="title-screen-studio"]{
+  border-color:var(--border-hover);
+  color:var(--text-primary);background:var(--accent-subtle)
+}
+.mc-home-overlay .home-dock.mc-cockpit #suite-menu{
+  display:grid;place-items:center;width:40px;min-width:40px;height:40px;
+  padding:0;border-radius:10px;font-size:1.2rem;
+  color:var(--text-primary);background:transparent;border:1px solid transparent
+}
+.mc-home-overlay .home-dock.mc-cockpit #suite-menu:hover{
+  color:var(--home-mint);border-color:var(--border-hover)
+}
+.mc-home-overlay .home-dock.mc-cockpit #home-tools-menu.mc-cockpit-hub{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  margin:0;padding:0 14px 0 9px;min-height:34px;height:34px;
+  font-size:.78rem;font-weight:750;
+  border-radius:999px;border:1px solid rgba(255,255,255,.13);
+  background:rgba(255,255,255,.04);color:var(--text-primary)
+}
+.mc-home-overlay .home-dock.mc-cockpit #home-tools-menu:hover,
+.mc-home-overlay .home-dock.mc-cockpit #home-tools-menu[aria-expanded="true"]{
+  border-color:color-mix(in srgb,var(--home-mint) 55%,transparent);
+  background:var(--accent-subtle);
+}
+.mc-home-overlay .mc-cockpit-hub-logo{width:23px;height:23px;display:grid;place-items:center}
+.mc-home-overlay .mc-cockpit-hub-logo img{
+  width:23px;height:23px;filter:drop-shadow(0 0 5px var(--accent-glow));object-fit:contain
+}
+.mc-home-overlay .home-dock.mc-cockpit #title-theme-toggle{
+  min-width:36px;width:36px;min-height:36px;height:36px;
+  border-radius:50%;background:var(--bg-card);
+}
+.mc-home-overlay .mc-home .title-portfolio-showcase>.suite-feature-title{
+  position:absolute!important;width:1px!important;height:1px!important;
+  padding:0!important;overflow:hidden!important;clip-path:inset(50%)!important;
+  white-space:nowrap!important
+}
+.mc-home-overlay .mc-home-more-tools{
+  margin:36px 0 30px;
+  border-top:1px solid var(--border-hover);
+  background:transparent
+}
+.mc-home-overlay .mc-home-more-tools>summary{
+  cursor:pointer;list-style:none;
+  display:flex;align-items:center;gap:12px;
+  min-height:64px;padding:12px 18px;
+  background:var(--bg-card);border:1px solid var(--border-hover);
+  border-radius:14px;color:var(--text-primary)
+}
+.mc-home-overlay .mc-home-more-tools>summary::-webkit-details-marker{display:none}
+.mc-home-overlay .mc-home-more-tools>summary>span:first-child{
+  font-size:.94rem;font-weight:760
+}
+.mc-home-overlay .mc-home-more-tools>summary small{
+  color:var(--text-secondary);font-size:.77rem
+}
+.mc-home-overlay .mc-more-chevron{
+  margin-left:auto;font-size:1.3rem;color:var(--home-mint);
+  transition:transform .2s ease
+}
+.mc-home-overlay .mc-home-more-tools[open] .mc-more-chevron{transform:rotate(180deg)}
+.mc-home-overlay .mc-home-more-content{padding-top:26px}
+.mc-home-overlay .mc-home-more-tools>summary:hover{
+  border-color:color-mix(in srgb,var(--home-mint) 35%,transparent);
+  background:var(--bg-card-hover)
+}
+@media(max-width:960px){
+  .mc-home-overlay .home-dock.mc-cockpit{
+    overflow:visible;justify-content:space-between;height:56px;min-height:56px;
+    padding:0 12px
+  }
+  .mc-home-overlay .mc-cockpit-center{gap:8px}
+  .mc-home-overlay .mc-cockpit-branch button{padding:0 8px!important}
+}
+@media(max-width:720px){
+  .mc-home-overlay .mc-cockpit-branch{display:none}
+  .mc-home-overlay .home-dock.mc-cockpit{min-height:54px;height:54px;max-height:54px}
+  .mc-home-overlay .home-dock.mc-cockpit #home-tools-menu.mc-cockpit-hub{
+    margin:0;min-width:42px;padding:0 8px;
+  }
+  .mc-home-overlay .mc-cockpit-hub>span:not(.mc-cockpit-hub-logo){display:none}
+  .mc-home-overlay .mc-home-more-tools>summary{flex-wrap:wrap}
+  .mc-home-overlay .mc-home-more-tools>summary small{width:100%;order:3}
+}
+@media(prefers-reduced-motion:reduce){
+  .mc-home-overlay .mc-more-chevron{transition:none}
+}
