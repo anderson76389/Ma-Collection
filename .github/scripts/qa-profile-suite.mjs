@@ -98,6 +98,18 @@ try{
      assert(values.bodyWidth<=values.viewport+2,'Débordement global à '+width+'px: '+JSON.stringify(values));
    }
  });
+ await run('partage : le lien ouvre le Studio et demande un enregistrement explicite',async()=>{
+   await page.evaluate(()=>{
+     const payload={schema:1,name:'Profil partagé',settings:{skipIntro:true}};
+     location.hash='#suite='+encodeURIComponent(JSON.stringify(payload));
+   });
+   await root.waitFor({state:'visible'});
+   const details=await root.locator('[data-suite-body]').innerText();
+   assert(details.includes('Tous les paramètres'));
+   assert(await root.locator('[data-suite-save-top]').isEnabled(),'Lien dans le brouillon, sans envoi automatique');
+   await page.evaluate(()=>history.replaceState(null,'',location.pathname));
+   await page.evaluate(()=>window.MaCollectionProfileSuite.open('dashboard'));
+ });
  await run('aucune ressource tierce Kaptain n’est chargée par le nouveau Studio',async()=>{
    const urls=await page.evaluate(()=>performance.getEntriesByType('resource').map(x=>x.name));
    assert(!urls.some(x=>/kaptain\.stream/i.test(x)));
