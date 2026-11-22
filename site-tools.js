@@ -153,6 +153,7 @@
     else if(button.dataset.homeTarget==='title-screen-studio')window.MaCollectionProfileSuite?.open('profiles');
     else document.getElementById(button.dataset.homeTarget)?.click();
   });
+  document.getElementById('home-view-collection')?.addEventListener('click',()=>document.getElementById('title-screen-start')?.click());
   document.getElementById('home-edit-profile')?.addEventListener('click',()=>window.MaCollectionProfileEditor?.open({account:true}));
   document.getElementById('home-update-profile')?.addEventListener('click',()=>window.MaCollectionProfileEditor?.open({update:true}));
   const homeShortcuts={
