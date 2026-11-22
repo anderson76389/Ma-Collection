@@ -12,6 +12,8 @@ const settingLabels={
   backdropStyle:'Décors',loadingScreen:'Écran de chargement'
 };
 const displayValue=value=>typeof value==='boolean'?(value?'Activé':'Désactivé'):String(value);
+const avatarMarkup=p=>'<span class="mcps-profile-mark">'+
+    (p.avatar?'<img src="'+attr(p.avatar)+'" alt="">':h(p.name.charAt(0).toUpperCase()))+'</span>';
 const path={
   house:'M3 10.5 12 3l9 7.5V21H3V10.5z M9 21v-7h6v7',palette:'M12 3a9 9 0 1 0 0 18c1.7 0 2.5-1.9 1.5-3.2-1-1.2-.3-2.8 1.4-2.8H18a3 3 0 0 0 3-3 9 9 0 0 0-9-9z M8 8h.01 M12 6h.01 M16 8h.01 M7 13h.01',
   'list-check':'M9 6h12 M9 12h12 M9 18h12 M3 6l1.5 1.5L7 4 M3 12l1.5 1.5L7 10 M3 18l1.5 1.5L7 16',
@@ -59,7 +61,7 @@ const appStatus=(ctx,mode='settings')=>{
 export function renderSuiteDashboard(ctx){
   const s=profileSuiteStats(ctx.draft);
   return '<section class="mcps-dashboard"><div class="mcps-profile-strip">'+
-    '<div class="mcps-profile-mark">'+h(ctx.draft.name.charAt(0).toUpperCase())+'</div>'+
+    avatarMarkup(ctx.draft)+
     '<div class="mcps-profile-title"><strong>'+h(ctx.draft.name)+'</strong><span>'+s.rows+' rangées · '+s.folders+' dossiers actifs</span></div>'+
     go('profiles','Changer de profil','mcps-small')+'</div>'+
     '<div class="mcps-tiles">'+SUITE_PAGES.map(([key,name,desc,group,icon])=>
@@ -75,7 +77,7 @@ export function renderSuiteProfiles(ctx){
     '<div class="mcps-profile-grid">'+ctx.profiles.map(p=>{
       const s=profileSuiteStats(p);
       return '<button type="button" class="mcps-profile-option '+(p.id===ctx.draft.id?'selected':'')+'" data-suite-select="'+attr(p.id)+'">'+
-        '<span class="mcps-profile-mark">'+h(p.name.charAt(0).toUpperCase())+'</span><span class="mcps-profile-option-copy"><strong>'+h(p.name)+'</strong>'+
+        avatarMarkup(p)+'<span class="mcps-profile-option-copy"><strong>'+h(p.name)+'</strong>'+
         '<small>'+s.rows+' rangées · '+s.folders+' dossiers</small></span><span>Choisir ›</span></button>';
     }).join('')+'</div>';
 }
