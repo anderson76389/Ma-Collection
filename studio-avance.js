@@ -876,7 +876,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       ['affiches','','Affiches','Comparer et remplacer les images de chaque dossier.'],
       ['recherche','','Ajouter des rangées et dossiers','Parcourir toutes les catégories et retrouver les contenus à intégrer.'],
       ['createFolder','','Créer un dossier','Créer un catalogue TMDB personnalisé, avec son affiche.','create-folder'],
-      ['myCurations','','Mes créations','Retrouver et gérer les dossiers que tu as créés.','create-folder'],
+      ['mes-creations','','Mes créations','Retrouver et organiser les dossiers personnels déjà créés.'],
       ['extensions','','Extensions','Inspecter les sources actives et préparer l’import dans Kovelyx.'],
       ['bibliotheque','','Galerie des visuels','Choisir une illustration indépendante parmi les modèles disponibles.'],
       ['affiches-fr','','Affiches françaises','Importer les variantes françaises et gérer les styles.'],
@@ -894,6 +894,26 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     const rows=draft.sections.filter(s=>s.enabled);
     const count=rows.reduce((n,s)=>n+s.folders.filter(f=>f.enabled&&f.selectedKeys.length).length,0);
     return '<div class="suite-hub"><header class="suite-profile"><b aria-hidden="true">'+esc(draft.name.slice(0,1))+'</b><div><h3>'+esc(draft.name)+'</h3><small>'+rows.length+' rangées · '+count+' dossiers actifs</small></div><button type="button" data-hub-tab="profils">Changer de profil</button></header><div class="suite-tiles">'+tiles.map(([key,icon,title,desc,action])=>'<button type="button" '+(action?'data-action="'+action+'"':'data-hub-tab="'+key+'"')+'><i aria-hidden="true">'+studioIcon(key)+'</i><strong>'+title+'</strong><small>'+desc+'</small></button>').join('')+'</div></div>';
+  }
+  function renderCurations(){
+    const items=window.MaCollectionCustomFolders?.readRecords?.()||[];
+    const cards=items.map(item=>{
+      const cover=assetUrl(item.coverImageUrl||'');
+      const category=findCategory(item.categoryId);
+      return '<article class="mc-studio-curation-card">'+
+        (cover?'<img class="mc-studio-curation-cover" loading="lazy" src="'+esc(cover)+'" alt="">':
+          '<div class="mc-studio-curation-cover mc-studio-curation-placeholder" aria-hidden="true">'+studioIcon('mes-creations')+'</div>')+
+        '<div class="mc-studio-curation-details"><h4>'+esc(item.title)+'</h4>'+
+        '<small>'+esc(category?.title||'Catégorie personnelle')+' · '+esc(item.type)+' · TMDB '+esc(item.tmdbId)+'</small></div>'+
+        '</article>';
+    }).join('');
+    return '<section class="mc-studio-curations">'+
+      '<header class="mc-studio-curations-header"><div><h3>Mes créations</h3>'+
+      '<p>Les '+items.length+' dossiers que tu as créés, enregistrés localement dans Ma-Collection. Ils restent disponibles sans Kaptain.</p></div>'+
+      button('Créer ou gérer mes dossiers','create-folder')+'</header>'+
+      '<div class="mc-studio-curations-grid">'+(cards||'<p class="mc-studio-curations-empty">Aucune création enregistrée pour le moment. Utilise « Créer ou gérer mes dossiers » pour commencer.</p>')+'</div>'+
+      '<p class="mc-studio-hint">Pour supprimer un dossier, ouvre le gestionnaire : il te demande confirmation et met à jour les sélections. Les dossiers du catalogue original ne sont jamais modifiés.</p>'+
+      '</section>';
   }
   function renderProfiles(){
     const p=profiles.map(x=>{
@@ -967,7 +987,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     root.querySelector('.mc-studio-context')?.classList.toggle('mc-studio-at-home',tab==='accueil');
     const back=root.querySelector('[data-action="studio-home"].mc-studio-back');
     if(back)back.hidden=tab==='accueil';
-    body.innerHTML=(tab==='accueil'?renderHub():tab==='organisation'?renderSections():tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():tab==='modifications'?renderChanges():tab==='outils'?renderWorkshop():tab==='bibliotheque'?renderArtLibrary():tab==='affiches-fr'?renderFrenchArt():tab==='import-collection'?renderCollectionImport():tab==='extensions'?renderAddonExport():tab==='parametres'?renderPreferences():tab==='partage'?renderSharing():renderProfiles());
+    body.innerHTML=(tab==='accueil'?renderHub():tab==='mes-creations'?renderCurations():tab==='organisation'?renderSections():tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():tab==='modifications'?renderChanges():tab==='outils'?renderWorkshop():tab==='bibliotheque'?renderArtLibrary():tab==='affiches-fr'?renderFrenchArt():tab==='import-collection'?renderCollectionImport():tab==='extensions'?renderAddonExport():tab==='parametres'?renderPreferences():tab==='partage'?renderSharing():renderProfiles());
     if(didNavigate){
       body.scrollTop=0;
       // Annuler toute animation précédente avant d'en lancer une autre.
@@ -1283,6 +1303,9 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     else if(a==='import')root.querySelector('[data-file]')?.click();
     else if(a==='create-folder'){
       if(window.MaCollectionCustomFolders?.open){
+        const baseline=getBase();
+        if(JSON.stringify(draft)!==JSON.stringify(baseline) &&
+          !window.confirm('Tu as des modifications non publiées dans le Studio. Ouvrir le gestionnaire sans les appliquer ?'))return;
         close();
         window.MaCollectionCustomFolders.open();
       }else{
