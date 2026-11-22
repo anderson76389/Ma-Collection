@@ -98,6 +98,15 @@
    modal.hidden=false;modal.querySelector('[data-tools-close]').focus();
  }
  function install(){
+  const accountButton=document.getElementById('home-header-account');
+  if(accountButton){
+    const signed=!!window.MaCollectionAccount?.status?.().cloudSignedIn;
+    const label=accountButton.querySelector('.mc-header-label');
+    const mark=accountButton.querySelector('.mc-account-circle');
+    if(label){const value=signed?'Mon compte':'Se connecter';if(label.textContent!==value)label.textContent=value;}
+    if(mark){const value=signed?'✓':'●';if(mark.textContent!==value)mark.textContent=value;}
+    accountButton.setAttribute('aria-label',signed?'Ouvrir mon compte Kovelyx':'Se connecter à Kovelyx');
+  }
   const bar=document.getElementById('nv-preview-secondary');
   if(bar&&!bar.querySelector('[data-mc-tools]')){for(const [text,fn]of [['Mon profil Kovelyx',()=>window.MaCollectionProfileEditor?.open()],['Tous les outils',open]]){const b=document.createElement('button');b.type='button';b.className='cat-action-btn';b.dataset.mcTools='';b.textContent=text;b.addEventListener('click',fn);bar.appendChild(b);}}
  }
@@ -138,10 +147,13 @@
     const button=event.target.closest('button');
     if(!button)return;
     if(button.id==='suite-menu'||button.id==='home-tools-menu')open();
+    else if(button.id==='home-header-search')document.getElementById('home-search')?.click();
+    else if(button.id==='home-header-account')window.MaCollectionAccountUi?.openModal('cloud');
     else if(button.id==='suite-stats')showStats();
     else if(button.dataset.homeTarget==='title-screen-studio')window.MaCollectionProfileSuite?.open('profiles');
     else document.getElementById(button.dataset.homeTarget)?.click();
   });
+  document.getElementById('home-view-collection')?.addEventListener('click',()=>document.getElementById('title-screen-start')?.click());
   document.getElementById('home-edit-profile')?.addEventListener('click',()=>window.MaCollectionProfileEditor?.open({account:true}));
   document.getElementById('home-update-profile')?.addEventListener('click',()=>window.MaCollectionProfileEditor?.open({update:true}));
   const homeShortcuts={

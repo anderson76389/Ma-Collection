@@ -4377,7 +4377,22 @@ function showTitleScreen() {
   const overlay = document.getElementById('title-screen-overlay');
   const versionEl = document.getElementById('title-screen-version');
   if (versionEl) versionEl.textContent = MA_COLLECTION_UPDATED;
-  if (overlay) overlay.classList.add('active');
+  // Les chiffres de l'accueil viennent exclusivement du catalogue chargé.
+  // Aucun compteur d'utilisateurs ou de collections inventé.
+  const count = document.getElementById('home-collection-count');
+  if (count) {
+    const rows = Array.isArray(database) ? database : [];
+    const folders = rows.reduce((total, row) => total + (Array.isArray(row.folders) ? row.folders.length : 0), 0);
+    count.hidden = !folders;
+    count.textContent = folders ? folders.toLocaleString('fr-FR') + ' dossiers dans ' +
+      rows.length.toLocaleString('fr-FR') + ' collections' : '';
+  }
+  if (overlay) {
+    // Un chargement direct sur / montre d'abord cette scène d'accueil.
+    // Les liens profonds #/studio restent accessibles séparément.
+    overlay.classList.add('active');
+    overlay.scrollTop = 0;
+  }
   renderChangelogBanner();
 }
 

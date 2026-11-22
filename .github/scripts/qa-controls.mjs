@@ -111,7 +111,7 @@ try {
       assert(layout.tools.every(tool=>tool.left>=0 && tool.right<=layout.viewport));
       assert.deepEqual(layout.groups,["Aide et prise en main","Studio de personnalisation","Extensions et hébergement","Création et visuels","Profils et export"]);
       assert(layout.themeInHeader,"Le bouton de thème doit être aligné dans la navigation");
-      assert(layout.dockHeight>=50&&layout.dockHeight<=85,"Barre d’accueil disproportionnée : "+layout.dockHeight);
+      assert(layout.dockHeight>=38&&layout.dockHeight<=56,"Barre d’accueil cinématique disproportionnée : "+layout.dockHeight);
       assert.equal(layout.faq,"FAQ et guides de configuration");
       assert(["Vos catalogues en français","Collection intégrale"].includes(layout.brand),
         "Sous-titre en français inattendu : "+layout.brand);
