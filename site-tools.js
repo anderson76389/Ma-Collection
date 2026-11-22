@@ -4,9 +4,9 @@
  const tools=[
   ['Statistiques','Rangées, dossiers et sources du catalogue',()=>showStats()],
   ['Collection','Parcourir et sélectionner les dossiers',()=>window.hideTitleScreen?.()],
-  ['Assistant guidé','Région, langue, filtres, plateformes et chaînes',()=>window.startCustomize?.()],
+  ['Assistant guidé','Collection, compte, profil, préférences et streaming',()=>window.MaCollectionProfileSuite?.open('onboarding')],
   ['Éditeur rapide','Activer les dossiers et les sources',()=>window.openSimpleEditor?.()],
-  ['Studio des catalogues','Profils locaux, affiches, styles et sauvegardes',()=>window.MaCollectionStudio?.open('accueil')],
+  ['Studio complet','Profils, rangées, affiches, lecture et tous les paramètres',()=>window.MaCollectionProfileSuite?.open('profiles')],
   ['Mon profil Kovelyx','Lire, créer, réordonner et publier un profil complet',()=>window.MaCollectionProfileEditor?.open()],
   ['Bibliothèque et historique','Titres enregistrés, vus et en cours sur Kovelyx',()=>window.MaCollectionProfileHistory?.open()],
   ['Créer un dossier','Saga, liste, studio, réseau, acteur ou réalisateur',()=>window.MaCollectionCustomFolders?.open()],
@@ -105,14 +105,27 @@
  function refresh(){if(pending)return;pending=true;requestAnimationFrame(()=>{pending=false;install();});}
  function route(){
    const key=location.hash.replace(/^#\/?/,'');
+   if(key.startsWith('suite=')){
+     // Un lien de partage ne contient que des préférences non sensibles.
+     // Le Studio valide le schéma et demande une sauvegarde explicite.
+     let attempts=0;
+     const openShared=()=>{
+       if(!location.hash.replace(/^#\/?/,'').startsWith('suite='))return;
+       if(window.MaCollectionProfileSuite?.open){
+         window.MaCollectionProfileSuite.open('all-settings');return;
+       }
+       if(attempts++<80)setTimeout(openShared,100);
+     };
+     openShared();return;
+   }
    if(key==='studio'){
      // L'entrée directe /studio.html fonctionne même si les catalogues
      // se chargent après l'initialisation de la navigation.
      let attempts=0;
      const openStudio=()=>{
        if(location.hash.replace(/^#\/?/,'')!=='studio')return;
-       if(window.collectionData?.length && window.MaCollectionStudio?.open){
-         window.MaCollectionStudio.open('accueil');return;
+       if(window.collectionData?.length && window.MaCollectionProfileSuite?.open){
+         window.MaCollectionProfileSuite.open('profiles');return;
        }
        if(attempts++<80)setTimeout(openStudio,100);
      };
@@ -126,6 +139,7 @@
     if(!button)return;
     if(button.id==='suite-menu'||button.id==='home-tools-menu')open();
     else if(button.id==='suite-stats')showStats();
+    else if(button.dataset.homeTarget==='title-screen-studio')window.MaCollectionProfileSuite?.open('profiles');
     else document.getElementById(button.dataset.homeTarget)?.click();
   });
   document.getElementById('home-edit-profile')?.addEventListener('click',()=>window.MaCollectionProfileEditor?.open({account:true}));

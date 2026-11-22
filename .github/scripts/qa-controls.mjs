@@ -79,9 +79,9 @@ try {
       await stats.getByRole("button",{name:"Fermer"}).click();
       await dock.locator("#home-tools-menu").click();
       await page.locator("#mc-tools [data-tools-close]").click();
-      if(width<=720) await page.locator('#title-screen-studio').click();
+      if(width<=720)await page.locator('#title-screen-studio').click();
       else await dock.getByRole("button",{name:"Studio",exact:true}).click();
-      await page.locator("#mc-studio-root").waitFor({state:"visible"});
+      await page.locator("#mc-profile-suite").waitFor({state:"visible"});
       await page.keyboard.press("Escape");
       const layout=await page.evaluate(()=>{
         const center=id=>{
@@ -132,7 +132,7 @@ try {
     await page.locator("#faq-overlay.open").waitFor();
     await page.locator("#faq-close").click();
     await page.locator("#faq-overlay").waitFor({state:"detached"});
-    await page.locator("#title-screen-studio").click();
+    await page.evaluate(()=>window.MaCollectionStudio.open('accueil'));
     await page.locator("[data-hub-tab=profils]").first().click();
     assert.equal(await page.locator("[data-tab=profils]").getAttribute("aria-selected"),"true");
     await page.keyboard.press("Escape");
