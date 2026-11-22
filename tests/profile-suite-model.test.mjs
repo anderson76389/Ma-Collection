@@ -4,7 +4,7 @@ import {
   SUITE_SCHEMA,SUITE_SETTINGS,SUITE_PAGES,SUITE_PRESETS,
   captureSuiteProfile,validateSuiteProfile,profileSuiteStats,
   suiteProfileChanges,applySuitePreset,suiteSharePayload,
-  suiteLocalState,sanitizeSuiteState,suiteRestoreShared,moveSuiteItem
+  suiteLocalState,sanitizeSuiteState,suiteRestoreShared,moveSuiteItem,migrateLegacyStudioProfiles
 } from '../profile-suite-model.mjs';
 import {renderSuiteScreen,renderSuiteDashboard} from '../profile-suite-view.mjs';
 
@@ -107,4 +107,26 @@ test('les fonctions du lecteur et les styles ont leurs commandes de sauvegarde',
     assert(html.includes('data-suite-action="save"')||html.includes('data-suite-action="open-french-art"')||
       html.includes('data-suite-action="open-addon-manifests"'),id);
   }
+});
+
+test('retrouve les anciens profils enregistrés sans réutiliser les clés ni images Kaptain',()=>{
+  const older=[
+    {id:'local-mahe',name:'MAHÉ',updatedAt:'2026-11-21T10:10:00.000Z',
+     secret:'cle-inutile',sections:[
+      {id:'films',label:'Films',enabled:true,folders:[
+        {id:'action',label:'Action',enabled:true,selectedKeys:['a'],artwork:{
+          coverImageUrl:'https://kaptain.stream/cover.webp'
+        }}
+      ]}
+    ]},
+    {id:'local-maman',name:'MAMAN',updatedAt:'2026-11-20T10:10:00.000Z',sections:[
+      {id:'series',label:'Séries',enabled:true,folders:[]}
+    ]}
+  ];
+  const migrated=migrateLegacyStudioProfiles(older);
+  assert.deepEqual(migrated.map(x=>x.name),['MAHÉ','MAMAN']);
+  assert.equal(migrated[0].rows[0].folders[0].cover,'');
+  assert(!JSON.stringify(migrated).includes('cle-inutile'));
+  assert(migrated.every(p=>p.id.startsWith('mcps-ancien-')));
+  assert.deepEqual(migrateLegacyStudioProfiles([null,{}]),[]);
 });
