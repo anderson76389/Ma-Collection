@@ -1560,7 +1560,10 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     root.querySelector('[data-studio-context-title]')?.setAttribute('tabindex','-1');
   }
   function bootstrap(){
-    document.getElementById('title-screen-studio')?.addEventListener('click',()=>open('accueil'));
+    document.getElementById('title-screen-studio')?.addEventListener('click',()=>{
+      if(window.MaCollectionProfileSuite?.open)window.MaCollectionProfileSuite.open('profiles');
+      else open('accueil');
+    });
     document.getElementById('title-screen-restore')?.addEventListener('click',()=>open('import-collection'));
     document.getElementById('se-studio')?.addEventListener('click',()=>open());
     // Le bandeau cinématique est reconstruit à chaque navigation : délégation stable.
