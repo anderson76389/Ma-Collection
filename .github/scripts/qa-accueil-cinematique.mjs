@@ -24,7 +24,7 @@ try{
       document.querySelector('#title-screen-overlay')?.classList.contains('active'),{timeout:60000});
     await page.waitForFunction(()=>{
       const cards=[...document.querySelectorAll('.mc-wall-poster')];
-      if(cards.length!==66)return false;
+      if(cards.length!==45)return false;
       const visible=cards.filter(i=>{const r=i.getBoundingClientRect();return r.bottom>0&&r.top<innerHeight&&r.right>0&&r.left<innerWidth;});
       return visible.length>=6&&visible.every(i=>getComputedStyle(i).backgroundImage.includes('assets/mur-affiches.webp'));
     },{timeout:20000});
@@ -76,12 +76,12 @@ try{
     assert(data.nav&&data.themeInNav,'Actions de navigation manquantes');
     assert(data.dynamicShown&&data.dynamicLabel.includes(data.count.toLocaleString('fr-FR')),
       'Compteur non relié au catalogue : '+data.dynamicLabel);
-    assert(data.wallReady&&data.wallColumns===11&&data.wallCards===66,
-      'Le mur de cartes local n’est pas construit : '+JSON.stringify(data));
+    assert(data.wallReady&&data.wallColumns===9&&data.wallCards===45,
+      'Le mur de cartes cinéma n’est pas construit : '+JSON.stringify(data));
     assert(data.wallImagesLocal&&data.wallUniqueArt>=16,
       'Les cadrages locaux ne sont pas assez variés : '+JSON.stringify(data));
     assert(data.muralRequests===1,
-      'Le mur d’accueil doit charger un seul média local : '+JSON.stringify(data));
+      'Le fond de secours local doit charger un seul média : '+JSON.stringify(data));
     // Les images de genres utilisées dans les catalogues et les sections
     // situées sous l'accueil ne doivent pas être interdites ici.
     assert(data.bg==='none','L’ancienne image répétée est encore visible');
@@ -109,7 +109,7 @@ try{
     assert.equal(await page.evaluate(()=>window.__qaAccountOpened),'cloud');
     await page.close();
     passed++;
-    console.log('QA_ACCUEIL_OK '+width+'px, affiches locales, boutons sobres, actions fonctionnelles');
+    console.log('QA_ACCUEIL_OK '+width+'px, posters issus des catalogues et fond local, boutons et actions');
   }
   // La configuration express conserve son vrai parcours existant.
   const page=await browser.newPage({viewport:{width:1440,height:900}});
