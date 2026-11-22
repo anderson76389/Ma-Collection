@@ -506,3 +506,63 @@ html[data-theme="high-contrast"] .mc-home-overlay .suite-wall .mc-wall-plane{dis
     white-space:nowrap;
   }
 }
+
+
+/* V3 — mur de véritables affiches plutôt que bannières de catégories.
+   Les cartes extraient des cadrages distincts d'UN seul média local.
+   La fiche reste autonome, même hors ligne après mise en cache. */
+.mc-home-overlay .suite-wall.mc-wall-local-posters .mc-wall-poster {
+  background-image:linear-gradient(180deg,rgba(1,3,8,.06),rgba(1,3,8,.13)),url("assets/mur-affiches.webp");
+  background-size:100% 100%,500% 260%;
+  background-position:center, var(--crop-x,50%) var(--crop-y,50%);
+  background-repeat:no-repeat;
+  background-color:#0b1018;
+  box-shadow:0 7px 22px rgba(0,0,0,.55);
+  border:1px solid rgba(255,255,255,.055);
+}
+.mc-home-overlay .suite-wall.mc-wall-local-posters .mc-wall-plane{
+  transform:perspective(1750px) rotateX(5deg) rotateZ(-8.8deg) scale(1.045);
+}
+.mc-home-overlay .suite-wall.mc-wall-local-posters::after{
+  background:
+    radial-gradient(ellipse 54% 64% at 51% 45%,rgba(3,7,11,.985) 0%,rgba(3,7,11,.95) 39%,rgba(3,7,11,.72) 70%,rgba(3,7,11,.30) 100%),
+    radial-gradient(ellipse 36% 45% at 64% 45%,rgba(0,112,83,.18),transparent 95%),
+    linear-gradient(180deg,rgba(5,6,12,.17) 0%,rgba(3,5,10,.17) 67%,rgba(2,4,9,.81) 100%);
+}
+.mc-home-overlay .suite-wall.mc-wall-local-posters .mc-wall-card {
+  aspect-ratio:2/3;border-radius:11px;
+}
+/* Les éléments d'accueil doivent rester visuellement hiérarchisés :
+   gros titre, recherche et bouton menthe sans couleur violette. */
+.mc-home-overlay .mc-home .home-search:focus-visible,
+.mc-home-overlay .mc-home .home-express:focus-visible,
+.mc-home-overlay .mc-home .home-return button:focus-visible{
+  outline:2px solid #00e7a5;outline-offset:3px;
+}
+.mc-home-overlay .mc-home .home-express{
+  background:#00e7a5;color:#031c14;
+  box-shadow:0 8px 27px rgba(0,231,165,.15),inset 0 1px 0 rgba(255,255,255,.35);
+}
+.mc-home-overlay .mc-home .home-express:hover{
+  background:#33f0b5;box-shadow:0 10px 30px rgba(0,231,165,.24);
+}
+.mc-home-overlay .mc-home-intro .title-hero-logo-img{
+  filter:grayscale(1) sepia(.85) saturate(3) hue-rotate(95deg) brightness(1.15)
+    drop-shadow(0 0 14px rgba(0,231,165,.10));
+}
+@media(max-width:900px){
+  .mc-home-overlay .suite-wall.mc-wall-local-posters::after{
+    background:
+      radial-gradient(ellipse 86% 63% at 50% 44%,rgba(3,8,12,.98) 0%,rgba(3,8,12,.89) 56%,rgba(3,8,12,.52) 100%),
+      linear-gradient(180deg,rgba(3,6,11,.40),transparent 25%,rgba(3,6,11,.82));
+  }
+}
+@media(max-width:720px) {
+  .mc-home-overlay .suite-wall.mc-wall-local-posters .mc-wall-plane{
+    transform:translateX(-50%) rotateZ(-8.8deg) scale(1.02);
+  }
+  .mc-home-overlay .mc-home .home-express{width:min(100%,270px);}
+}
+@media(prefers-reduced-motion:reduce){
+  .mc-home-overlay .suite-wall.mc-wall-local-posters .mc-wall-column{animation:none!important;}
+}
