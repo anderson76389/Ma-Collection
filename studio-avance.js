@@ -1,5 +1,6 @@
 import {ART_STYLES,makeFolderArt} from './studio-art-generator.mjs';
 import {STUDIO_WORKSPACE_TITLES,studioNavigationHtml} from './studio-workspace-nav.mjs';
+import {studioIcon} from './studio-icons.mjs';
 import {addonInventoryFromDraft,buildAddonManifestFile} from './studio-addon-manifests.mjs';
 import {MAX_BACKUP_BYTES,collectionBackupToDraft} from './studio-collection-import.mjs';
 import {
@@ -883,7 +884,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     ];
     const rows=draft.sections.filter(s=>s.enabled);
     const count=rows.reduce((n,s)=>n+s.folders.filter(f=>f.enabled&&f.selectedKeys.length).length,0);
-    return '<div class="suite-hub"><header class="suite-profile"><b aria-hidden="true">'+esc(draft.name.slice(0,1))+'</b><div><h3>'+esc(draft.name)+'</h3><small>'+rows.length+' rangées · '+count+' dossiers actifs</small></div><button type="button" data-hub-tab="profils">Changer de profil</button></header><div class="suite-tiles">'+tiles.map(([key,icon,title,desc])=>'<button type="button" data-hub-tab="'+key+'"><i aria-hidden="true">'+icon+'</i><strong>'+title+'</strong><small>'+desc+'</small></button>').join('')+'</div></div>';
+    return '<div class="suite-hub"><header class="suite-profile"><b aria-hidden="true">'+esc(draft.name.slice(0,1))+'</b><div><h3>'+esc(draft.name)+'</h3><small>'+rows.length+' rangées · '+count+' dossiers actifs</small></div><button type="button" data-hub-tab="profils">Changer de profil</button></header><div class="suite-tiles">'+tiles.map(([key,icon,title,desc])=>'<button type="button" data-hub-tab="'+key+'"><i aria-hidden="true">'+studioIcon(key)+'</i><strong>'+title+'</strong><small>'+desc+'</small></button>').join('')+'</div></div>';
   }
   function renderProfiles(){
     const p=profiles.map(x=>{
