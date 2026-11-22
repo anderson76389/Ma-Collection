@@ -452,7 +452,7 @@
    Grille centrée, bandeau 76px, panneau 136px, cartes 76px, grand espace vide.
    Les compteurs affichés proviennent exclusivement des vrais profils.
 */
-#mc-profile-suite .mcps-main>.mcps-profile-picker{
+#mc-profile-suite .mcps-main>section.mcps-profile-picker:not(.mcps-dashboard):not(.mcps-layout):not(.mcps-artwork):not(.mcps-wizard){
   width:100%;max-width:none;margin:0;padding:0;
 }
 #mc-profile-suite .mcps-main:has(>.mcps-profile-picker){
