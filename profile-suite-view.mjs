@@ -177,13 +177,13 @@ export function renderSuitePresets(ctx){
 }
 export function renderSuiteAllSettings(ctx){
   const entries=[
-    ['Style et apparence','Thème, décors, badges et mode d’affichage','poster','palette'],
+    ['Style et apparence','Thème, décors, badges et mode d’affichage','look','palette'],
     ['Lecture','Enchaînement et écrans du lecteur','player','play'],
     ['Son et sous-titres','Langues et apparence des sous-titres','subtitles','captions'],
     ['Écran d’accueil','Rangées et collections','layout','house'],
-    ['Découverte','Pays, langue et exclusions','filters','sliders'],
-    ['Lecture en cours','Ordre de reprise et épisodes','autoplay','skip-forward'],
-    ['Alertes','Notifications et mises à jour','backups','history'],
+    ['Fiches des médias','Bandes-annonces, épisodes et acteurs','details','image'],
+    ['Reprise de lecture','Ordre de reprise et progression','continue','skip-forward'],
+    ['Alertes','Notifications des nouveaux épisodes','alerts','history'],
     ['Services connectés','Extensions et compte Kovelyx','streaming','link']
   ];
   return title('Tous les paramètres','Tout est regroupé par usage, avec des modifications annulables.')+
@@ -192,6 +192,60 @@ export function renderSuiteAllSettings(ctx){
       '<span class="mcps-icon">'+suiteIcon(icon)+'</span><b>'+h(name)+'</b>'+
       '<small>'+h(description)+'</small><span class="mcps-tile-arrow">'+suiteIcon('arrow')+'</span></button>'
     ).join('')+'</div>';
+}
+export function renderSuiteLook(ctx){
+  const s=ctx.draft.settings;
+  return title('Apparence','Personnalise la présentation générale et les informations affichées sur les affiches.')+
+    '<div class="mcps-columns-3">'+
+    row('1. Thème','<div class="mcps-choices">'+
+      choice('theme','dark','Sombre',s.theme,'Interface sombre, accent vert menthe.')+
+      choice('theme','light','Clair',s.theme,'Présentation lumineuse.')+
+      choice('theme','contrast','Contraste élevé',s.theme,'Éléments plus contrastés.')+'</div>')+
+    row('2. Décors et affiches',
+      field('backdropStyle','Arrière-plan',select('backdropStyle',[
+        ['classic','Classique'],['blur','Flou doux'],['none','Sans décor']
+      ],s.backdropStyle))+
+      toggle('qualityBadges','Afficher la qualité',s.qualityBadges,
+        'Badges de qualité quand cette option est prise en charge.'))+
+    appStatus(ctx)+'</div>';
+}
+export function renderSuiteDetails(ctx){
+  const s=ctx.draft.settings;
+  return title('Fiche des films et séries','Choisis les détails à afficher lorsque tu ouvres un titre.')+
+    '<div class="mcps-columns-2">'+
+    row('Films et séries',
+      toggle('showTrailers','Bandes-annonces',s.showTrailers,'Afficher les trailers quand ils sont disponibles.')+
+      toggle('showOverview','Résumé et description',s.showOverview)+
+      toggle('showCast','Acteurs et distribution',s.showCast))+
+    row('Épisodes',
+      toggle('showEpisodeImages','Illustrations des épisodes',s.showEpisodeImages)+
+      '<p class="mcps-muted">Ces préférences peuvent être exportées dans ton profil. Kovelyx doit les prendre en charge pour les appliquer aux fiches réelles.</p>')+
+    '</div><div class="mcps-inline-save">'+appStatus(ctx)+'</div>';
+}
+export function renderSuiteContinue(ctx){
+  const s=ctx.draft.settings;
+  return title('Reprise de lecture','Définis comment les séries et films en cours s’affichent sur ta page d’accueil.')+
+    '<div class="mcps-columns-2">'+
+    row('1. Ordre de tri',
+      '<div class="mcps-radio-stack">'+
+      choice('continueSorting','recent','Dernière lecture',s.continueSorting)+
+      choice('continueSorting','remaining','Temps restant',s.continueSorting)+
+      choice('continueSorting','alphabetical','Ordre alphabétique',s.continueSorting)+'</div>')+
+    row('2. Présentation',
+      toggle('continueShowProgress','Afficher la progression',s.continueShowProgress)+
+      toggle('continueHideCompleted','Masquer les titres terminés',s.continueHideCompleted)+
+      '<p class="mcps-muted">Les titres réels de ta liste sont conservés dans ton compte Kovelyx.</p>')+
+    '</div><div class="mcps-inline-save">'+appStatus(ctx)+'</div>';
+}
+export function renderSuiteAlerts(ctx){
+  const s=ctx.draft.settings;
+  return title('Alertes','Prépare les alertes sur les nouveaux épisodes et les changements de ton catalogue.')+
+    '<div class="mcps-columns-2">'+
+    row('Notifications',
+      toggle('notifications','Alertes pour les nouveaux épisodes',s.notifications,
+        'Une notification nécessite la prise en charge et l’autorisation de Kovelyx.')+
+      '<p class="mcps-muted">Aucune alerte distante ne sera activée sans l’application cliente. Ce bouton modifie uniquement tes préférences de profil.</p>')+
+    appStatus(ctx)+'</div>';
 }
 export function renderSuitePlayer(ctx){
   const s=ctx.draft.settings;
@@ -429,6 +483,10 @@ export function renderSuiteScreen(screen,ctx){
   if(screen==='artwork')return renderSuiteArtwork(ctx);
   if(screen==='presets')return renderSuitePresets(ctx);
   if(screen==='all-settings')return renderSuiteAllSettings(ctx);
+  if(screen==='look')return renderSuiteLook(ctx);
+  if(screen==='details')return renderSuiteDetails(ctx);
+  if(screen==='continue')return renderSuiteContinue(ctx);
+  if(screen==='alerts')return renderSuiteAlerts(ctx);
   if(screen==='player')return renderSuitePlayer(ctx);
   if(screen==='autoplay')return renderSuiteAutoplay(ctx);
   if(screen==='stream-picker')return renderSuiteStreamPicker(ctx);
