@@ -58,7 +58,7 @@ await test('Accueil FR : raccourcis vers les outils du Studio complet',async()=>
   }
 });
 await test('Studio plein écran : menu latéral français, préférences réelles et partage',async()=>{
-  await page.locator('#title-screen-studio').click();
+  await page.evaluate(()=>window.MaCollectionStudio.open('accueil'));
   const studio=page.locator('#mc-studio-root');
   assert(await studio.isVisible());
   assert.equal(await studio.locator('[data-tab]').count(),15);
