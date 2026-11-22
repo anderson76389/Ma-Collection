@@ -16,9 +16,9 @@
   inset:-25%;
   background-image:url('assets/mur-affiches.webp');
   background-position:center;
-  background-size:min(1060px,92vw) auto;
+  background-size:min(910px,88vw) auto;
   background-repeat:repeat;
-  opacity:.72;
+  opacity:.60;
   filter:saturate(.87) brightness(.92);
   transform:rotate(-8deg) scale(1.10);
   animation:mc-home-mosaic-drift 72s ease-in-out infinite alternate;
@@ -26,7 +26,7 @@
 }
 .mc-home-overlay .suite-wall::after {
   background:
-    radial-gradient(ellipse 39% 59% at 51% 47%,rgba(1,10,11,.98) 0%,rgba(3,8,12,.90) 49%,rgba(2,6,12,.57) 80%,rgba(3,6,11,.40) 100%),
+    radial-gradient(ellipse 45% 59% at 51% 47%,rgba(1,8,10,.99) 0%,rgba(3,8,12,.94) 49%,rgba(2,6,12,.64) 80%,rgba(3,6,11,.46) 100%),
     radial-gradient(ellipse 47% 42% at 66% 54%,rgba(0,103,80,.16),transparent 85%),
     linear-gradient(180deg,rgba(5,8,14,.23),rgba(4,8,13,.10) 45%,rgba(2,4,7,.60));
 }
@@ -34,6 +34,9 @@
   from{transform:rotate(-8deg) scale(1.10) translate3d(-.6%,.4%,0)}
   to{transform:rotate(-8deg) scale(1.10) translate3d(.6%,-.4%,0)}
 }
+/* Le compte global reste disponible sur les pages intérieures.
+   Dans l'accueil il ferait doublon avec le nouveau bouton « Se connecter ». */
+body:has(#title-screen-overlay.active) #account-chrome{display:none!important}
 .mc-home-overlay .title-screen-panel.mc-home{
   width:100%;max-width:1150px;margin:0 auto;padding:0 18px;z-index:1;
 }
