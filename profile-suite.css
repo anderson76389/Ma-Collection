@@ -456,6 +456,14 @@
 }
 #mc-profile-suite.mcps-screen-profiles [data-suite-active-profile]{display:none}
 
+#mc-profile-suite.mcps-screen-profiles{
+  font-family:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+#mc-profile-suite.mcps-screen-profiles .mcps-picker-banner h1,
+#mc-profile-suite.mcps-screen-profiles .mcps-picker-account h2,
+#mc-profile-suite.mcps-screen-profiles .mcps-picker-card-details strong{
+  font-family:'Outfit','Inter',sans-serif;
+}
 /* Sélecteur de profils — écran de référence, isolé du reste du Studio.
    Grille centrée, bandeau 76px, panneau 136px, cartes 76px, grand espace vide.
    Les compteurs affichés proviennent exclusivement des vrais profils.
