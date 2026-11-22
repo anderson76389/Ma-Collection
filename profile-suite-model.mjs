@@ -58,6 +58,14 @@ export const SUITE_PRESETS=Object.freeze([
 ]);
 const safeString=(value,max=90)=>String(value??'').normalize('NFC').replace(/[\u0000-\u001f\u007f]/g,' ').trim().slice(0,max);
 const clone=value=>JSON.parse(JSON.stringify(value));
+const cleanCover=value=>{
+  const s=safeString(value,8192);
+  if(!s||/kaptain\.stream|imkaptain|kaptainscollection/i.test(s))return '';
+  if(/^data:image\/svg\+xml;base64,[A-Za-z0-9+/=]+$/i.test(s))return s;
+  if(/^(?:\.\/)?assets\/[a-z0-9_./-]+$/i.test(s)&&!s.includes('..'))return s;
+  if(/^https:\/\/[^<>"'\s]+$/i.test(s))return s;
+  return '';
+};
 const TYPES=Object.freeze(Object.fromEntries(Object.entries(SUITE_SETTINGS).map(([k,v])=>[k,typeof v])));
 const settingLimit=(key,value)=>{
   if(TYPES[key]==='boolean')return typeof value==='boolean'?value:SUITE_SETTINGS[key];
@@ -88,7 +96,7 @@ export function captureSuiteProfile(studioDraft,name='Mon profil'){
     folders:(Array.isArray(row.folders)?row.folders:[]).slice(0,500).map(folder=>({
       id:safeString(folder.id,100),name:safeString(folder.label||folder.title,85),
       enabled:folder.enabled!==false,
-      cover:safeString(folder.artwork?.coverImageUrl||folder.coverImageUrl||'',600),
+      cover:cleanCover(folder.artwork?.coverImageUrl||folder.coverImageUrl||''),
       sourceCount:Array.isArray(folder.selectedKeys)?folder.selectedKeys.length:
         Array.isArray(folder.sources)?folder.sources.length:0
     }))
@@ -115,7 +123,7 @@ export function validateSuiteProfile(input){
         if(!folderId||seen.has(folderId))throw Error('Identifiant de dossier invalide ou dupliqué.');
         seen.add(folderId);
         return {id:folderId,name:safeString(f.name,85)||'Dossier',enabled:f.enabled!==false,
-          cover:safeString(f.cover,600),sourceCount:Math.max(0,Math.min(1000,Math.trunc(Number(f.sourceCount)||0)))};
+          cover:cleanCover(f.cover),sourceCount:Math.max(0,Math.min(1000,Math.trunc(Number(f.sourceCount)||0)))};
       })
     };
   });
