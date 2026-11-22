@@ -970,6 +970,9 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     body.innerHTML=(tab==='accueil'?renderHub():tab==='organisation'?renderSections():tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():tab==='modifications'?renderChanges():tab==='outils'?renderWorkshop():tab==='bibliotheque'?renderArtLibrary():tab==='affiches-fr'?renderFrenchArt():tab==='import-collection'?renderCollectionImport():tab==='extensions'?renderAddonExport():tab==='parametres'?renderPreferences():tab==='partage'?renderSharing():renderProfiles());
     if(didNavigate){
       body.scrollTop=0;
+      // Annuler toute animation précédente avant d'en lancer une autre.
+      // Un utilisateur peut activer « Réduire les animations » à tout moment.
+      for(const animation of body.getAnimations?.()||[]) animation.cancel();
       if(typeof body.animate==='function' && !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
         body.animate([{opacity:.55,transform:'translateY(7px)'},{opacity:1,transform:'translateY(0)'}],
           {duration:230,easing:'cubic-bezier(.16,1,.3,1)'});
