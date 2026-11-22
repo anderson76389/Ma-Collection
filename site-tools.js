@@ -4,7 +4,7 @@
  const tools=[
   ['Statistiques','Rangées, dossiers et sources du catalogue',()=>showStats()],
   ['Collection','Parcourir et sélectionner les dossiers',()=>window.hideTitleScreen?.()],
-  ['Assistant guidé','Région, langue, filtres, plateformes et chaînes',()=>window.startCustomize?.()],
+  ['Assistant guidé','Collection, compte, profil, préférences et streaming',()=>window.MaCollectionProfileSuite?.open('onboarding')],
   ['Éditeur rapide','Activer les dossiers et les sources',()=>window.openSimpleEditor?.()],
   ['Studio complet','Profils, rangées, affiches, lecture et tous les paramètres',()=>window.MaCollectionProfileSuite?.open('profiles')],
   ['Mon profil Kovelyx','Lire, créer, réordonner et publier un profil complet',()=>window.MaCollectionProfileEditor?.open()],
