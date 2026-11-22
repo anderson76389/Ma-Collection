@@ -2,6 +2,7 @@
    Géométrie et couleurs étudiées à partir des captures fournies.
    Aucun import de CSS / police / image Kaptain. */
 #mc-profile-suite[hidden]{display:none!important}
+#mc-profile-suite [hidden]{display:none!important}
 #mc-profile-suite{
  --ps-bg:#090b0f;--ps-surface:#11141c;--ps-raised:#151924;
  --ps-border:rgba(177,193,213,.105);--ps-sub:#969ca9;--ps-fg:#f7f8fb;
