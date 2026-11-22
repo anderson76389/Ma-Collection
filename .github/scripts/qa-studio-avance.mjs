@@ -107,6 +107,22 @@ await test('géométrie fidèle : double barre, cartes et menu non permanent',as
   assert.equal(await studio.locator('[data-action=studio-menu]').getAttribute('aria-expanded'),'false');
   await studio.locator('[data-action=close]').click();
 });
+await test('Studio : ordre des cartes et vrai bouton Créer un dossier',async()=>{
+  await page.evaluate(()=>window.MaCollectionStudio.open('accueil'));
+  const studio=page.locator('#mc-studio-root');
+  const titles=await studio.locator('.suite-tiles button strong').allTextContents();
+  assert.equal(titles.length,19,'Les outils doivent être organisés selon les parcours du Studio de référence');
+  assert.deepEqual(titles.slice(0,6),[
+    'Écran d’accueil','Éditeur rapide','Affiches','Ajouter des rangées et dossiers',
+    'Créer un dossier','Mes créations'
+  ]);
+  await studio.locator('.suite-tiles [data-action=create-folder]').first().click();
+  assert(await page.locator('.mc-folder-dialog').isVisible(),
+    'Le bouton Créer un dossier doit ouvrir un véritable formulaire indépendant');
+  await page.locator('.mc-folder-close').click();
+  await page.evaluate(()=>window.MaCollectionStudio.open('accueil'));
+  await page.locator('#mc-studio-root [data-action=close]').click();
+});
 await test('réduction du mouvement respectée par le Studio',async()=>{
   await page.emulateMedia({reducedMotion:'reduce'});
   await page.evaluate(()=>window.MaCollectionStudio.open('accueil'));
