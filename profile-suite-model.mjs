@@ -47,7 +47,9 @@ export const SUITE_SETTINGS=Object.freeze({
   networkMbps:50,device:'tv-basic',posterMode:'default',posterUrl:'',
   debrid:'',streamPreset:'best',streamFusion:true,comet:true,
   aioMetadata:true,subtitlesAddon:true,notifications:false,
-  qualityBadges:false,backdropStyle:'classic',continueSorting:'recent'
+  qualityBadges:false,backdropStyle:'classic',continueSorting:'recent',
+  showTrailers:true,showEpisodeImages:true,showCast:true,showOverview:true,
+  continueShowProgress:true,continueHideCompleted:false
 });
 export const SUITE_PRESETS=Object.freeze([
   {id:'general',name:'Grand public',desc:'Des réglages équilibrés pour tous les jours.',changes:{theme:'dark',autoplay:true,skipIntro:false,skipRecap:false,qualityBadges:true}},
