@@ -74,6 +74,7 @@ export function renderSuiteProfiles(ctx){
   const account=ctx.account||{},signed=!!account.signedIn,cloud=ctx.cloudProfiles||[];
   const cloudIds=new Set(cloud.map(p=>'mcps-cloud-'+p.id));
   const local=ctx.profiles.filter(p=>!signed||!cloudIds.has(p.id));
+  const localVisible=!signed||cloud.length===0||!!ctx.showLocalProfiles;
   const avatar=p=>p.avatar?'<span class="mcps-picker-avatar"><img src="'+attr(p.avatar)+'" alt="" loading="lazy"></span>':
     '<span class="mcps-picker-avatar mcps-picker-initial" aria-hidden="true">'+h(p.name.charAt(0).toUpperCase())+'</span>';
   const profileCard=(p,kind)=>{
@@ -96,22 +97,23 @@ export function renderSuiteProfiles(ctx){
     '<p>Choisis le profil que tu souhaites personnaliser ou réorganiser.</p></div></div>'+
     '<section class="mcps-picker-account"><div><h2>Plusieurs comptes Kovelyx ?</h2>'+
     '<p>'+(signed?
-      'Tu es connecté à ton propre compte Kovelyx. Les profils distants sont lus uniquement à ta demande ; tes changements ne sont jamais publiés automatiquement.':
+      'Tu es connecté à ton propre compte Kovelyx. Les profils sont chargés depuis ton serveur ; aucune modification n’est publiée automatiquement.':
       'Connecte ton compte Kovelyx pour retrouver ses profils sur tes appareils. Sans connexion, tes profils locaux restent disponibles.')+
     '</p></div><div class="mcps-picker-account-actions">'+
       action('open-account',signed?'Gérer mon compte':'Se connecter à Kovelyx','mcps-small')+
-      (signed?action('refresh-cloud','Actualiser les profils','mcps-small'):'')+
+      (signed?action('refresh-cloud','Actualiser','mcps-small'):'')+
+      (signed&&cloud.length?action('show-local',localVisible?'Masquer les profils locaux':'Profils locaux','mcps-small'):'')+
     '</div></section>'+
-    (signed?'<div class="mcps-picker-section-title"><strong>Profils de mon compte</strong>'+
+    (signed?'<div class="mcps-picker-section-title mcps-picker-cloud-heading"><strong>Profils de mon compte</strong>'+
       '<span>'+cloud.length+' profil'+(cloud.length>1?'s':'')+'</span></div>'+
       cloudStatus+
       '<div class="mcps-picker-grid" aria-label="Profils Kovelyx">'+cloud.map(p=>profileCard(p,'cloud')).join('')+'</div>':'')+
-    '<div class="mcps-picker-section-title"><strong>'+(signed?'Profils sur cet appareil':'Mes profils locaux')+'</strong>'+
+    (localVisible?'<div class="mcps-picker-section-title"><strong>'+(signed?'Profils sur cet appareil':'Mes profils locaux')+'</strong>'+
       '<span>'+local.length+' profil'+(local.length>1?'s':'')+'</span></div>'+
-    '<div class="mcps-picker-grid" aria-label="Profils locaux">'+local.map(p=>profileCard(p,'local')).join('')+'</div>'+
-    '<div class="mcps-picker-secondary">'+
-      action('new-profile','Créer un profil local','mcps-small')+
-      action('import','Importer une sauvegarde JSON','mcps-small')+'</div>'+
+      '<div class="mcps-picker-grid" aria-label="Profils locaux">'+local.map(p=>profileCard(p,'local')).join('')+'</div>'+
+      '<div class="mcps-picker-secondary">'+
+        action('new-profile','Créer un profil local','mcps-small')+
+        action('import','Importer une sauvegarde JSON','mcps-small')+'</div>':'')+
     '<footer class="mcps-picker-footer">'+
       action('open-account','Utiliser un autre compte','mcps-text-button')+
       (signed?action('sign-out','Se déconnecter de '+(account.email||'Kovelyx'),'mcps-text-button'):'')+
