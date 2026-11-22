@@ -83,7 +83,7 @@ test('tous les écrans sont rendus, en français, avec de vraies actions',()=>{
     assert(!html.includes('https://kaptain.stream'),id+' dépendant');
     assert(!html.includes('onclick='),id+' gestionnaire non délégué');
   }
-  for(const page of ['profiles','dashboard','onboarding']){
+  for(const page of ['profiles','dashboard','onboarding','look','details','continue','alerts']){
     assert(renderSuiteScreen(page,ctx).length>150);
   }
   const hub=renderSuiteDashboard(ctx);
