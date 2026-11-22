@@ -73,7 +73,8 @@ try {
       await stats.getByRole("button",{name:"Fermer"}).click();
       await dock.locator("#home-tools-menu").click();
       await page.locator("#mc-tools [data-tools-close]").click();
-      await dock.getByRole("button",{name:"Studio",exact:true}).click();
+      if(width<=720) await page.locator('#title-screen-studio').click();
+      else await dock.getByRole("button",{name:"Studio",exact:true}).click();
       await page.locator("#mc-studio-root").waitFor({state:"visible"});
       await page.keyboard.press("Escape");
       const layout=await page.evaluate(()=>{
