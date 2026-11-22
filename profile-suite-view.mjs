@@ -62,7 +62,9 @@ export function renderSuiteDashboard(ctx){
   const s=profileSuiteStats(ctx.draft);
   return '<section class="mcps-dashboard"><div class="mcps-profile-strip">'+
     avatarMarkup(ctx.draft)+
-    '<div class="mcps-profile-title"><strong>'+h(ctx.draft.name)+'</strong><span>'+s.rows+' rangées · '+s.folders+' dossiers actifs</span></div>'+
+    '<div class="mcps-profile-title"><strong>'+h(ctx.draft.name)+'</strong><span>'+s.rows+' rangées · '+s.folders+' dossiers actifs</span>'+
+    (ctx.draft.id.startsWith('mcps-cloud-')?'<small>Copie locale du profil Kovelyx · publication distincte</small>':'')+'</div>'+
+    (ctx.draft.id.startsWith('mcps-cloud-')?action('edit-remote-profile','Ouvrir l’éditeur Kovelyx','mcps-small'):'')+
     go('profiles','Changer de profil','mcps-small')+'</div>'+
     '<div class="mcps-tiles">'+SUITE_PAGES.map(([key,name,desc,group,icon])=>
       '<button type="button" class="mcps-tile" data-suite-go="'+attr(key)+'"><span class="mcps-icon">'+suiteIcon(icon)+'</span>'+
