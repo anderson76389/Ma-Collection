@@ -332,12 +332,18 @@ html[data-theme="light"] .mc-home-overlay .mc-home .home-return button{color:#3d
   .mc-home-overlay .mc-home .home-return button{
     flex:1;max-width:none;min-width:115px;white-space:normal;height:auto;min-height:36px;
   }
-  .mc-home-overlay .mc-home-intro .title-test-code{bottom:18px;left:2px;max-width:190px}
+  .mc-home-overlay .mc-home-intro .title-hero-logo-emblem{bottom:110px}
+  .mc-home-overlay .mc-home-intro .title-scroll-indicator{bottom:65px}
+  .mc-home-overlay .mc-home-intro .title-test-code{bottom:16px;left:8px;max-width:195px}
   .mc-home-overlay .mc-home-tip{display:none}
 }
 @media(max-width:385px){
   .mc-home-overlay .home-dock.mc-cockpit .mc-header-shortcut:last-of-type{display:none}
   .mc-home-overlay .mc-home .home-return button{padding-inline:6px;font-size:.69rem}
+}
+@media(max-width:720px) and (max-height:740px){
+  .mc-home-overlay .mc-home-intro .title-hero-logo-emblem,
+  .mc-home-overlay .mc-home-intro .title-scroll-indicator{display:none}
 }
 @media(max-height:720px) and (min-width:721px){
   .mc-home-overlay .title-screen-panel.mc-home .mc-home-intro{
