@@ -175,6 +175,29 @@ async function handle(button){
  }catch(error){notice=error.message||'Opération impossible.';}
  finally{busy=false;draw();}
 }
-function open({account=false,update=false}={}){profiles=[];if(!root)mount();if(!initialized){initialized=true;try{const saved=JSON.parse(localStorage.getItem('ma_collection_profile_draft_v1')||'null');if(saved?.schema===1)editor=new ProfileEditor(saved.rows);}catch{}}returnFocus=document.activeElement;accountOpen=account||update;updateOpen=update;root.hidden=false;notice='Éditeur de profil complet : import local ou lecture de ton compte Kovelyx. Rien n’est publié automatiquement.';draw();root.querySelector('button').focus();if(account&&window.MaCollectionAccount?.status?.().cloudSignedIn)handle(root.querySelector('[data-profile-action=profiles]'));}
+function open({account=false,update=false,profileId=null}={}){
+ profiles=[];
+ if(!root)mount();
+ if(!initialized){
+   initialized=true;
+   try{
+     const saved=JSON.parse(localStorage.getItem('ma_collection_profile_draft_v1')||'null');
+     if(saved?.schema===1)editor=new ProfileEditor(saved.rows);
+   }catch{}
+ }
+ returnFocus=document.activeElement;accountOpen=account||update;
+ updateOpen=update;root.hidden=false;
+ notice='Éditeur de profil complet : import local ou lecture de ton compte Kovelyx. Rien n’est publié automatiquement.';
+ draw();root.querySelector('button').focus();
+ if(account&&window.MaCollectionAccount?.status?.().cloudSignedIn){
+   // Après la lecture de la liste, ouvrir le profil exact choisi dans le Studio.
+   // Un id inconnu est ignoré : l'utilisateur peut choisir manuellement.
+   void (async()=>{
+     await handle(root.querySelector('[data-profile-action=profiles]'));
+     if(!root.hidden&&profileId&&profiles.some(p=>p.id===profileId))
+       await handle({dataset:{profileAction:'load',id:profileId}});
+   })();
+ }
+}
 function close(){if(busy)return;remember();root.hidden=true;returnFocus?.focus?.();}
 window.MaCollectionProfileEditor=Object.freeze({open});
