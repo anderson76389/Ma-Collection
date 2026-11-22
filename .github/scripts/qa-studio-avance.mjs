@@ -70,7 +70,8 @@ await test('Studio plein écran : menu latéral français, préférences réelle
   assert(await studio.locator('.mc-studio-side-brand').isHidden(),'Le menu ne doit pas encombrer le Studio');
   assert(await studio.locator('.mc-studio-top-links').isVisible(),'La navigation supérieure doit être visible');
   await studio.locator('[data-action=studio-menu]').click();
-  assert(await studio.locator('.mc-studio-side-brand').isVisible(),'Le menu du Studio doit être ouvrable');
+  await studio.locator('.mc-studio-side-brand').waitFor({state:'visible',timeout:2500});
+  assert.equal(await studio.locator('[data-action=studio-menu]').getAttribute('aria-expanded'),'true');
   await studio.locator('[data-action=studio-menu]').click();
   await switchStudioTab(studio,'parametres');
   await studio.locator('[data-action=studio-theme][data-theme-value=light]').click();
