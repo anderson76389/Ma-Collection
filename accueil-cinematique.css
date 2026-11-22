@@ -242,6 +242,27 @@ body:has(#title-screen-overlay.active) #account-chrome{display:none!important}
 .mc-home-overlay .home-dock.mc-cockpit #title-theme-toggle:hover{
   border-color:rgba(0,231,165,.3);color:#e9fff7;
 }
+.mc-home-overlay .mc-home-view-collection{
+  position:fixed;right:22px;bottom:17px;z-index:7;
+  display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  min-height:38px;padding:0 17px;border-radius:999px;
+  color:#e5edf2;background:rgba(12,18,27,.88);
+  border:1px solid rgba(194,211,222,.17);
+  box-shadow:0 8px 28px rgba(0,0,0,.27);
+  font-family:'Inter',sans-serif;font-size:.76rem;font-weight:690;
+  cursor:pointer;backdrop-filter:blur(14px);
+  transition:background .16s,border-color .16s,transform .16s;
+}
+.mc-home-overlay .mc-home-view-collection span{color:var(--home-mint);font-size:1.13rem}
+.mc-home-overlay .mc-home-view-collection:hover{
+  background:rgba(10,34,31,.96);border-color:rgba(0,231,165,.44);transform:translateY(-2px)
+}
+.mc-home-overlay .mc-home-view-collection:focus-visible{
+  outline:2px solid var(--home-mint);outline-offset:3px
+}
+@media(max-width:720px){
+ .mc-home-overlay .mc-home-view-collection{right:12px;bottom:12px;min-height:36px;padding:0 12px;font-size:.72rem}
+}
 .mc-home-overlay .mc-home .portfolio-card{
   background:rgba(16,18,24,.90);border-color:rgba(255,255,255,.10);
   box-shadow:none;border-radius:15px;
