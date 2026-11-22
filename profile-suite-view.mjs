@@ -136,6 +136,14 @@ export function renderSuiteQuick(ctx){
 export function renderSuiteArtwork(ctx){
   const images=ctx.artVariants||[];
   const item=images[ctx.artIndex]||images[0]||{};
+  const peek=(offset,layer)=>{
+    if(images.length<2)return '';
+    const candidate=images[(ctx.artIndex+offset+images.length)%images.length];
+    const url=ctx.coverFor(candidate?.url||'');
+    if(!url)return '';
+    return '<div class="mcps-art-peek mcps-art-peek-'+layer+'" aria-hidden="true">'+
+      '<img src="'+attr(url)+'" alt=""><small>'+h(candidate.label||'Variante')+'</small></div>';
+  };
   return '<section class="mcps-artwork">'+
     '<div class="mcps-art-tools">'+
     '<input type="search" data-suite-art-search placeholder="Trouver un dossier…" value="'+attr(ctx.artSearch)+'">'+
@@ -145,6 +153,7 @@ export function renderSuiteArtwork(ctx){
     '<div class="mcps-art-stage"><div class="mcps-art-heading"><h1>'+h(ctx.artFolder?.name||'Affiches')+'</h1>'+
     '<p>'+h(ctx.artRow?.name||'')+' · Variante '+(ctx.artIndex+1)+' sur '+images.length+' · '+h(item.label||'')+'</p></div>'+
     '<div class="mcps-art-theatre">'+action('art-prev','‹','mcps-art-arrow')+
+    peek(2,'far')+peek(1,'next')+
     '<div class="mcps-art-main">'+(item.url?'<img src="'+attr(ctx.coverFor(item.url))+'" alt="Aperçu de '+attr(ctx.artFolder?.name)+'">':
     '<div class="mcps-art-missing">Choisis une image</div>')+'</div>'+
     action('art-next','›','mcps-art-arrow')+'</div>'+
