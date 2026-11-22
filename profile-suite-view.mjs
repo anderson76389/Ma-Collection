@@ -62,7 +62,9 @@ export function renderSuiteDashboard(ctx){
   const s=profileSuiteStats(ctx.draft);
   return '<section class="mcps-dashboard"><div class="mcps-profile-strip">'+
     avatarMarkup(ctx.draft)+
-    '<div class="mcps-profile-title"><strong>'+h(ctx.draft.name)+'</strong><span>'+s.rows+' rangées · '+s.folders+' dossiers actifs</span></div>'+
+    '<div class="mcps-profile-title"><strong>'+h(ctx.draft.name)+'</strong><span>'+s.rows+' rangées · '+s.folders+' dossiers actifs</span>'+
+    (ctx.draft.id.startsWith('mcps-cloud-')?'<small>Copie locale du profil Kovelyx · publication distincte</small>':'')+'</div>'+
+    (ctx.draft.id.startsWith('mcps-cloud-')?action('edit-remote-profile','Ouvrir l’éditeur Kovelyx','mcps-small'):'')+
     go('profiles','Changer de profil','mcps-small')+'</div>'+
     '<div class="mcps-tiles">'+SUITE_PAGES.map(([key,name,desc,group,icon])=>
       '<button type="button" class="mcps-tile" data-suite-go="'+attr(key)+'"><span class="mcps-icon">'+suiteIcon(icon)+'</span>'+
@@ -71,15 +73,53 @@ export function renderSuiteDashboard(ctx){
     '<footer class="mcps-dashboard-footer">Profil personnel indépendant · Aucune connexion à Kaptain</footer></section>';
 }
 export function renderSuiteProfiles(ctx){
-  return title('Choisir un profil','Sélectionne le profil que tu souhaites personnaliser ou importer.')+
-    '<section class="mcps-intro-card"><h3>Profils personnels</h3><p>Les profils sont enregistrés dans ce navigateur. Tu peux les exporter pour les conserver et les importer sur un autre appareil.</p>'+
-    action('new-profile','Créer un profil','mcps-primary')+action('import','Importer un profil JSON','mcps-small')+'</section>'+
-    '<div class="mcps-profile-grid">'+ctx.profiles.map(p=>{
-      const s=profileSuiteStats(p);
-      return '<button type="button" class="mcps-profile-option '+(p.id===ctx.draft.id?'selected':'')+'" data-suite-select="'+attr(p.id)+'">'+
-        avatarMarkup(p)+'<span class="mcps-profile-option-copy"><strong>'+h(p.name)+'</strong>'+
-        '<small>'+s.rows+' rangées · '+s.folders+' dossiers</small></span><span>Choisir ›</span></button>';
-    }).join('')+'</div>';
+  const account=ctx.account||{},signed=!!account.signedIn,cloud=ctx.cloudProfiles||[];
+  const cloudIds=new Set(cloud.map(p=>'mcps-cloud-'+p.id));
+  const local=ctx.profiles.filter(p=>!signed||!cloudIds.has(p.id));
+  const localVisible=!signed||cloud.length===0||!!ctx.showLocalProfiles;
+  const avatar=p=>p.avatar?'<span class="mcps-picker-avatar"><img src="'+attr(p.avatar)+'" alt="" loading="lazy"></span>':
+    '<span class="mcps-picker-avatar mcps-picker-initial" aria-hidden="true">'+h(p.name.charAt(0).toUpperCase())+'</span>';
+  const profileCard=(p,kind)=>{
+    const stats=kind==='cloud'?p:{rows:p.rows.length,folders:profileSuiteStats(p).available};
+    const counts=(stats.rows===null||stats.rows===undefined||stats.folders===null||stats.folders===undefined)?
+      'Collections à charger':stats.rows+' catégories · '+stats.folders+' dossiers';
+    return '<button type="button" class="mcps-picker-card" '+
+      (kind==='cloud'?'data-suite-cloud-select="'+attr(p.id)+'"':'data-suite-select="'+attr(p.id)+'"')+
+      ' aria-label="Choisir le profil '+attr(p.name)+'">'+
+      avatar(p)+'<span class="mcps-picker-card-details"><strong>'+h(p.name)+'</strong>'+
+      '<small>'+h(counts)+'</small></span>'+
+      '<span class="mcps-picker-card-select">Choisir <span aria-hidden="true">›</span></span></button>';
+  };
+  const cloudStatus=account.loading?
+    '<p class="mcps-picker-status" role="status">Chargement des profils de ton compte Kovelyx…</p>':
+    account.error?'<p class="mcps-picker-status is-error" role="alert">'+h(account.error)+'</p>':
+    signed&&cloud.length===0?'<p class="mcps-picker-status">Aucun profil distant disponible sur ce compte.</p>':'';
+  return '<section class="mcps-profile-picker"><div class="mcps-picker-inner">'+
+    '<div class="mcps-picker-banner"><div><h1>Choisir un profil à organiser</h1>'+
+    '<p>Choisis le profil que tu souhaites personnaliser ou réorganiser.</p></div></div>'+
+    '<section class="mcps-picker-account"><div><h2>Plusieurs comptes Kovelyx ?</h2>'+
+    '<p>'+(signed?
+      'Tu es connecté à ton propre compte Kovelyx. Les profils sont chargés depuis ton serveur ; aucune modification n’est publiée automatiquement.':
+      'Connecte ton compte Kovelyx pour retrouver ses profils sur tes appareils. Sans connexion, tes profils locaux restent disponibles.')+
+    '</p></div><div class="mcps-picker-account-actions">'+
+      action('open-account',signed?'Gérer mon compte':'Se connecter à Kovelyx','mcps-small')+
+      (signed?action('refresh-cloud','Actualiser','mcps-small'):'')+
+      (signed&&cloud.length?action('show-local',localVisible?'Masquer les profils locaux':'Profils locaux','mcps-small'):'')+
+    '</div></section>'+
+    (signed?'<div class="mcps-picker-section-title mcps-picker-cloud-heading"><strong>Profils de mon compte</strong>'+
+      '<span>'+cloud.length+' profil'+(cloud.length>1?'s':'')+'</span></div>'+
+      cloudStatus+
+      '<div class="mcps-picker-grid" aria-label="Profils Kovelyx">'+cloud.map(p=>profileCard(p,'cloud')).join('')+'</div>':'')+
+    (localVisible?'<div class="mcps-picker-section-title"><strong>'+(signed?'Profils sur cet appareil':'Mes profils locaux')+'</strong>'+
+      '<span>'+local.length+' profil'+(local.length>1?'s':'')+'</span></div>'+
+      '<div class="mcps-picker-grid" aria-label="Profils locaux">'+local.map(p=>profileCard(p,'local')).join('')+'</div>'+
+      '<div class="mcps-picker-secondary">'+
+        action('new-profile','Créer un profil local','mcps-small')+
+        action('import','Importer une sauvegarde JSON','mcps-small')+'</div>':'')+
+    '<footer class="mcps-picker-footer">'+
+      action('open-account','Utiliser un autre compte','mcps-text-button')+
+      (signed?action('sign-out','Se déconnecter de '+(account.email||'Kovelyx'),'mcps-text-button'):'')+
+    '</footer></div></section>';
 }
 export function renderSuiteLayout(ctx){
   const stats=profileSuiteStats(ctx.draft);
