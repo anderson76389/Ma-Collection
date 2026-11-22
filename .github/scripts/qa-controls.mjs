@@ -90,7 +90,11 @@ try {
           viewport:window.innerWidth,
           groups:[...document.querySelectorAll(".mc-home-tool-group h2")].map(heading=>heading.textContent.trim()),
           faq:document.querySelector("#title-screen-faq strong")?.textContent.trim(),
-          brand:document.querySelector(".brand-subtitle")?.textContent.trim()
+          brand:document.querySelector(".brand-subtitle")?.textContent.trim(),
+          dockHeight:document.querySelector(".home-dock").getBoundingClientRect().height,
+          themeInHeader:document.querySelector(".home-dock")?.contains(document.querySelector("#title-theme-toggle")),
+          dockScrollable:document.querySelector(".home-dock").scrollWidth<=document.querySelector(".home-dock").clientWidth+
+            document.querySelector(".home-dock").scrollWidth
         };
       });
       for(const name of ["primary","quick","logo","title"]){
@@ -99,6 +103,8 @@ try {
       }
       assert(layout.tools.every(tool=>tool.left>=0 && tool.right<=layout.viewport));
       assert.deepEqual(layout.groups,["Aide et prise en main","Studio de personnalisation","Création et visuels","Extensions et hébergement","Profils et export"]);
+      assert(layout.themeInHeader,"Le bouton de thème doit être aligné dans la navigation");
+      assert(layout.dockHeight>=50&&layout.dockHeight<=85,"Barre d’accueil disproportionnée : "+layout.dockHeight);
       assert.equal(layout.faq,"FAQ et guides de configuration");
       assert(["Vos catalogues en français","Collection intégrale"].includes(layout.brand),
         "Sous-titre en français inattendu : "+layout.brand);
