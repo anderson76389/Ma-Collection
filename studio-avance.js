@@ -1,5 +1,6 @@
 import {ART_STYLES,makeFolderArt} from './studio-art-generator.mjs';
 import {STUDIO_WORKSPACE_TITLES,studioNavigationHtml} from './studio-workspace-nav.mjs';
+import {studioIcon} from './studio-icons.mjs';
 import {addonInventoryFromDraft,buildAddonManifestFile} from './studio-addon-manifests.mjs';
 import {MAX_BACKUP_BYTES,collectionBackupToDraft} from './studio-collection-import.mjs';
 import {
@@ -28,6 +29,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
   let generatedStyle='cinema';
   let tab='organisation',selectedSection='',selectedFolder='',query='',message='';
   let dragging=null;
+  let navigationOpen=false, previousTab='';
   let previewDevice='tv',globalQuery='',globalActiveOnly=false,globalNoCover=false,undoLast=null;
   let backups=[],backupError='',applying=false;
   let workshopSearch='',workshopSection='all',workshopSelected=new Set(),workshopMode='active-first';
@@ -366,8 +368,24 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     draft=copy(found);pickSection();message='Profil chargé dans le Studio. Ta collection ne change pas avant « Appliquer ».';
     tab='organisation';draw();
   }
-  function close(){if(!root)return;root.hidden=true;document.removeEventListener('keydown',onEscape,true);}
-  function onEscape(e){if(e.key==='Escape'&&!root.hidden&&!document.querySelector('#mc-profile-editor:not([hidden])')){e.stopPropagation();close();}}
+  function setNavigation(open){
+    navigationOpen=!!open;
+    if(!root)return;
+    root.classList.toggle('mc-studio-nav-open',navigationOpen);
+    const toggle=root.querySelector('[data-action="studio-menu"]');
+    if(toggle)toggle.setAttribute('aria-expanded',String(navigationOpen));
+    const nav=root.querySelector('.mc-studio-tabs');
+    if(nav)nav.setAttribute('aria-hidden',String(!navigationOpen));
+    if('inert' in HTMLElement.prototype && nav)nav.inert=!navigationOpen;
+    root.querySelector('.mc-studio-nav-scrim')?.setAttribute('aria-hidden',String(!navigationOpen));
+  }
+  function close(){if(!root)return;setNavigation(false);root.hidden=true;document.removeEventListener('keydown',onEscape,true);}
+  function onEscape(e){
+    if(e.key!=='Escape'||root.hidden||document.querySelector('#mc-profile-editor:not([hidden])'))return;
+    e.stopPropagation();
+    if(navigationOpen){setNavigation(false);root.querySelector('[data-action="studio-menu"]')?.focus();}
+    else close();
+  }
   function open(initialTab='organisation'){
     if(!data().length){if(typeof window.showToast==='function')window.showToast('Collections non chargées. Réessaie.','error');return;}
     if(!originals)originals=originalsFor(data());
@@ -377,8 +395,9 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     libraryQuery='';libraryFilter='all';libraryUndo=null;
     frUndo=null;frSection='all';frActiveOnly=true;loadFrenchArt();
     if(!root)mount();
-    root.hidden=false;draw();refreshBackups();document.addEventListener('keydown',onEscape,true);
-    root.querySelector('.mc-studio-close')?.focus();
+    root.hidden=false;navigationOpen=false;previousTab='';
+    setNavigation(false);draw();refreshBackups();document.addEventListener('keydown',onEscape,true);
+    root.querySelector('[data-action="studio-menu"]')?.focus();
   }
   function loadFrenchArt(){
     frPack=null;frError='';
@@ -848,24 +867,33 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       '</div>';
   }
   function renderHub(){
+    // Le rangement privilégie les mêmes parcours de travail que le site de
+    // référence, sans afficher de boutons fictifs pour les réglages lecteur
+    // qui n'ont pas encore de synchronisation Kovelyx.
     const tiles=[
-      ['organisation','▤','Écran d’accueil','Choisir les rangées, leur ordre et leurs dossiers.'],
-      ['outils','☑','Édition rapide','Modifier plusieurs dossiers en une seule opération.'],
-      ['affiches','▧','Affiches','Comparer les visuels et personnaliser chaque dossier.'],
-      ['recherche','⌕','Parcourir la collection','Retrouver un dossier dans toutes les catégories.'],
-      ['bibliotheque','▥','Bibliothèque visuelle','Choisir une image pour un dossier du profil.'],
-      ['affiches-fr','◈','Packs d’affiches français','Importer un pack et comparer ses variantes.'],
-      ['apercu','▣','Aperçu','Voir la disposition sur téléphone et téléviseur.'],
-      ['import-collection','⇩','Importer une collection','Ouvrir une collection Nuvio ou Kovelyx.'],
-      ['extensions','⊞','Extensions','Identifier les addons utilisés et préparer leur import JSON Kovelyx.'],
-      ['modifications','⇄','Modifications','Comparer le brouillon et la collection actuelle.'],
-      ['profils','↶','Profils et sauvegardes','Enregistrer, exporter ou restaurer une configuration.'],
-      ['parametres','⚙','Préférences et langue','Régler le thème, les appareils et les choix de catalogue.'],
-      ['partage','⇧','Partager et transférer','Exporter le profil, le sauvegarder et l’envoyer vers Kovelyx.']
+      ['organisation','','Écran d’accueil','Réorganiser les rangées, les dossiers et leur ordre.'],
+      ['outils','','Éditeur rapide','Activer et modifier plusieurs dossiers en une seule opération.'],
+      ['affiches','','Affiches','Comparer et remplacer les images de chaque dossier.'],
+      ['recherche','','Ajouter des rangées et dossiers','Parcourir toutes les catégories et retrouver les contenus à intégrer.'],
+      ['createFolder','','Créer un dossier','Créer un catalogue TMDB personnalisé, avec son affiche.','create-folder'],
+      ['myCurations','','Mes créations','Retrouver et gérer les dossiers que tu as créés.','create-folder'],
+      ['extensions','','Extensions','Inspecter les sources actives et préparer l’import dans Kovelyx.'],
+      ['bibliotheque','','Galerie des visuels','Choisir une illustration indépendante parmi les modèles disponibles.'],
+      ['affiches-fr','','Affiches françaises','Importer les variantes françaises et gérer les styles.'],
+      ['profils','','Sauvegardes et mises à jour','Enregistrer, restaurer et mettre à jour un profil sans perte.'],
+      ['historyExport','','Bibliothèque et historique','Consulter les titres enregistrés, vus et en cours sur Kovelyx.','profile-history'],
+      ['apercu','','Aperçu des appareils','Comparer la disposition sur téléphone et téléviseur.'],
+      ['tuneFilters','','Filtres de contenu','Choisir les genres, plateformes, pays et exclusions de la collection.','studio-open-customize'],
+      ['parametres','','Langue et préférences','Modifier le thème, les langues et l’appareil de prévisualisation.'],
+      ['modifications','','Avant / Après','Vérifier ce qui change avant de publier la collection.'],
+      ['import-collection','','Importer une collection','Lire et diagnostiquer une sauvegarde JSON de Kovelyx.'],
+      ['setup','','Configuration rapide','Lancer l’assistant guidé pour personnaliser les catégories.','studio-open-customize'],
+      ['copy','','Copier un profil','Ouvrir le compte et copier un profil Kovelyx avec sauvegarde.','cloud-picker'],
+      ['partage','','Partager et transférer','Télécharger le JSON et retrouver les options de partage.']
     ];
     const rows=draft.sections.filter(s=>s.enabled);
     const count=rows.reduce((n,s)=>n+s.folders.filter(f=>f.enabled&&f.selectedKeys.length).length,0);
-    return '<div class="suite-hub"><header class="suite-profile"><b aria-hidden="true">'+esc(draft.name.slice(0,1))+'</b><div><h3>'+esc(draft.name)+'</h3><small>'+rows.length+' rangées · '+count+' dossiers actifs</small></div><button type="button" data-hub-tab="profils">Changer de profil</button></header><div class="suite-tiles">'+tiles.map(([key,icon,title,desc])=>'<button type="button" data-hub-tab="'+key+'"><i aria-hidden="true">'+icon+'</i><strong>'+title+'</strong><small>'+desc+'</small></button>').join('')+'</div></div>';
+    return '<div class="suite-hub"><header class="suite-profile"><b aria-hidden="true">'+esc(draft.name.slice(0,1))+'</b><div><h3>'+esc(draft.name)+'</h3><small>'+rows.length+' rangées · '+count+' dossiers actifs</small></div><button type="button" data-hub-tab="profils">Changer de profil</button></header><div class="suite-tiles">'+tiles.map(([key,icon,title,desc,action])=>'<button type="button" '+(action?'data-action="'+action+'"':'data-hub-tab="'+key+'"')+'><i aria-hidden="true">'+studioIcon(key)+'</i><strong>'+title+'</strong><small>'+desc+'</small></button>').join('')+'</div></div>';
   }
   function renderProfiles(){
     const p=profiles.map(x=>{
@@ -925,6 +953,8 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
   function draw(){
     if(!root||!draft)return;
     const body=html();if(!body)return;
+    const didNavigate=tab!==previousTab;
+    previousTab=tab;
     root.querySelector('.mc-studio-title').textContent=draft.name;
     const heading=root.querySelector('[data-studio-context-title]');
     if(heading)heading.textContent=STUDIO_WORKSPACE_TITLES[tab]||'Mon Studio';
@@ -934,9 +964,40 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       : 'Brouillon local · rien n’est envoyé avant confirmation.';
     root.querySelectorAll('[data-tab]').forEach(x=>{x.classList.toggle('active',x.dataset.tab===tab);x.setAttribute('aria-selected',String(x.dataset.tab===tab));});
     root.classList.toggle('hub-open',tab==='accueil');
+    root.querySelector('.mc-studio-context')?.classList.toggle('mc-studio-at-home',tab==='accueil');
+    const back=root.querySelector('[data-action="studio-home"].mc-studio-back');
+    if(back)back.hidden=tab==='accueil';
     body.innerHTML=(tab==='accueil'?renderHub():tab==='organisation'?renderSections():tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():tab==='modifications'?renderChanges():tab==='outils'?renderWorkshop():tab==='bibliotheque'?renderArtLibrary():tab==='affiches-fr'?renderFrenchArt():tab==='import-collection'?renderCollectionImport():tab==='extensions'?renderAddonExport():tab==='parametres'?renderPreferences():tab==='partage'?renderSharing():renderProfiles());
+    if(didNavigate){
+      body.scrollTop=0;
+      // Annuler toute animation précédente avant d'en lancer une autre.
+      // Un utilisateur peut activer « Réduire les animations » à tout moment.
+      for(const animation of body.getAnimations?.()||[]) animation.cancel();
+      if(typeof body.animate==='function' && !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+        body.animate([{opacity:.55,transform:'translateY(7px)'},{opacity:1,transform:'translateY(0)'}],
+          {duration:230,easing:'cubic-bezier(.16,1,.3,1)'});
+      }
+    }
     const undo=root.querySelector('[data-action="undo-apply"]');if(undo)undo.hidden=!undoLast;
     const status=root.querySelector('.mc-studio-status');if(status)status.textContent=message;
+  }
+  function redrawSearchField(el,selector,assign){
+    // Keep the *same* focused input while rendering results. Recreating it on
+    // each keystroke drops browser composition/caret and causes visible jitter.
+    const start=el.selectionStart,end=el.selectionEnd;
+    const scroll=html()?.scrollTop||0;
+    assign(el.value);
+    draw();
+    const placeholder=root.querySelector(selector);
+    if(placeholder){
+      placeholder.replaceWith(el);
+      // This path handles keyboard input only; a blur/change event must not
+      // recreate the field or steal focus. Always restore focus after draw().
+      el.focus({preventScroll:true});
+      if(start!==null&&end!==null&&typeof el.setSelectionRange==='function')
+        el.setSelectionRange(start,end);
+    }
+    if(html())html().scrollTop=scroll;
   }
   function change(e){
     if(!draft)return;
@@ -948,8 +1009,8 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
         const status=root.querySelector('.mc-studio-status');if(status)status.textContent=message;
         return;
       }
-      if(el.matches('[data-search]')){query=el.value;draw();root.querySelector('[data-search]')?.focus();return;}
-      if(el.matches('[data-global-search]')){const caret=el.selectionStart;globalQuery=el.value;draw();const input=root.querySelector('[data-global-search]');input?.focus();if(caret!==null)input?.setSelectionRange(caret,caret);return;}
+      if(el.matches('[data-search]')){redrawSearchField(el,'[data-search]',v=>query=v);return;}
+      if(el.matches('[data-global-search]')){redrawSearchField(el,'[data-global-search]',v=>globalQuery=v);return;}
       if(el.matches('[data-global-active]')){globalActiveOnly=el.checked;draw();return;}
       if(el.matches('[data-global-no-cover]')){globalNoCover=el.checked;draw();return;}
       if(el.matches('[data-fr-style]')){frStyle=el.value;draw();return;}
@@ -958,9 +1019,9 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       if(el.matches('[data-generated-style]')){generatedStyle=el.value;return;}
       if(el.matches('[data-collection-file]')){inspectBackup(el.files[0]);el.value='';return;}
       if(el.matches('[data-fr-file]')){importFrenchArt(el.files[0]);el.value='';return;}
-      if(el.matches('[data-library-search]')){const caret=el.selectionStart;libraryQuery=el.value;draw();const input=root.querySelector('[data-library-search]');input?.focus();if(caret!==null)input?.setSelectionRange(caret,caret);return;}
+      if(el.matches('[data-library-search]')){redrawSearchField(el,'[data-library-search]',v=>libraryQuery=v);return;}
       if(el.matches('[data-library-filter]')){libraryFilter=el.value;draw();return;}
-      if(el.matches('[data-workshop-search]')){const caret=el.selectionStart;workshopSearch=el.value;draw();const input=root.querySelector('[data-workshop-search]');input?.focus();if(caret!==null)input?.setSelectionRange(caret,caret);return;}
+      if(el.matches('[data-workshop-search]')){redrawSearchField(el,'[data-workshop-search]',v=>workshopSearch=v);return;}
       if(el.matches('[data-workshop-section]')){workshopSection=el.value;draw();return;}
       if(el.matches('[data-workshop-target]')){const k=el.dataset.workshopTarget;if(el.checked)workshopSelected.add(k);else workshopSelected.delete(k);draw();return;}
       if(el.matches('[data-workshop-mode]')){workshopMode=el.value;draw();return;}
@@ -970,7 +1031,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
         pickSection(el.value);artLookIndex=0;artSearch='';showBatch=false;draw();return;
       }
       if(el.matches('[data-art-search]')){
-        artSearch=el.value;draw();root.querySelector('[data-art-search]')?.focus();return;
+        redrawSearchField(el,'[data-art-search]',v=>artSearch=v);return;
       }
       if(el.matches('[data-art-other]')){artMoreOnly=el.checked;draw();return;}
       if(el.matches('[data-art-needs]')){artNeedsAttention=el.checked;draw();return;}
@@ -1178,7 +1239,10 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     else if(a==='delete')remove();
     else if(a==='reset')reset();
     else if(a==='cloud-picker'){window.MaCollectionProfileEditor?.open({account:true});}
-    else if(a==='studio-home'){tab='accueil';message='';draw();}
+    else if(a==='profile-history'){close();window.MaCollectionProfileHistory?.open();}
+    else if(a==='studio-menu'){setNavigation(!navigationOpen);if(navigationOpen)root.querySelector('.mc-studio-tabs [data-tab].active')?.focus();}
+    else if(a==='studio-go-collection'){close();window.hideTitleScreen?.();}
+    else if(a==='studio-home'){setNavigation(false);tab='accueil';message='';draw();}
     else if(a==='studio-go-profiles'){tab='profils';draw();}
     else if(a==='studio-go-extensions'){tab='extensions';draw();}
     else if(a==='studio-go-diff'){tab='modifications';draw();}
@@ -1250,23 +1314,43 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     root.setAttribute('role','dialog');root.setAttribute('aria-modal','true');
     root.setAttribute('aria-labelledby','mc-studio-heading');
     root.innerHTML='<div class="mc-studio-panel mc-studio-workspace">'+
-      '<header class="mc-studio-header"><div class="mc-studio-header-title"><div><span class="mc-studio-overline">MA-COLLECTION · ÉDITION FRANÇAISE</span>'+
-      '<h2 id="mc-studio-heading">Mon <span>Studio</span></h2><p class="mc-studio-title"></p></div></div>'+
-      '<div class="mc-studio-header-actions"><button type="button" class="mc-studio-home-button" data-action="studio-home">Vue d’ensemble</button>'+
-      '<button class="mc-studio-close" type="button" data-action="close" aria-label="Fermer le Studio">×</button></div></header>'+
+      '<header class="mc-studio-header" aria-label="Navigation principale du Studio">'+
+      '<div class="mc-studio-header-left"><button type="button" class="mc-studio-menu-button" data-action="studio-menu" aria-label="Ouvrir le menu du Studio" aria-expanded="false" aria-controls="mc-studio-navigation"><span aria-hidden="true">☰</span></button>'+
+      '<div class="mc-studio-header-title"><span class="mc-studio-brand-mark" aria-hidden="true">M</span>'+
+      '<div><span class="mc-studio-brand-name" id="mc-studio-heading">Ma-Collection</span><small class="mc-studio-title">Mon profil</small></div></div></div>'+
+      '<nav class="mc-studio-top-links" aria-label="Principaux outils">'+
+      '<button type="button" data-action="studio-go-collection">Collection</button>'+
+      '<button type="button" data-action="studio-home" aria-current="page">Studio</button>'+
+      '<button type="button" data-action="studio-go-profiles">Profils</button></nav>'+
+      '<div class="mc-studio-header-actions"><button type="button" class="mc-studio-account-button" data-action="cloud-picker" title="Modifier mon profil Kovelyx">Mon compte</button>'+
+      '<button type="button" class="mc-studio-close" data-action="close" aria-label="Fermer le Studio">×</button></div></header>'+
+      '<div class="mc-studio-nav-scrim" aria-hidden="true"></div>'+
       '<div class="mc-studio-layout">'+studioNavigationHtml()+
       '<div class="mc-studio-main">'+
-      '<header class="mc-studio-context"><div><strong data-studio-context-title>Mon Studio</strong><small data-studio-context-subtitle></small></div>'+
-      '<div class="mc-studio-context-actions"><button type="button" data-action="studio-go-profiles">Mes profils</button>'+
+      '<header class="mc-studio-context"><div class="mc-studio-context-left"><button type="button" class="mc-studio-back" data-action="studio-home" aria-label="Retour à l’accueil du Studio">← <span>Retour</span></button>'+
+      '<span class="mc-studio-current-section"><strong data-studio-context-title>Mon Studio</strong><small data-studio-context-subtitle></small></span></div>'+
+      '<div class="mc-studio-context-actions"><button type="button" data-action="studio-go-profiles">Changer de profil</button>'+
       '<button type="button" data-action="studio-go-diff">Vérifier</button></div></header>'+
       '<main id="mc-studio-content" class="mc-studio-content" role="tabpanel" tabindex="0"></main>'+
       '<div class="mc-studio-status" role="status" aria-live="polite"></div>'+
-      '<footer class="mc-studio-footer"><span>Brouillon non publié · Vérifie tes choix avant tout transfert vers Kovelyx</span>'+
-      '<button type="button" class="mc-studio-undo" data-action="undo-apply" hidden>↶ Annuler la dernière application</button>'+
-      '<button type="button" class="mc-studio-apply" data-action="apply">Appliquer ce profil à Ma-Collection</button></footer>'+
+      '<footer class="mc-studio-footer"><span>Brouillon local · Tes modifications ne sont pas publiées automatiquement</span>'+
+      '<button type="button" class="mc-studio-undo" data-action="undo-apply" hidden>↶ Annuler</button>'+
+      '<button type="button" class="mc-studio-apply" data-action="apply">Appliquer à ma collection</button></footer>'+
       '</div></div></div>';
     document.body.appendChild(root);
-    root.addEventListener('click',e=>{const tile=e.target.closest('[data-hub-tab]');if(tile){const next=root.querySelector('[data-tab="'+tile.dataset.hubTab+'"]');next.click();next.focus();}else if(e.target===root)close();else click(e);});
+    root.querySelector('.mc-studio-nav-scrim')?.addEventListener('click',()=>setNavigation(false));
+    root.addEventListener('click',e=>{
+      const tile=e.target.closest('[data-hub-tab]');
+      if(tile){
+        const next=root.querySelector('[data-tab="'+tile.dataset.hubTab+'"]');
+        if(!next)return;
+        tab=next.dataset.tab;
+        if(tab==='affiches'&&!selectedFolder)selectedFolder=section()?.folders[0]?.id;
+        message='';setNavigation(false);draw();
+        root.querySelector('[data-studio-context-title]')?.focus({preventScroll:true});
+      }else if(e.target===root)close();
+      else click(e);
+    });
     root.addEventListener('dragstart',e=>{
       const el=e.target.closest('[data-drag-kind]');
       if(!el)return;
@@ -1297,11 +1381,17 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       dragging=null;
     });
     root.addEventListener('dragend',()=>{dragging=null;});
-    root.addEventListener('change',change);
-    root.addEventListener('input',e=>{if(e.target.matches('[data-search],[data-global-search],[data-workshop-search],[data-library-search]'))change(e);});
+    const searchSelector='[data-search],[data-global-search],[data-workshop-search],[data-library-search],[data-art-search]';
+    root.addEventListener('change',e=>{if(!e.target.matches(searchSelector))change(e);});
+    root.addEventListener('input',e=>{if(!e.isComposing&&e.target.matches(searchSelector))change(e);});
+    root.addEventListener('compositionend',e=>{if(e.target.matches(searchSelector))change(e);});
     root.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>{
-      tab=b.dataset.tab;if(tab==='affiches'&&!selectedFolder)selectedFolder=section()?.folders[0]?.id;message='';draw();
+      tab=b.dataset.tab;
+      if(tab==='affiches'&&!selectedFolder)selectedFolder=section()?.folders[0]?.id;
+      setNavigation(false);message='';draw();
+      root.querySelector('[data-studio-context-title]')?.focus?.({preventScroll:true});
     }));
+    root.querySelector('[data-studio-context-title]')?.setAttribute('tabindex','-1');
   }
   function bootstrap(){
     document.getElementById('title-screen-studio')?.addEventListener('click',()=>open('accueil'));

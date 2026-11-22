@@ -1,0 +1,193 @@
+/*
+ * Accueil Ma-Collection : proportions, alignements et micro-interactions
+ * reconstruits à partir des observations de l'archive utilisateur.
+ * Ressources et typographie hébergées uniquement par Ma-Collection.
+ */
+.mc-home-overlay .home-dock{
+  position:sticky;top:0;z-index:8;
+  display:flex;justify-content:flex-start;align-items:center;
+  width:100%;min-height:66px;
+  gap:clamp(5px,1.1vw,17px);padding:0 clamp(15px,2.5vw,36px);
+  box-sizing:border-box;
+  background:var(--bg-elevated,#15151a);
+  border-bottom:1px solid var(--border,rgba(255,255,255,.08));
+  backdrop-filter:blur(10px)
+}
+.mc-home-overlay .mc-home-dock-brand{
+  display:flex;align-items:center;gap:9px;
+  flex:1 0 auto;min-width:154px;max-width:250px;
+  color:var(--text-primary,#fff);
+  font-weight:800;font-size:.88rem;letter-spacing:-.02em;white-space:nowrap
+}
+.mc-home-overlay .mc-home-dock-brand-mark{
+  display:grid;place-items:center;width:36px;height:36px;
+  border-radius:10px;background:var(--accent-subtle);color:var(--home-mint);
+  border:1px solid color-mix(in srgb,var(--home-mint) 25%,transparent);
+  font-weight:900;font-size:1.05rem
+}
+.mc-home-overlay .home-dock button{
+  min-height:39px;height:39px;flex:0 0 auto;
+  border:1px solid transparent;border-radius:11px;
+  padding:0 clamp(9px,1.3vw,16px);
+  font:650 .77rem/1.1 inherit;
+  text-transform:none;letter-spacing:0;white-space:nowrap;
+  transition:background .15s,border-color .15s,color .15s;
+}
+.mc-home-overlay .home-dock button:first-of-type{
+  border-color:var(--border-hover);background:rgba(255,255,255,.04)
+}
+.mc-home-overlay .home-dock button:hover{
+  color:var(--text-primary);border-color:var(--border-hover);
+  background:var(--accent-subtle);transform:none
+}
+.mc-home-overlay .home-dock [data-home-target="title-screen-studio"]{
+  color:var(--home-mint);background:var(--accent-subtle)
+}
+.mc-home-overlay .home-dock #home-tools-menu{
+  margin-left:auto;min-height:39px;height:39px;
+  background:var(--bg-card,rgba(255,255,255,.03));
+  border-radius:999px;white-space:nowrap;padding:4px 12px 4px 5px
+}
+.mc-home-overlay .home-dock #home-tools-menu img{
+  width:29px;height:29px;object-fit:contain
+}
+.mc-home-overlay .home-dock #title-theme-toggle{
+  position:static;top:auto;left:auto;right:auto;bottom:auto;
+  display:grid;place-items:center;
+  width:39px;min-width:39px;height:39px;min-height:39px;
+  padding:8px;margin:0;
+  background:var(--bg-card);border:1px solid var(--border-hover);
+  border-radius:11px
+}
+.mc-home-overlay .mc-home{
+  width:100%;max-width:1130px;padding:0 clamp(12px,2vw,25px)
+}
+.mc-home-overlay .mc-home-intro{
+  width:100%;max-width:580px;
+  min-height:calc(100svh - 66px);
+  padding:32px 0 20px;
+  gap:0;isolation:isolate
+}
+.mc-home-overlay .mc-home-intro::before{
+  background:radial-gradient(ellipse at 50% 45%,rgba(4,12,13,.72),rgba(4,8,10,.88) 68%,#07080a 100%),url('assets/mur-affiches.webp') center / cover;
+  opacity:.82;filter:none;pointer-events:none
+}
+.mc-home-overlay .mc-home .title-screen-logo{
+  font-size:clamp(2.45rem,5vw,3.4rem);
+  line-height:1.08;letter-spacing:-.035em;margin:0 0 13px
+}
+.mc-home-overlay .mc-home .title-screen-tagline{
+  margin:0 auto 20px;max-width:480px;
+  font-size:.9rem;line-height:1.52
+}
+.mc-home-overlay .mc-home .home-search{
+  width:min(100%,460px);min-height:45px;
+  margin:0 auto 23px;padding:8px 15px;
+  background:rgba(255,255,255,.04);
+  border:1px solid var(--border-hover);
+  border-radius:12px;
+  transition:background .16s,border-color .16s
+}
+.mc-home-overlay .mc-home .home-search:hover{
+  background:var(--accent-subtle);
+  border-color:color-mix(in srgb,var(--home-mint) 35%,transparent)
+}
+.mc-home-overlay .mc-home .home-express{
+  min-height:46px;height:46px;
+  padding:0 23px;width:auto;max-width:min(100%,360px);
+  border-radius:11px;
+  font-size:.91rem;letter-spacing:0;
+  transition:transform .22s cubic-bezier(.16,1,.3,1),box-shadow .18s ease
+}
+.mc-home-overlay .mc-home .home-express:hover{
+  transform:translateY(-2px);box-shadow:0 12px 28px -14px var(--home-mint)
+}
+.mc-home-overlay .mc-home .home-express-hint{
+  margin:9px 0 13px;font-size:.77rem
+}
+.mc-home-overlay .mc-home .home-return{
+  display:flex;align-items:center;justify-content:center;flex-wrap:wrap;
+  margin:8px auto 0;padding:4px 0;
+  border:0;border-radius:0;background:transparent;
+  gap:7px;color:var(--text-secondary);font-size:.82rem
+}
+.mc-home-overlay .mc-home .home-return button{
+  min-height:39px;padding:0 12px;border-radius:9px;border:1px solid var(--border-hover);
+  background:rgba(255,255,255,.035);color:var(--text-primary);
+  font-size:.78rem;font-weight:650
+}
+.mc-home-overlay .mc-home .home-return button:hover{
+  background:var(--accent-subtle);border-color:var(--home-mint);
+  color:var(--text-primary)
+}
+.mc-home-overlay .mc-home .title-portfolio-showcase{
+  padding-bottom:55px;scroll-margin-top:80px;
+}
+.mc-home-overlay .mc-home .portfolio-section{
+  margin-bottom:26px;
+}
+.mc-home-overlay .mc-home .portfolio-grid{
+  display:grid;gap:14px;
+}
+.mc-home-overlay .mc-home .portfolio-grid.grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.mc-home-overlay .mc-home .portfolio-grid.grid-4{grid-template-columns:repeat(auto-fit,minmax(235px,1fr))}
+.mc-home-overlay .mc-home .portfolio-card{
+  min-height:180px;padding:20px 22px 18px;
+  border-radius:16px;background:var(--bg-card);
+  border:1px solid var(--border);
+  box-shadow:none;text-align:left;
+  transition:transform .24s cubic-bezier(.16,1,.3,1),background .17s,border-color .17s
+}
+.mc-home-overlay .mc-home .portfolio-card:hover{
+  transform:translate3d(0,-3px,0);
+  border-color:color-mix(in srgb,var(--home-mint) 31%,transparent);
+  background:var(--bg-card-hover);
+}
+.mc-home-overlay .mc-home .port-card-icon{
+  display:grid;place-items:center;width:40px;height:40px;
+  margin:0 0 12px;border-radius:11px;
+  color:var(--home-mint);background:var(--accent-subtle);
+  border:1px solid color-mix(in srgb,var(--home-mint) 22%,transparent);
+  font-size:1.18rem
+}
+.mc-home-overlay .mc-home .port-card-title{
+  display:block;font-size:1.05rem;line-height:1.25;font-weight:740;margin-bottom:5px
+}
+.mc-home-overlay .mc-home .port-card-desc{
+  display:block;font-size:.83rem;line-height:1.5;color:var(--text-secondary)
+}
+.mc-home-overlay .mc-home .port-link{
+  display:block;align-self:flex-start;margin-top:auto;padding-top:15px;
+  color:var(--home-mint);font-size:.81rem;font-weight:650
+}
+.mc-home-overlay .mc-home .portfolio-sec-header{
+  margin-bottom:14px;
+}
+.mc-home-overlay .mc-home .portfolio-sec-title{font-size:clamp(1.1rem,2vw,1.38rem);line-height:1.2}
+.mc-home-overlay .mc-home button:focus-visible{
+  outline:2px solid var(--home-mint);outline-offset:2px
+}
+@media(max-width:980px){
+  .mc-home-overlay .home-dock{gap:5px;padding:8px 12px;min-height:60px;overflow-x:auto}
+  .mc-home-overlay .mc-home-dock-brand{min-width:auto;max-width:none;flex:0 0 auto}
+  .mc-home-overlay .home-dock button{padding:0 10px}
+  .mc-home-overlay .home-dock #home-tools-menu{margin-left:0}
+}
+@media(max-width:650px){
+  .mc-home-overlay .mc-home-dock-brand{display:none}
+  .mc-home-overlay .home-dock{gap:5px;min-height:55px}
+  .mc-home-overlay .home-dock button{font-size:.74rem}
+  .mc-home-overlay .home-dock #home-tools-menu span{display:none}
+  .mc-home-overlay .home-dock #home-tools-menu{padding:4px;min-width:39px}
+  .mc-home-overlay .mc-home-intro{min-height:calc(100svh - 55px);padding:25px 0 15px}
+  .mc-home-overlay .mc-home .title-screen-logo{font-size:clamp(2.1rem,9vw,2.9rem)}
+  .mc-home-overlay .mc-home .title-screen-tagline{font-size:.85rem}
+  .mc-home-overlay .mc-home .portfolio-grid.grid-2,
+  .mc-home-overlay .mc-home .portfolio-grid.grid-4{grid-template-columns:1fr}
+  .mc-home-overlay .mc-home .portfolio-card{min-height:152px;padding:17px}
+  .mc-home-overlay .mc-home .home-return button{width:100%}
+}
+@media(prefers-reduced-motion:reduce){
+  .mc-home-overlay .home-dock button,.mc-home-overlay .mc-home .portfolio-card,
+  .mc-home-overlay .mc-home .home-express{transition:none!important}
+}

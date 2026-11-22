@@ -28,6 +28,11 @@ try {
   throw Error('Studio indisponible : '+JSON.stringify(diag)+' | erreurs JS '+JSON.stringify(errors)+' | '+error.message);
 }
 
+async function switchStudioTab(where, tab){
+  const menu=where.locator('[data-action=studio-menu]');
+  if(await menu.getAttribute('aria-expanded')!=='true') await menu.click();
+  await where.locator('[data-tab="'+tab+'"]').click();
+}
 const initialTotal=await page.evaluate(()=>window.collectionData.reduce((n,c)=>n+c.folders.length,0));
 
 await test('nouvelle carte dans le design original',async()=>{
@@ -62,19 +67,71 @@ await test('Studio plein écran : menu latéral français, préférences réelle
   });
   assert(Math.abs(geometry.width-geometry.screenWidth)<3,'Le Studio ne remplit pas l’écran');
   assert(Math.abs(geometry.height-geometry.screenHeight)<3,'Le Studio ne remplit pas la hauteur');
-  assert(await studio.locator('.mc-studio-side-brand').isVisible());
-  await studio.locator('[data-tab=parametres]').click();
+  assert(await studio.locator('.mc-studio-side-brand').isHidden(),'Le menu ne doit pas encombrer le Studio');
+  assert(await studio.locator('.mc-studio-top-links').isVisible(),'La navigation supérieure doit être visible');
+  await studio.locator('[data-action=studio-menu]').click();
+  await studio.locator('.mc-studio-side-brand').waitFor({state:'visible',timeout:2500});
+  assert.equal(await studio.locator('[data-action=studio-menu]').getAttribute('aria-expanded'),'true');
+  await studio.locator('[data-action=studio-menu]').click();
+  await switchStudioTab(studio,'parametres');
   await studio.locator('[data-action=studio-theme][data-theme-value=light]').click();
   assert.equal(await page.evaluate(()=>document.documentElement.getAttribute('data-theme')),'light');
   await studio.locator('[data-action=studio-theme][data-theme-value=dark]').click();
   assert.equal(await page.evaluate(()=>document.documentElement.getAttribute('data-theme')),null);
   await studio.locator('[data-action=studio-preview-device][data-device-value=mobile]').click();
   assert.equal(await studio.locator('[data-action=studio-preview-device][data-device-value=mobile]').getAttribute('aria-pressed'),'true');
-  await studio.locator('[data-tab=partage]').click();
+  await switchStudioTab(studio,'partage');
   const file=page.waitForEvent('download');
   await studio.locator('[data-action=export]').click();
   assert((await file).suggestedFilename().endsWith('.json'));
   await studio.locator('[data-action=close]').click();
+});
+await test('géométrie fidèle : double barre, cartes et menu non permanent',async()=>{
+  await page.evaluate(()=>window.MaCollectionStudio.open('accueil'));
+  const studio=page.locator('#mc-studio-root');
+  const metrics=await studio.evaluate(el=>{
+    const size=sel=>{const r=el.querySelector(sel).getBoundingClientRect();
+      return {x:r.x,y:r.y,width:r.width,height:r.height};};
+    const nav=el.querySelector('.mc-studio-tabs');
+    return {header:size('.mc-studio-header'),sub:size('.mc-studio-context'),
+      profile:size('.suite-profile'),card:size('.suite-tiles button'),
+      menuVisible:getComputedStyle(nav).visibility!=='hidden',width:innerWidth};
+  });
+  assert(metrics.header.height>=58&&metrics.header.height<=74,JSON.stringify(metrics.header));
+  assert(metrics.sub.height>=45&&metrics.sub.height<=60,JSON.stringify(metrics.sub));
+  assert(metrics.profile.y>metrics.sub.y+metrics.sub.height-1);
+  assert(metrics.card.width>=235&&metrics.card.width<=360,JSON.stringify(metrics.card));
+  assert.equal(metrics.menuVisible,false,'Le menu ne doit pas occuper de place en permanence');
+  await studio.locator('[data-action=studio-menu]').click();
+  assert.equal(await studio.locator('[data-action=studio-menu]').getAttribute('aria-expanded'),'true');
+  await studio.locator('.mc-studio-nav-scrim').click({position:{x:1000,y:300}});
+  assert.equal(await studio.locator('[data-action=studio-menu]').getAttribute('aria-expanded'),'false');
+  await studio.locator('[data-action=close]').click();
+});
+await test('Studio : ordre des cartes et vrai bouton Créer un dossier',async()=>{
+  await page.evaluate(()=>window.MaCollectionStudio.open('accueil'));
+  const studio=page.locator('#mc-studio-root');
+  const titles=await studio.locator('.suite-tiles button strong').allTextContents();
+  assert.equal(titles.length,19,'Les outils doivent être organisés selon les parcours du Studio de référence');
+  assert.deepEqual(titles.slice(0,6),[
+    'Écran d’accueil','Éditeur rapide','Affiches','Ajouter des rangées et dossiers',
+    'Créer un dossier','Mes créations'
+  ]);
+  await studio.locator('.suite-tiles [data-action=create-folder]').first().click();
+  assert(await page.locator('.mc-folder-dialog').isVisible(),
+    'Le bouton Créer un dossier doit ouvrir un véritable formulaire indépendant');
+  await page.locator('.mc-folder-close').click();
+  await page.evaluate(()=>window.MaCollectionStudio.open('accueil'));
+  await page.locator('#mc-studio-root [data-action=close]').click();
+});
+await test('réduction du mouvement respectée par le Studio',async()=>{
+  await page.emulateMedia({reducedMotion:'reduce'});
+  await page.evaluate(()=>window.MaCollectionStudio.open('accueil'));
+  await switchStudioTab(page,'profils');
+  const count=await page.locator('.mc-studio-content').evaluate(el=>el.getAnimations().length);
+  assert.equal(count,0,'Le Studio ne doit pas déclencher de transition en mouvement réduit');
+  await page.locator('[data-action=close]').click();
+  await page.emulateMedia({reducedMotion:'no-preference'});
 });
 await test('aucune mutation sans application explicite',async()=>{
   const before=await page.evaluate(()=>({
@@ -138,7 +195,7 @@ await test('affiches, sources, format et titre personnalisables',async()=>{
   await page.locator('[data-flag=focusGlowEnabled]').check();
 });
 await test('Studio : onglet Extensions et fichier de manifests pour Kovelyx',async()=>{
-  await page.locator('[data-tab=extensions]').click();
+  await switchStudioTab(page,'extensions');
   assert((await page.locator('#mc-studio-root').innerText()).includes('Mes extensions Kovelyx'));
   const fields=page.locator('[data-addon-manifest]');
   if(await fields.count()){
@@ -157,7 +214,7 @@ await test('Studio : onglet Extensions et fichier de manifests pour Kovelyx',asy
   }
 });
 await test('sauvegarde de plusieurs profils sans secret + export JSON',async()=>{
-  await page.locator('[data-tab=profils]').click();
+  await switchStudioTab(page,'profils');
   await page.locator('[data-profile-name]').fill('Profil Salon');
   await page.locator('[data-profile-name]').press('Tab');
   await page.locator('[data-sync-quick]').check();
@@ -174,18 +231,32 @@ await test('sauvegarde de plusieurs profils sans secret + export JSON',async()=>
 await test('recherche globale : retrouver et ouvrir un dossier du brouillon',async()=>{
   // Le brouillon édité précédemment doit rester ouvert pour le test d'application.
   assert(await page.locator('#mc-studio-root').isVisible());
-  await page.locator('[data-tab=recherche]').click();
+  await switchStudioTab(page,'recherche');
   // Le premier dossier a été renommé dans le brouillon précédent : chercher son nouveau nom.
   const query='Mon dossier Studio';
-  await page.locator('[data-global-search]').fill(query);
+  const search=page.locator('[data-global-search]');
+  await search.fill(query);
+  assert(await page.locator('.mc-studio-global-item').count()>0);
+  await search.evaluate(el=>el.setSelectionRange(3,3));
+  await search.press('x');
+  const cursorState=await search.evaluate(el=>({
+    before:3,after:el.selectionStart,value:el.value,
+    focused:document.activeElement===el,
+    activeTag:document.activeElement?.tagName,
+    sameNode:el.isConnected,query:window.MaCollectionStudio?'ready':'missing'
+  }));
+  console.log('STUDIO_CURSOR_DIAGNOSTIC',JSON.stringify(cursorState));
+  assert.equal(cursorState.after,4,'La saisie doit conserver le curseur');
+  await search.press('Backspace');
+  assert.equal(await search.inputValue(),query,'Le résultat ne doit pas perdre la requête lors du rerendu');
   assert(await page.locator('.mc-studio-global-item').count()>0);
   await page.locator('.mc-studio-global-item').first().click();
   assert.equal(await page.locator('[data-tab=affiches]').getAttribute('aria-selected'),'true');
   // Ne pas fermer le Studio : le brouillon et ses modifications doivent être appliqués au test suivant.
-  await page.locator('[data-tab=profils]').click();
+  await switchStudioTab(page,'profils');
 });
 await test('onglet Avant / Après : aperçu fiable avant application',async()=>{
-  await page.locator('[data-tab=modifications]').click();
+  await switchStudioTab(page,'modifications');
   assert.equal(await page.locator('[data-tab=modifications]').getAttribute('aria-selected'),'true');
   assert(await page.locator('.mc-studio-diff-stats').isVisible());
   const changed=await page.locator('.mc-studio-diff-stat.is-changed').count();
@@ -256,6 +327,7 @@ await test('petits écrans : onglets Studio utilisables en 320, 360 et 768 px',a
         'Studio déborde à '+width+'px : '+JSON.stringify(geometry));
       for(const tab of ['organisation','affiches','profils','outils','bibliotheque','affiches-fr']){
         const button=mobile.locator('[data-tab="'+tab+'"]');
+        await mobile.locator('[data-action=studio-menu]').click();
         await button.click();
         assert.equal(await button.getAttribute('aria-selected'),'true',
           'Onglet non sélectionnable : '+tab+' à '+width+'px');
@@ -278,7 +350,7 @@ await test('historique persistant : sauvegarde, rechargement, restauration et ex
     await history.waitForFunction(()=>window.MaCollectionStudio?.open && window.collectionData?.length>=16,
       null,{timeout:60000});
     await history.evaluate(()=>window.MaCollectionStudio.open());
-    await history.locator('[data-tab=profils]').click();
+    await switchStudioTab(history,'profils');
     await history.locator('[data-action=backup-now]').click();
     await history.waitForFunction(()=>document.querySelectorAll('.mc-studio-backup-item').length===1);
     const raw=await history.evaluate(async()=>{
@@ -300,7 +372,7 @@ await test('historique persistant : sauvegarde, rechargement, restauration et ex
     await history.waitForFunction(()=>window.MaCollectionStudio?.open && window.collectionData?.length>=16,
       null,{timeout:60000});
     await history.evaluate(()=>window.MaCollectionStudio.open());
-    await history.locator('[data-tab=profils]').click();
+    await switchStudioTab(history,'profils');
     await history.locator('.mc-studio-backup-item').first().waitFor();
     const [download]=await Promise.all([
       history.waitForEvent('download'),history.locator('[data-action=backup-export]').first().click()
@@ -309,7 +381,7 @@ await test('historique persistant : sauvegarde, rechargement, restauration et ex
     history.once('dialog',dlg=>dlg.accept());
     await history.locator('[data-action=backup-load]').first().click();
     assert.equal(await history.locator('[data-tab=organisation]').getAttribute('aria-selected'),'true');
-    await history.locator('[data-tab=profils]').click();
+    await switchStudioTab(history,'profils');
     history.once('dialog',dlg=>dlg.accept());
     await history.locator('[data-action=backup-delete]').first().click();
     await history.waitForFunction(()=>document.querySelectorAll('.mc-studio-backup-item').length===0);
@@ -324,7 +396,7 @@ await test('outils d’accueil : rangement et styles en lot dans un brouillon no
       null,{timeout:60000});
     const before=await atelier.evaluate(()=>JSON.stringify(window.collectionData));
     await atelier.evaluate(()=>window.MaCollectionStudio.open());
-    await atelier.locator('[data-tab=outils]').click();
+    await switchStudioTab(atelier,'outils');
     assert(await atelier.locator('.mc-studio-workshop-list').isVisible());
     await atelier.locator('[data-workshop-section]').selectOption({index:1});
     await atelier.locator('[data-action=workshop-select-visible]').click();
@@ -355,7 +427,7 @@ await test('bibliothèque autonome : recherche et choix visuel non destructif',a
       null,{timeout:60000});
     const before=await library.evaluate(()=>JSON.stringify(window.collectionData));
     await library.evaluate(()=>window.MaCollectionStudio.open());
-    await library.locator('[data-tab=bibliotheque]').click();
+    await switchStudioTab(library,'bibliotheque');
     assert(await library.locator('.mc-studio-library-gallery').isVisible());
     assert(await library.locator('.mc-studio-library-card').count()>0);
     await library.locator('[data-library-search]').fill('Netflix');
@@ -376,7 +448,7 @@ await test('packs FR : modèle, import local, aperçu et application sans mutati
       null,{timeout:60000});
     const before=await french.evaluate(()=>JSON.stringify(window.collectionData));
     await french.evaluate(()=>window.MaCollectionStudio.open());
-    await french.locator('[data-tab=affiches-fr]').click();
+    await switchStudioTab(french,'affiches-fr');
     assert(await french.locator('text=Aucun pack français indépendant importé').isVisible());
     const [download]=await Promise.all([
       french.waitForEvent('download'),french.locator('[data-action=fr-template]').click()

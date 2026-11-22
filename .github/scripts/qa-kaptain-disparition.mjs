@@ -50,6 +50,7 @@ try{
   await sectionLabel.fill('Ma section sans Kaptain');
   await sectionLabel.press('Tab');
 
+  await page.locator('[data-action=studio-menu]').click();
   await page.locator('[data-tab=affiches]').click();
   assert(await page.locator('.mc-studio-theater').isVisible(),'Galerie locale absente');
   assert.equal(await page.locator('[data-art]').count(),4,'Éditeur d’images incomplet');
@@ -59,6 +60,7 @@ try{
   await folderLabel.fill('Mon dossier autonome');
   await folderLabel.press('Tab');
 
+  await page.locator('[data-action=studio-menu]').click();
   await page.locator('[data-tab=profils]').click();
   await page.locator('[data-profile-name]').fill('Profil indépendant');
   await page.locator('[data-profile-name]').press('Tab');
