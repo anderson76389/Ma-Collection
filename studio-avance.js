@@ -400,6 +400,11 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     // Menu à activation manuelle : les flèches déplacent le focus sans
     // changer le brouillon ni quitter la navigation. Entrée choisit l'onglet.
     const current=e.target instanceof Element?e.target.closest('.mc-studio-tabs [data-tab]'):null;
+    if(navigationOpen&&current&&(e.key==='Enter'||e.key===' ')){
+      e.preventDefault();
+      current.click();
+      return;
+    }
     if(navigationOpen&&current&&['ArrowDown','ArrowUp','Home','End'].includes(e.key)){
       const buttons=[...root.querySelectorAll('.mc-studio-tabs [data-tab]')];
       const index=buttons.indexOf(current);
