@@ -80,8 +80,10 @@ try{
       'Le mur de cartes local n’est pas construit : '+JSON.stringify(data));
     assert(data.wallImagesLocal&&data.wallUniqueArt>=16,
       'Les cadrages locaux ne sont pas assez variés : '+JSON.stringify(data));
-    assert(data.muralRequests===1 && data.genreRequests===0,
-      'Le mur doit charger un seul média local, sans bannières de genre : '+JSON.stringify(data));
+    assert(data.muralRequests===1,
+      'Le mur d’accueil doit charger un seul média local : '+JSON.stringify(data));
+    // Les images de genres utilisées dans les catalogues et les sections
+    // situées sous l'accueil ne doivent pas être interdites ici.
     assert(data.bg==='none','L’ancienne image répétée est encore visible');
     assert(data.ctaBg==='rgb(0, 231, 165)','Bouton principal encore violet : '+data.ctaBg);
     assert(data.ctaLabel.includes('Configuration express'));
