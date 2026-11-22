@@ -28,6 +28,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
   let generatedStyle='cinema';
   let tab='organisation',selectedSection='',selectedFolder='',query='',message='';
   let dragging=null;
+  let navigationOpen=false, previousTab='';
   let previewDevice='tv',globalQuery='',globalActiveOnly=false,globalNoCover=false,undoLast=null;
   let backups=[],backupError='',applying=false;
   let workshopSearch='',workshopSection='all',workshopSelected=new Set(),workshopMode='active-first';
@@ -366,8 +367,24 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     draft=copy(found);pickSection();message='Profil chargé dans le Studio. Ta collection ne change pas avant « Appliquer ».';
     tab='organisation';draw();
   }
-  function close(){if(!root)return;root.hidden=true;document.removeEventListener('keydown',onEscape,true);}
-  function onEscape(e){if(e.key==='Escape'&&!root.hidden&&!document.querySelector('#mc-profile-editor:not([hidden])')){e.stopPropagation();close();}}
+  function setNavigation(open){
+    navigationOpen=!!open;
+    if(!root)return;
+    root.classList.toggle('mc-studio-nav-open',navigationOpen);
+    const toggle=root.querySelector('[data-action="studio-menu"]');
+    if(toggle)toggle.setAttribute('aria-expanded',String(navigationOpen));
+    const nav=root.querySelector('.mc-studio-tabs');
+    if(nav)nav.setAttribute('aria-hidden',String(!navigationOpen));
+    if('inert' in HTMLElement.prototype && nav)nav.inert=!navigationOpen;
+    root.querySelector('.mc-studio-nav-scrim')?.setAttribute('aria-hidden',String(!navigationOpen));
+  }
+  function close(){if(!root)return;setNavigation(false);root.hidden=true;document.removeEventListener('keydown',onEscape,true);}
+  function onEscape(e){
+    if(e.key!=='Escape'||root.hidden||document.querySelector('#mc-profile-editor:not([hidden])'))return;
+    e.stopPropagation();
+    if(navigationOpen){setNavigation(false);root.querySelector('[data-action="studio-menu"]')?.focus();}
+    else close();
+  }
   function open(initialTab='organisation'){
     if(!data().length){if(typeof window.showToast==='function')window.showToast('Collections non chargées. Réessaie.','error');return;}
     if(!originals)originals=originalsFor(data());
@@ -377,8 +394,9 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     libraryQuery='';libraryFilter='all';libraryUndo=null;
     frUndo=null;frSection='all';frActiveOnly=true;loadFrenchArt();
     if(!root)mount();
-    root.hidden=false;draw();refreshBackups();document.addEventListener('keydown',onEscape,true);
-    root.querySelector('.mc-studio-close')?.focus();
+    root.hidden=false;navigationOpen=false;previousTab='';
+    setNavigation(false);draw();refreshBackups();document.addEventListener('keydown',onEscape,true);
+    root.querySelector('[data-action="studio-menu"]')?.focus();
   }
   function loadFrenchArt(){
     frPack=null;frError='';
@@ -925,6 +943,8 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
   function draw(){
     if(!root||!draft)return;
     const body=html();if(!body)return;
+    const didNavigate=tab!==previousTab;
+    previousTab=tab;
     root.querySelector('.mc-studio-title').textContent=draft.name;
     const heading=root.querySelector('[data-studio-context-title]');
     if(heading)heading.textContent=STUDIO_WORKSPACE_TITLES[tab]||'Mon Studio';
@@ -934,7 +954,17 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       : 'Brouillon local · rien n’est envoyé avant confirmation.';
     root.querySelectorAll('[data-tab]').forEach(x=>{x.classList.toggle('active',x.dataset.tab===tab);x.setAttribute('aria-selected',String(x.dataset.tab===tab));});
     root.classList.toggle('hub-open',tab==='accueil');
+    root.querySelector('.mc-studio-context')?.classList.toggle('mc-studio-at-home',tab==='accueil');
+    const back=root.querySelector('[data-action="studio-home"].mc-studio-back');
+    if(back)back.hidden=tab==='accueil';
     body.innerHTML=(tab==='accueil'?renderHub():tab==='organisation'?renderSections():tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():tab==='modifications'?renderChanges():tab==='outils'?renderWorkshop():tab==='bibliotheque'?renderArtLibrary():tab==='affiches-fr'?renderFrenchArt():tab==='import-collection'?renderCollectionImport():tab==='extensions'?renderAddonExport():tab==='parametres'?renderPreferences():tab==='partage'?renderSharing():renderProfiles());
+    if(didNavigate){
+      body.scrollTop=0;
+      if(typeof body.animate==='function' && !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+        body.animate([{opacity:.55,transform:'translateY(7px)'},{opacity:1,transform:'translateY(0)'}],
+          {duration:230,easing:'cubic-bezier(.16,1,.3,1)'});
+      }
+    }
     const undo=root.querySelector('[data-action="undo-apply"]');if(undo)undo.hidden=!undoLast;
     const status=root.querySelector('.mc-studio-status');if(status)status.textContent=message;
   }
@@ -1178,7 +1208,9 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     else if(a==='delete')remove();
     else if(a==='reset')reset();
     else if(a==='cloud-picker'){window.MaCollectionProfileEditor?.open({account:true});}
-    else if(a==='studio-home'){tab='accueil';message='';draw();}
+    else if(a==='studio-menu'){setNavigation(!navigationOpen);if(navigationOpen)root.querySelector('.mc-studio-tabs [data-tab].active')?.focus();}
+    else if(a==='studio-go-collection'){close();window.hideTitleScreen?.();}
+    else if(a==='studio-home'){setNavigation(false);tab='accueil';message='';draw();}
     else if(a==='studio-go-profiles'){tab='profils';draw();}
     else if(a==='studio-go-extensions'){tab='extensions';draw();}
     else if(a==='studio-go-diff'){tab='modifications';draw();}
@@ -1250,22 +1282,31 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     root.setAttribute('role','dialog');root.setAttribute('aria-modal','true');
     root.setAttribute('aria-labelledby','mc-studio-heading');
     root.innerHTML='<div class="mc-studio-panel mc-studio-workspace">'+
-      '<header class="mc-studio-header"><div class="mc-studio-header-title"><div><span class="mc-studio-overline">MA-COLLECTION · ÉDITION FRANÇAISE</span>'+
-      '<h2 id="mc-studio-heading">Mon <span>Studio</span></h2><p class="mc-studio-title"></p></div></div>'+
-      '<div class="mc-studio-header-actions"><button type="button" class="mc-studio-home-button" data-action="studio-home">Vue d’ensemble</button>'+
-      '<button class="mc-studio-close" type="button" data-action="close" aria-label="Fermer le Studio">×</button></div></header>'+
+      '<header class="mc-studio-header" aria-label="Navigation principale du Studio">'+
+      '<div class="mc-studio-header-left"><button type="button" class="mc-studio-menu-button" data-action="studio-menu" aria-label="Ouvrir le menu du Studio" aria-expanded="false" aria-controls="mc-studio-navigation"><span aria-hidden="true">☰</span></button>'+
+      '<div class="mc-studio-header-title"><span class="mc-studio-brand-mark" aria-hidden="true">M</span>'+
+      '<div><span class="mc-studio-brand-name">Ma-Collection</span><small>Ton espace de personnalisation</small></div></div></div>'+
+      '<nav class="mc-studio-top-links" aria-label="Principaux outils">'+
+      '<button type="button" data-action="studio-go-collection">Collection</button>'+
+      '<button type="button" data-action="studio-home" aria-current="page">Studio</button>'+
+      '<button type="button" data-action="studio-go-profiles">Profils</button></nav>'+
+      '<div class="mc-studio-header-actions"><button type="button" class="mc-studio-account-button" data-action="cloud-picker" title="Modifier mon profil Kovelyx">Mon compte</button>'+
+      '<button type="button" class="mc-studio-close" data-action="close" aria-label="Fermer le Studio">×</button></div></header>'+
+      '<div class="mc-studio-nav-scrim" aria-hidden="true"></div>'+
       '<div class="mc-studio-layout">'+studioNavigationHtml()+
       '<div class="mc-studio-main">'+
-      '<header class="mc-studio-context"><div><strong data-studio-context-title>Mon Studio</strong><small data-studio-context-subtitle></small></div>'+
-      '<div class="mc-studio-context-actions"><button type="button" data-action="studio-go-profiles">Mes profils</button>'+
+      '<header class="mc-studio-context"><div class="mc-studio-context-left"><button type="button" class="mc-studio-back" data-action="studio-home" aria-label="Retour à l’accueil du Studio">← <span>Retour</span></button>'+
+      '<span class="mc-studio-current-section"><strong data-studio-context-title>Mon Studio</strong><small data-studio-context-subtitle></small></span></div>'+
+      '<div class="mc-studio-context-actions"><button type="button" data-action="studio-go-profiles">Changer de profil</button>'+
       '<button type="button" data-action="studio-go-diff">Vérifier</button></div></header>'+
       '<main id="mc-studio-content" class="mc-studio-content" role="tabpanel" tabindex="0"></main>'+
       '<div class="mc-studio-status" role="status" aria-live="polite"></div>'+
-      '<footer class="mc-studio-footer"><span>Brouillon non publié · Vérifie tes choix avant tout transfert vers Kovelyx</span>'+
-      '<button type="button" class="mc-studio-undo" data-action="undo-apply" hidden>↶ Annuler la dernière application</button>'+
-      '<button type="button" class="mc-studio-apply" data-action="apply">Appliquer ce profil à Ma-Collection</button></footer>'+
+      '<footer class="mc-studio-footer"><span>Brouillon local · Tes modifications ne sont pas publiées automatiquement</span>'+
+      '<button type="button" class="mc-studio-undo" data-action="undo-apply" hidden>↶ Annuler</button>'+
+      '<button type="button" class="mc-studio-apply" data-action="apply">Appliquer à ma collection</button></footer>'+
       '</div></div></div>';
     document.body.appendChild(root);
+    root.querySelector('.mc-studio-nav-scrim')?.addEventListener('click',()=>setNavigation(false));
     root.addEventListener('click',e=>{const tile=e.target.closest('[data-hub-tab]');if(tile){const next=root.querySelector('[data-tab="'+tile.dataset.hubTab+'"]');next.click();next.focus();}else if(e.target===root)close();else click(e);});
     root.addEventListener('dragstart',e=>{
       const el=e.target.closest('[data-drag-kind]');
@@ -1300,8 +1341,12 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     root.addEventListener('change',change);
     root.addEventListener('input',e=>{if(e.target.matches('[data-search],[data-global-search],[data-workshop-search],[data-library-search]'))change(e);});
     root.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>{
-      tab=b.dataset.tab;if(tab==='affiches'&&!selectedFolder)selectedFolder=section()?.folders[0]?.id;message='';draw();
+      tab=b.dataset.tab;
+      if(tab==='affiches'&&!selectedFolder)selectedFolder=section()?.folders[0]?.id;
+      setNavigation(false);message='';draw();
+      root.querySelector('[data-studio-context-title]')?.focus?.({preventScroll:true});
     }));
+    root.querySelector('[data-studio-context-title]')?.setAttribute('tabindex','-1');
   }
   function bootstrap(){
     document.getElementById('title-screen-studio')?.addEventListener('click',()=>open('accueil'));
