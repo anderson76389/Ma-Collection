@@ -56,6 +56,7 @@ jobs:
           node --test tests/profile-canvas-core.test.mjs
           node --test tests/studio-avance.test.mjs tests/studio-collection-import.test.mjs tests/profile-editor.test.mjs tests/profile-history.test.mjs tests/customize-fr.test.mjs
           node --test tests/kaptain-url-security.test.mjs
+          node --test tests/accueil-posters.test.mjs
           node --test tests/studio-recovery.test.mjs
           node --test tests/catalogue-provenance.test.mjs tests/triage-catalogue-dependencies.test.mjs
           node --test tests/emergency-catalogue.test.mjs
@@ -83,6 +84,7 @@ jobs:
           node --check profile-editor.js
           node --check profile-editor-core.mjs
           node --check site-tools.js
+          node --check accueil-mosaique.js
           node --check profile-suite-model.mjs
           node --check profile-picker-core.mjs
           node --check profile-suite-view.mjs
