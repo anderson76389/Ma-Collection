@@ -108,7 +108,7 @@ import {makeFolderArt,ART_STYLES,isGeneratedFolderArt} from './studio-art-genera
     if(!root||!draft)return;
     root.querySelector('[data-suite-active-profile]').textContent=draft.name;
     root.querySelector('[data-suite-title]').textContent=screen==='dashboard'?'Outils et personnalisation':
-      screen==='profiles'?'Choisir un profil':screen==='onboarding'?'Assistant guidé':'Ma-Collection';
+      screen==='profiles'?'Choisir un profil':screen==='onboarding'?'Assistant guidé':draft.name;
     root.querySelector('[data-suite-back]').hidden=screen==='profiles';
     root.querySelector('[data-suite-back]').textContent=screen==='dashboard'?'← Profils':'← Retour';
     const saveTop=root.querySelector('[data-suite-save-top]');
