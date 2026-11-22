@@ -349,3 +349,11 @@
   #mc-studio-root .suite-tiles button::after,
   #mc-studio-root .mc-studio-column button{transition:none!important}
 }
+
+/* Traits vectoriels identiques d'un appareil à l'autre, aucune police d'icônes. */
+#mc-studio-root .mc-studio-nav-icon svg{
+  display:block;flex:none;width:20px;height:20px;stroke:currentColor;
+}
+#mc-studio-root .suite-tiles button i svg{
+  display:block;flex:none;width:22px;height:22px;stroke:currentColor;
+}
