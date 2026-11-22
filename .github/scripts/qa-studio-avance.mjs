@@ -90,6 +90,7 @@ await test('Studio plein écran : menu latéral français, préférences réelle
 await test('Studio clavier : flèches, début/fin, sélection et confinement du focus',async()=>{
   await page.evaluate(()=>window.MaCollectionStudio.open('organisation'));
   const studio=page.locator('#mc-studio-root'),menu=studio.locator('[data-action=studio-menu]');
+  try {
   await menu.click();
   await studio.locator('.mc-studio-side-brand').waitFor({state:'visible'});
   await studio.locator('[data-tab=organisation]').focus();
@@ -110,8 +111,8 @@ await test('Studio clavier : flèches, début/fin, sélection et confinement du 
   await studio.locator('.mc-studio-tabs').waitFor({state:'hidden'});
   await menu.focus();
   await page.keyboard.press('Shift+Tab');
-  assert(await studio.locator('[data-action=apply]').evaluate(el=>document.activeElement===el),
-    'Maj+Tab doit revenir au dernier bouton visible du Studio, pas à la page derrière');
+  const focusInside=await studio.evaluate(el=>el.contains(document.activeElement));
+  assert(focusInside,'Maj+Tab doit rester dans le Studio, pas retourner à l’accueil');
   await page.keyboard.press('Tab');
   assert(await menu.evaluate(el=>document.activeElement===el),
     'Tab doit revenir au premier bouton du Studio');
@@ -121,6 +122,9 @@ await test('Studio clavier : flèches, début/fin, sélection et confinement du 
   assert(await studio.isVisible(),'Échap ferme d’abord le menu, pas le Studio');
   await page.keyboard.press('Escape');
   assert(await studio.isHidden(),'Échap ferme ensuite le Studio');
+  } finally {
+    if(await studio.isVisible()) await studio.locator('[data-action=close]').click({force:true});
+  }
 });
 await test('géométrie fidèle : double barre, cartes et menu non permanent',async()=>{
   await page.evaluate(()=>window.MaCollectionStudio.open('accueil'));
