@@ -1723,7 +1723,7 @@ function renderPreviewCollection() {
   const bar = document.createElement('div');
   bar.className = `nv-preview-bar nv-liquid-toolbar${previewBarOpen ? ' open' : ''}`;
   bar.innerHTML = `
-    <div class="nv-preview-content" role="group" aria-label="Commandes de la collection">
+    <div class="nv-preview-content" id="nv-preview-content" role="group" aria-label="Commandes de la collection">
       <div class="nv-preview-primary">
         <div class="nv-preview-group nv-preview-device-group">
           <div class="nv-device-toggle" role="tablist" aria-label="Type d'appareil">
@@ -2792,6 +2792,25 @@ function closePreviewBar() {
   const btn = document.getElementById('preview-fab');
   if (btn) { btn.classList.remove('active'); btn.setAttribute('aria-expanded', 'false'); }
 }
+
+// L'ancien bandeau pouvait rester ouvert au-dessus des catalogues. Cette
+// fermeture globale est installée une seule fois, pas à chaque rendu.
+document.addEventListener('pointerdown', event => {
+  const bar = document.querySelector('.nv-liquid-toolbar');
+  if (!bar || bar.contains(event.target)) return;
+  if (previewMoreOpen) closePreviewSecondary();
+  if (previewBarOpen) closePreviewBar();
+});
+document.addEventListener('keydown', event => {
+  if (event.key !== 'Escape' || !document.querySelector('.nv-liquid-toolbar')) return;
+  if (previewMoreOpen) {
+    closePreviewSecondary();
+    document.getElementById('preview-more')?.focus();
+  } else if (previewBarOpen) {
+    closePreviewBar();
+    document.getElementById('preview-fab')?.focus();
+  }
+});
 
 function bindPreviewControls() {
   document.getElementById('preview-fab')?.addEventListener('click', () => {
