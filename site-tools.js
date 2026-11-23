@@ -107,7 +107,7 @@
     if(mark){const value=signed?'✓':'●';if(mark.textContent!==value)mark.textContent=value;}
     accountButton.setAttribute('aria-label',signed?'Ouvrir mon compte Kovelyx':'Se connecter à Kovelyx');
   }
-  const bar=document.getElementById('nv-preview-secondary');
+  const bar=document.querySelector('#nv-preview-secondary .nv-preview-menu-tools') || document.getElementById('nv-preview-secondary');
   if(bar&&!bar.querySelector('[data-mc-tools]')){for(const [text,fn]of [['Mon profil Kovelyx',()=>window.MaCollectionProfileEditor?.open()],['Tous les outils',open]]){const b=document.createElement('button');b.type='button';b.className='cat-action-btn';b.dataset.mcTools='';b.textContent=text;b.addEventListener('click',fn);bar.appendChild(b);}}
  }
  let pending=false;
