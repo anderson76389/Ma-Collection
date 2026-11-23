@@ -1,0 +1,459 @@
+/*
+ * Ma-Collection · Correction géométrique des commandes — 23/11/2026.
+ * Le même système protège les boutons de l'accueil, de l'éditeur, du
+ * Studio, des profils, des modales et des exports.
+ * Les boutons icône seule / cartes média ne sont pas agrandis artificiellement.
+ * Aucun service, aucune police externe.
+ */
+
+/* Garder les dimensions à l'intérieur des bordures quelle que soit la taille
+   de l'écran, la langue, la taille des polices ou le niveau de zoom. */
+:where(button,[role="button"],summary){
+  box-sizing:border-box;
+  font-synthesis:none;
+}
+:where(button,[role="button"]):where(:disabled,[aria-disabled="true"]){
+  cursor:not-allowed;
+}
+
+/* Familles de vrais boutons textuels : une taille calculée sur le contenu,
+   pas une largeur d'icône. Les grands intitulés sont libres de revenir à la
+   ligne sur petits écrans. Ne pas cibler les boutons de cartes d'affiches. */
+:is(
+ .btn-primary,.btn-secondary,.cat-action-btn,
+ .se-mini-btn,.se-send-btn,.se-back,
+ .quick-push-btn-primary,.quick-push-btn-secondary,
+ .quiz-next,.quiz-skip,.quiz-pill,.wt-btn-nav,.wt-btn-next-primary,
+ .account-btn,.compat-btn,.cust-mini-btn,
+ .nv-reorder-toggle,.nv-mini-btn,
+ .sidebar-footer-btn,.mc-tools-option,
+ .mcps-primary,.mcps-small,.mcps-outline,.mcps-tiny
+){
+  box-sizing:border-box;
+  min-width:0;
+  max-width:100%;
+  line-height:1.3;
+  vertical-align:middle;
+}
+:is(
+ .btn-primary,.btn-secondary,.cat-action-btn,
+ .se-mini-btn,.se-send-btn,.se-back,
+ .quick-push-btn-primary,.quick-push-btn-secondary,
+ .account-btn,.compat-btn,.wt-btn-nav,.wt-btn-next-primary,
+ .nv-reorder-toggle,.nv-mini-btn,.sidebar-footer-btn
+) > svg{
+  display:block;
+  flex-shrink:0;
+  vertical-align:middle;
+}
+:is(
+ .btn-primary,.btn-secondary,.cat-action-btn,
+ .se-mini-btn,.se-send-btn,.quick-push-btn-primary,
+ .quick-push-btn-secondary,.nv-reorder-toggle,.nv-mini-btn,
+ .sidebar-footer-btn
+) > span{
+  min-width:0;
+  overflow-wrap:break-word;
+  text-overflow:clip;
+}
+
+/* En-tête de collection : les actions ne doivent pas forcer le titre hors
+   écran ni recouvrir la recherche. L'éditeur conserve tous ses boutons. */
+.app-screen .top-bar,
+.app-screen .top-bar-left,
+.app-screen .top-bar-right,
+.app-screen .topbar-more-panel,
+.app-screen .category-actions-group{
+  box-sizing:border-box;
+}
+.app-screen .top-bar-left,
+.app-screen .top-bar-right{min-width:0}
+.app-screen .category-actions-group{
+  min-width:0;max-width:100%;
+}
+.app-screen .category-actions-group .cat-action-btn{
+  flex-shrink:0;
+  min-height:32px;
+  white-space:normal;
+  overflow-wrap:break-word;
+}
+.app-screen .topbar-more-panel .topbar-control-combo{
+  box-sizing:border-box;
+  min-width:0;
+}
+.app-screen .topbar-more-panel .topbar-select{
+  max-width:100%;
+  text-overflow:ellipsis;
+}
+.app-screen .topbar-more-panel .reorder-toggle{
+  width:auto;
+  height:auto;
+  min-height:32px;
+  padding:7px 10px;
+  display:inline-flex;align-items:center;gap:7px;
+}
+.app-screen .control-center-panel{
+  box-sizing:border-box;
+  max-width:calc(100vw - 20px);
+}
+.app-screen .control-actions-combo{
+  min-width:0;
+  align-items:center;
+}
+.app-screen .control-actions-combo :is(.btn-primary,.btn-secondary){
+  min-height:40px;
+  height:auto;
+  padding-block:8px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  text-align:center;
+}
+.app-screen .control-actions-combo button span{
+  overflow-wrap:break-word;
+}
+.app-screen .control-stats-area{
+  min-width:0;
+}
+
+/* Éditeur rapide : suffisamment de place entre icônes et texte.
+   L'ancienne barre ne sait pas réduire tous les intitulés ; la rendre
+   défilable horizontalement est préférable à les superposer. */
+#simple-editor-overlay .se-topbar{box-sizing:border-box;min-width:0}
+#simple-editor-overlay .se-topbar-actions{
+  box-sizing:border-box;
+  min-width:0;
+  max-width:100%;
+  gap:8px;
+}
+#simple-editor-overlay .se-topbar-actions .se-mini-btn,
+#simple-editor-overlay .se-topbar-actions .se-send-btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  flex:0 0 auto;
+  min-height:36px;
+  height:auto;
+  gap:7px;
+  padding:8px 12px;
+  white-space:normal;
+}
+#simple-editor-overlay .se-topbar-actions .bingecat-mark{
+  display:inline-grid;
+  place-items:center;
+  flex-shrink:0;
+}
+#simple-editor-overlay .se-topbar-actions .bingecat-mark img{
+  display:block;
+  max-width:100%;
+  object-fit:contain;
+}
+
+/* Studio : fin des boutons d'action trop courts ou des icônes qui écrasent
+   les légendes. Les petites croix, flèches et points restent compactes. */
+#mc-studio-root .mc-studio-workspace :is(
+ .mc-studio-context-actions,.mc-studio-header-actions,.mc-studio-gallery-actions,
+ .mc-studio-actions-grid,.mc-studio-backup-actions,.mc-studio-art-toolbar,
+ .mc-studio-library-target,.mc-studio-footer
+){
+  box-sizing:border-box;
+  min-width:0;
+  max-width:100%;
+}
+#mc-studio-root .mc-studio-workspace :is(
+ .mc-studio-gallery-actions,.mc-studio-actions-grid,.mc-studio-backup-actions
+){
+  flex-wrap:wrap;
+  gap:8px;
+}
+#mc-studio-root .mc-studio-workspace :is(
+ .mc-studio-gallery-actions,.mc-studio-actions-grid,.mc-studio-backup-actions
+) button{
+  display:inline-flex;
+  align-items:center;justify-content:center;
+  min-width:0;max-width:100%;
+  height:auto;min-height:38px;
+  padding:9px 12px;
+  gap:7px;
+  white-space:normal;
+  overflow-wrap:anywhere;
+  text-align:center;
+  line-height:1.3;
+}
+#mc-studio-root .mc-studio-workspace :is(
+ .mc-studio-context-actions button:not(.mc-studio-close),.mc-studio-back,
+ .mc-studio-footer button
+){
+  min-width:0;
+  max-width:100%;
+  height:auto;
+  min-height:36px;
+  line-height:1.3;
+  text-align:center;
+}
+#mc-studio-root .mc-studio-workspace .mc-studio-context-actions button{
+  flex-shrink:0;
+}
+#mc-studio-root .mc-studio-workspace .mc-studio-context-actions button.mc-studio-close,
+#mc-studio-root .mc-studio-workspace .mc-studio-cockpit .mc-studio-menu-button{
+  flex-shrink:0;
+  overflow:hidden;
+}
+#mc-studio-root .mc-studio-workspace .mc-studio-tabs button{
+  box-sizing:border-box;
+  overflow-wrap:break-word;
+  min-width:0;
+}
+#mc-studio-root .mc-studio-workspace .mc-studio-tabs button > *{
+  min-width:0;
+}
+#mc-studio-root .mc-studio-workspace .mc-studio-logo-card button{
+  width:100%;
+  min-width:0;
+  min-height:40px;
+  height:auto;
+  white-space:normal;
+  overflow-wrap:anywhere;
+  line-height:1.35;
+}
+#mc-studio-root .mc-studio-workspace .mc-studio-library-target button{
+  flex:0 1 auto;
+  min-width:0;
+  max-width:100%;
+  white-space:normal;
+}
+#mc-studio-root .mc-studio-workspace :is(button,.mc-studio-nav-icon) svg{
+  flex-shrink:0;
+}
+#mc-studio-root .mc-studio-workspace .mc-studio-art-nav button{
+  max-width:min(260px,75vw);
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+/* Profils : rangées et actions mieux alignées, sans écrasement en mode
+   grille ou sur téléphone. */
+#mc-profile-suite :is(
+ .mcps-top-start,.mcps-top-actions,.mcps-actions-line,
+ .mcps-art-buttons,.mcps-row-actions,.mcps-picker-account-actions,
+ .mcps-sticky-actions
+){
+  box-sizing:border-box;
+  min-width:0;
+  max-width:100%;
+  gap:8px;
+}
+#mc-profile-suite :is(
+ .mcps-primary,.mcps-small,.mcps-outline,.mcps-tiny
+){
+  align-items:center;
+  justify-content:center;
+  gap:7px;
+  height:auto;
+  min-height:38px;
+  padding-block:9px;
+  white-space:normal;
+  overflow-wrap:anywhere;
+  text-align:center;
+}
+#mc-profile-suite :is(.mcps-tile,.mcps-setting-tile){
+  min-width:0;
+  overflow-wrap:anywhere;
+}
+#mc-profile-suite :is(.mcps-primary,.mcps-small,.mcps-outline,.mcps-tiny) svg{
+  flex-shrink:0;
+}
+#mc-profile-suite .mcps-top .mcps-close{
+  width:38px;
+  min-width:38px;
+  max-width:38px;
+  height:38px;
+  padding:0;
+  flex-shrink:0;
+}
+#mc-profile-suite .mcps-top button[data-suite-back]{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:6px;
+  max-width:100%;
+  min-width:0;
+}
+#mc-profile-suite .mcps-art-dots button{padding:0}
+#mc-profile-suite .mcps-art-buttons button{min-height:38px}
+
+/* Accueil et panneaux d'outils : aucune légende ne doit sortir des cartes. */
+.mc-home-overlay .mc-home .portfolio-card{
+  min-width:0;
+  max-width:100%;
+}
+.mc-home-overlay .mc-home .portfolio-card :is(
+ .port-card-title,.port-card-desc,.port-link
+){
+  box-sizing:border-box;
+  display:block;
+  max-width:100%;
+  overflow-wrap:anywhere;
+}
+.mc-home-overlay .mc-home .home-return button{
+  min-width:0;
+  max-width:100%;
+  line-height:1.3;
+}
+#mc-tools .mc-tools-option{
+  box-sizing:border-box;
+  min-width:0;
+  max-width:100%;
+  height:auto;
+  overflow-wrap:break-word;
+}
+#mc-tools .mc-tools-option :is(strong,span){max-width:100%;overflow-wrap:anywhere}
+.mc-profile-overlay :is(button,.mc-profile-panel) {
+  box-sizing:border-box;
+}
+.mc-profile-overlay :is(button) {max-width:100%;overflow-wrap:break-word}
+
+/* Dans l'ancien CSS le bouton « Plus » de prévisualisation était un cercle
+   de 34px. Il contient désormais texte + icône : largeur de contenu obligatoire.
+   Garder cette protection ici, après toutes les autres feuilles. */
+.nv-liquid-toolbar .nv-preview-actions #preview-more{
+  box-sizing:border-box;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:9px;
+  flex:0 0 auto;
+  width:auto;
+  min-width:87px;
+  max-width:none;
+  height:39px;
+  min-height:39px;
+  padding:0 13px;
+  white-space:nowrap;
+  overflow:visible;
+}
+.nv-liquid-toolbar .nv-preview-actions #preview-more svg{
+  flex:0 0 16px;
+  width:16px;height:16px;
+}
+.nv-liquid-toolbar .nv-preview-actions #preview-more .nv-more-label{
+  display:inline-block;
+  flex:0 0 auto;
+  white-space:nowrap;
+  overflow:visible;
+}
+.nv-liquid-toolbar .nv-preview-actions #preview-send{
+  display:inline-flex;
+  align-items:center;
+  flex:0 0 auto;
+  min-width:max-content;
+  max-width:none;
+  white-space:nowrap;
+  gap:8px;
+}
+.nv-liquid-toolbar .nv-preview-actions #preview-download{
+  display:inline-flex;
+  align-items:center;
+  flex:0 0 auto;
+  min-width:max-content;
+  max-width:none;
+  white-space:nowrap;
+  gap:8px;
+}
+.nv-liquid-toolbar .nv-preview-actions > button > svg{
+  display:block;
+  flex:0 0 16px;
+  width:16px;height:16px;
+}
+.nv-liquid-toolbar .nv-preview-actions > button > span{
+  flex:0 0 auto;
+  white-space:nowrap;
+}
+
+/* Protéger les barres d'actions à largeur moyenne. */
+@media(min-width:861px) and (max-width:1320px){
+  .nv-liquid-toolbar .nv-preview-primary{
+    flex-wrap:wrap;
+    row-gap:8px;
+    justify-content:center;
+  }
+  .nv-liquid-toolbar .nv-preview-actions{
+    flex-shrink:0;
+  }
+}
+@media(max-width:860px){
+  .nv-liquid-toolbar .nv-preview-actions #preview-more{
+    flex:0 0 44px;
+    width:44px;
+    min-width:44px;
+    max-width:44px;
+    padding:0;
+    gap:0;
+  }
+  .nv-liquid-toolbar .nv-preview-actions #preview-more .nv-more-label{
+    display:none;
+  }
+  .nv-liquid-toolbar .nv-preview-actions #preview-send,
+  .nv-liquid-toolbar .nv-preview-actions #preview-download{
+    flex:1 1 0;
+    min-width:0;
+    max-width:100%;
+    padding-inline:7px;
+  }
+  .nv-liquid-toolbar .nv-preview-actions > button > span{
+    min-width:0;
+  }
+  .app-screen .top-bar-right{max-width:100%;flex-wrap:wrap}
+  .app-screen .control-center-panel{
+    width:min(100%,calc(100vw - 22px));
+    min-width:0;
+  }
+  .app-screen .control-actions-combo{
+    max-width:100%;
+  }
+  #simple-editor-overlay .se-topbar-actions{
+    overflow-x:auto;
+    overscroll-behavior-x:contain;
+    scrollbar-width:thin;
+  }
+  #mc-profile-suite .mcps-actions-line{
+    flex-wrap:wrap;
+  }
+  #mc-profile-suite .mcps-actions-line :is(.mcps-primary,.mcps-small,.mcps-outline){
+    flex:1 1 auto;
+  }
+  #mc-studio-root .mc-studio-workspace .mc-studio-context-actions{
+    min-width:0;
+    flex-wrap:nowrap;
+  }
+  #mc-studio-root .mc-studio-workspace .mc-studio-context-actions button.mc-studio-close{
+    display:grid!important;
+    place-items:center;
+    flex:0 0 38px;
+  }
+}
+@media(max-width:480px){
+  #mc-studio-root .mc-studio-workspace .mc-studio-gallery-actions button,
+  #mc-studio-root .mc-studio-workspace .mc-studio-actions-grid button{
+    flex:1 1 auto;
+    min-height:43px;
+  }
+  #mc-profile-suite :is(.mcps-primary,.mcps-small,.mcps-outline){
+    min-height:42px;
+    padding-inline:10px;
+  }
+  #simple-editor-overlay .se-topbar-actions{
+    gap:7px;
+  }
+  .mc-home-overlay .mc-home .home-return button{
+    white-space:normal;
+    padding-block:8px;
+  }
+}
+@media(prefers-reduced-motion:reduce){
+  .nv-liquid-toolbar .nv-preview-primary button{
+    transition:none!important;
+    animation:none!important;
+  }
+}
