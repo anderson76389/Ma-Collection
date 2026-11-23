@@ -1,0 +1,644 @@
+/*
+ * MA-COLLECTION — Barre d'actions Liquid Glass
+ * La navigation, les catégories, l'export et les gestionnaires existants
+ * sont conservés. Style autonome : zéro import, police ou service tiers.
+ * Chargé EN DERNIER pour annuler les anciennes barres empilées.
+ */
+:root{
+  --lg-ink:#edf8f8;
+  --lg-muted:#bac8d3;
+  --lg-stroke:rgba(235,249,255,.18);
+  --lg-soft:rgba(255,255,255,.055);
+  --lg-mint:#72f3cb;
+  --lg-mint-strong:#00e7a5;
+  --lg-on-mint:#051c17;
+  --lg-glow:rgba(0,231,165,.14);
+  --lg-motion:cubic-bezier(.22,.8,.25,1);
+}
+
+/* La barre de prévisualisation, elle seule : fond semi-transparent, vrai flou,
+   reflets subtils et contraste lisible sur les affiches colorées. */
+.nv-preview-bar.nv-liquid-toolbar{
+  --lg-divider:rgba(220,240,249,.14);
+  position:fixed;
+  z-index:var(--z-control-bar,100);
+  left:50%;right:auto;
+  bottom:max(16px,env(safe-area-inset-bottom));
+  transform:translateX(-50%);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-sizing:border-box;
+  width:max-content;
+  max-width:calc(100vw - 28px);
+  height:auto;
+  min-height:60px;
+  padding:7px 9px;
+  margin:0;
+  border:1px solid rgba(232,245,255,.23);
+  border-radius:20px;
+  background:linear-gradient(152deg,rgba(51,65,84,.62),rgba(14,21,35,.76) 54%,rgba(9,17,30,.78));
+  color:var(--lg-ink);
+  -webkit-backdrop-filter:blur(28px) saturate(170%);
+  backdrop-filter:blur(28px) saturate(170%);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.17),inset 0 -1px 0 rgba(255,255,255,.045),
+    0 16px 56px rgba(0,0,0,.46),0 3px 14px rgba(0,0,0,.20);
+  overflow:visible;
+  isolation:isolate;
+}
+.nv-liquid-toolbar::before{
+  content:"";
+  pointer-events:none;
+  position:absolute;
+  inset:1px;
+  border-radius:19px;
+  border:1px solid rgba(255,255,255,.045);
+  background:linear-gradient(180deg,rgba(255,255,255,.055),transparent 48%);
+  z-index:-1;
+}
+.nv-liquid-toolbar .nv-preview-content{
+  box-sizing:border-box;
+  display:flex;
+  flex-direction:column;
+  position:relative;
+  right:auto;bottom:auto;
+  width:auto;
+  min-width:0;
+  padding:0;
+  margin:0;
+  gap:0;
+  background:transparent;
+  border:0;
+  border-radius:0;
+  box-shadow:none;
+  backdrop-filter:none;
+  -webkit-backdrop-filter:none;
+}
+.nv-liquid-toolbar .nv-preview-primary{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:nowrap;
+  min-height:43px;
+  min-width:0;
+  gap:0;
+}
+.nv-liquid-toolbar .nv-preview-group{
+  box-sizing:border-box;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:5px;
+  min-width:0;
+  padding:0 10px;
+  flex:0 0 auto;
+}
+.nv-liquid-toolbar .nv-preview-group:first-child{padding-left:2px}
+.nv-liquid-toolbar .nv-preview-group:last-child{padding-right:2px}
+.nv-liquid-toolbar .nv-preview-group:not(:last-child){
+  border-right:1px solid var(--lg-divider);
+}
+.nv-liquid-toolbar .nv-preview-actions{
+  margin-left:0;
+  width:auto;
+  gap:6px;
+}
+.nv-liquid-toolbar .nv-preview-actions::before,
+.nv-liquid-toolbar .nv-preview-secondary::before{display:none!important}
+
+/* Toutes les commandes de cette barre partagent hauteur, rayons et métriques.
+   Ne pas forcer les boutons du catalogue ni les contrôles du lecteur. */
+.nv-liquid-toolbar .nv-preview-primary :is(button,.mc-folder-trigger){
+  box-sizing:border-box;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  flex:0 0 auto;
+  min-width:0;
+  height:39px;
+  min-height:39px;
+  margin:0;
+  padding:0 12px;
+  gap:7px;
+  font-family:'Inter',system-ui,sans-serif;
+  font-size:12px;
+  font-weight:660;
+  line-height:1.15;
+  letter-spacing:0;
+  text-transform:none;
+  white-space:nowrap;
+  color:var(--lg-ink);
+  background:rgba(255,255,255,.035);
+  border:1px solid rgba(224,240,250,.09);
+  border-radius:11px;
+  box-shadow:none;
+  text-shadow:none;
+  cursor:pointer;
+  transition:background .18s ease,border-color .18s ease,transform .18s var(--lg-motion),box-shadow .18s ease;
+  -webkit-tap-highlight-color:transparent;
+  touch-action:manipulation;
+}
+.nv-liquid-toolbar .nv-preview-primary button svg{
+  display:block;
+  width:16px;height:16px;
+  flex:0 0 16px;
+  stroke:currentColor;
+}
+.nv-liquid-toolbar .nv-preview-primary button:hover:not(:disabled){
+  transform:translateY(-1px);
+  background:rgba(255,255,255,.12);
+  border-color:rgba(219,246,250,.31);
+  box-shadow:0 5px 12px rgba(0,0,0,.12);
+  filter:none;
+}
+.nv-liquid-toolbar .nv-preview-primary button:active:not(:disabled){
+  transform:translateY(0) scale(.98);
+}
+.nv-liquid-toolbar .nv-preview-primary button:focus-visible,
+.nv-liquid-toolbar .nv-preview-secondary :is(button,select):focus-visible{
+  outline:2px solid var(--lg-mint-strong);
+  outline-offset:2px;
+}
+.nv-liquid-toolbar .nv-preview-primary button:disabled{
+  cursor:not-allowed;opacity:.48;transform:none;
+}
+
+/* TV / téléphone: un sélecteur segmenté lisible, sans traits gris parasites. */
+.nv-liquid-toolbar .nv-device-toggle{
+  display:flex;
+  align-items:center;
+  gap:2px;
+  flex:0 0 auto;
+  padding:3px;
+  height:43px;
+  border:1px solid rgba(222,241,252,.14);
+  border-radius:13px;
+  background:rgba(0,0,0,.19);
+  box-shadow:inset 0 1px 2px rgba(0,0,0,.16);
+}
+.nv-liquid-toolbar .nv-device-toggle .nv-device-opt{
+  height:35px;min-height:35px;
+  padding:0 11px;
+  border:1px solid transparent;
+  border-radius:9px;
+  background:transparent;
+  color:#cbd5df;
+  box-shadow:none;
+}
+.nv-liquid-toolbar .nv-device-toggle .nv-device-opt:hover:not(.active){
+  border-color:rgba(255,255,255,.08);
+  background:rgba(255,255,255,.07);
+}
+.nv-liquid-toolbar .nv-device-toggle .nv-device-opt.active{
+  border-color:rgba(164,255,225,.35);
+  color:var(--lg-on-mint);
+  background:linear-gradient(150deg,#91ffda,#42e8bc);
+  box-shadow:0 3px 12px rgba(0,234,163,.19),inset 0 1px 0 rgba(255,255,255,.44);
+}
+
+/* Édition : Reorganiser, Studio, Editeur rapide, puis le + Dossier ajouté
+   par custom-folders.js dans le même groupe. */
+.nv-liquid-toolbar .nv-preview-edit-actions .nv-reorder-toggle.active{
+  border-color:rgba(108,245,201,.43);
+  background:rgba(0,231,165,.13);
+  color:#b2ffe4;
+}
+.nv-liquid-toolbar .nv-preview-edit-actions .mc-folder-trigger{
+  border-color:rgba(0,231,165,.23);
+  color:#b7ffea;
+  background:rgba(0,231,165,.09);
+}
+.nv-liquid-toolbar .nv-preview-edit-actions .mc-folder-trigger:hover{
+  border-color:rgba(0,231,165,.54);
+  background:rgba(0,231,165,.18);
+}
+
+/* Enregistrer : discret / Importer : unique CTA menthe. */
+.nv-liquid-toolbar .nv-preview-actions #preview-download{
+  border-color:rgba(238,255,255,.16);
+  background:rgba(255,255,255,.085);
+  color:#ecf5f6;
+}
+.nv-liquid-toolbar .nv-preview-actions #preview-send{
+  padding:0 15px;
+  border-color:rgba(159,255,218,.48);
+  border-radius:11px;
+  background:linear-gradient(145deg,#84fbd4,#46e9ba);
+  color:#05221b;
+  font-size:12px;
+  font-weight:800;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.37),0 5px 20px rgba(0,231,165,.18);
+}
+.nv-liquid-toolbar .nv-preview-actions #preview-send:hover{
+  border-color:rgba(255,255,255,.46);
+  background:linear-gradient(145deg,#a2ffe2,#6cf3cb);
+  color:#06231b;
+  box-shadow:0 6px 23px rgba(0,231,165,.31);
+}
+.nv-liquid-toolbar .nv-preview-actions #preview-more{
+  display:inline-flex;
+  height:39px;
+  min-height:39px;
+  min-width:39px;
+  border-radius:11px;
+  color:#d6e6e9;
+}
+.nv-liquid-toolbar .nv-preview-actions #preview-more.active,
+.nv-liquid-toolbar .nv-preview-actions #preview-more[aria-expanded="true"]{
+  color:#bcffe6;
+  border-color:rgba(108,245,201,.42);
+  background:rgba(0,231,165,.13);
+}
+.nv-liquid-toolbar #preview-fab{display:none}
+
+/* Un vrai popover Plus (sur ordinateur), avec ses options masquées par défaut.
+   Les deux boutons ajoutés par site-tools.js vivent dans .nv-preview-menu-tools. */
+.nv-liquid-toolbar .nv-preview-secondary{
+  box-sizing:border-box;
+  display:none;
+  position:absolute;
+  right:0;
+  bottom:calc(100% + 14px);
+  width:min(352px,calc(100vw - 28px));
+  max-height:min(65dvh,590px);
+  overflow:auto;
+  overscroll-behavior:contain;
+  padding:13px;
+  margin:0;
+  gap:10px;
+  flex-direction:column;
+  align-items:stretch;
+  justify-content:flex-start;
+  border:1px solid rgba(234,250,255,.22);
+  border-radius:18px;
+  background:linear-gradient(155deg,rgba(37,50,66,.91),rgba(12,20,32,.96));
+  color:#f0f7f8;
+  -webkit-backdrop-filter:blur(32px) saturate(180%);
+  backdrop-filter:blur(32px) saturate(180%);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.17),
+    0 18px 60px rgba(0,0,0,.53);
+  z-index:4;
+  scrollbar-width:thin;
+  scrollbar-color:rgba(171,201,210,.4) transparent;
+}
+.nv-liquid-toolbar .nv-preview-secondary.open{display:flex}
+.nv-liquid-toolbar .nv-preview-menu-title{
+  display:block;
+  margin:1px 2px 3px;
+  color:#f1f8f9;
+  font-size:13px;
+  font-weight:780;
+  letter-spacing:-.014em;
+}
+.nv-liquid-toolbar .nv-preview-menu-section{
+  display:flex;
+  flex-direction:column;
+  align-items:stretch;
+  gap:7px;
+  min-width:0;
+  margin:0;
+  padding:0;
+  border:0;
+  background:transparent;
+}
+.nv-liquid-toolbar .nv-preview-menu-layout{
+  border:1px solid rgba(230,248,252,.11);
+  border-radius:12px;
+  padding:10px 11px;
+  background:rgba(255,255,255,.035);
+}
+.nv-liquid-toolbar .nv-preview-menu-layout label{
+  margin:0;
+  font-family:'Inter',system-ui,sans-serif;
+  color:#b3c7cb;
+  font-size:11px;
+  font-weight:680;
+  letter-spacing:.025em;
+}
+.nv-liquid-toolbar .nv-viewmode-combo{
+  display:flex;align-items:center;gap:9px;
+  width:100%;
+  padding:4px 0;
+  margin:0;
+  min-height:28px;
+  background:transparent;
+  border:0;
+  border-radius:0;
+}
+.nv-liquid-toolbar .nv-viewmode-combo svg{width:16px;height:16px;flex:0 0 16px;color:#8debd0}
+.nv-liquid-toolbar .nv-viewmode-combo #preview-viewmode{
+  width:100%;
+  min-width:0;
+  min-height:29px;
+  height:29px;
+  font-family:'Inter',system-ui,sans-serif;
+  font-size:12px;
+  font-weight:650;
+  color:#f3fbfb;
+  background:transparent;
+  padding:3px 6px;
+  border:0;
+  border-radius:7px;
+  cursor:pointer;
+}
+.nv-liquid-toolbar .nv-viewmode-combo #preview-viewmode option{
+  color:#14231f;
+  background:#e6f3ef;
+}
+.nv-liquid-toolbar .nv-preview-menu-tools{gap:6px}
+.nv-liquid-toolbar .nv-preview-menu-tools button,
+.nv-liquid-toolbar .nv-preview-secondary>.cat-action-btn{
+  box-sizing:border-box;
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  gap:11px;
+  width:100%;
+  height:auto;
+  min-height:42px;
+  margin:0;
+  padding:9px 11px;
+  background:rgba(255,255,255,.035);
+  color:#e6f3f5;
+  border:1px solid rgba(234,249,255,.105);
+  border-radius:10px;
+  box-shadow:none;
+  font-family:'Inter',system-ui,sans-serif;
+  font-size:12px;
+  font-weight:650;
+  line-height:1.3;
+  text-align:left;
+  cursor:pointer;
+  white-space:normal;
+  transition:background .17s ease,border-color .17s ease;
+}
+.nv-liquid-toolbar .nv-preview-menu-tools button:hover{
+  color:#f6fff9;
+  border-color:rgba(0,231,165,.41);
+  background:rgba(0,231,165,.105);
+}
+.nv-liquid-toolbar .nv-preview-menu-tools button svg{width:17px;height:17px;flex:0 0 17px}
+.nv-liquid-toolbar .nv-preview-menu-tools .bingecat-mark{
+  flex:0 0 17px;width:17px;
+  display:grid;place-items:center;
+}
+.nv-liquid-toolbar .nv-preview-menu-tools .bingecat-mark img{
+  max-height:18px;max-width:18px;object-fit:contain;
+}
+
+/* Panneau de l'éditeur normal : même famille Liquid Glass, aucune suppression
+   d'action (si le mode classique est choisi). */
+.control-center-bar .control-center-panel{
+  border:1px solid rgba(230,245,254,.2);
+  border-radius:18px;
+  background:linear-gradient(145deg,rgba(43,55,70,.64),rgba(13,20,34,.79));
+  -webkit-backdrop-filter:blur(25px) saturate(165%);
+  backdrop-filter:blur(25px) saturate(165%);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 14px 40px rgba(0,0,0,.34);
+}
+.control-center-bar .control-actions-combo :is(.btn-primary,.btn-secondary){
+  border-radius:10px;
+}
+.control-center-bar #btn-import-kovelyx{
+  border:1px solid rgba(152,255,219,.39);
+  background:linear-gradient(145deg,#85fbd6,#41e6b5);
+  color:#06231a;
+  box-shadow:0 5px 18px rgba(0,231,165,.16);
+}
+.control-center-bar #btn-import-kovelyx:hover{background:#9affdc}
+#mc-studio-root .mc-studio-workspace .mc-studio-footer{
+  background:linear-gradient(140deg,rgba(26,38,50,.72),rgba(12,20,29,.83));
+  -webkit-backdrop-filter:blur(20px) saturate(145%);
+  backdrop-filter:blur(20px) saturate(145%);
+  border-top:1px solid rgba(223,241,248,.13);
+}
+
+/* Petit ordinateur/tablette paysage: répartition en deux groupes au besoin. */
+@media (max-width:1180px) and (min-width:861px){
+  .nv-preview-bar.nv-liquid-toolbar{
+    width:min(940px,calc(100vw - 24px));
+    padding:8px 10px;
+  }
+  .nv-liquid-toolbar .nv-preview-primary{
+    flex-wrap:wrap;
+    justify-content:center;
+    row-gap:7px;
+  }
+  .nv-liquid-toolbar .nv-preview-group{
+    flex:0 1 auto;
+  }
+  .nv-liquid-toolbar .nv-preview-primary :is(button,.mc-folder-trigger){
+    padding-inline:10px;
+  }
+  .nv-liquid-toolbar .nv-preview-group:not(:last-child){
+    border-right:0;
+  }
+  .nv-liquid-toolbar .nv-preview-group:last-child{
+    border-left:1px solid var(--lg-divider);
+  }
+}
+/* Téléphone / tablette compacte : un seul bouton flottant de 52 px.
+   Tap => panneau complet avec tous les groupes et Plus dépliable. */
+@media (max-width:860px){
+  .nv-preview-bar.nv-liquid-toolbar{
+    position:fixed;
+    right:max(13px,env(safe-area-inset-right));
+    left:auto;
+    bottom:max(13px,env(safe-area-inset-bottom));
+    width:auto;max-width:calc(100vw - 26px);
+    min-height:0;height:auto;
+    margin:0;padding:0;border:0;
+    background:transparent;box-shadow:none;
+    transform:none;
+    backdrop-filter:none;-webkit-backdrop-filter:none;
+    isolation:initial;
+  }
+  .nv-liquid-toolbar::before{display:none}
+  .nv-liquid-toolbar #preview-fab{
+    box-sizing:border-box;
+    display:grid;
+    place-items:center;
+    position:relative;
+    z-index:3;
+    width:53px;height:53px;min-width:53px;min-height:53px;
+    padding:0;margin:0;
+    border:1px solid rgba(233,249,255,.29);
+    border-radius:16px;
+    color:#dcfff1;
+    background:linear-gradient(150deg,rgba(55,73,89,.78),rgba(11,26,36,.87));
+    -webkit-backdrop-filter:blur(25px) saturate(180%);
+    backdrop-filter:blur(25px) saturate(180%);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.17),
+      0 11px 34px rgba(0,0,0,.41);
+  }
+  .nv-liquid-toolbar #preview-fab.active{
+    border-color:rgba(0,231,165,.53);
+    color:#8effd5;
+    background:linear-gradient(155deg,rgba(40,87,76,.84),rgba(10,36,34,.9));
+  }
+  .nv-liquid-toolbar #preview-fab svg{width:22px;height:22px}
+  .nv-liquid-toolbar .nv-preview-content{
+    box-sizing:border-box;
+    display:none;
+    position:absolute;
+    right:0;bottom:calc(100% + 12px);
+    width:min(414px,calc(100vw - 26px));
+    max-height:calc(100dvh - 102px);
+    padding:12px;
+    margin:0;
+    gap:9px;
+    flex-direction:column;
+    overflow-y:auto;
+    overscroll-behavior:contain;
+    border:1px solid rgba(234,251,255,.24);
+    border-radius:20px;
+    color:#f5fffc;
+    background:linear-gradient(160deg,rgba(40,58,77,.93),rgba(10,19,34,.97));
+    -webkit-backdrop-filter:blur(30px) saturate(175%);
+    backdrop-filter:blur(30px) saturate(175%);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.16),0 17px 56px rgba(0,0,0,.55);
+  }
+  .nv-liquid-toolbar.open .nv-preview-content{display:flex}
+  .nv-liquid-toolbar .nv-preview-primary{
+    flex-direction:column;
+    gap:10px;
+    width:100%;
+    align-items:stretch;
+    justify-content:flex-start;
+  }
+  .nv-liquid-toolbar .nv-preview-group{
+    box-sizing:border-box;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:6px;
+    width:100%;
+    padding:0 0 10px;
+    border:0!important;
+    border-bottom:1px solid var(--lg-divider)!important;
+  }
+  .nv-liquid-toolbar .nv-preview-group:first-child{padding:0 0 10px}
+  .nv-liquid-toolbar .nv-preview-group:last-child{padding:0;border:0!important}
+  .nv-liquid-toolbar .nv-device-toggle{width:100%;justify-content:center}
+  .nv-liquid-toolbar .nv-device-toggle .nv-device-opt{
+    flex:1 1 0;min-width:0;
+  }
+  .nv-liquid-toolbar .nv-preview-primary :is(button,.mc-folder-trigger){
+    min-height:43px;height:43px;font-size:12px;
+  }
+  .nv-liquid-toolbar .nv-preview-edit-actions :is(button,.mc-folder-trigger){
+    flex:1 1 calc(50% - 6px);
+    white-space:normal;
+    padding:8px 6px;
+    text-align:center;
+  }
+  .nv-liquid-toolbar .nv-preview-actions{display:flex;flex-wrap:nowrap;gap:6px}
+  .nv-liquid-toolbar .nv-preview-actions #preview-download{
+    flex:1 1 auto;
+  }
+  .nv-liquid-toolbar .nv-preview-actions #preview-send{
+    flex:1 1 auto;
+    padding:0 10px;
+  }
+  .nv-liquid-toolbar .nv-preview-actions #preview-more{
+    flex:0 0 45px;
+    width:45px;min-width:45px;height:43px;
+    padding:0;
+  }
+  .nv-liquid-toolbar .nv-preview-actions .nv-more-label{display:none}
+  .nv-liquid-toolbar .nv-preview-secondary{
+    position:static;
+    width:100%;max-width:100%;
+    max-height:min(36dvh,300px);
+    right:auto;bottom:auto;
+    margin:0;padding:10px;
+    border-radius:13px;
+    background:rgba(8,17,29,.35);
+    box-shadow:none;
+    gap:8px;
+    overflow-y:auto;
+  }
+  .nv-liquid-toolbar .nv-preview-secondary.open{display:flex}
+}
+@media(max-width:390px){
+  .nv-liquid-toolbar .nv-preview-primary :is(button,.mc-folder-trigger){
+    font-size:11px;
+  }
+  .nv-liquid-toolbar .nv-preview-actions #preview-send{padding:0 7px}
+}
+@media (hover:none){
+  .nv-liquid-toolbar .nv-preview-primary button:hover:not(:disabled){
+    transform:none;
+  }
+}
+@media(prefers-reduced-motion:reduce){
+  .nv-liquid-toolbar *,
+  .nv-liquid-toolbar *::before,
+  .nv-liquid-toolbar *::after{
+    transition:none!important;
+    animation:none!important;
+  }
+}
+/* Thèmes clair et contraste élevé : aucune commande pâle sur fond clair. */
+html[data-theme="light"] .nv-preview-bar.nv-liquid-toolbar{
+  --lg-divider:rgba(11,56,53,.16);
+  border-color:rgba(34,78,76,.21);
+  background:linear-gradient(155deg,rgba(255,255,255,.76),rgba(226,243,238,.87));
+  color:#163a35;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.76),0 12px 38px rgba(11,45,41,.21);
+}
+html[data-theme="light"] .nv-liquid-toolbar .nv-preview-primary button:not(.active):not(#preview-send){
+  color:#1e5147;
+  background:rgba(255,255,255,.53);
+  border-color:rgba(38,96,87,.18);
+}
+html[data-theme="light"] .nv-liquid-toolbar .nv-device-toggle{
+  background:rgba(16,75,65,.085);
+  border-color:rgba(25,95,82,.22);
+}
+html[data-theme="light"] .nv-liquid-toolbar .nv-device-toggle .nv-device-opt.active{
+  color:#06362b;
+  background:#75f4c9;
+}
+html[data-theme="light"] .nv-liquid-toolbar .nv-preview-secondary{
+  background:linear-gradient(152deg,rgba(255,255,255,.98),rgba(229,245,239,.98));
+  color:#1b4138;
+  border-color:rgba(33,89,80,.22);
+}
+html[data-theme="light"] .nv-liquid-toolbar .nv-preview-menu-title{color:#184437}
+html[data-theme="light"] .nv-liquid-toolbar .nv-preview-menu-layout label{color:#416a62}
+html[data-theme="light"] .nv-liquid-toolbar .nv-preview-menu-layout{
+  background:rgba(14,89,68,.06);border-color:rgba(17,96,74,.19);
+}
+html[data-theme="light"] .nv-liquid-toolbar .nv-viewmode-combo #preview-viewmode{
+  color:#154939;
+}
+html[data-theme="light"] .nv-liquid-toolbar .nv-preview-menu-tools button{
+  color:#195344;background:rgba(255,255,255,.75);border-color:rgba(32,92,74,.17);
+}
+html[data-theme="light"] .control-center-bar .control-center-panel{
+  background:rgba(245,253,249,.85);
+}
+html[data-theme="high-contrast"] .nv-preview-bar.nv-liquid-toolbar{
+  background:rgba(2,12,10,.95);
+  border-color:rgba(130,255,214,.76);
+}
+html[data-theme="high-contrast"] .nv-liquid-toolbar .nv-preview-secondary{
+  background:#051512;border-color:rgba(130,255,214,.78);
+}
+@media(max-width:860px){
+  html[data-theme="light"] .nv-preview-bar.nv-liquid-toolbar{
+    border:0;background:transparent;box-shadow:none;
+  }
+  html[data-theme="light"] .nv-liquid-toolbar .nv-preview-content{
+    color:#194037;
+    border-color:rgba(18,89,71,.28);
+    background:linear-gradient(155deg,rgba(255,255,255,.97),rgba(220,242,234,.98));
+  }
+  html[data-theme="light"] .nv-liquid-toolbar #preview-fab{
+    color:#134a3d;background:rgba(237,255,248,.94);
+    border-color:rgba(16,92,74,.29);
+  }
+  html[data-theme="light"] .nv-liquid-toolbar .nv-preview-secondary{
+    background:rgba(247,254,250,.72);
+  }
+}
