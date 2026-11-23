@@ -353,7 +353,7 @@ html[data-theme="high-contrast"] {
   display:grid;place-items:center;
   width:24px;height:24px;
   flex:0 0 24px;
-  color:#6eeac2;
+  color:#C7A5FF;
 }
 #mc-studio-root .mc-studio-cockpit .mc-studio-top-branch button,
 #mc-studio-root .mc-studio-cockpit .mc-studio-tools-hub,
@@ -977,7 +977,7 @@ html[data-theme="high-contrast"]{
 #mc-studio-root .mc-studio-workspace .mc-studio-art-nav button[aria-pressed="true"]{
   background:var(--kap-ui-mint-soft);
   border-color:var(--kap-ui-mint-stroke);
-  color:#91f9d8;
+  color:#D5B8FF;
 }
 #mc-studio-root .mc-studio-workspace .mc-studio-art-nav button:hover{
   border-color:var(--kap-ui-mint-stroke);color:var(--kap-ui-fg);
@@ -1152,7 +1152,7 @@ html[data-theme="light"] .mc-home-overlay .mc-home .portfolio-card{
   background:linear-gradient(145deg,#fff,#eef5f1);
 }
 html[data-theme="light"] .mc-home-overlay .mc-home .portfolio-card .port-card-eyebrow{
-  color:#3b6960;background:rgba(103,60,207,.05);
+  color:#6541A6;background:rgba(103,60,207,.05);
 }
 html[data-theme="light"] .mc-home-overlay .mc-home .portfolio-card .port-card-eyebrow.is-highlight{
   color:#5631B6;background:rgba(103,60,207,.1);
