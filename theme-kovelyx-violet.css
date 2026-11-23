@@ -12,7 +12,7 @@
 :root{
   color-scheme:dark;
   --kv-brand:#8656F4;
-  --kv-brand-hover:#996DFF;
+  --kv-brand-hover:#7644DB;
   --kv-brand-soft:#BA99FF;
   --kv-brand-pale:#E9D9FF;
   --kv-brand-rgb:134,86,244;
@@ -30,7 +30,7 @@
   --home-mint:#8656F4;
   --home-ink:#fff;
   --mc-ui-green:#8656F4;
-  --mc-ui-green-hover:#996DFF;
+  --mc-ui-green-hover:#7644DB;
   --mc-ui-green-dark:#fff;
   --mc-ui-ring:rgba(166,127,255,.54);
   --mc-ui-line-hover:rgba(165,121,255,.44);
