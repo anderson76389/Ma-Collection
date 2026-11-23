@@ -237,11 +237,33 @@
 }
 .nv-liquid-toolbar .nv-preview-actions #preview-more{
   display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:9px;
+  width:auto;                 /* l'ancien .nv-more-toggle fixe width:34px */
+  min-width:85px;             /* icône + libellé + marges intérieures */
+  max-width:none;
+  flex:0 0 auto;
   height:39px;
   min-height:39px;
-  min-width:39px;
+  padding:0 13px;
   border-radius:11px;
+  white-space:nowrap;
+  overflow:visible;
   color:#d6e6e9;
+}
+.nv-liquid-toolbar .nv-preview-actions #preview-more svg{
+  display:block;
+  flex:0 0 16px;
+  width:16px;
+  height:16px;
+}
+.nv-liquid-toolbar .nv-preview-actions #preview-more .nv-more-label{
+  display:inline-block;
+  flex:0 0 auto;
+  min-width:max-content;
+  white-space:nowrap;
+  line-height:1;
 }
 .nv-liquid-toolbar .nv-preview-actions #preview-more.active,
 .nv-liquid-toolbar .nv-preview-actions #preview-more[aria-expanded="true"]{
@@ -414,9 +436,9 @@
 }
 
 /* Petit ordinateur/tablette paysage: répartition en deux groupes au besoin. */
-@media (max-width:1180px) and (min-width:861px){
+@media (max-width:1320px) and (min-width:861px){
   .nv-preview-bar.nv-liquid-toolbar{
-    width:min(940px,calc(100vw - 24px));
+    width:min(1120px,calc(100vw - 24px));
     padding:8px 10px;
   }
   .nv-liquid-toolbar .nv-preview-primary{
@@ -541,8 +563,8 @@
   }
   .nv-liquid-toolbar .nv-preview-actions #preview-more{
     flex:0 0 45px;
-    width:45px;min-width:45px;height:43px;
-    padding:0;
+    width:45px;min-width:45px;max-width:45px;height:43px;
+    padding:0;gap:0;
   }
   .nv-liquid-toolbar .nv-preview-actions .nv-more-label{display:none}
   .nv-liquid-toolbar .nv-preview-secondary{
@@ -640,5 +662,115 @@ html[data-theme="high-contrast"] .nv-liquid-toolbar .nv-preview-secondary{
   }
   html[data-theme="light"] .nv-liquid-toolbar .nv-preview-secondary{
     background:rgba(247,254,250,.72);
+  }
+}
+
+
+/* Novembre 2026 : protections anti-débordement après capture réelle.
+ * Un bouton ne doit jamais laisser son texte sortir de son contour. */
+.nv-liquid-toolbar .nv-preview-primary{
+  box-sizing:border-box;
+  max-width:100%;
+  gap:0;
+}
+.nv-liquid-toolbar .nv-preview-primary .nv-preview-group{
+  flex-shrink:0;
+  min-width:0;
+}
+.nv-liquid-toolbar .nv-preview-primary button:not(.nv-device-opt){
+  /* Les boutons textuels calculent leur largeur sur leur vrai libellé. */
+  width:max-content;
+  max-width:100%;
+  overflow:visible;
+}
+.nv-liquid-toolbar .nv-preview-primary button > span:not(.bingecat-mark){
+  display:inline-block;
+  flex:0 0 auto;
+  min-width:0;
+  line-height:1.3;
+}
+.nv-liquid-toolbar .nv-preview-primary button > svg{
+  display:block;
+  flex:none;
+  min-width:16px;
+  max-width:16px;
+  width:16px;height:16px;
+}
+.nv-liquid-toolbar .nv-preview-primary .nv-device-opt{
+  width:auto;
+  max-width:none;
+}
+.nv-liquid-toolbar .nv-preview-actions{
+  box-sizing:border-box;
+  flex:0 0 auto;
+  min-width:max-content;
+  align-items:center;
+  gap:7px;
+}
+.nv-liquid-toolbar .nv-preview-actions #preview-more{
+  width:auto;
+  min-width:85px;
+  padding:0 13px;
+  flex:0 0 auto;
+}
+.nv-liquid-toolbar .nv-preview-actions #preview-more .nv-more-label{
+  white-space:nowrap;
+  flex:0 0 auto;
+}
+@media(max-width:1320px) and (min-width:861px){
+  .nv-liquid-toolbar .nv-preview-primary{flex-wrap:wrap;row-gap:8px}
+  .nv-liquid-toolbar .nv-preview-group:not(:last-child){
+    border-right:0;
+  }
+  .nv-liquid-toolbar .nv-preview-actions{
+    min-width:0;
+  }
+}
+@media(max-width:860px){
+  .nv-liquid-toolbar .nv-preview-primary .nv-preview-group{
+    flex-shrink:1;
+  }
+  .nv-liquid-toolbar .nv-preview-primary button:not(.nv-device-opt){
+    width:auto;
+    min-width:0;
+    max-width:100%;
+  }
+  .nv-liquid-toolbar .nv-preview-actions{
+    flex:0 1 auto;
+    width:100%;
+    min-width:0;
+  }
+  .nv-liquid-toolbar .nv-preview-actions #preview-more{
+    flex:0 0 44px;
+    width:44px;
+    min-width:44px;
+    max-width:44px;
+    padding:0;
+  }
+  .nv-liquid-toolbar .nv-preview-actions #preview-more .nv-more-label{
+    display:none;
+  }
+  .nv-liquid-toolbar .nv-preview-primary .nv-device-opt{
+    flex:1 1 0;
+    min-width:0;
+    width:auto;
+  }
+  .nv-liquid-toolbar .nv-preview-edit-actions button{
+    min-width:0;
+    max-width:100%;
+    flex:1 1 calc(50% - 6px);
+  }
+  .nv-liquid-toolbar .nv-preview-edit-actions button > span{
+    display:block;
+    min-width:0;
+    max-width:100%;
+    white-space:normal;
+    overflow-wrap:break-word;
+  }
+  .nv-liquid-toolbar .nv-preview-actions #preview-download,
+  .nv-liquid-toolbar .nv-preview-actions #preview-send{
+    flex:1 1 0;
+    min-width:0;
+    padding-inline:8px;
   }
 }
