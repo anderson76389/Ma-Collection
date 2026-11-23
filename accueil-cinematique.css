@@ -5,8 +5,8 @@
  * Les règles restent cantonnées à l'écran d'accueil et son menu d'outils.
  */
 .mc-home-overlay {
-  --home-mint:#00e7a5;
-  --home-ink:#041b14;
+  --home-mint:#8656F4;
+  --home-ink:#ffffff;
   --home-edge:rgba(203,218,230,.14);
   --home-surface:rgba(16,18,27,.83);
   background:#06080d;
@@ -28,7 +28,7 @@
 .mc-home-overlay .suite-wall::after {
   background:
     radial-gradient(ellipse 45% 59% at 51% 47%,rgba(1,8,10,.99) 0%,rgba(3,8,12,.94) 49%,rgba(2,6,12,.64) 80%,rgba(3,6,11,.46) 100%),
-    radial-gradient(ellipse 47% 42% at 66% 54%,rgba(0,103,80,.16),transparent 85%),
+    radial-gradient(ellipse 47% 42% at 66% 54%,rgba(103,60,207,.16),transparent 85%),
     linear-gradient(180deg,rgba(5,8,14,.23),rgba(4,8,13,.10) 45%,rgba(2,4,7,.60));
 }
 @keyframes mc-home-mosaic-drift{
@@ -71,7 +71,7 @@ body:has(#title-screen-overlay.active) #account-chrome{display:none!important}
 }
 .mc-home-overlay .mc-home .home-search:hover{
   transform:none;background:rgba(19,28,32,.92);
-  border-color:rgba(0,231,165,.55);box-shadow:0 0 0 3px rgba(0,231,165,.06);
+  border-color:rgba(134,86,244,.55);box-shadow:0 0 0 3px rgba(134,86,244,.06);
 }
 .mc-home-overlay .home-search .home-search-icon{display:grid;place-items:center;color:#a7b0bc}
 .mc-home-overlay .home-search .home-search-copy{flex:1;min-width:0}
@@ -95,12 +95,12 @@ body:has(#title-screen-overlay.active) #account-chrome{display:none!important}
   border-radius:999px;padding:0 25px;background:var(--home-mint);
   color:var(--home-ink);font-family:'Outfit','Inter',sans-serif;
   font-size:.86rem;font-weight:800;letter-spacing:-.005em;
-  box-shadow:0 9px 25px rgba(0,231,165,.16),inset 0 1px 0 rgba(255,255,255,.30);
+  box-shadow:0 9px 25px rgba(134,86,244,.16),inset 0 1px 0 rgba(255,255,255,.30);
   transition:background .15s ease,transform .15s ease,box-shadow .15s ease;
 }
 .mc-home-overlay .mc-home .home-express:hover{
   background:#41f1bb;transform:translateY(-2px);
-  box-shadow:0 11px 30px rgba(0,231,165,.26);
+  box-shadow:0 11px 30px rgba(134,86,244,.26);
 }
 .mc-home-overlay .mc-home .home-express:active{transform:translateY(0);background:#00c88d}
 .mc-home-overlay .home-express .home-express-icon{font-size:1.03rem}
@@ -130,7 +130,7 @@ body:has(#title-screen-overlay.active) #account-chrome{display:none!important}
   border-left:1px solid rgba(255,255,255,.10)!important;border-radius:0!important;
 }
 .mc-home-overlay .mc-home .home-return button:hover{
-  color:#f5f9fb!important;background:rgba(0,231,165,.09)!important;
+  color:#f5f9fb!important;background:rgba(134,86,244,.09)!important;
 }
 .mc-home-overlay .mc-home-intro .title-hero-logo-emblem{
   position:absolute;bottom:51px;left:50%;transform:translateX(-50%);
@@ -138,7 +138,7 @@ body:has(#title-screen-overlay.active) #account-chrome{display:none!important}
 }
 .mc-home-overlay .mc-home-intro .title-hero-logo-img{
   width:38px;height:38px;object-fit:contain;
-  filter:drop-shadow(0 0 12px rgba(0,231,165,.11));
+  filter:drop-shadow(0 0 12px rgba(134,86,244,.11));
 }
 .mc-home-overlay .mc-home-intro .title-scroll-indicator{
   position:absolute;bottom:14px;left:50%;transform:translateX(-50%);
@@ -186,7 +186,7 @@ body:has(#title-screen-overlay.active) #account-chrome{display:none!important}
   font-size:.67rem;font-weight:770;letter-spacing:.055em;text-transform:uppercase;
 }
 .mc-home-overlay .home-dock.mc-cockpit .mc-cockpit-branch button:hover{
-  color:#fff;background:transparent!important;border-bottom-color:rgba(0,231,165,.36);
+  color:#fff;background:transparent!important;border-bottom-color:rgba(134,86,244,.36);
 }
 .mc-home-overlay .home-dock.mc-cockpit .mc-cockpit-branch [data-home-target="title-screen-start"]{
   color:#f9fbfd;border-bottom:2px solid var(--home-mint);
@@ -196,11 +196,11 @@ body:has(#title-screen-overlay.active) #account-chrome{display:none!important}
   min-height:29px;height:29px;border-radius:999px;
   padding:2px 12px 2px 6px;gap:8px;
   border-color:rgba(255,255,255,.15);background:rgba(255,255,255,.035);
-  color:#f5f7f9;box-shadow:0 0 14px rgba(0,231,165,.07);
+  color:#f5f7f9;box-shadow:0 0 14px rgba(134,86,244,.07);
   font-size:.70rem;font-weight:760;letter-spacing:.035em;text-transform:uppercase;
 }
 .mc-home-overlay .home-dock.mc-cockpit #home-tools-menu.mc-cockpit-hub:hover{
-  border-color:rgba(0,231,165,.62);background:rgba(0,231,165,.08);
+  border-color:rgba(134,86,244,.62);background:rgba(134,86,244,.08);
 }
 .mc-home-overlay .home-dock.mc-cockpit #home-tools-menu .mc-cockpit-hub-logo,
 .mc-home-overlay .home-dock.mc-cockpit #home-tools-menu .mc-cockpit-hub-logo img{height:20px;width:20px}
@@ -211,7 +211,7 @@ body:has(#title-screen-overlay.active) #account-chrome{display:none!important}
   color:#c8d0d9;font-size:.95rem;
 }
 .mc-home-overlay .home-dock.mc-cockpit #suite-menu:hover{
-  color:var(--home-mint);border-color:rgba(0,231,165,.38);
+  color:var(--home-mint);border-color:rgba(134,86,244,.38);
 }
 .mc-home-overlay .mc-cockpit-right{display:flex;align-items:center;gap:7px}
 .mc-home-overlay .home-dock.mc-cockpit .mc-header-shortcut{
@@ -222,8 +222,8 @@ body:has(#title-screen-overlay.active) #account-chrome{display:none!important}
   white-space:nowrap;text-transform:none;letter-spacing:0;
 }
 .mc-home-overlay .home-dock.mc-cockpit .mc-header-shortcut:hover{
-  color:#fff;background:rgba(0,231,165,.09);
-  border-color:rgba(0,231,165,.33);
+  color:#fff;background:rgba(134,86,244,.09);
+  border-color:rgba(134,86,244,.33);
 }
 .mc-home-overlay .mc-header-shortcut kbd{
   padding:2px 5px;border:1px solid rgba(255,255,255,.10);
@@ -231,7 +231,7 @@ body:has(#title-screen-overlay.active) #account-chrome{display:none!important}
 }
 .mc-home-overlay .mc-header-shortcut .mc-account-circle{
   display:grid;place-items:center;width:17px;height:17px;
-  border-radius:50%;background:rgba(0,231,165,.18);color:var(--home-mint);
+  border-radius:50%;background:rgba(134,86,244,.18);color:var(--home-mint);
   font-weight:800;font-size:.69rem;
 }
 .mc-home-overlay .home-dock.mc-cockpit #title-theme-toggle{
@@ -241,7 +241,7 @@ body:has(#title-screen-overlay.active) #account-chrome{display:none!important}
   color:#8994a5;box-shadow:none;
 }
 .mc-home-overlay .home-dock.mc-cockpit #title-theme-toggle:hover{
-  border-color:rgba(0,231,165,.3);color:#e9fff7;
+  border-color:rgba(134,86,244,.3);color:#F4EBFF;
 }
 .mc-home-overlay .mc-home-view-collection{
   position:fixed;right:22px;bottom:17px;z-index:7;
@@ -256,7 +256,7 @@ body:has(#title-screen-overlay.active) #account-chrome{display:none!important}
 }
 .mc-home-overlay .mc-home-view-collection span{color:var(--home-mint);font-size:1.13rem}
 .mc-home-overlay .mc-home-view-collection:hover{
-  background:rgba(10,34,31,.96);border-color:rgba(0,231,165,.44);transform:translateY(-2px)
+  background:rgba(10,34,31,.96);border-color:rgba(134,86,244,.44);transform:translateY(-2px)
 }
 .mc-home-overlay .mc-home-view-collection:focus-visible{
   outline:2px solid var(--home-mint);outline-offset:3px
@@ -269,10 +269,10 @@ body:has(#title-screen-overlay.active) #account-chrome{display:none!important}
   box-shadow:none;border-radius:15px;
 }
 .mc-home-overlay .mc-home .portfolio-card:hover{
-  background:rgba(17,29,28,.95);border-color:rgba(0,231,165,.35);
+  background:rgba(17,29,28,.95);border-color:rgba(134,86,244,.35);
 }
 .mc-home-overlay .mc-home .port-card-icon{
-  background:rgba(0,231,165,.095);border-color:rgba(0,231,165,.2);
+  background:rgba(134,86,244,.095);border-color:rgba(134,86,244,.2);
   color:var(--home-mint);
 }
 .mc-home-overlay .mc-home .port-link{color:#9aaab1}
@@ -281,11 +281,11 @@ body:has(#title-screen-overlay.active) #account-chrome{display:none!important}
   background:rgba(16,18,25,.94);border:1px solid rgba(255,255,255,.1);
 }
 .mc-home-overlay .mc-home-more-tools>summary:hover{
-  background:rgba(19,30,30,.96);border-color:rgba(0,231,165,.31);
+  background:rgba(19,30,30,.96);border-color:rgba(134,86,244,.31);
 }
-#mc-tools .mc-tools-option:hover{border-color:rgba(0,231,165,.38)!important}
-#mc-tools .mc-tools-option:focus-visible{outline:2px solid #00e7a5;outline-offset:2px}
-html[data-theme="light"] .mc-home-overlay{--home-mint:#007f5a;--home-ink:#fff;background:#f6f8f7}
+#mc-tools .mc-tools-option:hover{border-color:rgba(134,86,244,.38)!important}
+#mc-tools .mc-tools-option:focus-visible{outline:2px solid #8656F4;outline-offset:2px}
+html[data-theme="light"] .mc-home-overlay{--home-mint:#6940D1;--home-ink:#fff;background:#f6f8f7}
 html[data-theme="light"] .mc-home-overlay .suite-wall{display:none}
 html[data-theme="light"] .mc-home-overlay .home-dock.mc-cockpit{background:rgba(250,251,253,.94)}
 html[data-theme="light"] .mc-home-overlay .home-dock.mc-cockpit .mc-cockpit-branch button{color:#374151}
@@ -415,7 +415,7 @@ html[data-theme="light"] .mc-home-overlay .mc-home .home-return button{color:#3d
 .mc-home-overlay .suite-wall::after{
   background:
     radial-gradient(ellipse 55% 66% at 50% 46%, rgba(3,6,10,.985) 1%, rgba(3,7,11,.91) 43%, rgba(3,7,11,.43) 84%, rgba(3,7,11,.2) 100%),
-    radial-gradient(ellipse 47% 43% at 66% 53%,rgba(0,121,92,.12),transparent 83%),
+    radial-gradient(ellipse 47% 43% at 66% 53%,rgba(103,60,207,.12),transparent 83%),
     linear-gradient(90deg,transparent 61%,rgba(2,5,8,.27) 100%),
     linear-gradient(180deg,rgba(4,6,12,.30),transparent 18%,transparent 70%,rgba(3,5,9,.85));
 }
@@ -526,7 +526,7 @@ html[data-theme="high-contrast"] .mc-home-overlay .suite-wall .mc-wall-plane{dis
 .mc-home-overlay .suite-wall.mc-wall-local-posters::after{
   background:
     radial-gradient(ellipse 54% 64% at 51% 45%,rgba(3,7,11,.985) 0%,rgba(3,7,11,.95) 39%,rgba(3,7,11,.72) 70%,rgba(3,7,11,.30) 100%),
-    radial-gradient(ellipse 36% 45% at 64% 45%,rgba(0,112,83,.18),transparent 95%),
+    radial-gradient(ellipse 36% 45% at 64% 45%,rgba(103,60,207,.18),transparent 95%),
     linear-gradient(180deg,rgba(5,6,12,.17) 0%,rgba(3,5,10,.17) 67%,rgba(2,4,9,.81) 100%);
 }
 .mc-home-overlay .suite-wall.mc-wall-local-posters .mc-wall-card {
@@ -537,18 +537,18 @@ html[data-theme="high-contrast"] .mc-home-overlay .suite-wall .mc-wall-plane{dis
 .mc-home-overlay .mc-home .home-search:focus-visible,
 .mc-home-overlay .mc-home .home-express:focus-visible,
 .mc-home-overlay .mc-home .home-return button:focus-visible{
-  outline:2px solid #00e7a5;outline-offset:3px;
+  outline:2px solid #8656F4;outline-offset:3px;
 }
 .mc-home-overlay .mc-home .home-express{
-  background:#00e7a5;color:#031c14;
-  box-shadow:0 8px 27px rgba(0,231,165,.15),inset 0 1px 0 rgba(255,255,255,.35);
+  background:#8656F4;color:#031c14;
+  box-shadow:0 8px 27px rgba(134,86,244,.15),inset 0 1px 0 rgba(255,255,255,.35);
 }
 .mc-home-overlay .mc-home .home-express:hover{
-  background:#33f0b5;box-shadow:0 10px 30px rgba(0,231,165,.24);
+  background:#33f0b5;box-shadow:0 10px 30px rgba(134,86,244,.24);
 }
 .mc-home-overlay .mc-home-intro .title-hero-logo-img{
   filter:grayscale(1) sepia(.85) saturate(3) hue-rotate(95deg) brightness(1.15)
-    drop-shadow(0 0 14px rgba(0,231,165,.10));
+    drop-shadow(0 0 14px rgba(134,86,244,.10));
 }
 @media(max-width:900px){
   .mc-home-overlay .suite-wall.mc-wall-local-posters::after{
