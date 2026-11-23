@@ -18,6 +18,7 @@ export const STUDIO_WORKSPACE_GROUPS = Object.freeze([
     items: [
       ['affiches', 'Affiches et sources', '▧'],
       ['bibliotheque', 'Bibliothèque visuelle', '◫'],
+      ['logos-ma-art', 'Logos Ma-Art', '◈'],
       ['mes-creations', 'Mes créations', '▥'],
       ['affiches-fr', 'Affiches françaises', '◈'],
       ['outils', 'Modifications en lot', '☷'],
