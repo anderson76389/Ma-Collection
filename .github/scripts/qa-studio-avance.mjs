@@ -61,7 +61,7 @@ await test('Studio plein écran : menu latéral français, préférences réelle
   await page.evaluate(()=>window.MaCollectionStudio.open('accueil'));
   const studio=page.locator('#mc-studio-root');
   assert(await studio.isVisible());
-  assert.equal(await studio.locator('[data-tab]').count(),15);
+  assert.equal(await studio.locator('[data-tab]').count(),16);
   const geometry=await studio.locator('.mc-studio-panel').evaluate(el=>{
     const r=el.getBoundingClientRect();
     return {width:r.width,height:r.height,screenWidth:innerWidth,screenHeight:innerHeight};
