@@ -36,7 +36,7 @@
 }
 #mc-studio-root .mc-studio-logo-card button:hover:not(:disabled),
 #mc-studio-root .mc-studio-logo-card button:focus-visible{
-  border-color:var(--accent,#00e7a5);outline-offset:2px
+  border-color:var(--accent,#8656F4);outline-offset:2px
 }
 #mc-studio-root .mc-studio-logo-card button:disabled{opacity:.45;cursor:not-allowed}
 #mc-studio-root .mc-studio-logo-controls{min-width:0;grid-template-columns:minmax(0,2fr) minmax(0,1fr)}
