@@ -1717,67 +1717,86 @@ function renderPreviewCollection() {
   const container = document.createElement('div');
   container.className = `nv-emulator device-${previewDevice}`;
 
-  // ---- Control bar (lives outside the simulated device frame) ----
+  // ---- Liquid Glass: commandes essentielles visibles, outils avancés dans Plus. ----
+  // Les identifiants sont conservés : exports, Studio et éditeurs utilisent les
+  // gestionnaires déjà présents. Les catégories et les données ne changent pas.
   const bar = document.createElement('div');
-  bar.className = `nv-preview-bar${previewBarOpen ? ' open' : ''}`;
+  bar.className = `nv-preview-bar nv-liquid-toolbar${previewBarOpen ? ' open' : ''}`;
   bar.innerHTML = `
-    <div class="nv-preview-content">
-    <div class="nv-preview-secondary${previewMoreOpen ? ' open' : ''}" id="nv-preview-secondary">
-      <div class="nv-device-toggle" role="tablist" aria-label="Preview device">
-        <button class="nv-device-opt ${previewDevice === 'tv' ? 'active' : ''}" data-device="tv" role="tab">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
-          <span>TV</span>
-        </button>
-        <button class="nv-device-opt ${previewDevice === 'mobile' ? 'active' : ''}" data-device="mobile" role="tab">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2.5"></rect><line x1="12" y1="18" x2="12" y2="18"></line></svg>
-          <span>Phone</span>
-        </button>
+    <div class="nv-preview-content" role="group" aria-label="Commandes de la collection">
+      <div class="nv-preview-primary">
+        <div class="nv-preview-group nv-preview-device-group">
+          <div class="nv-device-toggle" role="tablist" aria-label="Type d'appareil">
+            <button type="button" class="nv-device-opt ${previewDevice === 'tv' ? 'active' : ''}" data-device="tv" role="tab" aria-selected="${previewDevice === 'tv'}" title="Aperçu TV">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="3.5" width="19" height="13.5" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+              <span>TV</span>
+            </button>
+            <button type="button" class="nv-device-opt ${previewDevice === 'mobile' ? 'active' : ''}" data-device="mobile" role="tab" aria-selected="${previewDevice === 'mobile'}" title="Aperçu téléphone">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M11 18.5h2"/></svg>
+              <span>Téléphone</span>
+            </button>
+          </div>
+        </div>
+        <div class="nv-preview-group nv-preview-edit-actions" id="nv-preview-edit-actions" aria-label="Édition de la collection">
+          <button type="button" class="nv-reorder-toggle ${reorderMode ? 'active' : ''}" id="preview-reorder" aria-pressed="${reorderMode}" title="Déplacer les rangées et les dossiers">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 8 4-4 4 4M12 4v16M8 16l4 4 4-4"/></svg>
+            <span>Réorganiser</span>
+          </button>
+          <button type="button" class="nv-reorder-toggle" id="preview-studio" title="Profils, affiches, sections et paramètres du Studio">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="8" height="8" rx="1.5"/><rect x="13" y="3" width="8" height="8" rx="1.5"/><rect x="3" y="13" width="8" height="8" rx="1.5"/><path d="M17 14v7M13.5 17.5h7"/></svg>
+            <span>Studio</span>
+          </button>
+          <button type="button" class="nv-reorder-toggle" id="preview-editorview" title="Ouvrir l'éditeur rapide">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/><circle cx="9" cy="7" r="2" fill="currentColor" stroke="none"/><circle cx="15" cy="12" r="2" fill="currentColor" stroke="none"/><circle cx="11" cy="17" r="2" fill="currentColor" stroke="none"/></svg>
+            <span>Éditeur rapide</span>
+          </button>
+        </div>
+        <div class="nv-preview-group nv-preview-actions" aria-label="Enregistrer et importer">
+          <button type="button" class="btn-secondary nv-mini-btn" id="preview-download" title="Télécharger le fichier de la collection">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4"/><path d="M5 17v3h14v-3"/></svg>
+            <span>Enregistrer</span>
+          </button>
+          <button type="button" class="btn-primary nv-mini-btn" id="preview-send" title="Importer la sélection dans Kovelyx">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="3" width="19" height="14" rx="2"/><path d="M8 21h8M12 17v4m0-7V7m-3 3 3-3 3 3"/></svg>
+            <span>Importer</span>
+          </button>
+          <button type="button" class="nv-more-toggle${previewMoreOpen ? ' active' : ''}" id="preview-more" aria-label="Plus d'options" aria-expanded="${previewMoreOpen}" aria-controls="nv-preview-secondary" title="Plus d'options">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg>
+            <span class="nv-more-label">Plus</span>
+          </button>
+        </div>
       </div>
-      <button class="nv-reorder-toggle ${reorderMode ? 'active' : ''}" id="preview-reorder" title="Reorder mode: show up/down arrows to move sections, folders & sources by hand">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
-        <span>Reorder</span>
-      </button>
-      <button class="nv-reorder-toggle" id="preview-studio" title="Gérer les profils, les affiches et les sections"><span>🎛️ Studio</span></button>
-      <button class="nv-reorder-toggle" id="preview-editorview" title="Quick Editor: the full settings panel for folders, sources, and API keys, no wizard required">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><line x1="4" y1="6" x2="20" y2="6"></line><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="18" x2="20" y2="18"></line></svg>
-        <span>Quick Editor</span>
-      </button>
-      <div class="nv-viewmode-combo" title="La disposition des dossiers dans votre collection et son export. Tabbed Grid is the mobile-safe pick.">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px;color:var(--text-muted);"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
-        <select id="preview-viewmode" class="topbar-select" aria-label="View mode">
-          <option value="FOLLOW_LAYOUT" selected>Follow Layout (Auto)</option>
-          <option value="ROWS">Rows</option>
-          <option value="TABBED_GRID">Tabbed Grid</option>
-        </select>
+      <div class="nv-preview-secondary${previewMoreOpen ? ' open' : ''}" id="nv-preview-secondary" role="group" aria-label="Options avancées">
+        <strong class="nv-preview-menu-title">Options avancées</strong>
+        <div class="nv-preview-menu-section nv-preview-menu-layout">
+          <label for="preview-viewmode">Disposition des rangées</label>
+          <div class="nv-viewmode-combo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+            <select id="preview-viewmode" class="topbar-select" aria-label="Disposition des rangées">
+              <option value="FOLLOW_LAYOUT">Automatique</option>
+              <option value="ROWS">Rangées</option>
+              <option value="TABBED_GRID">Grille par onglets</option>
+            </select>
+          </div>
+        </div>
+        <div class="nv-preview-menu-section nv-preview-menu-tools">
+          <button type="button" class="btn-secondary nv-mini-btn btn-bingecat" id="preview-bingecat" title="Exporter la sélection pour Bingecat">
+            ${bingecatMarkHtml()}
+            <span>Bingecat</span>
+          </button>
+          <button type="button" class="btn-secondary nv-mini-btn" id="preview-selfhost" title="Exporter pour AIO Metadata auto-hébergé">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="7" rx="2"/><rect x="3" y="14" width="18" height="7" rx="2"/><path d="M7 6.5h.01M7 17.5h.01M11 6.5h6M11 17.5h6"/></svg>
+            <span>Auto-hébergement</span>
+          </button>
+          <button type="button" class="nv-help-btn" id="preview-help" title="Raccourcis clavier" aria-label="Afficher les raccourcis clavier">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.3 9.4a2.8 2.8 0 1 1 4.5 2.3c-.9.6-1.8 1.2-1.8 2.3"/><path d="M12 17h.01"/></svg>
+            <span>Aide</span>
+          </button>
+        </div>
       </div>
-      <button class="nv-help-btn" id="preview-help" data-tooltip="Keyboard shortcuts (press ?)" aria-label="Keyboard shortcuts">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
-      </button>
     </div>
-    <div class="nv-preview-actions">
-      <button class="nv-more-toggle${previewMoreOpen ? ' active' : ''}" id="preview-more" aria-label="More options" aria-expanded="${previewMoreOpen}" title="More options">
-        <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;"><circle cx="5" cy="12" r="2"></circle><circle cx="12" cy="12" r="2"></circle><circle cx="19" cy="12" r="2"></circle></svg>
-      </button>
-      <button class="btn-secondary nv-mini-btn" id="preview-download" title="Download your collection file">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width:13px;height:13px;"><polyline points="8 17 12 21 16 17"></polyline><line x1="12" y1="12" x2="12" y2="21"></line><path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29"></path></svg>
-        <span>Save File</span>
-      </button>
-      <button class="btn-secondary nv-mini-btn btn-bingecat" id="preview-bingecat" title="Export this selection for Bingecat's addon">
-        ${bingecatMarkHtml()}
-        <span>Bingecat</span>
-      </button>
-      <button class="btn-secondary nv-mini-btn" id="preview-selfhost" title="Export this selection for a self-hosted AIO Metadata instance">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;margin-right:6px;vertical-align:text-bottom;"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
-        <span>Self-Host</span>
-      </button>
-      <button class="btn-primary nv-mini-btn" id="preview-send" title="Importer dans Kovelyx">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/><polyline points="8 11 12 7 16 11"/><line x1="12" y1="7" x2="12" y2="14"/></svg>
-        <span>Importer la collection</span>
-      </button>
-    </div>
-    </div>
-    <button class="mobile-fab${previewBarOpen ? ' active' : ''}" id="preview-fab" aria-label="Export & view options" aria-expanded="${previewBarOpen}" title="Export & view options">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path></svg>
+    <button type="button" class="mobile-fab${previewBarOpen ? ' active' : ''}" id="preview-fab" aria-label="Afficher les commandes" aria-expanded="${previewBarOpen}" aria-controls="nv-preview-content" title="Commandes">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
     </button>
   `;
   container.appendChild(bar);
