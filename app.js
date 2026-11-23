@@ -1557,6 +1557,11 @@ function renderFolderGrid() {
       ${baseImg ? `<h4 class="card-text-title nv-card-caption">${escapeHtml(folder.title)}</h4>` : (genreCaption(folder) || logoOverlayHtml)}
     `;
 
+    // Si une couverture archivée n'est pas disponible, rétablir un titre lisible.
+    card.querySelector('.card-cover-img')?.addEventListener('error', () => {
+      card.classList.add('is-art-missing');
+      card.querySelector('.nv-card-caption')?.classList.add('is-fallback');
+    });
     // Hover → update backdrop
     card.addEventListener('mouseleave', () => {
       const video = card.querySelector('video.card-gif-img');
@@ -2218,6 +2223,10 @@ function buildNuvioCard(folder, category, catIdx) {
     ${actionsHtml}
   `;
 
+  card.querySelector('.nv-card-img')?.addEventListener('error', () => {
+    card.classList.add('is-art-missing');
+    card.querySelector('.nv-card-caption')?.classList.add('is-fallback');
+  });
   card.querySelector('.nv-card-logo')?.addEventListener('error', event => {
     event.currentTarget.hidden = true;
     const fallback = card.querySelector('.nv-card-title');
