@@ -16,6 +16,7 @@ from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 
 BASE = "https://ma-art.mailpromahe.workers.dev"
+STATIC = "https://ma-art-images-static.mailpromahe.workers.dev"
 FIELDS = {"coverImageUrl", "heroBackdropUrl", "titleLogoUrl", "focusGifUrl", "backdropImageUrl"}
 EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp", ".gif", ".gifv", ".svg", ".avif", ".bmp", ".mp4", ".webm"}
 COLLECTIONS = (
@@ -59,7 +60,7 @@ def collect_own(node, field=None):
     elif isinstance(node, list):
         for v in node:
             collect_own(v, field)
-    elif field in FIELDS and isinstance(node, str) and node.startswith(BASE + "/"):
+    elif field in FIELDS and isinstance(node, str) and node.startswith((BASE + "/", STATIC + "/")):
         all_own_urls.add(node)
 
 def compare(old, new, location="", field=None):
@@ -78,6 +79,11 @@ def compare(old, new, location="", field=None):
             compare(a, b, location + f"[{i}]", field)
         return
     if field in FIELDS and isinstance(old, str) and isinstance(new, str):
+        # Migration exacte d'un logo vers nos Static Assets : le fichier
+        # conserve son chemin et ses octets, seul le sous-domaine change.
+        if field == "titleLogoUrl" and old.startswith(BASE + "/media/") and new == STATIC + old[len(BASE):]:
+            replaced.append(new)
+            return
         broken = "https://i.ibb.co/0pDkBjh5/New-Movies-Hover.png" * 2
         if old == broken and new == broken[:len(broken) // 2]:
             repaired.append(location)

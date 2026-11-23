@@ -80,7 +80,7 @@ const names=["actors","anime","awards","based_on","by_decade","discover","docume
   "spotlight","streaming_services","studios","trending_new"];
 const listIds=new Set();
 const categories={count:0,folders:0,sources:0,tmdbLists:0,traktLists:0,addons:0,discover:0,specialTmdb:0};
-const ownOrigin="ma-art.mailpromahe.workers.dev";
+const ownOrigins=new Set(["ma-art.mailpromahe.workers.dev","ma-art-images-static.mailpromahe.workers.dev"]);
 let artOwned=0,externalMedia=0,upstreamMedia=0;
 const imgFields=new Set(["coverImageUrl","focusGifUrl","heroBackdropUrl","titleLogoUrl","backdropImageUrl"]);
 const walk=(value,fn,k="")=>{
@@ -102,7 +102,7 @@ for(const name of names){
       if(!imgFields.has(key) || !/^https?:\/\//.test(value))return;
       const url=new URL(value);
       if(original(value))upstreamMedia++;
-      if(url.hostname===ownOrigin)artOwned++;
+      if(ownOrigins.has(url.hostname))artOwned++;
       else externalMedia++;
     });
     for(const source of folder.sources||[]){

@@ -13,6 +13,7 @@ import {
 import {createStudioBackupStore,makeStudioBackup} from './studio-backups.mjs';
 import {studioFolderKey,studioTidy,studioApplyBatch} from './studio-workshop-core.mjs';
 import {listStudioArtworks,searchStudioArtworks,useStudioArtwork} from './studio-art-library.mjs';
+import {enrichMaArtLogos,searchMaArtLogos,applyMaArtLogo} from './studio-ma-art-logos.mjs';
 import {frenchPackTemplate,validateFrenchPack,planFrenchPack,applyFrenchPack} from './studio-fr-art.mjs';
 import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './studio-recovery-core.mjs';
 
@@ -37,6 +38,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
   let workshopSearch='',workshopSection='all',workshopSelected=new Set(),workshopMode='active-first';
   let workshopSortSections=true,workshopSortFolders=true,workshopUndo=null;
   let libraryQuery='',libraryFilter='all',libraryUndo=null;
+  let logoQuery='',logoGroup='all',logoUndo=null;
   const addonManifestUrls=Object.create(null); // En mémoire seulement : aucune clé/URL privée en localStorage.
   let frPack=null,frStyle='',frSection='all',frActiveOnly=true,frUndo=null,frError='';
   let artLookIndex=0, artSearch='', artMoreOnly=false, artNeedsAttention=false, showBatch=false;
@@ -439,6 +441,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     artLookIndex=0;artSearch='';artMoreOnly=false;artNeedsAttention=false;showBatch=false;previewDevice='tv';globalQuery='';globalActiveOnly=false;globalNoCover=false;
     workshopSelected=new Set();workshopUndo=null;workshopSearch='';workshopSection='all';
     libraryQuery='';libraryFilter='all';libraryUndo=null;
+    logoQuery='';logoGroup='all';logoUndo=null;
     frUndo=null;frSection='all';frActiveOnly=true;loadFrenchArt();
     if(!root)mount();
     root.hidden=false;navigationOpen=false;previousTab='';
@@ -834,6 +837,36 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       '<div class="mc-studio-actions-grid">'+(libraryUndo?button('↶ Annuler le choix d’affiche','library-undo'):'')+'</div>'+
       '<p class="mc-studio-hint">Seule l’affiche principale du dossier cible est modifiée dans le brouillon. Ses sources, fonds, logos, GIF et paramètres d’affichage restent inchangés. Applique ensuite le profil pour exporter le choix.</p></div>';
   }
+  function renderMaArtLogos(){
+    const rows=enrichMaArtLogos(window.MA_ART_LOGOS||[],data());
+    const found=searchMaArtLogos(rows,logoQuery,{group:logoGroup,limit:72});
+    const current=section(),target=folder();
+    const groups=[...new Set(rows.map(x=>x.group))].sort((a,b)=>
+      a==='Mes collections'?-1:b==='Mes collections'?1:a.localeCompare(b,'fr'));
+    const options='<option value="all">Tous les logos</option>'+
+      groups.map(group=>'<option value="'+esc(group)+'" '+(logoGroup===group?'selected':'')+'>'+esc(group)+'</option>').join('');
+    const tiles=found.results.map((item,index)=>
+      '<div class="mc-studio-logo-card">'+
+      '<div class="mc-studio-logo-image"><img src="'+esc(item.url)+'" alt="Logo '+esc(item.label)+'" loading="lazy" decoding="async"></div>'+
+      '<div class="mc-studio-library-details"><strong>'+esc(item.label)+'</strong>'+
+      '<small>'+esc(item.category)+'</small></div>'+
+      button('Utiliser ce logo','maart-logo-use','data-index="'+index+'" '+(target?'':'disabled'))+
+      '</div>'
+    ).join('');
+    return '<div class="mc-studio-library mc-studio-logos">'+
+      '<header class="mc-studio-logos-heading"><h3>Logos Ma-Art</h3>'+
+      '<p class="mc-studio-hint">'+rows.length+' logos originaux archivés sur ton Cloudflare, utilisables sur téléphone, ordinateur et dans tes exports Kovelyx. Aucun accès à Kaptain requis.</p></header>'+
+      '<div class="mc-studio-library-target"><div><strong>Destination : '+esc(target?.label||'Choisis un dossier')+'</strong>'+
+      '<small>'+esc(current?.label||'Sélectionne une catégorie dans « Affiches »')+'</small></div>'+
+      button('Choisir le dossier','maart-logo-target')+'</div>'+
+      '<div class="mc-studio-workshop-grid mc-studio-logo-controls">'+
+      '<label class="mc-studio-field">Rechercher un logo<input type="search" data-logo-search value="'+esc(logoQuery)+'" autocomplete="off" placeholder="Acteur, genre, plateforme…"></label>'+
+      '<label class="mc-studio-field">Type<select data-logo-group>'+options+'</select></label></div>'+
+      '<p class="mc-studio-hint" aria-live="polite">'+found.total+' logo(s) trouvé(s). '+(found.omitted?'72 affichés : affine ta recherche pour les autres.':'')+'</p>'+
+      '<div class="mc-studio-library-gallery mc-studio-logo-gallery">'+(tiles||'<p class="mc-studio-muted">Aucun logo correspondant.</p>')+'</div>'+
+      '<div class="mc-studio-actions-grid">'+(logoUndo?button('↶ Annuler le choix du logo','maart-logo-undo'):'')+'</div>'+
+      '<p class="mc-studio-hint">Modifier le logo ne change ni affiche, ni GIF, ni sources, ni filtres. Clique sur « Appliquer à ma collection » pour enregistrer le résultat et l’exporter.</p></div>';
+  }
   function renderWorkshop(){
     const all=workshopFolders(),shown=all.slice(0,100);
     const keys=new Set(all.map(x=>x.key));
@@ -977,6 +1010,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       ['mes-creations','','Mes créations','Retrouver et organiser les dossiers personnels déjà créés.'],
       ['extensions','','Extensions','Inspecter les sources actives et préparer l’import dans Kovelyx.'],
       ['bibliotheque','','Galerie des visuels','Choisir une illustration indépendante parmi les modèles disponibles.'],
+      ['logos-ma-art','','Logos Ma-Art','Explorer et appliquer tous les logos sauvegardés sur ton CDN.'],
       ['affiches-fr','','Affiches françaises','Importer les variantes françaises et gérer les styles.'],
       ['profils','','Sauvegardes et mises à jour','Enregistrer, restaurer et mettre à jour un profil sans perte.'],
       ['historyExport','','Bibliothèque et historique','Consulter les titres enregistrés, vus et en cours sur Kovelyx.','profile-history'],
@@ -1085,7 +1119,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     root.querySelector('.mc-studio-context')?.classList.toggle('mc-studio-at-home',tab==='accueil');
     const back=root.querySelector('[data-action="studio-home"].mc-studio-back');
     if(back)back.hidden=tab==='accueil';
-    body.innerHTML=(tab==='accueil'?renderHub():tab==='mes-creations'?renderCurations():tab==='organisation'?(cinemaMode?renderStudioCanvas(draft,{activeOnly:cinemaActiveOnly,expanded:cinemaExpanded,resolveImage:url=>localGenreCovers.get(url)||url}):renderSections()):tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():tab==='modifications'?renderChanges():tab==='outils'?renderWorkshop():tab==='bibliotheque'?renderArtLibrary():tab==='affiches-fr'?renderFrenchArt():tab==='import-collection'?renderCollectionImport():tab==='extensions'?renderAddonExport():tab==='parametres'?renderPreferences():tab==='partage'?renderSharing():renderProfiles());
+    body.innerHTML=(tab==='accueil'?renderHub():tab==='mes-creations'?renderCurations():tab==='organisation'?(cinemaMode?renderStudioCanvas(draft,{activeOnly:cinemaActiveOnly,expanded:cinemaExpanded,resolveImage:url=>localGenreCovers.get(url)||url}):renderSections()):tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():tab==='modifications'?renderChanges():tab==='outils'?renderWorkshop():tab==='bibliotheque'?renderArtLibrary():tab==='logos-ma-art'?renderMaArtLogos():tab==='affiches-fr'?renderFrenchArt():tab==='import-collection'?renderCollectionImport():tab==='extensions'?renderAddonExport():tab==='parametres'?renderPreferences():tab==='partage'?renderSharing():renderProfiles());
     if(didNavigate){
       body.scrollTop=0;
       // Annuler toute animation précédente avant d'en lancer une autre.
@@ -1147,6 +1181,8 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       if(el.matches('[data-collection-file]')){inspectBackup(el.files[0]);el.value='';return;}
       if(el.matches('[data-fr-file]')){importFrenchArt(el.files[0]);el.value='';return;}
       if(el.matches('[data-library-search]')){redrawSearchField(el,'[data-library-search]',v=>libraryQuery=v);return;}
+      if(el.matches('[data-logo-search]')){redrawSearchField(el,'[data-logo-search]',v=>logoQuery=v);return;}
+      if(el.matches('[data-logo-group]')){logoGroup=el.value;draw();return;}
       if(el.matches('[data-library-filter]')){libraryFilter=el.value;draw();return;}
       if(el.matches('[data-workshop-search]')){redrawSearchField(el,'[data-workshop-search]',v=>workshopSearch=v);return;}
       if(el.matches('[data-workshop-section]')){workshopSection=el.value;draw();return;}
@@ -1300,6 +1336,22 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
         message=result.changed+' affiche(s) françaises choisie(s) dans le brouillon. '+result.missing+' dossiers sans traduction conservés.';
         draw();
       }catch(error){message='Impossible d’appliquer le pack français : '+error.message;draw();}
+    }
+    else if(a==='maart-logo-target'){tab='affiches';draw();}
+    else if(a==='maart-logo-undo'){
+      if(logoUndo){draft=logoUndo;logoUndo=null;message='Logo précédent restauré dans le brouillon.';draw();}
+    }
+    else if(a==='maart-logo-use'){
+      try{
+        const entries=enrichMaArtLogos(window.MA_ART_LOGOS||[],data());
+        const item=searchMaArtLogos(entries,logoQuery,{group:logoGroup,limit:72}).results[Number(btn.dataset.index)];
+        if(!item)throw Error('Ce logo est introuvable dans l’archive.');
+        const previous=copy(draft);
+        const result=applyMaArtLogo(draft,selectedSection,selectedFolder,item);
+        if(result.changed)logoUndo=previous;
+        message=result.changed?'Logo « '+item.label+' » choisi pour le dossier. Affiches, GIF et sources conservés.':'Ce logo est déjà utilisé.';
+        draw();
+      }catch(error){message='Logo non appliqué : '+error.message;draw();}
     }
     else if(a==='library-target'){tab='affiches';draw();}
     else if(a==='library-undo'){
@@ -1547,7 +1599,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       dragging=null;
     });
     root.addEventListener('dragend',()=>{dragging=null;});
-    const searchSelector='[data-search],[data-global-search],[data-workshop-search],[data-library-search],[data-art-search]';
+    const searchSelector='[data-search],[data-global-search],[data-workshop-search],[data-library-search],[data-logo-search],[data-art-search]';
     root.addEventListener('change',e=>{if(!e.target.matches(searchSelector))change(e);});
     root.addEventListener('input',e=>{if(!e.isComposing&&e.target.matches(searchSelector))change(e);});
     root.addEventListener('compositionend',e=>{if(e.target.matches(searchSelector))change(e);});

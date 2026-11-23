@@ -673,9 +673,27 @@ function bindTestCodeUi() {
   });
 }
 
+/* Normaliser les logos de la base préconstruite vers notre Static Assets.
+ * Les images de la bibliothèque et les exports Kovelyx utilisent donc le CDN
+ * indépendant, même si database.js a été généré avant cette migration.
+ */
+function updateMaArtTitleLogos(collections) {
+  const legacy='https://ma-art.mailpromahe.workers.dev/';
+  const staticAssets='https://ma-art-images-static.mailpromahe.workers.dev/';
+  const allowed=/^media\/[a-z0-9.-]+\/[a-f0-9]{24}\.(?:png|jpe?g|webp|avif|svg)$/i;
+  for(const section of collections) {
+    for(const node of [section,...(section.folders||[])]) {
+      const current=node?.titleLogoUrl;
+      if(typeof current!=='string'||!current.startsWith(legacy))continue;
+      const path=current.slice(legacy.length);
+      if(allowed.test(path))node.titleLogoUrl=staticAssets+path;
+    }
+  }
+}
 function initializeDatabase() {
   if (window.NUVIO_DATABASE && Array.isArray(window.NUVIO_DATABASE)) {
     database = window.NUVIO_DATABASE;
+    updateMaArtTitleLogos(database);
     // Actualiser uniquement les selections annuelles, jamais les decennies historiques.
     window.MaCollectionCatalogUtils?.updateRollingYearFilters(database);
       // Nouveautés, sorties récentes et séries des chaînes : fenêtres recalculées chaque semaine.

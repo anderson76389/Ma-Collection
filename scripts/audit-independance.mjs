@@ -13,6 +13,13 @@ import { dirname, resolve } from "node:path";
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const read = p => readFileSync(resolve(root, p), "utf8");
 const own = "https://ma-art.mailpromahe.workers.dev/";
+const staticAssets = "https://ma-art-images-static.mailpromahe.workers.dev/";
+// Le second hébergement est notre CDN statique contrôlé par Ma-Art.
+// Refuser les chemins externes, même sur un domaine ressemblant au nôtre.
+const isOwnMedia = url => url.startsWith(own) ||
+  (url.startsWith(staticAssets) &&
+   /^media\/[a-z0-9.-]+\/[a-f0-9]{24}\.(?:png|jpe?g|webp|gif|avif|svg)$/i.test(url.slice(staticAssets.length)));
+
 const fields = ["coverImageUrl", "focusGifUrl", "heroBackdropUrl", "titleLogoUrl", "backdropImageUrl"];
 const names = [
   "actors", "anime", "awards", "based_on", "by_decade", "discover",
@@ -45,7 +52,7 @@ for (const name of names) {
           findings.push(file + " / " + folder.title + " / " + field + " : URL mal formée");
           continue;
         }
-        if (url.startsWith(own)) {
+        if (isOwnMedia(url)) {
           count.localMedia++;
         } else if (exceptions.get(key) === url) {
           count.legacyMedia++;
@@ -53,7 +60,7 @@ for (const name of names) {
         } else {
           findings.push(file + " / " + folder.title + " / " + field + " : média tiers non autorisé dans l'audit : " + url);
         }
-        if (!url.startsWith(own) && /imkaptain\.github\.io|raw\.githubusercontent\.com\/imkaptain\/|github\.com\/imkaptain\//i.test(url)) {
+        if (!isOwnMedia(url) && /imkaptain\.github\.io|raw\.githubusercontent\.com\/imkaptain\/|github\.com\/imkaptain\//i.test(url)) {
           findings.push("Ancien hébergement Kaptain actif : " + key);
         }
       }
@@ -80,7 +87,7 @@ for (const category of db) {
     for (const field of fields) {
       const url = node[field];
       if (typeof url !== "string" || !url.startsWith("http")) continue;
-      if (url.startsWith(own)) {
+      if (isOwnMedia(url)) {
         mainHosted++;
       } else if (url === unavoidableHistorical) {
         mainLegacy++;

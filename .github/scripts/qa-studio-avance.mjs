@@ -61,7 +61,7 @@ await test('Studio plein écran : menu latéral français, préférences réelle
   await page.evaluate(()=>window.MaCollectionStudio.open('accueil'));
   const studio=page.locator('#mc-studio-root');
   assert(await studio.isVisible());
-  assert.equal(await studio.locator('[data-tab]').count(),15);
+  assert.equal(await studio.locator('[data-tab]').count(),16);
   const geometry=await studio.locator('.mc-studio-panel').evaluate(el=>{
     const r=el.getBoundingClientRect();
     return {width:r.width,height:r.height,screenWidth:innerWidth,screenHeight:innerHeight};
@@ -186,7 +186,7 @@ await test('Studio : ordre des cartes et vrai bouton Créer un dossier',async()=
   await page.evaluate(()=>window.MaCollectionStudio.open('accueil'));
   const studio=page.locator('#mc-studio-root');
   const titles=await studio.locator('.suite-tiles button strong').allTextContents();
-  assert.equal(titles.length,19,'Les outils doivent être organisés selon les parcours du Studio de référence');
+  assert.equal(titles.length,20,'Les outils doivent être organisés selon les parcours du Studio de référence');
   assert.deepEqual(titles.slice(0,6),[
     'Écran d’accueil','Éditeur rapide','Affiches','Ajouter des rangées et dossiers',
     'Créer un dossier','Mes créations'

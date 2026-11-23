@@ -1,0 +1,31 @@
+name: Vérifier les 976 logos Ma-Art indépendants
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'collections/ma-art-logos.js'
+      - 'studio-ma-art-logos.mjs'
+      - 'scripts/verify-ma-art-logos.mjs'
+      - '.github/workflows/qa-ma-art-logos.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'collections/ma-art-logos.js'
+      - 'studio-ma-art-logos.mjs'
+      - 'scripts/verify-ma-art-logos.mjs'
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Contrôler l'intégrité des données des logos
+        run: node --test tests/ma-art-logos.test.mjs
+      - name: Vérifier chaque logo sur le domaine Cloudflare indépendant
+        run: node scripts/verify-ma-art-logos.mjs
