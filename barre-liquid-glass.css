@@ -5,14 +5,14 @@
  * Chargé EN DERNIER pour annuler les anciennes barres empilées.
  */
 :root{
-  --lg-ink:#edf8f8;
+  --lg-ink:#F2ECFF;
   --lg-muted:#bac8d3;
   --lg-stroke:rgba(235,249,255,.18);
   --lg-soft:rgba(255,255,255,.055);
-  --lg-mint:#72f3cb;
-  --lg-mint-strong:#00e7a5;
-  --lg-on-mint:#051c17;
-  --lg-glow:rgba(0,231,165,.14);
+  --lg-mint:#BE9BFF;
+  --lg-mint-strong:#8656F4;
+  --lg-on-mint:#ffffff;
+  --lg-glow:rgba(134,86,244,.14);
   --lg-motion:cubic-bezier(.22,.8,.25,1);
 }
 
@@ -190,27 +190,27 @@
   background:rgba(255,255,255,.07);
 }
 .nv-liquid-toolbar .nv-device-toggle .nv-device-opt.active{
-  border-color:rgba(164,255,225,.35);
+  border-color:rgba(196,160,255,.35);
   color:var(--lg-on-mint);
-  background:linear-gradient(150deg,#91ffda,#42e8bc);
-  box-shadow:0 3px 12px rgba(0,234,163,.19),inset 0 1px 0 rgba(255,255,255,.44);
+  background:linear-gradient(150deg,#BA94FF,#9A6EFF);
+  box-shadow:0 3px 12px rgba(134,86,244,.19),inset 0 1px 0 rgba(255,255,255,.44);
 }
 
 /* Édition : Reorganiser, Studio, Editeur rapide, puis le + Dossier ajouté
    par custom-folders.js dans le même groupe. */
 .nv-liquid-toolbar .nv-preview-edit-actions .nv-reorder-toggle.active{
-  border-color:rgba(108,245,201,.43);
-  background:rgba(0,231,165,.13);
-  color:#b2ffe4;
+  border-color:rgba(178,130,255,.43);
+  background:rgba(134,86,244,.13);
+  color:#E5D1FF;
 }
 .nv-liquid-toolbar .nv-preview-edit-actions .mc-folder-trigger{
-  border-color:rgba(0,231,165,.23);
-  color:#b7ffea;
-  background:rgba(0,231,165,.09);
+  border-color:rgba(134,86,244,.23);
+  color:#E5D1FF;
+  background:rgba(134,86,244,.09);
 }
 .nv-liquid-toolbar .nv-preview-edit-actions .mc-folder-trigger:hover{
-  border-color:rgba(0,231,165,.54);
-  background:rgba(0,231,165,.18);
+  border-color:rgba(134,86,244,.54);
+  background:rgba(134,86,244,.18);
 }
 
 /* Enregistrer : discret / Importer : unique CTA menthe. */
@@ -221,19 +221,19 @@
 }
 .nv-liquid-toolbar .nv-preview-actions #preview-send{
   padding:0 15px;
-  border-color:rgba(159,255,218,.48);
+  border-color:rgba(196,160,255,.48);
   border-radius:11px;
-  background:linear-gradient(145deg,#84fbd4,#46e9ba);
-  color:#05221b;
+  background:linear-gradient(145deg,#A779FF,#9A6EFF);
+  color:#ffffff;
   font-size:12px;
   font-weight:800;
-  box-shadow:inset 0 1px 0 rgba(255,255,255,.37),0 5px 20px rgba(0,231,165,.18);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.37),0 5px 20px rgba(134,86,244,.18);
 }
 .nv-liquid-toolbar .nv-preview-actions #preview-send:hover{
   border-color:rgba(255,255,255,.46);
-  background:linear-gradient(145deg,#a2ffe2,#6cf3cb);
-  color:#06231b;
-  box-shadow:0 6px 23px rgba(0,231,165,.31);
+  background:linear-gradient(145deg,#C29FFF,#9A6EFF);
+  color:#ffffff;
+  box-shadow:0 6px 23px rgba(134,86,244,.31);
 }
 .nv-liquid-toolbar .nv-preview-actions #preview-more{
   display:inline-flex;
@@ -267,9 +267,9 @@
 }
 .nv-liquid-toolbar .nv-preview-actions #preview-more.active,
 .nv-liquid-toolbar .nv-preview-actions #preview-more[aria-expanded="true"]{
-  color:#bcffe6;
-  border-color:rgba(108,245,201,.42);
-  background:rgba(0,231,165,.13);
+  color:#E5D1FF;
+  border-color:rgba(178,130,255,.42);
+  background:rgba(134,86,244,.13);
 }
 .nv-liquid-toolbar #preview-fab{display:none}
 
@@ -347,7 +347,7 @@
   border:0;
   border-radius:0;
 }
-.nv-liquid-toolbar .nv-viewmode-combo svg{width:16px;height:16px;flex:0 0 16px;color:#8debd0}
+.nv-liquid-toolbar .nv-viewmode-combo svg{width:16px;height:16px;flex:0 0 16px;color:#C29FFF}
 .nv-liquid-toolbar .nv-viewmode-combo #preview-viewmode{
   width:100%;
   min-width:0;
@@ -365,7 +365,7 @@
 }
 .nv-liquid-toolbar .nv-viewmode-combo #preview-viewmode option{
   color:#14231f;
-  background:#e6f3ef;
+  background:#EFE7FF;
 }
 .nv-liquid-toolbar .nv-preview-menu-tools{gap:6px}
 .nv-liquid-toolbar .nv-preview-menu-tools button,
@@ -395,9 +395,9 @@
   transition:background .17s ease,border-color .17s ease;
 }
 .nv-liquid-toolbar .nv-preview-menu-tools button:hover{
-  color:#f6fff9;
-  border-color:rgba(0,231,165,.41);
-  background:rgba(0,231,165,.105);
+  color:#F7F0FF;
+  border-color:rgba(134,86,244,.41);
+  background:rgba(134,86,244,.105);
 }
 .nv-liquid-toolbar .nv-preview-menu-tools button svg{width:17px;height:17px;flex:0 0 17px}
 .nv-liquid-toolbar .nv-preview-menu-tools .bingecat-mark{
@@ -422,12 +422,12 @@
   border-radius:10px;
 }
 .control-center-bar #btn-import-kovelyx{
-  border:1px solid rgba(152,255,219,.39);
-  background:linear-gradient(145deg,#85fbd6,#41e6b5);
-  color:#06231a;
-  box-shadow:0 5px 18px rgba(0,231,165,.16);
+  border:1px solid rgba(178,130,255,.39);
+  background:linear-gradient(145deg,#A779FF,#9A6EFF);
+  color:#ffffff;
+  box-shadow:0 5px 18px rgba(134,86,244,.16);
 }
-.control-center-bar #btn-import-kovelyx:hover{background:#9affdc}
+.control-center-bar #btn-import-kovelyx:hover{background:#D3B4FF}
 #mc-studio-root .mc-studio-workspace .mc-studio-footer{
   background:linear-gradient(140deg,rgba(26,38,50,.72),rgba(12,20,29,.83));
   -webkit-backdrop-filter:blur(20px) saturate(145%);
@@ -486,7 +486,7 @@
     padding:0;margin:0;
     border:1px solid rgba(233,249,255,.29);
     border-radius:16px;
-    color:#dcfff1;
+    color:#F2E8FF;
     background:linear-gradient(150deg,rgba(55,73,89,.78),rgba(11,26,36,.87));
     -webkit-backdrop-filter:blur(25px) saturate(180%);
     backdrop-filter:blur(25px) saturate(180%);
@@ -494,8 +494,8 @@
       0 11px 34px rgba(0,0,0,.41);
   }
   .nv-liquid-toolbar #preview-fab.active{
-    border-color:rgba(0,231,165,.53);
-    color:#8effd5;
+    border-color:rgba(134,86,244,.53);
+    color:#DCC5FF;
     background:linear-gradient(155deg,rgba(40,87,76,.84),rgba(10,36,34,.9));
   }
   .nv-liquid-toolbar #preview-fab svg{width:22px;height:22px}
@@ -514,7 +514,7 @@
     overscroll-behavior:contain;
     border:1px solid rgba(234,251,255,.24);
     border-radius:20px;
-    color:#f5fffc;
+    color:#F7F1FF;
     background:linear-gradient(160deg,rgba(40,58,77,.93),rgba(10,19,34,.97));
     -webkit-backdrop-filter:blur(30px) saturate(175%);
     backdrop-filter:blur(30px) saturate(175%);
@@ -618,8 +618,8 @@ html[data-theme="light"] .nv-liquid-toolbar .nv-device-toggle{
   border-color:rgba(25,95,82,.22);
 }
 html[data-theme="light"] .nv-liquid-toolbar .nv-device-toggle .nv-device-opt.active{
-  color:#06362b;
-  background:#75f4c9;
+  color:#ffffff;
+  background:#AE83FF;
 }
 html[data-theme="light"] .nv-liquid-toolbar .nv-preview-secondary{
   background:linear-gradient(152deg,rgba(255,255,255,.98),rgba(229,245,239,.98));
@@ -642,10 +642,10 @@ html[data-theme="light"] .control-center-bar .control-center-panel{
 }
 html[data-theme="high-contrast"] .nv-preview-bar.nv-liquid-toolbar{
   background:rgba(2,12,10,.95);
-  border-color:rgba(130,255,214,.76);
+  border-color:rgba(216,188,255,.76);
 }
 html[data-theme="high-contrast"] .nv-liquid-toolbar .nv-preview-secondary{
-  background:#051512;border-color:rgba(130,255,214,.78);
+  background:#051512;border-color:rgba(216,188,255,.78);
 }
 @media(max-width:860px){
   html[data-theme="light"] .nv-preview-bar.nv-liquid-toolbar{
