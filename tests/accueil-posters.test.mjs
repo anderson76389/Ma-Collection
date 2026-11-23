@@ -4,6 +4,11 @@ import { runInNewContext } from 'node:vm';
 import test from 'node:test';
 
 const source = readFileSync(new URL('../accueil-mosaique.js', import.meta.url), 'utf8');
+const mappingSource = readFileSync(new URL('../collections/accueil-ma-art.js', import.meta.url), 'utf8');
+const mapped = { window: {} };
+runInNewContext(mappingSource, mapped);
+const posterMap = mapped.window.MA_ART_HOME_POSTERS;
+const knownPosters = Object.keys(posterMap);
 
 function element(tag) {
   return {
@@ -38,11 +43,11 @@ function render({ online = true, preview = true } = {}) {
   const groups = {};
   for (let group = 0; group < 10; group++) {
     groups['G' + group] = Array.from(
-      { length: 12 }, (_, index) => '/poster' + (group * 12 + index) + '.jpg'
+      { length: 12 }, (_, index) => knownPosters[(index * 10 + group) % 45]
     );
   }
   runInNewContext(source, {
-    window: { PREVIEW_POSTERS: preview ? groups : undefined },
+    window: { PREVIEW_POSTERS: preview ? groups : undefined, MA_ART_HOME_POSTERS: posterMap },
     document: doc,
     navigator: { onLine: online }
   });
@@ -52,16 +57,19 @@ function render({ online = true, preview = true } = {}) {
   return { columns, cards, imgs, host };
 }
 
-test('cinematic wall uses 45 distinct catalog posters rather than duplicated crops', () => {
+test('cinematic wall uses 45 distinct posters archived on our own Ma-Art CDN', () => {
   const { columns, cards, imgs } = render();
   assert.equal(columns.length, 9);
   assert.equal(cards.length, 45);
   assert.equal(imgs.length, 45);
   assert.equal(new Set(imgs.map(img => img.src)).size, 45);
-  assert(imgs.every(img => img.src.startsWith('https://image.tmdb.org/t/p/w342/')));
+  assert(imgs.every(img => img.src.startsWith('https://ma-art-images-static.mailpromahe.workers.dev/media/image.tmdb.org/')));
   assert(imgs.every(img => img.loading === 'lazy' && img.decoding === 'async'));
   assert(cards.every(card => card.style['--crop-x'] && card.style['--crop-y']));
   assert(!source.includes('kaptain.stream/'));
+  assert(!source.includes('https://image.tmdb.org/t/p/'));
+  assert.equal(knownPosters.length, 45);
+  assert.equal(new Set(Object.values(posterMap)).size, 45);
 });
 
 test('offline and missing preview data retain the independent local poster wall', () => {

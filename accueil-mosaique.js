@@ -1,6 +1,6 @@
 /* Mur d'affiches Ma-Collection.
  * Source : catalogues déjà intégrés à Ma-Collection, et non Kaptain.
- * Les vignettes TMDB ne sont que des améliorations visuelles facultatives :
+ * Les affiches viennent des copies Ma-Art sur notre CDN Cloudflare :
  * en cas de réseau absent/erreur, chaque carte garde son fond LOCAL.
  */
 (() => {
@@ -15,6 +15,8 @@
     [0,100],[20,100],[40,100],[60,100],[80,100],[100,100]
   ];
   const POSTER_PATH = /^\/[A-Za-z0-9_-]+\.(?:jpg|jpeg|png|webp)$/i;
+
+  const MA_ART_CDN = 'https://ma-art-images-static.mailpromahe.workers.dev/';
 
   function pickPosters() {
     const catalog = window.PREVIEW_POSTERS;
@@ -74,8 +76,12 @@
           img.fetchPriority = 'low';
           img.addEventListener('load', () => card.classList.add('mc-wall-loaded'), { once:true });
           img.addEventListener('error', () => img.remove(), { once:true });
-          img.src = 'https://image.tmdb.org/t/p/w342' + path;
-          card.appendChild(img);
+          const archivedPath = window.MA_ART_HOME_POSTERS?.[path];
+          if (typeof archivedPath === 'string' &&
+              /^media\/image[.]tmdb[.]org\/[a-f0-9]{24}[.](?:jpg|jpeg|png|webp)$/i.test(archivedPath)) {
+            img.src = MA_ART_CDN + archivedPath;
+            card.appendChild(img);
+          }
         }
         column.appendChild(card);
       }

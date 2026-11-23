@@ -1,0 +1,53 @@
+/* Ma-Collection : 45 affiches d'accueil conservées dans MA-ART (sans Kaptain).
+ * Origine des noms : collections/preview_posters.js ; fichiers dans Ma-Art privé
+ * et publiés sur le CDN Cloudflare appartenant à ce projet.
+ * Archive SHA-256 : Ma-Art/coverage-home-posters.json.
+ * Ne contient aucune requête vers TMDB, Kaptain ou GitHub à l'exécution.
+ */
+window.MA_ART_HOME_POSTERS = Object.freeze({
+  "/g1bEboMx1a8JCg1jXeDCh24RtgW.jpg": "media/image.tmdb.org/6672cc9bd8c24eecfa4266a6.jpg",
+  "/7ojpD6ARKYhRxnsjzMIrorOfj4T.jpg": "media/image.tmdb.org/5c40651e9452b39624d2ffee.jpg",
+  "/bjt53Hjqwl9VrtJkDv39GwmE1QN.jpg": "media/image.tmdb.org/879477d84ee1d5804bb37302.jpg",
+  "/hYJqUoXRZnodGxgVZTM8uwr5kbC.jpg": "media/image.tmdb.org/5227ac8cef5f4b8595037ee4.jpg",
+  "/zMwhWailP1WY7sb6AoE6b8ugoy.jpg": "media/image.tmdb.org/7fa74cc6a7f7c1e21ef463de.jpg",
+  "/sGitHICLzIQQBiwE67lZLy6W67u.jpg": "media/image.tmdb.org/f9cb85b17afed2290dbb7ee8.jpg",
+  "/rHKRZCBpDFSNc45kzyf665LJYp3.jpg": "media/image.tmdb.org/bf7aff9a4b9a19b91cd5ba5b.jpg",
+  "/51fGmBW7WjyJouP9TjIcxRpCUNk.jpg": "media/image.tmdb.org/83ae87ef1d24764705e41951.jpg",
+  "/1RgPyOhN4DRs225BGTlHJqCudII.jpg": "media/image.tmdb.org/c7be29e200e3d57ce8c2d4d5.jpg",
+  "/yYpQV25I7XB6S0POJOScPjxYWV5.jpg": "media/image.tmdb.org/3eb7cf6193a63be6ea079028.jpg",
+  "/qHvap0vpfTBIbv7cnR0OyBRqQHG.jpg": "media/image.tmdb.org/9a40ef5afc4acc4e4172226c.jpg",
+  "/tMRdEsMg9MyXAkcufK9YJEeIaNW.jpg": "media/image.tmdb.org/f0e855dcc55a523fb2f9c5db.jpg",
+  "/hrfP9BQ4mOMZOa8nHbFJLSDHBLz.jpg": "media/image.tmdb.org/832f729bc6188ee86ddbaec9.jpg",
+  "/hHL4pwGzYS4njLpXhIjfc9skAQJ.jpg": "media/image.tmdb.org/5690a83caa8cab1d2f4ef6f8.jpg",
+  "/vBk9KQW01pJJfn3wAL2MJgTMch1.jpg": "media/image.tmdb.org/7f9525514ae3e76acb469c5a.jpg",
+  "/uI3kWI7kGW5E0F8WduewgQYPt34.jpg": "media/image.tmdb.org/dab5ab795e9fd8822ad59e55.jpg",
+  "/dg3OindVAGZBjlT3xYKqIAdukPL.jpg": "media/image.tmdb.org/3176b2ff24326bd4ea6c9875.jpg",
+  "/bIHCUqaapZdRjd2kzSDiwzYyrpC.jpg": "media/image.tmdb.org/46474979481450e808e3affa.jpg",
+  "/weAYfu6FfrNxEDJ3xH1XpgQcqUv.jpg": "media/image.tmdb.org/6d04bc635ff8290688dd9935.jpg",
+  "/5En0fmDagt3Pk8d7P3uTwfeQceg.jpg": "media/image.tmdb.org/3298709a49b116f6e05cd669.jpg",
+  "/8VXhcrl5z2I1zEU9X3pkkNrZlD.jpg": "media/image.tmdb.org/9c3342d49c58c7d935a38c08.jpg",
+  "/5lTZyuBTNOfawsfPT8Q0cIg6qAF.jpg": "media/image.tmdb.org/eb8f82b26919945423ce8556.jpg",
+  "/psTMZj8gvsfYVfvd7FZCHH4xL6P.jpg": "media/image.tmdb.org/146429241a793881be8ee72a.jpg",
+  "/uGL51pEZZPaxickbjWjsQaXDXWq.jpg": "media/image.tmdb.org/f4c574fc87f437b36cbfe96d.jpg",
+  "/ykWWT8FAChBffNxcDzoJMCK9LBb.jpg": "media/image.tmdb.org/afdc2707646964a05633288f.jpg",
+  "/rfxryDIv8huejujg4JueDJx8zCz.jpg": "media/image.tmdb.org/3adfea973c61ca47e6b9d974.jpg",
+  "/77sozyYenyY1JraK6YzLfDlTMpp.jpg": "media/image.tmdb.org/3f6662c6422e61817738ac78.jpg",
+  "/oHBhHoNe59VH6bUMazDtJmWOFSS.jpg": "media/image.tmdb.org/77d39c2d8e0b83c1b95e408b.jpg",
+  "/9sfVyE3sP2dkCwDyV7UlYP5TAAR.jpg": "media/image.tmdb.org/3686ba65a1082c8fce43367a.jpg",
+  "/aQVEKkxBmViZDLdoQoK8llRy4hH.jpg": "media/image.tmdb.org/8d67b4d02ac76b8810244339.jpg",
+  "/95ckrV6wQgbffurAVmETQ5YKASL.jpg": "media/image.tmdb.org/133c1093f7e2d21fef27b56f.jpg",
+  "/QbtctI8EzlhsyFDMUMyG3fli8B.jpg": "media/image.tmdb.org/37c2366f57973500afa79a49.jpg",
+  "/12RXkIWUXwOHXgAmlxJNIWRGrri.jpg": "media/image.tmdb.org/c0a8e86f2ce08922b1c0546a.jpg",
+  "/rIycDdkLET20EVW2LPytLNuyOp3.jpg": "media/image.tmdb.org/2f86c78759b4fdbcdc20a29e.jpg",
+  "/3gIGgmK27lt3YK9EUnZ6iXMHg7Q.jpg": "media/image.tmdb.org/53be2ed0f0d55b876682e89a.jpg",
+  "/tjy25xpiFeo2gahl7N0hoxbRtG7.jpg": "media/image.tmdb.org/4c3f1c00e5798d9d19d28816.jpg",
+  "/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg": "media/image.tmdb.org/5f96201d0d41cf23f43d40e9.jpg",
+  "/gPQppUnLx9vqPDLz3WwZ2HJsNbt.jpg": "media/image.tmdb.org/7e38a171e84507451ad3cb77.jpg",
+  "/8sNiAPPYU14PUepFNeSNGUTiHW.jpg": "media/image.tmdb.org/4e08692d4da87842f66db9ae.jpg",
+  "/jrFL1KBSDO5vTM7AB6sXnx6Flc0.jpg": "media/image.tmdb.org/0a9efead83e9d5e7f5f605b5.jpg",
+  "/o04090TAInK18zXAkp71Duq8Qbx.jpg": "media/image.tmdb.org/1d9adc0baa5936d1a5d06dd7.jpg",
+  "/4bG49jVR7NrCNQjahDUsDqvIwle.jpg": "media/image.tmdb.org/7d2c2e8f293a9b8fde4a062b.jpg",
+  "/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg": "media/image.tmdb.org/1c3f0a6b8aa0a102059e13bf.jpg",
+  "/8UkpeQ7fwKyX2PVmnnaAJm7Vv9J.jpg": "media/image.tmdb.org/ed9bf3f173d1bec6c4e58759.jpg",
+  "/m8JTMj7jDMJFZAPP1ASmSi4gMWi.jpg": "media/image.tmdb.org/f8d14b5ee12175cf1a3b5e5d.jpg"
+});
