@@ -718,9 +718,11 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       button('Modifier','preview-edit','data-section="'+esc(s.id)+'"')+'</header>'+
       '<div class="mc-studio-preview-row">'+s.folders.map(f=>
         '<button type="button" class="mc-studio-preview-tile" data-action="preview-edit" data-section="'+esc(s.id)+'" data-id="'+esc(f.id)+'" title="Personnaliser '+esc(f.label)+'">'+
+        '<span class="mc-studio-preview-art">'+
         (f.coverImageUrl?'<img src="'+esc(localGenreCovers.get(f.coverImageUrl) || f.coverImageUrl)+'" loading="lazy" alt="">':
           '<span class="mc-studio-preview-placeholder" aria-hidden="true">▣</span>')+
-        '<strong>'+esc(f.label)+'</strong><small>'+f.sourceCount+' source'+(f.sourceCount>1?'s':'')+'</small></button>'
+        (f.titleLogoUrl?'<img class="mc-studio-preview-logo" src="'+esc(f.titleLogoUrl)+'" loading="lazy" decoding="async" alt="">':'')+
+        '</span><strong>'+esc(f.label)+'</strong><small>'+f.sourceCount+' source'+(f.sourceCount>1?'s':'')+'</small></button>'
       ).join('')+
       (s.omitted?'<div class="mc-studio-preview-more">+'+s.omitted+' dossiers actifs non affichés dans cet aperçu</div>':'')+
       '</div></section>').join('');
