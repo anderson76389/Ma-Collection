@@ -12,7 +12,7 @@ import {
 } from './studio-avance-core.mjs?v=2';
 import {createStudioBackupStore,makeStudioBackup} from './studio-backups.mjs';
 import {studioFolderKey,studioTidy,studioApplyBatch} from './studio-workshop-core.mjs';
-import {listStudioArtworks,searchStudioArtworks,useStudioArtwork} from './studio-art-library.mjs';
+import {ARTWORK_KINDS,listStudioArtworks,searchStudioArtworks,useStudioArtwork} from './studio-art-library.mjs?v=2';
 import {enrichMaArtLogos,searchMaArtLogos,applyMaArtLogo} from './studio-ma-art-logos.mjs';
 import {frenchPackTemplate,validateFrenchPack,planFrenchPack,applyFrenchPack} from './studio-fr-art.mjs';
 import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './studio-recovery-core.mjs';
@@ -37,7 +37,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
   let backups=[],backupError='',applying=false;
   let workshopSearch='',workshopSection='all',workshopSelected=new Set(),workshopMode='active-first';
   let workshopSortSections=true,workshopSortFolders=true,workshopUndo=null;
-  let libraryQuery='',libraryFilter='all',libraryUndo=null;
+  let libraryQuery='',libraryFilter='all',libraryKind='cover',libraryPage=0,libraryUndo=null;
   let logoQuery='',logoGroup='all',logoUndo=null;
   const addonManifestUrls=Object.create(null); // En mémoire seulement : aucune clé/URL privée en localStorage.
   let frPack=null,frStyle='',frSection='all',frActiveOnly=true,frUndo=null,frError='';
@@ -814,30 +814,48 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
   }
   function renderArtLibrary(){
     const entries=listStudioArtworks(draft,originals||{});
-    const found=searchStudioArtworks(entries,libraryQuery,{sectionId:libraryFilter,limit:90});
+    const kind=ARTWORK_KINDS[libraryKind]||ARTWORK_KINDS.cover;
+    const found=searchStudioArtworks(entries,libraryQuery,{
+      sectionId:libraryFilter,kind:libraryKind,limit:72,offset:libraryPage*72
+    });
     const current=section(),target=folder();
     const opts='<option value="all">Toutes les catégories</option>'+
       draft.sections.map(s=>'<option value="'+esc(s.id)+'" '+(libraryFilter===s.id?'selected':'')+'>'+esc(s.label)+'</option>').join('');
-    const tiles=found.results.map((item,index)=>
-      '<div class="mc-studio-library-card">'+
-      '<img src="'+esc(localGenreCovers.get(item.url) || item.url)+'" alt="Affiche '+esc(item.folderLabel)+'" loading="lazy" decoding="async">'+
-      '<div class="mc-studio-library-details"><strong>'+esc(item.folderLabel)+'</strong>'+
-      '<small>'+esc(item.sectionLabel)+' · '+esc(item.kind)+'</small></div>'+
-      button('Utiliser cette affiche','library-use','data-index="'+index+'"')+'</div>'
+    const kinds=Object.entries(ARTWORK_KINDS).map(([id,v])=>
+      '<option value="'+id+'" '+(libraryKind===id?'selected':'')+'>'+esc(v.label)+'</option>'
     ).join('');
-    return '<div class="mc-studio-library">'+
-      '<div><h3>Bibliothèque d’affiches indépendante</h3>'+
-      '<p class="mc-studio-hint">Retrouve toutes les affiches déjà connues de tes collections et tes variantes personnelles. Les fichiers gardent leur URL d’origine, sans perte de qualité ni téléchargement depuis Kaptain.</p></div>'+
+    const tiles=found.results.map((item,index)=>
+      '<article class="mc-studio-library-card mc-art-picker-card" data-art-kind="'+esc(item.kind)+'">'+
+      '<div class="mc-art-picker-image">'+
+        (item.kind==='animation'
+          ?'<img src="'+esc(item.url)+'" alt="Aperçu animé '+esc(item.folderLabel)+'" loading="lazy" decoding="async">'
+          :'<img src="'+esc(localGenreCovers.get(item.url)||item.url)+'" alt="'+esc(item.kindLabel)+' de '+esc(item.folderLabel)+'" loading="lazy" decoding="async">')+
+      '</div>'+
+      '<div class="mc-studio-library-details"><strong>'+esc(item.folderLabel)+'</strong>'+
+      '<small>'+esc(item.sectionLabel)+' · '+esc(item.kindLabel)+' · '+esc(item.origin)+'</small></div>'+
+      button(kind.action,'library-use','data-index="'+index+'"')+'</article>'
+    ).join('');
+    const pagination='<div class="mc-art-picker-pagination">'+
+      button('← Précédentes','library-prev',libraryPage?'':'disabled')+
+      '<span>'+esc(String(found.total?found.offset+1:0))+'–'+esc(String(Math.min(found.offset+72,found.total)))+
+      ' sur '+esc(String(found.total))+'</span>'+
+      button('Suivantes →','library-next',found.hasNext?'':'disabled')+'</div>';
+    return '<div class="mc-studio-library mc-art-picker">'+
+      '<div class="mc-art-picker-header"><div><h3>Choisir mes affiches et illustrations</h3>'+
+      '<p class="mc-studio-hint">Parcours les images, fonds, logos et animations déjà présents dans ta collection. Choisis un visuel pour ton dossier sans modifier ses sources.</p></div>'+
+      button('Voir les logos Ma-Art','library-logos')+'</div>'+
       '<div class="mc-studio-library-target"><div><strong>Destination : '+esc(target?.label||'Aucun dossier sélectionné')+'</strong>'+
       '<small>'+esc(current?.label||'')+'</small></div>'+
-      button('Changer de dossier dans les affiches','library-target')+'</div>'+
-      '<div class="mc-studio-workshop-grid">'+
-      '<label class="mc-studio-field">Chercher un dossier ou un visuel<input type="search" data-library-search value="'+esc(libraryQuery)+'" placeholder="Films, animés, plateformes…" autocomplete="off"></label>'+
+      button('Choisir un autre dossier','library-target')+'</div>'+
+      '<div class="mc-studio-workshop-grid mc-art-picker-filters">'+
+      '<label class="mc-studio-field">Rechercher<input type="search" data-library-search value="'+esc(libraryQuery)+'" placeholder="Action, aventure, Netflix, anime…" autocomplete="off"></label>'+
+      '<label class="mc-studio-field">Type d’image<select data-library-kind>'+kinds+'</select></label>'+
       '<label class="mc-studio-field">Catégorie<select data-library-filter>'+opts+'</select></label></div>'+
-      '<p class="mc-studio-hint">'+found.total+' affiche(s) trouvée(s). '+(found.omitted?'Affichage des 90 premiers résultats, affine la recherche.':'')+'</p>'+
-      '<div class="mc-studio-library-gallery">'+(tiles||'<p class="mc-studio-muted">Aucun visuel correspondant.</p>')+'</div>'+
-      '<div class="mc-studio-actions-grid">'+(libraryUndo?button('↶ Annuler le choix d’affiche','library-undo'):'')+'</div>'+
-      '<p class="mc-studio-hint">Seule l’affiche principale du dossier cible est modifiée dans le brouillon. Ses sources, fonds, logos, GIF et paramètres d’affichage restent inchangés. Applique ensuite le profil pour exporter le choix.</p></div>';
+      '<p class="mc-studio-hint">'+found.total+' visuel(s) correspondant(s). Aucun nouveau fichier privé n’est publié par cette galerie.</p>'+
+      '<div class="mc-studio-library-gallery mc-art-picker-grid">'+(tiles||'<p class="mc-studio-muted">Aucune image correspondante. Essaie une autre catégorie ou un autre type.</p>')+'</div>'+
+      pagination+
+      '<div class="mc-studio-actions-grid">'+(libraryUndo?button('↶ Annuler le dernier choix','library-undo'):'')+'</div>'+
+      '<p class="mc-studio-hint">Après ton choix, clique sur « Appliquer » dans le Studio. Les originaux et les autres visuels du dossier sont conservés. Les archives privées de Ma-Art ne sont pas mises en ligne automatiquement.</p></div>';
   }
   function renderMaArtLogos(){
     const rows=enrichMaArtLogos(window.MA_ART_LOGOS||[],data());
@@ -1182,10 +1200,11 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       if(el.matches('[data-generated-style]')){generatedStyle=el.value;return;}
       if(el.matches('[data-collection-file]')){inspectBackup(el.files[0]);el.value='';return;}
       if(el.matches('[data-fr-file]')){importFrenchArt(el.files[0]);el.value='';return;}
-      if(el.matches('[data-library-search]')){redrawSearchField(el,'[data-library-search]',v=>libraryQuery=v);return;}
+      if(el.matches('[data-library-search]')){redrawSearchField(el,'[data-library-search]',v=>{libraryQuery=v;libraryPage=0;});return;}
       if(el.matches('[data-logo-search]')){redrawSearchField(el,'[data-logo-search]',v=>logoQuery=v);return;}
       if(el.matches('[data-logo-group]')){logoGroup=el.value;draw();return;}
-      if(el.matches('[data-library-filter]')){libraryFilter=el.value;draw();return;}
+      if(el.matches('[data-library-filter]')){libraryFilter=el.value;libraryPage=0;draw();return;}
+      if(el.matches('[data-library-kind]')){libraryKind=el.value;libraryPage=0;draw();return;}
       if(el.matches('[data-workshop-search]')){redrawSearchField(el,'[data-workshop-search]',v=>workshopSearch=v);return;}
       if(el.matches('[data-workshop-section]')){workshopSection=el.value;draw();return;}
       if(el.matches('[data-workshop-target]')){const k=el.dataset.workshopTarget;if(el.checked)workshopSelected.add(k);else workshopSelected.delete(k);draw();return;}
@@ -1356,19 +1375,22 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       }catch(error){message='Logo non appliqué : '+error.message;draw();}
     }
     else if(a==='library-target'){tab='affiches';draw();}
+    else if(a==='library-logos'){tab='logos-ma-art';draw();}
+    else if(a==='library-next'){libraryPage++;draw();}
+    else if(a==='library-prev'){libraryPage=Math.max(0,libraryPage-1);draw();}
     else if(a==='library-undo'){
       if(libraryUndo){draft=libraryUndo;libraryUndo=null;message='Choix de visuel annulé dans le brouillon.';draw();}
     }
     else if(a==='library-use'){
       try{
-        const candidates=searchStudioArtworks(listStudioArtworks(draft,originals||{}),libraryQuery,{sectionId:libraryFilter,limit:90}).results;
+        const candidates=searchStudioArtworks(listStudioArtworks(draft,originals||{}),libraryQuery,{sectionId:libraryFilter,kind:libraryKind,limit:72,offset:libraryPage*72}).results;
         const item=candidates[Number(btn.dataset.index)];
         if(!item)throw Error('Visuel non disponible : recharge la recherche.');
         if(!section()?.folders.some(f=>f.id===selectedFolder))throw Error('Choisis d’abord le dossier cible dans « Affiches & sources ».');
         const snapshot=copy(draft);
         const result=useStudioArtwork(draft,selectedSection,selectedFolder,item);
         if(result.changed)libraryUndo=snapshot;
-        message=result.changed?'Affiche sélectionnée dans le brouillon, sans remplacer les autres éléments.':'Cette affiche est déjà sélectionnée.';
+        message=result.changed?'Visuel '+item.kindLabel.toLocaleLowerCase('fr')+' sélectionné pour '+folder().label+'. Les autres images et les sources sont conservées.':'Ce visuel est déjà sélectionné.';
         draw();
       }catch(error){message='Affiche refusée : '+error.message;draw();}
     }
