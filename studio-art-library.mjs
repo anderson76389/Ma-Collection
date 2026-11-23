@@ -55,12 +55,18 @@ export function searchStudioArtworks(entries,query='',options={}){
   const kind=String(options.kind||'cover');
   const words=needle.split(/\s+/).filter(Boolean);
   const limit=Number.isFinite(options.limit)?Math.max(1,Math.min(200,Math.trunc(options.limit))):72;
+  const offset=Number.isFinite(options.offset)?Math.max(0,Math.trunc(options.offset)):0;
   const filtered=(Array.isArray(entries)?entries:[]).filter(e=>
     (section==='all'||e.sectionId===section)&&
     (kind==='all'||e.kind===kind)&&
     words.every(w=>norm([e.sectionLabel,e.folderLabel,e.kindLabel,e.origin].join(' ')).includes(w))
   );
-  return {total:filtered.length,results:filtered.slice(0,limit),omitted:Math.max(0,filtered.length-limit)};
+  return {
+    total:filtered.length,
+    results:filtered.slice(offset,offset+limit),
+    omitted:Math.max(0,filtered.length-(offset+limit)),
+    offset,limit,hasPrevious:offset>0,hasNext:offset+limit<filtered.length
+  };
 }
 
 /** Change uniquement le champ ciblé; jamais les sources et autres visuels. */
