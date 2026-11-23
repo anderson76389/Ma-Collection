@@ -1,0 +1,635 @@
+/*
+ * MA-COLLECTION — thème Kovelyx Violet 2026
+ * Teintes relevées de l'identité graphique Kovelyx locale :
+ * #8656F4, #6043F4, #966AFF, #B990FF et fond #101126.
+ * Ce fichier ne fait aucune requête réseau. Les catégories, les médias et
+ * les succès/erreurs métier conservent leur contenu et leur signification.
+ *
+ * Trois modes : sombre (défaut), clair et contraste élevé.
+ * Les composants hérités gardent leurs anciennes variables internes
+ * (--home-mint, --ps-green...) mais celles-ci pointent maintenant sur du violet.
+ */
+:root{
+  color-scheme:dark;
+  --kv-brand:#8656F4;
+  --kv-brand-hover:#996DFF;
+  --kv-brand-soft:#BA99FF;
+  --kv-brand-pale:#E9D9FF;
+  --kv-brand-rgb:134,86,244;
+  --kv-on-brand:#fff;
+  --kv-ring:rgba(166,127,255,.6);
+  --kv-tint:rgba(134,86,244,.13);
+  --kv-border:rgba(177,142,255,.33);
+  --kv-glass-tint:rgba(72,40,134,.26);
+  --accent:#8656F4;
+  --accent-light:#C7A5FF;
+  --accent-subtle:rgba(134,86,244,.15);
+  --accent-glow:rgba(134,86,244,.27);
+  --accent-gradient:linear-gradient(135deg,#8656F4,#6043F4);
+  --on-secondary:#fff;
+  --home-mint:#8656F4;
+  --home-ink:#fff;
+  --mc-ui-green:#8656F4;
+  --mc-ui-green-hover:#996DFF;
+  --mc-ui-green-dark:#fff;
+  --mc-ui-ring:rgba(166,127,255,.54);
+  --mc-ui-line-hover:rgba(165,121,255,.44);
+  --kap-ui-mint:#8656F4;
+  --kap-ui-mint-fg:#fff;
+  --kap-ui-mint-soft:rgba(134,86,244,.13);
+  --kap-ui-mint-stroke:rgba(166,126,255,.44);
+  --lg-mint:#C7A5FF;
+  --lg-mint-strong:#8656F4;
+  --lg-on-mint:#fff;
+  --lg-glow:rgba(134,86,244,.2);
+}
+html[data-theme="light"]{
+  color-scheme:light;
+  --kv-brand:#6741D1;
+  --kv-brand-hover:#5833BD;
+  --kv-brand-soft:#8054D8;
+  --kv-brand-pale:#F0E5FF;
+  --kv-brand-rgb:103,65,209;
+  --kv-on-brand:#fff;
+  --kv-ring:rgba(103,65,209,.5);
+  --kv-tint:rgba(103,65,209,.11);
+  --kv-border:rgba(103,65,209,.32);
+  --kv-glass-tint:rgba(135,93,210,.10);
+  --accent:#6741D1;
+  --accent-light:#623CC7;
+  --accent-subtle:rgba(103,65,209,.12);
+  --accent-glow:rgba(103,65,209,.2);
+  --accent-gradient:linear-gradient(135deg,#764CE1,#5C38BC);
+  --on-secondary:#fff;
+  --home-mint:#6741D1;
+  --home-ink:#fff;
+  --mc-ui-green:#6741D1;
+  --mc-ui-green-hover:#5833BD;
+  --mc-ui-green-dark:#fff;
+  --mc-ui-ring:rgba(103,65,209,.45);
+  --mc-ui-line-hover:rgba(103,65,209,.45);
+  --kap-ui-mint:#6741D1;
+  --kap-ui-mint-fg:#fff;
+  --kap-ui-mint-soft:rgba(103,65,209,.11);
+  --kap-ui-mint-stroke:rgba(103,65,209,.4);
+  --lg-mint:#6741D1;
+  --lg-mint-strong:#6741D1;
+  --lg-on-mint:#fff;
+  --lg-glow:rgba(103,65,209,.16);
+}
+html[data-theme="high-contrast"]{
+  color-scheme:dark;
+  --kv-brand:#E0C6FF;
+  --kv-brand-hover:#F1E2FF;
+  --kv-brand-soft:#EAD8FF;
+  --kv-brand-pale:#fff;
+  --kv-brand-rgb:224,198,255;
+  --kv-on-brand:#1A0C34;
+  --kv-ring:rgba(239,215,255,.9);
+  --kv-tint:rgba(224,198,255,.23);
+  --kv-border:rgba(224,198,255,.75);
+  --kv-glass-tint:rgba(126,74,221,.27);
+  --accent:#E0C6FF;
+  --accent-light:#F1E2FF;
+  --accent-subtle:rgba(224,198,255,.23);
+  --accent-glow:rgba(224,198,255,.38);
+  --accent-gradient:linear-gradient(135deg,#E0C6FF,#C59AFF);
+  --on-secondary:#1A0C34;
+  --home-mint:#E0C6FF;
+  --home-ink:#1A0C34;
+  --mc-ui-green:#E0C6FF;
+  --mc-ui-green-hover:#F1E2FF;
+  --mc-ui-green-dark:#1A0C34;
+  --mc-ui-ring:rgba(224,198,255,.9);
+  --mc-ui-line-hover:rgba(224,198,255,.86);
+  --kap-ui-mint:#E0C6FF;
+  --kap-ui-mint-fg:#1A0C34;
+  --kap-ui-mint-soft:rgba(224,198,255,.23);
+  --kap-ui-mint-stroke:rgba(224,198,255,.84);
+  --lg-mint:#E0C6FF;
+  --lg-mint-strong:#E0C6FF;
+  --lg-on-mint:#1A0C34;
+  --lg-glow:rgba(224,198,255,.3);
+}
+/* Les écrans autonomes surchargent :root. Les resynchroniser par écran. */
+.mc-home-overlay{
+  --home-mint:var(--kv-brand);
+  --home-ink:var(--kv-on-brand);
+  --home-edge:rgba(191,170,242,.19);
+}
+#mc-profile-suite{
+  --ps-green:var(--kv-brand);
+  --ps-green-light:var(--kv-brand-soft);
+  --ps-green-dark:var(--kv-on-brand);
+}
+#mc-studio-root{
+  --accent:var(--kv-brand);
+  --accent-light:var(--kv-brand-soft);
+  --accent-subtle:var(--kv-tint);
+  --accent-glow:rgba(var(--kv-brand-rgb),.23);
+}
+.nv-liquid-toolbar{
+  --lg-mint:var(--kv-brand-soft);
+  --lg-mint-strong:var(--kv-brand);
+  --lg-on-mint:var(--kv-on-brand);
+  --lg-glow:var(--kv-glass-tint);
+}
+/* Priorité d'action identique : tous les CTA importants sont violets. */
+:is(.btn-primary,.se-send-btn,.quick-push-btn-primary,.quiz-next,
+    .wt-btn-next-primary,.wiz-primary,.dl-confirm-go,.title-test-code-apply,
+    .title-screen-btn-primary){
+  background:var(--accent-gradient);
+  color:var(--kv-on-brand);
+  border-color:var(--kv-border);
+  box-shadow:0 6px 18px rgba(var(--kv-brand-rgb),.14);
+}
+:is(.btn-primary,.se-send-btn,.quick-push-btn-primary,.quiz-next,
+    .wt-btn-next-primary,.wiz-primary,.dl-confirm-go,.title-test-code-apply,
+    .title-screen-btn-primary):hover:not(:disabled){
+  background:var(--kv-brand-hover);
+  color:var(--kv-on-brand);
+  border-color:var(--kv-border);
+}
+:is(.btn-primary,.se-send-btn,.quick-push-btn-primary,.quiz-next,
+    .wt-btn-next-primary,.wiz-primary,.dl-confirm-go):focus-visible{
+  outline:2px solid var(--kv-brand-soft);
+  outline-offset:3px;
+}
+.nv-liquid-toolbar .nv-device-toggle .nv-device-opt.active{
+  background:linear-gradient(140deg,var(--kv-brand-hover),var(--kv-brand));
+  color:var(--kv-on-brand);
+  border-color:var(--kv-border);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.20),
+    0 4px 14px rgba(var(--kv-brand-rgb),.26);
+}
+.nv-liquid-toolbar .nv-device-toggle .nv-device-opt.active:hover{
+  background:var(--kv-brand-hover);
+  color:var(--kv-on-brand);
+}
+.nv-liquid-toolbar .nv-preview-actions #preview-send{
+  background:linear-gradient(140deg,var(--kv-brand-hover),var(--kv-brand));
+  color:var(--kv-on-brand);
+  border-color:var(--kv-border);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.2),
+    0 5px 22px rgba(var(--kv-brand-rgb),.24);
+}
+.nv-liquid-toolbar .nv-preview-actions #preview-send:hover:not(:disabled){
+  background:var(--kv-brand-hover);
+  color:var(--kv-on-brand);
+  border-color:var(--kv-border);
+  box-shadow:0 7px 24px rgba(var(--kv-brand-rgb),.32);
+}
+.nv-liquid-toolbar .nv-preview-edit-actions .mc-folder-trigger,
+.nv-liquid-toolbar .nv-preview-edit-actions .nv-reorder-toggle.active,
+.nv-liquid-toolbar .nv-preview-actions #preview-more.active{
+  color:var(--kv-brand-pale);
+  background:var(--kv-tint);
+  border-color:var(--kv-border);
+}
+.nv-liquid-toolbar .nv-preview-edit-actions .mc-folder-trigger:hover,
+.nv-liquid-toolbar .nv-preview-edit-actions .nv-reorder-toggle.active:hover,
+.nv-liquid-toolbar .nv-preview-actions #preview-more.active:hover{
+  background:rgba(var(--kv-brand-rgb),.21);
+}
+.nv-liquid-toolbar .nv-preview-menu-tools button:hover{
+  background:var(--kv-tint);
+  border-color:var(--kv-border);
+}
+.nv-liquid-toolbar .nv-viewmode-combo svg{color:var(--kv-brand-soft)}
+.nv-liquid-toolbar .nv-preview-primary button:focus-visible,
+.nv-liquid-toolbar .nv-preview-secondary :is(button,select):focus-visible{
+  outline:2px solid var(--kv-brand-soft);
+}
+/* Verre tinté violet comme Kovelyx, en conservant les affiches visibles. */
+.nv-preview-bar.nv-liquid-toolbar{
+  border-color:rgba(181,150,255,.27);
+  background:linear-gradient(155deg,rgba(59,44,95,.66),rgba(17,16,37,.82) 58%,rgba(10,11,28,.85));
+  box-shadow:inset 0 1px 0 rgba(227,208,255,.18),
+    0 16px 48px rgba(8,5,25,.52),0 2px 12px rgba(0,0,0,.20);
+}
+.nv-liquid-toolbar .nv-preview-secondary{
+  border-color:rgba(195,171,255,.3);
+  background:linear-gradient(160deg,rgba(57,39,103,.95),rgba(16,13,40,.97));
+  box-shadow:inset 0 1px 0 rgba(235,215,255,.18),0 18px 54px rgba(8,5,25,.54);
+}
+.nv-liquid-toolbar #preview-fab{
+  background:linear-gradient(150deg,rgba(89,62,151,.82),rgba(19,15,48,.92));
+  border-color:rgba(195,169,255,.4);
+  color:#F2E8FF;
+}
+/* Accueil : carte, bouton principal, menu et sélection en violet. */
+.mc-home-overlay .mc-home .home-express{
+  border:1px solid var(--kv-border);
+  background:var(--accent-gradient);
+  color:var(--kv-on-brand);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.16),
+    0 9px 25px rgba(var(--kv-brand-rgb),.23);
+}
+.mc-home-overlay .mc-home .home-express:hover{
+  background:var(--kv-brand-hover);
+  color:var(--kv-on-brand);
+  box-shadow:0 12px 28px rgba(var(--kv-brand-rgb),.31);
+}
+.mc-home-overlay .mc-home .portfolio-card:hover,
+.mc-home-overlay .mc-home-more-tools>summary:hover{
+  border-color:var(--kv-border);
+}
+.mc-home-overlay .mc-home .portfolio-card .port-card-icon{
+  background:var(--kv-tint);
+  border-color:rgba(var(--kv-brand-rgb),.25);
+  color:var(--kv-brand-soft);
+}
+.mc-home-overlay .mc-home .portfolio-card .port-card-eyebrow.is-highlight{
+  border-color:var(--kv-border);
+  background:var(--kv-tint);
+  color:var(--kv-brand-pale);
+}
+.mc-home-overlay .mc-home .portfolio-card .port-link{
+  color:var(--kv-brand-soft);
+}
+.mc-home-overlay .home-dock.mc-cockpit .mc-cockpit-branch button::after,
+#mc-studio-root .mc-studio-cockpit .mc-studio-top-branch button::after{
+  background:var(--kv-brand);
+}
+.mc-home-overlay .home-dock.mc-cockpit #home-tools-menu.mc-cockpit-hub:hover,
+.mc-home-overlay .home-dock.mc-cockpit .mc-header-shortcut:hover{
+  border-color:var(--kv-border);
+  background:var(--kv-tint);
+}
+/* Studio autonome : actions primaires et indicateurs violets. */
+#mc-studio-root .mc-studio-workspace .mc-studio-footer button.mc-studio-apply,
+#mc-studio-root .mc-studio-workspace .mc-studio-gallery-actions [data-action="art-use"],
+#mc-studio-root .mc-studio-workspace .mc-studio-batch [data-action="batch-apply"],
+#mc-studio-root .mc-studio-logos [data-action="maart-logo-use"]{
+  background:var(--accent-gradient);
+  border-color:var(--kv-border);
+  color:var(--kv-on-brand);
+  box-shadow:0 6px 19px rgba(var(--kv-brand-rgb),.16);
+}
+#mc-studio-root .mc-studio-workspace .mc-studio-footer button.mc-studio-apply:hover,
+#mc-studio-root .mc-studio-workspace .mc-studio-gallery-actions [data-action="art-use"]:hover,
+#mc-studio-root .mc-studio-workspace .mc-studio-batch [data-action="batch-apply"]:hover,
+#mc-studio-root .mc-studio-logos [data-action="maart-logo-use"]:hover{
+  background:var(--kv-brand-hover);
+  border-color:var(--kv-border);
+  color:var(--kv-on-brand);
+}
+#mc-studio-root .mc-studio-workspace .mc-studio-art-nav button.active,
+#mc-studio-root .mc-studio-workspace .mc-studio-tabs button.active{
+  border-color:var(--kv-border);
+  background:var(--kv-tint);
+  color:var(--kv-brand-pale);
+}
+#mc-studio-root .mc-studio-workspace .mc-studio-stage>button:hover{
+  background:var(--kv-tint);
+  border-color:var(--kv-border);
+}
+/* Studio des profils : le panneau conserve ses états et ses données. */
+#mc-profile-suite .mcps-primary{
+  border-color:var(--kv-border);
+  background:var(--accent-gradient);
+  color:var(--kv-on-brand)!important;
+  box-shadow:0 6px 19px rgba(var(--kv-brand-rgb),.14);
+}
+#mc-profile-suite .mcps-primary:hover:not(:disabled){
+  background:var(--kv-brand-hover);
+  color:var(--kv-on-brand)!important;
+}
+#mc-profile-suite .mcps-outline{
+  background:var(--kv-tint);
+  border-color:var(--kv-border);
+  color:var(--kv-brand-soft);
+}
+#mc-profile-suite .mcps-outline:hover:not(:disabled){
+  background:rgba(var(--kv-brand-rgb),.22);
+  border-color:var(--kv-brand-soft);
+}
+#mc-profile-suite .mcps-tile:hover,
+#mc-profile-suite .mcps-setting-tile:hover{
+  border-color:var(--kv-border);
+}
+#mc-profile-suite input[type="checkbox"],
+#mc-studio-root input[type="checkbox"],
+#mc-studio-root input[type="radio"],
+input[type="checkbox"],input[type="radio"]{accent-color:var(--kv-brand)}
+
+/* Les fonds clairs et très contrastés ont des traitements distincts pour la
+   lisibilité. Aucune barre violet foncé dans le thème clair. */
+html[data-theme="light"] .nv-preview-bar.nv-liquid-toolbar{
+  color:#251941;
+  border-color:rgba(107,72,176,.25);
+  background:linear-gradient(145deg,rgba(252,248,255,.91),rgba(237,227,255,.96));
+  box-shadow:inset 0 1px 0 #fff,0 12px 40px rgba(46,21,92,.19);
+}
+html[data-theme="light"] .nv-liquid-toolbar .nv-preview-secondary{
+  color:#281942;
+  border-color:rgba(111,72,180,.25);
+  background:linear-gradient(150deg,rgba(255,255,255,.99),rgba(242,234,255,.99));
+}
+html[data-theme="light"] .nv-liquid-toolbar .nv-preview-secondary :is(button,.nv-preview-menu-title){
+  color:#281942;
+}
+html[data-theme="light"] .nv-liquid-toolbar .nv-preview-menu-tools button:hover{
+  background:rgba(103,65,209,.12);
+  border-color:rgba(103,65,209,.36);
+}
+html[data-theme="light"] .nv-liquid-toolbar .nv-preview-actions #preview-send,
+html[data-theme="light"] .nv-liquid-toolbar .nv-device-toggle .nv-device-opt.active{
+  color:#fff;
+  background:linear-gradient(135deg,#7950DC,#6037C8);
+  border-color:rgba(95,49,187,.4);
+}
+html[data-theme="light"] .nv-liquid-toolbar .nv-preview-actions #preview-send:hover{
+  color:#fff;background:#5530B7;
+}
+html[data-theme="light"] .nv-liquid-toolbar .nv-preview-edit-actions .mc-folder-trigger,
+html[data-theme="light"] .nv-liquid-toolbar .nv-preview-edit-actions .nv-reorder-toggle.active{
+  color:#5830B7;
+  background:rgba(103,65,209,.11);
+  border-color:rgba(103,65,209,.3);
+}
+html[data-theme="light"] .mc-home-overlay .mc-home .portfolio-card .port-card-icon{
+  color:#6741D1;background:rgba(103,65,209,.10);
+}
+html[data-theme="light"] .mc-home-overlay .mc-home .portfolio-card .port-card-eyebrow.is-highlight{
+  color:#633BBF;
+}
+html[data-theme="light"] .mc-home-overlay .mc-home .portfolio-card .port-link{color:#673CCF}
+html[data-theme="light"] .mc-home-overlay .mc-home .home-express{
+  color:#fff;background:linear-gradient(135deg,#7950DC,#6037C8);
+}
+html[data-theme="light"] #mc-studio-root .mc-studio-workspace .mc-studio-art-nav button.active,
+html[data-theme="light"] #mc-studio-root .mc-studio-workspace .mc-studio-tabs button.active{
+  color:#6035C1;
+}
+html[data-theme="light"] #mc-profile-suite{
+  --ps-green:#6741D1;
+  --ps-green-light:#956DDE;
+  --ps-green-dark:#fff;
+}
+/* Contraste élevé : blanc lavande sur fond nuit, contenu sombre sur CTA. */
+html[data-theme="high-contrast"] .nv-preview-bar.nv-liquid-toolbar,
+html[data-theme="high-contrast"] .nv-liquid-toolbar .nv-preview-secondary{
+  color:#fff;
+  background:#130A2A;
+  border-color:var(--kv-brand);
+}
+html[data-theme="high-contrast"] .nv-liquid-toolbar .nv-preview-actions #preview-send,
+html[data-theme="high-contrast"] .nv-liquid-toolbar .nv-device-toggle .nv-device-opt.active,
+html[data-theme="high-contrast"] .mc-home-overlay .mc-home .home-express,
+html[data-theme="high-contrast"] #mc-profile-suite .mcps-primary,
+html[data-theme="high-contrast"] #mc-studio-root .mc-studio-workspace .mc-studio-footer button.mc-studio-apply{
+  background:var(--kv-brand);
+  color:var(--kv-on-brand)!important;
+  border-color:#fff;
+}
+html[data-theme="high-contrast"] .nv-liquid-toolbar .nv-preview-edit-actions .mc-folder-trigger{
+  color:#fff;
+  border-color:var(--kv-brand-soft);
+}
+/* Cadence et placement communs : unités et alignements prévisibles. */
+:where(.se-topbar-actions,.mcps-actions-line,.mc-studio-context-actions,
+       .mc-studio-gallery-actions,.mc-studio-header-actions,
+       .nv-preview-actions,.control-actions-combo){
+  column-gap:8px;
+  row-gap:8px;
+}
+:where(.se-topbar-actions,.mcps-actions-line,.mc-studio-context-actions,
+       .mc-studio-gallery-actions,.mc-studio-header-actions,
+       .control-actions-combo) > button{
+  box-sizing:border-box;
+  min-width:0;
+}
+:where(.mc-tools-options,.mc-studio-actions-grid,.mc-studio-gallery-actions) button{
+  overflow-wrap:anywhere;
+  text-wrap:pretty;
+}
+#simple-editor-overlay .se-topbar{
+  gap:10px 13px;
+  padding-inline:clamp(12px,1.6vw,24px);
+}
+#simple-editor-overlay .se-search{
+  min-width:160px;
+  max-width:600px;
+}
+#simple-editor-overlay .se-topbar-actions{
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  flex-wrap:wrap;
+  min-width:0;
+}
+#simple-editor-overlay .se-topbar-actions button{
+  min-height:38px;
+  line-height:1.3;
+  white-space:normal;
+}
+.app-screen .top-bar-left{
+  flex:0 1 auto;min-width:0;
+}
+.app-screen .top-bar-right{
+  flex:0 1 auto;min-width:0;
+  gap:clamp(6px,.9vw,12px);
+}
+.app-screen .top-bar .topbar-more-panel{gap:6px}
+.app-screen .top-bar .topbar-control-combo{
+  min-width:0;
+}
+.app-screen .top-bar .topbar-control-combo select{
+  max-width:185px;
+  min-width:0;
+  text-overflow:ellipsis;
+}
+.nv-preview-bar.nv-liquid-toolbar{
+  width:max-content;
+  max-width:calc(100vw - 28px);
+}
+.nv-liquid-toolbar .nv-preview-primary{
+  flex-wrap:wrap;
+  align-content:center;
+  row-gap:8px;
+  max-width:100%;
+}
+.nv-liquid-toolbar .nv-preview-primary .nv-preview-group{
+  min-width:0;
+  flex:0 1 auto;
+}
+.nv-liquid-toolbar .nv-preview-primary .nv-preview-group:not(:last-child){
+  border-right:1px solid rgba(193,165,255,.14);
+}
+.nv-liquid-toolbar .nv-preview-actions #preview-more{
+  width:auto;min-width:86px;max-width:none;
+  gap:8px;padding-inline:12px;
+}
+.nv-liquid-toolbar .nv-preview-actions #preview-more .nv-more-label{
+  display:inline-block;
+  white-space:nowrap;
+}
+#mc-studio-root .mc-studio-context-left{
+  min-width:0;
+  max-width:100%;
+}
+#mc-studio-root .mc-studio-context-actions{
+  min-width:0;
+  align-items:center;
+  justify-content:flex-end;
+}
+#mc-studio-root .mc-studio-context-actions button:not(.mc-studio-close){
+  white-space:normal;
+  text-align:center;
+}
+#mc-profile-suite .mcps-top-actions{
+  align-items:center;gap:8px;
+}
+#mc-profile-suite .mcps-actions-line{
+  justify-content:flex-start;
+  gap:9px;
+}
+/* Largeurs intermédiaires : les commandes passent en plusieurs groupes,
+   et les outils du catalogue restent accessibles dans un menu au lieu de
+   recouvrir le titre. */
+@media(min-width:601px) and (max-width:1250px){
+  .app-screen .top-bar .topbar-more-toggle{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:38px;height:38px;
+    border:1px solid var(--kv-border);
+    border-radius:10px;
+    background:rgba(var(--kv-brand-rgb),.1);
+    color:var(--accent-light);
+  }
+  .app-screen .top-bar .topbar-more-panel{
+    display:none;
+    position:absolute;
+    top:calc(100% + 8px);
+    right:0;
+    left:auto;
+    width:min(300px,calc(100vw - 26px));
+    padding:13px;
+    border-radius:13px;
+    border:1px solid var(--kv-border);
+    background:var(--bg-elevated,#171225);
+    -webkit-backdrop-filter:blur(18px);
+    backdrop-filter:blur(18px);
+    box-shadow:0 16px 32px rgba(0,0,0,.3);
+    flex-direction:column;
+    align-items:stretch;
+    gap:10px;
+    z-index:999;
+  }
+  .app-screen .top-bar .topbar-more-panel.open{display:flex}
+  .app-screen .top-bar .topbar-control-combo{
+    height:auto;min-height:36px;
+    width:100%;
+    padding-left:0;
+  }
+  .app-screen .top-bar .topbar-control-combo select{
+    max-width:none;flex:1;
+  }
+  .app-screen .top-bar .reorder-toggle{width:100%;justify-content:center}
+  #simple-editor-overlay .se-topbar-actions{
+    flex:1 1 100%;
+    justify-content:flex-end;
+  }
+}
+@media(max-width:900px){
+  .nv-liquid-toolbar .nv-preview-primary .nv-preview-group:not(:last-child){
+    border-right:0;
+  }
+  #mc-studio-root .mc-studio-context{
+    padding-inline:12px;
+    gap:8px;
+  }
+  #mc-studio-root .mc-studio-context-actions{
+    gap:6px;
+    max-width:min(48vw,320px);
+    overflow-x:auto;
+    scrollbar-width:none;
+  }
+  #mc-studio-root .mc-studio-context-actions::-webkit-scrollbar{display:none}
+  #mc-studio-root .mc-studio-context-actions button{flex-shrink:0}
+  #simple-editor-overlay .se-topbar-actions{justify-content:flex-start}
+  #mc-profile-suite .mcps-top{grid-template-columns:minmax(0,1fr) auto}
+  #mc-profile-suite .mcps-top>strong{display:none}
+  #mc-profile-suite .mcps-top-actions{justify-self:end}
+}
+@media(max-width:860px){
+  .nv-preview-bar.nv-liquid-toolbar{
+    width:auto;max-width:calc(100vw - 26px);
+    border:0;background:transparent;box-shadow:none;
+  }
+  .nv-liquid-toolbar .nv-preview-content{
+    box-sizing:border-box;
+    width:min(414px,calc(100vw - 26px));
+    max-height:calc(100dvh - 106px);
+    right:0;
+  }
+  .nv-liquid-toolbar .nv-preview-primary{
+    flex-direction:column;
+    width:100%;row-gap:8px;
+  }
+  .nv-liquid-toolbar .nv-preview-primary .nv-preview-group{
+    width:100%;flex:0 1 auto;
+  }
+  .nv-liquid-toolbar .nv-preview-actions #preview-more{
+    width:44px;min-width:44px;max-width:44px;
+    flex:0 0 44px;padding:0;
+  }
+  .nv-liquid-toolbar .nv-preview-actions #preview-more .nv-more-label{
+    display:none;
+  }
+  .nv-liquid-toolbar #preview-fab{display:grid}
+  .nv-liquid-toolbar.open .nv-preview-content{
+    display:flex;
+  }
+  html[data-theme="light"] .nv-liquid-toolbar .nv-preview-content{
+    background:linear-gradient(160deg,rgba(254,251,255,.99),rgba(239,229,255,.99));
+    border-color:rgba(103,65,209,.27);
+  }
+}
+@media(max-width:600px){
+  #simple-editor-overlay .se-topbar-actions{
+    overflow-x:auto;
+    flex-wrap:nowrap;
+    justify-content:flex-start;
+    width:100%;
+    max-width:100%;
+    padding-bottom:4px;
+    overscroll-behavior-x:contain;
+  }
+  #simple-editor-overlay .se-topbar-actions button{
+    flex:0 0 auto;
+    min-height:42px;
+  }
+  .app-screen .top-bar .topbar-more-panel.open{
+    max-height:65dvh;
+    overflow:auto;
+  }
+  #mc-studio-root .mc-studio-context-actions{
+    max-width:55vw;
+  }
+  .mc-home-overlay .mc-home .home-return{
+    width:min(100%,440px);
+  }
+  .mc-home-overlay .mc-home .home-return button{
+    min-height:42px;
+  }
+  #mc-profile-suite .mcps-top-start{
+    min-width:0;
+    gap:5px;
+  }
+  #mc-profile-suite .mcps-top-actions{
+    flex:0 0 auto;
+    gap:5px;
+  }
+  #mc-profile-suite .mcps-top .mcps-close{
+    width:38px;min-width:38px;
+  }
+}
+@media(prefers-reduced-motion:reduce){
+  .nv-liquid-toolbar .nv-preview-primary button,
+  #mc-studio-root .mc-studio-context-actions button{
+    transition:none!important;
+  }
+}
