@@ -633,3 +633,40 @@ html[data-theme="high-contrast"] .nv-liquid-toolbar .nv-preview-edit-actions .mc
     transition:none!important;
   }
 }
+
+/* Palette claire et forte sur le FAB : la capsule extérieure reste
+   transparente, seul le bouton/panneau porte le verre dépoli. */
+@media(max-width:860px){
+  html[data-theme="light"] .nv-preview-bar.nv-liquid-toolbar,
+  html[data-theme="high-contrast"] .nv-preview-bar.nv-liquid-toolbar{
+    background:transparent;
+    border:0;
+    box-shadow:none;
+    -webkit-backdrop-filter:none;
+    backdrop-filter:none;
+  }
+  html[data-theme="light"] .nv-liquid-toolbar #preview-fab{
+    color:#5434AF;
+    border-color:rgba(103,65,209,.35);
+    background:linear-gradient(150deg,rgba(250,245,255,.96),rgba(227,212,252,.96));
+    box-shadow:0 9px 30px rgba(50,25,100,.24);
+  }
+  html[data-theme="high-contrast"] .nv-liquid-toolbar #preview-fab{
+    color:#F1E2FF;
+    background:#130A2A;
+    border-color:#E0C6FF;
+  }
+}
+/* Valeurs héritées : les anciens boutons verts ne réapparaissent pas
+   lorsqu'un thème est changé à chaud. */
+html[data-theme="light"] .mc-home-overlay,
+html[data-theme="high-contrast"] .mc-home-overlay{
+  --home-mint:var(--kv-brand);
+  --home-ink:var(--kv-on-brand);
+}
+html[data-theme="light"] #mc-profile-suite,
+html[data-theme="high-contrast"] #mc-profile-suite{
+  --ps-green:var(--kv-brand);
+  --ps-green-light:var(--kv-brand-soft);
+  --ps-green-dark:var(--kv-on-brand);
+}
