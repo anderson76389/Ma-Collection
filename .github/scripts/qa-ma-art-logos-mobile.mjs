@@ -14,7 +14,13 @@ try{
     const page=await context.newPage();
     const errors=[],forbidden=[];
     page.on('pageerror',e=>errors.push(e.message));
-    page.on('request',r=>{if(/kaptain[.]stream|imkaptain[.]github[.]io|raw[.]githubusercontent[.]com\/ImKaptain/i.test(r.url()))forbidden.push(r.url());});
+    page.on('request',r=>{
+      const url=new URL(r.url()),host=url.hostname.toLowerCase();
+      if(host==='kaptain.stream'||host.endsWith('.kaptain.stream')||
+         host==='imkaptain.github.io'||
+         (host==='raw.githubusercontent.com'&&/^\/imkaptain\//i.test(url.pathname)))
+        forbidden.push(r.url());
+    });
     await page.goto(base,{waitUntil:'domcontentloaded',timeout:60000});
     await page.waitForFunction(()=>window.MaCollectionStudio?.open&&window.collectionData?.length>=16&&window.MA_ART_LOGOS?.length===976,
       null,{timeout:60000});
