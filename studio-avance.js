@@ -1599,7 +1599,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       dragging=null;
     });
     root.addEventListener('dragend',()=>{dragging=null;});
-    const searchSelector='[data-search],[data-global-search],[data-workshop-search],[data-library-search],[data-art-search]';
+    const searchSelector='[data-search],[data-global-search],[data-workshop-search],[data-library-search],[data-logo-search],[data-art-search]';
     root.addEventListener('change',e=>{if(!e.target.matches(searchSelector))change(e);});
     root.addEventListener('input',e=>{if(!e.isComposing&&e.target.matches(searchSelector))change(e);});
     root.addEventListener('compositionend',e=>{if(e.target.matches(searchSelector))change(e);});
