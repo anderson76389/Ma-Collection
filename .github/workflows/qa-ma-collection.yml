@@ -57,6 +57,7 @@ jobs:
           node --test tests/studio-avance.test.mjs tests/studio-collection-import.test.mjs tests/profile-editor.test.mjs tests/profile-history.test.mjs tests/customize-fr.test.mjs
           node --test tests/kaptain-url-security.test.mjs
           node --test tests/accueil-posters.test.mjs
+          node --test tests/ma-art-logos.test.mjs
           node --test tests/ma-art-cdn-live.test.mjs
           node --test tests/studio-recovery.test.mjs
           node --test tests/catalogue-provenance.test.mjs tests/triage-catalogue-dependencies.test.mjs
@@ -86,6 +87,8 @@ jobs:
           node --check profile-editor-core.mjs
           node --check site-tools.js
           node --check accueil-mosaique.js
+          node --check collections/ma-art-logos.js
+          node --check studio-ma-art-logos.mjs
           node --check collections/accueil-ma-art.js
           node --check profile-suite-model.mjs
           node --check profile-picker-core.mjs
@@ -99,6 +102,7 @@ jobs:
           node .github/scripts/qa-controls.mjs
           node .github/scripts/qa-accueil-cinematique.mjs
           node .github/scripts/qa-studio-avance.mjs
+          node .github/scripts/qa-ma-art-logos-mobile.mjs
           node .github/scripts/qa-profile-suite.mjs
           node .github/scripts/qa-profile-editor.mjs
           node .github/scripts/qa-kaptain-disparition.mjs
@@ -115,5 +119,6 @@ jobs:
             /tmp/ma-collection-profile-picker.png
             /tmp/ma-collection-accueil-desktop.png
             /tmp/ma-collection-accueil-mobile.png
+            /tmp/ma-art-logos-mobile.png
           if-no-files-found: ignore
           retention-days: 14
