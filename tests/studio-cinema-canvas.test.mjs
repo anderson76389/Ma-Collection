@@ -67,3 +67,24 @@ test('Rendu limité par rangée même avec un très grand catalogue',()=>{
     'Le canvas charge les 8 premières cartes de la grande rangée et une autre rangée');
   assert(html.includes('Afficher les 792 autres dossiers'));
 });
+
+
+test('Le Studio affiche les logos et affiches archivés sur Ma-Art, même si hideTitle est activé',()=>{
+  const draft=fixture(),folder=draft.sections[0].folders[0];
+  folder.hideTitle=true;
+  folder.artwork.coverImageUrl='https://ma-art.mailpromahe.workers.dev/media/imkaptain.github.io/aabbccddeeff001122334455.webp';
+  folder.artwork.titleLogoUrl='https://ma-art-images-static.mailpromahe.workers.dev/media/raw.githubusercontent.com/112233445566778899001122.png';
+  const rendered=renderStudioCanvas(draft);
+  assert(rendered.includes('src="'+folder.artwork.coverImageUrl+'"'));
+  assert(rendered.includes('class="mc-cinema-art-logo"'));
+  assert(rendered.includes('src="'+folder.artwork.titleLogoUrl+'"'));
+  assert(rendered.includes('mc-cinema-art-title'));
+  assert.deepEqual(draft.sections[0].folders[0],folder);
+});
+test('Le Studio refuse un logo issu du vrai domaine Kaptain',()=>{
+  const draft=fixture();
+  draft.sections[0].folders[0].artwork.titleLogoUrl='https://imkaptain.github.io/TitleLogos/ACTION.png';
+  const rendered=renderStudioCanvas(draft);
+  assert(!rendered.includes('src="https://imkaptain.github.io/'));
+  assert(!rendered.includes('class="mc-cinema-art-logo"'));
+});

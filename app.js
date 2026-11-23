@@ -59,7 +59,15 @@ function sortLabel(raw) {
 }
 
 // Nuvio TV/Mobile emulator (Preview) state
-let previewDevice = (() => { try { return localStorage.getItem('ma_collection_preview_device') || 'tv'; } catch (e) { return 'tv'; } })();
+let previewDevice = (() => {
+  // Utiliser automatiquement la disposition mobile sur un téléphone réel.
+  // Respecter un choix TV / téléphone enregistré explicitement.
+  let saved = '';
+  try { saved = localStorage.getItem('ma_collection_preview_device') || ''; }
+  catch (e) { /* mode privé */ }
+  if (saved === 'tv' || saved === 'mobile') return saved;
+  return window.matchMedia('(max-width: 800px)').matches ? 'mobile' : 'tv';
+})();
 // Whether the mobile-only "more options" panel (device toggle / reorder /
 // editor view / layout / help) is expanded above the slim phone bottom bar.
 let previewMoreOpen = false;
@@ -1491,12 +1499,11 @@ function renderFolderGrid() {
         : `<img data-gif="${hoverGif}" class="card-gif-img" alt="" aria-hidden="true">`
       : '';
 
-    let logoOverlayHtml = '';
-    if (!folder.hideTitle || !baseImg) {
-      logoOverlayHtml = folder.titleLogoUrl
-        ? `<div class="card-logo-overlay"><img src="${folder.titleLogoUrl}" alt="${folder.title}" class="card-logo-img" loading="lazy" decoding="async"></div>`
-        : `<h4 class="card-text-title">${highlightMatch(folder.title, query)}</h4>`;
-    }
+    // Le logo n'est pas le titre textuel : hideTitle masque uniquement la
+    // légende en texte. Les logos d'origine restent affichés sur chaque carte.
+    const logoOverlayHtml = folder.titleLogoUrl
+      ? `<div class="card-logo-overlay"><img src="${escapeHtml(folder.titleLogoUrl)}" alt="${escapeHtml(folder.title)}" class="card-logo-img" loading="lazy" decoding="async"></div>`
+      : `<h4 class="card-text-title">${highlightMatch(folder.title, query)}</h4>`;
 
     // Badge colour class based on source ratio
     const badgeRatio = sourceStats.total > 0 ? sourceStats.active / sourceStats.total : 0;
@@ -1958,14 +1965,15 @@ function setPreviewHero(folder, category) {
   const stats = getFolderSourceCountStats(folder);
 
   bg.style.backgroundImage = `url('${folder.heroBackdropUrl || folder.coverImageUrl || ''}')`;
-  // Title logos belong to the hero only (never the cards). Sits top-left.
-  // hideTitle folders fall back to their cover art, which already carries the
-  // name — drawing the logo over it reads as a duplicated, faded watermark.
-  if (folder.hideTitle && !folder.heroBackdropUrl) {
-    logo.removeAttribute('src');
-    logo.style.display = 'none';
-    title.style.display = 'none';
-  } else if (folder.titleLogoUrl) {
+  // Le logo doit rester visible même quand hideTitle masque les titres texte.
+  // Une image défectueuse ne doit jamais laisser le bandeau sans titre.
+  if (folder.titleLogoUrl) {
+    logo.onerror = () => {
+      logo.style.display = 'none';
+      title.textContent = folder.title;
+      title.style.display = '';
+    };
+    logo.onload = () => { logo.style.display = ''; title.style.display = 'none'; };
     logo.src = folder.titleLogoUrl;
     logo.style.display = '';
     title.style.display = 'none';
@@ -2146,9 +2154,13 @@ function buildNuvioCard(folder, category, catIdx) {
   card.__category = category;
 
   const imgSrc = localGenreCovers.get(folder.coverImageUrl) || folder.coverImageUrl || '';
-  // Title logos never overlay the cards — they only appear in the hero.
-  // Fall back to a text title only when the card has no artwork at all.
-  const titleFallback = imgSrc ? '' : `<span class="nv-card-title">${folder.title}</span>`;
+  // Logos archivés Ma-Art : visibles sur les cartes aussi, pas seulement dans
+  // le bandeau. Le titre sert de secours si une image est indisponible.
+  const hasLogo = !!folder.titleLogoUrl;
+  const logoMarkup = hasLogo
+    ? `<img class="nv-card-logo" src="${escapeHtml(folder.titleLogoUrl)}" alt="" loading="lazy" decoding="async">`
+    : '';
+  const titleFallback = `<span class="nv-card-title"${hasLogo ? ' hidden' : ''}>${escapeHtml(folder.title)}</span>`;
   // Focus GIF: plays on hover OR keyboard focus, mirroring the editor cards.
   // The src is attached lazily (on first hover/focus) so we don't fire off
   // hundreds of GIF requests when the preview first opens.
@@ -2180,10 +2192,16 @@ function buildNuvioCard(folder, category, catIdx) {
     ${gifHtml}
     <div class="nv-card-gradient"></div>
     <span class="nv-card-meta" title="${isOn ? stats.active + ' active source' + (stats.active !== 1 ? 's' : '') : ''}">${isOn ? stats.active : ''}</span>
-    ${genreCaption(folder) || titleFallback}
+    ${logoMarkup}
+    ${hasLogo ? titleFallback : (genreCaption(folder) || titleFallback)}
     ${actionsHtml}
   `;
 
+  card.querySelector('.nv-card-logo')?.addEventListener('error', event => {
+    event.currentTarget.hidden = true;
+    const fallback = card.querySelector('.nv-card-title');
+    if (fallback) fallback.hidden = false;
+  });
   card.addEventListener('mouseenter', () => { attachCardGif(card); setCinematicWallpaper(folder); focusPreviewElement(card); });
   card.addEventListener('mouseleave', () => {
     const video = card.querySelector('video.nv-card-gif');
@@ -2503,13 +2521,10 @@ function openPreviewDetail(folder, category) {
       </div>`).join('');
   }
 
-  // Same rule as the hero and the grid cards: when the art already says the
-  // name and there's no separate backdrop, don't draw it a second time.
-  const logoHtml = (folder.hideTitle && !folder.heroBackdropUrl)
-    ? ''
-    : folder.titleLogoUrl
-      ? `<img class="nv-detail-logo" src="${folder.titleLogoUrl}" alt="${folder.title}">`
-      : `<h2 class="nv-detail-title">${folder.title}</h2>`;
+  // Détail : un logo reste un logo même lorsque le titre texte est masqué.
+  const logoHtml = folder.titleLogoUrl
+    ? `<img class="nv-detail-logo" src="${escapeHtml(folder.titleLogoUrl)}" alt="${escapeHtml(folder.title)}">`
+    : `<h2 class="nv-detail-title">${escapeHtml(folder.title)}</h2>`;
 
   const generatedAt = window.PREVIEW_POSTERS && window.PREVIEW_POSTERS._generatedAt;
   const hasAnyPosters = window.PREVIEW_POSTERS && demoSources.some(s => {

@@ -183,7 +183,8 @@ export function previewLayout(draft, originals = {}, maxPerSection = 24) {
         id: String(f.id || ''),
         label: String(f.label || ''),
         sourceCount: f.selectedKeys.length,
-        coverImageUrl: String(f.artwork?.coverImageUrl || originals?.[f.id]?.coverImageUrl || '')
+        coverImageUrl: String(f.artwork?.coverImageUrl || originals?.[f.id]?.coverImageUrl || ''),
+        titleLogoUrl: String(f.artwork?.titleLogoUrl || originals?.[f.id]?.titleLogoUrl || '')
       }))
     };
   }).filter(s => s.total > 0);

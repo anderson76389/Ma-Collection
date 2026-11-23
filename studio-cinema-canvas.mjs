@@ -2,6 +2,7 @@
  * Organisateur visuel original Ma-Collection. Aucun asset/code ni API Kaptain.
  * Le canvas travaille sur le brouillon Studio ; il ne touche jamais au compte.
  */
+import {isKaptainUrl} from './scripts/kaptain-url-policy.mjs';
 const escapeHtml=value=>String(value??'').replace(/[&<>"']/g,char=>({
   '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
 }[char]));
@@ -9,7 +10,7 @@ const attrs=value=>escapeHtml(value);
 const isUsableImage=url=>typeof url==='string'&&url.length<=8192&&
   (/^https:\/\/[^/\s]+\/[^<>]*$/i.test(url)||/^data:image\/svg\+xml;base64,[\w+/=]+$/.test(url)||
    /^(?:\.?\/)?assets\/[\w.\/-]+$/i.test(url))&&
-  !/(?:kaptain\.stream|imkaptain|kaptainscollection)/i.test(url);
+  !isKaptainUrl(url);
 
 export function canvasRows(draft,{activeOnly=false,expanded=[],limit=8}={}){
   const opened=new Set(expanded);
@@ -68,11 +69,13 @@ export function renderStudioCanvas(draft,{activeOnly=false,expanded=[],resolveIm
       const resolved=resolveImage(raw);
       const cover=isUsableImage(resolved)?'<img src="'+attrs(resolved)+'" alt="" loading="lazy" decoding="async">':
         '<span class="mc-cinema-fallback" aria-hidden="true">▣</span>';
+      const logoUrl=String(folder.artwork?.titleLogoUrl||'');
+      const logo=isUsableImage(logoUrl)?'<img class="mc-cinema-art-logo" src="'+attrs(logoUrl)+'" alt="" loading="lazy" decoding="async">':'';
       const sourceCount=Array.isArray(folder.selectedKeys)?folder.selectedKeys.length:0;
       return '<article class="mc-cinema-tile '+(active?'is-active':'is-inactive')+'" data-folder-id="'+attrs(folder.id)+'">'+
         '<button type="button" class="mc-cinema-art" data-action="canvas-art" data-section="'+attrs(row.id)+
           '" data-id="'+attrs(folder.id)+'" aria-label="Personnaliser l’affiche de '+attrs(folder.label)+'">'+
-          cover+'<span class="mc-cinema-art-scrim"></span><span class="mc-cinema-art-title">'+escapeHtml(folder.label)+'</span>'+
+          cover+'<span class="mc-cinema-art-scrim"></span>'+logo+'<span class="mc-cinema-art-title">'+escapeHtml(folder.label)+'</span>'+
           '</button>'+
         '<div class="mc-cinema-tile-foot"><span title="'+sourceCount+' sources sélectionnées">'+sourceCount+' sources</span>'+
         '<label title="Activer le dossier"><input type="checkbox" data-canvas-folder-toggle="'+attrs(folder.id)+
