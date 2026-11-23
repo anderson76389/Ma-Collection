@@ -149,3 +149,17 @@
     transform:none!important;
   }
 }
+
+/* En cas d'échec de téléchargement, le nom du dossier reste visible. */
+.nv-card .nv-card-title.nv-card-caption.is-fallback,
+.folder-card .card-text-title.nv-card-caption.is-fallback{
+  opacity:1;
+  visibility:visible;
+  transform:none;
+}
+:is(.nv-card,.folder-card).is-art-missing{
+  background:linear-gradient(135deg,#22183f,#0d1020);
+}
+:is(.nv-card,.folder-card).is-art-missing :is(.nv-card-img,.card-cover-img){
+  visibility:hidden;
+}
