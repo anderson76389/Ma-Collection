@@ -1487,6 +1487,7 @@ function renderFolderGrid() {
 
     card.className = `folder-card ${isSelected ? 'selected' : ''} ${showArrows ? 'reorder-active' : ''} ${isSpotlight ? 'is-spotlight' : ''}`;
     card.dataset.folderKey = folderKey;
+    card.setAttribute('aria-label', folder.title);
 
     const shape = folder.tileShape || "LANDSCAPE";
     card.classList.add(`aspect-${shape.toLowerCase()}`);
@@ -1553,7 +1554,7 @@ function renderFolderGrid() {
 
       ${controlsHeader}
 
-      ${genreCaption(folder) || logoOverlayHtml}
+      ${baseImg ? `<h4 class="card-text-title nv-card-caption">${escapeHtml(folder.title)}</h4>` : (genreCaption(folder) || logoOverlayHtml)}
     `;
 
     // Hover → update backdrop
@@ -2169,17 +2170,18 @@ function buildNuvioCard(folder, category, catIdx) {
   card.className = `nv-card nv-focusable shape-${shape}${isFeatured ? ' is-featured' : ''}${isOn ? '' : ' nv-off'}`;
   card.tabIndex = -1;
   card.dataset.folderKey = folderKey;
+  card.setAttribute('aria-label', folder.title);
   card.__folder = folder;       // used by the focus engine to drive the hero
   card.__category = category;
 
   const imgSrc = localGenreCovers.get(folder.coverImageUrl) || folder.coverImageUrl || '';
   // Logos archivés Ma-Art : visibles sur les cartes aussi, pas seulement dans
   // le bandeau. Le titre sert de secours si une image est indisponible.
-  const hasLogo = !!folder.titleLogoUrl;
+  const hasLogo = !imgSrc && !!folder.titleLogoUrl;
   const logoMarkup = hasLogo
     ? `<img class="nv-card-logo" src="${escapeHtml(folder.titleLogoUrl)}" alt="" loading="lazy" decoding="async">`
     : '';
-  const titleFallback = `<span class="nv-card-title"${hasLogo ? ' hidden' : ''}>${escapeHtml(folder.title)}</span>`;
+  const titleFallback = `<span class="nv-card-title${imgSrc ? ' nv-card-caption' : ''}"${hasLogo ? ' hidden' : ''}>${escapeHtml(folder.title)}</span>`;
   // Focus GIF: plays on hover OR keyboard focus, mirroring the editor cards.
   // The src is attached lazily (on first hover/focus) so we don't fire off
   // hundreds of GIF requests when the preview first opens.
@@ -2212,7 +2214,7 @@ function buildNuvioCard(folder, category, catIdx) {
     <div class="nv-card-gradient"></div>
     <span class="nv-card-meta" title="${isOn ? stats.active + ' active source' + (stats.active !== 1 ? 's' : '') : ''}">${isOn ? stats.active : ''}</span>
     ${logoMarkup}
-    ${hasLogo ? titleFallback : (genreCaption(folder) || titleFallback)}
+    ${imgSrc ? titleFallback : (hasLogo ? titleFallback : (genreCaption(folder) || titleFallback))}
     ${actionsHtml}
   `;
 
