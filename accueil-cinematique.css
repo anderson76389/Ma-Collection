@@ -91,7 +91,7 @@ body:has(#title-screen-overlay.active) #account-chrome{display:none!important}
 .mc-home-overlay .mc-home .home-express{
   min-width:230px;width:auto;max-width:calc(100% - 28px);
   height:42px;min-height:42px;display:inline-flex;align-items:center;justify-content:center;
-  gap:10px;margin:0 auto;border:1px solid rgba(125,255,209,.25);
+  gap:10px;margin:0 auto;border:1px solid rgba(196,160,255,.25);
   border-radius:999px;padding:0 25px;background:var(--home-mint);
   color:var(--home-ink);font-family:'Outfit','Inter',sans-serif;
   font-size:.86rem;font-weight:800;letter-spacing:-.005em;
@@ -99,10 +99,10 @@ body:has(#title-screen-overlay.active) #account-chrome{display:none!important}
   transition:background .15s ease,transform .15s ease,box-shadow .15s ease;
 }
 .mc-home-overlay .mc-home .home-express:hover{
-  background:#41f1bb;transform:translateY(-2px);
+  background:#A77DFF;transform:translateY(-2px);
   box-shadow:0 11px 30px rgba(134,86,244,.26);
 }
-.mc-home-overlay .mc-home .home-express:active{transform:translateY(0);background:#00c88d}
+.mc-home-overlay .mc-home .home-express:active{transform:translateY(0);background:#7442E5}
 .mc-home-overlay .home-express .home-express-icon{font-size:1.03rem}
 .mc-home-overlay .mc-home .home-express-hint{
   margin:11px 0 24px;font-size:.74rem;color:#949dab;
@@ -540,11 +540,11 @@ html[data-theme="high-contrast"] .mc-home-overlay .suite-wall .mc-wall-plane{dis
   outline:2px solid #8656F4;outline-offset:3px;
 }
 .mc-home-overlay .mc-home .home-express{
-  background:#8656F4;color:#031c14;
+  background:#8656F4;color:#ffffff;
   box-shadow:0 8px 27px rgba(134,86,244,.15),inset 0 1px 0 rgba(255,255,255,.35);
 }
 .mc-home-overlay .mc-home .home-express:hover{
-  background:#33f0b5;box-shadow:0 10px 30px rgba(134,86,244,.24);
+  background:#A77DFF;box-shadow:0 10px 30px rgba(134,86,244,.24);
 }
 .mc-home-overlay .mc-home-intro .title-hero-logo-img{
   filter:grayscale(1) sepia(.85) saturate(3) hue-rotate(95deg) brightness(1.15)
