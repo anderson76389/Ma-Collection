@@ -647,6 +647,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       '<div class="mc-studio-gallery-pips">'+choices.map((item,i)=>'<button type="button" data-action="art-select" data-id="'+i+
       '" aria-label="Choisir '+esc(item.label)+'" class="'+(i===artLookIndex?'active':'')+'"></button>').join('')+'</div>'+
       '<div class="mc-studio-gallery-actions">'+
+      button('🖼️ Explorer toutes les images','art-open-library')+
       button('🔗 Ajouter mon image','art-add')+
       (current?.style?button('Appliquer ce style à la rangée','art-row-style'):'')+
       button('Utiliser cette affiche','art-use',''+(!current?'disabled':''))+
@@ -1275,6 +1276,14 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     else if(a==='section'){pickSection(id);query='';draw();}
     else if(a==='folder'){selectedFolder=id;tab='affiches';draw();}
     else if(a==='goto-art'){tab='affiches';draw();}
+    else if(a==='art-open-library'){
+      libraryQuery=folder()?.label||'';
+      libraryKind='cover';
+      libraryPage=0;
+      libraryFilter='all';
+      tab='bibliotheque';
+      draw();
+    }
     else if(a==='art-folder'){
       if(section()?.folders.some(f=>f.id===id)){selectedFolder=id;artLookIndex=0;draw();}
     }
