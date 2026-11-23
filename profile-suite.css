@@ -6,7 +6,7 @@
 #mc-profile-suite{
  --ps-bg:#090b0f;--ps-surface:#11141c;--ps-raised:#151924;
  --ps-border:rgba(177,193,213,.105);--ps-sub:#969ca9;--ps-fg:#f7f8fb;
- --ps-green:#8656F4;--ps-green-light:#C29FFF;--ps-green-dark:#032a21;
+ --ps-green:#8656F4;--ps-green-light:#C29FFF;--ps-green-dark:#ffffff;
  position:fixed;inset:0;z-index:99990;background:var(--ps-bg);color:var(--ps-fg);
  font:400 14px/1.48 system-ui,-apple-system,"Segoe UI",sans-serif;
  text-align:left;isolation:isolate;-webkit-font-smoothing:antialiased
@@ -65,7 +65,7 @@
 #mc-profile-suite .mcps-primary{
  display:inline-flex;align-items:center;justify-content:center;gap:6px;
  min-height:37px;padding:9px 17px;border:1px solid #8656F4;
- border-radius:9px;background:var(--ps-green);color:#02110d!important;
+ border-radius:9px;background:var(--ps-green);color:#ffffff!important;
  font-weight:790!important;font-size:.79rem;box-shadow:0 4px 20px rgba(134,86,244,.06);
  transition:filter .17s ease,transform .17s ease
 }
@@ -80,7 +80,7 @@
 #mc-profile-suite .mcps-small:hover:not(:disabled),#mc-profile-suite .mcps-tiny:hover:not(:disabled){
  background:#262c36;border-color:#52665f
 }
-#mc-profile-suite .mcps-outline{background:#071d19;border-color:#006e54;color:#C29FFF}
+#mc-profile-suite .mcps-outline{background:#1D1438;border-color:#633BCC;color:#C29FFF}
 #mc-profile-suite .mcps-tiny{min-width:30px;min-height:29px;padding:4px 8px}
 #mc-profile-suite .mcps-card{
  background:var(--ps-surface);border:1px solid var(--ps-border);
@@ -130,7 +130,7 @@
  border-color:#279078;background:#171f21
 }
 #mc-profile-suite .mcps-choice.chosen,#mc-profile-suite .mcps-choice[aria-pressed=true]{
- background:#081e1a;border-color:#00a77e;box-shadow:inset 0 0 0 1px rgba(134,86,244,.06)
+ background:#1D1438;border-color:#8252F1;box-shadow:inset 0 0 0 1px rgba(134,86,244,.06)
 }
 #mc-profile-suite .mcps-choice strong{font-size:.85rem;font-weight:800;line-height:1.3}
 #mc-profile-suite .mcps-choice small{color:var(--ps-sub);font-size:.74rem;font-weight:400;line-height:1.5}
@@ -185,7 +185,7 @@
  background:var(--ps-surface);min-width:0;text-align:left}
 #mc-profile-suite .mcps-profile-option.selected{border-color:#168c70;background:#101d1b}
 #mc-profile-suite .mcps-profile-mark{width:42px;height:42px;border-radius:50%;
- display:grid;place-items:center;background:linear-gradient(140deg,#155e53,#00b9a4);
+ display:grid;place-items:center;background:linear-gradient(140deg,#155e53,#8656F4);
  color:white;font-size:1.05rem;font-weight:900;flex:none}
 #mc-profile-suite .mcps-profile-option-copy{display:flex;min-width:0;flex:1;flex-direction:column;gap:4px}
 #mc-profile-suite .mcps-profile-option-copy strong{font-size:.88rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -439,7 +439,7 @@
  transform:translate(26%,-48%) scale(.88)}
 #mc-profile-suite .mcps-art-peek img{display:block;width:100%;height:100%;object-fit:cover}
 #mc-profile-suite .mcps-art-peek small{position:absolute;top:8px;right:8px;
- max-width:80%;font-size:.68rem;padding:4px 8px;background:#00271f;color:var(--ps-green-light);
+ max-width:80%;font-size:.68rem;padding:4px 8px;background:#1D1438;color:var(--ps-green-light);
  border-radius:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 @media(max-width:700px){
  #mc-profile-suite .mcps-art-peek{display:none}
@@ -559,7 +559,7 @@
 }
 #mc-profile-suite .mcps-picker-card-select span{font-size:.95rem;line-height:1}
 #mc-profile-suite .mcps-picker-card:hover .mcps-picker-card-select{
-  color:#073226;background:#8656F4;border-color:#8656F4;
+  color:#1D1438;background:#8656F4;border-color:#8656F4;
 }
 #mc-profile-suite .mcps-picker-status{
   color:#a8b3bd;font-size:.75rem;padding:10px 4px;margin:0;
