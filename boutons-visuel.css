@@ -1,0 +1,648 @@
+/*
+ * MA-COLLECTION — finition des boutons et de l'interface · 23 novembre 2026
+ * Une seule couche finale pour résoudre les règles contradictoires des feuilles
+ * précédentes. CSS local, aucune ressource/API ni logique applicative externe.
+ */
+:root {
+  --mc-ui-green: #00e7a5;
+  --mc-ui-green-hover: #39edba;
+  --mc-ui-green-dark: #051d16;
+  --mc-ui-ring: rgba(0,231,165,.44);
+  --mc-ui-line: rgba(209,221,230,.14);
+  --mc-ui-line-hover: rgba(0,231,165,.42);
+  --mc-ui-surface: #151a21;
+  --mc-ui-surface-hover: #1b252b;
+  --mc-ui-muted: #aab5c1;
+  --mc-ui-ease: cubic-bezier(.2,.75,.25,1);
+}
+html[data-theme="light"] {
+  --mc-ui-green:#007f5b;
+  --mc-ui-green-hover:#006c4c;
+  --mc-ui-green-dark:#fff;
+  --mc-ui-ring:rgba(0,127,91,.38);
+  --mc-ui-line:rgba(21,41,42,.17);
+  --mc-ui-line-hover:rgba(0,127,91,.45);
+  --mc-ui-surface:#eef4f1;
+  --mc-ui-surface-hover:#e4eee8;
+  --mc-ui-muted:#4e6664;
+}
+html[data-theme="high-contrast"] {
+  --mc-ui-green:#76ffcd;
+  --mc-ui-green-hover:#a0ffdd;
+  --mc-ui-green-dark:#071710;
+  --mc-ui-ring:rgba(118,255,205,.75);
+  --mc-ui-line:rgba(255,255,255,.42);
+  --mc-ui-line-hover:rgba(118,255,205,.82);
+}
+/* État clavier identique : accueil, éditeurs, Studio, compte et outils. */
+:is(.mc-home-overlay,#mc-studio-root,#mc-profile-suite,#mc-tools,
+    #simple-editor,#app,#account-modal) :is(button,[role="button"],summary):focus-visible {
+  outline:2px solid var(--mc-ui-green) !important;
+  outline-offset:3px;
+}
+:is(.mc-home-overlay,#mc-studio-root,#mc-profile-suite,#mc-tools)
+  button:disabled {
+  cursor:not-allowed;
+  filter:saturate(.65);
+}
+:is(.mc-home-overlay,#mc-studio-root,#mc-profile-suite,#mc-tools) button {
+  -webkit-tap-highlight-color:transparent;
+  touch-action:manipulation;
+}
+/* En-tête : les anciennes feuilles se contredisaient (40px / 56px). */
+.mc-home-overlay .home-dock.mc-cockpit {
+  box-sizing:border-box;
+  height:56px;
+  min-height:56px;
+  max-height:56px;
+  padding:0 clamp(12px,1.8vw,28px);
+  background:rgba(9,13,20,.96);
+  border-bottom:1px solid var(--mc-ui-line);
+  box-shadow:0 8px 24px rgba(0,0,0,.18);
+}
+.mc-home-overlay .home-dock.mc-cockpit .mc-cockpit-branch button {
+  height:36px;
+  min-height:36px;
+  padding:0 13px;
+  font:680 .78rem/1.1 'Inter',sans-serif;
+  letter-spacing:0;
+  text-transform:none;
+  border-radius:10px;
+  border:1px solid transparent;
+  color:#c1ccd4;
+  box-shadow:none;
+  transition:background .18s var(--mc-ui-ease),border-color .18s var(--mc-ui-ease),color .18s ease;
+}
+.mc-home-overlay .home-dock.mc-cockpit .mc-cockpit-branch button:hover,
+.mc-home-overlay .home-dock.mc-cockpit .mc-cockpit-branch button:focus-visible {
+  background:rgba(0,231,165,.07) !important;
+  border-color:var(--mc-ui-line-hover);
+  color:#f4fffa;
+}
+.mc-home-overlay .home-dock.mc-cockpit .mc-cockpit-branch
+  [data-home-target="title-screen-start"] {
+  border:1px solid rgba(0,231,165,.23);
+  border-bottom:1px solid rgba(0,231,165,.23);
+  background:rgba(0,231,165,.09) !important;
+  color:#d6fff0;
+  box-shadow:none;
+}
+.mc-home-overlay .home-dock.mc-cockpit #suite-menu,
+.mc-home-overlay .home-dock.mc-cockpit #home-tools-menu.mc-cockpit-hub,
+.mc-home-overlay .home-dock.mc-cockpit .mc-header-shortcut,
+.mc-home-overlay .home-dock.mc-cockpit #title-theme-toggle {
+  box-sizing:border-box;
+  min-height:36px;
+  height:36px;
+  border:1px solid var(--mc-ui-line);
+  border-radius:11px;
+  background:rgba(255,255,255,.035);
+  color:#ecf2f5;
+  box-shadow:none;
+  transition:border-color .18s ease,background .18s ease,color .18s ease,transform .18s var(--mc-ui-ease);
+}
+.mc-home-overlay .home-dock.mc-cockpit #suite-menu {
+  width:38px;min-width:38px;padding:0;
+}
+.mc-home-overlay .home-dock.mc-cockpit #home-tools-menu.mc-cockpit-hub {
+  min-height:36px;height:36px;padding:0 13px 0 7px;gap:8px;
+  font:760 .76rem/1 'Inter',sans-serif;letter-spacing:0;text-transform:none;
+}
+.mc-home-overlay .home-dock.mc-cockpit #title-theme-toggle {
+  width:36px;min-width:36px;padding:8px;
+}
+.mc-home-overlay .home-dock.mc-cockpit :is(#suite-menu,#home-tools-menu,.mc-header-shortcut,#title-theme-toggle):hover {
+  border-color:var(--mc-ui-line-hover);
+  background:rgba(0,231,165,.10);
+  color:#fff;
+}
+/* Recherche : mêmes dimensions que le reste de l'accueil. */
+.mc-home-overlay .mc-home .home-search {
+  display:flex;
+  box-sizing:border-box;
+  align-items:center;
+  width:min(100%,560px);
+  min-height:50px;
+  height:50px;
+  border:1px solid var(--mc-ui-line);
+  border-radius:13px;
+  background:rgba(16,21,27,.89);
+  box-shadow:0 9px 30px rgba(0,0,0,.21);
+  color:#d5dfe5;
+  text-align:left;
+  font:530 .81rem/1.35 'Inter',sans-serif;
+}
+.mc-home-overlay .mc-home .home-search:hover {
+  transform:none;
+  background:rgba(24,35,40,.96);
+  border-color:var(--mc-ui-line-hover);
+  box-shadow:0 0 0 3px rgba(0,231,165,.055),0 9px 30px rgba(0,0,0,.21);
+}
+.mc-home-overlay .home-search kbd {border-radius:6px}
+/* CTA : un seul relief, accent menthe et tailles lisibles. */
+.mc-home-overlay .mc-home .home-express {
+  box-sizing:border-box;
+  width:auto;
+  min-width:min(272px,100%);
+  max-width:100%;
+  height:48px;
+  min-height:48px;
+  padding:0 24px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  border:1px solid rgba(154,255,224,.27);
+  border-radius:12px;
+  background:var(--mc-ui-green);
+  color:var(--mc-ui-green-dark);
+  font:800 .88rem/1.1 'Outfit','Inter',sans-serif;
+  letter-spacing:0;
+  box-shadow:0 8px 24px rgba(0,231,165,.17),inset 0 1px 0 rgba(255,255,255,.30);
+  transition:transform .2s var(--mc-ui-ease),background .2s ease,box-shadow .2s ease;
+}
+.mc-home-overlay .mc-home .home-express:hover {
+  transform:translateY(-2px);
+  background:var(--mc-ui-green-hover);
+  box-shadow:0 13px 32px rgba(0,231,165,.21),inset 0 1px 0 rgba(255,255,255,.32);
+}
+.mc-home-overlay .mc-home .home-express:active {
+  transform:translateY(0) scale(.99);
+  box-shadow:0 4px 13px rgba(0,231,165,.1);
+}
+.mc-home-overlay .mc-home .home-express :is(svg,span) {flex-shrink:0}
+/* Actions existantes : vrai groupe segmenté, sans bordures à géométrie variable. */
+.mc-home-overlay .mc-home .home-return {
+  box-sizing:border-box;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:min(100%,500px);
+  min-height:48px;
+  height:auto;
+  gap:0;
+  margin-inline:auto;
+  padding:4px;
+  border:1px solid var(--mc-ui-line);
+  border-radius:12px;
+  background:rgba(15,20,26,.91);
+  box-shadow:0 8px 22px rgba(0,0,0,.17);
+  overflow:hidden;
+}
+.mc-home-overlay .mc-home .home-return>span {
+  box-sizing:border-box;
+  flex:0 0 auto;
+  padding:0 12px;
+  border-right:1px solid var(--mc-ui-line);
+  color:var(--mc-ui-muted);
+  font-size:.74rem;
+  white-space:nowrap;
+}
+.mc-home-overlay .mc-home .home-return button,
+.mc-home-overlay .mc-home .home-return button+button {
+  box-sizing:border-box;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:7px;
+  flex:1 1 0;
+  min-width:0;
+  max-width:none;
+  min-height:38px;
+  height:38px;
+  padding:0 11px;
+  border:1px solid transparent !important;
+  border-radius:8px !important;
+  background:transparent !important;
+  color:#d3dce4;
+  box-shadow:none !important;
+  font:640 .76rem/1.15 'Inter',sans-serif;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  transition:color .18s ease,background .18s ease;
+}
+.mc-home-overlay .mc-home .home-return button:hover {
+  background:rgba(0,231,165,.10) !important;
+  color:#f3fffa !important;
+}
+.mc-home-overlay .mc-home .home-return button .mc-return-icon{color:#90efcf}
+/* Les cartes sont des boutons : mêmes marges, alignements et finitions. */
+.mc-home-overlay .mc-home .portfolio-card {
+  box-sizing:border-box;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:flex-start;
+  gap:0;
+  min-width:0;
+  min-height:192px;
+  padding:21px 22px 19px;
+  border:1px solid var(--mc-ui-line);
+  border-radius:16px;
+  background:linear-gradient(155deg,rgba(29,34,42,.93),rgba(16,21,27,.96));
+  box-shadow:0 10px 26px rgba(0,0,0,.13);
+  color:#f2f6fa;
+  text-align:left;
+  cursor:pointer;
+  transition:transform .22s var(--mc-ui-ease),border-color .2s ease,background .2s ease,box-shadow .2s ease;
+}
+.mc-home-overlay .mc-home .portfolio-card .port-card-icon {
+  flex:0 0 auto;
+  display:grid;
+  place-items:center;
+  width:43px;
+  height:43px;
+  margin:0 0 15px;
+  border:1px solid rgba(0,231,165,.17);
+  border-radius:12px;
+  background:rgba(0,231,165,.075);
+  color:#73f3cd;
+  font-size:1.25rem;
+  line-height:1;
+}
+.mc-home-overlay .mc-home .portfolio-card .port-card-title {
+  display:block;
+  margin:0 0 8px;
+  font:770 .98rem/1.28 'Outfit','Inter',sans-serif;
+  letter-spacing:-.016em;
+  color:#f5f9fc;
+}
+.mc-home-overlay .mc-home .portfolio-card .port-card-desc {
+  display:block;
+  margin:0 0 18px;
+  font:450 .80rem/1.56 'Inter',sans-serif;
+  color:#aebbc6;
+  text-wrap:pretty;
+}
+.mc-home-overlay .mc-home .portfolio-card .port-link {
+  display:inline-flex;
+  align-items:center;
+  margin-top:auto;
+  padding:0;
+  color:#78eac4;
+  font:720 .78rem/1.3 'Inter',sans-serif;
+  letter-spacing:0;
+  transition:color .18s ease,transform .18s var(--mc-ui-ease);
+}
+.mc-home-overlay .mc-home .portfolio-card:hover {
+  transform:translateY(-3px);
+  background:linear-gradient(155deg,rgba(33,46,46,.97),rgba(18,31,30,.99));
+  border-color:var(--mc-ui-line-hover);
+  box-shadow:0 16px 38px rgba(0,0,0,.24);
+}
+.mc-home-overlay .mc-home .portfolio-card:hover .port-link {
+  color:#b5ffe3;transform:translateX(2px);
+}
+.mc-home-overlay .mc-home-more-tools>summary {
+  min-height:62px;
+  padding:14px 18px;
+  border:1px solid var(--mc-ui-line);
+  border-radius:13px;
+  background:rgba(18,24,30,.9);
+  color:#f5f9fa;
+  transition:background .2s ease,border-color .2s ease;
+}
+.mc-home-overlay .mc-home-more-tools>summary:hover {
+  background:rgba(26,39,38,.95);
+  border-color:var(--mc-ui-line-hover);
+}
+.mc-home-overlay .mc-home-view-collection {
+  box-sizing:border-box;
+  min-height:42px;
+  padding:0 17px;
+  border:1px solid var(--mc-ui-line);
+  border-radius:11px;
+  background:rgba(14,22,28,.96);
+  color:#edf6f7;
+  font-size:.78rem;
+}
+.mc-home-overlay .mc-home-view-collection:hover {
+  background:rgba(25,43,38,.96);border-color:var(--mc-ui-line-hover);
+}
+/* Studio : boutons latéraux fixes, sans saute de largeur à la sélection. */
+#mc-studio-root .mc-studio-tabs button {
+  box-sizing:border-box;
+  display:flex;
+  align-items:center;
+  width:100%;
+  min-height:43px;
+  padding:10px 13px;
+  gap:11px;
+  border:1px solid transparent;
+  border-radius:10px;
+  background:transparent;
+  color:#b6c3ca;
+  text-align:left;
+  font:650 .82rem/1.25 'Inter',sans-serif;
+  transition:background .18s ease,border-color .18s ease,color .18s ease;
+}
+#mc-studio-root .mc-studio-tabs button:hover {
+  border-color:rgba(255,255,255,.09);
+  background:rgba(255,255,255,.047);
+  color:#f2fcf8;
+}
+#mc-studio-root .mc-studio-tabs button.active,
+#mc-studio-root .mc-studio-tabs button[aria-selected="true"] {
+  border:1px solid rgba(0,231,165,.25);
+  border-left:1px solid rgba(0,231,165,.25);
+  background:rgba(0,231,165,.11);
+  color:#e9fff6;
+  box-shadow:inset 3px 0 0 var(--mc-ui-green);
+}
+#mc-studio-root .mc-studio-tabs .mc-studio-nav-icon {
+  display:grid;place-items:center;
+  width:24px;height:24px;
+  flex:0 0 24px;
+  color:#6eeac2;
+}
+#mc-studio-root .mc-studio-cockpit .mc-studio-top-branch button,
+#mc-studio-root .mc-studio-cockpit .mc-studio-tools-hub,
+#mc-studio-root .mc-studio-cockpit .mc-studio-account-button,
+#mc-studio-root .mc-studio-cockpit .mc-studio-menu-button,
+#mc-studio-root .mc-studio-back,
+#mc-studio-root .mc-studio-context-actions button,
+#mc-studio-root .mc-studio-workspace .mc-studio-footer button {
+  box-sizing:border-box;
+  min-height:36px;
+  border-radius:10px;
+  border:1px solid var(--mc-ui-line);
+  font-family:'Inter',sans-serif;
+  font-size:.78rem;
+  font-weight:670;
+  line-height:1.2;
+  transition:background .18s ease,border-color .18s ease,color .18s ease,transform .18s var(--mc-ui-ease);
+}
+#mc-studio-root .mc-studio-cockpit .mc-studio-top-branch button {
+  height:36px;background:transparent;border-color:transparent;
+}
+#mc-studio-root .mc-studio-cockpit .mc-studio-tools-hub {
+  height:36px;padding:0 12px 0 8px;border-radius:11px;
+  background:rgba(255,255,255,.04);
+}
+#mc-studio-root .mc-studio-cockpit .mc-studio-menu-button {
+  width:38px;min-width:38px;height:38px;padding:0;
+}
+#mc-studio-root .mc-studio-cockpit .mc-studio-account-button {
+  height:36px;border-radius:11px;
+}
+#mc-studio-root .mc-studio-context-actions button:hover,
+#mc-studio-root .mc-studio-back:hover,
+#mc-studio-root .mc-studio-cockpit .mc-studio-top-branch button:hover,
+#mc-studio-root .mc-studio-cockpit .mc-studio-menu-button:hover {
+  border-color:var(--mc-ui-line-hover);
+  background:rgba(0,231,165,.085);
+  color:#f3fffa;
+}
+#mc-studio-root .mc-studio-context-actions button.mc-studio-close {
+  display:grid!important;
+  place-items:center;
+  flex:0 0 36px;
+  width:36px;min-width:36px;height:36px;
+  padding:0;
+  border-radius:10px;
+  font-size:1.18rem;
+}
+#mc-studio-root .suite-tiles button {
+  border:1px solid var(--mc-ui-line);
+  border-radius:15px;
+  background:var(--mc-ui-surface);
+  box-shadow:0 5px 15px rgba(0,0,0,.10);
+  transition:transform .2s var(--mc-ui-ease),border-color .2s ease,background .2s ease,box-shadow .2s ease;
+}
+#mc-studio-root .suite-tiles button:hover {
+  transform:translateY(-2px);
+  background:var(--mc-ui-surface-hover);
+  border-color:var(--mc-ui-line-hover);
+  box-shadow:0 12px 25px rgba(0,0,0,.17);
+}
+#mc-studio-root .suite-tiles button i {color:var(--mc-ui-green)}
+/* Profil plein écran : une famille de boutons, 3 niveaux de priorité. */
+#mc-profile-suite :is(.mcps-primary,.mcps-small,.mcps-outline,.mcps-tiny,
+  .mcps-close,.mcps-top button[data-suite-back]) {
+  box-sizing:border-box;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  min-height:38px;
+  border-radius:10px;
+  font-family:'Inter',sans-serif;
+  font-size:.79rem;
+  font-weight:700;
+  line-height:1.25;
+  letter-spacing:0;
+  transition:background .18s ease,transform .18s var(--mc-ui-ease),border-color .18s ease,color .18s ease;
+}
+#mc-profile-suite .mcps-primary {
+  min-height:40px;
+  padding:9px 17px;
+  border:1px solid rgba(180,255,226,.24);
+  background:var(--mc-ui-green);
+  color:var(--mc-ui-green-dark)!important;
+  box-shadow:0 7px 20px rgba(0,231,165,.13);
+}
+#mc-profile-suite .mcps-primary:hover:not(:disabled) {
+  filter:none;
+  background:var(--mc-ui-green-hover);
+  transform:translateY(-1px);
+}
+#mc-profile-suite :is(.mcps-small,.mcps-tiny,.mcps-top button[data-suite-back],.mcps-close) {
+  border:1px solid var(--mc-ui-line);
+  background:#1b222b;
+  color:#edf4f5;
+}
+#mc-profile-suite :is(.mcps-small,.mcps-tiny,.mcps-top button[data-suite-back],.mcps-close):hover:not(:disabled) {
+  background:#27342f;border-color:var(--mc-ui-line-hover);
+  color:#fff;
+}
+#mc-profile-suite .mcps-outline {
+  border:1px solid rgba(0,231,165,.36);
+  background:rgba(0,231,165,.095);
+  color:#87ffda;
+}
+#mc-profile-suite .mcps-outline:hover:not(:disabled) {
+  background:rgba(0,231,165,.16);
+  border-color:rgba(0,231,165,.65);
+}
+#mc-profile-suite .mcps-tiny {min-width:34px;min-height:34px;padding:5px 8px}
+#mc-profile-suite .mcps-close {flex:0 0 38px;width:38px;min-width:38px;height:38px;padding:0;font-size:1.18rem}
+#mc-profile-suite :is(.mcps-tile,.mcps-setting-tile,.mcps-picker-card) {
+  border:1px solid var(--mc-ui-line);
+  border-radius:14px;
+  transition:background .2s ease,border-color .2s ease,transform .2s var(--mc-ui-ease),box-shadow .2s ease;
+}
+#mc-profile-suite :is(.mcps-tile,.mcps-setting-tile,.mcps-picker-card):hover {
+  border-color:var(--mc-ui-line-hover);
+  transform:translateY(-2px);
+  box-shadow:0 12px 28px rgba(0,0,0,.16);
+}
+/* Boutons des vues classiques, assistants, fenêtres et exports. */
+:is(.btn-primary,.btn-secondary,.se-mini-btn,.se-send-btn,
+  .quick-push-btn-primary,.quick-push-btn-secondary,
+  .quiz-next,.quiz-skip,.quiz-pill,.cat-action-btn,
+  .account-btn,.compat-btn,.cust-mini-btn) {
+  box-sizing:border-box;
+  border-radius:10px;
+  font-family:'Inter',sans-serif;
+  font-weight:680;
+  letter-spacing:0;
+  transition:background .18s ease,border-color .18s ease,transform .18s var(--mc-ui-ease),box-shadow .18s ease;
+}
+:is(.btn-primary,.se-send-btn,.quick-push-btn-primary,.quiz-next,.account-btn-primary) {
+  border-color:rgba(0,231,165,.26);
+  background:var(--mc-ui-green);
+  color:var(--mc-ui-green-dark);
+  box-shadow:0 7px 18px rgba(0,231,165,.10);
+}
+:is(.btn-primary,.se-send-btn,.quick-push-btn-primary,.quiz-next,.account-btn-primary):hover:not(:disabled) {
+  background:var(--mc-ui-green-hover);
+  box-shadow:0 10px 24px rgba(0,231,165,.17);
+}
+:is(.btn-secondary,.se-mini-btn,.quick-push-btn-secondary,.quiz-skip,.cat-action-btn,.cust-mini-btn) {
+  border-color:var(--mc-ui-line);
+}
+:is(.btn-secondary,.se-mini-btn,.quick-push-btn-secondary,.quiz-skip,.cat-action-btn,.cust-mini-btn):hover:not(:disabled) {
+  border-color:var(--mc-ui-line-hover);
+}
+:is(.quiz-pill,.compat-device-btn).selected,
+:is(.quiz-pill,.compat-device-btn)[aria-pressed="true"] {
+  border-color:var(--mc-ui-line-hover);
+  background:rgba(0,231,165,.12);
+  color:var(--mc-ui-green);
+}
+/* Téléphone : boutons réellement tactiles, pas de débordement horizontal. */
+@media(max-width:900px){
+  .mc-home-overlay .home-dock.mc-cockpit {padding-inline:12px}
+  .mc-home-overlay .home-dock.mc-cockpit .mc-cockpit-branch {display:none!important}
+  .mc-home-overlay .home-dock.mc-cockpit .mc-cockpit-center {gap:0}
+}
+@media(max-width:720px){
+  .mc-home-overlay .home-dock.mc-cockpit {height:54px;min-height:54px;max-height:54px;padding:0 11px}
+  .mc-home-overlay .home-dock.mc-cockpit #suite-menu,
+  .mc-home-overlay .home-dock.mc-cockpit #title-theme-toggle,
+  .mc-home-overlay .home-dock.mc-cockpit .mc-header-shortcut {
+    width:38px;min-width:38px;height:38px;min-height:38px;padding:0;
+    justify-content:center;
+  }
+  .mc-home-overlay .home-dock.mc-cockpit #home-tools-menu.mc-cockpit-hub {
+    height:38px;min-height:38px;padding:0 9px;
+  }
+  .mc-home-overlay .title-screen-panel.mc-home .mc-home-intro {
+    min-height:calc(100svh - 54px);
+  }
+  .mc-home-overlay .mc-home .home-search {
+    min-height:48px;height:48px;
+    padding-inline:13px;
+  }
+  .mc-home-overlay .mc-home .home-express {
+    width:min(100%,320px);
+    min-height:48px;height:48px;
+  }
+  .mc-home-overlay .mc-home .home-return {
+    width:min(100%,440px);
+    padding:7px;
+    gap:6px;
+    flex-wrap:wrap;
+  }
+  .mc-home-overlay .mc-home .home-return>span {
+    flex:0 0 100%;padding:2px 5px 5px;
+    text-align:center;border-right:0;
+    font-size:.75rem;
+  }
+  .mc-home-overlay .mc-home .home-return button,
+  .mc-home-overlay .mc-home .home-return button+button {
+    flex:1 1 calc(50% - 3px);
+    min-width:0;
+    min-height:42px;height:auto;
+    white-space:normal;
+    padding:9px 8px;
+    font-size:.73rem;
+  }
+  .mc-home-overlay .mc-home .portfolio-grid.grid-2,
+  .mc-home-overlay .mc-home .portfolio-grid.grid-4 {
+    grid-template-columns:1fr;
+    gap:12px;
+  }
+  .mc-home-overlay .mc-home .portfolio-card {
+    min-height:152px;
+    padding:18px 18px 16px;
+    border-radius:14px;
+  }
+  .mc-home-overlay .mc-home .portfolio-card .port-card-icon {
+    width:39px;height:39px;margin-bottom:11px;
+  }
+  .mc-home-overlay .mc-home .portfolio-card .port-card-desc{margin-bottom:12px}
+  .mc-home-overlay .mc-home-view-collection {
+    right:max(12px,env(safe-area-inset-right));
+    bottom:max(12px,env(safe-area-inset-bottom));
+    min-height:44px;
+  }
+  #mc-studio-root .mc-studio-context-actions button.mc-studio-close {
+    display:grid!important;
+    width:38px;min-width:38px;height:38px;
+    flex:0 0 38px;
+  }
+  #mc-profile-suite :is(.mcps-primary,.mcps-small,.mcps-outline,
+    .mcps-top button[data-suite-back]) {min-height:42px}
+  .se-mini-btn,.cat-action-btn,.quiz-pill,.quiz-next,.quiz-skip,
+  .btn-primary,.btn-secondary {min-height:40px}
+}
+@media(max-width:390px){
+  .mc-home-overlay .home-dock.mc-cockpit {padding-inline:7px}
+  .mc-home-overlay .home-dock.mc-cockpit #home-tools-menu.mc-cockpit-hub {
+    min-width:38px;
+  }
+  .mc-home-overlay .mc-home .home-return button,
+  .mc-home-overlay .mc-home .home-return button+button {font-size:.70rem;gap:5px}
+  .mc-home-overlay .mc-home .portfolio-card .port-card-title{font-size:.93rem}
+}
+@media (hover:none) {
+  .mc-home-overlay .mc-home .portfolio-card:hover,
+  #mc-studio-root .suite-tiles button:hover,
+  #mc-profile-suite :is(.mcps-tile,.mcps-setting-tile,.mcps-picker-card):hover {
+    transform:none;
+  }
+}
+@media (prefers-reduced-motion:reduce){
+  :is(.mc-home-overlay,#mc-studio-root,#mc-profile-suite,#mc-tools) button,
+  .mc-home-overlay .mc-home-more-tools>summary {
+    transition:none!important;
+  }
+  .mc-home-overlay .mc-home .home-express:hover,
+  .mc-home-overlay .mc-home .portfolio-card:hover,
+  #mc-studio-root .suite-tiles button:hover {
+    transform:none!important;
+  }
+}
+/* Contraste du mode clair conservé sans imposer la palette sombre. */
+html[data-theme="light"] .mc-home-overlay .home-dock.mc-cockpit {
+  background:rgba(250,252,251,.97);
+}
+html[data-theme="light"] .mc-home-overlay .home-dock.mc-cockpit
+  :is(#suite-menu,#home-tools-menu,.mc-header-shortcut,#title-theme-toggle) {
+  background:#f1f6f3;color:#17322b;
+}
+html[data-theme="light"] .mc-home-overlay .mc-home :is(.home-search,.home-return) {
+  background:rgba(255,255,255,.96);color:#233a38;
+}
+html[data-theme="light"] .mc-home-overlay .mc-home .home-return button {
+  color:#284741;
+}
+html[data-theme="light"] .mc-home-overlay .mc-home .home-return button:hover {
+  color:#07472f!important;
+}
+html[data-theme="light"] .mc-home-overlay .mc-home .portfolio-card {
+  background:linear-gradient(145deg,#fff,#f3f8f6);
+  color:#122622;
+}
+html[data-theme="light"] .mc-home-overlay .mc-home .portfolio-card .port-card-title{color:#17342c}
+html[data-theme="light"] .mc-home-overlay .mc-home .portfolio-card .port-card-desc{color:#465d59}
+html[data-theme="light"] .mc-home-overlay .mc-home .portfolio-card .port-link{color:#087652}
+html[data-theme="light"] .mc-home-overlay .mc-home-more-tools>summary {
+  background:#fff;color:#14352b;
+}
+html[data-theme="light"] #mc-studio-root .mc-studio-tabs button{color:#415a55}
+html[data-theme="light"] #mc-studio-root .mc-studio-tabs button.active,
+html[data-theme="light"] #mc-studio-root .mc-studio-tabs button[aria-selected="true"] {
+  color:#064a32;background:rgba(0,127,91,.09);
+}
