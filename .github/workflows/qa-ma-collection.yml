@@ -101,8 +101,8 @@ jobs:
           node .github/scripts/qa-collection-fr.mjs
           node .github/scripts/qa-controls.mjs
           node .github/scripts/qa-accueil-cinematique.mjs
-          node .github/scripts/qa-studio-avance.mjs
           node .github/scripts/qa-ma-art-logos-mobile.mjs
+          node .github/scripts/qa-studio-avance.mjs
           node .github/scripts/qa-profile-suite.mjs
           node .github/scripts/qa-profile-editor.mjs
           node .github/scripts/qa-kaptain-disparition.mjs
