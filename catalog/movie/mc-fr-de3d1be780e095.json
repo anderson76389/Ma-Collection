@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1551025",
+      "type": "movie",
+      "name": "Protection (très) rapprochée",
+      "poster": "https://image.tmdb.org/t/p/w500/2RtUijWe9PxnckIFugctHLj2xe5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qHvap0vpfTBIbv7cnR0OyBRqQHG.jpg",
+      "description": "Quand une garde du corps intraitable est chargée de protéger une star de cinéma, les étincelles fusent, des secrets éclatent au grand jour et Noël devient soudain très compliqué.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1195803",
       "type": "movie",
       "name": "Wicker",
@@ -52,6 +61,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/j1kEkItdsOyNorF32bU0xRgeoHN.jpg",
       "background": "https://image.tmdb.org/t/p/w780/oIglj0Jy9duG4LnrRUpH8n001Pk.jpg",
       "description": "Une famille de sorcières multigénérationnelle, maudite à être sans amour pendant des siècles, tente de briser le sort en affrontant de sombres secrets et en se sacrifiant les uns pour les autres.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1522689",
+      "type": "movie",
+      "name": "Pourquoi je me suis marié, déjà ?",
+      "poster": "https://image.tmdb.org/t/p/w500/8mmQWqkvZrvxqr21WhV7Pk0WIHl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lJYniNRM2i9wXnfWVHOB4PxygFZ.jpg",
+      "description": "Réunis à l'étranger pour le mariage de la fille de Marcus et Angela, les couples attisent des tensions anciennes et nouvelles en se demandant : « Pourquoi on s'est mariés, déjà ? »",
       "releaseInfo": "2026"
     },
     {
@@ -122,7 +140,7 @@
       "type": "movie",
       "name": "Leviticus",
       "poster": "https://image.tmdb.org/t/p/w500/l4wKajF6yWUcCiZaZ7qzMPlBmU2.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7y8zWGEjs7tresw4Hzkkf4TdkcL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ekFr4AyEpwyIHK1R3VOYDXN2PqL.jpg",
       "description": "Deux adolescents maudits par les étoiles doivent échapper à une entité violente qui prend la forme de la personne qu’ils désirent le plus — l’un l’autre.",
       "releaseInfo": "2026"
     },
@@ -154,30 +172,12 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1339588",
+      "id": "tmdb:1340206",
       "type": "movie",
-      "name": "À la recherche d'Emily",
-      "poster": "https://image.tmdb.org/t/p/w500/egPElljJxenQYhWxm3Fx0e3o4hR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7Ja28gO6OwncmCA94q2qPyeRrsA.jpg",
-      "description": "Alors que la fille de ses rêves lui a donné un faux numéro, un musicien fou amoureux s'allie à une étudiante en psychologie en difficulté pour la retrouver. Ensemble, ils vont semer le chaos sur un campus et déclencher une crise qui mettra à l'épreuve leurs principes et leurs ambitions.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1455079",
-      "type": "movie",
-      "name": "Toi, Moi et la Toscane",
-      "poster": "https://image.tmdb.org/t/p/w500/bhtutm5FfZNB8opuO9ttF7ueekn.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2TWIlmhE06ghspeQLEX1VmnEBiE.jpg",
-      "description": "L'histoire se déroule en Italie et raconte l'aventure d'une jeune cuisinière qui se retrouve prise dans une histoire enflammée après avoir décidé sur un coup de tête de dormir dans la villa toscane d'un homme qu'elle vient de rencontrer pour une nuit.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1325734",
-      "type": "movie",
-      "name": "The Drama",
-      "poster": "https://image.tmdb.org/t/p/w500/37r0FZuv9OAQgMApDoJ8gvd5LWs.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1oKLEA9JOhvaBwLpqjROisvWMy7.jpg",
-      "description": "Un couple comblé voit son bonheur mis à l’épreuve lorsqu’un rebondissement inattendu vient tout bouleverser à une semaine de son mariage.",
+      "name": "Le Virtuose",
+      "poster": "https://image.tmdb.org/t/p/w500/z9sxdWvYJDyZeKHhBSU8Kczw7yC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/y04gpYp8rJoUud6vf8okqHIdP4V.jpg",
+      "description": "Doté d'une ouïe exceptionnelle, un jeune accordeur de piano voit sa vie basculer lorsque son talent attire l'attention de criminels qui l'entraînent dans une série de cambriolages de plus en plus risqués. Malgré lui, il s'enfonce dans un engrenage dangereux qui pourrait lui coûter bien plus que sa liberté.",
       "releaseInfo": "2026"
     }
   ]

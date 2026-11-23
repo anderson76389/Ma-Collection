@@ -37,20 +37,11 @@
       "releaseInfo": "1999"
     },
     {
-      "id": "tmdb:2190",
-      "type": "series",
-      "name": "South Park",
-      "poster": "https://image.tmdb.org/t/p/w500/k7n2EVge7G77eMr3brztRGG1fFU.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3UviYOlhn8EgXMBuiT6MnUuo1w9.jpg",
-      "description": "La petite ville de South Park dans le Colorado est le théâtre des aventures de Cartman, Stan, Kyle et Kenny, quatre enfants au langage quelque peu... décalé !",
-      "releaseInfo": "1997"
-    },
-    {
       "id": "tmdb:259909",
       "type": "series",
-      "name": "Dexter : Résurrection",
+      "name": "Dexter - Résurrection",
       "poster": "https://image.tmdb.org/t/p/w500/teZOzBZhugzh7UfW6xuPp4wJ5oU.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jgfmzwfmMh4DTqITVSdtxBKfFE5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vcpj6rRDS93ImHCLPY8bwBuFGjR.jpg",
       "description": "Après avoir survécu à ses blessures, Dexter se retrouve à New York. Il tente de renouer une relation avec son fils mais des meurtres rituels ensanglantent Big Apple.",
       "releaseInfo": "2025"
     },
@@ -64,13 +55,13 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:202297",
+      "id": "tmdb:117488",
       "type": "series",
-      "name": "Fire Country : Pompiers sur Appel",
-      "poster": "https://image.tmdb.org/t/p/w500/2qhBMwFtQIUQId8nhaywVqKTPLw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/r6jUY6q3ObYOeFFWxM7jemS7IWE.jpg",
-      "description": "En quête de rédemption et d'une peine de prison raccourcie, le jeune condamné Bode Donovan rejoint un programme de lutte contre les incendies qui le ramène dans sa petite ville natale du nord de la Californie, où lui et d'autres détenus travaillent aux côtés de pompiers d'élite pour éteindre d'énormes incendies dans la région.",
-      "releaseInfo": "2022"
+      "name": "Yellowjackets",
+      "poster": "https://image.tmdb.org/t/p/w500/sf3rrEy0nlHudG5KdcS8jyH9OsP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ibFWJDWS8cTO6s2vZVd2uKDm8p.jpg",
+      "description": "Après le crash de leur avion, des lycéennes d’une équipe de football luttent pour leur survie dans une région sauvage du Nord des États-Unis. Vingt-cinq ans plus tard, les survivantes se sont reconstruites… enfin presque. Car une question revient sans cesse, que s’est-il passé durant les dix-neuf mois qu’a duré leur calvaire ? Et combien de temps tiendra encore leur pacte de ne jamais rien révéler ?",
+      "releaseInfo": "2021"
     },
     {
       "id": "tmdb:126824",
@@ -91,13 +82,13 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:214875",
+      "id": "tmdb:123591",
       "type": "series",
-      "name": "Ruben & cie",
-      "poster": "https://image.tmdb.org/t/p/w500/trcqt0g3NczUiIsxgYcRvE6QbBi.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5SWWe369D4Fjs2RDVhMagNJLlps.jpg",
-      "description": "Les aventures de Ruben et de ses amis ont lieu dans une petite ville en plein essor, Bricoville. De nouveaux habitants arrivent tous les jours. Ils peuvent compter sur Ruben et sa famille de constructeurs !",
-      "releaseInfo": "2023"
+      "name": "Les Schtroumpfs",
+      "poster": "https://image.tmdb.org/t/p/w500/A4hoQJaF68p81bP5azQtoQXM69j.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/znf5Z1LSFYFOsRGClXwclqIhf83.jpg",
+      "description": "Les Schtroumpfs sont de retour et plus Schtroumpf que jamais ! Rejoignez ces petits êtres bleus adorables dans de toutes nouvelles aventures pleines de charme, d’absurdité et d’humour ! En Schtroumpf !",
+      "releaseInfo": "2021"
     },
     {
       "id": "tmdb:133174",
@@ -118,13 +109,13 @@
       "releaseInfo": "2021"
     },
     {
-      "id": "tmdb:340784",
+      "id": "tmdb:239334",
       "type": "series",
-      "name": "Un puzzle macabre",
-      "poster": "https://image.tmdb.org/t/p/w500/tILuG6W2L1xYQ46kzObYjkRitO7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pA12JxsM7KppNLeQq5CU7G2aU7L.jpg",
-      "description": "Lorsqu'un torse démembré est découvert dans un bois aux abords de Salford, les détectives ouvrent une enquête pour meurtre sans correspondance ADN, sans témoin ni suspect évident. Alors qu'une tempête médiatique nationale se déchaîne, des indices médico-légaux, de nouveaux suspects et de nouvelles découvertes dans le Grand Manchester commencent à révéler l'horrible vérité sur ce meurtre.",
-      "releaseInfo": "2026"
+      "name": "Frenchie Shore",
+      "poster": "https://image.tmdb.org/t/p/w500/AjnQUAy49iz7BMMve0ZKIfAWxFi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/d99UTsCA3kOGW64a0hRkz4UaQ2T.jpg",
+      "description": "Dans la lignée de Jersey shore et Geordie Shore, les 10 plus grands fêtards de France sont réunis au Cap d’Agde pour des vacances de rêve.",
+      "releaseInfo": "2023"
     },
     {
       "id": "tmdb:286277",

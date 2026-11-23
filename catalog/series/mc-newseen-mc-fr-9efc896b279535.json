@@ -1,40 +1,67 @@
 {
   "metas": [
     {
-      "id": "tmdb:61733",
+      "id": "tmdb:1420",
       "type": "series",
-      "name": "Empire",
-      "poster": "https://image.tmdb.org/t/p/w500/gTrzYR6gWMhQ8yINW9JCLeoJHvf.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/FNeJtRUd5XID186SHzjNNneP3f.jpg",
-      "description": "Lucious Lyon, ancienne star du hip-hop, est devenu en l'espace d'une vingtaine d'années l'un des plus riches producteurs de disques Américains. Atteint d'une grave maladie, ses jours sont comptés. Il ne lui reste donc plus beaucoup de temps pour désigner son successeur parmi ses trois fils. Deux sont des artistes débutants, très différents mais soudés, tandis que le troisième est un homme d'affaire prêt à tout pour obtenir la position qu'il croit lui revenir de droit. Alors que la famille est sur le point de se déchirer, Cookie, la matriarche, en prison depuis 20 ans, retourne parmi les siens et sème encore un peu plus le touble. Elle a des comptes à régler et une vengeance à assouvir…",
-      "releaseInfo": "2015"
+      "name": "New Girl",
+      "poster": "https://image.tmdb.org/t/p/w500/8oCqMlKKomCArVtyOjRzMN6g40Z.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/959IFVeGqz2M6qGvQ1RxN2r6Mq6.jpg",
+      "description": "Jess Day, une jeune femme naïve et étrange, est malheureuse en amour depuis que son petit ami l'a trompée puis quittée. Elle s'installe alors en colocation avec trois garçons un peu attardés. Parviendront-ils à lui redonner le sourire ?",
+      "releaseInfo": "2011"
     },
     {
-      "id": "tmdb:2004",
+      "id": "tmdb:1480",
       "type": "series",
-      "name": "Malcolm",
-      "poster": "https://image.tmdb.org/t/p/w500/aRd5NJafhAAPXupmTamJGBXonSq.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/si3OheCrSpEyK2JUtZOThsZPUR4.jpg",
-      "description": "Petit génie malgré lui, Malcolm vit dans une famille hors du commun. Le jeune surdoué n'hésite pas à se servir de son intelligence pour faire les 400 coups avec ses frères : Francis, l'aîné, envoyé dans une école militaire après une bêtise de trop, Reese, une brute pas très maligne, et Dewey, le petit dernier, souffre-douleur général. Les parents tentent tant bien que mal de canaliser l'énergie de ces petits démons. Si Lois est despotique et veut tout contrôler, Hal, en revanche, est irresponsable et ne pense qu'à s'amuser.",
-      "releaseInfo": "2000"
+      "name": "Ally McBeal",
+      "poster": "https://image.tmdb.org/t/p/w500/weS8htxS2j0EQ6jorK3WOR1dZpH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xCMs3IxaGqKSc5cwngRUlhmjbwl.jpg",
+      "description": "Charmante, romantique, hystérique, excessive et passionnée, Ally McBeal n'en reste pas moins une brillante avocate qui défend farouchement les intérêts du Cabinet Cage & Fish en suivant ses sentiments.",
+      "releaseInfo": "1997"
     },
     {
-      "id": "tmdb:1417",
+      "id": "tmdb:103540",
       "type": "series",
-      "name": "Glee",
-      "poster": "https://image.tmdb.org/t/p/w500/9WlKHB3lmqMmxO1SfL6MVOJxKPP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1orqm4lN8VtYGlxZ1g12ip6iwmG.jpg",
-      "description": "Professeur d'espagnol au sein du lycée McKinley, Will Schuester décide de prendre la direction du club de chant de son établissement, laissé bien mal en point par son prédécesseur. Ravivant dans le même temps ses aspirations de jeunesse et la jalousie de sa femme, Will va déployer tout son enthousiasme afin de constituer un nouveau groupe, composé de plusieurs élèves n'ayant rien à voir les uns avec les autres.",
+      "name": "Percy Jackson et les Olympiens",
+      "poster": "https://image.tmdb.org/t/p/w500/mAX4KE8ewwuDAIzwv3WTpqE3yh7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dLIKNqBi9L1cVbwuniXkaNOsIXg.jpg",
+      "description": "À 12 ans, Percy Jackson découvre qu’il est le fils de Poséidon, le dieu des mers et des tremblements de terre. Étant un demi-dieu, il se rend à la colonie des Sang-Mêlé, où tous les demi-dieux peuvent s’entraîner à survivre. Il apprend par la suite que les dieux grecs ont installés l’Olympe au sommet de l’Empire State Building, aux États-Unis. Il rencontre à la colonie Annabeth Chase, fille d’Athéna, et retrouve son ami Grover Underwood, un Satyre (créature mi homme mi bouc) . Il se verra confier plusieurs quêtes, liées à une grande prophétie, au cours desquelles il affrontera tromperies, manipulations et monstres, pour sauver l’Olympe en compagnie de nombreux alliés, car il se trouvera au centre d’une guerre opposant les dieux grecs et les Titans pour la seconde fois de l’histoire de l’Olympe.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:55216",
+      "type": "series",
+      "name": "Scènes de ménages",
+      "poster": "https://image.tmdb.org/t/p/w500/3pWAyqQWXqIFrwrnrRCg0CkBIH5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pnTYmGcsJBgQyI6qB8wHyvbuHBW.jpg",
+      "description": "Scènes de ménages met en scène le quotidien de plusieurs couples de différentes générations, illustrant avec humour leurs disputes, leurs moments tendres et leurs petites manies. Chaque épisode est composé de saynètes courtes, dans lesquelles les personnages échangent des répliques cinglantes et des situations cocasses.",
       "releaseInfo": "2009"
     },
     {
-      "id": "tmdb:208921",
+      "id": "tmdb:2122",
       "type": "series",
-      "name": "Rivals",
-      "poster": "https://image.tmdb.org/t/p/w500/bwFoHcbBOk5tbc5oGq8qBy0lVaJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vPw5Gpg0YEEk1VsE8QlmyTxIJuU.jpg",
-      "description": "Nous sommes en 1986 et la Grande-Bretagne est en plein essor. \"Rivals\" nous plonge la tête la première dans le monde impitoyable de la télévision, où les apparences et les ambitions sont plus importantes que tout et où les accords se négocient dans les salles de réunion, mais aussi sur l’oreiller. Personne ne sait qui sera vainqueur. Tout le monde ne pense qu’à soi-même. Le véritable amour pourra-t-il s'épanouir dans cette adaptation du roman à succès de Jilly Cooper, “Rutshire Chronicles“ ?",
-      "releaseInfo": "2024"
+      "name": "Les Rois du Texas",
+      "poster": "https://image.tmdb.org/t/p/w500/35UNjudjCBNzwEAqHGgk1cppQhp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4CSdS9p0AhLhxCo1hGuQINiE2Sa.jpg",
+      "description": "Les histoires de la famille Hill, des américains moyens vivant à Arlen. Hank, le papa, est fier de vendre du propane. Son épouse Peggy est professeur d'espagnol remplaçante. Leur enfant Bobby est leur fierté. Plus tard, ce dernier se voit mannequin… ou proctologue.",
+      "releaseInfo": "1997"
+    },
+    {
+      "id": "tmdb:4586",
+      "type": "series",
+      "name": "Gilmore Girls",
+      "poster": "https://image.tmdb.org/t/p/w500/gwtzCwU2wdLLf8oejQu2TINiWfQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8U2ndZrneigI2zkvGuTJtt1ZsxK.jpg",
+      "description": "La série raconte la relation complice et même privilégiée de Lorelai avec sa fille Rory qu'elle eut à 16 ans. Entre leurs histoires d'amour respectives et les relations avec les grands-parents de Rory ou les personnages secondaires rencontrés au travail de Lorelai ou au lycée d'élite de Rory dans la petite ville de Stars Hollow, Lorelai et Rory n'ont pas le temps de s'ennuyer.",
+      "releaseInfo": "2000"
+    },
+    {
+      "id": "tmdb:46260",
+      "type": "series",
+      "name": "Naruto",
+      "poster": "https://image.tmdb.org/t/p/w500/mLoI2Zto2JYUvSB8PpqvZIV7vWj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5F0HVEgkgP99fEWDjPyikGt9jQi.jpg",
+      "description": "Dans le village de Konoha vit Naruto, un jeune garçon détesté et craint des villageois du fait qu'il détienne en lui Kyuubi (démon renard à neuf queues) d'une incroyable force, qui a tué un grand nombre de personnes. Le ninja le plus puissant de Konoha à l'époque, le quatrième Hokage, Minato Namikaze, réussit à sceller ce démon dans le corps de Naruto. Malheureusement il y laissa la vie.\n\nC'est ainsi que douze ans plus tard, Naruto rêve de devenir le plus grand Hokage de Konoha afin que tous le reconnaissent à sa juste valeur. Mais la route pour devenir Hokage est très longue et Naruto sera confronté à un bon nombre d'épreuves et devra affronter de nombreux ennemis pour atteindre son but !",
+      "releaseInfo": "2002"
     }
   ]
 }

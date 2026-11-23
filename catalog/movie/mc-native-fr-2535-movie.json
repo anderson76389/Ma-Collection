@@ -1,6 +1,51 @@
 {
   "metas": [
     {
+      "id": "tmdb:1822057",
+      "type": "movie",
+      "name": "Instagram/TikTok, la guerre des réseaux",
+      "poster": "https://image.tmdb.org/t/p/w500/hUqZnovt8A4d2V9IAOZE6pKEmBy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xynDn5hoaSupgtsuhu9qsGXw5AI.jpg",
+      "description": "Laurent Delahousse raconte le monde à travers le prisme d’un objet iconique, d’une personnalité ou d’une tendance. Une collection sur le soft power raconté à la sauce pop culture ! Après le luxe, le football, le portable ou le burger, cette nouvelle émission s’intéresse à la guerre d’influence que se livrent Instagram et TikTok.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1825303",
+      "type": "movie",
+      "name": "Photomaton, la grande histoire de la petite photo",
+      "poster": "https://image.tmdb.org/t/p/w500/ivca51uL7m3ihvpl16TVhp1bPFz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8ZqGTn2rCTB2BUAMKX7VpOXFnFQ.jpg",
+      "description": "Inventé à New York en 1926 par Anatol Josepho, le Photomaton va révolutionner la photographie en mettant le portrait à la portée de tous. Deux ans plus tard, la petite cabine automatique arrive à Paris. Très vite, elle devient bien davantage qu'une machine : elle fabrique des souvenirs autant que des photos d'identité, et inspire les artistes, des surréalistes à Andy Warhol, de Roland Topor à Pierre et Gilles. Promise à la disparition avec l'arrivée du numérique et du smartphone, la vieille cabine argentique connaît aujourd'hui une renaissance inattendue auprès d'une génération qui a grandi avec les réseaux sociaux.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1821357",
+      "type": "movie",
+      "name": "Climat, que justice soit faite !",
+      "poster": "https://image.tmdb.org/t/p/w500/zOtkjjAQa4FLUfDumWuxeZJ8ve1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hGhAyucsjayhwZHuKcfDoV5fBNn.jpg",
+      "description": "C'est un défi, le plus grand jamais lancé dans l'histoire de la justice climatique. Après cinq années de lutte, une poignée d'étudiants et les représentants de petits États insulaires du Pacifique vont porter les conséquences du changement climatique devant la plus haute juridiction mondiale, face au lobbying des États les plus puissants de la planète. David contre Goliath, mais, dans le théâtre magistral de la Cour internationale de justice à La Haye, la voix des victimes aura cette fois une résonance particulière. Le documentaire filme ce face-à-face juridique entre les nations les plus démunies et le puissant lobbying des États les plus pollueurs de la planète.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1820578",
+      "type": "movie",
+      "name": "Antisémitisme, une haine toujours en mouvements",
+      "poster": "https://image.tmdb.org/t/p/w500/5Jg5JmY2YXhwBA9fblizKO020XA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bWcozN4brHhMx8PxqcpRqcHbxqs.jpg",
+      "description": "Depuis les attentats terroristes du Hamas du 7-Octobre et le déclenchement de la riposte brutale de l'Etat hébreu se développe un mouvement international de réprobation, au sein duquel émerge un amalgame injuste confondant en un seul ensemble indistinct les Juifs, les Israéliens et les partisans du Premier ministre Benyamin Netanyahou. Cette confusion a donné lieu à une flambée des actes antisémites en France. Pour comprendre cette confusion et ce nouvel antisémitisme, il faut regarder l'Histoire, de l'apparition de la pensée antisémite dans le discours politique à la fin du XIXe siècle jusqu'aux amalgames les plus récents.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1824498",
+      "type": "movie",
+      "name": "Révélations, 200 ans de photographie",
+      "poster": "https://image.tmdb.org/t/p/w500/aGC7supQZX6rJORAipHPyNZN03S.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cMtNr6J5uAZdd9vrXsV6pEdpSFK.jpg",
+      "description": "Depuis deux siècles, nous photographions le monde pour tenter d'en saisir la vérité, d'en conserver la trace ou d'en fixer la beauté. Composé exclusivement de photographies, ce documentaire propose une traversée sensible de notre histoire visuelle. Des premières expérimentations aux images du XXIe siècle, les paroles de grands photographes, artistes iconiques et contemporains, accompagnent cette exploration de ce que la photographie a changé dans notre rapport au monde. Elle a rendu visible l'invisible, bouleversé nos certitudes, façonné nos souvenirs et transformé notre façon de raconter l'Histoire.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1819101",
       "type": "movie",
       "name": "Vincent Niclo et le Choeur symphonique : Bel Canto Tour",
@@ -22,7 +67,8 @@
       "id": "tmdb:1817294",
       "type": "movie",
       "name": "Angélique Kidjo à la Philharmonie de Paris",
-      "poster": "https://image.tmdb.org/t/p/w500/2yY49xGreyOaN32UxdyDNfqg7Yf.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/mde7glwv2VLOC3gZk45fWOj7NhD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8xAXydktH1fljt3RwcDUYOSKvfD.jpg",
       "description": "Chanteuse puissante et femme engagée, originaire du Bénin, Angélique Kidjo est devenue une ambassadrice iconique de l'Afrique au fil d'un parcours jalonné d'albums remarquables depuis le début des années 1990. Classée parmi les 100 femmes les plus influentes au monde par The Guardian, elle met sa notoriété au service des causes telles que l'émancipation de la femme ou la lutte contre le réchauffement climatique. Son nouveau projet, Symphonie Africaine, prend la forme hors normes d'un concert orchestral tout entier à la gloire du patrimoine musical africain. Ses chansons les plus marquantes, qui ont inspiré la jeune génération, y rencontrent les chansons d'autres artistes, à l'aura légendaire comme : Miriam Makeba, Fela Kuti, Youssou N' Dour ou encore Rema et Burna Boy.",
       "releaseInfo": "2026"
     },
@@ -132,51 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/mDMZ2jssdlgQTqbm77KHuX21Vzr.jpg",
       "background": "https://image.tmdb.org/t/p/w780/60vrEPh5rHgWXamqCIKo4BlyDcc.jpg",
       "description": "Chaque année, et depuis 2017, à l'occasion de l'anniversaire de la Constitution de 1958, se tient sur l'ensemble du territoire national la Nuit du droit. A cette occasion, Anne-Elisabeth Lemoine présente \"Droit ou pas droit ?\", un jeu qui éclaire l'importance du droit dans notre quotidien. Plusieurs candidats, jeunes avocats, doivent répondre à des questions sur différents types de droits concernant aussi bien la vie quotidienne que la vie citoyenne. Entourée d'experts reconnus, Anne-Elisabeth Lemoine, avec la complicité de Caroline Vigneaux et de nombreuses personnalités, aura aussi pour mission de démontrer que le droit est précieux pour la démocratie.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1778746",
-      "type": "movie",
-      "name": "Le Grand Bêtisier - 50 Ans de Rire",
-      "poster": "https://image.tmdb.org/t/p/w500/pRf51XUmB3RjzQ0u9u8qwmrAjNO.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qxY4a0g5OgGGo1g0WTOGRC99V4.jpg",
-      "description": "Pour célébrer 50 ans de rire à la télévision, Camille Cerf embarque pour un grand voyage à travers les images les plus cultes, les plus inattendues et les plus hilarantes de ces cinq dernières décennies. Dans le cadre exceptionnel du Musée des Arts Forains de Paris, cette soirée festive et familiale réunit toutes les générations autour d'un seul mot d'ordre : rire ! Au programme de cette soirée : Des archives cultes, les plus grands délires de célébrités, les moments mythiques des jeux télé, les aléas des émissions en direct, les ratés savoureux des émissions culinaires, des séquences irrésistibles avec les enfants et les animaux, toujours champions toutes catégories du bêtisier !",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1676129",
-      "type": "movie",
-      "name": "Au sein des autres",
-      "poster": "https://image.tmdb.org/t/p/w500/vMUg5C5hPAlvJip0XZGiaa3FOso.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/t8uallFaiC92HcL4mvcx8RJwCP6.jpg",
-      "description": "Nour est avocate, quadra battante, une vie bien construite. Fabrice est désinvolte, la trentaine, taiseux, une vie sans prise. Ils ne se seraient jamais rencontrés, jusqu'au jour où tous les deux apprennent qu'ils ont un cancer du sein. Dans la salle de chimiothérapie d'un hôpital de Lille, quelque chose d'inattendu va naître entre eux. Une histoire d'amitié, née là où ils pensaient tout perdre.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1423712",
-      "type": "movie",
-      "name": "Monsieur",
-      "poster": "https://image.tmdb.org/t/p/w500/vGYF0WMJk3FQbCcmJ4pQWoHWSis.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8lCvBXWK4BOA5P5NwLt6p0homPj.jpg",
-      "description": "Février 1969. Sous la garde d'une employée, une fillette disparaît et une rançon est exigée pour sa libération. Deux policiers venus de Paris mènent l'enquête.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1780162",
-      "type": "movie",
-      "name": "Sur la route de Katmandou",
-      "poster": "https://image.tmdb.org/t/p/w500/dO9PpvpyzrA5CcDIuBHBQWpFLA2.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lXoPOllJhwin0FSQjTAaZKiIRbm.jpg",
-      "description": "Entre le milieu des années 1950 et la fin des années 1970, des centaines de milliers de jeunes Occidentaux sont partis rejoindre Katmandou. Issus de la dernière génération du baby-boom, ces routards voulaient laisser derrière eux le monde de leurs parents, dominé par la consommation, la colonisation et le spectre de la guerre. Ce phénomène, connu sous le nom de \"Route de l'Inde (Hippie Trail)\", est une première dans l'histoire de l'humanité : jamais encore quiconque n'était parti en si grand nombre par simple goût de l'aventure, de la découverte des autres et de soi-même. Raconter leur histoire, c'est revisiter l'une des plus fascinantes utopies du XXe siècle, et sa confrontation avec la réalité historique.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1810490",
-      "type": "movie",
-      "name": "Le phare d'Alexandrie : Les derniers secrets",
-      "poster": "https://image.tmdb.org/t/p/w500/ec3WUgJcuarl5ZiHrhCklMktK1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kr0ScqamYCDZ21OSsnkPgJ6UH21.jpg",
-      "description": "Au large d'Alexandrie, sous plusieurs mètres d'eau, reposent les vestiges de l'une des sept merveilles du monde antique : le légendaire phare d'Alexandrie. Depuis près de 30 ans, l'archéologue Isabelle Hairy et son équipe explorent des milliers de blocs pour reconstituer l'histoire de ce monument hors norme. Aujourd'hui, une opération exceptionnelle se prépare. Les vestiges les plus monumentaux du phare, dont certains pèsent plusieurs dizaines de tonnes vont être remontés à la surface et numérisés. Grâce à des nouvelles technologies enrichies par l'IA, l'archéologue va pouvoir établir une réplique virtuelle du phare et montrer le génie de ses architectes.",
       "releaseInfo": "2026"
     }
   ]

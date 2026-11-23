@@ -25,14 +25,6 @@
       "releaseInfo": "2018"
     },
     {
-      "id": "tmdb:1790",
-      "type": "series",
-      "name": "Family Feud",
-      "poster": "https://image.tmdb.org/t/p/w500/2eY3KyYvvjg2jn2ifTGkwdipCAC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zhLrML5jLVIlln5QFZdYHgtmFXr.jpg",
-      "releaseInfo": "1999"
-    },
-    {
       "id": "tmdb:2778",
       "type": "series",
       "name": "Wheel of Fortune",
@@ -40,6 +32,14 @@
       "background": "https://image.tmdb.org/t/p/w780/A6Sp44grqCnvKs5Plhy3oQncUrq.jpg",
       "description": "Ce jeu télévisé voit les concurrents résoudre des énigmes de mots, similaires à celles utilisées dans Hangman, pour gagner de l'argent et des prix déterminés en faisant tourner une roue de carnaval géante.",
       "releaseInfo": "1983"
+    },
+    {
+      "id": "tmdb:1790",
+      "type": "series",
+      "name": "Family Feud",
+      "poster": "https://image.tmdb.org/t/p/w500/2eY3KyYvvjg2jn2ifTGkwdipCAC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zhLrML5jLVIlln5QFZdYHgtmFXr.jpg",
+      "releaseInfo": "1999"
     },
     {
       "id": "tmdb:114439",
@@ -59,13 +59,12 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:97867",
+      "id": "tmdb:113890",
       "type": "series",
-      "name": "Family Feud Canada",
-      "poster": "https://image.tmdb.org/t/p/w500/ohlgnAbNTZYZ0PhsM57HPTJ0pg7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vK8tSeOh7WTkPqLu3kK34U8zmiE.jpg",
-      "description": "Il s'agit de la version canadienne du jeu TV \"Une famille en or\", originaire des Etats-Unis sous le nom de Family Feud. Deux familles composées de cinq membres s'affrontent en donnant leur opinion, sur des questions posées à 100 Canadiens. Le but est de se rapprocher le plus de l'opinion des Canadiens sondés, afin d'amasser un maximum de points pour accéder à la finale et gagner le gros lot !",
-      "releaseInfo": "2019"
+      "name": "Michael McIntyre's The Wheel",
+      "poster": "https://image.tmdb.org/t/p/w500/ezMw1VmX5GJmoBpryecToqk0qm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xoeryDmniAgvLNpAeOn0odRBMQ1.jpg",
+      "releaseInfo": "2020"
     }
   ]
 }

@@ -10,15 +10,6 @@
       "releaseInfo": "2003"
     },
     {
-      "id": "tmdb:14658",
-      "type": "series",
-      "name": "Survivor",
-      "poster": "https://image.tmdb.org/t/p/w500/Ap0qf8VxF9DW4NXLYvMmpg3WkdF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1oaj0RL4cM0WuUQJUuarpVWrhb0.jpg",
-      "description": "Une aventure dans laquelle un groupe de personnes ont échoué sur une ile isolée. Le dernier survivant de cette aventure repartira chez lui avec la somme d'1 millions de dollars.",
-      "releaseInfo": "2000"
-    },
-    {
       "id": "tmdb:80748",
       "type": "series",
       "name": "FBI",
@@ -28,10 +19,19 @@
       "releaseInfo": "2018"
     },
     {
+      "id": "tmdb:14658",
+      "type": "series",
+      "name": "Survivor",
+      "poster": "https://image.tmdb.org/t/p/w500/Ap0qf8VxF9DW4NXLYvMmpg3WkdF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1oaj0RL4cM0WuUQJUuarpVWrhb0.jpg",
+      "description": "Une aventure dans laquelle un groupe de personnes ont échoué sur une ile isolée. Le dernier survivant de cette aventure repartira chez lui avec la somme d'1 millions de dollars.",
+      "releaseInfo": "2000"
+    },
+    {
       "id": "tmdb:4026",
       "type": "series",
       "name": "CBS News Sunday Morning",
-      "poster": "https://image.tmdb.org/t/p/w500/k4YOaHO6yv1MjtUPRmXbT8ASWHV.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/gwZg0jXns5LNo8wUosZOThmOCRl.jpg",
       "background": "https://image.tmdb.org/t/p/w780/5stzCCL0Ya04gq3tYQ9wA6zb2Dq.jpg",
       "releaseInfo": "1979"
     },
@@ -70,6 +70,14 @@
       "releaseInfo": "2024"
     },
     {
+      "id": "tmdb:248361",
+      "type": "series",
+      "name": "Beyond the Gates",
+      "poster": "https://image.tmdb.org/t/p/w500/ah7Flh6FSq8WWxMkzRlazSFp2AX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qkwz8uBrGgESbw8J6ujmtwSVs2w.jpg",
+      "releaseInfo": "2025"
+    },
+    {
       "id": "tmdb:30957",
       "type": "series",
       "name": "The Amazing Race",
@@ -79,15 +87,6 @@
       "releaseInfo": "2001"
     },
     {
-      "id": "tmdb:202297",
-      "type": "series",
-      "name": "Fire Country : Pompiers sur Appel",
-      "poster": "https://image.tmdb.org/t/p/w500/2qhBMwFtQIUQId8nhaywVqKTPLw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/r6jUY6q3ObYOeFFWxM7jemS7IWE.jpg",
-      "description": "En quête de rédemption et d'une peine de prison raccourcie, le jeune condamné Bode Donovan rejoint un programme de lutte contre les incendies qui le ramène dans sa petite ville natale du nord de la Californie, où lui et d'autres détenus travaillent aux côtés de pompiers d'élite pour éteindre d'énormes incendies dans la région.",
-      "releaseInfo": "2022"
-    },
-    {
       "id": "tmdb:243875",
       "type": "series",
       "name": "Georgie & Mandy's First Marriage",
@@ -95,14 +94,6 @@
       "background": "https://image.tmdb.org/t/p/w780/h927CLfeAjiy0MNKRxWZgEq7bHR.jpg",
       "description": "Cette suite de Young Sheldon suit Georgie et Mandy alors qu'ils élèvent leur jeune famille au Texas.",
       "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:248361",
-      "type": "series",
-      "name": "Beyond the Gates",
-      "poster": "https://image.tmdb.org/t/p/w500/ah7Flh6FSq8WWxMkzRlazSFp2AX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qkwz8uBrGgESbw8J6ujmtwSVs2w.jpg",
-      "releaseInfo": "2025"
     },
     {
       "id": "tmdb:226285",
@@ -132,6 +123,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:114439",
+      "type": "series",
+      "name": "Let's Make a Deal",
+      "poster": "https://image.tmdb.org/t/p/w500/9e2zBDDJNzwKymAWDuLhgViPc06.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ojZdqcOI3PjVfeNAAtLoruT4Fpl.jpg",
+      "releaseInfo": "2009"
+    },
+    {
       "id": "tmdb:6647",
       "type": "series",
       "name": "Amour, gloire et beauté",
@@ -141,31 +140,6 @@
       "releaseInfo": "1987"
     },
     {
-      "id": "tmdb:114439",
-      "type": "series",
-      "name": "Let's Make a Deal",
-      "poster": "https://image.tmdb.org/t/p/w500/9e2zBDDJNzwKymAWDuLhgViPc06.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ojZdqcOI3PjVfeNAAtLoruT4Fpl.jpg",
-      "releaseInfo": "2009"
-    },
-    {
-      "id": "tmdb:253391",
-      "type": "series",
-      "name": "Sheriff Country",
-      "poster": "https://image.tmdb.org/t/p/w500/cRJ8IIKBvozOxQG0oTGhH2rd3Th.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mhTIUNa9BI019NuXrUBYYCkZ199.jpg",
-      "description": "Mickey Fox, la shériffe intègre de la petite ville rurale d'Edgewater, en Californie, et demi-soeur de Sharon Leone, chef de division chez Cal Fire, doit concilier les exigences de l'application de la loi avec les complexités de la maternité, la politique communautaire et un passé qui refuse de rester enfoui.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:3719",
-      "type": "series",
-      "name": "48 Hours",
-      "poster": "https://image.tmdb.org/t/p/w500/kniPe4BLIcj2WnErZcFeHo50q6B.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dsf201EcCENveE99OHK6vwYgekn.jpg",
-      "releaseInfo": "1988"
-    },
-    {
       "id": "tmdb:243006",
       "type": "series",
       "name": "NCIS : Origins",
@@ -173,6 +147,31 @@
       "background": "https://image.tmdb.org/t/p/w780/mxq7PO5QCIqBEeU09xfthxx7wGY.jpg",
       "description": "L'histoire commence en 1991, des années avant les événements de NCIS, et suit le jeune Leroy Jethro Gibbs. Débutant sa carrière en tant que nouvel agent spécial au bureau du NCIS à Camp Pendleton, Gibbs se fait une place au sein d’une équipe hétéroclite et courageusement dirigée par la légende du NCIS Mike Franks.",
       "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:303630",
+      "type": "series",
+      "name": "Cupertino",
+      "poster": "https://image.tmdb.org/t/p/w500/70AhJpOqU2oKyQF2paJA764CSje.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/f9BMWxAWzFqXtqayrAyNbDFg9cK.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:319800",
+      "type": "series",
+      "name": "NCIS: New York",
+      "poster": "https://image.tmdb.org/t/p/w500/ifmi1Rr9v2qckSsxhNiQIVLE51p.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wLL8oRsz9XGFQpnCpgi8S0Pj6sO.jpg",
+      "description": "De retour dans sa ville natale de New York, l’agent du NCIS Sam Hanna rejoint le bureau local. Il y fait équipe avec un agent au tempérament rebelle, qu’il aide à encadrer au sein d’une nouvelle unité chargée de missions à haut risque, destinée à protéger l’une des villes et des ports les plus stratégiques au monde.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:96499",
+      "type": "series",
+      "name": "CMA Awards",
+      "poster": "https://image.tmdb.org/t/p/w500/uAEAgDb2LW691aHP7fJoWqoYi9O.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cBCVF34FR9fbL0s0HH92ZuLyZ19.jpg",
+      "releaseInfo": "1967"
     }
   ]
 }

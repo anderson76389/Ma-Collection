@@ -4,8 +4,8 @@
       "id": "tmdb:1402181",
       "type": "movie",
       "name": "Scene",
-      "poster": "https://image.tmdb.org/t/p/w500/1vjVJKpdT6gha7cpkmDJODpk8mU.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lqUXVYTzs4KD3Wn1GRIlqM2QjDU.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/kfc4w3OX8QsFm8f9MPUdmGheNl3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xhBaF3bpEnZhf61klsWaFKkNZF.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -31,7 +31,7 @@
       "type": "movie",
       "name": "ஜெயிலர் 2",
       "poster": "https://image.tmdb.org/t/p/w500/upwdEyhhYZ7pT2hD535fr2MGfpx.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/m0ks2o59mOAz6WdCybJ5FAUNTOU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uxGoKyTnXylK5M4z1hyyaWbmBV7.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -81,6 +81,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/cjlTP8YWEmlzASE2tRZ1LGB0Yz5.jpg",
       "background": "https://image.tmdb.org/t/p/w780/kgZFECKytirVvmIbWF6slEoWZng.jpg",
       "description": "À travers quatre courts métrages, brefs mais chargés d'émotion, cette anthologie explore une nouvelle fois la luxure, l'amour, les relations et le désir refoulé, offrant ainsi un regard neuf sur l'intimité, le désir et les liens humains dans toute leur complexité.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1654566",
+      "type": "movie",
+      "name": "वाइब",
+      "poster": "https://image.tmdb.org/t/p/w500/1K2cYaK42vcQkg1iITxF6xcbJrs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/paZuQDNYwuD0WBwZERfvgSNQZDz.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -146,8 +154,8 @@
       "id": "tmdb:1441228",
       "type": "movie",
       "name": "ఇరుముడి",
-      "poster": "https://image.tmdb.org/t/p/w500/bkK41z5SCCH9LJyk8cpcl7NztoV.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/578jrGVEN4a5rxJGtkt9sMI2w6c.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/dVFtTKMWW1aq7aWq30wjwOP6W3J.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/baKI5pKd7TdjRAg216JOxnMMxiJ.jpg",
       "description": "Un père alcoolique au passé violent mène une vie paisible avec sa fille près d’une cascade. À la demande de celle-ci, il entreprend l’Ayyappa Deeksha, un voyage spirituel qui le confrontera à ses démons et mettra à l’épreuve sa volonté de changer.",
       "releaseInfo": "2026"
     },
@@ -157,14 +165,6 @@
       "name": "ഖലീഫ: The Ruler",
       "poster": "https://image.tmdb.org/t/p/w500/3HOC3omTbl7lB9gxKu7uCEpOtuC.jpg",
       "background": "https://image.tmdb.org/t/p/w780/6Jz7rnnZrSkgs9ySWUxewpcxr7Q.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1408162",
-      "type": "movie",
-      "name": "விஸ்வநாத் & சன்ஸ்",
-      "poster": "https://image.tmdb.org/t/p/w500/f5yXF2vBOxZcPxvw1P7kXXqOVFV.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nfNaAiiILjYRc2CKkId1ZfPTtlh.jpg",
       "releaseInfo": "2026"
     }
   ]

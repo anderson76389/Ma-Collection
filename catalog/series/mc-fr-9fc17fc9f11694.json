@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:308007",
+      "type": "series",
+      "name": "The Altruists",
+      "poster": "https://image.tmdb.org/t/p/w500/hiX70sXdvEPVE11QqmLuaX16gdh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/m8JTMj7jDMJFZAPP1ASmSi4gMWi.jpg",
+      "description": "Jeunes, idéalistes et soudain milliardaires, ils voulaient faire le bien... avant de se pousser au pire. Un amour toxique sur fond d'escroquerie réelle.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:254630",
       "type": "series",
       "name": "12 12 12",
@@ -22,7 +31,7 @@
       "id": "tmdb:291507",
       "type": "series",
       "name": "The Body",
-      "poster": "https://image.tmdb.org/t/p/w500/swEOVOmkYtTg3UBStrvt1yZJm26.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/pi1hkk70TvHSSSenNFkryRPb0nG.jpg",
       "background": "https://image.tmdb.org/t/p/w780/hYJqUoXRZnodGxgVZTM8uwr5kbC.jpg",
       "description": "Le soir d'Halloween, un rite d'initiation vire au cauchemar, faisant basculer une troupe de danseuses dans la culpabilité catholique, les désirs impies et les visions étranges.",
       "releaseInfo": "2026"
@@ -32,7 +41,7 @@
       "type": "series",
       "name": "The Greatest",
       "poster": "https://image.tmdb.org/t/p/w500/rCYv5ZKtiwqNCRtHDoDA7kgoi9X.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/b57tPAE2rpUoNpa63o7U2sFvIZs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/baMHKUmvzRFp34hZ21TYPLw2HG4.jpg",
       "description": "Tout juste médaillé d'or aux JO de 1960, le jeune boxeur Muhammad Ali (alors Cassius Clay) vise le titre de champion poids lourd. Face à une nouvelle célébrité, les doutes, le conflit familial et une Amérique politisée, le prodige exceptionnel découvre que son plus grand adversaire n'est pas sur le ring, mais dans une société qui n'est pas prête à ce qu'il devienne son propre maître.",
       "releaseInfo": "2026"
     },
@@ -88,6 +97,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/bWPktguPGslrdM79SNQt4OWYyJS.jpg",
       "background": "https://image.tmdb.org/t/p/w780/uoXXbN2PrOxH6UKyP7kYwmGpAAP.jpg",
       "description": "Une nouvelle version de Vision ayant échappé à ceux qui cherchaient à faire de lui une arme, vit dans la clandestinité. En quête d’un nouveau sens à sa vie, il consulte les IA intégrées à son programme, notamment Friday, Edith, Jarvis et le tristement célèbre Ultron. Son existence discrète prend fin lorsque sa tête est mise à prix, le contraignant à prendre la fuite avec Thomas Shepherd, un garçon mystérieux qui pourrait bien être la réincarnation du fils de Vision. Tout en échappant à ses poursuivants, Vision doit se confronter à sa propre nature, résister à l’influence d’Ultron et percer le mystère qui entoure son jeune compagnon s’il veut survivre.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:307176",
+      "type": "series",
+      "name": "Dustfall",
+      "poster": "https://image.tmdb.org/t/p/w500/a7LdXshL4vuCA3LWB2gNNckBIpO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/q7VXA2jZ88Dvp7TPbqNVWwR94ik.jpg",
+      "description": "Tout juste de retour dans sa ville de North Gap après avoir passé plusieurs années dans la capitale, l’enquêtrice Tig Pollard est chargée de l’affaire d’Edie, une jeune fille de 18 ans retrouvée nue dans un champ de canne à sucre, sans aucun souvenir de la façon dont elle est arrivée là. Ce qui commence comme une affaire d’agression sexuelle prend une tournure de plus en plus sombre, et la quête de vérité de Tig devient personnelle lorsqu’une personne de son passé refait surface, la forçant à affronter des secrets longtemps enfouis de sa propre adolescence.",
       "releaseInfo": "2026"
     },
     {
@@ -158,24 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/a3WtN94ghHX7pV44g2za35ApYDm.jpg",
       "background": "https://image.tmdb.org/t/p/w780/mGFtH5pUXDd4hSXUfl8HnHlRWJV.jpg",
       "description": "Au cœur envoûtant de La Nouvelle-Orléans, suivez trois jeunes sorcières et leurs homologues masculins — des sorciers au charme dangereux — au sein d'un internat de magie d'élite où le pouvoir est une monnaie d'échange, les secrets peuvent être mortels et l'attirance, un risque majeur. Pris entre des guerres surnaturelles ancestrales et des amours interdites, le clan doit décider jusqu'où il est prêt à aller pour protéger sa ville... et se protéger lui-même.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:258165",
-      "type": "series",
-      "name": "À l'est d'Éden",
-      "poster": "https://image.tmdb.org/t/p/w500/ygwE4kbLxKApQoC26Q0DiJQnkMl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/70RZX7kNjA0Qjn6HigB1oMvFJ8R.jpg",
-      "description": "Au début du 20e siècle, une femme d'une indépendance farouche provoque une rupture entre deux frères, lançant une saga qui va s'étendre sur deux générations.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:292742",
-      "type": "series",
-      "name": "S.W.A.T. Exiles",
-      "poster": "https://image.tmdb.org/t/p/w500/pPiEujhVa2MBSowmvnNWqEzxH0x.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mNIc5QqjBuXHeeyj6P4WSqTCBu9.jpg",
-      "description": "Après l'échec retentissant d'une mission très médiatisée, Daniel « Hondo » Harrelson est sorti de sa retraite forcée pour prendre la tête d'une unité SWAT expérimentale, qui représente une dernière chance, composée de jeunes recrues inexpérimentées et imprévisibles. Hondo doit combler le fossé générationnel, gérer des personnalités qui s'affrontent et transformer une équipe de marginaux en une équipe capable de protéger la ville et de sauver le programme qui a fait de lui ce qu'il est aujourd'hui.",
       "releaseInfo": "2026"
     }
   ]

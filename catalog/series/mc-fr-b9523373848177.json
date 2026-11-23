@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:335981",
+      "type": "series",
+      "name": "Le Cinéma selon Cunk",
+      "poster": "https://image.tmdb.org/t/p/w500/zrrRRvavkLQupkC6aEkdA8sX4E8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3NA7FxkqAaG1buZC1WtdPDpMlZg.jpg",
+      "description": "Dans cette série mockumentaire espiègle, Philomena Cunk part à la découverte de l'histoire du cinéma, sans manquer de laisser plusieurs experts perplexes en chemin.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:321221",
       "type": "series",
       "name": "Minimum Wage",
@@ -32,7 +41,7 @@
       "type": "series",
       "name": "Eternally Yours",
       "poster": "https://image.tmdb.org/t/p/w500/gMKJJtwOnTkhkbdQabyo7OKTosb.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1bmsSexBYKUlkst0TgHZCdf4EvH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gwCBpVEwXl21rTPr61MSG5L6nlX.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -166,15 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/zTUuiutD2Kj8lwd552uX8dzxA24.jpg",
       "background": "https://image.tmdb.org/t/p/w780/dT7ARI93vfbP1Tf8fuVfDFMyQqE.jpg",
       "description": "Quand Bobby et sa meilleure amie Romy ouvrent par accident un portail maléfique, ils transforment leur tranquille petite ville côtière en destination de choix pour de terrifiantes créatures démoniaques. Les deux amis rencontrent « L’Elue », et combattent toutes sortes de démons - intérieurs ou bien réels - dans cette épopée mêlant humour et horreur, pleine de sensations fortes, de frissons et d’émotions pour ces deux adolescents ordinaires embarqués dans une aventure extraordinaire.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:318203",
-      "type": "series",
-      "name": "Alice et Steve",
-      "poster": "https://image.tmdb.org/t/p/w500/90StjTgxw3TS3GxPn1VYmQmclqt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1mN5cydNUFqd7MHfOwhcHZzLnvT.jpg",
-      "description": "Alice est dévastée quand son meilleur ami Steve fréquente sa fille de 26 ans, Izzy. Elle va perdre son meilleur ami et sa fille d'un coup. Elle décide d'utiliser tous les outils dont elle dispose pour mettre fin à leur relation: des menaces, en passant par la supplication, en allant jusqu'au sabotage de carrière. Malheureusement pour elle, Steve est plus que prêt à l'attaque, et ce qui semblait être une amitié parfaite devient un combat sans fin. Finalement, le mari d'Alice, Daniel, perd patience. Cette situation a fait ressortir les mauvais côtés d'Alice qui lui font peur. Steve sait qu'Izzy est la meilleure chose qui puisse lui arriver et veut tenter sa chance. Mais Alice n'est pas de cet avis.",
       "releaseInfo": "2026"
     }
   ]

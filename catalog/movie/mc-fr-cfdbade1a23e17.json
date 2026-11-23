@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1300968",
+      "type": "movie",
+      "name": "Hunger Games : Lever de soleil sur la moisson",
+      "poster": "https://image.tmdb.org/t/p/w500/2crlvf4VsSQORysk1A8o2jBUduI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
+      "description": "Alors que le jour se lève sur les 50e Hunger Games annuels, la peur s'empare des districts de Panem. Cette année, en l'honneur du Quarter Quell, deux fois plus de tributs seront tirés au sort. Dans le District 12, Haymitch Abernathy essaie de ne pas trop penser à ses chances. Tout ce qui lui importe est d'être avec la fille qu'il aime. Mais lorsque qu'il est appelé, tous ses rêves s'effondrent. Il est arraché à sa famille et à son amour, transporté au Capitole avec les trois autres tributs du District 12 : une jeune amie qui est presque une sœur pour lui, un parieur compulsif, et la fille la plus prétentieuse de la ville. Alors que les Jeux commencent, Haymitch comprend qu'il a été piégé pour échouer. Mais il est prêt à se battre... et faire en sorte que ce combat résonne bien au-delà de l'arène.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1437511",
       "type": "movie",
       "name": "Comment braquer une banque",
@@ -19,11 +28,20 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1642568",
+      "type": "movie",
+      "name": "The Last Temptation of Becky",
+      "poster": "https://image.tmdb.org/t/p/w500/nzSx9jiInWGWumMV1n1qyRqrpbq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4IyYpwIUAkWE3CiUEg2YItc4mIv.jpg",
+      "description": "Becky, désormais agent de la CIA, infiltre un établissement situé près du bunker d'Hitler en Pologne pour empêcher une famille d'aubergistes de lancer le Quatrième Reich. Elle doit prendre les choses en main pour faire échouer leur plan.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1532997",
       "type": "movie",
       "name": "Dead Howling",
       "poster": "https://image.tmdb.org/t/p/w500/i1vpLPnHVAZq1CyJlpVS8YI7a93.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9p8myU6v4AemtusJeln6dSJqQo6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bL2mZNrVdeNNOICyuFfPJq7YA4s.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -31,7 +49,7 @@
       "type": "movie",
       "name": "The Mongoose",
       "poster": "https://image.tmdb.org/t/p/w500/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bySCyjQXNPgsnLTlgJpSMnRazPD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uAe2LEuZ2xg312FY7D8Ei4bl0aG.jpg",
       "description": "Accusé d'un crime qu'il n'a pas commis et n'ayant plus rien à perdre, un héros de guerre aux prises avec un syndrome de stress post-traumatique entraîne les forces de l'ordre dans une course-poursuite effrénée à travers tout le pays, avec l'aide de ses frères d'armes, tandis qu'un public captivé encourage sa fuite.",
       "releaseInfo": "2026"
     },
@@ -49,8 +67,17 @@
       "type": "movie",
       "name": "Street Fighter",
       "poster": "https://image.tmdb.org/t/p/w500/k53HHxQ4rQG0dME6nsofii3QNS7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/w2Gu916zS11X94CZaSLpzvfgHcG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg",
       "description": "En 1993, Ryu et Ken Masters, deux Street Fighters autrefois inséparables, sont replongés dans l’arène lorsque la mystérieuse Chun-Li les recrute pour le prochain World Warrior Tournament : un affrontement brutal où se mêlent poings, destin et fureur. Mais derrière cette battle royale se cache une conspiration mortelle qui les oblige à s’affronter, tout en faisant face aux démons de leur passé… Et s’ils échouent, c’est GAME OVER.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1545690",
+      "type": "movie",
+      "name": "WWE Money in the Bank 2026",
+      "poster": "https://image.tmdb.org/t/p/w500/wRFDnH3XzwDKV9QU3DTYNU8XX2R.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vdwmT1oZcDgkjvmyu7OYw1z6GYx.jpg",
+      "description": "L'édition 2026 de Money in the Bank (commercialisé sous le nom de Money in the Bank: New Orleans) est un Premium Live Event de catch (lutte professionnelle) produit par la World Wrestling Entertainment, une fédération de catch américaine qui est télédiffusée et visible en paiement à la séance sur Netflix. L'événement aura lieu le 10 octobre 2026 au Smoothie King Center à la Nouvelle-Orléans (Louisiane). Il s'agit de la 17e édition de Money in the Bank.",
       "releaseInfo": "2026"
     },
     {
@@ -84,7 +111,7 @@
       "type": "movie",
       "name": "The Beast",
       "poster": "https://image.tmdb.org/t/p/w500/ocg5JfJP19fodcv5uQUApkmZMdI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/v5Wb9NoE0s1mGmC5wVeQR1OK22V.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r5RYEmZzm1Z6imS7XfiKPnMlyc7.jpg",
       "description": "Lorsqu'une attaque mondiale coordonnée plonge la planète dans le chaos, le président américain et son dernier agent des services secrets montent à bord de \"The Beast\", une limousine high-tech militarisée et dotée d'un arsenal défensif impressionnant, pour se lancer dans une course effrénée qui décidera du sort du monde libre.",
       "releaseInfo": "2026"
     },
@@ -106,12 +133,12 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1244523",
+      "id": "tmdb:1437396",
       "type": "movie",
-      "name": "Beware Boiúna",
-      "poster": "https://image.tmdb.org/t/p/w500/zvDKEHLhr6bk4Gxa9oj0DIkWNJh.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9nU0FKNefmhbgi2xXlvZchZsqwm.jpg",
-      "description": "Au cœur de l'Amazonie, une mission médicale se transforme en une lutte pour la survie lorsque Boiúna, un prédateur ancestral colossal, se réveille pour reconquérir son territoire. Dans cette jungle où la nature règne en maître, c'est elle qui décide qui vivra et qui mourra.",
+      "name": "Your Mother Your Mother Your Mother",
+      "poster": "https://image.tmdb.org/t/p/w500/58g3PjU11nBszOWc836lC8t2Mzi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/45Mbs6dmn2W0hvuyxXPDkKREHpP.jpg",
+      "description": "À Houston, Latif, tueur à gages musulman et père de trois enfants, perd brutalement sa femme. Lorsque son nouveau-né refuse le lait maternisé, il se lance à la recherche d'Une nourrice, une démarche qui le conduit sur la piste d’un ex-militaire devenu prédicateur radical à la tête d’une milice d’extrême droite. Tandis que son ancien employeur tente de le ramener dans le milieu, Latif est entraîné dans un conflit qui menace sa famille autant que ses convictions.",
       "releaseInfo": "2026"
     },
     {
@@ -148,32 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/gkVq1Pd46NF7AP5XQZfRHjQfCXX.jpg",
       "background": "https://image.tmdb.org/t/p/w780/xSrMnN6IBmNgQqAbECRPZO8Ielv.jpg",
       "description": "Après que des terroristes islamistes ont pris d'assaut un campement pro-palestinien installé sur le campus d'une université dans le but d'imposer la charia aux étudiants et d'exécuter les dissidents qu'ils considèrent comme des « infidèles », un groupe d'étudiants, un agent de sécurité et un ancien membre de la Delta Force s'allient pour riposter.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1340102",
-      "type": "movie",
-      "name": "Lion Fist",
-      "poster": "https://image.tmdb.org/t/p/w500/ezFIXWTbIXlBuZ4kKgto4N3i3of.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mfevSm3elJX1IqCjBxC7bGl07s2.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1228834",
-      "type": "movie",
-      "name": "The Fix",
-      "poster": "https://image.tmdb.org/t/p/w500/jlP8XDjZN89GrpM3je5Uf8Grqx8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dJTWIecL2vxsCRl5G0lRhPsfrhc.jpg",
-      "description": "Après une mission désastreuse en Afghanistan, des agents de la CIA affectés par les combats tentent de se racheter en menant une opération de sauvetage risquée au cœur de Téhéran.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:977942",
-      "type": "movie",
-      "name": "The Uprising",
-      "poster": "https://image.tmdb.org/t/p/w500/ymUS8HTc7ctfdSYC6bmEokSKisa.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kAlAFblqBI6aGXItR4DRpT5Tozg.jpg",
-      "description": "Lors de la révolte des paysans anglais de 1381, l'humble Wat Tyler s'élève à la tête de la résistance contre le jeune roi Richard II. À la tête d'une armée de citoyens ordinaires, il affronte les troupes de la Couronne dans une lutte pour la justice et la survie. Ses actions font de lui un symbole légendaire de la résistance.",
       "releaseInfo": "2026"
     }
   ]

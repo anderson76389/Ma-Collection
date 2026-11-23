@@ -35,15 +35,6 @@
       "releaseInfo": "2006"
     },
     {
-      "id": "tmdb:97867",
-      "type": "series",
-      "name": "Family Feud Canada",
-      "poster": "https://image.tmdb.org/t/p/w500/ohlgnAbNTZYZ0PhsM57HPTJ0pg7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vK8tSeOh7WTkPqLu3kK34U8zmiE.jpg",
-      "description": "Il s'agit de la version canadienne du jeu TV \"Une famille en or\", originaire des Etats-Unis sous le nom de Family Feud. Deux familles composées de cinq membres s'affrontent en donnant leur opinion, sur des questions posées à 100 Canadiens. Le but est de se rapprocher le plus de l'opinion des Canadiens sondés, afin d'amasser un maximum de points pour accéder à la finale et gagner le gros lot !",
-      "releaseInfo": "2019"
-    },
-    {
       "id": "tmdb:154827",
       "type": "series",
       "name": "La famille Critch",
@@ -51,13 +42,6 @@
       "background": "https://image.tmdb.org/t/p/w780/4WmsP0iPf4Rttjq9oDJJ4nUUw3t.jpg",
       "description": "La famille Critch raconte les aventures désopilantes et pourtant véridiques du jeune Mark, 11 ans, à Saint-Jean, dans la province de Terre-Neuve-et-Labrador. La série jette un regard authentique sur la vie d’un enfant trop vieux pour son âge, qui utilise l’humour et l’autodérision pour nouer des amitiés et tisser des liens avec le petit nombre de personnes qui gravitent dans son univers limité.",
       "releaseInfo": "2022"
-    },
-    {
-      "id": "tmdb:11347",
-      "type": "series",
-      "name": "Heritage Minutes",
-      "poster": "https://image.tmdb.org/t/p/w500/AbCdDJTjzSGP0jfMe1SySSlAJuy.jpg",
-      "releaseInfo": "1991"
     },
     {
       "id": "tmdb:75817",

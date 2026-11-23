@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:314271",
+      "type": "series",
+      "name": "Bass X Machina",
+      "poster": "https://image.tmdb.org/t/p/w500/q7eWmFOfdHqm15YrKiYmR8XEVRx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ygjcwHWhhCaNPaPP965Du7eR2gO.jpg",
+      "description": "Dans un Far West steampunk sous la coupe des hors-la-loi, des machines et de forces surnaturelles, un père de famille doit se faire juge, juré et bourreau pour protéger les siens.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:314360",
       "type": "series",
       "name": "YAGA",
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/5vr72cfj5cE8kftq1PWRCv2o3hh.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ulBGaxq9GmJexyEOi4Xci74g6Vt.jpg",
       "description": "Hawkins, hiver 1985. Nous voilà de retour dans une ville qui regorge de secrets, où nos héros adorés affrontent de nouveaux mystères... et une nouvelle vague de phénomènes étranges.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:289219",
-      "type": "series",
-      "name": "Star Wars : Maul - Seigneur de l'ombre",
-      "poster": "https://image.tmdb.org/t/p/w500/Av4nP5DgAjRpPWOe81SoE0oc8D0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cvvj1RXGmmAZ1FZr6CrUu8LgQm5.jpg",
-      "description": "Après la Guerre des Clones, Maul projette de reconstruire son organisation criminelle sur une planète épargnée par l'Empire. Il croise la route d'un jeune Padawan désabusé, qui pourrait devenir l'apprenti qu'il cherche, et une aide précieuse dans sa quête de vengeance.",
       "releaseInfo": "2026"
     }
   ]

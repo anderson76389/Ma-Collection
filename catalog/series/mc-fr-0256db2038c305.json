@@ -21,17 +21,9 @@
       "id": "tmdb:110709",
       "type": "series",
       "name": "Police: Suspect No.1",
-      "poster": "https://image.tmdb.org/t/p/w500/qCDYGA4Gb68ohnYWqxGPnOmSCwg.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/pdywAhG0g61agLKIncsyPvx4pI.jpg",
       "background": "https://image.tmdb.org/t/p/w780/xArc41Unu9ur0LdRlmRMKGZser7.jpg",
       "releaseInfo": "2020"
-    },
-    {
-      "id": "tmdb:300827",
-      "type": "series",
-      "name": "Traffic Cops: Pursuit Squad One",
-      "poster": "https://image.tmdb.org/t/p/w500/ggh1vAwYfu3bG1htqC4aDar868B.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/r0W1aD1xEpIWTDPq2PhUt3dmYC7.jpg",
-      "releaseInfo": "2025"
     },
     {
       "id": "tmdb:261393",
@@ -42,11 +34,27 @@
       "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:341464",
+      "id": "tmdb:329027",
       "type": "series",
-      "name": "At War with Next Door",
-      "poster": "https://image.tmdb.org/t/p/w500/7l75q7fqjxL5FKRmQsXEXFnOGGk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/59orQJlQK93XwERgJmYTpG0nnKD.jpg",
+      "name": "The Royals Uncensored",
+      "poster": "https://image.tmdb.org/t/p/w500/fga9vwcQxpcRTtOELdDF1DbsKQw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/u88O3SFoQfMex8dkKN1Em8AEC4j.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:300827",
+      "type": "series",
+      "name": "Traffic Cops: Pursuit Squad One",
+      "poster": "https://image.tmdb.org/t/p/w500/ggh1vAwYfu3bG1htqC4aDar868B.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r0W1aD1xEpIWTDPq2PhUt3dmYC7.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:342461",
+      "type": "series",
+      "name": "Inside the Bomb Squad: Zero Hour",
+      "poster": "https://image.tmdb.org/t/p/w500/taUcyaCXwzJzIBx6dqKhWrnrGBM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xYrlhXFEi5qcLTRzWn562kp5Mx5.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -66,12 +74,12 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:240613",
+      "id": "tmdb:341464",
       "type": "series",
-      "name": "The Incident Room",
-      "poster": "https://image.tmdb.org/t/p/w500/3GBZPhDLJWAcrPg8sYgpFeETsfO.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gbYtZcvcA9vdSwZimYyUi234tjI.jpg",
-      "releaseInfo": "2023"
+      "name": "At War with Next Door",
+      "poster": "https://image.tmdb.org/t/p/w500/7l75q7fqjxL5FKRmQsXEXFnOGGk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/59orQJlQK93XwERgJmYTpG0nnKD.jpg",
+      "releaseInfo": "2026"
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
   "metas": [
     {
-      "id": "tmdb:312359",
+      "id": "tmdb:65733",
       "type": "series",
-      "name": "Dragon Ball Super : Beerus",
-      "poster": "https://image.tmdb.org/t/p/w500/sGuCmIy8kEmx3FWZyMj654rF6g8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg",
-      "description": "Des années après la défaite de Majin Buu, la paix est revenue sur Terre. Mais lorsque Beerus, le Dieu de la Destruction, se réveille, cette tranquillité vole en éclats. Attiré sur Terre par des rumeurs concernant le Saiyan qui a vaincu Freezer, Beerus cherche à défier Goku en déployant une puissance capable de détruire des planètes entières. Goku et ses alliés doivent désormais affronter Beerus dans un combat qui fera trembler l'univers.",
-      "releaseInfo": "2026"
+      "name": "Doraemon",
+      "poster": "https://image.tmdb.org/t/p/w500/9YqdMXlPTQGLIG67vqZdsPdPC4T.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/c2oiRa7V3bQzof4wVGzLXtWJ5QU.jpg",
+      "description": "Les aventures du chat bleu.",
+      "releaseInfo": "2005"
     },
     {
       "id": "tmdb:45790",
@@ -15,17 +15,17 @@
       "name": "JoJo's Bizarre Adventure",
       "poster": "https://image.tmdb.org/t/p/w500/2Sc0veFPh9CcHMtNqMyiQqIW9ZF.jpg",
       "background": "https://image.tmdb.org/t/p/w780/l2gc2dPRUPe3bAfYCRTjc6uAMmB.jpg",
-      "description": "L’histoire sur des décennies des aventures étranges de la famille Joestar et de leur destin entremêlé face à Dio, leur ennemi juré et l'héritage de ce dernier. Chaque illustre membre est surnommé Jojo, un nom composé de la contraction des premières syllabes de leur nom et prénom et un tatouage en forme d'étoile à la base du cou. Ils ont tous la particularité de développer des capacités hors du commun, d’abord le hamon, puis le stand, la représentation physique de leur esprit combatif.\n\nA partir de Steel Ball Run, l’histoire repart à zéro et suit les aventures de Johnny Joestar, un jockey paraplégique qui concourt à la Steel Ball Run, une course qui relie San Diego à New York afin de remporter le premier prix et de donner un sens à sa vie. Mais sa rencontre avec Gyro Zeppeli, un concurrent armé de ses étranges sphères d’aciers bouleversera son existence. Mais la course cache un objectif plus grand qui les feront affronter des adversaires dotés de stands imprévisibles et dangereux.",
+      "description": "L’histoire sur des décennies des aventures étranges de la famille Joestar, de leur destin lié à Dio, leur ennemi juré et l'héritage de ce dernier. Chaque illustre membre est surnommé Jojo, un nom composé de la contraction des mêmes syllabes de leur nom et prénom et possède un tatouage en forme d'étoile à la base du cou. Ils ont tous la particularité de développer des pouvoirs hors du commun, d’abord le hamon, puis le stand, la représentation physique de leur esprit combatif.\n\nA partir de Steel Ball Run, l’histoire repart à zéro et suit les aventures de Johnny Joestar, un jockey paraplégique qui concourt à la Steel Ball Run, une course reliant San Diego et New York afin de remporter le premier prix et de donner un sens à sa vie. Mais sa rencontre avec Gyro Zeppeli, un concurrent armé d'étranges sphères d’aciers bouleversera son existence. Surtout, la course cache un objectif plus grand qui les feront affronter des adversaires dotés de stands imprévisibles et dangereux.",
       "releaseInfo": "2012"
     },
     {
-      "id": "tmdb:105009",
+      "id": "tmdb:312359",
       "type": "series",
-      "name": "Tokyo Revengers",
-      "poster": "https://image.tmdb.org/t/p/w500/kzDHRAkFjeed0lJpjE1eKJDcowS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zYIFOocMfsKAEysBjhZ8akfXFdB.jpg",
-      "description": "Takemichi Hanagaki n'a pas vraiment réussi sa vie. Il fait des petits boulots sans intérêt et lorsqu'il apprend que la seule petite amie qu'il ait jamais eu au collège, Hinata Tachibana, a été tuée par l'impitoyable gang Tokyo Manji-kai, il est anéanti. Le lendemain, toujours sous le choc, il est poussé sur les rails de la gare lors d'un mouvement de foule. Mais Takemichi ne meurt pas et quand il se réveille, il est revenu douze ans en arrière. Il va ainsi retrouver ses meilleures années, mais aussi tenter de sauver celle qui l'aime et prendre sa revanche sur la vie…",
-      "releaseInfo": "2021"
+      "name": "Dragon Ball Super : Beerus",
+      "poster": "https://image.tmdb.org/t/p/w500/sGuCmIy8kEmx3FWZyMj654rF6g8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg",
+      "description": "Des années après la défaite de Majin Buu, la paix est revenue sur Terre. Mais lorsque Beerus, le Dieu de la Destruction, se réveille, cette tranquillité vole en éclats. Attiré sur Terre par des rumeurs concernant le Saiyan qui a vaincu Freezer, Beerus cherche à défier Goku en déployant une puissance capable de détruire des planètes entières. Goku et ses alliés doivent désormais affronter Beerus dans un combat qui fera trembler l'univers.",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:220150",
@@ -41,9 +41,18 @@
       "type": "series",
       "name": "Black Clover",
       "poster": "https://image.tmdb.org/t/p/w500/zObHoFAX6P7DirR2dybN3cVC1Ms.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qu9epTZh29fGUkY7ZYc9PVsv0Ig.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AsaEmDMgrt9MCCTXxUzY9PtFZko.jpg",
       "description": "Dans un monde régi par la magie, Yuno et Asta ont grandi ensemble avec un seul but en tête : devenir le prochain Empereur-Mage du royaume de Clover. Mais si le premier est naturellement doué, le deuxième, quant à lui, ne sait pas manipuler la magie. C'est ainsi que lors de la cérémonie d'attribution de leur grimoire, Yuno reçoit le légendaire grimoire au trèfle à quatre feuilles tandis qu'Asta, lui, repart bredouille. Or, plus tard, un ancien et mystérieux ouvrage noir décoré d'un trèfle à cinq feuilles surgit devant lui ! Un grimoire d’anti-magie…",
       "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:105009",
+      "type": "series",
+      "name": "Tokyo Revengers",
+      "poster": "https://image.tmdb.org/t/p/w500/kzDHRAkFjeed0lJpjE1eKJDcowS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zYIFOocMfsKAEysBjhZ8akfXFdB.jpg",
+      "description": "Takemichi Hanagaki n'a pas vraiment réussi sa vie. Il fait des petits boulots sans intérêt et lorsqu'il apprend que la seule petite amie qu'il ait jamais eu au collège, Hinata Tachibana, a été tuée par l'impitoyable gang Tokyo Manji-kai, il est anéanti. Le lendemain, toujours sous le choc, il est poussé sur les rails de la gare lors d'un mouvement de foule. Mais Takemichi ne meurt pas et quand il se réveille, il est revenu douze ans en arrière. Il va ainsi retrouver ses meilleures années, mais aussi tenter de sauver celle qui l'aime et prendre sa revanche sur la vie…",
+      "releaseInfo": "2021"
     },
     {
       "id": "tmdb:216467",
@@ -53,6 +62,15 @@
       "background": "https://image.tmdb.org/t/p/w780/xlMVEbNl7ZBGFyhX2WEhQ8Kifm4.jpg",
       "description": "Taiyô Asano est un lycéen à la timidité maladive. La seule personne avec qui il arrive à parler normalement est son amie d'enfance Mutsumi Yozakura. Mais cette dernière est la fille d'une famille d'espions qui oeuvre depuis plusieurs générations, et son grand frère, qui lui voue une affection excessive, a décidé d'éliminer Taiyô !",
       "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:226688",
+      "type": "series",
+      "name": "BEYBLADE X",
+      "poster": "https://image.tmdb.org/t/p/w500/66wkm14IWdrY5LaKZDAbkD2T9Jt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qAq9RBeHZoTMDFqQZ2o4cE5CJIQ.jpg",
+      "description": "Robin Kazami, blader débutant, s'associe à l'influenceuse Multi Nana-iro et à l'ancien champion Jaxon Cross pour former ce trio improbable, prêt à gravir les échelons du classement The X et à remporter le titre de champion blader !",
+      "releaseInfo": "2023"
     },
     {
       "id": "tmdb:259140",
@@ -70,15 +88,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/fmAQ2lOtLAoEU2p6wQ12wXbIgLM.jpg",
       "background": "https://image.tmdb.org/t/p/w780/745xqHbiUWwO51TM60MXRCR4Onm.jpg",
       "description": "Grid, un homme malchanceux dans la vie et joueur de bas niveau dans le célèbre jeu vidéo Satisfy, trouve un objet puissant qui lui vaut un titre légendaire rare : L'Héritier de Pagma. Il est désormais un forgeron talentueux doté d’armes uniques, mais il se rend compte que sa réputation lui cause quelques soucis.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:306721",
-      "type": "series",
-      "name": "Star Detective PreCure!",
-      "poster": "https://image.tmdb.org/t/p/w500/zuPQ9R5x17EM6xEA37TLRkL2BGD.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bOgsRcvQcetWXtVnPgKtYYf9aSV.jpg",
-      "description": "Le jour de son 14e anniversaire, Anna Akechi rencontre une fée magique et se retrouve soudainement transportée de 2027 à 1999 ! Elle se lie d'amitié avec Mikuru, une jeune fille pleine d'entrain qui rêve de devenir détective. Lorsque de mystérieux vols font naître des rumeurs sur les Voleurs Fantômes, les deux jeunes filles se transforment en Detective Precure et utilisent leur courage, leur esprit de déduction et leur amitié pour résoudre des affaires et découvrir le secret du voyage dans le temps d'Anna.",
       "releaseInfo": "2026"
     },
     {
@@ -100,21 +109,21 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:328010",
-      "type": "series",
-      "name": "Devils' Crest",
-      "poster": "https://image.tmdb.org/t/p/w500/kimx6VeIKhNQH0sqyT2OXfWUO07.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fA6eLsm6xEBK90IK3UNWoVPZBn7.jpg",
-      "description": "Une nouvelle série par Reki Kawahara, auteur de \"Accel World\" and \"Sword Art Online\". \"Sword Art Online\" abordait la réalité virtuelle, \"Sword Art Online the Movie: Ordinal Scale\" explorait la réalité augmentée, et \"Devils' Crest\" s'attaque à la réalité mélangée. Quand Actual Magic, le 1er VRMMORPG fusionne avec le monde réel, un nouveau jeu mortel commence. Un jeu aussi ancré dans la réalité.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:333622",
       "type": "series",
       "name": "Magic Repo Man: Dumped by My Party, I'll Cash In with a Cute Support Fairy to Become the Strongest!",
       "poster": "https://image.tmdb.org/t/p/w500/3IxYsKJGSlxy6GDnFBIx7UJc5nP.jpg",
       "background": "https://image.tmdb.org/t/p/w780/4ncuq4Qo0NrSZBnxM3PABeROyVT.jpg",
       "description": "Lent fait partie du groupe « Skypiercers ». Grâce à son don unique, il peut prêter une importante quantité de magie à ses partenaires. Cependant, il est viré du jour au lendemain du groupe par ses compagnons, tous devenus puissants grâce à son talent, ne le jugeant désormais plus utile au groupe.\n\nFurieux, Lent est bien décidé à récupérer jusqu'à la dernière goutte de magie qu'il a prêté à ses anciens compagnons, avec les intérêts, grâce au pouvoir caché de son don.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:306721",
+      "type": "series",
+      "name": "Star Detective PreCure!",
+      "poster": "https://image.tmdb.org/t/p/w500/zuPQ9R5x17EM6xEA37TLRkL2BGD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bOgsRcvQcetWXtVnPgKtYYf9aSV.jpg",
+      "description": "Le jour de son 14e anniversaire, Anna Akechi rencontre une fée magique et se retrouve soudainement transportée de 2027 à 1999 ! Elle se lie d'amitié avec Mikuru, une jeune fille pleine d'entrain qui rêve de devenir détective. Lorsque de mystérieux vols font naître des rumeurs sur les Voleurs Fantômes, les deux jeunes filles se transforment en Detective Precure et utilisent leur courage, leur esprit de déduction et leur amitié pour résoudre des affaires et découvrir le secret du voyage dans le temps d'Anna.",
       "releaseInfo": "2026"
     },
     {
@@ -127,15 +136,6 @@
       "releaseInfo": "2021"
     },
     {
-      "id": "tmdb:313346",
-      "type": "series",
-      "name": "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life",
-      "poster": "https://image.tmdb.org/t/p/w500/lEUUMZ8zylAPP797UMugdYjuxRP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/j7KrALvuZgBdwVZkOIRc9Xaeyt4.jpg",
-      "description": "Rein l'Enchanteur est un mage capable d'améliorer les armes et les armures. Mais lorsqu'il se fait renvoyer de sa guilde pour la simple raison qu'il a déjà enchanté tout ce qu'elle possède, il décide de reprendre tous les sorts qu’il a transmis à ses ex-compagnons et les affecte à son propre équipement. En chemin, Rein rassemble une bande de parias comme lui et, ensemble, ils explorent le monde.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:295420",
       "type": "series",
       "name": "The Vermilion Mask",
@@ -145,30 +145,21 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:314054",
+      "id": "tmdb:328010",
       "type": "series",
-      "name": "Red River",
-      "poster": "https://image.tmdb.org/t/p/w500/wWlfBMTA7VygmYC4KUg2qLWJGmv.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pHzcs5Ru1lwoVcQsPA5lNYlxJy2.jpg",
-      "description": "Yuri Suzuki est une jeune femme comblée : non seulement elle a réussi ses examens d'entrée à l'université, mais elle a aussi enfin échangé son premier baiser avec l'élu de son coeur. Malheureusement, ce bonheur ne dure pas. Un jour, elle est mystérieusement entrainée dans une flaque d'eau et est transportée dans le passé, au cœur de l'Empire Hittite, des millénaires avant sa naissance. Celle qui l'a invoquée, la reine Nakia, a l'intention de l'utiliser à des fins sacrificielles. Heureusement, la jeune femme déboussolée peut compter sur un allié inattendu.",
+      "name": "Devils' Crest",
+      "poster": "https://image.tmdb.org/t/p/w500/kimx6VeIKhNQH0sqyT2OXfWUO07.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fA6eLsm6xEBK90IK3UNWoVPZBn7.jpg",
+      "description": "Une nouvelle série par Reki Kawahara, auteur de \"Accel World\" and \"Sword Art Online\". \"Sword Art Online\" abordait la réalité virtuelle, \"Sword Art Online the Movie: Ordinal Scale\" explorait la réalité augmentée, et \"Devils' Crest\" s'attaque à la réalité mélangée. Quand Actual Magic, le 1er VRMMORPG fusionne avec le monde réel, un nouveau jeu mortel commence. Un jeu aussi ancré dans la réalité.",
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:288588",
+      "id": "tmdb:313346",
       "type": "series",
-      "name": "Full Clearing Another World Under a Goddess with Zero Believers",
-      "poster": "https://image.tmdb.org/t/p/w500/bD0PjbDtwSyt4CpIxvAQLHmNIKu.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4hKtdyTXt4O2hy4zqadlENY1qpM.jpg",
-      "description": "Takatsuki Makoto, un lycéen accro aux jeux vidéo, est transporté dans un autre monde avec ses camarades de classe après une mésaventure sur le chemin du retour d'un camp d'entraînement. Les dieux de l'autre monde leur ont tous donné des capacités de triche, mais pour une raison qui lui échappe, Makoto est le seul qui soit inférieur à la moyenne, un apprenti magicien. Leur objectif est de sauver Noa, une déesse mineure qui est piégée dans un donjon inaccessible à l'humanité. Avec la bénédiction de Noa et les artefacts divins en main, Makoto se met en route pour devenir le plus fort d'une manière peu orthodoxe.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:283692",
-      "type": "series",
-      "name": "Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!",
-      "poster": "https://image.tmdb.org/t/p/w500/l2bXeBO6f2ZXgKh0ipYKyeMT98v.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/k5G4ALskmO8GcSOO3fN8fePa9Ny.jpg",
-      "description": "Takahiro Satô est arraché à son quotidien lorsqu’il se réincarne dans l'univers de son jeu vidéo préféré : un monde galactique où se jouent des batailles spatiales, peuplé de colonies interstellaires mais aussi jonché de dangers. Très vite, il devient « Hiro », un mercenaire équipé d'un vaisseau spatial ultrasophistiqué et accompagné de deux beautés !",
+      "name": "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life",
+      "poster": "https://image.tmdb.org/t/p/w500/lEUUMZ8zylAPP797UMugdYjuxRP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/j7KrALvuZgBdwVZkOIRc9Xaeyt4.jpg",
+      "description": "Rein l'Enchanteur est un mage capable d'améliorer les armes et les armures. Mais lorsqu'il se fait renvoyer de sa guilde pour la simple raison qu'il a déjà enchanté tout ce qu'elle possède, il décide de reprendre tous les sorts qu’il a transmis à ses ex-compagnons et les affecte à son propre équipement. En chemin, Rein rassemble une bande de parias comme lui et, ensemble, ils explorent le monde.",
       "releaseInfo": "2026"
     },
     {
@@ -179,6 +170,15 @@
       "background": "https://image.tmdb.org/t/p/w780/oL459mgvcnc3jL90K7zkfvXQu0.jpg",
       "description": "Ray White est un jeune homme venant d'entrer dans la populaire académie de magie Arnold. En tant que premier élève inscrit n'étant pas d'origine noble, il est rejeté par un certain nombre de ses camarades. Néanmoins, il se lie rapidement d'amitié avec Amelia Rose, la représentante des élèves de première année et la fille ainée d'une des 3 grandes familles aristocratiques, ainsi que d'autres élèves.\n\nToutefois, Ray White cache un énorme secret à ses amis : il est le magicien des lames de glace et l'un des sept grands magiciens de ce monde.",
       "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:288588",
+      "type": "series",
+      "name": "Full Clearing Another World Under a Goddess with Zero Believers",
+      "poster": "https://image.tmdb.org/t/p/w500/bD0PjbDtwSyt4CpIxvAQLHmNIKu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4hKtdyTXt4O2hy4zqadlENY1qpM.jpg",
+      "description": "Takatsuki Makoto, un lycéen accro aux jeux vidéo, est transporté dans un autre monde avec ses camarades de classe après une mésaventure sur le chemin du retour d'un camp d'entraînement. Les dieux de l'autre monde leur ont tous donné des capacités de triche, mais pour une raison qui lui échappe, Makoto est le seul qui soit inférieur à la moyenne, un apprenti magicien. Leur objectif est de sauver Noa, une déesse mineure qui est piégée dans un donjon inaccessible à l'humanité. Avec la bénédiction de Noa et les artefacts divins en main, Makoto se met en route pour devenir le plus fort d'une manière peu orthodoxe.",
+      "releaseInfo": "2026"
     }
   ]
 }

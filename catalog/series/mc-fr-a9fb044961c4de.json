@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:335981",
+      "type": "series",
+      "name": "Le Cinéma selon Cunk",
+      "poster": "https://image.tmdb.org/t/p/w500/zrrRRvavkLQupkC6aEkdA8sX4E8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3NA7FxkqAaG1buZC1WtdPDpMlZg.jpg",
+      "description": "Dans cette série mockumentaire espiègle, Philomena Cunk part à la découverte de l'histoire du cinéma, sans manquer de laisser plusieurs experts perplexes en chemin.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:333533",
       "type": "series",
       "name": "Celui qui s'appelait Matthew Perry",
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/py50U7d1XaWcr7tCsXC2LoM68dM.jpg",
       "background": "https://image.tmdb.org/t/p/w780/cxVywdc4vqU1dCG19FSg4t9nQgL.jpg",
       "description": "Cette série documentaire décrypte les accusations choquantes qui visent Sean « Diddy » Combs et son empire Bad Boy, couvrant plusieurs années de sa vie et de sa carrière.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:258023",
-      "type": "series",
-      "name": "La guerre d’indépendance américaine : toute l’histoire",
-      "poster": "https://image.tmdb.org/t/p/w500/A2Zii9gvKje6WHKpH2fsStjp1ue.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/37Fn6Qf0JTLfbE719FvilHCyZK4.jpg",
-      "description": "De sa genèse, en 1754, à sa conclusion, en 1783, la nouvelle et magistrale fresque historique de Ken Burns explore en profondeur le moment fondateur des États-Unis. Ce récit choral et multidimensionnel éclaire aussi le présent divisé d'une jeune nation de 250 ans.",
       "releaseInfo": "2025"
     }
   ]

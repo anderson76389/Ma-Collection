@@ -1,130 +1,112 @@
 {
   "metas": [
     {
-      "id": "tmdb:13916",
+      "id": "tmdb:1018",
       "type": "series",
-      "name": "Death Note",
-      "poster": "https://image.tmdb.org/t/p/w500/iigTJJskR1PcjjXqxdyJwVB3BoU.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/z8IPicmEKXUO4I2UDdMEqw7RqOE.jpg",
-      "description": "Après avoir trouvé un mystérieux carnet, un lycéen japonais découvre qu'il a le pouvoir de tuer les personnes dont il y inscrit le nom.",
-      "releaseInfo": "2006"
+      "name": "Bonanza",
+      "poster": "https://image.tmdb.org/t/p/w500/wQ1iVrG871anxkEUwWTRdPRi0j1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/61OxoiBHvGFOB4gufYfypHyCbI4.jpg",
+      "description": "La série se déroule à la fin du XIXe siècle (après la guerre de Sécession) dans une petite ville (née lors du Gold Rush, La ruée vers l'Or) du Nevada, Virginia City, et dans le ranch de la famille Cartwright, le Ponderosa situé en périphérie. La famille est formée d'un veuf, Ben Cartwright, et des trois fils qu'il a eus de trois mariages différents. L'action, comme celle de la plupart des séries télévisées western4, est déclenchée par l'arrivée de visiteurs venus de l'extérieur, « qui viennent troubler l'harmonie organique du ranch et de la ville »5, et résolue par l'intervention d'au moins l'un de ses membres (épisode à référencer) ou, le plus souvent, par l'action de la famille Cartwright au grand complet. La seule source de tensions internes est la façon dont les habitants de Virginia City, définis comme de braves gens, sont susceptibles de céder au mal, contrairement aux Cartwright, moralement intègres.",
+      "releaseInfo": "1959"
     },
     {
-      "id": "tmdb:98123",
+      "id": "tmdb:69500",
       "type": "series",
-      "name": "Le Quotidien du Roi Immortel",
-      "poster": "https://image.tmdb.org/t/p/w500/sDFWmTHD6912EbfdbCNMxPRIecy.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/Q7AZOhmO9NGO6WRzu0uKh2dbWO.jpg",
-      "description": "Wang Ling a développé depuis son plus jeune âge d'incroyables capacités. Cependant, afin de mener une vie ordinaire, ses pouvoirs sont confinés dans un talisman. Malgré cela ses pouvoirs restent puissants et son doux quotidien est menacé lors de son entrée au lycée.",
-      "releaseInfo": "2020"
-    },
-    {
-      "id": "tmdb:123249",
-      "type": "series",
-      "name": "My Dress-Up Darling",
-      "poster": "https://image.tmdb.org/t/p/w500/yDry50KhVrNJyS0Cjzv6auNJ0cx.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/sxBC3GJI1PZXpwb0xAYRxLL4nja.jpg",
-      "description": "Gojô Wakana est un jeune lycéen qui rêve de fabriquer des poupées traditionnelles japonaises. Obnubilé par sa passion, il ne se tient pas au courant des dernières tendances et a donc du mal à s'intégrer dans sa classe. Pour lui, Kitagawa Marine, qui est toujours au centre de l'attention, vit dans un autre monde que lui. Mais un beau jour, grâce à un heureux hasard, il va se retrouver à partager un secret avec Marine ?! Deux mondes qui n'auraient jamais dû se croiser vont s'entremêler !",
-      "releaseInfo": "2022"
-    },
-    {
-      "id": "tmdb:35442",
-      "type": "series",
-      "name": "Cardfight!! Vanguard",
-      "poster": "https://image.tmdb.org/t/p/w500/2xP9QUdhTiPc0N49h6dvnPvst9S.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3oJOO1vYBsXqkTbWtt8RFXLTfx3.jpg",
-      "description": "L'anime raconte l'histoire du jeune Sendo Aishi timide et distants tout aussi connus comme un le roi de la lâcheté ainsi qu'un imbattable roi du silence. Sa vie calme et silencieuse se verra chamboulé le jour ou son Blaster Blade une carte Vanguard qu'il a reçu d'une personne assez importante et qui devint au fil du temps l'objet le plus chérie par le jeune garçon. Il se le fera voler par un autre garçon de force. Ne perdant pas espoir le jeune garçon s'élance dans le monde des duels pour ne plus le quitter bercé par la sensation nouvelle que lui accorde se monde ou règne la volonté de l'imaginaire.",
-      "releaseInfo": "2011"
-    },
-    {
-      "id": "tmdb:282946",
-      "type": "series",
-      "name": "Kunon the Sorcerer Can See",
-      "poster": "https://image.tmdb.org/t/p/w500/v05adzjtBOhTqu1Ri4FxOmu6Uix.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jliuY8wmHTSB6WtpZUXAUF547t4.jpg",
-      "description": "Kunon Gurion est né avec une cicatrice de héros le rendant incapable de voir ce qui l'entoure. Ayant vécu ses sept premières années à se morfondre dans l'obscurité, son petit monde commence à s'ouvrir lorsqu'il s'éveille à la pratique de la sorcellerie. Grâce aux conseils de sa tutrice Genie, Kunon développe ainsi un attrait particulier pour les possibilités que lui offre la magie de l'eau et s'imagine déjà trouver un moyen de substituer la vision qui lui fait défaut. Devant la motivation de son jeune élève, Genie décide alors de lui enseigner tout ce qu'elle sait... mais très vite, l'élève dépasse le maître !\n\nAinsi, après de longs mois de pratique, Kunon obtient ce qu'il cherchait tant : un moyen de distinguer les couleurs avec sa magie. Tout change alors pour le jeune prodige, qui voit sa vie prendre un tournant des plus excitants !",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:38464",
-      "type": "series",
-      "name": "Blue Exorcist",
-      "poster": "https://image.tmdb.org/t/p/w500/8TTa91UMjuH3TUqB7dblTZzxSrj.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wJzHFl5mq6JFbD6equTleJuzlnk.jpg",
-      "description": "Okumura Rin est le fils de Fujimoto Shirō, un Exorciste. À cause de sa grande maladresse ou de sa force démesurée, il est incapable de conserver un boulot très longtemps et fait le désespoir de son père. Son frère jumeau, Yukio, qui va bientôt quitter le temple pour suivre ses études, est également très inquiet pour l'avenir de son frère. Mais Rin a le don de se fourrer dans des situations inextricables. Un jour, alors qu'il est aux prises avec une bande, l'un des garçons qui l'agresse prend soudainement l'apparence d'un démon et tente de lui brûler les yeux. Des flammes, contrôlées par Rin, surgissent alors et repoussent ses assaillants. Le père Fujimoto lui apprend peu après que ces flammes sont la marque de Satan… qui n'est autre que le véritable père de Rin. Après cette agression, le père décide de mettre Rin à l'abri, mais c'est déjà trop tard. Satan a appris la nouvelle et vient récupérer son fils… pour s'en servir.",
-      "releaseInfo": "2011"
-    },
-    {
-      "id": "tmdb:56387",
-      "type": "series",
-      "name": "Ken le survivant",
-      "poster": "https://image.tmdb.org/t/p/w500/mnvcg08ajs73toO8MdwqIAOAwAf.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hGRQM3wpjo3zrXN04wBEhWRK3ep.jpg",
-      "description": "L’histoire se déroule dans un futur relativement proche sur une terre ravagée par la guerre nucléaire qui a eu pour conséquence l’évaporation de la plupart des océans et la destruction d’une grande partie de la végétation. Dans cet univers post-apocalyptique, les survivants sont soit d’humbles villageois essayant de survivre, soit des bandits vicieux regroupés en gangs qui s’adonnent aux pillages et à la persécution de ces villageois.\n\nCependant, un artiste martial nommé Kenshiro (Ken), un homme reconnaissable aux sept cicatrices qu’il porte sur le torse, est choisi pour devenir le successeur du légendaire art assassin le Hokuto Shinken (北斗神拳, l’art divin de l’Étoile du nord). Au début de l’aventure, Kenshiro ne cherche pas réellement à aider les villageois, mais au fur et à mesure que son étoile le guide, il se révèle comme étant le sauveur tant attendu par une population au bord du désespoir.\n\nAccompagné dans son périple par deux jeunes enfants nommés Bart et Lynn, Ken affrontera un grand nombre de gangs, allant même jusqu'à affronter ses frères adoptifs, eux aussi disciples de l’art du Hokuto Shinken. Ken se mesurera aussi à certains maitres de l’école Nanto Seiken (南斗聖拳, Le poing sacré de l’étoile du Sud).",
-      "releaseInfo": "1984"
-    },
-    {
-      "id": "tmdb:71785",
-      "type": "series",
-      "name": "Osomatsu-san",
-      "poster": "https://image.tmdb.org/t/p/w500/cclQpHoFTuR3rCw2KfJEmIJAb0k.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kdTRIa25We8UDRNuBC9fhXRlHGY.jpg",
-      "description": "Osomatsu-san fait suite aux deux séries sorties dans les années 60 puis 80, où les sextuplés Matsuno, spécialistes de bêtises en tout genre, sont maintenant adolescents. Leur quotidien déjanté est de retour après 27 ans d'absence.",
-      "releaseInfo": "2015"
-    },
-    {
-      "id": "tmdb:126437",
-      "type": "series",
-      "name": "Ao Ashi",
-      "poster": "https://image.tmdb.org/t/p/w500/zoQf7ZycPDtrxRWTLMlw7DMqgPI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/87IQdOn34p1z2KTdM4IZ1N8bWaH.jpg",
-      "description": "Ashito Aoi vit dans la préfecture d’Ehime, dans le sud du Japon. Il est le meilleur joueur d'un club de football ordinaire. Le jour où ils perdent le tournoi intercollèges, Ashito croise la route d’un homme qui l’a observé. C’est Tatsuya Fukuda, l'entraîneur des jeunes de la J-League du Tokyo City Esperion FC. À la recherche de talents pour constituer la meilleure équipe du monde, il propose à Ashito de le rejoindre à Tokyo.",
-      "releaseInfo": "2022"
-    },
-    {
-      "id": "tmdb:63926",
-      "type": "series",
-      "name": "One-Punch Man",
-      "poster": "https://image.tmdb.org/t/p/w500/a8BknzvFVK5EZ83rKg1a83iwaj0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/s0w8JbuNNxL1YgaHeDWih12C3jG.jpg",
-      "description": "Saitama vient d'essuyer un énième refus d'embauche… Dépité, il voit sa vie basculer lorsqu'un homme-crabe menace sous ses yeux un garçon à tête de cul ! Il le sauve, et c'est la révélation. Il devient super-héros ! Encore un ? Non pas vraiment. Lui, c'est un anti-héros complètement à côté de la plaque. Son super pouvoir est de terrasser n'importe quel ennemi en un seul coup de poing. Quel ennui d'être si puissant… Saitama parviendra-t-il à enfin retrouver l'extase du combat en rencontrant un adversaire à sa mesure ?!",
-      "releaseInfo": "2015"
-    },
-    {
-      "id": "tmdb:91801",
-      "type": "series",
-      "name": "Welcome to Demon School! Iruma-kun",
-      "poster": "https://image.tmdb.org/t/p/w500/5o1PjfSTASqjUH6giJXiskDbXpj.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/d8bAI2EDM7L2q94wDZfjb82KRoh.jpg",
-      "description": "Iruma Sullivan, 14 ans, est un jeune humain qui se retrouve un jour pris au piège dans le monde des démons. De plus, celui qui s'est autoproclamé comme son grand-père adoptif est le proviseur de sa nouvelle école ! Pour survivre, Iruma va devoir affronter un étudiant hautain qui le défie en duel, une fille introvertie et bien d'autres démons tous plus effrayants les uns que les autres ! Mais ce garçon au grand cœur va tenter de surmonter ces épreuves, notamment grâce à sa gentillesse qui désarçonne ses ennemis…",
-      "releaseInfo": "2019"
-    },
-    {
-      "id": "tmdb:114410",
-      "type": "series",
-      "name": "Chainsaw Man",
-      "poster": "https://image.tmdb.org/t/p/w500/mIz0eKhzHuSPeRSePCyoCt9bKVp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fOUKSCbZzaoQKsO39enivHnWDid.jpg",
-      "description": "Denji est un adolescent qui vit avec son chien-démon-tronçonneuse, Pochita. À cause d’une énorme dette que son père a laissée derrière lui, le garçon se retrouve dans la misère la plus totale, cherchant avec Pochita à rembourser l’argent en récoltant des cadavres de démons pour le compte d’une organisation.\n\nUn jour, Denji est trahi et tué. Encore conscient, il passe un contrat avec Pochita et renaît sous le nom de Chainsaw Man, un homme au cœur de démon…",
-      "releaseInfo": "2022"
-    },
-    {
-      "id": "tmdb:30980",
-      "type": "series",
-      "name": "A Certain Magical Index",
-      "poster": "https://image.tmdb.org/t/p/w500/3dvNJsc1qfTuOxTQyl0gzIybWGQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/73uQJImy9J9w93zFEh8JtdQVOQR.jpg",
-      "description": "La Cité académique rassemble des étudiants dotés de pouvoirs extrasensoriels. Parmi eux, Tôma a du mal à trouver sa place car il dispose d'un don lui permettant… d’annuler celui des autres ! De plus, ce don lui cause une poisse inépuisable. Un jour, il croise la route d'Index, une jeune nonne ayant mémorisé 103 000 grimoires interdits. Pourchassée à cause de ses connaissances, elle est sauvée par Tôma qui n'imaginait pas se retrouver impliqué dans un immense complot…",
+      "name": "Le pacte des Yokaï",
+      "poster": "https://image.tmdb.org/t/p/w500/5AxA0foArb9OeETtibhEQ84doBd.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xHjRfQIRlxug491JrKiEYl9vHM1.jpg",
+      "description": "Natsume Takashi a la capacité de voir des esprits, qu'il a longtemps gardé secrète. Cependant, une fois qu'il hérite d'un livre étrange qui appartenait à sa grand-mère décédée, Reiko, il découvre la raison pour laquelle les esprits l'entourent.",
       "releaseInfo": "2008"
     },
     {
-      "id": "tmdb:31724",
+      "id": "tmdb:27845",
       "type": "series",
-      "name": "Code Geass: Lelouch of the Rebellion",
-      "poster": "https://image.tmdb.org/t/p/w500/x316WCogkeIwNY4JR8zTCHbI2nQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5hS2OIuZSKGkR8R5l3bY5zh04Ce.jpg",
-      "description": "Nous sommes en 2017. Sept ans se sont écoulés depuis que le Nouvel Empire de Britannia a déclaré la guerre au Japon. Ce dernier, n’ayant pu résister aux robots de combat de l’Empire (appelés Nightmares), est devenu un territoire de l’Empire connu sous le nom de Zone 11.\n\nLelouch, jeune étudiant qui se joue des nobles, se retrouve un jour impliqué dans le vol d’une arme chimique, qui s’avère être en réalité une fille.\n\nMalheureusement pour lui, les soldats de l’Armée Impériale le retrouvent, le prennent pour un terroriste et s’apprêtent à le tuer. C’est alors que la fille s’interpose. Avant de mourir, elle parvient à accorder à Lelouch un pouvoir le mettant dans un état second, à partir duquel il a la possibilité de donner un ordre à quiconque. Un pouvoir qui force l’obéissance absolue.\n\nQue se passera-t-il ? D’où vient cette fille ? Qu’adviendra-t-il de Lelouch ?",
-      "releaseInfo": "2006"
+      "name": "The Prince of Tennis",
+      "poster": "https://image.tmdb.org/t/p/w500/lRPTi3UtXV2OSIQuXHjUcRm9393.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7apk7MDXON2zZ2ntXgaIusHrUNa.jpg",
+      "description": "Le héros de l'histoire se nomme Ryoma Echizen, un japonais qui a vécu de nombreuses années aux États-Unis. Son père, Nanjiro Echizen, connu comme étant le « Samurai », est devenu un grand champion de tennis internationalement reconnu. L'histoire commence alors que Ryoma arrive au Japon et décide de s'inscrire au collège Seishun Gakuen, connu également sous le nom de Seigaku, qui possède une équipe de tennis très compétente.",
+      "releaseInfo": "2001"
+    },
+    {
+      "id": "tmdb:65931",
+      "type": "series",
+      "name": "Bungo Stray Dogs",
+      "poster": "https://image.tmdb.org/t/p/w500/4WlY8Wflsa4ySLxwQzBSLORBQPy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/79lc4Rocfnn9RIv1YlHC0jeBsqf.jpg",
+      "description": "Un groupe de détectives dotés de pouvoirs paranormaux mène des enquêtes souvent dangereuses dans le plus grand secret, là où la police et l’armée refusent d’intervenir. Atsushi Nakajima a été chassé de son orphelinat. Sans-le-sou, il croise la route de ces étranges détectives tandis qu’ils pourchassent un tigre mangeur d’hommes terrorisant la population…",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:67075",
+      "type": "series",
+      "name": "Mob Psycho 100",
+      "poster": "https://image.tmdb.org/t/p/w500/aFcv9zeJtSbJHSYUlQCOQYV3Gio.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kP5duNJEbTfXpBs6CITsaZ88pQi.jpg",
+      "description": "Shigeo Kageyama, surnommé Mob, est un lycéen tout ce qu’il y a de plus ordinaire. Pourtant, il possède de puissants pouvoirs psychiques, mais il préfère rester discret, afin d’avoir une vie la plus normale possible. De plus, il comprend en grandissant que ce pouvoir peut être dangereux et qu’il augmente en même temps que sa charge émotionnelle. Mais pourra-t-il contenir longtemps ses émotions ?",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:73833",
+      "type": "series",
+      "name": "The Ancient Magus Bride",
+      "poster": "https://image.tmdb.org/t/p/w500/sJCw9H0PmnJnTYTCx7uiHImOxSg.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/KI2sFvqJHzc95WM7dcX9kM8tY1.jpg",
+      "description": "Chise Hatori a 15 ans. Elle n’a ni famille, ni talent particulier, ni aucun espoir dans la vie. Un jour, elle est vendue à un sorcier, un non-humain dont l’existence remonte à la nuit des temps… Il la prend sous son aile pour faire d’elle sa disciple et lui annonce qu’à terme, elle deviendra son épouse. Alors, les aiguilles qui semblaient à tout jamais figées dans son cœur se mettent à tourner de nouveau, petit à petit…",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:65336",
+      "type": "series",
+      "name": "March Comes in like a Lion",
+      "poster": "https://image.tmdb.org/t/p/w500/4LTg5dLXnHwbNcFyOTnXvMpSs4q.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mLzJpP9YRexGbvgiqunirAM5HAA.jpg",
+      "description": "Rei Kiriyama est un jeune homme de dix-sept ans au caractère pour le moins marginal : calme et réservé, celui-ci n'a ni famille ni ami et, contrairement aux autres garçons de son âge, il ne va pas à l'école. Vivant à Tokyo, il est un très bon joueur de shogi et peut au moins compter sur une personne : Akari Kawamoto, une jeune célibataire qui s'occupe de ses deux petites sœurs, Hinata et Momo.",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:320909",
+      "type": "series",
+      "name": "Les Noces des Lucioles",
+      "poster": "https://image.tmdb.org/t/p/w500/1RXEvHmis1oKTAWtKOrzJqenpb6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3zmB6PLnjf7rNNC2lnvinQtlJMx.jpg",
+      "description": "Durant l'ère Meiji, Satoko Kirigaya n’a qu’un seul souhait : se marier pour l'honneur de sa famille et ce, même si ses jours sont comptés. Mais alors qu'un assassin tente de la tuer, elle lui offre de l’épouser ! Une proposition que Shinpei Goto accepte, mais qui pourrait bien se retourner contre elle…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:72517",
+      "type": "series",
+      "name": "Classroom of the Elite",
+      "poster": "https://image.tmdb.org/t/p/w500/mmhx3dImdsfYpcFm3J1tlQt5IRN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/d3yNn379emGP8xztqeOsB9oLNG2.jpg",
+      "description": "Kiyotaka Ayanokôji intègre le prestigieux lycée de haut niveau de Tokyo où, une fois le diplôme en poche, quasiment 100 % des élèves trouvent un travail ou sont reçus à l’université. Pas de chance, il se retrouve dans la 2de D où finissent tous les élèves à problèmes ! Mais au bout d’un mois, Kiyotaka et ses camarades de classe découvrent l’envers du décor et le terrible système sur lequel repose le fonctionnement de cette école…",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:76757",
+      "type": "series",
+      "name": "Golden Kamui",
+      "poster": "https://image.tmdb.org/t/p/w500/bLcEsiWoqNGMuUyNVx3cj1JsJHM.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rT7DcPq4Fee6uStrl4t9Jv4iOnj.jpg",
+      "description": "Surnommé « l’Immortel », Saichi Sugimoto est un ancien soldat ayant survécu à la guerre meurtrière qui s'est déroulée au début du XXe siècle entre le Japon et la Russie. À présent, il se retrouve seul dans l'immense étendue désertique du nord du pays et il a besoin de beaucoup d'argent pour un but bien précis. La découverte d'une carte l'emmène sur les traces d'un trésor, 75 kilos d’or accumulé par le peuple autochtone des Aïnous…",
+      "releaseInfo": "2018"
+    },
+    {
+      "id": "tmdb:50712",
+      "type": "series",
+      "name": "Black Butler",
+      "poster": "https://image.tmdb.org/t/p/w500/tfjvfipG4FoKOeG3rpDuGWIvx4k.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5U0dYTkHXPhoExNnEm5iKrpDqtr.jpg",
+      "description": "Londres – XIX siècle. Après la mort inexpliquée de ses parents, Ciel Phantomhive, jeune garçon de 12 ans dirige l'entreprise familiale avec une habilité déconcertante. Sa réussite, il l'a doit avant tout à son majordome Sebastian Michaelis. Irréprochable, attentionné et véritable « cordon-bleu », il semble lié à Ciel par un pacte mystérieux. Ce diable de majordome est habile pour satisfaire son maître et beaucoup vont l'apprendre à leurs dépens…",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:96316",
+      "type": "series",
+      "name": "Rent-a-Girlfriend",
+      "poster": "https://image.tmdb.org/t/p/w500/awUOcWMgjHcKwhVzz5xbZBaXEfo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ullfy98STkno11rDGi44SK6llwx.jpg",
+      "description": "Kazuya Kinoshita est un étudiant de 20 ans qui a échoué dans ses études. Il a toutefois réussi à embrasser sa petite amie une fois, mais elle l'a largué au bout d'un mois ! Ne voulant plus jamais revivre une telle situation, il part en quête d'une nouvelle copine en s'aidant d'une application spéciale permettant de louer une petite amie. C'est ainsi qu'il fait la connaissance de Chizuru Mizuhara qu'il trouve tout à fait à son goût. Mais la suite ne se déroule pas comme prévu et Kazuya s'embarque dans une situation plutôt gênante...",
+      "releaseInfo": "2020"
     }
   ]
 }

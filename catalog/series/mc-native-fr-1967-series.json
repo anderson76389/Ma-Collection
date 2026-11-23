@@ -1,15 +1,6 @@
 {
   "metas": [
     {
-      "id": "tmdb:305935",
-      "type": "series",
-      "name": "Les Disparus des Argonnes",
-      "poster": "https://image.tmdb.org/t/p/w500/7FfddTLaRDNI91W6uhrdlUURis2.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4xXazUotfm3Hotm4pi3ELC8fOfS.jpg",
-      "description": "Le combat de Jocelyne Veyrades, une mère de famille modeste dont le fils, Gilles, disparaît en 1981 lors d’une permission pendant son service militaire. Les autorités évoquent une désertion, mais Jocelyne refuse de croire à cette explication. Elle pense que quelque chose de beaucoup plus grave s’est produit. Au fil des années, d’autres jeunes appelés disparaissent dans des circonstances similaires. Face au silence de l’institution militaire et à l’inaction de la justice, Jocelyne rejoint d'autres familles frappées par le même drame. Ensemble, elles brisent le mur de l’indifférence et mènent une lutte acharnée pour faire entendre leur voix.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:336916",
       "type": "series",
       "name": "Kat sauvage",
@@ -42,15 +33,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/T94knKGtJCnQTdYz3EjflPsA16.jpg",
       "background": "https://image.tmdb.org/t/p/w780/vFWoubYjuaeBLTfF92RrAIgLONj.jpg",
       "description": "Trois femmes et trois générations d’une même famille : Flore, Alice et Marie ne savent pas encore à quel point leurs trajectoires sont liées. Pourtant, la chaleur brutale d'un été de grande sécheresse va faire ressurgir un secret enfoui depuis près d'un siècle, transmis en silence de mère en fille. L’absence d’eau, cette ressource si précieuse, va faire éclater des vérités longtemps tues et entrainer des déchirements au sein de cette famille.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:274562",
-      "type": "series",
-      "name": "Enchaînés",
-      "poster": "https://image.tmdb.org/t/p/w500/60Rtiakd4ExoTawENYwOPZXKpT6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vyaQUV5yryltywtaQUz2KRAWtCk.jpg",
-      "description": "1806 - Ile de la Réunion. Après le passage d’un cyclone meurtrier, la plantation de Charles Bellevue est dévastée. Ruiné, il n’a d’autre choix que de céder ses terres. Ses esclaves redoutent d’être vendus et séparés les uns des autres. Parmi eux, un homme, Isaac, refuse d’être abandonné à son sort. Isaac vient en effet d’apprendre que Charles Bellevue n’est pas seulement son maître. C’est aussi son père.",
       "releaseInfo": "2026"
     },
     {
@@ -114,15 +96,6 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:279309",
-      "type": "series",
-      "name": "La Disparue de Compostelle",
-      "poster": "https://image.tmdb.org/t/p/w500/yxrReRazpGSTL2parksR822jENB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qTBJh6B1iLwH23ztDSdUJhP3rtq.jpg",
-      "description": "Jeanne Nogarède est gendarme en agglomération rurale dans son village natal de Saint-Guilhem-le-Désert. L’affaire de « La disparue de Compostelle » est le plus gros regret de sa vie. Le 26 novembre 2020 à 07.30 du matin, Emma Vivian, fille d’une de ses amies d’enfance, est sortie de son domicile pour aller à l’école. On ne l’a plus jamais revue. Cinq ans plus tard, un nouvel élément vient bouleverser sa compréhension de l’affaire. Jeanne découvre que quelqu’un a mis en ligne l’image vidéo reconstituée par une intelligence artificielle de la jeune Emma Vivian qui explique, face caméra, ce qui lui est arrivé. Or, son récit contient un élément qui ne pouvait être connu que de son ravisseur… ou de sa mère.",
-      "releaseInfo": "2025"
-    },
-    {
       "id": "tmdb:283036",
       "type": "series",
       "name": "Les Aventurières",
@@ -174,6 +147,33 @@
       "poster": "https://image.tmdb.org/t/p/w500/ppWo7Nij9IbgHia13PxT6tqfNhC.jpg",
       "background": "https://image.tmdb.org/t/p/w780/kG2mHHu136bviY53DDpnsyVNKuA.jpg",
       "description": "De 1972 à 1978, trente-trois jeunes hommes ont été enlevés, assassinés, puis enterrés dans le vide sanitaire sous la maison de leur meurtrier. Et pendant des années, personne ne s’en est douté. Pourquoi ? Parce qu’il était charmant et drôle. Il avait un bon travail et était considéré comme un leader dans sa communauté. Il faisait même du bénévolat pour divertir des enfants malades… déguisé en clown.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:301715",
+      "type": "series",
+      "name": "Armorsaurs",
+      "poster": "https://image.tmdb.org/t/p/w500/hYevUT2EfhMaSayHenGRaiBU5i2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hNXEnTA4a0WeqhoahaBhJRB2G06.jpg",
+      "description": "Les dinosaures sont de retour, et cinq adolescents sont les seuls à pouvoir créer un lien avec eux. C'est à ces héros de revêtir leurs armures et de piloter leurs dinosaures pour combattre le mal et sauver le monde.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:258004",
+      "type": "series",
+      "name": "Bistronomia",
+      "poster": "https://image.tmdb.org/t/p/w500/jIkEeXlW95uHQQogNiyLFfr2fwY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/q2HbbI6GSck5K326gI1h1E4QKVE.jpg",
+      "description": "Paris, octobre 2005. Johanna, Amandine et Vivian, trois amis vingtenaires, gravitent dans le milieu de la restauration. Ils veulent être chefs ou critiques, vivre de leur passion pour la gastronomie. Mais ils étouffent dans cet environnement feutré, où règne la violence patriarcale et l’esprit élitiste de la course aux étoiles. Ils rêvent d’une nouvelle gastronomie démocratique, plus accessible, libérée de l’académisme. Ensemble, ils vont jeter les premières bases d’une révolution des fourneaux.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:289257",
+      "type": "series",
+      "name": "Nouveau Jour",
+      "poster": "https://image.tmdb.org/t/p/w500/cCaa0KBcWIeyBIFdQRByQpLsSsH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5k4wZ477wvrAksr3qq8YPHKDckZ.jpg",
+      "description": "Après la disparition en mer de Lucien Bartoli, propriétaire d’un 4 étoiles, sa fille aînée Louise a repris l’hôtel aidée par son fils Gabriel, en lésant son frère Tarek et sa sœur Audrey. Cette dernière a mis de la distance alors qu’un lourd secret gangrène depuis des années les relations de la fratrie. Alors que Théa, la fille d’Audrey, revient à l’hôtel, un étrange corbeau cible le domaine...",
       "releaseInfo": "2025"
     }
   ]

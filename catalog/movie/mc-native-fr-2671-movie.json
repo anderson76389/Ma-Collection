@@ -1,12 +1,21 @@
 {
   "metas": [
     {
+      "id": "tmdb:1368337",
+      "type": "movie",
+      "name": "L'Odyssée",
+      "poster": "https://image.tmdb.org/t/p/w500/jKf0p3fhO893ROvRuvuSDsZSvK6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/c7btGYblBnfAaw713WvFM0Kimc7.jpg",
+      "description": "Ulysse, roi d'Ithaque, entreprend un périple périlleux pour regagner son royaume après la guerre de Troie. Alors qu'ils traversent la Méditerranée avec ses soldats, ils se retrouvent bientôt à lutter non seulement contre les éléments, mais aussi contre une multitude d'obstacles mortels et de créatures mythiques.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1516724",
       "type": "movie",
       "name": "Pour le plaisir",
       "poster": "https://image.tmdb.org/t/p/w500/2cWdr2n7VNrLEAer6hMPASIP7Px.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/eJKKygAF718jp1HhGvH3SMoi5Cv.jpg",
-      "description": "Et si on vous racontait l’invention du siècle ? Un couple, une vérité qui explose. Fanny et Tom sont mariés et heureux depuis 20 ans. Mais un jour un secret éclate : Fanny n’a jamais eu d’orgasme. Tom, ingénieur, décide alors de relever un défi audacieux : créer l’objet qui révolutionnera le plaisir féminin. Ensemble, ils se lancent dans cette quête aussi déjantée qu’émouvante qui va transformer leur couple. Jusqu’où iront-ils ? Loin, très loin.",
+      "background": "https://image.tmdb.org/t/p/w780/aS282t7mVVmfykD3SrDHaOS5Q9m.jpg",
+      "description": "Et si on vous racontait l’invention du siècle ?  Un couple, une vérité qui explose. Fanny et Tom sont mariés et heureux depuis 20 ans. Mais un jour un secret éclate : Fanny n’a jamais eu d’orgasme. Tom, ingénieur, décide alors de relever un défi audacieux : créer l’objet qui révolutionnera le plaisir féminin.  Ensemble, ils se lancent dans cette quête aussi déjantée qu’émouvante qui va transformer leur couple. Jusqu’où iront-ils ?  Loin très loin",
       "releaseInfo": "2026"
     },
     {
@@ -126,6 +135,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1365378",
+      "type": "movie",
+      "name": "Le rêve américain",
+      "poster": "https://image.tmdb.org/t/p/w500/bURZdEMPoaxOCPstwfZ2gYfhqGx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bQPWY2u154jJ5koDp9KcM67Wioi.jpg",
+      "description": "Personne n'aurait parié sur Jérémy, coincé derrière le comptoir d’un vidéo club à Amiens, ou sur Bouna, lorsqu'il faisait des ménages à l’aéroport d’Orly. Sans contacts, sans argent et avec un niveau d'anglais plus qu’approximatif, rien ne les prédestinait à devenir des agents qui comptent en NBA.  Inspiré d’une histoire vraie, ce film raconte le parcours de deux outsiders qui, grâce à leur passion absolue pour le basket et leur amitié indéfectible, ont bravé tous les obstacles pour réaliser leur Rêve Américain.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1477170",
       "type": "movie",
       "name": "LOL 2.0",
@@ -159,24 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/iqeF5Yr65hPlEJojJGESjVclf6h.jpg",
       "background": "https://image.tmdb.org/t/p/w780/xzY5ZwVZSMMn111DhNcQs2M3J9Q.jpg",
       "description": "Achever un texte ne veut pas dire être publié, être publié ne veut pas dire être lu, être lu ne veut pas dire être aimé, être aimé ne veut pas dire avoir du succès, avoir du succès n'augure aucune fortune.  À pied d’œuvre raconte l'histoire vraie d'un photographe à succès qui abandonne tout pour se consacrer à l'écriture, et découvre la pauvreté.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1145899",
-      "type": "movie",
-      "name": "Marsupilami",
-      "poster": "https://image.tmdb.org/t/p/w500/kMhVs1XqmzXlD0mDQ4rTJh4Kvf1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qGPJ9AvOUpbpZjM6R7yqBDs4gsk.jpg",
-      "description": "Pour sauver son emploi, David accepte un plan foireux : ramener un mystérieux colis d’Amérique du Sud. Il se retrouve à bord d’une croisière avec son ex Tess, son fils Léo, et son collègue Stéphane, aussi benêt que maladroit, dont David se sert pour transporter le colis à sa place. Tout dérape lorsque ce dernier l’ouvre accidentellement : un adorable bébé Marsupilami apparaît et le voyage vire au chaos !",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1376838",
-      "type": "movie",
-      "name": "Un monde fragile et merveilleux",
-      "poster": "https://image.tmdb.org/t/p/w500/f8YvGEaBf18dNV0TPL6puqH8JuP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lt7BVTAl7XL1uYYg8x6JI0LZWbb.jpg",
-      "description": "Nino et Yasmina tombent amoureux dans la cour de leur école à Beyrouth, et rêvent à leur vie d’adulte, à un monde merveilleux. 20 ans plus tard, ils se retrouvent par accident et c’est à nouveau l’amour fou, magnétique, incandescent. Peut-on construire un avenir, dans un pays fracturé, qu’on tente de quitter mais qui vous retient de façon irrésistible ?",
       "releaseInfo": "2026"
     }
   ]

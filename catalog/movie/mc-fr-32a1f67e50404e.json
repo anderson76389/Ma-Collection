@@ -1,11 +1,38 @@
 {
   "metas": [
     {
+      "id": "tmdb:1595124",
+      "type": "movie",
+      "name": "Sœurs de sort",
+      "poster": "https://image.tmdb.org/t/p/w500/2rOCe6L9qwFoakYrWFVnICSbmLK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/g1bEboMx1a8JCg1jXeDCh24RtgW.jpg",
+      "description": "Dans cette comédie d'action décalée, Lilith, la \"méchante\" demi-sœur de Cendrillon, vole la baguette de Marraine la bonne fée et bouleverse le conte tel que nous le connaissons.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1780407",
+      "type": "movie",
+      "name": "Snoopy présente : les 12 jours de Noël",
+      "poster": "https://image.tmdb.org/t/p/w500/uJ3Eb4zUtF1KFD5zd8CiYaFXWuu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3gIGgmK27lt3YK9EUnZ6iXMHg7Q.jpg",
+      "description": "Afin de ne plus figurer sur la liste noire du père Noël, Snoopy fait de son mieux pour avoir une conduite irréprochable.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1559980",
+      "type": "movie",
+      "name": "Le Gospel de Noël",
+      "poster": "https://image.tmdb.org/t/p/w500/xNF1YWXFIqIx5XriMSFLq6X7MSt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/p1Ag7etCR5yUvElhwZmWsMo5IFu.jpg",
+      "description": "Un pasteur en proie au doute emménage avec sa famille dans un quartier difficile de New York, où ils doivent sauver une église délabrée de la fermeture avant Noël.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1117898",
       "type": "movie",
       "name": "Le Chat Chapeauté",
       "poster": "https://image.tmdb.org/t/p/w500/jBcFgdERUGw0au9fYZc5X9M8Dfs.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/56Bepb58k71UUTVwKN1SxHmfzPK.jpg",
       "description": "Le Chat se voit confier sa mission la plus difficile jusqu'à présent... aider deux frères et sœurs qui ont du mal à s'installer dans une nouvelle ville.",
       "releaseInfo": "2026"
     },
@@ -150,33 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/6pzI1DIlxwAFffw9OZcG6cr031U.jpg",
       "background": "https://image.tmdb.org/t/p/w780/msl0OTRGavjjzzPZmNuXbC0gv9M.jpg",
       "description": "Un groupe d'animaux se rebellent contre leurs maîtres humains et prennent le contrôle de la ferme. Leur révolte terminée, ils sont confrontés à de nouveaux défis sous le règne d'un cochon rusé nommé Napoléon. Cette situation les oblige à trouver le courage de s'opposer à Napoléon.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1226863",
-      "type": "movie",
-      "name": "Super Mario Galaxy, le film",
-      "poster": "https://image.tmdb.org/t/p/w500/aSQktALDmbunDbwkuZbZFMEWVFr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg",
-      "description": "Mario et Luigi gèrent les tracas du royaume Champignon, se lient d'amitié avec Yoshi, tentent de réhabiliter mini-Bowser et se préparent pour l'anniversaire de Peach. Mais quand un appel à l'aide arrive de l'autre bout de la galaxie, l'équipe part découvrir des mondes nouveaux, des menaces inattendues et des personnages emblématiques, comme Rosalina et Bowser Jr.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1140521",
-      "type": "movie",
-      "name": "The Magic Faraway Tree",
-      "poster": "https://image.tmdb.org/t/p/w500/r0E0vpqQ1eJLs6d7F1m9EJpT1xS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3o7t1gF0wbXAtELCkIcYyPXoIxA.jpg",
-      "description": "Une famille de la grande ville déménage à la campagne où les enfants découvrent un arbre magique peuplé d’habitants excentriques. Ils sont transportés dans des contrées fantastiques, où leurs aventures leur permettent de renouer leurs liens familiaux.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1327819",
-      "type": "movie",
-      "name": "Jumpers",
-      "poster": "https://image.tmdb.org/t/p/w500/gme8X6Y0b1wutuW6kB039i9NwCr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/u53UYu5XG2hNgWGvs3xGhAVzypl.jpg",
-      "description": "Mabel, une amoureuse des animaux, utilise une nouvelle technologie pour \"transférer\" sa conscience dans un robot-castor réaliste et communiquer directement avec les animaux. Alors qu'elle découvre des mystères du monde animal dépassant tout ce qu'elle aurait pu imaginer, Mabel se lie d'amitié avec Roi Georges, un charismatique castor, et doit rallier tout le règne animal pour faire face à une menace humaine majeure et imminente : le maire Jerry Generazzo, un beau parleur.",
       "releaseInfo": "2026"
     }
   ]

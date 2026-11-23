@@ -1,12 +1,44 @@
 {
   "metas": [
     {
+      "id": "tmdb:74284",
+      "type": "series",
+      "name": "Dateline: Secrets Uncovered",
+      "poster": "https://image.tmdb.org/t/p/w500/ydF4jZ4vBhPX7O0ouMMkmDnQpGO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/t1LjhtXOPGW5FVaOCCiXi8Iy7zO.jpg",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:206593",
+      "type": "series",
+      "name": "Dateline: Unforgettable",
+      "poster": "https://image.tmdb.org/t/p/w500/ib7C7pvMvsxk8l4EjUsiUNqWTl1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gAOkgrgEmA29K42MZuSEvhVvBfZ.jpg",
+      "releaseInfo": "2021"
+    },
+    {
       "id": "tmdb:239961",
       "type": "series",
       "name": "Prosecuting Evil with Kelly Siegler",
       "poster": "https://image.tmdb.org/t/p/w500/6Ynm3olj7K06IodwabFMgK6BtCN.jpg",
       "background": "https://image.tmdb.org/t/p/w780/eo9OwD0QOmVV94qiwM5cyCZ3ODr.jpg",
       "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:85012",
+      "type": "series",
+      "name": "Homicide for the Holidays",
+      "poster": "https://image.tmdb.org/t/p/w500/i1B0uXjFUyIsokWwAsYHY5ny50n.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cVhuU1ZNzJAq4qsdjGaPWMiB0Dp.jpg",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:339333",
+      "type": "series",
+      "name": "Catfish Murders",
+      "poster": "https://image.tmdb.org/t/p/w500/aMM620x9juZDxT826MnoeYntF4Q.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/t3aQIC1E39XvxVjcX9qKk63SOPq.jpg",
+      "releaseInfo": "2026"
     }
   ]
 }

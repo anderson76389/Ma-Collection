@@ -1,11 +1,12 @@
 {
   "metas": [
     {
-      "id": "tmdb:341769",
+      "id": "tmdb:335981",
       "type": "series",
-      "name": "Valentín: La muerte del Gallo de Oro",
-      "poster": "https://image.tmdb.org/t/p/w500/3g4YJsWrUZ5tB3F3g99pcPHCCIX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9bZk0CshPxaYufswVE21ZOpJ3g7.jpg",
+      "name": "Le Cinéma selon Cunk",
+      "poster": "https://image.tmdb.org/t/p/w500/zrrRRvavkLQupkC6aEkdA8sX4E8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3NA7FxkqAaG1buZC1WtdPDpMlZg.jpg",
+      "description": "Dans cette série mockumentaire espiègle, Philomena Cunk part à la découverte de l'histoire du cinéma, sans manquer de laisser plusieurs experts perplexes en chemin.",
       "releaseInfo": "2026"
     },
     {

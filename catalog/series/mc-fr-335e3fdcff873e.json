@@ -1,13 +1,13 @@
 {
   "metas": [
     {
-      "id": "tmdb:34045",
+      "id": "tmdb:268",
       "type": "series",
-      "name": "Soeurs épouses",
-      "poster": "https://image.tmdb.org/t/p/w500/lnSXPiP9nYx23AbaekTCdTBq722.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bpD0l55NTyHzIGX0QdTdogTk1ro.jpg",
-      "description": "Série documentaire suivant le quotidien d'une famille polygame de l'Utah, aux États-Unis.",
-      "releaseInfo": "2010"
+      "name": "Dans les coulisses des urgences",
+      "poster": "https://image.tmdb.org/t/p/w500/l5hg2Qe15DuAdF2Apey8NKTDpNw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9mCFfWcOGytwTJlmYvxLY5gXXID.jpg",
+      "description": "Série documentaire portant sur des situations particulières survenues aux urgences d'un hôpital.",
+      "releaseInfo": "2004"
     },
     {
       "id": "tmdb:69880",
@@ -19,22 +19,13 @@
       "releaseInfo": "2015"
     },
     {
-      "id": "tmdb:268",
+      "id": "tmdb:62543",
       "type": "series",
-      "name": "Dans les coulisses des urgences",
-      "poster": "https://image.tmdb.org/t/p/w500/l5hg2Qe15DuAdF2Apey8NKTDpNw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9mCFfWcOGytwTJlmYvxLY5gXXID.jpg",
-      "description": "Série documentaire portant sur des situations particulières survenues aux urgences d'un hôpital.",
-      "releaseInfo": "2004"
-    },
-    {
-      "id": "tmdb:98410",
-      "type": "series",
-      "name": "Sœurs de poids",
-      "poster": "https://image.tmdb.org/t/p/w500/e6TkxFK6wxirZDRy8DHsFW63uAL.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pwqOrFWZBo2h9YNeorLh4dydRYM.jpg",
-      "description": "450 kg à elles-deux, les sœurs Slaton tentent de perdre assez de poids pour être éligibles à une chirurgie bariatrique et réaliser leur rêve.",
-      "releaseInfo": "2020"
+      "name": "7 Little Johnstons",
+      "poster": "https://image.tmdb.org/t/p/w500/aJnlmiE9JlKhEKYcpkoLg2WO64j.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zAKM6hRSA4gigcrseamge38kVCX.jpg",
+      "description": "\"7 Little Johnstons\" est une série de téléréalité américaine créée le 31 mars 2015 et diffusée sur TLC. La série s'articule autour des Johnston, une famille de sept personnes, toutes atteintes de nanisme. Les Johnston doivent jongler avec les problèmes familiaux et les problèmes de santé en plus de la rénovation de leur maison.",
+      "releaseInfo": "2015"
     },
     {
       "id": "tmdb:90046",
@@ -43,14 +34,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/jw4KDjNmpBnMd7fEjbz9qTUmKJS.jpg",
       "background": "https://image.tmdb.org/t/p/w780/9jmxvWOt5xTjrJ03FNmViZCuZ5f.jpg",
       "releaseInfo": "2019"
-    },
-    {
-      "id": "tmdb:340085",
-      "type": "series",
-      "name": "Crown of Deceit: Inside the Miss Universe Scandal",
-      "poster": "https://image.tmdb.org/t/p/w500/s1k8mCnOWLJuldSxd0WWJcAZfDD.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/sQ9NC6vbsa4qCNg24Huzz2mo597.jpg",
-      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:290564",

@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:314271",
+      "type": "series",
+      "name": "Bass X Machina",
+      "poster": "https://image.tmdb.org/t/p/w500/q7eWmFOfdHqm15YrKiYmR8XEVRx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ygjcwHWhhCaNPaPP965Du7eR2gO.jpg",
+      "description": "Dans un Far West steampunk sous la coupe des hors-la-loi, des machines et de forces surnaturelles, un père de famille doit se faire juge, juré et bourreau pour protéger les siens.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:284833",
       "type": "series",
       "name": "Avatar : Les Sept Refuges",
@@ -115,15 +124,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/iCtbr0sIdaKZjhQH3Wr7hW6A1IU.jpg",
       "background": "https://image.tmdb.org/t/p/w780/nTDL4UmMLDBCeMtYh8F1LZtgmLV.jpg",
       "description": "D'étranges créatures attaquent, mais Keiji les affronte en poussant son cri de guerre : Kokekokko !",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:313298",
-      "type": "series",
-      "name": "Les Dinosaures",
-      "poster": "https://image.tmdb.org/t/p/w500/8HmHtc8jRKCe83Uj1q7l216Bftz.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8X2R9uLys3SmkRuQAmSI96xxJAF.jpg",
-      "description": "Du premier dinosaure au tout dernier, cette série documentaire épique étudie les 165 millions d'années qu'ils ont passées sur Terre et les forces qui ont forgé leur évolution.",
       "releaseInfo": "2026"
     },
     {

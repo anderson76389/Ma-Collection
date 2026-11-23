@@ -50,8 +50,17 @@
       "type": "movie",
       "name": "The Mongoose",
       "poster": "https://image.tmdb.org/t/p/w500/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bySCyjQXNPgsnLTlgJpSMnRazPD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uAe2LEuZ2xg312FY7D8Ei4bl0aG.jpg",
       "description": "Accusé d'un crime qu'il n'a pas commis et n'ayant plus rien à perdre, un héros de guerre aux prises avec un syndrome de stress post-traumatique entraîne les forces de l'ordre dans une course-poursuite effrénée à travers tout le pays, avec l'aide de ses frères d'armes, tandis qu'un public captivé encourage sa fuite.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1084409",
+      "type": "movie",
+      "name": "A Talent for Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/6bvxjh0G4q5GrTOGWagYBJ1s7DY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/b3EGc5Ucj7wIeUjFc64Wq4IYgkp.jpg",
+      "description": "La solitude de Patricia Highsmith dans les Alpes suisses est interrompue par Edward, un jeune agent littéraire envoyé par sa maison d'édition pour la convaincre d'écrire un dernier roman de Tom Ripley. Highsmith utilise son imagination macabre pour effrayer Edward, mais avant qu'ils ne s'en rendent compte, une collaboration s'instaure entre eux.",
       "releaseInfo": "2026"
     },
     {
@@ -59,7 +68,7 @@
       "type": "movie",
       "name": "Clayface",
       "poster": "https://image.tmdb.org/t/p/w500/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/f1TVhqJJdxMvUsUDuKHS0ekgYkk.jpg",
       "description": "L'ascension fulgurante de Matt Hagen, de gamin des rues de Gotham à star hollywoodienne, est brutalement interrompue lorsqu'un baron du crime le laisse atrocement défiguré. Abandonné de tous et n'ayant plus rien à perdre, Matt se tourne vers un traitement expérimental qui lui rend miraculeusement son apparence... mais altère profondément sa perception de la réalité. Il sombre alors dans une spirale destructrice, consumé par un irrépressible désir de vengeance.",
       "releaseInfo": "2026"
     },
@@ -112,7 +121,7 @@
       "type": "movie",
       "name": "The Beast",
       "poster": "https://image.tmdb.org/t/p/w500/ocg5JfJP19fodcv5uQUApkmZMdI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/v5Wb9NoE0s1mGmC5wVeQR1OK22V.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r5RYEmZzm1Z6imS7XfiKPnMlyc7.jpg",
       "description": "Lorsqu'une attaque mondiale coordonnée plonge la planète dans le chaos, le président américain et son dernier agent des services secrets montent à bord de \"The Beast\", une limousine high-tech militarisée et dotée d'un arsenal défensif impressionnant, pour se lancer dans une course effrénée qui décidera du sort du monde libre.",
       "releaseInfo": "2026"
     },
@@ -156,7 +165,7 @@
       "id": "tmdb:1437396",
       "type": "movie",
       "name": "Your Mother Your Mother Your Mother",
-      "poster": "https://image.tmdb.org/t/p/w500/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/58g3PjU11nBszOWc836lC8t2Mzi.jpg",
       "background": "https://image.tmdb.org/t/p/w780/45Mbs6dmn2W0hvuyxXPDkKREHpP.jpg",
       "description": "À Houston, Latif, tueur à gages musulman et père de trois enfants, perd brutalement sa femme. Lorsque son nouveau-né refuse le lait maternisé, il se lance à la recherche d'Une nourrice, une démarche qui le conduit sur la piste d’un ex-militaire devenu prédicateur radical à la tête d’une milice d’extrême droite. Tandis que son ancien employeur tente de le ramener dans le milieu, Latif est entraîné dans un conflit qui menace sa famille autant que ses convictions.",
       "releaseInfo": "2026"
@@ -168,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/4tnRvIiWMzVA2Tw9c7INLo4sfo0.jpg",
       "background": "https://image.tmdb.org/t/p/w780/lpk0MwAn0UA3qCy9Iub4xMe15gv.jpg",
       "description": "Un horticulteur discret, qui mène en secret une double vie de tueur implacable, voit son identité menacée lorsqu’il se lie d’une amitié inattendue avec un témoin ayant découvert un vaste réseau de corruption policière.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1376400",
-      "type": "movie",
-      "name": "Crawlers",
-      "poster": "https://image.tmdb.org/t/p/w500/lNXeEpg4yLSRwXwOeR5lbPgwbqL.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ayJsUQ4bEG6yY0UB6lMboiaDfYE.jpg",
-      "description": "Un homme revient d'un voyage en hébergeant involontairement une nouvelle race d'arachnide. Bientôt, les habitants des son immeuble sont mis en quarantaine et doivent se débrouiller seuls face à une invasion d'araignées venimeuses.",
       "releaseInfo": "2026"
     }
   ]

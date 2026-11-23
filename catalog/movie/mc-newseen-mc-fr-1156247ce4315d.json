@@ -1,58 +1,31 @@
 {
   "metas": [
     {
-      "id": "tmdb:1780407",
+      "id": "tmdb:814340",
       "type": "movie",
-      "name": "Snoopy présente : les 12 jours de Noël",
-      "poster": "https://image.tmdb.org/t/p/w500/uJ3Eb4zUtF1KFD5zd8CiYaFXWuu.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/a3DzS9AUB6AgYiELaeTn2n8EfNz.jpg",
-      "description": "Afin de ne plus figurer sur la liste noire du père Noël, Snoopy fait de son mieux pour avoir une conduite irréprochable.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1050981",
-      "type": "movie",
-      "name": "Being Heumann",
-      "poster": "https://image.tmdb.org/t/p/w500/9Wi0fxpo1e7Wn2cGVNu7niwdEP2.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/25aB8RXP4mfQLFRSuEEhk0d0sTC.jpg",
-      "description": "Débrouillarde, défiant l'autorité et fatiguée d'être traitée comme un fardeau, Judy Heumann transforme son indignation en révolution. En 1977, cette dernière et plus de 100 manifestants luttant pour les droits des personnes handicapées envoient un message très clair : le système est défaillant, pas nous.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1465476",
-      "type": "movie",
-      "name": "Lulu est une rhinocéros",
-      "poster": "https://image.tmdb.org/t/p/w500/fXzxZeXFZglAjNR8lkx6k6ZFCDJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ak7IHiAEJIuiEsklXNd05cCbAr3.jpg",
-      "description": "Souhaitant répandre la gentillesse, la pétillante Lulu se lance dans l'aventure de sa vie et trouvera en chemin de nouveaux amis, du courage et des chansons pleines d'entrain !",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:544401",
-      "type": "movie",
-      "name": "Cherry",
-      "poster": "https://image.tmdb.org/t/p/w500/1YJR0MeTlOdRVpiueswk9TwOwk8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kzXUQnrUnHUGHuwWbgf9KpoU3qr.jpg",
-      "description": "Tom Holland incarne un jeune militaire aide-soignant parti en Irak, soutenu par son grand amour Emily. À son retour, il souffre de stress post-traumatique et sombre dans la toxicomanie et la délinquance, tout en luttant pour retrouver une place dans le monde.",
-      "releaseInfo": "2021"
-    },
-    {
-      "id": "tmdb:597922",
-      "type": "movie",
-      "name": "The Greatest Beer Run Ever",
-      "poster": "https://image.tmdb.org/t/p/w500/n9ccVv5WZfBRtbHPdVK6bS0D56S.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7bjaAcbrJDVvdF2Uew6rGp9Tp05.jpg",
-      "description": "Pour remonter le moral à ses amis partis combattre au Vietnam, Chickie a une folle idée : leur apporter lui-même des bières américaines. Ce voyage transformera sa vie et chamboulera ses certitudes.",
+      "name": "Cha Cha Real Smooth",
+      "poster": "https://image.tmdb.org/t/p/w500/8R7YzlWEJtgAjSqe2aArA4IvVtB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1LMGpNSUekWg3XCPweN33knQPW9.jpg",
+      "description": "Son diplôme universitaire en poche et coincé dans le cocon familial du New Jersey sans projet d'avenir bien défini, Andrew a 22 ans et commence à travailler en tant qu'animateur de bar-mitsvahs et bat-mitsvahs. C'est alors qu'il va tisser une amitié unique avec une jeune mère et sa fille adolescente.",
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:13479",
+      "id": "tmdb:1566269",
       "type": "movie",
-      "name": "Le Thanksgiving de Charlie Brown",
-      "poster": "https://image.tmdb.org/t/p/w500/koAPLwTlXJzXAGAFVoHDBNiZDdR.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xCTW6uzOWasbTivZIeQc2AsEIWr.jpg",
-      "description": "Peppermint Patty vous donne rendez-vous chez Charlie Brown pour Thanksgiving, même si notre ami sera, lui, en visite chez sa grand-mère. Joignez-vous à Snoopy pour un dîner festif qu’il prépare avec l’aide de ses amis.",
-      "releaseInfo": "1973"
+      "name": "La première neige de Fraggle Rock",
+      "poster": "https://image.tmdb.org/t/p/w500/xBbw7RIQhohmMxt9GKZdYm09TSD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/h5hCdU9KvcCbBihSNfn3vtML7tV.jpg",
+      "description": "Alors que les fêtes réservent leurs surprises et aventures inattendus, les Fraggles apprennent à apprécier chaque jour pour son caractère unique et magique, tel un flocon de neige.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:765245",
+      "type": "movie",
+      "name": "Swan Song",
+      "poster": "https://image.tmdb.org/t/p/w500/niP6SB6hbIHqe479IDNgtEoSTji.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4iMURVQCxjyMH8Vr1Wd3GCsxE06.jpg",
+      "description": "Atteint d’une maladie incurable, Cameron Turner se voit proposer une solution expérimentale pour protéger sa famille du deuil. Mais sa décision pourrait à jamais changer leur destin. Une réflexion brillante sur l’amour, le deuil et le sacrifice.",
+      "releaseInfo": "2021"
     }
   ]
 }

@@ -118,6 +118,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:330505",
+      "type": "series",
+      "name": "Uncle's Obsession with Cute Things",
+      "poster": "https://image.tmdb.org/t/p/w500/e5SBbNvz6Fz0jfOXm8yI0CdPZYe.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kn0Vt7Zft7cDIp5YKwLkoNWJbJy.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:320377",
       "type": "series",
       "name": "TANK CHAIR",
@@ -145,6 +153,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:317259",
+      "type": "series",
+      "name": "VERTEX FORCE",
+      "poster": "https://image.tmdb.org/t/p/w500/q4Frct3HP4eaFs7hc8fHq04Rl6Y.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wNjJs2OronJm8jK4Y35R6kjH3sy.jpg",
+      "description": "La famille Tôdô, composée d'Akira, Haruka et de leur mère, est en apparence tout à fait ordinaire. Mais Haruka, l'aînée, possède un pouvoir qu'elle dissimule aux autres et qu'elle a hérité de son père. Un fait qui complexe grandement Akira, puisque lui-même ne possède aucun pouvoir. Jusqu'au jour où les deux enfants sont victimes d'une attaque étrange.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:285899",
       "type": "series",
       "name": "A Tale of the Secret Saint",
@@ -160,19 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/aCnMXOrLVUF32hFbSMRXLJwUtkd.jpg",
       "background": "https://image.tmdb.org/t/p/w780/sqfxKwR0mYva1LJlkMqIMNb2W36.jpg",
       "description": "Alors que la guerre fait rage aux confins du Royaume de Highland, Riliu et son meilleur ami Jowy aspirent à retrouver la quiétude des temps passés. Mais lorsqu’une attaque les sépare et les contraint à traverser le territoire ennemi, ils découvrent que le conflit pourrait être le fruit d’une machination soigneusement orchestrée. Déterminés à faire éclater la vérité, les deux soldats entreprennent…",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:337143",
-      "type": "series",
-      "name": "深夜残業～肉食後輩の片恋研修～",
-      "poster": "https://image.tmdb.org/t/p/w500/5fMWivX9cGLayrVaTDZqO0BFMic.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:336223",
-      "type": "series",
-      "name": "彼女の妹～誘惑だらけのサンカク関係～",
       "releaseInfo": "2026"
     }
   ]

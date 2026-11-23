@@ -10,12 +10,30 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:329096",
+      "type": "series",
+      "name": "From far away",
+      "poster": "https://image.tmdb.org/t/p/w500/rHI61poyqC6GF0HRurV6Hq12K81.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/inwM4LXqXYYauU1eJkfJ6uDkV11.jpg",
+      "description": "Noriko est une lycéenne comme les autres, jusqu’à ce qu’une explosion l’entraîne dans un monde de magie où personne ne parle sa langue. Complètement perdue, Noriko est secourue par Izark, un épéiste mis au ban de la société, déterminé à tuer « l’Éveil » : un personnage prophétisé qui contrôlerait le Démon du Ciel. Alors qu’Izark et Noriko se rapprochent, il se rend compte qu’elle pourrait bien être celle qu’il traque.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:313068",
       "type": "series",
       "name": "Love Potion, la sorcière mal-aimée",
       "poster": "https://image.tmdb.org/t/p/w500/7VjZRZD5sHjsIaoNiUiXzO0qC10.jpg",
       "background": "https://image.tmdb.org/t/p/w780/hEE9n9tZAjoT3eE5lL4MhZZ2DbB.jpg",
       "description": "Rose, une sorcière solitaire vivant recluse au bord d'un lac, est sollicitée par le chevalier qu’elle aime en secret. Mais ce dernier lui demande de concocter un philtre d’amour ! Le cœur brisé, elle ne peut pourtant lui refuser cette faveur. En attendant le jour fatidique où le philtre sera prêt, elle profite de passer du temps avec lui en l'envoyant chercher toutes sortes d'ingrédients.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:335194",
+      "type": "series",
+      "name": "Magical Explorer",
+      "poster": "https://image.tmdb.org/t/p/w500/b9LtxUfUrhsuq8lYvlhXq2I5gAw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oxS6i62MRfIeXFKN2F3uEipKwt7.jpg",
+      "description": "Réincarné dans son jeu « bishojo » préféré, Kousuke se retrouve affublé du pire rôle qui soit : celui d’un acolyte insignifiant. Mais fort de sa connaissance du jeu et de la plus grande réserve de mana de ce monde, il pourrait bien finir par surpasser le héros ! Kousuke doit désormais réécrire son destin et se frayer un chemin à coups d’épée vers les fins heureuses des héroïnes !",
       "releaseInfo": "2026"
     },
     {
@@ -43,6 +61,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/aRTMLZWEtBUy4fG01aqVicRD2wx.jpg",
       "background": "https://image.tmdb.org/t/p/w780/gkmE41A5ev5M299hLgX3JrWAM16.jpg",
       "description": "Sasaki est un employé de bureau usé par ses heures de travail. Son seul rayon de soleil, c'est le sourire de la caissière de la supérette du coin. Un soir, il ne la voit pas en service quand une jeune fille lui propose de fumer une cigarette ensemble, à l'arrière du magasin. C'est ainsi que commence, entre eux, une relation des plus atypiques mais aussi des plus uniques.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:314561",
+      "type": "series",
+      "name": "パーフェクトアディクション",
+      "poster": "https://image.tmdb.org/t/p/w500/Aal2qmznvyG7zUHAeZI5cOHHO1e.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/phmgxm6Zovk2ALOfkegQF13jEcS.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -88,6 +114,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/qbPEnASkv65oKE06wHefsHMcgA0.jpg",
       "background": "https://image.tmdb.org/t/p/w780/g9MeGvfwHXldvVOttIybvaNfLEM.jpg",
       "description": "Par une nuit d'avril à Tokyo, alors qu'il est encore trop tôt pour les feux d'artifice, un étudiant universitaire nommé Kakeru Sorano rencontre une personne nommée Koharu Fuyutsuki. C'est une belle jeune femme qui se démarque de la foule, rit beaucoup et dégage une chaleur qui contraste fortement avec l'introversion de Kakeru. Mais il y avait quelque chose qu'il ignorait au début : elle est aveugle.\n\nContrairement à Kakeru, Koharu n'a jamais renoncé, même avec sa cécité. Elle va tous les jours à l'université, s'intéresse aux clubs, se fait des amis et rêve de lancer un jour des feux d'artifice. Kakeru se demande pourquoi, puisqu'elle ne peut pas les voir... mais peut-être que cela n'a pas d'importance. Et peut-être qu'il peut lui aussi aller de l'avant, pour la fille qui a toujours été à ses côtés.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:295071",
+      "type": "series",
+      "name": "Goodbye, Lara",
+      "poster": "https://image.tmdb.org/t/p/w500/pmKGSvCKL3qh9iyLYVlnYP0eguT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2ZiCNiuOiUGfAF0j73RI8DX1Z1N.jpg",
+      "description": "Il y a fort longtemps, la petite sirène Lara a quitté la mer par amour pour un prince humain vivant sur la terre ferme. Mais son souhait n’a pas pu se réaliser et elle est transformée en écume. Deux cents ans plus tard, Lara se réveille une nouvelle fois, dans le lac Biwa, pour enfin partir à la recherche de son véritable amour.",
       "releaseInfo": "2026"
     },
     {
@@ -142,41 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/se1dHUNQMRwUt75xRqkQRmXJicg.jpg",
       "background": "https://image.tmdb.org/t/p/w780/krbKWrBEOjPdUmp1CGRgRVnLsrs.jpg",
       "description": "Étudiante de première année à l'université de Chichibu, Botan Kamiina se lie d’amitié avec Ibuki Tonami, une élève de troisième année qui aime boire un verre, mais jamais en public…",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:309163",
-      "type": "series",
-      "name": "Gals Can't Be Kind to Otaku!?",
-      "poster": "https://image.tmdb.org/t/p/w500/mpbX1OQTNoWbqY0ixz280GLrURy.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7837uc8fhaREbOVnqIwXrFu335o.jpg",
-      "description": "Takuya Seo est un otaku qui est assis derrière Ijichi et Amane, les filles populaires de sa classe. Comme ils appartiennent à des \"castes\" différentes, on pourrait penser qu'ils n'ont pas grand-chose en commun. Cependant, lorsque leurs mondes se rencontrent à propos d'une gomme empruntée, Takuya commet une erreur en parlant de son anime préféré, et Amane... ne tarde pas à le corriger. Elle dit ne pas être fan, mais sa connaissance de la série suggère le contraire. Serait-elle... une otaku comme lui ?!",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:306790",
-      "type": "series",
-      "name": "Pardon the Intrusion, I'm Home!",
-      "poster": "https://image.tmdb.org/t/p/w500/ipc7ChnTAVAQWJm01UJFq3sjiOL.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ytpYtFoZ7nZGvNHySLYufTFpZB9.jpg",
-      "description": "À 24 ans, Rinko est employée de bureau et vit seule. Un jour, son appartement se retrouve avec deux trous dans le mur. À gauche, un garçon se montrant excessivement gentil avec elle. À droite, un voisin un peu trop violent. Son petit havre de paix est ainsi tout chamboulé !",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:318478",
-      "type": "series",
-      "name": "百鬼夜行抄",
-      "poster": "https://image.tmdb.org/t/p/w500/wDQzkX6Fd60zQSQVkyaD9YgwRD8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ekBMDoocqr5u0dBZRK9VFakyVBx.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:301944",
-      "type": "series",
-      "name": "MARRIAGETOXIN",
-      "poster": "https://image.tmdb.org/t/p/w500/bHCm3vz7Mg60wEO6HTm9g2g8IEH.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/edyP3Y3j5M1aponwAtDEUtTlPIA.jpg",
-      "description": "Gero est l'aîné d'un clan de tueurs à gages spécialisé dans les poisons. Criminel de naissance, malgré son bon fond, il a grandi en marge de la société et s'imagine n'avoir aucune chance de trouver l'amour. Jusqu'au jour où son clan lui lance un ultimatum : s'il ne se marie pas pour donner naissance à un héritier, ils forceront sa petite sœur à le faire !\n\nOr, sa prochaine cible est une arnaqueuse, spécialisée dans les mariages arrangés... Acculé, Gero la supplie alors de l'aider.",
       "releaseInfo": "2026"
     }
   ]

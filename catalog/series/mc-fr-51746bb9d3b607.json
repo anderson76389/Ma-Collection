@@ -10,23 +10,6 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:38183",
-      "type": "series",
-      "name": "After the First 48",
-      "poster": "https://image.tmdb.org/t/p/w500/pHwKIKugzP5cHiJRTQjIrm9Fq5C.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pi2ILxOuBxKmLoyYoQtHdpFYANY.jpg",
-      "releaseInfo": "2008"
-    },
-    {
-      "id": "tmdb:35086",
-      "type": "series",
-      "name": "Alaska State Troopers",
-      "poster": "https://image.tmdb.org/t/p/w500/iwI0baUzUbT4k0EpZoY245lTk0s.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ifnrPkfLOIu2l2Ym0K11u29Q6ri.jpg",
-      "description": "Suivez ces agents de sécurité qui ont pour mission de protéger les vies, les biens et les droits constitutionnels des habitants dans l’un des Etats les plus hostiles : l’Alaska.",
-      "releaseInfo": "2009"
-    },
-    {
       "id": "tmdb:205373",
       "type": "series",
       "name": "Conducteurs en colère",
@@ -56,6 +39,7 @@
       "type": "series",
       "name": "Killer Investigations",
       "poster": "https://image.tmdb.org/t/p/w500/oBNJRIhszV2yMZUadiXtQ9NOEBj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cGjMEAyrXM3LXxFSMgW95d4CiYB.jpg",
       "releaseInfo": "2025"
     }
   ]

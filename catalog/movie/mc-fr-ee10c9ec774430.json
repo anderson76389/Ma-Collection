@@ -1,21 +1,30 @@
 {
   "metas": [
     {
+      "id": "tmdb:1551025",
+      "type": "movie",
+      "name": "Protection (très) rapprochée",
+      "poster": "https://image.tmdb.org/t/p/w500/2RtUijWe9PxnckIFugctHLj2xe5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qHvap0vpfTBIbv7cnR0OyBRqQHG.jpg",
+      "description": "Quand une garde du corps intraitable est chargée de protéger une star de cinéma, les étincelles fusent, des secrets éclatent au grand jour et Noël devient soudain très compliqué.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1131943",
+      "type": "movie",
+      "name": "Madden",
+      "poster": "https://image.tmdb.org/t/p/w500/1D1U38gOkfOhahH3yfmfHUXqD76.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lRsapglJZIyMfGl8oQyNASlZqDC.jpg",
+      "description": "Inspiré de la vie d'une icône américaine, MADDEN retrace le parcours de John Madden : de son duo victorieux avec Al Davis chez les Raiders à son rôle de voix emblématique du football, jusqu'à la création du jeu vidéo mythique Madden NFL. Ce film rend hommage à un esprit brillant dont la passion débordante et la complicité avec son épouse Virginia ont dépassé le simple cadre du sport.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1518204",
       "type": "movie",
       "name": "Allen",
       "poster": "https://image.tmdb.org/t/p/w500/alhhrpj1PSAn5bfz4Os1k7Bweoj.jpg",
       "background": "https://image.tmdb.org/t/p/w780/51fGmBW7WjyJouP9TjIcxRpCUNk.jpg",
       "description": "Vingt ans après sa rencontre avec un alien, Petey n'a jamais pu tourner la page. Maintenant, son vieil ami est de retour, mais pour une raison compliquée... et inattendue.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1567605",
-      "type": "movie",
-      "name": "Scrooge",
-      "poster": "https://image.tmdb.org/t/p/w500/uxYPnpkSmG1iluoSB0fOtYK7BfM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fdOVxyNNL95SuI8BGaN6vudEuYX.jpg",
-      "description": "Ebenezer Scrooge est un vieil homme avare, pingre et solitaire. Bien évidemment, il déteste et méprise Noël et tout ce qui engendre le bonheur. C'est alors qu'il reçoit la visite du fantôme d'un ancien associé ainsi que par les esprits de Noëls du passé, du présent et du futur.",
       "releaseInfo": "2026"
     },
     {
@@ -32,7 +41,7 @@
       "type": "movie",
       "name": "Club Kid",
       "poster": "https://image.tmdb.org/t/p/w500/lfznSwfaXWLxW5TR09IoNV9OwhM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/AjrgF2JZb8WAeIFTvUjJK6VA2CG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/m5zcXuV4qR9fBgXjPndLIPOcasF.jpg",
       "description": "Peter (Jordan Firstman), organisateur de soirées branchées à New York, mène une existence aussi effrénée qu’insouciante, rythmée par les nuits festives et les excès. Sa vie bascule lorsqu'Arlo, le fils de 10 ans dont il ignorait l'existence, frappe à sa porte. Dépassé par ce rôle de père qu'il n'avait jamais envisagé, il est rapidement conquis par le charme et la spontanéité de l’enfant. Au fil du temps, un lien aussi inattendu que profond se tisse entre eux, et Peter découvre enfin qu’il existe une vie au-delà de la prochaine fête.",
       "releaseInfo": "2026"
     },
@@ -94,8 +103,17 @@
       "type": "movie",
       "name": "Street Fighter",
       "poster": "https://image.tmdb.org/t/p/w500/k53HHxQ4rQG0dME6nsofii3QNS7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/w2Gu916zS11X94CZaSLpzvfgHcG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg",
       "description": "En 1993, Ryu et Ken Masters, deux Street Fighters autrefois inséparables, sont replongés dans l’arène lorsque la mystérieuse Chun-Li les recrute pour le prochain World Warrior Tournament : un affrontement brutal où se mêlent poings, destin et fureur. Mais derrière cette battle royale se cache une conspiration mortelle qui les oblige à s’affronter, tout en faisant face aux démons de leur passé… Et s’ils échouent, c’est GAME OVER.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1381221",
+      "type": "movie",
+      "name": "Misty Green",
+      "poster": "https://image.tmdb.org/t/p/w500/dUFtfnSfUK5IUfC5XMlMEY36EAp.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vb8ynrTs7xp7gaEIplf0zcjJZeh.jpg",
+      "description": "Misty, une actrice talentueuse, lutte contre ses démons qui entravent le renouveau de sa carrière. Jordan, un réalisateur détenant le rôle parfait, lui offre une occasion en or, compliquée par leur passé tumultueux.",
       "releaseInfo": "2026"
     },
     {
@@ -129,7 +147,7 @@
       "type": "movie",
       "name": "Digger",
       "poster": "https://image.tmdb.org/t/p/w500/gPCCGMQCrrMNM3mR3vqIdbdJxJ5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vC5IxhgO6cVmw9O4QgkraRzfHvh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4A3r1AjJg9Wa6ms3MGOScetCY0o.jpg",
       "description": "L’homme le plus puissant du monde se lance dans une mission frénétique pour prouver qu’il est le sauveur de l’humanité avant que le désastre qu’il a déclenché ne détruise tout.",
       "releaseInfo": "2026"
     },
@@ -156,23 +174,6 @@
       "name": "The Musical",
       "poster": "https://image.tmdb.org/t/p/w500/paoRPVNta4eYyPO1vsdHTK8dUYa.jpg",
       "background": "https://image.tmdb.org/t/p/w780/475EwwQP3Lg0kqhSC0xnZC4XBBd.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1514863",
-      "type": "movie",
-      "name": "Best of the Best",
-      "poster": "https://image.tmdb.org/t/p/w500/9soOjsZ91vtMzypK2F3MC378JI5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/5m1j7Wibh3HnZq5QHm97v8dI3GH.jpg",
-      "description": "Deux meilleures amies inséparables depuis l'enfance se lancent un défi de taille : intégrer et faire triompher la troupe universitaire de danse Bollywood. Mais la compétition s'avère bien plus féroce et impitoyable qu'elles ne l'imaginaient, mettant leur amitié fusionnelle à rude épreuve.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1513253",
-      "type": "movie",
-      "name": "Tiny Fugitives",
-      "poster": "https://image.tmdb.org/t/p/w500/unJWfg66bFwrGD31nBFoOQfkuba.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dWuKeIxbWszZgnxtQYw9vH8mw6h.jpg",
       "releaseInfo": "2026"
     }
   ]

@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1084409",
+      "type": "movie",
+      "name": "A Talent for Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/6bvxjh0G4q5GrTOGWagYBJ1s7DY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/b3EGc5Ucj7wIeUjFc64Wq4IYgkp.jpg",
+      "description": "La solitude de Patricia Highsmith dans les Alpes suisses est interrompue par Edward, un jeune agent littéraire envoyé par sa maison d'édition pour la convaincre d'écrire un dernier roman de Tom Ripley. Highsmith utilise son imagination macabre pour effrayer Edward, mais avant qu'ils ne s'en rendent compte, une collaboration s'instaure entre eux.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1380316",
       "type": "movie",
       "name": "Elle est dieu, dieu est-elle ?",
@@ -70,15 +79,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/itaIGLdCu0e28XQOEf7V3chd904.jpg",
       "background": "https://image.tmdb.org/t/p/w780/uWVkEo9PWHu9algZsiLPi6sRU64.jpg",
       "description": "Captation de la célèbre comédie musicale de Broadway récompensée par 11 Tony, Grammy et Olivier Awards, et par un prix Pulitzer. Hamilton raconte l'histoire d'Alexander Hamilton, l'un des Pères fondateurs de la nation américaine.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1327872",
-      "type": "movie",
-      "name": "La Reine des Neiges : La comédie musicale de Broadway",
-      "poster": "https://image.tmdb.org/t/p/w500/fxFeYqEwHvjxLtsNl6qOKN12Axi.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wN47m8DMp8byXfMBQl4rdfu4xvx.jpg",
-      "description": "Lorsque les pouvoirs cachés de la reine Elsa plongent Arendelle dans un hiver éternel, sa sœur Anna part à sa recherche pour sauver le royaume. Alors que la tempête fait rage, les deux sœurs apprendront que seul un geste d'amour sincère peut dégeler un cœur de glace. C'est l'histoire que vous connaissez et appréciez comme vous ne l'avez jamais vue auparavant. \"La Reine des Neiges : La comédie musicale de Broadway\" est une production impressionnante qui transpose sur scène la magie, la musique et le spectacle du film à succès, avec des surprises palpitantes et des effets spéciaux étonnants. Douze nouvelles chansons écrites spécialement pour la comédie musicale côtoient les classiques tels que « Il faut fêter le renouveau », « Je voudrais un bonhomme de neige » et « Libérée, délivrée ».",
       "releaseInfo": "2025"
     },
     {

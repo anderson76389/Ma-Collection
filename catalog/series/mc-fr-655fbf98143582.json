@@ -1,24 +1,6 @@
 {
   "metas": [
     {
-      "id": "tmdb:105009",
-      "type": "series",
-      "name": "Tokyo Revengers",
-      "poster": "https://image.tmdb.org/t/p/w500/kzDHRAkFjeed0lJpjE1eKJDcowS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zYIFOocMfsKAEysBjhZ8akfXFdB.jpg",
-      "description": "Takemichi Hanagaki n'a pas vraiment réussi sa vie. Il fait des petits boulots sans intérêt et lorsqu'il apprend que la seule petite amie qu'il ait jamais eu au collège, Hinata Tachibana, a été tuée par l'impitoyable gang Tokyo Manji-kai, il est anéanti. Le lendemain, toujours sous le choc, il est poussé sur les rails de la gare lors d'un mouvement de foule. Mais Takemichi ne meurt pas et quand il se réveille, il est revenu douze ans en arrière. Il va ainsi retrouver ses meilleures années, mais aussi tenter de sauver celle qui l'aime et prendre sa revanche sur la vie…",
-      "releaseInfo": "2021"
-    },
-    {
-      "id": "tmdb:216467",
-      "type": "series",
-      "name": "Mission: Yozakura Family",
-      "poster": "https://image.tmdb.org/t/p/w500/glBNKxn7UfZ2bwXfvwGgsbs9yIT.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xlMVEbNl7ZBGFyhX2WEhQ8Kifm4.jpg",
-      "description": "Taiyô Asano est un lycéen à la timidité maladive. La seule personne avec qui il arrive à parler normalement est son amie d'enfance Mutsumi Yozakura. Mais cette dernière est la fille d'une famille d'espions qui oeuvre depuis plusieurs générations, et son grand frère, qui lui voue une affection excessive, a décidé d'éliminer Taiyô !",
-      "releaseInfo": "2024"
-    },
-    {
       "id": "tmdb:283428",
       "type": "series",
       "name": "The Ramparts of Ice",
@@ -28,6 +10,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:105009",
+      "type": "series",
+      "name": "Tokyo Revengers",
+      "poster": "https://image.tmdb.org/t/p/w500/kzDHRAkFjeed0lJpjE1eKJDcowS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zYIFOocMfsKAEysBjhZ8akfXFdB.jpg",
+      "description": "Takemichi Hanagaki n'a pas vraiment réussi sa vie. Il fait des petits boulots sans intérêt et lorsqu'il apprend que la seule petite amie qu'il ait jamais eu au collège, Hinata Tachibana, a été tuée par l'impitoyable gang Tokyo Manji-kai, il est anéanti. Le lendemain, toujours sous le choc, il est poussé sur les rails de la gare lors d'un mouvement de foule. Mais Takemichi ne meurt pas et quand il se réveille, il est revenu douze ans en arrière. Il va ainsi retrouver ses meilleures années, mais aussi tenter de sauver celle qui l'aime et prendre sa revanche sur la vie…",
+      "releaseInfo": "2021"
+    },
+    {
       "id": "tmdb:320909",
       "type": "series",
       "name": "Les Noces des Lucioles",
@@ -35,6 +26,15 @@
       "background": "https://image.tmdb.org/t/p/w780/3zmB6PLnjf7rNNC2lnvinQtlJMx.jpg",
       "description": "Durant l'ère Meiji, Satoko Kirigaya n’a qu’un seul souhait : se marier pour l'honneur de sa famille et ce, même si ses jours sont comptés. Mais alors qu'un assassin tente de la tuer, elle lui offre de l’épouser ! Une proposition que Shinpei Goto accepte, mais qui pourrait bien se retourner contre elle…",
       "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:216467",
+      "type": "series",
+      "name": "Mission: Yozakura Family",
+      "poster": "https://image.tmdb.org/t/p/w500/glBNKxn7UfZ2bwXfvwGgsbs9yIT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xlMVEbNl7ZBGFyhX2WEhQ8Kifm4.jpg",
+      "description": "Taiyô Asano est un lycéen à la timidité maladive. La seule personne avec qui il arrive à parler normalement est son amie d'enfance Mutsumi Yozakura. Mais cette dernière est la fille d'une famille d'espions qui oeuvre depuis plusieurs générations, et son grand frère, qui lui voue une affection excessive, a décidé d'éliminer Taiyô !",
+      "releaseInfo": "2024"
     },
     {
       "id": "tmdb:259140",
@@ -55,12 +55,21 @@
       "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:314054",
+      "id": "tmdb:261343",
       "type": "series",
-      "name": "Red River",
-      "poster": "https://image.tmdb.org/t/p/w500/wWlfBMTA7VygmYC4KUg2qLWJGmv.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pHzcs5Ru1lwoVcQsPA5lNYlxJy2.jpg",
-      "description": "Yuri Suzuki est une jeune femme comblée : non seulement elle a réussi ses examens d'entrée à l'université, mais elle a aussi enfin échangé son premier baiser avec l'élu de son coeur. Malheureusement, ce bonheur ne dure pas. Un jour, elle est mystérieusement entrainée dans une flaque d'eau et est transportée dans le passé, au cœur de l'Empire Hittite, des millénaires avant sa naissance. Celle qui l'a invoquée, la reine Nakia, a l'intention de l'utiliser à des fins sacrificielles. Heureusement, la jeune femme déboussolée peut compter sur un allié inattendu.",
+      "name": "Chitose Is in the Ramune Bottle",
+      "poster": "https://image.tmdb.org/t/p/w500/xCsz0dWkpoya5XK3y2UaEkXnin5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4BE1aoCu5mCG3ZJ7alNDQkB3oK4.jpg",
+      "description": "Il n'est pas facile d'être populaire et dans ce domaine, c'est difficile de battre Saku Chitose, l'élève le plus populaire de son lycée. Ce jeune lycéen a une réputation à toute épreuve qui résiste même aux attaques en ligne les plus virulentes. Il a aussi un groupe d'amis autant séduisants à l'extérieur qu'à l'intérieur. Cependant, lorsqu'un professeur lui demande de l'aider à réhabiliter une élève enfermée dans sa chambre depuis des mois, le monde parfait de Saku ne sera plus jamais le même.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:335194",
+      "type": "series",
+      "name": "Magical Explorer",
+      "poster": "https://image.tmdb.org/t/p/w500/b9LtxUfUrhsuq8lYvlhXq2I5gAw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oxS6i62MRfIeXFKN2F3uEipKwt7.jpg",
+      "description": "Réincarné dans son jeu « bishojo » préféré, Kousuke se retrouve affublé du pire rôle qui soit : celui d’un acolyte insignifiant. Mais fort de sa connaissance du jeu et de la plus grande réserve de mana de ce monde, il pourrait bien finir par surpasser le héros ! Kousuke doit désormais réécrire son destin et se frayer un chemin à coups d’épée vers les fins heureuses des héroïnes !",
       "releaseInfo": "2026"
     },
     {
@@ -71,15 +80,6 @@
       "background": "https://image.tmdb.org/t/p/w780/hEE9n9tZAjoT3eE5lL4MhZZ2DbB.jpg",
       "description": "Rose, une sorcière solitaire vivant recluse au bord d'un lac, est sollicitée par le chevalier qu’elle aime en secret. Mais ce dernier lui demande de concocter un philtre d’amour ! Le cœur brisé, elle ne peut pourtant lui refuser cette faveur. En attendant le jour fatidique où le philtre sera prêt, elle profite de passer du temps avec lui en l'envoyant chercher toutes sortes d'ingrédients.",
       "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:261343",
-      "type": "series",
-      "name": "Chitose Is in the Ramune Bottle",
-      "poster": "https://image.tmdb.org/t/p/w500/xCsz0dWkpoya5XK3y2UaEkXnin5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4BE1aoCu5mCG3ZJ7alNDQkB3oK4.jpg",
-      "description": "Il n'est pas facile d'être populaire et dans ce domaine, c'est difficile de battre Saku Chitose, l'élève le plus populaire de son lycée. Ce jeune lycéen a une réputation à toute épreuve qui résiste même aux attaques en ligne les plus virulentes. Il a aussi un groupe d'amis autant séduisants à l'extérieur qu'à l'intérieur. Cependant, lorsqu'un professeur lui demande de l'aider à réhabiliter une élève enfermée dans sa chambre depuis des mois, le monde parfait de Saku ne sera plus jamais le même.",
-      "releaseInfo": "2025"
     },
     {
       "id": "tmdb:316891",
@@ -100,6 +100,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:314054",
+      "type": "series",
+      "name": "Red River",
+      "poster": "https://image.tmdb.org/t/p/w500/wWlfBMTA7VygmYC4KUg2qLWJGmv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pHzcs5Ru1lwoVcQsPA5lNYlxJy2.jpg",
+      "description": "Yuri Suzuki est une jeune femme comblée : non seulement elle a réussi ses examens d'entrée à l'université, mais elle a aussi enfin échangé son premier baiser avec l'élu de son coeur. Malheureusement, ce bonheur ne dure pas. Un jour, elle est mystérieusement entrainée dans une flaque d'eau et est transportée dans le passé, au cœur de l'Empire Hittite, des millénaires avant sa naissance. Celle qui l'a invoquée, la reine Nakia, a l'intention de l'utiliser à des fins sacrificielles. Heureusement, la jeune femme déboussolée peut compter sur un allié inattendu.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:329096",
       "type": "series",
       "name": "From far away",
@@ -116,6 +125,14 @@
       "background": "https://image.tmdb.org/t/p/w780/3Yl6mfqbyRPRKCHBmWoqANKrxPw.jpg",
       "description": "Lua est une candidate sainte qui possède le pouvoir de guérir les autres. Mais celui-ci à une particularité : elle doit transférer les maladies et les blessures sur elle avant de pouvoir les guérir. Cette spécificité lui vaut le surnom peu flatteur de \"La Sainte déchue\". Mais heureusement, Lua peut compter sur son adorable meilleure amie, Arianne. Malheureusement, les apparences sont parfois trompeuses. Un jour, le commandant Garrett, l'amour à sens unique de Lua, se retrouve grièvement blessé. Lua risque sa vie pour le sauver, mais quand elle se réveille, tous les mérites sont attribués à Arianne. Blessée par cette trahison, Lua prend une décision. L'heure de la vengeance a sonné.",
       "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:318963",
+      "type": "series",
+      "name": "らぶいーず",
+      "poster": "https://image.tmdb.org/t/p/w500/e0zHS6ge3ZdgNCA09WsxY8ZfsHZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/el6C1BSaWgBtO7rvEAu2p7sKFRK.jpg",
+      "releaseInfo": "2026"
     }
   ]
 }

@@ -9,6 +9,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:339379",
+      "type": "series",
+      "name": "Griff Across the Alps",
+      "poster": "https://image.tmdb.org/t/p/w500/f4W24khBKXxev5pVCYwrL5EIxou.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/f3LWKyiLbgLxklbpASCzfgpYY7P.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:334470",
       "type": "series",
       "name": "It Gets Worse",
@@ -44,7 +52,7 @@
       "id": "tmdb:333854",
       "type": "series",
       "name": "The Great British Bake Off: Second Helpings",
-      "poster": "https://image.tmdb.org/t/p/w500/hyZs4jmChlcytHjZVavndyyxDHN.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/qXeO04SrBT9eMtBfWwLH99hemE2.jpg",
       "background": "https://image.tmdb.org/t/p/w780/hnvOSPiAmvX9e4QhsfhevyULVMT.jpg",
       "releaseInfo": "2026"
     },
@@ -151,14 +159,6 @@
       "name": "Vengeance: Murder on the Heath",
       "poster": "https://image.tmdb.org/t/p/w500/153hdFfoEYZrri6Ph1CKfxojUsS.jpg",
       "background": "https://image.tmdb.org/t/p/w780/39NTM8sR9RLXdZjx7tX97IeMcWt.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:287168",
-      "type": "series",
-      "name": "Falling",
-      "poster": "https://image.tmdb.org/t/p/w500/cez4OCwBHziwIYKuOJtlMxLkTGo.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jya3vumEb5uQKdH87EDoGunPbdd.jpg",
       "releaseInfo": "2026"
     }
   ]

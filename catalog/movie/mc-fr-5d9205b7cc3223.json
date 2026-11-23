@@ -22,7 +22,8 @@
       "type": "movie",
       "name": "You Can See Everything",
       "poster": "https://image.tmdb.org/t/p/w500/7nG1AFxnrh5KtgH3jA4uIsWmX95.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nhIL3O4W9h5V5JbNQm7yjoDk3So.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rrbbzCyS45yooXpUGJatfptlHYI.jpg",
+      "description": "Trente-quatre jours avant son incarcération, Elizabeth Holmes, fondatrice tristement célèbre de la Silicon Valley, invite une équipe de tournage — d’abord sceptique — à documenter chacun de ses faits et gestes. Ce qui commence comme le portrait intime d’une criminelle énigmatique se transforme en une odyssée vertigineuse de trois ans, une plongée dans les abysses.",
       "releaseInfo": "2026"
     },
     {
@@ -49,6 +50,7 @@
       "name": "Musk",
       "poster": "https://image.tmdb.org/t/p/w500/kTOeFV92c3QHJ3bEkT660P7BcWN.jpg",
       "background": "https://image.tmdb.org/t/p/w780/1CfHIKczBiAauSRBiNQ90bjLsCM.jpg",
+      "description": "Un regard incisif sur la légende d'Elon Musk, l'« inventeur-entrepreneur » le plus célèbre au monde, qui exerce une influence énorme sur le monde dans lequel nous vivons tous.",
       "releaseInfo": "2026"
     },
     {

@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "semaine_utc": "2026-11-16",
+  "semaine_utc": "2026-11-23",
   "region": "FR",
   "totaux": {
     "sources_auditees": 377,
     "sources_interrogees": 358,
-    "catalogues_publies": 473,
-    "catalogues_essentiels": 224,
+    "catalogues_publies": 474,
+    "catalogues_essentiels": 225,
     "episodes": 62,
     "saisons": 8,
     "episodes_animes_et_telerrealite": 11,
@@ -14,8 +14,8 @@
     "catalogues_services_fr_supplementaires": 15,
     "tops_netflix_officiels": 0,
     "erreurs": 0,
-    "fournisseurs_fr_films": 106,
-    "fournisseurs_fr_series": 89,
+    "fournisseurs_fr_films": 107,
+    "fournisseurs_fr_series": 90,
     "appels_api": 566
   },
   "limitations": [
@@ -126,7 +126,7 @@
     {
       "plateforme": "Netflix",
       "type": "movie",
-      "taille_echantillon": 39,
+      "taille_echantillon": 38,
       "premiere_mesure": false,
       "ajouts_reperes": 9,
       "retraits_reperes": 10
@@ -142,18 +142,18 @@
     {
       "plateforme": "Apple TV+",
       "type": "movie",
-      "taille_echantillon": 40,
+      "taille_echantillon": 38,
       "premiere_mesure": false,
-      "ajouts_reperes": 6,
-      "retraits_reperes": 6
+      "ajouts_reperes": 3,
+      "retraits_reperes": 5
     },
     {
       "plateforme": "Apple TV+",
       "type": "series",
       "taille_echantillon": 40,
       "premiere_mesure": false,
-      "ajouts_reperes": 5,
-      "retraits_reperes": 5
+      "ajouts_reperes": 4,
+      "retraits_reperes": 4
     },
     {
       "plateforme": "Prime Video",
@@ -168,56 +168,56 @@
       "type": "series",
       "taille_echantillon": 40,
       "premiere_mesure": false,
-      "ajouts_reperes": 5,
-      "retraits_reperes": 5
+      "ajouts_reperes": 7,
+      "retraits_reperes": 7
     },
     {
       "plateforme": "Crunchyroll",
-      "type": "movie",
-      "taille_echantillon": 38,
-      "premiere_mesure": false,
-      "ajouts_reperes": 6,
-      "retraits_reperes": 8
-    },
-    {
-      "plateforme": "Crunchyroll",
-      "type": "series",
-      "taille_echantillon": 38,
-      "premiere_mesure": false,
-      "ajouts_reperes": 14,
-      "retraits_reperes": 16
-    },
-    {
-      "plateforme": "Curiosity Stream",
       "type": "movie",
       "taille_echantillon": 40,
       "premiere_mesure": false,
-      "ajouts_reperes": 9,
-      "retraits_reperes": 9
+      "ajouts_reperes": 8,
+      "retraits_reperes": 6
+    },
+    {
+      "plateforme": "Crunchyroll",
+      "type": "series",
+      "taille_echantillon": 40,
+      "premiere_mesure": false,
+      "ajouts_reperes": 12,
+      "retraits_reperes": 10
     },
     {
       "plateforme": "Curiosity Stream",
-      "type": "series",
+      "type": "movie",
       "taille_echantillon": 40,
       "premiere_mesure": false,
       "ajouts_reperes": 6,
       "retraits_reperes": 6
     },
     {
-      "plateforme": "Disney+",
-      "type": "movie",
-      "taille_echantillon": 40,
-      "premiere_mesure": false,
-      "ajouts_reperes": 6,
-      "retraits_reperes": 5
-    },
-    {
-      "plateforme": "Disney+",
+      "plateforme": "Curiosity Stream",
       "type": "series",
       "taille_echantillon": 40,
       "premiere_mesure": false,
       "ajouts_reperes": 4,
       "retraits_reperes": 4
+    },
+    {
+      "plateforme": "Disney+",
+      "type": "movie",
+      "taille_echantillon": 40,
+      "premiere_mesure": false,
+      "ajouts_reperes": 5,
+      "retraits_reperes": 5
+    },
+    {
+      "plateforme": "Disney+",
+      "type": "series",
+      "taille_echantillon": 40,
+      "premiere_mesure": false,
+      "ajouts_reperes": 7,
+      "retraits_reperes": 7
     },
     {
       "plateforme": "Hayu",
@@ -232,27 +232,11 @@
       "type": "movie",
       "taille_echantillon": 40,
       "premiere_mesure": false,
-      "ajouts_reperes": 4,
-      "retraits_reperes": 4
+      "ajouts_reperes": 7,
+      "retraits_reperes": 7
     },
     {
       "plateforme": "HBO Max",
-      "type": "series",
-      "taille_echantillon": 40,
-      "premiere_mesure": false,
-      "ajouts_reperes": 5,
-      "retraits_reperes": 5
-    },
-    {
-      "plateforme": "Magellan",
-      "type": "movie",
-      "taille_echantillon": 40,
-      "premiere_mesure": false,
-      "ajouts_reperes": 20,
-      "retraits_reperes": 20
-    },
-    {
-      "plateforme": "Magellan",
       "type": "series",
       "taille_echantillon": 40,
       "premiere_mesure": false,
@@ -260,19 +244,35 @@
       "retraits_reperes": 8
     },
     {
+      "plateforme": "Magellan",
+      "type": "movie",
+      "taille_echantillon": 40,
+      "premiere_mesure": false,
+      "ajouts_reperes": 13,
+      "retraits_reperes": 13
+    },
+    {
+      "plateforme": "Magellan",
+      "type": "series",
+      "taille_echantillon": 40,
+      "premiere_mesure": false,
+      "ajouts_reperes": 5,
+      "retraits_reperes": 5
+    },
+    {
       "plateforme": "Mubi",
       "type": "movie",
-      "taille_echantillon": 39,
+      "taille_echantillon": 40,
       "premiere_mesure": false,
-      "ajouts_reperes": 1,
+      "ajouts_reperes": 3,
       "retraits_reperes": 2
     },
     {
       "plateforme": "Mubi",
       "type": "series",
-      "taille_echantillon": 4,
+      "taille_echantillon": 5,
       "premiere_mesure": false,
-      "ajouts_reperes": 0,
+      "ajouts_reperes": 1,
       "retraits_reperes": 0
     },
     {
@@ -280,8 +280,8 @@
       "type": "movie",
       "taille_echantillon": 40,
       "premiere_mesure": false,
-      "ajouts_reperes": 4,
-      "retraits_reperes": 4
+      "ajouts_reperes": 7,
+      "retraits_reperes": 7
     },
     {
       "plateforme": "Paramount+",
@@ -296,16 +296,16 @@
       "type": "movie",
       "taille_echantillon": 40,
       "premiere_mesure": false,
-      "ajouts_reperes": 9,
-      "retraits_reperes": 9
+      "ajouts_reperes": 8,
+      "retraits_reperes": 8
     },
     {
       "plateforme": "Pluto TV",
       "type": "series",
       "taille_echantillon": 40,
       "premiere_mesure": false,
-      "ajouts_reperes": 2,
-      "retraits_reperes": 2
+      "ajouts_reperes": 1,
+      "retraits_reperes": 1
     }
   ],
   "erreurs": []

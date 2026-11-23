@@ -46,6 +46,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:287390",
+      "type": "series",
+      "name": "Age of Attraction",
+      "poster": "https://image.tmdb.org/t/p/w500/86zlBZhuhuE2FlXn8lGxixCQ4aS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/l5hI3mqSrSft0ehqHBCpqN1BgHc.jpg",
+      "description": "L'âge n'est-il vraiment qu'un chiffre ? Dans cette expérience de dating hors norme, des célibataires se rapprochent – et s'engagent – sans connaître l'âge de leur partenaire.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:312423",
       "type": "series",
       "name": "Top Model USA : Le revers du rêve",
@@ -161,15 +170,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/yp3QEWjwkTQzNImHbnQ8jPY7heV.jpg",
       "background": "https://image.tmdb.org/t/p/w780/jfrh6Xj71lA2Aib2LNI5F6XDC45.jpg",
       "description": "Cette série documentaire immersive vous emmène dans les coulisses des Boston Red Sox, au plus près des joueurs, lors d'une saison 2024 pleine de rebondissements.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:285205",
-      "type": "series",
-      "name": "Million Dollar Secret",
-      "poster": "https://image.tmdb.org/t/p/w500/y0lAZqgaUXOTcsn6hPjiaJSJTnj.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9EiKPxxL90mXxHsUAIi7V20oa2s.jpg",
-      "description": "Dans cette compétition acharnée, un millionnaire sous couverture doit tout faire pour garder son secret et éviter l'élimination s'il veut remporter le jeu et l'argent.",
       "releaseInfo": "2025"
     }
   ]

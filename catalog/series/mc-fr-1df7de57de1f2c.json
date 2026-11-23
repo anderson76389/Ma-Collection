@@ -1,15 +1,6 @@
 {
   "metas": [
     {
-      "id": "tmdb:2734",
-      "type": "series",
-      "name": "New York Unité Spéciale",
-      "poster": "https://image.tmdb.org/t/p/w500/95flTYCxEPNFSdZVrHy9nMIeLbw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xhK9YCxNwnE0OB1SWvCY39heHQI.jpg",
-      "description": "Les inspecteurs qui font partie de la division des Crimes sexuels (SVU) du service de police de la ville de New York (NYPD) enquêtent sur des crimes de nature sexuelle. Alors que les autres émissions de la franchise de \"La loi et l'ordre\" se sont largement concentrées sur les cas de meurtres, les inspecteurs de la division des Crimes sexuels (SVU) ont souvent affaire à des crimes, tel le viol, auquel la victime survit et elle aide les autorités lors de l'enquête.",
-      "releaseInfo": "1999"
-    },
-    {
       "id": "tmdb:4656",
       "type": "series",
       "name": "WWE Raw",
@@ -17,15 +8,6 @@
       "background": "https://image.tmdb.org/t/p/w780/ykWWT8FAChBffNxcDzoJMCK9LBb.jpg",
       "description": "Chaque semaine, les supertars de Raw s'affrontent dans le ring mais également en dehors. Combats acharnés, prises impressionnantes, les catcheurs sont prêts à tout pour remporter la victoire. Depuis le 1000e épisode du show, diffusé le 23 juillet 2012, WWE Raw passe à un format de trois heures au lieu de deux, format auparavant réservé aux épisodes spéciaux.",
       "releaseInfo": "1993"
-    },
-    {
-      "id": "tmdb:291507",
-      "type": "series",
-      "name": "The Body",
-      "poster": "https://image.tmdb.org/t/p/w500/swEOVOmkYtTg3UBStrvt1yZJm26.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hYJqUoXRZnodGxgVZTM8uwr5kbC.jpg",
-      "description": "Le soir d'Halloween, un rite d'initiation vire au cauchemar, faisant basculer une troupe de danseuses dans la culpabilité catholique, les désirs impies et les visions étranges.",
-      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:65334",
@@ -37,13 +19,22 @@
       "releaseInfo": "2015"
     },
     {
-      "id": "tmdb:31991",
+      "id": "tmdb:65701",
       "type": "series",
-      "name": "WWE NXT",
-      "poster": "https://image.tmdb.org/t/p/w500/9nLBX5Bf7PW4FAaWJLXpFFdeTlV.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2ugy3IP3yvdRdEepHDOml82TKFT.jpg",
-      "description": "WWE NXT est une émission et une académie de catch de la World Wrestling Entertainment (WWE), devenue depuis le 20 juin 2012, la troisième division de la WWE avec Raw et SmackDown. Cette nouvelle division met en avant des nouveaux catcheurs, d'abord sélectionnés dans l'ancien club-école de la WWE, la Florida Championship Wrestling, puis sur la scène indépendante internationale.",
-      "releaseInfo": "2010"
+      "name": "Good Mythical Morning",
+      "poster": "https://image.tmdb.org/t/p/w500/jMpBQr2aNOFAI6wsC47zsOG6qOh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hvFCS0dMeC3ffiF4uYTKzUAkvYL.jpg",
+      "description": "Good Mythical Morning est une série YouTube de comédie, de discussion et de variétés américaine créée par Rhett McLaughlin et Link Neal. L'émission a été diffusée pour la première fois sur YouTube le 9 janvier 2012. De nombreuses célébrités et personnalités d'Internet, dont Daniel Radcliffe, Felix Kjellberg, Hank Green, Kobe Bryant et Linkin Park ont participé au show. L'émission se concentre sur Rhett et Link alors qu'ils racontent des histoires, chantent des chansons, relèvent des défis, etc...",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:502",
+      "type": "series",
+      "name": "1 Rue Sesame",
+      "poster": "https://image.tmdb.org/t/p/w500/14k9BfZ2p4rQBMeJ5crKTfUZVwD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tNi2aJPdCKfielGYzIi3IKxStz9.jpg",
+      "description": "Le soleil est là ! Cette version revisitée de la série \"Sesame Street\" réunit les personnages que vous aimez, les séquences préférées des fans et de nouvelles façons de s'amuser.",
+      "releaseInfo": "1969"
     },
     {
       "id": "tmdb:58841",
@@ -55,31 +46,31 @@
       "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:312359",
+      "id": "tmdb:45790",
       "type": "series",
-      "name": "Dragon Ball Super : Beerus",
-      "poster": "https://image.tmdb.org/t/p/w500/sGuCmIy8kEmx3FWZyMj654rF6g8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg",
-      "description": "Des années après la défaite de Majin Buu, la paix est revenue sur Terre. Mais lorsque Beerus, le Dieu de la Destruction, se réveille, cette tranquillité vole en éclats. Attiré sur Terre par des rumeurs concernant le Saiyan qui a vaincu Freezer, Beerus cherche à défier Goku en déployant une puissance capable de détruire des planètes entières. Goku et ses alliés doivent désormais affronter Beerus dans un combat qui fera trembler l'univers.",
-      "releaseInfo": "2026"
+      "name": "JoJo's Bizarre Adventure",
+      "poster": "https://image.tmdb.org/t/p/w500/2Sc0veFPh9CcHMtNqMyiQqIW9ZF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/l2gc2dPRUPe3bAfYCRTjc6uAMmB.jpg",
+      "description": "L’histoire sur des décennies des aventures étranges de la famille Joestar, de leur destin lié à Dio, leur ennemi juré et l'héritage de ce dernier. Chaque illustre membre est surnommé Jojo, un nom composé de la contraction des mêmes syllabes de leur nom et prénom et possède un tatouage en forme d'étoile à la base du cou. Ils ont tous la particularité de développer des pouvoirs hors du commun, d’abord le hamon, puis le stand, la représentation physique de leur esprit combatif.\n\nA partir de Steel Ball Run, l’histoire repart à zéro et suit les aventures de Johnny Joestar, un jockey paraplégique qui concourt à la Steel Ball Run, une course reliant San Diego et New York afin de remporter le premier prix et de donner un sens à sa vie. Mais sa rencontre avec Gyro Zeppeli, un concurrent armé d'étranges sphères d’aciers bouleversera son existence. Surtout, la course cache un objectif plus grand qui les feront affronter des adversaires dotés de stands imprévisibles et dangereux.",
+      "releaseInfo": "2012"
     },
     {
       "id": "tmdb:85077",
       "type": "series",
       "name": "The Chosen",
       "poster": "https://image.tmdb.org/t/p/w500/gtC9ufiOLQ2Q856Eh2clHpDb1nf.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ib8CO2kXlwg9fnauK9HuMkw0oNQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2YQFwn9aF7huTFHxn9lFTAn14F.jpg",
       "description": "Un pêcheur charismatique aux prises avec des dettes. Une femme troublée aux prises avec ses démons. Un comptable doué, mis au ban de sa famille et de son peuple. Voyez comment Jésus atteint chacun d'entre eux et bien plus encore, alors qu'il accomplit ses premiers miracles et se lance dans son ministère pour changer le monde. Découvrez-le à travers les yeux de ceux qui l'ont connu.",
       "releaseInfo": "2019"
     },
     {
-      "id": "tmdb:45790",
+      "id": "tmdb:103540",
       "type": "series",
-      "name": "JoJo's Bizarre Adventure",
-      "poster": "https://image.tmdb.org/t/p/w500/2Sc0veFPh9CcHMtNqMyiQqIW9ZF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/l2gc2dPRUPe3bAfYCRTjc6uAMmB.jpg",
-      "description": "L’histoire sur des décennies des aventures étranges de la famille Joestar et de leur destin entremêlé face à Dio, leur ennemi juré et l'héritage de ce dernier. Chaque illustre membre est surnommé Jojo, un nom composé de la contraction des premières syllabes de leur nom et prénom et un tatouage en forme d'étoile à la base du cou. Ils ont tous la particularité de développer des capacités hors du commun, d’abord le hamon, puis le stand, la représentation physique de leur esprit combatif.\n\nA partir de Steel Ball Run, l’histoire repart à zéro et suit les aventures de Johnny Joestar, un jockey paraplégique qui concourt à la Steel Ball Run, une course qui relie San Diego à New York afin de remporter le premier prix et de donner un sens à sa vie. Mais sa rencontre avec Gyro Zeppeli, un concurrent armé de ses étranges sphères d’aciers bouleversera son existence. Mais la course cache un objectif plus grand qui les feront affronter des adversaires dotés de stands imprévisibles et dangereux.",
-      "releaseInfo": "2012"
+      "name": "Percy Jackson et les Olympiens",
+      "poster": "https://image.tmdb.org/t/p/w500/mAX4KE8ewwuDAIzwv3WTpqE3yh7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dLIKNqBi9L1cVbwuniXkaNOsIXg.jpg",
+      "description": "À 12 ans, Percy Jackson découvre qu’il est le fils de Poséidon, le dieu des mers et des tremblements de terre. Étant un demi-dieu, il se rend à la colonie des Sang-Mêlé, où tous les demi-dieux peuvent s’entraîner à survivre. Il apprend par la suite que les dieux grecs ont installés l’Olympe au sommet de l’Empire State Building, aux États-Unis. Il rencontre à la colonie Annabeth Chase, fille d’Athéna, et retrouve son ami Grover Underwood, un Satyre (créature mi homme mi bouc) . Il se verra confier plusieurs quêtes, liées à une grande prophétie, au cours desquelles il affrontera tromperies, manipulations et monstres, pour sauver l’Olympe en compagnie de nombreux alliés, car il se trouvera au centre d’une guerre opposant les dieux grecs et les Titans pour la seconde fois de l’histoire de l’Olympe.",
+      "releaseInfo": "2023"
     },
     {
       "id": "tmdb:220542",
@@ -91,13 +82,22 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:293610",
+      "id": "tmdb:312359",
       "type": "series",
-      "name": "Doctor X : Mafia en blouse blanche",
-      "poster": "https://image.tmdb.org/t/p/w500/8i864F141l4HNZa1IqXgPg1qzns.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mDYIV71RL3mkaW8IfSGNthuVB7l.jpg",
-      "description": "Kye Su-Jeong, une brillante chirurgienne, est affectée à l'hôpital universitaire de Guseo pour pourvoir un poste vacant en chirurgie. Elle y fait ses preuves grâce à son talent et met en lumière les absurdités du milieu médical. Elle se lie d'amitié avec Bu Seung-Kwon, le directeur de l'hôpital, et l'interne Park Tae-Kyeong",
+      "name": "Dragon Ball Super : Beerus",
+      "poster": "https://image.tmdb.org/t/p/w500/sGuCmIy8kEmx3FWZyMj654rF6g8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg",
+      "description": "Des années après la défaite de Majin Buu, la paix est revenue sur Terre. Mais lorsque Beerus, le Dieu de la Destruction, se réveille, cette tranquillité vole en éclats. Attiré sur Terre par des rumeurs concernant le Saiyan qui a vaincu Freezer, Beerus cherche à défier Goku en déployant une puissance capable de détruire des planètes entières. Goku et ses alliés doivent désormais affronter Beerus dans un combat qui fera trembler l'univers.",
       "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:31991",
+      "type": "series",
+      "name": "WWE NXT",
+      "poster": "https://image.tmdb.org/t/p/w500/9nLBX5Bf7PW4FAaWJLXpFFdeTlV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2ugy3IP3yvdRdEepHDOml82TKFT.jpg",
+      "description": "WWE NXT est une émission et une académie de catch de la World Wrestling Entertainment (WWE), devenue depuis le 20 juin 2012, la troisième division de la WWE avec Raw et SmackDown. Cette nouvelle division met en avant des nouveaux catcheurs, d'abord sélectionnés dans l'ancien club-école de la WWE, la Florida Championship Wrestling, puis sur la scène indépendante internationale.",
+      "releaseInfo": "2010"
     },
     {
       "id": "tmdb:1549",
@@ -109,6 +109,15 @@
       "releaseInfo": "1999"
     },
     {
+      "id": "tmdb:300523",
+      "type": "series",
+      "name": "The Blue Road",
+      "poster": "https://image.tmdb.org/t/p/w500/lHWdz8ZOEhtuzaZFg81oYUTP7Bx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7ojpD6ARKYhRxnsjzMIrorOfj4T.jpg",
+      "description": "À Tokyo, un corps disloqué est découvert, accompagné d'une inscription en coréen. Ce message sidérant en lettres de sang permet à la police japonaise de faire le lien avec un fait troublant : un meurtre identique a été commis en Corée. Les autorités coréennes et japonaises lancent alors une enquête conjointe pour arrêter le tueur en série qui opère dans leurs deux pays et laisse des indices dans chaque langue. Pour ce faire, les inspecteurs suivent une piste mystérieuse qui s'étend au-delà de Séoul et de Tokyo.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:14929",
       "type": "series",
       "name": "Heartland",
@@ -118,49 +127,22 @@
       "releaseInfo": "2007"
     },
     {
-      "id": "tmdb:202297",
+      "id": "tmdb:283428",
       "type": "series",
-      "name": "Fire Country : Pompiers sur Appel",
-      "poster": "https://image.tmdb.org/t/p/w500/2qhBMwFtQIUQId8nhaywVqKTPLw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/r6jUY6q3ObYOeFFWxM7jemS7IWE.jpg",
-      "description": "En quête de rédemption et d'une peine de prison raccourcie, le jeune condamné Bode Donovan rejoint un programme de lutte contre les incendies qui le ramène dans sa petite ville natale du nord de la Californie, où lui et d'autres détenus travaillent aux côtés de pompiers d'élite pour éteindre d'énormes incendies dans la région.",
-      "releaseInfo": "2022"
-    },
-    {
-      "id": "tmdb:312661",
-      "type": "series",
-      "name": "Urgences Humaines",
-      "poster": "https://image.tmdb.org/t/p/w500/aatKnanzNiI0qyRf1yuAyGQ4tKg.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wZ0EW0svlRLRBNaUpIYjSSOM9Rt.jpg",
-      "description": "Choisi par un médecin brillant, un jeune diplômé aux résultats moyens doit faire ses preuves aux côtés d'internes brillants tout en survivant au chaos d'urgences sous tension.",
+      "name": "The Ramparts of Ice",
+      "poster": "https://image.tmdb.org/t/p/w500/spPKOGhjNrOZuCUoTOzg0Q05Mum.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ht6WUmez8cFbwlrFmGdjbYyn3RG.jpg",
+      "description": "Hantée par des souvenirs envahissants, Koyuki Hikawa préfère rester dans sa bulle jusqu'au jour où trois camarades de lycée décident de l'aider à s'ouvrir aux autres.",
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:300146",
+      "id": "tmdb:308007",
       "type": "series",
-      "name": "Sous le masque",
-      "poster": "https://image.tmdb.org/t/p/w500/nKhiK99WZohc3fJsTXJLf4SrSEY.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/oagkprEWVF8EDyGMoQlTQajbsWH.jpg",
-      "description": "Wei Rao, jeune femme noble, est obligée de se marier avec le prince Lu Zuo, alors que celui-ci est dans le coma et proche de la mort. Elle force alors Ah Chou, une jeune fille ordinaire dont la seule caractéristique est sa ressemblance frappante avec Wei Rao, à prendre sa place au mariage. Mais Lu Zuo se réveille précisément le jour des noces... Ah Chou doit maintenant faire face à Wei Rao, qui veut récupérer sa place, à Lu Zuo, qui la prend pour cette vipère de Wei Rao, mais aussi à toute la demeure du prince qui est pleine de pièges et de complots.",
+      "name": "The Altruists",
+      "poster": "https://image.tmdb.org/t/p/w500/hiX70sXdvEPVE11QqmLuaX16gdh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/m8JTMj7jDMJFZAPP1ASmSi4gMWi.jpg",
+      "description": "Jeunes, idéalistes et soudain milliardaires, ils voulaient faire le bien... avant de se pousser au pire. Un amour toxique sur fond d'escroquerie réelle.",
       "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:214582",
-      "type": "series",
-      "name": "À l'épreuve du diable",
-      "poster": "https://image.tmdb.org/t/p/w500/8NSZFgguZxvDnJBGZNM1neefzmJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ofFMb0hf4Ve0UPMTzYyFtBRBHEF.jpg",
-      "description": "Dans ce jeu de survie à énigmes présenté par \"le diable\", les participants mettent leur ingéniosité à l'épreuve pendant une semaine pour espérer remporter le gros lot.",
-      "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:131488",
-      "type": "series",
-      "name": "L'Impératrice",
-      "poster": "https://image.tmdb.org/t/p/w500/ngyAOvIDNmZFKxQ56VNVqRNorOw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lnPf1rCmSgcowbhMPH4M1avSApm.jpg",
-      "description": "Quand la rebelle Élisabeth s'éprend de l'empereur François-Joseph et devient son épouse à la surprise générale, la cour de Vienne lui révèle un univers de pressions et d'intrigues.",
-      "releaseInfo": "2022"
     },
     {
       "id": "tmdb:293607",
@@ -172,13 +154,31 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:283428",
+      "id": "tmdb:226688",
       "type": "series",
-      "name": "The Ramparts of Ice",
-      "poster": "https://image.tmdb.org/t/p/w500/spPKOGhjNrOZuCUoTOzg0Q05Mum.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ht6WUmez8cFbwlrFmGdjbYyn3RG.jpg",
-      "description": "Hantée par des souvenirs envahissants, Koyuki Hikawa préfère rester dans sa bulle jusqu'au jour où trois camarades de lycée décident de l'aider à s'ouvrir aux autres.",
+      "name": "BEYBLADE X",
+      "poster": "https://image.tmdb.org/t/p/w500/66wkm14IWdrY5LaKZDAbkD2T9Jt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qAq9RBeHZoTMDFqQZ2o4cE5CJIQ.jpg",
+      "description": "Robin Kazami, blader débutant, s'associe à l'influenceuse Multi Nana-iro et à l'ancien champion Jaxon Cross pour former ce trio improbable, prêt à gravir les échelons du classement The X et à remporter le titre de champion blader !",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:332839",
+      "type": "series",
+      "name": "La loi de la bête",
+      "poster": "https://image.tmdb.org/t/p/w500/ihKzBXYrK3uZWmdTIwgNWXTZBG9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iMvGSFcxzvwLWyHDOLqwDX9JQ27.jpg",
+      "description": "Lorsque l'affaire d'un tueur en série d'enfants refait surface après 25 ans, devenant un problème juridique et social non résolu, deux anciens amis sont contraints de se confronter aux choix qui ont brisé leur amitié et façonné leurs vies.",
       "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:214582",
+      "type": "series",
+      "name": "À l'épreuve du diable",
+      "poster": "https://image.tmdb.org/t/p/w500/8NSZFgguZxvDnJBGZNM1neefzmJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ofFMb0hf4Ve0UPMTzYyFtBRBHEF.jpg",
+      "description": "Dans ce jeu de survie à énigmes présenté par \"le diable\", les participants mettent leur ingéniosité à l'épreuve pendant une semaine pour espérer remporter le gros lot.",
+      "releaseInfo": "2023"
     }
   ]
 }

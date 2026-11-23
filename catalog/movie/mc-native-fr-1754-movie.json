@@ -3,10 +3,28 @@
     {
       "id": "tmdb:1584779",
       "type": "movie",
-      "name": "Mon père, un meurtrier ?",
+      "name": "L’inconnue dans le placard",
       "poster": "https://image.tmdb.org/t/p/w500/4aBN0YZ6Jfb09fRSxyObfdSe2Ot.jpg",
       "background": "https://image.tmdb.org/t/p/w780/8UkpeQ7fwKyX2PVmnnaAJm7Vv9J.jpg",
       "description": "Quand Amy, la présidente d'une importante association caritative, perd son père, elle est choquée de découvrir qu'il possédait un espace dans un garde-meuble avec un secret mortel à l'intérieur : le corps d'une femme. Son père était-il un meurtriers ? Qui était cette femme ?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1801870",
+      "type": "movie",
+      "name": "La malédiction de Noël",
+      "poster": "https://image.tmdb.org/t/p/w500/lSDX9TKJ0y4Jn5CDR0qLral5G2Z.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ocYYXEi2THSMFG25QR2SLtVH2jb.jpg",
+      "description": "Chelsey, experte en rencontres, est bien décidée à briser la malédiction qui la voit systématiquement se faire quitter pendant les fêtes de fin d'année. Mais au moment où le destin lui fait croiser le chemin de son amour de lycée, elle se demande si elle n'était pas tout simplement vouée à retrouver son premier amour.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1771047",
+      "type": "movie",
+      "name": "Coup de foudre pour Monsieur Noël",
+      "poster": "https://image.tmdb.org/t/p/w500/2dSl2lGLY4xK26uke4Ofh1PFuQ1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vw1jNsQ8OpxGywlsSNqwg8Tcldd.jpg",
+      "description": "Pour décrocher la promotion de sa vie, Lori, une femme très travailleuse, doit aider Emmett, l’héritier d’un empire du jouet au charme irresponsable, à trouver l’amour et à prouver qu’il est l’homme de la situation pour reprendre les rênes de l’entreprise lorsque son père prendra sa retraite le tout avant Noël.",
       "releaseInfo": "2026"
     },
     {
@@ -157,24 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/A47wCptAf4GRsDNaQ6Sf8CNu0Ug.jpg",
       "background": "https://image.tmdb.org/t/p/w780/7GJufEKJT5CdjGJJZ6or9pnXnZ2.jpg",
       "description": "À l'aube de ses 30 ans, Valeska, livreuse à vélo aux amours libres, voit son père débarquer chez elle au moment où elle se découvre enceinte. Une tragi-comédie lumineuse sur la famille, emmenée par un attachant tandem.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1535072",
-      "type": "movie",
-      "name": "Out of the Blue",
-      "poster": "https://image.tmdb.org/t/p/w500/gshyIGFd5Fzo0cNTVIJy7AOCdmN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rb0Lxe5fUi3dr4YWV3Ga0TpSyBT.jpg",
-      "description": "Dans un hôtel isolé, deux amies se retrouvent au coeur du tournage d'une campagne suspecte sur les réseaux sociaux...",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1698152",
-      "type": "movie",
-      "name": "La face cachée de mon fils",
-      "poster": "https://image.tmdb.org/t/p/w500/zPtPDabOSCC5EcYfO83N0DNAm0G.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6S1UvFjk0HURLp2mwzQAK63wkgL.jpg",
-      "description": "Kathy a fui son mari violent avec son fils Noah, lorsqu'il était enfant. Quelques années plus tard, alors qu'ils ont enfin une vie stable et heureuse, Noah se retrouve accusé du meurtre de son meilleur ami, Ethan. Il a beau clamer son innocence, il est le suspect numéro un et même sa mère commence à douter de lui.",
       "releaseInfo": "2026"
     }
   ]

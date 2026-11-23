@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:336199",
+      "type": "series",
+      "name": "Crime and Punishment in America",
+      "poster": "https://image.tmdb.org/t/p/w500/acfpMRRWRgVrsyA2Rb2gxV3BDgQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2n9v3fBXyb0aId224d8Y4GIFqJK.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:335418",
       "type": "series",
       "name": "Super Why's Comic Book Adventures",
@@ -14,6 +22,14 @@
       "name": "Eons: Life and Death on Pangea",
       "poster": "https://image.tmdb.org/t/p/w500/2nF7vXGrc5vn3nY706ywdbsPCc.jpg",
       "background": "https://image.tmdb.org/t/p/w780/fLMGCUUhPuA0zZkrMg6iJpWZcQa.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:258899",
+      "type": "series",
+      "name": "Nova: Evolution",
+      "poster": "https://image.tmdb.org/t/p/w500/ioar0bFoR9dgzvuIkCzlON5G2EY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7t86NTgEu82yVM8fef1J9BAlrAe.jpg",
       "releaseInfo": "2026"
     },
     {

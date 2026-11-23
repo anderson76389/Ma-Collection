@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1595124",
+      "type": "movie",
+      "name": "Sœurs de sort",
+      "poster": "https://image.tmdb.org/t/p/w500/2rOCe6L9qwFoakYrWFVnICSbmLK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/g1bEboMx1a8JCg1jXeDCh24RtgW.jpg",
+      "description": "Dans cette comédie d'action décalée, Lilith, la \"méchante\" demi-sœur de Cendrillon, vole la baguette de Marraine la bonne fée et bouleverse le conte tel que nous le connaissons.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:791523",
       "type": "movie",
       "name": "Wildwood : La prophétie de la forêt",
@@ -34,6 +43,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/sJMs3P5bQx0OgKrihT5TzTK70Qp.jpg",
       "background": "https://image.tmdb.org/t/p/w780/rFjlsx5IygrHmBqr0KsVolAHhy7.jpg",
       "description": "Les Simpson luttent pour trouver leur voie à travers deux contes sombres, étranges et insolites. Une lampe défectueuse révèle une vérité bouleversante sur ce qu'Homer croyait être la réalité. Et une tablette dotée d'une intelligence artificielle se lie d'amitié avec Maggie afin de manipuler son esprit.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1560520",
+      "type": "movie",
+      "name": "Batman Knightfall - Partie 1",
+      "poster": "https://image.tmdb.org/t/p/w500/8hsSCYpO5XFSAVnn70YehKslgFt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/caBIySpwuFi2i7ynvHIlnxJLOdN.jpg",
+      "description": "L'asile d'Arkham a été détruit et ses détenus se déchaînent sur Gotham City. Alors que Batman se lance dans une course contre la montre pour appréhender certains de ses pires ennemis, il est poussé au bout de ses limites physiques et mentales et se retrouve confronté à une nouvelle menace : l'homme appelé Bane !",
       "releaseInfo": "2026"
     },
     {
@@ -77,7 +95,7 @@
       "type": "movie",
       "name": "Simpsley",
       "poster": "https://image.tmdb.org/t/p/w500/xzmJsuoYQzi3jhijL9zIoFvOmzL.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2vl4nyxi1zVtiqYqJkbP8yTMOQV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xA2uHYgb5RCVPdFe1acQqOB3EhD.jpg",
       "description": "Lorsque Marge Bouvier, une escroc sans le sou, est envoyée en Italie pour convaincre le riche et naïf Seymour Skinner de rentrer au pays, elle est tentée par les signes extérieurs de richesse. Mais un grain de sable vient enrayer la machine : Homer Simpsley, l'invité collant et idiot de Skinner. Mensonges, luxure et lires italiennes sont au rendez-vous.",
       "releaseInfo": "2026"
     },
@@ -88,15 +106,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/vuxZITXEqsBHBUhc1TKEU8mxvc.jpg",
       "background": "https://image.tmdb.org/t/p/w780/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg",
       "description": "Une histoire aussi rocambolesque qu’absurde, mais bien sûr totalement véridique, qui raconte comment les Minions, partis à la conquête d’Hollywood, sont devenus des stars de cinéma, pour finalement tout perdre en libérant au passage une bande de monstres déchaînés, avant de s’unir pour tenter de sauver la planète de ce nouveau désastre à leur actif.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1560520",
-      "type": "movie",
-      "name": "Batman Knightfall - Partie 1",
-      "poster": "https://image.tmdb.org/t/p/w500/8hsSCYpO5XFSAVnn70YehKslgFt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/caBIySpwuFi2i7ynvHIlnxJLOdN.jpg",
-      "description": "L'asile d'Arkham a été détruit et ses détenus se déchaînent sur Gotham City. Alors que Batman se lance dans une course contre la montre pour appréhender certains de ses pires ennemis, il est poussé au bout de ses limites physiques et mentales et se retrouve confronté à une nouvelle menace : l'homme appelé Bane !",
       "releaseInfo": "2026"
     },
     {
@@ -168,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/9wwbYnU3HfAYqdjbFMhy2a8HYvr.jpg",
       "background": "https://image.tmdb.org/t/p/w780/vcM0CWnMGdOo6ty1iyt7zE1jtd6.jpg",
       "description": "Will est un petit bouc avec de grands rêves. Lorsqu'il décroche une chance inespérée de rejoindre la ligue professionnelle de \"roarball\", un sport ultra-intense réservé aux bêtes les plus rapides et féroces, il entend bien saisir l’opportunité. Problème : ses nouveaux coéquipiers ne sont pas vraiment ravis d'avoir un \"petit\" dans l'équipe. Mais Will est prêt à tout pour changer les règles du jeu.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1146058",
-      "type": "movie",
-      "name": "The Pout-Pout Fish",
-      "poster": "https://image.tmdb.org/t/p/w500/fcDXgGL14qL46It1XOozEjX5Jws.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6qQQhhF87Rm1z2TYhXAmoPiEHME.jpg",
-      "description": "M. Fish et Pip partent à la recherche d'un poisson mythique qui exaucera leur vœu et sauvera leur habitat aquatique.",
       "releaseInfo": "2026"
     }
   ]

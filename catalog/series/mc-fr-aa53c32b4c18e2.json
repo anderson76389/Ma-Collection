@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:335981",
+      "type": "series",
+      "name": "Le Cinéma selon Cunk",
+      "poster": "https://image.tmdb.org/t/p/w500/zrrRRvavkLQupkC6aEkdA8sX4E8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3NA7FxkqAaG1buZC1WtdPDpMlZg.jpg",
+      "description": "Dans cette série mockumentaire espiègle, Philomena Cunk part à la découverte de l'histoire du cinéma, sans manquer de laisser plusieurs experts perplexes en chemin.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:275139",
       "type": "series",
       "name": "Phony",
@@ -168,15 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/hFKOglPtEpknH7HZPwadBboDPci.jpg",
       "background": "https://image.tmdb.org/t/p/w780/9mZlvYlGA4jblCvAvOpinrgn6hr.jpg",
       "description": "Un maman récemment divorcée tombe dans une dangereuse spirale de chantage, meurtre et football pour les jeunes.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:256695",
-      "type": "series",
-      "name": "Regular Show : Les cassettes oubliées",
-      "poster": "https://image.tmdb.org/t/p/w500/gZuwOtqQRPvLOhLV21qfaC3tIxS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/43Tu4TnFO57R6eK6XUBFGJrazrZ.jpg",
-      "description": "Mordecai, un geai bleu, et Rigby, un raton laveur, deux amis paresseux, travaillent dans un parc municipal. Mais, quoi qu'ils entreprennent, leurs tâches quotidiennes finissent invariablement par basculer dans un chaos totalement surréaliste, au grand désespoir de leur patron et de leurs collègues...",
       "releaseInfo": "2026"
     }
   ]

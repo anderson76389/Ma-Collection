@@ -37,6 +37,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:321958",
+      "type": "series",
+      "name": "Line of Fire",
+      "poster": "https://image.tmdb.org/t/p/w500/cXG4WDOPNog1kt6pkDqEDQCkJyz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wywNNHCRHJ129yTGTYBujnP4vRq.jpg",
+      "description": "Une famille d’agents des forces de l’ordre met de côté ses divergences personnelles et dépasse les frontières de ses fonctions respectives pour mener à bien des enquêtes pour le compte du FBI, des US Marshals, des services secrets et du ministère de la Justice. Lorsqu’une affaire qui semblait simple se transforme en un complot meurtrier, ils doivent mettre à profit l’expertise acquise au fil d’une vie passée à protéger des civils et des personnalités politiques pour se protéger les uns les autres et traduire le meurtrier en justice… même si cela implique de trahir le code d’honneur auquel ils ont prêté serment.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:239618",
       "type": "series",
       "name": "American Hostage",
@@ -103,7 +112,7 @@
       "id": "tmdb:8840",
       "type": "series",
       "name": "Fightland",
-      "poster": "https://image.tmdb.org/t/p/w500/dPHG2GEIFHkjMtswYltBAEU4UK4.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/qRlOEIiwkfLy6ERRMbyQNGQQ6Lc.jpg",
       "background": "https://image.tmdb.org/t/p/w780/a0gOfhPiVGjS55HX9aIXInMVXc5.jpg",
       "description": "Produite par Curtis Jackson aka. \"50 Cent\", cette série dramatique policière vous plonge dans l'univers impitoyable et sans concession de la boxe britannique. L'histoire suit un champion de boxe déchu, ancien détenu, qui revient à Londres pour se venger de la famille mafieuse qu'il tient pour responsable de sa trahison. Starz a commandé huit épisodes. Le tournage vient de commencer à Londres.",
       "releaseInfo": "2026"
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/gxI4LwqtuuJUEZiV4sZEjuGfYgO.jpg",
       "background": "https://image.tmdb.org/t/p/w780/fvcTpx2JFHzPTv5gf6ytlXhZXFQ.jpg",
       "description": "Au fil d'une enquête publique bâclée, un père se bat pour protéger son fils, unique témoin du meurtre de sa mère alors qu'il n'avait que deux ans. Inspiré de faits réels.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:277439",
-      "type": "series",
-      "name": "Cape Fear - Les Nerfs à vif",
-      "poster": "https://image.tmdb.org/t/p/w500/2BuGd8rDimZgJGkU0Gn34gjAYmY.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/maOzDEEudq82nN9lRTumrGo9MvJ.jpg",
-      "description": "Une tempête approche pour un couple heureux d’avocats quand un tueur tristement célèbre resurgit de leur passé à sa sortie de prison.",
       "releaseInfo": "2026"
     }
   ]

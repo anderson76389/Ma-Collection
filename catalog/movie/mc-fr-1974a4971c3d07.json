@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1599184",
+      "type": "movie",
+      "name": "斗破苍穹剧场版：双帝之战",
+      "poster": "https://image.tmdb.org/t/p/w500/kQA44KCjcI284f3uxCRAdiS9blt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9uMWGlxHR3bpyhzKQLYL83m5puq.jpg",
+      "description": "Au-dessus de l'Académie Canaan, le Clan de l'Âme et l'Alliance du Manoir Céleste s'affrontent autour de l'héritage de l'Empereur Ancien Tou She. Grâce au jade ancien, Hun Tiandi brise le sceau de la grotte cachée de l'empereur, déclenchant une bataille acharnée pour accéder au rang divin. Avec l'aide de la Flamme Dévorante du Néant, il s'empare de la Pilule Empereur naissante, tandis que son rival, Xiao Yan, disparaît dans le chaos. Après avoir absorbé la puissance de la pilule, Hun Tiandi atteint le rang suprême de Dou Di et lance son armée pour anéantir l'Alliance. Alors que le désespoir gagne les défenseurs, une résonance ancienne s'éveille dans la lignée du Clan Xiao : Xiao Yan est toujours en vie et sur le point d'accomplir sa propre percée vers le rang de Dou Di, devenant ainsi le dernier espoir de l'humanité.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1599191",
       "type": "movie",
       "name": "仙逆剧场版：弑仙之战",
@@ -63,14 +72,14 @@
       "type": "movie",
       "name": "年会不能停！2",
       "poster": "https://image.tmdb.org/t/p/w500/pD4ItmNxCXcXjAX4KNQLQCMHDjb.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/x8FmUv8INF7E5fkP2Jm9KLfk87Q.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sOuOhlbJ9ScYaLZwL2hCIoaqs4I.jpg",
       "releaseInfo": "2026"
     },
     {
       "id": "tmdb:1628071",
       "type": "movie",
       "name": "Ip Man : Kung Fu Legend",
-      "poster": "https://image.tmdb.org/t/p/w500/qU4xOstFQo3mZNfoKEWehA6t8Un.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/eTDYVCQi0iTYlgNHT8uwWQsj3Dr.jpg",
       "background": "https://image.tmdb.org/t/p/w780/6HBbzW5D7StUBRi0yO6ZEq9rNB5.jpg",
       "description": "Les jeunes années du maître des arts martiaux, Wing Chun.",
       "releaseInfo": "2026"
@@ -103,7 +112,7 @@
       "id": "tmdb:1424435",
       "type": "movie",
       "name": "万米危机",
-      "poster": "https://image.tmdb.org/t/p/w500/dB8adJetrhgmzA1gQXCUXSuM5li.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/5qBa6YATIfl5fCiiThHExbrQdeD.jpg",
       "background": "https://image.tmdb.org/t/p/w780/5UyBYHMCZg7kSll8YzUDIRI44SO.jpg",
       "releaseInfo": "2026"
     },
@@ -127,8 +136,8 @@
       "id": "tmdb:1604133",
       "type": "movie",
       "name": "四渡",
-      "poster": "https://image.tmdb.org/t/p/w500/7L9ymMPeBo4hSPlBGPvlzO6102T.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8BVpdY93rqrbopHi9BwEkiIdkX7.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/wiENneAwj5c4X86dHpLNx9Z746d.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lNJNIXfOILPwa6azUzkx3Y7JaeY.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -152,16 +161,8 @@
       "type": "movie",
       "name": "The Furious",
       "poster": "https://image.tmdb.org/t/p/w500/6AOetubScykxJGRxNeNkMt1ra44.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/i0eR9O1FnCgBm1cH8WwqxGbAXMS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1AVF2fAevpfi2HP6AEpptG1kg8R.jpg",
       "description": "Après l’enlèvement de sa fille par un réseau criminel et face à l’inaction de la police, Wang Wei se lance dans une traque implacable pour la retrouver. Son seul allié, Navin, est un journaliste tenace dont la femme a mystérieusement disparu. Unis par un même désir de vengeance, ces deux hommes que tout oppose affrontent les ravisseurs dans un face-à-face explosif mêlant arts martiaux et justice sans merci.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1707914",
-      "type": "movie",
-      "name": "卧底神探",
-      "poster": "https://image.tmdb.org/t/p/w500/yJjVE6MBMfqy7PE6i9iBqdl4eP2.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7syufk5kARdMi5BUuHbDbC1oQzF.jpg",
       "releaseInfo": "2026"
     }
   ]

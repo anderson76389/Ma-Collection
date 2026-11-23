@@ -5,7 +5,6 @@
       "type": "movie",
       "name": "Une nounou en cadeau",
       "poster": "https://image.tmdb.org/t/p/w500/k7T7oASsetNEfjDac9IYfaEEJOd.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jlHQnHrPQz7YQXB9RWPkh2WBcQ4.jpg",
       "description": "Lorsque Jen, une cadre d'entreprise qui déteste Noël, se voit confier à contrecœur la garde des deux enfants de sa sœur,  Adam son voisin l'aide à surmonter les catastrophes des fêtes, à renouer avec l'esprit de famille et à ouvrir son cœur.",
       "releaseInfo": "2026"
     },
@@ -30,6 +29,15 @@
       "id": "tmdb:1801799",
       "type": "movie",
       "name": "홈커밍",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1642600",
+      "type": "movie",
+      "name": "Harceleurs",
+      "poster": "https://image.tmdb.org/t/p/w500/yHE9nlvMq8f7YzSrYTi1CDAtMrT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dOxiqjaYzhnYw06zAQGvTxeqyP3.jpg",
+      "description": "Camille est professeure dans un collège d'une ville pavillonnaire, son fils Mathias est en 3e dans le même établissement. Des faits de harcèlement lui sont signalés et, avant qu'elle n'ait le temps d'en comprendre l'ampleur et d'agir, l'élève harcelé fait une tentative de suicide et tombe dans le coma. Les parents, les autres élèves, tout le monde est sous le choc. En attendant le verdict autour du sort de la victime, les efforts se concentrent sur la recherche du coupable, et tout tend à croire que c'est le fils de Camille. Qui est vraiment son fils, que cache-t-il ? Comment gérer la situation ? Et surtout pourquoi n'a-t-elle rien vu ? Camille se retrouve prise en étau entre son rôle de professeure et de mère...",
       "releaseInfo": "2026"
     },
     {
@@ -59,6 +67,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1244139",
+      "type": "movie",
+      "name": "Les démons de l'Aube",
+      "poster": "https://image.tmdb.org/t/p/w500/nSNVD95b3GxI8QuG0wq0gSvxAWN.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/okBdLQ7Cz0sSJujTKfqNfgQGwGv.jpg",
+      "description": "Orlando vit toujours chez ses parents et rêve de devenir danseur professionnel, mais pour l’instant, il travaille comme go-go dancer dans un bar gay populaire pour joindre les deux bouts. Marco est sur le point de finir ses études d’infirmiers. Une étincelle instantanée entre les deux garçons se transforme en une romance passionnée que ni l’un ni l’autre ne sait vraiment gérer. Mais une fois l’obscurité de la nuit dissipée, à travers leurs corps entrelacés et leurs âmes synchronisées, ils tenteront de tracer le chemin de leurs destins partagés.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1484148",
       "type": "movie",
       "name": "C'est vrai ce mensonge ?",
@@ -73,6 +90,15 @@
       "name": "Stars 80 : l’histoire d'un phénomène culte",
       "poster": "https://image.tmdb.org/t/p/w500/wfCrzqSmlJRMhM4bHTcaooS8kkV.jpg",
       "description": "En 2006, une idée audacieuse voit le jour : réunir les stars des années 80 dans une même tournée pour célébrer leurs plus grands succès. Personne n'imagine alors l'ampleur que prendra l'aventure. Stars 80 devient rapidement un immense succès populaire.  Sur scène, les icônes d'une décennie entière partagent l'affiche. Des artistes qui dominaient autrefois les classements, chacun de leur côté, se retrouvent réunis dans une même aventure. Au fil des années, ils sont devenus une véritable troupe, des amis et compagnons de route embarqués dans une aventure collective hors norme.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1787254",
+      "type": "movie",
+      "name": "Enfants d'Hier",
+      "poster": "https://image.tmdb.org/t/p/w500/h7xcj1M1uGEbHN26kC6Qkkl7Wou.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hL9B9mW3IGlrcVHjARHwNujMsMh.jpg",
+      "description": "Noah, 21 ans, retourne dans le foyer d’accueil de son adolescence pour y récupérer des affaires. Un lieu rempli de souvenirs, duquel les jeunes doivent s'en aller à 18 ans. Sa rencontre avec Thaïs, une adolescente occupant désormais son ancienne chambre, va provoquer en lui une urgence de dire ce qui ne peut être prononcé.",
       "releaseInfo": "2026"
     },
     {
@@ -105,8 +131,8 @@
       "type": "movie",
       "name": "Pour le plaisir",
       "poster": "https://image.tmdb.org/t/p/w500/2cWdr2n7VNrLEAer6hMPASIP7Px.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/eJKKygAF718jp1HhGvH3SMoi5Cv.jpg",
-      "description": "Et si on vous racontait l’invention du siècle ? Un couple, une vérité qui explose. Fanny et Tom sont mariés et heureux depuis 20 ans. Mais un jour un secret éclate : Fanny n’a jamais eu d’orgasme. Tom, ingénieur, décide alors de relever un défi audacieux : créer l’objet qui révolutionnera le plaisir féminin. Ensemble, ils se lancent dans cette quête aussi déjantée qu’émouvante qui va transformer leur couple. Jusqu’où iront-ils ? Loin, très loin.",
+      "background": "https://image.tmdb.org/t/p/w780/aS282t7mVVmfykD3SrDHaOS5Q9m.jpg",
+      "description": "Et si on vous racontait l’invention du siècle ?  Un couple, une vérité qui explose. Fanny et Tom sont mariés et heureux depuis 20 ans. Mais un jour un secret éclate : Fanny n’a jamais eu d’orgasme. Tom, ingénieur, décide alors de relever un défi audacieux : créer l’objet qui révolutionnera le plaisir féminin.  Ensemble, ils se lancent dans cette quête aussi déjantée qu’émouvante qui va transformer leur couple. Jusqu’où iront-ils ?  Loin très loin",
       "releaseInfo": "2026"
     },
     {
@@ -143,31 +169,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/gF6Ijrq5bixh4qemCuroRwXtbBc.jpg",
       "background": "https://image.tmdb.org/t/p/w780/tK3QdOOrX4qEkmSlvrmc8cK7iOU.jpg",
       "description": "Dans une prison de haute sécurité, l'arrivée d'un nouveau détenu entraîne une série de meurtres barbares. Enfermés dans leurs cellules, les prisonniers doivent s'unir pour démasquer un fantôme surnaturel s'ils ne veulent pas être les victimes de la prochaine mise en scene macabre.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1702434",
-      "type": "movie",
-      "name": "Lost Ranger",
-      "poster": "https://image.tmdb.org/t/p/w500/31nlDKDzbSPwQvjvJIc18UpR60K.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9UNlXizcrgGzl3DK2N03g4OVCn0.jpg",
-      "description": "Neil, garde forestier, et sa femme Abby font très difficilement face à la disparition de leur fils alors qu'une inquiétante épidémie commence à ravager la région et ses habitants.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1668929",
-      "type": "movie",
-      "name": "Quando Ninguém Vê",
-      "poster": "https://image.tmdb.org/t/p/w500/cYStZJ1MbO4gsIf5XJI6O6UqAVL.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mQYE46TBYzD8wAT78pWqiBpFpPv.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1635632",
-      "type": "movie",
-      "name": "La Nièvre du samedi soir",
-      "poster": "https://image.tmdb.org/t/p/w500/wRzqgfb5Dj3R2H2L7NRkawynCdd.jpg",
-      "description": "Simon, un technocrate parisien est parachuté dans un petit village de la Nièvre pour établir le constat de fermeture de la maison de retraite. Le temps d’une nuit dans une campagne où toute infrastructure est menacée, il se retrouve embarqué dans une odyssée surréaliste qui le transformera à jamais.",
       "releaseInfo": "2026"
     }
   ]

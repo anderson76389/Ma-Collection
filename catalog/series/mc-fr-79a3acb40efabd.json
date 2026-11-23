@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:328010",
+      "type": "series",
+      "name": "Devils' Crest",
+      "poster": "https://image.tmdb.org/t/p/w500/kimx6VeIKhNQH0sqyT2OXfWUO07.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fA6eLsm6xEBK90IK3UNWoVPZBn7.jpg",
+      "description": "Une nouvelle série par Reki Kawahara, auteur de \"Accel World\" and \"Sword Art Online\". \"Sword Art Online\" abordait la réalité virtuelle, \"Sword Art Online the Movie: Ordinal Scale\" explorait la réalité augmentée, et \"Devils' Crest\" s'attaque à la réalité mélangée. Quand Actual Magic, le 1er VRMMORPG fusionne avec le monde réel, un nouveau jeu mortel commence. Un jeu aussi ancré dans la réalité.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:312359",
       "type": "series",
       "name": "Dragon Ball Super : Beerus",
@@ -34,6 +43,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/lEUUMZ8zylAPP797UMugdYjuxRP.jpg",
       "background": "https://image.tmdb.org/t/p/w780/j7KrALvuZgBdwVZkOIRc9Xaeyt4.jpg",
       "description": "Rein l'Enchanteur est un mage capable d'améliorer les armes et les armures. Mais lorsqu'il se fait renvoyer de sa guilde pour la simple raison qu'il a déjà enchanté tout ce qu'elle possède, il décide de reprendre tous les sorts qu’il a transmis à ses ex-compagnons et les affecte à son propre équipement. En chemin, Rein rassemble une bande de parias comme lui et, ensemble, ils explorent le monde.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:305313",
+      "type": "series",
+      "name": "Romelia War Chronicle",
+      "poster": "https://image.tmdb.org/t/p/w500/2wqyITVWs1wZMih2VraylRjqzCo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6LeBjYSPULKwSv5R6sX6Iovwoad.jpg",
+      "description": "Sa victoire sur le Roi-Démon aurait dû être le triomphe de Romélia. Au lieu de cela, son fiancé, le prince Henri, rompt leurs fiançailles et la renvoie dans une province en ruines. Mais Romélia ne se laisse pas abattre. Elle jure de lever une armée, de reconstruire le royaume et ce, malgré des conflits qui continuent. Son histoire ne fait que commencer…",
       "releaseInfo": "2026"
     },
     {
@@ -160,24 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/du37GaThbc824q4wjfdSRtjEuJA.jpg",
       "background": "https://image.tmdb.org/t/p/w780/egAGdTC9aR8YJG4dU1OTPf950UP.jpg",
       "description": "Jan Akiyama, un adolescent arrogant et plein d'assurance, veut exaucer le souhait de son grand-père : vaincre son ennemi juré, Mutsuju Gobancho. Lorsqu'il arrive au restaurant Gobancho, il rencontre sa petite-fille, Kiriko Gobancho. Leur rivalité est facilement comparable à celle de leurs grands-pères respectifs, car Jan pense que la cuisine est avant tout une question de compétition, tandis que Kiriko croit que la cuisine est une affaire de cœur.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:300267",
-      "type": "series",
-      "name": "The World's Strongest Rearguard",
-      "poster": "https://image.tmdb.org/t/p/w500/qHRIsZS6eikYpQBZGY5fqT7HlHQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/93G5xLkTan3fdkUzQVvCcf8IAMx.jpg",
-      "description": "Arihito Atobe est mort dans un accident de bus, mais il se réveille dans un autre monde, entouré de ses anciennes collègues de travail. Dans sa vie précédente, il était un assistant exploité et dévoué à son travail. À présent, il découvre qu'il est capable de jouer un rôle clé dans l'arrière-garde en apportant son soutien dans l'attaque, la défense ou les soins.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:287075",
-      "type": "series",
-      "name": "Magical Girl Lyrical Nanoha EXCEEDS: Gun Blaze Vengeance",
-      "poster": "https://image.tmdb.org/t/p/w500/6FTC8b0V0xdCQrT4929HPdPnoYo.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8oDXuGfRiNPMZc1eYc9O8gIm7nb.jpg",
-      "description": "Trente ans après une invasion extraterrestre, Shiina Kuze se joint au combat pour protéger sa sœur et sauver l'humanité.",
       "releaseInfo": "2026"
     }
   ]

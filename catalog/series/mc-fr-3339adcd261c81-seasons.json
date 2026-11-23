@@ -28,20 +28,11 @@
       "releaseInfo": "2003"
     },
     {
-      "id": "tmdb:2190",
-      "type": "series",
-      "name": "South Park",
-      "poster": "https://image.tmdb.org/t/p/w500/k7n2EVge7G77eMr3brztRGG1fFU.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3UviYOlhn8EgXMBuiT6MnUuo1w9.jpg",
-      "description": "La petite ville de South Park dans le Colorado est le théâtre des aventures de Cartman, Stan, Kyle et Kenny, quatre enfants au langage quelque peu... décalé !",
-      "releaseInfo": "1997"
-    },
-    {
       "id": "tmdb:259909",
       "type": "series",
-      "name": "Dexter : Résurrection",
+      "name": "Dexter - Résurrection",
       "poster": "https://image.tmdb.org/t/p/w500/teZOzBZhugzh7UfW6xuPp4wJ5oU.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jgfmzwfmMh4DTqITVSdtxBKfFE5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vcpj6rRDS93ImHCLPY8bwBuFGjR.jpg",
       "description": "Après avoir survécu à ses blessures, Dexter se retrouve à New York. Il tente de renouer une relation avec son fils mais des meurtres rituels ensanglantent Big Apple.",
       "releaseInfo": "2025"
     },
@@ -55,13 +46,22 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:202297",
+      "id": "tmdb:117488",
       "type": "series",
-      "name": "Fire Country : Pompiers sur Appel",
-      "poster": "https://image.tmdb.org/t/p/w500/2qhBMwFtQIUQId8nhaywVqKTPLw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/r6jUY6q3ObYOeFFWxM7jemS7IWE.jpg",
-      "description": "En quête de rédemption et d'une peine de prison raccourcie, le jeune condamné Bode Donovan rejoint un programme de lutte contre les incendies qui le ramène dans sa petite ville natale du nord de la Californie, où lui et d'autres détenus travaillent aux côtés de pompiers d'élite pour éteindre d'énormes incendies dans la région.",
-      "releaseInfo": "2022"
+      "name": "Yellowjackets",
+      "poster": "https://image.tmdb.org/t/p/w500/sf3rrEy0nlHudG5KdcS8jyH9OsP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ibFWJDWS8cTO6s2vZVd2uKDm8p.jpg",
+      "description": "Après le crash de leur avion, des lycéennes d’une équipe de football luttent pour leur survie dans une région sauvage du Nord des États-Unis. Vingt-cinq ans plus tard, les survivantes se sont reconstruites… enfin presque. Car une question revient sans cesse, que s’est-il passé durant les dix-neuf mois qu’a duré leur calvaire ? Et combien de temps tiendra encore leur pacte de ne jamais rien révéler ?",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:126824",
+      "type": "series",
+      "name": "Patrick Super Star",
+      "poster": "https://image.tmdb.org/t/p/w500/oyCsf5f93qrb4qD7jw1W6wGt3Ks.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kP7pCxfml6erWC9aB72ALtNawJq.jpg",
+      "description": "Patrick anime sa propre émissions dans sa maison familiale, avec le soutien de toute sa famille.",
+      "releaseInfo": "2021"
     }
   ]
 }

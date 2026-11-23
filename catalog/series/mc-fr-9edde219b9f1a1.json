@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:308007",
+      "type": "series",
+      "name": "The Altruists",
+      "poster": "https://image.tmdb.org/t/p/w500/hiX70sXdvEPVE11QqmLuaX16gdh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/m8JTMj7jDMJFZAPP1ASmSi4gMWi.jpg",
+      "description": "Jeunes, idéalistes et soudain milliardaires, ils voulaient faire le bien... avant de se pousser au pire. Un amour toxique sur fond d'escroquerie réelle.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:239618",
       "type": "series",
       "name": "American Hostage",
@@ -167,15 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/d5n1BQpcDe2GBIXJ2y39qxnEsyp.jpg",
       "background": "https://image.tmdb.org/t/p/w780/pp4jnkOneeb4FFcni9VUCyo18sZ.jpg",
       "description": "Dans la ville anglaise de Corby, les mères de dizaines de bébés nés avec des malformations mènent un combat pour traduire les responsables en justice.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:241501",
-      "type": "series",
-      "name": "Apple Cider Vinegar",
-      "poster": "https://image.tmdb.org/t/p/w500/kGU5KfZiNiXjFsxw1g8wds27rrU.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/c2r31iNC052gj1noKDntFEh1VHX.jpg",
-      "description": "Deux jeunes femmes défendent l'idée que des remèdes bien-être peuvent guérir des maladies mortelles, trompant le monde... l'une à son insu et l'autre en toute connaissance de cause.",
       "releaseInfo": "2025"
     }
   ]

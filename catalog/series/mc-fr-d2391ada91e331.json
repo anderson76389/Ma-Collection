@@ -6,14 +6,16 @@
       "name": "Clangold",
       "poster": "https://image.tmdb.org/t/p/w500/9Y8DXNSG0NfTL98S9b9qiqaIzzw.jpg",
       "background": "https://image.tmdb.org/t/p/w780/lE116QoDQZTAVsRvSafIJtYnqDG.jpg",
+      "description": "Une pièce d'or de 100 kilogrammes, surnommée la Grande Feuille d'érable, est volée au musée Bode de Berlin, ce qui conduit les enquêteurs à se lancer dans une traque des auteurs du vol au sein des gangs de la ville.",
       "releaseInfo": "2026"
     },
     {
       "id": "tmdb:341027",
       "type": "series",
-      "name": "Az igazság mániákusai",
+      "name": "Maniacs of the Truth",
       "poster": "https://image.tmdb.org/t/p/w500/bdtUdFty62jg5o38wFFYcUAhJW.jpg",
       "background": "https://image.tmdb.org/t/p/w780/4pEekXslUec02y6zo9Y0IxvF6PA.jpg",
+      "description": "Cette série documentaire en deux parties explore les affaires criminelles les plus notoires et médiatisées de Hongrie après la chute du communisme, à travers les dîners réguliers d'un groupe d'amis unique, parmi lesquels le détective à la retraite Ernő Tóth et ses anciens collègues.",
       "releaseInfo": "2026"
     },
     {
@@ -31,6 +33,7 @@
       "name": "The Killing of the Golden Rooster",
       "poster": "https://image.tmdb.org/t/p/w500/rSbX7iONG8b5zovcXhvJFKIqSGK.jpg",
       "background": "https://image.tmdb.org/t/p/w780/xmHw8irD2q1YYEeyLw2tMb4cHsc.jpg",
+      "description": "Une série documentaire originale HBO en trois parties, inspirée de faits réels, qui explore la vie, l'héritage et le mystérieux meurtre en 2006 de Valentín Elizalde, icône de la musique régionale mexicaine.",
       "releaseInfo": "2026"
     },
     {

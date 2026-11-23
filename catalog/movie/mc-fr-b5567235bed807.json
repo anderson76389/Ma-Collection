@@ -34,12 +34,30 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1746859",
+      "type": "movie",
+      "name": "Meurtre à Idaho College : sur la trace de Kohberger",
+      "poster": "https://image.tmdb.org/t/p/w500/p5ZVcxNNbYHiv5FloXofmJLB61Z.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/azjR8VIjpgoB23OkZFG3tZ1DLb8.jpg",
+      "description": "De nouvelles preuves révèlent le profil inquiétant du tueur Bryan Kohberger, qu'il s'agisse d'images filmées par des caméras corporelles ou de criminalistique numérique, révélant qui il était réellement.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1739649",
       "type": "movie",
       "name": "Sharkzilla : terreur sur New York",
       "poster": "https://image.tmdb.org/t/p/w500/9eRbeuXIrv9HEMcxD1yCsquVHyP.jpg",
       "background": "https://image.tmdb.org/t/p/w780/8V5be4G8sMNQIlZncGLcR2AuSDz.jpg",
       "description": "Un scientifique recherche un potentiel tueur de requins près d'un lieu d'immersion de déchets radioactifs où pullulent makos et grands requins blancs.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1594914",
+      "type": "movie",
+      "name": "L'Enfer des Ardennes",
+      "poster": "https://image.tmdb.org/t/p/w500/si3dGuTfzywPb330JHNPtpTGmam.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uujYvxE9s6KY4SbBZ0ZFN3oBJhW.jpg",
+      "description": "Un soldat américain mène son unité pour bloquer une contre-offensive nazie. Coincés derrière les lignes ennemies, ses hommes sont tués dans une attaque, le laissant seul survivant. Blessé et confronté au froid glacial, il doit rejoindre à pied un point de ralliement. Avec sa radio comme seul lien, il lutte pour survivre aux éléments et aux ennemis qui le guettent à chaque détour.",
       "releaseInfo": "2026"
     },
     {
@@ -70,8 +88,8 @@
     {
       "id": "tmdb:898704",
       "type": "movie",
-      "name": "לוחם המדבר",
-      "poster": "https://image.tmdb.org/t/p/w500/waxnw1NpzTPY5JkqWvu0muSopRJ.jpg",
+      "name": "Desert Warrior",
+      "poster": "https://image.tmdb.org/t/p/w500/nqpBWqXqK5y0RczF5efEp1BNQ2H.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ohlNSR8MsHk5e6fcAxqAJmcz4Sm.jpg",
       "description": "Quand une jeune princesse refuse d'être soumise au redoutable empereur Kisra, une bataille éclate de telle sorte qu'elle change la région de l'ancienne Arabie Saoudite à jamais.",
       "releaseInfo": "2026"
@@ -154,24 +172,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/wmJFkjI05zT5WZXr0hRvBhM7pU6.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ydizf7MP7vOYK7bnDcqAvhFVYxr.jpg",
       "description": "Les déboires amoureux de Barry McMullen, désormais dans la cinquantaine, ainsi que ceux de ses enfants âgés d’une vingtaine d’années, de son frère Patrick et de sa belle-sœur veuve Molly.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1114967",
-      "type": "movie",
-      "name": "Good Fortune",
-      "poster": "https://image.tmdb.org/t/p/w500/1slHSEUVoxwHl7gw34VvebBaJSx.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nkxtuK4alXlGC87FRNDfAZJIFiB.jpg",
-      "description": "Gabriel, un ange gardien, souhaite avoir de plus grandes responsabilités afin d'aider les âmes perdues. Il est témoin des difficultés vécues par Arj, qui cumule les emplois journaliers et peine à joindre les deux bouts. À l'opposé, Jeff est un riche entrepreneur qui mène une existence oisive et luxueuse. Gabriel décide d'intervenir auprès de ces deux personnes pour redonner espoir à Arj. Son assistance n'a toutefois pas l'effet escompté.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1160360",
-      "type": "movie",
-      "name": "Si j'en avais la force",
-      "poster": "https://image.tmdb.org/t/p/w500/bgjyFWoPR9M2npUaUqKnosiagEm.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/eLVKuHGx9k8JgLk5JINQDmh9tRH.jpg",
-      "description": "Linda, une thérapeute épuisée, tente de garder le contrôle alors que sa fille souffre d'une maladie mystérieuse, son mari est absent, et son propre thérapeute devient de plus en plus hostile. Forcée de déménager dans un motel délabré, elle lutte pour maintenir sa vie personnelle et professionnelle à flot, dans un tourbillon de chaos émotionnel et de solitude.",
       "releaseInfo": "2025"
     }
   ]

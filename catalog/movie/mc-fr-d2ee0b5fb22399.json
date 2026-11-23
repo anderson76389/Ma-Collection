@@ -1,12 +1,39 @@
 {
   "metas": [
     {
+      "id": "tmdb:1568060",
+      "type": "movie",
+      "name": "Menteurs Parfaits",
+      "poster": "https://image.tmdb.org/t/p/w500/sOlqGOWwHgasYT2tyd9qXKLZCJ0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/m4i6oWU1LoAkYVuV37L7UyI2tcy.jpg",
+      "description": "Dans cette adaptation du roman d'Alex Mírez, Jude Derry infiltre l'université privée de Tagus et le cercle des frères Cash afin de découvrir la vérité sur la mort de son frère. Ce qui commence comme une quête de vengeance se transforme en un dangereux triangle de séduction, d'attirance interdite et de mensonges, la rapprochant d'une vérité qu'elle n'est peut-être pas prête à affronter.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1314786",
+      "type": "movie",
+      "name": "Agent Zeta",
+      "poster": "https://image.tmdb.org/t/p/w500/wDVwJj0KMdFgV1nR4CLNU3yhOxH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cmP55W8EqqIE41Ck9D7uWRpzLwS.jpg",
+      "description": "Quatre anciens espions espagnols sont assassinés simultanément dans différents pays. Le CNI découvre qu'ils ont tous participé à l'Opération Ciénaga il y a 35 ans en Colombie. Zeta, agent du CNI, doit trouver et protéger le seul survivant au cours de la mission la plus dangereuse de sa carrière. Alfa, un agent colombien, se joint à Zeta. Il semble en savoir bien plus que lui sur \"Ciénaga\"...",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1794569",
       "type": "movie",
       "name": "Sans protection : El crimen de Pazos",
       "poster": "https://image.tmdb.org/t/p/w500/uvwAKeTTf9s0k69xelRXQbs6Hb7.jpg",
       "background": "https://image.tmdb.org/t/p/w780/5DEE6tP6FOkgfjvoQYvjNjvt3cn.jpg",
       "description": "Film documentaire qui retrace l’histoire d’Isabel Fuentes. En avril 2015, des individus — soupçonnés d’être des cambrioleurs — l’ont laissée entre la vie et la mort à son domicile, dans le village de Pazos, à Verín. Dès le début, le sergent de la Guardia Civil chargé de l’enquête a soupçonné que le récit des événements ne tenait pas debout et a cherché à protéger Isabel contre toute nouvelle agression.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1522071",
+      "type": "movie",
+      "name": "Ruega por nosotras",
+      "poster": "https://image.tmdb.org/t/p/w500/JP5lKBmLxZOMATJ9JWV5x9DvSe.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dcms6atcKVzYPMWJwvltYkaq2zf.jpg",
+      "description": "1974. Ana a 19 ans, vit à Barcelone et est considérée par sa famille aisée comme une jeune fille rebelle. Après avoir fugué une nuit, son père décide de la confier à la Junte de protection des femmes, une institution créée sous la dictature de Franco, spécialisée dans les « femmes déchues » ou « à risque de déchéance », dans le but de « réhabiliter les femmes immorales ». Ana est transférée à Madrid, où elle est admise dans un centre de rééducation dirigé par des religieuses et soumise à un régime disciplinaire brutal. Elle se lie d'amitié avec Sole, une fille de la campagne.",
       "releaseInfo": "2026"
     },
     {
@@ -40,6 +67,14 @@
       "type": "movie",
       "name": "Leones en invierno",
       "poster": "https://image.tmdb.org/t/p/w500/ozr5OyKt1whnfuLei2viZsS38Kp.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1406492",
+      "type": "movie",
+      "name": "La venganza del Charro Negro",
+      "poster": "https://image.tmdb.org/t/p/w500/in3F0moyJ5EDpwRmXRFV9UVac1B.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hWiWUU8GydzJkapzmBL6JMV7J6n.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -121,53 +156,19 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1548369",
+      "type": "movie",
+      "name": "Gungo y Los Juegos Cavernícolas",
+      "poster": "https://image.tmdb.org/t/p/w500/mQNBZITnRDwhRGRqWzM7dPEFoXn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/upxQBHRpgUJx33d1iG6rpzg0M5S.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1471168",
       "type": "movie",
       "name": "Barreda",
       "poster": "https://image.tmdb.org/t/p/w500/a25CyXmPJx6SrVFA9yirJTL9iAH.jpg",
       "background": "https://image.tmdb.org/t/p/w780/4pXBWLKMew7Xmtq3OgMQxTHp060.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1752312",
-      "type": "movie",
-      "name": "Papi Ricky: La Película",
-      "poster": "https://image.tmdb.org/t/p/w500/y0EhzwaNnpMezpIDNoBcRCoAhMN.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1210268",
-      "type": "movie",
-      "name": "Dégel",
-      "poster": "https://image.tmdb.org/t/p/w500/agaPM6fOIwG1kmBXAprimPxT4mQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9OGwh7Q3YaggcmJqUSSu6JXhswC.jpg",
-      "description": "Chili, 1992. Le pays reste marqué par des années de dictature. Alors qu’elle est gardée par ses grands-parents dans leur hôtel en station de ski, Inès, 9 ans, se lie d’amitié avec Hanna, une jeune sportive venue d’Allemagne. Lorsque celle-ci disparaît sans laisser de trace, l’enfant cherche à comprendre…",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1187326",
-      "type": "movie",
-      "name": "‎Tad l'explorateur et la Lampe magique",
-      "poster": "https://image.tmdb.org/t/p/w500/qCfO9njHx6TFOGXb4PdvLxRttLM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zbpimMxf6Ms96v3Zypuv8WltMSO.jpg",
-      "description": "Tad et Sara sont désormais les heureux parents d'Oli, une adorable et intrépide petite fille de deux ans. Le bonheur de la petite famille fait un peu de l'ombre à Momie, qui a l'impression de passer au second plan. Alors qu'en vacances à Londres, la bande met la main sur la lampe merveilleuse des Mille et Une Nuits, Momie formule un vœu inattendu : voyager dans le temps pour retourner à l'époque de sa jeunesse où tout le monde l'adorait.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1621552",
-      "type": "movie",
-      "name": "La captura",
-      "poster": "https://image.tmdb.org/t/p/w500/my8euQR37XeJ8lfLz3XgBR03R45.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/c4U96GrPRfnNrS01mBtqnocvlLJ.jpg",
-      "description": "Deux agents mexicains doivent survivre aux dernières heures de leur service après avoir froissé un chef de cartel dans ce drame policier inspiré de faits réels.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:772506",
-      "type": "movie",
-      "name": "Amor es amor",
-      "poster": "https://image.tmdb.org/t/p/w500/5ae4v1W4hyAclTJw97aIAmr6OAE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8fN4YSYUOAlYmUcqzGCuztaXms6.jpg",
       "releaseInfo": "2026"
     }
   ]

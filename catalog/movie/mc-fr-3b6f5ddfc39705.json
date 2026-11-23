@@ -66,6 +66,14 @@
       "releaseInfo": "2025"
     },
     {
+      "id": "tmdb:1447053",
+      "type": "movie",
+      "name": "Яга на нашу голову",
+      "poster": "https://image.tmdb.org/t/p/w500/j3z0cawV5kaxVuTqKkKeWOqAvCS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fHxjM3gWpC7BfEuPUr30RjyemBi.jpg",
+      "releaseInfo": "2025"
+    },
+    {
       "id": "tmdb:1470424",
       "type": "movie",
       "name": "Голосовой помощник",
@@ -154,15 +162,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/9aym3b81zPB51xMPQJ5hoMsKsUD.jpg",
       "background": "https://image.tmdb.org/t/p/w780/aT9UmSgCic0Dmj7NQlx9uYR6xMJ.jpg",
       "description": "En chemin, les saisons passent, les relations entre les deux acteurs principaux - le débutant Makar Khlebnikov et la déjà star Youri Borissov - évoluent sur le tournage autant que dans l'histoire des deux frères en cavale, la caméra s'adapte discrètement aux nombreux personnages croisés (et non l'inverse, beaucoup sont des non-professionnels et les auteurs tiennent à cette authenticité documentaire), la nature yakoute dicte sa loi et ce qui aurait pu devenir un plaisant \"eastern\" à la \"Butch Cassidy et le Kid\" tourne au cruel thriller.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1211726",
-      "type": "movie",
-      "name": "La Soie rouge",
-      "poster": "https://image.tmdb.org/t/p/w500/g45NVaq0o72UcKWzZxZ0EUnylH9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xxKihlvCkmG6j4v2a4gWGPBnzjr.jpg",
-      "description": "1927. À bord du Transsibérien, des documents secrets sont transportés à travers toute la Russie. Ils décideront de l’avenir de l’URSS et de la Chine. Derrière l’apparence de simples voyageurs se cachent des espions étrangers et des tueurs prêts à tout pour s’en emparer. Un jeune soldat de l’Armée rouge et un ancien agent du tsar doivent unir leurs forces pour démasquer leur ennemi commun.",
       "releaseInfo": "2025"
     }
   ]

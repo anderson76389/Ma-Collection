@@ -1,24 +1,6 @@
 {
   "metas": [
     {
-      "id": "tmdb:2734",
-      "type": "series",
-      "name": "New York Unité Spéciale",
-      "poster": "https://image.tmdb.org/t/p/w500/95flTYCxEPNFSdZVrHy9nMIeLbw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xhK9YCxNwnE0OB1SWvCY39heHQI.jpg",
-      "description": "Les inspecteurs qui font partie de la division des Crimes sexuels (SVU) du service de police de la ville de New York (NYPD) enquêtent sur des crimes de nature sexuelle. Alors que les autres émissions de la franchise de \"La loi et l'ordre\" se sont largement concentrées sur les cas de meurtres, les inspecteurs de la division des Crimes sexuels (SVU) ont souvent affaire à des crimes, tel le viol, auquel la victime survit et elle aide les autorités lors de l'enquête.",
-      "releaseInfo": "1999"
-    },
-    {
-      "id": "tmdb:456",
-      "type": "series",
-      "name": "Les Simpson",
-      "poster": "https://image.tmdb.org/t/p/w500/py1CAYqgpKKtLBdtctLIXfDYDjW.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg",
-      "description": "Située à Springfield, ville américaine moyenne, la série se concentre sur les singeries et les aventures quotidiennes de la famille Simpson : Homer, Marge, Bart, Lisa et Maggie, ainsi que des milliers d'autres personnages.",
-      "releaseInfo": "1989"
-    },
-    {
       "id": "tmdb:1416",
       "type": "series",
       "name": "Grey's Anatomy",
@@ -28,13 +10,13 @@
       "releaseInfo": "2005"
     },
     {
-      "id": "tmdb:213375",
+      "id": "tmdb:456",
       "type": "series",
-      "name": "VisionQuest",
-      "poster": "https://image.tmdb.org/t/p/w500/bWPktguPGslrdM79SNQt4OWYyJS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uoXXbN2PrOxH6UKyP7kYwmGpAAP.jpg",
-      "description": "Une nouvelle version de Vision ayant échappé à ceux qui cherchaient à faire de lui une arme, vit dans la clandestinité. En quête d’un nouveau sens à sa vie, il consulte les IA intégrées à son programme, notamment Friday, Edith, Jarvis et le tristement célèbre Ultron. Son existence discrète prend fin lorsque sa tête est mise à prix, le contraignant à prendre la fuite avec Thomas Shepherd, un garçon mystérieux qui pourrait bien être la réincarnation du fils de Vision. Tout en échappant à ses poursuivants, Vision doit se confronter à sa propre nature, résister à l’influence d’Ultron et percer le mystère qui entoure son jeune compagnon s’il veut survivre.",
-      "releaseInfo": "2026"
+      "name": "Les Simpson",
+      "poster": "https://image.tmdb.org/t/p/w500/py1CAYqgpKKtLBdtctLIXfDYDjW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg",
+      "description": "Située à Springfield, ville américaine moyenne, la série se concentre sur les singeries et les aventures quotidiennes de la famille Simpson : Homer, Marge, Bart, Lisa et Maggie, ainsi que des milliers d'autres personnages.",
+      "releaseInfo": "1989"
     },
     {
       "id": "tmdb:4614",
@@ -64,6 +46,15 @@
       "releaseInfo": "2015"
     },
     {
+      "id": "tmdb:103540",
+      "type": "series",
+      "name": "Percy Jackson et les Olympiens",
+      "poster": "https://image.tmdb.org/t/p/w500/mAX4KE8ewwuDAIzwv3WTpqE3yh7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dLIKNqBi9L1cVbwuniXkaNOsIXg.jpg",
+      "description": "À 12 ans, Percy Jackson découvre qu’il est le fils de Poséidon, le dieu des mers et des tremblements de terre. Étant un demi-dieu, il se rend à la colonie des Sang-Mêlé, où tous les demi-dieux peuvent s’entraîner à survivre. Il apprend par la suite que les dieux grecs ont installés l’Olympe au sommet de l’Empire State Building, aux États-Unis. Il rencontre à la colonie Annabeth Chase, fille d’Athéna, et retrouve son ami Grover Underwood, un Satyre (créature mi homme mi bouc) . Il se verra confier plusieurs quêtes, liées à une grande prophétie, au cours desquelles il affrontera tromperies, manipulations et monstres, pour sauver l’Olympe en compagnie de nombreux alliés, car il se trouvera au centre d’une guerre opposant les dieux grecs et les Titans pour la seconde fois de l’histoire de l’Olympe.",
+      "releaseInfo": "2023"
+    },
+    {
       "id": "tmdb:75219",
       "type": "series",
       "name": "9-1-1",
@@ -71,24 +62,6 @@
       "background": "https://image.tmdb.org/t/p/w780/5QJtEzMR7NxRxBBEdB7JfM1l7Oj.jpg",
       "description": "Du service d'appels d'urgences 911 aux pompiers, secouristes ou policiers, tous ces intervenants sont constamment sous pression, confrontés quotidiennement à des situations stupéfiantes, effrayantes, et parfois même choquantes. S'ils ont pour mission de voler au secours des personnes en danger, ces héros de l'ombre doivent aussi trouver le temps de résoudre les problèmes de leurs propres vies…",
       "releaseInfo": "2018"
-    },
-    {
-      "id": "tmdb:312359",
-      "type": "series",
-      "name": "Dragon Ball Super : Beerus",
-      "poster": "https://image.tmdb.org/t/p/w500/sGuCmIy8kEmx3FWZyMj654rF6g8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg",
-      "description": "Des années après la défaite de Majin Buu, la paix est revenue sur Terre. Mais lorsque Beerus, le Dieu de la Destruction, se réveille, cette tranquillité vole en éclats. Attiré sur Terre par des rumeurs concernant le Saiyan qui a vaincu Freezer, Beerus cherche à défier Goku en déployant une puissance capable de détruire des planètes entières. Goku et ses alliés doivent désormais affronter Beerus dans un combat qui fera trembler l'univers.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:208921",
-      "type": "series",
-      "name": "Rivals",
-      "poster": "https://image.tmdb.org/t/p/w500/bwFoHcbBOk5tbc5oGq8qBy0lVaJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vPw5Gpg0YEEk1VsE8QlmyTxIJuU.jpg",
-      "description": "Nous sommes en 1986 et la Grande-Bretagne est en plein essor. \"Rivals\" nous plonge la tête la première dans le monde impitoyable de la télévision, où les apparences et les ambitions sont plus importantes que tout et où les accords se négocient dans les salles de réunion, mais aussi sur l’oreiller. Personne ne sait qui sera vainqueur. Tout le monde ne pense qu’à soi-même. Le véritable amour pourra-t-il s'épanouir dans cette adaptation du roman à succès de Jilly Cooper, “Rutshire Chronicles“ ?",
-      "releaseInfo": "2024"
     },
     {
       "id": "tmdb:55216",
@@ -100,13 +73,13 @@
       "releaseInfo": "2009"
     },
     {
-      "id": "tmdb:105009",
+      "id": "tmdb:312359",
       "type": "series",
-      "name": "Tokyo Revengers",
-      "poster": "https://image.tmdb.org/t/p/w500/kzDHRAkFjeed0lJpjE1eKJDcowS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zYIFOocMfsKAEysBjhZ8akfXFdB.jpg",
-      "description": "Takemichi Hanagaki n'a pas vraiment réussi sa vie. Il fait des petits boulots sans intérêt et lorsqu'il apprend que la seule petite amie qu'il ait jamais eu au collège, Hinata Tachibana, a été tuée par l'impitoyable gang Tokyo Manji-kai, il est anéanti. Le lendemain, toujours sous le choc, il est poussé sur les rails de la gare lors d'un mouvement de foule. Mais Takemichi ne meurt pas et quand il se réveille, il est revenu douze ans en arrière. Il va ainsi retrouver ses meilleures années, mais aussi tenter de sauver celle qui l'aime et prendre sa revanche sur la vie…",
-      "releaseInfo": "2021"
+      "name": "Dragon Ball Super : Beerus",
+      "poster": "https://image.tmdb.org/t/p/w500/sGuCmIy8kEmx3FWZyMj654rF6g8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg",
+      "description": "Des années après la défaite de Majin Buu, la paix est revenue sur Terre. Mais lorsque Beerus, le Dieu de la Destruction, se réveille, cette tranquillité vole en éclats. Attiré sur Terre par des rumeurs concernant le Saiyan qui a vaincu Freezer, Beerus cherche à défier Goku en déployant une puissance capable de détruire des planètes entières. Goku et ses alliés doivent désormais affronter Beerus dans un combat qui fera trembler l'univers.",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:211288",
@@ -118,12 +91,21 @@
       "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:125935",
+      "id": "tmdb:208921",
       "type": "series",
-      "name": "Abbott Elementary",
-      "poster": "https://image.tmdb.org/t/p/w500/zk2aNVIHoapdWKOcaYp7PhX9SxD.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/s3owzvmihtDrunVxB2DyGjn9iJt.jpg",
-      "description": "Dans cette comédie en milieu de travail, un groupe d'enseignants dévoués et passionnés - et un directeur légèrement sourd - sont réunis dans une école publique de Philadelphie où, malgré les obstacles qui leur sont opposés, ils sont déterminés à aider leurs élèves à réussir dans la vie. Bien que ces incroyables fonctionnaires soient en infériorité numérique et sous-financés, ils aiment ce qu'ils font - même s'ils n'aiment pas l'attitude moins que stellaire du district scolaire envers l'éducation des enfants.",
+      "name": "Rivals",
+      "poster": "https://image.tmdb.org/t/p/w500/bwFoHcbBOk5tbc5oGq8qBy0lVaJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vPw5Gpg0YEEk1VsE8QlmyTxIJuU.jpg",
+      "description": "Nous sommes en 1986 et la Grande-Bretagne est en plein essor. \"Rivals\" nous plonge la tête la première dans le monde impitoyable de la télévision, où les apparences et les ambitions sont plus importantes que tout et où les accords se négocient dans les salles de réunion, mais aussi sur l’oreiller. Personne ne sait qui sera vainqueur. Tout le monde ne pense qu’à soi-même. Le véritable amour pourra-t-il s'épanouir dans cette adaptation du roman à succès de Jilly Cooper, “Rutshire Chronicles“ ?",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:105009",
+      "type": "series",
+      "name": "Tokyo Revengers",
+      "poster": "https://image.tmdb.org/t/p/w500/kzDHRAkFjeed0lJpjE1eKJDcowS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zYIFOocMfsKAEysBjhZ8akfXFdB.jpg",
+      "description": "Takemichi Hanagaki n'a pas vraiment réussi sa vie. Il fait des petits boulots sans intérêt et lorsqu'il apprend que la seule petite amie qu'il ait jamais eu au collège, Hinata Tachibana, a été tuée par l'impitoyable gang Tokyo Manji-kai, il est anéanti. Le lendemain, toujours sous le choc, il est poussé sur les rails de la gare lors d'un mouvement de foule. Mais Takemichi ne meurt pas et quand il se réveille, il est revenu douze ans en arrière. Il va ainsi retrouver ses meilleures années, mais aussi tenter de sauver celle qui l'aime et prendre sa revanche sur la vie…",
       "releaseInfo": "2021"
     },
     {
@@ -134,6 +116,15 @@
       "background": "https://image.tmdb.org/t/p/w780/xlMVEbNl7ZBGFyhX2WEhQ8Kifm4.jpg",
       "description": "Taiyô Asano est un lycéen à la timidité maladive. La seule personne avec qui il arrive à parler normalement est son amie d'enfance Mutsumi Yozakura. Mais cette dernière est la fille d'une famille d'espions qui oeuvre depuis plusieurs générations, et son grand frère, qui lui voue une affection excessive, a décidé d'éliminer Taiyô !",
       "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:226688",
+      "type": "series",
+      "name": "BEYBLADE X",
+      "poster": "https://image.tmdb.org/t/p/w500/66wkm14IWdrY5LaKZDAbkD2T9Jt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qAq9RBeHZoTMDFqQZ2o4cE5CJIQ.jpg",
+      "description": "Robin Kazami, blader débutant, s'associe à l'influenceuse Multi Nana-iro et à l'ancien champion Jaxon Cross pour former ce trio improbable, prêt à gravir les échelons du classement The X et à remporter le titre de champion blader !",
+      "releaseInfo": "2023"
     },
     {
       "id": "tmdb:284838",
@@ -154,13 +145,13 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:295778",
+      "id": "tmdb:205272",
       "type": "series",
-      "name": "Scrubs",
-      "poster": "https://image.tmdb.org/t/p/w500/l1EzNg0WMaoAu7oPa2oMXLizc4W.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qkxgja3V0eSjQYX8oLKidRVJ2Md.jpg",
-      "description": "J.D. et Turk travaillent ensemble pour la première fois depuis longtemps. La médecine a changé, les internes ont changé, mais leur amitié a résisté à l'épreuve du temps. Les personnages, anciens et nouveaux, naviguent dans les eaux du Sacred Heart avec humour, émotion et quelques surprises en cours de route.",
-      "releaseInfo": "2026"
+      "name": "Reasonable Doubt",
+      "poster": "https://image.tmdb.org/t/p/w500/v9p9VbljJdJ9GjLqp3l5YpWJ8HO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5Nu95w2oWsbmDeAjG2NJF4x33Ud.jpg",
+      "description": "Vous trouverez peut-être que Jax Stewart possède une éthique douteuse et interprète parfois la loi de façon détournée… jusqu'à ce que vous ayez des ennuis. Alors, vous la verrez pour ce qu'elle est : la plus brillante et intrépide avocate de Los Angeles, qui défie le système judiciaire à la moindre occasion.",
+      "releaseInfo": "2022"
     },
     {
       "id": "tmdb:258742",
@@ -179,6 +170,15 @@
       "background": "https://image.tmdb.org/t/p/w780/xz9YhlTE5gdr1mrQkY01vDvQF59.jpg",
       "description": "L’obsession pour la vérité du journaliste amateur Lee Raybon, qui s’autoproclame “historien de la vérité” de Tulsa, lui attire des ennuis. Loin d’être un idéaliste, Lee est prêt à tout pour exposer la corruption et les secrets de sa ville, quitte à se mettre en danger. Lorsque son dernier article sur la puissante famille Washberg est suivi du suicide suspect de Dale Washberg, Lee sait qu’il a mis le doigt sur quelque chose de gros. Dale a laissé des indices, suppliant qu’on enquête sur sa mort. Lee s’y met et découvre que Betty Jo, la veuve éplorée, semble plus intéressée par son beau-frère que par son défunt mari. Et des forces puissantes semblent vouloir l’empêcher d’en savoir plus.",
       "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:305551",
+      "type": "series",
+      "name": "Merry Berry Love",
+      "poster": "https://image.tmdb.org/t/p/w500/qzH80C1YNzucLsVJfW23RxvX9vS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vPDVee1j6w0hJ2xMJ2bU5HVBA0Z.jpg",
+      "description": "\"Après avoir tout perdu du jour au lendemain, Lee Yubin, architecte d'intérieur coréen à succès, met le cap sur une sublime petite île japonaise. Sur Chora, il rencontre Shirahama Karin, une agricultrice déterminée à cultiver des fraises malgré sa mystérieuse maladie. Issus de deux mondes différents, ils se retrouvent au cœur d'un quiproquo inattendu. En parallèle, une autre idylle voit le jour sur l'île. Park Kunam, en visa vacances-travail, décide de rester après être tombé sous le charme de Mizuno Mari, une cartomancienne incapable de prédire son propre avenir sentimental. Au fil de leur relation, ils deviennent de précieux alliés pour Yubin et Karin.",
+      "releaseInfo": "2026"
     }
   ]
 }

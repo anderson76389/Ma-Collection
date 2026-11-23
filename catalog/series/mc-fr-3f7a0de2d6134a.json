@@ -1,6 +1,31 @@
 {
   "metas": [
     {
+      "id": "tmdb:341600",
+      "type": "series",
+      "name": "Salish's 12 Games of Christmas",
+      "poster": "https://image.tmdb.org/t/p/w500/qDasTvECXJIDtfTG45s7caEKYGG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kIJyyEolrxCOvvOZSfPou9JZujA.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:336592",
+      "type": "series",
+      "name": "La conquête des boutiques",
+      "poster": "https://image.tmdb.org/t/p/w500/awZejt5KgmNzqlQIReQa4vJelx4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9qKkdHizmDOXwABJx6LP6MdbWiO.jpg",
+      "description": "Dans cette téléréalité, dix équipes s'installent dans un centre commercial pour obtenir des boutiques, forger des alliances, déjouer les rivaux… et gagner 1 000 000 $.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:332205",
+      "type": "series",
+      "name": "Small Town Trouble: Texas",
+      "poster": "https://image.tmdb.org/t/p/w500/vZ7UAWBmSxSaBtk8weABX0oqC01.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/54OIzxOag4gmFdhXz4GIerPfcuq.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:317945",
       "type": "series",
       "name": "Concours Eurovision Asie de la chanson",
@@ -25,6 +50,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:339379",
+      "type": "series",
+      "name": "Griff Across the Alps",
+      "poster": "https://image.tmdb.org/t/p/w500/f4W24khBKXxev5pVCYwrL5EIxou.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/f3LWKyiLbgLxklbpASCzfgpYY7P.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:334887",
       "type": "series",
       "name": "The Mob",
@@ -44,7 +77,7 @@
       "id": "tmdb:335319",
       "type": "series",
       "name": "The Prison Experiment : La nouvelle expérience de Stanford",
-      "poster": "https://image.tmdb.org/t/p/w500/heoESrHAdmPeYECs2B7R8RIqLyN.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/uQGScYnHfK4HsCYRstYpPDtj6ZL.jpg",
       "background": "https://image.tmdb.org/t/p/w780/H8VA7K15NWVKLbUbp8ZQ17zvU2.jpg",
       "description": "Trente personnes passent deux semaines en prison et révèlent ce dont elles sont capables à travers des jeux de pouvoir, dans cette célèbre étude de psychologie sociale revisitée.",
       "releaseInfo": "2026"
@@ -128,40 +161,8 @@
       "id": "tmdb:333854",
       "type": "series",
       "name": "The Great British Bake Off: Second Helpings",
-      "poster": "https://image.tmdb.org/t/p/w500/hyZs4jmChlcytHjZVavndyyxDHN.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/qXeO04SrBT9eMtBfWwLH99hemE2.jpg",
       "background": "https://image.tmdb.org/t/p/w780/hnvOSPiAmvX9e4QhsfhevyULVMT.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:336504",
-      "type": "series",
-      "name": "Donncha's Away Games",
-      "poster": "https://image.tmdb.org/t/p/w500/59x4ldIjTIw9xQ7woVGorqtMGLh.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qUXPIxbH1TxyPI0ZO7QCHqiSTH9.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:335638",
-      "type": "series",
-      "name": "Kathay Kathay Jibon Podcast",
-      "poster": "https://image.tmdb.org/t/p/w500/g4spZKRP0hFmJdeOqw5z5ALwtjm.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uuYTQq7AyhHMMIBU3MJxJhuAiXE.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:333193",
-      "type": "series",
-      "name": "The Great Celebrity Pottery Throw Down",
-      "poster": "https://image.tmdb.org/t/p/w500/mQyuWlgXhsTWUys3gwX9hFFVMvn.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/l04dQlJlpwHZQ8wl7RBESNkt07d.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:315479",
-      "type": "series",
-      "name": "Apocalypse",
-      "poster": "https://image.tmdb.org/t/p/w500/eyceU82Lzx7Wjf4nXIfaQ5bbukJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ptmwiqCFALGf5vLAtLOKi5yZxCM.jpg",
       "releaseInfo": "2026"
     }
   ]

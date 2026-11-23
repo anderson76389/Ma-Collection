@@ -1,11 +1,21 @@
 {
   "metas": [
     {
-      "id": "tmdb:341769",
+      "id": "tmdb:308007",
       "type": "series",
-      "name": "Valentín: La muerte del Gallo de Oro",
-      "poster": "https://image.tmdb.org/t/p/w500/3g4YJsWrUZ5tB3F3g99pcPHCCIX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9bZk0CshPxaYufswVE21ZOpJ3g7.jpg",
+      "name": "The Altruists",
+      "poster": "https://image.tmdb.org/t/p/w500/hiX70sXdvEPVE11QqmLuaX16gdh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/m8JTMj7jDMJFZAPP1ASmSi4gMWi.jpg",
+      "description": "Jeunes, idéalistes et soudain milliardaires, ils voulaient faire le bien... avant de se pousser au pire. Un amour toxique sur fond d'escroquerie réelle.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:335981",
+      "type": "series",
+      "name": "Le Cinéma selon Cunk",
+      "poster": "https://image.tmdb.org/t/p/w500/zrrRRvavkLQupkC6aEkdA8sX4E8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3NA7FxkqAaG1buZC1WtdPDpMlZg.jpg",
+      "description": "Dans cette série mockumentaire espiègle, Philomena Cunk part à la découverte de l'histoire du cinéma, sans manquer de laisser plusieurs experts perplexes en chemin.",
       "releaseInfo": "2026"
     },
     {
@@ -30,7 +40,7 @@
       "id": "tmdb:291507",
       "type": "series",
       "name": "The Body",
-      "poster": "https://image.tmdb.org/t/p/w500/swEOVOmkYtTg3UBStrvt1yZJm26.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/pi1hkk70TvHSSSenNFkryRPb0nG.jpg",
       "background": "https://image.tmdb.org/t/p/w780/hYJqUoXRZnodGxgVZTM8uwr5kbC.jpg",
       "description": "Le soir d'Halloween, un rite d'initiation vire au cauchemar, faisant basculer une troupe de danseuses dans la culpabilité catholique, les désirs impies et les visions étranges.",
       "releaseInfo": "2026"
@@ -49,7 +59,7 @@
       "type": "series",
       "name": "The Greatest",
       "poster": "https://image.tmdb.org/t/p/w500/rCYv5ZKtiwqNCRtHDoDA7kgoi9X.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/b57tPAE2rpUoNpa63o7U2sFvIZs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/baMHKUmvzRFp34hZ21TYPLw2HG4.jpg",
       "description": "Tout juste médaillé d'or aux JO de 1960, le jeune boxeur Muhammad Ali (alors Cassius Clay) vise le titre de champion poids lourd. Face à une nouvelle célébrité, les doutes, le conflit familial et une Amérique politisée, le prodige exceptionnel découvre que son plus grand adversaire n'est pas sur le ring, mais dans une société qui n'est pas prête à ce qu'il devienne son propre maître.",
       "releaseInfo": "2026"
     },
@@ -166,16 +176,7 @@
       "type": "series",
       "name": "Treasure Island",
       "poster": "https://image.tmdb.org/t/p/w500/xZQ5ABJF1iLjGq9xR4MthpgQEFF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/grC6bTUTeVvjZ2orztjItUxM4yy.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:284833",
-      "type": "series",
-      "name": "Avatar : Les Sept Refuges",
-      "poster": "https://image.tmdb.org/t/p/w500/yfUFI7fIDcdA01Ej5Rwfv2OEH8O.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/t2KFGH07Al4XuIZLHRlF1Hj9IJB.jpg",
-      "description": "Après une catastrophe planétaire, une jeune maîtresse de la terre découvre qu'elle est l'Avatar succédant à Korra. Désormais considérée comme un présage de fin du monde, elle se lance dans une course contre-la-montre pour sauver les Sept Refuges.",
+      "background": "https://image.tmdb.org/t/p/w780/5vq3s6js8xkKKa8dudCclr9Xs6z.jpg",
       "releaseInfo": "2026"
     }
   ]

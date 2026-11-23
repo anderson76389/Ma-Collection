@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:1544126",
+      "type": "movie",
+      "name": "Il rumore delle cose nuove",
+      "poster": "https://image.tmdb.org/t/p/w500/2Wq59OquoiAmgs1A86FfJcnzxfs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ltkrt9Urr2xbBnxOEYHjPtbzBLu.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1583853",
       "type": "movie",
       "name": "Se domani non torno",
@@ -119,7 +127,7 @@
       "id": "tmdb:1511358",
       "type": "movie",
       "name": "Innamorarsi e altre pessime idee",
-      "poster": "https://image.tmdb.org/t/p/w500/dHNhObz0STAR5Vg0TNMQzGWZiI1.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/zZX5pathBOxIb3wo4MuW1gsIM5J.jpg",
       "background": "https://image.tmdb.org/t/p/w780/AdHGnraPb21ubQL8fgQx78PJPra.jpg",
       "releaseInfo": "2026"
     },
@@ -154,14 +162,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/7Zyx2JDEnU3PCfch0fn3A0dc8FE.jpg",
       "background": "https://image.tmdb.org/t/p/w780/bWvGtxd3a6wW7ocQPlYza3ycpxk.jpg",
       "description": "En Toscane, dans les collines viticoles baignées de soleil de Belvedere, Elisa consacre sa vie au vignoble familial. Contrairement aux autre femmes de la région, Elisa n'a pas besoin d'une âme sœur. Sa fille, sa terre et son héritage sont ses remparts. Pourtant, quand Michele, son ami d'enfance, revient à Belvedere après des années d'absence, ces remparts s'effritent. Tandis que la période des vendanges approche, et que la ville est en effervescence, Elisa se retrouve face à un choix impossible.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1407548",
-      "type": "movie",
-      "name": "Illusione",
-      "poster": "https://image.tmdb.org/t/p/w500/rxDFV66LmAtvz61JeFwdUJGG7dv.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lM1g1QORjaPcYE0zqrWxIXUgLOK.jpg",
       "releaseInfo": "2026"
     }
   ]

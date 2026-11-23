@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:332205",
+      "type": "series",
+      "name": "Small Town Trouble: Texas",
+      "poster": "https://image.tmdb.org/t/p/w500/vZ7UAWBmSxSaBtk8weABX0oqC01.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/54OIzxOag4gmFdhXz4GIerPfcuq.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:318955",
       "type": "series",
       "name": "In the City",

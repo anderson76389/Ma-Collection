@@ -46,6 +46,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:311842",
+      "type": "series",
+      "name": "FX Fighter Kurumi-chan",
+      "poster": "https://image.tmdb.org/t/p/w500/6Tf1ETXseEoNAMyofy3aRoJtqaR.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qFELvRyy0C0vxYcKBQEX7BDe4vO.jpg",
+      "description": "De jeunes étudiantes insouciantes se lancent dans le trading de devises dans l’espoir de gagner facilement de l’argent. Mais à mesure que les graphiques fluctuent, elles découvrent que la spéculation peut devenir une aventure aussi grisante que dangereuse.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:289324",
       "type": "series",
       "name": "Star Wars : Visions Présente - Le Neuvième Jedi",
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/pmKGSvCKL3qh9iyLYVlnYP0eguT.jpg",
       "background": "https://image.tmdb.org/t/p/w780/2ZiCNiuOiUGfAF0j73RI8DX1Z1N.jpg",
       "description": "Il y a fort longtemps, la petite sirène Lara a quitté la mer par amour pour un prince humain vivant sur la terre ferme. Mais son souhait n’a pas pu se réaliser et elle est transformée en écume. Deux cents ans plus tard, Lara se réveille une nouvelle fois, dans le lac Biwa, pour enfin partir à la recherche de son véritable amour.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:284581",
-      "type": "series",
-      "name": "The Insipid Prince's Furtive Grab for the Throne",
-      "poster": "https://image.tmdb.org/t/p/w500/etpSosywRvOO8mds61uv3aSjhDF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rbxKqzKkw9zrO9lKgqvXHOo4sZo.jpg",
-      "description": "Arnold est un prince mollasson que tout l'empire ridiculise en le qualifiant d' « insipide ». En réalité, il est le prince le plus puissant du royaume. Il officie secrètement sous le nom de Silver, un aventurier de rang SS capable de manier une magie ancienne interdite ! À présent, il s'intéresse à l'accession au trône et se sent prêt à sortir de l'ombre…",
       "releaseInfo": "2026"
     }
   ]

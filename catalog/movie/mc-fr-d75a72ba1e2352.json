@@ -126,15 +126,6 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:1507275",
-      "type": "movie",
-      "name": "La Pat' Patrouille : La Mission de Noël",
-      "poster": "https://image.tmdb.org/t/p/w500/dZpH8UEQD2743cMOPjXqNCg7bWv.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/32mjpsITLwEQcvqKuMBGyajN18h.jpg",
-      "description": "C’est l’effervescence dans la Grande Vallée, car c’est bientôt Noël ! Toute la Pat’ Patrouille se réjouit, décorations et gâteaux sont en préparation, et chacun rêve à ses futurs cadeaux. Ruben a hâte de fêter Noël et de recevoir sa perceuse à rayon laser.  Avant les festivités, nos chiens préférés partent en mission. Ils doivent aider Madame Goodway à finir de décorer le sapin sur la place de la Mairie. Monsieur Hellinger, quant à lui, a horreur de cette période ! Le Père Noël considère qu’il n’est pas sage, il s’attend donc à ne pas recevoir de cadeaux. Or, après avoir tenté de saboter le grand sapin, il apprend que le père Noël a un rhume. Il décide alors de partir au pôle Nord afin de voler tous les cadeaux et les garder pour lui ! Le vilain maire va même manipuler Ruben pour l’entraîner avec lui et se servir de son bulldozer.",
-      "releaseInfo": "2025"
-    },
-    {
       "id": "tmdb:1280282",
       "type": "movie",
       "name": "Gabby et la Maison Magique - Le Film",
@@ -177,6 +168,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/AozMgdALZuR1hDPZt2a1aXiWmL4.jpg",
       "background": "https://image.tmdb.org/t/p/w780/538U9snNc2fpnOmYXAPUh3zn31H.jpg",
       "description": "Ethan Hunt se rend à Londres avec son équipe dans l'espoir de remonter la piste du mystérieux Gabriel, qu'il a affronté deux mois auparavant à bord de l'Orient-Express et qui détient la clé contrôlant l’intelligence artificielle toute puissante surnommée l'Entité. Adulée par les uns, redoutée par les autres, l’Entité se distingue par sa capacité à prédire toutes les éventualités possibles. Elle connaît parfaitement les forces et faiblesses d’Ethan et de son équipe. Gabriel compte l'utiliser pour mettre en œuvre son plan ultime : annihiler Ethan et son équipe, s’emparer de tous les systèmes de défense planétaires et déclencher la Troisième Guerre mondiale.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1104845",
+      "type": "movie",
+      "name": "Plankton : Le film",
+      "poster": "https://image.tmdb.org/t/p/w500/dHWiUNjt9Msi55dIEl9Vh9PFc2V.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lsgT602GYV8ts97sKH1gWFtQs1k.jpg",
+      "description": "L'histoire d'amour compliquée entre Plankton et sa femme ordinateur vire au chaos quand elle prend position et décide de détruire le monde sans lui.",
       "releaseInfo": "2025"
     }
   ]

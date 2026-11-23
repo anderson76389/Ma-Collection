@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1567605",
+      "type": "movie",
+      "name": "Scrooge",
+      "poster": "https://image.tmdb.org/t/p/w500/9RCnWkVOevfAVuSkYkQOg1k8QvO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/274ahmbkJSzdmcWrWSTu9DFv5rp.jpg",
+      "description": "Ebenezer Scrooge est un vieil homme avare, pingre et solitaire. Bien évidemment, il déteste et méprise Noël et tout ce qui engendre le bonheur. C'est alors qu'il reçoit la visite du fantôme d'un ancien associé ainsi que par les esprits de Noëls du passé, du présent et du futur.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1813355",
       "type": "movie",
       "name": "La Légende de Derry",
@@ -14,7 +23,7 @@
       "type": "movie",
       "name": "Clayface",
       "poster": "https://image.tmdb.org/t/p/w500/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/f1TVhqJJdxMvUsUDuKHS0ekgYkk.jpg",
       "description": "L'ascension fulgurante de Matt Hagen, de gamin des rues de Gotham à star hollywoodienne, est brutalement interrompue lorsqu'un baron du crime le laisse atrocement défiguré. Abandonné de tous et n'ayant plus rien à perdre, Matt se tourne vers un traitement expérimental qui lui rend miraculeusement son apparence... mais altère profondément sa perception de la réalité. Il sombre alors dans une spirale destructrice, consumé par un irrépressible désir de vengeance.",
       "releaseInfo": "2026"
     },
@@ -68,7 +77,7 @@
       "type": "movie",
       "name": "Resident Evil",
       "poster": "https://image.tmdb.org/t/p/w500/pICoWjcKSet6sA3yzxOkP8ChwYI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8R79AZjX1Bt4219Ub3CrRMsPQsW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
       "description": "Bryan, un coursier médical, est en train d'effectuer une livraison lorsqu'une épidémie soudaine se déclare, le forçant à lutter pour sa survie.",
       "releaseInfo": "2026"
     },
@@ -135,6 +144,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1128204",
+      "type": "movie",
+      "name": "Feed",
+      "poster": "https://image.tmdb.org/t/p/w500/nICoMIb6FcHqnrKeO43zKY3w8vT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4ZeaWA6DzFVOjWTi70b9ZAaQktf.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1477712",
       "type": "movie",
       "name": "Ice Cream Man",
@@ -159,24 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/9IKCSvhoKUM6LwD279FxuIvr8OL.jpg",
       "background": "https://image.tmdb.org/t/p/w780/pLyaH6k69OJHnONSmN3R7Peh6HE.jpg",
       "description": "En Thaïlande, cinq amis explorent les grottes de la Bouche du Diable pour une dernière aventure avant de se lancer dans la vie d'adultes. Mais ils découvrent rapidement qu'une chose se met à les traquer sous l'eau… une chose rapide, silencieuse et mortelle. Dans l'obscurité étouffante, la confiance se volatilise, la panique se répand, et chaque erreur se transforme en une lutte pour la survie.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1469342",
-      "type": "movie",
-      "name": "Her Private Hell",
-      "poster": "https://image.tmdb.org/t/p/w500/xFVviOiV7UFYaXucUJdlLw30gyt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hS4FcOM5y71FurkBQgDLTBxmWZh.jpg",
-      "description": "Tandis qu'une étrange brume engloutit une métropole futuriste et libère une présence mortelle insaisissable, une jeune femme troublée part à la recherche de son père. Au cours de cette quête, son destin croise celui d'un GI américain engagé dans un voyage désespéré pour arracher sa fille de l'enfer.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1232569",
-      "type": "movie",
-      "name": "Pinocchio : Déchaîné",
-      "poster": "https://image.tmdb.org/t/p/w500/oru4SubtHlaGXEv9xtMPELYkGZf.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7RsPdXLDNugDIlwXPVeeprNfMx.jpg",
-      "description": "Geppetto présente à son petit-fils, James, une mystérieuse marionnette dotée d'une âme nommée Pinocchio. Ignorant la nature naïve et imprévisible de celle-ci, James fait découvrir le monde extérieur à son nouvel ami. Sous la guidance de Cricket, Pinocchio se lance alors dans une quête sanglante pour éradiquer tout ce qu'il considère comme mauvais et devenir un véritable petit garçon.",
       "releaseInfo": "2026"
     }
   ]

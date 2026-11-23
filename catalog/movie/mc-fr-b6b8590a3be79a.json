@@ -36,6 +36,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1559984",
+      "type": "movie",
+      "name": "My Weird School",
+      "poster": "https://image.tmdb.org/t/p/w500/aNQ0ZaF5g2VIq4CXU1VswPFWsx5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xXKMcz8m9E3x7fMhKpu9nZYZ1py.jpg",
+      "description": "Un collégien fait équipe avec des professeurs et des amis pour contrecarrer une invasion extraterrestre...",
+      "releaseInfo": "2025"
+    },
+    {
       "id": "tmdb:1566269",
       "type": "movie",
       "name": "La première neige de Fraggle Rock",
@@ -168,15 +177,6 @@
       "background": "https://image.tmdb.org/t/p/w780/x8Kdi1OJbewkeGuijcSmUWrYyk2.jpg",
       "description": "Après avoir quitté Swellview, Henry devient le héros local de Dystopia. Alors que la célébrité commence à peser sur lui, il rencontre Missy Martin, une superfan enthousiaste désireuse de combattre le crime à ses côtés. Missy entre en possession d'un appareil capable d'ouvrir des réalités alternatives, entraînant Henry et son meilleur ami Jasper dans une aventure à travers différentes dimensions. Ils doivent trouver un moyen de revenir à Dystopia, sous peine de rester coincés dans une autre dimension pour toujours.",
       "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:939243",
-      "type": "movie",
-      "name": "Sonic 3, le film",
-      "poster": "https://image.tmdb.org/t/p/w500/gERwLGTa6JGN4qXjkip13eDaxy1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zOpe0eHsq0A2NvNyBbtT6sj53qV.jpg",
-      "description": "Sonic, Knuckles et Tails sont à nouveau réunis face à un puissant nouvel adversaire, Shadow, un mystérieux vilain doté de pouvoirs comme ils n'en ont encore jamais vu. Leurs habiletés étant toutes surclassées, l'Équipe Sonic doit tenter une alliance improbable dans l'espoir d'arrêter Shadow et de protéger la planète.",
-      "releaseInfo": "2024"
     }
   ]
 }

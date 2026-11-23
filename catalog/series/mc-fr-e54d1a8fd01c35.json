@@ -6,7 +6,7 @@
       "name": "JoJo's Bizarre Adventure",
       "poster": "https://image.tmdb.org/t/p/w500/2Sc0veFPh9CcHMtNqMyiQqIW9ZF.jpg",
       "background": "https://image.tmdb.org/t/p/w780/l2gc2dPRUPe3bAfYCRTjc6uAMmB.jpg",
-      "description": "L’histoire sur des décennies des aventures étranges de la famille Joestar et de leur destin entremêlé face à Dio, leur ennemi juré et l'héritage de ce dernier. Chaque illustre membre est surnommé Jojo, un nom composé de la contraction des premières syllabes de leur nom et prénom et un tatouage en forme d'étoile à la base du cou. Ils ont tous la particularité de développer des capacités hors du commun, d’abord le hamon, puis le stand, la représentation physique de leur esprit combatif.\n\nA partir de Steel Ball Run, l’histoire repart à zéro et suit les aventures de Johnny Joestar, un jockey paraplégique qui concourt à la Steel Ball Run, une course qui relie San Diego à New York afin de remporter le premier prix et de donner un sens à sa vie. Mais sa rencontre avec Gyro Zeppeli, un concurrent armé de ses étranges sphères d’aciers bouleversera son existence. Mais la course cache un objectif plus grand qui les feront affronter des adversaires dotés de stands imprévisibles et dangereux.",
+      "description": "L’histoire sur des décennies des aventures étranges de la famille Joestar, de leur destin lié à Dio, leur ennemi juré et l'héritage de ce dernier. Chaque illustre membre est surnommé Jojo, un nom composé de la contraction des mêmes syllabes de leur nom et prénom et possède un tatouage en forme d'étoile à la base du cou. Ils ont tous la particularité de développer des pouvoirs hors du commun, d’abord le hamon, puis le stand, la représentation physique de leur esprit combatif.\n\nA partir de Steel Ball Run, l’histoire repart à zéro et suit les aventures de Johnny Joestar, un jockey paraplégique qui concourt à la Steel Ball Run, une course reliant San Diego et New York afin de remporter le premier prix et de donner un sens à sa vie. Mais sa rencontre avec Gyro Zeppeli, un concurrent armé d'étranges sphères d’aciers bouleversera son existence. Surtout, la course cache un objectif plus grand qui les feront affronter des adversaires dotés de stands imprévisibles et dangereux.",
       "releaseInfo": "2012"
     },
     {
@@ -72,6 +72,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:335194",
+      "type": "series",
+      "name": "Magical Explorer",
+      "poster": "https://image.tmdb.org/t/p/w500/b9LtxUfUrhsuq8lYvlhXq2I5gAw.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oxS6i62MRfIeXFKN2F3uEipKwt7.jpg",
+      "description": "Réincarné dans son jeu « bishojo » préféré, Kousuke se retrouve affublé du pire rôle qui soit : celui d’un acolyte insignifiant. Mais fort de sa connaissance du jeu et de la plus grande réserve de mana de ce monde, il pourrait bien finir par surpasser le héros ! Kousuke doit désormais réécrire son destin et se frayer un chemin à coups d’épée vers les fins heureuses des héroïnes !",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:283692",
       "type": "series",
       "name": "Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!",
@@ -90,22 +99,13 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:305313",
+      "id": "tmdb:230050",
       "type": "series",
-      "name": "Romelia War Chronicle",
-      "poster": "https://image.tmdb.org/t/p/w500/2wqyITVWs1wZMih2VraylRjqzCo.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6LeBjYSPULKwSv5R6sX6Iovwoad.jpg",
-      "description": "Sa victoire sur le Roi-Démon aurait dû être le triomphe de Romélia. Au lieu de cela, son fiancé, le prince Henri, rompt leurs fiançailles et la renvoie dans une province en ruines. Mais Romélia ne se laisse pas abattre. Elle jure de lever une armée, de reconstruire le royaume et ce, malgré des conflits qui continuent. Son histoire ne fait que commencer…",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:335194",
-      "type": "series",
-      "name": "Magical Explorer",
-      "poster": "https://image.tmdb.org/t/p/w500/b9LtxUfUrhsuq8lYvlhXq2I5gAw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/oxS6i62MRfIeXFKN2F3uEipKwt7.jpg",
-      "description": "Réincarné dans son jeu « bishojo » préféré, Kousuke se retrouve affublé du pire rôle qui soit : celui d’un acolyte insignifiant. Mais fort de sa connaissance du jeu et de la plus grande réserve de mana de ce monde, il pourrait bien finir par surpasser le héros ! Kousuke doit désormais réécrire son destin et se frayer un chemin à coups d’épée vers les fins heureuses des héroïnes !",
-      "releaseInfo": "2026"
+      "name": "A Returner's Magic Should Be Special",
+      "poster": "https://image.tmdb.org/t/p/w500/yiuyTrTGJe4I4XFgI652qSeB6Yn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2KKDIwALX3HJWCjeDnvLa3Ag6ki.jpg",
+      "description": "Sur une terre dominée par le redoutable Labyrinthe des Ombres, la majeure partie de l'humanité a été anéantie. Pour sauver leur planète d'une catastrophe imminente, six courageux héros livrent une bataille périlleuse... et échouent. Mais une lueur d'espoir apparaît lorsque Désir, l'un des derniers mages, est soudain renvoyé treize ans en arrière ! Désormais armé de la connaissance de ce sinistre futur, pourra-t-il changer le cours de l'histoire et ainsi sauver le monde ?",
+      "releaseInfo": "2023"
     },
     {
       "id": "tmdb:321518",
@@ -117,48 +117,12 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:230050",
+      "id": "tmdb:305313",
       "type": "series",
-      "name": "A Returner's Magic Should Be Special",
-      "poster": "https://image.tmdb.org/t/p/w500/yiuyTrTGJe4I4XFgI652qSeB6Yn.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2KKDIwALX3HJWCjeDnvLa3Ag6ki.jpg",
-      "description": "Sur une terre dominée par le redoutable Labyrinthe des Ombres, la majeure partie de l'humanité a été anéantie. Pour sauver leur planète d'une catastrophe imminente, six courageux héros livrent une bataille périlleuse... et échouent. Mais une lueur d'espoir apparaît lorsque Désir, l'un des derniers mages, est soudain renvoyé treize ans en arrière ! Désormais armé de la connaissance de ce sinistre futur, pourra-t-il changer le cours de l'histoire et ainsi sauver le monde ?",
-      "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:286361",
-      "type": "series",
-      "name": "Magical Sisters Lulu & Lilly",
-      "poster": "https://image.tmdb.org/t/p/w500/1lziKy50ykj6T5blCMnrQweB7HW.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8z6AOYD2nofxafAZDhuzkQQFdnC.jpg",
-      "description": "Deux sœurs devenues distantes obtiennent des pouvoirs magiques temporaires et deviennent des idols secrètes, sans savoir que l’autre vit la même vie.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:297903",
-      "type": "series",
-      "name": "PSYREN",
-      "poster": "https://image.tmdb.org/t/p/w500/TyohYN5o2dLfkBurnISpBl0TLe.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qRgXreXNyUO30yAniTckVAho2va.jpg",
-      "description": "Ageha est dégoûté par notre monde et rêve d’une vie meilleure. Un soir, il trouve une étrange carte rouge sur laquelle il est écrit Psyren. Il s’agirait d’une société secrète à l’origine de nombreux enlèvements.\n\nPeu après, l’une de ses camarades, qui semblait connaître cette société, disparaît devant ses yeux. Ageha décide alors de la sauver : il utilise la carte rouge et se retrouve soudainement projeté dans un monde parallèle. A présent, Ageha doit lutter pour survivre et arriver jusqu’au bout du jeu, car c’est le seul moyen pour lui de retrouver son monde originel, qui n’est peut-être pas si horrible que ça finalement.\n\nDans cette entreprise, il n’est pas seul. D’autres personnes sont dans la même galère. Et c’est ensemble, qu’ils vont affronter le danger et peut-être même le vaincre…",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:307585",
-      "type": "series",
-      "name": "Quatre frères pour moi !",
-      "poster": "https://image.tmdb.org/t/p/w500/sFSwNfxWxDGAjfbbzEJYz9BUIbC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/YZQGBP5nXPG3JjLoccdA13Oeea.jpg",
-      "description": "Ito Narita découvre une nouvelle famille lorsque sa mère se remarie. En effet, son beau-père a quatre fils : Gen, l'aîné, mais aussi Raku, Shu et enfin Rui, plus jeune. Du jour au lendemain, elle devient leur grande sœur mais elle a du mal à se faire accepter en tant que tel.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:285899",
-      "type": "series",
-      "name": "A Tale of the Secret Saint",
-      "poster": "https://image.tmdb.org/t/p/w500/4WfTtcDLBycYQzryGYwZRpyxBvZ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wpNi39uaat5A1VhaVpdcQlKuMB5.jpg",
-      "description": "Fia a toujours rêvé de devenir une grande chevalière, même si elle ne manie pas très bien l'épée. Mais tandis qu'elle est à l'article de la mort, un combat réveille en elle des souvenirs de sa vie antérieure : celle de la sainte légendaire qui avait vaincu le roi des démons. Ses pouvoirs lui reviennent, mais ses anciens ennemis refont également surface.",
+      "name": "Romelia War Chronicle",
+      "poster": "https://image.tmdb.org/t/p/w500/2wqyITVWs1wZMih2VraylRjqzCo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6LeBjYSPULKwSv5R6sX6Iovwoad.jpg",
+      "description": "Sa victoire sur le Roi-Démon aurait dû être le triomphe de Romélia. Au lieu de cela, son fiancé, le prince Henri, rompt leurs fiançailles et la renvoie dans une province en ruines. Mais Romélia ne se laisse pas abattre. Elle jure de lever une armée, de reconstruire le royaume et ce, malgré des conflits qui continuent. Son histoire ne fait que commencer…",
       "releaseInfo": "2026"
     },
     {
@@ -171,12 +135,48 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:285899",
+      "type": "series",
+      "name": "A Tale of the Secret Saint",
+      "poster": "https://image.tmdb.org/t/p/w500/4WfTtcDLBycYQzryGYwZRpyxBvZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wpNi39uaat5A1VhaVpdcQlKuMB5.jpg",
+      "description": "Fia a toujours rêvé de devenir une grande chevalière, même si elle ne manie pas très bien l'épée. Mais tandis qu'elle est à l'article de la mort, un combat réveille en elle des souvenirs de sa vie antérieure : celle de la sainte légendaire qui avait vaincu le roi des démons. Ses pouvoirs lui reviennent, mais ses anciens ennemis refont également surface.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:307585",
+      "type": "series",
+      "name": "Quatre frères pour moi !",
+      "poster": "https://image.tmdb.org/t/p/w500/sFSwNfxWxDGAjfbbzEJYz9BUIbC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/YZQGBP5nXPG3JjLoccdA13Oeea.jpg",
+      "description": "Ito Narita découvre une nouvelle famille lorsque sa mère se remarie. En effet, son beau-père a quatre fils : Gen, l'aîné, mais aussi Raku, Shu et enfin Rui, plus jeune. Du jour au lendemain, elle devient leur grande sœur mais elle a du mal à se faire accepter en tant que tel.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:286361",
+      "type": "series",
+      "name": "Magical Sisters Lulu & Lilly",
+      "poster": "https://image.tmdb.org/t/p/w500/1lziKy50ykj6T5blCMnrQweB7HW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8z6AOYD2nofxafAZDhuzkQQFdnC.jpg",
+      "description": "Deux sœurs devenues distantes obtiennent des pouvoirs magiques temporaires et deviennent des idols secrètes, sans savoir que l’autre vit la même vie.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:316694",
       "type": "series",
       "name": "Reborn Goblin",
       "poster": "https://image.tmdb.org/t/p/w500/5uH40zb9kyDSvDwCdUApK0vDY1S.jpg",
       "background": "https://image.tmdb.org/t/p/w780/3knNVqZlEdwYPwYBWQechjvRzx0.jpg",
       "description": "Les gentils finissent toujours derniers : personne ne le sait mieux qu'Akira Yagami, un employé de bureau qui perd la vie après avoir sauvé un enfant. Mais il se réincarne dans un autre monde en tant que gobelin ! Normalement, ces créatures ne vivent que sept jours, mais Akira possède un pouvoir lui offrant quatre-vingts ans pour laisser son empreinte sur ce monde !",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:297903",
+      "type": "series",
+      "name": "PSYREN",
+      "poster": "https://image.tmdb.org/t/p/w500/TyohYN5o2dLfkBurnISpBl0TLe.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qRgXreXNyUO30yAniTckVAho2va.jpg",
+      "description": "Ageha est dégoûté par notre monde et rêve d’une vie meilleure. Un soir, il trouve une étrange carte rouge sur laquelle il est écrit Psyren. Il s’agirait d’une société secrète à l’origine de nombreux enlèvements.\n\nPeu après, l’une de ses camarades, qui semblait connaître cette société, disparaît devant ses yeux. Ageha décide alors de la sauver : il utilise la carte rouge et se retrouve soudainement projeté dans un monde parallèle. A présent, Ageha doit lutter pour survivre et arriver jusqu’au bout du jeu, car c’est le seul moyen pour lui de retrouver son monde originel, qui n’est peut-être pas si horrible que ça finalement.\n\nDans cette entreprise, il n’est pas seul. D’autres personnes sont dans la même galère. Et c’est ensemble, qu’ils vont affronter le danger et peut-être même le vaincre…",
       "releaseInfo": "2026"
     }
   ]

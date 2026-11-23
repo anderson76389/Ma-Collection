@@ -25,14 +25,6 @@
       "releaseInfo": "2018"
     },
     {
-      "id": "tmdb:1790",
-      "type": "series",
-      "name": "Family Feud",
-      "poster": "https://image.tmdb.org/t/p/w500/2eY3KyYvvjg2jn2ifTGkwdipCAC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zhLrML5jLVIlln5QFZdYHgtmFXr.jpg",
-      "releaseInfo": "1999"
-    },
-    {
       "id": "tmdb:2778",
       "type": "series",
       "name": "Wheel of Fortune",
@@ -40,6 +32,14 @@
       "background": "https://image.tmdb.org/t/p/w780/A6Sp44grqCnvKs5Plhy3oQncUrq.jpg",
       "description": "Ce jeu télévisé voit les concurrents résoudre des énigmes de mots, similaires à celles utilisées dans Hangman, pour gagner de l'argent et des prix déterminés en faisant tourner une roue de carnaval géante.",
       "releaseInfo": "1983"
+    },
+    {
+      "id": "tmdb:1790",
+      "type": "series",
+      "name": "Family Feud",
+      "poster": "https://image.tmdb.org/t/p/w500/2eY3KyYvvjg2jn2ifTGkwdipCAC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zhLrML5jLVIlln5QFZdYHgtmFXr.jpg",
+      "releaseInfo": "1999"
     },
     {
       "id": "tmdb:114439",
@@ -59,13 +59,20 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:97867",
+      "id": "tmdb:113890",
       "type": "series",
-      "name": "Family Feud Canada",
-      "poster": "https://image.tmdb.org/t/p/w500/ohlgnAbNTZYZ0PhsM57HPTJ0pg7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vK8tSeOh7WTkPqLu3kK34U8zmiE.jpg",
-      "description": "Il s'agit de la version canadienne du jeu TV \"Une famille en or\", originaire des Etats-Unis sous le nom de Family Feud. Deux familles composées de cinq membres s'affrontent en donnant leur opinion, sur des questions posées à 100 Canadiens. Le but est de se rapprocher le plus de l'opinion des Canadiens sondés, afin d'amasser un maximum de points pour accéder à la finale et gagner le gros lot !",
-      "releaseInfo": "2019"
+      "name": "Michael McIntyre's The Wheel",
+      "poster": "https://image.tmdb.org/t/p/w500/ezMw1VmX5GJmoBpryecToqk0qm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xoeryDmniAgvLNpAeOn0odRBMQ1.jpg",
+      "releaseInfo": "2020"
+    },
+    {
+      "id": "tmdb:30901",
+      "type": "series",
+      "name": "I'm a Celebrity...Get Me Out of Here!",
+      "poster": "https://image.tmdb.org/t/p/w500/onHYUGm8Cj31ZSN8DIJP7xMIFuC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/w9VkmK2gX1QGjRmswVkN5MSk6Nr.jpg",
+      "releaseInfo": "2002"
     },
     {
       "id": "tmdb:8425",
@@ -76,28 +83,21 @@
       "releaseInfo": "2008"
     },
     {
-      "id": "tmdb:30901",
-      "type": "series",
-      "name": "I'm a Celebrity...Get Me Out of Here!",
-      "poster": "https://image.tmdb.org/t/p/w500/qR0TzFssByXEeLE6Qtg5bjhwAfq.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qXO5XccFiHHWaZRolJPfZEUFHL9.jpg",
-      "releaseInfo": "2002"
-    },
-    {
-      "id": "tmdb:113890",
-      "type": "series",
-      "name": "Michael McIntyre's The Wheel",
-      "poster": "https://image.tmdb.org/t/p/w500/ezMw1VmX5GJmoBpryecToqk0qm.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xoeryDmniAgvLNpAeOn0odRBMQ1.jpg",
-      "releaseInfo": "2020"
-    },
-    {
       "id": "tmdb:204031",
       "type": "series",
       "name": "Make Some Noise",
       "poster": "https://image.tmdb.org/t/p/w500/e8S4BWVO3mMaTaiUD7qY6xDyXl7.jpg",
       "background": "https://image.tmdb.org/t/p/w780/1t9A8gLUO8mcxczGqEti8Zjw6X2.jpg",
       "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:234613",
+      "type": "series",
+      "name": "Les Traîtres (Canada)",
+      "poster": "https://image.tmdb.org/t/p/w500/6mrgzGZIZuAN6tx1lPxL0iWtx56.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/sexNBB5fScor0mpzJaiHfe0olSD.jpg",
+      "description": "Vingt inconnus arrivent dans un manoir pour participer à un jeu de rôle policier.",
+      "releaseInfo": "2023"
     },
     {
       "id": "tmdb:231730",
@@ -116,29 +116,12 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:234613",
+      "id": "tmdb:116129",
       "type": "series",
-      "name": "Les Traîtres (Canada)",
-      "poster": "https://image.tmdb.org/t/p/w500/6mrgzGZIZuAN6tx1lPxL0iWtx56.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/sexNBB5fScor0mpzJaiHfe0olSD.jpg",
-      "description": "Vingt inconnus arrivent dans un manoir pour participer à un jeu de rôle policier.",
-      "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:222876",
-      "type": "series",
-      "name": "Tempting Fortune",
-      "poster": "https://image.tmdb.org/t/p/w500/yhnpqfTJxjSktkVltzqC88KftOz.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ktgr4eSQpKCVeP2ExoiVDZsWwgV.jpg",
-      "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:261108",
-      "type": "series",
-      "name": "Scrabble",
-      "poster": "https://image.tmdb.org/t/p/w500/rPyOMo2sAgntdUdnRY4hnfvgMIa.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bKwYqjPolMhtbc0eMFbYoy0VNJy.jpg",
-      "releaseInfo": "2024"
+      "name": "Lingo",
+      "poster": "https://image.tmdb.org/t/p/w500/a06fDRQsDOatU8tfs7GvdIDx0JS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6f6ZeGZK9p11d6v5gpFwkbkrfXF.jpg",
+      "releaseInfo": "2021"
     }
   ]
 }

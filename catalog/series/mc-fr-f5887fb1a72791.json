@@ -10,15 +10,6 @@
       "releaseInfo": "2009"
     },
     {
-      "id": "tmdb:10222",
-      "type": "series",
-      "name": "Les Real Housewives d'Orange County",
-      "poster": "https://image.tmdb.org/t/p/w500/wleWUf4gIE8Fr1PS4z9hwQAaLb1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2XbOP8P0exW8PgcMnE8DIGTYSUS.jpg",
-      "description": "Vous pensiez que pour les Real Housewives, tout n'était que calme, luxe et volupté ? Détrompez-vous ! Entre extravagances en tous genres, scandales et disputes, bienvenue dans la vie privée de l'élite sud-californienne d'Orange County...",
-      "releaseInfo": "2006"
-    },
-    {
       "id": "tmdb:14808",
       "type": "series",
       "name": "Les Real Housewives de New York",
@@ -69,6 +60,14 @@
       "name": "Still Flipping Out",
       "poster": "https://image.tmdb.org/t/p/w500/kQFp9NnbyVTLRMjCtbpqKJgsQRb.jpg",
       "background": "https://image.tmdb.org/t/p/w780/c3ONhXmAmsdhwh7VvsN7Pa41o6w.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:332205",
+      "type": "series",
+      "name": "Small Town Trouble: Texas",
+      "poster": "https://image.tmdb.org/t/p/w500/vZ7UAWBmSxSaBtk8weABX0oqC01.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/54OIzxOag4gmFdhXz4GIerPfcuq.jpg",
       "releaseInfo": "2026"
     }
   ]

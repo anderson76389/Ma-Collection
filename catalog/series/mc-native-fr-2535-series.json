@@ -151,15 +151,6 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:274562",
-      "type": "series",
-      "name": "Enchaînés",
-      "poster": "https://image.tmdb.org/t/p/w500/60Rtiakd4ExoTawENYwOPZXKpT6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vyaQUV5yryltywtaQUz2KRAWtCk.jpg",
-      "description": "1806 - Ile de la Réunion. Après le passage d’un cyclone meurtrier, la plantation de Charles Bellevue est dévastée. Ruiné, il n’a d’autre choix que de céder ses terres. Ses esclaves redoutent d’être vendus et séparés les uns des autres. Parmi eux, un homme, Isaac, refuse d’être abandonné à son sort. Isaac vient en effet d’apprendre que Charles Bellevue n’est pas seulement son maître. C’est aussi son père.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:320684",
       "type": "series",
       "name": "Tchernobyl, une tragédie sans fin",
@@ -175,6 +166,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/LOYdGRtPCVrqkqP5R8O3gW5f3J.jpg",
       "background": "https://image.tmdb.org/t/p/w780/9AnqM0TJpscv1nXJbtlWExRQtgz.jpg",
       "description": "L’été s’annonce brûlant à Biarritz ! Le capitaine Alex Cerutti, flic à la PJ parisienne et ancien GO au Club Med, débarque en renfort pour la Haute Saison. La mer est bleue, le sable est chaud, pourtant ce ne sont pas des vacances. Chaque été, les crimes se multiplient par dix, transformant la côte en vaste terrain d’enquête.\n\nAux côtés de Lisa, Pascal, Mélusine et Timothée, une équipe venue d’un peu partout en France avec laquelle il vit en colocation dans un club de vacances, Alex va devoir résoudre des affaires inédites : un parapente saboté, un nudiste étranglé, quand ce ne sont pas des joueurs de pétanque suspects… Que ce soit la journée sur le terrain ou le soir au barbecue, pas une seconde de répit pour cette brigade hétéroclite mais complémentaire. La haute saison, ce ne sont pas les vacances !",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:320494",
+      "type": "series",
+      "name": "Les Enquêtes de Lady Grace",
+      "poster": "https://image.tmdb.org/t/p/w500/gFuywgTzxCB5fHkLcVFXm6o3IA2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tscWaivOYe22wlbvMecIFXY1nG0.jpg",
+      "description": "L'histoire de Lady Grace Cavendish, la première détective adolescente, travaillant comme espionne privée pour la reine Elizabeth I et naviguant dans les eaux dangereuses de la politique royale, dans une cour anglaise pleine de complots, de menaces et de mystères.",
       "releaseInfo": "2026"
     }
   ]

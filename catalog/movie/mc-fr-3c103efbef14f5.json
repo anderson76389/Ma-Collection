@@ -1,12 +1,30 @@
 {
   "metas": [
     {
+      "id": "tmdb:1131943",
+      "type": "movie",
+      "name": "Madden",
+      "poster": "https://image.tmdb.org/t/p/w500/1D1U38gOkfOhahH3yfmfHUXqD76.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lRsapglJZIyMfGl8oQyNASlZqDC.jpg",
+      "description": "Inspiré de la vie d'une icône américaine, MADDEN retrace le parcours de John Madden : de son duo victorieux avec Al Davis chez les Raiders à son rôle de voix emblématique du football, jusqu'à la création du jeu vidéo mythique Madden NFL. Ce film rend hommage à un esprit brillant dont la passion débordante et la complicité avec son épouse Virginia ont dépassé le simple cadre du sport.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1286656",
       "type": "movie",
       "name": "I Play Rocky",
-      "poster": "https://image.tmdb.org/t/p/w500/xE5tY3lppZUyG7WKKThsuYHuAHr.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/jKW6b89n5EGbJXtxTZYBcDHLpYg.jpg",
       "background": "https://image.tmdb.org/t/p/w780/1lnnjBCRLZzKRhQipK5zm61YkPe.jpg",
       "description": "Un acteur en difficulté avec un visage partiellement paralysé et un trouble de l’élocution écrit un scénario qu’un grand studio de cinéma veut acheter. Mais l’acteur refuse de le vendre à moins de pouvoir jouer le rôle principal. Refusant une offre d’argent qui pourrait changer sa vie, il travaille pour des centimes afin que le film soit réalisé avec lui dans le rôle principal.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1050981",
+      "type": "movie",
+      "name": "Being Heumann",
+      "poster": "https://image.tmdb.org/t/p/w500/9Wi0fxpo1e7Wn2cGVNu7niwdEP2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/25aB8RXP4mfQLFRSuEEhk0d0sTC.jpg",
+      "description": "Débrouillarde, défiant l'autorité et fatiguée d'être traitée comme un fardeau, Judy Heumann transforme son indignation en révolution. En 1977, cette dernière et plus de 100 manifestants luttant pour les droits des personnes handicapées envoient un message très clair : le système est défaillant, pas nous.",
       "releaseInfo": "2026"
     },
     {
@@ -32,7 +50,7 @@
       "type": "movie",
       "name": "By Any Means",
       "poster": "https://image.tmdb.org/t/p/w500/evCy2B3j57AwSNBZqlePjMl3zj3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nw9Q3idNO8EsTPnvr8vBJTpkWGA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1jANqIbqrWJZb8GM5Kb3L6U8iHi.jpg",
       "description": "Un jeune agent noir du FBI est envoyé au Mississippi dans les années 60 afin d’enquêter sur une vague de meurtres brutaux visant des leaders du mouvement des droits civiques. Contraint de faire équipe avec le célèbre tueur à gages de la mafia Greg Scarpa, il se retrouve entraîné dans une traque meurtrière où la frontière entre justice et vengeance devient de plus en plus floue.",
       "releaseInfo": "2026"
     },
@@ -58,7 +76,7 @@
       "id": "tmdb:1318413",
       "type": "movie",
       "name": "Pressure",
-      "poster": "https://image.tmdb.org/t/p/w500/3Dp1V6QHzrlSYlTlGZwHx7uPrR7.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/mpjTX0wFjm16BqCWUJusDVRoiad.jpg",
       "background": "https://image.tmdb.org/t/p/w780/apfyLCPVFttB8oXcsLJ7q0NSFLx.jpg",
       "description": "Dans les 72 heures précédant le jour J, alors que le destin du monde libre est en jeu, le général Dwight D. Eisenhower et le capitaine James Stagg sont confrontés à un choix impossible : lancer la plus vaste et la plus périlleuse invasion maritime de l'histoire, ou risquer de perdre la guerre.",
       "releaseInfo": "2026"
@@ -84,8 +102,8 @@
     {
       "id": "tmdb:898704",
       "type": "movie",
-      "name": "לוחם המדבר",
-      "poster": "https://image.tmdb.org/t/p/w500/waxnw1NpzTPY5JkqWvu0muSopRJ.jpg",
+      "name": "Desert Warrior",
+      "poster": "https://image.tmdb.org/t/p/w500/nqpBWqXqK5y0RczF5efEp1BNQ2H.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ohlNSR8MsHk5e6fcAxqAJmcz4Sm.jpg",
       "description": "Quand une jeune princesse refuse d'être soumise au redoutable empereur Kisra, une bataille éclate de telle sorte qu'elle change la région de l'ancienne Arabie Saoudite à jamais.",
       "releaseInfo": "2026"
@@ -159,24 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/xAGzSQBN1tTGjuaB1njwnkN9Etf.jpg",
       "background": "https://image.tmdb.org/t/p/w780/mZ6J2g6HCV2gj3iuCdSxcyBXq9c.jpg",
       "description": "Des chants du cœur de sa mère aux murmures d'un Dieu fidèle, l'histoire de David commence dans une dévotion silencieuse. Lorsque le géant Goliath se lève pour terroriser une nation, un jeune berger armé uniquement d'une fronde, de quelques pierres et d'une foi inébranlable s'avance. Poursuivi par le pouvoir et animé par un but précis, son parcours met à l'épreuve les limites de la loyauté, de l'amour et du courage, et culmine dans une bataille qui ne vise pas seulement la couronne, mais aussi l'âme d'un royaume.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1322692",
-      "type": "movie",
-      "name": "Saipan",
-      "poster": "https://image.tmdb.org/t/p/w500/5Af6vLWQk8gj5099GhgpgY0jCiu.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/66goUG18qJdtbnJ7R4HIsibUMKI.jpg",
-      "description": "Avant la Coupe du Monde de la FIFA 2002, le capitaine irlandais Roy Keane quitte l'équipe à leur camp d'entraînement à Saipan après une dispute houleuse avec le sélectionneur Mick McCarthy.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1159539",
-      "type": "movie",
-      "name": "Peter Hujar's Day",
-      "poster": "https://image.tmdb.org/t/p/w500/awq1O9RRi6JW74fDmGXJJGD5le8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ickUXG5jIuBmjgiLIjseX8nlm6M.jpg",
-      "description": "En décembre 1974, l’écrivaine Linda Rosenkrantz et le photographe Peter Hujar enregistrent une conversation dans l’appartement new-yorkais de cette dernière, alors qu’elle travaille sur un projet de livre qui consiste à demander à des artistes de raconter leur journée de la veille. Leur échange révèle un aperçu de la scène artistique new-yorkaise et des luttes personnelles qui ont jalonné la vie de l’artiste. Célèbre pour son intransigeance, Hujar est considéré comme l’un des personnages les plus importants de la scène culturelle de New York dans les années 1970 et 1980.",
       "releaseInfo": "2025"
     }
   ]

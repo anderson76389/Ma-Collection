@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1551025",
+      "type": "movie",
+      "name": "Protection (très) rapprochée",
+      "poster": "https://image.tmdb.org/t/p/w500/2RtUijWe9PxnckIFugctHLj2xe5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qHvap0vpfTBIbv7cnR0OyBRqQHG.jpg",
+      "description": "Quand une garde du corps intraitable est chargée de protéger une star de cinéma, les étincelles fusent, des secrets éclatent au grand jour et Noël devient soudain très compliqué.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1600653",
       "type": "movie",
       "name": "The 12 Dates of Christmas",
@@ -167,14 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/37r0FZuv9OAQgMApDoJ8gvd5LWs.jpg",
       "background": "https://image.tmdb.org/t/p/w780/1oKLEA9JOhvaBwLpqjROisvWMy7.jpg",
       "description": "Un couple comblé voit son bonheur mis à l’épreuve lorsqu’un rebondissement inattendu vient tout bouleverser à une semaine de son mariage.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1217505",
-      "type": "movie",
-      "name": "You're Dating a Narcissist!",
-      "poster": "https://image.tmdb.org/t/p/w500/j1O4BvAjGosDf9SdDemR4E1zDY3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7ww4Zc6XirdNJnj1nMsWq9ycxuz.jpg",
       "releaseInfo": "2026"
     }
   ]

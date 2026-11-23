@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1437511",
+      "type": "movie",
+      "name": "Comment braquer une banque",
+      "poster": "https://image.tmdb.org/t/p/w500/uvTMQzEU3b4GJLVv2HD318rb1sB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/u38hNQbxvIicUdfrHpqa9puBnA9.jpg",
+      "description": "Une équipe de braqueurs filme ses hold-up en direct et devient viral. Mais leur célébrité grandissante attire l'attention d'un agent du FBI et d'une ingénieure informatique déterminés à les arrêter. Alors que cet improbable duo se rapproche dangereusement d’eux, le gang décide de tout miser sur le braquage le plus ambitieux de leur carrière.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:891621",
       "type": "movie",
       "name": "Wild Horse Nine",
@@ -31,7 +40,7 @@
       "id": "tmdb:1437396",
       "type": "movie",
       "name": "Your Mother Your Mother Your Mother",
-      "poster": "https://image.tmdb.org/t/p/w500/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/58g3PjU11nBszOWc836lC8t2Mzi.jpg",
       "background": "https://image.tmdb.org/t/p/w780/45Mbs6dmn2W0hvuyxXPDkKREHpP.jpg",
       "description": "À Houston, Latif, tueur à gages musulman et père de trois enfants, perd brutalement sa femme. Lorsque son nouveau-né refuse le lait maternisé, il se lance à la recherche d'Une nourrice, une démarche qui le conduit sur la piste d’un ex-militaire devenu prédicateur radical à la tête d’une milice d’extrême droite. Tandis que son ancien employeur tente de le ramener dans le milieu, Latif est entraîné dans un conflit qui menace sa famille autant que ses convictions.",
       "releaseInfo": "2026"
@@ -50,7 +59,7 @@
       "type": "movie",
       "name": "By Any Means",
       "poster": "https://image.tmdb.org/t/p/w500/evCy2B3j57AwSNBZqlePjMl3zj3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nw9Q3idNO8EsTPnvr8vBJTpkWGA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1jANqIbqrWJZb8GM5Kb3L6U8iHi.jpg",
       "description": "Un jeune agent noir du FBI est envoyé au Mississippi dans les années 60 afin d’enquêter sur une vague de meurtres brutaux visant des leaders du mouvement des droits civiques. Contraint de faire équipe avec le célèbre tueur à gages de la mafia Greg Scarpa, il se retrouve entraîné dans une traque meurtrière où la frontière entre justice et vengeance devient de plus en plus floue.",
       "releaseInfo": "2026"
     },
@@ -122,7 +131,7 @@
       "type": "movie",
       "name": "Simpsley",
       "poster": "https://image.tmdb.org/t/p/w500/xzmJsuoYQzi3jhijL9zIoFvOmzL.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2vl4nyxi1zVtiqYqJkbP8yTMOQV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xA2uHYgb5RCVPdFe1acQqOB3EhD.jpg",
       "description": "Lorsque Marge Bouvier, une escroc sans le sou, est envoyée en Italie pour convaincre le riche et naïf Seymour Skinner de rentrer au pays, elle est tentée par les signes extérieurs de richesse. Mais un grain de sable vient enrayer la machine : Homer Simpsley, l'invité collant et idiot de Skinner. Mensonges, luxure et lires italiennes sont au rendez-vous.",
       "releaseInfo": "2026"
     },
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/9Jkylw7Y5NQyi7C8IwXLBvVSrH2.jpg",
       "background": "https://image.tmdb.org/t/p/w780/5dE3rixgMUTXOQLuO3zya4zSFav.jpg",
       "description": "Dans sa petite ville tranquille du Texas, Caroline rencontre Oliver, un escroc charismatique, et se laisse rapidement envoûter par lui et ses combines. Ensemble, ils prennent la fuite et, au cours de leur périple fougueux et romantique à travers le Sud, ils sèment la pagaille, le crime et la passion sur leur passage, à la recherche de la mère de Caroline, dont elle est séparée. Mais lorsque de petits larcins se transforment en braquages ​​de plus en plus audacieux, le duo devient un « Bonnie et Clyde » des temps modernes et doit user de tous les stratagèmes pour échapper à la police.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1340206",
-      "type": "movie",
-      "name": "Le Virtuose",
-      "poster": "https://image.tmdb.org/t/p/w500/z9sxdWvYJDyZeKHhBSU8Kczw7yC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/y04gpYp8rJoUud6vf8okqHIdP4V.jpg",
-      "description": "Doté d'une ouïe exceptionnelle, un jeune accordeur de piano voit sa vie basculer lorsque son talent attire l'attention de criminels qui l'entraînent dans une série de cambriolages de plus en plus risqués. Malgré lui, il s'enfonce dans un engrenage dangereux qui pourrait lui coûter bien plus que sa liberté.",
       "releaseInfo": "2026"
     }
   ]

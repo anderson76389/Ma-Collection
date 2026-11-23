@@ -45,6 +45,15 @@
       "releaseInfo": "2017"
     },
     {
+      "id": "tmdb:94038",
+      "type": "series",
+      "name": "Canada's Drag Race : que la meilleure gagne",
+      "poster": "https://image.tmdb.org/t/p/w500/dA6hrYQqeni10PdTP35oUewdtFX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7Iw6wdO2NVW0YbYvUm9H35LFfSe.jpg",
+      "description": "Les drag queens mettent en valeur leur charisme, leur caractère unique, leur culot et leur talent canadiens pour devenir la première superstar du drag au Canada et gagner le grand prix de 100 000 $.",
+      "releaseInfo": "2020"
+    },
+    {
       "id": "tmdb:234613",
       "type": "series",
       "name": "Les Traîtres (Canada)",
@@ -54,20 +63,12 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:75817",
+      "id": "tmdb:336592",
       "type": "series",
-      "name": "The Great Canadian Baking Show",
-      "poster": "https://image.tmdb.org/t/p/w500/x6A8MzTrd7x2LVv90zFHUZTOHrv.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2YPyaKoBFrxqR8g6f4J5TOvHJaE.jpg",
-      "description": "Version canadienne de la compétition de pâtisserie britannique à succès. 10 boulangers amateurs de partout au Canada s'affrontent dans une série de défis culinaires thématiques.",
-      "releaseInfo": "2017"
-    },
-    {
-      "id": "tmdb:334887",
-      "type": "series",
-      "name": "The Mob",
-      "poster": "https://image.tmdb.org/t/p/w500/p7Z3iK7g3ZEOm60h121fvtDmA3f.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jPah9SEWeBCXQwyKqoMdQp7tqci.jpg",
+      "name": "La conquête des boutiques",
+      "poster": "https://image.tmdb.org/t/p/w500/awZejt5KgmNzqlQIReQa4vJelx4.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9qKkdHizmDOXwABJx6LP6MdbWiO.jpg",
+      "description": "Dans cette téléréalité, dix équipes s'installent dans un centre commercial pour obtenir des boutiques, forger des alliances, déjouer les rivaux… et gagner 1 000 000 $.",
       "releaseInfo": "2026"
     }
   ]

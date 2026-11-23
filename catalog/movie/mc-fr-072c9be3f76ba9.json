@@ -1,6 +1,69 @@
 {
   "metas": [
     {
+      "id": "tmdb:1595124",
+      "type": "movie",
+      "name": "Sœurs de sort",
+      "poster": "https://image.tmdb.org/t/p/w500/2rOCe6L9qwFoakYrWFVnICSbmLK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/g1bEboMx1a8JCg1jXeDCh24RtgW.jpg",
+      "description": "Dans cette comédie d'action décalée, Lilith, la \"méchante\" demi-sœur de Cendrillon, vole la baguette de Marraine la bonne fée et bouleverse le conte tel que nous le connaissons.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1613021",
+      "type": "movie",
+      "name": "Camembert",
+      "poster": "https://image.tmdb.org/t/p/w500/6SXZREznWh5vAQCcndzRuu2Q3Se.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/s81ElK32D29xS9B6U44NNYl4qbx.jpg",
+      "description": "Stan, trentenaire d’origine modeste, rencontre pour la première fois la famille de sa petite amie Cléo. Mais le clan Roussel n’est pas exactement comme les autres : France, l’impressionnante maîtresse de maison, est la directrice d’un prestigieux festival de photographie. Autour d’elle gravitent un amant tout aussi brillant et cultivé, un père professeur de philosophie, un fils journaliste, une sœur professeur aux beaux-arts et un neveu en prépa littéraire. Stan découvre alors la tradition familiale : à chaque anniversaire de France, on lance une partie de Trivial Pursuit. Il sait qu’il n’a aucune chance face à ces amoureux de la culture, mais il n’a pas le choix : toute la famille doit participer, sans exception. Qu’est-ce qui pourrait mal tourner ? Après tout ce n’est qu’un jeu de société…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1551025",
+      "type": "movie",
+      "name": "Protection (très) rapprochée",
+      "poster": "https://image.tmdb.org/t/p/w500/2RtUijWe9PxnckIFugctHLj2xe5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qHvap0vpfTBIbv7cnR0OyBRqQHG.jpg",
+      "description": "Quand une garde du corps intraitable est chargée de protéger une star de cinéma, les étincelles fusent, des secrets éclatent au grand jour et Noël devient soudain très compliqué.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1502759",
+      "type": "movie",
+      "name": "Jupiter",
+      "poster": "https://image.tmdb.org/t/p/w500/cl7wDxqCkEy0IEuvVq47SrH6dn3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/k19Er3Uy5q2ZXocJ0IXSbDvjdBA.jpg",
+      "description": "Fraîchement élu, le président Paul Archambault doit affronter une crise sans précédent : son homologue russe, cible d'un attentat, brandit un ultimatum nucléaire menaçant un allié de la France. Face au risque d'escalade militaire, le président réunit son état-major dans le bunker de l'Elysée. Dans le secret du Poste de Commandement Jupiter, Paul va devoir prendre une décision vertigineuse.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1300968",
+      "type": "movie",
+      "name": "Hunger Games : Lever de soleil sur la moisson",
+      "poster": "https://image.tmdb.org/t/p/w500/2crlvf4VsSQORysk1A8o2jBUduI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
+      "description": "Alors que le jour se lève sur les 50e Hunger Games annuels, la peur s'empare des districts de Panem. Cette année, en l'honneur du Quarter Quell, deux fois plus de tributs seront tirés au sort. Dans le District 12, Haymitch Abernathy essaie de ne pas trop penser à ses chances. Tout ce qui lui importe est d'être avec la fille qu'il aime. Mais lorsque qu'il est appelé, tous ses rêves s'effondrent. Il est arraché à sa famille et à son amour, transporté au Capitole avec les trois autres tributs du District 12 : une jeune amie qui est presque une sœur pour lui, un parieur compulsif, et la fille la plus prétentieuse de la ville. Alors que les Jeux commencent, Haymitch comprend qu'il a été piégé pour échouer. Mais il est prêt à se battre... et faire en sorte que ce combat résonne bien au-delà de l'arène.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1131943",
+      "type": "movie",
+      "name": "Madden",
+      "poster": "https://image.tmdb.org/t/p/w500/1D1U38gOkfOhahH3yfmfHUXqD76.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lRsapglJZIyMfGl8oQyNASlZqDC.jpg",
+      "description": "Inspiré de la vie d'une icône américaine, MADDEN retrace le parcours de John Madden : de son duo victorieux avec Al Davis chez les Raiders à son rôle de voix emblématique du football, jusqu'à la création du jeu vidéo mythique Madden NFL. Ce film rend hommage à un esprit brillant dont la passion débordante et la complicité avec son épouse Virginia ont dépassé le simple cadre du sport.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1716604",
+      "type": "movie",
+      "name": "Cool Attitude: Magic Noël",
+      "poster": "https://image.tmdb.org/t/p/w500/yXYuDTwYTI5UdsIQjORTAhTdURG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/a8syGZWwgV4ofi70OtvoIGsNjFz.jpg",
+      "description": "Lorsque la révolte de Penny Proud contre le « Magic Noël » et la marchandisation de cet évènement pousse le Père Noël à démissionner la veille de la fête, notre héroïne se laisse convaincre — non sans culpabilité — d'enfiler la célèbre tenue rouge pour le remplacer. En apportant la joie des fêtes avec l'aide des lutins irrévérencieux, elle découvre que l'esprit de Noël est toujours bel et bien vivant.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1543469",
       "type": "movie",
       "name": "Heartland",
@@ -14,7 +77,7 @@
       "type": "movie",
       "name": "Snoopy présente : les 12 jours de Noël",
       "poster": "https://image.tmdb.org/t/p/w500/uJ3Eb4zUtF1KFD5zd8CiYaFXWuu.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/a3DzS9AUB6AgYiELaeTn2n8EfNz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3gIGgmK27lt3YK9EUnZ6iXMHg7Q.jpg",
       "description": "Afin de ne plus figurer sur la liste noire du père Noël, Snoopy fait de son mieux pour avoir une conduite irréprochable.",
       "releaseInfo": "2026"
     },
@@ -31,8 +94,8 @@
       "id": "tmdb:1567605",
       "type": "movie",
       "name": "Scrooge",
-      "poster": "https://image.tmdb.org/t/p/w500/uxYPnpkSmG1iluoSB0fOtYK7BfM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fdOVxyNNL95SuI8BGaN6vudEuYX.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/9RCnWkVOevfAVuSkYkQOg1k8QvO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/274ahmbkJSzdmcWrWSTu9DFv5rp.jpg",
       "description": "Ebenezer Scrooge est un vieil homme avare, pingre et solitaire. Bien évidemment, il déteste et méprise Noël et tout ce qui engendre le bonheur. C'est alors qu'il reçoit la visite du fantôme d'un ancien associé ainsi que par les esprits de Noëls du passé, du présent et du futur.",
       "releaseInfo": "2026"
     },
@@ -40,9 +103,18 @@
       "id": "tmdb:1559980",
       "type": "movie",
       "name": "Le Gospel de Noël",
-      "poster": "https://image.tmdb.org/t/p/w500/ihbN6lNDXKe6w9xE6IBFMVF2Rkr.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/xNF1YWXFIqIx5XriMSFLq6X7MSt.jpg",
       "background": "https://image.tmdb.org/t/p/w780/p1Ag7etCR5yUvElhwZmWsMo5IFu.jpg",
       "description": "Un pasteur en proie au doute emménage avec sa famille dans un quartier difficile de New York, où ils doivent sauver une église délabrée de la fermeture avant Noël.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1429602",
+      "type": "movie",
+      "name": "15/18",
+      "poster": "https://image.tmdb.org/t/p/w500/nlqZ62tEobENzeLxNUXANgz8XJa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/GWr6kRbEGppdbGH1huSl0HfV83.jpg",
+      "description": "Lucia, 17 ans, est amenée par la police dans une unité de soins pédopsychiatriques de l’hôpital public. Ici tous les patients ont entre 15 et 18 ans. Lucia connaît l’endroit, elle y a fait de nombreux séjours. Elle retrouve son amie Eloïse, en hospitalisation longue durée, mais aussi Yasmine, Camilia, Ulysse, André… tous ont des pathologies et des parcours différents. Les médecins les soignent, les écoutent, reçoivent leurs parents, tout en gérant un service en surchauffe. Mais un jour, l’arrivée du mystérieux Enzo menace de tout bouleverser.",
       "releaseInfo": "2026"
     },
     {
@@ -84,7 +156,7 @@
       "id": "tmdb:1286656",
       "type": "movie",
       "name": "I Play Rocky",
-      "poster": "https://image.tmdb.org/t/p/w500/xE5tY3lppZUyG7WKKThsuYHuAHr.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/jKW6b89n5EGbJXtxTZYBcDHLpYg.jpg",
       "background": "https://image.tmdb.org/t/p/w780/1lnnjBCRLZzKRhQipK5zm61YkPe.jpg",
       "description": "Un acteur en difficulté avec un visage partiellement paralysé et un trouble de l’élocution écrit un scénario qu’un grand studio de cinéma veut acheter. Mais l’acteur refuse de le vendre à moins de pouvoir jouer le rôle principal. Refusant une offre d’argent qui pourrait changer sa vie, il travaille pour des centimes afin que le film soit réalisé avec lui dans le rôle principal.",
       "releaseInfo": "2026"
@@ -105,77 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/w82vKEoYNZ9SxYxvccxO85CnZKE.jpg",
       "background": "https://image.tmdb.org/t/p/w780/uRVWQyHPmkyKmjjkPQRO0Q475II.jpg",
       "description": "Christina Walker, une commerçante prospère qui a consacré toute son énergie à sa carrière au détriment de sa vie amoureuse, enchaîne 12 rendez-vous amoureux au cours des 12 semaines précédant Noël dans l'espoir de trouver l'homme idéal.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1585239",
-      "type": "movie",
-      "name": "Club Kid",
-      "poster": "https://image.tmdb.org/t/p/w500/lfznSwfaXWLxW5TR09IoNV9OwhM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/AjrgF2JZb8WAeIFTvUjJK6VA2CG.jpg",
-      "description": "Peter (Jordan Firstman), organisateur de soirées branchées à New York, mène une existence aussi effrénée qu’insouciante, rythmée par les nuits festives et les excès. Sa vie bascule lorsqu'Arlo, le fils de 10 ans dont il ignorait l'existence, frappe à sa porte. Dépassé par ce rôle de père qu'il n'avait jamais envisagé, il est rapidement conquis par le charme et la spontanéité de l’enfant. Au fil du temps, un lien aussi inattendu que profond se tisse entre eux, et Peter découvre enfin qu’il existe une vie au-delà de la prochaine fête.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1570488",
-      "type": "movie",
-      "name": "Mon beau Noël de chien",
-      "poster": "https://image.tmdb.org/t/p/w500/wuFfq29NUhaksIIxg5EV24J3n2b.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hhQT0TySg3LXCE8BEPpfPJ5zJA2.jpg",
-      "description": "Winstead est un chien déterminé. Quand une urgence médicale déchire la famille Goss, il est prêt à tout pour rétablir l'harmonie avant le réveillon de Noël.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1003494",
-      "type": "movie",
-      "name": "L’Affaire Marie-Claire",
-      "poster": "https://image.tmdb.org/t/p/w500/eJyYB3D5YeJp20r3yZFwQW23Rp3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rIxB1b3nBfjxP0nHrWyjJArcVwa.jpg",
-      "description": "Novembre 1972. Au tribunal de Bobigny, un procès hors norme secoue la France entière. Marie-Claire Chevalier, 16 ans, est accusée d’avoir avorté illégalement. À la barre, sa mère et toutes les femmes qui l’ont aidée. Leur avocate, Gisèle Halimi, fait un pari fou, insensé : elle leur demande de ne pas plaider coupable. Gisèle va faire ce qui n’a jamais été fait auparavant, elle va accuser et attaquer la loi, au risque de tout perdre. Au nom de toutes.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1792170",
-      "type": "movie",
-      "name": "Model Citizen",
-      "poster": "https://image.tmdb.org/t/p/w500/7SE0LBwgqiqZzkm9gKVbBAbcNQL.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/mC5Y5jmodmTp7T7eyQ8tTBnQRg5.jpg",
-      "description": "Un homme sort du coma et découvre que son bien-être est désormais placé sous la responsabilité d’un avatar numérique mis à sa disposition par le gouvernement.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1813355",
-      "type": "movie",
-      "name": "La Légende de Derry",
-      "poster": "https://image.tmdb.org/t/p/w500/95jDCfMC1MNXowaXxPpHuWP5zAr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/z26LxXDMmAIzKr06FPDudCJyvsM.jpg",
-      "description": "Des centaines d’années avant Pennywise, trois jeunes s’aventurent dans la forêt de l’Ouest où ils rencontrent un esprit ancien terrifiant.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1117898",
-      "type": "movie",
-      "name": "Le Chat Chapeauté",
-      "poster": "https://image.tmdb.org/t/p/w500/jBcFgdERUGw0au9fYZc5X9M8Dfs.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg",
-      "description": "Le Chat se voit confier sa mission la plus difficile jusqu'à présent... aider deux frères et sœurs qui ont du mal à s'installer dans une nouvelle ville.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1532997",
-      "type": "movie",
-      "name": "Dead Howling",
-      "poster": "https://image.tmdb.org/t/p/w500/i1vpLPnHVAZq1CyJlpVS8YI7a93.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9p8myU6v4AemtusJeln6dSJqQo6.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:891621",
-      "type": "movie",
-      "name": "Wild Horse Nine",
-      "poster": "https://image.tmdb.org/t/p/w500/hnBtud9vLr9arsUW8nxrzIz2uA4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3uLA0ujne91bkzFStZICCYeqhnt.jpg",
-      "description": "Peu avant le coup d'État chilien de 1973, deux agents de la CIA, Chris et Lee, sont envoyés de Santiago vers l'île de Pâques par leur supérieur, MJ. Au milieu des statues emblématiques de l'île, tandis que ces partenaires de longue date sont confrontés à leur sombre passé et aux complots en cours, Chris noue une relation avec deux étudiantes rebelles qui menace de faire basculer dans le chaos leur séjour dans ce paradis isolé…",
       "releaseInfo": "2026"
     }
   ]

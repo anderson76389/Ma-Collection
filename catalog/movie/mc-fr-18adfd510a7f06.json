@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1559980",
+      "type": "movie",
+      "name": "Le Gospel de Noël",
+      "poster": "https://image.tmdb.org/t/p/w500/xNF1YWXFIqIx5XriMSFLq6X7MSt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/p1Ag7etCR5yUvElhwZmWsMo5IFu.jpg",
+      "description": "Un pasteur en proie au doute emménage avec sa famille dans un quartier difficile de New York, où ils doivent sauver une église délabrée de la fermeture avant Noël.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1742441",
       "type": "movie",
       "name": "V/H/S/MIXTAPE",
@@ -42,6 +51,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/4h2WtFCLZPXbydbpi248uqOT9yz.jpg",
       "background": "https://image.tmdb.org/t/p/w780/xZBJj34pgaFCvAEoesIKDxVq3oe.jpg",
       "description": "Tommy, un lycéen qui reçoit un appel l'invitant, avec son groupe, à assurer la première partie de Green Day lors du concert du Nouvel An. Ce qu'il ignore, c'est qu'il s'agit d'un canular minutieusement orchestré par son grand frère, Wayne. Convaincu que sa vie est sur le point de basculer, Tommy dérobe la voiture de Wayne et embarque son groupe dans un périple de Kansas City à Los Angeles, déterminé à arriver à temps en seulement trois jours.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1340206",
+      "type": "movie",
+      "name": "Le Virtuose",
+      "poster": "https://image.tmdb.org/t/p/w500/z9sxdWvYJDyZeKHhBSU8Kczw7yC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/y04gpYp8rJoUud6vf8okqHIdP4V.jpg",
+      "description": "Doté d'une ouïe exceptionnelle, un jeune accordeur de piano voit sa vie basculer lorsque son talent attire l'attention de criminels qui l'entraînent dans une série de cambriolages de plus en plus risqués. Malgré lui, il s'enfonce dans un engrenage dangereux qui pourrait lui coûter bien plus que sa liberté.",
       "releaseInfo": "2026"
     },
     {
@@ -94,7 +112,7 @@
       "type": "movie",
       "name": "Mother Mary",
       "poster": "https://image.tmdb.org/t/p/w500/uaCJhncUYYXFlG253BEPAzog3hl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9eynUDRhChIsgSYLK82aC4zIQ2M.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pRrH098VPYiUtDwKOm2mVXVQZdf.jpg",
       "description": "Une célèbre chanteuse pop, en pleine tournée, interrompt ses concerts suite à une crise existentielle. Elle se retire à la campagne et noue une relation complexe avec une créatrice de mode renommée, qui travaille justement sur une robe. Les deux femmes se rapprochent.",
       "releaseInfo": "2026"
     },
@@ -158,24 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/a6wheh1243vceZ7Dqb0knYmKqaj.jpg",
       "background": "https://image.tmdb.org/t/p/w780/oTWgvLnMjjsVNdVTZjf5CEnihhw.jpg",
       "description": "Dans ce court-métrage nommé aux Oscars, une compétition de chant improvisée dans un bar de quartier transforme une nuit de solitude en un moment d'harmonie et de partage.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1548113",
-      "type": "movie",
-      "name": "The Muppet Show",
-      "poster": "https://image.tmdb.org/t/p/w500/h8SxbXRZPukAcwASmHOl5CFUslA.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qz7B5uDspnkoz068wLbLnleotwV.jpg",
-      "description": "C'est le Muppet Show ! Kermit, Miss Piggy et la troupe adorée des Muppets sont de retour pour un événement spécial inédit. Musique, comédie et une bonne dose de chaos sont au rendez-vous quand ils remontent sur la scène du théâtre original des Muppets avec leur invitée très spéciale, Sabrina Carpenter",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1422562",
-      "type": "movie",
-      "name": "The Moment",
-      "poster": "https://image.tmdb.org/t/p/w500/A0yuyel8MvAxnxtfVOtdSuuMOA5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lQUsfSUcai6ZOHQHgobSlF0IDUV.jpg",
-      "description": "Une vedette montante de la pop affronte les complexités de la célébrité et la pression de l'industrie alors qu'elle se prépare pour sa première grande tournée.",
       "releaseInfo": "2026"
     }
   ]

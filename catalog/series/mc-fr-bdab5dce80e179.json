@@ -10,14 +10,6 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:96386",
-      "type": "series",
-      "name": "乃木坂工事中",
-      "poster": "https://image.tmdb.org/t/p/w500/wjfGdo9BoKeakiSxdKdiPZxv1jA.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wyJb8zU523NSYKY6RJsb6q5CywM.jpg",
-      "releaseInfo": "2015"
-    },
-    {
       "id": "tmdb:60761",
       "type": "series",
       "name": "Ace of Diamond",
@@ -27,13 +19,30 @@
       "releaseInfo": "2013"
     },
     {
+      "id": "tmdb:96386",
+      "type": "series",
+      "name": "乃木坂工事中",
+      "poster": "https://image.tmdb.org/t/p/w500/wjfGdo9BoKeakiSxdKdiPZxv1jA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wyJb8zU523NSYKY6RJsb6q5CywM.jpg",
+      "releaseInfo": "2015"
+    },
+    {
       "id": "tmdb:73223",
       "type": "series",
       "name": "Black Clover",
       "poster": "https://image.tmdb.org/t/p/w500/zObHoFAX6P7DirR2dybN3cVC1Ms.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qu9epTZh29fGUkY7ZYc9PVsv0Ig.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/AsaEmDMgrt9MCCTXxUzY9PtFZko.jpg",
       "description": "Dans un monde régi par la magie, Yuno et Asta ont grandi ensemble avec un seul but en tête : devenir le prochain Empereur-Mage du royaume de Clover. Mais si le premier est naturellement doué, le deuxième, quant à lui, ne sait pas manipuler la magie. C'est ainsi que lors de la cérémonie d'attribution de leur grimoire, Yuno reçoit le légendaire grimoire au trèfle à quatre feuilles tandis qu'Asta, lui, repart bredouille. Or, plus tard, un ancien et mystérieux ouvrage noir décoré d'un trèfle à cinq feuilles surgit devant lui ! Un grimoire d’anti-magie…",
       "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:226688",
+      "type": "series",
+      "name": "BEYBLADE X",
+      "poster": "https://image.tmdb.org/t/p/w500/66wkm14IWdrY5LaKZDAbkD2T9Jt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qAq9RBeHZoTMDFqQZ2o4cE5CJIQ.jpg",
+      "description": "Robin Kazami, blader débutant, s'associe à l'influenceuse Multi Nana-iro et à l'ancien champion Jaxon Cross pour former ce trio improbable, prêt à gravir les échelons du classement The X et à remporter le titre de champion blader !",
+      "releaseInfo": "2023"
     },
     {
       "id": "tmdb:99748",
@@ -53,12 +62,13 @@
       "releaseInfo": "2021"
     },
     {
-      "id": "tmdb:221725",
+      "id": "tmdb:205493",
       "type": "series",
-      "name": "ちびゴジラの逆襲",
-      "poster": "https://image.tmdb.org/t/p/w500/be7uDWl2vWMX5OeAA8S6FNCT5Ei.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hOhHzMu6R1sVs80gLfaMSJ8jGgg.jpg",
-      "releaseInfo": "2023"
+      "name": "The Prince of Tennis II: U-17 World Cup",
+      "poster": "https://image.tmdb.org/t/p/w500/etVlxcNUsJLE4qhJON3VwZSzwFW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/x3kTIGpx66VUTlUsPASyfjAlp98.jpg",
+      "description": "Lorsque le prodige du tennis, Ryoma Echizen, est expulsé du camp d'entraînement de l'élite des moins de 17 ans du Japon pour avoir enfreint les règles, il est désemparé. Mais la chance lui sourit quand il apprend qu’il peut tenter sa chance dans l'équipe américaine. Faire ses preuves face à leurs vétérans endurcis ne sera pas facile et, s'il est accepté, il devra jouer contre ses anciens amis. Pourra-t-il aider ses nouveaux équipiers à se frayer un chemin vers la victoire ?",
+      "releaseInfo": "2022"
     },
     {
       "id": "tmdb:313346",
@@ -68,15 +78,6 @@
       "background": "https://image.tmdb.org/t/p/w780/j7KrALvuZgBdwVZkOIRc9Xaeyt4.jpg",
       "description": "Rein l'Enchanteur est un mage capable d'améliorer les armes et les armures. Mais lorsqu'il se fait renvoyer de sa guilde pour la simple raison qu'il a déjà enchanté tout ce qu'elle possède, il décide de reprendre tous les sorts qu’il a transmis à ses ex-compagnons et les affecte à son propre équipement. En chemin, Rein rassemble une bande de parias comme lui et, ensemble, ils explorent le monde.",
       "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:205493",
-      "type": "series",
-      "name": "The Prince of Tennis II: U-17 World Cup",
-      "poster": "https://image.tmdb.org/t/p/w500/etVlxcNUsJLE4qhJON3VwZSzwFW.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/x3kTIGpx66VUTlUsPASyfjAlp98.jpg",
-      "description": "Lorsque le prodige du tennis, Ryoma Echizen, est expulsé du camp d'entraînement de l'élite des moins de 17 ans du Japon pour avoir enfreint les règles, il est désemparé. Mais la chance lui sourit quand il apprend qu’il peut tenter sa chance dans l'équipe américaine. Faire ses preuves face à leurs vétérans endurcis ne sera pas facile et, s'il est accepté, il devra jouer contre ses anciens amis. Pourra-t-il aider ses nouveaux équipiers à se frayer un chemin vers la victoire ?",
-      "releaseInfo": "2022"
     },
     {
       "id": "tmdb:207553",
@@ -145,12 +146,12 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:332635",
+      "id": "tmdb:111353",
       "type": "series",
-      "name": "赤灯えれじい",
-      "poster": "https://image.tmdb.org/t/p/w500/aPmUvJi2OJNJy632zohALjB2gui.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hcbJIOv31UPuHlJjcVN5RwP9ZXZ.jpg",
-      "releaseInfo": "2026"
+      "name": "出没！アド街ック天国",
+      "poster": "https://image.tmdb.org/t/p/w500/mVngZvBI6Z3Zw5HauBXmxFzwuKz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pzPzQrxjv2nGUlJayvW8dFe2x83.jpg",
+      "releaseInfo": "1995"
     },
     {
       "id": "tmdb:334103",
@@ -161,12 +162,12 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:111353",
+      "id": "tmdb:332635",
       "type": "series",
-      "name": "出没！アド街ック天国",
-      "poster": "https://image.tmdb.org/t/p/w500/mVngZvBI6Z3Zw5HauBXmxFzwuKz.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pzPzQrxjv2nGUlJayvW8dFe2x83.jpg",
-      "releaseInfo": "1995"
+      "name": "赤灯えれじい",
+      "poster": "https://image.tmdb.org/t/p/w500/aPmUvJi2OJNJy632zohALjB2gui.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hcbJIOv31UPuHlJjcVN5RwP9ZXZ.jpg",
+      "releaseInfo": "2026"
     }
   ]
 }

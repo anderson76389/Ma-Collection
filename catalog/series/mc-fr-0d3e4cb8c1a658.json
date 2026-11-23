@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:207484",
+      "type": "series",
+      "name": "Outlander: Blood of My Blood",
+      "poster": "https://image.tmdb.org/t/p/w500/ktE9cVsaB7GjggashRcd5aBlXd5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lCnOoI8eYo6sTbnoSI2qwt2ZzVb.jpg",
+      "description": "Ses champs de bataille déchirés par la guerre de 14-18 aux Highlands de l'Écosse du XVIIIe siècle, ce préquel revient sur l’histoire d’amour des parents de Jamie Fraser, Ellen MacKenzie et Brian Fraser, et ceux de Claire, Julia Moriston et Henry Beauchamp, explorant jusqu'où une personne peut aller par amour à une époque où les mariages ont un rôle stratégique, souvent à des fins politiques ou financières.",
+      "releaseInfo": "2025"
+    },
+    {
       "id": "tmdb:292742",
       "type": "series",
       "name": "S.W.A.T. Exiles",

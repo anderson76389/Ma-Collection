@@ -1873,11 +1873,6 @@
     },
     {
       "type": "series",
-      "id": "mc-fr-50bcccede9fa9d",
-      "name": "Diffusion TV · Cartoon Network · Épisodes diffusés cette semaine"
-    },
-    {
-      "type": "series",
       "id": "mc-fr-33a578c56426e3",
       "name": "Diffusion TV · CBC · Épisodes diffusés cette semaine"
     },
@@ -1915,11 +1910,6 @@
       "type": "series",
       "id": "mc-fr-7ec8b28e33bc82",
       "name": "Diffusion TV · Disney Channel · Épisodes diffusés cette semaine"
-    },
-    {
-      "type": "series",
-      "id": "mc-fr-1163b415957542",
-      "name": "Diffusion TV · Disney Junior · Épisodes diffusés cette semaine"
     },
     {
       "type": "series",
@@ -1978,6 +1968,11 @@
     },
     {
       "type": "series",
+      "id": "mc-fr-c80efbdb665041",
+      "name": "Diffusion TV · ITV2 · Épisodes diffusés cette semaine"
+    },
+    {
+      "type": "series",
       "id": "mc-fr-721eb76c79a494",
       "name": "Diffusion TV · JTBC · Épisodes diffusés cette semaine"
     },
@@ -2023,6 +2018,11 @@
     },
     {
       "type": "series",
+      "id": "mc-fr-6ecf248a25ad77",
+      "name": "Diffusion TV · Showtime · Épisodes diffusés cette semaine"
+    },
+    {
+      "type": "series",
       "id": "mc-fr-6ac590c6c1feaf",
       "name": "Diffusion TV · Sky Atlantic · Épisodes diffusés cette semaine"
     },
@@ -2063,11 +2063,6 @@
     },
     {
       "type": "series",
-      "id": "mc-fr-20354cec91f838",
-      "name": "Diffusion TV · Travel Channel · Épisodes diffusés cette semaine"
-    },
-    {
-      "type": "series",
       "id": "mc-fr-bdab5dce80e179",
       "name": "Diffusion TV · TV Tokyo · Épisodes diffusés cette semaine"
     },
@@ -2080,6 +2075,11 @@
       "type": "series",
       "id": "mc-fr-2853324585d66b",
       "name": "Diffusion TV · USA Network · Épisodes diffusés cette semaine"
+    },
+    {
+      "type": "series",
+      "id": "mc-fr-3603281019e79c",
+      "name": "Diffusion TV · VH1 · Épisodes diffusés cette semaine"
     },
     {
       "type": "series",
@@ -2354,6 +2354,11 @@
     {
       "type": "movie",
       "id": "mc-newseen-mc-fr-39ea7f01c5acd5",
+      "name": "FR · Mubi · Nouveaux repérés dans l’échantillon"
+    },
+    {
+      "type": "series",
+      "id": "mc-newseen-mc-fr-1209be2888bb21",
       "name": "FR · Mubi · Nouveaux repérés dans l’échantillon"
     },
     {

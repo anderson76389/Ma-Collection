@@ -23,7 +23,16 @@
       "type": "series",
       "name": "Treasure Island",
       "poster": "https://image.tmdb.org/t/p/w500/xZQ5ABJF1iLjGq9xR4MthpgQEFF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/grC6bTUTeVvjZ2orztjItUxM4yy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5vq3s6js8xkKKa8dudCclr9Xs6z.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:307176",
+      "type": "series",
+      "name": "Dustfall",
+      "poster": "https://image.tmdb.org/t/p/w500/a7LdXshL4vuCA3LWB2gNNckBIpO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/q7VXA2jZ88Dvp7TPbqNVWwR94ik.jpg",
+      "description": "Tout juste de retour dans sa ville de North Gap après avoir passé plusieurs années dans la capitale, l’enquêtrice Tig Pollard est chargée de l’affaire d’Edie, une jeune fille de 18 ans retrouvée nue dans un champ de canne à sucre, sans aucun souvenir de la façon dont elle est arrivée là. Ce qui commence comme une affaire d’agression sexuelle prend une tournure de plus en plus sombre, et la quête de vérité de Tig devient personnelle lorsqu’une personne de son passé refait surface, la forçant à affronter des secrets longtemps enfouis de sa propre adolescence.",
       "releaseInfo": "2026"
     },
     {
@@ -164,15 +173,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/bqljPIvFYDGUcgyGmtYBegqJMRh.jpg",
       "background": "https://image.tmdb.org/t/p/w780/yOna5ZGXrvWO2HdOCKcahx2sCDN.jpg",
       "description": "Un père de famille innocent est condamné à perpétuité pour le meurtre de son propre fils. Lorsqu'il reçoit la preuve que son fils est peut-être encore en vie, celui-ci est plus que jamais déterminé à s'évader de prison pour découvrir la vérité.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:260592",
-      "type": "series",
-      "name": "Au fil des années",
-      "poster": "https://image.tmdb.org/t/p/w500/ahCjPfWA26qluZPOQItTsLwFvVV.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/to5eI3AWbT4spz1K58mIK5HQRbD.jpg",
-      "description": "Au Fil des années de Carley Fortune est une romance teintée de nostalgie sur les premières amours et les choix qui nous marquent pour la vie.",
       "releaseInfo": "2026"
     }
   ]

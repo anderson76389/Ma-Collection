@@ -1,49 +1,67 @@
 {
   "metas": [
     {
-      "id": "tmdb:194766",
+      "id": "tmdb:4386",
       "type": "series",
-      "name": "L'Été où je suis devenue jolie",
-      "poster": "https://image.tmdb.org/t/p/w500/1UjOeSZHunQqpSimmobGCWzkuXh.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jCQV3rHNbgHKo3N4G6CARbVEjPV.jpg",
-      "description": "Isabel « Belly » Conklin passe ses étés à Cousin's Beach avec sa mère et son frère aîné, ainsi que le meilleur ami de sa mère et ses fils. Au cours d'un été bien précis, elle va connaître son premier amour mais aussi sa première peine de cœur.",
-      "releaseInfo": "2022"
+      "name": "Alerte à Malibu",
+      "poster": "https://image.tmdb.org/t/p/w500/6qcHgLbhz2cncGFi9d4PQkpEdZX.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/yXuZVMnOEsIhx1vtu9kJGpzmjGN.jpg",
+      "description": "Une brigade de sauvetage du comté de Los Angeles (L.A. County Beach Patrol) menée par le lieutenant Mitch Buchannon et composée d'une dizaine de sauveteurs doit faire face chaque jour aux dangers de la plage de Malibu, tout en composant avec leur vie personnelle.",
+      "releaseInfo": "1989"
     },
     {
-      "id": "tmdb:303745",
+      "id": "tmdb:1426",
       "type": "series",
-      "name": "L'amour sous couverture",
-      "poster": "https://image.tmdb.org/t/p/w500/xima3BlIJxlrONQgZ9mYuSLAq0f.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ob7m6JqZ7jSOocR3VL73VxRC6Is.jpg",
-      "description": "Yoon Yi-jun, successeur du groupe Taekang, est le principal suspect d'un terrible meurtre. Pour découvrir la vérité, l'inspectrice Kang Jae-hee s'infiltre auprès de lui en se faisant passer pour son secrétaire. Mais plus elle se rapproche de la vérité, plus ils se rapprochent l'un de l'autre. Entre Jae-hee sous couverture et Yi-jun qui cache un secret, pourront-ils s'avouer leurs sentiments ?",
-      "releaseInfo": "2026"
+      "name": "Luther",
+      "poster": "https://image.tmdb.org/t/p/w500/hDxOMX8zzH1FiqKWVBzNaYGBkle.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A2qdFRq9oJDC5E7fbgSS4POUMDF.jpg",
+      "description": "Un inspecteur de police consciencieux tente de ne pas partir à la dérive tandis qu'il démêle les facteurs psychologiques qui sous-tendent ses affaires criminelles.",
+      "releaseInfo": "2010"
     },
     {
-      "id": "tmdb:57911",
+      "id": "tmdb:79593",
       "type": "series",
-      "name": "Doraemon",
-      "poster": "https://image.tmdb.org/t/p/w500/a8LwHrfrBRn2nEN9THo1tlpKiDN.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6oVBODwFvbDJczBFlf4J930jKZg.jpg",
-      "description": "Doraemon est une série télévisée animée créée par Fujiko F. Fujio et basée sur la série manga du même nom. Cet anime est le successeur beaucoup plus réussi de l'anime de 1973.",
-      "releaseInfo": "1979"
+      "name": "Magnum",
+      "poster": "https://image.tmdb.org/t/p/w500/kQpHMcmjX54oY0QuVYKR39VC7C2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/x40yXVPV8tPbuWAjSPGAGauDrhj.jpg",
+      "description": "A son retour d'Afghanistan, Thomas Magnum, officier décoré de l'unité d'élite des SEAL de la Marine américaine, s'installe à Hawaï. Tout en assurant la sécurité du domaine du richissime Robin Master, Magnum, hébergé sur la propriété dans la maison des invités, officie en tant que détective privé. Pour l'aider à résoudre ses enquêtes, le jeune homme peut compter sur ses frères d'armes, TC et Rick. Quant à Juliet Higgins, la majordome du domaine, accompagnée de ses dobermans Zeus et Apollon, elle se charge de garder un œil sur Magnum en veillant à ce qu'il n'abuse pas de la générosité de Robin Master.",
+      "releaseInfo": "2018"
     },
     {
-      "id": "tmdb:4601",
+      "id": "tmdb:1480",
       "type": "series",
-      "name": "New York Section Criminelle",
-      "poster": "https://image.tmdb.org/t/p/w500/sXCZZpL0L5IQazaXY1wm5yTbfdk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qLYumObEHeRHFMC6N3SfCrnBFjp.jpg",
-      "description": "Une équipe de la police criminelle tentent d'élucider les crimes en essayant de cerner la psychologie des meurtriers.",
-      "releaseInfo": "2001"
+      "name": "Ally McBeal",
+      "poster": "https://image.tmdb.org/t/p/w500/weS8htxS2j0EQ6jorK3WOR1dZpH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xCMs3IxaGqKSc5cwngRUlhmjbwl.jpg",
+      "description": "Charmante, romantique, hystérique, excessive et passionnée, Ally McBeal n'en reste pas moins une brillante avocate qui défend farouchement les intérêts du Cabinet Cage & Fish en suivant ses sentiments.",
+      "releaseInfo": "1997"
     },
     {
-      "id": "tmdb:1412",
+      "id": "tmdb:85077",
       "type": "series",
-      "name": "Arrow",
-      "poster": "https://image.tmdb.org/t/p/w500/4DVLTc7oVCzHOSmZzlDHefCKyqq.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wAFuDJfZJrnh6a1wf1Vt7PqYBvR.jpg",
-      "description": "Les nouvelles aventures de Green Arrow/Oliver Queen, combattant ultra efficace issu de l'univers de DC Comics et surtout archer au talent fou, qui appartient notamment à la Justice League. Disparu en mer avec son père et sa petite amie, il est retrouvé vivant 5 ans plus tard sur une île près des côtes Chinoises. Mais il a changé : il est fort, courageux et déterminé à débarrasser Starling City de ses malfrats…",
-      "releaseInfo": "2012"
+      "name": "The Chosen",
+      "poster": "https://image.tmdb.org/t/p/w500/gtC9ufiOLQ2Q856Eh2clHpDb1nf.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2YQFwn9aF7huTFHxn9lFTAn14F.jpg",
+      "description": "Un pêcheur charismatique aux prises avec des dettes. Une femme troublée aux prises avec ses démons. Un comptable doué, mis au ban de sa famille et de son peuple. Voyez comment Jésus atteint chacun d'entre eux et bien plus encore, alors qu'il accomplit ses premiers miracles et se lance dans son ministère pour changer le monde. Découvrez-le à travers les yeux de ceux qui l'ont connu.",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:1981",
+      "type": "series",
+      "name": "Charmed",
+      "poster": "https://image.tmdb.org/t/p/w500/z4bPJ1BWU2EtV69NII2GVvsugQ2.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ueZFcwAUvkjyAB9beaiqJyg0M8H.jpg",
+      "description": "Les trois sœurs Halliwell découvrent qu'elles descendent d'une famille de sorcières et doivent apprendre à se servir de leurs pouvoirs magiques afin de lutter contre le mal et les démons qui veulent les détruire afin de s'approprier leurs pouvoirs.",
+      "releaseInfo": "1998"
+    },
+    {
+      "id": "tmdb:39351",
+      "type": "series",
+      "name": "Grimm",
+      "poster": "https://image.tmdb.org/t/p/w500/iOptnt1QHi6bIHmOq6adnZTV0bU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oS3nip9GGsx5A7vWp8A1cazqJlF.jpg",
+      "description": "Lorsque Nick Burkhardt, un détective spécialisé dans les homicides, reçoit la visite de sa tante malade, toutes les choses étranges qu'il a vues jusqu'alors prennent sens. En effet, sa tante l'informe que tous deux sont chasseurs de \"Grimms\" et qu'ils sont chargés de protéger l'humanité contre les créatures surnaturelles. Nick fouille dans le passé de sa tante et découvre qu'il a la même responsabilité que ses ancêtres et qu'il est étroitement lié à la mythologie des Frères Grimm. Alors que Burkhardt tente de dissimuler les dangers de sa nouvelle mission à sa fiancée et à son collègue, il s'embourbe dans les vieilles rivalités de l'univers des frères Grimm.",
+      "releaseInfo": "2011"
     }
   ]
 }

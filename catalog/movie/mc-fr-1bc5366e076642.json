@@ -1,6 +1,24 @@
 {
   "metas": [
     {
+      "id": "tmdb:1567605",
+      "type": "movie",
+      "name": "Scrooge",
+      "poster": "https://image.tmdb.org/t/p/w500/9RCnWkVOevfAVuSkYkQOg1k8QvO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/274ahmbkJSzdmcWrWSTu9DFv5rp.jpg",
+      "description": "Ebenezer Scrooge est un vieil homme avare, pingre et solitaire. Bien évidemment, il déteste et méprise Noël et tout ce qui engendre le bonheur. C'est alors qu'il reçoit la visite du fantôme d'un ancien associé ainsi que par les esprits de Noëls du passé, du présent et du futur.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1642568",
+      "type": "movie",
+      "name": "The Last Temptation of Becky",
+      "poster": "https://image.tmdb.org/t/p/w500/nzSx9jiInWGWumMV1n1qyRqrpbq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4IyYpwIUAkWE3CiUEg2YItc4mIv.jpg",
+      "description": "Becky, désormais agent de la CIA, infiltre un établissement situé près du bunker d'Hitler en Pologne pour empêcher une famille d'aubergistes de lancer le Quatrième Reich. Elle doit prendre les choses en main pour faire échouer leur plan.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1813355",
       "type": "movie",
       "name": "La Légende de Derry",
@@ -14,7 +32,15 @@
       "type": "movie",
       "name": "Dead Howling",
       "poster": "https://image.tmdb.org/t/p/w500/i1vpLPnHVAZq1CyJlpVS8YI7a93.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9p8myU6v4AemtusJeln6dSJqQo6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bL2mZNrVdeNNOICyuFfPJq7YA4s.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1496696",
+      "type": "movie",
+      "name": "Breeder",
+      "poster": "https://image.tmdb.org/t/p/w500/alsb3UC17kxIcytLWvwkmL0STgU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jcM2nzRn8lIi3q3mQPxoWsqOUa8.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -22,7 +48,7 @@
       "type": "movie",
       "name": "Clayface",
       "poster": "https://image.tmdb.org/t/p/w500/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/f1TVhqJJdxMvUsUDuKHS0ekgYkk.jpg",
       "description": "L'ascension fulgurante de Matt Hagen, de gamin des rues de Gotham à star hollywoodienne, est brutalement interrompue lorsqu'un baron du crime le laisse atrocement défiguré. Abandonné de tous et n'ayant plus rien à perdre, Matt se tourne vers un traitement expérimental qui lui rend miraculeusement son apparence... mais altère profondément sa perception de la réalité. Il sombre alors dans une spirale destructrice, consumé par un irrépressible désir de vengeance.",
       "releaseInfo": "2026"
     },
@@ -75,6 +101,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/n9MospSE1BoXx2gNJdR6gnWbEzd.jpg",
       "background": "https://image.tmdb.org/t/p/w780/qkxk9URcK33HK54YSXFPQO8aqJH.jpg",
       "description": "Un gardien a disparu lors de sa première nuit dans un ancien hôpital psychiatrique en 2023. Les images de sa caméra montrent des incidents inexplicables qui continuent de déconcerter les enquêteurs.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1401433",
+      "type": "movie",
+      "name": "Appofeniacs",
+      "poster": "https://image.tmdb.org/t/p/w500/6uKZM73i8HnR3wmrGWzxHtjmvYb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1SlHgHdWLvGowW91Uy4tfWfrbFf.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -136,40 +170,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/n5gSNf55KWfDc9hqP4H1KCCSutE.jpg",
       "background": "https://image.tmdb.org/t/p/w780/bgHW6AJl2SdKzxglvf9tshXbI84.jpg",
       "description": "Une fille découvre le sombre passé de son père après la découverte de son corps, disparu depuis 36 ans, sur une scène de crime horrible.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1423191",
-      "type": "movie",
-      "name": "Resident Evil",
-      "poster": "https://image.tmdb.org/t/p/w500/pICoWjcKSet6sA3yzxOkP8ChwYI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8R79AZjX1Bt4219Ub3CrRMsPQsW.jpg",
-      "description": "Bryan, un coursier médical, est en train d'effectuer une livraison lorsqu'une épidémie soudaine se déclare, le forçant à lutter pour sa survie.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1318467",
-      "type": "movie",
-      "name": "The Last Kiss",
-      "poster": "https://image.tmdb.org/t/p/w500/dkac4rAGzcLwmgDRN5quYKReV5j.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ifAdNCn67jW5y7hcDOUozjRBLU0.jpg",
-      "description": "Laurel avait toujours imaginé que son premier baiser serait digne d'un conte de fées. Mais ce rêve vire au cauchemar lorsqu'elle se retrouve maudite : elle a désormais le pouvoir de voir la mort de toute personne qu'elle embrasse. Après qu'une vision lui a révélé que celui qui lui plaît est condamné à mourir dans une étrange série de meurtres visant ses amis les plus proches, elle se lance dans une course contre la montre pour démasquer le tueur avant que ce mystère ne se transforme en véritable massacre.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1701141",
-      "type": "movie",
-      "name": "Gator Face",
-      "poster": "https://image.tmdb.org/t/p/w500/tUkIHTfiMIa5ipTvgYZW86fIoQX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qLPLBWEyjlpCaNOt3NHiM8dmLAB.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1375161",
-      "type": "movie",
-      "name": "Don't Move",
-      "poster": "https://image.tmdb.org/t/p/w500/uh0ZSdM8iOQgHwnUlhhanP8Dkl6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1b0wNCRLYT3mGwvHyTEbqOk98Ix.jpg",
       "releaseInfo": "2026"
     }
   ]

@@ -1,21 +1,13 @@
 {
   "metas": [
     {
-      "id": "tmdb:75847",
+      "id": "tmdb:14132",
       "type": "series",
-      "name": "The Challenge: Champs vs. Stars",
-      "poster": "https://image.tmdb.org/t/p/w500/cAJeXNocMdjhYOZeTexaW1u7N6o.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/13Tep4QviEbJAb6h58IRA5NgCf1.jpg",
-      "releaseInfo": "2017"
-    },
-    {
-      "id": "tmdb:83151",
-      "type": "series",
-      "name": "Just Tattoo of Us USA",
-      "poster": "https://image.tmdb.org/t/p/w500/9eb7AYA7np1uI8CCTHnDGii3Ef0.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/c6lDJECJ9syCh7mdm42m9GtJXmU.jpg",
-      "description": "Cette émission américaine met à l’épreuve la confiance entre proches : amis, couples ou membres d'une même famille conçoivent des tatouages l’un pour l’autre, invisibles jusqu'à ce qu’ils soient encrés de façon permanente. Suspense, émotions fortes et révélations choquantes garantis !",
-      "releaseInfo": "2018"
+      "name": "Les Nouveaux Detectives",
+      "poster": "https://image.tmdb.org/t/p/w500/uKEfjWxgIjplXjlyb4ojAnaSQA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4RQm2YSIYskAQo0HTKPnQ7BMFpg.jpg",
+      "description": "Des laboratoires de médecine légale du Smithsonian Institute au laboratoire de bombes ATF et à l'Institut de pathologie des forces armées, THE NEW DETECTIVES décrit le travail d'experts légistes.",
+      "releaseInfo": "1996"
     }
   ]
 }

@@ -1,11 +1,12 @@
 {
   "metas": [
     {
-      "id": "tmdb:341769",
+      "id": "tmdb:308007",
       "type": "series",
-      "name": "Valentín: La muerte del Gallo de Oro",
-      "poster": "https://image.tmdb.org/t/p/w500/3g4YJsWrUZ5tB3F3g99pcPHCCIX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9bZk0CshPxaYufswVE21ZOpJ3g7.jpg",
+      "name": "The Altruists",
+      "poster": "https://image.tmdb.org/t/p/w500/hiX70sXdvEPVE11QqmLuaX16gdh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/m8JTMj7jDMJFZAPP1ASmSi4gMWi.jpg",
+      "description": "Jeunes, idéalistes et soudain milliardaires, ils voulaient faire le bien... avant de se pousser au pire. Un amour toxique sur fond d'escroquerie réelle.",
       "releaseInfo": "2026"
     },
     {
@@ -24,6 +25,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/gwoPlr2g3moHYZH05DyRZVgUf6m.jpg",
       "background": "https://image.tmdb.org/t/p/w780/614k6C9doThoMe6GyH0nTnGgLXt.jpg",
       "description": "Lorsqu’une victime du célèbre tueur en série Jurek Walter refait surface en vie, l’enquêteur Jonah Lynn entame une course contre la montre pour retrouver sa dernière proie encore portée disparue. Sa protégée Saga Bauer travaille sous couverture pour faire parler le tueur.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:307176",
+      "type": "series",
+      "name": "Dustfall",
+      "poster": "https://image.tmdb.org/t/p/w500/a7LdXshL4vuCA3LWB2gNNckBIpO.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/q7VXA2jZ88Dvp7TPbqNVWwR94ik.jpg",
+      "description": "Tout juste de retour dans sa ville de North Gap après avoir passé plusieurs années dans la capitale, l’enquêtrice Tig Pollard est chargée de l’affaire d’Edie, une jeune fille de 18 ans retrouvée nue dans un champ de canne à sucre, sans aucun souvenir de la façon dont elle est arrivée là. Ce qui commence comme une affaire d’agression sexuelle prend une tournure de plus en plus sombre, et la quête de vérité de Tig devient personnelle lorsqu’une personne de son passé refait surface, la forçant à affronter des secrets longtemps enfouis de sa propre adolescence.",
       "releaseInfo": "2026"
     },
     {
@@ -153,7 +163,7 @@
       "id": "tmdb:8840",
       "type": "series",
       "name": "Fightland",
-      "poster": "https://image.tmdb.org/t/p/w500/dPHG2GEIFHkjMtswYltBAEU4UK4.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/qRlOEIiwkfLy6ERRMbyQNGQQ6Lc.jpg",
       "background": "https://image.tmdb.org/t/p/w780/a0gOfhPiVGjS55HX9aIXInMVXc5.jpg",
       "description": "Produite par Curtis Jackson aka. \"50 Cent\", cette série dramatique policière vous plonge dans l'univers impitoyable et sans concession de la boxe britannique. L'histoire suit un champion de boxe déchu, ancien détenu, qui revient à Londres pour se venger de la famille mafieuse qu'il tient pour responsable de sa trahison. Starz a commandé huit épisodes. Le tournage vient de commencer à Londres.",
       "releaseInfo": "2026"
@@ -165,15 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/2Fjgxlv2ishFAaYYZLa6jccswbq.jpg",
       "background": "https://image.tmdb.org/t/p/w780/1BosXOwTUudCrE77ayEJSROW8sL.jpg",
       "description": "Au moyen d'images de caméras corporelles, de SMS et de mots de leurs proches, ce documentaire enquête sur le meurtre effroyable de quatre étudiants de l'Université de l'Idaho.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:287238",
-      "type": "series",
-      "name": "Furious",
-      "poster": "https://image.tmdb.org/t/p/w500/dUbeseppeo1XBwTLks8qXyS0fiT.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/iAOPgUlh7inOebFrUFHAjnFRCGS.jpg",
-      "description": "Alice Black, agent du FBI, est à la poursuite d'une mystérieuse tueuse en série, d'un esprit calculateur. Chacune suit son propre chemin vers la justice, et à mesure que leurs vies commencent à s'entremêler, la frontière entre le bien et le mal s'estompe peu à peu.",
       "releaseInfo": "2026"
     }
   ]

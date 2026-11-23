@@ -1,6 +1,33 @@
 {
   "metas": [
     {
+      "id": "tmdb:1613021",
+      "type": "movie",
+      "name": "Camembert",
+      "poster": "https://image.tmdb.org/t/p/w500/6SXZREznWh5vAQCcndzRuu2Q3Se.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/s81ElK32D29xS9B6U44NNYl4qbx.jpg",
+      "description": "Stan, trentenaire d’origine modeste, rencontre pour la première fois la famille de sa petite amie Cléo. Mais le clan Roussel n’est pas exactement comme les autres : France, l’impressionnante maîtresse de maison, est la directrice d’un prestigieux festival de photographie. Autour d’elle gravitent un amant tout aussi brillant et cultivé, un père professeur de philosophie, un fils journaliste, une sœur professeur aux beaux-arts et un neveu en prépa littéraire. Stan découvre alors la tradition familiale : à chaque anniversaire de France, on lance une partie de Trivial Pursuit. Il sait qu’il n’a aucune chance face à ces amoureux de la culture, mais il n’a pas le choix : toute la famille doit participer, sans exception. Qu’est-ce qui pourrait mal tourner ? Après tout ce n’est qu’un jeu de société…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1502759",
+      "type": "movie",
+      "name": "Jupiter",
+      "poster": "https://image.tmdb.org/t/p/w500/cl7wDxqCkEy0IEuvVq47SrH6dn3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/k19Er3Uy5q2ZXocJ0IXSbDvjdBA.jpg",
+      "description": "Fraîchement élu, le président Paul Archambault doit affronter une crise sans précédent : son homologue russe, cible d'un attentat, brandit un ultimatum nucléaire menaçant un allié de la France. Face au risque d'escalade militaire, le président réunit son état-major dans le bunker de l'Elysée. Dans le secret du Poste de Commandement Jupiter, Paul va devoir prendre une décision vertigineuse.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1429602",
+      "type": "movie",
+      "name": "15/18",
+      "poster": "https://image.tmdb.org/t/p/w500/nlqZ62tEobENzeLxNUXANgz8XJa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/GWr6kRbEGppdbGH1huSl0HfV83.jpg",
+      "description": "Lucia, 17 ans, est amenée par la police dans une unité de soins pédopsychiatriques de l’hôpital public. Ici tous les patients ont entre 15 et 18 ans. Lucia connaît l’endroit, elle y a fait de nombreux séjours. Elle retrouve son amie Eloïse, en hospitalisation longue durée, mais aussi Yasmine, Camilia, Ulysse, André… tous ont des pathologies et des parcours différents. Les médecins les soignent, les écoutent, reçoivent leurs parents, tout en gérant un service en surchauffe. Mais un jour, l’arrivée du mystérieux Enzo menace de tout bouleverser.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1193614",
       "type": "movie",
       "name": "Il faut brûler maman",
@@ -28,12 +55,21 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1468846",
+      "type": "movie",
+      "name": "Sanguine",
+      "poster": "https://image.tmdb.org/t/p/w500/fDvZvNmLIwUcKKQ4Cfb6TmQJM7M.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jySTVXi8UDajVgYh01KavKtY4YJ.jpg",
+      "description": "Margot débute son internat aux urgences, où elle peine à s’adapter. Très vite, elle fait face à des patients de son âge aux symptômes inexpliqués. La récurrence de ces cas exceptionnels l’interroge, d’autant qu’elle observe, sur son propre corps, des manifestations de plus en plus inquiétantes…",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1437925",
       "type": "movie",
       "name": "Moulin",
-      "poster": "https://image.tmdb.org/t/p/w500/niEnEAPjqc2Mey6IiVPtBun45ZV.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bcH6CmYcHuPnAQXUhW0Rr5hFuvc.jpg",
-      "description": "Jean Moulin est parachuté en France occupée pour unifier les réseaux de la Résistance, sous l’égide du général de Gaulle. Malgré ses efforts pour rester dans l’ombre, Moulin est trahi puis livré à la Gestapo à Lyon, dirigée par l’impitoyable Klaus Barbie. Torturé sans relâche, il ne cède jamais. Sa détermination silencieuse contribuera à galvaniser les forces de la Résistance et à faire naître un nouvel esprit de combat et de liberté en France…",
+      "poster": "https://image.tmdb.org/t/p/w500/faqSVhkNOiy9QW4vPfhjbJpfmei.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6C4a3Ch5R3tawNplesAmbs2PwKo.jpg",
+      "description": "Juin 1943, Jean Moulin, chef de la Résistance, est arrêté alors qu’il tente de réunifier les forces de l’Armée Secrète Interrogé par Klaus Barbie, le chef de la Gestapo de Lyon, Moulin est entraîné dans une confrontation implacable. Son ultime combat face à la manipulation et la brutalité commence. Le destin de la France libre en dépend.",
       "releaseInfo": "2026"
     },
     {
@@ -68,7 +104,7 @@
       "type": "movie",
       "name": "Les Braves (Coward)",
       "poster": "https://image.tmdb.org/t/p/w500/qy5ytiCeyR9uW5HsLDOFaOQ8yEr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/AmnN2nLZaY9GPHNko5H7M5mqsMG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zrgjYP1YEZUJshVzsIhT63GAoMJ.jpg",
       "description": "Le jeune soldat Pierre veut faire ses preuves sur le front pendant la Première Guerre mondiale. Derrière les lignes, il rencontre Francis, chargé de remonter le moral des troupes.",
       "releaseInfo": "2026"
     },
@@ -86,7 +122,7 @@
       "type": "movie",
       "name": "La Gradiva",
       "poster": "https://image.tmdb.org/t/p/w500/aFrhFiIhdf2klvXq8VFcB06b5pS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dZVZkmzHLnobFszwYZ9DybvhUHW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kt8bR6HCWto7MRzLy1J67OVeOpy.jpg",
       "description": "Un groupe de lycéens français part en voyage scolaire à Naples pour découvrir les ruines de Pompéi et ses corps pétrifiés par le Vésuve. C’est là que le vertige les saisit brutalement. L’un après l’autre, ils se laissent submerger par le désir et la colère jusqu’à s’y abandonner complètement.",
       "releaseInfo": "2026"
     },
@@ -122,7 +158,7 @@
       "type": "movie",
       "name": "Minotaure",
       "poster": "https://image.tmdb.org/t/p/w500/7XH2vaVsishBS0GuCgO3bOXfCaB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/i5HacpkXOKQ85lfbnMO3jXvAnPy.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/m992n3hkPkncKK2n2UDi5FJabRv.jpg",
       "description": "Russie, 2022. Gleb, chef d’entreprise prospère, vit avec sa femme Galina et leur fils dans une ville de province. Il se retrouve confronté à des problèmes professionnels croissants, dans un monde de plus en plus instable. L’effondrement d’une vie soigneusement construite bascule rapidement dans la violence.",
       "releaseInfo": "2026"
     },
@@ -131,7 +167,7 @@
       "type": "movie",
       "name": "Ni vue, ni connue",
       "poster": "https://image.tmdb.org/t/p/w500/GcKNC7T2iYGwUxTXqpmKmIJQ2l.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/a6O9MMak7mHDdxwApf2nGlvIs0g.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/t4LTHXHogaoWaeAj6KuT6MTp8UO.jpg",
       "description": "Corinne Maclou est figurante. Elle enchaîne les tournages, parcourt inlassablement les plateaux dans le seul espoir d’être remarquée et de décrocher enfin un vrai rôle. Lorsqu’elle fait la connaissance de Sandrine Kiberlain, avec qui elle va peu à peu sympathiser, Corinne espère concrétiser son rêve. Mais la célèbre actrice va-t-elle vraiment l'aider à se faire une place au sein de la grande famille du cinéma ?",
       "releaseInfo": "2026"
     },
@@ -142,42 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/eRpP2kcfhvjZPR8dnaUKQE563Dm.jpg",
       "background": "https://image.tmdb.org/t/p/w780/50w3VUxBQge2pUp8COyuGqg6Gqc.jpg",
       "description": "Annie Ernaux est sollicitée pour une signature de son dernier ouvrage dans la ville de son enfance, Rouen. Alors qu'elle s'y rend, elle est prise d'un vertige et replonge dans le souvenir de l'été 1958, celui de sa première nuit avec un homme. Nuit dont l'onde de choc s'est propagée violemment dans son corps et sur le reste de son existence.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1318864",
-      "type": "movie",
-      "name": "Notre salut",
-      "poster": "https://image.tmdb.org/t/p/w500/tFzSSetNzvdaxms6RLfr2pyu9sM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/iQMFLm9Te2IuJTr08RdBLKTGw8n.jpg",
-      "description": "Septembre 1940, le régime de Pétain se met en place. Henri Marre, 49 ans, débarque à Vichy sans le sou, sans contact, loin de sa femme et ses enfants. Il voit dans la nouvelle administration l’opportunité de trouver enfin la place qu’il mérite. Dans sa valise, son traité politique édité à compte d’auteur, Notre Salut, où il défend ses convictions patriotiques et ses méthodes d'ingénieur. Son credo: « gagner en efficacité » pour relever la France de la débâcle. Mais peut-être qu’Henri cherche avant tout à fuir sa propre débâcle…",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1507877",
-      "type": "movie",
-      "name": "Garance",
-      "poster": "https://image.tmdb.org/t/p/w500/lPbCVN8Zlb95Bdney1hqGfgEbDV.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yLZCngaex5380FB6sEy6o10L9wN.jpg",
-      "description": "Garance est une jeune actrice sans être une vedette. Elle gère et assure tout de son mieux, vaillante, joyeuse, soldate, et elle trouve dans l’alcool un carburant, un réconfort, inconditionnel. Garance change de vie et commence alors un parcours de huit ans de déménagements, de travail, de rencontres, de fêtes et d’angoisses, de joies et de coups durs… Une révolution intime, amicale et sexuelle, Mais elle consomme, toujours plus. Jusqu'à la potentialité de la mort..",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1265831",
-      "type": "movie",
-      "name": "Les Roches Rouges",
-      "poster": "https://image.tmdb.org/t/p/w500/6q3zCTkbrHw0AhdfWtK0mTQW9tP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wVJPuSrEsSWWTMzYH1xLClAWSkb.jpg",
-      "description": "Sur la Côte d’Azur, deux bandes d’enfants s’affrontent à leur jeu favori : sauter des rochers rouges de la Méditerranée. Géo, 5 ans à peine, découvre le temps d’un été un monde où l’amitié se mêle à la rivalité, et où les premiers élans du cœur deviennent source de tensions.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1641629",
-      "type": "movie",
-      "name": "Toi+Moi - Seuls contre tous",
-      "poster": "https://image.tmdb.org/t/p/w500/xwzLNsGMh1yDRGOGH58ftPWmfzq.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nkEhDomjmPHJSA4Tx8pxv0NlKEy.jpg",
-      "description": "Dans le dos de ses parents qui la pensent inscrite en droit, Alma Lancaster, jeune femme de bonne famille, s'est donné un an pour poursuivre son rêve de cinéma. Alors qu'elle est contrainte de réaliser un film avec Vadim Arcadi, jeune homme sans attaches, une attirance électrique naît entre eux. Dans l'ombre, une menace invisible les guette, bien décidée à les séparer au risque de tout révéler…",
       "releaseInfo": "2026"
     }
   ]

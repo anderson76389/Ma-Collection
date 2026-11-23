@@ -28,6 +28,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1084409",
+      "type": "movie",
+      "name": "A Talent for Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/6bvxjh0G4q5GrTOGWagYBJ1s7DY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/b3EGc5Ucj7wIeUjFc64Wq4IYgkp.jpg",
+      "description": "La solitude de Patricia Highsmith dans les Alpes suisses est interrompue par Edward, un jeune agent littéraire envoyé par sa maison d'édition pour la convaincre d'écrire un dernier roman de Tom Ripley. Highsmith utilise son imagination macabre pour effrayer Edward, mais avant qu'ils ne s'en rendent compte, une collaboration s'instaure entre eux.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1458099",
       "type": "movie",
       "name": "The Last Pickpocket in New-York",
@@ -75,7 +84,7 @@
       "id": "tmdb:1437396",
       "type": "movie",
       "name": "Your Mother Your Mother Your Mother",
-      "poster": "https://image.tmdb.org/t/p/w500/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/58g3PjU11nBszOWc836lC8t2Mzi.jpg",
       "background": "https://image.tmdb.org/t/p/w780/45Mbs6dmn2W0hvuyxXPDkKREHpP.jpg",
       "description": "À Houston, Latif, tueur à gages musulman et père de trois enfants, perd brutalement sa femme. Lorsque son nouveau-né refuse le lait maternisé, il se lance à la recherche d'Une nourrice, une démarche qui le conduit sur la piste d’un ex-militaire devenu prédicateur radical à la tête d’une milice d’extrême droite. Tandis que son ancien employeur tente de le ramener dans le milieu, Latif est entraîné dans un conflit qui menace sa famille autant que ses convictions.",
       "releaseInfo": "2026"
@@ -99,6 +108,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1378742",
+      "type": "movie",
+      "name": "Drive Through Fire",
+      "poster": "https://image.tmdb.org/t/p/w500/lmQKEJ4Te7CQ5mhnXwr3zCLnOvc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8Tw90S4hVrvUoqmQWDoO6U4toZT.jpg",
+      "description": "L'histoire suit un ancien combattant toxicomane devenu chauffeur de VTC qui aide une passagère terrifiée à échapper à un réseau de traite d'êtres humains au service de clients fortunés.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1530121",
       "type": "movie",
       "name": "The Girl in the River",
@@ -112,7 +130,7 @@
       "type": "movie",
       "name": "By Any Means",
       "poster": "https://image.tmdb.org/t/p/w500/evCy2B3j57AwSNBZqlePjMl3zj3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nw9Q3idNO8EsTPnvr8vBJTpkWGA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1jANqIbqrWJZb8GM5Kb3L6U8iHi.jpg",
       "description": "Un jeune agent noir du FBI est envoyé au Mississippi dans les années 60 afin d’enquêter sur une vague de meurtres brutaux visant des leaders du mouvement des droits civiques. Contraint de faire équipe avec le célèbre tueur à gages de la mafia Greg Scarpa, il se retrouve entraîné dans une traque meurtrière où la frontière entre justice et vengeance devient de plus en plus floue.",
       "releaseInfo": "2026"
     },
@@ -158,24 +176,6 @@
       "name": "All Night Wrong",
       "poster": "https://image.tmdb.org/t/p/w500/jFN9LcCG4a02wRWm2qfJ6nLY8BO.jpg",
       "background": "https://image.tmdb.org/t/p/w780/qmAcOMXT6oyzHntXvPM5jVUYX2n.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1226699",
-      "type": "movie",
-      "name": "The Wrong Girls",
-      "poster": "https://image.tmdb.org/t/p/w500/gqNqOBWuwG2oR4vcn3wQTPLsyiw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/opubkXrPWbXKXIv8hBsiamTmKoM.jpg",
-      "description": "Frankie et Molly, deux meilleures amies vivent au jour le jour, lorsque leur vie bascule dans le chaos à la suite d'une erreur d'identité.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1124142",
-      "type": "movie",
-      "name": "Oklahoma Honey",
-      "poster": "https://image.tmdb.org/t/p/w500/6YCH9yUVO9Fh23WIOORl6JmCpOo.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/sUPFV7bilTqMRILfbUgpbV4Aj9n.jpg",
-      "description": "Au cœur des terres reculées de l’Oklahoma rural, Amziah King, personnage charismatique au talent musical hors du commun, veille sur une bande de marginaux passionnés de bluegrass tout en supervisant la plus importante exploitation apicole de la région. Lorsque sa fille adoptive, dont il était éloigné depuis des années, réapparaît soudainement, Amziah y voit l’occasion de renouer les liens et de bâtir avec elle une entreprise familiale. Mais le monde du miel est sans pitié, et les rivaux d’Amziah menacent de détruire tout ce qu’il a construit.",
       "releaseInfo": "2026"
     }
   ]

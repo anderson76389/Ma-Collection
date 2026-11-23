@@ -1,168 +1,107 @@
 {
   "metas": [
     {
-      "id": "tmdb:1095802",
+      "id": "tmdb:354765",
       "type": "movie",
-      "name": "Swans: Mystery of the Missing",
-      "poster": "https://image.tmdb.org/t/p/w500/7sl9JNfOxI5oHiTuKVxiKzN4N1G.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nxsgTCZQ3i91hNByFnAkYMi9jwx.jpg",
+      "name": "The Saturn V Story",
+      "poster": "https://image.tmdb.org/t/p/w500/A8kH29EmThbxbLQtJjEOPs7e8f1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mtQ5KBWwJQfVDscUU7xH7WifDIE.jpg",
+      "description": "D'une idée audacieuse à un triomphe américain, ce documentaire suit la création historique de la fusée qui a transporté les premiers astronautes sur la Lune.",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tmdb:368496",
+      "type": "movie",
+      "name": "Angkor redécouvert",
+      "poster": "https://image.tmdb.org/t/p/w500/ldk6BH0sFqNG9DlFblNWCmvuZvA.jpg",
+      "description": "\"Imaginez toutes les cathédrales de France réunies dans une grande forêt.\" Au Cambodge, la forêt tropicale a envahi l'ancienne capitale khmère, mais les vestiges des sanctuaires érigés par les souverains successifs, entre le VIIIe siècle et l'abandon d'Angkor en 1431, témoignent de son influence passée. Comment la cité est-elle née et s'est-elle développée jusqu'à devenir la plus grande ville jamais édifiée au XIIIe siècle ? Près de cent cinquante ans après leur découverte, ses ruines émouvantes et spectaculaires commencent tout juste à livrer leurs secrets. Grâce à un laser révolutionnaire, des scientifiques ont réussi à relever les empreintes laissées par les bâtiments disparus, et à reconstituer la topographie des lieux et les vagues d'expansion de la ville.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tmdb:275004",
+      "type": "movie",
+      "name": "Le Cerveau d'Hugo",
+      "poster": "https://image.tmdb.org/t/p/w500/aYXmZvqbl5ceLVypy1wzaTbjpOm.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/e9ozcVn95Jo6g0FzqbMF1x12qSa.jpg",
+      "description": "Le Cerveau d'Hugo est un documentaire-fiction français réalisé par Sophie Révil en 2012, portant sur l'autisme. Il croise des témoignages d'authentiques autistes avec une fiction retraçant la vie d'un autiste, Hugo, depuis l'enfance jusqu'à l'âge adulte, en dépeignant les difficultés qu'il rencontre ainsi que son entourage. Le rôle d'Hugo est tenu par l'acteur Thomas Coumans.\r Ce documentaire prend sa place dans une évolution de la vision portée sur l'autisme, aussi bien par les professionnels de santé que par l'ensemble de la population, et où le rôle de causes biologiques est de plus en plus mis en avant par la Haute Autorité de santé, au détriment d'une approche purement psychanalytique jusque-là dominante en France.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:973939",
+      "type": "movie",
+      "name": "Discovering Hamlet",
+      "poster": "https://image.tmdb.org/t/p/w500/a5kud2OxOEAJbanJvG0dZ7GzaNh.jpg",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:654276",
+      "type": "movie",
+      "name": "Gauguin: A Dangerous Life",
+      "poster": "https://image.tmdb.org/t/p/w500/4MV1eshzuLB0khwp3YDnkKBe1d3.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iDnwOyzvJPfVEoL3etB1nrBLQ4r.jpg",
       "releaseInfo": "2019"
     },
     {
-      "id": "tmdb:765425",
+      "id": "tmdb:418047",
       "type": "movie",
-      "name": "Here Comes a New Challenger",
-      "poster": "https://image.tmdb.org/t/p/w500/bpUntfeRrW8ioTlao4Cl3Nr8RNG.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/7Y16Ii03l5SKuePdeLLfRJJ8UF1.jpg",
-      "releaseInfo": "2023"
+      "name": "The Secret Life of Chaos",
+      "poster": "https://image.tmdb.org/t/p/w500/9wzBuTuxUmgxdZ37WQ4oWeISqY8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fOqpZEZlpeg90m1DLbsA9DdaH5B.jpg",
+      "releaseInfo": "2010"
     },
     {
-      "id": "tmdb:959668",
+      "id": "tmdb:611844",
       "type": "movie",
-      "name": "A Tear in the Sky",
-      "poster": "https://image.tmdb.org/t/p/w500/eDnnHlhTCd70hUihcoeHYIDNyci.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4NAYRXQKSy7GgP09DOirPce8AmL.jpg",
-      "description": "A Tear in the Sky (\"Une Larme dans le Ciel\" en français) vous emmène dans un voyage sans précédent sur le phénomène UAP/OVNI en suivant une équipe d'experts, de scientifiques et de militaires de renommée mondiale qui tenteront de percer les mystères UAP/OVNI à l'aide d'équipements et de technologies de pointe, de niveau militaire. Bien que le phénomène OVNI existe depuis l'aube de l'histoire, très peu de recherches scientifiques sont accessibles au public. La plupart des recherches sérieuses sont menées par divers gouvernements et armées à travers la planète. Ce film est un documentaire sur la façon dont une équipe de vétérans de l'armée, de scientifiques et de chercheurs se réunissent et lancent une enquête sur ce monde fascinant de l'inconnu tout en fournissant les données et les résultats au public.",
-      "releaseInfo": "2022"
-    },
-    {
-      "id": "tmdb:422443",
-      "type": "movie",
-      "name": "冲天",
-      "poster": "https://image.tmdb.org/t/p/w500/uROvg8eT5xSb1CwX27ktML45Im7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xurvD2saY3x90M35kMzvlU8SPhW.jpg",
-      "releaseInfo": "2015"
-    },
-    {
-      "id": "tmdb:121135",
-      "type": "movie",
-      "name": "Jim Jones : la vraie histoire d'un gourou meurtrier",
-      "poster": "https://image.tmdb.org/t/p/w500/dtF1GosUnJyOtYuhTxCIi6KimW.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ziZqwzrXhejnKg1K8wEfPWLj260.jpg",
-      "description": "Le 18 novembre 1978, Jim Jones, le gourou de la secte du Temple du Peuple ordonne le suicide collectif de plus de 900 personnes au Guyana, petit pays d'Amérique du Sud. Ces adeptes, dont des enfants, ont ingéré du cyanure pour mettre fin à leurs jours. Après quelques jours, les toutes premières vidéos et photos de ce terrible drame sont diffusées dans les journaux du monde entier. Retour sur l'histoire de Jim Jones et d'une tragédie humaine survenue il y a quarante-quatre ans.",
-      "releaseInfo": "2007"
-    },
-    {
-      "id": "tmdb:860172",
-      "type": "movie",
-      "name": "Playing Frisbee in North Korea",
-      "poster": "https://image.tmdb.org/t/p/w500/kTe89Bauqyz7cMfGU1VdiGACuzE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8hDYZ61z9LV8IzAiBIgZqnLEIpq.jpg",
-      "releaseInfo": "2021"
-    },
-    {
-      "id": "tmdb:794880",
-      "type": "movie",
-      "name": "The Family: Inside the Manson Cult",
-      "poster": "https://image.tmdb.org/t/p/w500/vddTYeo0wa7IWz13HSoWuKKE0Dp.jpg",
-      "releaseInfo": "2009"
-    },
-    {
-      "id": "tmdb:1155576",
-      "type": "movie",
-      "name": "Manufacturing Death: Birth of the Atom Bomb",
-      "poster": "https://image.tmdb.org/t/p/w500/iZwDk5O7uwsuM5ihAUNh5Mm4RI7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/n99gKvvWlkWHr5RiWhHixX2TaGR.jpg",
-      "description": "La naissance de la bombe atomique a changé le monde pour toujours. L'avènement des armes nucléaires a non seulement mis fin au plus grand conflit de l'histoire, mais a également inauguré une ère atomique et une ère déterminante de la «grande science».",
-      "releaseInfo": "2023"
-    },
-    {
-      "id": "tmdb:473288",
-      "type": "movie",
-      "name": "Caligula with Mary Beard",
-      "poster": "https://image.tmdb.org/t/p/w500/tLfmeW7GlIYdYUaY5mD9Vu0pspI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/h4begfthPSAt7vSbYsfSffmdM5J.jpg",
-      "releaseInfo": "2013"
-    },
-    {
-      "id": "tmdb:882411",
-      "type": "movie",
-      "name": "Lise Meitner, mère de la bombe atomique",
-      "poster": "https://image.tmdb.org/t/p/w500/rEKZhfIQpIQVC0QM8N1mFHXuK90.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pYuFnU8yiwllIkjmkmVPq3E1GzO.jpg",
-      "description": "Lise Meitner fut surnommée « la Marie Curie allemande » par Einstein. D’abord étudiante à Vienne, cette scientifique pacifiste mène ses travaux de recherche en Allemagne et découvre en 1938 la fission nucléaire à l’origine du processus de la bombe atomique. Malgré son génie, la physicienne sera oubliée des Prix Nobel au profit d’hommes qui ont collaboré à ses côtés.",
-      "releaseInfo": "2013"
-    },
-    {
-      "id": "tmdb:606645",
-      "type": "movie",
-      "name": "Crownsville Hospital: From Lunacy to Legacy",
-      "poster": "https://image.tmdb.org/t/p/w500/2KKFf0gKxWQTGJhGl8GuTwr1rLU.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yUYsSNpm9u07vL6Agxssvrkebhr.jpg",
+      "name": "Eva: A-7063",
+      "poster": "https://image.tmdb.org/t/p/w500/aui6QZvKPTluRr7GWEIJMHd7Ado.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2HVIxAEzEz64NPunsGXPGYDKqUl.jpg",
       "releaseInfo": "2018"
     },
     {
-      "id": "tmdb:1114187",
+      "id": "tmdb:1551196",
       "type": "movie",
-      "name": "Doolittle's Raiders: A Final Toast",
-      "poster": "https://image.tmdb.org/t/p/w500/mmlV9ct3BEvawYixEdYti10vIs8.jpg",
-      "releaseInfo": "2015"
+      "name": "Manchester Concert Bombing: Minute by Minute",
+      "poster": "https://image.tmdb.org/t/p/w500/yWjblEDTR80sMwj2wi7jsRBWmft.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r1p8TAyJzILLE0oHUxSWCPtuV7B.jpg",
+      "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:827152",
+      "id": "tmdb:580174",
       "type": "movie",
-      "name": "Fidel Castro, une vie pour la révolution",
-      "poster": "https://image.tmdb.org/t/p/w500/diN7xQaW1e9l1T6zwrruljjy8NM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vnnhEfqOts2JUkZzPjxiAN1YVCV.jpg",
-      "description": "Castro a survécu à des générations de présidents américains, de secrétaires généraux soviétiques, de directeurs de la CIA et d'assassins potentiels. Ce film propose un profil psychologique du révolutionnaire cubain et un récit profondément intimiste de sa vie à partir de lettres privées, de correspondances, de discours et d'interviews. Il présente des entretiens avec certains des parents les plus proches de Fidel Castro, des amis proches et des ennemis dévoués.",
-      "releaseInfo": "2004"
+      "name": "A Slow Odyssey: The Great Wall of China",
+      "poster": "https://image.tmdb.org/t/p/w500/g08fAzqGBAOB64dYOJOWO7N1xvg.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/oQINIU2fv1b6zNlhwO8euXXdSjF.jpg",
+      "releaseInfo": "2019"
     },
     {
-      "id": "tmdb:1330551",
+      "id": "tmdb:250667",
       "type": "movie",
-      "name": "David Attenborough: A Life on Earth",
-      "poster": "https://image.tmdb.org/t/p/w500/rAOm63uW7DezgetdcFlOiAEmmxA.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/drwcdy99h5PIASdw98864M1fBjX.jpg",
-      "releaseInfo": "2023"
+      "name": "Private Violence",
+      "poster": "https://image.tmdb.org/t/p/w500/kNxJcEFypAQrjc9ePfpxv7tvIrd.jpg",
+      "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:1024472",
+      "id": "tmdb:983304",
       "type": "movie",
-      "name": "In Plain Sight: The Intelligence Community and UFOs",
-      "poster": "https://image.tmdb.org/t/p/w500/qFzTfkC43OYCrlEBmid5ZTImd0T.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/glHrwDUwjMC0Hrd7rtDV0vynCDr.jpg",
+      "name": "A Flash of Beauty: Bigfoot Revealed",
+      "poster": "https://image.tmdb.org/t/p/w500/zEq5yTWDg2fPXgGkweInFK1nbTK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xsU8CNhOu8wXNcBLVQkZundcJDt.jpg",
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:753186",
+      "id": "tmdb:625437",
       "type": "movie",
-      "name": "六人：泰坦尼克上的中国幸存者",
-      "poster": "https://image.tmdb.org/t/p/w500/3PF9m61x9SjwHIJdwuhxUuLerfW.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hRDFEagWTiWhaBsMoaKBjboX04S.jpg",
-      "releaseInfo": "2021"
+      "name": "Eruption",
+      "poster": "https://image.tmdb.org/t/p/w500/yVeR0ry6QsXabMLnOCHkpRI5hNx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eMRVGUvaszyPPWOTtbqf8RcSK56.jpg",
+      "releaseInfo": "2009"
     },
     {
-      "id": "tmdb:375116",
+      "id": "tmdb:398120",
       "type": "movie",
-      "name": "Le Noël de LEGO",
-      "poster": "https://image.tmdb.org/t/p/w500/yvwHWBOxcqNq4Slw1730IltIzfH.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yoPdmdmqoH26wCxHXUb49Md2289.jpg",
-      "description": "Direction Londres pour découvrir les derniers préparatifs avant l'ouverture de la plus grande boutique LEGO au monde. Le documentariste suit également la construction LEGO la plus imposante qui existe : un modèle géant du Tower Bridge de Londres qui a nécessité plus de six millions de briques !",
+      "name": "North Korea: The Great Illusion",
+      "poster": "https://image.tmdb.org/t/p/w500/zfimTNltZlQfJojgzYfCfEMINmK.jpg",
       "releaseInfo": "2015"
-    },
-    {
-      "id": "tmdb:456544",
-      "type": "movie",
-      "name": "JFK: The Making of a President",
-      "poster": "https://image.tmdb.org/t/p/w500/uEeEmbs9eRDCCq7EVUXxa9daNjH.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/lLcNtVnYQazSPVNVFBJBlzf3c7Y.jpg",
-      "releaseInfo": "2017"
-    },
-    {
-      "id": "tmdb:349086",
-      "type": "movie",
-      "name": "Bitcoin: The End of Money as We Know It",
-      "poster": "https://image.tmdb.org/t/p/w500/cWrR0aGwodD4bXjSwBFVvwKvw1k.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/acrobzwFeqaK4sMbxxBp4ULY9CH.jpg",
-      "releaseInfo": "2015"
-    },
-    {
-      "id": "tmdb:1022316",
-      "type": "movie",
-      "name": "Hollywood Signs",
-      "poster": "https://image.tmdb.org/t/p/w500/hO1ZFcvjKmGrf2pKW1iioL5bHFJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xGzzLtUd1Fh9B3FgMpRHIDRN2CW.jpg",
-      "releaseInfo": "2022"
     }
   ]
 }

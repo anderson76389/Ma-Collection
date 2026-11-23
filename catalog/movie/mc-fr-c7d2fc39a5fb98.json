@@ -1,11 +1,20 @@
 {
   "metas": [
     {
+      "id": "tmdb:1595124",
+      "type": "movie",
+      "name": "Sœurs de sort",
+      "poster": "https://image.tmdb.org/t/p/w500/2rOCe6L9qwFoakYrWFVnICSbmLK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/g1bEboMx1a8JCg1jXeDCh24RtgW.jpg",
+      "description": "Dans cette comédie d'action décalée, Lilith, la \"méchante\" demi-sœur de Cendrillon, vole la baguette de Marraine la bonne fée et bouleverse le conte tel que nous le connaissons.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1780407",
       "type": "movie",
       "name": "Snoopy présente : les 12 jours de Noël",
       "poster": "https://image.tmdb.org/t/p/w500/uJ3Eb4zUtF1KFD5zd8CiYaFXWuu.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/a3DzS9AUB6AgYiELaeTn2n8EfNz.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3gIGgmK27lt3YK9EUnZ6iXMHg7Q.jpg",
       "description": "Afin de ne plus figurer sur la liste noire du père Noël, Snoopy fait de son mieux pour avoir une conduite irréprochable.",
       "releaseInfo": "2026"
     },
@@ -13,9 +22,18 @@
       "id": "tmdb:1559980",
       "type": "movie",
       "name": "Le Gospel de Noël",
-      "poster": "https://image.tmdb.org/t/p/w500/ihbN6lNDXKe6w9xE6IBFMVF2Rkr.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/xNF1YWXFIqIx5XriMSFLq6X7MSt.jpg",
       "background": "https://image.tmdb.org/t/p/w780/p1Ag7etCR5yUvElhwZmWsMo5IFu.jpg",
       "description": "Un pasteur en proie au doute emménage avec sa famille dans un quartier difficile de New York, où ils doivent sauver une église délabrée de la fermeture avant Noël.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1760311",
+      "type": "movie",
+      "name": "Barbie dans Casse-Noisette",
+      "poster": "https://image.tmdb.org/t/p/w500/suSGUJNCgdVVjCXcJBDtjKxWTlg.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aDc3Kd0nvII9feQjV0464jIO0ra.jpg",
+      "description": "Dans une réinterprétation de \"Casse-Noisette\", Barbie traverse des contrées enchantées pour sauver Ken des griffes du Roi des Rats et découvrir la magie qui est en elle.",
       "releaseInfo": "2026"
     },
     {
@@ -23,7 +41,7 @@
       "type": "movie",
       "name": "Le Chat Chapeauté",
       "poster": "https://image.tmdb.org/t/p/w500/jBcFgdERUGw0au9fYZc5X9M8Dfs.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/56Bepb58k71UUTVwKN1SxHmfzPK.jpg",
       "description": "Le Chat se voit confier sa mission la plus difficile jusqu'à présent... aider deux frères et sœurs qui ont du mal à s'installer dans une nouvelle ville.",
       "releaseInfo": "2026"
     },
@@ -69,6 +87,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/txvVTbY1cAsBe5tPX9c5m5SM3ml.jpg",
       "background": "https://image.tmdb.org/t/p/w780/2o9FzuBzCqrDTdlHRuEVnGD2d5h.jpg",
       "description": "Pendant qu'elles passent une dernière soirée ensemble avant de s'engager sur des voies différentes, Jo et Raissa, amies depuis toujours, trouvent un portail mystérieux qui les transporte sur Nakali, une île mythique peuplée de créatures magiques dont leurs familles philippines leur ont parlé. Alors qu'elles cherchent à rentrer chez elles, Jo et Raissa découvrent que leurs souvenirs sont en péril. Réussiront-elles à quitter l'île avant de s'oublier l'une l'autre ?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1572116",
+      "type": "movie",
+      "name": "Monster Mia",
+      "poster": "https://image.tmdb.org/t/p/w500/rlAFhlAdaUoujDxWRxBCVwM8esY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -150,33 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/fN4YJFr6d1Zx2fNBlzGLyShO6sc.jpg",
       "background": "https://image.tmdb.org/t/p/w780/c6BPbkO5Npt1OdwttAxCFo06wtH.jpg",
       "description": "Répondant à l'appel de l'océan, Vaiana s'aventure pour la première fois par-delà le récif de son île de Motunui. Accompagnée du célèbre demi-dieu Maui, elle embarque pour un voyage inoubliable destiné à permettre à son peuple de retrouver sa prospérité.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1315772",
-      "type": "movie",
-      "name": "Des Minions et des Monstres",
-      "poster": "https://image.tmdb.org/t/p/w500/vuxZITXEqsBHBUhc1TKEU8mxvc.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg",
-      "description": "Une histoire aussi rocambolesque qu’absurde, mais bien sûr totalement véridique, qui raconte comment les Minions, partis à la conquête d’Hollywood, sont devenus des stars de cinéma, pour finalement tout perdre en libérant au passage une bande de monstres déchaînés, avant de s’unir pour tenter de sauver la planète de ce nouveau désastre à leur actif.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1084244",
-      "type": "movie",
-      "name": "Toy Story 5",
-      "poster": "https://image.tmdb.org/t/p/w500/zuqFWxKEwSCBuEihtRWbC9tri7R.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qjTqY5coNiz6sVtPng40IzltsoN.jpg",
-      "description": "Buzz, Woody, Jessie et le reste de la bande verront leur travail remis en question lorsqu'ils découvriront que ce qui obsède les enfants d'aujourd'hui s’appelle... l'électronique !",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1662414",
-      "type": "movie",
-      "name": "Vol de nuit pour Los Angeles",
-      "poster": "https://image.tmdb.org/t/p/w500/szQPIA23wit2FvTsxIjxmHqdhVE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ldUVeDfA5ID2vchHGejrEltoBSN.jpg",
-      "description": "En plein âge d'or de l'aviation, un jeune amateur d'avions et sa mère embarquent pour un périple à travers le pays jusqu'à Hollywood. Ce vol deviendra le voyage d'une vie.",
       "releaseInfo": "2026"
     }
   ]

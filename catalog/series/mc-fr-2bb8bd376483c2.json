@@ -100,15 +100,6 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:313298",
-      "type": "series",
-      "name": "Les Dinosaures",
-      "poster": "https://image.tmdb.org/t/p/w500/8HmHtc8jRKCe83Uj1q7l216Bftz.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8X2R9uLys3SmkRuQAmSI96xxJAF.jpg",
-      "description": "Du premier dinosaure au tout dernier, cette série documentaire épique étudie les 165 millions d'années qu'ils ont passées sur Terre et les forces qui ont forgé leur évolution.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:219080",
       "type": "series",
       "name": "The Mighty Nein",
@@ -177,6 +168,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/4arTlVw8oceZDOhGv9GFrgGztUq.jpg",
       "background": "https://image.tmdb.org/t/p/w780/lqsufP0yMhQ04SZx3ZlXTay4whw.jpg",
       "description": "Une mère célibataire reprend l'hôtel qu'elle a hérité de son frère décédé, et doit vivre avec son fantôme bienveillant... et des clients exigeants qui ne quitteront jamais les lieux.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:262375",
+      "type": "series",
+      "name": "Long Story Short",
+      "poster": "https://image.tmdb.org/t/p/w500/22nh2kTuFpitrqTxxixhWjxEqFa.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/eqZjZGHa1mZYBPHUHOX2LSzzCsS.jpg",
+      "description": "Le créateur de \"BoJack Horseman\" signe cette comédie d'animation qui suit la vie d'une famille sur plusieurs années, de l'enfance à l'âge adulte et inversement.",
       "releaseInfo": "2025"
     }
   ]

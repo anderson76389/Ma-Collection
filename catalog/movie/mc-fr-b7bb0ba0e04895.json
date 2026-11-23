@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:1568027",
+      "type": "movie",
+      "name": "קופה ראשית: הסרט",
+      "poster": "https://image.tmdb.org/t/p/w500/5fFgTGCuL9hcGNN5dhVzF37C75l.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3mWDbDn7piiznyEDysEHMGeJldI.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1426083",
       "type": "movie",
       "name": "Escobank",
@@ -79,10 +87,20 @@
       "releaseInfo": "2024"
     },
     {
+      "id": "tmdb:1245605",
+      "type": "movie",
+      "name": "Supernova: The Music Festival Massacre",
+      "poster": "https://image.tmdb.org/t/p/w500/wzpse4wezfR7j9rZX7T1WaivXRr.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/nw90MlOQZetyZ580433yOINxLYc.jpg",
+      "description": "Ce film propose une rétrospective des 24 heures du festival Nova à Re'im, à travers le regard de jeunes individus qui ont vécu l'horreur.",
+      "releaseInfo": "2023"
+    },
+    {
       "id": "tmdb:1214861",
       "type": "movie",
-      "name": "נובה",
+      "name": "#NOVA",
       "poster": "https://image.tmdb.org/t/p/w500/8AnwV7Kq68mBZ5ZFBg5byQx7xhP.jpg",
+      "description": "Ce documentaire est composé exclusivement d'images filmées par des personnes présentes au festival de musique Nova lorsque le massacre a débuté le 7 octobre.",
       "releaseInfo": "2023"
     }
   ]

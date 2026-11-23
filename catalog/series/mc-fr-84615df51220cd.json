@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:299764",
+      "type": "series",
+      "name": "뜨거운 안녕",
+      "poster": "https://image.tmdb.org/t/p/w500/dJa6CReOqtLDsYdwBS0hW8NgDlD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uh1RVXu8o2nQ1WP5Gnl5pO8p6nF.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:303745",
       "type": "series",
       "name": "L'amour sous couverture",
@@ -80,6 +88,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:325056",
+      "type": "series",
+      "name": "스트릿 레스토랑 파이터",
+      "poster": "https://image.tmdb.org/t/p/w500/5ju5LdZX3dxCP8AvqvcLT3tVVuk.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6Cw6swnE9qTEvOwJ3XnXjQ4SeGU.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:323962",
       "type": "series",
       "name": "콩 심은 데 콩 나는 가고팜 하고팜 동물농장",
@@ -152,23 +168,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/1pLexZdnLLFIgvJNCu00kRN6VLB.jpg",
       "background": "https://image.tmdb.org/t/p/w780/dWSR0GpWsgnLZCEe6bGZZIzw8YP.jpg",
       "description": "« L'aimer, c'est mourir. » Cha Woo-seok, un enquêteur d'assurances, s'intéresse à des morts liées à Han Seol-ah, une commissaire-priseuse. Après la mort d'une collègue et de plusieurs anciens amants de Han Seol-ah, il la soupçonne d'être une victime. Se faisant passer pour un couple afin de découvrir la vérité, ils basculent dans un monde de contrefaçons, de fraudes et de meurtres cupides.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:313484",
-      "type": "series",
-      "name": "방과후 태리쌤",
-      "poster": "https://image.tmdb.org/t/p/w500/9JGUuze9MX0Q05aLOFgZgtzY3I4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/x3H2AZIIjcIYBBpLvcbS4cDt1ok.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:297424",
-      "type": "series",
-      "name": "Our Universe",
-      "poster": "https://image.tmdb.org/t/p/w500/vrIZeRKCm4BRWbnRdbUUABeuQsr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bHv9tTPd0dxpV2OD3WeDoZOFzPQ.jpg",
-      "description": "La travailleuse acharnée Woo Hyun Jin (Roh Jeong Eui) et le rebelle Sun Tae Hyung (Bae In Hyuk) ne se croisent normalement pas, mais leurs vies se retrouvent entremêlées quand leurs frère et sœur aînés décident de se marier. Mais trois ans plus tard, un tragique accident de voiture bouleverse tout : devenus les tuteurs de leur neveu commun Woo Joo, ils doivent apprendre à cohabiter.",
       "releaseInfo": "2026"
     }
   ]

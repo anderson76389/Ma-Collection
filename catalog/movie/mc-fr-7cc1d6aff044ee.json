@@ -27,6 +27,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1477572",
+      "type": "movie",
+      "name": "Le Bois de Klara",
+      "poster": "https://image.tmdb.org/t/p/w500/i4gSfOLkH4AZfvhcKnOVUAWc0xv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9iaR3WkC94AqRwGA6nNSHPN3Sxa.jpg",
+      "description": "Une maison située au bord d'un lac près de Berlin devient le témoin d'un siècle d'événements qui ont remodelé le monde qui l'entoure : la montée du nazisme et les ravages de la guerre, l'occupation soviétique, la réunification de l'Allemagne et l'aube d'une ère nouvelle.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1752355",
       "type": "movie",
       "name": "Schumacher '94 – La naissance d'une légende",
@@ -36,11 +45,29 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1473148",
+      "type": "movie",
+      "name": "Gentle Monster",
+      "poster": "https://image.tmdb.org/t/p/w500/dF4ksezer1vOR3nsnyR4ZCIZakK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/A8ZP4aE0gq9FrHydF9HU4LCmrtF.jpg",
+      "description": "Lucy et Philip sont heureux, ils viennent d’emménager avec leur fils dans une maison de campagne près de Munich. Un matin, leur vie bascule lorsque la police se présente à leur domicile pour arrêter Philip et saisir ses ordinateurs. Bouleversée, Lucy cherche la vérité sur son mari. Qui est-il réellement ? Doit-elle l’éloigner de son fils ?",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1553672",
       "type": "movie",
       "name": "Das gewisse Etwas",
       "poster": "https://image.tmdb.org/t/p/w500/dJnkqo2KE5s5zqRQsg5kvGMMHC1.jpg",
       "background": "https://image.tmdb.org/t/p/w780/psKWMzfuVZ28TGXiyhmKni5jRsf.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1599784",
+      "type": "movie",
+      "name": "Poursuite",
+      "poster": "https://image.tmdb.org/t/p/w500/jrlfxna2TAVQUhWjbGm0I9GjN1e.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/siifAFhxsc8hwn4lru4GtdQ5OkN.jpg",
+      "description": "Après avoir survécu à une attaque raciste, la procureure d’État Seyo Kim porte elle-même son affaire devant la justice – affrontant à la fois les auteurs et un système judiciaire qui ferme les yeux sur l’extrémisme de droite.",
       "releaseInfo": "2026"
     },
     {
@@ -146,32 +173,6 @@
       "name": "Ein Sommer in Italien – WM 1990",
       "poster": "https://image.tmdb.org/t/p/w500/j7QvlPXWzOKis1HpHKGbmWZ9WX7.jpg",
       "background": "https://image.tmdb.org/t/p/w780/nGM6watTStvZvyZLgN4SedLqKhS.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1649887",
-      "type": "movie",
-      "name": "Devenir Shirin David",
-      "poster": "https://image.tmdb.org/t/p/w500/pn9IFXqFcF58SfdOgq6FqMBs2oS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/1GcvTLDwlVPk1SUc7LVdLGaOywo.jpg",
-      "description": "Shirin David. Babsi. Barbara. Découvrez la femme derrière la star du rap, qui jongle entre la célébrité, les affaires et son identité dans ce documentaire intime et émouvant.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1249152",
-      "type": "movie",
-      "name": "Seule la vie",
-      "poster": "https://image.tmdb.org/t/p/w500/fHNoUt8bTg5bRr56MUjXYdBpltc.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/sVTrej8EtW6TtSQPuvtZumikGYO.jpg",
-      "description": "Barbara et Heli sont amoureux et heureux. Clowns professionnels, ils savent rire de tout et mènent une vie joyeuse avec leurs 2 enfants. Quand un accident emporte Héli et les enfants, Barbara doit trouver un nouveau chemin. Portée par les souvenirs qu’elle chérit, elle prouve que l’amour ne meurt jamais et qu’il faut toujours oser embrasser la vie.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1223747",
-      "type": "movie",
-      "name": "Ein fast perfekter Antrag",
-      "poster": "https://image.tmdb.org/t/p/w500/enPFyKfbcy3Lyrdsvc0FXay9HRb.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/76mKQUn3q5VJVJHI2RmQ4l5vfA3.jpg",
       "releaseInfo": "2026"
     }
   ]

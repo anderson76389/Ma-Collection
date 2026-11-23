@@ -1,20 +1,30 @@
 {
   "metas": [
     {
+      "id": "tmdb:1595124",
+      "type": "movie",
+      "name": "Sœurs de sort",
+      "poster": "https://image.tmdb.org/t/p/w500/2rOCe6L9qwFoakYrWFVnICSbmLK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/g1bEboMx1a8JCg1jXeDCh24RtgW.jpg",
+      "description": "Dans cette comédie d'action décalée, Lilith, la \"méchante\" demi-sœur de Cendrillon, vole la baguette de Marraine la bonne fée et bouleverse le conte tel que nous le connaissons.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1780407",
+      "type": "movie",
+      "name": "Snoopy présente : les 12 jours de Noël",
+      "poster": "https://image.tmdb.org/t/p/w500/uJ3Eb4zUtF1KFD5zd8CiYaFXWuu.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3gIGgmK27lt3YK9EUnZ6iXMHg7Q.jpg",
+      "description": "Afin de ne plus figurer sur la liste noire du père Noël, Snoopy fait de son mieux pour avoir une conduite irréprochable.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1117898",
       "type": "movie",
       "name": "Le Chat Chapeauté",
       "poster": "https://image.tmdb.org/t/p/w500/jBcFgdERUGw0au9fYZc5X9M8Dfs.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/56Bepb58k71UUTVwKN1SxHmfzPK.jpg",
       "description": "Le Chat se voit confier sa mission la plus difficile jusqu'à présent... aider deux frères et sœurs qui ont du mal à s'installer dans une nouvelle ville.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1802674",
-      "type": "movie",
-      "name": "Hot Wheels La course est lancée! L'attaque du T-Rex",
-      "poster": "https://image.tmdb.org/t/p/w500/iIc0OkYnf06kv5Zp0IYVwuvffgh.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dK69ml1Y34MrEovK4ZyizRiWbEH.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -24,6 +34,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/shb3OmIQACcqhRvIcXuba26cP0l.jpg",
       "background": "https://image.tmdb.org/t/p/w780/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
       "description": "Prue, une jeune fille courageuse, part à la recherche de son petit frère, enlevé et retenu dans la forêt interdite peuplée de créatures enchantées, d’alliés inattendus et d’adversaires redoutables. Ce qui débute comme une quête intime se transforme rapidement en une aventure spectaculaire aux enjeux colossaux, et c’est le destin de tout un monde caché qui dépend désormais de ses choix.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1802674",
+      "type": "movie",
+      "name": "Hot Wheels La course est lancée! L'attaque du T-Rex",
+      "poster": "https://image.tmdb.org/t/p/w500/iIc0OkYnf06kv5Zp0IYVwuvffgh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dK69ml1Y34MrEovK4ZyizRiWbEH.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -71,6 +89,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1560520",
+      "type": "movie",
+      "name": "Batman Knightfall - Partie 1",
+      "poster": "https://image.tmdb.org/t/p/w500/8hsSCYpO5XFSAVnn70YehKslgFt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/caBIySpwuFi2i7ynvHIlnxJLOdN.jpg",
+      "description": "L'asile d'Arkham a été détruit et ses détenus se déchaînent sur Gotham City. Alors que Batman se lance dans une course contre la montre pour appréhender certains de ses pires ennemis, il est poussé au bout de ses limites physiques et mentales et se retrouve confronté à une nouvelle menace : l'homme appelé Bane !",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1204680",
       "type": "movie",
       "name": "Coyote vs. Acme",
@@ -111,7 +138,7 @@
       "type": "movie",
       "name": "Simpsley",
       "poster": "https://image.tmdb.org/t/p/w500/xzmJsuoYQzi3jhijL9zIoFvOmzL.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2vl4nyxi1zVtiqYqJkbP8yTMOQV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xA2uHYgb5RCVPdFe1acQqOB3EhD.jpg",
       "description": "Lorsque Marge Bouvier, une escroc sans le sou, est envoyée en Italie pour convaincre le riche et naïf Seymour Skinner de rentrer au pays, elle est tentée par les signes extérieurs de richesse. Mais un grain de sable vient enrayer la machine : Homer Simpsley, l'invité collant et idiot de Skinner. Mensonges, luxure et lires italiennes sont au rendez-vous.",
       "releaseInfo": "2026"
     },
@@ -122,15 +149,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/vuxZITXEqsBHBUhc1TKEU8mxvc.jpg",
       "background": "https://image.tmdb.org/t/p/w780/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg",
       "description": "Une histoire aussi rocambolesque qu’absurde, mais bien sûr totalement véridique, qui raconte comment les Minions, partis à la conquête d’Hollywood, sont devenus des stars de cinéma, pour finalement tout perdre en libérant au passage une bande de monstres déchaînés, avant de s’unir pour tenter de sauver la planète de ce nouveau désastre à leur actif.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1560520",
-      "type": "movie",
-      "name": "Batman Knightfall - Partie 1",
-      "poster": "https://image.tmdb.org/t/p/w500/8hsSCYpO5XFSAVnn70YehKslgFt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/caBIySpwuFi2i7ynvHIlnxJLOdN.jpg",
-      "description": "L'asile d'Arkham a été détruit et ses détenus se déchaînent sur Gotham City. Alors que Batman se lance dans une course contre la montre pour appréhender certains de ses pires ennemis, il est poussé au bout de ses limites physiques et mentales et se retrouve confronté à une nouvelle menace : l'homme appelé Bane !",
       "releaseInfo": "2026"
     },
     {
@@ -158,24 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/gz64ZUKg4C4g1yfGD0o5opcBOKy.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zMwhWailP1WY7sb6AoE6b8ugoy.jpg",
       "description": "Un petit animal des bois et un oiseau majestueux, ennemis jurés de la Vallée, qui échangent soudainement leurs corps et doivent faire équipe, en se mettant dans la peau  de l'autre, pour survivre à la plus folle aventure de leur vie.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:539745",
-      "type": "movie",
-      "name": "La Ferme des animaux",
-      "poster": "https://image.tmdb.org/t/p/w500/6pzI1DIlxwAFffw9OZcG6cr031U.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/msl0OTRGavjjzzPZmNuXbC0gv9M.jpg",
-      "description": "Un groupe d'animaux se rebellent contre leurs maîtres humains et prennent le contrôle de la ferme. Leur révolte terminée, ils sont confrontés à de nouveaux défis sous le règne d'un cochon rusé nommé Napoléon. Cette situation les oblige à trouver le courage de s'opposer à Napoléon.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1226863",
-      "type": "movie",
-      "name": "Super Mario Galaxy, le film",
-      "poster": "https://image.tmdb.org/t/p/w500/aSQktALDmbunDbwkuZbZFMEWVFr.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg",
-      "description": "Mario et Luigi gèrent les tracas du royaume Champignon, se lient d'amitié avec Yoshi, tentent de réhabiliter mini-Bowser et se préparent pour l'anniversaire de Peach. Mais quand un appel à l'aide arrive de l'autre bout de la galaxie, l'équipe part découvrir des mondes nouveaux, des menaces inattendues et des personnages emblématiques, comme Rosalina et Bowser Jr.",
       "releaseInfo": "2026"
     }
   ]

@@ -4,7 +4,7 @@
       "id": "tmdb:1559980",
       "type": "movie",
       "name": "Le Gospel de Noël",
-      "poster": "https://image.tmdb.org/t/p/w500/ihbN6lNDXKe6w9xE6IBFMVF2Rkr.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/xNF1YWXFIqIx5XriMSFLq6X7MSt.jpg",
       "background": "https://image.tmdb.org/t/p/w780/p1Ag7etCR5yUvElhwZmWsMo5IFu.jpg",
       "description": "Un pasteur en proie au doute emménage avec sa famille dans un quartier difficile de New York, où ils doivent sauver une église délabrée de la fermeture avant Noël.",
       "releaseInfo": "2026"
@@ -45,6 +45,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1340206",
+      "type": "movie",
+      "name": "Le Virtuose",
+      "poster": "https://image.tmdb.org/t/p/w500/z9sxdWvYJDyZeKHhBSU8Kczw7yC.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/y04gpYp8rJoUud6vf8okqHIdP4V.jpg",
+      "description": "Doté d'une ouïe exceptionnelle, un jeune accordeur de piano voit sa vie basculer lorsque son talent attire l'attention de criminels qui l'entraînent dans une série de cambriolages de plus en plus risqués. Malgré lui, il s'enfonce dans un engrenage dangereux qui pourrait lui coûter bien plus que sa liberté.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1284016",
       "type": "movie",
       "name": "Power Ballad",
@@ -76,7 +85,7 @@
       "type": "movie",
       "name": "Mother Mary",
       "poster": "https://image.tmdb.org/t/p/w500/uaCJhncUYYXFlG253BEPAzog3hl.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9eynUDRhChIsgSYLK82aC4zIQ2M.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pRrH098VPYiUtDwKOm2mVXVQZdf.jpg",
       "description": "Une célèbre chanteuse pop, en pleine tournée, interrompt ses concerts suite à une crise existentielle. Elle se retire à la campagne et noue une relation complexe avec une créatrice de mode renommée, qui travaille justement sur une robe. Les deux femmes se rapprochent.",
       "releaseInfo": "2026"
     },
@@ -166,15 +175,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/a37MBzhCanExpBxq1wzGRilRt49.jpg",
       "background": "https://image.tmdb.org/t/p/w780/8dlna8rRcf5gDCRzEsjtHizpj1X.jpg",
       "description": "Milwaukee, Ohio, 1989. Mike, imitateur d'Elvis, fait la connaissance de Claire, une chanteuse de clubs abonnée au répertoire de Patsy Cline. Le coup de foudre réciproque amène cet alcoolique sobre et cette mère célibataire à former un groupe dédié au répertoire de Neil Diamond baptisé Lightning & Thunder. De kermesses locales en festivals, le duo est remarqué par Eddie Vedder, le leader du groupe Pearl Jam, qui l'invite à assurer la première partie de son spectacle à Milwaukee. Le triomphe qui s'ensuit est assombri par un terrible accident, qui coûte à Claire une de ses jambes, et plonge ces amoureux fous dans leur première crise de couple, sous l'œil impuissant de leurs enfants respectifs.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1562010",
-      "type": "movie",
-      "name": "Taylor Swift | The Eras Tour | The Final Show",
-      "poster": "https://image.tmdb.org/t/p/w500/c11km7kLK2F30fTNHP5Si9m8foG.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/w4aTYTHpm97iTN1UGIC9kFZIuc7.jpg",
-      "description": "\"Taylor Swift | Le Eras Tour | The Final Show\" est le film du concert intégral, incluant \"THE TORTURED POETS DEPARTMENT\", tourné à Vancouver, en Colombie-Britannique, lors du dernier concert de la tournée historique.",
       "releaseInfo": "2025"
     }
   ]

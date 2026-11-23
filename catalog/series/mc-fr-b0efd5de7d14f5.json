@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:78648",
+      "type": "series",
+      "name": "놀라운 토요일",
+      "poster": "https://image.tmdb.org/t/p/w500/pnibkuL74C33GoKLTXAmF4nl3a6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/pNdUVPm6RwvG9Ycd2cuYpLbM7lk.jpg",
+      "releaseInfo": "2018"
+    },
+    {
       "id": "tmdb:303745",
       "type": "series",
       "name": "L'amour sous couverture",
@@ -10,14 +18,6 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:81978",
-      "type": "series",
-      "name": "유 퀴즈 온 더 블럭",
-      "poster": "https://image.tmdb.org/t/p/w500/tdGJ2swRbtHT2O3fUXauKVSXNp9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fDSZ9s6QJfgDvqceTBLUFpNB71j.jpg",
-      "releaseInfo": "2018"
-    },
-    {
       "id": "tmdb:293607",
       "type": "series",
       "name": "100 jours en espionne",
@@ -25,22 +25,6 @@
       "background": "https://image.tmdb.org/t/p/w780/3SvKCITqMtjgPIhFBjRc4yTAc4H.jpg",
       "description": "En quête de liberté, la meilleure pickpocket de Séoul infiltre le gouvernement colonial japonais pour lui dérober des secrets, mais tombe amoureuse du fils de sa cible.",
       "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:114565",
-      "type": "series",
-      "name": "벌거벗은 세계사",
-      "poster": "https://image.tmdb.org/t/p/w500/os1S8ncPTiM4TS9ZEg6TTHU8VdJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8B1EtJPj8aHSfwhVLwupEa1Iktx.jpg",
-      "releaseInfo": "2020"
-    },
-    {
-      "id": "tmdb:80585",
-      "type": "series",
-      "name": "대탈출",
-      "poster": "https://image.tmdb.org/t/p/w500/lQsx7uDIacnkZvPTECCnd5BESC4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/h31wYC7DI1a9290SxW492uRQCqV.jpg",
-      "releaseInfo": "2018"
     },
     {
       "id": "tmdb:299764",
@@ -59,14 +43,6 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:323204",
-      "type": "series",
-      "name": "언더커버 셰프",
-      "poster": "https://image.tmdb.org/t/p/w500/cbRSIJW19zLIoq9y15i1RAV4QyB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tBe0NxZDFAsNftfhdT6O3SOR53K.jpg",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:334553",
       "type": "series",
       "name": "식스센스: B사이드",
@@ -75,11 +51,11 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:340373",
+      "id": "tmdb:323204",
       "type": "series",
-      "name": "언더커버 셰프: 멀리서 찾아온 벗",
-      "poster": "https://image.tmdb.org/t/p/w500/dMig74i3wfPDWE9kJNYWRDqtJxc.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/a20lPObehOh4swZioem1QAaLgh.jpg",
+      "name": "언더커버 셰프",
+      "poster": "https://image.tmdb.org/t/p/w500/cbRSIJW19zLIoq9y15i1RAV4QyB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tBe0NxZDFAsNftfhdT6O3SOR53K.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -88,6 +64,14 @@
       "name": "맛따라 길따라 대명이따라",
       "poster": "https://image.tmdb.org/t/p/w500/inCENRzpem4qMMlxXuw7sSGMMEB.jpg",
       "background": "https://image.tmdb.org/t/p/w780/loT9DjbIWXi8NcUzh1GSHXZISmF.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:340373",
+      "type": "series",
+      "name": "언더커버 셰프: 멀리서 찾아온 벗",
+      "poster": "https://image.tmdb.org/t/p/w500/dMig74i3wfPDWE9kJNYWRDqtJxc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/a20lPObehOh4swZioem1QAaLgh.jpg",
       "releaseInfo": "2026"
     }
   ]

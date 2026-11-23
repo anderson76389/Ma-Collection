@@ -1,6 +1,33 @@
 {
   "metas": [
     {
+      "id": "tmdb:1568060",
+      "type": "movie",
+      "name": "Menteurs Parfaits",
+      "poster": "https://image.tmdb.org/t/p/w500/sOlqGOWwHgasYT2tyd9qXKLZCJ0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/m4i6oWU1LoAkYVuV37L7UyI2tcy.jpg",
+      "description": "Dans cette adaptation du roman d'Alex Mírez, Jude Derry infiltre l'université privée de Tagus et le cercle des frères Cash afin de découvrir la vérité sur la mort de son frère. Ce qui commence comme une quête de vengeance se transforme en un dangereux triangle de séduction, d'attirance interdite et de mensonges, la rapprochant d'une vérité qu'elle n'est peut-être pas prête à affronter.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1314786",
+      "type": "movie",
+      "name": "Agent Zeta",
+      "poster": "https://image.tmdb.org/t/p/w500/wDVwJj0KMdFgV1nR4CLNU3yhOxH.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cmP55W8EqqIE41Ck9D7uWRpzLwS.jpg",
+      "description": "Quatre anciens espions espagnols sont assassinés simultanément dans différents pays. Le CNI découvre qu'ils ont tous participé à l'Opération Ciénaga il y a 35 ans en Colombie. Zeta, agent du CNI, doit trouver et protéger le seul survivant au cours de la mission la plus dangereuse de sa carrière. Alfa, un agent colombien, se joint à Zeta. Il semble en savoir bien plus que lui sur \"Ciénaga\"...",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1664682",
+      "type": "movie",
+      "name": "La fille indigne",
+      "poster": "https://image.tmdb.org/t/p/w500/jWH2UAaQX0vONTqOgFTr87tvnNn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bjdgmMhTKcxqFO7RdXYhTlGzffB.jpg",
+      "description": "Des décennies après les crimes qui ont secoué le Brésil, Suzane von Richthofen s'exprime dans des entrevues exclusives sur le meurtre de ses parents et ce qui en a découlé.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1794569",
       "type": "movie",
       "name": "Sans protection : El crimen de Pazos",
@@ -90,6 +117,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1548369",
+      "type": "movie",
+      "name": "Gungo y Los Juegos Cavernícolas",
+      "poster": "https://image.tmdb.org/t/p/w500/mQNBZITnRDwhRGRqWzM7dPEFoXn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/upxQBHRpgUJx33d1iG6rpzg0M5S.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1257147",
       "type": "movie",
       "name": "Entre amies",
@@ -114,6 +149,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1210268",
+      "type": "movie",
+      "name": "Dégel",
+      "poster": "https://image.tmdb.org/t/p/w500/agaPM6fOIwG1kmBXAprimPxT4mQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9OGwh7Q3YaggcmJqUSSu6JXhswC.jpg",
+      "description": "Chili, 1992. Le pays reste marqué par des années de dictature. Alors qu’elle est gardée par ses grands-parents dans leur hôtel en station de ski, Inès, 9 ans, se lie d’amitié avec Hanna, une jeune sportive venue d’Allemagne. Lorsque celle-ci disparaît sans laisser de trace, l’enfant cherche à comprendre…",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1187326",
       "type": "movie",
       "name": "‎Tad l'explorateur et la Lampe magique",
@@ -126,52 +170,9 @@
       "id": "tmdb:1621552",
       "type": "movie",
       "name": "La captura",
-      "poster": "https://image.tmdb.org/t/p/w500/my8euQR37XeJ8lfLz3XgBR03R45.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/jCZFj8b6y8QoeWzAsRVE4ldEiNn.jpg",
       "background": "https://image.tmdb.org/t/p/w780/c4U96GrPRfnNrS01mBtqnocvlLJ.jpg",
       "description": "Deux agents mexicains doivent survivre aux dernières heures de leur service après avoir froissé un chef de cartel dans ce drame policier inspiré de faits réels.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1487864",
-      "type": "movie",
-      "name": "Nando entre deux mondes : Un film \"Sintonia\"",
-      "poster": "https://image.tmdb.org/t/p/w500/zRQH3BbC12nV6EnXfXQYi12vPH1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pWvYluV8GNWQJRC4IdrZuJPLwzO.jpg",
-      "description": "Cinq ans après son ascension dans le monde du crime organisé, Nando, qui vit désormais en Serbie, doit retourner au Brésil lorsque sa fille ado qu'il a perdue de vue décide de se rebeller et de s'enfuir. Alors que Nando tente de renouer avec sa famille et d'échapper à son passé, il est trahi par son plus proche allié et subit la pression de l'organisation criminelle qu'il dirigeait. Tiraillé entre sa loyauté envers la pègre et son engagement familial, Nando doit faire un choix crucial : tout risquer pour tourner le dos à la criminalité et offrir à ses enfants l'avenir qu'il n'a jamais eu.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:772506",
-      "type": "movie",
-      "name": "Amor es amor",
-      "poster": "https://image.tmdb.org/t/p/w500/5ae4v1W4hyAclTJw97aIAmr6OAE.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8fN4YSYUOAlYmUcqzGCuztaXms6.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1616131",
-      "type": "movie",
-      "name": "Un Enfant a Moi",
-      "poster": "https://image.tmdb.org/t/p/w500/AqFRon8p9ffsxD55tp6gKi24cMc.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jJ3SrQoGsCa6xMfbfgB19OazGwX.jpg",
-      "description": "Désespérée d'avoir un enfant et accablée par les attentes de sa famille et de la société, une femme simule une grossesse et se retrouve mêlée à un crime.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1700680",
-      "type": "movie",
-      "name": "Loco México Mágico",
-      "poster": "https://image.tmdb.org/t/p/w500/eCUYoQP0tB5mfwVUT3NidnoQCI3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8gg1n99c3LC0SEq99FLIDDXVSa.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1659155",
-      "type": "movie",
-      "name": "Leur vérité",
-      "poster": "https://image.tmdb.org/t/p/w500/4lbvwb2OGsfv3SNjLSDPZP4hNMY.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2kQ71k6dq7DVNYuYY9ylNvRFKTv.jpg",
-      "description": "Ruth, 30 ans, en froid avec sa famille depuis des années, rentre chez elle après la mort suspecte de sa mère. Elle y retrouve son père, Martín (Jose Coronado), devenu grincheux, agressif et obsédé par une théorie du complot inquiétante depuis sa retraite. Leur relation est si tendue, et le comportement de son père est si instable, que Ruth en vient à soupçonner Martín d'être responsable de la mort de sa mère. Partage-t-elle le même toit qu'un meurtrier ?",
       "releaseInfo": "2026"
     }
   ]

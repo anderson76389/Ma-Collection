@@ -1,6 +1,68 @@
 {
   "metas": [
     {
+      "id": "tmdb:300523",
+      "type": "series",
+      "name": "The Blue Road",
+      "poster": "https://image.tmdb.org/t/p/w500/lHWdz8ZOEhtuzaZFg81oYUTP7Bx.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/7ojpD6ARKYhRxnsjzMIrorOfj4T.jpg",
+      "description": "À Tokyo, un corps disloqué est découvert, accompagné d'une inscription en coréen. Ce message sidérant en lettres de sang permet à la police japonaise de faire le lien avec un fait troublant : un meurtre identique a été commis en Corée. Les autorités coréennes et japonaises lancent alors une enquête conjointe pour arrêter le tueur en série qui opère dans leurs deux pays et laisse des indices dans chaque langue. Pour ce faire, les inspecteurs suivent une piste mystérieuse qui s'étend au-delà de Séoul et de Tokyo.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:308007",
+      "type": "series",
+      "name": "The Altruists",
+      "poster": "https://image.tmdb.org/t/p/w500/hiX70sXdvEPVE11QqmLuaX16gdh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/m8JTMj7jDMJFZAPP1ASmSi4gMWi.jpg",
+      "description": "Jeunes, idéalistes et soudain milliardaires, ils voulaient faire le bien... avant de se pousser au pire. Un amour toxique sur fond d'escroquerie réelle.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:340280",
+      "type": "series",
+      "name": "Gordon",
+      "poster": "https://image.tmdb.org/t/p/w500/yLgl70D5Up0MlvBWP2MJTLAbFAF.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/o8wVY0c4v54KsFQ5IdU2uvOves1.jpg",
+      "description": "Aníbal Gordon passe de petit délinquant à criminel condamné pour meurtre en Argentine dans les années 70. Une série dramatique adaptée du livre de Marcelo Larraquy.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:332839",
+      "type": "series",
+      "name": "La loi de la bête",
+      "poster": "https://image.tmdb.org/t/p/w500/ihKzBXYrK3uZWmdTIwgNWXTZBG9.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/iMvGSFcxzvwLWyHDOLqwDX9JQ27.jpg",
+      "description": "Lorsque l'affaire d'un tueur en série d'enfants refait surface après 25 ans, devenant un problème juridique et social non résolu, deux anciens amis sont contraints de se confronter aux choix qui ont brisé leur amitié et façonné leurs vies.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:318420",
+      "type": "series",
+      "name": "Valentina et les 12 signes",
+      "poster": "https://image.tmdb.org/t/p/w500/ihjonCRR5gEUEH8RG2Qbk4Fy3HB.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wf8UcYFLgo6QYi49O13lMMaZrod.jpg",
+      "description": "Après une rupture dévastatrice, Valentina décide de fréquenter un homme de chaque signe du zodiaque – mais l'univers a d'autres plans.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:271338",
+      "type": "series",
+      "name": "La Comtesse de Monte-Cristo",
+      "poster": "https://image.tmdb.org/t/p/w500/2NH9iAVr1xLCDNmBoaqvW5XXQbG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bDLoOJkM2yixZWRC68YYg4YXWzb.jpg",
+      "description": "Marseille, 1815. Mercédès Herrera est prête à tout pour l’homme qu’elle aime, Edmond Dantès, un marin promis à un avenir brillant. Mais leur bonheur est cruellement brisé par une trahison impitoyable. Edmond, accusé à tort, est arraché à Mercédès et jeté dans les profondeurs du Château d'If, sans espoir de retour. Dévastée mais déterminée, Mercédès se lance dans une course effrénée pour le sauver, mais Edmond est tué lors de leur tentative d’évasion et elle-même se retrouve enfermée, condamnée à languir dans une cellule voisine de celle qui a abrité l’amour de sa vie. Dans ce gouffre de douleur, tout semble perdu. Mercédès n'a désormais plus qu'un but, prendre sa revanche sur ceux qui ont détruit sa vie : Fernand, son propre cousin, secrètement amoureux d’elle; Danglars, un manipulateur ambitieux; et surtout Héloïse de Villefort, la femme implacable du procureur de la ville.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:341602",
+      "type": "series",
+      "name": "Alan's Universe",
+      "poster": "https://image.tmdb.org/t/p/w500/sjDSfy47Hafgt8qxj9ebfJtl5AG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/f5hgXsAWdYKmAbQJPhK6boAyxJR.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:303182",
       "type": "series",
       "name": "El crimen de Pazos",
@@ -49,7 +111,7 @@
       "id": "tmdb:291507",
       "type": "series",
       "name": "The Body",
-      "poster": "https://image.tmdb.org/t/p/w500/swEOVOmkYtTg3UBStrvt1yZJm26.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/pi1hkk70TvHSSSenNFkryRPb0nG.jpg",
       "background": "https://image.tmdb.org/t/p/w780/hYJqUoXRZnodGxgVZTM8uwr5kbC.jpg",
       "description": "Le soir d'Halloween, un rite d'initiation vire au cauchemar, faisant basculer une troupe de danseuses dans la culpabilité catholique, les désirs impies et les visions étranges.",
       "releaseInfo": "2026"
@@ -115,69 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/up1YBgPq6lC0ut2JvjguNwLiXw4.jpg",
       "background": "https://image.tmdb.org/t/p/w780/5V7scQ0nVkNcz8dcHRfZIiHECcc.jpg",
       "description": "Deux personnes se souviennent de cette même nuit fatidique, mais leurs récits ne concordent pas. Alors qu’une enseignante et un chirurgien cardiaque s’affrontent pour savoir ce qui s’est réellement passé, la vérité se transforme en un jeu dangereux mêlant souvenirs et mensonges.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:289517",
-      "type": "series",
-      "name": "Un job mortel",
-      "poster": "https://image.tmdb.org/t/p/w500/fEOsnx6TAiHOno5Ez5k8cxMVrtF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gWedDgBsZkuOho2qe3q2sTQmbpO.jpg",
-      "description": "Croulant sous les dettes, un jeune homme enchaîne les petits boulots très lucratifs que lui propose une mystérieuse agence, mais sa course à l'argent tourne au cauchemar.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:243555",
-      "type": "series",
-      "name": "Akka: The Protectors",
-      "poster": "https://image.tmdb.org/t/p/w500/tdnHaR0vlKMQbjmaCs2V3LDmzSd.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cVUKFfws4upCB4ytz5uGIONIiRc.jpg",
-      "description": "Dans la société matriarcale de la ville fictive de Pernuru, les femmes règnent en maître et le pouvoir a un nouveau nom : Akka.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:338689",
-      "type": "series",
-      "name": "La Chute d'El Mayo",
-      "poster": "https://image.tmdb.org/t/p/w500/1BeogORCQmxHp0lc9q5GCojzIkI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yiElAOM1OD09YCuCUbim4QMyvtJ.jpg",
-      "description": "Cofondateur du cartel de Sinaloa, partenaire de longue date d’« El Chapo » et fantôme pour les autorités pendant plus de trois décennies. Le documentaire qui raconte sa chute.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:313699",
-      "type": "series",
-      "name": "Balaraw : Blood Island",
-      "poster": "https://image.tmdb.org/t/p/w500/s1A6UOu8IOmw0kJXohlitMRiwQb.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dLFyQRJqL2zyP5wmRztUKVQV6Hw.jpg",
-      "description": "À la recherche de sa mère disparue, une femme se retrouve sur l'île sinistre de Balaraw et doit lutter pour sa survie et sa propre identité sur fond de secrets inavouables.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:334700",
-      "type": "series",
-      "name": "Le Don de la trahison",
-      "poster": "https://image.tmdb.org/t/p/w500/u4URzt5FC8M2H1aj5WGheBKXvQB.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/gSlWzjRk1QarsB2PrJemCd88wJc.jpg",
-      "description": "Un stratagème coûteux vient aggraver la relation déjà tendue d'une veuve de la bonne société de Rio et de sa fille.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:333533",
-      "type": "series",
-      "name": "Celui qui s'appelait Matthew Perry",
-      "poster": "https://image.tmdb.org/t/p/w500/vQYMKEQ1mvl7Qx8WRGiKjPMEmKT.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3nJL65FgsUpmBEIMXc0kt0h5uay.jpg",
-      "description": "Cette série documentaire retrace le succès hollywoodien, la prise de position ouverte et la mort tragique de la star de \"Friends\", à travers le témoignage de ses proches.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:321221",
-      "type": "series",
-      "name": "Minimum Wage",
-      "poster": "https://image.tmdb.org/t/p/w500/iTVhDUbzUFUJ18jrcYM4rw7qGk.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tJSM9kwCWHXgoYbrfmJ2vwiizWq.jpg",
-      "description": "Des ados tentent de gérer une petite pizzeria en jonglant entre le lycée, une boss survoltée et un salaire minimum. Une série inspirée de vidéos populaires sur les réseaux sociaux.",
       "releaseInfo": "2026"
     }
   ]

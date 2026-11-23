@@ -1,13 +1,13 @@
 {
   "metas": [
     {
-      "id": "tmdb:4086",
+      "id": "tmdb:62481",
       "type": "series",
-      "name": "Burgers and Co avec Guy FIERI",
-      "poster": "https://image.tmdb.org/t/p/w500/fPpDR6kw8bA0iZ8a0dUbexVVzn3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tKtxE1KzqKDg3HIXNnlr7VpuWzd.jpg",
-      "description": "Les « diners » et les « drive-ins » vintage étant de plus en plus tendance chez les gourmets, Guy Fieri sillonne les États-Unis à la recherche des meilleurs burgers, barbecues et fritures du pays, souvent plébiscités par les locaux. Dans chaque resto, Fieri discute avec le personnel et les clients et leur demande leur avis sur la nourriture. Guy Fieri sillonne les États-Unis à la recherche des meilleurs burgers, barbecues et fritures, souvent plébiscités par les locaux.",
-      "releaseInfo": "2007"
+      "name": "Tous contre Bobby Flay",
+      "poster": "https://image.tmdb.org/t/p/w500/vY8Bep9K9oFSz0C9gnTVipfBciU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kSFEIZS3HplqY1uN9U1GR0aEKlP.jpg",
+      "description": "Deux cuisiniers s'affrontent dans l'espoir de se mesurer au célèbre chef Bobby Flay.",
+      "releaseInfo": "2013"
     },
     {
       "id": "tmdb:68598",
@@ -28,19 +28,11 @@
       "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:211201",
+      "id": "tmdb:334759",
       "type": "series",
-      "name": "Bobby's Triple Threat",
-      "poster": "https://image.tmdb.org/t/p/w500/nRvF9GPYBA6tGRLxKH4HUENfaN1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jY2qk7DTcjURh5Z182zn8yRc5GF.jpg",
-      "releaseInfo": "2022"
-    },
-    {
-      "id": "tmdb:331164",
-      "type": "series",
-      "name": "Bobby Flay’s The Line",
-      "poster": "https://image.tmdb.org/t/p/w500/hdWaAbmQn970EY8J85aBACDhn0h.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4qKpFJzGCVTtnNg2J6o4BxAHKK0.jpg",
+      "name": "Sweet Deceit",
+      "poster": "https://image.tmdb.org/t/p/w500/vMiMuswOQS3ufdzfjKH8Df7tvc8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/160WLvcboP94lwnnOd2fN5T9Nrq.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -50,14 +42,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/qshuv46xb7nfMDJRY2RB0BRT4tQ.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zvcDNLArN1LUGg9ip7vH5WAwki5.jpg",
       "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:334759",
-      "type": "series",
-      "name": "Sweet Deceit",
-      "poster": "https://image.tmdb.org/t/p/w500/vMiMuswOQS3ufdzfjKH8Df7tvc8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/160WLvcboP94lwnnOd2fN5T9Nrq.jpg",
-      "releaseInfo": "2026"
     }
   ]
 }

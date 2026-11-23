@@ -10,6 +10,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:341927",
+      "type": "series",
+      "name": "Jossi",
+      "poster": "https://image.tmdb.org/t/p/w500/9SfPPoATyVUE6GnyWCY7tqd6mwn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/5kAptDRP2iLso5OXbh2tzE0NElm.jpg",
+      "description": "Pour décrocher un rôle, un jeune acteur russo-allemand prétend être juif. Son mensonge va prendre des proportions incontrôlables, déclenchant une avalanche de situations rocambolesques. Une comédie décapante sur le choc des cultures et l’appropriation culturelle.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:340122",
       "type": "series",
       "name": "Un micro à la DGSE : La vie secrète des espions",
@@ -99,7 +108,7 @@
     {
       "id": "tmdb:282606",
       "type": "series",
-      "name": "Anatomie d'un instant",
+      "name": "Anatomie d’un instant",
       "poster": "https://image.tmdb.org/t/p/w500/rdsvWfLwZe4VRcIyohHcb00c8uH.jpg",
       "background": "https://image.tmdb.org/t/p/w780/pfq6LJ2XgmALbsqgfRkVLdWcqHS.jpg",
       "description": "Madrid, Espagne, 23 février 1981. Un groupe de gardes civils fait irruption au Congrès des députés et terrorise les personnes présentes en tirant en l'air. Seuls trois hommes restent impassibles : le président du gouvernement Adolfo Suárez, le vice-président Manuel Gutiérrez Mellado et Santiago Carrillo, leader du Parti communiste.",
@@ -148,6 +157,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/bEuqzz3urh8ZYGB8hokULtiBujg.jpg",
       "description": "Un après-midi d'été, sur un mini-golf. 18 trous, et une vingtaine de personnes qui se croisent, essayant toutes de se détendre, un club de golf à la main. Toutes se heurtant aux petites et grandes difficultés de la vie. Et oui, sur un mini-golf aussi.",
       "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:276483",
+      "type": "series",
+      "name": "Affamés",
+      "poster": "https://image.tmdb.org/t/p/w500/yfNuh0oaPWUdhzAVNSNd91THLbh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lArw9DJCNEWPa4xp7wVz0tOJ9qC.jpg",
+      "description": "Ronnie, adolescente souffrant d’anorexie mentale, est emmenée de force par sa mère en hôpital psychiatrique. Si son premier contact avec la thérapeute en chef se passe mal, la jeune fille fait rapidement la connaissance des autres patients de son âge, qui souffrent également de troubles du comportement alimentaire ou d’autres maladies mentales : Kimmi, Esta, Melly, Nick et Gina. Bien que relativement accueillant, ce petit groupe d’adolescents ne suffit pas à calmer la réticence de Ronnie : le premier repas du séjour déclenche chez elle une crise d’angoisse, si bien qu’elle décide de fuguer de l’hôpital.",
+      "releaseInfo": "2024"
     }
   ]
 }

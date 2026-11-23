@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1716604",
+      "type": "movie",
+      "name": "Cool Attitude: Magic Noël",
+      "poster": "https://image.tmdb.org/t/p/w500/yXYuDTwYTI5UdsIQjORTAhTdURG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/a8syGZWwgV4ofi70OtvoIGsNjFz.jpg",
+      "description": "Lorsque la révolte de Penny Proud contre le « Magic Noël » et la marchandisation de cet évènement pousse le Père Noël à démissionner la veille de la fête, notre héroïne se laisse convaincre — non sans culpabilité — d'enfiler la célèbre tenue rouge pour le remplacer. En apportant la joie des fêtes avec l'aide des lutins irrévérencieux, elle découvre que l'esprit de Noël est toujours bel et bien vivant.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1781653",
       "type": "movie",
       "name": "Jamie Foxx : Prends soin de toi",
@@ -33,6 +42,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/mHbOZIrkSkoxpKLGfk1577GjRPb.jpg",
       "background": "https://image.tmdb.org/t/p/w780/7PLe3tUKYxm8HlnME3LQbF8Wab4.jpg",
       "description": "Max Verstappen part en chasse. Sur le circuit de Silverstone, 100 célébrités, créateurs, athlètes et artistes du monde entier s'affrontent dans une course de karting exceptionnelle. Leur mission : tenir soixante minutes devant le quadruple champion du monde de F1. Max part bon dernier et chaque pilote qu'il double est éliminé. Mais c'est une course comme vous ne l'avez jamais entendue : Max et ses rivaux sont équipés de micros, ce qui vous permettra de vivre leurs réactions, rivalités et conversations en direct du volant pendant la traque. Présenté par Mo Gilligan, ce mélange détonant, drôle et imprévisible allie sport automobile de haut niveau et divertissement. De 100, ils ne seront bientôt plus que 50, 10, 3, puis 1… Une seule question demeure : y aura-t-il un survivant ?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1610820",
+      "type": "movie",
+      "name": "Les Mariages de Saint Antoine",
+      "poster": "https://image.tmdb.org/t/p/w500/6Y6BDuoDcNNaJzKBXgIzaut7n9w.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hILmNUH51sXpkLXd9ecEUCljU1q.jpg",
+      "description": "Le monde change. Lisbonne aussi. Et ses traditions ne sont pas épargnées par cette transformation. Les mariages de Saint Antoine traversent une crise sans précédent et menacent de disparaître au cœur d'une ville qui n'est plus la même.",
       "releaseInfo": "2026"
     },
     {
@@ -101,7 +119,7 @@
       "id": "tmdb:1722167",
       "type": "movie",
       "name": "Mickey Mouse Clubhouse+: Mickey's Country Farm",
-      "poster": "https://image.tmdb.org/t/p/w500/mSGv8TRbATPSzAK4Osg3aSgrxEw.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/p5wANcxHKhSfLs4JkRenRpvaVic.jpg",
       "background": "https://image.tmdb.org/t/p/w780/dRjWfwmbtcJjwgDf6XGoKLfxBpk.jpg",
       "releaseInfo": "2026"
     },
@@ -134,7 +152,7 @@
       "type": "movie",
       "name": "One Piece : Heroines",
       "poster": "https://image.tmdb.org/t/p/w500/hbRXvcckbdKMhCea1JalPnSQQge.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/dQCBqCkoXz2PCqApTNXZ007QwNb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hUkFUI5wKYAihLOks7RVU0TfzUS.jpg",
       "description": "Des chaussures défectueuses empêchent Nami d'arrêter un vol. Furieuse, elle se rend à la boutique de son achat pour se les faire rembourser. Cependant, le directeur artistique de la griffe offre de lui fabriquer une paire flambant neuve à une condition : qu'elle accepte de les porter à son prochain défilé de mode.",
       "releaseInfo": "2026"
     },
@@ -143,7 +161,7 @@
       "type": "movie",
       "name": "Simpsley",
       "poster": "https://image.tmdb.org/t/p/w500/xzmJsuoYQzi3jhijL9zIoFvOmzL.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/2vl4nyxi1zVtiqYqJkbP8yTMOQV.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/xA2uHYgb5RCVPdFe1acQqOB3EhD.jpg",
       "description": "Lorsque Marge Bouvier, une escroc sans le sou, est envoyée en Italie pour convaincre le riche et naïf Seymour Skinner de rentrer au pays, elle est tentée par les signes extérieurs de richesse. Mais un grain de sable vient enrayer la machine : Homer Simpsley, l'invité collant et idiot de Skinner. Mensonges, luxure et lires italiennes sont au rendez-vous.",
       "releaseInfo": "2026"
     },
@@ -154,23 +172,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/vim76mMXig00YRxN2iGYJASoGkP.jpg",
       "background": "https://image.tmdb.org/t/p/w780/4bW2662ZiJhJmK4IseCReVzgZ3C.jpg",
       "description": "La soirée en amoureux d'Homer et Marge tourne au cauchemar lorsque Marge apprend qu'Homer a laissé les enfants sans surveillance, avec pour seule « baby-sitter » la caméra de la sonnette. Frustrée par son mari imparfait, Marge, un peu éméchée, se met à imaginer une trilogie de fantasmes mettant en scène un Homer bien différent.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1558796",
-      "type": "movie",
-      "name": "‎Retour au lycée",
-      "poster": "https://image.tmdb.org/t/p/w500/4O0Zn5sNwUWhLHqHcTLRKyq37vt.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bfJ2MvS4wixkQ7tQX0a87q1XYlE.jpg",
-      "description": "En 2008, la promo de terminale du lycée de North Meadows voit son année écourtée par une tornade. Désormais trentenaire, elle doit retourner sur les bancs de l'école pour enfin obtenir son diplôme. Amours de jeunesse, secondes chances… un vrai cauchemar. Une comédie grinçante.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1587964",
-      "type": "movie",
-      "name": "They Fight",
-      "poster": "https://image.tmdb.org/t/p/w500/46X9sBM0L4z2y6AkFKxpH4X8O77.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/h6BWd6mU6o1KqZDrVaAldmvboCX.jpg",
       "releaseInfo": "2026"
     }
   ]

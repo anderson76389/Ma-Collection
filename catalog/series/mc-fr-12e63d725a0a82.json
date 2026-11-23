@@ -10,13 +10,13 @@
       "releaseInfo": "2003"
     },
     {
-      "id": "tmdb:60694",
+      "id": "tmdb:502",
       "type": "series",
-      "name": "Last Week Tonight with John Oliver",
-      "poster": "https://image.tmdb.org/t/p/w500/fuuEjEr69uvRtGaQw70JfvdrUwb.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/q31EEBycbOyX7GGJP4GTPI5WJRO.jpg",
-      "description": "L'ancien animateur et correspondant du Daily Show, John Oliver, apporte sa personnalité à cette émission hebdomadaire de satire sur l'actualité.",
-      "releaseInfo": "2014"
+      "name": "1 Rue Sesame",
+      "poster": "https://image.tmdb.org/t/p/w500/14k9BfZ2p4rQBMeJ5crKTfUZVwD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tNi2aJPdCKfielGYzIi3IKxStz9.jpg",
+      "description": "Le soleil est là ! Cette version revisitée de la série \"Sesame Street\" réunit les personnages que vous aimez, les séquences préférées des fans et de nouvelles façons de s'amuser.",
+      "releaseInfo": "1969"
     },
     {
       "id": "tmdb:81723",
@@ -26,6 +26,14 @@
       "background": "https://image.tmdb.org/t/p/w780/afUVsProh46h31w2EvL7qyHXrqj.jpg",
       "description": "Aux États-Unis, le Gilded Age désigne la période de prospérité qui suivit la guerre de Sécession. En 1882, la jeune Marian Brook quitte la Pennsylvanie après la mort de son père pour s'installer avec ses tantes aristocrates à New-York. Accompagnée par Peggy Scott, une écrivaine en devenir, Marian va découvrir la haute société et se retrouver au milieu d'un conflit entre une de ses tantes et leurs voisins, l'ambitieux magnat des chemins de fer George Russel et sa femme Bertha.",
       "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:341164",
+      "type": "series",
+      "name": "Oobah: Scams for a Better Tomorrow",
+      "poster": "https://image.tmdb.org/t/p/w500/rWqhULNvOmIBHZymAPce2SlRr2T.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/cS2L6mz6PcebS9deAJ1LrCMjZch.jpg",
+      "releaseInfo": "2026"
     }
   ]
 }

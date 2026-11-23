@@ -5,7 +5,7 @@
       "type": "movie",
       "name": "Never Surrender",
       "poster": "https://image.tmdb.org/t/p/w500/nkE9esa0p8vBmY38jQasmVVRqoc.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/umxN2kMcUm6VoxSOdcEcQoXuC4q.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bjt53Hjqwl9VrtJkDv39GwmE1QN.jpg",
       "description": "Quand un gang meurtrier prend d'assaut sa maison isolée, un vétéran rongé par le remords et ses petits-enfants qu'il connaît à peine unissent leurs forces pour survivre.",
       "releaseInfo": "2026"
     },
@@ -16,14 +16,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/xmwPr0YOFS6vC3aydnE85gxp36t.jpg",
       "background": "https://image.tmdb.org/t/p/w780/1QiFfqaAhZi4HMlJNMvJVXOovc6.jpg",
       "description": "Un jeune étudiant, aux prises avec la pression, la panique et un père exigeant, utilise un projet scolaire pour découvrir que la vérité et non les trophées  pourrait enfin le libérer.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1590613",
-      "type": "movie",
-      "name": "Cerita Lila",
-      "poster": "https://image.tmdb.org/t/p/w500/80CcJdrV3ewqPawFMAFGIrldgR5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9rZVlvA5Nk3SA4GJk1ySUbZLtTg.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -165,6 +157,14 @@
       "name": "Dendam Malam Kelam",
       "poster": "https://image.tmdb.org/t/p/w500/eichIZLd7e9AgYltckEwWgrFQcq.jpg",
       "background": "https://image.tmdb.org/t/p/w780/p1V67T5vf7HD91BVe4K9TUZHtl4.jpg",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1391149",
+      "type": "movie",
+      "name": "Waktu Maghrib 2",
+      "poster": "https://image.tmdb.org/t/p/w500/iD0iWNrqlfffm81BKP5IGzrMofq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/mmvRoSRZ0D6g4gvmJPQUgP9fd9G.jpg",
       "releaseInfo": "2025"
     }
   ]

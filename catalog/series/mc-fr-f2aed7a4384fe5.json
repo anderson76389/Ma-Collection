@@ -1,21 +1,12 @@
 {
   "metas": [
     {
-      "id": "tmdb:312359",
-      "type": "series",
-      "name": "Dragon Ball Super : Beerus",
-      "poster": "https://image.tmdb.org/t/p/w500/sGuCmIy8kEmx3FWZyMj654rF6g8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg",
-      "description": "Des années après la défaite de Majin Buu, la paix est revenue sur Terre. Mais lorsque Beerus, le Dieu de la Destruction, se réveille, cette tranquillité vole en éclats. Attiré sur Terre par des rumeurs concernant le Saiyan qui a vaincu Freezer, Beerus cherche à défier Goku en déployant une puissance capable de détruire des planètes entières. Goku et ses alliés doivent désormais affronter Beerus dans un combat qui fera trembler l'univers.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:45790",
       "type": "series",
       "name": "JoJo's Bizarre Adventure",
       "poster": "https://image.tmdb.org/t/p/w500/2Sc0veFPh9CcHMtNqMyiQqIW9ZF.jpg",
       "background": "https://image.tmdb.org/t/p/w780/l2gc2dPRUPe3bAfYCRTjc6uAMmB.jpg",
-      "description": "L’histoire sur des décennies des aventures étranges de la famille Joestar et de leur destin entremêlé face à Dio, leur ennemi juré et l'héritage de ce dernier. Chaque illustre membre est surnommé Jojo, un nom composé de la contraction des premières syllabes de leur nom et prénom et un tatouage en forme d'étoile à la base du cou. Ils ont tous la particularité de développer des capacités hors du commun, d’abord le hamon, puis le stand, la représentation physique de leur esprit combatif.\n\nA partir de Steel Ball Run, l’histoire repart à zéro et suit les aventures de Johnny Joestar, un jockey paraplégique qui concourt à la Steel Ball Run, une course qui relie San Diego à New York afin de remporter le premier prix et de donner un sens à sa vie. Mais sa rencontre avec Gyro Zeppeli, un concurrent armé de ses étranges sphères d’aciers bouleversera son existence. Mais la course cache un objectif plus grand qui les feront affronter des adversaires dotés de stands imprévisibles et dangereux.",
+      "description": "L’histoire sur des décennies des aventures étranges de la famille Joestar, de leur destin lié à Dio, leur ennemi juré et l'héritage de ce dernier. Chaque illustre membre est surnommé Jojo, un nom composé de la contraction des mêmes syllabes de leur nom et prénom et possède un tatouage en forme d'étoile à la base du cou. Ils ont tous la particularité de développer des pouvoirs hors du commun, d’abord le hamon, puis le stand, la représentation physique de leur esprit combatif.\n\nA partir de Steel Ball Run, l’histoire repart à zéro et suit les aventures de Johnny Joestar, un jockey paraplégique qui concourt à la Steel Ball Run, une course reliant San Diego et New York afin de remporter le premier prix et de donner un sens à sa vie. Mais sa rencontre avec Gyro Zeppeli, un concurrent armé d'étranges sphères d’aciers bouleversera son existence. Surtout, la course cache un objectif plus grand qui les feront affronter des adversaires dotés de stands imprévisibles et dangereux.",
       "releaseInfo": "2012"
     },
     {
@@ -26,6 +17,24 @@
       "background": "https://image.tmdb.org/t/p/w780/gffVOVZ2Y9cmVIZ26Gt9ByMGCYH.jpg",
       "description": "Formée dès son plus jeune âge par son père apothicaire, Mao Mao est un jour vendue comme servante au palais de l'empereur. Prisonnière dans les arcanes du pouvoir, elle attire l’attention de Jinshi, un séduisant haut fonctionnaire qui la promeut lorsqu’il découvre son talent pour confectionner des potions. Désormais goûteuse, Mao Mao met ses connaissances au service des gens du palais pour les soigner, mais aussi pour déjouer les mystères et les complots qui se trament…",
       "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:312359",
+      "type": "series",
+      "name": "Dragon Ball Super : Beerus",
+      "poster": "https://image.tmdb.org/t/p/w500/sGuCmIy8kEmx3FWZyMj654rF6g8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg",
+      "description": "Des années après la défaite de Majin Buu, la paix est revenue sur Terre. Mais lorsque Beerus, le Dieu de la Destruction, se réveille, cette tranquillité vole en éclats. Attiré sur Terre par des rumeurs concernant le Saiyan qui a vaincu Freezer, Beerus cherche à défier Goku en déployant une puissance capable de détruire des planètes entières. Goku et ses alliés doivent désormais affronter Beerus dans un combat qui fera trembler l'univers.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:60761",
+      "type": "series",
+      "name": "Ace of Diamond",
+      "poster": "https://image.tmdb.org/t/p/w500/1OQsld0DmtCNKIoExKE5zjxX3cP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/wq5ZykCAFrboIpz36O8pbrJG2dF.jpg",
+      "description": "L'équipe de baseball du collège Takagi termine sa saison sans une seule victoire. Son lanceur, Eijun Sawamura, a à coeur de prendre sa revanche avec ses coéquipiers, une fois au lycée.",
+      "releaseInfo": "2013"
     },
     {
       "id": "tmdb:105009",
@@ -46,13 +55,13 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:60761",
+      "id": "tmdb:320909",
       "type": "series",
-      "name": "Ace of Diamond",
-      "poster": "https://image.tmdb.org/t/p/w500/1OQsld0DmtCNKIoExKE5zjxX3cP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wq5ZykCAFrboIpz36O8pbrJG2dF.jpg",
-      "description": "L'équipe de baseball du collège Takagi termine sa saison sans une seule victoire. Son lanceur, Eijun Sawamura, a à coeur de prendre sa revanche avec ses coéquipiers, une fois au lycée.",
-      "releaseInfo": "2013"
+      "name": "Les Noces des Lucioles",
+      "poster": "https://image.tmdb.org/t/p/w500/1RXEvHmis1oKTAWtKOrzJqenpb6.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3zmB6PLnjf7rNNC2lnvinQtlJMx.jpg",
+      "description": "Durant l'ère Meiji, Satoko Kirigaya n’a qu’un seul souhait : se marier pour l'honneur de sa famille et ce, même si ses jours sont comptés. Mais alors qu'un assassin tente de la tuer, elle lui offre de l’épouser ! Une proposition que Shinpei Goto accepte, mais qui pourrait bien se retourner contre elle…",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:126437",
@@ -73,30 +82,12 @@
       "releaseInfo": "2020"
     },
     {
-      "id": "tmdb:320909",
-      "type": "series",
-      "name": "Les Noces des Lucioles",
-      "poster": "https://image.tmdb.org/t/p/w500/1RXEvHmis1oKTAWtKOrzJqenpb6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/3zmB6PLnjf7rNNC2lnvinQtlJMx.jpg",
-      "description": "Durant l'ère Meiji, Satoko Kirigaya n’a qu’un seul souhait : se marier pour l'honneur de sa famille et ce, même si ses jours sont comptés. Mais alors qu'un assassin tente de la tuer, elle lui offre de l’épouser ! Une proposition que Shinpei Goto accepte, mais qui pourrait bien se retourner contre elle…",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:324502",
       "type": "series",
       "name": "Overgeared",
       "poster": "https://image.tmdb.org/t/p/w500/fmAQ2lOtLAoEU2p6wQ12wXbIgLM.jpg",
       "background": "https://image.tmdb.org/t/p/w780/745xqHbiUWwO51TM60MXRCR4Onm.jpg",
       "description": "Grid, un homme malchanceux dans la vie et joueur de bas niveau dans le célèbre jeu vidéo Satisfy, trouve un objet puissant qui lui vaut un titre légendaire rare : L'Héritier de Pagma. Il est désormais un forgeron talentueux doté d’armes uniques, mais il se rend compte que sa réputation lui cause quelques soucis.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:306721",
-      "type": "series",
-      "name": "Star Detective PreCure!",
-      "poster": "https://image.tmdb.org/t/p/w500/zuPQ9R5x17EM6xEA37TLRkL2BGD.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bOgsRcvQcetWXtVnPgKtYYf9aSV.jpg",
-      "description": "Le jour de son 14e anniversaire, Anna Akechi rencontre une fée magique et se retrouve soudainement transportée de 2027 à 1999 ! Elle se lie d'amitié avec Mikuru, une jeune fille pleine d'entrain qui rêve de devenir détective. Lorsque de mystérieux vols font naître des rumeurs sur les Voleurs Fantômes, les deux jeunes filles se transforment en Detective Precure et utilisent leur courage, leur esprit de déduction et leur amitié pour résoudre des affaires et découvrir le secret du voyage dans le temps d'Anna.",
       "releaseInfo": "2026"
     },
     {
@@ -118,6 +109,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:333622",
+      "type": "series",
+      "name": "Magic Repo Man: Dumped by My Party, I'll Cash In with a Cute Support Fairy to Become the Strongest!",
+      "poster": "https://image.tmdb.org/t/p/w500/3IxYsKJGSlxy6GDnFBIx7UJc5nP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4ncuq4Qo0NrSZBnxM3PABeROyVT.jpg",
+      "description": "Lent fait partie du groupe « Skypiercers ». Grâce à son don unique, il peut prêter une importante quantité de magie à ses partenaires. Cependant, il est viré du jour au lendemain du groupe par ses compagnons, tous devenus puissants grâce à son talent, ne le jugeant désormais plus utile au groupe.\n\nFurieux, Lent est bien décidé à récupérer jusqu'à la dernière goutte de magie qu'il a prêté à ses anciens compagnons, avec les intérêts, grâce au pouvoir caché de son don.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:237150",
       "type": "series",
       "name": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World",
@@ -127,12 +127,12 @@
       "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:333622",
+      "id": "tmdb:306721",
       "type": "series",
-      "name": "Magic Repo Man: Dumped by My Party, I'll Cash In with a Cute Support Fairy to Become the Strongest!",
-      "poster": "https://image.tmdb.org/t/p/w500/3IxYsKJGSlxy6GDnFBIx7UJc5nP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4ncuq4Qo0NrSZBnxM3PABeROyVT.jpg",
-      "description": "Lent fait partie du groupe « Skypiercers ». Grâce à son don unique, il peut prêter une importante quantité de magie à ses partenaires. Cependant, il est viré du jour au lendemain du groupe par ses compagnons, tous devenus puissants grâce à son talent, ne le jugeant désormais plus utile au groupe.\n\nFurieux, Lent est bien décidé à récupérer jusqu'à la dernière goutte de magie qu'il a prêté à ses anciens compagnons, avec les intérêts, grâce au pouvoir caché de son don.",
+      "name": "Star Detective PreCure!",
+      "poster": "https://image.tmdb.org/t/p/w500/zuPQ9R5x17EM6xEA37TLRkL2BGD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bOgsRcvQcetWXtVnPgKtYYf9aSV.jpg",
+      "description": "Le jour de son 14e anniversaire, Anna Akechi rencontre une fée magique et se retrouve soudainement transportée de 2027 à 1999 ! Elle se lie d'amitié avec Mikuru, une jeune fille pleine d'entrain qui rêve de devenir détective. Lorsque de mystérieux vols font naître des rumeurs sur les Voleurs Fantômes, les deux jeunes filles se transforment en Detective Precure et utilisent leur courage, leur esprit de déduction et leur amitié pour résoudre des affaires et découvrir le secret du voyage dans le temps d'Anna.",
       "releaseInfo": "2026"
     },
     {
@@ -145,13 +145,13 @@
       "releaseInfo": "2021"
     },
     {
-      "id": "tmdb:313346",
+      "id": "tmdb:205493",
       "type": "series",
-      "name": "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life",
-      "poster": "https://image.tmdb.org/t/p/w500/lEUUMZ8zylAPP797UMugdYjuxRP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/j7KrALvuZgBdwVZkOIRc9Xaeyt4.jpg",
-      "description": "Rein l'Enchanteur est un mage capable d'améliorer les armes et les armures. Mais lorsqu'il se fait renvoyer de sa guilde pour la simple raison qu'il a déjà enchanté tout ce qu'elle possède, il décide de reprendre tous les sorts qu’il a transmis à ses ex-compagnons et les affecte à son propre équipement. En chemin, Rein rassemble une bande de parias comme lui et, ensemble, ils explorent le monde.",
-      "releaseInfo": "2026"
+      "name": "The Prince of Tennis II: U-17 World Cup",
+      "poster": "https://image.tmdb.org/t/p/w500/etVlxcNUsJLE4qhJON3VwZSzwFW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/x3kTIGpx66VUTlUsPASyfjAlp98.jpg",
+      "description": "Lorsque le prodige du tennis, Ryoma Echizen, est expulsé du camp d'entraînement de l'élite des moins de 17 ans du Japon pour avoir enfreint les règles, il est désemparé. Mais la chance lui sourit quand il apprend qu’il peut tenter sa chance dans l'équipe américaine. Faire ses preuves face à leurs vétérans endurcis ne sera pas facile et, s'il est accepté, il devra jouer contre ses anciens amis. Pourra-t-il aider ses nouveaux équipiers à se frayer un chemin vers la victoire ?",
+      "releaseInfo": "2022"
     },
     {
       "id": "tmdb:295420",
@@ -163,22 +163,22 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:314054",
+      "id": "tmdb:313346",
       "type": "series",
-      "name": "Red River",
-      "poster": "https://image.tmdb.org/t/p/w500/wWlfBMTA7VygmYC4KUg2qLWJGmv.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/pHzcs5Ru1lwoVcQsPA5lNYlxJy2.jpg",
-      "description": "Yuri Suzuki est une jeune femme comblée : non seulement elle a réussi ses examens d'entrée à l'université, mais elle a aussi enfin échangé son premier baiser avec l'élu de son coeur. Malheureusement, ce bonheur ne dure pas. Un jour, elle est mystérieusement entrainée dans une flaque d'eau et est transportée dans le passé, au cœur de l'Empire Hittite, des millénaires avant sa naissance. Celle qui l'a invoquée, la reine Nakia, a l'intention de l'utiliser à des fins sacrificielles. Heureusement, la jeune femme déboussolée peut compter sur un allié inattendu.",
+      "name": "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life",
+      "poster": "https://image.tmdb.org/t/p/w500/lEUUMZ8zylAPP797UMugdYjuxRP.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/j7KrALvuZgBdwVZkOIRc9Xaeyt4.jpg",
+      "description": "Rein l'Enchanteur est un mage capable d'améliorer les armes et les armures. Mais lorsqu'il se fait renvoyer de sa guilde pour la simple raison qu'il a déjà enchanté tout ce qu'elle possède, il décide de reprendre tous les sorts qu’il a transmis à ses ex-compagnons et les affecte à son propre équipement. En chemin, Rein rassemble une bande de parias comme lui et, ensemble, ils explorent le monde.",
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:205493",
+      "id": "tmdb:117061",
       "type": "series",
-      "name": "The Prince of Tennis II: U-17 World Cup",
-      "poster": "https://image.tmdb.org/t/p/w500/etVlxcNUsJLE4qhJON3VwZSzwFW.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/x3kTIGpx66VUTlUsPASyfjAlp98.jpg",
-      "description": "Lorsque le prodige du tennis, Ryoma Echizen, est expulsé du camp d'entraînement de l'élite des moins de 17 ans du Japon pour avoir enfreint les règles, il est désemparé. Mais la chance lui sourit quand il apprend qu’il peut tenter sa chance dans l'équipe américaine. Faire ses preuves face à leurs vétérans endurcis ne sera pas facile et, s'il est accepté, il devra jouer contre ses anciens amis. Pourra-t-il aider ses nouveaux équipiers à se frayer un chemin vers la victoire ?",
-      "releaseInfo": "2022"
+      "name": "The Detective is Already Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/5NXO5acrIa2hkDxIqFyKcVW6vca.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aqETSDXdeYqcD1PPd2WBfeWtoct.jpg",
+      "description": "\"Deviens mon assistant\". À 10 000 mètres d'altitude, Kimizuka Kimihiko, un collégien, qui a le don de toujours se retrouver au mauvais endroit, rencontre Siesta, une jolie jeune fille aux allures d'ange se disant détective. C'est ainsi que commence une aventure de trois ans où notre duo déjoue des complots à travers le monde entier. Et ce jusqu'à ce que la mort les sépare. Un an plus tard, Kimihiko, maintenant en terminale, ne cherche plus qu'à vivre un quotidien paisible. Mais un jour, un client l'interpelle : \"C'est toi, le détective\" ?",
+      "releaseInfo": "2021"
     }
   ]
 }

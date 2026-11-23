@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:1110207",
+      "type": "movie",
+      "name": "The Lovers",
+      "poster": "https://image.tmdb.org/t/p/w500/ocmGR20m9zgn39RupZq8FLWgwKT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/y80uWfdJR0LX9mqjzVWWhZFhgl7.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1631917",
       "type": "movie",
       "name": "La 18e Rose",
@@ -163,15 +171,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/sIdczpaO0XXBe6OEIL8NbWMqQrO.jpg",
       "background": "https://image.tmdb.org/t/p/w780/AeGgtElKvBQY9f9350fztaGLAvH.jpg",
       "description": "Au milieu d'une invasion de zombies, une famille réfugiée dans une ferme isolée paie le prix de secrets enfouis de longue date dans un monde de désolation.",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:1337397",
-      "type": "movie",
-      "name": "Pilya",
-      "poster": "https://image.tmdb.org/t/p/w500/aQCJba6669KSTHrreNlrZuLPwWQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/yqcH0p18LDMeyMgcnrvTBHwz8PF.jpg",
-      "description": "Sexe et rumeurs abondent dans cette histoire érotique de Jules, une lycéenne prête à tout pour récupérer sa meilleure amie Dahlia auprès de Nessa, la nouvelle élève, même si cela implique d'inventer des histoires de liaisons illicites avec des professeurs.",
       "releaseInfo": "2024"
     }
   ]

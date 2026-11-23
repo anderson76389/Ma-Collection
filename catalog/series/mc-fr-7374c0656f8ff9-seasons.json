@@ -1,24 +1,6 @@
 {
   "metas": [
     {
-      "id": "tmdb:2734",
-      "type": "series",
-      "name": "New York Unité Spéciale",
-      "poster": "https://image.tmdb.org/t/p/w500/95flTYCxEPNFSdZVrHy9nMIeLbw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xhK9YCxNwnE0OB1SWvCY39heHQI.jpg",
-      "description": "Les inspecteurs qui font partie de la division des Crimes sexuels (SVU) du service de police de la ville de New York (NYPD) enquêtent sur des crimes de nature sexuelle. Alors que les autres émissions de la franchise de \"La loi et l'ordre\" se sont largement concentrées sur les cas de meurtres, les inspecteurs de la division des Crimes sexuels (SVU) ont souvent affaire à des crimes, tel le viol, auquel la victime survit et elle aide les autorités lors de l'enquête.",
-      "releaseInfo": "1999"
-    },
-    {
-      "id": "tmdb:456",
-      "type": "series",
-      "name": "Les Simpson",
-      "poster": "https://image.tmdb.org/t/p/w500/py1CAYqgpKKtLBdtctLIXfDYDjW.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg",
-      "description": "Située à Springfield, ville américaine moyenne, la série se concentre sur les singeries et les aventures quotidiennes de la famille Simpson : Homer, Marge, Bart, Lisa et Maggie, ainsi que des milliers d'autres personnages.",
-      "releaseInfo": "1989"
-    },
-    {
       "id": "tmdb:1416",
       "type": "series",
       "name": "Grey's Anatomy",
@@ -28,13 +10,13 @@
       "releaseInfo": "2005"
     },
     {
-      "id": "tmdb:213375",
+      "id": "tmdb:456",
       "type": "series",
-      "name": "VisionQuest",
-      "poster": "https://image.tmdb.org/t/p/w500/bWPktguPGslrdM79SNQt4OWYyJS.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uoXXbN2PrOxH6UKyP7kYwmGpAAP.jpg",
-      "description": "Une nouvelle version de Vision ayant échappé à ceux qui cherchaient à faire de lui une arme, vit dans la clandestinité. En quête d’un nouveau sens à sa vie, il consulte les IA intégrées à son programme, notamment Friday, Edith, Jarvis et le tristement célèbre Ultron. Son existence discrète prend fin lorsque sa tête est mise à prix, le contraignant à prendre la fuite avec Thomas Shepherd, un garçon mystérieux qui pourrait bien être la réincarnation du fils de Vision. Tout en échappant à ses poursuivants, Vision doit se confronter à sa propre nature, résister à l’influence d’Ultron et percer le mystère qui entoure son jeune compagnon s’il veut survivre.",
-      "releaseInfo": "2026"
+      "name": "Les Simpson",
+      "poster": "https://image.tmdb.org/t/p/w500/py1CAYqgpKKtLBdtctLIXfDYDjW.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg",
+      "description": "Située à Springfield, ville américaine moyenne, la série se concentre sur les singeries et les aventures quotidiennes de la famille Simpson : Homer, Marge, Bart, Lisa et Maggie, ainsi que des milliers d'autres personnages.",
+      "releaseInfo": "1989"
     },
     {
       "id": "tmdb:4614",
@@ -62,6 +44,15 @@
       "background": "https://image.tmdb.org/t/p/w780/lH22EnM0ofC7GsVGU8dAA2RXV1c.jpg",
       "description": "Paris, aujourd'hui. Marinette et Adrien sont deux collégiens comme les autres, à la différence près qu’ils ont été choisis pour sauver Paris ! Leur mission : capturer les Akumas du mystérieux Papillon qui transforment les parisiens en super vilains. Grâce à leur kwami, nos deux collégiens se métamorphosent en superhéros : Ladybug, et Chat Noir.",
       "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:103540",
+      "type": "series",
+      "name": "Percy Jackson et les Olympiens",
+      "poster": "https://image.tmdb.org/t/p/w500/mAX4KE8ewwuDAIzwv3WTpqE3yh7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dLIKNqBi9L1cVbwuniXkaNOsIXg.jpg",
+      "description": "À 12 ans, Percy Jackson découvre qu’il est le fils de Poséidon, le dieu des mers et des tremblements de terre. Étant un demi-dieu, il se rend à la colonie des Sang-Mêlé, où tous les demi-dieux peuvent s’entraîner à survivre. Il apprend par la suite que les dieux grecs ont installés l’Olympe au sommet de l’Empire State Building, aux États-Unis. Il rencontre à la colonie Annabeth Chase, fille d’Athéna, et retrouve son ami Grover Underwood, un Satyre (créature mi homme mi bouc) . Il se verra confier plusieurs quêtes, liées à une grande prophétie, au cours desquelles il affrontera tromperies, manipulations et monstres, pour sauver l’Olympe en compagnie de nombreux alliés, car il se trouvera au centre d’une guerre opposant les dieux grecs et les Titans pour la seconde fois de l’histoire de l’Olympe.",
+      "releaseInfo": "2023"
     },
     {
       "id": "tmdb:75219",

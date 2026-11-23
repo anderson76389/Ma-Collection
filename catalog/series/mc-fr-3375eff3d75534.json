@@ -10,6 +10,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:329096",
+      "type": "series",
+      "name": "From far away",
+      "poster": "https://image.tmdb.org/t/p/w500/rHI61poyqC6GF0HRurV6Hq12K81.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/inwM4LXqXYYauU1eJkfJ6uDkV11.jpg",
+      "description": "Noriko est une lycéenne comme les autres, jusqu’à ce qu’une explosion l’entraîne dans un monde de magie où personne ne parle sa langue. Complètement perdue, Noriko est secourue par Izark, un épéiste mis au ban de la société, déterminé à tuer « l’Éveil » : un personnage prophétisé qui contrôlerait le Démon du Ciel. Alors qu’Izark et Noriko se rapprochent, il se rend compte qu’elle pourrait bien être celle qu’il traque.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:316694",
       "type": "series",
       "name": "Reborn Goblin",
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/lJDjKRSEWzEQGOM2x8MNLeIdPEV.jpg",
       "background": "https://image.tmdb.org/t/p/w780/k0aoy0vcLxpI8d6USLMM2qzhwsb.jpg",
       "description": "Akira Oda et ses camarades de lycée sont convoqués dans un autre monde ! Alors que les autres élèves se voient attribuer des pouvoirs spéciaux grâce à cette convocation, Akira n'obtient que les capacités d'un « assassin » médiocre. Cependant, son statut dépasse rapidement celui de « héros », la profession la plus puissante. Après avoir commencé à soupçonner le roi d'être à l'origine de cette convocation, Akira est injustement accusé d'un crime et contraint de fuir.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:284442",
-      "type": "series",
-      "name": "A Gatherer's Adventure in Isekai",
-      "poster": "https://image.tmdb.org/t/p/w500/oD4HawWJxmIGNzqwNw7SCFNjaoV.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nir97l3eUIHeHUQjWhV3NffjIK3.jpg",
-      "description": "Kamishiro Takeru est un salarié tout à fait ordinaire qui se réincarne dans un autre monde, un monde d'épées et de magie appelé Madeus, et commence sa nouvelle vie isekai avec de nombreuses nouvelles compétences ! Takeru doit tirer le meilleur parti de sa force physique accrue, de son incroyable pouvoir magique et de sa capacité « Recherche » qui lui permet de trouver des objets de valeur alors que son grand voyage dans cet autre monde commence !",
       "releaseInfo": "2025"
     }
   ]

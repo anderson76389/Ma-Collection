@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1664682",
+      "type": "movie",
+      "name": "La fille indigne",
+      "poster": "https://image.tmdb.org/t/p/w500/jWH2UAaQX0vONTqOgFTr87tvnNn.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bjdgmMhTKcxqFO7RdXYhTlGzffB.jpg",
+      "description": "Des décennies après les crimes qui ont secoué le Brésil, Suzane von Richthofen s'exprime dans des entrevues exclusives sur le meurtre de ses parents et ce qui en a découlé.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1257147",
       "type": "movie",
       "name": "Entre amies",
@@ -163,14 +172,6 @@
       "name": "#SalveRosa",
       "poster": "https://image.tmdb.org/t/p/w500/cSLQCG8f0NIlZkYcryPg6t8VZHU.jpg",
       "background": "https://image.tmdb.org/t/p/w780/zSMwzgkGzAGsu8JnnGvOIodBLdN.jpg",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1030334",
-      "type": "movie",
-      "name": "Mauricio de Sousa: O Filme",
-      "poster": "https://image.tmdb.org/t/p/w500/xkrrzeaOPh4f5b6uMGUbSFcHPfg.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/33qGY01IGXGRFtm7dygK4lW9vpD.jpg",
       "releaseInfo": "2025"
     }
   ]

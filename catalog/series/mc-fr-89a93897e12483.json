@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:240263",
+      "type": "series",
+      "name": "The Good Stuff with Mary Berg",
+      "poster": "https://image.tmdb.org/t/p/w500/qBFo5RoXyugjoSlhxmtsXfv9L1I.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/52DxQEtqPFD6LW3miVzGZa8axyX.jpg",
+      "releaseInfo": "2023"
+    },
+    {
       "id": "tmdb:234613",
       "type": "series",
       "name": "Les Traîtres (Canada)",

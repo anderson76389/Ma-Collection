@@ -28,6 +28,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1642568",
+      "type": "movie",
+      "name": "The Last Temptation of Becky",
+      "poster": "https://image.tmdb.org/t/p/w500/nzSx9jiInWGWumMV1n1qyRqrpbq.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4IyYpwIUAkWE3CiUEg2YItc4mIv.jpg",
+      "description": "Becky, désormais agent de la CIA, infiltre un établissement situé près du bunker d'Hitler en Pologne pour empêcher une famille d'aubergistes de lancer le Quatrième Reich. Elle doit prendre les choses en main pour faire échouer leur plan.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1792170",
       "type": "movie",
       "name": "Model Citizen",
@@ -50,8 +59,25 @@
       "type": "movie",
       "name": "The Mongoose",
       "poster": "https://image.tmdb.org/t/p/w500/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bySCyjQXNPgsnLTlgJpSMnRazPD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uAe2LEuZ2xg312FY7D8Ei4bl0aG.jpg",
       "description": "Accusé d'un crime qu'il n'a pas commis et n'ayant plus rien à perdre, un héros de guerre aux prises avec un syndrome de stress post-traumatique entraîne les forces de l'ordre dans une course-poursuite effrénée à travers tout le pays, avec l'aide de ses frères d'armes, tandis qu'un public captivé encourage sa fuite.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1496696",
+      "type": "movie",
+      "name": "Breeder",
+      "poster": "https://image.tmdb.org/t/p/w500/alsb3UC17kxIcytLWvwkmL0STgU.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/jcM2nzRn8lIi3q3mQPxoWsqOUa8.jpg",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1084409",
+      "type": "movie",
+      "name": "A Talent for Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/6bvxjh0G4q5GrTOGWagYBJ1s7DY.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/b3EGc5Ucj7wIeUjFc64Wq4IYgkp.jpg",
+      "description": "La solitude de Patricia Highsmith dans les Alpes suisses est interrompue par Edward, un jeune agent littéraire envoyé par sa maison d'édition pour la convaincre d'écrire un dernier roman de Tom Ripley. Highsmith utilise son imagination macabre pour effrayer Edward, mais avant qu'ils ne s'en rendent compte, une collaboration s'instaure entre eux.",
       "releaseInfo": "2026"
     },
     {
@@ -59,7 +85,7 @@
       "type": "movie",
       "name": "Clayface",
       "poster": "https://image.tmdb.org/t/p/w500/5RzUMLAYw2xHsd98UKcMC9s0ZQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/f1TVhqJJdxMvUsUDuKHS0ekgYkk.jpg",
       "description": "L'ascension fulgurante de Matt Hagen, de gamin des rues de Gotham à star hollywoodienne, est brutalement interrompue lorsqu'un baron du crime le laisse atrocement défiguré. Abandonné de tous et n'ayant plus rien à perdre, Matt se tourne vers un traitement expérimental qui lui rend miraculeusement son apparence... mais altère profondément sa perception de la réalité. Il sombre alors dans une spirale destructrice, consumé par un irrépressible désir de vengeance.",
       "releaseInfo": "2026"
     },
@@ -120,7 +146,7 @@
       "type": "movie",
       "name": "The Beast",
       "poster": "https://image.tmdb.org/t/p/w500/ocg5JfJP19fodcv5uQUApkmZMdI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/v5Wb9NoE0s1mGmC5wVeQR1OK22V.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r5RYEmZzm1Z6imS7XfiKPnMlyc7.jpg",
       "description": "Lorsqu'une attaque mondiale coordonnée plonge la planète dans le chaos, le président américain et son dernier agent des services secrets montent à bord de \"The Beast\", une limousine high-tech militarisée et dotée d'un arsenal défensif impressionnant, pour se lancer dans une course effrénée qui décidera du sort du monde libre.",
       "releaseInfo": "2026"
     },
@@ -134,46 +160,19 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1401433",
+      "type": "movie",
+      "name": "Appofeniacs",
+      "poster": "https://image.tmdb.org/t/p/w500/6uKZM73i8HnR3wmrGWzxHtjmvYb.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1SlHgHdWLvGowW91Uy4tfWfrbFf.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1786738",
       "type": "movie",
       "name": "Stream of Terror",
       "poster": "https://image.tmdb.org/t/p/w500/7FMnlbVQ3aSCPQq4CW27xY5X22R.jpg",
       "background": "https://image.tmdb.org/t/p/w780/AnQT4b4GVupQ8D7frNORto12qLR.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1244523",
-      "type": "movie",
-      "name": "Beware Boiúna",
-      "poster": "https://image.tmdb.org/t/p/w500/zvDKEHLhr6bk4Gxa9oj0DIkWNJh.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9nU0FKNefmhbgi2xXlvZchZsqwm.jpg",
-      "description": "Au cœur de l'Amazonie, une mission médicale se transforme en une lutte pour la survie lorsque Boiúna, un prédateur ancestral colossal, se réveille pour reconquérir son territoire. Dans cette jungle où la nature règne en maître, c'est elle qui décide qui vivra et qui mourra.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1283515",
-      "type": "movie",
-      "name": "Verity",
-      "poster": "https://image.tmdb.org/t/p/w500/1ob7dZ1rvAgHOpVJGjJ2voibOp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cKetrF2dAnQ0AMV5i4BMOs41I5P.jpg",
-      "description": "Lorsqu’un accident affecte les capacités de l’autrice de bestsellers, Verity Crawford, à achever son œuvre, une écrivaine solitaire, Lowen Ashleigh, qui peine à joindre les deux bouts est engagée pour lui prêter sa plume. En résidence dans la propriété reculée de la romancière, elle fait la découverte d’un manuscrit autobiographique glaçant et peine à démêler ce qui relève de la fiction ou de la réalité…",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1613037",
-      "type": "movie",
-      "name": "Buzzkill",
-      "poster": "https://image.tmdb.org/t/p/w500/uLftvCgy9WFGRnrGbMer7i61Zkn.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ul0nXmrjwg73ZfL9l6F7ABsRp1z.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1492640",
-      "type": "movie",
-      "name": "UNABOMBER",
-      "poster": "https://image.tmdb.org/t/p/w500/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/XohTvvPXiGhUKhiQSvmoMTnj2z.jpg",
-      "description": "Ted Kaczynski, un jeune prodige qui intègre Harvard à 16 ans avant de basculer dans le terrorisme. Soumis à des expériences psychologiques discutables menées par le docteur Henry Murray, le passé tourmenté de Kaczynski refait surface des décennies plus tard, lorsque la traque d'Unabomber menée par l'agente du FBI Joanne Miller met en lumière les conséquences terrifiantes de l'ambition et de l'isolement.",
       "releaseInfo": "2026"
     }
   ]

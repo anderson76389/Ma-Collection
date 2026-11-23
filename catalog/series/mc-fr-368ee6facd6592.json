@@ -9,14 +9,6 @@
       "releaseInfo": "1989"
     },
     {
-      "id": "tmdb:1384",
-      "type": "series",
-      "name": "Four Corners",
-      "poster": "https://image.tmdb.org/t/p/w500/kuRWjm8WlWXboeGGiCQH1L6KT78.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/wtHDHiCf0UQTOpCpH8hvfabo0U3.jpg",
-      "releaseInfo": "1961"
-    },
-    {
       "id": "tmdb:244978",
       "type": "series",
       "name": "Enquêtes au paradis",
@@ -34,21 +26,20 @@
       "releaseInfo": "2016"
     },
     {
-      "id": "tmdb:307176",
-      "type": "series",
-      "name": "Dustfall",
-      "poster": "https://image.tmdb.org/t/p/w500/a7LdXshL4vuCA3LWB2gNNckBIpO.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/q7VXA2jZ88Dvp7TPbqNVWwR94ik.jpg",
-      "description": "Tout juste de retour dans sa ville de North Gap après avoir passé plusieurs années dans la capitale, l’enquêtrice Tig Pollard est chargée de l’affaire d’Edie, une jeune fille de 18 ans retrouvée nue dans un champ de canne à sucre, sans aucun souvenir de la façon dont elle est arrivée là. Ce qui commence comme une affaire d’agression sexuelle prend une tournure de plus en plus sombre, et la quête de vérité de Tig devient personnelle lorsqu’une personne de son passé refait surface, la forçant à affronter des secrets longtemps enfouis de sa propre adolescence.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:256371",
       "type": "series",
       "name": "Austin",
       "poster": "https://image.tmdb.org/t/p/w500/hgDf5LOkJ9HS2egAitWT2AgEI5v.jpg",
       "background": "https://image.tmdb.org/t/p/w780/ccg8LecjMSPw2YrvCRWoo6NjHd2.jpg",
       "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:338661",
+      "type": "series",
+      "name": "Shakedown",
+      "poster": "https://image.tmdb.org/t/p/w500/aZskL2s5Xlku1VxMDqoT0OX9x4p.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/9KgzJQxl34nzBNoYazfSoMUFT3A.jpg",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:337947",
@@ -59,12 +50,12 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:258908",
+      "id": "tmdb:337730",
       "type": "series",
-      "name": "I Was Actually There",
-      "poster": "https://image.tmdb.org/t/p/w500/5v9v2KSy0Qtbdtu2nn2jBlmXodC.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/zTSdfGc2q1DFi2P0vIxogwSCMsV.jpg",
-      "releaseInfo": "2024"
+      "name": "Recipe of the Year",
+      "poster": "https://image.tmdb.org/t/p/w500/e02kCRTSuT479nh1DDdBFlc74un.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/87XSfqP0wNATfDCpcV30CqDdygK.jpg",
+      "releaseInfo": "2026"
     },
     {
       "id": "tmdb:336392",
@@ -72,14 +63,6 @@
       "name": "Ages of Ice",
       "poster": "https://image.tmdb.org/t/p/w500/wdqNNT0b1lYAdNYTsfxkClQfYhA.jpg",
       "background": "https://image.tmdb.org/t/p/w780/x66cy3hBgrWB6509b6SWSgb1iwt.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:337730",
-      "type": "series",
-      "name": "Recipe of the Year",
-      "poster": "https://image.tmdb.org/t/p/w500/e02kCRTSuT479nh1DDdBFlc74un.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/87XSfqP0wNATfDCpcV30CqDdygK.jpg",
       "releaseInfo": "2026"
     },
     {

@@ -1,12 +1,39 @@
 {
   "metas": [
     {
-      "id": "tmdb:1567605",
+      "id": "tmdb:1595124",
       "type": "movie",
-      "name": "Scrooge",
-      "poster": "https://image.tmdb.org/t/p/w500/uxYPnpkSmG1iluoSB0fOtYK7BfM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/fdOVxyNNL95SuI8BGaN6vudEuYX.jpg",
-      "description": "Ebenezer Scrooge est un vieil homme avare, pingre et solitaire. Bien évidemment, il déteste et méprise Noël et tout ce qui engendre le bonheur. C'est alors qu'il reçoit la visite du fantôme d'un ancien associé ainsi que par les esprits de Noëls du passé, du présent et du futur.",
+      "name": "Sœurs de sort",
+      "poster": "https://image.tmdb.org/t/p/w500/2rOCe6L9qwFoakYrWFVnICSbmLK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/g1bEboMx1a8JCg1jXeDCh24RtgW.jpg",
+      "description": "Dans cette comédie d'action décalée, Lilith, la \"méchante\" demi-sœur de Cendrillon, vole la baguette de Marraine la bonne fée et bouleverse le conte tel que nous le connaissons.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1551025",
+      "type": "movie",
+      "name": "Protection (très) rapprochée",
+      "poster": "https://image.tmdb.org/t/p/w500/2RtUijWe9PxnckIFugctHLj2xe5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qHvap0vpfTBIbv7cnR0OyBRqQHG.jpg",
+      "description": "Quand une garde du corps intraitable est chargée de protéger une star de cinéma, les étincelles fusent, des secrets éclatent au grand jour et Noël devient soudain très compliqué.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1131943",
+      "type": "movie",
+      "name": "Madden",
+      "poster": "https://image.tmdb.org/t/p/w500/1D1U38gOkfOhahH3yfmfHUXqD76.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lRsapglJZIyMfGl8oQyNASlZqDC.jpg",
+      "description": "Inspiré de la vie d'une icône américaine, MADDEN retrace le parcours de John Madden : de son duo victorieux avec Al Davis chez les Raiders à son rôle de voix emblématique du football, jusqu'à la création du jeu vidéo mythique Madden NFL. Ce film rend hommage à un esprit brillant dont la passion débordante et la complicité avec son épouse Virginia ont dépassé le simple cadre du sport.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1518204",
+      "type": "movie",
+      "name": "Allen",
+      "poster": "https://image.tmdb.org/t/p/w500/alhhrpj1PSAn5bfz4Os1k7Bweoj.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/51fGmBW7WjyJouP9TjIcxRpCUNk.jpg",
+      "description": "Vingt ans après sa rencontre avec un alien, Petey n'a jamais pu tourner la page. Maintenant, son vieil ami est de retour, mais pour une raison compliquée... et inattendue.",
       "releaseInfo": "2026"
     },
     {
@@ -50,7 +77,7 @@
       "type": "movie",
       "name": "Street Fighter",
       "poster": "https://image.tmdb.org/t/p/w500/k53HHxQ4rQG0dME6nsofii3QNS7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/w2Gu916zS11X94CZaSLpzvfgHcG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg",
       "description": "En 1993, Ryu et Ken Masters, deux Street Fighters autrefois inséparables, sont replongés dans l’arène lorsque la mystérieuse Chun-Li les recrute pour le prochain World Warrior Tournament : un affrontement brutal où se mêlent poings, destin et fureur. Mais derrière cette battle royale se cache une conspiration mortelle qui les oblige à s’affronter, tout en faisant face aux démons de leur passé… Et s’ils échouent, c’est GAME OVER.",
       "releaseInfo": "2026"
     },
@@ -77,7 +104,7 @@
       "type": "movie",
       "name": "Digger",
       "poster": "https://image.tmdb.org/t/p/w500/gPCCGMQCrrMNM3mR3vqIdbdJxJ5.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/vC5IxhgO6cVmw9O4QgkraRzfHvh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4A3r1AjJg9Wa6ms3MGOScetCY0o.jpg",
       "description": "L’homme le plus puissant du monde se lance dans une mission frénétique pour prouver qu’il est le sauveur de l’humanité avant que le désastre qu’il a déclenché ne détruise tout.",
       "releaseInfo": "2026"
     },
@@ -136,48 +163,21 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1522689",
+      "type": "movie",
+      "name": "Pourquoi je me suis marié, déjà ?",
+      "poster": "https://image.tmdb.org/t/p/w500/8mmQWqkvZrvxqr21WhV7Pk0WIHl.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lJYniNRM2i9wXnfWVHOB4PxygFZ.jpg",
+      "description": "Réunis à l'étranger pour le mariage de la fille de Marcus et Angela, les couples attisent des tensions anciennes et nouvelles en se demandant : « Pourquoi on s'est mariés, déjà ? »",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1377237",
       "type": "movie",
-      "name": "Runner",
+      "name": "Le Transport",
       "poster": "https://image.tmdb.org/t/p/w500/4gRzxdF2IEGiANKEDVtjMuNl12n.jpg",
       "background": "https://image.tmdb.org/t/p/w780/npXZNWjOEYrqdMDPQ11SGBrXqAG.jpg",
       "description": "Un ancien soldat se retrouve engagé dans une course contre la montre lorsqu’une livraison médicale essentielle fait de lui et de son partenaire improbable la cible d’un cartel impitoyable. La mission se transforme rapidement en une chasse à l’homme meurtrière, où chaque détour, chaque retard et chaque balle les rapprochent de l’échec. Traqués de toutes parts, ils doivent survivre à cette poursuite et livrer leur cargaison à temps pour sauver la vie d’une petite fille.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1137844",
-      "type": "movie",
-      "name": "Mayday",
-      "poster": "https://image.tmdb.org/t/p/w500/eHELFF4BBxmEk5JyhV017Xcgvwy.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/g7Ccid5kuD7A8hXWlsQiNfwOxaD.jpg",
-      "description": "Un pilote de la Navy envoyé en mission secrète durant la guerre froide se retrouve piégé en territoire ennemi. Son seul espoir de survie est de s'allier à un ex-agent du KGB excentrique.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1514026",
-      "type": "movie",
-      "name": "Buddy",
-      "poster": "https://image.tmdb.org/t/p/w500/lfdInOrdyTGXOuFBOLefamy6AgI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/sMmG82PtjK8A9rVc34gwKQtCm3A.jpg",
-      "description": "Des enfants piégés dans une émission de télévision en apparence joyeuse doivent trouver un moyen d'échapper à l'emprise sinistre de Buddy, la peluche adorée mais malveillante qui anime l'émission.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1729723",
-      "type": "movie",
-      "name": "Les Simpson Yellow Mirror",
-      "poster": "https://image.tmdb.org/t/p/w500/sJMs3P5bQx0OgKrihT5TzTK70Qp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rFjlsx5IygrHmBqr0KsVolAHhy7.jpg",
-      "description": "Les Simpson luttent pour trouver leur voie à travers deux contes sombres, étranges et insolites. Une lampe défectueuse révèle une vérité bouleversante sur ce qu'Homer croyait être la réalité. Et une tablette dotée d'une intelligence artificielle se lie d'amitié avec Maggie afin de manipuler son esprit.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1341138",
-      "type": "movie",
-      "name": "Spa Weekend",
-      "poster": "https://image.tmdb.org/t/p/w500/wW2M5FnQrjTZPrIpOKqYpitAGdj.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ftFf9sfJq69xJ0AuiaIuDKBtfzg.jpg",
-      "description": "Entre carrière, famille et responsabilités quotidiennes, quatre amies de longue date réalisent qu'elles ont oublié comment prendre soin d'elles-mêmes. Épuisées et méritant une pause longtemps due, elles partent pour un week-end de détente au sein d'un spa pour un moment de plaisir, de rire et de très mauvaises décisions.",
       "releaseInfo": "2026"
     }
   ]

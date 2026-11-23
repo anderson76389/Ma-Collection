@@ -1,24 +1,6 @@
 {
   "metas": [
     {
-      "id": "tmdb:2734",
-      "type": "series",
-      "name": "New York Unité Spéciale",
-      "poster": "https://image.tmdb.org/t/p/w500/95flTYCxEPNFSdZVrHy9nMIeLbw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/xhK9YCxNwnE0OB1SWvCY39heHQI.jpg",
-      "description": "Les inspecteurs qui font partie de la division des Crimes sexuels (SVU) du service de police de la ville de New York (NYPD) enquêtent sur des crimes de nature sexuelle. Alors que les autres émissions de la franchise de \"La loi et l'ordre\" se sont largement concentrées sur les cas de meurtres, les inspecteurs de la division des Crimes sexuels (SVU) ont souvent affaire à des crimes, tel le viol, auquel la victime survit et elle aide les autorités lors de l'enquête.",
-      "releaseInfo": "1999"
-    },
-    {
-      "id": "tmdb:291507",
-      "type": "series",
-      "name": "The Body",
-      "poster": "https://image.tmdb.org/t/p/w500/swEOVOmkYtTg3UBStrvt1yZJm26.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/hYJqUoXRZnodGxgVZTM8uwr5kbC.jpg",
-      "description": "Le soir d'Halloween, un rite d'initiation vire au cauchemar, faisant basculer une troupe de danseuses dans la culpabilité catholique, les désirs impies et les visions étranges.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:65334",
       "type": "series",
       "name": "Miraculous, les aventures de Ladybug et Chat Noir",
@@ -26,6 +8,15 @@
       "background": "https://image.tmdb.org/t/p/w780/lH22EnM0ofC7GsVGU8dAA2RXV1c.jpg",
       "description": "Paris, aujourd'hui. Marinette et Adrien sont deux collégiens comme les autres, à la différence près qu’ils ont été choisis pour sauver Paris ! Leur mission : capturer les Akumas du mystérieux Papillon qui transforment les parisiens en super vilains. Grâce à leur kwami, nos deux collégiens se métamorphosent en superhéros : Ladybug, et Chat Noir.",
       "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:65701",
+      "type": "series",
+      "name": "Good Mythical Morning",
+      "poster": "https://image.tmdb.org/t/p/w500/jMpBQr2aNOFAI6wsC47zsOG6qOh.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/hvFCS0dMeC3ffiF4uYTKzUAkvYL.jpg",
+      "description": "Good Mythical Morning est une série YouTube de comédie, de discussion et de variétés américaine créée par Rhett McLaughlin et Link Neal. L'émission a été diffusée pour la première fois sur YouTube le 9 janvier 2012. De nombreuses célébrités et personnalités d'Internet, dont Daniel Radcliffe, Felix Kjellberg, Hank Green, Kobe Bryant et Linkin Park ont participé au show. L'émission se concentre sur Rhett et Link alors qu'ils racontent des histoires, chantent des chansons, relèvent des défis, etc...",
+      "releaseInfo": "2012"
     },
     {
       "id": "tmdb:58841",
@@ -37,22 +28,22 @@
       "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:312359",
-      "type": "series",
-      "name": "Dragon Ball Super : Beerus",
-      "poster": "https://image.tmdb.org/t/p/w500/sGuCmIy8kEmx3FWZyMj654rF6g8.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg",
-      "description": "Des années après la défaite de Majin Buu, la paix est revenue sur Terre. Mais lorsque Beerus, le Dieu de la Destruction, se réveille, cette tranquillité vole en éclats. Attiré sur Terre par des rumeurs concernant le Saiyan qui a vaincu Freezer, Beerus cherche à défier Goku en déployant une puissance capable de détruire des planètes entières. Goku et ses alliés doivent désormais affronter Beerus dans un combat qui fera trembler l'univers.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:85077",
       "type": "series",
       "name": "The Chosen",
       "poster": "https://image.tmdb.org/t/p/w500/gtC9ufiOLQ2Q856Eh2clHpDb1nf.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ib8CO2kXlwg9fnauK9HuMkw0oNQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/2YQFwn9aF7huTFHxn9lFTAn14F.jpg",
       "description": "Un pêcheur charismatique aux prises avec des dettes. Une femme troublée aux prises avec ses démons. Un comptable doué, mis au ban de sa famille et de son peuple. Voyez comment Jésus atteint chacun d'entre eux et bien plus encore, alors qu'il accomplit ses premiers miracles et se lance dans son ministère pour changer le monde. Découvrez-le à travers les yeux de ceux qui l'ont connu.",
       "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:103540",
+      "type": "series",
+      "name": "Percy Jackson et les Olympiens",
+      "poster": "https://image.tmdb.org/t/p/w500/mAX4KE8ewwuDAIzwv3WTpqE3yh7.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/dLIKNqBi9L1cVbwuniXkaNOsIXg.jpg",
+      "description": "À 12 ans, Percy Jackson découvre qu’il est le fils de Poséidon, le dieu des mers et des tremblements de terre. Étant un demi-dieu, il se rend à la colonie des Sang-Mêlé, où tous les demi-dieux peuvent s’entraîner à survivre. Il apprend par la suite que les dieux grecs ont installés l’Olympe au sommet de l’Empire State Building, aux États-Unis. Il rencontre à la colonie Annabeth Chase, fille d’Athéna, et retrouve son ami Grover Underwood, un Satyre (créature mi homme mi bouc) . Il se verra confier plusieurs quêtes, liées à une grande prophétie, au cours desquelles il affrontera tromperies, manipulations et monstres, pour sauver l’Olympe en compagnie de nombreux alliés, car il se trouvera au centre d’une guerre opposant les dieux grecs et les Titans pour la seconde fois de l’histoire de l’Olympe.",
+      "releaseInfo": "2023"
     }
   ]
 }

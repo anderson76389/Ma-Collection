@@ -1,6 +1,24 @@
 {
   "metas": [
     {
+      "id": "tmdb:335981",
+      "type": "series",
+      "name": "Le Cinéma selon Cunk",
+      "poster": "https://image.tmdb.org/t/p/w500/zrrRRvavkLQupkC6aEkdA8sX4E8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3NA7FxkqAaG1buZC1WtdPDpMlZg.jpg",
+      "description": "Dans cette série mockumentaire espiègle, Philomena Cunk part à la découverte de l'histoire du cinéma, sans manquer de laisser plusieurs experts perplexes en chemin.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:275139",
+      "type": "series",
+      "name": "Phony",
+      "poster": "https://image.tmdb.org/t/p/w500/iCyQc8cSSHkxUHbkvzbC77owALt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/roUD5m2nj6k88azMFsiqBae29cr.jpg",
+      "description": "À son réveil après un accident de voiture, le lycéen Sonny Cooke trouve sa mère, Ellen, légèrement changée. Le problème, c'est qu'il est le seul à le remarquer et que personne ne le croit. Coincé avec cette femme qu'il soupçonne d'être un dangereux imposteur, Sonny tente de prouver qu'il n'est pas fou.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:305357",
       "type": "series",
       "name": "A Different World",
@@ -159,24 +177,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/vnxkopX2BRNlUbE5xtb6S62eSN6.jpg",
       "background": "https://image.tmdb.org/t/p/w780/r1lGjwTRF0RGYFHzvt3SupArmRy.jpg",
       "description": "Fille d'une ancienne serveuse chez Hooters et d'un ex-catcheur pro, Margo, écrivaine en herbe, vient d'arrêter ses études. Face à l'arrivée d'un bébé et d'une pile de factures grandissante qu'elle ne peut payer, Margo doit trouver une solution pour s'en sortir.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:279471",
-      "type": "series",
-      "name": "Malcolm : Rien n’a changé",
-      "poster": "https://image.tmdb.org/t/p/w500/2AjzqV565NWhiyjsorSu7s9bLsD.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uekZzyLReK777QKO9xKwiPOelCQ.jpg",
-      "description": "Vingt ans plus tard, Malcolm et sa famille n'ont toujours rien appris.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:291506",
-      "type": "series",
-      "name": "Big Mistakes",
-      "poster": "https://image.tmdb.org/t/p/w500/qeCmU79haciBBOBmOy7dJtbz95Y.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/oGORe3yzIPBueHVHroSmsaMVKDi.jpg",
-      "description": "Contraints à la suite d'un chantage d'œuvrer pour des individus très dangereux, un frère et une sœur complètement bras cassés deviennent le duo le plus loufoque du crime organisé.",
       "releaseInfo": "2026"
     }
   ]

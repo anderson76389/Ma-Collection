@@ -1,12 +1,48 @@
 {
   "metas": [
     {
+      "id": "tmdb:1595124",
+      "type": "movie",
+      "name": "Sœurs de sort",
+      "poster": "https://image.tmdb.org/t/p/w500/2rOCe6L9qwFoakYrWFVnICSbmLK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/g1bEboMx1a8JCg1jXeDCh24RtgW.jpg",
+      "description": "Dans cette comédie d'action décalée, Lilith, la \"méchante\" demi-sœur de Cendrillon, vole la baguette de Marraine la bonne fée et bouleverse le conte tel que nous le connaissons.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1584779",
       "type": "movie",
-      "name": "Mon père, un meurtrier ?",
+      "name": "L’inconnue dans le placard",
       "poster": "https://image.tmdb.org/t/p/w500/4aBN0YZ6Jfb09fRSxyObfdSe2Ot.jpg",
       "background": "https://image.tmdb.org/t/p/w780/8UkpeQ7fwKyX2PVmnnaAJm7Vv9J.jpg",
       "description": "Quand Amy, la présidente d'une importante association caritative, perd son père, elle est choquée de découvrir qu'il possédait un espace dans un garde-meuble avec un secret mortel à l'intérieur : le corps d'une femme. Son père était-il un meurtriers ? Qui était cette femme ?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1551025",
+      "type": "movie",
+      "name": "Protection (très) rapprochée",
+      "poster": "https://image.tmdb.org/t/p/w500/2RtUijWe9PxnckIFugctHLj2xe5.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qHvap0vpfTBIbv7cnR0OyBRqQHG.jpg",
+      "description": "Quand une garde du corps intraitable est chargée de protéger une star de cinéma, les étincelles fusent, des secrets éclatent au grand jour et Noël devient soudain très compliqué.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1801870",
+      "type": "movie",
+      "name": "La malédiction de Noël",
+      "poster": "https://image.tmdb.org/t/p/w500/lSDX9TKJ0y4Jn5CDR0qLral5G2Z.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ocYYXEi2THSMFG25QR2SLtVH2jb.jpg",
+      "description": "Chelsey, experte en rencontres, est bien décidée à briser la malédiction qui la voit systématiquement se faire quitter pendant les fêtes de fin d'année. Mais au moment où le destin lui fait croiser le chemin de son amour de lycée, elle se demande si elle n'était pas tout simplement vouée à retrouver son premier amour.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1771047",
+      "type": "movie",
+      "name": "Coup de foudre pour Monsieur Noël",
+      "poster": "https://image.tmdb.org/t/p/w500/2dSl2lGLY4xK26uke4Ofh1PFuQ1.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/vw1jNsQ8OpxGywlsSNqwg8Tcldd.jpg",
+      "description": "Pour décrocher la promotion de sa vie, Lori, une femme très travailleuse, doit aider Emmett, l’héritier d’un empire du jouet au charme irresponsable, à trouver l’amour et à prouver qu’il est l’homme de la situation pour reprendre les rênes de l’entreprise lorsque son père prendra sa retraite le tout avant Noël.",
       "releaseInfo": "2026"
     },
     {
@@ -23,7 +59,7 @@
       "type": "movie",
       "name": "Noël dans ta peau",
       "poster": "https://image.tmdb.org/t/p/w500/5u3H664XvI8bylp0yi8uGSq895n.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/4BsOLok9WaTTTcSpmoMtCLERScS.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tNoB9ptCmp8bzdanndxswxrOfG6.jpg",
       "description": "Deux sœurs aux personnalités complètement différentes se voient contraintes d'échanger leurs vies quelques semaines avant Noël. Dans leurs nouveaux environnements, elles font face à leurs choix et trouvent l'amour au moment où elles s'y attendaient le moins.",
       "releaseInfo": "2026"
     },
@@ -41,7 +77,7 @@
       "type": "movie",
       "name": "Never Surrender",
       "poster": "https://image.tmdb.org/t/p/w500/nkE9esa0p8vBmY38jQasmVVRqoc.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/umxN2kMcUm6VoxSOdcEcQoXuC4q.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/bjt53Hjqwl9VrtJkDv39GwmE1QN.jpg",
       "description": "Quand un gang meurtrier prend d'assaut sa maison isolée, un vétéran rongé par le remords et ses petits-enfants qu'il connaît à peine unissent leurs forces pour survivre.",
       "releaseInfo": "2026"
     },
@@ -49,7 +85,7 @@
       "id": "tmdb:1559980",
       "type": "movie",
       "name": "Le Gospel de Noël",
-      "poster": "https://image.tmdb.org/t/p/w500/ihbN6lNDXKe6w9xE6IBFMVF2Rkr.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/xNF1YWXFIqIx5XriMSFLq6X7MSt.jpg",
       "background": "https://image.tmdb.org/t/p/w780/p1Ag7etCR5yUvElhwZmWsMo5IFu.jpg",
       "description": "Un pasteur en proie au doute emménage avec sa famille dans un quartier difficile de New York, où ils doivent sauver une église délabrée de la fermeture avant Noël.",
       "releaseInfo": "2026"
@@ -84,6 +120,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/sioCMNEoeZsrcig6aMtJ4FleStg.jpg",
       "background": "https://image.tmdb.org/t/p/w780/6vGH7JZFLzFawpwCcnNweF8j3KD.jpg",
       "description": "Yui Katakura,40 ans, est une célibataire qui passe son temps à faire des économies. Elle se constitue patiemment un pécule pour sa retraite, jusqu'au jour où un dépistage gratuit du cancer bouleverse sa vie bien rangée. Il révèle qu'il ne lui resterait qu'un an à vivre. Encore sous le choc, elle voit surgir Yoshitaka Sena, alias Ryuma, un hôte séduisant aux cheveux roses, qui lui demande si elle pourrait lui prêter de l'argent. Puisqu'elle va mourir, à quoi bon continuer d'économiser ? Yui accepte cette demande osée et \"achète\" Sena pour 720 000 yens. Leur étrange relation prend alors une tournure inattendue.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1307474",
+      "type": "movie",
+      "name": "Vicentina demande pardon",
+      "poster": "https://image.tmdb.org/t/p/w500/j3jheqT8incVBBtB9dTXdvavu2i.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tTevcc0y0EQLeEyg4aMsrGyy7NO.jpg",
+      "description": "Un accident mortel. Une mère rongée par la culpabilité. Des familles en deuil. Vicentina veut réparer le mal causé par son fils. Mais est-il trop tard pour obtenir le pardon ?",
       "releaseInfo": "2026"
     },
     {
@@ -128,51 +173,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/jks3cfCwBFkAxq2rj2SENF6OiDE.jpg",
       "background": "https://image.tmdb.org/t/p/w780/eBtITrrdFo1EG7t6TSG5U5c4P2e.jpg",
       "description": "Marlene Frischmann, mère célibataire, organise la fête d'anniversaire parfaite pour son fils Theo dans la superbe maison de campagne de son frère : ballons, gâteau sans gluten, piñata et même quelques animaux sauvages devraient rendre cette journée inoubliable. Mais cette célébration préparée avec amour ne tarde pas à virer au cauchemar, entre débats enflammés sur l'éducation, la masculinité et les principes parentaux. Un drôle de désordre en partie engendré par Timo, le frère de Marlene, banquier turbulent, Hans, son père excentrique à la dérive, Jenny, sa collègue idéaliste qui rêve de sauver le monde, et un cadeau très spécial. Entre structures familiales dysfonctionnelles, mères surprotectrices prétentieuses et anarchie enfantine, la fête sombre peu à peu dans le chaos.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1571955",
-      "type": "movie",
-      "name": "Colisión",
-      "poster": "https://image.tmdb.org/t/p/w500/fO0urhdE9nNycAfBdwtLt80uKoi.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/uI3kWI7kGW5E0F8WduewgQYPt34.jpg",
-      "description": "En pleine crise économique, un groupe de cambrioleurs s'introduit dans une banque à Madrid, déclenchant une série d'événements imprévisibles. Ce qui s'apparentait au départ à un simple braquage se transforme en un jeu de dupes et de peur où tout est affaire de survie : chaque décision compte, chaque geste cache quelque chose et chacun cherche à échapper à un châtiment pire que la prison.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1541477",
-      "type": "movie",
-      "name": "Toi, Moi, Nous",
-      "poster": "https://image.tmdb.org/t/p/w500/kw0sXl9LAikT65wq7NwY3y9g45K.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9uU3523A14KJ90Jr8pQx0NGGIgb.jpg",
-      "description": "Simone, un homme organisé et profondément attaché aux valeurs familiales, partage sa vie avec Lucia, une femme indépendante qui a toujours rejeté l'idée de devenir mère. Malgré leurs différences, leur couple repose sur un amour solide et de perpétuelles négociations. Mais lorsqu'ils décident d'adopter un enfant, leurs convictions et leurs désirs contradictoires refont surface, mettant leur relation à l'épreuve.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1789826",
-      "type": "movie",
-      "name": "Confessions d'une accro à Noël",
-      "poster": "https://image.tmdb.org/t/p/w500/rzByMC9x3FdKp4u4DrThqyLxQpY.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9ApCYxqPSr9OKuxaCeNMxuo4wnd.jpg",
-      "description": "Mélanie Patterson est une passionnée des fêtes de fin d'année, qui met une petite touche de Noël, dans tous les évènements qu'elle organise. Son seul problème : elle dépense toujours trop... Ce qui lui vaut de perdre son emploi. Elle décide alors de se mettre à son compte et de lancer sa nouvelle carrière, à l'occasion du réveillon qu'elle organise chaque année pour tous les habitants de son quartier.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1780005",
-      "type": "movie",
-      "name": "Contre l'Ouragan",
-      "poster": "https://image.tmdb.org/t/p/w500/8T590m8nwAub9fTxp72EJPphOWa.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cpNMIRCrDl0sxDL1tHBzfWi0UZC.jpg",
-      "description": "En pleine mer, Wirpul et son demi-frère Candi luttent pour survivre lorsqu'une tempête imprévue au large d'Acapulco se transforme en ouragan de catégorie 5, dénommé Otis. Une histoire de fraternité, d'inégalité et de courage, où l'amour fraternel est le seul espoir.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1453407",
-      "type": "movie",
-      "name": "Gajab Raat",
-      "poster": "https://image.tmdb.org/t/p/w500/e4N7M52cBbyi24xLga8yI6yt1u1.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8I4YFWgi9IZW4VUi398A0BqLnm.jpg",
-      "description": "À New Delhi, Ajay Dikshit, un policier corrompu, voit ses projets de gains faciles voler en éclats lorsqu'une jeune femme grièvement blessée est jetée d'une voiture en marche. Déterminé à découvrir son identité, il se retrouve malgré lui au cœur d'une vaste conspiration aux ramifications internationales. Au fil d'une nuit particulièrement mouvementée, chaque décision l'entraîne un peu plus dans un engrenage dangereux, le contraignant à choisir entre ses intérêts personnels et son devoir de policier.",
       "releaseInfo": "2026"
     }
   ]

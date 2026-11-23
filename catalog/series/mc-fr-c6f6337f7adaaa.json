@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:328010",
+      "type": "series",
+      "name": "Devils' Crest",
+      "poster": "https://image.tmdb.org/t/p/w500/kimx6VeIKhNQH0sqyT2OXfWUO07.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/fA6eLsm6xEBK90IK3UNWoVPZBn7.jpg",
+      "description": "Une nouvelle série par Reki Kawahara, auteur de \"Accel World\" and \"Sword Art Online\". \"Sword Art Online\" abordait la réalité virtuelle, \"Sword Art Online the Movie: Ordinal Scale\" explorait la réalité augmentée, et \"Devils' Crest\" s'attaque à la réalité mélangée. Quand Actual Magic, le 1er VRMMORPG fusionne avec le monde réel, un nouveau jeu mortel commence. Un jeu aussi ancré dans la réalité.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:312359",
       "type": "series",
       "name": "Dragon Ball Super : Beerus",
@@ -82,6 +91,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:305313",
+      "type": "series",
+      "name": "Romelia War Chronicle",
+      "poster": "https://image.tmdb.org/t/p/w500/2wqyITVWs1wZMih2VraylRjqzCo.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/6LeBjYSPULKwSv5R6sX6Iovwoad.jpg",
+      "description": "Sa victoire sur le Roi-Démon aurait dû être le triomphe de Romélia. Au lieu de cela, son fiancé, le prince Henri, rompt leurs fiançailles et la renvoie dans une province en ruines. Mais Romélia ne se laisse pas abattre. Elle jure de lever une armée, de reconstruire le royaume et ce, malgré des conflits qui continuent. Son histoire ne fait que commencer…",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:297903",
       "type": "series",
       "name": "PSYREN",
@@ -160,24 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/6Tf1ETXseEoNAMyofy3aRoJtqaR.jpg",
       "background": "https://image.tmdb.org/t/p/w780/qFELvRyy0C0vxYcKBQEX7BDe4vO.jpg",
       "description": "De jeunes étudiantes insouciantes se lancent dans le trading de devises dans l’espoir de gagner facilement de l’argent. Mais à mesure que les graphiques fluctuent, elles découvrent que la spéculation peut devenir une aventure aussi grisante que dangereuse.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:289324",
-      "type": "series",
-      "name": "Star Wars : Visions Présente - Le Neuvième Jedi",
-      "poster": "https://image.tmdb.org/t/p/w500/vv2fjI8wNPEVmQlfLQeks6TmbGI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/8ln6DSOJKJUSt1IETsfHkFj6rMY.jpg",
-      "description": "Kara et son équipe hétéroclite de Jedi partent à la recherche de Jedi dignes de ce nom pour affronter un seigneur de guerre de plus en plus puissant.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:312266",
-      "type": "series",
-      "name": "Hanaori-san Still Wants to Fight in the Next Life",
-      "poster": "https://image.tmdb.org/t/p/w500/daXebjCM3U6SEm0EgINh5dTyWJe.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/rGpovV6h1XSyksXyHRn0zzQNW8V.jpg",
-      "description": "Ryûsei Narukami est ce qu’on appelle un NEET : sans emploi, il passe ses journées enfermé dans sa chambre à jouer aux jeux vidéo, sans se soucier de rien. Pourtant, il était jadis un puissant roi démon dans un autre monde. C’est alors qu’arrive celle qui l’avait terrassé, réincarnée en une charmante lycéenne. Comment vont se passer ces retrouvailles ?",
       "releaseInfo": "2026"
     }
   ]

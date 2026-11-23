@@ -1,10 +1,19 @@
 {
   "metas": [
     {
+      "id": "tmdb:1131943",
+      "type": "movie",
+      "name": "Madden",
+      "poster": "https://image.tmdb.org/t/p/w500/1D1U38gOkfOhahH3yfmfHUXqD76.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/lRsapglJZIyMfGl8oQyNASlZqDC.jpg",
+      "description": "Inspiré de la vie d'une icône américaine, MADDEN retrace le parcours de John Madden : de son duo victorieux avec Al Davis chez les Raiders à son rôle de voix emblématique du football, jusqu'à la création du jeu vidéo mythique Madden NFL. Ce film rend hommage à un esprit brillant dont la passion débordante et la complicité avec son épouse Virginia ont dépassé le simple cadre du sport.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1286656",
       "type": "movie",
       "name": "I Play Rocky",
-      "poster": "https://image.tmdb.org/t/p/w500/xE5tY3lppZUyG7WKKThsuYHuAHr.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/jKW6b89n5EGbJXtxTZYBcDHLpYg.jpg",
       "background": "https://image.tmdb.org/t/p/w780/1lnnjBCRLZzKRhQipK5zm61YkPe.jpg",
       "description": "Un acteur en difficulté avec un visage partiellement paralysé et un trouble de l’élocution écrit un scénario qu’un grand studio de cinéma veut acheter. Mais l’acteur refuse de le vendre à moins de pouvoir jouer le rôle principal. Refusant une offre d’argent qui pourrait changer sa vie, il travaille pour des centimes afin que le film soit réalisé avec lui dans le rôle principal.",
       "releaseInfo": "2026"
@@ -68,7 +77,7 @@
       "type": "movie",
       "name": "By Any Means",
       "poster": "https://image.tmdb.org/t/p/w500/evCy2B3j57AwSNBZqlePjMl3zj3.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nw9Q3idNO8EsTPnvr8vBJTpkWGA.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/1jANqIbqrWJZb8GM5Kb3L6U8iHi.jpg",
       "description": "Un jeune agent noir du FBI est envoyé au Mississippi dans les années 60 afin d’enquêter sur une vague de meurtres brutaux visant des leaders du mouvement des droits civiques. Contraint de faire équipe avec le célèbre tueur à gages de la mafia Greg Scarpa, il se retrouve entraîné dans une traque meurtrière où la frontière entre justice et vengeance devient de plus en plus floue.",
       "releaseInfo": "2026"
     },
@@ -84,10 +93,10 @@
     {
       "id": "tmdb:1594914",
       "type": "movie",
-      "name": "Lucky Strike",
-      "poster": "https://image.tmdb.org/t/p/w500/kzRAd7mj39ZY3FGNrDdZjqx56tn.jpg",
+      "name": "L'Enfer des Ardennes",
+      "poster": "https://image.tmdb.org/t/p/w500/si3dGuTfzywPb330JHNPtpTGmam.jpg",
       "background": "https://image.tmdb.org/t/p/w780/uujYvxE9s6KY4SbBZ0ZFN3oBJhW.jpg",
-      "description": "Un soldat américain (Scott Eastwood) mène son unité pour bloquer une contre-offensive nazie. Coincés derrière les lignes ennemies, ses hommes sont tués dans une attaque, le laissant seul survivant. Blessé et confronté au froid glacial, il doit rejoindre à pied un point de ralliement. Avec sa radio comme seul lien, il lutte pour survivre aux éléments et aux ennemis qui le guettent à chaque détour.",
+      "description": "Un soldat américain mène son unité pour bloquer une contre-offensive nazie. Coincés derrière les lignes ennemies, ses hommes sont tués dans une attaque, le laissant seul survivant. Blessé et confronté au froid glacial, il doit rejoindre à pied un point de ralliement. Avec sa radio comme seul lien, il lutte pour survivre aux éléments et aux ennemis qui le guettent à chaque détour.",
       "releaseInfo": "2026"
     },
     {
@@ -151,15 +160,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/bvZ8GzOwDsWmIq1Ti8rT0qf62Fm.jpg",
       "background": "https://image.tmdb.org/t/p/w780/iQodpfb5trczzmqxAgnsUYPw2rv.jpg",
       "description": "Amérique du Nord, 18ème siècle. Alors que les colonies sont au bord de l’effondrement, une amitié improbable se tisse entre le charismatique révérend George Whitefield et Benjamin Franklin. Leur relation privilégiée et l’évolution de la foi de ce dernier vont alors changer l’histoire à tout jamais.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1624961",
-      "type": "movie",
-      "name": "No Ordinary Heist",
-      "poster": "https://image.tmdb.org/t/p/w500/eA2uQxSMqyljAtt920084tDrw6G.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9fyXrAPfVlN4W5nH7MFiHy9SD1y.jpg",
-      "description": "Deux employés de banque sont contraints d'orchestrer un vol de 26,5 millions de livres sterling (33,8 millions de dollars) pour sauver leur famille.",
       "releaseInfo": "2026"
     },
     {

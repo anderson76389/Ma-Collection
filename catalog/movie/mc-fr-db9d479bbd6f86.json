@@ -10,6 +10,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:1307474",
+      "type": "movie",
+      "name": "Vicentina demande pardon",
+      "poster": "https://image.tmdb.org/t/p/w500/j3jheqT8incVBBtB9dTXdvavu2i.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/tTevcc0y0EQLeEyg4aMsrGyy7NO.jpg",
+      "description": "Un accident mortel. Une mère rongée par la culpabilité. Des familles en deuil. Vicentina veut réparer le mal causé par son fils. Mais est-il trop tard pour obtenir le pardon ?",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1794652",
       "type": "movie",
       "name": "Raio-X Lula 3",
@@ -41,6 +50,14 @@
       "poster": "https://image.tmdb.org/t/p/w500/zRQH3BbC12nV6EnXfXQYi12vPH1.jpg",
       "background": "https://image.tmdb.org/t/p/w780/pWvYluV8GNWQJRC4IdrZuJPLwzO.jpg",
       "description": "Cinq ans après son ascension dans le monde du crime organisé, Nando, qui vit désormais en Serbie, doit retourner au Brésil lorsque sa fille ado qu'il a perdue de vue décide de se rebeller et de s'enfuir. Alors que Nando tente de renouer avec sa famille et d'échapper à son passé, il est trahi par son plus proche allié et subit la pression de l'organisation criminelle qu'il dirigeait. Tiraillé entre sa loyauté envers la pègre et son engagement familial, Nando doit faire un choix crucial : tout risquer pour tourner le dos à la criminalité et offrir à ses enfants l'avenir qu'il n'a jamais eu.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1755506",
+      "type": "movie",
+      "name": "Meu Nome é Enéas: Muito Além dos 15 Segundos",
+      "poster": "https://image.tmdb.org/t/p/w500/nz7DNjZ7wtsuxktqLHij6Af7x0M.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/57K9WtvxoduSJ0zp6d2ha0BvfeX.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -149,24 +166,6 @@
       "name": "Cinco Tipos de Medo",
       "poster": "https://image.tmdb.org/t/p/w500/iNE8DVinMuPARsDSVg5GlHJjxAB.jpg",
       "background": "https://image.tmdb.org/t/p/w780/mfpeeEnVKJj0egLcbwq7GeNB7MD.jpg",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1078801",
-      "type": "movie",
-      "name": "Barba Ensopada de Sangue",
-      "poster": "https://image.tmdb.org/t/p/w500/8yDd2WJE3P1WInfcnGRdXiYK2pI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/quQrQzz3FhT8SZY4S8mPBlEHqw9.jpg",
-      "description": "Le père d'un jeune homme, proche de la mort, révèle à son fils la véritable histoire de la fin de son propre père. Le vieux gaucho a été assassiné par des villageois lors d'une danse dominicale à Garopaba, une ville endormie sur l'Atlantique, aujourd'hui célèbre pour ses activités de surf et de pêche. Il s'agissait d'une sorte d'exécution, à la manière d'un justicier. C'est du moins ce que l'on raconte.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1362786",
-      "type": "movie",
-      "name": "Velhos Bandidos",
-      "poster": "https://image.tmdb.org/t/p/w500/eYZUzJMumKoUPX5Q40xBsgFs6dY.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/nqYTmfzyOSDVihUDnW0skBIFytp.jpg",
-      "description": "Un nouveau film avec Fernanda Montenegro et Ary Fontoura",
       "releaseInfo": "2026"
     }
   ]

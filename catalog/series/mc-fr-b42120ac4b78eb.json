@@ -1,6 +1,24 @@
 {
   "metas": [
     {
+      "id": "tmdb:335981",
+      "type": "series",
+      "name": "Le Cinéma selon Cunk",
+      "poster": "https://image.tmdb.org/t/p/w500/zrrRRvavkLQupkC6aEkdA8sX4E8.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3NA7FxkqAaG1buZC1WtdPDpMlZg.jpg",
+      "description": "Dans cette série mockumentaire espiègle, Philomena Cunk part à la découverte de l'histoire du cinéma, sans manquer de laisser plusieurs experts perplexes en chemin.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:333533",
+      "type": "series",
+      "name": "Celui qui s'appelait Matthew Perry",
+      "poster": "https://image.tmdb.org/t/p/w500/vQYMKEQ1mvl7Qx8WRGiKjPMEmKT.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/3nJL65FgsUpmBEIMXc0kt0h5uay.jpg",
+      "description": "Cette série documentaire retrace le succès hollywoodien, la prise de position ouverte et la mort tragique de la star de \"Friends\", à travers le témoignage de ses proches.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:335536",
       "type": "series",
       "name": "TYSON",
@@ -160,24 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/PYcT6mf3cYHI35uNG8ztVdyh9p.jpg",
       "background": "https://image.tmdb.org/t/p/w780/yvToMgv3CHs7T4yQe9EPsMgEXG3.jpg",
       "description": "Découvrez les nombreuses vies de Martin Scorsese grâce à un accès exclusif et libre à ses archives privées et à de longs entretiens avec sa famille, ses amis, ses collaborateurs légendaires et le réalisateur visionnaire en personne.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:300999",
-      "type": "series",
-      "name": "Hantises",
-      "poster": "https://image.tmdb.org/t/p/w500/8XK4kBkP7QVIPnl6dFfdPSCICs6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/oS4ZzG1c4xZtZRrJipNqXs1b17Z.jpg",
-      "description": "À la faveur de reconstitutions immersives et d'entretiens actuels, cette série inquiétante retrace des rencontres paranormales du point de vue de ceux qui les ont vécues.",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:298234",
-      "type": "series",
-      "name": "Qui est Charlie ? Tout sur Mr. Sheen",
-      "poster": "https://image.tmdb.org/t/p/w500/bviMleUIbDRSi2PCHdrVkA8i2Uq.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/qSxabAdLMiJWIJUb7hbSVvwMm4s.jpg",
-      "description": "Charlie Sheen se raconte dans ce documentaire sincère qui retrace son ascension fulgurante à Hollywood, sa chute retentissante dans les tabloïds et son chemin pour se reconstruire.",
       "releaseInfo": "2025"
     }
   ]

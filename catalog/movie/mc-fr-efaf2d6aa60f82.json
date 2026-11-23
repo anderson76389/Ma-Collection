@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1300968",
+      "type": "movie",
+      "name": "Hunger Games : Lever de soleil sur la moisson",
+      "poster": "https://image.tmdb.org/t/p/w500/2crlvf4VsSQORysk1A8o2jBUduI.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
+      "description": "Alors que le jour se lève sur les 50e Hunger Games annuels, la peur s'empare des districts de Panem. Cette année, en l'honneur du Quarter Quell, deux fois plus de tributs seront tirés au sort. Dans le District 12, Haymitch Abernathy essaie de ne pas trop penser à ses chances. Tout ce qui lui importe est d'être avec la fille qu'il aime. Mais lorsque qu'il est appelé, tous ses rêves s'effondrent. Il est arraché à sa famille et à son amour, transporté au Capitole avec les trois autres tributs du District 12 : une jeune amie qui est presque une sœur pour lui, un parieur compulsif, et la fille la plus prétentieuse de la ville. Alors que les Jeux commencent, Haymitch comprend qu'il a été piégé pour échouer. Mais il est prêt à se battre... et faire en sorte que ce combat résonne bien au-delà de l'arène.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1437511",
       "type": "movie",
       "name": "Comment braquer une banque",
@@ -23,7 +32,7 @@
       "type": "movie",
       "name": "The Mongoose",
       "poster": "https://image.tmdb.org/t/p/w500/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/bySCyjQXNPgsnLTlgJpSMnRazPD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/uAe2LEuZ2xg312FY7D8Ei4bl0aG.jpg",
       "description": "Accusé d'un crime qu'il n'a pas commis et n'ayant plus rien à perdre, un héros de guerre aux prises avec un syndrome de stress post-traumatique entraîne les forces de l'ordre dans une course-poursuite effrénée à travers tout le pays, avec l'aide de ses frères d'armes, tandis qu'un public captivé encourage sa fuite.",
       "releaseInfo": "2026"
     },
@@ -49,7 +58,7 @@
       "type": "movie",
       "name": "Street Fighter",
       "poster": "https://image.tmdb.org/t/p/w500/k53HHxQ4rQG0dME6nsofii3QNS7.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/w2Gu916zS11X94CZaSLpzvfgHcG.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg",
       "description": "En 1993, Ryu et Ken Masters, deux Street Fighters autrefois inséparables, sont replongés dans l’arène lorsque la mystérieuse Chun-Li les recrute pour le prochain World Warrior Tournament : un affrontement brutal où se mêlent poings, destin et fureur. Mais derrière cette battle royale se cache une conspiration mortelle qui les oblige à s’affronter, tout en faisant face aux démons de leur passé… Et s’ils échouent, c’est GAME OVER.",
       "releaseInfo": "2026"
     },
@@ -76,7 +85,7 @@
       "type": "movie",
       "name": "The Beast",
       "poster": "https://image.tmdb.org/t/p/w500/ocg5JfJP19fodcv5uQUApkmZMdI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/v5Wb9NoE0s1mGmC5wVeQR1OK22V.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r5RYEmZzm1Z6imS7XfiKPnMlyc7.jpg",
       "description": "Lorsqu'une attaque mondiale coordonnée plonge la planète dans le chaos, le président américain et son dernier agent des services secrets montent à bord de \"The Beast\", une limousine high-tech militarisée et dotée d'un arsenal défensif impressionnant, pour se lancer dans une course effrénée qui décidera du sort du monde libre.",
       "releaseInfo": "2026"
     },
@@ -90,12 +99,12 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1244523",
+      "id": "tmdb:1437396",
       "type": "movie",
-      "name": "Beware Boiúna",
-      "poster": "https://image.tmdb.org/t/p/w500/zvDKEHLhr6bk4Gxa9oj0DIkWNJh.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/9nU0FKNefmhbgi2xXlvZchZsqwm.jpg",
-      "description": "Au cœur de l'Amazonie, une mission médicale se transforme en une lutte pour la survie lorsque Boiúna, un prédateur ancestral colossal, se réveille pour reconquérir son territoire. Dans cette jungle où la nature règne en maître, c'est elle qui décide qui vivra et qui mourra.",
+      "name": "Your Mother Your Mother Your Mother",
+      "poster": "https://image.tmdb.org/t/p/w500/58g3PjU11nBszOWc836lC8t2Mzi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/45Mbs6dmn2W0hvuyxXPDkKREHpP.jpg",
+      "description": "À Houston, Latif, tueur à gages musulman et père de trois enfants, perd brutalement sa femme. Lorsque son nouveau-né refuse le lait maternisé, il se lance à la recherche d'Une nourrice, une démarche qui le conduit sur la piste d’un ex-militaire devenu prédicateur radical à la tête d’une milice d’extrême droite. Tandis que son ancien employeur tente de le ramener dans le milieu, Latif est entraîné dans un conflit qui menace sa famille autant que ses convictions.",
       "releaseInfo": "2026"
     },
     {
@@ -114,6 +123,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/3DpDxNTAOKdZsSxOMXCm1U8W9kk.jpg",
       "background": "https://image.tmdb.org/t/p/w780/7AArZYRp6zGtbvSbbqoHn9xFp0L.jpg",
       "description": "Jake Harris, un Navy SEAL chevronné, reprend du service lorsque le monde est menacé par Elliot Carter, l'un de ses anciens compagnons d'armes devenu terroriste. Alors que les chefs d'état-major interarmées sont retenus en otage dans un bunker nucléaire, il reste peu de temps avant que Carter ne s'empare de codes nucléaires et plonge le monde dans le chaos. Pour l'arrêter, Harris n'a d'autre choix que de conduire son équipe en territoire ennemi. Face à une armée de mercenaires impitoyables et à des pièges mortels, il va également devoir affronter les démons de son passé.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1378742",
+      "type": "movie",
+      "name": "Drive Through Fire",
+      "poster": "https://image.tmdb.org/t/p/w500/lmQKEJ4Te7CQ5mhnXwr3zCLnOvc.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/8Tw90S4hVrvUoqmQWDoO6U4toZT.jpg",
+      "description": "L'histoire suit un ancien combattant toxicomane devenu chauffeur de VTC qui aide une passagère terrifiée à échapper à un réseau de traite d'êtres humains au service de clients fortunés.",
       "releaseInfo": "2026"
     },
     {
@@ -145,7 +163,7 @@
     {
       "id": "tmdb:1377237",
       "type": "movie",
-      "name": "Runner",
+      "name": "Le Transport",
       "poster": "https://image.tmdb.org/t/p/w500/4gRzxdF2IEGiANKEDVtjMuNl12n.jpg",
       "background": "https://image.tmdb.org/t/p/w780/npXZNWjOEYrqdMDPQ11SGBrXqAG.jpg",
       "description": "Un ancien soldat se retrouve engagé dans une course contre la montre lorsqu’une livraison médicale essentielle fait de lui et de son partenaire improbable la cible d’un cartel impitoyable. La mission se transforme rapidement en une chasse à l’homme meurtrière, où chaque détour, chaque retard et chaque balle les rapprochent de l’échec. Traqués de toutes parts, ils doivent survivre à cette poursuite et livrer leur cargaison à temps pour sauver la vie d’une petite fille.",
@@ -158,24 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/ko3VYnCg7P8wHVKIThB5GQi3IEn.jpg",
       "background": "https://image.tmdb.org/t/p/w780/hDwl0YMxwGhNe7u8wgHHk2Hyw3W.jpg",
       "description": "Chloé développe un nouveau pouvoir aussi inattendu qu'incontrôlable, poussant la Ligue des Héros à exiger qu'elle soit envoyée dans un internat pour super-héros afin d'apprendre à le maîtriser. Face à cette perspective, sa famille est divisée.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1386315",
-      "type": "movie",
-      "name": "The Runner",
-      "poster": "https://image.tmdb.org/t/p/w500/m2FaGlQUKMMFE6nUMwFTcIWbnEi.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/jzBWExXacS33rMQ2zLBrqIVweyG.jpg",
-      "description": "Maia Marten, une brillante avocate londonienne, voit sa vie basculer quand un appel durant son jogging lui annonce que son fils a été enlevé. Pour le récupérer, elle ne doit pas cesser de courir et suivre les ordres, aussi cruels soient-ils, sans se fier à personne. Chaque seconde est une épreuve qui repousse les limites d'une mère prête à tout pour sauver son enfant.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1137844",
-      "type": "movie",
-      "name": "Mayday",
-      "poster": "https://image.tmdb.org/t/p/w500/eHELFF4BBxmEk5JyhV017Xcgvwy.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/g7Ccid5kuD7A8hXWlsQiNfwOxaD.jpg",
-      "description": "Un pilote de la Navy envoyé en mission secrète durant la guerre froide se retrouve piégé en territoire ennemi. Son seul espoir de survie est de s'allier à un ex-agent du KGB excentrique.",
       "releaseInfo": "2026"
     }
   ]

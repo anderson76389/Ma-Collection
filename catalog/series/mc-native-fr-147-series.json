@@ -1,6 +1,14 @@
 {
   "metas": [
     {
+      "id": "tmdb:341285",
+      "type": "series",
+      "name": "Mortelle Adèle",
+      "poster": "https://image.tmdb.org/t/p/w500/gReOBWQk5dZOsV7KwduDvlTZ3wB.jpg",
+      "description": "La série animée Mortelle Adèle suit le quotidien mouvementé d'une petite fille rousse au caractère bien trempé qui porte un regard cynique et décalé sur le monde des adultes.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:336936",
       "type": "series",
       "name": "Wanted, les secrets de cette course folle",
@@ -168,15 +176,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/9jnnruZiEIjTf2edu4iPuE1Ckfr.jpg",
       "background": "https://image.tmdb.org/t/p/w780/8FpOIi0EES5UnJziidIrFDlGEml.jpg",
       "description": "Cyril Lignac accueille chez lui trois personnalités. Avec sa chaleur aveyronnaise, il les embarque pour une soirée conviviale, placée sous le signe de la cuisine et des confidences.\n\nÀ travers des plats qui ont marqué leur enfance ou leur parcours, Cyril découvre ses invités autrement : plus intimes, plus vrais, comme on ne les a jamais vus. Entrée, plat, dessert : chacun prend son tour aux fourneaux. Puis vient le moment tant attendu de la dégustation où le chef livrera son avis d’expert… mais surtout partagera un vrai moment de complicité avec ses invités.\n\nEn se prêtant au jeu de la recette, les personnalités se dévoilent avec sincérité, qu’elles soient expertes ou débutantes. Et si c’était autour d’un plat que les célébrités se montraient les plus authentiques ?",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:229654",
-      "type": "series",
-      "name": "Les Marsupilamis",
-      "poster": "https://image.tmdb.org/t/p/w500/42LPtTRWp4MfSd5vvJImKkZy9gI.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/AsDf7OFu8Cuc5AsdzoXNDmJGThR.jpg",
-      "description": "La vie de deux jumeaux de neuf ans, Jade et Mica, change du tout au tout lorsqu’on leur confie trois jeunes Marsupilamis : l’adorable Hope, le joyeux Twister et Punch le rebelle. Ces trois adorables boules de poil pleines d’énergie aux caractères bien trempés, n’ont qu’une envie : explorer la ville fascinante qui les entoure. Sauf que nos trois Marsus doivent à tout prix rester cachés pour échapper à la convoitise du Jaguar et du Capitaine Stan ! Jade et Mica vont alors tout faire pour protéger leurs amis. Ensemble, ils vont vivre des aventures bourrées de comédie, d’action et d’émotion !",
       "releaseInfo": "2025"
     }
   ]

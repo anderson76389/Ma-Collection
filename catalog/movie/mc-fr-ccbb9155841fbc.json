@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:1595124",
+      "type": "movie",
+      "name": "Sœurs de sort",
+      "poster": "https://image.tmdb.org/t/p/w500/2rOCe6L9qwFoakYrWFVnICSbmLK.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/g1bEboMx1a8JCg1jXeDCh24RtgW.jpg",
+      "description": "Dans cette comédie d'action décalée, Lilith, la \"méchante\" demi-sœur de Cendrillon, vole la baguette de Marraine la bonne fée et bouleverse le conte tel que nous le connaissons.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1477104",
       "type": "movie",
       "name": "Shaun le Mouton : La Bêêête d'Halloween",
@@ -169,15 +178,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/h8SxbXRZPukAcwASmHOl5CFUslA.jpg",
       "background": "https://image.tmdb.org/t/p/w780/qz7B5uDspnkoz068wLbLnleotwV.jpg",
       "description": "C'est le Muppet Show ! Kermit, Miss Piggy et la troupe adorée des Muppets sont de retour pour un événement spécial inédit. Musique, comédie et une bonne dose de chaos sont au rendez-vous quand ils remontent sur la scène du théâtre original des Muppets avec leur invitée très spéciale, Sabrina Carpenter",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:1146058",
-      "type": "movie",
-      "name": "The Pout-Pout Fish",
-      "poster": "https://image.tmdb.org/t/p/w500/fcDXgGL14qL46It1XOozEjX5Jws.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/6qQQhhF87Rm1z2TYhXAmoPiEHME.jpg",
-      "description": "M. Fish et Pip partent à la recherche d'un poisson mythique qui exaucera leur vœu et sauvera leur habitat aquatique.",
       "releaseInfo": "2026"
     }
   ]

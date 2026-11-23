@@ -1,49 +1,40 @@
 {
   "metas": [
     {
-      "id": "tmdb:254630",
+      "id": "tmdb:155537",
       "type": "series",
-      "name": "12 12 12",
-      "poster": "https://image.tmdb.org/t/p/w500/awWRxpVXFJGbumYp7OM0slCjzRG.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/tjy25xpiFeo2gahl7N0hoxbRtG7.jpg",
-      "description": "Un braquage prend 12 mois à préparer, 12 heures à mettre à exécution, et un braqueur qui n'est pas arrêté dans les 12 jours ne le sera jamais. Dans un chassé-croisé haletant de trois temporalités, un agent du FBI et un criminel de carrière se livrent à un jeu dangereux du chat et de la souris, à travers l'Europe.",
-      "releaseInfo": "2026"
+      "name": "Black Bird",
+      "poster": "https://image.tmdb.org/t/p/w500/qxDOHCeuxcPdT5W0IrX5c7cj7lt.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/o2C222QdW4dmoyd2dgPlnCcI3cW.jpg",
+      "description": "Alors que Jimmy Keene commence à purger une peine de dix ans de prison, on lui propose un marché étonnant : s'il peut obtenir les aveux du tueur présumé Larry Hall, il sera libéré. Accomplir cette mission devient le défi d'une vie.",
+      "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:234310",
+      "id": "tmdb:156933",
       "type": "series",
-      "name": "Where's Wanda?",
-      "poster": "https://image.tmdb.org/t/p/w500/jWooWwCB5ATJ5Z1XxSUR1bHg5qF.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/oWHbBNiTU2vhRSXh0iZ8E7YBUsj.jpg",
-      "description": "Suite à la disparition de leur fille, les Klatt décident de prendre les choses en main et élaborent un plan insensé : espionner le voisinage. Les apprentis espions vont mettre au jour une kyrielle de secrets stupéfiants.",
+      "name": "Présumé innocent",
+      "poster": "https://image.tmdb.org/t/p/w500/W7BbPGtyaHSJpobiQONjdUroJi.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/qzi8rTS2KpkrYNWxC1tt7xkRlTY.jpg",
+      "description": "Un horrible meurtre bouleverse le bureau du procureur de Chicago quand un de ses membres est suspecté dans cette affaire, obligeant l’accusé à se battre pour garder sa famille unie.",
       "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:258230",
+      "id": "tmdb:252107",
       "type": "series",
-      "name": "Portée disparue",
-      "poster": "https://image.tmdb.org/t/p/w500/zXMkaqWinyCbkMSNwhi7htRV0e9.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/kgaQnDdDaPqvGN7i8LLz1aWJdjP.jpg",
-      "description": "La vie de l'inspecteur de police Ian Ridley s'est effondrée 11 ans auparavant lorsque sa jeune fille, Maggie, a disparu sans aucune trace. Désormais affecté au service d'appels d'urgences, il ne tient que grâce à son refus inébranlable d'accepter qu'elle est perdue à jamais. Un jour qu'il reçoit un appel de détresse d'une adolescente, il est convaincu qu'il s'agit de Maggie, et met dès lors tout en oeuvre pour la retrouver et réunir sa famille, quoi qu'il en coûte.",
+      "name": "Star City",
+      "poster": "https://image.tmdb.org/t/p/w500/nx33iPxIWH5uNGyvfWabKH0v3Ak.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rhJAGhOvkR8270bdXSSCzQSPY1a.jpg",
+      "description": "Dans une réalité alternative dans laquelle l'Union soviétique est la première nation à mettre un pied sur la lune, la course à l'espace est retracée de derrière le rideau de fer, montrant la vie des cosmonautes, des ingénieurs et des officiers du renseignement du programme spatial soviétique, ainsi que les risques que chacun d'eux a pris pour propulser l'humanité vers une nouvelle ère.",
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:204490",
+      "id": "tmdb:106454",
       "type": "series",
-      "name": "Criminal Record",
-      "poster": "https://image.tmdb.org/t/p/w500/1vTUmvdV0BEfxy4A8l8s0h0cSlp.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/Q9FMVA1UvX8cnNImaZc0dlpMdB.jpg",
-      "description": "Au cœur de Londres, un appel anonyme précipite deux brillants policiers — une jeune femme au début de sa carrière et un homme bien placé déterminé à protéger son héritage — dans un combat pour rectifier une ancienne erreur judiciaire.",
-      "releaseInfo": "2024"
-    },
-    {
-      "id": "tmdb:245318",
-      "type": "series",
-      "name": "Margo a des problèmes d'argent",
-      "poster": "https://image.tmdb.org/t/p/w500/vnxkopX2BRNlUbE5xtb6S62eSN6.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/r1lGjwTRF0RGYFHzvt3SupArmRy.jpg",
-      "description": "Fille d'une ancienne serveuse chez Hooters et d'un ex-catcheur pro, Margo, écrivaine en herbe, vient d'arrêter ses études. Face à l'arrivée d'un bébé et d'une pile de factures grandissante qu'elle ne peut payer, Margo doit trouver une solution pour s'en sortir.",
-      "releaseInfo": "2026"
+      "name": "The Afterparty",
+      "poster": "https://image.tmdb.org/t/p/w500/d61hIZkkwY2dnIiTZEoabLjYPyv.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/kbehRFMpW7VHsoLB0FM2wsdZsyd.jpg",
+      "description": "Les apparences sont trompeuses dans cette comédie policière hilarante, où l'histoire de chaque suspect reflète un genre cinématographique différent.",
+      "releaseInfo": "2022"
     }
   ]
 }

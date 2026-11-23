@@ -10,11 +10,29 @@
       "releaseInfo": "2027"
     },
     {
+      "id": "tmdb:314131",
+      "type": "series",
+      "name": "MELANIA la série",
+      "poster": "https://image.tmdb.org/t/p/w500/75uNmW51SXsljGTFpNuH464eW4r.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ithzPRYsTWy5umOK9rSbTAiDGat.jpg",
+      "description": "Vivez la transition de Melania Trump au rôle de Première dame, alors qu'elle évolue à la Maison Blanche et met sa mission en œuvre.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:341936",
+      "type": "series",
+      "name": "Koba LaD : Demain j'arrête",
+      "poster": "https://image.tmdb.org/t/p/w500/1H7sjDOFTqGFwCB0w6IQG8Sp2r0.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/rZRfFIMmaucoYMydwlQ1mVVu8W3.jpg",
+      "description": "À seulement 26 ans, Koba LaD est une icône générationnelle aux multiples visages incarcéré depuis septembre 2024. Cette série documentaire retrace son ascension fulgurante et sa chute, parmi les plus brutales du rap français. Un parcours explosif de la banlieue d'Évry jusqu'au sommet du hip-hop et une immersion dans une tumultueuse réalité où le succès côtoie une succession d'affaires...",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:332683",
       "type": "series",
       "name": "地雷グリコ",
       "poster": "https://image.tmdb.org/t/p/w500/qK89PNm4j96pwx4ul3e8AkDfBsM.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/cKM4DnFGFRrQghqLK9uzPEcEkWD.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/4Htao8kvzIdGVImpD614CCQgjDc.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -31,7 +49,7 @@
       "type": "series",
       "name": "The Greatest",
       "poster": "https://image.tmdb.org/t/p/w500/rCYv5ZKtiwqNCRtHDoDA7kgoi9X.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/b57tPAE2rpUoNpa63o7U2sFvIZs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/baMHKUmvzRFp34hZ21TYPLw2HG4.jpg",
       "description": "Tout juste médaillé d'or aux JO de 1960, le jeune boxeur Muhammad Ali (alors Cassius Clay) vise le titre de champion poids lourd. Face à une nouvelle célébrité, les doutes, le conflit familial et une Amérique politisée, le prodige exceptionnel découvre que son plus grand adversaire n'est pas sur le ring, mais dans une société qui n'est pas prête à ce qu'il devienne son propre maître.",
       "releaseInfo": "2026"
     },
@@ -40,7 +58,7 @@
       "type": "series",
       "name": "La Table finale",
       "poster": "https://image.tmdb.org/t/p/w500/vJkXnYfInP14oW2VEoh7Qzi5DgP.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/anwMEnTDkhv5qJ8wXSRieCvFHGs.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/gq3FEuYsUl1r4rQYDCaQvzw1bOd.jpg",
       "description": "L'émission \"La Table : K-Chef 2026\" voit les meilleurs chefs coréens s'affronter. Le mystérieux Kang Han, surnommé \"chef Chris K\", Choi Song-yi, qui se bat pour sauver son restaurant, Cha Woo-jin, un perfectionniste étoilé, et bien d'autres chefs aux parcours variés s'engagent dans une bataille culinaire acharnée. Au-delà de la compétition, ils trouvent du réconfort à cuisiner et à se soutenir.",
       "releaseInfo": "2026"
     },
@@ -49,7 +67,7 @@
       "type": "series",
       "name": " चार यार",
       "poster": "https://image.tmdb.org/t/p/w500/z6WSxbaMdFQ9OLeHihaPJyVND4D.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/ndO5LTzLPYqh8o65VLF8oReIewE.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/r1ILVngWUWHPmrmcIXWwzyDpQxt.jpg",
       "releaseInfo": "2026"
     },
     {
@@ -152,24 +170,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/wltznBj9nVDqlvBWZq37P5zp7ib.jpg",
       "background": "https://image.tmdb.org/t/p/w780/uYOYLFQ4q7asuhdiKXCqGaeAQUH.jpg",
       "description": "Frances Neagley est une détective privée à Chicago et une ancienne collègue de Jack Reacher au sein de la 110e Unité d'enquêtes spéciales de l'armée. Lorsqu'elle apprend qu'un ami cher de son passé a été tué dans un accident suspect, elle se lance à corps perdu dans une quête de justice.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:314939",
-      "type": "series",
-      "name": "Un autre amour que le tien",
-      "poster": "https://image.tmdb.org/t/p/w500/lu3tuzFl4c6rx1WcoLOGZlkTjaw.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/moUjiEzpJVNZc7hyNRBbLPt0CPX.jpg",
-      "description": "Une romance réaliste et touchante sur un couple qui, après dix ans de vie commune, voit sa relation confortable bouleversée par des sentiments inattendus.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:323980",
-      "type": "series",
-      "name": "Operation Deception",
-      "poster": "https://image.tmdb.org/t/p/w500/b0Uz1KyKvsqBxFVdJ7HNPAquyXX.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/iO7ck5oXIY9qQyHyXH53FCqrIzs.jpg",
-      "description": "Suit une opération secrète controversée qui a envoyé Alain Olivier, un étudiant forestier québécois toxicomane, dans le couloir de la mort en Thaïlande en 1989.",
       "releaseInfo": "2026"
     }
   ]

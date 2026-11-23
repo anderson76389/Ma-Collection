@@ -10,6 +10,14 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:917242",
+      "type": "movie",
+      "name": "الجواهرجي",
+      "poster": "https://image.tmdb.org/t/p/w500/kFPgvpB8AItJkzzhdF9BMNOUzEL.jpg",
+      "background": "https://image.tmdb.org/t/p/w780/ce2tvX0efOHHjAT4o6udf3W6RsW.jpg",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:1620682",
       "type": "movie",
       "name": "Lentement l'Amour",
@@ -159,15 +167,6 @@
       "name": "الست",
       "poster": "https://image.tmdb.org/t/p/w500/rRBB5LOq7RBeIocv7HMh1kPCSBL.jpg",
       "background": "https://image.tmdb.org/t/p/w780/132H5ZPmuIbULbZCESvqmPw29eB.jpg",
-      "releaseInfo": "2025"
-    },
-    {
-      "id": "tmdb:1580353",
-      "type": "movie",
-      "name": "Kidnapping maison",
-      "poster": "https://image.tmdb.org/t/p/w500/eU1iuYCeba88kNYv9KxOFqBE3io.jpg",
-      "background": "https://image.tmdb.org/t/p/w780/Ae00E0rpUIihDrJ1C0HvhufYa5d.jpg",
-      "description": "Entrepreneur raté et père fauché, Sattam se lance dans un plan complètement fou : rembourser ses dettes en enlevant son propre père.",
       "releaseInfo": "2025"
     }
   ]
