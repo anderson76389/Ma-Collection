@@ -186,7 +186,7 @@ await test('Studio : ordre des cartes et vrai bouton Créer un dossier',async()=
   await page.evaluate(()=>window.MaCollectionStudio.open('accueil'));
   const studio=page.locator('#mc-studio-root');
   const titles=await studio.locator('.suite-tiles button strong').allTextContents();
-  assert.equal(titles.length,19,'Les outils doivent être organisés selon les parcours du Studio de référence');
+  assert.equal(titles.length,20,'Les outils doivent être organisés selon les parcours du Studio de référence');
   assert.deepEqual(titles.slice(0,6),[
     'Écran d’accueil','Éditeur rapide','Affiches','Ajouter des rangées et dossiers',
     'Créer un dossier','Mes créations'
