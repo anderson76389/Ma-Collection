@@ -300,7 +300,7 @@
   if(typeof previewRender==='function'){
     window.renderPreviewCollection=function(){
       const result=previewRender.apply(this,arguments);
-      addBtn(document.querySelector('#nv-preview-secondary'),'mc-folder-add-preview');
+      addBtn(document.querySelector('#nv-preview-edit-actions'),'mc-folder-add-preview');
       return result;
     };
   }
