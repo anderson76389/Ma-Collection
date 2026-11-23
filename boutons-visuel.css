@@ -1160,3 +1160,139 @@ html[data-theme="light"] .mc-home-overlay .mc-home .portfolio-card .port-card-ey
 html[data-theme="light"] #mc-studio-root .mc-studio-art-nav button.active{
   color:#006b4c;
 }
+
+
+/* === Contrôles restants : accueil, assistant, éditeurs, compte et aperçus === */
+/* Petits liens et boutons du héros (test, nouveautés, accéder aux outils). */
+.mc-home-overlay :is(.title-test-code-toggle,.title-test-code-apply,
+ .title-scroll-indicator,.title-changelog-dismiss),
+#mc-tools :is(.mc-tools-option,.mc-tools-footer button),
+:is(.ma-collection-beta-notes,.ma-collection-beta-exit,.ma-collection-beta-hide){
+  font-family:'Inter',sans-serif;
+  border-radius:9px;
+  transition:background .18s ease,border-color .18s ease,color .18s ease,transform .18s var(--kap-ui-motion);
+}
+.mc-home-overlay .title-test-code-apply{
+  min-height:36px;background:var(--kap-ui-mint);color:var(--kap-ui-mint-fg);
+  border:1px solid var(--kap-ui-mint-stroke);font-weight:730;
+}
+.mc-home-overlay .title-test-code-toggle:hover,
+.mc-home-overlay .title-scroll-indicator:hover{
+  color:var(--kap-ui-mint);
+}
+.mc-home-overlay .title-changelog-dismiss:hover{
+  border-color:var(--kap-ui-mint-stroke);background:var(--kap-ui-mint-soft);
+}
+/* Barre de navigation des catalogues et actions de dossiers. */
+:is(.sidebar-footer-btn,.cat-action-btn,.drawer-close-btn,
+ .search-clear-btn,.topbar-more-toggle,.nv-more-toggle,.cust-close-btn){
+  border-radius:9px;
+  transition:background .16s ease,border-color .16s ease,color .16s ease;
+}
+:is(.sidebar-footer-btn,.cat-action-btn,.drawer-close-btn,
+ .topbar-more-toggle,.nv-more-toggle,.cust-close-btn):hover:not(:disabled){
+  border-color:var(--kap-ui-mint-stroke);
+}
+:is(.cat-nav-item,.se-mode-btn,.se-mini-btn,.quick-push-btn-secondary,
+ .account-menu-item,.drawer-toolbar-actions button):focus-visible{
+  outline:2px solid var(--kap-ui-mint)!important;
+  outline-offset:2px;
+}
+:is(.cat-nav-item,.cat-action-btn,.se-mode-btn,.se-mini-btn,.account-menu-item).active,
+:is(.cat-nav-item,.cat-action-btn,.se-mode-btn,.se-mini-btn,.account-menu-item)[aria-selected="true"],
+:is(.cat-nav-item,.cat-action-btn,.se-mode-btn,.se-mini-btn,.account-menu-item)[aria-pressed="true"]{
+  border-color:var(--kap-ui-mint-stroke);
+  color:var(--kap-ui-mint);
+}
+/* L'assistant conserve ses vraies interactions et les sélections persistantes. */
+:is(.wiz-option-pill,.wiz-option-chip,.wiz-toggle-btn,.wiz-pill,
+ .wiz-merge-choice-btn,.wiz-torbox-promo-btn,.wiz-addon-add-btn,
+ .wiz-donation-btn,.wiz-help-btn,.quiz-pill,.quiz-skip){
+  border-radius:9px;
+  font-family:'Inter',sans-serif;
+  transition:background .18s ease,border-color .18s ease,color .18s ease,transform .18s var(--kap-ui-motion);
+}
+:is(.wiz-option-pill,.wiz-option-chip,.wiz-toggle-btn,.wiz-pill,
+ .wiz-merge-choice-btn,.quiz-pill).active,
+:is(.wiz-option-pill,.wiz-option-chip,.wiz-toggle-btn,.wiz-pill,
+ .wiz-merge-choice-btn,.quiz-pill).selected,
+:is(.wiz-option-pill,.wiz-option-chip,.wiz-toggle-btn,.wiz-pill,
+ .wiz-merge-choice-btn,.quiz-pill)[aria-pressed="true"]{
+  border-color:var(--kap-ui-mint-stroke);
+  background:var(--kap-ui-mint-soft);
+  color:var(--kap-ui-mint);
+}
+:is(.wiz-option-pill,.wiz-option-chip,.wiz-toggle-btn,.wiz-pill,
+ .wiz-merge-choice-btn,.quiz-pill):hover:not(:disabled){
+  border-color:var(--kap-ui-mint-stroke);
+}
+/* Boutons de navigation et de confirmation de l'assistant. */
+:is(.wt-btn-nav,.wt-btn-next-primary,.wt-btn-skip,.quiz-next,
+ .wiz-btn-row button,.wiz-action-card,.compat-device-btn,
+ .compat-btn,.compat-continue,.quick-push-btn-primary){
+  font-family:'Inter',sans-serif;border-radius:9px;
+  transition:background .18s ease,border-color .18s ease,transform .18s var(--kap-ui-motion);
+}
+:is(.wt-btn-next-primary,.quiz-next,.quick-push-btn-primary){
+  background:var(--kap-ui-mint);
+  color:var(--kap-ui-mint-fg);
+  border-color:var(--kap-ui-mint-stroke);
+}
+:is(.wt-btn-nav,.compat-device-btn,.wiz-action-card):hover:not(:disabled){
+  border-color:var(--kap-ui-mint-stroke);
+}
+/* Dans l'aperçu téléviseur/mobile, les choix actifs sont repérables
+   sans confondre un onglet, une pastille et une action principale. */
+:is(.nv-tab,.nv-faux-tab,.nv-chip,.nv-mini-btn,.nv-hero-btn,.nv-help-btn){
+  font-family:'Inter',sans-serif;
+  transition:background .16s ease,border-color .16s ease,color .16s ease,transform .16s var(--kap-ui-motion);
+}
+:is(.nv-tab,.nv-faux-tab,.nv-chip,.nv-mini-btn).active,
+:is(.nv-tab,.nv-faux-tab,.nv-chip,.nv-mini-btn)[aria-selected="true"]{
+  border-color:var(--kap-ui-mint-stroke);
+  background:var(--kap-ui-mint-soft);
+  color:var(--kap-ui-mint);
+}
+:is(.nv-tab,.nv-faux-tab,.nv-chip,.nv-mini-btn):hover:not(:disabled){
+  border-color:var(--kap-ui-mint-stroke);
+}
+/* Modales, outils, galerie et éditeur de profils : éviter des formes
+   et rayons disparates entre deux vues successives. */
+:is(.mc-folder-dialog,.mc-profile-panel,#mc-profile-editor,#mc-tools) button,
+#mc-profile-suite :is(.mcps-text-button,.mcps-art-dots button,.mcps-picker-card,
+ .mcps-row-actions button,.mcps-art-buttons button){
+  -webkit-tap-highlight-color:transparent;touch-action:manipulation;
+}
+:is(.mc-folder-dialog,.mc-profile-panel,#mc-profile-editor) button{
+  border-radius:9px;
+  transition:background .18s ease,border-color .18s ease,color .18s ease;
+}
+:is(.mc-folder-dialog,.mc-profile-panel,#mc-profile-editor) button:hover:not(:disabled){
+  border-color:var(--kap-ui-mint-stroke);
+}
+#mc-profile-suite .mcps-art-dots button.active{
+  background:var(--kap-ui-mint);
+  border-color:var(--kap-ui-mint);
+}
+#mc-profile-suite .mcps-text-button:hover{
+  color:var(--kap-ui-mint);
+}
+@media(max-width:720px){
+  :is(.wiz-option-pill,.wiz-option-chip,.wiz-toggle-btn,.quiz-pill,.compat-device-btn){
+    min-height:42px;
+  }
+  :is(.nv-mini-btn,.nv-help-btn,.wt-btn-nav,.quiz-next,.wt-btn-next-primary){
+    min-height:40px;
+  }
+  .mc-home-overlay .title-test-code-apply{min-height:41px}
+  #mc-studio-root .mc-studio-workspace .mc-studio-gallery-actions button{
+    white-space:normal;overflow-wrap:anywhere;
+  }
+}
+@media(prefers-reduced-motion:reduce){
+  :is(.wiz-option-pill,.wiz-option-chip,.wiz-toggle-btn,.wiz-pill,
+   .wiz-merge-choice-btn,.quiz-pill,.nv-tab,.nv-faux-tab,.nv-chip,
+   .nv-mini-btn,.compat-device-btn,.cat-action-btn,.sidebar-footer-btn){
+    transition:none!important;
+  }
+}
