@@ -1,0 +1,151 @@
+/*
+ * Ma-Collection — Prévisualisation sans recouvrement.
+ * La barre reste Liquid Glass mais devient un VRAI pied de page de l'aperçu :
+ * elle occupe sa place dans le layout flex (au lieu de couvrir les affiches).
+ * Les images avec typographie intégrée ne reçoivent pas de second logo.
+ */
+.nv-emulator{
+  display:flex;
+  flex-direction:column;
+  height:100%;
+  min-height:0;
+  max-height:100%;
+  overflow:hidden;
+}
+.nv-emulator > .nv-frame{
+  order:1;
+  flex:1 1 0%;
+  min-height:0;
+  max-height:100%;
+  overflow:hidden;
+}
+.nv-emulator > .nv-frame > .nv-screen{
+  min-height:0;
+  max-height:100%;
+}
+.nv-emulator > .nv-preview-bar.nv-liquid-toolbar{
+  order:2;
+  position:relative;
+  flex:0 0 auto;
+  left:auto;
+  right:auto;
+  top:auto;
+  bottom:auto;
+  transform:none;
+  margin:7px auto max(9px,env(safe-area-inset-bottom));
+  padding:7px 9px;
+  max-width:calc(100% - 18px);
+  width:max-content;
+  z-index:90;
+}
+/* L'espacement des rangées reste indépendant du pied de page. */
+.nv-emulator .nv-scroll{
+  min-height:0;
+  overscroll-behavior-y:contain;
+}
+.device-tv .nv-scroll,
+.device-mobile .nv-scroll{
+  padding-bottom:clamp(20px,3.2vh,42px);
+}
+/* La carte affiche l'oeuvre originale, pas son titre deux fois.
+   Le titre de secours apparaît seulement au survol/focus. */
+.nv-card .nv-card-title.nv-card-caption,
+.folder-card .card-text-title.nv-card-caption{
+  position:absolute;
+  bottom:9px;
+  left:9px;
+  right:9px;
+  z-index:4;
+  width:max-content;
+  max-width:calc(100% - 18px);
+  padding:6px 9px;
+  margin:0;
+  border:1px solid rgba(255,255,255,.18);
+  border-radius:8px;
+  color:#fff;
+  background:rgba(6,7,18,.8);
+  -webkit-backdrop-filter:blur(10px);
+  backdrop-filter:blur(10px);
+  box-shadow:0 4px 12px rgba(0,0,0,.2);
+  font:680 clamp(10px,.9vw,12px)/1.25 'Inter',system-ui,sans-serif;
+  letter-spacing:0;
+  text-shadow:none;
+  text-align:left;
+  overflow-wrap:anywhere;
+  opacity:0;
+  visibility:hidden;
+  transform:translateY(4px);
+  pointer-events:none;
+  transition:opacity .17s ease,transform .17s ease,visibility .17s ease;
+}
+.nv-card:hover .nv-card-title.nv-card-caption,
+.nv-card.is-focused .nv-card-title.nv-card-caption,
+.nv-card:focus-within .nv-card-title.nv-card-caption,
+.folder-card:hover .card-text-title.nv-card-caption,
+.folder-card:focus-within .card-text-title.nv-card-caption{
+  opacity:1;
+  visibility:visible;
+  transform:translateY(0);
+}
+.nv-card .nv-card-title.nv-card-caption[hidden]{display:none!important}
+.nv-emulator .nv-card-img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+/* La rangée et les cartes gardent une largeur naturelle et un scroll propre. */
+.nv-emulator .nv-track{
+  min-width:0;
+  max-width:100%;
+  scroll-padding-inline:20px;
+}
+.nv-emulator .nv-card{
+  min-width:0;
+  isolation:isolate;
+}
+@media(max-width:1320px) and (min-width:861px){
+  .nv-emulator > .nv-preview-bar.nv-liquid-toolbar{
+    width:min(1120px,calc(100% - 18px));
+    margin:7px auto 9px;
+  }
+}
+@media(max-width:860px){
+  .nv-emulator{
+    min-height:0;
+    overflow:hidden;
+  }
+  .nv-emulator > .nv-frame{
+    min-height:0;
+    flex:1 1 0%;
+  }
+  .nv-emulator > .nv-preview-bar.nv-liquid-toolbar{
+    width:auto;
+    max-width:calc(100% - 24px);
+    margin:0 max(12px,env(safe-area-inset-right)) max(12px,env(safe-area-inset-bottom)) auto;
+    padding:0;
+    background:transparent;
+    border:0;
+    box-shadow:none;
+  }
+  .nv-emulator .nv-liquid-toolbar .nv-preview-content{
+    position:absolute;
+    right:0;
+    bottom:calc(100% + 10px);
+    max-height:min(74dvh,650px);
+  }
+  .nv-emulator .nv-liquid-toolbar #preview-fab{
+    display:grid;
+  }
+  .nv-card .nv-card-title.nv-card-caption{
+    max-width:calc(100% - 16px);
+    font-size:11px;
+  }
+}
+@media (prefers-reduced-motion:reduce){
+  .nv-card .nv-card-title.nv-card-caption,
+  .folder-card .card-text-title.nv-card-caption{
+    transition:none!important;
+    transform:none!important;
+  }
+}
