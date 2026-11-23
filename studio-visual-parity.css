@@ -52,8 +52,8 @@
   display:grid;place-items:center;flex:none;width:39px;height:39px;
   border:1px solid color-mix(in srgb,var(--accent) 30%,transparent);
   border-radius:12px;
-  background:var(--accent-subtle,rgba(0,245,160,.09));
-  color:var(--accent,#00f5a0);
+  background:var(--accent-subtle,rgba(134,86,244,.09));
+  color:var(--accent,#8656F4);
   font-size:1.13rem;font-weight:900;
 }
 #mc-studio-root .mc-studio-menu-button{
@@ -64,8 +64,8 @@
 }
 #mc-studio-root .mc-studio-menu-button:hover,
 #mc-studio-root .mc-studio-menu-button[aria-expanded="true"]{
-  background:var(--accent-subtle,rgba(0,245,160,.09));border-color:var(--border-hover);
-  color:var(--accent,#00f5a0)
+  background:var(--accent-subtle,rgba(134,86,244,.09));border-color:var(--border-hover);
+  color:var(--accent,#8656F4)
 }
 #mc-studio-root .mc-studio-top-links{
   display:flex;align-items:center;justify-content:center;gap:4px;
@@ -78,10 +78,10 @@
   font:650 .79rem/1.2 inherit;cursor:pointer;white-space:nowrap;
 }
 #mc-studio-root .mc-studio-top-links button[aria-current="page"]{
-  background:var(--accent-subtle,rgba(0,245,160,.14));color:var(--accent-light,#6dfac4);
+  background:var(--accent-subtle,rgba(134,86,244,.14));color:var(--accent-light,#C29FFF);
 }
 #mc-studio-root .mc-studio-top-links button:hover{
-  background:var(--accent-subtle,rgba(0,245,160,.1));color:var(--text-primary,#fff);
+  background:var(--accent-subtle,rgba(134,86,244,.1));color:var(--text-primary,#fff);
 }
 #mc-studio-root .mc-studio-header-actions{justify-content:flex-end;gap:8px}
 #mc-studio-root .mc-studio-account-button{
@@ -249,7 +249,7 @@
 #mc-studio-root .suite-tiles button:hover{
   transform:translate3d(0,-3px,0);
   border-color:color-mix(in srgb,var(--accent) 36%,transparent);
-  background:var(--accent-subtle,rgba(0,245,160,.07))
+  background:var(--accent-subtle,rgba(134,86,244,.07))
 }
 #mc-studio-root .suite-tiles button:hover::after{
   transform:translateX(3px);background:var(--accent-subtle)
@@ -277,7 +277,7 @@
 }
 #mc-studio-root .mc-studio-status{
   border:0;min-height:0;
-  color:var(--accent-light,#6dfac4);
+  color:var(--accent-light,#C29FFF);
 }
 #mc-studio-root .mc-studio-status:empty{padding:0!important;height:0}
 #mc-studio-root .mc-studio-workspace .mc-studio-footer{
@@ -288,7 +288,7 @@
 }
 #mc-studio-root .mc-studio-footer .mc-studio-apply{
   padding:0 21px;border-radius:11px;
-  background:var(--accent);color:var(--on-secondary,#04130d);
+  background:var(--accent);color:var(--on-secondary,#ffffff);
   border:1px solid transparent;box-shadow:none;font-size:.86rem;font-weight:750
 }
 #mc-studio-root.hub-open .mc-studio-workspace .mc-studio-footer{display:none!important}
