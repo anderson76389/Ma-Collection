@@ -59,7 +59,15 @@ function sortLabel(raw) {
 }
 
 // Nuvio TV/Mobile emulator (Preview) state
-let previewDevice = (() => { try { return localStorage.getItem('ma_collection_preview_device') || 'tv'; } catch (e) { return 'tv'; } })();
+let previewDevice = (() => {
+  // Utiliser automatiquement la disposition mobile sur un téléphone réel.
+  // Respecter un choix TV / téléphone enregistré explicitement.
+  let saved = '';
+  try { saved = localStorage.getItem('ma_collection_preview_device') || ''; }
+  catch (e) { /* mode privé */ }
+  if (saved === 'tv' || saved === 'mobile') return saved;
+  return window.matchMedia('(max-width: 800px)').matches ? 'mobile' : 'tv';
+})();
 // Whether the mobile-only "more options" panel (device toggle / reorder /
 // editor view / layout / help) is expanded above the slim phone bottom bar.
 let previewMoreOpen = false;
