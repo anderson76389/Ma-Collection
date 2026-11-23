@@ -14,6 +14,7 @@ const shapes=Object.freeze({
   apercu:'<rect x="2.5" y="4.5" width="14" height="10" rx="2"/><path d="M7 18.5h5m-2.5-4v4"/><rect x="17.5" y="8" width="4" height="11.5" rx="1"/>',
   recherche:'<circle cx="10.6" cy="10.6" r="7.1"/><path d="m16 16 5 5"/>',
   affiches:'<rect x="3" y="2.5" width="18" height="19" rx="2"/><path d="m3 16 5.5-5 3.5 3 3-2 6 5"/><circle cx="15.5" cy="7.8" r="1.4"/>',
+  'logos-ma-art':'<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M7 10h10M7 14h7M12 3v2M12 19v2"/>',
   bibliotheque:'<rect x="2.5" y="4" width="7" height="16" rx="1.5"/><rect x="11" y="4" width="10.5" height="7" rx="1.5"/><rect x="11" y="12.5" width="10.5" height="7.5" rx="1.5"/>',
   'affiches-fr':'<rect x="4" y="3" width="16" height="18" rx="2"/><path d="M9.2 7.1 7 12h5M8 10.5h3"/><path d="M14.7 9h3M14.7 12h3M7 16h10"/>',
   outils:'<path d="M3 7h18M3 17h18"/><circle cx="8" cy="7" r="2.5" fill="currentColor" stroke="none"/><circle cx="16" cy="17" r="2.5" fill="currentColor" stroke="none"/>',
