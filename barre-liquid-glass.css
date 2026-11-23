@@ -381,7 +381,7 @@
   margin:0;
   padding:9px 11px;
   background:rgba(255,255,255,.035);
-  color:#e6f3f5;
+  color:#F0E7FF;
   border:1px solid rgba(234,249,255,.105);
   border-radius:10px;
   box-shadow:none;
@@ -609,7 +609,7 @@ html[data-theme="light"] .nv-preview-bar.nv-liquid-toolbar{
   box-shadow:inset 0 1px 0 rgba(255,255,255,.76),0 12px 38px rgba(11,45,41,.21);
 }
 html[data-theme="light"] .nv-liquid-toolbar .nv-preview-primary button:not(.active):not(#preview-send){
-  color:#1e5147;
+  color:#503290;
   background:rgba(255,255,255,.53);
   border-color:rgba(38,96,87,.18);
 }
@@ -626,16 +626,16 @@ html[data-theme="light"] .nv-liquid-toolbar .nv-preview-secondary{
   color:#1b4138;
   border-color:rgba(33,89,80,.22);
 }
-html[data-theme="light"] .nv-liquid-toolbar .nv-preview-menu-title{color:#184437}
+html[data-theme="light"] .nv-liquid-toolbar .nv-preview-menu-title{color:#422776}
 html[data-theme="light"] .nv-liquid-toolbar .nv-preview-menu-layout label{color:#416a62}
 html[data-theme="light"] .nv-liquid-toolbar .nv-preview-menu-layout{
   background:rgba(14,89,68,.06);border-color:rgba(17,96,74,.19);
 }
 html[data-theme="light"] .nv-liquid-toolbar .nv-viewmode-combo #preview-viewmode{
-  color:#154939;
+  color:#472884;
 }
 html[data-theme="light"] .nv-liquid-toolbar .nv-preview-menu-tools button{
-  color:#195344;background:rgba(255,255,255,.75);border-color:rgba(32,92,74,.17);
+  color:#4B2B84;background:rgba(255,255,255,.75);border-color:rgba(32,92,74,.17);
 }
 html[data-theme="light"] .control-center-bar .control-center-panel{
   background:rgba(245,253,249,.85);
@@ -657,7 +657,7 @@ html[data-theme="high-contrast"] .nv-liquid-toolbar .nv-preview-secondary{
     background:linear-gradient(155deg,rgba(255,255,255,.97),rgba(220,242,234,.98));
   }
   html[data-theme="light"] .nv-liquid-toolbar #preview-fab{
-    color:#134a3d;background:rgba(237,255,248,.94);
+    color:#503290;background:rgba(237,255,248,.94);
     border-color:rgba(16,92,74,.29);
   }
   html[data-theme="light"] .nv-liquid-toolbar .nv-preview-secondary{
