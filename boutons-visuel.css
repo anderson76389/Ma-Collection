@@ -16,7 +16,7 @@
   --mc-ui-ease: cubic-bezier(.2,.75,.25,1);
 }
 html[data-theme="light"] {
-  --mc-ui-green:#007f5b;
+  --mc-ui-green:#6940D1;
   --mc-ui-green-hover:#5631B6;
   --mc-ui-green-dark:#fff;
   --mc-ui-ring:rgba(103,60,207,.38);
@@ -29,7 +29,7 @@ html[data-theme="light"] {
 html[data-theme="high-contrast"] {
   --mc-ui-green:#E5CDFF;
   --mc-ui-green-hover:#F0E2FF;
-  --mc-ui-green-dark:#071710;
+  --mc-ui-green-dark:#140D2F;
   --mc-ui-ring:rgba(224,201,255,.75);
   --mc-ui-line:rgba(255,255,255,.42);
   --mc-ui-line-hover:rgba(224,201,255,.82);
@@ -644,7 +644,7 @@ html[data-theme="light"] .mc-home-overlay .mc-home-more-tools>summary {
 html[data-theme="light"] #mc-studio-root .mc-studio-tabs button{color:#415a55}
 html[data-theme="light"] #mc-studio-root .mc-studio-tabs button.active,
 html[data-theme="light"] #mc-studio-root .mc-studio-tabs button[aria-selected="true"] {
-  color:#064a32;background:rgba(103,60,207,.09);
+  color:#5830B7;background:rgba(103,60,207,.09);
 }
 
 
@@ -658,7 +658,7 @@ html[data-theme="light"] #mc-studio-root .mc-studio-tabs button[aria-selected="t
   --kap-ui-surface-hi:#202633;
   --kap-ui-stroke:rgba(218,230,239,.14);
   --kap-ui-mint:#8656F4;
-  --kap-ui-mint-fg:#04170f;
+  --kap-ui-mint-fg:#ffffff;
   --kap-ui-mint-soft:rgba(134,86,244,.105);
   --kap-ui-mint-stroke:rgba(134,86,244,.36);
   --kap-ui-radius:10px;
@@ -682,7 +682,7 @@ html[data-theme="high-contrast"]{
   --kap-ui-surface-hi:#192723;
   --kap-ui-stroke:rgba(255,255,255,.6);
   --kap-ui-mint:#E5CDFF;
-  --kap-ui-mint-fg:#07150c;
+  --kap-ui-mint-fg:#140D2F;
   --kap-ui-mint-soft:rgba(124,255,209,.18);
   --kap-ui-mint-stroke:#E5CDFF;
 }
@@ -725,7 +725,7 @@ html[data-theme="high-contrast"]{
 }
 .mc-home-overlay .home-dock.mc-cockpit .mc-cockpit-branch [data-home-target="title-screen-start"]{
   border:0;border-bottom:0;background:transparent!important;
-  color:#f5fff9;box-shadow:none;
+  color:#F6EFFF;box-shadow:none;
 }
 .mc-home-overlay .home-dock.mc-cockpit .mc-cockpit-branch [data-home-target="title-screen-start"]::after,
 #mc-studio-root .mc-studio-cockpit .mc-studio-top-branch button[aria-current="page"]::after{
@@ -1152,13 +1152,13 @@ html[data-theme="light"] .mc-home-overlay .mc-home .portfolio-card{
   background:linear-gradient(145deg,#fff,#eef5f1);
 }
 html[data-theme="light"] .mc-home-overlay .mc-home .portfolio-card .port-card-eyebrow{
-  color:#3b6960;background:rgba(0,127,95,.05);
+  color:#3b6960;background:rgba(103,60,207,.05);
 }
 html[data-theme="light"] .mc-home-overlay .mc-home .portfolio-card .port-card-eyebrow.is-highlight{
   color:#5631B6;background:rgba(103,60,207,.1);
 }
 html[data-theme="light"] #mc-studio-root .mc-studio-art-nav button.active{
-  color:#006b4c;
+  color:#5830B7;
 }
 
 
