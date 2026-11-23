@@ -1,5 +1,5 @@
 import {ART_STYLES,makeFolderArt} from './studio-art-generator.mjs';
-import {renderStudioCanvas} from './studio-cinema-canvas.mjs';
+import {renderStudioCanvas} from './studio-cinema-canvas.mjs?v=2';
 import {STUDIO_WORKSPACE_TITLES,studioNavigationHtml} from './studio-workspace-nav.mjs?v=2';
 import {studioIcon} from './studio-icons.mjs?v=2';
 import {addonInventoryFromDraft,buildAddonManifestFile} from './studio-addon-manifests.mjs';
@@ -9,7 +9,7 @@ import {
   folderId, sourceKey, captureDraft, validateDraft, applyDraft,
   originalsFor, decorateExport, previewLayout, searchDraft,
   captureStudioUndo, restoreStudioUndo, compareStudioDrafts, uid
-} from './studio-avance-core.mjs';
+} from './studio-avance-core.mjs?v=2';
 import {createStudioBackupStore,makeStudioBackup} from './studio-backups.mjs';
 import {studioFolderKey,studioTidy,studioApplyBatch} from './studio-workshop-core.mjs';
 import {listStudioArtworks,searchStudioArtworks,useStudioArtwork} from './studio-art-library.mjs';
