@@ -419,6 +419,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
   function close(){
     if(!root)return;
     setNavigation(false);
+    root.querySelector('.mc-vault-lightbox')?.remove();
     root.hidden=true;
     document.removeEventListener('keydown',onStudioKeydown,true);
   }
@@ -645,6 +646,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     const choices=availableLooks(f,real);
     artLookIndex=Math.min(Math.max(artLookIndex,0),Math.max(choices.length-1,0));
     const current=choices[artLookIndex],rows=artRowFolders();
+    const currentMotion=vaultMotion(current?.archive,archiveInventory());
     const count=section()?.folders.length||0;
     const toolbar='<div class="mc-studio-art-toolbar">'+
       '<label class="mc-studio-field">Section<select data-art-section>'+
@@ -684,6 +686,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       '" aria-label="Choisir '+esc(item.label)+'" class="'+(i===artLookIndex?'active':'')+'"></button>').join('')+'</div>'+
       '<div class="mc-studio-gallery-actions">'+
       button('🖼️ Explorer toutes les images','art-open-library')+
+      (currentMotion?button('▶ Aperçu animé','archive-motion-preview','data-path="'+esc(currentMotion.path)+'" '+(archiveMotion?'':'disabled')):'')+
       button('🔗 Ajouter mon image','art-add')+
       (current?.style?button('Appliquer ce style à la rangée','art-row-style'):'')+
       button(current?.url===f.artwork.coverImageUrl?'Affiche actuelle':'Utiliser cette affiche','art-use',''+(!current||current.url===f.artwork.coverImageUrl||(current.archive&&!archiveResolved.has(current.archive.path))?'disabled':''))+
@@ -754,8 +757,19 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     const box=document.createElement('div');box.className='mc-vault-lightbox';
     box.setAttribute('role','dialog');box.setAttribute('aria-label',label||'Aperçu du visuel');
     box.innerHTML='<div class="mc-vault-lightbox-content"><button type="button" data-action="archive-zoom-close" aria-label="Fermer l’aperçu">×</button><div class="mc-vault-lightbox-media"></div><p>'+esc(label)+'</p></div>';
-    const media=document.createElement(isMotionVideo(url)?'video':'img');media.src=url;
+    const media=document.createElement(isMotionVideo(url)?'video':'img');
     if(media.tagName==='VIDEO'){media.controls=true;media.autoplay=true;media.muted=true;media.loop=true;media.playsInline=true;}else media.alt=label||'';
+    const item=archiveInventory().find(x=>isArchivedSelection(url,x.path));
+    let retried=false;
+    media.addEventListener(media.tagName==='VIDEO'?'loadedmetadata':'load',()=>{
+      if(item)archiveResolved.set(item.path,media.currentSrc||media.src);
+    });
+    media.addEventListener('error',()=>{
+      if(item&&!retried){retried=true;media.src=archivedUrl(item.path,url===archivedUrl(item.path)?1:0);return;}
+      const fallback=document.createElement('p');fallback.textContent='Ce fichier n’est pas accessible sur Ma-Art.';
+      media.replaceWith(fallback);
+    });
+    media.src=url;
     box.querySelector('.mc-vault-lightbox-media').appendChild(media);
     root.appendChild(box);box.querySelector('button').focus();
     box.addEventListener('click',e=>{if(e.target===box)box.remove();});
@@ -1426,8 +1440,8 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     else if(a==='archive-zoom'){const url=btn.dataset.url;if(url&&archiveInventory().some(x=>isArchivedSelection(url,x.path)))showArchiveZoom(url,btn.closest('[data-archive-card]')?.querySelector('strong')?.textContent||'Illustration');}
     else if(a==='archive-zoom-close'){root.querySelector('.mc-vault-lightbox')?.remove();}
     else if(a==='archive-motion-preview'){
-      const path=btn.dataset.path,url=archivedUrl(path);
-      if(archiveMotion&&url)showArchiveZoom(url,'Animation du visuel');
+      const path=btn.dataset.path,url=archiveResolved.get(path)||archivedUrl(path);
+      if(archiveMotion&&url&&archiveInventory().some(x=>x.kind==='animation'&&x.path===path))showArchiveZoom(url,'Animation du visuel');
     }
     else if(a==='archive-toggle'){archiveAll=!archiveAll;archivePage=0;draw();}
     else if(a==='archive-prev'){archivePage=Math.max(0,archivePage-1);draw();}
@@ -1495,7 +1509,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       f.artwork.coverImageUrl=assetUrl(item.archive?archiveResolved.get(item.archive.path):item.url);
       if(item.archive){
         f.hideTitle=true;
-        const match=archiveInventory().find(x=>x.kind==='animation'&&item.archive.pair&&x.pair===item.archive.pair);
+        const match=vaultMotion(item.archive,archiveInventory());
         if(match&&archiveResolved.has(match.path))f.artwork.focusGifUrl=archiveResolved.get(match.path);
       }
       artLookIndex=0;
