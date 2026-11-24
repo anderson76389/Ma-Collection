@@ -40,3 +40,43 @@ export function isArchivedSelection(url,path){
   return ART_HOSTS.some((_,i)=>archivedUrl(path,i)===url);
 }
 export function isMotionVideo(path){return /\.(?:mp4|webm|gifv)$/i.test(path);}
+
+
+// Les noms et l'ordre correspondent à la bibliothèque de référence.
+// Aucun nombre fictif : seules les entrées du manifeste courant sont comptées.
+export const VAULT_STYLES=Object.freeze([
+ ['all','Tous les styles'],['kaptain','Lueur V2'],['kaptain_v1','Classique V1'],
+ ['ghost-v2','Ghost'],['echo','Echo'],['cinema','Cinema'],['aurora','Aurora'],
+ ['nocturne','Nocturne'],['obsidian-v2','Obsidian'],['concrete','Concrete'],
+ ['tonal','Tonal'],['ivory','Ivory'],['poster-hd','Poster HD'],['studio','Thèmes Studio']
+]);
+export function vaultStyle(entry){
+ const s=artKey(entry?.style||entry?.styleId||entry?.label);
+ if(/(?:^| )ghost(?: |$)/.test(s))return 'ghost-v2';
+ if(/(?:^| )obsidian(?: |$)/.test(s))return 'obsidian-v2';
+ for(const k of ['echo','cinema','aurora','nocturne','concrete','tonal','ivory'])
+   if(s===k||s===k+' v2'||s===k+' v1')return k;
+ if(/poster hd/.test(s))return 'poster-hd';
+ if(/^(?:studio|themes studio)$/.test(s))return 'studio';
+ if(/classic|classique|(?:^| )v1(?: |$)/.test(s))return 'kaptain_v1';
+ if(/modern glow|lueur dynamique|^kaptain$|^v2$|^glow$/.test(s))return 'kaptain';
+ return '';
+}
+export function vaultShape(entry){
+ const s=artKey(entry?.shape||entry?.aspectRatio);
+ if(/^(?:poster|portrait|2 3|vertical)$/.test(s))return 'poster';
+ if(/^(?:landscape|16 9|horizontal|wide)$/.test(s))return 'landscape';
+ if(Number(entry?.width)>0&&Number(entry?.height)>0)
+   return Number(entry.width)>=Number(entry.height)?'landscape':'poster';
+ return '';
+}
+export function filterVault(entries,{query='',style='all',shape='all'}={}){
+ const words=artKey(query).split(' ').filter(Boolean);
+ return entries.filter(x=>(style==='all'||vaultStyle(x)===style)&&
+  (shape==='all'||vaultShape(x)===shape)&&
+  words.every(w=>artKey([x.key,x.label,x.group,VAULT_STYLES.find(([k])=>k===vaultStyle(x))?.[1]].join(' ')).includes(w)));
+}
+export function vaultMotion(entry,inventory){
+ if(!entry||entry.kind!=='cover'||!entry.pair)return null;
+ return inventory.find(x=>x.kind==='animation'&&x.pair===entry.pair&&x.key===entry.key&&x.group===entry.group)||null;
+}
