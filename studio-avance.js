@@ -42,7 +42,14 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
   let archiveKind='cover',archiveAll=false;
   let importedStudioArt=[],studioIndexPromise=null;
   const archiveResolved=new Map(),archiveFailed=new Set();
-  const archiveInventory=()=>[...importedStudioArt,...(window.MA_ART_VARIANTS||[])].filter((x,i,a)=>a.findIndex(v=>v.path===x.path)===i);
+  let archiveInventoryCache=null;
+  const archiveInventory=()=>{
+    if(!archiveInventoryCache){
+      const seen=new Set();
+      archiveInventoryCache=[...importedStudioArt,...(window.MA_ART_VARIANTS||[])].filter(x=>x?.path&&!seen.has(x.path)&&seen.add(x.path));
+    }
+    return archiveInventoryCache;
+  };
   function loadPublishedStudioArt(){
     if(studioIndexPromise)return studioIndexPromise;
     studioIndexPromise=(async()=>{
@@ -53,10 +60,8 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
           const json=await response.json();
           if(!Array.isArray(json.items))continue;
           importedStudioArt=json.items.filter(x=>x&&typeof x.key==='string'&&typeof x.label==='string'&&archivedUrl(x.path)&&ARTWORK_KINDS[x.kind]).slice(0,20000);
-          if(root&&!root.hidden&&(tab==='affiches'||tab==='bibliotheque')){
-            const previous=availableLooks(folder(),findFolder(selectedSection,selectedFolder))[artLookIndex]?.url;
-            draw();
-          }
+          archiveInventoryCache=null;archiveFailed.clear();
+          if(root&&!root.hidden&&(tab==='affiches'||tab==='bibliotheque')){artLookIndex=0;draw();}
           return;
         }catch{}
       }
@@ -731,6 +736,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       const ready=()=>{
         if(!card.isConnected)return;
         btn.dataset.url=media.currentSrc||media.src;
+        archiveResolved.set(path,btn.dataset.url);
         btn.disabled=false;status.textContent='Disponible sur Ma-Art';
         card.classList.add('available');
       };
