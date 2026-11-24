@@ -13,7 +13,7 @@ import {
 import {createStudioBackupStore,makeStudioBackup} from './studio-backups.mjs';
 import {studioFolderKey,studioTidy,studioApplyBatch} from './studio-workshop-core.mjs';
 import {ARTWORK_KINDS,listStudioArtworks,searchStudioArtworks,useStudioArtwork} from './studio-art-library.mjs?v=2';
-import {archivedChoices,archivedUrl,isArchivedSelection,isMotionVideo,VAULT_STYLES,vaultStyle,vaultShape,filterVault,vaultMotion} from './studio-archived-art.mjs?v=2';
+import {archivedChoices,archivedUrl,isArchivedSelection,isMotionVideo,VAULT_STYLES,vaultStyle,vaultShape,filterVault,vaultMotion} from './studio-archived-art.mjs?v=3';
 import {enrichMaArtLogos,searchMaArtLogos,applyMaArtLogo} from './studio-ma-art-logos.mjs';
 import {frenchPackTemplate,validateFrenchPack,planFrenchPack,applyFrenchPack} from './studio-fr-art.mjs';
 import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './studio-recovery-core.mjs';
@@ -1510,7 +1510,10 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       if(item.archive){
         f.hideTitle=true;
         const match=vaultMotion(item.archive,archiveInventory());
-        if(match&&archiveResolved.has(match.path))f.artwork.focusGifUrl=archiveResolved.get(match.path);
+        if(match&&archiveResolved.has(match.path)){f.artwork.focusGifUrl=archiveResolved.get(match.path);}
+        else if(!match){f.artwork.focusGifUrl='';f.focusGifEnabled=false;}
+        const shape=vaultShape(item.archive);
+        if(shape)f.shape=shape==='poster'?'POSTER':'LANDSCAPE';
       }
       artLookIndex=0;
       message='Affiche choisie. Applique ensuite le profil pour l’utiliser dans l’export.';
