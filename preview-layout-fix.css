@@ -1,165 +1,85 @@
-/*
- * Ma-Collection — Prévisualisation sans recouvrement.
- * La barre reste Liquid Glass mais devient un VRAI pied de page de l'aperçu :
- * elle occupe sa place dans le layout flex (au lieu de couvrir les affiches).
- * Les images avec typographie intégrée ne reçoivent pas de second logo.
- */
-.nv-emulator{
-  display:flex;
-  flex-direction:column;
-  height:100%;
-  min-height:0;
-  max-height:100%;
-  overflow:hidden;
+/* Single physical dock row, shared by TV and phone. No absolute/fixed dock.
+ * The scroll viewport and footer are separate grid tracks. */
+#content-canvas:has(> .mc-preview-layout){
+  box-sizing:border-box;min-height:0;min-width:0;
+  height:100%;flex:1 1 0%;padding:0!important;overflow:hidden!important;
 }
-.nv-emulator > .nv-frame{
-  order:1;
-  flex:1 1 0%;
-  min-height:0;
-  max-height:100%;
-  overflow:hidden;
+#content-canvas > .mc-preview-layout{
+  box-sizing:border-box;display:grid;
+  grid-template-rows:minmax(0,1fr) auto;grid-template-columns:minmax(0,1fr);
+  width:100%;height:100%;min-height:0;max-height:100%;
+  padding:0;margin:0;gap:0;overflow:hidden;
 }
-.nv-emulator > .nv-frame > .nv-screen{
-  min-height:0;
-  max-height:100%;
+#content-canvas > .mc-preview-layout > .nv-frame{
+  grid-row:1;grid-column:1;min-height:0;min-width:0;
+  width:100%;height:100%;max-height:100%;
+  padding:0;overflow:hidden;display:flex;align-items:center;justify-content:center;
 }
-.nv-emulator > .nv-preview-bar.nv-liquid-toolbar{
-  order:2;
-  position:relative;
-  flex:0 0 auto;
-  left:auto;
-  right:auto;
-  top:auto;
-  bottom:auto;
-  transform:none;
-  margin:7px auto max(9px,env(safe-area-inset-bottom));
-  padding:7px 9px;
-  max-width:calc(100% - 18px);
-  width:max-content;
-  z-index:90;
+#content-canvas > .mc-preview-layout > .nv-frame > .nv-screen{
+  box-sizing:border-box;min-height:0;max-height:100%;height:100%;
+  display:flex;flex-direction:column;overflow:hidden;
 }
-/* L'espacement des rangées reste indépendant du pied de page. */
-.nv-emulator .nv-scroll{
-  min-height:0;
-  overscroll-behavior-y:contain;
+#content-canvas > .mc-preview-layout.device-tv > .nv-frame > .nv-screen{width:100%}
+#content-canvas > .mc-preview-layout.device-mobile > .nv-frame > .nv-screen{
+  width:min(var(--mobile-frame-width,380px),100%);height:min(var(--mobile-frame-height,760px),100%);
 }
-.device-tv .nv-scroll,
-.device-mobile .nv-scroll{
-  padding-bottom:clamp(20px,3.2vh,42px);
+#content-canvas > .mc-preview-layout .nv-scroll{
+  flex:1 1 0%;min-height:0;overflow-y:auto;overflow-x:hidden;
+  padding-bottom:24px;overscroll-behavior-y:contain;
 }
-/* La carte affiche l'oeuvre originale, pas son titre deux fois.
-   Le titre de secours apparaît seulement au survol/focus. */
-.nv-card .nv-card-title.nv-card-caption,
-.folder-card .card-text-title.nv-card-caption{
-  position:absolute;
-  bottom:9px;
-  left:9px;
-  right:9px;
-  z-index:4;
-  width:max-content;
-  max-width:calc(100% - 18px);
-  padding:6px 9px;
-  margin:0;
-  border:1px solid rgba(255,255,255,.18);
-  border-radius:8px;
-  color:#fff;
-  background:rgba(6,7,18,.8);
-  -webkit-backdrop-filter:blur(10px);
-  backdrop-filter:blur(10px);
-  box-shadow:0 4px 12px rgba(0,0,0,.2);
-  font:680 clamp(10px,.9vw,12px)/1.25 'Inter',system-ui,sans-serif;
-  letter-spacing:0;
-  text-shadow:none;
-  text-align:left;
-  overflow-wrap:anywhere;
-  opacity:0;
-  visibility:hidden;
-  transform:translateY(4px);
-  pointer-events:none;
-  transition:opacity .17s ease,transform .17s ease,visibility .17s ease;
+#content-canvas > .mc-preview-layout .nv-hero{
+  flex:0 0 auto;height:clamp(110px,33vh,390px);min-height:0;
 }
-.nv-card:hover .nv-card-title.nv-card-caption,
-.nv-card.is-focused .nv-card-title.nv-card-caption,
-.nv-card:focus-within .nv-card-title.nv-card-caption,
-.folder-card:hover .card-text-title.nv-card-caption,
-.folder-card:focus-within .card-text-title.nv-card-caption{
-  opacity:1;
-  visibility:visible;
-  transform:translateY(0);
+#content-canvas > .mc-preview-layout.device-mobile .nv-hero{height:clamp(110px,29vh,300px);min-height:0}
+#content-canvas > .mc-preview-layout > .mc-preview-dock{
+  box-sizing:border-box;grid-row:2;grid-column:1;min-width:0;min-height:0;
+  display:flex;align-items:center;justify-content:center;
+  padding:7px 12px max(8px,env(safe-area-inset-bottom));
+  border-top:1px solid rgba(172,145,255,.14);
+  background:var(--bg-color,#0d1020);
+  position:relative;z-index:100;isolation:isolate;
 }
-.nv-card .nv-card-title.nv-card-caption[hidden]{display:none!important}
-.nv-emulator .nv-card-img{
-  display:block;
-  width:100%;
-  height:100%;
-  object-fit:cover;
+#content-canvas .mc-preview-dock > .nv-preview-bar.nv-liquid-toolbar{
+  box-sizing:border-box;position:relative;inset:auto;transform:none;
+  margin:0;flex:0 1 auto;width:max-content;height:auto;min-height:0;
+  max-width:100%;overflow:visible;
 }
-/* La rangée et les cartes gardent une largeur naturelle et un scroll propre. */
-.nv-emulator .nv-track{
-  min-width:0;
-  max-width:100%;
-  scroll-padding-inline:20px;
+#content-canvas .mc-preview-dock .nv-preview-primary{max-width:100%;min-width:0;flex-wrap:wrap;justify-content:center}
+#content-canvas .mc-preview-dock .nv-preview-secondary{z-index:10}
+#content-canvas > .mc-preview-layout > .preview-empty{grid-row:1;min-height:0;overflow:auto}
+#content-canvas .nv-card .nv-card-title.nv-card-caption,
+#content-canvas .folder-card .card-text-title.nv-card-caption{
+  position:absolute;bottom:8px;left:8px;right:auto;
+  z-index:4;width:max-content;max-width:calc(100% - 16px);
+  padding:5px 8px;margin:0;border-radius:6px;color:#fff;
+  background:rgba(6,7,18,.86);font:650 11px/1.25 system-ui,sans-serif;
+  text-shadow:none;white-space:normal;overflow-wrap:anywhere;
+  opacity:0;visibility:hidden;pointer-events:none;
 }
-.nv-emulator .nv-card{
-  min-width:0;
-  isolation:isolate;
-}
-@media(max-width:1320px) and (min-width:861px){
-  .nv-emulator > .nv-preview-bar.nv-liquid-toolbar{
-    width:min(1120px,calc(100% - 18px));
-    margin:7px auto 9px;
-  }
-}
+#content-canvas .nv-card:hover .nv-card-caption,
+#content-canvas .nv-card:focus-within .nv-card-caption,
+#content-canvas .folder-card:hover .nv-card-caption,
+#content-canvas .nv-card-caption.is-fallback{opacity:1;visibility:visible}
+#content-canvas :is(.nv-card,.folder-card).is-art-missing{background:linear-gradient(135deg,#22183f,#0d1020)}
+#content-canvas :is(.nv-card,.folder-card).is-art-missing :is(.nv-card-img,.card-cover-img){visibility:hidden}
+#content-canvas .nv-card .nv-card-actions{gap:4px;right:7px;top:7px;max-width:calc(100% - 32px)}
+#content-canvas .nv-card .nv-card-act{flex:0 0 26px;width:26px;height:26px;padding:0}
 @media(max-width:860px){
-  .nv-emulator{
-    min-height:0;
-    overflow:hidden;
+  #content-canvas > .mc-preview-layout > .mc-preview-dock{
+    justify-content:flex-end;padding:5px 10px max(5px,env(safe-area-inset-bottom));
   }
-  .nv-emulator > .nv-frame{
-    min-height:0;
-    flex:1 1 0%;
+  #content-canvas .mc-preview-dock > .nv-preview-bar.nv-liquid-toolbar{
+    position:relative;inset:auto;transform:none;margin:0;
+    background:transparent;border:0;box-shadow:none;min-height:0;
   }
-  .nv-emulator > .nv-preview-bar.nv-liquid-toolbar{
-    width:auto;
-    max-width:calc(100% - 24px);
-    margin:0 max(12px,env(safe-area-inset-right)) max(12px,env(safe-area-inset-bottom)) auto;
-    padding:0;
-    background:transparent;
-    border:0;
-    box-shadow:none;
+  #content-canvas .mc-preview-dock .nv-preview-content{
+    position:absolute;right:0;left:auto;bottom:calc(100% + 8px);
+    width:min(414px,calc(100vw - 24px));max-height:calc(100dvh - 92px);
+    overflow:auto;overscroll-behavior:contain;
   }
-  .nv-emulator .nv-liquid-toolbar .nv-preview-content{
-    position:absolute;
-    right:0;
-    bottom:calc(100% + 10px);
-    max-height:min(74dvh,650px);
+  #content-canvas .mc-preview-layout.device-mobile > .nv-frame > .nv-screen{
+    width:100%;height:100%;border:0;border-radius:0;
   }
-  .nv-emulator .nv-liquid-toolbar #preview-fab{
-    display:grid;
-  }
-  .nv-card .nv-card-title.nv-card-caption{
-    max-width:calc(100% - 16px);
-    font-size:11px;
-  }
-}
-@media (prefers-reduced-motion:reduce){
-  .nv-card .nv-card-title.nv-card-caption,
-  .folder-card .card-text-title.nv-card-caption{
-    transition:none!important;
-    transform:none!important;
-  }
-}
-
-/* En cas d'échec de téléchargement, le nom du dossier reste visible. */
-.nv-card .nv-card-title.nv-card-caption.is-fallback,
-.folder-card .card-text-title.nv-card-caption.is-fallback{
-  opacity:1;
-  visibility:visible;
-  transform:none;
-}
-:is(.nv-card,.folder-card).is-art-missing{
-  background:linear-gradient(135deg,#22183f,#0d1020);
-}
-:is(.nv-card,.folder-card).is-art-missing :is(.nv-card-img,.card-cover-img){
-  visibility:hidden;
+  #content-canvas .nv-card .nv-card-actions{gap:3px;right:4px;top:4px;max-width:calc(100% - 23px)}
+  #content-canvas .nv-card .nv-card-act{flex-basis:22px;width:22px;height:22px}
 }
