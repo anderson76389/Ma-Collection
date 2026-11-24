@@ -1,8 +1,6 @@
 name: Actualiser les Top 10 Netflix France
 
 on:
-  schedule:
-    - cron: '25 18 * * 3' # Mercredi 18:25 UTC
   workflow_dispatch: {}
 
 permissions:
@@ -14,6 +12,8 @@ concurrency:
 
 jobs:
   netflix-fr:
+    # GEL PROJET — ne réactiver que sur demande explicite.
+    if: ${{ false }}
     name: Télécharger et vérifier les classements France
     runs-on: ubuntu-latest
     timeout-minutes: 25
