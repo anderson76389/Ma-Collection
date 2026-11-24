@@ -40,6 +40,29 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
   let workshopSortSections=true,workshopSortFolders=true,workshopUndo=null;
   let libraryQuery='',libraryFilter='all',libraryKind='cover',libraryPage=0,libraryUndo=null;
   let archiveKind='cover',archiveAll=false;
+  let importedStudioArt=[],studioIndexPromise=null;
+  const archiveResolved=new Map(),archiveFailed=new Set();
+  const archiveInventory=()=>[...importedStudioArt,...(window.MA_ART_VARIANTS||[])].filter((x,i,a)=>a.findIndex(v=>v.path===x.path)===i);
+  function loadPublishedStudioArt(){
+    if(studioIndexPromise)return studioIndexPromise;
+    studioIndexPromise=(async()=>{
+      for(const base of ['https://ma-art-images-static.mailpromahe.workers.dev/','https://ma-art.mailpromahe.workers.dev/']){
+        try{
+          const response=await fetch(base+'studio-variants.json',{cache:'no-cache',signal:AbortSignal.timeout(12000)});
+          if(!response.ok)continue;
+          const json=await response.json();
+          if(!Array.isArray(json.items))continue;
+          importedStudioArt=json.items.filter(x=>x&&typeof x.key==='string'&&typeof x.label==='string'&&archivedUrl(x.path)&&ARTWORK_KINDS[x.kind]).slice(0,20000);
+          if(root&&!root.hidden&&(tab==='affiches'||tab==='bibliotheque')){
+            const previous=availableLooks(folder(),findFolder(selectedSection,selectedFolder))[artLookIndex]?.url;
+            draw();
+          }
+          return;
+        }catch{}
+      }
+    })();
+    return studioIndexPromise;
+  }
   let logoQuery='',logoGroup='all',logoUndo=null;
   const addonManifestUrls=Object.create(null); // En mémoire seulement : aucune clé/URL privée en localStorage.
   let frPack=null,frStyle='',frSection='all',frActiveOnly=true,frUndo=null,frError='';
@@ -449,7 +472,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     if(target){pickSection(String(target.sectionId));if(section()?.folders.some(f=>f.id===String(target.folderId)))selectedFolder=String(target.folderId);}
     if(!root)mount();
     root.hidden=false;navigationOpen=false;previousTab='';
-    setNavigation(false);draw();refreshBackups();document.addEventListener('keydown',onStudioKeydown,true);
+    setNavigation(false);draw();loadPublishedStudioArt();refreshBackups();document.addEventListener('keydown',onStudioKeydown,true);
     root.querySelector('[data-action="studio-menu"]')?.focus();
   }
   /**
@@ -580,26 +603,26 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
 
   function availableLooks(custom, real, includeStyles=true) {
     const items=[],seen=new Set();
-    function add(url,label) {
+    function add(url,label,meta={}) {
       if(!url || seen.has(url))return;
-      seen.add(url);items.push({url,label});
+      seen.add(url);items.push({url,label,...meta});
     }
     add(custom?.artwork?.coverImageUrl,'Affiche sélectionnée');
     add(originals?.[custom?.id]?.coverImageUrl || real?.coverImageUrl,'Affiche d’origine');
-    const original = originals?.[custom?.id] || real;
-    add(original?.heroBackdropUrl, 'Décor du dossier');
-    if (/\.(gif|webp|png|jpe?g)(?:[?#]|$)/i.test(original?.focusGifUrl || '')) {
-      add(original.focusGifUrl, 'Visuel de survol');
-    }
+    const original=originals?.[custom?.id]||real||{};
     for(const entry of custom?.looks||[])add(entry.url,entry.label||'Variante personnelle');
-    if(includeStyles && custom){
-      for(const style of ART_STYLES){
-        const url=makeFolderArt(custom.label,style.id,custom.shape);
-        const existing=items.find(item=>item.url===url);
-        if(existing){existing.style=style.id;existing.label=style.label;}
-        else items.push({url,label:style.label,style:style.id});
+    if(custom){
+      const variants=archivedChoices(archiveInventory(),custom,original,'cover');
+      for(const entry of variants){
+        if(archiveFailed.has(entry.path))continue;
+        const url=archiveResolved.get(entry.path)||archivedUrl(entry.path,1);
+        const known=items.find(item=>item.url===url||isArchivedSelection(item.url,entry.path));
+        if(known){known.label=entry.label;known.archive=entry;}
+        else add(url,entry.label,{archive:entry});
       }
     }
+    // Les styles dessinés localement restent dans « Créer l'affiche »,
+    // pas dans la galerie des véritables images.
     return items;
   }
   function artRowFolders() {
@@ -635,13 +658,13 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       if(visibleIndexes.has(index))return '';
       visibleIndexes.add(index);
       const item=choices[index];
-      const picture='<img src="'+esc(localGenreCovers.get(item.url) || item.url)+'" alt="" decoding="async">'+genreCaption({coverImageUrl:item.url,title:real?.title})+'<span class="mc-look-label">'+esc(item.label)+'</span>';
+      const picture='<img src="'+esc(localGenreCovers.get(item.url) || item.url)+'" alt="'+esc(item.label)+'" decoding="async" '+(item.archive?'data-carousel-art="'+esc(item.archive.path)+'"':'')+'><span class="mc-look-label">'+esc(item.label)+'</span>';
       if(offset===0)return '<div class="mc-look current">'+picture+'</div>';
       return '<button type="button" class="mc-look" data-offset="'+offset+'" data-action="art-select" data-id="'+index+'" aria-label="Voir le visuel '+esc(item.label)+'">'+picture+'</button>';
     }).join('');
     const theater='<div class="mc-studio-theater">'+
       '<div class="mc-studio-theater-title"><div><strong>'+esc(f.label)+'</strong><small>'+esc(section()?.label||'')+
-      ' · Visuel '+(choices.length?artLookIndex+1:0)+' sur '+choices.length+'</small></div>'+
+      ' · Visuel '+(choices.length?artLookIndex+1:0)+' sur '+choices.length+' · '+esc(current?.label||'')+'</small></div>'+
       '<label class="mc-studio-check"><input type="checkbox" data-flag="focusGifEnabled" '+(f.focusGifEnabled?'checked':'')+'> Animations</label></div>'+
       '<div class="mc-studio-stage">'+
       button('‹','art-prev','aria-label="Affiche précédente" '+(choices.length<2?'disabled':''))+
@@ -654,10 +677,10 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       button('🖼️ Explorer toutes les images','art-open-library')+
       button('🔗 Ajouter mon image','art-add')+
       (current?.style?button('Appliquer ce style à la rangée','art-row-style'):'')+
-      button('Utiliser cette affiche','art-use',''+(!current?'disabled':''))+
+      button(current?.url===f.artwork.coverImageUrl?'Affiche actuelle':'Utiliser cette affiche','art-use',''+(!current||current.url===f.artwork.coverImageUrl||(current.archive&&!archiveResolved.has(current.archive.path))?'disabled':''))+
       button('Retirer la variante ajoutée','art-remove',''+(!current||!(f.looks||[]).some(x=>x.url===current.url)?'disabled':''))+
       '</div>'+
-      '<p class="mc-studio-hint">Les styles intégrés sont créés sur cet appareil. Tu peux aussi choisir un visuel Ma-Art ou ajouter ton image. La sélection sera exportée vers Kovelyx/Nuvio après application du profil. Aucun lien vers Kaptain.</p>'+
+      '<p class="mc-studio-hint">Les variantes sont des fichiers réels conservés par Ma-Art. Les styles créés localement restent disponibles dans les réglages avancés ci-dessous.</p>'+
       '</div>';
     const batch=showBatch?'<div class="mc-studio-batch"><strong>Appliquer des réglages à toute la section : '+esc(section()?.label||'')+'</strong>'+
       '<p class="mc-studio-hint">Les '+count+' dossiers gardent chacun leur propre affiche et leurs sources. Seuls les réglages ci-dessous changent.</p>'+
@@ -672,7 +695,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
 
 
   function archiveItems(f,real){
-    const inventory=window.MA_ART_VARIANTS||[];
+    const inventory=archiveInventory();
     if(archiveAll)return inventory.filter(x=>x.kind===archiveKind);
     return archivedChoices(inventory,f,originals?.[f.id]||real||{},archiveKind);
   }
@@ -738,7 +761,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     ].map(([key,label,tip])=>'<label class="mc-studio-field">'+esc(label)+
        '<input type="url" data-art="'+key+'" value="'+esc(f.artwork[key]||'')+'" placeholder="https://ma-art.mailpromahe.workers.dev/media/...">'+
        '<small>'+esc(tip)+'</small></label>').join('');
-    return '<div class="mc-studio-artwork-screen">'+renderArchivedChoices(f,orig)+artTheater(f,orig)+'<div class="mc-studio-art-layout"><div class="mc-studio-art-preview">'+
+    return '<div class="mc-studio-artwork-screen">'+artTheater(f,orig)+renderArchivedChoices(f,orig)+'<div class="mc-studio-art-layout"><div class="mc-studio-art-preview">'+
       (f.artwork.heroBackdropUrl?'<img class="mc-studio-hero" src="'+esc(f.artwork.heroBackdropUrl)+'" alt="Fond du dossier">':'')+
       (f.artwork.coverImageUrl?'<img class="mc-studio-cover" src="'+esc(localGenreCovers.get(f.artwork.coverImageUrl) || f.artwork.coverImageUrl)+'" alt="Couverture du dossier">':'<div class="mc-studio-no-cover">Aucune affiche</div>')+
       (f.artwork.titleLogoUrl?'<img class="mc-studio-title-logo" src="'+esc(f.artwork.titleLogoUrl)+'" alt="Logo du titre">':'')+
@@ -1198,6 +1221,26 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     if(back)back.hidden=tab==='accueil';
     body.innerHTML=(tab==='accueil'?renderHub():tab==='mes-creations'?renderCurations():tab==='organisation'?(cinemaMode?renderStudioCanvas(draft,{activeOnly:cinemaActiveOnly,expanded:cinemaExpanded,resolveImage:url=>localGenreCovers.get(url)||url}):renderSections()):tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():tab==='modifications'?renderChanges():tab==='outils'?renderWorkshop():tab==='bibliotheque'?renderArtLibrary():tab==='logos-ma-art'?renderMaArtLogos():tab==='affiches-fr'?renderFrenchArt():tab==='import-collection'?renderCollectionImport():tab==='extensions'?renderAddonExport():tab==='parametres'?renderPreferences():tab==='partage'?renderSharing():renderProfiles());
     bindArchivedPreviews(body);
+    for(const img of body.querySelectorAll('[data-carousel-art]')){
+      const path=img.dataset.carouselArt;
+      const ready=()=>{
+        if(!img.isConnected)return;
+        archiveResolved.set(path,img.currentSrc||img.src);
+        if(img.closest('.mc-look.current')){
+          const apply=body.querySelector('[data-action="art-use"]');
+          if(apply&&!isArchivedSelection(folder()?.artwork?.coverImageUrl,path))apply.disabled=false;
+        }
+      };
+      let retried=false;
+      img.addEventListener('load',ready);
+      img.addEventListener('error',()=>{
+        if(!img.isConnected)return;
+        if(!retried){retried=true;const other=isArchivedSelection(img.src,path)&&img.src===archivedUrl(path,1)?0:1;img.src=archivedUrl(path,other);return;}
+        archiveFailed.add(path);
+        img.closest('.mc-look')?.classList.add('is-unavailable');
+      });
+      if(img.complete&&img.naturalWidth>0)ready();
+    }
     if(didNavigate){
       body.scrollTop=0;
       // Annuler toute animation précédente avant d'en lancer une autre.
@@ -1395,8 +1438,14 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     else if(a==='art-use'){
       const f=folder(),items=availableLooks(f,findFolder(selectedSection,selectedFolder));
       if(!f||!items[artLookIndex])return;
-      f.artwork.coverImageUrl=items[artLookIndex].url;
-      if(items[artLookIndex].style)f.hideTitle=true;
+      const item=items[artLookIndex];
+      if(item.archive&&!archiveResolved.has(item.archive.path)){message='Le visuel n’a pas encore été chargé.';draw();return;}
+      f.artwork.coverImageUrl=assetUrl(item.archive?archiveResolved.get(item.archive.path):item.url);
+      if(item.archive){
+        f.hideTitle=true;
+        const match=archiveInventory().find(x=>x.kind==='animation'&&item.archive.pair&&x.pair===item.archive.pair);
+        if(match&&archiveResolved.has(match.path))f.artwork.focusGifUrl=archiveResolved.get(match.path);
+      }
       artLookIndex=0;
       message='Affiche choisie. Applique ensuite le profil pour l’utiliser dans l’export.';
       draw();
