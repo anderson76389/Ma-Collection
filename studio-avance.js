@@ -13,6 +13,7 @@ import {
 import {createStudioBackupStore,makeStudioBackup} from './studio-backups.mjs';
 import {studioFolderKey,studioTidy,studioApplyBatch} from './studio-workshop-core.mjs';
 import {ARTWORK_KINDS,listStudioArtworks,searchStudioArtworks,useStudioArtwork} from './studio-art-library.mjs?v=2';
+import {archivedChoices,archivedUrl,isArchivedSelection,isMotionVideo} from './studio-archived-art.mjs?v=1';
 import {enrichMaArtLogos,searchMaArtLogos,applyMaArtLogo} from './studio-ma-art-logos.mjs';
 import {frenchPackTemplate,validateFrenchPack,planFrenchPack,applyFrenchPack} from './studio-fr-art.mjs';
 import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './studio-recovery-core.mjs';
@@ -38,6 +39,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
   let workshopSearch='',workshopSection='all',workshopSelected=new Set(),workshopMode='active-first';
   let workshopSortSections=true,workshopSortFolders=true,workshopUndo=null;
   let libraryQuery='',libraryFilter='all',libraryKind='cover',libraryPage=0,libraryUndo=null;
+  let archiveKind='cover',archiveAll=false;
   let logoQuery='',logoGroup='all',logoUndo=null;
   const addonManifestUrls=Object.create(null); // En mémoire seulement : aucune clé/URL privée en localStorage.
   let frPack=null,frStyle='',frSection='all',frActiveOnly=true,frUndo=null,frError='';
@@ -433,16 +435,18 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     e.preventDefault();
     focusables[nextIndex].focus();
   }
-  function open(initialTab='organisation'){
+  function open(initialTab='organisation',target=null){
     if(!data().length){if(typeof window.showToast==='function')window.showToast('Collections non chargées. Réessaie.','error');return;}
     if(!originals)originals=originalsFor(data());
     load();draft=getBase();baseDraftSignature=JSON.stringify(draft);pickSection();tab=initialTab;query='';message='';
     cinemaMode=false;cinemaActiveOnly=false;cinemaExpanded=new Set();
     artLookIndex=0;artSearch='';artMoreOnly=false;artNeedsAttention=false;showBatch=false;previewDevice='tv';globalQuery='';globalActiveOnly=false;globalNoCover=false;
     workshopSelected=new Set();workshopUndo=null;workshopSearch='';workshopSection='all';
-    libraryQuery='';libraryFilter='all';libraryUndo=null;
+    libraryQuery='';libraryFilter='all';libraryKind='cover';libraryPage=0;libraryUndo=null;archiveKind='cover';archiveAll=false;
     logoQuery='';logoGroup='all';logoUndo=null;
     frUndo=null;frSection='all';frActiveOnly=true;loadFrenchArt();
+    archivePage=0;
+    if(target){pickSection(String(target.sectionId));if(section()?.folders.some(f=>f.id===String(target.folderId)))selectedFolder=String(target.folderId);}
     if(!root)mount();
     root.hidden=false;navigationOpen=false;previousTab='';
     setNavigation(false);draw();refreshBackups();document.addEventListener('keydown',onStudioKeydown,true);
@@ -666,6 +670,58 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     return toolbar+theater+batch+searchResults;
   }
 
+
+  function archiveItems(f,real){
+    const inventory=window.MA_ART_VARIANTS||[];
+    if(archiveAll)return inventory.filter(x=>x.kind===archiveKind);
+    return archivedChoices(inventory,f,originals?.[f.id]||real||{},archiveKind);
+  }
+  let archivePage=0;
+  function renderArchivedChoices(f,real){
+    const items=archiveItems(f,real),pageSize=30;
+    archivePage=Math.min(archivePage,Math.max(0,Math.ceil(items.length/pageSize)-1));
+    const current=items.slice(archivePage*pageSize,(archivePage+1)*pageSize);
+    const tabs=Object.entries(ARTWORK_KINDS).map(([id,k])=>button(k.label,'archive-kind','data-id="'+id+'" aria-pressed="'+(archiveKind===id)+'"')).join('');
+    const cards=current.map(x=>{
+      const field=ARTWORK_KINDS[x.kind].field;
+      const chosen=isArchivedSelection(f.artwork[field],x.path);
+      return '<article class="mc-archive-card" data-archive-card data-path="'+esc(x.path)+'">'+
+        '<div class="mc-archive-preview">'+
+        (isMotionVideo(x.path)?'<video muted playsinline preload="metadata" data-archive-media>':'<img loading="lazy" decoding="async" alt="'+esc(x.label)+'" data-archive-media>')+
+        (isMotionVideo(x.path)?'</video>':'')+'</div>'+
+        '<strong>'+esc(x.label)+'</strong>'+
+        '<small data-archive-state>Vérification du fichier…</small>'+
+        button(chosen?'Sélectionné':'Choisir','archive-use','data-path="'+esc(x.path)+'" data-kind="'+esc(x.kind)+'" disabled')+'</article>';
+    }).join('');
+    return '<section class="mc-archive-picker"><div class="mc-archive-heading"><div><h3>Variantes Ma-Art · '+esc(f.label)+'</h3><p>Affiches originales, fonds, logos et animations associés au dossier.</p></div>'+
+      button(archiveAll?'Ce dossier seulement':'Toute la bibliothèque','archive-toggle')+'</div>'+
+      '<div class="mc-archive-tabs">'+tabs+'</div>'+
+      '<p class="mc-studio-hint">'+items.length+' fichiers indexés. Seuls ceux qui se chargent depuis ton hébergement sont sélectionnables.</p>'+
+      '<div class="mc-archive-grid">'+(cards||'<p>Aucune variante associée. Essaie toute la bibliothèque ou ajoute ton image.</p>')+'</div>'+
+      '<div class="mc-archive-pages">'+button('Précédent','archive-prev',archivePage?'':'disabled')+'<span>Page '+(archivePage+1)+' / '+Math.max(1,Math.ceil(items.length/pageSize))+'</span>'+button('Suivant','archive-next',(archivePage+1)*pageSize<items.length?'':'disabled')+'</div></section>';
+  }
+  function bindArchivedPreviews(body){
+    for(const card of body.querySelectorAll('[data-archive-card]')){
+      const path=card.dataset.path,media=card.querySelector('[data-archive-media]'),status=card.querySelector('[data-archive-state]'),btn=card.querySelector('[data-action="archive-use"]');
+      let host=0;
+      const load=()=>{media.src=archivedUrl(path,host);};
+      const ready=()=>{
+        if(!card.isConnected)return;
+        btn.dataset.url=media.currentSrc||media.src;
+        btn.disabled=false;status.textContent='Disponible sur Ma-Art';
+        card.classList.add('available');
+      };
+      media.addEventListener(media.tagName==='VIDEO'?'loadedmetadata':'load',ready);
+      media.addEventListener('error',()=>{
+        if(!card.isConnected)return;
+        if(host===0){host=1;load();return;}
+        status.textContent='Fichier non disponible sur ton hébergement';
+        card.classList.add('unavailable');btn.disabled=true;
+      });
+      load();
+    }
+  }
+
   function renderArtwork(){
     const s=section(),f=folder(),orig=findFolder(s?.id,f?.id);
     if(!f||!orig)return '<p class="mc-studio-hint">Sélectionne d’abord un dossier dans Organisation.</p>';
@@ -682,7 +738,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     ].map(([key,label,tip])=>'<label class="mc-studio-field">'+esc(label)+
        '<input type="url" data-art="'+key+'" value="'+esc(f.artwork[key]||'')+'" placeholder="https://ma-art.mailpromahe.workers.dev/media/...">'+
        '<small>'+esc(tip)+'</small></label>').join('');
-    return '<div class="mc-studio-artwork-screen">'+artTheater(f,orig)+'<div class="mc-studio-art-layout"><div class="mc-studio-art-preview">'+
+    return '<div class="mc-studio-artwork-screen">'+renderArchivedChoices(f,orig)+artTheater(f,orig)+'<div class="mc-studio-art-layout"><div class="mc-studio-art-preview">'+
       (f.artwork.heroBackdropUrl?'<img class="mc-studio-hero" src="'+esc(f.artwork.heroBackdropUrl)+'" alt="Fond du dossier">':'')+
       (f.artwork.coverImageUrl?'<img class="mc-studio-cover" src="'+esc(localGenreCovers.get(f.artwork.coverImageUrl) || f.artwork.coverImageUrl)+'" alt="Couverture du dossier">':'<div class="mc-studio-no-cover">Aucune affiche</div>')+
       (f.artwork.titleLogoUrl?'<img class="mc-studio-title-logo" src="'+esc(f.artwork.titleLogoUrl)+'" alt="Logo du titre">':'')+
@@ -1141,6 +1197,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     const back=root.querySelector('[data-action="studio-home"].mc-studio-back');
     if(back)back.hidden=tab==='accueil';
     body.innerHTML=(tab==='accueil'?renderHub():tab==='mes-creations'?renderCurations():tab==='organisation'?(cinemaMode?renderStudioCanvas(draft,{activeOnly:cinemaActiveOnly,expanded:cinemaExpanded,resolveImage:url=>localGenreCovers.get(url)||url}):renderSections()):tab==='affiches'?renderArtwork():tab==='apercu'?renderPreview():tab==='recherche'?renderGlobalSearch():tab==='modifications'?renderChanges():tab==='outils'?renderWorkshop():tab==='bibliotheque'?renderArtLibrary():tab==='logos-ma-art'?renderMaArtLogos():tab==='affiches-fr'?renderFrenchArt():tab==='import-collection'?renderCollectionImport():tab==='extensions'?renderAddonExport():tab==='parametres'?renderPreferences():tab==='partage'?renderSharing():renderProfiles());
+    bindArchivedPreviews(body);
     if(didNavigate){
       body.scrollTop=0;
       // Annuler toute animation précédente avant d'en lancer une autre.
@@ -1276,6 +1333,21 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     else if(a==='section'){pickSection(id);query='';draw();}
     else if(a==='folder'){selectedFolder=id;tab='affiches';draw();}
     else if(a==='goto-art'){tab='affiches';draw();}
+    else if(a==='archive-kind'){if(ARTWORK_KINDS[id]){archiveKind=id;archivePage=0;draw();}}
+    else if(a==='archive-toggle'){archiveAll=!archiveAll;archivePage=0;draw();}
+    else if(a==='archive-prev'){archivePage=Math.max(0,archivePage-1);draw();}
+    else if(a==='archive-next'){archivePage++;draw();}
+    else if(a==='archive-use'){
+      try{
+        const f=folder(),item=archiveItems(f,findFolder(selectedSection,selectedFolder)).find(x=>x.path===btn.dataset.path&&x.kind===btn.dataset.kind);
+        const url=btn.dataset.url||'';
+        if(!f||!item||btn.disabled||!isArchivedSelection(url,item.path))throw Error('Image non chargée.');
+        const safe=assetUrl(url);
+        if(!safe)throw Error('Image invalide.');
+        f.artwork[ARTWORK_KINDS[item.kind].field]=safe;
+        artLookIndex=0;message='Visuel sélectionné. Applique le profil pour le conserver.';draw();
+      }catch(e){message=e.message;draw();}
+    }
     else if(a==='art-open-library'){
       libraryQuery=folder()?.label||'';
       libraryKind='cover';
@@ -1657,6 +1729,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     });
     window.MaCollectionStudio={
       open, reviewExternalLayout,
+      openArtwork(sectionId,folderId){open('affiches',{sectionId,folderId});},
       decorateExport(collections){return applied?decorateExport(collections,applied):collections}
     };
   }
