@@ -1721,7 +1721,7 @@ function renderPreviewCollection() {
   const all = getAllFolders();   // every folder, selected or not
 
   const container = document.createElement('div');
-  container.className = `nv-emulator device-${previewDevice}`;
+  container.className = `nv-emulator mc-preview-layout device-${previewDevice}`;
 
   // ---- Liquid Glass: commandes essentielles visibles, outils avancés dans Plus. ----
   // Les identifiants sont conservés : exports, Studio et éditeurs utilisent les
@@ -1805,7 +1805,9 @@ function renderPreviewCollection() {
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
     </button>
   `;
-  container.appendChild(bar);
+  const dock = document.createElement('footer');
+  dock.className = 'mc-preview-dock';
+  dock.appendChild(bar);
 
   // ---- Empty state (only when the catalog itself is empty) ----
   if (all.length === 0) {
@@ -1816,6 +1818,7 @@ function renderPreviewCollection() {
       <p>This collection doesn't have any folders to show.</p>
     `;
     container.appendChild(empty);
+    container.appendChild(dock);
     canvas.appendChild(container);
     bindPreviewControls();
     return;
@@ -1883,6 +1886,7 @@ function renderPreviewCollection() {
   screen.appendChild(buildMobileTabBar());
   frame.appendChild(screen);
   container.appendChild(frame);
+  container.appendChild(dock);
   canvas.appendChild(container);
 
   bindPreviewControls();
@@ -2208,7 +2212,8 @@ function buildNuvioCard(folder, category, catIdx) {
       <button class="nv-card-act act-feature ${isFeatured ? 'on' : ''}" title="Set as featured (shows in hero)" aria-label="Set as featured">
         <svg viewBox="0 0 24 24" fill="${isFeatured ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
       </button>
-      <button class="nv-card-act act-gear" title="Customize sources" aria-label="Customize">
+      <button type="button" class="nv-card-act act-art" title="Choisir les affiches, fonds et logos" aria-label="Choisir les visuels"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="m3 17 5-5 4 4 4-6 5 7"/></svg></button>
+      <button class="nv-card-act act-gear" title="Personnaliser les sources" aria-label="Personnaliser les sources">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
       </button>
     </div>`;
@@ -2272,6 +2277,11 @@ function buildNuvioCard(folder, category, catIdx) {
   card.querySelector('.act-feature').addEventListener('click', (e) => {
     e.stopPropagation();
     setPreviewFeatured(folder, category);
+  });
+  card.querySelector('.act-art')?.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if(window.MaCollectionStudio?.openArtwork) window.MaCollectionStudio.openArtwork(String(category.id),String(getFolderKey(folder)));
+    else showToast('Le Studio n’est pas encore chargé. Réessaie.','error');
   });
   card.querySelector('.act-gear').addEventListener('click', (e) => {
     e.stopPropagation();
