@@ -31,7 +31,9 @@ export function archivedChoices(inventory,folder,baseline={},kind='cover'){
     try{const u=new URL(val);const p=u.pathname.replace(/^\/+/,'');if(pathPattern.test(p))paths.add(p);}catch{}
   }
   for(const item of list)if(paths.has(item.path)&&item.key)keys.add(item.key);
-  return list.filter(x=>x.kind===kind&&keys.has(x.key)).sort((a,b)=>a.label.localeCompare(b.label,'fr'));
+  return list.filter(x=>x.kind===kind&&(
+    keys.has(artKey(x.key))||(Array.isArray(x.aliases)&&x.aliases.some(a=>keys.has(artKey(a))))
+  )).sort((a,b)=>a.label.localeCompare(b.label,'fr'));
 }
 export function archivedUrl(path,host=0){
   return pathPattern.test(path)&&ART_HOSTS[host]?ART_HOSTS[host]+path:'';
