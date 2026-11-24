@@ -172,3 +172,29 @@ html[data-theme="light"] #mc-studio-root .mc-art-picker-pagination button{color:
 @media(prefers-reduced-motion:reduce){
  #mc-studio-root .mc-art-picker-card{transform:none!important;transition:none!important}
 }
+
+
+/* The real archived artwork is the first part of the folder editor. */
+#mc-studio-root .mc-archive-picker{min-width:0;display:grid;gap:12px;padding:18px;border:1px solid var(--kv-border,rgba(159,121,255,.3));border-radius:15px;background:var(--bg-card,rgba(25,20,42,.8))}
+#mc-studio-root .mc-archive-heading{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+#mc-studio-root .mc-archive-heading h3{margin:0 0 5px;font-size:1.1rem}
+#mc-studio-root .mc-archive-heading p{margin:0;color:var(--text-secondary,#bcb3cf);font-size:.8rem}
+#mc-studio-root .mc-archive-tabs,#mc-studio-root .mc-archive-pages{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+#mc-studio-root .mc-archive-pages{justify-content:center}
+#mc-studio-root .mc-archive-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,185px),1fr));gap:11px;min-width:0}
+#mc-studio-root .mc-archive-card{min-width:0;display:flex;flex-direction:column;gap:7px;padding:8px;border:1px solid rgba(155,128,216,.22);border-radius:12px;background:rgba(134,86,244,.06)}
+#mc-studio-root .mc-archive-preview{height:clamp(94px,12vw,175px);border-radius:8px;background:#14101e;overflow:hidden;display:grid;place-items:center}
+#mc-studio-root .mc-archive-preview :is(img,video){width:100%;height:100%;object-fit:contain}
+#mc-studio-root .mc-archive-card strong{font-size:.78rem;line-height:1.3;overflow-wrap:anywhere}
+#mc-studio-root .mc-archive-card small{font-size:.68rem;color:var(--text-secondary,#bcb3cf);overflow-wrap:anywhere}
+#mc-studio-root .mc-archive-picker button{min-height:38px;max-width:100%;box-sizing:border-box;padding:8px 11px;border-radius:9px;border:1px solid var(--kv-border,rgba(163,128,255,.35));background:rgba(134,86,244,.09);color:var(--text-primary,#efe6ff);white-space:normal;overflow-wrap:anywhere;cursor:pointer;font:650 .78rem/1.3 system-ui,sans-serif}
+#mc-studio-root .mc-archive-picker button[aria-pressed=true],#mc-studio-root .mc-archive-card.available button{background:var(--kv-brand,#8656f4);color:var(--kv-on-brand,#fff)}
+#mc-studio-root .mc-archive-card button{margin-top:auto;width:100%}
+#mc-studio-root .mc-archive-picker button:disabled{opacity:.45;cursor:not-allowed}
+#mc-studio-root .mc-archive-card.unavailable .mc-archive-preview{opacity:.35}
+@media(max-width:560px){
+#mc-studio-root .mc-archive-picker{padding:11px;gap:9px}
+#mc-studio-root .mc-archive-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+#mc-studio-root .mc-archive-tabs button{flex:1 1 calc(50% - 8px);min-height:42px}
+#mc-studio-root .mc-archive-card button{min-height:42px}
+}
