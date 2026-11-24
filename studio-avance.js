@@ -13,7 +13,7 @@ import {
 import {createStudioBackupStore,makeStudioBackup} from './studio-backups.mjs';
 import {studioFolderKey,studioTidy,studioApplyBatch} from './studio-workshop-core.mjs';
 import {ARTWORK_KINDS,listStudioArtworks,searchStudioArtworks,useStudioArtwork} from './studio-art-library.mjs?v=2';
-import {archivedChoices,archivedUrl,isArchivedSelection,isMotionVideo} from './studio-archived-art.mjs?v=1';
+import {archivedChoices,archivedUrl,isArchivedSelection,isMotionVideo,VAULT_STYLES,vaultStyle,vaultShape,filterVault,vaultMotion} from './studio-archived-art.mjs?v=2';
 import {enrichMaArtLogos,searchMaArtLogos,applyMaArtLogo} from './studio-ma-art-logos.mjs';
 import {frenchPackTemplate,validateFrenchPack,planFrenchPack,applyFrenchPack} from './studio-fr-art.mjs';
 import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './studio-recovery-core.mjs';
@@ -39,7 +39,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
   let workshopSearch='',workshopSection='all',workshopSelected=new Set(),workshopMode='active-first';
   let workshopSortSections=true,workshopSortFolders=true,workshopUndo=null;
   let libraryQuery='',libraryFilter='all',libraryKind='cover',libraryPage=0,libraryUndo=null;
-  let archiveKind='cover',archiveAll=false;
+  let archiveKind='cover',archiveAll=false,archiveStyle='all',archiveShape='all',archiveQuery='',archiveMotion=true,archiveIndexState='idle';
   let importedStudioArt=[],studioIndexPromise=null;
   const archiveResolved=new Map(),archiveFailed=new Set();
   let archiveInventoryCache=null;
@@ -52,6 +52,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
   };
   function loadPublishedStudioArt(){
     if(studioIndexPromise)return studioIndexPromise;
+    archiveIndexState='loading';
     studioIndexPromise=(async()=>{
       for(const base of ['https://ma-art-images-static.mailpromahe.workers.dev/','https://ma-art.mailpromahe.workers.dev/']){
         try{
@@ -60,11 +61,13 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
           const json=await response.json();
           if(!Array.isArray(json.items))continue;
           importedStudioArt=json.items.filter(x=>x&&typeof x.key==='string'&&typeof x.label==='string'&&archivedUrl(x.path)&&ARTWORK_KINDS[x.kind]).slice(0,20000);
-          archiveInventoryCache=null;archiveFailed.clear();
+          archiveIndexState='ready';archiveInventoryCache=null;archiveFailed.clear();
           if(root&&!root.hidden&&(tab==='affiches'||tab==='bibliotheque')){artLookIndex=0;draw();}
           return;
         }catch{}
       }
+      archiveIndexState='unavailable';studioIndexPromise=null;
+      if(root&&!root.hidden&&tab==='affiches')draw();
     })();
     return studioIndexPromise;
   }
@@ -425,6 +428,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       if(e.defaultPrevented)return;
       e.preventDefault();
       e.stopPropagation();
+      const zoom=root.querySelector('.mc-vault-lightbox');if(zoom){zoom.remove();return;}
       if(navigationOpen){
         setNavigation(false);
         root.querySelector('[data-action="studio-menu"]')?.focus();
@@ -470,7 +474,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     cinemaMode=false;cinemaActiveOnly=false;cinemaExpanded=new Set();
     artLookIndex=0;artSearch='';artMoreOnly=false;artNeedsAttention=false;showBatch=false;previewDevice='tv';globalQuery='';globalActiveOnly=false;globalNoCover=false;
     workshopSelected=new Set();workshopUndo=null;workshopSearch='';workshopSection='all';
-    libraryQuery='';libraryFilter='all';libraryKind='cover';libraryPage=0;libraryUndo=null;archiveKind='cover';archiveAll=false;
+    libraryQuery='';libraryFilter='all';libraryKind='cover';libraryPage=0;libraryUndo=null;archiveKind='cover';archiveAll=false;archiveStyle='all';archiveShape='all';archiveQuery='';archiveMotion=true;
     logoQuery='';logoGroup='all';logoUndo=null;
     frUndo=null;frSection='all';frActiveOnly=true;loadFrenchArt();
     archivePage=0;
@@ -699,35 +703,64 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
   }
 
 
-  function archiveItems(f,real){
+  function archiveBaseItems(f,real){
     const inventory=archiveInventory();
-    if(archiveAll)return inventory.filter(x=>x.kind===archiveKind);
-    return archivedChoices(inventory,f,originals?.[f.id]||real||{},archiveKind);
+    return archiveAll?inventory.filter(x=>x.kind===archiveKind):archivedChoices(inventory,f,originals?.[f.id]||real||{},archiveKind);
+  }
+  function archiveItems(f,real){
+    return filterVault(archiveBaseItems(f,real),{query:archiveQuery,style:archiveStyle,shape:archiveShape});
   }
   let archivePage=0;
   function renderArchivedChoices(f,real){
-    const items=archiveItems(f,real),pageSize=30;
+    const base=archiveBaseItems(f,real),items=archiveItems(f,real),pageSize=30;
     archivePage=Math.min(archivePage,Math.max(0,Math.ceil(items.length/pageSize)-1));
     const current=items.slice(archivePage*pageSize,(archivePage+1)*pageSize);
     const tabs=Object.entries(ARTWORK_KINDS).map(([id,k])=>button(k.label,'archive-kind','data-id="'+id+'" aria-pressed="'+(archiveKind===id)+'"')).join('');
+    const counts=new Map();
+    for(const x of filterVault(base,{query:archiveQuery,shape:archiveShape})){const k=vaultStyle(x);counts.set(k,(counts.get(k)||0)+1);}
+    const styles=VAULT_STYLES.map(([id,label])=>button(label+' · '+(id==='all'?filterVault(base,{query:archiveQuery,shape:archiveShape}).length:counts.get(id)||0),'archive-style','data-id="'+id+'" aria-pressed="'+(archiveStyle===id)+'"')).join('');
+    const shapes=[['all','Tous les formats'],['landscape','16:9'],['poster','2:3']].map(([id,label])=>button(label,'archive-shape','data-id="'+id+'" aria-pressed="'+(archiveShape===id)+'"')).join('');
     const cards=current.map(x=>{
       const field=ARTWORK_KINDS[x.kind].field;
       const chosen=isArchivedSelection(f.artwork[field],x.path);
+      const motion=vaultMotion(x,archiveInventory());
+      const shape=vaultShape(x);
       return '<article class="mc-archive-card" data-archive-card data-path="'+esc(x.path)+'">'+
-        '<div class="mc-archive-preview">'+
+        '<div class="mc-archive-preview" '+(shape?'data-shape="'+shape+'"':'')+'>'+
         (isMotionVideo(x.path)?'<video muted playsinline preload="metadata" data-archive-media>':'<img loading="lazy" decoding="async" alt="'+esc(x.label)+'" data-archive-media>')+
-        (isMotionVideo(x.path)?'</video>':'')+'</div>'+
+        (isMotionVideo(x.path)?'</video>':'')+
+        button('⤢','archive-zoom','class="mc-vault-zoom" aria-label="Agrandir le visuel" disabled')+'</div>'+
         '<strong>'+esc(x.label)+'</strong>'+
+        '<small class="mc-vault-meta">'+esc([x.key,x.group,shape==='poster'?'2:3':shape==='landscape'?'16:9':'',motion?'Animation disponible':''].filter(Boolean).join(' · '))+'</small>'+
         '<small data-archive-state>Vérification du fichier…</small>'+
-        button(chosen?'Sélectionné':'Choisir','archive-use','data-path="'+esc(x.path)+'" data-kind="'+esc(x.kind)+'" disabled')+'</article>';
+        '<div class="mc-vault-card-actions">'+
+        (motion?button('Animer','archive-motion-preview','data-path="'+esc(motion.path)+'" disabled'):'')+
+        button(chosen?'Sélectionné':'Changer le visuel','archive-use','data-path="'+esc(x.path)+'" data-kind="'+esc(x.kind)+'" disabled')+'</div></article>';
     }).join('');
-    return '<section class="mc-archive-picker"><div class="mc-archive-heading"><div><h3>Variantes Ma-Art · '+esc(f.label)+'</h3><p>Affiches originales, fonds, logos et animations associés au dossier.</p></div>'+
-      button(archiveAll?'Ce dossier seulement':'Toute la bibliothèque','archive-toggle')+'</div>'+
+    const status=archiveIndexState==='ready'?'Inventaire du serveur Ma-Art chargé.':archiveIndexState==='loading'?'Chargement de l’inventaire Ma-Art…':archiveIndexState==='unavailable'?'Le nouvel inventaire Ma-Art n’est pas accessible. Les anciennes références restent visibles.':'Inventaire local.';
+    return '<section class="mc-archive-picker"><div class="mc-archive-heading"><div><h3>Bibliothèque d’illustrations · '+esc(f.label)+'</h3><p>'+esc(status)+'</p></div>'+
+      '<div class="mc-vault-heading-actions">'+button(archiveMotion?'Animations : activées':'Animations : désactivées','archive-motion','aria-pressed="'+archiveMotion+'"')+button(archiveAll?'Ce dossier seulement':'Toute la bibliothèque','archive-toggle')+
+      (archiveIndexState==='unavailable'?button('Réessayer','archive-retry'):'')+'</div></div>'+
       '<div class="mc-archive-tabs">'+tabs+'</div>'+
-      '<p class="mc-studio-hint">'+items.length+' fichiers indexés. Seuls ceux qui se chargent depuis ton hébergement sont sélectionnables.</p>'+
-      '<div class="mc-archive-grid">'+(cards||'<p>Aucune variante associée. Essaie toute la bibliothèque ou ajoute ton image.</p>')+'</div>'+
+      '<div class="mc-vault-styles" aria-label="Styles disponibles">'+styles+'</div>'+
+      '<div class="mc-vault-filters"><label>Rechercher<input type="search" data-archive-query value="'+esc(archiveQuery)+'" placeholder="Netflix, Ghost, acteurs…"></label><div class="mc-vault-shapes" aria-label="Format">'+shapes+'</div></div>'+
+      '<p class="mc-studio-hint">'+items.length+' fichiers référencés pour ces filtres. La sélection est activée après vérification du chargement.</p>'+
+      '<div class="mc-archive-grid">'+(cards||'<p>Aucun fichier ne correspond aux filtres. Aucun visuel fictif n’a été ajouté.</p>')+'</div>'+
       '<div class="mc-archive-pages">'+button('Précédent','archive-prev',archivePage?'':'disabled')+'<span>Page '+(archivePage+1)+' / '+Math.max(1,Math.ceil(items.length/pageSize))+'</span>'+button('Suivant','archive-next',(archivePage+1)*pageSize<items.length?'':'disabled')+'</div></section>';
   }
+  function showArchiveZoom(url,label){
+    if(!url)return;
+    root.querySelector('.mc-vault-lightbox')?.remove();
+    const box=document.createElement('div');box.className='mc-vault-lightbox';
+    box.setAttribute('role','dialog');box.setAttribute('aria-label',label||'Aperçu du visuel');
+    box.innerHTML='<div class="mc-vault-lightbox-content"><button type="button" data-action="archive-zoom-close" aria-label="Fermer l’aperçu">×</button><div class="mc-vault-lightbox-media"></div><p>'+esc(label)+'</p></div>';
+    const media=document.createElement(isMotionVideo(url)?'video':'img');media.src=url;
+    if(media.tagName==='VIDEO'){media.controls=true;media.autoplay=true;media.muted=true;media.loop=true;media.playsInline=true;}else media.alt=label||'';
+    box.querySelector('.mc-vault-lightbox-media').appendChild(media);
+    root.appendChild(box);box.querySelector('button').focus();
+    box.addEventListener('click',e=>{if(e.target===box)box.remove();});
+  }
+
   function bindArchivedPreviews(body){
     for(const card of body.querySelectorAll('[data-archive-card]')){
       const path=card.dataset.path,media=card.querySelector('[data-archive-media]'),status=card.querySelector('[data-archive-state]'),btn=card.querySelector('[data-action="archive-use"]');
@@ -738,6 +771,8 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
         btn.dataset.url=media.currentSrc||media.src;
         archiveResolved.set(path,btn.dataset.url);
         btn.disabled=false;status.textContent='Disponible sur Ma-Art';
+        const zoom=card.querySelector('[data-action="archive-zoom"]');if(zoom){zoom.disabled=false;zoom.dataset.url=btn.dataset.url;}
+        const motion=card.querySelector('[data-action="archive-motion-preview"]');if(motion)motion.disabled=!archiveMotion;
         card.classList.add('available');
       };
       media.addEventListener(media.tagName==='VIDEO'?'loadedmetadata':'load',ready);
@@ -1308,6 +1343,7 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
       if(el.matches('[data-collection-file]')){inspectBackup(el.files[0]);el.value='';return;}
       if(el.matches('[data-fr-file]')){importFrenchArt(el.files[0]);el.value='';return;}
       if(el.matches('[data-library-search]')){redrawSearchField(el,'[data-library-search]',v=>{libraryQuery=v;libraryPage=0;});return;}
+      if(el.matches('[data-archive-query]')){redrawSearchField(el,'[data-archive-query]',v=>{archiveQuery=v;archivePage=0;});return;}
       if(el.matches('[data-logo-search]')){redrawSearchField(el,'[data-logo-search]',v=>logoQuery=v);return;}
       if(el.matches('[data-logo-group]')){logoGroup=el.value;draw();return;}
       if(el.matches('[data-library-filter]')){libraryFilter=el.value;libraryPage=0;draw();return;}
@@ -1383,6 +1419,16 @@ import {buildRecoveryPackage,validateRecoveryPackage,planRecoveryMerge} from './
     else if(a==='folder'){selectedFolder=id;tab='affiches';draw();}
     else if(a==='goto-art'){tab='affiches';draw();}
     else if(a==='archive-kind'){if(ARTWORK_KINDS[id]){archiveKind=id;archivePage=0;draw();}}
+    else if(a==='archive-style'){if(VAULT_STYLES.some(([k])=>k===id)){archiveStyle=id;archivePage=0;draw();}}
+    else if(a==='archive-shape'){if(['all','landscape','poster'].includes(id)){archiveShape=id;archivePage=0;draw();}}
+    else if(a==='archive-motion'){archiveMotion=!archiveMotion;draw();}
+    else if(a==='archive-retry'){loadPublishedStudioArt();draw();}
+    else if(a==='archive-zoom'){const url=btn.dataset.url;if(url&&archiveInventory().some(x=>isArchivedSelection(url,x.path)))showArchiveZoom(url,btn.closest('[data-archive-card]')?.querySelector('strong')?.textContent||'Illustration');}
+    else if(a==='archive-zoom-close'){root.querySelector('.mc-vault-lightbox')?.remove();}
+    else if(a==='archive-motion-preview'){
+      const path=btn.dataset.path,url=archivedUrl(path);
+      if(archiveMotion&&url)showArchiveZoom(url,'Animation du visuel');
+    }
     else if(a==='archive-toggle'){archiveAll=!archiveAll;archivePage=0;draw();}
     else if(a==='archive-prev'){archivePage=Math.max(0,archivePage-1);draw();}
     else if(a==='archive-next'){archivePage++;draw();}
